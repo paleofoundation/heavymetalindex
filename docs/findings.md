@@ -276,3 +276,83 @@ Body typography across every detail page was pre-v3, and none of it was being me
 - `productEvidenceSummary.scss` `body[data-slug^="products/"] article h2 { font-size: 1.45rem; border-top: … }` — out-specified `.wiki-content h2` (0,2,2 vs 0,1,1) and so won on all 410 product pages, rendering headings at 23.2px under a border-TOP where v3 has 30px over a border-BOTTOM
 
 All corrected or deleted in place rather than out-specified, and all four are now covered by `check:v3` style assertions.
+
+## OBJECTION 1 · Claim underline (COMPONENTS.md item 3) · ground B
+
+**Job the element does:** show a reader which words are a traceable claim and which are
+connective prose — the thing that makes a synthesis page a claim-bearing record rather
+than an essay.
+
+**Why the mapping fails:** the data does not exist. `data-claim` appears **0 times** in
+the repo and **0 times** across all 3,884 built HTML files. `data/evidence/claims.jsonl`
+is 1 byte — an empty file behind a real schema. `id="claim-*"`, `claim_id` and `n_claims`
+are likewise absent from every built page. COMPONENTS.md states the cite keys are
+"already minted (`<firstauthor><year>-<slug>` per docs/conventions.md)"; `docs/conventions.md`
+contains zero occurrences of `data-claim`, and nothing mints them. Writing
+`span[data-claim] { border-bottom: 1px dotted #cbb4bc }` would match zero elements on
+every page — a no-op that reads in a diff as a landed component. That is the exact
+failure shape FIDELITY.md exists to catch.
+
+Also, the only attribute shape ground truth is the mockup itself (v3:461), where the
+underline is an **inline style attribute per span**, not a CSS rule. There is no source
+CSS block to port; this is a translation, not a copy.
+
+**Do NOT delete on this one:** `quartz/styles/_legacy-all.scss:242-258` gives source-link
+superscripts a `1px dotted` underline. It looks like a predecessor and is not — it targets
+the citation `<a>`, not the claim `<span>`, and it is live on 1,494 anchors in
+`metals/lead` alone. Deleting it strips citation marking site-wide.
+
+**What I propose instead:** hold the CSS rule until claims exist. The prerequisite is two
+pieces of non-component work: populate `data/evidence/claims.jsonl` against the existing
+`claim.schema.json`, then emit the spans from a generator (F-16). The one-line CSS rule is
+correct and cheap — it is simply last in that chain, not first.
+
+**Tier:** 1
+
+## OBJECTION 2 · Caveat callout (COMPONENTS.md item 9) · ground B
+
+**Job the element does:** let a reader find where a page is thin without hunting for it.
+
+**Why the mapping fails, partially:** the named data source does not exist —
+neither `uncertainty` nor `gaps` appears in the 375 distinct frontmatter keys across
+`wiki/**/*.md`. And "Every detail screen has one" is false in this corpus: coverage is
+195/2,221 source pages (8.8%), 10/37 metal pages (27%), 4/25 synthesis, and **zero** of
+258 ingredient, 415 product-category and 62 regulation pages.
+
+**What I propose instead, and am proceeding with:** build it heading-driven rather than
+frontmatter-driven. `## Limitations` (188 occurrences, source pages only) and
+`## Open questions` (14, everything else) cover 202 pages with one rule — which is the
+right shape per CONTENT-RULES §6. That part is ground A/C and mine to decide, so I am not
+waiting on it.
+
+What comes back to you is the other half: **735 ingredient, product-category and
+regulation pages have no limitations section at all.** That is a content gap, not a
+styling gap — no component can surface a caveat that was never written. Whether those
+page types should carry one is a design/editorial call.
+
+**Tier:** 1
+
+## OBJECTION 3 · Caption (COMPONENTS.md item 10) · ground C
+
+**Job the element does:** carry the thing that would otherwise be a misreading — the
+basis, the legal status, or the fact that a number is a population percentile rather than
+a safety threshold.
+
+**Why the mapping fails:** position, not data. No caption element, class or rule exists
+anywhere in the build — no `<figcaption>`, no `caption` selector in the compiled
+stylesheet. More importantly, **generated table notes are emitted BEFORE the table**, as
+an ordinary `<p>` separated from `<div class="table-container">` by newlines. COMPONENTS.md
+specifies `margin-top 10-16px`, i.e. a caption hanging off the *bottom*. Moving them is a
+change to the emitters, not to CSS — F-16 by METHOD.md §3.
+
+Compounding it: 227 ingredient pages carry a contamination-profile note whose wording no
+checked-in generator produces. That prose is frozen in `wiki/` and a generator-only fix
+would miss it.
+
+**What I propose instead:** style the existing note as a caption *in its current position*
+now — 11.5px / 1.55 / `#a9a1a2` — which delivers the whole anti-misreading benefit
+immediately and costs one rule. Log the reposition-below-table as F-16 with the 227 frozen
+pages named. I am proceeding on that basis; ground C is mine, but the spec says "below"
+and I am knowingly shipping "above", so you should know.
+
+**Tier:** 1

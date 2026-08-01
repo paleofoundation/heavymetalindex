@@ -1,11 +1,5 @@
 # COMPONENTS — v3's data-presentation vocabulary
 
-> Provenance: authored by Karen 2026-08-01 and transcribed here verbatim from her
-> message. The file was reported as `handoff/COMPONENTS.md` but was not present on
-> disk, so this repo copy is currently the only one. The companion edits described
-> for `METHOD.md` (§4 demotion, new §7 signature) are likewise not yet on disk;
-> `docs/design/METHOD.md` is the pre-edit version.
-
 The codification target. `METHOD.md` §4 is a **value system** (colours, geometries) and
 that framing is itself the bug: it invites a diff against the current page, which can
 only ever converge on the old build wearing new colours.

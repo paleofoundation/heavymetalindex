@@ -115,7 +115,11 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
                       <circle cx="8" cy="8" r="7" />
                     </g>
                   </svg>
-                  <p>{i18n(cfg.locale).components.search.title}</p>
+                  {/* v3's search box reads "Search the index" (artifact 55), not the
+                      generic i18n search title. Scoped to the top bar rather than
+                      changed in i18n, because `components.search.title` also labels
+                      the search modal, where "Search" is correct. */}
+                  <p>Search the index</p>
                   {/* v3 line 56: the "/" affordance sits inside the box, pushed
                       right by an auto margin. Hidden below 1150px, where the
                       whole box collapses to a 36px icon square. */}

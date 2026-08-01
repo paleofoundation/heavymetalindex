@@ -1,7 +1,14 @@
 # METHOD — how to reproduce the v3 design work in the repo
 
-Companion to `FIDELITY.md`. That file is the **gate** (catches drift after the fact).
-This file is the **method** (prevents it). Read both before touching `quartz/`.
+Three files, three jobs. `FIDELITY.md` is the **gate** (catches drift after the fact).
+This file is the **method** (prevents it). `COMPONENTS.md` is the **vocabulary** — v3's
+data-presentation components, which is what actually gets built. Read all three before
+touching `quartz/`.
+
+**If you read only one thing, read `COMPONENTS.md`.** v3 is an information architecture,
+not a stylesheet. The value system in §4 below is necessary and insufficient: it lets you
+match v3's colours while still rendering the old build's structure. The components are
+the work.
 
 ---
 
@@ -98,6 +105,10 @@ component.
 ---
 
 ## 4. The closed value system
+
+**Necessary, not sufficient — see `COMPONENTS.md` first.** These are the values a
+component is built *from*; they do not tell you what to build. A page can pass every
+assertion here and still present its data as prose.
 
 Copy these verbatim. Every value below is read off `Heavy Metal Index v3.dc.html`.
 Where the repo currently differs, the repo is wrong.
@@ -199,3 +210,8 @@ And two standing constraints that apply to every task:
 - A colour that is *close to* `#8b2a4a` but not equal to it (`#9a2852` shipped in
   `middleware.ts` for months) → §4, copy verbatim.
 - "Matches v3" with no exit code attached → §2.
+- Work described as *which CSS values differ* rather than *which component this data
+  belongs in* → `COMPONENTS.md`. A diff converges on the old build in new colours; it
+  cannot produce reorganization.
+- A measured value sitting inside a prose sentence → `COMPONENTS.md`, the dotted
+  key–value row exists for exactly this.
