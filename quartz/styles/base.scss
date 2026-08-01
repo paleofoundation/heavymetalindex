@@ -511,10 +511,14 @@ code {
   background: var(--lightgray);
 }
 
+// v3 body copy is 16.5px / 1.78 (artifact 476). An ABSOLUTE 1.6rem here set
+// line-height directly on every <p>, so the relative 1.78 inherited from
+// .wiki-content could never win no matter what that rule said — the render
+// disagreed with correct-looking source. Corrected, not out-specified.
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.78;
 }
 
 .table-container {

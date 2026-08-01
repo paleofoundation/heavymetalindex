@@ -88,8 +88,47 @@ const railBlocks = [...railText.matchAll(/>([A-Z][^<>{}]{3,30}?)<\/div>/g)]
   .map((m) => m[1].trim())
   .filter((t) => !t.includes("{{"))
 
+// v3's per-screen data blocks (artifact ~1790-1930) are keyed by the lowercase
+// screen name — `metal:`, `source:`, … — and carry two things the gate needs:
+//
+//   noRefs / noSources / noHistory  which parts of the shared tail a screen
+//                                   suppresses. v3's SOURCE screen sets
+//                                   `noRefs: true, noSources: true` (artifact
+//                                   1892): a source record cites nothing and
+//                                   owns no corpus list, so demanding a
+//                                   References section there asserts something
+//                                   v3 never rendered.
+//   snapshot                        whether the detail hero carries a Page
+//                                   snapshot panel. Extracted because the gate
+//                                   was asserting `.hero-snapshot` on screens
+//                                   without checking whether v3 gives them one.
+const tail = {}
+const snapshot = {}
+for (const [i, l] of lines.entries()) {
+  const m = l.match(/^ {6}([a-z]+): \{\s*$/)
+  if (!m) continue
+  const key = m[1]
+  // The block runs to the next same-indent key or the end of the data region.
+  let end = lines.length
+  for (let j = i + 1; j < lines.length; j++) {
+    if (/^ {6}[a-z]+: \{\s*$/.test(lines[j]) || /^ {4}\}/.test(lines[j])) {
+      end = j
+      break
+    }
+  }
+  const body = lines.slice(i, end).join("\n")
+  const sup = []
+  if (/noRefs:\s*true/.test(body)) sup.push("References")
+  if (/noSources:\s*true/.test(body)) sup.push("Sources")
+  if (/noHistory:\s*true/.test(body)) sup.push("Update history")
+  tail[key] = sup
+  snapshot[key] = /\bsnapshot:\s*\[/.test(body)
+}
+
 const spec = {
   _generated_by: "tools/design/extract-v3-acceptance.mjs",
+  tailSuppressed: tail,
+  hasSnapshot: snapshot,
   _source: "Heavy Metal Index v3.dc.html",
   _note:
     "Presence assertions are extracted from the artifact, not authored. " +

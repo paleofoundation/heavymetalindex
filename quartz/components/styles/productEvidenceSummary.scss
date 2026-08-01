@@ -152,10 +152,8 @@
   background: rgba(139, 42, 74, 0.1);
 }
 
-body[data-slug^="products/"] article > p:first-of-type {
-  font-size: 1.02rem;
-  line-height: 1.62;
-}
+// REMOVED: a product-only lead-paragraph size (1.02rem / 1.62). v3 has no lead
+// paragraph on any screen — every detail-section paragraph is 16.5px / 1.78.
 
 @media all and (min-width: 1200px) {
   body[data-slug^="products/"] #quartz-root {
@@ -168,12 +166,11 @@ body[data-slug^="products/"] article > p:first-of-type {
   }
 }
 
-body[data-slug^="products/"] article h2 {
-  border-top: 1px solid var(--lightgray);
-  font-size: 1.45rem;
-  margin-top: 2.2rem;
-  padding-top: 1.25rem;
-}
+// REMOVED: a product-only h2 treatment that out-specified `.wiki-content h2`
+// (0,2,2 vs 0,1,1) and so won on all 410 product pages, rendering headings at
+// 1.45rem/23.2px under a border-TOP. v3's section heading is 30px over a
+// border-BOTTOM (artifact 460), the same on every screen. Deleted rather than
+// out-specified: a surviving rule wins again the next time something shifts.
 
 body[data-slug^="products/"] article table th,
 body[data-slug^="products/"] article table td {

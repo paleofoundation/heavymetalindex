@@ -63,14 +63,35 @@ const ABSENT = [".hero-glyph", ".hero-pill", ".hero-right"]
 // `.proof-layout`'s max-width — HOME A is full-bleed and has no detail shell by
 // design (artifact 100-262), so those would be false failures. A gate that
 // cries wolf gets ignored, which is how the last one stopped being read.
+// Screens v3 gives a Page snapshot panel, read off the artifact.
+const SNAPSHOT_SCREENS = Object.entries(SPEC.hasSnapshot ?? {})
+  .filter(([, v]) => v)
+  .map(([k]) => "is" + k.charAt(0).toUpperCase() + k.slice(1))
+
 const CHROME = "*" // every screen
 const DETAIL = "detail" // every screen except HOME A
+// A screen list scopes an assertion to the screens whose v3 spec actually
+// contains the element. `.qa` is scoped to isMetal because "Questions this page
+// answers" appears only on v3's metal screen — asserting it on a source page
+// reports NO SUCH ELEMENT for something v3 never put there, and a gate that
+// cries wolf stops being read. This is scoping to the SPEC, not scoping away an
+// inconvenient failure: if the metal screen loses its FAQ, this still fails.
 
 const STYLES = [
   // FIDELITY.md tells — these read the OLD values if the old pill and card
   // rules are still winning in the cascade.
   { on: DETAIL, sel: ".hero-act", prop: "borderRadius", want: "2px", why: "FIDELITY.md: 7px/999px means old pills live" },
-  { on: DETAIL, sel: ".hero-snapshot", prop: "borderRadius", want: "0px", why: "FIDELITY.md: old card was 12px" },
+  {
+    // Scoped from the artifact's own data, not a guess: SPEC.hasSnapshot records
+    // which screens carry a `snapshot:` block. v3 gives metal, ingredient,
+    // regulation and source a Page snapshot and gives PRODUCT none — the
+    // opposite of what F-19 assumed before the data was read.
+    on: SNAPSHOT_SCREENS,
+    sel: ".hero-snapshot",
+    prop: "borderRadius",
+    want: "0px",
+    why: "FIDELITY.md: old card was 12px",
+  },
 
   // site chrome — present on every screen (artifact 37-38, 1482-1483)
   { on: CHROME, sel: ".hmi-topnav-inner", prop: "maxWidth", want: "1760px", why: "artifact 38 header" },
@@ -88,6 +109,31 @@ const STYLES = [
   // rail items, artifact 413-417 — text on a hairline, never a filled pill
   { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontSize", want: "13px", why: "artifact 414" },
   { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontWeight", want: "400", why: "artifact 414" },
+
+  // ── body typography ────────────────────────────────────────────────────
+  // These are the assertions that would have caught the drift Karen could see
+  // in the FAQ section. Every one of them was wrong on every detail page while
+  // the previous gate reported 25/25, because none of it was being measured.
+
+  // section heading, artifact 460. Was 24px semibold over a DOTTED #cfcabf rule.
+  { on: DETAIL, sel: ".wiki-content h2", prop: "fontSize", want: "30px", why: "artifact 460" },
+  { on: DETAIL, sel: ".wiki-content h2", prop: "fontWeight", want: "400", why: "artifact 460" },
+  { on: DETAIL, sel: ".wiki-content h2", prop: "borderBottomColor", want: "#e8e1db", why: "artifact 460" },
+  { on: DETAIL, sel: ".wiki-content h2", prop: "borderBottomStyle", want: "solid", why: "artifact 460 (was dotted)" },
+
+  // body copy, artifact 476. `article` set these directly, so .wiki-content's
+  // inherited values could never win.
+  { on: DETAIL, sel: "article > p", prop: "fontSize", want: "16.5px", why: "artifact 476" },
+  { on: DETAIL, sel: "article > p", prop: "lineHeight", want: "29.37px", why: "artifact 476 (1.78)" },
+  { on: DETAIL, sel: "article > p", prop: "color", want: "#3f3a3f", why: "artifact 476" },
+
+  // the FAQ, artifact 174-178 — question in burgundy REGULAR, marker a bare
+  // mono glyph, answer indented behind a 2px #e0c9d1 rule.
+  { on: ["isMetal"], sel: ".qa summary", prop: "fontSize", want: "21px", why: "artifact 175" },
+  { on: ["isMetal"], sel: ".qa summary", prop: "fontWeight", want: "400", why: "artifact 175 (was 600)" },
+  { on: ["isMetal"], sel: ".qa summary", prop: "color", want: "#8b2a4a", why: "artifact 175 (was near-black)" },
+  { on: ["isMetal"], sel: ".qa summary .mk", prop: "borderRadius", want: "0px", why: "artifact 174 (was a 50% ring)" },
+  { on: ["isMetal"], sel: ".qa .ans", prop: "borderLeftColor", want: "#e0c9d1", why: "artifact 178" },
 ]
 
 const NORM = (v) => {
@@ -113,8 +159,18 @@ await page.setViewport({ width: 1440, height: 1200 })
 const failures = []
 
 for (const p of PAGES) {
+  // sharedTail = References / Sources / Update history. v3 renders all three as
+  // body sections (artifact 1347, 1389, 1427) AND as numbered rails 07/08/09
+  // anchored to them (artifact 1795). They were previously stripped from the
+  // rail and re-rendered as icon links, with Sources pointing at the global
+  // archive — v3's Sources section is topic-scoped ("every document in the
+  // corpus that reports on {{ page.topic }}", artifact 1391), so it must be an
+  // in-page anchor.
   const blocks = SPEC.screens[p.screen] ?? []
-  const want = [...blocks, ...(p.rail ? SPEC.railBlocks : [])]
+  const dataKey = p.screen.replace(/^is/, "").toLowerCase()
+  const suppressed = new Set(SPEC.tailSuppressed?.[dataKey] ?? [])
+  const tail = p.rail ? SPEC.sharedTail.filter((t) => !suppressed.has(t)) : []
+  const want = [...blocks, ...(p.rail ? SPEC.railBlocks : []), ...tail]
 
   let res
   try {
@@ -142,7 +198,7 @@ for (const p of PAGES) {
       },
       want,
       ABSENT,
-      STYLES.filter((s) => s.on === "*" || p.rail),
+      STYLES.filter((s) => s.on === "*" || (s.on === "detail" && p.rail) || (Array.isArray(s.on) && s.on.includes(p.screen))),
     )
   } catch (e) {
     failures.push({ page: p.url, kind: "load", sel: p.url, prop: "-", want: "200", got: String(e.message).slice(0, 60) })

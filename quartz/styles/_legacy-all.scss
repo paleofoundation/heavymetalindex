@@ -167,10 +167,13 @@
    those tokens.
    ----------------------------------------------------------- */
 
+// v3 body copy, artifact 476: 16.5px / 1.78 / #3f3a3f. `article` sets these
+// DIRECTLY, so it beat .wiki-content's inherited values; that is why the page
+// still read tighter and darker than the design after .wiki-content was fixed.
 article {
-  font-size: var(--text-base);
-  line-height: 1.65;
-  color: var(--darkgray);
+  font-size: 16.5px;
+  line-height: 1.78;
+  color: #3f3a3f;
 }
 
 /* Quartz renders the main page heading as p.article-title in
@@ -1975,11 +1978,12 @@ article > table {
    Scoped off the homepage (its hero is bespoke).
    ----------------------------------------------------------- */
 
-body:not([data-slug="index"]) article > p:first-of-type {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: var(--dark);
-}
+// REMOVED: a lead-paragraph treatment (1.1rem / 1.6) with no counterpart in
+// v3 — every paragraph in a v3 detail section is 16.5px / 1.78. It rendered
+// the opening paragraph of all ~3,086 detail pages a size larger and tighter
+// than the design. Deleted rather than overridden, per the rule that an
+// out-specified rule stays alive and wins again later.
+
 
 body:not([data-slug="index"]) article > p:first-of-type > em:only-child {
   font-style: normal;

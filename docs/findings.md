@@ -256,8 +256,23 @@ Same for v3's "Structured data (JSON-LD)" row, which the artifact drives with it
 
 Not chased, and deliberately NOT propagated: the new right-rail "Reuse this page" block ships `#references` (verified present) instead of copying the dead `#cite-this-page`, and omits the JSON-LD row entirely rather than adding a second dead anchor. Fixing the hero needs either a citation-format dialog or a real target; neither is in scope here.
 
-## F-19
+## F-19 — RESOLVED
 
-`check:v3` asserts `.hero-snapshot { border-radius: 0 }` on every detail screen and reports `NO SUCH ELEMENT` on `/regulations/*` and `/sources/*`. `HeroBand.tsx:122` renders `hero-band--nosnapshot` when a page supplies no snapshot rows, so those two screens have no snapshot panel at all.
+`check:v3` asserted `.hero-snapshot` on every detail screen and reported `NO SUCH ELEMENT` on `/regulations/*` and `/sources/*`. The open question was whether the assertion was over-broad or the pages were missing a panel.
 
-Unresolved which side is wrong: the artifact's per-screen data may or may not give regulation and source screens a `Page snapshot`. Grepping the artifact for a `stats:` key returns nothing, so the panel's data key was not located. Either the assertion is over-broad and should be scoped to screens that have snapshot rows, or those two screens are missing a panel v3 gives them. Needs one look at the artifact's detail-hero data model to settle; asserted-but-unsettled is recorded here rather than silently scoped away, because scoping it away is how the previous gate stopped being able to fail.
+Settled by reading the artifact's per-screen data blocks (~1790-1930), which the extractor now parses: v3 carries a `snapshot:` array on metal, ingredient, regulation, source, finding, synthesis, portal, category and browse — and NOT on product. So the assertion was over-broad in one direction and too narrow in the other: it was asserting the panel on `product`, which v3 gives none, while the regulation and source failures are REAL. Those two screens render `hero-band--nosnapshot` (`HeroBand.tsx:122`) because the pages supply no snapshot rows, and v3 gives both a panel.
+
+Scope is now derived from `SPEC.hasSnapshot` rather than guessed. The two remaining failures are a genuine gap: regulation and source pages need snapshot rows.
+
+Related and also derived: v3's source screen sets `noRefs: true, noSources: true` (artifact 1892). A source record cites nothing and owns no corpus list, so the gate no longer demands a References or Sources section there. `SPEC.tailSuppressed` carries this per screen.
+
+## F-20
+
+Body typography across every detail page was pre-v3, and none of it was being measured. Four separate rules set size/leading DIRECTLY on `article` or `p`, so `.wiki-content`'s inherited values could never win — the source read correctly while the render disagreed, which is exactly the FIDELITY.md failure mode:
+
+- `base.scss` `tbody, li, p { line-height: 1.6rem }` — an ABSOLUTE leading on every paragraph
+- `_legacy-all.scss` `article { font-size: var(--text-base); line-height: 1.65; color: var(--darkgray) }`
+- `_legacy-all.scss` `body:not([data-slug="index"]) article > p:first-of-type { font-size: 1.1rem; line-height: 1.6 }` — a lead-paragraph treatment v3 has no counterpart for
+- `productEvidenceSummary.scss` `body[data-slug^="products/"] article h2 { font-size: 1.45rem; border-top: … }` — out-specified `.wiki-content h2` (0,2,2 vs 0,1,1) and so won on all 410 product pages, rendering headings at 23.2px under a border-TOP where v3 has 30px over a border-BOTTOM
+
+All corrected or deleted in place rather than out-specified, and all four are now covered by `check:v3` style assertions.

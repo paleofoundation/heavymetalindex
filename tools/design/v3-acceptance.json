@@ -1,5 +1,47 @@
 {
   "_generated_by": "tools/design/extract-v3-acceptance.mjs",
+  "tailSuppressed": {
+    "metal": [],
+    "finding": [],
+    "ingredient": [],
+    "product": [],
+    "regulation": [],
+    "source": [
+      "References",
+      "Sources"
+    ],
+    "synthesis": [
+      "References",
+      "Sources",
+      "Update history"
+    ],
+    "portal": [
+      "References",
+      "Sources",
+      "Update history"
+    ],
+    "category": [
+      "References",
+      "Sources"
+    ],
+    "browse": [
+      "References",
+      "Sources",
+      "Update history"
+    ]
+  },
+  "hasSnapshot": {
+    "metal": true,
+    "finding": true,
+    "ingredient": true,
+    "product": false,
+    "regulation": true,
+    "source": true,
+    "synthesis": true,
+    "portal": true,
+    "category": true,
+    "browse": true
+  },
   "_source": "Heavy Metal Index v3.dc.html",
   "_note": "Presence assertions are extracted from the artifact, not authored. A missing block must fail the gate by name.",
   "screens": {

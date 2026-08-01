@@ -339,6 +339,17 @@ footer.site-footer {
   }
 }
 
+/* The Sources rail's record-count badge (artifact 1795 rail 08 -> '896';
+   badgeSt at 1944). Right-aligned mono, same treatment as v3's. */
+.snav-badge {
+  margin-left: auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  color: #a9a1a2;
+  flex: 0 0 auto;
+  font-weight: 400;
+}
+
 /* The rail note under "On this page" (artifact 431). */
 .snav-note {
   margin: 22px 0 0;

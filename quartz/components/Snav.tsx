@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, type SimpleSlug, type FullSlug } from "../util/path"
+import { type FullSlug } from "../util/path"
 import { concatenateResources } from "../util/resources"
 import { modelForType } from "../content-model"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
@@ -20,24 +20,54 @@ import snavScript from "./scripts/snav.inline"
 // over the page's existing H2s, so it applies to every metal page uniformly
 // without restructuring content. See the metal branch below.
 
-const DROP = /^(sources|references|page history|update history)$/i // apparatus — reached via the icon utility links
+// Nothing is dropped from the rail any more. References / Sources / Update
+// history used to be stripped here and re-added as icon links; they are now
+// ordinary numbered rails appended in v3's order by <Apparatus>, so they must
+// be excluded from the CONTENT sections to avoid appearing twice.
+const DROP = /^(sources|references|page history|update history)$/i
 // Secondary / non-reader-primary sections, folded under "Further detail".
 const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail/i
 
-// Universal apparatus footer: Sources (the source-page inventory at /sources),
-// Update History (this page's git timeline), and References (this page's citation
-// list, the "## Sources" section the inline [n] markers connect to). Sources and
-// References are deliberately distinct: the corpus of source documents vs. this
-// page's specific citations.
-// `need` gates an anchor link on the target section actually existing on the
-// page (the toc still carries "Sources"/"Page history" even though the section
-// nav drops them), so directory pages without those sections don't render dead
-// anchors. "Sources" is a page link (/sources) and always shows.
-const UTIL: { to?: string; anchor?: string; label: string; d: string; need?: RegExp }[] = [
-  { to: "sources", label: "Sources", d: "M12 2 2 7l10 5 10-5-10-5z M2 17l10 5 10-5 M2 12l10 5 10-5" },
-  { anchor: "update-history", label: "Update History", need: /^update history$/i, d: "M3 3v5h5 M3.05 13A9 9 0 1 0 6 5.3L3 8 M12 7v5l3 2" },
-  { anchor: "references", label: "References", need: /^references$/i, d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" },
+// APPARATUS RAILS — References, Sources, Update history.
+//
+// v3 renders these as ordinary numbered rails (artifact 1795: rails 07
+// References, 08 Sources with a record-count badge, 09 Update history), each
+// anchored to the page's OWN section (#references, #sources, #history), and it
+// also renders all three as body sections (artifact 1347, 1389, 1427).
+//
+// This previously dropped them from the rail entirely and re-rendered them as
+// icon links, with "Sources" pointing at the GLOBAL /sources archive. That was
+// wrong twice over: it demoted them out of the numbered rail, and it sent the
+// reader off-page. v3's Sources section is explicitly topic-scoped — "Every
+// document in the corpus that reports on {{ page.topic }}, whether or not this
+// page cites it" (artifact 1391) — so the rail must point at this page's own
+// section, not the archive.
+//
+// `need` still gates each one on the section actually existing, so directory
+// pages without them render no dead anchor.
+const APPARATUS: { anchor: string; label: string; need: RegExp; badge?: boolean }[] = [
+  { anchor: "references", label: "References", need: /^references$/i },
+  { anchor: "sources", label: "Sources", need: /^sources$/i, badge: true },
+  { anchor: "update-history", label: "Update history", need: /^update history$/i },
 ]
+
+function Apparatus({ toc, count }: { toc: { text?: string }[]; count?: string }) {
+  const has = (re: RegExp) => toc.some((e) => re.test((e.text ?? "").trim()))
+  const items = APPARATUS.filter((u) => has(u.need))
+  if (items.length === 0) return null
+  return (
+    <>
+      {items.map((u) => (
+        <div class="grp">
+          <a class="sec" href={`#${u.anchor}`} data-for={u.anchor}>
+            {u.label}
+            {u.badge && count ? <span class="snav-badge">{count}</span> : null}
+          </a>
+        </div>
+      ))}
+    </>
+  )
+}
 
 // The rail note under "On this page" (artifact 431). v3's full sentence opens
 // "Every <kind> page carries these rails, in this order" — true of v3, where
@@ -50,38 +80,15 @@ function RailNote() {
 
 type Sec = { slug?: string; text?: string; subs: any[]; fold: boolean }
 
-function Icons({ slug, toc }: { slug: FullSlug; toc: { text?: string }[] }) {
-  const has = (re: RegExp) => toc.some((e) => re.test((e.text ?? "").trim()))
-  const links = UTIL.filter((u) => !u.need || has(u.need))
-  if (links.length === 0) return null
-  return (
-    <>
-      <div class="divider" />
-      {links.map((u) => (
-        <a class="icon" href={u.to ? resolveRelative(slug, u.to as SimpleSlug) : `#${u.anchor}`}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <path d={u.d} />
-          </svg>
-          <span>{u.label}</span>
-        </a>
-      ))}
-    </>
-  )
-}
-
 export default (() => {
   const Snav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "index") as FullSlug
     const toc = fileData.toc ?? []
+    // Same value the provenance card shows — v3 badges the Sources rail with
+    // the number of corpus records routed to this page's topic.
+    const fmAny = (fileData.frontmatter ?? {}) as any
+    const sourceCount = fmAny.n_sources ?? fmAny.corpus_count ?? (fileData as any).corpusCount
+    const sourceCountLabel = sourceCount != null ? String(sourceCount) : undefined
 
     let entries = toc.filter((e) => !DROP.test((e.text ?? "").trim()))
     const sections: Sec[] = []
@@ -166,7 +173,7 @@ export default (() => {
               ))}
             </details>
           )}
-          <Icons slug={slug} toc={toc} />
+          <Apparatus toc={toc} count={sourceCountLabel} />
           <RailNote />
         </>
       )
@@ -200,7 +207,7 @@ export default (() => {
             ))}
           </details>
         )}
-        <Icons slug={slug} toc={toc} />
+        <Apparatus toc={toc} count={sourceCountLabel} />
         <RailNote />
       </>
     )
