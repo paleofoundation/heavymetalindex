@@ -130,6 +130,15 @@ const STYLES = [
   { on: CHROME, sel: ".hmi-topnav-glyph", prop: "color", want: "#b7aeb0", v3: 55 },
   { on: CHROME, sel: ".hmi-topnav-pro", prop: "backgroundColor", want: "#8b2a4a", v3: 63 },
 
+  // THE TRIGGER ROW'S COMPOSITION, not its values. Every value on `.hmi-nav-top`
+  // was already correct while the row rendered 128px too wide with its underline
+  // floating mid-bar. `gap` is asserted on the <ul>, which is the element that
+  // actually lays the triggers out; `height` catches the broken stretch chain,
+  // because a 2px bottom border only reads as a tab underline when it is ON the
+  // bar's bottom edge.
+  { on: CHROME, sel: ".hmi-nav-list", prop: "gap", want: "2px", v3: 43 },
+  { on: CHROME, sel: ".hmi-nav-list", prop: "alignItems", want: "stretch", v3: 43 },
+  { on: CHROME, sel: ".hmi-nav-top", prop: "height", want: "68px", v3: 45 },
   { on: CHROME, sel: ".hmi-nav-top", prop: "fontSize", want: "13.5px", v3: 1993 },
   { on: CHROME, sel: ".hmi-nav-top", prop: "backgroundColor", want: "rgba(0, 0, 0, 0)", v3: 1993 },
   { on: CHROME, sel: ".hmi-nav-top", prop: "borderBottomWidth", want: "2px", v3: 1993 },
@@ -260,6 +269,20 @@ for (const p of PAGES) {
         //              sibling of `.hmi-nav-cols` and landed in the wrong grid
         //              cell.
         //   grid       The panel's own 280px + remainder split.
+        // NO DEAD BOX IN THE TRIGGER ROW. An element that renders nothing and
+        // still occupies flow is invisible to every property assertion — it has
+        // no property that is wrong. It is only detectable as a RELATIONSHIP:
+        // the item is wider than the trigger inside it. That is what the
+        // deglyphed chevron button was, 8px x 5, and this is the general check
+        // for its whole class.
+        const navItems = [...document.querySelectorAll(".hmi-nav-item")].map((li) => {
+          const top = li.querySelector(".hmi-nav-top")
+          const slack = top ? Math.round(li.getBoundingClientRect().width - top.getBoundingClientRect().width) : -1
+          return { label: top?.textContent.trim() ?? "?", slack }
+        })
+        const worst = navItems.reduce((a, b) => (b.slack > a.slack ? b : a), { label: "-", slack: 0 })
+        const navRow = { slack: worst.slack, widest: worst.label }
+
         const megaPanels = [...document.querySelectorAll(".hmi-nav-panel")].map((panel) => {
           const populated = [...panel.querySelectorAll(".hmi-nav-col")].filter(
             (c) => c.querySelector(".hmi-nav-colhead") && c.querySelector("ul > li > a"),
@@ -368,6 +391,7 @@ for (const p of PAGES) {
           presentOld,
           styleResults,
           megaPanels,
+          navRow,
           neg,
         }
       },
@@ -403,6 +427,10 @@ for (const p of PAGES) {
       page: p.url, kind: "style", sel: r.sel, prop: r.prop, want: r.want, got, v3: r.v3,
     })
   }
+  record("chrome", res.navRow.slack === 0, {
+    page: p.url, kind: "structure", sel: ".hmi-nav-item", prop: "width beyond its trigger",
+    want: "0px", got: `${res.navRow.slack}px` + (res.navRow.slack ? ` (${res.navRow.widest})` : ""),
+  })
   record("chrome", res.megaPanels.length === 5, {
     page: p.url, kind: "structure", sel: ".hmi-nav-panel", prop: "count", want: "5", got: String(res.megaPanels.length),
   })

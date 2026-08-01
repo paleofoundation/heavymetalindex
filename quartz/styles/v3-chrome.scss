@@ -164,6 +164,39 @@ footer.site-footer {
   gap: 2px;
 }
 
+/* ══ the trigger ROW (v3:43) ═══════════════════════════════════════════════
+   THE GAP AND THE STRETCH BOTH HAVE TO LAND ON THE <ul>, NOT THE <nav>.
+
+   `.hmi-topnav-menu` above declares `gap: 2px; align-items: stretch` and both
+   were inert: the <nav> has exactly ONE child, the list, so its gap spaces
+   nothing, and the list's own `align-items: center` (topNav.scss) ends the
+   stretch chain one level too early. Measured on the built page: list gap 24px
+   against a specified 2, trigger height 26px against a bar of 68.
+
+   That second number is the one that reads as "not v3" at a glance. §1.1 says
+   the 2px bottom border IS the affordance — it is a tab underline sitting on
+   the bar's own bottom edge. At 26px tall and vertically centred, the burgundy
+   rule floats in the middle of the header underlining nothing. Every value on
+   that element was correct; the composition was wrong, which is exactly the
+   class of defect FIDELITY.md exists for and exactly what a property assertion
+   cannot see. Three assertions land with this rule to close it. */
+.hmi-nav-list {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hmi-nav-item {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  position: relative;
+}
+
 /* ══ nav triggers (artifact 45, constant at 1993) ══════════════════════════
    v3's trigger declares NO background, NO border-radius, NO uppercase and NO
    font-weight. The open state is signalled ONLY by the bottom rule going
@@ -172,6 +205,12 @@ footer.site-footer {
 .hmi-nav-top {
   display: flex;
   align-items: center;
+  /* `height: 100%` + a 2px bottom border under content-box measured 70px in a
+     68px bar, so the underline hung 2px BELOW the bar's own bottom rule instead
+     of sitting on it. The border has to be inside the height for a tab
+     underline to be a tab underline. */
+  box-sizing: border-box;
+  height: 100%;
   padding: 0 14px;
   font-size: 13.5px;
   color: #3f3a3f;
@@ -180,6 +219,30 @@ footer.site-footer {
   border-radius: 0;
   border-bottom: 2px solid transparent;
   text-transform: none;
+}
+
+/* The disclosure button lost its chevron in c22cd3bc1 and kept its box: 6px of
+   flow plus the item gap, beside every one of the five labels, containing
+   nothing but a screen-reader span. It is what pushed the trigger row 128px
+   wider than v3's and what put a gap between each label and its own underline.
+
+   Visually hidden rather than deleted. §1.1 is explicit — "keep the accessible
+   name on the control; remove only the glyph" — and this keeps it in the tab
+   order and announced while taking no layout space. Wide branch only: inside
+   the burger drawer the panels are accordions and the toggle is the visible,
+   44px control that opens them. */
+@media (min-width: 1150px) {
+  .hmi-nav-toggle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
 }
 
 .hmi-nav-item.is-open > .hmi-nav-top,
