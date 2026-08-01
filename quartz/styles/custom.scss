@@ -22,5 +22,9 @@
 }
 
 // ── v3 design layer (unlayered = authoritative) ──────────────────────────
+// v3-chrome is UNSCOPED: it styles the four things renderPage.tsx emits outside
+// #quartz-root (skip link, TopNav shell, HeroBand, Footer), which no
+// page-scoped selector can reach.
+@import "v3-chrome";
 @import "../components/styles/heroBand";
 @import "home-v3";

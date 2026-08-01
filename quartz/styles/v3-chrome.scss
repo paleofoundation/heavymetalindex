@@ -1,0 +1,149 @@
+// v3 site-wide chrome — quartz/styles/v3-chrome.scss
+//
+// UNSCOPED BY DESIGN. Four things render outside `#quartz-root`
+// (renderPage.tsx): the skip-to-content link, the TopNav shell, the HeroBand,
+// and the Footer. No page-scoped selector can reach them, which is why the
+// footer stayed bold while `.hmi-v3-home *:not(strong):not(b) { font-weight:
+// 400 }` was in force — the footer is a SIBLING of that wrapper, not a
+// descendant.
+//
+// This sheet is imported unlayered from custom.scss, after `@layer legacy`, so
+// it outranks every legacy and component rule regardless of specificity.
+//
+// THE RULE THIS SHEET EXISTS TO ENFORCE: v3 must SPEAK for every property that
+// can be inherited or filled in. Layers only win where v3 speaks; where it is
+// silent, legacy fills in. That is how the metal table got a burgundy header
+// bar, the registry cards got a blush pill, and the footer links stayed
+// semibold. topNav.scss is the accidental model — it declares weight on all ten
+// of its own selectors, which is the only reason the top bar has looked right.
+
+/* ══ v3 global type (artifact lines 27-30) ═══════════════════════════════
+   v3's global stylesheet sets headings to 400 and links to #1c43ad, and
+   declares font-weight on no other element. base.scss ships `a { font-weight:
+   600 }` and `$semiBoldWeight` headings; both are stated away here once, for
+   the whole document, rather than per region as each leak is noticed. */
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+}
+
+a {
+  font-weight: 400;
+}
+
+::selection {
+  background: #f0d8e0;
+}
+
+/* ══ footer (artifact 1482-1506) ═════════════════════════════════════════
+   Everything the v3 footer needs stated together: nothing here relies on a
+   legacy rule being absent. */
+footer.site-footer {
+  background: #4a1526;
+  color: rgba(255, 255, 255, 0.76);
+  border-top: 0;
+
+  /* Geometry, stated unconditionally. v3's footer carries no `w ?` ternary —
+     it is a literal inline style at every width (artifact 1483, 1500) — so
+     these must out-rank footer.scss's max-width 1100/800/520 blocks rather
+     than merely be declared before them. Being unlayered does that. */
+  .site-footer-inner {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 76px 56px 40px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr));
+    gap: 72px;
+  }
+
+  .site-footer-bottom {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 22px 56px 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 40px;
+    align-items: baseline;
+  }
+
+  a,
+  p,
+  h2,
+  h3,
+  span,
+  li,
+  .site-footer-logo,
+  .site-footer-operator,
+  .site-footer-column-title {
+    font-weight: 400;
+  }
+
+  .site-footer-logo {
+    font-family: Lora, serif;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .site-footer-brand p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .site-footer-column h2,
+  .site-footer-column h3,
+  .site-footer-column .site-footer-column-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.52);
+  }
+
+  .site-footer-column a {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.76);
+    background: none;
+    border-radius: 0;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+      background: none;
+      text-decoration: none;
+    }
+  }
+
+  .site-footer-bottom p,
+  .site-footer-operator {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* ══ top bar (artifact 37-66) ═════════════════════════════════════════════
+   v3's header declares font-weight on NO element — the 22px Lora wordmark, the
+   13.5px nav items and the 12.5px Index Pro button are all 400. topNav.scss
+   ships 600 on the wordmark, 500 on nav links, 600 on the mega-menu column
+   heads and 500 on Index Pro. Stated once for the region, as with the footer. */
+.hmi-topnav-shell,
+.hmi-topnav-shell *:not(strong):not(b) {
+  font-weight: 400;
+}
+
+.hmi-topnav-wordmark {
+  font-family: Lora, serif;
+  font-size: 22px;
+  color: #8b2a4a;
+  letter-spacing: -0.015em;
+}
+
+/* The hidden Ask button still reports 600; state it so a future unhide does not
+   reintroduce the leak. */
+.site-footer-ask {
+  font-weight: 400;
+}

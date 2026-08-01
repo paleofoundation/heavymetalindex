@@ -51,21 +51,23 @@
 
 /* No pill on any internal link anywhere in the build, default OR hover —
    overrides the Quartz base a.internal / tag-link background. */
-// The v3 classes are excluded because `!important` INVERTS cascade-layer
-// order: a layered !important beats an unlayered normal declaration, so this
-// rule was zeroing the padding on v3's start-here rows and registry cards even
-// though those live in the authoritative unlayered sheet. Simple :not() only —
-// the complex form is dropped by Safari 15.6, which componentResources targets.
-a.internal:not(.hmi-v3-start-row):not(.hmi-v3-registry):not(.hmi-v3-rev-t):not(.hmi-v3-start-t),
+// `!important` and the :not() escape hatches are both gone. This rule exists to
+// kill base.scss's `a.internal { background-color: var(--highlight);
+// border-radius: 5px; padding: 0 .1rem }` pill. base and proof-design are now in
+// the same `legacy` layer and custom.scss @uses base first, so this wins on
+// source order at equal specificity — no !important needed. Dropping it matters:
+// a LAYERED !important outranks an unlayered normal declaration, so this rule
+// was reaching into the authoritative v3 sheet and zeroing padding there.
+a.internal,
 a.internal.tag-link {
-  background: none !important;
-  border-radius: 0 !important;
-  padding: 0 !important;
+  background: none;
+  border-radius: 0;
+  padding: 0;
 }
 a.internal:hover,
 a.internal:focus,
 a.internal.tag-link:hover {
-  background: none !important;
+  background: none;
 }
 
 /* …except links deliberately styled AS buttons. Quartz stamps class="internal"
@@ -99,7 +101,7 @@ a.internal.tag-link:hover {
 .proofnav .right { margin-left: auto; display: flex; align-items: center; gap: 20px; color: var(--ink); }
 .proofnav .right a, .proofnav .right button { color: var(--ink); font-size: 15px; display: flex; align-items: center; gap: 6px; background: none; border: 0; cursor: pointer; font-family: inherit; }
 .proofnav .right a:hover, .proofnav .right button:hover { color: var(--burg); text-decoration: none; }
-.proofnav .ask { background: var(--burg); color: #fff !important; font-weight: 600; padding: 8px 16px; border-radius: 999px; }
+.proofnav .ask { background: var(--burg); color: #fff; font-weight: 600; padding: 8px 16px; border-radius: 999px; }
 .proofnav .ask:hover { background: var(--burg-dark); }
 
 /* ---------- page grid (wide 3-col) ---------- */

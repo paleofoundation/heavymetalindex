@@ -340,10 +340,24 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       // that everyone else had the chance to register a listener for it
       addGlobalPageResources(ctx, componentResources)
 
+      // Component stylesheets are compiled into the `legacy` cascade layer, the
+      // same layer custom.scss puts base/proof-design/legacy into. CSS ranks
+      // UNLAYERED rules above layered ones regardless of specificity, so the v3
+      // sheets (imported unlayered at the end of custom.scss) win by
+      // construction instead of by out-specifying chrome CSS.
+      //
+      // Without this, component CSS was unlayered AND emitted first, so v3 beat
+      // it only on ties and lost to any higher-specificity selector — which is
+      // why `footer.site-footer` and search.scss kept overriding v3 and had to
+      // be fought one at a time.
+      //
+      // googleFontsStyleSheet stays outside: it can carry @import, which is
+      // illegal inside @layer. Component CSS carries neither @import nor
+      // @charset (checked), and its @media/@keyframes nest fine.
       const stylesheet = joinStyles(
         ctx.cfg.configuration.theme,
         googleFontsStyleSheet,
-        ...componentResources.css,
+        `@layer legacy {\n${componentResources.css.join("\n\n")}\n}`,
         styles,
       )
 
