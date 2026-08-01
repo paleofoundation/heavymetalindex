@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T16:13:18.834Z",
+  "generated_at": "2026-08-01T07:25:58.655Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p45",
@@ -20,8 +20,8 @@
   "rows_in_locked_hmtc_scope": 596,
   "rows_outside_locked_hmtc_scope": 90,
   "by_aggregate_status": {
-    "POOLING ENGINE PENDING: ready for pooling math": 72,
-    "POOLING ENGINE PENDING: single poolable source": 174,
+    "POOLING ENGINE PENDING: ready for pooling math": 74,
+    "POOLING ENGINE PENDING: single poolable source": 172,
     "BLOCKED: no structured evidence loaded": 230,
     "POOLING ENGINE PENDING: process local extraction backlog first": 31,
     "BLOCKED: local extraction pending": 65,

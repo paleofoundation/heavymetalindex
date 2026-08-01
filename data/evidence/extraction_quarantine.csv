@@ -1,2 +1,3 @@
 file,row_slug,metal_species,reject_reason,raw_row
 
+category1_autonomy_extracted_summary.csv,infant-formula-powder-non-soy,iAs,"scientific-notation parse failure (1e6 high) + wrong matrix + modeled input: source states infant-formula iAs as 7.48e-6 mg/L (=0.0075 ppb) from a Monte Carlo risk-assessment distribution in a RICE CEREAL paper; extractor recorded 7480 ppb by dropping the exponent and scaling the mantissa mg->ug. Second row 4600 ppb same defect. Source matrices are [risk-assessment-model, intake-estimate] and are not occurrence data.","shibata2016-arsenic-rice-cereal-risk-assessment-us iAs mean_ppb=7480 / 4600"
