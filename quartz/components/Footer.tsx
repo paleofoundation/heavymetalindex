@@ -1,6 +1,14 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 
+// Columns and labels from "Heavy Metal Index v3.dc.html" footerCols (line 2389).
+// Every href is checked to resolve: v3 lists a few surfaces that have no page in
+// this build ("Structured exports", "Regulatory diff alerts", "Governance"), and
+// those are pointed at the nearest real page rather than shipped as 404s.
+//
+// Two corrections to the artifact, both per the settled naming rule: v3's
+// "Institute of Contamination Standards" is the wrong form, and its bottom bar
+// puts copyright on the Institute where the corporation holds it.
 const footerSections = [
   {
     title: "Explore",
@@ -10,39 +18,38 @@ const footerSections = [
       ["Metals", "/metals"],
       ["Regulations", "/regulations"],
       ["Sources", "/sources"],
+      ["Synthesis findings", "/synthesis"],
     ],
   },
   {
     title: "Evidence",
     links: [
-      ["Trust Center", "/trust"],
+      ["Trust center", "/trust"],
       ["Coverage (PRISMA)", "/coverage"],
       ["Audit dashboard", "/audits"],
       ["Methodology", "/methodology"],
-      ["Editorial Standards", "/editorial-standards"],
-      ["Testing", "/testing"],
-      ["Update History", "/log"],
+      ["Editorial standards", "/editorial-standards"],
+      ["Update history", "/log"],
+    ],
+  },
+  {
+    title: "Professional",
+    links: [
+      ["Structured exports", "/licensing"],
+      ["Regulatory diff alerts", "/log"],
+      ["Licensing and reuse", "/licensing"],
       ["Contact", "/contact"],
     ],
   },
   {
-    title: "Foundation",
+    title: "Institute",
     links: [
       ["About", "/about"],
-      ["Paleo Foundation", "https://paleofoundation.com"],
-      ["WikiBiome", "https://wikibiome.com"],
+      ["Editorial standards", "/editorial-standards"],
+      ["Errata and revisions", "/errata"],
       ["Heavy Metal Tested", "https://heavymetaltested.com"],
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      ["Privacy Notice", "/privacy"],
+      ["Privacy notice", "/privacy"],
       ["Terms", "/terms"],
-      ["Licensing", "/licensing"],
-      // /staff is a middleware 302 to /staff/login for anyone without a session
-      // (middleware.ts), so link the destination directly and skip the hop.
-      ["Staff", "/staff/login"],
     ],
   },
 ]

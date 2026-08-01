@@ -5,6 +5,8 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-07-31
 ---
 
+<div class="hmi-v3-home">
+
 <section class="hmi-v3-hero" aria-label="Heavy Metal Index">
   <div class="hmi-v3-hero-inner">
     <div class="hmi-v3-hero-copy">
@@ -25,58 +27,28 @@ updated: 2026-07-31
     </div>
 
 <!-- BEGIN: hmi-corpus-counter -->
-<section class="hmi-home-corpus-counter" aria-label="Corpus scope">
-  <div class="hmi-home-corpus-counter-label">Corpus indexed</div>
-  <dl class="hmi-home-corpus-counter-grid">
-    <div>
-      <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">1,802</a></dd>
-    </div>
-    <div>
-      <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">181</a></dd>
-    </div>
-    <div>
-      <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">55</a></dd>
-    </div>
-    <div>
-      <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">1,448</a></dd>
-    </div>
-    <div>
-      <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">695</a></dd>
-    </div>
-    <div>
-      <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">181</a></dd>
-    </div>
-    <div>
-      <dt>Ingredient profiles</dt>
-      <dd><a href="ingredients/">257</a></dd>
-    </div>
-    <div>
-      <dt>Product categories</dt>
-      <dd><a href="products/">414</a></dd>
-    </div>
-    <div>
-      <dt>Metal profiles</dt>
-      <dd><a href="metals/">36</a></dd>
-    </div>
-    <div>
-      <dt>Regulation pages</dt>
-      <dd><a href="regulations/">59</a></dd>
-    </div>
-  </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-07-31. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
-</section>
+<div class="hmi-v3-ledger" aria-label="Corpus ledger">
+  <div class="hmi-v3-ledger-head">
+    <span class="hmi-v3-ledger-title">Corpus ledger</span>
+    <span class="hmi-v3-ledger-refresh">REFRESH 2026-08-01</span>
+  </div>
+  <div class="hmi-v3-ledger-body">
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">1,802</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">181</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">55</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,448</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">695</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">181</span></div>
+    <p class="hmi-v3-ledger-note">Counts derive from on-disk frontmatter and the structured evidence layer on every build. Source-type counts are normalized across spelling variants.</p>
+  </div>
+</div>
 <!-- END: hmi-corpus-counter -->
 
   </div>
 </section>
 
 <section class="hmi-v3-start" aria-label="Start here">
+  <div class="hmi-v3-start-inner">
   <div class="hmi-v3-kicker">Start here</div>
   <a class="hmi-v3-start-row" href="metals/lead/">
     <span class="hmi-v3-start-t">Lead (Pb)</span>
@@ -103,9 +75,11 @@ updated: 2026-07-31
     <span class="hmi-v3-start-d">Every document behind the Index, with extracted values, reported methods, and a file hash.</span>
     <span class="hmi-v3-start-n">Source records</span>
   </a>
+  </div>
 </section>
 
 <section class="hmi-v3-split" aria-label="What this reference is">
+  <div class="hmi-v3-split-inner">
   <div class="hmi-v3-split-head">
     <h2>What this reference is</h2>
     <div class="hmi-v3-rule"></div>
@@ -115,46 +89,36 @@ updated: 2026-07-31
     <p>The Heavy Metal Index reports what the peer-reviewed and regulatory literature says about those routes, one page at a time: what a metal does at what dose, how much turns up in a given ingredient and where that varies, which consumer categories inherit the problem from their inputs, and what each agency has actually set as a limit. Every figure links to the source it came from, which carries the study's methods, the extracted values, and the file hash of the document they were read out of.</p>
     <p>It is a reference, not a ranking. It does not test products, name brands, or tell anyone what to buy. Where the evidence is thin or contradictory it says so, and the <a href="coverage/">coverage page</a> states plainly how much of the identified literature has been reviewed so far.</p>
   </div>
+  </div>
 </section>
 
 <!-- BEGIN: hmi-feature-grid -->
-<section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
-  <div class="hmi-home-feature-card">
-    <span>414 pages</span>
-    <h2><a href="products/">Products</a></h2>
-    <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
-    <div class="hmi-home-card-meta">Consumer-facing categories</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>257 pages</span>
-    <h2><a href="ingredients/">Ingredients</a></h2>
-    <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
-    <div class="hmi-home-card-meta">Commodity drivers</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>36 pages</span>
-    <h2><a href="metals/">Metals</a></h2>
-    <p>Per-metal summaries for lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin, and more.</p>
-    <div class="hmi-home-card-meta">Metal profiles</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>59 pages</span>
-    <h2><a href="regulations/">Regulations</a></h2>
-    <p>Agency values, action levels, tolerable intakes, and jurisdiction-specific regulatory references.</p>
-    <div class="hmi-home-card-meta">Thresholds and agencies</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>2,219 pages</span>
-    <h2><a href="sources/">Sources</a></h2>
-    <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
-    <div class="hmi-home-card-meta">Traceable evidence</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>Transparency</span>
-    <h2><a href="coverage/">Coverage</a></h2>
-    <p>PRISMA-equivalent literature flow, taxonomy coverage, and what's still pending. The defensibility surface.</p>
-    <div class="hmi-home-card-meta">Editorial standards · methodology</div>
-  </div>
+<section class="hmi-v3-registries" aria-label="Registries">
+  <a class="hmi-v3-registry" href="products/">
+    <span class="hmi-v3-registry-n">414</span>
+    <span class="hmi-v3-registry-t">Products</span>
+    <span class="hmi-v3-registry-d">Category risk profiles built from the ingredients that drive them.</span>
+  </a>
+  <a class="hmi-v3-registry" href="ingredients/">
+    <span class="hmi-v3-registry-n">257</span>
+    <span class="hmi-v3-registry-t">Ingredients</span>
+    <span class="hmi-v3-registry-d">Why a commodity accumulates a metal, and how much the literature reports.</span>
+  </a>
+  <a class="hmi-v3-registry" href="metals/">
+    <span class="hmi-v3-registry-n">36</span>
+    <span class="hmi-v3-registry-t">Metals</span>
+    <span class="hmi-v3-registry-d">Endpoints, kinetics, and the reference value each body has or has not set.</span>
+  </a>
+  <a class="hmi-v3-registry" href="regulations/">
+    <span class="hmi-v3-registry-n">59</span>
+    <span class="hmi-v3-registry-t">Regulations</span>
+    <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
+  </a>
+  <a class="hmi-v3-registry" href="sources/">
+    <span class="hmi-v3-registry-n">2,219</span>
+    <span class="hmi-v3-registry-t">Sources</span>
+    <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
+  </a>
 </section>
 <!-- END: hmi-feature-grid -->
 
@@ -223,6 +187,7 @@ updated: 2026-07-31
 <!-- END: hmi-metal-registry -->
 
 <section class="hmi-v3-trust" aria-label="How the Index is kept honest">
+  <div class="hmi-v3-trust-inner">
   <h2>How the Index is kept honest</h2>
   <p class="hmi-v3-trust-lede">Three things make a claim on this site checkable: a stated search strategy, a public account of what has and has not been reviewed, and a correction record that does not quietly overwrite the past.</p>
   <div class="hmi-v3-trust-grid">
@@ -242,9 +207,11 @@ updated: 2026-07-31
       <a href="errata/">Errata and revisions &rarr;</a>
     </div>
   </div>
+  </div>
 </section>
 
 <section class="hmi-v3-split hmi-v3-faq" aria-label="Common questions">
+  <div class="hmi-v3-split-inner">
   <div class="hmi-v3-split-head">
     <h2>Common questions</h2>
     <div class="hmi-v3-rule"></div>
@@ -275,51 +242,63 @@ updated: 2026-07-31
       <p>Yes, and that is the point of the structure. Every figure links to a source record carrying the study citation, its methods, the values extracted from it, and the file hash of the document those values were read out of. Each page also lists its references in citation order, alongside the wider set of sources routed to it, and records its own update history.</p>
     </details>
   </div>
+  </div>
 </section>
 
 <!-- BEGIN: hmi-home-recently-updated -->
-<section class="hmi-band hmi-band--shade hmi-home-recently" data-no-cite aria-label="Recently updated">
-  <div class="hmi-band-inner">
-    <h2>Recently updated</h2>
-    <p class="hmi-band-lede">The most recently revised pages across metals, ingredients, and products. Every page also carries its own update history.</p>
-    <ul class="hmi-home-feed">
-      <li>
-        <time datetime="2026-05-17">17 May 2026</time>
-        <span class="hmi-home-feed-what"><a href="metals/manganese/">Manganese</a> <span class="hmi-home-feed-tag">Metal</span></span>
-      </li>
-      <li>
-        <time datetime="2026-06-23">23 Jun 2026</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple/">Apple</a> <span class="hmi-home-feed-tag">Ingredient</span></span>
-      </li>
-      <li>
-        <time datetime="2026-06-09">9 Jun 2026</time>
-        <span class="hmi-home-feed-what"><a href="products/antiperspirant/">Antiperspirant</a> <span class="hmi-home-feed-tag">Product</span></span>
-      </li>
-      <li>
-        <time datetime="2026-05-17">17 May 2026</time>
-        <span class="hmi-home-feed-what"><a href="metals/zinc/">Zinc</a> <span class="hmi-home-feed-tag">Metal</span></span>
-      </li>
-      <li>
-        <time datetime="2026-06-23">23 Jun 2026</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/apple-juice/">Apple juice</a> <span class="hmi-home-feed-tag">Ingredient</span></span>
-      </li>
-      <li>
-        <time datetime="2026-06-09">9 Jun 2026</time>
-        <span class="hmi-home-feed-what"><a href="products/bar-bath-soap/">Bar/bath soap</a> <span class="hmi-home-feed-tag">Product</span></span>
-      </li>
-      <li>
-        <time datetime="2026-05-08">8 May 2026</time>
-        <span class="hmi-home-feed-what"><a href="metals/chromium/">Chromium</a> <span class="hmi-home-feed-tag">Metal</span></span>
-      </li>
-      <li>
-        <time datetime="2026-06-23">23 Jun 2026</time>
-        <span class="hmi-home-feed-what"><a href="ingredients/applesauce/">Applesauce</a> <span class="hmi-home-feed-tag">Ingredient</span></span>
-      </li>
-      <li>
-        <time datetime="2026-06-09">9 Jun 2026</time>
-        <span class="hmi-home-feed-what"><a href="products/bathing-soaps/">Bathing soaps</a> <span class="hmi-home-feed-tag">Product</span></span>
-      </li>
-    </ul>
+<section class="hmi-v3-rev" data-no-cite aria-label="Recently revised">
+  <div class="hmi-v3-rev-head">
+    <h2>Recently revised</h2>
+    <a class="hmi-v3-rev-all" href="audits/">Full update history &rarr;</a>
+  </div>
+  <div class="hmi-v3-rev-grid">
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-05-17">17 May 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/manganese/">Manganese</a>
+      <span class="hmi-v3-rev-k">Metal</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-06-23">23 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/apple/">Apple</a>
+      <span class="hmi-v3-rev-k">Ingredient</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="products/antiperspirant/">Antiperspirant</a>
+      <span class="hmi-v3-rev-k">Product</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-05-17">17 May 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/zinc/">Zinc</a>
+      <span class="hmi-v3-rev-k">Metal</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-06-23">23 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/apple-juice/">Apple juice</a>
+      <span class="hmi-v3-rev-k">Ingredient</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="products/bar-bath-soap/">Bar/bath soap</a>
+      <span class="hmi-v3-rev-k">Product</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-05-08">8 May 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/chromium/">Chromium</a>
+      <span class="hmi-v3-rev-k">Metal</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-06-23">23 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/applesauce/">Applesauce</a>
+      <span class="hmi-v3-rev-k">Ingredient</span>
+    </div>
+    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="2026-06-09">9 Jun 2026</time>
+      <a class="hmi-v3-rev-t" href="products/bathing-soaps/">Bathing soaps</a>
+      <span class="hmi-v3-rev-k">Product</span>
+    </div>
   </div>
 </section>
 <!-- END: hmi-home-recently-updated -->
+
+</div>

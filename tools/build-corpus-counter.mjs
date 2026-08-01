@@ -196,53 +196,29 @@ console.log(
 )
 
 function renderBlock(c, refreshDate) {
+  // v3 HOME A lines 116-129: a 6-row ledger inside the hero, not a 10-row dl.
+  const rows = [
+    ["Peer-reviewed studies", c.source_peer_reviewed],
+    ["Government reports and datasets", c.source_government],
+    ["Programmatic databases indexed", c.source_databases_indexed],
+    ["A-tier curated sources", c.source_evidence_tier_a],
+    ["Structured evidence records", c.structured_value_records],
+    ["Jurisdictions covered", c.jurisdictions_indexed],
+  ]
+  const body = rows
+    .map((r) => `      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">${r[0]}</span><span class="hmi-v3-ledger-v">${fmt(r[1])}</span></div>`)
+    .join("\n")
   return `${beginMarker}
-<section class="hmi-home-corpus-counter" aria-label="Corpus scope">
-  <div class="hmi-home-corpus-counter-label">Corpus indexed</div>
-  <dl class="hmi-home-corpus-counter-grid">
-    <div>
-      <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">${fmt(c.source_peer_reviewed)}</a></dd>
-    </div>
-    <div>
-      <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">${fmt(c.source_government)}</a></dd>
-    </div>
-    <div>
-      <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">${fmt(c.source_databases_indexed)}</a></dd>
-    </div>
-    <div>
-      <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">${fmt(c.source_evidence_tier_a)}</a></dd>
-    </div>
-    <div>
-      <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">${fmt(c.structured_value_records)}</a></dd>
-    </div>
-    <div>
-      <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">${fmt(c.jurisdictions_indexed)}</a></dd>
-    </div>
-    <div>
-      <dt>Ingredient profiles</dt>
-      <dd><a href="ingredients/">${fmt(c.ingredient_pages)}</a></dd>
-    </div>
-    <div>
-      <dt>Product categories</dt>
-      <dd><a href="products/">${fmt(c.product_pages)}</a></dd>
-    </div>
-    <div>
-      <dt>Metal profiles</dt>
-      <dd><a href="metals/">${fmt(c.metal_pages)}</a></dd>
-    </div>
-    <div>
-      <dt>Regulation pages</dt>
-      <dd><a href="regulations/">${fmt(c.regulation_pages)}</a></dd>
-    </div>
-  </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: ${refreshDate}. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
-</section>
+<div class="hmi-v3-ledger" aria-label="Corpus ledger">
+  <div class="hmi-v3-ledger-head">
+    <span class="hmi-v3-ledger-title">Corpus ledger</span>
+    <span class="hmi-v3-ledger-refresh">REFRESH ${refreshDate}</span>
+  </div>
+  <div class="hmi-v3-ledger-body">
+${body}
+    <p class="hmi-v3-ledger-note">Counts derive from on-disk frontmatter and the structured evidence layer on every build. Source-type counts are normalized across spelling variants.</p>
+  </div>
+</div>
 ${endMarker}`
 }
 
@@ -251,44 +227,28 @@ function fmt(value) {
 }
 
 function renderFeatureGrid(c) {
+  // v3 HOME A lines 163-175 + registries data at 2155-2161: five cards, each a
+  // mono count over a Lora title over one line of prose. No sixth card, no
+  // "pages" suffix, no meta line.
+  const cards = [
+    [fmt(c.product_pages), "Products", "products/", "Category risk profiles built from the ingredients that drive them."],
+    [fmt(c.ingredient_pages), "Ingredients", "ingredients/", "Why a commodity accumulates a metal, and how much the literature reports."],
+    [fmt(c.metal_pages), "Metals", "metals/", "Endpoints, kinetics, and the reference value each body has or has not set."],
+    [fmt(c.regulation_pages), "Regulations", "regulations/", "Values, matrices, bases, and legal status, per instrument."],
+    [fmt(c.source_pages_total), "Sources", "sources/", "Methods, extracted values, and the file hash behind every figure."],
+  ]
+  const body = cards
+    .map(
+      (k) => `  <a class="hmi-v3-registry" href="${k[2]}">
+    <span class="hmi-v3-registry-n">${k[0]}</span>
+    <span class="hmi-v3-registry-t">${k[1]}</span>
+    <span class="hmi-v3-registry-d">${k[3]}</span>
+  </a>`,
+    )
+    .join("\n")
   return `${featureBeginMarker}
-<section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.product_pages)} pages</span>
-    <h2><a href="products/">Products</a></h2>
-    <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
-    <div class="hmi-home-card-meta">Consumer-facing categories</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.ingredient_pages)} pages</span>
-    <h2><a href="ingredients/">Ingredients</a></h2>
-    <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
-    <div class="hmi-home-card-meta">Commodity drivers</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.metal_pages)} pages</span>
-    <h2><a href="metals/">Metals</a></h2>
-    <p>Per-metal summaries for lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin, and more.</p>
-    <div class="hmi-home-card-meta">Metal profiles</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.regulation_pages)} pages</span>
-    <h2><a href="regulations/">Regulations</a></h2>
-    <p>Agency values, action levels, tolerable intakes, and jurisdiction-specific regulatory references.</p>
-    <div class="hmi-home-card-meta">Thresholds and agencies</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>${fmt(c.source_pages_total)} pages</span>
-    <h2><a href="sources/">Sources</a></h2>
-    <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
-    <div class="hmi-home-card-meta">Traceable evidence</div>
-  </div>
-  <div class="hmi-home-feature-card">
-    <span>Transparency</span>
-    <h2><a href="coverage/">Coverage</a></h2>
-    <p>PRISMA-equivalent literature flow, taxonomy coverage, and what's still pending. The defensibility surface.</p>
-    <div class="hmi-home-card-meta">Editorial standards · methodology</div>
-  </div>
+<section class="hmi-v3-registries" aria-label="Registries">
+${body}
 </section>
 ${featureEndMarker}`
 }
