@@ -1,8 +1,11 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { joinSegments, pathToRoot, resolveRelative, type SimpleSlug } from "../util/path"
 import { GROUPS, relatedByCategory } from "./relatedGraph"
+import { concatenateResources } from "../util/resources"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import citeScript from "./scripts/citeSuperscript.inline"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import railLdScript from "./scripts/railLd.inline"
 
 // The right rail (.rail). renderPage wraps this in <aside class="rail">.
 //
@@ -79,18 +82,21 @@ export default (() => {
         <div class="rail-reuse">
           <div class="rail-reuse-title">Reuse this page</div>
           <div class="rail-reuse-body">
-            {/* Every href here resolves to something that exists. v3's row
-                order is kept, but two of its rows are NOT reproduced:
-                "Copy citation (APA, Vancouver, BibTeX)" and "Structured data
-                (JSON-LD)" are `#`-anchors driven by v3's own runtime, and the
-                repo has neither a citation-format dialog nor v3's `toggleLd`.
-                Shipping them would add two dead anchors — the same defect the
-                hero already carries at `#cite-this-page`, logged as a finding
-                rather than propagated here. */}
             {hasRefs ? <a href="#references">Citation and references</a> : null}
             <a href={asset("static/evidence-packet-index.json")}>
               Structured evidence export (JSON)
             </a>
+            {/* METHOD.md §5 specifies a DISCLOSURE here, not a link — which is
+                what makes it buildable. v3 drives it with its own `toggleLd`
+                runtime and the repo has none, but the data is already on the
+                page: Head.tsx emits the JSON-LD blocks, and railLd.inline fills
+                the panel from them on first open. An earlier pass shipped this
+                as a bare `#ld-json` anchor with no target, then deleted it as a
+                dead link; the disclosure is the third option and the right one. */}
+            <details class="rail-ld">
+              <summary>Structured data (JSON-LD)</summary>
+              <pre class="rail-ld-panel" />
+            </details>
             <a href={`/api/evidence-packet?slug=${slug ?? ""}`}>Evidence packet (PDF)</a>
             <a href={rel("licensing")}>Licensing and downstream use</a>
           </div>
@@ -109,6 +115,6 @@ export default (() => {
       </>
     )
   }
-  Rail.afterDOMLoaded = citeScript
+  Rail.afterDOMLoaded = concatenateResources(citeScript, railLdScript)
   return Rail
 }) satisfies QuartzComponentConstructor

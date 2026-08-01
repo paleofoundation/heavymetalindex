@@ -439,6 +439,35 @@ footer.site-footer {
   }
 }
 
+/* The JSON-LD disclosure panel, METHOD.md §5 verbatim:
+   border 1px #e8e1db · background #fbf8f5 · padding 11px 12px · max-height 300px
+   · overflow auto · mono 9.5px · line-height 1.55 · #5a4148 · white-space pre-wrap */
+.rail-ld > summary {
+  font-size: 12.5px;
+  color: #1c43ad;
+  cursor: pointer;
+  list-style: none;
+}
+
+.rail-ld > summary::-webkit-details-marker {
+  display: none;
+}
+
+.rail-ld-panel {
+  margin: 9px 0 0;
+  border: 1px solid #e8e1db;
+  background: #fbf8f5;
+  padding: 11px 12px;
+  max-height: 300px;
+  overflow: auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  line-height: 1.55;
+  color: #5a4148;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 .rail-correction {
   border: 1px solid #eddfe4;
   background: #f6ecf0;
