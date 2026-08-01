@@ -64,18 +64,23 @@ const config: QuartzConfig = {
         // dark cool-gray body text, burgundy accent (#8B2A4A) used sparingly
         // on links, active states, and the citation tier pill. Replaces the
         // previous warm coffee/sienna palette.
+        // Aligned to "Heavy Metal Index v3.dc.html" (global rules, lines 23-32).
+        // These tokens drive every legacy rule in the `legacy` cascade layer, so
+        // matching them to v3 means a rule that leaks through renders the same
+        // colour it would have rendered anyway. The alternative -- fighting each
+        // leak with specificity -- does not scale past one page.
         lightMode: {
-          light: "#fdfdfc",
-          lightgray: "#e8e6e1",
+          light: "#faf7f4",
+          lightgray: "#e8e1db",
           // Darkened from #9c9890 (2.82:1 on --light, failed WCAG AA) to
           // #767067 (4.82:1). --gray drives all secondary text — content
           // meta, TOC, breadcrumbs, table headers, captions — so this one
           // token lifts every muted-text surface to AA.
-          gray: "#767067",
-          darkgray: "#2a2d34",
-          dark: "#1a1d24",
+          gray: "#736b6e",
+          darkgray: "#3f3a3f",
+          dark: "#2b1f24",
           secondary: "#8B2A4A",
-          tertiary: "#6b6b6b",
+          tertiary: "#a9a1a2",
           highlight: "rgba(139, 42, 74, 0.06)",
           textHighlight: "#f0e68c55",
         },

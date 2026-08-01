@@ -671,3 +671,31 @@ body:has(.hmi-v3-home) .hmi-related { display: none; }
 
   &:hover { color: #6f2139; }
 }
+
+/* ══ v3 must SPEAK for every property, not rely on a legacy killer ═════
+   Excluding these classes from proof-design's `a.internal { background/
+   border-radius/padding: 0 !important }` stopped the !important zeroing their
+   padding — but it also handed them back Quartz's internal-link pill, which is
+   why the registry cards grew a blush background and rounded corners. The rule
+   generalises: anywhere v3 is silent, something else fills in. */
+.hmi-v3-registry,
+.hmi-v3-start-row,
+.hmi-v3-rev-t,
+.hmi-v3-start-t {
+  background: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.hmi-v3-registry { padding: 18px 0 0; }
+
+/* ══ weight ═══════════════════════════════════════════════════════════
+   v3's HOME A declares font-weight on ZERO elements: everything is 400, via
+   the global h1-h5 rule plus the browser default. The build kept leaking 500
+   and 600 from legacy link and heading rules — the registry descriptions were
+   rendering semibold. Stated once and totally, rather than element by element
+   as each leak is spotted. <strong>/<b> keep their emphasis. */
+.hmi-v3-home,
+.hmi-v3-home *:not(strong):not(b) {
+  font-weight: 400;
+}
