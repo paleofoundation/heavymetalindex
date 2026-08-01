@@ -656,3 +656,18 @@ body:has(.hmi-v3-home) .hmi-related { display: none; }
 .hmi-v3-home {
   table { border-collapse: collapse; }
 }
+
+/* ══ link-colour precedence ═══════════════════════════════════════════
+   `.hmi-v3-home a { color: #1c43ad }` is (0,1,1) and beats a bare (0,1,0)
+   class, so the two burgundy "→" links were rendering link-blue. v3 uses blue
+   only for prose links and the recently-revised row titles; the section "all"
+   links are #8b2a4a (artifact lines 181, 248). Introduced when the global
+   link rule was added, and found by the element-level diff rather than by any
+   assertion I thought to write. */
+.hmi-v3-home .hmi-home-metals-all,
+.hmi-v3-home .hmi-v3-rev-all,
+.hmi-v3-home .hmi-v3-trust-col a {
+  color: #8b2a4a;
+
+  &:hover { color: #6f2139; }
+}
