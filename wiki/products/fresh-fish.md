@@ -144,6 +144,16 @@ Public-record regulatory events material to fresh fish, framed as events not bra
 For HMTc-facing material citing regulatory backdrops, reference the regulation page directly rather than naming specific brand recall events. Brand-by-brand recall enumeration belongs in the private brand-intelligence build per Part 26, not on this public page.
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-drivers -->
+## Ingredient drivers
+
+Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.
+
+- [[ingredients/fish|Fish]]
+
+_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._
+<!-- END: hmi-v3-drivers -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -189,9 +199,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 17 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 5 sources added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [4e3cf32c2](https://github.com/paleofoundation/heavymetalindex/commit/4e3cf32c2) | 2026-05-18 | correction | 1 source removed; narrative text revised |
-| [70fd06037](https://github.com/paleofoundation/heavymetalindex/commit/70fd06037) | 2026-05-18 | major | 23 sources added; narrative text revised |
-| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

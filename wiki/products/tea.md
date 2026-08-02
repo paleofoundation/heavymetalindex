@@ -61,6 +61,16 @@ The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/
 No row-specific public recall or enforcement synthesis has been promoted for Tea in this pass. Regulatory references on this page should be read as context unless a source ties an event to this exact product scope and analyte. Future enforcement prose should remain event-framed and should not convert source mentions into brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
+<!-- BEGIN: hmi-v3-drivers -->
+## Ingredient drivers
+
+Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.
+
+- [[ingredients/tea|Tea]]
+
+_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._
+<!-- END: hmi-v3-drivers -->
+
 ## Sources
 
 _Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
@@ -77,9 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b9e617ac](https://github.com/paleofoundation/heavymetalindex/commit/6b9e617ac) | 2026-05-25 | minor | Narrative text revised |
 | [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
-| [46695aaec](https://github.com/paleofoundation/heavymetalindex/commit/46695aaec) | 2026-05-14 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

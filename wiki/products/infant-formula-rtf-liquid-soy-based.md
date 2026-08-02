@@ -269,6 +269,21 @@ The sources below are catalogued as product-context candidates for this row. The
 <!-- END: hmi-broad-context-sources -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-drivers -->
+## Ingredient drivers
+
+Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.
+
+- [[ingredients/infant-formula-ingredients|Infant Formula Ingredients]]
+- [[ingredients/infant-formula-rtf-liquid|Infant Formula Rtf Liquid]]
+- [[ingredients/soy-based-infant-formula|Soy-based infant formula]]
+- [[ingredients/soy-protein-isolate|Soy Protein Isolate]]
+- [[ingredients/soy|Soy]]
+- [[ingredients/vitamin-mineral-premix|Vitamin Mineral Premix]]
+
+_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._
+<!-- END: hmi-v3-drivers -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -303,7 +318,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 11 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
 | 12 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | US/EU tAs, iAs, Pb, Cd, tHg occurrence in Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and... |
 | 13 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | DE/EU Ni occurrence in 840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II,... (n=840) |
-| 14 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
+| 14 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
 | 15 | [[sources/ouyang2022-early-life-microbiota-delivery-feeding\|Ouyang et al. 2022]]. *Early Life Microbiota — Impact of Delivery Mode and Infant Feeding*, Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, pp. 25-38 | 2022 | Review | This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome... |
 | 16 | [[sources/chung2021-china-infant-formula-toxic-elements\|Chung et al. 2021]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods 9(12):1839 | 2021 | Peer-reviewed | CN Cr, tAs, Cd, Pb concentrations |
 | 17 | [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|Paiva et al. 2020]]. *Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment*, Journal of Food Composition and Analysis 90:103493 | 2020 | Peer-reviewed | Total Al by ICP-OES in Brazilian soy-based infant drink (2860 µg/kg) and fruit purees; also reports in-vitro bioaccessibility (0.5–48%) showing total Al overestimates bioavailable fraction; soy-based drink is the direct soy-formula context source |
@@ -349,9 +364,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 7 sources added; 2 sections added and 1 removed; narrative text revised |
 | [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [8530c3e2e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e2e) | 2026-05-17 | major | 6 sources added; narrative text revised |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -303,6 +303,21 @@ The sources below are catalogued as product-context candidates for this row. The
 <!-- END: hmi-broad-context-sources -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-drivers -->
+## Ingredient drivers
+
+Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.
+
+- [[ingredients/infant-formula-ingredients|Infant Formula Ingredients]]
+- [[ingredients/infant-formula-powder|Infant Formula Powder]]
+- [[ingredients/soy-based-infant-formula|Soy-based infant formula]]
+- [[ingredients/soy-protein-isolate|Soy Protein Isolate]]
+- [[ingredients/soy|Soy]]
+- [[ingredients/vitamin-mineral-premix|Vitamin Mineral Premix]]
+
+_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._
+<!-- END: hmi-v3-drivers -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -363,7 +378,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 34 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | DE/EU Ni occurrence in 840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II,... (n=840) |
 | 35 | [[sources/floresaguilar2022-infant-formula-lead-spe-ce\|Flores-Aguilar et al. 2022]]. *Selective Pb(II)-Imprinted Polymer for Solid Phase Extraction in the Trace Determination of Lead in Infant Formula by Capillary Electrophoresis*, Journal of the Mexican Chemical Society | 2022 | Peer-reviewed | MX Pb occurrence in Twenty commercial infant formula samples analyzed for Pb after reconstitution according to manufacturer instructions; positive samples are reported... (n=20) |
 | 36 | [[sources/gredilla2022-powdered-milk-hazardous-elements\|Gredilla et al. 2022]]. *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*, Food Analytical Methods | 2022 | Peer-reviewed | BR/CO Li, Al, Mg, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sn, Sb, Ba, tHg, Tl, Pb, Mo occurrence in Twelve commercial powdered milk formulas purchased in representative cities of Brazil and Colombia: nine child/infant milks and three... (n=12) |
-| 37 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
+| 37 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
 | 38 | [[sources/ouyang2022-early-life-microbiota-delivery-feeding\|Ouyang et al. 2022]]. *Early Life Microbiota — Impact of Delivery Mode and Infant Feeding*, Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, pp. 25-38 | 2022 | Review | This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome... |
 | 39 | [[sources/who-gdwq-2022-fourth-edition\|WHO 2022]]. *Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda*, Geneva: World Health Organization | 2022 | Government report | WHO/Global Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U, Sb occurrence in Drinking-water consumers globally; guideline values derived for a 60 kg adult consuming 2 L/day, with bottle-fed infants flagged... |
 | 40 | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|Astolfi et al. 2021]]. *Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Italian powdered infant formula occurrence for Al, tAs, Cd, Cr, Ni, Pb, Sn (n=22; powder format exact; soy/non-soy not split) |
@@ -452,9 +467,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added and 1 removed; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 8 sources added; 2 sections added and 1 removed; narrative text revised |
 | [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [8530c3e2e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e2e) | 2026-05-17 | major | 6 sources added; narrative text revised |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

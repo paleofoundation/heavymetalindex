@@ -283,6 +283,20 @@ The sources below are catalogued as product-context candidates for this row. The
 <!-- END: hmi-broad-context-sources -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-drivers -->
+## Ingredient drivers
+
+Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.
+
+- [[ingredients/baby-cereals-dry|Baby Cereals Dry]]
+- [[ingredients/cereals|Cereals]]
+- [[ingredients/infant-cereal-ingredients|Infant Cereal Ingredients]]
+- [[ingredients/non-rice-grains|Non Rice Grains]]
+- [[ingredients/vitamin-mineral-premix|Vitamin Mineral Premix]]
+
+_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._
+<!-- END: hmi-v3-drivers -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -385,9 +399,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 6 sources added; 2 sections added and 1 removed; narrative text revised |
 | [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [8530c3e2e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e2e) | 2026-05-17 | major | 6 sources added; narrative text revised |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

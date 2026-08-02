@@ -100,6 +100,17 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | root-vegetable-containing (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-v3-drivers -->
+## Ingredient drivers
+
+Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.
+
+- [[ingredients/root-vegetables|Root vegetables]]
+- [[ingredients/vegetable-juice|Vegetable juice]]
+
+_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._
+<!-- END: hmi-v3-drivers -->
+
 ## Sources
 
 - Source promotion pending.

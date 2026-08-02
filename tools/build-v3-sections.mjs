@@ -46,9 +46,15 @@ function upsert(md, marker, body) {
   const block = `${open}\n${body}\n${close}`
   const re = new RegExp(`${open}[\\s\\S]*?${close}`)
   if (re.test(md)) return md.replace(re, block)
-  // Insert before References/Sources/Update history so the apparatus stays last.
+  // Insert before the apparatus. Prefer a heading; otherwise fall back to the
+  // FIRST generated marker, because appending at the end of a page whose tail is
+  // generator-owned drops the block INSIDE that generator's region — which is
+  // how the register table ended up inside update-history and tripped the leak
+  // guard.
   const m = md.match(/\n## (References|Sources|Update history)\b/)
   if (m) return md.slice(0, m.index) + "\n" + block + "\n" + md.slice(m.index)
+  const g = md.match(/\n<!-- BEGIN: /)
+  if (g) return md.slice(0, g.index) + "\n" + block + "\n" + md.slice(g.index)
   return md.trimEnd() + "\n\n" + block + "\n"
 }
 
@@ -127,13 +133,71 @@ for (const f of readdirSync(join(WIKI, "ingredients")).filter((x) => x.endsWith(
   }
 }
 
-// ── 3. Full register — NOT EMITTED. Blocked, reported rather than forced.
+// ── 3. Full register — STILL NOT EMITTED. Reported, not forced.
 //
-// wiki/regulations/index.md's tail is entirely generator-owned: inserting a
-// table before the apparatus put it INSIDE the update-history block, where
-// audit-page-history-leaks correctly flagged "Codex" as an internal term and
-// failed the build. The page has no author-owned region to insert into, so a
-// Full register section there needs the index generator to emit it, not this
-// one. Left absent and failing in the gate, which is the honest state.
+// Second attempt, second block. Inserting before the first generated marker put
+// the table in the author region, but audit-page-history-leaks still scanned it
+// under the update-history scope and failed the build on "Codex" — the token in
+// "Codex Alimentarius Commission", a food-standards body.
+//
+// The guard is not wrong to be strict, and it already carves Codex out for the
+// REFERENCES scope (audit-page-history-leaks.mjs:50-52) precisely because it is
+// a legitimate body there. The same carve-out has not been made for a register
+// table because no register table existed until now.
+//
+// Weakening a firewall guard to land a navigation table is the wrong trade, so
+// this stays absent and failing in the gate. The fix is either a named scope for
+// this block in the guard, or emitting the register from the index generator
+// that already owns that page's tail. Karen's call — it touches the firewall.
+
+// ── 4. Ingredient drivers — product-category pages ─────────────────────────
+// Which ingredients feed this category, read from the ingredients' own
+// `used_in_products` frontmatter (231 pages carry it). This is the reverse of a
+// link the corpus already asserts, so nothing is invented.
+const drivers = new Map()
+for (const f of readdirSync(join(WIKI, "ingredients")).filter((x) => x.endsWith(".md"))) {
+  const md = readFileSync(join(WIKI, "ingredients", f), "utf8")
+  const fm = md.split(/^---$/m)[1] ?? ""
+  // used_in_products is FLOW style on one line -
+  //   used_in_products: ["[[products/infant-rice-cereal]]", "[[products/rice-milk]]"]
+  // not the block style a first pass assumed. Handle both.
+  const flow = fm.match(/used_in_products:\s*\[([^\]]*(?:\][^\]]*)*?)\]\s*$/m)
+  const blockStyle = fm.match(/used_in_products:\s*\n((?:\s*-\s*.+\n)+)/)
+  const raw = flow ? flow[1] : blockStyle ? blockStyle[1] : null
+  if (!raw) continue
+  const blk = [null, raw]
+  const title = (fm.match(/^title:\s*"?([^"\n]+)"?/m) || [])[1]?.trim() ?? f.replace(/\.md$/, "")
+  for (const line of blk[1].split(/[\n,]/)) {
+    const t = line.replace(/^\s*-\s*/, "").replace(/\[\[|\]\]/g, "").replace(/"/g, "").trim()
+    if (!t) continue
+    const slug = t.split("|")[0].split("/").pop()
+    if (!slug) continue
+    if (!drivers.has(slug)) drivers.set(slug, [])
+    drivers.get(slug).push({ title, slug: f.replace(/\.md$/, "") })
+  }
+}
+for (const f of readdirSync(join(WIKI, "products")).filter((x) => x.endsWith(".md") && x !== "index.md")) {
+  const slug = f.replace(/\.md$/, "")
+  const list = drivers.get(slug)
+  if (!list?.length) continue
+  const p = join(WIKI, "products", f)
+  const md = readFileSync(p, "utf8")
+  const seen = new Set()
+  const uniq = list.filter((d) => (seen.has(d.slug) ? false : seen.add(d.slug)))
+  const body = [
+    "## Ingredient drivers",
+    "",
+    `Ingredients the corpus routes into this category. Contamination in a category is inherited from what goes into it, so these are where an occurrence signal originates.`,
+    "",
+    ...uniq.slice(0, 12).map((d) => `- [[ingredients/${d.slug}|${d.title}]]`),
+    "",
+    "_Routed from each ingredient's own declared use. An ingredient listed here is not a finding about this category; read its page for the occurrence evidence._",
+  ].join("\n")
+  const next = upsert(md, "hmi-v3-drivers", body)
+  if (next !== md) {
+    touched++
+    if (APPLY) writeFileSync(p, next)
+  }
+}
 
 console.log(`build-v3-sections: ${touched} page(s) ${APPLY ? "written" : "would change (dry run)"}`)

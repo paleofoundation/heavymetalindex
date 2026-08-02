@@ -44,6 +44,8 @@ const RENAMES: Record<string, Rename[]> = {
     { from: /^microbiome context$/i, to: "Microbiome effects" },
     { from: /^open questions$/i, to: "Open questions and limits of this page" },
     { from: /^frequently asked questions$/i, to: "Questions this page answers" },
+    // Measured: the page carries this as a question-form heading. v3 states it.
+    { from: /^what do these reference values mean in practice\??$/i, to: "What the reference values mean in practice" },
   ],
   // MEASURED from the live pages, not guessed. A first pass at this file
   // inferred the heading names and four of five type maps silently did nothing,
@@ -62,7 +64,7 @@ const RENAMES: Record<string, Rename[]> = {
     { from: /^(ingredient drivers|drivers)$/i, to: "Ingredient drivers" },
     // Measured on infant-formula-powder-non-soy, the typical product page.
     { from: /^(applicable limits|regulatory limits|limits that apply|federal ?\/ ?regulatory limits)/i, to: "Limits applicable to this category" },
-    { from: /^(testing|testing posture)$/i, to: "Testing and verification posture" },
+    { from: /^(testing|testing posture|evidence governance)$/i, to: "Testing and verification posture" },
   ],
   regulation: [
     { from: /^overview$/i, to: "What the instrument does" },
@@ -95,7 +97,7 @@ export const V3SectionLabels: QuartzTransformerPlugin = () => ({
         if (!renames?.length) return
 
         visit(tree, "element", (node: any) => {
-          if (node.tagName !== "h2") return
+          if (node.tagName !== "h2" && node.tagName !== "h3") return
           // The anchor <a> Quartz appends is a child; read only the label text.
           const label = textOf({
             type: "root",

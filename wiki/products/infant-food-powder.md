@@ -45,7 +45,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
-| 2 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
+| 2 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -64,9 +64,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 10 sections removed; narrative text revised |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [a4dcf15e7](https://github.com/paleofoundation/heavymetalindex/commit/a4dcf15e7) | 2026-05-30 | major | 9 sections added; narrative text revised |
-| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->
