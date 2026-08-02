@@ -499,11 +499,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 11
-          },
-          {
-            "label": "Completeness gaps",
-            "slug": "completeness-gaps"
+            "count": 12
           }
         ]
       },

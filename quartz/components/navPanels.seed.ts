@@ -273,7 +273,6 @@ export const seedPanels: SeedPanel[] = [
           { label: "Corpus coverage (PRISMA)", slug: "coverage" },
           { label: "Editorial standards", slug: "editorial-standards" },
           { label: "Defensibility audits", slug: "audits", count: "dir:wiki/audits" },
-          { label: "Completeness gaps", slug: "completeness-gaps" },
         ],
       },
       {
