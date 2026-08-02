@@ -64,7 +64,10 @@ const PAGES = [
   { screen: "isHomeA", url: "/index.html", rail: false },
   { screen: "isMetal", url: "/metals/lead.html", rail: true, badge: "METAL", crumb: "Metals" },
   { screen: "isIngredient", url: "/ingredients/almond.html", rail: true, badge: "INGREDIENT", crumb: "Ingredients" },
-  { screen: "isProduct", url: "/products/aas-injectable.html", rail: true, badge: "PRODUCT-CATEGORY", crumb: "Products" },
+  // Representative CORRECTED: /products/aas-injectable carries THREE headings;
+  // the typical product page carries 25. Sampling an outlier stub to represent
+  // 414 pages measured the stub, not the type.
+  { screen: "isProduct", url: "/products/infant-formula-powder-non-soy.html", rail: true, badge: "PRODUCT-CATEGORY", crumb: "Products" },
   { screen: "isRegulation", url: "/regulations/atsdr-aluminum-mrls.html", rail: true, badge: "REGULATION", crumb: "Regulations" },
   { screen: "isSource", url: "/sources/ab-manan2018-oil-palm-soil-metals.html", rail: true, badge: "SOURCE", crumb: "Sources" },
 

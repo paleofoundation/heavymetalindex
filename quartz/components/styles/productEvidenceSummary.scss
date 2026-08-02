@@ -105,7 +105,10 @@
 .hmi-product-chip {
   background: rgba(255, 255, 255, 0.74);
   border: 1px solid rgba(139, 42, 74, 0.18);
-  border-radius: 999px;
+  // METHOD.md §4: radii 2-3px sitewide, chips are 2px. A 999px pill is the
+  // shape v3 never uses; it survived because the gate's radius check read only
+  // borderTopLeftRadius and the sampled product page was a 3-heading stub.
+  border-radius: 2px;
   color: var(--darkgray);
   font-size: 0.78rem;
   font-weight: 600;

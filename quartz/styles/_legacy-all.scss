@@ -700,7 +700,8 @@ a.hmi-meth-card:hover {
   background: rgba(139, 42, 74, 0.04);
   border: 1px solid var(--lightgray);
   border-left: 3px solid var(--secondary);
-  border-radius: var(--radius-md);
+  // var(--radius-md) resolves to 8px; METHOD.md §4 caps radii at 3px.
+  border-radius: 3px;
   margin: 0 0 1.5rem;
   padding: 18px 20px;
 }
@@ -730,7 +731,8 @@ a.hmi-meth-card:hover {
 .hmi-stakeholder-guide dl > div {
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid var(--lightgray);
-  border-radius: var(--radius-sm);
+  // var(--radius-sm) resolves to 4px; METHOD.md §4 caps radii at 3px.
+    border-radius: 3px;
   padding: 0.7rem 0.85rem;
 }
 
