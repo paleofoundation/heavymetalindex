@@ -16,6 +16,8 @@ scope_note: "Essential nutrient with documented neurodevelopmental concern at ex
 
 # Manganese
 
+## Overview
+
 Manganese is an essential element required at low doses for connective-tissue formation, bone development, and several enzyme cofactor roles. At excessive intake, manganese is a documented neurodevelopmental concern, particularly during the prenatal-and-early-childhood window when blood-brain-barrier permeability is highest. The neurodevelopmental dose-response is the reason manganese appears in the heavy-metals-and-infant-food literature even though it is an essential nutrient rather than one of the priority toxic metals (lead, total and inorganic arsenic, cadmium, total and methylmercury, nickel, aluminium, hexavalent chromium, tin).
 
 The principal dietary sources of manganese are whole grains, legumes, nuts, leafy vegetables, and some teas. Manganese in drinking water has been associated with childhood neurodevelopmental endpoints in epidemiological studies; this is a regulated concern in some jurisdictions (the EPA secondary MCL for manganese is anchored on aesthetic effects rather than health, but health-based advisory thresholds exist).

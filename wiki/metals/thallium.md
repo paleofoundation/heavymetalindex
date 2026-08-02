@@ -15,6 +15,8 @@ n_sources: 1
 
 # Thallium
 
+## Overview
+
 Thallium is listed by [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] among minor toxic metals for which toxicity has been described. The Essentials chapter does not provide a detailed thallium subsection, so this node is source-map context only.
 
 ## Status

@@ -15,6 +15,8 @@ n_sources: 2
 
 # Organotins
 
+## Overview
+
 Organotin compounds are tin-carbon-bonded molecules in which tin is covalently linked to one, two, or three alkyl or aryl substituents (mono-, di-, and tri-organotins). The toxicologically and regulatorily important species in food are the butyltins (monobutyltin, dibutyltin, tributyltin), the phenyltins (mainly triphenyltin), and to a lesser dietary extent the methyltins. Organotins are the toxicologically distinct counterpart to the inorganic tin species page at [[metals/tin-inorganic]], and the species split is non-substitutable: ATSDR-derived oral MRLs for tributyltin oxide (0.0003 mg/kg/day) sit three orders of magnitude below the inorganic-tin MRL (0.3 mg/kg/day) at comparable exposure duration ([[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]]). Total tin reported by an occurrence survey must never be substituted for organotin without speciation; total tin in food matrices that lack a documented organotin pathway is treated as inorganic tin context on this wiki, and total tin in seafood, drinking water from PVC distribution, or food in PVC-stabilized contact materials is treated as a mixed signal that requires speciation evidence before any toxicological interpretation.
 
 ## Toxicology

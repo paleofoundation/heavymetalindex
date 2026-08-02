@@ -15,6 +15,8 @@ n_sources: 1
 
 # Molybdenum
 
+## Overview
+
 Molybdenum is an essential cofactor for enzymes including sulfite oxidase, xanthine oxidase, aldehyde oxidase, and mitochondrial amidoxime reductase. [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] attaches molybdenum as an essential-metal-with-toxicity-potential node and notes that excess molybdenum can resemble copper deficiency.
 
 ## Status

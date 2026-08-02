@@ -15,6 +15,8 @@ n_sources: 2
 
 # Chromium, Hexavalent
 
+## Overview
+
 Hexavalent chromium (Cr-VI, Cr(VI), or Cr6+) is the high-oxidation-state form of chromium found in chromate (CrO4^2-) and dichromate (Cr2O7^2-) anions. The species is operationally distinct from trivalent chromium (Cr3+), which is far less toxic and was historically (and contestedly) treated as an essential trace nutrient. The Heavy Metal Index maintains the Cr-VI / Cr(III) split throughout, and the [Heavy Metal Tested & Certified](https://heavymetaltested.com) program tests hexavalent chromium as a separate analyte from total or trivalent chromium. Total chromium reported by a source is never substituted for Cr-VI on this wiki; sources that do not speciate are routed to [chromium](/metals/chromium) as total chromium and labeled as such. See also [chromium](/metals/chromium) for the parent element page.
 
 ## Toxicology

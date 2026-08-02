@@ -17,7 +17,7 @@ Total arsenic (tAs) denotes the sum of inorganic and organic arsenic species in 
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached to this analytical-quantity page only as arsenic-species context. The chapter reinforces why the wiki cannot treat total arsenic as a health-equivalent substitute for inorganic arsenic.
 
-## Why total arsenic is reported separately from inorganic arsenic
+## Overview
 
 Total arsenic and inorganic arsenic are different analytes with different toxicological interpretation, and the Heavy Metal Index treats them as non-substitutable per the [methodology speciation rule](/methodology). A total arsenic measurement does not close an inorganic arsenic evidence gap. A regulation written against inorganic arsenic is not satisfied by a total arsenic measurement.
 

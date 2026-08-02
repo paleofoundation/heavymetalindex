@@ -15,6 +15,8 @@ n_sources: 4
 
 # Tin
 
+## Overview
+
 Tin (Sn, atomic number 50) is a soft silvery metal that is overwhelmingly encountered in the modern food system through tinplated steel cans, where the elemental tin lining contacts the food and dissolves into it as inorganic tin in proportion to the food's acidity, the can's lacquering status, and the storage time and temperature. Tin's relevance as a food-safety analyte is dominated by this canned-food-and-beverage pathway and by a structurally separate organotin pathway that derives principally from seafood (legacy tributyltin antifouling paint contamination of marine sediments), from PVC food-contact materials and drinking-water pipes, and from historic organotin pesticide and biocide use.
 
 The wiki maintains the inorganic-tin and organotin species split throughout, because the toxicology of the two classes differs by approximately three orders of magnitude in derived oral MRLs (inorganic tin MRL 0.3 mg/kg/day intermediate; tributyltin oxide MRL 0.0003 mg/kg/day chronic; [[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]]). Total tin reported by an occurrence survey in canned food matrices is treated as inorganic tin context; total tin in seafood, drinking water from PVC distribution, or food in PVC food-contact materials is treated as a mixed signal that requires speciation evidence before any toxicological interpretation. The species pages [[metals/tin-inorganic]] and [[metals/organotins]] carry the species-specific toxicology, occurrence, regulatory, and testing synthesis. This parent page covers tin as element and the cross-species framing.

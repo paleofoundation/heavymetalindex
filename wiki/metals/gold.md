@@ -15,6 +15,8 @@ n_sources: 1
 
 # Gold
 
+## Overview
+
 Gold is named by [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] in two chapter-level contexts: metals that can provoke immune reactions and historical/therapeutic use of metal compounds. The Essentials chapter does not provide a dedicated gold subsection, so this node is source-map context only.
 
 ## Status

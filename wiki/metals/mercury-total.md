@@ -13,6 +13,8 @@ status: scaffold
 n_sources: 2
 ---
 
+## Overview
+
 Total mercury (tHg) denotes the sum of all mercury species in a sample and is a common analytical quantity in routine food surveillance. Because the toxicity of dietary mercury is dominated by methylmercury, health-based interpretation usually requires either speciation or the assumption that a matrix-dependent fraction of total mercury is methylmercury. See [methylmercury](/metals/mercury-methyl) for the toxicologically primary page.
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached to this analytical-quantity page as mercury-species context. The chapter reinforces why elemental mercury vapor, inorganic mercury, and methylmercury require separate interpretation even when a surveillance dataset reports total mercury.

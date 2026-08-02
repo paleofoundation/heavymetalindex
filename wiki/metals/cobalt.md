@@ -15,6 +15,8 @@ n_sources: 1
 
 # Cobalt
 
+## Overview
+
 Cobalt is an essential trace metal as the central metal in vitamin B12, but cobalt-containing dusts and hard-metal materials can produce respiratory toxicity, allergic dermatitis, cardiomyopathy, and carcinogenicity concerns. [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached as the first chapter-level toxicology source for this node.
 
 ## Status

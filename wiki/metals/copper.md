@@ -15,6 +15,8 @@ n_sources: 1
 
 # Copper
 
+## Overview
+
 Copper is an essential metal in enzymes including cytochrome c oxidase, lysyl oxidase, and Cu/Zn superoxide dismutase, but excess copper can produce gastrointestinal and hepatic toxicity. [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] also frames inherited copper-metabolism disorders including Menkes disease and Wilson disease.
 
 ## Status

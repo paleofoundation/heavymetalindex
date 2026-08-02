@@ -15,6 +15,8 @@ n_sources: 1
 
 # Beryllium
 
+## Overview
+
 Beryllium is named by [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] among metals that can provoke immune reactions. The Essentials chapter does not provide a dedicated beryllium subsection, so this node is source-map context only.
 
 ## Status

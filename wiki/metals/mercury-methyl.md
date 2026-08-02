@@ -13,6 +13,8 @@ updated: 2026-04-30
 n_sources: 1
 ---
 
+## Overview
+
 Methylmercury (MeHg) is the biomagnified organometallic form of mercury that dominates dietary exposure in populations consuming fish. Methylmercury is a known developmental neurotoxicant; the literature on fetal and early-childhood exposure is extensive and forms the basis of advisories in most jurisdictions. Large predatory fish (shark, swordfish, king mackerel, bigeye tuna, tilefish) and marine mammals are the principal food-system sources. The distinction between methylmercury and total mercury is maintained throughout this wiki because methylmercury drives the health interpretation in dietary contexts; see [mercury, total](/metals/mercury-total) for the companion page.
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports this species page with textbook-level context on aquatic methylation, biomagnification, gastrointestinal absorption, blood-brain-barrier and placental transfer, fecal elimination, neurotoxicity, and treatment strategies that interrupt enterohepatic cycling. It is a toxicology source, not a food occurrence dataset.

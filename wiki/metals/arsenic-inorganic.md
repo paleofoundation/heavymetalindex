@@ -13,6 +13,8 @@ status: scaffold
 n_sources: 2
 ---
 
+## Overview
+
 Inorganic arsenic (iAs) denotes the trivalent and pentavalent arsenic oxyanions that arise primarily from geogenic sources and agricultural uptake. Inorganic arsenic is classified as a human carcinogen and is the fraction of dietary arsenic that governs regulatory posture in most jurisdictions. Rice and rice-derived ingredients dominate population-level inorganic arsenic exposure from food, with apple juice and some root vegetables as secondary contributors. The distinction between inorganic and total arsenic is maintained throughout this wiki because the toxicological and regulatory implications of the two quantities differ sharply; see [arsenic, total](/metals/arsenic-total) for the companion page.
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports this species page with textbook-level context on inorganic arsenic absorption, methylation, urinary excretion, skin/hair/nail biomarkers, acute and chronic toxicity, carcinogenicity, and treatment. It is a toxicology source, not a food occurrence dataset.

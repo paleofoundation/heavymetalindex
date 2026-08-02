@@ -15,6 +15,8 @@ n_sources: 1
 
 # Magnesium
 
+## Overview
+
 Magnesium is a nutritionally essential metal and enzyme cofactor. [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] attaches magnesium to the wiki as an essential-metal node where deficiency is usually more clinically important than excess, while high exposure can produce neuromuscular, cardiovascular, and central nervous system toxicity.
 
 ## Status

@@ -16,6 +16,8 @@ scope_note: "Essential nutrient, not part of the standard toxic-metal analyte pa
 
 # Zinc
 
+## Overview
+
 Zinc is an essential nutrient and is not one of the toxic metals at the center of food-contamination concern. The Index nevertheless carries this page because zinc appears in elemental-survey sources alongside the toxic-metal analytes — many ICP-MS multi-element methods report zinc as part of the standard analyte set, and some toxicology sources covering cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context. Zinc is in scope only as cross-metal context, not as a contamination analyte in its own right.
 
 The essential-vs-toxic boundary for zinc is dose-dependent. Adequate zinc intake supports immune function, wound healing, and child growth; insufficient zinc produces deficiency syndromes prevalent in some populations. High-dose chronic intake can cause copper deficiency, immune impairment, and gastrointestinal effects. Because zinc's primary food-safety question is nutritional adequacy rather than contamination, it falls outside the scope of a toxic-metal contamination index, which addresses the presence of unwanted contaminants rather than the sufficiency of essential nutrients.

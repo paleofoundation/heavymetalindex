@@ -26,7 +26,7 @@ sources: 1196
 
 This synthesis draws on ATSDR, EFSA, JECFA, EPA IRIS, CDC, OEHHA, FDA Closer to Zero, mechanism reviews, and chapter-level textbook context from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.
 
-## What is lead?
+## Overview
 <!-- audience: regulator, educator, consumer -->
 
 Lead is a non-essential heavy metal and a pervasive environmental contaminant. It enters the human food system through atmospheric deposition from historical leaded gasoline use, soil contamination from leaded paint and industrial emissions, contact with legacy lead-containing food processing equipment and water distribution materials, and uptake by crops from contaminated soil ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). The metal is absorbed at higher rates by children than by adults (5 to 15 percent in adults, with children retaining more of what they absorb), distributes to soft tissues in the short term and to bone over decades, and is excreted slowly through urine and faeces ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). Blood lead has a half-life of approximately 30 days; bone lead has a half-life of 10 to 30 years and serves as an internal reservoir that releases lead during pregnancy, lactation, and bone resorption ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]).

@@ -15,6 +15,8 @@ n_sources: 1
 
 # Platinum
 
+## Overview
+
 Platinum is relevant through industrial exposure, jewelry, catalysts, and platinum coordination complexes used as antitumor agents. [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] attaches platinum to the wiki through hypersensitivity/platinosis, cisplatin-related nephrotoxicity, neurotoxicity, ototoxicity, marrow suppression, and carcinogenicity concerns.
 
 ## Status
