@@ -105,6 +105,13 @@ const ABSENT = [
   // `.hmi-topnav-controls` alive produces a diff that looks complete and a bar
   // that still lays out the old way.
   ".hmi-topnav-controls",
+
+  // CHROME-SPEC §1.5 / §5: the right rail REPLACES the three provenance cards
+  // ("Researched by", "Page Snapshot", "Page provenance"), it does not
+  // supplement them. The deletion landed earlier (0f0b1cd7c); this asserts the
+  // absence so a future rail edit cannot quietly bring the card back beside the
+  // Connections/Reuse/Found-an-error blocks that now carry its information.
+  ".hmi-provenance-card",
 ]
 
 const CHROME = "*"
@@ -191,6 +198,19 @@ const STYLES = [
 
   { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontSize", want: "13px", v3: 414 },
   { on: DETAIL, sel: ".snav .grp > a.sec", prop: "fontWeight", want: "400", v3: 29 },
+
+  // Right rail (CHROME-SPEC §1.5). Connections head, the #1c43ad rail links, the
+  // Reuse box's burgundy header on a blush ground, and the Found-an-error box
+  // and its solid-burgundy CTA — the three blocks that replaced the provenance
+  // card.
+  { on: DETAIL, sel: ".rail-connections-title", prop: "color", want: "#a9a1a2", v3: 1453 },
+  { on: DETAIL, sel: ".rail-connections-title", prop: "fontSize", want: "9.5px", v3: 1453 },
+  { on: DETAIL, sel: ".rail-connections-list a", prop: "color", want: "#1c43ad", v3: 1456 },
+  { on: DETAIL, sel: ".rail-reuse-title", prop: "color", want: "#8b2a4a", v3: 1461 },
+  { on: DETAIL, sel: ".rail-reuse-title", prop: "backgroundColor", want: "#fbf5f7", v3: 1461 },
+  { on: DETAIL, sel: ".rail-correction", prop: "backgroundColor", want: "#f6ecf0", v3: 1471 },
+  { on: DETAIL, sel: ".rail-correction-cta", prop: "backgroundColor", want: "#8b2a4a", v3: 1476 },
+  { on: DETAIL, sel: ".rail-correction-cta", prop: "color", want: "#ffffff", v3: 1476 },
 
   { on: ["isMetal"], sel: ".wiki-content table", prop: "fontSize", want: "13.5px", v3: 502 },
   { on: ["isMetal"], sel: ".wiki-content thead th", prop: "fontSize", want: "10px", v3: 505 },
