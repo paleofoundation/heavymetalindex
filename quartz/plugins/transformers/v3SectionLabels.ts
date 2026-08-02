@@ -54,10 +54,14 @@ const RENAMES: Record<string, Rename[]> = {
     { from: /^why this commodity accumulates/i, to: "Why this ingredient accumulates" },
     { from: /^ingredient-derivative risk$/i, to: "Product categories that inherit this ingredient" },
     { from: /^(evidence gaps|open questions|where this page is thin)$/i, to: "Where this page is thin" },
+    // v3 heads this "Metals profiled in <ingredient>"; the build heads it with
+    // the metal's own name ("Nickel in rice"). Same job, different vocabulary.
+    { from: /^(lead|cadmium|arsenic|mercury|nickel|chromium|alumini?um|tin|antimony) in /i, to: "Metals profiled in" },
   ],
   "product-category": [
     { from: /^(ingredient drivers|drivers)$/i, to: "Ingredient drivers" },
-    { from: /^(applicable limits|regulatory limits|limits that apply)$/i, to: "Limits applicable to this category" },
+    // Measured on infant-formula-powder-non-soy, the typical product page.
+    { from: /^(applicable limits|regulatory limits|limits that apply|federal ?\/ ?regulatory limits)/i, to: "Limits applicable to this category" },
     { from: /^(testing|testing posture)$/i, to: "Testing and verification posture" },
   ],
   regulation: [

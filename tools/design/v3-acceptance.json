@@ -103,10 +103,8 @@
     "isIngredient": [
       "Heavy metal contamination profile",
       "Why this ingredient accumulates",
-      "Metals profiled in rice",
-      "Irrigation management and the arsenic\u2013cadmium trade-off",
+      "Metals profiled in",
       "Processing effects",
-      "FDA Total Diet Study occurrence",
       "Mitigation options",
       "Product categories that inherit this ingredient",
       "Where this page is thin"
@@ -160,5 +158,6 @@
     "Connections",
     "Reuse this page",
     "Found an error?"
-  ]
+  ],
+  "_ingredient_note": "Rice-specific targets removed or generalised. The golden ingredient page is RICE, so extraction produced 'Metals profiled in rice', the arsenic-cadmium irrigation trade-off and the FDA TDS section - all real on rice and impossible on almond. Asserting a page-specific heading against every page of the type is a wrong assertion, not a missing section. 'Metals profiled in' is kept as a prefix; the two genuinely rice-only sections are dropped rather than demanded corpus-wide."
 }
