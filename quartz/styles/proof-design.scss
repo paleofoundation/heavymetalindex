@@ -267,20 +267,29 @@ section.hmi-evidence-header .hmi-evidence-key { color: var(--muted); min-width: 
 // the drift visible in the FAQ section.
 .qa summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 14px; padding: 18px 0; font-family: Lora, serif; font-size: 21px; font-weight: 400; color: #8b2a4a; line-height: 1.35; }
 .qa summary::-webkit-details-marker { display: none; }
-// v3's question marker (artifact 174) is a bare mono glyph — 16px, #8b2a4a,
-// line-height 1 — NOT a bordered circle. The 26px ringed chevron was pre-v3
-// styling and is the other half of the FAQ drift. The rotating SVG is kept as
-// the glyph (v3 swaps a + / − character for the same affordance); the ring,
-// the fixed box and the centring are deleted rather than overridden.
-.qa summary .mk { display: flex; align-items: center; color: #8b2a4a; flex: 0 0 auto; line-height: 1; transition: transform 0.2s; }
-.qa[open] summary .mk { transform: rotate(180deg); }
+// v3's question marker (artifact 174) is a bare mono "+" that becomes "−" when
+// the item opens — #8b2a4a, line-height 1, NO ring, NO box, NO rotation. The
+// .mk span is emitted empty by CollapsibleQuestions; the glyph is this ::before,
+// so collapsed/open is a pure style state. Mono so "+" and "−" share an advance
+// width and the question text does not shift on toggle.
+.qa summary .mk { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 0.8em; color: #8b2a4a; font-family: "IBM Plex Mono", monospace; font-size: 18px; font-weight: 400; line-height: 1; }
+.qa summary .mk::before { content: "+"; }
+.qa[open] summary .mk::before { content: "\2212"; } /* U+2212 MINUS SIGN */
+// The heading's own anchor link now rides inside the <summary> (the transformer
+// folds the h3's children in), so it falls outside the heading-anchor selector
+// that keeps body anchors hover-only and was showing at full opacity on every
+// question. v3 shows no persistent anchor icon; restore the hover-only
+// behaviour here so the question row reads clean while deep-linking still works.
+.qa summary a[role="anchor"] { opacity: 0; transition: opacity 0.15s ease; }
+.qa summary:hover a[role="anchor"],
+.qa summary a[role="anchor"]:focus-visible { opacity: 0.5; }
 // v3 answer, artifact 178: indented under the question and marked with a
 // 2px #e0c9d1 left rule rather than left-padding alone.
 .qa .ans { margin: 12px 0 20px 30px; padding: 0 2px 0 16px; border-left: 2px solid #e0c9d1; color: #3f3a3f; font-size: 15.5px; line-height: 1.72; }
 .qa .ans p { margin: 0 0 0.8em; }
 .qa .qa-sub { border-bottom: 1px solid var(--line2); margin: 8px 0 0 6px; border-left: 2px solid var(--burg-tint); padding-left: 14px; }
 .qa .qa-sub > summary { font-size: 15.5px; padding: 11px 2px; color: var(--burg); }
-.qa .qa-sub > summary .mk { width: 22px; height: 22px; font-size: 13px; }
+.qa .qa-sub > summary .mk { font-size: 14px; } /* nested marker inherits the +/− ::before, just smaller */
 .qa .qa-sub > .ans { padding-left: 36px; }
 
 /* collapsible references */

@@ -2,10 +2,11 @@ import { QuartzTransformerPlugin } from "../types"
 import { Root, Element, ElementContent, Text } from "hast"
 
 // Build-time: converts every question-style <h3> (heading text ending in "?")
-// into a collapsed <details class="qa"> accordion, matching the hmi-real-content
-// proof's `.qa` pattern (chevron-in-a-circle marker, rotates on open — styled in
-// proof-design.scss). The h3 and its following flow content (up to the next
-// h1/h2/h3) are folded into the accordion body.
+// into a collapsed <details class="qa"> accordion, matching the v3 "Questions
+// this page answers" pattern (a burgundy "+" that becomes "−" on open — the
+// glyph is a CSS ::before on an empty .mk span, styled in proof-design.scss).
+// The h3 and its following flow content (up to the next h1/h2/h3) are folded
+// into the accordion body.
 //
 // Why build-time and not a client script: the collapsible AND its answer must be
 // in the static HTML so (1) crawlers/LLM bots see the answer without clicking,
@@ -15,10 +16,13 @@ import { Root, Element, ElementContent, Text } from "hast"
 // The emitted markup reproduces the exact contract postbuild's
 // extractAccordionItems() parses:
 //   <details class="qa" data-hmi-faq="1" data-anchor=ID data-question=TEXT>
-//     <summary><span class="mk">▾</span>QUESTION</summary>
+//     <summary><span class="mk"></span>QUESTION</summary>
 //     <div class="ans" data-hmi-faq-answer="1"> …section body… </div>
 //   </details>
-// so the question sections render as the proof accordion AND become FAQPage Q&As.
+// so the question sections render as the v3 accordion AND become FAQPage Q&As.
+// The .mk span is intentionally empty: its "+"/"−" glyph is a CSS ::before, so
+// the collapsed/open state is a style concern, not markup the extractor must
+// parse. (postbuild-inject-jsonld reads data-question / .ans, never the marker.)
 //
 // Registered after TableOfContents so headings already carry slug ids.
 
@@ -30,33 +34,6 @@ function textOf(node: ElementContent | Root): string {
     return (node.children as ElementContent[]).map(textOf).join("")
   }
   return ""
-}
-
-function chevron(): Element {
-  return {
-    type: "element",
-    tagName: "svg",
-    properties: {
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "13",
-      height: "13",
-      viewBox: "0 0 24 24",
-      fill: "none",
-      stroke: "currentColor",
-      "stroke-width": "2.4",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      "aria-hidden": "true",
-    },
-    children: [
-      {
-        type: "element",
-        tagName: "polyline",
-        properties: { points: "6 9 12 15 18 9" },
-        children: [],
-      },
-    ],
-  }
 }
 
 function isQuestionHeading(node: ElementContent): node is Element {
@@ -100,7 +77,8 @@ function foldQuestions(children: ElementContent[]): ElementContent[] {
       tagName: "summary",
       properties: {},
       children: [
-        { type: "element", tagName: "span", properties: { className: ["mk"] }, children: [chevron()] },
+        // Empty marker; the "+"/"−" glyph is drawn by CSS (.qa summary .mk::before).
+        { type: "element", tagName: "span", properties: { className: ["mk"], "aria-hidden": "true" }, children: [] },
         ...(h3.children as ElementContent[]),
       ],
     }
