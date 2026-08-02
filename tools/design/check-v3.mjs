@@ -219,7 +219,7 @@ const STYLES = [
   { on: ["isMetal"], sel: ".wiki-content thead th", prop: "fontSize", want: "10px", v3: 505 },
   { on: ["isMetal"], sel: ".wiki-content thead th", prop: "padding", want: "11px 15px", v3: 505 },
   { on: ["isMetal"], sel: ".wiki-content tbody td", prop: "padding", want: "13px 15px", v3: 510 },
-  { on: ["isMetal"], sel: "th", prop: "fontWeight", want: "400", v3: 1366 },
+  { on: ["isMetal"], sel: ".wiki-content thead th", prop: "fontWeight", want: "500", v3: 1366 },
 
   { on: ["isMetal"], sel: ".hmi-quick-read", prop: "padding", want: "22px 24px", v3: 440 },
   { on: ["isMetal"], sel: ".hmi-quick-read", prop: "borderRadius", want: "0px", v3: 440 },
