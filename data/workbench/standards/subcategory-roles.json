@@ -1,0 +1,21 @@
+{
+  "$comment": "Machine-only clean/dirty/independent role assignment for the HMTc pooling engine, keyed by product_slug. This file exists because the role designation MUST NOT live in public wiki/products/ frontmatter: a `variant_type: contamination_platform` token in a public page is a Part-2 firewall leak (it exposes certification-internal row architecture), so firewall-fix.mjs renames it to `higher-contamination-sibling`, which the engine's dirty branch does not match. The net effect was that 0 rows computed as dirty corpus-wide and every 'higher-contamination-sibling' row silently fell through to the clean P97 (90%-pass) treatment. This config decouples the engine's percentile choice from the public frontmatter: the engine reads role from here first, and falls back to variant_type only when a slug is absent. Rows not listed here keep their prior behaviour.",
+  "roles": {
+    "infant-formula-powder-non-soy": {
+      "role": "clean",
+      "target_percentile": 0.97,
+      "pair_partner": "infant-formula-powder-soy-based",
+      "rationale": "Cow-milk-based powdered formula is the clean benchmark of the infant-formula-powder within-matrix pair. Clean subcategory is held to P97 of its own occurrence distribution, calibrated to admit ~90% of well-controlled brands at the row level.",
+      "authorized_by": "Karen Pendergrass",
+      "authorized_date": "2026-08-02"
+    },
+    "infant-formula-powder-soy-based": {
+      "role": "dirty",
+      "target_percentile": 0.45,
+      "pair_partner": "infant-formula-powder-non-soy",
+      "rationale": "Soy-protein-isolate powdered formula is the higher-contamination sibling of the pair. Dirty subcategory is held to P45 of its own occurrence distribution: a deliberately demanding per-analyte target that admits only the cleanest brands at the row level, so the certification ratchets the segment toward cleaner product over time. The final per-analyte limit is still min(P45, lowest applicable regulatory cap); where P45 exceeds the cap (soy Ni), the cap binds.",
+      "authorized_by": "Karen Pendergrass",
+      "authorized_date": "2026-08-02"
+    }
+  }
+}

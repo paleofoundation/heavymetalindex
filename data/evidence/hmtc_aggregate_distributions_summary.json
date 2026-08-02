@@ -1,34 +1,35 @@
 {
-  "generated_at": "2026-08-01T07:26:01.537Z",
+  "generated_at": "2026-08-02T18:31:01.931Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 792,
   "cells_by_verdict": {
-    "READY FOR REVIEW": 86,
+    "READY FOR REVIEW": 88,
     "READY FOR REVIEW (regulatory cap applies)": 36,
     "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates": 223,
     "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)": 113,
     "BLOCKED: no usable evidence": 268,
-    "PROVISIONAL: review sensitivity disagreement": 54,
+    "PROVISIONAL: review sensitivity disagreement": 52,
     "PROVISIONAL: sensitivity unstable across parametric assumptions": 12
   },
   "cells_by_rationale": {
-    "literature-baseline": 377,
-    "regulatory-alignment": 147,
+    "literature-baseline": 380,
+    "regulatory-alignment": 144,
     "no-data": 268
   },
   "cells_by_role": {
     "clean_subcategory": 95,
-    "independent_clean_by_default": 697
+    "independent_clean_by_default": 680,
+    "dirty_subcategory": 17
   },
   "sensitivity_band_distribution": {
-    "stable": 275,
-    "provisional": 103,
+    "stable": 277,
+    "provisional": 102,
     "no_data": 380,
-    "needs_review": 34
+    "needs_review": 33
   },
   "pool_starvation": {
-    "structured_rows_total": 7122,
+    "structured_rows_total": 7123,
     "stranded_rows_total": 1880,
     "stranded_rows_carrying_a_statistic": 65,
     "stranded_by_reason": {

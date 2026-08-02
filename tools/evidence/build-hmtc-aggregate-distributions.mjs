@@ -53,6 +53,23 @@ const pseudoSampleCap = Number(args.get("pseudo-sample-cap") ?? 500)
 const CLEAN_TARGET_P = 0.97       // per-analyte clean standard
 const DIRTY_TARGET_P = 0.45       // per-analyte dirty standard
 const INDEPENDENT_TARGET_P = 0.97 // default for variant_type other than clean/dirty
+
+// Machine-only clean/dirty/independent role assignment, keyed by product_slug.
+// See data/workbench/standards/subcategory-roles.json for why this exists: the
+// role must not live in public product frontmatter (firewall leak), so the
+// public `variant_type` token gets rewritten and the engine's dirty branch
+// never matched — 0 dirty rows corpus-wide. Reading the role from this config
+// FIRST decouples the percentile choice from the public page.
+const subcategoryRolesPath = path.join(repoRoot, "data/workbench/standards/subcategory-roles.json")
+const subcategoryRoles = (() => {
+  if (!fs.existsSync(subcategoryRolesPath)) return {}
+  try {
+    return JSON.parse(fs.readFileSync(subcategoryRolesPath, "utf8")).roles ?? {}
+  } catch (err) {
+    console.error(`subcategory-roles.json failed to parse: ${err.message}`)
+    return {}
+  }
+})()
 const DEFAULT_CV_FOR_MEAN_ONLY = 1.0 // EFSA/JECFA convention for contaminant data
 const BASIS_RECONSTITUTION_FACTOR = 7 // 1 g powder + 6 g water (1:7 dilution)
 const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
@@ -838,6 +855,23 @@ function lookupRegCap(productSlug, metal, gapRows, nativeBasis) {
 // ---- Target picker per variant_type
 
 function targetForProduct(product) {
+  // Machine-only role config wins over public frontmatter. This is the fix for
+  // the dead dirty branch: a slug marked "dirty" here computes at P45 regardless
+  // of what firewall-fix.mjs did to its public variant_type token.
+  const configured = subcategoryRoles[product.slug]
+  if (configured?.role) {
+    if (configured.role === "clean") {
+      return { target_p: configured.target_percentile ?? CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
+    }
+    if (configured.role === "dirty") {
+      const p = configured.target_percentile ?? DIRTY_TARGET_P
+      return { target_p: p, target_label: `dirty_p${Math.round(p * 100)}`, role: "dirty_subcategory" }
+    }
+    if (configured.role === "independent") {
+      return { target_p: configured.target_percentile ?? INDEPENDENT_TARGET_P, target_label: "independent_p97", role: "independent_clean_by_default" }
+    }
+  }
+  // Fallback: public frontmatter variant_type (legacy path for unconfigured rows).
   const v = product.variant_type || ""
   if (v.includes("clean_benchmark")) {
     return { target_p: CLEAN_TARGET_P, target_label: "clean_p97", role: "clean_subcategory" }
