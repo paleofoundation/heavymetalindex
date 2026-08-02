@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
+import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/heroBand.scss"
 
 // v3 hero band. Replaces the glyph/pill/card hero wholesale — this is a
@@ -107,7 +107,20 @@ type Row = { k: string; v: string }
 // `snapshot: [{k, v}]` wins; otherwise assemble from the counts the frontmatter
 // already carries. Never render an empty box — if there is nothing to say, the
 // column collapses and the hero runs full width.
-function snapshotRows(fm: Record<string, unknown>, section: string): Row[] {
+//
+// `citedBy` is the number of wiki pages that link to this one, counted from the
+// live link graph (the same source the Backlinks component reads). It is the
+// real, build-time footprint of a source record or a regulation in the corpus —
+// not a frontmatter number — and it is what gives those two screens a snapshot
+// where before they had none (the pages carry no `sources`/`n_*` counts, so the
+// box did not render and the hero ran full width against v3, which gives both a
+// panel). `isIndex` keeps a section's directory page out of the per-page rows.
+function snapshotRows(
+  fm: Record<string, unknown>,
+  section: string,
+  citedBy: number,
+  isIndex: boolean,
+): Row[] {
   const declared = fm.snapshot
   if (Array.isArray(declared)) {
     return declared
@@ -122,6 +135,34 @@ function snapshotRows(fm: Record<string, unknown>, section: string): Row[] {
 
   const rows: Row[] = []
   const num = (x: unknown) => (typeof x === "number" || typeof x === "string" ? String(x) : undefined)
+  const str = (x: unknown) => (typeof x === "string" && x.trim() ? x.trim() : undefined)
+  const cited = (label: string): Row | null =>
+    citedBy > 0 ? { k: label, v: `${citedBy} page${citedBy === 1 ? "" : "s"}` } : null
+
+  // A SOURCE record: its footprint (cited-by), what it measured, its grade, its
+  // year. All real frontmatter or the link graph; none invented.
+  if (!isIndex && section === "sources") {
+    const metals = Array.isArray(fm.metals) ? fm.metals.filter(Boolean).length : 0
+    return [
+      cited("Cited by"),
+      metals ? { k: "Metals measured", v: String(metals) } : null,
+      str(fm.evidence_tier) ? { k: "Evidence tier", v: String(fm.evidence_tier).toUpperCase() } : null,
+      num(fm.year) ? { k: "Year", v: String(fm.year) } : null,
+    ].filter((r): r is Row => r !== null)
+  }
+
+  // A REGULATION instrument: how many pages invoke it, whose law it is, which
+  // metal, and when it took effect.
+  if (!isIndex && section === "regulations") {
+    const metal = str(fm.metal) ?? (Array.isArray(fm.metals) && fm.metals.length === 1 ? str(fm.metals[0]) : undefined)
+    return [
+      cited("Referenced by"),
+      str(fm.jurisdiction) ? { k: "Jurisdiction", v: String(fm.jurisdiction) } : null,
+      metal ? { k: "Metal", v: metal } : null,
+      str(fm.effective_date) ? { k: "Effective", v: String(fm.effective_date).slice(0, 10) } : null,
+    ].filter((r): r is Row => r !== null)
+  }
+
   const sources = num(fm.sources) ?? num(fm.n_sources)
   if (sources) {
     rows.push({
@@ -143,11 +184,22 @@ function snapshotRows(fm: Record<string, unknown>, section: string): Row[] {
 }
 
 export default (() => {
-  const HeroBand: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
+  const HeroBand: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
     const parts = slug.split("/")
     const section = parts.length > 1 ? parts[0] : ""
+    const isIndex = parts[parts.length - 1] === "index"
+
+    // Cited-by count from the live link graph — the same read as Backlinks.tsx:
+    // every page whose resolved links include this page's SIMPLIFIED slug (that
+    // is what `file.links` holds). renderPage spreads all of componentData into
+    // HeroBand, so allFiles is already here; this adds no frontmatter and no
+    // generator.
+    const simpleSlug = simplifySlug(slug)
+    const citedBy = Array.isArray(allFiles)
+      ? allFiles.filter((f) => f.links?.includes(simpleSlug)).length
+      : 0
 
     const rawTitle = (typeof fm.title === "string" && fm.title) || parts[parts.length - 1] || ""
     if (!rawTitle) return null
@@ -182,7 +234,7 @@ export default (() => {
 
     const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
     const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
-    const rows = snapshotRows(fm, section)
+    const rows = snapshotRows(fm, section, citedBy, isIndex)
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
