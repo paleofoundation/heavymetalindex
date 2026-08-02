@@ -141,7 +141,7 @@ Funded by NIH, the Rita Allen Foundation, the Lucille P. Markey Charitable Trust
 
 **HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry and molecular biology. No firewall action required.
 
-**Speciation note.** The paper uses "Cd" generically; experimental doses are administered as CdSO₄ (and as CdCl₂ in the cited pretreatment protocol of reference 42). No methylated, organic, or oxidation-state-specific Cd species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed; see CLAUDE.md Part 14).
+**Speciation note.** The paper uses "Cd" generically; experimental doses are administered as CdSO₄ (and as CdCl₂ in the cited pretreatment protocol of reference 42). No methylated, organic, or oxidation-state-specific Cd species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed;).
 
 **Date arithmetic.** Received 7 June 1990; accepted 7 August 1990; published November 1990 (Vol. 10, No. 11). Consistent with `year: 1990` frontmatter and DOI year `1990`.
 

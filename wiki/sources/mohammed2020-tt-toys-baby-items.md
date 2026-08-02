@@ -10,7 +10,7 @@ doi: 10.5897/JECE2020.0465
 access_url: "https://academicjournals.org/journal/JECE/article-abstract/FD807546393"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Peer-reviewed primary research published in the Journal of Environmental Chemistry and Ecotoxicology (Academic Journals, open access, CC BY 4.0). Documented analytical method (Flame Atomic Absorption Spectrophotometry following 550-600°C ashing and HNO3 digestion), QC documentation (spike recoveries 102.9-114.4%, calibration R2 0.9944-0.9999, triplicate samples, method blank, spiked sample), explicit per-sample reporting in Table 1, and explicit health-risk-assessment calculation framework (USEPA-style ADD/HQ/HI with parameter list). Tier A per CLAUDE.md Part 13."
+tier_rationale: "Peer-reviewed primary research published in the Journal of Environmental Chemistry and Ecotoxicology (Academic Journals, open access, CC BY 4.0). Documented analytical method (Flame Atomic Absorption Spectrophotometry following 550-600°C ashing and HNO3 digestion), QC documentation (spike recoveries 102.9-114.4%, calibration R2 0.9944-0.9999, triplicate samples, method blank, spiked sample), explicit per-sample reporting in Table 1, and explicit health-risk-assessment calculation framework (USEPA-style ADD/HQ/HI with parameter list). Tier A."
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/14_2020_fd8075463937.pdf"
 raw_sha256: 0a0b5d1790e3b78d6560f5a6efeab22866700cd9db59870b6d12d4392a34be04

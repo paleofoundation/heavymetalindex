@@ -119,7 +119,7 @@ Sample preparation. Dry-ashing for Cd and Pb: 5 g of each sample dried at 80 °C
 
 Instrumentation. Atomic absorption spectrophotometry on a Varian model AA-1275 (Varian Medical Systems, Inc., Palo Alto, CA, USA). Pb and Cd determined by graphite-furnace AAS with auto-sampler at furnace temperatures of 1,800 °C (Pb) and 2,100 °C (Cd). As determined by hydride-generation AAS on the wet-ashed extracts using the same Varian AA-1275 platform fitted with a hydride generation system. Three replicates per sample. Reagent blanks and a "standard plant sample" run alongside; recovery and CRM values not published.
 
-Speciation. Total As (hydride-generation AAS measures the total arsenic that can be reduced to AsH₃ under the digestion-and-hydride-formation conditions used; no As-species separation step is described). The wiki page accordingly uses `tAs` rather than `iAs` per CLAUDE.md Part 14. No Hg panel, no Cr or Cr-VI panel, no Ni panel.
+Speciation. Total As (hydride-generation AAS measures the total arsenic that can be reduced to AsH₃ under the digestion-and-hydride-formation conditions used; no As-species separation step is described). The wiki page accordingly uses `tAs` rather than `iAs`. No Hg panel, no Cr or Cr-VI panel, no Ni panel.
 
 Statistical analysis. SPSS v13.0 (SPSS Inc., Chicago, IL, USA). Mean ± SD by descriptive statistics. One-way ANOVA with Tukey post-test for per-province comparisons. Significance threshold p < 0.05.
 

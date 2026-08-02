@@ -46,7 +46,7 @@ Per-sample Table 1 data is in the JATS XML at `raw/external-fetch/2026-05-09/igw
 
 ## Geographic-context flag
 
-The Nigerian-market tAs values (milk-based mean 330 ppb, cereal-based 680 ppb) are substantially higher than U.S. FDA 2026 prepared-for-feeding milk-based powder tAs (p90 1.3 ppb). This is consistent with regional water-quality and sourcing differences in Nigerian markets and should not be silently merged with U.S. or EU formula tAs distributions without explicit jurisdiction labeling per CLAUDE.md Part 6. The Al values (1170-1700 ppb) are within the same order of magnitude as European cow-milk powder ranges (Almeida 2022 432-1241 ppb; Burrell 2010 446.8 mean) and provide useful triangulation.
+The Nigerian-market tAs values (milk-based mean 330 ppb, cereal-based 680 ppb) are substantially higher than U.S. FDA 2026 prepared-for-feeding milk-based powder tAs (p90 1.3 ppb). This is consistent with regional water-quality and sourcing differences in Nigerian markets and should not be silently merged with U.S. or EU formula tAs distributions without explicit jurisdiction labeling. The Al values (1170-1700 ppb) are within the same order of magnitude as European cow-milk powder ranges (Almeida 2022 432-1241 ppb; Burrell 2010 446.8 mean) and provide useful triangulation.
 
 ## Evidence Fitness
 

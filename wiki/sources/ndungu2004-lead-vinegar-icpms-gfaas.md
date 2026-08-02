@@ -96,7 +96,7 @@ Microbiome: Not applicable; the paper does not address gut-microbial endpoints.
 Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
 
 - Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_determination-of-lead-in-vinegar-by-icp-ms-and-gfa` handle, matching the convention used on sibling vinegar source [[karavoltsos2020-copper-trace-metals-vinegars-greece]].
-- Correct truncated `raw_path` (prior value cut off at "evaluation .pdf"; corrected to the full filename "…evaluation of different sample preparation pro.pdf").
+- Correct truncated `raw_path` (prior value cut off at "evaluation.pdf"; corrected to the full filename "…evaluation of different sample preparation pro.pdf").
 - **Correct three transposed single-sample Pb values in Key numbers.** Prior version reported `Garlic vinegar (n=1): 276 µg/L`, `Apple cider vinegar (n=1): 15 µg/L`, and `Rice vinegar (n=1): 6.6 µg/L`. Source Table 4 (p. 4) actually shows Garlic = 15 µg/L, Apple = 6.6 µg/L, Rice = 19 µg/L. The prior page had pulled the wrong column or scrambled rows; 276 is the Table 4 Balsamic (aged)-1 row, which was separately missing from the page. All four values corrected.
 - **Correct misread n in Key numbers.** Prior version reported `Balsamic group 3 (n=4, older/traditional): range 174–179 µg/L, mean 173 µg/L`. The "4" was the standard-deviation column in Table 4, not the sample count. Correct n is 2.
 - Add the two aged-balsamic single-sample rows (276 and 307 µg/L) that the prior version omitted, and note the paper-internal discrepancy between Table 4's aged-1 = 276 µg/L and the text's "another balsamic … 257 µg/L … aged for 18 years" without inventing a reconciliation.
@@ -104,7 +104,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - Expand the Methods section to capture the instrumental detail (RF power, isotopes monitored, internal standard, modifier composition, contamination control) that supports the A-tier classification.
 - Add `garlic-vinegar` to `matrices:` (the source measured one); prior version omitted it.
 - Remove the legacy `## Wiki pages updated on ingest` heading per the current Part 6 template; downstream-page list lives in the routing audit, not on the source page.
-- Restate the µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix per CLAUDE.md Part 14.
+- Restate the µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix.
 - License kept as "All rights reserved" — Talanta (Elsevier) 2004 paywall paper, no open-access notice on the PDF.
 
 Auto-audit subagent (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 clean. Check 2 ⚠️ flagged the `matrices:` / `ingredients:` asymmetry — matrices contains `rice-vinegar` and `garlic-vinegar` (which the paper measures as n = 1 each) while `ingredients:` does not list them. Verified against the source: 1 rice and 1 garlic vinegar are reported in §3.3 and Table 4. Verified against the corpus: no `wiki/ingredients/rice-vinegar.md` or `wiki/ingredients/garlic-vinegar.md` page exists, and Part 10's ingredient-promotion threshold is 5 papers treating the sub-variant as a distinct commodity. With n = 1 each in this paper alone, neither slug crosses the threshold for an ingredient page. Resolution applied:

@@ -77,7 +77,7 @@ This source contributes Taiwan total-diet-study evidence for seafood total mercu
 - PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-4, Results sections, risk discussion, Table 5 text, and appendices were readable.
 - DOI `10.3390/ijerph182212227`, raw handle `MFK_ijerph-18-12227`, and cite-key checks found no existing source page before creation.
 - Table 1 sample counts, Table 4 THg values, MeHg/THg conversion ranges, MeHg estimated ranges, detection rates, and method recovery/LOD values were checked against extracted text. Units are preserved as `mg/kg`, `µg/kg BW/week`, and `g/week`; no conversion was performed.
-- Speciation: THg was measured directly; MeHg concentrations were estimated from literature MeHg/THg ratios and are not direct MeHg measurements. Per the CLAUDE.md Part 14 speciation rule, frontmatter `metals:` lists `tHg` only; including `MeHg` would feed converted estimates into MeHg occurrence pooling as if measured.
+- Speciation: THg was measured directly; MeHg concentrations were estimated from literature MeHg/THg ratios and are not direct MeHg measurements. Per the speciation rule, frontmatter `metals:` lists `tHg` only; including `MeHg` would feed converted estimates into MeHg occurrence pooling as if measured.
 - Brand firewall: no sampled seafood product brands were reported.
 - Missing closed-vocabulary slugs: cephalopod and crustacean product slugs are not present in the taxonomy snapshot, so those categories are documented in the body without invented frontmatter product slugs.
 

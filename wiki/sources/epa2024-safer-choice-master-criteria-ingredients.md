@@ -230,7 +230,7 @@ Per §6 introduction (p. 23) and §5.2 of the Safer Choice and DfE Standard (202
 - The §5.10 eutrophication cap (0.5 weight % phosphorus; no inorganic-phosphate contribution) is documented as the closest the criteria come to a quantitative concentration limit; phosphorus is out of HMI heavy-metal scope and the cap is recorded here for regulatory-context completeness rather than as a heavy-metal threshold.
 - The document references CAS 13977-65-6 (monopotassium phosphonic acid) once, in §3.21. This is the only CAS number cited in the document. It is not a heavy-metal compound; no ingredient page is touched.
 - Quantitative content in this page (Tables 1a, 2, 3, 4, 5a, 5b, 6a, 6b, 7, 8, 12) is reproduced exactly from the source PDF (Version 2.1, October 2024) with page locators throughout.
-- No new ingredient pages and no new product pages were created during this ingest, per CLAUDE.md Part 10 and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
+- No new ingredient pages and no new product pages were created during this ingest, and the skill's hard constraints. The product list in frontmatter draws only on existing `wiki/products/` slugs.
 - No new regulation page was created. If a `regulations/epa-safer-choice-master-criteria.md` page is ever needed (Step 0 Lock decision), it would inherit from this source and the broader Safer Choice / DfE Standard document referenced as [1] (USEPA, EPA's Safer Choice and Design for the Environment (DfE) Standard. 2024). That Standard document is not in the present KADC PDF set.
 
 <!-- BEGIN: hmi-page-history -->

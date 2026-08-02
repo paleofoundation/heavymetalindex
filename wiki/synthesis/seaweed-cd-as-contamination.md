@@ -84,7 +84,7 @@ The wiki's [[overview]] should reference seaweed-as-a-Cd-pathway alongside the e
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
+This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

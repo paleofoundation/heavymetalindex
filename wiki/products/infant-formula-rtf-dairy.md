@@ -27,7 +27,7 @@ updated: 2026-05-19
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
@@ -103,7 +103,7 @@ For the current evidence base, the practical lever is mineral-formulation contro
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 

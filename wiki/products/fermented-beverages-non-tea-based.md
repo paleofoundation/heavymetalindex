@@ -28,30 +28,30 @@ This page is HMTc Category 5 row 15 from the locked beverage architecture. It ex
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on non-tea fermented beverages typically center on metal leaching from fermentation and storage vessels and on metals in the underlying fruit, grain, or vegetable substrate. Container material provenance and food-contact certification are the defensive core. Compare with <a href="/products/kombucha-tea-based">Kombucha Tea Based</a> for the within-pair higher-contamination sibling (tea substrate adds Al accumulation from <em>Camellia sinensis</em>). The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=fermented-beverages-non-tea-based">Lab Result Comparator</a> to position a single lab value inside the cited literature for non-tea-based fermented beverages.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on non-tea fermented beverages typically center on metal leaching from fermentation and storage vessels and on metals in the underlying fruit, grain, or vegetable substrate. Container material provenance and food-contact certification are the defensive core. Compare with <a href="/products/kombucha-tea-based">Kombucha Tea Based</a> for the within-pair higher-contamination sibling (tea substrate adds Al accumulation from <em>Camellia sinensis</em>). The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=fermented-beverages-non-tea-based">Lab Result Comparator</a> to position a single lab value inside the cited literature for non-tea-based fermented beverages.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 
@@ -155,7 +155,7 @@ The clean_benchmark designation of this row relative to kombucha-tea-based refle
 
 <!-- audience: regulator, educator -->
 
-No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+No formal product recalls for non-tea fermented beverages on heavy-metal grounds are documented in the current evidence base. The 2023 Ibiza family outbreak (munilla-garcia2023) involved tea-based kombucha from ceramic containers and is documented on the [[products/kombucha-tea-based]] page; the FCM mechanism it describes applies to this category equally. No EU or Spanish maximum level for Pb in fermented beverages existed at the time of that outbreak; the regulatory gap identified by the authors covers this category as well as kombucha. Events are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

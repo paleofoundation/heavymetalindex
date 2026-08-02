@@ -55,4 +55,4 @@ Substantive disagreements with Index claims flow through the same channel as err
 
 ## Governing reference
 
-The internal governance document for this index is maintained at the project root as `CLAUDE.md`. The policies described on this page are the public restatement of that document; in any conflict between this page and the internal document, the internal document is authoritative and this page will be updated to match.
+The internal governance document for this index is maintained separately as an internal governance document. The policies described on this page are the public restatement of that document; in any conflict between this page and the internal document, the internal document is authoritative and this page will be updated to match.

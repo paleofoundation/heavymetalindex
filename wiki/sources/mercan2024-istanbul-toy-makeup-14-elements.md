@@ -75,12 +75,12 @@ The source body explicitly notes: "the highest Pb concentration was observed …
 - **Any-toxic-element exceedance:** 57/63 (90.48%) toy makeup samples exceeded the maximum permissible limit for at least one toxic element. Descending order of exceedance frequency across the eight regulated toxic elements: Ni > Cr > Co > Pb > Sb > Cd > As > Hg.
 - **MoS < 150 (SCCS pediatric safe threshold):** 57.15% of samples were unsafe by MoS for at least one of Al, As, Cd, Co, Hg, Mn, Sb, or Zn. Mn (n=53), Al (n=42), and Zn (n=32) were the most MoS-limit-exceeding elements.
 - **LCR > 1×10⁻⁶ (IARC carcinogens Cr, Ni, As, Cd, Pb):**
-  - Cr: 100% (n=63)
-  - Ni: 79.37% (n=50)
-  - As: 85.71% (n=54)
-  - Pb: 77.78% (n=49)
-  - Cd: 18.87% (n=10)
-  - Descending LCR order: Cr > As > Ni > Pb > Cd.
+ - Cr: 100% (n=63)
+ - Ni: 79.37% (n=50)
+ - As: 85.71% (n=54)
+ - Pb: 77.78% (n=49)
+ - Cd: 18.87% (n=10)
+ - Descending LCR order: Cr > As > Ni > Pb > Cd.
 - **HQ ≥ 1 (non-cancer hazard):** 80% of samples exceeded the HQ safe limit (HQ ≥ 1) for at least one inorganic element.
 - **SED > TDI (worst-case 95th-percentile exposure):** Al SED > TDI in 7 of 10 brands; Pb SED > TDI in 1 brand (worst-case sample 4.92 µg/g context — Hg also exceeded in BRAND I only).
 - **Skin-sensitization risk (> 5 mg/kg in cosmetics, Basketter et al.):** Cr 26.98% (n=17), Ni 9.52% (n=6). Co did not exceed this threshold in any sample.
@@ -139,7 +139,7 @@ The sample set is geographically restricted to Istanbul toy retailers between an
 ## Verification notes
 
 - Cite-key follows the pattern firstauthor-year-location-key-element-count established by similar children's-product source pages in the wiki.
-- Source uses a closed BRAND A–J anonymization scheme. Per the brand firewall (CLAUDE.md Part 12, strict reading locked 2026-05-17), per-brand-letter ranking and brand-by-brand exceedance lists from Table 1 and Table 4 are deliberately not reproduced; instead, distributions are summarized as across-brand mean ranges, single-sample min–max, and counts of exceedances against named regulatory thresholds. The BRAND-A-4-coded sample with the 171.200 µg/g Pb maximum is reported as "single-sample maximum 171.20 µg/g, 85-fold above the BVL permissible limit" without the brand-letter attribution.
+- Source uses a closed BRAND A–J anonymization scheme. Per the brand firewall (, strict reading locked 2026-05-17), per-brand-letter ranking and brand-by-brand exceedance lists from Table 1 and Table 4 are deliberately not reproduced; instead, distributions are summarized as across-brand mean ranges, single-sample min–max, and counts of exceedances against named regulatory thresholds. The BRAND-A-4-coded sample with the 171.200 µg/g Pb maximum is reported as "single-sample maximum 171.20 µg/g, 85-fold above the BVL permissible limit" without the brand-letter attribution.
 - The 54.55% / 9.09% Al/Pb SED-vs-TDI exceedance ratios on p. 33985 use a denominator that does not reconcile cleanly with either the 10-brand or 63-sample base (54.55% = 6/11 algebraically; 9.09% = 1/11 or 6/66). The source text reads "n=6" and "n=8" for these two ratios. The Key-numbers entry preserves the source-reported percentages and counts verbatim; downstream synthesis should treat the Al/Pb SED-vs-TDI brand-level exceedance as "majority of brand-mean entries" (Al) and "a minority of brand-mean entries" (Pb) rather than recomputing.
 - The skin-sensitization-limit count for Cr (n=17) on p. 33981 and the LCR-Cd denominator (n=53 for Cd > LOQ) on p. 33979 reflect text-versus-table inconsistencies the source itself does not resolve. The narrative preserves the source's printed values.
 - The single qualitative organic finding (2-phenoxyethanol) is recorded as detected/not-quantitated per the GC–MS scan limitations stated by the authors. The page does not extrapolate a per-product 2-phenoxyethanol concentration.

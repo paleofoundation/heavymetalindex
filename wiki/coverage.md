@@ -19,35 +19,35 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
 ## Literature search flow (PRISMA-equivalent)
 
 ```
-  Identification: 23,260 papers triaged from the literature search
-         │
-         │  Triage tiers (priority bands):
-         │    P1: 42
-         │    P2: 488
-         │    P3: 18
-         │    P4: 6,571
-         │    P5: 16,141
-         ▼
-  Screening:      Papers triaged for ingest priority
-         │
-         │  Papers from year ≥ 2020: 14,343
-         ▼
-  Eligibility:    2220 source pages currently in wiki/sources/
-         │
-         │    evidence_tier A: 1448
-         │    evidence_tier A-tier: 1
-         │    evidence_tier B: 667
-         │    evidence_tier C: 103
-         │    evidence_tier unknown: 1
-         ▼
-  Included:       Source pages routed to destination pages
-         │
-         │  Routing rows in product_source_routing_audit.csv: 4639
-         ▼
-  Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
+ Identification: 23,260 papers triaged from the literature search
+ │
+ │ Triage tiers (priority bands):
+ │ P1: 42
+ │ P2: 488
+ │ P3: 18
+ │ P4: 6,571
+ │ P5: 16,141
+ ▼
+ Screening: Papers triaged for ingest priority
+ │
+ │ Papers from year ≥ 2020: 14,343
+ ▼
+ Eligibility: 2220 source pages currently in wiki/sources/
+ │
+ │ evidence_tier A: 1448
+ │ evidence_tier A-tier: 1
+ │ evidence_tier B: 667
+ │ evidence_tier C: 103
+ │ evidence_tier unknown: 1
+ ▼
+ Included: Source pages routed to destination pages
+ │
+ │ Routing rows in product_source_routing_audit.csv: 4639
+ ▼
+ Synthesized: Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 2220 have been promoted to source pages — 9.5% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 2220 have been promoted to source pages — 9.5% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -67,9 +67,9 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 ## HMTc Taxonomy v2.0 coverage
 
-Total subcategories defined by the taxonomy: **356**.  Pages scaffolded or content-filled against the taxonomy: **347** (97%).
+Total subcategories defined by the taxonomy: **356**. Pages scaffolded or content-filled against the taxonomy: **347** (97%).
 
-Of the 347 matched: 339 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 8 are matched by slug-alias to legacy pages (frontmatter needs backfill).  Pages still to be created: **0**.
+Of the 347 matched: 339 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 8 are matched by slug-alias to legacy pages (frontmatter needs backfill). Pages still to be created: **0**.
 
 | Cat | Name | Total | Exact | By alias | Missing | Coverage |
 |----:|------|------:|------:|---------:|--------:|---------:|
@@ -113,7 +113,7 @@ Every taxonomy subcategory has a destination page on the wiki. Source-page decla
 
 ## Why this page matters
 
-Cochrane systematic reviews open with a PRISMA flow diagram because the defensibility of every downstream claim depends on the reader understanding what was searched, what was screened, what was included, and on what grounds. The wiki's defensibility argument (CLAUDE.md Part 1) rests on the same property: any hostile reader — a plaintiff's expert, a regulatory reviewer, a competing standards body — must be able to see the universe the wiki is accountable to, not just the slice it has published.
+Cochrane systematic reviews open with a PRISMA flow diagram because the defensibility of every downstream claim depends on the reader understanding what was searched, what was screened, what was included, and on what grounds. The wiki's defensibility argument rests on the same property: any hostile reader — a plaintiff's expert, a regulatory reviewer, a competing standards body — must be able to see the universe the wiki is accountable to, not just the slice it has published.
 
 Naming the gap is the work. The gap is not the failure mode; the failure mode is the gap being invisible.
 

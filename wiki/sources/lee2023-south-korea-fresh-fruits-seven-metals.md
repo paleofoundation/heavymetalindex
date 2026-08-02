@@ -113,12 +113,12 @@ Limitation: As measured as total arsenic; paper assumes 100% inorganic for cance
 - Methods section expanded to record the Milestone UltraWAVE digester, the Agilent JP-7900 ICP-MS parameters and monitored isotopes, the spike-recovery validation for Ba and Pb (which are not certified in NIST 1573a), and the RfD/CSF inputs. Prior version was thin enough to be ambiguous about which arsenic species the cancer-risk calculation used.
 - Detection rates added for each metal.
 - Maximum single-sample values added for every analyte (per the dataset's explicit per-species maxima on PDF page 8).
-- Frontmatter ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline (CLAUDE.md Part 10): if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
+- Frontmatter ingredient slugs corrected: `apples` → `apple` and `bananas` → `banana` (singular form is the existing ingredient page); `blueberries` added (the paper analyzed blueberries explicitly, n=16). The remaining slugs (`kiwi`, `cherries`, `mandarins`, `persimmon`) are correctly named for the auto-stub pipeline: if they do not yet exist as pages, the freq>=2 auto-stub or single-slug provisional-ingredient-scaffold tool will create them; this ingest does not create ingredient pages by hand.
 - `raw_path` corrected — prior value was truncated (`...arsenic, bariu.pdf`) and did not match a real file on disk.
 - `sample_population` annotated with the six region names.
 - `## Wiki pages updated on ingest` heading renamed to `## Wiki pages this source may touch` per current page-template convention (the ingest pass does not edit those downstream pages directly; the routing audit and synthesis pass do).
 
-Brand firewall: no brand names appear in source-page content. The Milestone UltraWAVE, Agilent JP-7900, NIST 1573a, GraphPad Prism, SPSS, and RStudio names in Methods are scientific-method vendor/material identifiers (CLAUDE.md Part 12, Exception 2 locked 2026-05-17).
+Brand firewall: no brand names appear in source-page content. The Milestone UltraWAVE, Agilent JP-7900, NIST 1573a, GraphPad Prism, SPSS, and RStudio names in Methods are scientific-method vendor/material identifiers (, Exception 2 locked 2026-05-17).
 
 Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consumer advisories. The Implications section reports what this single paper contributes to threshold work without proposing values.
 

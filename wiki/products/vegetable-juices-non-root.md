@@ -26,30 +26,30 @@ This page is HMTc Category 5 row 3 from the locked beverage architecture. It exi
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on non-root vegetable juices typically center on lead and cadmium in leafy-green-derived juices. Source provenance and ingredient-list scrutiny are the defensive core. Compare with <a href="/products/vegetable-juices-root-vegetable-containing">Vegetable Juices Root Vegetable Containing</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=vegetable-juices-non-root">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-root vegetable juices.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on non-root vegetable juices typically center on lead and cadmium in leafy-green-derived juices. Source provenance and ingredient-list scrutiny are the defensive core. Compare with <a href="/products/vegetable-juices-root-vegetable-containing">Vegetable Juices Root Vegetable Containing</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=vegetable-juices-non-root">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for non-root vegetable juices.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 ## Decision Snapshot
@@ -119,7 +119,7 @@ _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator aud
 
 ## Methodology
 
-_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules that govern downstream sections of this page._
 
 ## Source Evidence Inventory
 
@@ -133,15 +133,15 @@ _Pending: regenerated by `tools/evidence/apply-product-broad-context.mjs` once b
 
 ## Levers to reduce contamination
 
-Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here.
+Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Individual brand recall actions are not enumerated here.
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
-Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here.
+Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Individual brand recall actions are not enumerated here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

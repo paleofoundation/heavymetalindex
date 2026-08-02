@@ -125,7 +125,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 
 - Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_copper-complexing-capacity-and-trace-metal-content` handle.
 - Correct the truncated `raw_path` (prior path was missing the space after "Kimi" and truncated the filename mid-word).
-- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated (CLAUDE.md Part 14).
+- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated.
 - Expand `metals:` to all 16 elements the paper actually measures by ICP-MS, for documentary fidelity. The routing layer maps only HMTc-relevant abbreviations (tAs, Pb, Cd, Al, Cr, Ni, Cu) into product-row rows; the remainder (Fe, Mn, Zn, Co, Ba, Cs, Rb, Sr, V) are recorded for the page's documentary completeness, consistent with the convention used on the sibling vinegar paper [[ozbek2016-mip-oes-turkish-vinegars]].
 - Simplify `matrices:` from the prior over-granular `[balsamic-red-vinegar, balsamic-white-vinegar, wine-red-vinegar, wine-white-vinegar, apple-cider-vinegar, fruit-vinegar]` to the broadest accurate set `[balsamic-vinegar, wine-vinegar, apple-cider-vinegar, fruit-vinegar]` per the broad-scope-frontmatter rule in `docs/gpt-collaboration/system-prompt.md`. Subgroup detail (BR, BRH, BW, WR, WW, F) remains in the body, which is where it belongs.
 - Add `wine-vinegar` and `apple-cider-vinegar` to `ingredients:` (the WR and WW samples are wine vinegars; the apple-fruit samples in F are apple-cider vinegars).

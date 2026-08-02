@@ -25,7 +25,7 @@ updated: 2026-06-08
 > **v2.1 Step Zero scaffold — Category 24 (Dairy and Milk Products), Row 1.** This row is defined in
 > the taxonomy and its Step Zero lock (`docs/governance/category-24-step0-lock.md`) but carries
 > **no candidate values** yet. It is a routing destination. Sources populate it as ingest proceeds,
-> after which a synthesis pass fills the evidence sections per CLAUDE.md Part 9.
+> after which a synthesis pass fills the evidence sections.
 
 ## Literature scope
 

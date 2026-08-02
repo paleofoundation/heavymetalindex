@@ -41,7 +41,7 @@ Routable destination for source pages declaring `products: [canned-seafood]` and
 
 ## Methodology
 
-Reports what cited sources say about heavy-metal concentrations in this row. Speciation non-substitutable per CLAUDE.md Part 14. Basis preserved. Percentile arithmetic stays on the staff Standards Workbench.
+Reports what cited sources say about heavy-metal concentrations in this row. Speciation non-substitutable. Basis preserved. Percentile arithmetic stays on the staff Standards Workbench.
 
 ## Literature Evidence Summary
 

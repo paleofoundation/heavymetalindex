@@ -37,17 +37,17 @@ All concentrations reported as mean ± standard error of the mean (SEM) in mg/kg
 **Soil heavy metal concentrations, by site (Table 3; mean ± SEM, mg/kg; combined winter + summer):**
 
 - Site A (Stellenbosch, conventional + polyculture):
-  - Cr 42.933 ± 1.622; Co 5.399 ± 0.964; Ni 15.568 ± 0.654; Cu 18.471 ± 2.508; Zn 27.171 ± 0.913; As 23.177 ± 1.917; Cd 0.019 ± 0.002; Hg 0.042 ± 0.0005; Pb 17.488 ± 0.763
+ - Cr 42.933 ± 1.622; Co 5.399 ± 0.964; Ni 15.568 ± 0.654; Cu 18.471 ± 2.508; Zn 27.171 ± 0.913; As 23.177 ± 1.917; Cd 0.019 ± 0.002; Hg 0.042 ± 0.0005; Pb 17.488 ± 0.763
 - Site B (Eikenbosch, conventional + polyculture):
-  - Cr 48.849 ± 14.948; Co 5.673 ± 1.592; Ni 13.155 ± 3.609; Cu 9.343 ± 0.891; Zn 20.271 ± 2.884; As 29.166 ± 11.442; Cd 0.024 ± 0.004; Hg 0.030 ± 0.011; Pb 11.929 ± 0.011
+ - Cr 48.849 ± 14.948; Co 5.673 ± 1.592; Ni 13.155 ± 3.609; Cu 9.343 ± 0.891; Zn 20.271 ± 2.884; As 29.166 ± 11.442; Cd 0.024 ± 0.004; Hg 0.030 ± 0.011; Pb 11.929 ± 0.011
 - Site C (Franschhoek, semi-organic + polyculture):
-  - Cr 13.305 ± 1.749; Co 1.987 ± 0.001; Ni 4.695 ± 0.158; Cu 10.719 ± 1.876; Zn 35.406 ± 18.001; As 4.074 ± 1.752; Cd 0.044 ± 0.025; Hg 0.032 ± 0.0004; Pb 19.265 ± 3.452
+ - Cr 13.305 ± 1.749; Co 1.987 ± 0.001; Ni 4.695 ± 0.158; Cu 10.719 ± 1.876; Zn 35.406 ± 18.001; As 4.074 ± 1.752; Cd 0.044 ± 0.025; Hg 0.032 ± 0.0004; Pb 19.265 ± 3.452
 - Site D (Wolseley, certified organic):
-  - Cr 34.763 ± 14.738; Co 2.267 ± 0.835; Ni 7.931 ± 1.800; Cu 41.275 ± 7.365; Zn 25.167 ± 6.477; As 9.751 ± 0.126; Cd 0.027 ± 0.013; Hg 0.019 ± 0.010; Pb 7.896 ± 1.270
+ - Cr 34.763 ± 14.738; Co 2.267 ± 0.835; Ni 7.931 ± 1.800; Cu 41.275 ± 7.365; Zn 25.167 ± 6.477; As 9.751 ± 0.126; Cd 0.027 ± 0.013; Hg 0.019 ± 0.010; Pb 7.896 ± 1.270
 - Site E (Robertson, conventional + polyculture):
-  - Cr 23.586 ± 2.578; Co 4.129 ± 0.087; Ni 11.112 ± 1.281; Cu 14.266 ± 1.301; Zn 23.690 ± 1.333; As 4.900 ± 0.826; Cd 0.022 ± 0.009; Hg 0.018 ± 0.010; Pb 10.376 ± 0.659
+ - Cr 23.586 ± 2.578; Co 4.129 ± 0.087; Ni 11.112 ± 1.281; Cu 14.266 ± 1.301; Zn 23.690 ± 1.333; As 4.900 ± 0.826; Cd 0.022 ± 0.009; Hg 0.018 ± 0.010; Pb 10.376 ± 0.659
 - Site F (Piketberg, certified organic):
-  - Cr 58.738 ± 2.988; Co 10.550 ± 0.7047; Ni 26.812 ± 0.369; Cu 37.687 ± 0.071; Zn 44.980 ± 1.651; As 6.455 ± 0.515; Cd 0.032 ± 0.005; Hg 0.015 ± 0.0002; Pb 17.550 ± 1.821
+ - Cr 58.738 ± 2.988; Co 10.550 ± 0.7047; Ni 26.812 ± 0.369; Cu 37.687 ± 0.071; Zn 44.980 ± 1.651; As 6.455 ± 0.515; Cd 0.032 ± 0.005; Hg 0.015 ± 0.0002; Pb 17.550 ± 1.821
 
 **Soil — WHO/FAO maximum permitted levels (Table 3 row, mg/kg):** Cr 100; Co 50; Ni 50; Cu 100; Zn 300; As 20; Cd 3.0; Hg —; Pb 100.
 
@@ -135,7 +135,7 @@ Evidence tier set to B rather than A. The journal is peer-reviewed and the metho
 
 No brand names appear in the paper or on this page. Vineyard site names (Stellenbosch, Eikenbosch, Franschhoek, Wolseley, Robertson, Piketberg) are towns or geographic regions, not commercial wine brands. Cultivar names (Cabernet sauvignon, Cabernet franc, Sauvignon blanc, Merlot, Shiraz, Sèmillon, Chardonnay) are Vitis vinifera varieties, not commercial wine brands. Part 12 brand-firewall does not apply. The certification labels "certified organic" (Wolseley, Piketberg) and "conventional" / "semi-organic" describe farming practice, not commercial brand identity, and are reproduced as the source documents them. Instrument and reagent vendor references (Plasma Quad I ICP-MS; Ismatec Reglo 100 peristaltic pump; Meinhard nebulizer; CEM-style nitric digestion; Spec-troscan / Teknolab As N-1440 Drsbak calibration standards; NIST SRM 1573a; SPSS) are reproduced under the methods-vendor exception (Part 12, Exception 2).
 
-The metals frontmatter list uses `tAs` and `tHg` rather than `iAs`/`MeHg` because the ICP-MS workflow measures total elemental concentration without speciation (CLAUDE.md Part 14 speciation rule). `Cr` is used rather than `Cr-VI` for the same reason — no hexavalent chromium speciation was performed.
+The metals frontmatter list uses `tAs` and `tHg` rather than `iAs`/`MeHg` because the ICP-MS workflow measures total elemental concentration without speciation (speciation rule). `Cr` is used rather than `Cr-VI` for the same reason — no hexavalent chromium speciation was performed.
 
 The matrices `soil` and `grape-leaves` are reproduced from the existing matrices vocabulary (`grape-leaves` is also used by [[sources/bora2015-vineyard-wine-heavy-metals-romania]]). The paper does not measure grape berries, must, or wine, so neither `wine` nor `grape-juice` is in the matrices list.
 

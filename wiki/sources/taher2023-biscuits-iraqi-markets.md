@@ -69,7 +69,7 @@ Flame atomic absorption spectroscopy (Buck Scientific 210 VGA), air/acetylene fl
 
 ## Verification notes
 
-- Concentrations taken from Table 2 (per-sample Zn/Pb/Cd) and the abstract/discussion means. The per-sample brand names and origins in Table 1 are withheld per the brand firewall (CLAUDE.md Part 12); only the category-level distribution and the set of stated national origins are reported here, not any brand-to-value mapping.
+- Concentrations taken from Table 2 (per-sample Zn/Pb/Cd) and the abstract/discussion means. The per-sample brand names and origins in Table 1 are withheld per the brand firewall; only the category-level distribution and the set of stated national origins are reported here, not any brand-to-value mapping.
 - Sample-count discrepancy: the Methods ("Collection Sample") text states "Thirty samples of different types of biscuit samples" were collected, but Table 1 (sample identities/origins) and Table 2 (concentrations) both enumerate 13 sample codes (B1–B13). All reported statistics are computed over the 13 tabulated samples, so sample_n is recorded as 13; the "30" is treated as either total units collected before grouping into 13 product types or a transcription error. Flagged for any future re-read.
 - Units are the source's mg/kg dry weight; ppb conversions here are 1 mg/kg = 1000 µg/kg. Basis is dry weight (oven-dried, pulverized biscuit), not as-consumed.
 - Speciation: total Pb and total Cd by flame AAS; no inorganic/organic speciation claimed and none inferred.

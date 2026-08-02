@@ -20,7 +20,7 @@ updated: 2026-05-17
 ---
 # Oral solids: lozenges
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 5: **Oral solids: lozenges**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [supplements-oral-solids-lozenges]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 5: **Oral solids: lozenges**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [supplements-oral-solids-lozenges]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -30,27 +30,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Oral solids: lozenges, with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Oral solids: lozenges, the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Oral solids: lozenges, with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Oral solids: lozenges, the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in oral solids: lozenges. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in oral solids: lozenges. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA (DSHEA), USP, California Prop 65**.
 

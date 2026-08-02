@@ -37,20 +37,20 @@ The dataset is one of the larger continuous-monitoring time series available for
 ## Key numbers
 
 - Whole-period summary (2009-2016, n=2572 samples, wet weight; Table 1):
-  - tHg mean ± SD: 0.23 ± 0.14 mg/kg; range 0.021-1.490 mg/kg.
-  - Cd mean ± SD: 0.032 ± 0.027 mg/kg; range 0.007-0.210 mg/kg.
-  - Pb mean ± SD: 0.058 ± 0.050 mg/kg; range 0.026-0.920 mg/kg.
-  - (Abstract rounds these to 0.24 ± 0.14, 0.03 ± 0.03, 0.05 ± 0.05 mg/kg.)
+ - tHg mean ± SD: 0.23 ± 0.14 mg/kg; range 0.021-1.490 mg/kg.
+ - Cd mean ± SD: 0.032 ± 0.027 mg/kg; range 0.007-0.210 mg/kg.
+ - Pb mean ± SD: 0.058 ± 0.050 mg/kg; range 0.026-0.920 mg/kg.
+ - (Abstract rounds these to 0.24 ± 0.14, 0.03 ± 0.03, 0.05 ± 0.05 mg/kg.)
 - Concentration order across every year of record: Hg > Pb > Cd.
 - Annual means (mg/kg wet weight; Table 1; cells left blank where the source reports no value for that year):
-  - 2009 (n=34): Hg 0.30 ± 0.016; Cd —; Pb —.
-  - 2010 (n=759): Hg 0.20 ± 0.15; Cd 0.034 ± 0.031; Pb 0.064 ± 0.117.
-  - 2011 (n=562): Hg 0.27 ± 0.18; Cd 0.040 ± 0.030; Pb 0.046 ± 0.300.
-  - 2012 (n=377): Hg 0.26 ± 0.18; Cd 0.021 ± 0.011; Pb 0.038 ± 0.005.
-  - 2013 (n=377): Hg 0.25 ± 0.17; Cd 0.032 ± 0.037; Pb 0.060 ± 0.040.
-  - 2014 (n=294): Hg 0.20 ± 0.11; Cd 0.044 ± 0.039; Pb 0.093 ± 0.072.
-  - 2015 (n=89): Hg 0.21 ± 0.11; Cd 0.026 ± 0.011; Pb —.
-  - 2016 (n=80): Hg 0.14 ± 0.08; Cd —; Pb —.
+ - 2009 (n=34): Hg 0.30 ± 0.016; Cd —; Pb —.
+ - 2010 (n=759): Hg 0.20 ± 0.15; Cd 0.034 ± 0.031; Pb 0.064 ± 0.117.
+ - 2011 (n=562): Hg 0.27 ± 0.18; Cd 0.040 ± 0.030; Pb 0.046 ± 0.300.
+ - 2012 (n=377): Hg 0.26 ± 0.18; Cd 0.021 ± 0.011; Pb 0.038 ± 0.005.
+ - 2013 (n=377): Hg 0.25 ± 0.17; Cd 0.032 ± 0.037; Pb 0.060 ± 0.040.
+ - 2014 (n=294): Hg 0.20 ± 0.11; Cd 0.044 ± 0.039; Pb 0.093 ± 0.072.
+ - 2015 (n=89): Hg 0.21 ± 0.11; Cd 0.026 ± 0.011; Pb —.
+ - 2016 (n=80): Hg 0.14 ± 0.08; Cd —; Pb —.
 - Retail-survey samples (Guayaquil, 9 cans from 5 product groups, anonymized in the wiki): tHg 0.043 ± 0.004 mg/kg; Cd 0.012 ± 0.002 mg/kg; Pb < detection limit (0.01 mg/kg). Authors report these are 5.75x (Hg), 2.6x (Cd), and 5.8x (Pb) below the archival-set means.
 - Comparator limits used by the authors (EU Commission Regulation 1881/2006): tHg 1.0 mg/kg; Pb 0.3 mg/kg; Cd 0.1 mg/kg. Whole-period archival means run 4.4x (Hg), 5.17x (Pb), and 3.1x (Cd) below those limits.
 - Exceedances (over the EU comparator): 15 of 2572 samples (0.58%): 12 Cd (0.47%), 2 Pb (0.08%), 1 Hg (0.04%). Eight of the 15 were classified as statistical outliers by the authors (Hg 1, Cd 4, Pb 3).
@@ -71,7 +71,7 @@ Quality control used IAEA-407 herring/capelin/anchovy fish-flesh certified refer
 
 ## Speciation and interpretation notes
 
-- The measured Hg analyte is total mercury (tHg); methylmercury was not speciated. The page therefore reports `metals: [tHg]` rather than `MeHg`, per CLAUDE.md Part 14.
+- The measured Hg analyte is total mercury (tHg); methylmercury was not speciated. The page therefore reports `metals: [tHg]` rather than `MeHg`,.
 - Cadmium and lead were quantified as total Cd and total Pb (no speciation reported); the page uses the umbrella `Cd` and `Pb` abbreviations accordingly.
 - The retail-survey n=9 sample (5 product groups, brand names redacted by the original authors and additionally anonymized here) is markedly cleaner than the archival cannery-batch set. The authors do not propose a causal explanation; the difference may reflect product selection by retailers, batch heterogeneity, or sampling year (the retail survey was conducted in 2018, after the archival period). Treat the two datasets as separate occurrence strata, not as a paired comparison.
 - The "tendency to decrease" in mean tHg over 2009-2016 (0.30 mg/kg in 2009 → 0.14 mg/kg in 2016) is the authors' descriptive observation; they did not report a formal trend test with confidence intervals. Take it as a directional observation, not a statistically certified trend.

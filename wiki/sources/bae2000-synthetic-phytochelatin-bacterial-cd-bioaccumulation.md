@@ -42,12 +42,12 @@ Bae, Chen, Mulchandani, and Mehra (Department of Chemical and Environmental Engi
 - **EC20 Cd²⁺ binding stoichiometry, purified MBP-EC20 fusion after DTT reduction:** **9.9, 10.1, 9.8** Cd²⁺ per EC20 in Sephadex G-25 fractions 6, 7, 8 respectively (Fig. 4, p. 521). Reported in the Abstract as a stoichiometry of **10 Cd²⁺ per peptide**.
 - **Mammalian metallothionein (MT) reference stoichiometry the authors compare against:** **7 Cd²⁺ per MT** (Hamer 1986; Stillman et al. 1992 — cited values, not measured here). Authors conclude EC20 has **≈40 % higher Cd²⁺ binding capacity than MTs** on a per-peptide basis (Discussion, p. 522).
 - **Whole-cell Cd²⁺ accumulation, *E. coli* JM105 strains grown in MJS medium with 0.1 mM CdSO4, 1 mM IPTG induction, monitored to 16 h (Fig. 6, p. 522):**
-  - pUC18 negative control: **≈4 nmol Cd²⁺/mg dry cell weight** (Fig. 5; the exact bar value is not numerically tabulated and is read from the graph).
-  - pLO8 (Lpp-OmpA-EC8, 8 cysteines): **≈18 nmol Cd²⁺/mg dry cells**.
-  - pLO11 (Lpp-OmpA-EC11, 11 cysteines): **≈29 nmol Cd²⁺/mg dry cells**.
-  - pLO20 (Lpp-OmpA-EC20, 20 cysteines, surface-displayed): **≈60 nmol Cd²⁺/mg dry cells** (called out in the Abstract as "a maximum of 60 nmoles of Cd²⁺/mg dry cells").
-  - pM20 (MBP-EC20, periplasmic expression): **≈35 nmol Cd²⁺/mg dry cells** (Fig. 5).
-  - Surface-displayed pLO20 / periplasmic pM20 ratio: ≈**2-fold higher whole-cell Cd²⁺ accumulation** for the surface-displayed construct (Abstract; Fig. 5).
+ - pUC18 negative control: **≈4 nmol Cd²⁺/mg dry cell weight** (Fig. 5; the exact bar value is not numerically tabulated and is read from the graph).
+ - pLO8 (Lpp-OmpA-EC8, 8 cysteines): **≈18 nmol Cd²⁺/mg dry cells**.
+ - pLO11 (Lpp-OmpA-EC11, 11 cysteines): **≈29 nmol Cd²⁺/mg dry cells**.
+ - pLO20 (Lpp-OmpA-EC20, 20 cysteines, surface-displayed): **≈60 nmol Cd²⁺/mg dry cells** (called out in the Abstract as "a maximum of 60 nmoles of Cd²⁺/mg dry cells").
+ - pM20 (MBP-EC20, periplasmic expression): **≈35 nmol Cd²⁺/mg dry cells** (Fig. 5).
+ - Surface-displayed pLO20 / periplasmic pM20 ratio: ≈**2-fold higher whole-cell Cd²⁺ accumulation** for the surface-displayed construct (Abstract; Fig. 5).
 - **Periplasmic MBP-EC20 native binding (before DTT):** **less than 1 Cd²⁺ per MBP-EC20** fusion in the unprocessed periplasmic preparation (p. 521).
 - **CdSO4 challenge concentration in the bioaccumulation assays:** **100 µM CdSO4** (Materials and Methods, p. 519); whole-cell experiments used **0.1 mM CdSO4** (Results, p. 522) — these are the same value reported in two unit conventions.
 - **Replicate counts:** **n = 5 independent experiments** for the whole-cell Cd²⁺ accumulation data in Figs. 5 and 6 (figure legends, p. 521–522).
@@ -88,11 +88,11 @@ The work is bench-scale on whole cells grown in defined laboratory medium with a
 
 **Existing-page check.** DOI grep on `10.1002/1097-0290(20001205)70` over `wiki/sources/` on 2026-06-08 returned no matches. raw_handle grep on `MFK_52-enhanced-bioaccumulation` returned no matches. Cite-key glob `bae2000-*` over `wiki/sources/` returned no matches. The four `phytochelatin`-keyword hits ([[cobbett2002-phytochelatins-metallothioneins-review]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], [[marques2025-phytochelatins-cadmium-mitigation]], [[seregin2023-phytochelatins-sulfur-metal-chelating]]) are all different papers. This is a NEW source page; no prior version to merge-enhance.
 
-**Evidence tier.** A (primary peer-reviewed quantitative study with explicit methodology, sample sizes, and statistical reporting). The work is bench bioengineering on recombinant *E. coli* with clearly described constructs, growth conditions, replicate counts, and instrumentation. Per CLAUDE.md Part 13, primary peer-reviewed studies are A-tier regardless of whether the contribution is occurrence/exposure or mitigation/remediation; tier reflects methodological reliability of what the source reports, not HMI-scope fit.
+**Evidence tier.** A (primary peer-reviewed quantitative study with explicit methodology, sample sizes, and statistical reporting). The work is bench bioengineering on recombinant *E. coli* with clearly described constructs, growth conditions, replicate counts, and instrumentation. Primary peer-reviewed studies are A-tier regardless of whether the contribution is occurrence/exposure or mitigation/remediation; tier reflects methodological reliability of what the source reports, not HMI-scope fit.
 
 **Metals frontmatter.** `[Cd]` only. The paper measures cadmium exclusively. Mercury appears in the Discussion only as a one-sentence reference to Chen and Wilson (1997)'s analogous limitation in mercury transport; no Hg measurement is reported here. Lead appears only as a citation to Mehra et al. (1996a) in the reference list; no Pb measurement is reported here. The title's plural "heavy metals" is forward-looking framing for the broader bioremediation programme the authors situate themselves in, not a description of this paper's experimental scope.
 
-**Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The paper measures nothing in any food or personal-care matrix. The matrix is *E. coli* whole cells in defined laboratory medium (MJS); per CLAUDE.md Part 5b the routing layer should not fan this paper out to any consumer product or ingredient page. The work is geographically institutional (UC Riverside) but conceptually international; no national regulatory or occurrence frame applies, so `jurisdictions:` remains empty.
+**Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The paper measures nothing in any food or personal-care matrix. The matrix is *E. coli* whole cells in defined laboratory medium (MJS); the routing layer should not fan this paper out to any consumer product or ingredient page. The work is geographically institutional (UC Riverside) but conceptually international; no national regulatory or occurrence frame applies, so `jurisdictions:` remains empty.
 
 **Sample size.** Null. There is no human, animal, or food-sample sampling frame. The figure replicate counts (n=5 independent experiments for Figs. 5–6 whole-cell uptake; n=3 Sephadex fractions for the binding-stoichiometry measurement) are recorded in the `sample_population` block but `sample_n` is reserved for human/biological/food-sample N and is null here.
 

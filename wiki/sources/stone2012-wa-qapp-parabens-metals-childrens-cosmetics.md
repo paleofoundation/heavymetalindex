@@ -10,7 +10,7 @@ doi: null
 no_doi_assigned: true
 source_type: regulatory
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13, A-tier covers government reports and authoritative national/state-agency studies. This is the formal Quality Assurance Project Plan (QAPP) authored by Alex Stone (Senior Chemist, HWTR-HQ Program) for a Washington State Department of Ecology W2R/HWTR project funded by the Washington State Attorney General's Office. The QAPP was reviewed and approved by Ecology's Quality Assurance Officer (Samuel Iwenofu, HWTR-SWRO), the Section Manager (Ken Zarker, HWTR-HQ), and the W2R Clients (Joshua Grice and John Williams), making it an authoritative regulatory-program design document. It is the planning predecessor cited as 'Ecology 2012a-d' (one of four QAPPs) by the final report at [[sources/stone2021-wa-metals-childrens-consumer-products]] (Publication 14-04-014, Revised 2021). The document contains no original analytical measurement data; its evidentiary contribution is the documentary record of Washington State and federal regulatory action levels (Table 1), CSPA Reporting Rule context, planned analytical methods and detection limits, and quality control procedures applied in the eventual published report."
+tier_rationale: "A-tier covers government reports and authoritative national/state-agency studies. This is the formal Quality Assurance Project Plan (QAPP) authored by Alex Stone (Senior Chemist, HWTR-HQ Program) for a Washington State Department of Ecology W2R/HWTR project funded by the Washington State Attorney General's Office. The QAPP was reviewed and approved by Ecology's Quality Assurance Officer (Samuel Iwenofu, HWTR-SWRO), the Section Manager (Ken Zarker, HWTR-HQ), and the W2R Clients (Joshua Grice and John Williams), making it an authoritative regulatory-program design document. It is the planning predecessor cited as 'Ecology 2012a-d' (one of four QAPPs) by the final report at [[sources/stone2021-wa-metals-childrens-consumer-products]] (Publication 14-04-014, Revised 2021). The document contains no original analytical measurement data; its evidentiary contribution is the documentary record of Washington State and federal regulatory action levels (Table 1), CSPA Reporting Rule context, planned analytical methods and detection limits, and quality control procedures applied in the eventual published report."
 license: "us-state-government-public-domain"
 access_url: "https://apps.ecology.wa.gov/publications/SummaryPages/1207021.html"
 raw_path: "raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-015_WA_Ecology_2012_QAPP_Parabens_Metals_Childrens_Cosmetics.pdf"
@@ -76,8 +76,8 @@ Four paraben esters of para-hydroxybenzoic acid (CAS 99-96-7):
 - Ethyl paraben (CAS 120-47-8)
 - n-Propyl paraben (CAS 94-13-3)
 - Butyl paraben — two isomers reported separately:
-  - n-Butyl paraben (CAS 94-26-8)
-  - iso-Butyl paraben (CAS 4247-02-3)
+ - n-Butyl paraben (CAS 94-26-8)
+ - iso-Butyl paraben (CAS 4247-02-3)
 
 The European Union identified all four parabens on Washington's Chemicals of High Concern to Children (CHCC) list as Category 1 potential endocrine disruptors (Stone and Delistraty 2010); the parabens listing on the CHCC list pre-dated REACH and is the subject of ongoing EU re-evaluation (Background p. 5–6).
 

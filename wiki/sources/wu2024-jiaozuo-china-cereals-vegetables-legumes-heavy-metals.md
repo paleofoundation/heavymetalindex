@@ -126,7 +126,7 @@ EF-4 (context only) for any HMTc-row-level threshold-setting work, because: (a) 
 
 ## Implications
 
-Not synthesised — single-paper source page. The routing audit will surface this source to cereals, leafy-vegetables-other, spinach, non-root-vegetables, root-tuber-vegetables, legumes-pulses-other, peanuts, rice-bulk-grain, and flour-non-rice product pages and to the rice, wheat, maize, peanuts, soy, spinach, broccoli, cabbage, cauliflower, carrot, lettuce, cucumber, potatoes, tomato, leafy-greens, mushrooms, and legumes ingredient pages; Part 9 synthesis on each (ingredient, metal) cell will run as a separate workflow when the trigger conditions in CLAUDE.md Part 9 fire.
+Not synthesised — single-paper source page. The routing audit will surface this source to cereals, leafy-vegetables-other, spinach, non-root-vegetables, root-tuber-vegetables, legumes-pulses-other, peanuts, rice-bulk-grain, and flour-non-rice product pages and to the rice, wheat, maize, peanuts, soy, spinach, broccoli, cabbage, cauliflower, carrot, lettuce, cucumber, potatoes, tomato, leafy-greens, mushrooms, and legumes ingredient pages; Part 9 synthesis on each (ingredient, metal) cell will run as a separate workflow when the trigger conditions fire.
 
 ## Provenance notes
 

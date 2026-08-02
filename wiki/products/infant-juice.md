@@ -27,7 +27,7 @@ updated: 2026-05-20
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

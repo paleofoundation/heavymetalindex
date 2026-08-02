@@ -29,30 +29,30 @@ This page is HMTc Category 5 row 2 from the locked beverage architecture. It exi
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on apple-containing juice typically center on inorganic arsenic (the FDA 2022 draft 10 ppb action level is the public number) and on lead from imported concentrate. Sourcing geography (US vs Chinese vs Argentine concentrate) and apple-cinnamon co-occurrence (Wanabana 2024) are the defensive core. Compare with <a href="/products/fruit-juices-non-apple">Fruit Juices Non Apple</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=fruit-juices-apple-containing">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for apple-containing juice, against the FDA 2022 draft iAs cap and the FDA 2022 draft Pb cap.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on apple-containing juice typically center on inorganic arsenic (the FDA 2022 draft 10 ppb action level is the public number) and on lead from imported concentrate. Sourcing geography (US vs Chinese vs Argentine concentrate) and apple-cinnamon co-occurrence (Wanabana 2024) are the defensive core. Compare with <a href="/products/fruit-juices-non-apple">Fruit Juices Non Apple</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=fruit-juices-apple-containing">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for apple-containing juice, against the FDA 2022 draft iAs cap and the FDA 2022 draft Pb cap.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 
@@ -168,7 +168,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule (CLAUDE.md Part 12). Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not as brand rankings, per the wiki's brand-firewall rule. Historical regulatory events relevant to this category should be sourced from FDA enforcement databases and framed at the category level._
 
 <!-- BEGIN: hmi-page-references -->
 ## References

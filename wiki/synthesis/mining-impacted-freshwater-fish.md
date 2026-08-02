@@ -112,7 +112,7 @@ The wiki's [[overview]] should pair this synthesis with [[synthesis/subsistence-
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on ten anchor sources spanning six continents and three contamination drivers. The geographic scope is robust; the multi-metal claim rests on Shaalan 2024 as a single industrial-pollution anchor with additional support from the Almadén legacy-mining literature; the mechanism rests on well-established freshwater-microbiology literature plus the recent Zhou 2025 paddy-microbial-methylation mechanistic anchor. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources adding multi-metal ASGM coverage, a third ASGM continent, or a formal pooled-effect estimate across the geographic dataset.
+This synthesis was established 2026-05-16 on ten anchor sources spanning six continents and three contamination drivers. The geographic scope is robust; the multi-metal claim rests on Shaalan 2024 as a single industrial-pollution anchor with additional support from the Almadén legacy-mining literature; the mechanism rests on well-established freshwater-microbiology literature plus the recent Zhou 2025 paddy-microbial-methylation mechanistic anchor. Resynthesis triggers fire on the next two independent A-tier sources adding multi-metal ASGM coverage, a third ASGM continent, or a formal pooled-effect estimate across the geographic dataset.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

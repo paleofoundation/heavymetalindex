@@ -96,7 +96,7 @@ Courses: Good teaching example for separating environmental remediation data fro
 
 This page was built from the full PDF, including the abstract, Table 1 soil concentrations, Figure 1 soil summaries, Table 2 root/stem/leaf concentrations, Figure 2 organ plots, Table 3 genotype comparisons and CDA results, the discussion, materials and methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source does not measure edible commodities or consumer products. The source reports total elemental concentrations after digestion; arsenic and chromium species are not separated.
 
-Audit subagent (2026-06-02) flagged frontmatter `metals: [..., As]` as inconsistent with CLAUDE.md Part 14, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected frontmatter to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
+Audit subagent (2026-06-02) flagged frontmatter `metals: [..., As]` as inconsistent with, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected frontmatter to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
 
 Audit subagent (2026-06-02) flagged the Cu2(OH)3Cl fungicide pre-treatment as a methodologically important omission from the prior Methods section; verified against source page 13 ("The willow cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting.") — added a one-sentence note in Methods that this is a confounder for Cu accumulation results.
 

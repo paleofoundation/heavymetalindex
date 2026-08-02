@@ -25,7 +25,7 @@ updated: 2026-06-08
 > **v2.1 Step Zero scaffold — Category 26 (Peptides, SARMs, and Research Chemicals), Row 3.** This row is defined in
 > the taxonomy and its Step Zero lock (`docs/governance/category-26-step0-lock.md`) but carries
 > **no candidate values** yet. It is a routing destination. Sources populate it as ingest proceeds,
-> after which a synthesis pass fills the evidence sections per CLAUDE.md Part 9.
+> after which a synthesis pass fills the evidence sections.
 
 ## Literature scope
 

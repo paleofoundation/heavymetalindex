@@ -28,30 +28,30 @@ This page is HMTc Category 5 row 13 from the locked beverage architecture. It ex
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on coffee typically center on lead and cadmium in green coffee beans and on copper and aluminum from processing equipment. Source-of-origin and processing-vessel disclosure are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=coffee">Lab Result Comparator</a> to position a single lab value inside the cited literature for coffee.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on coffee typically center on lead and cadmium in green coffee beans and on copper and aluminum from processing equipment. Source-of-origin and processing-vessel disclosure are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=coffee">Lab Result Comparator</a> to position a single lab value inside the cited literature for coffee.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 
@@ -163,7 +163,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-No confirmed metal-driven recalls or regulatory enforcement actions for coffee are documented in the current source set. California Proposition 65 has been used to challenge several coffee brands on lead content; the Proposition 65 Coffee and Lead Safe Harbor exemption established in 2019 reflects the determination that cancer risk from acrylamide in coffee (the primary Prop 65 concern) is outweighed by health benefits — this determination does not resolve lead-specific claims, which remain active. Public-record actions will be documented here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings.
+No confirmed metal-driven recalls or regulatory enforcement actions for coffee are documented in the current source set. California Proposition 65 has been used to challenge several coffee brands on lead content; the Proposition 65 Coffee and Lead Safe Harbor exemption established in 2019 reflects the determination that cancer risk from acrylamide in coffee (the primary Prop 65 concern) is outweighed by health benefits — this determination does not resolve lead-specific claims, which remain active. Public-record actions will be documented here as the synthesis pass identifies them. Recalls are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

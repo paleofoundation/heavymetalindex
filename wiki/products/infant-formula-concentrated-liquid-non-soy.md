@@ -124,7 +124,7 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings (CLAUDE.md Part 12)._
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-page-references -->
 ## References

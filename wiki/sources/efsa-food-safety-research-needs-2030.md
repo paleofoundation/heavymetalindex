@@ -8,7 +8,7 @@ publication: "EFSA Journal 2019;17(6):e170622 (Editorial)"
 doi: 10.2903/j.efsa.2019.e170622
 source_type: gov-report
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: EFSA is explicitly named as an A-tier government-report source. Editorial form is synthesis/forward-looking; treat as authoritative agency position rather than primary research for evidence pooling."
+tier_rationale: "Per: EFSA is explicitly named as an A-tier government-report source. Editorial form is synthesis/forward-looking; treat as authoritative agency position rather than primary research for evidence pooling."
 method_quality_caveat: "EFSA Editorial — agency-position synthesis, not new primary measurement data. Useful for regulatory-context citations; does not contribute to product-cell n_a_tier."
 raw_path: raw/reports/food-safety-regulatory-research-needs-2030-2019.pdf
 sha256: 411198f29754d852fecbc89f158bc0fc2661d1bb77c984a40694a3832c4d2c7e

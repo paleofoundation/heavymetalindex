@@ -8,7 +8,7 @@ publication: "Frontiers in Molecular Neuroscience 14:695873"
 doi: "10.3389/fnmol.2021.695873"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed primary study (Frontiers in Molecular Neuroscience). Open-access Frontiers journal; established peer-review track record."
+tier_rationale: "Per: peer-reviewed primary study (Frontiers in Molecular Neuroscience). Open-access Frontiers journal; established peer-review track record."
 method_quality_caveat: "Review/synthesis article on metallome-ASD mechanism; cites primary studies. Useful for mechanism context; cell-level n_a_tier crediting requires checking whether each finding is original measurement vs literature citation."
 license: cc-by
 raw_path: "raw/Digest/fnmol-14-695873.pdf"

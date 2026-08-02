@@ -139,7 +139,7 @@ Funded by Deutsche Forschungsgemeinschaft grant Na 146/1.
 
 **HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry. No firewall action required.
 
-**Speciation note.** The paper uses "Cd" and "Cd²⁺" interchangeably; all measurements are of total cadmium (Cd as CdCl2 in medium, total 109Cd in cellular fractions). No methylated, organic, or oxidation-state-specific cadmium species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed; see CLAUDE.md Part 14).
+**Speciation note.** The paper uses "Cd" and "Cd²⁺" interchangeably; all measurements are of total cadmium (Cd as CdCl2 in medium, total 109Cd in cellular fractions). No methylated, organic, or oxidation-state-specific cadmium species are reported. The HMI canonical analyte symbol for cadmium is `Cd` (no isotope/species distinction needed;).
 
 **Date arithmetic.** Received 25 July 1988; accepted 16 November 1988; published February 1989 (Vol. 55, No. 2). Consistent with `year: 1989` frontmatter and DOI year `1989`.
 

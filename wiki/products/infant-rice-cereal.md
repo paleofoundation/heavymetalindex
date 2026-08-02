@@ -80,7 +80,7 @@ The practical control levers for Infant Rice Cereal start with product identity 
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/standards/infant-rice-cereal.md` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology in CLAUDE.md Part 19 to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/standards/infant-rice-cereal.md` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 

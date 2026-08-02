@@ -31,7 +31,7 @@ updated: 2026-06-08
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
@@ -58,7 +58,7 @@ _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator aud
 
 ## Methodology
 
-_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules that govern downstream sections of this page._
 
 ## Literature Evidence Summary
 
@@ -88,7 +88,7 @@ For this product class the dominant lever is the conserving process itself, with
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 

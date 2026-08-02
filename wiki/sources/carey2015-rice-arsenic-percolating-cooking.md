@@ -110,7 +110,7 @@ Page rebuilt 2026-05-28 from the source PDF (raw_sha256 5529a95f… matches the 
 - **Frontmatter `raw_handle`** was missing; added `auto-fetched` to match the discovery-pipeline convention used by sibling auto-fetched pages.
 - **Frontmatter field rename** `sha256` → `raw_sha256` to match the current v2 schema (e.g., `dehghani2020-food-lead-cadmium-mspe`).
 - **Legacy section** `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` per v2 schema; the prior body of that section listed `[[mitigation/cooking-methods-arsenic]]`, which is not in the current taxonomy and was removed.
-- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate Part 2 of CLAUDE.md (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
+- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
 
 Audit subagent (2026-05-28) flagged the following; verified against source and applied or rejected:
 

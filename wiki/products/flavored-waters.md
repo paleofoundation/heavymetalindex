@@ -27,30 +27,30 @@ This page is HMTc Category 5 row 8 from the locked beverage architecture. It exi
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on flavored waters typically center on the water source itself (lead at low ppb levels visible against the FDA 5 ppb bottled water standard) plus any flavoring or mineral additions. Source-water testing transparency is the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=flavored-waters">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for flavored waters, against the FDA 21 CFR 165.110 bottled-water lead cap.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on flavored waters typically center on the water source itself (lead at low ppb levels visible against the FDA 5 ppb bottled water standard) plus any flavoring or mineral additions. Source-water testing transparency is the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=flavored-waters">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for flavored waters, against the FDA 21 CFR 165.110 bottled-water lead cap.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 
@@ -141,7 +141,7 @@ The highest-control levers are finished-product testing for lead against the bot
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 

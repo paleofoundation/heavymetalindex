@@ -25,7 +25,7 @@ updated: 2026-06-09
 > **v2.2 Step Zero scaffold — Category 33 (Chocolate, Cocoa and Confectionery), Row 3.** New row from the Cat 7
 > dissolution (`docs/governance/category-7-dissolution-step0-event.md`); carries **no candidate values**
 > yet. Routing destination; sources populate it as ingest proceeds, then synthesis fills the evidence
-> sections per CLAUDE.md Part 9.
+> sections.
 
 ## Literature scope
 

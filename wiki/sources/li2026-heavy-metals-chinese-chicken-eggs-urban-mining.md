@@ -130,7 +130,7 @@ App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, t
 
 (c) The prior `## Key numbers` compliance line read "Pb: <0.02 mg/kg in all samples (China national standard)." This conflated the measured Pb upper bound (the corpus maximum is 0.018 mg/kg) with the regulatory standard (GB 2762-2022 Pb ≤ 0.2 mg/kg for eggs). The two values differ by a factor of ten; the prior line implied the standard is 0.02 mg/kg. Corrected — the standards are now stated separately from the measured ranges.
 
-(d) The prior `## Implications` Certification line began "This study confirms that even in a heavily industrialized/mining country, eggs can meet national food safety standards…" — a synthesis claim about literature consensus that violates CLAUDE.md Part 2 (the wiki reports what this single paper found, not how it relates to other literature). Rewritten to describe what the paper itself documents about this corpus.
+(d) The prior `## Implications` Certification line began "This study confirms that even in a heavily industrialized/mining country, eggs can meet national food safety standards…" — a synthesis claim about literature consensus that violates (the wiki reports what this single paper found, not how it relates to other literature). Rewritten to describe what the paper itself documents about this corpus.
 
 (e) The prior `## Implications` Courses line ("free-range production systems that allow foraging on contaminated soil produce eggs with higher heavy metal loads, reversing the common consumer assumption that free-range means safer") had consumer-audience risk-advisory tone with editorial framing ("reversing the common consumer assumption…"). Rewritten to state the paper's documented finding without editorializing.
 

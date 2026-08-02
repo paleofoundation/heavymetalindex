@@ -83,7 +83,7 @@ This page was merge-enhanced on 2026-05-29 against the original PDF (raw/Manual 
 - **Authors string** updated to include the full author list (was previously truncated in `authors:` array order; now matches PDF p. 277 byline exactly).
 - **Publication string** updated to "Chilean Journal of Agricultural Research 85(2): 277-286" (was 277-285; the article runs through p. 286 per the PDF page numbering).
 - Brand-firewall scan: the paper does not name any consumer brand or producer. Genotype identifiers (ZP 611k, ZP 542/1k, etc.) are breeding-program designations from Maize Research Institute Zemun Polje, not consumer-product brand names; these are research-material identifiers and are retained. Methods-section vendor names (Samsung, Perten/PerkinElmer, Biochrom, Thermo Scientific, Cretors, EU Instruments) are scientific-reproducibility content retained per the Part 12 vendor-name exception.
-- Direction-of-edit check (CLAUDE.md Part 2): all changes move toward the literature (correcting a transposed Mg digit, completing the measured-analyte list, populating routing fields per the matrix map, removing a legacy heading). No changes move toward HMTc convenience; the page remains explicit that no HMTc analyte sub-block is advanced.
+- Direction-of-edit check: all changes move toward the literature (correcting a transposed Mg digit, completing the measured-analyte list, populating routing fields per the matrix map, removing a legacy heading). No changes move toward HMTc convenience; the page remains explicit that no HMTc analyte sub-block is advanced.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

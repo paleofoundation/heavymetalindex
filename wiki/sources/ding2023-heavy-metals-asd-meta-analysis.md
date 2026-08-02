@@ -8,7 +8,7 @@ publication: "Frontiers in Pediatrics 11:1169733"
 doi: "10.3389/fped.2023.1169733"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed systematic review and meta-analysis in Frontiers in Pediatrics. PRISMA-compliant search across PubMed, Web of Science, Embase, and Cochrane Library; Newcastle-Ottawa Scale quality assessment (all 53 included studies scored ≥6, mean 7.1); 5,054 participants pooled."
+tier_rationale: "Per: peer-reviewed systematic review and meta-analysis in Frontiers in Pediatrics. PRISMA-compliant search across PubMed, Web of Science, Embase, and Cochrane Library; Newcastle-Ottawa Scale quality assessment (all 53 included studies scored ≥6, mean 7.1); 5,054 participants pooled."
 method_quality_caveat: "Meta-analysis of case-control studies only; causality cannot be inferred from the pooled estimates. Random-effects heterogeneity was very high for every metal (I² = 92.1% Cd, 96.7% Pb, 97.3% As, 94.6% Hg). Confounders (age, sex, BMI, dietary patterns) could not be adjusted across primary studies because the pooled estimates compared case and control groups directly. Significant publication bias detected for Pb (Begg's P=0.002, Egger's P<0.001) and Hg (Begg's P=0.002, Egger's P=0.008), though Trim-and-Fill did not change conclusions. Included studies used heterogeneous analytical methods (AAS, ICP-MS, FAAS, ABA, ICP-OES). Most included studies measured total arsenic and total mercury rather than speciated iAs/MeHg."
 license: cc-by
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Association_between_heavy_metals_exposure_cadmium_lead_arsenic_mercury_and.pdf"

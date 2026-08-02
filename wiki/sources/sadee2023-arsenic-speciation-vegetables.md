@@ -48,7 +48,7 @@ Narrative review; no primary data generated. Synthesizes published studies on ex
 
 ## Implications
 
-Certification: Reinforces the non-negotiable iAs/tAs speciation distinction (CLAUDE.md Part 14). Total As measurements in vegetables cannot substitute for iAs when setting limits or interpreting risk.
+Certification: Reinforces the non-negotiable iAs/tAs speciation distinction. Total As measurements in vegetables cannot substitute for iAs when setting limits or interpreting risk.
 
 Courses: Reference for analytical methods module — explains why HPLC-ICP-MS is the gold standard for arsenic speciation in food matrices.
 

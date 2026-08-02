@@ -29,7 +29,7 @@ Brand legal teams evaluating Cat 2 certification for children's personal-care li
 
 ## Methodology
 
-Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
+Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
 HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
 
@@ -56,7 +56,7 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
+Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
 
 ## Cross-row contamination platforms
 

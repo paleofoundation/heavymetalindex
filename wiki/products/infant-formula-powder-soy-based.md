@@ -40,30 +40,30 @@ This page is a structural scaffold for HMTc Category 1 row 2. Soy-specific powde
 ## Who this page is for
 
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>The cited sources are listed at the bottom of this page. Soy-based powdered formula evidence is thinner than its non-soy sibling; the <a href="#literature-evidence-summary">Literature Evidence Summary</a> reports source count and confidence rating per analyte so the gaps are visible. Compare with <a href="/products/infant-formula-powder-non-soy">non-soy powder</a> for the within-matrix sibling.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The <a href="#federal--regulatory-limits-vs-field-findings">Federal / Regulatory Limits vs Field Findings</a> section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=infant-formula-powder-soy-based">Lab Result Comparator</a> to position a single lab value inside the cited literature for this matrix, against the applicable regulatory cap.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>The cited sources are listed at the bottom of this page. Soy-based powdered formula evidence is thinner than its non-soy sibling; the <a href="#literature-evidence-summary">Literature Evidence Summary</a> reports source count and confidence rating per analyte so the gaps are visible. Compare with <a href="/products/infant-formula-powder-non-soy">non-soy powder</a> for the within-matrix sibling.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The <a href="#federal--regulatory-limits-vs-field-findings">Federal / Regulatory Limits vs Field Findings</a> section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=infant-formula-powder-soy-based">Lab Result Comparator</a> to position a single lab value inside the cited literature for this matrix, against the applicable regulatory cap.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 
 ## Methodology
@@ -186,12 +186,12 @@ Digest formula papers add soy-specific aluminum and cadmium context, mostly as s
 | --- | --- | ---: | --- | ---: | ---: | ---: | --- |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 15 | as consumed | 733 | 713 | 1461 | Source reports summary statistics only. |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 15 | as consumed | 1.56 | 1.39 | 3.47 | Source reports summary statistics only. |
-| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 15 | as consumed |  | 1.27 | 1.9 | Pb mean in the OCR table is ambiguous; median/range retained only. |
-| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 4 soy-based rows in pasted Table 3 | dried powder | 2270 |  | 2720 | Direct soy-based powder context; source text has subgroup-count conflict. |
-| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 4 soy-based rows in pasted Table 3 | dried powder | 11.7 |  | 14.5 | Direct soy-based powder context; source text has subgroup-count conflict. |
-| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 4 soy-based rows in pasted Table 3 | dried powder | 109.4 |  | 119 | Direct soy-based powder context; source text has subgroup-count conflict. |
-| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 1 | source-reported prepared estimate | 629 |  | 629 | Direct soy-powder row; N=1, source reports prepared estimate and range only. |
-| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 2 | source-reported prepared estimate | 706 |  | 756 | Direct soy-powder row; N=2, source reports prepared estimates and range only. |
+| [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 15 | as consumed | | 1.27 | 1.9 | Pb mean in the OCR table is ambiguous; median/range retained only. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/aluminum|Al]] | 4 soy-based rows in pasted Table 3 | dried powder | 2270 | | 2720 | Direct soy-based powder context; source text has subgroup-count conflict. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/cadmium|Cd]] | 4 soy-based rows in pasted Table 3 | dried powder | 11.7 | | 14.5 | Direct soy-based powder context; source text has subgroup-count conflict. |
+| [[sources/kazi2009-toxic-elements-in-infant-formulae]] | [[metals/lead|Pb]] | 4 soy-based rows in pasted Table 3 | dried powder | 109.4 | | 119 | Direct soy-based powder context; source text has subgroup-count conflict. |
+| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 1 | source-reported prepared estimate | 629 | | 629 | Direct soy-powder row; N=1, source reports prepared estimate and range only. |
+| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 2 | source-reported prepared estimate | 706 | | 756 | Direct soy-powder row; N=2, source reports prepared estimates and range only. |
 
 ## Source Evidence Inventory
 
@@ -286,17 +286,17 @@ The sources below are catalogued as product-context candidates for this row. The
 | Source | Title | Source scope | Metals | Author-scope row-fit | Canonical appearance |
 | --- | --- | --- | --- | --- | --- |
 | [[sources/amarh2023-ghana-infant-food-heavy-metals]] | Health risk assessment of some selected heavy metals in infan... | infant-foods; infant-formula | tAs; Cd; Cr; tHg; Mn; Ni; Pb; Sb | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
-| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | Determination of 40 Elements in Powdered Infant Formulas and ... | infant-formula-powder | Al; tAs; Cd; Cr; Mn; Ni; Pb; Sn; Zn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | (context only) |
+| [[sources/astolfi2021-italy-powdered-infant-formula-elements]] | Determination of 40 Elements in Powdered Infant Formulas and... | infant-formula-powder | Al; tAs; Cd; Cr; Mn; Ni; Pb; Sn; Zn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | (context only) |
 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
-| [[sources/su2020-infant-formula-china-toxic-elements]] | Content and Dietary Exposure Assessment of Toxic Elements in ... | infant-formula | Cr; tAs; Cd; Pb | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
+| [[sources/su2020-infant-formula-china-toxic-elements]] | Content and Dietary Exposure Assessment of Toxic Elements in... | infant-formula | Cr; tAs; Cd; Pb | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Concentrations of Heavy Metals in Processed Baby Foods and In... | infant-formula; baby-cereals-dry-rice-based; baby-cereals-dry-non-rice; fruit-purees | Pb; Cd; tAs; tHg | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | Cross-reference - section: Why This Category Is High-Risk |
 | [[sources/efsa-cadmium-contam-2009]] | Scientific Opinion of the Panel on Contaminants in the Food C... | chocolate; infant-formula; breast-milk | Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]] | Arsenic, Organic Foods, and Brown Rice Syrup | infant-formula; toddler-formula; rice-containing-products | tAs; iAs | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | Cross-reference - section: Measured Values And Concentration Evidence |
-| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | Comparative study of heavy metals in dried and fluid milk in ... | infant-formula-powder; powdered-milk; liquid-milk | Pb; Cd; Cr; Ni; Ca; Mg; Cu; Zn; Fe; Mn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | (context only) |
+| [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]] | Comparative study of heavy metals in dried and fluid milk in... | infant-formula-powder; powdered-milk; liquid-milk | Pb; Cd; Cr; Ni; Ca; Mg; Cu; Zn; Fe; Mn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | (context only) |
 | [[sources/marques2021-trace-elements-milks-plant-based-drinks]] | Essential and Non-essential Trace Elements in Milks and Plant... | plant-milks-soy-based; plant-milks-rice-based; plant-milks-non-soy-non-rice; infant-formula | Pb; tHg; Ni; U | Matrix axis: partial (covers both non-soy and soy without splitting). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | Chemical characterization of baby food consumed in Italy | infant-formula-powder; fruit-purees; meat-and-poultry-purees; fish-containing-baby-foods | Al; tAs; Cd; tHg; Ni; Pb; Sn | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | (context only) |
-| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid ... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | Cross-reference - section: Why This Category Is High-Risk |
+| [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]] | Infants' dietary arsenic exposure during transition to solid... | infant-formula-powder; rice-cereal; fruit-purees; vegetable-purees | iAs; tAs | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source resolves powder format but does not split soy from non-soy. | Cross-reference - section: Why This Category Is High-Risk |
 | [[sources/spungen2024-fda-tds-infant-lead-cadmium]] | Infants' and young children's dietary exposures to lead and c... | processed-baby-food; infant-formula; root-vegetable-purees; teething-biscuits | Pb; Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | Cross-reference - section: Sources |
 | [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]] | Dietary intake of methylmercury by 0-5 years children using t... | fish-containing-baby-foods; infant-formula; baby-foods; toddler-meals | tHg; MeHg | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 
@@ -363,7 +363,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 34 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | DE/EU Ni occurrence in 840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II,... (n=840) |
 | 35 | [[sources/floresaguilar2022-infant-formula-lead-spe-ce\|Flores-Aguilar et al. 2022]]. *Selective Pb(II)-Imprinted Polymer for Solid Phase Extraction in the Trace Determination of Lead in Infant Formula by Capillary Electrophoresis*, Journal of the Mexican Chemical Society | 2022 | Peer-reviewed | MX Pb occurrence in Twenty commercial infant formula samples analyzed for Pb after reconstitution according to manufacturer instructions; positive samples are reported... (n=20) |
 | 36 | [[sources/gredilla2022-powdered-milk-hazardous-elements\|Gredilla et al. 2022]]. *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*, Food Analytical Methods | 2022 | Peer-reviewed | BR/CO Li, Al, Mg, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sn, Sb, Ba, tHg, Tl, Pb, Mo occurrence in Twelve commercial powdered milk formulas purchased in representative cities of Brazil and Colombia: nine child/infant milks and three... (n=12) |
-| 37 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
+| 37 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
 | 38 | [[sources/ouyang2022-early-life-microbiota-delivery-feeding\|Ouyang et al. 2022]]. *Early Life Microbiota — Impact of Delivery Mode and Infant Feeding*, Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, pp. 25-38 | 2022 | Review | This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome... |
 | 39 | [[sources/who-gdwq-2022-fourth-edition\|WHO 2022]]. *Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda*, Geneva: World Health Organization | 2022 | Government report | WHO/Global Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U, Sb occurrence in Drinking-water consumers globally; guideline values derived for a 60 kg adult consuming 2 L/day, with bottle-fed infants flagged... |
 | 40 | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|Astolfi et al. 2021]]. *Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Italian powdered infant formula occurrence for Al, tAs, Cd, Cr, Ni, Pb, Sn (n=22; powder format exact; soy/non-soy not split) |
@@ -424,7 +424,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- END: hmi-source-legend -->
 ## Historical recalls and enforcement
 
-FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
+FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
 
 <!-- BEGIN: hmi-contradiction-watch -->
 ## Contradiction watch
@@ -442,7 +442,7 @@ The living-review detector has flagged **8** contributing source value(s) that d
 | Ni | [[sources/fsa2016-infant-food-formula-metals-survey]] | 200 ppb | 500 (typical) / 1300 (P95) | 2.5× | below-cohort-median |
 | Al | [[sources/burrell2010-aluminium-in-infant-formulas]] | 629 ppb | 1461 (typical) / 2720 (P95) | 2.32× | below-cohort-median |
 
-Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in [[../CLAUDE|CLAUDE.md § Part 9]].
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in.
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->

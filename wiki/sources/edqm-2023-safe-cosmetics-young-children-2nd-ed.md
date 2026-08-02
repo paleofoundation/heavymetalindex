@@ -75,7 +75,7 @@ This factor enters the dermal-exposure dose calculation directly: the same appli
 
 The document does not measure heavy-metal concentrations in any product or class of products. It cites heavy metals by name as developmental and systemic hazards relevant to infant safety assessment, with cross-reference to a single reviewing source (Wolterink et al., RIVM report 320012001, 2007):
 
-- Inorganic lead (Pb) and organic mercury named alongside ethanol and vitamin A as "neurotoxic substances ... demonstrated to affect neural development over the entire period from conception to young adulthood" (p. 22, nervous-system subsection of Organs and systems in development).
+- Inorganic lead (Pb) and organic mercury named alongside ethanol and vitamin A as "neurotoxic substances... demonstrated to affect neural development over the entire period from conception to young adulthood" (p. 22, nervous-system subsection of Organs and systems in development).
 - Lead (Pb) named as "an example of a substance with a disruptive effect on the immune system of infants" (p. 23, immune-system subsection).
 - "Lead and other heavy metals" identified as substances that "may affect" the growth of epiphysial cartilage stimulated by growth hormone produced in the hypophysis, "resulting in growth disorders" (p. 24, endocrine-system subsection).
 - OCCL (European Network of Official Cosmetics Control Laboratories) market-surveillance surveys cited in the Foreword (p. 6) found "banned ingredients (including colorants, preservatives and lead), as well as high concentrations of allergens and impurities (including nitrosamines)" in 'kids' cosmetics. No quantitative occurrence figure is provided in the EDQM document itself; the document treats these findings as evidence that continued OCCL surveillance and enforcement are warranted.
@@ -155,7 +155,7 @@ Jurisdiction: the document is binding (qua Resolution) on the States Parties to 
 ## Pages updated
 
 - [[sources/eu-2009-1223-cosmetic-products-regulation]] — the EU 1223/2009 page's existing forward-reference to this document (previously demoted to plain prose pending REG-007 ingest) can now be re-linked as a proper wikilink in a future revision of that page. Not modified in this ingest per skill v2 Phase 1 scope.
-- Regulation hub page for CM/ResAP (2012) 1 / EDQM 2nd edition does not yet exist. Per CLAUDE.md Part 10, regulation pages are created at first encounter; this source-page ingest surfaces the proposal but does not author the regulation page itself (Karen's Step 0 / regulation-hub workflow).
+- Regulation hub page for CM/ResAP (2012) 1 / EDQM 2nd edition does not yet exist. Regulation pages are created at first encounter; this source-page ingest surfaces the proposal but does not author the regulation page itself (Karen's Step 0 / regulation-hub workflow).
 
 ## Sources
 

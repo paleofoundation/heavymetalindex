@@ -106,7 +106,7 @@ The wiki's [[overview]] and [[advisory]] pages should reference this synthesis a
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on seven anchor sources and is provisional pending integration of the Consumer Reports 2023 chocolate dataset, the HBBF and Clean Label Project follow-up datasets, and the EU Fertilising Products Regulation Cd-limit derivation literature. The current evidence is sufficient to support the "not protective" conclusion and the matrix-specific cocoa "elevated load" conclusion; the quantitative pooled-effect characterization should follow corpus expansion. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting the directional pattern.
+This synthesis was established 2026-05-16 on seven anchor sources and is provisional pending integration of the Consumer Reports 2023 chocolate dataset, the HBBF and Clean Label Project follow-up datasets, and the EU Fertilising Products Regulation Cd-limit derivation literature. The current evidence is sufficient to support the "not protective" conclusion and the matrix-specific cocoa "elevated load" conclusion; the quantitative pooled-effect characterization should follow corpus expansion. Resynthesis triggers fire on the next two independent A-tier sources confirming or contradicting the directional pattern.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

@@ -31,7 +31,7 @@ step0_lock_doc: docs/governance/category-7-step0-lock.md
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary

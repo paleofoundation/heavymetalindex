@@ -74,7 +74,7 @@ On promotion, this page was added to the synthesis index at [[synthesis]], promo
 
 ## Provisional status
 
-This synthesis was established 2026-06-04 on eight anchor sources, of which seven are A-tier and one (Kazeminia et al. 2023) is a B-tier systematic review carrying the corroborating transfer-fraction evidence. The leaf-basis occurrence picture is robust across four independent national and regional Chinese surveys; the transfer-fraction finding rests primarily on Brzezicha-Cirocka et al. 2016 with directional corroboration from Li et al. 2015 and Kazeminia et al. 2023, and is the part most in need of additional infusion-native datasets. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent infusion-basis datasets, on any primary black-tea infusion survey, or on a speciated arsenic or chromium dataset for tea.
+This synthesis was established 2026-06-04 on eight anchor sources, of which seven are A-tier and one (Kazeminia et al. 2023) is a B-tier systematic review carrying the corroborating transfer-fraction evidence. The leaf-basis occurrence picture is robust across four independent national and regional Chinese surveys; the transfer-fraction finding rests primarily on Brzezicha-Cirocka et al. 2016 with directional corroboration from Li et al. 2015 and Kazeminia et al. 2023, and is the part most in need of additional infusion-native datasets. Resynthesis triggers fire on the next two independent infusion-basis datasets, on any primary black-tea infusion survey, or on a speciated arsenic or chromium dataset for tea.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

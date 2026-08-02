@@ -82,7 +82,7 @@ The wiki's [[overview]] should pair this synthesis with [[synthesis/climate-meta
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on three anchor sources. The synthesis is the most provisional of the three established in this batch because criterion 1 (three independent A-tier sources) is met with a review plus a projection plus a mechanism rather than with three independent projections, and a second quantitative projection study would strengthen the claim materially. The projection ranges (5 to 30 percent fish-MeHg increase by 2100 under high-emission scenarios) are robust to the present anchors but should be updated against future model-intercomparison studies as they enter the corpus. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier projection studies, or on any IPCC-cycle update that incorporates ocean-mercury cycling into a formal assessment.
+This synthesis was established 2026-05-16 on three anchor sources. The synthesis is the most provisional of the three established in this batch because criterion 1 (three independent A-tier sources) is met with a review plus a projection plus a mechanism rather than with three independent projections, and a second quantitative projection study would strengthen the claim materially. The projection ranges (5 to 30 percent fish-MeHg increase by 2100 under high-emission scenarios) are robust to the present anchors but should be updated against future model-intercomparison studies as they enter the corpus. Resynthesis triggers fire on the next two independent A-tier projection studies, or on any IPCC-cycle update that incorporates ocean-mercury cycling into a formal assessment.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state

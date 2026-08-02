@@ -5,7 +5,7 @@ audience: [regulator, educator, researcher, brand-legal]
 updated: 2026-05-14
 sources: 5
 created_by: claude_opus_47_session
-note: "Methodology supplement for HMTc Category 2. Describes the toxicokinetic / exposure-pathway differences between food (Cat 1) and personal-care products (Cat 2) that govern how the HMTc Cat 2 thresholds will be calibrated. Per OPERATING.md Part 7 initiative 3.1, this supplement is a prerequisite for defensible Cat 2 certification. The supplement reports what the literature supports; the staff Standards Workbench applies these factors to specific Cat 2 thresholds (CLAUDE.md Part 2 firewall)."
+note: "Methodology supplement for HMTc Category 2. Describes the toxicokinetic / exposure-pathway differences between food (Cat 1) and personal-care products (Cat 2) that govern how the HMTc Cat 2 thresholds will be calibrated. Per OPERATING.md Part 7 initiative 3.1, this supplement is a prerequisite for defensible Cat 2 certification. The supplement reports what the literature supports; the staff Standards Workbench applies these factors to specific Cat 2 thresholds (firewall)."
 ---
 
 # Cat 2 (Children Personal Care) non-ingestion exposure pathways
@@ -48,7 +48,7 @@ Adolescents 13-18 approach adult exposure factors but retain elevated sensitivit
 
 This page reports the toxicokinetic and exposure-pathway evidence. The staff Standards Workbench (`data/workbench/standards/<cat2-row>.md`, not yet generated) applies these factors per row to convert literature concentration ranges into estimated systemic doses, then compares against analyte-specific Reference Doses (RfD) and Tolerable Daily Intakes (TDI) per the same methodology as Cat 1. The Cat 2 thresholds will be calibrated so that under realistic upper-bound use scenarios, the systemic dose stays below the analyte's RfD/TDI with the safety margin defined in the HMTc Governing Principles v2.0.
 
-The gap between literature evidence (this page reports it) and HMTc Cat 2 thresholds (set on the workbench) is named honestly on the workbench per CLAUDE.md Part 2 firewall. The four CLAUDE.md Part 19 rationale tags (literature-baseline, regulatory-alignment, feasibility-driven, precautionary) apply equally to Cat 2 as to Cat 1.
+The gap between literature evidence (this page reports it) and HMTc Cat 2 thresholds (set on the workbench) is named honestly on the workbench firewall. The four rationale tags (literature-baseline, regulatory-alignment, feasibility-driven, precautionary) apply equally to Cat 2 as to Cat 1.
 
 ## Open questions
 

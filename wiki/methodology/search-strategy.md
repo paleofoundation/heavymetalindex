@@ -114,8 +114,8 @@ The complete corpus dedupe index is rebuilt from on-disk state on every run (`da
 
 This page documents the search strategy. It does not document:
 
-- The synthesis workflow (how source pages become ingredient and product page claims). See [[CLAUDE|CLAUDE.md § Part 9]].
-- The routing layer (how source frontmatter fans out to product, ingredient, metal, and regulation destination pages). See [[CLAUDE|CLAUDE.md § Part 5b]] and the live audit at `data/evidence/product_source_routing_audit.csv`.
+- The synthesis workflow (how source pages become ingredient and product page claims). See.
+- The routing layer (how source frontmatter fans out to product, ingredient, metal, and regulation destination pages). See and the live audit at `data/evidence/product_source_routing_audit.csv`.
 - The HMTc standards-setting methodology (how literature percentiles are pooled and certification thresholds chosen). That work is published separately at the [Heavy Metal Tested & Certified program manual](https://heavymetaltested.com); the wiki / HMTc firewall is documented at [[editorial-standards]].
 
 For the full corpus coverage and gap surface, see [[coverage]].

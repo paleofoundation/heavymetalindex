@@ -28,30 +28,30 @@ This page is HMTc Category 5 row 10 from the locked beverage architecture. It ex
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on herbal and botanical infusions typically center on lead and cadmium from the underlying plant species, with wide variance by species and growing region. The contamination profile is species-specific to a degree not seen in commodity crops: some species accumulate metals at concentrations that can exceed regulatory limits even in uncontaminated agricultural settings. Sourcing transparency and species-level testing are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=herbal-botanical-infusions">Lab Result Comparator</a> to position a single lab value inside the cited literature for herbal and botanical infusions.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on herbal and botanical infusions typically center on lead and cadmium from the underlying plant species, with wide variance by species and growing region. The contamination profile is species-specific to a degree not seen in commodity crops: some species accumulate metals at concentrations that can exceed regulatory limits even in uncontaminated agricultural settings. Sourcing transparency and species-level testing are the defensive core. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=herbal-botanical-infusions">Lab Result Comparator</a> to position a single lab value inside the cited literature for herbal and botanical infusions.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 
@@ -155,7 +155,7 @@ The row is designated EF-5 (data gap with documented rationale). HMT&C certifica
 
 <!-- audience: regulator, educator -->
 
-FDA has issued multiple import alerts covering herbal products with elevated metal concentrations, most commonly for lead in Ayurvedic herbs, traditional Chinese medicine preparations, and herbal dietary supplements. These actions are not specific to the infusion category covered by this page (they typically apply to capsules, powders, and concentrated extracts rather than brewed beverages) but reflect the regulatory framework's existing concern about metals in botanical supply chains. Proposition 65 actions in California have named specific herbal products for lead content. Public-record actions specific to brewed herbal infusions will be documented here as the synthesis pass identifies them. Per CLAUDE.md Part 12, events are framed as regulatory events, not brand rankings.
+FDA has issued multiple import alerts covering herbal products with elevated metal concentrations, most commonly for lead in Ayurvedic herbs, traditional Chinese medicine preparations, and herbal dietary supplements. These actions are not specific to the infusion category covered by this page (they typically apply to capsules, powders, and concentrated extracts rather than brewed beverages) but reflect the regulatory framework's existing concern about metals in botanical supply chains. Proposition 65 actions in California have named specific herbal products for lead content. Public-record actions specific to brewed herbal infusions will be documented here as the synthesis pass identifies them. Events are framed as regulatory events, not brand rankings.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

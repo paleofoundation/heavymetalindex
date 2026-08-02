@@ -107,7 +107,7 @@ App: Contextual signal that fish marketed from Asian (especially Bangladeshi and
 
 ## Verification notes
 
-- Speciation: the review reports all values as totals (As, Cr, Cd, Pb, Hg) with no inorganic-vs-organic separation; this page uses `tAs` and `tHg` accordingly, and `Cr` (not `Cr-VI`) per CLAUDE.md Part 14.
+- Speciation: the review reports all values as totals (As, Cr, Cd, Pb, Hg) with no inorganic-vs-organic separation; this page uses `tAs` and `tHg` accordingly, and `Cr` (not `Cr-VI`).
 - Cr units in Resma et al. (Southern Bangladesh) are flagged in the source table as `***` = drinking-water values in mg/L, not fish-tissue values in mg/kg. The Key numbers section preserves that distinction explicitly.
 - The Pb FAO/WHO limit footnote in the source tables shows "0.5/2.0" (the lower for general fish; 2.0 for some categories); the page preserves the source's exact notation.
 - Shrimp (Penaeus notialis, Metapenaeus tenuipes/Spinulatus) is included in some tables; this page uses `shellfish` as the broad-scope ingredient/matrix slug for crustacean entries rather than creating species-level slugs.

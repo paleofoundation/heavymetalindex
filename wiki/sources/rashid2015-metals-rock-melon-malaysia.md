@@ -38,16 +38,16 @@ Concentrations in Cucumis melo (means ± SD across 5 farms, ppm = mg/kg in the a
 
 | Element | Mean ± SD (ppm) | Malaysian MAL (ppm) | Exceeds MAL? |
 |---------|-----------------|---------------------|--------------|
-| Al      | 60.14 ± 0.393   | 50   | Yes (~1.2×) |
-| B       | 15.00           | 18   | No |
-| Co      | not detected    | 15   | — |
-| Cr      | 6.42 ± 0.170    | 5    | Yes (~1.3×) |
-| Cu      | 17.4 ± 0.079    | 4    | Yes (~4×) |
-| Fe      | 102.62 ± 0.114  | 50   | Yes (~2×) |
-| Mn      | 4.43            | 20   | No |
-| Ni      | 3.25            | 8    | No |
-| Pb      | 1.82 ± 0.235    | 0.5  | Yes (~3.6×) |
-| Zn      | 11.97 ± 0.821   | 1.2  | Yes (~10×) |
+| Al | 60.14 ± 0.393 | 50 | Yes (~1.2×) |
+| B | 15.00 | 18 | No |
+| Co | not detected | 15 | — |
+| Cr | 6.42 ± 0.170 | 5 | Yes (~1.3×) |
+| Cu | 17.4 ± 0.079 | 4 | Yes (~4×) |
+| Fe | 102.62 ± 0.114 | 50 | Yes (~2×) |
+| Mn | 4.43 | 20 | No |
+| Ni | 3.25 | 8 | No |
+| Pb | 1.82 ± 0.235 | 0.5 | Yes (~3.6×) |
+| Zn | 11.97 ± 0.821 | 1.2 | Yes (~10×) |
 
 Per-farm Pb means (Table 2): Mantin-1 1.81, Mantin-2 1.89, Mantin-3 1.78, Klang-1 1.74, Klang-2 1.82 ppm. Mean Pb range across farms 1.74–1.89 ppm. Mean Pb across all 70 fruits 1.82 ppm; SPI/MPI/PI risk indices were not reported.
 
@@ -90,9 +90,9 @@ Evidence tier B: regional journal (Jurnal Intelek, UiTM Perlis), no DOI, methods
 
 ## Verification notes
 
-- 2026-05-20 merge-enhance pass against full PDF (pages 33–36): corrected ingredient slug `melons` → `melon` (the wiki ingredient page is singular `wiki/ingredients/melon.md`); corrected metal-page wikilink `aluminium` → `aluminum` to match the actual wiki page slug; expanded `metals:` frontmatter from `[Al, Cr, Pb, Ni]` to the full ten elements the paper measured; fixed truncated `raw_path` (missing closing parenthesis and `.pdf` segment); corrected the body note that previously stated "Al is not among the 10 HMT&C target analytes" (Al **is** on the HMT&C 10-analyte list per CLAUDE.md Part 14); added per-farm Pb means from Table 2; flagged basis ambiguity (paper does not state wet vs. dry weight); expanded Methods to note absent QA/QC, digestion, calibration, and LOD reporting; added EU comparator for Pb; renamed routing section from "Wiki pages updated on ingest" to "Wiki pages this source may touch" per Part 5b (model does not maintain routing by hand).
+- 2026-05-20 merge-enhance pass against full PDF (pages 33–36): corrected ingredient slug `melons` → `melon` (the wiki ingredient page is singular `wiki/ingredients/melon.md`); corrected metal-page wikilink `aluminium` → `aluminum` to match the actual wiki page slug; expanded `metals:` frontmatter from `[Al, Cr, Pb, Ni]` to the full ten elements the paper measured; fixed truncated `raw_path` (missing closing parenthesis and `.pdf` segment); corrected the body note that previously stated "Al is not among the 10 HMT&C target analytes" (Al **is** on the HMT&C 10-analyte list); added per-farm Pb means from Table 2; flagged basis ambiguity (paper does not state wet vs. dry weight); expanded Methods to note absent QA/QC, digestion, calibration, and LOD reporting; added EU comparator for Pb; renamed routing section from "Wiki pages updated on ingest" to "Wiki pages this source may touch" per Part 5b (model does not maintain routing by hand).
 - Part 12 (brand firewall) re-check: paper identifies sampling locations by geography (Mantin, Negeri Sembilan; Jalan Kebun, Klang) and by cultivar name ('Glamour'), not by commercial brand owner. The Star newspaper reference is a citation to a news article; no brand-by-brand contamination tables are reproduced. No firewall issue.
-- Fresh-context audit subagent (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against CLAUDE.md Part 14: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
+- Fresh-context audit subagent (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

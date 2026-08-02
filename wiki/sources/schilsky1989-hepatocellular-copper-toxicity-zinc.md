@@ -164,7 +164,7 @@ Funding: NIH grants DK-34668, DK-17702, DK-32972; National Center for the Study 
 
 **HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry and cell biology, with references to Wilson's-disease therapeutic context (Hill 1987; Hoogenraad 1987) framed as scientific rationale for the experimental design rather than as policy recommendation. No firewall action required.
 
-**Speciation note.** The paper uses "Cu" and "Zn" generically; experimental doses are administered as CuCl₂ and zinc acetate; the uptake tracer is ⁶⁷Cu. No methylated, organic, or oxidation-state-specific species are reported. The HMI canonical analyte symbols for copper and zinc are `Cu` and `Zn` (no isotope/species distinction needed; see CLAUDE.md Part 14). Metallothionein isoform is MT-IIA per the cDNA probe used (Schmidt, Hamer & McBride 1984).
+**Speciation note.** The paper uses "Cu" and "Zn" generically; experimental doses are administered as CuCl₂ and zinc acetate; the uptake tracer is ⁶⁷Cu. No methylated, organic, or oxidation-state-specific species are reported. The HMI canonical analyte symbols for copper and zinc are `Cu` and `Zn` (no isotope/species distinction needed;). Metallothionein isoform is MT-IIA per the cDNA probe used (Schmidt, Hamer & McBride 1984).
 
 **Date arithmetic.** Received 11 January 1988; revised 31 May 1989; published November 1989 (Vol. 84, No. 5, pp. 1562-1568). Consistent with `year: 1989` frontmatter.
 

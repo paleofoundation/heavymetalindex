@@ -33,7 +33,7 @@ This analytical-note paper develops and validates a direct method for total merc
 
 ## Key numbers
 
-All concentrations are reported as µg/L of as-sold white vinegar; µg/L = ppb for this aqueous matrix per CLAUDE.md Part 14.
+All concentrations are reported as µg/L of as-sold white vinegar; µg/L = ppb for this aqueous matrix.
 
 **Method performance (Section 3.5 and Table 2):**
 
@@ -91,7 +91,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - Soften the `sample_population` field. Prior version asserted "from local markets in Beijing, China"; the paper says only "purchased from local markets" without specifying the city. The Beijing inference is reasonable because the author is at the Beijing Center for Physical and Chemical Analysis, but the inference should be marked as such rather than presented as paper-stated.
 - Verified the Key numbers against the PDF (Table 2, Section 3.5): all reported LODs, RSDs, CRM recoveries, real-sample concentrations, and speciation findings reproduce the source. Added the calibration line equation (Y = 15.62 C + 2.25, r² = 0.9995) and the upper linear range (1 mg/L) that the prior version omitted.
 - Expanded Methods to capture instrumental detail (PMT voltage, lamp current, ICP-MS m/z 202, plasma/carrier/makeup gas flows, integration timing) that supports A-tier classification, plus the optimization plateau details from Figs. 1 and 2 and the matrix-interference tolerances from Section 3.4.
-- Restate µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix per CLAUDE.md Part 14.
+- Restate µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix.
 - **Remove HMTc-framework classification claim from Implications.** Prior version stated "White vinegar should be classified as a low tHg/MeHg risk matrix" — this is HMTc-classification language and violates the Part 2 wiki/HMTc firewall (the wiki reports what the literature says; HMTc classification is HMT&C's job). Revised to report the n = 3 finding honestly and explicitly flag that the dataset is too small for category-level extrapolation.
 - Remove the legacy `## Wiki pages updated on ingest` heading per current Part 6 practice; downstream-page fan-out lives in the routing audit, not on the source page.
 - License kept as "All rights reserved" — Spectrochimica Acta Part B (Elsevier) 2010 paywall paper; no open-access notice on the PDF.

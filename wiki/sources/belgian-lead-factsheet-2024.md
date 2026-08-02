@@ -10,7 +10,7 @@ no_doi_assigned: true
 access_url: "https://www.omgeving-en-gezondheid.be/"
 source_type: gov-report
 evidence_tier: B
-tier_rationale_b_retained: "Government-issued factsheet is a synthesis communication, not primary research or meta-analysis. Per CLAUDE.md Part 13, the A-tier 'government reports' category is meant for primary regulatory decisions, scientific opinions, and primary research reports; educational factsheets sit closer to NGO-synthesis (B-tier)."
+tier_rationale_b_retained: "Government-issued factsheet is a synthesis communication, not primary research or meta-analysis. The A-tier 'government reports' category is meant for primary regulatory decisions, scientific opinions, and primary research reports; educational factsheets sit closer to NGO-synthesis (B-tier)."
 raw_path: raw/reports/Factsheet_lood_2024FINAL.pdf
 sha256: 77c82bff978471696547dd08d6498940bee3872ec8b6765231853f2fed85bb62
 access_date: 2026-04-25

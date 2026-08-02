@@ -39,30 +39,30 @@ This page is a structural scaffold for HMTc Category 1 row 3. One broad infant-f
 ## Who this page is for
 
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Ready-to-feed-specific occurrence evidence on this matrix is thin; the <a href="#literature-evidence-summary">Literature Evidence Summary</a> reports source count and confidence rating per analyte so the gaps are explicit. Compare with the <a href="/products/infant-formula-powder-non-soy">non-soy powder</a> format-sibling for the more populated matrix.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The <a href="#federal--regulatory-limits-vs-field-findings">Federal / Regulatory Limits vs Field Findings</a> section compares the applicable regulatory cap to cited field evidence. Note that ready-to-feed liquid evidence often comes from prepared-for-feeding studies that need a basis caveat before comparison.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=infant-formula-rtf-liquid-non-soy">Lab Result Comparator</a> to position a single lab value inside the cited literature for this matrix.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading the page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Ready-to-feed-specific occurrence evidence on this matrix is thin; the <a href="#literature-evidence-summary">Literature Evidence Summary</a> reports source count and confidence rating per analyte so the gaps are explicit. Compare with the <a href="/products/infant-formula-powder-non-soy">non-soy powder</a> format-sibling for the more populated matrix.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The <a href="#federal--regulatory-limits-vs-field-findings">Federal / Regulatory Limits vs Field Findings</a> section compares the applicable regulatory cap to cited field evidence. Note that ready-to-feed liquid evidence often comes from prepared-for-feeding studies that need a basis caveat before comparison.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=infant-formula-rtf-liquid-non-soy">Lab Result Comparator</a> to position a single lab value inside the cited literature for this matrix.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
+ </dl>
 </div>
 
 ## Methodology
@@ -187,8 +187,8 @@ The Canadian formula paper adds ready-to-use source-scope summary rows for Al, C
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/aluminum|Al]] | 67 | as consumed | 437 | 365 | 3442 | Source reports summary statistics only. |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/cadmium|Cd]] | 67 | as consumed | 0.23 | 0.11 | 1.26 | Source reports summary statistics only. |
 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | [[metals/lead|Pb]] | 67 | as consumed | 0.9 | 0.84 | 2.46 | Source reports summary statistics only. |
-| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 8 | ready-made liquid formula | 344.8 |  | 700.4 | Product-format evidence; includes first, follow-on, growing-up, and preterm ready-made products, no soy-ready-made row. |
-| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 10 | ready-to-drink liquid formula | 249.5 |  | 422 | Product-format evidence; includes first, follow-on, toddler/growing-up ready-to-drink products, no soy-ready-made row. |
+| [[sources/burrell2010-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 8 | ready-made liquid formula | 344.8 | | 700.4 | Product-format evidence; includes first, follow-on, growing-up, and preterm ready-made products, no soy-ready-made row. |
+| [[sources/chuchu2013-aluminium-in-infant-formulas]] | [[metals/aluminum|Al]] | 10 | ready-to-drink liquid formula | 249.5 | | 422 | Product-format evidence; includes first, follow-on, toddler/growing-up ready-to-drink products, no soy-ready-made row. |
 
 ## French TDS Category Rows
 
@@ -270,7 +270,7 @@ The sources below are catalogued as product-context candidates for this row. The
 | --- | --- | --- | --- | --- | --- |
 | [[sources/amarh2023-ghana-infant-food-heavy-metals]] | Health risk assessment of some selected heavy metals in infan... | infant-foods; infant-formula | tAs; Cd; Cr; tHg; Mn; Ni; Pb; Sb | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | Trace element contents in foods from the first French Total D... | infant-formula; baby-cereals; fruit-purees; fruit-juice-not-canned | Al; Sb; tAs; Cd; Cr; Co; Ni; Sn; V | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | Cross-reference - section: French TDS Category Rows |
-| [[sources/su2020-infant-formula-china-toxic-elements]] | Content and Dietary Exposure Assessment of Toxic Elements in ... | infant-formula | Cr; tAs; Cd; Pb | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
+| [[sources/su2020-infant-formula-china-toxic-elements]] | Content and Dietary Exposure Assessment of Toxic Elements in... | infant-formula | Cr; tAs; Cd; Pb | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula]] | Concentrations of Heavy Metals in Processed Baby Foods and In... | infant-formula; baby-cereals-dry-rice-based; baby-cereals-dry-non-rice; fruit-purees | Pb; Cd; tAs; tHg | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | Cross-reference - section: Why This Category Is High-Risk |
 | [[sources/efsa-cadmium-contam-2009]] | Scientific Opinion of the Panel on Contaminants in the Food C... | chocolate; infant-formula; breast-milk | Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
 | [[sources/gardener2019-lead-cadmium-infant-formula-baby-food]] | Lead and cadmium contamination in a large sample of United St... | infant-formula; baby-cereals; toddler-formula; fruit-juice | Pb; Cd | Matrix axis: unresolved (declares infant formula broadly). Format axis: unresolved (powder vs RTF not split). Source addresses infant formula broadly without splitting powder from RTF or soy from non-soy. | (context only) |
@@ -320,7 +320,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 14 | [[sources/martincarrasco2023-breast-milk-infant-formula-review\|Martín-Carrasco et al. 2023]]. *Comparison between pollutants found in breast milk and infant formula in the last decade: A review*, Science of the Total Environment | 2023 | Peer reviewed review | EU/MA/NG Pb, Cd, tHg, MeHg, tAs, Al, Cr, Cu, Ni, Zn, Fe, Mn, Co, Sn, Se, Sb occurrence in Narrative review of 65 breast-milk studies and 73 infant-formula studies published 2012–2022, covering metals, heat-treatment products, pharmaceuticals, mycotoxins,... |
 | 15 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | US/EU tAs, iAs, Pb, Cd, tHg occurrence in Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and... |
 | 16 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | DE/EU Ni occurrence in 840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II,... (n=840) |
-| 17 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
+| 17 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
 | 18 | [[sources/ouyang2022-early-life-microbiota-delivery-feeding\|Ouyang et al. 2022]]. *Early Life Microbiota — Impact of Delivery Mode and Infant Feeding*, Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, pp. 25-38 | 2022 | Review | This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome... |
 | 19 | [[sources/chung2021-china-infant-formula-toxic-elements\|Chung et al. 2021]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods 9(12):1839 | 2021 | Peer-reviewed | CN Cr, tAs, Cd, Pb concentrations |
 | 20 | [[sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\|Saraiva et al. 2021]]. *Chromium speciation analysis in raw and cooked milk and meat samples by species-specific isotope dilution and HPLC-ICP-MS*, Food Additives & Contaminants Part A 38(2):304-314 | 2021 | Peer-reviewed | SS-ID-HPLC-ICP-MS Cr speciation in 10 infant formula milk samples: Cr(VI) not quantified at LOQ 0.049 µg/kg; Cr is present exclusively as Cr(III) and thermal processing does not oxidise Cr(III) to Cr(VI) |
@@ -357,7 +357,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- END: hmi-source-legend -->
 ## Historical recalls and enforcement
 
-FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
+FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
 
 <!-- BEGIN: hmi-contradiction-watch -->
 ## Contradiction watch
@@ -373,7 +373,7 @@ The living-review detector has flagged **6** contributing source value(s) that d
 | Cd | [[sources/fsa2016-infant-food-formula-metals-survey]] | 0.2 ppb | 0.6 (typical) / 1.26 (P95) | 3× | below-cohort-median |
 | tAs | [[sources/fsa2016-infant-food-formula-metals-survey]] | 0.3 ppb | 0.7 (typical) / 1.2 (P95) | 2.33× | below-cohort-median |
 
-Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in [[../CLAUDE|CLAUDE.md § Part 9]].
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in.
 <!-- END: hmi-contradiction-watch -->
 
 <!-- BEGIN: hmi-page-history -->

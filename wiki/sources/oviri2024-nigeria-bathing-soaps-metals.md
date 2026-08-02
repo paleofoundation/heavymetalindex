@@ -107,7 +107,7 @@ Microbiome: No microbiome data.
 - DOI and metadata were verified from the PDF first page: DOI `10.33003/fjs-2024-0803-2500`, FUDMA Journal of Sciences Vol. 8 No. 3 Special Issue, June 2024, pp. 422-430, authors Victory I. Oviri, Godswill O. Tesi, and Onoriode O. Emoyan.
 - The abstract reports wider ranges for several metals (Pb up to 0.39 mg/kg, Ni up to 0.33 mg/kg, Cd up to 0.09 mg/kg, Cr up to 0.19 mg/kg). Tables 2 and 3 instead report Pb max 0.28, Ni max 0.24, Cd max 0.05, and Cr max 0.09 mg/kg. The source page uses the table values because Tables 2 and 3 provide the analyte-by-sample and category-summary data; the abstract mismatch is retained as a paper-internal discrepancy, not silently corrected.
 - The wishlist filename routed this PDF through `whitening-products-cd-product`, but the current `[[products/whitening-products]]` slug is an oral-care tooth-whitening row. This PDF is about skin and bath soaps, so it is not routed to oral-care whitening products. The three skin-whitening soap samples are routed as context for the existing skin-lightening product/advisory surface.
-- Brand names listed in source Table 1 are intentionally omitted. The source page preserves anonymous sample IDs and category labels only, under CLAUDE.md Part 12 brand-firewall rules.
+- Brand names listed in source Table 1 are intentionally omitted. The source page preserves anonymous sample IDs and category labels only, brand-firewall rules.
 - Evidence Fitness: EF-2 / routeable small-panel occurrence evidence for finished bathing soaps and skin-whitening soaps. Limitations: n=17 total, no LOD/LOQ reported, chromium not speciated, and sampling is local to one Nigerian market area.
 
 <!-- BEGIN: hmi-page-history -->

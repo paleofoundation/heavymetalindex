@@ -114,7 +114,7 @@ Inorganic arsenic was added to the regulation in 2015 via Regulation (EU) 2015/1
 
 ## How this page interacts with HMT&C
 
-Per CLAUDE.md Part 2, the wiki reports what EU regulation set as the operative maximum levels under EC 1881/2006; it does not propose what HMT&C should certify at. HMT&C certification pages may cite this regulation as the regulatory baseline for EU-market product categories and document any deviation (tighter for precautionary, market-ratcheting, or feasibility-driven reasons; aligned with regulatory-alignment label per Part 19).
+The wiki reports what EU regulation set as the operative maximum levels under EC 1881/2006; it does not propose what HMT&C should certify at. HMT&C certification pages may cite this regulation as the regulatory baseline for EU-market product categories and document any deviation (tighter for precautionary, market-ratcheting, or feasibility-driven reasons; aligned with regulatory-alignment label per Part 19).
 
 For HMT&C-facing material, prefer citing the current successor framework [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] unless the source paper specifically pre-dates the May 2023 recast and uses the EC 1881/2006 thresholds as its benchmark — in which case cite EC 1881/2006 here for accurate provenance.
 
@@ -138,7 +138,7 @@ Pre-2023 source pages in the wiki citing EC 1881/2006 maximum levels — includi
 
 ## Verification notes
 
-- This regulation page was created 2026-05-18 as a routing target for pre-2023 EU literature in the wiki. Codex correctly surfaced the gap in its 2026-05-18 session. Per CLAUDE.md Part 10, regulations are created on first encounter; the surfacing-first restriction in Codex's prior operating manual is being relaxed 2026-05-18 (see Codex collaboration README) since regulations have hard identifiers and can be looked up from official EU sources without ambiguity.
+- This regulation page was created 2026-05-18 as a routing target for pre-2023 EU literature in the wiki. Codex correctly surfaced the gap in its 2026-05-18 session. Regulations are created on first encounter; the surfacing-first restriction in Codex's prior operating manual is being relaxed 2026-05-18 (see Codex collaboration README) since regulations have hard identifiers and can be looked up from official EU sources without ambiguity.
 - The values shown are the FINAL amended levels under EC 1881/2006 prior to the May 2023 recast. Earlier versions of the regulation (2007-2014) had different cadmium and lead limits for several matrices; cite the specific amendment regulation if working with a source published before the relevant amendment took effect.
 - Tin maximum levels (50-200 mg/kg) carried forward into EU 2023/915 substantively unchanged. Lead infant/young-child-food limit was tightened by 2021/1317 (the 0.020 mg/kg value shown). Cadmium infant formula was tightened by 2014/488 (the 0.010 mg/kg powder / 0.005 mg/kg liquid values shown). iAs rice limits added by 2015/1006.
 

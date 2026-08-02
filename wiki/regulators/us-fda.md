@@ -118,7 +118,7 @@ FDA action levels are concentration values (ppb) in specific products and can be
 
 ## References
 
-Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what FDA has published; it does not endorse it. See [[CLAUDE|the wiki/HMTc separation policy]] for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
+Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what FDA has published; it does not endorse it. See the wiki/HMTc separation policy for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

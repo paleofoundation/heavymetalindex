@@ -27,7 +27,7 @@ updated: 2026-05-28
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
@@ -55,7 +55,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 9 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
 | 10 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | US/EU tAs, iAs, Pb, Cd, tHg occurrence in Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and... |
 | 11 | [[sources/bfr2022-nickel-dietary-intake-germany-meal\|BfR 2022]]. *Nickel: estimate of long-term intake via food based on the BfR MEAL Study*, BfR Communication No. 033/2022 | 2022 | Government report | DE/EU Ni occurrence in 840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II,... (n=840) |
-| 12 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
+| 12 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
 | 13 | [[sources/ouyang2022-early-life-microbiota-delivery-feeding\|Ouyang et al. 2022]]. *Early Life Microbiota — Impact of Delivery Mode and Infant Feeding*, Comprehensive Gut Microbiota, Volume 2 (Elsevier), Chapter 2.03, pp. 25-38 | 2022 | Review | This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome... |
 | 14 | [[sources/chung2021-china-infant-formula-toxic-elements\|Chung et al. 2021]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods 9(12):1839 | 2021 | Peer-reviewed | CN Cr, tAs, Cd, Pb concentrations |
 | 15 | [[sources/dehghani2020-food-lead-cadmium-mspe\|Zahra et al. 2020]]. *Magnetic Multi-Walled Carbon Nanotubes Modified with Polythiophene as a Sorbent for Simultaneous Solid Phase Microextraction of Lead and Cadmium from Water and Food Samples*, Analytical and Bioanalytical Chemistry Research | 2020 | Peer-reviewed | IR Pb, Cd occurrence in Black tea, rice, infant dry formula milk, and cow milk samples purchased in Yazd, Iran (n=5) |
@@ -78,7 +78,7 @@ _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator aud
 
 ## Methodology
 
-_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules that govern downstream sections of this page._
 
 ## Literature Evidence Summary
 
@@ -127,11 +127,11 @@ _Pending synthesis. Practical interventions to reduce heavy-metal load — order
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -47,7 +47,7 @@ Critical review paper. No new primary data. Authors reviewed published studies o
 
 ## Implications
 
-Certification: Underpins the iAs/tAs speciation non-substitutability principle (CLAUDE.md Part 14). For seafood-heavy diets, total urinary arsenic or DMA-only measurements cannot substitute for iAs-specific measurements. Directly relevant when using biomonitoring to validate exposure models.
+Certification: Underpins the iAs/tAs speciation non-substitutability principle. For seafood-heavy diets, total urinary arsenic or DMA-only measurements cannot substitute for iAs-specific measurements. Directly relevant when using biomonitoring to validate exposure models.
 
 Courses: Key illustration of why arsenic speciation matters — urinary DMA alone cannot identify inorganic arsenic exposure in populations that regularly consume seafood.
 

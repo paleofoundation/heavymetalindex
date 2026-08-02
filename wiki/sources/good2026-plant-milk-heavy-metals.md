@@ -147,7 +147,7 @@ Internal inconsistency in the source's brand-count narrative: the Materials and 
 
 Arsenic speciation: the authors did not perform inorganic-arsenic speciation; the reported "As" values are total arsenic (tAs) per the Materials and Methods ICP-MS protocol. The Discussion contextualizes the rice and hemp milk arsenic values against the WHO inorganic arsenic provisional tolerable daily intake of 2.1 µg/kg body weight per day, which is an inorganic-As reference framework being applied to total-As measurements without an explicit iAs/tAs conversion factor; this introduces an interpretive limitation that future synthesis touching this paper should preserve.
 
-Mercury (total or methyl) was not measured. Other CLAUDE.md Part 14 priority analytes that were not measured: Ni, Al, Cr-VI (only total Cr was measured), Sn, Sb, U. The metals: frontmatter array is therefore [Cr, tAs, Cd, Pb], reflecting only what the source quantified.
+Mercury (total or methyl) was not measured. Other priority analytes that were not measured: Ni, Al, Cr-VI (only total Cr was measured), Sn, Sb, U. The metals: frontmatter array is therefore [Cr, tAs, Cd, Pb], reflecting only what the source quantified.
 
 Hemp does not have a dedicated ingredient slug in the current taxonomy snapshot (no `ingredients/hemp.md`); the Wiki-pages-this-source-may-touch list routes hemp milk to `[[ingredients/non-rice-grains]]` as the closest umbrella slug for cereal/seed-derived plant beverages. If a `hemp` or `hemp-seed` ingredient page is created via Karen's Step 0 Lock in the future, this source should be added to its inbound routing.
 

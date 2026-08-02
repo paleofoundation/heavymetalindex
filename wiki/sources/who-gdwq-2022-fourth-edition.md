@@ -145,7 +145,7 @@ This is a synthesis-and-policy document, not a primary occurrence study. The num
 - Mercury appears in `metals:` as `tHg` only. The WHO GV is explicitly for inorganic Hg²⁺ (which is a subset of tHg) and is explicitly NOT for methylmercury, so `MeHg` is correctly absent.
 - Arsenic appears as both `iAs` and `tAs` because the WHO fact sheet derives the GV on the total-As basis (noting that toxicology is inorganic-dominated and ~25% of dietary intake is inorganic) and is enforceable as total arsenic at the tap.
 - Chromium appears as `Cr` (not `Cr-VI`) because the WHO GV is for total Cr; the document discusses Cr(VI) toxicology but does not set a Cr-VI-specific value.
-- Sb is included per CLAUDE.md Part 14 (HMI carries antimony as a recognized metal even though it is not in the certification ten-analyte panel).
+- Sb is included (HMI carries antimony as a recognized metal even though it is not in the certification ten-analyte panel).
 - No new ingredient or product pages proposed; all slugs used (`ingredients/water`, `ingredients/breastmilk`, `products/bottled-drinking-water`, `products/infant-formula-powder-non-soy`, `products/infant-formula-powder-soy-based`) exist in the current taxonomy.
 - No-near-duplicate flag: the trailing-"2" file in the June 3 Folder is byte-identical to `9789240045064-eng.pdf` (both 5 321 705 bytes) and the SHA-256 above is the canonical hash for this ingest; the near_duplicates field records the alternate filename.
 - Brand firewall (Part 12): no brand names in source-page content. The WHO document itself names no brands.

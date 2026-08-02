@@ -27,7 +27,7 @@ across_row_review_hook: "oily small fish (sardine/anchovy) vs whitefish (cod) di
 ---
 # Fish — marine, non-predatory (sardines, anchovies, salmon, cod)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 6 (Seafood), Row 2: **Fish — marine, non-predatory (sardines, anchovies, salmon, cod)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [fish-marine-non-predatory]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 6 (Seafood), Row 2: **Fish — marine, non-predatory (sardines, anchovies, salmon, cod)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [fish-marine-non-predatory]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -37,27 +37,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Fish — marine, non-predatory (sardines, anchovies, salmon, cod), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Fish — marine, non-predatory (sardines, anchovies, salmon, cod), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Fish — marine, non-predatory (sardines, anchovies, salmon, cod), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Fish — marine, non-predatory (sardines, anchovies, salmon, cod), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in fish — marine, non-predatory (sardines, anchovies, salmon, cod). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in fish — marine, non-predatory (sardines, anchovies, salmon, cod). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA, EU, Codex**.
 
@@ -263,7 +263,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | 135 | [[sources/diogene2023-rascs-contaminants-seafood\|Diogène et al. 2023]]. *Risk Assessment Strategies for Contaminants in Seafood (RASCS)*, EFSA Supporting Publications 2023:EN-8419 | 2023 | Government report | EU tAs, iAs, Pb, Cd, tHg, MeHg, Ni, Cr, Al occurrence in Strategy/programmatic report from a seven-institution EU consortium (IRTA Spain coordinator, CREDA Spain, IPMA Portugal, ISS Italy, Ghent University... |
 | 136 | [[sources/fagbemi2023-akure-street-food-lead\|Fagbemi et al. 2023]]. *Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria*, IPS Journal of Public Health 3(2):73-78 | 2023 | Peer-reviewed | NG Pb, Cu, Fe, Zn occurrence in Seven street-hawked food types purchased from busy road intersections in Akure Metropolis, Nigeria (n=7) |
 | 137 | [[sources/fagbemi2023-akure-street-foods-lead\|Fagbemi et al. 2023]]. *Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria*, IPS Journal of Public Health | 2023 | Peer-reviewed | NG Pb, Cu, Fe, Zn occurrence in Seven street-hawked food types purchased from three busy road intersections and Oba market in Akure, Ondo State, Nigeria. (n=7) |
-| 138 | [[sources/farinas2023-university-of-technology-malaysia-malaysia-lana-abbas-oliver\|Farinas et al. 2023]]. *University of Technology Malaysia, Malaysia Lana Abbas , Oliver Coutinho , Aleksa Fortuna , Fatima Sulaiman ,*, Peer-reviewed article | 2023 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 138 | [[sources/farinas2023-university-of-technology-malaysia-malaysia-lana-abbas-oliver\|Farinas et al. 2023]]. *University of Technology Malaysia, Malaysia Lana Abbas, Oliver Coutinho, Aleksa Fortuna, Fatima Sulaiman,*, Peer-reviewed article | 2023 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 | 139 | [[sources/hall2023-methylmercury-tidal-marsh\|Hall et al. 2023]]. *Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs*, Environmental Science & Technology | 2023 | Peer-reviewed | US MeHg, tHg occurrence in Primary and secondary consumers (gastropods, bivalves, amphipods, beetles, spiders, shrimp, crabs, fish) from four marsh features at three... (n=116) |
 | 140 | [[sources/haseeb-ur-rehman2023-pakistan-seafood-metals\|Haseeb-ur-Rehman et al. 2023]]. *Metal pollution and potential human health risk assessment in major seafood items (fish, crustaceans, and cephalopods)*, Marine Pollution Bulletin | 2023 | Peer-reviewed | PK tHg, Cd, Pb, Ni, Fe, Zn, Mn, Cu occurrence in Export-quality seafood from Pakistani processing plants during 2016-2018: 50 samples each of giant tiger shrimp, blue crab, Indian... (n=400) |
 | 141 | [[sources/hoy2023-arsenic-speciation-freshwater-fish\|Hoy et al. 2023]]. *Arsenic speciation in freshwater fish: challenges and research needs*, Food Quality and Safety | 2023 | Peer-reviewed | CA/CN/FR iAs, tAs occurrence in Peer-reviewed review of published arsenic-speciation literature for freshwater fish; primary data tables summarize studies from Canada, China, France,... |

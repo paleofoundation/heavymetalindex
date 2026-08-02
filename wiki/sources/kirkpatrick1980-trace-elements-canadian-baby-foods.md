@@ -9,9 +9,9 @@ doi: "10.1016/S0315-5463(80)73332-1"
 source_type: peer-reviewed
 evidence_tier: A
 evidence_fitness: EF-3
-authoring_authority: "Health Protection Branch, Health and Welfare Canada (government agency authors — also satisfies CLAUDE.md Part 13 government-report A-tier criterion in addition to peer-reviewed primary status)"
+authoring_authority: "Health Protection Branch, Health and Welfare Canada (government agency authors — also satisfies government-report A-tier criterion in addition to peer-reviewed primary status)"
 method_quality_caveat: "AAS at LOD 0.01 ppm = 10 ppb across all elements (two orders of magnitude higher than modern ICP-MS). LOD-substitution policy (samples <LOD set to LOD for averages) systematically inflates means by 1-2 orders of magnitude vs modern data. Cd recovery 80.4% (low; sugar interference). Only category-level mean/min/max published; sample-level data not in paper. Treat as **historical-baseline reference** within A-tier — useful for 50-year trajectory documentation (1980 mean Pb prepared formula 30 ppb vs FDA 2026 0.4 ppb = ~75× reduction) but NOT a modern-percentile-math driver."
-tier_rationale: "Per CLAUDE.md Part 13 A-tier = peer-reviewed primary studies + government reports. This paper satisfies BOTH criteria (peer-reviewed publication AND Canadian government agency authorship). Method-modernity and journal-era concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
+tier_rationale: "Per A-tier = peer-reviewed primary studies + government reports. This paper satisfies BOTH criteria (peer-reviewed publication AND Canadian government agency authorship). Method-modernity and journal-era concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
 license: "publisher-licensed (Pergamon Press / Elsevier)"
 access_url: "https://doi.org/10.1016/S0315-5463(80)73332-1"
 raw_path: "raw/external-fetch/kirkpatrick1980 (1).pdf"
@@ -59,7 +59,7 @@ This **B-tier 1980 historical reference paper** from Health Protection Branch, H
 - **1980 mean Pb prepared formula 30 ppb** (LOD-floored) vs **FDA 2026 mean Pb milk-based formula 0.4 ppb** (clean ICP-MS): demonstrates ~75× reduction over 50 years.
 - **1980 mean Pb juice category 220 ppb** (LOD-floored) vs **FDA 2024 mean Pb juices 1.5 ppb** (modern): ~150× reduction reflecting lead-soldered can phaseout.
 - **1980 mean Cd cereals 70 ppb** (LOD-floored) vs **FDA 2024 mean Cd rice cereals 11.4 ppb** (modern): ~6× reduction.
-- **1980 mean Cr cereals 0.31 ppm = 310 ppb total** — likely overestimate due to AAS detection-limit floor + matrix interferences; modern LC-ICP-MS finds total Cr in baby cereals around 50-150 ppb (Hernandez 2019, Sadiq 2021). Kirkpatrick reports total Cr only — no speciation; per CLAUDE.md Part 14 + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III), so total ≠ Cr-VI.
+- **1980 mean Cr cereals 0.31 ppm = 310 ppb total** — likely overestimate due to AAS detection-limit floor + matrix interferences; modern LC-ICP-MS finds total Cr in baby cereals around 50-150 ppb (Hernandez 2019, Sadiq 2021). Kirkpatrick reports total Cr only — no speciation; + Hernandez 2019 + Saraiva 2021 chemistry, food-matrix Cr is essentially Cr(III), so total ≠ Cr-VI.
 
 ### Estimated daily intake (μg/kg body weight/day, as consumed)
 
@@ -90,7 +90,7 @@ The 1980 Pb intake estimates (4.4-8.1 μg/kg bw/day) **exceeded the FAO/WHO PTWI
 
 ## Geographic-context flag
 
-Canadian-market 1975 sample collection, published 1980. Pre-PMTDI tightening, pre-lead-soldered-can phaseout (Canadian regulation came in early 1980s following USDA/FDA action). The high-Pb juice readings (max 0.84 ppm = 840 ppb) are explicitly attributed by the authors to lead-soldered cans, eliminated from the supply chain by ~1990. Per CLAUDE.md Part 6, this jurisdiction-context is required when contributing to a global aggregate; for HMTc threshold-setting, modern post-2010 data should drive percentile math while Kirkpatrick 1980 anchors the historical floor.
+Canadian-market 1975 sample collection, published 1980. Pre-PMTDI tightening, pre-lead-soldered-can phaseout (Canadian regulation came in early 1980s following USDA/FDA action). The high-Pb juice readings (max 0.84 ppm = 840 ppb) are explicitly attributed by the authors to lead-soldered cans, eliminated from the supply chain by ~1990. This jurisdiction-context is required when contributing to a global aggregate; for HMTc threshold-setting, modern post-2010 data should drive percentile math while Kirkpatrick 1980 anchors the historical floor.
 
 ## Methods (brief)
 
@@ -104,7 +104,7 @@ EF-3 limited evidence with B-tier rating. The methodology is appropriate for 198
 
 - **AAS LOD floor 0.01 ppm = 10 ppb** for all elements — vastly higher than modern ICP-MS LOD ~0.05 ppb for Pb. LOD-substitution for <LOD samples inflates means.
 - **Cd recovery 80.4% (low)** explicitly attributed to sugar interference in fruit/dessert categories (category 7-8); other-category recovery 85%.
-- **Cr is total, not speciated** — per CLAUDE.md Part 14, total Cr cannot be assigned as Cr-VI without speciation. Hernandez 2019 + Saraiva 2021 SS-ID-HPLC-ICP-MS confirm food-matrix Cr is essentially Cr(III); 1980 total Cr in cereals (0.31 ppm) is consistent with that finding.
+- **Cr is total, not speciated** —, total Cr cannot be assigned as Cr-VI without speciation. Hernandez 2019 + Saraiva 2021 SS-ID-HPLC-ICP-MS confirm food-matrix Cr is essentially Cr(III); 1980 total Cr in cereals (0.31 ppm) is consistent with that finding.
 - **Mn LOD effects** in formula (0.94 ppm in powdered, 0.38 ppm in liquid) reflect Canadian fortification at 1980 levels; modern infant formula Mn is comparable.
 - **Pb max 0.84 ppm in juices** is lead-soldered-can era and not representative of modern juice supply.
 - **No Al, As (total or inorganic), or Hg measured** — paper covers a narrower analyte set than modern HMTc 10-analyte panel.

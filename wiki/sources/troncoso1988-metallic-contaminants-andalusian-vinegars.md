@@ -79,8 +79,8 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 - Added the mean Cu uncertainty (± 0.04 ppm) from Table 2, previously omitted.
 - Added the explicit list of samples exceeding each combined Spanish limit (Zn + Cu: 6 samples; Pb + As: 1 sample) for traceability.
 - Added the per-sample Pb list from Table 3 (kept; the existing list was accurate) and added the sample-4 As + Pb arithmetic (1.21 + 0.242 = 1.452 ppm) to make the abstract's "only one sample exceeded 1 ppm Pb + As" claim numerically traceable.
-- Removed the cross-source synthesis sentence "Pb in wine vinegar approximately 200–1200 µg/kg range across both this and Acosta 1993 data" from the App section per CLAUDE.md Part 2 (the source page reports this paper's findings only; cross-paper comparison belongs in synthesis pages, not source pages).
-- Trimmed the prior "unlike the later Ndung'u 2004 work that established digestion requirements" comparison from the Methods evidence-tier rationale per CLAUDE.md Part 2 (same reason). Tier-B rationale retained without the cross-source comparison.
+- Removed the cross-source synthesis sentence "Pb in wine vinegar approximately 200–1200 µg/kg range across both this and Acosta 1993 data" from the App section (the source page reports this paper's findings only; cross-paper comparison belongs in synthesis pages, not source pages).
+- Trimmed the prior "unlike the later Ndung'u 2004 work that established digestion requirements" comparison from the Methods evidence-tier rationale (same reason). Tier-B rationale retained without the cross-source comparison.
 - Expanded Methods section with the Table 1 instrumental parameters (lamp intensities, band passes, gas flows, integrating times), hydride-generator settings for As, reagents and stock-solution concentrations, and the Fe/Na ratio interference check — all already present in the PDF, previously summarized at a level that omitted reproducibility-relevant detail.
 - Added `## Verification notes` section (previously absent).
 - Set `updated:` to 2026-05-28.

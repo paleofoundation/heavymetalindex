@@ -21,18 +21,18 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 
 | Metal | United States (federal) | United States — California | United States — Washington State | European Union | International (Codex / JECFA / WHO) | China | Mexico | Australia | New Zealand | Ecuador | Turkey | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Lead | 8 | 1 | 1 | 6 | 1 | 3 | 3 | 1 | 1 |  | 1 | 25 |
-| Cadmium | 3 | 1 |  | 6 | 2 | 3 | 3 | 1 | 1 |  |  | 19 |
-| Inorganic arsenic | 4 | 1 |  | 4 | 1 | 3 |  | 1 | 1 |  |  | 14 |
-| Total arsenic |  |  |  | 1 |  | 3 | 1 | 1 | 1 |  |  | 6 |
-| Total mercury | 1 |  |  | 5 |  | 3 | 2 | 1 | 1 | 1 |  | 13 |
-| Methylmercury | 2 |  |  | 2 | 1 | 3 | 3 |  |  |  |  | 11 |
-| Inorganic mercury | 1 |  |  | 1 |  |  |  |  |  |  |  | 2 |
-| Nickel |  |  |  | 4 |  | 3 |  |  |  |  |  | 7 |
-| Aluminium | 1 |  |  | 1 |  |  |  | 1 | 1 |  |  | 3 |
-| Chromium |  |  |  |  |  | 3 |  |  |  |  |  | 3 |
-| Hexavalent chromium |  | 2 |  |  |  |  |  |  |  |  |  | 2 |
-| Tin |  |  |  | 2 | 1 | 3 | 2 | 1 | 1 |  |  | 9 |
+| Lead | 8 | 1 | 1 | 6 | 1 | 3 | 3 | 1 | 1 | | 1 | 25 |
+| Cadmium | 3 | 1 | | 6 | 2 | 3 | 3 | 1 | 1 | | | 19 |
+| Inorganic arsenic | 4 | 1 | | 4 | 1 | 3 | | 1 | 1 | | | 14 |
+| Total arsenic | | | | 1 | | 3 | 1 | 1 | 1 | | | 6 |
+| Total mercury | 1 | | | 5 | | 3 | 2 | 1 | 1 | 1 | | 13 |
+| Methylmercury | 2 | | | 2 | 1 | 3 | 3 | | | | | 11 |
+| Inorganic mercury | 1 | | | 1 | | | | | | | | 2 |
+| Nickel | | | | 4 | | 3 | | | | | | 7 |
+| Aluminium | 1 | | | 1 | | | | 1 | 1 | | | 3 |
+| Chromium | | | | | | 3 | | | | | | 3 |
+| Hexavalent chromium | | 2 | | | | | | | | | | 2 |
+| Tin | | | | 2 | 1 | 3 | 2 | 1 | 1 | | | 9 |
 
 ## Regulations grouped by jurisdiction
 
@@ -97,7 +97,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | European Commission | Cadmium | — | maximum levels | — |
 | [[regulations/eu-2023-915-lead-infant-young-child-foods\|EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods]] | European Commission | Lead | multiple ppb | in-force | — |
 | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94/27/EC]] | European Commission | Nickel | — | historical-as-described-in-source | — |
-| [[regulations/eu2023-arsenic-rice-based-drinks\|EU inorganic arsenic maximum level for non-alcoholic rice-based drinks]] | European Commission |  | — | maximum level | — |
+| [[regulations/eu2023-arsenic-rice-based-drinks\|EU inorganic arsenic maximum level for non-alcoholic rice-based drinks]] | European Commission | | — | maximum level | — |
 | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | European Commission | Lead, Cadmium, Total mercury, Inorganic arsenic, Total arsenic, Tin | — | maximum levels | — |
 
 ### International (Codex / JECFA / WHO)
@@ -155,7 +155,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 
 This is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.
 
-The wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.
+The wiki tracks regulatory limits as published; it does not endorse them. See wiki/HMTc separation policy for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program's threshold-setting.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -27,7 +27,7 @@ updated: 2026-05-19
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
@@ -45,7 +45,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
-| 2 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*,  | 2022 | Peer-reviewed | Cited reference from |
+| 2 | [[sources/health2022-health-safety-ready-to-eat-products\|Health 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, | 2022 | Peer-reviewed | Cited reference from |
 <!-- END: hmi-source-legend -->
 
 ## Page history

@@ -22,7 +22,7 @@ The current Heavy Metal Index build has four layers.
 1. `raw/` is the immutable source-of-truth corpus. Claude reads from it and never edits it.
 2. `data/evidence/` is the structured evidence register. This is where deterministic extraction, routing, candidate values, approved values, review states, gap reports, and audit files live.
 3. `wiki/` is the persistent knowledge base and public publishing layer. Source pages, product pages, ingredient pages, regulation pages, metal pages, methodology pages, and query pages all live here.
-4. `CLAUDE.md` plus the ingest scripts are the schema and automation layer. They define what the wiki is allowed to say, how evidence is routed, and what completion means.
+4. The internal governance document plus the ingest scripts are the schema and automation layer. They define what the wiki is allowed to say, how evidence is routed, and what completion means.
 
 This means the Index is not run as "upload PDFs and let retrieval rediscover them later." It is run as "compile once, preserve, cross-link, and reuse."
 

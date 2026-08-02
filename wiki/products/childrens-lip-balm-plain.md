@@ -24,7 +24,7 @@ created_by: cat2_step0_scaffold_2026_05_16
 
 Plain children's lip balms (uncolored, non-SPF) marketed for ages 0-5 (Burt's Bees Baby Bee plain, California Baby plain). Clean baseline of the Row 15 / Row 16 clean-contaminated pair: beeswax + plant oils + petrolatum + flavoring ingredients carry no platform metal load.
 
-This page is a Step 0 lock scaffold for Cat 2 Row 15. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 2 Row 15. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
 ## Who this page is for
 
@@ -32,7 +32,7 @@ Brand legal teams evaluating HMTc Cat 2 certification for the Children's Lip Bal
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Children's Lip Balm, Plain (uncolored, no SPF) row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Children's Lip Balm, Plain (uncolored, no SPF) row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 Cat 2 dose-pathway methodology supplement (per OPERATING.md Part 7 initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
 
@@ -88,7 +88,7 @@ The percentile arithmetic that informs HMTc Cat 2 thresholds for this row lives 
 
 ## Historical recalls and enforcement
 
-Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
+Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

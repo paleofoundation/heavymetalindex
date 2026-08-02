@@ -31,7 +31,7 @@ ICP-MS measures total elemental concentration. The plasma destroys all chemical 
 
 Where total content is the regulatory operative parameter (cadmium under [[regulations/codex-cadmium-mls|Codex MLs]], lead under FDA Closer to Zero, nickel under [[regulations/efsa-nickel-tdi|EFSA TDI]] dietary intake calculations), ICP-MS without hyphenation is the appropriate method.
 
-The iAs-versus-tAs distinction is non-negotiable in this wiki per CLAUDE.md Part 14 conventions; an occurrence study reporting "total arsenic" by ICP-MS without HPLC-ICP-MS speciation is not a substitute for an inorganic-arsenic measurement and should be tagged accordingly on the source page.
+The iAs-versus-tAs distinction is non-negotiable in this wiki conventions; an occurrence study reporting "total arsenic" by ICP-MS without HPLC-ICP-MS speciation is not a substitute for an inorganic-arsenic measurement and should be tagged accordingly on the source page.
 
 ## Typical limits of detection and quantification
 
