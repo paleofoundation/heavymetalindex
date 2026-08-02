@@ -58,6 +58,75 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 
 - [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk|Turkish Food Codex — lead in raw milk]] - Turkish Food Codex raw milk, heat-treated milk, and milk for milk-based products lead maximum level.
 
+<!-- BEGIN: hmi-v3-register -->
+## Full register
+
+Every instrument the Index tracks, 58 in total, with the body that set it.
+
+| Jurisdiction | Body | Instrument |
+| --- | --- | --- |
+| AU,NZ | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 |
+| CN | Ministry of Health | china-gb-2762-2012 |
+| CN | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 |
+| CN | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 |
+| EC | Instituto Ecuatoriano de Normalización | nte-inen-184-2013 |
+| EU | EFSA | AFC Panel |
+| EU | EFSA | CONTAM Panel |
+| EU | EFSA | CONTAM Panel |
+| EU | EFSA | CONTAM Panel |
+| EU | EFSA | CONTAM Panel |
+| EU | EFSA | CONTAM Panel |
+| EU | EFSA | CONTAM Panel |
+| EU |  | ec-1881-2006 |
+| EU | European Commission | Commission Regulation (EU) 2015/1006 |
+| EU | European Commission | Commission Regulation (EU) 2021/1317 |
+| EU | European Commission | Commission Regulation (EU) 2021/1323 |
+| EU |  | eu-2023-915-cadmium |
+| EU | European Commission | Contaminants in Food |
+| EU | European Commission | Commission Regulation |
+| EU | European Commission | Commission Recommendation |
+| EU | European Commission | ec-466-2001 |
+| EU | European Commission | Nickel Directive |
+| EU | European Commission | eu-reg-2018-73-mercury-compounds-mrls |
+| EU | European Commission | Food contaminants maximum levels |
+| EU |  | eu2023-arsenic-rice-based-drinks |
+| EU |  | eu2023-contaminants-maximum-levels |
+| international | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) |
+| international | Codex Alimentarius Commission | CXS 193-1995 |
+| international |  | jecfa-arsenic-bmdl |
+| international | JECFA | FAO/WHO Joint Expert Committee on Food Additives |
+| international | JECFA | FAO/WHO Joint Expert Committee on Food Additives |
+| international | JECFA | FAO/WHO Joint Expert Committee on Food Additives |
+| MX | Secretaria de Salud | nom-027-ssa1-1993 |
+| MX | Secretaria de Salud | nom-028-ssa1-1993 |
+| MX | Secretaria de Salud | nom-242-ssa1-2009 |
+| TR | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation |
+| US | ATSDR | Toxicological Profile series |
+| US | ATSDR | Toxicological Profile series |
+| US | EPA | Safe Drinking Water Act |
+| US | EPA | IRIS |
+| US | EPA | IRIS |
+| US | EPA | IRIS |
+| US | EPA | IRIS |
+| US | EPA | IRIS |
+| US | FDA | fda-cpg-540-600 |
+| US | FDA | Closer to Zero |
+| US | FDA | Closer to Zero |
+| US | FDA | Closer to Zero |
+| US | FDA | Closer to Zero |
+| US | FDA | Juice HACCP |
+| US | FDA | Closer to Zero |
+| US | FDA | Closer to Zero |
+| US-CA | SWRCB | California Safe Drinking Water Act |
+| US-CA | OEHHA | Proposition 65 |
+| US-CA | OEHHA | Proposition 65 |
+| US-CA | OEHHA | Proposition 65 |
+| US-CA | OEHHA | Proposition 65 |
+| US-WA | Washington State Department of Ecology | Toxic-Free Cosmetics Act (TFCA) |
+
+_An entry means the Index tracks the instrument, not that a limit applies to every matrix. Read each instrument's page for scope._
+<!-- END: hmi-v3-register -->
+
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
 ## Auto-linked stubs

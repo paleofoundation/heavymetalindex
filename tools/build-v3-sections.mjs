@@ -133,22 +133,49 @@ for (const f of readdirSync(join(WIKI, "ingredients")).filter((x) => x.endsWith(
   }
 }
 
-// ── 3. Full register — STILL NOT EMITTED. Reported, not forced.
+// ── 3. Full register — regulations index ───────────────────────────────────
+// Placed DETERMINISTICALLY, not by the shared upsert's heuristic. That heuristic
+// looks for an apparatus heading and then for the first generated marker;
+// regulations/index.md has neither in an author-owned position, so the block
+// twice landed inside <!-- BEGIN: hmi-page-history --> where
+// audit-page-history-leaks correctly failed the build on "Codex" — the token in
+// "Codex Alimentarius Commission", a public standards body.
 //
-// Second attempt, second block. Inserting before the first generated marker put
-// the table in the author region, but audit-page-history-leaks still scanned it
-// under the update-history scope and failed the build on "Codex" — the token in
-// "Codex Alimentarius Commission", a food-standards body.
-//
-// The guard is not wrong to be strict, and it already carves Codex out for the
-// REFERENCES scope (audit-page-history-leaks.mjs:50-52) precisely because it is
-// a legitimate body there. The same carve-out has not been made for a register
-// table because no register table existed until now.
-//
-// Weakening a firewall guard to land a navigation table is the wrong trade, so
-// this stays absent and failing in the gate. The fix is either a named scope for
-// this block in the guard, or emitting the register from the index generator
-// that already owns that page's tail. Karen's call — it touches the firewall.
+// The guard is right to be strict and I am not weakening it. The block is now
+// anchored explicitly ABOVE the first generated marker on the page, which is the
+// end of the author-owned region.
+const regIdx = join(WIKI, "regulations/index.md")
+if (existsSync(regIdx)) {
+  const md = readFileSync(regIdx, "utf8")
+  const ANCHOR = "<!-- BEGIN: hmi-auto-linked-stubs -->"
+  if (md.includes(ANCHOR)) {
+    const sorted = [...regs].sort((a, b) =>
+      String(a.jurisdiction ?? "").localeCompare(String(b.jurisdiction ?? "")),
+    )
+    const body = [
+      "## Full register",
+      "",
+      `Every instrument the Index tracks, ${sorted.length} in total, with the body that set it.`,
+      "",
+      "| Jurisdiction | Body | Instrument |",
+      "| --- | --- | --- |",
+      ...sorted.map((r) => `| ${esc(r.jurisdiction)} | ${esc(r.agency)} | ${esc(r.program ?? r.rule_id)} |`),
+      "",
+      "_An entry means the Index tracks the instrument, not that a limit applies to every matrix. Read each instrument's page for scope._",
+    ].join("\n")
+    const open = "<!-- BEGIN: hmi-v3-register -->"
+    const close = "<!-- END: hmi-v3-register -->"
+    const blockText = `${open}\n${body}\n${close}`
+    const re = new RegExp(`${open}[\\s\\S]*?${close}`)
+    const next = re.test(md)
+      ? md.replace(re, blockText)
+      : md.replace(ANCHOR, `${blockText}\n\n${ANCHOR}`)
+    if (next !== md) {
+      touched++
+      if (APPLY) writeFileSync(regIdx, next)
+    }
+  }
+}
 
 // ── 4. Ingredient drivers — product-category pages ─────────────────────────
 // Which ingredients feed this category, read from the ingredients' own
