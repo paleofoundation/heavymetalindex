@@ -91,30 +91,6 @@ created_routed_sources: 4
 
 # Apple Cider Vinegar
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=16 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 9 jurisdictions, top ES 17% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, Ni THIN, Al THIN, Cr THIN | tAs: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 2 more study(ies); Cr: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 3 claims checked, 3 supported; 5 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Al, Cr; pairing 0 paired, 6 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Apple cider vinegar (ACV) is fermented apple juice or cider acidified through a two-step microbial fermentation: yeast converts apple sugars to ethanol, then Acetobacter bacteria oxidise the ethanol to acetic acid. The finished product carries the apple substrate's heavy-metals load (see [[ingredients/apple]] for upstream context) plus any contributions from the fermentation-vessel and packaging materials. The current corpus loads 5 sources, all drawing from the broader [[ingredients/vinegar]] literature: Acosta 1993 four-country vinegar-type comparison covering apple-derived product within the broader survey ([[sources/acosta1993-cd-pb-ni-vinegar-types]]), Karavoltsos 2020 Greek balsamic-vs-common vinegar work that includes apple-derived product in the common-vinegar subset ([[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]), Ndungu 2004 vinegar Pb method development ([[sources/ndungu2004-lead-vinegar-icpms-gfaas]]), Ozbek 2016 Turkish vinegar 5-metal panel ([[sources/ozbek2016-mip-oes-turkish-vinegars]]), and Saei-Dehkordi 2012 Iranian commercial vinegars (n=96, [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]). ACV-specific data within the loaded corpus is limited; the cross-vinegar data establishes the within-category baseline that applies to ACV.
 
 ## Why this commodity accumulates heavy metals

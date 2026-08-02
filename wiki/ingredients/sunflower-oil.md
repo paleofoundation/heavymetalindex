@@ -91,30 +91,6 @@ created_routed_sources: 7
 
 # Sunflower Oil
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=26 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 28 jurisdictions, top TR 31% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni POOLABLE, Cr THIN | tAs: THIN; tHg: needs 2 more study(ies); Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 7 claims checked, 7 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | tAs: THIN; tHg: THIN, needs 2 more study(ies); Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Sunflower oil (Helianthus annuus seed oil) is the third- or fourth-most-consumed edible oil globally and a workhorse cooking oil across Eastern Europe, the Mediterranean, the Middle East, and increasingly North Africa. The heavy-metals profile of sunflower oil is qualitatively similar to other refined seed oils (corn, soybean, rapeseed): the seed itself carries a modest soil-derived metal load, the pressing-and-refining chain partitions most of that load into the spent meal rather than the oil, and the dominant remaining concerns are trace Pb and Cd from seed-source agronomy plus packaging-migration during shelf life. The current corpus loads 7 sources covering Saudi Arabia (Ashraf 2012 161-sample market survey including 28 sunflower-oil samples), Iran (Hamadan probabilistic risk assessment), Turkey (Pehlivan 2008 ICP-AES method development), Ethiopia (Yohannes 2024 Gondar City survey), and global systematic reviews (González-Torres 2023, Silva 2025). Sunflower oil is consistently among the lowest-metal-load edible oils in market surveys.
 
 ## Why this commodity accumulates heavy metals

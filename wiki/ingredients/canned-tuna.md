@@ -91,30 +91,6 @@ created_routed_sources: 4
 
 # Canned Tuna
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=25 | — |
-| D2 Regional coverage | OK | 56 jurisdictions, top EU 29% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn THIN | iAs: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: THIN; Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming canned-tuna: ali2025-carbon-dots-aluminum-cobalt-canned-food |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Canned tuna is the dominant retail-market form of tuna globally and the largest single dietary methylmercury source for many Western populations. The defining heavy-metals concern is mercury — specifically methylmercury (MeHg), the bioaccumulated organomercury form that concentrates up the marine food chain from microalgae to small forage fish to predatory tuna. Tuna species sit at differing trophic levels: skipjack tuna (Katsuwonus pelamis, the small "light tuna" species, ~1-2 year lifespan, lower trophic position) carries roughly one-third the methylmercury of albacore tuna (Thunnus alalunga, the "white tuna" species, ~5-15 year lifespan, higher trophic position), and yellowfin and bigeye tuna sit at or above the albacore level. Beyond mercury, canned tuna carries elevated total arsenic (mostly as low-toxicity organoarsenic forms; the iAs fraction is small but should be characterised separately per CLAUDE.md Part 14), and the canning step contributes Pb, Sn, and Al from the can interior. The current corpus loads 6 sources spanning Ecuador (Aguilar-Miranda 2024 n=60, [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]), global ICP method development (Ali 2025 aluminum-cobalt sensor), Brazil (DeLima 2021 multi-metal n=20, [[sources/delima2021-metals-canned-tuna-sardines-brazil]]), Mexico (Rodriguez-Mendivil 2019 Tijuana n=68, [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana]]), the US (Shim 2004 n=272, [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]), and the 36-jurisdiction Ulusoy 2023 multinational comparison (n=222, [[sources/ulusoy2023-canned-tuna-toxic-metals]]).
 
 ## Why this commodity accumulates heavy metals

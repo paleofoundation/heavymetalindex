@@ -88,30 +88,6 @@ sources: 10
 
 # Quinoa
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 3/10 HMTc analytes, total n=15 | only 3/10 analytes have evidence |
-| D2 Regional coverage | OK | 5 jurisdictions, top PE 40% | — |
-| D3 Anthropogenic evidence | GAP | 2 agricultural-soil + 1 soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 3 upstream source(s) | — |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE | — |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | OK | 1 claims checked, 1 supported; 1 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, tAs; pairing 0 paired, 3 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.75, scale 0.75 | spread 0.75 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Quinoa is a pseudocereal indigenous to the Andean highlands of Peru, Bolivia, and Ecuador. It is botanically distinct from true cereals (Poaceae) but functions as a grain in human diets and is regulated alongside cereals in most jurisdictions. The heavy-metal contamination signal for quinoa is dominated by **cadmium**, which it accumulates from Andean soils whose geochemistry is shaped by the same mining-belt minerology that drives Cd in regional cacao (see [[ingredients/cocoa]] for the parallel pattern). Lead and arsenic are secondary concerns, primarily in samples sourced from mining-impacted watersheds (Moquegua, Huancavelica, certain altiplano basins).
 
 The growing global popularity of quinoa as a gluten-free pseudocereal in infant and child foods, energy bars, and breakfast products makes its contamination profile increasingly relevant to certification: a product that substitutes quinoa for rice to lower iAs may simultaneously elevate Cd if the quinoa is sourced from a Cd-rich region. The Peru/Bolivia regional variance is large enough that origin-specific sourcing matters for HMTc literature evidence threshold setting.

@@ -91,30 +91,6 @@ created_routed_sources: 6
 
 # Vegetable Oils
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=25 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 31 jurisdictions, top CN 32% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni POOLABLE, Cr THIN | tHg: needs 2 more study(ies); Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 9 claims checked, 9 supported; 6 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Vegetable oils — the broad category of liquid edible oils pressed or solvent-extracted from seeds (sunflower, soybean, rapeseed/canola, corn, peanut, sesame, safflower), fruit (olive, palm), or nuts — share a common heavy-metals profile shaped by upstream seed-source agronomy, the extraction-and-refining processing chain, and packaging-migration during shelf life. The current corpus loads 6 sources covering the global edible-oils literature: González-Torres 2023 systematic review (35 oil types from 24 countries, [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review]]), Mehri 2024 Iranian Hamadan probabilistic risk (n=40, [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes]]), Nazari 2023 seed-crops-and-oil-products threat-to-food-safety review ([[sources/nazari2023-heavy-metals-seed-crops-oil-products-review]]), Pehlivan 2008 Turkish ICP-AES method (n=17, [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]), Tayeb 2025 Iranian olive-and-corn-oil public-health risk (n=60, [[sources/tayeb2025-olive-corn-oil-iran-pb-cd]]), and Yohannes 2024 Ethiopian Gondar City survey (n=17, [[sources/yohannes2024-vegetable-oils-ethiopia-gondar]]). Vegetable oils as a category sit consistently in the lower-middle of the food-system heavy-metals distribution, with most retail product below applicable Codex and EU Pb limits and the worst-case-tail driven by specific origin-and-packaging combinations rather than category-wide elevation.
 
 ## Why this commodity accumulates heavy metals

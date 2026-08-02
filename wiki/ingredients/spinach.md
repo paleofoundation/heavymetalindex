@@ -87,30 +87,6 @@ updated: 2026-05-16
 
 # Spinach
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=37 | labeled data-gaps: iAs, Sn |
-| D2 Regional coverage | OK | 23 jurisdictions, top US 18% | — |
-| D3 Anthropogenic evidence | GAP | 4 irrigation-water + 3 agricultural-soil + 3 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 7 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr POOLABLE, tAs THIN | tHg: needs 1 more study(ies); Ni: THIN; Al: THIN; tAs: THIN |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 15 claims checked, 15 supported; 2 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming spinach: fda-ctz-Pb-babyfood-2025 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
-| D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 1 more study(ies); Ni: THIN; Al: THIN; tAs: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Spinach is a representative leafy vegetable for which the EFSA 2009 occurrence data place cadmium concentrations in the range characteristic of leafy greens generally, reflecting the plant family's efficient leaf-accumulation of cadmium from soil.
 
 ## Heavy metal contamination profile

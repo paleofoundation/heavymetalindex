@@ -91,30 +91,6 @@ created_routed_sources: 9
 
 # Turmeric
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=24 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 42 jurisdictions, top US 31% | — |
-| D3 Anthropogenic evidence | GAP | 2 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 2 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr POOLABLE | tHg: needs 2 more study(ies); Ni: needs 2 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 12 claims checked, 12 supported; 9 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 3 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Turmeric (Curcuma longa) is the most heavily adulteration-documented spice in the food system. The dominant heavy-metals concern is not soil-derived contamination but post-harvest addition of lead chromate (PbCrO₄, the bright yellow pigment that boosts turmeric's commercial color) by some Bangladeshi, Indian, Pakistani, and Sri Lankan processors. The Forsyth 2019 Bangladesh investigation traced the adulteration practice to the polishing step at specific Bangladeshi mills and documented its scale across 524 samples ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh]]); the 2024 South Asia follow-up extended the documentation across India, Pakistan, Sri Lanka, and Nepal (n=356, [[sources/forsyth2024-turmeric-lead-chromate-south-asia]]); the Gafner 2026 scoping review consolidates evidence across six continents (n=2,235 samples) ([[sources/gafner2026-turmeric-adulteration-six-continents]]). FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead]]) authorises detention-without-physical-examination for turmeric and other spices from documented-adulteration-risk supply chains. The US-side case literature — Angelon-Gaetz 2018 North Carolina home-investigation cohort (n=386, [[sources/angelon-gaetz2018-lead-spices-north-carolina]]), Lech 2020 ground turmeric US survey (n=127, [[sources/lech2020-turmeric-lead-united-states]]), Huff 2025 Lancaster PA (n=116, [[sources/huff2025-spices-lancaster-pa]]) — links US-market adulterated turmeric to elevated childhood blood-lead levels.
 
 ## Why this commodity accumulates heavy metals

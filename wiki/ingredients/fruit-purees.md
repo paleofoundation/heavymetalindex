@@ -88,30 +88,6 @@ sources: 2
 
 # Fruit Purees
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 3/10 HMTc analytes, total n=13 | only 3/10 analytes have evidence |
-| D2 Regional coverage | OK | 3 jurisdictions, top UK 50% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs POOLABLE | Pb: THIN; Cd: THIN |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 2 claims checked, 2 supported; 3 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming fruit-purees: collado-lopez2025-heavy-metals-baby-food-formula, houlihan2019-hbbf-whats-in-baby-food, codex-cxs-193-1995 |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 1 metal(s) covered | unmapped analytes: Cd, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs; pairing 0 paired, 3 single, 0 unpaired | Pb: THIN; Cd: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
 ## Heavy metal contamination profile

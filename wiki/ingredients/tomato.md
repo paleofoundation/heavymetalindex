@@ -95,30 +95,6 @@ sources: 43
 
 # Tomato
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=35 | labeled data-gaps: iAs, Al |
-| D2 Regional coverage | OK | 23 jurisdictions, top EU 12% | — |
-| D3 Anthropogenic evidence | GAP | 4 soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 4 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni THIN, Cr THIN, Sn POOLABLE | Ni: THIN; Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 55 claims checked, 55 supported; 16 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming tomato: fda2022-tds-elements-fy2018-fy2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, Sn; pairing 0 paired, 7 single, 0 unpaired | Ni: THIN; Cr: THIN; basis: 8 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 117, "Tomato, raw." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals

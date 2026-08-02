@@ -98,30 +98,6 @@ sources: 13
 
 # Banana
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 7/10 HMTc analytes, total n=26 | labeled data-gaps: tHg |
-| D2 Regional coverage | OK | 9 jurisdictions, top BD 20% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tAs POOLABLE, Ni CONFIDENT, Al THIN, Cr POOLABLE, Sn THIN | iAs: needs 2 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 6/10 populated cells declare a basis token | 4 populated cell(s) lack a basis token: iAs, Ni, Al, Sn |
-| D8 Provenance integrity | GAP | 17 claims checked, 17 supported; 8 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming banana: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, signes-pastor2018-infants-dietary-arsenic-solid-food |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn; pairing 0 paired, 8 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 4 populated cell(s) lack a basis token: iAs, Ni, Al, Sn |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Why this commodity accumulates heavy metals

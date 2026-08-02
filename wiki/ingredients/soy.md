@@ -27,30 +27,6 @@ updated: 2026-05-16
 
 # Soy
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=36 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 16 jurisdictions, top CN 26% | — |
-| D3 Anthropogenic evidence | GAP | 2 drinking-water + 1 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 6 drivers, 2 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, Ni THIN, Al THIN, tAs THIN, Cr POOLABLE | Ni: needs 1 distinct source(s); Al: needs a sample-level-backed source; tAs: needs 1 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 18 claims checked, 18 supported; 7 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming soy: kazi2009-toxic-elements-in-infant-formulae, dabeka2011-canada-infant-formula-lead-cadmium-aluminum, chuchu2013-aluminium-in-infant-formulas |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, Ni, Al, tAs, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, Ni, Al, tAs, Cr; pairing 0 paired, 1 single, 5 unpaired | Ni: THIN, needs 1 distinct source(s); Al: THIN, needs a sample-level-backed source; tAs: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; Pb: clean/dirty UNPAIRED (dirty-side limit unsupportable); Cd: clean/dirty UNPAIRED (dirty-side limit unsupportable); Ni: clean/dirty UNPAIRED (dirty-side limit unsupportable); Al: clean/dirty UNPAIRED (dirty-side limit unsupportable); tAs: clean/dirty UNPAIRED (dirty-side limit unsupportable); consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formula than milk-based formula in its Pakistan-market sample set, with soy-based formula means of Al 2270 ppb, Cd 11.7 ppb, and Pb 109.4 ppb on a dried-powder basis. Dabeka et al. 2011 reports Canada-market soy-based formula summaries across powder, concentrated liquid, and ready-to-use formats, including powdered soy formula Al mean 733 ng/g and Cd mean 1.56 ng/g as consumed. Burrell and Exley 2010 reports a soy-based infant formula powder with aluminum of 4.3 ug/g powder, equivalent to 629 ug/L when prepared according to manufacturer instructions. Chuchu et al. 2013 reports two soy-based infant formula powders with prepared estimates of 656 and 756 ug/L. Burrell and Exley suggest the elevated soy-formula value may reflect prior aluminum accumulation in soybean plants and aluminum tolerance of some soybean cultivars grown on acid soils, but none of these sources provides a soybean-only occurrence distribution. [[sources/kazi2009-toxic-elements-in-infant-formulae]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]]
 ## Heavy metal contamination profile
 

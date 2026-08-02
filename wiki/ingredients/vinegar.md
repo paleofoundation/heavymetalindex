@@ -91,30 +91,6 @@ created_routed_sources: 10
 
 # Vinegar
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=33 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 16 jurisdictions, top US 31% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr THIN | tHg: THIN; Ni: THIN; Al: needs 1 more study(ies); Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming vinegar: cfia2025-toxic-metals-selected-foods-2022-23 |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN; Ni: THIN; Al: THIN, needs 1 more study(ies); Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Vinegar — the acidified aqueous product of acetic-acid fermentation of a sugar or alcohol substrate, sold as white distilled vinegar, apple cider vinegar, balsamic vinegar, wine vinegar, malt vinegar, and rice vinegar — accumulates heavy metals through two distinct pathways: the upstream substrate (fruit or grain feedstock) and the downstream packaging-and-aging contact materials. The acidic pH (typically 2.5-3.5) makes vinegar an effective metal-leacher from any contact surface, which is why vinegar has historically been used as a test simulant in food-contact-material regulations (EU 4% acetic acid migration test). The current corpus loads 10 sources spanning Spain/Germany/UK (Acosta 1993 four-vinegar-type comparison), Greece (Karavoltsos 2020 balsamic-vs-common-vinegar trace-metal study), Turkey (Ozbek 2016 MIP-OES method development), Iran (Saei-Dehkordi 2012 commercial-market survey), China (Liu 2010 mercury method), Romania (Bora 2022 fruit-vegetable wash intervention work that also characterised vinegar baseline), Canada (CFIA 2025 targeted survey n=470), the US Environmental and Safety Compliance Project FDA petition (Pb and tAs in balsamic vinegar at levels of concern), and EFSA's 2022 buffered-vinegar food-additive safety assessment. The Environmental and Safety Compliance Project's 2021 FDA letter ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]) is the policy-anchor source documenting elevated Pb and tAs specifically in balsamic-vinegar product sold in the US market.
 
 ## Why this commodity accumulates heavy metals

@@ -87,30 +87,6 @@ updated: 2026-06-11
 
 # Rice
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=80 | — |
-| D2 Regional coverage | OK | 72 jurisdictions, top CN 27% | — |
-| D3 Anthropogenic evidence | GAP | 18 soil + 15 drinking-water + 12 paddy-soil + 3 irrigation-water + 7 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 6 drivers, 51 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN, Sn THIN, tAs THIN | Pb: needs 3 distinct source(s); Cd: needs 2 distinct source(s); iAs: needs 2 distinct source(s); tHg: needs 3 distinct source(s); Ni: needs 3 distinct source(s); Al: needs 3 distinct source(s); Cr: THIN; Sn: needs 3 distinct source(s); tAs: needs 3 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 64 claims checked, 64 supported; 21 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming rice: brombach2017-methylmercury-european-commercial-rice, collado-lopez2025-heavy-metals-baby-food-formula, damato2026-inorganic-arsenic-rice-based-beverages |
-| D9 Mitigation | OK | 1 cited lever(s), 5 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 5 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 3 distinct source(s); Cd: THIN, needs 2 distinct source(s); iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 3 distinct source(s); Ni: THIN, needs 3 distinct source(s); Al: THIN, needs 3 distinct source(s); Cr: THIN; Sn: THIN, needs 3 distinct source(s); tAs: THIN, needs 3 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as one of the top population-level dietary cadmium contributors worldwide, with variation driven by soil cadmium, cultivar differences, flooded-paddy redox chemistry, and processing (bran contains higher cadmium than endosperm).
 
 ## Heavy metal contamination profile

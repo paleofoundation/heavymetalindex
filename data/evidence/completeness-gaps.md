@@ -3,7 +3,7 @@ title: Ingredient Completeness Gaps
 type: index
 status: generated
 audience: [internal]
-updated: 2026-08-01
+updated: 2026-08-02
 ---
 
 # Ingredient Completeness Gaps

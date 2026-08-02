@@ -91,30 +91,6 @@ created_routed_sources: 10
 
 # Tea
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=40 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 25 jurisdictions, top EU 31% | — |
-| D3 Anthropogenic evidence | GAP | 8 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 8 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tAs THIN, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn THIN | Pb: needs 2 distinct source(s); Cd: needs 2 distinct source(s); iAs: needs 2 more study(ies); tAs: needs 3 distinct source(s); Ni: needs 2 distinct source(s); Al: needs 2 distinct source(s); Cr: THIN; Sn: needs 2 distinct source(s) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 9 claims checked, 9 supported; 8 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming tea: jurowski2023-heavy-metals-green-tea-poland, brzezicha-cirocka2016-green-tea-geographic-origins, kazeminia2023-tea-heavy-metals-review |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 6 single, 3 unpaired | Pb: THIN, needs 2 distinct source(s); Cd: THIN, needs 2 distinct source(s); iAs: THIN, needs 2 more study(ies); tAs: THIN, needs 3 distinct source(s); Ni: THIN, needs 2 distinct source(s); Al: THIN, needs 2 distinct source(s); Cr: THIN; Sn: THIN, needs 2 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; Pb: clean/dirty UNPAIRED (dirty-side limit unsupportable); Cd: clean/dirty UNPAIRED (dirty-side limit unsupportable); Al: clean/dirty UNPAIRED (dirty-side limit unsupportable); consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Tea (Camellia sinensis leaf, processed into green, black, oolong, white, and pu-erh varieties) is the dominant dietary source of aluminum in many populations and a notable source of lead, fluoride (out of scope for this page), and trace heavy metals. The defining biological feature of the tea plant is its aluminum hyperaccumulation: Camellia sinensis tolerates and accumulates aluminum at concentrations of 10,000-100,000 ppb dry weight (orders of magnitude above any other major food-crop leaf), driven by an adaptation to acidic soils where Al is the dominant available cation. The current corpus loads 10 sources spanning China (the largest tea-producing region globally, with the Hu 2023 status assessment covering 4,803 samples nationwide and the Fan 2025 Hangzhou survey at 120 samples), Poland-and-EU import data, Germany (BfR MEAL Study nickel dietary-intake assessment), Ireland (FSAI 2016 total diet study), and broader systematic reviews. The Hu 2023 dataset is the largest single tea heavy-metals dataset in the loaded corpus and provides the strongest distributional anchor for the Pb, Cd, tAs, Cr, tHg, and Cu profile in Chinese-origin product.
 
 ## Why this commodity accumulates heavy metals

@@ -91,30 +91,6 @@ created_routed_sources: 5
 
 # Cinnamon
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=28 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 22 jurisdictions, top US 37% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al POOLABLE, Cr POOLABLE | Ni: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 9 claims checked, 9 supported; 7 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming cinnamon: fda-import-alert-99-42-spice-lead |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | Ni: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Cinnamon — the dried inner bark of Cinnamomum trees, sold as Ceylon (Cinnamomum verum) or cassia (Cinnamomum aromaticum / cassia / loureiroi / burmannii, the dominant US-market form) — is the spice second only to turmeric in documented heavy-metals adulteration risk. The 2023-2024 WanaBana apple-cinnamon-puree outbreak in the United States linked cinnamon-containing baby food pouches to at least 519 confirmed cases of pediatric lead poisoning across multiple states, with the contaminated cinnamon traced to a single Ecuadorian processor (Carlos Aguilera) found to have added lead chromate to the cinnamon supply ([[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC]]). FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead]]) names cinnamon among the priority detention-without-physical-examination targets. The current corpus loads 7 sources spanning the US (Angelon-Gaetz 2018 NC home investigations, Huff 2025 Lancaster PA, WanaBana 2024 outbreak documentation), Italy/Saudi Arabia/India/Iran/Indonesia/Vietnam (Cicero 2022 multi-origin 8-metal panel), Australia (LHAAC 2025 Coordinated Sampling Project 41 at n=380 retail samples, [[sources/lhaac2025-csp41-herbs-spices-wa]]), and Australian-import-country product (Tinggi 2025 across India, China, Sri Lanka, Vietnam, Bangladesh, Malaysia, [[sources/tinggi2025-spices-herbs-queensland]]).
 
 ## Why this commodity accumulates heavy metals

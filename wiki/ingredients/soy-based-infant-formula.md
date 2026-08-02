@@ -85,30 +85,6 @@ sources: 17
 
 # Soy-Based Infant Formula
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 2/10 HMTc analytes, total n=7 | only 2/10 analytes have evidence |
-| D2 Regional coverage | OK | 10 jurisdictions, top US 44% | — |
-| D3 Anthropogenic evidence | GAP | 4 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 4 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | POOLABLE | iAs POOLABLE, tAs POOLABLE | — |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 12 claims checked, 12 supported; 6 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: iAs, tAs |
-| D11 Standards-readiness | PARTIAL | priority: iAs, tAs; pairing 0 paired, 2 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.67, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.75, scale 0.75 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This is a structural ingredient/profile node for soy-based infant formula routing. Finished formula occurrence values belong on the relevant formula product pages unless a source reports ingredient-only values.
 
 <!-- BEGIN: hmi-page-references -->

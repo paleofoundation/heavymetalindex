@@ -91,30 +91,6 @@ created_routed_sources: 4
 
 # Balsamic Vinegar
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 3 jurisdictions, top US 50% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, tAs THIN, Ni THIN, Al THIN, Cr THIN | Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 3 claims checked, 3 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Al, Cr; pairing 0 paired, 6 single, 0 unpaired | Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Balsamic vinegar — the aged grape-must-derived condiment from the Modena and Reggio Emilia regions of Italy, made traditionally in a sequence of progressively smaller wooden barrels for 12-25 years (Aceto Balsamico Tradizionale di Modena DOP/Reggio Emilia DOP) or industrially produced from concentrated grape must and wine vinegar with optional brief aging — sits at the high end of the vinegar-category heavy-metals distribution. The traditional aging-vessel chain (a sequence of chestnut, cherry, oak, mulberry, juniper, ash barrels) is the dominant heavy-metals risk because the acidic must (pH 2.5-3.0) extracts trace metals from the wood and from previous batches' residual concentrate over decades-long aging cycles. The current corpus loads 4 sources: ESCP 2021 FDA petition (n=24 US-market balsamic vinegar samples with Pb and tAs at regulatory-concern levels, [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]), Karavoltsos 2020 Greek balsamic-vs-common-vinegar comparison (n=43, 7-metal panel, [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]), Ndungu 2004 Pb-in-vinegar analytical method (n=59, [[sources/ndungu2004-lead-vinegar-icpms-gfaas]]), Ozbek 2016 Turkish MIP-OES method (n=32, including balsamic, [[sources/ozbek2016-mip-oes-turkish-vinegars]]). The ESCP 2021 petition is the policy-anchor source: in 2021, the Environmental and Safety Compliance Project petitioned the US FDA to set a maximum lead level for balsamic vinegar after documenting elevated Pb across 24 US-market samples ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]).
 
 ## Why this commodity accumulates heavy metals

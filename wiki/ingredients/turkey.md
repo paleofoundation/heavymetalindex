@@ -103,30 +103,6 @@ sources: 3
 
 # Turkey
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | GAP | 1/10 HMTc analytes, total n=5 | only 1/10 analytes have evidence |
-| D2 Regional coverage | below-tier | 2 jurisdictions, top US 50% | only 2 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | tAs THIN, Cr THIN, U THIN | tAs: needs 1 more study(ies); Cr: needs 2 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 5/10 populated cells declare a basis token | 5 populated cell(s) lack a basis token: iAs, tAs, Al, Sn, U |
-| D8 Provenance integrity | GAP | 53 claims checked, 53 supported; 6 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming turkey: fda2022-tds-elements-fy2018-fy2020, omirzakov2024-poultry-meat-kazakhstan-heavy-metals, lysenko2021-organic-broiler-meat-heavy-metals |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | unmapped analytes: Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: tAs, Cr, U; pairing 0 paired, 3 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); Cr: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 5 populated cell(s) lack a basis token: iAs, tAs, Al, Sn, U; depth below common bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
 ## Why this commodity accumulates heavy metals

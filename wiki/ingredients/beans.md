@@ -91,30 +91,6 @@ created_routed_sources: 4
 
 # Beans
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=21 | labeled data-gaps: tHg, iAs, Al |
-| D2 Regional coverage | OK | 19 jurisdictions, top CN 22% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, Ni POOLABLE, Cr THIN, Sn THIN | Cr: needs 1 more study(ies); Sn: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming beans: sandil2023-arsenic-bean-lettuce, atsdr2005-tin-toxicological-profile |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Cr, Sn; pairing 0 paired, 6 single, 0 unpaired | Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Beans — the broad legume category covering dried and canned pulses (kidney, black, pinto, navy, cannellini, fava, pinto, chickpeas, lentils as a distinct sub-category) — sit at the middle of the food-system heavy-metals risk distribution. The defining feature of the legume category is nickel accumulation: leguminous plants harbour nitrogen-fixing Rhizobium bacteria in root nodules that require nickel for their urease enzyme machinery, so legumes consistently carry higher Ni than non-legume crops. Beans also accumulate Cd at modest rates and inherit canning-source Pb when sold in cans rather than dried. The current corpus loads 4 sources directly: Abdolahpour 2023 Iranian Babol-city vegetable Pb-Cd (n=32, [[sources/abdolahpour2023-heavy-metals-babol-vegetables]]), Alzabadi 2018 Palestinian canned-foods including canned beans (n=16, [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn]]), Bora 2022 Romanian fruit-and-vegetable washing intervention covering bean baseline (n=80, [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing]]), Sandil 2023 bean-and-lettuce arsenic uptake mechanism ([[sources/sandil2023-arsenic-bean-lettuce]]); plus the ATSDR 2005 Tin Toxicological Profile relevant to canned-bean Sn ([[sources/atsdr2005-tin-toxicological-profile]]) and the broader vegetable-and-legume corpus reachable through the routing layer.
 
 ## Why this commodity accumulates heavy metals

@@ -987,30 +987,23 @@ function escapePipe(s) {
   return String(s).replace(/\|/g, "\\|").replace(/\n/g, " ")
 }
 
-// Insert or replace the marker block directly under the H1.
-function applyBlock(content, block) {
+// STAFF-ONLY as of 2026-08: the scorecard is stripped from public ingredient
+// pages, never injected. Its D11 standards-readiness and Principle-balance
+// (brand-value / legal-defensibility) rows are HMTc program internals (CLAUDE.md
+// Part 2 / Part 19 firewall), and broadcasting THIN / GAP / NOT-READY as the
+// opening section undercuts the reference posture. The audit still runs — it
+// feeds the staff registers in writeRegisters() — but the public block is
+// removed. Idempotent: once a page has no block, this is a no-op, so the prebuild
+// (and the Vercel build) never re-inject it.
+function stripBlock(content) {
   const open = content.indexOf(MARKER_OPEN)
-  if (open !== -1) {
-    const close = content.indexOf(MARKER_CLOSE, open)
-    if (close !== -1) {
-      const end = close + MARKER_CLOSE.length
-      // consume one trailing newline after the close marker if present (kept stable)
-      return content.slice(0, open) + block + content.slice(end)
-    }
-  }
-  // Insert under the first H1.
-  const h1 = content.match(/^#\s+.*$/m)
-  if (h1) {
-    const idx = h1.index + h1[0].length
-    return content.slice(0, idx) + "\n\n" + block + "\n" + content.slice(idx)
-  }
-  // No H1 (frontmatter-only page): insert after frontmatter.
-  const fmEnd = content.indexOf("\n---", 4)
-  if (content.startsWith("---") && fmEnd !== -1) {
-    const after = fmEnd + 4
-    return content.slice(0, after) + "\n\n" + block + "\n" + content.slice(after)
-  }
-  return block + "\n\n" + content
+  if (open === -1) return content
+  const close = content.indexOf(MARKER_CLOSE, open)
+  if (close === -1) return content
+  const end = close + MARKER_CLOSE.length
+  const before = content.slice(0, open).replace(/\n+$/, "")
+  const after = content.slice(end).replace(/^\n+/, "")
+  return `${before}\n\n${after}`
 }
 
 // ---------------------------------------------------------------------------
@@ -1050,21 +1043,20 @@ function main() {
     }
     const slug = file.replace(/\.md$/, "")
 
-    let block
+    // Score still runs (feeds the staff registers in writeRegisters); the block
+    // is no longer rendered onto the public page.
     if (isStub(fm)) {
       stubs++
-      block = renderStubBlock()
     } else {
       scored++
       const result = scoreIngredient(slug, fm, content, ctx)
-      block = renderBlock(result)
       allGaps.push(...result.gaps)
       allReviewFlags.push(...result.reviewFlags)
       for (const df of result.dataFlags) allDataFlags.push({ slug, flag: df })
       if (result.dims.D11) verdicts[result.dims.D11.status] = (verdicts[result.dims.D11.status] || 0) + 1
     }
 
-    const next = applyBlock(content, block)
+    const next = stripBlock(content)
     if (next !== content) {
       staleCount++
       if (!noPages && !check) {
@@ -1143,8 +1135,11 @@ function writeRegisters(repoRoot, { allGaps, allReviewFlags, allDataFlags, ctx }
   for (const d of allDataFlags) rfLines.push(csvLine([d.slug, "data-hygiene", d.flag.split(":")[0], d.flag]))
   fs.writeFileSync(path.join(evidenceDir, "ingredient-scorecard-review-flags.csv"), rfLines.join("\n") + "\n")
 
-  // --- rendered master worklist page ---
-  fs.writeFileSync(path.join(repoRoot, "wiki/completeness-gaps.md"), renderGapsPage(ranked, allReviewFlags, allDataFlags, ctx))
+  // --- rendered master worklist page (STAFF-only: data/evidence/, NOT wiki/) ---
+  // Lives outside wiki/ so Quartz never builds it to public. It enumerates
+  // per-ingredient standards-readiness / principle gaps — staff worklist data,
+  // same firewall class as the per-page scorecard block that was removed.
+  fs.writeFileSync(path.join(repoRoot, "data/evidence/completeness-gaps.md"), renderGapsPage(ranked, allReviewFlags, allDataFlags, ctx))
 }
 
 const TIER_RANK = { staple: 0, common: 1, occasional: 2, rare: 3, "tier-unset": 4 }

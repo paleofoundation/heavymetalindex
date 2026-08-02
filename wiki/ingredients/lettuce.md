@@ -91,30 +91,6 @@ created_routed_sources: 9
 
 # Lettuce
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=32 | labeled data-gaps: iAs, Sn |
-| D2 Regional coverage | OK | 18 jurisdictions, top IR 17% | — |
-| D3 Anthropogenic evidence | GAP | 3 soil + 2 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni POOLABLE, Al THIN, Cr POOLABLE | tHg: needs 1 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 5 claims checked, 5 supported; 7 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Lettuce (Lactuca sativa) is the most-consumed leafy vegetable globally and a frequent target of heavy-metals surveys because it sits at the intersection of three exposure variables: short growing cycle, high water content (making it an efficient transpiration-driven metal carrier), and frequent urban or peri-urban siting. Within the leafy-vegetable category ([[ingredients/leafy-vegetables]]), lettuce is one of the lower-Cd accumulators relative to spinach and amaranth, but it remains a meaningful Pb and Cd source in retail dietary surveys. The current corpus loads 9 sources spanning Iran (Behbahan probabilistic risk modeling), South Africa (Johannesburg roadside-vs-store comparison), Ghana (Kumasi anthropogenic-activity sites), Spain (Andalusia urban gardens), Ecuador (mining-influenced farmland), Burkina Faso (arsenic-irrigated vegetables), Hungary (developmental-stage uptake mechanism), and a Cd-mitigation systematic review.
 
 ## Why this commodity accumulates heavy metals

@@ -91,30 +91,6 @@ updated: 2026-05-16
 
 # Cocoa
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=66 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 37 jurisdictions, top EU 40% | — |
-| D3 Anthropogenic evidence | GAP | 7 drinking-water + 4 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 6 drivers, 11 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tHg THIN, Ni THIN, Al THIN, tAs THIN | Pb: needs a sample-level-backed source; Cd: needs a sample-level-backed source; tHg: needs 3 distinct source(s); Ni: needs 1 distinct source(s); Al: needs 2 distinct source(s); tAs: needs 2 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 43 claims checked, 43 supported; 15 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming cocoa: pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc, elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi, hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france |
-| D9 Mitigation | OK | 7 cited lever(s), 4 mitigation/ link(s) | — |
-| D10 Regulatory coverage | below-tier | 3 rule link(s), 1 metal(s) covered | crosswalk thin: 5/6 populated analytes have no linked governing limit |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, tAs; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN, needs a sample-level-backed source; Cd: THIN, needs a sample-level-backed source; tHg: THIN, needs 3 distinct source(s); Ni: THIN, needs 1 distinct source(s); Al: THIN, needs 2 distinct source(s); tAs: THIN, needs 2 distinct source(s); basis: 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Cocoa is identified by [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] as the specific commodity responsible for a 2019-data-driven upward revision of dietary cadmium exposure estimates for children aged 0.5 to 12, with cocoa-inclusive total dietary exposure reaching 96 percent of the JECFA provisional tolerable monthly intake in that age group. The cocoa-specific Codex Code of Practice ([[sources/codex-cxc-81-2022|CXC 81-2022]]) is the load-bearing primary source for the cocoa-cadmium mitigation pathway and is referenced from the Mitigation options section below.
 
 ## Heavy metal contamination profile

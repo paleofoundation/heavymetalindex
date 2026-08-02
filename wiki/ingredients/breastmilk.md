@@ -88,30 +88,6 @@ sources: 42
 
 # Breastmilk (Human Milk)
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=44 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 55 jurisdictions, top US 28% | — |
-| D3 Anthropogenic evidence | GAP | 6 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 6 upstream source(s) | — |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, tHg POOLABLE, Al POOLABLE, Cr POOLABLE, tAs POOLABLE | — |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | OK | 12 claims checked, 12 supported; 14 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 2 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, tHg, Al, Cr, tAs; pairing 0 paired, 6 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.75 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Breastmilk is the infant exposure route this wiki tracks alongside infant formula. It is not a manufactured ingredient and does not appear in any product-category page, but it is the comparator against which formula-fed infant exposure is measured and the source of evidence behind WHO and AAP feeding guidance. The page exists so that cohort studies, systematic reviews, and agency tox profiles addressing breastmilk concentrations of Pb, Cd, As species, Hg species, and Al can route here cleanly.
 
 Breastmilk concentrations of heavy metals are driven primarily by maternal exposure history (diet, drinking water, occupational, geographic) and by the partitioning behavior of each metal across the mammary epithelial barrier. Lead and arsenic partition relatively poorly into breastmilk; mercury (especially MeHg) partitions more readily but is also bound by breast tissue and shed via hair. The literature is unanimous that breastmilk concentrations are typically lower than formula concentrations for Pb and Cd when reconstituted formula is compared in matched-population studies; the comparison for iAs depends heavily on the formula's water source and base ingredient.

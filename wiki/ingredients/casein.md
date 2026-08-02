@@ -107,15 +107,6 @@ updated: 2026-05-19
 
 # Casein
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Not yet characterized — scorecard activates at 2 contributing A-tier sources._
-
-<!-- /hmi-completeness-scorecard -->
-
-
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source editor2019-manganese-levels-infant-formula declared ingredient/casein, no close-slug match

@@ -91,30 +91,6 @@ created_routed_sources: 3
 
 # Mango
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=21 | labeled data-gaps: iAs, Sn |
-| D2 Regional coverage | OK | 7 jurisdictions, top US 50% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs CONFIDENT, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN | Ni: needs a sample-level-backed source; Al: needs a sample-level-backed source; Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 8 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming mango: mekonnen2024-ethiopia-fruit-metals, farid2010-fruit-juices-jeddah-trace-elements, paudel2024-packaged-fruit-juices-nepal |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | Ni: THIN, needs a sample-level-backed source; Al: THIN, needs a sample-level-backed source; Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Mango (Mangifera indica) is a tropical fruit consumed fresh and processed into juice, puree, dried slices, and frozen pulp. The heavy-metals profile of mango sits at the lower end of the fruit-category distribution: as a thick-skinned tropical fruit, the peeled flesh has limited atmospheric-deposition exposure and the relatively low soil-uptake transfer factor for Cd-and-Pb keeps fresh-flesh concentrations modest. The current corpus loads 3 directly-routed sources covering mango specifically plus 4 broader fruit-and-juice studies reachable via the routing layer: Islam 2024 Bangladeshi fruits systematic review (n=10 fruits including mango, [[sources/islam2024-heavy-metals-bangladeshi-fruits-review]]), Mekonnen 2024 Ethiopian Bahir Dar fruit metals (n=120, [[sources/mekonnen2024-ethiopia-fruit-metals]]), Rahim 2020 Pakistani 308-sample most-widely-consumed fruits ([[sources/rahim2020-toxic-heavy-metals-fruits-pakistan]]), Farid 2010 Saudi fruit-juice trace elements (n=129, [[sources/farid2010-fruit-juices-jeddah-trace-elements]]), Paudel 2024 Nepal packaged fruit juices ([[sources/paudel2024-packaged-fruit-juices-nepal]]), Sobhanardakani 2017 Iranian fruit-juice Al-and-Cu ([[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran]]), Tsegay 2025 fruit by-product toxicology review ([[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review]]), Weldegebriel 2025 Ethiopian Gondar packaged fruit juices (n=80, [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]).
 
 ## Why this commodity accumulates heavy metals

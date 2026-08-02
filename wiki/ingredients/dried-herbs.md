@@ -91,30 +91,6 @@ created_routed_sources: 3
 
 # Dried Herbs
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=28 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 10 jurisdictions, top PL 25% | — |
-| D3 Anthropogenic evidence | GAP | 5 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn THIN | Pb: needs 3 distinct source(s); Cd: needs 3 distinct source(s); iAs: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 3 distinct source(s); Cr: needs 1 more study(ies); Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 8 citations, 0 orphan, 6 foreign | 6 foreign citation(s) not naming dried-herbs: angelon-gaetz2018-lead-spices-north-carolina, chime2025-nigerian-spices-as-cd-pb, cicero2022-minerals-spices-aromatic-herbs |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 3 distinct source(s); Cd: THIN, needs 3 distinct source(s); iAs: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 3 distinct source(s); Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Dried herbs — the dehydrated leaves, flowers, and aerial plant parts of culinary and medicinal aromatic plants (oregano, basil, thyme, parsley, sage, rosemary, mint, chamomile, lemon balm, dill, marjoram, savory) — share the drying-concentration heavy-metals pattern with the broader [[ingredients/herbs-and-spices]] category. The dominant feature is concentration: fresh herbs at 80-90% moisture content dry down to product at 8-12% moisture, producing a 7-10× per-mass concentration uplift on Pb, Cd, and other metals relative to the fresh-weight baseline. The current corpus loads 3 routed sources plus broader herbs-and-spices corpus reachable via the routing layer: Angelon-Gaetz 2018 NC home-investigation cohort (n=386, [[sources/angelon-gaetz2018-lead-spices-north-carolina]]), Chime 2025 Nigerian-market spice trace-metal work (n=7, [[sources/chime2025-nigerian-spices-as-cd-pb]]), Cicero 2022 multi-origin 8-metal panel (n=13, [[sources/cicero2022-minerals-spices-aromatic-herbs]]), Fischer 2022 Polish mercury in spice plants (n=48, [[sources/fischer2022-mercury-spice-plants-poland]]), Huff 2025 Lancaster PA spice survey (n=116, [[sources/huff2025-spices-lancaster-pa]]), Kowalska 2021 Polish 240-sample herb-spice-tea-coffee panel ([[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]]), LHAAC 2025 Australian Coordinated Sampling Project 41 (n=380, [[sources/lhaac2025-csp41-herbs-spices-wa]]), NYS DOH 2019 spice-specific health-based guidance values ([[sources/nys-doh2019-metals-spices-guidance]]).
 
 ## Why this commodity accumulates heavy metals

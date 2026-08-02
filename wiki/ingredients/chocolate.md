@@ -87,30 +87,6 @@ updated: 2026-05-16
 
 # Chocolate
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 4/10 HMTc analytes, total n=27 | only 4/10 analytes have evidence |
-| D2 Regional coverage | below-tier | 33 jurisdictions, top EU 41% | only 33 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | 3 drinking-water + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 3 drivers, 4 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, Ni THIN, tAs POOLABLE | Ni: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 35 claims checked, 35 supported; 8 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming chocolate: efsa-nickel-contam-2020, pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc, elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
-| D10 Regulatory coverage | below-tier | 3 rule link(s), 1 metal(s) covered | crosswalk thin: 3/4 populated analytes have no linked governing limit |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, Ni, tAs; pairing 0 paired, 4 single, 0 unpaired | Ni: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Chocolate is a processed derivative of [[ingredients/cocoa]] and inherits cadmium from its cocoa-solid fraction; cadmium content scales approximately with cocoa-solid percentage and with cocoa origin.
 
 ## Heavy metal contamination profile

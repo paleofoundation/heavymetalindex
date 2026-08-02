@@ -99,30 +99,6 @@ sources: 4
 
 # Pork chop
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | below-tier | 5/10 HMTc analytes, total n=13 | common tier expects total n>=15; have 13 |
-| D2 Regional coverage | below-tier | 1 jurisdictions, top CN 100% | only 1 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, tHg THIN, Ni THIN, Cr THIN | Pb: THIN; Cd: THIN; tAs: THIN; tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Cr: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 6/10 populated cells declare a basis token | 4 populated cell(s) lack a basis token: iAs, Al, Sn, U |
-| D8 Provenance integrity | GAP | 16 claims checked, 16 supported; 4 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming pork-chop: fda2022-tds-elements-fy2018-fy2020, maikanov2021-meats-shuchinsk-burabay-metals |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN; Cd: THIN; tAs: THIN; tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); basis: 4 populated cell(s) lack a basis token: iAs, Al, Sn, U; depth below common bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study element-results ingest so future source ingests have a stable destination for this food matrix. FDA reports this item as TDS Food 18, "Pork chop, pan-cooked with oil." [[sources/fda2022-tds-elements-fy2018-fy2020]]
 
 ## Why this commodity accumulates heavy metals

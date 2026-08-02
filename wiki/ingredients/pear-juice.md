@@ -107,15 +107,6 @@ updated: 2026-05-20
 
 # Pear juice
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Not yet characterized — scorecard activates at 2 contributing A-tier sources._
-
-<!-- /hmi-completeness-scorecard -->
-
-
 > **Provisional scaffold.** This page was created automatically on 2026-05-20 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** fsanz2012-arsenic-apple-pear-juice-australia-nz declares ingredients/pear-juice (4 pear juice samples, all total-arsenic non-detects); ingredient page did not yet exist

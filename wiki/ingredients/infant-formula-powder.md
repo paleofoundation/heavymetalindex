@@ -88,30 +88,6 @@ sources: 21
 
 # Infant Formula Powder
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 4/10 HMTc analytes, total n=13 | only 4/10 analytes have evidence |
-| D2 Regional coverage | OK | 26 jurisdictions, top EU 22% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE | — |
-| D6 Speciation | OK | iAs, tAs declared | — |
-| D7 Basis declaration | GAP | 0/9 populated cells declare a basis token | 9 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 14 claims checked, 14 supported; 2 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming infant-formula-powder: jackson2012-arsenic-organic-foods-brown-rice-syrup, burrell2010-aluminium-in-infant-formulas |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tAs |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tAs; pairing 0 paired, 4 single, 0 unpaired | basis: 9 populated cell(s) lack a basis token: Pb, Cd, iAs, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.75 | spread 0.75 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
 ## Heavy metal contamination profile

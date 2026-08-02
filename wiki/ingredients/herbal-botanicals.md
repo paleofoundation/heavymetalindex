@@ -88,30 +88,6 @@ sources: 61
 
 # Herbal botanicals
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=74 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 48 jurisdictions, top CN 23% | — |
-| D3 Anthropogenic evidence | GAP | 8 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 9 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | POOLABLE | Pb CONFIDENT, Cd CONFIDENT, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr POOLABLE, tAs CONFIDENT | — |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 4 claims checked, 4 supported; 20 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming herbal-botanicals: knoll2024-honeybee-cadmium-review |
-| D9 Mitigation | OK | 5 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tHg, Ni, Al, Cr, tAs |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 7 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.75 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
 ## Heavy metal contamination profile

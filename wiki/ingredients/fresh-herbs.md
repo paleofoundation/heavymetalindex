@@ -91,30 +91,6 @@ created_routed_sources: 3
 
 # Fresh Herbs
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=12 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 4 jurisdictions, top IR 50% | — |
-| D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN | tAs: needs 2 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Al: needs 2 more study(ies); Cr: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming fresh-herbs: lhaac2025-csp41-herbs-spices-wa |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 2 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Fresh herbs — the live or freshly-cut leaves, flowers, and aerial plant parts of culinary aromatic plants (basil, parsley, cilantro, dill, mint, thyme, oregano, sage, rosemary, chives, tarragon, marjoram) — sit at the lower end of the herbs-and-spices category by per-mass concentration because the fresh form has not undergone the 7-10× concentration uplift that drying produces. Fresh herbs are commonly grown in home gardens, community gardens, urban allotments, and small-scale commercial production, which means siting variability (roadside, industrial-corridor) drives much of the within-category variance on Pb specifically. The current corpus loads 3 directly-routed sources: Fischer 2022 Polish mercury in spice plants (n=48 including fresh-leaf samples, [[sources/fischer2022-mercury-spice-plants-poland]]), LHAAC 2025 Australian Coordinated Sampling Project 41 covering both fresh and dried product (n=380, [[sources/lhaac2025-csp41-herbs-spices-wa]]), and Winiarska-Mieczan 2023 Polish Cd-Pb in 432 herb-and-single-component-spice samples covering fresh herbs as a subset ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]). The paired-product comparison with [[ingredients/dried-herbs]] establishes the fresh-vs-dried-basis factor; the same plant species at the same source carries roughly 1/8 to 1/10 the per-mass Pb-and-Cd of the dried form purely from the moisture-removal accounting.
 
 ## Why this commodity accumulates heavy metals

@@ -91,30 +91,6 @@ sources: 7
 
 # Peach
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | GAP | 4/10 HMTc analytes, total n=13 | only 4/10 analytes have evidence |
-| D2 Regional coverage | below-tier | 5 jurisdictions, top US 67% | over-concentrated: US supplies 67% of sources |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, Ni THIN, Cr THIN, U THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); Ni: needs 1 more study(ies); Cr: THIN; U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 2/10 populated cells declare a basis token | 8 populated cell(s) lack a basis token: Cd, iAs, tAs, tHg, Ni, Al, Sn, U |
-| D8 Provenance integrity | GAP | 22 claims checked, 22 supported; 6 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming peach: fda2022-tds-elements-fy2018-fy2020, rezaei2020-fruits-markazi-essential-elements, hadi2025-dried-fruits-heavy-metals-iraq |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Cr, U; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN; U: THIN, needs 1 more study(ies); basis: 8 populated cell(s) lack a basis token: Cd, iAs, tAs, tHg, Ni, Al, Sn, U; depth below occasional bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
 ## Why this commodity accumulates heavy metals

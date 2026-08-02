@@ -91,30 +91,6 @@ created_routed_sources: 13
 
 # Herbs And Spices
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=46 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 26 jurisdictions, top EU 28% | — |
-| D3 Anthropogenic evidence | GAP | 4 drinking-water + 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd POOLABLE, iAs THIN, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al POOLABLE, Cr POOLABLE, Sn THIN | iAs: needs 1 more study(ies); Ni: THIN; Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 18 claims checked, 18 supported; 8 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 4 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 more study(ies); Ni: THIN; Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Herbs and spices — the aromatic and flavor-imparting plant materials that make up the seasoning category, including ground dried plant parts like turmeric, cinnamon, paprika, black pepper, cumin, coriander, oregano, basil, parsley, and dozens more — sit at the high end of the food-system heavy-metals distribution by mass concentration. Two structural reasons drive the elevated profile: drying concentrates metals on a per-mass basis relative to fresh plant material by 5-10×, and the global spice trade includes a documented adulteration pathway in which lead chromate, lead oxide, and lead-based pigment dyes are added to enhance color or extend product weight. The current corpus loads 13 peer-reviewed and government sources spanning Italy, Saudi Arabia, India, Iran, Indonesia, Vietnam, UAE, Poland, EU, Australia, New York State (US), North Carolina (US), Pennsylvania (US), and European market-wide assessments. The US adulteration case literature — particularly the Angelon-Gaetz 2018 North Carolina home-investigation cohort linking spice consumption to elevated childhood blood-lead levels and the Huff 2025 Lancaster, Pennsylvania spice survey — provides direct evidence for the adulteration pathway as a population-scale exposure source.
 
 ## Why this commodity accumulates heavy metals

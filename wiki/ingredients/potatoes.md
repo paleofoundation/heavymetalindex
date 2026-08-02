@@ -92,30 +92,6 @@ updated: 2026-06-23
 
 # Potatoes
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=59 | — |
-| D2 Regional coverage | below-tier | 51 jurisdictions, top EU 26% | only 51 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | 6 drinking-water + 3 soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 9 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs THIN, tHg THIN, Ni POOLABLE, Al POOLABLE, Cr THIN, Sn THIN, tAs POOLABLE | iAs: THIN; tHg: THIN; Cr: THIN; Sn: THIN |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 3/10 populated cells declare a basis token | 7 populated cell(s) lack a basis token: Cd, iAs, Ni, Al, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 44 claims checked, 44 supported; 14 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming potatoes: fda2022-tds-elements-fy2018-fy2020, fda-ctz-Pb-babyfood-2025, fda-iAs-rice-cereal-2020 |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | Mitigation options section empty/missing |
-| D10 Regulatory coverage | OK | 4 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN; tHg: THIN; Cr: THIN; Sn: THIN; basis: 7 populated cell(s) lack a basis token: Cd, iAs, Ni, Al, Sn, tAs, U |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Potatoes are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] as one of the population-level dietary cadmium contributors, placed in a joint "starchy roots and potatoes" category alongside other root vegetables. The commodity is distinct from the root-vegetables-for-babies category that the FDA CTZ Pb guidance treats under a dedicated 20 ppb action level.
 
 ## Heavy metal contamination profile

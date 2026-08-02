@@ -91,30 +91,6 @@ created_routed_sources: 10
 
 # Seaweed
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=39 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 35 jurisdictions, top CN 25% | — |
-| D3 Anthropogenic evidence | GAP | 5 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE, Ni THIN, Cr THIN | Ni: THIN; Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 5 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming seaweed: llorente-mirandes2016-ias-food-analytical-review |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Cr; pairing 0 paired, 7 single, 0 unpaired | Ni: THIN; Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Seaweed (edible macroalgae: nori, wakame, kombu, hijiki, dulse, kelp, sea lettuce, and farmed and wild-harvested species) is among the highest-concentration heavy-metal ingredients in the food system, with cadmium and arsenic the dominant analytes. Marine macroalgae bioaccumulate dissolved seawater metals at concentration factors of 1,000-100,000× relative to ambient seawater, producing tissue concentrations of total arsenic that routinely reach 5-80 mg/kg dry weight, orders of magnitude above any terrestrial-plant matrix. The crucial qualifier for arsenic is speciation: most seaweed arsenic is in organoarsenic forms (arsenosugars, arsenolipids, arsenobetaine, dimethylarsinic acid) rather than inorganic arsenic. Inorganic arsenic (iAs), the regulated and toxicologically dominant form, typically represents 1-10% of total arsenic in seaweed — but the exception is hijiki (Sargassum fusiforme), which carries 30-70% of its arsenic as iAs and accounts for the regulatory bans on hijiki in the EU, UK, Canada, and Australia. The current corpus loads 10 peer-reviewed and government sources, anchored by the EFSA 2023 European dietary exposure assessment (n=2,093 samples) ([[sources/efsa2023-heavy-metals-seaweed]]).
 
 ## Why this commodity accumulates heavy metals

@@ -31,30 +31,6 @@ created_routed_sources: 4
 
 # Legumes
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | GAP | 3/10 HMTc analytes, total n=10 | only 3/10 analytes have evidence |
-| D2 Regional coverage | OK | 18 jurisdictions, top CN 41% | — |
-| D3 Anthropogenic evidence | GAP | 2 drinking-water + 2 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 3 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, Ni POOLABLE | — |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming legumes: codex-cxs-193-1995 |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, Ni |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, Ni; pairing 0 paired, 3 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below common bar |
-| **Principle balance** | **flag** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.75 | spread 0.75 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 

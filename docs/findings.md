@@ -383,3 +383,22 @@ pages named. I am proceeding on that basis; ground C is mine, but the spec says 
 and I am knowingly shipping "above", so you should know.
 
 **Tier:** 1
+
+## F-23 · Product scaffold prose references "HMTc Taxonomy" on public pages (Part 2 firewall)
+
+**Job / where:** ~302 `wiki/products/*.md` scaffold pages open with headless prose:
+"This page is a scaffolded entry for **HMTc Taxonomy v2.0 Category N**, Row M…"
+(e.g. `wiki/products/sun-suntan-products.md`). This is certification-program framing
+on the public, evidentially-independent wiki — the Part 2 firewall says the wiki
+reports literature and does not reference HMTc.
+
+**Why it matters:** surfaced while normalizing intro sections to `## Overview`.
+Wrapping this text in an `## Overview` heading would *enshrine* the firewall breach
+as the official page intro, so products were deliberately excluded from the Overview
+pass. The prose should be rewritten to describe the product category in
+literature-native terms (what it is, why metals matter for it), with the taxonomy
+mapping moved to staff/HMTc surfaces — NOT given an Overview heading as-is.
+
+**Not chased** (out of scope for the Overview task; not a false statement, so below
+the interrupt bar). Fix = a product-scaffold prose generator that writes a
+literature-native intro. Tier: 1

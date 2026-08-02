@@ -95,30 +95,6 @@ sources: 2
 
 # Pork sausages
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | below-tier | 1 jurisdictions, top RO 100% | only 1 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs THIN, tHg THIN, Ni THIN, Cr THIN, U THIN | tAs: needs 1 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Cr: needs 2 more study(ies); U: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 4/10 populated cells declare a basis token | 6 populated cell(s) lack a basis token: Pb, Cd, iAs, Al, Sn, U |
-| D8 Provenance integrity | GAP | 20 claims checked, 20 supported; 4 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming pork-sausages: fsa2016-infant-food-formula-metals-survey, fda2022-tds-elements-fy2018-fy2020, zhang2022-pork-heavy-metals-china |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 6 metal(s) covered | unmapped analytes: Ni, Cr, U |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr, U; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); U: THIN, needs 1 more study(ies); basis: 6 populated cell(s) lack a basis token: Pb, Cd, iAs, Al, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Why this commodity accumulates heavy metals

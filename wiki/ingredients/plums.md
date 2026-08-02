@@ -91,30 +91,6 @@ created_routed_sources: 2
 
 # Plums
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: rare) | GAP | 4/10 HMTc analytes, total n=7 | only 4/10 analytes have evidence |
-| D2 Regional coverage | OK | 5 jurisdictions, top RO 25% | — |
-| D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tAs THIN, Ni THIN, Cr THIN | Pb: needs 1 more study(ies); Cd: needs 1 more study(ies); tAs: needs 2 more study(ies); Ni: needs 2 more study(ies); Cr: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 6 claims checked, 6 supported; 2 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Cr; pairing 0 paired, 5 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 2 more study(ies); Ni: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below rare bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Plums (Prunus domestica, European plum; Prunus salicina, Japanese plum) are stone fruits grown commercially across temperate climates: California (US), China (the world's largest producer), Serbia, Romania, Turkey, France, and Italy. The current corpus loads 2 directly-routed sources: Lee 2023 South Korean fresh fruits 7-metal panel covering plums within the broader survey (n=207 across multiple fruits, [[sources/lee2023-south-korea-fresh-fruits-seven-metals]]) and Sembratowicz 2010 Polish domestic fruits nitrate-Pb-Cd panel covering plums (n=108, [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits]]). Plums sit at the lower-middle of the fresh-fruit category for Pb-and-Cd; dried plums (prunes) carry concentrated metals on a dry-weight basis through the drying step.
 
 ## Why this commodity accumulates heavy metals

@@ -91,30 +91,6 @@ created_routed_sources: 4
 
 # Cabbage
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=17 | labeled data-gaps: iAs, Sn |
-| D2 Regional coverage | OK | 13 jurisdictions, top NG 18% | — |
-| D3 Anthropogenic evidence | GAP | 3 irrigation-water + 1 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 3 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr POOLABLE | tAs: needs 1 more study(ies); tHg: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 5 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming cabbage: islam2007-dietary-toxicity-vegetables-food-crops |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Cabbage (Brassica oleracea var. capitata) is the head-forming leafy vegetable consumed fresh as slaw, fermented as sauerkraut and kimchi, and cooked in countless preparations. As a brassica, cabbage sits at the middle of the vegetable-category heavy-metals risk distribution: lower than open-leaf greens (spinach, kale) because the compact head structure reduces surface-area-to-volume ratio and atmospheric Pb deposition, but a moderate Cd accumulator because brassicas as a family tend to take up cadmium efficiently from soil. The current corpus loads 4 sources directly routed to cabbage plus broader vegetable surveys reachable via the routing layer: Armand 2026 Behbahan Iran probabilistic lettuce-and-cabbage risk assessment (n=40, [[sources/armand2026-lettuce-cabbage-behbahan]]), Islam 2007 dietary toxicity in vegetables and food crops covering cabbage cross-context ([[sources/islam2007-dietary-toxicity-vegetables-food-crops]]), Okonofua 2024 Nigerian mining-pits cabbage-fish-water bioaccumulation work (n=48, [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria]]), Reczajska 2005 Polish 272-sample chromium in plant foods including cabbage ([[sources/reczajska2005-chromium-plant-foods-poland]]), See 2025 Malaysian leafy-vegetable ICP-OES panel (n=12, [[sources/see2025-malaysia-leafy-vegetables-icp-oes]]).
 
 ## Why this commodity accumulates heavy metals

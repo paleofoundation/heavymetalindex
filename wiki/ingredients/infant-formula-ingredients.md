@@ -27,30 +27,6 @@ updated: 2026-05-16
 
 # Infant Formula Ingredients
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=37 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 12 jurisdictions, top EU 31% | — |
-| D3 Anthropogenic evidence | GAP | 3 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 6 drivers, 3 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg CONFIDENT, Ni THIN, Al THIN, tAs CONFIDENT, Cr THIN, Sn THIN | iAs: needs 1 distinct source(s); Ni: needs a sample-level-backed source; Al: needs a sample-level-backed source; Cr: needs 1 more study(ies); Sn: needs 1 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 7 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming infant-formula-ingredients: chuchu2013-aluminium-in-infant-formulas, dabeka2011-canada-infant-formula-lead-cadmium-aluminum, astolfi2021-italy-powdered-infant-formula-elements |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 1 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 8 paired, 1 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs a sample-level-backed source; Al: THIN, needs a sample-level-backed source; Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Burrell and Exley 2010 argues that aluminum in infant formula is likely contamination from formula constituents, processing equipment, storage, and packaging rather than an intentionally added ingredient. Chuchu et al. 2013 repeats the ingredient and processing concern and highlights aluminum-based packaging as a plausible contamination route. Dabeka et al. 2011 adds Canada-market format, formula-type, and packaging context for Al, Cd, and Pb in formula and infant-support liquids. Astolfi et al. 2021 adds an Italian powder-only multi-element survey in which nickel, cadmium, lead, tin, zinc, and manganese support powdered-formula evidence, while aluminum, arsenic, and chromium are retained only as detection-limit context because more than 30% of results were below LOD. Kazi et al. 2009 adds milk-based versus soy-based formula variance for Al, Cd, and Pb in imported formulae purchased in Pakistan. This page is a graph anchor for formula-input and processing-driver evidence, not a claim that a single ingredient explains all formula metal findings. [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]
 ## Heavy metal contamination profile
 

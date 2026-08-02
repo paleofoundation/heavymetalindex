@@ -91,30 +91,6 @@ created_routed_sources: 3
 
 # Olives
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 5/10 HMTc analytes, total n=11 | labeled data-gaps: tAs, iAs, Al |
-| D2 Regional coverage | OK | 9 jurisdictions, top TR 20% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, tHg THIN, Ni THIN, Cr THIN, Sn THIN | Pb: THIN; Cd: needs 1 more study(ies); tHg: needs 2 more study(ies); Ni: needs 1 more study(ies); Cr: needs 1 more study(ies); Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 9 claims checked, 9 supported; 3 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Cr, Sn; pairing 0 paired, 6 single, 0 unpaired | Pb: THIN; Cd: THIN, needs 1 more study(ies); tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Olive (Olea europaea) is a Mediterranean tree fruit consumed primarily after curing (table olives) or pressing (olive oil; see [[ingredients/olive-oil]]). For table olives, the dominant heavy-metals concerns are lead (Pb) — driven by canning and to a lesser extent by atmospheric deposition on the fruit surface — and the cluster of soil-mobile metals (Ni, Cr) accumulated through root uptake. The currently loaded corpus on olives is three peer-reviewed studies spanning Turkey, Malta, and Iran ([[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives]], [[sources/vella2024-malta-olive-cultivars-aas]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran]]). The corpus has a methodological gap for cadmium: the Maltese cultivar study measured Cd by FAAS at concentrations near the analytical floor, producing standard errors equal to or larger than the measured values; the Turkish table-olive study did not measure Cd or As at all; the Iranian canned-olive study did report Cd but the values are not yet extracted into structured form. Sample sizes are small (n=4, n=26, and 49 split across three product types), so the loaded picture is anchored on a few dozen samples rather than a representative-market distribution.
 
 ## Why this commodity accumulates heavy metals

@@ -27,30 +27,6 @@ updated: 2026-05-16
 
 # Milk And Dairy
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=114 | — |
-| D2 Regional coverage | below-tier | 50 jurisdictions, top CN 15% | only 50 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | 3 soil + 9 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 10 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, iAs THIN, tHg CONFIDENT, Ni THIN, Al THIN, tAs CONFIDENT, Cr POOLABLE, Sn THIN | iAs: needs 1 distinct source(s); Ni: needs a sample-level-backed source; Al: needs a sample-level-backed source; Sn: needs 1 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 9 citations, 0 orphan, 5 foreign | 5 foreign citation(s) not naming milk-and-dairy: chekri2019-french-infant-toddler-tds-trace-elements, chuchu2013-aluminium-in-infant-formulas, dabeka2011-canada-infant-formula-lead-cadmium-aluminum |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 distinct source(s); Ni: THIN, needs a sample-level-backed source; Al: THIN, needs a sample-level-backed source; Cr: POOLABLE; Sn: THIN, needs 1 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks, milk-based beverages, milk-based desserts, and common dairy categories. Burrell and Exley 2010 and Chuchu et al. 2013 report aluminum in cow-milk-based infant formula products, but do not isolate raw cow milk from finished formula constituents and processing. Dabeka et al. 2011 reports milk-based formula by powder, concentrated liquid, and ready-to-use formats, but those are product-level rows rather than raw dairy occurrence distributions. Astolfi et al. 2021 reports powdered infant formula as sold in Italy, but does not provide a raw-milk or dairy-ingredient concentration row. Kazi et al. 2009 reports milk-based infant formula as a comparator to soy-based formula, not a raw dairy occurrence distribution. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] [[sources/burrell2010-aluminium-in-infant-formulas]] [[sources/chuchu2013-aluminium-in-infant-formulas]] [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] [[sources/astolfi2021-italy-powdered-infant-formula-elements]] [[sources/kazi2009-toxic-elements-in-infant-formulae]]
 ## Heavy metal contamination profile
 

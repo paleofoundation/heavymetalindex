@@ -91,30 +91,6 @@ created_routed_sources: 14
 
 # Leafy Vegetables
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 8/10 HMTc analytes, total n=55 | — |
-| D2 Regional coverage | OK | 29 jurisdictions, top CN 31% | — |
-| D3 Anthropogenic evidence | GAP | 4 irrigation-water + 4 agricultural-soil + 8 soil + 4 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 16 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd POOLABLE, iAs THIN, tAs POOLABLE, tHg THIN, Ni POOLABLE, Al POOLABLE, Cr THIN, Sn THIN | iAs: THIN; tHg: needs 1 more study(ies); Cr: THIN; Sn: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 9 citations, 0 orphan, 4 foreign | 4 foreign citation(s) not naming leafy-vegetables: kim2024-metals-kale-urban-rural-maryland, adhikari2024-leafy-vegetables-johannesburg, chiutula2025-wastewater-vegetables-malawi |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN; tHg: THIN, needs 1 more study(ies); Cr: THIN; Sn: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Leafy vegetables — spinach, lettuce, kale, chard, amaranth, cabbage, mustard greens, and dozens of regionally specific leafy greens consumed as salad, cooked greens, or supplement powder — sit at the top of the vegetable-category heavy-metals risk profile. Three converging factors produce this elevated risk: high surface-area-to-volume ratio per gram, which makes leafy tissue an effective collector of atmospheric Pb and Cd deposition; leaf physiology that translocates soluble soil metals like Cd, Cr, and Ni into leaf tissue at higher rates than fruit or root vegetables; and the common siting of urban and peri-urban leafy-vegetable production near roadside and industrial sources of atmospheric contamination. The current corpus loads 14 peer-reviewed sources spanning Iran, South Africa, Bangladesh, Iraq, Romania, Hong Kong, Malawi, China, Burkina Faso, and Maryland (US), covering both subsistence and commercial production systems.
 
 ## Why this commodity accumulates heavy metals

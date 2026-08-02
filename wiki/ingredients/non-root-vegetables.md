@@ -88,30 +88,6 @@ sources: 24
 
 # Non-root vegetables
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | GAP | 2/10 HMTc analytes, total n=2 | only 2/10 analytes have evidence |
-| D2 Regional coverage | OK | 9 jurisdictions, top CN 30% | — |
-| D3 Anthropogenic evidence | GAP | 1 irrigation-water + 1 agricultural-soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | iAs THIN, tHg THIN | iAs: needs 2 more study(ies); tHg: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/8 populated cells declare a basis token | 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming non-root-vegetables: fsa2016-infant-food-formula-metals-survey |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 6 metal(s) covered | — |
-| D11 Standards-readiness | NOT-READY | priority: iAs, tHg; pairing 0 paired, 2 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); basis: 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below staple bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
 ## Why this commodity accumulates heavy metals

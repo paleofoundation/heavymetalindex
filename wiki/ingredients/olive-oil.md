@@ -91,30 +91,6 @@ created_routed_sources: 11
 
 # Olive Oil
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=47 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 28 jurisdictions, top IR 28% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tAs POOLABLE, tHg THIN, Ni POOLABLE, Al THIN, Cr POOLABLE | tHg: needs 1 more study(ies); Al: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 7 claims checked, 7 supported; 7 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Olive oil is the pressed liquid fraction of olive (Olea europaea) fruit, available in grades from extra virgin (first cold press) through refined olive oil to olive pomace oil (solvent-extracted from the spent pomace). The heavy-metals profile of olive oil is qualitatively distinct from table olives: most of the soil-derived metal load partitions into the pomace and brine during pressing rather than into the oil itself, so olive oil is generally a lower-Cd, lower-Cr commodity than table olives. The dominant heavy-metals concerns for olive oil are lead and cadmium driven primarily by packaging-and-contact-material migration, with a secondary contribution from soil-Pb and atmospheric Pb deposition on the fruit prior to pressing. The currently loaded corpus is eleven sources spanning Iran, Cyprus, Spain, Italy, Saudi Arabia, Ireland, Turkey, Brazil, and Morocco, including two systematic reviews ([[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review]], [[sources/silva2025-edible-oils-health-sustainability]]) covering the global olive-oil literature through 2025.
 
 ## Why this commodity accumulates heavy metals

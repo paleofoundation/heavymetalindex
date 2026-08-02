@@ -88,30 +88,6 @@ sources: 24
 
 # Camellia sinensis
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=70 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | below-tier | 18 jurisdictions, top CN 70% | over-concentrated: CN supplies 70% of sources |
-| D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 2 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb CONFIDENT, Cd CONFIDENT, tHg POOLABLE, Ni POOLABLE, Al POOLABLE, Cr CONFIDENT, Sn THIN, tAs POOLABLE | Sn: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | OK | 2 claims checked, 2 supported; 0 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 8 single, 0 unpaired | Sn: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.63, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Camellia sinensis is the tea plant, the source of black, green, white, and oolong teas. Its heavy-metal profile is the subject of a dedicated synthesis, [[synthesis/tea-multi-metal-bioaccumulation]], which carries the load-bearing finding for this ingredient: tea is a multi-metal bioaccumulator and an aluminium hyperaccumulator whose as-consumed exposure is governed by the metal-specific, origin-dependent leaf-to-infusion transfer fraction rather than by the dry-leaf totals tabulated below. The table that follows is on a dry-leaf basis and, per the synthesis, overstates the dose delivered in the brewed cup; the transfer-fraction and infusion-basis caveats live on the synthesis page.
 
 ## Heavy metal contamination profile

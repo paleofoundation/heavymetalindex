@@ -27,30 +27,6 @@ updated: 2026-05-16
 
 # Vegetables
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | OK | 8/10 HMTc analytes, total n=205 | — |
-| D2 Regional coverage | OK | 53 jurisdictions, top CN 22% | — |
-| D3 Anthropogenic evidence | GAP | 10 soil + 3 irrigation-water + 4 agricultural-soil + 12 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 24 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs THIN, tHg THIN, Ni THIN, Al POOLABLE, tAs CONFIDENT, Cr CONFIDENT, Sn POOLABLE | iAs: needs 2 distinct source(s); tHg: needs 1 distinct source(s); Ni: needs 2 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 16 claims checked, 16 supported; 21 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming vegetables: chekri2019-french-infant-toddler-tds-trace-elements, fda-tds-elements-2018-2020 |
-| D9 Mitigation | OK | 4 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn; pairing 6 paired, 3 single, 0 unpaired | Pb: POOLABLE; iAs: THIN, needs 2 distinct source(s); tHg: THIN, needs 1 distinct source(s); Ni: THIN, needs 2 distinct source(s); Al: POOLABLE; Sn: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals for French infants and toddlers, but does not split root from non-root vegetables in the main trace-element table. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
 ## Heavy metal contamination profile
 

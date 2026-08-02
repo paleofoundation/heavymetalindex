@@ -91,30 +91,6 @@ created_routed_sources: 3
 
 # Hazelnuts
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: rare) | GAP | 4/10 HMTc analytes, total n=12 | only 4/10 analytes have evidence |
-| D2 Regional coverage | below-tier | 16 jurisdictions, top EU 80% | over-concentrated: EU supplies 80% of sources |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, tHg THIN, Ni CONFIDENT, Cr THIN | tHg: needs 2 more study(ies); Cr: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 7 claims checked, 7 supported; 2 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Cr; pairing 0 paired, 5 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below rare bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Hazelnuts (Corylus avellana, also called filberts) are tree nuts grown commercially in Turkey (which produces ~70% of global supply, with the Black Sea coastal region the dominant production area), Italy (~13%, Piedmont and Campania regions), Azerbaijan (~5%), the United States (Oregon's Willamette Valley, ~3%), and Georgia. The heavy-metals profile follows the broader tree-nut pattern (see [[ingredients/walnuts]] for the category overview): high Ni from physiological accumulation, moderate Cd from soil uptake, low Pb due to woody-tissue barrier function. The current corpus loads 3 directly-routed sources: Cwielag-Drabek 2025 paired publications covering Polish 5-tree-nut panel (n=69 including hazelnuts, [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]) and the Fechner 2022 BfR MEAL Study (n=869 broader contaminant panel including hazelnuts, [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]]). Hazelnuts are heavily used in chocolate confection (Nutella, Ferrero Rocher, hazelnut-praline chocolate), which routes the hazelnut metal profile into downstream products at high inclusion ratios.
 
 ## Why this commodity accumulates heavy metals

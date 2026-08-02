@@ -27,30 +27,6 @@ updated: 2026-05-16
 
 # Meat And Poultry
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | below-tier | 7/10 HMTc analytes, total n=38 | staple tier expects total n>=40; have 38 |
-| D2 Regional coverage | below-tier | 28 jurisdictions, top EU 27% | only 28 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, tHg THIN, Ni THIN, Al THIN, tAs CONFIDENT, Cr THIN, Sn THIN | tHg: needs 2 distinct source(s); Ni: needs 2 distinct source(s); Al: needs 2 distinct source(s); Cr: THIN; Sn: needs 2 distinct source(s) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming meat-and-poultry: chekri2019-french-infant-toddler-tds-trace-elements |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tHg, Ni, Al, tAs, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, tAs, Cr, Sn; pairing 5 paired, 3 single, 0 unpaired | Pb: POOLABLE; tHg: THIN, needs 2 distinct source(s); Ni: THIN, needs 2 distinct source(s); Al: THIN, needs 2 distinct source(s); Cr: THIN; Sn: THIN, needs 2 distinct source(s); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, tAs, Cr, Sn, U; depth below staple bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.25 | spread 0.83 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals as a combined category, so this source cannot isolate meat and poultry from fish-containing baby foods. [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
 ## Heavy metal contamination profile
 

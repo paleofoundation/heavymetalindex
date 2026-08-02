@@ -91,30 +91,6 @@ created_routed_sources: 4
 
 # Walnuts
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | GAP | 4/10 HMTc analytes, total n=14 | only 4/10 analytes have evidence |
-| D2 Regional coverage | OK | 9 jurisdictions, top EU 44% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water + 1 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, tHg THIN, Ni POOLABLE, Cr THIN | tHg: needs 2 more study(ies); Cr: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 7 claims checked, 7 supported; 3 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Cr; pairing 0 paired, 5 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; depth below occasional bar |
-| **Principle balance** | **flag** | consumer-protection 0.67, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
-
 Walnuts (Juglans regia, English/Persian walnut; Juglans nigra, Eastern black walnut) are tree nuts grown commercially in California (which produces ~99% of US commercial walnuts and ~38% of the global supply), China (~50% of global supply), Iran, Turkey, Chile, and Ukraine. The defining heavy-metals feature of walnuts and the broader tree-nut category is nickel accumulation: walnut tissue routinely carries Ni at 1,000-5,000 ppb dry weight, making walnuts among the highest dietary Ni sources alongside other tree nuts (hazelnuts, almonds, cashews), legumes, and certain leafy greens. The BfR MEAL Study identified walnuts and other tree nuts among the dominant nickel dietary contributors in the German diet ([[sources/bfr2022-nickel-dietary-intake-germany-meal]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]]). The Polish Cwielag-Drabek 2025 dataset (n=69 across almonds, cashews, hazelnuts, peanuts, walnuts) provides the most rigorous within-tree-nut comparison for Cd-Pb-Cr-Ni ([[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]).
 
 ## Why this commodity accumulates heavy metals
