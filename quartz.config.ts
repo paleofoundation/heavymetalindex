@@ -121,6 +121,11 @@ const config: QuartzConfig = {
       // corrected document. See titleHeading.ts.
       Plugin.TitleHeading(),
       Plugin.TableOfContents(),
+      // v3 section labels. AFTER TableOfContents deliberately: the rail and the
+      // page nav are built from the toc, and the toc must keep the ORIGINAL
+      // heading text so its slugs still match the ids in the document. This
+      // renames only what the reader sees.
+      Plugin.V3SectionLabels(),
       // Auto-link first prose mention of unambiguous metals; must run before
       // CrawlLinks so the inserted links are resolved + counted in the graph.
       Plugin.AutoLink(),
