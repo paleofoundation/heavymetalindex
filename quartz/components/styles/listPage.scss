@@ -20,7 +20,8 @@ li.section-li {
   & > .section {
     background: var(--light);
     border: 1px solid var(--lightgray);
-    border-radius: var(--radius-md);
+    // §2: radii 2-3px everywhere. --radius-md was 8px on the registry card.
+    border-radius: 3px;
     box-shadow: var(--shadow-xs);
     display: grid;
     gap: 1rem;
@@ -79,7 +80,8 @@ li.section-li {
   & .meta > span {
     background: var(--highlight);
     border: 1px solid var(--color-primary-200);
-    border-radius: 999px;
+    // §2: chips are radius 2px, not full pills.
+    border-radius: 2px;
     color: var(--secondary);
     font-size: 0.72rem;
     font-weight: 600;

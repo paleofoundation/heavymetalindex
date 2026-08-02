@@ -151,7 +151,8 @@
 .hmi-product-brief-links a {
   background: rgba(139, 42, 74, 0.06);
   border: 1px solid rgba(139, 42, 74, 0.18);
-  border-radius: var(--radius-sm);
+  // §2: radii 2-3px everywhere (--radius-sm was 4px).
+  border-radius: 3px;
   color: var(--secondary);
   font-size: 0.82rem;
   font-weight: 700;

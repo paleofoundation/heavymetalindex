@@ -179,6 +179,10 @@ const shadowExempt = [
   ".rail-ld",
   ".cite-drawer",
   ".hmi-nav-panel",
+  // The citation hover card is a floating popover, like the mega-menu panel; its
+  // drop shadow is v3's (§2 exempts floating surfaces, not the CTA inside it —
+  // whose radius still conforms to 2px via v3-primitives.scss).
+  ".cite-card",
 ]
 
 const spec = {

@@ -51,7 +51,8 @@
     ".popover",
     ".rail-ld",
     ".cite-drawer",
-    ".hmi-nav-panel"
+    ".hmi-nav-panel",
+    ".cite-card"
   ],
   "_source": "Heavy Metal Index v3.dc.html",
   "_note": "Presence assertions are extracted from the artifact, not authored. A missing block must fail the gate by name.",

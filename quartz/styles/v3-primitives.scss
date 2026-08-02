@@ -1,0 +1,42 @@
+// v3 content primitives — quartz/styles/v3-primitives.scss
+//
+// CHROME-SPEC §2: "radii 2-3px everywhere. No box-shadow outside the mega-menu
+// panel, modals, and the source drawer." A dozen small elements shipped 4-8px
+// (or 999px pills) from base.scss, _legacy-all.scss and a few component sheets.
+//
+// Stated once here, unlayered (imported below the v3 layer in custom.scss), so
+// these win over whatever base/legacy/component rule set the stray radius —
+// the same "declare it once and let unlayered win" pattern the chrome uses,
+// rather than hunting a 4px default across three stylesheets.
+
+// ── radius offenders → 3px ────────────────────────────────────────────────
+.skip-to-content,
+pre.rail-ld-panel,
+.site-footer-ask,
+.hmi-product-facts,
+.hmi-source-citation-panel {
+  border-radius: 3px;
+}
+
+// inline and block code — base.scss ships 4px
+code,
+pre > code {
+  border-radius: 3px;
+}
+
+// ── chips / pills → the §2 chip radius (2px) ──────────────────────────────
+// These shipped as 999px (full pills) or 4px. §2 chips are radius 2px.
+.cite-card-review,
+.cat-dir-count,
+.cat-sym {
+  border-radius: 2px;
+}
+
+// ── box-shadow ────────────────────────────────────────────────────────────
+// The skip link is a focus-only accessibility utility, not a floating surface;
+// it has no business carrying a drop shadow. (The citation hover card DOES keep
+// its shadow — it is a floating popover like the mega-menu panel, and is added
+// to the §2 shadow-exemption set instead, in v3-acceptance.json / check-v3.)
+.skip-to-content {
+  box-shadow: none;
+}
