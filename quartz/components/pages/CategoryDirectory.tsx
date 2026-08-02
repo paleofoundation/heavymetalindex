@@ -1,7 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import style from "../styles/listPage.scss"
 import { PageList, SortFn } from "../PageList"
-import { Root } from "hast"
+import { Root, ElementContent } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
@@ -45,43 +45,50 @@ export default ((opts?: { sort?: SortFn }) => {
       return <FolderContent {...props} />
     }
 
-    // Overview = the full page content (a prose "## Overview" section with
-    // internal links). The card grid / metal list is appended below it. The page
-    // body carries only the Overview, so its single H2 keeps the left section-nav
-    // minimal (Overview + the apparatus links) instead of dumping every heading.
+    // The page body carries the prose sections (Overview, "Full index" lead-in,
+    // …) and a generated "## Update history" block at the very end. The appended
+    // directory — metal groups or category cards — belongs UNDER the "Full
+    // index" heading, so it must render BEFORE Update history, not after the
+    // whole article (which stranded the heading with nothing under it and left
+    // two grids floating past the changelog). Split the tree at the Update
+    // history H2, render the body, then the directory, then Update history last.
     const root = tree as Root
-    const intro = (
-      root.children.length === 0 ? fileData.description : htmlToJsx(fileData.filePath!, root)
-    ) as ComponentChildren
+    const kids = (root.children ?? []) as ElementContent[]
+    const histIdx = kids.findIndex(
+      (n) =>
+        n.type === "element" &&
+        n.tagName === "h2" &&
+        typeof (n.properties as Record<string, unknown> | undefined)?.id === "string" &&
+        (n.properties as Record<string, unknown>).id === "update-history",
+    )
+    const bodyTree = { ...root, children: histIdx >= 0 ? kids.slice(0, histIdx) : kids } as Root
+    const histTree =
+      histIdx >= 0 ? ({ ...root, children: kids.slice(histIdx) } as Root) : null
+    const renderTree = (t: Root): ComponentChildren =>
+      (t.children.length === 0
+        ? fileData.description
+        : htmlToJsx(fileData.filePath!, t)) as ComponentChildren
 
-    if (vertical === "metals") {
-      // Small enough for no sub-pages: two grouped columns of metal tiles.
-      return (
-        <div class="popover-hint">
-          <article>{intro}</article>
-          {cats.map((g) => (
-            <section class="cat-sec">
-              <h2 class="cat-sec-title">{g.label}</h2>
-              <ul class="cat-sec-list">
-                {(g.members ?? []).map((m) => (
-                  <li>
-                    <a class="internal" href={resolveRelative(slug, m.slug as SimpleSlug)}>
-                      {m.symbol ? <span class="cat-sym">{m.symbol}</span> : null}
-                      {m.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ))}
-        </div>
-      )
-    }
-
-    // products / ingredients: a grid of cards linking to the category pages.
-    return (
-      <div class="popover-hint">
-        <article>{intro}</article>
+    const directory =
+      vertical === "metals" ? (
+        // Small enough for no sub-pages: two grouped columns of metal tiles.
+        cats.map((g) => (
+          <section class="cat-sec">
+            <h2 class="cat-sec-title">{g.label}</h2>
+            <ul class="cat-sec-list">
+              {(g.members ?? []).map((m) => (
+                <li>
+                  <a class="internal" href={resolveRelative(slug, m.slug as SimpleSlug)}>
+                    {m.symbol ? <span class="cat-sym">{m.symbol}</span> : null}
+                    {m.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      ) : (
+        // products / ingredients: a grid of cards linking to the category pages.
         <div class="cat-dir">
           {cats.map((g) => (
             <a
@@ -101,6 +108,13 @@ export default ((opts?: { sort?: SortFn }) => {
             </a>
           ))}
         </div>
+      )
+
+    return (
+      <div class="popover-hint">
+        <article>{renderTree(bodyTree)}</article>
+        {directory}
+        {histTree && <article>{renderTree(histTree)}</article>}
       </div>
     )
   }
