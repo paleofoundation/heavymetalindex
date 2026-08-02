@@ -194,7 +194,14 @@ footer.site-footer {
   display: flex;
   align-items: stretch;
   gap: 0;
-  position: relative;
+  /* NO `position: relative` here. The mega-menu panel is `position: absolute;
+     left: 0; right: 0` and must resolve those against `.hmi-topnav-inner` — the
+     full-width, relative header inner — so it spans the bar and, crucially,
+     ESCAPES the nav's `overflow: hidden` (its containing block sits outside the
+     nav). Making the item the containing block sized the panel to the 71px
+     trigger and let the nav clip it to nothing. The disclosure button is
+     visually hidden (1px, clipped), so it does not need the item as its
+     positioning context. */
 }
 
 /* ══ nav triggers (artifact 45, constant at 1993) ══════════════════════════

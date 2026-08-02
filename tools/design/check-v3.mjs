@@ -299,6 +299,16 @@ for (const p of PAGES) {
         const worst = navItems.reduce((a, b) => (b.slack > a.slack ? b : a), { label: "-", slack: 0 })
         const navRow = { slack: worst.slack, widest: worst.label }
 
+        // The panel drops below the bar as `position: absolute; left:0; right:0`,
+        // so it spans its CONTAINING BLOCK. That block must be `.hmi-topnav-inner`
+        // (full width) — never a `.hmi-nav-item`, which is 71px and lives inside
+        // the nav's `overflow: hidden`. A stray `position: relative` on the item
+        // once sized every panel to its trigger and let the nav clip it to
+        // nothing, with every §1.2 style assertion still green. Measured against
+        // the inner's width so the check is width-independent.
+        const innerW = Math.round(
+          (document.querySelector(".hmi-topnav-inner")?.getBoundingClientRect().width) ?? 0,
+        )
         const megaPanels = [...document.querySelectorAll(".hmi-nav-panel")].map((panel) => {
           const populated = [...panel.querySelectorAll(".hmi-nav-col")].filter(
             (c) => c.querySelector(".hmi-nav-colhead") && c.querySelector("ul > li > a"),
@@ -314,6 +324,7 @@ for (const p of PAGES) {
                   .join(" · ")
               : "NO RAIL",
             gridFirst: inner ? getComputedStyle(inner).gridTemplateColumns.split(" ")[0] : "NO INNER",
+            widthShortfall: innerW - Math.round(panel.getBoundingClientRect().width),
           }
         })
 
@@ -506,6 +517,14 @@ for (const p of PAGES) {
     })
     record("chrome", m.gridFirst === "280px", {
       page: p.url, kind: "structure", sel: m.id, prop: "grid col 1", want: "280px", got: m.gridFirst,
+    })
+    // The panel spans the header inner (containing block = .hmi-topnav-inner, not
+    // a 71px .hmi-nav-item). A shortfall means the panel was sized to a trigger
+    // and clipped by the nav's overflow — invisible to every style assertion. A
+    // few px of rounding is tolerated; a collapse to trigger width is ~1300px.
+    record("chrome", m.widthShortfall <= 2, {
+      page: p.url, kind: "structure", sel: m.id, prop: "panel width vs header inner",
+      want: "full (shortfall ≤ 2px)", got: `shortfall ${m.widthShortfall}px`,
     })
   }
   for (const [name, hits] of [
