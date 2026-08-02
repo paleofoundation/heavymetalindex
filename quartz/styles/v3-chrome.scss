@@ -415,6 +415,16 @@ footer.site-footer {
 
 .hmi-topnav-brand {
   display: flex;
+  /* flex-direction: row is load-bearing. topNav.scss still ships
+     `flex-direction: column` from the old design, where the wordmark sat over an
+     "Operated by …" sub-line. That sub-line moved to the footer, but the column
+     direction stayed — so in the 68px-tall brand `align-items: center` only
+     centred the wordmark HORIZONTALLY (a column's cross-axis), and with no
+     `justify-content` it pinned to the top: the logo rendered 21px above the
+     bar's centre while the nav items sat on it. Row makes `align-items: center`
+     the vertical centring it reads as. §1.1: the wordmark is `display: flex;
+     align-items: center`, i.e. a row. */
+  flex-direction: row;
   align-items: center;
   flex: 0 0 auto;
   white-space: nowrap;

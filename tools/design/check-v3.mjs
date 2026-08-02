@@ -319,6 +319,21 @@ for (const p of PAGES) {
         const worst = navItems.reduce((a, b) => (b.slack > a.slack ? b : a), { label: "-", slack: 0 })
         const navRow = { slack: worst.slack, widest: worst.label }
 
+        // The wordmark must be VERTICALLY CENTRED in the bar. `align-items:
+        // center` is necessary but not sufficient: a stray `flex-direction:
+        // column` on the brand made that centre HORIZONTAL and pinned the
+        // wordmark to the top, 21px above the bar's midline while the nav items
+        // sat on it. No property is wrong — only the relationship between the
+        // wordmark's midline and the inner's.
+        const innerEl = document.querySelector(".hmi-topnav-inner")
+        const wm = document.querySelector(".hmi-topnav-wordmark")
+        let wordmarkOffCentre = -1
+        if (innerEl && wm) {
+          const ir = innerEl.getBoundingClientRect()
+          const wr = wm.getBoundingClientRect()
+          wordmarkOffCentre = Math.round(Math.abs((wr.top + wr.bottom) / 2 - (ir.top + ir.bottom) / 2))
+        }
+
         // The panel drops below the bar as `position: absolute; left:0; right:0`,
         // so it spans its CONTAINING BLOCK. That block must be `.hmi-topnav-inner`
         // (full width) — never a `.hmi-nav-item`, which is 71px and lives inside
@@ -505,6 +520,7 @@ for (const p of PAGES) {
           railBorder,
           footer,
           navRow,
+          wordmarkOffCentre,
           hero,
           neg,
         }
@@ -579,6 +595,10 @@ for (const p of PAGES) {
   record("chrome", res.navRow.slack === 0, {
     page: p.url, kind: "structure", sel: ".hmi-nav-item", prop: "width beyond its trigger",
     want: "0px", got: `${res.navRow.slack}px` + (res.navRow.slack ? ` (${res.navRow.widest})` : ""),
+  })
+  record("chrome", res.wordmarkOffCentre >= 0 && res.wordmarkOffCentre <= 2, {
+    page: p.url, kind: "structure", sel: ".hmi-topnav-wordmark", prop: "vertical centre vs bar",
+    want: "≤ 2px off", got: `${res.wordmarkOffCentre}px off`,
   })
   if (p.rail) {
     // §1.4 shell triad — the two fixed outer tracks.
