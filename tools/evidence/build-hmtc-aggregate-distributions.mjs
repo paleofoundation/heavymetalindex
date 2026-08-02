@@ -655,6 +655,60 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
   }
 }
 
+// ---- Market stratification
+//
+// An occurrence percentile is an estimate of a population. If the pool mixes
+// markets, the percentile estimates a population no brand ships into. HMTc
+// certifies product sold under binding infant-formula MLs and comparable
+// oversight, so --markets restricts the pool to those jurisdictions and the
+// resulting percentile is an estimate of the market the certification applies
+// to. Off by default: the unstratified pool remains the published corpus-wide
+// view, and stratification is an explicit, auditable choice per run.
+//
+// Source jurisdiction comes from the `jurisdictions:` frontmatter on the source
+// page. A source with NO jurisdiction recorded is retained rather than dropped:
+// silently discarding unlabelled evidence would bias the pool in an
+// undocumented direction. Those retentions are reported.
+const marketsArg = args.get("markets") ?? ""
+const targetMarkets = marketsArg
+  ? new Set(marketsArg.split(",").map((m) => m.trim().toUpperCase()).filter(Boolean))
+  : null
+const sourceJurisdictions = loadSourceJurisdictions()
+const marketDropped = new Map()
+const marketUnlabelled = new Set()
+
+function loadSourceJurisdictions() {
+  const dir = path.join(repoRoot, "wiki/sources")
+  const map = new Map()
+  if (!fs.existsSync(dir)) return map
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".md")) continue
+    const head = fs.readFileSync(path.join(dir, file), "utf8").slice(0, 4000)
+    const m = head.match(/^jurisdictions:\s*\[([^\]]*)\]/m)
+    if (!m) continue
+    const list = m[1]
+      .split(",")
+      .map((s) => s.trim().replace(/^["']|["']$/g, "").toUpperCase())
+      .filter(Boolean)
+    if (list.length) map.set(file.replace(/\.md$/, ""), list)
+  }
+  return map
+}
+
+function inTargetMarket(row) {
+  if (!targetMarkets) return true
+  const sid = row.source_id
+  if (!sid) return true
+  const juris = sourceJurisdictions.get(sid)
+  if (!juris || juris.length === 0) {
+    marketUnlabelled.add(sid)
+    return true
+  }
+  if (juris.some((j) => targetMarkets.has(j))) return true
+  marketDropped.set(sid, juris.join("/"))
+  return false
+}
+
 // ---- Regulatory cap lookup
 
 // Regulatory MLs carry their own basis text (regulatory_limits.csv `basis`), which
@@ -894,13 +948,13 @@ function main() {
     for (const metal of metalsToProcess) {
       if (metalFilter && metal !== metalFilter) continue
       const key = `${slug}::${metal}`
-      const summaryRowsForCell = rowsByKey.get(key) ?? []
+      const summaryRowsForCell = (rowsByKey.get(key) ?? []).filter(inTargetMarket)
 
       // De-dup contribution sources: when samples CSV holds raw values for a
       // source that the summary CSV also has, prefer the sample-level
       // reconstruction and drop the summary-row reconstruction so the same
       // physical paper isn't admitted twice.
-      const samplesForCell = samplesByKey.get(key) ?? []
+      const samplesForCell = (samplesByKey.get(key) ?? []).filter(inTargetMarket)
       const samplesBySourceId = new Map()
       for (const sample of samplesForCell) {
         const sid = sample.source_id
@@ -1141,6 +1195,12 @@ function main() {
   })
 
   console.log(`Wrote ${outputRows.length} aggregate-distribution rows to ${path.relative(repoRoot, outputPath)}`)
+  if (targetMarkets) {
+    console.log(`Market stratification ACTIVE — target markets: ${[...targetMarkets].join(", ")}`)
+    console.log(`  excluded ${marketDropped.size} source(s) as out-of-market:`)
+    for (const [sid, j] of [...marketDropped].sort()) console.log(`    ${sid} (${j})`)
+    console.log(`  retained ${marketUnlabelled.size} source(s) with no jurisdiction recorded (not dropped, by design)`)
+  }
   console.log(`Wrote summary to ${path.relative(repoRoot, summaryOutputPath)}`)
   console.log(
     `Pool starvation: ${starvation.summary.stranded_rows_total} stranded rows ` +

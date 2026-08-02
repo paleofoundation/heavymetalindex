@@ -17,7 +17,7 @@ metals: [Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg]
 ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/non-soy-infant-formula]]", "[[ingredients/milk-and-dairy]]"]
 products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-dairy]]"]
 matrices: [infant-formula-powder, commercial-infant-formula]
-jurisdictions: [TR, EU]
+jurisdictions: [TR]
 near_duplicates: []
 sample_n: 72
 sample_population: "72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on milk, growing-up milk, premature formula, low-birth-weight formula, and additional specialty formula groups."
