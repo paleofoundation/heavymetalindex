@@ -94,3 +94,53 @@ pre > code {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+// ── COMPONENTS §9 — caveat callout (PRESENT state) ──────────────────────────
+// A written `## Limitations` (source pages) or `## Open questions` (metals,
+// synthesis, health, microbiome) section is the page stating where it is thin.
+// Style it as a REVIEWED-caveat callout: burgundy left bar over a #fbf5f7 ground.
+// The bar means "a reviewed limitation EXISTS" and must keep meaning ONLY that —
+// the absent state (a future CaveatAbsent: dotted, no bar) carries the opposite
+// claim and stays visually distinct.
+//
+// Heading-anchored because Quartz renders these sections as a FLAT run of siblings
+// (`<h2 id="limitations">` then `<p>`/`<ul>`…) with NO wrapper — same blessed idiom
+// as references-v3.scss `h2[id="references"] ~ ol`. Adjacent (`+`) not general (`~`)
+// sibling: Limitations is NOT the last section (Implications / Update history
+// follow), so `~` would bleed the tint past the next heading. `+` styles the
+// heading + its first body block into one panel.
+.wiki-content h2[id="limitations"],
+.wiki-content h2[id="open-questions"] {
+  border-bottom: none;
+  border-left: 3px solid #8b2a4a;
+  background: #fbf5f7;
+  padding: 18px 22px 8px;
+  margin-bottom: 0;
+}
+.wiki-content h2[id="limitations"] + p,
+.wiki-content h2[id="limitations"] + ul,
+.wiki-content h2[id="limitations"] + ol,
+.wiki-content h2[id="open-questions"] + p,
+.wiki-content h2[id="open-questions"] + ul,
+.wiki-content h2[id="open-questions"] + ol {
+  border-left: 3px solid #8b2a4a;
+  background: #fbf5f7;
+  margin-top: 0;
+  padding: 2px 22px 18px;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: #5a4148;
+}
+
+// ── COMPONENTS §10 — caption / table-note ───────────────────────────────────
+// The class rule, shipped inert. It matches 0 elements today: the ~549 generated
+// source-legend notes and the frozen contamination-profile / FDA-TDS notes still
+// render as a bare <p> above the table. A later generator pass (Group B "B1")
+// mints `class="hmi-table-note"` on those notes; this rule is what styles them
+// the moment it does. Kept here so the styling half is done and reviewed now.
+.wiki-content .hmi-table-note {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #a9a1a2;
+  margin: 0 0 12px;
+}

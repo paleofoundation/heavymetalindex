@@ -184,13 +184,11 @@
 // border-BOTTOM (artifact 460), the same on every screen. Deleted rather than
 // out-specified: a surviving rule wins again the next time something shifts.
 
-body[data-slug^="products/"] article table th,
-body[data-slug^="products/"] article table td {
-  font-size: 0.78rem;
-  line-height: 1.48;
-  padding-left: 0.55rem;
-  padding-right: 0.55rem;
-}
+/* removed: this (specificity 0,1,4) out-specified the §1 `.wiki-content thead th`
+   / `tbody td` rule (0,1,2) inside the same legacy layer, so ~410 product pages
+   rendered the burgundy header at 12.5px with 0.55rem side padding instead of the
+   §1 10px / 15px. Same defect class as the deleted product-h2 override (F-20).
+   Let the §1 spec win uniformly. */
 
 @media all and (max-width: 900px) {
   .hmi-product-brief-grid {

@@ -19,7 +19,11 @@ import { GROUPS, relatedByCategory } from "./relatedGraph"
 // CLAUDE.md Part 5b). Sources are excluded: they are the evidence (surfaced
 // via inline citations + the citation card), not lateral navigation.
 
-const PER_GROUP_CAP = 18
+// See-also is kept (it is the only page-specific INBOUND-graph affordance), but
+// scoped: on hub pages like metals/lead the 18-cap rendered ~60 links, a wall.
+// Cap at 6 per group so the block stays a curated lateral-nav, not a dump. The
+// Rail's Connections (cap 3) and this block share the relatedByCategory graph.
+const PER_GROUP_CAP = 6
 
 export default (() => {
   const RelatedPages: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {

@@ -1997,13 +1997,10 @@ article thead th {
   color: var(--darkgray);
 }
 
-article tbody tr {
-  transition: background var(--duration-fast) var(--ease-out);
-}
-
-article tbody tr:hover {
-  background: var(--highlight);
-}
+/* removed: COMPONENTS §1 specifies no row-hover on data tables. This legacy rule
+   (specificity 0,1,3) out-specified `.wiki-content tbody tr` and re-added a hover
+   tint site-wide on every content page's tables. The §1 burgundy treatment in
+   proof-design.scss:199-206 is the single source. */
 
 article tbody td > code:only-child {
   font-variant-numeric: tabular-nums;
