@@ -128,9 +128,9 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Bereket Tesfaye and Alemayehu Abebaw (2016). *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*. Advances in Chemistry. [https://doi.org/10.1155/2016/3480329](https://doi.org/10.1155/2016/3480329). Peer-reviewed, A-tier. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia|Source record]]
+1. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia|Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils]]<span class="hmi-ref-meta">Bereket Tesfaye and Alemayehu Abebaw · Advances in Chemistry · 2016 · [doi.org/10.1155/2016/3480329](https://doi.org/10.1155/2016/3480329)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

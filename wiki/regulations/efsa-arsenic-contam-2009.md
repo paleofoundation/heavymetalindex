@@ -31,10 +31,10 @@ European inorganic arsenic exposure ranges 0.13 to 0.56 µg/kg b.w./day for aver
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion on Arsenic in Food*. EFSA Journal 2009;7(10):1351. [https://doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351). Government report, A-tier. [[sources/efsa-arsenic-contam-2009|Source record]]
-2. U.S. Food and Drug Administration (2020). *Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry*. U.S. Food and Drug Administration, Federal Register Notice (Docket FDA-2016-D-1099). [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants). Government report, A-tier. [[sources/fda-iAs-rice-cereal-2020|Source record]]
+1. [[sources/efsa-arsenic-contam-2009|Scientific Opinion on Arsenic in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2009;7(10):1351 · 2009 · [doi.org/10.2903/j.efsa.2009.1351](https://doi.org/10.2903/j.efsa.2009.1351)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/fda-iAs-rice-cereal-2020|Inorganic Arsenic in Rice Cereals for Infants: Action Level; Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2020 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-rice-cereals-infants)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

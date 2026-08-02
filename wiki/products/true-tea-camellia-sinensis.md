@@ -98,10 +98,10 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2004). *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*. FDA Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first). Government guidance, A-tier. [[sources/fda2004-juice-haccp-lead|Source record]]
-2. U.S. Food and Drug Administration (2022). *Draft Guidance for Industry: Action Levels for Lead in Juice*. FDA Draft Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice). Government guidance, A-tier. [[sources/fda2022-draft-lead-juice|Source record]]
+1. [[sources/fda2004-juice-haccp-lead|Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Guidance for Industry · 2004 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first)</span><span class="hmi-ref-tag">Guidance</span>
+2. [[sources/fda2022-draft-lead-juice|Draft Guidance for Industry: Action Levels for Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Draft Guidance for Industry · 2022 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice)</span><span class="hmi-ref-tag">Guidance</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

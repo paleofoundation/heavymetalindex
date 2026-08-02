@@ -41,10 +41,10 @@ The EFSA 2012 re-evaluation lowered the EU TWI to 1.3 µg/kg b.w./week with adju
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Joint FAO/WHO Expert Committee on Food Additives (2004). *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*. WHO Technical Report Series 922. [https://doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3). Government report, A-tier. [[sources/jecfa-61st-methylmercury|Source record]]
-2. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2012). *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*. EFSA Journal 2012;10(12):2985. [https://doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985). Government report, A-tier. [[sources/efsa-mercury-methylmercury-2012|Source record]]
+1. [[sources/jecfa-61st-methylmercury|Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 922 · 2004 · [doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/efsa-mercury-methylmercury-2012|Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2012;10(12):2985 · 2012 · [doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

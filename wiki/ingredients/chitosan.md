@@ -128,9 +128,9 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Evgeniya A. Bezrodnykh, Oxana V. Vyshivannaya, Boris B. Berezin, Inesa V. Blagodatskikh, and Vladimir E. Tikhonov (2023). *A Walkway from Crayfish to Oligochitosan*. Applied Sciences. [https://doi.org/10.3390/app13053360](https://doi.org/10.3390/app13053360). Peer-reviewed, A-tier. [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals|Source record]]
+1. [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals|A Walkway from Crayfish to Oligochitosan]]<span class="hmi-ref-meta">Evgeniya A. Bezrodnykh, Oxana V. Vyshivannaya, Boris B. Berezin, Inesa V. Blagodatskikh, and Vladimir E. Tikhonov · Applied Sciences · 2023 · [doi.org/10.3390/app13053360](https://doi.org/10.3390/app13053360)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

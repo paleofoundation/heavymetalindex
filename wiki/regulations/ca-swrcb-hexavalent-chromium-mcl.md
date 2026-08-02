@@ -65,9 +65,9 @@ The federal Safe Drinking Water Act has no hexavalent-chromium-specific MCL; the
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. California State Water Resources Control Board, Division of Drinking Water (2024). *California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003)*. California State Water Resources Control Board. [www.waterboards.ca.gov](https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/SWRCBDDW-21-003_hexavalent_chromium.html). Regulation, A-tier. [[sources/swrcb-hexavalent-chromium-mcl-2024|Source record]]
+1. [[sources/swrcb-hexavalent-chromium-mcl-2024|California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003)]]<span class="hmi-ref-meta">California State Water Resources Control Board, Division of Drinking Water · 2024 · [www.waterboards.ca.gov](https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/SWRCBDDW-21-003_hexavalent_chromium.html)</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -60,9 +60,9 @@ Specific primary studies in the corpus that should be promoted to populate this 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Codex Alimentarius Commission (2022). *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*. FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. [https://doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en). Government report, A-tier. [[sources/codex-cxc-81-2022|Source record]]
+1. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

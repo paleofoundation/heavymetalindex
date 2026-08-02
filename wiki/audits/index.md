@@ -2,14 +2,14 @@
 title: Audit dashboard
 description: Auto-regenerated transparency dashboard. Every dimension of the wiki's Cochrane-level defensibility is scored here, with cross-links to the detail audit files.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist, external-reviewer]
-updated: 2026-07-30
+updated: 2026-08-01
 ---
 
 # Audit dashboard
 
 This dashboard is auto-regenerated on every build from the wiki's audit harness. It is the single transparency surface for reading "what is the current Cochrane-level defensibility of the wiki, by dimension." External reviewers, regulatory affairs, and brand legal teams auditing the wiki should land here.
 
-Generated: **2026-07-30**.  Baseline snapshot: [[audits/2026-07-30-baseline|2026-07-30-baseline]].
+Generated: **2026-08-01**.  Baseline snapshot: [[audits/2026-08-01-baseline|2026-08-01-baseline]].
 
 ## Scorecard
 

@@ -144,10 +144,10 @@ All ten contamination_profile sub-blocks are `pending`. This umbrella page carri
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL (2012). *Arsenic, Organic Foods, and Brown Rice Syrup*. Environmental Health Perspectives. [https://doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Source record]]
-2. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+1. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Arsenic, Organic Foods, and Brown Rice Syrup]]<span class="hmi-ref-meta">Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL · Environmental Health Perspectives · 2012 · [doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -36,9 +36,9 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Craven A, Ferris J, Nielsen S, and Piatkowski T (2025). *Lead Astray? The Hidden Contaminants in Australian Anabolic–Androgenic Steroid Market and Their Potential Health Impact*. Drug and Alcohol Review. [https://doi.org/10.1111/dar.70007](https://doi.org/10.1111/dar.70007). Peer-reviewed, A-tier. [[sources/craven2025-aas-heavy-metals-australia|Source record]]
+1. [[sources/craven2025-aas-heavy-metals-australia|Lead Astray? The Hidden Contaminants in Australian Anabolic–Androgenic Steroid Market and Their Potential Health Impact]]<span class="hmi-ref-meta">Craven A, Ferris J, Nielsen S, and Piatkowski T · Drug and Alcohol Review · 2025 · [doi.org/10.1111/dar.70007](https://doi.org/10.1111/dar.70007)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

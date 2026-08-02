@@ -32,10 +32,10 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Introduction 2025. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*. Unknown journal. [https://doi.org/Unknown](https://doi.org/Unknown). Peer reviewed review, A-tier. [[sources/introduction2025-concentrations-heavy-metals-processed|Source record]]
-2. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+1. [[sources/introduction2025-concentrations-heavy-metals-processed|Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review]]<span class="hmi-ref-meta">Unknown journal · 2025 · [doi.org/Unknown](https://doi.org/Unknown)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

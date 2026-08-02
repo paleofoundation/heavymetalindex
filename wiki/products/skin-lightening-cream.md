@@ -82,10 +82,10 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ricketts P, Knight C, Gordon A, Boischio A, and Voutchkov M (2020). *Mercury Exposure Associated with Use of Skin Lightening Products in Jamaica*. Journal of Health & Pollution 10(26): 200601. [meridian.allenpress.com](https://meridian.allenpress.com/jhp/article-pdf/10/26/200601/2486234/i2156-9614-10-26-200601.pdf). Peer-reviewed, A-tier. [[sources/ricketts2020-mercury-skin-lightening-jamaica|Source record]]
-2. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+1. [[sources/ricketts2020-mercury-skin-lightening-jamaica|Mercury Exposure Associated with Use of Skin Lightening Products in Jamaica]]<span class="hmi-ref-meta">Ricketts P, Knight C, Gordon A, Boischio A, and Voutchkov M · Journal of Health & Pollution 10(26): 200601 · 2020 · [meridian.allenpress.com](https://meridian.allenpress.com/jhp/article-pdf/10/26/200601/2486234/i2156-9614-10-26-200601.pdf)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

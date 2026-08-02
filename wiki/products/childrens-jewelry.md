@@ -37,9 +37,9 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Nelson K (2023). *Cadmium and Other Metals in Children's Jewelry 2018, Follow-up Study*. Washington State Department of Ecology, Environmental Assessment Program, Publication 23-03-004 (January 2023). [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/2303004.html). Regulatory, A-tier. [[sources/nelson2023-wa-childrens-jewelry-followup|Source record]]
+1. [[sources/nelson2023-wa-childrens-jewelry-followup|Cadmium and Other Metals in Children's Jewelry 2018, Follow-up Study]]<span class="hmi-ref-meta">Nelson K · Washington State Department of Ecology, Environmental Assessment Program, Publication 23-03-004 (January 2023) · 2023 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/2303004.html)</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

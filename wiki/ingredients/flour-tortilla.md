@@ -225,11 +225,11 @@ Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-leve
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
-2. Cantoral A, Betanzos-Robledo L, Collado-López S, García-Martínez BA, Lamadrid-Figueroa H, Mariscal-Moreno RM, et al. (2024). *Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort*. Toxics. [https://doi.org/10.3390/toxics12050318](https://doi.org/10.3390/toxics12050318). Peer-reviewed, A-tier. [[sources/cantoral2024-lead-levels-mexican-foods|Source record]]
-3. Masri S, Nasla S, Payán DD, and Wu J (2025). *Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65*. Nutrients. [https://doi.org/10.3390/nu17193149](https://doi.org/10.3390/nu17193149). Peer-reviewed, B-tier. [[sources/masri2025-toxicant-foods-california|Source record]]
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/cantoral2024-lead-levels-mexican-foods|Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort]]<span class="hmi-ref-meta">Cantoral A, Betanzos-Robledo L, Collado-López S, García-Martínez BA, Lamadrid-Figueroa H, Mariscal-Moreno RM, et al. · Toxics · 2024 · [doi.org/10.3390/toxics12050318](https://doi.org/10.3390/toxics12050318)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/masri2025-toxicant-foods-california|Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65]]<span class="hmi-ref-meta">Masri S, Nasla S, Payán DD, and Wu J · Nutrients · 2025 · [doi.org/10.3390/nu17193149](https://doi.org/10.3390/nu17193149)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

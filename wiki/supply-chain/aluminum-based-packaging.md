@@ -21,10 +21,10 @@ This page is a supply-chain graph anchor for packaging-related aluminum evidence
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley (2013). *The aluminium content of infant formulas remains too high*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162). Peer-reviewed, A-tier. [[sources/chuchu2013-aluminium-in-infant-formulas|Source record]]
-2. Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte (2011). *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*. Food Additives & Contaminants: Part A. [https://doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795). Peer-reviewed, A-tier. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Source record]]
+1. [[sources/chuchu2013-aluminium-in-infant-formulas|The aluminium content of infant formulas remains too high]]<span class="hmi-ref-meta">Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley · BMC Pediatrics · 2013 · [doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions]]<span class="hmi-ref-meta">Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte · Food Additives & Contaminants: Part A · 2011 · [doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 ## Sources

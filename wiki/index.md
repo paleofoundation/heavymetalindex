@@ -94,6 +94,7 @@ updated: 2026-07-31
 
 <!-- BEGIN: hmi-feature-grid -->
 <section class="hmi-v3-registries" aria-label="Registries">
+  <div class="hmi-v3-registries-inner">
   <a class="hmi-v3-registry" href="products/">
     <span class="hmi-v3-registry-n">414</span>
     <span class="hmi-v3-registry-t">Products</span>
@@ -119,6 +120,7 @@ updated: 2026-07-31
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
+  </div>
 </section>
 <!-- END: hmi-feature-grid -->
 
@@ -247,6 +249,7 @@ updated: 2026-07-31
 
 <!-- BEGIN: hmi-home-recently-updated -->
 <section class="hmi-v3-rev" data-no-cite aria-label="Recently revised">
+  <div class="hmi-v3-rev-inner">
   <div class="hmi-v3-rev-head">
     <h2>Recently revised</h2>
     <a class="hmi-v3-rev-all" href="audits/">Full update history &rarr;</a>
@@ -297,6 +300,7 @@ updated: 2026-07-31
       <a class="hmi-v3-rev-t" href="products/bathing-soaps/">Bathing soaps</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
+  </div>
   </div>
 </section>
 <!-- END: hmi-home-recently-updated -->

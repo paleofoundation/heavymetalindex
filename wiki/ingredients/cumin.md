@@ -128,9 +128,9 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. (2025). *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*. World's Veterinary Journal 15(4): 863-881. [https://doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88). Peer-reviewed, B-tier. [[sources/sabri2025-moroccan-spices-casablanca-metals|Source record]]
+1. [[sources/sabri2025-moroccan-spices-casablanca-metals|Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco]]<span class="hmi-ref-meta">Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. · World's Veterinary Journal 15(4): 863-881 · 2025 · [doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

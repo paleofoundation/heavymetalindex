@@ -183,11 +183,11 @@ The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Fischer A and Brodziak-Dopierała B (2022). *The Mercury Concentration in Spice Plants*. Processes. [https://doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954). Peer-reviewed, A-tier. [[sources/fischer2022-mercury-spice-plants-poland|Source record]]
-2. LHAAC (2025). *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*. Local Health Authorities Analytical Committee, Edith Cowan University. Government report, A-tier. [[sources/lhaac2025-csp41-herbs-spices-wa|Source record]]
-3. Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. (2023). *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7). Peer-reviewed, A-tier. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|Source record]]
+1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/lhaac2025-csp41-herbs-spices-wa|Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices]]<span class="hmi-ref-meta">LHAAC · Local Health Authorities Analytical Committee, Edith Cowan University · 2025</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine]]<span class="hmi-ref-meta">Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

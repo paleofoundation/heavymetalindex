@@ -36,9 +36,9 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Pankavec S, Hanć A, Barałkiewicz D, Dryżałowska A, Zhang J, and Falandysz J (2019). *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*. Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene). [https://doi.org/10.32394/rpzh.2019.0051](https://doi.org/10.32394/rpzh.2019.0051). Peer-reviewed, A-tier. [[sources/pankavec2019-pickled-mushrooms-poland-minerals|Source record]]
+1. [[sources/pankavec2019-pickled-mushrooms-poland-minerals|Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences]]<span class="hmi-ref-meta">Pankavec S, Hanć A, Barałkiewicz D, Dryżałowska A, Zhang J, and Falandysz J · Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) · 2019 · [doi.org/10.32394/rpzh.2019.0051](https://doi.org/10.32394/rpzh.2019.0051)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

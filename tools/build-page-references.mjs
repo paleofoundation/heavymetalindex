@@ -29,7 +29,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
-import { renderFullCitation } from "./lib/citation-format.mjs"
+import { renderReferenceEntry } from "./lib/citation-format.mjs"
 
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
@@ -134,15 +134,29 @@ function citedKeysInOrder(raw) {
   return ordered
 }
 
+// Intro copy, v3-aligned. Short, but it keeps the audit-trail sentence: the
+// short form is only defensible because each title still resolves to the source
+// record that carries the receipt, the hash, and the extracted values. No em
+// dash (writing-style lint); the count is dropped, per the v3 design.
+const INTRO =
+  "Works cited in this page's text, in first-appearance order. This is not the full corpus " +
+  "for this page; it is only what the prose above draws on. The complete set of sources is " +
+  "listed under [Sources](#sources) below. Each title links to its source record, which carries " +
+  "the ingest receipt, the extracted values, and the file hash of the document it was built from."
+
 function renderBlock(entries) {
+  // Each item is a markdown list line whose content is a source wikilink (the
+  // title) plus two inline spans the stylesheet lays out. The `${i + 1}.` marker
+  // is what makes it an <ol>; CSS hides it and renders `[n]` from a counter, so
+  // the numbering still comes from first-appearance order and cannot drift from
+  // the prose superscripts.
   const items = entries
-    .map((e, i) => `${i + 1}. ${renderFullCitation(e.fm, e.citeKey)}`)
+    .map((e, i) => `${i + 1}. ${renderReferenceEntry(e.fm, e.citeKey)}`)
     .join("\n")
-  const count = entries.length
   return `${BEGIN_MARKER}
 ## References
 
-The ${count === 1 ? "work" : `${count} works`} cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+${INTRO}
 
 ${items}
 ${END_MARKER}`

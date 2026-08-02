@@ -119,11 +119,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H (2025). *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122). Peer-reviewed, A-tier. [[sources/wu2025-climate-meghan-freshwater-fish-china|Source record]]
-2. Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM (2024). *Global fishing patterns amplify human exposures to methylmercury*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121). Peer-reviewed, A-tier. [[sources/li2024-global-fisheries-mehg|Source record]]
-3. Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M (2026). *Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes*. Foods. [https://doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516). Peer-reviewed, A-tier. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Source record]]
+1. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/li2024-global-fisheries-mehg|Global fishing patterns amplify human exposures to methylmercury]]<span class="hmi-ref-meta">Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM · Proceedings of the National Academy of Sciences · 2024 · [doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Risk-Benefit Assessment of Mercury, Lead, Cadmium, and Arsenic in Inland Fish from Latvian Lakes]]<span class="hmi-ref-meta">Rusko L, Ozola-Davidane R, Kviesis J, and Klavins M · Foods · 2026 · [doi.org/10.3390/foods15091516](https://doi.org/10.3390/foods15091516)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
