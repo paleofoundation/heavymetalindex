@@ -168,12 +168,14 @@ a.internal.tag-link:hover {
 // text-decoration alone left the border showing. Underline returns on hover via
 // text-decoration. The more-specific source-citation superscript rule keeps its
 // dotted border, so citations are unaffected.
-.wiki-content a { color: var(--burg); text-decoration: none; border-bottom: none; }
+.wiki-content a { color: #1c43ad; text-decoration: none; border-bottom: none; }
 .wiki-content a:hover { text-decoration: underline; border-bottom: none; background: none; }
-/* in-article wikilinks read as plain burgundy text. Pill removal is handled by
-   the global a.internal rule (with !important) above. No default underline; the
-   `.wiki-content a:hover` rule above supplies underline-on-hover. */
-.wiki-content a.internal:hover { color: var(--burg-dark); }
+/* in-article links render in the v3 link-blue #1c43ad — the same blue the
+   homepage (home-v3.scss) and references (references-v3.scss $hmi-ref-link) use.
+   Links must read as links, NOT as the burgundy accent that carries headings and
+   UI chrome; coloring both the same collapses the "is this a link" signal. Pill
+   removal is handled by the a.internal rule above; hover darkens + underlines. */
+.wiki-content a.internal:hover { color: #12306e; }
 .wiki-content ul, .wiki-content ol { padding-left: 1.4em; margin: 0 0 1.05em; }
 .wiki-content li { margin-bottom: 0.45em; }
 .wiki-content blockquote { border-left: 3px solid var(--burg); margin: 0 0 1.1em; padding: 8px 18px; background: var(--burg-tint2); color: var(--body); }
