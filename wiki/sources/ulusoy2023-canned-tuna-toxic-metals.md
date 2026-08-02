@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ulusoy 2023 - Toxic metals in global canned tuna
 
+## Overview
+
 Ulusoy measured cadmium, lead, total mercury, and total arsenic in canned tuna purchased from supermarkets in 36 countries. The study used ICP-MS and reported country-of-purchase means for Cd, Pb, Hg, total As, and a calculated inorganic-arsenic surrogate. Inorganic arsenic was not directly measured; it was estimated as 3% of total As for the risk calculations.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Jia et al. (2025) develop a gold nanocluster (AuNC)-based fluorescence sensor capable of simultaneous detection of lead (Pb2+) and cadmium (Cd2+) in water. The sensor exploits differential quenching or shifting of AuNC fluorescence by the two metals to enable multiplexed detection in a single measurement.
 
 ## Key numbers

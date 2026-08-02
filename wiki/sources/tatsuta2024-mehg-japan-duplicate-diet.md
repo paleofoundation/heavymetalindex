@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Tatsuta et al. 2024 — Postnatal methylmercury intake from baby foods and toddler meals in Japanese children
 
+## Overview
+
 This study used the 24-hour duplicate diet method to measure methylmercury (MeHg) and total mercury (THg) intake in 260 Japanese children aged 0–5 years and examined correlations with hair THg levels. The median estimated MeHg intake was 18.3 ng/kgbw/day (range 0.65–209.2), with 13.8% of children exceeding the US EPA reference dose and 4.3% exceeding the WHO provisional tolerable weekly intake. MeHg comprised 90% of total mercury in dietary samples with THg ≥1 ng/g, reflecting Japan's high fish consumption even in infants. These findings highlight the importance of monitoring MeHg exposure during complementary feeding, as infants and toddlers are highly susceptible due to low body weight and high food intake per kilogram.
 
 ## Key numbers

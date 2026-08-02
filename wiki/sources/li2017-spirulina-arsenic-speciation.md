@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Li et al. 2017 - arsenic species in food-grade spirulina powder
 
+## Overview
+
 Li and colleagues developed a two-step microwave-assisted extraction and IC-ICP-MS method for arsenic speciation in food-grade spirulina powder. They then applied the method to seven spirulina powder samples from Chinese production sites, reporting arsenite, arsenate, DMA(V), MMA(V), five unknown organic arsenic species, species sum, total arsenic, and recovery. Spirulina is handled here as an algae/cyanobacteria supplement powder; the taxonomy snapshot has no exact Spirulina ingredient slug.
 
 ## Key numbers

@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Benabbes et al. 2021 — Lead and cadmium in 16 commercial hair dyes on the Moroccan market by differential pulse polarography
 
+## Overview
+
 This open-access Portugaliae Electrochimica Acta study measured lead and cadmium in 16 hair dye products (13 synthetic direct dyes, 3 natural henna-based dyes) purchased from Moroccan markets. Samples were digested with HNO₃/H₂O₂ in a closed-vessel microwave system (Anton Paar Multiwave PRO) and analyzed by differential pulse polarography (DPP) on a Metrohm 797 VA Computrace with a dropping mercury electrode. The validated method had LODs of 0.080 ppm Pb and 0.43 ppm Cd. Across the 16 products the authors found Pb concentrations ranging from below LOD to 3617.02 ppm (median 1196.17 ppm) and Cd from below LOD to 459.57 ppm (mean 55.55 ppm); 10 of 16 samples exceeded an applicable Pb acceptance limit and 9 of 16 exceeded an applicable Cd acceptance limit when compared against Health Canada (10 ppm Pb / 3 ppm Cd) and the German federal cosmetic-impurity limits (20 ppm Pb / 5 ppm Cd). The highest Pb and Cd values both occurred in the same sample, a natural henna-based dark brown dye of UAE origin. Evidence tier is B: peer-reviewed open-access journal, validated analytical method with reported LOD/LOQ/linearity/recovery/precision, but n=1 per individual product (16 distinct products, not 16 replicates of one), brand and origin coding only (no compositional or pigment analysis to attribute the source of contamination), and no analytical-blank or certified-reference-material recovery values reported.
 
 ## Key numbers

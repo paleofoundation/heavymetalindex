@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Bzikowska-Jura et al. 2024 - Essential and non-essential elements in Polish human milk
 
+## Overview
+
 This Scientific Reports study measured 18 elements in human milk from 30 exclusively breastfeeding mothers in Poland and estimated infant exposure from measured milk intake. Arsenic, cadmium, chromium, copper, mercury, manganese, molybdenum, nickel, tin, lead, and thallium were detected in all samples. Tin was above the WHO usual-level comparison in every sample, and lead was above that comparison in one-third of samples.
 
 ## Key numbers

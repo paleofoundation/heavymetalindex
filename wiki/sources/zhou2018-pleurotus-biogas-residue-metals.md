@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Zhou et al. 2018 - Pleurotus Metals on Biogas-Residue Substrates
 
+## Overview
+
 Zhou et al. evaluated whether chicken-manure biogas residue could be used as a substrate component for cultivating edible oyster mushrooms (Pleurotus ostreatus). The study measured cadmium, lead, mercury, and arsenic in the raw materials and in dried first-flush mushroom fruiting bodies across seven substrate treatments.
 
 ## Key numbers

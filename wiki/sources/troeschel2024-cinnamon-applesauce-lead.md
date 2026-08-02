@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Troeschel et al. 2024 — Lead and chromium exposure from contaminated cinnamon applesauce (WanaBana recall)
 
+## Overview
+
 This CDC MMWR report documents the national investigation of lead and chromium poisoning linked to cinnamon-containing applesauce pouches marketed primarily to young children. In October 2023, routine pediatric blood lead surveillance in North Carolina identified four cases of lead poisoning linked to WanaBana brand applesauce; FDA subsequently detected lead concentrations of 1.9–3.0 ppm in product pouches, representing 200–300 times FDA's recommended action level for fruit purees intended for babies and young children. The distributor voluntarily recalled 2,998,088 pouches sold under three brand names (WanaBana, Schnucks, Weis). A national call for cases yielded 566 total cases across 44 U.S. states, the District of Columbia, and Puerto Rico, with the median maximum venous blood lead level (BLL) of 7.2 µg/dL (range 3.5–39.3 µg/dL; IQR 5.2–11.3). On January 5, 2024, FDA determined the contaminating agent in the cinnamon was lead chromate (a yellow pigment), explaining the co-occurrence of both lead and chromium.
 
 ## Key numbers

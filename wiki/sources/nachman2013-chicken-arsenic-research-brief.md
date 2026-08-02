@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Nachman et al. 2013 - Chicken arsenic research brief
 
+## Overview
+
 This Johns Hopkins Center for a Livable Future brief summarizes the Nachman et al. Environmental Health Perspectives study of arsenic species in US chicken meat. It reports a compact occurrence signal for inorganic arsenic in chicken likely raised with roxarsone and describes the underlying market-basket sampling frame. Because the local PDF is a two-page research brief rather than the full peer-reviewed article, this page treats the source as B-tier secondary evidence and flags the full article DOI as a near-duplicate to avoid double counting if the primary paper is later fetched.
 
 ## Key numbers

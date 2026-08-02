@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Sharafi et al. 2023 - Potentially toxic elements in breast milk from western Iran
 
+## Overview
+
 This Scientific Reports study measured As, Cd, Hg, Pb, Cr, and Ni in 100 breast milk samples from western Iran and estimated infant health risks. Mean concentrations followed Cr > Ni > Pb > As > Cd > Hg. The occurrence data are routeable to human-milk and infant-exposure context; As and Hg are total/source-reported values, not inorganic arsenic or methylmercury.
 
 ## Key numbers

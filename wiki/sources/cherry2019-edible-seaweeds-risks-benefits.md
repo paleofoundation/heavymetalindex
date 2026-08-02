@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Cherry 2019 - Edible seaweeds risks and benefits
 
+## Overview
+
 Cherry and colleagues reviewed edible seaweeds as food, functional-food ingredients, and nutraceutical inputs, balancing proposed nutritional benefits against safety concerns. The source is secondary evidence and does not generate new contaminant measurements. Its heavy-metal section is mainly useful for seaweed arsenic/speciation context and for identifying food and supplement monitoring needs.
 
 ## Key numbers

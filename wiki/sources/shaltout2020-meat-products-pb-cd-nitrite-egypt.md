@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Shaltout et al. 2020 — Pb, Cd, and nitrite in Egyptian processed meat products
 
+## Overview
+
 Shaltout, El Shater, and Haza measured residual lead, cadmium, and nitrite in 60 retail meat product samples (15 each of minced meat, beef burger, sausage, and luncheon meat) collected from supermarkets and shops in Benha City, Kalubia governorate, Egypt. Lead and cadmium were determined by atomic absorption spectrometry on a wet-weight basis; nitrite was determined spectrophotometrically. Mean Pb concentrations rose across the four product categories from minced meat (0.06 mg/kg) to luncheon meat (0.23 mg/kg), with 5/60 samples (8.3 %) exceeding the Egyptian Standards lead limit of < 0.1 mg/kg. Mean Cd concentrations followed the same gradient, from 0.03 mg/kg in minced meat to 0.15 mg/kg in luncheon meat, with 4/60 samples (6.7 %) above the Egyptian < 0.05 mg/kg cadmium limit. Nitrite was not detected in minced meat; mean values were 39.81 ppm (beef burger), 27.59 ppm (sausage), and 62.07 ppm (luncheon meat), with one luncheon sample (1.7 %) above the 100 ppm Egyptian limit. The authors report all three analytes increasing with degree of processing across this product set, with luncheon meat carrying the highest mean for every analyte measured.
 
 ## Key numbers

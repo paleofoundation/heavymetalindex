@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Charles et al. 2017 — Metals and PAHs in instant noodles from Port Harcourt
 
+## Overview
+
 Charles and colleagues measured Pb, As, Ni, Hg, Cu, Cd, Al, and Cr in six instant-noodle brands commonly consumed in Port Harcourt, Nigeria, and also measured PAHs. The paper reports coded brand identifiers; this page reports aggregate ranges and coded-brand counts rather than pairing identifiers with values. Pb, Ni, Cu, Al, and Cr were detected, while As, Hg, and Cd were not detected in the noodle samples. Arsenic, mercury, and chromium are reported only as total analytes, with no iAs, MeHg, or Cr-VI speciation.
 
 ## Key numbers

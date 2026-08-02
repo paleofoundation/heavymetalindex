@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Manouchehri et al. 2021 — Heavy metals in honey: systematic review (Uludag Bee Journal)
 
+## Overview
+
 This systematic review from Iranian and Turkish authors, published in the Turkish Uludag Bee Journal, evaluates the presence of toxic and carcinogenic heavy metals in honey, covering bee uptake pathways (contaminated water, pollen, nectar, inhalation during flight, adhesion to hairy body surfaces), the health effects of consuming contaminated honey, and findings from studies across multiple countries. Bees act as biomonitors for environmental heavy metal pollution, and honey from industrial areas consistently shows higher metal levels than honey from rural regions. Key geographic findings reviewed include: in Iran, most honey samples showed low contamination but Cd and Hg exceeded permitted limits in some regions tied to industrial proximity; in Croatia and Kosovo, Pb content was higher than reported in other European countries; in Nigeria, Fe, Cu, Mn, and Zn exceeded WHO/FAO permitted levels; studies in Turkey showed a direct correlation between honey metal contamination rates and proximity to industrial centres. The review also describes Pb and Sn migration as a storage-container pathway for acidic honey.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Li et al. 2017 — Total mercury in vegetables and grains near coal-fired power plants, China
 
+## Overview
+
 This study measured total mercury (tHg) in vegetables, grain crops, and soils at six locations within 10 km of two newly operational coal-fired power plants in China (Power Plants A and B, both <5 years of operation at time of sampling), finding that 79% of vegetable samples and 67% of grain samples exceeded China's GB 2762-2012 food safety standard (10 µg/kg fresh weight for vegetables, 20 µg/kg for grains). Mercury concentrations in soil and plant tissue were negatively correlated with distance from the power plants (R² = 0.82, P < 0.001), and the distribution pattern with leaves containing more mercury than roots indicated atmospheric deposition of particulate mercury rather than primarily soil uptake. Water rinsing reduced leaf mercury concentrations by 19–63%, consistent with surface deposition of fly ash. The study identifies coal-fired power plant proximity as a significant and quantifiable risk factor for mercury contamination in local food production.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Okeke et al. 2024 - Spent-engine-oil and palm-oil-mill-effluent soil metals
 
+## Overview
+
 Okeke and colleagues compared heavy-metal concentrations in soils affected by palm oil mill effluent, spent engine oil effluent, and an uncontaminated control site in Ebonyi State, Nigeria. This is in-scope a3 source-attribution and soil-pathway evidence for agro-industrial and automotive effluents, not palm oil occurrence.
 
 ## Key numbers

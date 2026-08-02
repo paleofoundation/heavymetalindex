@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Ali et al. 2020 - Chicken Liver Heavy Metals in Erbil
 
+## Overview
+
 Ali et al. measured ten trace and toxic elements in twenty chicken liver samples from Erbil and Duhok (Kurdistan Region, Iraq) using ICP-OES on dried, acid-digested tissue. The paper is direct poultry offal occurrence evidence, not muscle-meat evidence, and reports all values on a dry-weight basis.
 
 ## Key numbers

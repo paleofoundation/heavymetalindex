@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Samitha et al. 2021 - Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India
 
+## Overview
+
 This study measured Pb, Ni, Cd, and Fe in pineapple cultivated soil, reference soil, roots, leaves, and fruits from Kerala, India.
 
 ## Key numbers

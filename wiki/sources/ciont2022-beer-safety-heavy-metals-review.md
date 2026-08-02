@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Ciont et al. 2022 — Beer safety review: heavy metals in beer
 
+## Overview
+
 Ciont and colleagues (Universities of Cluj-Napoca, Liège, Bari, South China University of Technology, and Harper Adams) review chemical, microbiological, and physical contaminants in craft and large-scale beer. Section 4.2 ("Heavy Metals") narratively summarises the sources, transfer routes, and reported concentrations of heavy metals in beer, citing one primary quantitative dataset (Eticha and Hymete 2014, Ethiopian locally-manufactured beer) and describing aluminium and tin as the two metals of particular concern for beer. The review states that "metal mining, smelters, shredder plants, trash dumping, and incineration" raise environmental metal concentrations above natural background, that "heavy metals can be found in beer due to agricultural herbicides, fungicides, and bactericides," and that brewing equipment (pipelines, tanks, filtration, fermentation, conditioning, carbonation, packaging) and packaging (barrels, aluminium cans) are additional transfer routes. The HACCP section reports that a heavy-metal concentration exceeding 0.04 mg/L at the raw-materials reception stage is treated as a substantial risk to human health, and assigns reception as a Critical Control Point.
 
 ## Key numbers

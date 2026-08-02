@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Begum et al. 2023 — Water quality and heavy metals in Rawal Lake tributaries, Pakistan
 
+## Overview
+
 This study applies principal component analysis (PCA) and a Water Quality Index (WQI) to evaluate spatial variation in water quality across the five major tributaries feeding Rawal Lake, Islamabad, the primary drinking water source for the twin cities of Islamabad and Rawalpindi (population approximately 2 million). Among the 11 water quality parameters assessed, temperature, TDS, pH, EC, chlorides, and sulfates were within WHO limits at most sites; however, cadmium (Cd) and lead (Pb) exceeded WHO permissible limits specifically in the Bari Imam and Rumli tributaries. Pearson correlation analysis revealed a strong positive correlation (r = 0.910, p less than 0.05) between Pb and Cd concentrations, suggesting co-sourcing from common anthropogenic inputs. PCA yielded three factors explaining 96.5 percent of total variance. The WQI classified water in Bari Imam and Rumli tributaries as highly contaminated and unsuitable for drinking. Contamination sources at Bari Imam include high population density, household waste dumping, and car wash activities; at Rumli, agricultural and grassland runoff are implicated.
 
 ## Key numbers

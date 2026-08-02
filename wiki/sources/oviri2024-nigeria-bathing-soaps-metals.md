@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Oviri et al. 2024 - Heavy metals in Nigerian bathing soaps
 
+## Overview
+
 Oviri, Tesi, and Emoyan measured Pb, Ni, Zn, Co, Cd, and total Cr in 17 bathing soaps sold in Abraka, Delta State, Nigeria. The sampled categories were medicated, moisturizing, toilet, and skin-whitening soaps; the paper reports both individual anonymous sample values and category-level mean, median, and range statistics in mg/kg finished product. Across Table 2, Pb ranged 0.08-0.28 mg/kg, Cd 0.02-0.05 mg/kg, Ni 0.05-0.24 mg/kg, total Cr 0.01-0.09 mg/kg, Co 0.33-1.93 mg/kg, and Zn 0.10-6.42 mg/kg. The authors also calculated dermal systemic exposure doses and margins of safety using SCCS cosmetic-exposure defaults and concluded that all MoS values were above 100.
 
 ## Key numbers

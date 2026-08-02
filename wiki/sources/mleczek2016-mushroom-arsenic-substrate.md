@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mleczek et al. 2016 - Arsenic species in cultivation substrate and edible mushroom arsenic accumulation
 
+## Overview
+
 This controlled cultivation study tested how edible mushroom species accumulate arsenic when grown on substrates amended with inorganic arsenic species and dimethylarsinic acid. It is not a market-basket occurrence survey, but it directly measures arsenic in final edible mushroom products and shows that species differ strongly in accumulation. The lowest reported total As in fruiting bodies was in Agaricus bisporus, while Pleurotus ostreatus HK35 and Pleurotus eryngii reached much higher dry-weight total As under the tested conditions.
 
 ## Key numbers

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Sundhar et al. 2023 - Gulf of Mannar seaweed processing and metals
 
+## Overview
+
 Sundhar et al. measured Be, Cr, Ni, As, Se, Cd, Hg, and Pb in three edible seaweeds from the Gulf of Mannar before and after household-style thermal processing. The paper reports total arsenic and total mercury only; it does not speciate inorganic arsenic, methylmercury, or Cr(VI). Values are reported as `mg/kg`; the source collected and processed fresh seaweed and does not report a dry-weight conversion.
 
 ## Key numbers

@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Han et al. 2024 — Nickel occurrence and dietary exposure in Zhejiang Province, China
 
+## Overview
+
 This study quantifies nickel concentrations across six food categories in Zhejiang Province, China (2628 samples, 2018–2019) and assesses dietary exposure risk by age group. Beans (n=5) carry exceptionally high nickel levels (mean 3.094 mg/kg, all five samples above the GB 2762-2022 1 mg/kg national limit), while cereal products and fruits stay below the limit. Children aged 0–6 are the only population segment showing unacceptable cumulative exposure (THQ = 1.078) under high-consumption/high-contamination assumptions.
 
 ## Key numbers

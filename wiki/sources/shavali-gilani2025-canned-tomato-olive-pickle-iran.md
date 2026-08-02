@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Shavali-gilani et al. 2025 — Heavy metals in canned tomato paste, olives, and pickled cucumbers, Iran
 
+## Overview
+
 This Iranian study surveyed eight metals (Cd, Cu, As, Fe, Pb, Zn, Hg, Sn) in 49 samples of canned pickled cucumbers, tomato paste, and olives collected from Tehran markets, using AAS-flame and graphite furnace for most analytes and ICP-MS for mercury and tin. All three product types contained detectable lead at average concentrations above the Codex Alimentarius permissible limit of 0.10 mg/kg for canned products; mercury was not detected in any sample. Tin was detected in all canned goods, with tomato paste showing the highest Sn level (0.41 mg/kg), but all values remained far below the EU maximum of 200 mg/kg and Codex 150–250 mg/kg. The study highlights lead as the key canning-associated contaminant in these products.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Shearston et al. 2024 — Metal(loid)s in tampons
 
+## Overview
+
 Shearston et al. measured 16 metal(loid)s in disposable tampons using microwave-acid digestion and ICP-MS. The study tested duplicate subsamples from 30 tampons representing 24 brand-product line-absorbency combinations. All assessed metals were detected in at least one sample, and several HMTc-relevant analytes were detected in every tampon sample.
 
 ## Key numbers

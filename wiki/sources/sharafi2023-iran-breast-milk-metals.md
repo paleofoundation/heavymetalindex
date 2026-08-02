@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Sharafi et al. 2023 - Heavy metals in breast milk from western Iran
 
+## Overview
+
 Sharafi and colleagues measured arsenic, cadmium, mercury, lead, chromium, and nickel in breast milk from 100 lactating women in Kermanshah, western Iran. Chromium, nickel, and lead had the highest mean concentrations in breast milk, and the authors reported exceedance of their cited tolerable or maximum limits for several metals. The source is routeable for human-milk occurrence and infant exposure context, not for infant formula.
 
 ## Key numbers

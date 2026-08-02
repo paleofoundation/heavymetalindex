@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Largueza et al. 2026 — Essential and potentially toxic elements in commercial milk formulas: systematic review with meta-analysis and THQ risk assessment
 
+## Overview
+
 Largueza and colleagues at the Federal University of Rio de Janeiro State (UNIRIO) and partner Brazilian institutions conducted a PRISMA-registered systematic review and random-effects meta-analysis (REML) of essential and potentially toxic elements in commercial milk formulas (CMF) for children aged 0 to 3 years. Thirty observational studies were synthesized qualitatively and eighteen provided sufficient data for the meta-analysis, which pooled element concentrations across three Codex Alimentarius CMF categories (infant formula IF, follow-up formula for older infants FFI, and product for young children PYC) and stratified by WHO region. Non-carcinogenic risk was assessed via the EPA Target Hazard Quotient (THQ) framework using EPA RfDo values and product-specific estimated daily intake equations. The review documents Total Target Hazard Quotient (TTHQ) values above one in several countries for all three formula categories, identifies the elements driving the excess risk on a per-country basis, and concludes that continuous monitoring of CMF is necessary to safeguard children's health. This is the first global systematic review-with-meta-analysis covering essential elements, potentially toxic elements, and the Codex follow-up and young-children categories alongside infant formula in a single THQ framework.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Saba et al. 2015 - Mercury in Suillus luteus from Poland, Belarus, and Sweden
 
+## Overview
+
 Saba and colleagues measured total mercury in 1,738 Suillus luteus fruiting bodies from Poland, Belarus, and Sweden. The source is routeable for mushroom total-mercury occurrence because it reports cap, stem, soil, cap/stem ratio, and bioconcentration metrics on a dry-weight basis across many sites. Cap Hg means ranged from 0.13 to 0.33 mg/kg dry matter, while stem means ranged from 0.038 to 0.095 mg/kg dry matter.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kim et al. 2024 — Metals in kale from urban versus rural farms, Maryland
 
+## Overview
+
 This pilot study from Johns Hopkins University (co-funded by USDA) measured eight non-essential metals (As, Ba, Cd, Cr, Pb, Ni, U, V) alongside essential nutrients in Darkibor kale grown at three urban and four rural farms in and around Baltimore City, Maryland. The study found that mean concentrations of nine non-essential metals were higher in urban kale samples compared to rural field samples, with Pb and Cd concentrations for all samples remaining below public health guidelines. Compared to rural samples, urban field samples had higher concentrations of eight nutritional elements (by as much as 413% for iron), suggesting that urban soils, while more contaminated with non-essential metals, also have higher nutrient availability. Within-urban and within-rural variance exceeded between-group variance for six elements, indicating that farm-level site history and soil conditions may matter more than urban vs. rural location per se.
 
 ## Key numbers

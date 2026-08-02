@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Shin 2009 - heavy metals in sanitary napkins and tampons
 
+## Overview
+
 Shin, Lee, and Chung measured chromium, cobalt, nickel, copper, cadmium, and lead in women's sanitary napkins and tampons from five manufacturing countries. The study reports both total product content in `ppm` and extractable metal concentrations in artificial acidic sweat in `ppb`. The paper uses country/sample codes rather than brand-level reporting, so no brand names are attached to contamination values.
 
 ## Key numbers

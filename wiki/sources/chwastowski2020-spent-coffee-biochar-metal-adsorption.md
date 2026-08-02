@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Chwastowski et al. 2020 - spent coffee grounds and biochar for metal adsorption
 
+## Overview
+
 Chwastowski and colleagues compared spent coffee grounds with activated spent-coffee-ground biochar as sorbents for Cd(II), Mn(II), and Pb(II) in prepared aqueous solutions. This is mitigation evidence, not coffee occurrence evidence: the source reports removal capacity from spiked water matrices and should not contribute to coffee product concentration pools.
 
 ## Key numbers

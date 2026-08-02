@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Thirumoorthy et al. 2007 — Metallothionein: an overview
 
+## Overview
+
 Thirumoorthy and colleagues at the KMCH College of Pharmacy (Coimbatore, Tamil Nadu) and the Department of Pharmaceutical Technology, Jadavpur University (Kolkata) review the published literature on metallothionein (MT) — a low-molecular-weight (Mr ≈ 6000), sulfhydryl-rich, divalent-metal-binding protein discovered by Margoshes and Vallee in 1957. The four-page narrative is organised as a short orientation to MT classification, structure, protective biology, role in carcinogenesis and apoptosis, anti-cancer-drug response, and an immunohistochemical staining protocol used by the authors' group to detect MT-1 in cold-acetone-fixed paraffin-embedded liver sections. The paper reports no primary chemical or toxicological measurements; its value to the wiki is conceptual — it organises the MT-I/MT-II/MT-III/MT-IV isoform vocabulary and the cysteine-thiolate metal-binding chemistry that the downstream cadmium- and mercury-handling literature draws on.
 
 ## Why this matters

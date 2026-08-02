@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Saei-Dehkordi et al. 2012 — Pb, Cd, Cu, Zn in Iranian vinegars by stripping chronopotentiometry
 
+## Overview
+
 This study measured lead, cadmium, copper, and zinc in 96 commercial Iranian vinegars (24 each of date, apple, white grape, and red grape) using stripping chronopotentiometry (SCP), confirmed against graphite furnace atomic absorption spectrometry (GFAAS) on a random 16-sample subset. The overall concentration sequence across all vinegar types was Zn > Cu > Pb > Cd. Date vinegars carried the highest mean Pb and Zn; apple vinegars carried the highest mean Cu and Cd. All samples were below the Iranian Institute of Standards and Industrial Research (ISIRI) maximum allowable limits of 1,000 ng/mL for Pb and 10,000 ng/mL combined for Cu + Zn. No ISIRI MAL for Cd in vinegar is established. SCP and GFAAS produced statistically indistinguishable means (paired t-test, p > 0.05) for all four metals.
 
 ## Key numbers

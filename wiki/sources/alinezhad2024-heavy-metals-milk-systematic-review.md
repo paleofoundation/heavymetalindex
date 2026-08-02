@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Alinezhad et al. 2024 — Heavy metals in pasteurized and sterilized milk: systematic review
 
+## Overview
+
 This PRISMA-compliant systematic review included 48 studies with data on 981 pasteurized and sterilized milk samples from 17 countries. The review found that Cu, Cd, Zn, and Pb were the metals most commonly exceeding regulatory maximum permissible limits (MPLs), with exceedance proportions of 94%, 67%, 62%, and 46% of milk samples, respectively. Risk calculations in the review identified moderate-to-high carcinogenic risk in 33 studies (68.75%) and moderate-to-high non-carcinogenic risk in 7 studies (14.5%).
 
 ## Key numbers

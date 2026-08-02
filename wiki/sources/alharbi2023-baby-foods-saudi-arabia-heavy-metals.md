@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Alharbi et al. 2023 — As, Cd, Pb in Saudi Arabian baby foods (NFMP 2020)
 
+## Overview
+
 Saudi Food and Drug Authority (SFDA) study quantifying total arsenic, cadmium, and lead by ICP-MS in 111 baby food products from the 2020 National Food Monitoring Program, then calculating estimated daily intake (EDI), target hazard quotient (THQ), hazard index (HI), and margin of exposure (MoE) for infants 0–6 months and 7–12 months. Samples were drawn from pharmacies and main markets in Riyadh, Jeddah, and Dammam, with the sampling frame weighted by market share. Concentrations are reported in µg/kg as-sold (dry weight for powders and cereal meals). Left-censored data are handled with the Codex CCCF lower-bound / middle-bound / upper-bound (LB/MB/UB) substitution scheme. The paper concludes that exposure from the foods tested poses low chronic noncarcinogenic risk (all THQ and HI < 1.00) and lead exposure for 0–6-month infants on stage 1 formula alone reaches the EFSA neurodevelopmental BMDL01 at the upper-bound estimate (MoE = 1.00).
 
 ## Key numbers

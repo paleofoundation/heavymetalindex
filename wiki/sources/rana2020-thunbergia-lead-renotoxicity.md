@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Rana et al. 2020 - Thunbergia leaf extract and lead-induced mouse renotoxicity
 
+## Overview
+
 Rana and colleagues tested whether an aqueous *Thunbergia laurifolia* leaf extract altered lead-acetate-induced kidney toxicity in mice. This is lane a4 toxicology and co-treatment evidence, not vitamin/mineral supplement occurrence evidence: Pb acetate was deliberately supplied in drinking water, and blood/kidney Pb were measured as exposure-confirmation endpoints. The paper reports exact blood Pb, kidney Pb, kidney-weight, renal-function, and histopathology values.
 
 ## Key numbers

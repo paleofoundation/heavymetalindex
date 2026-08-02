@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Margaoan et al. 2024 — Environmental pollution, honey bees, and bee products
 
+## Overview
+
 This comprehensive review examines environmental pollutants — heavy metals, pesticides, acaricides, antibiotics, and emerging contaminants — affecting honey bees and the quality and safety of bee-derived products (honey, pollen, beeswax, royal jelly, bee bread). The heavy metals section covers Pb, Cd, Hg, As, Cr, and Ni, reviewing concentrations reported in honey and pollen from contaminated versus clean environments and their implications for human health. The review also documents the use of honey bees as reliable bioindicators of environmental pollution, given their wide foraging range and the accumulation of trace elements in hive matrices.
 
 ## Key numbers

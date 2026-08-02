@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Taha et al. 2026 - Metals in commercial tea in Saudi Arabia
 
+## Overview
+
 This Scientific Reports study measured heavy metals in 20 commercial tea samples imported into Saudi Arabia. It is routeable for true-tea and tea-infusion context, with brand identities deliberately omitted from the wiki page.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Gosens et al. 2014 — Aggregate exposure to parabens in personal-care products for children 0-3 yr
 
+## Overview
+
 This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for aggregating exposure to four parabens (methyl-, ethyl-, propyl-, butylparaben) in young children (0-3 yr) from twelve personal-care product types. The paper is a methodology paper on aggregate exposure assessment; it does not measure heavy metals. It is included in the Heavy Metal Index batch because the dermal-absorption fractions, product-use-frequency inputs, and per-product retention factors are useful infrastructure for HMI's parallel heavy-metal exposure modeling in the same product categories.
 
 ## Key numbers

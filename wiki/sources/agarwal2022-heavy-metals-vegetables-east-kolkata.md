@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Agarwal et al. 2022 — Seasonal variation of Pb, Cd, Cr, Hg in vegetables from East Kolkata Wetlands, India
 
+## Overview
+
 This study examines seasonal variation in bioaccumulation and translocation of Pb, Cd, Cr, and tHg in three food crops grown in the East Kolkata Wetlands (EKW), a Ramsar-listed site that doubles as a sewage-treatment and urban food-supply system for Kolkata, India. Vegetables sampled were bottle gourd (Lagenaria siceraria), ladies' fingers/okra (Abelmoschus esculentus), and maize (Zea mays) from the Dhapa municipal solid-waste dumping site. Heavy metal concentrations in edible parts were substantially elevated relative to ambient soil, with the monsoon season producing the highest bioaccumulation and translocation factors across all species and metals.
 
 ## Key numbers

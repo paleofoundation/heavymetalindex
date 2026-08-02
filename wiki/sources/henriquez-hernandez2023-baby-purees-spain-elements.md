@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Henríquez-Hernández et al. 2023 — Elements in Ready-to-Eat Baby Purees, Spain
 
+## Overview
+
 This 2023 Spanish study measured 38 chemical elements by ICP-MS in 159 commercial ready-to-eat baby purees across four food types (fruit, chicken, fish, beef). It is the first study to include rare earth elements (REEs) in baby food and provides useful benchmarks for multi-metal occurrence in complementary feeding products marketed for 6–12-month-old infants. Acid digestion by microwave (Milestone Ethos Up), recoveries 87–118%, LOQs determined from 20-replicate blank runs.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # AbdElgawad et al. 2023 — Chromium accumulation in rice grain under elevated CO2
 
+## Overview
+
 This controlled experiment examines chromium (Cr, as Cr6+) toxicity and grain accumulation in two Egyptian rice cultivars (Sakha 106 and Giza 181) grown in soil spiked with 200 and 400 mg Cr(VI)/kg. The study tests whether elevated CO2 (eCO2) mitigates chromium stress and grain accumulation. Results show that eCO2 reduced Cr uptake in rice grain and improved plant physiology under Cr stress, with potential climate-change implications for managing chromium contamination in rice cultivation.
 
 ## Key numbers

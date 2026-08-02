@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Yuan et al. 2012 — Aluminum Overload and Oxidative Stress in Neonatal Rat Brains
 
+## Overview
+
 This 2012 Taiwanese animal study demonstrated dose-dependent aluminum accumulation and oxidative stress (measured as TBARS/lipid peroxidation) in multiple brain regions of neonatal rats. This is an animal toxicology study; it provides mechanistic support for Al neurotoxicity in early development but does not provide food or formula concentration data.
 
 ## Key numbers

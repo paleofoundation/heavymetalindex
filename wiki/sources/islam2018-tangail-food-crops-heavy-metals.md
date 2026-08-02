@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Islam et al. 2018 — Heavy metals in Tangail industrial-area food crops
 
+## Overview
+
 Islam and colleagues measured chromium, nickel, copper, arsenic, cadmium, and lead in rice and seven vegetable/fruit crops grown around industrial areas of Tangail district, Bangladesh. The source reports crop concentrations in `mg/kg dw` and compares them with FAO/WHO food-crop limits. Arsenic is reported as total arsenic in the occurrence table; no inorganic arsenic speciation is provided.
 
 ## Key numbers

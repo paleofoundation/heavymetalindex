@@ -29,6 +29,8 @@ updated: 2026-06-04
 
 # Mosusu 2023 — Heavy metals in edible Japanese seaweeds
 
+## Overview
+
 A 2023 master's thesis abstract from Hokkaido University's Graduate School of Environmental Science reports ICP-MS analysis of fourteen elements (V, Se, Mn, Fe, Cu, Zn, Mo, Co, Cr, Ni, Cd, Pb, Th, U) in 22 commercial seaweed samples sold in Japan, covering four species: Wakame (*Undaria pinnatifida*), Kombu (*Laminaria spp.*), Hijiki (*Hizikia fusiform*), and sea lettuce (*Ulva rigida*). Of the fourteen elements measured, five fall within the Heavy Metal Index analyte vocabulary: Cr, Ni, Cd, Pb, and U. The abstract reports inter-species ranking patterns and a geographic signal — Chinese-sourced Wakame and Hokkaido-sourced Kombu from off Nemuro — but does not include numerical concentration tables; only the full thesis would contain those.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bua et al. 2016 — Cd, Hg, As, and Pb in aromatic spices traded in Italy
 
+## Overview
+
 Bua and colleagues measured Cd, Hg, As, and Pb in seven aromatic spice samples traded in the Italian market. Samples included cinnamon, curcuma, and ginger from multiple declared origins and were analyzed by microwave-assisted digestion followed by ICP-MS. The paper reports total As and total Hg only, not inorganic arsenic or methylmercury. The current ingredient taxonomy includes `spices`, `cinnamon`, and `turmeric`; ginger-specific values are retained in the matrix notes because `ginger` is not in the snapshot.
 
 ## Key numbers

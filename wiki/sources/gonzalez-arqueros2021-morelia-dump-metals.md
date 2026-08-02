@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # González-Arqueros et al. 2021 — Morelia closed-dump metals
 
+## Overview
+
 González-Arqueros and colleagues sampled urban solid waste (USW) from eight opencast wells in the closed dump of Morelia, Michoacán, Mexico, to test whether hazardous waste had been illegally co-confined with USW during the dump's 1997-2007 operational life. The closed site sits in the Trans-Mexican Volcanic Belt over a fractured, permeable recharge zone of an overexploited aquifer that supplies water to more than 120,000 people. This is primary environmental solid-waste evidence for metals and arsenic in landfill material, not occurrence evidence for food, ingredients, or consumer products.
 
 ## Key numbers

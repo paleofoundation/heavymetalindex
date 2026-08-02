@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Decharat & Phethuayluk 2023 — Lead and cadmium in drinking water at child development centres, Phatthalung province, Thailand
 
+## Overview
+
 This study assessed the quality and health risk of Pb and Cd in 210 drinking water samples of four types (bottled, tap, filtered, raw) collected from child development centres in Phatthalung province, southern Thailand. Graphite furnace atomic absorption spectrometry (GFAAS) was used for analysis. Health risk assessment calculated hazard quotient (HQ) and hazard index (HI) specifically for children, a vulnerable population. All HQ and HI values were below 1, indicating no apparent non-cancer risk under the measured concentrations. The study provides concentration data for Pb and Cd across multiple water types in a childhood exposure setting in Thailand.
 
 ## Key numbers

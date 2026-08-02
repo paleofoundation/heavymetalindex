@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ashley-Martin et al. 2022 — Biomonitoring of inorganic arsenic species in pregnancy
 
+## Overview
+
 This review from Health Canada scientists synthesises the evidence base for measuring inorganic arsenic (iAs) species during pregnancy, addressing both the value of speciated versus total arsenic measurement and the methodological challenges unique to the pregnant population. The authors document that physiological changes in pregnancy (increased glomerular filtration rate, plasma volume expansion of approximately 45%, hormonal changes that upregulate arsenic methylation) systematically alter arsenic biomarker profiles compared to non-pregnant adults, making pregnancy-specific reference values and correction factors essential. The review surveys nine common and emerging biological matrices (urine, blood, toenails, hair, meconium, placenta, cord blood, saliva, and others), evaluating each for half-life, detection rates, analytical methods, and suitability for iAs speciation in pregnant populations. A key finding is that while urinary DMA is the dominant species in pregnancy (averaging 71 to 89.7 percent of speciated arsenic, higher than the 60 to 80 percent in non-pregnant adults), the elevated %DMA partly reflects pregnancy-induced methylation efficiency rather than solely higher iAs intake, complicating interpretation in populations with seafood consumption.
 
 ## Key numbers

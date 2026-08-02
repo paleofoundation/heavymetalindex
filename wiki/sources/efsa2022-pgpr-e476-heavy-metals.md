@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # EFSA FAF Panel 2022 — Heavy metals in PGPR food additive (E 476)
 
+## Overview
+
 The EFSA Panel on Food Additives and Flavourings conducted a follow-up risk assessment of polyglycerol polyricinoleate (PGPR, E 476), an emulsifier used in chocolate, emulsified sauces, and other foods, focusing on updating EU specifications for impurities including arsenic, lead, mercury, and cadmium. In 13 commercial E 476 samples analyzed by the interested business operator (IBO), all four toxic element concentrations were below limits of quantification (LOQs). The Panel concluded that the current EU specification limits for these four elements should be lowered, as actual levels in commercial product are substantially below the existing limits. For arsenic, the margin of exposure was insufficient at the lower end of calculated values; for lead, mercury, and cadmium, proposed lowest technologically achievable levels do not raise safety concerns.
 
 ## Key numbers

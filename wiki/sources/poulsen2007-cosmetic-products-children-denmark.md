@@ -36,6 +36,8 @@ created_by: claude_opus_47_session
 
 # Poulsen & Schmidt 2007 — Heavy metals (Cr, Ni, As, Se, Cd, Sn, Sb, Ba, Hg, Pb) by XRF in 10 children's cosmetic-product packaging materials, Denmark
 
+## Overview
+
 This Danish Environmental Protection Agency report (Survey of Chemical Substances in Consumer Products, No. 88, 2007), prepared by FORCE Technology Department of Sustainability and Management with constituent analyses by Eurofins, mapped 208 cosmetic products marketed for children (ages 3-14) on the Danish market in April-June 2006 and conducted targeted analyses on subsets: 17 products for the 26 mandatory-declaration fragrances (Eurofins, GC-MS), 11 products for the preservative Kathon (Eurofins, HPLC-UV), 14 packaging materials for chlorine as a PVC screen, 10 packaging materials for phthalates (GC-MS), and 10 packaging materials for heavy metals (FORCE Technology, XRF). The heavy-metals scope of this report is entirely PACKAGING, not the cosmetic product itself; the report explicitly notes that since total values in packaging are well below EN 71-3 toy-migration limits, no product-migration analyses were performed. All ten packaging materials returned total values for Cr, Ni, As, Se, Cd, Sn, Sb, Ba, Hg, Pb that are "substantially below" (4× to 450× below) the EN 71-3 migration ceilings; the one notable outlier is one bobble-bath valve part at 360 ppm total Sn, attributed in-text to use of organotin heat stabilisers in PVC.
 
 ## Key numbers

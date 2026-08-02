@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zakaria 2015 - lead, cadmium, and chromium in lipsticks sold in Malaysia
 
+## Overview
+
 Zakaria and Ho measured lead, cadmium, and chromium in `15` lipstick products selected from popularity rankings among surveyed lipstick users in Malaysia. The study reports concentrations in `mg kg-1` and analyzes each lipstick in triplicate. Brand names were collected in the survey workflow, but this page reports only product category, country of production, price category, and coded sample values.
 
 ## Key numbers

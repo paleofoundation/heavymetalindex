@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Limani Bektashi et al. 2021 - Balkan honey metals and sugars
 
+## Overview
+
 Limani Bektashi et al. measured metals, sugars, moisture, and acidity in five honey samples from North Macedonia and Serbia. The paper is direct honey occurrence evidence for Pb, Cd, total arsenic, Cr, Ni, and several nutritional elements on an as-sold honey basis. Lead was detected in all five samples at 0.033-0.055 mg/kg; cadmium was detected in one sample at 0.040 mg/kg; arsenic, nickel, and selenium were not detected.
 
 ## Key numbers

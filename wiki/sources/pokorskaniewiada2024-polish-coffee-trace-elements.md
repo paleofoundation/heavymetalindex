@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pokorska-Niewiada et al. 2024 - trace elements in Polish-market coffee
 
+## Overview
+
 Pokorska-Niewiada and colleagues measured lead and cadmium in commercially available ground and instant coffees sold in Poland, then measured transfer into brewed coffee infusions. The dry coffee concentrations were low, and the authors reported limited transfer into ground-coffee brews, especially for lead.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Pogoson et al. 2020 - Food-safe rice cooking pre-treatment for cadmium and arsenic
 
+## Overview
+
 This Food Chemistry study tested food-safe pre-soaking and cooking treatments for reducing cadmium, inorganic arsenic, and dimethylarsinic acid in polished rice. It contributes both occurrence context for retail rice and mitigation context for post-harvest/cooking reduction.
 
 ## Key numbers

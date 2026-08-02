@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mohamed et al. 2023 — Lead, mercury, arsenic, and cadmium in chilled and frozen beef, Sharkia province, Egypt
 
+## Overview
+
 This study measured Pb, Hg, As, and Cd in 30 beef samples (15 chilled, 15 frozen) collected from retail stores in Sharkia Governorate, Egypt, and assessed human health risk via estimated daily intake, hazard quotient, and hazard index. Lead exceeded the maximum permissible limit in 53.3% of chilled and 66.6% of frozen samples. Arsenic exceeded permissible levels in all chilled and frozen samples. Cadmium was within permissible limits in all samples. Mercury was undetectable in chilled samples and absent in 67% of frozen samples. EDI was below the oral reference dose for all metals except As, where 46.7% of chilled and 60% of frozen samples exceeded the RfD. THQ for As and HI for all metals exceeded 1 in 33.3% of chilled and 46.7% of frozen samples.
 
 ## Key numbers

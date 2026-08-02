@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Ojha et al. 2024 — Phytoremediation potential of Brassica juncea on sewage-irrigated Cd/Pb soils
 
+## Overview
+
 This field study assessed cadmium and lead uptake and the phytoremediation potential of *Brassica juncea* across four sewage-irrigated sites in Prayagraj, India, computing bioaccumulation and translocation factors. It is upstream mechanism evidence on Cd/Pb soil-to-plant transfer under sewage irrigation; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

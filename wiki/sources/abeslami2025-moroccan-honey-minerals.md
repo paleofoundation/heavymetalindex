@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Abeslami et al. 2025 — Mineral profile and heavy metals in Moroccan honeys
 
+## Overview
+
 This study characterized the mineral profile and heavy metal content of seven honey types (six monofloral and one multifloral) from eastern Morocco, using ICP-MS. Botanical origin significantly influenced mineral composition: multifloral honey had the highest total mineral content (661 mg/kg), while monofloral varieties showed distinct elemental fingerprints. For heavy metals, cadmium ranged from 0.0017 to 0.018 mg/kg and lead from 0.13 to 0.19 mg/kg across honey types; all values fell within safe regulatory limits. The study provides geographic and botanical-origin context for Moroccan honey mineral variability.
 
 ## Key numbers

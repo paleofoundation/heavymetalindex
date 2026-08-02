@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Silva et al. 2025 — Edible oils: health benefits and contamination risks (systematic review)
 
+## Overview
+
 This systematic review (35 included studies from MEDLINE/PubMed, ScienceDirect, and SCOPUS through September 2025) examines the health impacts, production methods, and contamination profiles of extra virgin olive oil, olive oil, soybean, palm olein, corn, and camellia seed oils, with a section specifically addressing heavy metal and PAH contamination. Seven of the 35 included studies focused on contaminants; the review synthesizes their findings alongside original concentration data from a broader appendix table (Table A1) drawing on additional published literature. The review concludes that heavy metals in edible oils are generally below regulatory thresholds but that environmental and agricultural conditions create meaningful regional variation, and that continued monitoring is warranted given proximity of some values to limits.
 
 ## Key numbers

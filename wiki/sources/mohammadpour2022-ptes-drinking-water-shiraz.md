@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mohammadpour et al. 2022 — PTEs in drinking water of Shiraz, Iran
 
+## Overview
+
 This cross-sectional study determined concentrations of lead (Pb), mercury (Hg), manganese (Mn), and iron (Fe) in tap drinking water from Shiraz, Iran, and assessed carcinogenic and non-carcinogenic health risks for children and adults using hazard quotients, hazard index, and Monte Carlo simulation. Mean Pb was 0.36 µg/L (winter) and 0.50 µg/L (summer); mean Hg was 0.32 µg/L (winter) and 0.20 µg/L (summer); all metals remained below WHO and EPA standards. The health risk assessment found all PTEs at acceptable non-carcinogenic levels (HQ < 1, HI < 1); carcinogenic risk from Pb was low (< 10⁻⁶). Monte Carlo sensitivity analysis identified mercury concentration and water intake rate as the most critical parameters for non-carcinogenic risk.
 
 ## Key numbers

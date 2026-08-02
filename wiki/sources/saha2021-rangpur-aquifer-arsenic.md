@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Saha et al. 2021 - Rangpur aquifer sediment and groundwater arsenic
 
+## Overview
+
 Saha and colleagues analyzed shallow-aquifer sediments from the Rangpur division of Bangladesh and correlated sediment geochemistry with groundwater arsenic. This is in-scope a3/a4 evidence for groundwater-source attribution and exposure context, not mineral-water product occurrence.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Bakyayita et al. 2019 — Trace metals in Lake Victoria basin groundwater and surface water, Uganda
 
+## Overview
+
 This study assessed levels, speciation, and toxicity of selected trace metals in shallow groundwater, surface runoff, surface water, landfill leachate, and wastewater in subcatchment areas of the Lake Victoria basin, Uganda. Shallow groundwater was acidic (pH below 6.5). Some surface water samples contained iron, chromium, aluminium, and manganese above guideline values. Speciation modelling showed 74% of metal ions in surface water were bound to dissolved organic matter, while in landfill leachates the dominant species were metal hydroxides or fulvic-acid complexes. Risk analysis using the Swedish EPA framework found 30-76% of surface water sample sites showed varied negative-effects risks. Bio-met modelling indicated potential toxicity from Cu2+, Ni2+, Zn2+, and Pb2+ in 15.3-30.8% of surface water and 8.3-62.5% of groundwater samples.
 
 ## Key numbers

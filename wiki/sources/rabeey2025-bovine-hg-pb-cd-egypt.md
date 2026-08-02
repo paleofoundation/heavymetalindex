@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Rabeey et al. 2025 — Heavy metals in imported frozen bovine tissues, Sohag, Egypt
 
+## Overview
+
 This study analyzed 315 imported frozen bovine samples (105 each of muscle, liver, and kidney) from local markets in Sohag, Egypt, for total mercury (tHg), lead (Pb), and cadmium (Cd) by atomic absorption spectrophotometry. The authors report frequent exceedance of their cited maximum permissible limits for Pb and Hg, while calculated dietary risk indices remained below concern thresholds for average adult Egyptian consumption rates. The core tissue pattern was muscle highest for tHg, liver highest for Pb, and kidney highest for Cd.
 
 ## Key numbers

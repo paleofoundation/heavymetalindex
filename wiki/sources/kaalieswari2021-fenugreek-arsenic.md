@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Kaalieswari et al. 2021 - arsenic uptake in fenugreek
 
+## Overview
+
 Kaalieswari, Chakraborty, and Mukhopadhyay tested whether fenugreek, an edible plant used as a spice and vegetable in India, accumulates arsenic after controlled arsenite and arsenate exposure. The paper is useful as plant-uptake and risk-context evidence for fenugreek under contaminated growing conditions, not as a market-basket benchmark for commercial spices.
 
 ## Key numbers

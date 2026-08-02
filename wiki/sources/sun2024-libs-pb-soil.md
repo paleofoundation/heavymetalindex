@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Laser-induced breakdown spectroscopy (LIBS) was applied for detection and quantification of lead in contaminated soils. The paper develops LIBS as a rapid, field-deployable method for soil Pb monitoring. Relevant as a supply-chain monitoring tool for agricultural soils where crop Pb uptake is a concern.
 
 ## Key numbers

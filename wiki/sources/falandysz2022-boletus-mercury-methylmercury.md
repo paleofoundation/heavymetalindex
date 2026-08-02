@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Falandysz et al. 2022 - Total mercury and methylmercury in crude and braised Boletus edulis
 
+## Overview
+
 This study measured total mercury and methylmercury in Boletus edulis carpophores across four developmental stages and after braising. Crude mushrooms contained 0.1880 to 0.2929 mg/kg wet weight total Hg, while braised mushrooms contained 0.2668 to 0.5434 mg/kg wet weight total Hg. Methylmercury made up a small fraction of total Hg, but the source is directly relevant because it speciates MeHg and reports both raw and cooked food forms.
 
 ## Key numbers

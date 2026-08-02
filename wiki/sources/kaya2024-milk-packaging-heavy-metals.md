@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Kaya et al. 2024 — Heavy metals in commercial Turkish liquid milk and its packaging (JETAS)
 
+## Overview
+
 This Turkish study quantifies ten elements (Al, As, Cd, Co, Cu, Fe, Pb, Mn, Ni, Zn) in 10 commercial liquid milk samples sold in Turkish markets and in their corresponding aseptic packaging materials using microwave-acid digestion followed by ICP-OES, then performs Pearson correlation analysis between milk and packaging concentrations for each element. The headline observation is that packaging concentrations exceed milk concentrations by one to five orders of magnitude across all detected elements, with aluminium foil–laminate packaging carrying 51,267–71,601 mg/kg Al, 31.6–42.4 mg/kg As, and 22.9–26.7 mg/kg Pb at the packaging-matrix level. The data are useful for packaging-matrix occurrence in aseptic dairy cartons and for the question of whether packaging composition correlates with milk concentrations. Important methodological caveat: most milk values reported sit at or below the instrument's stated LOD/LOQ for the element (see Methods and Verification notes).
 
 ## Key numbers

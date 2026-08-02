@@ -31,6 +31,8 @@ updated: 2026-06-22
 
 # IARC Monograph 100C (2012) — Nickel and Nickel Compounds
 
+## Overview
+
 This is the International Agency for Research on Cancer's authoritative carcinogenicity evaluation of nickel and nickel compounds, published as a chapter of Monographs Volume 100C, the "Review of Human Carcinogens" re-evaluation of agents previously classified by IARC. Nickel had been considered by earlier Working Groups in 1972, 1975, 1979, 1982, 1987, and 1989; this 2012 reassessment incorporates the human epidemiology, animal bioassay, and mechanistic literature that accumulated since. The Working Group concluded that there is sufficient evidence in humans for the carcinogenicity of mixtures that include nickel compounds and nickel metal, with the evidence strongest for soluble nickel compounds and independent evidence for oxidic and sulfidic nickel compounds; these agents cause cancers of the lung and of the nose and nasal sinuses. The overall classification is that nickel compounds are carcinogenic to humans (Group 1). The monograph is primarily an inhalation-and-occupational carcinogenicity document, but its Section 1.5.3 compiles dietary nickel concentrations across food categories, which is the part most directly relevant to a food-and-supply-chain wiki.
 
 ## Key numbers

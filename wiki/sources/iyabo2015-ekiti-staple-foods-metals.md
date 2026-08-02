@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Iyabo et al. 2015 — Zn, Cu, Cd, and Pb in staple foods consumed by Ekiti students
 
+## Overview
+
 Iyabo and colleagues measured zinc, copper, cadmium, and lead in staple foods commonly consumed by university students in Ekiti State, southwest Nigeria. The foods were grouped as cereal/cereal products, legume products, and tuber products, with concentrations reported in `mg/kg`. The paper reports no arsenic, mercury, chromium, or nickel data.
 
 ## Key numbers

@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # BCPP/EWG/NRDC/WVE coalition factsheet for California SB 258 (Lara) — Cleaning Product Right to Know Act of 2017
 
+## Overview
+
 This is a two-page coalition advocacy factsheet circulated by Breast Cancer Prevention Partners (BCPP), the Environmental Working Group (EWG), the Natural Resources Defense Council (NRDC), and Women's Voices for the Earth (WVE) in support of California SB 258 (Sen. Ricardo Lara), the Cleaning Product Right to Know Act of 2017. The bill was introduced in the 2017–2018 California legislative session and, after passage and signature by Governor Brown on 15 October 2017 (Chapter 830, Statutes of 2017), became codified as Cal. Health & Safety Code §§ 108950–108997. The factsheet was distributed during the legislative-advocacy period leading to passage; the contact list on p. 2 names the four coalition organisations as the points of contact for the campaign.
 
 The factsheet describes the substantive provisions of SB 258 — mandatory ingredient disclosure on both product labels and manufacturer websites for consumer and institutional cleaning products, first-of-its-kind disclosure of individual chemicals included within "fragrance," and a Confidential Business Information (CBI) carve-out that does **not** apply to chemicals on any of 22 authoritative lists of chemicals of concern identified by the California Department of Toxic Substances Control (DTSC) or to chemicals on the European Union list of fragrance allergens. The factsheet does not enumerate the 22 lists, and it does not name any heavy metal explicitly.

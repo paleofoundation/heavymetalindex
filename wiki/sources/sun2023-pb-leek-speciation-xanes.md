@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sun et al. 2023 — Pb speciation and elemental distribution in leeks using synchrotron XRF and XANES
 
+## Overview
+
 This mechanistic study uses micro-XRF and XANES at the Shanghai and Beijing synchrotron facilities to map lead distribution and identify Pb chemical species in leek roots and leaves. Leek plants were sourced from a vegetable garden adjacent to the Qixiashan Pb-Zn mine in Nanjing, where soil Pb was 787 mg/kg (also As 68.63, Cd 4.37, Cu 69.81, Zn 823.15, Cr 78.34 mg/kg). The plants were then additionally spiked with 500 mg/L Pb(NO3)2 solution to obtain sufficient XANES signal. The central finding is that leek roots convert ambient Pb primarily into insoluble lead phosphate and basic lead carbonate (combined >80%), immobilizing Pb on root epidermis and limiting translocation to edible leaf tissue.
 
 ## Key numbers

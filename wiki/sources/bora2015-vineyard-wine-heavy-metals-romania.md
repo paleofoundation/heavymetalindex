@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Bora et al. 2015 — Heavy metals in the soil-grapevine-wine system in NW Romania
 
+## Overview
+
 Bora and colleagues measured concentrations of ten elements (Na, Ca, Mg, Fe, Cu, Zn, Pb, Cd, Ni, Co) by flame atomic absorption spectrophotometry (FAAS) across the soil–grapevine–wine system of three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in the Turulung vineyard (Satu Mare County, NW Romania), 57 km from the Baia Mare metallurgical complex. The vineyard soil exceeded the Romanian maximum limit allowed (MLA) for copper (mean 479.64 mg/kg vs 20 mg/kg MLA), attributed by the authors to long-running Cu-based fungicide treatments and regional smelter emissions; all other soil analytes (Pb, Cd, Zn, Ni, Co) were below their MLAs. In the resulting micro-vinified young wines, all measured heavy metals were below the International Organisation of Vine and Wine (OIV) ceilings: Cu 0.23 mg/L, Zn 0.46 mg/L, Pb 0.09 mg/L, Ni 0.04 mg/L; Cd was under the limit of detection. Transfer-factor analysis showed Cd and Pb preferentially accumulating in leaves rather than in must, consistent with vine-internal sequestration of toxic metals away from the berries.
 
 ## Key numbers

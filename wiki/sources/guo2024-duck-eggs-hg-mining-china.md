@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Guo et al. 2024 — Heavy metals in duck eggs near mercury mining areas, southwest China
 
+## Overview
+
 This study measured chromium, lead, zinc, strontium, and barium concentrations in duck eggs collected from five farm locations in a historically significant mercury mining area in southwest China (Guizhou province). The authors assessed contamination levels against Chinese food safety standards and estimated health risks for local populations. The paper documents how proximity to legacy mercury mining operations elevates heavy metal content in free-range poultry eggs, even when the primary concern is mercury; the study measured co-contaminants (Cr, Pb) alongside the expected mercury pathway.
 
 ## Key numbers

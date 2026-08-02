@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mekonnen et al. 2024 — Potentially toxic elements in fruits, Bahir Dar, Ethiopia
 
+## Overview
+
 This study measured Pb, Cd, Cr, and Cu concentrations in the edible portions of mango, banana, and orange collected from open markets in Bahir Dar town, Northwest Ethiopia, and assessed associated noncarcinogenic and carcinogenic health risks. Mango showed Pb (0.576 mg/kg dw) and Cd (1.771 mg/kg dw) concentrations exceeding FAO/WHO permissible limits of 0.3 and 0.2 mg/kg respectively, yielding a hazard index of 3.69 and a target cancer risk of 1.71 × 10⁻³, which exceeds the moderate risk threshold. Banana and orange Pb was not detected, with Cd below FAO/WHO limits.
 
 ## Key numbers

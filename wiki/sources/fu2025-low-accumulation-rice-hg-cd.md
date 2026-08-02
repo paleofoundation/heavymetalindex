@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Fu et al. 2025 - Low-accumulation rice and Hg/Cd mitigation
 
+## Overview
+
 Fu and colleagues tested low-accumulation rice cultivars, soil conditioners, foliar barrier agents, and conditioner application rates in Hg-Cd co-contaminated farmland in Tongren, Guizhou. This source is routeable rice evidence for husked/milled brown rice grain, with treatment-level field summaries for total Hg, Cd, total As, Pb, and total Cr; it should not be mistaken for an HMTc aggregate percentile or a general China rice benchmark.
 
 ## Key numbers

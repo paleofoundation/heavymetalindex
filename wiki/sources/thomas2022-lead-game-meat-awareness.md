@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Thomas et al. 2022 - lead-contaminated game meat awareness
 
+## Overview
+
 Thomas and colleagues review the human-health exposure pathway from lead-based hunting ammunition into wild game meat and compare the attention given to that pathway by international and national health organizations. The paper is not a new occurrence survey; it synthesizes published evidence on lead fragments, bioavailability, blood lead, high-consumption groups, food-bank distribution, and policy gaps. It is useful as game-meat lead exposure context, not as a concentration-distribution input.
 
 ## Key numbers

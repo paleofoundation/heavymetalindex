@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mleczek et al. 2015 - Arsenic uptake in cultivated mushrooms from controlled substrates
 
+## Overview
+
 Mleczek and colleagues tested how arsenic species in cultivation substrate affect arsenic accumulation in mushroom biomass. This is not a natural retail-occurrence survey, but it is a routeable experimental food-matrix source because it reports final mushroom arsenic concentrations under controlled substrate treatments. Total arsenic ranged from 1.97 +/- 0.14 mg/kg dry weight in Agaricus bisporus to about 68 mg/kg dry weight in Pleurotus strains under higher exposure conditions.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Rizzi, Nucera, Laterza, Gaetani, Valenza, Corbo, Inchingolo, Buonomo, Schiavino, Gasbarrini 2017 — IBS and nickel allergy: role of the low-nickel diet
 
+## Overview
+
 This Journal of Neurogastroenterology and Motility original article from the Gemelli Hospital allergology, gastroenterology, nuclear medicine, and pulmonology consortium tests whether a low-nickel diet improves gastrointestinal symptoms in IBS patients with nickel sensitization, and characterizes the intestinal permeability profile of these patients using 51Cr-EDTA excretion. The study confirms that nickel-sensitive IBS patients have substantially elevated intestinal permeability versus controls (5.91 percent vs 2.20 percent 51Cr-EDTA excretion) and that all GI symptoms except vomiting improve significantly on a low-nickel diet. The finding positions IBS with nickel sensitization as a candidate subtype of SNAS amenable to dietary intervention.
 
 ## Key numbers

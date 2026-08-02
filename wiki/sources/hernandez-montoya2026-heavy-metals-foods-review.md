@@ -27,6 +27,8 @@ updated: 2026-05-28
 
 # Hernández-Montoya et al. 2026 — Heavy metal contamination in foods: scoping review of detection, regulation, and health risk
 
+## Overview
+
 This PRISMA-ScR scoping review (121 studies from 255 initial records) synthesizes peer-reviewed literature on the occurrence of five priority toxic metals (As, Cd, Pb, Hg, Ni) in food matrices, emphasizing contamination pathways, analytical detection strategies, and documented human health effects. The review is qualitative — no quantitative meta-analysis was attempted because of methodological heterogeneity across included studies, and no formal risk-of-bias assessment was performed. Chromium and tin were excluded by design.
 
 The review consolidates regulatory maximum levels from Codex Alimentarius CXS 193-1995 Rev. 2024, EU Regulation 1881/2006, EU Regulation 2023/915, and OIV 2021 (wine), and provides a comparative overview of conventional analytical methods (AAS, ICP-MS, ICP-OES, LC-ICP-MS, AFS, DMA) and emerging methods (portable XRF, Raman/SERS, electronic tongues, nanomaterial-based electrochemical biosensors, in situ environmental magnetism).

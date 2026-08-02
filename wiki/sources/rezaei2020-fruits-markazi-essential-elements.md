@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Rezaei et al. 2020 - essential elements in Markazi province fruits
 
+## Overview
+
 This study measured Fe, Cu, Zn, Mn, and total Cr in five fruit types, plus soil and irrigation water, from six industrial zones of Markazi province, Iran. The paper treats these as essential elements and performs non-carcinogenic risk calculations; for HMT&C routing, the relevant contamination endpoint is total chromium in fresh fruit, with Cu, Fe, Mn, and Zn as nutrient/trace-element context.
 
 ## Key numbers

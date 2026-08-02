@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Vela et al. 2023 - Cadmium and lead in Quito vegetables
 
+## Overview
+
 This study measured cadmium and lead in tomatoes, carrots, and lettuce marketed in Quito, Ecuador. It is directly routeable for vegetable occurrence because the source reports matrix-specific concentrations and comparison limits.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Tooba et al. (2026) develop a silver nanoparticle (AgNPs)-based colorimetric sensor for the detection of mercury(II) (Hg2+) in water samples. The method relies on aggregation-induced color change of AgNPs in the presence of Hg2+, enabling naked-eye or spectrophotometric quantification without specialized instrumentation.
 
 ## Key numbers

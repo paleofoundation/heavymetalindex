@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mahaffey et al. 1975 — FDA Total Diet Study: Heavy Metal Exposure from Foods
 
+## Overview
+
 This 1975 paper presents the first multi-year US dietary monitoring data for six trace elements (Pb, Cd, total Hg, total As reported as As₂O₃, Zn, Se) derived from the FDA Total Diet Study (Market Basket Survey). The protocol composites 117 foods into 12 food classes prepared as consumed, and uses 30 market baskets per year from four US geographic regions as the basis for national-average daily intake estimates. The authors report (i) detection frequencies and mean concentrations by food class for FY 1973 (Tables 5, 6), (ii) yearly total intake trends 1968–1974 (Table 9), and (iii) FY 1973 intakes against WHO/FAO Provisional Tolerable Weekly Intakes (Table 10). The headline finding: average US adult intakes of Pb, Cd, and tHg all fell below WHO/FAO tolerable levels, but cadmium intake reached 71.7–89.7% of the provisional tolerable, prompting the authors' explicit warning that "further increases in the cadmium content of foods should be avoided." Lead intake was acknowledged as likely underestimated because many composites were at or below the analytical detection limit. No WHO/FAO tolerable intake had been established for As or Se at the time of writing. The paper is the methodological and baseline reference for the US market-basket heavy metals surveillance approach.
 
 ## Key numbers

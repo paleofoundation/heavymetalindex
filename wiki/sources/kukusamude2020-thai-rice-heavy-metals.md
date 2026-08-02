@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kukusamude et al. 2020 — Heavy metals in Thai local rice
 
+## Overview
+
 Kukusamude and colleagues measured Cr, Mn, Co, Ni, Cu, Zn, As, and Cd in 55 Thai local rice samples representing four regional rice varieties. The study reports total metal concentrations by rice variety, then uses Thai rice-consumption and body-weight inputs to calculate estimated weekly intake, hazard quotients, hazard index, and lifetime cancer-risk outputs. The occurrence table reports total arsenic; inorganic arsenic appears only as a source-estimated risk input based on a 70% conversion factor from total arsenic.
 
 ## Key numbers

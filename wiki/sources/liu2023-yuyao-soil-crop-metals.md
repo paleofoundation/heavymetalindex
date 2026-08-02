@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Liu et al. 2023 - Yuyao soil-crop heavy metals
 
+## Overview
+
 Liu et al. (2023) measured total arsenic, chromium, copper, lead, cadmium, and total mercury in paired crop and soil samples from Yuyao City, Zhejiang Province, China. The routeable occurrence values are the crop concentrations for rice, bayberry, and mustard; paired soil concentrations are useful supply-chain context but should not be routed as product occurrence. The paper reports average crop concentrations in `mg/kg` and variation coefficients for each metal.
 
 ## Key numbers

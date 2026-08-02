@@ -26,6 +26,8 @@ sampling_year_range: 2021
 
 # Siregar 2025 — Total and inorganic arsenic across thallus sections of seven Australian brown macroalgae
 
+## Overview
+
 Siregar and colleagues measured total arsenic and water-soluble arsenic speciation (As(V), methylated arsenicals, and four arsenosugars) by HPLC-ICP-MS in seven wild brown macroalgae taxa from Mosquito Bay (NSW, Australia), sectioned into holdfast, old stipe, young stipe, and blade. Total arsenic ranged 32.3–70.2 µg/g dry weight (whole thallus), arsenosugars dominated (66–97% of arsenic, predominantly the phosphate arsenosugar), and inorganic arsenic (measured as As(V)) ranged 0.04–14.0 µg/g dw, highest in *Fucus vesiculosus* (blade) and generally higher in upper/younger sections (young stipe, blade) than in holdfast/old stipe. Inorganic arsenic in almost all taxa and sections exceeded the Australia–New Zealand 1 mg/kg seaweed limit, although these are wild seaweeds not harvested for consumption; estimated dietary-intake risk indices (THQ, CR) were below thresholds given low Australian seaweed consumption.
 
 ## Key numbers

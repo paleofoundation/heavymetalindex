@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Nguyen 2016 - trace elements in women's underwear
 
+## Overview
+
 Nguyen and Saleh measured extractable inorganic elements in `120` women's undergarment samples made from cotton, nylon, and polyester. The paper reports concentrations in `mg/kg` after 5% nitric-acid extraction, not total digestion of the entire textile. Brand names appear in the Methods sample list but are not attached to any contamination values here.
 
 ## Key numbers

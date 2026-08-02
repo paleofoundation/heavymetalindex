@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Hossen et al. 2026 - Noakhali vegetables and heavy-metal risk
 
+## Overview
+
 Hossen and colleagues measured heavy metals in vegetables and paired soils from integrated farms in Noakhali, Bangladesh, then modeled dietary risk from vegetable consumption. This is direct a1 occurrence evidence with a4 health-risk outputs layered onto it.
 
 ## Key numbers

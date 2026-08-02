@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Vermont CHCC Rule (2016) — Chemical Disclosure Program guidance document
 
+## Overview
+
 This is the Vermont Department of Health's manufacturer-facing guidance document for the state's Chemical Disclosure Program, implementing 18 V.S.A. Chapter 38A (Act 188 of 2014) and the Vermont Chemicals of High Concern to Children (CHCC) Rule. The document is the February 16, 2016 DRAFT, issued in advance of the program's first reporting period that opened on January 1, 2016 and closed on July 1, 2016. The guidance does not establish chemical lists, numerical concentration limits, or product-specific bans on its own face — those are products of the statute (the chemicals-of-high-concern list at 18 V.S.A. § 1773) and a separate CHCC Rule. The guidance explains who must report, what must be reported, when reports are due, how reporting interacts with chemicals intentionally added versus present as contaminants, and which products and chemical uses are exempt. It is one of the four state children's-products programmes (WA, OR, VT, ME) referenced as a programme model in [[sources/ny-dec-tccp-2023-chem-pqls-draft]].
 
 ## Key numbers

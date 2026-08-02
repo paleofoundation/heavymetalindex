@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Zhang et al. 2025 - Salt-use patterns and urinary metals in NHANES
 
+## Overview
+
 Zhang and colleagues analysed NHANES 2003-2018 survey and laboratory data to test whether salt-use patterns were associated with urinary Ba, Cd, Co, Cs, Mo, Pb, Sb, Tl, W, and total As. This is lane a4 biomonitoring and dietary-exposure evidence, not a salt occurrence study, because the paper does not measure metals in table salt or salt substitutes. The main adjusted signals were higher urinary Mo among salt-substitute users, higher urinary Cd, Pb, and Sb with very frequent table-salt addition, and higher urinary Ba, Cs, Pb, and Tl with cooking/preparation salt use.
 
 ## Key numbers

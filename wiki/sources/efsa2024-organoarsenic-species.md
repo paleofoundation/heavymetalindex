@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # EFSA CONTAM Panel 2024 — Risk assessment of small organoarsenic species in food
 
+## Overview
+
 This 89-page EFSA Scientific Opinion, adopted 4 June 2024, is the first comprehensive EFSA risk assessment of small (mono- and dimethylated) organoarsenic species in food, completing the 2009 Scientific Opinion on arsenic in food where these species had been set aside for lack of data. The CONTAM Panel derived BMDL₁₀ reference points for monomethylarsonic acid MMA(V) (18.2 mg MMA(V)/kg bw per day, equivalent to 9.7 mg As/kg bw per day, from decreased body weight with diarrhoea in rats) and for dimethylarsinic acid DMA(V) (1.1 mg DMA(V)/kg bw per day, equivalent to 0.6 mg As/kg bw per day, from urinary bladder tumour incidence in male rats), applied a margin-of-exposure (MOE) approach because key toxicological data are missing, and concluded that DMA(V) raises a health concern: MOEs are below 10,000 in many dietary surveys at the 95th percentile, especially in infants, toddlers and other children whose main dietary contributors are rice and fish meat. MMA(V) does not raise a health concern across the assessed scenarios. Tri-/tetra-methylated species (TMAO, TETRA) and the thio-analogues (thio-DMA, dithio-DMA, thio-MMA) could not be assessed for lack of toxicological data.
 
 ## Key numbers

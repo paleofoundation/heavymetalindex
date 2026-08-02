@@ -28,6 +28,8 @@ audience: [regulator, educator, app]
 
 # Duinker et al. 2020 - macroalgae food and feed safety
 
+## Overview
+
 This Institute of Marine Research report updates Norwegian macroalgae food and feed safety evidence using data generated from 2014 to 2019. It reports species-level dry-weight concentrations for inorganic arsenic, cadmium, lead, total mercury, iodine, selenium, iron, and zinc across Norwegian macroalgae and selected Asian-origin imported products. The arsenic occurrence table is explicitly inorganic arsenic; mercury is reported as total mercury with most results below LOQ and without a methylmercury concentration table.
 
 ## Key numbers

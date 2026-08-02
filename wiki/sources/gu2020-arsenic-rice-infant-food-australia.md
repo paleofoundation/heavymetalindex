@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Gu et al. 2020 — Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia
 
+## Overview
+
 This A-tier peer-reviewed paper measures total arsenic (tAs) and inorganic arsenic (iAs) in 39 rice-based infant food products from the Australian market across four product categories: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12), and rice crackers (n=21). Non-rice comparators (n=3 non-rice milk powder; n=3 wheat pasta) were analyzed in parallel for tAs only. Author scope is exact on matrix axis (rice-based vs non-rice comparator) and exact on format axis per the four sub-product categories. The paper reports that nearly 75% of samples had iAs exceeding the EU maximum level of 0.1 mg/kg for infants and children, and the mean iAs proportion of tAs reached as high as 84.8% in rice pasta. The paper also reports tAs–rice-content correlations, brown-vs-white-rice differentials, country-of-origin patterns, and dietary-exposure estimates for 9-month-old infants and 2–5-year-old children.
 
 ## Key Numbers

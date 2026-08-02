@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Potortì et al. 2026 — Chemical composition and safety of commercial tahini (Italy)
 
+## Overview
+
 This characterisation of seven commercial tahini brands sold on the Italian market is the first to assess toxic and potentially toxic inorganic elements — Cd, Pb, As, Hg, Ni — alongside proximate composition, fatty acid profile, sterol profile, and essential minerals. One sample (T-1, Turkey-origin organic hulled-seed tahini) substantially exceeded EU Regulation 2023/915 limits for both Cd (0.35 mg/kg vs. the 0.10 mg/kg oilseeds limit, 3.5× over) and Pb (0.50 mg/kg, five times the 0.10 mg/kg fats-and-oils limit) and was the only sample with detectable arsenic (tAs 0.20 mg/kg). The remaining six brands were at or near LOQ (0.010 mg/kg) for Cd, Pb, and As. Total mercury was below LOQ in every sample. Nickel was quantified in all seven brands at 0.02–0.10 mg/kg.
 
 ## Key numbers

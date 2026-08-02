@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # MacDonald, Stead, Rose, Boss & Campbell 2025 — Chemical contaminants in wild-caught fishery products of Scottish and wider UK waters
 
+## Overview
+
 Fera Science Ltd, commissioned by Food Standards Scotland, screened over 3,600 records and selected 125 for inclusion to evaluate the occurrence of regulated and emerging chemical contaminants in wild-caught and smoked fish, shellfish, crustaceans, and cephalopods landed in Scotland and wider UK fishing waters. The review integrates UK-funded surveys from 2009 (FSAS), 2015 (FSA-Fera), and the 2022-23 FSA Wild Caught Fish study reported in 2025, alongside published primary literature. Heavy-metal results are reported below the maximum permitted level (ML) for most species, with the principal regulated-metal exceedances identified as cadmium in crab and scallops, lead in mussels, and mercury in sea bass. Emerging and unregulated contaminants — PBDEs, PCNs, PXDD/Fs, PFAS, microplastics — were detected widely; PFAS in particular exceeded EU MLs in several species despite not being currently regulated in Great Britain. The report concludes that significant data gaps exist for Scottish-landed fish across PFAS, dioxins, PCBs, and inorganic arsenic.
 
 ## Key numbers

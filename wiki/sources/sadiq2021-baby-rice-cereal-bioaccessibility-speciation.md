@@ -28,6 +28,8 @@ updated: 2026-05-15
 
 # Sadiq and Beauchemin 2021 — Multi-elemental bioaccessibility and speciation in baby rice cereals
 
+## Overview
+
 This Queen's University study used both batch and online in vitro leaching methods to determine what fractions of As, Cr, Se, Cd, Pb, Cu, Fe, and Zn from three commercial baby rice cereals (brands A, B, C; Kingston, ON) can actually enter a baby's body. It is one of the few studies to conduct simultaneous HPLC-ICP-MS speciation of As, Cr, and Se in the bio-accessible fraction specifically, and its key finding for HMT&C is stark: all three samples showed bio-accessible As fractions exceeding the FDA's 100 ppb action level for iAs in infant rice cereal, meaning that the portion of As reaching the bloodstream was already at or above the regulatory threshold before speciation is even applied as a further discriminant.
 
 ## Key numbers

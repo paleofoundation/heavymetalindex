@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # McSheehy and Szpunar 2000 - arsenic speciation in edible algae
 
+## Overview
+
 McSheehy and Szpunar developed a two-dimensional SE-AE-HPLC-ICP-MS and ESI-MS/MS workflow for arsenosugar identification in edible algae extracts. The occurrence-relevant table reports total arsenic and "mineral" arsenic in commercially available edible algal products on the French market. The sample frame was enriched for products already withdrawn because of high mineral arsenic, so the values are direct measurements but not a random market survey.
 
 ## Key numbers

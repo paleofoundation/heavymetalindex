@@ -27,6 +27,8 @@ updated: 2026-05-11
 
 # Minelli, Schiavino, Musca, Bruno, Falagiani, Mistrello, Riva, Braga, Turi, Di Rienzo, Petrarca, Schiavone, Di Gioacchino 2010 — Oral hyposensitization to nickel induces clinical improvement and decreases Th1/Th2 cytokines in SNAS
 
+## Overview
+
 This Int J Immunopathol Pharmacol pilot study from the Italian SNAS-research consortium (Campi Salentina, Gemelli Rome, Spedali Civili Brescia, G. d'Annunzio Chieti, Lofarma Milan) demonstrates that oral hyposensitization to nickel (NiOHT) — graduated oral dosing of nickel sulphate from sub-nanogram to microgram doses over months — produces both clinical improvement and measurable immunological remodeling in SNAS. 36 SNAS patients followed the protocol; both Th1 (IFN-gamma) and Th2 (IL-13, IL-5) cytokine responses to ex-vivo nickel challenge decreased significantly. The paper establishes oral hyposensitization as an alternative to lifelong low-nickel-diet adherence and provides mechanistic immunology supporting the SNAS framework.
 
 ## Key numbers

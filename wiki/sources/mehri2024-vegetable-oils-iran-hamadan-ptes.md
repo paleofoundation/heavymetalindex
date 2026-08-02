@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Mehri et al. 2024 — Potentially toxic elements in edible vegetable oils, Hamadan, Iran
 
+## Overview
+
 This study measured five potentially toxic elements (tAs, Cd, Pb, Fe, Zn) in 40 samples of traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, collected in 2022 using ICP-OES after nitric acid/hydrogen peroxide digestion. Industrial oils had significantly higher total tAs, Fe, and Zn than traditional oils in the pooled type comparison; Pb and Cd did not differ significantly by production type. Pb and Cd means were below the Codex/Iranian benchmarks cited by the authors, while industrial olive oil mean tAs (0.113 mg/kg) exceeded the 0.1 mg/kg benchmark despite the paper's narrative statement that the sampled oils were lower than legal limits. Non-carcinogenic TTHQ values were below 1 for both adults and children, but the paper's cancer-risk calculation for inorganic arsenic exceeded 1×10⁻⁶ for both traditional and industrial oils.
 
 ## Key numbers

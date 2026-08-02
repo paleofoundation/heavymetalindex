@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A ZnO@SiO2 core-shell nanomaterial-based fluorescent sensor for Cd2+ detection was developed. The sensor design exploits the optical properties of the core-shell architecture for selective cadmium sensing. Whether food matrix samples were tested for method validation requires checking the full paper.
 
 ## Key numbers

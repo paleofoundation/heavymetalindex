@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Marques et al. 2025 — Phytochelatins and cadmium mitigation via plant genetic manipulation
 
+## Overview
+
 Marques, Thiengo, and Azevedo (Department of Genetics and Luiz de Queiroz College of Agriculture, ESALQ/USP, Piracicaba, Brazil) review the published evidence on genetic-manipulation strategies that exploit the phytochelatin (PC) pathway to modulate cadmium (Cd) tolerance, accumulation, and translocation in plants. The piece is a "Perspective" article in *International Journal of Molecular Sciences* combining a narrative synthesis of ~80 functional-genetics studies (Table 1) with a Web of Science bibliometric analysis of two subsets — mutant-focused (final n=39) and transgenic-focused (final n=44) — and a forward look at multigene precision-engineering and grafting strategies for phytoremediation and food-safety outcomes in Cd-contaminated agricultural systems. The review reports no primary contamination measurements in any food matrix; its value to the wiki is conceptual background for [[metals/cadmium]] and for the mitigation/remediation-evidence section of the wiki when those pages discuss the biological mechanisms by which plants chelate, sequester, and translocate Cd.
 
 ## Why this matters

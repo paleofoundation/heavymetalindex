@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Valencia et al. 2021 — Pb and Cd in cultured *Crassostrea iredalei* oysters, Cañacao Bay, Philippines
 
+## Overview
+
 Valencia and colleagues measured lead and cadmium in 214 cultured slipper-cupped oysters (*Crassostrea iredalei*) and parallel surface-seawater samples taken from three sampling stations across the Cañacao Bay mariculture area (Cavite Province, Luzon, Philippines) over the four months October 2016 to January 2017, spanning the wet-to-dry seasonal transition. The bay is a section of the larger Manila Bay and is bordered by a residential coastal community, the Cavite-Manila ferry route, and a steel corporation outfall. Concentrations were quantified by inductively coupled plasma optical emission spectrometry (ICP-OES) on a Shimadzu ICPE-9810 after dry-ashing acid digestion, with results expressed in mg/kg for oyster soft tissue and mg/L for seawater. Tissue Pb and Cd ranged below the maximum permitted levels set by FAO, FSAI, and FSANZ in every month at every station; target hazard quotients (THQ) and total target hazard quotient (TTHQ) computed for a Filipino adult reference (65 kg BW, 71-year exposure duration, 3.50 g/person/day oyster ingestion) were below 1.0 in every monthly cell, indicating no appreciable non-carcinogenic risk for the modelled adult population. Pb in oyster tissue varied significantly between wet and dry seasons (p<0.05); Cd did not. No significant differences in either metal were observed across the three sampling stations.
 
 ## Key numbers

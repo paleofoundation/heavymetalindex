@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Bazzaz et al. 2023 - Determination of some heavy metals resides in different types of poultry production
 
+## Overview
+
 This study measured copper, total arsenic, and lead by portable X-ray fluorescence in frozen poultry products sold in Erbil, Kurdistan Region, Iraq: imported Brazilian and Turkish chicken thigh and breast, chicken thigh and breast from two local Iraqi commercial producers, local quail thigh and breast, and local quail eggs (n=15 per group, 165 samples total). All values are dry-weight after a 48-hour 60 degC oven-dry step.
 
 ## Key numbers

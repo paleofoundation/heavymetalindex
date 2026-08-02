@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Xia et al. 2025 — Whole-cell biosensor with biological digestion circuit for Hg detection in food matrices
 
+## Overview
+
 This paper describes a whole-cell biosensor augmented with a synthetic biological digestion gene circuit designed to overcome matrix interference during mercury (Hg2+) detection in complex food samples. The gene circuit automates the digestion of organic matter within the bacterial host, eliminating the need for manual acid digestion steps and enabling more direct detection of Hg2+ in food matrices including fish, rice, shellfish, and black beans. The study validates sensor performance using spiked samples and reports recovery rates, but does not measure actual Hg concentrations in commercially sourced or environmental food samples.
 
 ## Key numbers

@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Eticha et al. 2018 — Lead and cadmium in milk-based infant formula, Ethiopia
 
+## Overview
+
 Authors analyzed five milk-based infant formula brands sold in Mekelle, Ethiopia using flame atomic absorption spectrophotometry. Cadmium was not detected in any sample. Lead ranged from not detected to 0.103 mg/kg across brands. Estimated daily intake values for both metals were below regulatory safety limits (PTWI for lead: 25 µg/kg bw/week; PTWI for cadmium: 7 µg/kg bw/week). The findings indicate low acute health risk from these metals through infant formula consumption, though the authors note that regular monitoring remains critical given infants' heightened susceptibility to metal absorption and effects.
 
 ## Key numbers

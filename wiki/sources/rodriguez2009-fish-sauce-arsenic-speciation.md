@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Rodriguez, Raber & Goessler 2009 — Arsenic speciation in fish sauce by HPLC-ICPMS
 
+## Overview
+
 Six commercial fish sauces from Thailand (n=4) and Vietnam (n=2), purchased at local stores in Graz, Austria, were analysed for total arsenic by flow injection ICP-MS and for arsenic speciation by HPLC-ICP-MS with HPLC/ESI–MS confirmation on the three highest-concentration samples. Total arsenic ranged from 0.69 to 2.75 mg/L across the six samples. Speciation identified arsenobetaine as the dominant species (82–94% of total arsenic), with arsenocholine (4.9–7.7%), trimethylarsine oxide (TMAO, 0.7–7.8%), and trimethylarsoniopropionate (TMAP, 0.5–2.1%) as minor components. Anion-exchange chromatography showed that the highly toxic anionic species — arsenite, arsenate, methylarsonic acid (MA), and dimethylarsinic acid (DMA) — were all below the 0.01 mg/L detection limit in every sample. The authors note that their results contradict an earlier study (Kato, Nagashima & Shiomi 2004, Fisheries Science 70, 695–702), which reported DMA as the major arsenical in Japanese fish sauces; the authors attribute the divergence either to matrix-influenced detection by the Kato et al. instrumentation or to genuine difference in fish-sauce arsenic profile between Japanese and Thai/Vietnamese product. The conclusion drawn by the authors is that the fermentation process does not transform marine non-toxic arsenicals into toxic forms, but they recommend broader sampling to resolve the Kato et al. discrepancy before fish sauce is endorsed as an iron-fortification vehicle in iron-deficient populations.
 
 ## Key numbers

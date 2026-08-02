@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Joshi et al. 2017 - Charcoal point-of-use water filter optimization
 
+## Overview
+
 Joshi and colleagues tested homemade charcoal and activated-charcoal filter media for a portable point-of-use water filter intended for surface water and groundwater treatment in Nepal. This is a2 mitigation evidence: it reports filter-media design and water-quality changes before versus after charcoal-based treatment rather than a packaged-water occurrence survey.
 
 ## Key numbers

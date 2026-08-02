@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Kepinska-Pacelik et al. 2023 - Trace elements in nutraceutical dog snacks
 
+## Overview
+
 Kepinska-Pacelik and colleagues produced four dog-snack prototypes and measured proximate composition, minerals, trace elements, structure, and palatability. This is finished pet-treat evidence for experimental prototypes, not a commercial-market survey. The source's routeable product facts are dry-matter trace-element concentrations in four snack variants; Cd, Pb, Co, Cr, and Ni were reported as not detected, but no LOD/LOQ was provided for those nondetects.
 
 ## Key numbers

@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # HELCOM 2017 — Pb, Cd, and Hg status assessment in Baltic Sea fish, mussels, sediment, and seawater (2011-2015)
 
+## Overview
+
 The HELCOM core indicator on metals evaluates the contamination status of the Baltic Sea marine environment for cadmium (Cd), lead (Pb), and total mercury (Hg) measured in seawater, biota (fish muscle, fish liver, mussel soft body), and sediment over the assessment period 2011-2015, against threshold values derived from EU Environmental Quality Standards (Water Framework Directive Directive 2008/105/EC, amended by Directive 2013/39/EU) and OSPAR Background Assessment Criteria. Good Environmental Status was not achieved for cadmium across most of the southern Baltic, was achieved for lead in northern and central sub-basins but exceeded the lead threshold in mussel and fish liver across the southwestern Baltic, and was not achieved for mercury in fish muscle in any of the assessed sub-basins. The assessment uses the HELCOM COMBINE monitoring database (hosted at ICES) and the agreed MIME R script that returns the upper bound of the 95 percent confidence level as the representative concentration per assessment unit.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Jurowski et al. 2023 — As, Pb, and Cd in green tea infusions from Polish markets
 
+## Overview
+
 This study measured arsenic, lead, and cadmium in infusions (prepared beverages, not dry leaf) of 12 green tea samples commercially available in Poland, using ICP-MS, and conducted a three-tier toxicological risk assessment (TRA) comparing weekly intake to JECFA provisional tolerable weekly intakes (PTWI). All three metals were detected in all 12 samples. Lead was the dominant contaminant: average Pb (0.891 µg/L infusion) was approximately 2.75–4 times higher than As (0.325 µg/L) and Cd (0.214 µg/L). Samples from China showed higher HMI than samples from Sri Lanka. Under the assessed weekly consumption scenarios (21–70 cups/week), weekly intake per body weight did not exceed PTWI values, indicating no identified health risk at normal green tea consumption.
 
 ## Key numbers

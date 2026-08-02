@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hanc et al. 2021 - Mercury and selenium in Amanita muscaria
 
+## Overview
+
 Hanc and colleagues measured total mercury and selenium in wild Amanita muscaria fruiting bodies from a single forest site in Pomerania, Poland, separating caps and stipes across six developmental stages. The source is useful for wild-mushroom mercury context because it reports dry-weight total Hg ranges by anatomical part and growth stage, with selenium measured in the same composites. It is not methylmercury occurrence evidence and does not measure cooked, boiled, or pickled finished products.
 
 ## Key numbers

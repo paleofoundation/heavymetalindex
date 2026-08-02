@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Sandil et al. 2023 — Arsenic uptake in bean and lettuce at different developmental stages
 
+## Overview
+
 This greenhouse study characterized arsenic uptake and accumulation in two contrasting vegetable types — a fruit vegetable (bean, Phaseolus vulgaris) and a leafy vegetable (lettuce, Lactuca sativa) — across multiple developmental stages when irrigated with water containing 0.1, 0.25, and 0.5 mg As/L. Lettuce edible parts accumulated As concentrations of 0.30, 0.61, and 1.21 mg/kg DW at the three irrigation treatments respectively, substantially higher than bean fruits (0.008, 0.005, and 0.022 mg/kg DW), and the study found that health risks from As consumption were significant at all applied concentrations in lettuce.
 
 ## Key numbers

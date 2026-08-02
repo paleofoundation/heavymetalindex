@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Hu et al. 2022 — Machine learning for predicting arsenic and chromium in drinking water
 
+## Overview
+
 This review and modeling paper evaluates machine learning approaches for predicting the risk of chemical contaminants — primarily arsenic, nitrate, and hexavalent chromium (Cr-VI) — in US public drinking water systems. The authors synthesize literature on ML model performance, including random forest and neural network architectures trained on UCMR and SDWIS databases, and find that geospatial, geological, and demographic features achieve good predictive accuracy for arsenic exceedance above the 10 µg/L MCL, supporting prioritized monitoring and remediation resource allocation.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Syed Ismail 2017 - heavy metals in low-priced toys
 
+## Overview
+
 Syed Ismail and colleagues measured total elemental content in `42` low-priced toy samples from convenience shops in urban Selangor, Malaysia. The toys were imported from China and grouped by toy use category and material; the routeable evidence is for finished toy paint/coatings and accessible toy substrate materials, not for food or biological matrices. Measurements were made by HDXRF and reported as total content in `ppm`, so the results should not be treated as EN 71-3 migration-test values even though the paper compares them with EN 71-3:2013 Category III concentration limits.
 
 ## Key numbers

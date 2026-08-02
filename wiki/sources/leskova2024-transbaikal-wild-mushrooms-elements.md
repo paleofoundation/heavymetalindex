@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Leskova et al. 2024 - Elements in Transbaikal wild mushrooms
 
+## Overview
+
 Leskova et al. measured chemical elements in six edible wild mushroom species from the Transbaikal Territory using X-ray fluorescence analysis. The paper reports dry-weight concentrations by mushroom part and species, with emphasis on Fe, Zn, Cu, Mn, Ni, Co, and Pb. It is routeable wild-mushroom occurrence evidence from Russia and should remain separated from cultivated mushroom and fresh-weight benchmark pools.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-20
 
 # Szymczykowska et al. 2026 — Elemental composition of Japanese matcha powder and infusions
 
+## Overview
+
 This study analyzed the macro- and microelemental profiles of two organic Japanese matcha types — daily matcha (DM, second-to-third harvest) and traditional matcha (TM, first-to-second harvest) — from the Uji region of Kyoto. Each type was analyzed in both powder and infusion form, with infusions prepared at 25, 70, 80, and 90 °C, all in triplicate. Quantification used ICP-OES (Thermo Fisher iCAP 7400) with yttrium internal standard and validation against NIST SRM 8414. Of the heavy metals tracked by Heavy Metal Index, the paper measured Pb, Cr (total), and Ni; it did not measure Cd, As (iAs or tAs), Hg (tHg or MeHg), Al, Sn, Sb, or U. Brewing temperature had no statistically significant effect on elemental content in either infusion type. Matcha type (DM vs TM) showed statistically significant differences only for Ca and Na (higher in DM) and K and Ni (higher in TM); no significant DM/TM differences were detected for any element in the powder. Nickel was detected in both infusion types but was below the detection threshold in the powders; the authors attribute this to matrix interferences in the digested powder samples rather than true absence. Lead concentrations in all tested products fell within the permissible range of EU Commission Regulation 2023/915 (0.050–0.9 mg/kg in plant products depending on category), according to the authors.
 
 ## Key numbers

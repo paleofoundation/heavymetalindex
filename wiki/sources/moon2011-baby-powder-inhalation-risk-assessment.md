@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Moon et al. 2011 — Simulated baby-powder inhalation exposure for a baby doll and adult applicator, with asbestos-in-talc lung-load risk projection
 
+## Overview
+
 This Toxicological Research mini-review and exposure-assessment study simulates a routine baby-powder application episode in a residential setting to estimate airborne particulate exposure for the baby and for the adult applicator and to project the asbestos-fiber lung load that would accumulate over a 2-year exposure window if the talc were contaminated at the 0.1 % (w/w) asbestos regulatory limit. The motivation was the April 2009 Korean Food and Drug Administration finding that 8 of 12 talc-based baby powders sold in Korea contained asbestos. The work measures **no heavy metals** and contributes no occurrence data to the HMI corpus; it is ingested as an inhalation-pathway methodology reference for the Cat 2 Row 4 baby-talcum-powder product line. The 100 mg/application consumption value, the breathing-zone airborne concentrations (applicator 0.00527 mg/m³; baby 0.02207 mg/m³), and the 2-year lung-load arithmetic are reusable for future heavy-metal inhalation assessments on the same product form (e.g., should a future study measure Pb, Cd, Ni, Cr-VI, or Sb in the talc-mineral fraction of a baby powder, the same per-application airborne fraction would multiply the metal mass loading to give an inhaled-metal dose).
 
 ## Key numbers

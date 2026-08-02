@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2023 — Metal emissions from material-extrusion 3D printing
 
+## Overview
+
 Zhang and colleagues measured metals in raw 3D-printing filaments and in particles emitted during material-extrusion printing, then modelled indoor exposure scenarios. The paper is routeable as durable-goods exposure and testing-method evidence, not as HMTc product-occurrence evidence for fabric protectants despite the auto-fetch row that retrieved it. Its key contribution is source attribution: some metals came from filaments, while boron, arsenic, manganese, and lead often appeared in emitted particles without being detected in the corresponding raw filament.
 
 ## Key numbers

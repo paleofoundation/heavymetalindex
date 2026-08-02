@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Hendrawati et al. 2015 - Chitosan coagulation for lake-water quality
 
+## Overview
+
 Hendrawati and colleagues tested chitosan prepared from shrimp-shell waste as a natural coagulant for turbid lake water from Situ Cipondoh. This is in-scope mitigation evidence for water treatment and metal reduction, not chitosan ingredient occurrence or aluminum contamination evidence.
 
 ## Key numbers

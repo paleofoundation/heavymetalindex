@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Egbe et al. 2023 — Heavy metals in tilapia and endemic cichlid from Lake Barombi Kotto, Cameroon
 
+## Overview
+
 This study quantified heavy metal concentrations (As, Cd, Co, Cu, Cr, Fe, Mn, Ni, Pb, Zn) in water, sediment, muscle, gut, and bone of two fish species — Oreochromis niloticus (Nile tilapia) and the endemic and endangered Coptodon kottae — from Lake Barombi Kotto, a crater lake in Cameroon. Metal concentrations in lake water were generally low and below permissible standards; sediment concentrations ranged from 0.86 ± 0.03 mg/kg for Cd to 560.1 ± 11.15 mg/kg for Fe. In fish, the organ distribution followed bones > gut > muscle for most metals, with bioconcentration factors ranging from 1.6 (Fe) to 1,568 (Mn). Consumption of both fish species contributes less than 1.0% of the permissible tolerable daily/weekly intake (PTDI/PTWI) for most metals, but Pb has the potential to exceed permissible exposure levels under high-consumption scenarios for adults.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Copat 2013 - Eastern Mediterranean fish and shellfish metals
 
+## Overview
+
 Copat and colleagues measured arsenic, cadmium, chromium, lead, manganese, nickel, vanadium, and zinc in edible tissues from fish and sand-dwelling mussel sold through the Catania fish market. The study reports concentrations in `mg/kg w.w.` and then models intake, THQ, cancer risk, and consumption limits. Arsenic was measured as total/unspecified As; the paper's inorganic-arsenic risk calculations assume 3% of total arsenic and are not measured iAs concentrations.
 
 ## Key numbers

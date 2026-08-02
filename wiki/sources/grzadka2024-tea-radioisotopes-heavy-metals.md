@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Grzadka et al. 2024 - Radioisotopes and heavy metals in commercial teas
 
+## Overview
+
 Grzadka and colleagues measured radionuclides and elemental contaminants in 30 commercial true-tea samples imported to the Polish market. The source is routeable for tea and tea-infusion occurrence evidence because it reports dry-leaf metal concentrations, post-brewing residues, leaching behavior, and non-carcinogenic hazard quotients for black, green, red, oolong, and white teas. Lead, cadmium, and vanadium were below the reported MIP-OES detection limits in the result narrative, while chromium, aluminum, manganese, nickel, copper, molybdenum, iron, and phosphorus varied by tea type and origin.
 
 ## Key numbers

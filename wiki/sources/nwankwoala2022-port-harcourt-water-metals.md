@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Nwankwoala et al. 2022 - Port Harcourt groundwater and wastewater metals
 
+## Overview
+
 Nwankwoala, Osayande, and Uboh measured Pb, Fe, Hg, As, and Cd in groundwater and industrial wastewater from Trans-Amadi, Port Harcourt, Nigeria. This is upstream groundwater/wastewater and source-attribution evidence, not mineral-water product occurrence: the authors connect elevated groundwater lead to industrial and municipal waste inputs in a non-mineralized urban-industrial area.
 
 ## Key numbers

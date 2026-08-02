@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Zakaria et al. 2024 - Copper and aluminum in camel milk near industrial areas in Egypt
 
+## Overview
+
 This BMC Veterinary Research study measured Cu and Al in raw camel milk from dromedary she-camels grazing in non-industrial versus industrial areas in South Egypt. Industrial-area milk had much higher mean concentrations: Cu 1.43 +/- 0.71 ppm and Al 27.80 +/- 1.48 ppm, compared with Cu 0.05 +/- 0.04 ppm and Al 0.02 +/- 0.01 ppm in non-industrial-area milk. The source also tests boiling, skimming, and fermentation effects, which are processing context rather than market-benchmark data.
 
 ## Key numbers

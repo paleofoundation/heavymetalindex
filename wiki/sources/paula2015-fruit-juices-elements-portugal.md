@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Paula et al. 2015 - selected elements in Portuguese-market fruit juices
 
+## Overview
+
 Paula et al. measured Cd, Cr, Pb, Ni, Zn, and Fe in 62 packs of 100% fruit juices from the Portuguese retail market. The study was designed to test how pre-harvest factors such as fruit species, origin, and agricultural practice, and post-harvest factors such as blending, packaging, conservation, pasteurisation, and processing relate to juice elemental composition. The direct occurrence signal for HMTc is a Portuguese-market fruit-juice dataset with low mean Cd, Cr, and Pb, higher Ni, and a clear association between fruit species and selected element concentrations.
 
 ## Key numbers

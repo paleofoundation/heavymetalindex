@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Nurhidayanti and Riyadi 2024 - Coffee-ground chitosan cadmium adsorption
 
+## Overview
+
 Nurhidayanti and Riyadi modeled cadmium adsorption onto a combined chitosan and coffee-ground activated-carbon adsorbent. This is in-scope remediation evidence because it measures cadmium removal from industrial wastewater; it is not coffee occurrence evidence and should not be used as a food or beverage concentration source.
 
 ## Key numbers

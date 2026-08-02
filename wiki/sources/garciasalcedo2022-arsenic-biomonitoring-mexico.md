@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # García Salcedo et al. 2022 — Early arsenic exposure through placenta and breast milk in high-exposure Mexican population
 
+## Overview
+
 This comparative biomonitoring study measured total arsenic levels in multiple biological matrices from pregnant women and neonates in Comarca Lagunera (CL), a region with chronic drinking-water arsenic contamination in northern Mexico, versus a non-exposed comparison population in Saltillo. The authors demonstrated that arsenic crosses the placenta and is excreted in breast milk, establishing both as routes of early-life exposure. High urinary arsenic persisted in neonates four days after birth despite the theoretical elimination half-life, suggesting continued exposure through breast milk.
 
 ## Key numbers

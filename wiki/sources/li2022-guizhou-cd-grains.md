@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This study mapped the spatial distribution of cadmium (Cd) across 334 grain samples (rice, corn, wheat) collected from karst farming regions of Guizhou province, China, a zone known for elevated natural Cd background due to karst geology. Cadmium concentrations ranged widely, and exceedance rates against the Chinese national standard (GB 2762-2017: 0.2 mg/kg for rice, 0.1 mg/kg for corn and wheat) were substantial, especially in wheat (45.1%). The paper also addressed fluorine, but Cd is the primary heavy-metal finding of wiki relevance.
 
 ## Key numbers

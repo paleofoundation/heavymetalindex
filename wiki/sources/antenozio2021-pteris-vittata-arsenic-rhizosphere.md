@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Antenozio et al. 2021 — Pteris vittata phytoextraction on As-rich soil and As-resistant rhizosphere bacteria
 
+## Overview
+
 This study evaluated arsenic phytoextraction by the fern *Pteris vittata* grown on a naturally arsenic-rich volcanic soil from the Viterbo area of central Italy, and characterized the arsenic-resistant bacteria of its rhizosphere. It is upstream mechanism evidence on the soil-to-plant transfer of arsenic and its microbial modulation; it reports no occurrence of arsenic in food, ingredients, or consumer products and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

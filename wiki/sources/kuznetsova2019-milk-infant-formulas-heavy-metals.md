@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # Kuznetsova et al. 2019 - heavy metals in milk infant formulas
 
+## Overview
+
 Kuznetsova and colleagues measured copper, zinc, and lead in seven dry milk infant-formula products labeled for infants from 6 months to 1 year. The study is direct powdered-formula occurrence evidence, but the paper reports product-level results by named commercial formula. Under the brand firewall, this page preserves only the category-level range and exceedance signal.
 
 The source does not measure mercury or methylmercury despite appearing in a methylmercury research-pull folder.

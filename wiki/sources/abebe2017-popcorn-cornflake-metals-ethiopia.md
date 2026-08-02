@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Abebe et al. 2017 — Essential and toxic metals in Ethiopian popcorn and cornflake
 
+## Overview
+
 Flame and graphite-furnace atomic absorption spectrometry quantified 13 metals (K, Na, Mg, Ca, Cr, Mn, Fe, Co, Ni, Cu, Zn, Pb, Cd) in popcorn from an Addis Ababa open market and in cornflakes imported from Egypt and sold in Addis Ababa supermarkets. Popcorn was prepared by the traditional Ethiopian oil-popping method prior to digestion; cornflakes were analysed as purchased. Cd and Ni were below detection in both products. Pb was measurable in both — 0.94 ± 0.29 mg/kg in popcorn and 0.36 ± 0.03 mg/kg in cornflake. The paper itself compares Pb intake only to FAO/WHO PTWI-derived tolerable upper limits; this wiki page also notes (as a wiki-side regulatory crosswalk, not as the paper's own comparison) that both values sit above the EU 2023/915 general-cereal ceiling of 0.10 mg/kg (excluding wheat, barley, oat, rye, rice). Total Cr was 0.68 ± 0.09 mg/kg (popcorn) and 0.30 ± 0.07 mg/kg (cornflake). Sample sizes are small (n=8 total composites) and the study is a single-market regional survey; B-tier evidence.
 
 ## Key numbers

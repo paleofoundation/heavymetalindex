@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Gu et al. 2014 — Cd, Cr, Cu, Fe, Pb, Sn, and Zn in canned fish from Liaoning Province
 
+## Overview
+
 Gu and colleagues measured seven metal elements in canned fish purchased from retail outlets in Liaoning Province, China. The analyzed edible portion included muscle and soup from canned mackerel, tuna, sardines, yellow croaker, trichiurus haumela, dace, and anchovy. The source reports wet-weight total elemental concentrations; chromium is total Cr, and tin is elemental Sn rather than organotin speciation.
 
 ## Key numbers

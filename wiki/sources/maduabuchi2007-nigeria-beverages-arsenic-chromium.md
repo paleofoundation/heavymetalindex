@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Maduabuchi et al. 2007 — Arsenic and chromium in Nigerian beverages
 
+## Overview
+
 Maduabuchi and colleagues measured arsenic and chromium in 50 canned and non-canned beverages purchased in Nigeria. The study digested beverage samples in nitric acid and quantified As and Cr by atomic absorption spectrophotometry. The occurrence finding is that both canned and non-canned beverage groups contained samples above the U.S. EPA drinking-water MCLs used as comparators by the authors; the paper does not perform arsenic or chromium speciation.
 
 ## Key numbers

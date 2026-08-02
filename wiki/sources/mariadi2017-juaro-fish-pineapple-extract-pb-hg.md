@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Mariadi et al. 2017 - Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent
 
+## Overview
+
 This study measured Pb and Hg in juaro fish before and after pineapple-extract citric acid treatments intended to reduce metal concentrations.
 
 ## Key numbers

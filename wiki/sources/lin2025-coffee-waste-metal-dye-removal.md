@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Lin et al. 2025 - Coffee waste bio-adsorbent for metal and dye removal
 
+## Overview
+
 Lin and colleagues used Coffee Powder Trimmings (CPT), including spent coffee grounds and dried coffee-processing residues, as a bio-adsorbent for copper and iron ions before converting the metal-loaded material into biochar composites for methylene blue removal. This is primary remediation/materials evidence, not coffee-ingredient occurrence evidence: the source reports engineered adsorption and biochar performance rather than metals measured in coffee as consumed.
 
 ## Key numbers

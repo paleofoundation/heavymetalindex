@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shukla and Kumar 2020 - heavy metals in Prayagraj honey
 
+## Overview
+
 Shukla and Kumar analyzed pollen origin, physicochemical parameters, minerals, and heavy metals in 14 honey samples from Prayagraj District, Uttar Pradesh. Most Cd, Pb, Cu, and As measurements were below 0.01 mg/kg, with a few detectable Cd and Pb values. The source is honey occurrence evidence and does not support the mineral-water row implied by the fetched filename.
 
 ## Key numbers

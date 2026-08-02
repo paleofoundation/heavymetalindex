@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Tantri 2026 — Cadmium contamination of agricultural soils and food security in Indonesia
 
+## Overview
+
 This integrative study synthesizes secondary data on cadmium in agricultural soils of West Java and Central Java, computing contamination and ecological-risk indices and relating soil Cd to food-security risk. It is upstream soil-burden and exposure context for cadmium; it reports no primary retail food occurrence and is context-only for Heavy Metal Index purposes. It is exactly the kind of soil-contamination-assessment evidence the routing layer connects to crops grown on affected ground.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Schett et al. 1998 — Enhanced hsp70 expression and HSF1 activation in rheumatoid arthritis synovial tissue
 
+## Overview
+
 Schett and colleagues (Division of Rheumatology, University of Vienna; Austrian Academy of Sciences Innsbruck) investigated the regulation of heat shock protein 70 (hsp70) expression and heat shock transcription factor 1 (HSF1) activation in rheumatoid arthritis (RA) synovial tissue. Whole-tissue extracts from RA, osteoarthritis (OA), and aseptic bone necrosis (AN) controls were analysed by Western blotting and gel mobility shift assay; cultured synovial fibroblast-like cells (SFC) were treated with proinflammatory cytokines (TNF-α, IL-1α, IL-6), antiinflammatory or immunosuppressive cytokines (IFN-γ, TGF-β), shear stress (20 dyn/cm² for 30 min), heat stress (42°C for 30 min), nonsteroidal antiinflammatory drugs (indomethacin, ibuprofen, meloxicam), glucocorticoids (dexamethasone), and immunosuppressants (methotrexate, cyclosporine A). The paper does not measure any heavy metal in any matrix; heavy metals appear only as one item in a background list of HSF1-activating stresses ("HSF1 has been shown to respond to stress factors such as elevated temperature, cytokines, heavy metal ions, and shear stress," PDF p. 302 col. 2). The wiki retains this source as mechanistic background on the hsp70 cellular stress-response pathway that overlaps with the heavy-metal-induced hsp70 response described elsewhere in the corpus; it carries no occurrence data, no exposure data, and no regulatory content for HMI's contamination-and-exposure taxonomy.
 
 ## Why this matters

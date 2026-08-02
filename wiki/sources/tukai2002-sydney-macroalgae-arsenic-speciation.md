@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Tukai et al. 2002 - Sydney macroalgae arsenic speciation
 
+## Overview
+
 Tukai and colleagues measured total arsenic and arsenic chemical forms in common marine macroalgae from the east coast of Australia. The samples were collected from rocky intertidal platforms near Sydney, not from retail seaweed products, so this page treats the results as raw macroalgae occurrence and speciation context for seaweed/kelp foods rather than a market-basket survey. Total arsenic, inorganic arsenic species, DMA, and arsenoriboside fractions are kept separate below.
 
 ## Key numbers

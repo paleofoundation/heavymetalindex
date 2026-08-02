@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Shahzad et al. 2025 - Trace metals in buffalo milk by feed category
 
+## Overview
+
 Shahzad et al. measured lead, cadmium, mercury, arsenic, manganese, and iron in buffalo milk from Pakistan and compared concentrations across three feed categories. The study reports routeable liquid-milk concentration ranges in mg/L, with feed-related differences and health-risk calculations for adults and children. It is useful as Pakistan-market buffalo-milk occurrence evidence and as animal-feed contamination context, not as human-milk or infant-formula evidence.
 
 ## Key numbers

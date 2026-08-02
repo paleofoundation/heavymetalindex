@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Jităreanu et al. 2025 — Review of heavy metals in cosmetic products and toxicological impact
 
+## Overview
+
 This open-access Applied Sciences review synthesizes current literature on heavy-metal occurrence in cosmetic products (lipsticks, mascara, eye shadows, face powders, hair products, skin-care, sunscreens, toothpastes, kohl, henna, skin-lightening creams), per-metal toxicological impact, current EU, US, Canadian, and Chinese regulatory limits, and emerging non-animal (NAM) testing approaches. It compiles cosmetic-relevant regulatory thresholds in one place and assembles a per-metal hazard summary table linking metals to the product categories where they typically appear.
 
 ## Key numbers

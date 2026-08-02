@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Molina et al. 2023 — Mercury accumulation in Buenaventura Bay sediments
 
+## Overview
+
 This study investigates the environmental variables controlling spatiotemporal dynamics of total mercury (tHg) accumulation in sediments of Buenaventura Bay, a tropical estuary on the Colombian Pacific coast heavily impacted by anthropogenic activity including illegal artisanal gold mining, domestic wastewater, and industrial discharges. Sediment samples were collected across four areas representing a salinity gradient from river-influenced interior to marine-influenced exterior, in both dry and rainy seasons, to depths of 15 cm. tHg in sediments was higher in the rainy season than the dry season and higher in interior estuarine areas than exterior areas, consistent with a pattern driven by organic matter transport and freshwater input from mercury-contaminated tributaries. Generalized additive modelling identified organic matter content and salinity as the primary predictors of tHg accumulation. Historical records show tHg concentrations in Buenaventura Bay water increased 22-fold between 1995 and 2002, attributed largely to artisanal gold mining in tributary rivers. The study documents a food-chain pathway by which mercury reaches benthic fauna and thence to fish harvested for human consumption.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Vaishali & Negi 2020 — Lead and cadmium in tomato ketchup from Delhi NCR street vendors
 
+## Overview
+
 This short research article reports Pb and Cd concentrations in 12 tomato ketchup samples collected from street food vendors across four locales in the Delhi NCR region of India. Lead was reported in all four locale summaries, with mean concentrations in Delhi (0.183 ppm), Noida (0.096 ppm), and Faridabad (0.089 ppm) exceeding the FAO/WHO Codex limit of 0.05 mg/kg; only Gurugram samples (0.031 ppm mean) fell below. Cadmium was below detectable limit in all 12 samples.
 
 ## Key numbers

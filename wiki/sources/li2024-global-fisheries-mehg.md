@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Li et al. 2024 — Global fishing patterns and methylmercury exposure (PNAS)
 
+## Overview
+
 This PNAS modeling study combined high-resolution global fisheries catch data for 1,774 species with an empirically constrained spatial model of seafood MeHg concentrations to estimate the mass and geographic distribution of MeHg extracted from the ocean. Catch-weighted MeHg concentrations varied over two orders of magnitude (range: 0.004–1.7 µg/g wet weight; geometric mean: 0.13 µg/g wet weight) and were highest in tropical and subtropical regions where large pelagic species (tuna, swordfish, sharks) are harvested. Tropical and subtropical fisheries account for over 70% of MeHg extracted from the ocean, driven by the combination of large harvest biomass of high-trophic-level species and higher bioavailable Hg at the base of tropical food webs. The study estimates that 84–99% of subsistence fishing entities globally likely exceed MeHg exposure thresholds based on typical subsistence fish consumption rates.
 
 ## Key numbers

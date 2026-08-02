@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # BfR 2019 — Preliminary estimation of undesired substances in diapers (German regulatory commentary on ANSES 2019)
 
+## Overview
+
 This is the German Federal Institute for Risk Assessment (BfR) Communication No. 005/2019 of 01 March 2019, in which the BfR provides a preliminary, partial evaluation of the findings reported in the 23 January 2019 ANSES opinion *Sécurité des couches pour bébé* ([[anses2019-baby-diaper-safety-france]]). The BfR communication is three pages and contains no original measurements; it is a national-agency commentary on a sibling national-agency opinion. The BfR explicitly states (p. 1) that "a complete and conclusive assessment is currently impossible, as important detailed information of technical nature is not available to the BfR" and that the BfR "cannot currently make a detailed estimation of the other substances mentioned in the [ANSES] report for which ANSES has prepared a health assessment." The substances on which the BfR does opine are limited to: ubiquitous contaminants (dioxins and furans, dl-PCBs, PAHs), glyphosate and its metabolite AMPA, and contact-allergenic aromatic substances (perfumes). **No heavy metal is named or evaluated in the BfR communication at any point.** This page is ingested as out-of-core-scope regulatory-context evidence — it documents that as of March 2019 the German national risk-assessment agency had not surfaced any heavy-metal finding in its preliminary review of the diaper-safety question and had publicly deferred detailed evaluation of the ANSES report's non-headline substances pending further technical information.
 
 ## Key numbers

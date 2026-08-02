@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Rahman et al. 2021 - Dhaka turmeric heavy metals
 
+## Overview
+
 Rahman et al. measured eight metals in nine turmeric samples from Dhaka and Savar, Bangladesh: unpacked bulk powder from three local markets, packed commercial turmeric powder from three companies, and raw turmeric from three local farmlands. The paper is direct occurrence evidence for turmeric powder and raw turmeric, with one unpacked bulk sample exceeding the authors' cited lead comparator. The figures contain the full per-sample profiles; the prose provides several exact maxima/minima and compliance statements.
 
 ## Key numbers

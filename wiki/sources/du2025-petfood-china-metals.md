@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Du et al. 2025 — Toxic metals in commercial cat and dog food, Chinese market
 
+## Overview
+
 This study measured Pb, Cd, Cr, Hg, and As in 93 imported cat and dog food products collected from Chinese supermarkets and store chains (Beijing, Shenzhen, Wuhan) in 2021-2022 and conducted an acute hazard index (aHI) assessment for cats and dogs across body-weight categories. Flame atomic absorption spectrometry (FAAS) quantified Pb, Cd, Cr; atomic fluorescence spectrometry (AFS) quantified Hg and As. Cr and As were detected in 100% of samples; Hg in 97.85%. Cr had the highest average concentrations of the five metals. Against the Chinese Hygienical Standard for Pet Feed (Announcement No. 20 of 2018), 8.60% of samples exceeded the Pb limit and 26.88% exceeded the Cr limit; Cd, Hg, and As remained within their limits across all 93 samples. Dry food showed higher contamination rates and higher mean concentrations of Pb, Cd, Cr, and As than canned food. Combined contamination by three or more metals was the norm; Cr+Hg+As was the dominant triad. aHI values for Cr, Pb, and As exceeded the safety threshold (>1) across all simulated body weights.
 
 ## Key numbers

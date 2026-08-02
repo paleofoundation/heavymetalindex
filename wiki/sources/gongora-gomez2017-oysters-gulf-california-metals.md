@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Gongora-Gomez et al. 2017 - Metals in Gulf of California oysters
 
+## Overview
+
 This study measured heavy metals in cultivated Pacific oysters from the southeastern Gulf of California. It is directly routeable for shellfish occurrence evidence because the edible oyster matrix was analyzed and the paper reports tissue concentrations.
 
 ## Key numbers

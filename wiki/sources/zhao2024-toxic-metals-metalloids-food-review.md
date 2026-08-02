@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zhao et al. 2024 — Toxic metals and metalloids in food: global occurrence, dietary intake, and mitigation
 
+## Overview
+
 This peer-reviewed narrative review from Nanjing Agricultural University synthesises the contamination status of arsenic (As), cadmium (Cd), and lead (Pb) across 25+ food categories, drawing on Total Diet Study data from Australia, Brazil, France, Japan, New Zealand, Singapore, and 19 European countries, and assesses dietary intake relative to health-based guidance values. The central finding is that for the general population dietary intake remains generally below JECFA/EFSA guidance values, but vulnerable populations — infants, children, and pregnant women — are at or above those values for iAs and Cd. Mitigation strategies at the agronomic, processing, and supply-chain level are catalogued.
 
 ## Key numbers

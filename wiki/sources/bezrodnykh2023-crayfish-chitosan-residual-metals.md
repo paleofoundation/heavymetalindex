@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Bezrodnykh et al. 2023 - Crayfish chitosan residual metals
 
+## Overview
+
 Bezrodnykh and colleagues describe a laboratory-scale route from crayfish shell waste to chitin, chitosan, and oligochitosan hydrochloride, with ICP-MS and EDX checks for residual proteins and metals. This is processed-ingredient evidence for shellfish-derived chitosan, not edible crayfish occurrence evidence. The routeable metal finding is that crude shell waste contained Fe 23.0 ppm, Cr 0.4 ppm, and Ni 0.3 ppm, while processed chitosan and oligochitosan retained only low Fe (3.7 and 2.8 ppm) with Cr and Ni not found; the text states Cd, Pb, Hg, and As were absent.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Paul et al. 2025 — Arsenic in small indigenous freshwater fish, Lower Meghna River, Bangladesh
 
+## Overview
+
 Ten small indigenous fish species (SIS) from Bangladesh's Lower Meghna River were systematically sampled across three seasons (pre-monsoon, monsoon, post-monsoon) and ten stations to quantify total arsenic in muscle tissue and assess associated human health risks. Five of the ten species — Mystus vittatus, Glossogobius giuris, Lepidocephalichthys guntea, Neotropius atherinoides, and Apocryptes bato — exceeded the WHO safe consumption threshold of 1 mg/kg tAs in muscle tissue, at least during the pre-monsoon season. Arsenic levels in water and sediment were within non-polluting limits by standard indices, yet fish-muscle concentrations were substantially higher, demonstrating significant bioaccumulation from environmental pathways. Pre-monsoon concentrations were consistently highest across all species, followed by post-monsoon, then monsoon, with statistically significant seasonal differences (p < 0.05) but no spatial gradient across the three river zones (p > 0.05). Benthic carnivores and scaleless/fusiform species accumulated more arsenic than pelagic-benthic omnivores, indicating that morphology, habitat, and feeding behavior modulate bioaccumulation. Children were identified as the population most at risk from fish consumption in this region.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Zhang et al. 2023 - Shuimo River riparian soil heavy metals
 
+## Overview
+
 Zhang and colleagues measured heavy metals in riparian soil along the Shuimo River in Urumqi, Xinjiang, China, then used grey relational analysis and factor analysis to classify soil quality and infer source groups. This is primary environmental-context evidence, not food, ingredient, or consumer-product occurrence evidence. The paper does not sample crops, finished foods, cosmetics, supplements, drinking water, or branded products.
 
 The routeable finding is that the upper and middle river reaches were classified as Grade III / slight pollution under the authors' soil-quality scheme, while downstream zones were Grade II / good soil quality. The six evaluation metals were total arsenic, lead, zinc, copper, nickel, and total chromium. Cadmium and total mercury were screened but excluded from the modeled evaluation because the measured values were described as low or not detectable.

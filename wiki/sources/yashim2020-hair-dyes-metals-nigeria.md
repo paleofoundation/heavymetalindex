@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Yashim et al. 2020 - metals in hair dyes sold at Samaru market, Nigeria
 
+## Overview
+
 Yashim and colleagues measured Pb, total Cr, Cd, Ni, and Cu in hair-dye products sold at Samaru market in Zaria, Nigeria. The paper reports `mg/kg` concentrations for four product-form composites: pure mineral dye, henna dye, black shampoo oil, and black shampoo jelly. The study is useful as C-tier finished-product occurrence evidence because the sampling frame is small and composited, no DOI is printed, and the source contains several figure/prose inconsistencies.
 
 ## Key numbers

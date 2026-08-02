@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Andrade et al. 2023 - Metals in Portuguese cow milk and soy beverages
 
+## Overview
+
 Andrade and colleagues measured lead, cadmium, and manganese in 28 retail beverages purchased on the Portuguese market in Lisbon between February and May 2019, split evenly between 14 cow-milk (CM) brands and 14 soy-beverage (SB) brands. The basis is liquid as-purchased, measured in micrograms per liter; the authors do not convert to per-kilogram or apply a reconstitution factor. Soy beverages carried significantly higher cadmium (mean 5.6 μg/L vs 2.15 μg/L, p < 0.05) and roughly twenty-fold higher manganese (mean 117.4 μg/L vs 5.93 μg/L, p < 0.05) than cow milk; lead was numerically higher in cow milk (19.3 vs 13.4 μg/L) but the difference was not statistically significant (p > 0.05). The cow-milk Pb mean sat just under the EU 2023/915 maximum level of 20 μg/kg, and one cow-milk brand's cadmium value exceeded the 5 μg/kg EU ceiling that applies to infant-formula products manufactured from cow's milk proteins.
 
 ## Key numbers

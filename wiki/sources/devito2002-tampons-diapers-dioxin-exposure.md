@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # DeVito and Schecter 2002 — dioxin exposure assessment from tampons and diapers (US)
 
+## Overview
+
 DeVito and Schecter performed a screening-level and refined exposure assessment of dioxin (PCDD/PCDF) uptake from tampons and disposable diapers, motivated by late-1990s public concern that chlorine-bleached pulp products in feminine-hygiene and infant-care sanitary items might be a meaningful dioxin exposure pathway. The analytes are the 17 `2,3,7,8`-chlorine-substituted polychlorinated dibenzo-p-dioxin and dibenzofuran congeners; **no heavy metals were measured**. This page is therefore ingested as out-of-core-scope tampon and diaper contaminant context, parallel to `[[sources/archer2005-tampon-dioxins-furans]]` for tampons and the ANSES/BfR diaper-safety opinions for diapers. It carries the agency-level null finding for HMI's core analytes in these product classes (the most potent dioxin congeners TCDD and `1,2,3,7,8`-pentachlorodibenzo-p-dioxin were not detected in any sample) and the population-frame exposure parameters that may be reusable for HMI's future heavy-metals dermal-exposure modelling in diapers and menstrual products.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kagawa et al. 2023 — Fish meat arsenic and hypertension in Japanese adults
 
+## Overview
+
 This cross-sectional epidemiological study of 2,709 Japanese adults (Daiko Study, J-MICC) examines associations among dietary fish consumption, fasting serum total arsenic, and hypertension prevalence. Using logistic regression and mediation analysis, the authors demonstrate that higher fish-meat ingestion frequency is associated with elevated fasting serum arsenic, which in turn is associated with increased hypertension prevalence in a dose-dependent manner. A mouse experimental study confirmed that oral exposure to a mixture of arsenic species at concentrations matching those in common Japanese fish meat elevated systolic blood pressure. The species composition reported for the fish meat used in the animal experiment (Tinu, black seabream *Acanthopagrus schlegelii*) provides explicit arsenic species data for a commonly consumed Japanese fish.
 
 ## Key numbers

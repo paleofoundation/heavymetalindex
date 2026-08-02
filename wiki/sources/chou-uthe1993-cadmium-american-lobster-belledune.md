@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Chou & Uthe 1993 — Cadmium and other metals in American lobster, Belledune Harbour, New Brunswick, 1980-1992
 
+## Overview
+
 Chou and Uthe extend an earlier Department of Fisheries and Oceans monitoring series (1980-1984; Uthe et al. 1987, Uthe and Chou 1985) with a further eight years of cadmium data for American lobster (*Homarus americanus*) captured in and around Belledune Harbour, New Brunswick — a Baie des Chaleurs coastal industrial zone hosting a lead smelter and fertilizer plant whose effluents have driven a closed and controlled-fishery regime for the harbour proper since 1980. Annual geometric mean Cd was measured in lobster digestive gland (tomalley, "hepatopancreas") and in cooked tail+claw+knuckle meat from individual animals at eight sites, and Hg, As, Cu, Ag, and Pb were measured in pooled cooked-meat composites in selected years (1984-1992). Statistical-trend models published in 1987 had predicted that contamination would have decayed enough by 1989 to allow normal-fishery reopening, but Cd concentrations in digestive gland from the two intra-harbour sites instead spiked in 1987 and remained elevated through 1992 despite major dredging and reconstruction of the harbour in 1991. The authors conclude that ongoing Cd input to the harbour from ill-defined sources, rather than legacy sediment, is now the dominant contamination driver, and that lobsters from inside the harbour remain unfit for an open fishery.
 
 ## Key numbers

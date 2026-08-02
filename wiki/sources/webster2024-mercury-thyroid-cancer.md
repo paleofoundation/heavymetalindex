@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Webster et al. 2024 — Mercury exposure and thyroid cancer: systematic review and meta-analysis
 
+## Overview
+
 This systematic review and meta-analysis examined the association between mercury (total and methylmercury) exposure and the risk of thyroid cancer. Drawing on epidemiological studies that measured urinary, blood, and tissue mercury concentrations in human populations, the authors synthesized evidence on whether dietary mercury exposure, primarily through fish consumption, represents a plausible risk factor for thyroid cancer. The paper contributes to the dietary exposure context for MeHg and tHg, particularly in populations with high seafood intake.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Thomas et al. 2024 — Lead poisoning from Ayurvedic herbal diabetes capsule, Kerala
 
+## Overview
+
 This case report describes a 58-year-old female who presented with generalized tiredness, decreased food intake, and abdominal pain. Peripheral blood smear showed basophilic stippling and ring sideroblasts, leading to investigation for heavy metal exposure. Blood lead was 121.20 µg/dL (reference: <25 µg/dL) and random urine lead was 400.2 µg/dL (reference: <80 µg/dL). The patient had been taking Sheopal's Herbal Diabetes Care Capsule — an Ayurvedic supplement purchased via the internet — for 1.5 months prior to presentation. The capsule was submitted for analysis, revealing lead content of 40,657 ppm (40,657 µg/g), compared to the permissible limit of 10 ppm per the Ayurvedic Pharmacopoeia of India. The patient was treated with BAL followed by d-penicillamine oral chelation for 6 weeks, with normalization of blood and urine lead levels.
 
 ## Key numbers

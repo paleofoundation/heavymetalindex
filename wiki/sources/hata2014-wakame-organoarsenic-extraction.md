@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Hata et al. 2014 - organoarsenic extraction from dry wakame
 
+## Overview
+
 Hata and colleagues developed an enzymatic plus methanol extraction method for organoarsenic species in wakame. The occurrence-relevant material is a single commercial dry wakame product from Japan; the rest of the paper tests extraction efficiency and speciation preservation. The source reports total arsenic in the dry wakame and method-dependent extractable arsenic peaks, but it does not report measured inorganic arsenic.
 
 ## Key numbers

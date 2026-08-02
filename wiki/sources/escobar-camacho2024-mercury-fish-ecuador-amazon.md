@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Escobar-Camacho et al. 2024 — Mercury in fish and aquatic environments of the Piedmont Ecuadorian Amazon
 
+## Overview
+
 This study measured total mercury (tHg) in muscle tissue of freshwater fish consumed by indigenous communities in two territories of the Piedmont Ecuadorian Amazon (Cofán-Bermejo and Dureno), alongside tHg in water and sediments from the same rivers. The authors applied ICP-MS following acid digestion to quantify tHg concentrations in approximately 120 fish from multiple species; MeHg in fish muscle was estimated through established conversion factors and literature comparisons rather than direct speciation. Results showed fish tHg concentrations exceeded WHO and Codex Alimentarius maximum limits of 500 µg/kg in several predatory species, with notable inter-species variation reflecting biomagnification along the food web. This is the first systematic mercury occurrence survey for these Amazonian indigenous communities, where subsistence fishing constitutes the primary protein source.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Brzezicha-Cirocka et al. 2016 - Cadmium and silver in wild edible mushrooms from eastern Poland
 
+## Overview
+
 Brzezicha-Cirocka et al. measured bio-elements and toxic elements in seven edible wild mushroom species collected from two eastern Polish regions with different environmental settings. Cadmium was detected in all specimens, with low median values below 1.0 mg/kg dry biomass for several species but elevated values in some Boletus, Leccinum, and Xerocomus rows. The most important occurrence signal is Leccinum versipelle from the Tarnobrzeska Plain, where whole fruiting bodies had median Cd of 9.8 mg/kg dry biomass and a reported range up to 57 mg/kg dry biomass.
 
 ## Key numbers

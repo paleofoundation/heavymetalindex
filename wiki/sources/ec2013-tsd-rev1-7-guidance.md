@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # European Commission 2013 — Toy Safety Directive 2009/48/EC, Explanatory Guidance Document (Rev 1.7)
 
+## Overview
+
 This is the European Commission DG Enterprise and Industry guidance document (Rev 1.7, 13 December 2013) explaining the application of Directive 2009/48/EC on the safety of toys (the Toy Safety Directive, "TSD"). The guidance has no binding legal force on its own — the directive and its national transpositions are what bind — but it represents the consensus interpretation reached between Member State experts, European industry, European standardisation bodies, European consumer organisations, and Notified Bodies, and is the document Notified Bodies and market-surveillance authorities reference when applying the directive's chemical-safety provisions. The chemical-properties content relevant to heavy-metal limits is concentrated in Section III of Annex II, particularly Points 1, 3-7 (CMR provisions and food-contact-material derogation) and Point 13 (the 19-element migration-limit table for three toy-material categories).
 
 ## Key numbers

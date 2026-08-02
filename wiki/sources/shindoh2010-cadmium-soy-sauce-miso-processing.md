@@ -32,6 +32,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shindoh, Abe & Yasui 2010 — Cadmium fate during miso and soy sauce processing
 
+## Overview
+
 Shindoh and coauthors tracked cadmium mass balance through bench-scale laboratory preparation of two traditional Japanese fermented soybean condiments — salty rice miso and koikuchi soy sauce — using two soybean lots of contrasting cadmium content (0.040 µg/g and 0.320 µg/g fresh weight). The processing fate of cadmium differed substantially between the two product types. In rice miso preparation, 83% of the total cadmium in the raw soybeans remained in the final product, regardless of starting soybean cadmium level. In koikuchi soy sauce preparation, only 43% (soybean A) to 53% (soybean B) of the soybean cadmium was estimated to transfer to the final raw soy sauce at the bench-scale 60–62% nitrogen yield, with 30–40% of soybean cadmium retained in the pressed soybean cake. The authors note that miso receives material contributions of cadmium from the rice koji ingredient as well — 69% of total cadmium in soybean-A miso was attributable to rice koji rather than to soybeans — so the rice koji input becomes important to cadmium loading whenever the soybean itself is comparatively clean. For soy sauce, the soybean lot's processing characteristics rather than starting cadmium content appear to govern transfer to the final product, with the moromi-mash pressing step identified as the key locus of cadmium partitioning between liquid (soy sauce) and solid (cake) fractions.
 
 ## Key numbers

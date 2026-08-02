@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Erol and Ürkek 2025 — Heavy metals in traditional Turkish cheeses (Aho, Golot, Telli)
 
+## Overview
+
 This study measures 18 elements — including the heavy metals Pb, Hg, As, Cd, Ni, Co, Cr, and Al — in 30 samples of three artisanal cheeses from Turkey's Black Sea region (Trabzon Province): Aho (a pressed cow's-milk cheese), Golot (a semi-hard cheese from cow or mixed milk), and Telli (a string-type cheese). Analysis was by ICP-MS (Agilent 7700). The key safety finding is that two outlier samples (6.7% of the 30-sample set) exceeded the hazard index (HI) threshold of 1, driven by a single Golot cheese sample with a Pb concentration of 1788.75 µg/kg and a single Telli cheese sample with a Hg concentration of 468.71 µg/kg. The remaining 28 samples showed HI <1, and mean concentrations for most heavy metals were low relative to European regulatory benchmarks for dairy. The paper demonstrates that artisanal production without standardized sanitation controls can produce occasional extreme outlier values for both Pb and Hg, even in a matrix (cheese) where such values are uncommon.
 
 All concentrations are reported per kilogram (µg/kg, wet weight basis implied; the authors do not state dry vs wet weight explicitly, but cheese metal studies conventionally report on a wet-weight (as-sold) basis unless otherwise specified; this is flagged as a limitation in interpretability).

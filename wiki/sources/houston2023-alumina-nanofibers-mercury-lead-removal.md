@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Houston et al. 2023 - Alumina nanofibers for Hg(II) and Pb(II) removal
 
+## Overview
+
 Houston and colleagues synthesized amine-functionalized gamma-alumina nanofibers and tested them as adsorbents for mercury(II) and lead(II) ions in prepared aqueous solutions. This is primary remediation-method evidence, not occurrence evidence for food, ingredients, consumer products, or field drinking-water samples.
 
 ## Key numbers

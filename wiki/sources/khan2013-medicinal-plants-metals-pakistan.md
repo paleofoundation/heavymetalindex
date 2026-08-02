@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Khan et al. 2013 - metals in Pakistan medicinal plants
 
+## Overview
+
 Khan and colleagues measured lead, nickel, cadmium, and chromium in eight medicinal plant species collected near Kallar Kahar Lake in Punjab, Pakistan. The paper is occurrence evidence for herbal-botanical raw materials used in traditional medicine, with paired soil concentrations as collection-site context. Values are reported as total elemental metals in `mg/kg`; chromium is total Cr, not Cr-VI.
 
 ## Key numbers

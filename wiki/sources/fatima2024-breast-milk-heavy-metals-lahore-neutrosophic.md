@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This study applied neutrosophic statistics to analyze Pb and tHg concentrations in 70 breast milk samples from lactating mothers living near industrial zones in Lahore, Pakistan. The authors collected interval-form data (minimum–maximum pairs per age group) and used neutrosophic methods to represent indeterminacy that classical mean-±-SD statistics cannot capture. The headline finding is elevated Pb and Hg in women from industrial areas, with Pb ranging approximately 0.85–2.89 ppb and tHg ranging approximately 2.87–16.85 ppb across age groups, with both metrics showing wider uncertainty ranges than classical statistics would express.
 
 ## Key numbers

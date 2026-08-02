@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Aiken et al. 2023 — Mn disparities in Central Valley drinking water: domestic wells and small CWSs bear disproportionate burden
 
+## Overview
+
 Integrating 2011–2019 monitoring data from 667 community water systems (CWSs) and modeled groundwater quality for 69,733 domestic wells across California's Central Valley, this study estimates that approximately 2,342 domestic well users (0.4% of the domestic well community population) rely on groundwater with predicted Mn >300 µg/L, matching the US federal health advisory limit (HAL). In community water systems, 904 users (2.4%) served by small CWSs and 3,072 users (0.4%) served by medium CWSs rely on delivered water with mean Mn >300 µg/L. Large CWSs show no users above 300 µg/L. Small CWSs report Mn measurements at far lower rates than large systems (58.2% vs 77.4% reporting), yet a higher proportion exceed regulatory standards. The study highlights equity dimensions: domestic well communities disproportionately served by disadvantaged populations face both elevated Mn exposure and financial barriers to treatment.
 
 ## Key numbers

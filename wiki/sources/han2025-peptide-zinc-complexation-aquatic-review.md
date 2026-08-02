@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Han 2025 — Dual perspectives on peptide–zinc complexation (aquatic and other natural origins)
 
+## Overview
+
 Han, Dong, Yang, and Hu reviewed the chemistry, production, bioavailability, and clinical use of peptide–zinc complexes, with particular emphasis on zinc-chelating peptides derived from aquatic protein sources (oyster, sea cucumber, scallop, Alaska pollock, Antarctic krill, marine octopus, tilapia, pufferfish, silver carp). The framing is dietary supplementation of the essential trace element zinc through peptide carriers that improve solubility and intestinal absorption over inorganic salts such as ZnSO₄ and zinc gluconate. The review also touches on therapeutic chelation of free Zn²⁺ in Alzheimer's disease (sequestration of Zn²⁺ to reduce Aβ₁–₄₀ aggregation). Zinc is not among the heavy metals tracked by HMI (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn); the source is recorded here for its mechanism content on peptide–metal coordination — binding groups (carboxylate, imidazole, sulfhydryl, amide carbonyl, phenolic hydroxyl), molecular-weight effects, hydrophobic-pocket encapsulation, and intestinal transport pathways — which is the same coordination chemistry that governs binding of toxic divalent metals such as Pb²⁺ and Cd²⁺ to food protein hydrolysates. No occurrence data for HMI-regulated heavy metals appear in this review.
 
 ## Key numbers

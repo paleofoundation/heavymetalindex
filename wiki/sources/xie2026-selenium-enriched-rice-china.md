@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Xie et al. 2026 — Co-occurrence of selenium and toxic elements in Chinese selenium-enriched rice
 
+## Overview
+
 Xie and colleagues measured arsenic (tAs) and cadmium (Cd) alongside selenium (Se) in 54 commercial selenium-enriched rice samples sourced from 14 provinces across China, finding that the premium nutritional positioning of Se-enriched rice does not preclude co-contamination with toxic elements. Arithmetic mean concentrations were 0.11 mg/kg (110 ppb) for total As and 0.08 mg/kg (80 ppb) for Cd, measured by HDXRF spectrometry. A Monte Carlo-based health risk assessment found overall risk from As and Cd intake via Se-enriched rice to be within acceptable bounds under average consumption, but highlighted that Se bioaccessibility (median 7.0 µg/kg, overall 14.6 ± 8.7%) varied substantially by region, with southern China showing the highest bioaccessible Se (29.0 µg/kg). The study is notable for combining speciation-naive total-element analysis with in vitro digestion (PBET model) for Se, without speciation of As into inorganic and organic fractions.
 
 ## Key numbers

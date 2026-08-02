@@ -33,6 +33,8 @@ updated: 2026-06-04
 
 # JECFA 67th Meeting (2006) — Aluminium PTWI Revision and Methylmercury PTWI Confirmation (WHO TRS 940)
 
+## Overview
+
 The sixty-seventh meeting of the Joint FAO/WHO Expert Committee on Food Additives (Rome, 20-29 June 2006) addressed five food additives and three contaminants, of which two are within scope for Heavy Metal Index: aluminium from all sources including food additives (Section 4.1, a full re-evaluation that revised the provisional tolerable weekly intake downward from 7 mg/kg b.w./week to 1 mg/kg b.w./week expressed as Al) and methylmercury (Section 4.3, a clarification meeting that confirmed the 1.6 µg/kg b.w./week PTWI set at the [[sources/jecfa-61st-methylmercury|61st meeting in 2003]] and formally withdrew the prior 3.3 µg/kg b.w./week PTWI). The chloropropanols section (Section 4.2, covering 3-chloro-1,2-propanediol and 1,3-dichloro-2-propanol) and the food-additive sections (annatto, lycopene, natamycin, propyl paraben, and seven specifications-only items) are out of scope and are not summarized below.
 
 ## Key numbers

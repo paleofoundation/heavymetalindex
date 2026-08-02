@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Archer et al. 2005 - dioxins and furans in tampons
 
+## Overview
+
 Archer et al. measured dioxins and furans in tampon samples purchased online or from retail stores. The analytes are PCDD/PCDF congeners, not heavy metals; this page is therefore tampon contaminant context and not a metals occurrence source. The paper reports anonymous brand codes, but this wiki page uses only aggregate and product-form wording under the brand firewall.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # SCHER 2010 — Evaluation of migration limits for chemical elements in toys (EU Toy Safety Directive 2009/48/EC)
 
+## Overview
+
 This SCHER opinion (adopted 1 July 2010) evaluates whether the migration limits in the EU Toys Safety Directive 2009/48/EC (TSD) for 19 chemical elements provide a scientifically sound basis for child safety. SCHER supports a health-based risk-assessment framework anchored to the tolerable daily intake (TDI), recommends use of 10% of the TDI for all chemical elements (rather than the TSD's mixed 5%/10% allocation that gives the 6 particularly toxic elements a tighter allocation), proposes updated TDIs for Cd (0.36 µg/kg bw/d), Pb (BMDL01 0.50 µg/kg bw/d, non-threshold), and As (pragmatic TDI 1 µg/kg bw/d with 0.1 µg/kg bw/d allocated to children's toy exposure), and recommends physiologically based extraction media (artificial saliva, simulated gastric juice, artificial sweat) rather than water for mouthing/dermal simulation. The opinion also flags reliability concerns about the EN 71-3 migration test method based on a JRC inter-laboratory comparison.
 
 ## Key numbers

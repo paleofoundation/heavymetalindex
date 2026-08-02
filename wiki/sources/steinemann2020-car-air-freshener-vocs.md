@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Steinemann 2020 - volatile emissions from car air fresheners
 
+## Overview
+
 Steinemann and colleagues analyzed volatile organic compound emissions from 12 car air fresheners by headspace GC/MS. The paper is mostly a VOC-emissions study rather than a heavy-metal concentration survey, but it is routeable as home-air emission context because one emitted compound was `tetracarbonylnickel` (`CAS 13463-39-3`), an organonickel species. No total nickel concentration or emitted mass concentration is reported.
 
 ## Key numbers

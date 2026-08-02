@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Campanale, Nucera, Ojetti, Cesario, Di Rienzo, D'Angelo, Pecere, Barbaro, Gigante, De Pasquale, Rizzi, Cammarota, Schiavino, Franceschi, Gasbarrini 2014 — Nickel-free diet enhances Helicobacter pylori eradication rate
 
+## Overview
+
 This Digestive Diseases and Sciences randomized pilot trial from the Gemelli Hospital (Rome) group tests whether a nickel-free diet added to standard triple therapy increases H. pylori eradication. The rationale: H. pylori requires the nickel-containing metalloenzymes urease and [NiFe]-hydrogenase to survive at low gastric pH; depleting dietary nickel could disable the pathogen's acid-tolerance machinery and expose it to gastric acid plus amoxicillin. 52 first-diagnosis H. pylori patients were randomized 1:1 to standard LCA triple therapy (lansoprazole + clarithromycin + amoxicillin for 7 days) with a common diet, versus the same regimen plus a 30-day nickel-free diet starting 14 days before triple therapy. The intervention nearly doubled the eradication rate.
 
 ## Key numbers

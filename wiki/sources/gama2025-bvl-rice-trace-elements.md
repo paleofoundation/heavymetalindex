@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gama et al. 2025 — Trace elements in soils and rice from Baixo Vouga Lagunar, Portugal
 
+## Overview
+
 This study characterises trace element concentrations in soils and rice grains from the Baixo Vouga Lagunar (BVL), a coastal lagoon agriculture zone in northern Portugal, with analytical focus on arsenic (total), lead, and uranium alongside copper. Five rice grain samples were analysed by ICP-MS: three annual harvests of white Carolino variety (2020, 2021, 2022), one wild-rice sample, and one brown-rice sample. All grain concentrations fell well below European Commission regulatory limits, though soil enrichment factors revealed legacy anthropogenic loading of As, Pb, and U in the agricultural soils.
 
 ## Key numbers

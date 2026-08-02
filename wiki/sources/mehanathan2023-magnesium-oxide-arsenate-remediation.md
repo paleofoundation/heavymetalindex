@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Mehanathan et al. 2023 - Magnesium oxide nanoparticles for As(V) remediation
 
+## Overview
+
 Mehanathan and colleagues tested commercial magnesium oxide nanoparticles calcined at 650 C for adsorption of pentavalent arsenic, reported as arsenate/As(V), from aqueous solution. This is primary remediation-method evidence, not food, ingredient, product, or drinking-water occurrence evidence: the measured endpoints are adsorbent structure, adsorption kinetics, isotherm capacity, pH response, dosage response, and regeneration.
 
 ## Key numbers

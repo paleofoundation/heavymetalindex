@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Mania et al. 2020 - Nickel in cereal grains and cereal-based products, Poland
 
+## Overview
+
 Mania et al. (2020) measured nickel in 56 cereal-grain and cereal-based product samples from the Polish retail market in 2019-2020. The study used graphite furnace atomic absorption spectrometry (GFAAS) after microwave acid digestion and compared estimated dietary exposure with the EFSA 2020 tolerable daily intake of 13 ug Ni/kg body weight per day. It is a primary Polish-market occurrence source for Ni in non-rice grains, pasta, flour, groats, flakes, and bran.
 
 ## Key numbers

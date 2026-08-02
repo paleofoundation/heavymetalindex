@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Asadi Touranlou et al. 2025 - Heavy metals in bread and wheat flour, Mashhad, Iran
 
+## Overview
+
 This study assessed arsenic and potentially toxic elements in flour, dough, and finished bread from 90 bakeries in Mashhad, Iran. The authors collected matched flour-dough-bread triplets across five city regions between June and December 2020, then measured 12 elements by ICP-OES against certified reference material NIST 1567a (Wheat Flour). The principal source finding is that total arsenic dominates both the non-carcinogenic and carcinogenic risk models for bread consumption in Mashhad. Lead and mercury were below detection limits in all 270 samples.
 
 ## Key numbers

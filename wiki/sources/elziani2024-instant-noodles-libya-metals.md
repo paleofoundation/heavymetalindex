@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # El Ziani et al. 2024 — Heavy metals in instant noodles from Benghazi, Libya
 
+## Overview
+
 El Ziani and colleagues measured Cd, Cr, Pb, As, and Sn in seven instant-noodle samples collected from local markets in Benghazi, Libya. Dried and powdered noodle samples were digested and analyzed by triple-quadrupole ICP-MS, with results reported in ppb. The occurrence finding is that sample 2 had the highest value for every measured metal, and the table-average concentration order was Pb > Cd > Sn > Cr > As. The paper reports total As and total Cr only; it does not distinguish inorganic arsenic or Cr-VI.
 
 ## Key numbers

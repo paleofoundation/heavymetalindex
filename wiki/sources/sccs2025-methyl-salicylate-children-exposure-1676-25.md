@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # SCCS 2025 — Scientific Advice on Children's Exposure to Methyl Salicylate (SCCS/1676/25, revision of SCCS/1654/23)
 
+## Overview
+
 This is the EU regulatory-science re-assessment of children's aggregate exposure to Methyl Salicylate (CAS 119-36-8; methyl 2-hydroxybenzoate) in cosmetic products intended for children of age 0–3 years, adopted by written procedure on 30 April 2025. It supersedes SCCS/1654/23 by adopting the updated toothpaste-amount data introduced in the SCCS Addendum on Hexyl Salicylate (SCCS/1668/24). The substance itself is not a heavy metal; the document is in scope for the Heavy Metal Index as the EU-canonical exposure-assessment framework for children's-personal-care safety evaluation. Its product-use amounts, retention factors, dermal-absorption defaults, child body weights, and toothpaste ingestion values are the inputs that any heavy-metal MoS calculation for the children's-personal-care HMTc category must inherit, alongside SCCS/1647/22 (the 12th Notes of Guidance, see [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12]]).
 
 ## Key numbers

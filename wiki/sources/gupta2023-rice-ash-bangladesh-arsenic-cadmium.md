@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gupta et al. 2023 — Household ash as rice fertiliser in Bangladesh: effects on grain iAs and Cd
 
+## Overview
+
 This field trial from the Meharg group at Queen's University Belfast investigates whether recycling household biomass ash as a fertiliser in Bangladeshi rice paddies can improve soil fertility and rice yield without increasing accumulation of inorganic arsenic (iAs) or cadmium (Cd) in grain. Large-scale trials across two geographically distinct regions (Barind and Madhupur Tracts), two growing seasons (dry/Boro and wet/Amon), and three fertiliser treatments found that ash application boosted rice yield by approximately 20 percent relative to conventional NPKS without altering grain iAs, dimethylarsonic acid (DMA), or Cd. The study also characterises rhizosphere microbial communities and demonstrates that region, season, and soil microbial composition are the dominant drivers of elemental accumulation in rice grain, outweighing the treatment effect on iAs and Cd. This is a practically significant null finding from a high-quality research group: a low-cost agronomic intervention that improves yield does not worsen grain arsenic or cadmium in this context.
 
 ## Key numbers

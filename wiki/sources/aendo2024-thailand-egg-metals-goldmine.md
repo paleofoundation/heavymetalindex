@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Aendo et al. 2024 — Mercury, lead, cadmium, and manganese in eggs from poultry farms near a gold mine in Thailand
 
+## Overview
+
 This study compared Hg, Pb, Cd, and Mn concentrations in eggs (yolk and albumen separately) from laying hen, laying duck, and free-grazing duck farms in contaminated (<25 km) and uncontaminated (>25 km) areas surrounding the largest gold mine in Thailand (Pichit Province, operating 2001–2016), which was legally paused at the time of sampling. Free-grazing duck eggs showed significantly higher Hg concentrations than confined laying hen or duck eggs in both areas, attributed to greater environmental exposure through grazing behavior. Pb and Mn were elevated in duck eggs (both confined and free-grazing) relative to laying hen eggs in the contaminated area. Hg and Cd preferentially partitioned into egg albumen, while Pb and Mn were concentrated in the yolk. Ecological risk assessment found Cd in soil around all farm types at considerable to high risk, driven by mining legacy contamination.
 
 ## Key numbers

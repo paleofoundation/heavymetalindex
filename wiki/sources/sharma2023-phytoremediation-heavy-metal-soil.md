@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Sharma et al. 2023 — Phytoremediation mechanisms and metal-binding proteins for heavy metal soil remediation
 
+## Overview
+
 Sharma and colleagues review the four phytoremediation strategies used to remove heavy metals from contaminated soils — phytoextraction, phytostabilization, phytovolatilization, and rhizofiltration — and the plant molecular machinery (metal-binding proteins, transporters, and chelators) that underlies metal tolerance and accumulation. The review tabulates hyperaccumulator plant species reported in the primary literature for Zn, Cu, Ni, Cd, Pb, As, Hg, and Cr (Table 1), the plant proteins and genes involved in metal handling across model and crop species (Table 2), and plant–microbe consortia tested for assisted phytoremediation (Table 3). Biotechnological enhancement via genetic modification, biochar amendment, chelating agents, and plant growth-promoting rhizobacteria is discussed as a route to improve phytoextraction efficiency in candidate cereal and dicot species. The paper is open-access (CC BY) in Frontiers in Plant Science.
 
 ## Key numbers

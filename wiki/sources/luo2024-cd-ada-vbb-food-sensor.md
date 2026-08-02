@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A colorimetric method using amino-1,8-naphthalenediamine (ADA) and Victoria Blue B (VBB) reagents was developed for cadmium detection and applied to actual food samples including rice, milk, and vegetables, reporting real Cd concentrations. This makes the paper a food occurrence study as well as an analytical methods paper. Confirm specific concentration values and sample numbers from the full paper.
 
 ## Key numbers

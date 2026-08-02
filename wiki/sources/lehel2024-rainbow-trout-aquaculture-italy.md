@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Lehel et al. 2024 — Potentially toxic elements in farmed rainbow trout, Italy
 
+## Overview
+
 Lehel and colleagues measured arsenic, cadmium, mercury, and lead by inductively coupled plasma optical emission spectrometry (ICP-OES) in the flesh of 40 farmed rainbow trout (Oncorhynchus mykiss) purchased at a Hungarian fishery market but originating from an aquaculture farm in Treviso County, Veneto Region, Italy. Mean total arsenic was 1.65 ± 0.49 mg/kg, but the authors note total As cannot be evaluated against a regulatory limit because none exists; estimating inorganic As as 5% of total As gave a mean of 0.08 ± 0.02 mg/kg, with estimated daily intake (EDI) and target hazard quotient (THQ) below reference values. Cadmium exceeded the EU maximum level in 30% of samples, but its EDI and THQ stayed below recommended limits. Mercury was below the limit of detection in all samples. Lead exceeded the EU maximum level in 10% of samples, while its EDI and THQ remained below the reference dose. The hazard index (HI) was below 1 for adults (0.86) but above 1 for children (1.22), so the authors concluded the fish is safe for adult consumption but poses a slight risk to children, particularly during long-term intake.
 
 ## Key numbers

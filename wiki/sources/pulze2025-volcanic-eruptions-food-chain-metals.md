@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Pulze et al. 2025 — Volcanic eruptions and heavy metal contamination in the food chain
 
+## Overview
+
 This review examines how volcanic activity — primarily ash deposition and soil enrichment from lava weathering — elevates heavy metal concentrations in agricultural soils and subsequently in food crops, with Italy's Mount Etna as the primary case study. Volcanic soils near Etna are naturally enriched in Ni, Cd, and V relative to non-volcanic agricultural soils. The review documents transfer of these metals into crops (vegetables, fruits, wine grapes) grown in the surrounding agricultural zone, and discusses compliance implications under EU Regulation 2023/915 (maximum levels for certain contaminants in food). The paper notes that naturally elevated metal concentrations from geological sources complicate regulatory compliance for Etna-area producers, particularly for Ni in leafy vegetables and Cd in some crop types.
 
 ## Key numbers

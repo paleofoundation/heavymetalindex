@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Yan et al. (2025) analyzed 6,632 rice samples collected from 18 prefecture-level cities in Henan Province, China, between 2020 and 2022 for five heavy metals: cadmium (Cd), chromium (Cr), lead (Pb), total mercury (Hg), and inorganic arsenic (iAs). The study found that inorganic arsenic had the highest detection rate (99.59%) and median concentration (0.110 mg/kg), with a hazard quotient exceeding 1 for all age groups — making it the dominant health risk in Henan rice, particularly for children and toddlers. All samples met China GB 2762-2017 food safety limits for Pb, Hg, As, Cr, and iAs, except for Cd, for which some exceedances were observed.
 
 ## Key numbers

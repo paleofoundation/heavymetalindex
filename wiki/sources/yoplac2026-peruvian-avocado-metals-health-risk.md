@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Yoplac-Navarro et al. 2026 — Metals in Peruvian avocados: ecological and health risk across 8 regions
 
+## Overview
+
 This study quantified As, Cd, Cr, Hg, Ni, and Pb in soils and avocado pulp across eight major Peruvian producing regions using microwave plasma atomic emission spectroscopy (MP-AES) with inductively coupled plasma sample introduction, applying probabilistic risk assessment (Monte Carlo simulation with Latin Hypercube sampling, 10 runs of 100,000 iterations) from a One Health perspective. The study is directly relevant to an active food-safety issue: in 2025 the EU RASFF system generated nine alerts for Peruvian avocados exceeding the EU cadmium maximum limit of 0.05 mg/kg. Results show substantial regional variation in soil metal concentrations, with Lima and La Libertad — the two highest-volume export regions — exhibiting the highest soil burdens. Bioaccumulation factors below 1 confirmed limited soil-to-fruit translocation, but fruit concentrations of Pb, Hg, Cd, As, and Ni varied widely enough to produce values approaching or exceeding regulatory benchmarks in several regions.
 
 ## Key numbers

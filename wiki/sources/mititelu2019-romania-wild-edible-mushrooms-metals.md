@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mititelu et al. 2019 - Romanian wild edible mushrooms and contaminated soil
 
+## Overview
+
 Mititelu and colleagues measured Cd, Cr, Cu, Fe, Ni, Pb, and Zn in wild edible mushrooms and nearby soil from two Romanian urban areas. The source is routeable because it reports mushroom concentrations in ug/g dry weight for two edible species at two sites, with paired soil data for context. Cadmium was much higher at the more contaminated soil site, reaching 3.9 ug/g in Boletus edulis and 5.11 ug/g in Hymenochaete rubiginosa.
 
 ## Key numbers

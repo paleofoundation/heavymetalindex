@@ -27,6 +27,8 @@ updated: 2026-06-10
 
 # Meharg et al. 2008 - Rice arsenic literature review
 
+## Overview
+
 Meharg and colleagues prepared this Food Standards Agency contract review to summarize total and inorganic arsenic in rice, rice products, and rice-containing infant foods. The report mixes published literature, FSA survey tables, and University of Aberdeen data, so this page treats it as B-tier review and agency-commissioned evidence rather than as one primary market survey. Total arsenic and inorganic arsenic are kept separate throughout; DMA(V) is reported in the source but is not collapsed into inorganic arsenic.
 
 ## Key numbers

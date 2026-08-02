@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Slepecka et al. 2017 - Cadmium, lead, zinc, and copper in ecological vs. non-ecological cereal products, Poland
 
+## Overview
+
 This study compared cadmium, lead, zinc, and copper concentrations in 10 ecological and 10 non-ecological cereal products from Poland. The source uses "ecological" for products from ecological/organic production systems. The sampled foods included flours, brans, flakes, and oatmeal made from wheat, spelt, rye, buckwheat, oat, and barley. The main finding is that ecological products were not distinguished by lower heavy-metal concentrations; in several product categories, ecological samples had higher Cd, Pb, Cu, or Zn than their non-ecological counterparts.
 
 ## Key numbers

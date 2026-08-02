@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Deka et al. 2023 — Monitoring strategies for heavy metals in foods and beverages (IntechOpen chapter)
 
+## Overview
+
 This IntechOpen open-access book chapter reviews analytical monitoring methods, exposure parameters (RDA, EDI, MPL, THQ, HI, TCR), and remediation tactics for heavy metals in foods and beverages. The chapter compiles maximum permissible limits (MPL) from WHO, USEPA, JECFA, CalEPA, ATSDR, the Standards Organisation of Nigeria (SON), and the International Organization of Grapes and Wine (OIV), lists oral reference doses for several metals, and summarizes analytical techniques (ICP-OES, ICP-MS, FAAS variants including HGAAS and CVAAS, TRXF, CR-SENLIBS, electrochemical aptasensors). Remediation strategies covered include nanotechnological innovations, chelating ligands, plant phenolic compounds, and microbial bio-absorbents (gram-positive and gram-negative bacteria, cyanobacteria, yeast, fungi, algae). No primary food-concentration measurements are reported; the chapter is a methods, regulatory, and remediation summary with educational orientation. Authors are affiliated with the Department of Chemistry, Central Institute of Technology Kokrajhar (Assam, India).
 
 ## Key numbers

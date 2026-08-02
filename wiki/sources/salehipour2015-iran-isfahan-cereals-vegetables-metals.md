@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Salehipour, Ghorbani, Kheirabadi & Afyuni 2015 — Total Pb, As, Ni, Zn, Cu in nine Isfahan-market cereals and vegetables (central Iran) by ICP-OES with multi-cohort exposure and cancer-risk assessment
 
+## Overview
+
 This Iranian market-basket survey quantifies total lead, arsenic, nickel, zinc, and copper in 70 edible-part samples of nine commodities — onion, leek, potato, lettuce, spearmint, basil, carrot, rice, and wheat — collected from wholesaler outlets and supermarkets across six urban cities of Isfahan province, central Iran. Samples were washed, oven-dried at 70 °C, dry-ashed at 550 °C for 8 h, dissolved in 2 M HCl, and quantified on a PerkinElmer Optima 7300 DV ICP-OES; concentrations are reported on a fresh-weight basis as 95 % upper confidence limits on the means (Pro UCL v4.00.02). The 95 % UCL Pb concentrations in carrot (0.8 mg/kg), leek (0.76 mg/kg), lettuce (0.79 mg/kg), spearmint (1.71 mg/kg), and basil (1.55 mg/kg) exceeded the 0.3 mg/kg WHO/FAO permissible limit cited by the authors; rice As (0.25 mg/kg) exceeded the 0.15 mg/kg Iranian Institute of Standards and Industrial Research (ISIRI) limit cited by the authors; all Ni, Zn, and Cu values fell below the cited WHO/FAO permissible limits. USEPA-style multi-cohort exposure and risk assessment across 10 receptor groups (children <6 girls/boys; 7–14 girls/boys; 14–18 girls/boys; adult women/men 18–54; >55 women/men) yielded total non-carcinogenic hazard quotients > 1 for both As and Pb across all age groups, and total carcinogenic risk for As slightly > 1×10⁻⁴ for all age groups, with wheat contributing 75–80 % of total As intake and 75–79 % of total Ni and Zn intake.
 
 ## Key numbers

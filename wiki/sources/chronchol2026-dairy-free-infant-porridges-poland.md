@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Chronchol et al. 2026 — Trace Elements in Dairy-Free Infant Porridges, Poland
 
+## Overview
+
 This 2026 study measured Pb, Cd, and Hg in 105 samples of commercial dairy-free infant porridges (7 product types, 5 replicates, 3 batches) from the Polish market. Methods: ICP-AES for Pb and Cd; Hg-AAS for mercury. Wet weight basis.
 
 ## Key numbers

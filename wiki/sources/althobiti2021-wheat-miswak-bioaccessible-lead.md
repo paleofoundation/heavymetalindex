@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Althobiti and Beauchemin 2021 - Bio-accessible lead in wheat and Miswak
 
+## Overview
+
 Althobiti and Beauchemin measured lead isotope ratios in bio-accessible fractions from wheat, Miswak toothbrush, and Miswak fruit using batch and continuous on-line gastrointestinal leaching methods. The study is routeable for wheat and Miswak chewing-stick/toothbrush context because it links bio-accessible Pb fractions to geogenic, leaded-gasoline, industrial-emission, and coal-combustion source signatures. It is primarily source-apportionment evidence rather than a simple concentration survey.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zhang et al. 2024 - Lettuce cadmium under greenhouse amendment treatments
 
+## Overview
+
 Zhang and colleagues measured cadmium uptake in lettuce grown for one cycle in a Cd-enriched solar greenhouse soil in Shaanxi, China. This is primary lettuce Cd evidence, but it is an intervention trial in contaminated greenhouse soil rather than a retail or ordinary-market occurrence survey. The routeable facts are the dry-sample aboveground lettuce Cd concentrations under deep plowing, soil covering, phosphorus fertilizers, biochar, attapulgite clay, and nano-hydroxyapatite treatments.
 
 ## Key numbers

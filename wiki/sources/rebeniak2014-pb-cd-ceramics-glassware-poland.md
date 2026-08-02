@@ -33,6 +33,8 @@ created_by: claude-opus-4-7
 
 # Rebeniak et al. 2014 — Lead and cadmium migration from ceramics and glassware on the Polish market, 2010–2012
 
+## Overview
+
 This peer-reviewed paper from the Department of Food Safety at Poland's National Institute of Public Health–National Institute of Hygiene (NIPH-NIH, Warsaw) reports a three-year national monitoring study of lead and cadmium migration from ceramic and glass food-contact articles sold on the Polish market. Sanitary-Epidemiological Stations across all Polish provinces sampled 1,273 items during 2010–2012; migration was measured into 4% acetic acid food simulant (24 h, 22±2 °C, in the dark) by Flame Atomic Absorption Spectrometry (FAAS) in PN-EN ISO/IEC 17025-accredited provincial laboratories using the EU-harmonised PN-EN 1388-1:2000 and PN-EN 1388-2:2000 test methods. Lead and cadmium release were usually below analytical detection limits; permissible-limit exceedances were rare and concentrated in imported decorated articles (mainly from Asia) and in the decorated rims of beverage glassware — a surface for which no EU limit currently exists. The maximum migration observed was 163.8 mg Pb/product and 8.96 mg Cd/product from the rim of a single imported glass mug. The authors carry the per-article migration limits permitted under EU Directive 84/500/EEC (as amended by 2005/31/EC) and the Polish PN-B-13210:1997 standard for rims through to dietary-exposure modelling and conclude that the existing EU migration limits, even when complied with, can drive intakes close to or above the EFSA BMDL01 for lead and TWI for cadmium — especially in 20 kg children, where modelled exceedances reach 30–34× BMDL01 (Pb, neurotoxic) and 3–4.2× TWI (Cd).
 
 ## Key numbers

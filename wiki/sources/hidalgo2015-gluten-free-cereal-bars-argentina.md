@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Hidalgo et al. 2015 - Gluten-Free Cereal Bars in Argentina
 
+## Overview
+
 Hidalgo et al. measured total arsenic, cadmium, and lead in 72 commercial gluten-free cereal bars marketed in Argentina. The products were grouped by flavor/formulation rather than named brands, preserving a usable product-form signal without propagating consumer-brand identities.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Boiteau et al. 2016 - Nickel and copper ligands on the US GEOTRACES transect
 
+## Overview
+
 Boiteau and colleagues characterized natural nickel- and copper-binding ligands in Eastern Pacific seawater along the US GEOTRACES transect. This is in-scope lane a3 aquatic pathway evidence and not infant-formula occurrence evidence.
 
 ## Key numbers

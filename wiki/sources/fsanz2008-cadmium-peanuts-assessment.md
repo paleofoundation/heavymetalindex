@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # FSANZ 2008 - Cadmium in peanuts
 
+## Overview
+
 Food Standards Australia New Zealand assessed Application A552, which proposed changing the maximum level for cadmium in peanuts in the Australia New Zealand Food Standards Code. The report includes international peanut cadmium occurrence data and dietary exposure modeling for Australia and New Zealand. This page records the occurrence and exposure tables as source evidence, while treating the maximum-level discussion as a source-reported regulatory context rather than an HMTc threshold proposal.
 
 ## Key numbers

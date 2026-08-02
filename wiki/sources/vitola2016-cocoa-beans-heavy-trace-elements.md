@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Vitola and Ciprovica 2016 - Heavy and trace elements in cocoa beans for confectionery products
 
+## Overview
+
 This study measured mercury, arsenic, lead, cadmium, selenium, zinc, and aluminium in cocoa beans or cocoa-bean fractions from Cameroon, Ecuador, Nigeria, and Ghana. Lead and cadmium varied by origin, with Nigerian cocoa beans having the highest reported Pb mean and Ecuadorian cocoa beans having the highest reported Cd mean. The source is routeable for cocoa and chocolate ingredient evidence, while its country-of-origin scope should remain separate from any US-market chocolate benchmark pool.
 
 ## Key numbers

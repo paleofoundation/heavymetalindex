@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Gutiérrez et al. 2022 - Cadmium fractionation and cacao uptake in Ecuador
 
+## Overview
+
 Gutiérrez and colleagues studied cadmium behavior in four Ecuadorian cacao farms after surface compost application. The paper is direct cacao-supply-chain evidence for cadmium mobility and mitigation rather than a finished-chocolate retail survey. It reports total soil Cd, compost rates, soil-fraction Cd, humic and fulvic acid-bound Cd, and correlations between soil Cd pools and cacao leaf and bean Cd.
 
 ## Key numbers

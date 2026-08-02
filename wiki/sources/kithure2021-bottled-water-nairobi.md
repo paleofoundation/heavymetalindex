@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Kithure et al. 2021 — Heavy metals and physico-chemical parameters in Nairobi PET-bottled drinking water
 
+## Overview
+
 This 2021 study from the University of Nairobi Department of Chemistry analysed seven anonymised brands (A–G) of commercial PET-bottled drinking water purchased from Nairobi supermarkets for seven heavy metals (Sb, Cd, Cr, Cu, Mn, Pb, Zn) by atomic absorption spectrometry and three physico-chemical parameters (pH, electrical conductivity, total dissolved solids). Sb, Cd, and Zn were below detection limit in all seven brands. Cu, Pb, Cr, and Mn were detected in subsets of brands at levels the authors compared to Kenya Bureau of Standards (KEBS), National Environment Management Authority (NEMA), and WHO drinking water limits, with Pb exceeding cited KEBS/WHO limits in two brands and Mn exceeding cited limits in one brand. The paper reports concentrations in units of "mg/g" throughout, which is physically implausible for water samples; method-section calibration standards and limits of detection are reported in mg/L–equivalent units (µg/mL), so the reported concentrations are almost certainly mg/L mis-labelled. The wiki reports the source's verbatim numbers with this caveat documented in `## Verification notes`.
 
 ## Key numbers

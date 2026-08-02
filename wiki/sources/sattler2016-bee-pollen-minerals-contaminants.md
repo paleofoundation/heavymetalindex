@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Sattler et al. 2016 - Minerals and inorganic contaminants in dried bee pollen from Rio Grande do Sul
 
+## Overview
+
 This survey measured essential minerals and inorganic contaminants in five dehydrated bee-pollen samples from southern Brazil. The occurrence-relevant table reports Ba, Cd, Li, Pb, and V in mg/100 g, with Cd ranging from 0.0026 to 0.0244 mg/100 g and Pb ranging from 0.012 to 0.018 mg/100 g. The source is routeable for dried bee pollen and botanical supplement context; it is not a US-market benchmark source.
 
 ## Key numbers

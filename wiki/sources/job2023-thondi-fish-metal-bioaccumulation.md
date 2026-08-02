@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Job 2023 - Metals in Thondi coast commercial fish
 
+## Overview
+
 Job and colleagues measured arsenic, cadmium, chromium, copper, lead, and zinc in edible muscle from five commercially important fish species associated with the Thondi coast, Palk Bay, India. The fish were randomly collected from the market, and muscle tissue was analyzed by atomic absorption spectroscopy. The source reports arsenic and chromium without speciation; arsenic is therefore total/unspecified As, and chromium is total Cr, not Cr-VI.
 
 ## Key numbers

@@ -35,6 +35,8 @@ updated: 2026-05-08
 
 # FDA 2016 - Infant/Toddler Foods Inorganic Arsenic
 
+## Overview
+
 FDA's 2016 inorganic-arsenic dataset reports sample-level iAs (with paired total arsenic, DMA, and MMA) across product categories commonly eaten by infants and toddlers. The Index routes the dataset's sample-level subsets to the relevant locked HMTc rows: cereal-rice and multigrain-with-rice samples (n=82 combined) to [[products/baby-cereals-dry-rice-based]]; non-rice infant cereal (n=30, no rice ingredients) to [[products/baby-cereals-dry-non-rice]]; the `Juice - Grape` category (n=61) to [[products/fruit-juices-non-apple]] as grape-category context and to [[products/fruit-juice-not-canned]] as broader juice context. Per the corrected row-fit rule (CLAUDE.md Part 6), the rice / non-rice cereal subcategorization is exact on both matrix axis (rice-presence) and format axis (dry infant cereal as sold) because FDA's footnotes 4-6 define each subcategory by ingredient composition.
 
 ## Structured Extracts

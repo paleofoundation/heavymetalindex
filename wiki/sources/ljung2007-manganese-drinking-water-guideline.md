@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ljung & Vahter 2007 — Manganese in Drinking Water: Time to Revise the WHO Guideline
 
+## Overview
+
 This 2007 review by Swedish researchers argued that the WHO guideline value of 500 µg/L for Mn in drinking water is insufficiently protective for infants, given evidence of neurotoxicity at lower concentrations. Mn is not in the HMT&C 10-analyte panel but is a relevant neurotoxic metal affecting the infant formula water preparation pathway.
 
 ## Key numbers

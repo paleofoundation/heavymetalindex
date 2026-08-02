@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Shchukin et al. 2018 - brown algae metals
 
+## Overview
+
 Shchukin et al. measured elemental impurities in Laminaria brown-algae herbal medicinal products purchased from Moscow pharmacies, supplementing the authors' measurements with literature rows for global Laminariales and Fucales. The routeable occurrence evidence from this source is the six rows marked as the authors' own experimental data in Tables 2 and 3. Arsenic is reported only as total arsenic, mercury only as total mercury, and chromium only as total chromium.
 
 ## Key numbers

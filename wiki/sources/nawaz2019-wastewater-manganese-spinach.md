@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Nawaz et al. 2019 - Wastewater manganese and spinach
 
+## Overview
+
 Nawaz and colleagues tested how manganese-contaminated wastewater changed spinach growth and manganese uptake in Faisalabad, Pakistan. This is in-scope irrigation-water and soil-to-plant pathway evidence, not market spinach occurrence and not a lead paper despite the recovery filename.
 
 ## Key numbers

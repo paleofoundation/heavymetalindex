@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Pan et al. 2021 - Lignosulfonate/chitosan adsorbent for Pb2+ in water
 
+## Overview
+
 Pan and colleagues synthesised a sodium lignosulfonate/chitosan (LS/CS) composite by free-radical polymerisation of acrylic acid with lignosulfonate and chitosan, optimised the formulation by a four-factor orthogonal experimental design, and characterised the resulting adsorbent for Pb2+ removal from aqueous solution. This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are adsorbent capacity, kinetics, isotherm parameters, and adsorption thermodynamics in synthetic Pb(NO3)2 solutions, not concentrations in edible commodities or consumer products.
 
 ## Key numbers

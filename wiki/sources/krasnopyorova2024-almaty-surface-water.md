@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Krasnopyorova et al. 2024 — Trace elements in Almaty surface water and human health risk
 
+## Overview
+
 This study measured 26 trace elements in surface water from four rivers flowing through Almaty City, Kazakhstan — Bolshaya Almatinka, Malaya Almatinka, Esentai, and Kargalinka — across four seasons in 2023 (n=64 samples, 16 sites). The four rivers are the primary sources of drinking water for Almaty. The study applied non-carcinogenic (Hazard Quotient, HI) and carcinogenic risk (CR) assessments using both dermal and ingestion exposure pathways.
 
 ## Key numbers

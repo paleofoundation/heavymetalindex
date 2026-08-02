@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Rossini-Oliva & López Nuñez 2024 — Urban garden vegetables and PTE exposure in Andalusia, Spain
 
+## Overview
+
 This study measured eleven potentially toxic elements (As, B, Ba, Cd, Co, Cr, Cu, Mo, Ni, Pb, and Zn) in 282 edible plant samples and 102 paired topsoils from urban community gardens across three Andalusian cities (Seville, Cordoba, Huelva) and two towns in the heavily contaminated Riotinto mining district (Nerva, Minas de Riotinto), collected 2021–2023. The same vegetables were simultaneously purchased from Seville local markets to benchmark urban garden concentrations against commercially available produce. Human health risk was assessed via hazard quotient (HQ), hazard index (HI), and carcinogenic risk for As; all HQ values were below 1 for all PTEs in all urban garden samples, and cancer risk for As remained within acceptable limits even in the mining-area gardens.
 
 ## Key numbers

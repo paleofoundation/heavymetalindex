@@ -35,6 +35,8 @@ updated: 2026-05-17
 
 # Signes-Pastor et al. 2016 — Inorganic arsenic in rice-based products for infants and young children
 
+## Overview
+
 UK-market survey speciating inorganic arsenic (Asi), DMA, and MMA in 179 commercial rice-based products sold for weaning and toddler-age consumption (baby rice, rice cereals, rice crackers), compared statistically against the US FDA 2014 published rice/rice-product survey for the same three product categories. Asi median across the UK baby-rice subset was 121 µg/kg dry weight, with 14% of samples exceeding the JECFA-proposed 200 µg/kg maximum for polished rice; rice crackers from the UK market showed a significantly higher Asi median (111 µg/kg) than the US-market rice cracker subset (79 µg/kg, p=0.011). Organically-produced samples, which were predominantly whole-grain, showed significantly higher Asi than non-organic milled samples within each product category. The paper closes by arguing that regulatory limits specifically for infant rice-based foods are urgently needed because the modelled per-serving Asi exposures fall within the EFSA BMDL01 risk range for the youngest infant population.
 
 ## Key numbers

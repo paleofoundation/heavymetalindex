@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Wang et al. 2020 - Jilin total diet study metals
 
+## Overview
+
 Wang and colleagues measured lead, total arsenic, cadmium, and aluminum in Jilin Province total-diet-study food groups. The study compares Songhua River Basin and other-area composites and uses consumption data from 7700 residents to estimate dietary exposure. Arsenic occurrence values are total arsenic; the risk assessment conservatively evaluates total As as if it were inorganic As.
 
 ## Key numbers

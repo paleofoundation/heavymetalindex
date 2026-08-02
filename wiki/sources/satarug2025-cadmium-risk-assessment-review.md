@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Satarug 2025 - Challenges in toxicological risk assessment of environmental cadmium exposure
 
+## Overview
+
 Satarug, writing from the Centre for Kidney Disease Research at the Translational Research Institute in Brisbane, reviews the methodology and evidence base behind dietary cadmium exposure guidelines and argues that current threshold-based risk assessments substantially underestimate Cd nephrotoxicity. The review highlights two methodological problems: the JECFA 5.24 microg/g creatinine threshold (derived from a beta2-microglobulinuria endpoint at 300 microg/g creatinine) is too high to be protective for low-iron and low-zinc subpopulations, and the conventional practice of normalizing urinary Cd to creatinine excretion (Ecr) introduces non-differential errors that bias dose-response relationships toward the null. Normalizing to creatinine clearance (Ccr) instead recovers stronger associations between Cd exposure and low eGFR, proteinuria, and CKD. The review then summarizes benchmark dose (BMD) modeling results across six named population datasets and concludes that current dietary Cd guidelines do not adequately protect kidney function.
 
 ## Key numbers

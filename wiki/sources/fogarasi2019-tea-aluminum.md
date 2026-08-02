@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Fogarasi et al. 2019 - Aluminum in several types of tea
 
+## Overview
+
 This study measured aluminum released into tea infusions prepared from Camellia sinensis teas and other plant-based teas. It is routeable for tea-infusion and herbal-botanical-infusion context because the paper reports aluminum concentration ranges by tea type.
 
 ## Key numbers

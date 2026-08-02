@@ -30,6 +30,8 @@ updated: 2026-05-09
 
 # Elsheikh et al. 2020 — Toxic and essential trace elements in Saudi children's foods and infant formulae
 
+## Overview
+
 This B-tier peer-reviewed analytical study (Asian Journal of Chemistry; not Q1-tier journal) measures nine elements in 57 samples covering 19 brands of children's foods and infant formulae purchased in Turabah province, Saudi Arabia. The paper's scope is broader than HMTc Category 1 — most of the 16 children's-food brands are general snack products (potato chips, popcorn, biscuits, cocoa sweets, indomie noodles) that fall outside the IandC subcategory architecture. Three brands are infant formulae (including baby powder milk, brand 19) and one brand is Cerelac (infant cereal). The principal findings: Cd and As were mostly not detected (ND) across all sample types; Pb detected in some samples but generally low (highest in biscuit brand 6 at 0.230 ppm = 230 ppb); **Al was detected in many samples, with two notable outliers — biscuit brand 6 at 291.90 ppm = 291,900 ppb total Al concentration, and baby powder milk brand 19 yielding a daily Al intake of 391.12 µg/kg bw/day, both exceeding the FAO/WHO PTDI guidance of 285.7 µg/kg bw/day**. Author scope is partial on matrix axis (formula vs cereal vs general snacks distinguished but soy/non-soy formula not split, rice/non-rice cereal not enumerated for Cerelac) and partial on format axis. Per the corrected row-fit rule (CLAUDE.md Part 6), this routes to HMTc Cat 1 only for the infant-formula and Cerelac subsets; the snack-food data is out-of-scope context.
 
 ## Key Numbers

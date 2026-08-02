@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # CIRS 2023 — REACH Annex XVII consolidated reproduction (last update 2023-07-17)
 
+## Overview
+
 This 64-page document is a third-party reproduction by CIRS – C&K Testing (Hangzhou C&K Testing Technic Co., Ltd) of Annex XVII to EU REACH Regulation (EC) No 1907/2006 — the consolidated list of restrictions on the manufacture, placing on the market, and use of certain dangerous substances, mixtures, and articles within the European Union. The header states "Last update: 2023-07-17", and the reproduction covers entries 1 through 77 of the Annex in the canonical "Column 1 (substance) / Column 2 (conditions of restriction)" tabular format. The Appendices internally referenced by the entries (notably Appendix 8–14: the lists of aromatic amines released from azodyes, of substances restricted in clothing/textiles, of substances restricted in tattoo inks, and of formaldehyde-emission test conditions) are not reproduced in this PDF — the reproduction is the entries table only. The document is not a measurement study; it is reproduced regulatory text whose value to HMI is as a single consolidated reading of the heavy-metal-relevant restrictions (entries 16, 17, 18, 18a, 19, 20, 21, 23, 27, 47, 62, 63, 75) as of mid-2023. The canonical citation for any operative HMI claim remains the EUR-Lex consolidated version of Annex XVII or the specific amending Commission Regulation; this source is the working consolidation for cross-reference.
 
 ## Key numbers — heavy-metal restrictions reproduced

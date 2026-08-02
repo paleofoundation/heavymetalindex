@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Gundogdu et al. (2025) develop and validate an ICP-MS method for the determination of aluminum (Al), sodium (Na), and potassium (K) in human albumin infusion solutions, a pharmaceutical parenteral nutrition product. The method is validated according to pharmaceutical analytical method validation guidelines. The clinical motivation is that aluminum contamination of albumin infusion solutions poses a toxicity risk, particularly in neonates and premature infants receiving parenteral nutrition.
 
 ## Key numbers

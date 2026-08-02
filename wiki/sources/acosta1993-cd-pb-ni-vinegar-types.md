@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # Acosta et al. 1993 — Cd, Pb, and Ni in different types of vinegar
 
+## Overview
+
 This study measured cadmium, lead, and nickel in 52 commercial bottled vinegars (wine, apple, alcohol, and malt types) purchased from supermarkets in the Canary Islands, Spain, using flame atomic absorption spectrophotometry (FAAS) after ashing at 500°C. Lead concentrations differed significantly by vinegar type, with apple vinegar lowest and malt vinegar highest; cadmium showed no significant inter-type difference and was non-detectable in the majority of samples; nickel showed no significant inter-type difference. Only 3 samples (6%) exceeded the Spanish legal limit of 1 ppm total for Pb + Hg + As. The data are among the earliest systematic occurrence datasets for cadmium, lead, and nickel across multiple commercial vinegar types.
 
 ## Key numbers

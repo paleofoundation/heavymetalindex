@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Laser ablation electrothermal plasma optical emission spectrometry (LAEP-OES) was validated for total mercury measurement in fish tissue by comparison against ICP-OES as a reference method, using 102 actual fish specimens purchased from Japanese markets. Multiple fish species were included; tuna is specifically highlighted. The study provides both a method validation and real food concentration data for total Hg in commercially available Japanese market fish.
 
 ## Key numbers

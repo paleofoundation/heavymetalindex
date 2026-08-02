@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Tekile 2023 — Cr(VI) above irrigation limits in tannery-contaminated Modjo River, Ethiopia
 
+## Overview
+
 Water samples collected at six stations along the Modjo River (Modjo Town to Koka Dam confluence, Ethiopia) show Cr(VI) concentrations above the FAO irrigation limit of 0.1 mg/L in reaches downstream of tannery effluent discharge. The river receives untreated or minimally treated wastewater from tanneries, abattoirs, poultry farms, and domestic waste, rendering it unsuitable for irrigation in lower reaches without treatment. The computed irrigation water quality index (IWQI) of 30.6 places the river in the medium suitability class, and sodium adsorption ratios (SAR 57.6 to 122.3) further indicate salinity and permeability hazards. This study is directly relevant to supply-chain risk for agricultural produce irrigated with tannery-affected river water in Ethiopia and similar sub-Saharan African industrial zones.
 
 ## Key numbers

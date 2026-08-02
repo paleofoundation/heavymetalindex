@@ -28,6 +28,8 @@ updated: 2026-06-06
 
 # Koga et al. 2021 — Microwave digestion method for Sn, As, and Pb in soft drinks
 
+## Overview
+
 Single-laboratory method development and validation paper from the Fukuoka Institute of Health and Environmental Sciences. The study evaluates a microwave digestion sample-preparation procedure coupled to ICP-AES (Sn) and ICP-MS (As, Pb) for soft drinks other than mineral water. The paper reports no native concentrations in commercial product; all reported analytical values are spike-recovery on synthetic matrices.
 
 Published as a note ("ノート") in *Shokuhin Eiseigaku Zasshi* (Food Hygiene and Safety Science, Japan), Vol. 62, No. 3, pp. 100–104. Received 2 November 2020; accepted 16 April 2021.

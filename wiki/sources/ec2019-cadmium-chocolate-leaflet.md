@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # EC 2019 — Cadmium in Chocolate (consumer information leaflet)
 
+## Overview
+
 This is a two-page consumer information leaflet issued by the European Commission around the 1 January 2019 cocoa-products enforcement deadline of Commission Regulation (EU) No 488/2014. The leaflet's purpose is to communicate, in plain language, the four cadmium maximum levels that the 2014 amendment of 1881/2006 set for chocolate and drinking-chocolate cocoa powder, and to explain why the levels apply to the finished product rather than to the cocoa beans. It is not a legal instrument; it is a public-facing Commission communication that summarises the binding text already in force.
 
 ## Source role

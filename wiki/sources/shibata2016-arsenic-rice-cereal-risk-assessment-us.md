@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Shibata et al. 2016 — Arsenic Risk Assessment for US Infant Rice Cereal
 
+## Overview
+
 Shibata and colleagues (Northern Illinois University; Global Environmental Health LAB, Brooklyn) constructed a probabilistic Monte Carlo risk assessment of inorganic-arsenic exposure for US infants and toddlers ages 4–24 months, drawing concentration inputs for rice cereal from FDA market-survey data and inputs for drinking water, infant formula, and other infant solid foods (purees, 2nd/3rd-stage foods, fruits, vegetables, meats) from EPA and published literature. The objective was to evaluate whether detected iAs concentrations in US-market rice cereal are safe for infant consumption and to derive a candidate maximum contaminant level (MCL) for iAs in rice cereal given overall background exposure. Evidence tier B because the concentration data are modeled inputs rather than independently measured samples.
 
 ## Key numbers

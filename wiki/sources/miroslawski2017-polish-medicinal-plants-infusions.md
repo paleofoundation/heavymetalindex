@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Mirosławski and Paukszto 2017 - metals in Polish medicinal herbs and infusions
 
+## Overview
+
 Mirosławski and Paukszto measured cadmium, chromium, nickel, and lead in Polish pharmacy-market peppermint-leaf and chamomile-blossom herbal preparations, then repeated the measurements on herb material remaining after preparation of 200 ml infusions. The study is occurrence evidence for dried medicinal-botanical raw material and extraction evidence for prepared herbal infusions. It reports total elemental Cd, Cr, Ni, and Pb only; no speciation beyond the element level was performed.
 
 ## Key numbers

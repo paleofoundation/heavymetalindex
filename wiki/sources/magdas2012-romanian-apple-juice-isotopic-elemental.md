@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Magdas et al. 2012 — Isotopic and elemental profile of Romanian organic apple juices
 
+## Overview
+
 This study characterized H, C, O stable isotope ratios and the concentration of nine elements (Cu, Cr, Ni, Zn, Pb, Co, As, Cd, U) in 31 organic single-strength apple juices from four Transylvanian regions of Romania (2010 harvest). The primary aim was building an authentic-value database for adulteration and authenticity testing of Romanian apple juice; the elemental occurrence data are presented as a parallel objective. Pb, Cd, total As, U, and Zn concentrations were below US-EPA drinking-water reference limits in every sample. Copper exceeded the 1000 µg/L drinking-water limit in one Alba sample (1224 µg/L). Chromium exceeded the 100 µg/L drinking-water limit in one Cluj sample (144.84 µg/L). Nickel exceeded the 40 µg/L drinking-water limit in some individual samples from Alba, Maramures and Cluj; the regional mean exceeded 40 µg/L only in Maramures (45.74 µg/L).
 
 ## Key numbers

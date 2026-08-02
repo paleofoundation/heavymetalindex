@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2016 — Analytical results: inorganic arsenic in infant/toddler foods
 
+## Overview
+
 This is the sample-level analytical results companion dataset to the FDA 2016 Arsenic in Rice and Rice Products Risk Assessment Report, providing individual iAs measurements for 547 infant and toddler food samples across 17 product categories including rice-based cereals, non-rice cereals, multigrain cereals, juices (grape, pear, peach, apricot), oat rings, peanut butter, quinoa, raisins, teething biscuits, toddler puffs, stage 2 toddler foods, and whole fruits. The dataset gives product category, country of origin (often "Not Specified"), and sample description for each row. The 29-page tabular document is the raw data underlying the summary statistics in the risk assessment report, enabling per-sample iAs traceability.
 
 ## Key numbers

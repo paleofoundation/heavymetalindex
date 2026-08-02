@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Bugarin et al. 2025 — Cocoa pod husk valorization: conventional and emerging technologies
 
+## Overview
+
 Bugarin and colleagues review conventional and emerging technologies for extracting the lignocellulosic structural compounds (cellulose, hemicellulose, lignin, and pectin) from cocoa pod husk (CPH) — the agro-industrial residue that accounts for roughly 76 percent of the cocoa fruit by weight — and the application of the resulting by-products across the food, biopolymer, biofuel, medicine and cosmetics, and agriculture-and-environment sectors. Heavy-metal-relevant content in the review is confined to two short subsections plus scattered paragraphs in the application sections. The authors highlight high-voltage electric discharge (HVED) as the principal emerging technology proposed for reducing cadmium in CPH prior to downstream extraction, and describe CPH-derived biochar as a high-efficiency adsorbent for Pb, Hg, and Cd from aqueous phase. The review reports no original heavy-metal measurements, no occurrence distributions for finished cocoa products, and no analytical method validation; all quantitative heavy-metal figures are second-hand from cited primary studies.
 
 ## Key numbers

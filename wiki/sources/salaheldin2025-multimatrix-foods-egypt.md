@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Salahel din et al. 2025 — Multi-matrix heavy metals in Egyptian foods, Qena
 
+## Overview
+
 This study quantified Pb, Cd, Cr, and total As in 54 food and beverage samples from five categories (beverages, processed cereals, milk and dairy products, fish and meat products, and table salt) collected during 2022 from local markets in Qena Governorate, southern Egypt. Pb dominated the overall heavy-metals burden at 72% of detected mass, with the highest mean concentration in canned fish and meat products (221.5 ± 39.9 µg/kg). Health-risk metrics (hazard quotient, hazard index, and carcinogenic risk) computed against EFSA, USEPA, and JECFA reference values stayed within acceptable ranges, but Pb exceeded the EFSA 10 µg/kg limit in 79% of carbonated and energy drinks, the 20 µg/kg limit in 50% of milk and dairy samples, and the 100 µg/kg limit in 100% of canned beef and luncheon samples; Cd exceeded the 10 µg/kg limit in 29% of carbonated and energy drinks and the 50 µg/kg limit in 100% of luncheon samples; and tAs exceeded the 10 µg/kg limit in 50% of luncheon samples.
 
 ## Key numbers

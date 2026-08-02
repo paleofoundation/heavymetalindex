@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Balzani et al. 2026 — Metal accumulation and biomagnification in three commercially important fish from Dalyan Lake, Türkiye
 
+## Overview
+
 Balzani and colleagues measured chromium (Cr), nickel (Ni), arsenic (As), and lead (Pb) in the dorsal muscle of 27 commercially important fish from Dalyan Lake, a brackish coastal lagoon in the Turkish Aegean, and combined contaminant data with carbon and nitrogen stable isotope analysis to assess trophic transfer. Concentrations were low across all four metals and all three species, with As showing the clearest interspecific pattern (highest in the more sediment-associated gilthead seabream), while Cr was the only metal showing evidence of biomagnification; As, Ni, and Pb showed trophic dilution rather than biomagnification. The context is a brackish lagoon near the Aegean coast, not an open-sea commercial fishery, so values reflect a specific enclosed-water environment that may not be representative of market fish from the broader Mediterranean or global seafood supply chains.
 
 ## Key numbers

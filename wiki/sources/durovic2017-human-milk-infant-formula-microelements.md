@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Durovic et al. 2017 - microelements in human milk and infant formula
 
+## Overview
+
 This study compares Zn, Fe, and Cu determination in mature human milk and powdered infant formula using dilution-based sample preparation without digestion. The direct HMT&C value is nutrient-metal context for powdered infant formula and human milk, not toxic-contaminant screening. The paper reports measured Zn, Fe, and Cu in five commercial formula products and 28 human milk samples, with certified reference material checks against infant/adult nutritional formula.
 
 ## Key numbers

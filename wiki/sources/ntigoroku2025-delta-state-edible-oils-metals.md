@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Ntigoroku and Agbaire 2025 - Heavy metals in edible oils from Delta State, Nigeria
 
+## Overview
+
 Ntigoroku and Agbaire measured physicochemical quality parameters, Cd, Cr, Pb, Cu, and screening-level health risk metrics in 20 edible vegetable oil samples purchased from major markets in Delta State, Nigeria. The source is routeable occurrence evidence for olive oil and other cooking oils. Concentrations are reported as ug/g, numerically equivalent to mg/kg oil.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kinuthia et al. 2021 — Heavy metal biomonitoring in Nairobi wastewater using mosquitoes and algae
 
+## Overview
+
 Wastewater, filamentous green algae (Spirogyra), and mosquitoes (Culex pipiens and other species) from open drainage channels in the Nairobi industrial area, Kenya, were analyzed for Hg, Pb, Cr, Cd, Tl (thallium), and Ni to evaluate their utility as biomonitors of heavy metal pollution. Pb, Cr, and Ni levels in wastewater ranged from 3.08 to 15.31 µg/L, while Tl, Hg, and Cd ranged from 0.05 to 0.12 µg/L; Pb, Cr, Ni, and Cd exceeded WHO, Kenya, and US EPA wastewater limits, but Hg did not. Filamentous Spirogyra algae showed markedly higher metal concentrations than wastewater (Pb 110.62, Cr 29.75, Ni 14.45, Cd 0.44, Hg 0.057 mg/kg), consistent with bioaccumulation. Field mosquitoes showed Pb, Cr, Tl, and Ni levels 1.3-2.4 times higher than laboratory-reared mosquitoes, suggesting metal uptake from contaminated water. The study concludes urban mosquitoes and filamentous algae can serve as biomonitors of heavy metal contamination in wastewater.
 
 ## Key numbers

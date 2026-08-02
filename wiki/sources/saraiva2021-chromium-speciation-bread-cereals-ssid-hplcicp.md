@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Saraiva et al. 2021 — Cr(III) and Cr(VI) speciation in bread and breakfast cereals using SS-ID HPLC-ICP-MS
 
+## Overview
+
 This study developed and validated a method for simultaneous Cr(III) and Cr(VI) speciation in bread and breakfast cereals using species-specific isotope dilution (SS-ID) coupled to HPLC-ICP-MS, then applied it to 22 retail samples (11 breads, 11 breakfast cereals) purchased in Denmark and France. The SS-ID approach corrects for any species interconversion that occurs during sample preparation, which is the principal weakness of conventional speciation methods. Cr(VI) was below the 0.047 µg/kg quantification limit in every sample analyzed; all chromium present was Cr(III), with concentrations spanning 5.2–176 µg/kg in breads and 23.8–350 µg/kg in breakfast cereals. The Cr(III) totals agreed with independent total-Cr measurements by ICP-MS to within 87–109%. The authors also performed Cr(VI) spike-recovery experiments on bread and recovered all of the spiked Cr(VI) as Cr(III), supporting the hypothesis that the bread matrix actively reduces Cr(VI) to Cr(III) and that prior reports of Cr(VI) in such matrices are most likely analytical artefacts.
 
 ## Key numbers

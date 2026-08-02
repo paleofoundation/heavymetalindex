@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Good et al. 2026 — Heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks (Houston, US retail)
 
+## Overview
+
 Good and colleagues at Texas Southern University measured four heavy metals (Cr, total As, Cd, Pb), four macronutrients (Na, Mg, K, Ca), four micronutrients (Fe, Cu, Zn, Mn), and 24 organochlorine pesticides (OCPs) in 22 commercially available milk products purchased from Houston, Texas grocery retailers — cow milk plus seven plant-based milk alternative (PBMA) categories (almond, soy, oat, coconut, hemp, rice, cashew). Heavy metals and minerals were quantified by inductively coupled plasma mass spectrometry (ICP-MS); OCPs by gas chromatography with electron capture detection (GC-ECD) following USEPA Method 8081B. PBMAs exhibited higher and more variable concentrations of Cr, As, and Cd than cow milk, with rice milk showing the highest arsenic (0.64 µg/L) and hemp milk the highest chromium (0.68 µg/L). Lead concentrations were comparable across all milk types (0.18 to 0.28 µg/L). All measured concentrations of heavy metals fell well below applicable regulatory thresholds for drinking water and milk; the authors flag that no harmonized heavy-metal maximum limits currently apply to plant-based milk alternatives. Detectable residues of multiple OCPs (dicofol, hexachlorobenzene, mirex, toxaphene, kepone, and others) were observed across all milk categories.
 
 ## Key numbers

@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # OEKO-TEX® 2024 — New limit values for STANDARD 100, ORGANIC COTTON, LEATHER STANDARD, ECO PASSPORT, and STeP
 
+## Overview
+
 This OEKO-TEX® Service GmbH customer-information notice, dated 09 January 2024, announces the OEKO-TEX® Association's annual update of test criteria, limit values, and requirements across its certification labels for the 2024 cycle. The new limit values come into force on 01 April 2024 after a three-month transition period. The notice is not a contamination measurement study; it documents the textile- and leather-industry standard-setting body's revised test catalogue. Heavy-metals content in the notice is concentrated in the STeP (Sustainable Textile/Leather Production) Annex 3 Group 11 update for wastewater and sludge testing, which lists per-metal concentration limit values and reporting limits for thirteen metals — antimony, arsenic, lead, cadmium, chromium (total), hexavalent chromium, cobalt, copper, nickel, mercury, zinc, manganese, and silver — in industrial textile- and leather-production discharge, and adds the requirement that the same metals be tested in sludge in addition to wastewater (as was the case in edition 01.2022). The remainder of the 2024 update concerns SVHC additions (diphenyl(2,4,6-trimethylbenzoyl)phosphine oxide, bis(4-chlorophenyl) sulphone, 1,4-dioxane), PFAS scope changes (per- and polyfluoroalkyl substances grouped under PFCA-related and PFHxS-related sums, plus the replacement of extractable organic fluorine with total fluorine as the operative PFAS-ban metric), and minor adjustments for phenol, SCCP/MCCP, and glutaraldehyde — none of which concern heavy metals.
 
 ## Key numbers

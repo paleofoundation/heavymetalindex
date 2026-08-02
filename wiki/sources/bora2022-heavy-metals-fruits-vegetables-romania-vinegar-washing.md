@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Bora et al. 2022 — Heavy metals in Romanian fruits and vegetables, with vinegar washing reduction
 
+## Overview
+
 This study quantified total arsenic, cadmium, lead, and zinc in 80 fruit and vegetable samples from Galați County, Romania using ICP-MS, comparing contamination between vegetable/fruit market and amateur-farm produce, then testing 5% and 10% acetic-acid vinegar washing as a mitigation intervention. Market-sourced samples carried higher metal loads than amateur-farm samples across all four analytes (means up to 35% higher for As, 68% for Cd, 67% for Pb, 3% for Zn). Washing with 10% vinegar reduced As by 45%, Cd by 65%, and Pb by 33% relative to water-washed baselines, with the strongest per-commodity reductions reaching 93% (tomato As, tomato Cd) and 100% (red cherry tomato Pb); zinc was largely unaffected (~5–13% reduction). The page's downstream value is twofold: (1) Romanian occurrence data for 21 fresh-produce commodities across four metals on a fresh-weight basis, and (2) empirical evidence on acetic-acid washing as a partial-mitigation intervention for produce metals.
 
 ## Key numbers

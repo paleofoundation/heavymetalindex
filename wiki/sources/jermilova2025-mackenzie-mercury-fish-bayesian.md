@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Jermilova et al. 2025 — Bayesian network Hg risk assessment, Mackenzie watershed freshwater fish
 
+## Overview
+
 Jermilova et al. developed Bayesian Network Relative Risk Models (BN-RRMs) to assess mercury (Hg) exposure risk in the freshwater ecosystems of Great Slave Lake and the Mackenzie River Basin (Canadian Northwest Territories) using 2005–2020 monitoring data from 21 studies. The models integrated atmospheric Hg deposition, permafrost thaw, soil erosion, and proximity to mining and fossil fuel operations as source nodes, connecting environmental Hg concentrations to measured tissue Hg in five ecologically and food-security-relevant fish species and then propagating those concentrations to human dietary intake risk against Health Canada, WHO, and USEPA provisional tolerable weekly intake (pTWI) thresholds. The study is particularly relevant to Indigenous communities in the Northwest Territories, for whom these freshwater fish species are country foods and primary protein sources.
 
 ## Key numbers

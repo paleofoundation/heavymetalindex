@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Kumar et al. 2025 — Mercury in Lactating Women and Infants, Bihar
 
+## Overview
+
 This 2025 cross-sectional study from the Bihar Gangetic plains documents extensive mercury contamination in lactating women's breast milk, with 74% of samples exceeding WHO guideline limits. The study uses geospatial analysis to map exposure clusters.
 
 ## Key numbers

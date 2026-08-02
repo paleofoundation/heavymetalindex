@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Djedjibegovic 2020 - Commercial seafood metals in Bosnia and Herzegovina
 
+## Overview
+
 Djedjibegovic and colleagues measured cadmium, mercury, and lead in `37` commercial fish and seafood samples sold at retail in Bosnia and Herzegovina. The study reports wet-weight concentrations for frozen fish, canned tuna, canned mackerel, squid, mussel, shrimp, and prawn products, then models adult exposure by age and socioeconomic group. Mercury is reported as total/unspecified `Hg`; the paper does not measure methylmercury separately.
 
 ## Key numbers

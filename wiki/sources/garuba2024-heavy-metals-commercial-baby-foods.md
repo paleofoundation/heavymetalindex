@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Garuba et al. 2024 — Heavy metals in commercial US baby foods
 
+## Overview
+
 Garuba et al. (2024) measured seven metals (Al, Cr, Ni, Zn, total As, Cd, Pb) in ten commercial US infant and toddler food products from seven anonymized brands (labeled Brand 1-Brand 7) using single-reaction-chamber microwave digestion followed by triple-quadrupole ICP-MS (QQQ-ICP-MS). Each product was analyzed in triplicate. Aluminum exceeded the ATSDR oral intermediate MRL of 1 µg/g/day in two plant-based fruit/vegetable purees (4.09 and 2.50 µg/g), and zinc exceeded the cited 2-3 µg/g/day reference in three products (syrup 33.55 µg/g, beef-and-gravy 69.54 µg/g, fruit punch 30.25 µg/g). Mercury was not analyzed. Regression analysis showed no significant relationship between packaging material (squeezable pouch, plastic, glass jar, aluminum can, box pouch) and metal concentration, supporting a soil-to-crop rather than packaging-migration origin for the contamination observed.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Inada 2023 — Heavy metal regulations in herbal medicines across nine pharmacopoeias
 
+## Overview
+
 This paper compares the heavy metal regulatory limits for herbal medicines (Pb, Cd, Hg, As) as specified in nine major pharmacopoeias: Japanese (JP), European (EP), United States Pharmacopeia (USP), Chinese (ChP), Korean (KP), Taiwanese (TaiwanP), Indian (IP), British (BP), and the WHO guidelines. The analysis reveals substantial variation in allowable limits across jurisdictions, with some pharmacopoeias applying much stricter thresholds than others for the same analytes and matrices.
 
 ## Key numbers

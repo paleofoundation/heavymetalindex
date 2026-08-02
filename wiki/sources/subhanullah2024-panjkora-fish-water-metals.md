@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Subhanullah et al. 2024 - Heavy metals in Panjkora River fish and water, Pakistan
 
+## Overview
+
 This Scientific Reports paper measured Fe, Pb, Mn, Zn, Cd, and As in Panjkora River water and in edible fish muscle. The abstract reports a highest fish Pb concentration of 2.028 mg/kg and a highest water Pb concentration of 0.060 mg/L. The routeable food matrix is freshwater fish muscle; water results are environmental context unless used for source-apportionment pages.
 
 ## Key numbers

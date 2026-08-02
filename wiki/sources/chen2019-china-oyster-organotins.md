@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Chen 2019 - Organotins in Chinese oysters
 
+## Overview
+
 Chen and colleagues measured six organotin compounds in commercial and wild oysters from China: MBT, DBT, TBT, MPhT, DPhT, and TPhT. The paper reports commercial oyster samples from Shanghai markets and wild oyster samples from fourteen coastal cities. These are organometallic tin species reported as `ng Sn g−1 dw`; they are not total inorganic tin measurements.
 
 ## Key numbers

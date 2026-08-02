@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Zhou et al. 2000 - Chinese vegetable heavy-metal review
 
+## Overview
+
 Zhou et al. review heavy-metal contamination in vegetables in China and reproduce tabulated values from ten city-level studies published before 2000. The paper is not a primary sampling study, but its tables preserve historical food-occurrence values in `mg/kg` for vegetables and a small number of grain commodities. Arsenic, mercury, and chromium are not speciated in the food tables, so this page records them as tAs, tHg, and total Cr.
 
 ## Key numbers

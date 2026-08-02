@@ -28,6 +28,8 @@ created_by: claude_opus_47_session
 
 # Near-duplicate cluster entry — Navaretnam et al. 2025
 
+## Overview
+
 This is a dedup pointer page. The triage manifest's cluster_0102 contains two entries for the same Navaretnam et al. 2025 paper on arsenic speciation in Malaysian rice. The canonical entry is at [[sources/arsenic2025-unknown]] (cite_key `arsenic2025-unknown`, raw_handle FM_12378713).
 
 This page exists so the autonomous Marker ingester doesn't re-process the same paper under a different cite-key. No content lives here; see the canonical page.

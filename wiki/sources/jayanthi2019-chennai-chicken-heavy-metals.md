@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Jayanthi et al. 2019 - Heavy metals in Chennai ready-to-eat chicken
 
+## Overview
+
 Jayanthi and colleagues measured aluminium, arsenic, cadmium, chromium, mercury, and lead in ready-to-eat chicken street foods from Chennai. This is direct product-occurrence evidence for processed poultry products, with region-by-product means reported in ppm.
 
 ## Key numbers

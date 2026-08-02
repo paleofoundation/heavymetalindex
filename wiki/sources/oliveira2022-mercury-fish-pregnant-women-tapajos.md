@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Oliveira et al. 2022 — Total mercury in piscivorous fish and pregnant women's hair in the Tapajós River basin, Brazil
 
+## Overview
+
 This study measures total mercury (tHg) in two commonly consumed piscivorous fish species (tucunaré, Cichla spp., and pescada, Plagioscion squamosissimus) in the Tapajós River basin of the Brazilian Amazon, a region with active artisanal gold mining since 1970, and compares these values to tHg in hair samples from 110 pregnant women who had just given birth in Itaituba. Fish tHg concentrations exceeded the FDA/EPA safety limit of 0.5 mg/kg for P. squamosissimus in both seasons and for Cichla spp. in the dry season; 48% of pregnant women had hair tHg above the US EPA reference dose of 1.0 mg/kg, signalling substantial fetal MeHg exposure risk.
 
 ## Key numbers

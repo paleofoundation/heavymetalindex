@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Handayani et al. 2019 - Kandungan Logam Berat Merkuri Pada Ikan Tuna (Yellowfin dan Bigeye) dan Tuna-like (Swordfish) Hasil Tangkapan dari Samudera Hindia dan Samudera Pasifik
 
+## Overview
+
 This study analyzed 895 secondary official-control records for mercury in yellowfin tuna, bigeye tuna, and swordfish from Indian and Pacific Ocean catch areas associated with Indonesia.
 
 ## Key numbers

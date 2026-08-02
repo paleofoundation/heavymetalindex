@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Li et al. 2021 — National reconnaissance of trace metals in Chinese tea gardens (45 gardens, 15 provinces)
 
+## Overview
+
 This is the first published national-scale soil and tea plant survey of potentially toxic elements (PTEs) across China's tea-producing regions, covering 225 paired soil and tea plant samples from 45 tea gardens in 15 provinces spanning East, South, Central, and Southwest China. Collected in May 2019. The overall finding is that Chinese tea garden soils are generally within risk-control standards, but Cd and As have the highest geo-accumulation indices and 2.22% and 4.44% of soils are moderately to heavily contaminated with As and Cd respectively. In tea leaves, Pb concentrations in young leaves (YTL) universally met organic tea thresholds (<2.0 mg/kg); however, 26.7% of mature tea leaf (MTL) samples exceeded the organic threshold for Pb. Cd had the highest Igeo value, making it the priority monitoring element.
 
 ## Key numbers

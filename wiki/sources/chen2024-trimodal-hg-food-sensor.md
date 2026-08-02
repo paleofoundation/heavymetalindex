@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A self-calibrating colorimetric/fluorescence/SERS tri-modal optical sensor based on aminated Rhodamine 6G (R6G-NH2) was developed for rapid detection of Hg2+ in food samples. The sensor exploits metal chelation between Hg2+ and the -NH2 and -COOH groups of R6G-NH2, generating a R6G-NH2-Hg2+-R6G-NH2 complex with three orthogonal optical signals. Detection is completed within 13 minutes. The method was applied to spiked skimmed milk, grapes (juice), tap water, and river water (Laoyu River, Kunming, China), with ICP-MS used as a reference validation method. No unspiked occurrence data for Hg in these food matrices are reported.
 
 ## Key numbers

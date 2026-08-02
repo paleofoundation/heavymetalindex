@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # Grimaldi 2017 — Prop 65 chocolate settlement establishes tiered Pb and Cd warning triggers
 
+## Overview
+
 This is a December 30, 2017 attorney-commentary article by Ann Grimaldi (Grimaldi Law Offices, San Francisco) summarizing the comprehensive Proposition 65 settlement reached among nine chocolate-industry settling defendants and As You Sow over lead and cadmium in chocolate products. The article documents the settlement's tiered warning-trigger structure (cacao-percentage-stratified Pb and Cd concentrations in ppm), the immediate triggers, the year-7 automatic drop-down levels, the Expert Committee's mandate to investigate root causes and feasibility-of-reduction, the maximum settlement payment ($210,375 for a large grinder/wholesaler), and the implicit settlement acknowledgment that lead and cadmium in chocolate are naturally occurring. The article was written in anticipation of the San Francisco Superior Court's review hearing scheduled for February 14, 2018.
 
 ## Source role

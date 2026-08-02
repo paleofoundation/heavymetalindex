@@ -29,6 +29,8 @@ updated: 2026-05-12
 
 # Carey et al. 2018 — Rice dilution in UK infant foods after EU 100 µg/kg iAs standard
 
+## Overview
+
 This PLoS ONE study assessed inorganic arsenic (iAs) concentrations in UK infant rice-based foods and their general (non-infant-labelled) equivalents in 2017, comparing the findings to 2014 and 2016 surveys, in the context of the EU 100 µg/kg iAs standard for infant rice products that came into force 1 January 2016. All 2017 UK products specifically labelled for infants fell below the 100 µg/kg threshold. Pure rice infant porridge had a median of 66 µg/kg (down from 114 µg/kg in 2016 and 127 µg/kg in 2014); multi-grain infant porridge had a median of 10 µg/kg, illustrating that blending rice with maize, oats, quinoa, or potato as a formulation strategy has been broadly adopted. General-market rice cakes had a median of 120 µg/kg — above the infant standard — demonstrating that non-infant-labelled products remain a risk vector for young children.
 
 ## Key numbers

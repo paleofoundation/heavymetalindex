@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Makarova et al. 2021 - Trifolium phytoextraction amendments
 
+## Overview
+
 Makarova and colleagues tested whether K2HEDP, plant growth regulators, and iron chelate could improve or redirect Cd, Ni, and Cu phytoextraction by white clover seedlings compared with Na2EDTA. This is primary laboratory phytoremediation evidence in plant shoots and roots, not occurrence evidence for a food, ingredient, supplement, or consumer product.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Costa 2018 - Arsenic speciation method validation in rice flour
 
+## Overview
+
 Costa's doctoral thesis developed an in-situ quaternary-ammonium-salt solid-phase extraction method coupled to flow-injection hydride-generation atomic absorption spectrometry for arsenic speciation in rice matrices. The routeable matrix is rice flour certified reference material, not salt. The method validation measured IRMM-804 Rice Flour at 0.045 +/- 0.007 mg/kg total As versus a certified 0.049 +/- 0.004 mg/kg, with As(III) measured at 0.043 +/- 0.004 mg/kg and DMA not detected.
 
 ## Key numbers

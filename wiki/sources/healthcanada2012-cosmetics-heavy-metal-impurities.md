@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
 
+## Overview
+
 Health Canada issued this guidance to communicate technically avoidable impurity limits for lead, arsenic, cadmium, mercury, and antimony in cosmetics sold in Canada. The PDF is a regulatory guidance document, not a market-sampling paper: it states policy limits and toxicological context but does not print the underlying Health Canada laboratory dataset. This page records the source-stated limits as Canadian regulatory context, with total arsenic and total mercury kept distinct from inorganic arsenic and methylmercury occurrence.
 
 ## Key numbers

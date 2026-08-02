@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # U.S. EPA EFH 2011 — Chapter 17 (Consumer Products)
 
+## Overview
+
 Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consumer-product use and exposure data — frequency of use, amount used per application, duration of contact, and amount applied per use day — for a broad set of cosmetic, personal-care, baby-care, household cleaning, painting, solvent, pesticide, and other consumer-product categories. The chapter does not measure or report heavy-metal contamination of any product; its purpose is to supply standardized exposure parameters (g/day, g/application, mg/kg-day, applications/day, hours/year) that downstream exposure assessments multiply by chemical-concentration data to estimate dose. For the Heavy Metal Index, the chapter's primary value is as the canonical reference for the "amount applied" and "frequency of use" parameters of cosmetic and baby-care exposure-pathway calculations. The chapter is non-exhaustive by design and EPA explicitly declines to recommend specific exposure values in §17.2, directing users to derive parameters from the cited underlying surveys. Underlying surveys span 1983-2008 and include CTFA (1983), Westat (1987a/b/c), Abt (1992), U.S. EPA NHAPS (1996), Bass et al. (2001), Weegels and van Veen (2001), Loretz et al. (2005/2006/2008), Hall et al. (2007), and Sathyanarayana et al. (2008).
 
 ## Key numbers

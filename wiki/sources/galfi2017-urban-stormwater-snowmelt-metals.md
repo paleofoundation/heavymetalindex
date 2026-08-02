@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Galfi et al. 2017 - Urban stormwater and snowmelt trace metals
 
+## Overview
+
 Galfi and colleagues measured mineral inorganics and trace metals in urban stormwater, snowmelt runoff, and baseflow in four Swedish catchments to distinguish geological from anthropogenic sources and characterize mobility patterns. This is a3 source-attribution evidence: it does not measure bottled water or food products, but it directly quantifies heavy metals in urban runoff pathways that can load receiving waters and downstream environments.
 
 ## Key numbers

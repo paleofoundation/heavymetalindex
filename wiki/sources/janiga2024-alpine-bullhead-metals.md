@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Janiga et al. 2024 — Heavy metals in alpine bullhead after Tatra flash flood
 
+## Overview
+
 This study measured mercury, zinc, molybdenum, rubidium, and strontium concentrations in alpine bullhead (Cottus gobio) collected from Tatra mountain streams in Slovakia following a catastrophic flash flood event. The authors examined whether the flood mobilized elevated levels of metals from sediment into the fish population, comparing pre- and post-flood conditions. The paper is notable for providing a natural experiment on how hydrological disturbance events affect heavy metal accumulation in stream fish.
 
 ## Key numbers

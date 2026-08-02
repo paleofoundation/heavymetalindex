@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Taylor et al. 2025 — Seafood benefits and contaminants: comprehensive review
 
+## Overview
+
 This broad review from Delaware State University surveys the nutritional benefits and contaminant risks associated with seafood consumption, covering heavy metals (mercury, lead, cadmium, arsenic), microplastics, PFAS, pathogens, and biogenic amines. The heavy metals section synthesizes published literature on Hg, Pb, and Cd concentrations in commercial seafood species, FDA and EPA advisory frameworks, vulnerable populations (pregnant women, infants, young children), and risk mitigation strategies including species selection and consumption frequency guidance. The review is B-tier because it synthesizes secondary literature rather than reporting new primary measurements. It is most useful as a roadmap to primary literature and for its treatment of US regulatory context.
 
 ## Key numbers

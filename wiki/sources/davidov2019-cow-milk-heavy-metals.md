@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Davidov et al. 2019 - Heavy metals in cow milk in Serbia
 
+## Overview
+
 Davidov and colleagues measured heavy metals in cow milk in Serbia. The study is routeable for dairy and milk occurrence because it reports mean element concentrations in milk and compares them with international recommendations. Lead was reported just above the cited recommended value.
 
 ## Key numbers

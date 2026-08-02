@@ -27,6 +27,8 @@ updated: 2026-05-19
 
 # Katrynska et al. 2026 — Human milk as a biomonitor of toxic metal exposure
 
+## Overview
+
 This structured narrative review with systematic search elements synthesizes 112 studies (2010–2025) on heavy metal contamination in human milk, with particular emphasis on maternal–infant transfer pathways, environmental and dietary determinants of exposure, and geographical variability. The review covers Pb, Cd, tHg (including MeHg in fish-eating populations), tAs, Cr, and Al. Under typical (low-exposure) conditions the authors report population-level concentration ranges of approximately 2–5 µg/L for Pb, 1.4–1.7 µg/L for tHg, and below 1 µg/L for Cd. Substantially higher values occur in industrialized and mining regions, with extreme isolated reports exceeding 1000 µg/L for Pb (Turkey, max 1515 µg/L) and ~104 µg/L for tHg (Amazon, max). The review frames human milk as a context-dependent biomarker reflecting both current environmental exposure and long-term mobilization of maternal stores during lactation (bone resorption for Pb, adipose mobilization for lipophilic organometals). Infants are described as a particularly vulnerable subpopulation due to immature hepatic and renal detoxification, higher per-body-weight intake, and increased gastrointestinal absorption (Pb absorption is several times higher in infants than adults). The authors conclude that breastfeeding's benefits clearly outweigh its risks under typical exposure conditions but flag industrial/mining-area and chronic-water-contamination settings as warranting closer monitoring.
 
 ## Key numbers

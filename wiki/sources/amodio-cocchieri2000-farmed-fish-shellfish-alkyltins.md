@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Amodio-Cocchieri 2000 - Alkyltins in farmed fish and shellfish
 
+## Overview
+
 Amodio-Cocchieri and colleagues measured dibutyltin (`DBT`) and tributyltin (`TBT`) residues in farmed fish, free-living fish, farmed mussels, and free-living mussels sold or collected in Naples province, Italy. The study was conducted four years after Italy restricted organotin antifouling uses on small boats and in fish and shellfish aquaculture. These values are organotin species occurrence data; they must not be collapsed into total tin or inorganic tin.
 
 ## Key numbers

@@ -28,6 +28,8 @@ created_by: claude
 
 # Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review
 
+## Overview
+
 This scoping review synthesizes published literature on heavy metal contamination in processed baby foods and infant formulas globally. The review maps the breadth of evidence on arsenic, cadmium, lead, and mercury across product categories, geographic regions, and food matrices, identifying gaps in coverage and highlighting contamination patterns across the literature.
 
 ## Key numbers

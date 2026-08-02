@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Chandrangsu, Rensing, Helmann 2017 — Metal homeostasis and resistance in bacteria
 
+## Overview
+
 This Nature Reviews Microbiology article by Chandrangsu (Cornell), Rensing (Chinese Academy of Sciences and Fujian Agriculture and Forestry University), and Helmann (Cornell) is the foundational reference on bacterial metal homeostasis. The review documents the protein-based and RNA-based metal sensors that activate transcriptional responses to metal limitation (importer induction, metal-mobilization pathway activation) and to metal excess (efflux pump activation, metallothionein-like storage, sequestration). The authors describe the stepwise transcriptional response to metal stress, the post-transcriptional regulatory systems that reinforce it, and the host-driven nutritional immunity strategies (Zn and Mn sequestration by calprotectin; Fe sequestration by transferrin and lipocalin) that exploit bacterial metal-limitation pathways to restrict bacterial growth during infection.
 
 ## Key conclusions

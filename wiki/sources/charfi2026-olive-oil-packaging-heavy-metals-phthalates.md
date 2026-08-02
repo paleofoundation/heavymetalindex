@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Charfi et al. 2026 — Packaging effects on heavy metals and phthalates in Spanish commercial olive oils
 
+## Overview
+
 This study measured twelve metals (Cu, Fe, Zn, Mg, Al, Cr, Mn, Ni, As, Cd, Sb, Pb) and three detected phthalates (DEHP, DIBP, DiNP) in commercial Spanish olive oil samples across four oil grades (extra virgin, virgin, olive oil, olive pomace oil) and six packaging types (glass, PET, tin, porcelain, aluminium, cardboard), collected across two harvest campaigns (2021/2022 and 2022/2023) by ICP-MS (heavy metals) and GC-MS (phthalates). Copper exceeded the IOC/EU limit of 0.1 mg/kg in several premium, pomace, ceramic-packed, tin-packed, and cardboard-packed samples. Cadmium, total arsenic, and antimony were not detected in any sample. Lead exceeded the 0.1 mg/kg regulatory limit in only one sample (EVOO in porcelain containers, 0.10 ± 0.03 mg/kg). Aluminium containers contributed markedly elevated Al to the contained oil (0.67 ± 0.05 mg/kg vs ≤0.12 mg/kg in other packaging). Among phthalates, DEHP was detected in 6/18 samples; one PET-packaged virgin olive oil sample exceeded the EU specific migration limit (SML) sums for both the DEHP group and DiNP+DiDP.
 
 ## Key numbers

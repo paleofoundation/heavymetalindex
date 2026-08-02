@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Oktariani et al. 2023 - Heavy metals content in fresh tuna and swordfish caught from Hindian and Pacific Oceans: Health risk assessment of dietary exposure
 
+## Overview
+
 This study measured Cd, Pb, and Hg in fresh yellowfin tuna and swordfish caught from Indian/Hindian and Pacific Ocean fishing zones and collected in Indonesia.
 
 ## Key numbers

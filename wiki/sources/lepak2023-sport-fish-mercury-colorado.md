@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Lepak et al. 2023 — tHg in sport fish from Colorado reservoirs
 
+## Overview
+
 This study used a random forest machine learning approach to identify predictors of mercury (Hg) concentrations in three sport fish species across 32 Colorado reservoirs, using 864 individual and composite muscle tissue measurements collected by the Colorado Department of Public Health and Environment from 2004 to 2013. The primary purpose is predictive modelling for fisheries management and fish consumption advisories, but the study contains a comprehensive database of empirical Hg concentrations in US sport fish relevant to food-chain exposure assessment.
 
 ## Key numbers

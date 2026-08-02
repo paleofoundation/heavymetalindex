@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Pazi 2017 - Eastern Aegean fish metal risk
 
+## Overview
+
 Pazi and colleagues measured metal concentrations in edible fish muscle from Aliaga Bay and Izmir Bay on the Turkish Eastern Aegean coast. The study reports wet-weight concentrations for total mercury, cadmium, lead, total chromium, copper, and zinc in four fish species. Mercury is reported as `Hg`; the paper does not report methylmercury speciation.
 
 ## Key numbers

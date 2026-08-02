@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Salmani et al. 2023 — Metals in Herbal Teas: Systematic Review
 
+## Overview
+
 This systematic review, published in Biological Trace Element Research, synthesized 49 primary research articles (selected from 212 screened, published 2012–2023) reporting essential and toxic metal concentrations in herbal teas including thyme, rosemary, black tea (Camellia sinensis), and chamomile. The review found that all herbal teas contain measurable metals; none fully meet WHO requirements for all elements. Arsenic and lead health risks in black tea, and cadmium in chamomile, were considerably higher than in other herbal teas. Cd in chamomile (Matricaria chamomilla) was reported at a notably elevated mean of 23 µg/g — substantially above WHO limits — while Cd was not detected in rosemary or green tea in some studies.
 
 ## Key numbers

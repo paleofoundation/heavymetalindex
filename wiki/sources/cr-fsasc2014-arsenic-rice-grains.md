@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Consumer Reports FSASC 2014 — Analysis of Arsenic in Rice and Other Grains
 
+## Overview
+
 Consumer Reports' Food Safety and Sustainability Center tested 128 samples of basmati, jasmine, and sushi rice purchased in 2014, combined those results with FDA data and their 2012 dataset to create a 697-sample composite, and analyzed 114 alternative grain samples to assess inorganic arsenic levels across rice types and grain alternatives. The headline finding is a statistically significant geographic effect: basmati rice from India, Pakistan, or California and U.S.-grown sushi rice had the lowest mean total inorganic arsenic concentrations of any rice category tested, while rice labeled from Arkansas, Louisiana, or Texas had the highest. Alternative grains including amaranth, millet, and quinoa showed significantly less inorganic arsenic than rice of any type.
 
 ## Key numbers

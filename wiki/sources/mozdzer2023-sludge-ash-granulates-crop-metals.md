@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Mozdzer and Gamrat 2023 - Sludge-ash granulates and crop metal uptake
 
+## Overview
+
 Mozdzer and Gamrat tested four fertilizer granulates made from industrial sewage sludge, lignite ash, sawdust, ammonium phosphate, and potassium salt in a pot experiment with rape seed and triticale. This is primary soil-to-plant transfer and fertilizer-input evidence, not market food occurrence evidence. The source's routeable facts are metal concentrations in the waste inputs, the finished granulates, baseline soil, rape seeds, and triticale grain, plus uptake and concentration-uptake correlations under controlled fertilizer treatments.
 
 ## Key numbers

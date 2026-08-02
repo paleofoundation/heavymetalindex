@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2018 — Inorganic arsenic in infant rice cereals (FY2018 assignment, n=149)
 
+## Overview
+
 This FDA FY2018 assignment collected and analyzed 149 infant and infant/toddler rice cereal samples (all rice-only grain) for total arsenic, inorganic arsenic (iAs), DMA, and MMA, by speciation ICP-MS. The mean iAs across all 149 samples was 85 ppb (µg/kg), with a range of 22–142 ppb — all below FDA's proposed action level of 100 ppb iAs. The data were collected to assess the extent to which manufacturers could meet the proposed action level through good manufacturing practices (GMPs) such as supplier controls. This dataset is one of FDA's primary empirical foundations for the 100 ppb iAs action level for infant rice cereals.
 
 ## Key numbers

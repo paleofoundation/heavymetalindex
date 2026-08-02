@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Blanco et al. 2023 — Mercury in fish, Valencian Community, Spain, 2011–2017
 
+## Overview
+
 This retrospective descriptive study analysed total mercury (THg) and methylmercury (MeHg) concentrations in 635 fish and seafood samples collected under the Generalitat Valenciana's official food health surveillance programme between 2011 and 2017. Across all species and years, the median THg was 0.20 mg/kg wet weight and the median MeHg was 0.14 mg/kg wet weight. Swordfish/emperor (Xiphias gladius) was the highest-contaminated group (median THg 0.80 mg/kg), with 31.8% of swordfish samples exceeding the EU legal limit of 1 mg/kg; fresh tuna/albacore (median 0.46 mg/kg) and canned tuna (median 0.25 mg/kg) ranked second and third. Adjusted for the variable annual sampling weight of high-mercury species, the overall temporal trend was downward for THg; within swordfish specifically, THg declined approximately 7% per year. Mediterranean-origin fish showed higher THg than Atlantic- or Pacific-origin fish.
 
 ## Key numbers

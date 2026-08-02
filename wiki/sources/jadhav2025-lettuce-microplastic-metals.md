@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Jadhav and Medynska-Juraszek 2025 — Microplastics as modifiers of heavy metal uptake in lettuce
 
+## Overview
+
 This controlled pot study examines how different microplastic types alter heavy metal mobility and uptake in lettuce grown in contaminated soil. It is an a3 soil-to-plant-transfer and pathway paper rather than a benchmark occurrence paper because the matrix is experimentally contaminated soil under greenhouse conditions. The paper matters because it shows how co-contaminants such as microplastics can change cadmium and lead behavior in crop systems.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zafarzadeh & Shahryari 2025 — Heavy metals in Sari rice, north Iran
 
+## Overview
+
 This study assessed Pb, Cd, Cu, and Zn contamination in commercially sold rice from Sari (Mazandaran Province, northern Iran), a major national rice-production hub. All 144 samples exceeded the Iranian/international Pb safety limit of 0.2 mg/kg; the Pb non-carcinogenic hazard quotient (HQ > 1) indicated significant risk for both children and adults. Spatial analysis identified a coastal Pb hotspot in northern Sari near the Caspian Sea (up to 9.88 mg/kg) versus much lower concentrations in southern areas (0.38 mg/kg), attributable to tourism-related activities and wastewater irrigation.
 
 ## Key numbers

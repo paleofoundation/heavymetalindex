@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Kowalski et al. 2024 - Heavy metals in commercial herbal teas
 
+## Overview
+
 This study measured Pb, Cd, total As, total Hg, and Cr in commercial herbal tea samples purchased in Poland. It is routeable for dried herbal-tea material and herbal-infusion product context because it reports metal ranges, exceedance counts, and health-risk indices.
 
 ## Key numbers

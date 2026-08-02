@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Truzzi et al. 2020 - potentially toxic elements in insect biomass and coffee-silverskin substrates
 
+## Overview
+
 Truzzi et al. tested whether black soldier fly prepupae grown on coffee-silverskin substrates enriched with microalgae could remain chemically suitable as feed or food biomass. The study measured Cd, Pb, total Hg, total As, and Ni in substrate ingredients, formulated growth substrates, prepupae, and frass. Coffee silverskin had low Cd, Pb, total As, and total Hg, while black soldier fly prepupae bioaccumulated Cd, Pb, and total Hg but remained within the EU undesirable-substance limits evaluated by the authors.
 
 ## Key numbers

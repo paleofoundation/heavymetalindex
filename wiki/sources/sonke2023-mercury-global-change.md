@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sonke et al. 2023 — Global change and mercury biogeochemical cycling
 
+## Overview
+
 This synthesis review examines how global change drivers — climate change, land use, ocean deoxygenation, altered precipitation patterns, and changing atmospheric emissions — affect the biogeochemical cycling of mercury (tHg) and methylmercury (MeHg) from emission through environmental cycling to human dietary exposure, primarily via fish consumption. The paper estimates the annual economic cost of mercury-related human health impacts at approximately $117 billion USD and projects future mercury concentrations in fish under different emission reduction scenarios.
 
 ## Key numbers

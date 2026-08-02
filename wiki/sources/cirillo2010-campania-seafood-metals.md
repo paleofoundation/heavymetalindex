@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Cirillo 2010 - Campania seafood metals
 
+## Overview
+
 Cirillo and colleagues measured lead, cadmium, total mercury, and total arsenic in fresh catch, aquaculture, and frozen seafood purchased in Campania, Italy. The study covered marine fish, cephalopods, and mussels, and reported prevalence, mean, median, and range values on a wet-weight basis. Mercury and arsenic are reported as total Hg and total As; methylmercury and inorganic arsenic were not analytically speciated.
 
 ## Key numbers

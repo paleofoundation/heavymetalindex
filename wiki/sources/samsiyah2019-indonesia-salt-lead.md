@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Samsiyah et al. 2019 - lead in salt from Pamekasan, Indonesia
 
+## Overview
+
 Samsiyah and coauthors measured lead in salt from Pamekasan Regency, Indonesia and evaluated possible contamination sources during pre-production, production, and post-production. The abstract reports that the observed Pb values were below Indonesian salt standards. The source is direct salt occurrence evidence.
 
 ## Key numbers

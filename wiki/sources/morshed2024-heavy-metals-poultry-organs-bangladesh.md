@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Morshed et al. 2024 - Heavy metals in experimental poultry organs, Bangladesh
 
+## Overview
+
 This Research Square preprint reports a 28-day experimental feeding study in which broiler chickens were fed poultry feed intentionally adulterated with graded concentrations of lead (Pb), cadmium (Cd), and chromium (Cr). The authors measured Pb, Cd, and Cr in feed and in chicken muscle, bone, liver, kidney, and lung after slaughter. The source is useful as a mechanistic dose-response and organ-distribution study; it is not retail occurrence evidence for ambient commercial chicken because the feed metal additions were deliberate and high-dose.
 
 ## Key numbers

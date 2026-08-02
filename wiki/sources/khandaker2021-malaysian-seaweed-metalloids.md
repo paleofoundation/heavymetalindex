@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Khandaker 2021 - Malaysian seaweed metal(loids)
 
+## Overview
+
 Khandaker and colleagues measured 17 elements in cultivated Malaysian *Eucheuma cottoni* seaweed from Langkawi, Semporna, and Kota Belud. The study reports dry-weight concentrations in `microgram per gram` and estimates dietary intake, noncarcinogenic hazard, and carcinogenic risk for an assumed East Asian adult seaweed consumer. The paper labels chromium as Cr-VI and arsenic as As (III), but the analytical method was ICP-OES rather than a chromatographic speciation method.
 
 ## Key numbers

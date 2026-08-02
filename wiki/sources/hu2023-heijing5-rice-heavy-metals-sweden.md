@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hu et al. 2023 — Heavy metals in Heijing 5 rice grain at high latitude (Sweden vs China)
 
+## Overview
+
 This study evaluates Heijing 5, a japonica rice cultivar from Heilongjiang province China, for low methane emissions and its performance at high-latitude growing conditions. As part of field trials in Uppsala, Sweden (59.81°N) and Nanjing, China (32.05°N), the authors measured total As, Pb, and Cd in mature rice grains from both sites using ICP at an accredited laboratory (Eurofins Sweden). The Swedish cultivation produced grains with notably lower heavy metal concentrations than literature values for rice from Asia, attributed to the low background contamination of Swedish paddy soils. All values were substantially below FAO/WHO Codex limits.
 
 ## Key numbers

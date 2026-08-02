@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # COT 2004 - mercury in fish and shellfish
 
+## Overview
+
 The UK Committee on Toxicity updated its fish and shellfish mercury advice after the 2003 JECFA methylmercury PTWI revision. The statement reviews FSA survey data for imported/farmed fish and shellfish, UK dietary exposure estimates, and blood mercury data. It treats fish mercury as methylmercury-relevant exposure context but repeatedly notes that some intake estimates use total mercury measurements that do not distinguish inorganic and organic forms.
 
 ## Key numbers

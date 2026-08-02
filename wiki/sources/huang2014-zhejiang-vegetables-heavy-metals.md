@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Huang et al. 2014 — As, Cd, Hg, and Pb in vegetables from Zhejiang
 
+## Overview
+
 Huang and colleagues measured arsenic, cadmium, mercury, and lead in 343 vegetable samples from Zhejiang province, China. The source reports mean and P97.5 concentrations in `mg/kg fresh weight`, plus counts above Chinese maximum allowable concentrations. Arsenic and mercury are reported as total As and total Hg only; no inorganic arsenic or methylmercury speciation is provided.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Simionov 2023 - Danube fish-market PTEs and microplastics
 
+## Overview
+
 Simionov and colleagues measured Al, As, Cd, Cr, Cu, Ni, Pb, Zn, and Hg in muscle tissue from fish and seafood products bought from retailers in Galati, Romania. The paper reports `mg/kg fresh weight` mean concentrations for 23 taxa, with seafood species generally carrying the highest potentially toxic element levels except for Hg, which the authors report as highest in fish caught in the Lower Danube River sector. The arsenic and mercury measurements are total/unspecified species in the occurrence table; the paper discusses methylmercury and inorganic arsenic toxicology but does not measure MeHg or iAs speciation in Table 3.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Lozano-Bilbao et al. 2023 — Metals in five tuna species from the Canary Islands
 
+## Overview
+
 Lozano-Bilbao and colleagues measured Al, Cd, Cr, Cu, Fe, Li, Pb, and Zn by inductively coupled plasma optical emission spectrometry (ICP-OES) in muscle of 75 tuna specimens (15 each of Acanthocybium solandri, Katsuwonus pelamis, Thunnus albacares, Thunnus obesus, and Thunnus thynnus) caught by the Canarian fishing fleet in the eastern Atlantic in 2021. Thunnus thynnus, the largest and longest-lived species in the panel, presented the highest mean concentrations of every metal measured, including a mean Fe of 137.8 ± 100.9 mg/kg (about 8 to 28 times the mean of the other species), a mean Cd of 0.051 ± 0.039 mg/kg, and a mean Pb of 0.280 ± 0.188 mg/kg. The authors report that 75% of T. thynnus specimens exceeded the 0.05 mg/kg cadmium limit they attribute to Regulation (CE) No 420/2011 for fish meat, and 40% of T. thynnus specimens exceeded the 0.30 mg/kg lead limit attributed to Regulation (EC) No 1881/2006 for fish muscle meat; on those grounds they recommend that T. thynnus from this region be further monitored before commercialization. Mercury was not analyzed in this study (sample tissue was reported as insufficient, and Hg plus isotopes were deferred to later work).
 
 ## Key numbers

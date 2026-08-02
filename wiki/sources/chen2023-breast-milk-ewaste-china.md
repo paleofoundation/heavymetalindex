@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Chen et al. 2023 — Heavy metals in human breast milk from an e-waste recycling area, China
 
+## Overview
+
 This cohort study measured six heavy metals (Pb, Cd, Cr, As, Cu, Mn) in 102 human milk samples collected from mothers in Taizhou, Zhejiang Province, one of China's largest e-waste recycling areas, and analyzed associations between metal concentrations and infant birth outcomes (birth weight and length). The central finding was that 34.3% of participants had Cr concentrations exceeding WHO guidelines for human milk, and a significant inverse association was identified between maternal milk Cd concentration and birth weight in female infants.
 
 ## Key numbers

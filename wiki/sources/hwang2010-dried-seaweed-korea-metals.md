@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hwang 2010 - Metals in Korean dried seaweed
 
+## Overview
+
 Hwang and colleagues measured total arsenic, total mercury, lead, and cadmium in 426 dried edible seaweed samples sold in Korea during 2007-2008. The study covers laver, brown seaweed, kelp, and sea lettuce, with results reported on a dry-weight basis. Arsenic was measured as total arsenic, not inorganic arsenic.
 
 ## Key numbers

@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # People of California v. McWane (AB&I Foundry) — Hexavalent Chromium, Proposition 65
 
+## Overview
+
 This is a primary legal filing: a civil complaint brought by the **California Attorney General (Rob Bonta)**, in the name of the People of the State of California, against **McWane, Inc.** (doing business as **AB&I Foundry**) in the Superior Court of California, County of Alameda, filed **15 February 2022**. It seeks injunctive relief and civil penalties for the foundry's emission of **hexavalent chromium** into the air of an East Oakland community **without providing the warnings required by Proposition 65** (the Safe Drinking Water and Toxic Enforcement Act of 1986, Health & Safety Code § 25249.5 et seq.). It is a public-record government enforcement action; the defendant is named here as the subject of that action, consistent with the Part 12 treatment of recalls and enforcement events, not as a contamination ranking.
 
 ## Why this source matters to the index

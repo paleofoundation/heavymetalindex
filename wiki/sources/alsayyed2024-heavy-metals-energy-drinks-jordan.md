@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Al-Sayyed et al. 2024 — Heavy metal, caffeine, and total soluble solids screening in energy drinks sold in the Jordanian market
 
+## Overview
+
 Al-Sayyed and colleagues (University of Petra, Amman; American University of Madaba) screened the ten most commonly consumed energy-drink brands sold in the Jordanian market for five heavy metals (Pb, Cu, Ni, Cd, Fe), total soluble solids (TSS), and caffeine content. The metal panel was measured by flame atomic absorption spectrophotometry after concentrated-nitric-acid digestion; caffeine by HPLC-UV; TSS by Abbé refractometry. The authors frame the study as a precursor to setting a Jordanian standard for energy drinks, since no national specification existed in Jordan at the time of writing and imports were referred by default to Codex Alimentarius and European Commission contaminants frameworks. Lead was not detected in any sample (LOD reported as 0.5 mg kg⁻¹), but Ni was reported across all ten samples at concentrations the authors describe as exceeding the European Commission reference of 0.003 mg kg⁻¹ and overlapping with WHO drinking-water carcinogenic-threshold concern; Cu in one Polish-origin sample (sample 6, 2.8 mg kg⁻¹) exceeded the Gulf and WHO 2 mg kg⁻¹ reference; Fe in seven of ten samples exceeded WHO (0.3 mg kg⁻¹) and Bangladesh (0.3 mg kg⁻¹) soft-drink references.
 
 ## Key numbers

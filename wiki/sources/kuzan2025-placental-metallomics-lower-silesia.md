@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Kuzan et al. (2025) performed ICP-OES multi-element analysis on 33 placentas from women delivering in Wroclaw (Lower Silesia, Poland), measuring eleven elements: the macroelements Ca, Mg and Fe; the microelements Cu, Cr, Mn and Zn; and the toxic / non-essential metals Cd, Pb, Co and Ni. The central toxicological finding is that all four heavy metals (Cd, Co, Ni, Pb) fell below the ICP-OES limits of detection in every sample. The authors had expected at least Cd and Pb to be detectable in some placentas given the Lower Silesia industrial history and their group's prior detection of these elements in aortic tissue from the same region using the same instrumentation; the absence of any signal in placenta is reported as a null finding rather than as evidence of zero exposure. The study additionally characterised inter-element correlations within placenta and correlations between placental elemental content and selected maternal blood parameters.
 
 ## Key numbers

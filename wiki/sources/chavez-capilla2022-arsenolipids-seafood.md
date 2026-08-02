@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Chávez-Capilla 2022 — Arsenolipid transformations in humans
 
+## Overview
+
 This narrative review synthesizes current knowledge on arsenolipid species in seafood and fish oil, their bioaccessibility and bioavailability in the human gastrointestinal tract, and their potential transformation and accumulation in human tissues. The author frames arsenolipids as an underregulated food-safety concern because current regulatory limits for arsenic in food focus almost exclusively on inorganic arsenic (iAs), leaving the dominant arsenic species in seafood, which constitute 10–70% of total arsenic in oily fish, outside any formal limits. The review makes a case for interdisciplinary research into arsenolipid metabolism, particularly regarding gut microbiota and the blood-brain barrier, before regulatory agencies can act.
 
 ## Key numbers

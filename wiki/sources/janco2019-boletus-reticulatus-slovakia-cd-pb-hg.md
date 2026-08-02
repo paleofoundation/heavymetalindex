@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Janco et al. 2019 - Cd, Pb, and Hg in Boletus reticulatus from Slovakia
 
+## Overview
+
 Janco and colleagues measured Cd, Pb, and Hg in wild edible Boletus reticulatus fruiting bodies and paired soils from eight locations in Slovakia. The source is routeable because it reports cap and stem concentrations on a dry-weight basis and counts regulatory-limit exceedances. Cadmium was the dominant exceedance concern: all cap samples and 75% of stem samples exceeded the referenced Cd limit.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gajdosechova & Loeschner 2023 — Nanoparticles as trace element species in food
 
+## Overview
+
 This review addresses the emerging recognition that trace elements in food exist not only as dissolved ionic species or simple organometallics but also as nanoparticulate forms. The authors review evidence for nanoparticulate arsenic, mercury, and selenium species in foods, the analytical techniques (HPLC-ICP-MS, AF4-ICP-MS, SEC-ICP-MS) capable of characterizing them, and the implications for regulatory risk assessment frameworks that currently assume bioavailability from purely dissolved species. The paper is directly relevant to arsenic and mercury speciation methodology and to the interpretation of total-element measurements in food.
 
 ## Key numbers

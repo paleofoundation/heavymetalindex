@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Coe, Krout, Munro-Ehrlich, Beamish, Vorojeikina, Colman, Boyd, Walk, Rand 2023 — Gut microbiome role in methylmercury demethylation and elimination
 
+## Overview
+
 This Archives of Toxicology paper from a Montana State University and University of Rochester collaboration assesses whether the human gut microbiome contributes to methylmercury (MeHg) demethylation and fecal elimination, using both a human cohort with paired stool-and-MeHg-exposure data and a gnotobiotic mouse experimental model with human-microbiota colonization. The paper is the first to combine human cohort observation with controlled gnotobiotic experimental confirmation that gut microbial activity is a determinant of host MeHg fate. The findings support the gut-microbiome-mediated demethylation pathway as a contributor to the inter-individual variability in MeHg body burden observed across populations consuming similar dietary MeHg from fish and seafood.
 
 ## Key conclusions

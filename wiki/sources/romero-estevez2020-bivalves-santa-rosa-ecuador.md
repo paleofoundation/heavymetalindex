@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Romero-Estévez et al. 2020 — Cadmium, chromium, and lead in *Anadara* bivalves, Santa Rosa Island, Ecuador
 
+## Overview
+
 Romero-Estévez and colleagues measured cadmium, chromium, and lead in soft tissues of two mangrove-bivalve species (*Anadara tuberculosa* and *Anadara similis*) that the Afro-Ecuadorean community of Santa Rosa Island, in the Cayapas-Mataje Mangrove Reserve (REMACAM, Esmeraldas Province), harvest both for subsistence and for local commerce. Fifty composite bivalve samples (~10 specimens each) were collected from four sites inside the mangrove concession together with sediment (n = 4) and *Rhizophora mangle* leaves (n = 4) from the same locations. Concentrations were quantified by flame atomic absorption spectrophotometry on a Perkin Elmer AAnalyst 400 after CEM MARS 6 microwave acid digestion, with DORM-4 fish protein as the certified reference material. Results are reported in mg/kg fresh weight for the bivalves and mg/kg (dry-equivalent matrix basis) for sediments and leaves.
 
 For both species and across all body weights, cadmium exposure exceeded the US EPA RfD of 1 µg/kg/day, implying a non-carcinogenic risk for consumers; lead exposure exceeded the FDA interim reference level of 3 µg/day for children in nearly every scenario, implying a high pediatric risk for *A. tuberculosa* in particular. Chromium exposure stayed well below the US EPA Cr(III) RfD of 1.5 mg/kg/day in every case. Sediment and leaf concentrations did not correlate with bivalve tissue concentrations, suggesting that the metals accumulated in the bivalves come from contributions in the wider mangrove ecosystem rather than from the immediately co-located substrate.

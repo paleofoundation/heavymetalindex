@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Brima and Haris 2026 - toxic elements in UK tap and bottled drinking water
 
+## Overview
+
 Brima and Haris measured 26 elements in bottled and tap drinking water from Leicester, UK, and compared the findings with literature reports for African drinking-water supplies. The paper is directly useful for bottled-drinking-water occurrence evidence because it separates bottled drinking water from tap drinking water and reports detection patterns for Cd, Pb, As, and Hg. The source also provides cross-market context rather than a pooled benchmark for African countries.
 
 ## Key numbers

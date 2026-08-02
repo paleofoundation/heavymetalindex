@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Burden et al. 2019 - honey-bee feeding behavior after metal-spiked sucrose
 
+## Overview
+
 Burden and colleagues tested whether worker honey bees detected, rejected, or changed sucrose responsiveness after acute exposure to cadmium-, copper-, and lead-contaminated sucrose. This is in-scope a4 toxicology and animal-feeding exposure evidence for metals in pollinator food resources, not honey occurrence data.
 
 ## Key numbers

@@ -31,6 +31,8 @@ created_by: codex_gpt_55_session
 
 # Barber et al. 2025 - Toxic elements in US baby and young-child foods
 
+## Overview
+
 Barber et al. report an FDA Human Foods Program non-targeted convenience survey of 566 ready-to-eat foods intended for babies, young children, pregnant women, and nursing mothers, collected from the U.S. marketplace in 2023. The study measured total arsenic, cadmium, total mercury, lead, and thallium by ICP-MS, then ran targeted arsenic speciation on rice-containing dry foods/supplements above 50 µg/kg total As and methylmercury analysis on the two fish-containing puree/mixture products. The ingredient-predictor analysis found rice-associated arsenic, root-vegetable-associated lead, and kale/brassica-associated thallium signals, while cadmium and mercury showed weaker or less stable ingredient associations.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Rusko et al. (2026) conduct a risk-benefit assessment of heavy metal contamination in 460 fish samples representing seven species from five lakes in Latvia. The study reports measured concentrations of total mercury (tHg), methylmercury (MeHg), lead (Pb), cadmium (Cd), and total arsenic (tAs) in fish muscle tissue, with a focus on whether Latvian inland fish consumption presents a net health risk or benefit accounting for the nutritional value of fish consumption against contaminant exposure.
 
 ## Key numbers

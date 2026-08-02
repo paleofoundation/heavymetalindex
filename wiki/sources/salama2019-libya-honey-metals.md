@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Salama et al. 2019 - Western Libya honey metals
 
+## Overview
+
 Salama et al. measured physicochemical properties and toxic metals in 24 bee-honey samples from eight locations in western Libya. The paper is direct honey occurrence evidence for lead, cadmium, mercury, and arsenic, reported as location-level means in mg/kg. Lead was the dominant toxic-metal signal, with location means from 2.42 to 10.98 mg/kg.
 
 ## Key numbers

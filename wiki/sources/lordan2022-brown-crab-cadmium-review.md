@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Lordan and Zabetakis 2022 — Cadmium in the brown crab industry and human health risks
 
+## Overview
+
 Lordan and Zabetakis review cadmium accumulation in brown crab (Cancer pagurus), the divergent regulatory limits applied in the European Union versus the People's Republic of China and Hong Kong, the dietary-intake context that determines whether crab consumption contributes meaningfully to total cadmium exposure, and the clinical effects of chronic cadmium exposure on humans. The review is most useful to the wiki as compiled occurrence evidence for cadmium in brown-crab white meat, brown meat, and hepatopancreas across European fisheries, and as a synthesis of the EU/PRC regulatory divergence that has shaped live-export trade.
 
 ## Key numbers

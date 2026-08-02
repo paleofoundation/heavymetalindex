@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Islam et al. 2024 — Systematic review of heavy metals in Bangladeshi fruits
 
+## Overview
+
 This systematic review synthesized findings from 10 primary studies (2012–2022) measuring heavy metal concentrations in locally produced fruits in Bangladesh. The review compiled concentration ranges across 22 fruit varieties for As, Cd, Pb, Cr, Mn, Ni, Cu, Zn, and Hg, then estimated carcinogenic and non-carcinogenic health risks using estimated daily intake (EDI), target hazard quotient (THQ), and target cancer risk (TR). Several fruits — banana, mango, guava, litchi, blackberry, lemon, and tamarind — contained Pb and Cd above WHO/FAO maximum allowable concentrations, and As exceeded the safety threshold in mango and guava (up to 1.3 mg/kg FW). Cancer risk (TR) from As, Cd, Cr, and Ni exceeded acceptable levels for most fruit types, indicating potential long-term carcinogenic risk for regular consumers of Bangladeshi fruits.
 
 ## Key numbers

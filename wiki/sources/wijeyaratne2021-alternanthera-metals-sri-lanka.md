@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wijeyaratne & Kumari 2021 — Cd, Cr, Pb in Alternanthera sessilis (Sri Lanka)
 
+## Overview
+
 Alternanthera sessilis (known locally as mukunuwenna) is a protein-rich green leafy vegetable consumed raw across South Asia; this study measured Cd, Cr, and Pb concentrations in roots, leaves, and root-zone soils from organic and non-organic cultivation sites in Sri Lanka's North Central Province, a region with elevated chronic kidney disease of unknown etiology (CKDue) prevalence. All leaf and root concentrations of Pb, Cd, and Cr exceeded WHO/FAO safe limits for human consumption, and bioconcentration factors greater than 1 for Cd confirmed hyperaccumulation potential; however, target hazard quotients (THQ) for each metal were below 1 for both adults and children, indicating negligible individual-metal health risk at average consumption rates, though the hazard index (HI) for adults at non-organic sites was 1.2, suggesting potential cumulative risk.
 
 ## Key numbers

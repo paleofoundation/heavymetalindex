@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ccopi et al. 2026 — Heavy metal bioaccumulation in Peruvian Andean crops: irrigated vs rainfed systems
 
+## Overview
+
 This study assessed concentrations and bioaccumulation factors (BAF) for 11 heavy metals (Cd, Pb, As, Cr, Hg, Ni, Cu, Zn, Mn, Fe, Mo) in 88 soil samples, 88 foliar samples from seven crop types (potato, broad bean/Vicia faba, maize, quinoa, barley, carrot, alfalfa), and 42 surface water samples collected in the Mantaro Valley (Junín Department, Peru) in February–March 2023, comparing irrigated and rainfed agricultural systems. The valley has a long history of contamination from mining, industrial, and urban discharges into the Mantaro River. Irrigated soils had higher and more homogeneous Cd, Pb, and As concentrations than rainfed soils. Several crops exceeded Codex Alimentarius limits for Cd, Pb, and As — especially potato and broad bean. Quinoa, broad bean, and potato showed BAF > 1 for Cd, Zn, and Mn, indicating active accumulation.
 
 ## Key numbers

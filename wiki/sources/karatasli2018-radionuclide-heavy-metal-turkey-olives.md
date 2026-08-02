@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Karatasli 2018 — Radionuclides and heavy metals in Turkish Mediterranean table olives
 
+## Overview
+
 This study determined concentrations of natural and anthropogenic radionuclides (226Ra, 232Th, 40K, 137Cs) and heavy metals (Cr, Mn, Fe, Co, Ni, Cu, Zn, Sr, Pb) in 26 table olive samples from the Mediterranean region of Turkey, and assessed associated health risks via estimated annual effective radiation dose and daily intake of heavy metals. The author concludes that neither radionuclide nor heavy metal levels in these samples pose health hazards: the average annual effective radiation dose from ingestion was 11 µSv/year (paper reports this as "far below the recommended level of 1000 mSv" — likely a units typo in the paper for 1 mSv = 1000 µSv, but the comparison to the 2400 µSv/year global ingestion average reported elsewhere in the same paper is the more meaningful benchmark), and daily heavy metal intakes were below WHO maximum daily intake recommendations. Notably, cadmium and arsenic — the two analytes most regulated in food safety contexts — were not measured in this study; the heavy metal panel was limited to Cr, Mn, Fe, Co, Ni, Cu, Zn, Sr, and Pb.
 
 ## Key numbers

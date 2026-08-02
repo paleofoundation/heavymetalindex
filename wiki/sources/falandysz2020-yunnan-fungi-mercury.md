@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Falandysz et al. 2020 - Mercury in Yunnan wild and medicinal fungi
 
+## Overview
+
 Falandysz and colleagues measured total mercury in traditionally foraged edible and medicinal fungi from Yunnan province, China, and compared low-mercury wood-decaying medicinal species with higher-mercury soft-flesh edible Boletaceae and related mushrooms. The study is occurrence evidence for total mercury in wild mushrooms, medicinal mushroom materials, and mushroom-derived capsule exposure scenarios; it does not report methylmercury concentrations in the occurrence table.
 
 ## Key numbers

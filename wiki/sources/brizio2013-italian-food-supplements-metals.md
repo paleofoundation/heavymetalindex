@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Brizio et al. 2013 — Heavy metals in Italian herbal food supplements
 
+## Overview
+
 Brizio and colleagues measured As, Cd, Cr, Pb, and Hg in twelve food supplements seized from a Piedmont shop by Italian food-adulteration authorities. Six products were single-herbal preparations and six were mixed herbal products sold as tablets or a bulk mix. The study is routeable as herbal/botanical supplement occurrence evidence, but it is a small enforcement-style sample set rather than a market-representative survey. Arsenic and mercury are reported as total elements only; the paper does not report inorganic arsenic or methylmercury.
 
 ## Key numbers

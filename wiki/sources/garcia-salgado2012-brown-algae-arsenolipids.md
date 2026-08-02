@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # García-Salgado et al. 2012 - brown-algae arsenolipids
 
+## Overview
+
 García-Salgado et al. identified and quantified arsenosugar phospholipids and arsenic hydrocarbons in two dried commercial brown macroalgae, Wakame and Hijiki. The paper reports whole-powder total arsenic and lipid-soluble organoarsenic species, not inorganic arsenic. Values below therefore keep whole-powder total arsenic and individual arsenolipids separate.
 
 ## Key numbers

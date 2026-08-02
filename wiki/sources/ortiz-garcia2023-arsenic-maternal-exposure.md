@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Ortiz-Garcia et al. 2023 — Maternal arsenic exposure and maternal/fetal health: review
 
+## Overview
+
 This narrative review summarizes the evidence on arsenic exposure during pregnancy, covering sources, mechanisms of damage, and adverse maternal and fetal outcomes. The primary exposure pathways are food and water ingestion. The global population's daily total arsenic intake from food and beverages is reported as 20–300 mcg/day. The review covers inorganic arsenic's carcinogenicity (IARC Group 1), methylation metabolism (iAs → MMA → DMA; DMA accounts for 60–80% of urinary metabolites), and the spectrum of pregnancy-related adverse outcomes at different arsenic exposure concentrations.
 
 ## Key numbers

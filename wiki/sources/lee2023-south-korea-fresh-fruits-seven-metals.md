@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Lee et al. 2023 — Seven potentially toxic metals in fresh fruits consumed in South Korea
 
+## Overview
+
 This is the first health risk assessment of dietary exposure to seven metals (As, Ba, Cd, Cr, Ni, Pb, and Sb) through fresh fruit consumption in South Korea, using ICP-MS to analyze 207 samples of 14 commonly consumed fruit species collected from supermarkets across six regions in 2019. Mean concentrations (mg/kg fresh weight) across all samples were: As <0.0021, Ba 0.3675, Cd <0.0022, Cr 0.0307, Ni 0.0815, Pb 0.0236, and Sb <0.0021. Non-carcinogenic hazard indices (HI = 0.0275) and carcinogenic risks for As and Pb (4.62×10⁻⁷ and 5.05×10⁻⁷ respectively) were all below threshold values for the Korean population as a whole, though Pb hazard quotient and cancer risk in apples were the highest among children aged 1–2 years.
 
 ## Key numbers

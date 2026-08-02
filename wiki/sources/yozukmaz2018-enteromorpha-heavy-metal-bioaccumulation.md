@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Yozukmaz et al. 2018 - Heavy-metal bioaccumulation in Enteromorpha intestinalis
 
+## Overview
+
 Yozukmaz and colleagues measured ten heavy metals in water, sediment, and Enteromorpha intestinalis from Kadin Creek in western Anatolia. This is in-scope lane a3 aquatic-bioaccumulation evidence and not bottled-water occurrence evidence.
 
 ## Key numbers

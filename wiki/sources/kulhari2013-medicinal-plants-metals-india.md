@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Kulhari et al. 2013 - metals in northwestern India medicinal plants
 
+## Overview
+
 Kulhari and colleagues measured manganese, chromium, lead, iron, cadmium, nickel, cobalt, zinc, and mercury in stem and leaf samples from ten medicinal plant species collected in Haryana and Rajasthan, India. The study is occurrence evidence for herbal-botanical raw materials, with plant part and collection district visible in the source tables. Values are dry-weight total elemental measurements in `ppm`; chromium is total Cr, not Cr-VI, and mercury was below detectable levels in all reported rows.
 
 ## Key numbers

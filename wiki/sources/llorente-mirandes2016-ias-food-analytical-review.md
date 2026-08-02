@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Llorente-Mirandes et al. 2016 — Review of iAs determination methods in food, 2010–2015
 
+## Overview
+
 This focal-point review in Applied Spectroscopy surveys analytical proposals for quantification of inorganic arsenic (iAs) in food products published between 2010 and 2015, covering approximately 115 publications from the Web of Science database. The review addresses method principles, certified reference materials (CRMs), proficiency testing (PT) programmes, and worldwide regulatory maximum levels (MLs) for iAs and total As (tAs). The dominant recommended method for food iAs is HPLC-ICP-MS (hydride generation–atomic fluorescence spectrometry as a complementary technique), with an ongoing proposal for a CEN TC275/WG10 standard and AOAC SMPR 2015.006 for arsenic species quantification in foods and beverages.
 
 ## Key numbers

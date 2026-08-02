@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Nelson 2023 — Cadmium and other metals in Washington children's jewelry, 2018 follow-up (WSDOE 23-03-004)
 
+## Overview
+
 This Washington State Department of Ecology Environmental Assessment Program publication (Nelson 2023, Publication 23-03-004) is a 2018 follow-up to the agency's 2015 children's jewelry survey (Sekerak 2016, Publication 16-03-007), conducted under the Children's Safe Products Act (CSPA, Chapter 70.240 RCW) to assess continued compliance with Washington's 40 ppm cadmium and 90 ppm lead restriction limits for children's products. Ecology purchased 78 children's jewelry items and apparel-with-jewelry sets in October-December 2018, separated them into 555 components, prioritised 38 components via XRF screening, and submitted them to the Manchester Environmental Laboratory for ICP-MS analysis (EPA 6020B following EPA 3052 microwave digestion) of antimony, arsenic, cobalt, mercury, cadmium, and lead. Of the 38 component samples, 37 contained at least one metal above the laboratory reporting limit; 11 (29%) exceeded the 40 ppm CSPA cadmium limit, 7 exceeded the 90 ppm CSPA lead limit, and 4 exceeded the 100 ppm CHCC reporting threshold for antimony. The highest individual values were cadmium at 966,000 ppm (96.6% Cd by mass) in a silver-coloured metal pendant composite from a necklace sold with a lace top and leggings, and lead at 510,000 ppm (51.0% Pb by mass) in the metal back of rhinestone decorations from a bracelet sold with a coral dress.
 
 ## Key numbers

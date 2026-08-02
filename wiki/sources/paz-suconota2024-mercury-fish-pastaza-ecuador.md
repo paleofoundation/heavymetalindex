@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Paz-Suconota et al. 2024 — Total mercury in freshwater fish from the Pastaza River, Ecuador
 
+## Overview
+
 This study quantified total mercury (THg) in dorsal muscle tissue of 40 fish specimens representing 13 families from two sites (Metzeras River and Pastaza River at Santa Inés) in the Amazon region of Ecuador. Carnivorous species accumulated the highest THg concentrations, with *Charax* sp. reaching 0.241 ± 0.018 mg kg⁻¹ and *Hoplias malabaricus* reaching 0.160 ± 0.033 mg kg⁻¹, while herbivorous *Hypostomus* sp. showed the lowest levels and the omnivore *Creagrutus* sp. measured 0.020 ± 0.007 mg kg⁻¹. All measured concentrations fell below the maximum permissible limits set by INEN (Ecuador), FAO/WHO, and the European Commission, and hazard quotients were below 1, indicating that consumption of these fish poses no significant risk to human health under normal consumption rates.
 
 ## Key numbers

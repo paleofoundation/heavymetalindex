@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2023 - ESR tattoo-ink heavy-metal risk assessment
 
+## Overview
+
 Gautam prepared an ESR health-risk assessment for Manatu Hauora/Te Whatu Ora on heavy metals in tattoo inks used for professional permanent tattoos. The report is not a new laboratory survey, but it selects maximum concentrations from the 2012 New Zealand Ministry of Health tattoo-ink survey for exposure assessment and summarizes international occurrence studies, NZ/EU/US regulatory context, and EU recall patterns. It is A-tier regulatory/exposure context for tattoo inks; occurrence values should be traced to the source surveys named in the report.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Kataoka et al. 2018 - Cadmium in chocolate and cocoa powder products in Japan
 
+## Overview
+
 Kataoka and colleagues measured cadmium in 180 chocolate products and 140 cocoa powder products sold in Japan. The survey found broad product-level variation: chocolate products ranged from 0.00021 to 2.3 mg/kg Cd, while cocoa powder ranged from 0.015 to 1.8 mg/kg Cd. The paper is direct occurrence evidence for cadmium in chocolate and cocoa powder as sold in the Japanese retail market.
 
 ## Key numbers

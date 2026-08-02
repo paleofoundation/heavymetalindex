@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # SGS SafeGuards Bulletin 181/09 (October 2009) — Canada's legislated heavy-metal requirements for toy surface-coating materials
 
+## Overview
+
 This two-page SGS Consumer Testing Services SafeGuards bulletin, issued as No. 181/09 in October 2009 under the Hardlines, Softlines, Electrical & Electronic series, reports on a then-recent Health Canada notice that documented the legal limits and accepted test methods for heavy metals in surface-coating materials applied to children's toys under the Canadian Hazardous Products Act (HPA). The bulletin's headline operational addition was the Health Canada clarification that "stickers and decals applied during product manufacturing are considered as surface coating materials," bringing those decoration formats squarely within the surface-coating regulatory scope. The bulletin also presents a side-by-side comparison table of the Canadian Health Canada requirements against the contemporary US 16 CFR 1303 / CPSIA total-lead limit and the ASTM F 963-08 soluble-heavy-metals migration limits for toy paints and surface coatings, intended for brands, importers, and retailers selling children's toys into both markets.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This 2021 narrative review in Toxics synthesizes the global literature on heavy metal accumulation in rice (Oryza sativa) and edible aquatic plants — water spinach (Ipomoea aquatica), Indian lotus (Nelumbo nucifera), watercress (Nasturtium officinale), Chinese water chestnut (Eleocharis dulcis), water mimosa (Neptunia oleracea), taro (Colocasia esculenta), and others. The authors compile occurrence values from sites across Bangladesh, Sri Lanka, Thailand, China, Australia, and Nigeria, showing that Cd, As, Cr, Pb, and Hg repeatedly appear in these food plants at concentrations exceeding WHO/FAO permissible limits. The review identifies rice as the dominant Hg exposure pathway for inland Asian populations through paddy methylation, in contrast with the fish-mediated pathway elsewhere.
 
 ## Key numbers

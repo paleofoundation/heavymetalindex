@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Obasi and Akudinobi 2020 - Heavy metals in Abakaliki drinking-water sources
 
+## Overview
+
 Obasi and Akudinobi measured heavy metals in 106 water samples from lead-zinc mining communities around Abakaliki, southeast Nigeria, across pre-monsoon and post-monsoon seasons. The study reports very high drinking-water concentrations for Pb, Cd, As, Hg, Cr, Mn, Ni, Se, Ag, Zn, and Co, with groundwater near active mines highlighted as the main high-concentration setting. The paper is direct occurrence evidence for mining-influenced drinking-water sources, but it is not a branded bottled-water or mineral-water market survey.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Afridi et al. 2023 - Lead in cosmetics and dermatitis-patient biomarkers
 
+## Overview
+
 Afridi and colleagues measured lead in cosmetic products and in biological specimens from female dermatitis patients and healthy referents in Hyderabad, Pakistan. For the Index, the routeable product evidence is the cosmetic-product lead range by product type; biomarker results are exposure context rather than product occurrence values. The source page deliberately reports product-type ranges without naming the sampled consumer brands.
 
 ## Key numbers

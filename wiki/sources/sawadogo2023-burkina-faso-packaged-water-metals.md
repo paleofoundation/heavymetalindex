@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Sawadogo et al. 2023 - Packaged-water trace-metal transfer in Burkina Faso
 
+## Overview
+
 Sawadogo and colleagues studied migration of trace metals from plastic sachet packaging into packaged mineral water under Sudano-Sahelian storage conditions. This is direct a1 occurrence evidence for packaged water, with additional packaging-transfer context.
 
 ## Key numbers

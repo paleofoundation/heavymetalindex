@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cao et al. 2023 — EPS-producing bacteria reduce lead in pakchoi
 
+## Overview
+
 This study investigates how exopolysaccharide (EPS)-producing bacteria applied to lead-contaminated Chinese agricultural soil reduce lead accumulation in edible pakchoi (bok choy, Brassica chinensis). The experiment was conducted using Chinese agricultural soil with measured Pb contamination ranging from 7.6 to 77.27 mg/kg. EPS-producing bacterial inoculants reduced lead in pakchoi edible tissues by 14.5 to 39.2%, depending on strain and soil contamination level.
 
 ## Key numbers

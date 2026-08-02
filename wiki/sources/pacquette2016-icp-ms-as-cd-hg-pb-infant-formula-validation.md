@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Pacquette and Anumula 2016 — Simultaneous determination of As, Cd, Hg, Pb in raw ingredients, nutritional products, and infant formula by ICP-MS
 
+## Overview
+
 This Journal of AOAC International method-validation paper by Lawrence Pacquette and Anumolu Anumula (Abbott Nutrition Global Research Services, Columbus OH and Bangalore) reports a single-laboratory validation of an ICP-MS method for the simultaneous determination of As, Cd, Hg, and Pb in raw ingredients (acid casein, maltodextrin, skim milk powder), nutritional products, and infant formula. Validation used three NIST standard reference materials (1548a Typical Diet, 1577c Bovine Liver, 1568b Rice Flour) and demonstrated method performance suitable for compliance and surveillance applications. The paper is the canonical Abbott-Nutrition-authored ICP-MS validation reference for infant formula heavy-metal analysis and supports the analytical-method basis behind the Abbott-marketed formula occurrence work cited in [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Dabeka 2011]] and the broader formula-industry analytical practice.
 
 ## Key conclusions

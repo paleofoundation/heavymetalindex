@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Khatemeh & Imani Baran 2022 — Pb, Cd, Cr in sheep liver and liver flukes from Iranian abattoir
 
+## Overview
+
 Khatemeh and Imani Baran measured lead, chromium, cadmium, and copper concentrations in liver flukes (Fasciola hepatica and Dicrocoelium dendriticum) and in sheep liver tissue collected from an industrial abattoir in Tabriz, East Azerbaijan Province, Iran. The primary aim was to evaluate whether the two trematode species could serve as bioindicators of environmental heavy metal contamination. Key finding: Pb and Cr were significantly higher in F. hepatica than in either D. dendriticum or the infected host liver, with F. hepatica bioconcentration factors (BCFs) of 5.06 ± 1.04 for Pb and 17.27 ± 6.35 for Cr. From a food-safety perspective, the paper reports measured concentrations of Pb, Cd, and Cr in the edible sheep liver matrix (both infected and uninfected), providing a baseline for these metals in a commonly consumed ruminant organ meat from an Iranian industrial region.
 
 ## Key numbers

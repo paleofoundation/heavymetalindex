@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Diviš et al. 2020 — Total mercury in fish sauces by DGT-TDA-AAS
 
+## Overview
+
 This methods-development and application paper validates a Diffusive Gradients in Thin Films (DGT) preconcentration approach combined with thermal decomposition gold amalgamation atomic absorption spectroscopy (TDA-AAS) for total dissolved mercury measurement in fish sauce — a high-salt fermented condiment matrix that otherwise corrodes the metal components of TDA-AAS instruments. The validated method is then applied to ten commercial fish sauces from Vietnam (three) and Thailand (seven). Total Hg ranged from 0.8 to 42.8 µg/kg across the ten samples; every sample sat well below the EU Commission Regulation (EC) No 1881/2006 maximum of 500 µg/kg for fish products. The DGT preconcentration step achieved a ten-fold lower LOD than direct TDA-AAS and was unaffected by NaCl concentrations up to 50 g/L or pH values in the range 3–6 typical of fish sauce.
 
 Mercury speciation note: the study measures total dissolved Hg only. It does not speciate methylmercury (MeHg) or distinguish inorganic from organic species. The companion paper Reichstädter et al. 2020 (Talanta 217, 121059), cited as reference [30], reports simultaneous Hg, Cd, and Pb determination in fish sauce by DGT and shares first-author overlap with this work.

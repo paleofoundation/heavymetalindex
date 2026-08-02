@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abedi et al. 2023 — Arsenic and mercury in commercial hen eggs, Tehran
 
+## Overview
+
 Total arsenic and total mercury concentrations in commercial hen eggs from 21 major Tehran brands were very low across both winter and summer sampling seasons: mean tAs 0.79 µg/kg and mean tHg 0.18 µg/kg across 84 samples. Neither metal approached levels of immediate toxicological concern under standard dietary exposure assumptions; target hazard quotient (THQ) for both analytes was below 1 (mean As THQ 0.00385, mean Hg THQ 0.00066 for adults). However, the International Lifetime Cancer Risk (ILCR) for arsenic in the maximum scenario exceeded 10⁻⁴, indicating a threshold carcinogenic risk under conservative assumptions. Seasonal differences were not significant for arsenic (p = 0.451) but were significant for mercury (p < 0.001), with one season reporting higher tHg.
 
 ## Key numbers

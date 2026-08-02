@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Blair 2017 - U.S. peanut heavy metals
 
+## Overview
+
 Blair and Lamb analyzed mercury, cadmium, lead, and arsenic in U.S. peanut crop samples collected at farmer-stock buying points during the 2013-2015 crop years. The sampling design covered three major U.S. growing regions and used censored-data methods for analytes with results below detection limits. The arsenic testing did not differentiate organic from inorganic forms, so arsenic is treated here as total/unspecified arsenic.
 
 ## Key numbers

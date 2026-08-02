@@ -25,6 +25,8 @@ updated: 2026-07-29
 
 # Харченко et al. 2024 - САДОВОДСТВО, ОВОЩЕВОДСТВО, ВИНОГРАДАРСТВО И ЛЕКАРСТВЕННЫЕ КУЛЬТУРЫ
 
+## Overview
+
 This source page is a mechanical bulk-ingest record for a PDF in the methylmercury infant-formula research pull. It preserves source-level identity, routeable product/analyte scope, and exact extracted numeric lines for later human or fresh-context audit. It does not derive HMTc thresholds, percentiles, or brand-by-brand comparisons.
 
 ## Key numbers

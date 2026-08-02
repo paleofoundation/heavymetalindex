@@ -27,6 +27,8 @@ updated: 2026-06-03
 
 # Sadhya and Saha 2023 — Regulation of heavy metals in food and food packaging in India
 
+## Overview
+
 Sadhya and Saha, both law faculty in India, review the Indian regulatory framework governing heavy metals in food items and food packaging, then survey published Indian primary studies that document recurring exceedances of those regulatory limits. The paper reproduces the per-metal, per-food-article concentration limits in Table 1 of the Food Safety and Standards (Contaminants, Toxins and Residues) Regulations 2011 (as amended 7 August 2020), the migration limits in Table 3 of the Food Safety and Standard (Packaging) Regulations 2018 for seven metals (Ba, Co, Cu, Fe, Li, Mn, Zn), and the principal prohibitions of those Regulations (recycled plastic, newspaper wrapping, unlined copper/brass utensils, reuse of tin containers). The authors conclude that despite a layered regulatory architecture, several Indian primary studies report market-site samples that exceed the Indian and FAO maximum permissible limits, and that enforcement gaps, not the limit values themselves, are the operative problem.
 
 ## Key numbers

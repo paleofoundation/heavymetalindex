@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Rodriguez-Mendivil et al. 2019 — Heavy metals in canned tuna and fresh fish, Tijuana, Mexico
 
+## Overview
+
 This 2019 peer-reviewed study measured total Hg (tHg), Pb, Cd, and Cr in 48 canned tuna samples from 8 brands and 20 fresh fish samples from 4 species sold in Tijuana, Mexico, then calculated hazard quotients (HQs) and total hazard quotients (THQs) using the USEPA region III risk-based concentration table. Note that mercury was measured as total Hg by cold vapor atomic absorption spectrometry (CVAAS) — the paper does not speciate MeHg from inorganic Hg. The authors concluded that all HQ and THQ values fell below 1.0 under their Mexican general-population consumption scenario; however, two canned tuna samples (4.16%) exceeded the author-cited Mexican 1.0 mg/kg maximum permissible limit for Hg, and two samples exceeded the EU Pb limit of 0.20 mg/kg.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Bakhshalizadeh et al. 2024 — Heavy metals in Caspian stellate sturgeon pectoral fin
 
+## Overview
+
 This study measured concentrations of hydrocarbons and six heavy metals (As, Cd, Hg, Pb, Ni, V) in pectoral fin tissue of 40 stellate sturgeon (Acipenser stellatus) harvested from the Caspian Sea, Iran. The Caspian Sea sturgeon fishery is commercially significant, and fin tissue serves as a non-lethal biomonitoring matrix. ICP-MS was the analytical method. The authors also calculated estimated daily intake (EDI) and target hazard quotient (THQ) for human consumers of sturgeon products.
 
 ## Key numbers

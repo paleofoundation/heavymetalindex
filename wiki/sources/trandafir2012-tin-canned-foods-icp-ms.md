@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Trandafir et al. 2012 — Tin in canned foods by ICP-MS
 
+## Overview
+
 This Romanian study developed and validated an ICP-MS method using microwave acid digestion for determining dissolved inorganic tin (Sn) in canned foods, then applied it to a survey of 14 canned food products (fruit, vegetables, fish) purchased on the Romanian market. The method measures total dissolved tin from tinplate corrosion; it does not speciate organotin compounds (tributyltin, triphenyltin), which require separate GC-ICP-MS or similar workflows. Tin concentrations at the moment of opening ranged from 0.09 mg/kg (canned peas) to 73.68 mg/kg (peeled-tomato-in-juice, solid fraction), all below the EU regulatory maximum of 200 mg/kg for inorganic tin in canned foods (EC No. 1881/2006) and the Codex Alimentarius limit of 250 mg/kg. The study also showed that tin concentrations in syrup can exceed 200 mg/kg within 48 hours of opening when acidic products are stored at 20 °C in the original can.
 
 ## Key numbers

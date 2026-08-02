@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # FERA / FSA 2015 - UK Total Diet Study of metals and other elements in food
 
+## Overview
+
 This UK Food Standards Agency total diet study measured metals and other elements in 3312 retail food samples collected from 24 UK locations. Foods were prepared as for consumption, composited into 138 food categories and 28 food groups, and analyzed primarily by ICP-MS. The report is valuable because it gives as-consumed UK baseline concentrations for broad food groups and category composites, and because it reports inorganic arsenic separately from total arsenic. All values below are mg/kg as received or prepared unless otherwise noted; the source uses a leading `~` for values above LoD but below LoQ.
 
 ## Key numbers

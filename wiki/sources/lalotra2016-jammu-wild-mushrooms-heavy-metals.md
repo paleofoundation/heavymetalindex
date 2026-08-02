@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Lalotra et al. 2016 - Heavy-metal bioaccumulation in wild mushrooms from Jammu
 
+## Overview
+
 Lalotra and colleagues measured Zn, Cu, Mn, Fe, Cd, and Pb in three wild mushrooms and their substrates from Jammu and Kashmir, India. The source is routeable with caution: it contains real mushroom concentration values, but only one of the three species, Macrolepiota procera, is explicitly edible. The highest fruiting-body concentrations were in Boletus subvelutipes for Zn, Cu, Mn, Fe, Cd, and Pb, but food-occurrence routing should keep the edible-status note attached.
 
 ## Key numbers

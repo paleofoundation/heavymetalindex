@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Nyamukamba et al. 2023 — Heavy metals, formaldehyde and pH in baby diapers from the South African market
 
+## Overview
+
 This study quantifies extractable heavy metals (Pb, Cu, As, Zn, Co, Ni, Cr, Cd, Mn, Se), formaldehyde, and pH in 20 disposable baby diapers (DBD) purchased from high-, medium-, and low-end retail stores in Cape Town. Extractable metals were determined via ICP-OES after separate extractions in ISO-3160/2 artificial sweat (24 h) and a modified Brian-and-Shmaefsky artificial urine (extraction time not stated). All measured metal concentrations fell below the Oeko-Tex Standard 100 limits except for nickel, which exceeded the 0.1 mg/kg ceiling in one high-end diaper (H2, sweat extract: 0.197 mg/kg) and one low-end diaper (L2, urine extract: 0.224 mg/kg). Formaldehyde exceeded the Oeko-Tex 16 mg/kg recommended limit in 10/20 diapers (50%), with the highest readings (17.617 mg/kg) concentrated in medium-end products (M2, M5, M8). All 20 diapers had alkaline pH (7.32-8.93); only 5/20 (25%) fell within the Oeko-Tex 4.0-7.5 range. The authors conclude that diaper rash among South African babies could be driven by high alkaline skin pH and formaldehyde exceedances rather than by the measured heavy-metal content.
 
 ## Key numbers

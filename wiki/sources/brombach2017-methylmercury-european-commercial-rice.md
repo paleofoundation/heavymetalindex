@@ -28,6 +28,8 @@ updated: 2026-05-09
 
 # Brombach et al. 2017 — Methylmercury in commercial European rice
 
+## Overview
+
 This A-tier peer-reviewed analytical study measures total mercury and methylmercury in 87 commercial rice products from European supermarkets, including 7 pre-cooked baby-food rice products and 2 toddler rice cakes. MeHg ranged from 0.11 to 6.45 µg/kg with an arithmetic mean of 1.91 ± 1.07 µg/kg; total Hg ranged from 0.53 to 11.1 µg/kg, mean 3.04 ± 2.7 µg/kg. The mean MeHg fraction of total Hg was 71 ± 26%, with sample-level fractions ranging 6–100% at low total-Hg concentrations and capping at 60% above 6 µg/kg total Hg. The authors explicitly tested and confirmed that **baby-rice samples are not significantly different from other rice products** in MeHg concentration, which is the key author-scope claim that lets the 7-sample baby-rice subset inherit the broader 87-sample distribution as a sample-size-amplified pool. Author scope is exact on matrix axis (rice as the commodity; rice products as finished foods within rice) and exact on format axis where the baby-food rice (samples 11-17) and toddler rice cakes (samples 18-19) are explicitly enumerated. Per the corrected row-fit rule (CLAUDE.md Part 6), Brombach 2017 routes directly to multiple HMTc Category 1 rice-based subcategory pages.
 
 ## Key Numbers

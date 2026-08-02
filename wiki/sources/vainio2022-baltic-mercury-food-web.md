@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Vainio et al. 2022 — Total mercury trophic magnification in the Baltic Archipelago Sea food web
 
+## Overview
+
 This study measured total mercury (THg) concentrations in 30 species spanning benthic, pelagic, and benthopelagic food chains in the Baltic Archipelago Sea, a brackish low-diversity ecosystem with known Hg contamination, to investigate how ecological traits (food-chain origin) and ecophysiological traits (thermoregulatory strategy) affect trophic magnification. Trophic magnification factors (TMFs) were significantly higher in pelagic food chains (3.58–4.02) than in benthic food chains (2.11–2.34) when homeotherm bird species were excluded, demonstrating that food-chain origin and thermoregulation both shape Hg accumulation patterns and that standard risk assessment models using a single TMF may underestimate risk in pelagic food chains or for homeotherms.
 
 ## Key numbers

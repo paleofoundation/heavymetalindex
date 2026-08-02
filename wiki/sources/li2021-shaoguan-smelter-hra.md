@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Li et al. 2021 — Probabilistic health risk assessment at Shaoguan smelter, Guangdong, China
 
+## Overview
+
 This study performed a probabilistic health risk assessment of heavy metal exposure from soil around the Shaoguan non-ferrous metal smelter in Guangdong Province, China. Sixty soil samples were collected across five microenvironment types (residential, agricultural, industrial, road, recreational) and analyzed for 16 metals including Pb, Cd, Hg, As, Cr, Mn, Ni, Sb, and Sn by standard Chinese EPA methods. Monte Carlo simulation was applied to model non-carcinogenic and carcinogenic risk distributions for children and adults via ingestion, dermal contact, and inhalation. Pb, Cd, and As were the principal contributors to excess carcinogenic risk, which exceeded acceptable levels (10^-6 to 10^-4) in agricultural and residential zones adjacent to the smelter.
 
 ## Key numbers

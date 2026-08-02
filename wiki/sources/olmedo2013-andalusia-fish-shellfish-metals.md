@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Olmedo 2013 - Andalusia fish and shellfish metals
 
+## Overview
+
 Olmedo and colleagues measured mercury, cadmium, lead, arsenic, and tin in fresh, canned, and frozen fish and shellfish products commonly consumed in Andalusia, Spain. The study analyzed `485` samples, reported medians with 5th and 95th percentiles in `mg/kg wet weight`, and performed methylmercury speciation in the high-total-mercury predatory fish subset. Arsenic was measured as total arsenic, not inorganic arsenic.
 
 ## Key numbers

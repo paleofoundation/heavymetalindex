@@ -40,6 +40,8 @@ updated: 2026-06-08
 
 # CFS 2013 — First Hong Kong Total Diet Study: Metallic Contaminants
 
+## Overview
+
 The Centre for Food Safety (CFS) of Hong Kong conducted the First Hong Kong Total Diet Study (1st HKTDS) to estimate dietary exposures of the Hong Kong general population and population subgroups to metallic contaminants and to assess associated health risks. This report (Report No. 5 of the TDS series, January 2013) covers aluminium (Al), antimony (Sb), cadmium (Cd), lead (Pb), methylmercury (MeHg), nickel (Ni), and tin (Sn); vanadium (V) was additionally reported because it was co-analysed in the same HR ICP-MS run. The dietary exposures to Al, Sb, Cd, Ni, and Sn were all below their respective health-based guidance values for average consumers, and average lead exposure (0.21 µg/kg bw/day) was below the JECFA 1.2 µg/kg bw/day level for systolic-blood-pressure risk in adults. About 11% of women of childbearing age (20-49 years) had methylmercury exposure exceeding the PTWI of 1.6 µg/kg bw protective of the developing foetus, which the report identifies as a public health concern. The general adult population was assessed as unlikely to experience major adverse health effects from these contaminants.
 
 Inorganic arsenic from this same TDS series was reported separately in Report No. 2 (February 2012), ingested as [[sources/cfs2012-hktds-inorganic-arsenic]]. Arsenic speciation data are not in the present report.

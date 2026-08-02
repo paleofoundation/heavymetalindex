@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Crespo-Barreiro et al. 2023 - Metals and PAHs in olive-pruning biochar
 
+## Overview
+
 Crespo-Barreiro and colleagues scaled olive-tree-pruning biochar production from semi-pilot to pilot and industrial pyrolysers, then measured heavy metals, PAHs, pH, carbon stability, and germination-index phytotoxicity. The source is primary evidence for agricultural-input contamination and soil-amendment quality control, not food occurrence evidence: it measures biochar made from olive pruning residues and does not report metal concentrations in olives, olive oil, soil after application, or edible crops.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2023 - Heavy metals in seaweeds and halophytes
 
+## Overview
+
 EFSA assessed occurrence and dietary exposure for cadmium, lead, total arsenic, inorganic arsenic, total mercury, and iodine in seaweeds, halophytes, and products based on or containing seaweed in Europe. The report used sampling years 2011-2021 and separates total arsenic from inorganic arsenic, and total mercury from the few reported methylmercury and inorganic-mercury records. The PDF-visible tables provide aggregate occurrence means by FoodEx-style seaweed group and exposure estimates for current seaweed consumers and replacement-scenario products.
 
 ## Key numbers

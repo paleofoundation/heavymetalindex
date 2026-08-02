@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Alzagtat et al. 2016 - Conformity of Fruit Nectar Samples to Libyan Specification Standards
 
+## Overview
+
 This study evaluated Libyan fruit nectar samples against Libyan specification standards and measured heavy metals in local and imported nectars, including pineapple-containing nectar categories.
 
 ## Key numbers

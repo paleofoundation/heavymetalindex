@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Shah et al. 2013 - metals in Pakistan medicinal plants
 
+## Overview
+
 Shah and colleagues measured iron, copper, manganese, nickel, chromium, zinc, cadmium, and lead in four medicinal plant species and paired soils from two sampling points in District Karak, Khyber Pakhtunkhwa, Pakistan. The paper is occurrence evidence for herbal-botanical raw materials used in traditional medicine, with leaves, stems, and roots reported separately. Values are total elemental concentrations in `mg/kg`; chromium is total Cr, not Cr-VI.
 
 ## Key numbers

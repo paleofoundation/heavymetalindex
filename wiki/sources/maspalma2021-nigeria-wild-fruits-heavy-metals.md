@@ -24,6 +24,8 @@ updated: 2026-06-04
 
 # Maspalma et al. 2021 — heavy metals in Nigerian wild fruits
 
+## Overview
+
 Maspalma and coauthors measured Fe, Cd, Pb, Cr, Mn, Ni, Co, and Zn in mature ripe Ximenia americana and Sclerocarya birrea wild fruits from Adamawa State, Nigeria. The paper is routeable as fresh-fruit occurrence evidence, but the values are dry-weight fruit measurements from two wild species rather than a market basket of packaged fruit products.
 
 ## Key numbers

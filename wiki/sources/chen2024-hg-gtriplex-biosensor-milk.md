@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A biosensor based on a G-triplex DNA structure was developed for Hg2+ detection and validated in spiked milk samples. The sensor uses the T-Hg2+-T coordination chemistry that stabilises the G-triplex structure as the Hg2+ recognition mechanism. No unspiked occurrence measurements of Hg in milk are reported; validation is by spike-recovery in milk matrix.
 
 ## Key numbers

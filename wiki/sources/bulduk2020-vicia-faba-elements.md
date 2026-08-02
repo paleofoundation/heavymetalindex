@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Bulduk 2020 - Elemental levels in Vicia faba flowers and leaves
 
+## Overview
+
 This study measured trace and major elements in Vicia faba flowers and leaves, which the paper describes as consumed as tea and used as medicinal plant material. It is routeable for herbal-botanical infusion and botanical-supplement context, not for true Camellia sinensis tea.
 
 ## Key numbers

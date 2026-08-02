@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Oranges, Dini & Romanelli 2015 — Skin physiology of the neonate and infant: clinical implications
 
+## Overview
+
 This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology, University of Pisa) summarises the structural and functional maturation of the skin from birth through the first year of life and describes the clinical implications of immature barrier function for topical-agent absorption, infection susceptibility, thermoregulation, and product selection. The paper contains no primary heavy-metal occurrence data and no metal-specific permeability measurements; it is included in the Heavy Metal Index corpus as exposure-pathway framing for HMI work that needs to translate adult dermal-absorption assumptions to neonatal and infant skin in the context of baby personal-care products (lotions, oils, cleansers, topical antiseptics).
 
 ## Key numbers

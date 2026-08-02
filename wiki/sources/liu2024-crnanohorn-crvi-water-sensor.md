@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A carbon nanohorn-modified electrochemical sensor for Cr(VI) (hexavalent chromium) detection was developed and validated in tap water samples. The paper targets Cr(VI) specifically, not total chromium, preserving the critical speciation distinction.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pogrzeba et al. 2018 - energy crops on contaminated soil
 
+## Overview
+
 Pogrzeba and colleagues measured cadmium, lead, and zinc in two perennial energy crops grown on contaminated arable soil in Upper Silesia, Poland. This is mitigation and phytoremediation evidence: it reports soil and non-food biomass concentrations under fertilization treatments, but it does not measure bottled water, mineral water, edible crops, ingredients, or consumer-product occurrence.
 
 ## Key numbers

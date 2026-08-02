@@ -26,6 +26,8 @@ updated: 2026-05-28
 
 # Kim et al. 2018 — Arsenic, cadmium, lead, and mercury in dry dog foods grouped by primary animal ingredient
 
+## Overview
+
 This study measured total arsenic, cadmium, lead, and total mercury by ICP-MS in 51 over-the-counter dry dog foods (17 fish-based, 17 poultry-based, 17 red-meat-based), reported concentrations as mg/Mcal metabolizable energy, and compared canine intakes to published US human total-diet-study intakes. Fish-based diets had significantly higher arsenic, cadmium, and mercury; red-meat-based diets had the highest lead. The source is routeable to dry-kibble pet-food evidence; it is not routeable to human ingredient or product pages despite the appearance of "fish," "poultry," and "red meat" in formulation labels.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Hardisson et al. 2017 — Aluminium exposure through the diet
 
+## Overview
+
 This 2017 narrative review compiles aluminium (Al) concentration data from published studies across multiple food matrices and drink types, with the aim of estimating total dietary intake and comparing it to health-based guidance values. The authors find that vegetables (mean 16.8 mg/kg), fish and seafood (mean 11.9 mg/kg), and roots and tubers (mean 9.60 mg/kg) carry the highest Al concentrations among food groups, while processed cheese manufactured with sodium aluminium phosphate additives can reach extreme concentrations (470 mg/kg). Estimated dietary intakes calculated against Spanish population consumption data and EFSA's Tolerable Weekly Intake (TWI) of 1 mg/kg body weight per week indicate that vegetables account for 32.5% of weekly Al intake in both children and adults, while fruits account for 29.4% in children and 18.2% in adults.
 
 ## Key numbers

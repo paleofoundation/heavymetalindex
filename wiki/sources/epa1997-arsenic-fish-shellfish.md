@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # EPA 1997 — Arsenic and Fish Consumption (EPA-822-R-97-003)
 
+## Overview
+
 This December 1997 report from EPA's Office of Science and Technology summarizes available data on arsenic concentrations and speciation in fish and shellfish, then uses that data alongside USDA dietary intake survey records to estimate inorganic arsenic (iAs) exposure across six fish-consumption scenarios. The report was produced to address whether the then-current MCL of 50 ppb for arsenic in drinking water could also serve as an Ambient Water Quality Criterion under the Clean Water Act and to determine whether fish and shellfish consumption from the same waters adds materially to iAs exposure. The central finding is that more than 95% of arsenic in marine fish and shellfish is present as organic species (primarily arsenobetaine), a compound that is metabolically inert in mammals and rapidly excreted, so that dietary iAs exposure from fish and shellfish is low relative to drinking water exposure for most population groups.
 
 The drinking-water MCL discussed in the report is historical: EPA later lowered the federal arsenic MCL from 50 ppb to 10 ppb under [[regulations/epa-arsenic-mcl]]. The report remains useful for seafood speciation and exposure-scenario logic, but its 50 ppb water scenario should be treated as a 1997 policy context rather than the current US public-water standard.

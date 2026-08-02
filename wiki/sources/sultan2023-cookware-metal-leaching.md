@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Sultan et al. 2023 — Potentially hazardous element leaching from cookware
 
+## Overview
+
 Sultan and colleagues measured elemental composition of locally made aluminum, stainless-steel, and copper cookware from Pakistan and tested metal release under acidic, alkaline, neutral-water, and cooked-meat conditions. The source is direct product evidence for metal-alloy cookware and leaching-context evidence for food-contact exposure. It should not be treated as a nonstick-coating paper merely because the auto-fetch row used that label.
 
 ## Key numbers

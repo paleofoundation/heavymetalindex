@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This 50-page narrative review published in Agriculture (MDPI, 2023) synthesises the literature on how heavy metals in contaminated soils affect cereal crop physiology, growth, and grain food safety. The authors (from Iași, Romania) cover four interlocking themes: visible phytotoxicity (chlorosis, stunted growth, necrosis, leaf deformities, water stress); the mechanisms behind those symptoms (enzyme disruption, reactive-oxygen-species generation, membrane integrity loss, nutrient imbalances); soil and environmental factors that modulate metal toxicity (pH, organic matter, soil texture, temperature, humidity); and the defence machinery cereals deploy in response (metal transporters, sequestration, chelation by phytochelatins and metallothioneins, enhanced efflux, mycorrhizal symbiosis, plant growth-promoting bacteria). The paper is plant-science and agronomy-oriented — it does not report measured concentrations in harvested grain from real food supply chains, and it presents no occurrence tables for ppb values in cereal products. Its value to this wiki is mechanistic: it explains *why* soil-to-grain transfer varies with pH, organic matter, cultivar, and metal speciation, and which agronomic levers (liming, organic amendments, biochar, crop rotation, low-Cd cultivars, mycorrhizal inoculation) reduce that transfer.
 
 ## Key numbers

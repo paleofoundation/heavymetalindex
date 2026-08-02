@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Shim et al. 2004 — Mercury and fatty acids in canned tuna, salmon, and mackerel
 
+## Overview
+
 This 2004 US study analyzed total mercury (tHg) and polyunsaturated fatty acids in canned tuna (n=240), salmon (n=16), and mackerel (n=16) purchased from stores in Lafayette, Indiana. Mercury was measured as total Hg by thermal decomposition amalgamation atomic absorption spectrophotometry (TDA/AAS); the paper does not speciate MeHg from inorganic Hg, but notes that up to 90% of Hg in fish is typically found as MeHg. Overall mean tHg was 188 ppb in tuna, 45 ppb in salmon, and 55 ppb in mackerel — all below the FDA action level of 1000 ppb. The paper's central trade-off is that white/albacore tuna rows had higher tHg and higher EPA+DHA than light tuna in water, while salmon and mackerel had lower tHg and higher EPA+DHA than the tuna category average.
 
 ## Key numbers

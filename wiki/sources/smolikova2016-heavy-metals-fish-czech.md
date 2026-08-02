@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Smolikova et al. 2016 — Heavy metals in fish products sold in Czech Republic
 
+## Overview
+
 This conference-proceedings paper reports Cd, Pb, and total Hg (tHg) in 159 fish muscle samples representing 33 species from 17 FAO fishing localities, purchased from Brno, Czech Republic markets between September 2015 and June 2016. Cd and Pb were measured by electrothermal atomic absorption spectrometry (ETAAS) after microwave digestion; tHg was measured by direct mercury analysis (AMA 254). Ten samples exceeded the EU mercury maximum levels then set under Commission Regulation (EC) No 1881/2006 (0.5 mg/kg for most fish; 1.0 mg/kg for selected predatory species), and three samples exceeded the cadmium limit applicable to the relevant fish rows. No lead exceedances were found.
 
 The most contaminated species were white marlin (tHg 10.42 ± 2.08 mg/kg; Cd 0.1809 ± 0.0362 mg/kg) and other large predatory fish including swordfish and blue shark. The source states that several above-limit findings from this research were reported through the EU RASFF system and led to withdrawal of some fish batches from Czech markets.

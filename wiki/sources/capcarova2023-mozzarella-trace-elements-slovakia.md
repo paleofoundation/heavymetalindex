@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Capcarova et al. 2023 — Trace elements and heavy metals in mozzarella, Slovak market
 
+## Overview
+
 This study measured concentrations of 17 elements — including aluminum, arsenic, chromium, nickel, lead, and antimony — in 27 commercially available mozzarella cheese samples purchased from markets in Nitra, Slovakia. Samples were classified into three product types (classic, light, basil) with paired whey fractions analyzed separately. The authors compared concentrations against Slovak and EU permissible limits and estimated consumer exposure via expected dietary intake (EDI) and contribution to provisional tolerable weekly intake (PTWI). The paper is one of a series by this group characterizing trace element profiles across Slovak dairy products (milk, yogurt, cottage cheese, mozzarella).
 
 ## Key numbers

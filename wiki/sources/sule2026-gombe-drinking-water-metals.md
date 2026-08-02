@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Sule et al. 2026 - Metals and modeled health risk in Gombe drinking water
 
+## Overview
+
 Sule, Olowolafe, and Dabi assessed Pb, Fe, Cu, Cr, Mn, and Cd in 87 drinking-water samples from Gombe Local Government Area, Nigeria, including tap, borehole, well, vendor, rainwater, sachet-water, and bottled-water sources. The paper reports source-type chronic daily intake, hazard quotient, hazard index, and incremental lifetime cancer risk outputs for adults, children, and infants. It is useful for drinking-water source context in Nigeria and for source-specific risk documentation, but the PDF does not print the underlying AAS concentration table, so the modeled risk outputs should not be used as benchmark concentration values.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lehel 2018 - Hungary seafood market metals
 
+## Overview
+
 Lehel, Bartha, Danko, Lanyi, and Laczay measured arsenic, cadmium, lead, and mercury in shellfish, oysters, and squids purchased from a Hungarian fishery product market. The samples represented imported seafood origins: shellfish from Denmark and Italy, oysters from France, and squids from Argentina. Arsenic is reported as total/unspecified arsenic; mercury is reported as total mercury and was below the method limit of detection in every sample.
 
 ## Key numbers

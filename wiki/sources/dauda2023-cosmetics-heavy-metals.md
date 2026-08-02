@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Dauda et al. 2023 - Heavy metals in cosmetics from Kafanchan markets
 
+## Overview
+
 Dauda et al. tested cosmetics purchased from Kafanchan markets in Kaduna State, Nigeria for selected heavy metals. The paper is direct personal-care occurrence evidence across lipsticks, fairness creams, lip balms, and anti-aging creams. Chromium and nickel were detected in lipsticks, mercury was detected in fairness creams, and the tested lip balms and anti-aging creams had no detected target metals.
 
 ## Key numbers

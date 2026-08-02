@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Katyal et al. 2020 - Lead, arsenic, and cadmium in Canadian instant noodles
 
+## Overview
+
 Katyal et al. measured lead, arsenic, and cadmium in 30 instant-noodle packets purchased from large grocery stores in Canada. The study is useful for the rice-noodle and wheat-based pasta/noodle rows because it directly compares rice-based and wheat-based instant noodles on a dry-product basis. The authors found that rice noodles had significantly higher lead and arsenic than wheat noodles, while cadmium did not differ significantly by grain base.
 
 ## Key numbers

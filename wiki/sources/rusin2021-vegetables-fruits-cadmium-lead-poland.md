@@ -31,6 +31,8 @@ updated: 2026-05-19
 
 # Rusin et al. 2021 — Cd and Pb across fresh, frozen, dried, and processed Polish fruits and vegetables
 
+## Overview
+
 Rusin and colleagues measured cadmium and lead in 370 retail samples of six fruit species (apple, cranberry, grape, pear, raspberry, strawberry) and four vegetable species (beetroot, celery, carrot, tomato) sourced from the Polish market, partitioned across four processing states (fresh, frozen, dried, processed). Concentrations were determined by graphite-furnace atomic absorption spectrometry against the TYG006RM vegetable-puree certified reference material under ISO/IEC 17025 conditions. Mean concentrations of both metals were highest in dried products on a dry-weight basis, and twelve samples (2 fruit, 10 vegetable) exceeded the EU Cd maximum permissible level while three vegetable samples exceeded the EU Pb maximum, with a single frozen tomato reaching 1074% of the 0.050 mg/kg Pb limit.
 
 ## Key numbers

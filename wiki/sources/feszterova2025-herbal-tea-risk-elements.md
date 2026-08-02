@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Feszterova et al. 2025 - Risk elements in herbal tea samples
 
+## Overview
+
 This study measured copper, lead, nickel, and arsenic in herbal tea materials sold in Slovakia. It is routeable as herbal-botanical evidence, with the caveat that the reported values are extraction-solution concentrations rather than dry-product mg/kg values.
 
 ## Key numbers

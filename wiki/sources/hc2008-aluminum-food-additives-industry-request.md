@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # Health Canada 2008 — Industry information request on aluminum-containing food additives
 
+## Overview
+
 In July 2008, Health Canada's Bureau of Chemical Safety distributed a letter to industry stakeholders requesting information on the use of aluminum-containing food additives in Canadian food products. The letter was triggered by the 2006 Joint FAO/WHO Expert Committee on Food Additives (JECFA) reduction of the Provisional Tolerable Weekly Intake (PTWI) for aluminum from 7 mg/kg body weight per week to 1 mg/kg body weight per week, which prompted Health Canada to review whether dietary aluminum exposure among Canadians is acceptable and whether the existing Maximum Levels of Use under Division 16 of the Canadian Food and Drug Regulations remain appropriate. The accompanying Table 1 enumerates every aluminum-containing food additive permitted in Canada at the time of the request, with functional class and food-by-food maximum levels of use. The page is archived (Date modified 2017-05-04) and is preserved here as a record of the Canadian regulatory baseline for aluminum food additives as of 2008.
 
 ## Key numbers

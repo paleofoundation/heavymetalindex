@@ -29,6 +29,8 @@ updated: 2026-05-07
 # FDA 2011 - Apple Juice Arsenic Speciation
 
 
+## Overview
+
 FDA's 2011 ORA apple-juice sampling assignment reports 94 single-strength apple-juice samples with total arsenic, inorganic arsenic, DMA, and MMA results in ppb. The Index routes the inorganic-arsenic rows to [[products/fruit-juices-apple-containing]] as direct species-specific apple-juice evidence and to [[products/fruit-juice-not-canned]] as apple-only subcategory context.
 
 ## Structured Extract

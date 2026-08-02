@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Islam et al. (2007) review phytotoxic effects and bioaccumulation of Cd, Zn, Cu, Pb, and Al in four Asian leafy vegetables — Chinese cabbage (Brassica chinensis cv. Zao-Shu 5), winter greens (B. rosularis), pakchoi (B. chinensis), and celery (Apium graveolens var. dulce DC) — and compile soil heavy metal threshold values for "potential dietary toxicity" (PDT) derived from pot and nutrient-solution work at Zhejiang University. The principal numerical contributions are (i) soil extractable Cd thresholds of 0.869, 0.730, and 0.489 mg/kg for Chinese cabbage, winter greens, and celery, respectively, calculated against the Chinese food-hygiene limit of 0.05 mg/kg FW Cd in vegetables (GB N238-84); (ii) soil Zn and Cu PDT thresholds (total and DTPA-available) for the same four crops, against Chinese food limits of 20 mg/kg Zn and 10 mg/kg Cu; and (iii) accumulation-coefficient (AF = tissue/soil) tables showing celery as the most sensitive Cd accumulator in edible parts. The paper also reviews Al phytotoxicity (Al-based coagulants on Brassica seed germination) and surveys dietary intake estimates from European urban-garden studies (Lăcătuşu et al. 1996, Bahemuka & Mubofu 1999). Lead is discussed qualitatively only: the paper cites a 0.2 mg/kg edible-crop limit (Chinese Department of Preventive Medicine 1994) and notes that soil Pb thresholds for safe vegetable production "are not available". Cr and Hg are mentioned in the abstract as important environmental pollutants but no quantitative data are presented for either.
 
 ## Key numbers

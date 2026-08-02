@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Feng et al. 2023 - Rice seedling cadmium and salt uptake under temperature and CO2 shifts
 
+## Overview
+
 Feng and colleagues exposed rice seedlings to cadmium, sodium chloride, and combined cadmium-plus-sodium stress under two temperatures and three CO2 levels. The study is supply-chain and plant-uptake mechanism evidence for rice cultivation stressors, not market occurrence evidence for rice grain, salt, or finished foods.
 
 ## Key numbers

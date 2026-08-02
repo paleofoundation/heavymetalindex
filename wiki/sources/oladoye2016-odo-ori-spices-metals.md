@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Oladoye and Jegede 2016 — Heavy metals in spices from Odo-Ori Market
 
+## Overview
+
 Oladoye and Jegede measured Fe, Cu, Cd, and Pb in eight common spice samples purchased from Odo-Ori Market in Iwo, Osun State, Nigeria. The study separated four natural spices from four processed spices and reported concentrations in mg/kg. Cadmium was the main occurrence concern in the paper because five of the eight samples (62.5%) were reported above the WHO maximum permissible level of 0.3 mg/kg.
 
 ## Key numbers

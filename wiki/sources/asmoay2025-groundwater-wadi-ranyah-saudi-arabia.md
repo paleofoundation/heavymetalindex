@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Asmoay et al. 2025 — Groundwater geochemistry and health risk, Wadi Ranyah, Saudi Arabia
 
+## Overview
+
 Seventy-seven groundwater samples from Wadi Ranyah, the primary water source for communities in the Al-Baha region of Saudi Arabia, were analyzed for physicochemical properties, major ions, and heavy metal concentrations. While most parameters met WHO standards, arsenic, lead, cadmium, chromium, and nickel concentrations exceeded permissible limits in a subset of samples. Health risk assessment using US EPA models found significant noncarcinogenic and carcinogenic risks, particularly for children, with oral ingestion accounting for the majority of exposure and arsenic and lead being the most hazardous metals. The authors conclude groundwater in Wadi Ranyah is unsuitable for drinking without treatment, recommending reverse osmosis and ion exchange filtration.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Silva et al. 2023 — Inorganic arsenic (and mycotoxins) in 36 Portuguese rice samples
 
+## Overview
+
 Silva et al. measured inorganic arsenic (iAs) — reported in the paper as InAs — along with mycotoxins (AFB1, OTA, ZEN) in 36 rice samples produced and commercialized in Portugal. iAs was measured by ICP-MS with LOD 3.3 µg/kg. All 36 samples had iAs above the LOD; none exceeded the EU MPL of 200 µg/kg (at the time of the study, citing EU Reg. 2015/1006 amending 1881/2006). No correlation was found between mycotoxin and iAs contamination. This paper is classified here as a food concentration source for the iAs-in-rice data.
 
 The analytical method is reported as "ICP-MS" with a LOD of 3.3 µg/kg. The authors refer to their target analyte throughout as "inorganic arsenic" (InAs/iAs). However, without HPLC coupling, standard ICP-MS typically measures total arsenic. The abstract and text consistently use "inorganic arsenic" for the target analyte and describe the EU MPL (200 µg/kg) as an iAs limit. The LOD of 3.3 µg/kg is plausible for an ICP-MS-based speciation method. Given the authors' explicit framing of their results as iAs, the values are recorded as iAs per the source's own reporting, with the caveat that the speciation methodology is not fully described (no HPLC column or chromatographic conditions stated), and independent confirmation of the iAs/tAs split is not available from this paper.

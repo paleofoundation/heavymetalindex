@@ -26,6 +26,8 @@ sampling_year_range: 2015
 
 # Ronan 2017 — Inorganic vs total arsenic across thallus parts of kelp (L. digitata) and wrack (A. nodosum)
 
+## Overview
+
 Ronan and colleagues measured total arsenic and inorganic arsenic (as As(V)) by ICP-MS and HPLC-ICP-MS across the different thallus parts of two wild Irish brown seaweeds: the kelp *Laminaria digitata* and the intertidal wrack *Ascophyllum nodosum*. Total arsenic was similar between species (36–131 mg/kg dry weight in *L. digitata*, 38–111 in *A. nodosum*), but the inorganic fraction diverged sharply: inorganic arsenic was always below 1% of total in *A. nodosum* (≤0.703 mg/kg DW) yet reached 2.2–87 mg/kg DW in *L. digitata*, rising along the thallus from the stipe to the decaying distal blades and exceeding 50% of total arsenic in the middle, distal, and decaying-distal blades. This establishes that high inorganic arsenic in edible seaweed is not confined to hijiki: kelp harvested from a clean site carried inorganic arsenic an order of magnitude above the French (3 mg/kg) and Australia–New Zealand (1 mg/kg) seaweed limits.
 
 ## Key numbers

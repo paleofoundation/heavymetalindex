@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Tan et al. 2022 - Organic fertilizer effects on Cd and arsenic mobility in rice soil
 
+## Overview
+
 Tan and colleagues compared human-manure, mushroom-residue, and soybean-meal organic fertilizers as amendments for low-level Cd/As-contaminated paddy soil planted with rice. The source is mitigation evidence: it reports how amendment choice changed soil leachability and rice root/shoot uptake, but it does not report consumer rice grain concentrations and should not be pooled as rice occurrence data.
 
 ## Key numbers

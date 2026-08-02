@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # BfR 2009 — Lead and cadmium do not belong in toys (BfR Opinion No. 048/2009)
 
+## Overview
+
 This Bundesinstitut für Risikobewertung (BfR, German Federal Institute for Risk Assessment) formal Opinion, issued as BfR Opinion No. 048/2009 on 1 June 2009, is the agency's health risk assessment of children's exposure to lead and cadmium in toys in the context of the then-new European Toy Safety Directive (TSD) 2009/48/EC. The Opinion synthesises ATSDR, EFSA, IARC, JECFA, WHO, DFG, and German HBM Commission evaluations and concludes that (i) because no scientific safe-effect threshold can be established for lead's neurotoxic and endocrine effects in children, the ALARA principle (as low as reasonably achievable) should govern lead in toys and other consumer products and the prior, tighter migration limit values of Directive 88/378/EEC should not be loosened; (ii) the cadmium migration limits in TSD 2009/48/EC, derived from the older JECFA 2003 PTWI of 7 µg Cd/kg bw/week, must be lowered to align with EFSA 2009's revised TWI of 2.5 µg Cd/kg bw/week; and (iii) because children's dietary cadmium intake already exceeds the new EFSA TWI by 100% on a regular basis, toys should contribute at most 5% of the EFSA TWI across all three TSD toy-material categories combined (dry/brittle, liquid/sticky, scraped-off). The Opinion does not report any primary contamination measurements; it is a regulatory-opinion derivation of recommended migration-limit positions from upstream toxicological reference values.
 
 ## Key numbers

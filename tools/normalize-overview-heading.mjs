@@ -37,7 +37,7 @@ const walk = (dir) => {
       if (SKIP_DIRS.has(name)) continue
       walk(p)
     } else if (name.endsWith(".md")) {
-      if (scopeArg === "metals" && !p.includes(`${join(WIKI, "metals")}`)) continue
+      if (scopeArg !== "all" && !p.startsWith(`${join(WIKI, scopeArg)}/`)) continue
       files.push(p)
     }
   }

@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Hussein et al. 2023 — Toxic residues in Egyptian freshwater and marine fish
 
+## Overview
+
 Hussein et al. measured Pb, Cd, total Hg, total As, and Al in 120 fish from six freshwater and marine species collected at the El-Obour city fish market in Egypt. The study reports species-level mean concentrations in edible fish flesh, exceedance counts against European Commission maximum permissible limits for Pb, Cd, and Hg, and dietary exposure calculations for Egyptian adults. Arsenic was measured as total arsenic only; the risk assessment modeled inorganic arsenic as 10% of total. Mercury was likewise measured as total mercury without methylmercury speciation.
 
 ## Key numbers

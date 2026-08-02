@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Berber et al. 2024 — Metals and fatty acids in narrow-clawed crayfish, Turkey
 
+## Overview
+
 This study reports a 12-month monitoring investigation of metal concentrations (Fe, Zn, Al, Cu, Mn, Se, As, Hg, Cd, Pb) and fatty acid profiles in the narrow-clawed crayfish Pontastacus leptodactylus harvested from Atikhisar Dam Lake, Çanakkale Province, Turkey. Crayfish are a commercially harvested freshwater crustacean in Turkey and a food product of regional significance. The study examines seasonal variation and sex-based differences in metal accumulation, and concludes with a health risk assessment (EDI, THQ, cancer risk) for consumers.
 
 ## Key numbers

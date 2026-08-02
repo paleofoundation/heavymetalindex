@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Barquero et al. 2024 — Mercury and methylmercury in largemouth bass from Almadén, Spain
 
+## Overview
+
 This study reports the highest total and methylmercury concentrations ever documented in *Micropterus salmoides* from a heavily mercury-contaminated watershed downstream of the world's most historically productive mercury mine. THg in muscle ranged from 0.47 to 7.61 mg kg⁻¹ (wet weight), with methylmercury representing 79.7–92.1% of THg across the seven sampling sites. These values substantially exceed EU maximum limits for fish (0.5 mg kg⁻¹ for most species; 1.0 mg kg⁻¹ for certain predatory species) at all but the most downstream sites. The Se/Hg molar ratio and HBV_Se index indicated low risk for most fish except small/young specimens from the most contaminated site. Other potentially toxic elements (As, Pb, Sb, Zn, Cu) showed no concerning values despite the area being heavily populated with decommissioned polymetallic mines.
 
 ## Key numbers

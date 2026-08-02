@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Onyena et al. 2024 — Metal(loid)s in breast milk across Sub-Saharan Africa and Mediterranean Europe
 
+## Overview
+
 This systematic review and meta-analysis pooled data on metal(loid) concentrations from 42 studies across Sub-Saharan Africa and Mediterranean Europe to quantify regional differences in lactational infant exposure. Weighted mean concentrations revealed substantial disparities: Sub-Saharan Africa showed significantly higher cadmium, lead, and mercury in breast milk, while Mediterranean Europe had elevated selenium and iron. Key determinants included maternal smoking, dietary patterns, occupational exposure, and water source.
 
 ## Key numbers

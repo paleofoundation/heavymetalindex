@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Zhao et al. 2023 — Exogenous silicon reduces cadmium in rice
 
+## Overview
+
 This study evaluated the effect of foliar silicon (Si) application on cadmium accumulation in brown rice under pot-experiment conditions with Cd-contaminated soil. Silicon spraying reduced brown rice Cd concentrations by 13.5 to 65.7 percent depending on rice variety, with the reduction associated with enhanced phenylpropanoid pathway metabolism that promotes cell wall lignification and restricts Cd translocation from roots to grain. The authors identified Si-induced upregulation of PAL, C4H, and 4CL genes as mechanistic drivers of reduced Cd transfer to edible grain tissues.
 
 ## Key numbers

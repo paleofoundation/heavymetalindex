@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Swiercz et al. 2022 - Silver fir needles as trace-element bioindicators
 
+## Overview
+
 Swiercz and colleagues repeated a 1986 silver-fir biomonitoring design in Swietokrzyski National Park in 2018 to compare trace elements and nutrient supply in fir needles after a multi-decade decline in regional industrial emissions. This is primary environmental biomonitoring evidence, not product or ingredient occurrence evidence. The routeable facts are the fir-needle and forest-soil concentrations for Cd, Cu, Ni, Pb, Zn, Mn, and related elements, plus the air/rainwater deposition context used to interpret the 1986-to-2018 change.
 
 ## Key numbers

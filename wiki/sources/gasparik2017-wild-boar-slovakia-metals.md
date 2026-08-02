@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Gašparík et al. 2017 — Metals in wild boar kidney, liver, and muscle, western Slovakia
 
+## Overview
+
 This study measured Cd, Co, Cu, Hg, Pb, and Zn in the kidney, liver, and muscle (m. semimembranosus) of 40 wild boars hunter-collected in 2009–2010 in the Nitra and Topolcianky region of western Slovakia. Sex was not a significant factor; tissue type was significant for Cd, Cu, Pb, Hg, and Zn (all p < 0.001) but not for Co. Median Cd, Cu, and Hg were highest in kidney and lowest in muscle; Zn was highest in liver; Pb was highest in muscle (interpreted by the authors as a partial signature of ammunition contamination). Compared against the EU Regulation 1881/2006 maximum levels for pig meat and edible offal — the only EU thresholds available for comparison, since no game-specific thresholds exist — none of the 40 animals was fully fit for human consumption: muscle Cd exceedance affected >75% of specimens, kidney Cd exceedance 98%, muscle Pb exceedance 90%. EFSA margin-of-exposure (MOE) and JECFA provisional tolerable weekly intake (PTWI) calculations are reported for Cd and Pb at multiple consumption intensities.
 
 ## Key numbers

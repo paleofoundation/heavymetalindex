@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Samsidar et al. 2023 - Ultisol soil metals across palm, rubber, forest, and vegetable land uses
 
+## Overview
+
 Samsidar and colleagues used X-ray fluorescence and laboratory soil tests to measure metal and nutrient elements in Ultisol soils from palm, rubber, forest, and vegetable land-use areas in Muara Jambi Regency, Indonesia. This is in-scope a3 soil-pathway and source-attribution context for plantation and vegetable production landscapes, not palm-oil product occurrence.
 
 ## Key numbers

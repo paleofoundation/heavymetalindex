@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # NCI 2024 — Nickel Compounds (Cancer-Causing Substances factsheet)
 
+## Overview
+
 The National Cancer Institute's consumer-facing factsheet in its Cancer-Causing Substances series summarises the carcinogenicity of nickel compounds for a general-public audience. It states that exposure to various nickel compounds increases the risks of lung cancer and nasal cancer, that occupational inhalation in mining, smelting, welding, casting, and grinding is the dominant exposure route, and that general-population exposures via air, water, food, tobacco smoke, and nickel-plated materials (coins, jewellery, stainless steel cooking and eating utensils) are "almost always too low to be of concern." The page is a tertiary synthesis: its four cited references are the EPA Health Effects Notebook for Hazardous Air Pollutants (2000), the IARC Monograph Volume 100C (2012), the NIOSH Pocket Guide to Chemical Hazards (2010), and the NTP 15th Report on Carcinogens (2021).
 
 ## Summary

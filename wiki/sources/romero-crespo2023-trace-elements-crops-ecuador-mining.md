@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Romero-Crespo et al. 2023 — Trace elements in crops and soils near Ecuador gold mining
 
+## Overview
+
 Crops grown in agricultural orchards adjacent to the Ponce Enriquez gold mining field in southern Ecuador contained arsenic and cadmium concentrations that exceeded FAO/WHO maximum permissible levels in the majority of samples. Arsenic exceeded the FAO/WHO limit of 0.10 mg/kg fresh weight in 67% of crop samples; cadmium exceeded 0.05 mg/kg in 78% of samples. Lead was below the analytical detection limit (0.10 mg/kg) in all food samples despite elevated concentrations in some soils. Probabilistic health risk assessment using Monte Carlo simulation indicated that both children and adults face carcinogenic and non-carcinogenic risks through consumption of locally grown food that exceed acceptable thresholds, primarily driven by arsenic and chromium.
 
 ## Key numbers

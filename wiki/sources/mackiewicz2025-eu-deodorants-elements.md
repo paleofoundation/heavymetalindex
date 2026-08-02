@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Maćkiewicz et al. 2025 — Elemental analysis of EU-market deodorants and antiperspirants
 
+## Overview
+
 Maćkiewicz et al. measured elemental composition in 72 deodorants and antiperspirants available on the Polish/EU market using ICP-OES, with selected SEM-EDS confirmation. The sample set covered roll-on, stick, and solid mineral alum products, including aluminium-based, aluminium-zirconium-based, natural compound-based, and alcohol-based formulations. The paper uses percent, `mg/L`, and a table labelled `[mg/kg]` in different places; this page preserves the source's own unit labels and flags the inconsistency rather than converting values.
 
 ## Key numbers

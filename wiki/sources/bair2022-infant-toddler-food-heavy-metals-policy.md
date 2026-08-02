@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Bair 2022 — Heavy metals in infant and toddler foods, and US policy evaluation
 
+## Overview
+
 Bair's review synthesizes US-policy and US-evidence on toxic heavy metal contamination of infant and toddler foods, anchored in the 2021 US House Subcommittee on Economic and Consumer Policy investigation of seven baby food manufacturers. The paper covers four metals (iAs, Pb, tHg, Cd), the FDA Closer-to-Zero (CTZ) action-plan timeline, the Baby Food Safety Act (H.R. 2229) proposed action levels, the Clean Label Project private-standard tolerance limits, and existing federal/international thresholds (FDA, EPA, EC, WHO, Codex). The paper also describes the limited evidence base behind organic certification as a contamination-reduction strategy. The author is the sole contributor and is disclosed as an independent consultant for Else Nutrition, an infant-formula manufacturer; this is documented in the published Conflict of Interest section and is relevant context for citing the review in policy-adjacent work.
 
 ## Key numbers

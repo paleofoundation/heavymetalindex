@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Weyde et al. 2023 — Gestational metals and cerebral palsy risk
 
+## Overview
+
 This case-control study nested within Norway's large MoBa cohort investigates whether gestational blood concentrations of total mercury (tHg), lead (Pb), and total arsenic (tAs) are associated with cerebral palsy (CP) risk in offspring. Blood samples were collected from 144 mothers of children later diagnosed with CP and 1,082 matched controls at gestational weeks 17 to 19. The study found no statistically significant associations between any of the three measured metals and CP risk at the concentration levels observed in this Norwegian population.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bae et al. 2000 — Synthetic phytochelatins displayed on E. coli enhance Cd²⁺ bioaccumulation
 
+## Overview
+
 Bae, Chen, Mulchandani, and Mehra (Department of Chemical and Environmental Engineering and Environmental Toxicology Program, University of California, Riverside) report the construction and characterisation of recombinant *Escherichia coli* JM105 strains that display synthetic phytochelatin analogs of defined chain length (EC8, EC11, EC20 with 8, 11, and 20 cysteines respectively) on the cell surface via a Lpp-OmpA fusion anchor, and demonstrate that whole cells displaying the longest analog (EC20) accumulate ≈15-fold more Cd²⁺ on a dry-weight basis than the wild-type control and ≈2-fold more than cells expressing EC20 periplasmically as an MBP fusion. Purified MBP-EC20 is shown to bind Cd²⁺ at a stoichiometry of ≈10 Cd²⁺ per peptide — about 40 % higher than the canonical 7 Cd²⁺ per peptide reported for mammalian metallothioneins. The paper reports no measurements in any food or environmental matrix; its value to the wiki is conceptual background for the [[metals/cadmium]] page and for the mitigation/remediation-evidence section on engineered-microbial biosorbents.
 
 ## Why this matters

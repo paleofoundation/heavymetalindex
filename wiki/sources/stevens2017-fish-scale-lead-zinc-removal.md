@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Stevens and Batlokwa 2017 - Fish-scale removal of Pb and Zn from wastewater
 
+## Overview
+
 Stevens and Batlokwa tested pulverized, vinegar-treated fish-scale waste as a biosorbent for Pb(II) and Zn(II) removal from wastewater. This is in-scope mitigation evidence for heavy-metal removal and fishery-waste valorization, not vinegar occurrence or fish-product occurrence.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Pain et al. 2023 — Lead in commercial pheasant-based dogfood, UK
 
+## Overview
+
 Lead concentrations in raw minced pheasant dogfood purchased from three UK online retailers in 2022 were dramatically elevated, with a weighted mean of 220.99 ppm dry weight (d.w.) across 81 samples known or assumed to be shot-free — 34 times higher than the mean in pheasant meat sold for human consumption (6.46 ppm d.w.) over the same shooting seasons. A total of 77% of raw pheasant dogfood samples exceeded the EU maximum residue level (MRL) for lead in animal feed (11.36 ppm d.w. for complementary/animal feed; 5.68 ppm d.w. for complete feed). Processed tinned pheasant dogfood (0.65 ppm d.w.) and chicken-based products (0.09–0.46 ppm d.w.) did not exceed the MRL, consistent with processing removing or distributing lead fragments from ammunition.
 
 ## Key numbers

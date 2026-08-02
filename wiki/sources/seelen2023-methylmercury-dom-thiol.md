@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Seelen et al. 2023 — DOM thiol concentrations determine methylmercury bioavailability across aquatic continuum
 
+## Overview
+
 This study measured dissolved organic matter (DOM) thiol concentrations alongside methylmercury (MeHg) and total mercury (tHg) in 20 aquatic sites spanning a terrestrial-to-marine continuum in the northeastern United States, and demonstrated that DOM thiol concentrations are the primary determinant of MeHg bioavailability to biota. Sites ranged from freshwater streams to coastal marine waters. The authors showed that thiols in DOM compete with biotic uptake sites for MeHg binding, and that sites with high thiol:MeHg ratios show markedly lower bioaccumulation of MeHg into food webs. This mechanism helps explain why MeHg bioaccumulation varies substantially across aquatic ecosystems even when total Hg concentrations are similar.
 
 ## Key numbers

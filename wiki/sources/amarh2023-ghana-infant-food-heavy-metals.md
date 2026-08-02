@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Amarh et al. 2023 — Ghana Infant Food Heavy Metals
 
+## Overview
+
 Amarh and colleagues measured eight metals in 22 locally and internationally produced infant formula and baby-food samples purchased from markets and baby-care centers in Wa, Ghana. The study used ICP-MS after acid digestion and reported sample-level concentrations in mg/kg, plus EDI, THQ, HI, and cancer-risk calculations for infants aged 6-12 months. The occurrence finding is broad infant-food/formula evidence: the paper does not provide enough product-code decoding in the extracted text to assign each sample to a specific formula, cereal, puree, snack, or mixed-meal row. The paper reports total metals only; it does not distinguish inorganic arsenic, methylmercury, or Cr-VI.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ahuja et al. 2019 - Magnetite and chitosan-coated magnetite for arsenic groundwater remediation
 
+## Overview
+
 Ahuja and colleagues tested iron-oxide nanoparticles and chitosan-coated iron-oxide nanoparticles for removal of arsenite and arsenate from aqueous solutions intended to model arsenic-contaminated groundwater treatment. This is remediation evidence: it reports adsorbent-dose, pH, and isotherm findings for As(III) and As(V), but it does not measure arsenic occurrence in a consumer product, food ingredient, or market water sample.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-19
 
 # Pankiewicz 2012 — Total mercury in dairy products from south-east Poland
 
+## Overview
+
 This study measured total mercury in 48 dairy products from six regional milk cooperatives across south and south-east Poland (Lublin, Podkarpackie, Silesia, and adjacent regions) using non-flame atomic absorption (AMA-254 direct mercury analyzer). Mercury levels ranged from 0.01 µg/kg on a wet-product basis (reached by natural kefir from two cooperatives, cream, buttermilk, and strawberry flavoured yogurt) up to 0.79 µg/kg (butter extra), all well below the Polish national maximum permissible level of 10 µg/kg for milk. Butter and whole milk powder consistently showed the highest concentrations across producers; kefir consistently showed the lowest. Speciation was not measured (total Hg only).
 
 ## Key numbers

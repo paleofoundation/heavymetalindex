@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Gredilla et al. 2022 - hazardous elements in powdered milks
 
+## Overview
+
 This study measured 27 elements in 12 powdered milk formulas from Brazil and Colombia, including initiation, follow-up, follow-on, and adult powdered milks. It is direct occurrence and risk-assessment context for infant/child powdered milks, although the paper reports some statistics across the whole 12-sample milk set rather than only infant formulas.
 
 ## Key numbers

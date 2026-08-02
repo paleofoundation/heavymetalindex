@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Khalil et al. 2017 — Heavy metals in branded and local snacks in Peshawar, Pakistan
 
+## Overview
+
 This cross-sectional study from Khyber Medical College, Peshawar, measured Pb, Cd, Cr (total), and Cu concentrations in 96 potato- and corn-based snacks sampled from district Peshawar markets, comparing branded products (9 potato brands and 3 corn brands, n=29) against locally produced non-branded snacks (n=67) across four administrative towns. The principal findings were that total chromium exceeded the authors' cited FAO/WHO "allowed limit" in every sample (branded and local alike) and that lead exceeded permissible limits in the majority of branded snacks and in several non-branded sampling locations; cadmium and copper were within reference ranges across most samples. The study is a snapshot of Peshawar market conditions over a five-month sampling window and is most useful as a regional contextual baseline rather than as a methodologically rigorous occurrence dataset.
 
 **Important note on chromium speciation:** the analyte reported is total chromium by atomic absorption spectrometry; the paper does not distinguish Cr-VI from total Cr. Regulatory limits and toxicological reference values differ substantially between these two species, so the values on this page are routed to [[metals/chromium]] and must not be conflated with Cr-VI occurrence data.

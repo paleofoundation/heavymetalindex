@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Lopez et al. 2022 - biochar mitigation of cadmium uptake in cacao
 
+## Overview
+
 Lopez and colleagues tested whether biochars made from coffee husk, quinoa straw, and oil palm residues could reduce bioavailable Cd in cacao-growing soils and Cd uptake into cacao plants. This is crop-mitigation evidence for cacao supply chains, not finished chocolate or cocoa-powder occurrence evidence.
 
 ## Key numbers

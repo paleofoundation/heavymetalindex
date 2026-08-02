@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Bousquet et al. 2024 — Lead in drinking water at a university campus
 
+## Overview
+
 This primary study describes a seven-month systematic lead testing campaign at the University of North Carolina at Chapel Hill (UNC-CH) following the discovery of elevated lead in campus drinking water in 2022. The campaign tested 5,954 fixtures across 265 buildings, finding that 8.43% of tests and 11.03% of fixtures had detectable lead above the 1 ppb limit of detection. Fewer than 1.5% of tests exceeded the EPA action level (AL) of 15 ppb. The maximum detected concentration was 1,100 ppb from a 2SS (second sequential sample) at a 1969-era drinking fountain. Buildings constructed before 1975 showed substantially higher lead prevalence. The study provides a remediation and communication framework for higher education institutions, which are not currently subject to federal lead-in-water regulations.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pradhan 2023 - elements in Heracleum nepalense fruit
 
+## Overview
+
 Pradhan analyzed mature fruit of Heracleum nepalense, a Sikkim Himalayan plant used locally as a flavoring agent, spice, and ethnomedicine. The paper provides a single replicated elemental profile rather than a market survey, but it includes directly extractable concentrations for lead, cadmium, arsenic, mercury, chromium, nickel, tin, antimony, uranium, aluminum, and other elements.
 
 ## Key numbers

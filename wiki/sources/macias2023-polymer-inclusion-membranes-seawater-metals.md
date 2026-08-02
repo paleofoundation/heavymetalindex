@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Macias and Rodriguez de San Miguel 2023 - PIM separation of Pb(II), Cd(II), and Zn(II) from seawater
 
+## Overview
+
 Macias and Rodriguez de San Miguel optimized polymer inclusion membranes (PIMs) for selective transport of Cd(II), Pb(II), and Zn(II) in saline media and seawater matrices. This is primary remediation and separation-method evidence, not seawater occurrence evidence: synthetic and collected seawater matrices were spiked with defined metal-ion concentrations, and the measured endpoints are transport fractions, separation factors, membrane stability, and preconcentration behavior.
 
 ## Key numbers

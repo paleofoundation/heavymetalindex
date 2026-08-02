@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Lysenko et al. 2021 - Organic Broiler Meat Heavy Metals
 
+## Overview
+
 Lysenko et al. studied Hubbard Redbro broilers under different housing and feed conditions and measured arsenic, cadmium, mercury, and lead in pectoral and leg muscles. The paper is direct poultry occurrence evidence, but because it is an intervention/feed comparison, it should route with feed-regime context.
 
 ## Key numbers

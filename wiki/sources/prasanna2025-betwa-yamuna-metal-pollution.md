@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Prasanna et al. 2025 — Metal pollution in the Betwa-Yamuna river system, India
 
+## Overview
+
 This study characterizes heavy metal contamination in the Betwa-Yamuna river system in central India, using monthly sampling over a full annual cycle (June 2023–May 2024) and probabilistic Monte Carlo health risk modeling. Metals measured include As, Pb, Cd, Cu, Fe, Mn, Mo, Ni, and Zn. Arsenic ranged 0.001–0.011 mg/L and lead 0.0004–0.012 mg/L in sampled waters. The Monte Carlo hazard index (HI) for children exceeded 1.0 in approximately 67% of simulation runs, indicating probable non-cancer risk exceedance for pediatric populations relying on this water source. The study illustrates how a combination of agricultural runoff and upstream industrial activity elevates multi-metal contamination in major Indian river systems.
 
 ## Key numbers

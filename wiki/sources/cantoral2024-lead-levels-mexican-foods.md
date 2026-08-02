@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Cantoral et al. 2024 — Lead levels in the most consumed Mexican foods
 
+## Overview
+
 This study reports the first systematic monitoring of lead (Pb) concentrations across 103 foods and beverages commonly consumed by the Mexican population, purchased from retail outlets in Mexico City. Samples were analyzed by graphite furnace atomic absorption spectrophotometry (GF-AAS) with a limit of quantification (LOQ) of 0.0025 mg/kg. Overall, 18% of samples had detectable Pb (above LOQ), with the highest single concentration found in infant rice cereal (1.005 mg/kg), followed by whole wheat bread (0.447 mg/kg), pre-cooked rice (0.276 mg/kg), black pepper (0.239 mg/kg), and turmeric (0.176 mg/kg). Four items exceeded FAO/WHO maximum limits (MLs) for Pb: infant rice cereal, whole wheat bread, pre-cooked rice, and soy infant formula. The baby foods group had the highest rate of ML exceedances (18%), followed by cereals (11%).
 
 ## Key numbers

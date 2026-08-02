@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Alam et al. 2023 — Heavy metals in dairy cattle fodder from urbanised lake shores, Bengaluru
 
+## Overview
+
 This study combined a structured interview survey of 151 dairy farmers in the Greater Bengaluru metropolitan area with chemical analysis of 92 lake-shore forage samples (alligator weed, Bermuda grass, para grass, water hyacinth, and mixed grasses) and 5 food-leftover samples fed to dairy cattle. The key finding is that 43% of the 97 analysed samples exceeded official threshold concentrations for at least one of four heavy metals (As, Cd, Cr, Pb), with Cr exceedance rates being particularly high: 92% of lake-fodder samples exceeded the WHO threshold of 1.30 mg/kg DM. The paper is primarily a veterinary and animal health study; direct relevance to the human food chain rests on the chain from contaminated fodder to cattle health to milk quality, which the authors explicitly identify as unknown and requiring follow-up. Evidence tier B is assigned because the journal is veterinary/animal science, not a food-safety analytical journal, and the human food-chain link is indirect and unquantified.
 
 ## Key numbers

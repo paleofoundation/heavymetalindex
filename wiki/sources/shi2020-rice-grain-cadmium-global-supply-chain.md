@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Shi et al. 2020 - Global Rice Grain Cadmium
 
+## Overview
+
 Shi et al. compiled and analyzed cadmium concentrations in 2,270 polished white rice samples from the global market supply chain. The source is direct rice-grain occurrence evidence and infant-rice-food context because the authors compare rice-grain cadmium distributions with the EU 40 ug/kg processed-infant-food standard for products that can be nearly all rice.
 
 ## Key numbers

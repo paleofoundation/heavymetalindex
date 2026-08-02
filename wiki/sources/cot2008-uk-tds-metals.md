@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # COT 2008 - 2006 UK Total Diet Study metals and other elements
 
+## Overview
+
 The UK Committee on Toxicity reviewed the 2006 Total Diet Study results for aluminum, antimony, arsenic, barium, bismuth, cadmium, chromium, copper, germanium, indium, lead, manganese, mercury, molybdenum, nickel, palladium, platinum, rhodium, ruthenium, selenium, strontium, thallium, tin, and zinc. The statement is an A-tier agency interpretation of prepared-as-consumed UK total-diet occurrence and exposure. Where the TDS did not provide speciation, this page keeps total elemental labels and does not substitute species.
 
 ## Key numbers

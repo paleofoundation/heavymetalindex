@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Manfredi et al. 2025 - Nickel in Italian poultry, beef, and pork
 
+## Overview
+
 This study measured nickel in 809 poultry, bovine, and pig muscle-meat samples collected under Italian official control from 2011 to 2023. It provides direct occurrence data for nickel in meat matrices and pairs those concentrations with an Italian dietary-exposure assessment.
 
 ## Key numbers

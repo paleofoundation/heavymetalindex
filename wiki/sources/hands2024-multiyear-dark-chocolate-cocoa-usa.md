@@ -30,6 +30,8 @@ updated: 2026-05-13
 
 # Hands et al. 2024 — Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA
 
+## Overview
+
 This study analyzed 72 consumer cocoa-containing products (primarily dark chocolate) purchased from US retail and online sources in four cohorts (2014, 2016, 2019, 2022) for lead (Pb), cadmium (Cd), and arsenic (As), using ICP-MS after acid or microwave digestion, assessed against California Proposition 65 maximum allowable dose levels (MADLs: Pb 0.5 mcg/day, Cd 4.1 mcg/day, As 10 mcg/day). Mean Pb concentration per serving (0.615 mcg/serving) and mean Cd per serving (4.358 mcg/serving) both exceeded Prop 65 MADLs across all products, while 97.2% (70 of 72) fell below FDA IRL limits for Pb. Organic-certified products were significantly more likely to have elevated Cd (0.4 mcg/g higher) and Pb (0.02 mcg/g higher) concentrations. Concentrations of all three metals declined significantly across cohort years (2022 lower than 2014).
 
 ## Key numbers

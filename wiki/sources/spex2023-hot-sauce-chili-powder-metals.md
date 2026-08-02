@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # SPEX CertiPrep 2023 — Heavy metals in hot sauce and chili powder (US)
 
+## Overview
+
 An industry application note from SPEX CertiPrep (ZeptoMetrix) analysed 7 chili powder blends and 6 red pepper hot sauces purchased from US retail outlets by ICP-MS after cryogenic grinding and microwave digestion. The most prevalent heavy metal in chili powders was chromium (3.1–7.0 µg/g), with the highest concentrations found in one low-price retail sample. Lead, cadmium, and arsenic were also detected. For hot sauces, lead and chromium were consistently present in all samples; the highest exposure concern was an individual-serving fast-food packet sample, where two packets (20 g) contributed approximately 20.6 µg Pb and 63 µg Cr, each approaching 30% of an adult allowable-daily-limit comparison used by the source.
 
 ## Key numbers

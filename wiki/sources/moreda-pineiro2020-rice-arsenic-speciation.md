@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Moreda-Pineiro et al. 2020 - Inorganic arsenic speciation in commercial rice
 
+## Overview
+
 This Talanta method paper developed an ionic-imprinted-polymer extraction workflow for inorganic arsenic species in rice and applied it to commercial rice samples. It is routeable for rice occurrence context because the paper reports inorganic arsenic ranges and total arsenic checks in real rice matrices.
 
 ## Key numbers

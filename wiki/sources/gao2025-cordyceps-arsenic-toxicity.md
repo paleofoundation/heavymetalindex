@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Gao et al. 2025 - Arsenic in wild Cordyceps sinensis
 
+## Overview
+
 Gao et al. compared wild Cordyceps sinensis powder with an equivalent total arsenic dose delivered as inorganic arsenic compounds in mice. The paper is useful for herbal/botanical supplement context because it reports the arsenic content and inorganic arsenic ratio of the Cordyceps material used for dosing. At the maximum clinical dose tested, Cordyceps did not produce the organ accumulation and hepatorenal toxicity seen with equivalent-dose inorganic arsenic.
 
 ## Key numbers

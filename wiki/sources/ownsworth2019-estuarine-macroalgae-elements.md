@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ownsworth 2019 - Estuarine macroalgae elements
 
+## Overview
+
 Ownsworth and colleagues measured trace elements and arsenic species in brown macroalgae from the Forth Estuary and Firth of Forth in Scotland, with Japanese *Laminaria japonica* samples used for comparison. The occurrence-relevant results are dry-weight seaweed values for total arsenic, inorganic arsenic, lead, cadmium, and other trace elements. The paper also tests hot-water, cold-water, and soup-style leaching of selected seaweed samples.
 
 ## Key numbers

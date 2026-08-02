@@ -35,6 +35,8 @@ updated: 2026-05-18
 
 # Toledo et al. 2024 - Essential and toxic elements in infant cereal, Brazil
 
+## Overview
+
 Toledo et al. (2024) used published concentration data from Pedron et al. to assess cancer and non-cancer risk from essential and toxic elements in Brazilian infant cereals. The occurrence dataset covers 18 infant-cereal samples bought in 2014-2015 across several Brazilian jurisdictions, with three source groupings: rice cereal, multi-grain cereal containing rice, and non-rice-based cereal. The paper's added contribution is the deterministic exposure and risk assessment for infants and toddlers aged 4 to <24 months.
 
 ## Key numbers

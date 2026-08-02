@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mohiuddin et al. 2015 - Bangladesh edible mushroom heavy metals
 
+## Overview
+
 Mohiuddin and colleagues analyzed edible mushroom varieties collected from different areas of Bangladesh for nutritional composition and heavy metals. The source is routeable for mushroom occurrence because it reports dry-weight concentration ranges and an average row for Fe, Cu, Zn, Mn, Cr, Pb, As, and Cd. Arsenic and cadmium were below the paper's detection limit, while Pb ranged up to 0.59 ug/g dry weight and Cr was reported around 0.20-0.30 ug/g dry weight.
 
 ## Key numbers

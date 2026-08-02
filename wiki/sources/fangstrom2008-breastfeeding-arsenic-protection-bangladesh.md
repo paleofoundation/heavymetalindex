@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Fångström et al. 2008 — Breastfeeding Protects Against Arsenic Exposure in Bangladesh
 
+## Overview
+
 This 2008 prospective cohort study from high-arsenic Bangladesh demonstrated that exclusive breastfeeding substantially reduces infant arsenic exposure compared to formula feeding or early complementary feeding, even when the mothers themselves have elevated arsenic exposure from drinking water.
 
 ## Key numbers

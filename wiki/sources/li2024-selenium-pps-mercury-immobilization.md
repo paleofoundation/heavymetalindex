@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Li et al. 2024 — Selenium-functionalized PPS fabric for Hg0 immobilization
 
+## Overview
+
 Li and colleagues developed selenium-functionalized polyphenylene sulfide (Se/PPS-I) fabric as a biomimetic sorbent for elemental mercury removal from industrial flue gas. This is mitigation evidence, not consumer-product occurrence evidence: the reported values are adsorption-capacity, uptake-rate, breakthrough, and recovery endpoints for a remediation material. The paper is useful for the mercury-remediation dimension and for courses on supplier controls, exhaust treatment, and mercury capture technologies.
 
 ## Key numbers

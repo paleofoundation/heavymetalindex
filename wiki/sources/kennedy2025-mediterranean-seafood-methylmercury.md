@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # Kennedy et al. 2025 - Mediterranean seafood methylmercury exposure
 
+## Overview
+
 Kennedy and colleagues modeled methylmercury exposure from Mediterranean seafood by combining a large seafood contamination literature dataset with seafood supply/provenance data from ARTIS and consumption estimates from the Global Dietary Database. The paper is a transdisciplinary exposure and cost-of-illness analysis, not a new laboratory survey.
 
 The contamination dataset uses total Hg and MeHg observations from the literature. For risk assessment, total Hg concentrations were converted to MeHg using EFSA conversion factors: `1.0` for fish and `0.8` for molluscs/crustaceans.

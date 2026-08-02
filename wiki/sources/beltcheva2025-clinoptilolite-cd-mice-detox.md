@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Beltcheva et al. 2025 - Modified clinoptilolite as oral Cd sorbent in ICR mice
 
+## Overview
+
 Beltcheva and colleagues ran a 45-day in vivo experiment testing whether Na-exchanged and tribo-activated natural clinoptilolite from the Beli Plast deposit in Bulgaria, administered as a 12.5 wt.% dietary supplement, mitigates cadmium toxicity in male ICR (CD-1) mice exposed to environmentally relevant Cd through drinking water. This is primary remediation-mechanism evidence in a mammalian model, not food or product occurrence data: the measured endpoints are Cd accumulation in liver, kidney, and feces (ICP-MS), hematological indices, oxidative stress markers (MDA and GSH in liver and kidney homogenates), body and organ mass, and genotoxicity (peripheral-blood micronucleus frequency).
 
 ## Key numbers

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # García-Salgado et al. 2012 - edible algae arsenic speciation
 
+## Overview
+
 García-Salgado et al. measured total arsenic and water-extractable arsenic species in 12 commercially available edible marine algae from France, Japan, and Spain. The study reports total arsenic by ICP-AES after microwave digestion and speciation by HPLC-(UV)-HG-AFS after microwave-assisted water extraction. Inorganic arsenic is reported as arsenate, As(V), with As(III) not detected in the alga extracts; total arsenic and As(V) are therefore kept separate throughout this page.
 
 ## Key numbers

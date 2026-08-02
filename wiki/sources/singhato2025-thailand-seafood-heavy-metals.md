@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Singhato et al. 2025 — Toxic heavy metals (As, Cd, Hg, Pb) in 20 seafood species from Thai markets and risk assessment
 
+## Overview
+
 Singhato and colleagues measured total arsenic, cadmium, total mercury, and lead in 20 commonly consumed seafood species purchased from three markets in Chonburi Province, Thailand (eastern coastal region), and conducted dietary risk assessment using Thai per-capita and eater-only consumption data stratified by age group (3-5.9, 6-12.9, 13-17.9, 18-34.9, 35-64.9, ≥65 years) and three cooking methods (boiling, frying, grilling). Wedge shell (Mercenaria mercenaria) and musk crab (Charybdis feriata Linnaeus) exhibited the highest concentrations of arsenic (21.4 and 16.2 mg/kg FW respectively) and wedge shell also the highest cadmium (7.3 mg/kg FW, exceeding the Thai 2.0 mg/kg bivalve cadmium limit). Risk characterization (margin-of-exposure for As and Pb, hazard quotient against PTMI/PTWI for Cd and Hg) identified arsenic as the principal exposure-driven concern, with the youngest age group (3-5.9 y) most vulnerable; cadmium and mercury risks were minimal apart from discrete hotspots; lead margins of exposure fell below 100 (potential concern) across most eater-only seafood-consumer scenarios.
 
 ## Key numbers

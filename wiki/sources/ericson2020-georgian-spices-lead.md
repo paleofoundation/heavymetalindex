@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ericson et al. 2020 — Lead in Georgian spices
 
+## Overview
+
 Ericson and colleagues investigated potential sources of elevated blood lead levels in Georgian children and found exceptionally high Pb concentrations in multiple spices. Although the auto-fetch row was labelled as cookware, the routeable consumer-product evidence is for spices; cookware, paint, soil, dust, toys, and water were comparison media and were generally within applied guidance values. The paper is strong direct evidence that adulterated or contaminated spices can be a high-lead exposure source in a specific market.
 
 ## Key numbers

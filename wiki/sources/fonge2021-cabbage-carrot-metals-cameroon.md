@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Fonge et al. 2021 - metals in cabbage and carrot from Santa, Cameroon
 
+## Overview
+
 Fonge and colleagues measured total arsenic, cadmium, cobalt, chromium, copper, iron, manganese, nickel, lead, and zinc in cabbage heads and carrot roots grown in Santa, North West Region, Cameroon. The study is occurrence evidence for edible vegetable crop concentrations and supply-chain context for soil-to-crop transfer in farms using irrigation water and agrochemical inputs. The arsenic result is total As; the paper does not report inorganic arsenic speciation, Cr-VI, or mercury.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Majumder et al. 2021 — Lead pollution in Bangladesh across air, water, soils, foods, and health pathways
 
+## Overview
+
 This review synthesizes Bangladeshi lead contamination evidence across ambient air, river water, sediments, soils, fish, vegetables, diet items, and blood lead exposure. It is primarily an a3 source-attribution and pathway paper with a4 public-health relevance layer. The paper is useful because it links contaminated foods to a broader national pollution system rather than treating food contamination as isolated from industrial and urban emissions.
 
 ## Key numbers

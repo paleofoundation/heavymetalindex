@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Al-Khayri et al. 2023 — Cadmium stress and tolerance in plants, including medicinal herbs
 
+## Overview
+
 This comprehensive review covers cadmium (Cd) toxicity mechanisms in plants, with direct relevance to food and medicinal herb safety through cited surveillance data. The authors report that 14–16 percent of Menthae piperitae (peppermint) and Anthodium chamomillae (chamomile) samples exceeded the WHO maximum permissible limit of 10 mg/kg (10,000 ppb) Cd in medicinal plant material, establishing real-world exceedance risk in herbal ingredients. The review also covers Cd tolerance mechanisms including phytochelatin synthesis, vacuolar sequestration, antioxidant responses, and the role of root exudates in Cd speciation and uptake.
 
 ## Key numbers

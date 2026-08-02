@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2026 - AMF and calcium mitigation of arsenic stress in cotton seedlings
 
+## Overview
+
 Zhang and colleagues tested whether arbuscular mycorrhizal fungi and exogenous calcium could reduce arsenate stress in cotton seedlings. This is mitigation and supply-chain agronomy evidence for cotton grown on arsenic-contaminated soil, not finished-product occurrence evidence for fabric or child-product rows. The paper supports the mitigation layer because the combined fungal and calcium treatment improved growth, root architecture, photosynthetic performance, osmotic regulation, antioxidant activity, and potassium/calcium balance under arsenate stress.
 
 ## Key numbers

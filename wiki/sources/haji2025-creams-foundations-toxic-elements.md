@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Haji et al. 2025 - Toxic elements in creams and foundations
 
+## Overview
+
 Haji, Kombo, and Mohamed measured toxic elements in seven creams and three foundation products using energy-dispersive X-ray fluorescence. The cream group contained detectable mercury, bismuth, lead, cadmium, and copper, while the foundation group contained niobium, tellurium, copper, tantalum, and total arsenic. The most certification-relevant findings are extremely high mercury in one whitening cream, lead above the cited 20 ppm cosmetic limit in one cream, and cadmium in the same cream matrix.
 
 ## Key numbers

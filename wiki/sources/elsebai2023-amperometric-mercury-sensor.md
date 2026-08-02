@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Elsebai et al. 2023 — Amperometric mercury sensor with organic chelator ionophore
 
+## Overview
+
 This paper from the University of Coimbra and National Research Centre (Egypt) describes a novel amperometric electrochemical sensor for mercury ion (Hg2+) detection. The sensor uses an organic chelator ionophore (N,N-di(2-hydroxy-5-[(4-nitrophenyl)diazenyl]benzaldehyde)benzene-1,2-diamine, NDBD) combined with multiwalled carbon nanotubes (MWCNT) immobilized on a glassy carbon electrode. The sensor achieves a linear response for Hg2+ in the range of 1 to 25 µM with a detection limit of 60 nM, and demonstrates excellent selectivity towards Hg2+ over other heavy metal ions. The method was validated in both water and milk sample matrices.
 
 Note: the triage manifest assigned this paper a year of 1972, which is incorrect; the paper was published in Molecules 2023 (DOI confirmed from text).

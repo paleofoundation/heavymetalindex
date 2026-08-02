@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Kazimov & Alieva 2014 — Heavy-metal dietary intake and absorbed-dose risk in Baku adults
 
+## Overview
+
 Kazimov and Alieva (2014) conducted a questionnaire-based dietary survey of 57 adults in Baku, Azerbaijan, chemically analyzing 18 food items from the daily diet for Pb, Cd, Cr, Ni, Cu, and Zn and measuring the same six metals in blood and hair from 17 of the subjects. The authors compute hazard quotients (measured concentration / domestic maximum permissible concentration, "ПДК") per food category, then derive daily intake and absorbed-dose risk ratios versus Russian/CIS reference values. The headline finding is that Cr and Ni intakes drive dose risk ratios of 1.31 (low risk) and 3.77 (elevated risk) respectively, while Pb, Cd, Cu, and Zn risk ratios sit at 0.15–0.58 (no risk per the authors' classification). Hazard quotients for individual food categories show Cr and Ni far exceeding domestic limits in nearly every food (Cr up to 42× in beef; Ni up to 19× in butter), while Pb and Cd remain at or below domestic limits in most categories — with the notable exception of butter, both cheeses, greens, and carrot (Pb/Cd hazard quotient ≥ 1 in at least one of the two metals).
 
 ## Key numbers

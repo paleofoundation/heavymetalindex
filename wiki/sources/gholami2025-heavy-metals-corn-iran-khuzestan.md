@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gholami et al. 2025 — Heavy metals in corn, Khuzestan Province, Iran
 
+## Overview
+
 This study assessed Pb, As, and Cr contamination in corn (Zea mays) and associated soils from two agricultural cities in Khuzestan Province, Iran — Dezful and Behbahan — with particular attention to human health risk. Fifty corn and fifty soil samples were collected across 10 farms during summer and autumn 2022. Mean Pb concentration in corn exceeded the safety limit used by the authors (likely Codex/FAO standard), with the total hazard quotient (THQ) indicating non-carcinogenic risk. Carcinogenic risk indices for As and Cr were elevated.
 
 ## Key numbers

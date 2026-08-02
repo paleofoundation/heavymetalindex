@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Hunt et al. 2009 - lead bullet fragments in venison
 
+## Overview
+
 Hunt and colleagues radiographed rifle-killed white-tailed deer carcasses and commercially processed venison packages to test whether standard lead-based bullets leave fragments in edible meat. The study reports direct occurrence evidence for projectile-derived lead fragments in ground venison, plus ICP confirmation of lead in excised radiodense fragments. A separate swine feeding experiment tested bioavailability; those blood-lead results are exposure context rather than product concentration measurements.
 
 ## Key numbers

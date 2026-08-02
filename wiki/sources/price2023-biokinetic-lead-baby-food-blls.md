@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Price et al. 2023 (Stantec ChemRisk) — Biokinetic models comparing baby food Pb to soil/dust/water BLL contributions
 
+## Overview
+
 This study compares three biokinetic Pb models (IEUBK, ICRP v5, AALM) to characterize how baby food Pb contributes to infant blood lead levels (BLLs) relative to soil, dust, water, and other dietary sources. The three models converge for children ≥3 years to the FDA dietary conversion factor of **0.16 µg Pb/dL blood per µg Pb intake/day**, with some variation for younger infants. Applying IEUBK in a probabilistic Monte Carlo framework with US-national distributions for all media: **soil and dust are the primary contributors to BLL variance; food and water contribute <15% combined**. The Stantec ChemRisk authors conclude that "reductions in upper-bound soil and dust concentrations will be necessary before achieving appreciable reductions in the frequency of BLLs greater than the BLRV of 3.5 µg/dL." This is a defensible biokinetic argument from an industry-aligned consultancy, important for HMTc Cat 1 messaging: even with FDA action levels at 10/20 ppb implemented across the food supply, the residual BLL reduction is modest because non-food Pb sources dominate exposure variance.
 
 ## Key numbers

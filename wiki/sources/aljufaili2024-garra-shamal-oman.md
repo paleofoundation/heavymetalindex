@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Al Jufaili et al. 2024 — Heavy metals in Garra shamal freshwater fish, Oman
 
+## Overview
+
 This study measured concentrations of arsenic, cadmium, chromium, cobalt, copper, lead, manganese, mercury, nickel, and zinc in muscle, liver, and gill tissues of Garra shamal (a freshwater fish endemic to Oman) collected from multiple freshwater sites. The authors applied atomic absorption spectrometry and calculated bioaccumulation factors and health risk indices for local consumers. The paper provides a baseline contamination dataset for an understudied Middle Eastern freshwater fish species and evaluates whether current contamination levels pose human health risks.
 
 ## Key numbers

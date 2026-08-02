@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Schoof 2007 - Seafood arsenic speciation
 
+## Overview
+
 Schoof and Yager reviewed total arsenic and speciated arsenic data for commonly consumed fish and seafood. The review summarizes total arsenic (`Astot`) and inorganic arsenic (`Asi`) on a wet-weight basis for freshwater finfish, anadromous fish, marine fish, crustaceans, and molluscs. The paper also separately summarizes DMA and MMA, so those organic arsenic species must not be collapsed into inorganic arsenic.
 
 ## Key numbers

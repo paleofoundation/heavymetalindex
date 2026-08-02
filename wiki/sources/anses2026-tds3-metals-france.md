@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # ANSES 2026 - French TDS3 aluminium, silver, cadmium, mercury and lead
 
+## Overview
+
 ANSES reported the first results from the Third French Total Diet Study for acrylamide and five trace elements: silver, cadmium, lead, aluminium, and mercury. Foods were sampled from French supply channels, prepared as consumed, and paired with INCA3 food-consumption data for dietary-exposure assessment. Mercury speciation is explicit: methylmercury and inorganic mercury were measured in a targeted set of foods, while total mercury was measured in all samples.
 
 ## Key numbers

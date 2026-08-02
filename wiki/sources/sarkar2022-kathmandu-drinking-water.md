@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Sarkar et al. 2022 — Drinking water quality in Kathmandu Valley, Nepal
 
+## Overview
+
 This observational study measures bacterial and multi-metal chemical contamination across 35 drinking water sources in Nepal's Kathmandu Valley, combined with a health and taste-preference survey of 146 households (603 individuals) using those sources. The study reports widespread bacterial contamination (94% of sources positive for total or fecal coliform) and exceedances of Nepal Drinking Water Quality Standards and WHO Drinking-Water Guidelines for aluminum, arsenic, iron, and manganese. Uranium is measured and reported but does not exceed WHO guideline values at these sites. The authors find that taste ratings by consumers are not correlated with iron or manganese concentrations, raising public-health concerns about WHO's reliance on aesthetic criteria rather than formal health-based limits for these metals.
 
 ## Key numbers

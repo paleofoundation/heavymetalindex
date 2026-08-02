@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Marcelis 2024 - feminine intimate products safety thesis
 
+## Overview
+
 Marcelis's PhD thesis develops a safety-assessment workflow for feminine intimate products, combining extractables/leachables testing, menstrual/vaginal fluid simulants, fragrance-allergen QRA, and in vitro mixture testing. Chapter 2 contains the same chemical-characterization program later published as Marcelis et al. 2025, so its metal leachables should be treated as overlapping provenance rather than an independent occurrence replicate. The thesis is C-tier thesis evidence; the later peer-reviewed Environment International article remains the preferred primary occurrence anchor for the Chapter 2 metal table.
 
 ## Key numbers

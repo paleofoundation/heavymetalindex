@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Liu et al. 2020 - Lactobacillus plantarum CCFM8610 and cadmium excretion
 
+## Overview
+
 Liu and colleagues tested whether Lactobacillus plantarum CCFM8610 could relieve cadmium-induced intestinal motility dysfunction and reduce cadmium burden in mice. This is probiotic mitigation evidence: it supports a plausible fecal-excretion mechanism for lowering cadmium absorption, but it does not measure metals in probiotic supplements or consumer foods.
 
 ## Key numbers

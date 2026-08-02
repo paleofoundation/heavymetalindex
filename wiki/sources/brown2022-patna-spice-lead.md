@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Brown et al. 2022 - household spice lead in Patna, Bihar
 
+## Overview
+
 Brown and colleagues compared blood lead levels and household exposure sources for 135 children younger than six years in Patna, Bihar. The paper is direct occurrence evidence for lead in household spices, especially loose turmeric, and it also documents lead-chromate-compatible Pb:Cr patterns in a high-lead spice subset.
 
 ## Key numbers

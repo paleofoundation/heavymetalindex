@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # As You Sow 2022 — Expert Investigation Related to Cocoa and Chocolate Products (Final Report)
 
+## Overview
+
 This is the Final Report of a four-member Expert Committee charged under a California Proposition 65 Consent Judgment with investigating the predominant sources of cadmium (Cd) and lead (Pb) in cocoa and chocolate products and recommending feasible measures to reduce Cd and Pb levels in those products. The Committee operated from March 2018 through April 2022. The Final Report (March 28, 2022) consolidates three earlier technical reports — the Root Cause Report (submitted March 27, 2020), the Reductions Recommendations Report (submitted April 12, 2021), and the Warning Triggers Report (submitted November 15, 2021) — and adds individually authored "affirmative conclusions" from each of the four Experts. The full document is 381 pages including the three technical attachments and the alphabetized cited-references list.
 
 ## Source role

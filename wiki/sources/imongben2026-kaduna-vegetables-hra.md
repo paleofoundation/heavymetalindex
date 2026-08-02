@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Imongben et al. 2026 — Heavy metals and health risk in Kaduna market vegetables, Nigeria
 
+## Overview
+
 Imongben and colleagues measured Cr, Mn, Fe, Co, Ni, Cu, Mo, and Zn in 12 commonly consumed vegetable types purchased from five markets in Kaduna Metropolis, Nigeria, using energy-dispersive X-ray fluorescence (ED-XRF) spectrometry. The authors computed Estimated Maximum Daily Intake (EMDI), Hazard Quotient (HQ), Hazard Index (HI), and Incremental Lifetime Cancer Risk (ILCR) for adults (60 kg body weight) and toddlers 1–2 y (10 kg body weight). HI exceeded 1 for every vegetable and both age groups; Cr, Cu, and Ni ILCR values were in the moderate-to-high risk range for most vegetables. The authors attribute the contamination to irrigation with River Kaduna water, which receives untreated effluent from the city's refinery, textile, food and beverage, ceramics, fertilizer, and paper industries.
 
 ## Key numbers

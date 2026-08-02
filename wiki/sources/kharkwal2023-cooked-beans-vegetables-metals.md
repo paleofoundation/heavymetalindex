@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kharkwal 2023 - Cooked beans and vegetables metals in Punjab
 
+## Overview
+
 Kharkwal and colleagues measured arsenic, cadmium, lead, and mercury in cooked beans and cooked vegetable preparations collected from household diets in Ludhiana and Bathinda districts of Punjab, India. The study reports `mg/kg` mean concentrations by district and urban/rural household stratum, alongside chronic daily intake and risk calculations for adults and elderly subjects. The arsenic and mercury measurements are total/unspecified species; the paper does not report inorganic arsenic or methylmercury speciation.
 
 ## Key numbers

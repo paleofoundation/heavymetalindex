@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Bae et al. 2023 — Heavy metals in commercial tuna (Korea)
 
+## Overview
+
 This study measures methylmercury (MeHg), total mercury (tHg), lead (Pb), cadmium (Cd), and arsenic (As) in 31 commercial tuna product samples purchased in the Korean market. The paper provides mean concentrations with standard deviations and compares findings against Korean and international maximum residue limits. It reports that 9.7% of tuna samples exceeded the Korean maximum residue limit for methylmercury.
 
 ## Key numbers

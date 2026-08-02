@@ -28,6 +28,8 @@ updated: 2026-05-28
 
 # Kangre 2024 — Lead and tin in canned tomato mix, Ghana (storage display conditions)
 
+## Overview
+
 An MPhil thesis from the University of Education, Winneba (Ghana) examined Pb and Sn in 32 cans of canned tomato mix (a single canned tomato paste brand) under two retail display conditions: sunlight-exposed outdoor stalls vs enclosed shops. Samples were collected from the Effutu Municipality and analysed by ICP-MS at the Ghana Standards Authority. Both metals were below Codex limits on a mean basis. Pb mean was numerically higher in sunlight-exposed product (0.052 ± 0.12 mg/kg, SE) than enclosed-shop product (0.038 ± 0.02 mg/kg, SE), and Sn mean was numerically lower in sunlight-exposed product (2.304 ± 0.83 mg/kg, SE) than enclosed-shop product (2.656 ± 0.79 mg/kg, SE). An independent-samples t-test found no statistically significant difference between display models for either metal (p > 0.05); the null hypothesis of equal means was retained. A dietary survey of 400 university students supplied consumption parameters, and Monte Carlo simulation (Palisade @Risk, 100,000 iterations) produced incremental lifetime cancer risk (ILCR) for Pb and margin-of-exposure (MoE) for chronic kidney disease, with the 95th-percentile ILCR for Pb exceeding the US EPA de minimis 1×10⁻⁶ in all four gender × display strata, and 5th-percentile Pb and Sn MoE values below 1 in every stratum.
 
 ## Key numbers

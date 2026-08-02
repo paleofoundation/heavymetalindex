@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Hassan et al. 2025 — Heavy metals in cornflakes from Lebanese retail markets
 
+## Overview
+
 This study measured arsenic, cadmium, chromium, mercury, and lead in 42 commercially sold cornflake products available on the Lebanese market by ICP-MS, comparing results against EU and Codex Alimentarius maximum limits and calculating estimated daily intakes (EDI) and hazard quotients (HQ) for risk assessment. All five metals were detected across samples, with chromium registering the highest mean concentrations, and the authors evaluated both carcinogenic and non-carcinogenic risks for adult and child consumers. The paper provides one of the first occurrence datasets for heavy metals in cornflakes from Lebanon, a country with limited regulatory monitoring infrastructure for cereal contaminants.
 
 ## Key numbers

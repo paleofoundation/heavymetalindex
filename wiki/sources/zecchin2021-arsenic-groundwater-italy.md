@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Zecchin et al. 2021 — Arsenic-contaminated groundwaters in Po Plain, Northern Italy
 
+## Overview
+
 Arsenic contamination of drinking water wells in Northern Italy's Po Plain frequently exceeds the WHO guideline and EU drinking water directive limit of 10 µg/L, posing a health risk to local populations who rely on groundwater for potable supply. This study characterizes the microbial communities in six arsenic-contaminated wells and investigates the phylogenetic and functional potential of arsenic-transforming bacteria, particularly arsenic oxidizers, to understand the geomicrobiological drivers of arsenic mobilization in Alpine Pleistocene sediments.
 
 ## Key numbers

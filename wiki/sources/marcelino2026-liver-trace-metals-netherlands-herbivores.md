@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Marcelino et al. 2026 — Liver trace minerals and heavy metals in free-living large herbivores, Netherlands
 
+## Overview
+
 A twenty-year post-mortem monitoring programme at the Oostvaardersplassen (OVP) nature reserve in the Netherlands measured 13 trace elements and heavy metals by ICP-MS in the livers of 346 Heck cattle, red deer, and Konik horses, establishing species-specific reference intervals and documenting temporal trends in hepatic concentrations of Pb, Cd, As, Cr, Ni, Co, Cu, Fe, Mn, Mo, Se, V, and Zn across 2003–2023.
 
 ## Key numbers

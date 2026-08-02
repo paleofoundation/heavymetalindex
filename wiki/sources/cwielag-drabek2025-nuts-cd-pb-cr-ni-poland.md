@@ -27,6 +27,8 @@ updated: 2026-05-14
 
 # Ćwieląg-Drabek et al. 2025 — Cd, Pb, Cr, Ni in five nut types: health risk for Polish consumers
 
+## Overview
+
 This study measured Cd, Pb, Cr, and Ni concentrations in 69 samples of five nut types (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market using electrothermal atomic absorption spectrometry (ETAAS). Samples originated from 13 countries. All Cd concentrations remained below the EU ML of 0.20 mg/kg for tree nuts and peanuts. One peanut sample (from Poland) exceeded the Chinese Pb limit for peanuts (0.2 mg/kg) at 0.818 mg/kg. Health risk assessment using hazard quotient (HQ) and hazard index (HI) found that consumers with higher nut intake scenarios (particularly children) may face moderate to high non-cancer health risks, primarily driven by Ni and cumulative multi-metal exposure.
 
 ## Key numbers

@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Dietz et al. (2025) present Hg stable isotope data for key aquatic predatory species sampled across Greenland between 1983 and 2024, including Arctic char (Salvelinus alpinus), shorthorn sculpin (Myoxocephalus scorpius), ringed seal (Pusa hispida), glaucous gull, and polar bear. The study found that total Hg concentrations in muscle tissue are lowest in sculpins, ringed seals, and polar bears (medians 0.09–0.36 µg/g wet weight) and highest in Arctic char and glaucous gull (medians 0.61–0.66 µg/g ww). Isotope analysis demonstrates that ocean currents carrying legacy Hg — not atmospheric deposition — are the dominant pathway driving Hg uptake in Arctic marine and coastal areas, explaining the paradox of decreasing atmospheric Hg emissions but increasing Hg loads in many Arctic species.
 
 ## Key numbers

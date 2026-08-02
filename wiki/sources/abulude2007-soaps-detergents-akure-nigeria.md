@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # Abulude et al. 2007 — Pb, Cd, Ni and Cr in 19 soaps and detergents from Akure (Ondo State), Nigeria
 
+## Overview
+
 A short three-page Academic Journals Inc. paper quantifying lead, cadmium, nickel and total chromium in nineteen soap and detergent products purchased from open-market vendors in Akure, Ondo State, southwestern Nigeria, in July 2006. The sample mix spans toilet (bath/hand) soaps, multi-purpose bar soaps, powdered laundry detergents, a liquid laundry detergent, and one locally produced hand-mould soap. Quantification used dry ashing at 500 °C followed by 2 M HCl dissolution and analysis on a SP 9 Pye Unicam atomic absorption spectrophotometer at triplicate determinations per sample. The paper reports only pooled-distribution statistics (minimum, maximum, mean, standard error of the mean across all nineteen samples) for each metal; per-sample concentrations are not tabulated. Cadmium was below the detection limit in every sample (no LOD value is reported). Pooled means across the nineteen-sample distribution were Pb 3.78 mg/kg, Ni 2.20 mg/kg, and total Cr 1.33 mg/kg on a dry-product, as-purchased basis. The authors do not propose threshold comparisons against any cosmetic, household-cleaning or food regulatory ceiling; the framing throughout is descriptive ("the values obtained for the trace heavy metals determined were low, there is a cause for vigilance") and the discussion section places the Akure results in context against other authors' values for unrelated matrices (tea leaves, deer tissue, street dust, shrimp, coots) rather than against soap- or detergent-specific reference data.
 
 ## Key numbers

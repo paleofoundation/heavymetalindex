@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Liu et al. 2023 - Heavy metals in Xingren paddy soil and rice
 
+## Overview
+
 Liu and colleagues measured Pb, Cd, Cr, Hg, As, Cu, and Zn in 12 paired paddy-soil and rice-plant samples collected around an abandoned high-arsenic coal mine in Xingren County, Guizhou, China. The source is routeable rice occurrence evidence for dehulled rice grain, while its soil speciation, transfer-factor, and health-risk calculations are supporting context for contaminated paddy systems.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Apilux et al. 2023 - Heavy metals in Rayong tropical fruits
 
+## Overview
+
 This study measured As, Cd, Cu, Hg, Pb, and Zn in six tropical fruits from Rayong Province, Thailand, near industrial estates. It is routeable for fresh-fruit and pineapple context, with market and fruit-type variation preserved.
 
 ## Key numbers

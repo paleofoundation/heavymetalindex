@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Consumer Federation of America (c. 2012) — CPSIA and Lead Fact Sheet
 
+## Overview
+
 This is a two-page advocacy fact sheet published by the Consumer Federation of America (CFA) summarising the lead-content provisions of the Consumer Product Safety Improvement Act of 2008 (CPSIA), the pre-CPSIA regulatory baseline, the August 2011 HR 2175 amendment (Public Law 112-28), and the contextual public-health framing for lead exposure in children. The fact sheet contains no primary measurements; it is included in the Heavy Metal Index corpus as a regulatory-history reference for the federal US lead-in-children's-products limit (the phased-in 600 → 300 → 100 ppm Section 101 standard) and as the consumer-advocacy framing that accompanied the 2012 CDC blood-lead-reference-value revision.
 
 ## Key numbers

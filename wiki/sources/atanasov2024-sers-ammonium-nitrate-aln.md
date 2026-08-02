@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Atanasov et al. 2024 — SERS of ammonium nitrate using Al nanostructures from AlN ceramic
 
+## Overview
+
 This methods paper presents laser-induced surface structuring of aluminium nitride (AlN) ceramic to generate aluminium nanostructures, evaluated as SERS (Surface-Enhanced Raman Spectroscopy) substrates for the detection of ammonium nitrate (NH4NO3). The paper demonstrates LOD for ammonium nitrate in water below the EU nitrate ML (50 mg/L NO3) using Al plasmonics at 514 nm and 785 nm excitation. It is a materials science / analytical chemistry paper focused on sensor fabrication. No food matrices or heavy metal concentrations in food are reported. The text-mining flags for Al and As arise from the use of AlN (aluminium nitride) ceramic and standard SERS substrate terminology; neither heavy metal occurs as a food contaminant analyte in this work.
 
 ## Key numbers

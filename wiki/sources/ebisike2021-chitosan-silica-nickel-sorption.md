@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ebisike et al. 2021 - Chitosan-silica hybrid aerogel for nickel sorption
 
+## Overview
+
 Ebisike and colleagues tested an agricultural-waste-derived chitosan-silica hybrid aerogel as an adsorbent for nickel ions in aqueous solution. This is mitigation and water-remediation evidence: it reports removal efficiency, sorption capacity, kinetic models, and desorption recovery for spiked Ni2+ solutions, but it does not measure a consumer product, ingredient, or market water sample.
 
 ## Key numbers

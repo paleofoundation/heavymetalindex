@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Shimoda et al. 2010 - commercial hijiki arsenic speciation
 
+## Overview
+
 Shimoda and colleagues measured total arsenic, water-extracted inorganic arsenic, and arsenosugar species in seven commercially available dried-hijiki products and two raw hijiki samples. The occurrence-relevant matrix is hijiki seaweed on a dry-weight basis, with source-region and production-system context retained from Table 1. Total arsenic, water-extracted total arsenic, inorganic arsenic, DMA, and individual arsenosugar peaks are kept separate below.
 
 ## Key numbers

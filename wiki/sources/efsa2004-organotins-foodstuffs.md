@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2004 - Organotins in foodstuffs
 
+## Overview
+
 The EFSA CONTAM Panel assessed dietary exposure and health risk for organotin compounds in foodstuffs, focusing on tributyltin (`TBT`), dibutyltin (`DBT`), triphenyltin (`TPT`), and dioctyltin (`DOT`) because of shared immunotoxicity concerns. The occurrence assessment uses the EU SCOOP Task 3.2.13 database for fish and fishery products, including fish plus seafood other than fish such as molluscs, crustaceans, cephalopods, and echinoderms. These values are species-specific organotin occurrence and exposure data; they must not be collapsed into total tin or inorganic tin.
 
 ## Key numbers

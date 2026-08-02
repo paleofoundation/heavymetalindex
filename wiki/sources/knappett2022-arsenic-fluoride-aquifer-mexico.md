@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Knappett et al. 2022 — Arsenic and fluoride remediation in overexploited aquifers, Guanajuato, Mexico
 
+## Overview
+
 This systems dynamics modelling study evaluates how groundwater overexploitation in the Bajio region of Guanajuato, Mexico interacts with arsenic (As) and fluoride (F) concentrations in drinking water wells. Under baseline scenario S1 (business as usual), arsenic concentrations in pumped groundwater are projected to rise from approximately 14 µg/L to 46 µg/L over 100 years as deep, naturally arsenic-enriched aquifer layers are increasingly drawn upon. The paper proposes managed aquifer recharge (MAR) as the primary remediation lever and demonstrates that aggressive aquifer recharge can maintain As and F concentrations closer to the WHO guideline of 10 µg/L As.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Abuawad et al. 2023 - Folic acid and creatine effects on blood arsenic metabolites
 
+## Overview
+
 Abuawad and colleagues analyzed blood arsenic metabolite outcomes from the Folic Acid and Creatine Trial in Bangladesh. Participants received folic acid, creatine, both, or placebo, and all participants also received arsenic-removal water filters at baseline. The source is intervention and exposure-biomarker evidence for arsenic methylation; it does not measure heavy-metal contamination in supplements or filter materials.
 
 ## Key numbers

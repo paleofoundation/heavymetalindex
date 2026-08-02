@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ametepey et al. 2018 — Heavy metals in market vegetables from Tamale, Ghana
 
+## Overview
+
 Ametepey et al. measured Cd, Pb, Cr, Ni, Mn, Fe, Zn, and Cu in five vegetables (lettuce, spring onion, tomato, garden egg/eggplant, and kontomire/cocoyam leaf) purchased from three markets in Tamale, northern Ghana. Fifteen samples per vegetable were analyzed by AAS. The study is relevant to geographic variance in heavy metals in vegetables from West Africa, a region where wastewater irrigation, mining-area soils, and use of contaminated water for crop production are documented drivers of elevated metal concentrations. Cd and Pb were detected above WHO/FAO food safety limits in multiple samples, particularly in leafy vegetables.
 
 ## Key numbers

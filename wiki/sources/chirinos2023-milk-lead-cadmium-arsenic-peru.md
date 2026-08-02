@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Chirinos-Peinado et al. 2023 — Lead, cadmium, and arsenic in raw milk near mineral concentrator, Peru
 
+## Overview
+
 This study measured lead, cadmium, and total arsenic concentrations in 19 raw bovine milk samples collected from cows raised on a farm immediately adjacent to a mini mineral concentrator in the Mantaro Valley, Central Andes, Peru. Paired soil and pasture samples were collected to trace the soil-pasture-milk transfer pathway. Health risks were assessed for the Peruvian population across age groups (2–85 years) using weekly intake, dietary risk quotient, and hazard quotient calculations at three consumption scenarios (minimum, average, maximum).
 
 ## Key numbers

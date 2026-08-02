@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Song et al. 2024 — Selenium-enriched Lactobacillus plantarum mitigation of cadmium accumulation
 
+## Overview
+
 Song et al. tested whether selenium-enriched *Lactobacillus plantarum* reduced cadmium-induced liver injury in mice. The paper is mitigation evidence for cadmium retention and gut-liver injury, not occurrence evidence for probiotic supplements or vitamin-mineral supplements.
 
 ## Key numbers

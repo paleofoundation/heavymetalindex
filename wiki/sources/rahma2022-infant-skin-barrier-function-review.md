@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Rahma & Lane 2022 — Skin barrier function in infants: update and outlook
 
+## Overview
+
 This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys what is known about the infant skin barrier with a primary focus on the diaper area, the safety and effectiveness of baby wipes, and the risk factors that predispose infants — especially preterm and low-birth-weight infants — to higher percutaneous absorption of topically applied chemicals. The paper contains no primary heavy-metal occurrence data; it is included in the Heavy Metal Index corpus as exposure-pathway infrastructure for any HMI work that needs to translate adult dermal-absorption inputs to infant skin (e.g., heavy metals in baby wipes, diaper creams, baby lotions, or sunscreens). The review reports nomenclature, quantitative differences between infant and adult skin, the consequences of diaper occlusion, baby-wipe formulation requirements, and the EMA / SCCS / FDA / RCPCH regulatory framing that governs paediatric topical ingredient selection.
 
 ## Key numbers

@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Barabash et al. 2025 — Release of TiO2 and ZnO nanoparticles from two commercial mineral sunscreens into natural waters by SP-ICP-ToF-MS
 
+## Overview
+
 This open-access Environmental Science: Nano paper from the Wilkinson group (Université de Montréal) characterizes titanium dioxide and zinc oxide nanoparticles released from two commercial mineral sunscreens (designated SS1 and SS2) into three aqueous matrices (ultrapure water, a soft natural water from Lac-Croche, and a hard natural water from the St-Lawrence River) after two short-term exposures (~15 min and ~60 min), using inductively coupled plasma time-of-flight mass spectrometry (ICP-ToF-MS) operated in single-particle mode. The work is primarily methodological: the authors evaluate which features of single-particle SP-ICP-ToF-MS signatures (elemental ratios, isotopic ratios, particle purity, polydispersity, Spearman rank correlation analysis) best distinguish engineered nanoparticles from naturally occurring nanoparticles in environmentally realistic mixtures. Substantive product-chemistry findings include confirmation of manufacturer-declared ZnO and TiO2 loadings by acid digestion, observation that nearly all ZnO released into natural waters dissolves to ionic Zn²⁺ (which adsorbs onto background colloids and aluminosilicate/iron-oxide natural nanoparticles) within 60 minutes while TiO2 remains predominantly in nanoparticulate form, and quantitation of dissolved-Zn concentrations in the natural waters that reach the mg/L range after one hour of contact with the sunscreen surrogate.
 
 ## Key numbers

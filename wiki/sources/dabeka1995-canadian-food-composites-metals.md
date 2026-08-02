@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Dabeka 1995 - Canadian food composite metals
 
+## Overview
+
 Dabeka and McKenzie measured lead, cadmium, fluoride, nickel, and cobalt in Canadian total-diet food composites prepared from retail foods purchased in five cities during `1986-1988`. Lead and cadmium were analyzed in all city composite sets, while fluoride, nickel, and cobalt were city-limited. Fluoride is documented here because the paper reports it, but it is not lifted into the HMTc metals frontmatter.
 
 ## Key numbers

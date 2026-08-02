@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Albuquerque et al. 2026 — Toxic element contamination in Amazonian fish, western Pará, Brazil
 
+## Overview
+
 This study measured arsenic, cadmium, mercury, and lead in 398 fish specimens representing six species from five municipalities in western Pará state, an Amazon region characterized by artisanal gold mining and industrial bauxite mining. Species included Cichla ocellaris (peacock bass), Pseudoplatystoma punctifer (spotted catfish), Arapaima gigas (arapaima), Serrasalmus sp. (piranha), Leporinus sp., and Hypostomus sp. (armored catfish). Mercury exceeded Brazilian regulatory limits in the majority of carnivorous species samples. The target hazard quotient (THQ) exceeded 1.0 in nearly all samples under the Amazon consumption scenario (462 g/person/day), indicating non-carcinogenic health risk to subsistence consumers who rely on these fish as their primary protein source. Approximately 25% of samples exceeded a 1×10⁻⁴ carcinogenic risk threshold, driven primarily by arsenic. The study highlights the intersection of artisanal gold mining mercury contamination and bauxite-related arsenic exposure in a region where fish consumption rates are among the highest globally.
 
 ## Key numbers

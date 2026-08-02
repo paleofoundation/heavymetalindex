@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Li et al. 2022 — Co-exposure of PTEs in wheat grains in Guizhou karst region with probabilistic health risk assessment
 
+## Overview
+
 This study measured Cr, Ni, As, Pb, Cd, and F concentrations in 149 wheat grain samples from Bijie City, Guizhou Province, China, a karst region with naturally elevated geological background values for several heavy metals including Cd (background soil Cd 0.659 mg/kg, far above China's national standard of 0.097 mg/kg) and extensive industrial activity including lead and phosphate mining. Mean concentrations of As, Ni, Cd, and Pb met FAO standard limits, but mean Cr exceeded the standard limit by 3.25-fold (3.250 mg/kg vs. 1.000 mg/kg standard), with 58.4% of samples exceeding the Cr limit. Probabilistic Monte Carlo risk assessment found cumulative hazard indices exceeding 1 for all population groups (children 2.57, adult females 1.29, adult males 1.12), with As being the primary driver of hazard for children (HQ = 1.03). Carcinogenic risk was unacceptable (>1×10−4) for all three populations.
 
 ## Key numbers

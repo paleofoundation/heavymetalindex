@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Salhotra and Verma 2017 - metals in Jagdalpur market vegetables and fruits
 
+## Overview
+
 Salhotra and Verma measured heavy metals in vegetables and fruits from Jagdalpur market in Chhattisgarh, India. The source is routeable to spinach because Table 1 reports edible-part spinach concentrations for Cu, Cd, Fe, Co, and Pb. The paper is a small market survey and should be treated as India/Jagdalpur context.
 
 ## Key numbers

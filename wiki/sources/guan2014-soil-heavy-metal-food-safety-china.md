@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Guan and Sun 2014 — Soil heavy metal pollution and food safety, China
 
+## Overview
+
 Guan and Sun present a three-page narrative overview of soil heavy metal pollution sources, characteristics, and food safety implications, framed primarily around Chinese conditions. The paper was published in Applied Mechanics and Materials, a Trans Tech Publications conference proceedings volume (Vols. 675-677, 2014, pp 612-614), as part of the "Environmental Technology and Resource Utilization II" symposium. It reports no original experimental data; it synthesizes previously published findings on pollution sources (industrial "three wastes" emissions, mining and smelting, coal combustion, vehicle exhaust, agricultural inputs including chemical fertilizers and sewage irrigation) and mitigation approaches (physical-chemical soil replacement, leaching technology, bioremediation, agronomic measures, cultivar selection, and planting-structure adjustment in contaminated zones).
 
 This is a C-tier reference: a short Chinese conference paper from 2014 with no original data, predating the substantial expansion of high-quality food heavy metal occurrence literature published in 2015-2025. It is retained in the corpus primarily as a historical baseline document attesting to Chinese scientific awareness of soil-to-food heavy metal transfer circa 2014.

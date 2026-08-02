@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Hernandez-Cruz et al. 2024 - Sulforaphane protection against cadmium toxicity in C. elegans
 
+## Overview
+
 Hernandez-Cruz and colleagues tested whether sulforaphane pre-exposure reduces cadmium chloride toxicity and mitochondrial dysfunction in the nematode Caenorhabditis elegans. This is primary health/toxicology mechanism evidence, not food, ingredient, or product occurrence evidence. The source's routeable metal facts are experimental CdCl2 exposure doses: a 300-6000 uM survival screen and a selected 4600 uM CdCl2 challenge for the remaining toxicity, mitochondrial, oxidative-stress, and IIS-pathway assays.
 
 ## Key numbers

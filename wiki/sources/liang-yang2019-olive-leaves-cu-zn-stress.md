@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Liang & Yang 2019 — Cu/Zn combined-stress effects on antioxidant enzymes (CAT, POD, SOD), MDA, and soluble protein in olive leaves (Sichuan, China)
 
+## Overview
+
 Liang and Yang conducted a 40-day pot experiment on annual `Olea europaea` L. cv. 'Foao' cutting seedlings in Xichang, Sichuan, exposing them to four combined Cu/Zn soil-spike treatments and a zero-dose control to characterise the antioxidant-system response to the two heavy metals jointly. Foliar catalase (CAT), peroxidase (POD), superoxide dismutase (SOD), malondialdehyde (MDA), and soluble protein were measured at the end of the treatment period. The study is a phytotoxicity/stress-tolerance experiment using applied-soil concentrations far above ambient agricultural exposures; it does **not** measure Cu, Zn, or any other metal concentration in olive fruit, olive oil, or any consumable matrix. Its contribution to the Heavy Metal Index corpus is mechanistic context for how the olive plant responds to high Cu/Zn co-exposure at the leaf-tissue level, not a contamination data point for olive-derived foods.
 
 ## Key numbers

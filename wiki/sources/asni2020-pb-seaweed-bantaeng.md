@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Asni and Najamuddin (2020) measured lead (Pb) in cultivated red seaweed (Kappaphycus alvarezii) and surrounding seawater at three cultivation stations along the Bantaeng Regency coastline in South Sulawesi, Indonesia, sampling across rainy and dry seasons. Pb concentrations in seaweed tissue at the three stations exceeded the Indonesian food-safety threshold (SNI 01-289-1998: 2.0 ppm) in both seasons, with the dry-season upper end (20.87 ppm) approximately 10× the food limit and 3× the rainy-season upper end (7.00 ppm). Pb in surrounding seawater exceeded the Indonesian fishery-water threshold (KEP MENLH No 51, 2004: 0.08 ppm) at all stations in both seasons. Pb was highest at Station C (Paju'kukang) and lowest at Stations A and B, and was higher in the near-shore substations than in the substations further offshore, which the authors attribute to the proximity of Station C to a fish landing place and to terrestrial runoff and ship-fuel combustion as Pb sources.
 
 ## Key numbers

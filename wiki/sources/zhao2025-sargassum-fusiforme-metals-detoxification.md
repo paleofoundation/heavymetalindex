@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Zhao 2025 — Bioaccumulation, chemical forms, and gene expression of As/Cd/Pb in Sargassum fusiforme (hijiki) under controlled exposure
 
+## Overview
+
 Zhao and colleagues exposed cultured *Sargassum fusiforme* (hijiki) shoots to controlled concentrations of As(III), As(V), cadmium, and lead in enriched seawater for 6 days, then measured tissue accumulation, chemical-form distribution (arsenic speciation and sequential extraction of Cd/Pb), and the transcriptomic (RNA-Seq) response, to elucidate uptake and detoxification mechanisms. This is a laboratory exposure and mechanism study, not a food-occurrence survey: the exposed-tissue concentrations reflect experimental dosing, not natural or market contamination, and are therefore not usable as occurrence inputs for the Category 6 seaweed standard (consistent with the standard practice — e.g., Lynch 2014 — of excluding intentional-exposure/uptake experiments from food-occurrence pooling). Its directly food-relevant data point is the unexposed control baseline: natural *S. fusiforme* total arsenic 77.4 mg/kg, cadmium 1.84 mg/kg, and lead 0.16 mg/kg dry weight. Mechanistically it reports that absorbed As(III) is oxidised to As(V) in the tissue (no As(III) detected in As(III)-exposed tissue), Cd is detoxified largely by pectate/protein binding, and Pb is immobilised mainly as insoluble (oxide/phosphate) compounds.
 
 ## Key numbers

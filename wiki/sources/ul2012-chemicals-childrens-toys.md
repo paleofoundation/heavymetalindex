@@ -36,6 +36,8 @@ updated: 2026-06-01
 
 # UL LLC 2012 — Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns
 
+## Overview
+
 This UL LLC white paper (8 pp., © 2012 UL LLC, contact Angela Griffiths, director of operations, UL Environment) introduces UL 172, the voluntary "UL Standard for Sustainability of Toys," and summarises the US and EU regulatory framework that the standard sits on top of. The white paper does not report any primary contamination measurements; its content is exclusively a regulatory overview (CPSIA Section 101 lead limits, ASTM F963-08/F963-11 soluble-element migration limits, EU Toy Safety Directive 2009/48/EC chemical-content limits, and a brief description of state-level reporting requirements under Washington's Children's Safe Products Act and forthcoming California regulation) plus a listing of UL 172's material-specific chemical requirements above those regulatory floors. For Heavy Metal Index purposes the page is filed as regulatory-context anchor only; no occurrence claim or percentile derivation can rest on it.
 
 ## Key numbers

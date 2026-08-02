@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Stahl et al. 2017 - aluminum food-contact study Part I
 
+## Overview
+
 Stahl and colleagues summarize aluminum exposure sources and present the study design for a three-part investigation of aluminum migration from food contact materials into foods. Part I does not report the bottle, moka-pot, grill-pan, or camping-cookware migration results; those are reserved for Parts II and III. It does, however, include Hessian State Laboratory foodstuff aluminum data expanded beyond a 2011 publication, making this paper occurrence context for aluminum in broad food categories and food-contact-material investigations.
 
 ## Key numbers

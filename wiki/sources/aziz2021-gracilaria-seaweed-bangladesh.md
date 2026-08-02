@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Aziz et al. 2021 - Heavy metals in Bangladesh Gracilaria seaweed
 
+## Overview
+
 Aziz et al. analyzed the nutritional composition and selected heavy metals in Gracilaria tenuistipitata var. liui grown at Nuniachara, Cox's Bazar, Bangladesh. The paper directly reports Pb, total As, Cr, and Cd on a dry-weight basis for an edible red seaweed consumed locally and considered as a food supplement. All four reported heavy-metal concentrations were below the source's cited tolerance levels.
 
 ## Key numbers

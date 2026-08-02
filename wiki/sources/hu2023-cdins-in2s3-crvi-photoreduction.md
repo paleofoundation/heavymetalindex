@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Hu et al. 2023 - CdIn2S4/In2S3 photocatalytic Cr(VI) reduction
 
+## Overview
+
 Hu and colleagues synthesized CdIn2S4/In2S3 heterojunction photocatalysts and tested visible-light reduction of synthetic aqueous Cr(VI). This is primary remediation/testing evidence, not food, ingredient, drinking-water occurrence, or product evidence. The routeable facts are the defined synthetic Cr(VI) challenge concentration, catalyst loading, reaction-rate constants, and near-complete Cr(VI) reduction time for the optimal 0.5 CISI composite.
 
 ## Key numbers

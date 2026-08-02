@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Alam et al. 2022 - Lead in branded and nonbranded powdered spices from Dhaka
 
+## Overview
+
 Alam et al. measured lead in 72 powdered spice samples collected from three local markets in Dhaka city, Bangladesh. The sample set covered cumin powder, red pepper chili powder, turmeric powder, and coriander powder, split between branded and nonbranded market items. Lead was quantified by flame atomic absorption spectrometry after hot-plate digestion. The highest source-stated lead range was in nonbranded turmeric powder, below 0.27 to 37.29 mg/kg; branded turmeric also reached 13.83 mg/kg. The paper reports that about 90% of samples were within the Bangladesh Standard maximum allowable limit, but the nonbranded red pepper and turmeric estimated daily intakes exceeded the maximum tolerable daily intake comparator used by the authors.
 
 ## Key numbers

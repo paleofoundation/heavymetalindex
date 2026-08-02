@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Duplicate source page — see canonical Rabeey et al. 2025 page
 
+## Overview
+
 This page is a retired duplicate of [[sources/rabeey2025-bovine-hg-pb-cd-egypt]]. It is retained so older generated source legends and synthesis audit logs that linked to `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt` do not break.
 
 Do not use this page as an independent evidence source. The canonical page holds the verified table-based values, corrected raw path, raw SHA-256, and duplicate-resolution notes.

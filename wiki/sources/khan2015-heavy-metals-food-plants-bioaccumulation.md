@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Khan et al. 2015 — Heavy metal uptake and bioaccumulation in food plants
 
+## Overview
+
 Khan and colleagues (University of Peshawar, Pakistan) review published data on heavy-metal contamination in agricultural soils and the resulting metal accumulation in food plants, with attention to soil-to-plant transfer, effects of metals on plant nutritional composition, and health-risk-index calculations for human consumers. The review compiles ranges and individual values from approximately seventy prior studies across Cd, Cr, Cu, Ni, Pb, and As for soils and plants worldwide, and provides the standard equations for daily intake of metals (DIM), health risk index (HRI), target hazard quotient (THQ), and target cancer risk (TCR). The paper is a narrative review without PRISMA-style inclusion criteria or quality assessment; the quantitative values it reports are reattributions of cited primary studies and should be verified against those primaries before downstream use.
 
 ## Key numbers

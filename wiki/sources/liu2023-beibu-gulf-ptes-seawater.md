@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Liu et al. 2023 — PTEs in Beibu Gulf Surface Water and Sediment
 
+## Overview
+
 This peer-reviewed study characterizes the concentrations, distribution, sources, and ecological/health risk of seven potentially toxic elements (As, Cd, Cr, Cu, Hg, Pb, Zn) in surface seawater and sediment of the eastern Beibu Gulf, China, sampled in spring 2021 (47 seawater sites) and winter 2022 (23 seawater sites, 23 sediment sites). Using PCA and positive matrix factorization (PMF), the authors found PTEs in seawater were primarily of natural origin, with the exception of Hg (predominantly anthropogenic). Sediment PTE concentrations were generally below historical values, indicating acceptable ecological risk for most elements. Significant spatial and seasonal variation was observed in seawater PTE concentrations.
 
 ## Key numbers

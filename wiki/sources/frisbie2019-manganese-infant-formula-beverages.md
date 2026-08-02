@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Frisbie et al. 2019 - manganese in infant formula and young-child beverages
 
+## Overview
+
 This PLOS ONE study measured manganese in 44 infant formulas and young-child nutritional beverage products from the United States and France using simultaneous PIXE/RBS analysis. Products included cow-milk, goat-milk, soy, rice, amino-acid, chocolate-containing, supplemented, and unsupplemented products labeled from birth through 3 years. The occurrence signal is not a toxic-metal contaminant in the usual Pb/Cd/As/Hg sense, but it is important for infant formula risk assessment because Mn has neurodevelopmental toxicity concerns at excess exposure.
 
 ## Key numbers

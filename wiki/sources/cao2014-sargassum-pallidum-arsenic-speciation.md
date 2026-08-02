@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Cao et al. 2014 - arsenic speciation in Sargassum pallidum decoction
 
+## Overview
+
 Cao and colleagues developed an HPLC-HG-AFS method for arsenic species in rat plasma and applied it after oral administration of a water decoction of *Sargassum pallidum*. The occurrence-relevant part is a single dried Chinese medicinal seaweed material and its aqueous extract, not a market survey. The source reports total arsenic in the dried seaweed and separately reports DMA and As(V) in the decoction, with As(III) and MMA not detected.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Xu et al. 2025 — Cola beverage reduces Pb bioaccessibility from contaminated soil via pyromorphite formation
 
+## Overview
+
 This Nature Communications study demonstrates that cola beverages (containing phosphoric acid) dramatically reduce lead bioaccessibility from contaminated soil particles when co-ingested, through a geochemical mechanism: phosphoric acid in cola reacts with soil Pb to form pyromorphite (Pb5(PO4)3Cl), an insoluble Pb mineral with very low bioaccessibility. The study tested 22 contaminated soils using in-vitro PBET (physiologically based extraction test) and validated the finding in vivo using rat and swine models. The work directly addresses the exposure pathway by which soil-contaminated food environments or pica behavior in children leads to Pb ingestion.
 
 ## Key numbers

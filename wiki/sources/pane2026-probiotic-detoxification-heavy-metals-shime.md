@@ -25,6 +25,8 @@ updated: 2026-06-03
 
 # Pane et al. 2026 — Probiotic detoxification of Cd, Cr, Hg, and Pb in SHIME and gut ex vivo models
 
+## Overview
+
 Pane and colleagues assessed three gut-derived probiotic lactobacilli strains — *Lactiplantibacillus plantarum* LP14, *Lactobacillus crispatus* LCR04, and *Lactobacillus acidophilus* LA12 — for their capacity to detoxify a mixture of inorganic cadmium, chromium(III), mercury(II), and lead(II) salts across three escalating model systems: a static in vitro co-culture / post-growth assay, the SHIME® dynamic gastrointestinal simulator (gastric, small-intestinal, and short-term proximal colonic phases), and a gut ex vivo system (GEVS) using murine small intestine. Strain- and metal-specific sequestration emerged: LP14 and LCR04 reduced heavy-metal bioavailability in the colonic SHIME compartment whereas LA12 showed minimal SHIME detoxification despite broad in vitro activity, and all three strains attenuated heavy-metal-induced epithelial barrier disruption and pro-inflammatory cytokine induction in the GEVS. The study contributes mechanism-of-action data on probiotic-mediated gut bioremediation of inorganic Cd, Cr(III), inorganic Hg(II), and Pb(II); it does not measure contamination of any consumer product.
 
 ## Key numbers

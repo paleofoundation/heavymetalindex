@@ -31,6 +31,8 @@ updated: 2026-05-30
 
 # Al-Kahachi et al. 2022 — Abundant and trace elements in Al-Khassa Sub Basin agricultural soil, Kirkuk, Iraq
 
+## Overview
+
 This study measured 20 elements (Mg, Al, Si, P, S, Cl, K, Ca, Ti, V, Cr, Mn, Co, Ni, Cu, Zn, As, Hg, Mo, Pb) in 34 surface soil samples from the Al-Khassa Sub Basin, a 468 km² agricultural watershed in Kirkuk Province, northeastern Iraq. The basin is the agricultural catchment of the Al-Khassa dam (constructed 2010, increasing irrigated agriculture in the surrounding villages) and is described by the authors as suffering from increasing anthropogenic pollution from fertilizer overuse, pesticide application, and poor irrigation practice. The sampling design covers 32 villages including agricultural, pastoral, and cultivated land. Cd is not measured. Speciation is not reported for As or Hg, so reported values are read as total arsenic and total mercury. The paper is a soil-geochemistry study; no food crops, food products, or animal tissues are sampled. Two reported concentration ranges (Mo at 420–796 mg/kg and Hg at 1.9–5.0 mg/kg) sit far outside expected crustal/agricultural-soil envelopes and are flagged in `## Verification notes` as data-integrity concerns the source itself does not address.
 
 ## Key numbers

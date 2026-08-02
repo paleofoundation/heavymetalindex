@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Chen et al. 2001 - Arsenic in edible fats and oils from Taiwan
 
+## Overview
+
 Chen et al. developed a focused microwave digestion and atomic fluorescence spectrometry method for arsenic in edible fats and oils, then applied it to 21 market samples. The market-sample results ranged from 0.005 to 0.027 ppm arsenic, all below Taiwan's 0.1 ppm maximum permissible concentration for edible fats and oils cited by the authors. The paper is useful both as total-arsenic occurrence evidence for fats and oils and as a method-validation source for oil-matrix digestion.
 
 ## Key numbers

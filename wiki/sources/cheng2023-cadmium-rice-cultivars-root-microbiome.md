@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cheng et al. 2023 — Root microbiome biomarkers predict Cd grain accumulation differences between low-Cd and hybrid rice cultivars
 
+## Overview
+
 Comparing low-Cd rice cultivar XS14 (Xiushui14) and hybrid cultivar YY17 grown under five soil amendment conditions in Cd-contaminated farmland, this study demonstrates that XS14 consistently accumulates significantly lower Cd in grains across amendment treatments (lower bioaccumulation factor, p<0.01). Machine learning (random forest) applied to 16S amplicon data identifies taxon-level biomarkers predictive of cultivar identity with >94% accuracy in three of four root-associated niches. Desulfobacteria enrichment in XS14 (sulfur-cycling pathway) and Nitrospiraceae enrichment in YY17 (nitrogen-cycling pathway) emerge as keystone indicator taxa. Metagenome functional profiling shows XS14 rhizosphere has higher diversity in amino acid and carbohydrate transport, sulfur cycling genes. The study provides mechanistic insight into how root-associated microbiome recruitment strategies differ between low-Cd and standard cultivars, with implications for microbiome-assisted breeding and soil amendment selection.
 
 ## Key numbers

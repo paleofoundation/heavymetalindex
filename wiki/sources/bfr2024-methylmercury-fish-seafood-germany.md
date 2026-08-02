@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # BfR 2024 — Methylmercury in fish and seafood: health risk assessment from the BfR MEAL study
 
+## Overview
+
 The German Federal Institute for Risk Assessment (BfR) issued this opinion in May 2024 to assess health risks from methylmercury (MeHg) in fish and seafood, using concentration data from the first German Total Diet Study (BfR MEAL study) that directly measured MeHg by ICP-MS — rather than converting from total Hg using a conversion factor. The highest MeHg concentrations were found in tuna (fillet: 0.38 mg/kg), smoked dogfish and ocean perch (0.12 mg/kg), consistent with their position as large or predatory species; species with low MeHg such as pollack, herring, carp, and trout were all below 0.10 mg/kg. At mean consumption levels, MeHg exposure remains below the EFSA TWI of 1.3 µg/kg body weight per week across all age groups; however, at the 95th percentile, adolescents aged 14–<18 years (2.18 µg/kg bw per week, UB) and tuna consumers in particular exceed the TWI.
 
 ## Key numbers

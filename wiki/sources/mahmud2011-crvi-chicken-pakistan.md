@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mahmud et al. 2011 — Chromium(VI) in chicken meat and bones, Lahore, Pakistan
 
+## Overview
+
 This 2011 study from the University of the Punjab, Lahore reported hexavalent chromium (Cr-VI) in multiple meat parts and bones of local Pakistani chickens, finding author-reported Cr-VI at mean concentrations of 0.233 to 1.433 mg/kg across tissues tested. The contamination pathway identified by the authors is specific to Pakistan's poultry industry practice of incorporating leather scraps in chicken feed to provide protein; these leather offcuts retain Cr(VI) from the chrome tanning process (K2CrO4 and K2Cr2O7), and the authors describe accumulation in chicken tissues. Leg muscle had the highest mean Cr-VI in meat parts (1.266 mg/kg); head bone had the highest mean in bones (1.433 mg/kg).
 
 **Critical speciation note:** This paper reports hexavalent chromium (Cr-VI), a Group 1 human carcinogen (IARC), not total chromium (Cr-total). However, the methods section describes ashing, nitric-acid digestion, and atomic absorption spectrophotometry after calibration with potassium dichromate; it does not describe chromatographic separation, colorimetric Cr(VI) confirmation, or a speciation-preservation validation step. Use these values only as author-reported Cr(VI), not as independently validated chromium speciation data, and do not conflate them with total chromium in synthesis.

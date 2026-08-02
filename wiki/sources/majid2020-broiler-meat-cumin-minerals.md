@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Majid et al. 2020 - Cumin-supplemented broiler meat minerals
 
+## Overview
+
 Majid, Albashr, Hamma, and Khidhir tested whether adding cumin seed powder to broiler diets changed meat-quality traits and mineral concentrations in breast and thigh meat. The study used four diets: control feed and basal feed supplemented with 3, 6, or 9 g cumin per kg of diet. Table 7 reports mean plus standard deviation mineral concentrations in ppm for Cr, Cu, Cd, Pb, Ni, Zn, Fe, Mg, P, Na, Ca, and K in finished broiler meat. For Heavy Metal Index routing, the usable occurrence signal is the measured breast and thigh meat concentration table; the source is not cumin-seed occurrence evidence.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # Hatlelid (2009) — CPSC Regulation of Lead in Children's Products
 
+## Overview
+
 A fourteen-slide presentation authored by Kris Hatlelid (Ph.D., M.P.H.), toxicologist in the CPSC Directorate for Health Sciences, dated 12/17/2009 and bearing the staff caveat "These comments are those of the CPSC staff, have not been reviewed or approved by, and may not necessarily reflect the views of, the Commission." The deck summarises the lead-content provisions of the Consumer Product Safety Improvement Act of 2008 (CPSIA Section 101), the Section 101(b) exclusions framework, the Section 101 determinations rule, the amended 16 CFR Part 1303 lead-in-paint rule, the XRF testing-method study released by CPSC staff in August 2009, and the practical considerations for manufacturers and importers. It contains no primary contamination measurements; it is included in the Heavy Metal Index corpus as a contemporaneous staff-level reference for the structure of the CPSIA Section 101 regulatory regime and as a primary citation for the specific Federal Register notices and 16 CFR sub-parts implementing it.
 
 ## Key numbers

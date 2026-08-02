@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wu et al. 2022 — Selenized yeast, laying hen performance, and heavy metal accumulation in eggs
 
+## Overview
+
 This 12-week controlled feeding study measured the protective effects of selenized yeast supplementation on laying hen performance and on the accumulation of cadmium, lead, mercury, and chromium in egg yolk and egg white. Hens were orally gavaged with Cd, Pb, Hg, and Cr at fixed doses, with and without selenized yeast co-supplementation. Metal concentrations in egg yolk and egg white were measured by graphite furnace atomic absorption spectrometry (GFAAS) for Pb and Cd and by direct mercury analysis (DMA-80) for Hg. The study found that selenized yeast supplementation significantly reduced metal accumulation in egg tissue compared to the heavy-metal-only control group, and it improved egg production rate and egg quality parameters.
 
 ## Key numbers

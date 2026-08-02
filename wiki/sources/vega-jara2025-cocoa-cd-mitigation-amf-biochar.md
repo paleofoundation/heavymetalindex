@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Vega-Jara et al. 2025 — Mitigation of cadmium accumulation in cocoa beans using AMF, biochar, and Callisia repens
 
+## Overview
+
 This field experiment tested three biological and organic mitigation strategies for reducing Cd uptake in cocoa beans in Huánuco, Peru — a region where soil Cd is elevated (0.78 mg/kg total) and baseline bean Cd (1.07 mg/kg) substantially exceeds the EU maximum permissible level (0.8 mg/kg for chocolate with ≥50% cocoa solids). Arbuscular mycorrhizal fungi (AMF) applied alone reduced bean Cd concentration by 40.43%; Callisia repens (a herbaceous competitor plant) applied alone reduced bean Cd by 30.85%; their combination achieved a 24.47% reduction; biochar at 1% and 2% w/w did not produce statistically significant effects. Critically, Cd concentrations still exceeded EU limits under all treatment conditions after six months, indicating that these strategies alone cannot bring a highly contaminated site into compliance within a single growing season.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-04
 
 # Asensio 2023 - Mercury and methylmercury in Madrid market mushrooms
 
+## Overview
+
 Asensio measured cadmium, lead, total mercury, and methylmercury in 48 edible mushroom samples from Madrid markets. The strongest occurrence signal was total mercury in wild mushrooms: wild mushrooms averaged 0.15 mg/kg total Hg, while cultivated mushrooms averaged 0.007 mg/kg. One wild Lepista panaeolus sample reported 0.97 mg/kg total Hg and 0.12 mg/kg MeHg, with MeHg representing 13% of total mercury in that sample.
 
 ## Key numbers

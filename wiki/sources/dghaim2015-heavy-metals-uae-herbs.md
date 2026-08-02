@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Dghaim et al. 2015 — Heavy metals in traditional herbs consumed in the UAE
 
+## Overview
+
 This peer-reviewed primary study from Zayed University (Dubai) measured cadmium, lead, copper, iron, and zinc in 81 samples of seven traditional herbs purchased from 13 authenticated Dubai-municipality-approved shops and supermarkets. All concentrations are expressed on a dry-weight basis after fresh samples were air-dried at room temperature and powdered. Microwave-assisted digestion followed US-EPA Method 3052 (HNO3/HCl/H2O2 in a CEM MARS microwave system); metals were quantified by AAS (Varian AA240FS). The headline finding is that 64% of all samples exceeded the WHO/FAO permissible limit (PL) for lead in medicinal herbs (10 mg/kg dry weight), and 29% of cadmium-analyzed samples exceeded the WHO/FAO PL for cadmium (0.3 mg/kg). Lead contamination was particularly high in sage (100% of samples above PL), thyme (91%), basil (90%), and oregano (90%), with individual maxima of 16-23 mg/kg. Cadmium exceedances were most prevalent in basil (80%) and sage (66%). The paper does not measure arsenic or mercury.
 
 ## Key numbers

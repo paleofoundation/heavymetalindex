@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Mostafa 2022 - chitosan graft copolymer mercury removal
 
+## Overview
+
 Mostafa synthesized a poly(meth acrylamide)-chitosan nanoparticle graft copolymer and tested its ability to remove mercury ions from aqueous solution. This is in-scope a2 mitigation and wastewater-removal evidence for mercury, not food, palm oil, or personal-care occurrence.
 
 ## Key numbers

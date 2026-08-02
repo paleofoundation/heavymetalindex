@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zanon 2008 - Organotins in Venice Lagoon shellfish
 
+## Overview
+
 Zanon and colleagues measured butyltin and phenyltin compounds in edible mussels (*Mytilus galloprovincialis*) and clams (*Tapes* spp.) from the Lagoon of Venice before the European organotin-antifouling restrictions took full effect. The source reports organotin species as cation concentrations on a dry-weight basis, with a later comparison to a wet-weight TBT residue level. These are organotin occurrence values and must not be collapsed into total elemental tin or inorganic tin.
 
 ## Key numbers

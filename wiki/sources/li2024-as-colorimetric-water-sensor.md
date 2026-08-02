@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A colorimetric sensor for detection of As3+ (arsenite) in water was developed. The paper focuses on method development for drinking water applications. No food matrix samples are reported. The sensor detects As(III), a specific inorganic arsenic oxidation state, rather than total arsenic or total inorganic arsenic.
 
 ## Key numbers

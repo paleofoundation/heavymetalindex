@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Tajdar-oranj et al. 2018 — Pb, Cr, Cd, Al in instant noodles on the Iranian (Tehran) market with Monte Carlo non-carcinogenic risk assessment
 
+## Overview
+
 This Tehran retail-market study reports total concentrations of lead, chromium, cadmium, and aluminium in commercial instant noodle samples drawn from three Iranian-produced brands (coded 1, 2, 3) and one imported brand (coded 4), collected in Spring 2017 and analysed by ICP-OES after acid digestion on samples dried at 85 °C for 24 h before grinding. The principal occurrence finding is that mean concentrations in every brand exceeded the WHO 0.025 mg/kg food-products ceiling for Pb, the WHO 0.003 mg/kg ceiling for Cd, the WHO 0.050 mg/kg ceiling for Cr, and the WHO 0.237 mg/kg ceiling for Al. Significant brand-vs-brand differences (Kruskal-Wallis p < 0.05) were observed for all four metals, and significant Iranian-vs-imported differences (Mann-Whitney p < 0.05) were observed for all four metals: imported noodles carried higher Cr, Cd, and Al but slightly lower Pb than the pooled Iranian noodles. The principal risk-assessment finding is that the Monte-Carlo (10 000-iteration) 95th-percentile target hazard quotient for aluminium exceeded 1 in both adult (P95 THQ_Al 1.789) and child (P95 THQ_Al 6.167) consumer panels, indicating a considerable non-carcinogenic health risk for Al from instant-noodle ingestion at the Iranian per-capita rate of 0.0027 kg/person/day; THQ for Pb, Cr, and Cd was below 1 at P95 in both panels. Children carried roughly 3.5× the adult THQ across all four metals owing to the lower-body-weight denominator.
 
 ## Key numbers

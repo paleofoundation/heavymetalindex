@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hossain et al. 2023 — Heavy metals in edible chicken parts, Bangladesh
 
+## Overview
+
 Hossain et al. measured lead, cadmium, chromium, iron, copper, and zinc in six edible body parts (breast muscle, liver, gizzard, heart, kidney, brain) of 18 broiler chickens from six markets in Dhaka North City Corporation (DNCC), Bangladesh. The study found that lead concentrations were notably elevated — up to 4.6 mg/kg fresh weight in the brain, roughly six times above FAO/WHO maximum allowable concentrations — while cadmium and chromium were mostly within regulatory limits. The authors conclude that while most target hazard quotients (THQ) for adult and child consumers remained below 1.0, the Pb levels in certain body parts (brain, kidney) warrant continued monitoring, and that tannery-waste-derived poultry feed is a likely contamination pathway.
 
 ## Key numbers

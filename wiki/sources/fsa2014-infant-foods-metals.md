@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # FSA 2014 - metals in UK infant foods, formula and other infant-diet foods
 
+## Overview
+
 The UK Food Standards Agency commissioned a survey of metals and other elements in ready-to-feed infant formula, dry infant formula, commercial infant foods, and other foods consumed by infants and young children. The report is A-tier occurrence and exposure evidence for infant foods because it gives category mean concentrations and total infant-diet exposure estimates. Brand-name products were measured, but the report calculates exposure by category and food group; this page follows that firewall.
 
 ## Key numbers

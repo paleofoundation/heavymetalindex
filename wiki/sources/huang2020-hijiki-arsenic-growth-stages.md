@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Huang et al. 2020 - hijiki arsenic growth stages
 
+## Overview
+
 Huang et al. measured total arsenic, inorganic arsenic, and arsenic species in cultivated edible hijiki (*Sargassum fusiforme*) at different growth stages. The primary occurrence data are whole-plant dry-weight values for native and Korean hijiki varieties grown in Zhejiang, China. Total arsenic, inorganic arsenic, arsenate, arsenite, DMA, and MMA are kept distinct below.
 
 ## Key numbers

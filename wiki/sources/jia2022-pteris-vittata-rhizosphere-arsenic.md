@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Jia et al. 2022 — Pteris vittata rhizosphere microbiome and arsenic phytoremediation
 
+## Overview
+
 This study profiled the rhizosphere microbial community of the arsenic hyperaccumulator *Pteris vittata* across a natural soil arsenic contamination gradient and examined its functional role in arsenic phytoremediation. It is upstream mechanism and microbiome evidence on the soil-to-plant transfer of arsenic; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # Brodziak-Dopierała et al. 2023 — Mercury in oil-based dietary supplements on the Polish market
 
+## Overview
+
 This peer-reviewed study measures total mercury (tHg) in 36 oil-based dietary supplements purchased from Polish pharmacies, drugstores, and herbal shops, using atomic absorption spectrometry via the amalgamation technique (AMA 254, Altec; LOD 0.01 ng Hg). The 36 preparations span vegetable oils (n = 18, all cold-pressed and unrefined), cod liver oils (n = 12), and shark liver oils (n = 6). All samples fell below the EU maximum level for dietary supplements of 0.10 mg/kg (100 µg/kg). Counterintuitively, vegetable oil supplements contained significantly higher tHg concentrations than fish oil supplements. No preparation approached a health-relevant dose at standard recommended intakes.
 
 This paper is distinct from Brodziak-Dopierała et al. 2024 (which covers a broader set of medicines and dietary supplements, n = 139, 2022–2023 purchase dates) and from Torović et al. 2024 (which covers fish oil supplements only in Serbia/Srpska, n = 42).

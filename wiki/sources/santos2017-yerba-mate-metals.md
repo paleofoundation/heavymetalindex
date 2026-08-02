@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Santos et al. 2017 - arsenic, cadmium, and lead in yerba mate
 
+## Overview
+
 Santos and coauthors measured total arsenic, cadmium, and lead in 104 yerba mate samples marketed in three southern Brazilian states. Cadmium was the main compliance signal: many samples exceeded Brazil's 0.4 mg/kg ANVISA cadmium limit, while arsenic remained below the cited 0.6 mg/kg limit. The source is occurrence evidence for dried yerba mate leaves used in herbal infusions, not mineral water.
 
 ## Key numbers

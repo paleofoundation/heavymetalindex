@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Hu et al. (2025) develop a whole-cell biosensor integrating Bacillus megaterium bacteria with complementary metal-oxide-semiconductor (CMOS) electronics for arsenic detection. The system is specifically calibrated to detect total arsenic at or below the US EPA maximum contaminant level (MCL) of 10 ppb for drinking water, and the authors demonstrate applicability to both soil and food matrices.
 
 ## Key numbers

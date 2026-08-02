@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Venant et al. 2025 — Cadmium and lead in Lake Victoria sardine, Tanzania
 
+## Overview
+
 This cross-sectional study assessed Cd and Pb concentrations in 279 samples of the small pelagic sardine Rastrineobola argentea collected from three regions of the Tanzanian Lake Victoria basin (Mwanza, Kagera, Mara), alongside a community-awareness survey of 425 sardine processors. All 279 samples fell below the FAO/WHO limit of 0.3 mg/kg for both metals. Median concentrations were low: Cd 0.012 ± 0.005 mg/kg and Pb 0.081 ± 0.057 mg/kg on a dry-weight basis. Health risk metrics (THQ, HI, cancer risk) were all well below thresholds of concern. Community awareness of heavy metal contamination was extremely low (96.2% unaware), though most processors had adopted raised drying racks that reduce contact with contaminated substrates.
 
 ## Key numbers

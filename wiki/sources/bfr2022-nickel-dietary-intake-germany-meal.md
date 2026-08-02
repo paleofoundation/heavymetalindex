@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # BfR 2022 — Nickel dietary intake via food based on the BfR MEAL Study (Germany)
 
+## Overview
+
 The German Federal Institute for Risk Assessment (BfR) conducted a total diet study (TDS) on nickel in food as part of the first German MEAL Study, analyzing 356 foods grouped into 19 main food categories and measuring Ni concentrations in 840 pools purchased nationwide between December 2016 and May 2019. The study found that the food groups "Legumes, nuts, oil seeds and spices" and "Coffee, cocoa and tea" carry the highest mean nickel concentrations at 1,583 µg/kg and 1,488 µg/kg respectively, with cocoa powder the single highest item at 11,050 µg/kg, followed by cashew nuts at 5,350 µg/kg. Dietary nickel intake for German adults and adolescents averages 11% of the EFSA-derived TDI of 13 µg/kg BW/day (P50, UB), while children average 42% of the TDI (P50, UB), with fewer than 5% of highly exposed children (ages 0.5–5 years) exceeding the TDI. This report provides the most geographically specific German-population nickel exposure baseline, lower than EFSA's pan-European estimates for the same population when using German consumption data paired with pan-European occurrence data.
 
 ## Key numbers

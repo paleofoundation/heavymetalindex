@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # WA Ecology 2024 — Interim Policy on Lead in Cosmetics (Pub. 24-04-036): enforcement-discretion safe harbor allowing 2 ppm Pb in general cosmetics and 5–10 ppm Pb in color cosmetics and clay masks above the statutory 1 ppm TFCA cap
 
+## Overview
+
 This is a Washington State Department of Ecology policy statement issued under enforcement-discretion authority interpreting the Toxic-Free Cosmetics Act (TFCA; Chapter 70A.560 RCW; see [[sources/wa-tfca-hb1047-2023]]). The TFCA, effective January 1, 2025, prohibits the sale of cosmetic products in Washington that contain (1) intentionally added lead, or (2) lead impurities exceeding 1 part per million (ppm). The TFCA authorizes Ecology to conduct rulemaking to adopt a different lead-impurity limit. In 2024, three petitions asked Ecology to adopt the federal FDA-recommended 10 ppm cosmetic-lead-impurity limit; Ecology declined, and the decision was upheld on appeal to the governor. After consultation with manufacturers, Ecology issued this interim policy on December 19, 2024 (revised with minor clarifications January 15, 2025) establishing a tiered safe-harbor framework: as an exercise of enforcement discretion, Ecology will not enforce strict compliance with the 1 ppm limit for cosmetic products meeting either of two safe-harbor options (Option 1: Pb ≤2 ppm for general cosmetics or Pb ≤5 ppm for color cosmetics or clay masks, with manufacturer notification; Option 2: Pb >5 ppm and <10 ppm for color cosmetics or clay masks, with manufacturer notification and per-batch lead monitoring with retained data). The policy is interim pending Ecology's open rulemaking on lead impurities in cosmetics initiated in 2025 (WAC 173-339).
 
 ## Key numbers

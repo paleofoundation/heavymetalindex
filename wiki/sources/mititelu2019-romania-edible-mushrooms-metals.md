@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mititelu et al. 2019 - Heavy metals in wild edible mushrooms from Romanian urban areas
 
+## Overview
+
 This Romanian study measured Cd, Cu, Zn, Pb, Cr, Fe, Ni, Ca, and Mg in Boletus edulis and Hymenochaete rubiginosa collected from two urban-area soils. Mushroom concentrations were higher in samples from the more contaminated soil for several metals. The highest reported mushroom Cd and Pb values were in Hymenochaete rubiginosa from soil 2.
 
 ## Key numbers

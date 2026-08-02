@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Dokubo et al. 2023 — Heavy metals in Nigerian seasoning powders (IJSHR)
 
+## Overview
+
 This original research article measured ten metals (As, Cr, Ni, Pb, Cd, Fe, Co, Cu, Mn, V) in four brands of commercially sold dry seasoning powder purchased in Port Harcourt, Nigeria, using Flame Atomic Absorption Spectrophotometry, and computed adult-population health-risk indices (Estimated Daily Intake, Hazard Quotient, Hazard Index, and Cancer Risk) using the USEPA model. Mean Pb (6.35 ± 1.07 mg/kg) and mean Cd (0.53 ± 0.09 mg/kg) across the four brands exceeded the FAO/WHO Maximum Permissible Limits of 5.0 mg/kg and 0.3 mg/kg respectively. One brand (SP4) carried Pb at 12.61 mg/kg, more than 2.5× the MPL. Arsenic and chromium were not detected in any sample. The summed Hazard Index exceeded 1.0 for one brand (SP2 HI = 1.04). The combined Excess Cancer Risk for Ni + Pb + Cd exceeded the 1×10⁻⁴ upper bound in all four brands.
 
 ## Key numbers

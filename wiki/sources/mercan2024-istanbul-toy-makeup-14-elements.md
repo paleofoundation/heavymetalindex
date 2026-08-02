@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mercan et al. 2024 — 14-element inorganic and allergen-fragrance profile of toy makeup products from Istanbul, with health-risk modelling
 
+## Overview
+
 This open-access Environmental Science and Pollution Research paper quantifies 14 inorganic elements (Al, As, Ba, Cd, Co, Cr, Cu, Hg, Mn, Ni, Se, Sb, Pb, Zn) by ICP-MS in 63 toy makeup products (eye shadow, nail polish, lipstick-type cosmetic toys) purchased from Istanbul toy stores and computes systemic exposure dosage (SED), margin of safety (MoS), lifetime cancer risk (LCR), hazard quotient (HQ), and hazard index (HI) per SCCS 2012 dermal-exposure modelling using a 5-year-old child receptor. The qualitative organic profile of the same products is screened by GC–MS for allergen fragrance. Of 63 toy makeup samples, 57 (90.48%) exceeded at least one regulatory permissible limit for a toxic element, with descending exceedance order Ni > Cr > Co > Pb > Sb > Cd > As > Hg. The paper concludes that toy makeup products marketed in Istanbul toy stores are predominantly unsafe for children and calls for regular monitoring and stricter enforcement.
 
 ## Key numbers

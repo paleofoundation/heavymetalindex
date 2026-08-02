@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Zhang et al. 2017 — Nutrient profile of processed red raspberries for nutrition labeling
 
+## Overview
+
 This market basket study characterised the nutrient content and variation in processed red raspberry (Rubus idaeus L.) products, including individually quick frozen (IQF), puree, and juice concentrates, collected from US retail, processing plants, and distributors in 2017. The study was conducted collaboratively between Illinois Institute of Technology and USDA Agricultural Research Service (Beltsville Human Nutrition Research Center) to provide new data to the USDA nutrient composition database. Key findings: IQF and puree with seeds are excellent sources of dietary fiber (≥20% DV per FDA criteria); IQF and puree are good sources (10-19% DV) of copper, thiamin, riboflavin, and folate; all forms are excellent or good sources of vitamin C and manganese.
 
 ## Key numbers

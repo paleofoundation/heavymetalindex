@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Baptista et al. 2024 - wild-boar liver and kidney metals in Spain
 
+## Overview
+
 Baptista et al. (2024) measured metal and metalloid concentrations in liver and kidney tissues from 28 hunted wild boars in Castile and Leon, Spain. The study is routeable for game-meat and organ-meat occurrence because liver and kidney tissues are edible offal and the paper frames wild boars as part of the hunting economy and human diet in the Iberian Peninsula. Concentrations are reported in `mg/kg dry weight`; arsenic and chromium are total-element ICP-MS measurements without inorganic-arsenic or Cr-VI speciation.
 
 ## Key numbers

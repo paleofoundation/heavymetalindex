@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Levkov et al. 2017 - Trace elements in raw ewes’ milk
 
+## Overview
+
 Levkov and colleagues measured major and trace elements in raw ewes’ milk from six regions in the Republic of Macedonia. This is direct dairy-occurrence evidence in wet-weight mg/kg units, with regional variation linked by the authors to differing anthropogenic pressures.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Bondareva et al. 2024 - Arsenic species in Russian sturgeon during processing
 
+## Overview
+
 Bondareva and colleagues measured total arsenic and arsenic species in farmed Russian sturgeon fillets before and after frozen storage, salting, boiling, grilling, and hot smoking. The most relevant routeable matrix is fish, not salt: salt was a processing input and was reported below the detection limit for arsenic. Total As in fresh chilled sturgeon fillets was 5.7 +/- 0.8 mg/kg dry weight, while species data showed arsenobetaine as the dominant detected species and low inorganic arsenic in salted sturgeon and broth.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-09
 
 # Igweze et al. 2020 — Al, As, and Hg in Infant Formulas Marketed in Nigeria
 
+## Overview
+
 This A-tier peer-reviewed paper measures aluminium, total arsenic, and total mercury in 26 infant formula samples acquired in Nigeria in March 2017. The samples span three formula types: milk-based (M, n=9), cereal-based (C, n=7), and corn-meal (CM, n=10) per the paper's groupings. Author scope is exact on matrix axis for the milk-based subset (M1–M9, milk-based formulas) but the paper does not explicitly distinguish soy-based formulas within the M-group; the cereal-based and corn-meal groups are not standard HMTc Category 1 product rows and require curator review for routing. Atomic absorption spectrophotometry was used; samples were acid-digested.
 
 ## Key Numbers

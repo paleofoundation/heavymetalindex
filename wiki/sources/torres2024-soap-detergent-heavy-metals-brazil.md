@@ -31,6 +31,8 @@ ingest_method: manual_phase1
 
 # Torres et al. 2024 - Cd, Mg, Pb, Zn in Brazilian commercial soaps and powder detergent
 
+## Overview
+
 Torres, Nunes, de Paula and Paim developed and validated a wet-decomposition ICP OES procedure for the determination of cadmium, magnesium, lead and zinc in commercial soaps and powder detergent, and applied it to nine products bought in the metropolitan region of Recife (Pernambuco, Brazil). The optimised digestion used 1 mol/L HNO3 plus 30 percent H2O2 with conventional heating on a hot plate at 80 degrees Celsius for one hour; this was compared against muffle-furnace dry decomposition, microwave-assisted wet decomposition, and dissolution in nitric acid followed by direct analysis. Cadmium and lead were below the limit of detection in every sample, while magnesium ranged from 50.9 to 1119 ug/g and zinc from 280.3 to 537.5 ug/g of finished product.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Asgher, Rehaman, Islam, Arshad & Khan 2023 — Selenium-mediated tolerance of plants to heavy-metal stress (narrative review)
 
+## Overview
+
 This MDPI Agriculture review synthesises laboratory and greenhouse evidence on how exogenous selenium (Se) — applied as selenite (SeO₃²⁻), selenate (SeO₄²⁻), selenocysteine (SeCys), selenomethionine (SeMT), or selenium nanoparticles (SeNPs) — modulates uptake, translocation, antioxidant metabolism, osmolyte production, phytohormone signalling, secondary-metabolite biosynthesis, and mineral-nutrient acquisition in crop and model plants exposed to cadmium, lead, arsenic, chromium, nickel, copper, zinc, aluminium, and mercury. The paper is a narrative review with no independent measurements, no primary data extraction, and no quantitative meta-analysis; quantitative entries in Tables 1–3 are experimental treatment doses and qualitative response statements drawn from cited primary studies rather than occurrence values. It is ingested as an out-of-core-scope agronomic-mitigation-context reference following the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent for methodology / context reviews without primary metal-occurrence data; `metals: []`, `ingredients: []`, and `products: []` are correct because the paper contributes no measured contamination values to any HMI ingredient, product, or metal page. The review is potentially useful as a starting point for an HMI mitigation-lever entry on Se biofortification / Se co-application as an agronomic intervention to reduce heavy-metal accumulation in cereal and vegetable crops, but each specific mechanistic claim should be sourced from its underlying primary citation rather than from this review.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Berky et al. 2022 — Lead exposure from wild game consumption in the Peruvian Amazon
 
+## Overview
+
 Berky et al. conducted two cross-sectional studies enrolling 307 individuals across 26 communities in Madre de Dios, a remote region of the southern Peruvian Amazon where indigenous and rural communities rely heavily on wild game as a food source. The study found that wild game consumption — specifically game hunted with lead ammunition — was a significant independent risk factor for elevated blood lead levels (BLL), after adjusting for indigenous status, sex, age, water source, and smoking. Background lead exposure was estimated at 20 µg/day, with a single meal of wild game contributing approximately 500 µg Pb. The authors also document a dual burden of lead (from wild game) and mercury (from piscivorous fish consumption) in communities dependent on local food systems, with a strong correlation between BLL and mercury exposure.
 
 ## Key numbers

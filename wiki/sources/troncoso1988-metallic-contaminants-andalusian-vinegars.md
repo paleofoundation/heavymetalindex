@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Troncoso and Guzman 1988 — Metallic contaminants in Andalusian vinegars
 
+## Overview
+
 This early study measured Fe, Zn, Cu, Pb, and total As in 16 white wine vinegar samples from Western Andalusia, Spain, using direct flame atomic absorption spectrophotometry (FAAS) without prior digestion (the authors verified that no interfering components plug the flame at the working acetic-acid concentrations). The authors report no important metallic contamination overall; only one sample exceeded the Spanish regulatory limit of 1 ppm for total (Pb + As). The study is described in the abstract as the first systematic characterization of metallic content in Andalusian vinegars.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kim 2023 - Heavy metals in Korean fishery products
 
+## Overview
+
 Kim, Jeon, and Shin measured Pb, Cd, arsenic, total mercury, and methylmercury in `1186` Korean fishery-product samples. The source covers seven broad categories: sea algae, freshwater fish, marine fish, crustaceans, mollusks, tunicates, and echinoderms. Arsenic is reported as total/unspecified As in the occurrence table, while the risk section assumes inorganic arsenic for carcinogenic-risk modeling.
 
 ## Key numbers

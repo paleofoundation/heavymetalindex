@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # Blunden & Wallace 2003 — Tin in canned food: occurrence and effect review
 
+## Overview
+
 Blunden and Wallace (ITRI Ltd, UK) review the literature on tin dissolution from tinplate food and beverage cans, surveyed occurrence values in retail canned foods, published acute clinical and human-incident reports of gastrointestinal effects following ingestion of tin-rich canned products, and the chronic-effect and absorption literature for divalent inorganic tin. The review's central conclusion is that adverse gastrointestinal effects have been clinically documented at tin concentrations of approximately 700 mg/kg and above in canned foods or beverages, but that two human studies at higher concentrations reported no adverse effects, and that no published reports of acute adverse effects attributable to tin contamination in the 100-200 mg/kg range have appeared in the 25 years preceding the review. The authors estimate that approximately 4% of UK plain (unlacquered) tinplate food cans contain over 150 mg/kg tin and infer that the contents of roughly 25 million such cans containing at least 150 mg/kg tin are consumed annually in the UK alone without published acute-effect reports. The review supports the position that tin contamination at concentrations up to about 200 mg/kg in canned products is not associated with reported acute gastrointestinal effects, while noting that controlled clinical studies at these concentrations are absent. ITRI Ltd is the tin-industry research institute and the sponsorship context of the review is relevant when interpreting its overall framing.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Awata et al. 2017 — Dietary intake and metal biomarkers in US Asians: NHANES 2011-2012
 
+## Overview
+
 Note on year: the manifest assigns this paper year 2011, but the paper itself states it was received February 2016, accepted July 2016, published September 2016, and cites NHANES 2011-2012 data. The actual publication year is 2017 (Environmental Health Perspectives, vol. 125, pp. 314-323). The cite_key uses 2011 per the manifest assignment but the year field is corrected to 2017.
 
 This study evaluated dietary intake of arsenic (total and inorganic), cadmium, lead, and mercury as sources of elevated metal biomarker levels among US Asians using NHANES 2011-2012 nationally representative data. Significant associations were found between biomarker levels and estimated dietary metal intake for total arsenic, inorganic arsenic, and mercury among Asians. Asians had the highest daily fish and rice consumption across racial/ethnic groups. Fish was the major dietary contributor to tHg and tAs; rice was the major contributor to iAs. Asian Indians had lower fish consumption than other Asian subgroups, resulting in lower Hg and tAs exposure. Rice consumption was similar across Asian subgroups. Cadmium and lead dietary intake were not significantly associated with their corresponding biomarkers in this Asian sample.

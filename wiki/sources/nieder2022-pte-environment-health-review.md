@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Nieder & Benbi 2022 — PTEs in environment and human health: integrated review
 
+## Overview
+
 Nieder and Benbi provide a comprehensive narrative review of five potentially toxic elements (PTEs) — arsenic (As), cadmium (Cd), chromium (Cr), mercury (Hg), and lead (Pb) — covering their sources, biogeochemical cycling, pathways into food and water, and human health consequences. The review synthesizes global literature on concentration ranges in soil, water, and food, covers exposure routes including dietary intake, and discusses toxicological mechanisms and dose-response data for each metal. It serves as a broad reference synthesizing the primary literature on all five metals within a single framework, making it useful as a contextual anchor for regulatory limit comparisons and multi-metal exposure assessments.
 
 ## Key numbers

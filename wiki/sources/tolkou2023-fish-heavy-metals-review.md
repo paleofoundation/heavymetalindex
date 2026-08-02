@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Tolkou, Toubanaki & Kyzas 2023 — As, Cr, Cd, Pb, Hg in fish: a four-continent literature review
 
+## Overview
+
 Tolkou, Toubanaki & Kyzas (2023) present a narrative review of arsenic, chromium, cadmium, lead, and mercury concentrations in fish muscle tissues across 4 continents (Asia, Europe, Africa, Latin America), 13 countries, and more than 50 fish species, drawing on primary studies published between 2003 and 2023. The review compiles per-species mean concentrations in mg/kg, compares them against FAO/WHO permissible limits (As 0.1; Cr 0.15; Cd 0.05; Pb 0.5/2.0; Hg 0.5 mg/kg), and reports the overall sequence of accumulation in fish as As > Cr > Pb > Cd > Hg. Asia is identified as the region with the most frequent exceedances across multiple analytes, while in Europe and Africa the principal exceedance is for arsenic, predominantly in marine fish.
 
 ## Key numbers

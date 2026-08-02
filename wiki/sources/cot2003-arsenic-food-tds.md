@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # COT 2003 - total and inorganic arsenic in the 1999 UK Total Diet Study
 
+## Overview
+
 The UK Committee on Toxicity reviewed the Food Standards Agency's 1999 Total Diet Study analysis of total and inorganic arsenic in food. The statement is an A-tier agency interpretation of occurrence and exposure data across UK total-diet food groups. It is especially useful because it reports total arsenic and inorganic arsenic separately and explicitly states that fish arsenic was predominantly organic rather than inorganic.
 
 ## Key numbers

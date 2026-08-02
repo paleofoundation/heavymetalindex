@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Orosun et al. 2023 - potentially toxic metals in Nigerian vegetables
 
+## Overview
+
 Orosun and coauthors measured As, Cd, Cr, and Pb in irrigation water, soil, and two farm-grown leafy vegetables (cabbage and a plant labelled "spinach (Amaranthushybridus)") in Ilorin, Kwara State, Nigeria, and modeled non-cancer and cancer health risks using Monte Carlo simulation. The leafy-green species the paper calls spinach is Amaranthus hybridus (an African leafy green, locally called spinach), not Spinacia oleracea; this source routes to the leafy-vegetables pages rather than the spinach pages. The paper provides field/context evidence tied to contaminated irrigation and soil along the lower Niger River basin.
 
 ## Key numbers

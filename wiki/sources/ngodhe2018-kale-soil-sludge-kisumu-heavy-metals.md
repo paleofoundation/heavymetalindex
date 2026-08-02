@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Ngodhe and Odhiambo 2018 - Kale and soil near sludge irrigation in Kisumu
 
+## Overview
+
 This study measured Pb, Cu, and Zn in soil and kale grown near the KIWASCO sewage treatment plant in Obunga slum, Kisumu County, Kenya.
 
 ## Key numbers

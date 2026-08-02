@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Shah et al. 2025 — lead and chromium in commercial turmeric from Nepal
 
+## Overview
+
 Shah, Thapa, and Bhattarai measured lead and total chromium in seven commercial turmeric samples collected from local markets and supermarkets in Itahari and Biratnagar, Nepal. The source is direct turmeric occurrence evidence and is especially relevant to adulteration risk because the authors frame lead chromate as the likely concern.
 
 ## Key numbers

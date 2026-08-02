@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Wang et al. 2024 - Biochar-alginate hydrogel for cadmium soil passivation
 
+## Overview
+
 Wang and colleagues prepared a modified biochar-calcium alginate hydrogel composite, abbreviated MB-CA, and tested its ability to adsorb Cd(II) from solution and passivate cadmium in contaminated soil. This is mitigation evidence for cadmium-contaminated cultivated land; its spiked-solution and soil-culture values must not be used as product occurrence concentrations.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wang et al. 2023 — Climate-driven changes in global marine mercury cycles to 2100
 
+## Overview
+
 This PNAS study models how projected climate change will alter global marine mercury biogeochemical cycles and methylmercury (MeHg) concentrations in marine food webs through 2100. Under high-emissions scenarios (RCP8.5), ocean warming, acidification, and changes to primary productivity are projected to increase MeHg bioaccumulation in upper-trophic-level fish by 5–20 percent relative to baseline, with the largest increases in polar and sub-polar regions. Ocean deoxygenation expands anoxic zones that favor mercury methylation, amplifying MeHg in pelagic food webs. The findings suggest that climate mitigation is necessary alongside anthropogenic mercury emission controls to prevent increasing dietary MeHg exposure from seafood consumption.
 
 ## Key numbers

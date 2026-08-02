@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Saba et al. 2016 - Mercury in Suillus luteus from Poland, Belarus, and Sweden
 
+## Overview
+
 This study measured total mercury in Suillus luteus caps, stems, and underlying soil substratum from several European regions. Caps had higher mercury than stems, and soil mercury was generally low. The source is direct wild-mushroom mercury occurrence evidence on a dry-weight basis.
 
 ## Key numbers

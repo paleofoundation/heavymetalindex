@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Houlihan and Brody 2019 — HBBF: What's in My Baby's Food?
 
+## Overview
+
 Healthy Babies Bright Futures (HBBF) commissioned Brooks Applied Labs (Bothell, Washington) to test 168 commercially purchased baby food containers for four toxic heavy metals — arsenic, lead, cadmium, and mercury — across 61 brands and 13 food types purchased from 14 US metropolitan areas. Testing found detectable levels of at least one metal in 95 percent of baby foods sampled, with one in four containers positive for all four metals simultaneously. The report also commissioned Abt Associates to estimate IQ loss attributable to lead and arsenic in the diets of children aged 0 to 24 months, finding a total population-level loss exceeding 11 million IQ points from dietary exposure, with rice-based foods alone accounting for nearly one-fifth of that total.
 
 **Note on evidence tier:** This is a B-tier nonprofit report, not a peer-reviewed primary study. The laboratory results are from a single commercially accredited lab without published QC data in the main report body; they are presented without uncertainty estimates or statistical comparison across food types. The IQ-loss estimates are modeled by Abt Associates using federal dietary survey data rather than directly measured. Use with appropriate attribution.

@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Abedi et al. 2025 - Emerging versus conventional bleaching methods for edible oils
 
+## Overview
+
 Abedi and colleagues review industrial oil bleaching (IB) and four emerging alternatives — ultrasound-assisted bleaching (UAB), high-voltage electric field-assisted bleaching (HVAB), microwave-assisted bleaching (MWAB), and membrane-assisted bleaching (MAB) — across pigment removal, sterol and tocopherol retention, oxidative indices, heavy metals removal, clay consumption, and adsorption kinetics and thermodynamics. Heavy-metal-relevant content is confined to four short subsections (one per bleaching technology) plus scattered table entries. The authors summarise that bleaching clays remove trace metals (notably Fe, Cu, and a broader set including Pb, Cd, Ni, Cr, Co, Al) from crude vegetable oils by adsorption, that higher temperatures and ultrasonic or electric-field assistance enhance the metal-removal efficiency relative to conventional bleaching, and that incomplete neutralisation upstream can leave residual Ca, Mg, Pb, and P in the bleached oil. The review reports no original measurements and presents no occurrence distributions for heavy metals in finished retail edible oils.
 
 ## Key numbers

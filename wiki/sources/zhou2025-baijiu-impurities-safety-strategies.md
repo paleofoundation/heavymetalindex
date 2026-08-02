@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Zhou et al. 2025 — Exogenous impurities in baijiu: sources, detection, and safety strategies (review)
 
+## Overview
+
 Zhou, Hua, and Xu (Sichuan University of Science and Engineering; Flinders University; Sichuan Vocational College of Chemical Technology; Luzhou Key Laboratory) review exogenous impurities in baijiu, the Chinese solid-state-fermented distilled grain spirit. The review covers five impurity classes (pesticide residues, mycotoxins, heavy metals, plasticizers, and un-authorized sweeteners), their introduction pathways (raw materials, water, equipment, packaging, environment), Chinese national-standard regulatory frameworks (GB 2762-2022 for contaminants, GB 2763-2021 for pesticide MRLs, GB 2761-2017 for mycotoxins, GB 2760-2014/2024 prohibiting sweetener additions to baijiu, GB 5009-series analytical standards), analytical detection techniques (GC-MS, LC-MS/MS, ICP-MS, GFAAS, HPLC, ELISA), and control strategies. The review contributes no new measurements; heavy-metal concentration ranges in commercial baijiu are reproduced from a single underlying primary study (Newman et al. 2017, 47 samples from rural central China) and contextualised against Chinese regulatory caps.
 
 ## Key numbers

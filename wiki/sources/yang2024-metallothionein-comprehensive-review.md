@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Yang et al. 2024 — Metallothionein: a comprehensive review of classification, structure, biological functions, and applications
 
+## Overview
+
 Yang and colleagues at the Key Laboratory of Precision Nutrition and Food Quality, College of Food Science and Nutritional Engineering, China Agricultural University, with co-authors from the College of Engineering, review the published literature on metallothionein (MT) — a cysteine-rich, low-molecular-weight metal-binding protein first isolated from equine kidneys by Margoshes and Vallee in 1957. The review covers MT classification (15 evolutionary families across vertebrates, invertebrates, plants, and microbes), structure (α- and β-domains forming a dumbbell-like tertiary fold), and five categories of biological function (heavy metal detoxification, antioxidant activity, neuroprotection, anticancer effects, anti-inflammatory effects). Sections 4.1–4.3 then catalogue applications in environmental monitoring and removal of Pb, Cd, Cr⁶⁺, and Ni from contaminated water; in disease prediction and diagnosis (Wilson disease, schizophrenia, hepatocellular carcinoma); and in skincare functional ingredients. The review is a secondary narrative synthesis with no primary measurements; its value to the wiki is conceptual — it organises the MT isoform vocabulary (MT1–MT4, MT1A/B/E/F/G/H/M/X, MT2A) and the chelation chemistry that downstream pages on peptide-based detoxification and metal-binding peptide mechanisms will need.
 
 ## Why this matters

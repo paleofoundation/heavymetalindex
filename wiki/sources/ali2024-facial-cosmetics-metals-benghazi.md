@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Ali et al. 2024 - toxic metals in facial cosmetics from Benghazi markets
 
+## Overview
+
 Ali, Ahmida, Busaadia, El-zwaey, Towier, and Ahmida measured Cr, Fe, Ni, Pb, and Cd in facial cosmetics purchased from Benghazi, Libya shops during 2022. The study covered mascara, lipstick, and foundation cream and reported concentrations in `mg/kg` finished product. Sample codes are de-identified, so this page preserves product-form means/ranges and code-level maxima without attaching any brand to a contamination value.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Zavala et al. 2008 — Arsenic speciation in USA rice grain and global comparison
 
+## Overview
+
 This study analyzed arsenic speciation (arsenite As(III), arsenate As(V), dimethylarsenic acid DMA, monomethylarsenic acid MMA) in 24 U.S. rice samples at the higher end of observed total As concentrations representing rice grown in Texas (n=16), Arkansas (n=3), and California (n=5), using IC-ICP-DRC-MS, and combined these with all published global rice speciation data (105 samples total) to characterize two distinct As rice types. Arsenite and DMA were the dominant species; DMA increased linearly with total As (R²=0.92), while inorganic As remained relatively constant at approximately 0.1 mg/kg regardless of total As level. U.S. rice was predominantly the "DMA type," while rice from Asia and Europe was predominantly the "Inorganic As type." The finding has direct human health implications because the two As species types differ substantially in relative toxicity.
 
 ## Key numbers

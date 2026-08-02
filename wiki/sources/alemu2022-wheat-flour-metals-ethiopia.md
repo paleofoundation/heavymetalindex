@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Alemu et al. 2022 — Metals in wheat flour, Ethiopia
 
+## Overview
+
 This study measured concentrations of Fe, Mn, Cu, Zn, Ni, Cd, and Pb in nine samples of wheat flour purchased from Ethiopian markets, using flame atomic absorption spectrometry (FAAS). The primary food-safety interest is in Ni, Cd, and Pb. Ni ranged from 0.154 to 0.854 mg/kg (mean not reported per element; ranges are for Ethiopian samples), Cd ranged from 0.0411 to 0.216 mg/kg, and Pb was below the detection limit (LOD) of 0.043 mg/kg across all Ethiopian samples. Hazard quotients (HQ) for all metals were below 1.0, and the hazard index (HI) summing across metals was also below 1.0, suggesting no acute non-carcinogenic risk under the consumption assumptions used. Comparison with Indian wheat flour from the literature showed broadly similar Ni and Cd ranges.
 
 ## Key numbers

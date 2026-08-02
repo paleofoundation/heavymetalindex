@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Hahn et al. 2022 — Chemical contaminants in edible seaweeds of the Salish Sea
 
+## Overview
+
 Hahn et al. measured concentrations of heavy metals (cadmium, mercury, lead, arsenic, chromium, nickel, and others) as well as polycyclic aromatic hydrocarbons (PAHs) and polychlorinated biphenyls (PCBs) in three commercially harvested edible brown seaweeds collected at 43 sites across the Salish Sea (coastal Washington State, USA and British Columbia, Canada). Cadmium exceeded international regulatory limits for human consumption at every single collection site, and total arsenic concentrations were elevated across all three species. The authors conclude that current international standards for Cd and tAs in seaweed may be inadequate to protect frequent consumers of locally harvested seaweed, particularly given that inorganic arsenic is typically a small fraction of total arsenic in seaweed matrices.
 
 ## Key numbers

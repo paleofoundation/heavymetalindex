@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Yorgwara et al. 2026 - heavy metals in personal-care products from Eleme, Nigeria
 
+## Overview
+
 Yorgwara and colleagues measured Pb, Cd, total Cr, total As, total Hg, and Co in 26 cosmetic and personal-care products purchased from cosmetic stores and markets in Eleme LGA, Rivers State, Nigeria. The source groups the samples as facial cosmetics, skin/body-care cosmetics, and hair-care cosmetics, then reports concentration tables plus dermal-exposure calculations. The page preserves the source's table units and total-metal speciation, while suppressing brand and product names attached to individual contamination values.
 
 ## Key numbers

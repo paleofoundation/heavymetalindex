@@ -26,6 +26,8 @@ updated: 2026-05-09
 
 # Sadiq & Beauchemin 2021 — Multi-element risk assessment of baby rice cereals (Canada)
 
+## Overview
+
 This A-tier peer-reviewed paper from Queen's University (Ontario, Canada) measures total concentrations and bio-accessible fractions of eight elements (As, Cr, Se, Cd, Pb, Cu, Fe, Zn) in three popular brands of baby rice cereal, with HPLC-ICPMS speciation of arsenic (eight species: As(III), MMA, DMA, As(V)), chromium (Cr(III), Cr(VI)), and selenium (Se(IV), Se(VI)). The bio-accessibility data is the principal contribution: **95-100% of As is bio-accessible**, 29-100% Cr, 62-100% Pb, 70-100% Se, 63-100% Cd, 36-100% Cu, 67-100% Fe, 70-100% Zn. Speciation finds **all bio-accessible As and Se to be in As(V) and Se(VI) forms** (the most bioavailable inorganic species) and **70-100% of Cr to be in the Cr(III) form** — consistent with the Hernandez 2019 + Saraiva 2021 finding that food matrix Cr is essentially Cr(III). The authors conclude that a varied diet, not just baby rice cereal, should be fed to infants to balance As exposure. Per the corrected row-fit rule (CLAUDE.md Part 6), this routes directly to [[products/baby-cereals-dry-rice-based]] with author scope exact on matrix axis (baby rice cereal) and exact on format axis (dry baby cereal as sold).
 
 ## Key Numbers

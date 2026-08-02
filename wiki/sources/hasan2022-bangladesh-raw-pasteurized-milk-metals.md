@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hasan et al. 2022 - Heavy metals in raw and pasteurized liquid milk from Bangladesh
 
+## Overview
+
 Hasan and colleagues measured Fe, Cu, Mn, Zn, Pb, Cd, Cr, and total As in 128 milk samples from Bangladesh, split evenly between raw cow milk and liquid pasteurized milk. The paper is routeable for milk occurrence because it reports concentration means, minima, maxima, and SDs in mg/kg for each matrix, with separate raw and pasteurized rows. The highest mean values in both matrices were for Cu and Cr; Pb averaged 0.013 mg/kg in both raw and pasteurized milk, while Cd averaged 0.032 mg/kg in raw milk and 0.027 mg/kg in pasteurized milk.
 
 ## Key numbers

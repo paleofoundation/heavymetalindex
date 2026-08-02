@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Gnonsoro et al. 2021 — Heavy metals (Pb, Cd, Hg) in hydroalcoholic gels of Abidjan, Côte d'Ivoire
 
+## Overview
+
 Gnonsoro and colleagues at LANADA (Laboratoire National d'Appui au Développement Agricole) and Université Félix Houphouët Boigny measured lead, cadmium, and total mercury in 30 hydroalcoholic gels (alcohol-based hand sanitizers) collected from supermarkets in Abidjan during the first weeks of the COVID-19 pandemic in March 2020. The paper reports per-sample bar charts and pooled mean ± SD with min/max for each metal, then calculates dermal chronic daily intake (CDI), hazard quotients (HQ), hazard index (HI), and incremental lifetime cancer risk (ILCR) using standard US-EPA dermal-exposure equations parameterised for an adult (70 kg body weight, 420 cm² hand surface area, 350 days/year for 30 years). All three metals were quantifiable in most samples but all sample concentrations fell below the Health Canada cosmetic-skin limits for Pb (10 mg/kg) and Cd (3.0 mg/kg) and below the US FDA Pb-as-impurity-in-colour-additives limit (20 mg/kg); no jurisdiction-specific limit was cited for Hg in this product class. The hazard index (∑HQ) was 7.10×10⁻⁵ — three orders of magnitude below the unit threshold — and the cumulative ILCR for Pb plus Cd was 3.07×10⁻⁸, two orders of magnitude below the 10⁻⁶ insignificance floor. The authors report the per-analyte contribution to non-carcinogenic health risk in the order mercury > cadmium > lead, with mercury the dominant driver in the Kp set used (0.001 cm/h for Cd and Hg vs 0.0001 for Pb).
 
 ## Key numbers

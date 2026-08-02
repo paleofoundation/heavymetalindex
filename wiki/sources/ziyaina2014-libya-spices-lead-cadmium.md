@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ziyaina et al. 2014 — Lead and cadmium in Tripoli market spices
 
+## Overview
+
 Ziyaina and colleagues measured Pb and Cd in selected spices available in Tripoli City markets, Libya. The study covered red pepper, black pepper, turmeric, and mixed spices collected from wholesale and retail markets, then analyzed nitric-acid/hydrogen-peroxide digests by atomic absorption spectroscopy. The main occurrence signal is that Pb means were below the source-cited FAO/WHO limit, while Cd means for several spice/source combinations were above the source-cited 0.2 ppm recommendation.
 
 ## Key numbers

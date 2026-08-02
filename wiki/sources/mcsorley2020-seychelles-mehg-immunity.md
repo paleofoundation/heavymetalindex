@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # McSorley et al. 2020 — Methylmercury and immune dysregulation in Seychelles young adults
 
+## Overview
+
 This study examined associations between methylmercury (MeHg) exposure and immune function in 497 young adults (approximately age 19) from the Seychelles Child Development Study, a longitudinal cohort in the Republic of Seychelles characterized by very high habitual fish consumption (approximately 7 fish meals per week). Hair methylmercury was used as the primary biomarker of chronic MeHg exposure. The mean Y19 hair mercury was 10.23 ppm (SD 6.02), substantially above US and European reference population levels. The study found that MeHg and long-chain polyunsaturated fatty acids (LC-PUFAs) were jointly associated with markers of immune dysregulation, with opposing effects that partially modulate one another. This study contributes to the evidence base for fish consumption as a high-exposure pathway for MeHg and the co-exposure trade-off framework between MeHg and beneficial fish nutrients.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Moriceau and Naëls 2025 — ICP-MS heavy-metals measurement in cosmetic raw materials and finished products per ISO/DIS 21392:2021
 
+## Overview
+
 This Thermo Fisher Scientific application note (AN003602, January 2025) demonstrates a triple-quadrupole ICP-MS workflow on a Thermo Scientific iCAP MTX instrument for quantifying 19 trace elements in cosmetic products following ISO/DIS 21392:2021. Seventeen finished cosmetics from the French and European market and eight cosmetic raw materials were digested by microwave (Milestone ultraWAVE SRC) and analyzed in both KED and TQ-O₂ modes. The note's primary contribution is methodological — showing that TQ-O₂ mode eliminates tungsten-on-mercury (¹⁸⁴W¹⁶O¹H⁺ on ²⁰¹Hg) and zirconium-on-cadmium (⁹⁴Zr¹⁶O¹H⁺ on ¹¹¹Cd) polyatomic interferences that KED mode cannot fully suppress — but it also reports concentrations for seven aggregated finished-product categories and ten raw materials, useful as occurrence context.
 
 ## Key numbers

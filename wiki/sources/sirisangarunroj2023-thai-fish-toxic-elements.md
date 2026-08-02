@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Sirisangarunroj et al. 2023 — Toxic heavy metals in 15 Thai fish species, Bangkok markets
 
+## Overview
+
 Sirisangarunroj et al. measured total arsenic, cadmium, mercury, and lead in 15 commonly consumed fish species (7 freshwater, 8 marine) purchased from three local fish markets in or near Bangkok, Thailand. All analyses used ICP-MS-MS (Agilent 8800 triple-quadrupole) following microwave acid digestion and AOAC Official Method 2015.01; concentrations are reported as mg/kg fresh weight (FW) with n=3 markets per species. No HPLC-ICP-MS speciation was performed; all arsenic values are total arsenic (tAs), not inorganic arsenic. The study found grouper to be the highest-risk species, exceeding both Thailand's national As standard (2 mg/kg) at 8.51 mg/kg and the Codex Hg standard (0.5 mg/kg) at 0.55 mg/kg FW (mercury in cooked form). Lead was below LOQ in all 15 species. Risk assessment using national food consumption survey data found a high arsenic margin of exposure concern for young children (0–5.9 years) consuming high-arsenic marine fish and striped snake-head fish; a high mercury HQ risk was identified for marine fish under high-consumption or high-mercury scenarios.
 
 ## Key numbers

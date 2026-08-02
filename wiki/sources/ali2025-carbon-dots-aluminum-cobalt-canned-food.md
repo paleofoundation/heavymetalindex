@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Ali et al. (2025) develop a carbon dots-based dual-analyte fluorometric sensor for the simultaneous detection of aluminum (Al3+) and cobalt (Co2+) in canned food products. The sensor is validated in canned tomato sauce and canned tuna as real food matrices, making this one of the few papers in this batch that tests directly in food rather than water.
 
 ## Key numbers

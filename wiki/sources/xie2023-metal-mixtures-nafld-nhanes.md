@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Xie et al. 2023 — Metal mixtures and NAFLD/MAFLD: NHANES 2003–2018
 
+## Overview
+
 This large cross-sectional study uses National Health and Nutrition Examination Survey (NHANES) data from 2003 to 2018 (n=5,548 US adults) to investigate associations between 13-metal urinary mixtures and non-alcoholic fatty liver disease (NAFLD) and metabolic-associated fatty liver disease (MAFLD), as well as liver fibrosis severity. Metals measured include arsenic (As), cadmium (Cd), lead (Pb), mercury (Hg), barium (Ba), cobalt (Co), cesium (Cs), molybdenum (Mo), antimony (Sb), thallium (Tl), and tungsten (W). The analysis uses weighted quantile sum (WQS) regression and Bayesian kernel machine regression (BKMR) to characterize mixture effects while accounting for co-exposures.
 
 ## Key numbers

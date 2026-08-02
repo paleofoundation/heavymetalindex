@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Dulshan et al. 2018 - Clay water filter for CKDu-related nephrotoxic constituents
 
+## Overview
+
 Dulshan and colleagues evaluated a clay-and-rice-husk point-of-use water filter for removal of nephrotoxic water constituents associated with CKDu-prevalent areas in Sri Lanka. This is a2 mitigation evidence: it uses synthesized feed waters and treatment performance metrics rather than a packaged-water occurrence survey.
 
 ## Key numbers

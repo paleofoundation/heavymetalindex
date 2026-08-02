@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Gacal et al. 2023 - Cadmium and lead in gluten and gluten-free bread, Poland
 
+## Overview
+
 Gacal et al. (2023) measured cadmium and lead in 50 bread samples purchased in Silesia Province, Poland, then estimated non-cancer and cancer risk across eight age groups. The study is a finished-product bread occurrence source for Cd and Pb, with separate rows for gluten-free, wheat-rye, wheat, and rye bread. The authors' initial hypothesis was that gluten-free bread would be more contaminated because many gluten-free formulations use rice or maize flour, but measured Cd was lowest in the gluten-free group and Pb was above LOQ in only one wheat-bread sample.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Bandara et al. 2025 — Bael herbal-tea mineral and heavy-metal profile
 
+## Overview
+
 Bandara et al. formulated herbal tea from bael whole flowers, stamens, and immature fruits and measured mineral content by ICP-MS. The heavy-metal relevance is narrow but routeable: Table 5 reports ppm values for Al, Cr, Mn, Ni, Ba, and Pb, with As, Cd, and Hg not detected in all three tea preparations. This source supports occurrence context for herbal botanical infusions rather than a broad tea-market benchmark.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Keles and Genccelep 2023 - Elements in wild mushrooms from Turkiye
 
+## Overview
+
 Keles and Genccelep measured mineral and toxic element concentrations in 24 wild edible mushroom species from the Eastern Black Sea Region of Turkiye. The paper reports dry-weight concentrations for Ni, Cd, Pb, Mn, Fe, Zn, and Cu, plus nutritional elements. It is direct wild-mushroom occurrence evidence and is most useful when species and dry-weight basis are preserved.
 
 ## Key numbers

@@ -33,6 +33,8 @@ created_by: claude-opus-4-7
 
 # U.S. PIRG 2010 — Trouble in Toyland: The 25th Annual Survey of Toy Safety
 
+## Overview
+
 This U.S. PIRG Education Fund report is the 25th annual installment of an advocacy survey of toy and children's-product safety in the U.S. market. It combines two evidence streams: (a) U.S. PIRG-commissioned XRF screening and ICP-MS / GC-MS confirmatory testing of toys and children's jewelry purchased at national chain retailers in September-October 2010, and (b) a one-year compilation of Consumer Product Safety Commission (CPSC) recall actions on chemical, choking, and other hazards from October 2009 through October 2010. For Heavy Metal Index purposes, the report's heavy-metal content covers lead (Pb) and antimony (Sb) point measurements on individual retail-purchased toys, plus a regulatory-event compilation of CPSC lead and cadmium recall counts under the Consumer Product Safety Improvement Act of 2008 (CPSIA, Public Law 110-314). The report also serves as a public-facing summary of the ASTM F963-07 / CPSIA Section 106 soluble-element migration limits for eight metals in children's-product surface coatings (Sb, As, Ba, Cd, Cr, Pb, Hg, Se).
 
 **Note on evidence tier:** This is a B-tier advocacy NGO report, not peer-reviewed primary literature. PIRG's lab values are point screenings of individual purchased items selected for their hazard potential; the report does not present sampling design, per-category n, detection rates, or statistical comparison across product types. The CPSC recall counts are public-record regulatory data compiled by PIRG. Use the lab values as bounded illustrative anecdotes and the recall counts as regulatory-event context.

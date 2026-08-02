@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Chepak et al. 2023 — FRET light-harvesting nanoprobe for trace Hg2+ detection
 
+## Overview
+
 This paper from the Russian Academy of Sciences (Far Eastern Branch) reports a new thiated rhodamine-lactam probe (d114) for Hg2+ detection incorporated into light-harvesting FRET nanoparticles. By engineering fluorescent nanoparticles in which Coumarin-30 dye cations are separated by fluorinated tetraphenylborate anions (preventing self-quenching), the authors create an antenna effect of approximately 300-fold signal amplification. This allows the fabricated "off/on" sensor to achieve an Hg2+ detection limit of approximately 100 pM — substantially below the WHO maximum permissible concentration of mercury in drinking water. The authors describe this as a proof-of-concept demonstration rather than a ready-to-use analytical procedure. No food matrix testing was performed.
 
 ## Key numbers

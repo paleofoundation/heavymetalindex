@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Mehouel 2021 - Algerian seafood metals review
 
+## Overview
+
 Mehouel and Fowler reviewed published concentrations of arsenic, cadmium, lead, total mercury, and methylmercury in seafood species from Algerian coastal waters and compared selected data with neighboring Mediterranean studies from Tunisia and Morocco. The source is secondary evidence: it compiles values from earlier seafood studies rather than generating new measurements. Arsenic is reported as `As` without inorganic speciation, while mercury values distinguish `Hg` from `MeHg` where the source does so.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Wang et al. 2023 — Toxic metals in daily diets of industrial Ningxia residents
 
+## Overview
+
 A comprehensive dietary survey in industrial northern Ningxia, China found elevated concentrations of multiple toxic metals (Al, As, Cr, Cd, Cu, Ni, Pb, Zn) in drinking water and seven food categories. Total noncarcinogenic hazard index from combined dietary metal exposure was 5.61, well above the threshold of 1, with cereals contributing the highest non-carcinogenic risk (HI = 1.21). Total carcinogenic risk was 9.98 × 10⁻⁴, above the acceptable 10⁻⁴ threshold; 87% of residents were exposed to unacceptable carcinogenic risk according to Monte Carlo simulation. Cereals had the highest lead over-standard rate (5.1% exceeding 0.2 mg/kg), beans had 60% Pb exceedance, and solanaceous vegetables had 38.2% Pb exceedance. As in drinking water exceeded the safe limit of 0.01 mg/L in 16.7% of samples; Pb exceeded 0.01 mg/L in 11.1% of drinking water samples.
 
 ## Key numbers

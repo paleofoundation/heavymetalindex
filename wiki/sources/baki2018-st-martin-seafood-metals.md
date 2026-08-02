@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Baki 2018 - St. Martin Island seafood metals
 
+## Overview
+
 Baki and colleagues measured Cr, Mn, Cu, Zn, arsenic, Cd, Pb, Hg, and Fe in fish and crustaceans from Saint Martin's Island, Bangladesh. The sampled seafood included eight fish species plus shrimp, lobster, and crab species, with crustacean muscle and shell/carapace fractions analyzed separately. The occurrence tables report concentrations on a `mg/kg ww` basis; the text describes the arsenic measurement as inorganic As and reports mercury as total/unspecified Hg, not methylmercury.
 
 ## Key numbers

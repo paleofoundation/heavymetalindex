@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abdelnaby et al. 2022 — Lead and cadmium in Egyptian milk with natural adsorbent remediation
 
+## Overview
+
 Abdelnaby et al. measured lead (Pb) and cadmium (Cd) in 35 Egyptian cow milk samples from farms, independent farmers, and dairy shops in El-Qalyubia governorate, then tested bentonite clay, date pit powder, and chitosan nanoparticles as adsorbents for contaminated milk. The paper is routeable as Egyptian dairy occurrence evidence and as mitigation-method context, with concentrations reported in mg/kg wet-weight milk.
 
 ## Key numbers

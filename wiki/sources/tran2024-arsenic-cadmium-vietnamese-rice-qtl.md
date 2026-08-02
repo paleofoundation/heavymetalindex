@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Tran et al. 2024 — Arsenic and cadmium in 184 Vietnamese rice landraces (QTL mapping study)
 
+## Overview
+
 This genome-wide association study (GWAS) characterized the natural variation in grain mineral accumulation across 184 Vietnamese rice landraces, reporting ICP-MS measurements of 23 elements including arsenic (As, reported as total arsenic by ICP-MS without speciation) and cadmium (Cd) in both brown and white rice grains. The study identified 27 significant QTL associations; 5 are for grain arsenic content and 2 for cadmium content. For As in brown rice, the mean was 0.16 ppm (SD 0.07; range 0.01–0.35), and for white rice, the mean was 0.11 ppm (SD 0.05; range 0.01–0.29). For Cd in brown rice, the mean was 0.21 ppm (SD 0.10; range 0.02–0.53), and in white rice, the mean was also 0.21 ppm (SD 0.10; range 0.01–0.53). High heritability was observed for both metals: H² ≥ 0.78 for As and ≥ 0.95 for Cd, indicating strong genetic control.
 
 ## Key numbers

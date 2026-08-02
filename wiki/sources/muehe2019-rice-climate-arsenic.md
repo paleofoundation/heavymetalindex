@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Muehe et al. 2019 — Rice grain arsenic doubles under projected climate warming
 
+## Overview
+
 Using outdoor mesocosm experiments at the University of California Davis with California-grown short-grain rice (*Oryza sativa* cv. M206), Muehe et al. demonstrate that projected end-of-century warming (approximately +5°C above ambient) combined with elevated CO₂ doubles the concentration of inorganic arsenic (iAs) in rice grain relative to current ambient conditions. The mechanism is twofold: warming accelerates microbial reduction of iron-oxyhydroxides in flooded paddy soils, releasing sorbed arsenate into porewater, while elevated CO₂ increases root exudation of organic acids that further mobilize arsenic; both effects increase iAs uptake via aquaporin channels. The study is notable because it characterises a climate-driven geographic variance mechanism that operates within a single production region — California — rather than between regions, providing a forward-looking risk basis for rice supply chains that currently source from California as a lower-arsenic alternative.
 
 ## Key numbers

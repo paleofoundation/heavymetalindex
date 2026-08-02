@@ -28,6 +28,8 @@ updated: 2026-05-15
 
 # Gardener et al. 2019 — Lead and cadmium in 564 US baby foods and infant formulas (Clean Label Project)
 
+## Overview
+
 This Clean Label Project-funded study is one of the largest single-point examinations of heavy metal contamination in US commercial baby food to date, testing 564 products for Pb and Cd by ICP-MS across eight product sub-categories: infant formula (n=91), cereals (n=30), kids' meals (n=23), toddler formula (n=22), juices/drinks (n=30), jars/first meals (n=107), pouches (n=140), snacks (n=107), and electrolyte solutions (n=14). Lead was detected in 37% of samples and Cd in 57%. The study's central finding for infant formula is that none of the 91 formulas exceeded the FDA's 6 µg/day provisional limit for lead at a 4-month-old's recommended daily intake (31 oz), but 22% exceeded California Proposition 65's stricter 0.5 µg/day lead limit, and 23% exceeded Proposition 65's 4.1 µg/day cadmium limit. Rice-containing products had the highest Pb and Cd concentrations across all baby food sub-categories, and organic certification was not protective.
 
 ## Key numbers

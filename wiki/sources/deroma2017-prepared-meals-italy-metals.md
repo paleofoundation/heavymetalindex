@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # De Roma et al. 2017 — Cd, Pb, Hg, and As in prepared meals in Italy
 
+## Overview
+
 De Roma and colleagues measured cadmium, lead, mercury, and arsenic in prepared meal composites collected in Italy as practical surrogates for dietary-intake assessment. The 17 composites included baby food for toddlers, school canteen meals for children, adult canteen/fast-food/duplicate-portion meals, a vegetarian meal, and restaurant/hotel-school meals. The occurrence table is whole-composite prepared-meal evidence; it does not identify the contaminant concentration of individual menu ingredients. Arsenic and mercury are reported as total elements only, not inorganic arsenic or methylmercury.
 
 ## Key numbers

@@ -33,6 +33,8 @@ updated: 2026-06-08
 
 # David et al. 2008 — Heavy metals in canned tomato paste (Romania)
 
+## Overview
+
 This Romanian study measured eight heavy metals (Cr, Fe, Pb, Cd, Sn, Al, Zn, As) in five commercially available canned and plastic-packaged tomato paste and tomato-sauce products sourced from the Romanian retail market, using atomic absorption spectrometry and cyclic voltammetry, to evaluate packaging-related contamination risk. The authors conclude that tin (Sn) and aluminium (Al) exceeded legally admitted Romanian concentrations in metal-canned products, particularly the Italian imports. Cadmium reached its highest measured value in one of the Italian metal-canned sauces (0.111 ppm), and lead reached an anomalously high value in the same sample (2.10 ppm) that exceeds typical EU limits for processed tomato products though the authors do not flag it explicitly. Total arsenic was below the limit of detection in all samples. The study highlights the metal-can packaging pathway, especially weld-seam migration, as a significant contamination vector for Sn, Fe, and Al in acidic tomato products, consistent with acid-driven leaching from tin-plate cans.
 
 ## Key numbers

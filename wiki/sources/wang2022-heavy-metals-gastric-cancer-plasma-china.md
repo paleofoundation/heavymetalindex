@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wang et al. 2022 — Heavy metal plasma concentrations in gastric cancer patients vs healthy controls (China)
 
+## Overview
+
 A case-control study at a single hospital in Changzhi, China measured 18 heavy metals in blood plasma of 105 gastric cancer patients and 62 healthy controls by ICP-MS (Agilent 7800), finding significantly elevated Cr, Cu, Hg, Pb, Sb, Sn, Tl, and V in GC patients compared with controls. The authors also assessed MSI (microsatellite instability) status, HER2 gene amplification, and traditional serum biomarkers in subsets, finding that antimony (Sb) concentration was positively correlated with MSI status (r = 0.22, p < 0.05), and that Hg, Sn, and Tl were elevated in HER2-positive patients. As, Mn, Se, Sr, and Zn were significantly lower in GC patients than controls, suggesting complex metal homeostasis disruption associated with gastric cancer.
 
 ## Key numbers

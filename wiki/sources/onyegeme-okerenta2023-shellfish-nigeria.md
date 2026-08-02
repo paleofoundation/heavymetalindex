@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Onyegeme-Okerenta & West 2023 — Shellfish PTE contamination, Niger Delta Nigeria
 
+## Overview
+
 Onyegeme-Okerenta and West measured five potential toxic elements (As, Cd, Cr, Pb, Ni) in three shellfish species — shrimp (Penaeus monodon), oyster (Crassostrea rhizophorae), and periwinkle (Tympanostomus fuscatus) — from three rivers in the Niger Delta region of Nigeria (Buguma, Krakrama, Bonny Rivers), which are heavily impacted by oil and gas exploration and illegal artisanal refining. Concentrations in several species from the Buguma River exceeded FAO/WHO and EU regulatory limits for Cd and Cr. Dietary intake calculations for children showed Cd exposure from P. monodon and T. fuscatus from Buguma exceeds the tolerable daily intake, and Pb EDI for both age classes frequently exceeded TDI from several shellfish/river combinations. Hazard index (HI) values were above 1 for all species due primarily to elevated chromium, and total cancer risk (TCR) values for all species from all rivers exceeded the 1×10−4 priority risk threshold.
 
 ## Key numbers

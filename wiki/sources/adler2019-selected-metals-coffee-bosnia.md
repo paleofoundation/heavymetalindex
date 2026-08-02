@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Adler et al. 2019 - selected metals in coffee from Bosnia and Herzegovina
 
+## Overview
+
 This study measured selected metals in green coffee beans, roasted coffee beans, and Turkish-style coffee infusions prepared from roasted coffee purchased in Sarajevo, Bosnia and Herzegovina. The study is direct coffee occurrence evidence for Cd, Pb, Ni, Al, Cu, Zn, Fe, and Mg, with transfer-to-infusion percentages for six roasted-coffee samples.
 
 ## Key numbers

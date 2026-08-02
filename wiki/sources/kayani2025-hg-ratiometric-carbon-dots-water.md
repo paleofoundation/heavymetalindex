@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Kayani 2025 — Ratiometric fluorescence probe for Hg2+ detection in water
 
+## Overview
+
 This paper reports the development of a dual-emission carbon dot (CD) ratiometric fluorescence probe combining green-emitting CDs (g-CDs, synthesized from 2,3-dihydroxyquinoxaline) and red-emitting CDs (r-CDs, from cellulose in phosphoric acid) for selective detection of Hg2+ in water. The sensor operates by quenching green fluorescence at 520 nm in the presence of Hg2+ while the red emission at 600 nm serves as an internal reference. Real sample validation was conducted on tap and bottled water with recovery values of 96.8–105.7% (RSD 1.1–2.5%, n=3). The method is applied to environmental water matrices only; no food matrix application is reported.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Hussain et al. 2021 - Nigella seed extract and maize Cd stress
 
+## Overview
+
 Hussain and colleagues tested whether foliar seed-water extract of Nigella sativa could mitigate cadmium stress in maize grown in Cd-spiked soil. This is a mitigation and soil-to-plant pathway paper, not cumin or black-cumin occurrence evidence: Nigella seed extract is the intervention, and the measured heavy-metal endpoint is Cd accumulation in maize leaves.
 
 ## Key numbers

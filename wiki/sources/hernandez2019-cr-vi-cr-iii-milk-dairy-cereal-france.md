@@ -27,6 +27,8 @@ updated: 2026-05-09
 
 # Hernandez et al. 2019 — Cr(VI) and Cr(III) in milk, dairy and cereal products (France)
 
+## Overview
+
 This A-tier peer-reviewed analytical study determines total chromium and hexavalent chromium in 68 French food samples representing milk, dairy, and cereal products — the categories that contribute 32% of total Cr dietary exposure for French adults and 42% for French children. The headline finding is that **Cr(VI) was not detected in any of the 68 samples** despite high method sensitivity (Cr-VI LOD 0.3-0.4 µg/kg), confirming the EFSA 2014 assessment that food matrices reduce hexavalent chromium to the trivalent form (Cr(III)). Total Cr was quantified in 58% of dairy and 76% of cereal samples; the highest mean total Cr was in breakfast cereals (269 µg/kg fresh weight) and cheese (25 µg/kg fw). The authors explicitly address older studies that reported detected Cr(VI) in food (Figueiredo et al. 2007, Ambushe et al. 2009, Soares et al. 2010, Mandiwana et al. 2011 reporting Cr(VI) at 1.3-20% of total Cr) and conclude those were "probably due to analytical artefacts or lack of specificity" given that newer LC-ICP-MS speciation finds Cr(VI) absent. Per the corrected row-fit rule (CLAUDE.md Part 6), this paper's findings extend by chemistry mechanism to infant cereal and milk-based formula matrices even though the samples are general-population French foods.
 
 ## Key Numbers

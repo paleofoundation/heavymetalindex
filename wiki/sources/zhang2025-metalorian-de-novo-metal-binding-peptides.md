@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zhang et al. 2025 — Metalorian: a classifier-guided diffusion model that designs *de novo* heavy-metal-binding peptides, with in vitro validation against Cu and Zn
 
+## Overview
+
 Zhang and colleagues (University of Pennsylvania, Duke-NUS Medical School, Duke University) report a two-component computational platform for *de novo* design of heavy-metal-binding peptides: **MetaLATTE**, a multi-label classifier built on the ESM-2 protein language model that predicts metal-binding propensity across 14 transition/heavy metals from sequence alone, and **Metalorian**, a co-evolving conditional diffusion model that uses MetaLATTE as a guidance classifier to generate short metal-binding peptides (30-80 residues) with controllable length and target-metal specificity. The pipeline was validated in two stages: (i) in silico molecular-dynamics simulations comparing generated Cu- and Cd-binding peptides to wild-type metal-binding proteins, and (ii) in vitro ELISA-based binding assays for three SUMO-fusion-expressed Metalorian-generated constructs (two Cu binders and one Zn binder) against Cu- or Zn-coated microplates. The MbPA training database covers fourteen metal labels (Ag, Cd, Co, Cu, Fe, Hg, Mn, Mo, Ni, Pb, Pt, V, W, Zn). The paper is a methods-and-design contribution; there are no food, cosmetic, or human-exposure measurements. It is a bioRxiv preprint posted 2025-07-10 and not certified by peer review.
 
 ## Why this matters

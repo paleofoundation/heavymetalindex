@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Kicińska & Kowalczyk 2025 — Heavy metals (Cr, Fe, Mn, Ni, Zn) in online-market cosmetics with QRA-based health risk
 
+## Overview
+
 This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 23 cosmetic products (foundations, blushes, lipsticks, face creams, face masks, eye shadows) purchased from the online consumer market and computed margin of safety (MoS), hazard quotient (HQ), hazard index (HI), lifetime cancer risk (LCR) and quantitative risk assessment (QRA) per US EPA guidelines. Mean concentrations ranked Fe (6,407) > Zn (190) > Mn (88) > Cr (24) > Ni (8) mg/kg across the 23-sample set. The authors concluded that the calculated MoS, HQ and HI values for all cosmetic samples indicated the products do not present a risk to human health under modeled use, but reported elevated maxima for Cr (416 mg/kg in a blush) and Ni (95 mg/kg in the same blush) that exceed values reported in literature for those product categories.
 
 ## Key numbers

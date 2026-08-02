@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Dogruyol et al. 2024 — Toxic trace elements and Se in farmed Mediterranean mussels, Türkiye and Bulgaria
 
+## Overview
+
 Dogruyol et al. measured selenium, cadmium, mercury, and lead in farmed Mediterranean mussels (*Mytilus galloprovincialis*) collected seasonally from four aquaculture farms — three on Turkish coasts (M1, M2, M3) and one in Bulgaria (M4). Analysis was by ICP-MS (Perkin Elmer NexION 1000) following microwave acid digestion (AOAC 999.10). CRM ERM-CE278k recoveries were 99–113%. All Hg is total mercury; the authors assumed 80% MeHg fraction for risk assessment following EFSA guidance, but no direct MeHg speciation was performed. All reported metals (Cd, Hg, Pb) were below EU and Codex maximum limits at the annual farm-mean level. The exception was a single spring sample from M2 (Pb 0.372 µg/g), which marginally exceeded the Codex recommended limit of 0.30 µg/g for mollusks. THQ and TTHQ values for Se, Cd, and MeHg were all below 1 for both Turkish and Bulgarian consumer consumption patterns; MOE-SBP and MOE-NE for Pb were well above 10. Se health benefit values (HBVSe 10.1–37.3) indicated that Se in mussels substantially outweighed any MeHg-associated risk.
 
 ## Key numbers

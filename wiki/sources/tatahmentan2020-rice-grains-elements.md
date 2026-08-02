@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # TatahMentan 2020 - Rice and other grain elements
 
+## Overview
+
 TatahMentan and colleagues measured toxic and essential elements in rice and other grains purchased from Louisiana retail stores. The occurrence-relevant toxic elements were total arsenic, lead, and cadmium, reported on a dry-weight basis for U.S. white rice, imported white rice, U.S. brown rice, and a grouped "other grains" category. The study also analyzed rinse-washed white rice for selected elemental-loss comparisons.
 
 ## Key numbers

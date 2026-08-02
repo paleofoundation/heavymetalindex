@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Palka et al. 2022 — Rabbit meat and liver metals after nettle or fenugreek feed supplementation
 
+## Overview
+
 Palka et al. measured Zn, Cu, Ni, Fe, Mn, Cd, and Pb in rabbit liver, rabbit loin meat, and the nettle-leaf or fenugreek-seed feed additives used in a controlled feeding trial. The source is direct occurrence evidence for rabbit meat and liver on a wet-weight basis, and mitigation/formulation context for herbal feed additives because the authors compared unsupplemented feed with 1% nettle or fenugreek inclusion.
 
 ## Key numbers

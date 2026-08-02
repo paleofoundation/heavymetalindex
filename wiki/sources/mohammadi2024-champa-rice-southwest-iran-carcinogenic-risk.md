@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Mohammadi et al. 2024 — Carcinogenic risk of heavy metals in Champa rice, southwestern Iran
 
+## Overview
+
 This study measured Pb, Cd, Zn, and Ni in 16 samples of locally grown Champa rice purchased from farmers in Lordegan (Chaharmahal and Bakhtiari Province) and Ahvaz (Khuzestan Province), southwestern Iran, and computed carcinogenic risk (CR) and non-carcinogenic hazard quotients (HQ) for children and adults. Mean Pb in Champa rice from both cities exceeded the Iranian national rice limit (0.15 mg/kg) by roughly seven-fold in Lordegan and nine-fold in Ahvaz; mean Cd and Ni were within Iranian and Codex limits in both cities. CR values for Pb, Cd, and Ni were within the USEPA-defined acceptable range (1×10⁻⁶ to 1×10⁻⁴) and HQs were all below 1, leading the authors to characterize cancer and non-cancer risk as within the safe range despite the Pb exceedance.
 
 ## Key numbers

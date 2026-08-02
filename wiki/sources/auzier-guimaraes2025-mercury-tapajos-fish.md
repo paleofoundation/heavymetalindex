@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Auzier Guimarães et al. 2025 — Mercury in fish from the Tapajós River Basin: systematic review and health risk
 
+## Overview
+
 This systematic review compiled 36 studies published between 1992 and 2022 covering 143 fish species (14,113 individuals, 735 mean Hg values) from the Tapajós River Basin in the Brazilian Amazon, a region heavily impacted by artisanal gold mining. Mercury concentrations in fish muscle tissue ranged from 0.01 to 3.82 mg/kg across all trophic levels, with piscivorous species showing the highest levels and clear spatial clustering in the middle Tapajós, upper Tapajós, and Teles Pires sub-basins, which are identified as Hg contamination hotspots closely associated with illegal gold mining activity. Using the Target Hazard Quotient (THQ) at the local average consumption of 116.25 g/capita/day, 89% of the 129 food-fish species evaluated showed THQ ≥1 in at least one sub-basin, indicating potential chronic health risk in the authors' model; the MSCQ analysis indicated that 75% of evaluated food species fell below the local average daily intake threshold in at least one sub-basin. Received July 2024, accepted October 2024, published October 30, 2024 online; printed in ACS Environ. Au 2025, 5, 86–100.
 
 ## Key numbers

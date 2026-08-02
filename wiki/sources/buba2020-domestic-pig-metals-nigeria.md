@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Buba et al. 2020 - domestic pig metals in Nigeria
 
+## Overview
+
 Buba and colleagues measured lead, iron, cadmium, nickel, and copper in domestic pig kidney, liver, and muscle samples purchased from ten commercial sellers in Guyuk Metropolis, Adamawa State, Nigeria. The paper reports tissue means in `mg/g` after drying, ashing, acid digestion, and AAS analysis. The units and tissue labels are preserved as printed; no conversion to `mg/kg` was performed.
 
 ## Key numbers

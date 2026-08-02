@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Holbert et al. 2023 — Mercury in Hawaiian recreational fish
 
+## Overview
+
 Holbert and colleagues measured total mercury (THg) in muscle, liver, and kidney tissues of four nearshore recreational fish species commonly caught around O'ahu, Hawai'i: giant trevally, bluefin trevally, and two species of bonefish. The study compared THg to FDA and EPA consumption advisory benchmarks. Both bonefish species had mean muscle THg exceeding FDA/EPA benchmarks, suggesting consumption advisories should be considered. The authors also evaluated metallothionein (MET) and thioredoxin reductase (TrxR) mRNA expression as molecular biomarkers of mercury exposure, finding that MET expression in round jaw bonefish kidney tissue showed a marginally significant positive correlation with kidney THg.
 
 ## Key numbers

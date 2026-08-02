@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Saleem et al. 2025 — Metal concentrations and health risk assessment in locally grown vegetables, Grand Forks, North Dakota
 
+## Overview
+
 This study measured 16 metals (Na, Mg, K, Ca, Fe, Se, Mn, Cu, Zn, Co, Hg, Cr, Ni, As, Cd, Pb) in 82 samples of 13 vegetable species from a local farmer's market in Grand Forks, North Dakota, and assessed non-carcinogenic and carcinogenic health risks. Spinach showed the highest total metal burden and the highest concentrations of Cd, Cr, Pb, and Hg among the 13 species. Cadmium levels exceeded FAO/WHO maximum allowable concentrations in 100% of samples of tomato, green chili, white eggplant, capsicum, and spinach, and in 86% of onion, sugar beet, and potato samples. Non-carcinogenic target hazard quotients (THQ) exceeded 1 for Cd, Co, and As in most vegetable species; mean carcinogenic target cancer risk (TCR) values for Cr, Ni, As, and Cd all exceeded 1.0 × 10−4, indicating carcinogenic risk by USEPA criteria.
 
 ## Key numbers

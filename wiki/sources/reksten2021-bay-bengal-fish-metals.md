@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Reksten et al. 2021 — Heavy metals in 24 fish species from the Bay of Bengal
 
+## Overview
+
 This study measured tAs, Cd, tHg, and Pb in 1,111 individual fish spanning 24 commercially important species collected from the Bay of Bengal coast in Sri Lanka and Bangladesh. With the largest individual-level sample size yet reported for Bay of Bengal fish metal contamination, it provides robust species-level distributions and a complete health risk assessment including target hazard quotients (THQ), hazard index (HI), and carcinogenic risk estimates. The most notable finding is cadmium: 58% of sampled small fish (body length ≤25 cm) exceeded the EU maximum limit of 0.050 mg/kg for Cd in fish muscle, driven by species that are consumed whole rather than filleted.
 
 ## Key numbers

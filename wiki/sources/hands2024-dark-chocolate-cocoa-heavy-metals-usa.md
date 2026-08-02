@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hands et al. 2024 — Multi-year heavy metal survey of 72 US dark chocolate and cocoa products
 
+## Overview
+
 This multi-year study analyzed 72 popular consumer cocoa-containing products purchased in the United States across four cohorts (2014, 2016, 2019, 2022) for lead (Pb), cadmium (Cd), and total arsenic (tAs) using ICP-MS following acid digestion. The study is notable for documenting temporal trends (declining Pb and Cd across cohorts) and the counterintuitive finding that organic-certified products carried significantly higher Cd concentrations than non-organic counterparts. Across all products, 43% exceeded California Proposition 65 MADLs for Pb per serving and 35% exceeded Prop 65 MADLs for Cd per serving, but median concentrations fell below the Prop 65 thresholds, indicating a strong influence of high-contamination outliers on mean values. Arsenic concentrations were universally below Prop 65 limits.
 
 ## Key numbers

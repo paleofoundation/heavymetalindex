@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Yun et al. 2022 — In silico pediatric dermal absorption model
 
+## Overview
+
 This Pharmaceutics paper constructs an age-dependent pediatric dermal absorption model by extending the Dancik et al. 2013 mechanistic skin-permeation model (implemented in MoBi / Open Systems Pharmacology v8.21) with maturation functions for stratum corneum thickness, viable epidermis thickness, dermis thickness, and skin hydration as functions of postnatal age. Predictive performance evaluated against in vitro neonatal-skin permeation of three drugs (buprenorphine, diamorphine, phenobarbital). The paper does not include heavy-metal occurrence data; it is a model-development paper that produces maturation equations relevant to children's dermal exposure modeling.
 
 ## Key numbers

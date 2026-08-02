@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Adams et al. 2017 - Nigerian processed spices metals
 
+## Overview
+
 Adams et al. tested four Nigerian spice products for genotoxicity, microbial load, proximate composition, and heavy-metal content. The heavy-metal table is direct spice occurrence evidence for cadmium and nickel in curry, thyme, suya spice, and pepper-soup spice, with lead reported as not detected in all four products. Pepper-soup spice was the only product with detectable chromium.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Babayo et al. 2026 — Contamination factor, metal pollution index, and EDI of heavy metals in selected energy drinks from Nigeria
 
+## Overview
+
 Babayo and colleagues (Gombe State University; Abubakar Tafawa Balewa University, Bauchi; Yobe State University, Damaturu) quantified cobalt (Co), chromium (Cr), cadmium (Cd), arsenic (As), nickel (Ni), and lead (Pb) in thirty commercially available energy-drink samples purchased from Nigerian retail outlets, comprising twenty-three liquid formulations and seven powdered formulations. Liquid samples were digested with aqua regia (HCl:HNO₃ 3:1) on a Kjeldahl heater for 4–5 hours and analysed by atomic absorption spectrophotometry (AAS; Bulk 205 instrument). Powdered samples were pressed into 25 mm pellets with a hydraulic press, covered with a 6 µm polypropylene film, and analysed by X-ray fluorescence (XRF). Contamination Factor (CF), Metal Pollution Index (MPI), and Estimated Daily Intake (EDI) were computed for both adults (60 kg body weight; 0.6 L/day intake) and children (20 kg body weight; 0.3 L/day intake). The authors report that cadmium, nickel, and lead were the most critical contaminants, with several powdered formulations (EJ, KR) and isolated liquid formulations (SY, MP, PR) exceeding the manuscript-defined reference values. Powdered formulations generally exhibited relatively higher concentrations than liquid formulations for several metals.
 
 ## Key numbers

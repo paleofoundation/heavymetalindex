@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Elbagermi et al. 2012 — Pb, Cd, Zn, Cu, Co, and Ni in fruits and vegetables from Misurata, Libya
 
+## Overview
+
 Elbagermi and colleagues measured lead, cadmium, zinc, copper, cobalt, and nickel in selected fruits and vegetables collected from production and market sites in the Misurata area of Libya. The study reports dry-weight concentrations for nine fruits and seven vegetables, using atomic absorption spectrophotometry. No arsenic, mercury, methylmercury, inorganic arsenic, or chromium species are reported.
 
 ## Key numbers

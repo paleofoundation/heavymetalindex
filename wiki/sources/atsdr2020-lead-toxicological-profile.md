@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # ATSDR 2020 — Toxicological Profile for Lead
 
+## Overview
+
 The August 2020 ATSDR Toxicological Profile for Lead is the current US government comprehensive toxicology reference for lead. Prepared by the Agency for Toxic Substances and Disease Registry (ATSDR) under CERCLA section 104(i), with peer review by an interagency Minimal Risk Level (MRL) Workgroup including ATSDR, NCEH, NIOSH, EPA, and NTP, this profile is the public-health reference document underlying CDC blood lead reference value updates, EPA risk assessments, and US state-level lead exposure investigations. ATSDR did not derive Minimal Risk Levels for lead in this profile because the developmental-neurotoxicity literature establishes effects at blood lead concentrations below the limit of confident measurement; no demonstrated threshold for the most sensitive endpoint exists. This is a settled position across major regulatory bodies.
 
 ## Key numbers

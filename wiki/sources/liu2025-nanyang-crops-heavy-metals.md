@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Liu et al. 2025 - heavy metals in Nanyang Basin soil-crop system
 
+## Overview
+
 Liu and coauthors measured As, Cd, Cr, Hg, and Pb in soils and crops from the Nanyang Basin, including 114 peanut samples. The source is routeable to peanuts because crop-tissue concentrations are part of the measured soil-crop system, although the paper is primarily a regional pollution-risk assessment. It should be used as China/Nanyang context rather than silently pooled with other markets.
 
 ## Key numbers

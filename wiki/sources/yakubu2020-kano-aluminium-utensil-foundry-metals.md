@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Yakubu and Yola 2020 - Kano aluminium-utensil foundry metals
 
+## Overview
+
 Yakubu and Yola measured Zn, Mn, Cd, Cr, and Pb in soil and nearby borehole water around local aluminium-utensil production in Bachirawa, Kano. This is not utensil migration or finished-product occurrence evidence: it is source-attribution evidence for environmental metal loading around informal aluminium-utensil foundry activity.
 
 ## Key numbers

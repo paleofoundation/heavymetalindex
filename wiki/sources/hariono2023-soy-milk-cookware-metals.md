@@ -25,6 +25,8 @@ updated: 2026-05-31
 
 # Hariono et al. 2023 — Metals in Indonesian soy milk processed in aluminum and stainless-steel cookers
 
+## Overview
+
 Hariono and colleagues compared proximate quality and metal content in soy milk from an Indonesian producer after cooking in aluminum versus stainless-steel vessels. The paper reports very high measured concentrations for Pb, Cu, Zn, Hg, and As in finished soy milk, with stainless-steel processing lowering Pb, Cu, and Hg relative to aluminum processing but increasing Zn and As. The values are routeable as a small cookware-comparison occurrence study for soy milk, but they should be treated cautiously because the paper reports only one value per treatment, does not disclose replicate statistics or LODs, and appears to use comma decimals in the Indonesian format.
 
 ## Key numbers

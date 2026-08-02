@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Aguilar-Miranda et al. 2024 - Total mercury in canned tuna sold in Quito, Ecuador
 
+## Overview
+
 Aguilar-Miranda et al. measured total mercury (tHg) in 60 cans of tuna in water purchased from supermarkets in the Metropolitan District of Quito, Ecuador. The study sampled three anonymized coded product groups, 20 cans per group, between March 2022 and March 2023. Mercury was quantified by cold-vapor atomic fluorescence spectrometry after freeze-drying and microwave-assisted acid digestion. The authors measured tHg only; they did not speciate methylmercury (MeHg) or inorganic mercury. For the exposure assessment, they followed the US EPA fish-advisory convention of treating measured tHg as MeHg.
 
 The overall tHg range was 0.02-1.98 mg/kg wet weight. One sample in the intermediate-price coded group reached 1.98 mg/kg and another sample in the same coded group reached 1.0 mg/kg. The authors state that 96.7% of samples were below the national and international threshold limits they cite. The source uses anonymized group codes rather than public brand names; this page preserves those codes only as non-identifying sample strata and does not name or rank sampled manufacturers.

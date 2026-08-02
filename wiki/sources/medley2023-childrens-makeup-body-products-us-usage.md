@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Medley et al. 2023 — Children's makeup and body products usage survey (US)
 
+## Overview
+
 This Columbia/Earthjustice mixed-methods survey of 207 US parents/guardians (reporting on 312 children ≤12 years) characterizes the use, frequency, duration, and motivation behind children's makeup and body products (CMBPs) — a broad category covering body paint, face paint, temporary tattoos, body glitter, eye products, lip products, face products, nail products, hair products, and fragrances. The paper does not measure heavy-metal content; it provides the exposure-pathway parameters (use prevalence, frequency, duration, ingestion proportion, application route) needed for any downstream metal-exposure assessment in children using these products. The paper explicitly excluded hair relaxers and skin-lightening products from the CMBP definition.
 
 ## Key numbers

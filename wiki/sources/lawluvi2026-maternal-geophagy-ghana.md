@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lawluvi et al. 2026 — Maternal geophagy in Ghana and multi-metal exposure during pregnancy
 
+## Overview
+
 This mini-review examines the practice of geophagy (intentional clay consumption) among pregnant women in Ghana and synthesizes available evidence on the heavy metal content of geophagic clays and the associated health risks for mothers and fetuses. Geophagic clays sampled in Ghana were found to contain Pb, As, Cd, Cr, and Hg at concentrations exceeding international food safety reference values, with bioaccessibility studies showing increased metal release under simulated gastric conditions, indicating that the orally ingested fraction available for absorption is higher than total-metal concentrations suggest. Naturally occurring radionuclides including K-40, U-238, and Th-232 were also detected in sampled clays, adding a radiological exposure dimension to the chemical metal burden. The review additionally documents microbial and parasitological contamination in geophagic clays, noting that the combined chemical, radiological, and biological hazards make geophagy a compound exposure pathway for pregnant women in Ghana, with fetal developmental risks from Pb, As, and Cd being the primary concern given their transplacental transfer properties.
 
 ## Key numbers

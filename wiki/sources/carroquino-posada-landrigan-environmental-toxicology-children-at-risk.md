@@ -24,6 +24,8 @@ updated: 2026-05-09
 
 # Carroquino, Posada, Landrigan — Environmental toxicology: children at risk
 
+## Overview
+
 This Encyclopedia of Sustainability Science and Technology chapter by Carroquino, Posada, and Landrigan synthesizes the foundational principles of pediatric environmental toxicology: critical developmental periods, dose-response relationships, vulnerable life stages from embryonic period through adolescence, and the empirical case for child-specific environmental health protection. Philip J. Landrigan is the founding director of the Children's Environmental Health Center at Mount Sinai and the canonical U.S. authority on the pediatric environmental health framework that motivates child-vulnerable-population reasoning across the environmental-health and food-safety regulatory frameworks. The chapter is the foundational secondary reference for the case that infants and children warrant tighter regulatory protection than adults at any given environmental exposure.
 
 ## Key conclusions

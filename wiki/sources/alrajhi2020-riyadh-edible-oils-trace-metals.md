@@ -22,6 +22,8 @@ updated: 2026-06-02
 
 # Alrajhi and Idriss 2020 - Trace metals in Riyadh edible oils
 
+## Overview
+
 Alrajhi and Idriss measured trace metals in 54 edible vegetable oil samples bought from supermarkets around Riyadh. The study is routeable occurrence evidence for the broad cooking-oils row because Table I reports sample-level and summary concentrations for Cd, Cr, Cu, Fe, Mn, Ni, Zn, Al, Pb, total As, and Se in finished edible oils on an mg/kg basis.
 
 ## Key numbers

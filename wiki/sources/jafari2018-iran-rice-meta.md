@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Jafari et al. 2018 — Iran systematic review of heavy metals in Iranian-grown vs imported rice (10 studies, 2000-2017) with adult EWI/PTWI comparison
 
+## Overview
+
 This Data in Brief paper is a systematic-review companion data article that pools 10 primary Iranian rice-contamination studies retrieved from Persian and English databases over a 2000-2017 search window. The authors recomputed weighted-mean concentrations (mg/kg dry weight) of eight elements — Cd, Pb, total As, total Cr, Zn, Ni, Cu, Co — separately for Iranian-grown and imported rice brands sold in Iran, then computed estimated weekly intakes (EWI) at 770 g/week per-capita rice consumption and 60 kg adult body weight, comparing each EWI against the FAO/WHO PTWI. Across both rice categories, every EWI was below its PTWI. The pooled Iranian-grown vs imported means (mg/kg dry weight) were Cd 0.16 vs 0.13, Pb 0.196 vs 0.55, tAs 0.046 vs 0.057, Cr 0.29 vs 0.61, Zn 26.13 vs 3.46, Ni 0.22 vs 0.76, Cu 16 vs 2.08, and Co 0.29 vs 0.29; significant differences (P<0.001) were reported between Iranian-grown and imported rice for all elements except Co (P=0.99) and Zn (P=0.99). Imported rice was higher in Pb, tAs, Cr, and Ni; Iranian-grown rice was higher in Zn and Cu. The paper is a pooled summary, not original primary measurements, and the constituent-study labels in Tables 1-2 are partly mislabelled relative to the reference list (see Verification notes); the pooled means in Table 3 are the operative result. Evidence tier B.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Johnson-Arbor and Schultz 2021 — Residential elemental mercury exposure and remediation
 
+## Overview
+
 This case report documents residential elemental mercury exposure, delayed recognition through urinary biomonitoring, and the practical steps required for home decontamination. It is an a4 exposure source rather than a product paper. Its HMI value is the combination of human biomarker data, exposure circumstances, and concrete remediation lessons after indoor mercury contamination.
 
 ## Key numbers

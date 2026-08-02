@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Palmieri et al. 2020 - mercury in rice
 
+## Overview
+
 This paper reports mercury measurements in 29 rice samples from Thailand, India, China, and the United States. The source frames the exposure concern as methylmercury in rice, but the analytical method description visible in the paper is ICP-MS with results reported as Hg in ng element/g sample, without a separate chromatographic speciation method. This source page therefore routes the occurrence data as total mercury (tHg) and documents the source's methylmercury wording as a limitation.
 
 ## Key numbers

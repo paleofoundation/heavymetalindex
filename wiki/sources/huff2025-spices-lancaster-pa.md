@@ -30,6 +30,8 @@ updated: 2026-05-29
 
 # Huff et al. 2025 — Heavy metals in spices from Lancaster, PA
 
+## Overview
+
 This study measured arsenic, cadmium, and lead in 116 spice samples (82 store-purchased, 34 home-donated) from Lancaster, Pennsylvania, a city with a notably high refugee resettlement rate and elevated childhood blood lead levels relative to the state average. As, Cd, and Pb were detected in 90.37%, 93.1%, and 98.3% of samples respectively, using FDA EAM 4.7 ICP-MS method at an ISO 17025:2017 accredited laboratory. Lead was the dominant concern: 40.5% of all samples exceeded the New York State Department of Health (NYSDOH) 2023 guidance of 0.21 ppm, with a single curry powder sample reaching 31.9 ppm, the only sample whose lead concentration would yield an EDI exceeding the FDA reference level. The three highest single-analyte concentrations (As 0.497 ppm in turmeric from Thailand, Cd 0.294 ppm in paprika from the USA, Pb 31.9 ppm in curry powder from the USA) were all purchased from the same store with an internationally-implying name, pointing at single-supplier concentration risk. The study adds US commercial market data for spice blends (masala, curry powder) to a growing US-focused literature documenting spices as an underrecognized lead-exposure pathway, particularly for immigrant and refugee communities.
 
 ## Key numbers

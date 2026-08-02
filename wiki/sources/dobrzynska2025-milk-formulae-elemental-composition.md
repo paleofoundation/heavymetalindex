@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Dobrzyńska et al. 2025 — elemental composition of milk formulae on the Polish market
 
+## Overview
+
 Dobrzyńska and colleagues measured nine basic elements (Na, K, Ca, P, Mg, Fe, Zn, Cu, Mn) and seven toxic or potentially toxic elements (As, Cd, Co, Cr, Hg, Sn, Ni) by ICP-MS in 149 powdered milk formulae available on the Polish market between 2019 and 2023. Cadmium, mercury, and arsenic were below the analytical detection limit in every sample; nickel was detected in 62 of 149 samples (highest 17 µg/kg wet weight in a powder formula) and the estimated daily intake exceeded the EFSA lowest-observed-adverse-effect level of 4.3 µg/kg body weight for eczematous skin reactions in one-month-old infants for every formula category analyzed. Copper exceeded the EU compositional maximum in 18 samples and was below the minimum in 43; potassium exceeded the EU maximum in 63 samples; and manganese varied across roughly two orders of magnitude (1-91 µg/100 kcal). Lead and selenium were excluded from this paper — Pb due to spectral interference in the analytical run, Se reported in a separate publication.
 
 ## Key numbers

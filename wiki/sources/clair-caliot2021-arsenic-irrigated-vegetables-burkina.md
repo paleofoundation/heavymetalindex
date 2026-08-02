@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Clair-Caliot et al. 2021 — Arsenic uptake by irrigated vegetables and cooked foods in Burkina Faso
 
+## Overview
+
 This greenhouse study characterizes the transfer of arsenic from geogenic As-contaminated irrigation water to seven vegetables commonly grown and consumed in Burkina Faso (amaranth, carrot, green bean, lettuce, okra, spinach, tomato), and separately assesses how cooking with As-spiked or As-free water affects final As content in both greenhouse vegetables and locally purchased staple foods. Arsenic was measured as total As (tAs) by ICP-MS after HNO3/H2O2 digestion; speciation into inorganic vs organic arsenic was not performed. At the mid-point irrigation concentration of 500 µg/L As(V), edible-part concentrations were: spinach 6.6, lettuce 3.9, carrot 3.5, amaranth 2.2, okra 0.9, green bean 0.8, and tomato 0.2 µg/g dry mass. Cooking contaminated vegetables with As-free water reduced As content by an average of 39%, while cooking with As-contaminated water transferred As to the cooked food; steaming reduced As by 8- to 18-fold compared to boiling.
 
 ## Key numbers

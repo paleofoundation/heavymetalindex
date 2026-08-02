@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Sofyan 2023 — Microbial and metal contamination of banana-based steamed sponge cake (bolu kukus pisang ambon), Yogyakarta
 
+## Overview
+
 This single-author Indonesian Diploma III pharmacy programme study formulated three banana-based steamed sponge cakes (bolu kukus pisang ambon) intended as an alternative snack for hypertensive patients, varying only the pisang ambon (Musa acuminata Colla) to wheat-flour mass ratio (1:1, 2:1, 3:1), and tested each formulation once for microbial contamination (total plate count, yeast and mould count, *Escherichia coli*) and metal contamination (Pb, Cu, Zn, total As) against Indonesian SNI 01-3840-1995 bread-product limits and SNI 7387:2009 Pb/As limits. All three formulations met every reported standard: Pb 0.1036–0.1207 mg/kg (limit 1 mg/kg), Cu 0.2897–0.3243 mg/kg (limit 10 mg/kg), Zn 1.6005–4.6056 mg/kg (limit 40 mg/kg), As below detection in all three (limit 0.5 mg/kg), aerobic plate count 1,566.66–8,800 cfu/g (limit 1×10⁶ cfu/g), yeast/mould <10 cfu/g in all three (limit 1×10⁴ cfu/g), *E. coli* negative in all three. Single-sample-per-formula design and a research-prepared rather than retail product limit the source to context-only evidence for any commercial banana sponge cake or Indonesian baked-goods occurrence question.
 
 ## Key numbers

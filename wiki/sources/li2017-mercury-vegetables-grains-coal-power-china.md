@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Li et al. 2017 — Total mercury in vegetables, grains, and soils near two Chinese coal-fired power plants
 
+## Overview
+
 Li and colleagues measured total mercury concentrations in soil and in the edible parts of three leafy vegetables (lettuce, amaranth, water spinach), five fruit vegetables (tomato, eggplant, pepper, cucumber, cowpea), and two grains (rice, maize) collected from six open-field locations within 10 km of two Chinese coal-fired power plants in 2015, compared to control samples from a grocery store >55 km from any power plant. 79% of vegetable samples and 67% of grain samples exceeded China's GB 2762-2012 maximum levels for Hg (10 µg/kg FW vegetables; 20 µg/kg FW grains). Soil Hg was negatively correlated with distance from the power plants (R² = 0.82, P<0.001).
 
 ## Key numbers

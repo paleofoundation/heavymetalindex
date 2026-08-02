@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # González-Torres et al. 2023 — Comparative review of heavy metals in edible vegetable oils (2015–2022)
 
+## Overview
+
 This review synthesizes the scientific literature (2015–2022) on the presence of heavy metals in edible vegetable oils, analyzing more than 25 metals across 35 different oil types from 24 countries. The most studied oils are olive (14.36%), sunflower (13.81%), rapeseed (9.94%), and corn (9.94%); the most studied metals are Cd (14.60%), Pb (12.41%), Cu (12.04%), and Fe (9.49%). A key regulatory finding: cadmium, the most analyzed metal in this matrix, had no specific international regulatory limit for edible vegetable oils in the reviewed regulation set, despite high values reported in some reviewed primary studies. The review also highlights antimony (Sb) in PET-packaged edible oils as an emerging migration question.
 
 ## Key numbers

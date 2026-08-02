@@ -33,6 +33,8 @@ updated: 2026-06-08
 
 # Aljedani 2017 — Heavy metals and elements in honeybees and honey from Saudi Arabia
 
+## Overview
+
 Honeybee (Apis mellifera jemenatica) bodies and honey samples were collected from four agricultural regions of Saudi Arabia (Jazan, Asir, Al-Baha, Makkah) in March 2017 and analyzed for eight heavy metals (Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn) and four mineral elements (Ca, K, Mg, Na) by ICP-OES after dry-ashing. In honeybee tissue, Cd, Cr, Ni, and Pb were not detected (mean ± SD = 0.000 ± 0.000 mg/g) in any region; Fe was the dominant heavy metal (2.088–8.794 mg/g across regions). In honey, Cd, Mn, and Pb were not detected; Cr and Ni were quantified only in Al-Baha honey (Cr 0.1599 mg/L, Ni 0.037 mg/L); Fe was again the most concentrated heavy metal (0.907–1.904 mg/L). The author concludes that all measured values fell within international permissible limits for honey and bee products in Saudi Arabia, providing a low-contamination baseline for honey from agricultural regions distant from heavy industry.
 
 ## Key numbers

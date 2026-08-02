@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hadi et al. 2025 — Lead, cadmium, and chromium in dried fruits sold in Iraqi markets
 
+## Overview
+
 This study measured Pb, Cd, and Cr concentrations in 15 dried-fruit samples sourced from Iranian manufacturers and purchased from Iraqi markets in February 2025, using a Shimadzu AA-7000 atomic absorption spectrophotometer (AAS) after acid digestion (HNO3:HClO4, 3:1). Multiple samples exceeded FAO/WHO maximum allowable levels for Cd (0.05 mg/kg) and Cr (0.12 mg/kg), and the authors calculated estimated daily intakes (EDI), target hazard quotients (THQ), hazard indices (HI), and total cancer risk (TCR) against USEPA reference values. The overall HI was below 1.0 for all samples, indicating no acute noncarcinogenic health hazard from typical consumption patterns, but the authors flag long-term cumulative risk from samples that exceed regulatory limits.
 
 ## Key numbers

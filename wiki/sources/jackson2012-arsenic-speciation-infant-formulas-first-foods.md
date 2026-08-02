@@ -27,6 +27,8 @@ updated: 2026-05-08
 
 # Jackson, Taylor, Punshon, Cottingham 2012 — Arsenic concentration and speciation in infant formulas and first foods
 
+## Overview
+
 This IUPAC Pure and Applied Chemistry paper from Dartmouth's Trace Element Analysis Laboratory and Department of Biological Sciences (Jackson, Taylor, Punshon, Cottingham) reports total arsenic and arsenic speciation (inorganic arsenic plus methylated species) in U.S. infant formulas and first foods using HPLC-ICP-MS speciation methodology. The paper is one of the few primary sources with sample-level speciation data for infant-formula matrices and is directly applicable to the milk-based powdered infant formula iAs gap that the IandC overnight final report flagged as the highest-priority Phase 3b ingest target. The Dartmouth group is the U.S. center of expertise for infant arsenic speciation; this paper and the related Carignan 2015, Carignan 2016, and Pikounis-Cottingham companion papers form the Dartmouth infant-As evidence cluster. A NIH preprint version of this paper is also present in raw/Digest as nihms374391.pdf.
 
 ## Key conclusions

@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Maikanov et al. 2020 - Fish Products in the Shuchinsk-Burabay Resort Zone
 
+## Overview
+
 Maikanov et al. measured amino-acid composition, heavy metal salts, and radionuclides in fish muscle from the Shuchinsk-Burabay resort zone in Kazakhstan. The wishlist filename targeted poultry cadmium, but the actual paper is fish occurrence evidence and was ingested under the actual paper identity.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Luka and Akun 2019 - Trace metals in olive oils from northern Cyprus
 
+## Overview
+
 Luka and Akun measured Cu, Cd, Pb, Cr, total As, and Ni in fifteen olive-oil observations from northern Cyprus using ICP-MS after microwave digestion. Table 5 reports variety/sample-code means in ug/g and shows broad variation by sampling group, with Cu ranging from 1.02 to 3.81 ug/g, Cd from 0.02 to 0.09 ug/g, Pb from 0.15 to 1.48 ug/g, Cr from 0.33 to 0.95 ug/g, total As from 0.03 to 0.75 ug/g, and Ni from 0.22 to 0.79 ug/g. The authors used PCA and hierarchical clustering to argue that oils from some ground-harvested samples accumulated higher metals, especially Cu, Pb, Ni, Cr, and total As.
 
 ## Key numbers

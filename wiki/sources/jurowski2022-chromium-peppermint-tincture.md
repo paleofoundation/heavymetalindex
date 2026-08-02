@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Jurowski & Krosniak 2022 — Chromium in peppermint tinctures (Poland)
 
+## Overview
+
 This study measures chromium (Cr) impurities in peppermint tinctures purchased from Polish pharmacies and discusses chromium speciation (Cr-III vs. Cr-VI) implications for safety. Measured Cr concentrations ranged from 0.39 to 2.14 µg/L in the tincture samples. The paper discusses the relevance of chromium speciation to health risk, noting that Cr(VI) is carcinogenic while Cr(III) is an essential trace element at low levels.
 
 ## Key numbers

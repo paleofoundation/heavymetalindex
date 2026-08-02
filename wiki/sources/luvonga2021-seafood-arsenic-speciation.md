@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Luvonga 2021 - Seafood arsenic speciation
 
+## Overview
+
 Luvonga, Rimmer, Yu, and Lee measured total arsenic and hydrophilic arsenic species across seven seafood and seaweed study materials spanning microalgae, macroalgae, bivalve clam, crustaceans, and finfish. Total arsenic was determined by ICP-MS and speciation by HPLC-ICP-MS. The source reports spirulina and kelp on a dry-mass basis, while the other seafood materials are reported on an as-received basis.
 
 ## Key numbers

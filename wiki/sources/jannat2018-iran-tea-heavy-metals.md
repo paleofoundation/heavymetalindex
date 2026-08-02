@@ -25,6 +25,8 @@ updated: 2026-06-07
 
 # Jannat et al. 2018 - Trace elements and heavy metals in Iranian green and black tea
 
+## Overview
+
 Jannat and colleagues measured zinc, cadmium, lead, and copper in 60 commercial green and black tea samples from the Tehran retail market by differential pulse polarography. The source is routeable for true-tea dry-leaf occurrence evidence because it reports per-brand means, per-class means, and overall ranges for each of the four elements in mg/100 g of dry tea leaves. Cadmium and lead were detected in many samples at concentrations well above the standard limits the authors used as their reference benchmark, even though the paper's narrative concludes that mean concentrations fell within an acceptable range; this internal disconnect is preserved verbatim in this page rather than reconciled.
 
 ## Key numbers

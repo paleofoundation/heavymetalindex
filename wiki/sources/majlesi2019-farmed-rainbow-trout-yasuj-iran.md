@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Majlesi et al. 2019 — Heavy metals in farmed rainbow trout, Yasuj, Iran
 
+## Overview
+
 Majlesi and colleagues measured mercury (total Hg by cold-vapour atomic absorption), cadmium, and lead in the muscle tissue of farmed rainbow trout (Oncorhynchus mykiss) sampled from six farms across three aquaculture sites in Yasuj, southwest Iran, during February–April 2018. The three sites differed by water-supply contamination probability: site A close to the spring source, site B downstream of cities and villages, and site C downstream of a rural area. Three commercial feed-pellet mixtures (I, II, III) used in the farms were also analysed. Overall mean muscle concentrations were 0.022 mg/kg Hg, 0.105 mg/kg Cd, and 1.07 mg/kg Pb (dry weight). Mercury and cadmium in edible tissue were below the maximum permissible limits set by the WHO, FDA, FAO, and EC; lead (1.07 mg/kg) exceeded the WHO limit (0.5 mg/kg) and the EC limit (1.0 mg/kg) but remained below the FDA (1.7 mg/kg) and FAO (2.0 mg/kg) limits. Fish from the lower-contamination spring-fed site A carried the lowest cadmium and lead concentrations. Cd and Pb concentrations correlated negatively and significantly with fish weight, and biomagnification factors for all three metals were below 1, indicating no biomagnification from feed to fish.
 
 ## Key numbers

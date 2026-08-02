@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # Saf et al. 2023 — Agroecological valorization of olive mill wastewater UF/NF fractions
 
+## Overview
+
 Saf and colleagues fractionated raw olive mill wastewater (OMW) from a three-phase Moroccan mill using sequential ultrafiltration (150 kDa) and nanofiltration (200 Da) and tested the four resulting streams (raw OMW, UF retentate, NF retentate, NF permeate) for their agronomic value: bioherbicide potential of the polyphenol- and salt-enriched NF retentate against wild mustard and flax weed competitors, and fertigation/irrigation potential of the depleted UF retentate and NF permeate on maize. The paper characterizes each fraction for bulk parameters (pH, EC, COD, dry matter, total polyphenols, total sugars) and mineral content (K, P, Ca, Mg, Fe) but does not measure regulated heavy metal contaminants (Pb, Cd, As, Hg, Ni, Al, Cr, Sn). Its contribution to the Heavy Metal Index corpus is upstream-supply-chain context for the olive-oil agroecology system in Mediterranean producing regions, not direct contamination measurement of any HMI-tracked product.
 
 ## Key numbers

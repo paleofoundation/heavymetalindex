@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Fängström et al. 2008 — Breast milk arsenic excretion protects exclusively breastfed infants
 
+## Overview
+
 Bangladeshi mothers with high arsenic exposure from tube-well drinking water excrete very little arsenic in breast milk (median 1.0 µg/kg, range 0.25–19 µg/kg), predominantly in inorganic trivalent form (arsenite). Despite maternal urinary arsenic concentrations averaging 142 µg/L (range 12–810), exclusively breastfed infants had low arsenic concentrations (median 1.1 µg/L, range 0.3–29), while non-exclusively breastfed infants had much higher concentrations (median 1.9 µg/L, range 0.4–1,520). Infants demonstrated efficient methylation capacity, with 87% dimethylarsinic acid (DMA) in urine versus maternal 77% DMA. This is the first evidence that breastfeeding protects infants from postnatal arsenic exposure even in heavily contaminated areas.
 
 ## Key numbers

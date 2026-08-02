@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Ounifi et al. 2020 - Cellulose acetate cadmium remediation
 
+## Overview
+
 Ounifi and colleagues evaluated cellulose acetate nanofiltration membranes for cadmium removal from model water. This is in-scope lane a2 remediation evidence and not food or salt occurrence evidence.
 
 ## Key numbers

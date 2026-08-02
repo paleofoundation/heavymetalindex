@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Idris et al. 2023 — Adsorption techniques for heavy-metals remediation (Elsevier book-chapter review)
 
+## Overview
+
 Single-chapter narrative review surveying the families of adsorbent materials studied for removing Co, Cr, Pb, Ni, Hg, As, U, Cd, and Cu from industrial wastewater: microbial biomass (fungi, bacteria, algae), lignocellulosic biomass, industrial wastes (fly ash, sewage-sludge activated carbon), natural waste adsorbents (clay, zeolite, chitosan, peat, siliceous materials), derived and hybrid composites, and nanomaterial adsorbents (MOFs, graphene-oxide composites). The chapter is descriptive — it walks through each adsorbent family with examples drawn from 109 cited references, names representative capacity figures from the primary literature, and frames adsorption as cheaper and more flexible than chemical or biological alternatives. There is no primary sampling, no PRISMA, no quality assessment, and no quantitative synthesis. The scope is wastewater-treatment engineering, not food or supply-chain contamination; relevance to the Heavy Metal Index is limited to (a) the broad inventory of materials that have been tested against heavy-metal-bearing aqueous matrices, and (b) the list of food-derived feedstocks (rice husk, sugarcane bagasse, palm-oil-mill biomass, fruit and vegetable peels, corncobs, sewage sludge) that appear elsewhere in the HMI corpus as commodity inputs. Evidence tier C; cite as a leads document only.
 
 ## Key numbers

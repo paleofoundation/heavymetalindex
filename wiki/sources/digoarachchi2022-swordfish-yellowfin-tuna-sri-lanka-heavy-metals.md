@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Digoarachchi et al. 2022 - Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares)
 
+## Overview
+
 This study used secondary export-company testing data to map geographical variation in heavy metals in swordfish and yellowfin tuna associated with the Sri Lankan export fish market.
 
 ## Key numbers

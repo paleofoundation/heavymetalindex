@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Chen et al. 2025 — Cumulative dietary Pb/Cd/iAs/MeHg risk in Chongqing, China (hazard-driven mRPI + Monte Carlo)
 
+## Overview
+
 This study applies the EFSA-recommended hazard-driven cumulative risk assessment framework to dietary Pb, Cd, iAs, and MeHg (neurotoxicity) and Pb, Cd, iAs, iHg (nephrotoxicity) exposure in Chongqing residents (n=969 across four age groups), using the modified Reference Point Index (mRPI) method with @RISK Monte Carlo simulation (100,000 iterations, Latin hypercube). Heavy-metal contamination is drawn from the 2017-2021 China National Food Contamination Monitoring Program (≈4,300-5,200 samples per metal); food consumption is drawn from the 2018 China Health and Nutrition Survey of Chongqing. Two toxicity endpoints are assessed: neurotoxicity (combined mRPI 0.922 to 4.835 across left-censoring scenarios at mean and 95th-percentile high exposure) and nephrotoxicity (combined mRPI 1.306 to 7.031). Both endpoint mRPIs exceed the acceptable-risk threshold of 1 at high exposure across all scenarios, indicating unacceptable cumulative risk at the upper tail of the Chongqing diet. **Pb dominates the neurotoxicity mRPI (69.74-72.22% at mean exposure); Cd dominates the nephrotoxicity mRPI (60.05-60.09%), with Pb second (39.08-39.01%).** Rice, leafy vegetables, and wheat products are the top three food contributors to both endpoints. The paper also documents established total-to-speciated conversion factors (iAs/tAs = 2% in fish, 70% in non-fish; MeHg/tHg = 100% in fish, 0% in non-fish; iHg/tHg = 20% in fish, 100% in non-fish) per EFSA and Suomi et al.
 
 ## Key numbers

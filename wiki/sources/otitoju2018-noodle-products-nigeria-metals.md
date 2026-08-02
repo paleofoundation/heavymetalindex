@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Otitoju et al. 2018 — Heavy metals in Nigerian instant noodles
 
+## Overview
+
 Otitoju and colleagues measured As, Cd, Cr, Pb, and Hg in eleven instant-noodle products sold in Nigerian markets. The paper reports the sampled products as anonymized samples A-K rather than public product names, and results are presented mostly as figure ranges plus a health-risk table. The occurrence finding is that As, Cd, Cr, and Pb were detected in all eleven samples, while mercury was not detected. The paper reports total metals only; it does not distinguish inorganic arsenic, methylmercury, or hexavalent chromium.
 
 ## Key numbers

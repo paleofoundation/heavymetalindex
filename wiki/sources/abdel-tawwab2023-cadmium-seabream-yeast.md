@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abdel-Tawwab et al. 2023 — Cadmium residues in gilthead seabream muscle, liver, and gills; yeast dietary mitigation
 
+## Overview
+
 This controlled feeding trial measured Cd bioaccumulation in gill, liver, and muscle tissues of gilthead seabream (*Sparus aurata*) exposed to waterborne Cd (0, 1.0, and 2.0 mg Cd/L) and fed diets supplemented with *Saccharomyces cerevisiae* (0%, 0.5%, 1.0%) for 60 days. Cd concentrations in gill, liver, and muscle all increased dose-dependently with Cd exposure; liver retained the highest Cd residue, followed by gills, with muscle showing the lowest accumulation. Dietary yeast supplementation (1.0%) lowered Cd residues in fish organs and ameliorated the adverse effects of Cd toxicity on growth, haematology, and histopathology. The study reports quantitative Cd residues in muscle tissue of a commercially important marine food fish species under controlled contamination conditions.
 
 ## Key numbers

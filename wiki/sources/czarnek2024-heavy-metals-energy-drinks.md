@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Czarnek et al. 2024 — Multi-elemental analysis of nine energy drinks from the Polish market
 
+## Overview
+
 Czarnek and colleagues (John Paul II Catholic University of Lublin; Medical University of Lublin; Maria Curie-Skłodowska University; Jagiellonian University; Lublin University of Technology; University of Life Sciences Lublin; Yeditepe University, Istanbul) quantified four macro-minerals (Na, K, Mg, Ca) and fifteen micro-minerals (B, Al, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Sr, Cd, Ba, Pb) in nine commercially available energy-drink brands sold in Poland, all packaged in aluminum cans. Macro-minerals were measured by ICP-OES (Varian 720-ES) and micro-minerals by ICP-MS (Agilent Technologies 7700x), with each brand sampled in triplicate after microwave-assisted nitric-acid digestion. A toxicological risk assessment computed estimated daily intake (EDI), hazard quotients (HQ), cumulative hazard index (HI), and incremental lifetime cancer risk (ILCR) for adolescents (10–18 years, body weight 45 kg, intake 0.23 L/day) and adults (18–65 years, body weight 70 kg, intake 0.16 L/day). All HQ and HI values remained below the threshold of 1 for both age groups, but ILCR values for As, Cr, and Ni exceeded the 10⁻⁶ safe limit in multiple samples, with one sample (ED7) crossing the 10⁻⁴ high-cancer-risk threshold for arsenic in adolescents. The authors state this is the only study to date that has estimated carcinogenic risk from toxic-element exposure via energy-drink consumption.
 
 ## Key numbers

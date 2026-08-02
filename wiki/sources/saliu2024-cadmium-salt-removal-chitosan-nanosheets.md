@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Saliu et al. 2024 - Chitosan nanosheets for cadmium and salt removal
 
+## Overview
+
 Saliu and colleagues tested Fe3O4-PEDOT:PSS-modified chitosan nanosheets for electrocapacitive removal of cadmium and sodium chloride from contaminated water. This is direct a2 remediation evidence.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Mititelu et al. 2025 - Heavy metal contamination in food: review of sources, speciation, and health outcomes
 
+## Overview
+
 Mititelu et al. (2025) is a narrative review of Pb, Cd, Hg/MeHg, As/iAs, Ni, Cr, and Sn across food, water, and human biomonitoring contexts. Its value for the HMI wiki is as a secondary synthesis: it compiles regulatory values and published occurrence examples across cereals, rice, fish, dairy, baby foods, canned foods, and other matrices, but it does not generate original concentration data or provide a pooled meta-analysis. Any occurrence value below should be traced to the cited primary study before use in contamination-profile math.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Mancuso et al. 2024 — Food contamination and cardiovascular disease: narrative review
 
+## Overview
+
 This narrative review synthesizes evidence linking food-borne contaminants to cardiovascular disease (CVD), covering heavy metals (arsenic, lead, mercury, cadmium, chromium, and tungsten) alongside ultra-processed foods, artificial sweeteners, nitrates, dioxins and PCBs, and acrolein. The review contextualizes each contaminant within dietary exposure pathways, discusses proposed mechanisms of cardiovascular toxicity, and draws on both experimental and epidemiological literature. No primary concentration data are reported; the paper functions as a synthesis of existing literature rather than a new measurement study.
 
 ## Key numbers

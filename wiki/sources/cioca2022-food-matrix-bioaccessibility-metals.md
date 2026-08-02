@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Cioca et al. 2022 — Food matrix effects on bioaccessibility and bioavailability of Cd, Pb, Hg, and As
 
+## Overview
+
 This EFSA EU-FORA technical report is a two-part work program: the first part analyzed inconsistencies in the translation of the terms "hazard" and "risk" across EU member state food legislation; the second part compiled a database of published bioaccessibility and bioavailability data for cadmium (Cd), lead (Pb), mercury (Hg), and arsenic (As) across different food matrices, intended to support future statistical analysis of how the food matrix affects gastrointestinal absorption and systemic availability of these metals. The paper does not itself report original measured food concentrations but provides a structured compilation of bioaccessibility data from peer-reviewed journals, establishing the data infrastructure for improved food safety risk assessment that accounts for in-matrix absorption modulation.
 
 ## Key numbers

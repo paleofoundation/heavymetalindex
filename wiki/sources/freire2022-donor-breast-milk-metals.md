@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Freire et al. 2022 - Lead, mercury, cadmium, and arsenic in donor breast milk in Spain
 
+## Overview
+
 Freire and colleagues measured lead, mercury, cadmium, and arsenic in pooled donor breast milk from a Spanish human milk bank. The study is routeable for human-milk exposure evidence because it reports detection frequencies and median milk concentrations for 242 pooled samples from 83 donors. It also identifies donor and dietary predictors of metal concentrations.
 
 ## Key numbers

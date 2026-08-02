@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Seyfferth et al. 2025 — Rice water management trade-offs: As and Hg vs. Cd across a soil-redox gradient
 
+## Overview
+
 This 2-year field study (University of Delaware, 2016–2017) grew rice across six paddies managed under a continuous gradient of soil redox conditions, spanning fully flooded to non-flooded furrow-irrigated conditions, and measured grain concentrations of inorganic and organic arsenic species, total and methyl mercury, and cadmium alongside methane emissions. The central finding is a fundamental trade-off: drier water management significantly reduces grain As and Hg (both total and methylated species) and cuts CH4 emissions, but substantially raises grain Cd, with the driest paddy exceeding the CODEX limit of 0.4 mg/kg Cd in both years. Because row rice and alternate wetting-and-drying (AWD) irrigation are being rapidly adopted in the US and globally as climate-smart practices, the study warns that historical risk assessments anchored in flooded-rice Cd data may materially underestimate the Cd risk in the emerging production system.
 
 ## Key numbers

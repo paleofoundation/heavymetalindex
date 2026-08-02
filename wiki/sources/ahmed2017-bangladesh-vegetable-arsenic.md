@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Ahmed and Kurosawa 2017 - Arsenic in vegetables in an industrial area of Bangladesh
 
+## Overview
+
 This study measured arsenic in irrigation water, soils, and vegetables in an agricultural area affected by industrial wastewater in Gazipur District, Bangladesh. It is routeable for vegetable arsenic evidence because it reports edible-crop concentrations by vegetable group.
 
 ## Key numbers

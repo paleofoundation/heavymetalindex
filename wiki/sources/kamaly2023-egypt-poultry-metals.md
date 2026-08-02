@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kamaly & Sharkawy 2023 — Heavy metals in chicken meat and liver, Assiut, Egypt
 
+## Overview
+
 This study measured 12 metals (Al, Cd, Pb, Ba, Bi, Co, Ni, Cr, Fe, Cu, Zn, Se) in 360 samples of broiler chicken chest muscle, thigh muscle, and liver sourced from six commercial brands in Assiut province, Egypt. ICP-MS analysis was performed at the central laboratory of Assiut University. Toxicologically significant findings include: Pb exceeded FAO/WHO permissible limits in 94% of all samples (240 muscle and 100 liver samples) and Egyptian Organization for Standardization (EOS) limits in 33% of chest muscle samples; Cd exceeded FAO/WHO limits in 17% of samples (40 muscles and 20 livers). Despite these exceedances, target hazard quotients and hazard indices for all metals remained below 1.0, and calculated target cancer risks were within acceptable ranges at the consumption rates modelled (39.53 g/day muscle; 0.1 g/day liver for Egyptian adults at 70 kg body weight). Al was the most highly concentrated metal measured, with chest muscle ranging 8.610–21.985 µg/g across brands.
 
 ## Key numbers

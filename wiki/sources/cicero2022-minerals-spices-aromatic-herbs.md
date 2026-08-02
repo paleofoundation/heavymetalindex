@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Cicero et al. 2022 — Mineral and microbiological analysis of spices and aromatic herbs
 
+## Overview
+
 This Italian study simultaneously assessed microbiological contamination and trace mineral content in 13 dried spice and aromatic herb samples purchased from an international market in Saudi Arabia, representing products sourced from India, Iran, Indonesia, and Vietnam. Mineral analysis by ICP-MS (Agilent 7500CX) quantified 18 elements including all four potentially toxic metals (Cd, Pb, As, Hg) plus Al, Ni, Cr, Sn, V, Co, Sb, Sr, Fe, Mn, Cu, Se, Zn, and Be. Microbiological analyses confirmed the samples met EU criteria for food safety pathogens. For the four regulated heavy metals, Pb was the primary concern: ajwan seeds (thymol seeds) from India showed 0.544 mg/kg, five times the EU fresh herb limit of 0.1 mg/kg. Aluminium reached 930 mg/kg in thymol seeds and 145 mg/kg in saffron, representing notable accumulation. All Cd, As, and Hg values were within regulatory limits across all 13 samples.
 
 ## Key numbers

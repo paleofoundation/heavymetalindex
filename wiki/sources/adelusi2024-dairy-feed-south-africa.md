@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Adelusi et al. 2024 — Heavy metals in dairy cattle feed in South Africa
 
+## Overview
+
 This study measured heavy metals in 70 dairy cattle feed samples from two South African provinces (Free State and Limpopo) using ICP-MS. Arsenic, cadmium, and lead were all below the limits of detection across all samples. Chromium concentrations ranged from 0.032 to 1.459 mg/kg dry weight, copper from 0.092 to 4.898 mg/kg, and zinc from 0.39 to 13.871 mg/kg; all remained below WHO/FAO maximum limits for metal contaminants in animal feed. The findings suggest that dairy cattle feed in these two provinces does not represent a significant pathway for heavy metal carryover into milk and dairy products, though the study is geographically limited and does not cover all South African dairy production regions.
 
 ## Key numbers

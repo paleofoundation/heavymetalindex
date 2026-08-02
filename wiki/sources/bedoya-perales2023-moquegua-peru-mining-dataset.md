@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Bedoya-Perales et al. 2023 — Metals and Metalloids in Food Crops and Soils, Moquegua Mining Region, Peru
 
+## Overview
+
 This Scientific Data paper (CC BY) reports the first open-access dataset on heavy metal and metalloid concentrations in food crops and agricultural soils from Moquegua, a mining-impacted department in southern Peru that contains one of the country's largest copper deposits and contributes to Peru's status as the world's second-largest copper producer. The dataset covers 13,828 observations from 341 sampling sites across three provinces (General Sánchez Cerro, Mariscal Nieto, Ilo) at altitudes ranging from 9 to 3,934 m above sea level, collected in 2021 during harvest season. For food crops, 31 elements were measured using ICP-MS; for soils, 23 elements by ICP-OES and AAS. The paper functions primarily as a data descriptor rather than an analytical study; key concentration results are presented in the paper itself.
 
 ## Key numbers

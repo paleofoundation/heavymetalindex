@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Sun et al. 2022 — Chinese provisional PTMI for cadmium: derivation and rice ML justification
 
+## Overview
+
 This policy note from the China National Center for Food Safety Risk Assessment (CFSA) presents the derivation of a provisional health-based guidance value (HBGV) for dietary cadmium exposure in China, recommending maintenance of the Joint FAO/WHO Expert Committee on Food Additives (JECFA) provisional tolerable monthly intake (PTMI) of 25 µg/kg body weight for the Chinese population. The work was conducted in response to a review of China's GB2762-2022 National Food Safety Standard, which maintained the existing cadmium maximum limit (ML) in rice at 0.2 mg/kg — a value first established in 1984. The analysis included a population of 7,152 participants across cadmium-contaminated regions of China, using a concentration-effect model linking urinary cadmium to β2-microglobulin (B2M) as a renal tubular biomarker and toxicokinetic models specific to the Chinese population to derive dietary intake from urinary biomarkers.
 
 ## Key numbers

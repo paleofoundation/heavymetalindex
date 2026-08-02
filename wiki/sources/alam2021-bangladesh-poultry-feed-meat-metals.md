@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Alam et al. 2021 - Poultry Feed and Meat Contaminants in Bangladesh
 
+## Overview
+
 Alam et al. tested broiler feed and meat for antibiotic residues, aflatoxin, and heavy metals in Bangladesh. The metal findings are direct poultry occurrence evidence, with a notable caveat: in meat, Cd and Cr were detected in only one of sixty samples, while lead was not detected.
 
 ## Key numbers

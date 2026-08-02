@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Al-Rajhi 2014 — Metals in imported canned foods and chicken stock in Riyadh
 
+## Overview
+
 Al-Rajhi measured multiple metals in imported canned foods and chicken stock purchased from supermarkets around Riyadh, Saudi Arabia. The paper reports coded samples rather than public product names, so occurrence values are kept at the imported canned-food/chicken-stock category level. Total arsenic is reported as As, and chromium is reported as total Cr; the paper does not provide inorganic arsenic or Cr-VI speciation.
 
 ## Key numbers

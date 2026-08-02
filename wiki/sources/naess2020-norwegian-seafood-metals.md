@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Naess 2020 - Norwegian seafood metals
 
+## Overview
+
 Naess and colleagues measured mercury, lead, arsenic, and cadmium in commercially available seafood products sold in Norway from 2015 through 2018. The study reports `mg/kg` concentrations for processed fish categories including fish burgers/cakes, fish au gratin, fish fingers, saithe products, fish pudding, salmon/trout spread, canned mackerel in tomato sauce, and caviar. The arsenic measurements are total/unspecified arsenic, and the mercury measurements are total/unspecified mercury; the paper's methylmercury exposure calculations assume all measured mercury is MeHg as a conservative scenario but do not measure MeHg speciation.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Huda et al. 2024 - Heavy metals and pesticides in irrigated rice near Dhaka
 
+## Overview
+
 Huda et al. (2024) measured metal and pesticide residues in a soil-water-rice system near Gazipur, Bangladesh, where three rice fields were irrigated with water sources influenced by nearby industrial activity. The routeable product occurrence data are the rice-grain concentrations in Table 3; soil, irrigation water, husk, and stem values are supply-chain context and should not be pooled as finished-grain values. Arsenic and mercury are reported only as total/unspecified As and Hg, so this page records them as tAs and tHg, not inorganic arsenic or methylmercury.
 
 ## Key numbers

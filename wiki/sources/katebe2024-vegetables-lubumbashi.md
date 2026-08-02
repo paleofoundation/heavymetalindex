@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Katebe et al. 2024 — Trace metals in vegetables from Lubumbashi contaminated soils
 
+## Overview
+
 Katebe et al. assessed the effectiveness of organocalcareous amendments (chicken droppings, sawdust, and agricultural lime) in reducing transfer of trace metals from mine-contaminated soils to four vegetable species grown in Lubumbashi, DRC, where copper–cobalt mining has severely contaminated urban agricultural soils (Cu: 204–1355 mg/kg; Pb: 20–221 mg/kg; Cd: <0.05–45 mg/kg across three market gardens). The primary finding for food safety is that cobalt in vegetables from even the least-contaminated garden exceeded the FAO/WHO daily intake limit by 0.5 to 8.45 times, while Cd, Cu, and Pb daily consumption indices remained below FAO/WHO limits in the low-contamination garden. Organocalcareous amendments improved germination and reduced metal transfer only in low-contamination soil; in high and medium Cu-contaminated soils plant survival was too poor to assess metal transfer effectively.
 
 ## Key numbers

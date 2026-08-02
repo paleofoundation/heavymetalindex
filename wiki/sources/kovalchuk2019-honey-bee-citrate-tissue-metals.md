@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Kovalchuk et al. 2019 - honey-bee tissue metals after silver and copper citrate feeding
 
+## Overview
+
 Kovalchuk and colleagues fed honey-bee families sugar syrup containing silver citrate or copper citrate and measured Fe, Cu, Zn, Co, Cr, Pb, and Cd in head, thorax, and abdomen tissues. This is in-scope a4 animal biomonitoring and toxicology context for metal-containing bee feed exposures, not honey or bee-product occurrence.
 
 ## Key numbers

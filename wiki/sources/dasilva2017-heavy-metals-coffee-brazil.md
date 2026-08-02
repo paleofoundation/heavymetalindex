@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # da Silva et al. 2017 - heavy metals in Brazilian roasted coffee and brew
 
+## Overview
+
 This study measured Cd, Cr, Cu, Mn, Ni, Pb, and Zn in 50 arabica coffee samples from the Cerrado Mineiro / Alto Paranaiba region of Minas Gerais, Brazil, after medium roasting and grinding. The authors also prepared coffee infusions and estimated metal leaching from roasted/ground coffee into a 50 mL brew. The strongest source signal is Pb and Cr in roasted/ground coffee, with Pb and Cr also showing the highest average leaching percentages into infusion.
 
 ## Key numbers

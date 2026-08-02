@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Zhang et al. 2018 — Heavy metal accumulation in tea leaves, Puan County, Guizhou Province
 
+## Overview
+
 This study measured Al, Mn, Pb, Cd, Hg, As, Cr, Ni, Cu, and Zn in 13 young tea leaf samples, 13 mature tea leaf samples, and 13 corresponding soil samples (0–30 cm) from the Puan tea-growing area of Guizhou Province, China, using ICP-MS and ICP-AES, and assessed potential health risks from consuming infusions brewed from young and mature tea leaves. Young tea leaf concentrations were well below China's national safety limits for Pb, Cu, As, Hg, Cd, and Cr. Mature tea leaf concentrations for these same elements were also below safety limits. However, for mature tea infusions, 38.46% of samples had hazard index (HI) values above 1, with the risk primarily driven by Mn and Al. The soil was moderately polluted by Cu.
 
 ## Key numbers

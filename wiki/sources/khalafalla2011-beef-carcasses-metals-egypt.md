@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Khalafalla et al. 2011 - beef carcass metals in Beni-Suef
 
+## Overview
+
 Khalafalla and colleagues measured lead, cadmium, total arsenic, total mercury, nickel, and total chromium in cattle muscle, liver, and kidney samples from the Beni-Suef abattoir in Egypt. The study reports `µg/kg fresh weight` tissue concentrations for `100` samples per tissue. Offal and muscle are kept separate because kidney carried the highest mean concentrations for most analytes.
 
 ## Key numbers

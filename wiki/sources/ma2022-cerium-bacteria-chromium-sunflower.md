@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Ma et al. 2022 — Cerium dioxide nanoparticles and Cr-resistant bacteria reduce chromium toxicity in sunflower
 
+## Overview
+
 This pot study tested cerium dioxide (CeO₂) nanoparticles and a chromium-resistant bacterium (*Staphylococcus aureus*) for alleviating chromium stress in sunflower grown on Cr-contaminated soil. It is upstream mechanism evidence on chromium soil-to-plant transfer and stress mitigation; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

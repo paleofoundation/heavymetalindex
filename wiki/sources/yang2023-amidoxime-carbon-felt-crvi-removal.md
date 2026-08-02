@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Yang et al. 2023 - Amidoxime carbon felt for Cr(VI) wastewater removal
 
+## Overview
+
 Yang and colleagues prepared amidoxime-functionalized carbon felt (Ami-CF) and coupled it with a flow-through asymmetric alternating-current electrochemical system for rapid removal and reduction of Cr(VI) from prepared wastewater solutions. This is primary remediation-method evidence, not food, ingredient, drinking-water field occurrence, or consumer-product evidence.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Falconer 1983 - North Sea seafood arsenic
 
+## Overview
+
 Falconer and colleagues reported total arsenic in fish and shellfish landed at Scottish fishing ports and in plaice from major North Sea spawning grounds. The paper compares arsenic levels across seafood species and areas, linking higher arsenic levels to benthic diets. Arsenic is reported as total arsenic only; no inorganic arsenic speciation is provided.
 
 ## Key numbers

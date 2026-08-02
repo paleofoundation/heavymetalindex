@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Dinesh Kumar et al. 2025 - Heavy metals in commercially important fish
 
+## Overview
+
 Dinesh Kumar and colleagues compared heavy-metal concentrations across four organs (muscle, liver, intestine, gills) in three commercially important fish species landed at Ennore fishing port, Chennai (Bay of Bengal, India): Indian Oil Sardine (*Sardinella longiceps*, planktivorous), Indian Mackerel (*Rastrelliger kanagurta*, planktivorous), and Red Snapper (*Lutjanus campechanus*, carnivorous predator). The study is routeable for marine-fish occurrence context across both non-predatory and predatory product categories. The paper emphasizes organ-specific variation, so edible-muscle values must be separated from non-edible organ values during downstream extraction.
 
 ## Key numbers

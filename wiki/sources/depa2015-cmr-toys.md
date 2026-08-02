@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Danish EPA 2015 — CMR substances in toys: market surveillance and risk assessment
 
+## Overview
+
 This Danish Environmental Protection Agency report (Survey of Chemical Substances in Consumer Products No. 141, ISBN 978-87-93352-79-7) is a three-phase market-surveillance-and-risk-assessment of carcinogenic, mutagenic, and reproductive-toxicant (CMR) substances in toys, excluding phthalates (which were under a parallel project at the time of writing). The report's primary scientific output is a chemical-analysis dataset on 28 toy products with worst-case dermal and oral exposure scenarios for children aged 3–6 months, 1–3 years, and 3–6 years. Its principal value to the heavy-metals corpus is twofold: (a) it surfaces the 2005–2014 RAPEX surveillance distribution of Pb, Cr, Cd, Ni, Sb, and total As in EU-notified toy products by material category and concentration band, with Pb dominating (69/154 notifications) and Cr the second-most-frequent (48/154); and (b) it reports a primary XRF and GC/MS quantitative finding of the organotin compound dimethyltin dichloride (DMTC; CAS 753-73-1) at 1,200 mg/kg in a composite plastic-figurine sample (sample 597), with confirmatory migration testing showing no detectable migration of DMTC to artificial saliva at a detection limit of 60 mg/kg over a 60-minute static-contact test at 37 °C. The report's organic-CMR-substance dataset (MBT, aniline, BHT, ethylbenzene, formaldehyde, phenyl isocyanate, styrene, o-TSA, p-TSA, DMTC) is summarised here for completeness but is outside the HMI metals panel.
 
 ## Key numbers

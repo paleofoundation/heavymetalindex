@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Fattorini 2006 - Marine-organism arsenic speciation
 
+## Overview
+
 Fattorini, Notti, and Regoli measured total arsenic and selected arsenic species in bivalves, crustaceans, and fish from temperate, tropical, and polar marine environments. The paper is a baseline bioaccumulation study rather than a market-basket survey, but it reports edible soft parts for crustaceans, whole soft tissues for bivalves, and fish muscle fillets. Total arsenic and inorganic arsenic are separate signals; most speciation rows are dominated by organic arsenic compounds.
 
 ## Key numbers

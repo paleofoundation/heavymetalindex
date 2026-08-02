@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Ricketts et al. 2020 — Mercury in Jamaican skin-lightening products
 
+## Overview
+
 This study quantifies total mercury in 60 skin-lightening products purchased from 12 vendors across Jamaica (February–May 2017) and surveys 384 users about application patterns. The analytical strategy is two-stage: portable handheld energy-dispersive X-ray fluorescence (XRF) on all 60 products for primary screening, with cold-vapor atomic absorption spectroscopy (CVAAS) on a 25-sample subset whose XRF readings fell below the XRF detection limit. Six of 60 products exceeded the US FDA 1 ppm limit for mercury in cosmetics; three products carried "alarmingly high" concentrations above 400 ppm. The XRF range across the full panel spanned 0.05 ppm to 17,547 ppm — five orders of magnitude. The CVAAS sub-panel (excluded by design from the higher-concentration products) ranged 0.05 ppm to 3.68 ppm. Cream formulations carried the highest mean mercury content in the CVAAS sub-panel; soap, lotion, and "other" formulations were lower. The survey component documents that 51% of female users and 49% of male users apply skin-lightening products more than once per day, and that combining multiple products in homemade mixtures is common.
 
 ## Key numbers

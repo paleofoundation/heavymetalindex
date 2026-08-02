@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A silica sol-based colorimetric sensor for Cd2+ detection in water was developed. The paper reports method development and characterisation; no food matrix samples are reported. Detection is for total Cd2+ in aqueous solution.
 
 ## Key numbers

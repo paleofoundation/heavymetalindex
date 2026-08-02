@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Sahu et al. 2014 - heavy metals in cosmetics from Delhi markets
 
+## Overview
+
 Sahu, Saxena, and Johnson reported a Centre for Science and Environment Pollution Monitoring Laboratory survey of commonly available cosmetics purchased from markets in Delhi, India. The study tested 30 lipsticks, 8 lip balms, and 3 anti-ageing creams for Pb, Cd, total Cr, and Ni, and tested 32 fairness/skin-whitening creams for total Hg. This page preserves the report's `ppm` units and total-metal speciation while suppressing brand and shade names attached to individual contamination values.
 
 ## Key numbers

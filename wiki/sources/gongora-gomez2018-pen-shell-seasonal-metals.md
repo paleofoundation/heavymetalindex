@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Gongora-Gomez et al. 2018 - Seasonal metals in pen shell tissue
 
+## Overview
+
 This study measured seasonal heavy-metal levels in soft tissue and muscle of the pen shell Atrina maura from the southeastern Gulf of California. It is routeable for shellfish because it separates soft tissue from muscle and reports seasonal tissue concentrations.
 
 ## Key numbers

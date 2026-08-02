@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2011 — Arsenic in apple juice: analytical results 2005–2011
 
+## Overview
+
 From 2005 to 2011, FDA analyzed 160 samples of apple juice and apple juice concentrate under the Toxic Elements Food and Foodware Program for total arsenic, with speciation results posted December 16, 2011 for a subset. Concentrate samples were converted to single-strength equivalent using a dilution conversion calculation. The dataset (updated December 16, 2011) reports individual sample-level total arsenic concentrations by fiscal year, product type (juice vs concentrate), and country of origin, with speciation data for a subset. Individual sample results range from ND to 45 ppb (single-strength equivalent) for domestic apple juice, with concentrate samples showing higher original concentrations that reduce substantially upon reconstitution. The data informed FDA's subsequent action level consideration for apple juice arsenic.
 
 ## Key numbers

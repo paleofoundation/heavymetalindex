@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Montejo-Custodio et al. 2026 - Landfill soil and water metals near mango agriculture
 
+## Overview
+
 Montejo-Custodio and colleagues assessed soil, water, mineralogical, and hydrological indicators around a municipal solid-waste disposal site in Reforma de Pineda, Oaxaca, Mexico. This is in-scope supply-chain pathway and source-attribution evidence because it quantifies landfill-associated metals in environmental compartments adjacent to a mango cultivation plot and identifies runoff and groundwater transport pathways; it is not bottled mineral-water occurrence evidence.
 
 ## Key numbers

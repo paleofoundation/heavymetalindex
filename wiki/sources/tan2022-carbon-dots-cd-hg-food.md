@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Tan et al. 2022 — Carbon dot fluorescence sensor for Cd and Hg in food matrices
 
+## Overview
+
 This method paper reports the synthesis of nitrogen-doped carbon dots (N-CDs) as a dual-channel fluorescence sensor for simultaneous detection of cadmium (Cd²⁺) and mercury (Hg²⁺) ions in food samples. The sensor exploits differential quenching and enhancement effects on the carbon dot fluorescence signal to distinguish and quantify both analytes in a single measurement. The method was validated using spiked apple and cabbage matrices, with recovery rates and limits of detection reported.
 
 ## Key numbers

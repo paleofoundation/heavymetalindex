@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Jaishree and Khan 2015 - Metals in effluent-irrigated crops
 
+## Overview
+
 This study reports heavy metal concentrations in tomato, carrot, and wheat from an industrial-effluent irrigation setting. It is routeable as a high-contamination context source for root vegetables, non-root vegetables, and wheat, but not as a representative retail-market survey.
 
 ## Key numbers

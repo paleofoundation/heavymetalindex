@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Boișteanu et al. 2024 - Wild boar tissue metals in north-eastern Romania
 
+## Overview
+
 Boișteanu and colleagues measured essential minerals and toxic metals in wild-boar muscle and kidney from north-eastern Romania. The study is routeable for game-meat and organ-meat occurrence because the results tables report tissue-specific Pb and Cd concentrations on a wet-weight basis. The authors found age- and sex-related differences and flagged Pb and Cd accumulation as a consumer-health concern for the study area.
 
 ## Key numbers

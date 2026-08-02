@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kosker et al. 2023 — Metal levels in canned fish from Turkey
 
+## Overview
+
 This study measured nine metals and metalloids in 34 commercially available canned fish products purchased in Turkey, using ICP-MS, and assessed health risks for children and adults through estimated weekly intake (EWI), target hazard quotient (THQ), and carcinogenic risk calculations. The authors found that while EWI for all metals stayed below provisional tolerable weekly intake limits, three tuna samples produced THQ values above 1.0 (driven primarily by Fe and Zn), and arsenic levels in 18 products (15 tuna, 2 salmon, 1 mackerel) presented elevated carcinogenic risk for children under heavy-consumption scenarios.
 
 ## Key numbers

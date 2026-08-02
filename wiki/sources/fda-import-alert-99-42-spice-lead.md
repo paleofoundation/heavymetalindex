@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # FDA Import Alert 99-42 — Spice detention for lead contamination
 
+## Overview
+
 FDA enforcement mechanism for intercepting lead-contaminated spices at US ports of entry. The alert mandates detention without physical examination (DWPE) of spice shipments from countries with documented lead contamination in spice supply chains, pending analytical evidence that Pb levels are below the FDA action level of 0.1 ppm (100 ppb). Documented Pb concentrations in affected turmeric shipments have reached 2-9 ppm, 20-90 times the action level.
 
 ## Key numbers

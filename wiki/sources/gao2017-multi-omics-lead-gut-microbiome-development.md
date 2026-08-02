@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Gao, Chi, Mahbub, Bian, Tu, Ru, Lu 2017 — Multi-omics reveals that lead exposure disturbs gut microbiome development, key metabolites and metabolic pathways
 
+## Overview
+
 This Chemical Research in Toxicology paper from the Lu laboratory at the University of Georgia and the University of North Carolina applies multi-omics (16S rRNA gut microbiome sequencing, untargeted metabolomics, shotgun metagenomics) to an experimental mouse model of dietary lead exposure to characterize the consequences of Pb exposure for gut microbial community structure, microbial metabolic output, and host metabolic pathways. The paper is one of the foundational mouse experimental studies in the Pb-and-microbiome literature and provides the mechanistic detail that complements the human-cohort observational studies (Yang 2023, Yan 2025) and the broader review literature (Coryell 2019, Assefa 2020, Zhu 2024).
 
 ## Key conclusions

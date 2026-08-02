@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Pourramezani et al. 2019 — Heavy metals in imported black tea sold in Hormozgan, Iran
 
+## Overview
+
 Pourramezani and colleagues measured lead, cadmium, copper, total arsenic, and total mercury in 122 commercial black tea leaf samples imported into Hormozgan Province, Iran, from India and Sri Lanka, and computed Hazard Quotient (HQ) and Hazard Index (HI) values against an assumed adult consumption rate of 6 g tea per day and 65 kg body weight. All per-metal means fell below the WHO and Iran national standard limits that the authors cite, and the per-metal HQ and overall HI values were all below 1 for both origins, leading the authors to conclude that the studied teas posed no significant noncarcinogenic health hazard to Iranian consumers. The arsenic and mercury determinations are total values (HGAAS and CV-AAS respectively); no inorganic/organic speciation was performed, which is a non-trivial limitation given that the toxicological floor for tea is set by inorganic arsenic and methylmercury rather than the total fractions reported here.
 
 ## Key numbers

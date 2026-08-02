@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Hovanec 2004 — Arsenic speciation in peanut butter by IC-ICP-MS
 
+## Overview
+
 This 2004 paper from West Coast Analytical Service (Santa Fe Springs, CA) is the first published arsenic speciation study on commercially available peanut butter. Six retail peanut butter spread samples (creamy, super-chunk, low-fat spread, single-serve cups, crunchy salted), plus one whole-peanuts-in-shell sample and NIST SRM 2387 peanut butter reference material, were measured for total arsenic by ICP-MS. Three of the peanut butter spreads plus SRM 2387 were subjected to full four-species IC-ICP-MS speciation (As(III), DMA, MMA, As(V)). The paper developed an extraction protocol using acetone pre-extraction followed by 50% 2-butoxyethanol, solving the problem of incomplete arsenic recovery from high-fat matrices that had caused prior methanol-water methods to fail. Critically, the dominant arsenic species across the speciated samples were organic (DMA and MMA), with inorganic species detectable in only one of the three peanut butter spreads tested, suggesting lower toxicological concern than matrices dominated by iAs.
 
 ## Key numbers

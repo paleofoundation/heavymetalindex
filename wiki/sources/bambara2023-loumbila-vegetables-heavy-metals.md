@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Bambara et al. 2023 - Metals in Loumbila Dam market-garden vegetables
 
+## Overview
+
 This study measured Cu, Ni, Zn, Cr, and Pb in vegetables grown around Loumbila Dam in Burkina Faso. It is routeable as site-specific vegetable occurrence evidence with dry-weight concentrations.
 
 ## Key numbers

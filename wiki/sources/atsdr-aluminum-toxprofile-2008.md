@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # ATSDR 2008 — Toxicological Profile for Aluminum
 
+## Overview
+
 The September 2008 ATSDR Toxicological Profile for Aluminum is the comprehensive United States toxicology synthesis for elemental aluminum and aluminum compounds, prepared under CERCLA Section 104(i) authority and the September 2008 edition supersedes the September 2006 draft for public comment. The profile derives Minimal Risk Levels for oral exposure at intermediate (15-364 days) and chronic (≥1 year) durations, declines to derive an acute-duration oral MRL on inadequate-data grounds, and characterizes aluminum exposure from food, drinking water, ambient air, aluminum-containing medications, and consumer products. As of the access date below, ATSDR has not published a finalized post-2008 update.
 
 ## Key numbers

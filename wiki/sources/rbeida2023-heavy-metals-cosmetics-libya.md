@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Rbeida et al. 2023 — Pb, tAs, Cd, Ni in 12 cosmetic samples (Henna leaves, Henna paste, baby Talcum powder, Khol stones), Tripoli, Libya
 
+## Overview
+
 This Mediterranean Journal of Pharmacy & Pharmaceutical Sciences study quantifies four heavy metals (lead, total arsenic, cadmium, nickel) by atomic absorption spectroscopy (Shimadzu AAS-6300) in 12 cosmetic samples purchased from public markets in Tripoli, Libya in winter 2022: three brands each of Henna leaves, Henna paste, baby Talcum powder, and Khol stones. Khol stones carry the highest lead by an order of magnitude relative to the other three product categories: one sample reaches 102.1 µg/g, roughly 51× the BVL Germany cosmetic limit (2.0 µg/g), 10× the WHO/Health Canada limit (10 µg/g), and 200× the EU limit (0.5 µg/g). One Henna paste sample reaches 41.2 µg/g Pb; one baby Talcum powder sample reaches 33.6 µg/g Pb. Cd and tAs are present at lower but still appreciable levels in henna and kohl; Ni is largely below the limit of detection in henna and talc but reaches 1.5 µg/g in one kohl sample. The paper's central argument is that international cosmetic heavy-metal guidelines diverge widely (FDA, EU 1223/2009, WHO, Health Canada, German BVL) and that the Libyan National Centre for Standardization and Metrology (LNCSM) lacks national specifications for cosmetic heavy-metal limits; the authors call for harmonization.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Bunu et al. 2023 — Heavy metal occurrence and carcinogenic-risk evaluation of energy drinks sold in Bayelsa State, Nigeria
 
+## Overview
+
 Bunu and colleagues (Niger Delta University, Wilberforce Island; Bayelsa Medical University, Yenagoa) quantified lead, cadmium, iron, and zinc in eleven energy-drink brands purchased from general markets in Amassoma and Yenagoa, Bayelsa State, Nigeria, using atomic absorption spectrophotometry after concentrated-nitric/perchloric-acid wet digestion. The authors computed Estimated Daily Intake (EDI), Chronic Daily Intake (CDI), and Target Hazard Quotient (THQ) per sample against WHO permissible-limit and EPA Reference-Oral-Dose comparators, framing the study as a carcinogenic-risk evaluation. The principal finding is that every one of the eleven samples exceeded the WHO 0.01 mg L⁻¹ permissible limit for lead (Table 1 range 0.018–0.332 mg L⁻¹), while cadmium was below the detection floor (<0.002 mg L⁻¹) across all samples, iron sat below the WHO 1.0–3.0 mg L⁻¹ band (0.026–1.85 mg L⁻¹), and zinc sat below the WHO 5.00 mg L⁻¹ ceiling (<0.002–0.493 mg L⁻¹). Despite the uniform lead exceedance against the WHO drinking-water-equivalent ceiling, the authors compute Pb THQ values of 0.029–0.286 (all <1) and conclude that no carcinogenic health risk is associated with consumption.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Yildirim et al. 2021 — Humic + Fulvic acid mitigation of soil Cd uptake by garden cress (Erzurum, Turkey)
 
+## Overview
+
 This greenhouse pot study tested whether soil application of a commercial humic + fulvic acid product (Powhumus, 80–85% humic substances composed of 90% humic acid + 10% fulvic acid) reduced the uptake of cadmium into the edible aerial tissue of garden cress (*Lepidium sativum* cv Helen) grown in artificially Cd-spiked soil. Authors used a 3×4 factorial of soil Cd (0, 100, 200 mg/kg as CdSO4·8H2O) crossed with HA+FA solution (0, 3500, 5250, 7000 mg/L). The principal finding for the wiki is that, at the highest HA+FA rate (7000 mg/L), Cd uptake into garden cress leaves was reduced by 95% relative to the no-amendment control at 200 mg/kg soil Cd, and Cl uptake by 80%. HA+FA also mitigated Cd-driven losses of leaf and root biomass, leaf area, chlorophyll content, leaf relative water content, and antioxidant enzyme stress markers. The study is an agronomic / soil-amendment intervention, not a food-occurrence survey: it does not measure Cd in retail or harvested commercial cress and the soil Cd doses are far above typical agricultural-soil contamination.
 
 ## Key numbers

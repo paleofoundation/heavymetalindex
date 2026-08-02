@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Wan et al. 2023 - AMF, rhizosphere microbiome, and cadmium migration
 
+## Overview
+
 Wan and colleagues studied how arbuscular mycorrhizal fungi (AMF) reshape rhizosphere microbiome assembly and cadmium migration in an alfalfa root-box system. This is in-scope a2 mitigation evidence because it reports primary cadmium-passivation, migration, soil-state, and microbiome results rather than finished-food occurrence data.
 
 ## Key numbers

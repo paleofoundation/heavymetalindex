@@ -29,6 +29,8 @@ updated: 2026-05-29
 
 # Joyce et al. 2016 — Effects of cooking methods on heavy metals in fresh and smoked bush meat (Ghana)
 
+## Overview
+
 This Ghanaian study measured six metals (Fe, Mn, Cu, Zn, Cd, Pb) in 35 bush-meat samples drawn from two commonly hunted species — cane rat (*Thryonomys swinderianus*) and giant rat — sold in three Ashanti Region markets, then compared concentrations across four cooking states (raw, boiled, fried, grilled) plus smoked and smoked-then-boiled processed meat. Lead was the dominant safety concern: fresh and boiled samples sat at multi-ppm concentrations well above the paper's stated 0.01–0.38 ppm reference range, while grilling and smoking reduced lead concentrations substantially. Cadmium was reported as a single uniform value of 0.10 ppm across every cooking method, which the authors interpret as "unaffected by cooking" but which is consistent with the value sitting at or near the instrument's reporting floor.
 
 ## Key numbers

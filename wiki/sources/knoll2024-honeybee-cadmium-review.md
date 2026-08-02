@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Knoll and Cappai 2024 — Honey bee foraging and cadmium exposure: review
 
+## Overview
+
 This comprehensive review synthesizes the literature on the pathway by which environmental cadmium enters honey bee (Apis mellifera) colonies through foraging activity and can appear in honey and other bee products consumed by humans. The paper traces the chain from soil Cd pollution sources through plant uptake into pollen and nectar, to bee foraging behavior, Cd accumulation in bee tissues, and potential carryover into honey. Bees are presented both as sensitive environmental Cd bioindicators and as a possible route by which Cd reaches the human food chain through honey consumption.
 
 ## Key numbers

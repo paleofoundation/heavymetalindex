@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Tian et al. 2021 — Magnetic purification and electrochemical detection of Cd/Pb in grain
 
+## Overview
+
 This paper from the Academy of National Food and Strategic Reserves Administration (Beijing) describes a rapid integrated method for Cd2+ and Pb2+ determination in grain (rice, wheat, corn). The authors synthesized Fe3O4@agarose@iminodiacetic acid (IDA) magnetic beads capable of selectively extracting Cd2+ and Pb2+ from complex grain matrices within 15 minutes, followed by portable screen-printed electrode (SPE) anodic stripping voltammetry detection. The complete pretreatment and detection workflow takes under 30 minutes. Twelve naturally contaminated grain samples from local Chinese markets were analyzed and results cross-validated against ICP-MS (R² > 0.96 for both Cd and Pb), confirming method accuracy.
 
 ## Key numbers

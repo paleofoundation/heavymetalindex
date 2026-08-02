@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Taniguchi et al. 2024 - Chitosan hydrogel recovery of Pd from Sn-rich plating wastewater
 
+## Overview
+
 Taniguchi and colleagues tested chitosan nanofiber hydrogel for selective recovery of palladium from tin-rich plating wastewater. This is in-scope mitigation and metal-recovery evidence, not chitosan occurrence evidence.
 
 ## Key numbers

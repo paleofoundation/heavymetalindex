@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Shi et al. 2023 - Leersia CW-MFC Cr(VI) reduction
 
+## Overview
+
 Shi and colleagues tested whether cathode aeration improves Cr(VI) reduction in a lab-scale *Leersia hexandra* constructed wetland-microbial fuel cell (CW-MFC). The source is primary remediation evidence for synthetic chromium wastewater, not food or ingredient occurrence evidence. The best-performing condition was 4.5 mg/L dissolved oxygen (DO), where the system reached 520 mV, 93.73% COD removal, and 97.77% Cr(VI) removal while shifting chromium toward Cr(III) and residual/bound forms in the substrate and plant tissues.
 
 ## Key numbers

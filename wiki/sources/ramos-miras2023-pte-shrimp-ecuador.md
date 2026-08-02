@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Ramos-Miras et al. 2023 — PTE concentrations in farmed Pacific White shrimp from Ecuador
 
+## Overview
+
 This study measured nine potentially toxic elements (As, Cd, Co, Cr, Cu, Hg, Ni, Pb, Zn) in Pacific White shrimp (Litopenaeus vannamei) from indoor cage farming in Ecuador's El Oro Province, an area with legacy gold mining and associated metal contamination in water and sediments. Measurements were made separately in the cephalothorax (head) and abdominal muscle (tail). The EU regulatory limit for arsenic in seafood cephalothorax (4 mg/kg) was exceeded: head As ranged 3.52–6.11 mg/kg DW. All other PTEs were below applicable EU seafood regulatory limits. Target hazard quotient (THQ) values for muscle tissue (the consumed portion) were below 1 for all elements, indicating no adverse health risk from muscle consumption under the assessed consumption scenarios.
 
 ## Key numbers

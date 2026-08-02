@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Siric et al. 2019 - Heavy metals in cultivated mushrooms from Croatia
 
+## Overview
+
 Siric and colleagues measured Fe, Zn, Cu, As, Cd, Pb, and Hg in three cultivated mushroom species, with 20 samples per species. The source is routeable because it provides species-level means and SDs for edible cultivated mushrooms. As, Cd, Pb, and Hg are reported in ug/kg, while Fe, Zn, and Cu are reported in mg/kg.
 
 ## Key numbers

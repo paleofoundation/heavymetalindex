@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Chen et al. 2020 — Biochar versus crop straws for cadmium immobilization in peanut soil
 
+## Overview
+
 This pot experiment compares peanut-shell biochar with peanut vine and rice straw additions as ways to reduce cadmium bioavailability in contaminated soil. It is an a2 mitigation paper with direct crop-tissue relevance because cadmium was measured in roots, aboveground tissue, shells, and seeds. The paper is useful because it quantifies how much more effective biochar was than raw crop residues under the tested conditions.
 
 ## Key numbers

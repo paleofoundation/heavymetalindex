@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Afrin 2020 — Heavy metals in retail fruits from Dhaka city, Bangladesh
 
+## Overview
+
 Five fruit types (grape, apple, orange, banana, pomegranate) were collected from five retail outlets in Dhaka and analyzed for Pb, Cd, Cr, Ni, and Co by AAS. All measured concentrations were below FAO/WHO maximum allowable concentrations: Pb <1.50 mg/kg, Cd <0.20 mg/kg, Cr <2.30 mg/kg, Ni <0.80 mg/kg, Co <50 mg/kg. Pb varied most strongly by outlet/fruit combination, with banana samples from two markets approaching but not exceeding the FAO/WHO Pb limit (1.31 and 1.24 mg/kg vs. a 1.50 mg/kg ceiling). Risk indices (single-factor pollution index, sum of pollution index, metal pollution index) all indicated the fruits posed no contamination risk under FAO/WHO reference values at the time of sampling.
 
 ## Key numbers

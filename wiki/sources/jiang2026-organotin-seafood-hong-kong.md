@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jiang 2026 - Organotins in Hong Kong seafood
 
+## Overview
+
 Jiang and colleagues assessed organotin compounds in Hong Kong seafood after the 2017 local ban on organotin antifouling systems on vessel hulls. The extracted source is a ScienceDirect article-preview printout, but the abstract and snippets report direct occurrence and exposure numbers for 23 marine species collected in 2023. The analytes are organotin compounds, including TBT and TPT; they are tin-organic species and should not be pooled as total tin.
 
 ## Key numbers

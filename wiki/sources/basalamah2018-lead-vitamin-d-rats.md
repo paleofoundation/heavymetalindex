@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # BaSalamah et al. 2018 - Lead acetate, vitamin D, and rat renal/testicular injury
 
+## Overview
+
 BaSalamah and colleagues tested whether vitamin D3 altered renal and testicular injury in a controlled rat model of lead acetate toxicity. This is lane a4 toxicology evidence, not supplement occurrence evidence: lead acetate was deliberately administered in drinking water, and vitamin D3 was a co-treatment. The source reports exact tissue Pb concentrations and biochemical, cytokine, oxidative-stress, histology, and gene-expression endpoints while stating that vitamin D3 did not lower tissue Pb concentrations.
 
 ## Key numbers

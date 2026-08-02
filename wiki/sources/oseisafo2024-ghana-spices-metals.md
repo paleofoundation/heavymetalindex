@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Osei-Safo et al. 2024 — As, Cd, and Pb in spices from Accra markets, Ghana
 
+## Overview
+
 Ninety spice samples across ten varieties (ginger, garlic, rosemary, aniseed, negro pepper, nutmeg, green pepper, white pepper, turmeric powder, black pepper) were purchased from three major markets in Accra and analyzed by microwave-digestion ICP-MS for arsenic, iron, zinc, lead, and cadmium. Arsenic and lead in turmeric powder, whole rosemary, and garlic, and lead in ginger, slightly exceeded Codex Alimentarius limits but remained below FAO/WHO permissible levels. All spices showed target hazard quotient (THQ) and hazard index (HI) values below 1, suggesting no acute non-carcinogenic health risk from individual spice consumption at typical Ghanaian ingestion rates, though the authors note the need for ongoing monitoring given long-term bioaccumulation potential.
 
 ## Key numbers

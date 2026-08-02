@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Neuwirth et al. 2022 — Cereal and Juice, Lead and Arsenic: A Call for FDA Re-Evaluation
 
+## Overview
+
 Opinion paper in IJERPH arguing the FDA should tighten allowable limits of Pb and As in cereals and juices marketed to infants, toddlers, and children. The authors review pediatric gastrointestinal absorption physiology, summarize contamination findings from third-party surveys (Consumer Reports, Clean Label Project, Healthy Babies Bright Futures) and the FDA Total Diet Study 2006–2013, and propose sequential testing along the manufacturing chain plus surgeon-general-style warning labels. No independent primary contamination data are reported; figures are second-hand from the cited surveys.
 
 ## Key numbers

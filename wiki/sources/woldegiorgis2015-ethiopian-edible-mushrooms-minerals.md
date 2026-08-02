@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Woldegiorgis et al. 2015 - Ethiopian edible mushroom mineral and toxic-metal concentrations
 
+## Overview
+
 Woldegiorgis and colleagues measured mineral and toxic-metal concentrations in 12 edible mushroom samples from Ethiopia. The source is routeable because it reports dry-weight concentrations for Pb and Cd, including non-detect Cd results, alongside Fe, Zn, Cu, and Mn. Cadmium was detected only in Agaricus campestris at 4.08 mg/kg dry weight; Pb was detected in all tabulated mushroom types, with species-level means from 1.52 to 18.0 mg/kg dry weight.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-28
 
 # Schaefer et al. 2020 — Cadmium: Mitigation strategies to reduce dietary exposure
 
+## Overview
+
 This peer-reviewed concise review, authored by FDA/CFSAN scientists, synthesises the scientific basis for cadmium in the food supply and evaluates mitigation strategies across the full supply chain from agronomic production through processing to consumer preparation. Published in the Journal of Food Science (Vol. 85, Iss. 2, 2020), the paper draws on the 2011 JECFA review, the 2009 and 2011 EFSA scientific opinions, and the FDA Total Diet Study 2014–2016 to provide US-centric concentration data. Key findings: diet is the dominant cadmium exposure pathway (approximately 90% of non-occupational, non-smoking exposure); leafy vegetables, root crops, cereals, and grains are the primary dietary contributors; and the paper identifies reducing initial plant uptake (soil pH management, cultivar selection, fertiliser choice) as a key step to reducing dietary cadmium, alongside complementary measures further down the supply chain. The paper explicitly identifies data gaps and recommends commodity-specific codes of practice.
 
 ## Key numbers

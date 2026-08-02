@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Kiczorowski et al. 2022 - lead and cadmium in raw and fermented vegetables
 
+## Overview
+
 Kiczorowski and coauthors compared raw and fermented vegetables for nutrients, minerals, vitamins, phenols, lead, and cadmium. The paper is directly useful for processing-effect evidence because the same vegetable types were compared before and after fermentation. It does not support the mineral-water row named in the fetched filename.
 
 ## Key numbers

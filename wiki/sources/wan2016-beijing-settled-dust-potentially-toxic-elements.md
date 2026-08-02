@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Wan et al. 2016 - Potentially toxic elements in Beijing settled dust
 
+## Overview
+
 Wan and colleagues measured twelve potentially toxic elements in 62 settled-dust samples from the Beijing urban area and used those concentrations in a US EPA-style exposure model. This is primary environmental and health-risk evidence, not food, ingredient, cosmetic, or consumer-product occurrence evidence. Its main value for the index is context: dust ingestion as a child exposure pathway, total-element method notes, and the relative contribution of arsenic, lead, and antimony to non-cancer hazard in an urban dust setting.
 
 ## Key numbers

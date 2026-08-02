@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sadee et al. 2023 — Arsenic speciation in vegetables: review
 
+## Overview
+
 Sadee and colleagues provide a systematic review of arsenic speciation, toxicity, and analytical methods as applied to vegetable matrices. The review covers: the chemical forms of arsenic (inorganic species As3+, As5+; organic arsenicals); health effects of prolonged inorganic arsenic exposure (skin, lung, bladder, liver, kidney, and prostate cancer; cardiovascular, respiratory, and renal effects); occurrence data from multiple countries; extraction methods for arsenic species from vegetable matrices; and hyphenated chromatographic-detection techniques (primarily HPLC coupled to ICP-MS or AAS variants). Regulatory context is discussed including FDA's 100 ppb action level for iAs in infant rice cereal and EU maximum levels. The review explicitly acknowledges that the toxicity of arsenic depends critically on its chemical form, making speciation essential for meaningful risk assessment.
 
 ## Key numbers

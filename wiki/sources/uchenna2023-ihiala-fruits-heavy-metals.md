@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Uchenna and Onyebuchi 2023 - Heavy metals in Ihiala market fruits
 
+## Overview
+
 This study measured metals in banana, watermelon, apple, and pineapple sold in markets in Ihiala, Anambra State, Nigeria. It provides fresh-fruit context, including a direct pineapple matrix, with arsenic and iron exceeding the comparison limits used by the authors.
 
 ## Key numbers

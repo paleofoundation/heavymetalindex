@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Luvonga 2020 — Analytical methodologies for organoarsenicals in edible marine species (methods review)
 
+## Overview
+
 Luvonga and colleagues (US National Institute of Standards and Technology) reviewed the analytical methodologies for determining organoarsenicals in edible marine species (seafood and seaweed): sample handling, extraction, cleanup, chromatographic separation, element-specific detection, and molecular characterization. This is a methods review with no primary occurrence measurements; its relevance to the Category 6 seaweed-kelp-foods row is methodological and toxicological framing rather than concentration data. Its load-bearing point for the row is that total arsenic is an inadequate dietary-risk indicator for seaweed: organoarsenicals (predominantly arsenosugars) make up >85% of total arsenic in most seafood, several organoarsenicals (arsenic-containing hydrocarbons and fatty acids) have toxicity approaching inorganic arsenic, and seaweed arsenic is especially difficult to extract and speciate reliably — so speciated inorganic-arsenic measurement (with quality standards and CRMs) is essential for credible risk assessment and regulation.
 
 ## Key numbers

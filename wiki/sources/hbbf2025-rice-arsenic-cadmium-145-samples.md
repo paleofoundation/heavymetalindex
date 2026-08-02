@@ -28,6 +28,8 @@ updated: 2026-05-29
 
 # HBBF 2025 — Total and inorganic arsenic, cadmium, lead, and mercury in 145 US retail rice samples and 66 alternative grain samples
 
+## Overview
+
 Healthy Babies Bright Futures commissioned Brooks Applied Labs to test 211 containers of rice and alternative grains purchased from retailers in 20 US metro areas during 2024-2025, measuring total arsenic, inorganic arsenic, cadmium, lead, and total mercury. Inorganic arsenic was detected in 100% of 145 rice samples, with more than one in four (>25%) exceeding the FDA action level of 100 ppb iAs for infant rice cereal. Brown rice grown in the Southeastern US and arborio risotto rice from Italy showed the highest average total heavy metal burdens (151 ppb and 142 ppb respectively); California-grown rice averaged 65 ppb total heavy metals, the lowest of the rice categories tested. Alternative grains averaged 33 ppb total heavy metals versus 108 ppb for rice, a roughly 69% reduction.
 
 ## Key numbers

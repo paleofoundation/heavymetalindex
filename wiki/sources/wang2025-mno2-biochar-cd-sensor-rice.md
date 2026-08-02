@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang, Tang & Yang 2025 — MnO2/biochar electrochemical Cd sensor validated in rice and seawater
 
+## Overview
+
 This paper reports the synthesis of a manganese dioxide (MnO2) nanoparticle-loaded porous biochar composite (MnO2/KLSC), derived from longan shells, as the electrode material for an electrochemical Cd2+ sensor. The sensor achieves a LOD of 9.8 nmol/L with a linear range of 0.01–80 µmol/L using square-wave anodic stripping voltammetry (SWASV). The sensor is validated against spiked rice and seawater samples. In the rice sample, Cd was at or below the detection limit before spiking; only recovery rates from spiked additions are reported. No measured Cd occurrence data from actual rice are provided.
 
 ## Key numbers

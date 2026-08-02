@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lorenzana 2009 - Seafood arsenic speciation
 
+## Overview
+
 Lorenzana, Yeow, Colman, Chappell, and Choudhury reviewed arsenic speciation evidence for seafood risk assessment, focusing on the fraction of total arsenic present as inorganic arsenic. The paper is a literature survey and does not contribute a single new sampling campaign. Its main contribution is context for keeping measured total arsenic separate from inorganic arsenic in seafood, shellfish, freshwater fish, and seaweed.
 
 ## Key numbers

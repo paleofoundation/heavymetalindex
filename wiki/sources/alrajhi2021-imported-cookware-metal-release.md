@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Alrajhi and Idriss 2021 - Metals released from imported cookware in Riyadh
 
+## Overview
+
 Alrajhi and Idriss measured metals released into boiled water from 46 imported aluminium cookware items purchased in Riyadh. The study is direct cookware migration evidence, with ten elements measured by ICP-OES after boiling distilled water in the pots. The authors reported the overall release order as Mn > Al > Pb = As > Fe > Zn > Cu = Ni = Cd > Cr.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mukhi et al. 2023 — Heavy metals in food packaging materials and effects on gut microbiota
 
+## Overview
+
 This study quantified vanadium (V), arsenic (As), cadmium (Cd), and mercury (Hg) in acid digests of 13 food and pharmaceutical packaging materials (including cardboard, sachets, and medicinal closures), and then tested whether the metal concentrations extracted from these packaging materials were sufficient to inhibit the growth of four prominent gut bacteria (E. coli, P. aeruginosa, K. pneumoniae, E. faecalis). The key finding was that metal concentrations in all packaging materials remained within Codex-specified permissible levels, and the minimum inhibitory concentrations (MICs) of metals leached from packaging materials were not statistically different from MICs of the equivalent pure metal salts, suggesting the metals as delivered by packaging digests are not more potent inhibitors of gut microbiota than the metals themselves.
 
 ## Key numbers

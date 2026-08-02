@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Morshdy et al. 2023 — Lead, cadmium, arsenic, and mercury in four types of salted fish from Zagazig, Egypt
 
+## Overview
+
 This study analyzed Pb, Cd, As, and Hg in 80 samples of four types of traditionally salted fish — salted sardine, feseikh (salted mullet/fesikh), sahlia (keeled mullet), and salted smoked herrings — retailed in Zagazig, Egypt. All four metals were detected in most sample types; mercury was not found in salted herrings only. Herrings showed the highest Pb and Cd residuals, followed by sardine, feseikh, and sahlia. Feseikh had the highest As concentration, followed by sardine, herrings, and sahlia. Sardine, feseikh, and sahlia contained mercury in that order. Several samples exceeded maximum allowable limits. Despite elevated concentrations, HQ and HI values based on computed daily intakes did not indicate apparent non-cancer risk for this consumption pattern. DORM-3 certified reference material was used for analytical QC.
 
 ## Key numbers

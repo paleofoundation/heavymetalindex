@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Scovronick et al. 2025 — Human exposure to industrial toxicants in Glynn County, Georgia
 
+## Overview
+
 This community-engaged biomonitoring study enrolled 100 adults in coastal Brunswick, Georgia, a city surrounded by four EPA National Priorities List Superfund sites contaminated with Aroclor 1268 PCBs, toxaphene pesticide, and mercury. The study was initiated at the request of local community leaders and environmental groups, and it measured whole blood metals (Pb, Cd, tHg) alongside serum PCBs, toxaphene, p,p'-DDE, and PFAS. The primary finding was that levels of the highly chlorinated PCBs associated with Aroclor 1268 were substantially elevated — 19–40% of participants exceeded the estimated 95th percentile reference levels for PCBs 196+203, 199, and 206 — while blood mercury levels were broadly comparable to the US general population. The seafood pathway emerged as a significant predictor of PCB exposure; participants who reported active fishing had significantly higher odds of detectable highly chlorinated PCBs (OR 5.25–8.52 for PCBs 199 and 206).
 
 ## Key numbers

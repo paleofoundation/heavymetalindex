@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Nkwocha et al. 2021 - metals in raw cashew nuts from Enugu State
 
+## Overview
+
 Nkwocha and coauthors measured heavy metals, antinutrients, physicochemical properties, and PAHs in raw cashew nuts from Enugu State, Nigeria. The source is routeable to cashews because it reports numeric Cd, Pb, and Hg concentrations in the edible nut matrix. Values are summary-level, not sample-level distributions.
 
 ## Key numbers

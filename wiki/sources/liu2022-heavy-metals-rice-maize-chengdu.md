@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Liu et al. 2022 — Heavy metals in rice, maize, and soil, Chengdu Plain, China
 
+## Overview
+
 This study quantified concentrations of As, Cd, Hg, Pb, Cu, and Zn in rice grain (n = 40), maize grain (n = 10), and their respective soils (n = 50 total) from the Shifang area of the Chengdu Plain, Sichuan — a region where heavy industrial activities (metallurgy, chemicals, cement, phosphorus mining) coexist with intensive rice and maize cultivation. Analysis was by AAS (graphite furnace for Pb, Cd, Cu, Zn) and AFS (atomic fluorescence spectrometry) for As and Hg. A certified rice flour reference material (GBW10044) was used for quality control with recoveries of 91–105% across all metals.
 
 The dominant finding is severe cadmium contamination: mean Cd in rice was 0.46 mg/kg and in maize 0.26 mg/kg (dry weight). 78% of all grain samples failed China's national maximum limit for Cd (GB 2762-2017: 0.2 mg/kg rice; 0.1 mg/kg other grains). Mean Pb in rice (0.30 mg/kg) and maize (0.29 mg/kg) also exceeded the national limit of 0.2 mg/kg for both. Soil Cd mean (0.84 mg/kg) was approximately six times the local background value (0.14 mg/kg) and 98% of paddy soils exceeded China's risk-control screening value (0.30 mg/kg). Estimated daily intakes (EDI) for As, Cd, Hg, Cu, and Zn exceeded oral reference doses for adults consuming local staple quantities; Pb EDI was below its reference dose.

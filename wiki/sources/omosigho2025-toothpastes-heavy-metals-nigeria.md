@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Omosigho et al. 2025 - Toothpaste heavy metals in Nigeria
 
+## Overview
+
 Omosigho and colleagues measured cadmium, copper, zinc, manganese, and lead in five toothpaste products sold in Warri, Nigeria. This is direct product-occurrence evidence for toothpaste, with source-reported concentrations in mg/kg and accompanying pH and moisture checks.
 
 ## Key numbers

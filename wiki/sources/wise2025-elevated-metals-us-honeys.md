@@ -26,6 +26,8 @@ updated: 2026-05-20
 
 # Wise et al. 2025 — Elevated metal levels in U.S. honeys
 
+## Overview
+
 Twenty elements were measured in 28 U.S. honey samples from 15 states using benchtop X-ray fluorescence (XRF), which the authors describe as the most geographically broad survey of metal contaminants in U.S. honeys reported to date. The majority of samples exceeded EU maximum residue levels for lead (0.10 µg/g) and mercury (0.01 µg/g), with the highest Pb observed in Tennessee (0.918 µg/g), Massachusetts (0.820 µg/g), and New Mexico (0.367 µg/g), and the highest Hg in Massachusetts (8.94 µg/g), Tennessee (7.04 µg/g), and New Mexico (6.92 µg/g) — 894×, 704×, and 692× the EU MRL respectively. Estimated weekly intake calculations at 300 mg honey/kg body mass/day showed that all four toxic metals (As, Pb, Cd, Hg) and aluminum exceeded JECFA provisional tolerable weekly intake (PTWI) values, with Hg EWI of 2.504 mg/kg body mass/week against a PTWI of 0.005 mg/kg (≈501× excess). The paper contains several internal inconsistencies in the Cd reporting (see Key numbers).
 
 ## Key numbers

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Anwar et al. 2021 - lead and mercury in canned tuna from Aceh waters
 
+## Overview
+
 Anwar and coauthors evaluated canned tuna made from yellowfin tuna (Thunnus albacares) caught in Aceh waters, Indonesia, under different pressure-canner sterilization conditions and media. Heavy metals were one of several quality parameters. The paper reports lead below the analytical detection limit and measurable total mercury in canned tuna, making it routeable to canned fish rather than salt.
 
 ## Key numbers

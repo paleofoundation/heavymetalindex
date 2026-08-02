@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Godwill et al. 2015 - Soft-drink heavy metals in Nigeria
 
+## Overview
+
 Godwill and colleagues measured cadmium, lead, and total mercury in 26 Nigerian soft-drink and juice samples purchased from local grocery stores in Enugu, Enugu State. Heavy metals were quantified by atomic absorption spectrophotometry after nitric-acid digestion. The paper reports lead in all samples, mercury in most samples, and cadmium in one sample, with all concentration units preserved as `mg/L`.
 
 ## Key numbers

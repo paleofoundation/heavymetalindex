@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Norin 1985 - Swedish fish arsenic speciation
 
+## Overview
+
 Norin, Vahter, Christakopoulos, and Sandstrom measured total arsenic and inorganic arsenic in fish from arsenic-polluted and reference brackish and freshwater sites in Sweden. The source reports fish meat and liver on a wet-weight basis. It is useful because total arsenic and inorganic arsenic are quantified separately; total arsenic is not a proxy for inorganic arsenic.
 
 ## Key numbers

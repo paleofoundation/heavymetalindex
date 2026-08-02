@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Islam 2014 - Bangladesh cereals and pulses metals
 
+## Overview
+
 Islam, Ahmed, and Habibullah-Al-Mamun measured chromium, nickel, copper, zinc, arsenic, cadmium, and lead in five commonly consumed cereals and pulses from agricultural fields in Bogra district, Bangladesh. The food panel covered rice, wheat, maize, lentil, and black gram, with paired soil sampling used to discuss soil-to-crop transfer. The occurrence data report total/unspecified arsenic as `As`; the paper's carcinogenic-risk model assumes `90%` inorganic arsenic in cereals and pulses, but it does not measure arsenic speciation in the food samples.
 
 ## Key numbers

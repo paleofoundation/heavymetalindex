@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Esoyan et al. 2024 - Ceramic packaging and metals in matsoun
 
+## Overview
+
 Esoyan et al. compared Armenian matsoun stored in glass and ceramic containers for 15 days at refrigerated temperature. The paper is useful for packaging and dairy matrices because it directly reports Pb, Cd, Hg, and As migration checks in a fermented dairy food. The main signal was a ceramic-container increase in cadmium over storage, while Pb stayed constant and As and Hg were not detected.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # De Silva et al. 2023 — Industrial waste land application: soil quality, biota, and human health
 
+## Overview
+
 A systematic review of the scientific literature on land application of industrial wastes to agricultural soils, covering fly ash, tannery waste, foundry sand, pulp sludge, red mud, sugar beet lime, wood ash, and other industrial byproducts. The review documents heavy metal contamination pathways (As, Cd, Cr, Pb, Ni, Cu, Zn) associated with specific waste types: tannery waste carries high chromium, copper, zinc, lead, strontium, and vanadium; fly ash may leach Se and As; foundry sand may contain metal contaminants; potable water treatment residuals may carry As and radioactive isotopes. The review identifies soil-to-plant-to-human food chain contamination as a key risk pathway, assesses existing regulatory frameworks, and identifies research gaps including lack of long-term mass-balance experiments and variable waste composition as barriers to establishing safe land application guidelines.
 
 ## Key numbers

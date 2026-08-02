@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Taş Divrik 2025 — Toxic elements in drinking fountains, Şarkışla, Sivas, Turkey
 
+## Overview
+
 This 2025 study investigated physicochemical variables and toxic metal concentrations in drinking water from five publicly used fountains in Şarkışla, Sivas Province, Turkey, sampled across all four seasons in 2022. Arsenic concentrations far exceeded drinking water limits at all stations in all seasons, driven by naturally occurring contamination from Pliocene alluvial aquifer deposits. Human health risk assessment (HHRA) for ingestion and dermal pathways found that As poses serious carcinogenic risk exceeding the 1×10−4 threshold for both adults and children; Cd posed non-carcinogenic hazard index values above 1 at several stations.
 
 ## Key numbers

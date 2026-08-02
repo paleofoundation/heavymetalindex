@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Famurewa et al. 2023 - Metals and pesticide residues in coconut oil sold in Nigeria
 
+## Overview
+
 Famurewa et al. measured toxic metals, trace minerals, pesticide residues, vitamins, and amino-acid profiles in three coconut oil samples associated with the Nigerian market. The metal analysis used ICP-OES after acid extraction/digestion and reported concentrations in mg/kg oil. Lead, cadmium, total arsenic, nickel, and aluminum were detected in all three oils, while mercury was not detected. The imported oil had higher toxic-metal concentrations than the two locally produced Nigerian oils, but all reported toxic-metal values were below the FAO/WHO reference limits cited by the authors.
 
 ## Key numbers

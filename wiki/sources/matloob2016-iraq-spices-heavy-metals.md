@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Matloob 2016 — heavy metals in cooking spices used in Iraq
 
+## Overview
+
 Matloob measured ten elements in 160 samples representing 32 natural spices traditionally consumed in Iraq. The paper is direct spice occurrence evidence, with dry-weight concentration tables for essential trace elements and toxic elements.
 
 ## Key numbers

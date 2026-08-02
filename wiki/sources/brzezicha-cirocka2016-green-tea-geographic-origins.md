@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Brzezicha-Cirocka et al. 2016 — Monitoring heavy metals in green tea from China, India, and Japan
 
+## Overview
+
 This study measured Cd, Pb, and 11 other elements (Ca, K, Mg, Na, P, Mn, Fe, Zn, Cu, Co, Cr, Ni) in dry leaves and infusions of 41 green teas purchased in Poland representing China (17 original + 10 marketed), India (2 original), Japan (7 original), and mixed/unspecified origins (5 marketed). Both dry tea and prepared infusions were analysed to assess leaching percentages and PTWI exceedance risk. Indian teas had the highest Cd leaching (43.8%) while Chinese teas had the lowest (9.41%). Chemometric analysis (factor and cluster analysis) successfully differentiated samples by geographic origin using K, P, Mn, Fe, Cu, Co, and Cd as key discriminating elements.
 
 ## Key numbers

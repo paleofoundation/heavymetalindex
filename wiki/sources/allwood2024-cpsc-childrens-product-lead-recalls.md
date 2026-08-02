@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Allwood et al. (2024) — Recently Recalled Children's Products Due to Lead Hazards
 
+## Overview
+
 This is a five-page review article (with one figure and one table) published in *Pediatrics* as part of a 2024 supplement (Suppl 2), authored by CDC Lead Poisoning Prevention and Surveillance Branch staff (Paul Allwood PhD; Perri Zeitz Ruckart DrPH; Qaiyim Harris). The paper describes the implementation of a CDC automated tool that monitors the US Consumer Product Safety Commission (CPSC) Really Simple Syndication (RSS) recall feed for the keyword "lead" and uses Microsoft Power Automate workflows to filter, log, and disseminate lead-related children's-product recall notices to public health partners. The authors then descriptively summarise the 30 lead-related children's-product recalls captured by the tool during June 2022 through April 2024, including product type, country of manufacture, time-on-market before recall, recall type (voluntary vs not), remedy offered, distribution scope, and injuries reported. The paper reports no primary contamination measurements; its contribution to the HMI corpus is as a contemporaneous CDC-authored regulatory-landscape paper documenting CPSC lead-recall activity for children's products in the two-year window immediately following the 2022 wave of cinnamon-applesauce and toddler-cup CPSIA actions.
 
 ## Key numbers

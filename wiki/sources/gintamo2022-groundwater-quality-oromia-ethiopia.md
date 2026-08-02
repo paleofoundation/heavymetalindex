@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Gintamo et al. 2022 — Physicochemical quality and health risk of borehole groundwater in Oromia, Ethiopia
 
+## Overview
+
 A seasonal survey of 17 borehole drinking water sources in the Sebeta zone, Oromia (35 km southwest of Addis Ababa) measured physicochemical parameters and six heavy metals (Fe, Cu, Mn, Cr, Zn, Pb) across dry and wet seasons in 2020. Hazard index values for children exceeded 1 in the dry season (HI = 1.861), indicating a non-carcinogenic health risk from chronic groundwater consumption, while adult HI was lower (1.331 dry season, 0.075 wet season). Iron, potassium, and fluoride exceeded WHO and Ethiopian standards in both seasons, with iron elevated in 88.5% of dry-season samples. The study provides baseline contamination data for an area subject to rapid industrialization, agricultural runoff, and uncontrolled waste disposal.
 
 ## Key numbers

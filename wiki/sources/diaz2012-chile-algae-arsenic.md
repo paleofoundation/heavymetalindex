@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Díaz et al. 2012 - Chilean algae arsenic
 
+## Overview
+
 Díaz et al. measured total arsenic and inorganic arsenic in 79 algae samples representing 14 economically important species from Chilean coastal zones. The paper reports species-level mean concentrations in `mg kg-1 d.w.` and identifies which species were used for direct consumption, carrageenan, agar agar, or alginates. Total arsenic and inorganic arsenic are reported as separate analytes and are kept separate below.
 
 ## Key numbers

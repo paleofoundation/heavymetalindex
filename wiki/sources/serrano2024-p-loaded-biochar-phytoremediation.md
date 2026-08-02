@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Serrano et al. 2024 - phosphorus-loaded biochar-assisted phytoremediation
 
+## Overview
+
 Serrano and colleagues tested whether phosphorus-loaded biochars made from coffee husk or sugar-cane leaf residues could assist Lolium perenne phytoremediation of Cd-, Cr-, and Pb-contaminated soils. This is mitigation evidence, not occurrence evidence: the metals were deliberately added to soil and measured through soil bioavailability and plant-organ retention. The source belongs in remediation and metal pages while leaving product and ingredient occurrence pools empty.
 
 ## Key numbers

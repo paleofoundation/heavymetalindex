@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Akinlolu et al. 2025 - Cadmium chloride neurotoxicity in rat cerebrum
 
+## Overview
+
 Akinlolu and colleagues evaluated whether *Moringa oleifera* and *Musa sapientum* extracts altered cadmium-chloride-induced neurotoxicity endpoints in rat cerebrum. This is lane a4 toxicology and co-treatment context, not olive-oil occurrence evidence: cadmium chloride was deliberately injected, and olive oil was used as the vehicle for plant-extract administration. The source reports cadmium dose, group size, treatment duration, p-values, and biomarker classes for catalase, superoxide dismutase, COX-2, and cytochrome P450 in rat cerebrum.
 
 ## Key numbers

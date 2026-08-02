@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Madani-Tonekaboni et al. 2019 - Lead and cadmium in East Iran milk
 
+## Overview
+
 Madani-Tonekaboni and colleagues measured lead and cadmium in raw and pasteurized milk samples from eastern Iran and modeled exposure with Monte Carlo simulation. This is direct dairy-occurrence evidence with consumer-risk calculations layered on top.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Soni et al. 2024 — Food additives and contaminants in infant foods: critical review
 
+## Overview
+
 Soni and colleagues review the additive and contaminant landscape of the infant-food category, covering direct additives (colorants, flavoring agents, preservatives), indirect additives (bisphenols, phthalates, PFAS, perchlorate, food-packaging migrants), naturally occurring contaminants (mycotoxins, POPs, heavy metals), and the regulatory frameworks that govern them (US FDA Redbook/GRAS, EFSA scientific opinions, JECFA ADI evaluations, Codex Alimentarius, Indian FSSAI). The paper's primary focus is food additives and packaging migrants rather than heavy metals; heavy-metal content is brief, drawing on Bair 2022 and Tchounwou 2012 as anchor citations for the FDA Closer-to-Zero program and metal toxicity respectively. The review is most useful to HMI as regulatory-landscape context for infant-food contaminant governance and for its discussion of aluminum and titanium dioxide immunological pathways in young children.
 
 ## Key numbers

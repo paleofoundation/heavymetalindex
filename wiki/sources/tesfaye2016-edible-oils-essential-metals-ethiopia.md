@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Tesfaye and Abebaw 2016 - Essential metals in edible oils from Ethiopia
 
+## Overview
+
 Tesfaye and Abebaw measured physico-chemical quality parameters and selected essential metals in four edible oil samples from the Ethiopian market. The metals table reports Cu, Zn, and Fe concentrations in mg/L after wet digestion and FAAS, with Na and K measured by flame photometry. This is not a toxic-metal occurrence paper for Pb, Cd, arsenic, or mercury, but it provides primary oil-matrix concentration data for copper, zinc, and iron in imported palm oil and Ethiopian nuog/niger seed oil.
 
 ## Key numbers

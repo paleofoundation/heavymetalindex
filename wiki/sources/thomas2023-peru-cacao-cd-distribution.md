@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Thomas et al. 2023 — Nation-wide distribution of cadmium in soil and cacao beans, Peru
 
+## Overview
+
 Peru is the world's eighth largest cacao producer and second largest exporter of organic cacao, but cadmium content in some regions substantially exceeds EU and California regulatory thresholds. Drawing on more than 2,000 representative soil and cacao bean samples from 563 farms across 13 Peruvian departments, this study developed multiple national and regional random forest predictive models for soil and bean Cd at approximately 250 m resolution. The most important predictors across models were soil cadmium, geology, rainfall seasonality, soil pH, and geographic position. Elevated Cd concentrations in both soil and beans are largely restricted to the northern departments of Tumbes, Piura, Amazonas, and Loreto, with very localised high-Cd pockets in the central departments of Huanuco and San Martin. At national scale, fewer than 20% of cacao farming households are estimated to be affected by EU or US regulations, but in the most affected department of Piura, up to 89% of farms may be impacted.
 
 ## Key numbers

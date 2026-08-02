@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Nencioni et al. 2026 — In vitro Franz-cell adsorption of Cd/Co/Cr/Pb/Ni by a prototype zeolite-containing anti-pollution cream
 
+## Overview
+
 This Materials paper evaluates an experimental zeolite-containing cosmetic cream (3 g zeolite per 100 g cream) as an anti-pollution topical formulation, using a Quality by Design (QbD) workflow and the Franz diffusion cell model to quantify in vitro adsorption and retention of five heavy metals (Cd, Co, Cr, Pb, Ni) from a 0.04 ppm spiked acidic metal solution. A 2 × 2 × 2 full factorial design (membrane type Strat-M® vs silicone; dosage 10 vs 20 mg; dosage regimen infinite vs finite) followed by a 12-cell physiological-conditions permeation study (Strat-M® + PBS pH 7.4; 32 ± 1 °C; 12 h) was applied. The zeolite formulation adsorbed Cr, Co, and Cd statistically significantly more than the placebo (one-way ANOVA p = 0.026, p < 0.001, p = 0.004 in Experiment 1; F(11) = 26.88, 127.4, 35.59 with p < 0.001 for Cr, Co, Ni in Experiment 2), while Pb and Ni patterns were less consistent (Pb p = 0.147 in Exp 1; F(11) = 4.6, p = 0.58 in Exp 2; Cd F(11) = 11.03, p = 0.08 in Exp 2). The optimal QbD operating window (composite desirability D = 0.89, ≈ 0.8851 in the run summary) was Strat-M® membrane + finite dosage regimen + 20 mg dosage. The authors estimate ≈ 23% of the observed adsorption is specifically attributable to zeolite (the remainder reflecting cream-matrix retention). This is in vitro proof-of-concept mitigation evidence, not contamination occurrence data; the "metal concentrations" reported throughout are residuals from a deliberately spiked donor solution.
 
 ## Key numbers

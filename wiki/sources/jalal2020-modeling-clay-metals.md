@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Jalal 2020 - cadmium, chromium, copper, and nickel in children's modeling clay
 
+## Overview
+
 Jalal and colleagues measured Cd, total Cr, Cu, and Ni in colorful children's modeling clay sold in Erbil city markets. The paper is routeable for art and craft materials because it reports finished-product clay concentrations in `mg/kg` after acid digestion and FAAS analysis. The source uses brand tables; this page keeps values at aggregate or de-identified sample/category level under the brand firewall.
 
 ## Key numbers

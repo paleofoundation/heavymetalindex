@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Faraj et al. 2023 - backyard chicken metals in Iraq
 
+## Overview
+
 Faraj, Khidhir, and Zahir measured cadmium, copper, and lead in backyard chicken breast and liver samples from four regions of Sulaymaniyah Province, Iraq. The paper reports tissue means as `mg/kg (mean ±SD)` after drying, microwave digestion, and ICP-OES analysis. The downloaded filename says "Turkey", but the extracted article is the Iraq backyard-chicken study identified by DOI `10.25130/tjas.23.3.15`.
 
 ## Key numbers

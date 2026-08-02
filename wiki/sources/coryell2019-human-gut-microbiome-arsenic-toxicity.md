@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Coryell, Roggenbeck, Walk 2019 — The human gut microbiome's influence on arsenic toxicity
 
+## Overview
+
 This Current Pharmacology Reports review from Montana State University (Coryell laboratory, Department of Microbiology and Immunology) is the canonical synthesis of microbial arsenic biotransformation in the human gastrointestinal tract. The paper maps the complete arsenal of bacterial arsenic-handling enzymes (ars operon: arsR, arsB/acr3, arsC, arsA, arsD, arsH, arsI, arsJ, arsK, arsN, arsP; methyltransferase arsM; arsenite oxidases aioAB and arxAB; arsenate respiratory reductase arrAB; thiolation pathways) and the compartment-specific conditions of the oral cavity, stomach, small intestine, and large intestine that constrain which pathways can operate where. The review also synthesizes germ-free mouse, antibiotic, and AS3MT-knockout data demonstrating that the microbiome contributes to host arsenic excretion and protection from toxicity, with inter-individual variation in microbiome composition proposed as a partial explanation for the longstanding observation that arsenicosis severity varies dramatically among people with similar exposure. The paper is the right starting point for any wiki section that aims to capture the microbiome dimension of arsenic toxicity beyond the host AS3MT-pathway framework.
 
 ## Key concepts and findings

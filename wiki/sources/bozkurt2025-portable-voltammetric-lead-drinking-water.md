@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Bozkurt et al. (2025) describe a portable electrochemical sensor (marketed concept as "electronic tongue") for Pb2+ detection in drinking water, designed for field or point-of-use deployment. The device uses voltammetric (stripping) detection optimized for portability.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # BfR 2018 - Cadmium and lead in infant foods
 
+## Overview
+
 The German Federal Institute for Risk Assessment assessed lead and cadmium occurrence in foods for infants and young children using German Federal Control Plan 2015 and Monitoring 2015 data. The source covers baby formula in powder and ready-to-eat forms, processed cereal-based foods, rusks/biscuits, and complete meals for infants and young children. Cadmium and lead are reported in `mg per kg` occurrence tables and `µg per kg body weight and day` exposure tables.
 
 ## Key numbers

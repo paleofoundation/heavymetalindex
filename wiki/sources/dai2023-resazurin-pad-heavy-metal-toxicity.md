@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Dai et al. 2023 - Resazurin PAD assay for heavy-metal toxicity
 
+## Overview
+
 Dai and colleagues integrated a resazurin reduction assay into paper-based analytical devices (PADs) to compare bacterial toxicity responses to chlorophenols and heavy-metal ions. This is testing-method evidence, not occurrence evidence: the heavy-metal results use synthetic copper, zinc, and lead spikes in bacterial culture, not environmental, food, ingredient, or product samples.
 
 ## Key numbers

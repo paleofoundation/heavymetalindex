@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Muimba-Kankolongo et al. 2022 — Mining-linked trace metals across water, crops, air, and urine in Zambia and the DR Congo
 
+## Overview
+
 This paper examines mining-linked trace metal contamination across drinking water, food crops, ambient air, and urine, with special attention to mining areas in Zambia and the DR Congo. It is an a3 pathway and source-attribution paper with a strong a4 health layer. The study is useful because it ties contamination of roots, tubers, vegetables, and fruits to a broader mining landscape instead of presenting crop contamination in isolation.
 
 ## Key numbers

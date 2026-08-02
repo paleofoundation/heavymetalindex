@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Kumar et al. 2024 — Arsenic in Breast Milk, Bihar Gangetic Plains
 
+## Overview
+
 This 2024 study from 11 arsenic-affected districts in Bihar, India, reports that 55% of lactating mothers had breast milk arsenic exceeding the WHO permissible limit, with values ranging up to 458 µg/L. The study provides a comprehensive picture of arsenic exposure through multiple matrices in a high-exposure Indian population.
 
 ## Key numbers

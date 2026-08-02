@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Vanisree et al. 2022 — Heavy metal contamination of food crops: transport, toxicity, and management (IntechOpen chapter)
 
+## Overview
+
 This open-access book chapter, published in the IntechOpen edited volume *Environmental Impact and Remediation of Heavy Metals*, reviews how heavy metals (Pb, Cd, As, Hg, Cr, Ni, Cu, Zn, Fe) enter agricultural soils and irrigation water from industrial, mining, agrochemical, and waste-disposal sources, accumulate in food crops via root uptake and xylem/phloem translocation, and produce toxicity in humans following dietary exposure. The chapter is narrative review throughout, with one tabulated dataset: heavy metal concentrations in effluent-contaminated irrigation water from the Dhaka Export Processing Zone (DEPZ), Bangladesh, drawn from a cited primary study. Geographic emphasis is Bangladesh (DEPZ industrial effluent) and India (general agricultural contamination); the authors are all affiliated with Indian forensic-science departments.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2016 — Arsenic in rice and rice products risk assessment report
 
+## Overview
+
 FDA's Center for Food Safety and Applied Nutrition (CFSAN) released this risk assessment in March 2016 (revised version for public comment; earlier drafts from 2013–2015). The report characterizes lung and bladder cancer risk from inorganic arsenic in rice and rice products for the U.S. population, using FDA's own dose-response model and exposure assessment data from FDA's 2013 and 2015 arsenic-in-rice surveys, Consumer Reports survey data, and dietary consumption data. The report was the key scientific basis for FDA's proposed action level for inorganic arsenic in infant rice cereal (100 ppb iAs) that was finalized in 2020 under the Closer to Zero program. The concentration data section includes average iAs by product category for infant/toddler foods, which is among the most comprehensive FDA surveillance datasets for rice-based infant food.
 
 ## Key numbers

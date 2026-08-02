@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # Commission Recommendation (EU) 2024/907 — Monitoring of Nickel in Food
 
+## Overview
+
 Commission Recommendation (EU) 2024/907, adopted 22 March 2024 and published in the Official Journal L series on 26 March 2024, directs European Union Member States to monitor the presence of nickel in food. It is a non-binding Commission act (Article 292 TFEU) that operationalises the regulatory response to the European Food Safety Authority's 2020 nickel risk assessment, and it is the companion instrument to the maximum levels established for nickel in food under [[regulations/eu2023-contaminants-maximum-levels|Commission Regulation (EU) 2023/915]]. Signed by Commissioner Stella Kyriakides.
 
 ## The scientific basis the Commission cited (recital 6)

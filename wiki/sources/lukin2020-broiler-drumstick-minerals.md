@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Lukin et al. 2020 - Broiler drumstick mineral profile in Russia
 
+## Overview
+
 This Russian study measured 30 mineral elements in chilled broiler drumsticks from two poultry producers. It is routeable for poultry occurrence context because the edible chicken matrix was directly analyzed and the paper reports mg/kg concentrations for arsenic, cadmium, lead, chromium, nickel, tin, aluminum, and related elements.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Su et al. 2020 — Toxic Elements in Infant Formula, China
 
+## Overview
+
 This 2020 Chinese study measured chromium, total arsenic, cadmium, and lead in 93 cow milk-based infant formula samples across four developmental stages from the Beijing market. ICP-MS analysis; wet weight basis. All samples were powdered formula; concentrations reported as-purchased. The study found no significant difference between domestic and imported brands.
 
 ## Key numbers

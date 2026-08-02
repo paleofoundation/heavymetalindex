@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Patel et al. 2023 - Metals in herbal plants from Singrauli, India
 
+## Overview
+
 Patel, Pradhan, and Patel measured Pb, Cr, Cd, Cu, Ni, Zn, and Fe in three herbal or food plant materials from the Singrauli region of Madhya Pradesh: ginger rhizome, suran rhizome, and cumin seed. Table 2 reports Pb, Cr, Cd, and Ni as non-detect in all three plant samples. The same table reports quantifiable Cu, Zn, and Fe values, with cumin seed at 13.675 mg/kg Cu, 38.55 mg/kg Zn, and 201.775 mg/kg Fe. Because the paper does not report LOD or LOQ values, the toxic-metal non-detects are useful as screening context but should not be treated as zero-valued occurrence measurements.
 
 ## Key numbers

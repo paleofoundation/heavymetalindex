@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lin et al. 2025 — Blood metals and urothelial carcinoma risk in Taiwan
 
+## Overview
+
 This hospital-based case-control study measured whole-blood concentrations of arsenic, cadmium, chromium, nickel, and lead in 478 urothelial carcinoma (UC) patients and 569 controls recruited at a medical center in central Taiwan between 2011 and 2019. The primary finding relevant to food safety is that blood arsenic was significantly elevated in UC cases compared with controls, independently associated with bladder cancer (UB) risk after adjustment for confounders (adjusted OR = 1.05 per µg/L; 95% CI: 1.02–1.08; p = 0.002), and selected by LASSO regression as the most important metal for both UB and upper tract UC. The authors explicitly note that seafood consumption is a recognized driver of blood arsenic in this population and was not captured in the questionnaire, constituting a measurement-bias limitation.
 
 ## Key numbers

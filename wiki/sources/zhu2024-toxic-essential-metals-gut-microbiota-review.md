@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Zhu, Chen, Zhang, Zhang, Guo, Pang, Huang, Wang 2024 — Toxic and essential metals: metabolic interactions with the gut microbiota and health implications
 
+## Overview
+
 This Frontiers in Nutrition review from the Zhejiang Center for Disease Control and Prevention synthesizes the metals-microbiota interaction literature across both toxic metals (Pb, Cd, As, Hg, Cr, Ni) and essential metals with toxicity at excess (Cu, Zn, Fe, Mn, Se). The review covers three principal axes: how metals modulate microbiota composition and diversity; how the microbiota modulates metal absorption, biotransformation, and excretion; and how these reciprocal interactions translate to metabolic and disease outcomes including inflammatory bowel disease, metabolic syndrome, neurodevelopmental disorders, and cardiovascular disease. The paper documents the metal-driven taxonomic shifts (Lactobacillus and Bifidobacterium decrease; Proteobacteria expansion) and the microbial-driven metal-speciation effects (gut microbial methylation of inorganic mercury and arsenic; siderophore-mediated metal scavenging).
 
 ## Key conclusions

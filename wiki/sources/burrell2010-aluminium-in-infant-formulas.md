@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Burrell and Exley 2010 — Aluminium in infant formulas
 
+## Overview
+
 Burrell and Exley measured aluminium in infant formula products from the UK market, covering both ready-made liquid formulas and powders, cow-milk-based and a soya-based product, and first-infant, follow-on, growing-up, preterm, and good-night formulations. Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; the highest was the preterm formula. Powder-format entries in Table 2 (n=8), evaluated as prepared-milk equivalents per manufacturer instructions, ranged from 333.3 to 629.0 µg/L; the highest was the soya-based powder. The authors compared these values to typical breast-milk aluminium concentrations (~15-30 µg/L) and characterized formula aluminium content as 10 to 40 times higher.
 
 ## Key numbers

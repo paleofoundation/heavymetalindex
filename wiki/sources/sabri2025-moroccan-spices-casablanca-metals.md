@@ -28,6 +28,8 @@ updated: 2026-06-02
 
 # Sabri et al. 2025 — Essential and toxic elements in five spices from Greater Casablanca, Morocco
 
+## Overview
+
 Sabri and colleagues at Hassan II University of Casablanca quantified five essential elements (K, Ca, Mg, Na, Fe) and five toxic trace metals (Pb, Cd, total As, Cr, Ni) by microwave-assisted ICP-MS in 137 bulk samples of cinnamon, cumin, turmeric, black pepper, and ginger collected from markets in the Greater Casablanca region, Morocco, between February and June 2025. Cinnamon stood out as the most contaminated spice on toxic metals: mean Pb 2.05 ± 0.23 mg/kg (range 1.228–2.4 mg/kg) exceeded the EU 2021/1317 limit of 2.00 mg/kg for bark-derived spices, and mean Cd 0.29 ± 0.07 mg/kg (range 0.157–0.394 mg/kg) exceeded the EU 0.20 mg/kg limit for dried spices. Cumin showed the highest total arsenic (0.45 ± 0.30 mg/kg) and nickel (4.18 ± 2.85 mg/kg) among the five spices but remained within EU caps where defined. Black pepper, ginger, and turmeric Pb and Cd values fell below their applicable EU thresholds. Principal component analysis on the ten-element profile separated cumin (driven by macro-elements Mg, Na, Ca) and cinnamon (driven by Cd and Pb) into distinct clusters; Pb and Cd correlated strongly (Pearson r = 0.87), which the authors interpret as evidence of a shared anthropogenic contamination source.
 
 ## Key numbers

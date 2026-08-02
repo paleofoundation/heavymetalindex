@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Alrashdi et al. 2024 — Toxic elements in local and imported rice consumed in Saudi Arabia
 
+## Overview
+
 This study measured total arsenic (tAs), inorganic arsenic (iAs), cadmium (Cd), lead (Pb), and mercury (Hg) in 33 rice samples purchased from Saudi Arabian markets, comparing locally grown Hassawi rice (n=9) against imported rice from India, USA, Australia, Pakistan, and Thailand (n=24), using HPLC-ICP-MS for arsenic speciation and ICP-MS for other metals. Among the five analytes, iAs was the primary concern, with imported rice showing significantly higher iAs than local Hassawi rice; Cd, Pb, and Hg levels in both rice types were well below WHO guidance values. Estimated lifetime carcinogenic risks from iAs in imported rice consumed in Najran city (high-consumption population) were within or slightly above the 1×10⁻⁴ threshold, suggesting that risk mitigation may be warranted for heavy consumers.
 
 ## Key numbers

@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Tsegay et al. 2025 — Toxicological qualities and detoxification of fruit by-products: review
 
+## Overview
+
 Open-access narrative review (CC BY 4.0, De Gruyter) synthesizing toxicological data on by-products (peels, pomace, seeds, kernels, rinds) of the world's highest-production fruits as of 2022, motivated by the valorization push that increasingly routes these by-products into food ingredients, nutraceuticals, cosmetics, and animal feed. Scope is global; the review pulls from refs [1–142] without restricting to any single jurisdiction, growing region, or analytical method. Hazards examined are heavy metals (As, Cd, Co, Cr, Ni, Pb, Hg), mycotoxins (aflatoxins, OTA, fumonisins, ZEN, T-2, alternaria toxins, tryptoquialanines), anti-nutritional factors (oxalates, phytates, tannins, alkaloids, saponins, HCN, glycosides), toxicant organic compounds (biogenic amines, AMG, phthalates), and pesticide/fungicide residues. Final section reviews thermal, chemical, and non-thermal detoxification methods (high-pressure processing, pulsed electric field, cold plasma, supercritical CO₂, ultrasound, ozone treatment, lyophilization, fermentation).
 
 ## Key numbers

@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Lin et al. 2023 - Lead and mercury in breast milk from a Taiwanese human milk bank cohort
 
+## Overview
+
 Lin and colleagues measured Pb, total Hg, and MeHg in 228 breast milk samples longitudinally donated by 39 lactating women recruited through the Taiwan Southern Human Milk Bank (TSHMB) at National Cheng Kung University Hospital, and estimated infant health risk from breastfeeding using Monte Carlo simulation. Although samples were collected through a milk bank, the donors are mothers in the general lactating population and the findings characterise breast-milk Pb/Hg exposure for breastfed infants of those mothers and for vulnerable recipients of bank-donated milk. The authors describe this as the first cohort study of heavy metals in a human milk bank.
 
 ## Key numbers

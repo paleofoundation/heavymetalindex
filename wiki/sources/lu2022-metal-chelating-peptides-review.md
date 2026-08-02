@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lu 2022 — Research progress of metal chelating peptides
 
+## Overview
+
 Lu and Dong reviewed the preparation, structural characterization, isolation and purification, and physiological activity of metal chelating peptides derived from food proteins. The metals in scope are the nutritionally essential ions Ca²⁺, Fe²⁺, Zn²⁺, and Cu²⁺; the review's framing is dietary supplementation of essential trace elements through peptide carriers, not contamination by toxic heavy metals. This source is recorded here for its mechanism content on peptide-metal coordination chemistry (binding groups, binding sites, amino acid sequence determinants), which is the same chemistry that governs binding of toxic metals to food protein hydrolysates and therefore provides context for several heavy-metal occurrence and bioavailability questions in the HMI corpus. No occurrence values for HMI's regulated heavy metals (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) appear in this review.
 
 ## Key numbers

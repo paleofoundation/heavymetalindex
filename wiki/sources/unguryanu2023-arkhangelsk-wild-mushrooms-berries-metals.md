@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Unguryanu et al. 2023 - Heavy metals in wild mushrooms and berries from Arkhangelsk
 
+## Overview
+
 Unguryanu et al. analysed official laboratory protocols for wild mushrooms and berries collected in the Arkhangelsk region during 2015-2021. The dataset covers 201 mushroom samples and 175 berry samples, with wet-weight concentrations for mercury, arsenic, lead, and cadmium plus radionuclide results. The source is useful for geographic-variance context in wild mushrooms and northern wild berries; it should not be pooled with cultivated mushroom or commercial fresh-fruit market samples without preserving the wild-foraged Russian scope.
 
 ## Key numbers

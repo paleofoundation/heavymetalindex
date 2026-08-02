@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Galal et al. 2021 — Heavy metals in garden peas from contaminated soils, Egypt
 
+## Overview
+
 This study measured 12 heavy metals in the roots, shoots, and fruits of garden peas (Pisum sativum) grown at polluted and non-polluted sites in South Cairo and Giza, Egypt. Polluted farms received industrial waste and municipal discharge from the National Cement Company, Egyptian Iron and Steel, brick factories, and Helwan Fertilizer Company. Fruit concentrations in polluted-site peas were dramatically elevated for all metals, particularly Cd (1,025 ± 1.00 mg/kg vs. 2.6 ± 0.14 mg/kg at non-polluted sites) and Pb (121.0 ± 1.32 mg/kg vs. 8.9 ± 1.76 mg/kg). The health risk index (HRI) for Pb, Cd, Fe, and Mn in polluted-site peas exceeded 1, indicating significant consumer health risk.
 
 ## Key numbers

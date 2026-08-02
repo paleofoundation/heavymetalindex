@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A surface plasmon resonance (SPR) optical fiber sensor for detection of Pb2+ ions. The sensor is based on a modified fiber optic surface with Pb2+-selective recognition elements. No food matrix samples were analysed; the paper reports method development and characterisation of LOD, selectivity, and sensitivity parameters.
 
 ## Key numbers

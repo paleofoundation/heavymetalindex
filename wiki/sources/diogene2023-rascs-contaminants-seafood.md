@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # Diogène et al. 2023 — Risk Assessment Strategies for Contaminants in Seafood (RASCS) (EFSA Supporting Publication EN-8419)
 
+## Overview
+
 This 154-page EFSA Supporting Publication (EN-8419; Question No. EFSA-Q-2023-00708; approved 27 October 2023) is the final report of the RASCS Partnering Grant, an Article 36 capacity-building project executed from June 2021 to June 2023 by a seven-institution EU consortium under coordinator IRTA (Spain). The project's purpose was knowledge exchange and harmonisation of risk-assessment practice for contaminants in seafood across the participating member states, not original toxicological or occurrence research. The report is organised around six work packages: WP1 hazard identification, WP2 dietary exposure assessment, WP3 risk-assessment strategies in a changing world and balance with nutritional benefits, WP4 risk/benefit perception and communication, WP5 dissemination and outreach, and WP6 management.
 
 For Heavy Metal Index purposes the report contributes regulatory-context and monitoring-inventory material on the four EU-regulated heavy metals in seafood (Pb, Cd, Hg, As) and the analytical methods used to enforce those limits across six member states. It does not present primary contamination measurements, percentile distributions, or exposure estimates for any heavy metal. The heavy-metals content is concentrated in WP1 (regulatory overview, EU MPL table, limits-of-determination table) and WP2 (member-state monitoring-programme inventory for environmental and market surveillance of bivalves, fish, and macroalgae).

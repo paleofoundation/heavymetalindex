@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Bahrouna et al. 2025 - heavy metals in Zawia market spices
 
+## Overview
+
 Bahrouna and colleagues measured 11 metals in 13 spice and seasoning samples purchased from local markets in Zawia City, Libya. The paper provides Libya-market occurrence evidence for broad mixed-spice products, with results reported as average concentrations in ppm and compared with EU, FDA, and Codex reference limits.
 
 ## Key numbers

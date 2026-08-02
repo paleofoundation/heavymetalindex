@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sadee et al. 2024 — Arsenic speciation in marine organisms: a review of occurrence and analytical methods
 
+## Overview
+
 This review synthesizes the literature on arsenic occurrence and speciation in marine organisms — including fish, shellfish, and algae — with a focus on analytical methods for distinguishing inorganic arsenic (iAs) from the dominant organoarsenical species (arsenobetaine, arsenosugars, arsenocholine, DMA, MMA) characteristic of marine food matrices. The review compiles reported concentration ranges for total arsenic (tAs) and iAs across marine taxa and geographic regions, demonstrating that total arsenic in marine organisms is typically high (often hundreds to thousands of µg/kg ww) but that the fraction as iAs is generally small (commonly below 1–10% of tAs), with the remainder consisting of low-toxicity organic arsenicals. Analytical advances covered include HPLC-ICP-MS, HPLC-ICP-OES, and hydride-generation atomic absorption spectrometry for speciated arsenic determination. The review is directly relevant to regulatory discussions about applying iAs limits to seafood matrices where tAs is dominated by organoarsenic compounds.
 
 ## Key numbers

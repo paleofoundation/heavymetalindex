@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Carignan et al. 2015 — Arsenic Sources in Infancy: Well Water vs Breast Milk
 
+## Overview
+
 This 2015 New Hampshire Birth Cohort study quantified the relative contributions of private well water and breast milk to infant arsenic exposure at 6 weeks of age, establishing that formula-fed infants in well-water homes have substantially higher arsenic exposure than breastfed infants.
 
 ## Key numbers

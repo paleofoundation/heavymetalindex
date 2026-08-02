@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Falandysz et al. 2021 - Total mercury and methylmercury in crude and braised Boletus edulis
 
+## Overview
+
 Falandysz and colleagues measured total mercury and methylmercury in Boletus edulis fruiting bodies across developmental stages before and after braising. The source is routeable for mushroom mercury because it reports both total Hg and MeHg, separates crude and braised matrices, and reports wet-weight concentration ranges. Braising increased wet-weight Hg and MeHg concentrations because cooking reduced water content, while dry-weight contents decreased.
 
 ## Key numbers

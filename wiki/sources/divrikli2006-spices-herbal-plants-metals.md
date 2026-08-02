@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Divrikli et al. 2006 - metals in western Anatolia spices and herbal plants
 
+## Overview
+
 Divrikli and colleagues measured copper, cadmium, lead, nickel, chromium, iron, manganese, and zinc in eleven spice and herbal plant species collected from farms in western Anatolia, Turkey. The study is occurrence evidence for herbs-and-spices and botanical raw materials, with values reported for the plant parts selected to match local consumption. Results are dry-weight total elemental measurements; chromium is total Cr, not Cr-VI.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ruttkay-Nedecky et al. 2013 — The role of metallothionein in oxidative stress
 
+## Overview
+
 Ruttkay-Nedecky and colleagues at the Central European Institute of Technology and Mendel University in Brno, with co-authors from Masaryk University, Charles University, and University Hospital Motol in Prague, review the published literature on metallothionein (MT) as a small cysteine-rich heavy-metal-binding protein that participates in cellular protective responses against oxidative stress. The review compiles evidence from mammalian cell-line, transgenic mouse, and *Drosophila* knockout systems on MT's structure, its role as a zinc reservoir and cysteine-thiol-mediated radical scavenger, its induction by oxidative and nitrosative stimuli, and its relevance to cancer and apoptosis. The paper reports no primary chemical or toxicological measurements; its value to the wiki is mechanistic — it organises the vocabulary used by the underlying cadmium-toxicology and zinc-homeostasis literature on which subsequent occurrence and exposure papers depend.
 
 ## Why this matters

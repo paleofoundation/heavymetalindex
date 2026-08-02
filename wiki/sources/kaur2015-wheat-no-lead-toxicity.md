@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Kaur et al. 2015 — Nitric oxide mitigation of lead toxicity in hydroponic wheat roots
 
+## Overview
+
 This experimental paper studies whether exogenous nitric oxide can mitigate lead-induced oxidative stress in hydroponically grown wheat roots. It is an a2 mitigation and plant-toxicology source rather than a market occurrence paper. The paper is in scope because it evaluates a specific intervention against heavy-metal stress in an edible crop species and tracks the effect through oxidative-stress markers and membrane damage.
 
 ## Key numbers

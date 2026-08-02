@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Irankunda 2022 — Metal-chelating peptides separation using IMAC: methodology and simulation
 
+## Overview
+
 Irankunda and co-authors review the experimental methodology of Immobilized Metal Ion Affinity Chromatography (IMAC) for separating metal-chelating peptides (MCPs) from enzymatic protein hydrolysates and propose a chromatography-modelling and simulation workflow in which sorption-isotherm parameters measured by Surface Plasmon Resonance (SPR) are used as input data for a transport-dispersive model of IMAC. The review's framing is functional-food and nutraceutical manufacturing — MCPs as carriers for nutritionally essential metals (Ca²⁺, Fe²⁺, Zn²⁺, Cu²⁺) and as antioxidants — not contamination of food by toxic heavy metals. The paper notes in passing that MCPs can also remove heavy metals such as Cd²⁺, Ni²⁺, As³⁺ and Pb²⁺ from the environment for decontamination applications, but reports no measurements on such removal. This source is recorded here for its coordination-chemistry background — HSAB classification of metal ions and amino-acid donor groups, complexing-agent denticity, and the parameters controlling peptide–metal binding — which underpins primary studies in the HMI corpus that quantify binding of toxic heavy metals to food protein hydrolysates. No occurrence values for HMI's regulated heavy metals (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) appear.
 
 ## Key numbers

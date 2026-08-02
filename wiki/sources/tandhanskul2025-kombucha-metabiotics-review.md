@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Tandhanskul et al. 2025 — Kombucha as a sustainable source of metabiotics (review)
 
+## Overview
+
 Tandhanskul and colleagues (Theophane Venard School of Food Biotechnology and Innovation, Assumption University of Thailand; Kagawa University Graduate School of Agriculture, Japan) review kombucha as a functional beverage that delivers postbiotics, parabiotics, and bioactive metabolites (the authors' term: "metabiotics"). The review's primary subject is fermentation microbiology, organic-acid and polyphenol chemistry, vitamin and mineral content, antioxidant and antimicrobial activity, sustainability of alternative substrates, and food-safety concerns. Heavy-metal content enters the review in three narrow ways: as cited mineral-profile measurements (Bauer-Petrovska and Petrushevska-Tozi 2000 [ref 102], section 4.3) including Pb 0.005 µg/mL, Cr 0.001 µg/mL, Co 0.004 µg/mL, Cd undetected, and a statement that fermentation increases Cu, Fe, Mn, Ni, Zn but not Co; as two cited case reports of lead intoxication from kombucha brewed or stored in lead-glazed ceramic vessels (Sabouraud et al. 2009 [ref 187]; Phan et al. 1998 [ref 188]); and as a passing mention of SCOBY bacterial cellulose as a heavy-metal biosorbent citing Pb, Ni, and tea-fungus biosorption studies (refs 13–15). The review contributes no new measurements and frames kombucha contamination as primarily a vessel-leaching and food-safety practice issue rather than an ingredient-occurrence issue.
 
 ## Key numbers

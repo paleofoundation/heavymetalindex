@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Rosales-Huamani et al. 2023 — PTEs in Quinoa Soils, Huacaybamba-Huánuco, Peru
 
+## Overview
+
 This peer-reviewed study from the National University of Engineering (Lima) and National University of Callao measured potentially toxic elements (As, Pb, Cd, Cu, Zn) in 50 agricultural soil samples from a 4-hectare quinoa-producing area in the Huacaybamba-Huánuco Department of Peru, an Andean highland region adjacent to gold and copper mineralization zones. Analyzed by atomic absorption spectrophotometry (AAS, EPA 3050-B method). The study found that all As, Cu, and Zn concentrations were below Peruvian and European agricultural soil quality standards, but 46% of Pb samples exceeded standards and 100% of Cd samples exceeded Peruvian environmental soil quality standards.
 
 ## Key numbers

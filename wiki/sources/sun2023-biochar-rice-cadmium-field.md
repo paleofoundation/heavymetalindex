@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Sun et al. 2023 - Biochar and cadmium uptake in rice
 
+## Overview
+
 Sun and colleagues ran a three-year field trial in Cd-contaminated paddy soil near Shenyang, China, measuring cadmium in brown rice, rice organs, and soil Cd fractions after corn-stalk biochar application. The source is primary evidence for rice Cd mitigation and soil-to-rice transfer under a contaminated-field intervention. It is not a market-basket distribution: the field had total soil Cd of 3.17 mg/kg and was selected as a contaminated site, so the brown-rice values should be routed as agronomic intervention/context evidence rather than as a normal commercial-rice benchmark pool.
 
 ## Key numbers

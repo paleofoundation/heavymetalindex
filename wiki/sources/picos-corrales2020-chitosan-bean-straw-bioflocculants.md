@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Picos-Corrales et al. 2020 - Chitosan and bean straw bioflocculants
 
+## Overview
+
 Picos-Corrales and colleagues compared chitosan and bean straw flour as bioflocculants for agricultural wastewater and river-water treatment in Sinaloa, Mexico. This is mitigation and water-remediation evidence: it reports removal of turbidity and metals from wastewater or river-water matrices, not occurrence concentrations in consumer products or ingredients.
 
 ## Key numbers

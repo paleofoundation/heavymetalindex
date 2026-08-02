@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abatemi-Usman et al. 2023 — Trace elements in corn near Obajana cement plant, Nigeria
 
+## Overview
+
 This study measured As, Cd, Cr, Cu, Fe, Ni, Pb, and Zn in corn (Zea mays) grain and surface soil from five farmlands in the vicinity of the Obajana Cement Plant (OCP), the largest cement-manufacturing plant in sub-Saharan Africa, located in Kogi State, Nigeria. The key finding is that Pb concentrations in corn from the three downwind farmlands (F2, F3, F4) ranged from 0.23 to 0.38 µg/g dry weight, exceeding the FAO/WHO maximum limit of 0.2 µg/g for grains, while Cr concentrations (2.08–3.56 µg/g dry weight) were several-fold above the normal cereal range of 0.01–0.41 µg/g across all farmlands including the upwind control. All health hazard indices (HHI) for corn consumption were less than 1, suggesting no immediate non-carcinogenic risk under typical Nigerian corn intake rates, but the spatial gradient for Pb — with downwind values six to 35 times higher than upwind values — clearly implicates cement plant emissions and vehicular traffic as contamination drivers. This is the first reported health hazard assessment for corn grown near OCP.
 
 ## Key numbers

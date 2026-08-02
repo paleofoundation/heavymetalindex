@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Zhou et al. 2023 — Arsenic and elemental profile in new toxic Inosperma mushroom species from tropical China
 
+## Overview
+
 This study described a new toxic mushroom species, Inosperma wuzhishanense, from tropical China (Hainan Province), characterized by ICP-MS elemental profiling across 24 elements. The primary purpose is taxonomic description and muscarine toxicity assessment, but the paper reports high arsenic concentration in the mushroom: total arsenic was 36.76 ± 0.43 mg/kg (dry weight), the highest toxicity-concern element among the heavy metals detected. This makes the paper relevant to the wiki as a food-safety data point for wild mushrooms as a food source, given that Inosperma species are consumed in some communities despite their toxicity.
 
 ## Key numbers

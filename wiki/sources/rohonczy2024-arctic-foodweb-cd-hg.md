@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Rohonczy et al. 2024 — Cadmium and mercury trophic transfer in the Arctic marine food web, Hudson Bay
 
+## Overview
+
 This study quantified cadmium and mercury (total and methylmercury) concentrations across multiple trophic levels in the Hudson Bay Arctic marine food web, including blue mussel (Mytilus edulis), common eider (Somateria mollissima), shorthorn sculpin (Myoxocephalus scorpius), Arctic cod (Boreogadus saida), and ringed seal (Pusa hispida). The authors examined trophic magnification factors (TMF) for both metals and compared Hudson Bay concentrations against available regulatory limits and prior circumpolar baseline data. The paper documents how climate change and reduced sea ice in Hudson Bay may be altering metal cycling and trophic transfer in Arctic marine ecosystems.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-07
 
 # Adebayo 2020 - Heavy metals in wastewater-irrigated spinach from Bauchi
 
+## Overview
+
 Adebayo and coauthors measured cadmium, chromium, copper, manganese, nickel, and lead in irrigation wastewater and wastewater-grown African spinach from Railway Quarters in Bauchi, Nigeria. The paper is routeable for spinach occurrence evidence because it reports mean concentrations in the edible vegetable sample and a health-risk calculation based on local spinach consumption.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Yazdanian Ghahfarokhi et al. 2025 — Heavy metals in raw camel milk from Iran
 
+## Overview
+
 This study collected 115 raw camel milk samples from Chaharmahal Bakhtiari province, Iran, and analyzed 49 samples (randomly selected) for Pb, Cd, and As by atomic absorption spectrophotometry (AAS). The paper's primary focus was microbial safety (S. aureus and E. coli prevalence and virulence genes), with the heavy metal analysis as a secondary component; results indicated that concentrations of all three metals were generally low and below applicable maximum allowable concentrations (MACs). The data provide a baseline occurrence dataset for heavy metals in raw camel milk from rural Iran, a geographic region and food matrix with very limited prior published data.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Aghamirlou et al. 2015 - Iranian honey metals
 
+## Overview
+
 Aghamirlou et al. measured seven metals in 25 multifloral honey samples from Ardabil province, Iran. The paper is direct honey occurrence evidence: samples were microwave-digested and analyzed by ICP-OES, with regional means and ranges reported in micrograms per kilogram. Lead was the main food-safety signal, with the East-region mean and the all-sample mean above the paper's cited 300 ug/kg FAO/WHO reference level; cadmium was below the cited 200 ug/kg reference level.
 
 ## Key numbers

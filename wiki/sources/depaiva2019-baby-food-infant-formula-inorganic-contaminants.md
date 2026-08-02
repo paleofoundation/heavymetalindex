@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # de Paiva et al. 2019 - inorganic contaminants in baby food and infant formula
 
+## Overview
+
 This peer-reviewed review summarizes recent occurrence, regulatory, exposure-assessment, and analytical-method evidence for inorganic contaminants in infant formula and baby foods. The paper covers cadmium, arsenic, lead, mercury, aluminum, copper, zinc, and nickel, with a specific distinction between total mercury and methylmercury where source studies reported both.
 
 The source is a secondary review rather than a primary occurrence survey. It is useful for broad Category 1 context, method mapping, and locating primary studies, but source-level row-fit decisions should go back to the cited primary papers before using values in product-row benchmark pools.

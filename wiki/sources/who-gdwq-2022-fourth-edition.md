@@ -33,6 +33,8 @@ updated: 2026-06-03
 
 # WHO 2022 — Guidelines for drinking-water quality, fourth edition incorporating the first and second addenda
 
+## Overview
+
 The fourth edition of the WHO *Guidelines for drinking-water quality* (GDWQ), consolidated in 2022 to incorporate the first (2017) and second (2022) addenda, is the global reference framework for drinking-water safety and the parent document under which WHO publishes background documents for each individual chemical and microbial parameter. The chemical fact sheets (Chapter 12) and the consolidated summary tables (Annex 3) carry health-based guideline values for the substances of concern in drinking-water, including all ten of the HMI analyte panel except inorganic tin; the framework is implemented through water safety plans (Chapters 2 and 4) and surveillance arrangements (Chapter 5). For HMI, the load-bearing rows are the guideline values for lead (provisional, 10 µg/L), arsenic (provisional, 10 µg/L), cadmium (3 µg/L), chromium (50 µg/L for total Cr), nickel (70 µg/L), inorganic mercury (6 µg/L), uranium (provisional, 30 µg/L) and antimony (20 µg/L), together with the explicit decisions not to set health-based guideline values for aluminium (instead specifying coagulation-performance targets of 0.1 mg/L for large facilities and 0.2 mg/L for small facilities) and inorganic tin (occurrence well below health concern).
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Rempelos et al. 2022 - Diet effects on urinary toxic-metal biomarkers
 
+## Overview
+
 Rempelos and colleagues ran a randomized, controlled diet switch-over trial measuring urinary excretion and plasma concentrations of micronutrients, phenolic markers, and toxic metals. The source is exposure-biomarker evidence, not a product-occurrence survey: it reports urinary Al, Cd, Ni, Pb and related diet-driver modelling, but it does not report contaminant concentrations in coffee, fish, organic foods, or other market products.
 
 The auto-fetch filename assigned this PDF to a coffee cadmium gap because coffee was one of the dietary drivers in the redundancy analysis. The paper itself is broader human biomonitoring evidence for diet-linked metal excretion, with products and ingredients intentionally left empty.

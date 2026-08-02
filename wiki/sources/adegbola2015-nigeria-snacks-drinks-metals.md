@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Adegbola et al. 2015 — Metals in snacks and drinks sold in Ibadan, Nigeria
 
+## Overview
+
 Adegbola and colleagues measured calcium, chromium, copper, iron, lead, and cadmium in 34 snack, drink, candy, biscuit, concentrate, and milk-product samples sold in Ibadan, Nigeria. The samples were cold-digested with hydrochloric acid and nitric acid and analyzed by flame atomic absorption spectrophotometry. The paper reports coded sample IDs rather than public brand names in its tables; this page keeps the occurrence data at the product-group level. Chromium is reported as total Cr only, with no Cr-VI speciation.
 
 ## Key numbers

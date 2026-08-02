@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Abdulrasheed et al. 2026 — Toxic metals in informally manufactured Nigerian cookware
 
+## Overview
+
 Abdulrasheed and colleagues measured Mn, Pb, Cr, Cd, and Ni in informally manufactured cookware from Saki, southwest Nigeria, along with moulding inputs and site soils. The paper is direct product evidence for metal-alloy cookware composition and supply-chain evidence for informal manufacturing inputs. Its leaching test found no detectable metals in boiled-water leachates, so the total cookware concentrations should not be treated as the amount transferred to food.
 
 ## Key numbers

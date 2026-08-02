@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Jiang et al. 2022 - selenium mitigation of cadmium in brown rice
 
+## Overview
+
 This field experiment tested whether foliar sodium-selenite application reduced cadmium accumulation in brown rice grown on Cd-contaminated paddy soils in Hunan, China. Three rice cultivars were grown for three years in low-Cd and high-Cd fields, with Se treatment compared against a water control. The direct occurrence endpoint is Cd in brown rice, paired with a mitigation endpoint showing reduced Cd transfer into grain after foliar Se application.
 
 ## Key numbers

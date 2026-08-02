@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Rajeshkumar et al. 2018 — Seasonal Pollution of Heavy Metals in Fish and Oyster, Taihu Lake, China
 
+## Overview
+
 This study measured Pb, Cd, Cr, and Cu in surface water, sediment, and tissues of crucian carp (Carassius carassius) and Pacific oyster (Crassostrea gigas) across four seasons (winter, spring, summer, autumn 2016) at seven sites in Meiliang Bay of Taihu Lake, China's third-largest freshwater lake. Metal concentrations in water, sediment, and biota were significantly higher in winter and summer than in spring and autumn (one-way ANOVA, p<0.001), attributed to greater agricultural waste, sewage, and flood inputs during those periods. The order of accumulation across compartments was Pb > Cu > Cr > Cd in fish and Pb > Cu > Cr > Cd in oyster; in fish organs the order was liver > kidney > gill > intestine > muscle. The pollution load index (PLI) exceeded 1 across all sediment sites and seasons, and the contamination factor (CF) for Cr in winter sediment reached the "very high degree" category (CF ≥ 6). Average winter oyster Pb (3.03 µg/g wet weight) exceeded the Chinese Ministry of Agriculture residue limit for aquatic products (NY 5073-2001, 1.0 µg/g); average oyster Cu in winter (2.74 µg/g) and summer (1.48 µg/g) exceeded the Chinese Ministry of Health Maximum Levels of Contaminants in Foods (GB 2762-2005, 0.5 µg/g for Cu in aquatic products).
 
 ## Key numbers

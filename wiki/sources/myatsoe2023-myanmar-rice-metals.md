@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Myat Soe et al. 2023 — Arsenic and heavy metals in Myanmar rainfed rice
 
+## Overview
+
 Myat Soe et al. measured eleven metal(loid)s (As, Pb, Cd, Cr, Mn, Fe, Zn, Cu, Ni, Mo, Co) in 120 white polished rice grains from five agriculturally active townships near Yangon in the eastern Ayeyarwady Delta using triple quadrupole ICP-MS (ICP-QQQ). The study found total arsenic (mean 0.16 mg/kg) and nickel (mean 0.39 mg/kg) concentrations consistent with worldwide background levels for non-mining, non-contaminated areas, while lead (0.010 mg/kg), cadmium (0.0056 mg/kg), and chromium (0.056 mg/kg) were well below maximum allowable limits. The paper argues that the absence of groundwater irrigation and proximity to industrial or mining activity explains the unusually low contamination, and flags nickel alongside arsenic as the main contributors to cancer risk (Ni: 66%, Cd: 16%, As: 13% of total cancer risk from rice consumption at ~500 g/day).
 
 ## Key numbers

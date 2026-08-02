@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zhang et al. 2026 — Trace metal contamination in five crops near a manganese mining area in Chongqing, China
 
+## Overview
+
 Zhang and colleagues measured nine trace metals (Mn, Cd, Cu, Zn, Ni, Pb, As, Cr, Sb) in roots, stems, leaves, shells, and edible grain/tuber portions of five crops (rice, maize, peanut, soybean, sweet potato) grown near an active manganese mining and smelting area in Xiushan County, Chongqing. Rice showed the highest accumulation of As and Cr in edible grain portions among the five crops, with grain-specific As concentration of 0.2944 ± 0.0132 mg/kg (294 ppb) and Cr of 1.9800 ± 0.1682 mg/kg (1,980 ppb, exceeding China's GB 2762-2017 limit of 1,000 ppb for total Cr in grain). Health risk assessment found Cr-THQ of 3.09 (adults) and As-THQ of 10.72 (children), indicating potential chronic risk for children consuming locally-grown rice, driven by high rice intake combined with the elevated As and Cr levels in this mining-affected area.
 
 ## Key numbers

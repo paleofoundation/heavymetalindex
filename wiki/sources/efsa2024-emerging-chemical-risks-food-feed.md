@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # EFSA 2024 — Emerging chemical risks in food and feed (technical report)
 
+## Overview
+
 This 42-page EFSA technical report (Supporting Publication 2024:EN-8992; Question No. EFSA-Q-2024-00477; approved 9 August 2024) is a horizon-scanning overview of EFSA's emerging-chemical-risk identification activities for the period 2020-2023. It is produced by the Knowledge, Innovation and Partnership Management (KNOW) Unit under Strategic Objective N°2 of the EFSA Strategy 2027. The report indexes six EFSA projects plus the work of the Emerging Risks Exchange Network (EREN) and the Stakeholder Discussion Group on Emerging Risks (StaDG-ER), and closes with a SWOT analysis of EFSA's current approach and forward-looking policy/cooperation recommendations.
 
 For Heavy Metal Index purposes the report is contextual rather than measurement-bearing. Heavy metals appear in three discrete indexing contexts — the CLEFSA climate-change scoring exercise (Issues 116 and 120), one sentence on circular-economy insect feed, and one EREN briefing-note row on chaga mushroom. No concentrations, exposure estimates, or sample sizes are reported within this document for any heavy metal.

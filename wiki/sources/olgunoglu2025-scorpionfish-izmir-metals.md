@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Olgunoglu et al. 2025 — Trace metals in black scorpionfish from Izmir Bay
 
+## Overview
+
 This study measures concentrations of ten trace elements (Cd, Cr, Cu, Fe, Hg, Mn, Ni, Pb, Se, Zn) in the muscle tissue of 52 black scorpionfish (*Scorpaena porcus*) collected across four seasons from Izmir Bay (Aegean Sea) using ICP-MS, and evaluates associated human health risks through estimated weekly intake (EWI), target hazard quotient (THQ), carcinogenic risk (CR), and the Metal Pollution Index (MPI). The authors find that Mn, Pb, and Hg exceeded international permissible legal limits, and that Cr and Ni concentrations surpassed carcinogenic risk thresholds. Cadmium showed statistically significant sex-based differences (p < 0.05), while overall sex differences across metals were not significant (p > 0.05). Seasonal variation was significant (p < 0.05) for multiple elements.
 
 ## Key numbers

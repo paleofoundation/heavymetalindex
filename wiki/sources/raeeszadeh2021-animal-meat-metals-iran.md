@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Raeeszadeh 2021 - metals in sheep, beef, turkey, and ostrich meat in western Iran
 
+## Overview
+
 Raeeszadeh, Gravandi, and Akbari measured selenium and eight heavy metals in `170` meat samples from Sanandaj distribution centers in western Iran. The preprint reports concentrations in `mg/kg` based on dry weight of the meat samples. Arsenic and chromium are reported as total arsenic and total chromium; the paper does not report inorganic arsenic or chromium(VI).
 
 ## Key numbers

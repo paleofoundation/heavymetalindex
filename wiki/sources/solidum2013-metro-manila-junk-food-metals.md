@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Solidum et al. 2013 — Lead, cadmium, and chromium in Metro Manila junk food
 
+## Overview
+
 Solidum and colleagues measured Pb, Cd, and total Cr in 36 junk-food samples purchased from sari-sari stores in Metro Manila, Philippines. The study reports ppm concentrations from flame atomic absorption spectroscopy after nitric-acid digestion. The occurrence finding is aggregate rather than brand-routed here: one imported snack sample had the highest Pb value, Cd was low or non-detectable, and every tested snack was above the source's chromium comparator.
 
 ## Key numbers

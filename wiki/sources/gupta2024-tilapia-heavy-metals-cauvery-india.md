@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gupta and Arunachalam 2024 — Heavy metals in Tilapia from the Cauvery River, Tamil Nadu, India
 
+## Overview
+
 This study measured eight heavy metals (Cr, Cd, Fe, Ni, Zn, Co, Pb, Cu) in muscle, liver, and gills of 16 Tilapia fish (*Oreochromis mossambicus*) from four sites along the Cauvery River near Erode, Tamil Nadu, India, using Atomic Absorption Spectroscopy (AAS), and assessed human health risks via pollution indices (PI), estimated daily intake (EDI), and target hazard quotient (THQ). Cadmium, chromium, and lead in liver and gills greatly exceeded permissible limits, with Cd and Cr cancer risks above the USEPA 10⁻⁵ acceptable threshold, and THQ values above 1 for Cd, Co, Pb, and Cr in liver and for Co and Cr in gills. Muscle tissue showed more modest contamination; the main public health concern is consumption of whole fish including offal from heavily industrially impacted river sections.
 
 ## Key numbers

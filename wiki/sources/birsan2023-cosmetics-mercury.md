@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Bîrsan et al. 2023 - Mercury in cosmetic products
 
+## Overview
+
 Bîrsan and colleagues measured mercury in cosmetic products and assessed exposure and health risk. The study is routeable for personal-care product evidence because it selected multiple cosmetic categories and directly measured mercury concentrations in products. It supports category-level cosmetics context without reproducing brand-level rankings.
 
 ## Key numbers

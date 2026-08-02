@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Bjerregaard et al. 2023 — Mercury in blue mussels and invertebrates, Nissum Broad, Denmark
 
+## Overview
+
 This study investigated mercury concentrations in sediment and benthic invertebrate fauna (blue mussels, periwinkles, brown shrimps, amphipods) in Nissum Broad, a coastal marine area of north-western Jutland, Denmark, that was historically contaminated by discharge from the Cheminova pesticide factory during the 1950s and 1960s (an estimated 30 tonnes of mercury released). Sampling was conducted in 2018 (sediment) and 2019 (biota). The headline finding is that blue mussels (Mytilus edulis) contained average total mercury of 169–260 ng/g dry weight across four stations, all exceeding the Environmental Quality Standard (EQS) of approximately 100 ng/g dw. Periwinkles (Littorina littorea) ranged 66–203 ng/g dw, with some stations above the EQS. Overall sediment concentrations have declined markedly since the 1980s; only one station exceeded the Background Assessment Concentration of 70 ng/g dw. The mercury lost from the highly contaminated Harboøre Tange coastline does not appear to have redistributed into the broader Nissum Broad.
 
 ## Key numbers

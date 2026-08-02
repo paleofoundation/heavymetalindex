@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # El-Hassanin et al. 2020 — Pb and Cd in Egyptian maize grain, agricultural soil, and irrigation water across freshwater and wastewater-contaminated sites
 
+## Overview
+
 This Egyptian field-survey study quantifies total and soluble Pb and Cd in irrigation water, total and DTPA-available Pb and Cd in agricultural soil (0–30 cm), and total Pb and Cd in mature maize (*Zea mays* L.) grain across nine cultivated sites in three governorates (Giza, Kafr El-Sheikh, El-Beheira), comparing five freshwater-irrigated sites (Nile River water or groundwater) with four sites irrigated with low-quality water (mixed sewage and industrial effluents, or sewage wastewater). Sampling occurred in August 2017; analysis was by ICP-OES (Agilent 5100 SVDV) after acid digestion (soil and water) or dry-ashing with HCl dissolution (grain). Pb and Cd levels in soil and maize grain at low-quality-water sites were 2.4–3.0-fold (soil) and 19–30-fold (grain) higher than at freshwater sites. All maize-grain Pb values at low-quality-water sites exceeded the FAO/WHO permissible limit of 0.20 mg/kg cited by the authors; Cd in maize exceeded the 0.1 mg/kg limit only at Al-Nasiria. Daily intake of metals (DIM) and health risk index (HRI) were computed using a 0.085 fresh-to-dry conversion factor with adult (70.0 kg, 0.345 kg maize/day) and child (32.7 kg, 0.232 kg maize/day) body weight and consumption assumptions, against EPA RfDs of 0.0035 (Pb) and 0.001 (Cd) mg/kg/day; all HRI values were below 1, leading the authors to conclude no potential health risk from maize consumption at the studied sites.
 
 ## Key numbers

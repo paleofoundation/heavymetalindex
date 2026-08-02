@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Begum et al. 2024 - Fertilization and grain arsenic in rice
 
+## Overview
+
 This study grew rice to maturity under different fertilization/amendment treatments using Chinese paddy-field soil and measured arsenic species in grain and porewater. It is routeable for rice grain arsenic context and should also be read as a controlled-treatment study rather than a market survey.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Zandi et al. (2025) synthesize carbon quantum dots (CQDs) from coffee waste biomass and apply them as fluorescent probes for hexavalent chromium Cr(VI) detection in water samples. The green synthesis using coffee waste as a carbon source is presented as a sustainability advantage.
 
 ## Key numbers

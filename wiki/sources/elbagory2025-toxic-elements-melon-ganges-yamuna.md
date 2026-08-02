@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Elbagory et al. 2025 — Potentially toxic elements in four melon varieties, Ganges-Yamuna River Basin
 
+## Overview
+
 This study assessed eight potentially toxic elements (PTEs: Cd, Cr, Cu, Pb, As, Fe, Mn, Zn) in four melon varieties — two watermelons (*Citrullus lanatus* var. Arka Shyama and Crimson Sweet) and two muskmelons (*Cucumis melo* var. Cantaloupe and Kajri) — grown at 10 riverbank sites in the Ganges-Yamuna Basin of Northern India in summer 2024. Concentrations were measured in dry-weight edible pulp by ICP-OES after diacid digestion. Cd, Pb, and As levels in several samples exceeded WHO/FAO permissible limits on a dry-weight basis. Health risk indices (HRI, DIM, THQ) remained below 1 across all four varieties, with HRI for Cd, Cr, Pb, and Fe approaching 0.5 in watermelon and muskmelon varieties.
 
 ## Key numbers

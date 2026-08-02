@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Gao et al. 2023 - Kenaf and Sedum rotation for contaminated farmland phytoremediation
 
+## Overview
+
 Gao and colleagues tested whether rotating kenaf with the Cd/Zn hyperaccumulator Sedum plumbizincicola could improve removal of cadmium, copper, lead, and zinc from contaminated farmland in Hunan, China. The source is primary field evidence for soil-remediation and supply-chain mitigation context, not food occurrence evidence: the measured plants were phytoremediation/industrial-biomass crops grown on land described as no longer suitable for food crops.
 
 ## Key numbers

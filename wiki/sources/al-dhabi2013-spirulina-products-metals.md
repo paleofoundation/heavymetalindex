@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Al-Dhabi 2013 - metals in commercial Spirulina supplements
 
+## Overview
+
 Al-Dhabi measured nickel, zinc, mercury, platinum, magnesium, and manganese in 25 commercial Spirulina products sold for direct human consumption. The study sampled tablets and capsules from seven declared countries of origin, digested powdered product material, and quantified elements by ICP-MS. Values are reported on a dry-weight basis in `mg/kg d.w.`; mercury is reported only as Hg with no methylmercury speciation, so this page records it as total mercury (`tHg`).
 
 ## Key numbers

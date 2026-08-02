@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Razi Parjikolaei et al. 2016 - Metals in North Atlantic red macroalgae
 
+## Overview
+
 Razi Parjikolaei and colleagues characterized nine North Atlantic red macroalgae species from Denmark for nutrients, minerals, and heavy metals. The source includes dry-weight metal data and explicitly flags food/feed relevance because some species exceeded source-cited As, Cd, or Pb limits. The PDF was fetched under a salt query because the paper discusses seaweed as a low Na/K salt-replacement ingredient, but the actual matrix is red macroalgae.
 
 ## Key numbers

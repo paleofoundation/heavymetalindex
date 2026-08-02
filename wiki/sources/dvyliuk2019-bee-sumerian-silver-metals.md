@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Dvyliuk and Kovalchuk 2019 - Bee tissue metals after Sumerian Silver feeding
 
+## Overview
+
 Dvyliuk and Kovalchuk fed isolated honey bees sugar syrup with a silver and copper citrate preparation and measured bee survival plus Ag, Cu, Fe, Zn, and Co in bee tissues. This is in-scope a4 animal biomarker/toxicology context and feed-to-bee transfer evidence, not honey occurrence or chromium occurrence.
 
 ## Key numbers

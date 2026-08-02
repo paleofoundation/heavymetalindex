@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Cheyns et al. 2021 - arsenic species in algae and cyanobacteria supplements
 
+## Overview
+
 Cheyns and colleagues measured total arsenic and selected arsenic species in 33 algae- or cyanobacteria-based food supplements purchased in Belgium. The source is directly relevant to algae/seaweed supplement occurrence because it reports sample-level total As, inorganic As, DMA, arsenobetaine, recommended dose, and exposure estimates. All sample results are reported on a whole-weight, product-as-sold basis.
 
 ## Key numbers

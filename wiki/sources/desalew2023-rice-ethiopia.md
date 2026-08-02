@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Desalew & Mehari 2023 — Elemental composition of rice in Ethiopia
 
+## Overview
+
 Desalew and Mehari quantified ten elements (Ca, Mg, Fe, Zn, Mn, Cu, Ni, Cr, Cd, Pb) in rice grains collected from the three major production regions of Ethiopia (Fogera, Metema, Pawe) and their corresponding field soils, using flame atomic absorption spectroscopy (FAAS). Cadmium, lead, and chromium were all below the limit of quantitation in rice grain samples from all three regions. The study provides useful baseline occurrence data confirming that Ethiopian-grown rice, at least from these three regions, does not appear to accumulate toxic metals at measurable levels under local agricultural conditions, though method sensitivity for heavy metals was limited.
 
 ## Key numbers

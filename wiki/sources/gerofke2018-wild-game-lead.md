@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Gerofke et al. 2018 - Lead in wild game shot with lead and non-lead ammunition
 
+## Overview
+
 Gerofke and colleagues measured lead in wild game meat and compared animals shot with lead versus non-lead ammunition. The study is routeable for game-meat lead occurrence because it reports lead concentration distributions and explicitly ties the concentration difference to ammunition type. It supports the game-meat page's distinction between environmental uptake and projectile-derived contamination.
 
 ## Key numbers

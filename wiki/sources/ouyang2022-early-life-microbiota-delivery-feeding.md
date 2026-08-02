@@ -27,6 +27,8 @@ updated: 2026-05-09
 
 # Ouyang et al. 2022 — Early life microbiota: delivery mode and infant feeding (background context for HMTc vulnerable-population framing)
 
+## Overview
+
 This **B-tier review chapter** from Elsevier's *Comprehensive Gut Microbiota* Volume 2 synthesizes ~75 cited primary studies on infant gut microbiome development from birth to 2 years, organized around two driver axes: **delivery mode** (vaginal vs C-section, intrapartum antibiotics) and **infant feeding** (breast milk, formula, weaning, complementary food introduction). The chapter does **not** address heavy-metal exposure as a microbiome driver — its primary mechanistic focus is on dietary substrates (HMOs, formula composition, weaning foods) and birth-mode-mediated maternal microbe transmission. Per CLAUDE.md microbiome-page scoping ("subset of microbiome biology for which heavy-metal exposure is the primary mechanistic link"), this paper does **not** route to a wiki/microbiome/ primary-mechanism page. Instead, it is filed here as a **background reference** for the HMTc Cat 1 vulnerable-population framing: it documents the specific microbiome state into which heavy-metal exposure (via formula or complementary foods) enters during the 4-12-month window when complementary feeding begins. The HMTc-relevant findings are summarized below.
 
 ## HMTc-relevant findings

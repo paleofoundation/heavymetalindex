@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Nkrumah et al. 2022 — Farming for battery metals
 
+## Overview
+
 Nkrumah, Echevarria, Erskine and van der Ent set out the case for agromining (also called phytomining) as a route to battery-grade metals. Hyperaccumulator plants, grown on naturally metal-rich ultramafic soils or on mine wastes and tailings, take metals up into their biomass; the biomass is harvested, dried and incinerated to a metal-rich "bio-ore", and the bio-ore is processed into high-purity metal salts suited to lithium-ion battery manufacture. The article is a perspective by the principal agromining research group rather than a primary measurement study, and it reports no measurement of metals in food, ingredients, or consumer products. For Heavy Metal Index purposes it is context-only: its value is mechanistic. Nickel hyperaccumulation on ultramafic and serpentine soils is the extreme end of the same soil-to-plant transfer continuum that governs food-side metal uptake, and the same plant physiology that lets a "metal crop" concentrate nickel is what drives cadmium, arsenic and nickel into edible crops grown on contaminated ground.
 
 ## Key numbers

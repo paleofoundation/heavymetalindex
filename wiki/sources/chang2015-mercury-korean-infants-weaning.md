@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Chang et al. 2015 — Mercury in Korean Weaning-Age Infants
 
+## Overview
+
 This 2015 Korean cohort study measured total mercury in hair and blood of 252 healthy weaning-age infants (6–22 months) in Seoul, finding geometric mean hair Hg of 0.22 µg/g and blood Hg of 0.94 µg/L. Fish intake was a key predictor of mercury levels.
 
 ## Key numbers

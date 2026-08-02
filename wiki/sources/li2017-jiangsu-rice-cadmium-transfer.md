@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Li et al. 2017 — Cadmium transfer from Jiangsu soils into rice
 
+## Overview
+
 Li and colleagues studied cadmium transfer through a soil-rice-human chain in southern Jiangsu Province, China. The authors collected 70 paired Indica rice-grain and surface-soil samples, measured Cd and Zn by ICP-MS, and used RIVM in vitro digestion to estimate bioaccessible Cd in rice grain. The source is a supply-chain occurrence paper: rice-grain Cd is the product-facing evidence, while soil chemistry and extractable Cd/Zn are context for predicting rice Cd and bioaccessible rice Cd.
 
 ## Key numbers

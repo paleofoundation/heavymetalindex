@@ -27,6 +27,8 @@ updated: 2026-05-25
 
 # Scutarasu and Trincă 2023 — Heavy metals in foods and beverages: global review including edible oils
 
+## Overview
+
 This narrative review in the MDPI journal Foods covers the global situation of heavy metal contamination across major food groups (fruits and vegetables, dairy, meat, edible oils, alcoholic beverages), with a dedicated section (Section 4.4 and Table 4) on edible oils aggregating concentration data from published studies across multiple countries. The review is broad-scope and should be treated as evidence tier B (secondary synthesis, not original data), but its Table 4 provides a useful cross-oil cross-country heavy metal inventory drawing on A-tier primary studies. The review also provides a useful regulatory summary of Codex Alimentarius limits for As, Cd, Pb, and Hg across food matrices.
 
 ## Key numbers

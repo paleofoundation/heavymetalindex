@@ -25,6 +25,8 @@ updated: 2026-05-31
 
 # Gorbanov and Giro 2025 — Toxic elements in lamb meat used for meat-snack production
 
+## Overview
+
 Gorbanov and Giro tested lamb muscle tissue from Edilbay-breed sheep after a 90-day feeding trial with the bifidogenic feed supplement LaktuVet-1, then used the tested meat to formulate dried lamb meat snacks. Lead was detected at 0.02 mg/kg in the supplemented group and 0.03 mg/kg in the control group, while cadmium and arsenic were both reported below 0.01 mg/kg in both groups. The article is routeable to lamb/mutton and processed meat snack context, but the auto-fetch filename is a false soy-products/cadmium match.
 
 ## Key numbers

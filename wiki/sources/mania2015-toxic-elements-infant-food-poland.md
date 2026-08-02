@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mania et al. 2015 - toxic elements in Polish commercial infant foods
 
+## Overview
+
 This monitoring study reports Pb, Cd, total As, and total Hg in approximately 1,000 infant-food samples collected across Poland from 2009 to 2013, with all products analyzed as sold. The dataset covers infant formulae, rice and non-rice cereal foods, biscuits, ready-to-eat meals, fish-based foods, fruit desserts, juices, and infant teas. The highest arsenic signals were in rice gruel and fish-based infant foods, the highest mercury signal was in fish-based infant foods, cadmium was most prominent in vegetable meals and some cereal products, and lead exposure estimates approached or exceeded EFSA reference-dose comparators in the authors' infant diet scenarios.
 
 ## Key numbers

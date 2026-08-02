@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Tomczyk et al. 2020 - Polish honey metal transfer
 
+## Overview
+
 Tomczyk et al. measured Cd, Pb, Al, Mn, and Ni across a soil-plant-bee-honey chain in Podkarpackie, Poland. The source is direct occurrence evidence for honey because it reports metal concentrations by honey variety and habitat type, with 50 honey samples analyzed by ICP-OES after microwave digestion. The authors found low Cd and Pb in most honey samples, while a small number of honeydew and floral honeys exceeded the Polish limits they cited for Cd or Pb.
 
 ## Key numbers

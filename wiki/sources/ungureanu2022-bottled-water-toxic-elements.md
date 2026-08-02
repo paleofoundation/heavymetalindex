@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ungureanu et al. 2022 - potentially toxic elements in bottled drinking water
 
+## Overview
+
 Ungureanu et al. measured 12 potentially toxic elements in 50 bottled drinking-water samples sold on the Romanian market. The sample set included still, spring, sparkling, table, semi-sparkling, and artesian waters in PET bottles, mostly produced in Romania with additional European and Fiji-origin products. Most measured elements were below applicable drinking-water limits, but one sample exceeded the Pb limit and several samples had elevated Fe.
 
 ## Key numbers

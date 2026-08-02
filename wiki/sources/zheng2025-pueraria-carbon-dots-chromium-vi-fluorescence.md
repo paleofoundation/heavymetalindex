@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Zheng and Zhou (2025) synthesize nitrogen-doped carbon dots (N-PCDs) via a one-step hydrothermal method using Pueraria (kudzu) root residue as the carbon precursor and urea as the nitrogen source. The resulting high-quantum-yield (42.96%) fluorescent nanomaterial is applied as a probe for hexavalent chromium Cr(VI) detection in water via fluorescence quenching through photoinduced electron transfer (PET). DFT calculations confirm the PET mechanism.
 
 ## Key numbers

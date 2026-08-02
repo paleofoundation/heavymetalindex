@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # OEHHA 2000 — Appendix F: Dermal absorption fractions for soil-bound chemicals (Cal/EPA Hot Spots TSD)
 
+## Overview
+
 This September 2000 OEHHA Technical Support Document Appendix F provides California's recommended dermal absorption fractions (ABS) for soil-bound chemicals used in the Air Toxics Hot Spots program. The chemicals reviewed include the inorganic salts of arsenic, beryllium, cadmium, mercury, lead, nickel, and hexavalent chromium, plus several organic compounds (TCDD/PCDD/PCDF, PCBs, BaP/PAHs, hexachlorocyclohexanes, DEHP, pentachlorophenol). Per-chemical ABS recommendations are point estimates derived from review of in-vivo human, in-vivo animal, and in-vitro percutaneous-absorption studies. OEHHA values diverge from the prior 1% Clement Associates (1988) default for inorganics when chemical-specific evidence supports a different value.
 
 ## Key numbers

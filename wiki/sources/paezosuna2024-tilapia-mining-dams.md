@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Páez-Osuna et al. 2024 — Tilapia metal biomonitoring across eleven mining-watershed dams in NW Mexico
 
+## Overview
+
 Blue tilapia (*Oreochromis aureus*, n=320) collected from eleven dams in Sinaloa, Mexico, were analyzed for Cd, Cu, Pb, and Zn in muscle, liver, gills, and gut to assess metal accumulation patterns and human health risk from fish consumption. Dams 1, 2, 5, and 9 showed the highest metal concentrations, consistent with the greater number of mining sites (55, 55, 19, and 16, respectively) in their sub-basins. The liver consistently accumulated higher metal loads than muscle, and non-carcinogenic risk calculations indicated elevated Pb risk for consumers ingesting 231.5 g per week or more of tilapia muscle from the most contaminated dams.
 
 ## Key numbers

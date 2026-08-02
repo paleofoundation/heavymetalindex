@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Jackson et al. 2012 — Arsenic in Organic Brown Rice Syrup
 
+## Overview
+
 This landmark 2012 study established that organic brown rice syrup (OBRS), widely used as a sweetener in health-food products and toddler formulas, introduces substantial inorganic arsenic. HPLC-ICP-MS speciation; dry weight unless noted.
 
 ## Key numbers

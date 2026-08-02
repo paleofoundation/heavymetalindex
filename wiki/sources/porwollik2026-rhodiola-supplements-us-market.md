@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Porwollik & Jafari 2026 — Heavy metal contamination in U.S. Rhodiola rosea supplements
 
+## Overview
+
 This study is the first peer-reviewed investigation of heavy metal contamination levels in Rhodiola rosea dietary supplements sold on the U.S. market, alongside analysis of biomarker compound content (rosavins and salidroside) and pesticide residues. Ten products (seven capsular, three tinctures) were purchased from Amazon in 2024 and analyzed at Eurofins Scientific laboratories using ICP-MS for heavy metals (As, Cd, Co, Pb, Hg) and GC-MS or LC-MS for pesticides. All seven capsular products contained detectable arsenic, cobalt, and lead; pesticide residues were below detection limits in all ten products; tinctures showed no detectable metals.
 
 ## Key numbers

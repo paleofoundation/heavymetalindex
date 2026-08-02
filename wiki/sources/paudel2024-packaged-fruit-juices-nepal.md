@@ -32,6 +32,8 @@ created_by: claude-opus-4-7
 
 # Paudel et al. 2024 — Heavy metals (Fe, Cu, Zn, Pb) in 16 packaged fruit juices on the Kathmandu, Nepal retail market by FAAS
 
+## Overview
+
 This open-access *International Journal of Applied Sciences and Biotechnology* study quantifies iron, copper, zinc, and lead in sixteen commercially packaged fruit juices — orange, apple, mango, and lychee flavours, four brands per flavour — purchased on the Kathmandu, Nepal retail market. The juices were wet-acid digested (aqua regia + concentrated nitric acid, hot-plate digestion to clarity) and measured by flame atomic absorption spectrophotometry on a Varian-style AA240FS instrument with an air–acetylene flame; calibration was constructed from stock standards and samples were prepared in analytical triplicate. Lead was below the analytical detection limit in every one of the sixteen samples. Iron, copper, and zinc were detected variably across flavours: Fe spanned 0.277–3.649 mg/L across all juices, with one apple-juice sample at 3.649 mg/L exceeding the 2 mg/L WHO/JECFA Provisional Maximum Tolerable Daily Intake (PMTDI)-derived drinking-water reference; Cu ranged from below detection (BDL) to 0.574 mg/L; Zn ranged from BDL to 0.2026 mg/L. The authors compare findings to WHO/FAO drinking-water guidelines (Fe 2 mg/L; Cu 2 mg/L; Zn 3 mg/L; Pb 0.01 mg/L) on the rationale that non-alcoholic beverages depend on water quality. No certified reference material recovery, LOD/LOQ tabulation, or procedural-blank values are reported, which constrains evidence tier to B despite peer-reviewed open-access publication.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Malone & Shakya 2024 — Trace metal contamination in US community garden soils
 
+## Overview
+
 Malone and Shakya conducted an integrative literature review of trace metal contamination (Pb, As, Cd, Zn) in US urban community garden soils, synthesizing 52 peer-reviewed articles from Web of Science and PubMed. The central finding is that lead is the primary soil contaminant of concern in urban community gardens, driven by legacy industrial activity, leaded paint chips, and leaded gasoline residues. The US EPA's residential screening level for lead — reduced from 400 ppm to 200 ppm in January 2024, and 100 ppm at residences with multiple lead sources — remains substantially higher than state, international, and recommended levels (California 80, WHO 85, Finland ~60, US EPA 2013 urban-gardener recommendation 100). Arsenic and cadmium are secondary concerns, often co-occurring with lead, with notable cadmium contributions from phosphate fertilizers, vehicle exhaust deposition, and treated wood. Zinc is generally low-toxicity to humans but functions as an indicator metal: where Zn is elevated, Pb/Cd/As are often also elevated. Environmental justice is a cross-cutting theme: contamination hotspots disproportionately affect lower-income and minority urban communities.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Kabaran et al. 2020 — Heavy metals in Northern Cyprus olive oil and health risk assessment
 
+## Overview
+
 This study determined concentrations of Cr, Co, Ni, As, Cd, Pb, Fe, Cu, and Zn in 27 natural olive oil samples from Morphou and Lefka (Northern Cyprus) by ICP-MS, and paired them with a dietary intake survey of 500 adults to calculate Daily Intake of Metal (DIM) and Health Risk Index (HRI). All HRI values were below 1 for all metals, indicating no significant non-carcinogenic health risk to the local adult population from olive oil consumption at observed concentrations and dietary intake levels. The study is noteworthy for using individually measured body weights and dietary intakes rather than assumed population averages, and for its Cyprus-specific geographic relevance.
 
 ## Key numbers

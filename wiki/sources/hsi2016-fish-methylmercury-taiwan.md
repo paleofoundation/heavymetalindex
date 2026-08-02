@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Hsi et al. 2016 - Methylmercury Concentration in Fish and Risk-Benefit Assessment of Fish Intake among Pregnant versus Infertile Women in Taiwan
 
+## Overview
+
 This study measured methylmercury in fish and used those values in a risk-benefit assessment for pregnant and infertile women in Taiwan.
 
 ## Key numbers

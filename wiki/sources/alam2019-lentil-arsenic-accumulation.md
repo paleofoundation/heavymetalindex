@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Alam 2019 - Lentil arsenic accumulation
 
+## Overview
+
 Alam and colleagues measured total arsenic uptake from arsenic-treated peat moss into lentil roots, shoots, pods, and grains. The study is a controlled greenhouse soil-to-crop transfer experiment rather than a market occurrence survey. The routeable food values are the total arsenic values reported for lentil grains at weeks 10 and 13.
 
 ## Key numbers

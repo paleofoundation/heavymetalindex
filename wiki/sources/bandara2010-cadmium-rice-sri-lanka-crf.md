@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Bandara et al. 2010 — Cadmium in Rice and Chronic Renal Failure, Sri Lanka
 
+## Overview
+
 This WHO-sponsored investigation established the link between elevated dietary cadmium in Sri Lanka's North Central Province and an epidemic of chronic renal failure (CRF) affecting agricultural communities. The paper reports extensive Cd measurements in food, water, and biological samples from the affected region.
 
 ## Key numbers

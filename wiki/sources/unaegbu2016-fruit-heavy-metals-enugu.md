@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Unaegbu et al. 2016 - heavy metals in fruits sold in Enugu, Nigeria
 
+## Overview
+
 This data article measured Ni, Cd, and Pb in ten fruit samples sold in Enugu, Nigeria, alongside nutrient and antioxidant endpoints. The heavy-metal result is straightforward: Cd and Pb were non-detect in all ten fruit samples, while Ni was detected in seven samples at 0.03-0.09 mg/L, with four samples slightly above the source-cited 0.07 mg/L WHO/USEPA comparator.
 
 ## Key numbers

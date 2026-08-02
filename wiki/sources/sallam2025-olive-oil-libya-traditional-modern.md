@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Sallam et al. 2025 — Heavy metals and fatty acids in Libyan olive oil from traditional vs modern extraction
 
+## Overview
+
 Sallam and colleagues compared olive oil and olive mill wastewater (OMWW) from one traditional (manual/mechanical pressing) and one modern (three-phase centrifugation) mill in northwestern Libya. Heavy metals (Pb, Cd, As, Hg) were measured by ICP-OES; fatty acid composition by GC-FID. All four sample types (oil-traditional, oil-modern, OMWW-traditional, OMWW-modern) returned cadmium below 0.1 ppm and lead, arsenic, and mercury below the method's limit of detection. The contribution to the Heavy Metal Index corpus is a small regional null finding for Pb/Cd/As/Hg in Libyan olive oil and a qualitative observation that traditional-mill OMWW carries higher turbidity and visual coloration (qualitative organic-load proxy) than modern-mill OMWW.
 
 ## Key numbers

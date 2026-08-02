@@ -31,6 +31,8 @@ updated: 2026-05-28
 
 # EUFIC 2021 — Aluminium in Food: Sources, Safety, and Regulations (Q&A)
 
+## Overview
+
 EUFIC (European Food Information Council) consumer-facing Q&A page, last updated 1 December 2021, summarising the dietary sources, safety assessment, and EU regulatory framework for aluminium in food. The piece is structured as six questions: what aluminium is, where it occurs, dietary sources, safety of dietary intake, regulations on aluminium levels in foods, and regulations on aluminium use during food processing. It draws on the 2008 EFSA AFC panel opinion and 2013 EFSA dietary-exposure assessment for aluminium-containing food additives, and on EU framework and food-additives regulations.
 
 ## Key numbers

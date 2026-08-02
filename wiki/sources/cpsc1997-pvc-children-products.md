@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # CPSC 1997 — Lead and cadmium in children's polyvinyl chloride (PVC) products
 
+## Overview
+
 This U.S. Consumer Product Safety Commission (CPSC) staff report, dated 21 November 1997 and signed out of CPSC headquarters in Washington, D.C., is the federal regulator's formal response to the October 1997 Greenpeace report alleging hazardous lead and cadmium levels in popular vinyl children's products. CPSC staff obtained 12 of the 18 products that Greenpeace had identified as likely to be handled, mouthed, or chewed by young children, screened each colour or component for total Pb and Cd by AOAC 974.02 inductively-coupled-plasma emission spectrometry (ICP-ES), then conducted CPSC 30-stroke moist-filter-paper wipes (surface-dislodgeable) and ASTM-F963-style saline and 0.07 N HCl extractions (mouthing and chewing surrogates) on any product whose total concentration exceeded the CPSC screening thresholds (200 ppm Pb, 100 ppm Cd). Four of the eight screened-positive products yielded detectable dislodgeable or extractable Pb or Cd; none of those four produced a calculated daily exposure exceeding CPSC's chronic-ingestion limits of 15 µg Pb/day or 9.2 µg Cd/day for a 1-year-old. CPSC concluded that none of the tested products posed a lead or cadmium hazard under reasonably foreseeable handling or use and declined to seek corrective action; the report explicitly preserves the gap between Greenpeace's "hazardous levels are present" framing (substrate content + accelerated weathering) and CPSC's "no hazardous exposure under foreseeable use" framing (release under unweathered hand-contact and mouthing conditions).
 
 ## Key numbers

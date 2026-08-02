@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Tjoa et al. 2023 - Nickel acquisition affected by root density of mono- and mixed-cropping peanut and choy sum
 
+## Overview
+
 This experiment measured nickel acquisition in peanut and choy sum shoots grown in limonitic laterite soil under mono- and mixed-cropping conditions.
 
 ## Key numbers

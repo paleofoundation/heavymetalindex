@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Groleau et al. (2025) measured nutrient and metal(loid) partitioning between Inuit country-food ingredients (lake trout, Arctic char, mussel, clam, seaweed) and the broths cooked from them, to identify recipes that maximize nutrient intake while minimizing toxic-metal exposure for pregnant and breastfeeding Inuit women in Nunavik. Most fish, seaweeds, and bivalves were important nutrient sources (>20% of pregnancy daily intake for K, Ca, Mg, Fe, Zn, or Se), but only fish broth was itself a meaningful nutrient source; bivalve and seaweed broths contributed <5% of daily intakes for most elements. Large lake trout (>0.5 kg, n=43) carried elevated total mercury — >67% of individuals exceeded the Canadian RMRV of 0.5 µg/g ww in muscle, with a maximum of 4.5 µg/g ww raw and 5.3 µg/g ww cooked, and >93% of fish-muscle Hg was methylmercury (81% in raw Arctic char). Few metal(loid)s transferred to broth, with arsenic the exception: total-As concentrations in some broths exceeded the Canadian potable-water RMRV of 10 µg/L, though the dominant forms were AsB in fish broth (85–88%) and arsenosugars in seaweed and bivalve broths; the one exception was clam broth, in which inorganic As(V) accounted for 29% of total As.
 
 ## Key numbers

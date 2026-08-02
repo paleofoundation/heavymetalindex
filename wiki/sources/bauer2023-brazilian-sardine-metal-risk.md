@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bauer et al. 2023 - Metals in Brazilian sardine
 
+## Overview
+
 Bauer and colleagues measured metal and metalloid concentrations in edible muscle tissue of Brazilian sardine from northern and southern sectors of the Southwestern Atlantic Continental Shelf. Total arsenic and total mercury are reported separately from the risk-assessment assumptions used later in the paper. Most Cd and Pb results were below the source's LOQ, so the authors excluded Cd and Pb from the concentration/risk analysis.
 
 ## Key numbers

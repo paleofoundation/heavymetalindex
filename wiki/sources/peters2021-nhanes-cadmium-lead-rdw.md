@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Peters et al. 2021 — Cadmium and lead exposures and red cell distribution width in NHANES 2003-2016
 
+## Overview
+
 This large cross-sectional study pooled NHANES (National Health and Nutrition Examination Survey) data from 2003 to 2016 to examine associations between blood cadmium (Cd) and blood lead (Pb) and red cell distribution width (RDW), a marker of erythrocyte size variability linked to inflammation and hematological dysfunction. The analysis included 24,607 participants representing the US general population. This study provides nationally representative blood cadmium and lead concentration data for US adults across a 13-year surveillance window, offering insight into population-level exposure distributions and demographic patterns. Blood Cd and Pb were measured by ICP-MS as part of the NHANES heavy metals component. The documented association between these blood metal levels and RDW suggests a mechanism linking dietary metal exposure to anemia-related and inflammatory hematological outcomes.
 
 ## Key numbers

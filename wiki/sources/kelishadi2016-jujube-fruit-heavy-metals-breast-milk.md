@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Kelishadi et al. 2016 — Jujube Fruit Intervention for Heavy Metals in Breast Milk, Iran
 
+## Overview
+
 This 2016 randomized controlled trial from Isfahan, Iran, evaluated whether jujube fruit (Ziziphus jujuba) supplementation reduces toxic element concentrations in breast milk of lactating mothers. The key finding was no significant reduction across Pb, Cd, or As, but the study provides baseline breast milk metal concentrations for an industrial Iranian city.
 
 ## Key numbers

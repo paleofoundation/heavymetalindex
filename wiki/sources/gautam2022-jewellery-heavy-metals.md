@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2022 - lead, cadmium, and nickel in jewelry risk assessment
 
+## Overview
+
 This ESR client report for the New Zealand Ministry of Health develops a generic risk assessment for incidental oral and dermal exposure to Pb, Cd, and Ni in jewelry. It is not a New Zealand occurrence survey; the report explicitly says no New Zealand jewelry recall data and no New Zealand occurrence/prevalence data were available. The quantitative sections summarize overseas metal-content, bioaccessibility, and risk-assessment studies, then interpret those studies for children and adults who mouth, swallow, or wear jewelry.
 
 ## Key numbers

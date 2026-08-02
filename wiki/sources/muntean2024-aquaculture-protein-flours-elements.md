@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Muntean et al. 2024 - elemental content of alternative aquaculture protein flours
 
+## Overview
+
 Muntean and colleagues evaluated animal- and plant-derived protein flours as alternative ingredients for fish nutrition, including spent coffee grounds and other food-industry by-products. The study reports elemental composition for each flour type, including aluminum, nickel, total arsenic, cadmium, and lead; these are feed-ingredient and supply-chain values, not finished coffee or fish occurrence values.
 
 ## Key numbers

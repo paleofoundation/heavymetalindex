@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Muniz et al. 2018 — Metals in tomato sauces by packaging type, Brazil
 
+## Overview
+
 Twenty commercial tomato sauce samples across four packaging types (plastic, metallic/canned, cellulosic, and glass) from Rio de Janeiro supermarkets were analysed by ICP-MS for As, Cd, Pb, Cr, Ni, Sb, and Sn. The study found that As, Cd, and Pb were all below Brazilian regulatory limits across all packaging types, and no significant difference between packaging types was found for most metals. The critical findings were that Cr exceeded Brazil's maximum permissible level (0.1 mg/kg) in all packaging types (mean values 0.27–0.39 mg/kg), and Sn was significantly higher in metallic/canned packaging (0.125–0.258 mg/kg) than in plastic, cellulosic, or glass containers, with tin migration from can linings confirmed by simulant solution testing.
 
 ## Key numbers

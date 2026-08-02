@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Thakur et al. 2024 - Darrang groundwater arsenic and health risk
 
+## Overview
+
 Thakur and colleagues investigated groundwater hydrogeochemistry and health risks from arsenic exposure in Darrang district, Assam. This is a3 groundwater-pathway evidence with a4 health-risk modelling layered onto it: the paper does not assay a bottled product, but it directly measures arsenic in a drinking-water source and quantifies child and adult risk from chronic exposure.
 
 ## Key numbers

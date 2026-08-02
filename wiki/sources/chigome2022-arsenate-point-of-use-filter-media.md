@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Chigome et al. 2022 - Point-of-use arsenate filter media
 
+## Overview
+
 Chigome and colleagues reviewed point-of-use filter-media development and reported experimental data for a chitosan-aluminum-titanium-iron-zirconium nanocomposite designed to remove arsenate from drinking water. This is a2 mitigation evidence: it does not report a consumer-product occurrence survey, but it does provide adsorption and prototype-filter performance data for arsenate removal.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Wu et al. 2023 - Hybrid membrane adsorption of Pb2+ and Cu2+
 
+## Overview
+
 Wu, Zheng, and Han synthesized negatively charged PEG/Si-O-Si organic-inorganic hybrid membranes and tested their adsorption of Cu2+ and Pb2+ under varied pH, temperature, initial concentration, and contact time. This is primary remediation-method evidence, not occurrence evidence: the source reports laboratory adsorption capacities and condition optimization for prepared metal-ion solutions rather than concentrations in food, ingredients, drinking water, or field wastewater.
 
 ## Key numbers

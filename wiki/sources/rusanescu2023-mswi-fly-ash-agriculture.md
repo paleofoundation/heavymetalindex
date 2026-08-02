@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Rusanescu and Rusanescu 2023 - MSWI fly ash in agriculture
 
+## Overview
+
 Rusanescu and Rusanescu review whether fly ash from municipal solid waste incineration (MSWI) can be used as an agricultural soil amendment. The source is not a primary market-food or crop-occurrence study: its metal concentrations are secondary ranges from cited literature. Its routeable value is context evidence for waste-derived soil amendments, including the high variability of As, Cd, Cr, Cu, Hg, Ni, Pb, Zn, and other elements in MSWI fly ash and the dose-dependent rise of several metals in amended soil.
 
 ## Key numbers

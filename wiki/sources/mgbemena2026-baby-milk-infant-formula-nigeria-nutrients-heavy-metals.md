@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Mgbemena et al. 2026 — Nutrients and heavy metals in baby milk and infant formula, Umuahia, Nigeria
 
+## Overview
+
 This Scientific Reports study from Michael Okpara University of Agriculture (Umudike, Abia State) analyses proximate composition, macro/micro minerals, and five heavy metals (Pb, Ni, Cu, Cd, Cr) by atomic absorption spectrometry in 8 baby milk (milk-based powder) and 12 infant formula (cereal-based) products sold in Umuahia metropolis, Nigeria. All eight baby milk samples exceeded the WHO (2023) lead limit of 0.03 mg/kg (range 0.07–0.14 mg/kg), and three baby milk samples (A, C, D) had individual cadmium Target Hazard Quotients above 1.0; the source text also states that sample C had chromium THQ above 1.0, although Table 3 does not print a Cr THQ column. Aggregate Cd Hazard Index across all 20 samples reached 15.55, which authors flag as indicating non-carcinogenic chronic-risk concern. Compared with baby milk, cereal-based formulae were lower for Pb, Cd, and Cr and higher for Cu; Ni is source-internally inconsistent because Table 2 sample I lists 0.26 mg/kg while the abstract reports 0.003–0.040 mg/kg.
 
 ## Key numbers

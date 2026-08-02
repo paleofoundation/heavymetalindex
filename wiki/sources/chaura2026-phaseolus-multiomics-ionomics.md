@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Chaura et al. 2026 — Multiomics of Phaseolus beans: heavy metal outlier in P. vulgaris
 
+## Overview
+
 A comprehensive multiomics study of 46 Phaseolus bean accessions (three species, 19 countries of origin) finds that overall heavy metal concentrations in dry bean seeds are below Codex Alimentarius thresholds, with the important exception of one P. vulgaris accession (G3645, "Jamapa," from Veracruz, Mexico) which exhibited 3311 ppb lead and 134 ppb cadmium — both exceeding the 100 ppb threshold applied by the authors. Excluding that single outlier, cadmium showed a significant species-level difference, with P. acutifolius (tepary bean) averaging 36 ppb versus 11-12 ppb in P. vulgaris and P. lunatus; arsenic also differed significantly by species, with P. acutifolius averaging 6 ppb versus 1.3-1.8 ppb. The findings are relevant to bean ingredient suppliers and agronomic genebank screening.
 
 ## Key numbers

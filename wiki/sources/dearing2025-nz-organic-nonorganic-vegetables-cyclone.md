@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Dearing et al. 2025 — Heavy metals in organic vs non-organic Hawke's Bay vegetables post-Cyclone Gabrielle
 
+## Overview
+
 This cross-sectional study assessed heavy metal concentrations in 153 composite vegetable samples from Hawke's Bay, New Zealand, one year after Severe Tropical Cyclone Gabrielle caused widespread flooding in the region in February 2023. Using ICP-MS in an ISO 17025-accredited laboratory, the study compared organic and non-organic vegetables from flooded and non-flooded growing sites, finding that organic production was independently associated with lower cadmium (p = 0.003, η²p = 0.058) and nickel (p < 0.001, η²p = 0.124) concentrations, while growing on cyclone-flooded land was paradoxically associated with lower rather than higher cadmium (p = 0.030) and nickel (p = 0.024). Mercury was below the LOD (0.01 mg/kg FW) in all 153 samples; arsenic, chromium, and thallium were also below LOD in the overwhelming majority of samples.
 
 ## Key numbers

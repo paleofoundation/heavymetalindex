@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Xiong et al. 2025 — Heavy metals (9-analyte panel) in 33 infant/adult clothing samples with bioaccessibility, HQ/HI/CR and HaCaT cytotoxicity
 
+## Overview
+
 This Toxics paper measured total and artificial-sweat-bioaccessible concentrations of nine heavy metals (As, Cd, Cr, Cu, Mn, Ni, Pb, Zn, Fe) by ICP-MS in 33 unwashed clothing samples purchased from online retail platforms, then computed ECHA-/US-EPA-formula dermal exposure, hazard quotient (HQ), hazard index (HI) and carcinogenic risk (CR) across five wear-scenario groups (adult-male T-shirt, adult-male underwear, adult-woman blouse, adult-woman underwear and infant under 1 year in a one-piece pajama). Infant-scenario HI exceeded the safe threshold (HI = 1.13) driven by Cd (HQ = 1.12), and infant Cr CR reached 4.35 × 10⁻⁵, approximately 27-fold higher than infant As CR. Artificial-sweat bioaccessibility was highest for Cr (37.78%) and Ni (28.51%); Pb and Fe were below detection in the sweat extract. HaCaT keratinocyte assays of sweat extracts produced dose-dependent cytotoxicity (22-59% viability reduction across T1-T5 groups) and ROS elevation (+130-131% in T2/T4; +17% in T1/T3/T5), with T2 the most pronounced cytotoxic group.
 
 ## Key numbers

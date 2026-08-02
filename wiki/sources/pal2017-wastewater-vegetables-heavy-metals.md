@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Pal et al. 2017 - Metals in wastewater-irrigated vegetables in Hisar
 
+## Overview
+
 This study measured Cd, Pb, Cu, Zn, Cr, and Ni in edible vegetable parts from domestic-wastewater-irrigated farmlands around Hisar district, Haryana. It is routeable as high-exposure vegetable occurrence context, especially for carrots and leafy vegetables.
 
 ## Key numbers

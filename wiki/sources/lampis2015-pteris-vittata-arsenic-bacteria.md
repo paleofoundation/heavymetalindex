@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Lampis et al. 2015 — Rhizobacterial promotion of arsenic phytoextraction by Pteris vittata
 
+## Overview
+
 This greenhouse study tested whether inoculation with arsenic-resistant, plant-growth-promoting rhizobacteria improves arsenic phytoextraction by the fern *Pteris vittata*. It is upstream mechanism and microbiome evidence on arsenic soil-to-plant transfer and bioremediation; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

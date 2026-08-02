@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Yuan et al. 2023 — Fluorescent aptasensor for As(III) detection using triple-helix molecular switch
 
+## Overview
+
 This paper from the Shanghai Engineering Research Center of Food Rapid Detection describes a novel fluorescence-based aptasensor for the detection of As(III) ions using a triple-helix molecular switch (THMS) platform. The system uses an arsenic-binding aptamer combined with a dual-labeled signal transduction probe (FAM fluorophore and BHQ1 quencher); in the absence of As(III) the triple helix structure holds the probe open and fluorescence is high, while As(III) binding breaks the triple helix and releases the probe to fold back into a hairpin that quenches fluorescence. The sensor achieves a detection limit of 69.95 nM (approximately 5.2 µg/L) with a linear range of 0.1 to 2.5 µM, and the total detection process takes 30 minutes. Real-sample validation was performed using Huangpu River water with good recoveries, and the authors estimate cost per test below USD 1.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Islam et al. 2015 — Heavy metals in commonly consumed foods from Bangladesh
 
+## Overview
+
 Islam and colleagues measured chromium, nickel, copper, arsenic, cadmium, and lead in commonly consumed foods from Bogra district, Bangladesh. The sampled food groups were meat, egg, fish, milk, vegetables, cereals, and fruits, with concentrations reported in `mg/kg fw`. Arsenic is reported as total arsenic in the occurrence table; the later cancer-risk calculation assumes 50% inorganic arsenic, but the concentration data are not speciated.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Sixto et al. 2023 - Arsenic, cadmium, and lead in potatoes and sweet potatoes
 
+## Overview
+
 Sixto et al. validated methods for As, Cd, and Pb in potatoes and sweet potatoes, then applied them to peeled and whole samples from Uruguay's main wholesale produce market. The paper is direct occurrence evidence for the root-and-tuber vegetable row because it distinguishes peeled from whole potatoes and sweet potatoes on a fresh-weight basis. Cadmium appeared consistently in whole sweet potato pools but not peeled sweet potato pools, and lead was more often detected in peeled potato pools than in whole pools.
 
 ## Key numbers

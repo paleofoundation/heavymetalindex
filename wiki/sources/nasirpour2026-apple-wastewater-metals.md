@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Nasirpour et al. 2026 — Heavy metals in apple fruit, leaves, and soil under treated wastewater irrigation, Iran
 
+## Overview
+
 This study measured the accumulation of heavy metals and essential elements in apple (Cultivar: Golden Delicious) fruit, leaves, and soil under irrigation with urban treated wastewater compared to clean water controls over a 2021-2023 field experiment in Iran (BMC Plant Biology 2026:26:441). Metals measured in fruit included As, Se, Ba, and Sr; in leaves: As, Co, Cr, Ni, Pb, Se, and Ba; in soil: As, Co, Cr, Ni, Pb, and Ba. The study found that irrigating apple trees with treated wastewater led to measurable accumulation of heavy metals in soil and plant tissues, including in the edible fruit, compared to conventionally irrigated controls. This has direct implications for food safety in regions where wastewater irrigation of fruit orchards is practiced.
 
 ## Key numbers

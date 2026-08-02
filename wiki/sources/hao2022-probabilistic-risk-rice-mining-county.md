@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hao et al. 2022 — Probabilistic health risk from metals in rice, Xiangtan County, China
 
+## Overview
+
 Hao and colleagues measured total arsenic (tAs), inorganic arsenic (iAs), Pb, Cd, Cr, and total Hg in 220 rice samples from Xiangtan County, Hunan Province, China, a multi-mining county with rice cultivation. The paper is routeable as rice-bulk-grain occurrence evidence because Table 2 reports rice concentrations directly; mining and soil context should be treated as source-attribution context rather than product concentration data. The rice occurrence finding is dominated by Cd, tAs, and iAs, with iAs kept separate from tAs and total Hg kept separate from methylmercury.
 
 ## Key numbers

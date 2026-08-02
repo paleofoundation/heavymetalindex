@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Gunes 2021 - Yalova chestnut honey metals
 
+## Overview
+
 Gunes measured arsenic, lead, cadmium, and mercury residues in 27 chestnut honey samples from Yalova province, Turkey, and assessed non-carcinogenic intake risk. The paper is direct honey occurrence evidence, with all four measured metals reported in ug/kg and summarized as lowest, highest, and average concentrations. The author concluded that measured residues were below Turkish Food Codex limits and that the calculated target hazard quotients were very low for the assumed honey intake.
 
 ## Key numbers

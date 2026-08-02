@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Wei et al. 2021 - eggshell and ureolytic bacteria for Pb/Cd remediation
 
+## Overview
+
 Wei and colleagues tested microbially induced carbonate precipitation as a remediation strategy for Pb- and Cd-contaminated water and soil. The source is mitigation evidence, not mineral-water occurrence evidence: all Pb and Cd values are spiked-solution or spiked-soil treatment endpoints.
 
 ## Key numbers

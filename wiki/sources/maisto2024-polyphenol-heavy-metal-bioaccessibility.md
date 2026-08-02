@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Maisto et al. 2024 - Polyphenol formulations and heavy-metal bioaccessibility
 
+## Overview
+
 Maisto and colleagues tested whether water-soluble maltodextrin formulations of quercetin, ellagic acid, curcumin, or a mixed formulation changed heavy-metal bioaccessibility during simulated gastrointestinal digestion. This is primary in vitro health/testing evidence, not food, ingredient, or product occurrence evidence. The source's routeable concentration facts are the standardized metal-spiked water concentrations, AAS method limits, and measured duodenal bioaccessible fraction (DBF) versus non-bioaccessible fraction (NBF) shifts.
 
 ## Key numbers

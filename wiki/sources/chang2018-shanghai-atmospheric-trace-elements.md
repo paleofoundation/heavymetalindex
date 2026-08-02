@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Chang et al. 2018 - Shanghai atmospheric trace elements
 
+## Overview
+
 Chang and colleagues continuously measured 18 trace elements in PM2.5 at an urban Shanghai receptor site for one year, then used positive matrix factorization to apportion the elements to traffic, shipping, nonferrous smelting, coal combustion, and ferrous smelting. This is atmospheric source-attribution evidence, not mineral-water occurrence evidence: it identifies which emission sectors load metals into the shared environment.
 
 ## Key numbers

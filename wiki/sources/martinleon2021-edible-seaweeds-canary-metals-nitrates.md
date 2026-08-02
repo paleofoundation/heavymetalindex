@@ -26,6 +26,8 @@ sampling_year_range: "2020"
 updated: 2026-06-04
 ---
 
+## Overview
+
 Martín-León and colleagues (2021) measured cadmium, lead, total mercury, and nitrate in 72 edible algae samples marketed in Tenerife (Canary Islands, Spain), partitioning species by declared geographic origin into an Asian-sourced group (Japan, Korea) and a European-sourced group (Galicia, Spain). Metals were quantified by graphite-furnace and cold-vapor atomic absorption spectrophotometry after microwave acid digestion; nitrate by ion chromatography. Cadmium concentrations were notably higher in Asian-sourced algae, with hijiki (1.196 mg/kg dry weight) and nori (1.005 mg/kg dw) the highest species means in the dataset. Lead was highest in Asian-sourced wakame (0.119 mg/kg dw). Total mercury was highest in European-sourced arame (0.055 mg/kg dw). Nitrate concentrations exceeded 8000 mg/kg in some nori samples and reached a maximum of 6400 mg/kg in kombu; mean nitrate in kombu (3084 mg/kg) and nori (3183 mg/kg) was within the 6000–7000 mg/kg range that EU Regulation 1258/2011 sets as the maximum for rocket/arugula, the leafy vegetable category nearest to seaweed for nitrate regulatory comparison (seaweed itself is not regulated for nitrate). The authors compute estimated daily intake at the manufacturer's recommended 4 g/day dry-seaweed consumption and a mean Spanish adult body weight of 68.48 kg; under those assumptions, no analyte exceeds its EFSA tolerable weekly intake or benchmark dose for adult consumers, with the highest contributions coming from Asian hijiki Cd (19.6% of TWI) and Asian nori Cd (16.4% of TWI).
 
 ## Key numbers

@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Sadee 2022 - Trace metals in vegetables from Erbil markets
 
+## Overview
+
 Sadee measured arsenic, cadmium, chromium, copper, and lead in ten commonly consumed vegetables purchased from local markets in Erbil, Kurdistan Region, Iraq. The paper is routeable for vegetable occurrence evidence because it reports concentration ranges in edible vegetables by ICP-MS. The authors also calculated estimated daily intake and carcinogenic risk.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Jarwar et al. 2023 - Vibrio harveyi carbonate co-precipitation of Cd, Cr, Pb, and Zn
 
+## Overview
+
 Jarwar and colleagues isolated a heavy-metal-resistant *Vibrio harveyi* strain from Mediterranean Sea sediment near Pozzuoli, Italy, and tested whether the organism could precipitate carbonates while removing dissolved Cd, Cr, Pb, and Zn from metal-spiked culture medium. This is primary remediation-method evidence, not food, ingredient, product, or drinking-water occurrence evidence: the reported concentrations are controlled aqueous-spike supernatants and mineral precipitate measurements.
 
 ## Key numbers

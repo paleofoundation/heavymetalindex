@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Okwuegbuna 2025 - tampon metal-release thesis
 
+## Overview
+
 Okwuegbuna's University of Toronto MSc thesis tested whether Cd, Pb, and Cu could be detected in tampon digests or released from tampons into simulated vaginal fluid (SVF). The source is C-tier thesis evidence: it is useful method and negative/inconclusive release context, but it is not a confirmed tampon metal-occurrence concentration dataset. The thesis names four commercial products; this page reports only anonymized category-level results under the brand firewall.
 
 ## Key numbers

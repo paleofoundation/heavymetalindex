@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Zhao et al. 2022 — Lead and cadmium dietary exposure in the Sixth China Total Diet Study (2016–2019)
 
+## Overview
+
 Zhao and colleagues report the lead and cadmium exposure component of the Sixth China Total Diet Study, covering 288 composite food samples across 24 provincial-level administrative divisions (PLADs) and ~86% of the Chinese population. Pb and Cd were quantified by ICP-MS in 12 food categories. The national mean dietary intake for adult males was 0.318 µg/kg bw/day for Pb (MOE > 1 in all 24 PLADs) and 8.26 µg/kg bw/month for Cd (33.0% of PTMI nationally); Hunan Province adult males exceeded the PTMI for Cd at 120%, primarily driven by cereals (rice).
 
 ## Key numbers

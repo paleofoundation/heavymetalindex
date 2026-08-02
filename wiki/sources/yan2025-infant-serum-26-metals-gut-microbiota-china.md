@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Yan et al. 2025 — Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China
 
+## Overview
+
 This Frontiers in Microbiology original-research paper from Central South University and the Hunan Children's Hospital reports a hospital-based cross-sectional study correlating infant serum concentrations of 26 metals with gut-microbiome 16S rRNA profiles in a Chinese pediatric cohort. The 26-metal panel covers the HMTc analyte set (Pb, Cd, As, Hg, Ni, Al, Cr, Sn, U) plus essential and additional trace elements, and the gut-microbiome characterization covers community-level diversity and taxon-level abundance. The cross-sectional design identifies metal-microbiome associations rather than causal mechanisms, but the breadth of the metal panel is unusual in the early-life-microbiome literature and provides a multi-metal-multi-taxon association map that complements the single-metal mechanistic studies (Yang 2023 for Ni, Soto-Ocaña 2024 for Zn / Mn).
 
 ## Key contribution

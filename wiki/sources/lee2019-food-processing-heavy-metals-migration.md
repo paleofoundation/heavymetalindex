@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Lee et al. 2019 — Heavy metal migration during food processing (oilseeds, noodles, teas)
 
+## Overview
+
 Lee and colleagues at the Korean Ministry of Food and Drug Safety's National Institute of Food and Drug Safety Evaluation measured Pb, Cd, As, and Al in Korean market oilseeds (sesame, perilla, flaxseed), noodles (wheat flour and sweet potato glass), and teas (Sri Lankan black, Korean green, Solomon's seal) before and after processing, then quantified how much of each metal migrated out of the food during pressing/solvent/supercritical-CO₂ oil extraction, boiling, and infusion. The central finding is that water-soluble heavy metals migrate substantially into cooking and infusion water: roughly 40–70% of Pb migrates out of noodles across the 3–10 min boiling cells (flour and glass noodle combined), and tea-leaf-to-infusion migration spans roughly 5–88% across metals × tea types × steep times (lowest for Solomon's seal As at 2 min, highest for black-tea As at 30 min), while oil extraction transfers comparatively little metal from seed to oil (typically <10% by pressing or solvent extraction, with supercritical CO₂ reaching up to ~30% transfer for some seed/metal pairs). The practical implication is that the consumer-facing exposure depends sharply on whether the boiling water or infusion liquid is consumed.
 
 ## Key numbers

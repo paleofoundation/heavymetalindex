@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Fagbemi et al. 2023 - Lead and minerals in street-hawked foods from Akure, Nigeria
 
+## Overview
+
 This paper measured Pb alongside Ca, Cu, Fe, and Zn in seven street-hawked foods from Akure Metropolis. The routeable heavy-metal finding is Pb in prepared foods and ready-to-eat street foods, ranging from 0.05 +/- 0.01 to 0.30 +/- 0.01 mg/100 g. The source also contains microbiology results, but those are context rather than HMTc occurrence evidence.
 
 ## Key numbers

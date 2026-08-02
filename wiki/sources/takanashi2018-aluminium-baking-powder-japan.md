@@ -29,6 +29,8 @@ updated: 2026-05-29
 
 # Takanashi et al. 2018 — Aluminium in baking-powder-containing processed foods, Japan 2015–2016
 
+## Overview
+
 A survey by the Tokyo Metropolitan Institute of Public Health, Tama Fuchu Public Health Center, and the Tokyo Metropolitan Bureau of Social Welfare and Public Health measured aluminium (Al) content in 123 processed-food products (bakery products, confectionery, flour-processed foods other than bakery/confectionery, and pre-mix powders) distributed in Tokyo markets in 2015–2016. Products were selected because they were likely to use baking powder containing aluminium-potassium-sulfate (alum). Al was detected in 41 of the 123 samples at concentrations of 0.01 (limit of quantitation) to 0.40 mg/g wet weight. Four samples reached levels at which a single 1-piece serving consumed once per week would exceed the JECFA-2011 provisional tolerable weekly intake (PTWI) of 2 mg/kg body weight/week for a 16-kg young child (32 mg/week). The detection rate in non-Japanese confectionery had declined from 80% in the authors' 2009 survey to 14% in 2015–2016, consistent with industry substitution of alum-free leavening agents, while Japanese confectionery (wagashi) remained at 56% detection and flour-processed foods such as okonomiyaki, chijimi, and takoyaki at 60% detection. Imported takoyaki — all of Chinese origin in this dataset — had higher Al than domestic takoyaki (0.09–0.38 mg/g vs. 0.01–0.10 mg/g among detects).
 
 ## Key numbers

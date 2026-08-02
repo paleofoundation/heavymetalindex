@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Mania et al. 2021 — Lead, cadmium, arsenic, mercury, and tin in Polish fruit and fruit products (2015 monitoring)
 
+## Overview
+
 This paper reports results from a 2015 Polish national monitoring program, analyzing approximately 600 samples across multiple fruit categories (fresh, frozen, dried, preserved, and canned) for Pb, Cd, As (total), Hg (total), and Sn (canned products only). Contamination levels were generally low, broadly comparable to other EU member states, and estimated dietary exposures for all five elements were below EFSA and JECFA tolerable doses for both adults and children. The highest single-sample values were Pb in dried raisins from Iran (0.150 mg/kg) and Sn in canned pears from China (206 mg/kg, still below the EU ML of 250 mg/kg for canned fruit). At 90th-percentile (MB) contamination of fresh fruits, children's lead intake reached 31.5% of the BMDL₀₁ for neurotoxicity.
 
 ## Key numbers

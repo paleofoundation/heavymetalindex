@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Pereira 2008 - Ria de Aveiro mercury review
 
+## Overview
+
 Pereira and colleagues reviewed mercury contamination in the Ria de Aveiro coastal lagoon in Portugal, including historical chlor-alkali contamination in Laranjo bay. The occurrence-relevant table summarizes total mercury in macroalgae, benthic fauna, and fish muscle from Laranjo bay, the broader Ria de Aveiro, and nearby Atlantic waters. The source reports total mercury (`Hg`) only; it does not measure methylmercury.
 
 ## Key numbers

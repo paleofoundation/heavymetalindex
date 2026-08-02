@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Ben Moussa et al. 2022 — Natural Tunisian clays as adsorbents for heavy-metal removal from phosphogypsum waste (Gabes)
 
+## Overview
+
 Four-page Springer book chapter from a Tunisian–Belgian group testing whether three local clay deposits in the Gabes region (Haidoudi, Romana, Hmaymet) can adsorb heavy metals (the authors emphasise Cd and Cr) from phosphogypsum — the by-product of phosphoric-acid manufacture at the Groupe Chimique Tunisien plant. The paper is qualitative in published form: it asserts that phosphogypsum from Gabes carries "high" concentrations of Cd, Cr, and U "compared to other wastes of phosphogypsum in the world and to the soil remediation limits" without printing the mg/kg values, and reports column-leaching results as "the concentration of metals decreased … all the way down to 0 mg/kg" for the Haidoudi and Romana clays without printing breakthrough curves or numeric removal efficiencies. The Hmaymet clay is reported as "less substantial" in adsorption performance, again without numbers.
 
 Phosphogypsum is upstream of the agricultural-soil cadmium pathway (phosphate-fertiliser raw-material chain), and the paper documents a remediation technology rather than a food-occurrence finding. It is retained in the Heavy Metal Index as a C-tier remediation-leads source for the Tunisian phosphogypsum-storage context, not as occurrence evidence for any food matrix.

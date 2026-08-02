@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Yoshinaga and Ogawa 2025 — Duplicate diet study: dietary metal exposure in Japanese adults
 
+## Overview
+
 This duplicate diet study measured 12 metals (V, Co, Ni, Rb, Sr, Mo, Ag, Cd, Sb, Cs, Ba, and Pb) in 150 complete 24-hour dietary samples from adult Japanese, collected 2017–2019. Each participant provided a duplicate portion of every food and beverage consumed across the sampling day, which was homogenized, freeze-dried, acid-digested, and analyzed by ICP-MS. The duplicate diet approach measures what people actually consumed rather than estimating intake from food composition tables and market basket statistics. The authors also estimated the contributions of incidental soil and house-dust ingestion to total oral metal exposure and compared dietary intakes against US EPA Reference Doses.
 
 ## Key numbers

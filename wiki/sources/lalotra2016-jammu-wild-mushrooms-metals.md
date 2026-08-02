@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Lalotra et al. 2016 - Heavy metals in wild mushroom sporocarps from Jammu Province
 
+## Overview
+
 This study measured Zn, Cu, Mn, Fe, Cd, and Pb in three wild macrofungi and their associated soils from Jammu Province, India. The edible species Macrolepiota procera had the lowest reported Pb value, while the poisonous Boletus subvelutipes had the highest Pb value among the three species. Because two of the three species are not edible, this source is most useful as wild-mushroom bioaccumulation context, with the edible M. procera values separated from non-edible/toxic species in interpretation.
 
 ## Key numbers

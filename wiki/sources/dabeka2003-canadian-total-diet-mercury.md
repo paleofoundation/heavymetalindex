@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Dabeka 2003 - Canadian total-diet mercury
 
+## Overview
+
 Dabeka, McKenzie, and Bradley measured total mercury in Canadian total-diet food composites from Whitehorse and Ottawa. The paper reports total mercury occurrence by composite and food category, plus age/sex dietary-intake estimates. Mercury is not speciated in the occurrence data; comparisons to methylmercury guidance values are risk-context estimates rather than measured MeHg.
 
 ## Key numbers

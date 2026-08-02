@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Abou Abbass et al. 2023 -- Drinking-water metals in Beirut and Mount Lebanon
 
+## Overview
+
 Abou Abbass et al. analyzed 79 drinking-water samples from Beirut and Mount Lebanon for chemical and microbiological quality. The metal results are routeable as broad drinking-water context for total arsenic and total mercury, but the paper does not provide a bottled-water-only subset, so it should not be treated as a clean bottled-water benchmark distribution by itself.
 
 ## Key numbers

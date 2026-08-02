@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Hu et al. 2023 — Heavy Metals in Chinese Tea: National Status and Health Risk
 
+## Overview
+
 This peer-reviewed meta-analysis, published in Toxics (MDPI, CC BY), synthesized heavy metal concentration data from 227 published papers (1993–2021) covering tea samples and tea plantation soils across China, using Kriging spatial interpolation to map geographic distributions and EPA/Dutch RIVM health risk models to assess non-carcinogenic and carcinogenic risks for adult tea consumers. The study found that the average contamination of six heavy metals in Chinese tea was: As = 0.21 mg/kg, Cd = 0.14 mg/kg, Cr = 1.17 mg/kg, Cu = 14.6 mg/kg, Hg = 0.04 mg/kg, Pb = 1.09 mg/kg. Contamination rates for all metals were below 3%, and non-carcinogenic risks were within safe limits nationally; however, carcinogenic risks from Cd in Shaanxi Province, Anhui Province, and southwest China exceeded acceptable ranges.
 
 ## Key numbers

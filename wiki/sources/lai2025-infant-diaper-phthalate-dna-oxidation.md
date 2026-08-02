@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Lai et al. 2025 — Phthalates in disposable diapers and paired urinary metabolites/8-OHdG in 66 Guangzhou infants
 
+## Overview
+
 This Toxics paper quantifies six phthalates (DEP, DiBP, DnBP, DEHP, and two non-detectable isomers) in inner-layer disposable-diaper samples from 66 Guangzhou infants and nine urinary phthalate monoester metabolites (mEP, miBP, mnBP, mEHP, mEHHP, mEOHP plus the non-detectable mBzP and mMP) and 8-hydroxydeoxyguanosine (8-OHdG) in paired spot urine. Authors estimate the daily intake (DI) of each phthalate via dermal absorption from diapers and the proportion that diaper-derived dermal absorption contributes to the total daily intake (TDI back-calculated from urinary metabolites). DEHP was the predominant phthalate in diapers (median 1670 ng/g, 48.8 % of ΣPAEs); urinary mEHP-derived DEHP metabolites were the most abundant (Σ mDEHP 87.1 ng/mL median). Diaper DnBP correlated weakly with urinary mnBP (r = 0.259, p = 0.035), and urinary metabolites correlated with the oxidative-DNA-damage biomarker 8-OHdG (r = 0.265-0.316, p < 0.01). The paper measures **no heavy metals** and contributes no occurrence data to the HMI corpus; it is ingested as a methodology and exposure-pathway reference for diaper-derived dermal absorption in infants — the paired diaper + urine + biomarker design and the body-burden / TDI ratio framework are reusable for HMI heavy-metals modeling if/when comparable analyte data become available.
 
 ## Key numbers

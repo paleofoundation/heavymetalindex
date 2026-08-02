@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Son et al. 2021 - Nakdong River weir sediment metals
 
+## Overview
+
 Son and colleagues measured Cu, Zn, and Pb in river sediments upstream of the Hapcheon-Changnyeong weir on the Nakdong River in South Korea. The study combines aqua regia extraction, Tessier five-step sequential extraction, and sediment-quality comparisons to evaluate whether the weir promotes metal accumulation. This is primary environmental sediment evidence, not food, ingredient, drinking-water, or consumer-product occurrence evidence.
 
 ## Key numbers

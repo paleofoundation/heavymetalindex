@@ -26,6 +26,8 @@ sampling_year_range: 2003
 
 # Rose 2007 — Total and inorganic arsenic in UK retail seaweed (forms, concentration, exposure)
 
+## Overview
+
 Rose and colleagues (UK Food Standards Agency with Defra Central Science Laboratory) measured total and inorganic arsenic in 31 dried seaweed products covering five varieties on UK retail sale, analysing each as sold and, where preparation was advised, after soaking/cooking and in the soaking water. Total arsenic ranged 18–124 mg/kg across all samples, but inorganic arsenic was detectable (LOD 0.3 mg/kg) only in the nine hijiki samples, at 67–96 mg/kg as sold (68–73% of total arsenic); every arame, wakame, kombu, and nori sample held inorganic arsenic below 0.3 mg/kg (<2% of total). Preparation reduced but did not eliminate hijiki's inorganic arsenic (mean 77 mg/kg as sold falling to a 67% inorganic fraction after soaking), contradicting producer claims that soaking removes it. On the strength of this survey the FSA issued formal consumer advice to avoid eating hijiki seaweed.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lepak et al. 2026 — MeHg depuration kinetics from fish consumption in travelers
 
+## Overview
+
 Two adults monitored before, during, and after consuming fish in Gabon, Central Africa provided rare direct evidence for human methylmercury (MeHg) depuration kinetics. One subject was a frequent fish consumer (baseline hair Hg 813 ng/g dry weight); the other was an infrequent consumer (baseline 120 ng/g dry weight). Total hair mercury was measured via ICP-MS at weekly to biweekly intervals across approximately five months. Both subjects exceeded the US EPA MeHg reference dose (0.1 µg/kg body weight/day) by 2 to 4 times during the consumption period. The measured whole-hair depuration rate was 8.3 ± 1.1 ng/g/day, consistent with the known biological half-life of MeHg in hair (approximately 65–80 days). Hair total mercury provides an integrated record of past methylmercury exposure, making this a useful calibration dataset for biomonitoring interpretation.
 
 ## Key numbers

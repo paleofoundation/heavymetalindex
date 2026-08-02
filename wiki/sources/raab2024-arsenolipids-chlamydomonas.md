@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Raab et al. 2024 — Arsenolipids in Chlamydomonas reinhardtii
 
+## Overview
+
 This study reports the arsenic speciation profile of the green microalga Chlamydomonas reinhardtii, cultivated under controlled laboratory conditions, with particular focus on lipid-soluble arsenic compounds (arsenolipids). The key finding is the first reported detection of arsenosugar phospholipid with a phytol side chain (AsSugPhytol) in any organism. Approximately 57% of total arsenic in C. reinhardtii was present as arsenolipids, a much higher proportion than typically found in macroalgae such as Saccharina latissima used for comparison. The study contributes to understanding how arsenic accumulates in microalgae and what speciation is present in algae-derived food ingredients.
 
 ## Key numbers

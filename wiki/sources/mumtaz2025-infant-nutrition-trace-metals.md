@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Mumtaz et al. 2025 - Trace metals in infant nutrition sources in Multan
 
+## Overview
+
 Mumtaz and colleagues measured trace metals in infant nutrition sources from rural and urban Multan, Pakistan and evaluated non-carcinogenic and carcinogenic risk. The study covers two matrices — breast milk from lactating mothers and commercial infant formula collected from local pharmacies and supermarkets — and reports Pb, Cd, Ni, Zn, and Fe concentration summaries and risk indices stratified by rural versus urban dwelling. Concentrations are reported on a liquid basis (mg/L). It should be kept market-specific to Pakistan.
 
 ## Key numbers

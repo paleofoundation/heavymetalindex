@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Krasnopyorova et al. 2025 — Trace elements in drinking water, Almaty, Kazakhstan
 
+## Overview
+
 This study characterizes the trace element composition of drinking water in Almaty, Kazakhstan (78 samples, 24 elements) using ICP-MS, with seasonal sampling in 2023. Elements measured include As, Cd, Pb, Ni, U, Hg, Al, Cr, Fe, Mn, Zn, and Cu, among others. The study provides baseline concentration data for a Central Asian metropolitan area and compares measured values against WHO and Kazakh national drinking water standards.
 
 ## Key numbers

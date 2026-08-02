@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # He et al. 2023 - Ti3C2/UiO-66-NH2 photoreduction of Cr(VI)
 
+## Overview
+
 He and colleagues synthesized Ti3C2/UiO-66-NH2 composites and tested their visible-light photoreduction of synthetic Cr(VI) as potassium dichromate. This is primary remediation/testing evidence, not occurrence evidence. The routeable numbers are the potassium dichromate challenge concentration, catalyst loading, removal time, and first-order kinetic rate for the optimized 10 wt% Ti3C2 composite.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Flores-Aguilar et al. 2022 - Pb in infant formula by SPE-CE
 
+## Overview
+
 This method-development paper also reports direct Pb occurrence results for 20 commercial infant formula samples. Four of 20 samples were positive for Pb, with SPE-CE and ETAAS results compared on the same positive samples.
 
 ## Key numbers

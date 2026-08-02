@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # FSANZ 2012 — Total and inorganic arsenic in apple and pear juice (Australia and New Zealand)
 
+## Overview
+
 Food Standards Australia New Zealand (FSANZ) conducted a targeted analytical survey in 2012 measuring total and inorganic arsenic in 100 fruit juice samples (96 apple juice, 4 pear juice) drawn from Australian and New Zealand retail and manufacturing supply. Apple juice samples were re-analysed retention samples from a parallel FSANZ–MPI cyanogenic-glycoside (HCN) survey collected April/May 2012; pear juice samples were purchased separately by FSANZ from Queensland retail stores. Of the 96 apple juice samples, 34 (35%) had total arsenic above the laboratory's level of reporting (LOR) of 2.5 µg/kg, with the highest total arsenic at 16 µg/kg; of those 34, 20 had quantifiable inorganic arsenic concentrations ranging from 2.5 to 11.3 µg/kg and 14 had inorganic arsenic at "trace" level (between the LOD of 0.5 µg/kg and the LOR of 2.5 µg/kg). No total arsenic was detected in any of the 4 pear juice samples; consequently no pear juice was further analysed for inorganic arsenic. The survey concluded that arsenic concentrations in Australian and New Zealand apple juice were broadly comparable to those previously reported in the United States.
 
 ## Key numbers

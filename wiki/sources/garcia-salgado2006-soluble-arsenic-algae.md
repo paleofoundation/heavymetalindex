@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # García Salgado et al. 2006 - soluble arsenic species in algae
 
+## Overview
+
 García Salgado et al. developed a microwave-assisted water extraction and HPLC-HG-ICP-AES method for soluble arsenic species in algae. The paper analyzes Sargassum CRM material, *Chlorella vulgaris*, market *Hizikia fusiformis* dry material, and market *Laminaria digitata* capsules. Total arsenic, inorganic arsenic species, and methylated arsenic species are kept separate below.
 
 ## Key numbers

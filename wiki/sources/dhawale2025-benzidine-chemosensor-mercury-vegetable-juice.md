@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Dhawale and Trivedi (2025) develop benzidine-based small-molecule chemosensors with selective colorimetric or fluorometric response to Cu2+ and Hg2+ in vegetable juice matrices. The paper validates the sensor in real food matrices (vegetable juice), making it relevant to food-matrix analytical method development.
 
 ## Key numbers

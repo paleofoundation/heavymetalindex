@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Izah et al. 2016 — Heavy metals in beverages consumed in Nigeria
 
+## Overview
+
 Izah and colleagues (Niger Delta University, Bayelsa State, Nigeria) review the published literature on heavy metal concentrations in alcoholic and non-alcoholic beverages consumed in Nigeria between 2007 and 2016. The review tabulates concentration ranges from 13 underlying non-alcoholic studies (Table 1) and 5 underlying alcoholic-beverage studies (Table 2), compared against the Standard Organization of Nigeria (SON) and WHO drinking-water guideline limits. The review reports no new measurements, treats drinking-water limits as the reference framework for evaluating beverages, and discusses qualitative health implications for each heavy metal.
 
 ## Key numbers

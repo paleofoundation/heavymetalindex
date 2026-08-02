@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # Health Canada 2019 — Guideline Technical Document, Lead in drinking water
 
+## Overview
+
 This Health Canada Guideline Technical Document, prepared in collaboration with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) of 0.005 mg/L (5 µg/L) for total lead in drinking water based on a sample taken at the consumer's tap using the appropriate protocol for the type of building being sampled, paired with an explicit ALARA expectation because the MAC exceeds the drinking-water concentration associated with neurodevelopmental effects in children. The MAC is **feasibility-based** rather than a calculated health-based value: it is set at the U.S. EPA practical quantitation limit of 5 µg/L because no threshold below which lead is no longer associated with adverse neurodevelopmental effects has been identified. The document reviews the IQ-decrement dose-response anchored on the Lanphear et al. (2005) pooled analysis (BMDL₀₁ = 1.2 µg/dL blood lead, EFSA 2013/JECFA 2011 derivation) and translates it via three PBPK models (IEUBK, Leggett, O'Flaherty) into per-µg/L drinking-water slope factors, plus a parallel cancer risk assessment from Waalkes et al. (1995) renal-tumor data. It compiles Canadian provincial/territorial occurrence data, an analytical-method inventory, a treatment-technology and distribution-system review centered on lead service lines and corrosion control, and an international comparison with U.S. EPA, WHO, EU, Australian NHMRC, and California OEHHA values.
 
 ## Key numbers

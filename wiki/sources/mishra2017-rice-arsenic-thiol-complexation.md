@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Mishra et al. 2017 — Thiol complexation restricts arsenic translocation from rice roots to shoots, but methylated arsenic is more mobile
 
+## Overview
+
 This Scientific Reports paper investigated *in planta* accumulation, redox transformation and thiol-complexation of inorganic arsenate (AsV), methylarsonate (MAV) and dimethylarsinate (DMAV) in rice (cv. Triguna) under 7-day hydroponic exposure. Roots and shoots were analyzed by anion-exchange HPLC-ICP-MS (redox/species) and RP-HPLC-(ICP-MS)-(ESI-MS) in parallel (thiol complexes). AsV and MAV were efficiently reduced to AsIII and MAIII respectively in both roots and shoots; no trivalent DMA was detected. In roots, up to 48% of root As in AsV-exposed plants and 83% of root As in MAV-exposed plants was bound as thiol complexes covering up to 20 and 16 distinct As-species, including PC2, hm-PC2, des-Gly-PC2, hm-GSH and γ-EC homologues. Despite extensive complexation in roots, shoot transfer factor (TF, shoot/root As) ranked DMAV (4.91) > MAV (0.18) > AsV (0.033), and in shoots 78% of total As in MAV-exposed and 71% of As in AsV-exposed plants was present as weakly bound MAIII and AsIII respectively.
 
 ## Key numbers

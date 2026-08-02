@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Muhammad et al. 2021 - Lactobacillus lead bioremediation
 
+## Overview
+
 Muhammad and colleagues tested whether free or maize-resistant-starch microencapsulated Lactobacillus acidophilus KLDS strains could bind Pb in vitro and reduce Pb body burden in a chronic mouse exposure model. This is mitigation and detoxification evidence, not product occurrence evidence: the study used Pb nitrate-spiked media and drinking water and should not contribute to HMTc occurrence or threshold pools.
 
 ## Key numbers

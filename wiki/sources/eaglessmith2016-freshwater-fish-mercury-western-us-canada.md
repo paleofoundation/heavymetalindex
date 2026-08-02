@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Eagles-Smith et al. 2016 — Fish Hg spatial and temporal patterns across Western US + Canada (USGS broad synthesis)
 
+## Overview
+
 This USGS-led broad synthesis compiles total mercury (THg) concentrations in **96,310 individual fish from 4,262 unique locations** across 15 U.S. states, 3 Canadian provinces, and 2 Canadian territories — covering 206 species sampled 1969-2014. It is the largest freshwater-fish-Hg dataset in the Western North American literature. Across all fish, total THg in muscle ranges from **0.001 to 28.54 µg/g wet weight** with a geometric mean of **0.170 ± 0.001 µg/g ww**. Crucially:
 
 - **30% of individual fish samples exceed the EPA Fish Tissue Residue Criterion for methylmercury** (0.30 µg/g ww), the threshold designed to protect noncommercial-fish-consuming humans

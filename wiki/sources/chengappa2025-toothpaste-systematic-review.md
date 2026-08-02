@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Chengappa et al. 2025 — Systematic review of heavy metals in over-the-counter toothpastes (11 in vitro studies)
 
+## Overview
+
 This Frontiers in Dental Medicine PRISMA 2020 systematic review compiles in vitro evidence on the presence and concentration of heavy metals in over-the-counter toothpastes from 11 primary studies published between 2013 and 2023, screened from 9,409 database records via Google Scholar, PubMed, Scopus, Springer Link, Embase, and Web of Science. All 11 included studies reported the presence of one or more heavy metals — toxic (Cd, Pb, tHg, tAs, Ag) and essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification — in the toothpastes analysed. Eight of the eleven studies used atomic absorption spectrophotometry (AAS; several specified flame AAS in Table 1); two used ICP-MS; one used microwave plasma-atomic emission spectrometry (MP-AES). Quality assessment with the Quality Assessment Tool for in vitro Studies (QUIN) returned a high risk of bias for seven of the eleven studies and a medium risk for the remaining four (no study met the low-risk threshold). The review identifies regulatory-limit fragmentation across jurisdictions and a near-absence of toothpaste-specific occurrence data from North America, Europe (outside Malta), East Asia, and South America as the primary literature gaps.
 
 ## Key numbers

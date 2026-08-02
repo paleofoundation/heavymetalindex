@@ -26,6 +26,8 @@ updated: 2026-06-05
 
 # Enemuor et al. 2021 - Heavy metals in Kogi East palm oil
 
+## Overview
+
 Enemuor and colleagues measured physicochemical quality, microbial contamination, and selected heavy metals in traditionally processed palm oil sold in three Kogi East markets in Nigeria. The routeable HMI evidence is Table 3, which reports market-level mean concentrations in ppm for cadmium, chromium, lead, arsenic, copper, and iron. Cadmium was highest in Idah market samples, while arsenic and iron were highest in Anyigba and Idah samples respectively.
 
 ## Key numbers

@@ -27,6 +27,8 @@ sampling_year_range: null
 
 # Narukawa 2020 — Hijiki candidate reference material: total arsenic, inorganic arsenic (As(V)), and arsenosugars (inter-laboratory study)
 
+## Overview
+
 Narukawa and colleagues (NMIJ/AIST, with the University of Graz) ran a two-laboratory inter-laboratory study to characterise a candidate hijiki seaweed certified reference material (NMIJ CRM 7405-b) for total arsenic and water-soluble arsenic species, validating methods against the existing certified hijiki CRM 7405-a. This is a metrology/CRM-development paper rather than a market survey, but it provides rigorously-quantified hijiki arsenic occurrence values on a dry-mass basis: the candidate hijiki material carried total arsenic 49.4 mg/kg and inorganic arsenic (measured as As(V)) 24.4 mg/kg dry weight (≈49% of total), and the control CRM 7405-a is certified at total arsenic 35.8 and As(V) 10.1 mg/kg. The values reinforce hijiki as a high-inorganic-arsenic seaweed and supply CRM-quality anchor points; because they are reference materials, not retail products, they are flagged below as method/anchor data rather than market-occurrence inputs.
 
 ## Key numbers

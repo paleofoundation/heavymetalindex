@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Laparra et al. 2003 - seaweed arsenic bioaccessibility
 
+## Overview
+
 Laparra and colleagues measured total arsenic (AsT) and inorganic arsenic (AsI) in three edible seaweed products purchased in Valencia, Spain, then applied an in vitro gastrointestinal digestion method to estimate bioaccessible arsenic. The occurrence-relevant data are the raw/cooked seaweed concentrations and the bioaccessible fractions, all reported on a dry-weight basis. The paper keeps AsT and AsI distinct throughout.
 
 ## Key numbers

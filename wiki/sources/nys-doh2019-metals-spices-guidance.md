@@ -28,6 +28,8 @@ updated: 2026-05-29
 
 # NYS DOH 2019 — Health-based guidance values for metals in spices
 
+## Overview
+
 The New York State Department of Health (NYS DOH) Bureau of Toxic Substance Assessment derived health-based guidance values for inorganic arsenic, cadmium, hexavalent chromium, and lead in spices, at the request of the NYS Department of Agriculture & Markets. Using the standard EPA risk-assessment paradigm (hazard identification, dose-response, exposure assessment, risk characterization), the document establishes recommended screening-level concentrations in spices that would be protective of both cancer and noncancer health effects for children and adults. The guidance explicitly calls for speciation of arsenic (iAs, not tAs) and chromium (Cr-VI, not total Cr) when comparing analytical results to the derived values, and acknowledges that lead has no threshold, requiring an as-low-as-achievable approach.
 
 ## Key numbers

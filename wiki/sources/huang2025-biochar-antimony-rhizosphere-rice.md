@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Huang et al. 2025 - Biochar, antimony, rhizosphere-rice system
 
+## Overview
+
 Huang and colleagues ran a five-month rice pot experiment in mining-contaminated soil from Dongzhi County, Anhui Province, China to test how a 3% addition of Paulownia bio-waste biochar reshapes antimony bioavailability, soil-fraction redistribution, and root-to-grain translocation across four rice growth stages. The source is primary evidence for antimony behaviour in a rhizosphere-rice system under a contaminated-field intervention, not a market-basket distribution. Total soil Sb was 94.41 mg/kg (contaminant factor 38.35, "high contamination" category) and grain Sb in the biochar-amended treatment rose slightly from 0.35 to 0.38 mg/kg, so the grain values should be routed as agronomic-intervention evidence rather than a normal commercial-rice benchmark pool.
 
 ## Key numbers

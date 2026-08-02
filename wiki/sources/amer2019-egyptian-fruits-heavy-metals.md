@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Amer et al. 2019 — Heavy metal exposure assessment in Egyptian apples, grapes, and oranges
 
+## Overview
+
 This study measured Pb, Cd, Cr, Cu, and Ni concentrations in 108 fresh fruit samples (apples, grapes, oranges; 36 per fruit type, 9 per governorate per fruit) collected from four governorates in Egypt (Cairo, Giza, Alexandria, El-Fayoum). Lead and cadmium were not detected in any sample. Copper and nickel were present in all samples, frequently above WHO/FAO maximum residue limits. Chromium was detected only in grape samples from Cairo and El-Fayoum at concentrations more than ten times the EU permissible limit. Washing grapes reduced Cu and Ni by up to ~97%; peeling oranges reduced Cu by up to ~81%. Estimated daily intake for Cu and Ni exceeded reference tolerable daily intake values in most fruit-governorate combinations.
 
 ## Key numbers

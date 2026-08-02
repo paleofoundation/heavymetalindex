@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Walenta et al. 2024 — Arsenic speciation in four mushroom species; discovery of arsenobetaine amide
 
+## Overview
+
 This study characterized total arsenic mass fractions and arsenic speciation by HPLC-ICP-MS in four mushroom species — *Ramaria sanguinea*, *Amanita muscaria*, *Boletus edulis*, and *Macrolepiota procera* — collected from contaminated and non-contaminated sites in Austria and Czech Republic. Total As ranged from 0.28 ± 0.01 mg/kg dry mass (*Boletus edulis*) to 22 ± 2 mg/kg dm (*Amanita muscaria*). Arsenic species found included arsenobetaine (AB; 8–64% of total As), DMA (0.17–14%), arsenocholine (AC; 1.1–7.4%), and previously unknown species. Critically, a novel nitrogen-containing arsenic compound — arsenobetaine amide (trimethylarsonioacetamide) — was isolated from *R. sanguinea* and confirmed present in all investigated species by spiking experiments. Inorganic arsenic was detected in some samples; the dominant organic form across species was arsenobetaine. The total As values represent a broad range of contamination levels relevant to human consumption of wild-foraged fungi.
 
 ## Key numbers

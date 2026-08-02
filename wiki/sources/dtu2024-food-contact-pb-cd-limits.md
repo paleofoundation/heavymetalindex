@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # DTU 2024 - lead and cadmium food-contact-material migration limits
 
+## Overview
+
 The DTU National Food Institute prepared this memo for the Danish Veterinary and Food Administration as a working document proposing national maximum limits for migration of lead and cadmium from ceramic, glass, and enamelled food-contact materials. The memo is a regulatory source, not a peer-reviewed primary occurrence paper; it combines proposed limits, analytical LOQ reasoning, and secondary summaries of migration studies. The routeable HMI signal is food-contact-material leachate and food-simulant context for ceramic and glass tableware, decorated rims/coatings, ceramic-coated/enamelled cookware, bakeware, and infant feeding bottles.
 
 ## Key numbers

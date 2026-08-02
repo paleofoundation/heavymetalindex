@@ -34,6 +34,8 @@ audience: [regulator, educator, app]
 
 # IARC Monograph Volume 49 (1990) — Chromium, Nickel and Welding
 
+## Overview
+
 The IARC Working Group convened in Lyon (5-13 June 1989) reviewed the human, animal, and mechanistic evidence for chromium compounds, nickel compounds, and welding fume exposures, and issued the foundational carcinogenicity classifications that subsequent food-safety, occupational-health, and drinking-water authorities continue to cite. The volume establishes Cr[VI] compounds (as encountered in chromate production, chromate pigment production, and chromium plating) and nickel compounds (sulfate and sulfide/oxide combinations encountered in refining) as Group 1 human carcinogens; metallic chromium and Cr[III] are Group 3; metallic nickel is Group 2B; welding fumes are Group 2B. The monograph also catalogues background concentrations of chromium and nickel in food, drinking water, air, and human biological samples, plus the analytical methods then in use across all those matrices.
 
 ## Key numbers

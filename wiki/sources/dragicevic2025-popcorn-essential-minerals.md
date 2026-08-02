@@ -36,6 +36,8 @@ created_by: claude_opus_47_session
 
 # Dragičević et al. 2025 — Essential minerals and bioavailability in popcorn kernels and flakes (Serbia)
 
+## Overview
+
 This Chilean Journal of Agricultural Research paper measured Ca, Mg, Fe, Cu, Mn, Zn and phytic phosphorus in kernels and microwave-popped flakes of 12 popcorn (Zea mays subsp. everta) hybrids grown 2021-2022 at the Maize Research Institute Zemun Polje, Serbia. The study is a bio-fortification and nutritional-bioavailability investigation; HMI-scope heavy metals (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) are NOT measured in the present work — Cd, As, Pb, and Ni appear only in the literature-review framing, citing Abebe et al. 2017 and Dada & Kutu 2022 on lower accumulation of potentially toxic elements in popcorn maize. Microwave popping decreased phytic acid concentration up to 11.8% in flakes of six hybrids (541/1k, ZP 542/1k, ZP 657/1k, ZP 644/1k, ZP 557/1k, ZP 686/1k), improving potential bioavailability of essential elements.
 
 ## Key numbers

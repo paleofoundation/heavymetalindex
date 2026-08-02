@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Levin et al. 2024 — US drinking water quality: contaminants, regulations, and health implications
 
+## Overview
+
 This comprehensive review examined the occurrence, regulation, and health implications of multiple contaminants in US drinking water, including lead, arsenic, uranium, cadmium, mercury, and chromium. The authors synthesized data from US public water system monitoring programs alongside epidemiological evidence for health effects, comparing current regulatory action levels and maximum contaminant levels (MCLs) against the latest toxicological evidence. The paper provides a critical assessment of gaps between regulatory limits and health-protective exposure thresholds.
 
 ## Key numbers

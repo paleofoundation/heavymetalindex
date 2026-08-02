@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lea et al. 2018 — DINP endocrine disruption: weight-of-evidence assessment
 
+## Overview
+
 This weight-of-evidence (WoE) assessment evaluates the endocrine disrupting potential of di-isononyl phthalate (DINP) using the ECHA/EFSA Endocrine Disruptor Guidance (2018) framework, examining estrogen (E), androgen (A), thyroid (T), and steroidogenesis (S) pathways. Based on analysis of 110 articles and 105 high-throughput assays, the authors conclude DINP does not meet ECHA/EFSA criteria to be considered an endocrine disruptor. DINP did not elicit thyroid- or estrogen-related apical outcomes in vivo; for the A and S pathways, limited adverse apical evidence was found and no biologically plausible adverse outcome pathway (AOP) was established. A data gap exists for thyroid hormone levels in vivo, preventing a conclusion on the T-pathway.
 
 ## Key numbers

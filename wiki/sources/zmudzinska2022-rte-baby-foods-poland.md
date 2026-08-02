@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Zmudzinska et al. 2022 — Heavy Metals in Ready-to-Eat Baby Foods, Poland
 
+## Overview
+
 Polish survey assessing As, Cd, Hg, and Pb in 397 ready-to-eat products marketed for children aged 0.5–3 years, sampled across six product categories from Polish brick-and-mortar and online retail between December 2020 and September 2021. The study reports per-category means, maxima, exceedance counts against EU baby-food limits, and exposure estimates (EDI, EWI, PTWI%, BMDL%, THQ, CR) by age subgroup. Pb exceeded the applicable EU limit in 4.53% of samples and Hg in 1.5%; As and Cd showed no exceedances.
 
 ## Key numbers

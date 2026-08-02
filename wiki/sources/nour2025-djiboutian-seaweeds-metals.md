@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Nour et al. 2025 — Heavy metals in seaweeds from Djibouti
 
+## Overview
+
 Six seaweed species from the Djiboutian coastline were analyzed for nutritional composition and heavy metal content (Cr, Ni, As, Cd, Pb) by ICP-MS, providing one of the first published occurrence datasets for edible marine algae from the Horn of Africa region. Results showed wide inter-species variation, with arsenic concentrations notably elevated in the brown alga *Turbinaria decurrens* (70.2 µg/g dry weight) and chromium highest in the green alga *Ulva clathrata* (29.61 µg/g DW). The paper documents both nutritional value and contamination risk for seaweeds increasingly harvested and consumed in East African coastal communities and entering global health-food markets.
 
 ## Key numbers

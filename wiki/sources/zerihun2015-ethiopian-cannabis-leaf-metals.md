@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Zerihun et al. 2015 - Ethiopian cannabis leaf metals
 
+## Overview
+
 Zerihun et al. measured calcium, zinc, nickel, copper, cadmium, lead, and total chromium in *Cannabis sativa L.* leaves collected from four regions of Ethiopia. The samples were dried and reported on a dry-weight basis. Chromium was measured as total chromium; the paper explicitly says it was not possible to know the specific chromium form in the leaves, so no Cr(VI) value is inferred.
 
 ## Key numbers

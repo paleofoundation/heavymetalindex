@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Chamorro et al. 2024 — Atlantic bluefin tuna: health benefits, contaminants, and risk-benefit analysis
 
+## Overview
+
 This review comprehensively covers the nutritional composition (omega-3 fatty acids, proteins, vitamins, minerals) and contaminant profile (principally mercury, but also Cd, Pb, and As) of Atlantic bluefin tuna (Thunnus thynnus), followed by a quantitative risk-benefit analysis for human consumption. The paper is directly relevant to the wiki because it synthesizes mercury contamination data across multiple studies, discusses the EU regulatory framework for Hg in large predatory fish (0.5–1.0 mg/kg wet weight), and addresses the selenium-to-mercury protective ratio (Se:Hg molar ratio) as a modifier of mercury toxicity.
 
 ## Key numbers

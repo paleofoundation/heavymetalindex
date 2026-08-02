@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # SCHEER 2017 — Tolerable intake of aluminium: review for toy migration limit adaptation
 
+## Overview
+
 The Scientific Committee on Health, Environmental and Emerging Risks (SCHEER) was commissioned by the European Commission to review available aluminium toxicity data and advise on a tolerable intake level suitable for adapting the migration limits for aluminium in toys under Toy Safety Directive 2009/48/EC. This opinion synthesises the EFSA 2008 TWI (1 mg Al/kg bw/week), the JECFA 2007 (superseded) and JECFA 2011 PTWI (2 mg Al/kg bw/week), the WHO 2010 drinking-water guideline, the ATSDR 2008 profile, and the SCCS 2014 cosmetics opinion. It concludes that a TDI of 0.3 mg Al/kg bw/day is appropriate for toy migration limit calculation, derived from the NOAEL of 30 mg/kg bw/day in Poirier et al. (2011), a GLP twelve-month neurodevelopmental study of aluminium citrate in Sprague-Dawley rats. The opinion notes that dietary aluminium exposure in children frequently already exceeds both the EFSA and JECFA reference values, particularly for soy-based formula-fed infants, and recommends that aluminium exposure from toys should be minimised.
 
 ## Key numbers

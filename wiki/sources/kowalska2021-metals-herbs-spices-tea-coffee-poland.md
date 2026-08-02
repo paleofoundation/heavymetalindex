@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Kowalska 2021 — Heavy metals in Polish herbs, spices, tea, and coffee
 
+## Overview
+
 This Polish study measured Cd, Pb, total As, and total Hg in 240 plant material samples — 163 herb samples across 40 species, 61 spice samples across 11 species, 8 green China tea samples, and 8 roasted Arabica coffee bean samples — collected 2015–2018 from farms in eastern Poland and from Lublin supermarkets. Analysis was by ICP-MS (Cd, Pb, As) and direct mercury analyzer AMA 254 (Hg). Among the four analytes, lead showed the widest concentration range across the dataset (0.010–5.680 mg/kg DM); mercury was uniformly low (range <LOQ to 0.030 mg/kg DM). Results were referenced against two limit frameworks: the World Health Organisation guideline values for herbal raw materials (Cd 0.3, Pb 10.0, As 5.0, Hg 0.2 mg/kg) and Commission Regulation (EU) No. 420/2011, which sets maximum levels for certain contaminants in fresh herbs converted to dry matter at 90% water content. No herb sample exceeded the WHO Pb 10 mg/kg limit; the abstract reports 24 herb samples (18%) exceeded "the limits," which from the section 3.2 detail aligns with the EU 420/2011 converted dry-matter equivalent. For Cd, 24 herb samples (15%) exceeded the WHO 0.3 mg/kg guideline. No spice, tea, or coffee sample exceeded any limit for any metal. Probabilistic risk assessment showed total target hazard quotient (TTHQmax) below 1 for all four product categories at Polish per-capita consumption rates, and carcinogenic risk from arsenic below the USEPA 1×10⁻⁴ maximum-acceptable threshold.
 
 ## Key numbers

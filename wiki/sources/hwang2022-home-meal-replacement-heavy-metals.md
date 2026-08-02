@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # Hwang et al. 2022 - heavy metals in Korean home meal replacement products
 
+## Overview
+
 Hwang and colleagues measured lead, cadmium, total arsenic, tin, total mercury, and methylmercury in 480 home meal replacement (HMR) products purchased in Korea. The product panel included ready-to-eat, ready-to-heat, ready-to-cook, and ready-to-prepare foods. Some HMR subgroups included infant and toddler foods, but the paper reports occurrence by fat/liquid matrix phase rather than by infant-formula row, so this page routes only to the broad prepared-meals product row.
 
 The source does not provide brand-level values. The occurrence table is reported at matrix-phase level and is therefore compatible with the brand firewall.

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Duarte et al. 2022 — Cancer mortality and arsenic in drinking water, central Argentina
 
+## Overview
+
 A retrospective ecological study across 62 departments in five provinces of central Argentina examined whether arsenic concentrations in public drinking water correlated with cancer mortality in both sexes over two consecutive decades (1997–2006 and 2007–2016). Arsenic was measured using Standard Method 3120 Method B (ICP-OES equivalent), with an LOQ of 0.001 mg/L. Departments were classified as elevated-arsenic (>0.01 mg/L, i.e., above the WHO/Argentine permissible limit) or below-threshold. The study found statistically significant positive correlations between elevated arsenic exposure and total cancer mortality in both men (Spearman ρ = 0.713, p = 0.001) and women (ρ = 0.676, p = 0.003) for the first period, with similar but somewhat attenuated patterns in the second decade. Nitrates in drinking water did not show the same pattern independently.
 
 ## Key numbers

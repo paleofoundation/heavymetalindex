@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Kumar et al. 2022 - Lead in Bangladeshi agricultural foods
 
+## Overview
+
 Kumar et al. compiled published lead concentration data for agricultural foods commonly consumed in Bangladesh and assessed non-cancer and cancer risk. The source is a summary-rich literature survey, not a new sampling campaign, but it reports routeable food concentration values by commodity group, district, and food item. It is useful for Bangladesh geographic context and for source-pool sensitivity review, not for silent pooling into US-market benchmark rows.
 
 ## Key numbers

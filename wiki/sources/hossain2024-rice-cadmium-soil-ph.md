@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Hossain et al. 2024 - cadmium uptake in salt-tolerant rice genotypes
 
+## Overview
+
 Hossain and coauthors tested how soil pH and organic matter affected cadmium accumulation in rice grains grown in Cd-contaminated soil. This is controlled pot-experiment evidence for rice Cd drivers, not edible-salt occurrence evidence. The source is most useful for mitigation and source-apportionment logic because it links grain Cd to soil pH, organic matter, genotype, and soil-bioavailable Cd.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # ISO 8124-3:2020 — Safety of toys, Part 3: Migration of certain elements
 
+## Overview
+
 This is the third edition of the International Organization for Standardization (ISO) toy safety standard for soluble heavy-element migration, prepared by ISO/TC 181 Safety of toys and published 2020-03 as ISO 8124-3:2020(E). The standard specifies maximum acceptable levels and methods of sampling, extraction, and determination for the migration of eight elements — antimony, arsenic, barium, cadmium, chromium, lead, mercury, and selenium — from accessible toy materials and parts of toys. Maximum levels are stated in milligrams per kilogram of toy material and are reported as adjusted analytical results after subtraction of a per-element analytical correction. Three material categories receive distinct limit sets: any toy material other than modelling clay and finger paint, modelling clay, and finger paint. The standard's underlying derivation is a daily bioavailability budget per element combined with an assumed 8 mg/day average ingestion of toy material; the third edition's main technical changes versus ISO 8124-3:2010 are the introduction of two detailed dewaxing methods for sample preparation and the addition of an informative ICP-OES analytical method in Annex C. The 2020 edition consolidates ISO 8124-3:2010 with its 2014 and 2018 amendments into a single republished document.
 
 ## Key numbers

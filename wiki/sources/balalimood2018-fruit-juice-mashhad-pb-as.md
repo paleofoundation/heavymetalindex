@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Balali-Mood et al. 2018 - arsenic and lead in Mashhad commercial fruit juices
 
+## Overview
+
 This study measured Pb and total As in 50 commercial fruit-juice samples purchased from local markets in Mashhad, Iran during spring and winter 2016. The sampled matrices were grape, apple, orange, pomegranate, and multi-fruit juices. The key HMT&C signal is widespread Pb exceedance: the authors report that 83% of samples were above the Codex fruit-juice Pb maximum level of 30 ng/mL, while all measured total-As values were below the 10 ng/mL comparator used by the paper.
 
 ## Key numbers

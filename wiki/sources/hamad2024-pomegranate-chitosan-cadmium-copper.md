@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Hamad and Ibrahim 2024 - Pomegranate and chitosan composites for Cd/Cu adsorption
 
+## Overview
+
 Hamad and Ibrahim fabricated two bio-based adsorbent composites, CS@Fe-PA and MgO@Pp, and tested their removal of cadmium and copper ions from aqueous solutions. This is mitigation and wastewater-remediation evidence with extractable adsorption efficiencies and capacities; it is not consumer-product occurrence evidence.
 
 ## Key numbers

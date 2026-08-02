@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Khan et al. 2007 - metals in Withania somnifera from Pakistan
 
+## Overview
+
 Khan, Ahmad, and Rahman measured chromium, lead, copper, cadmium, iron, nickel, and manganese in *Withania somnifera* plant parts collected from three locations in N.W.F.P./Peshawar Valley, Pakistan. The paper is occurrence evidence for botanical raw material used in traditional medicine, with paired soil measurements as collection-site context. The source reports total elemental metals by atomic absorption spectrophotometry; chromium is total Cr, not Cr-VI.
 
 ## Key numbers

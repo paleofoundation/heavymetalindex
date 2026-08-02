@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Carey et al. 2015 — Percolating cooking water removes up to 85% of inorganic arsenic from rice
 
+## Overview
+
 This PLOS ONE study tested three percolating-cooking approaches against the conventional absorption method for removing inorganic arsenic (iAs) from rice: (1) a laboratory cooking experiment at water-to-rice ratios of 3:1, 6:1 and 12:1 under reflux to capture evaporative losses; (2) a Soxhlet apparatus where cooking water was continuously recycled through distilled steam; and (3) an off-the-shelf domestic coffee percolator running near-boiling water through the rice. The 12:1 ratio removed an average 57±5% of iAs across all rice types; the Soxhlet method removed 59±8% (polished) and 69±10% (wholegrain); the coffee percolator removed 49±7% on average and up to 85% in the best individual sample. Dimethylarsinic acid (DMA) was not significantly reduced by any cooking method tested. Potassium was the only major mineral lost in substantial quantity (53% on coffee-percolator cooking).
 
 ## Key numbers

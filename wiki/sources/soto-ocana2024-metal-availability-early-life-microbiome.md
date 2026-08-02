@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Soto-Ocaña et al. 2024 — Metal availability shapes early-life microbial ecology and community succession
 
+## Overview
+
 This mBio research article from the Children's Hospital of Philadelphia / Penn / Vanderbilt collaboration shows that host-mediated nutritional immunity (calprotectin-driven Zn and Mn sequestration) shapes which bacterial taxa successfully colonize the infant gut early in life, and that formula-fed infants harbor markedly higher gastrointestinal metal levels than breastfed infants with measurable consequences for microbial community structure. The authors document that calprotectin (the dominant metal-chelating host protein) is highly abundant in infants; that early-colonizer taxa (Enterococcus, Enterobacteriaceae, Bacteroides) are highly resistant to experimental metal starvation in culture while Lactobacillus is highly susceptible; and that formula-fed infants with high gastrointestinal metal levels harbor distinct microbial communities from breastfed infants. The findings establish that host nutritional immunity and dietary metal availability are upstream determinants of infant gut microbiome assembly and succession.
 
 ## Key findings

@@ -26,6 +26,8 @@ updated: 2026-06-11
 
 # Karimi and Ziarati 2015 - Heavy metals in nail polishes sold in Tehran
 
+## Overview
+
 Karimi and Ziarati measured Cd, total As, total Cr, Pb, and Ni in 150 nail-polish samples purchased from Tehran beauty shops in 2014. The sample frame covered 13 colours and products made in several countries. This is direct lane a1 occurrence evidence for leave-on manicuring preparations, with brand names stripped under the Part 12 firewall.
 
 ## Key numbers

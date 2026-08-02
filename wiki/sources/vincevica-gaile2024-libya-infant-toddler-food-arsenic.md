@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Vincevica-Gaile et al. 2024 - Total arsenic in commercial infant and toddler foods in Libya
 
+## Overview
+
 Vincevica-Gaile and colleagues measured total arsenic in 36 commercial infant/toddler food samples purchased in Libya, grouped by label-declared cereal mixture, wheat, or rice composition. The highest average concentrations were reported in rice-containing infant/toddler foods, but the paper measured total arsenic only and did not speciate inorganic arsenic.
 
 ## Key numbers

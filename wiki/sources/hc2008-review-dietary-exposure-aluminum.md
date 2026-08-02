@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # Health Canada 2008 — Review of dietary exposure to aluminum (Q&A overview)
 
+## Overview
+
 In the wake of the 2006 Joint FAO/WHO Expert Committee on Food Additives (JECFA) re-evaluation of aluminum toxicology and its associated reduction of the Provisional Tolerable Weekly Intake (PTWI), Health Canada's Bureau of Chemical Safety (BCS) initiated a review of aluminum in foods available in Canada. This archived Canada.ca page is the public-facing Q&A overview that accompanies the BCS industry-information request documented separately in `hc2008-aluminum-food-additives-industry-request.md`. The Q&A frames why the review was initiated, how aluminum enters the Canadian food supply (naturally occurring background, aluminum-containing food additives, and migration from cookware/packaging), how Canadian additive permissions are administered (pre-clearance, Good Manufacturing Practice convention, numerical maximum levels), how dietary exposure is monitored (Canadian Total Diet Study), and what health effects are associated with aluminum exposure at the population level. The page also notes a parallel Health Canada/Environment Canada review of aluminum under the Canadian Environmental Protection Act, 1999 (CEPA 1999) Priority Substances framework. The page is archived ("we have archived this page and will not be updating it"; Date modified 2025-04-02 reflects formatting, not content) and is preserved here as the Canadian regulatory communication record of how Health Canada explained the 2006 JECFA-triggered aluminum review to the public.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bielecka 2021 - Toxic elements in nuts
 
+## Overview
+
 Bielecka and colleagues measured arsenic, cadmium, lead, and mercury in 120 edible nut samples available on the Polish market. The paper reports values by nut subgroup and evaluates dietary risk indicators. Arsenic and mercury are total-element measurements; the paper does not report inorganic arsenic or methylmercury speciation.
 
 ## Key numbers

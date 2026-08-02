@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang et al. 2025 — Concave nanogap SERS sensor for Hg, Pb, and Cd detection
 
+## Overview
+
 This paper reports the fabrication of a concave-nanogap nanostructure functionalized with aptamers for surface-enhanced Raman scattering (SERS) detection and in situ imaging of mercury (Hg2+), lead (Pb2+), and cadmium (Cd2+) ions. The sensor exploits the intense electromagnetic field enhancement within the nanogap "hot spot" to achieve sub-nanomolar detection limits. Applications are demonstrated in spiked water samples, herbal plant extracts, and zebrafish as a biological matrix, but no occurrence measurements of actual heavy metal concentrations in food matrices are reported.
 
 ## Key numbers

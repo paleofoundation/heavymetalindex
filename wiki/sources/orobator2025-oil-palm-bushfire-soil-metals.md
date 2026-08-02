@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Orobator 2025 - Bushfire effects on oil-palm plantation soil metals
 
+## Overview
+
 Orobator compared Pb, Cd, Co, Cr, Ni, As, and V in unburnt and burnt oil-palm plantation topsoil in Edo State, Nigeria. This is supply-chain pathway and source-attribution context for plantation soil disturbance, not palm-oil occurrence evidence.
 
 ## Key numbers

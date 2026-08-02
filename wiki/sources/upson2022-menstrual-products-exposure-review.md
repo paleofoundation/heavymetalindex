@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Upson et al. 2022 - menstrual-product environmental chemical exposure review
 
+## Overview
+
 Upson, Shearston, and Kioumourtzoglou reviewed menstrual products as a potential source of environmental chemical exposure from an epidemiologic perspective. The paper is secondary evidence: it summarizes product-chemistry studies and three human biomonitoring studies, but it does not generate new product concentration data. Its metal-specific value is context around Singh et al. 2019 whole-blood cadmium, lead, and mercury in tampon users, not primary tampon occurrence.
 
 ## Key numbers

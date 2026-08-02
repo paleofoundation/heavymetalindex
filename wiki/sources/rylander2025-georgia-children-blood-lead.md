@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Rylander et al. 2025 — Blood lead levels in children aged 5–7, Republic of Georgia
 
+## Overview
+
 This surveillance study measured blood lead levels (BLL) in 1,635 Georgian children aged 5–7 years using volumetric absorptive microsampling (VAMS). Approximately 39.8% of children had BLL ≥3.5 µg/dL (the US CDC reference value for the top 2.5th percentile). The study evaluated multiple predictors of BLL including housing characteristics, behavioral factors, and dietary exposures. Spice use emerged as a significant independent predictor: children in households reporting spice use had an odds ratio of 1.47 (approximately) compared to non-spice-using households, a finding consistent with the documented pattern of heavy metal contamination in imported spices. The study contributes to the broader evidence base linking spice consumption as a food-pathway lead exposure route.
 
 ## Key numbers

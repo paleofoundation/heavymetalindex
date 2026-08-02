@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Wang et al. 2019 - Dietary lead exposure in Guangzhou foods
 
+## Overview
+
 Wang and colleagues estimated dietary lead exposure for Guangzhou residents using lead concentrations from the local food safety risk monitoring system. The occurrence dataset included 6339 samples across 27 food categories collected in 2014-2017. The paper reports lead only; it does not measure arsenic, cadmium, mercury, chromium, or tin.
 
 ## Key numbers

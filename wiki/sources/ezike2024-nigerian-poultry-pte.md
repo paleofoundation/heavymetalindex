@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Ezike et al. 2024 - Arsenic, lead, and cadmium in Nigerian poultry products
 
+## Overview
+
 This study measured arsenic, lead, and cadmium in Nigerian poultry meat and egg fractions alongside antibiotic residues. It is routeable for poultry and egg occurrence evidence because it reports metal ranges and matrix-specific means.
 
 ## Key numbers

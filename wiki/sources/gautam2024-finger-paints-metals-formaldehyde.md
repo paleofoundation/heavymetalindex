@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2024 - formaldehyde and heavy metals in finger paints
 
+## Overview
+
 This ESR client report for Health New Zealand develops a generic health-risk assessment for children up to 3 years of age exposed to formaldehyde and heavy metals in finger paints. It is not a New Zealand occurrence survey, but it compiles published finger-paint concentration studies and EU Safety Gate/RAPEX recall examples, then models dermal plus oral exposure for 1-year-old and 2-3-year-old children. The report keeps the finger-paint matrix under toy/graphic-material regulation and uses maximum reported values for the exposure calculations, so the numbers below are secondary and conservative rather than a local market distribution.
 
 ## Key numbers

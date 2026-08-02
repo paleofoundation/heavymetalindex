@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # WA Ecology 2023 — Phase 1 testing of Pb, Cd, As in 20 lipsticks and powder foundations from Puget Sound retailers; formaldehyde testing of 40 hair products, lotions, and foundations
 
+## Overview
+
 This is a Washington State Department of Ecology legislative report prepared pursuant to ESSB 5693 (2022) Section 302(56), which appropriated $266,000 for Ecology — in consultation with the Department of Health and community/social-justice organisations — to identify cosmetic products marketed to or used by people of colour (adults and children) and to test those products for potentially harmful chemicals. The report covers Phase 1 of the work: laboratory analysis of 50 low-cost cosmetic products purchased from Puget Sound retail chains in July 2022 (with heavy-metal analysis on 20 of them: 10 lipsticks plus 10 powder foundations) at the Washington Department of Ecology Manchester Environmental Laboratory using EPA Method 6020B (ICP-MS) for Pb/Cd/As and EPA Method 8270E-SIM for total formaldehyde. The report also reviews company self-reported chemical-use data submitted under the Washington Children's Safe Products Act (CSPA) and the California Safe Cosmetics Act, and summarises 100+ prior product-testing studies in Appendix C. Phase 2 (ortho-phthalates and asbestos) was anticipated for June 2023 and is not in this report.
 
 ## Key numbers

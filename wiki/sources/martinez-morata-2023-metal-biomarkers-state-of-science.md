@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Martinez-Morata, Sobel, Tellez-Plaza, Navas-Acien, Howe, Sanchez 2023 — A state-of-the-science review on metal biomarkers
 
+## Overview
+
 This Current Environmental Health Reports state-of-the-science review by Martinez-Morata, Sobel, Tellez-Plaza, Navas-Acien, Howe, and Sanchez (Columbia University Mailman School of Public Health, Centro Nacional de Epidemiología Madrid, and collaborators) covers the current consensus on biomarkers of human metal exposure across blood, urine, hair, and nails for the regulated and emerging-concern toxic metals (Pb, Cd, As, Hg, Ni, Mn, Mo, U). The review is the most comprehensive recent synthesis of metal biomarker validity, kinetics, and interpretation across exposure assessment, epidemiology, and clinical applications. It is the canonical reference for choosing the right biomarker for a given metal-exposure question.
 
 ## Key conclusions

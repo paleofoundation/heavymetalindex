@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Akkaya 2025 - Marmara fishery-product metals
 
+## Overview
+
 Akkaya and colleagues measured Pb, Cd, Hg, total arsenic, and Cu in `625` fishery-product and mussel samples from the Marmara region of Türkiye. The study also assessed *Salmonella* spp. and *Listeria monocytogenes*, but the HMI-relevant occurrence evidence is the metal testing and risk modeling. Arsenic speciation is not analytically measured: the authors measured total arsenic and derived `Asin` by assuming it was `10%` of total arsenic.
 
 ## Key numbers

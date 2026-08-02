@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # SCCS 2023 — Notes of Guidance for the Testing of Cosmetic Ingredients (12th Revision, SCCS/1647/22)
 
+## Overview
+
 This is the canonical EU regulatory-science methodology document for safety evaluation of cosmetic ingredients under Regulation (EC) No 1223/2009. The 12th revision, adopted 15 May 2023, supersedes SCCS/1628/21 and consolidates the SCCS framework for hazard identification, dose-response assessment, external and internal exposure assessment, MoS calculation, and population-specific risk evaluation including children. For the Heavy Metal Index, it is the regulatory backbone of how dermal, oral, and inhalation exposure to trace heavy-metal contaminants in cosmetic ingredients is parameterised, aggregated, and compared to toxicological reference values in the EU; it also fixes the default child body weights, retention factors, surface areas, and product-category exposure assumptions that any pediatric-cosmetic safety-evaluation cross-walk must inherit.
 
 ## Key numbers

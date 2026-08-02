@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Rahim et al. 2020 — Toxic heavy metals in widely consumed fruits, Pakistan
 
+## Overview
+
 This primary study measured chromium, cobalt, nickel, cadmium and lead in 11 commonly consumed fruits (apple, apricot, banana, cherry, grapes, guava, lemon, mango, orange, peach and pomegranate) collected from 28 markets across Khyber Pakhtunkhwa (KPK) province in Pakistan, a predominantly mountainous region with limited industrialisation and historically light pesticide use. All concentrations are reported on a dry-weight basis and every fruit×metal mean falls well below the WHO maximum permissible limits the authors cite (Cr 2.3, Co 50, Ni 70, Cd 0.1, Pb 0.3 mg kg⁻¹ DW). The authors attribute the low loadings to the region's low industrial footprint and frame the dataset as a low-contamination baseline for these fruit commodities.
 
 ## Key numbers

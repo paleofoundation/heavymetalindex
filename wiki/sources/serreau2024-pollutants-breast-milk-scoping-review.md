@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This scoping review examined the persistent presence of POPs (PCBs, PFASs, organochlorine pesticides, halogenated flame retardants, dioxins/furans, PAHs, DDT, PBDEs) and heavy metals in breast milk. MEDLINE and Google Scholar were searched from 1995 to June 2023; 341 primary studies were identified and 54 were selected via PRISMA screening. The review is primarily focused on organic pollutants, with heavy metals as a secondary concern. Table 1 cites mixed food and water reference values for Pb and Cd; it does not establish breast-milk-specific regulatory limits. The review situates breast milk contamination within the 'One Health' concept, noting that breast milk quality serves as an indicator of overall environmental health, and concludes that breastfeeding remains WHO-recommended for the first six months of life despite the pollutant load.
 
 ## Key numbers

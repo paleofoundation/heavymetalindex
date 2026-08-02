@@ -28,6 +28,8 @@ audience: [regulator, educator, app]
 
 # Altmaier 2021 - big-four metals in cannabis flowers
 
+## Overview
+
 Altmaier describes an ICP-MS workflow for arsenic, cadmium, mercury, and lead in *Cannabis sativa* plant material, using three industrial-hemp flower varieties purchased from a German drugstore. The paper is a trade-publication technical feature rather than a peer-reviewed market survey, but it prints concentration tables for dried hemp flowers and separated plant parts. Chromium and nickel values are also reported as milling-contamination diagnostics, so those values should not be pooled with product occurrence without preserving the milling method.
 
 ## Key numbers

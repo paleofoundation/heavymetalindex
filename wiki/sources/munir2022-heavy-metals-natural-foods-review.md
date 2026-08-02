@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Munir et al. 2022 — Heavy metal contamination of natural foods: a review (Sustainability)
 
+## Overview
+
 This open-access narrative review in MDPI *Sustainability* surveys the literature on heavy metal contamination in plant-based foods (cereals, root and leafy vegetables, fruits), focusing on the five metals the authors treat as the most relevant for dietary toxicity — arsenic, cadmium, lead, mercury, and chromium — with additional sections on nickel and iron. It is structured in three blocks: a per-metal toxicology block (mechanisms of action, target organs, carcinogenicity), a per-crop occurrence block reporting concentration ranges cited from prior studies for rice, wheat, potato, tomato, lettuce, cabbage, carrot, avocado, orange, pawpaw, and pineapple, and a biomarkers block covering internal-dose, biologically-active-dose, and susceptibility biomarkers. The authors retrieved literature from Science Direct, PubMed, Google Scholar, and the Directory of Open Access Journals; no systematic-review protocol (PRISMA, defined inclusion/exclusion criteria, risk-of-bias assessment) is reported. The paper makes no primary measurements and presents no new occurrence data — every concentration value in the body is paraphrased from a cited secondary source.
 
 ## Key numbers

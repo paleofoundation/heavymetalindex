@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Bodur et al. 2023 - Inorganic arsenic speciation method for olive oil
 
+## Overview
+
 Bodur et al. developed a spray-assisted preconcentration method coupled to HPLC, continuous-flow hydride generation, and FAAS for inorganic arsenic speciation in olive oil. The real-sample portion tested two Istanbul-market olive oil samples and reported no detectable arsenite or arsenate in either sample. The paper is therefore useful as method-validation and censored olive-oil evidence: it supports non-detect status under the stated method, not a measured concentration distribution.
 
 ## Key numbers

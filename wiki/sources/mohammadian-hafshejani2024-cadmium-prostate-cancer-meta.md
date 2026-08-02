@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mohammadian-Hafshejani et al. 2024 — Cadmium exposure and prostate cancer risk: systematic review and meta-analysis
 
+## Overview
+
 This systematic review and dose-response meta-analysis pooled 16 observational studies to examine the relationship between cadmium exposure and prostate cancer incidence. Searches covered ISI Web of Science, Cochrane, Science Direct, Scopus, PubMed, and Google Scholar up to May 2022. The authors note that dietary exposure to cadmium is the primary route for most people, occurring through contaminated cereals, potatoes, vegetables, and drinking water. The pooled dose-response analysis found a modest and non-statistically significant positive association: odds ratios of 1.03 (95% CI 0.95–1.12), 1.12 (0.99–1.26), and 1.16 (0.79–1.70) for the second, third, and fourth quartiles of Cd exposure vs. the first quartile, respectively. Publication bias was not detected (Begg's and Egger's tests non-significant across quartiles). The authors conclude that Cd exposure leads to a non-significant increase in prostate cancer risk.
 
 ## Key numbers

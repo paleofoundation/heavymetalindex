@@ -24,6 +24,8 @@ updated: 2026-05-09
 
 # Chandravanshi, Shiv, Kumar 2021 — Developmental toxicity of cadmium in infants and children: a review
 
+## Overview
+
 This Environmental Analysis Health and Toxicology systematic review by Chandravanshi, Shiv, and Kumar (Indian forensic-science institutions: Faridabad, Greater Noida, Ghaziabad) synthesizes the human and animal literature on developmental toxicity of cadmium during in-utero and early-life exposure in infants and children. The review covers organ-system endpoints (kidneys, liver, heart, nervous system) and identifies the developmental windows during which cadmium exposure produces persistent effects. It is the most-recent comprehensive pediatric-focused Cd developmental toxicology review in the loaded corpus and is the foundational citing reference for HMTc Cd-threshold rationale targeting infant and child populations.
 
 ## Key conclusions

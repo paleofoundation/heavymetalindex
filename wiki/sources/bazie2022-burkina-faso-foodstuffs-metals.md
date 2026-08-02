@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Bazie et al. 2022 - trace metals in raw foodstuffs in Burkina Faso
 
+## Overview
+
 Bazié and coauthors evaluated the contents of nine metallic trace elements (Fe, Zn, Mn, Co, Cd, Pb, Cu, Ni, Cr) in five major raw foodstuffs (rice, maize, peanut, tomato, dried fish) collected from open markets across five Burkinabé cities. The data are jurisdiction-specific to Burkina Faso open-market supply and reflect local agricultural and storage conditions; cross-market pooling should be evaluated case-by-case.
 
 ## Key numbers

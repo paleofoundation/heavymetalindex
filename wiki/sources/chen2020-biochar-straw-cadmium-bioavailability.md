@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Chen et al. 2020 — Biochar and crop straws on cadmium bioavailability in contaminated soil
 
+## Overview
+
 This pot study compared biochar and crop straws (peanut vine and rice straw) as soil amendments for immobilizing cadmium in contaminated soil, using peanut as the test plant. It is upstream agronomic-mitigation mechanism evidence on cadmium bioavailability and soil-to-plant transfer; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Domagalska et al. 2025 - Heavy metals in instant coffee beverages
 
+## Overview
+
 This Polish market study measured Cd, Pb, Ni, Zn, total As, and Cr in 50 instant coffee beverage products. It is routeable for instant-coffee occurrence evidence because the paper reports concentrations and health-risk calculations for coffee beverages.
 
 ## Key numbers

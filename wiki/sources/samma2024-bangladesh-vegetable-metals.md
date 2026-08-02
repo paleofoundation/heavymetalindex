@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Samma et al. 2024 — Heavy metals in soil and vegetables across Bogura district, Bangladesh
 
+## Overview
+
 Copper (Cu), chromium (Cr), and lead (Pb) were quantified by atomic absorption spectrophotometry in five vegetable types (potato, tomato, chili pepper, cabbage, cauliflower) and paired surface soils from six upazilas in the Bogura district, Bangladesh's most industrialized northern city. While Cu concentrations in all matrices remained within BFSA and FAO/WHO safe limits, Cr and Pb in vegetables substantially exceeded permissible levels, with Pb exhibiting a contamination factor greater than 6 (severe contamination category) across most sites. Carcinogenic (CHR > 10⁻⁴) and non-carcinogenic (HI > 1) health risk indices indicated significant risk to consumers across all six upazilas.
 
 ## Key numbers

@@ -31,6 +31,8 @@ updated: 2026-05-18
 
 # FSANZ 2019 - 25th Australian Total Diet Study
 
+## Overview
+
 Food Standards Australia New Zealand's 25th Australian Total Diet Study measured agricultural/veterinary chemicals and metal contaminants in a broad Australian food basket. For metals, FSANZ analysed 508 prepared/as-consumed composite samples representing 88 food types purchased across all Australian states and territories in two sampling windows (13-24 May 2013 and 17-28 February 2014). The metals chapter reports total arsenic, inorganic arsenic, cadmium, lead, total mercury, inorganic mercury, and methylmercury occurrence and dietary-exposure estimates, then compares relevant foods with Australia New Zealand Food Standards Code maximum levels.
 
 ## Key numbers

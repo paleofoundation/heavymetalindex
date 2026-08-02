@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Albals et al. 2021 — Multi-element ICP-MS in green and roasted coffee beans, Jordanian market
 
+## Overview
+
 This study determined concentrations of 22 elements including toxic metals (Pb, Cd, Al, Cr, Ni, U) and essential elements in 56 green and roasted coffee bean samples representing five origins (Brazil, Colombia, Ethiopia, Guatemala, Yemen) collected from the Jordanian market. ICP-MS analysis was performed following microwave-assisted acid digestion. Roasting was found to affect elemental concentrations differentially: some toxic metals increased on a dry-weight basis after roasting due to mass loss, while absolute content per bean was unchanged. Concentrations of all toxic metals were below EU maximum limits for contaminants in food.
 
 ## Key numbers

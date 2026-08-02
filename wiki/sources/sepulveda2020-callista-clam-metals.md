@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Sepulveda et al. 2020 - Metals in Callista clams from the Gulf of California
 
+## Overview
+
 This study measured trace metals in two wild populations of the squalid callista clam, Megapitaria squalida, from the southeastern Gulf of California. It is directly routeable for shellfish occurrence because the clam tissue values are reported by bay.
 
 ## Key numbers

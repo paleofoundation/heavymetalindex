@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pawlaczyk et al. 2021 - metallic impurities in eye shadows purchased in Poland
 
+## Overview
+
 Pawlaczyk et al. measured metallic impurities in 94 eye-shadow samples available on the Polish market, including products marketed for children over 3 years old. The study covers product type, consumer group, price range, color, manufacturer code, and country of production without requiring brand-level reporting in the wiki. Cd and Pb were the main regulatory exceedance signals: two samples exceeded the Polish Cd limit and one sample exceeded the Polish Pb limit.
 
 ## Key numbers

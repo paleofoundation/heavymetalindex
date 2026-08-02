@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Cobbett & Goldsbrough 2002 — Phytochelatins and metallothioneins: roles in heavy metal detoxification and homeostasis
 
+## Overview
+
 Cobbett (Department of Genetics, University of Melbourne) and Goldsbrough (Department of Horticulture and Landscape Architecture, Purdue University) review the two best-characterised classes of cysteine-rich heavy-metal-binding ligands in plant cells: the phytochelatins (PCs), enzymatically synthesised peptides derived from glutathione, and the metallothioneins (MTs), gene-encoded polypeptides. The review covers PC structure and biosynthesis, the identification of PC synthase genes across plant, animal, and fungal taxa, regulation of PCS at the enzyme and gene-expression levels, vacuolar sequestration of PC-metal complexes, the role of sulfide in HMW complex formation, MT structural classification into four plant types (Type 1–4) based on cysteine arrangement, MT gene organisation in the Arabidopsis genome, MT protein characterisation, MT gene expression patterns, and the still-unresolved question of MT function in plants. The review is a comprehensive narrative synthesis at the time of completion of the Arabidopsis genome sequence; it is one of the canonical entry-points to the PC/MT plant biology literature. Its value to the wiki is biological background for the [[metals/cadmium]], [[metals/arsenic]], [[metals/mercury]], [[metals/lead]], [[metals/copper]], [[metals/zinc]], and [[metals/nickel]] pages, and for the [[mitigation/remediation-evidence]] section when it discusses phytoremediation as a research goal. The review reports no contamination occurrence data in any food matrix.
 
 ## Why this matters

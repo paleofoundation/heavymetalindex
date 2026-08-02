@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # Chiger & Lynch (Abt/HBBF) 2017 — IQ loss and monetized benefits of reducing iAs in infant rice cereal
 
+## Overview
+
 Abt Associates prepared this December 2017 report for Healthy Babies Bright Futures to quantify avoided IQ loss and the monetized economic benefit of reducing inorganic arsenic exposure from infant rice cereal and broader rice consumption in U.S. children aged 0–6. The report does not generate primary measurements; it pools published distributions of iAs in infant rice cereal (FDA 2016a/c, FDA Total Diet Study, Consumer Reports 2012/2014, Juskelis et al. 2013, Brockman & Brown 2012, Karagas et al. 2016, Carignan et al. 2016, Shibata et al. 2016) with consumption data (NHANES/WWEIA, FITS 2002/2008, Karagas et al. 2016) and applies five concentration-response functions (Hamadani 2011 log-linear and linear; Wasserman 2004 quadratic and linear-extrapolation; Wasserman 2007 log-linear) drawn from Bangladeshi child cohorts to estimate IQ point loss and dollar value across the U.S. cohort. Headline findings: replacing all rice and rice products with arsenic-free alternatives in U.S. children 0–6 would avoid more than 9 million IQ points per year and yield $12–18 billion in additional annual earnings; replacing infant rice cereal specifically would avoid almost 1 million IQ points per year and yield $1.2–1.8 billion in additional earnings. Both headline ranges in the Executive Summary are drawn from the Wasserman et al. (2004) quadratic / linear-extrapolation CRFs at the 0 ppb (full replacement) scenario; the report's wider per-CRF sensitivity envelope is much larger (see Key numbers).
 
 ## Key numbers

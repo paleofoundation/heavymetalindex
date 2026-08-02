@@ -35,6 +35,8 @@ updated: 2026-06-03
 
 # EFSA CONTAM 2010 — Scientific Opinion on Lead in Food
 
+## Overview
+
 The EFSA Panel on Contaminants in the Food Chain Scientific Opinion on Lead in Food, adopted 18 March 2010 (re-published 2013 with editorial corrections), pooled 94,126 quantified analytical results submitted by 14 Member States and Norway over 2003–2009 and concluded that the prior JECFA provisional tolerable weekly intake of 25 µg/kg body weight per week was no longer appropriate because the available human data show no threshold for the critical lead-induced effects. The Panel derived three Benchmark Dose Lower Confidence Limits from blood lead concentrations and identified developmental neurotoxicity in young children, increased systolic blood pressure in adults, and chronic kidney disease in adults as the critical endpoints. Estimated dietary exposures in European 1–7 year-old children and in some high-consumer adults sit at or above the BMDL intake values, so the possibility of effects in those subgroups cannot be excluded. This opinion is the literature backbone behind EU contaminant limits for lead and supplies the BMDL₀₁ of 12 µg/L B-Pb (≈ 0.50 µg/kg b.w. per day dietary equivalent) used as the children's neurodevelopmental reference point throughout European regulatory practice.
 
 ## Key numbers

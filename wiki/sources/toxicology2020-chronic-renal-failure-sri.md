@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Bandara et al. 2010 — Dietary cadmium and endemic chronic renal failure in Sri Lanka
 
+## Overview
+
 An endemic form of chronic renal failure (CRF) emerged in 2002 in the North Central Province of Sri Lanka, concentrated among lowland rice farmers. This study identifies elevated dietary cadmium from triple superphosphate (TSP) fertilizer as the source, with cadmium contamination accumulating through irrigation water, soils, and staple foods including rice, fish, and pulses. The authors estimate dietary cadmium intake between 15–28 µg/kg body weight per week, far exceeding WHO guidelines, and link this exposure pattern directly to the CRF epidemic affecting rural farming communities.
 
 ## Key numbers

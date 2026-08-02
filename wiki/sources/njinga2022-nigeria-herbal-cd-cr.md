@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This study measured cadmium and chromium concentrations in three medicinal and food-use herbal plants consumed as tea or food in Northern Nigeria: baobab (Adansonia digitata), guava (Psidium guajava), and papaya (Carica papaya). Samples were collected from three northern Nigerian states (Borno, Jigawa, Kano), analyzed by a validated method, and assessed for cancer and non-cancer health risk using hazard quotient and incremental lifetime cancer risk (ILCR) approaches. The paper presents Cd and Cr as the primary chemical carcinogens of concern in these commonly consumed botanicals.
 
 ## Key numbers

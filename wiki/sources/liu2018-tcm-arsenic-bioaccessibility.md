@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Liu et al. 2018 - arsenic in traditional Chinese medicines
 
+## Overview
+
 Liu and colleagues measured total arsenic, arsenic species, and arsenic bioaccessibility in 84 traditional Chinese medicines purchased in Beijing. The study included Chinese patent medicines (CPMs), Chinese herbal medicines (CHMs), and three realgar-containing CPMs. The main text reports class-level ranges and selected sample identities; supplementary sample tables are referenced but were not present in the extracted PDF, so this page does not reconstruct per-sample values from figures.
 
 ## Key numbers

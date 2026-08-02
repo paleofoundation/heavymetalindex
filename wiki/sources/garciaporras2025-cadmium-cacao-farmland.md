@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # García Porras et al. 2025 — Cadmium in cacao farmland: sources, uptake, and mitigation
 
+## Overview
+
 This review consolidates current knowledge on cadmium (Cd) sources in cacao agroecosystems, the factors driving Cd uptake into cacao beans, and mitigation strategies, with particular attention to the challenge posed by the EU's 2019 Cd limits for cocoa products (Regulation EU No. 488/2014, setting 0.10 and 0.80 mg Cd/kg dry matter depending on cacao content). Latin American cacao-producing soils — particularly in Colombia, Ecuador, Peru, Costa Rica, and Honduras — naturally contain elevated Cd due to geogenic sources (volcanic parent materials, sedimentary rocks) compounded by anthropogenic inputs (phosphate fertilizers, mining). The review synthesizes a meta-analysis of 785 paired soil-plant data points showing that soil total Cd, lower pH, and reduced soil organic carbon are the primary predictors of bean Cd concentration, and discusses promising mitigation approaches including beneficial element amendments (Mn, Zn), low-Cd accumulator genotype selection, and rhizosphere microbiota manipulation.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Wu 2024 — Heavy metals and arsenic in cereals, vegetables, and legumes from local markets of Jiaozuo, China, with USEPA health-risk assessment
 
+## Overview
+
 Single-author study from Henan Polytechnic University analysing eight elements (Pb, Cd, Cr, total As, total Hg, Ni, Cu, Zn) in 244 retail food samples collected across cereals (n=78), legumes (n=52), and vegetables (n=114) from supermarkets, farmers' markets, and one wholesale market in Jiaozuo City, Henan Province. Quantification on a fresh-weight basis using ICP-MS for Pb, Cd, Cr, As, Ni, Cu, and Zn (Varian 810-MS) and a Direct Mercury Analyzer DMA-80 for total Hg. Exceedance against the GB 2762-2022 Chinese food-hygiene limits was greatest for Ni in legumes (75.47%) and Hg in cereals (44.16%); Cr in cereals (2.60%), Pb in cereals (3.90%), Hg in cereals (44.16%), Ni in cereals (3.90%), Hg in vegetables (0.90%), Zn in vegetables (17.12%), Cr in legumes (16.98%), and Pb in legumes (13.21%) were the other reported exceedances, with Cr in soybeans alone reaching 42.86%. USEPA TTHQ for the three combined food groups exceeded 1 for both children (4.619) and adults (2.518); cumulative TCR remained below 1×10⁻⁴ for both (8.92×10⁻⁶ children, 2.65×10⁻⁶ adults). Cereals and Hg in rice were the dominant non-carcinogenic risk contributors. Single-region, single-sampling-campaign, single-author study; results characterise Jiaozuo retail availability and are not directly transferable to other Chinese regions without context.
 
 ## Key numbers

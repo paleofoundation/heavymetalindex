@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # Health Canada 2020 — Guideline Technical Document, Cadmium in drinking water
 
+## Overview
+
 This Health Canada Guideline Technical Document, prepared in collaboration with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) of 0.007 mg/L (7 µg/L) for total cadmium in drinking water based on a sample taken at the consumer's tap. The guideline replaces earlier Canadian drinking-water cadmium guidance and is derived from kidney effects (renal tubular damage measured by β2-microglobulinuria) as the critical health endpoint, using the JECFA (2011) tolerable monthly intake of 25 µg/kg body weight per month as the toxicological anchor. The document is the operative federal-level reference for cadmium in Canadian drinking-water programs and incorporates an extensive Canadian provincial/territorial occurrence dataset, an analytical-method inventory, treatment-technology review (with emphasis on galvanized-steel plumbing as the dominant source), and an international comparison with U.S. EPA, Australian NHMRC, WHO, and EU drinking-water values.
 
 ## Key numbers

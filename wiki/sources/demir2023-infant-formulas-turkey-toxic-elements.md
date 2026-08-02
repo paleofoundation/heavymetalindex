@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Demir and Agaoglu 2023 - toxic elements in powdered infant formulas, Turkiye
 
+## Overview
+
 This study measured eleven elements (Al, Mn, Co, Cu, Zn, total As, Se, Cd, Sn, Pb, and total Hg) in 72 powdered infant formula samples from the Turkish market by ICP-MS and estimated age-group dietary intakes. The sample set is entirely powdered formula and largely cow-milk based, with groups covering standard infant formula, follow-on formula, growing-up milk, premature formula, low-birth-weight formula, and specialty formulas.
 
 ## Key numbers

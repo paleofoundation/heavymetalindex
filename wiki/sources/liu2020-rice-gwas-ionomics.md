@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Liu et al. 2020 — GWAS of heavy metal ionomics in USDA mini-core rice collection
 
+## Overview
+
 Liu et al. performed genome-wide association studies (GWAS) of sixteen ionomic traits — including cadmium (Cd), arsenic (As), nickel (Ni), and manganese (Mn) concentrations in rice grain — across 191 accessions from the USDA Rice Mini-Core Collection, grown under both flooded and unflooded conditions at Mississippi State University. Using 3.2 million SNPs and four GWAS methods (GLM, MLM, MLMM, FarmCPU), the study identified 106 QTLs for flooded ionomics, 47 for unflooded ionomics, and 97 for agronomic traits, of which approximately 80% were novel. The study establishes the genetic architecture underlying varietal differences in grain metal accumulation, providing a foundation for marker-assisted breeding toward lower-Cd, lower-As rice cultivars. Key candidate genes for Cd accumulation in grain were identified in QTL regions, consistent with known transporters such as OsNramp5 and OsHMA.
 
 ## Key numbers

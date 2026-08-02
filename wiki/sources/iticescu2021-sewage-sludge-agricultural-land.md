@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Iticescu et al. 2021 — Heavy metals in Galati sewage sludge for Romanian agricultural use
 
+## Overview
+
 A characterisation study of municipal sewage sludge from the Galati Wastewater Treatment Station (south-east Romania) intended for application as an agricultural soil amendment, sampled quarterly across 2017–2018 in eight sets (four undigested, four post-anaerobic-digestion). The authors monitored sludge pH, nutrients, and the three heavy metals required by national rules for agricultural reuse (Cr, Cu, Ni), and characterised the two soil types receiving the sludge before and after calcareous amendment. Reported metal concentrations in sludge and in receiving soils are well below the Romanian and EU regulatory ceilings for agricultural land application; the authors attribute this to the loss of heavy industry from the Galati municipal catchment after 1990.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Winiarska-Mieczan et al. 2022 - cadmium and lead in instant coffee products
 
+## Overview
+
 This Polish market-basket study measured cadmium and lead in 49 instant coffee, instant coffee drink, and coffee-substitute products purchased in eastern Poland. The study is direct occurrence evidence for instant coffee products, and contextual evidence for coffee substitutes that do not yet have a dedicated HMT&C product page. The source anonymized product samples by code; this wiki page reports only category-level aggregate values.
 
 ## Key numbers

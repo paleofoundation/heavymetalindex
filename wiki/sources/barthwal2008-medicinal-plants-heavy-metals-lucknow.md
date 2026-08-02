@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Barthwal et al. 2008 - medicinal-plant metals in Lucknow
 
+## Overview
+
 Barthwal, Nair, and Kakkar measured Pb, Cd, Cr, and Ni in five medicinal-plant species and paired soils from three environmentally different sites in Lucknow, India. The paper is occurrence evidence for botanical raw material used in traditional medicine, with soil measurements as collection-site context. The exact plant values available in extracted text are limited because many results are plotted in figures rather than printed as tables.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-06-22
 
 # Commission Regulation (EU) 2024/1987 — Maximum Levels of Nickel in Certain Foodstuffs
 
+## Overview
+
 Commission Regulation (EU) 2024/1987, adopted at Brussels on 30 July 2024 and published in the Official Journal L series on 31 July 2024, amends Commission Regulation (EU) 2023/915 by inserting a complete nickel entry into the contaminants maximum-level framework for food. It is the binding instrument that, for the first time, sets harmonised European Union maximum levels for nickel in food. The legal basis is Article 2(3) of Council Regulation (EEC) No 315/93, and the regulation was signed for the Commission by President Ursula von der Leyen.
 
 This is the operative maximum-level instrument that earlier HMI pages had to infer from recital 7 of the companion monitoring act, [[sources/eu-2024-907-nickel-monitoring-recommendation|Commission Recommendation (EU) 2024/907]]. The monitoring recommendation (adopted 22 March 2024) predates this regulation by four months; its recital 7 reads in the present perfect ("maximum levels have been established for nickel in various foods in Commission Regulation (EU) 2023/915") because the two instruments were drafted as one legislative package, but the binding maximum levels were not actually inserted into Annex I to Regulation (EU) 2023/915 until this amending regulation was adopted.

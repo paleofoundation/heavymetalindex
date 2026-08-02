@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Yu 2023 - Zhejiang beans toxic elements
 
+## Overview
+
 Yu, Pan, and Han measured arsenic, cadmium, chromium, mercury, and lead in `692` dried bean samples from local commercial markets in Zhejiang Province, southeast China. The bean panel included black bean, broad bean, mung bean, soybean, red bean, kidney bean, and pea. The occurrence measurements are total/unspecified arsenic and total/unspecified mercury; the paper's health-risk model estimates inorganic arsenic from total arsenic using a `72%` assumption from prior crop literature, but it does not measure inorganic arsenic speciation in these bean samples.
 
 ## Key numbers

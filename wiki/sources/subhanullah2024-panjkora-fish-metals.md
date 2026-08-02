@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Subhanullah et al. 2024 - Heavy metals in River Panjkora fish
 
+## Overview
+
 Subhanullah and colleagues measured arsenic, cadmium, iron, manganese, lead, and zinc in River Panjkora water and in the freshwater fish Crossocheilus diplocheilus. The source is not infant-formula evidence despite the auto-fetched filename; its routeable food matrix is freshwater fish muscle. The abstract reports lead as the highest fish concentration and arsenic as the lowest fish concentration.
 
 ## Key numbers

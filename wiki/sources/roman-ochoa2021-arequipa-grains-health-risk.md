@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Román-Ochoa et al. 2021 — Heavy metal contamination in Arequipa region grains and processed foods
 
+## Overview
+
 This is the first published report of heavy metals in grains and processed grain products from Arequipa, Peru's major southern agricultural region. The study measured As, Cd, Sn, Pb, and Hg in 18 districts across Arequipa, plus processed foods from Arequipa city markets, using ICP-MS and CVAAS. The most concerning finding is that Pb concentrations in extruded, toasted, and flour-based processed products were dramatically elevated (mean 2.12 mg/kg) compared to raw grain averages (mean 0.03 mg/kg), with the elevation attributed to processing conditions. Polished and paddy rice As concentrations were within CAC general standards (0.2 mg/kg for cereals), but health risk assessment using uncertainty analysis found unacceptable cancer risk (above 10⁻⁴) for the P₉₀ₜₕ of polished rice and quinoa products.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study measured Pb, Cd, tHg, and tAs in breast milk from 209 Korean lactating mothers, assessed potential infant health risks using estimated daily intake (EDI) and hazard quotient (HQ), and identified maternal dietary factors associated with heavy metal concentrations via multiple linear regression. Cadmium was the most frequently detected metal (99% of samples), followed by Hg (97%), As (89%), and Pb (79%). The authors employed age-specific infant body weight and milk consumption to refine the exposure model beyond single representative values. Arsenic was identified as the largest contributor to potential health risk. Dietary associations: Pb with legume and seaweed consumption; Cd with vegetables and seaweed; tHg with sugar intake; tAs with meat intake.
 
 ## Key numbers

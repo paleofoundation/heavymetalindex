@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Wei et al. 2025 — Cd and As in milled rice from karst Yunnan, field survey of 125 paired soil-rice samples
 
+## Overview
+
 This study measured cadmium (Cd) and total arsenic (tAs) concentrations in milled rice and paired paddy soils from 125 field sampling points in the Gejiu-Mengzi area of Yunnan Province, a karst region in southwestern China characterized by naturally elevated geochemical backgrounds for heavy metals. The primary research objective was to derive region-specific soil safety thresholds that perform better than the Chinese national screening values (RSVs) in neutral-to-alkaline karst soils, where the national one-size-fits-all standards produce false-positive misclassification rates of 52.0-66.4%. Rice grain Cd and tAs concentrations from the field survey are the food-matrix occurrence data the threshold derivation rests on.
 
 ## Key numbers

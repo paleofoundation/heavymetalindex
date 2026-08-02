@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ravalli et al. 2022 — Uranium and metal inequalities in US community water systems
 
+## Overview
+
 This large cross-sectional study estimated concentrations of ten metals in community water systems (CWSs) serving ~290 million Americans, using US EPA compliance monitoring records from 2006–2011 (2000–2011 for uranium). Uranium emerged as an under-recognized drinking water contaminant with the highest detection rate (63.1%) of all metals examined; 2.1% of CWSs exceeded the EPA MCL of 30 µg/L. Arsenic exceeded its MCL (10 µg/L) in 2.6% of CWSs. Elevated concentrations of uranium, chromium, barium, and selenium were concentrated in CWSs serving Semi-Urban Hispanic communities and CWSs relying on groundwater in the Central Midwest, highlighting environmental justice concerns.
 
 ## Key numbers

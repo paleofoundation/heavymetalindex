@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Onyena et al. 2024 — Lactational Metal Exposure in Sub-Saharan Africa vs Mediterranean Europe
 
+## Overview
+
 This systematic review and meta-analysis pooled data from 42 studies to compare breast milk concentrations of Cd, Pb, Hg, Se, and Fe between Sub-Saharan Africa and Mediterranean Europe, documenting dramatically higher toxic metal levels in SSA breast milk.
 
 ## Key numbers

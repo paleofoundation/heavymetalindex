@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Nischwitz and Pergantis 2006 - commercial kelp arsenic speciation
 
+## Overview
+
 Nischwitz and Pergantis analyzed 12 commercially available edible marine algal powders by ICP-MS total arsenic analysis and HPLC-ICP-MS / HPLC-ES-MS/MS arsenic-speciation methods. The products were kelp-style powders sold through United States and Canadian suppliers, with Ascophyllum, Laminaria, and Fucus materials represented. The occurrence-relevant results are total arsenic in the commercial powders and water-extractable arsenic species; total arsenic, arsenate, DMA, arsenobetaine, and arsenosugars are kept separate below.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Depa 2019 - Lead and cadmium in baby foods and cereal products
 
+## Overview
+
 This article reports lead and cadmium measurements in 63 baby food and cereal products. It is routeable for infant foods and infant cereals, but should be treated cautiously because the publication venue and metadata are weaker than standard food-contaminant journals.
 
 ## Key numbers

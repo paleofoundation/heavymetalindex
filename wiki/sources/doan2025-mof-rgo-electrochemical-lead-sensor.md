@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Doan et al. (2025) develop an electrochemical sensor for lead(II) (Pb2+) detection based on a composite of a bimetallic metal-organic framework (FeMg-BDC MOF) and reduced graphene oxide (rGO) deposited on a glassy carbon electrode. The MOF/rGO composite provides enhanced surface area and electrochemical activity for sensitive Pb2+ stripping analysis.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Bartels et al. 2023 — Heavy metals in canned fish, Cape Coast market, Ghana
 
+## Overview
+
 This study measured lead (Pb), zinc (Zn), iron (Fe), tin (Sn), manganese (Mn), and total mercury (tHg) in ten commercially available canned fish products from Cape Coast market in Ghana's Central Region. Products covered three species groups: mackerel (n=4 products), sardines (n=4 products), and tuna (n=2 products). The paper compared Pb, Sn, and tHg against source-cited EU Regulation No. 1881/2006 values and reported all analyte means below the comparator levels. The dataset is most useful for Pb, Sn, and tHg values across three commercially important canned fish species in a West African retail context.
 
 ## Key numbers

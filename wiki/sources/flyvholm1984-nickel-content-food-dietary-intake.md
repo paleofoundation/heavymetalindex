@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Flyvholm, Nielsen, Andersen 1984 — Nickel content of food and estimation of dietary intake
 
+## Overview
+
 This Zeitschrift für Lebensmittel-Untersuchung und -Forschung review from the Danish National Food Institute and the Danish Toxicology Centre is the foundational primary-data source for nickel concentrations in foods and dietary nickel intake estimation. The authors compiled 2,221 food samples from the post-1969 literature (when AAS flame/flameless or PIXE methods began producing reliable Ni values) plus their own National Food Institute analyses, then modeled the Danish average diet (2,099 g/person/day exclusive of drinking water, 3,250 kcal). The headline number: 150 µg Ni/person/day from the Danish average diet, with drinking water adding another 16 µg/day. By replacing average-diet items with high-Ni foods, total intake can climb to 900 µg/day or more, well within the 600 to 5,600 µg single-dose range that provokes hand eczema flare in nickel-sensitive patients per oral challenge. The paper introduces the load factor F (ratio between percent of total Ni intake and percent of total consumption) as a way to identify which foods drive intake disproportionately to their dietary weight.
 
 ## Key numbers

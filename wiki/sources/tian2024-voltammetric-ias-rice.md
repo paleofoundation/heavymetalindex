@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A voltammetric method for total inorganic arsenic (iAs) detection in rice was developed using screen-printed electrodes (SPEs) modified in situ with gold nanoparticles and L-cysteine, combined with magnetic composite interference removal. The primary analytical contribution is the method development, but the paper includes LC-ICP/MS measurements of iAs in 36 commercial rice samples sourced from five Chinese provinces — making it a genuine food concentration occurrence dataset for iAs in Chinese commercial rice.
 
 The method converts As(V) to As(III) via simultaneous ultrasonic extraction with L-cysteine in 5% HNO3, then detects As(III) by linear stripping voltammetry (LSV). Copper interference — a major challenge in rice matrices due to Cu being roughly 1000x more concentrated than As — is removed by carboxyl-functionalised magnetic composites. The LOD is 0.018 mg/kg and LOQ is 0.043 mg/kg (on a dry-weight basis, though the paper does not state whether concentrations are dry or wet weight; rice is typically reported on dry weight for regulatory comparison).

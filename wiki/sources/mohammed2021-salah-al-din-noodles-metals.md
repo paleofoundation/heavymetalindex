@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Mohammed et al. 2021 — Copper, cadmium, and lead in noodles from Salah Al-din markets
 
+## Overview
+
 Mohammed and colleagues measured mycotoxins, fungi, and selected heavy metals in ten noodle types collected from markets in Salah Al-din Governorate, Iraq. The heavy-metal occurrence portion reports per-sample copper and cadmium values in Figures 4 and 5 (n=10) plus the abstracted ranges, and a censored Pb result of less than 0.1 ppm in all ten samples. The paper reports total-element Cu, Cd, and Pb only; it does not report arsenic, mercury, chromium, or metal speciation.
 
 ## Key numbers

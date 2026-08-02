@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Oduro et al. 2023 - Heavy metals in cereal-based breakfast meals, Kumasi, Ghana
 
+## Overview
+
 Oduro et al. measured total As, Cd, Cr, Mn, Ni, and Pb in 54 locally produced cereal-based breakfast meals purchased from markets in the Kumasi Metropolis, Ghana. The sample set included breakfast cereals, biscuits, and bread types, grouped for reporting by cereal base: wheat, rice, maize, oats, and millet/sorghum. The paper also estimated dietary intake, hazard quotients, and cancer risk across infants, toddlers, children, adolescents, adults, and older adults, and attempted an in-vitro bioaccessibility screen.
 
 ## Key numbers

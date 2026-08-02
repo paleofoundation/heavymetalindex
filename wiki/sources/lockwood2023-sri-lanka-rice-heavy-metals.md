@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Lockwood et al. 2023 — Heavy metals in traditional Sri Lankan rice varieties
 
+## Overview
+
 This study measures toxic and essential element concentrations in 11 traditional Sri Lankan rice varieties from Anuradhapura district using laser ablation ICP-MS (LA-ICP-MS), which provides spatially resolved elemental analysis across the grain cross-section (bran, sub-bran, endosperm). The study is set in the context of CKDu (chronic kidney disease of unknown aetiology) in Sri Lankan agricultural communities, which has been hypothesized to involve cadmium exposure via rice consumption. Multiple traditional rice varieties with different processing states (brown, white) are assessed, including the Suwadel variety known for special cultural significance and elevated Cd accumulation.
 
 ## Key numbers

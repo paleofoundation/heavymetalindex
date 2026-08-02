@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Signes-Pastor et al. 2016 — Inorganic arsenic geographic variation in Iberian Peninsula paddy fields and commercial rice
 
+## Overview
+
 This Food Chemistry study characterized total arsenic (tAs) and inorganic arsenic (iAs) speciation across eight main rice-producing regions of the Iberian Peninsula (Andalucía, Aragón, Catalunya, Extremadura, Murcia, Navarra, Portugal, Valencia) using soil (n=40), shoot (n=40), field-collected grain (n=20), and commercial rice (n=144: 20 brown, 11 parboiled, 113 polished) samples. IC-ICP-MS speciation revealed significant regional differences in iAs in commercial polished rice: Extremadura/Portugal had the highest iAs (median 0.087–0.088 mg/kg), while Andalucía had the lowest (0.054 mg/kg). About 26% of commercial rice samples exceeded the EC permissible concentration for infant food production (0.100 mg/kg iAs). Soil arsenic had a geogenic/mining origin. Cadmium concentrations in rice grain were consistently low and near the LOD.
 
 ## Key numbers

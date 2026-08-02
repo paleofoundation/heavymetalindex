@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Bhat et al. 2022 - Long-Term Operation of Brick-Kilns Led Heavy Metal Contamination of Soil-Plant-Animal Continuum in Kashmir Himalayas
 
+## Overview
+
 This study measured Pb, Cd, and Cr through a soil-plant-animal continuum near brick kilns in Kashmir, including paddy straw, rice bran, and cow milk.
 
 ## Key numbers

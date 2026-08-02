@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Wang et al. 2020 - Lignin-residue biochar for heavy-metal remediation
 
+## Overview
+
 Wang and colleagues converted lignin-rich residue from a furfural manufacturing process into activated biochars and tested them as aqueous sorbents for Pb(II), Cd(II), and Cu(II). This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are biochar properties, adsorption kinetics, and isotherm capacities rather than concentrations in edible crops, ingredients, consumer products, or drinking water.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Pacor, Di Lorenzo, Martinelli, Lombardo, Di Gregoli, Mansueto, Rini, G. Corrocher, R. Corrocher 2003 — Double-blind placebo-controlled challenge with nickel salts in recurrent aphthous stomatitis
 
+## Overview
+
 This International Archives of Allergy and Immunology study from the University of Verona (Departments of Clinical and Experimental Medicine and Maxillofacial Surgery / Odontostomatology) and the University of Palermo (Department of Clinical Medicine and Emerging Pathologies) tests whether nickel sensitization underlies recurrent aphthous stomatitis (RAS) in a large patient cohort. 380 consecutive RAS patients underwent patch testing for nickel and double-blind placebo-controlled oral nickel challenge. Among nickel-sensitive RAS patients, 45.7 percent had a positive DBPC oral nickel challenge, and 21 of 32 patients who followed a nickel-free diet experienced symptom improvement. The cohort is the largest controlled study of the nickel-RAS link and supports nickel sensitivity as a meaningful subset etiology for RAS that responds to dietary intervention.
 
 ## Key numbers

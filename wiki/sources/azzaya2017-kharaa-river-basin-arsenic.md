@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Azzaya et al. 2017 - Kharaa river basin arsenic in water bodies
 
+## Overview
+
 Azzaya and colleagues surveyed total arsenic and arsenic species in river, spring, and deep-well waters across the Kharaa river basin in Mongolia, with specific attention to gold-mining areas. This is a3 water-pathway evidence source: it does not measure a retail water product, but it quantifies arsenic occurrence in mining-influenced water bodies relevant to drinking-water and irrigation exposure pathways.
 
 ## Key numbers

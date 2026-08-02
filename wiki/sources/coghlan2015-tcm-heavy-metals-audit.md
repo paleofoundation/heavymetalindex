@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Coghlan et al. 2015 - Heavy Metals in Traditional Chinese Medicine Products
 
+## Overview
+
 Coghlan et al. combined DNA sequencing, toxicological screening, and heavy-metal screening to audit 26 traditional Chinese medicine products. The heavy-metal component screened 25 products for arsenic, lead, and cadmium by sector-field ICP-MS and compared estimated daily exposures from package dosage directions against Australian TGA medicine limits. The paper is direct finished-product evidence for dietary-supplement/herbal-remedy contamination, not for brewed herbal tea or botanical infusions.
 
 ## Key numbers

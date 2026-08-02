@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Mirończuk-Chodakowska et al. 2013 — Cadmium and lead in wild and cultivated mushrooms, eastern Poland
 
+## Overview
+
 This study measured cadmium (Cd) and lead (Pb) in 21 edible mushroom species from the low-industry eastern region of Poland known as the Green Lungs, comparing 18 wild-harvested species from Podlaskie Province against 3 commercially cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes). Wild mushrooms exhibited wide interspecies variability for Cd (0.10–10.20 µg/g dry mass) while Pb concentrations were generally low; two wild species (Rozites caperatus and Boletus chrysenteron) accumulated Cd at levels whose intake from a single 100 g fresh-weight serving could marginally exceed the provisional tolerable monthly intake (PTMI) established by FAO/WHO JECFA for cadmium. Cultivated mushrooms carried markedly lower heavy-metal burdens than most wild species, particularly for Pb.
 
 ## Key numbers

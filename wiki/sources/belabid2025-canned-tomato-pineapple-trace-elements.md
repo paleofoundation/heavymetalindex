@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Belabid et al. 2025 - Trace elements in canned tomato paste and pineapple
 
+## Overview
+
 This preprint measured trace elements in canned tomato paste and canned pineapple marketed in Algeria. It is routeable for canned tomato and canned fruit context because it reports Cd exceedance counts and measured trace-element concentrations in canned foods.
 
 ## Key numbers

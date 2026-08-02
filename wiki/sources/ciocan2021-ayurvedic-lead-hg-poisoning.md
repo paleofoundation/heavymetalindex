@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ciocan et al. 2021 — Lead poisoning from Ayurvedic supplement, Italy
 
+## Overview
+
 A 30-year-old Indian sailor presented in Italy with microcytic anemia, abdominal pain, emesis, and jaundice following months of oral Ayurvedic medication; blood lead was confirmed at 102 µg/dL on initial testing at an external hospital and 74.61 µg/dL at admission to the authors' occupational health unit. ICP-MS analysis of the four Ayurvedic product samples identified extremely high concentrations of lead and mercury in three of four preparations, with lead reaching 23,043 mg/kg and mercury reaching 145,711 mg/kg, concentrations orders of magnitude above the highest reported soil values for the patient's home region in Uttar Pradesh, India. The patient required three EDTA chelation cycles; blood lead at discharge was 36.27 µg/dL.
 
 ## Key numbers

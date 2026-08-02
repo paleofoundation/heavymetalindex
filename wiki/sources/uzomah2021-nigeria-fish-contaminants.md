@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Uzomah et al. 2021 — Chemical contaminants in Nigerian fresh and marine fish: review
 
+## Overview
+
 This narrative review synthesizes the Nigerian literature on chemical contaminants in fresh and marine fish, covering polycyclic aromatic hydrocarbons (PAHs), persistent organic pollutants (POPs), heavy metals, and microplastics across more than 104 commercially important species. The heavy metals section reports that iron and lead may reach potentially toxic concentrations in fish from specific contaminated sites in Nigeria, particularly near oil extraction, industrial effluent discharge, and urbanized waterbodies. The review provides geographic context for which species and regions present elevated metal risk but does not report pooled concentration statistics; it synthesizes primary studies conducted under varying analytical conditions.
 
 ## Key numbers

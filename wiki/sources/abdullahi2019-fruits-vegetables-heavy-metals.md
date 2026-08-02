@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Abdullahi 2019 - Heavy metals in fruits and vegetables in Nigeria
 
+## Overview
+
 This study measured zinc, copper, iron, cadmium, nickel, and lead in fruit and vegetable samples from a Nigerian local market. The routeable pineapple data are limited but extractable, and the page preserves the source's liquid-concentration basis.
 
 ## Key numbers

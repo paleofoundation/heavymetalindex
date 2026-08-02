@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Bakhshalizadeh et al. 2023 — REEs and trace elements in golden grey mullet, Caspian Sea
 
+## Overview
+
 This primary study determined concentrations of rare earth elements (REEs) and four trace elements (As, Cd, Hg, Pb) by ICP-MS in five tissues (muscle, intestine, kidney, liver, gill) of twenty golden grey mullet (Chelon auratus) caught from the southern Caspian Sea. Cadmium and lead concentrations in muscle tissue were reported to be of concern for human health, and terbium concentrations were anomalously high suggesting anthropogenic contamination, probably associated with oil extraction activity in the Caspian region.
 
 ## Key numbers

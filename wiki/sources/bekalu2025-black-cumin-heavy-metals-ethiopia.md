@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Bekalu et al. 2025 - Metals in black cumin seeds from East Gojjam, Ethiopia
 
+## Overview
+
 Bekalu et al. quantified Fe, Cu, Zn, Pb, and Cd in Nigella sativa L. black cumin seeds collected from three districts in East Gojjam, Ethiopia. The study used microwave-assisted acid digestion followed by flame atomic absorption spectrometry. Lead ranged from 0.11 +/- 0.005 to 0.21 +/- 0.01 mg/kg dry weight and cadmium ranged from 0.09 +/- 0.01 to 0.14 +/- 0.007 mg/kg dry weight across the three districts. All Pb and Cd values were below the WHO herbal-material limits cited by the authors, while Fe, Cu, Zn, and Cd showed significant regional variation.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Brodziak-Dopierała et al. 2024 — Mercury in medicines and dietary supplements in Poland
 
+## Overview
+
 This study reports total mercury concentrations in 139 preparations — 75 drugs (prescription and OTC) and 64 dietary supplements — purchased in Poland between 2022 and 2023. Mercury was measured by atomic absorption spectrometry (AAS, AMA254 analyser) with a LOD of 0.11 µg/kg. All samples fell below applicable acceptable standards. The authors find that herbal dietary supplements carry the highest median mercury load among all tested product groups, and note cumulative exposure risk when multiple preparations are taken simultaneously alongside environmental dietary mercury.
 
 ## Key numbers

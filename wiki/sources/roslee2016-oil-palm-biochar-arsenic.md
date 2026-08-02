@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Roslee 2016 - Oil-palm empty-fruit-bunch biochar and arsenic availability
 
+## Overview
+
 Roslee tested whether oil-palm empty-fruit-bunch biochar changed arsenic availability in artificially contaminated soil during a four-week aerobic incubation. This is mitigation and soil-pathway context, not palm-oil occurrence evidence.
 
 ## Key numbers

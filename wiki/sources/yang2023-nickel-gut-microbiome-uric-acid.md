@@ -26,6 +26,8 @@ updated: 2026-05-08
 
 # Yang et al. 2023 — Nickel exposure induces gut microbiome disorder and serum uric acid elevation
 
+## Overview
+
 This Environmental Pollution paper from Lanzhou University investigates the mechanism linking long-term occupational nickel exposure to elevated serum uric acid by combining biomarker measurements with gut-microbiome 16S rRNA sequencing in a 109-participant cohort of Ni-exposed workers and matched controls. Serum Ni was significantly elevated in the exposure group (5.70 ± 3.21 µg/L versus controls), serum uric acid was significantly elevated (355.95 ± 67.87 µmol/L), and the abundances of uric-acid-lowering bacteria were significantly diminished in the exposure group. The authors propose that intestinal degradation of purine to uric acid is disturbed by nickel-driven gut microbiome perturbation, producing the observed serum uric acid elevation.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Barborakova et al. 2024 - Heavy metals in black soldier fly larvae under feed-variant trials
 
+## Overview
+
 Barborakova et al. measured microbial hazards and heavy metals in black soldier fly larvae before and after four experimental feed treatments. The paper is directly useful for insect-protein and animal-feed safety context because it reports Cd, Pb, Ni, Cu, Mn, Mo, Zn, Co, and Cr in larvae by ICP-OES. Its Evidence Fitness is limited to feed-substrate and experimental insect-protein evidence; it is not a market survey of retail insect-protein products.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-26
 
 # FSAI 2016 — Total Diet Study Ireland 2012–2014
 
+## Overview
+
 This is the second Total Diet Study (TDS) conducted by the Food Safety Authority of Ireland, covering chemical exposure in the Irish population from food purchased in autumn 2012. 141 food samples (1,043 sub-samples) were collected from major Dublin retailers, prepared as consumed, and analysed under contract by the Food and Environment Research Agency (FERA, UK). Dietary exposure was modelled by combining measured occurrence levels with food consumption data from the National Adult Nutrition Survey (NANS, n = 1,500 adults aged 18+, 2008–2010) and the National Children's Food Survey (NCFS, n = 594 children aged 5–12, 2003–2004). The report covers contaminant metals (Al, total As, inorganic As, Cd, Cr, Pb, total Hg, Sn), essential nutrients (I, Se), food additives (nitrates, nitrites), acrylamide, mycotoxins, PAHs, BPA, phthalates, and pesticides. For heavy metals, Irish dietary exposures were below health-based guidance values for all metals except cadmium, where exceedances of the EFSA TWI were observed at the 97.5th percentile in both adults and children. Cereals were the dominant contributor to inorganic-arsenic, lead, and aluminium exposure; fish (white and canned) dominated mercury exposure.
 
 ## Key numbers

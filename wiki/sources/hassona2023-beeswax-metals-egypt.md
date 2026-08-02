@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Hassona and Abd El-Wahed 2023 - Egyptian beeswax metals by comb age
 
+## Overview
+
 Hassona and Abd El-Wahed measured nine metals in honey beeswax combs from Behaira governorate, Egypt. The paper is direct occurrence evidence for beeswax as a bee-derived material used in food manufacturing, cosmetics, pharmaceuticals, and beekeeping. Metal concentrations increased with comb age, with fifth-year combs showing the highest reported values for every measured element.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study measured Pb and Cd in 165 traditionally produced cow's-milk yogurt samples collected across 11 regions of Lebanon (Nabatiyeh, South Area, Chouf, Metn, Kesserwan, Jbeil, Batroun, North Area, Akkar, Bekaa, Baalbeck-Hermel; n=15 per region) using graphite furnace atomic absorption spectrometry (GFAAS) on a Shimadzu AA-6800. Microwave-acid digestion with HNO3/H2O2 was used; accuracy was validated against BCR-679 white-cabbage certified reference material (94–111% recovery for Cd) with LODs of 0.004 mg/kg (Pb) and 0.0007 mg/kg (Cd). All concentrations are wet-weight on the as-consumed yogurt. The dataset is the first known regional survey of Pb and Cd in Lebanese yogurt and provides regional means, exceedance fractions against EU 2023/915 limits (0.020 mg/kg Pb; 0.005 mg/kg Cd), and estimated dietary intake (EDI) for the adult population.
 
 ## Key numbers

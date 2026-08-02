@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Coryell, Roggenbeck, Walk 2019 — The human gut microbiome's influence on arsenic toxicity
 
+## Overview
+
 This Current Pharmacology Reports review by the Walk laboratory at Montana State University covers the role of the human gut microbiome in modulating arsenic toxicity. Arsenic exposure is global in scale and produces adverse health effects at low chronic doses; the review documents the gut microbiome's role in arsenic biotransformation (microbial methylation of inorganic arsenic to MMA and DMA, microbial demethylation of organic arsenic species back to inorganic arsenic, microbial reduction of As-V to As-III), in arsenic absorption (microbial influence on intestinal As uptake versus fecal excretion), and in modulating systemic As toxicity through the gut-microbiome-host metabolic axis. The Walk laboratory is a primary U.S. center for the human microbiome and metals work; the related Coe et al. 2023 paper (this batch) on MeHg demethylation is from the same laboratory.
 
 ## Key conclusions

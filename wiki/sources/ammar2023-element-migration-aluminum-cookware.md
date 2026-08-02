@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Ammar et al. 2023 — Element migration from traditional and pressure-cooker aluminum cookware into cooked rice-and-beef meals and EU 10/2011 food simulants, Saudi Arabia
 
+## Overview
+
 The authors quantified migration of Al, Fe, As, Cd, and Pb from four Saudi-market aluminum cooking pots — two traditional pots (manufacturer codes AC, AS) and two aluminum pressure cookers (codes ACP, APP) — into actual cooked food (rice + beef + acidifying and seasoning ingredients) and into Regulation (EU) No 10/2011 food simulant B (3% w/v acetic acid). Pot composition was characterised by spark-OES; food and simulant samples were analysed by ICP-MS after microwave digestion (HNO₃ + H₂O₂). SEM-EDS and XPS were applied in parallel and were demonstrated, by the authors, to be unsuitable for quantifying these migration loads because the migrated concentrations fall below the EDS and XPS detection limits (≈0.1 wt.%, i.e. ≈1000 µg/g) — only ICP-MS resolved them. The experimental design isolates four migration drivers: food acidity (tomato sauce + black lemon vs plain), spice load, water source (tap vs mineral), and extended cooking time (2 h boil only vs 2 h boil + 8 h at 70 °C), with the extended-time condition then repeated across all four pots to compare traditional vs pressure-cooker construction.
 
 ## Key numbers

@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Abdullah 2009 — Pb, Cd, Zn, Al in three commercial fish sauces by ICP-OES (Malaysia, B.Sc. thesis)
 
+## Overview
+
 An undergraduate B.Sc. (Hons.) Chemistry final-year project at Universiti Teknologi MARA (Shah Alam, Selangor) measured lead, cadmium, zinc, and aluminium in three commercial fish-sauce samples coded sample A, sample B, and sample C by inductively coupled plasma optical emission spectroscopy (ICP-OES). Sample C is reported by the abstract to have the highest aluminium (36.39 mg/kg) and the lowest zinc (13.18 mg/kg) of the three samples but its lead and cadmium concentrations are not stated in the abstract. The methods chapter and the results-and-discussion chapter (Chapters 3 and 4) are not present in the copy of the PDF under review (the raw file in `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/` is truncated to 5 of the original 24 pages); the page below records only what the abstract states verbatim and explicitly disclaims values that the abstract does not state.
 
 The abstract reports that all three samples exceeded the Malaysian Food Regulation 1985 cadmium permitted level of 1 mg/kg by a wide margin (27.46 mg/kg, 36.57 mg/kg, and an unreported Sample C value). The reported Cd and Pb concentrations are an order of magnitude higher than peer-reviewed fish-sauce baselines elsewhere in the corpus; the values are recorded here as the abstract states them, with a data-integrity flag noting that the basis (digest-solution vs as-purchased sauce) cannot be confirmed without the missing methods chapter.

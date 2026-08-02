@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cleary et al. 2021 — Comparison of US state fish consumption advisories for MeHg and PCBs
 
+## Overview
+
 This comparative review examined the risk assessment assumptions underlying fish consumption advisories for methylmercury (MeHg) and PCBs across 46 US states, identifying substantial cross-state variation in toxicity values, bodyweight assumptions, meal size, and cancer risk levels. The paper quantified how these assumptions translate into divergent target fish tissue concentrations that would trigger advisory issuance, and demonstrated that advisories for the same species in contiguous states bordering shared waterbodies (Lake Michigan, Lower Mississippi River) can differ markedly. The analysis highlights that advisory inconsistency undermines public health messaging for consumers of self-caught fish, particularly sensitive populations.
 
 ## Key numbers

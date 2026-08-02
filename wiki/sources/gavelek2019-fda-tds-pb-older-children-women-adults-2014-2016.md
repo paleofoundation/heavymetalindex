@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Gavelek, Spungen, Hoffman-Pennesi, Flannery, Dolan, Dennis, Fitzpatrick 2019 — Lead exposures in older children, women of childbearing age, and adults: FDA TDS 2014-16
 
+## Overview
+
 This Food Additives & Contaminants: Part A paper from a 7-author FDA team extends the [[sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016|Spungen 2019]] FDA Total Diet Study 2014-2016 child Pb exposure analysis to older children (7-17 years), women of childbearing age (16-49 years), and adults (18+ years). Together with Spungen 2019 for the 6-month to 6-year age groups, this paper provides the complete age-stratified U.S. dietary Pb exposure picture from the FDA's most recent TDS sampling window. The two papers are the FDA's empirical evidence base for the FDA Closer-to-Zero Pb-in-food work and for the FDA Interim Reference Levels for dietary Pb published in [[sources/flannery2020-fda-interim-reference-levels-lead|Flannery et al. 2020]].
 
 ## Key conclusions

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Martinez-Morata et al. 2022 — County-level arsenic and uranium in US public drinking water by racial/ethnic composition
 
+## Overview
+
 This Nature Communications paper reports a nationwide geospatial analysis of US county-level community water system (CWS) arsenic and uranium concentrations from EPA compliance monitoring data, evaluating associations with county racial/ethnic composition. The study provides the most comprehensive available distribution of arsenic and uranium concentrations in US public drinking water for the 2000–2011 period. Nationwide, the county-level mean CWS arsenic concentration was 1.42 µg/L (SD 2.22), and uranium was 3.45 µg/L (SD 6.85). The study found that higher proportions of Hispanic/Latino and American Indian/Alaskan Native residents were significantly associated with higher CWS arsenic and uranium concentrations at the county level, with High-High spatial autocorrelation clusters concentrated in the Midwest and Southwest.
 
 ## Key numbers

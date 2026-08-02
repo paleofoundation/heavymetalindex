@@ -34,6 +34,8 @@ updated: 2026-06-03
 
 # Yap & Al-Mutairi 2022 — Ni in 19 marine fish species, two molluscs, and one cited mussel dataset from Peninsular Malaysia, with EDI/THQ/EWI risk assessment
 
+## Overview
+
 This MDPI Biology paper measured nickel in three locally caught seafood types from Peninsular Malaysia — 19 commercial marine fish species from Setiu (Terengganu) on the east coast, the mangrove snail *Cerithidea obtusa* pooled from 17 west-coast mangrove sites, and the cockle *Anadara granosa* pooled from 12 west-coast intertidal sites — and compared the resulting human-health risk profile (estimated daily intake, target hazard quotient, and estimated weekly intake) to a 40-site green-lipped mussel *Perna viridis* dataset that the same group had previously published. Nickel was determined by air-acetylene flame atomic absorption spectrometry on nitric-acid digests of dried-and-ground tissue; DOLT-3 (dogfish liver) certified reference material was recovered at 88.8–119%. Wet-weight Ni ranged 0.11–0.90 mg/kg in the fish muscle, 0.40–6.14 mg/kg in the snail total soft tissue, and 0.15–3.23 mg/kg in the cockle total soft tissue, with all three datasets falling well below the only Ni regulatory ceiling the authors could find (the US FDA molluscan-shellfish action level of 80 mg/kg wet weight). Target hazard quotients for nickel were <1.00 for average and high-level consumers across all three newly measured seafood types; only the high-level mussel consumers of the *P. viridis* dataset from the polluted Kampung Pasir Puteh sites had THQ values >1.00 in the cited comparison data.
 
 ## Key numbers

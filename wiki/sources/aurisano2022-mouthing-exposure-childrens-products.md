@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Aurisano et al. 2022 — High-throughput mouthing exposure model for children's products
 
+## Overview
+
 This JESEE paper develops a high-throughput model for predicting chemical migration from children's product materials into saliva during mouthing, calibrated on 437 measured migration rates spanning 66 chemical-material combinations (phthalate plasticizers, alternative plasticizers, polybrominated diphenyl ethers, parabens, methylsiloxanes, chlorophenols, fragrances). The model adapts the Ernstoff food-packaging migration framework to mouthed plastics. The paper does not include heavy-metal occurrence data; it is a methodology paper for non-metal contaminants.
 
 ## Key numbers

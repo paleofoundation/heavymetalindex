@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Karavoltsos et al. 2020 — Copper complexation and 16 trace metals in Greek vinegars
 
+## Overview
+
 This study applied differential pulse anodic stripping voltammetry (DPASV) to characterize copper complexing capacity in 43 vinegars retailed in Greece, and used ICP-MS to quantify 16 trace elements (Al, As, Ba, Cd, Co, Cr, Cs, Cu, Fe, Mn, Ni, Pb, Rb, Sr, V, Zn). Balsamic vinegars consistently showed higher concentrations of Al, Cr, Fe, Mn, Rb, Co, Sr, and Cs compared to common vinegars, reflecting their production from cooked concentrated grape must. Of the toxicologically significant metals, Pb concentrations reached 86 µg/L in one balsamic red vinegar with honey, and two samples (5% of total) exceeded the California state maximum-allowed Pb intake equivalent of 34 µg/L; total As and Cd were lower but detectable.
 
 ## Key numbers

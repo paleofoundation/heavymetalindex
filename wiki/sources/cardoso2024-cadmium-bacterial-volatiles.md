@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Cardoso et al. 2024 - Cadmium stress and volatile communication among bacteria
 
+## Overview
+
 Cardoso and colleagues tested how cadmium-stressed bacteria influence neighboring bacteria through volatile compounds. This is primary mechanistic evidence for Cd-driven microbial stress response, not food/product occurrence evidence. The source's routeable metal concentration facts are the experimental Cd exposures: 100 uM Cd in the divided-plate growth and biochemical assays, and 1 mM Cd in the Rhizobium volatilome experiment.
 
 ## Key numbers

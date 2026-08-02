@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A migration study measured heavy metals (Pb, Cd, As, Hg, Sb, Sn, Ge, Co, Mn) leaching from 120 disposable food containers (paper and plastic) collected from South Korean markets into food simulants. The study represents a supply-chain exposure pathway distinct from intrinsic food contamination: metals potentially transferred from packaging to food during use. Health risk assessment was conducted for the detected migration levels.
 
 ## Key numbers

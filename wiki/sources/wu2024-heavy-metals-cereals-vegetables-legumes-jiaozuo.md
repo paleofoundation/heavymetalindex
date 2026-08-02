@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Wu 2024 — Heavy metals and arsenic in cereals, vegetables, and legumes from Jiaozuo, China, with consumer health-risk assessment
 
+## Overview
+
 This single-author Henan Polytechnic University study measured eight elements (Pb, Cd, total As, total Hg, Cr, Ni, Cu, Zn) in 244 commercially available cereal, legume, and vegetable samples purchased in 2024 from Jiaozuo City markets (Henan Province, central China) and applied the USEPA target hazard quotient (THQ) and target carcinogenic risk (TCR) framework to estimate non-carcinogenic and carcinogenic risks for adult and child consumers. Pollution-index analysis ranked food categories legumes > cereals > leafy greens > kale > solanaceous fruits > edible mushrooms > tubers, with Hg in rice (mean 0.124 mg/kg; 44.16% of cereal samples exceeding the GB 2762-2022 Hg limit) and Ni in peanuts (75.47% exceedance) as the dominant single-element exceedances. Children's TTHQ for the combined cereal-legume-vegetable diet reached 4.619 (adults 2.518), with rice (TTHQ 5.481, children) and peanuts (TTHQ 2.035, children) contributing most. Cumulative carcinogenic risk remained within the USEPA acceptable range (children 8.92×10⁻⁶; adults 2.65×10⁻⁶). The study uses single-laboratory sampling, single-composite measurement per product without disclosed analytical replicate counts, fresh-weight basis, and the GB 2762-2022 (China) regulatory baseline.
 
 ## Key numbers

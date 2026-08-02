@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cardoso et al. 2023 — Seasonal mercury in three Portuguese estuaries and seafood health risk
 
+## Overview
+
 This study characterises seasonal variability in total mercury (tHg) contamination across three distinct Portuguese estuarine systems (Ria de Aveiro, Tagus estuary, Ria Formosa), measuring tHg in water, primary producers, and macrobenthos including edible bivalves. The study evaluates both human health risk from bivalve consumption and environmental risk. Ria de Aveiro and Tagus estuary reflect historical industrial mercury contamination from chlor-alkali plants; Ria Formosa represents a less industrialised southern system. The study finds that tHg concentrations in surface waters were higher in Ria de Aveiro and Tagus than in Ria Formosa, with particular concern in Ria de Aveiro during autumn where Hg levels approached approximately 100 µg/L. For edible species, tHg concentrations in bivalves were below 0.5 µg/g wet weight across all systems, representing no human health risk under standard consumption scenarios. An environmental risk quotient greater than 0.1 (moderate risk) was observed in Ria de Aveiro during autumn, indicating ecosystem-level concern even where human health risk is low.
 
 ## Key numbers

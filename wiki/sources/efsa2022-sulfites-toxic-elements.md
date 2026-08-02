@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # EFSA FAF Panel 2022 — Toxic elements in sulfur dioxide–sulfites food additives (E 220–228)
 
+## Overview
+
 This EFSA scientific opinion is a follow-up re-evaluation of sulfur dioxide–sulfites (E 220–228) as food additives, adopted September 2022. Among other assessments, it includes a risk assessment of toxic elements (As, Pb, Cd, Hg) present in commercial samples of these additives, based on analytical data submitted by interested business operators (IBOs). The Panel concluded that the current EU specification limits for arsenic, lead, and mercury in these food additives should be lowered, and that a new maximum limit for cadmium should be introduced.
 
 ## Key numbers

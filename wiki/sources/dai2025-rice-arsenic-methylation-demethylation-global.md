@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Dai et al. 2025 — Microbial control of arsenic speciation in paddy soils and rice grains: global survey
 
+## Overview
+
 This PNAS paper integrates a global metagenomic survey of 801 paddy soils with soil chronosequence experiments spanning 1 to 2,000 years of rice cultivation, controlled incubations, and field surveys to demonstrate that the balance between arsenic-methylating bacteria and DMA-demethylating methanogenic archaea in paddy soils is the primary determinant of arsenic speciation in rice grains. The study establishes that younger paddy soils (less than 700 years of cultivation), common in the Americas and Europe, are enriched in arsenic methylators, leading to elevated dimethylarsinic acid (DMA) and its highly toxic derivative dimethylated monothioarsenate (DMMTA) in rice, while ancient Southeast Asian paddies harbor robust demethylating populations that limit these species. The paper provides measured arsenic speciation data in brown rice and rice husks across multiple soil ages and constructs a global risk map for rice straighthead disease and methylated arsenic accumulation.
 
 ## Key numbers

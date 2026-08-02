@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # US EPA 1999 — Mercury Update: Impact on Fish Advisories
 
+## Overview
+
 This EPA Office of Water fact sheet (September 1999) summarizes total-mercury and methylmercury concentrations measured in US freshwater fish, the resulting state-level fish consumption advisories, and recommended monthly meal limits keyed to fish-tissue mercury. As of December 1998 mercury was the basis for 1,931 advisories in 40 states (an 8% one-year increase and 115% increase from 899 advisories in 1993). The fact sheet describes biomagnification factors, expected MeHg fraction of total Hg in fish, and gives a structured methylmercury risk-based consumption-limit table that has been widely adopted by state fish-advisory programs.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Bramwell et al. 2022 - Urban garden produce and adult lead biomarkers
 
+## Overview
+
 Bramwell and colleagues tested whether gardening on Newcastle urban agriculture sites with elevated soil Pb translated into higher adult Pb body burdens. The main paper reports blood, saliva, soil, tap-water, and diet findings; it also summarizes Pb concentrations in fruits and vegetables collected for the same study, with root vegetables showing the highest mean Pb range among crop groups.
 
 ## Key numbers

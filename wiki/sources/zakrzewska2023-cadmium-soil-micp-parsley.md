@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zakrzewska et al. 2023 — MICP treatment reduces Cd uptake by crop plants
 
+## Overview
+
 Supplementing Cd-contaminated agricultural soil with metabolites containing carbonates (MCC) produced by the ureolytic bacterium Ochrobactrum sp. POC9 reduced the bioavailability of cadmium in soil by 27–65% (depending on MCC volume applied) and reduced Cd uptake by root parsley (Petroselinum crispum) by approximately 86% in shoots and 74% in roots relative to untreated controls. The study demonstrates that microbially-induced carbonate precipitation (MICP) can be applied at trace but legally permissible Cd concentrations characteristic of agricultural soils, where conventional remediation methods are often unsuitable because they disrupt soil function. Additional benefits observed included improvement of soil microbiological activity and plant condition due to nitrogen-containing co-metabolites produced during urea hydrolysis.
 
 ## Key numbers

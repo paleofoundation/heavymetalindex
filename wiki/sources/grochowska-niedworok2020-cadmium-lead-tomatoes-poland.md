@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Grochowska-Niedworok et al. 2020 — Cadmium and lead in Polish tomatoes and tomato products
 
+## Overview
+
 This Polish study assessed cadmium and lead contamination across 25 samples of fresh tomatoes (multiple varieties and farming systems) and processed tomato products (concentrates, purees, juices, sauces, dried tomatoes), comparing measured concentrations against EU maximum levels set in Commission Regulation (EC) No 1881/2006. Nearly all samples fell within regulatory limits; the sole exceedance was a canned tomato concentrate with Cd at 0.064 mg/kg fresh weight, modestly above the 0.050 mg/kg EU limit. The study found generally low contamination levels consistent with tomatoes being among the least heavy-metal-laden vegetable groups, while flagging that frequent consumption and the bioaccumulative nature of both metals warrant ongoing monitoring.
 
 ## Key numbers

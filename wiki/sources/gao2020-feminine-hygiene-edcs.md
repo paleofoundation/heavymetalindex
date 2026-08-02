@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Gao and Kannan 2020 - EDCs in U.S. feminine hygiene products
 
+## Overview
+
 Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The analyte panel was phthalates, parabens, bisphenols, and triclocarban; the study did not measure Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U, or any other heavy-metal analyte. This page is therefore a product-occurrence context source only, useful for feminine-care exposure-method precedent and product-category routing, not for heavy-metal occurrence pools.
 
 ## Key numbers

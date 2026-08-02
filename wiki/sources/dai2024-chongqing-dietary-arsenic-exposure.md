@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Dai et al. 2024 — Dietary arsenic exposure and health risk assessment in Chongqing, China (2018-2023)
 
+## Overview
+
 This surveillance and risk-assessment study reports total arsenic (tAs) concentrations across 4,900 food samples collected in Chongqing municipality from 2018 to 2023, and combines these with dietary consumption data from 969 Chongqing residents to estimate population-level dietary arsenic exposure by age, sex, and place of residence. The study applies a two-dimensional Monte Carlo simulation following FAO/WHO probabilistic assessment methodology and uses the margin-of-exposure (MOE) approach to characterize non-carcinogenic risk (skin damage) and carcinogenic risk (lung cancer, urinary system cancers). Rice and rice products emerge as the dominant arsenic source, accounting for 69.97 to 74.37 percent of total dietary arsenic exposure, and all age groups show MOE values below 100 for carcinogenic endpoints, indicating potential elevated cancer risk with the highest concern in young children aged 3 to 6 years.
 
 ## Key numbers

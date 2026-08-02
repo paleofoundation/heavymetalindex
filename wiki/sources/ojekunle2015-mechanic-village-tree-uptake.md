@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Ojekunle et al. 2015 - Mechanic-village soil and tree-bark metal uptake
 
+## Overview
+
 Ojekunle and colleagues measured Cd, Pb, and Cu in soil and tree bark around a mechanic village in Abeokuta, Nigeria, comparing the results with a farmland control. This is in-scope supply-chain and mitigation evidence because it documents a source-attribution pathway from mechanic activity to soil and plant tissue, not cashew-nut occurrence.
 
 ## Key numbers

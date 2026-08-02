@@ -25,6 +25,8 @@ updated: 2026-07-30
 
 # Characterizing the Exposome of Food Contamination and China Total Diet Study: Project for Improving Food Safety Risk Assessment in China
 
+## Overview
+
 This source page is a mechanical bulk-ingest record for a PDF in the Heavy Metal Index raw corpus. It preserves source-level identity, routeable analyte and product scope, and the exact extracted numeric lines that justify that scope, for later human or fresh-context audit. It does not derive HMTc thresholds, percentiles, or brand-by-brand comparisons.
 
 Author, year, and title are taken from the Crossref record for the DOI, not scraped from the PDF text.

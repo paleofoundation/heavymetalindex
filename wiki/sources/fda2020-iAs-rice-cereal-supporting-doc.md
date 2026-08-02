@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # FDA 2020 - Supporting document for the inorganic arsenic action level in infant rice cereals
 
+## Overview
+
 This FDA supporting document gives the public-health and achievability rationale for FDA's 100 ug/kg (100 ppb) action level for inorganic arsenic in rice cereals for infants. It is the companion rationale document to the FDA guidance page, not a new primary laboratory study. It draws on FDA's 2016 arsenic-in-rice risk assessment and three infant-rice-cereal surveillance datasets covering 2011-2013, 2014, and 2018.
 
 ## Key numbers

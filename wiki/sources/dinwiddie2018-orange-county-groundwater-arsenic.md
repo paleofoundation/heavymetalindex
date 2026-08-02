@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Dinwiddie and Liu 2018 - Orange County groundwater arsenic
 
+## Overview
+
 Dinwiddie and Liu investigated geologic controls on arsenic in private-well groundwater in Orange County, North Carolina. This is upstream groundwater and source-attribution evidence: it does not measure bottled or mineral-water products, but it links private-well arsenic detections to bedrock units, pH, alkalinity, fluoride, and likely oxidation of arsenic-bearing sulfide minerals.
 
 ## Key numbers

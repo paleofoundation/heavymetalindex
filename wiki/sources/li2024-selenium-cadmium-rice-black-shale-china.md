@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Li et al. 2024 — Selenium and cadmium in rice from Chinese black shale exposure areas
 
+## Overview
+
 This cross-sectional study measured cadmium (Cd) and selenium (Se) in rice, soil, drinking water, blood, and urine from residents of two black shale exposure areas in Hubei Province, China: Enshi County (Permian black shale) and Zhuxi County (Cambrian black shale). The primary research question was whether the putative antagonistic effect of Se on Cd toxicity observable in animal models also protects human liver and kidney function in populations chronically co-exposed to elevated Se and Cd. The study reports Cd concentrations in locally grown rice (n=90 from Enshi, n=78 from Zhuxi including local and ecdemic commercial rice), with mean and range values indicating substantial Cd contamination in locally grown rice from both areas. Sensitive liver and kidney biomarkers in study participants were within healthy reference ranges despite markedly elevated blood Cd (B-Cd) and urine Cd (U-Cd), suggesting a possible Se-Cd antagonism. The authors conclude that USEPA risk assessment methods may underestimate the protective effect of co-occurring Se in geological high-Se areas.
 
 ## Key numbers

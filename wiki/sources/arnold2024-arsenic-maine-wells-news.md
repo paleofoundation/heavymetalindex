@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Arnold 2024 — Community science arsenic testing in Maine and New Hampshire private wells
 
+## Overview
+
 This news article in Environmental Health Perspectives reports on the All About Arsenic program, a community science project conducted by MDI Biological Laboratory that engaged students in sampling private well water for arsenic across Maine and New Hampshire between 2016 and 2022. The underlying study (Taylor et al. 2024, EHP 132(8):087006; DOI 10.1289/EHP13421) reported that 3,070 water samples were collected, approximately 24% of which exceeded 5 ppb As (New Hampshire's MCL) and 14.8% exceeded 10 ppb As (US EPA MCL). The article describes how test results spurred homeowner treatment system upgrades and notes that bedrock geology in New England produces naturally elevated arsenic in private wells. The underlying study is the primary evidence record; this source is a B-tier news summary of that study.
 
 ## Key numbers

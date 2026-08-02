@@ -25,6 +25,8 @@ updated: 2026-05-30
 
 # Akhmetsadykova et al. 2013 — Lactic acid bacteria from fermented camel milk protect cavies from lead absorption
 
+## Overview
+
 Akhmetsadykova and colleagues tested in vivo whether cow milk fermented with lactic acid bacteria (LAB) isolated from camel milk and shubat (fermented camel milk) reduces lead absorption in guinea pigs (cavies). Over 28 days, eight treatment groups (n=10 each) received daily oral doses of either water with lead nitrate, fermented milk product (with or without Pb), or controls. Lead was measured in faeces, blood, and five organs by atomic absorption spectrometry after wet mineralization. The paper is methodologically a mechanism study; for HMI it provides limited but useful baseline Pb data on cow milk used in Kazakhstan and an in vivo demonstration that LAB-fermented dairy can act as a biosorbent during gastrointestinal transit.
 
 ## Key numbers

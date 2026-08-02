@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Farid and Enani 2010 — Trace elements in commercial fruit juices, Jeddah, Saudi Arabia
 
+## Overview
+
 This study measured Zn, Cu, Fe, Mn, Co, Cr, and Ni in 129 commercial fruit juice samples (apple, orange, mango) of 15 brands available in supermarkets in Jeddah, Saudi Arabia, using graphite furnace atomic absorption spectrometry (GFAAS) after HNO3/V2O5 wet digestion. No Pb, Cd, As, Hg, Sn, Al, or U were measured. Reported concentrations for Cr (total) and Ni are the only HMT&C-panel-adjacent values; total Cr is not substitutable for Cr-VI. Daily intakes for all seven elements at an assumed Saudi consumption of 10 L/person/year (~27.4 mL/day) were well below RDA or tolerable limits.
 
 ## Key numbers

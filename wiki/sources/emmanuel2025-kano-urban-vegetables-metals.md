@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Emmanuel 2025 - Heavy metals in urban-grown vegetables from Kano State, Nigeria
 
+## Overview
+
 Emmanuel measured Cd, Ni, Pb, Mn, and total Cr in vegetables grown around Wudil, Nomans-Land, and Sharada in Kano State, Nigeria. Table 1 gives crop-by-site concentrations for pepper, lettuce, carrot, onion, beetroot, and spinach. Cadmium is the clearest occurrence concern in the table, reaching 0.36 mg/kg in Wudil carrot, while chromium reaches 0.42 mg/kg in Nomans-Land spinach and 0.41 mg/kg in Sharada onion.
 
 ## Key numbers

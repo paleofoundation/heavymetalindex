@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Wu et al. (2026) develop a whole-cell biosensor for the detection of methylmercury (MeHg) in environmental water samples. The biosensor exploits a genetically engineered microbial cell line expressing a MeHg-responsive regulatory element coupled to a reporter system, enabling sensitive and specific detection of organic mercury species distinct from inorganic Hg2+.
 
 ## Key numbers

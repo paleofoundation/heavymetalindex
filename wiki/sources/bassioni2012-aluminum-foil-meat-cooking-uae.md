@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Bassioni et al. 2012 — Aluminum leaching from foil and pans into acidic meat-cooking solutions, UAE
 
+## Overview
+
 The authors quantified aluminum migration from aluminum foil into six controlled cooking-solution recipes built on a 40% minced-beef extract base, with tomato juice, citric acid, salt, apple vinegar, and spices used as acidifying and seasoning vehicles. Foil and pan contact was tested in three modes: liquid-phase immersion at boiling temperature for 2 hours, vapor-phase exposure above boiling solution for 2 hours, and oven baking at 185°C for 1.5 hours in an aluminum pan covered with aluminum foil. Aluminum mass loss was determined gravimetrically (weight-loss corrosion-rate measurement); the surface morphology of the foil before and after contact was imaged by environmental scanning electron microscopy (ESEM) with energy-dispersive X-ray; and aluminum content of the contacted solutions was determined by ICP-MS for two recipe variants. The work is small (single laboratory, two replicates per condition, no compositional characterisation of the foil alloy, only two ICP-MS values reported) and the gravimetric "intake" figures depend on a per-meal extrapolation chain (per-person serving derived as one-third of the dish weight) that the wiki preserves but flags. It is included as evidence on the food-contact-materials route because the magnitudes are large and consistent with the broader foil-leaching literature.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Shi et al. 2020 - Rice-Based Infant Foods, Cadmium, and Inorganic Arsenic
 
+## Overview
+
 Shi et al. measured cadmium and inorganic arsenic in rice-based foods marketed for infants, generic rice products that infants may eat, and UK-purchased polished rice grain by country of origin. The central finding is that rice-based products labeled for infants complied with the authors' EU-threshold comparisons, while some generic rice crackers, rice cakes, puffed rice cereals, and rice grains exceeded cadmium or inorganic-arsenic thresholds relevant to infant diets.
 
 ## Key numbers

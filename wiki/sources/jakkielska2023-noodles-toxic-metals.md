@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jakkielska et al. 2023 — Toxic metals in noodles and pasta sold in Poland
 
+## Overview
+
 Jakkielska and colleagues measured Pb, Cd, As, and Hg in 20 commercially available noodle/pasta products collected from Polish markets. Acid microwave digestion followed by ICP-MS produced total-metal concentrations for each product, and the authors then calculated ADI, THQ, HI, and CR values for Polish adult consumers. The occurrence finding is that Cd had the highest mean concentration among the four measured metals, while Hg was the lowest on average but had one high sample-level maximum. The arsenic speciation finding is not a direct speciation assay: the authors estimated i-As by applying a 70% conversion factor to total arsenic.
 
 ## Key numbers

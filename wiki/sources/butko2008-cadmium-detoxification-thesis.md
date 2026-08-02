@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Butko 2008 — Molecular mechanisms of cadmium detoxification and long-distance transport in plants
 
+## Overview
+
 Butko (UCSD Master of Science thesis; advisor Julian I. Schroeder, mentor David Mendoza-Cózatl) presents three chapters of phytochelatin (PC) and thiol-Cd transport biology in plants. **Chapter 1** is the experimental backbone of the published paper Mendoza-Cózatl et al., 2008, *The Plant Journal* 54, 249–259 (DOI 10.1111/j.1365-313X.2008.03410.x), on which Butko is co-author; the thesis reproduces the published manuscript verbatim as section 1.3. **Chapter 2** screens for plant PC-Cd plasma membrane transporters using a *Saccharomyces cerevisiae* heterologous expression system into which the wheat phytochelatin synthase gene TaPCS1 was integrated, with the *Schizosaccharomyces pombe* HMT1 vacuolar transporter validated as a positive control. **Chapter 3** tests a two-component phytoextraction strategy in Arabidopsis combining shoot-targeted EcγECS overexpression (to elevate GSH and PC substrate supply) with shoot-targeted ScYCF1 expression (to drive vacuolar sequestration in harvestable aerial tissue); the strategy did not yield the predicted Cd accumulation phenotype. Its value to the wiki is mechanism-of-Cd-transport background for the [[metals/cadmium]] page and for any mitigation/remediation discussion of plant-side Cd engineering as a soil-clean-up or crop-Cd-reduction lever. The thesis reports no occurrence data in any food matrix; *Brassica napus* (rapeseed/canola) is studied as a model crucifer for vascular sap accessibility, not as a sampled food commodity.
 
 ## Why this matters

@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Augustine et al. 2020 - Lafia irrigated farmland soil
 
+## Overview
+
 Augustine and colleagues measured lead and cobalt in surface soils from an irrigated vegetable farmland near the Amba River in Lafia, Nigeria. The source is not utensils or finished-product occurrence evidence: it is upstream irrigation/farmland pathway evidence for metals in soil where vegetables are grown.
 
 ## Key numbers

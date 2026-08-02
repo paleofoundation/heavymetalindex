@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Salawu et al. 2015 - metals in spinach and irrigation water in Zamfara
 
+## Overview
+
 Salawu and coauthors analyzed Pb, Cd, Fe, Cu, and Zn in spinach and irrigation water from the Samaru Area of Gusau Metropolis, Nigeria. The source is routeable to spinach because it reports numeric concentrations for the edible matrix and its irrigation water. The study provides a paired water/vegetable context rather than a broad market sample.
 
 ## Key numbers

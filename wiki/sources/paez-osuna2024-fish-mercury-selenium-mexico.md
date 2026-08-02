@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Páez-Osuna et al. 2024 — Mercury and selenium in three fish species 20 months after a mining spill, Mexico
 
+## Overview
+
 Twenty months after a 300,000 m³ mine-tailing spill (January 2013) discharged into El Comedero (EC) dam in Sinaloa, Mexico, this study measured total Hg and Se concentrations in muscle, liver, gills, and guts of three fish species to evaluate cleaning-operation effectiveness and human health risk. High Se concentrations were found in the liver of all species (carp: 1.2 ± 0.4 µg/g ww; tilapia: 3.9 ± 2.1; bass: 3.5 ± 1.1), while Hg in liver was highest in blue tilapia (0.15 ± 0.11 µg/g ww). Tilapia (benthic-detritivorous) showed highest Se overall; largemouth bass had highest muscle Hg. Compared with measurements taken 3 months after the spill during a mortality event, liver Se and Hg had decreased by 7.2x and 4.7x respectively, indicating partial recovery but persistent Hg contamination. Applying Mexican consumption scenarios, non-cancer risk from Hg or Se via muscle consumption did not exceed thresholds.
 
 ## Key numbers

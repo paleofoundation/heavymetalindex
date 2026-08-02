@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Laser-induced breakdown spectroscopy (LIBS) was applied for rapid detection of cadmium in Panax notoginseng (tienchi ginseng, san qi), a traditional Chinese medicinal herb. The paper primarily demonstrates LIBS as a rapid method for botanical quality control. Whether occurrence data for Cd in actual P. notoginseng samples are reported requires reading the full paper; the abstract indicates method development focus.
 
 ## Key numbers

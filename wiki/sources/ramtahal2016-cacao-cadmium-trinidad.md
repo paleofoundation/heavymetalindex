@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ramtahal et al. 2016 — Cd in cacao tissues and soils across 45 plantations in Trinidad and Tobago
 
+## Overview
+
 Ramtahal et al. measured cadmium in leaves, pod husks, shells, and nibs (beans) of cacao plants, and in corresponding soils, from 45 plantations spanning all seven major soil types (I–VII) across Trinidad and Tobago. The study evaluated whether Cd levels in readily accessible tissues (leaves, pods) could predict Cd in beans (nibs), which would allow screening without waiting for harvest. A wide range of cultivars was sampled, giving the correlations broad applicability.
 
 Cd levels in cacao tissues varied in the order: leaves (0.54–5.21 µg/g) > pods (0.53–4.49 µg/g) > shells (0.44–4.41 µg/g) > nibs (0.35–3.82 µg/g). Soil total extractable Cd ranged 0.3–1.7 µg/g. All inter-tissue correlations were statistically significant (p < 0.05) and strongly positive: nib/shell r = 0.86, nib/leaf r = 0.79, nib/pod r = 0.76, shell/leaf r = 0.83, shell/pod r = 0.68, leaf/pod r = 0.80. Nib-to-soil correlations were weaker but significant: nib/soil r = 0.35, shell/soil r = 0.43. This suggests that leaf and pod Cd can serve as practical predictors of bean Cd, enabling pre-harvest screening of farms and cultivars for Cd compliance before beans are harvested and sold.

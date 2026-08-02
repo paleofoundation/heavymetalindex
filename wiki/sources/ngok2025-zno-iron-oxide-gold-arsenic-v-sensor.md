@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Ngok et al. (2025) fabricate a metal-semiconductor hybrid nanocomposite electrode (ZnO nanorods/α-Fe2O3/Au nanoparticles, denoted ZFA) on fluorine-doped tin oxide (FTO) substrate and evaluate its performance as an electrochemical sensor for arsenate (As(V)) in drinking water. The study optimizes gold nanoparticle concentration and demonstrates that AuNP addition significantly improves electrochemical catalytic activity.
 
 ## Key numbers

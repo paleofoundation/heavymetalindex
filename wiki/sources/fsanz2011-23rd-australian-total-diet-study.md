@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # FSANZ 2011 - 23rd Australian Total Diet Study
 
+## Overview
+
 Food Standards Australia New Zealand's 23rd Australian Total Diet Study measured contaminants, nutrients, and residues in `92` foods and beverages prepared to a table-ready state. The metals chapter is useful as A-tier prepared-food occurrence and exposure context because it measured total arsenic, inorganic arsenic in selected seafoods, cadmium, lead, total mercury, inorganic mercury, and methylmercury. Seafood speciation is kept distinct: total arsenic is not treated as inorganic arsenic, and total mercury is not treated as methylmercury.
 
 ## Key numbers

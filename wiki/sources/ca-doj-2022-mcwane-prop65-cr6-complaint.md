@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # California v. McWane (AB&I) 2022 — Prop 65 hexavalent chromium air-emissions complaint
 
+## Overview
+
 This 11-page civil complaint, filed on 15 February 2022 by California Attorney General Rob Bonta in Alameda County Superior Court, alleges that McWane, Inc. (operating in East Oakland under the fictitious business name AB&I) has violated California Proposition 65, the Unfair Competition Law, and Government Code § 12607 by emitting hexavalent chromium from its cast-iron pipe foundry without providing the clear and reasonable warning required by Health & Safety Code § 25249.6 to nearby residents, schoolchildren, and workers. The complaint quantifies facility-wide Cr-VI emissions at 1.41 pounds per year (1.17 lb/yr from pipe casting and 0.13 lb/yr from molding operations) from the April 2021 BAAQMD draft Health Risk Assessment, identifies AB&I as the largest Cr-VI emitter in Alameda County and one of the top ten in the nine-county BAAQMD region, and references the BAAQMD HRA's estimate of 22-in-a-million resident cancer risk attributable to the facility. The Prop 65 No Significant Risk Level for Cr-VI is the second-lowest NSRL set by OEHHA for any listed carcinogen (only dioxin is lower), at 0.001 µg/day.
 
 ## Key numbers

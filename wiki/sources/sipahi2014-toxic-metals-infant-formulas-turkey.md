@@ -27,6 +27,8 @@ updated: 2026-05-09
 
 # Sipahi et al. 2014 — Toxic and essential metals in Turkish infant formulas
 
+## Overview
+
 This A-tier peer-reviewed analytical study determines six metals (Pb, Cd, Al, Mn, Cr, Co) in 63 infant foods and formulas from 21 manufacturers acquired in Ankara, Turkey in 2006. The samples span three groups: cereal-based (n=23, single or combination of wheat/rice/corn/oats), milk-based (n=28, single or combination of milk forms — not split by soy vs non-soy in the paper), and mixed (n=12, cereals + milk + fruit + vegetables). Author scope is partial on matrix axis (groups distinguished but soy/non-soy split absent for milk-based; rice/non-rice composition not enumerated per sample for cereal-based) and partial on format axis (powder vs liquid vs reconstituted not consistently labeled). Per CLAUDE.md Part 6, this routes to multiple HMTc Category 1 subcategories at summary-level with explicit row-fit caveats. The paper concludes that metal levels in infant formulas are higher than in breast milk, supporting the recommendation that breast milk be preferred when feasible and that infant foods be regularly monitored.
 
 ## Key Numbers (Table II — group means ± SD)

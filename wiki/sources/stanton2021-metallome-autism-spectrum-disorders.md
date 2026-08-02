@@ -26,6 +26,8 @@ updated: 2026-05-08
 
 # Stanton, Malijauskaite, McGourty, Grabrucker 2021 — The metallome as a link between the omes in autism spectrum disorders
 
+## Overview
+
 This Frontiers in Molecular Neuroscience mini-review by Stanton, Malijauskaite, McGourty, and Grabrucker (University of Limerick) frames metal dyshomeostasis as a candidate connecting axis between the proteome, transcriptome, epigenome, and microbiome in autism spectrum disorders. The paper argues that metallomics studies have historically been conducted in isolation from the other omics layers, and that integrating trace-metal composition data with proteomic, transcriptomic, epigenomic, and microbiome data may explain ASD pathologies that any single layer cannot. The review covers Cu, Zn, Fe in essential-metal dyshomeostasis as well as Pb, Cd, Hg, and Al as toxic metals with documented associations to neurodevelopmental outcomes, with attention to the gut-brain axis and to maternal-fetal exposure pathways.
 
 ## Key conclusions

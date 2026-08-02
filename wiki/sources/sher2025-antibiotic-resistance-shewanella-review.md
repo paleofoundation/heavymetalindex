@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Sher et al. 2025 — Antibiotic resistance in Shewanella species and heavy-metal co-selection (narrative review)
 
+## Overview
+
 Narrative review in Microorganisms (MDPI) of the genus Shewanella as an emerging multi-drug-resistant pathogen in clinical and aquatic environmental settings. For HMI purposes the relevance is the paper's Section 5 on heavy-metal co-selection of antibiotic resistance: arsenic, mercury, cadmium, and chromium exposure is shown across cited studies to drive antibiotic-resistance acquisition in Shewanella via co-resistance (linked genes), cross-resistance (shared efflux systems), and co-regulation (shared promoter regions). The paper contains no primary food-contamination measurements and no ppb-level occurrence data; it is microbiome/AMR context for the heavy-metal-driven selection pressure that contaminated estuaries and aquaculture environments place on resistant pathogen reservoirs.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Grandjean 2010 - Methylmercury health research implications
 
+## Overview
+
 Grandjean and colleagues review the development of scientific knowledge about methylmercury toxicity, from early occupational poisonings through Minamata disease, treated-seed grain epidemics, wildlife findings, and prenatal neurodevelopmental cohort studies. The paper is health and exposure context for fish and seafood methylmercury, not an occurrence survey. It does not report original product concentration data.
 
 ## Key numbers

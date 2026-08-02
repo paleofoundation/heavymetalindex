@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Getu et al. 2022 — Heavy metals in cereals from Debre Markos market, Ethiopia
 
+## Overview
+
 This paper measured Cr, Cu, Pb, and Cd in four cereal types (barley, tef, wheat, and maize) purchased from local market in Debre Markos, Northwest Ethiopia, by MP-AES after dry ashing digestion. Lead and cadmium were found above the FAO/WHO permissible limits in all four cereal types, while chromium and copper were below their respective limits. The study highlights heavy metal contamination in a key Ethiopian staple food supply linked to chemical fertilizer use (diammonium phosphate and urea) in the region.
 
 ## Key numbers

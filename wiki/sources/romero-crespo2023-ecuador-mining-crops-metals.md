@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Romero-Crespo et al. 2023 — Heavy metals in soils and food crops near Ecuadorean mining area
 
+## Overview
+
 Romero-Crespo et al. measured As, Cd, Cr, Cu, Ni, Pb, and Zn in soils and food crops (including leafy vegetables, potato, and corn) in an agricultural zone adjacent to active mining operations in Ecuador. The study documents mining-related soil contamination transfer into edible crop portions, with As and Pb showing the most pronounced elevations relative to background concentrations. Ecuador is the highest Cd context for cocoa globally, but this study focuses on a distinct mining-adjacent geographic zone rather than the volcanic Andean cocoa-growing regions, illustrating that Ecuador's heavy metal burden in agriculture is geographically heterogeneous with mining as a second contamination pathway separate from the volcanic soil Cd pathway.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Attard & Attard 2022 — Heavy metals in cosmetics (review)
 
+## Overview
+
 Open-access IntechOpen book chapter compiling published occurrence data and toxicological information on five heavy metals (Pb, Cd, Ni, Hg, As) across sixteen cosmetic formulation categories. Tables 1-3 aggregate reported concentration ranges from the underlying primary literature for face products, body products, and face/body products. Table 4 reports a Spearman correlation matrix across the five metals; a Principal Component Analysis on the same data identifies lipsticks, eye shadows, face paints, makeup foundation, and skin-lightening creams as the high-metal-load categories. The chapter also catalogs the regulatory limits set by FDA CIR, WHO, EU, and Health Canada and summarizes metallokinetics (dermal absorption, stratum-corneum reservoir effect, allergic contact dermatitis for Ni). Useful as broad regulatory and occurrence context for Cat 2 (Children Personal Care) work; the underlying primary studies are the authoritative occurrence source.
 
 ## Key numbers

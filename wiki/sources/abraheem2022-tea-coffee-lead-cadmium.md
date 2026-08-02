@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Abraheem et al. 2022 - Lead and cadmium in Libyan tea and coffee
 
+## Overview
+
 This study measured lead and cadmium in tea and coffee samples circulating in Tripoli, Libya. It is routeable for coffee and tea occurrence evidence because it reports concentration ranges and means in mg/kg for both beverage commodities.
 
 ## Key numbers

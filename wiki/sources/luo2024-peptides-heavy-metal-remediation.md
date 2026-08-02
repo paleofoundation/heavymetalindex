@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Luo et al. 2024 — Peptides used for heavy metal remediation: a review of mechanisms and sources
 
+## Overview
+
 Luo and colleagues at the Key Laboratory of Coarse Cereal Processing (Sichuan Engineering & Technology Research Center of Coarse Cereal Industrialization, Chengdu University) review the published literature on peptide-based remediation of heavy metal pollution, covering peptide sources (animal, plant, microbial-fermentation, and chemical-synthesis routes), peptide-metal binding chemistry, the chelation reaction mechanism, phytochelatins, metallothioneins, and the cell-transducing TAT peptide. The review is a secondary synthesis with no primary measurements; its value to the wiki is conceptual — it organises the amino-acid residues, peptide families, and binding modes most cited in the peptide-remediation literature and is therefore a routing-relevant background source for `mitigation/remediation-evidence.md` and for any future page on peptide-based contamination mitigation.
 
 ## Why this matters

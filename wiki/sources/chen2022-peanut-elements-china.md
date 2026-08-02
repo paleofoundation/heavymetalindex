@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Chen et al. 2022 — Multi-element concentrations in Chinese peanuts by ICP-MS
 
+## Overview
+
 This peer-reviewed primary study from the Shandong Academy of Agricultural Sciences measured 19 macro, micro and toxic elements in 66 peanut samples from six major Chinese peanut-producing provinces (Jilin, Liaoning, Hebei, Henan, Guangxi, Guangdong). The primary aim was geographical characterization via linear discriminant analysis (LDA); the secondary aim was a baseline toxic-element occurrence dataset for Chinese peanuts. After microwave digestion with HNO3 and H2O2, elements were quantified by ICP-MS (iCAP Q, Thermo) in kinetic-energy-discrimination mode against the GBW10013 (soybean) certified reference material (recoveries 91.4–109.1%; R² > 0.9993). All toxic-element concentrations were below the Chinese GB2762-2017 maximum levels (Cd 0.5 mg/kg, Cr 1 mg/kg in peanuts) and the Australia/New Zealand Food Standards Code limit for Cd (0.5 mg/kg, revised in 2009). Cadmium was the most prominent toxic metal because peanuts are geocarpic (fruits develop underground in direct soil contact), with the highest provincial mean in Liaoning (0.204 mg/kg) and the maximum observed individual sample also in Liaoning. The authors do not speciate arsenic (total As reported) and do not measure mercury.
 
 ## Key numbers

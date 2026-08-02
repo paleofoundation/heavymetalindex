@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Li et al. 2025 — Ratiometric fluorescent sensor for Al3+ and Cu2+ in food
 
+## Overview
+
 This methods paper describes the synthesis and validation of a dual-emission ratiometric fluorescent sensor (GQDs@AuNCs) constructed from nitrogen-doped graphene quantum dots (N-GQDs) and glutathione-stabilized gold nanoclusters (G-AuNCs) for simultaneous detection of Al3+ and Cu2+ in food matrices. The sensor was validated by spiked-recovery experiments in fried dough twists, deep-fried dough sticks (Chinese fried bread), scallops, and razor clams (*Sinonovacula constricta*) purchased in Shenyang, China. The paper does not report ambient (unspiked) Al3+ or Cu2+ concentrations in these food samples; it demonstrates method accuracy via recovery rates.
 
 ## Key numbers

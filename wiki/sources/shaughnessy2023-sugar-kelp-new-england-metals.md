@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shaughnessy et al. 2023 - metals in wild and farmed New England sugar kelp
 
+## Overview
+
 Shaughnessy and coauthors measured arsenic, cadmium, lead, and mercury in wild and farmed sugar kelp from New England. The paper is directly relevant to seaweed foods because it compares farmed and wild material, blade position, geography, and food-safety standards. Cadmium and total arsenic were the main regulatory-concern signals, while inorganic arsenic, lead, and mercury were lower relative to the standards discussed by the authors.
 
 ## Key numbers

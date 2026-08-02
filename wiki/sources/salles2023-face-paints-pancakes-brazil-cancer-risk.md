@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Salles et al. 2023 — Potentially toxic elements in costume cosmetics (face paints + pancakes), Brazil
 
+## Overview
+
 This study quantifies twelve potentially toxic elements (PTEs: Al, As, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr) in 95 costume cosmetics (90 face paints + 5 pancakes) purchased in São Paulo, Brazil, and runs USEPA risk-assessment models for dermal-absorption and incidental-ingestion (hand-to-mouth) exposure pathways for both children (age 2 to <11 y) and adults (≥21 y, occupational scenario). Cancer risk for children ranged from 10⁻⁸ to 10⁻⁵; for adults in occupational scenarios, 10⁻³ to 10⁻⁵. Non-cancer hazard quotients (HQ) stayed below 1 except for dermal exposure in adults for cardiovascular/dermal targets (driven by As, ≈100% contribution) and "other" targets in pancakes (driven by Cr(VI), ≈99% contribution). Arsenic contributed approximately 90% of total cancer risk across all scenarios. Pancake exposure scenarios were associated with higher total risk values than face paint scenarios.
 
 The paper cites the 2009 USA Campaign for Safe Cosmetics finding (its reference [10]) that all commercial face paints tested contained lead and 60% contained known skin allergens (Ni, Co, Cr) at higher-than-recommended levels.

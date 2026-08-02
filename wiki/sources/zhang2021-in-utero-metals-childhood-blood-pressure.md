@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Zhang et al. 2021 — In utero metal/trace element exposure and childhood blood pressure (Boston Birth Cohort)
 
+## Overview
+
 Zhang and colleagues examined the individual and joint associations of in utero exposure to two heavy metals (Pb, Hg, Cd) and two essential trace elements (Se, Mn) — measured in maternal red blood cells (RBCs) collected 24–72 h after delivery as a proxy for third-trimester exposure — with child blood pressure percentile between ages 3 and 15 in a predominantly low-income, urban, racial/ethnic minority U.S. cohort (60.5% non-Hispanic Black, 19.9% Hispanic, 4.8% non-Hispanic White, 14.8% other). The headline finding is an inverse association between maternal RBC selenium and manganese and child systolic blood pressure (SBP) percentile (−6.23 and −2.62 percentile points per doubling of exposure, respectively, in adjusted linear regression); Pb, Hg, and Cd were not individually associated with child SBP. Bayesian kernel machine regression revealed a Mn–Cd interaction whereby the protective Mn–SBP association was stronger at higher Cd levels (p-interaction = 0.04), and maternal cigarette smoking during pregnancy (a major Cd exposure source) further modified the Mn–SBP relationship, with a doubling of maternal Mn associated with a 10.09-point reduction in child SBP percentile among smokers (95% CI: −18.03, −2.15) compared with a 1.49-point reduction in non-smokers (95% CI: −4.21, 1.24; p-interaction = 0.08). No metals or trace elements were associated with child diastolic blood pressure.
 
 ## Key numbers

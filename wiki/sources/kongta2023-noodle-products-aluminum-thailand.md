@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kongta et al. 2023 — Aluminum in noodle products from Thailand
 
+## Overview
+
 Kongta and colleagues measured aluminum in four commonly consumed noodle-product groups sold in Thailand and assessed exposure from noodle consumption. The study collected 80 samples across rice stick noodles, egg noodles, wide rice noodles, and Thai rice noodles from Bangkok and four regional provinces. The paper reports aluminum only; it does not measure lead, cadmium, arsenic, mercury, or chromium.
 
 ## Key numbers

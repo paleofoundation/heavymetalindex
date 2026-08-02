@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Tamele 2020 - African Indian Ocean and Red Sea seafood metals
 
+## Overview
+
 Tamele and Loureiro reviewed lead, mercury, and cadmium occurrence in seafood from African countries on the Indian Ocean and Red Sea coasts. The paper is a narrative review and monitoring-context source, not a primary market-sampling study. Its seafood occurrence table compiles concentrations from cited studies in Egypt, Djibouti, Kenya, Tanzania, Mozambique, and South Africa and reports the occurrence unit as `mgKg−1`.
 
 ## Key numbers

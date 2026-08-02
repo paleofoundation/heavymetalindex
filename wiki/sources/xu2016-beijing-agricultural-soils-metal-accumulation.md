@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Xu et al. 2016 - Metal accumulation in Beijing agricultural soils
 
+## Overview
+
 Xu and colleagues measured metals in 134 composite surface-soil samples from agricultural sites in Beijing and evaluated how land use, soil type, road density, and distance from the urban center affected accumulation. This is primary environmental evidence for agricultural soil. It is useful for soil-to-crop and exposure-context pages, but it is not a crop, food, ingredient, or product occurrence source.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Pappalardo et al. 2017 - canned tuna metals in Italy
 
+## Overview
+
 Pappalardo et al. analyzed canned tuna products sold in Italian supermarkets for cadmium, lead, and total mercury, while also using COI DNA barcoding to verify the tuna species declared on the label. The paper is direct canned-tuna occurrence evidence. Brand-level mean concentrations were reported in mg/kg wet weight for five tuna-in-olive-oil products and five tuna-in-brine products. Mean Cd, Pb, and Hg values were below the cited EU limits, but one batch from an olive-oil product exceeded the Cd limit, and Hg exposure drove the authors' consumption-frequency concern.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Dufault et al. 2015 — Blood inorganic mercury associated with fasting glucose in NHANES
 
+## Overview
+
 Analysis of NHANES data (n=16,232) found a statistically significant direct association between blood inorganic mercury and fasting glucose levels (p<0.001), providing epidemiological support for the hypothesis that dietary exposure to inorganic mercury from heavily processed foods, including high-fructose corn syrup (HFCS) manufactured with mercury-cell chlor-alkali processes, contributes to glucose dysregulation. The authors also conducted a small community-based intervention (n=10 American Indian college students) comparing a macroepigenetics nutrition course against a corn-sweetener elimination support group, finding that participants in the nutrition course showed improvements in fasting glucose and lower blood inorganic mercury trends.
 
 ## Key numbers

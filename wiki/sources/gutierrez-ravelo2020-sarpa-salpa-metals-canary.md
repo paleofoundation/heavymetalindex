@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Gutierrez-Ravelo et al. 2020 - Metals in Sarpa salpa from Tenerife
 
+## Overview
+
 Gutierrez-Ravelo and colleagues measured toxic metals and trace elements in muscle and liver tissue of *Sarpa salpa* collected around Tenerife in the Canary Islands. The study reports fish-muscle occurrence values separately from fish-liver values, with liver showing higher Cd, Pb, Al, Cu, Fe, and Zn than muscle. It does not report mercury or arsenic.
 
 ## Key numbers

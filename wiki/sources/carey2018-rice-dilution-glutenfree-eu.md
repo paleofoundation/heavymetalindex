@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Carey et al. 2018 — Inorganic arsenic in infant rice foods and manufacturer response to EU regulations
 
+## Overview
+
 The 2016 EU regulation set a 100 µg/kg inorganic arsenic (iAs) standard for infant rice-based foods, half the adult standard, to address exposure risk in children who consume ~3-fold more food per body weight than adults and are more sensitive to arsenic toxicity. This study quantified iAs in UK infant food products (porridges, cakes, cereals, mueslis) and their generic equivalents to assess regulatory compliance and identify manufacturer strategies. A strong correlation between rice content and iAs (R² = 0.632, p < 0.0001) indicates that manufacturers are achieving compliance by blending rice with other gluten-free grains rather than sourcing low-arsenic rice alone.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-17
 
 # Redgrove, Rodriguez, Mahadevan-Bava, Exley 2019 — Prescription infant formulas are contaminated with aluminium
 
+## Overview
+
 This International Journal of Environmental Research and Public Health article from the Birchall Centre at Keele University and Russells Hall Hospital, Dudley, is the first systematic survey of aluminium in prescription infant formulas. Twenty-four specialised UK formulas (ready-to-drink and powdered) were obtained from a paediatric clinic and analysed by transversely heated graphite furnace atomic absorption spectrometry (TH GFAAS) following microwave-assisted acid/peroxide digestion. The headline finding: ready-to-drink concentrations range from 49.9 µg/L in a preterm ready-to-drink formula to 1956.3 µg/L in an apple-flavoured ready-to-drink weight-gain supplement, a roughly 40-fold range. The highest-Al product delivers 391.3 µg Al per 200 mL serving. Some prescription formulas, including two amino-acid powders prepared according to manufacturer instructions at 41.4 and 44.4 µg/L, were the lowest-Al formulas measured in the Keele group's accumulated experience, demonstrating that the contamination of infant formulas with aluminium is not inevitable. Powdered formulas were generally less contaminated than ready-to-drink products, which inverts the pattern seen for off-the-shelf formulas in their prior work.
 
 ## Key numbers

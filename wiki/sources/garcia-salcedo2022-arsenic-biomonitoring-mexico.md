@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # García Salcedo et al. 2022 — Arsenic Biomonitoring in Mothers and Neonates, Mexico
 
+## Overview
+
 This 2022 comparative study from Mexico measured total arsenic in multiple biological matrices (breast milk, placenta, maternal and neonate urine) comparing an arsenic-exposed area (Comarca Lagunera) with a non-exposed comparison area (Saltillo), demonstrating transplacental and lactational arsenic transfer.
 
 ## Key numbers

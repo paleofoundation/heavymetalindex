@@ -31,6 +31,8 @@ updated: 2026-05-28
 
 # LHAAC 2025 — CSP41: Microbial and heavy metal detections in herbs and spices, Western Australia
 
+## Overview
+
 This government surveillance project (Coordinated Sampling Project 41, conducted 18 November 2024 to 31 January 2025) assessed the microbiological safety and heavy metal contamination of 380 herb and spice products purchased from retail businesses across 23 local government areas of Western Australia. ICP-MS analysis screened for nine metals (Al, As, Cd, Cr, Cu, Pb, Hg, Ni, Zn) following NATA-accredited methods; results were benchmarked against Codex Alimentarius standards (CXS 193-1995), the Australia New Zealand Food Standards Code, and EU MLs (Regulation 1881/2006 as amended by 2021/1317). The project was conducted in direct response to FSANZ recommendations following the 2023 US cinnamon applesauce recall and global concerns about lead in cinnamon products; Environmental Health Officers were specifically instructed to prioritise cinnamon-containing products. Key finding: As, Cd, and Hg remained within conservative safety thresholds at the population level; Cr exceeded 2 mg/kg in 5.8% of samples (with extreme dried-herb outliers in the hundreds of mg/kg); and lead exceeded the Codex/EU ML of 0.8 mg/kg for dried spices in 29 spice-powder samples and the EU ML of 10 mg/kg for dried herbs in 6 dry-herb samples, with ground cinnamon the dominant offending commodity.
 
 ## Key numbers

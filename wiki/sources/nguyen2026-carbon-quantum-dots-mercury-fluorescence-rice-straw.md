@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Nguyen et al. (2026) synthesize nitrogen and sulfur co-doped carbon quantum dots (N,S-CQDs) from rice straw waste biomass as a precursor, and use these as a fluorescence-quenching probe for the selective detection of Hg2+ in water samples. The use of rice straw as a zero-waste, green synthesis precursor is highlighted as an environmental sustainability contribution.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-07-27
 
 # Blechinger 2026 - Methylmercury neurodevelopment PoDs and TRVs
 
+## Overview
+
 Blechinger, Singh, Afghan, and Smith review how major risk-assessment organizations have derived points of departure (PoDs) and toxicological reference values (TRVs) for neurodevelopmental effects after prenatal methylmercury exposure. The paper is a Health Canada-authored peer-reviewed review in *Archives of Toxicology* that compares US EPA, ATSDR, Health Canada, JECFA, and EFSA approaches, then runs sensitivity analyses against published meta-analyses and Iraq-poisoning neurological-score data. It is toxicology and risk-assessment context, not seafood occurrence evidence.
 
 ## Key numbers

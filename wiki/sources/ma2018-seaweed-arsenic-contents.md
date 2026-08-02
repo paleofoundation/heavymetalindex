@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ma et al. 2018 - total and inorganic arsenic contents in seaweeds
 
+## Overview
+
 Ma and colleagues reviewed published total arsenic and inorganic arsenic measurements in seaweeds, grouping the literature by Rhodophyta, Phaeophyta, and Chlorophyta. This is secondary evidence: it compiles prior studies and does not add new sample measurements. The values below are useful for seaweed/kelp food and algae/seaweed supplement context, but downstream occurrence pooling should trace and de-duplicate the underlying primary studies.
 
 ## Key numbers

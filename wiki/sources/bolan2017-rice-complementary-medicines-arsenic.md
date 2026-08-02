@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Bolan et al. 2017 - arsenic speciation and bioaccessibility in rice and complementary medicines
 
+## Overview
+
 Bolan and colleagues compared total arsenic, operational arsenic fractions, EXAFS species, and gastric-phase bioaccessibility in selected rice grains and complementary medicines. The rice samples were deliberately high-arsenic materials grown with arsenic-contaminated or arsenic-spiked irrigation water, so they are not a general-market rice baseline. The complementary-medicine set included herbal and ayurvedic medicines; the ayurvedic products had higher total and bioaccessible arsenic than the herbal products.
 
 ## Key numbers

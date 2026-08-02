@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Arellano et al. 2023 - Arsenic in Argentine dairy products and infant formula
 
+## Overview
+
 Arellano and colleagues measured total arsenic in raw milk, commercial milk, powdered milk, infant formula, and cheese from Argentina, then estimated arsenic intake and target risk for infants, children, pregnant consumers, and adults. The chapter is occurrence evidence for total arsenic in dairy matrices and infant formula, but it does not speciate inorganic arsenic separately from total arsenic.
 
 ## Key numbers

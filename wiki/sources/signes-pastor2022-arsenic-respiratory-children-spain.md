@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Signes-Pastor et al. 2022 — Dietary arsenic exposure and respiratory outcomes in Spanish children
 
+## Overview
+
 This prospective cohort study from the INMA (Environment and Childhood) project explored the association between inorganic arsenic (iAs) exposure, quantified via urinary arsenic speciation at 4 years of age, and respiratory symptoms assessed at ages 4 and 7 years in 400 Spanish children. In this low-arsenic-water population, food (primarily rice and rice-based products) represents the dominant exposure pathway rather than drinking water. Urinary exposure biomarker: the summed concentration of iAs, MMA, and DMA (ΣAs), measured by IC-ICP-MS (LOD 0.011 µg/L) at Queen's University Belfast. Median urinary ΣAs was 4.92 µg/L at 4 years. GEE-Poisson regression showed an increasing trend in expected counts of cumulative respiratory symptoms (wheeze, asthma, eczema, sneeze) with increasing urinary ΣAs. Adjusted expected counts at ln-ΣAs = 1.57 (average) and 4.00 (99th percentile) were 0.63 and 1.33 respiratory events, respectively. Findings are exploratory but suggest that even at low dietary iAs exposure levels, respiratory health effects may be detectable in young children.
 
 ## Key numbers

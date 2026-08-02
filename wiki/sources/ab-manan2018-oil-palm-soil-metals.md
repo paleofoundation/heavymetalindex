@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Ab Manan et al. 2018 - Oil-palm plantation soil metals
 
+## Overview
+
 Ab Manan and colleagues measured Cu, Zn, Pb, and Ni in oil-palm plantation soil and assessed geo-accumulation index values. This is supply-chain pathway evidence for plantation soil and fertilizer-associated metal loading, not palm-oil occurrence evidence.
 
 ## Key numbers

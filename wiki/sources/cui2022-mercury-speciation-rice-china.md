@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cui et al. 2022 — Source apportionment of mercury in Chinese rice grain
 
+## Overview
+
 This study develops and applies a high-resolution (1 km × 1 km grid) rice paddy mercury transport and transformation model (RMTTM) to simulate total mercury (THg) and methylmercury (MeHg) concentrations across all Chinese rice paddies in 2017. The model quantifies source contributions (atmospheric deposition, soil mercury, irrigation water) to rice grain mercury and identifies heavily polluted regions. Simulated values are validated against published field measurements from multiple Chinese provinces.
 
 ## Key numbers

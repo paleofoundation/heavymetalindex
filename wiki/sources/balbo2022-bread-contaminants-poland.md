@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Balbo and Wozniak 2022 — Chemical contaminants including heavy metals in rye-wheat bread, Poland
 
+## Overview
+
 This EFSA EU-FORA technical report measured acrylamide, mycotoxins (DON and related compounds), and six heavy metals (Al, As, Cd, Cr, Pb, Ni) in 51 loaves of rye-wheat bread (refined flour) randomly purchased in Warsaw, Poland. Heavy metal occurrence was measured by ICP-MS per European standard EN 15763:2009. All heavy metal concentrations were below EU maximum levels for the applicable matrices. However, estimated dietary exposures for aluminium, lead, and nickel raised public health concerns across some population groups, particularly toddlers and children, when combined with EFSA consumption data.
 
 ## Key numbers

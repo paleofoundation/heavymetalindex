@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Jurkovic et al. 2025 — Heavy metals in flooded-area chard
 
+## Overview
+
 Jurkovic et al. measured heavy metals and microbiological indicators in a soil-plant system after major flooding in central Bosnia and Herzegovina. The source is routeable to leafy vegetables because it reports chard tissue measurements, but it should remain jurisdiction- and event-specific because the sampling frame is a flooded-area case study. The paper found elevated Pb in soils and sludge, root-favoring Pb behavior in chard, and cases where chard Cd exceeded permissible amounts.
 
 ## Key numbers

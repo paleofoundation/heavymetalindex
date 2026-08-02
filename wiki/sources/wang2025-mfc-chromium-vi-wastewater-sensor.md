@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Wang et al. (2025) develop a single-chamber microbial fuel cell (MFC) as a biosensor for the detection of hexavalent chromium (Cr(VI)) in wastewater. The MFC exploits the inhibitory effect of Cr(VI) on microbial electro-activity to generate a quantitative signal proportional to Cr(VI) concentration.
 
 ## Key numbers

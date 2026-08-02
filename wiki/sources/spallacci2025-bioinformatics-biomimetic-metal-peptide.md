@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Spallacci et al. 2025 — Bioinformatics design of an 8-residue copper-binding β-sheet peptide that mimics the laccase trinuclear Cu site
 
+## Overview
+
 Spallacci and colleagues (Uppsala University, Naples Federico II, University of Florence, and the CNR Institute of Biostructures and Bioimaging, Naples) report the design and proof-of-concept characterisation of a minimal eight-residue peptide, H4pep (sequence HTVHYHGH), built to function as a biomimetic of the trinuclear Cu site of the small laccase from *Streptomyces viridosporus* (PDB 3tbc). The sequence was derived using the authors' bioinformatic tool MetalSite-Analyzer (MeSA), which extracts metal-binding fragments from a target metalloenzyme's minimal functional site (MFS), runs a PSI-BLAST conservation search against UniRef50, and outputs Skylign sequence logos that drive rational residue selection. Cu(II) binding to H4pep produces a β-sheet Cu²⁺ₓ(H4pep)ᵧ assembly with two distinct stoichiometries (1Cu2Pep and 2Cu2Pep), as resolved by combined UV-visible, circular dichroism, EPR and NMR titration data and supported by DFT geometry optimisation. The 1Cu2Pep species shows electrocatalytic O₂-reduction activity at −0.20 V vs Ag/AgCl, demonstrating that a single short peptide can reproduce both the β-sheet structural motif and a functional mimic of laccase redox chemistry. The paper is a methods-and-design contribution; there are no food, cosmetic, or human-exposure measurements.
 
 ## Why this matters

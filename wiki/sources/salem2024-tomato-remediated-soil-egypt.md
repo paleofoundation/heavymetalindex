@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Salem et al. 2024 — PTEs in tomato fruits from remediated and non-remediated contaminated soil, Egypt
 
+## Overview
+
 This study evaluates whether bioremediation treatments applied to Cd-, Ni-, Cu-, Zn-, and Pb-contaminated agricultural soil and drainage water in El-Rahawy Village, Giza Governorate, Egypt can produce tomato fruits (Solanum lycopersicum var. cerasiforme) that are safe for human consumption. The study combines a greenhouse pot experiment with a field-scale validation and measures both PTE concentrations in harvested tomato fruits and microbiological safety. A health risk assessment (EDI, THQ) is included.
 
 ## Key numbers

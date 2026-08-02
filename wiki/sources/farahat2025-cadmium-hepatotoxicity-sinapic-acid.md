@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Farahat et al. 2025 - Sinapic acid and cadmium hepatotoxicity in rats
 
+## Overview
+
 Farahat and colleagues tested whether oral sinapic acid pretreatment mitigated acute cadmium-chloride liver injury in male Wistar rats. This is primary health/toxicology evidence, not food, ingredient, or product occurrence evidence. The routeable metal facts are the CdCl2 exposure dose, measured liver Cd accumulation, and downstream liver-function and oxidative-stress outcomes.
 
 ## Key numbers

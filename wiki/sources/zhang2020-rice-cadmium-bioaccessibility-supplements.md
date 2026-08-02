@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2020 — Rice cadmium bioaccessibility under dietary-supplement additions
 
+## Overview
+
 Zhang et al. measured selenium, zinc, and cadmium in steamed rice from Guangxi Province and tested how common dietary supplement additions changed in vitro gastrointestinal bioaccessibility. The source contributes rice occurrence and bioaccessibility context for cadmium, while the supplement additions are mitigation/intervention conditions rather than measurements of supplement contamination.
 
 ## Key numbers

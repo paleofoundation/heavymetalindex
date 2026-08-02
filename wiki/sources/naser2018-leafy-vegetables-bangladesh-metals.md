@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Naser et al. 2018 - metals in spinach and other leafy vegetables in Bangladesh
 
+## Overview
+
 Naser and coauthors measured Pb, Cd, Ni, Co, and Cr in spinach (Spinacia oleracea), red amaranth (Amaranthus tricolor), and amaranth (Amaranthus oleraseus) grown across a three-tier pollution gradient in Gazipur, Bangladesh: two industrial sites irrigated with Turag river water (high pollution, Kalakoir) or pond/kennel water (medium pollution, Zorun, Konabari) and one non-industrial experimental field (low pollution, BARI). The source is routeable to spinach and to leafy-vegetables-other because leaf and whole-plant tables report explicit dry-weight concentrations by species and by pollution level. Industrial-area findings should be kept jurisdiction- and site-contextual.
 
 ## Key numbers

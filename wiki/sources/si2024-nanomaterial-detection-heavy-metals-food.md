@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Si et al. 2024 — Nanomaterial-based detection of trace heavy metals in food
 
+## Overview
+
 Si and colleagues at Beijing University of Chemical Technology survey recent advances in nanomaterial-based analytical methods for detecting trace heavy-metal ions in food samples. The review is organized into three method classes — electrochemical, colorimetric, and fluorescent — and emphasizes nanomaterial-enabled sensors (metal-organic frameworks, MXenes, carbon dots, gold nanoparticles, single-atom nanozymes) as alternatives to conventional ICP-MS, AAS, and GC-MS for rapid on-site screening. The review is shorter and more recent than Meng et al. 2023, and it adds colorimetric and fluorescent modalities that Meng does not cover.
 
 ## Key numbers

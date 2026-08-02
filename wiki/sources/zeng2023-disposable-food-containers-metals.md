@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zeng et al. 2023 - disposable food-container metal migration
 
+## Overview
+
 Zeng et al. (2023) measured fourteen metals and metalloids released from disposable fast-food container products into hot water. The routeable occurrence signal is food-contact-material leachate, not intrinsic food contamination: paper cups, plastic cups, plastic bags, and plastic bowls were filled or contacted with freshly boiled water for 15 min and the resulting leachates were analyzed by ICP-MS. Table 1 reports mean +/- SD concentrations in `microgram/L` for seven experiments per product type.
 
 ## Key numbers

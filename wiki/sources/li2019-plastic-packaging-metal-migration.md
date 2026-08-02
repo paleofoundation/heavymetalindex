@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Li 2019 - plastic food packaging metal migration
 
+## Overview
+
 Li, Lee, and Zhan report a Shimadzu application-note experiment measuring 14 elements leached from plastic food-packaging materials into aqueous simulants by ICP-MS. The evidence is C-tier because it is a vendor application note rather than a peer-reviewed paper, but it contains routeable food-contact-material leachate values for PS and PP containers and PE film. The results are migration into simulants, not metal concentrations in food as consumed.
 
 ## Key numbers

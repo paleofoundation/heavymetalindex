@@ -26,6 +26,8 @@ updated: 2026-06-07
 
 # Wale 2023 — Heavy metals in fruits and vegetables (International Journal of Food Science and Biotechnology)
 
+## Overview
+
 This three-page single-author narrative review (Vol. 8, No. 2, pp. 23-25, doi 10.11648/j.ijfsb.20230802.12) summarizes secondary claims from the heavy-metals-in-produce literature, framed around the general thesis that untreated wastewater discharges from leather and textile industries, automobile lead emissions, and inadequate household waste disposal are the dominant routes by which Pb, Cd, As, Cr, Ni, and other heavy metals enter fruits, vegetables, and fruit juices at concentrations the review claims exceed WHO/FAO tolerable limits. The review presents no primary measurements; its two data tables are tertiary reproductions of values from Anwar et al. 2014 (Table 1, essential trace-element dietary reference intakes) and Ihesinachi and Eresiya 2014 (Table 2, claimed WHO/FAO tolerable limits in fruit juices). The paper carries paper-internal defects flagged below — notably a units-label inconsistency in Table 2 and an inclusion of palladium (Pd) as a major dietary heavy-metal contaminant alongside Pb/Cd/As/Cr, which is not a mainstream characterization in the heavy-metals-in-food literature. Evidence tier C: thin narrative review at a low-prestige Science Publishing Group venue with entirely tertiary data and unverified secondary citations.
 
 ## Key numbers

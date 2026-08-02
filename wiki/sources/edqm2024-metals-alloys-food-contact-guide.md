@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # EDQM 2024 - metals and alloys food-contact-material guide
 
+## Overview
+
 The EDQM / Council of Europe 2nd edition technical guide supplements Resolution `CM/Res(2020)9` for food-contact materials and articles made from metals and alloys. It sets specific release limits (`SRLs`) in `mg/kg food`, summarizes safety reviews for alloy components and metal contaminants, and specifies release-testing approaches for foodstuffs and food simulants. This is regulatory context for metal food-contact materials rather than an occurrence study; its values are release limits and test-method instructions, not measured product concentrations.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Liang et al. 2024 - Rice cadmium reduction with Fe-modified biochar and green-manure DOM
 
+## Overview
+
 Liang and colleagues tested whether dissolved organic matter from co-decomposed Chinese milk vetch and rice straw strengthens Fe-modified biochar immobilization of cadmium in a paddy-rice pot experiment. The food-matrix endpoint is brown-rice Cd, not rice milk: the combined Fe-modified biochar plus milk-vetch/rice-straw treatment lowered brown-rice Cd by 86.2% versus untreated soil, 82.5% versus the organic-residue mixture alone, and 34.7% versus Fe-modified biochar alone. The source is useful for agronomic mitigation and rice-grain Cd routing, but it is not a market-occurrence survey and should not be pooled as a consumer-market benchmark distribution.
 
 ## Key numbers

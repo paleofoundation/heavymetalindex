@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Maier and Benoit 2019 — Role of Nickel in Microbial Pathogenesis
 
+## Overview
+
 This MDPI Inorganics review by Robert Maier and Stéphane Benoit (University of Georgia, Center for Metalloenzyme Studies) synthesizes the mechanistic literature on nickel-dependent virulence factors in human and animal pathogens. The review covers the [NiFe] hydrogenase and urease enzyme families, with particular depth on Helicobacter pylori (the gastric pathogen most heavily dependent on Ni for both H2-utilization-driven host colonization and translocation of the carcinogenic CagA toxin into host epithelial cells). Salmonella enterica Typhimurium hydrogenases are characterized as host-colonization factors; Proteus mirabilis, Staphylococcus species, and Cryptococcus genus ureases are reviewed as pathogenesis components in urinary-tract, soft-tissue, and meningeal infections respectively. The authors document the pathogen Ni-uptake, Ni-storage, and Ni-maturation enzyme machinery that supports the virulence-relevant Ni utilization.
 
 ## Key conclusions

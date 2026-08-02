@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Brooke 1981 - Fish and shellfish inorganic arsenic
 
+## Overview
+
 Brooke and Evans developed two methods for determining total inorganic arsenic in fish, shellfish, and fish products. The paper is method-focused, but Table V reports occurrence-style values for total arsenic and inorganic arsenic in fish and shellfish sample rows. Inorganic arsenic is reported as the sum of the inorganic valency states isolated by the methods; total arsenic remains a separate `tAs` measurement.
 
 ## Key numbers

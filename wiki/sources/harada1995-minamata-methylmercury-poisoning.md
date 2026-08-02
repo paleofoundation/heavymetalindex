@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Harada 1995 - Minamata methylmercury poisoning in Japan
 
+## Overview
+
 Harada reviews Minamata disease as methylmercury poisoning caused by ingestion of contaminated fish and shellfish from Minamata Bay and the Shiranui Sea. The paper is primarily a health-effect and historical exposure source, but it reports several historical marine-life mercury concentrations from Minamata Bay and the estuary. Those values are recorded here as source-reported Hg/total-Hg context, not as modern seafood market occurrence data and not as measured methylmercury occurrence.
 
 ## Key numbers

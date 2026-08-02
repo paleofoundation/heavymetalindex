@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Wu et al. 2021 - ETAAS measurement of Pb and Cd in edible salt and soy sauce
 
+## Overview
+
 Wu and coauthors developed an ETAAS method using fluorescent carbon nanoparticles as a matrix modifier for Pb and Cd in high-salt foods. The paper includes measured blank-sample values and spike recoveries for edible salt and soy sauce, so it is limited occurrence evidence as well as a method-validation source. It should be used cautiously because the study design is analytical-method validation rather than a market survey.
 
 ## Key numbers

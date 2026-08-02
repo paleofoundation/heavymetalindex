@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # El-Batal et al. 2023 — Heavy metals in carrots irrigated with wastewater; selenium nanoparticle mitigation, Egypt
 
+## Overview
+
 El-Batal et al. measured Ni, Cd, Pb, and Co in carrot roots irrigated with municipal wastewater in Egypt, and evaluated whether soil application of selenium nanoparticles (Se-NPs) could reduce metal accumulation in edible carrot tissue. Wastewater irrigation is widely practiced in Egyptian and broader North African agriculture due to water scarcity, but municipal wastewater carries elevated heavy metal loads from industrial and household sources, creating a distinct contamination pathway compared to geogenically or atmospherically contaminated soils in European production zones. The Se-NP treatment reduced carrot Ni, Cd, and Pb accumulation by 30–60% relative to wastewater-irrigated controls.
 
 ## Key numbers

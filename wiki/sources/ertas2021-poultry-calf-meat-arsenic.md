@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Ertas et al. 2021 - Total arsenic in poultry and calf meat
 
+## Overview
+
 This study measured total arsenic in calf, chicken, and turkey meat samples using hydride-generation atomic fluorescence spectrometry. It is routeable for poultry and beef/calf meat occurrence evidence because it reports species-specific arsenic means in ng/g.
 
 ## Key numbers

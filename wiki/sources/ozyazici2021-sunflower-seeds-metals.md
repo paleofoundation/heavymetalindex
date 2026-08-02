@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Gül and Kul 2021 - heavy metals in oil sunflower seeds from the Middle Black Sea Region of Turkey
 
+## Overview
+
 Gül and Kul measured heavy metals in 18 oil sunflower (Helianthus annuus L.) seed samples drawn from six locations across the Middle Black Sea Region of northern Turkey (Havza, Vezirköprü, Bafra in Samsun; Merzifon in Amasya; Turhal in Tokat; and Çorum). The source is directly routeable to sunflower seeds and provides range values for Cd, Pb, Ni, Al, Cu, and Zn. Units in the abstract are reported as µg/kg and should be checked against the source's figures before conversion.
 
 ## Key numbers

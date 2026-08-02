@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Seesuan et al. (2025) develop a colorimetric sensor for hexavalent chromium (Cr(VI)) detection using a deep eutectic solvent (DES)/EDTA system as both the extraction and chromogenic medium. The method is validated in water and soil matrices.
 
 ## Key numbers

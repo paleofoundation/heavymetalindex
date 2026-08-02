@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Buchet et al. 1983 — Belgian duplicate-meal metal intake
 
+## Overview
+
 Buchet and colleagues analyzed 124 duplicate 24-hour meals from three Belgian areas and a Brussels hospital kitchen for Cd, Pb, Mn, Cu, Cr, Hg, Ca, Zn, and As. This is a dietary-exposure source: it measures whole daily meals and beverages, not concentration in a specific product category. It is therefore useful as historical duplicate-diet context and broad mixed-meal exposure evidence, but not as product-row occurrence data for standards pooling. Arsenic and mercury are reported as total elements only.
 
 ## Key numbers

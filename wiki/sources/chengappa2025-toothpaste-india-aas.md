@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Chengappa et al. 2025 — Cu, Zn, tAs, Pb in 20 over-the-counter toothpastes by flame AAS, India
 
+## Overview
+
 This Scientific Reports primary occurrence study quantifies four metals (copper, zinc, total arsenic, lead) by flame atomic absorption spectroscopy in twenty over-the-counter toothpastes purchased on Indian e-commerce platforms in 2024. All twenty samples contained measurable Cu, Zn, and As; five samples were below the lead reporting threshold. The highest single-product concentrations were Cu 0.0620 mg/L, Zn 7.4224 mg/L, As 0.5371 mg/L, and Pb 0.0544 mg/L. Comparing against the strictest jurisdiction the paper invokes — the EU SCCS recommendations of 0.1 mg/L As and 0.5 mg/L Pb in toothpaste — the paper concludes only one sample (the highest-As whitening toothpaste at 0.54 mg/L) exceeds the EU arsenic ceiling; the per-table enumeration shows three samples flagged as exceeding (two whitening and one kids' toothpaste), and a stricter reading of the 0.1 mg/L limit against the per-sample As values would put roughly eleven of twenty above the ceiling. The paper-internal narrative/table/strict-reading mismatch is recorded in Verification notes. No samples exceed the cited US FDA, WHO, Health Canada, or India BIS 6356 limits, all of which are higher than the EU limit by a factor of 5–200 for arsenic and a factor of 10–40 for lead.
 
 ## Key numbers

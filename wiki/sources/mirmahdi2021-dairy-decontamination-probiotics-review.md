@@ -28,6 +28,8 @@ updated: 2026-05-30
 
 # Mirmahdi et al. 2021 — Biodecontamination of milk and dairy by probiotics: review (Italian J. Food Science)
 
+## Overview
+
 This narrative review from an Iran–Pakistan author group, published in the Italian Journal of Food Science (Codon Publications, Special Issue 2, 2021), surveys (i) heavy metal and mycotoxin contamination patterns in milk and dairy products worldwide and (ii) the use of probiotic lactic acid bacteria (LAB), kefir grains, and yeast — especially *Saccharomyces cerevisiae* — as biosorbents for in-product decontamination. Heavy metals are the secondary focus; the dominant analytical focus is aflatoxin M1 (AFM1) and other mycotoxins. For the Heavy Metal Index the load-bearing content is Table 1 (country-level Pb / Cd / As concentrations in milk from ten primary studies, 2014–2021), Table 5 (heavy-metal removal efficiencies by LAB and yeasts in milk and kefir matrices), the cited International Dairy Federation (IDF) maximum permissible limits, and the FDA / EU AFM1 ceilings. No primary occurrence measurements are generated; the review is a directional gateway to the cited primary literature.
 
 ## Key numbers

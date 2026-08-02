@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Eccles et al. 2024 — Metals in polar bear tissues as traditional food for Inuit, Canadian Arctic
 
+## Overview
+
 This study measured 32 metals in feces, muscle, liver, and fat of 49 polar bears harvested through community-based monitoring programs across six Canadian Arctic subpopulations (2016–2019). The primary goal was to develop predictive models converting fecal metal concentrations to internal tissue concentrations for non-invasive biomonitoring. The paper also includes a human health risk screening for Inuit consumption of polar bear muscle, using methylmercury as the example analyte. Polar bear liver shows very high total mercury (mean 45.86 µg/g dw), and MeHg in muscle (mean 0.43 µg/g dw) is relevant to Inuit traditional food exposure.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Braga, Quecchia, Perotta, Timpini, Maccarinelli, Di Tommaso, Di Gioacchino 2013 — SNAS nosologic framework and diet regimen for diagnosis
 
+## Overview
+
 This Int J Immunopathol Pharmacol study from the Spedali Civili Brescia and University G. d'Annunzio Chieti SNAS-research groups is the canonical reference for the SNAS nosologic framework and the development of the BraMa-Ni diet as a diagnostic tool. 145 patients with suspected SNAS underwent oral nickel challenge for definitive diagnosis, and the BraMa-Ni structured low-nickel diet (~50 µg Ni/day, nutritionally balanced) was compared against the conventional forbidden-foods-list approach for sensitivity and specificity. The BraMa-Ni diet substantially outperformed the forbidden-food-list approach: 94.4 percent sensitivity and 93.3 percent specificity, versus 51.1 percent / 44.2 percent for the simpler list. The paper consolidates SNAS as a well-defined clinical entity with rigorous diagnostic criteria.
 
 ## Key numbers

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Noor et al. 2023 - Pb and Cd screening in Merapi Robusta coffee
 
+## Overview
+
 Noor and coauthors compared Merapi Robusta coffee roasted by traditional, semi-modern, and modern methods at two roasting durations (20 and 25 min). The primary study focus is quality and sensory performance; the three best-scoring hedonic samples (sample 1: traditional 20 min; sample 3: semi-modern 20 min; sample 6: modern 25 min) were then tested by ICP-MS for Pb and Cd and by LC-MS/MS for ochratoxin A. All three samples were below the limits of detection for all three analytes.
 
 ## Key numbers

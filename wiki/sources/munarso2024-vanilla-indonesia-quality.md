@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Munarso et al. 2024 — Chemical quality and production dynamics of Indonesian vanilla
 
+## Overview
+
 Survey-and-laboratory study of cured Indonesian vanilla beans (Vanilla planifolia Andrews) sampled May–August 2023 across seven provinces, conducted by Indonesia's National Research and Innovation Agency (BRIN) with the National Food Agency (NFA) to inform a Codex Alimentarius draft standard for vanilla. The paper's primary focus is vanillin content and physical/chemical quality across four export grades, plus production constraints (theft-driven premature harvest, curing variation between farmers and exporters). Heavy-metal data (Pb and Cd only) appear in a single contaminant table (Table 6) framed by the authors as evidence supporting a "clean-green-safety" positioning of Indonesian vanilla in the export market.
 
 ## Key numbers

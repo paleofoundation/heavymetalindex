@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sim et al. 2024 — HPLC-ICP-MS method for inorganic arsenic in seaweed, grain, and novel food matrices
 
+## Overview
+
 This paper develops and validates an optimized HPLC-ICP-MS method for iAs determination in a range of food matrices including seaweed, rice, grass silage, and insect proteins, using a design of experiments (DoE) approach to optimize chromatographic conditions. The method is validated against certified reference material (hijiki certified reference material) achieving 99±9% recovery for iAs. The paper also reports iAs concentrations in the tested matrices, establishing that Laminaria digitata can have iAs comprising more than 50% of total arsenic in some samples, with regulatory implications under the EU maximum level for iAs in seaweed.
 
 ## Key numbers

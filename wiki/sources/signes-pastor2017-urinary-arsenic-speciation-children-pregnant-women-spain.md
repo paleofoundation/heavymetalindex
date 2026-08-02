@@ -26,6 +26,8 @@ updated: 2026-05-09
 
 # Signes-Pastor, Carey, Vioque, Navarrete-Muñoz, Rodríguez-Dehli, Tardón, Begoña-Zubero, Santa-Marina, Vrijheid, Casas, Llop, Gonzalez-Palacios, Meharg 2017 — Urinary arsenic speciation in children and pregnant women from Spain
 
+## Overview
+
 This Exposure and Health original-research paper from the Signes-Pastor / Meharg group at Queen's University Belfast in collaboration with the Spanish INMA (Infancia y Medio Ambiente) cohort consortium reports urinary arsenic speciation in Spanish children and pregnant women using ion chromatography coupled to ICP-MS. The paper is one of the foundational European biomarker cohorts for child and prenatal As exposure assessment, and the Signes-Pastor / Meharg group is the European center of expertise for inorganic arsenic in food and biomarkers. The paper complements the U.S. Dartmouth infant-As cluster ([[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort|Carignan 2016 cohort]]) with the European prospective evidence base.
 
 ## Key conclusions

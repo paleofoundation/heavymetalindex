@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # EFSA FAF Panel 2022 — Safety evaluation of buffered vinegar as a food additive
 
+## Overview
+
 The EFSA Panel on Food Additives and Flavourings (FAF) issued this scientific opinion (adopted 18 May 2022; question EFSA-Q-2021-00349; requestor European Commission) on an application to authorise buffered vinegar as a preservative food additive in 24 food categories under EU Regulation (EC) No 1333/2008. Buffered vinegar is a liquid or dried mixture prepared by adding sodium/potassium hydroxides (E 524–525) and/or carbonates (E 500–501) — and optionally citric acid (E 330) as a pH regulator before spray drying — to vinegar exclusively obtained from biological fermentation of agricultural source materials (except wood/cellulose), compliant with European Standard EN 13188:2000. The primary constituents are acetic acid and its salts. The Panel concluded there is no safety concern at the proposed maximum/typical use levels; it could not conclude on safety at *quantum satis* because the resulting exposure cannot be estimated. Critically for this wiki, the opinion includes a risk assessment of toxic-element impurities (As, Pb, Cd, Hg) in the proposed additive, with both applicant-proposed specification limits and actual batch analytical data, evaluated against EFSA reference points and tolerable weekly intakes.
 
 ## Key numbers

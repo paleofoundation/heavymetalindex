@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Pankavec et al. 2019 — Mineral constituents of commercially pickled white button mushrooms (Poland)
 
+## Overview
+
 This study characterised the multi-element composition of commercially conserved (pickled and canned) white button mushrooms (Agaricus bisporus) available on the Polish market in 2016, measuring 23 elements — Hg, Li, Mg, Al, Co, Ni, Cu, As, Se, Rb, Sr, Ag, Cd, Cs, Sb, Tl, Pb, U, Ba, Cr, Zn, Mn, V — across 100 unit packages drawn from 10 product batches and six manufacturers. The toxicologically critical analytes Pb, Cd, tHg, and tAs were present at overall medians of 0.072, 0.040, 0.043, and 0.030 mg/kg dry mass (dm) respectively, all well below the EU maximum levels of 0.30 mg/kg fresh weight (fw) for Pb and 0.20 mg/kg fw for Cd in cultivated Agaricus bisporus under Commission Regulation (EC) No 629/2008 (which, assuming the paper's ~90% moisture conversion, correspond to roughly 3.0 and 2.0 mg/kg dm). Significant inter-producer variability was observed for Li, As, Rb, Sr, Ag, Ba, and Cs (PC1 of the PCA, 42% of total variance), which the authors attribute to differences in marinade quality (water, salt, vinegar) rather than mushroom substrate. Industrial conserving substantially reduces toxic-element content relative to fresh A. bisporus, particularly for tAs (roughly 10-fold reduction attributed to water-soluble arsenical species leaching during blanching and pickling) and Cd/Pb (roughly an order of magnitude lower medians than fresh).
 
 ## Key numbers

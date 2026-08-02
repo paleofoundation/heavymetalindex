@@ -30,6 +30,8 @@ updated: 2026-05-29
 
 # Angelon-Gaetz et al. 2018 — Lead in spices, herbal remedies, and ceremonial powders, North Carolina
 
+## Overview
+
 This MMWR surveillance report from the North Carolina Childhood Lead Poisoning Prevention Program (NCCLPPP) describes seven years of environmental lead investigations in the homes of 61 children with confirmed elevated blood lead levels (BLLs), in which spices, herbal remedies, and ceremonial powders were sampled. Of 386 samples collected from 59 properties (6.0% of the 983 home lead investigations conducted in NC during January 2011–January 2018), 111 samples were contaminated with ≥1 mg/kg Pb — 28.8% of the full 386-sample set and 62.7% of the 177 samples that fell within the 50 product categories whose mean Pb was ≥1 mg/kg. Mean lead levels of ≥1 mg/kg were identified in 50 product categories — 40 food categories and 10 nonfood categories. Among edible items, turmeric had the highest average lead concentration (66.4 mg/kg, range 0.1–740 mg/kg, n=34); among nonfood items, traditional cosmetic and ceremonial powders (kumkum, sindoor, surma) reached percent-level lead concentrations, with sindoor averaging 41,401 mg/kg (range 0.1–130,000 mg/kg, n=8). The affected children were predominantly of Asian descent (67.2%), and 71% of the investigated properties were built after 1978, ruling out lead paint as the primary exposure source in most homes. The authors directly called for a national maximum allowable limit for lead in spices and herbal remedies, which did not exist at the time of publication.
 
 ## Key numbers

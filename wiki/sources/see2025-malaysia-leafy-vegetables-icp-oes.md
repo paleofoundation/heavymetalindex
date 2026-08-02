@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # See et al. 2025 — Heavy metals in leafy vegetables from Selangor wet market, Malaysia
 
+## Overview
+
 This 2025 Malaysian market survey measured Al, Cd, Cr, Cu, Fe, and Pb in four commercially important leafy vegetables (cabbage, mustard, spinach, and pak choi) purchased from Pasar Borong Selangor, one of the largest wholesale wet markets in the Klang Valley region, using inductively coupled plasma–optical emission spectrometry (ICP-OES). Cd, Cr, Cu, and Pb were undetected in all samples (below detection limits of <0.004 mg/kg for Cd and Pb, <0.01 mg/kg for Cr and Cu). Al and Fe were detected at levels within FAO/WHO permissible limits, with spinach consistently showing the highest concentrations of both metals. Health-risk assessment via target hazard quotient (THQ) and hazard index (HI) found low non-carcinogenic risks for the adult population across all vegetables and metals; target cancer risk (TCR) values were not calculable because no carcinogenic metals were detected.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Abdolahpour Alamdari et al. 2023 — Heavy metals in vegetables from Babol, Iran
 
+## Overview
+
 This cross-sectional descriptive study measured copper (Cu), zinc (Zn), cadmium (Cd), and lead (Pb) in eight vegetable types grown in Babol city, Mazandaran Province, northern Iran during the 2021 harvest season. The highest mean Pb (0.5 mg/kg fresh weight) and Cd (0.06 mg/kg fresh weight) in Table 1 were both in parsley, with spinach and basil close behind, consistent with leafy vegetables accumulating more heavy metals than root vegetables or fruit vegetables. All hazard quotients (HQ) for Pb and Cd were below 1; Zn HQ exceeded 1 for parsley and spinach. Pb concentrations in parsley (0.5 mg/kg), spinach (0.48 mg/kg), and basil (0.16 mg/kg) exceeded the Iran National Standard Pb limit for leafy vegetables (0.2 mg/kg); Cd in parsley (0.06 mg/kg) and basil (0.032 mg/kg) exceeded the Iran Cd limit for leafy vegetables (0.05 mg/kg for leafy), while spinach Cd (0.04 mg/kg) was just below. Root and fruit vegetables met both standards. Sample size is small (n=4 per vegetable type, n=32 total), and the study covers a single agricultural area in northern Iran.
 
 ## Key numbers

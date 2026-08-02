@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Kumar et al. 2022 — Heavy metals and minerals in 12 freshwater macrophytes as feed ingredients
 
+## Overview
+
 Kumar and colleagues analyzed the mineral composition of twelve freshwater macrophyte species (duckweeds, watercress, waterthyme, water spinach, water clover, water cabbage, water fern, and others) grown under controlled outdoor culture conditions in India, using ICP-MS (Agilent 7900). Among the heavy metals of concern, Pb was detected in all twelve species; Cd was highest in Hydrilla verticillata; Sn, Ni, and Cr were also measured. All Cd, Cu, Pb, and Sn values were reported as within WHO/FAO permissible limits (Cd: 0.2 mg/kg wet wt; Pb: 0.3 mg/kg wet wt; Sn: 250 mg/kg wet wt), noting that the study measured dry weight and the comparison requires adjustment for approximately 90% moisture. Several macrophytes are consumed by humans in South and Southeast Asia; the majority are candidates for use as animal feed ingredients.
 
 ## Key numbers

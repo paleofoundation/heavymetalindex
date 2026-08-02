@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Daisley et al. 2018 - Lactobacillus sequestration of lead and cadmium
 
+## Overview
+
 Daisley and colleagues tested whether Lactobacillus rhamnosus GR-1 and related lactobacilli can bind lead and cadmium in solution and reduce transport across an intestinal epithelial model. This is probiotic mitigation evidence: it supports a sequestration mechanism for reducing absorption from contaminated food or water, but it does not measure metals in probiotic supplements or consumer foods.
 
 ## Key numbers

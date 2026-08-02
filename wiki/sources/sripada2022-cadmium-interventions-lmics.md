@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-17
 ---
 
+## Overview
+
 This systematic review (PROSPERO CRD42021235435) searched five databases, returned 4098 records, and included 26 intervention studies from 21 low- and middle-income countries that aimed to reduce cadmium exposure during pregnancy and childhood. Interventions ranged from nutritional supplements, probiotic yogurt, dietary education (rice cooking methods), chelation therapy, and indoor air filtration to agricultural soil remediation (biochar, organic amendments). The review found that several interventions showed measurable reductions in cadmium body burden or food-chain concentrations, but none offered a realistic scalable solution. Rice-specific interventions (rice cooking method education, rice paddy soil biochar amendment) were notably represented. The finding that no existing intervention robustly addresses Cd pollution at scale underscores the ongoing need for upstream source control and supply-chain screening.
 
 ## Key numbers

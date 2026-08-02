@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Zolfaghari 2018 — Mercury and lead in fish from Iranian international wetlands
 
+## Overview
+
 Mercury and lead concentrations were determined in multiple tissues of several fish species from three internationally significant Iranian wetland systems: Anzali Wetland (Caspian Sea coast), the Caspian Sea, and Hamun Wetlands. Species analyzed included Rutilus rutilus, Hemiculter leucisculus, Alosa caspia caspia, Ctenopharyngodon idella, Cyprinus carpio, Hypophthalmichthys molitrix, Hypophthalmichthys nobilis, Schizocypris altidorsalis, and Schizothorax zardunyi. Mercury concentrations in all species were below FAO, WHO, FDA, and EU limits for fish. Lead concentrations in C. idella, C. carpio, and H. molitrix were below FAO, WHO, FDA, Turkish Acceptable Limits, UK MAFF, and NHMRC limits; however, Schizocypris altidorsalis and Schizothorax zardunyi had lead concentrations above WHO and Turkish Acceptable Limits. Hazard Quotient (HQ) analysis showed cumulative risk increases markedly with fish consumption frequency, raising consumer health concerns for high fish-consuming populations.
 
 ## Key numbers

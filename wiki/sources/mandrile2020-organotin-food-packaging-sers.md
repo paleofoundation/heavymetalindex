@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Mandrile 2020 - organotin migration from PVC food packaging by SERS
 
+## Overview
+
 Mandrile and colleagues evaluated surface-enhanced Raman scattering (`SERS`) for detecting dibutyltin maleate (`DTM`) and tributyltin chloride (`TBT`) migrating from intentionally spiked PVC cling film into `3%` acetic-acid food simulant. The study is useful food-contact leachate context, but it is not a market-occurrence survey because the PVC films were experimentally additivated. Organotin values are reported as compound-specific DTM/TBT or as tin equivalents and should not be collapsed into total tin or inorganic tin.
 
 ## Key numbers

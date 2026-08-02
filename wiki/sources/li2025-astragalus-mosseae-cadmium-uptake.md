@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Li et al. 2025 - Funneliformis mosseae and copper effects on Astragalus cadmium uptake
 
+## Overview
+
 Li and colleagues tested whether arbuscular mycorrhizal fungus inoculation, copper addition, or both could improve growth and alter cadmium distribution in Astragalus sinicus under Cd-stressed pot conditions. This is primary phytoremediation and agronomic-mitigation evidence, not food occurrence evidence. A. sinicus is treated in this paper as a green-manure/phytoremediation plant; the study does not measure a consumer food, ingredient, feed, cosmetic, or branded product.
 
 The main finding is that F. mosseae and Cu addition promoted root growth under Cd stress and shifted Cd toward the root compartment, with the combined Cu + AM fungi treatment described as the strongest treatment for reducing Cd translocation while increasing root Cd accumulation. The result is useful as soil-to-plant-transfer and remediation context for cadmium, but it should not be used to infer Cd concentrations in edible crops.

@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Rittirong and Saenboonruang 2018 - Metals in cooked rice and cooking utensils
 
+## Overview
+
 Rittirong and Saenboonruang quantified aluminium and seven heavy metals in Thai cooked-rice samples prepared with different cooking utensils and water chemistries. The study found high Al and Zn relative to the other measured elements, but no strong indication that the tested utensils substantially increased metal concentrations compared with raw rice. The health-risk calculations identified Pb, As, Al, and Cd as the dominant contributors.
 
 ## Key numbers

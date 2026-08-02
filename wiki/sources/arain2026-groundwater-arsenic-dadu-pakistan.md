@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Arain et al. 2026 — Groundwater arsenic and hydrochemistry in flood-prone Dadu district, Sindh, Pakistan
 
+## Overview
+
 This study characterized the hydrochemistry of 159 groundwater samples from District Dadu, Sindh, one of Pakistan's most flood-prone agricultural districts, assessing fitness for drinking and irrigation. Arsenic concentrations ranged up to 500 µg/L, exceeding WHO and Pakistan National Standards for Drinking Water Quality limits (10 µg/L) at a substantial fraction of sampling sites. Fluoride co-contamination was also widespread. Total dissolved solids reached up to 22,900 mg/L, and Escherichia coli was detected in 59.7% of samples, indicating concurrent microbiological hazard. Hazard quotient analysis showed elevated non-carcinogenic health risks for arsenic and fluoride, with infants and children identified as the highest-risk subpopulations due to their lower body weight relative to intake. The sodium adsorption ratio and residual sodium carbonate indices indicated that a majority of groundwater samples are unsuitable for irrigation without treatment, raising concerns for arsenic transfer to crops grown in the district.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Gfeller et al. 2021 - mercury methylation in polluted Fluvisol
 
+## Overview
+
 Gfeller and colleagues tested how liquid cow manure and flooding-draining cycles changed mercury mobility, colloid formation, and methylmercury production in Hg-polluted agricultural floodplain soils. This is upstream supply-chain pathway evidence: the paper does not measure a finished food, but it directly addresses how manure application and redox cycling in agricultural soil can mobilize total Hg and promote or limit MeHg formation.
 
 ## Key numbers

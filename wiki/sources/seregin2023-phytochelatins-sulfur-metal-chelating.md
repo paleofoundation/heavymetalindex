@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Seregin & Kozhevnikova 2023 — Phytochelatins as sulfur-containing metal(loid)-chelating ligands in plants
 
+## Overview
+
 Seregin and Kozhevnikova (K.A. Timiryazev Institute of Plant Physiology, Russian Academy of Sciences, Moscow) review the published literature on phytochelatins (PCs), the cysteine-rich peptide ligands that plants synthesise from glutathione to chelate metal(loid)s in the cytosol and shuttle the resulting complexes into the vacuole. The review covers PC structure and family classification, biosynthesis from glutathione via phytochelatin synthase (PCS), regulation of PCS activity and gene expression, PC accumulation patterns across plant taxa and tissues, the role of PCs in cytosol-to-vacuole transport and long-distance translocation, and the comparative behaviour of hyperaccumulator versus excluder species. The piece is a comprehensive narrative review with 361 references, no PRISMA, and no primary measurements; its value to the wiki is biological background for the [[metals/cadmium]], [[metals/arsenic]], [[metals/mercury]], [[metals/lead]], [[metals/copper]], [[metals/zinc]], and [[metals/nickel]] pages on the plant-side biochemistry of metal detoxification, and for the [[mitigation/remediation-evidence]] section when it discusses phytoremediation, biofortification, and phytomining as remediation modalities. The review reports no contamination occurrence data in any food matrix.
 
 ## Why this matters

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Anselm et al. 2022 — Artificial-sweat formulation and temperature effects on dermal bioaccessibility of metals in e-waste-contaminated soil
 
+## Overview
+
 This Geosciences paper compares five artificial-sweat formulations (BSI/EN 1811:2011, NIHS 96-10, Altkofer, Ariza, Cheng) at five temperatures (17-47 °C) for dermal bioaccessibility of As, Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn in <45 µm topsoil from a Lagos, Nigeria e-waste recycling site (Alaba International Market). Inter-formulation variability was the dominant signal: at 37 °C the NIHS 96-10 formulation extracted at least an order of magnitude more of every analyte than any other formulation except As and Cu, and 1700-fold more Pb than the next-most-effective extractant. The order of release was NIHS 96-10 > CHE > ALT > ARI > BSI > DIW. A general trend of increasing release with temperature was observed for all analytes except As, with statistically significant differences (p < 0.05) for As, Cd, Mn and Pb between the lowest temperatures (17 or 27 °C) and 47 °C; no significant difference was found between 32 °C and 37 °C for any analyte. The paper establishes that dermal-bioaccessibility estimates are critically dependent on the artificial-sweat recipe and that ambient temperatures encountered at tropical e-waste sites can exceed the 32-37 °C range typically used in bioaccessibility tests.
 
 ## Key numbers

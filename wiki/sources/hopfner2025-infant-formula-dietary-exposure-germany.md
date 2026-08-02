@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Höpfner et al. 2025 — Infant Formula Contribution to Dietary Exposure of Nine Elements in Germany
 
+## Overview
+
 This peer-reviewed German total diet study (TDS) quantifies both the occurrence of nine contaminants and essential elements in powdered infant formula — iAs, Cd, Cr, Pb, Mn, Hg, Ni, Se, and Zn — and the dietary exposure of formula-consuming infants and toddlers aged 0.5 to 3 years, using measured consumption data from the KiESEL survey (n=114 children) combined with occurrence data from the BfR MEAL Study. The study compares exposure against health-based guidance values (HBGVs) and uses a margin of exposure (MoE) approach for Pb and iAs, finding that Cd exposure exceeded the TWI for approximately 30% of infants and toddlers, and that iAs MoEs fell below one for all formula-consuming children. Infant formula contributed up to 64% of reported Zn exposure in infants; reported formula-contribution proportions for iAs, Cr, and Ni were 18%, 19%, and 20%, while Mn was 7%.
 
 ## Key numbers

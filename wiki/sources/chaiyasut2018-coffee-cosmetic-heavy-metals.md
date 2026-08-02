@@ -24,6 +24,8 @@ updated: 2026-05-30
 
 # Chaiyasut et al. 2018 — Heavy metals in coffee-extract cosmetic preparations
 
+## Overview
+
 Chaiyasut et al. formulated body lotion and hand moisturizing cream with Arabica and civet coffee extracts, then tested stability, pH, microbial counts, and heavy metals after accelerated storage. The heavy-metal component is directly relevant to leave-on personal-care products: lead was not detected, arsenic was reported below 0.16 mg/kg, and mercury remained below 0.09 mg/kg in body lotion and below 0.09-0.28 mg/kg in hand moisturizing cream. The paper supports occurrence-style evidence for finished cosmetic preparations containing coffee-derived ingredients, but it does not measure metals in beverage coffee or roasted coffee as food.
 
 ## Key numbers

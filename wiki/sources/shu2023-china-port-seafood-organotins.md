@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Shu et al. 2023 - organotins in China port seafood
 
+## Overview
+
 Shu et al. measured six organotin compounds in edible marine organisms from seas adjacent to eastern China ports: tributyltin (TBT), dibutyltin (DBT), monobutyltin (MBT), triphenyltin (TPhT), diphenyltin (DPhT), and monophenyltin (MPhT). The analytes are tin-organic species reported as `ng Sn g-1` on dry-weight or wet-weight bases; they are not total tin and not inorganic tin. The local PDF includes main-text summary ranges but not the supplemental tables that hold species-level concentration records.
 
 ## Key numbers

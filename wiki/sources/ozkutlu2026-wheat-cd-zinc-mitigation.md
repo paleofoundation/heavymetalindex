@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Ozkutlu et al. 2026 — Zinc application reduces cadmium in wheat grain
 
+## Overview
+
 A greenhouse trial using durum wheat grown in calcareous Turkish soils contaminated with increasing cadmium doses demonstrates that combined soil plus foliar zinc fertilization substantially reduces grain cadmium concentration, with foliar ZnSO4 spray alone reducing grain Cd by up to 70 percent in uncontaminated soils, though at the highest soil Cd dose (5.0 mg Cd kg-1 soil) the reduction reaches only 9 to 11 percent and grain Cd values still exceed the Codex Alimentarius and Chinese GB 2762-2022 maximum level of 200 µg kg-1 (ppb). The study establishes the practical ceiling of Zn-based mitigation and shows that Zn management alone is insufficient for food safety compliance when soil Cd is substantially elevated.
 
 ## Key numbers

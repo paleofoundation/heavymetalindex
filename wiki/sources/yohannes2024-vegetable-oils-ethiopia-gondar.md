@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Yohannes et al. 2024 — Heavy metals in edible vegetable oils, Gondar, Ethiopia
 
+## Overview
+
 This study measured five metals (Fe, Cu, Zn, Pb, Cd) in 17 edible vegetable oil samples from Gondar City, Northwest Ethiopia, using flame atomic absorption spectroscopy (FAAS) after microwave digestion. The study found that 25% of samples exceeded the WHO/FAO Codex limit for cadmium (0.05 mg/L as reported) and 17% exceeded the limit for lead (0.1 mg/L as reported), with exceedances described by the authors in some locally produced vegetable oils. This is the first comprehensive heavy metals investigation of vegetable oils from this region.
 
 Note on evidence tier: downgraded from A to B. The license is CC BY-NC-ND 4.0 (restricts adaptation), the sample size is small (n=17 across oil types, with sparse type-level replication), no health risk assessment was performed, and the LOQ values (0.94–4.95 mg/L) are relatively high for cadmium.

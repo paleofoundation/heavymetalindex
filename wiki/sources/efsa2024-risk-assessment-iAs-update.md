@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # EFSA CONTAM Panel 2024 — Updated risk assessment of inorganic arsenic in food
 
+## Overview
+
 This 191-page EFSA Scientific Opinion, adopted November 2023, is the first comprehensive update to EFSA's 2009 iAs risk assessment and integrates the revised 2021 exposure assessment. The CONTAM Panel reviewed new epidemiological evidence and BMD modelling, concluded that iAs is a genotoxic carcinogen, and selected a new Reference Point (RP): BMDL₀₅ of 0.06 µg iAs/kg bw per day from a US skin cancer (squamous cell carcinoma) case-control study, based on a 5% relative increase in background incidence (BMR05). Because iAs is both a threshold and non-threshold carcinogen (genotoxic), the Panel applied a Margin of Exposure (MOE) approach rather than deriving a health-based guidance value. MOEs for adults range from 2 to 0.4 for mean consumers and 0.9 to 0.2 at the 95th percentile — all below an MOE of 1 (the exposure level associated with a 5% increase in background skin cancer incidence), raising a health concern.
 
 ## Key numbers

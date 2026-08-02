@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ramadan et al. 2024 — Heavy metals and water quality in Bahr Mouse stream, Egypt
 
+## Overview
+
 This study assesses heavy metal contamination and water quality in Bahr Mouse stream, a drainage waterway in Dakahlia Governorate, Egypt, which serves as a source of water for human consumption and agricultural irrigation. The authors measured eight heavy metals (Fe, Mn, Cd, Cu, Pb, Zn, Ni, Co, Cr) in 38 surface water samples collected in winter and summer seasons by flame atomic absorption spectrometry (AAS), then calculated a water quality index (WQI) to characterize suitability for drinking water use.
 
 ## Key numbers

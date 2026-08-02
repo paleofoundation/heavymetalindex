@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ramly et al. 2023 — Arsenic in drinking water, hair biomonitoring, and arsenicosis in Perak, Malaysia
 
+## Overview
+
 This comparative cross-sectional study investigated arsenic contamination in drinking water and chronic arsenic exposure in residents of two villages in Perak, Malaysia, where a water treatment plant (WTP) serving the exposed village had reported violations of the 0.01 mg/L arsenic standard. Of 395 household drinking water samples, 41 percent from the exposed village (Village AG) exceeded the 0.01 mg/L threshold, while no samples from the non-exposed village (Village P) exceeded this level. Among 639 hair samples, 85 individuals (13.5%) had arsenic levels above the 1 µg/g reference, concentrated in Village AG. Physical examination confirmed 18 residents with arsenicosis signs, all from Village AG. Female sex, increasing age, residence in Village AG, and smoking were significantly associated with elevated hair arsenic.
 
 ## Key numbers

@@ -33,6 +33,8 @@ created_by: autonomy_v0
 
 # Rashmi et al. 2020 — Lead, cadmium, and mercury in three Indian baby talcum powders by AAS / CVAAS
 
+## Overview
+
 This short report from a Patna Women's College undergraduate science journal measures lead, cadmium, and total mercury in three commercially-available baby talcum powder products purchased from the Indian retail market (n=3, one sample per product, no replicate samples) using flame Atomic Absorption Spectrometry for Pb and Cd and Cold Vapour AAS for Hg. All three products carry detectable concentrations of all three metals; all measured values fall below the FDA cosmetic permissible limits cited by the authors (Pb 20 ppm, Cd 0.9–3 ppm, Hg 0.5 ppm), with lead the most concentrated of the three analytes across all three products. The paper documents the relevant pediatric exposure routes for talcum powder as pica behaviour, aspiration during application, and chronic dermal/inhalation contact, and frames mercury as the most acutely concerning of the three despite its lowest measured concentration because of its toxicity profile. Evidence tier is B: peer-reviewed but a regional/student journal, very small sample size (n=3 products, no replicates), no LOD/LOQ reporting, no recovery from certified reference materials, no method-blank quality control documented.
 
 ## Key numbers

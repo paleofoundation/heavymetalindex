@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Wang et al. 2021 - Houttuynia Mercury in Southwest China
 
+## Overview
+
 Wang et al. measured total mercury and methylmercury in edible Houttuynia cordata tissues from a mercury-mining area and a non-mining comparison area in Guizhou, China. The source is direct occurrence evidence for a consumed leafy/herbal vegetable, not for cereal bars despite the wishlist filename.
 
 ## Key numbers

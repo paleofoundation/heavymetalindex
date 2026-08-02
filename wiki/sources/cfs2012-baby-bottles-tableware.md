@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # CFS 2012 — Safety Issues of Baby Bottles and Children's Tableware (RAS Report No. 47)
 
+## Overview
+
 The Hong Kong Centre for Food Safety (CFS) review summarises the food-contact-material safety landscape for baby bottles, sippy cups, and children's tableware as of January 2012. The bulk of the document covers two organic migrants — bisphenol A (BPA) from polycarbonate (PC) baby bottles and formaldehyde from melamine-ware — and their regulatory status across the EU, US, mainland China, Australia, and Hong Kong. Heavy-metal relevance for HMI is concentrated in Annex II (Overview of Common Non-Plastics): the table identifies lead and cadmium as the migrants of concern from ceramic glazes and decorative paints, nickel and chromium (including chromium VI) as the components of concern from stainless steel tableware, and aluminium as the component of concern from aluminium drinking bottles. The body narrative additionally notes that migration of heavy metals from metal-ware increases when the article contacts highly acidic foods, and the public advice section recommends avoiding holding highly acidic foods in metal tableware for long periods. No original heavy-metal occurrence or migration data are reported; the document is a qualitative regulatory review with IARC classifications and pointers to the EU, US, and Chinese specific migration limits.
 
 ## Key numbers

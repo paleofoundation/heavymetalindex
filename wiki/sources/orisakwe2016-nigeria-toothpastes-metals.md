@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Orisakwe et al. 2016 - toxic metals in toothpastes commonly used in Nigeria
 
+## Overview
+
 Orisakwe and colleagues measured lead, cobalt, total chromium, nickel, and cadmium in 35 toothpaste products purchased in Port Harcourt, Nigeria. The paper reports finished-product `mg/kg` concentrations for 20 local/manufactured-in-Nigeria toothpastes and 15 imported toothpastes, then models daily metal intake and target hazard quotients from incidental toothpaste ingestion. The source names commercial products in its tables and abstract, so this page reports category-level ranges and strata only under the HMI brand firewall.
 
 ## Key numbers

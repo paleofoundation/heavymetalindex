@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Fasahat 2015 — Recent progress in understanding cadmium toxicity and tolerance in rice
 
+## Overview
+
 A single-author narrative review (Emirates Journal of Food and Agriculture, Special Issue "Salinity and Heavy Metal Stress") synthesising the rice–cadmium literature on uptake pathways, accumulation, morphological and physiological responses, identified quantitative trait loci for grain Cd, and agronomic countermeasures. The paper reports no original experiments; all numerical anchors are cited from the underlying primary literature. Relevance to the wiki is as a consolidated entry point to the rice-Cd plant-science evidence base — useful for orienting readers and as a lead-source to the primary studies (Ishikawa, Ueno, Arao, Cui, Tezuka, Kashiwagi, Liu, Yu and others) it summarises, not as a source of original occurrence data for rice as sold or consumed.
 
 ## Key numbers

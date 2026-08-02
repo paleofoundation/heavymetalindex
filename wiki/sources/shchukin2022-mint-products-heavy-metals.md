@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Shchukin et al. 2022 - Elemental impurities in mint products
 
+## Overview
+
 This Russian study measured elemental impurities in peppermint leaves and peppermint-based teas, supplements, oils, and tinctures. It is useful for herbal-infusion and botanical-supplement context because it distinguishes less-processed dry products from deeply processed oils and tinctures.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Willacker et al. 2023 — Reservoir stratification and mercury in Smallmouth Bass along the Snake River
 
+## Overview
+
 This study examined total mercury (THg) concentrations in Smallmouth Bass from reservoir, tailrace, and free-flowing habitats along an 863 km segment of the Snake River (22 impoundments), and assessed the role of reservoir thermal stratification in modulating Hg bioaccumulation. Across three fish size-classes, THg concentrations in reservoirs and tailraces averaged 76% higher than in free-flowing river segments. Among reservoir types, THg was highest in inconsistently stratified reservoirs (47% higher than annually stratified, 144% higher than unstratified). Tailraces below stratified reservoirs had higher THg than those below unstratified or inconsistently stratified reservoirs. The fraction of fish exceeding human consumption benchmarks was 52–80% from stratifying reservoirs and downstream tailraces, compared to 6–17% where stratification did not occur.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Hobbie, Kamerud, and Anderson 2014 — Nickel and chromium leaching from stainless-steel cookware into tomato sauce
 
+## Overview
+
 Hobbie, Kamerud, and Anderson presented a Society of Toxicology 2014 poster examining how stainless-steel grade, cooking time, and repetitive cooking cycles affect nickel and chromium leaching from cookware into tomato sauce. Using three NIST stainless-steel reference materials, a high-purity nickel SRM, and a commercial grade-316 saucepan, the authors cooked four commercial tomato sauces under simulated home-cooking conditions and quantified Ni and Cr in the finished sauce by ICP-MS. After six hours of cooking, Ni and Cr concentrations in tomato sauce rose up to 26-fold and 7-fold respectively versus sauce cooked without stainless steel; at 20 hours the increases reached approximately 34-fold for Ni and 35-fold for Cr. Leaching declined with sequential cooking cycles but did not eliminate; by the tenth cycle a single 126 g serving still contributed an average of 88 µg Ni and 86 µg Cr.
 
 ## Key numbers

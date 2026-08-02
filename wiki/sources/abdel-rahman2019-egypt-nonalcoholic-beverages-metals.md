@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Abdel-Rahman et al. 2019 - Egyptian non-alcoholic beverage metals
 
+## Overview
+
 Abdel-Rahman and colleagues measured trace metals in carbonated drinks, flavored yogurt drinks, and juice drinks sold in Egypt. This is direct a1 product-occurrence evidence with source-reported concentrations in mg/kg.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Ziarati et al. 2019 — Toxic metals in Iranian and Italian flavoured olive oil
 
+## Overview
+
 This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties. Table 3 reports higher Iranian Pb, Cd, and As combined means than Italian samples and a lower Iranian Ni combined mean, although the narrative text states that Iranian Ni was higher; treat the country-level Ni comparison as source-internal contradictory. Fungi-flavoured olive oil exhibited the highest Italian Pb and Cd concentrations, while pepper-flavoured olive oil showed the lowest heavy metal levels across the Italian flavour categories.
 
 ## Key numbers

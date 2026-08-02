@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ali et al. 2022 — Meta-analysis of lead in wastewater-irrigated soil and crops
 
+## Overview
+
 This systematic review and meta-analysis synthesises 24 studies across 13 countries to quantify the accumulation of lead in municipal wastewater, wastewater-irrigated soil, and edible crops, and to assess associated public health risks. The studies are concentrated in South and East Asia (India, Pakistan, Iran, China), where large-scale untreated wastewater irrigation is documented. The review includes 44 crops, of which 38 are leafy and non-leafy vegetables. Key finding: in all studied crops produced using untreated wastewater, lead concentrations in edible parts exceeded WHO limits for edibility, and health risk indices (HRI) calculated for multiple countries (India, Iraq, Morocco, Egypt) exceed 1, indicating unacceptable risk.
 
 ## Key numbers

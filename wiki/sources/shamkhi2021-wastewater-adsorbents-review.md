@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Shamkhi and Hussein 2021 — Low-cost adsorbents for Pb, Ni, and Zn removal from wastewater (JEASD conference review)
 
+## Overview
+
 Open-access conference-proceedings review from the Environmental Engineering Department at Mustansiriyah University (Baghdad) surveying ~13 prior adsorption studies that used agricultural- or industrial-waste materials (tea fibre, fava beans, rice husk, hazelnut shell, apple pomace, orange peel xanthate, red mud, etc.) to remove Pb(II), Ni(II), and Zn(II) from aqueous solutions. No primary sampling, no PRISMA, no quality assessment, no quantitative synthesis. The paper's scope is wastewater treatment engineering, not food or supply-chain contamination; relevance to the Heavy Metal Index is limited to (a) the regulatory drinking-water limits the authors cite in passing for Pb, Ni, and Zn, and (b) a leads list of food-derived materials that have been studied as Pb/Ni/Zn sorbents (apple pomace, fava beans, rice husk, orange peel, tea fibre, hazelnut shell). Evidence tier C; cite as a leads document, not as direct evidence for occurrence values.
 
 ## Key numbers

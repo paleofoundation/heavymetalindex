@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Pawlaczyk et al. 2020 - mercury in canned fish from Polish retail
 
+## Overview
+
 Pawlaczyk and colleagues measured total mercury in 84 canned fish products (plus seafood comparators and the non-fish packaging matrices) purchased in Lodz, Poland in 2019-2020, using cold-vapor atomic absorption spectrometry on an MA-3000 gold-amalgamation analyzer. The study compared mercury content across fish species, predatory versus non-predatory groupings, country of production, and packaging matrix, and used the standard Burger 1.12 division factor to estimate methylmercury from total mercury for the exposure assessment. None of the 489 individual analytical samples exceeded the EU regulatory ceilings, but tuna - and one Bonito-in-oil product in particular at 336 µg/kg - drove both the highest mean concentrations and the only meaningful share of the modeled tolerable weekly intake.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Ali 2024 — Microbial and heavy metal contamination in leeks, Thi-Qar, Iraq
 
+## Overview
+
 Ali measured microbial contamination (Escherichia coli, Klebsiella) and three heavy metals (Ni, Cu, Pb) in 100 leek samples and in soil at three agricultural stations in Thi-Qar governorate, southern Iraq, across winter and summer seasons. The study reports soil and leek-tissue concentrations separately, documents a seasonal pattern (higher concentrations in summer) and a spatial gradient (markets and district samples higher than city-center samples and farm samples), and links the elevated Station 2 metals to proximity to a thermal electric station, traffic emissions, and small industrial activity. This is a conference proceedings paper (Seminar Nasional & Call Paper, SENASAINS 7th, Universitas Muhammadiyah Sidoarjo, *Procedia of Engineering and Life Science* Vol. 7, 2024); B-tier.
 
 ## Key numbers

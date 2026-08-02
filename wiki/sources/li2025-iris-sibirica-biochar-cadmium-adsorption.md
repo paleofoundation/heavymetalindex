@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Li et al. 2025 - Iris sibirica biochar for cadmium adsorption from wastewater
 
+## Overview
+
 Li and colleagues pyrolyzed the root, stem, and leaf tissue of Iris sibirica L. (a wetland emergent plant) at 900 degrees C and tested the resulting biochars (BC_R, BC_S, BC_L) as aqueous sorbents for Cd(II). This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are biochar physico-chemical properties, batch adsorption kinetics, isotherm capacities, and mechanism partitioning rather than cadmium concentrations in edible crops, ingredients, consumer products, or drinking water.
 
 ## Key numbers

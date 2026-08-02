@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Olowoyo et al. 2026 — Heavy metals in drinking water: global patterns across tap, bottled/sachet, surface, and groundwater (narrative review)
 
+## Overview
+
 This narrative review of 66 studies published 2015–2024 compiles reported heavy-metal concentrations in four drinking-water source types — municipal tap water (Table 1), bottled/sachet water (Table 2), surface water (Table 3), and groundwater (Table 4) — and summarises maxima with WHO standard limits (Table 5). The review reports the highest concentrations of Pb, Cd, As, Cr, Ni, Hg, U, and Mn in groundwater or surface water and the lowest in tap and bottled water, but documents notable exceedances of WHO guidelines in every source type and across all six continents represented. The review is relevant to HMI as both a direct dietary exposure pathway (drinking water as consumed) and an upstream ingredient input (water used to reconstitute infant formula, dilute beverages, prepare processed foods). The review's principal limitation is that it is a narrative tabulation, not a meta-analysis: per-study ranges are reproduced without weighting, sample sizes are not extracted, and the included papers use mixed units (µg/L and mg/L), mixed analytical methods (AAS, ICP-OES, ICP-MS, GFAAS, SWASV), and mixed quality-assurance regimes.
 
 ## Key numbers

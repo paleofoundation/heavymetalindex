@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Rokanuzzaman et al. 2022 - Bangladesh egg metals
 
+## Overview
+
 Rokanuzzaman and colleagues measured lead, cadmium, total chromium, copper, iron, and zinc in egg contents and eggshells from five poultry egg types collected around Jahangirnagar University in Savar, Bangladesh. The study includes indigenous chicken, white layer chicken, brown layer chicken, duck, and quail eggs. Values are reported in `mg/kg`; the source does not specify a wet- or dry-weight basis beyond drying the egg contents and eggshells before digestion.
 
 ## Key numbers

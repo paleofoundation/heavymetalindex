@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Murtaza et al. 2025 - Biochar and selenium nanoparticle mitigation of lead in barley
 
+## Overview
+
 Murtaza and colleagues tested Broussonetia papyrifera-derived biochar and selenium nanoparticle treatments in lead-polluted saline field plots planted with barley. This is mitigation evidence for soil-to-crop lead reduction: it reports extractable soil Pb and barley root, shoot, and seed Pb under amendment treatments, but it should not be pooled as ordinary product occurrence data.
 
 ## Key numbers

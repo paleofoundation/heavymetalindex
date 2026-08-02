@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Yousaf, Hagen, Mitchell, Ghareeb, Fang, Correa, Zinn, Gayam 2021 — Low-nickel diet and gastroesophageal reflux disease: a pilot study
 
+## Overview
+
 This Indian Journal of Gastroenterology pilot trial from West Virginia University Departments of Dermatology, Internal Medicine, and Clinical and Translational Science tests whether a low-nickel diet reduces GERD symptoms in refractory patients and whether epicutaneous patch testing to nickel predicts diet responsiveness. 20 patients with refractory GERD (measured by GERD-HRQL) underwent patch testing and an 8-week low-nickel diet. The headline finding: 19 of 20 patients (95 percent) had GERD-HRQL symptom-severity reduction at 8 weeks; the response was not predicted by patch-test positivity. The implication challenges the standard clinical framework that nickel sensitivity (and the therapeutic relevance of low-Ni diet) tracks with positive patch testing.
 
 ## Key numbers

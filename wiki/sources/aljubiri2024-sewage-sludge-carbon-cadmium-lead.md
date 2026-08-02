@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Aljubiri et al. 2024 - Sewage-sludge activated carbon for cadmium and lead removal
 
+## Overview
+
 Aljubiri and colleagues synthesized two sewage-sludge-based activated carbons, SBAC1 and SBAC2, and tested them as low-cost adsorbents for Cd2+ and Pb2+ removal from aqueous solutions. The paper is remediation evidence for wastewater and supply-chain treatment contexts. It does not measure finished consumer products, fabrics, or fabric protectants.
 
 ## Key numbers

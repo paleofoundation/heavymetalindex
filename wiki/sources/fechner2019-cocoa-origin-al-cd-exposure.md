@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Fechner et al. 2019 — Cocoa-origin effects on Al and Cd dietary exposure (German market)
 
+## Overview
+
 This German Federal Institute for Risk Assessment (BfR) study integrated German Food Monitoring (GFM) occurrence data for Al and Cd in cocoa powder (2005–2015) with German National Nutrition Survey II (NVS II) consumption data (n = 15,371 participants) to assess whether cocoa geographical origin materially affects dietary exposure estimates. The most conservative standard scenario (P95 concentrations × P95 consumption) yielded maximum intake estimates of 0.152 mg/week/kg BW for Al and 0.363 µg/week/kg BW for Cd from cocoa powder — representing 15% of the Al TWI (1 mg/week/kg BW) and 14% of the Cd TWI (2.5 µg/week/kg BW) respectively. Origin-grouped scenarios (grouping lower-concentration vs. higher-concentration samples) showed modest differentiation but did not substantially exceed the conservative standard scenario, suggesting that origin-specific information adds refinement but does not change the headline exposure picture for the German population.
 
 ## Key numbers

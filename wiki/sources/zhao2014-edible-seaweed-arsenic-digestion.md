@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Zhao et al. 2014 - edible-seaweed arsenic digestion speciation
 
+## Overview
+
 Zhao and colleagues measured total arsenic and four extractable arsenic species in five edible seaweeds purchased from Qingdao supermarkets. The paper separates water-extract, simulated-gastric, and simulated-intestinal arsenic species, so As(III), As(V), DMA, and MMA are recorded separately below. The source is directly relevant to seaweed/kelp foods, especially because the high total arsenic in *Hizikia fusiformis* is paired with high water-extract As(V) but lower simulated-gastric As(III).
 
 ## Key numbers

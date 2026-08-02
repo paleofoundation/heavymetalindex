@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Begday et al. 2026 — Heavy metals in plant-milk alternatives on the Russian market
 
+## Overview
+
 Begday and colleagues at North-Caucasus Federal University in Stavropol' measured lead, cadmium, zinc, and copper in eight plant-based milk beverages distributed in or producible from Russian-market raw materials: four commercial ready-to-drink beverages (one almond, one rice, one coconut, one oat) purchased at a Russian retail chain, and four laboratory-prepared beverages produced from mature buckwheat groats, green buckwheat groats, oat flakes, and long-grain rice via a standardized soak-and-filter protocol. All eight samples fell well below Russian SanPiN 42-123-4089-86 maximum permissible concentrations (MPCs) for the four metals, with the highest reported value (lead at 0.053 mg/kg in mature-buckwheat-groat milk) reaching only 10.6 percent of the 0.5 mg/kg lead MPC. Cadmium was non-detected in all four laboratory-prepared samples but was quantified in all four commercial beverages (0.0068 to 0.0108 mg/kg). The authors computed hazard quotients (HQ) for adults (70 kg, 120 kg beverage/year) and children (31 kg, 137.4 kg beverage/year) against EPA 2021 reference doses; per-metal HQs ranged from 0.000004 to 0.00874 and total HQ sums per beverage ranged from 0.00061 to 0.0062, all well below the threshold of 1 that would indicate non-carcinogenic concern.
 
 ## Key numbers

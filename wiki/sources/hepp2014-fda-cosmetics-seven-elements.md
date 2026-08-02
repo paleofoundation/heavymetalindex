@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Hepp et al. 2014 — FDA total-content survey of 150 U.S.-market cosmetics for As, Cd, Cr, Co, Pb, Hg, and Ni by ICP-MS and CVAFS
 
+## Overview
+
 This U.S. Food and Drug Administration analytical survey, published in J. Cosmet. Sci., reports total-content measurements of seven inorganic elements (As, Cd, Cr, Co, Pb, Hg, Ni) in 150 cosmetic products spanning 12 product types purchased on the U.S. market in spring/summer 2011. The contract analytical work was conducted at Frontier Global Sciences (Bothell, WA) under FDA contract. The methodology used closed-vessel microwave-style oven HNO₃/HF/HCl digestion at 130 °C for 12 h (modified from the lipstick method validated in FDA's 2007 and 2010 lipstick surveys), ICP-MS for As/Cd/Cr/Co/Pb/Ni, and cold-vapor atomic fluorescence spectrometry (CVAFS) for Hg. The paper is the FDA's broad-survey companion to its earlier 20-lipstick (2009) and 400-lipstick (2012) Pb-only surveys, extending the analyte panel to seven elements and the product scope from lipsticks alone to 12 cosmetic product types.
 
 ## Key numbers

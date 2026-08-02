@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Napier et al. 2024 (NC + CDC) — WanaBana apple cinnamon puree childhood Pb exposure outbreak
 
+## Overview
+
 This MMWR report documents the public-health investigation of the **2023-2024 WanaBana apple cinnamon fruit puree pouches childhood lead exposure outbreak**, one of the most significant recent baby food contamination events in the US. Between June 2023 and January 2024, routine pediatric blood lead testing in North Carolina identified four asymptomatic children with blood lead levels (BLLs) ≥5 µg/dL — including one child with BLLs >14 µg/dL. Home environmental investigations identified WanaBana brand apple cinnamon fruit puree pouches as the only common potential exposure source across the affected households. **Product samples contained 1.9-3.0 ppm of lead — approximately 190-300x the FDA's then-proposed action level of 10 ppb (0.01 ppm) for fruit purees.** An expanded nationwide investigation found approximately 500 cases of childhood lead exposure linked to apple cinnamon purees nationally (22 in NC). FDA issued a nationwide public health advisory October 28, 2023; the manufacturer voluntary recall followed two days later. Subsequent investigation traced the contamination to cinnamon imported from Ecuador, with intentional lead chromate adulteration suspected.
 
 ## Key numbers

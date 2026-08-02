@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Berego et al. 2023 - metals in Sidama coffee beans and soils
 
+## Overview
+
 Berego and colleagues measured essential and toxic metals in coffee beans and associated agricultural soils from Dale Woreda in Sidama, Ethiopia. The coffee-bean tables report Pb, Cd, Cr, and Co as not detected in both farm and washing-plant beans, while Ni, Cu, Zn, Mn, Na, K, and Ca were quantifiable at low mg/kg levels. Soil Cd exceeded the authors' cited agricultural-soil comparator, so this source is useful for both coffee occurrence routing and supply-chain soil context without treating the soil values as coffee-product concentrations.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kilbo Edlund et al. 2017 — PM2.5 health risk in rural South Africa; nickel and trace element exposure
 
+## Overview
+
 This study applied the US EPA human health risk assessment (HRA) model to assess health risks from PM2.5 ambient air pollution and its trace elemental components in Thohoyandou, a rural South African community, using PM2.5 samples collected April 2017 to April 2018. Despite relatively moderate annual average PM2.5 of 11 µg/m3 (above WHO 10 µg/m3 guideline but below South African NAAQS of 20 µg/m3), health risks were substantial, especially for infants and children. Particle-bound nickel posed both non-cancer and cancer risks. The study concludes air quality standards in South Africa need to be tightened, as the risks were present even at levels compliant with national annual standards.
 
 ## Key numbers

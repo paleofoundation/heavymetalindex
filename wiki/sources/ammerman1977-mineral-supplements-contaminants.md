@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ammerman et al. 1977 - contaminants in animal mineral supplements
 
+## Overview
+
 Ammerman and coauthors reviewed contaminating elements in feed-grade mineral supplements used for domestic animals. The strongest HMI-relevant primary data are example analyses of micro-mineral supplement materials, especially Table 2's Pb, As, Cd, Al, and Hg entries. These values are supply-chain context for livestock-derived foods, not finished meat, poultry, milk, or dairy occurrence values.
 
 ## Key numbers

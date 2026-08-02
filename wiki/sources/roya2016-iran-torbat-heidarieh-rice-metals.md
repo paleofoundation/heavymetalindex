@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Amiri Qandashtani & Mohamadi Sani 2016 — As, Cd, Pb in 10 imported long-grain rice types on the Torbat-Heidarieh market, Iran
 
+## Overview
+
 This survey reports total concentrations of arsenic (HGAAS, treated here as tAs absent any inorganic-species separation step), cadmium and lead in 210 packed long-grain (Indica) rice samples drawn from 10 imported rice types — three originating from India and seven from Pakistan — on the Torbat-Heidarieh retail market in 2015, plus a weekly-intake risk assessment under a 110 g/day per-capita rice-consumption assumption and a 60 kg adult-Iranian body-weight reference. Mean Pb concentrations across the 10-type panel exceeded the FAO/WHO Codex Alimentarius 0.2 mg/kg cereal limit in 9 of 10 types and exceeded the Iranian (ISIRI 12968) 0.15 mg/kg cereal limit in all 10 of 10 types; mean Cd exceeded the FAO/WHO 0.1 mg/kg cereal limit in 8 of 10 types; mean As exceeded the FAO/WHO 0.2 µg/g cereal limit in 4 of 10 types and exceeded the Iranian 0.15 µg/g limit in 5 of 10 types. The estimated weekly intake (EWI) of Pb computed from per-type means exceeded the JECFA Pb provisional tolerable weekly intake (PTWI, 25 µg/kg body weight per week) in 3 of 10 types; EWIs for Cd and As remained below their respective PTWI ceilings across the full panel.
 
 ## Key numbers

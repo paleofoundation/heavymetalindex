@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Lech et al. 2020 — Turmeric as a lead exposure source in the US
 
+## Overview
+
 The first systematic survey of lead concentrations in ground turmeric sold at retail in the United States. Nearly all 127 products contained detectable lead, with mean concentrations of 1,410 ppb and a range spanning three orders of magnitude (10 to 7,590 ppb). The study establishes that lead-contaminated turmeric is not exclusively a South Asian supply-chain problem; it reaches US consumers through imported ground turmeric at retail.
 
 ## Key numbers

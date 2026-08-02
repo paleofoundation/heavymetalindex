@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # CFS 2012 — First Hong Kong Total Diet Study: Inorganic Arsenic
 
+## Overview
+
 The Centre for Food Safety (CFS) of Hong Kong's Food and Environmental Hygiene Department conducted the First Hong Kong Total Diet Study (1st HKTDS) to estimate dietary exposure of the Hong Kong population to inorganic arsenic, specifically using direct iAs speciation rather than total-arsenic conversion factors. A total of 600 composite samples (from 150 food items, 3 purchases per item across 4 sampling occasions March 2010 to February 2011) were tested using hydride generation ICP-MS, with an LOD of 3 µg/kg in food and 1.5 µg/kg in water. Dietary exposure estimates were 0.22 µg/kg bw/day for average consumers and 0.38 µg/kg bw/day for high consumers (95th percentile), both below the JECFA BMDL0.5 of 3.0 µg/kg bw/day (range 2-7), with margins of exposure (MOEs) of 9-32 and 5-18 respectively. Rice dominates the iAs exposure picture: cooked white rice alone contributed 45.2% of total dietary exposure, with cereals and their products accounting for 53.5% overall.
 
 Note on series: this report is No. 2 in the 1st HKTDS series (published February 2012). The companion report covering the full metallic contaminants panel (Al, Sb, Cd, Pb, MeHg, Ni, Sn, V) is Report No. 5 (January 2013), ingested as [[sources/cfs2013-hktds-metallic-contaminants]].

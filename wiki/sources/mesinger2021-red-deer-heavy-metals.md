@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Mesinger and Ocieczek 2021 - Heavy metals in red deer meat in Poland
 
+## Overview
+
 Mesinger and Ocieczek measured arsenic, cadmium, lead, and mercury in meat samples from red deer does and assessed game-meat intake risk in Poland. The study is routeable for game-meat occurrence because Table 1 reports measured concentrations in meat samples. Arsenic, cadmium, and mercury were below the method detection limit in all 12 samples, and lead was below detection in 11 of 12 samples with a single sample at 0.018 mg/kg.
 
 ## Key numbers

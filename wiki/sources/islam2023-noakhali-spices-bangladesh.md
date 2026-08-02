@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Islam et al. 2023 — Heavy metals in commercial spices, Noakhali, Bangladesh
 
+## Overview
+
 This medRxiv preprint reports Pb, Cd, Cr, Cu, and Fe concentrations in 19 spice samples (15 non-branded, 4 branded) purchased from Sonapur and Maijdee marketplaces in the coastal Noakhali District of Bangladesh, paired with household-level ingestion-rate data from a 180-household survey across six clusters. Concentrations were measured by flame atomic absorption spectrometry (PerkinElmer PinAAcle 900H) after wet acid digestion. The authors compute Estimated Daily Intake (EDI), Total Hazard Quotient (THQ), Total Target Hazard Quotient (TTHQ), and cancer risk (CR) per sample using USEPA and WHO reference doses. The two HMI-relevant findings are: (a) chromium loading is the dominant non-carcinogenic risk driver across most powdered spices, with TTHQ exceeding 1 in ~37% of samples (coriander leaf, green chili, ginger, and all four chili-powder and turmeric-powder samples — branded and non-branded — drive this); (b) carcinogenic risk for Cr and Cd is above the 1×10⁻⁴ USEPA benchmark in coriander leaf, both turmeric-powder samples, both chili-powder samples, green chili, masala mix, and ginger. Cr is reported as total Cr (no Cr-VI speciation); As, Hg, Ni, Al, Sn are not measured. The source is a preprint and has not undergone peer review at the cited version.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Sounigo et al. 2023 — ClimaLOCA project: cadmium reduction innovations in Latin American cocoa
 
+## Overview
+
 Sounigo et al. present results from the ClimaLOCA research project (Climate-adapted Low-Cadmium Cacao), a multi-country initiative in Colombia, Ecuador, and Peru aimed at identifying and deploying cacao genotypes with naturally low cadmium accumulation in beans. The project combines germplasm screening, participatory breeding, soil amendment trials, and farmer training to develop an integrated agronomic approach to reducing Cd in commercially produced cacao beans from the highest-risk origin zones in Latin America. The proceedings paper reports on germplasm screening results across multiple CCN-51 and fine-flavor cacao populations, identifying accessions with significantly lower bean Cd than commercial varieties currently grown in high-Cd zones.
 
 ## Key numbers

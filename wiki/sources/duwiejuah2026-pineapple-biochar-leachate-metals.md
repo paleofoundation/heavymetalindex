@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Duwiejuah et al. 2026 - Pineapple biochar for Cr and Ni leachate removal
 
+## Overview
+
 Duwiejuah and colleagues prepared biochar from pineapple residues and tested it for simultaneous removal of chromium, nickel, and phenol from landfill leachate. This is a remediation paper, not pineapple occurrence evidence: the routeable heavy-metal facts are Cr and Ni concentrations in leachate and their removal by pineapple-residue biochar.
 
 ## Key numbers

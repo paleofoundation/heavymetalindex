@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Pollard 2016 — Heavy metal tolerance and accumulation in plants of the southeastern USA
 
+## Overview
+
 This invited narrative review for the *Castanea* themed treatment of southeastern serpentine ecology synthesizes the published and previously unpublished evidence on heavy-metal-tolerant and hyperaccumulating plants in the southeastern United States, framed around the two best-studied serpentine outcrops (Soldiers Delight, MD; Buck Creek, NC) and the cobalt and manganese hyperaccumulators *Nyssa* spp. and *Phytolacca americana*. Previously unpublished foliar nickel data from five woody species at Buck Creek (mean across all sample points 15.3 µg g⁻¹ dry leaf, N=146) confirm that woody plants on this serpentine barren take up Ni at the upper end of the typical serpentine range (5–100 µg g⁻¹) but far below the 1,000 µg g⁻¹ hyperaccumulation threshold. The review reports no food, beverage, ingredient, or supply-chain measurements and is plant-ecology evidence rather than direct food-system evidence; relevance to the wiki is as upstream context for soil-to-plant uptake of Ni, Mn, and Co in temperate-USA conditions, and for the geochemical baseline of ultramafic soils.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ibrahim et al. 2024 — Heavy metal contamination in staple foods, Jigawa State, northwest Nigeria
 
+## Overview
+
 This cross-sectional study measured lead (Pb), cadmium (Cd), and total mercury (Hg) in 361 raw staple food samples — cereals (maize, rice, millet, sorghum) and legumes (cowpea, soybean) — collected from households in 4 local government areas of Jigawa State, northwest Nigeria, to investigate the association between food heavy metal contamination and chronic kidney disease burden in the region. Mercury contamination was the dominant finding: 97.8% of households had food Hg levels above the authors' reference threshold (>0.02 mg/kg), while only 4.2% showed elevated Pb and all showed normal Cd. The study used atomic absorption spectrophotometry (AAS) for analysis.
 
 ## Key numbers

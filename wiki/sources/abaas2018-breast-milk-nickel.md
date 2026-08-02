@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Abaas et al. 2018 - Nickel in breast milk in Hilla City
 
+## Overview
+
 Abaas and colleagues measured nickel in breast milk from lactating mothers living in Hilla City, Iraq. The study is routeable for human-milk nickel exposure because it reports breast-milk nickel concentrations in ppb and evaluates associations with maternal and environmental variables. It is human-milk exposure evidence, not infant formula evidence.
 
 ## Key numbers

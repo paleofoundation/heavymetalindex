@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Mawari et al. 2022 — Heavy metals in drinking water from industrial Maharashtra, India
 
+## Overview
+
 Mawari et al. measured concentrations of fluoride, arsenic, cadmium, mercury, lead, nickel, copper, zinc, manganese, and chromium in ground and surface water across seven industrial area locations in Maharashtra, India, by ICP-MS. Urinary biomarkers were also collected: mean urinary mercury was 4.91 ± 0.280 µg/L and mean urinary arsenic was 42.04 ± 2.635 µg/L among the sampled population. The paper situates these levels in relation to WHO and Indian drinking-water standards and provides a multi-metal exposure profile for an industrial region with both groundwater and surface-water sources.
 
 ## Key numbers

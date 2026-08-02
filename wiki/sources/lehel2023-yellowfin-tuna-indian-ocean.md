@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Lehel et al. 2023 - Potentially toxic elements in yellowfin tuna from the Indian Ocean
 
+## Overview
+
 Lehel and colleagues measured arsenic, cadmium, mercury, and lead by inductively coupled plasma optical emission spectrometry (ICP-OES) in the flesh of 40 yellowfin tuna (Thunnus albacares) purchased at a fishery market in Hungary but originating from Sri Lanka in FAO Fishing Area 57 (Indian Ocean, Eastern), subarea 57.1 (Bay of Bengal). Mean total arsenic was 0.98 ± 0.47 mg/kg wet weight, but total As is not regulated; estimating inorganic As as 5% of total As gave a mean of 0.05 ± 0.02 mg/kg, with estimated daily intake (EDI) values (0.03-0.09 µg/kg/day) well below the 0.3 µg/kg/day dietary reference. Cadmium was detected above the limit of detection (0.05 mg/kg) in only 20% of samples and all detected values stayed below the EU 2023/915 maximum level (0.10 mg/kg for tuna species); EDI values (0.05-0.07 µg/kg/day) were below the 1 µg/kg/day reference. Mercury was below the limit of detection (0.50 mg/kg) in 90% of samples and below the EU 2023/915 maximum (1.0 mg/kg for tuna species) in all samples; EDI was below the 0.3 µg/kg/day reference in 90% of samples but exceeded it in 2 samples (0.69 and 0.82 µg/kg/day). Lead exceeded the EU 2023/915 maximum level (0.30 mg/kg, muscle meat of fish) in 40% of samples, with detected values from 0.30 to 1.59 mg/kg; EDI values (0.28-1.49 µg/kg/day) were above the dietary reference values for both adults (0.16 µg/kg/day) and children (0.26 µg/kg/day) in 100% of samples, which the authors flagged as a potential harm and a call to attention for environmental pollution and consumer protection.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Alamgir et al. 2022 - Heavy metals in unbranded whitening creams from Karachi
 
+## Overview
+
 Alamgir and colleagues measured lead, nickel, chromium, total arsenic, and copper in 25 unbranded skin-whitening creams sold in Karachi, Pakistan. Lead was the highest-concentration contaminant in the sample set, and every sampled cream exceeded the paper's cited 1 ppm lead limit for cosmetics. The source is direct occurrence evidence for unbranded whitening-product matrices.
 
 ## Key numbers

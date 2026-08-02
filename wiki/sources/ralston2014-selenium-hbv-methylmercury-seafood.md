@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Ralston et al. 2014 — Selenium health benefit value (HBVSe) for methylmercury risk assessment
 
+## Overview
+
 This paper refines the selenium health benefit value (Se-HBV) to produce the improved HBVSe index, a biochemically based risk assessment criterion for concurrent evaluation of methylmercury (CH3Hg) and selenium (Se) in seafood. The original Se-HBV equation was prone to divide-by-zero errors at very low Hg concentrations; the modified HBVSe eliminates this by incorporating relative and absolute molar amounts of both Hg and Se. The index reflects the degree to which dietary Se is in excess of or deficient relative to CH3Hg, reflecting the molecular mechanism by which high CH3Hg exposures inhibit Se transport across the placenta and irreversibly inhibit fetal brain selenoenzymes. A positive HBVSe indicates net Se surplus (protective); a negative value indicates Se deficit (risk). The index supports FDA/EPA advice on seafood choices for pregnant and breastfeeding women.
 
 ## Key numbers

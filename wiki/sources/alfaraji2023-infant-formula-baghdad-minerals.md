@@ -24,6 +24,8 @@ updated: 2026-06-07
 
 # Al-Faraji 2023 - Minerals and lead in powdered infant formula from Baghdad markets
 
+## Overview
+
 Al-Faraji measured calcium, iron, zinc, copper, and lead in 10 powdered infant formula samples sold in Baghdad Governorate, Iraq. The source is routeable for powdered infant formula occurrence evidence because it reports sample-level lead and copper concentrations from atomic absorption analysis. The paper does not resolve soy versus non-soy formula status, so it should route at the broad powdered-infant-formula level rather than to a soy or dairy subrow.
 
 ## Key numbers

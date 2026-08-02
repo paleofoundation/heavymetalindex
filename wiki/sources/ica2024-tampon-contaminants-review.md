@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # ICA 2024 - FDA CDRH systematic review of tampon contaminants
 
+## Overview
+
 International Consulting Associates prepared this systematic literature review for FDA CDRH to summarize evidence on additives, chemicals, and contaminants in vaginal tampons, including metals. The review is secondary evidence: it transports study-level summaries from included bench and clinical studies and does not itself test tampons. Its metals value is mainly as an FDA-commissioned evidence map around the primary Shearston et al. tampon-metal dataset and the BioCycle tampon-use blood-metal biomonitoring study.
 
 ## Key numbers

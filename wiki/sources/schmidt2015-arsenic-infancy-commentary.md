@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Schmidt 2015 — Arsenic Exposure in Infancy (Commentary)
 
+## Overview
+
 Science journalism commentary piece in EHP summarizing research on infant arsenic exposure from breast milk, formula, and well water. C-tier evidence: no primary data; summarizes findings from Carignan 2015 and Fångström 2008. Included in corpus as a document; its factual content is fully covered by the primary studies it cites.
 
 ## Key numbers (from cited primary studies, per commentary)

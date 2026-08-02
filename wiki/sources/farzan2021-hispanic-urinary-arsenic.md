@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Farzan et al. 2021 — Urinary arsenic in a Hispanic pregnancy cohort in Los Angeles
 
+## Overview
+
 This study examined urinary arsenic species (total As, inorganic As, MMA, DMA) in 241 low-income predominantly Hispanic pregnant women enrolled in the MADRES (Maternal And Developmental Risks from Environmental and Social stressors) cohort in Los Angeles, California. Total urinary arsenic ranged widely from 0.8 to 506.2 µg/L, with a mean of 9.0 µg/L. Demographic predictors of higher urinary arsenic included rice consumption and seafood consumption, with rice being a particularly important dietary predictor in this Hispanic cohort where rice is a dietary staple. The study highlights the food consumption-based arsenic exposure pathway as a significant contributor to inorganic arsenic body burden in a vulnerable population (pregnant women) and a minority group with distinctive dietary patterns. The iAs to DMA ratio reflects individual variation in arsenic methylation capacity.
 
 ## Key numbers

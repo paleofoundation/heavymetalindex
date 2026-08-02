@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # US House Subcommittee 2021 — Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury
 
+## Overview
+
 The U.S. House Subcommittee on Economic and Consumer Policy compiled internal testing records subpoenaed from seven major US baby-food manufacturers between November 2019 and February 2021 and reported sample-level inorganic arsenic, total arsenic, lead, cadmium, and mercury concentrations across ingredient pre-shipment tests and finished-product tests. The staff report aggregates manufacturer-provided test results for products marketed for infants and young children, identifies internal corporate threshold values that exceed every existing US and international regulatory standard for related products (drinking water, infant formula, juice, candy), documents a confidential August 2019 Hain presentation to FDA showing that finished-product inorganic arsenic levels run 28-93% higher than ingredient testing alone predicts, and recommends mandatory finished-product testing, mandatory labeling, voluntary phase-out of high-contamination ingredients (notably rice), uniform FDA action levels across all infant and toddler foods, and parental avoidance guidance. The report is a public-record Congressional oversight document; the manufacturers named are subjects of the investigation per Part 12 Exception 1.
 
 ## Key numbers

@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # ATSDR 2005 — ToxFAQs for Tin and Tin Compounds
 
+## Overview
+
 The August 2005 ATSDR ToxFAQs fact sheet (Tox fact sheet #55) is the two-page consumer-facing summary of the ATSDR 2005 Toxicological Profile for Tin and Compounds (Update). It carries no primary data of its own; its function in the wiki corpus is to document the US federal occupational and food-additive regulatory framework for tin and tin compounds as the agency communicated it to non-specialist audiences in 2005, and to capture the public-health framing ATSDR used to distinguish inorganic tin from the substantially more toxic organotin compounds. The full quantitative profile lives in the sibling page [[sources/atsdr2005-tin-toxicological-profile]].
 
 ## Key numbers

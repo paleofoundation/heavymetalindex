@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Druml et al. 2023 — UV filter composition and SPF profile of sunscreens marketed to pediatric populations in Philadelphia retail outlets
 
+## Overview
+
 This open-access Cureus paper from a Drexel-University-affiliated dermatology team and AmberNoon (a sun-protective-clothing company) is an observational market survey of 410 sunscreen products cataloged in CVS, Walgreens, Target, and Wegmans stores plus their online catalogs in the Philadelphia area during a ten-day window in June 2023. The authors restricted the catalog to active sunscreen formulations sold at retail and characterized each by SPF, broad-spectrum claim, water-resistance claim, application form (lotion/spray/stick/etc.), active UV filter composition (chemical organic filters vs physical inorganic filters), and demographic marketing terms on the label ("baby", "babies", "children", "kids", "sports", "active"). The two physical (inorganic) UV filters in the surveyed market were titanium dioxide and zinc oxide; the paper does not measure contamination of these sunscreens with non-intentional heavy metals — its relevance to HMI is formulation prevalence and stated concentration ranges of titanium-dioxide-bearing and zinc-oxide-bearing sunscreens, with a pediatric-marketing breakdown.
 
 ## Key numbers

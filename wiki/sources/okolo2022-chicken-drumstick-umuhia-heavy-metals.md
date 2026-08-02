@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Okolo et al. 2022 - Chemical and microbiological quality of commercial fresh and frozen chicken drumstick in Umuhia, Nigeria
 
+## Overview
+
 This study measured proximate quality, microbial counts, and selected heavy metals in fresh and frozen commercial chicken drumsticks sold in Umuahia, Nigeria. The occurrence data are usable for poultry-context routing, especially for frozen chicken drumstick values where several metals were higher than in fresh drumsticks.
 
 ## Key numbers

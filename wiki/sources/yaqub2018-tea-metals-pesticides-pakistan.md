@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Yaqub et al. 2018 — Monitoring heavy metals and pesticides in Pakistani tea samples (Mansehra gardens and market brands)
 
+## Overview
+
 This study assessed heavy metals and pesticides in tea samples from two sources: 52 samples from Mansehra tea gardens (Pakistan) and 25 commercial brand tea samples from local markets. Heavy metals measured were Zn, Fe, Cr, Cu, Mn, and Co by AAS; pesticides (Bifenthrin, Lambda-Chalothrin, Dichlorovas, Glyphosate, Imidacloprid, Difenaconazole, Emamectin) by HPLC. The paper is B-tier due to limited sample characterisation, AAS rather than ICP-MS, and primary focus on pesticide detection rather than metals risk for human health. Key metals findings: Co in source tea exceeded the EU allowed limit (0.01 ppm); Mn exceeded EU standards in both sample types; other metals (Zn, Fe, Cu, Cr) were within limits.
 
 ## Key numbers

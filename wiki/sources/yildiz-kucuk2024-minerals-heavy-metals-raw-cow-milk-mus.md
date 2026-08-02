@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This study measured Pb, Cd, Fe, Cu, Mn, Ca, Mg, Na, K, and Zn in 10 raw cow milk samples collected from different locations in Muş province in eastern Türkiye using atomic absorption spectrometry (AAS). Lead and cadmium were the heavy metals of primary concern; essential minerals were also characterized. Table 2 reports Pb from 0.19 to 0.44 mg/L and Cd from 0.20 to 0.38 mg/L. The authors compare Pb against the Turkish Food Codex raw-milk lead limit of 0.020 mg/kg and state that all samples exceed that limit; they also state that the Turkish regulation did not specify limits for the other measured elements.
 
 ## Key numbers

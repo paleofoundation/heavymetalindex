@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Shaalan 2024 — Heavy metals in Nile tilapia muscle, Eastern Delta Egypt
 
+## Overview
+
 This 2024 study measured concentrations of eight metals (Mg, Cd, Hg, Cr, Cu, Ni, Pb, Zn) in muscle tissue of 120 Nile tilapia collected from two sites in the Eastern Nile Delta: the Damietta branch of the River Nile (n=60) and El-Rayah El-Tawfeeky canal in Benha City (n=60). Metal concentrations were significantly higher in El-Rayah El-Tawfeeky fish across all analytes; hazard index calculations showed that habitual fish consumers at the El-Rayah El-Tawfeeky site face unacceptable non-carcinogenic risk from Cd, Hg, Ni, Pb, and Zn, while habitual consumers at the Damietta site exceed HI=1 for Ni, Mg, and Pb.
 
 ## Key numbers

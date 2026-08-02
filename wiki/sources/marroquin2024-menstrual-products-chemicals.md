@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Marroquin et al. 2024 - menstrual-product chemical review
 
+## Overview
+
 Marroquin et al. systematically reviewed studies that measured environmental chemicals in menstrual products or in biospecimens linked to menstrual-product use. The review is secondary evidence and does not perform new laboratory testing. It is routeable as menstrual-pad and menstrual-tampon occurrence context for non-metal chemicals, but it reports no Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U, organotin, or other heavy-metal analyte values.
 
 ## Key numbers

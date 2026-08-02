@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Signes-Pastor et al. 2017 - infant urinary arsenic and rice-based weaning foods
 
+## Overview
+
 This PLOS ONE study measured urinary arsenic species in 79 infants from Belfast before weaning, followed 11 infants with paired pre- and post-weaning urine samples, and measured arsenic species in 73 rice-based products purchased in Belfast in February 2016. The food analyses used IC-ICP-MS speciation and directly measured inorganic arsenic (iAs), DMA, and MMA in baby rice, rice crackers/cakes, and rice cereals. The study found higher urinary methylated arsenic species in formula-fed infants before weaning, higher urinary arsenic metabolites after rice-product weaning in the paired subset, and frequent exceedance of the source-cited EU 0.10 mg/kg iAs comparator for rice destined for foods for infants and young children.
 
 ## Key numbers

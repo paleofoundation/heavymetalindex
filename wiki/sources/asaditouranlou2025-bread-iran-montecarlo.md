@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Asadi Touranlou et al. 2025 - Health risk from heavy metals in Iranian bread, Monte Carlo analysis
 
+## Overview
+
 This study quantifies heavy metal contamination in 248 Iranian bread samples spanning four traditional bread types (lavash, taftoon, barbari/Barbary, sangak) across 11 provinces, then applies Monte Carlo simulation to characterize non-cancer and cancer risk for children and adults. Chromium (Cr) and iron (Fe) drive the non-cancer risk model, with hazard indices (HI) above 1 for both children and adults in the source's 95% Monte Carlo interval. Lead (Pb) and cadmium (Cd), evaluated for cancer risk only in four provinces where they were detected, fall in the source's moderate-risk band.
 
 ## Key numbers

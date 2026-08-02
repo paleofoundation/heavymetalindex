@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Haseeb-ur-Rehman 2023 - metals in Pakistani export seafood
 
+## Overview
+
 Haseeb-ur-Rehman and colleagues measured metals in `400` export-quality seafood samples from Pakistani processing plants. The study reports edible-portion concentrations in `mg kg-1 w.w` for fish, crustaceans, and cephalopods. Mercury was analyzed and was not detected in any sample; the page therefore treats mercury as total mercury (`tHg`) nondetect context, not as methylmercury.
 
 ## Key numbers

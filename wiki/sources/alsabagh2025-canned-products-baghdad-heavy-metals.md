@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Alsabagh et al. 2025 - Assessment of heavy metal and nitrate contamination in canned products from local markets in Baghdad
 
+## Overview
+
 This study measured heavy metals and nitrate in canned products sold in Baghdad markets, including canned pineapple and fruit cocktail.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Forsyth et al. 2024 — Turmeric lead chromate adulteration across South Asia
 
+## Overview
+
 The first systematic assessment of lead chromate adulteration in turmeric across four South Asian countries representing more than 80% of global turmeric production and 1.7 billion people. Turmeric samples were collected from 23 major cities in India, Pakistan, Sri Lanka, and Nepal between December 2020 and March 2021, analyzed by XRF and ICP-MS for lead and chromium concentrations, with Pb:Cr molar ratios used to distinguish lead chromate adulteration from environmental contamination.
 
 ## Key numbers

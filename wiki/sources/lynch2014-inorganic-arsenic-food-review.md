@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Lynch 2014 — Comprehensive meta-analysis of inorganic arsenic in food (seaweed is the highest-inAs group)
 
+## Overview
+
 Lynch and colleagues compiled 134 studies into a >6500-data-point database to estimate mean speciated-arsenic concentrations across food groups, focused on inorganic arsenic (inAs). This is a secondary source (literature meta-analysis), not a primary measurement study; its values are aggregates of the underlying primary studies and so are recorded here as literature-wide context, not as poolable occurrence data (pooling them would double-count the primary sources). Its central finding for the Category 6 seaweed row: seaweed/algae had the highest mean total inorganic arsenic of any food group, 11,000 µg/kg (n=312, range <14–120,000), with seaweed-containing products far lower at 260 µg/kg (n=30). The review also documents extensive data-quality caveats (extraction efficiencies often <80% for algae, high non-detect fractions, combined dry/wet-weight reporting) that bear on how seaweed arsenic data should be interpreted.
 
 ## Key numbers

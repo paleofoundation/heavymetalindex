@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Chang et al. 2022 - Rhizobium treatment and cadmium in fermented cocoa
 
+## Overview
+
 Chang and colleagues tested whether adding Rhizobium japonicum during fermentation reduced cadmium in two cocoa varieties, Nacional and Trinitarian. The study reports cadmium concentrations for six variety-by-treatment combinations after fermentation. The paper is intervention evidence for cocoa processing/fermentation rather than finished chocolate retail occurrence evidence.
 
 ## Key numbers

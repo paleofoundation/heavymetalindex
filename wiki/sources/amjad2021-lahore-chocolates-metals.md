@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Amjad et al. 2021 - Heavy metals in Lahore chocolate samples
 
+## Overview
+
 Amjad and colleagues measured Pb, Ni, Cd, and Cr in 30 locally available chocolate samples from Lahore, Pakistan. The study reports sample-level concentrations for each analyte after acid digestion and atomic absorption spectrophotometry. The paper is direct chocolate occurrence evidence, with values reported as ppm or mg/kg for finished chocolate samples.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Brzezinska-Rojek et al. 2023 — Elemental composition and safety of beetroot dietary supplements, Poland
 
+## Overview
+
 Brzezinska-Rojek et al. measured 19 elements in 37 beetroot-based dietary supplements (tablets, capsules, and powders) available in Poland, using microwave plasma atomic emission spectrometry (MP-AES; Agilent 4210). Products were homogenized and microwave-digested (Anton Paar Multiwave Go); recoveries 80–120%; LOQ values ranged by element (Pb LOQ 0.035 mg/kg, Cd LOQ 0.066 mg/kg, Al LOQ 0.26 mg/kg). The safety-critical finding is that five products exceeded 4–134% of the PTMI for cadmium, two products delivered 11–12% of the PTWI for aluminum per daily dose, and three products provided Ba at 1.085–1.331 µg/daily dose. Lead was below LOQ in all 37 samples (LOQ = 0.035 mg/kg). Powders generally contained the highest element concentrations per daily dose, substantially exceeding tablets and capsules, because powder daily portions (3–15 g/day) are far larger by mass.
 
 ## Key numbers

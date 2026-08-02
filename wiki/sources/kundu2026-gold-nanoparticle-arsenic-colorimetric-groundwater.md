@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Kundu and Kar (2026) report an AuNPs-based colorimetric sensing approach for the simultaneous or sequential detection of both inorganic arsenic species — As(III) (arsenite) and As(V) (arsenate) — in groundwater. The method exploits differential affinity of gold nanoparticles for the two arsenic oxidation states, enabling visual or spectrophotometric discrimination.
 
 ## Key numbers

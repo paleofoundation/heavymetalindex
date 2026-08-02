@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Maikanov et al. 2021 - Meat Safety in Shuchinsk-Burabay
 
+## Overview
+
 Maikanov et al. measured arsenic, cadmium, mercury, and lead in multiple meat species from markets in the Shuchinsk-Burabay resort zone, Kazakhstan. For the poultry row, the key result is negative evidence: the table reports poultry values below detection/zero for As, Cd, Hg, and Pb.
 
 ## Key numbers

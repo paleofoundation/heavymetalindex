@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Gumilar et al. 2022 - Nickel and molybdenum additions in POME ethanol treatment
 
+## Overview
+
 Gumilar and colleagues tested whether nickel and molybdenum additions changed ethanol formation during anaerobic treatment of palm oil mill effluent. This is in-scope supply-chain wastewater-treatment and trace-metal-addition context: it reports POME metal concentrations and metal dosing in a treatment process, but it is not palm-oil occurrence evidence and it does not report heavy-metal removal.
 
 ## Key numbers

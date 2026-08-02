@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zhao 2016 - Xiamen seafood metals
 
+## Overview
+
 Zhao and colleagues paired a Xiamen adult seafood-consumption survey with market sampling of fish, mollusks, crustaceans, and algae. The occurrence component measured lead, cadmium, chromium, total mercury, and total arsenic in 156 samples of 14 seafood types. The paper uses assumed methylmercury and inorganic-arsenic fractions for risk calculations, but the analytical occurrence table reports total Hg and total As only.
 
 ## Key numbers

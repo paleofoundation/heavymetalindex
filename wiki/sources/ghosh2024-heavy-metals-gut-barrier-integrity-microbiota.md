@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Ghosh, Nukavarapu, Jala 2024 — Effects of heavy metals on gut barrier integrity and gut microbiota
 
+## Overview
+
 This Microbiota and Host review by Ghosh, Nukavarapu, and Jala (University of Louisville Brown Cancer Center, Center for Microbiomics, Inflammation and Pathogenicity, with University of Connecticut collaboration) covers the mechanistic literature on how environmental heavy-metal exposure damages the intestinal epithelial barrier and disrupts gut microbiota homeostasis. The review documents the well-characterized links between heavy-metal exposure (Pb, Cd, As, Hg, Cr) and gastrointestinal-related disorders including inflammatory bowel disease, with attention to barrier-function endpoints (tight-junction protein expression, mucus-layer integrity, paracellular permeability) and to immune-homeostasis endpoints (mucosal cytokine balance, regulatory T-cell function).
 
 ## Key conclusions

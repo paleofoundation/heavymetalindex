@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Singh and Nyau 2020 - Heavy metals in edible wild mushrooms from Zambia
 
+## Overview
+
 Singh and Nyau measured Cu, Cd, Pb, Zn, Ni, and Co in three edible wild mushroom species from a mining-influenced site in Solwezi District and an agriculture-influenced site in Mpongwe District, Zambia. The paper gives species-by-site mean concentrations on a dry-weight basis. Cadmium in Termitomyces titaniscus and Lactarius titaniscus was well above the source-cited 0.3 mg/kg FAO/WHO benchmark at both sites, while lead values stayed below or near the source-cited 2.0 mg/kg benchmark.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Berger Ritchie & Gerstenberger 2013 — Lead in imported hot sauces (Clark County, Nevada)
 
+## Overview
+
 Pilot ICP-MS study of lead in 25 imported hot sauces purchased in Clark County, Nevada. Four of 25 hot sauces (16%) exceeded 0.1 ppm Pb (the FDA action level for lead in candy, used in the study as the absence of a hot-sauce-specific standard); all four were manufactured in Mexico and contained salt. The highest single-bottle value was 0.308 µg/g (308 ppb) Pb. XRF analysis of plastic lids found Pb concentrations ranging from below the limit of detection (<6 to <13 ppm depending on lid color) to 2,028 ppm; all detected plastic-lid Pb values exceeded the FDA 7 ppm packaging-materials limit cited by the authors. Lot-variation oversampling found inconsistent Pb between and within manufacturer lots, indicating that single-bottle screening is not reliable for product surveillance. An 8-month leaching test on one bottle showed no change in syrup Pb (constant at 0.17 ppm), but the test was limited to one product and the authors note that hot sauce normally contacts the lid only intermittently. IEUBK modeling at 2 servings/day across the four >0.1 ppm products for one year predicted a 0.2–1.8 µg/dL increase in child blood lead (with the 1.0–1.8 µg/dL high end attached to a 0.230 µg/g Pb product at 15 g serving size, and the 0.5–0.9 µg/dL range attached to the highest-Pb 0.308 µg/g product at a smaller 5.4 g serving size), all below the (then-current) 10 µg/dL CDC action level used by the source.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Fattorini 2004 - Cienfuegos seafood arsenic speciation
 
+## Overview
+
 Fattorini and colleagues measured total arsenic and arsenic species in marine organisms collected from Cienfuegos Bay, Cuba, after an accidental release of `3.7 tons` of arsenic as arsenate oxides from a nitro-fertilizer factory. The source includes fish muscle, crustaceans, and algae; this page routes the fish and crustacean results as seafood occurrence context and treats the algae rows as environmental context only. Arsenic speciation is load-bearing here: the paper reports both total arsenic and inorganic arsenic percentages in selected fish and crustacean rows.
 
 ## Key numbers

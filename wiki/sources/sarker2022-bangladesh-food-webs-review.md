@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Sarker et al. 2022 — Heavy metals in Bangladesh food webs: systematic review (ESPR)
 
+## Overview
+
 This systematic, non-exhaustive review in Environmental Science and Pollution Research synthesizes heavy metal contamination, multi-trophic transfer, and associated health risks in Bangladesh's food webs. The authors surveyed rice, vegetables, fruits, fish, meat, dairy, soil, sediment, groundwater, and surface-water matrices, concluding that several lines of evidence show heavy metals in Bangladesh foodstuffs above WHO/FAO maximum tolerable limits (MTLs), primarily due to poor management of industrial effluents, contaminated irrigation water, improper use of metal-containing pesticides and fertilizers, and weak regulatory enforcement. The review specifically notes that arsenic in Bangladesh is a well-documented groundwater-derived crisis, and that Pb in mango and Cd in tomatoes exceeded WHO/FAO limits in a national survey of 30 agroecological zones. A cited cultured-fish study reported arsenic in tilapia at 1.486 mg/kg, higher than rahu and pangas in that comparison, and described potential carcinogenic and chronic-toxicity concern with continuous consumption in contaminated areas.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Selvam et al. 2021 — Heavy metal contamination in coastal aquifer groundwater, Kerala, India
 
+## Overview
+
 This study evaluated heavy metal contamination in 50 groundwater samples from the coastal aquifer of Alappuzha district, Kerala, India, using the OSPRC (Overall Pollution Risk Classification) framework across pre-monsoon and post-monsoon periods. ICP-OES was used to measure 12 elements including As, Cd, Sr, Ni, Cu, Fe, Ba, Cr, Pb, Al, Mn, and Co. The study found elevated concentrations of several metals compared to WHO drinking water guidelines, with the OSPRC framework identifying zones of moderate to high contamination risk. Seasonal variation was observed between pre- and post-monsoon samples, with some metals showing higher concentrations post-monsoon due to leaching dynamics.
 
 ## Key numbers

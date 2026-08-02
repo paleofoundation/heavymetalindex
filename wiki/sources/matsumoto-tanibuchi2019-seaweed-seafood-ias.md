@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Matsumoto-Tanibuchi et al. 2019 - inorganic arsenic in seaweed and seafood by LC-ICP-MS
 
+## Overview
+
 Matsumoto-Tanibuchi and colleagues validated an LC-ICP-MS method for inorganic arsenic in seaweed, seafood, and seafood products purchased from a local market in Japan. The occurrence-relevant data are Table 4 product concentrations and Table 5 tissue-part concentrations, which report inorganic arsenic, total arsenic, total arsenic in extracts, and extraction rates. The page keeps inorganic arsenic and total arsenic separate throughout.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Gekpe et al. 2023 - Cadmium, quercetin, and omega-3 in rats
 
+## Overview
+
 Gekpe and colleagues tested whether quercetin and omega-3 fatty acid altered cadmium-induced changes in nitric-oxide, antioxidant, and malondialdehyde endpoints in rats. This is lane a4 toxicology and co-treatment context, not olive-oil occurrence evidence: cadmium chloride was deliberately administered, and olive oil was used only as a sham-control vehicle. The paper reports cadmium dose, LD50, group size, and source-printed serum biomarker values for several endpoints.
 
 ## Key numbers

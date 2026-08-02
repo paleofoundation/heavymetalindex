@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Pompa et al. 2021 — Six years of Cd, Pb, Hg monitoring in imported durum wheat (Italy, 2015–2020)
 
+## Overview
+
 This six-year Italian official control study (2015–2020) measured cadmium, lead, and mercury in 346 whole durum wheat grain samples imported into Italy from six countries (Australia, Canada, Kazakhstan, Russia, Turkey, United States), analyzed by ICP-MS per EN 15763:2009. All samples were compliant with FAO/WHO and EU regulations. Overall means were Cd 0.0322 mg/kg and Pb 0.0162 mg/kg; all mercury concentrations were below the LOD (0.004 mg/kg). The study is notable for reporting statistically significant temporal (year-to-year) and geographic (origin country) variation in Cd, but no significant seasonal variation, with the United States being flagged for an anomalous cluster of high-Cd samples in November 2017 (five samples from the US, 0.099–0.125 mg/kg Cd).
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zahran et al. 2023 — Mercury bioaccumulation in Nile tilapia muscle under HgCl₂ exposure; Nannochloropsis dietary mitigation
 
+## Overview
+
 This controlled aquaculture study evaluated mercury (Hg²⁺) bioaccumulation in muscle tissue of Nile tilapia (*Oreochromis niloticus*) exposed to a sub-lethal concentration of HgCl₂ (0.3 mg/L; ¼ LC₅₀) for 21 days, and assessed whether dietary supplementation with *Nannochloropsis oculata* microalga (5% or 10% of feed) could reduce Hg muscle deposition. Hg²⁺ toxicity led to significant musculature bioaccumulation, inhibited acetylcholinesterase (AChE) activity, downregulated antioxidant- and stress-related genes, and caused histopathological changes in gills and intestine. Supplementation with 10% *N. oculata* upregulated antioxidative genes, downregulated stress-apoptotic genes, and produced minor to no histopathological lesions. The study quantifies Hg accumulation in the muscle of a globally consumed aquaculture fish species under controlled contamination conditions and demonstrates a dietary mitigation strategy.
 
 ## Key numbers

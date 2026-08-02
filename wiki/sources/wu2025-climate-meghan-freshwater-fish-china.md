@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This study compiled a dataset of approximately 13,000 fish mercury samples across China spanning 2005–2020 and combined machine learning (random forest) with climate modeling to project how multiple interacting climate factors will drive methylmercury (MeHg) accumulation in freshwater wild fish. The authors found that freshwater wild fish in China are an underappreciated MeHg source: concentrations are 2.9 to 6.2 times higher than in freshwater farmed fish and 1.7 times higher than in marine wild fish within the same trophic class. Under SSP2–4.5 and SSP5–8.5 scenarios, national average MeHg concentrations in freshwater wild fish are projected to rise by approximately 60% by 2031–2060, with disproportionate increases in northern China and implications for health inequalities across Asia.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Lu et al. 2025 — Profitable chrysanthemum phytoremediation of Cd-contaminated farmland in Zhejiang
 
+## Overview
+
 Lu and colleagues screened 23 ornamental chrysanthemum cultivars over two growing seasons for their ability to remove cadmium from contaminated farmland in eastern China, then tested a single high-performing cultivar against bamboo-vinegar and EDTA-Si chelator treatments. The source is primary field evidence for phytoremediation and supply-chain mitigation: the trial site is the kind of Cd-contaminated farmland that drives rice exceedances in the region, and the ornamental crop is positioned as an income stream that lets remediation pay for itself without entering the food channel.
 
 ## Key numbers

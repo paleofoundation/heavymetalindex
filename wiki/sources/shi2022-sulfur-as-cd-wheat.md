@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Shi et al. 2022 — Sulfur regulation of arsenic and cadmium translocation in wheat grain
 
+## Overview
+
 This paper investigates how sulfur supplementation reduces the translocation of arsenic and cadmium from roots to shoots in wheat by promoting vacuolar sequestration in root cells. The study uses hydroponic wheat seedlings and reports root and shoot As and Cd concentrations under varying sulfur treatments. The paper also cites published field data showing that wheat grain from India, Pakistan, and Argentina has been found to contain inorganic arsenic at concentrations exceeding food safety thresholds, contextualizing the agronomic relevance of the findings.
 
 ## Key numbers

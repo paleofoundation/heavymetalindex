@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Bhattacharya and Deka 2024 — Metals in traditional rice beers of Assam tribes
 
+## Overview
+
 Bhattacharya and Deka measured concentrations of eleven metals (Cd, Co, Cr, Cu, Fe, Pb, Mn, Ni, K, Na, Zn) in four traditional alcoholic rice beers prepared by indigenous Rabha and Sonowal Kachari communities of Assam, India, by atomic absorption spectroscopy. Concentrations of cadmium (0.002–0.008 mg/L), chromium (0–0.012 mg/L), cobalt (0–0.008 mg/L), nickel (0.024–0.094 mg/L), and lead (0.09–0.19 mg/L) were below the WHO drinking-water guideline values applied as the comparator throughout the paper, while iron (1.09–1.56 mg/L) and manganese (1.67–2.53 mg/L) ranged above the WHO drinking-water guideline for those analytes. Total target hazard quotient (ΣTHQ) was below 1 for all four beers and highest for the Pati Rabha sticky-rice beer (0.351). The paper concludes the beers can be marked as safe relative to WHO drinking-water permissible limits despite the Fe and Mn exceedances noted in its own discussion.
 
 ## Key numbers

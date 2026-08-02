@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 An electrochemiluminescence (ECL) array device for the visualized detection of trace Pb2+ was developed, exploiting a Pb2+-specific aptamer DNA chain conjugated to gold nanoparticles (AuNPs) immobilised on an indium tin oxide (ITO) substrate. The sensor achieves an LOD of 9.8 pg/L for Pb2+, which the authors describe as among the most sensitive reported ECL limits for lead. Practical applicability was demonstrated by measuring spiked Pb2+ in extracts of Lycium ruthenicum Murr. (wolfberry), Glycyrrhiza uralensis (licorice root), and lake water.
 
 ## Key numbers

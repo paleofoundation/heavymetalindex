@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Kaaber, Veien, Tjell 1978 — Low nickel diet in chronic nickel dermatitis
 
+## Overview
+
 This British Journal of Dermatology study from the Finsen Institute (Copenhagen) and the Technical University of Denmark Department of Sanitary Engineering is the foundational paper of the low-nickel-diet literature. It is the first systematic test of whether reducing dietary nickel can improve chronic nickel dermatitis in patients with documented oral nickel reactivity. 28 chronic-nickel-dermatitis patients were enrolled, 17 had clear oral nickel reactivity (positive 2.5 mg challenge, negative placebo), and 9 of 17 (53 percent) had dermatitis improvement during a 6-week low-nickel diet. Seven of the 9 improvers flared again when normal diet was resumed. The companion biomarker work measured 24-hour urinary nickel excretion by atomic absorption spectrometry in 14 patients before, during, and after diet, documenting that the diet reduced urinary excretion but with no statistically significant difference between improvers and non-improvers.
 
 ## Key numbers

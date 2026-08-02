@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Hasan and Khanam 2021 — Trace elements in Bangladeshi cheese, ghee, and butter
 
+## Overview
+
 This nationwide Bangladesh dairy survey reports concentrations of eight metals (Fe, Cu, Mn, Zn, Pb, Cd, Cr, total As) in cheese, ghee, and locally processed butter purchased from local shops across 64 administrative districts. Analysis is by flame atomic absorption spectrophotometry (AAS) on a Thermo Scientific iCE-3000, with microwave digestion in HNO₃/H₂O₂. The paper applies the standard EPA-based EDI / THQ / TTHQ / TCR risk framework for the adult population (60 kg BW), using the BBS 2011 Household Income and Expenditure Survey to set daily intake rates (cheese 14.053 mg/day, ghee 786.965 mg/day, butter 14.053 mg/day as stated by the authors).
 
 The headline finding is that for cheese and butter all THQ and TTHQ values fall below 1 and TCR values for As, Pb, and Cd fall below 10⁻⁶, indicating negligible non-carcinogenic and carcinogenic risk at typical Bangladeshi adult consumption. For ghee, however, the TTHQ reaches 1.247 — above the threshold of concern — driven primarily by Cu, tAs, and Cd contributions in the much higher daily-intake matrix; the authors note this implies a potential adverse-health-effect signal for ghee specifically. Carcinogenic risk (TCR) for ghee remains within the conventionally acceptable 10⁻⁶ to 10⁻⁴ range for As and below 10⁻⁶ for Pb.

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # De Anda-Montanez et al. 2023 - Trace and macro elements in Baja California red crab
 
+## Overview
+
 De Anda-Montanez and colleagues measured Cd, Cu, Fe, Mn, Ni, Pb, Zn, Ca, Mg, and P in whole adult red crab from the Pacific coast of the Baja California Peninsula, Mexico. The paper is routeable as shellfish/seafood occurrence evidence on a dry-weight whole-organism basis, with the important limitation that the source sampled wild red crab used or proposed for feed/flour and potential consumption rather than finished retail shellfish portions. Cadmium was the highest toxic-metal concern, while Pb was not detected in any cruise or zone group.
 
 ## Key numbers

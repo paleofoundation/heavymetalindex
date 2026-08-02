@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # Taylor et al. 2019 — Dietary patterns and blood lead in pregnant British women
 
+## Overview
+
 This ALSPAC cohort analysis asks whether whole-diet patterns or specific food groups are associated with elevated blood lead during pregnancy. It is an a4 exposure paper rather than an occurrence paper: the measured endpoint is maternal blood lead, with diet modeled as a possible exposure predictor. The paper is useful because it keeps the pregnancy-exposure discussion quantitative while showing that broad dietary pattern signals are weak and inconsistent.
 
 ## Key numbers

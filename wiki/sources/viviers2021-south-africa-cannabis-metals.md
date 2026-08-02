@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Viviers et al. 2021 - South African cannabis product metals
 
+## Overview
+
 Viviers et al. analyzed 310 cannabis-based products submitted to a South African private laboratory for Class 1 and Class 2 elemental impurities. The paper reports aggregate detection and source-limit failure counts by product category, rather than individual sample concentration values. Arsenic and mercury are not speciated, so this page records them as total arsenic (tAs) and total mercury (tHg).
 
 ## Key numbers

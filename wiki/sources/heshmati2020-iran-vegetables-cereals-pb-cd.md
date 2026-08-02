@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Heshmati et al. 2020 — Total Pb and Cd in eight Hamadan-market vegetables and cereals (western Iran) by GF-AAS with adult exposure and risk assessment
 
+## Overview
+
 This Iranian market-basket survey quantifies total Pb and total Cd in eight commodities — potato, onion, tomato, lettuce, leek, carrot, wheat, and rice — purchased from local markets, supermarkets, and grocery stores in Hamadan province, western Iran, between August 2017 and February 2018. Fifty composites per commodity (n=400 total) were microwave-digested in HNO₃/H₂O₂ and quantified by graphite-furnace atomic absorption spectrometry (Thermo Scientific CE 3300) at 217 nm (Pb) and 228.8 nm (Cd). All eight commodity means for both Pb and Cd were below the EU 1881/2006 maximum allowable concentrations (MAC) cited by the authors, but Pb exceeded the MAC in 4 % of carrot samples, 10 % of wheat samples, and 8 % of rice samples; no Cd sample in any commodity exceeded the EU MAC. Adult (70 kg, single-cohort) exposure assessment used Iranian per-capita consumption (68 g/d potato; 39 g/d onion, leek, carrot; 109 g/d tomato; 58 g/d lettuce; 322 g/d wheat; 322 g/d rice from Table 4) and yielded total Cd EDI 0.49 µg/kg bw/day (below JECFA PTDI ≈ 0.8 µg/kg bw/day), all per-commodity Cd THQ values < 1, and all per-commodity Pb MOE values > 1 (range 2.12 wheat / 2.69 rice / 42.86 potato / 133.33 onion), supporting the authors' conclusion of no significant non-carcinogenic health risk from Pb and Cd exposure through these eight commodities for the adult population.
 
 ## Key numbers

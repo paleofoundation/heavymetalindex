@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Mehouel et al. 2019 - Risk assessment of mercury and methyl mercury intake via sardine and swordfish consumption in Algeria
 
+## Overview
+
 This study measured total mercury and methylmercury in sardine and swordfish from three Algerian coastal areas and estimated dietary exposure for adult consumers.
 
 ## Key numbers

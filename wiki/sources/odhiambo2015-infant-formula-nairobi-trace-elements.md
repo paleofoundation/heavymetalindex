@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Odhiambo et al. 2015 - toxic trace elements in Nairobi infant formula
 
+## Overview
+
 This study measured Al, Cd, Pb, and Ni in seven milk-based infant formula powders for infants aged 0-6 months sold in the Nairobi market. The source is direct occurrence evidence for powdered non-soy infant formula in Kenya. Its main HMT&C signal is that Pb was detected in all seven products and exceeded the Kenya Bureau of Standards maximum limit of 0.02 ppm in five of seven anonymized product codes, while Cd was not detected.
 
 ## Key numbers

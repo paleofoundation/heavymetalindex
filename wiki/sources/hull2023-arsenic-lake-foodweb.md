@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hull et al. 2023 — Arsenic trophic transfer in Puget Sound lakes
 
+## Overview
+
 Hull and colleagues investigated arsenic trophic transfer through aquatic food webs in ten arsenic-contaminated urban lakes in Washington State's Puget Sound lowlands, a region with legacy pollution from historical copper smelting operations. Their key finding is that littoral sediment arsenic concentration is a reliable predictor of arsenic bioaccumulation across trophic levels, including in edible fish muscle tissue, providing a low-cost screening tool for human health risk from recreational fish consumption. The percent inorganic arsenic (%iAs) increased with decreasing trophic level across all lakes, confirming that iAs dilutes with trophic transfer while total arsenic biodiminishes.
 
 ## Key numbers

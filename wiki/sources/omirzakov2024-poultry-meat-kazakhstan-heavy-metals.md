@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Omirzakov et al. 2024 - Analysis of heavy metals content in domestic and imported poultry meat
 
+## Overview
+
 This study measured arsenic, cadmium, mercury, and lead in domestic and imported poultry meat sampled in Kazakhstan using ICP-MS.
 
 ## Key numbers

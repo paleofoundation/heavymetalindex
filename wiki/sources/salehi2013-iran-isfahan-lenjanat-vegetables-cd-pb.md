@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Salehi, Mohajer & Mohammadi 2013 — Cd and Pb in 130 topsoils and 50 vegetable samples, Lenjanat region (Isfahan, Iran)
 
+## Overview
+
 This short ICHMET 2012 conference paper reports total cadmium and total lead concentrations in 130 topsoil samples and 50 vegetable samples drawn from agricultural lands in the 75 km² Lenjanat region of Isfahan province, central Iran — an intensively-cultivated area surrounded by steel and cement factories and lead mining. Total metals were extracted from soils with concentrated HNO₃ and from dry-ashed plant tissue with 3 N HCl, then quantified by flame atomic absorption spectrometry (FAAS). The mean soil Cd concentration (1.34 mg/kg) exceeded the Swiss VBBo 0.8 mg/kg threshold and the United Kingdom 1 mg/kg maximum allowable limit cited by the authors; the mean soil Pb concentration (14.23 mg/kg) fell below the Swiss VBBo 50 mg/kg threshold. Across the 50-sample vegetable panel, 48 % of samples exceeded the FAO/WHO 0.1 mg/kg dry-weight Cd maximum permissible limit for vegetables and 75 % exceeded the corresponding 0.3 mg/kg Pb limit. The paper does not break out which vegetable species were sampled, the per-species sample sizes, or any replicate structure; species-level interpretation is therefore not possible from the published text.
 
 ## Key numbers

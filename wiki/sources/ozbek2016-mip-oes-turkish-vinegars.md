@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Ozbek et al. 2016 — Trace metal determination in Turkish vinegars by MIP OES
 
+## Overview
+
 This study validated a microwave-induced plasma optical emission spectrometry (MIP OES) method for simultaneous determination of ten elements (Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, Zn) in 35 vinegar samples produced in Turkey, requiring only simple dilution into 2% acetic acid without acid digestion. All measured concentrations fell well below the Turkish Food Codex maximum allowable values (Pb ≤1 mg/L; Cu + Zn ≤10 mg/L; Fe ≤10 mg/L); the highest observed Pb value across the sample set was 0.15 mg/L (one grape vinegar). The method is suitable for routine quality-control analysis of acidic food matrices.
 
 ## Key numbers

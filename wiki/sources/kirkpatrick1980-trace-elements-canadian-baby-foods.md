@@ -30,6 +30,8 @@ updated: 2026-05-09
 
 # Kirkpatrick et al. 1980 — Trace elements in Canadian baby foods (historical baseline)
 
+## Overview
+
 This **B-tier 1980 historical reference paper** from Health Protection Branch, Health and Welfare Canada (Bureau of Chemical Safety + Bureau of Nutritional Sciences) measures nine trace elements (Cd, Cr-total, Co, Cu, Fe, Pb, Mn, Ni, Zn) in 330 combined baby-food samples covering 11 categories from the 1975 Canadian market, then estimates infant dietary intake from 0-12 months using Nutrition Canada National Survey 24-hour dietary recall data (n=257 infants). The methodology is **Atomic Absorption Spectrophotometry (AAS) with LOD = 0.01 ppm = 10 ppb** for all elements except Cu/Fe/Mn/Zn (which use a different AAS instrument); this LOD floor is **two orders of magnitude higher than modern ICP-MS** (typical Pb LOD ~0.05 ppb). Per the paper's explicit caveat: "any sample values which were below the detection limit were set equal to the detection limit in calculating average levels. Hence, the estimated average levels will tend to be overestimates of the population average." This makes Kirkpatrick 1980 a **historical-baseline reference** rather than a percentile-math contributor for modern HMTc thresholds. The principal value is documenting the **50-year reduction trajectory**: 1980 mean Pb in prepared formula was 0.03 ppm (= 30 ppb, with LOD floor) versus FDA 2026 mean 0.4 ppb — an ~75× reduction over five decades, driven by elimination of lead-soldered cans, regulatory tolerance tightening, and ingredient-sourcing improvements.
 
 ## Key Numbers

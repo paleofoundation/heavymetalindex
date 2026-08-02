@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Du et al. 2025 — Heavy metal exposures in infants with reflux or dysphagia using different thickeners
 
+## Overview
+
 This study assessed heavy metal exposures specifically in infants with reflux or oropharyngeal dysphagia who use thickeners as medical treatment. Fifty-six infants under one year of age at Boston Children's Hospital submitted urine samples and 3-day dietary recalls. Three thickener groups were compared: commercial gel-based thickener or purees (control, n=27), anti-reflux formula (n=19), and infant oatmeal/rice cereal (n=10). ICP-MS with arsenic speciation measured 22 elements in urine including iAs, Pb, Hg, Cd, Sn, Cr, Ni, and U. Urinary arsenic (total and speciated iAs) did not differ significantly between thickener groups (p=0.086); all values were well below the ATSDR toxicity threshold of 100 µg/L. Only molybdenum showed significant differences between thickener groups after Bonferroni correction (p=0.0012, higher in oatmeal/rice cereal group). The number of servings of alternative arsenic dietary sources (applesauce, carrots, sweet potato) predicted higher urinary arsenic (p=0.001).
 
 ## Key numbers

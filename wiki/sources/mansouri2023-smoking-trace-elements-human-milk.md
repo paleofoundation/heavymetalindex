@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mansouri et al. 2023 - Smoking exposure and trace elements in human milk
 
+## Overview
+
 This Scientific Reports study measured six essential elements and six potentially toxic elements in breast milk from 100 lactating women in western Iran. The source reports higher arsenic, cadmium, mercury, and lead concentrations in active or passive smoke-exposure groups than in non-smoker controls. It is routeable as human-milk occurrence and infant-exposure context, not as commercial infant-food evidence.
 
 ## Key numbers

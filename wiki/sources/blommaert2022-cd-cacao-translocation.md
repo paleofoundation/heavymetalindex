@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Blommaert et al. 2022 — Cd translocation pathway in cacao using isotope fractionation and XAS
 
+## Overview
+
 Blommaert et al. traced the cadmium pathway from soil through roots, branches, leaves, pod husk, and nibs of Theobroma cacao using stable Cd isotope fractionation combined with X-ray absorption spectroscopy (XAS) and laser ablation ICP-MS (LA-ICP-MS). The study found that Cd concentrations in cacao nibs were 10 to 28 times higher than those measured in the topsoil, demonstrating substantial bioconcentration. Isotope fractionation patterns indicated that roots are a key compartment for Cd retention and that the xylem loading step is a critical control point for how much Cd reaches the harvestable bean. XAS revealed that Cd in cacao tissues is primarily bound to organic acids and thiol ligands rather than to phosphate or sulfide minerals, consistent with an active chelation-based transport mechanism. This mechanistic understanding is directly relevant to identifying which agronomic and processing interventions can most effectively reduce Cd in cocoa-derived ingredients.
 
 ## Key numbers

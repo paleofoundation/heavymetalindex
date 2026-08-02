@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Cherfi et al. 2014 — Cr, Pb, Zn, and Cu in fruits and vegetables consumed in Algeria
 
+## Overview
+
 Cherfi and colleagues measured chromium, lead, zinc, and copper in selected fruits and vegetables sold in Algeria and estimated dietary exposure for adults in Boumerdes. The source reports arithmetic mean concentrations in `mg/kg dry weight` for two fruit and thirteen vegetable foodstuffs. Chromium is reported as total chromium only; no Cr(III)/Cr(VI) speciation is provided.
 
 ## Key numbers

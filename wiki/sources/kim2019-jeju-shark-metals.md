@@ -27,6 +27,8 @@ updated: 2026-07-27
 
 # Kim 2019 - Heavy metals in Jeju shark meat
 
+## Overview
+
 Kim and colleagues measured heavy metals in muscle from six shark species sold at Jeju Island fish markets in the Republic of Korea. The paper reports wet-weight concentrations for total chromium, iron, copper, zinc, total arsenic, selenium, cadmium, tin, antimony, lead, total mercury, and methylmercury, then compares the shark-meat findings with source-cited regulatory limits and biological variables such as species, habitat, body length, body weight, and age.
 
 ## Key numbers

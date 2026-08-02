@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # ElMosbah et al. 2024 - Aluminum chloride rat neurotoxicity and rivastigmine chitosan nanoparticles
 
+## Overview
+
 ElMosbah and colleagues used oral aluminum chloride to induce Alzheimer's-like pathology in rats, then compared oral versus intranasal rivastigmine-loaded chitosan nanoparticles. This is in-scope lane a4 toxicology evidence for aluminum neurotoxicity and treatment response. It is not consumer-product occurrence evidence and does not report aluminum concentrations in food, water, or tissue.
 
 ## Key numbers

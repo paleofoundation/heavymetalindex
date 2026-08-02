@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Rakib et al. 2021 -- Macroalgae metals in Bangladesh
 
+## Overview
+
 Rakib et al. measured trace elements in 10 macroalgae species from the Cox's Bazar and Saint Martin's Island coastal region of Bangladesh. The source is routeable for seaweed and kelp foods because several sampled species are described as edible or locally consumed, and the paper reports dry-weight and converted wet-weight concentrations for Pb, total As, and Cr.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zhao et al. 2023 - Rice-straw biochar sorption of Cu(II) and Pb(II)
 
+## Overview
+
 Zhao and colleagues compared original, bleached, and NaOH-activated rice-straw biochars as sorbents for dissolved Cu(II) and Pb(II). The source is primary remediation-method evidence for metal immobilization mechanisms, not food or ingredient occurrence evidence: the measured endpoints are sorption coefficients, model fits, biochar functional groups, and DFT binding energies rather than concentrations in edible rice, rice straw as feed, soil after application, or food products.
 
 ## Key numbers

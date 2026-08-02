@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Marriott et al. 2023 — PHEs in fish and aquaculture, Lake Victoria, Kenya
 
+## Overview
+
 This study examined potentially harmful elements (PHEs) in wild and farmed Nile tilapia (Oreochromis niloticus) from Winam Gulf, Lake Victoria, Kenya, alongside water and sediment measurements, as part of a broader biogeochemical and food-security assessment of the lake system. Cadmium, chromium, and lead concentrations in fish tissue exceeded provisional maximum tolerable intake (PMTI) thresholds established by regulatory agencies, raising concerns about consumption safety for local populations dependent on the lake's fishery.
 
 ## Key numbers

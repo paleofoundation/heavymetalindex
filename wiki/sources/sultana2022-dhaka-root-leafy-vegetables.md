@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Sultana et al. 2022 — Heavy metals in root and leafy vegetables, Dhaka, Bangladesh
 
+## Overview
+
 This study measured concentrations of eight metals (Cr, Cd, Pb, Ni, Cu, Zn, Fe, Mn) in four root vegetables (beet, radish, carrot, turnip) and five leafy vegetables (mustard, cabbage, spinach, coriander, mint) purchased at Kawran Bazar, Dhaka's largest fresh produce market, across four seasonal sampling phases at minimum 14-day intervals over two months. Leafy vegetables consistently showed higher metal concentrations than root vegetables, with mean concentrations of Cr, Cd, Pb, and Ni exceeding FAO/WHO maximum permissible limits (MPL) in several species. Average daily intake (ADI), hazard quotient (HQ), and hazard index (HI) calculations indicated that four of five leafy vegetables (mustard, spinach, coriander, mint) and one of four root vegetables (turnip) posed potential health risks (HI > 1) at the assumed Bangladeshi adult intake of 166.1 g/person/day.
 
 ## Key numbers

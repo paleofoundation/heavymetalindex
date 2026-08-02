@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Badeenezhad et al. 2021 — Heavy metal health risk in drinking water, Shiraz, Iran
 
+## Overview
+
 This study assessed heavy metal pollution and probabilistic health risk in drinking water from 80 groundwater samples collected from Shiraz, Iran. Concentrations of Cd, Pb, Hg, As, Cu, Zn, Cr, Fe, and Mn were determined. Monte Carlo simulation (10,000 iterations) was used to quantify carcinogenic and non-carcinogenic health risks for children and adults separately. Water quality indices (HPI, Nemerow pollution index) were calculated. The study found that As and Cr posed the highest carcinogenic risk to both age groups at the 95th percentile exposure scenario.
 
 ## Key numbers

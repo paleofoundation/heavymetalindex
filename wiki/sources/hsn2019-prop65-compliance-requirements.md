@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # HSN 2019 — California Proposition 65 compliance requirements (retailer supplier specification)
 
+## Overview
+
 This 11-page HSN (Home Shopping Network) Quality Assurance specification, issued 4 December 2019 and revised 7 April 2021, defines the acceptance criteria HSN applied to brands and suppliers seeking to sell consumer goods through the HSN retail channel under California Proposition 65 and the parallel federal CPSIA / CPSC / FDA frameworks. The specification is organised by product category — outerwear and apparel trim; belts, footwear, gloves, hats and scarves; handbags, purses, clutches, totes, wallets, cosmetics and toiletries bags; luggage, luggage tags, ID cases, eyeglass cases, key chains, mobile-device covers, journals, and books; ceramic tableware; leaded crystal; jewelry and watches — and for each category restates the operative total-content (ppm) or extractable-content (ppm) limit on lead, cadmium, and phthalates that HSN QA used to accept or reject supplier-submitted test reports. The food-contact and children's-product categories (ceramic tableware, leaded crystal, children's jewelry) are within HMI scope and are documented in detail in Key numbers; the apparel, footwear, handbag, luggage, and adult-jewelry categories are summarised here as context for the document's overall structure but their numerical limits are outside HMI's heavy-metals food-and-supply-chain remit.
 
 ## Key numbers

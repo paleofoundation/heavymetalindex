@@ -28,6 +28,8 @@ updated: 2026-05-14
 
 # Sobhanardakani et al. 2017 — Aluminum and copper in commercial fruit juices, Iran
 
+## Overview
+
 This study analyzed aluminum (Al) and copper (Cu) concentrations in 48 commercially packaged fruit juice samples (cherry, mango, orange, and pineapple; 4 brands × 3 replicates per juice type) from Hamedan, Iran. The mean Al concentration (1.24 ± 0.36 mg/L) exceeded the WHO maximum permissible limit (MPL) of 0.2 mg/L, while Cu (mean 0.04 ± 0.02 mg/L) was well below its MPL of 2.0 mg/L. Despite elevated Al, health risk assessment using estimated average daily intake (EADI) and hazard index (HI) indicated no significant direct health hazard for adults or children. The highest Al was found in cherry juice from Brand 1 (3.30 mg/L), likely reflecting packaging interactions and acid-mediated Al leaching from Tetra Pak materials.
 
 ## Key numbers

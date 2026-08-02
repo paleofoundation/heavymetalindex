@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Cwielag-Drabek et al. 2025 - Heavy metals in tattoo and permanent makeup inks
 
+## Overview
+
 Cwielag-Drabek and colleagues measured 12 trace elements in 41 tattoo and permanent makeup ink products available to European consumers after the 2022 REACH restrictions took effect. The source is direct product-occurrence evidence for tattoo inks and related permanent makeup pigments: the authors report finished-ink concentrations in mg/kg, identify EU-limit exceedances, and model dermal exposure scenarios. Mercury was not detected above the 0.008 mg/kg LOQ in any sample, while copper, nickel, arsenic, chromium, and lead drove the main compliance and risk findings.
 
 ## Key numbers

@@ -29,6 +29,8 @@ created_by: claude-opus-4-7
 
 # Seifi 2026 — Iranian children's-toy survey for Pb, Cr, tHg, tAs, Cd and phthalates/BPA/PBDEs across four material categories
 
+## Overview
+
 This single-author peer-reviewed study in the first issue of *Environmental Health and Pollution Research* surveys 120 children's toys (30 each of plastic, painted wood, rubber, and plush) sampled across three Iranian cities in January–June 2024 for five heavy metals (Pb, Cd, tHg, tAs, Cr) by ICP-MS and for phthalate plasticizers (DEHP, DBP, BBP), bisphenol A, and brominated flame retardants (PBDEs) by GC-MS. The principal heavy-metal findings are that painted-wood toys carried the highest mean concentrations of Pb (212.4 ± 45.1 mg/kg), Cr (102.3 ± 25.7 mg/kg), and Hg (4.5 ± 1.4 mg/kg), with painted-wood Cr and Hg group means exceeding the EU EN-71-3 reference values cited in the same tables (60 and 2 mg/kg, respectively) and the painted-wood Pb mean approaching but not exceeding the cited 160 mg/kg Pb reference. Plush toys consistently exhibited the lowest mean concentrations across all five metals. Stated non-compliance rates were 23.3% (Pb), 30.0% (Cr), and 6.7% (Hg) in the painted-wood subset; the paper reports 0% non-compliance in the plastic subset for any heavy metal. Kruskal-Wallis testing returned p = 0.003 for Pb (painted wood > plastic, rubber, plush; plastic > plush) and p = 0.057 for Cd (no significant pairwise differences). The author concludes that painted-wood toys present the highest heavy-metal exposure risk in the Iranian retail market and calls for the Institute of Standards and Industrial Research of Iran (ISIRI) to strengthen enforcement of ISIRI 6243 and ISIRI 10166 on rubber and painted-wood toys.
 
 ## Key numbers

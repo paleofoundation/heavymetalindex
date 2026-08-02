@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Sattler et al. 2016 - Metals in dried bee pollen from Rio Grande do Sul
 
+## Overview
+
 Sattler and colleagues measured essential minerals and inorganic contaminants in five dried bee-pollen samples from Rio Grande do Sul, Brazil. The source is routeable for bee-pollen and supplement-context occurrence because it reports sample-level means for cadmium, lead, barium, lithium, vanadium, chromium, and nutritional trace elements. Cadmium was the contaminant that exceeded the cited bee-pollen standard in three of five samples.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Deng et al. 2021 - Mg-modified corncob biochar for Cu, Pb, Cd remediation
 
+## Overview
+
 Deng and colleagues prepared four magnesium-modified corncob biochars (5%, 10%, 15%, 20% Mg/biomass ratios) by impregnating dried corncob biomass with MgCl2 solution, ultrasonicating, drying, and pyrolyzing at 450 °C under nitrogen, then tested their adsorption performance for aqueous Cu(II), Cd(II), and Pb(II) in single-metal and binary-metal batch experiments. This is primary remediation-method evidence, not food, ingredient, or consumer-product occurrence evidence: the measured endpoints are sorbent properties, kinetic and isotherm fits, and binary-system selectivity, not concentrations in any edible matrix or drinking water.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Assefa and Köhler 2020 — Intestinal microbiome and metal toxicity
 
+## Overview
+
 This Current Opinion in Toxicology review by Senait Assefa and Gerwald Köhler (Oklahoma State University Center for Health Sciences, Department of Biochemistry and Microbiology) synthesizes the literature on intestinal microbiome composition and metal toxicity, focusing on the bidirectional relationship between heavy-metal exposure and gut microbial communities. The review covers the mechanisms by which metals alter microbial diversity, taxonomic composition, and functional metabolic output, and how these microbial perturbations feed back to host metal absorption, biotransformation, and excretion. The paper is part of the maturing 2019-2023 metals-and-microbiome literature also represented by [[sources/coryell2019-gut-microbiome-arsenic-toxicity|Coryell 2019]], [[sources/zhu2024-toxic-essential-metals-gut-microbiota-review|Zhu 2024]], and [[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Ghosh 2024]].
 
 ## Key conclusions

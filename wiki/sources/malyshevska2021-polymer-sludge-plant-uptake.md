@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Malyshevska 2021 - Polymer-waste sludge plant uptake
 
+## Overview
+
 Malyshevska evaluated the phytotoxicity of sludge from mechanical processing and washing of mixed polymer waste, then measured Pb, Cu, Cd, Zn, and Ni in growth substrates and plant material. This is not soy-product occurrence evidence: it is upstream soil-amendment and plant-uptake evidence showing how lead in a waste-derived growth substrate can migrate into plants.
 
 ## Key numbers

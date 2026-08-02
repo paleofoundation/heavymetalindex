@@ -26,6 +26,8 @@ sampling_year_range: 2012
 
 # Taylor 2016 — Arsenic concentration and speciation across 20 New England seaweed species
 
+## Overview
+
 Taylor and Jackson surveyed total arsenic and arsenic speciation across 20 macroalgae species (46 samples; plus flowering plants, mixed products, and fertilizers) harvested for food and agriculture in New England, by ICP-MS and HPLC-ICP-MS. Total arsenic ranged 4.1–106 mg/kg, occurring mostly as arsenosugars, and inorganic arsenic was a minor component (<1 mg/kg) across nearly all taxa — with one striking exception: the kelp *Laminaria digitata* from Maine carried inorganic arsenic of 2.8–20.4 mg/kg (mean 8.32 ± 7.67), and two mixed granulated seaweed products containing this species held 6.6 and 10.9 mg/kg. Within this survey it is *L. digitata* kelp, not hijiki, that accumulates toxicologically significant inorganic arsenic, and the elevation is harvester-/region-variable even within one species (the single New Hampshire *L. digitata* sample was <0.01 mg/kg iAs).
 
 ## Key numbers

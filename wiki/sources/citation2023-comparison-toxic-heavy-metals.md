@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Philip-Slaboh et al. 2023 — Heavy metals in diabetic and non-diabetic postpartum breast milk
 
+## Overview
+
 This cross-sectional study compared concentrations of toxic heavy metals in breast milk from 144 postpartum mothers (72 diabetic, 72 non-diabetic) in Yenagoa, Nigeria, collected 5–6 weeks after delivery. All four metals measured (arsenic, lead, mercury, cadmium) were detected at concentrations exceeding WHO permissible limits in the majority of participants from both groups. No significant difference in metal concentrations was found between diabetic and non-diabetic mothers.
 
 ## Key numbers

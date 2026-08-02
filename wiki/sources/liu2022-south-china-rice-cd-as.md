@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Liu et al. 2022 - Cadmium and arsenic co-accumulation in South China rice
 
+## Overview
+
 This field study measured cadmium and arsenic species in brown rice grains from 208 rice cultivars grown in South China. It is useful for rice occurrence and cultivar-screening context because the paper reports ranges, means, medians, exceedance rates, and arsenic speciation in the edible grain.
 
 ## Key numbers

@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Parsaei et al. 2019 - Cadmium, lead, and mercury in raw milk
 
+## Overview
+
 Parsaei and colleagues measured cadmium, lead, and mercury in 1100 raw milk samples from multiple animal species. The study is routeable for milk and dairy occurrence evidence because it reports ppb concentrations by species, age, and season. It found the highest concentrations in raw bovine milk and seasonal elevation in spring.
 
 ## Key numbers

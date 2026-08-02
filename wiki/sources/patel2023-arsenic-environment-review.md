@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Patel et al. 2023 — Arsenic in the environment: contamination, mobility, sources, and exposure
 
+## Overview
+
 This comprehensive review published in RSC Advances surveys arsenic contamination across environmental compartments — air, water, soil, and sediment — globally, alongside analytical methods for total and speciated arsenic. The review covers both natural (geogenic) and anthropogenic sources, documents human health effects from chronic exposure via multiple routes, and summarizes atomic spectrometric detection approaches. Key environmental maxima reported include up to 1,660 ng/m³ arsenic in urban air particulate matter, up to 2,000 mg/L in groundwater, and up to 4,600 mg/kg in soil near industrial sources. The review notes that inorganic As(III) is more toxic than As(V), which in turn is more toxic than organic arsenic species, reinforcing the speciation imperative for risk assessment.
 
 ## Key numbers

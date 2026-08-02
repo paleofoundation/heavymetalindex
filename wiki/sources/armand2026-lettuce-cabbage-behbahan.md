@@ -30,6 +30,8 @@ updated: 2026-05-20
 
 # Armand et al. 2026 — Heavy metals in lettuce and cabbage from Behbahan, Iran
 
+## Overview
+
 Armand and colleagues measured lead (Pb), chromium (Cr), cadmium (Cd), and nickel (Ni) in lettuce and cabbage purchased from ten retail outlets in Behbahan, a city in Khuzestan Province, southern Iran characterised by oil-and-petrochemical industrial development and recent agricultural intensification. Twenty samples of each vegetable (ten retail sites sampled twice four weeks apart) were analysed by ICP after HNO3 digestion. Cabbage carried roughly twice the total heavy-metal burden of lettuce; in both vegetables the concentration order was Cr > Ni > Pb > Cd. Mean cabbage concentrations of Pb (0.312 mg/kg wet weight) and Cr (0.699 mg/kg) exceeded the FAO/WHO-aligned guideline values used by the authors (0.3 and 0.5 mg/kg respectively), while all four metals in lettuce fell below the same guidelines. Probabilistic Monte Carlo simulation returned non-carcinogenic hazard indices below 1 for both vegetables (cabbage 1.52×10⁻¹; lettuce 4.58×10⁻¹), but total Excess Lifetime Cancer Risk above the 10⁻⁴ unacceptable threshold (cabbage 1.40×10⁻³; lettuce 4.14×10⁻³). Pb Margin of Exposure for cardiovascular endpoints was below 10 in both vegetables, interpreted by the authors as "of concern".
 
 ## Key numbers

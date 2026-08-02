@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Gu et al. 2019 — Cd, Cu, Hg, Pb, and Zn in maize and peanut soil-crop systems in Guangxi
 
+## Overview
+
 Gu and colleagues assessed Cd, Cu, Hg, Pb, and Zn in Guangxi soil-crop systems for maize and peanut. The paper includes measured grain/soil relationships, bioaccumulation models, and model-estimated grain concentrations used for adult maize-ingestion risk assessment. Table 5 values are model-estimated grain concentrations rather than raw measured sample distributions; measured grain values in Figure 5 are not numerically extractable from the PDF text layer.
 
 ## Key numbers

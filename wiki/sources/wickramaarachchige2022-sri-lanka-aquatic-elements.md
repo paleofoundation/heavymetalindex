@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # Wickrama-Arachchige et al. 2022 - elements in edible aquatic organisms in Sri Lanka
 
+## Overview
+
 Wickrama-Arachchige and colleagues measured 36 elements in edible aquatic organisms sold in Sri Lankan local fish markets. The main PDF reports trophic-level summaries, tuna muscle-type comparisons, a yellowfin-tuna mercury comparison table, and yellowfin-tuna risk calculations. Species-level concentration tables are named as supplementary Tables S2 and S3; they were not bundled in the local PDF, so this page preserves the exact main-PDF values and flags the supplement as required for future species-level extraction.
 
 The study reports total mercury measured by a mercury analyzer. For the human-health calculation, the authors assume all total Hg in yellowfin tuna is methylmercury; this page records that assumption as a source assumption and does not relabel the measured occurrence table as directly speciated MeHg.

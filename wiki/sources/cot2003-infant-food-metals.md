@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # COT 2003 - metals in UK infant foods and formulae
 
+## Overview
+
 The UK Committee on Toxicity reviewed an FSA survey of `189` commercial infant-food and formula samples. The survey covered infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, and estimated infant dietary exposure by age band and diet scenario. The analytical method measured total metals only, so arsenic, chromium, and mercury species are not substituted for iAs, Cr(VI), or MeHg.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Ormaza-Gonzalez et al. 2020 - Mercury, cadmium, lead in eastern-Pacific tuna products
 
+## Overview
+
 Ormaza-Gonzalez and colleagues analyzed 8 years of regulatory testing records (2009-2016, n=2572) from the National Institute of Fisheries of Ecuador (INP), the ISO/IEC 17025 certified control laboratory for tuna products exported to the European Union. Samples were drawn from cannery production batches and covered canned tuna (solid pack, chunks, flake in water or oil) and pre-cooked frozen loins from skipjack (Katsuwonus pelamis), yellowfin (Thunnus albacares), and bigeye (Thunnus obesus) caught in the eastern Pacific. The reported wet-weight averages over the full period were 0.23 ± 0.14 mg/kg total mercury, 0.032 ± 0.027 mg/kg cadmium, and 0.058 ± 0.050 mg/kg lead - all well below the EU 1881/2006 maximum levels (Hg 1.0, Cd 0.1, Pb 0.3 mg/kg) used by the authors as comparators. A separate retail survey of 9 cans from 5 product groups purchased in Guayaquil returned still-lower means (Hg 0.043, Cd 0.012 mg/kg; Pb below the 0.01 mg/kg detection limit).
 
 The dataset is one of the larger continuous-monitoring time series available for eastern-Pacific tuna product. The authors observe a slight downward drift in mean tHg over the study period, which they attribute to a rising proportion of skipjack (an epipelagic, lower-trophic species) in the Ecuadorean canning stream, and to improvements in on-board brine-freezing practices that reduce salt - and metal - uptake into the loins.

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Marincich et al. 2023 — Cadmium in chocolate bars, Polish market (EFSA EU-FORA)
 
+## Overview
+
 This EFSA EU-FORA fellowship report presents cadmium occurrence data from chocolate bars purchased in Warsaw, Poland, and estimates dietary exposure for three Polish population groups (children 3–9 years, adolescents 10–17 years, adults 18–64 years). ICP-MS analysis of both milk chocolate and bitter chocolate samples found all products below EU maximum levels (Commission Regulation EC 1881/2006 as amended), and cadmium exposure from chocolate consumption did not exceed the EFSA CONTAM TWI of 2.5 µg/kg body weight per week for any population group.
 
 ## Key numbers

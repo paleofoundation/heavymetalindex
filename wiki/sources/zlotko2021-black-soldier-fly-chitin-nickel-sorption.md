@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zlotko et al. 2021 - Black soldier fly chitin and nickel sorption
 
+## Overview
+
 Zlotko and colleagues isolated chitin from black soldier fly pupal exuviae and tested whether one isolated chitin variant could sorb Ni2+ from aqueous solution. This is primary materials/remediation evidence, not insect-food or feed-occurrence evidence: the nickel data are controlled sorption experiments and surface EDX confirmation, not concentrations in edible insect meal or consumer products.
 
 ## Key numbers

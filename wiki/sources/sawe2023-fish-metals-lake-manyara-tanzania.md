@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sawe et al. 2023 — Potentially toxic metals in tilapia and catfish from Lake Manyara, Tanzania
 
+## Overview
+
 This study measures Cu, Ni, Pb, and Zn in the edible muscle tissue of two fish species from Lake Manyara, an endorheic (no outflow) soda lake in Tanzania's Rift Valley, at 5 landing sites in April 2022. All measured concentrations are below FAO/WHO permissible levels. Based on the highest observed Pb concentration (0.81 mg/kg dw in catfish at Mfulo wa Ng'ombe), the authors derive a maximum recommended consumption of 2.2 kg of Lake Manyara fish per week. No significant interspecies or inter-site differences were observed, indicating no detectable food-chain bioaccumulation and no localized pollution hotspots.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Carter et al. (2025) present a FDA method validation for simultaneous determination of methylmercury (MeHg) and total mercury (tHg) in finfish using a combination of thermal decomposition amalgamation atomic absorption spectrometry (TDA-AAS) and salting-out assisted liquid-liquid extraction (SALLE). The validation includes 10 certified reference materials across multiple finfish species, establishing this as a regulatory-quality method for fish mercury speciation.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Bhoyroo et al. 2015 - Scombrid Heavy Metals in Mauritius
 
+## Overview
+
 Bhoyroo et al. measured zinc, copper, nickel, chromium, lead, mercury, cadmium, and arsenic in muscle tissue from four commercially important pelagic fish species in Mauritius: yellowfin tuna, dogtooth tuna, marlin, and dorado. The paper is directly relevant to marlin and broader marine predatory fish occurrence context. It is not infant-food evidence; the wishlist hit came from the target-cell term "marlin" rather than infant or cereal matrices.
 
 ## Key numbers

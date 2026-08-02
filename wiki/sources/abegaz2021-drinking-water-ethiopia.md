@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Abegaz & Midekssa 2021 — Rural drinking water quality in Guto Gida, Ethiopia
 
+## Overview
+
 This cross-sectional study assessed the bacteriological and physicochemical quality of 32 drinking water samples collected from four source types (protected dug well, open dug well, protected spring, open spring) at 8 locations in the Guto Gida woreda of Oromia, Ethiopia. The study found widespread microbial contamination and chemical non-compliance, with lead concentrations exceeding WHO permissible levels at two sites (J2 and K1) in both spring and well categories. Iron and manganese also exceeded permissible limits across multiple sources.
 
 ## Key numbers

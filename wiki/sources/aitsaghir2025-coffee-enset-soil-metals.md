@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Ait Saghir et al. 2025 - Coffee-enset agroforestry soil metals
 
+## Overview
+
 Ait Saghir and colleagues measured potentially toxic elements in surface soils under coffee-enset agroforestry systems in southern Ethiopia. This is in-scope supply-chain pathway and source-attribution evidence for agroforestry soil reservoirs and amendment-linked metal loading; it is not coffee-bean, enset, or finished-food occurrence evidence.
 
 ## Key numbers

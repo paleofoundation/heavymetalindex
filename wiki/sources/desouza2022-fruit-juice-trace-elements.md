@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # de Souza et al. 2022 - trace elements in fruit juices by ICP OES and ICP-MS
 
+## Overview
+
 This study measured essential and toxic trace elements in 21 fruit juice and nectar samples from Spain and Portugal. Commercial matrices included orange, tangerine, red berries, peach, pineapple, apple, grape-containing blends, mango-orange juice, passion-fruit nectar, and purple-pear nectar, with two fresh-squeezed orange juices and one fresh-squeezed lemon juice prepared in the laboratory. The strongest HMT&C signal is a single apple-juice Pb exceedance, while As and Sb were not detected and Cd was only quantified in two samples.
 
 ## Key numbers

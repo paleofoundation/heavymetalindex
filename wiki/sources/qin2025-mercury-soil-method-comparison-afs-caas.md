@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Qin et al. (2025) conduct a comparative evaluation of two standard methods for total mercury (tHg) determination in soil: atomic fluorescence spectrometry (AFS, a method widely used in China and Asia-Pacific) and cold atomic absorption spectrometry (CAAS), also referred to as cold vapor AAS (CV-AAS). The paper provides LOD and LOQ data for both methods and evaluates agreement, precision, and applicability.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Hussain et al. 2024 - Total arsenic in rice genotypes under soil amendments
 
+## Overview
+
 This open book chapter reports total arsenic uptake in two rice genotypes, Kainat and Basmati-385, under gypsum, farmyard manure, cow dung, lignite, biogas slurry, biomaterial, and untreated control conditions. The routeable food endpoint is rice grain total As on a dry-weight basis, not rice milk. Cow dung and biomaterial treatments produced the lowest grain As values in the printed table, including 0.04 mg/kg for Kainat under biomaterials and 0.09 mg/kg for Basmati-385 under biomaterials.
 
 ## Key numbers

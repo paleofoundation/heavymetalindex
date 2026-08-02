@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Kočevar Glavač et al. 2017 - soil-to-medicinal-plant metals in Slovenia
 
+## Overview
+
 Kočevar Glavač and coauthors measured Cd, Pb, Zn, Cu, Fe, and Mn in four wild medicinal plant species and paired soil samples from eight locations in Slovenia's Meža Valley, including sites near a former lead smelter. The plant occurrence data are directly relevant to herbal-botanical raw material; the soil data are supply-chain context rather than product concentrations. The paper also reports hot-water extraction from *Urtica dioica* at two locations, giving a prepared-infusion view separate from the dried plant table.
 
 ## Key numbers

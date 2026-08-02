@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Paulsen et al. 2015 - Lead-free rifle bullets in game meat and pork
 
+## Overview
+
 Paulsen and colleagues ran a pilot study on metal release from "lead-free" rifle bullets in hunted roe deer, hunted wild boar, and pork shoulders experimentally shot post-mortem in an Austrian abattoir. 108 90-g meat portions were X-rayed for radiodense fragments, then subjected to simulated gastric and duodenal digestion, and the digested (bioaccessible) and undigested (residue) fractions were analysed separately for seven metals (Al, Cr, Cu, Fe, Ni, Pb, Zn) by ICP-OES. The paper's headline finding is that even in the small minority of portions with high metal content from embedded bullet fragments, the bioaccessible metal fraction stayed at the same low level as in controls — most metal stayed in the undigested residue and would be excreted via feces.
 
 ## Key numbers

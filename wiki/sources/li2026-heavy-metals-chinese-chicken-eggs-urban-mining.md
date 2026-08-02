@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study quantified ten heavy metals (Cr, Mn, Co, Ni, Cu, Zn, As, Se, Cd, Pb) in 90 chicken eggs from nine areas across China by ICP-MS, comparing free-range eggs from non-mining cities and three mining areas against commercial eggs from supermarkets. All samples complied with China's National Food Safety Standard for Contaminants in Foods (GB 2762-2022) and with FAO/WHO and EU permissible limits as cited by the authors. Within the same region, free-range eggs consistently carried higher heavy-metal levels than commercial eggs; mining-area free-range eggs were 1.5 to 3.5 times higher in Cd, Pb, and Cr than commercial or non-mining free-range eggs. Monte Carlo–simulated 95th-percentile hazard indices remained below 1 for males, females, and children in every area. The 95th-percentile total carcinogenic risk for children exceeded the USEPA 1×10⁻⁴ threshold in seven of nine areas, driven primarily by Cr, which accounted for 60–75% of TCR across the four areas exceeding the threshold (DG-F, SJZ-F, DZ, EM).
 
 ## Key numbers

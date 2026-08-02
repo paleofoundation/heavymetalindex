@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A molecularly imprinted polymer (MIP)-based electrochemical sensor for lead detection was developed and validated in honey matrix samples with a Cyprus connection. Whether occurrence measurements in honey are reported or only method validation in spiked honey requires confirming from the full paper.
 
 ## Key numbers

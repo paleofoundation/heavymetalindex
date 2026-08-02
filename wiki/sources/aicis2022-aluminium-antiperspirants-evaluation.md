@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # AICIS 2022 - Aluminium in antiperspirants and deodorants
 
+## Overview
+
 The Australian Industrial Chemicals Introduction Scheme evaluated aluminium salts used in antiperspirants and deodorants as a public human-health risk assessment. The report does not contain new product testing, but it summarizes SCCS concentration and exposure data for deodorant and antiperspirant formulations. This page records the finished-product aluminium context and exposure assumptions without treating the report as a market survey.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Bravo et al. 2024 — Cadmium in cacao and artisanal chocolate, Arauca Colombia
 
+## Overview
+
 This field study characterized cadmium (Cd) contamination in cacao crops and artisanal chocolates across 180 farms in the Arauca Department of Colombia, a growing cacao-producing region in the Orinoco basin. The study documents a north-south gradient in Cd concentration driven by proximity to the Andes, with higher Cd levels in farms closer to the mountain foothills. Average Cd in cacao seeds (n=14 farms) was 0.78 mg/kg; average Cd in artisanal chocolates (n=6) was 1.10 mg/kg, exceeding the EU maximum limit of 0.80 mg/kg for dark chocolate (Regulation EU 488/2014). The study used macro-X-ray fluorescence (MXRF) technology for in-situ measurement of Cd in chocolate bars, validated against laboratory ICP-MS results on cacao seeds.
 
 ## Key numbers

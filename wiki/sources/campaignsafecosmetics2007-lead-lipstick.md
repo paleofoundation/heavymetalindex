@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Campaign for Safe Cosmetics 2007 - lead in 33 red lipsticks
 
+## Overview
+
 The Campaign for Safe Cosmetics commissioned Bodycote Testing Group to measure lead in 33 unopened red lipsticks purchased from U.S. retail stores in four cities in August 2007. The report found detectable lead in `61 percent` of tested lipsticks, with source-reported concentrations ranging from `0.03` to `0.65 parts per million (ppm)`, while 13 lipsticks were below the `0.02 ppm` laboratory detection limit. The report is a nonprofit advocacy publication with an independent ISO 17025 laboratory, a small convenience sample, incomplete dissolution in some samples, and an average spike recovery of `53 percent`; use it as B-tier occurrence/context evidence rather than as a representative U.S. market distribution.
 
 ## Key numbers

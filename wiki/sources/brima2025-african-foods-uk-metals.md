@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Brima et al. 2025 — toxic elements in African foods sold in the UK market
 
+## Overview
+
 Brima, Haris, and Frei measured arsenic, cadmium, mercury, and lead in 152 African food and additive samples sold in the UK. The source is broad food-occurrence evidence, with a routeable spices subcategory and additional context for fish, prawns, and non-food additives such as kaun, calabash, and chuna.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Udiba et al. 2020 - Senna obtusifolia lead remediation potential
 
+## Overview
+
 Udiba and colleagues evaluated whether wild *Senna obtusifolia* could phytoextract lead from contaminated soils in Dareta Village, Zamfara. This is in-scope a2 remediation evidence with paired plant-tissue and soil lead data.
 
 ## Key numbers

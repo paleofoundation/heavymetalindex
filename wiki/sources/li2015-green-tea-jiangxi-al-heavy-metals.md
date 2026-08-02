@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Li et al. 2015 — Aluminum and heavy metals in Jiangxi green tea leaves and infusions
 
+## Overview
+
 This study measured Al, Cd, Co, Cr, Cu, Ni, and Pb in 26 commercially available green tea samples from four locations in Jiangxi Province, China (Sanqingshan County, Wuyuan County, Jinggangshan City, and Lushan County), analyzing both dry tea leaves and sequential tea infusions (first through fourth), using ICP-MS and ICP-AES. Average metal contents in tea leaves (dry weight) were: Al 487.57, Cd 0.055, Co 0.29, Cr 1.63, Cu 17.04, Ni 7.71, Pb 0.92 mg/kg. Target hazard quotients (THQ) from 2.33×10⁻⁵ to 1.47×10⁻¹ and hazard index (HI) from 1.41×10⁻² to 3.45×10⁻¹ in tea infusions were all less than 1, indicating no significant noncarcinogenic health risk from tea consumption under conventional Chinese drinking habits (multiple sequential infusions). Cu content in one sample exceeded China's maximum allowable level for tea (NY 288-2012).
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # EFSA 2005 - tin in canned foods and dietary intake
 
+## Overview
+
 EFSA's Scientific Panel reviewed inorganic tin occurrence, dietary intake, and toxicity evidence to assess whether a tolerable upper intake level could be derived. The opinion is not a new market survey, but it is an A-tier regulatory anchor for tin migration from cans into foods. It identifies tinned fruit and vegetables as the main dietary sources of tin and preserves tin as inorganic tin/elemental Sn context rather than organotin occurrence.
 
 ## Key numbers

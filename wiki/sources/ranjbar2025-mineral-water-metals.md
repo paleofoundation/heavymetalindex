@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Ranjbar et al. 2025 - mineral-water safety monitoring in Arak City
 
+## Overview
+
 Ranjbar and coauthors assessed radioactive isotopes and heavy metals in 15 commercial bottled mineral water brands sold in Arak City, Iran. The heavy-metal result is reported only as a bulk non-detect at the analytical method's reporting floor; no per-sample concentrations, LODs, reference materials, or wavelength assignments are tabulated. The abstract names lead and chromium as the metals absent from samples; the Summary and Conclusion expands the assayed list to cadmium, mercury, tin, lead, and arsenic at "zero mg/L." The two analyte lists do not agree, and the paper provides no table reconciling them. The page is routeable as bottled/mineral-water non-detect surveillance, not as a concentration distribution.
 
 ## Key numbers

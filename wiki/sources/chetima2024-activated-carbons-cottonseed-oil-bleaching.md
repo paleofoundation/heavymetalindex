@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Chetima et al. 2024 - Activated carbons from neem and cotton husks as a bleaching-earth alternative for cottonseed oil decolorization
 
+## Overview
+
 Chetima and colleagues prepare activated carbons (ACs) from neem and cotton husks by phosphoric-acid impregnation followed by carbonization, comparing 6 h conventional (open-air) and 30 min microwave-assisted activation routes. The four resulting ACs (AC1, AC2 from cotton husks; AC3, AC4 from neem husks) are characterised for burn-off, iodine index, methylene blue index, specific surface area, and surface functional groups, then evaluated as decolorizing adsorbents for neutral cottonseed oil at 70, 80, and 90 °C against commercial bleaching earth. The paper reports adsorption kinetics (intraparticle diffusion and pseudo-second-order models) and equilibrium isotherms (Langmuir and Freundlich) for cottonseed-oil pigment uptake. Heavy-metal content is absent: the study quantifies no analyte in HMI's panel (Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U), in cottonseed oil, in the activated carbons, in the spent adsorbents, or in any other food matrix. The source supports a single corpus-level claim only: activated carbons derived from neem and cotton husks can decolorize crude cottonseed oil with 30-80 % higher efficiency than the bleaching earth currently used in industrial refining, providing process context for the heavy-metal-vector role that bleaching earth plays in conventional vegetable-oil refining.
 
 ## Key numbers

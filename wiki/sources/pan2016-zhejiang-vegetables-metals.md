@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Pan et al. 2016 — Heavy metals in marketed vegetables from Zhejiang
 
+## Overview
+
 Pan and colleagues measured As, Cd, Cr, Hg, Ni, and Pb in 5,785 marketed vegetable samples representing 28 species from Zhejiang province, China. The paper reports overall mean, P97.5, range, and exceedance counts in `mg/kg, fresh weight`, plus selected species-level highlights from the supplementary table. Arsenic and mercury are reported as total As and total Hg only; no inorganic arsenic or methylmercury speciation is provided.
 
 ## Key numbers

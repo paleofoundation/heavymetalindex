@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Osuolale et al. 2025 - Leafy vegetables in Ondo, Nigeria
 
+## Overview
+
 This study measured trace elements in commonly consumed leafy vegetables from Ondo Metropolis using PIXE and evaluated non-carcinogenic health-risk indices for nickel and cobalt.
 
 ## Key numbers

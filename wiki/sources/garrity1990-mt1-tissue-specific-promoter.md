@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Garrity & Wold 1990 — Compound TATA-dependent and TATA-independent transcription of the mouse metallothionein-I gene
 
+## Overview
+
 Garrity and Wold (California Institute of Technology, Division of Biology) report that the mouse metallothionein-I (MT-I) gene promoter functions in an unusual compound manner, directing both TATA-dependent and TATA-independent modes of transcription *in vivo*. The TATA-dependent message originates from the previously characterised +1 transcription start site and is the predominant species in most cell types and the only species that responds to cadmium induction. TATA-independent initiation occurs at sites distributed across the ~160 bp upstream of +1, is present in all tissues examined but is the predominant species only in testis (specifically in pachytene-stage meiotic cells and early spermatids), and is refractory to metal induction. Site-directed mutagenesis of the TATA element (substituting TCGAGA for TATAAA) drastically alters the ratio of the two RNA classes in cells where the +1 transcript normally dominates; in TATA-minus mutants the upstream TATA-independent RNAs become the most prevalent species but remain refractory to metal induction. The wiki uses this source as mechanistic background for [[metals/cadmium]] on the molecular basis of cadmium induction of metallothionein and on the testicular MT-I "blind spot" that contributes to germ-cell vulnerability to cadmium toxicity. It carries no food-matrix occurrence data and no regulatory content.
 
 ## Why this matters

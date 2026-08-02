@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Okeke and Sanda 2026 - Metals in calcium-carbide-ripened fruits
 
+## Overview
+
 Okeke and Sanda measured chromium, lead, and total arsenic in banana, pineapple, and orange after natural ripening and after laboratory calcium-carbide ripening. All measured values were below the paper's cited FAO limits, but the calcium-carbide-ripened fruits had higher Cr, Pb, and As than their naturally ripened counterparts.
 
 ## Key numbers

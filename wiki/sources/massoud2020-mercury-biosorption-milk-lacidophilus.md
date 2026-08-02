@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Massoud et al. 2020 — Mercury biosorption from milk by L. acidophilus ATCC 4356
 
+## Overview
+
 Massoud and colleagues at the Iran Standard Organization and Shahid Beheshti University of Medical Sciences ran a laboratory biosorption experiment to test whether Lactobacillus acidophilus ATCC 4356 can remove inorganic mercury (Hg(NO3)2) added to sterile dairy milk at low (µg/L) concentrations representative of reported milk contamination. The work uses Plackett-Burman screening followed by central-composite response surface methodology to identify Hg concentration, bacterial biomass, and contact time as the dominant variables, then fits Langmuir and Freundlich isotherm models to the equilibrium data. Maximum removal was 72% at 80 µg/L initial Hg, 1×10^12 CFU L. acidophilus, day 4, with the Langmuir model (R² = 0.9121) fitting better than Freundlich (R² = 0.8747). The paper is a process-intervention study, not a contamination survey: the milk-Hg values it cites for real-world supply (China, Iran, Codex permitted limit) are second-hand citations, not original measurements.
 
 ## Key numbers

@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Hohenstein 2023 — EN 1811:2023 nickel-release test method bulletin
 
+## Overview
+
 This one-page technical bulletin issued by Hohenstein in June 2023 announces that CEN (the European Committee for Standardization) has published EN 1811:2023, superseding the previous version EN 1811:2011+A1:2015. EN 1811 is the reference test method for nickel release from articles intended to come into direct and prolonged contact with the skin and is the method through which Entry 27 of Annex XVII of EU REACH Regulation (EC) No 1907/2006 is operationalised once the European Commission accepts the standard as harmonised. The bulletin identifies four operative changes versus the prior version of the standard and flags that a revised surface-area calculation for products with internal surfaces may yield higher calculated release values, making re-testing appropriate where nickel was detected in relevant quantities below the limit under the previous version.
 
 ## Key numbers

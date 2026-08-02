@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Rarivoson et al. 2022 — Heavy metals in organic agricultural resources from Madagascar (soil amendment dataset)
 
+## Overview
+
 A large dataset of 1,000 organic resource (OR) samples from Madagascar — including livestock manures (pig, poultry, cattle, rabbit, sheep), urban composts, and agro-industrial byproducts (bone, blood, cotton cake, peanut cake, tobacco ash) — was characterized by chemical analysis and VIS-NIR spectroscopy. Trace metal analysis (Cd, Cr, Cu, Pb, Ni, Zn) was performed on 39 samples by AFNOR standardized laboratory methods, revealing extreme variability: mean Pb 429 mg/kg DM (range <LOD to 3,982 mg/kg) and mean Cr 84 mg/kg DM (range 4.83 to 293 mg/kg), reflecting the mixed-origin and variable contamination of urban and agro-industrial waste streams used as soil amendments in Malagasy agriculture. The dataset is openly available via Cirad Dataverse (doi:10.18167/DVN1/YRMQ52) and is relevant to food-chain contamination via recycled organic materials as agricultural inputs.
 
 ## Key numbers

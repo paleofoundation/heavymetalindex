@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Liu 2010 — Mercury in white vinegar by photochemical vapor generation AFS
 
+## Overview
+
 This analytical-note paper develops and validates a direct method for total mercury in white vinegar by atomic fluorescence spectrometry (AFS) using matrix-assisted photochemical vapor generation, exploiting the acetic-acid matrix to photoreduce Hg(II) to Hg⁰ under UV irradiation without any sample pretreatment. The method gives an AFS detection limit of 0.08 µg/L and was cross-validated against acid-digestion ICP-MS and against aqueous certified reference materials (GBW(E) 080392 and 080393), with no significant difference between AFS and ICP-MS at the 95% confidence level. Of three commercial white vinegars analyzed, two were below the AFS detection limit and one (4.0% acidity) contained roughly 1.8–2.0 µg/L total mercury; HPLC-AFS speciation found no monomethyl- or monoethylmercury in the real samples.
 
 ## Key numbers

@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Shamsani et al. 2019 — Pb, Cd and As in Malaysian-market instant noodles
 
+## Overview
+
 Shamsani et al. measured lead, cadmium, and total arsenic in seven brands of commercially popular instant noodles purchased from the Malaysian retail market. Each sample combined noodles plus the accompanying seasoning/flavouring powder, homogenized and dry-ashed before ICP-MS analysis. All seven samples carried detectable Pb, Cd, and As. Two of the seven samples exceeded the Malaysian Food Regulation 1985 maximum permitted level of 2 mg/kg for Pb (samples coded A and C, at 2.94 and 2.52 mg/kg respectively); all seven samples exceeded the Codex Alimentarius (CXS 193-1995) Pb maximum of 0.2 mg/kg used by the authors as a cereal-grain comparator, and three samples exceeded the Codex Cd maximum of 0.2 mg/kg used as a wheat comparator. No Codex maximum was applied to As. Cd ranged 0.03–0.37 mg/kg and total As 0.25–0.81 mg/kg across the seven samples; no sample exceeded the Malaysian Food Regulation 1985 ceilings of 1 mg/kg for Cd or As.
 
 ## Key numbers

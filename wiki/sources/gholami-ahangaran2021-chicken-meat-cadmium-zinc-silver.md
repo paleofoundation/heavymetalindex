@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Gholami-Ahangaran et al. 2021 - Cadmium, zinc, and silver in chicken meat
 
+## Overview
+
 This study measured cadmium, zinc, and silver in chicken tissues sold in Isfahan Province, Iran. It is routeable for poultry occurrence evidence because it reports tissue-specific means in mg/kg.
 
 ## Key numbers

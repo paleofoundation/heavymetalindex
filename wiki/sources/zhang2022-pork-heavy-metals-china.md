@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2022 - Chinese pork heavy metals risk assessment
 
+## Overview
+
 Zhang et al. (2022) assessed Pb, As, Cd, and Hg contamination in Chinese pork using 126 previously published concentration records collected from CNKI. The routeable product values are the paper's fitted pork-concentration summaries in `mg kg-1`; individual pork sample records are not reproduced in the extracted PDF text. Arsenic and mercury are treated here as total-element context (`tAs`, `tHg`) because the paper does not report inorganic arsenic or methylmercury speciation.
 
 ## Key numbers

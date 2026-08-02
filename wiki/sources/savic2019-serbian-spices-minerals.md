@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Savić et al. 2019 - Serbian spices minerals
 
+## Overview
+
 Savić et al. measured 22 elements in ten spice samples sold on the Serbian market using ICP-OES after wet digestion. The paper provides direct spice occurrence data for lead, cadmium, aluminium, nickel, and chromium, although cadmium was detected only in cinnamon and chromium was reported as 0.00 mg/kg for all ten spices. The data are useful as a Serbian-market snapshot, not as a distribution for any single commodity because each spice type appears to be represented by one sample.
 
 ## Key numbers

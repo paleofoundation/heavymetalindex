@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Sears 2013 — Chelation: harnessing and enhancing heavy metal detoxification (review)
 
+## Overview
+
 Sears, at the Children's Hospital of Eastern Ontario Research Institute (Ottawa), reviews chelation as both a natural toxicokinetic process and a pharmaceutical intervention for elevated body burden of toxic metals. The manuscript stems from a Canadian Institutes of Health Research-funded scoping review on arsenic, cadmium, lead, and mercury and is the narrative companion to the systematic review of metals-in-sweat data the same group published in 2012 (Sears, Kerr, Bray, *Journal of Environmental and Public Health*, 184745). The paper is structured around (i) chelation chemistry and the biological roles of endogenous chelators (glutathione, metallothionein), (ii) dietary and supplemental compounds proposed as detoxification adjuncts, (iii) the five pharmaceutical chelators in widest clinical use, (iv) controversies (EDTA-related deaths, the Stangle DMSA rat study and its consequences for paediatric chelation), and (v) clinical applications spanning lead poisoning, mercury vapour exposure, cardiovascular disease, autism-spectrum trials, and renal protection. There are no primary occurrence measurements and no original analytical data; the value to the wiki is conceptual and vocabulary-organising, not quantitative-evidence.
 
 ## Why this matters

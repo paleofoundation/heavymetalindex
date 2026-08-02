@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Govarts et al. 2016 - Prenatal chemical mixtures and birth weight
 
+## Overview
+
 Govarts and colleagues analyzed 248 Flemish mother-child pairs to test whether prenatal chemical exposures, singly and in mixtures, were associated with birth weight. This is primary human biomonitoring and epidemiology evidence. It is not product occurrence evidence: metals were measured in cord blood, maternal blood, and maternal hair, while the outcome was birth weight.
 
 ## Key numbers

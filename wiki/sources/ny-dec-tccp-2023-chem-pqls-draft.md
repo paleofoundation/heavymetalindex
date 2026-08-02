@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # NY DEC TCCP 2023 — Chemicals and PQLs under consideration (draft)
 
+## Overview
+
 This is a **stakeholder draft** released by the New York State Department of Environmental Conservation (NY DEC) in February 2023, updating the September 2021 chemical list proposed under the Toxic Chemicals in Children's Products (TCCP) program (Title IX of Article 37 of the New York Environmental Conservation Law, ECL § 37-0901 et seq.). The TCCP program addresses chemicals in consumer products primarily intended for children aged twelve and under. The document is explicitly "Information Available for Public Comment / Not a Final Agency Determination," with stakeholder comments due March 20, 2023, and a draft rule expected to follow. It is not a binding rule. The document defines a draft Chemicals of Concern (COC) list, a draft High Priority Chemicals (HPC) list, and, for each chemical, the practical quantitation limit (PQL) above which manufacturers would be required to report use of the chemical in children's products sold in New York State.
 
 ## Key numbers

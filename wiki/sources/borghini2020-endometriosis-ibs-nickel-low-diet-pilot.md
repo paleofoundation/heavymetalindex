@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Borghini, Porpora, Casale, Marino, Palmieri, Greco, Donato, Picarelli 2020 — IBS-like disorders in endometriosis: prevalence of nickel sensitivity and effects of a low-nickel diet
 
+## Overview
+
 This Nutrients open-label pilot study from the Sapienza University Rome consortium (Translational and Precision Medicine + Gynecology, Obstetrics, and Urology) is the foundational link between nickel sensitivity and endometriosis. The hypothesis: gynecological and intestinal symptoms in endometriosis may depend on nickel allergic contact mucositis (Ni ACM), and a 3-month low-Ni diet should improve both intestinal and gynecological endpoints. The findings are remarkable: 90.3 percent of endometriosis patients with GI symptoms have positive Ni omPT (nickel oral mucosa patch test), and the 3-month low-Ni diet significantly improves all 15 GI symptoms, all 7 extra-intestinal symptoms, and gynecological symptoms (dysmenorrhea, dyspareunia, pelvic pain). The paper proposes nickel as a metalloestrogen contributing to endometriosis-tissue proliferation, providing a mechanistic frame beyond the GI symptom relief.
 
 ## Key numbers

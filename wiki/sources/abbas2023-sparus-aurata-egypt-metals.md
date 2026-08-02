@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Abbas 2023 — Heavy metals in wild vs. farmed gilthead seabream (Sparus aurata), Egypt
 
+## Overview
+
 This study measured six heavy metals (Fe, Pb, Cd, Ni, Cu, Zn) in muscle, liver, intestine, and gill tissues of gilthead seabream (Sparus aurata) from two sources: wild fish from Bardawil Lake (North Sinai, Egypt) and farmed fish from a private fish farm at Ezbet Elborg, Domeitta. Cooking effects on metal concentrations were assessed for frying, microwave heating, and grilling. Human health risk assessment was conducted using Target Hazard Quotient (THQ), Hazard Index (HI), and carcinogenic risk index.
 
 ## Key numbers

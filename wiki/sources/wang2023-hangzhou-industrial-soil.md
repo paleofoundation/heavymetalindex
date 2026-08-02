@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang et al. 2023 — Heavy metal distribution in industrial zone soils, Hangzhou, China
 
+## Overview
+
 This study characterised heavy metal concentrations, spatial distribution, sources, and ecological and human health risks in soils of the key industrial zones of Hangzhou, Zhejiang Province, eastern China. A total of 2,651 soil surface samples were collected from 180 enterprises across chemical engineering, pharmacy, printing/dyeing, electroplating, and papermaking industries. Positive matrix factorization (PMF) analysis attributed 84.6% of soil HM pollution to human activities and 15.6% to natural sources, with Cd (PERI: 323.4) identified as the main ecological pollution risk element. Carcinogenic and non-carcinogenic risk indices were generally within acceptable ranges, with the notable exception of Cr in some sample clusters, though health risks were below regulatory thresholds for most sites.
 
 ## Key numbers

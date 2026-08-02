@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # Zhang et al. 2010 — Pb, Cd, Cr, Ni, Cu, Zn, Fe, Mn, Ti, Se in four Beijing-market detergents by ICP-MS
 
+## Overview
+
 A four-page short communication in Asian Journal of Chemistry reporting simultaneous ICP-MS quantification of ten heavy metals — titanium, chromium (total), manganese, nickel, copper, cadmium, lead, iron, zinc and selenium — in four detergent brands purchased at a Beijing supermarket. The products are framed by the authors as manual-use detergents for washing tableware, vegetables and fruits, a single product category in the Chinese household market. Titanium dominated the metal mass in three of the four brands (740-872 ng/g) while one brand whose raw material is described as plant-tissue-derived (Brand 3) returned an order-of-magnitude lower Ti (6 ng/g) and the lowest values for nearly every other metal. The authors recommend that Chinese hygiene authorities widen monitoring of detergent products and that consumers reduce detergent use and prefer lower-metal brands. The contribution to the heavy-metals literature is a small but unusually multi-element occurrence snapshot for the manual-dish/produce-wash detergent category in the Chinese retail market circa 2009, with the caveat that n=4 and no certified reference material, recovery percentage or interlaboratory comparison is reported.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Bai et al. 2022 — Arsenic contamination from coal burning in Shaanxi, China, with food and biomarker data
 
+## Overview
+
 This cross-sectional study investigates arsenic (As) exposure in a coal-burning area of Shaanxi Province, China, where endemic arseniasis (arsenicosis) has been documented from indoor coal combustion used for drying food. The study reports As concentrations in food (corn and peppers), coal, soil, water, and human biomarkers (urine, blood, hair) from 100 arseniasis patients and 50 healthy controls. Coal and food arsenic levels grossly exceeded Chinese national standards, establishing a direct food-matrix contamination pathway from coal combustion.
 
 ## Key numbers

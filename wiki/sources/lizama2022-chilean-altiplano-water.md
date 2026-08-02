@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Lizama-Allende et al. 2022 — Arsenic and boron in Chilean Altiplano-Puna surface waters, 2008–2018
 
+## Overview
+
 This 10-year monitoring study assessed water quality at multiple stations in the Chilean Altiplano-Puna region across 2008–2018. The primary finding is that most monitoring stations exceeded Chilean drinking water standards for arsenic and boron throughout the monitoring period. Elevated arsenic levels are attributed to naturally high geological sources, specifically volcanic and geothermal activity in the Atacama region rather than anthropogenic contamination. The study documents persistent and geographically widespread arsenic exceedances in surface waters used as drinking water sources in an arid high-altitude region.
 
 ## Key numbers

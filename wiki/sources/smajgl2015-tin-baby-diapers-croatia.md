@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Šmajgl & Obhođaš 2015 — Tin in disposable baby diapers, Croatia
 
+## Overview
+
 This study quantifies total tin in the top sheet and adhesive tape system of six brands of disposable baby diapers (Croatia, 2012-2014) using ²⁴¹Am-excited energy-dispersive X-ray fluorescence (EDXRF). Tin was detected in two of six diaper top sheets (range <MDL to 23.1 mg/kg) and in four of five measured adhesive tape systems (range <MDL to 22.4 mg/kg; the fifth tape system was not analyzed). The authors attribute the diaper tin to organotin compounds (TBT, DBT, MBT, DOT) used as PVC heat stabilizers, catalysts, or biocides; EDXRF reports only total Sn and cannot speciate. Measured concentrations are below the EU REACH Annex XVII No. 20 prohibition limit (0.1 % by weight = 1000 mg/kg in articles) but exceed the voluntary EU supplier-agreed limits of <2 mg/kg for TBT and <10 mg/kg for each individual organotin species. The worst-case dermal exposure scenario (6-8 month infant, 8 kg body weight, five diapers/day) is estimated at 0.021 µg Sn/kg-bw/day, equivalent to 20-100% of the tolerable daily intake.
 
 ## Key numbers

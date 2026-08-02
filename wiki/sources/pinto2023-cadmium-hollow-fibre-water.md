@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Pinto et al. 2023 — Green method for cadmium in natural waters via hollow-fibre liquid-phase microextraction
 
+## Overview
+
 This paper from the University of Cadiz describes a hollow-fibre liquid-phase microextraction (HF-LPME) method for Cd(II) preconcentration in natural waters prior to determination by high-resolution continuum source graphite furnace atomic absorption spectrometry (HR-CS-GFAAS). The organic liquid membrane is Cyanex 272 (bis-(2,4,4-trimethylpentyl)phosphinic acid) dissolved in dihexylether, immobilised in polypropylene hollow fibres. Four fibres are used simultaneously per sample, improving throughput and reproducibility. Under optimised conditions the method achieves an enrichment factor of 292 (reduced to 130 with extraction time cut to 2 hours for practical work), a detection limit of 0.13 ng/L Cd, and a linear range up to 3 µg/L. The method was applied to mineral, tap, and seawater samples. This is a water-analysis method; no food matrix data are reported.
 
 ## Key numbers

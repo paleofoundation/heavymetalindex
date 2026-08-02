@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Klopper et al. 2020 - Namibian coastal aerosol metals
 
+## Overview
+
 Klopper and colleagues measured inorganic elements and water-soluble ions in PM10 aerosols at the Henties Bay Aerosol Observatory on the Namibian coast and used positive matrix factorisation to apportion sources. This is upstream atmospheric-deposition and source-attribution evidence: it does not measure bottled water or a finished product, but it identifies heavy-metal aerosol burdens and likely source classes that can deposit to coastal land and marine systems.
 
 ## Key numbers

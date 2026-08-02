@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-17
 ---
 
+## Overview
+
 Sushila et al. (2024) conducted a PRISMA-guided systematic review of 22 primary studies reporting metal concentrations in human breast milk across multiple countries, supplementing the literature survey with estimated daily intake (EDI), hazard quotient (HQ), and cancer risk (CR) calculations. This source is quarantined for country-specific Cd outlier use: the Cd section reports Iraq as having the highest Cd concentration (Ci=57.33 mg/L), but assigns the matching EDI/HQ/CR values (EDI=4.7 mg/kg/day, HQ=4.7, CR=3.62) to Iran, and then states that Lebanon, Cyprus, and Iraq exceeded the recommended allowance. Other clearly labeled values can be used cautiously as source-reported review values, but the Cd outlier should not be used for downstream synthesis until the figures or underlying study data are manually checked.
 
 ## Key numbers

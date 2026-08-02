@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Lénárt et al. 2023 - Metals in wild boar muscle and fat
 
+## Overview
+
 Lénárt and colleagues measured arsenic, cadmium, chromium, copper, lead, manganese, mercury, and zinc in muscle and fat from 20 Hungarian wild boars. The paper is routeable for game-meat occurrence evidence because it reports tissue concentrations on a wet-weight mg/kg basis and separates muscle from fat. Lead was the main food-safety signal; arsenic, mercury, and cadmium were below the stated detection limits in every tissue sample.
 
 ## Key numbers

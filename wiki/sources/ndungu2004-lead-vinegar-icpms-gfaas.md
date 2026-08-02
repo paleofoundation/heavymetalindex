@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Ndung'u et al. 2004 — Lead in vinegar by ICP-MS and GFAAS: sample-preparation evaluation
 
+## Overview
+
 This study measured lead in 59 commercial vinegars purchased from California retail using both inductively coupled plasma mass spectrometry (ICP-MS) and graphite furnace atomic absorption spectrometry (GFAAS), with the primary objective of identifying the most reliable sample-preparation protocol. Direct analysis without digestion produced erroneously high and poorly reproducible results on both instruments because of organic-matrix interferences; nitric acid digestion brought the two instrumental methods into close agreement (R = 0.997, slope 0.94), and nitric acid digestion with UV photolysis was identified as the fastest and most complete preparation when hydrogen-peroxide reagent-blank Pb is acceptable. Balsamic vinegars — particularly traditionally barrel-aged varieties — carried substantially higher lead than other vinegar types, with the highest single sample at 307 µg/L and the lead source attributed to production and storage processes rather than the agricultural inputs.
 
 ## Key numbers

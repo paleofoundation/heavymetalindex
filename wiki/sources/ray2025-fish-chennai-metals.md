@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Ray et al. 2025 — Heavy metals in three fish species from Chennai, India (ICP-MS)
 
+## Overview
+
 This study quantifies seven metal(loid)s — As, Cd, Cr, Hg, Pb, Sr, and V — in liver, gill, and muscle tissues of three commercially important fish species purchased from a Chennai marketplace, with the samples traced to Ennore Creek and adjacent coastal waters, a region heavily impacted by industrial discharge from thermal power plants, petrochemical plants, and urban effluent. ICP-MS (Perkin Elmer NexION 1000) in helium KED mode was used throughout, with LOD 0.001–0.010 µg/kg and LOQ 0.005–0.030 µg/kg. All concentrations are reported on a dry-weight basis. The principal toxicological finding is that lead is the dominant contaminant across all three species and all tissue types, with muscle Pb ranging 15.4–17.6 µg/kg dry weight — the highest observed concentration driven by the highly-contaminated Ennore industrial environment. Despite elevated Pb concentrations by environmental standards, the target hazard quotient (THQ) for each metal remained below 1 for all species and tissues, and the hazard index (HI) did not exceed 1 for any species (highest: Oreochromis mossambicus, HI 0.238 for children), suggesting consumption at typical rates does not constitute immediate non-carcinogenic risk. Cancer risk estimates for As sat at the margin of the 1×10⁻⁶ threshold for children.
 
 The study's primary limitation is its very small sample size (n=18, six fish per species), which the authors acknowledge constrains statistical inference. Results should be read as preliminary baseline data for the Ennore coastal context, not as representative of Indian seafood broadly.

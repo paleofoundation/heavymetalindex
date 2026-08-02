@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # International Maple Syrup Institute 2015 — North American Good Manufacturing Practices to Avoid Lead Contamination of Maple Syrup
 
+## Overview
+
 The International Maple Syrup Institute (IMSI), with technical contributors from the UVM Proctor Maple Research Centre, UVM Extension, Centre ACER, and OMAFRA, sets out the industry-consensus good-manufacturing-practices (GMP) framework for avoiding lead contamination of maple syrup across the full production chain — sap collection, sap storage, evaporator/syrup-pan processing, filtration, and packing/storage. The document's core posture is that lead-containing equipment must be phased out and replaced with stainless steel and food-grade materials, citing NSF/ANSI 51-2012 §4.1.2 as the equipment-classification standard. It compiles producer-facing guidance from a multi-decade body of UVM and OMAFRA technical reports (Wilmot 2000, 2003; Dumont et al. 1996; UVM Proctor 2006; VAAFM 1995). The document is guidance, not a primary measurement study, but it carries two specific quantitative claims (a 30–100× sap-to-syrup concentration factor and an up-to-1,700 ppb lead-from-old-spiles figure citing Wilmot 2000) and one specific filtration parameter (≥85 °C / 185 °F).
 
 ## Key numbers

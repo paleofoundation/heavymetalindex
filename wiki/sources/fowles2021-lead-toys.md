@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Fowles 2021 — Health risk assessment: Lead in children's toys (ESR Client Report FW21014)
 
+## Overview
+
 This Institute of Environmental Science and Research (ESR) Client Report FW21014, prepared by Jeff Fowles for the New Zealand Ministry of Health in May 2021 and peer-reviewed by Peter Cressey, is a generic toxicological risk assessment of children's exposure to lead (Pb) from toys containing Pb at or above the New Zealand allowable migration limit of 90 mg Pb/kg. The report contextualises Pb-from-toys against background environmental Pb exposures (diet, drinking-water, soils/dust, air), reviews international regulatory limits for Pb in children's products, and computes three explicit exposure scenarios for a 2-3 year old child. The principal finding is that a toy at the 90 mg Pb/kg allowable limit, under a swallowing scenario, can deliver a Pb dose of 27 µg/day — by itself roughly equal to the daily Pb dose that would result in a 5 µg/dL (0.24 µmol/L) blood Pb level in young children, the recently lowered NZ and US notification level — so non-compliant toys remain a significant individual-child hazard even though Pb in toys is not a population-wide concern.
 
 ## Key numbers

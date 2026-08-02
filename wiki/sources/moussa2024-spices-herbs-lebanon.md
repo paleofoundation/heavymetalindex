@@ -28,6 +28,8 @@ updated: 2026-05-29
 
 # Moussa et al. 2024 — Heavy metals in spices and herbs on the Lebanese market
 
+## Overview
+
 Moussa et al. measured Pb, Cd, total As, and total Hg in 96 composite samples representing 13 herb and spice categories sold in Lebanon (black pepper, cinnamon, cumin, oregano, paprika, red chili, white pepper, thyme, garlic powder, thyme mix, sesame, sumac, and dried mint), purchased across four source categories: unpackaged bulk, imported (France), locally packaged with a Food Safety Management System (FSMS), and locally packaged without FSMS. Lead was the most problematic analyte, exceeding the Codex Alimentarius maximum permissible limit (MPL) of 0.3 mg/kg in 20% (19/96) of samples overall, with unpackaged bulk samples showing the highest exceedance rate (31%) and imported samples close behind (28%). Cadmium exceeded its MPL (0.2 mg/kg) in 4% (4/96) of samples; arsenic and mercury were within Codex limits across all 96 samples.
 
 ## Key numbers

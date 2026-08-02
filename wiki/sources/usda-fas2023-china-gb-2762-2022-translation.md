@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # USDA FAS GAIN Report CH2023-0040 (2023) — China releases GB 2762-2022 maximum levels of contaminants in foods (unofficial English translation)
 
+## Overview
+
 GAIN Report CH2023-0040, prepared by FAS China Staff in Beijing and approved by Adam Branson on 20 March 2023, is the USDA Foreign Agricultural Service's unofficial English translation of the National Food Safety Standard for Maximum Levels of Contaminants in Foods (GB 2762-2022). The Chinese standard was released on 30 June 2022 by the National Health Commission (NHC) and the State Administration for Market Regulation (SAMR) and entered into force on 30 June 2023, replacing GB 2762-2017 (whose translation FAS published on 9 May 2018 as GAIN report CH18025). The report transcribes the standard's foreword, scope, terms, principles of application, and Tables 1 through 12 of analyte-by-food-category maximum limits, plus Appendix A on food category definitions. Changes from the 2017 version are marked in red in the translated text. This source page anchors the GB 2762-2022 regulatory framework on the wiki via its USDA-translated text rather than the original Chinese; the active regulation page [[regulations/china-gb-2762-2022-contaminants]] is the routing target for downstream comparator references.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Gül et al. 2024 — Cd and Pb phytotoxicity and accumulation in quinoa, greenhouse study, Turkey
 
+## Overview
+
 Gül et al. conducted a greenhouse pot experiment testing the effects of Cd (50, 100, 200 mg/kg soil) and Pb (500, 1000, 2000 mg/kg soil) on quinoa (*Chenopodium quinoa*) growth parameters and antioxidant enzyme activities. While the primary framing is phytotoxicity and stress response, the study incidentally provides data on Cd and Pb accumulation in quinoa plant tissue under a range of soil contamination levels, including at the lower spike dose (50 mg Cd/kg soil) which, while still above typical ambient levels, is closer to contaminated agricultural reality in some mining-adjacent zones. Quinoa has received attention as a high-Cd-accumulating pseudocereal in some studies; this study provides Turkish context. Evidence tier B due to controlled spiked-soil conditions far above ambient and small Turkish journal.
 
 ## Key numbers

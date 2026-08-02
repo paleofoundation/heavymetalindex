@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Sheikh et al. 2025 - Acidified biochar and cadmium stress in spinach
 
+## Overview
+
 Sheikh and colleagues tested acidified biochar as a way to reduce cadmium toxicity and improve spinach growth and biochemical traits. This is in-scope lane a2 mitigation evidence, not spinach product-occurrence evidence.
 
 ## Key numbers

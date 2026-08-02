@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Senior et al. 2017 - Wayne County groundwater quality baseline
 
+## Overview
+
 Senior and colleagues sampled 89 domestic wells in Wayne County, Pennsylvania, to establish a baseline for shallow groundwater quality in bedrock aquifers before potential extensive shale-gas development. This is in-scope as groundwater exposure and source-attribution context, not bottled-water or salt occurrence evidence.
 
 ## Key numbers

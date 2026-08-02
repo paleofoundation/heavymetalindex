@@ -29,6 +29,8 @@ updated: 2026-05-26
 
 # Fechner et al. 2022 — BfR MEAL Study: Hg, Cd, Pb, and Ni in 356 German foods
 
+## Overview
+
 This peer-reviewed paper reports concentration data for total mercury (tHg), cadmium (Cd), lead (Pb), and nickel (Ni) from the first German Total Diet Study, the BfR MEAL Study (Mahlzeiten für die Expositionsschätzung und Analyse von Lebensmitteln — "meals for exposure assessment and analysis of foods"), initiated in 2015. Foods were purchased representatively across Germany in 2017–2019, prepared as consumed in a study kitchen, and pooled (869 pooled samples from 356 MEAL foods) before analysis. The study is one of the most extensive TDSs worldwide by the number of foods and substances analysed. All measured levels were below applicable EU maximum levels. This paper is the primary data-reporting publication for the metals component of the BfR MEAL Study; a companion paper (Sarvan et al. 2021, Food and Chemical Toxicology) reported MeHg speciation in fish; a BfR Communication 033/2022 reported the Ni exposure assessment; a BfR Opinion 023/2024 applied MEAL MeHg data to fish consumption risk assessment.
 
 This paper is distinct from both previously ingested BfR MEAL sources in this corpus: `bfr2022-nickel-dietary-intake-germany-meal.md` (a government communication on Ni intake) and `bfr2024-methylmercury-fish-seafood-germany.md` (a 2024 risk assessment opinion for MeHg in fish).

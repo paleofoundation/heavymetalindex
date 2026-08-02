@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Ewubare et al. 2024 — Heavy metals in the environment: effects on soil, plants, human health, and possible solutions (AJEE narrative review)
 
+## Overview
+
 This open-access narrative review in the American Journal of Environmental Economics surveys heavy-metal sources, soil and plant uptake, human-health effects, and phytoremediation/microbial remediation strategies. The seven Nigerian co-authors (Department-of-Chemistry-affiliated, four institutions in Edo and Imo States) frame the review around three coupled compartments — soil, plants, humans — and assemble regulatory limits from WHO, FAO/Codex, the EEA, and the European Union, plus two African case studies and one global vegetable-accumulation comparison. The paper is a teaching-grade synthesis rather than a primary-data report. It cites Hazrat et al. (2019), Pourret et al. (2021), and Das et al. (2023) as recent umbrella references; no original sampling or analytical work is reported. Evidence tier C: useful as a leads document and as a textbook-style overview of the soil–plant–human pathway, not citable as direct evidence for occurrence values. All quantitative values appearing on this page are reattributions of cited primary sources.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # OEHHA 2025 — Nickel and Nickel Compounds (Proposition 65 fact sheet)
 
+## Overview
+
 The California Office of Environmental Health Hazard Assessment maintains a consumer-facing fact sheet on the Proposition 65 Warnings Website explaining why nickel and nickel compounds carry Prop 65 warnings. The fact sheet announces two distinct Prop 65 listings: the cancer listing covering nickel and nickel compounds as a class (with named target sites of nasal cavity, paranasal sinus, and lungs), and a separate reproductive-toxicity listing restricted to soluble nickel compounds and nickel carbonyl (covering developmental effects during pregnancy and male reproductive effects). The fact sheet is consumer-audience tertiary communication: it does not derive No Significant Risk Levels or Maximum Allowable Daily Levels, and it does not catalogue occurrence values. Its function is to explain the listings to people who encounter a Prop 65 warning label and want to understand the exposure pathways and risk-reduction steps that California identifies as relevant.
 
 ## Summary

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Price et al. 2023 — Biokinetic Modeling of Lead Exposure from Baby Food, US
 
+## Overview
+
 This 2023 US study applies the IEUBK (Integrated Exposure Uptake Biokinetic) model to estimate blood lead levels in US infants and young children consuming baby food with measured Pb concentrations. It is a modeled exposure assessment, not a primary food concentration study.
 
 ## Key numbers

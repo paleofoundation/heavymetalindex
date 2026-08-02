@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Gul 2022 - hazardous elements in low-priced Karachi plastic toys
 
+## Overview
+
 Gul and colleagues measured total metal concentrations of Pb, Cd, Ni, Zn, total Cr, Cu, and Mn in `44` low-priced children's plastic toys purchased from local markets in Karachi, Pakistan. The raw file is the Research Square version 1 preprint, which states that a version of record was published in *Environmental Science and Pollution Research* with DOI `10.1007/s11356-022-19362-0`. The routeable evidence is finished-toy total metal concentration in `mg/kg` for plastic toy substrate materials and plastic toys with paint or coatings; the paper compares those total concentrations with EU, U.S. CPSC, Canadian, and BIS toy limits but does not report a migration or bioaccessibility assay.
 
 ## Key numbers

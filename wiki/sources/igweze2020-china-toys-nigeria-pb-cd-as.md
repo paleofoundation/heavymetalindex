@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Igweze et al. 2020 — Pb, Cd, and As in Chinese-import children's toys in Nigeria, with USEPA non-carcinogenic and carcinogenic risk assessment
 
+## Overview
+
 This Heliyon paper measures total Pb, Cd, and As in the surface-paint coatings of 30 low-cost "made in China" children's toys purchased from supermarkets and street vendors in Port Harcourt, Nigeria, by flame atomic absorption spectrophotometry (PerkinElmer AAS-700) after concentrated HNO₃ digestion. All thirty samples report measurable Pb (4.16–9.747 mg/kg), Cd (1.942–6.50 mg/kg), and As (1.459–6.318 mg/kg) in the scraped paint, with every value below the EU Toy Safety Directive 2009/48/EC migration limits cited by the source as 90 mg/kg (Pb), 23 mg/kg (Cd), and 47 mg/kg (As). USEPA-style oral and dermal hazard quotients (HQ), total target hazard quotients (TTHQ), hazard indices (HI), and lifetime cancer risks were computed using exposure parameters from the Risk Assessment Information System (RAIS) for a 6-year-old, 15-kg child; all HQ/HI values are below 1 (HI range 0.126–0.409) and all total cancer risk values are within the 1×10⁻⁶–1×10⁻⁴ acceptable range. The authors conclude that these particular "made in China" toys lately imported into Nigeria do not add measurably to children's body burden of these metals, while noting that bioaccumulation under chronic exposure may still be relevant — particularly for Pb, which has no safe blood level.
 
 ## Key numbers

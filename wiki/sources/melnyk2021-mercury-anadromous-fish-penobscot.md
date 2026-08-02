@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Melnyk et al. 2021 — Total mercury in anadromous fish, Penobscot River, Maine
 
+## Overview
+
 This US EPA/ATSDR study measured total mercury concentrations in six species of anadromous fish (and roe) returning to the Penobscot River in Maine after dam removal restored fish passage. Samples were collected during two consecutive spawning seasons (2017 and 2018). The study compared mercury levels against EPA reference doses to assess risks for Penobscot Indian Nation members who consume these fish at traditional subsistence rates. All species except sea lamprey were within current consumption advisories at 40 g/day; sea lamprey consistently exceeded HQ > 1 and a recommendation was issued to avoid consumption. Wildlife risk for mink, otter, and eagle was also assessed.
 
 ## Key numbers

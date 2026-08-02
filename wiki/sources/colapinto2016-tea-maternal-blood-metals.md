@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Colapinto et al. 2016 - Tea intake and maternal blood metals in MIREC
 
+## Overview
+
 Colapinto and colleagues analysed tea intake against maternal whole-blood metals, cord-blood metals, and first-trimester urinary arsenic species in the Canadian MIREC cohort. This is lane a4 biomonitoring and dietary-exposure evidence, not a coffee or tea occurrence study. The strongest reported signal was for blood lead, especially green and herbal tea categories, while most adjusted mercury, cadmium, arsenic, and manganese comparisons were not significant for any tea versus no tea.
 
 ## Key numbers

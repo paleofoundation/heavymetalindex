@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shar et al. 2026 - metals in sunflower seeds from Sindh ecological zones
 
+## Overview
+
 Shar and coauthors measured Pb, Cd, Cr, Cu, Zn, and Fe in 36 composite sunflower seed samples (six composites from each of six districts) collected from different ecological zones of Sindh, Pakistan during the rabi crop season 2022-2023. The source is directly routeable to sunflower seeds and provides per-site dry-weight means with SDs. Tando jam emerges as the priority Pb/Cd/Cr contamination cluster (attributed to upstream industrial effluents and urban drainage), while Kotri's higher Fe/Zn/Cu is attributed to naturally ferruginous alluvial soils of the lower Indus plain.
 
 ## Key numbers

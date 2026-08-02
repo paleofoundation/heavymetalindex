@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Zhan et al. 2023 - Yangshan gold-mine soil metals
 
+## Overview
+
 Zhan and colleagues measured As, Cd, Hg, and Pb in soil around the Anba-Getiaowan mining area of the Yangshan Gold Belt in Gansu, China. This is source-attribution and soil-pathway evidence: it does not measure mineral water or food, but it documents arsenic loading in mining-area soils and nearby surface water, tied by the authors to arsenic-bearing gold-mineralization and mining-development context.
 
 ## Key numbers

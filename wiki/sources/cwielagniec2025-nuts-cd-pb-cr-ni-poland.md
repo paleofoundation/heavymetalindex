@@ -27,6 +27,8 @@ updated: 2026-05-14
 
 # Ćwieląg-Drabek et al. 2025 — Cd, Pb, Cr, and Ni in five nut types on the Polish market
 
+## Overview
+
 This study measured cadmium, lead, chromium, and nickel in 69 samples of five nut types commercially available in Poland: almonds, cashews, hazelnuts, peanuts, and walnuts. Using electrothermal atomic absorption spectrometry (ETAAS), the authors found that peanuts carried the highest mean concentrations of both Cd and Pb among the five types, while cashews had the highest Ni and almonds had the highest Cr. Health risk modelling across eight age groups identified moderate-to-high non-cancer hazard quotients (HQ > 1) for infants 6–11 months in multiple nut types, underscoring particular concern for early-life exposures when nut-containing foods are introduced into the diet.
 
 ## Key numbers

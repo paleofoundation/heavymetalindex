@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Rodríguez-Rodríguez et al. (2026) investigate whether the use of Sargassum-based biofertilizer in tomato cultivation introduces trace element contamination into tomato fruit, given that Sargassum seaweed can contain elevated levels of heavy metals including arsenic, cadmium, lead, nickel, and chromium. The study reports ICP-OES and ICP-MS measurements of As, Cd, Pb, Ni, and Cr in tomato fruits from greenhouse experiments comparing Sargassum biofertilizer-treated and control (conventional fertilizer) plots.
 
 ## Key numbers

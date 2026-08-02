@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Zuhlke et al. (2026) present field measurements of lead in 20 public drinking water kiosks — coin-operated or free-standing dispensing machines installed in public spaces such as parks and parking lots — across multiple US locations, combined with X-ray fluorescence (XRF) screening of kiosk plumbing components to identify lead-containing materials. The study identifies these underregulated devices as a meaningful exposure pathway for populations who rely on them as an alternative to tap water.
 
 ## Key numbers

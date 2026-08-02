@@ -26,6 +26,8 @@ updated: 2026-06-07
 
 # Wale 2024 — Digestion methods for heavy metals in fruits (Science Journal of Analytical Chemistry)
 
+## Overview
+
 This single-author 6-page review article (Vol. 12, No. 1, pp. 7-12, doi 10.11648/j.sjac.20241201.12) compares the wet-digestion methodologies most commonly used to release heavy metals from fruit and fruit-juice matrices prior to instrumental quantification, and concludes that microwave-assisted pressurized wet digestion in closed vessels is preferred over open-vessel wet digestion, conventional thermally convective wet pressure digestion, UV-photolysis digestion, and ultrasound-assisted acid decomposition for routine fruit-matrix analysis. It carries no original measurements. The only quantitative table is a reproduction of a WHO/FAO acceptable-limits table tertiary-cited from Ihesinachi and Eresiya 2014, the same table that appears (with a paper-internal units-label defect) in the same author's wale2023 review; flagged below. Evidence tier C: short single-author review at a Science Publishing Group venue with no primary data, no PRISMA flow, and no risk-of-bias appraisal of the cited methodological literature.
 
 ## Key numbers

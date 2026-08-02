@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # de Oliveira et al. 2018 - Metals in traditional and herbal teas
 
+## Overview
+
 de Oliveira and colleagues measured aluminum, total arsenic, cadmium, total chromium, and lead in 47 traditional and herbal tea products collected in the US market, and then measured the same metals in 5-minute boiling-water infusions. The sample set covered herbal, black, green, and oolong teas with declared origins across 13 countries. The source reports both dry tea-leaf concentrations in `mg kg-1` and infusion concentrations in `mg L-1` for aluminum or `µg L-1` for arsenic, cadmium, chromium, and lead.
 
 ## Key numbers

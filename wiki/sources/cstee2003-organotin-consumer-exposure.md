@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # CSTEE 2003 - organotin exposure from consumer products and food-contact materials
 
+## Overview
+
 The European Commission's Scientific Committee on Toxicity, Ecotoxicity and the Environment reviewed non-food consumer and environmental exposures to organostannic compounds, while explicitly noting that foods and food-contact materials contribute to total exposure. This is an A-tier regulatory opinion and exposure-context source, not a primary occurrence survey. The opinion keeps organotin species such as MBT, DBT, TBT, MOT, DOT, and TPT distinct from total elemental tin.
 
 ## Key numbers

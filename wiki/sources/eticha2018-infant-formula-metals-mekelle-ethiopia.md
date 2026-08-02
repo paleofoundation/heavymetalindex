@@ -31,6 +31,8 @@ updated: 2026-05-08
 
 # Eticha, Afrasa, Kahsay, Gebretsadik 2018 — Infant exposure to metals through formula feeding in Mekelle, Ethiopia
 
+## Overview
+
 This International Journal of Analytical Chemistry research article from Mekelle University School of Pharmacy (Eticha, Afrasa, Kahsay, Gebretsadik) reports atomic absorption spectrometry quantification of Pb, Cd, As, and Cr in infant formulas sold in the Mekelle, Ethiopia retail market. The paper provides per-formula-product concentration data and per-day infant exposure estimates against international reference values. As an Ethiopian-market-specific dataset, it complements the broader U.S. and European infant-formula occurrence literature with sub-Saharan African market context.
 
 ## Key conclusions

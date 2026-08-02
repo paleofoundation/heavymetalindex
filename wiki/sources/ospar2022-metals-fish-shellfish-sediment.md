@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # OSPAR 2022 — Pb, Cd, and Hg status and trend assessment in Northeast Atlantic fish, shellfish, and sediment (1979-2020)
 
+## Overview
+
 The OSPAR Common Indicator Assessment evaluates the status and temporal trend of mercury (Hg), cadmium (Cd), and lead (Pb) — with extended coverage of zinc (Zn), copper (Cu), chromium (Cr), nickel (Ni), arsenic (As), cobalt (Co), silver (Ag), tin (Sn), and selenium (Se) — measured in fish, shellfish, and sediment across the OSPAR Convention area (Northeast Atlantic) for the 2023 Quality Status Report. The assessment finds that lead concentrations in fish and shellfish are above background levels in most areas, mercury is above the EU Environmental Quality Standard for secondary poisoning (QS_sp) throughout all assessed subregions, and cadmium is above background in the Celtic Seas, Iberian Sea, and Northern Bay of Biscay. Despite bans and the Minamata Convention on Mercury, biota concentrations are mostly increasing — particularly in OSPAR Region II (Greater North Sea) — while sediment concentrations are often above the NOAA Effects Range-Low (ERL) environmental threshold but decreasing in most subregions. The assessment uses the CEMP dataset held at the ICES Data Centre, processed via the online OHAT assessment tool with a linear mixed model fitted across contaminants assessment areas.
 
 ## Key numbers

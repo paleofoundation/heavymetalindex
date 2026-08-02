@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Mahbub et al. 2018 - Metals in poultry feed, meat, and eggs in Bangladesh
 
+## Overview
+
 This study measured chromium, lead, and arsenic in poultry feed, meat, and egg samples from Bangladesh. It is useful for poultry and egg occurrence context because the paper reports meat and egg concentrations separately from feed values.
 
 ## Key numbers

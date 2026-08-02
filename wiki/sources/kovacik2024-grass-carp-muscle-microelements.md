@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kovacik et al. 2024 — Microelements and fatty acids in grass carp muscle, Slovak Republic
 
+## Overview
+
 Kovacik et al. measured 16 microelements plus total mercury in dorsal muscle of 36 grass carp (*Ctenopharyngodon idella*) harvested from a university experimental pond in Kolinany, Slovakia during summer (n=18) and autumn (n=18) seasons. The pond is adjacent to intensive agricultural activity and connected to a wastewater treatment plant. All metals were measured by ICP-OES (Al, As, Ba, Cd, Co, Cr, Cu, Fe, Li, Mn, Ni, Pb, Se, Sr, Zn); total mercury was measured separately by CV-AAS. Cadmium and cobalt were below the limit of quantification in all samples; arsenic was below LOQ in more than 88% of samples; lead was below LOQ in more than 66% of samples; selenium was below LOQ in approximately 50% of samples. The overall elemental ranking was Fe > Zn > Al > Sr > Ba > Ni > Se > Cr > Cu > Mn > Pb > As > Li > Hg. Total hazard quotient (TTHQ) ranged 0.27–0.76, below 1 in all individuals; mercury and nickel jointly accounted for 49% of the TTHQ and were identified as the elements of most concern.
 
 ## Key numbers

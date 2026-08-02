@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # EFSA FAF Panel 2022 — Heavy metals in food additive E 475 (polyglycerol esters of fatty acids)
 
+## Overview
+
 The EFSA Panel on Food Additives and Flavourings conducted a follow-up risk assessment of polyglycerol esters of fatty acids (PEFA, E 475) to address data gaps identified in the 2017 re-evaluation. Analytical data on toxic elements in 14 commercial E 475 samples were provided by an interested business operator and assessed against current EU specification limits. The Panel concluded that the maximum limits for all four toxic elements (arsenic, lead, mercury, and cadmium) in the EU specifications should be lowered based on the actual levels achievable in commercial product, and that the proposed lowest technologically achievable levels for Hg, Cd, and As do not raise safety concerns at the calculated exposure levels, though the MOE for arsenic was insufficient at the lower end.
 
 ## Key numbers

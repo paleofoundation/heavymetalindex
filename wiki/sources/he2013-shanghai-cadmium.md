@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # He et al. 2013 — Dietary cadmium exposure in Shanghai adults over 40
 
+## Overview
+
 A cross-sectional survey of 207 Shanghai residents aged over 40 years combined food frequency questionnaire data with measured cadmium concentrations in food, water, and tobacco to estimate both external and internal (urinary and blood) cadmium exposure. Mean daily dietary cadmium exposure was 12.8 µg/day, accounting for 25.8% of the provisional tolerable daily intake (PTDI of 49.5 µg/day based on JECFA 2010 PTMI of 25 µg/kg body weight). Total environmental exposure including tobacco and water was 16.7 µg/day (33.8% of PTDI). The probabilistic Monte Carlo model found 93.4% of the population below the PTDI; the point-estimation extreme P90 of total daily exposure (assuming concurrent upper-90th food intake and upper-90th food cadmium concentration) reached 110.6 µg/day (223.5% of PTDI). Vegetables, rice, and seafood together accounted for 86.3% of dietary cadmium exposure.
 
 ## Key numbers

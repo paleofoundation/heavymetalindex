@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Fagbemi et al. 2023 - Lead in street-hawked foods from Akure, Nigeria
 
+## Overview
+
 Fagbemi and colleagues measured minerals and lead in selected street-hawked foods from Akure metropolis, Nigeria. The source reports lead in all sampled foods, including rice and stew, African star apple, cucumber, white pap, meat pie, zobo drink, and smoked fish. It is routeable as broad ready-to-eat street-food occurrence evidence rather than as evidence for the auto-fetched filename's metal-utensil product cell.
 
 ## Key numbers

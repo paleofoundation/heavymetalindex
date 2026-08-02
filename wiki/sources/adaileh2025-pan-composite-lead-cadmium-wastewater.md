@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Adaileh et al. 2025 - PAN composite for lead and cadmium wastewater removal
 
+## Overview
+
 Adaileh and colleagues fabricated a Cu-ZnO/ZrO2 polyacrylonitrile polymer composite and tested it for simultaneous removal of Pb(II), Cd(II), sulfamethoxazole, and ibuprofen from water. This is remediation and treatment-technology evidence. The reported concentrations, adsorption capacities, and percent removals describe wastewater-treatment performance, not heavy-metal occurrence in a consumer product.
 
 ## Key numbers

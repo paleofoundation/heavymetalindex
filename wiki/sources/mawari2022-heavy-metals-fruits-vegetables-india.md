@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Mawari et al. 2022 — Heavy metals in fruits, vegetables and soil, Solapur, Maharashtra, India
 
+## Overview
+
 This study quantified Pb, Cd, total As, and total Hg in 24 frequently consumed crop types — 11 vegetables and 13 fruits/legumes — grown on farms surrounding the industrialized city of Solapur in Maharashtra, India, and in native soil at six sampling locations within a roughly 10 km radius of the city's industrial hub. Samples were collected during winter (January) and summer (April) of 2017. Crops were analysed by ICP-MS (Agilent 7500) after acid digestion following EPA Method 3050B and FSSAI guidance. Mean concentrations across all 24 commodities were Pb 0.17 ± 0.38 mg/kg > Hg 0.06 ± 0.09 mg/kg > Cd 0.02 ± 0.007 mg/kg > As 0.002 ± 0.003 mg/kg. Vegetables accumulated more metal than fruits across all four analytes; the authors attribute this to higher transpiration rates, greater leaf surface area and physical contamination from dust and rainwater. Garlic exhibited the highest Cd concentration (0.37 mg/kg, exceeding the WHO/FAO standard of 0.2 mg/kg), sugarcane the highest Pb (1.741 mg/kg), and sorghum the highest Hg (0.356 mg/kg). Hazard Index exceeded 1 for garlic (HI ≈ 3.00, driven by Cd then Pb) and sugarcane (HI ≈ 2.22, driven by Pb), indicating non-carcinogenic health concern at modeled intakes. Soil concentrations at all six sites remained below Indian and EU regulatory thresholds.
 
 ## Key numbers

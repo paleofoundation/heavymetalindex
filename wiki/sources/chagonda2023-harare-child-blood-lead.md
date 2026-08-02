@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Chagonda et al. 2023 - Harare child blood lead
 
+## Overview
+
 Chagonda and colleagues measured blood lead levels in 86 children under six years old living in Mbare, a high-density Harare suburb with old housing, possible lead-based paint, aged water infrastructure, and nearby industrial activity. The study also measured lead in soil, tap and borehole drinking water, paint chips, and puddle water; it is exposure and environmental-source evidence, not cookware occurrence evidence.
 
 ## Key numbers

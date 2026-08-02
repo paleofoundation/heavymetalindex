@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Souri et al. 2019 - Growth-stage heavy metals in garden cress and sweet basil
 
+## Overview
+
 Souri et al. measured heavy metals in garden cress and sweet basil grown in wastewater-irrigated fields south of Tehran, then compared young and mature garden-cress plants in a hydroponic Pb/Cd exposure experiment. The field results are directly routeable for leafy vegetables and fresh herbs because edible leaf tissue concentrations are reported in mg kg-1 dry weight. Garden cress leaves generally had higher Cd, Pb, tAs, Ni, Cr, Zn, Cu, and Mn than sweet basil leaves, and the hydroponic experiment showed higher Cd and Pb accumulation in young garden-cress shoots than mature shoots under several exposure levels.
 
 ## Key numbers

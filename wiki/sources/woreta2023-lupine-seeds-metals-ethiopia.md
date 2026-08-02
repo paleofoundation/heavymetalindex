@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Woreta et al. 2023 - lupine seed metals in Ethiopia
 
+## Overview
+
 Woreta et al. (2023) measured Cr, Mn, Fe, Co, Ni, Cu, Zn, Cd, and Pb in lupine seeds and paired agricultural soils from four districts of South Gondar Zone, Ethiopia. The routeable occurrence values are the Table 4 seed concentrations in `mg/kg`; Table 5 soil values and Table 7 bioaccumulation factors are pathway context and should not be pooled as product concentrations. The paper reports total-element measurements only, with no arsenic, mercury, or chromium speciation.
 
 ## Key numbers

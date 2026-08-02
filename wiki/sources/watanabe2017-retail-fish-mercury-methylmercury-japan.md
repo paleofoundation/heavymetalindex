@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Watanabe et al. 2017 - Surveillance of Total Mercury and Methylmercury Concentrations in Retail Fish
 
+## Overview
+
 This Japanese surveillance study measured total mercury and methylmercury in retail fish samples across 19 fish species.
 
 ## Key numbers

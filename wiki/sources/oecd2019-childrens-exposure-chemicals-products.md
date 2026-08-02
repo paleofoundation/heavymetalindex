@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # OECD 2019 — Considerations when assessing children's exposure to chemicals from products (Series on Testing and Assessment No. 310)
 
+## Overview
+
 This OECD Environment Directorate / Joint Meeting of the Chemicals Committee and Working Party on Chemicals, Pesticides and Biotechnology document presents a five-question decision tree (Q0–Q5) for determining whether a child-specific exposure assessment is needed for a chemical in a consumer product, and a checklist of child-specific physiological and behavioural factors (Table 1) that influence inhalation, oral and dermal exposure routes. Three modelled case studies illustrate the framework: two hair sprays (non-VOC and VOC), a kitchen cleaner spray, and a post-application MCPA herbicide scenario in a public park. The focus is "industrial chemicals" in "consumer products"; exposure via food or the environment is explicitly treated as background and is out of scope. No analytical occurrence data on heavy metals are reported; the document is methodology and exposure-modelling guidance, not an occurrence study.
 
 ## Key numbers

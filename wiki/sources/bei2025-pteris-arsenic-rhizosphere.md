@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Bei et al. 2025 - Pteris vittata rhizosphere arsenic remediation
 
+## Overview
+
 Bei and colleagues examined how rhizosphere microbes, root exudates, and arsenic speciation interact during *Pteris vittata* phytoremediation across multiple soils and arsenic loads. This is in-scope a2 mitigation evidence with strong a3 pathway value because it reports arsenic-contaminated-soil remediation mechanics, root-exudate recruitment, and arsenic-speciation processes rather than consumer-product occurrence.
 
 ## Key numbers

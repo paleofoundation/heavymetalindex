@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # EC 2004 - SCOOP heavy metals dietary exposure
 
+## Overview
+
 This European Commission scientific-cooperation report assessed dietary exposure to arsenic, cadmium, lead, and mercury in EU Member States. It compiles occurrence, consumption, and intake calculations submitted by Member States, with data completeness varying by country and food group. The report is useful as a regulatory context and broad occurrence/exposure anchor, but its own summary warns that limited occurrence data and differing analytical quality make many country estimates cautious rather than complete.
 
 ## Key numbers

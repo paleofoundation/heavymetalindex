@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Naccari et al. 2025 — Toxic metals and microelements in Calabrian honey, Italy
 
+## Overview
+
 Naccari et al. measured Pb, Cd, As (toxic metals) and a suite of microelements (Cr, Ni, Co, Mn, Fe, Cu, Zn, Se, Al) in 38 honey samples of five floral varieties collected from beekeeping farms in the Calabria region of southern Italy. Analysis was by ICP-MS (Agilent 7700x) following microwave acid digestion per UNI EN 13805:2002; LOD/LOQ ranged 0.001–0.005 mg/kg; recoveries 96–105%. All analyzed metals were detected above the LOD in every sample. The key regulatory finding is that Pb exceeded the EU MRL of 0.1 mg/kg (EU Regulation 2023/915) in the majority of samples: 80% of Wildflower, 50% of Citrus and Honeydew, and 25% of Chestnut and Erika samples. Despite these exceedances, the contribution to PTWI, PTMI, and THQ at typical honey consumption rates (1.92 g/day) remained a small fraction of reference values, as honey is a minor dietary vehicle. Cadmium and arsenic were well below regulatory limits. Aluminum was the most abundant microelement (mean 4.5–6.0 mg/kg by variety). The authors use the honey mineral profile as a biomonitoring tool for environmental pollution in apiary areas, noting that Wildflower honey was the most contaminated, consistent with generalist foraging across diverse agricultural land.
 
 ## Key numbers

@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Ahmed et al. (2019) sampled irrigation water, soil, and vegetables at three sites adjacent to a multi-industry zone (textiles, dyeing, garments, pharmaceuticals, ceramics, paint, packaging) in Gazipur District, Bangladesh, comparing dry-season (Nov–Dec 2017) and wet-season (Jun–Jul 2015, drawn from the authors' prior study) concentrations of Cr, Cu, Zn, As, Cd, and Pb. Heavy metal concentrations in irrigation water and vegetables exceeded FAO permissible levels in both seasons, while soil concentrations remained below EU permissible levels in both seasons except for As. Dry-season values were consistently higher than wet-season values across all three media. Hierarchical cluster analysis of metal co-occurrence suggested that vegetable contamination was sourced from irrigation water in the wet season and from soil in the dry season. Bioconcentration factors from soil to vegetable averaged 1.18 for Cd and 0.37 for Zn, indicating high transfer of these metals from soil into edible tissue.
 
 ## Key numbers

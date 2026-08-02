@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ding 2023 - Peanut cadmium and arsenic transfer
 
+## Overview
+
 Ding and colleagues studied how cadmium and arsenic co-contamination in soil affected transfer into peanut plants, including edible peanut grains. The source is an experimental outdoor pot study, not a market-basket survey, so its peanut-grain values are supply-chain transfer evidence rather than consumer-market occurrence. Arsenic is reported as total/unspecified As; no inorganic arsenic speciation is reported.
 
 ## Key numbers

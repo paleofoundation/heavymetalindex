@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Lucchini et al. 2025 — Mercury in the Amazon Basin: fish contamination and co-exposures
 
+## Overview
+
 This review examines mercury contamination in the Amazon Basin, focusing on fish consumption as the primary exposure pathway for indigenous and riverside communities. Fish total Hg concentrations range from 0.10 to 4.73 µg/g (wet weight) across Amazonian species, with piscivorous predators (surubim, tucunaré/peacock bass, piranha) at the high end. Human hair mercury concentrations in documented exposed populations range from 3.07 to 24.6 µg/g, substantially exceeding the WHO guidance value of 1 µg/g. The review also addresses co-exposures with agrochemicals, microplastics, and artisanal gold mining (ASGM) byproducts, noting synergistic effects that may amplify neurotoxic risk. Nutritional trade-offs (omega-3 benefits vs. Hg risk) are discussed in the context of food security for communities dependent on river fish.
 
 ## Key numbers

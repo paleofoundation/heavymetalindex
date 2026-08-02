@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Davydiuk et al. 2023 — Arsenosugars confound urinary DMA as methylation marker
 
+## Overview
+
 Davydiuk and colleagues critically evaluate a widely used assumption in arsenic epidemiology: that dimethylarsinic acid (DMA) in urine reflects individual arsenic methylation efficiency of inorganic arsenic. The study demonstrates that DMA in urine also arises from the metabolism of organic arsenic species — particularly arsenosugars and arsenolipids abundant in seafood (seaweed, shellfish, fish) — and that most environmental health studies have not controlled for dietary intake of these organic arsenic confounders. This is directly relevant to food chain arsenic risk assessment because dietary organic arsenic from seafood can substantially elevate urinary DMA without any accompanying exposure to inorganic arsenic, potentially leading to misclassification of methylation capacity and risk.
 
 ## Key numbers

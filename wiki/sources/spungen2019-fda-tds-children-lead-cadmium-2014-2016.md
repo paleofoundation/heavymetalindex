@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Spungen 2019 — Children's exposures to lead and cadmium: FDA TDS 2014-16
 
+## Overview
+
 This Food Additives & Contaminants: Part A paper by Judith Spungen of the FDA Center for Food Safety and Applied Nutrition uses the FDA Total Diet Study FY2014-FY2016 dataset to estimate children's dietary exposure to Pb and Cd by age group (6-11 months, 1 year, 2 years, 6 years, and adolescents). The paper is the canonical FDA-authored child-focused exposure assessment for the 2014-2016 TDS window and is the immediate predecessor to the FDA 2025 final guidance for industry on lead in processed food intended for babies and young children. The companion paper [[sources/gavelek2019-fda-tds-pb-older-children-women-adults-2014-2016|Gavelek et al. 2019]] extends the same TDS assessment to older children, women of childbearing age, and adults.
 
 ## Key conclusions

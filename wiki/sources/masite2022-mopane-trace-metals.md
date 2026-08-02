@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This study measured trace metals (tAs, Cd, Co, Cr, Ni, Pb) alongside crude protein in three roasted food products commercially available in South Africa: mopane worms (Gonimbrasia belina), sweet corn, and peanuts. The key finding was that total arsenic concentrations in all three products exceeded maximum allowable threshold limits, while cadmium in peanuts also exceeded acceptable limits, raising food safety concerns. ICP-OES analysis was performed following microwave-assisted acid digestion.
 
 ## Key numbers

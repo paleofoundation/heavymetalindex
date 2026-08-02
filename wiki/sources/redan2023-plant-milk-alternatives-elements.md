@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Redan 2023 - U.S. plant-milk alternatives elements
 
+## Overview
+
 Redan and colleagues measured target minerals and trace elements in eight types of plant-based milk alternatives from the U.S. market. The occurrence-relevant contaminant elements were total arsenic, cadmium, and lead, measured after microwave-assisted acid digestion by ICP-MS. The arsenic result is total arsenic only; the paper explicitly states that it did not differentiate organic and inorganic arsenic species.
 
 ## Key numbers

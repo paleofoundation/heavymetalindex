@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Aburas et al. 2023 - Libyan honey lead and cadmium
 
+## Overview
+
 Aburas et al. measured lead and cadmium plus basic physicochemical properties in several Libyan honey types. The source is direct honey occurrence evidence for Pb and Cd because it reports honey-sample concentrations in ppm using atomic absorption spectroscopy. The clearest food-safety signal was lead in the tamarisk/athel honey sample, which the authors describe as elevated relative to the cited European honey limit.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Barchiesi 2020 - Shellfish metals in central Italy
 
+## Overview
+
 Barchiesi and colleagues analyzed official-monitoring data for cadmium, lead, and mercury in shellfish collected along the Italian coastline from 2017 through 2019. The dataset covered bivalve mollusks, marine gastropods, and sea urchins, with `N = 2207` records after data cleaning. Mercury is reported as `Hg` without methylmercury speciation, so this page records it as total/unspecified mercury (`tHg`).
 
 ## Key numbers

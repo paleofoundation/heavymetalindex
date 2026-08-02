@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Napier et al. 2024 — WanaBana Lead Recall, Apple Cinnamon Pouches
 
+## Overview
+
 This 2024 CDC MMWR report documents the outbreak investigation linking childhood lead poisoning in North Carolina (June 2023 – January 2024) to WanaBana brand apple cinnamon fruit puree pouches. The contamination source was identified as cinnamon from Ecuador adulterated with lead chromate.
 
 ## Key numbers

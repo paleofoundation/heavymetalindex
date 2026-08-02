@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
 
+## Overview
+
 This study quantifies cadmium, chromium, iron, nickel, and lead in 63 brand-level cosmetic products (in triplicate, 189 measurements total) from three Pakistani markets across six product categories: lotions, foundations, whitening creams, lipsticks, hair dyes, and sunblock creams. **Sunblock creams carry the highest Ni, Pb, and Cr concentrations** (7.99±0.36, 6.37±0.05, 0.43±0.01 mg/kg respectively); lipsticks carry the highest Fe (12.0±1.8 mg/kg); lotions carry the highest Cd (0.26±0.02 mg/kg). Health-risk assessment uses USEPA Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR). **MoS, HQ, and HI exceed permissible limits in lotions and sunblock creams for Cd, Cr, and Pb (MoS <100; HQ and HI >1); the remaining four categories (hair dye, foundation, whitening cream, lipstick) stay within limits. LCR exceeds the permissible limit in every cosmetic product category EXCEPT lipsticks**, signalling potential carcinogenic risk from regular long-term use.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Schoofs et al. 2024 — Zinc toxicity: understanding the upper intake limits
 
+## Overview
+
 This review summarises current knowledge on zinc bioavailability and zinc toxicity, covering both acute zinc poisoning and the consequences of chronic high-level zinc exposure. Zinc is essential to over 300 enzymatic reactions, immune modulation, and gene expression regulation; both deficiency and excess carry significant health risks. The review compiles dietary reference values from major international bodies: WHO recommends 6.7-15 mg/day; EFSA defines the tolerable upper intake level (UL) at 25 mg/day; FDA allows 40 mg/day. Excess zinc intake produces anemia, neutropenia, and zinc-induced copper deficiency. The paper also addresses non-dietary exposure routes (inhalation, topical application) that can contribute to zinc intoxication.
 
 ## Key numbers

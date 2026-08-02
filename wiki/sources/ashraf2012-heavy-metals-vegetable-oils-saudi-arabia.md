@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # Ashraf 2012 — Heavy metals in seven vegetable oil varieties consumed in Saudi Arabia
 
+## Overview
+
 This study determined concentrations of seven elements (Cu, Zn, Fe, Mn, Cd, Pb, and total As) in 161 commercially available edible vegetable oil samples from Saudi hypermarkets using graphite furnace atomic absorption spectrometry (GF-AAS) after microwave digestion, verified against NIST SRM 1577b (bovine liver). The author concludes that estimated daily and weekly dietary intakes from 25 g of oil per day (the WHO GEMS/Food maximum) remain well below the JECFA provisional tolerable weekly intakes (PTWIs) for Cd, Pb, and inorganic As, posing no significant health risk to the Saudi adult population at the analytical concentrations reported.
 
 ## Key numbers

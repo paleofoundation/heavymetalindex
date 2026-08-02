@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Alblooshi 2025 — Perfumes and cosmetics human-health narrative review
 
+## Overview
+
 Open-access narrative review (Frontiers in Toxicology) synthesizing 2005–2025 literature on health risks of perfumes and cosmetic products across seven outcome domains: endocrine disruption, fertility, lung health and asthma, cancers (with sub-sections on hormone-mimicking chemicals, talc/asbestos, and heavy metals), allergies, skin disorders, and neurological effects. The review's heavy-metal evidence is concentrated in Section 3.4.3 (Heavy metals) and Table 1 (Common cosmetic contaminants), with additional regulatory framing in Section 3.9 and Table 2 (US/EU/Canada/ASEAN comparative regulatory frameworks) and a study-summary in Table 3. Numerical metal data are passed through from cited primary studies (Irfan et al. 2022 fairness-cream toxicology, Salles et al. 2023 costume cosmetics, Voica et al. 2023 facial cosmetics, Lim et al. 2018 Korean-market 200-product risk assessment); the review does not generate original occurrence measurements. Single-author manuscript with declared generative-AI assistance and no formal systematic-review protocol — useful as a 2025 framing and regulatory-comparison anchor, not as an authoritative occurrence source.
 
 ## Key numbers

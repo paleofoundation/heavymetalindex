@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Elhadad et al. 2020 - Coffee consumption, serum lead, and urinary cadmium in NHANES III
 
+## Overview
+
 Elhadad and colleagues used an environment-wide association study design to test 245 metabolites, nutrients, and lifestyle factors against regular coffee and caffeinated-beverage consumption in NHANES III. This is lane a4 exposure and biomonitoring evidence, not a coffee occurrence paper. The replicated biomarker associations included positive associations between regular coffee consumption and serum lead concentration, and between regular coffee consumption and urinary cadmium.
 
 ## Key numbers

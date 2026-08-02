@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Di Bella et al. 2020 - Augusta Meat, Milk, and Seafood Metals
 
+## Overview
+
 Di Bella et al. measured heavy metals and PAHs in seafood, meat, and milk from the Augusta area in Southern Italy. The paper is direct occurrence evidence for seafood, beef, pork, and raw milk in a polluted-area context. It is not infant-formula evidence; the wishlist hit came from infant-formula comparison terms in the paper rather than sampled formula products.
 
 ## Key numbers

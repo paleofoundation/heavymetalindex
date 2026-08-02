@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Esplandiu et al. 2022 - Nafion cadmium micropumps
 
+## Overview
+
 Esplandiu and colleagues engineered Nafion micropumps that use ionic gradients to drive water flows and demonstrated cadmium capture in aqueous solution. This is in-scope lane a2 remediation evidence rather than food occurrence evidence.
 
 ## Key numbers

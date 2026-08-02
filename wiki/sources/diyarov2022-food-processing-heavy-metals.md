@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Diyarov et al. 2022 - Food processing and vegetable heavy metals
 
+## Overview
+
 This study measured Zn, Pb, Mn, Cd, and Cu in carrot, potato, and onion after different cooking or processing treatments. It is useful as processing-context evidence, but several reported values are unusually high and should be routed with the verification caveat below.
 
 ## Key numbers

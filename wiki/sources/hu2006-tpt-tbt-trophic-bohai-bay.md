@@ -29,6 +29,8 @@ updated: 2026-06-04
 
 # Hu et al. 2006 — Trophic magnification of triphenyltin vs tributyltin in a Bohai Bay marine food web
 
+## Overview
+
 Hu and colleagues measured butyltins (MBT, DBT, TBT) and phenyltins (MPT, DPT, TPT) in plankton, five benthic invertebrate species, six fish species, and 14 paired surface seawater/sediment sites from Bohai Bay (North China) in 2002, and combined the biota concentrations with δ15N-derived trophic levels to compute trophic magnification factors. TPT showed strong food-web biomagnification (TMF = 3.70, r² = 0.78, p < 0.001) while TBT trended downward with trophic level (TMF = 0.59, p = 0.119, not statistically significant), so that mean TPT in fish exceeded mean TBT in fish even though seawater TPT was below detection (<6.8 ng/L) and seawater TBT was 9.8 ng/L. The authors attribute the divergence to TPT's slower metabolic degradation in fish, not to a difference in environmental input.
 
 **Important note on metals classification.** The analytes here are organotin compounds (MBT, DBT, TBT, MPT, DPT, TPT), not inorganic tin. Organotin species are distinct from total tin in toxicology, environmental behavior, and regulatory scope; they reach aquatic food chains primarily through antifouling paints (TBT, TPT) and agricultural fungicide use (TPT on potato, orchard, and cotton crops in China at the time), and they are outside the HMTc 10-analyte certification scope. They are recorded here under `metals: [Sn]` for element-level routing; downstream synthesis should link the toxicological discussion to [[metals/organotins]] and must not pool these values with inorganic Sn occurrence.

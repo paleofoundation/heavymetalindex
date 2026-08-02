@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zemanova et al. 2015 - Cadmium-dosed spinach leaves in a controlled pot experiment
 
+## Overview
+
 Zemanova, Pavlik, Pavlikova, and Kyjakova measured cadmium accumulation in spinach leaves grown in Chernozem soil amended with 0, 30, 60, or 90 mg Cd/kg soil. The study is routeable for spinach and leafy-vegetable cadmium context because it reports dry-matter leaf Cd concentrations and harvest timing, but it is not a retail-market occurrence survey. Its strongest use is evidence fitness for contaminated-soil sensitivity, growth-stage interpretation, and upper-bound Cd uptake behavior in spinach.
 
 ## Key numbers

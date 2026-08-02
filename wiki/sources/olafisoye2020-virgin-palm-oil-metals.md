@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Olafisoye et al. 2020 — Metallic elements in Nigerian virgin palm oil
 
+## Overview
+
 Olafisoye and colleagues measured synthetic antioxidants and twelve metallic elements in virgin palm oil sampled from fifteen plantation locations in southern Nigeria. The antioxidant screen found no detectable BHA, BHT, EEMC, or propyl gallate, while ICP-OES detected Al, Co, Cd, Cr, Cu, Fe, Mn, Ni, Pb, Se, Sn, and Zn in the oil matrix. Lead, cadmium, and tin are the most relevant HMI signals: Pb ranged from 0.006 to 0.847 in the authors' table units, Cd from 0.127 to 0.762, and Sn from 0.090 to 161.576, with the paper warning that most samples exceeded cited WHO vegetable-oil limits for several metals.
 
 ## Key numbers

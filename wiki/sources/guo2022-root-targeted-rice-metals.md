@@ -25,6 +25,8 @@ sample_population: "Hydroponic Nipponbare wildtype rice plants and transgenic Or
 updated: 2026-06-09
 ---
 
+## Overview
+
 Guo's UCSD master's thesis tests whether root-specific overexpression of heavy-metal tolerance genes can retain cadmium and arsenic in rice roots rather than aerial tissues. It is rice supply-chain mitigation evidence from a controlled hydroponic seedling experiment, not market occurrence evidence for rice grain. The arsenic treatment was As(III), but the tissue endpoint was ICP-MS after nitric-acid digestion, so the measured plant-tissue endpoint is treated here as total arsenic context rather than inorganic-arsenic occurrence.
 
 ## Key numbers

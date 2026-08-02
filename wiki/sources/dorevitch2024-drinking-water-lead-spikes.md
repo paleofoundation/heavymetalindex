@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Dorevitch et al. 2024 — Lead in drinking water from particulate spike simulation
 
+## Overview
+
 This study simulated lead particulate spikes in drinking water to evaluate whether existing sampling protocols adequately capture episodic lead exposure from corroding lead service lines and household plumbing. The authors ran controlled experiments spiking water samples with lead particles at defined concentrations and compared detection rates under standard first-draw vs. sequential flushing sampling protocols. The paper identifies methodological gaps in regulatory monitoring that may cause underestimation of lead exposure from drinking water, particularly for vulnerable populations including infants and children consuming formula reconstituted with tap water.
 
 ## Key numbers

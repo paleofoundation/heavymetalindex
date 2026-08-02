@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Janco et al. 2019 - Cd, Pb, and Hg in Boletus reticulatus and underlying soils in Slovakia
 
+## Overview
+
 This Slovak study measured Cd, Pb, and Hg in wild Boletus reticulatus caps and stems and paired forest soils. The abstract reports higher maximum average Cd and Hg in caps than stems, while Pb was higher in stems in the highest-average comparison. The study is routeable wild-mushroom occurrence evidence and also provides soil context.
 
 ## Key numbers

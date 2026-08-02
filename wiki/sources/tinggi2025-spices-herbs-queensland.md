@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Tinggi et al. 2025 — Heavy metals in commercial spices and herbs, Queensland Australia
 
+## Overview
+
 This study analyzed eight heavy metals (Al, As, Cd, Cr, Pb, Hg, Ni, Sr) in 69 dried commercial spice and herb samples purchased from Queensland, Australia markets, representing seven commodity types (basil, chilli, cinnamon, paprika, black pepper, sesame seeds, turmeric) imported from multiple countries. A separate analysis compared 13 conventional and 7 organic turmeric products. All metals were measured by ICP-MS (Agilent 8800 Triple Quad) following microwave-assisted acid digestion (CEM MARS 6), validated against certified reference materials. The study found wide variation in heavy metal content across commodities and origins, with lead in cinnamon from Vietnam (7.0 mg/kg) and India (2.5 mg/kg) representing the most concerning findings. Estimated dietary exposures from typical Australian spice consumption (1.9 g/day) were below all EFSA and WHO health-based guidance values for the metals assessed. Organic turmeric showed significantly higher Cr and Ni than conventional turmeric.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Li et al. 2013 — Chemical Contaminants in Tea (Camellia sinensis): Methods Review
 
+## Overview
+
 This review, published in Food Research International, covers analytical detection methods for three major chemical contaminant classes in tea matrices: pesticide residues (GC, HPLC, LC-MS/MS, GC-MS methods), mycotoxins (HPLC, MS, ELISA, immunochromatography), and heavy metals (ICP, AAS, immunoassay). The heavy metal section covers ICP-MS, ICP-OES, and AAS methods including sample preparation, LOD/LOQ performance, and emerging techniques. This is primarily a methodology paper rather than a concentration-survey paper; it does not report original metal measurements in tea.
 
 ## Key numbers

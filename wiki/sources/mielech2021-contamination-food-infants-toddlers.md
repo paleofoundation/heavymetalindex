@@ -26,6 +26,8 @@ sampling_year_range: 2004-2021
 updated: 2026-06-09
 ---
 
+## Overview
+
 This narrative literature review surveys 83 publications on contaminants in foods for infants and toddlers aged 0.5–3 years, covering toxic elements (Pb, Cd, As, Hg), acrylamide, bisphenol A, dioxins, furan, mycotoxins, nitrates/nitrites, pesticide residues, polycyclic aromatic hydrocarbons, 3-MCPD/glycidyl esters, and mineral oil hydrocarbons. The toxic-elements section (3.1) compiles findings from infant-formula and complementary-food studies across Norway, the USA (Miami), Poland, Brazil, Nigeria, Spain (Menorca), France, Canada, Spain, Columbia, Australia, Sweden, Korea, Tanzania, and Portugal. For HMI purposes, this page reports only the heavy-metals (toxic-elements) content; the non-metal sections are out of scope. The review reproduces values from constituent papers without re-normalizing units, so unit basis (wet versus dry weight, µg/g versus mg/kg versus µg/kg) appears as the originating studies reported it.
 
 ## Key numbers

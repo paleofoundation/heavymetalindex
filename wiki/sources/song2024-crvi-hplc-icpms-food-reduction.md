@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Song et al. 2024 — HPLC-ICP-MS method for Cr(VI) in foods and reduction mechanism
 
+## Overview
+
 A fast HPLC-ICP-MS method was developed for Cr(VI) speciation in food matrices, achieving separation in 1.5 minutes using a weak anion-exchange column (Sepax Proteomix WAX-NP5) with 70 mM NH4NO3 mobile phase at pH 7.0. The limit of detection was 0.1 µg/kg, substantially better than most prior published HPLC-ICP-MS methods. When applied to seven commercially purchased food products from a Nanjing supermarket (milk powder, rice flour, whole wheat bread, yoghurt, white vinegar, orange juice, green tea), Cr(VI) was not detected in any sample. Spiking experiments revealed that Cr(VI) is unstable in food matrices and rapidly converts to Cr(III), with conversion accelerated by vitamin C, tea polyphenols, acidic conditions (pH 3.0), and elevated temperatures (80 °C). The authors conclude that natural reducing substances in foods likely prevent the occurrence of Cr(VI).
 
 ## Key numbers

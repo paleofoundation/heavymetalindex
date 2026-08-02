@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Chaleshtori and Jadi 2019 - Lead and cadmium in watermelon and carrot
 
+## Overview
+
 This study measured lead and cadmium in watermelon and carrot and compared values with permissible limits. It is directly routeable for carrot/root-vegetable and fresh-fruit occurrence context.
 
 ## Key numbers

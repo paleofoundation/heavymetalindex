@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 An ion-imprinted polymer (IIP) quartz crystal microbalance (QCM) sensor for detection of Hg2+ in wastewater was developed. The paper focuses on sensor fabrication and characterisation; no food matrices were analysed. Primary relevance is as an analytical method paper for Hg detection.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Maccaferri et al. 2019 — Durum wheat reference genome; TdHMA3-B1 gene controls grain Cd accumulation
 
+## Overview
+
 Maccaferri et al. present the first high-quality reference genome assembly for durum wheat (*Triticum turgidum* ssp. *durum*), comprising 10.45 Gb across the A and B sub-genomes. The paper is primarily a genomics resource paper, but contains a critical finding for heavy metal contamination: the gene *TdHMA3-B1* (encoding a heavy metal P-type ATPase on chromosome 5B) is identified as the primary determinant of cadmium accumulation in durum wheat grain. Modern high-yielding durum wheat varieties carry a non-functional allele of *TdHMA3-B1* that fails to sequester Cd in root vacuoles, allowing Cd to translocate to grain. Older landraces and some wild relatives carry a functional allele that strongly limits grain Cd accumulation. This explains why modern commercial durum (used in pasta, semolina, couscous) tends to have higher grain Cd than ancient wheat varieties and bread wheat, and it points to a breeding solution.
 
 ## Key numbers

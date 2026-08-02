@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Limmer et al. 2023 — SR-µXRF mapping of metals in rice grain
 
+## Overview
+
 This study applies synchrotron micro X-ray fluorescence (SR-µXRF) imaging to map the spatial distribution of arsenic (As), zinc (Zn), copper (Cu), and manganese (Mn) within cross-sections of rice grain (n=50 grains from US field trials). The primary aim is to characterize the within-grain distribution of arsenic — particularly inorganic arsenic — across anatomical compartments (bran, endosperm, embryo, aleurone layer) to inform milling and processing interventions that could reduce arsenic exposure from rice consumption.
 
 ## Key numbers

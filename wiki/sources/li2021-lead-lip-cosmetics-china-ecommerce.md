@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Li et al. 2021 — Lead in Chinese e-commerce lip cosmetics with USEPA Monte Carlo risk assessment and ALM/IEUBK blood-lead modelling
 
+## Overview
+
 This Frontiers in Public Health paper measures total lead in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) drawn from the JingDong Chinese e-commerce platform by Python web crawler, then applies the USEPA oral-ingestion health risk assessment framework with 10,000-iteration Monte Carlo simulation for adult risk and the Adult Lead Model (ALM) plus Integrated Exposure Uptake Biokinetic (IEUBK) model for children's blood-lead response. Pb concentrations span 0 (below detection in 41.18% of samples) to 0.5237 mg/kg with an overall mean of 0.05791 mg/kg, all well below the 10 mg/kg lip-cosmetic Pb ceilings cited from China, the United States, and Canada. Modelled non-carcinogenic hazard quotients (HQ) for adults range from 4.93×10⁻⁷ to 2.82×10⁻³ at the 95th percentile (all <1 acceptability threshold) and carcinogenic lifetime cancer risks (LCR) from 1.68×10⁻¹² to 9.59×10⁻⁹ (all <10⁻⁶ EPA risk threshold). The ALM/IEUBK results indicate that at these product Pb concentrations, lip-cosmetic exposure does not measurably elevate children's blood Pb above the background-environmental contribution from soil, dust, air, water, and diet.
 
 ## Key numbers

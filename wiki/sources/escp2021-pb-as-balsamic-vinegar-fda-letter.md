@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # ESCP / Food & Water Watch 2021 — FDA Letter: Pb and As in US Retail Balsamic Vinegars
 
+## Overview
+
 The Empire State Consumer Project (ESCP) and Food & Water Watch submitted this letter to FDA in May 2021 reporting third-party lab testing of 24 commercially available vinegar and vinegar-reduction products purchased in the United States. The letter is a citizen petition pressing FDA to establish limits and warning requirements for Pb and As in vinegar products. This is a B-tier source: the underlying test data are from a commissioned lab (methodology not fully described), the sampling is non-random and advocacy-motivated, and the document is not peer-reviewed. However, the concentration values reported are substantial and broadly consistent with peer-reviewed literature on balsamic vinegars; the filing is public FDA record and has regulatory process significance for the US condiment category.
 
 ## Key numbers

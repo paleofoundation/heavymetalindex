@@ -25,6 +25,8 @@ updated: 2026-06-03
 
 # Omosigho et al. 2025 - Metals in toothpaste products used in Nigeria
 
+## Overview
+
 Omosigho, Balogun, Ataikiru, and Obetta measured pH, moisture/volatile content, and five metals in five toothpaste products purchased in Warri, Delta State, Nigeria. Cadmium, copper, zinc, manganese, and lead were detected in every coded toothpaste sample. The paper is directly routeable to the toothpaste product page as small-sample market occurrence evidence, with the coded sample design preserving product-category signal without brand-level publication in the wiki.
 
 ## Key numbers

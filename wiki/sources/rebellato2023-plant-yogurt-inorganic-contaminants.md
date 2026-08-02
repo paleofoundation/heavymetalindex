@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Rebellato et al. 2023 — Inorganic contaminants in plant-based yogurts (Brazil retail)
 
+## Overview
+
 Rebellato and colleagues at the Institute of Food Technology (ITAL, São Paulo) and Adolfo Lutz Institute measured 11 inorganic elements (Al, Cr, Co, Ni, As, Mo, Cd, Sb, Ba, Hg, Pb) in 43 plant-based yogurt sample-lots and 1 cow-milk natural yogurt sample-lot purchased from retail establishments in Campinas (São Paulo, Brazil) between August and October 2022. Quantification was by inductively coupled plasma mass spectrometry (ICP-MS) on an iCAP RQ instrument following ultrasound-assisted nitric acid / hydrogen peroxide digestion at 80 °C for 35 minutes. Element-detection patterns differed sharply between plant- and animal-based yogurts: in plant-based samples Al, Cr, Co, Ni, Mo, Ba and Pb were quantified at appreciable concentrations across multiple samples, with Cd detected in 2 sample-lots and As detected in 3 sample-lots; Sb and Hg were below the limit of quantification (LOQ) in all 44 sample-lots. In the cow-milk yogurt comparator, only Mo (72.54 µg/kg) and Ba (160.76 µg/kg) were above LOQ. Estimated dietary intake values from a single unit of the highest-concentration plant-based yogurt remained below available PTWI, PTMI, and BMDL reference values for adults but reached 46.7% of the EFSA tolerable daily intake (TDI) for nickel in children, rising to 93.4% of the Ni TDI at 2 units/day.
 
 ## Key numbers

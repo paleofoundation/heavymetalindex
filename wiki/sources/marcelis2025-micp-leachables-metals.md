@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Marcelis et al. 2025 — Menstrual and intimate care product leachables
 
+## Overview
+
 Marcelis et al. developed an extractables-and-leachables workflow for 64 menstrual and intimate care products (MICPs), including tampons, menstrual pads, menstrual cups, adult novelties, Kegel-exercise devices, and menstrual sea sponges. The paper reports organic leachables and a pilot ICP-MS/MS metal/metalloid leaching table under simulated-use conditions. Metal values are reported in the leachate in `ppb`; arsenic, chromium, tin, and mercury are total-element measurements, not speciated forms.
 
 ## Key numbers

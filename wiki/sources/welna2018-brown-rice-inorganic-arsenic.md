@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Welna et al. 2018 - Inorganic arsenic in brown rice sold in Poland
 
+## Overview
+
 This method-validation paper developed a non-chromatographic hydride-generation ICP-OES approach for inorganic arsenic in rice and applied it to nine brown rice samples sold in Poland. It is routeable for brown-rice occurrence context because Table 4 reports total arsenic, inorganic arsenic, organic arsenic by difference, and inorganic-arsenic percentage for each rice sample.
 
 ## Key numbers

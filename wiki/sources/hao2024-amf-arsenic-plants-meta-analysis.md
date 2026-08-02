@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hao et al. 2024 — Meta-analysis: arbuscular mycorrhizal fungi effects on arsenic in food crops
 
+## Overview
+
 This meta-analysis synthesizes evidence from 76 publications on whether arbuscular mycorrhizal fungi (AMF) inoculation reduces arsenic (As) accumulation in food crops, particularly grain. The strategic relevance of AMF to food safety is that these root-colonizing fungi can alter phosphate (and hence arsenate, the phosphate analogue) transport in plants. The analysis covers shoot As, root As, and critically, grain As concentrations, providing a quantitative estimate of the magnitude of AMF-mediated As reduction achievable in agricultural practice.
 
 ## Key numbers

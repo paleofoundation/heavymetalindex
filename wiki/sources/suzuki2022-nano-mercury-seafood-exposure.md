@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Suzuki 2022 - Nano-sized mercury particles in seafood
 
+## Overview
+
 Suzuki and colleagues measured nano-sized mercury-containing particles (NP-Hg), total mercury (T-Hg), methylmercury (MeHg), and selenium in raw fish and shellfish purchased in Japan. The study reports occurrence data for seafood groups and uses Japanese consumption data to estimate dietary exposure to T-Hg, MeHg, and NP-Hg. NP-Hg is treated as a separate nanoparticulate mercury finding in this page, not as a substitute for T-Hg or MeHg.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Altalib et al. 2025 — Heavy metals in imported frozen meat, Tripoli markets
 
+## Overview
+
 This cross-sectional study measured lead (Pb), cadmium (Cd), chromium (Cr), and copper (Cu) in 30 imported frozen meat samples collected from retail markets in Tripoli, Libya. Samples included chicken (50% of total), beef (27%), and lamb (23%), sourced from Brazil, USA, Jordan, Spain, and Australia. Analysis was by Atomic Absorption Spectrophotometry (AAS) following acid digestion. All samples complied with the tabulated Libyan limits for Cd and Cr and with the study's Cu reference level; one sample (3.3%) exceeded the tabulated Libyan Pb limit of 0.10 mg/kg. The study provides a baseline Pb, Cd, Cr, and Cu dataset for imported commercial meat in a North African market context.
 
 ## Key numbers

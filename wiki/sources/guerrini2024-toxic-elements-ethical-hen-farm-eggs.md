@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This study measured total arsenic, cadmium, total mercury, and lead separately in the yolk, albumen, and eggshell of 141 rural-farmed eggs from five hen genotypes and 60 organic supermarket eggs purchased in Italy. All analyses used ICP-MS with LOD 0.002 mg/kg and LOQ 0.005 mg/kg wet weight. The key finding is that supermarket eggs had significantly higher Pb in all matrices, while rural eggs had higher total arsenic in albumen and eggshell. Supermarket albumens showed detectable total mercury, while rural egg albumens were all below LOQ. Cadmium was below LOQ in all matrices for both egg groups. The authors note that no EU MRLs have been set for Pb, Hg, or Cd in eggs.
 
 ## Key numbers

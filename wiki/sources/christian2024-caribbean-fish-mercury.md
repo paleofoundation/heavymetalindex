@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Christian et al. 2024 — Mercury in Caribbean fish and invertebrates
 
+## Overview
+
 More than 1,600 samples of 108 unique species of fish and aquatic invertebrates collected between 2005 and 2023 from eleven countries or territories in the wider Caribbean Region were compiled and analyzed for total mercury (tHg). The study finds wide variability in tHg concentrations: 55% of samples were below the 0.23 µg/g wet weight (ww) FDA/EPA guideline for 2-3 weekly servings, while 26% exceeded the 0.46 µg/g ww guideline associated with adverse health effects from continual consumption, particularly for sensitive populations. Significant relationships were found between tHg concentrations and taxonomic family, sampling country, fish length, and trophic level. The dataset represents baseline mercury data collected partly through the Caribbean Region Mercury Monitoring Network (CRMMN), established in 2022 under Minamata Convention obligations.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-06-07
 
 # Yao et al. 2021 — Fluoride, lead, chromium, and cadmium in Tieguanyin and white tea (Fujian, China)
 
+## Overview
+
 This study reports concentrations of fluoride, lead, chromium, and cadmium in 112 Camellia sinensis tea samples drawn from the major production counties of Fujian Province, China, and uses transfer-rate-adjusted infusion exposures to compute hazard indices and target cancer risks for adult tea consumers. It is routeable for Pb, Cr, and Cd occurrence evidence on Camellia sinensis tea (oolong-class Tieguanyin and unfermented white tea) in a Chinese production-region market.
 
 ## Key numbers

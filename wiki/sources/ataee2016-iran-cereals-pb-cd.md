@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Ataee et al. 2016 — Pb and Cd in Kermanshah-market cereals and pulses by MA-DLLME-SFO/GFAAS
 
+## Overview
+
 This methodological-validation study reports total Pb and Cd in seven Iranian cereal and pulse commodities — rice, wheat, barley, peas, beans, corn, and lentil — purchased from three local markets in Kermanshah province (West Iran) and quantified by graphite-furnace atomic absorption spectrometry after microwave-assisted dry ashing and a dispersive liquid–liquid microextraction step based on solidification of a floating organic drop (MA-DLLME-SFO). Pb concentrations in every rice and wheat sample across all three markets exceeded the WHO maximum allowable level for cereals (0.2 mg/kg) cited by the authors, ranging from 202 to 320 µg/kg in rice and 202 to 267 µg/kg in wheat. Cd was elevated above the WHO 0.1 mg/kg ceiling only in Market 1 rice (108 µg/kg). Method validation against two Chinese reference cereals (NCS ZC 73,008 rice and 73,009 wheat) returned recoveries within ~3 % of certified values.
 
 ## Key numbers

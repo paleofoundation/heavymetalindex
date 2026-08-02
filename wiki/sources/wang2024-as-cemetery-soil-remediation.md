@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A study of arsenic contamination in cemetery soils, investigating concentrations and remediation approaches. Measures total arsenic (tAs) by ICP-MS or similar method. Relevant as supply-chain context for soil-to-plant arsenic transfer pathways, particularly for crops grown near historically contaminated land. Not a food occurrence study.
 
 ## Key numbers

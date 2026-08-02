@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Hussain et al. 2016 - Spinach cadmium under soil Cd:Zn ratios
 
+## Overview
+
 Hussain and colleagues tested whether changing the Cd:Zn ratio in contaminated soil changed cadmium uptake into edible spinach leaves. This is in-scope mitigation and soil-to-plant pathway evidence: the spinach was grown in deliberately Cd-spiked glasshouse soil, so these values should not be treated as ordinary market spinach occurrence.
 
 ## Key numbers

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ichikawa et al. 2006 - arsenic removal during hijiki cooking
 
+## Overview
+
 Ichikawa and colleagues measured total arsenic and arsenic species in edible brown algae *Hijikia fusiforme* and tested arsenic removal by soaking and cooking. The source is directly relevant to hijiki/seaweed occurrence because it reports dry-weight total arsenic and measured As(V), As(III), DMAA, and arsenosugar fractions across samples from Japan, South Korea, and China. The mouse metabolism experiment is exposure context, not product occurrence.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Dearing et al. 2025 — Heavy metals in Hawke's Bay vegetables one year after Cyclone Gabrielle, with organic vs. non-organic and flooded vs. non-flooded comparisons
 
+## Overview
+
 Dearing and colleagues sampled 736 commercially grown vegetables (combined into 153 composite representative samples) from 14 market gardens at 10 growing sites in Hawke's Bay, New Zealand, in February 2024, one year after Severe Tropical Cyclone Gabrielle caused widespread flooding in February 2023. The study compared organic vs. non-organic and flooded vs. non-flooded growing as factors. Cadmium and nickel were significantly lower in organic vegetables and in vegetables grown on flood-affected land; mercury was below LOD in all samples; three samples exceeded the Codex 0.1 mg/kg FW lead limit and one Brassica exceeded the 0.05 mg/kg FW cadmium limit.
 
 ## Key numbers

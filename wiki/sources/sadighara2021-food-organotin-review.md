@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Sadighara 2021 - Food organotin systematic review
 
+## Overview
+
 Sadighara and colleagues systematically reviewed organotin contamination in food matrices and performed a meta-analysis of tributyltin in seafood. The source is secondary evidence: it compiles food occurrence values from prior studies rather than generating new measurements. The review identifies seafood and edible oils as reported contaminated food categories and keeps organotin compounds such as TBT, TPhT, DBT, DOT, MBT, DPhT, and MPhT distinct from total elemental tin.
 
 ## Key numbers

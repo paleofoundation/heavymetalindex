@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Dehghani et al. 2020 - Lead and cadmium in food samples using magnetic SPE
 
+## Overview
+
 This analytical-method paper applied a magnetic solid-phase microextraction method to water and food samples, including black tea, rice, infant dry formula milk, and cow milk. It is routeable as occurrence context because Table 4 reports unspiked sample concentrations for Pb and Cd.
 
 ## Key numbers

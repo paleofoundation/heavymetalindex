@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A gold nanoparticle (AuNP)-based colorimetric sensor for As3+ detection was developed and tested in rice extract and water matrices. The paper reports spike-recovery experiments in rice samples to validate the method; no unspiked occurrence measurements of As in rice are provided.
 
 ## Key numbers

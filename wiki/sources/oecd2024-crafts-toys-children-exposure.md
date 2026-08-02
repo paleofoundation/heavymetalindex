@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # OECD 2024 — Considerations when estimating children's exposure to crafts and toys (Series on Testing and Assessment No. 401)
 
+## Overview
+
 This OECD Working Party on Exposure Assessment (WPEA) document compiles parameters and algorithms for estimating children's chemical exposure via dermal, inhalation, and oral routes from seven craft/toy product categories: modelling clay/silly putty/slimes; paint (craft, face, finger); markers/highlighters/pens; cuddle toys/squishies; glues/adhesives/pastes; temporary tattoos; chalk/crayons/colouring pencils. Includes 12 case studies (Crayon-Oral, Markers-Dermal-Oral-Inhalation, Glue-Dermal-Oral-Inhalation, Face Paint-Dermal, Face Paint-Dermal-Oral, Finger Paint-Dermal-Oral, Slime-Dermal-Oral [×3], Putty-Dermal-Oral, Squishies-Dermal-Inhalation, Temporary Tattoos-Dermal). The document does not include analytical occurrence data on heavy metals; it is a methodology and exposure-modeling guidance.
 
 ## Key numbers

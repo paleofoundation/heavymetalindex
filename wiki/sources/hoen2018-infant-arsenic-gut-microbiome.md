@@ -24,6 +24,8 @@ updated: 2026-06-13
 
 # Hoen et al. 2018 - Infant urinary arsenic and gut microbiome
 
+## Overview
+
 Hoen and colleagues examined whether urinary arsenic at 6 weeks of age related to infant gut-microbiome composition in the New Hampshire Birth Cohort Study. This is a4 biomonitoring and microbiome evidence: it does not report infant-formula product concentrations, but it does provide human infant exposure-biomarker data and sex-specific microbiome associations in a formula-relevant early-life population.
 
 ## Key numbers

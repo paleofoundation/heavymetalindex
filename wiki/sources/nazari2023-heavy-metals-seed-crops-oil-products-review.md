@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Nazari et al. 2023 — Heavy metals in seed crops and oil products: impacts on human health (review)
 
+## Overview
+
 This Iranian-led narrative review (Carpathian Journal of Food Science and Technology) summarises the published literature on heavy metal contamination in oilseeds and their derived vegetable/seed oils, covering sources of contamination, occurrence concentrations across multiple countries, effects on oil nutritional quality, regulatory maximum permission levels (Codex, FDA, EU), and human health impacts of As, Pb, Cd, Hg, Ni, and Cr exposure. The review consolidates concentration ranges from primary studies conducted in Spain, Iran, Turkey, Brazil, Sweden, France, Italy, Saudi Arabia, Poland, Nigeria, China, Bulgaria, and Morocco, organised by metal in a single comparative table (Table 1). A second table (Table 2) compiles Codex Alimentarius, US FDA, and EU regulatory maximum levels. The review identifies Pb and Cd as the most consistently documented concerns in oilseeds and notes that current regulation leaves several oil categories without specific MLs.
 
 ## Key numbers

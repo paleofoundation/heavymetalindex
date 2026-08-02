@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Leclerc et al. 2023 — MeHg bioaccumulation via periphyton in river food webs impounded by run-of-river dams
 
+## Overview
+
 This study examined how run-of-river (ROR) hydroelectric dam impoundment affects methylmercury (MMHg) production and bioaccumulation in the benthic food web of the St. Maurice River, Québec, Canada. The key finding is that flooded pondage areas created by ROR dams provide favorable environments for periphyton proliferation, and these periphytic biofilms can produce and accumulate MMHg. The proportion of total mercury present as MMHg reached maximum values approximately 2.9 times higher in flooded sites compared to unflooded sites. Periphyton MMHg concentrations significantly predicted MMHg concentrations in some benthic macroinvertebrates, demonstrating a local transfer pathway. Trophic magnification slopes did not differ significantly between flooded and unflooded sectors, but intercepts were higher in flooded sectors, indicating elevated MMHg at the base of the food web rather than altered biomagnification efficiency.
 
 ## Key numbers

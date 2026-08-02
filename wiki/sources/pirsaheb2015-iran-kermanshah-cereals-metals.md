@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Pirsaheb et al. 2015 — Pb, Cd, Cr, Ni, Zn, Cu in Kermanshah-market cereals and pulses by ICP-OES
 
+## Overview
+
 This survey reports total concentrations of two toxic metals (Pb, Cd), total chromium, nickel, and two essential micronutrients (Zn, Cu) in seven retail-market cereal and pulse commodities — rice, wheat, corn, peas, lentil, bean, split peas — purchased from stores in Kermanshah city, west Iran, in 2014, and quantified by inductively coupled plasma-optical emission spectrometry (ICP-OES). Mean Pb concentrations exceeded the Codex Alimentarius cereal limit (0.2 mg/kg) and the Iranian national standard (0.15 mg/kg) in every commodity; mean Cd exceeded the Codex 0.1 mg/kg ceiling in four of seven commodities (wheat, corn, bean, split peas) and the Iranian 0.06 mg/kg ceiling in six of seven commodities (all commodities except rice, whose 0.055 mg/kg mean was below both ceilings). Estimated weekly intakes (EWIs) derived from a 110 g/day per-capita cereal-consumption assumption and a 60 kg body-weight reference remained below JECFA provisional tolerable weekly intakes (PTWIs) for all six metals across all seven commodities. Method validation against three certified reference materials (two Chinese cereal CRMs and SRM 1568b) returned recoveries of 87.5-109 %.
 
 ## Key numbers

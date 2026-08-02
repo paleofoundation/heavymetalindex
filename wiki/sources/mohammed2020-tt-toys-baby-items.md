@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Mohammed et al. 2020 — Pb, Ni, Cr, Cd, Cu, and Mn in children's toys and baby items by FAAS, with USEPA non-carcinogenic ingestion risk assessment (Trinidad and Tobago)
 
+## Overview
+
 This peer-reviewed Journal of Environmental Chemistry and Ecotoxicology paper measures total Pb, Ni, Cr, Cd, Cu, and Mn in eighteen plastic children's toys and baby items (eleven toys, seven baby items) sold in Trinidad and Tobago by Flame Atomic Absorption Spectrophotometry (FAAS) after 550–600 °C ashing and 70% HNO3 digestion. Pb, Ni, and Cr are detected in every sample; Cd, Cu, and Mn are detected in fewer than 40% of samples. Every Pb value in both the toys (2.5–34.5 mg/kg) and the baby items (2.1–14.7 mg/kg) exceeds the EN 71-3:2013 Category I total-content limit of 2 mg/kg; the purple jewellery (34.5 mg/kg Pb) and the rubber duck (4.1 mg/kg Cd) are reported as exceeding the EU regulatory ceilings cited by the authors. Despite these exceedances, the USEPA-style oral ingestion hazard quotients (Pb HQ 0.007–0.115; Ni HQ 0.0015–0.0113; Cr HQ 0.0036–0.0627) and the summed hazard indices (HI 0.0156–0.1447 across the eighteen items) remain below 1 under the authors' default exposure model (15 kg body weight, 0.0002 kg/day intake, 5-year exposure duration), leading the authors to conclude that the items pose generally low ingestion risk to children. The paper also transcribes prior heavy-metals-in-toys ranges from Vietnam, Malaysia, India, Nigeria, China, and Palestine for context.
 
 ## Key numbers

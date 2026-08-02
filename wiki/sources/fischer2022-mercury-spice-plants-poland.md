@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Fischer and Brodziak-Dopierała 2022 — Mercury in Polish spice plants: commercial vs. home-grown
 
+## Overview
+
 This Medical University of Silesia study measured total mercury (tHg) in 48 dried leafy-spice samples comprising four species — peppermint (Mentha piperita), common basil (Ocimum basilicum), lovage (Levisticum officinale), and parsley (Petroselinum crispum) — comparing commercially purchased Polish products (n=28; 24 non-organic and 4 producer-certified organic) with plants grown by consumers in home gardens at five locations in southern Poland (n=20). Detection was by cold-vapour AAS on an AMA 254 direct mercury analyzer. All samples were below the EU maximum level of 0.03 mg/kg (30 µg/kg) for mercury in deciduous spice plants. Self-cultivated plants had statistically significantly higher Hg concentrations than commercial products (p < 0.001), while producer-labelled organic vs. non-organic commercial products showed no significant difference. Among home-grown samples, location influenced Hg level, with plants from Płoki (Małopolskie voivodeship, near a coal-fired power plant and closed hard-coal mine) showing the highest concentrations across species.
 
 ## Key numbers

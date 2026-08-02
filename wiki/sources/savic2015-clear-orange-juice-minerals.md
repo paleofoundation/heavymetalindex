@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Savic et al. 2015 - minerals in clear orange juices
 
+## Overview
+
 This study measured 23 mineral and trace elements in seven clear orange-juice samples purchased from the Leskovac, Serbia local market. The paper is direct non-apple fruit-juice occurrence evidence. Its main HMT&C signal is high total arsenic in all seven samples and lead detected in all seven samples (sample VI an outlier maximum at 1.19 mg/L), with cadmium detected in three samples.
 
 ## Key numbers

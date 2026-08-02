@@ -27,6 +27,8 @@ updated: 2026-05-09
 
 # Saraiva et al. 2021 — Cr speciation in raw and cooked milk and meat (France/Denmark collaboration)
 
+## Overview
+
 This A-tier peer-reviewed analytical study uses species-specific isotope-dilution HPLC-ICP-MS (SS-ID-HPLC-ICP-MS), the most accurate available method for assessing Cr(III)/Cr(VI) interconversion in food matrices, on three matched sample types: 10 infant formula milk products, 10 semi-skimmed milk products, and 10 bovine meat samples (including chorizo sausage). The headline findings are: (1) **Cr(VI) was not quantified in any of the 30 samples** at sensitive LOQ of 0.049 µg/kg, with Cr(III) levels ranging 0.22 µg/kg (infant formula milk) to 80 µg/kg (chorizo sausage); (2) **oxidation of Cr(III) to Cr(VI) does not occur during thermal cooking** of milk (boiling 70°C/100°C) or bovine meat (frying with/without oil at 95°C and 120°C); (3) Cr(III) levels were comparable to Cr_total levels, demonstrating that Cr is present exclusively as Cr(III) species in these foods. The paper directly supersedes older studies (Figueiredo 2007, Ambushe 2009, Soares 2010, Mandiwana 2011, Mathebula 2017) that reported Cr(VI) presence in milk, meat, bread, cereals, tea, mushrooms, and rice — the authors note that recent reassessments (Pyrżyńska 2016/2017, Milačič and Ščančar 2018/2020) have shown those Cr(VI) detections were due to analytical artefacts caused by species interconversion during the analytical process. Per the corrected row-fit rule (CLAUDE.md Part 6) and Part 14's speciation requirement, Saraiva 2021 (matrix-validated SS-ID method) supersedes older non-isotope-dilution methods.
 
 ## Key Numbers

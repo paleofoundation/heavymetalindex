@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lin 2021 - Taiwan seafood mercury total diet study
 
+## Overview
+
 Lin, Nan, and Ling measured total mercury in 140 Taiwan seafood samples and compared raw and steam-cooked preparations. The study then estimated methylmercury exposure using literature-derived MeHg/THg ratios for seafood families. Measured occurrence values are total mercury; methylmercury values in this paper are converted estimates used for risk assessment, not directly measured MeHg concentrations.
 
 ## Key numbers

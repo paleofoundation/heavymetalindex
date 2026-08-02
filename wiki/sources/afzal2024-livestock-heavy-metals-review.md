@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Afzal and Mahreen 2024 — Heavy metals exposure on livestock health, reproduction, and productivity (narrative review)
 
+## Overview
+
 This is a narrative review in Frontiers in Pharmacology surveying how heavy metals (principally As, Pb, Hg, Cd, Cu, with secondary mention of Cr, Ni, Zn, Co, Mn, Mg, Se, Fe, Al) affect livestock animals across health, reproductive, and productive endpoints. It is a livestock veterinary toxicology synthesis, not a food-contamination dataset: contamination values appear only as illustrative figures pulled from prior literature (notably Adamse et al. 2017 for EU feed surveillance and Medardus et al. 2014 for pig muscle). For HMI purposes the paper has thin direct fit — it is most useful as a context citation for animal-feed exposure pathways, livestock organ accumulation patterns, and reproductive endpoints in cattle. The misleading filesystem handle (`MFD_afzal2024-camel-milk-heavy-metals`) reflects a Manual Fetch Discovery misclassification; the paper does not discuss camels.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Kim et al. 2022 — Heavy metal monitoring in eggs from hens fed black soldier fly larvae oil
 
+## Overview
+
 This study evaluated the performance, egg quality, and food safety implications of replacing soybean oil with black soldier fly (BSF, Hermetia illucens) larvae oil in laying hen diets. As part of the safety assessment, concentrations of aluminum (Al), fluorine (F), arsenic (As), lead (Pb), mercury (Hg), and cadmium (Cd) were measured in eggs from all treatment groups. All measured heavy metal concentrations fell below Korean and international permissible limits across the full range of BSF oil inclusion rates tested. The paper confirms that BSF larvae oil as a feed ingredient does not elevate heavy metal accumulation in eggs above regulatory thresholds under the tested conditions.
 
 ## Key numbers

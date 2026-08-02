@@ -28,6 +28,8 @@ updated: 2026-06-04
 
 # Rüstemli & Tuncay 2026 — Mineral and Heavy Metal Content in Canned Tuna by Packaging Medium (Van Province, Türkiye)
 
+## Overview
+
 Rüstemli and Tuncay measured 15 elements (Mg, Al, P, K, Ca, Cr, Mn, Fe, Cu, Zn, As, Se, Sn, Hg, Pb) plus Co, Ni, Sr, and Ba in 105 canned tuna samples from the Turkish market, with three equal-size groups (n=35 each) of water-packed, oil-packed, and sauce-packed product. Samples were drawn from seven domestic Turkish brands sold in Van Province in September–November 2022. Analysis was by ICP-MS (Agilent 7800) after microwave-assisted nitric acid digestion, with method accuracy verified against DORM-4 Fish Protein certified reference material (recoveries 95–102%). Arsenic was reported as total arsenic only — no inorganic/organic speciation was performed — and mercury was reported as total mercury with no methylmercury speciation. The headline finding is that oil-packed product carried substantially higher concentrations of nearly every element measured (essential and toxic) than the water- and sauce-packed product, with mercury exceeding the Turkish Food Codex 1.0 mg/kg limit in 5.71% of samples (concentrated in oil-packed) and total arsenic exceeding the FAO/WHO 1.0 mg/kg guideline in 74–100% of samples across packaging types.
 
 ## Key numbers

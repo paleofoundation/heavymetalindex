@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Safwan et al. 2023 — Heavy metals in Jordanian instant soup and chicken stock powders
 
+## Overview
+
 Safwan and Amayreh measured Mn, Cr, Cd, and Pb in ten instant soup, chicken stock, and instant-noodle powder products purchased from Jordanian markets. The study used atomic absorption spectrometry after dry ashing and reports concentrations in mg/Kg or mg kg−1 depending on section typography. Because Table 2 names public products, this page reports grouped product-form ranges and source-reported overall ranges rather than pairing brand names with contamination values. Chromium is reported as total Cr only; the paper does not report Cr-VI.
 
 ## Key numbers

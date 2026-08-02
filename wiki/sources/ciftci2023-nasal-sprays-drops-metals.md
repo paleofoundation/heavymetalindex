@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Ciftci 2023 - metals in saline and sea-water nasal sprays
 
+## Overview
+
 Ciftci measured heavy metals and essential elements in `22` saline, sea-water, or ocean-water nasal spray/drop products by ICP-MS. The paper reports product-liquid concentrations in `µg/L`; it is a finished-product occurrence source, but the current taxonomy has no nasal-spray product slug. Arsenic is reported as total arsenic from elemental ICP-MS, not inorganic arsenic.
 
 ## Key numbers

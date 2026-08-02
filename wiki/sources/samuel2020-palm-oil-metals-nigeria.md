@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Samuel et al. 2020 — Heavy metals in Nigerian palm oil market samples
 
+## Overview
+
 Samuel and colleagues measured physicochemical quality, microbial load, and selected heavy metals in palm oil samples from four Kano State markets and from Kogi and Edo State samples. The routeable HMI evidence is the palm-oil concentration table for cadmium, arsenic, mercury, and lead, reported in ppm as location/state mean plus standard deviation. Galadima had the highest Cd, As, and Hg values in the table, while Yan-kura carried the highest Pb value.
 
 ## Key numbers

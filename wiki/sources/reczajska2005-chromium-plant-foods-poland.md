@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Reczajska et al. 2005 — Chromium content of plant-origin foods and beverages in Poland
 
+## Overview
+
 A total of 272 samples of fresh edible plants and beverages were analyzed for total chromium using electrothermal atomic absorption spectrometry with Zeeman background correction (ZETAAS) to assess dietary chromium from plant sources in Poland. Chromium content ranged from below 1 to 183 µg/kg fresh weight across solid foods, with the highest mean concentrations in wheat grains, strawberries, and cucumbers and values below the 1 µg/L detection limit in juices. Regional differences across three Polish provinces were observed, and results were generally lower than older Polish reference values, which the authors attribute to improved analytical methods that reduce contamination artifacts from earlier techniques.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abebe et al. 2023 — Heavy metals in Awash River and Lake Beseka, Ethiopia
 
+## Overview
+
 This study assesses heavy metal concentrations and pollution sources in the Awash River basin (Ethiopia), one of the most populated and industrially developed river basins in the country. A total of 205 water samples from 21 stations were analysed by ICP-MS across surface water and groundwater. The findings reveal that 20 percent of the 20 measured parameters exceeded WHO drinking water limits, with Al, V, Fe, Mn, and Mo elevated at multiple stations. Arsenic exceeded WHO limits in 57 percent of water samples at many stations down the river system. The study documents both anthropogenic contamination sources in the upper Awash (industrial, agricultural, and domestic discharges from Addis Ababa and surrounding urban areas) and geogenic contributions in the middle Awash, particularly from Lake Beseka, whose high metal concentrations derive from geological processes.
 
 ## Key numbers

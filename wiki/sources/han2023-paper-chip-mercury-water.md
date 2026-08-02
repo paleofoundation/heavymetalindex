@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Han et al. 2023 — Paper-based chip for visual fluorescent mercury detection in water
 
+## Overview
+
 This paper from Yantai University and the Chinese Academy of Sciences describes a paper-based visual fluorescent sensing chip for ultrasensitive mercury ion (Hg2+) detection in environmental water. CdTe quantum dots are modified onto silica nanospheres and firmly anchored in the fiber interspaces of paper, avoiding unevenness from liquid evaporation. Mercury ions selectively and efficiently quench the fluorescence emitted at 525 nm, and results can be captured by smartphone camera. The method achieves a detection limit of 2.83 µg/L with a response time of 90 seconds. Real-sample spiking recovery tests in seawater (three regions), lake water, river water, and tap water yielded recoveries of 96.8 to 105.4%.
 
 Note: the triage manifest listed metals as As/Pb, which is incorrect; the paper addresses Hg2+ only.

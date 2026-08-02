@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2012 - Cadmium dietary exposure in Europe
 
+## Overview
+
 The European Food Safety Authority reviewed cadmium occurrence in foods on the European market and estimated dietary exposure using the EFSA Comprehensive European Food Consumption Database. Food was the dominant exposure pathway considered for the non-smoking population. The report provides broad FoodEx occurrence statistics and exposure-contribution rankings for cadmium; it does not provide brand-level product comparisons.
 
 ## Key numbers

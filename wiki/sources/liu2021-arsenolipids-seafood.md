@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Liu et al. 2021 — Arsenolipids in krill oil, tuna, hairtail, and kelp
 
+## Overview
+
 This paper develops and validates a high-throughput method (HPLC-SWATH-MS with the Precursorfinder computational tool) for screening lipid-soluble arsenic species (arsenolipids) in seafood and algae, and applies it to identify 23 arsenolipids across krill oil, tuna fillets, hairtail fish heads, and kelp. Arsenolipids are organic arsenic compounds of growing concern because several have demonstrated cytotoxicity comparable to inorganic arsenite in human cell lines and neurotoxicity in vertebrate brain cells. The method represents a significant advance over prior targeted approaches by using data-independent acquisition (SWATH) to capture low-abundance arsenolipids that would be missed by data-dependent methods.
 
 ## Key numbers

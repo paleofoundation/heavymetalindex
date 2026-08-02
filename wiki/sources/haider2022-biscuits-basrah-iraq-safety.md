@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Haider et al. 2022 — Nutritional quality and safety of imported biscuits marketed in Basrah, Iraq
 
+## Overview
+
 This peer-reviewed MDPI Applied Sciences study analyzed 36 imported biscuit samples (three types: cookies, crackers, and digestives) purchased in Basrah city markets, Iraq, from four countries of origin: Spain, Iran, Turkey, and the United Arab Emirates. Nine brands were collected per country of origin, three replicates per sample, sampled July–November 2021. The work measured nutritional composition (moisture, ash, fat, protein, fiber, carbohydrates), food safety parameters (water activity, peroxide value, HMF, acrylamide), heavy metals (Pb, Cd) and trace elements (Zn, Cu), and microbiological load. Cadmium was entirely absent across all 36 samples and all three biscuit types; lead was detected in all samples but remained considerably below the EU Regulation 1881/2006 limit of 200 µg/kg, with Spanish-origin biscuits showing the lowest lead values and Iranian biscuits the highest. Acrylamide content exceeded the EU limit of 350 µg/kg in multiple non-EU-origin samples, and yeasts and molds exceeded FAO/WHO limits in five samples, pointing to food safety concerns beyond heavy metals for biscuits in this market.
 
 ## Key numbers

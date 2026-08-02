@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Ren et al. 2025 — Cadmium–enrofloxacin co-exposure toxicology in zebrafish
 
+## Overview
+
 Controlled-exposure zebrafish study (AB strain; 6,000 fish purchased, of which 3,900 were used in the chronic 20-d arm and an additional ~570 across the acute 96-h Cd-alone, ENR-alone, and combined arms) characterizing the joint toxicity of cadmium (Cd) and the fluoroquinolone antibiotic enrofloxacin (ENR). Co-exposure approximately doubled acute lethality of each compound (LC50 Cd 89.12 mg/L → 46.35 mg/L; LC50 ENR 190.11 mg/L → 99.39 mg/L) with the Concentration Addition model classifying the interaction as additive (MDR 0.96, 95% CI 0.58–1.04). Under chronic exposure, ENR enhanced Cd accumulation in zebrafish liver, intestine, and muscle by 1.11–2.33-fold over single-Cd controls and exacerbated hepatic oxidative stress (SOD, CAT, GSH-Px elevated 1.34–7.06-fold at day 8 then declining 9.9–48.98% by day 20; MDA rising to 4.06-fold above controls). 16S rRNA sequencing of gut microbiota showed Cd alone reduced α-diversity (Shannon −57 to −63%) with a 16–20% drop in beneficial *Cetobacterium* and a 44–114% increase in *Aeromonas*; co-exposure further amplified the dysbiosis. The paper measures no food-matrix contamination; its HMI relevance is mechanistic (Cd toxicokinetics, antibiotic-driven Cd bioavailability enhancement, and Cd-driven gut dysbiosis).
 
 ## Key numbers

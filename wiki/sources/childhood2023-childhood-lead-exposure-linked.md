@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Napier et al. 2023 — Lead and chromium contamination in apple cinnamon fruit puree pouches
 
+## Overview
+
 Between June and August 2023, routine blood lead testing in North Carolina identified four young children in three unrelated households with blood lead levels ≥5 µg/dL. Environmental investigations traced the exposure to WanaBana brand apple cinnamon fruit puree pouches, which contained 1.9–3.0 ppm lead. An expanded nationwide investigation ultimately identified approximately 500 cases of childhood lead exposure linked to the contaminated products. FDA investigation determined that the cinnamon used in these products, sourced from Ecuador, contained lead chromate (PbCrO₄).
 
 ## Key numbers

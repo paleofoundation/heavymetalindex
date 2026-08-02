@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Darko et al. 2014 — Heavy metals in Ghanaian seasonings
 
+## Overview
+
 Darko and colleagues measured Fe, Zn, Cu, Cd, Pb, and Hg in 22 mixed and unmixed powdered seasonings purchased from markets in Kumasi, Ghana. Flame atomic absorption spectrometry was used for Fe, Zn, Cu, Cd, and Pb, while mercury was measured by cold-vapour atomic absorption spectrometry. The occurrence finding for HMI target analytes is that Pb was detected across the seasoning set, Cd was detected in a smaller subset, and Hg was below the detection limit in every seasoning. The authors report grouped ranges for mixed and unmixed seasonings and interpret Pb and Cd as the main toxic-metal concern in this sample set.
 
 ## Key numbers

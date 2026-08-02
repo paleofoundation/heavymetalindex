@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Hoy et al. 2023 - Arsenic speciation in freshwater fish
 
+## Overview
+
 This peer-reviewed review summarizes arsenic speciation in freshwater fish and the analytical challenges created by lower arsenic concentrations, complex fish matrices, and a large unidentified arsenic fraction. The review distinguishes total arsenic (tAs) from inorganic arsenic (iAs), contrasts freshwater-fish values with marine-fish values, and describes the extraction, chromatographic, and mass-spectrometric methods used to separate and identify arsenic species.
 
 ## Key numbers

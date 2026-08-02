@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhu et al. 2021 — Lactobacillus plantarum CCFM8610 mitigation of food-derived cadmium forms
 
+## Overview
+
 Zhu et al. tested whether *Lactobacillus plantarum* CCFM8610 mitigates acute toxicity from four cadmium forms selected to represent food-derived cadmium chemistry: CdCl2, Cd-citrate, Cd-glutathione, and Cd-metallothionein. This is mitigation and microbiome evidence, not product-occurrence evidence; the spiked mouse-exposure doses must not enter food or supplement benchmark pools.
 
 ## Key numbers

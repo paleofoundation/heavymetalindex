@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Islam et al. 2014 — Arsenic in Breast Milk, Bangladesh (HPLC-ICP-MS Speciation)
 
+## Overview
+
 This 2014 longitudinal study from arsenic-contaminated Bangladesh measured speciated arsenic in breast milk, maternal urine, and infant urine at three time points (1, 6, 9 months postpartum). HPLC-ICP-MS speciation.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Biondic Fuckar et al. 2023 - metals in coffee silverskin
 
+## Overview
+
 Biondic Fuckar and colleagues evaluated coffee silverskin, the thin tegument removed during coffee roasting, for food-safety contaminants and nutritional composition. The source reports one homogenized coffee-silverskin by-product sample with six parallel analyses; Ni, Pb, total As, Cd, and Cr were measurable, but the matrix is a roasting by-product rather than brewed coffee or ground coffee as sold. The paper is useful for coffee by-product and potential nutraceutical/supplement routing, with a clear matrix firewall.
 
 ## Key numbers

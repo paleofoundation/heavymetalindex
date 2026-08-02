@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Martin-Leon et al. 2023 - Canary Islands leafy-vegetable elements
 
+## Overview
+
 Martin-Leon and colleagues measured essential, toxic, and potentially toxic elements in leafy vegetables sold for consumption in the Canary Islands. This is direct a1 occurrence evidence covering spinach and related leafy vegetables.
 
 ## Key numbers

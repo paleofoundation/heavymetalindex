@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Lorenc et al. 2020 - arsenic species in marine algae products
 
+## Overview
+
 Lorenc and colleagues developed and validated a combined HPLC/ICP-MS and UPLC/ESI-MS/MS workflow for arsenic in algae products. The occurrence-relevant data are the total arsenic and arsenic-speciation values in Table 2 for five algae/seaweed materials, including a commercial cooked/dried hijiki product, nori sheets, serrated wrack, and two reference materials. Unknown arsenic and arsenosugar species are kept separate from inorganic arsenic.
 
 ## Key numbers

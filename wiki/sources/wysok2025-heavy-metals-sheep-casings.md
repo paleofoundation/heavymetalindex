@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Wysok et al. (2025) measure heavy metal concentrations in 35 samples of natural sheep casings — the intestinal material used as sausage casings — from Polish production facilities and commercial suppliers, using ICP-MS analysis. This is a niche but relevant matrix given the commercial use of sheep casings in processed meat products and the potential for metal accumulation in gastrointestinal tissues.
 
 ## Key numbers

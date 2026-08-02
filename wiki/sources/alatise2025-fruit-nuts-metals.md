@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Alatise et al. 2025 - metals in edible fruit nuts from Nigerian markets
 
+## Overview
+
 Alatise, Aluko, and Okoye measured natural radionuclides and heavy metals in six edible fruit-nut categories from Lagos and Ogun State markets. The source is routeable to nuts and seeds because it reports market-sourced edible nut matrices and includes Pb, Cd, Cr, Ni, Co, Cu, Zn, As, and Hg in the analytical scope. The authors report Ni and Cr as the metals with the most cross-sample variation, with the highest concentrations in tiger nuts and kola nuts; they conclude that observed levels do not pose a significant health risk at the consumption levels considered.
 
 ## Key numbers

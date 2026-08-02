@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Xie et al. 2023 — Heavy metal pollution from antimony smelter soils, Hunan, China
 
+## Overview
+
 This study systematically characterised heavy metal pollution in soils surrounding a hydrometallurgical antimony (Sb) smelter in Lengshuijiang city, Hunan Province (the "antimony capital" of the world), combining GIS spatial mapping, positive matrix factorization (PMF) source apportionment, pollution indices, and health risk assessment. Soil samples from 32 sites (including paddy, dry land, and forest) were analysed for Hg, Pb, Cd, Cr, As, and Sb. Cadmium (76.9%) and arsenic (57.7%) were predominantly attributable to agricultural activity, while antimony smelting contributed 12.7% of Cd and 25% of As. The potential ecological risk index (PERI) of 407.54 indicated high ecological risk overall, with Cd as the dominant contributing element (PERI 323.4).
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Al-Sulaiti et al. 2023 — MeHg in commercially consumed fish in Qatar
 
+## Overview
+
 This study assessed methylmercury (MeHg) health risk from fish consumption among adult residents of Qatar, combining a dietary survey (n=600) with chemical analysis of 65 composite samples spanning seven commercially important species. Total mercury (T-Hg) was measured in all samples by ICP-MS following microwave acid digestion, with LOD 1 µg/kg and LOQ 10 µg/kg. MeHg concentrations were derived from T-Hg using species-specific literature conversion factors. The mean T-Hg across all fish was 0.077 µg/g wet weight (range: 0.001 µg/g in rabbitfish to 0.422 µg/g in imported grouper), well within the EU maximum of 0.5 µg/g for most species, though the finding that average estimated weekly MeHg intakes exceed the EFSA tolerable weekly intake (TWI) of 1.3 µg/kg bw/week for high-protein diet consumers and females of childbearing age raises concern about regular high-consumption patterns.
 
 ## Key numbers

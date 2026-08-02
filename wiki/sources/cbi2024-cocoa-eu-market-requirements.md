@@ -32,6 +32,8 @@ updated: 2026-06-02
 
 # CBI 2024 — EU market requirements for cocoa (buyer-requirements article)
 
+## Overview
+
 This is a buyer-requirements / market-information article published by the Centre for the Promotion of Imports from developing countries (CBI), the export-promotion arm of the Netherlands Enterprise Agency under the Dutch Ministry of Foreign Affairs. The article is dated "Last updated 10 July 2024" and consolidates, in plain language for exporting producers in cocoa-origin countries, the mandatory EU regulatory requirements that cocoa beans and cocoa-derived products must meet to enter the European market.
 
 ## Source role

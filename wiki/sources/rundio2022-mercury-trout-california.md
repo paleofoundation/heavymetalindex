@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Rundio et al. 2022 — High mercury in trout, sculpin, and invertebrates, Big Sur coast, California
 
+## Overview
+
 This paper measured total mercury (THg) in fish muscle and both THg and methylmercury (MeHg) in terrestrial and aquatic invertebrates from a small stream-riparian food web on the Big Sur coast of California, where marine fog is a known vector of ocean-derived MeHg to terrestrial ecosystems. The study found that mean THg in age 0 (young-of-year) trout was 400 ng/g dw, rising to 1200–1300 ng/g dw in age 1+ trout and sculpin, with a maximum individual THg exceeding 3500 ng/g dw. Terrestrial invertebrates had mean MeHg concentrations three to four times higher than aquatic invertebrates of the same trophic level, with some centipede and scorpion individuals exceeding 1000 ng/g dw MeHg — a finding the authors attribute to marine fog as a delivery pathway for ocean-derived MeHg into coastal terrestrial food webs.
 
 ## Key numbers

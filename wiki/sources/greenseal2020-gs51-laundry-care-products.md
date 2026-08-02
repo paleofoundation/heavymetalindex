@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Green Seal 2020 - GS-51 laundry care products standard
 
+## Overview
+
 Green Seal GS-51 Edition 1.6 is a voluntary environmental certification standard for industrial and institutional laundry care products. It is not an occurrence study and reports no measured product concentrations, but it gives routeable regulatory context for laundry detergents, laundry additives, fabric softeners, prewash/stain-removal products, anti-static products, fabric refreshers, anti-wrinkle products, starch/sizing/fabric-finish products, and fabric protectants. Its heavy-metal relevance is limited to binary intentional-addition prohibitions in formulated products and a `100 ppm` sum ceiling for four metals in packaging.
 
 ## Key numbers

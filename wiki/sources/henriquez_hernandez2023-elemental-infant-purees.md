@@ -31,6 +31,8 @@ created_by: autonomy_v0
 
 # Henríquez-Hernández et al. 2023 — Elemental contamination in Spanish ready-to-eat infant purees
 
+## Overview
+
 The authors measured 38 chemical elements (essential, toxic, and rare earth) in 159 samples of ready-to-eat baby purees from the Spanish market across four product types: fruit (n=40), chicken (n=39), fish (n=40), and beef (n=40). Fish purees showed the highest concentrations of mercury and arsenic. Risk assessments revealed that manganese, molybdenum, and chromium exceeded adequate intake (AI) levels, particularly in store brands, while thallium and mercury posed acute hazard indices above safe thresholds, particularly in name brands. This study represents the first comprehensive analysis of essential, toxic, and rare earth element contamination in commercial infant ready-to-eat foods.
 
 ## Metals measured

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Urosevic et al. 2024 - Salix phytoremediation
 
+## Overview
+
 Urosevic and colleagues tested three white willow clones and one basket willow genotype for heavy-metal uptake from Kolubara Mining Basin soil that was further enriched with heavy-metal salts. This is primary environmental phytoremediation evidence: it reports soil and willow root, stem, and leaf metal concentrations, but it does not measure edible crops, ingredients, food products, or dietary exposure.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mohammadi et al. 2025 - Pb, Cd, Cr, and Ni in carrots and cucumbers from Iran
 
+## Overview
+
 Mohammadi and colleagues measured Pb, Cd, total Cr, and Ni in carrots and cucumbers collected across seven Fars Province sampling points in Iran, then used those concentrations in deterministic and Monte Carlo dietary-risk calculations. The source reports carrot concentrations higher than cucumber concentrations for all four metals, with carrot Pb averaging 0.303 mg/kg and carrot Cr averaging 0.654 mg/kg.
 
 ## Key numbers

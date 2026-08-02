@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Reinke 1975 - Fish and shellfish inorganic arsenic
 
+## Overview
+
 Reinke and colleagues developed a selective extraction and polarographic method for arsenite and arsenate in fish and shellfish tissue. The occurrence-relevant table reports total arsenic and total inorganic arsenic, defined by the paper as `As3+` plus `As5+`, for eight fish or shellfish tissues. The key finding is that high total arsenic in several marine foods was not matched by high inorganic arsenic, except for lobster hepatopancreas at `0.9 ppm`.
 
 ## Key numbers

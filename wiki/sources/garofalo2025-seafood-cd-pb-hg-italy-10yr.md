@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Garofalo et al. 2025 — Ten-year Italian seafood Cd/Pb/Hg compliance monitoring
 
+## Overview
+
 A ten-year (2014-2023) regulatory compliance monitoring programme run by the Italian Istituto Zooprofilattico Sperimentale del Lazio e della Toscana (IZSLT) analysed 5,854 seafood samples / 9,809 chemical analyses for cadmium, lead, and total mercury against the EU 2023/915 maximum levels (which superseded EC 1881/2006). One hundred forty-two samples (2.43%) were non-compliant. Cadmium exceedances concentrated in cephalopod molluscs (17 of 22 Cd exceedances were cephalopods, mainly squids); mercury exceedances concentrated in marine apex predators (118 of 119 Hg exceedances were marine fish, with swordfish at 11.30%, shark species at 6.48%, and tuna species at 3.11% non-compliance); lead exceedances were rare (one bivalve sample, a truncate donax). A preliminary estimated-weekly-intake calculation for swordfish raised concerns for frequent consumers in the Italian population.
 
 ## Key numbers

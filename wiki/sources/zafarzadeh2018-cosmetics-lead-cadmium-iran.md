@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zafarzadeh et al. 2018 - cadmium and lead in cosmetics sold in Gorgan, Iran
 
+## Overview
+
 Zafarzadeh and colleagues measured cadmium and lead in 264 cosmetic products purchased in Gorgan, Iran from September 2016 to March 2017. The sample frame covered 11 product types, with 24 samples per type: lipstick, nail polish, eyeliner, eye pencil, eyeshadow, eye makeup remover, mascara, pancake, tattoo, hair dye, and hair gel. The paper reports total Cd and Pb as `µg/g` after nitric-acid digestion and voltammetric determination; brand identities are coded by letters, so no brand-name stripping was needed.
 
 ## Key numbers

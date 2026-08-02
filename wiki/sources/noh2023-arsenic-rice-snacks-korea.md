@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Noh et al. 2023 — Arsenic species in rice-based processed products in South Korean markets
 
+## Overview
+
 Cross-sectional market-survey monitoring study of total arsenic (tAs) and four arsenic species (AsV, AsIII, MMA, DMA) in 239 rice-based processed foods purchased from South Korean domestic markets between February and August 2019. The authors stratified samples into ten product categories (seven adult, three for infants and young children) and ran a margin-of-exposure (MOE) risk assessment against the EFSA BMDL₀₁ of 0.3 µg iAs/kg bw/day across five Korean age strata. Inorganic arsenic (iAs) was computed as the sum of AsV and AsIII. The paper concludes that mean iAs is broadly comparable to international rice-based-food monitoring data; that rice cakes, adult snacks, and rice-based baby powder represent the categories with MOE values low enough to flag for age-specific concern; and that the iAs/tAs correlation is modulated by ingredient diversity (seaweed-containing categories show low iAs/tAs because organoarsenicals from seaweed inflate tAs without inflating iAs).
 
 ## Key numbers

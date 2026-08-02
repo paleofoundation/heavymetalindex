@@ -31,6 +31,8 @@ updated: 2026-05-28
 
 # Meyer et al. 2018 — Low inorganic arsenic in hydrolysed-rice infant formula for cow's milk protein allergy
 
+## Overview
+
 Meyer and colleagues measured inorganic arsenic (As(V)) and dimethylarsinic acid (DMA) in commercially available hydrolysed-rice infant formula (HRF) powders sourced from Italy, France, and Belgium and analysed at the Institute for Global Food Security, Queen's University Belfast. HRF is used in the management of cow's milk protein allergy (CMPA) when breastmilk is not available and conventional extensively hydrolysed casein/whey or amino-acid formulas are not used. Across six distinct product variants (ten batch-level measurements presented), As(V) ranged from 9 to 20 µg/kg in dry powder, with calculated daily As(V) exposure for a typical 0–6 month, 8 kg infant of 0.16–0.23 µg/kg body weight/day — roughly an order of magnitude below the WHO 2 µg/kg b.w./day exposure benchmark and below the EFSA-reported childhood dietary iAs exposure range (0.24–0.43 µg/kg b.w./day for infants). The authors concluded that As(V) levels in HRF powder were within the safe range as stipulated by EFSA and WHO, while noting that actual exposure can be modified by arsenic in the tap water used to reconstitute the formula.
 
 ## Key numbers

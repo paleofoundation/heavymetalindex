@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Kletikova et al. 2022 - Quail blood minerals after feed additive
 
+## Overview
+
 Kletikova and colleagues measured blood-serum mineral concentrations in control and feed-additive-treated Japanese laying quails. This is in-scope a4 animal biomonitoring and feed-additive exposure context, not pet-supplement or product occurrence.
 
 ## Key numbers

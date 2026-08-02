@@ -24,6 +24,8 @@ updated: 2026-06-15
 
 # Stark et al. 2019 - Wild edible greens in the East Bay
 
+## Overview
+
 Stark and colleagues combined urban foraging observations with soil and plant-tissue testing of wild edible greens from disadvantaged East Bay neighborhoods in California. The paper is routeable as direct leafy-greens occurrence context because it reports rinsed plant-tissue cadmium values, lead non-detects in tissue, and corresponding urban-soil metal measurements.
 
 ## Key numbers

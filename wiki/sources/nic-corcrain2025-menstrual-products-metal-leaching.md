@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Nic Corcrain 2025 - lead leaching from menstrual products in simulated vaginal fluid
 
+## Overview
+
 Nic Corcrain's research poster reports a small C-tier menstrual-product leaching experiment and a participant survey. The occurrence-relevant result is that tampons released lead into synthetic vaginal fluid at `0.66-6.35 ppb`, while menstrual cups were reported as `<1 ppb`. Arsenic was targeted, but the poster says arsenic detection was compromised by background contamination, so no arsenic occurrence value is recorded.
 
 ## Key numbers

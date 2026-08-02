@@ -30,6 +30,8 @@ updated: 2026-06-04
 
 # EPA Air Toxics 2000 — Nickel Compounds (Hazard Summary)
 
+## Overview
+
 The U.S. Environmental Protection Agency's Office of Air Quality Planning and Standards maintains a series of Air Toxics Hazard Summary fact sheets that consolidate the agency's IRIS chemical assessments, the ATSDR Toxicological Profile, and CalEPA reference exposure levels into a one-document overview per hazardous air pollutant. This fact sheet is the nickel-and-nickel-compounds entry in that series. It was first issued in April 1992 and updated in January 2000; the health and regulatory values it cites were obtained in December 1999. Its content is fact-sheet-tertiary — it does not derive new toxicological values, but reports values established elsewhere (EPA IRIS for the oral RfD and inhalation unit risks; ATSDR for the chronic inhalation MRL; CalEPA for the chronic inhalation REL; NIOSH, ACGIH, and OSHA for occupational exposure limits). The fact sheet is the canonical EPA Air Toxics one-page reference for nickel compounds and remains the version posted on the agency's public site under the URL slug `nickle-compounds.pdf` (the EPA URL retains a historical misspelling).
 
 ## Summary

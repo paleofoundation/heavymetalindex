@@ -29,6 +29,8 @@ updated: 2026-07-29
 
 # Aquino Hancco et al. 2026 - mercury, cadmium, and lead in Lima canned tuna and fish
 
+## Overview
+
 Aquino Hancco and colleagues report mercury, cadmium, and lead measurements in canned tuna and fresh fish sold at the Central Market of Lima, Peru, during 2023. The paper reports summary tables rather than full sample-level results. It also contains draft-like "figure suggestions" text inside the Results section; this page therefore treats the source as lower-tier market-surveillance evidence until independently audited.
 
 The paper does not report methylmercury speciation. Mercury values are total mercury.

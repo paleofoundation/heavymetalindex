@@ -29,6 +29,8 @@ updated: 2026-05-25
 
 # Brum et al. 2025 — Essential elements and PTEs in organic vs conventional flaxseeds
 
+## Overview
+
 This study quantified 20 chemical elements (11 essential, 9 PTEs) in 52 commercially available European flaxseed samples using ICP-OES, comparing organic (n=15) and conventional (n=37) seeds. Three elements showed statistically significant differences (p < 0.05) between organic and conventional samples: Al and Ni were higher in conventional flaxseeds (p = 0.0312 and p = 0.0142, respectively), while Na was higher in organic flaxseeds (p = 0.0072). Pb and Cd concentrations did not differ significantly between organic and conventional groups. Cadmium concentrations in both groups remained well below the EU Regulation 2023/915 maximum level of 0.50 mg/kg for linseeds. Hazard Index modelling showed that Al and Pb pose the more pressing health risk at typical consumption levels of 15–30 g/day; Cd HI values remained below 1 in all scenarios.
 
 ## Key numbers

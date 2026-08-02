@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Stahl et al. 2023 — Mercury in U.S. river fish fillets, national probability-based assessment
 
+## Overview
+
 Stahl et al. report on EPA's National Rivers and Streams Assessment (NRSA) characterization of total mercury, PCBs, and PFAS contamination in fillet tissue of fish from U.S. rivers, using a statistically representative probability-based survey design covering 48,826–79,448 river kilometers in 2013–14 and 66,142 km in 2018–19. All 353 (2013–14) and 290 (2018–19) fillet samples contained detectable mercury and PCBs. Applying EPA's fish tissue screening levels to national mercury distributions, 23.5–26.0% of the sampled river-kilometer population contained fish with mercury concentrations above levels protective of human health for average fish consumers; this fraction is nearly unchanged between the two study periods, indicating no material national improvement over five years. The study also reports a 10-year temporal comparison using 2008–09 NRSA mercury data (n=541 fillet samples).
 
 ## Key numbers

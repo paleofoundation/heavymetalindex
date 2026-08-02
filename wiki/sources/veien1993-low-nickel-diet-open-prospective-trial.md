@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Veien, Hattel, Laurberg 1993 — Low nickel diet: an open, prospective trial
 
+## Overview
+
 This Journal of the American Academy of Dermatology open prospective trial from the Aalborg (Denmark) dermatology group is the second-generation low-nickel-diet study after Kaaber 1978 and remains a foundational reference for the dietary-nickel-and-dermatitis literature. 90 nickel-sensitive patients with a documented flare of dermatitis after oral 2.5 mg nickel challenge (and no reaction to placebo) were instructed to follow a low-nickel diet. The short-term and long-term benefits are large: 64.4 percent had short-term benefit; 73 percent of those who responded short-term sustained the improvement at 1 to 2 years follow-up. The paper also documents that patients with strongly positive patch tests to nickel had less benefit from the diet than patients with moderately positive patch tests, an early observation that complicates the simple patch-test-positivity-predicts-diet-response model.
 
 ## Key numbers

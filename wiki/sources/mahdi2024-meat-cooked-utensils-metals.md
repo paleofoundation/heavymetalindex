@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Mahdi et al. 2024 - Metals in meat cooked with different utensils
 
+## Overview
+
 Mahdi et al. measured iron, zinc, copper, cadmium, lead, and aluminium in meat cooked using different utensil materials. The paper is useful for both meat and cookware pages because it reports utensil-specific metal concentrations in the cooked food matrix. Copper utensils increased iron and copper, aluminium utensils increased zinc and aluminium, Teflon and aluminium had higher cadmium, and iron utensils had the highest lead.
 
 ## Key numbers

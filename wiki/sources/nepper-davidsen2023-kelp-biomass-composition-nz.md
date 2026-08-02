@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Nepper-Davidsen et al. 2023 — Heavy metal composition of NZ kelp (Ecklonia radiata)
 
+## Overview
+
 A spatial and temporal survey of the kelp Ecklonia radiata from 12 sites across the North Island of New Zealand found high arsenic concentrations (mean 49 ppm dry weight, range 40.0–64.4 ppm DW across sites) typical of marine brown algae, which bioaccumulate arsenic as arsenobetaine and other organoarsenicals. Cadmium was present at mean 1.2 ppm DW (range 0.4–2.2 ppm), lead at mean 0.3 ppm DW (range 0.0–0.7 ppm), and mercury at mean 0.02 ppm DW (range 0.00–0.04 ppm). Significant temporal autocorrelation was detected for arsenic and mercury, meaning their concentrations at a single site shifted meaningfully over a 12-month cycle. Spatial variation in heavy metal content appeared driven primarily by local site conditions rather than broad regional patterns. The paper notes Ecklonia radiata as a candidate for New Zealand seaweed aquaculture and therefore has direct relevance to product safety assessment for any kelp-derived food ingredient, supplement, or functional food application.
 
 ## Key numbers

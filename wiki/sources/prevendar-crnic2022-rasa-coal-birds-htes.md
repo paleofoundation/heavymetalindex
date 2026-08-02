@@ -30,6 +30,8 @@ updated: 2026-05-29
 
 # Prevendar Crnić et al. 2022 — Hazardous trace elements in bird tissues, Raša coal area, Croatia
 
+## Overview
+
 This study measured 13 elements (Al, V, Cr, Mn, Fe, Co, Cu, Zn, As, Se, Mo, Cd, Pb) by ICP-MS in muscle, liver, kidney, and brain of 12 wild birds (pigeon, jay, mallard, magpie) from the Raša coal-polluted area of eastern Istria, Croatia and 8 control-area birds (pigeon, pheasant, jay) from the Kontija Forest ~35 km west of the pollution source. Of the 13 elements, the authors report distributions for 5 (Se, Cd, Pb, Cu, Zn) selected for elevated occurrence in the polluted environment. Mean Se and Cd were significantly elevated in Raša-area birds vs control (Se muscle p=0.003, Se liver p=0.04, Cd kidney p=0.01 by Mann–Whitney U). Highest Cu, Zn, and Se concentrations occurred in liver; highest Cd and Pb in kidney. Mallard kidney Cd (mean 2.30 mg/kg w.w.) and pigeon kidney Cd (1.43 mg/kg w.w.) exceed the Croatian Ordinance 146/12 maximum allowable Cd in poultry kidney (1.0 mg/kg w.w.) used as a reference standard because no game-bird-specific Croatian Cd threshold exists. The authors nonetheless conclude human-health risk from consumption of these game species is very low because mean annual game-meat consumption in Croatia is only 0.3 kg per household member (Croatian Statistical Yearbook 2011).
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Grill et al. 1989 — Phytochelatin synthase characterised from Silene cucubalus
 
+## Overview
+
 Grill and colleagues at Universität München (Lehrstuhl für Pharmazeutische Biologie and Genzentrum) report the isolation and biochemical characterisation of phytochelatin synthase from cell suspension cultures of the campion *Silene cucubalus*, the enzyme responsible for assembling the heavy-metal-binding peptides known as phytochelatins ([Glu(-Cys)]n-Gly oligomers, n = 2 to 11) from glutathione in higher plants. The enzyme is a gamma-glutamylcysteine dipeptidyl transpeptidase that polymerises gamma-Glu-Cys units onto a glutathione or phytochelatin acceptor, requires divalent or monovalent heavy-metal cations for activity (Cd2+ is the most effective activator, followed by Ag+, Bi3+, Pb2+, Zn2+, Cu2+, Hg2+, and Au+), and exhibits self-regulating product inhibition because the synthesised phytochelatin chelates the activating metal and removes it from the enzyme. The paper is the foundational primary citation for phytochelatin biosynthesis in the plant heavy-metal-detoxification literature; in the wiki its role is mechanistic background for `metals/cadmium` and any future page on plant-based mitigation or remediation of cadmium exposure, not occurrence data for food or supply-chain pages.
 
 ## Why this matters

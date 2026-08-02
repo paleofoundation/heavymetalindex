@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Naspolini et al. 2024 — Heavy metals in human milk, São Paulo cohort
 
+## Overview
+
 Naspolini et al. measured As, Pb, Hg, and Cd in 185 human milk samples from the Germina prospective cohort in São Paulo, Brazil, collected at 3 months postpartum, and assessed associations with infant neurodevelopment via the Bayley-III scales at 3, 5–9, and 10–16 months of age. Arsenic had the highest detection rate (38.6%, mean 2.76 µg/L), followed by Hg (23.9%, mean 1.96 µg/L) and Pb (22.8%, mean 2.09 µg/L); Cd was not detected above LOQ in any sample. Infants exposed to Pb in human milk showed significantly lower language development trajectories at 10–16 months compared to non-exposed infants (β = −0.413; 95% CI −0.653 to −0.173), even though mean Pb concentrations in this cohort were lower than in most prior Brazilian and international studies.
 
 ## Key numbers

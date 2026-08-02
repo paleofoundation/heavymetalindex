@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Sun et al. 2025 - Biochar-alginate composite for cadmium-contaminated lettuce soil
 
+## Overview
+
 Sun and colleagues tested a modified biochar-calcium alginate hydrogel composite (MB-CA) as an in situ passivation material for cadmium-contaminated agricultural soil. The study reports adsorption, soil-fraction, pot, and field endpoints, including reduced cadmium in lettuce edible parts. This is mitigation evidence for crop supply-chain controls; its soil and amendment-performance values must not be pooled as consumer-product occurrence concentrations.
 
 ## Key numbers

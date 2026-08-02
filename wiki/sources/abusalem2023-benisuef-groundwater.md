@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Abu Salem et al. 2023 — Hydrogeochemistry and heavy metal pollution of groundwater in Beni Suef, Egypt
 
+## Overview
+
 This study characterized the hydrogeochemical evolution and pollution sources of the shallow Quaternary aquifer in Beni Suef Governorate, Egypt, by analyzing 18 groundwater samples collected from hand-dug wells and boreholes using ICP-ES for multi-element determination. The authors applied multivariate statistical analysis (principal component analysis, cluster analysis, Piper and Gibbs diagrams) to identify geogenic versus anthropogenic contamination sources. Elevated concentrations of Fe, Mn, and Pb were attributed to agricultural drainage and industrial effluent inputs, while the overall water chemistry was dominated by evaporite dissolution and water-rock interaction. Several samples exceeded WHO drinking water guidelines for multiple parameters including heavy metals.
 
 ## Key numbers

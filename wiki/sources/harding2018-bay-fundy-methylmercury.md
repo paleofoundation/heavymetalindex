@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Harding et al. 2018 - Methylmercury in Bay of Fundy marine food webs
 
+## Overview
+
 This PLoS ONE study measured methylmercury and total mercury across plankton, shellfish, finfish, and marine mammals in the outer Bay of Fundy and Gulf of Maine. It is routeable for seafood context because Table 3 reports wet-weight fish and shellfish concentrations, including swordfish and bluefin tuna.
 
 ## Key numbers

@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Kimakova et al. 2018 - Fish and fish products as mercury exposure risks
 
+## Overview
+
 This study monitored total mercury in fish and fish products from retail in Eastern Slovakia and fish from the Ruzin water reservoir.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Fu and Xi 2019 — Heavy metals and human metabolism
 
+## Overview
+
 Fu and Xi review the metabolic mechanisms by which five heavy metals — lead, arsenic, cadmium, nickel, and mercury — disrupt human physiology. The paper is mechanism-oriented, anchored in oxidative stress and reactive oxygen species generation as the common toxicity pathway, and draws on occupational exposure literature, drinking-water contamination studies, and experimental cell and animal work. The authors frame contaminated drinking water as the primary human exposure route and explicitly limit the scope to mechanisms and metabolic effects rather than food-occurrence quantification.
 
 ## Key numbers

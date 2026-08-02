@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Zhuzhassarova, Azarbayjani & Zamaratskaia 2024 — Toxic metals in aquatic environments and fish across Central Asia
 
+## Overview
+
 Zhuzhassarova, Azarbayjani & Zamaratskaia (2024) review arsenic, mercury, cadmium, and lead concentrations in surface waters, fish tissues, and human biomonitoring samples (hair, urine, blood) across the five Central Asian republics: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. The review compiles per-study fish-tissue values from 13 regional studies (Table 2), per-country fish-consumption estimates from FAOSTAT and food-frequency surveys (Table 3), and the Eurasian Customs Union maximum permissible concentrations for fish (Table 1). Despite generally low regional fish consumption (0.63 to 3.86 kg/year/capita in FAOSTAT data, well below recommended intake), specific hotspots — notably Lake Balkyldak in Pavlodar (Hg from the former Pavlodar chlor-alkali plant) and the lower Amu Darya / Syr Darya basins (As, Pb, Cd in water) — drive localized elevated exposure, particularly for Hg in populations relying on contaminated fisheries.
 
 ## Key numbers

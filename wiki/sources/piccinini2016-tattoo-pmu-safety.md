@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Piccinini et al. 2016 - EU/JRC safety report on tattoo and permanent make-up inks
 
+## Overview
+
 Piccinini, Pakalin, Contor, Bianchi, and Senaldi prepared this JRC Science for Policy report for the European Commission on tattoo and permanent make-up (PMU) ink safety. The report is not a single primary laboratory survey; it synthesizes legislation, analytical methods, RAPEX notifications, national market-surveillance campaigns, literature, questionnaires, and expert input. This page records the tattoo/PMU ink heavy-metal surveillance and comparator data only, with brand names suppressed and Cr(VI), total Cr, total Hg, and other species kept separate.
 
 ## Key numbers

@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Sacchi et al. 2021 - Natural background levels of PTEs in Balangero asbestos-mine groundwater
 
+## Overview
+
 Sacchi and colleagues derive natural background levels (NBLs) for potentially toxic elements (PTEs) in groundwater from the former Balangero chrysotile asbestos mine in serpentinised mantle peridotite of the Lanzo Massif, a "Contaminated Site of National Interest" 30 km northwest of Turin in the Piedmont region of North Italy. The study illustrates a modified Italian NBL workflow that uses all available measurements rather than per-station medians, in order to capture the high naturally occurring concentrations of Cr, Cr-VI, Ni, Mn and Fe that arise from water-rock interaction with ultramafic and metabasite host rocks, ore minerals, mine tailings and waste sludge. The work is environmental natural-background characterisation, not food, drinking-water-supply, or consumer-product occurrence evidence.
 
 ## Key numbers

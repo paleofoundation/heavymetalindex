@@ -26,6 +26,8 @@ updated: 2026-05-09
 
 # Rothenberg et al. 2021 — Maternal methylmercury exposure through rice ingestion and child neurodevelopment, rural China
 
+## Overview
+
 This Environmental Health prospective cohort study by a U.S.-China collaboration (Rothenberg lead, Harvard, USC, U South Carolina, Guangxi University of Chinese Medicine, Duke, Emory) is the first U.S.-quality cohort study quantifying maternal methylmercury exposure from rice ingestion paired with child neurodevelopmental outcomes through 36 months. The study enrolls 391 peripartum women in rural China where rice is the dominant dietary MeHg source (in contrast to the fish-based MeHg pathway documented in U.S. and European populations), measures peripartum hair MeHg as the exposure biomarker, and assesses child neurodevelopment using the Bayley Scales of Infant Development 2nd Edition (Mental Developmental Index and Psychomotor Developmental Index) at 12 and 36 months in 264 and 190 children respectively. The paper is the canonical reference for the rice-as-MeHg-pathway dietary route and is directly relevant to the HMTc rice-based subcategory rows where MeHg has historically been a documented data gap because most MeHg surveillance focuses on fish.
 
 ## Key conclusions

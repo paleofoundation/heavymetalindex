@@ -27,6 +27,8 @@ updated: 2026-05-25
 
 # Anastario et al. 2025 — Metal profiling of Hass avocados: ICP-MS and pXRF
 
+## Overview
+
 This pilot study quantified 24 elements across 24 Hass avocado samples using ICP-MS (primary) and portable XRF (pXRF, screening tool validation), stratifying by country of origin (California, USA vs. Michoacán, Mexico) and agricultural practice (organic vs. conventional). It provides baseline data on elemental distribution between the edible mesocarp (pulp) and exocarp (peel), finding that metals generally accumulate more in the exocarp. Notably, mercury was elevated in avocado tissues relative to comparable tropical fruits, particularly in exocarp and in USA-sourced samples, which the authors attribute to possible Hg accumulation in lipophilic matrices. Cd, Pb, and As were detected at relatively low concentrations in mesocarp.
 
 ## Key numbers

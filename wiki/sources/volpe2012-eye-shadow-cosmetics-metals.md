@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Volpe 2012 - selected metals in eye shadow cosmetics
 
+## Overview
+
 Volpe and colleagues measured lead, cadmium, cobalt, chromium, and nickel in `20` powdered eye shadow cosmetics purchased in Italy and labeled as manufactured in China, Italy, or the United States. Lead is reported in `µg g-1 wet weight`; cadmium, cobalt, chromium, and nickel are reported in `ng g-1 wet weight`. The source includes brand/sample group numbers, but this page reports product-form and origin-country context only.
 
 ## Key numbers

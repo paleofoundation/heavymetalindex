@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Boostani et al. 2025 - biochar and bentonite immobilization of cadmium in calcareous soil
 
+## Overview
+
 Boostani and colleagues tested whether bentonite combined with pristine or phosphoric-acid-modified biochars could immobilize cadmium in contaminated calcareous soil. The study is mitigation evidence: it uses Cd-spiked soil and amendment treatments, so its values should not be routed into coffee, food, or ingredient occurrence pools.
 
 ## Key numbers

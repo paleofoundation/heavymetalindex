@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Munoz 1999 - Inorganic arsenic in seafood products
 
+## Overview
+
 Munoz and colleagues developed and validated a microwave-assisted distillation method for measuring inorganic arsenic, defined as `As(III)+As(V)`, in seafood products by hydride generation atomic absorption spectrometry. The paper includes occurrence values for `21` natural seafood samples, reporting total arsenic and inorganic arsenic on a dry-mass basis. The table is useful because it keeps total arsenic and inorganic arsenic separate in fish, shellfish, fresh, canned, and frozen seafood matrices.
 
 ## Key numbers

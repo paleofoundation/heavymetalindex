@@ -26,6 +26,8 @@ updated: 2026-05-20
 
 # Öztürk et al. 2024 — Aluminium in black, green, and white tea infusions: teapot material and infusion time effects
 
+## Overview
+
 This study measured Al concentrations in infusions of black, green, and white tea brewed in five teapot materials (aluminium, copper, glass, steel, porcelain) at three infusion times (5, 10, 15 min) using HPLC with fluorescence detection. Al concentrations across all conditions ranged from 38.46 ± 5.08 to 845.75 ± 11.14 µg/L. Tea type was the dominant determinant of infusion Al: green tea (mean 715.53 ± 97.32 µg/L) reached roughly 14-fold higher infusion Al than black tea (mean 50.36 ± 22.78 µg/L), with white tea intermediate (mean 271.13 ± 48.76 µg/L). Teapot material and infusion time both exerted statistically significant but secondary effects (p < 0.001 for each main effect; the three-way tea × teapot × time interaction was also significant at p < 0.001). Hazard quotient calculations based on JECFA's 1 mg Al/kg body weight/day tolerable daily intake indicated that green tea consumption exceeds HQ = 1 for all teapot/time combinations, white tea exceeds HQ = 1 only for the 15-min glass-teapot condition, and black tea remains well below HQ = 1 across all conditions.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Hisam et al. 2022 - Water spinach phytoremediation
 
+## Overview
+
 Hisam and colleagues tested water spinach as a phytoremediation system for cadmium, copper, and zinc in wastewater. This is in-scope lane a2 mitigation evidence and not spinach food-occurrence evidence.
 
 ## Key numbers

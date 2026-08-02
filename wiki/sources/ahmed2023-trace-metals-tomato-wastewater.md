@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ahmed et al. 2023 — Trace metals in wastewater-irrigated tomatoes, Cairo
 
+## Overview
+
 This study measures trace metal concentrations in tomato fruits grown on farms irrigated with industrial wastewater near Cairo, Egypt, and performs a health risk assessment using hazard quotients (HQ) for multiple metals. The study also measures metals in irrigation water and soil at the same farms to characterize the contamination source and pathway.
 
 ## Key numbers

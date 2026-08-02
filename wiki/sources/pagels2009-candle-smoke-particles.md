@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Pagels 2009 - candle smoke particle composition and metal emissions
 
+## Overview
+
 Pagels and colleagues measured candle-smoke particle composition from two tapered candle types during steady burn, sooting burn, and smouldering in a controlled chamber. The study is routeable as home-air emission product context because Table 3 reports metal component emission factors for Cu, Sn, Co, Zn, and Pb from the candle-smoke particles. The source reports emission factors in `µg h-1` and particle-mass emission factors in `mg h-1`; no product-content concentration, migration value, or consumer threshold is inferred here.
 
 ## Key numbers

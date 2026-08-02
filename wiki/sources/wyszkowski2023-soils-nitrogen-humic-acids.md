@@ -24,6 +24,8 @@ updated: 2026-06-04
 
 # Wyszkowski et al. 2023 - Humic acids and nitrogen fertiliser effects on soil trace elements
 
+## Overview
+
 Wyszkowski, Kordala, and Brodowska measured cadmium, lead, chromium, nickel, zinc, copper, manganese, iron, and cobalt in two soils after a controlled maize pot experiment with three nitrogen fertiliser forms and four humic-acid doses. The source is primary concentration evidence for agricultural soil and soil-management context, not food occurrence evidence: the paper reports soil trace-element concentrations after the maize growth period, but it does not report maize grain, leaf, or edible-product concentrations.
 
 ## Key numbers

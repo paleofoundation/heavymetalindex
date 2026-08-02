@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Uroko et al. 2020 — Heavy metals in canned tomato paste from Ubani-Umuahia
 
+## Overview
+
 Uroko and colleagues measured nine metals in ten canned tomato-paste products sold at Ubani-Umuahia market in Nigeria. Table 1 reports coded sample concentrations in ppm, but this page aggregates the coded rows to avoid attaching values to named consumer products. Lead and nickel were not detected; chromium and cadmium were detected above the paper's comparator values in all tested samples.
 
 ## Key numbers

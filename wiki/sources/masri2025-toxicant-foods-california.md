@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Masri et al. 2025 — Dietary consumption of toxicant-laden foods and beverages in Southern California
 
+## Overview
+
 This is a population dietary-intake study, not a contamination occurrence study. The authors deployed a one-week online food frequency questionnaire to 186 Southern California residents (60.8% adults, 39.2% adolescents) covering staple foods and the food categories most commonly targeted under California's Proposition 65 for lead and acrylamide exposure: root vegetables, rice, leafy greens, pasta/noodles, tea, juice, seafood, twenty individual herbs/spices, stuffed grape leaves, tamarind/chili candy, chocolate products, nutritional powders, and traditional beverage powders such as matcha. The study reports daily intake (g/day), portion size, eating-occasion frequency, and home-food behaviors (homegrown food, store-bought soil use, tap-water reliance, pre-1978 housing) by age and race/ethnicity, then uses one Prop 65 consent-judgment threshold to demonstrate the magnitude of underestimated single-day lead exposure from stuffed grape leaves. The contribution to the Heavy Metal Index corpus is **exposure-side**: it provides population intake denominators that downstream synthesis can multiply against published contamination concentrations to estimate dietary exposure, and it documents underestimation patterns in Prop 65's product-by-product exposure assessment methodology for herbs and spices (which cumulate to ~8.3 g/day mean across the food category but are conventionally assessed at a 0.5 g RACC per single herb). The study itself measures no metal concentrations and proposes no contamination thresholds.
 
 ## Key numbers

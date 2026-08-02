@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Meng et al. 2023 — Electrochemical sensors for heavy metal detection in food
 
+## Overview
+
 Meng and colleagues survey the state of electrochemical sensor (ECS) technology for detecting heavy metals in food matrices through roughly 2022. The review organizes the literature by electrode-modification material — inorganic nanomaterials (Au, Ag, Bi, Pt nanoparticles; metal-oxide nanoparticles including Fe₃O₄, TiO₂, ZnO, MnO₂, MgO, Co₃O₄, Co₂O₃; carbon nanotubes; graphene), organic materials (small molecules such as GSH, DTT, NAC, MPA; polymers including PGA and PPy; metal-organic frameworks), and biomaterials (nucleic-acid aptamers and DNAzymes; enzymes including urease, choline oxidase, catalase) — and assesses each class for sensitivity, selectivity, linear range, and limit of detection. The authors recommend Fe₃O₄/graphene/nucleic-acid composites as the optimal materials combination for electrode modification, balancing economy, sensitivity, specificity, and stability.
 
 ## Key numbers

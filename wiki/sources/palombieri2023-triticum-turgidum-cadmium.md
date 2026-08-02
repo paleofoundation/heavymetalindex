@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Palombieri et al. 2023 — Cadmium content and micronutrient characterization of Triticum turgidum subspecies
 
+## Overview
+
 This study characterized technological properties and nutritional quality (including toxic cadmium content) across multiple accessions of three Triticum turgidum subspecies — durum (standard pasta wheat), turanicum (Khorasan/KAMUT), and polonicum (Polish wheat) — grown for two seasons in Central Italy. A key finding for the wiki is the identification of a Polish wheat accession (Pol2) that showed lower cadmium content in grain compared to other accessions, along with better technological performances and higher micro- and macro-nutrient accumulation. The study demonstrates that Cd content varies among wheat subspecies and accessions, reinforcing that cultivar selection is a lever for reducing dietary Cd exposure from wheat-based foods.
 
 ## Key numbers

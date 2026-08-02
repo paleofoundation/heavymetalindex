@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # Health Canada 2021 — Guidelines for Canadian Drinking Water Quality: Aluminum
 
+## Overview
+
 Health Canada's 2021 Guideline Technical Document for Aluminum in Drinking Water, prepared with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) for total aluminum of 2.9 mg/L (2 900 µg/L) and an operational guidance (OG) value of 0.100 mg/L (100 µg/L). The MAC is a health-based value derived from a NOAEL of 30 mg Al/kg bw per day for neuromuscular effects in the Poirier et al. (2011) developmental neurotoxicity study in rats exposed to aluminum citrate; the OG value is set to limit accumulation and release of aluminum and co-occurring contaminants (As, Cr, Mn, Ni, Pb, Cu) in the distribution system and to protect treatment and infrastructure performance. The document also compiles 2012–2017 occurrence data for total aluminum across Canadian municipal and non-municipal supplies in 10 provinces/territories, summarizes Canadian dietary exposure across seven age categories, and reviews the analytical, treatment and distribution-system controls used to manage aluminum in drinking water.
 
 ## Key numbers

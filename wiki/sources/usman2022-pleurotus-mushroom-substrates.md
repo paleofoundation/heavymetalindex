@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Usman et al. 2022 - Pleurotus mushroom substrates and heavy metals
 
+## Overview
+
 Usman et al. grew Pleurotus tuberregium mushrooms on four substrate types in Aba, Nigeria and analyzed Cd, Cr, and Pb in the harvested fruiting bodies. The study is useful as mushroom occurrence evidence because it reports a direct food matrix with substrate metadata. All three target metals were below the detection limit in mushrooms grown on the tested substrates.
 
 ## Key numbers

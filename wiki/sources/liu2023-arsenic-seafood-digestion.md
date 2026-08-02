@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Liu et al. 2023 — Arsenic species transformation in seafood during in vitro digestion
 
+## Overview
+
 Liu and colleagues at Ocean University of China investigated whether organic arsenic species in seafood are converted to inorganic arsenic (iAs) during the digestive process, using an established in vitro digestion model (BARGE UBM). Their central finding is that organic arsenic forms — arsenocholine (AsC), dimethylarsinate (DMA), arsenobetaine (AsB), and monomethylarsonate (MMA) — can all be converted to As(V) during digestion at rates and extents that depend primarily on pH, digestion time, and the composition of digestion fluids. Importantly, free radicals generated during digestion appear to be the main oxidative mechanism driving the transformation. This has direct implications for arsenic risk assessment in seafood: the bioavailable iAs fraction upon absorption may be substantially higher than suggested by pre-digestion speciation analysis of the food matrix.
 
 ## Key numbers

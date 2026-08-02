@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Yao et al. 2022 — Copper, lead, cadmium, chromium, and nickel in Tieguanyin tea (Fujian, China)
 
+## Overview
+
 This study quantifies copper, lead, cadmium, chromium, and nickel in 91 Tieguanyin oolong tea samples from Fujian Province, China, characterises their transfer rates from dry leaf to brewed infusion in a fixed-protocol brewing experiment, and computes hazard quotients and lifetime carcinogenic risks for six demographic subpopulations (male/female, age 18–40/age ≥41, urban/rural) using subpopulation-specific tea consumption and body-weight inputs from the authors' previous consumption survey. It is routeable for Cu, Pb, Cd, Cr, and Ni occurrence evidence on Camellia sinensis tea (oolong-class Tieguanyin) and on Tieguanyin tea infusions in a Chinese production-region market.
 
 ## Key numbers

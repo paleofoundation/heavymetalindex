@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Hall et al. 2023 — MeHg production and bioaccumulation in tidal marsh food webs
 
+## Overview
+
 This study characterized mesoscale spatial variation in methylmercury (MeHg) production and bioaccumulation across four hydrological and geomorphological marsh features (interiors, edges, first-order channels, third-order channels) at three tidal marshes along the Petaluma River, San Francisco Bay, California. Marsh interiors had biogeochemical conditions — greater organic matter, greater sulfate reduction rates, greater MeHg production potential — that led to greater MeHg concentrations in sediments and surface water particulates. Consumer tissue MeHg concentrations were greater from marsh edges and interiors than from channels, a spatial mismatch from sediment patterns that the authors attribute to consumer behavior and physiology governing the spatial scale over which MeHg is integrated into tissues.
 
 ## Key numbers

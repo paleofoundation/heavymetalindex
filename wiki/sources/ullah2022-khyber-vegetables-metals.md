@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Ullah et al. 2022 - Khyber Pakhtunkhwa vegetables heavy metals
 
+## Overview
+
 Ullah et al. (2022) measured Pb, Cr, Cd, Cu, Zn, Ni, Fe, and Mn in water, soil, and nine edible vegetable types from peri-urban D.I. Khan, Khyber Pakhtunkhwa, Pakistan. The routeable occurrence values are the edible-vegetable metal ranges for wastewater-irrigated sectors X/Y and freshwater-irrigated sector Z. Water and soil values are pathway context and should not be pooled with vegetable occurrence values.
 
 ## Key numbers

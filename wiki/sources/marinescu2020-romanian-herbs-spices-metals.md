@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Marinescu et al. 2020 - Romanian herbs and spices metals
 
+## Overview
+
 Marinescu et al. measured arsenic, cadmium, copper, iron, mercury, and lead in 42 Romanian medicinal-plant and culinary herb/spice samples. The spice subset covers dill, marjoram, oregano, peppermint, parsley, and thyme, with packaged samples and spontaneous-flora samples. The source is routeable occurrence evidence for herbs/spices and herbal-tea matrices, but packaged and wild-growing samples should not be silently pooled because the authors observed higher cadmium in spontaneous-flora spice samples.
 
 ## Key numbers

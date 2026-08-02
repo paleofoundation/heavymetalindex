@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Jaiswal et al. 2022 — Heavy metal contamination across the full Yamuna river stretch with fuzzy-logic health risk assessment
 
+## Overview
+
 This study reports concentrations of eight metals (As, Cd, Cr, Cu, Ni, Pb, Fe, Zn) measured at 13 sites distributed across the entire 1,376 km Yamuna river in Uttar Pradesh, India, over seven years (2011–2018) in both monsoon and non-monsoon seasons. Atomic absorption spectrometry (Varian AA240 Zeeman) was used for analysis. Except for iron, mean concentrations of all metals were within WHO and BIS drinking water limits in both seasons; children's hazard indices exceeded 1 at most sites in non-monsoon season, indicating non-carcinogenic risk from cumulative multi-metal exposure. The paper introduces a fuzzy-logic hazard index (FHI) as a complement to the conventional hazard index, demonstrating that uncertain and imprecise data can be incorporated systematically into health risk frameworks.
 
 ## Key numbers

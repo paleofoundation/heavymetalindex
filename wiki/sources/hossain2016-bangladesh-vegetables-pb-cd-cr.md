@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hossain et al. 2016 - Lead, cadmium, and chromium in vegetables from Bangladesh
 
+## Overview
+
 Hossain and colleagues conducted a nationwide surveillance study of five commonly grown vegetables from Bangladesh to assess Pb, total Cr, and Cd contamination. The study covers white potato, green cabbage, red spinach, white radish, and green bean from all 64 districts, with 292 samples collected and metal-specific analytical counts of 285-290. It is useful for geographic-variance evidence because the authors report contamination rates, maxima, medians, and upper quartiles by vegetable type and link Pb occurrence to a broadly distributed national pattern.
 
 ## Key numbers

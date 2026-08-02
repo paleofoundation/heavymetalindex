@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jiang et al. 2020 — Metals in Henan village grain and vegetables near a battery factory
 
+## Overview
+
 Jiang and colleagues measured mercury, arsenic, nickel, lead, cadmium, chromium, copper, and zinc across soil, groundwater, air particulates, locally produced grain, and vegetables in a village near a battery factory in Henan Province, China. For Heavy Metal Index product occurrence, the relevant values are the wheat, corn, and vegetable concentrations reported in Table 4. Mercury and arsenic are total-element results; chromium is reported as total Cr, not Cr(VI).
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Qu et al. 2022 — Pb/Cd co-exposure via drinking water and soil, southern China
 
+## Overview
+
 This cross-sectional study measured Pb and Cd concentrations in drinking water and soil at 15 sites in two communities in Guangdong Province (southern China) and estimated average daily dose (ADD) exposures for 1,274 adult residents aged ≥40. Concentrations were measured by ICP-MS at the Public Monitoring Center for Agro-product, Guangdong Academy of Agricultural Sciences. The study then examined whether estimated Pb/Cd exposures were associated with type 2 diabetes mellitus (T2DM) and obesity indices (BMI, waist-hip ratio, waist circumference). The Dapeng/Hengqin communities are in the Pearl River Delta, a region with documented e-waste processing and associated heavy metal contamination.
 
 The primary measurement findings are that Pb and Cd pollution in local drinking water and soil was described as "serious" relative to Chinese safety standards. The health outcome analysis found no statistically significant association between ADD of Pb or Cd and T2DM (all p > 0.05). However, higher Pb ADD was inversely associated with overweight/obesity indices (1 µg/kg bw/day ADD of Pb associated with 49–56% lower likelihood of overweight, and WHR decreasing by 0.01–0.02, and WC decreasing by 2.22–4.67 cm). 1 µg/kg bw/day ADD of Cd was associated with higher likelihood of low body weight. Authors speculate Pb may cause weight loss via gastrointestinal absorption damage.

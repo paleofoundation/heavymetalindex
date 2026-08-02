@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Trueman et al. 2022 — Seasonal lead release into drinking water and the effect of aluminum (Halifax, Canada)
 
+## Overview
+
 Monitoring data and a controlled coupon experiment from Halifax, Canada demonstrate a seasonal pattern in lead release from drinking water distribution infrastructure, mediated in part by aluminum from water treatment coagulation. The authors used generalized additive models on field time-series data to identify aluminum as a correlate of lead, then confirmed the mechanism experimentally: increasing soluble aluminum from 20 to 500 µg/L increased lead release from new lead coupons by 41%, attributable to precipitation of variscite (AlPO4·2H2O) that depletes orthophosphate corrosion inhibitor and increases particulate lead transport. The findings have direct implications for lead monitoring program design and for the interaction between coagulation chemistry and lead service line management.
 
 ## Key numbers

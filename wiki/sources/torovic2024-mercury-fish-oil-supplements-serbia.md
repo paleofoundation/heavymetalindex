@@ -29,6 +29,8 @@ updated: 2026-05-26
 
 # Torović et al. 2024 — Mercury in fish oil supplements: Serbia and Srpska market
 
+## Overview
+
 This conference abstract (presented at FENS 2023, Belgrade; published 2024 in MDPI Proceedings) reports total mercury concentrations in 42 fish oil supplements from the Serbian and Bosnian-Srpska markets, determined by a direct mercury analyzer. Total mercury ranged from 0.001 to 0.0057 mg/kg, with a mean of 0.0019 ± 0.0009 mg/kg — well below the regulatory maximum level for food supplements of 0.1 mg/kg cited by the authors (jurisdiction not specified in the abstract). Risk assessment against both the US EPA oral reference dose (RfD of 0.0001 mg/kg bw/day) and EFSA tolerable weekly intake (TWI of 0.0013 mg/kg bw) used the precautionary assumption that total mercury equals methylmercury (MeHg accounts for 75–98% of total mercury in fish). Mean consumer exposure represented 0.042 ± 0.039% of RfD and 0.023 ± 0.021% of TWI; the highest individual exposure reached 0.24% of RfD and 0.13% of TWI. The authors conclude that mercury risk from fish oil supplements is negligible even for pregnant and nursing women.
 
 ## Key numbers

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Hoha et al. 2014 — Heavy metals in processed pork products, Romania
 
+## Overview
+
 A 2014 study from the University of Agricultural Sciences and Veterinary Medicine Iasi, Romania analyzed 36 samples of pork products (bacon, ham, sausage, salami) from four commercial centers in Iasi for lead (Pb), cadmium (Cd), copper (Cu), and zinc (Zn) by atomic absorption spectrophotometry. Product-type mean cadmium values in all four product types exceeded the paper-cited FAO/EC comparator of 0.1 mg/kg, while lead means were below the paper-cited 1 mg/kg comparator; the salami maximum for Pb reached 1.06 mg/kg. The authors identified spice additions during processing as a likely driver of elevated Pb and Cd in sausage and salami relative to less-seasoned bacon and ham.
 
 **Note on metals coverage:** This paper reports Pb, Cd, Cu, and Zn. Cu and Zn are retained in the `metals` frontmatter for source discoverability, but the certification-relevant signal in this source is primarily Pb/Cd because the paper reports Cu and Zn means below its cited comparators.

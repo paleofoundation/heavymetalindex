@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Hamitoglu et al. 2026 - Elements in black teas sold in Turkiye
 
+## Overview
+
 This study measured essential and toxic elements in eight black tea products sold in Turkiye, including dry leaves and prepared infusions. It is routeable for tea because the source separates dry-leaf and infusion concentrations.
 
 ## Key numbers

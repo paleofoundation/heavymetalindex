@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hampton et al. 2023 — Lead contamination in Australian game meat
 
+## Overview
+
 This study is the first systematic assessment of lead contamination in Australian game meat, examining 133 samples of four types: commercially available kangaroo (n=36) and Bennett's wallaby (n=28) products, and recreationally harvested venison (n=32) and stubble quail (n=37). Lead contamination arises from ammunition (lead-based gunshot and bullets) used in harvest. The study uses both digital radiography (to detect lead fragments) and ICP-MS (to measure total lead concentration). Venison and quail samples showed high exceedance rates of the Australian food safety threshold (0.1 mg/kg wet weight for livestock meat): 53% of venison and 86% of quail samples exceeded this threshold.
 
 ## Key numbers

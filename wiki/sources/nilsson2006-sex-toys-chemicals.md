@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Nilsson et al. 2006 - Danish EPA sex-toy chemical survey
 
+## Overview
+
 Nilsson et al. screened 16 sex-toy and fetish-clothing products for elements and organic chemicals for the Danish Environmental Protection Agency. The HMI-relevant findings are total-content ICP-MS results for metals in finished product material, a confirmed cadmium value in one hard-plastic dildo, and trimethyltin chloride in one soft-vinyl dildo with a follow-up artificial-sweat migration result. Tin and trimethyltin are kept separate: the ICP-MS table reports total elemental tin, while the GC-MS work identifies one volatile organotin species.
 
 ## Key numbers

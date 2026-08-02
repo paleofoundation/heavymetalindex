@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Qvarfort and Holmgren 2025 - game meat lead bioaccessibility
 
+## Overview
+
 Qvarfort and Holmgren measured total lead and simulated gastrointestinal release of lead from metallic fragments in wild-boar tissues collected around bullet wound channels. The study is not a representative market-occurrence survey; it deliberately sampled the most contaminated wound-channel tissues so that metallic-lead dissolution could be tested. It is useful as game-meat lead-fragment bioaccessibility context, with its measured tissue lead values kept on the source's `mg/kg ww` basis.
 
 ## Key numbers

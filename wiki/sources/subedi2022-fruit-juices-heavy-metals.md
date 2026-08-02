@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Subedi et al. 2022 - Metals in Kathmandu fruit juices and drink mixes
 
+## Overview
+
 This study measured Fe, Mn, Zn, and Pb in fresh fruit juices, packaged fruit juices, and powdered fruit drink mixes from Kathmandu Valley. Pineapple is one of the fruit flavors directly measured, so the source supports fruit-juice and pineapple-drink context.
 
 ## Key numbers

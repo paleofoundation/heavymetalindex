@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # de Lima et al. 2021 - Metals in canned tuna and sardines sold in Brazil
 
+## Overview
+
 This Data in Brief article reports ICP-OES measurements of metals, one nonmetal, and one metalloid in canned tuna and canned sardines purchased from supermarkets in Campo Grande, Mato Grosso do Sul, Brazil. The source tables use anonymized company codes; this wiki page aggregates by product form and range to avoid turning coded company rows into a brand- or company-comparison surface. Arsenic is reported as total arsenic (tAs) only; the study does not speciate inorganic arsenic.
 
 ## Key numbers

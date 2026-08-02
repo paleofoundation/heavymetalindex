@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Henriksen & Bügel 2023 — Chromium scoping review for Nordic Nutrition Recommendations 2023
 
+## Overview
+
 This scoping review synthesizes the evidence on dietary chromium (CrIII and CrVI) as the basis for setting dietary reference values in the Nordic Nutrition Recommendations 2023. Trivalent chromium (CrIII) is the principal form in foods and supplements; the review finds that food sources include fish, whole grain products, nuts, pulses, spices, and processed meats, with most foods containing less than 10 µg/100 g. Estimated adult dietary intakes in Europe are 57–84 µg/day (EFSA). The review concludes that no strong evidence justifies a dietary recommendation for chromium, given disputed essentiality and absence of documented deficiency in healthy humans. Hexavalent chromium (CrVI) is a carcinogen by inhalation (occupational exposure) and raises concern via contaminated drinking water, though human oral-exposure data are limited.
 
 ## Key numbers

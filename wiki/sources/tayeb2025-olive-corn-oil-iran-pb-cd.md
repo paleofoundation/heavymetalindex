@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Tayeb and Movassaghghazani 2025 — Lead and cadmium in olive and corn oils, northern Iran
 
+## Overview
+
 This study measured lead and cadmium in 60 commercial and traditional olive and corn oil samples from Gonbad-Kavus City in northern Iran using graphite furnace atomic absorption spectrometry (GFAAS) after microwave digestion. All samples had quantifiable Pb and Cd levels; all Pb concentrations were below the 80 µg/kg ISIRI (Iranian national) limit. Hazard Index (HI) values were below 1 for all oils, indicating no non-carcinogenic risk. However, the Margin of Exposure (MOE) for lead in traditional olive oil was below 10,000, signaling a concern for potential carcinogenic risk in that specific product type.
 
 ## Key numbers

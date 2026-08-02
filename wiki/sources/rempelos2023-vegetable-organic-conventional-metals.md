@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Rempelos et al. 2023 - Cd, Ni, and Pb in UK field vegetables under organic and conventional protocols
 
+## Overview
+
 Rempelos and colleagues analyzed harvested potato tubers, cabbage heads, lettuce heads, and onion bulbs from the long-term Nafferton Factorial Systems Comparison trials in Northumberland, UK. The paper reports cadmium, nickel, and lead concentrations on a fresh-weight basis as main-effect means under organic versus conventional crop protection, mineral NPK versus cattle farmyard manure fertilization, and spring-bean versus winter-barley pre-crops. The source is routeable as summary-level vegetable occurrence evidence and as supply-chain evidence that fertilization regime can shift Cd and Ni in harvested vegetables.
 
 ## Key numbers

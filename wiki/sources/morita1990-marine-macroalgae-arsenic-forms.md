@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Morita and Shibata 1990 - chemical forms of arsenic in marine macroalgae
 
+## Overview
+
 Morita and Shibata reviewed water-soluble and lipid-soluble arsenic compounds in marine macroalgae and added a HPLC/ICP/MS species-map table for Japanese algae. The paper is useful speciation context for seaweed because it separates total arsenic, lipid-phase arsenic, water-phase arsenic, arsenosugars, arsenate, and unidentified arsenicals. It should not be read as a modern market-occurrence survey, and the symbol-coded species map should not be converted into exact inorganic-arsenic concentrations.
 
 ## Key numbers

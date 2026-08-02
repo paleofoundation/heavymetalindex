@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Limmer & Seyferth 2024 — Irrigation management controls iAs and Cd concentrations in polished rice grain
 
+## Overview
+
 This field experiment at the University of Delaware quantified inorganic arsenic (iAs) and cadmium (Cd) in polished rice grain under six distinct irrigation management regimes across two growing seasons, demonstrating that irrigation strategy is the primary agronomic lever controlling the opposing accumulation dynamics of iAs (elevated under flooded anaerobic conditions) and Cd (elevated under aerobic drained conditions). The study used IC-ICP-MS for arsenic speciation, reporting iAs, DMA, MMA, and TMAO fractions separately; cadmium was measured by ICP-MS. Results confirm that no single irrigation regime simultaneously minimizes both iAs and Cd, and that mid-season drainage strategies offer the best compromise. This is a high-quality intervention study directly relevant to agronomic mitigation strategies for two HMT&C-priority analytes.
 
 ## Key numbers

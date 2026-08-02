@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This PNAS study uses mercury stable isotope analysis to demonstrate that methylmercury (MeHg) in pelagic marine food webs originates predominantly from small particles (<53 µm) in the upper 400 m of the water column, rather than from dissolved seawater or deep-water sources as previously assumed. The isotopic signatures of MeHg in marine organisms match those of marine particles rather than dissolved MeHg, fundamentally revising the mechanistic understanding of how MeHg enters pelagic fish. The finding is relevant to understanding why epipelagic and mesopelagic fish accumulate MeHg and has implications for predicting MeHg bioaccumulation in commercially important seafood species.
 
 ## Key numbers

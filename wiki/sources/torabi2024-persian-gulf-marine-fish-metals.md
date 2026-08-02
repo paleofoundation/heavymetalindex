@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Torabi 2024 - metals in marine fish from the northwest Persian Gulf
 
+## Overview
+
 Torabi and colleagues measured nickel, zinc, copper, lead, and cadmium in muscle tissue from `60` marine fish caught along the northwest Persian Gulf. The abstract and Discussion report aggregate mean concentrations in `µg/g wet weight`, while Table 3 prints much larger species-level values and labels them as `milligrams per gram of wet weight`. Because that table/unit conflict is substantial, this page preserves the source text without reconciling the values.
 
 ## Key numbers

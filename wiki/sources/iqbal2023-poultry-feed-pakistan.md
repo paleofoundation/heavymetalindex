@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Iqbal et al. 2023 — Heavy metals in poultry feed and poultry products from Rawalpindi/Islamabad farms
 
+## Overview
+
 This Saudi Journal of Medical and Pharmaceutical Sciences article reports concentrations of Pb, Cd, Cr, Hg, and Fe in solid feed, water, liver, breast muscle, thigh muscle, egg albumen, egg yolk, and whole eggs from six poultry farms in Rawalpindi and Islamabad, Pakistan. Mercury was not detected in any sample; lead was present in feed and most tissues with farm-level values often above WHO permissible limits; iron in liver and chromium in feed and certain tissues were similarly elevated. Liver accumulated the highest Fe and Cd concentrations among the tissues.
 
 ## Key numbers

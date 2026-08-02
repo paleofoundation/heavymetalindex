@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Howard et al. 2023 - Chitosan@DOTAGA lead and cadmium chelation
 
+## Overview
+
 Howard and colleagues evaluated a DOTAGA-functionalized chitosan polymer as an orally administered strategy to reduce absorption and toxicity from lead and cadmium in contaminated food and water. This is mitigation and health-mechanism evidence: the source reports polymer chelation, gastrointestinal transit, and mouse exposure outcomes after contaminated feed, but it does not report consumer-product occurrence concentrations for HMTc benchmark pooling.
 
 ## Key numbers

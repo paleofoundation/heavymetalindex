@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Raju et al. 2021 — Cadmium and lead in freshwater clam and marine mussel, Cagayan Valley, Philippines
 
+## Overview
+
 This paper measured Pb and Cd in soft tissues of two bivalve species collected from Cagayan Valley, Philippines: freshwater clam (*Corbicula fluminea*) and marine mussel (*Mytilus edulis*). The tissue was digested in nitric acid and analyzed by graphite furnace atomic absorption spectrophotometry (GFAAS). Reported concentrations were low relative to the Malaysian comparator values used by the authors, but the study is a thin regional data point: the number of individual specimens is not reported, the results are single species-level values without variability statistics, and no Philippine regulatory framework is cited.
 
 ## Key numbers

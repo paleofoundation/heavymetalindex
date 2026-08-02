@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Lee et al. 2017 - Metal migration from camping cooking utensils
 
+## Overview
+
 Lee et al. tested hazardous-metal migration from camping cooking utensils under different use environments. The study directly supports cookware and metal-utensil pages because it compares distilled water, 0.5 percent citric acid, and 1 percent NaCl simulants, with and without bottom scratches. Acidic and salty conditions increased selected metal release, and physical scratches increased overall migration.
 
 ## Key numbers

@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Ding, Shi, Qie, Li, Xi 2023 — Heavy metals (Cd, Pb, As, Hg) and child autistic disorder meta-analysis
 
+## Overview
+
 This Frontiers in Pediatrics meta-analysis pooled 53 case-control studies (5,054 participants; 2,533 ASD cases and 2,521 healthy controls, all aged <18) to test whether children with Autistic Disorder carry higher body burdens of cadmium, lead, arsenic, and mercury than healthy controls. Hair, blood, urine, fingernail, and tooth measurements were extracted from primary studies indexed in PubMed, Web of Science, Embase, and the Cochrane Library from inception through October 2022. The pooled standardized mean differences show ASD children carry significantly higher Pb, As, and Hg body burdens (P<0.001 for each) than healthy controls; Cd did not separate the two groups overall (P>0.05) but did differ by region. Effect direction varied strongly by geographic region: ASD-control differences were largest in Asian and European studies and reversed in North American studies for Cd, As, and Hg.
 
 ## Key numbers

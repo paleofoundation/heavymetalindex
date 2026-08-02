@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Ash et al. 2016 - shredded-card soil-washing filter
 
+## Overview
+
 Ash and colleagues tested shredded card as a post-soil-washing filter for As, Cd, and Pb mobilized from contaminated Czech forest soil by organic acid, salt, and water leachates. This is mitigation evidence, not mineral-water or product occurrence evidence: all reported values are contaminated-soil, leachate, shredded-card sorption, or desorption endpoints.
 
 ## Key numbers

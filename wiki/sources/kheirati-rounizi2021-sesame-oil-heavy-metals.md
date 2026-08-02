@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Kheirati Rounizi et al. 2021 - Heavy metals in sesame oils by extraction method
 
+## Overview
+
 Kheirati Rounizi and colleagues compared sesame seed, traditional Ardeh oil, cold-pressed virgin sesame oil, and refined sesame oil for fatty-acid composition, oil-quality metrics, heavy metals, and non-cancer risk estimates. This is routeable sesame-oil occurrence evidence because Table 5 reports As, Pb, Cd, Zn, and Cu concentrations in three edible sesame-oil preparations on an mg/kg basis.
 
 ## Key numbers

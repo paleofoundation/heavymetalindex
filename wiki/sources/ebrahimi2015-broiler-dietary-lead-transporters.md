@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Ebrahimi et al. 2015 - Dietary lead effects on broiler intestinal transporters
 
+## Overview
+
 Ebrahimi and colleagues tested whether dietary lead acetate suppresses broiler growth and intestinal nutrient-transporter expression. This is animal-feed toxicology and exposure-pathway evidence, not a supplement or enzyme product occurrence survey. The page records the source's exact lead-dose, analyzed diet concentration, ingestion, and tissue-retention values while keeping the graphical gene-expression results qualitative where no table values are printed.
 
 ## Key numbers

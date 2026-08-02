@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Modddaresi and Yu 2022 - cosmetics heavy-metal limits and analytical tests
 
+## Overview
+
 Modddaresi and Yu review cosmetic heavy-metal impurity controls across the EU/UK, United States, Canada, China, India, and German BVL technical guidance. The paper does not report new finished-product measurements; its useful content is regulatory context and method comparison for Pb, As, Cd, Hg, Sb, and related trace metals. This page is therefore context-only and should not be routed into product occurrence pools.
 
 ## Key numbers

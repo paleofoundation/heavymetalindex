@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Tang et al. 2024 - Spent mushroom residue, soil fertility, and soil metals
 
+## Overview
+
 Tang and colleagues tested whether returning spent mushroom residues to a rice-wheat rotation field improved crop yield and soil fertility while changing soil Pb, Cd, and Cr accumulation. This is primary agronomic soil evidence, not crop-metal occurrence evidence: the paper reports rice and wheat grain yields, but heavy-metal concentrations are measured in soil and spent mushroom residues, not in harvested grain.
 
 ## Key numbers

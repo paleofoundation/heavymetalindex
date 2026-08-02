@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Jasińska et al. 2019 - Cadmium and zinc in cultivated Agaricus subrufescens
 
+## Overview
+
 Jasińska and colleagues measured zinc and cadmium in the gourmet and medicinal mushroom Agaricus subrufescens and related concentrations to cultivation conditions. The study is routeable for mushroom occurrence context because it reports cadmium concentrations in fruiting bodies and substrates. It is an experimental cultivation source, not a retail-market survey.
 
 ## Key numbers

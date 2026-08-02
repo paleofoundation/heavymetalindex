@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Guadalupe et al. 2023 - heavy metals in Peruvian coffee
 
+## Overview
+
 Guadalupe and colleagues measured inorganic arsenic, cadmium, chromium, mercury, and lead in Peruvian parchment coffee beans and modeled changes through hulling, roasting, and brewing. Cd and Hg were below detection limits, while iAs, Cr, and Pb varied by region, with San Martin showing the highest regional means.
 
 ## Key numbers

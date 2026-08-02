@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Taghavi et al. 2023 - trace elements in saffron-cultivation soils
 
+## Overview
+
 Taghavi and colleagues measured trace elements in agricultural soils used for saffron cultivation in Gonabad County, Iran. This is upstream supply-chain evidence: it reports the soil reservoir and soil-exposure indices that can inform saffron-origin contamination context, but it does not measure saffron stigmas or finished spice. The page therefore treats the values as soil-to-crop pathway context, not as saffron occurrence data.
 
 ## Key numbers

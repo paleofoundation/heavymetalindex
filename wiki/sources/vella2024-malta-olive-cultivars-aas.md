@@ -28,6 +28,8 @@ updated: 2026-05-28
 
 # Vella et al. 2024 — Heavy metals in Maltese oil-olive cultivars and mill waste via FAAS
 
+## Overview
+
 This study measured iron, copper, cobalt, nickel, zinc, cadmium, and strontium in four olive cultivars (Carolea, Cipressina, Leccino, Bidni) grown in Malta and sampled from a single cultivator's October 2023 harvest, using Flame Atomic Absorption Spectrometry (FAAS) with the method of standard additions. Analytes were measured across four fractions — skin, pit, solid waste, and liquid waste from a two-phase continuous-centrifugation mill — to characterise distribution within the olive and its processing byproducts. The authors emphasise that the olives sampled were grown for olive-oil production, not as table olives, which constrains the direct applicability of EU Regulation 2023/915 (a table-olive cadmium limit of 0.02 mg/kg) and the Codex Alimentarius vegetable cadmium limit of 0.2 mg/kg. The cadmium finding is methodologically compromised: FAAS was insufficiently sensitive at the low concentrations regulated for table olives, producing standard errors equal to or larger than the measured values (0.2–1.1 mg/kg SE on 0.4–2.1 mg/kg means), so no defensible conclusion on regulatory compliance could be drawn for cadmium. For all other metals, results were treated as valid; statistical testing (Shapiro–Wilk, one-way ANOVA, Kruskal–Wallis at α = 0.05) found no significant difference in concentration between cultivars but significant differences between fractions for several metals, particularly between the liquid waste fraction and the solid fractions.
 
 ## Key numbers

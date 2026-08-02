@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Rahman 2007 - total arsenic distribution across Bangladesh rice grain fractions
 
+## Overview
+
 Rahman and colleagues measured total arsenic in rice plants and milled rice fractions from two Bangladesh rice varieties grown in arsenic-affected Satkhira district fields. The paper reports dry-weight total arsenic values for raw rice, brown rice, bran-polish, polish rice, husk, straw, root, soil, and irrigation water. For HMI routing, the edible rice-grain values are the product occurrence data; soil, water, straw, root, husk, and bran-polish values are supply-chain context rather than direct rice-bulk-grain occurrence rows.
 
 ## Key numbers

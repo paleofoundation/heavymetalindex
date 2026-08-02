@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Patil et al. 2022 — Rice-residue biochar and cadmium bioavailability to Indian mustard
 
+## Overview
+
 This screen-house study tested rice-residue biochar as an amendment to immobilize cadmium (under combined Cd+Pb spiking) and reduce its uptake by Indian mustard (*Brassica juncea*). It is upstream agronomic-mitigation mechanism evidence on cadmium soil-to-plant transfer; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

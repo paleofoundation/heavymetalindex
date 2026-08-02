@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Mostofa et al. 2015 — Hydrogen sulfide modulates Cd-induced responses in rice
 
+## Overview
+
 A controlled hydroponic experiment on rice seedlings (Oryza sativa L. cv. BRRI dhan52) examining how exogenous hydrogen sulfide, supplied as sodium hydrosulfide (NaHS), alters cadmium uptake, mineral homeostasis, oxidative stress, and antioxidant defense under pharmacological CdCl2 exposure. The paper is mechanistic plant-biology evidence on the rice–cadmium interaction; it does not measure cadmium in rice grain as sold or consumed, and the CdCl2 doses (250–1000 µM) are well above environmentally relevant soil-pore-water concentrations. Relevance to the wiki is as supporting evidence for how rice plants respond to cadmium stress at the seedling stage, the role of sulfur-containing metabolites in restricting cadmium translocation, and the underlying biochemistry that informs sulfur-amendment mitigation strategies.
 
 ## Key numbers

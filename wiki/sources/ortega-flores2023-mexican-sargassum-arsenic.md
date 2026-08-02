@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ortega-Flores et al. 2023 - Mexican Sargassum arsenic
 
+## Overview
+
 Ortega-Flores et al. measured inorganic arsenic in stranded holopelagic *Sargassum* biomass from the Mexican Caribbean over a full seasonal cycle. The same sample set had total arsenic reported previously, and this paper adds iAs by morphotype and season. The values are raw stranded biomass on a dry-weight basis, not washed or processed seaweed food.
 
 ## Key numbers

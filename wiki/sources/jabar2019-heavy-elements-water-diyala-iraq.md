@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Jabar & Al-Kamal 2019 — Heavy elements in Diyala Governorate water sources, Iraq
 
+## Overview
+
 This study measured lead, cadmium, copper, and chromium by flame atomic absorption spectroscopy in water samples drawn from six source types in Diyala Governorate, Iraq: the Diyala River, the Khirisan River, municipal tap water, bottled drinking water (two unnamed companies, ozone-sterilized), filtered tap water, and three groundwater wells. The authors report copper concentrations within WHO and Iraqi drinking-water limits across all source types, while lead, cadmium, and chromium concentrations substantially exceeded WHO and Iraqi standards in multiple source types — most prominently 109× the WHO Pb limit in Diyala River water, 274× the WHO Cd limit in well water (the source's stated multiplier; strict arithmetic 0.820/0.003 = 273.3×), and roughly 20× the WHO Cr limit in well water and filtered tap water. The reported concentrations are extraordinarily high for drinking-water FAAS measurements and are reported without LOD/LOQ, reference-material recoveries, or QA/QC documentation, so the page is treated as B-tier regional contextual evidence rather than as defensible per-sample occurrence data.
 
 ## Key numbers

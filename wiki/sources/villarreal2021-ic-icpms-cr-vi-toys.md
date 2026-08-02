@@ -36,6 +36,8 @@ updated: 2026-06-01
 
 # Villarreal, Naels and Garnier 2021 — IC-ICPMS quantification of hexavalent chromium in toys per EN 71-3:2019
 
+## Overview
+
 This Thermo Fisher Scientific Application Brief (AB000383, document code AB000383-EN 1121S, © 2021) describes an optimized ion-chromatography / inductively-coupled-plasma mass-spectrometry (IC-ICPMS) workflow on a Thermo Scientific Dionex ICS-6000 IC coupled to a Thermo Scientific iCAP RQ ICP-MS for the speciation and quantification of hexavalent chromium [Cr(VI)] migration from toy materials in compliance with the European toy safety standard EN 71-3:2019. The Brief's primary contribution is methodological — demonstrating that the optimized IC-ICPMS configuration achieves a Cr(VI) instrumental detection limit (3σ) of 0.35 ng/L and a working method quantification of 0.002 µg/L (equivalent to 0.25 µg/kg in the toy material under the EN 71-3 extraction conditions), approximately 20× below the current 0.005 mg/kg EN 71-3:2019 migration limit for category III (scraped-off) materials. Three method-validation samples (glue, plastic toy, paint) were analyzed as the application demonstration: all returned non-detect for Cr(VI) in the migration extract, and spike-recovery in the same matrices ranged from 98% to 109% across the three samples. The Brief is a vendor application note, not a peer-reviewed paper, and the validation-sample data cannot support occurrence claims; the page is filed for its methodological and regulatory-context content.
 
 ## Key numbers

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Nassar et al. (2025) develop and validate a spectrophotometric method for the determination of cadmium(II) (Cd2+) using a chromogenic reagent. The method provides LOD and LOQ data for Cd in reagent-grade and potentially environmental matrices.
 
 ## Key numbers

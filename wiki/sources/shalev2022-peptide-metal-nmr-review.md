@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Shalev 2022 — Solution-state NMR methods for studying peptide-metal ion complex structures
 
+## Overview
+
 Shalev (Department of Pharmaceutical Engineering, Azrieli College of Engineering Jerusalem, with a joint appointment at the Wolfson Centre for Applied Structural Biology, Hebrew University of Jerusalem) reviews solution-state nuclear magnetic resonance (NMR) approaches for characterising the structure of peptide-metal ion complexes. The review systematically surveys the published NMR literature on each of the ten essential metals (Na, K, Mg, Ca, Fe, Mn, Co, Cu, Zn, Mo — with copper split methodologically into diamagnetic Cu(I) and paramagnetic Cu(II) cases) and several biologically relevant non-essential metals (Al, Ni, Ga, Pd, Ag, Pt, lanthanides), framed around the diamagnetic-versus-paramagnetic distinction that drives NMR experiment selection. The review is a secondary methodological synthesis with no primary measurements; its value to the wiki is as a NMR-methods background reference for any downstream page that discusses peptide-metal coordination chemistry, ATCUN-motif Cu/Ni binding, aluminum-amyloid interactions, or the use of solution NMR as a characterisation tool for chelation studies.
 
 ## Why this matters

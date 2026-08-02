@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Barkodia, Tiwari & Yadav 2020 — Heavy metals in detergent samples from Jhansi, India
 
+## Overview
+
 A short undergraduate-led study from the Department of Chemistry, Bipin Bihari Degree College (Jhansi, Uttar Pradesh) measuring iron, copper, manganese and zinc in six commercially marketed household detergents purchased on the Jhansi retail market and analysed by double-beam flame atomic absorption spectrometry (Chemito AA203D). The headline finding is that Fe, Mn and Zn fell within the Indian drinking-water tolerance limits (BIS 10500:1991) on a per-gram-of-product basis, while copper at 0.48-0.69 mg/kg in every sample exceeded the 0.05 mg/L drinking-water permissible limit by roughly 10-14×, though remained below the 1.5 mg/L tolerance limit for inland surface water (IS 2296-1982). None of the four analytes is on the Heavy Metal Index priority panel (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn); the paper's relevance to HMI is as a non-priority-metals baseline for South Asian laundry-detergent formulations and as one of the few publicly available analytical-chemistry datasets from the Indian market in this product category. JETIR is an open-access journal that has been flagged in several index-quality assessments as predatory or near-predatory; the analytical methodology (AAS wavelengths, digestion protocol) is conventional, but the small sample size, single-laboratory single-run design, absence of QC/replicate structure, and several internal text-vs-table inconsistencies (see Limitations) place this source in the C-tier on the HMI evidence ladder.
 
 ## Key numbers

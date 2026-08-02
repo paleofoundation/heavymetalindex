@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Balali-Mood, Naseri, Tahergorabi, Khazdair, Sadeghi 2021 — Toxic mechanisms of five heavy metals: mercury, lead, chromium, cadmium, and arsenic
 
+## Overview
+
 This Frontiers in Pharmacology review from the Birjand University of Medical Sciences Medical Toxicology and Drug Abuse Research Center is the canonical mechanistic-toxicology cross-cutting reference for the five regulated toxic heavy metals (Hg, Pb, Cr, Cd, As). The paper consolidates the shared toxicity pathways — ROS generation, weakening of antioxidant defense, enzyme inactivation, oxidative stress — and the metal-specific mechanisms (Pb binding to aminolevulinic acid dehydratase and ferrochelatase blocking heme biosynthesis; Cr(VI) ternary DNA adducts via ascorbate reduction; Cd glutathione depletion and metallothionein binding; iAs SAM-depleting methylation and BER/NER inhibition; Hg thiol affinity disrupting selenoenzymes). Carcinogenicity of Cr, Cd, and iAs is attributed to oxidative stress-induced DNA damage combined with repair-pathway inhibition. The review is the cross-metal anchor that wiki pages on these five metals should cite for mechanistic context, in parallel with the metal-specific primary references.
 
 ## Key mechanistic findings

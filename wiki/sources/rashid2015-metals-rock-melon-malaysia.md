@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Rashid and Yaacob 2015 — Metal contamination in rock melon and coco peat from Malaysian farms
 
+## Overview
+
 Rock melon fruits (Cucumis melo, cultivar 'Glamour', n=70) from five Malaysian farm locations — selected because preliminary testing had already shown elevated metals — were analyzed for Al, B, Co, Cr, Cu, Fe, Mn, Ni, Pb, and Zn by ICP-OES. Six of the ten elements (Al, Cr, Cu, Fe, Pb, Zn) exceeded Malaysian Food Act (1983) / Malaysian Food Regulation (1985) maximum allowable limits (MALs) in the fruit; B, Mn, and Ni did not exceed; Co was not detected. The coco peat growth medium used in the fertigation system also showed elevated metals (Al, Cu, Fe, Mn, Ni, Pb above MAL in coco peat), which the authors propose as a contamination pathway pending confirmatory work.
 
 ## Key numbers

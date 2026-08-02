@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Sund et al. 2026 - processing effects on potentially toxic elements in sugar kelp
 
+## Overview
+
 Sund and coauthors compared pulsed electric field processing with warm-water treatment for reducing iodine and potentially toxic elements in Saccharina latissima. The source is processing and mitigation evidence for seaweed-kelp foods. It reports that PEF at the highest level reduced iodine by 25%, warm-water treatment reduced iodine by 19%, and PEF retained less lead than warm-water treatment.
 
 ## Key numbers

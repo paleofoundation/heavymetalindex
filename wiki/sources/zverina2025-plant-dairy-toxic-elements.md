@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zvěřina et al. 2025 — Essential and toxic elements in plant-based dairy alternatives (Czech Republic market)
 
+## Overview
+
 Zvěřina and colleagues at Masaryk University, the Czech Academy of Sciences, and Comenius University in Bratislava measured four essential elements (Ca, P, Fe, Zn) and two toxic elements (Cd, Pb) in 54 plant-based dairy alternative (PBDA) samples drawn from the Czech market and from a laboratory-prepared homemade oilseed-milk panel. Calcium, phosphorus, iron and zinc were quantified by high-resolution continuum source flame atomic absorption spectrometry (HR-CS FAAS, Ca) or electrothermal atomic absorption spectrometry (HR-CS ETAAS, Fe, P, Zn); cadmium and lead were quantified by HR-CS ETAAS on the same digests. Non-fortified PBDAs were markedly poorer in Ca, Fe and Zn than the cow's-milk reference range, with median Ca in store-bought plant milks 25-fold lower than cow's milk (4.71 vs roughly 120 mg/100 mL) and median Ca/P ratios below the 1.1–2 ESPGHAN window in every PBDA category except cheese alternatives. Lead concentrations were below the 7 µg/kg limit of detection in every sample (store-bought and homemade alike). Cadmium concentrations were below the 0.7 µg/kg LOD in store-bought milks, creams, yogurts, cheeses, and in sesame-seed homemade milks, but were elevated in tofu (median 14.5 µg/kg) and in three of the homemade oilseed milks (median Cd: flax 18.3 µg/kg, pumpkin 1.2 µg/kg, hemp 1.0 µg/kg). Homemade poppy-seed milk carried the highest Cd burden by an order of magnitude (median 58.8 µg/kg, range 13.4 to 85.0 µg/kg), reflecting the well-documented cadmium-accumulation behaviour of *Papaver somniferum*.
 
 ## Why this matters

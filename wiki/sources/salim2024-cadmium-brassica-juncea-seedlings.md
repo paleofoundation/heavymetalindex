@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Salim et al. 2024 — Cadmium-induced morpho-physiological changes in Brassica juncea seedlings
 
+## Overview
+
 This germination-tray study characterized the morpho-physiological and biochemical response of mustard (*Brassica juncea*) seedlings to cadmium exposure. It is upstream mechanism evidence on cadmium uptake and tolerance in a Brassica crop; it reports no retail food occurrence and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers

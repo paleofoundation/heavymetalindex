@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Uneyama 2007 - Arsenic in foods cumulative data
 
+## Overview
+
 Uneyama and colleagues collated arsenic measurements across many food categories, with data drawn from published papers, Japanese local-authority research databases, and food-safety surveillance reports. The review grouped the data into crops, milk/meat/egg, fish, algae, seafood, and others, then estimated inorganic-arsenic ratios for selected food groups. This is secondary cumulative evidence, not a primary market survey, and total arsenic and inorganic arsenic must remain separate.
 
 ## Key numbers

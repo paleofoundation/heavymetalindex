@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Guerra Sierra et al. 2021 — Phytoremediation of heavy metals in tropical soils
 
+## Overview
+
 Guerra Sierra and colleagues review the characteristics of tropical soils, the principal anthropogenic sources of heavy metal contamination affecting them, and the plant species and mechanisms relevant to phytoremediation in tropical and subtropical settings. The article is a narrative review, not a primary measurement study; it pulls regulatory soil limits, plant-accumulator examples, and emerging-contaminant context (nanoagrochemicals, pesticide residues, biofertiliser-derived metals) from the cited literature. For Heavy Metal Index purposes the source is context-only: it does not measure metal occurrence in food, ingredients, or consumer products.
 
 ## Key numbers

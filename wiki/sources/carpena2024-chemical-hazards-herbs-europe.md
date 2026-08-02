@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Carpena et al. 2024 — Chemical hazards in herbs consumed in Europe (conference proceedings)
 
+## Overview
+
 This 8-page conference proceedings paper from IECTO2024 (MDPI Proceedings) reviews chemical hazards in herbs and spices ("wild edible plants" in the authors' framing) consumed in Europe, drawing on a non-systematic literature search and on RASFF notification data from 2013 to 2023. The paper is primarily concerned with mycotoxins (aflatoxins, ochratoxin A), pyrrolizidine alkaloids (PAs), unauthorised dyes (Sudan I–IV), and pesticide residues (chlorpyrifos, ethylene oxide); heavy metals (Cd, Pb, Hg) appear in the RASFF chemical-hazard bar chart and in the abstract framing but receive no quantitative treatment and no primary concentration data. The RASFF analysis reports 1,133 notifications for herbs and spices over the ten-year window. The paper is funded through the EU-FORA EFSA Fellowship Programme.
 
 ## Key numbers

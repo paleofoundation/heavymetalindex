@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Guo 2017 - Asian rice-derived products metals
 
+## Overview
+
 Guo and colleagues measured trace elements and heavy metals in Asian rice-derived food products purchased from oriental markets in Jackson, Mississippi. The study covered rice noodles, rice vinegar/wine, and rice snacks, with product origins spanning several Asian countries and one USA-labeled vinegar/wine product. The source reports category-level findings and brand-labeled figures; this page preserves the category findings and does not attach contamination values to brand names.
 
 ## Key numbers

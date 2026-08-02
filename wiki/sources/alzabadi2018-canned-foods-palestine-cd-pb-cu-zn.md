@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Al Zabadi et al. 2018 — Cd, Pb, Cu, and Zn in Palestinian canned foods
 
+## Overview
+
 This study quantified cadmium, lead, copper, and zinc in 16 canned food samples — four products (beans, chickpeas, corn, mushroom) with four different brand-product combinations each — sold in a single supermarket in Nablus, Palestine, using flame atomic absorption spectrometry (FAAS, Thermo Scientific iCE-3000 series). Samples originated from Thailand, China, the United Arab Emirates, Jordan, and Palestine. Concentrations are reported in mg/L of the digestion solution (5 g sample digested into 50 mL final volume; on a wet-weight food basis this corresponds to a 10× multiplier into mg/kg). Cadmium and copper concentrations exceeded the authors' stated permissible-limit references in multiple samples; lead exceeded its 1 mg/L reference in one canned corn sample; zinc was within the cited reference across the dataset.
 
 ## Key numbers

@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A BODIPY dye combined with sporopollenin (a biopolymer from pollen exine) was used as a fluorescence sensor for Hg2+ detection in tap water. The paper focuses on sensor development; no food matrix samples are reported.
 
 ## Key numbers

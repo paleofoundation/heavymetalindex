@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Al-Otaibi et al. 2024 - Heavy metals and antibiotic resistance genes in Wadi Hanifah water
 
+## Overview
+
 Al-Otaibi and colleagues sampled Wadi Hanifah surface water in Riyadh, Saudi Arabia, for Li, Be, Cr, Co, total As, Cd, Sn, total Hg, Pb, and antibiotic-resistance genes. The source is primary environmental-water evidence and microbiome/AMR context, not food-product or drinking-water occurrence evidence. Its most useful contribution is the paired metal and ARG screening: the paper reports higher ARG burden upstream, while heavy-metal and ARG correlation was weak and not statistically significant.
 
 ## Key numbers

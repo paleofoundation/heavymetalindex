@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Bae, Kwon & Kim 2018 — Safety-assessment framework review for disposable absorbent hygiene pads
 
+## Overview
+
 This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers, feminine hygiene pads, and adult incontinence diapers — including hazard identification, hazard characterization, exposure assessment, risk characterization, clinical evaluation, and post-market surveillance. It is a methodology synthesis with no primary measurement data of its own. Heavy-metal content is limited to a regulatory listing — the Korea MFDS restriction list for baby-diaper "Sanitary Products" names eight metal contaminants (antimony, barium, cadmium, chromium, lead, mercury, arsenic, selenium) without quantitative limits or measured values — and a single secondary citation of organotin (tin) exposure from baby diapers in Šmajgl & Obhođaš 2015 (already ingested at [[sources/smajgl2015-tin-baby-diapers-croatia]]). The paper is ingested as an out-of-core-scope methodology and regulatory-context reference; `metals: []` is correct per the precedent set by [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] (phthalate-only paper ingested for the paired diaper + urine + biomarker design). The exposure-model equations (Section 3.2.1) and the direct-contact / indirect-reflux pathway distinction (Section 3.2.2, 3.2.3) are reusable for HMI heavy-metals modeling once primary metal measurements in diaper or pad materials become available in the corpus.
 
 ## Key numbers

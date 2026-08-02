@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ichikawa et al. 2010 - hijiki arsenic ingestion and excretion in mice
 
+## Overview
+
 Ichikawa and colleagues measured arsenic species in supplied hijiki before and after cooking, then administered cooked or dried hijiki to mice to study excretion and residual tissue arsenic. The occurrence-relevant data are the Table 2 concentrations in cooked and dried hijiki; urine, feces, and mouse-tissue results are exposure/metabolism context only. The source keeps inorganic arsenic distinct from total arsenic.
 
 ## Key numbers

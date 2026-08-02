@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Meligy et al. 2024 — Toxic and essential elements in camel meat and offal, Saudi Arabia
 
+## Overview
+
 This study measured concentrations of five elements (Co, Cr, Mn, Se, As) categorized as potentially toxic or essential in multiple tissue types of Camelus dromedarius (one-humped camel) from three breeds in Saudi Arabia. Matrices include muscle tissue (meat), liver, kidney, spleen, lung (offal), hair, and blood. Graphite furnace AAS (GFAAS) was the analytical method. Estimated daily intake (EDI) values were calculated for human consumers of camel meat and offal.
 
 ## Key numbers

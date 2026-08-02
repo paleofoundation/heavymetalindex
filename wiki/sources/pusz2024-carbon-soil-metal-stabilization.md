@@ -28,6 +28,8 @@ updated: 2026-06-02
 
 # Pusz et al. 2024 — Brown coal and activated carbon stabilization of Pb, Cd, Cr, Zn, Cu, Ni in Polish industrial-waste soils planted with Medicago falcata
 
+## Overview
+
 Pusz and colleagues compared two carbon-based soil amendments, brown coal and activated carbon at single (200 g per 10 kg soil) and double (400 g per 10 kg soil) doses, for their ability to immobilize Pb, Cd, Cr, Zn, Cu, and Ni in five Polish industrial-waste soils and to reduce uptake of those metals by Medicago falcata L. roots and shoots. Activated carbon outperformed brown coal at both doses on every metal in EDTA-extractable form and in plant-tissue concentration. Both amendments eliminated the 21–44% root-growth inhibition and 0–25% shoot-growth inhibition observed on the unamended polluted soils. The paper also reports Pollution Index (PI), Pollution Load Index (PLI), non-carcinogenic Hazard Quotient (HQ), and carcinogenic Individual Lifetime Cancer Risk (ILCR) for soil-borne exposure before and after amendment. The source is a single pot-experiment trial on industrial-waste soils with one test plant and one vegetation cycle; it is primary remediation and phytotoxicity evidence, not food, ingredient, or consumer-product occurrence evidence.
 
 ## Key numbers

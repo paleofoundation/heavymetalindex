@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Klein et al. 2017 — Trace elements in human milk across four populations
 
+## Overview
+
 Klein and colleagues measured five essential trace elements (Ca, Zn, Fe, Cu, Mn) and three toxic elements (Pb, As, Cd) in human milk from 70 lactating mothers across four populations: an urban US sample (Boston, n=20), rural Polish villagers from the Mogielica Human Ecology Study Site (n=23), indigenous Qom women of northeastern Argentina (n=21), and semi-nomadic Himba women of northern Namibia (n=6). Concentrations of all elements except zinc varied significantly across populations after controlling for infant age, infant sex, and maternal parity. Cadmium was below the limit of detection in every sample and was excluded from analysis. Mean lead concentrations were low compared with recently published values from other populations, but mean arsenic concentrations were 2 to 5-fold higher than recently reported Taiwanese and Swedish values. This is a small-sample, broadly geographic human-milk exposure paper; it is not an infant-formula, commercial dairy, or product source.
 
 ## Key numbers

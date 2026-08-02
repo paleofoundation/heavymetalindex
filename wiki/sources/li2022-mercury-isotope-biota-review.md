@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Li et al. 2022 — Mercury stable isotopes as tracers of internal dynamics and food-chain bioaccumulation in biota
 
+## Overview
+
 This critical review synthesizes the expanding literature on mercury (Hg) stable isotope fractionation within living organisms, covering fish, marine mammals, seabirds, humans, plankton, and invertebrates. Mercury undergoes both mass-dependent fractionation (MDF) and mass-independent fractionation (MIF) during transformation, bioaccumulation, and metabolism, and isotope signatures preserve a record of exposure history, trophic transfer, and detoxification pathways. The review is directly relevant to understanding why total mercury (tHg) and methylmercury (MeHg) behave differently across trophic levels and biological tissues, and why fish and marine mammals are the dominant dietary exposure pathway for MeHg.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Shue et al. 2012 — Seasonal heavy-metal variation in six bivalve species, Ta-Peng Bay, Taiwan
 
+## Overview
+
 This study measured Cu, Zn, Pb, Ni, Cr, and Cd concentrations in six bivalve mollusc species from Ta-Peng Bay lagoon in southwestern Taiwan across four seasons (December 2005 to September 2006). Ta-Peng Bay is a shallow productive coastal lagoon described as heavily polluted by effluent from fisheries, domestic sewage, and agricultural wastewater. Cu and Zn dominated by mass across all species and seasons; Cd was the lowest by mass. Pb, Ni, and Cr declined with season rank (winter → spring → summer → autumn) and were significantly higher in winter; Cu, Zn, and Cd showed no significant seasonal correlation. Cd accumulation differed significantly between species (ANOVA F = 10.166, p < 0.001), supporting the authors' suggestion that bivalve molluscs may serve as a species-sensitive monitoring tool for Cd in coastal waters.
 
 ## Key numbers

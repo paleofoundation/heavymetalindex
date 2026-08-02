@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mu et al. 2023 — Seaweed polysaccharide ameliorates Cr(VI)-induced gut microbiome dysbiosis in mice
 
+## Overview
+
 Mice exposed to K2Cr2O7 at 75 mg/kg exhibited marked gut microbial dysbiosis, with reduced alpha diversity (Chao1 and Shannon indices significantly lower), decreased beneficial taxa, and increased pathogenic bacteria including Escherichia_Shigella (rising from 10.71% in controls to 57.75% under Cr exposure). Administration of seaweed polysaccharide at 200 mg/kg restored gut microbial diversity and partially reversed compositional shifts, restoring Bacteroidota and Firmicutes abundances toward control levels. The study provides mechanistic grounding for food-chain chromium exposure as a gut microbiome disruptor and identifies a dietary intervention candidate.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ma et al. 2024 — Heavy metals in sanitary napkins from seven countries
 
+## Overview
+
 Ma et al. measured eight metals in 56 sanitary-napkin samples collected from China, Japan, South Korea, the United States, the United Kingdom, Australia, and Germany. The study reports country-level median concentrations and ranges in `μg/kg` for As, Co, Cu, Pb, Cd, Zn, Ni, and Cr. Arsenic and chromium were not speciated, so this page records arsenic as total arsenic and chromium as total chromium.
 
 ## Key numbers

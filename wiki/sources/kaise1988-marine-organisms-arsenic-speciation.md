@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kaise 1988 - Marine-organism arsenic speciation
 
+## Overview
+
 Kaise, Hanaoka, Tagawa, Hirayama, and Fukui measured total arsenic and hydride-generation species in 60 marine-organism specimens including edible seaweeds, bivalves, gastropods, crustaceans, and fish. The paper separates water-soluble and lipid-soluble fractions and reports inorganic arsenic, methylated arsenic, dimethylated arsenic, trimethylated arsenic, and total arsenic as arsenic. It is useful for speciation context because total arsenic was often high while inorganic arsenic was not detected in most rows.
 
 ## Key numbers

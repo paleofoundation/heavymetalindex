@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Voegborlo et al. 1999 — Mercury, cadmium, and lead in Libyan canned tuna
 
+## Overview
+
 Voegborlo and colleagues measured total mercury, cadmium, and lead in canned tuna fish from Misurata, Libya. Mercury was measured by cold-vapour atomic absorption spectrophotometry, while cadmium and lead were measured by flame atomic absorption spectrophotometry. Results are reported in µg g⁻¹ wet weight (equivalent to mg kg⁻¹ or ppm), with mercury detected in 20 of 50 samples and cadmium and lead detected in 12 of 50 samples.
 
 ## Key numbers

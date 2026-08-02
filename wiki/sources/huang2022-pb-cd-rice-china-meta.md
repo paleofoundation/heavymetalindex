@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Huang et al. 2022 — Pb and Cd in Chinese rice: systematic review and meta-analysis
 
+## Overview
+
 Huang et al. pooled data from 24 peer-reviewed studies reporting lead concentrations and 29 studies reporting cadmium concentrations in rice grain sampled across multiple Chinese provinces from 2011 to 2021. The pooled Pb concentration was 0.10 mg/kg dry weight (95% CI 0.08–0.11) and the pooled Cd concentration was 0.16 mg/kg dry weight (95% CI 0.14–0.18). Both pooled values fall within China's national food safety limit of 0.2 mg/kg for each metal; however, target hazard quotient (THQ) calculations exceeded 1.0 for both adults and children, indicating that rice consumption in China poses a chronic dietary health risk under long-term exposure assumptions.
 
 ## Key numbers

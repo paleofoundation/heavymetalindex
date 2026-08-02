@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bralatei 2017 - Seaweed inorganic arsenic field method
 
+## Overview
+
 Bralatei and colleagues developed and validated a field-deployable method for screening inorganic arsenic in seaweed, using HPLC-ICP-MS as the comparison method. The study analyzed 13 store-bought edible seaweeds and 34 *Laminaria digitata* kelp-related samples, reporting iAs concentrations on a dry-weight basis. Total arsenic was measured for context, but the routeable occurrence analyte in this source is inorganic arsenic.
 
 ## Key numbers

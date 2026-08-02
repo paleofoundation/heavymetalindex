@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Gafner et al. 2026 — Scoping review of turmeric adulteration across six continents
 
+## Overview
+
 This is the most comprehensive systematic assessment of turmeric adulteration in the published literature, synthesizing 48 publications representing 2,235 commercial turmeric samples from 22 countries across six continents. The PRISMA-ScR methodology, broad geographic coverage, and distinction between spice and supplement adulteration patterns make this the anchoring prevalence denominator for the wiki's spice adulteration synthesis. The overall adulteration rate of 20.0% (448/2,235) establishes that turmeric adulteration is not a localized problem confined to South Asian supply chains; it is a global market-integrity failure documented on every inhabited continent with available data.
 
 ## Key numbers

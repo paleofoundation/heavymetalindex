@@ -27,6 +27,8 @@ updated: 2026-06-03
 
 # Alizadeh et al. 2017 - Mercury and lead in Mashhad bar soaps
 
+## Overview
+
 Alizadeh, Balali-Mood, Mahdizadeh, and Riahi-Zanjani measured total mercury and total lead in 32 bar-soap samples purchased from the Mashhad, Iran retail market in 2016, spanning four anonymized cosmetic-soap brands, five anonymized hygiene-soap brands, and two anonymized contraband-soap product lines. All values were below the FDA cosmetic-material comparators of 1 µg/g for mercury and 20 µg/g for lead the authors invoke. Contraband-soap mercury was significantly higher than cosmetic (P<0.01) and hygiene (P<0.05) soap mercury. The paper also reports a within-hygiene-category significant difference between brands P and T, but the source narrative and Table 3 disagree on whether the contrast is in lead or mercury (see Verification notes). The highest mean mercury was reported for one of the two contraband lines (0.39 µg/g) and the highest mean lead for the P hygiene brand (0.36 µg/g).
 
 ## Key numbers

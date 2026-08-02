@@ -30,6 +30,8 @@ updated: 2026-05-20
 
 # Fan et al. 2025 — Heavy metals in green tea from Hangzhou area (n=120, ICP-MS)
 
+## Overview
+
 This study is the most analytically comprehensive recent survey of heavy metals in Hangzhou-area green tea, measuring 15 elements (Al, As, Ba, Cd, Cr, Cu, Hg, Li, Mn, Ni, Pb, Sb, Se, Sn, V) in 120 tea samples by ICP-MS. All 120 samples were below Chinese standard limit values for As, Cd, Cr, Hg (NY659-2003 agricultural industry standard for tea) and Pb (GB2762-2022 national food safety standard). The comprehensive pollution index (P = 0.094) and all single-factor pollution indices were well below 0.7, placing Hangzhou-origin tea in the "safe/clean" classification. Health risk assessment yielded a cumulative hazard index (HI) of 0.42, with Mn the dominant contributor (HQ = 0.40); the study concludes that green tea consumption from this region poses no meaningful health risk.
 
 ## Key numbers

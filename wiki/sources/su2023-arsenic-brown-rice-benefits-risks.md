@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Su et al. 2023 — Arsenic in brown rice: do the benefits outweigh the risks?
 
+## Overview
+
 This mini-review synthesizes the evidence on inorganic arsenic (iAs) concentrations in brown rice versus white rice and related products, framing the question of whether brown rice's nutritional advantages offset its higher arsenic burden relative to white rice. The paper draws primarily on FDA monitoring data and prior occurrence surveys, and concludes that brown rice contains approximately 80% more iAs than white rice, raising concerns for populations with high consumption, particularly infants and young children.
 
 ## Key numbers

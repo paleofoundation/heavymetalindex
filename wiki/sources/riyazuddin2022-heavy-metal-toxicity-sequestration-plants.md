@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Riyazuddin et al. 2022 — Heavy metal toxicity and sequestration in plants
 
+## Overview
+
 Riyazuddin, Nisha, Ejaz, Khan, Kumar, Ramteke, and Gupta (corresponding author Gupta at Kookmin University, Seoul, with co-authors at the University of Szeged, Szent István University, Jamia Hamdard University, Dongguk University, and Mandsaur University) review the published evidence on how heavy metals (HMs) impair plant growth and on the morphological, physiological, biochemical, and molecular mechanisms plants deploy to tolerate and sequester them. The paper is a "Review" article in *Biomolecules* (MDPI) covering 264 cited references, three schematic figures (Figure 1 morphological symptoms; Figure 2 the ROS / phytochelatin / metallothionein / antioxidant-enzyme response axis; Figure 3 phytohormone crosstalk under HM exposure), and one synthesis table (Table 1) cataloguing genes whose differential expression has been linked to HM tolerance in transgenic or knockout systems. The review reports no primary chemical, occurrence, or exposure measurements in any food, beverage, supplement, personal-care, or environmental matrix; its value to the wiki is conceptual background for the plant-side biology of metal uptake, translocation, chelation, and vacuolar sequestration, on which the wiki's metals/ and mitigation/remediation-evidence pages may draw when explaining why specific crops accumulate specific metals and what biological levers exist for plant-side mitigation.
 
 ## Why this matters

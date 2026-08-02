@@ -28,6 +28,8 @@ updated: 2026-06-15
 
 # O'Connor et al. 2026 — U.S. infant biomonitoring for toxic elements from human milk and infant formula
 
+## Overview
+
 This systematic review evaluates whether infant biospecimens in the United States show exposure to arsenic, cadmium, lead, mercury, or PFAS in relation to human milk and/or infant formula feeding. The paper is an a4 exposure source, not a product-occurrence paper: it synthesizes infant urine and blood biomonitoring evidence rather than measuring contaminants in formula products directly. Its main contribution is to document how thin the U.S. infant biomonitoring evidence base still is despite longstanding concern about toxic elements in infant feeding.
 
 ## Key numbers

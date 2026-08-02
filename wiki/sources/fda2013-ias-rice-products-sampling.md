@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2013 — Inorganic arsenic in rice and rice products, September 2013 sampling
 
+## Overview
+
 This FDA report presents inorganic arsenic (iAs) analytical results from the agency's 2012–2013 rice and rice products sampling programme, which together constitute the most comprehensive US market survey of iAs in rice and rice-based foods to date at the time of publication. Results from the September 2012 sampling (200 samples) are included in the September 2013 release. The data cover white rice by origin state (Arkansas, California, Louisiana, Texas) and by variety (basmati, brown, instant, jasmine, parboiled, white long/medium/short grain), and a wide range of rice-based products including infant cereals, toddler cereals, rice cakes, rice protein powders, rice beverages, beer, pasta, cookies, and grain bars. Brown rice consistently showed higher iAs than white rice of the same origin; California origin consistently showed lower iAs than Arkansas, Louisiana, or Texas.
 
 ## Key numbers

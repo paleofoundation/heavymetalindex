@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang & Ding et al. 2025 — MOF(Bi)-based electrochemical sensor for Cd in tea, soil-to-cup tracking
 
+## Overview
+
 This paper develops a bismuth-rich metal-organic framework (MOF(Bi)) electrochemical sensor for cadmium (Cd2+) detection, applied across the full tea supply chain from contaminated garden soil through raw tea leaves to brewed infusions. The sensor uses cysteine as a chelating agent and Nafion for membrane stability, achieving a LOD of 0.18 µg/L with a linear range of 0.2–25 µg/L. Beyond the sensor development itself, the paper provides useful literature-synthesized concentration context for Cd in tea matrices, drawing on multiple prior studies.
 
 ## Key numbers

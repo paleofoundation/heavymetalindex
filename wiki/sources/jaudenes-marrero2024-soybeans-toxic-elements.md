@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Jaudenes-Marrero et al. 2024 - Toxic elements in soybean species
 
+## Overview
+
 Jaudenes-Marrero and colleagues quantified toxic and potentially toxic elements in four edible bean species sold as soybean-type foods. This is direct a1 occurrence evidence with wet-weight concentrations in mg/kg and intake/risk characterization.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Janvier et al. 2019 — Metals in Mondia whytei root bark used as a food supplement
 
+## Overview
+
 Janvier et al. measured minerals, vitamins, protein, and sugars in root bark of Mondia whytei, a Rwandan wild edible plant consumed fresh or powdered as a food supplement. The heavy-metal-relevant findings are dry-weight Pb and Cd concentrations in root bark across Rwandan localities and in old versus young Byangabo plants.
 
 ## Key numbers

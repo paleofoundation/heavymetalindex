@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Li et al. 2020 - Silk-fibroin nanoflowers for Pb(II) remediation
 
+## Overview
+
 Li and colleagues synthesized silk-fibroin/copper-phosphate hybrid nanoflowers (SF@Cu-NFs) and tested them as aqueous sorbents for Pb(II). This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are adsorption capacity, kinetics, selectivity, and surface-interaction mechanisms for a laboratory adsorbent.
 
 ## Key numbers

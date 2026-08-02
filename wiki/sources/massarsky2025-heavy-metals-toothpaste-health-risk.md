@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # Massarsky et al. 2025 — Screening-level health risk assessment of Pb/Cd/tHg/tAs in 50 US toothpastes (Lead Safe Mama testing)
 
+## Overview
+
 This Short Communication is a screening-level health risk assessment, not a primary occurrence study. The authors, three Stantec environmental consultants, take a 50-toothpaste lead/cadmium/mercury/arsenic concentration dataset publicized in a 2025 Guardian news article (the underlying testing was performed by Lead Safe Mama, a consumer-advocacy lead-poisoning-prevention business) and convert it to age-stratified ingestion exposure estimates using a standard EPA-style ADD/LADD framework, then compare to health guidance values (HGVs) via hazard quotients. Cadmium and mercury hazard quotients stay below 1.0 for all 50 toothpastes under both typical and reasonable-upper-bound use scenarios. Lead exceeds the OEHHA Proposition 65 MADL of 0.5 µg/day in 10 toothpastes for children aged 2–4 and 1 toothpaste for adults under reasonable-upper-bound use, and in 1 children's toothpaste under typical use. Arsenic lifetime-average daily dose exceeds the EPA IRIS oral cancer slope factor benchmark in 3 toothpastes. The authors conclude that, contextualised against dietary lead intake, dust/soil ingestion, and dietary arsenic intake, toothpaste ingestion is unlikely to be a significant marginal contributor to total exposure; however, the upper-tail lead exceedances in children's toothpastes flag a real concern that the paper itself addresses by endorsing the Washington State Toxic-Free Cosmetics Act 1000 ppb Pb cap.
 
 ## Key numbers

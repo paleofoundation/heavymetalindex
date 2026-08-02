@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Single-particle ICP-MS (SP-ICP-MS) was applied to characterise metal-containing nanoparticles (NPs) in mussel tissue. The study investigates the speciation and form of metals in seafood — distinguishing nano-particulate from dissolved metal fractions — rather than reporting total metal occurrence concentrations. This is an emerging methodological approach to understanding bioavailability and toxicological relevance of metals in food.
 
 ## Key numbers

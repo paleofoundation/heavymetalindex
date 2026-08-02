@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Zhao et al. 2021 — Cadmium Removal from Rice Flour by Coimmobilized Microorganisms
 
+## Overview
+
 This 2021 laboratory study evaluated bioremediation of cadmium from rice flour using Lactobacillus plantarum coimmobilized with other microorganisms. The study reports both baseline Cd in the rice flour samples and post-treatment removal efficiency.
 
 ## Key numbers

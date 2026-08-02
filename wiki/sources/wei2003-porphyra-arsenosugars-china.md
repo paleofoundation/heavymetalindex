@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Wei et al. 2003 - Porphyra arsenosugars from China
 
+## Overview
+
 Wei and colleagues measured total arsenic and extractable arsenic species in edible *Porphyra* seaweed from five Chinese locations. The occurrence-relevant table reports dry-weight total arsenic and extractable arsenosugar PO4/OH in market *Porphyra*; the heating and volunteer urine sections are exposure and metabolism context. The source reports organoarsenic species, not inorganic arsenic, so total arsenic and arsenosugar values should not be substituted for iAs.
 
 ## Key numbers

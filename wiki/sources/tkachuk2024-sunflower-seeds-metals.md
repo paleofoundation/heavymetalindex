@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Tkachuk et al. 2024 - ecological safety of sunflower seeds under agricultural intensification
 
+## Overview
+
 Tkachuk and coauthors measured heavy metals and other toxicants in soil and sunflower seeds under intensive agricultural technology. The source is routeable to sunflower seeds because it reports direct seed testing for Pb, Cd, Cu, Zn, nitrates, and related soil contaminants. It is production-system context, not a consumer-market basket.
 
 ## Key numbers

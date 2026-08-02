@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Mercan Yucel 2022 - Heavy metals in unpackaged spices sold in Van Province
 
+## Overview
+
 Mercan Yucel measured aflatoxins and heavy metals in 60 unpackaged spice samples purchased from herbal shops and markets in Van Province, Turkey. The heavy-metal portion covers black pepper, cumin, and red pepper, with 20 samples per spice analyzed by ICP-MS. Nickel, cadmium, lead, and aluminum were quantified in all three spice groups; total arsenic was detected only in cumin. Black pepper carried the highest mean Pb and Cd, cumin carried the highest mean total As and Al, and red pepper had the lowest mean Pb, Cd, and Al.
 
 ## Key numbers

@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Ferreira de Oliveira et al. 2021 — Cd and Pb in cocoa beans from Brazil, Côte d'Ivoire and Ecuador, with a pilot-scale processing-partition study
 
+## Overview
+
 Ferreira de Oliveira and colleagues at ITAL Campinas and UNICAMP measured cadmium and lead by ICP OES in 90 batches of fermented, dried cocoa beans from four Brazilian states (Bahia, Pará, Espírito Santo, Rondônia), Côte d'Ivoire, and Ecuador, then processed one Bahia batch in a pilot-scale "bulk" line (roast → grind → press) into shells, liquor, cocoa powder, and cocoa butter to track how Cd and Pb partition through the chain. Cd ranged from <0.0015 to 1.598 mg/kg across beans; Pb ranged from <0.022 to 2.528 mg/kg. Eight percent of bean batches exceeded the cocoa-liquor Cd ceiling (Brazil/Mercosul 0.3 mg/kg), 66% exceeded the cocoa-liquor Pb ceiling (0.5 mg/kg), and all four Ecuador batches exceeded both Brazil/Mercosul (0.3) and EU (0.6 mg/kg, cocoa powder) Cd ceilings. The processing study showed Cd concentrates in the non-lipid fractions: 59% of bean Cd was retained in the mill residue during grinding, 35% went to liquor and then to cocoa powder during pressing, 6% stayed in the shell, and cocoa butter was effectively Cd-free (<0.0015 mg/kg LOD). A worst-case 15.75 g/day 100%-cocoa-chocolate exposure scenario for Brazilian consumers showed the Ecuador-bean and Pará-bean Cd levels alone would push child intake to 204% and 105% of the JECFA PTMI respectively; the 30.4 g/day German consumption scenario hit 398% of PTMI for children using Ecuadorian beans.
 
 ## Filename / paper-identity note

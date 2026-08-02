@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Loutfy et al. 2012 — Heavy metals in Ismailia market foodstuffs
 
+## Overview
+
 Loutfy and colleagues measured Cd, Pb, Cr, Zn, and Cu in locally produced plant- and animal-origin foodstuffs purchased from markets around Ismailia city, Egypt. The authors analyzed pooled edible portions by graphite-furnace AAS after dry ashing and used the measured food concentrations with FAO food-consumption inputs to estimate adult dietary intake. Bread was the largest contributor to Cd and Pb intake because of high consumption, even though fish and seafood had higher Pb concentrations.
 
 ## Key numbers

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Chen et al. 2021 - Abscisic acid and cadmium enrichment in ramie
 
+## Overview
+
 Chen and colleagues tested how cadmium stress and abscisic acid (ABA) treatment affect Cd uptake and tissue distribution in ramie, a non-food fiber crop proposed for phytoremediation of Cd-contaminated soil. This is remediation and plant-uptake mechanism evidence, not occurrence evidence for edible rice, salt, textiles, or consumer products.
 
 ## Key numbers

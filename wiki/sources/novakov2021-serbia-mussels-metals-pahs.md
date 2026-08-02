@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Novakov 2021 - Serbian-market mussel metals and PAHs
 
+## Overview
+
 Novakov and colleagues measured lead, cadmium, mercury, arsenic, and PAHs in mussels sold on the Serbian market. The metal occurrence values are direct shellfish finished-food data from fresh and frozen mussel-meat samples. Arsenic is reported as total arsenic and mercury as total mercury; the paper does not measure inorganic arsenic or methylmercury.
 
 ## Key numbers

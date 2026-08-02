@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This Swiss study from Agroscope and the Federal Food Safety and Veterinary Office compared the nutritional composition of 27 commercial plant-based drinks (representing 8 plant species) against cow's milk, including analysis of arsenic as part of a residue panel (alongside glyphosate and AMPA). The arsenic data for plant-based drinks, particularly rice-based drinks, is the primary wiki-relevant finding. The study provides a comprehensive nutritional comparison across diverse plant-based milk alternatives purchased from Swiss retail, offering a European market snapshot of arsenic levels in this growing product category.
 
 ## Key numbers

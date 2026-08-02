@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Sigauke et al. 2024 - Spent bleaching earth synthesis, properties, characterisation, and application
 
+## Overview
+
 Sigauke and colleagues review the literature on spent bleaching earth (SBE), the solid waste generated when bentonite-derived bleaching earth is used to decolourise and decontaminate crude edible vegetable oils. The review covers bentonite acid activation methods, the bleaching unit operation, SBE characterisation by XRD/FTIR/TGA, residual oil composition, and downstream applications (biodiesel, biogas, briquettes, bio-organic fertiliser, lubricating grease, foamed concrete, non-fired wall tiles). Heavy-metal-relevant content is limited: the authors state that bentonite-based bleaching earth removes heavy metals and phosphorus from crude oil during the bleaching unit operation, and compiled tables report trace-element composition of SBE (Cu, Zn, Mn, Fe) and of residual oil retained in SBE (Cu, Fe) drawn from prior primary studies.
 
 ## Key numbers

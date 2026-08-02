@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Igweze et al. 2019 — Essential Trace Metals in Infant Formulae, Nigeria
 
+## Overview
+
 This 2019 Nigerian study measured Fe, Zn, Mn, Cr, and Co (essential trace metals) in 26 commercial infant formula brands from Port Harcourt, assessing nutritional adequacy. Note: only essential trace metals measured; no toxic metals (Pb, Cd, As) reported. Cr reported as total chromium.
 
 ## Key numbers

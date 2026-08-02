@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Price and Skaar 2025 — Forging biofilms: metal-induced microbial responses in biofilm formation
 
+## Overview
+
 This Journal of Bacteriology minireview by Sarah Price and Eric Skaar (Vanderbilt University Medical Center, Center for Infection and Immunity) covers the mechanistic role of metal availability in bacterial biofilm formation and dynamics. Biofilms are major contributors to antibiotic resistance and to persistence in hospital environments; the authors show that metals are involved at multiple stages of biofilm biology including initial regulation of biofilm formation, communication and competition among bacteria within polymicrobial biofilms, and structural integrity and adherence of bacterial cells in the biofilm matrix. The review documents both biofilm-promoting and biofilm-disrupting metal effects and the use of metal sequestration by some bacteria to deprive neighboring microbes within the biofilm community.
 
 ## Key conclusions

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Yamanaka 2025 - Tin migration from unlacquered tinplate pineapple cans
 
+## Overview
+
 Yamanaka studied corrosion of unlacquered tinplate cans used for fruit by storing commercially available pineapple cans at 43 C and measuring tin and iron in the combined pineapple solid-plus-syrup fraction. The paper is not a general pineapple field-contamination study; it is migration evidence for tinplate food-contact packaging under accelerated storage. Tin in pineapple syrup rose from about 30 ppm at the beginning of the pack test to 310 ppm by 6 months, while uncanned pineapple was below 0.1 ppm Sn.
 
 ## Key numbers

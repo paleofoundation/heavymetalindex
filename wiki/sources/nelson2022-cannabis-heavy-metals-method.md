@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Nelson et al. 2022 - AOAC cannabis heavy-metals method validation
 
+## Overview
+
 Nelson et al. (2022) report AOAC Official Method 2021.03 for total arsenic, cadmium, total mercury, and lead in cannabis and cannabis-derived products after microwave-assisted acid digestion and ICP-MS. The paper is primarily a single-laboratory method-validation study, but Table 5 includes native concentration values for four validation matrices: flower, hemp butter, pain relief cream, and CBD crude extract. These values are limited occurrence context and should not be treated as a market-prevalence survey.
 
 ## Key numbers

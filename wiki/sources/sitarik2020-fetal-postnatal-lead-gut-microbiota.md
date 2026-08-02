@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Sitarik et al. 2020 — Fetal and early postnatal lead exposure in teeth and infant gut microbiota
 
+## Overview
+
 Sitarik and colleagues used laser ablation inductively coupled plasma mass spectrometry (LA-ICP-MS) on shed deciduous teeth to retrospectively quantify lead exposure across three developmental windows (2nd trimester, 3rd trimester, and postnatal birth-to-~1-year), then tested those exposure measures against bacterial (16S rRNA) and fungal (ITS2) gut microbiome composition in stool collected at 1 month and 6 months of age in 146 maternal-child pairs from the Detroit-area WHEALS birth cohort. In utero tooth lead levels were significantly associated with infant gut fungal community composition at 1 month — higher 2nd-trimester lead with lower abundances of Candida and Aspergillus and higher abundances of Malassezia and Saccharomyces — and 3rd-trimester lead with lower Candida. Lead did not significantly alter overall bacterial community structure, but specific bacterial taxa associated with lead exposure: higher Collinsella (at 1 month) and Bilophila (at 6 months), and lower Bacteroides at both time points.
 
 ## Key numbers

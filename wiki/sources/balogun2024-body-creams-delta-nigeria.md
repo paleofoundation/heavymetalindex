@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # Balogun et al. 2024 — Pb, Cd, Co, tAs, Mn, Ag, Zn, Ni, Cr, tHg in 20 adult body creams, Delta State, Nigeria
 
+## Overview
+
 This paper quantifies ten heavy metals (lead, cadmium, cobalt, total arsenic, manganese, silver, zinc, nickel, chromium, total mercury) in 20 brand-coded body cream/lotion samples purchased from college business centres at two Nigerian Colleges of Education in Delta State — Warri (COEW; n=10, codes CWBCA–CWBCJ) and Mosogar (COEM; n=10, codes CMBCA–CMBCJ). Quantification used flame atomic absorption spectrophotometry (Buck AAS model 210 VGP) after aqua regia (HNO₃:HClO₄ 3:1) hot-plate digestion. Silver and mercury were below the reporting limit of 0.001 ppm in every sample at both sites. Of the remaining eight metals, manganese and zinc carried the highest concentrations (Mn maximum 1.104 mg/kg at COEM; Zn maximum 0.701 mg/kg at COEW), followed by nickel and chromium at COEW (Ni up to 0.295 mg/kg; Cr up to 0.201 mg/kg) and cobalt and lead at COEM (Co up to 0.362 mg/kg; Pb up to 0.155 mg/kg). The authors note all measured values stay within their cited regulatory references (WHO/Health Canada/FDA Pb cosmetic limit 10 ppm; FDA color-additive Pb limit 20 ppm) but argue long-term bioaccumulation and accidental ingestion via hand-to-mouth transfer warrant regulatory attention.
 
 ## Key numbers

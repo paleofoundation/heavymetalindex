@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Frisbie & Mitchell 2022 — Global arsenic drinking water regulations
 
+## Overview
+
 Frisbie and Mitchell systematically collated arsenic (As) drinking water regulations from 176 countries worldwide, finding that 136 have maximum allowable concentrations of 10 µg/L or less while 40 permit more than 10 µg/L; regulations for 19 countries could not be found. The WHO's provisional 10 µg/L guideline, set in 1993 on the basis of analytical achievability rather than health-based risk assessment, is shown to be inadequate, and the authors argue that lower, more protective standards are both scientifically warranted and technologically feasible for countries at all income levels.
 
 ## Key numbers

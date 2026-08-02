@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Belew et al. 2024 - metals in peanuts and date palms from Jigjiga markets
 
+## Overview
+
 Belew and coauthors measured Fe, Zn, Cu, total As, Pb, and total Cr in peanut and date palm samples from Jigjiga City markets in Ethiopia, and computed estimated daily intake, target hazard quotient, hazard index, and incremental lifetime cancer risk for adult males and females. The source is directly routeable to peanuts. Date palm findings are recorded here in full; routing to a date ingredient or product slug is deferred until that slug is created in the taxonomy.
 
 ## Key numbers

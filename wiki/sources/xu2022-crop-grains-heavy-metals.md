@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Xu et al. 2022 - Heavy metals in rape, wheat, and rice grains near mining activity
 
+## Overview
+
 Xu and colleagues collected 81 crop-grain samples and 81 paired agricultural-soil samples from rape, wheat, and paddy fields in Tongling, China, and measured Cu, Zn, Pb, Cd, Fe, and Mn. The food endpoints are rape grain, wheat grain, and rice grain; the auto-fetch target of salt Cd is a false row fit. Cd and Pb were the most important food-safety findings: 96% of wheat grain and 60% of rice grain samples exceeded the cited Chinese Cd maximum levels, 70% of rice grain samples exceeded the cited Pb maximum level, and about 10% of rice grain samples exceeded 1.0 mg/kg Cd.
 
 ## Key numbers

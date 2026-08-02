@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Cardini et al. (2025) introduce a qualitative methodology combining size exclusion chromatography (SEC) coupled with ICP-MS/MS and SEC-QTOF-MS to identify cadmium-chelating compounds in seven plant-based food matrices. The study reports total Cd mass fractions in the matrices (by microwave digestion and ICP-MS) ranging from 9 to 570 µg/kg dry weight, with the lowest in basmati rice and the highest in beetroot leaves. The study's primary contribution is analytical methodology for Cd speciation — identifying the molecular forms in which Cd is bound in plant foods (phytochelatins, phytic acid, flavonoids, and other ligands in the 1–20 kDa range) — with implications for future bioaccessibility studies.
 
 ## Key numbers

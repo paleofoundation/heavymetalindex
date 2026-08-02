@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Piwowarczyk et al. 2018 — Kidney vetch response to lead for phytostabilization
 
+## Overview
+
 Piwowarczyk et al. tested how a calamine ecotype of kidney vetch responds to lead exposure under controlled in vitro culture. The paper is mitigation evidence rather than consumer-product occurrence evidence: it evaluates plant tolerance and Pb retention patterns relevant to phytostabilization of lead-contaminated sites. The authors found much higher Pb accumulation in roots than shoots, supporting the plant's potential role in immobilizing Pb rather than moving it into aboveground biomass.
 
 ## Key numbers

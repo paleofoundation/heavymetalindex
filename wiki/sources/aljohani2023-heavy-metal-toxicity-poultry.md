@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Aljohani 2023 — Heavy metal toxicity in poultry: a comprehensive review
 
+## Overview
+
 This narrative review synthesizes worldwide evidence on the bioaccumulation of arsenic (As), lead (Pb), cadmium (Cd), and mercury (Hg) in poultry tissues (kidney, liver, meat, egg, blood) and the resulting histopathological and toxicological effects. The review tabulates measured concentrations from primary studies spanning Turkey, Malaysia, Iraq, Nigeria, Pakistan, Saudi Arabia, China, India, Bangladesh, Tunisia, Thailand, and Iran, providing a multi-country reference for poultry tissue metal occurrence. Evidence tier is B because this is a narrative review rather than a primary occurrence study, though the compiled Table 1 draws on primary A-tier studies.
 
 ## Key numbers

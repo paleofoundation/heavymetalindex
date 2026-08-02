@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Sargsyan et al. 2024 - rapid market screening for lead in spices
 
+## Overview
+
 Sargsyan and colleagues screened 5,007 consumer products from 25 low- and middle-income countries for total lead using portable X-ray fluorescence. The source includes 1,084 loose processed spice samples and is useful as broad geographic screening evidence, especially because the authors report the percentage of spice samples above their 2 ppm reference level.
 
 ## Key numbers

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Fu et al. 2022 — Sunflower cultivar comparison for cadmium accumulation and tolerance
 
+## Overview
+
 Two sunflower genotypes — 62\3 (high Cd accumulation) and JB231AC (low Cd accumulation) — were subjected to hydroponic Cd stress at 0, 25, 50, and 100 µM CdCl2 for seven days to compare physiological responses and transcriptomic profiles. The high-accumulating cultivar 62\3 showed significantly greater root-to-shoot Cd translocation (higher transfer factor) and higher Cd concentration in shoots at 100 µM stress, whereas JB231AC exhibited superior Cd tolerance, maintaining larger biomass and higher antioxidant enzyme (SOD, POD) activity. RNA-seq analysis identified 8,818 differentially expressed genes; ABC-transporter genes and ZIP (Zn-regulated transporter, Iron-regulated transporter-like protein) gene families were disproportionately represented in Cd-transport-related DEGs, with one NRAMP gene up-regulated specifically in the high-accumulating cultivar 62\3, implicating it as a candidate Cd-uptake driver.
 
 ## Key numbers

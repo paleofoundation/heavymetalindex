@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Ghasemidehkordi et al. 2018 — Pb and tHg in ten green leafy vegetables and herbs from Markazi province, Iran, with soil/water context and adult non-carcinogenic risk assessment
 
+## Overview
+
 This Iranian cross-sectional field survey quantifies total Pb and total Hg in ten species of green leafy vegetables and herbs, agricultural soil (0–15 cm), and irrigation water from five agricultural sites across Markazi province (an industrial-agricultural region of northwest Iran with aluminum, steel, petroleum, and automotive industries). Samples collected May–August 2014; analysis by ICP-OES (Varian Vista-MPX, Spectroacros EOP, with ultrasonic nebulizer). All vegetable Pb means exceeded the WHO/FAO 300 µg/kg leafy-vegetable Pb ceiling cited by the authors (range 990–1734 µg/kg dry weight across species). Hg means ranged 36–56 µg/kg dry weight; four species (*Allium wakegi*, *Artemisia dracunculus*, *Lepidium sativum*, *Trigonella foenum-graecum*) exceeded the 50 µg/kg drinking-water Hg "safety limit" the authors invoked. Soil and water Pb and Hg also exceeded WHO/FAO guidelines cited by the authors. Hazard Index (Pb + tHg THQ) for the combined 15–64 adult age range was 8.49 (urban) and 9.01 (rural); Pb contributed ~93 % and tHg ~7 % of HI; the authors concluded both urban and rural consumers face significant non-carcinogenic health risk from green leafy vegetable and herb consumption in this province.
 
 ## Key numbers

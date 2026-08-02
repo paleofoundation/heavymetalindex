@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Stasinos and others 2014 — Heavy metals in carrots, onions, and potatoes (review)
 
+## Overview
+
 Concise narrative review in *Journal of Food Science* compiling the open-field, greenhouse, and laboratory literature on heavy-metal bioaccumulation in three root and tuber vegetables: carrots (*Daucus carota* L.), onions (*Allium cepa* L.), and potatoes (*Solanum tuberosum* L.). The review's primary policy argument is that EU and US legislation set strict legal limits for heavy metals in water but lack analogous limits in food tubers, creating a regulatory gap that the authors urge EFSA to address. The synthesis is heaviest on Greek studies (Asopos River basin and Thiva basin) where the authors and several frequently cited co-investigators have field sites, and lightest on systematic comparison across the cited heterogeneous bases (dry weight vs. wet weight, soil vs. tissue, edible part vs. whole plant). Cr and Ni receive the most attention by design — the title flags them as the dietary-implications focus — but Pb, Cd, As, Cu, Zn, Al, Mn, Co, and Hg/MeHg also appear in the compiled tables and in the *Allium*-test physiology section. Children and pregnant women are identified throughout as the highest-risk consumer groups.
 
 ## Key numbers

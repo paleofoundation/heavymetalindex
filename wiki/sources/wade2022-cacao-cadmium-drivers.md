@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wade et al. 2022 — Drivers of cacao bean cadmium across the Cacao Belt
 
+## Overview
+
 This systematic review and quantitative synthesis compiles soil, leaf, and bean cadmium data from 31 studies across 489 site-years and 10 countries within the global Cacao Belt (roughly 20 degrees latitude on either side of the equator). Using boosted regression trees (BRTs), the authors identify total soil cadmium concentration and soil pH as the dominant predictors of bean Cd content, with leaf Cd as a secondary predictor, while available (extractable) soil Cd has negligible explanatory power independent of total soil Cd. The practical implication is that soil-based remediation strategies are less promising than plant physiology approaches such as low-Cd-accumulating rootstocks or cultivar breeding.
 
 ## Key numbers

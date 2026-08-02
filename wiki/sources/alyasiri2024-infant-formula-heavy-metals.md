@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Alyasiri 2024 — Heavy metals and aflatoxin M1 in specialty infant formula in Iraq
 
+## Overview
+
 Alyasiri analysed five specialty metabolic-disorder infant milk formula types sold in Iraqi markets (phenylketonuria, lactose-free, maple syrup urine disease, organic acidurias, and tyrosinemia formulas) for lead, cadmium, total arsenic, seven trace elements (Mg, Ca, Zn, Se, Fe, K, Mn), and aflatoxin M1. Heavy metals were assayed by flame and flameless atomic absorption spectrometry; aflatoxin M1 was assayed by immunoaffinity-clean-up HPLC with ESI-MS detection. The sample design was three replicates of each of the five formula types (n = 15 samples total).
 
 ## Key numbers

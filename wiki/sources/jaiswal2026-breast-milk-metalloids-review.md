@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Jaiswal et al. 2026 - Metal(loid)s in breast milk review
 
+## Overview
+
 Jaiswal, Chauhan, and Srivastava review metal(loid) exposure through breast milk, with emphasis on arsenic, cadmium, chromium, lead, and mercury. The auto-fetch filename assigned the PDF to a mineral-water cadmium product gap, but the paper is human-milk exposure and toxicology context rather than mineral-water occurrence evidence. It overlaps topically with [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review]] but has a distinct DOI and a separate summary table of breast-milk concentrations.
 
 ## Key numbers

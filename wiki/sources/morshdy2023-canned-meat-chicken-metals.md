@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Morshdy et al. 2023 - canned meat and chicken metals in Egypt
 
+## Overview
+
 Morshdy and colleagues measured lead, cadmium, total arsenic, total mercury, aluminium, and tin in canned beef, canned corned beef, and canned chicken luncheon sold in Sharkia Governorate, Egypt. The study reports product-category concentration summaries on a `mg/kg wet weight (PPM)` basis for `n = 20` samples per category. It also calculates EDI, HQ, and HI values for Egyptian adult consumption assumptions; those exposure calculations are source-side context and are kept separate from the occurrence table.
 
 ## Key numbers

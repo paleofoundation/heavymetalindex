@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Mercury speciation including total Hg and methylmercury (MeHg) was measured in environmental matrices (soil, water, sediment) from artisanal small-scale gold mining (ASGM) areas in Kenya. The study characterises Hg cycling and MeHg formation in ASGM environments, which are a major source of Hg emissions globally. Not a food occurrence paper, but provides supply-chain context for Hg contamination of local food systems near ASGM sites.
 
 ## Key numbers

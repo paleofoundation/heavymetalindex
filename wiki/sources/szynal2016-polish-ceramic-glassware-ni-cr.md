@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Szynal 2016 - nickel and chromium migration from Polish-market ceramic and glassware
 
+## Overview
+
 Szynal, Rebeniak, and Mania measured nickel and total chromium migration from ceramic tableware and decorated-rim glassware available on the Polish market into acidic food simulants. The study found nearly all migration values below the method limit of quantification (`0.02 mg/L`), with one decorated ceramic bowl inner surface releasing nickel at `0.04 mg/L`. The evidence is food-contact-material leachate data, not food-as-consumed occurrence data.
 
 ## Key numbers

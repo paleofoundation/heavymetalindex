@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Unuvar et al. 2017 - elements in commercial infant formulas
 
+## Overview
+
 This study measured heavy metals, essential elements, and minerals in 20 commercial infant formula samples collected from pharmacies and supermarkets in Malatya, Turkey. The HMT&C-relevant values are Al and Pb in powdered formula, with Fe, Zn, Mg, Ca, K, and Na reported for nutritional context.
 
 ## Key numbers

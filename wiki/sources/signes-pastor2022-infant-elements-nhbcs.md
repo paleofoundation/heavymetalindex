@@ -31,6 +31,8 @@ updated: 2026-05-18
 
 # Signes-Pastor et al. 2022 - infant urinary elements during the first year of life
 
+## Overview
+
 This Exposure and Health study measured urinary elements in infants from the New Hampshire Birth Cohort Study to evaluate how internal exposure changed between early infancy and one year of age, and whether one-year rice consumption was associated with urinary element concentrations. The study is biomonitoring evidence, not direct product-composition evidence: no infant cereal, formula, or baby-food products were chemically analyzed. Its HMT&C value is exposure-context support for rice and rice-based infant foods, especially the arsenic and molybdenum signal during weaning and the borderline urinary nickel signal among rice consumers.
 
 ## Key numbers

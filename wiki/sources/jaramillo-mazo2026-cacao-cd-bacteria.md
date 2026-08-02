@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Jaramillo-Mazo et al. 2026 — Bacterial community responses to cadmium in Colombian cacao soils
 
+## Overview
+
 A large-scale field and laboratory study integrating 16S rDNA amplicon sequencing (225 rhizosphere samples from 5 Colombian cacao farms) with isothermal microcalorimetry (IMC) Cd-spiking assays finds that approximately 28% of the soil bacterial community responds to high cadmium concentrations, with distinct taxa enriched under natural elevated Cd versus experimental Cd addition. Both farm location and Cd soil concentration independently shape bacterial community composition (PERMANOVA p < 0.001 for both). The study identifies Flavobacterium as a newly reported Cd-tolerant genus in cacao soils, and several genera (Novosphingobium, Caulobacter, Lysobacter, Rhizobium, Clostridium sensu stricto 12) were detected as Cd-responsive across multiple geographically distant farms.
 
 This paper is directly relevant to the cocoa Cd supply-chain question: prior work by the same group (Jaramillo-Mazo et al. 2024, Microbiol Spectr) showed that bacterial community composition is associated with Cd translocation from soil to cacao beans; this 2026 study extends that mechanistic picture by characterizing which taxa are specifically Cd-responsive under natural and spiked conditions, and by demonstrating that Cd soil concentrations ranged up to 4.3 mg kg-1 in Antioquia and Santander farms.

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Van Hulle et al. 2004 - Laminaria ingestion arsenic metabolism
 
+## Overview
+
 Van Hulle and colleagues studied arsenic metabolites in human urine, blood, serum, and packed cells after healthy volunteers ingested Chinese supermarket *Laminaria*. The occurrence-relevant food matrix is the *Laminaria* sample itself; urine, blood, serum, packed-cell, and simulated-gastric-fluid values are retained as exposure and metabolism context. The source reports total arsenic in the seaweed and identifies DMA, MA, and DMAE as urinary metabolites, but it does not report an inorganic-arsenic concentration for the seaweed.
 
 ## Key numbers

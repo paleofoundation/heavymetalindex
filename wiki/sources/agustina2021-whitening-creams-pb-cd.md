@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Agustina et al. 2021 - Lead and cadmium in whitening creams
 
+## Overview
+
 Agustina et al. measured Pb and Cd in five face-whitening cream samples sold around Sleman, Yogyakarta. The study is direct personal-care product occurrence evidence. Pb was detected in three of five samples and Cd was reported in all five, with all values below the Indonesian BPOM thresholds cited by the authors.
 
 ## Key numbers

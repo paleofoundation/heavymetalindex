@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # SCCS 2023 - hydroxyapatite nano opinion for oral cosmetic products
 
+## Overview
+
 The SCCS final opinion on hydroxyapatite (nano) evaluates the safety of a notified nano-form hydroxyapatite material in oral cosmetic products. It is not a finished-product occurrence study, but it contains regulatory-context heavy-metal impurity data for the submitted hydroxyapatite nano paste ingredient and a safe-use envelope for toothpaste and mouthwash. The impurity values below should not be pooled as toothpaste or mouthwash product concentrations.
 
 ## Key numbers

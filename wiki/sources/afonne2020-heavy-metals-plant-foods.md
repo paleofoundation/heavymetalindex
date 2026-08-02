@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Afonne and Ifediba 2020 — Heavy metals risks in plant foods (Current Opinion in Toxicology)
 
+## Overview
+
 This six-page invited narrative review in Current Opinion in Toxicology synthesizes the literature on heavy metal contamination in plant foods — cereals, root and tubers, fruits, and vegetables — arguing that agricultural wastewater irrigation, fertilizer use, mining, and urban pollution in densely populated developing countries have created a dietary heavy-metal exposure burden that demands a precautionary regulatory response. The review tabulates Codex Alimentarius FAO/WHO maximum levels for the four priority heavy metals (Pb, Cd, As, Hg) across plant-food classes (Table 1) and summarizes cited concentration and health-risk findings for rice, wheat, maize, potato, cassava, and fruits/vegetables from Nigeria, China, Tanzania, Slovakia, Kosovo, Bangladesh, and a municipal-solid-waste landfill site whose attribution is internally inconsistent (review body says "Dutch village"; the cited reference is a Vientiane, Laos study). The review makes no primary measurements and reports no quantitative synthesis; all concentration values in the body are paraphrases of cited secondary sources.
 
 ## Key numbers

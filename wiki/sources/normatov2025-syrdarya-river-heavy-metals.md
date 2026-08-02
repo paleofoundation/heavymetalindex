@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Normatov et al. 2025 - Syrdarya river heavy-metal migration
 
+## Overview
+
 Normatov and colleagues monitored heavy-metal migration and sedimentation along the Syrdarya River in Tajikistan, with attention to the Kayrakkum Reservoir and irrigation-water relevance. This is upstream water-pathway evidence: it measures metals in river water and models mobility/sedimentation, not bottled or mineral-water products.
 
 ## Key numbers

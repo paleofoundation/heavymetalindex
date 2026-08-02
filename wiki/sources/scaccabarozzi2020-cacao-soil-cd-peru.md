@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Scaccabarozzi et al. 2020 — Soil, site, and management factors affecting cadmium in cacao-growing soils, Peru
 
+## Overview
+
 This study assessed cadmium concentrations in cacao-growing soils across four major agricultural regions of Peru (Madre de Dios, Ucayali, San Martin, and Amazonas) to identify the soil, site, and management factors that drive Cd accumulation in plantation soils. Forty sites with contrasting climates were sampled, with a broad range of potential factors evaluated at each site. Cadmium concentrations in soils ranged from 1.1 to 3.2 mg/kg, with all regional means below 2.7 mg/kg, the commonly used upper limit for non-polluted soils. Cadmium was significantly higher (p < 0.001) at higher elevations and in temperate, drier climates, and correlated positively with soil pH (r = 0.57; p < 0.05). Soil type was a strong predictor: alluvial sediments and Leptosols had significantly higher Cd. Management factors, including cacao variety, cultivation year, use of fertilizers, and agroecological practices, did not independently affect soil Cd concentrations.
 
 ## Key numbers

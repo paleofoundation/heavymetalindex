@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Jaafar 2020 - Pediococcus lead and cadmium bioremediation
 
+## Overview
+
 Jaafar isolated a Pediococcus pentosaceus strain from common-carp pond water in Basra, Iraq, confirmed probiotic traits, and tested its tolerance and removal of experimentally added lead and cadmium. This is mitigation and bioremediation evidence, not consumer-product occurrence evidence: the Pb and Cd values come from spiked laboratory media and fish-pond remediation framing, so they should not enter food, salt, probiotic, or supplement benchmark pools.
 
 ## Key numbers

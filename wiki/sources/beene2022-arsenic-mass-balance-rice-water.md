@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Beene et al. 2022 — Mass-balance approach to arsenic intake and excretion (Bangladesh, Navajo, Chile)
 
+## Overview
+
 This study applies a geoscience-derived mass-balance framework to reconcile arsenic intake from multiple environmental sources with urinary arsenic excretion in three well-characterized populations: rural Bangladesh (HEALS cohort, n=11,224), Navajo Nation birth cohort (NBCS, n=619), and northern Chile case-control studies (n=630). The approach treats biomarker arsenic as a dependent variable reflecting total intake from multiple pathways, rather than as an independent exposure marker. In Bangladesh, accounting for arsenic from both well water and rice substantially improved the alignment between predicted intake and measured urinary excretion; rice contributed an average of approximately 96 µg/day of arsenic, about one-third of the 300 µg/day average from drinking water. Rice As concentrations ranged 50–1,200 µg/kg (average 244 ± 150 µg/kg uncooked; 235 ± 180 µg/kg cooked). In Navajo Nation, home dust emerged as an important additional arsenic source beyond drinking water. In northern Chile, persistent imbalance between intake estimates and excretion suggested imprecise measurement of drinking water arsenic as the main source of misclassification.
 
 ## Key numbers

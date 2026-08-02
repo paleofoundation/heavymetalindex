@@ -24,6 +24,8 @@ updated: 2026-06-14
 
 # Dias et al. 2021 - Nutshell biosorbents for cadmium, lead, and mercury
 
+## Overview
+
 Dias and colleagues tested nutshell wastes as biosorbents for cadmium, lead, and mercury removal from contaminated water. This is direct a2 remediation evidence, including tests in mineral-water matrix.
 
 ## Key numbers

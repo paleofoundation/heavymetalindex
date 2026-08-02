@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hussain 2019 - Plant-food heavy metal review
 
+## Overview
+
 Hussain and colleagues reviewed arsenic, cadmium, lead, mercury, and nickel contamination in plant-based foods. The chapter is not a primary sampling study; it compiles literature tables for cereal grains, vegetables, fruits, nuts, pulses, and plant oils. This page records the review-level ranges and routing context only, and downstream quantitative pooling should prefer the underlying primary studies when those are already in the corpus or can be retrieved.
 
 ## Key numbers

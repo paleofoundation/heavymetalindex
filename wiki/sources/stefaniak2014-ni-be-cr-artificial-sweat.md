@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Stefaniak et al. 2014 — Dissolution of Ni, Be, Cr in artificial sweat for dermal bioaccessibility
 
+## Overview
+
 This Environmental Science: Processes & Impacts paper compares reactant-assisted digestion ("total" or "soluble" mass) vs artificial-sweat extraction (bioaccessible mass) for three metal sensitizers - beryllium metal, nickel metal, and chromium carbide (Cr3C2) - and uses speciated isotope dilution mass spectrometry (SIDMS) to determine Cr-VI vs Cr-III speciation in artificial sweat over time. The work establishes that reactant-assisted digestion overstates bioaccessible (dermal) exposure to all three metals, and that Cr-VI added to artificial sweat decays into Cr-III over hours.
 
 ## Key numbers

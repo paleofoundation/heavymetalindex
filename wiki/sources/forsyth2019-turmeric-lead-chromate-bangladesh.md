@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Forsyth et al. 2019 — Lead chromate in Bangladesh turmeric supply chain
 
+## Overview
+
 The foundational investigation of lead chromate adulteration in Bangladesh's turmeric supply chain, combining analytical chemistry (n=524 samples) with 152 semi-structured interviews across the entire production and distribution chain. This study mapped the mechanism by which PbCrO4-based industrial yellow pigments enter the food supply: polishers add yellow pigment to dried turmeric roots during the polishing process to enhance color and compensate for poor-quality roots, driven by consumer preference for bright yellow turmeric and demand from Dhaka wholesalers.
 
 ## Key numbers

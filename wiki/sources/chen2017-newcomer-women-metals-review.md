@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Chen et al. 2017 - Newcomer women's metal biomonitoring review
 
+## Overview
+
 Chen and colleagues scoped the literature on lead, mercury, and cadmium body burdens and exposure sources among newcomer women. The review is exposure and source-attribution context for biomonitoring, not a cookware or consumer-product occurrence survey. Its quantitative values come from the reviewed primary studies and should remain review-level context unless those primary papers are ingested directly.
 
 ## Key numbers

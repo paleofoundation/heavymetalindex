@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lee et al. 2003 — AtPCS1 overexpression paradoxically causes Cd hypersensitivity in Arabidopsis
 
+## Overview
+
 Lee, Moon, Ko, Petros, Goldsbrough, and Korban (Department of Natural Resources and Environmental Sciences, University of Illinois at Urbana-Champaign; Korea Research Institute of Bioscience and Biotechnology; and Department of Horticulture and Landscape Architecture, Purdue University) report that ectopic overexpression of *Arabidopsis* phytochelatin synthase (AtPCS1) under its own 2.0-kb promoter in transgenic *Arabidopsis thaliana* increases phytochelatin (PC) production 1.3- to 2.1-fold under Cd stress but paradoxically decreases — rather than improves — Cd tolerance, with concomitant hypersensitivity to Zn but not to Cu. The mechanism proposed is PC toxicity at supraoptimal concentrations when glutathione (GSH) is the limiting substrate: reducing intracellular GSH with buthionine sulfoximine (BSO) makes pcs lines more Cd-sensitive than the PC-null cad1-3 mutant, and supplementing the medium with 1 mM GSH abolishes the hypersensitivity. The paper is a primary mechanistic plant-biology study published in *Plant Physiology* 131:656–663 (February 2003); its value to the wiki is conceptual background for [[metals/cadmium]] and the mitigation/remediation-evidence section on the question of whether PCS-only genetic engineering is a viable phytoremediation lever, with no occurrence or food-matrix data.
 
 ## Why this matters

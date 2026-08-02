@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Orywal et al. 2021 — Heavy metals in dried wild-grown mushrooms, Poland
 
+## Overview
+
 This study measured mercury (Hg), lead (Pb), cadmium (Cd), and arsenic (As) in 80 samples of dried wild-grown mushrooms (Boletus edulis and Xerocomus badius) purchased at retail in Poland, and assessed the consumer health risk associated with standard portion consumption. Boletus edulis showed markedly higher Hg and Cd concentrations than Xerocomus badius. Consumption of a standard dried portion of Boletus edulis corresponded to 76.2%, 34.1%, 33.0%, and 4.3% of maximum daily doses for Hg, Cd, Pb, and As, respectively, indicating Hg and Cd as the primary concerns in this matrix. The study highlights a regulatory gap: EU law defines maximum levels for Cd and Hg only in fresh mushrooms and for Pb only in fresh cultivated mushrooms, leaving dried wild-grown mushrooms without enforceable limits.
 
 ## Key numbers

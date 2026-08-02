@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Godja et al. (2025) develop a screen-printed gold electrode-based electrochemical method for nickel(II) (Ni2+) detection in choline chloride-ethylene glycol (ChCl-EG) deep eutectic solvent medium. The study focuses on the electrochemical behavior of Ni2+ in this novel solvent medium rather than directly on food or water sample analysis.
 
 ## Key numbers

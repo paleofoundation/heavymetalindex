@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 An OFF-ON fluorescence sensor for Cd2+ detection was developed and validated in spiked milk and seawater matrices. The paper is primarily a sensor development study; no unspiked occurrence measurements of Cd in milk or seawater are reported. The milk matrix validation demonstrates applicability for food safety screening.
 
 ## Key numbers

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Fuentes-Lopez et al. 2025 — Total mercury in carnivorous freshwater fish, La Mojana, Colombia
 
+## Overview
+
 This study quantifies total mercury (tHg) concentrations in muscle tissue of 326 carnivorous freshwater fish from the San Jorge River in La Mojana, Sucre, Colombia — a region heavily impacted by gold mining and agricultural pesticide use — and links tHg accumulation to nematode parasite burden and liver pathology. Across all nine species and both seasons, mean tHg was 0.31 ± 0.01 µg/g wet weight, with individual species exceeding regulatory thresholds during certain seasons and consumer risk assessments indicating hazard quotient (HQ) values above 1 for frequent consumers, particularly pregnant women, nursing mothers, and young children. The study provides species-level tHg distributions and safe weekly consumption limit estimates for a fish-dependent community in northwestern Colombia.
 
 ## Key numbers
