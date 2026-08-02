@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # FDA CPG 540.600 - Methylmercury in fish and aquatic animals
 
+## Overview
+
 FDA Compliance Policy Guide Sec. 540.600 gives the agency's regulatory-action guidance for methylmercury in fish, shellfish, crustaceans, and other aquatic animals, whether fresh, frozen, or processed.
 
 ## Action Level

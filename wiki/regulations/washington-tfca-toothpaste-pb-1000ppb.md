@@ -20,6 +20,8 @@ created_by: autonomy_v0
 
 # Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit
 
+## Overview
+
 The Washington State Toxic-Free Cosmetics Act (TFCA) sets a 1000 µg/kg (1000 ppb, 1 ppm) statutory maximum for lead in toothpaste sold in Washington State, effective 2025-01-01. The TFCA is one of a small set of state-level binding heavy-metal limits in finished cosmetic products and is currently the most stringent toothpaste-specific Pb cap in the US regulatory landscape.
 
 ## Scope

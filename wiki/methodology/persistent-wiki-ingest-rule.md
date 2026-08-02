@@ -9,6 +9,8 @@ sources: 0
 
 # Persistent Wiki Ingest Rule
 
+## Overview
+
 The Heavy Metal Index is not a query-time file bucket. It is a persistent, compiled wiki that sits between the raw source corpus and every downstream use: public product pages, ingredient pages, metal pages, standards development, retailer review, quality-control operations, legal due diligence, and Ask the Index.
 
 The operating rule is simple: a source is not "ingested" because a PDF exists locally, because a source page exists, or because a language model can retrieve the file later. A source is ingested only when its evidence has been compiled into the Index's persistent structures and routed to the correct wiki destinations.

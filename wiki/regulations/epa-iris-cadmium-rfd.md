@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EPA IRIS — Cadmium Oral Reference Doses
 
+## Overview
+
 The EPA Integrated Risk Information System chemical assessment for cadmium provides two route-specific oral reference doses that reflect the different absorption efficiency of cadmium in water versus food matrices ([[sources/epa-iris-cadmium-1989|EPA IRIS Cd 1989]]). Both values were last revised October 1, 1989 and remain in force ([[sources/epa-iris-cadmium-1989|EPA IRIS Cd 1989]]).
 
 | Parameter | Water RfD | Food RfD |

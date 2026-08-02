@@ -8,6 +8,8 @@ updated: 2026-05-31
 
 # Remediation evidence: drivers and interventions
 
+## Overview
+
 This page is generated from the remediation register. It captures what the literature reports about the factors and practices that raise or lower heavy-metal contamination in food crops, anywhere across the supply chain, so the intelligence informs remediation plans and sourcing analysis rather than being discarded once a food concentration is recorded. It serves the program's first governing principle, driving contamination down through reformulation and sourcing improvement.
 
 Evidence is graded. A-tier findings rest on replicated field trials, systematic reviews, or official codes of practice. B-tier findings rest on a single field study or a strong controlled experiment. C-tier entries are leads, observational correlations or single mechanism studies, and each carries the controlled comparison that would confirm it. A lead is retained intelligence, not a recommendation; the distinction is what keeps it usable. Soil and water concentrations described here are drivers of food contamination and are never substituted for measured food concentrations. The structured form of this evidence is published at [/static/remediation.json](/static/remediation.json).

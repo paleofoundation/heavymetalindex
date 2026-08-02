@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Atmospheric deposition of heavy metals
 
+## Overview
+
 A second upstream pathway runs in parallel to root uptake from soil, and for some elements it is the one that explains the contamination a food carries. Heavy metals released into the air as fine particles and vapours travel with the wind, fall back to the ground, and settle onto soil, standing crops, surface water, and grazing land. The metal that lands this way is added to the burden a plant or animal is exposed to, sometimes by adhering directly to the harvested surface and sometimes by accumulating in the soil over years until it becomes part of the reservoir that the [soil-to-plant pathway](/supply-chain/soil-to-plant-transfer) then draws on. This page is the hub for the deposition half of the corpus. It sets out the major emission sources whose plumes carry metals to agricultural land, the physics of how that metal is delivered and redistributed, the quantitative discipline that governs how an air or deposition measurement may be used, and the way this evidence attaches to the ingredient and metal pages downstream. Lead is the element for which this pathway matters most, and much of what follows is organised around it, but cadmium, arsenic, nickel, and mercury all have meaningful atmospheric components.
 
 ## Emission sources whose plumes deposit metals

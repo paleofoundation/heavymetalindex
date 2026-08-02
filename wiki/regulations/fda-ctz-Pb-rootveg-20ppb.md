@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)
 
+## Overview
+
 Under the Closer to Zero program, the US Food and Drug Administration has established a 20 ppb action level for lead in processed single-ingredient root vegetables intended for babies and young children less than two years of age ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). Single-ingredient root vegetables are held to a separate threshold from other processed vegetable products because carrots and sweet potatoes accumulate lead from soil at rates substantially higher than other vegetable crops, because root vegetables are nutritionally important commodities for this age group, and because at the 10 ppb level applicable to other vegetables the achievability for root vegetables would have been 79 percent, a level FDA considered likely to reduce market availability of these products ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]).
 
 ## Scope

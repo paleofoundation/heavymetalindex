@@ -10,6 +10,8 @@ updated: 2026-05-11
 
 # Nickel in microbial pathogenesis
 
+## Overview
+
 This page synthesizes the mechanistic literature on nickel's role as a pathogen virulence cofactor and the host nutritional-immunity systems that counter pathogen Ni acquisition. The primary source is [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Maier and Benoit 2019]] (Inorganics 7:80, University of Georgia Center for Metalloenzyme Studies). The page exists because nickel is one of the few HMI-tracked metals that functions as both a host toxicant (the conventional dietary-exposure framing) and a pathogen virulence cofactor (the framing developed below). Dietary or ambient Ni perturbs not just host endpoints (EFSA reproductive/developmental TDI; contact-dermatitis flare-up) but the host-pathogen relationship.
 
 ## Mechanism of action

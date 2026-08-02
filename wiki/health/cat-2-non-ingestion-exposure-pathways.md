@@ -10,6 +10,8 @@ note: "Methodology supplement for HMTc Category 2. Describes the toxicokinetic /
 
 # Cat 2 (Children Personal Care) non-ingestion exposure pathways
 
+## Overview
+
 The HMTc certification program covers Category 2 (Children Personal Care): toothpaste, lipstick and other lip products, baby talcum powder, baby lotion/oil, sunscreen, shampoo and other rinse-off products, wet wipes, disposable diapers, and children's makeup. These products differ from Category 1 (food) in how heavy metals reach the child's body. Food is ingested; personal-care products reach the body via at least four mechanisms — and each mechanism has a different absorption fraction, a different time profile, and different vulnerable-population implications. This page documents those mechanisms so the Cat 2 threshold methodology is interpretable and defensible against expert cross-examination.
 
 ## The four exposure pathways for Cat 2 products

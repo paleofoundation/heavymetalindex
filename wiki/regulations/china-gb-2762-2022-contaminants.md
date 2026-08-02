@@ -18,6 +18,8 @@ updated: 2026-05-18
 
 # China GB 2762-2022 - Maximum levels of contaminants in food
 
+## Overview
+
 GB 2762-2022 is China's active National Food Safety Standard for maximum levels of contaminants in foods as of 18 May 2026. The National Health Commission and State Administration for Market Regulation announced it in 2022 as part of Announcement No. 3 of 2022. USDA FAS reports that it entered into force on 30 June 2023 and updated GB 2762-2017.
 
 ## Scope

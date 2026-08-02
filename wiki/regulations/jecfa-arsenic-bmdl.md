@@ -13,6 +13,8 @@ updated: 2026-04-26
 
 # JECFA inorganic arsenic BMDL
 
+## Overview
+
 _Stub. Pending dedicated ingest of the JECFA BMDL₀.₅ derivation for inorganic arsenic, which is the operative reference value JECFA retained after withdrawing the PTWI of 15 µg/kg b.w./week in 2010 (72nd meeting) ([[sources/jecfa-82nd-arsenic|JECFA 82nd]]). The BMDL framework expresses the lower 95% confidence limit on the dose corresponding to a 0.5 percent increased incidence of lung cancer in epidemiological data._
 
 The page should populate with:

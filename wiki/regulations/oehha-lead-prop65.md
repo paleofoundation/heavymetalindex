@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # California Proposition 65 — Lead and Lead Compounds Listing
 
+## Overview
+
 Lead and lead compounds are listed under California's Proposition 65 in two separate categories: as chemicals known to the state to cause cancer, and as chemicals known to the state to cause reproductive toxicity (developmental, male, and female endpoints) ([[sources/oehha-lead-prop65-listing|OEHHA Prop 65 Pb]]). OEHHA lists an oral No Significant Risk Level (NSRL) of 15 ug/day for cancer and a Maximum Allowable Dose Level (MADL) of 0.5 ug/day for reproductive toxicity. Consumer products sold in California that expose a consumer above the relevant threshold must carry a Prop 65 warning unless another valid safe-harbor or exposure showing applies.
 
 For infant and child foods, HMI uses the 0.5 ug/day lead MADL as the operative screening value because it is far stricter than the oral cancer NSRL. Prop 65 does not set food-category ppb limits, so HMI converts the MADL into a ppb equivalent only when a daily intake assumption is stated.

@@ -9,6 +9,8 @@ noindex: false
 
 # Regulatory tightening over time
 
+## Overview
+
 This timeline is the historical view of every dated regulation the Heavy Metal Index tracks. Read top-to-bottom for the trajectory of the regulatory floor: which limits came in when, which superseded what, where international and EU framings drift apart from US framings.
 
 The page is auto-regenerated on every build from the `effective_date` frontmatter on each [[regulations|regulation page]]. Edits by hand are overwritten on the next prebuild.

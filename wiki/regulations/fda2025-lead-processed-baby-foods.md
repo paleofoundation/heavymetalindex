@@ -17,6 +17,8 @@ audience: [standards-development, regulator, retailer, brand, legal, educator]
 
 # FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children
 
+## Overview
+
 This is the canonical Heavy Metal Index regulation node for FDA's January 2025 final guidance, [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children]]. Product pages link here when they need a single decision surface for the three lead action levels established under [[regulations/fda-closer-to-zero|FDA Closer to Zero]].
 
 ## Decision Read

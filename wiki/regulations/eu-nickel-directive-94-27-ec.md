@@ -14,6 +14,8 @@ updated: 2026-04-29
 
 # EU Nickel Directive 94/27/EC
 
+## Overview
+
 This page records the Nickel Directive requirements as described in [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]]. It is a historical/source-grounded regulation page, not a current consolidated REACH legal-status page.
 
 ## Requirements Preserved From Source

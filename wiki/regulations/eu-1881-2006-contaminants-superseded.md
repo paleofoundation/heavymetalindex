@@ -18,6 +18,8 @@ updated: 2026-05-18
 
 # EC 1881/2006 — EU framework on contaminants in foodstuffs (superseded)
 
+## Overview
+
 Commission Regulation (EC) No 1881/2006 of 19 December 2006 set enforceable EU-wide maximum levels for heavy metal and other contaminants in foodstuffs. It was the operative EU contaminants framework from 2007 until being recast by [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] on 25 May 2023. Most EU literature published before late 2023 cites this regulation as the regulatory benchmark for Pb, Cd, Hg, iAs, and Sn limits in food.
 
 This page exists so pre-recast literature has a citable regulatory anchor in the wiki. For current EU enforceable maximum levels, use [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] and its per-metal companion pages ([[regulations/eu-2023-915-cadmium|Cd]], [[regulations/eu-2023-915-lead-infant-young-child-foods|Pb infant/young-child]], [[regulations/eu-reg-2022-617-mercury-fish|Hg fish — 2022/617]]). The values below are historical and should be cited as such.

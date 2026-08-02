@@ -20,6 +20,8 @@ audience: [regulator, educator, brand-qa, brand-legal]
 
 # Commission Regulation (EU) 2024/1987 — Maximum Levels of Nickel in Food
 
+## Overview
+
 Commission Regulation (EU) 2024/1987 of 30 July 2024 amends [[regulations/eu2023-contaminants-maximum-levels|Commission Regulation (EU) 2023/915]] by inserting a new entry 3.6 (Nickel) into Section 3 of Annex I ([[sources/eu-2024-1987-nickel-maximum-levels|Reg. (EU) 2024/1987]]). It is the binding instrument that, for the first time, sets harmonised European Union maximum levels for nickel in food. Recital 8 states the rationale directly: "Maximum levels for nickel in food should therefore be set to ensure a high level of human health protection." The scientific basis is the [[sources/efsa-nickel-contam-2020|EFSA 2020 update of the nickel risk assessment]] (TDI 13 µg/kg bw, exceeded in toddlers and young children; acute margin of exposure not met for the ~15 % of the population that is nickel-sensitised).
 
 The levels are codified in Regulation (EU) 2023/915, so the current consolidated text of 2023/915 is where a compliance check is run; this page records the amending instrument that placed them there. Earlier HMI pages inferred the levels' existence from recital 7 of the companion monitoring act, [[regulations/eu-2024-907-nickel-monitoring|Recommendation (EU) 2024/907]] (22 March 2024); that recommendation predates this regulation by four months and is the precursor/companion monitoring instrument, not the source of the binding levels.

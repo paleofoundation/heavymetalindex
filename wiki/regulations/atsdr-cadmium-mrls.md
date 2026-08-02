@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # ATSDR — Minimal Risk Levels for Cadmium
 
+## Overview
+
 The US Agency for Toxic Substances and Disease Registry has derived four minimal risk levels for cadmium in its September 2012 Toxicological Profile, covering inhalation and oral routes across acute and chronic durations ([[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]]). The chronic-duration oral MRL of 0.1 µg Cd/kg/day is the value most directly comparable to the EFSA TWI, the JECFA PTMI, and the EPA IRIS oral reference dose; it is the tightest of the internationally-circulating dietary cadmium reference values when all are expressed on a daily per-body-weight basis ([[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]]). ATSDR MRLs are used in US public health assessments at hazardous waste sites under CERCLA Section 104(i) and in community exposure investigations; they are not enforceable standards but are routinely referenced by state agencies and in litigation ([[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]]).
 
 ## Minimal Risk Levels

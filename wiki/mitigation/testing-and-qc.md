@@ -12,6 +12,8 @@ sources: 0
 
 # Testing and quality-control mitigation
 
+## Overview
+
 Testing-and-QC mitigation is the brand-side and manufacturer-side practice of detecting heavy-metal load early enough in the supply chain that contaminated lots can be diverted, blended, or rejected before they reach finished product. Unlike agronomic or processing interventions, testing-and-QC does not lower heavy-metal load in raw material — it provides the visibility that lets every other mitigation strategy fire on time. Brand QA teams routinely report that the largest single driver of finished-product heavy-metal variance is whether incoming raw material was tested at all, and at what point in the supply chain the test occurred.
 
 ## Intervention points

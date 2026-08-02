@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # China GB 2762-2017 - Maximum levels of contaminants in food (superseded)
 
+## Overview
+
 GB 2762-2017 was China's successor framework for food-contaminant maximum levels after GB 2762-2012. The official NHC announcement was issued on 17 March 2017, published publicly in April 2017, and the NHC interpretation states that the standard took effect on 17 September 2017. It was replaced by [[regulations/china-gb-2762-2022-contaminants|GB 2762-2022]] on 30 June 2023.
 
 ## Scope

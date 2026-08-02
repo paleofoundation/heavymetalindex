@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # ATSDR — Minimal Risk Levels for Aluminum
 
+## Overview
+
 The US Agency for Toxic Substances and Disease Registry derived oral Minimal Risk Levels for aluminum in its September 2008 Toxicological Profile, anchored on neurotoxic effects in lifetime-exposed mice (Golub et al. 2000) ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]). The chronic-duration oral MRL is **1 mg Al/kg/day**, the same value as the intermediate-duration oral MRL ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]). An acute-duration oral MRL was not derived because the available data were considered inadequate ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]).
 
 ## Minimal Risk Levels

@@ -15,6 +15,8 @@ updated: 2026-05-02
 
 # EU Regulation 2023/915 Cadmium Maximum Levels
 
+## Overview
+
 Commission Regulation (EU) 2023/915 sets enforceable cadmium maximum levels by matrix. These are external EU legal maximum levels, not HMTc thresholds.
 
 For product pages, route only rows that match the same product basis. For ingredient pages, these values are useful because many cadmium drivers are commodity-specific: rice and cereals, cocoa solids, leafy vegetables, root/tuber vegetables, oilseeds, fishery products, bivalve molluscs, and edible offal.

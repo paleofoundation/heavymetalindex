@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # Codex CXS 193-1995 - Tin Maximum Levels For Canned Foods
 
+## Overview
+
 Codex CXS 193-1995, the General Standard for Contaminants and Toxins in Food and Feed, sets international maximum levels for total tin in canned foods. The tin rows are relevant to HMI whenever a source page reports canned-food Sn migration or compares canned-food results against Codex.
 
 ## Selected Limits

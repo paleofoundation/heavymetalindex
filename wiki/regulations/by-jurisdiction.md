@@ -9,6 +9,8 @@ noindex: false
 
 # Regulations by jurisdiction
 
+## Overview
+
 This page is the cross-cut view of every regulation the Heavy Metal Index tracks, organised by jurisdiction. Brand-legal and regulatory-affairs readers comparing how different jurisdictions regulate the same metal should land here.
 
 The page is auto-regenerated on every build from the [`jurisdiction`, `metals`, `limit_value`] frontmatter on each [[regulations|regulation page]]. Edits by hand are overwritten on the next prebuild — propose schema changes on [[methodology]] instead.

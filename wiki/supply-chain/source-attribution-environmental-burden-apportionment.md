@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Source attribution and environmental burden apportionment
 
+## Overview
+
 The other supply-chain hubs in this index follow a metal from the environment into the food: soil to plant, water to fish, deposition to leaf. This hub asks the question that sits one step further upstream, before any of those pathways begins. It does not ask how a metal reaches the food but how the metal came to be in the shared environment in the first place, and which human activity put it there. A cadmium atom in a cacao bean arrived by root uptake from soil, but the cadmium in that soil may have come from the parent rock, from decades of phosphate-fertiliser application, from atmospheric fallout off a distant smelter, or from sewage sludge spread as an amendment, and those origins are not interchangeable. Source attribution is the body of method that separates them. This page is the cross-cutting hub for that literature; it spans the soil, aquatic, atmospheric, and irrigation-water pathways rather than sitting inside any one of them, it sets out the apportionment methods the field uses, it catalogues the principal anthropogenic sources those methods repeatedly identify, and it states plainly both the strategic value of the evidence and the quantitative discipline that keeps it honest.
 
 ## What apportionment evidence is, and what it is not

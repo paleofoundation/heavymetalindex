@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # California Proposition 65 — Inorganic Arsenic Compounds Listing
 
+## Overview
+
 Inorganic arsenic compounds are listed under California Proposition 65 as chemicals known to the state to cause cancer ([[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]]). The associated quantitative implementation threshold is the No Significant Risk Level (NSRL); products sold in California that expose a consumer above the NSRL must carry a Prop 65 warning unless the business can demonstrate the exposure does not exceed the threshold ([[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]]).
 
 ## Listing record

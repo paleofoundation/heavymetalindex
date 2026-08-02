@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals
 
+## Overview
+
 Under the Closer to Zero program, the US Food and Drug Administration has established a 20 ppb action level for lead in dry infant cereals ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). Dry infant cereal is held to a separate threshold from other processed baby foods because it is often the first solid food introduced to an infant and may be the only solid food consumed for an extended period during a critical developmental window, which FDA considered in choosing a level that reduces dietary exposure while remaining achievable by industry ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]).
 
 ## Scope

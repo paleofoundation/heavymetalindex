@@ -17,6 +17,8 @@ updated: 2026-05-18
 
 # EU Regulation 2018/73 - Mercury-compound MRLs in food and feed
 
+## Overview
+
 Commission Regulation (EU) 2018/73 of 16 January 2018 amended Annexes II and III to Regulation (EC) No 396/2005 for maximum residue levels (MRLs) of mercury compounds in or on certain products. The regulation expresses mercury-compound residues as mercury. For the cereals group, including rice, the MRL is 0.01 mg/kg, equivalent to 10 ug/kg.
 
 ## Scope

@@ -12,6 +12,8 @@ sources: 0
 
 # Packaging and storage mitigation
 
+## Overview
+
 Packaging-and-storage mitigation is the post-formulation lever that controls heavy-metal migration from food-contact materials into finished product across the supply chain. Unlike agronomic or processing interventions, packaging-and-storage mitigation does not address contamination that arrived with the raw material — it controls contamination that the packaging itself introduces, or that storage conditions accelerate.
 
 The dominant pathways: tin migration from tinplate cans into acidic foods, lead from soldered seams on legacy can stocks, cadmium and chromium from pigments in printed flexible packaging, aluminum from foil and rigid containers (especially with acidic or salty foods), and trace metals migrating from ceramic glazes, plastic additives, and printed paperboard.

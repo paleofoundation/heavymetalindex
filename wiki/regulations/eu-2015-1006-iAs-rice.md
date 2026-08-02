@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # EU Regulation 2015/1006 - inorganic arsenic in rice and rice products
 
+## Overview
+
 Commission Regulation (EU) 2015/1006 amended Regulation (EC) No 1881/2006 by adding maximum levels for inorganic arsenic in rice and selected rice products. The maximum levels applied from 1 January 2016 and remained part of the EU contaminants framework until EC 1881/2006 was recast by [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] on 25 May 2023.
 
 This page exists as the historical regulatory anchor for literature that cites the 2015 amendment directly, including infant rice-food studies published around the January 2016 implementation date.

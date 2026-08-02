@@ -12,6 +12,8 @@ sources: 0
 
 # Agronomic mitigation
 
+## Overview
+
 Agronomic mitigation comprises the in-field, pre-harvest interventions that reduce heavy metal uptake into edible plant tissue at the point where the metal first enters the food system. The category is the most upstream of the [[mitigation/index|four mitigation classes]] and is typically the responsibility of growers, agronomists, and the agricultural cooperatives or extension services that work with them. Agronomic interventions are commercially relevant for a certification program because they are the only mitigation pathway that reduces the contaminant entering the supply chain rather than redistributing or screening for it after the fact.
 
 ## Intervention sub-classes

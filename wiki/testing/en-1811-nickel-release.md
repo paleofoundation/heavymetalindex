@@ -10,6 +10,8 @@ updated: 2026-04-29
 
 # EN 1811 Nickel Release Testing
 
+## Overview
+
 EN 1811 is the nickel-release method discussed in [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] for products intended to come into direct and prolonged contact with the skin. In the report's description, the article is placed in artificial sweat test solution for one week, and dissolved nickel is measured and expressed as µg/cm2/week.
 
 ## Method Features Preserved

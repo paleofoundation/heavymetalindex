@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Irrigation water and soil amendments as anthropogenic inputs to cropland
 
+## Overview
+
 Where the [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) hub describes how metals already present in soil move into the edible crop, this page is about what humans add to the agricultural system in the first place. The metal burden of a cropland soil is not fixed by parent-material geology alone. It is the running sum of every input the field has received, and a large share of those inputs are anthropogenic and ongoing: the water used to irrigate, the sludge and fertiliser spread to amend, the manure and compost returned to the land, and the process and waste water reused on it. These inputs are the part of the soil pathway that the grower and the supply chain can actually change, which is why they sit on their own hub. This page sets out each input, the difference between a one-time and a chronic addition, the quantitative discipline that governs how the upstream concentrations may be used, and how the evidence connects to the [ingredient](/ingredients) and [metal](/metals) pages downstream.
 
 ## Irrigation with contaminated water

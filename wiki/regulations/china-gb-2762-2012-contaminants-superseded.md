@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # China GB 2762-2012 - Maximum levels of contaminants in food (superseded)
 
+## Overview
+
 GB 2762-2012 was China's National Food Safety Standard for maximum levels of contaminants in foods. The Ministry of Health announced the standard on 13 November 2012; it took effect on 1 June 2013 and was replaced by [[regulations/china-gb-2762-2017-contaminants-superseded|GB 2762-2017]] on 17 September 2017.
 
 ## Scope

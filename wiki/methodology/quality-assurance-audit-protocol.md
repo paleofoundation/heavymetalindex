@@ -9,6 +9,8 @@ sources: 0
 
 # Quality Assurance Audit Protocol
 
+## Overview
+
 This page defines how the Heavy Metal Index audits its own public evidence output before moving from preview into general availability, and how it performs ongoing quality assurance after launch.
 
 ## Audit goal

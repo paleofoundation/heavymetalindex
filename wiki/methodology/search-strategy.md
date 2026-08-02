@@ -8,6 +8,8 @@ status: living-document
 
 # Search strategy and database coverage
 
+## Overview
+
 This page is the Cochrane-equivalent search-protocol publication for the Heavy Metal Index. It documents which academic and grey-literature databases are queried, how candidate papers are deduped against the existing corpus, the scoring rubric that determines whether a paper is auto-fetched for ingest, and the inclusion / exclusion criteria. A reader auditing the defensibility of the Index — regulator, brand-legal expert, journalist, or competing standards body — should be able to land here and replicate the search.
 
 The page describes the working pipeline as of the date in the frontmatter. The history of the pipeline is in [git](https://github.com/paleofoundation/heavymetalindex), which is the authoritative version record. Substantive changes are noted in [[log|wiki/log.md]].

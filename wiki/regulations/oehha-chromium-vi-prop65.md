@@ -20,6 +20,8 @@ audience: [regulator, educator, consumer]
 
 # California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels
 
+## Overview
+
 Chromium (hexavalent compounds) is listed under California's Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65) under two separate findings: as a carcinogen, listed February 27, 1987 through the Labor Code listing mechanism, and as a developmental, female reproductive, and male reproductive toxicant, listed December 19, 2008 following a determination by the state's qualified experts ([[sources/oehha-chromium-vi-prop65-listing|OEHHA Prop 65 Cr-VI]]). This page covers both findings and their associated safe-harbor levels.
 
 This is a chemical-listing and product-labeling instrument, not a food contaminant limit. A Proposition 65 listing triggers a warning obligation for businesses whose products expose California consumers above the applicable safe-harbor level; it does not set a maximum permitted concentration in any food matrix or in drinking water. The enforceable California drinking-water concentration limit for hexavalent chromium is the separate State Water Resources Control Board MCL covered at [[regulations/ca-swrcb-hexavalent-chromium-mcl]]. See [[metals/chromium-hexavalent]] for the species toxicology and food-occurrence evidence.

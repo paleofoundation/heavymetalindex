@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week
 
+## Overview
+
 The European Food Safety Authority Panel on Contaminants in the Food Chain established a tolerable weekly intake for cadmium of 2.5 µg per kilogram body weight per week in its scientific opinion adopted 30 January 2009 ([[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]]). The TWI is the EU health-based reference value for lifetime dietary cadmium exposure, against which member-state regulatory decisions, the Codex Alimentarius maximum levels adopted into EU law through Regulation (EC) No. 1881/2006, and subsequent food safety interventions are evaluated. It superseded the long-standing Joint FAO/WHO Expert Committee on Food Additives provisional tolerable weekly intake of 7 µg/kg b.w./week that had been in place since the 1980s, cutting the reference value by a factor of approximately 2.8 ([[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]]).
 
 ## TWI value

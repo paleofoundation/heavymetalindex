@@ -18,6 +18,8 @@ audience: [regulator, educator, app]
 
 # FDA 2022 Draft — Lead Action Levels for Juice
 
+## Overview
+
 FDA's 2022 draft guidance would set lead action levels of 10 ppb for single-strength apple juice and 20 ppb for other single-strength juices and juice blends. Because the document remains draft and not for implementation, HMI does not treat these values as current FDA action levels or regulatory caps.
 
 | Juice scope | Draft lead action level | Status |

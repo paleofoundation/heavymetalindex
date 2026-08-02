@@ -8,6 +8,8 @@ updated: 2026-06-10
 
 # Aquatic bioaccumulation of heavy metals
 
+## Overview
+
 Uptake from water and sediment is the dominant pathway by which heavy metals enter the seafood half of the food system, and for several elements it is the dominant pathway into the human diet overall. Where the [soil-to-plant transfer](/supply-chain/soil-to-plant-transfer) pathway treats agricultural soil as the reservoir from which a crop draws its contamination, the aquatic pathway treats seawater, freshwater, and the sediment beneath them as the equivalent reservoir from which fish, shellfish, molluscs, crustaceans, cephalopods, algae, and seaweed draw theirs. The ocean and the sediment are, in this sense, the soil of the seafood supply chain. The concentration measured in an edible aquatic species is the downstream result of processes that begin in the water column and the sediment and that, for mercury especially, are amplified at every step up the food web. This page is the hub for that upstream half of the corpus as it concerns aquatic foods; it sets out the mechanisms of bioconcentration and biomagnification, the quantitative discipline that governs how water and sediment evidence may be used, the redox and methylation chemistry that makes mercury the defining dietary problem of this pathway, and the element-specific behaviour that connects aquatic geochemistry to the [seafood ingredient](/ingredients/seafood) pages downstream.
 
 ## Water and sediment concentration is not food concentration

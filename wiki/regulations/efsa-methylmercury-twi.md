@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)
 
+## Overview
+
 The EFSA CONTAM Panel established a tolerable weekly intake for methylmercury of **1.3 µg Hg/kg body weight per week** in its December 2012 Scientific Opinion on Mercury and Methylmercury in Food, lowering the prior JECFA-aligned value of 1.6 µg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]). The revision incorporates Faroe Islands and Seychelles cohort data with adjustment for the protective effect of n-3 long-chain polyunsaturated fatty acids in fish, and is anchored on developmental neurotoxicity in offspring exposed in utero through maternal seafood consumption ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]).
 
 | Parameter | Value |

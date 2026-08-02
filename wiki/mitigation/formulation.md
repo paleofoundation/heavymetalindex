@@ -12,6 +12,8 @@ sources: 0
 
 # Formulation mitigation
 
+## Overview
+
 Formulation mitigation comprises manufacturer-level recipe and product-design choices that reduce the heavy metal exposure delivered by a finished product to its consumer, holding the ingredient pool and processing methods constant. The category is the most downstream of the [[mitigation/index|four mitigation classes]] and is typically the responsibility of the brand's R&D team and the contract manufacturer or co-packer that implements the recipe. Formulation interventions are commercially relevant because they are the mitigation pathway most directly under brand control and most directly visible to the consumer through the finished-product label.
 
 ## Intervention sub-classes

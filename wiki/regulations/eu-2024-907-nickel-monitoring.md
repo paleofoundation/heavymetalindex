@@ -20,6 +20,8 @@ audience: [regulator, educator, brand-qa, brand-legal]
 
 # Commission Recommendation (EU) 2024/907 — Monitoring of Nickel in Food
 
+## Overview
+
 Commission Recommendation (EU) 2024/907 of 22 March 2024 directs EU Member States, in collaboration with food business operators, to monitor the presence of nickel in food during 2025, 2026 and 2027 ([[sources/eu-2024-907-nickel-monitoring-recommendation|Rec. (EU) 2024/907]]). It is the companion monitoring instrument to the maximum levels for nickel in food established under [[regulations/eu2023-contaminants-maximum-levels|Regulation (EU) 2023/915]], and it cites the [[sources/efsa-nickel-contam-2020|EFSA 2020 nickel risk assessment]] as its scientific basis.
 
 The recommendation states the EU's own conclusion that current dietary nickel exposure exceeds the tolerable daily intake of 13 µg/kg b.w./day in toddlers and children (and some infants), and that the acute protective margin of exposure (≥ 30 against the 4.3 µg/kg b.w. LOAEL) is not met at mean or 95th-percentile exposure for the ~15 % of the population that is nickel-sensitised.

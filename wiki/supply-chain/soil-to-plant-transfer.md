@@ -8,6 +8,8 @@ updated: 2026-05-30
 
 # Soil-to-plant transfer of heavy metals
 
+## Overview
+
 Root uptake from soil is the dominant pathway by which cadmium, arsenic, nickel, and a large share of the lead found in plant-derived foods enter the food system. For these elements the soil is the principal reservoir, and the concentration measured in an edible crop is the downstream result of a transfer process that begins in the soil solution. Understanding that process is what allows the literature to explain why a given commodity carries the contamination it does, rather than merely recording that it does. This page is the hub for that upstream half of the corpus; it sets out the mechanism, the quantitative discipline that governs how soil evidence may be used, and the element-specific behaviour that connects soil geochemistry to the [ingredient](/ingredients) pages downstream.
 
 ## Soil concentration is not food concentration

@@ -12,6 +12,8 @@ sources: 0
 
 # Supply-chain screening
 
+## Overview
+
 Supply-chain screening comprises sourcing-side interventions that segment the supply by contamination risk and direct cleaner inputs into the certified or low-target product line. The category is the procurement-side parallel to the production-side [[mitigation/agronomic|agronomic]] and [[mitigation/processing|processing]] mitigation classes. The intervention point is procurement, sourcing, or the certification gate; the responsible party is typically the brand and its quality-assurance team, sometimes with a third-party certifier in the loop.
 
 Supply-chain screening is the mitigation class most directly aligned with HMT&C certification because the certification gate itself is a supply-chain screening intervention. A finished-product certification standard implicitly requires the brand to source ingredients from within the contamination distribution that meets the standard, which means supply-chain screening is operationally inseparable from the certification act.

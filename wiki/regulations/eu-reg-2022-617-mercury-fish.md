@@ -22,6 +22,8 @@ updated: 2026-05-16
 
 # EU Regulation 2022/617 — Mercury Maximum Levels in Fishery Products
 
+## Overview
+
 Commission Regulation (EU) 2022/617 of 12 April 2022 replaced Section 3.3 (Mercury) of Regulation (EC) No 1881/2006 in its entirety. The key structural change was the introduction of a lower-mercury fish species tier at 0.30 mg/kg wet weight for 19 species and two non-fish seafood categories that the previous single general limit (0.50 mg/kg) did not distinguish. The 1.0 mg/kg tier for high-mercury predatory species was retained. The regulation was published in the Official Journal of the European Union on 13 April 2022 and entered into force on the twentieth day following publication, making the applicability date 3 May 2022.
 
 The scientific basis is two EFSA opinions: the November 2012 opinion establishing the tolerable weekly intake (TWI) for inorganic mercury and the June 2014 statement on the risks and benefits of fish consumption during pregnancy. EFSA found that the 95th percentile dietary exposure to mercury was at or above the TWI for all age groups, and that high fish consumers, including pregnant women, could exceed the TWI by up to six-fold. Unborn children were identified as the most vulnerable group. Recital 6 of the regulation states that recent occurrence data showed there was "a margin to lower the maximum levels for mercury in various fish species," providing the empirical basis for the new 0.30 mg/kg tier.

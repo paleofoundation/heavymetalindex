@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EPA IRIS — Methylmercury Oral Reference Dose
 
+## Overview
+
 The EPA Integrated Risk Information System chemical assessment for methylmercury (CASRN 22967-92-6) provides the operative US federal oral reference dose for methylmercury exposure, anchored on developmental neurotoxicity observed in the Faroe Islands and Seychelles cohort studies ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]). The RfD was last revised July 27, 2001 and remains in force; methylmercury is currently in step 1 of EPA's IRIS reassessment process ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]]).
 
 | Parameter | Value |

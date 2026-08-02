@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # Codex Alimentarius — Maximum Levels for Cadmium in Food
 
+## Overview
+
 The Codex Alimentarius Commission establishes international maximum levels for contaminants in food, harmonized through the Codex Committee on Contaminants in Foods ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]). Codex MLs are voluntary international references; many national regulators adopt them directly, and the World Trade Organization cites them in trade disputes over food safety measures. Codex MLs are aligned to the JECFA health-based guidance value (the provisional tolerable monthly intake of 25 µg Cd/kg b.w./month, established at JECFA's 73rd meeting in 2010 ([[sources/jecfa-73rd-cadmium-2010|JECFA 73rd 2010]])) combined with feasibility considerations from CCCF and national competent authorities ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]).
 
 **The matrix-level operative Codex cadmium MLs live in Codex Standard CXS 193-1995 (General Standard for Contaminants and Toxins in Food and Feed) ([[sources/codex-cxs-193-1995|Codex CXS 193-1995]]).** This page records the cadmium-specific actions from the most recently ingested CCCF session (17th Session, April 2024 ([[sources/codex-cccf17-2024|Codex CCCF17 2024]])) and the matrix-level ML table from CXS 193-1995.

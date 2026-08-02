@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # NOM-242-SSA1-2009 - Mexican fishery-products standard
 
+## Overview
+
 NOM-242-SSA1-2009 is Mexico's sanitary standard for fresh, refrigerated, frozen, and processed fishery products. It was published in the Diario Oficial de la Federacion on 10 February 2011 and entered into force on 10 May 2011. Its transitory provision cancelled the earlier fishery-product standards including [[regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded|NOM-027-SSA1-1993]] for fresh/refrigerated/frozen fish and [[regulations/mx-nom-028-ssa1-1993-canned-fish-superseded|NOM-028-SSA1-1993]] for canned fish.
 
 ## Scope

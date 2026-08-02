@@ -8,6 +8,8 @@ updated: 2026-04-26
 
 # Soil nickel screening
 
+## Overview
+
 _Stub. Pending dedicated content describing how soil nickel concentrations are screened in the supply chain — relevant to crop-uptake risk assessment for cocoa, oats, legumes, and other nickel-bioaccumulator commodities. The EPA Eco-SSL (Ecological Soil Screening Level) framework provides plant-based and soil-invertebrate-based screening values that supply-chain actors can use to flag growing regions warranting commodity-level monitoring._
 
 The page should populate with:

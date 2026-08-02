@@ -15,6 +15,8 @@ updated: 2026-06-03
 
 # EU Regulation 2023/915 Maximum Levels
 
+## Overview
+
 Commission Regulation (EU) 2023/915 is the EU contaminants maximum-level framework for food. It is binding in its entirety and directly applicable in Member States. For HMI and HMTc, it is an external legal benchmark: it can sit next to field findings, but it is not an HMTc threshold.
 
 The local source PDF is the original Official Journal text. Because EU regulations can be amended, legal users should also check the current EUR-Lex consolidated version before relying on a value in a live dispute or compliance decision. HMI preserves the original PDF hash on [[sources/eu-2023-915-contaminants-maximum-levels]].

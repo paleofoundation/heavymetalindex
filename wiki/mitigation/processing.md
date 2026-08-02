@@ -12,6 +12,8 @@ sources: 0
 
 # Processing mitigation
 
+## Overview
+
 Processing mitigation comprises post-harvest, pre-consumption interventions that reduce heavy metal concentrations in food through physical or biochemical transformation of the harvested commodity. The category sits between [[mitigation/agronomic|agronomic mitigation]] (which prevents the metal from entering the harvested commodity) and [[mitigation/formulation|formulation mitigation]] (which works at the recipe level). The intervention point is the processor, miller, co-packer, or finished-product manufacturer; the responsible party is typically the entity that holds the commodity between farm and finished product.
 
 Processing interventions are commercially relevant for HMT&C certification because they are auditable on a per-batch or per-line basis. A processor can demonstrate that a polishing step, a parboiling protocol, or a fermentation regime is applied to a certified product line in a way that an in-field agronomic intervention cannot easily be demonstrated downstream.

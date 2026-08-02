@@ -18,6 +18,8 @@ audience: [regulator, educator, app]
 
 # EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods
 
+## Overview
+
 Commission Regulation (EU) 2023/915 sets enforceable maximum levels for lead in foods placed on the EU market. HMI stores these values in ppb for comparison against FDA action levels, Prop 65 exposure screens, and occurrence findings, while preserving the EU legal basis.
 
 | Product scope | EU lead maximum level | HMI ppb value | Basis |

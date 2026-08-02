@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water
 
+## Overview
+
 California's drinking-water Maximum Contaminant Level (MCL) for hexavalent chromium (Cr-VI) is 0.010 mg/L, equal to 10 µg/L or 10 ppb. The State Water Resources Control Board adopted the regulation on April 17, 2024; the Office of Administrative Law approved it on July 24, 2024; and it took effect on October 1, 2024 ([[sources/swrcb-hexavalent-chromium-mcl-2024|SWRCB Cr-VI MCL]]). The MCL is the first enforceable concentration limit in California to address hexavalent chromium specifically rather than through the broader total-chromium MCL of 50 µg/L ([[sources/swrcb-hexavalent-chromium-mcl-2024|SWRCB Cr-VI MCL]]).
 
 This is a drinking-water standard, not a food limit. It governs the concentration of hexavalent chromium permitted in water delivered by public water systems in California. There is no California or US regulatory maximum level for hexavalent chromium in a food matrix; this MCL is cited on the wiki as the closest ingestion-route Cr-VI regulatory benchmark, derived from drinking-water toxicology rather than from food-occurrence data. See [[metals/chromium-hexavalent]] for the species synthesis and the food-occurrence evidence base.

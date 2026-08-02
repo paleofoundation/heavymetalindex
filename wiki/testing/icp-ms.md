@@ -12,6 +12,8 @@ sources: 0
 
 # ICP-MS — Inductively Coupled Plasma Mass Spectrometry
 
+## Overview
+
 Inductively coupled plasma mass spectrometry is the dominant analytical method for trace heavy metal quantification in food, water, biological tissue, and soil matrices, and is the operative measurement underpinning nearly all post-2000 regulatory occurrence datasets cited in this wiki. ICP-MS combines the high ionization efficiency of an argon inductively coupled plasma source with the high mass resolution of a mass spectrometer, producing simultaneous multi-element detection at sub-parts-per-billion concentrations across most of the periodic table. The wiki cites ICP-MS measurements throughout — the [[sources/efsa-cadmium-contam-2009|EFSA cadmium]], [[sources/efsa-nickel-contam-2020|EFSA nickel]], [[sources/codex-cxs-193-1995|Codex CXS 193-1995]], FDA Total Diet Study, and most peer-reviewed occurrence studies in the corpus rest on ICP-MS-derived concentration values.
 
 ## Principle

@@ -21,6 +21,8 @@ updated: 2026-05-18
 
 # EU Regulation 2021/1323 - Cadmium Maximum Levels For Cereals
 
+## Overview
+
 Commission Regulation (EU) 2021/1323 amended Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs. The regulation entered into force on 31 August 2021 and was implicitly repealed by Regulation (EU) 2023/915 from 25 May 2023.
 
 ## Selected Cereal Limits Used By Source Pages

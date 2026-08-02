@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)
 
+## Overview
+
 Under the Closer to Zero program, the US Food and Drug Administration has established a 10 ppb action level for lead in a consolidated category of processed foods intended for babies and young children less than two years of age ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). The category covers fruits (single-ingredient or combination), vegetables excluding single-ingredient root vegetables (single-ingredient or combination), mixtures including grain-based and meat-based mixtures, yogurts, custards and puddings, and single-ingredient meats. Root vegetables and dry infant cereals are addressed by separate action levels under the same program, because the occurrence data supported neither a tighter uniform level across all matrices nor equivalent achievability at 10 ppb for those two categories ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]).
 
 ## Scope

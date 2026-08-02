@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Lead in Food (2010), No-Threshold Position
 
+## Overview
+
 EFSA's Panel on Contaminants in the Food Chain established in its March 2010 Scientific Opinion on Lead in Food that the previous JECFA provisional tolerable weekly intake of 25 µg/kg b.w./week is no longer appropriate, on the basis that the dose-response evidence for the most sensitive lead endpoints does not support a threshold ([[sources/efsa-lead-contam-2010|EFSA Pb 2010]]). EFSA does not therefore set a numeric TWI for lead, but instead reports Benchmark Dose Lower Confidence Limits for three critical endpoints: developmental neurotoxicity in young children, systolic blood pressure effects in adults, and chronic kidney disease prevalence in adults ([[sources/efsa-lead-contam-2010|EFSA Pb 2010]]).
 
 ## Critical endpoint BMDLs

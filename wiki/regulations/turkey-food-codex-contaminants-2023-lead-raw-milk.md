@@ -18,6 +18,8 @@ updated: 2026-05-18
 
 # Turkish Food Codex Contaminants Regulation 2023 - lead in raw milk
 
+## Overview
+
 The Turkish Food Codex Contaminants Regulation published in Resmi Gazete No. 32360 on 5 November 2023 sets maximum levels for contaminants in foods. Article 13 states that the regulation was prepared in alignment with Commission Regulation (EU) 2023/915, and Article 14 repeals the earlier 29 December 2011 Turkish Food Codex Contaminants Regulation.
 
 ## Exact Limit And Units

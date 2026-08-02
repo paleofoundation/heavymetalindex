@@ -9,6 +9,8 @@ sources: 0
 
 # Corpus Genesis — April 2026 Assembly
 
+## Overview
+
 This page documents how the working corpus of the Heavy Metal Index was assembled. It is the answer to the question "how do you know this is the relevant literature?" The wiki's epistemic standing depends on this answer being honest, specific, and reproducible.
 
 ## What the corpus is
