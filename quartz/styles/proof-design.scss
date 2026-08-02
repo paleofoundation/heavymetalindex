@@ -256,9 +256,9 @@ sup.cite .cite-card-review:hover { background: var(--burg-dark); text-decoration
 sup.cite:hover .cite-card, sup.cite:focus-within .cite-card { display: block; }
 
 .coresec { scroll-margin-top: 24px; }
-section.hmi-evidence-header { background: var(--shade); border: 1px solid var(--line); border-radius: 3px; padding: 14px 18px; margin: 0 0 18px; font-size: 13.5px; }
-section.hmi-evidence-header .hmi-evidence-row { display: flex; gap: 10px; margin: 3px 0; }
-section.hmi-evidence-header .hmi-evidence-key { color: var(--muted); min-width: 90px; font-weight: 600; font-size: 12px; }
+/* removed: section.hmi-evidence-header rules — the EvidenceHeader component that
+   emitted them was deleted (Move 1, unmounted dead code). No page emits the
+   markup; these rules only bloated index.css. */
 
 /* accordion overview (Q&A) */
 .qa { border-bottom: 1px solid var(--line); }

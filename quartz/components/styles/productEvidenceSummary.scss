@@ -76,31 +76,10 @@
   padding: 0.35rem 0.85rem;
 }
 
-.hmi-product-facts div {
-  border-bottom: 1px solid rgba(139, 42, 74, 0.12);
-  padding: 0.58rem 0;
-}
-
-.hmi-product-facts div:last-child {
-  border-bottom: 0;
-}
-
-.hmi-product-facts dt {
-  color: var(--gray);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  margin: 0 0 0.18rem;
-  text-transform: uppercase;
-}
-
-.hmi-product-facts dd {
-  color: var(--dark);
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1.35;
-  margin: 0;
-}
+/* row / dt / dd now owned by the shared dotted key→value atom in
+   quartz/styles/v3-primitives.scss (COMPONENTS §10). Deleted here rather than
+   out-specified so there is one source of truth. The `.hmi-product-facts`
+   container rule above is kept. */
 
 .hmi-product-chip-group {
   align-items: center;

@@ -144,3 +144,61 @@ pre > code {
   color: #a9a1a2;
   margin: 0 0 12px;
 }
+
+// ── COMPONENTS §10 — the dotted key→value atom ──────────────────────────────
+// One shared row treatment for every label→value pair (hero snapshot facts,
+// product-facts, source-citation facts). A dotted #f2ece7 rule under each row,
+// mono value. Unlayered here → authoritative over the legacy-layer component
+// sheets, so productEvidenceSummary.scss / sourceCitationPanel.scss delete their
+// own row/dt/dd rules and inherit this (one source of truth).
+//
+// Row markup is `<dl class="…"> <div> <dt/> <dd/> </div> … </dl>` (verified in
+// built HTML), so the grid lives on `> div`, NOT the <dl> container.
+.hmi-kv,
+.hmi-product-facts > div,
+.hmi-source-citation-facts > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px dotted #f2ece7;
+}
+.hmi-product-facts > div:last-child,
+.hmi-source-citation-facts > div:last-child { border-bottom: 0; }
+
+.hmi-kv-k,
+.hmi-product-facts dt,
+.hmi-source-citation-facts dt {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #3f3a3f;
+}
+.hmi-kv-v,
+.hmi-product-facts dd,
+.hmi-source-citation-facts dd {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #8b2a4a;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+// Correction (ii): nowrap ONLY on the generic short-atom value. The two real-
+// content families carry sentence-length values ("Data gap with documented
+// rationale", DOIs, author lists) that MUST wrap — leaving them wrapping.
+.hmi-kv-v { white-space: nowrap; }
+
+// Long-value variant: source-citation values (authors, DOIs, URLs) are the
+// longest. Give the ROW a single column (correction i: target `> div`, not the
+// container — the container is no longer display:grid once its legacy rule is
+// deleted) so the value goes full-width, left-aligned.
+.hmi-source-citation-facts > div { grid-template-columns: minmax(0, 1fr); }
+.hmi-source-citation-facts dd { text-align: left; }
+.hmi-source-citation-facts dd a { color: #8b2a4a; }
