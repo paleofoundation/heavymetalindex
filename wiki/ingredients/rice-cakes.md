@@ -188,10 +188,10 @@ The EU has established a specific maximum level for iAs in rice-based foods for 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
-2. Signes-Pastor AJ, Carey M, and Meharg AA (2016). *Inorganic arsenic in rice-based products for infants and young children*. Food Chemistry 191:128-134. [https://doi.org/10.1016/j.foodchem.2014.11.078](https://doi.org/10.1016/j.foodchem.2014.11.078). Peer-reviewed, A-tier. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Source record]]
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Inorganic arsenic in rice-based products for infants and young children]]<span class="hmi-ref-meta">Signes-Pastor AJ, Carey M, and Meharg AA · Food Chemistry 191:128-134 · 2016 · [doi.org/10.1016/j.foodchem.2014.11.078](https://doi.org/10.1016/j.foodchem.2014.11.078)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -40,10 +40,10 @@ This row is now also represented in the broader EU 2023/915 source ingest at [[s
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. D'Amato M, Turco AC, D'Amore T, Vitale F, Marini F, Stacchini P, et al. (2026). *Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment*. Foods. [https://doi.org/10.3390/foods15020383](https://doi.org/10.3390/foods15020383). Peer-reviewed, A-tier. [[sources/damato2026-inorganic-arsenic-rice-based-beverages|Source record]]
-2. European Commission (2023). *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*. Official Journal of the European Union. [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915). Regulation, A-tier. [[sources/eu-2023-915-contaminants-maximum-levels|Source record]]
+1. [[sources/damato2026-inorganic-arsenic-rice-based-beverages|Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment]]<span class="hmi-ref-meta">D'Amato M, Turco AC, D'Amore T, Vitale F, Marini F, Stacchini P, et al. · Foods · 2026 · [doi.org/10.3390/foods15020383](https://doi.org/10.3390/foods15020383)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/eu-2023-915-contaminants-maximum-levels|Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006]]<span class="hmi-ref-meta">European Commission · Official Journal of the European Union · 2023 · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915)</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -10,6 +10,24 @@ function applyCiteSuperscripts() {
   // link is eaten and rendered as a bare "[1]".
   if ((document.body.dataset.slug ?? "") === "index") return
 
+  // The trailing apparatus — References, Sources, Update history — is not prose.
+  // Its source links are the reference list and the corpus table, not citations,
+  // and must be left alone. They were meant to be excluded by
+  // a.closest("#references, #sources, ...") — but those ids sit on the HEADINGS,
+  // and the lists are SIBLINGS of the headings, not descendants, so closest()
+  // never matched and every reference entry's own source link was being
+  // converted into a stray trailing superscript. Exclude by DOCUMENT POSITION
+  // instead: find the first apparatus heading and skip any citation at or after
+  // it. This also lets the reference list make the title itself the source link
+  // without the script eating it.
+  const apparatus = Array.from(
+    content.querySelectorAll(
+      "h2#references, h2#sources, h2[id='update-history'], h2[id='page-history']",
+    ),
+  ).sort((a, b) =>
+    a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1,
+  )[0]
+
   // 1) Convert each source link to a superscript citation.
   const links = content.querySelectorAll('a[data-slug^="sources/"]')
   const numBySlug = new Map<string, number>()
@@ -18,7 +36,7 @@ function applyCiteSuperscripts() {
     const a = el as HTMLAnchorElement
     if (a.closest("sup.cite")) return
     if (a.closest("table")) return
-    if (a.closest("#references, #sources, [id='page-history'], [id='update-history']")) return
+    if (apparatus && apparatus.compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING) return
     const slug = a.getAttribute("data-slug") || ""
     let num = numBySlug.get(slug)
     if (num === undefined) {

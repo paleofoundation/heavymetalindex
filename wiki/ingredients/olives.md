@@ -183,11 +183,11 @@ The Codex Alimentarius General Standard for Contaminants and Toxins in Food and 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Karatasli M (2018). *Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey*. Nuclear Technology & Radiation Protection. [https://doi.org/10.2298/NTRP180702007K](https://doi.org/10.2298/NTRP180702007K). Peer-reviewed, A-tier. [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives|Source record]]
-2. Vella I, Costa C, and Lia F (2024). *Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS*. MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2. Peer-reviewed, B-tier. [[sources/vella2024-malta-olive-cultivars-aas|Source record]]
-3. Shavali-gilani P, Abedini A, Irshad N, Maleknezhad S, Yazdanfar N, and Sadighara P (2025). *Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers*. Scientific Reports. [https://doi.org/10.1038/s41598-025-06896-9](https://doi.org/10.1038/s41598-025-06896-9). Peer-reviewed, A-tier. [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran|Source record]]
+1. [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives|Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey]]<span class="hmi-ref-meta">Karatasli M · Nuclear Technology & Radiation Protection · 2018 · [doi.org/10.2298/NTRP180702007K](https://doi.org/10.2298/NTRP180702007K)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/vella2024-malta-olive-cultivars-aas|Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS]]<span class="hmi-ref-meta">Vella I, Costa C, and Lia F · MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 · 2024</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran|Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers]]<span class="hmi-ref-meta">Shavali-gilani P, Abedini A, Irshad N, Maleknezhad S, Yazdanfar N, and Sadighara P · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-06896-9](https://doi.org/10.1038/s41598-025-06896-9)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

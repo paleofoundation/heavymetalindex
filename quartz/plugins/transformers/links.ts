@@ -126,9 +126,22 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                 }
 
                 // rewrite link internals if prettylinks is on
+                //
+                // NEVER basename an ALIASED link. prettyLinks exists to turn a
+                // bare `[[folder/slug]]` into "slug" — but path.basename() splits
+                // on "/", so an EXPLICIT alias that contains a slash was being
+                // silently truncated: `[[sources/x|Blood Lead Reference Value
+                // (3.5 µg/dL)]]` rendered as "dL)". An author-supplied alias is
+                // display text, not a path, and must be left verbatim. The
+                // "alias" class (added above when the text differs from the href)
+                // is the exact signal for that.
+                const isAlias = Array.isArray(node.properties.className)
+                  ? node.properties.className.includes("alias")
+                  : false
                 if (
                   opts.prettyLinks &&
                   isInternal &&
+                  !isAlias &&
                   node.children.length === 1 &&
                   node.children[0].type === "text" &&
                   !node.children[0].value.startsWith("#")

@@ -76,10 +76,10 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Silva VdS, Arias LVA, Usberti FCS, Oliveira RAd, and Fakhouri FM (2025). *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*. Lipidology. [https://doi.org/10.3390/lipidology2040021](https://doi.org/10.3390/lipidology2040021). Peer-reviewed, B-tier. [[sources/silva2025-edible-oils-health-sustainability|Source record]]
-2. Scutarasu EC and Trincă LC (2023). *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*. Foods. [https://doi.org/10.3390/foods12183340](https://doi.org/10.3390/foods12183340). Peer-reviewed, B-tier. [[sources/scutarasu2023-heavy-metals-foods-beverages|Source record]]
+1. [[sources/silva2025-edible-oils-health-sustainability|Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks]]<span class="hmi-ref-meta">Silva VdS, Arias LVA, Usberti FCS, Oliveira RAd, and Fakhouri FM · Lipidology · 2025 · [doi.org/10.3390/lipidology2040021](https://doi.org/10.3390/lipidology2040021)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/scutarasu2023-heavy-metals-foods-beverages|Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods]]<span class="hmi-ref-meta">Scutarasu EC and Trincă LC · Foods · 2023 · [doi.org/10.3390/foods12183340](https://doi.org/10.3390/foods12183340)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

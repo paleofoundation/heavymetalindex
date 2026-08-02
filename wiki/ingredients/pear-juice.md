@@ -129,9 +129,9 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Food Standards Australia New Zealand (2012). *Survey of total arsenic and inorganic arsenic in apple and pear juice*. Food Standards Australia New Zealand (FSANZ) targeted analytical survey, published February 2013. Government report, A-tier. [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz|Source record]]
+1. [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz|Survey of total arsenic and inorganic arsenic in apple and pear juice]]<span class="hmi-ref-meta">Food Standards Australia New Zealand · 2012</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

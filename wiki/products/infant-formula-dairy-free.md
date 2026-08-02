@@ -32,10 +32,10 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega (2019). *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636). Peer-reviewed, A-tier. [[sources/frisbie2019-manganese-infant-formula-beverages|Source record]]
-2. Kumar A and et al. (2024). *High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants*. Environmental Health 23(1). [https://doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w). Peer-reviewed, A-tier. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|Source record]]
+1. [[sources/frisbie2019-manganese-infant-formula-beverages|Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations]]<span class="hmi-ref-meta">Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega · PLOS ONE · 2019 · [doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants]]<span class="hmi-ref-meta">Kumar A and et al. · Environmental Health 23(1) · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

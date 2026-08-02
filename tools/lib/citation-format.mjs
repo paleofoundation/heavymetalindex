@@ -145,6 +145,130 @@ function renderAuthorList(authors) {
  * @param {string} citeKey
  * @returns {string} markdown, no leading list marker
  */
+/**
+ * Short uppercase source-type tag for the redesigned reference card
+ * (the right-aligned label in the References block).
+ *
+ * IMPORTANT — this reads the REAL `source_type` frontmatter and nothing else.
+ * The v3 mock distinguishes "AGENCY OPINION" from "GOVERNMENT" and calls Codex a
+ * "STANDARD", but the corpus does not record those distinctions: an EFSA opinion
+ * and an ATSDR profile both carry `source_type: gov-report`. Inventing the finer
+ * tag from a title keyword would be fabricating a classification the evidence
+ * base does not support, and one miscategorised entry is exactly what discredits
+ * a reference list under scrutiny. So the tag is derived only from the recorded
+ * type. Where the field genuinely says "standard" (regulatory-standard) it reads
+ * STANDARD; an EFSA opinion reads GOVERNMENT, honestly.
+ *
+ * Order matters: the more specific prefix wins before the generic "report".
+ */
+export function referenceTag(fm) {
+  const s = String(fm?.source_type || "").toLowerCase().trim().replace(/[_\s]+/g, "-")
+  if (!s) return "Source"
+  if (/standard/.test(s)) return "Standard"
+  if (/guidance/.test(s)) return "Guidance"
+  if (/industry|trade|application-note/.test(s)) return "Industry"
+  if (/ngo|non-?profit/.test(s)) return "NGO"
+  if (/preprint/.test(s)) return "Preprint"
+  if (/review/.test(s)) return "Review" // peer-reviewed-review, systematic-review
+  if (/peer-reviewed|journal|^article|^study$/.test(s)) return "Peer-reviewed"
+  if (/textbook|book/.test(s)) return "Textbook"
+  if (/thesis|dissertation/.test(s)) return "Thesis"
+  if (/conference|proceeding/.test(s)) return "Conference"
+  if (/dataset|database|-data\b/.test(s)) return "Dataset"
+  // A report FROM a government or agency is GOVERNMENT, before the bare
+  // "regulatory" prefix can claim it as a REGULATION.
+  if (/report/.test(s) && /gov|government|agency/.test(s)) return "Government"
+  if (/regulation|regulatory/.test(s)) return "Regulation"
+  if (/gov|government|agency|regulator/.test(s)) return "Government"
+  if (/news/.test(s)) return "News"
+  return s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, " ")
+}
+
+const stripTrail = (v) => String(v).trim().replace(/\s*\.$/, "")
+
+/**
+ * The meta line under a reference title: who · publication · year · DOI.
+ *
+ * For a paper the "who" is the author list (up to six, then et al.); for an
+ * agency document there are no authors, so the publication IS the issuing body
+ * and is not repeated. The DOI (or, failing that, the access host) is kept as a
+ * link so the primary source is reachable in one hop, not only via the source
+ * record — that redundancy is what keeps the short form independently
+ * verifiable. Rendered as markdown so Quartz resolves the DOI link; the whole
+ * string sits inside an inline <span class="hmi-ref-meta">, whose contents are
+ * still parsed as markdown.
+ */
+// Two org strings are "the same body" when one contains the other once
+// punctuation and case are dropped. This is what stops an agency document
+// printing its issuer twice — author "Agency for Toxic Substances and Disease
+// Registry" beside publication "U.S. Department of Health…, Agency for Toxic
+// Substances and Disease Registry" — while still keeping a real journal (EFSA
+// Panel … · EFSA Journal), which is not a containment.
+function sameBody(a, b) {
+  const norm = (v) =>
+    String(v)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim()
+  const na = norm(a)
+  const nb = norm(b)
+  if (!na || !nb) return false
+  return na.includes(nb) || nb.includes(na)
+}
+
+export function renderReferenceMeta(fm, citeKey) {
+  const bits = []
+  const authorList = renderAuthorList(fm.authors)
+  if (authorList) {
+    bits.push(authorList)
+    if (fm.publication && !sameBody(authorList, fm.publication)) bits.push(stripTrail(fm.publication))
+  } else if (fm.publication) {
+    bits.push(stripTrail(fm.publication))
+  } else {
+    bits.push(inferOrgLabelFromCiteKey(citeKey))
+  }
+  const year = fm.year
+  if (year != null && String(year).trim() && String(year).toLowerCase() !== "n.d.") {
+    bits.push(String(year).trim())
+  }
+  if (fm.doi) {
+    const doi = String(fm.doi).replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
+    bits.push(`[doi.org/${doi}](https://doi.org/${doi})`)
+  } else if (fm.access_url) {
+    const url = String(fm.access_url).trim()
+    const host = url.replace(/^https?:\/\//i, "").split("/")[0]
+    bits.push(`[${host}](${url})`)
+  }
+  return bits.join(" · ")
+}
+
+/**
+ * One entry in the redesigned (short-form) References list.
+ *
+ * Shape, as markdown so Quartz resolves the wikilink and stamps its popover
+ * metadata:
+ *
+ *   [[sources/<key>|Title]]<span class="hmi-ref-meta">…</span><span class="hmi-ref-tag">Type</span>
+ *
+ * The title IS the link to the source record — the auditable anchor that leads
+ * to the ingest receipt, the file hash, and the extracted values. The spans
+ * carry no whitespace between them so the CSS grid that lays out
+ * number / title+meta / tag gets exactly three items and no phantom cells.
+ */
+export function renderReferenceEntry(fm, citeKey) {
+  const rawTitle = stripTrail(String(fm.title || "(untitled)"))
+  // The title becomes a wikilink LABEL; strip the three characters that would
+  // terminate or malform it. Rare in practice, catastrophic when present.
+  const label = rawTitle.replace(/[[\]|]/g, " ").replace(/\s+/g, " ").trim() || "(untitled)"
+  const meta = renderReferenceMeta(fm, citeKey)
+  const tag = referenceTag(fm)
+  return (
+    `[[sources/${citeKey}|${label}]]` +
+    `<span class="hmi-ref-meta">${meta}</span>` +
+    `<span class="hmi-ref-tag">${tag}</span>`
+  )
+}
+
 export function renderFullCitation(fm, citeKey) {
   const parts = []
   const authorList = renderAuthorList(fm.authors)

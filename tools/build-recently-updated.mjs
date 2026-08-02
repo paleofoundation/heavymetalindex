@@ -111,23 +111,28 @@ if (recent.length < 3) {
   process.exit(0)
 }
 
+// v3 HOME A lines 244-259: a three-column grid of date / title / kind rows,
+// each row itself a 92px | 1fr | auto grid. No <ul>, no lede paragraph.
 const items = recent
   .map(
-    (r) => `      <li>
-        <time datetime="${esc(r.updated)}">${esc(fmtDate(r.updated))}</time>
-        <span class="hmi-home-feed-what"><a href="${esc(r.href)}">${esc(r.title)}</a> <span class="hmi-home-feed-tag">${esc(r.tag)}</span></span>
-      </li>`,
+    (r) => `    <div class="hmi-v3-rev-row">
+      <time class="hmi-v3-rev-d" datetime="${esc(r.updated)}">${esc(fmtDate(r.updated))}</time>
+      <a class="hmi-v3-rev-t" href="${esc(r.href)}">${esc(r.title)}</a>
+      <span class="hmi-v3-rev-k">${esc(r.tag)}</span>
+    </div>`,
   )
   .join("\n")
 
 const block = `${BEGIN}
-<section class="hmi-band hmi-band--shade hmi-home-recently" data-no-cite aria-label="Recently updated">
-  <div class="hmi-band-inner">
-    <h2>Recently updated</h2>
-    <p class="hmi-band-lede">The most recently revised pages across metals, ingredients, and products. Every page also carries its own update history.</p>
-    <ul class="hmi-home-feed">
+<section class="hmi-v3-rev" data-no-cite aria-label="Recently revised">
+  <div class="hmi-v3-rev-inner">
+  <div class="hmi-v3-rev-head">
+    <h2>Recently revised</h2>
+    <a class="hmi-v3-rev-all" href="audits/">Full update history &rarr;</a>
+  </div>
+  <div class="hmi-v3-rev-grid">
 ${items}
-    </ul>
+  </div>
   </div>
 </section>
 ${END}`

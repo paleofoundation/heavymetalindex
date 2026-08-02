@@ -135,10 +135,10 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S (2023). *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986). Peer-reviewed, A-tier. [[sources/milani2023-trace-elements-soy-based-beverages|Source record]]
-2. Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. (2021). *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5). Peer-reviewed, A-tier. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Source record]]
+1. [[sources/milani2023-trace-elements-soy-based-beverages|Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility]]<span class="hmi-ref-meta">Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks]]<span class="hmi-ref-meta">Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. · Biological Trace Element Research · 2021 · [doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -142,11 +142,11 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI (2025). *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*. Scientific Reports. [https://doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x). Peer-reviewed, A-tier. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Source record]]
-2. Altalib SA, Ghania AA, and Alazzabi AA (2025). *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*. Mediterranean Journal of Medical Research. [https://doi.org/10.5281/zenodo.17986261](https://doi.org/10.5281/zenodo.17986261). Peer-reviewed, B-tier. [[sources/altalib2025-frozen-meat-libya|Source record]]
-3. Hoha GV, Costăchescu E, Leahu A, and Păsărin B (2014). *Heavy metals contamination levels in processed meat marketed in Romania*. Environmental Engineering and Management Journal. [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/). Peer-reviewed, B-tier. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Source record]]
+1. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt]]<span class="hmi-ref-meta">Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/altalib2025-frozen-meat-libya|Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market]]<span class="hmi-ref-meta">Altalib SA, Ghania AA, and Alazzabi AA · Mediterranean Journal of Medical Research · 2025 · [doi.org/10.5281/zenodo.17986261](https://doi.org/10.5281/zenodo.17986261)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Heavy metals contamination levels in processed meat marketed in Romania]]<span class="hmi-ref-meta">Hoha GV, Costăchescu E, Leahu A, and Păsărin B · Environmental Engineering and Management Journal · 2014 · [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

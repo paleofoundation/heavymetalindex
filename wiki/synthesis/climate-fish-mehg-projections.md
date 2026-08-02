@@ -99,11 +99,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, and Schartup A (2023). *Global change effects on biogeochemical mercury cycling*. Ambio. [https://doi.org/10.1007/s13280-023-01855-y](https://doi.org/10.1007/s13280-023-01855-y). Peer-reviewed, A-tier. [[sources/sonke2023-mercury-global-change|Source record]]
-2. Wang F, Macdonald RW, Armstrong DA, and Stern GA (2023). *Climate-driven changes of global marine mercury cycles in 2100*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2202488120](https://doi.org/10.1073/pnas.2202488120). Peer-reviewed, A-tier. [[sources/wang2023-climate-marine-mercury|Source record]]
-3. Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. (2022). *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119). Peer-reviewed, A-tier. [[sources/motta2022-marine-hg-isotopes|Source record]]
+1. [[sources/sonke2023-mercury-global-change|Global change effects on biogeochemical mercury cycling]]<span class="hmi-ref-meta">Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, and Schartup A · Ambio · 2023 · [doi.org/10.1007/s13280-023-01855-y](https://doi.org/10.1007/s13280-023-01855-y)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/wang2023-climate-marine-mercury|Climate-driven changes of global marine mercury cycles in 2100]]<span class="hmi-ref-meta">Wang F, Macdonald RW, Armstrong DA, and Stern GA · Proceedings of the National Academy of Sciences · 2023 · [doi.org/10.1073/pnas.2202488120](https://doi.org/10.1073/pnas.2202488120)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/motta2022-marine-hg-isotopes|Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms]]<span class="hmi-ref-meta">Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. · Proceedings of the National Academy of Sciences · 2022 · [doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -225,12 +225,12 @@ The FDA has proposed an action level of 20 ppb Pb for processed foods containing
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
-2. Stasinos S, Nasopoulou C, Tsikrika C, and Zabetakis I (2014). *The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review*. Journal of Food Science. [https://doi.org/10.1111/1750-3841.12433](https://doi.org/10.1111/1750-3841.12433). Review, B-tier. [[sources/stasinos2014-heavy-metals-tubers-review|Source record]]
-3. Sixto A, Mollo A, Ibanez F, and Piston M (2023). *Inorganic contaminants (As, Cd, Pb) in peeled and whole potatoes and sweet potatoes*. Agrociencia Uruguay. [https://doi.org/10.31285/AGRO.27.1060](https://doi.org/10.31285/AGRO.27.1060). Peer-reviewed, A-tier. [[sources/sixto2023-potatoes-sweet-potatoes-metals|Source record]]
-4. Mahaffey KR, Corneliussen PE, Jelinek CF, and Fiorino JA (1975). *Heavy Metal Exposure from Foods*. Environmental Health Perspectives. Peer-reviewed, B-tier. [[sources/mahaffey1975-fda-total-diet-study-heavy-metals|Source record]]
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/stasinos2014-heavy-metals-tubers-review|The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review]]<span class="hmi-ref-meta">Stasinos S, Nasopoulou C, Tsikrika C, and Zabetakis I · Journal of Food Science · 2014 · [doi.org/10.1111/1750-3841.12433](https://doi.org/10.1111/1750-3841.12433)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/sixto2023-potatoes-sweet-potatoes-metals|Inorganic contaminants (As, Cd, Pb) in peeled and whole potatoes and sweet potatoes]]<span class="hmi-ref-meta">Sixto A, Mollo A, Ibanez F, and Piston M · Agrociencia Uruguay · 2023 · [doi.org/10.31285/AGRO.27.1060](https://doi.org/10.31285/AGRO.27.1060)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/mahaffey1975-fda-total-diet-study-heavy-metals|Heavy Metal Exposure from Foods]]<span class="hmi-ref-meta">Mahaffey KR, Corneliussen PE, Jelinek CF, and Fiorino JA · Environmental Health Perspectives · 1975</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

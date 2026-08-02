@@ -127,9 +127,9 @@ _Frame: if FDA, Health Canada, EU, or national-agency enforcement actions involv
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte (2011). *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*. Food Additives & Contaminants: Part A. [https://doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795). Peer-reviewed, A-tier. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Source record]]
+1. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions]]<span class="hmi-ref-meta">Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte · Food Additives & Contaminants: Part A · 2011 · [doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

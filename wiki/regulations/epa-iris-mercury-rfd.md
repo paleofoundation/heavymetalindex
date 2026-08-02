@@ -37,9 +37,9 @@ The EPA Integrated Risk Information System chemical assessment summary for mercu
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Environmental Protection Agency (1995). *Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692). Government report, A-tier. [[sources/epa-iris-mercuric-chloride|Source record]]
+1. [[sources/epa-iris-mercuric-chloride|Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 1995 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

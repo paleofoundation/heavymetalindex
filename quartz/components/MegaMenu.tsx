@@ -78,13 +78,29 @@ export function MegaMenu({ slug }: { slug: FullSlug }) {
               aria-expanded="false"
               aria-controls={panelId}
             >
+              {/* CHROME-SPEC §1: "No chevron, no caret, no disclosure glyph. The
+                  2px bottom border is the entire affordance." The <Chevron /> is
+                  gone. The button and its screen-reader name stay: dropping the
+                  accessible name would leave a keyboard-reachable control with no
+                  label, which is an accessibility regression — ground A under
+                  CONTENT-RULES §5, so my call. It renders nothing visually. */}
               <span class="hmi-sr-only">{`Show ${panel.panelLabel} menu`}</span>
-              <Chevron />
             </button>
 
             <div class="hmi-nav-panel" id={panelId} aria-labelledby={labelId}>
               <div class="hmi-nav-panel-inner">
-                <p class="hmi-nav-blurb">{panel.blurb}</p>
+                {/* CHROME-SPEC §2: the 280px left rail is title + blurb +
+                    all-link, all three in flow. The generator emitted only the
+                    blurb, and the all-link was a SIBLING of .hmi-nav-cols — so in
+                    a 2-column grid it landed in the wrong cell and rendered
+                    stranded at the bottom-left. */}
+                <div class="hmi-nav-rail">
+                  <p class="hmi-nav-title">{panel.panelLabel}</p>
+                  <p class="hmi-nav-blurb">{panel.blurb}</p>
+                  <a class="hmi-nav-all" href={resolveRelative(slug, panel.slug as SimpleSlug)}>
+                    {panel.allLabel} <span aria-hidden="true">→</span>
+                  </a>
+                </div>
                 <div class="hmi-nav-cols">
                   {panel.groups.map((group) => (
                     <div class="hmi-nav-col">
@@ -112,9 +128,6 @@ export function MegaMenu({ slug }: { slug: FullSlug }) {
                     </div>
                   ))}
                 </div>
-                <a class="hmi-nav-all" href={resolveRelative(slug, panel.slug as SimpleSlug)}>
-                  {panel.allLabel} <span aria-hidden="true">→</span>
-                </a>
               </div>
             </div>
           </li>

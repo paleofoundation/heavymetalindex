@@ -57,9 +57,9 @@ The wiki maintains the Cr3+ versus Cr6+ distinction wherever the source permits,
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

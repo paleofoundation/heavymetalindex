@@ -19,14 +19,13 @@ import askScript from "./scripts/askindex.inline"
 // and lifted OUT of `#quartz-body` into a full-bleed <header> element by
 // renderPage.tsx, so it spans the viewport rather than the centered grid.
 //
-// Contents, left → right:
-//   1. Wordmark: "Heavy Metal Index" + an "Operated by the Institute of
-//      Contaminant Standards" sub-line (the one-way operator attribution; the
-//      wiki remains the independent reference per CLAUDE.md Part 1/Part 2 — this
-//      is attribution, not an HMT&C endorsement, and names no certified brand).
-//   2. Taxonomy links (Metals first) + utility links (About).
-//   3. Interactive controls: Search (existing modal component) and a compact
-//      "Ask the Index" launcher.
+// Contents, left → right — CHROME-SPEC §1.1's child order:
+//   1. Wordmark: "Heavy Metal Index" (the operator attribution moved to the
+//      footer's bottom bar; the wiki remains the independent reference per
+//      CLAUDE.md Part 1/Part 2 and names no certified brand).
+//   2. Nav: the five mega-menu triggers, and nothing else.
+//   3. Spacer: a flex item, not an auto margin. See the comment at its site.
+//   4. Actions: search box · Ask the Index · About · Log in · Index Pro.
 //
 // All hrefs resolve relative to the current page so the bar is correct at any
 // directory depth. Active state is computed server-side from the current slug.
@@ -88,115 +87,107 @@ export default ((_userOpts?: Partial<TopNavOptions>) => {
             </svg>
           </button>
 
+          {/*
+            CHROME-SPEC §1.1 children, in order: wordmark · nav · spacer ·
+            actions · (progress). The nav holds the five triggers and NOTHING
+            else. The controls used to live inside it, which is why the nav's
+            intrinsic width was 1113px and why "zero <svg> inside the nav" could
+            not be asserted: the search icon was in there.
+          */}
           <nav id="hmi-topnav-menu" class="hmi-topnav-menu hmi-nav" aria-label="Primary">
             <MegaMenu slug={slug} />
-            <div class="hmi-topnav-controls">
-              {/*
-                Quartz's Search markup, rendered inline in the bar. It is NOT a
-                nested <Search/> component call: Quartz collects css/afterDOMLoaded
-                by walking the layout arrays, so a nested component's resources
-                would never be emitted. The DOM shape has to match search.inline.ts
-                (`.search` > `.search-button` + `.search-container .search-bar`
-                + `.search-layout`), which is what wires this up; the script
-                iterates every `.search` element on the page, so the homepage
-                hero's own search block is wired by the same bundle.
-              */}
-              <div class="search hmi-topnav-search" role="search">
-                <button class="search-button" type="button" aria-label={searchPlaceholder}>
-                  <svg
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 19.9 19.7"
-                    width="16"
-                    height="16"
-                  >
-                    <g class="search-path" fill="none">
-                      <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
-                      <circle cx="8" cy="8" r="7" />
-                    </g>
-                  </svg>
-                  <p>{i18n(cfg.locale).components.search.title}</p>
-                </button>
-                <div class="search-container">
-                  <div class="search-space">
-                    <input
-                      autocomplete="off"
-                      class="search-bar"
-                      name="search"
-                      type="text"
-                      aria-label={searchPlaceholder}
-                      placeholder={searchPlaceholder}
-                    />
-                    <div class="search-layout" data-preview="true"></div>
-                  </div>
-                </div>
-              </div>
-              <a class="hmi-topnav-ask" href={resolveRelative(slug, "ask" as SimpleSlug)}>
-                <svg
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
-                  <path d="M8 9h8" />
-                  <path d="M8 13h5" />
-                </svg>
-                <span>Ask the Index</span>
-              </a>
-              {utilityLinks.map((link) => (
-                <a class="hmi-topnav-utility" href={resolveRelative(slug, link.slug as SimpleSlug)}>
-                  {link.label}
-                </a>
-              ))}
-              {/* Account / log in. Placeholder for the future auth app (member
-                  accounts live in the separate application, not the static wiki);
-                  the icon points at the login route so it can light up later. */}
-              <a
-                class="hmi-topnav-login"
-                href={resolveRelative(slug, "login" as SimpleSlug)}
-                aria-label="Log in"
-                title="Log in"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <circle cx="12" cy="10" r="3" />
-                  <path d="M6.8 19a5.5 5.5 0 0 1 10.4 0" />
-                </svg>
-              </a>
-            </div>
           </nav>
 
           {/*
-            Index Pro sits OUTSIDE .hmi-topnav-menu deliberately. In the v3
-            design (line 63) it is the one right-hand control not wrapped in the
-            wide-only block: search collapses to an icon and Ask / Log in are
-            removed outright below 1150px, but Index Pro survives at every
-            width. Inside the menu it would disappear into the burger drawer
-            with everything else, which inverts that rule.
+            The flex spacer, child 3. Load-bearing: CHROME-SPEC §1.1 says not to
+            replace it with `margin-left: auto` on the actions group. An auto
+            margin makes the gap the actions group's property, so the nav keeps
+            its intrinsic width and the spacer cannot absorb the shrink — which
+            is the shape of the 254px overflow this bar already had once.
           */}
-          {INDEX_PRO_URL && (
-            <a class="hmi-topnav-pro" href={INDEX_PRO_URL} rel="noopener">
-              Index Pro
+          <div class="hmi-topnav-spacer" aria-hidden="true"></div>
+
+          <div class="hmi-topnav-actions">
+            {/*
+              Quartz's Search markup, rendered inline in the bar. It is NOT a
+              nested <Search/> component call: Quartz collects css/afterDOMLoaded
+              by walking the layout arrays, so a nested component's resources
+              would never be emitted. The DOM shape has to match search.inline.ts
+              (`.search` > `.search-button` + `.search-container .search-bar`
+              + `.search-layout`), which is what wires this up; the script
+              iterates every `.search` element on the page, so the homepage
+              hero's own search block is wired by the same bundle.
+            */}
+            <div class="search hmi-topnav-search" role="search">
+              <button class="search-button" type="button" aria-label={searchPlaceholder}>
+                {/* v3 line 55: the search mark is the mono glyph ⌕, not an SVG
+                    magnifier. The accessible name stays on the button, so the
+                    control is still announced; only the drawn icon changes. */}
+                <span class="hmi-topnav-glyph" aria-hidden="true">
+                  ⌕
+                </span>
+                {/* v3's search box reads "Search the index" (artifact 55), not the
+                    generic i18n search title. Scoped to the top bar rather than
+                    changed in i18n, because `components.search.title` also labels
+                    the search modal, where "Search" is correct. */}
+                <p>Search the index</p>
+                {/* v3 line 56: the "/" affordance sits inside the box, pushed
+                    right by an auto margin. Hidden below 1150px, where the
+                    whole box collapses to a 36px icon square. */}
+                <span class="hmi-topnav-kbd" aria-hidden="true">
+                  /
+                </span>
+              </button>
+              <div class="search-container">
+                <div class="search-space">
+                  <input
+                    autocomplete="off"
+                    class="search-bar"
+                    name="search"
+                    type="text"
+                    aria-label={searchPlaceholder}
+                    placeholder={searchPlaceholder}
+                  />
+                  <div class="search-layout" data-preview="true"></div>
+                </div>
+              </div>
+            </div>
+            {/* v3 line 60: a plain 12.5px text link, not a filled pill. The
+                header carries exactly one filled control, Index Pro; a second
+                filled button competes with it. */}
+            <a class="hmi-topnav-ask" href={resolveRelative(slug, "ask" as SimpleSlug)}>
+              Ask the Index
             </a>
-          )}
+            {/* About is repo navigation, not a v3 control — §1.1's actions group
+                is search · Ask · Log in · Index Pro. It is kept because deleting
+                a live destination is a content decision, not chrome geometry,
+                and it takes the wide-only treatment with its neighbours. */}
+            {utilityLinks.map((link) => (
+              <a class="hmi-topnav-utility" href={resolveRelative(slug, link.slug as SimpleSlug)}>
+                {link.label}
+              </a>
+            ))}
+            {/* Account / log in. Placeholder for the future auth app (member
+                accounts live in the separate application, not the static wiki).
+                v3 line 61: "Log in" is a text link at the same weight as Ask,
+                not an avatar icon. */}
+            <a class="hmi-topnav-login" href={resolveRelative(slug, "login" as SimpleSlug)}>
+              Log in
+            </a>
+            {/*
+              Index Pro is the last item in the actions group and the only one
+              that survives below 1150px: search collapses to a 36px square and
+              Ask / About / Log in are removed outright. It used to sit outside
+              the nav specifically so the burger drawer could not swallow it —
+              now that the whole actions group is a sibling of the nav, that
+              hazard is gone and it can sit with the controls it belongs to.
+            */}
+            {INDEX_PRO_URL && (
+              <a class="hmi-topnav-pro" href={INDEX_PRO_URL} rel="noopener">
+                Index Pro
+              </a>
+            )}
+          </div>
         </div>
       </div>
     )

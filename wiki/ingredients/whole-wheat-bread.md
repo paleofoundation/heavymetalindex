@@ -226,10 +226,10 @@ European Union Regulation 2023/915 sets maximum levels for Cd and Pb in cereal-b
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
-2. Song G, Tan H, Cheng C, Li P, Sun X, Zhou Y, et al. (2024). *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*. Toxics 12(5): 325. [https://doi.org/10.3390/toxics12050325](https://doi.org/10.3390/toxics12050325). Peer-reviewed, A-tier. [[sources/song2024-crvi-hplc-icpms-food-reduction|Source record]]
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/song2024-crvi-hplc-icpms-food-reduction|Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods]]<span class="hmi-ref-meta">Song G, Tan H, Cheng C, Li P, Sun X, Zhou Y, et al. · Toxics 12(5): 325 · 2024 · [doi.org/10.3390/toxics12050325](https://doi.org/10.3390/toxics12050325)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

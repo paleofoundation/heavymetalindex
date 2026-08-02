@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-07-30
+updated: 2026-08-01
 noindex: false
 ---
 
@@ -12,7 +12,7 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-07-30** from the current state of the corpus.
+This page was regenerated on **2026-08-01** from the current state of the corpus.
 
 The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 

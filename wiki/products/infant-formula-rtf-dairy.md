@@ -32,9 +32,9 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Editor 2019. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*. Unknown. [https://doi.org/Unknown](https://doi.org/Unknown). Journal article, A-tier. [[sources/editor2019-manganese-levels-infant-formula|Source record]]
+1. [[sources/editor2019-manganese-levels-infant-formula|Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France]]<span class="hmi-ref-meta">Unknown · 2019 · [doi.org/Unknown](https://doi.org/Unknown)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

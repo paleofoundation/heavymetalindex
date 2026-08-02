@@ -22,11 +22,6 @@ sources: 1196
     <li><strong>Highest-risk groups:</strong> infants, young children, pregnant people, and people with older housing or lead-contaminated water and dust exposure.</li>
     <li><strong>Food-system focus:</strong> cereals, root vegetables, baby foods, and other soil- or processing-linked pathways.</li>
   </ul>
-  <div class="hmi-pill-row">
-    <span class="hmi-pill">No safe child blood level</span>
-    <span class="hmi-pill">Developmental neurotoxicity</span>
-    <span class="hmi-pill">FDA Closer to Zero</span>
-  </div>
 </div>
 
 This synthesis draws on ATSDR, EFSA, JECFA, EPA IRIS, CDC, OEHHA, FDA Closer to Zero, mechanism reviews, and chapter-level textbook context from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.

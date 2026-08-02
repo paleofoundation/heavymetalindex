@@ -235,11 +235,11 @@ The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level f
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2022). *FY2018-FY2020 TDS Elements Analytical Results*. FDA Total Diet Study. [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results). Government dataset, A-tier. [[sources/fda2022-tds-elements-fy2018-fy2020|Source record]]
-2. Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V (2025). *Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin*. Horticulturae. [https://doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216). Peer-reviewed, A-tier. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Source record]]
-3. Rashid NFA and Yaacob A (2015). *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*. Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis). Peer-reviewed, B-tier. [[sources/rashid2015-metals-rock-melon-malaysia|Source record]]
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin]]<span class="hmi-ref-meta">Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V · Horticulturae · 2025 · [doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/rashid2015-metals-rock-melon-malaysia|Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat]]<span class="hmi-ref-meta">Rashid NFA and Yaacob A · Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) · 2015</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

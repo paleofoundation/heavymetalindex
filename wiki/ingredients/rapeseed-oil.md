@@ -183,11 +183,11 @@ The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets spe
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ashraf MW (2012). *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*. Asian Journal of Chemistry (Uncorrected Proof). Peer-reviewed, A-tier. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Source record]]
-2. González-Torres P, Puentes JG, Moya AJ, and La Rubia MD (2023). *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*. Applied Sciences. [https://doi.org/10.3390/app13053020](https://doi.org/10.3390/app13053020). Peer-reviewed, A-tier. [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review|Source record]]
-3. Scutarasu EC and Trincă LC (2023). *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*. Foods. [https://doi.org/10.3390/foods12183340](https://doi.org/10.3390/foods12183340). Peer-reviewed, B-tier. [[sources/scutarasu2023-heavy-metals-foods-beverages|Source record]]
+1. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population]]<span class="hmi-ref-meta">Ashraf MW · Asian Journal of Chemistry (Uncorrected Proof) · 2012</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review|Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils]]<span class="hmi-ref-meta">González-Torres P, Puentes JG, Moya AJ, and La Rubia MD · Applied Sciences · 2023 · [doi.org/10.3390/app13053020](https://doi.org/10.3390/app13053020)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/scutarasu2023-heavy-metals-foods-beverages|Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods]]<span class="hmi-ref-meta">Scutarasu EC and Trincă LC · Foods · 2023 · [doi.org/10.3390/foods12183340](https://doi.org/10.3390/foods12183340)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

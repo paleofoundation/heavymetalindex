@@ -53,9 +53,9 @@ For current-facing EU comparisons, use [[regulations/eu2023-contaminants-maximum
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. (2017). *Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923). Peer-reviewed, A-tier. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Source record]]
+1. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. · PLOS ONE · 2017 · [doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

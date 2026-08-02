@@ -1,38 +1,120 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { joinSegments, pathToRoot, resolveRelative, type SimpleSlug } from "../util/path"
+import { GROUPS, relatedByCategory } from "./relatedGraph"
+import { concatenateResources } from "../util/resources"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import citeScript from "./scripts/citeSuperscript.inline"
+// @ts-ignore — inline script resolved by Quartz's esbuild loader
+import railLdScript from "./scripts/railLd.inline"
 
-// The proof's right rail (.rail): light bordered action buttons + a provenance
-// card. Emits the proof's exact classes so proof.css styles it identically to
-// hmi-real-content. renderPage wraps it in <aside class="rail">.
+// The right rail (.rail). renderPage wraps this in <aside class="rail">.
+//
+// v3 gives the rail exactly three blocks (artifact 1453-1477): Connections,
+// Reuse this page, Found an error?, in that order — and no provenance card.
+//
+// The "Page provenance" card that used to sit above these was REMOVED as
+// redundant on Karen's call, and it is redundant: the hero already carries
+// Author, ORCID, UPDATED and REV (artifact 380-383, and the same in HeroBand),
+// the Page snapshot panel already carries the corpus-source count, and its
+// closing line "Reconstructable via version history" is what the hero's
+// Version history button does. Nothing it displayed is lost.
+//
+// These blocks are CHROME, not content: they read the existing link graph and
+// existing static routes, touch no `wiki/**` path, and carry no evidence
+// values. v3's seven body sections are a different problem (F-16, generator
+// work) and are deliberately not attempted here.
+//
+// Styles live in styles/v3-chrome.scss, unlayered, rather than in a component
+// stylesheet — component CSS is emitted inside `@layer legacy`, so v3 rules
+// placed there would lose to any unlayered rule on equal specificity.
+
+// v3 shows exactly three (artifact 1794). Three is also the honest limit for a
+// signal this thin: past the page's own outbound links, "related" degrades into
+// "something, somewhere, mentioned this", which is how All-purpose cleaners
+// ended up under Lead. The in-body "See also" keeps the full graph.
+const CONNECTION_CAP = 3
 
 export default (() => {
-  const Rail: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-    const fm = fileData.frontmatter ?? {}
-    const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
-    const corpus =
-      (fm as any).n_sources ??
-      (fm as any).corpus_count ??
-      (fileData as any).corpusCount ??
-      undefined
+  const Rail: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
+    const slug = fileData.slug
+    // Gate the in-page anchor on the section existing, the way Snav's utility
+    // links do — index pages carry no References heading.
+    const hasRefs = (fileData.toc ?? []).some((e: any) => /^references$/i.test((e.text ?? "").trim()))
+    // OUTBOUND ONLY, one per category first. A page this one links to is a
+    // connection this page asserts; an inbound link is another page's
+    // assertion, and a hub like a metal collects hundreds of those. Inbound is
+    // used only to top up when the page asserts fewer than three itself.
+    const buckets = relatedByCategory({ fileData, allFiles })
+    // Within a category, DOCUMENT ORDER, not the alphabet. Sorting by label put
+    // "Aluminum" first on lead, cadmium, almond, rice and the ATSDR page alike;
+    // Lead's own prose links cadmium, mercury, arsenic, in that order.
+    // Directory pages ("Regulations by jurisdiction") are dropped: they carry no
+    // `type:` frontmatter and are navigation, not a topical connection.
+    const inCat = (key: string, want: boolean) =>
+      (buckets.get(key) ?? [])
+        .filter((l) => l.outbound === want && l.topical)
+        .sort((a, b) => a.order - b.order)
+    const pick = (want: boolean) => {
+      const first = GROUPS.map((g) => inCat(g.key, want)[0])
+      const rest = GROUPS.flatMap((g) => inCat(g.key, want).slice(1))
+      return [...first, ...rest].filter(Boolean)
+    }
+    const connections = [...pick(true), ...pick(false)].slice(0, CONNECTION_CAP)
 
-    // Follow / Cite / Evidence packet / Share moved into the hero band; the rail
-    // keeps the provenance card.
+    const rel = (to: string) => (slug ? resolveRelative(slug, to as SimpleSlug) : `/${to}`)
+    // Static assets are not page slugs, so they resolve from the site root the
+    // way Head.tsx does rather than through resolveRelative's slug logic.
+    const asset = (to: string) => joinSegments(slug ? pathToRoot(slug) : ".", to)
+
     return (
       <>
-        <div class="card">
-          <h4>Page provenance</h4>
-          <div class="meta">
-            {updated ? <>Updated {updated}<br /></> : null}
-            {corpus ? <>{corpus} corpus sources<br /></> : null}
-            Author: K. Pendergrass · ORCID
-            <br />
-            Reconstructable via version history
+        {connections.length > 0 ? (
+          <nav class="rail-connections" aria-label="Connections">
+            <div class="rail-connections-title">Connections</div>
+            <div class="rail-connections-list">
+              {connections.map((c) => (
+                <a href={c!.href}>{c!.label}</a>
+              ))}
+            </div>
+          </nav>
+        ) : null}
+
+        <div class="rail-reuse">
+          <div class="rail-reuse-title">Reuse this page</div>
+          <div class="rail-reuse-body">
+            {hasRefs ? <a href="#references">Citation and references</a> : null}
+            <a href={asset("static/evidence-packet-index.json")}>
+              Structured evidence export (JSON)
+            </a>
+            {/* METHOD.md §5 specifies a DISCLOSURE here, not a link — which is
+                what makes it buildable. v3 drives it with its own `toggleLd`
+                runtime and the repo has none, but the data is already on the
+                page: Head.tsx emits the JSON-LD blocks, and railLd.inline fills
+                the panel from them on first open. An earlier pass shipped this
+                as a bare `#ld-json` anchor with no target, then deleted it as a
+                dead link; the disclosure is the third option and the right one. */}
+            <details class="rail-ld">
+              <summary>Structured data (JSON-LD)</summary>
+              <pre class="rail-ld-panel" />
+            </details>
+            <a href={`/api/evidence-packet?slug=${slug ?? ""}`}>Evidence packet (PDF)</a>
+            <a href={rel("licensing")}>Licensing and downstream use</a>
           </div>
+        </div>
+
+        <div class="rail-correction">
+          <div class="rail-correction-title">Found an error?</div>
+          <p>
+            Corrections are logged publicly with the date, the affected value, and the source that
+            resolved it.
+          </p>
+          <a class="rail-correction-cta" href={rel("errata")}>
+            Submit a correction
+          </a>
         </div>
       </>
     )
   }
-  Rail.afterDOMLoaded = citeScript
+  Rail.afterDOMLoaded = concatenateResources(citeScript, railLdScript)
   return Rail
 }) satisfies QuartzComponentConstructor

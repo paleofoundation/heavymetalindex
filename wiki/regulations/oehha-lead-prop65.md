@@ -54,9 +54,9 @@ This is a transparent exposure conversion, not a Prop 65 food-category concentra
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. California Office of Environmental Health Hazard Assessment (n.d.). *Lead and Lead Compounds — Proposition 65 Chemical Listing*. California Office of Environmental Health Hazard Assessment, Proposition 65 Listings. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/lead-and-lead-compounds). Government report, A-tier. [[sources/oehha-lead-prop65-listing|Source record]]
+1. [[sources/oehha-lead-prop65-listing|Lead and Lead Compounds — Proposition 65 Chemical Listing]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/lead-and-lead-compounds)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -101,7 +101,9 @@
     "library:snapshot": "node tools/library/snapshot.mjs",
     "wishlist:harvest": "node tools/wishlist/harvest-wishlist.mjs",
     "wishlist:score": "node tools/wishlist/score-wishlist.mjs",
-    "wishlist:watch": "node tools/wishlist/fulfillment-watcher.mjs"
+    "wishlist:watch": "node tools/wishlist/fulfillment-watcher.mjs",
+    "check:v3": "node tools/design/check-v3.mjs",
+    "extract:v3": "node tools/design/extract-v3-acceptance.mjs"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -197,6 +199,7 @@
     "esbuild": "^0.27.2",
     "husky": "^9.1.7",
     "prettier": "^3.8.1",
+    "puppeteer": "^25.4.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
