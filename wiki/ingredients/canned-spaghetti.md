@@ -163,6 +163,14 @@ Lacquered ("enamel-lined") tinplate cans are essential for this product given th
 
 For the pasta/wheat Cd component, the EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Cd in cereal-based foods of 0.060 mg/kg (60 ppb) wet weight; for pasta specifically (dry), the limit is 0.20 mg/kg (200 ppb) dry weight. For Sn in canned solid foods, the EU limit is 200 mg/kg (200,000 ppb) wet weight. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets Cd limits for cereal grain and processed cereal products at analogous levels. The FDA does not currently specify Sn action levels for canned pasta products; FDA Closer to Zero [[regulations/fda-closer-to-zero]] focuses on Pb in foods for young children.
 
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+No source has yet been routed to this page. That is a statement about the corpus, not about the ingredient: absence of routed evidence is not evidence of absence. Nothing here should be read as a finding of low contamination.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
@@ -183,9 +191,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

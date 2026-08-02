@@ -213,6 +213,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in vegetables (general) is 0.10 mg/kg wet weight and for Cd in vegetables (general) it is 0.050 mg/kg wet weight. These limits apply to green bell pepper as placed on the market. All FDA TDS Pb measurements for green bell pepper (n=27) are below the 4 µg/kg reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020]], and Cd values peak at 24 ppb, indicating substantial margin below the EU 50 ppb Cd limit under typical US commercial supply. The detected non-FDA anchors tell a more cautionary story for contaminated production: the Nigerian urban-agriculture survey reports pepper lead of 100 µg/kg at one site [[sources/emmanuel2025-kano-urban-vegetables-metals]], which sits exactly at the EU general-vegetable Pb limit of 0.10 mg/kg, so peri-urban or industrially impacted growing soils can push green-bell-pepper lead to the regulatory ceiling. For bell pepper used in processed vegetable products for infants and young children, the EU applies a stricter Pb maximum of 0.020 mg/kg for vegetable-based processed foods; bell pepper may require verification testing when included in infant food formulations to demonstrate compliance with this lower limit, particularly for supply originating from regions with documented soil-lead loading. There are no specific US FDA action levels for metals in fresh or processed bell pepper.
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+This page rests on 4 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -243,9 +251,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
-| [0ae30c7b4](https://github.com/paleofoundation/heavymetalindex/commit/0ae30c7b4) | 2026-06-11 | correction | 3 sources added; contamination-profile values revised; 1 section added |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

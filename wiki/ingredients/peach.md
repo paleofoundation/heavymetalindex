@@ -208,6 +208,14 @@ Under EU Regulation (EU) 2023/915 ([[regulations/eu2023-contaminants-maximum-lev
 For processed peach products intended for infants and young children, the EU applies lower Pb limits under the same regulation for processed cereal-based foods and baby foods. FDA's Closer to Zero program ([[regulations/fda-closer-to-zero]]) has proposed action levels for Pb in fruit purees and juices consumed by infants and young children; the peach category is within scope of this framework. No Codex Alimentarius maximum level for Cd or Pb specifically in stone fruit applies at the same limit values as the EU, but Codex sets guidance levels for fruit generally ([[regulations/codex-cadmium-mls]]).
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+This page rests on 7 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -241,9 +249,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
-| [d5bdf4bb7](https://github.com/paleofoundation/heavymetalindex/commit/d5bdf4bb7) | 2026-06-11 | correction | 6 sources added; contamination-profile values revised; 1 section added |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

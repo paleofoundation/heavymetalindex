@@ -263,6 +263,32 @@ Because the biggest population contributors are nutritional staples like rice, w
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Cadmium, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 1989 | EPA | IRIS | 1 µg/kg-bw/day-food |
+| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
+| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
+| 1997 | OEHHA | Proposition 65 | 4.1 µg/day-oral |
+| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
+| 2007 | EU | ec-1881-2006 |  |
+| 2009 | EFSA | CONTAM Panel | 2.5 µg/kg-bw/week |
+| 2010 | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 25 µg/kg-bw/month |
+| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
+| 2012 | ATSDR | Toxicological Profile series | 0.1 µg/kg-bw/day |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2021 | European Commission | Commission Regulation (EU) 2021/1323 | multiple mg/kg wet weight |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 15 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -1631,9 +1657,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 11 sources added; 9 sections added and 1 removed; narrative text revised |
 | [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [baa0176fb](https://github.com/paleofoundation/heavymetalindex/commit/baa0176fb) | 2026-05-13 | major | 12 sources removed; narrative text revised |
 <!-- END: hmi-page-history -->

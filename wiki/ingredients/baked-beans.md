@@ -163,6 +163,14 @@ Non-metallic packaging (glass, retort pouch) eliminates the Sn dissolution route
 
 In the European Union, Regulation (EU) 2023/915 sets a maximum level of 200 mg/kg (200,000 ppb) for inorganic tin in canned solid foods, and 100 mg/kg for canned liquid foods (beverages); baked beans as a semi-solid product would fall under the solid food ML ([[regulations/eu2023-contaminants-maximum-levels]]). The EU also applies Pb and Cd limits to legumes: Pb ML is 0.10 mg/kg (100 ppb) and Cd ML is 0.050 mg/kg (50 ppb) for legume vegetables as placed on the market, though MLs specific to processed legume products (canned beans) may differ. For Cd specifically, EU Regulation (EU) 2023/915 sets a Cd ML of 0.10 mg/kg (100 ppb) for dried legume seeds ([[regulations/eu-2023-915-cadmium]]). In the United States, no FDA action level for Pb, Cd, or Sn in canned baked beans has been established under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). No Codex Alimentarius ML specific to canned baked beans appears in the current corpus; Codex ML for Pb and Cd in legumes and for Sn in canned foods ([[regulations/codex-cadmium-mls]]) provide the international reference.
 
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+No source has yet been routed to this page. That is a statement about the corpus, not about the ingredient: absence of routed evidence is not evidence of absence. Nothing here should be read as a finding of low contamination.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
@@ -182,9 +190,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -157,6 +157,14 @@ Packaging is not the dominant pathway for cinnamon.
 The Codex Alimentarius General Standard CXS 193-1995 does not set a cinnamon-specific maximum. The EU Regulation 2023/915 applies the spice maximum of 1.5 mg/kg Pb to cinnamon. The FDA's Import Alert 99-42 is the operational US enforcement mechanism. The FDA Closer-to-Zero initiative applies to infant-and-toddler finished foods including cinnamon-containing baby foods; the WanaBana case is a documented enforcement event under this initiative ([[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC]]). The NYS Department of Health 2019 spice-specific health-based guidance value of 0.21 mg/kg Pb is the strictest US-side advisory.
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+This page rests on 21 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -205,9 +213,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

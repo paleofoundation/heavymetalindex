@@ -232,6 +232,23 @@ Clinical-trial evidence links a low-nickel diet to improvement across several co
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Nickel, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2020 | EFSA | CONTAM Panel | 13 µg/kg-bw/day |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+| 2024 | European Commission | Commission Recommendation | monitoring-recommendation none |
+| 2024 | European Commission | Commission Regulation | 0.10–40 mg/kg |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 6 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -934,9 +951,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 15 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 13 sources added; 9 sections added and 1 removed; narrative text revised |
 | [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [240731256](https://github.com/paleofoundation/heavymetalindex/commit/240731256) | 2026-06-23 | correction | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->

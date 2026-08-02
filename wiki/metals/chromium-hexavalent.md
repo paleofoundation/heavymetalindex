@@ -101,6 +101,19 @@ Selective Cr-VI measurement is difficult because the total digestion methods typ
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Chromium, Hexavalent, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 2008 | OEHHA | Proposition 65 | 8.2 µg/day-oral-MADL |
+| 2024 | SWRCB | California Safe Drinking Water Act | 10 ppb |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 2 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -205,9 +218,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 9 sections added and 1 removed; narrative text revised |
 | [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | minor | Narrative text revised |
-| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

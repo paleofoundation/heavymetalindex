@@ -61,6 +61,28 @@ Total mercury is the compliance analyte for many fish rows, meaning it is the me
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Mercury, Total, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
+| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
+| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
+| 2007 | EU | ec-1881-2006 |  |
+| 2013 | Instituto Ecuatoriano de Normalización | nte-inen-184-2013 | 1 mg/kg total mercury as Hg |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2018 | European Commission | eu-reg-2018-73-mercury-compounds-mrls | 0.01 mg/kg as mercury |
+| 2022 | European Commission | Food contaminants maximum levels | 0.3,0.5,1,0.1 mg/kg ww |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 11 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -786,9 +808,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 8 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 2 sources removed; narrative text revised |
-| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 1 section added |
-| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

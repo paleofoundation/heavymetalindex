@@ -161,6 +161,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 Flavored carbonated bottled waters fall under drinking water or natural mineral water regulations in most jurisdictions rather than under food contaminant limits. The EU Drinking Water Directive (2020/2184/EU) sets a limit for arsenic in drinking water of 10 µg/L (equivalent to 10 ppb), which applies to bottled waters intended for human consumption. For lead, the EU Drinking Water Directive sets 5 µg/L at the consumer tap, reflecting plumbing contributions; for bottled waters the limit is applied at the point of packaging. Cadmium is limited to 5 µg/L in EU drinking water. The EU does not apply the general food Pb maximum levels from [[regulations/eu2023-contaminants-maximum-levels]] to beverages sold as waters; instead, drinking water directive limits govern. In the United States, FDA regulates bottled water under its food safety authority using standards of quality that mirror EPA maximum contaminant levels (MCLs), including As at 10 µg/L and Pb at 5 µg/L for bottled water. Flavoring additions that transform a product into a flavored beverage rather than a water may alter which regulatory framework applies, and manufacturers should verify classification with their relevant competent authority.
 
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+No source has yet been routed to this page. That is a statement about the corpus, not about the ingredient: absence of routed evidence is not evidence of absence. Nothing here should be read as a finding of low contamination.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
@@ -180,9 +188,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

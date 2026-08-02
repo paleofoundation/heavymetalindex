@@ -217,22 +217,48 @@ Under its Closer to Zero program (2025 final guidance), the FDA set action level
 Blood lead concentration (µg/dL) is the standard human biomarker; the CDC blood lead reference value is 3.5 µg/dL, a population-screening threshold rather than a health-based safety threshold ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]). Bone lead measured by K-shell X-ray fluorescence reflects cumulative lifetime exposure ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). Lead in food and water is typically measured by ICP-MS ([[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]]).
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Lead, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
+| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
+| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
+| 2004 | EPA | IRIS |  not-derived |
+| 2007 | EU | ec-1881-2006 |  |
+| 2010 | EFSA | CONTAM Panel |  µg/kg-bw/day-BMDL |
+| 2010 | JECFA | FAO/WHO Joint Expert Committee on Food Additives |  µg/kg-bw/week |
+| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2021 | European Commission | Commission Regulation (EU) 2021/1317 | 0.2 mg/kg wet weight |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+| 2023 | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 0.02 mg/kg wet weight |
+| 2025 | Washington State Department of Ecology | Toxic-Free Cosmetics Act (TFCA) | 1000 ppb |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 15 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
 ## References
 
-The 12 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
-2. Agency for Toxic Substances and Disease Registry (2020). *Toxicological Profile for Lead*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [https://doi.org/10.15620/cdc:95222](https://doi.org/10.15620/cdc:95222). Government report, A-tier. [[sources/atsdr-lead-toxprofile-2020|Source record]]
-3. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2010). *Scientific Opinion on Lead in Food*. EFSA Journal 2010;8(4):1570. [https://doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570). Government report, A-tier. [[sources/efsa-lead-contam-2010|Source record]]
-4. Joint FAO/WHO Expert Committee on Food Additives (2011). *Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives (Lead, among others)*. WHO Technical Report Series 959. [www.who.int](https://www.who.int/publications/i/item/9789241209595). Government report, A-tier. [[sources/jecfa-72nd-lead-2010|Source record]]
-5. U.S. Environmental Protection Agency, National Center for Environmental Assessment (2004). *Lead and Compounds (Inorganic) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=277). Government report, A-tier. [[sources/epa-iris-lead-2004|Source record]]
-6. U.S. Centers for Disease Control and Prevention (2021). *Blood Lead Reference Value (3.5 µg/dL)*. U.S. Centers for Disease Control and Prevention, National Center for Environmental Health. [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm). Government report, A-tier. [[sources/cdc-blood-lead-reference-value|Source record]]
-7. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
-8. California Office of Environmental Health Hazard Assessment (n.d.). *Lead and Lead Compounds — Proposition 65 Chemical Listing*. California Office of Environmental Health Hazard Assessment, Proposition 65 Listings. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/lead-and-lead-compounds). Government report, A-tier. [[sources/oehha-lead-prop65-listing|Source record]]
-9. Ordemann JM and Austin RN (2016). *Lead neurotoxicity: exploring the potential impact of lead substitution in zinc-finger proteins on mental health*. Metallomics, Issue 6, 2016. [https://doi.org/10.1039/c5mt00300h](https://doi.org/10.1039/c5mt00300h). Peer-reviewed, A-tier. [[sources/ordemann-austin-2016-pb-zinc-finger|Source record]]
-10. Tamagno WA and Freeman JL (2025). *Glutamate-Mediated Neural Alterations in Lead Exposure: Mechanisms, Pathways, and Phenotypes*. Toxics 13(7):519. [https://doi.org/10.3390/toxics13070519](https://doi.org/10.3390/toxics13070519). Peer-reviewed, A-tier. [[sources/tamagno-freeman-2025-pb-glutamate|Source record]]
-11. Huang CC, Yang CC, Liu TY, Dai CY, Wang CL, and Chuang HY (2020). *Use of Generalized Additive Model to Detect the Threshold of δ-Aminolevulinic Acid Dehydratase Activity Reduced by Lead Exposure*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph17165712](https://doi.org/10.3390/ijerph17165712). Peer-reviewed, A-tier. [[sources/huang-2020-pb-alad-threshold|Source record]]
-12. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
+2. [[sources/atsdr-lead-toxprofile-2020|Toxicological Profile for Lead]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2020 · [doi.org/10.15620/cdc:95222](https://doi.org/10.15620/cdc:95222)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/efsa-lead-contam-2010|Scientific Opinion on Lead in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2010;8(4):1570 · 2010 · [doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/jecfa-72nd-lead-2010|Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives (Lead, among others)]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 959 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209595)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/epa-iris-lead-2004|Lead and Compounds (Inorganic) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, National Center for Environmental Assessment · U.S. Environmental Protection Agency, Integrated Risk Information System · 2004 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=277)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/cdc-blood-lead-reference-value|Blood Lead Reference Value (3.5 µg/dL)]]<span class="hmi-ref-meta">U.S. Centers for Disease Control and Prevention · 2021 · [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
+8. [[sources/oehha-lead-prop65-listing|Lead and Lead Compounds — Proposition 65 Chemical Listing]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/lead-and-lead-compounds)</span><span class="hmi-ref-tag">Government</span>
+9. [[sources/ordemann-austin-2016-pb-zinc-finger|Lead neurotoxicity: exploring the potential impact of lead substitution in zinc-finger proteins on mental health]]<span class="hmi-ref-meta">Ordemann JM and Austin RN · Metallomics, Issue 6, 2016 · 2016 · [doi.org/10.1039/c5mt00300h](https://doi.org/10.1039/c5mt00300h)</span><span class="hmi-ref-tag">Review</span>
+10. [[sources/tamagno-freeman-2025-pb-glutamate|Glutamate-Mediated Neural Alterations in Lead Exposure: Mechanisms, Pathways, and Phenotypes]]<span class="hmi-ref-meta">Tamagno WA and Freeman JL · Toxics 13(7):519 · 2025 · [doi.org/10.3390/toxics13070519](https://doi.org/10.3390/toxics13070519)</span><span class="hmi-ref-tag">Review</span>
+11. [[sources/huang-2020-pb-alad-threshold|Use of Generalized Additive Model to Detect the Threshold of δ-Aminolevulinic Acid Dehydratase Activity Reduced by Lead Exposure]]<span class="hmi-ref-meta">Huang CC, Yang CC, Liu TY, Dai CY, Wang CL, and Chuang HY · International Journal of Environmental Research and Public Health · 2020 · [doi.org/10.3390/ijerph17165712](https://doi.org/10.3390/ijerph17165712)</span><span class="hmi-ref-tag">Review</span>
+12. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -1629,9 +1655,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added and 1 removed |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [0f0b1cd7c](https://github.com/paleofoundation/heavymetalindex/commit/0f0b1cd7c) | 2026-08-01 | correction | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 9 sources added; 2 sections added and 1 removed; narrative text revised |
 | [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
-| [543463610](https://github.com/paleofoundation/heavymetalindex/commit/543463610) | 2026-06-25 | major | 6 sources added; 9 sections added and 3 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

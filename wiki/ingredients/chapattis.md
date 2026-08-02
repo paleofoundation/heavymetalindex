@@ -163,6 +163,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 The EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) sets a cadmium maximum level of 0.10 mg/kg for bread, fine bakery wares, biscuits, crackers, and cereal snacks; this limit applies to chapattis as a bread product. The lead maximum for bread and cereal products under EU contaminants regulations ([[regulations/eu2023-contaminants-maximum-levels]]) is 0.20 mg/kg. The Codex general standard CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides international cadmium maximum levels for cereals; the applicable Codex limit for wheat flour is 0.20 mg/kg. No specific US FDA action level applies to chapattis; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler foods. UK Food Standards Agency national legislation, under which the FS102048 survey was conducted, adopts EU-derived limits.
 
+<!-- BEGIN: hmi-v3-thin -->
+## Where this page is thin
+
+No source has yet been routed to this page. That is a statement about the corpus, not about the ingredient: absence of routed evidence is not evidence of absence. Nothing here should be read as a finding of low contamination.
+
+_Corrections and additions are logged publicly. See the correction route in the page rail._
+<!-- END: hmi-v3-thin -->
+
 ## Sources
 
 - [[sources/fsa2016-infant-food-formula-metals-survey]]
@@ -182,9 +190,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

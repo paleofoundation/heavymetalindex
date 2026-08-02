@@ -67,6 +67,27 @@ The page is currently a scaffold. Regulatory rows for EU 2023/915 and the FDA in
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
+<!-- BEGIN: hmi-v3-tightening -->
+## Regulatory tightening over time
+
+Instruments that set a limit for Arsenic, Inorganic, oldest first. Dates are the instrument's own effective date.
+
+| Year | Body | Instrument | Value as set |
+| --- | --- | --- | --- |
+| 2006 | EPA | Safe Drinking Water Act | 10 ppb |
+| 2007 | EU | ec-1881-2006 |  |
+| 2009 | EFSA | CONTAM Panel |  BMDL01 |
+| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
+| 2016 | European Commission | Commission Regulation (EU) 2015/1006 | 0.2,0.25,0.3,0.1 mg/kg wet weight |
+| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
+| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
+| 2020 | FDA | Closer to Zero | 100 ppb |
+| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
+| 2025 | EPA | IRIS |  pending-extraction |
+
+_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 10 dated instruments._
+<!-- END: hmi-v3-tightening -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -351,9 +372,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 9 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 2 sources removed; narrative text revised |
-| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 1 section added |
-| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->
