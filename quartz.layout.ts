@@ -65,7 +65,13 @@ const primaryNavFilter = (node: { slugSegment: string }) => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.TopNav()],
-  afterBody: [Component.Corrections(), Component.RelatedPages()],
+  afterBody: [
+    // Self-gates to type === "brand-pre-screen-tool" (null everywhere else).
+    // Lives here, visible, instead of the hidden beforeBody `.page-header`.
+    Component.BrandPreScreenTool(),
+    Component.Corrections(),
+    Component.RelatedPages(),
+  ],
   footer: Component.Footer(),
 };
 
@@ -74,23 +80,24 @@ export const sharedPageComponents: SharedLayout = {
 // Dense graph and backlink widgets are useful during corpus development,
 // but they compete with the primary reading path on public reference pages.
 export const defaultContentPageLayout: PageLayout = {
+  // The v3 hero owns the breadcrumb, title, and updated-date, and the right
+  // rail owns provenance. The old beforeBody stack (Breadcrumbs / ArticleTitle /
+  // ContentMeta / TagList) therefore rendered into `.page-header`, which
+  // proof-design.scss hides on every non-home page — a second, invisible
+  // breadcrumb <nav> and <h1> shipped to Google and screen readers on every
+  // content page. Those are removed; the hero is the single source.
+  //
+  // ProductEvidenceSummary is intentionally retained here (still hidden). Its
+  // provenance facts duplicate the hero, but its category shortcuts have no hero
+  // equivalent; surfacing only those unique parts is a content task tracked as a
+  // follow-up, not a mechanical slot move, so it is not rushed here.
+  //
+  // BrandPreScreenTool was ALSO in this hidden slot — which meant the interactive
+  // lab-result comparator was invisible on its own page while the prose explained
+  // a tool no one could see. It moves to the shared afterBody (visible), where it
+  // self-gates to the one page whose type is "brand-pre-screen-tool".
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    // Reading time disabled: a reference work is consulted, not read
-    // start-to-finish, so a "166 min read" estimate on a long synthesis
-    // page is misleading and discouraging rather than informative. The
-    // last-updated date is the meta that matters here.
-    Component.ContentMeta({ showReadingTime: false }),
-    // EvidenceHeader + SourceCitationPanel moved to the right rail (actions /
-    // provenance column) below. They no longer render in-body to avoid
-    // duplicate provenance blocks.
     Component.ProductEvidenceSummary(),
-    Component.BrandPreScreenTool(),
-    Component.TagList(),
   ],
   // Curated left rail (Examine-style): a slim search, the per-page section nav,
   // and a compact cross-reference count group. The global file-tree Explorer was
@@ -121,11 +128,10 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta({ showReadingTime: false }),
-  ],
+  // Index/list pages render the same v3 hero, which owns the breadcrumb, title,
+  // and date. The old beforeBody stack was hidden in `.page-header` here too;
+  // removed for the same reason as the content layout above.
+  beforeBody: [],
   // Index/list pages use the same proof rail as content pages: curated .snav
   // (section nav from the page's headings + the apparatus links) and the .rail.
   // Keeps landing pages visually consistent with the rest.
