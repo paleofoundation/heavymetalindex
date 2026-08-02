@@ -309,10 +309,16 @@ body:has(.hmi-topnav-shell) {
 .hmi-nav-item.is-open > .hmi-nav-toggle svg { transform: rotate(180deg); }
 
 .hmi-nav-panel {
-  position: absolute; left: 0; right: 0; top: 100%;
+  // CHROME-SPEC §1.2 (v3:71-95): the panel is `top: 70px`, background #fffdfb,
+  // and carries ONLY a bottom border. `top: 100%` resolved to 68px against the
+  // 68px inner, so the panel sat flush to the bar instead of 2px below it. The
+  // side borders and the 14px bottom radius are not in the spec, and the radius
+  // also broke the sitewide 2-3px rule — it shipped green only because the
+  // gate's radius check read borderTopLeftRadius alone.
+  position: absolute; left: 0; right: 0; top: 70px;
   visibility: hidden; opacity: 0;
-  background-color: #fff; border: 1px solid var(--line, var(--lightgray));
-  border-top: 0; border-radius: 0 0 14px 14px;
+  background-color: #fffdfb; border: 0;
+  border-bottom: 1px solid #e8e1db; border-radius: 0;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12); z-index: 40;
   transition: opacity 0.14s ease;
   &::before { content: ""; position: absolute; top: -10px; left: 0; right: 0; height: 10px; }
@@ -325,7 +331,10 @@ body:has(.hmi-topnav-shell) {
 
 .hmi-nav-panel-inner { padding: 1.6rem 40px 1.9rem; }
 .hmi-nav-blurb { margin: 0 0 1.1rem; font-size: 0.92rem; color: var(--muted, #736b6e); max-width: 46rem; }
-.hmi-nav-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 3rem; max-width: 44rem; }
+// CHROME-SPEC §1.2: three columns filling the remainder. The 44rem cap held
+// them to 704px inside a ~1000px cell, so the third column crowded the second
+// instead of the grid spanning the panel.
+.hmi-nav-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; max-width: none; }
 .hmi-nav-col ul { list-style: none; margin: 0; padding: 0; }
 .hmi-nav-col li { margin: 0; }
 .hmi-nav-colhead {
@@ -340,7 +349,9 @@ body:has(.hmi-topnav-shell) {
 }
 .hmi-nav-count { font-size: 0.79rem; color: var(--faint, #a9a1a2); font-variant-numeric: tabular-nums; flex: 0 0 auto; }
 .hmi-nav-all {
-  display: inline-block; margin-top: 1.2rem; font-size: 0.9rem; font-weight: 600;
+  // CHROME-SPEC §1.2: the rail is blurb `margin: 0 0 16px` then the all-link.
+  // A 1.2rem top margin stacked on that 16px, so the gap read as 35px.
+  display: inline-block; margin-top: 0; font-size: 0.9rem; font-weight: 600;
   color: var(--burg, var(--secondary)); background-color: transparent;
 }
 

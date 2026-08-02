@@ -499,7 +499,11 @@ for (const p of PAGES) {
               neg.burgundy.push(label(e) + "{" + prop + "}" + h)
           }
           // 50% on an element <=16px wide is the timeline dot (COMPONENTS.md §5).
-          const r = c.borderTopLeftRadius
+          // All four corners, not just top-left. A panel with
+          // `border-radius: 0 0 14px 14px` has borderTopLeftRadius 0px and
+          // shipped green through this check for the whole project.
+          const corners = [c.borderTopLeftRadius, c.borderTopRightRadius, c.borderBottomLeftRadius, c.borderBottomRightRadius]
+          const r = corners.find((v) => v && v !== "0px") || c.borderTopLeftRadius
           if (r && r !== "0px") {
             const w = e.getBoundingClientRect().width
             if (r.includes("%")) {
