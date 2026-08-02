@@ -328,6 +328,42 @@ for (const p of PAGES) {
           }
         })
 
+        // SHELL AND LEFT RAIL (CHROME-SPEC §1.4). The triad's outer tracks are
+        // fixed (236 / … / 312); the middle is minmax(0,1fr) so it is
+        // viewport-dependent and only the ends are asserted. The rail's active
+        // indicator is the left border going burgundy — measured by forcing
+        // `.active`, because at rest no item is active on a freshly-loaded page.
+        const shellEl = document.querySelector(".proof-layout")
+        const shellCols = shellEl ? getComputedStyle(shellEl).gridTemplateColumns.split(" ") : []
+        const shell = {
+          first: shellCols[0] ?? "",
+          last: shellCols[shellCols.length - 1] ?? "",
+          n: shellCols.length,
+        }
+        // The rail's active border comes from THREE signals (proof-design 470):
+        // `.active`, a group that `:has(.in-view)` (scroll-spy), or an open
+        // `.snav-further`. On a short page every group has an in-view child, so
+        // there is no naturally-inactive item to read. Force both states on ONE
+        // item instead: strip `.active` and every `.in-view` in its group to read
+        // inactive, then add `.active` to read active, then restore.
+        const secs = [...document.querySelectorAll(".snav .grp > a.sec")]
+        let railInactive = "",
+          railActive = ""
+        const t = secs[0]
+        if (t) {
+          const grp = t.closest(".grp")
+          const inview = grp ? [...grp.querySelectorAll(".in-view")] : []
+          const wasActive = t.classList.contains("active")
+          inview.forEach((e) => e.classList.remove("in-view"))
+          t.classList.remove("active")
+          railInactive = getComputedStyle(t).borderLeftColor
+          t.classList.add("active")
+          railActive = getComputedStyle(t).borderLeftColor
+          if (!wasActive) t.classList.remove("active")
+          inview.forEach((e) => e.classList.add("in-view"))
+        }
+        const railBorder = { inactive: railInactive, active: railActive }
+
         // HERO BREADCRUMB AND BADGE (CHROME-SPEC §1.3 / §3). Both are strings
         // rather than computed styles, and both were wrong on three screens
         // while every style assertion on the hero passed.
@@ -429,6 +465,8 @@ for (const p of PAGES) {
           presentOld,
           styleResults,
           megaPanels,
+          shell,
+          railBorder,
           navRow,
           hero,
           neg,
@@ -505,6 +543,22 @@ for (const p of PAGES) {
     page: p.url, kind: "structure", sel: ".hmi-nav-item", prop: "width beyond its trigger",
     want: "0px", got: `${res.navRow.slack}px` + (res.navRow.slack ? ` (${res.navRow.widest})` : ""),
   })
+  if (p.rail) {
+    // §1.4 shell triad — the two fixed outer tracks.
+    record("chrome", res.shell.first === "236px", {
+      page: p.url, kind: "style", sel: ".proof-layout", prop: "grid col 1", want: "236px", got: res.shell.first || "(none)", v3: 405,
+    })
+    record("chrome", res.shell.last === "312px", {
+      page: p.url, kind: "style", sel: ".proof-layout", prop: "grid col 3", want: "312px", got: res.shell.last || "(none)", v3: 405,
+    })
+    // §1.4 left-rail indicator — the left border, inactive vs active.
+    record("chrome", NORM(res.railBorder.inactive) === "#e8e1db", {
+      page: p.url, kind: "style", sel: ".snav a.sec", prop: "border-left (inactive)", want: "#e8e1db", got: NORM(res.railBorder.inactive), v3: 414,
+    })
+    record("chrome", NORM(res.railBorder.active) === "#8b2a4a", {
+      page: p.url, kind: "style", sel: ".snav a.sec.active", prop: "border-left (active)", want: "#8b2a4a", got: NORM(res.railBorder.active), v3: 414,
+    })
+  }
   record("chrome", res.megaPanels.length === 5, {
     page: p.url, kind: "structure", sel: ".hmi-nav-panel", prop: "count", want: "5", got: String(res.megaPanels.length),
   })
@@ -585,6 +639,30 @@ const NARROW_WANT = [
 for (const [sel, got, want, why] of NARROW_WANT) {
   record("chrome", got === want, {
     page: "/metals/lead.html @1100", kind: "narrow", sel, prop: why, want, got,
+  })
+}
+
+// ── 1280 CONTAINMENT (CHROME-SPEC §5, shell) ──────────────────────────────
+// §5 asks for `scrollWidth <= clientWidth` at 1280 AND 1440. 1440 is the main
+// loop; 1100 is the narrow pass. 1280 is the band where the three-column shell
+// is still live (> 1150) but the viewport is tighter than the 1760 cap — the
+// width most likely to overflow if a track or the hero mis-sizes. Checked here
+// on a detail page (shell) and the metals index (hero A / registry).
+for (const url of ["/metals/lead.html", "/metals/index.html"]) {
+  await page.setViewport({ width: 1280, height: 900 })
+  await page.goto(base + url, { waitUntil: "networkidle0", timeout: 45000 })
+  const over = await page.evaluate(() => {
+    const de = document.documentElement
+    if (de.scrollWidth <= de.clientWidth) return ""
+    const wide = [...document.querySelectorAll("*")]
+      .filter((e) => e.getBoundingClientRect().right > de.clientWidth + 1)
+      .slice(0, 3)
+      .map((e) => e.tagName.toLowerCase() + "." + (typeof e.className === "string" ? e.className.split(" ")[0] : ""))
+    return `${de.scrollWidth} > ${de.clientWidth} (+${de.scrollWidth - de.clientWidth}px) :: ${wide.join(", ")}`
+  })
+  record("chrome", over === "", {
+    page: `${url} @1280`, kind: "negative", sel: "no horizontal overflow (scrollWidth <= clientWidth)",
+    prop: "count", want: "0", got: over ? `1 → ${over}` : "0",
   })
 }
 
