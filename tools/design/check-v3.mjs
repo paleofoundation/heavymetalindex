@@ -384,6 +384,22 @@ for (const p of PAGES) {
         }
         const railBorder = { inactive: railInactive, active: railActive }
 
+        // FOOTER (CHROME-SPEC §1.6 / §5): four column heads, and a bottom bar
+        // that names the REPO's entities, not v3's "Institute of Contamination
+        // Standards" typo. The copyright belongs to the corporation and the
+        // operator attribution to the Institute — two lines, two jobs. This is
+        // the one string on the site where being wrong is a checkable untruth
+        // about corporate form, so it is asserted by content, not just style.
+        const footerEl = document.querySelector("footer.site-footer")
+        const footer = footerEl
+          ? {
+              colHeads: footerEl.querySelectorAll(
+                ".site-footer-column h2, .site-footer-column h3, .site-footer-column .site-footer-column-title",
+              ).length,
+              bottom: (footerEl.querySelector(".site-footer-bottom")?.innerText ?? "").replace(/\s+/g, " "),
+            }
+          : { colHeads: 0, bottom: "" }
+
         // HERO BREADCRUMB AND BADGE (CHROME-SPEC §1.3 / §3). Both are strings
         // rather than computed styles, and both were wrong on three screens
         // while every style assertion on the hero passed.
@@ -487,6 +503,7 @@ for (const p of PAGES) {
           megaPanels,
           shell,
           railBorder,
+          footer,
           navRow,
           hero,
           neg,
@@ -577,6 +594,24 @@ for (const p of PAGES) {
     })
     record("chrome", NORM(res.railBorder.active) === "#8b2a4a", {
       page: p.url, kind: "style", sel: ".snav a.sec.active", prop: "border-left (active)", want: "#8b2a4a", got: NORM(res.railBorder.active), v3: 414,
+    })
+  }
+  // §1.6 footer — on every surface (the footer is shared chrome).
+  record("chrome", res.footer.colHeads === 4, {
+    page: p.url, kind: "structure", sel: ".site-footer-column", prop: "column heads", want: "4", got: String(res.footer.colHeads),
+  })
+  {
+    // innerText returns the CSS-transformed (uppercased) text, so match
+    // case-insensitively; the entity NAMES are what matter, not their casing.
+    const b = res.footer.bottom
+    const ok =
+      /Paleo Certified, Inc\./i.test(b) &&
+      /Institute of Contaminant Standards/i.test(b) &&
+      !/Contamination Standards/i.test(b)
+    record("chrome", ok, {
+      page: p.url, kind: "content", sel: ".site-footer-bottom", prop: "repo legal line (not v3 typo)",
+      want: "Paleo Certified, Inc. + Institute of Contaminant Standards, no 'Contamination'",
+      got: b.slice(0, 90) || "(empty)",
     })
   }
   record("chrome", res.megaPanels.length === 5, {
