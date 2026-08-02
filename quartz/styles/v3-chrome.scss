@@ -929,3 +929,166 @@ footer.site-footer {
     padding: 28px 24px 34px;
   }
 }
+
+/* ══ §2 CONTENT-LAYER PRIMITIVES ══════════════════════════════════════════
+   These are the shared vocabulary CHROME-SPEC §2 defines, and they were the
+   real gap behind "the table styles were not imported". The burgundy table
+   chrome landed in 788b6fde1, but only the chrome — none of §2's other
+   primitives existed, and three details of the table itself were wrong. */
+
+/* th is font-weight 500 per §2 — NOT 400. The global `* { font-weight: 400 }`
+   floor in v3-type.scss is correct for everything v3 leaves unstated, but §2
+   states this one explicitly, so it wins here. */
+.wiki-content thead th {
+  font-weight: 500;
+}
+
+/* §2 puts the row rule on the CELL, not the row. On `tr` it is painted under
+   the row box and collapses inconsistently against the outer table border. */
+.wiki-content tbody td {
+  border-bottom: 1px solid #f2ece7;
+}
+
+.wiki-content tbody tr {
+  border-bottom: 0;
+}
+
+/* Secondary table variant — §2: "a lighter variant exists for sub-tables
+   (update history, peer review)". Apparatus tables are documentation about the
+   page, not evidence on it, and a burgundy header gives them the same weight as
+   an occurrence table. */
+.hmi-page-history table,
+.hmi-peer-review table,
+table.hmi-secondary {
+  font-size: 13px;
+
+  thead tr {
+    background: #fbf5f7;
+    color: #8b2a4a;
+    border-bottom: 1px solid #eddfe4;
+  }
+
+  thead th {
+    background: #fbf5f7;
+    color: #8b2a4a;
+    padding: 10px 15px;
+  }
+
+  tbody td {
+    padding: 12px 15px;
+  }
+}
+
+/* Caption — §2. Both positions are valid: a note BEFORE a table is a basis
+   statement, a note AFTER is a qualifier. Same type, margin flips. */
+.hmi-caption,
+figcaption {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: #a9a1a2;
+  max-width: 84ch;
+  margin-top: 12px;
+}
+
+.hmi-caption--above {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Caveat callout, PRESENT — a reviewed limitation exists. */
+.hmi-caveat {
+  border-left: 3px solid #8b2a4a;
+  background: #fbf5f7;
+  padding: 18px 22px;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: #5a4148;
+}
+
+/* Caveat callout, ABSENT — nobody has written this yet. Deliberately NOT the
+   burgundy bar: §2 is explicit that the bar means "a reviewed limitation
+   exists" and must keep meaning only that. A page with no caveat block at all
+   reads as "no caveats exist", which is a stronger and less true claim. */
+.hmi-caveat--absent {
+  border: 1px dotted #e8e1db;
+  border-left: 1px dotted #e8e1db;
+  background: #faf7f4;
+  padding: 15px 18px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #a9a1a2;
+}
+
+.hmi-caveat--absent .hmi-caveat-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  margin-bottom: 7px;
+}
+
+/* Dotted key–value row — §2's atom. Any measured value paired with a label
+   uses this; a number inside a prose sentence is a defect, not a style choice. */
+.hmi-kv {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #f2ece7;
+}
+
+.hmi-kv-k {
+  font-size: 13.5px;
+  color: #3f3a3f;
+}
+
+.hmi-kv-v {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: #2b1f24;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Grid-of-records — the rules come from the 1px GAP over a #e8e1db ground, not
+   from borders on the cells. §2 says so explicitly. */
+.hmi-grid-records {
+  display: grid;
+  gap: 1px;
+  background: #e8e1db;
+  border: 1px solid #e8e1db;
+}
+
+.hmi-grid-records > * {
+  background: #fffdfb;
+  padding: 17px;
+}
+
+/* Chips — §2's three states. */
+.hmi-chip,
+.hmi-product-chip {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  color: #8b2a4a;
+  background: #fbf5f7;
+  border: 1px solid #eddfe4;
+}
+
+.hmi-chip--neutral {
+  color: #736b6e;
+  background: #fffdfb;
+  border: 1px solid #e8e1db;
+}
+
+.hmi-chip--muted {
+  color: #a9a1a2;
+  background: #faf7f4;
+  border: 1px dotted #e8e1db;
+}
