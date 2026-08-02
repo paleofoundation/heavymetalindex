@@ -11,16 +11,31 @@ This is the contaminant reference layer. Start here when your question begins wi
 
 ## What a metal page covers
 
-Every developed metal page carries the same sections, so a reader always knows where to look: a plain-language *at a glance* summary, the *toxicology* and dose-response basis, *typical exposure routes* through the diet, the *food sources* that dominate intake, the *regulatory limits* across jurisdictions, the *testing* methods used to measure it, the *vulnerable populations* most affected, and the *open questions* the literature has not resolved. The elements tracked most fully are the toxic metals below; nutrient and trace elements carry briefer reference stubs that expand as the corpus warrants.
+Every developed metal page carries the same eight sections, so a reader always knows where to look.
+
+<div class="hmi-grid-records hmi-grid-4">
+<div class="hmi-grid-cell"><span class="hmi-grid-k">At a glance</span><span class="hmi-grid-v">A plain-language summary of why the metal is a food concern.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Toxicology</span><span class="hmi-grid-v">The dose-response basis for the concern.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Typical exposure routes</span><span class="hmi-grid-v">How it reaches people through the diet.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Food sources</span><span class="hmi-grid-v">The foods that dominate intake.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Regulatory limits</span><span class="hmi-grid-v">The limits set across jurisdictions.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Testing</span><span class="hmi-grid-v">The methods used to measure it.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Vulnerable populations</span><span class="hmi-grid-v">Who is most affected.</span></div>
+<div class="hmi-grid-cell"><span class="hmi-grid-k">Open questions</span><span class="hmi-grid-v">What the literature has not resolved.</span></div>
+</div>
+
+The elements tracked most fully are the toxic metals below; nutrient and trace elements carry briefer reference stubs that expand as the corpus warrants.
 
 ## Species — read this first
 
-The single most common error in reading heavy-metal data is comparing a total-element measurement to a limit derived for one chemical species. Four elements are maintained as separate species pages because their toxicology and regulation diverge sharply, often by two to three orders of magnitude:
+The single most common error in reading heavy-metal data is comparing a total-element measurement to a limit derived for one chemical species. Four elements are maintained as separate species pages because their toxicology and regulation diverge sharply, often by two to three orders of magnitude.
 
-- Arsenic: [[metals/arsenic-inorganic|inorganic arsenic]] (the carcinogenic species) versus [[metals/arsenic-total|total arsenic]], which includes far less toxic organoarsenicals.
-- Mercury: [[metals/mercury-methyl|methylmercury]] (the neurotoxic, bioaccumulating species) versus [[metals/mercury-total|total mercury]].
-- Chromium: [[metals/chromium-hexavalent|hexavalent chromium]] (carcinogenic) versus total [[metals/chromium|chromium]], most of which is the far less toxic trivalent form.
-- Tin: [[metals/organotins|organotin]] compounds versus [[metals/tin|inorganic tin]].
+| Element | Governing species | Compared against | Why the distinction matters |
+| --- | --- | --- | --- |
+| Arsenic | [[metals/arsenic-inorganic\|Inorganic arsenic]] (iAs) | [[metals/arsenic-total\|Total arsenic]] | iAs is the carcinogenic species; a total includes far less toxic organoarsenicals |
+| Mercury | [[metals/mercury-methyl\|Methylmercury]] (MeHg) | [[metals/mercury-total\|Total mercury]] | MeHg is the neurotoxic species that biomagnifies up the aquatic food chain |
+| Chromium | [[metals/chromium-hexavalent\|Hexavalent chromium]] (Cr-VI) | [[metals/chromium\|Total chromium]] | Cr-VI is carcinogenic; most total chromium is the far less toxic trivalent form |
+| Tin | [[metals/organotins\|Organotin compounds]] | [[metals/tin\|Inorganic tin]] | Organotins carry the toxicity; inorganic tin is a GI irritant only at high dose |
 
 A total-element number cannot be honestly mapped to a species-based limit. Where a source reports only a total, the metal page says so.
 

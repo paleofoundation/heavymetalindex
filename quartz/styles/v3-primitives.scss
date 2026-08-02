@@ -40,3 +40,57 @@ pre > code {
 .skip-to-content {
   box-shadow: none;
 }
+
+// ── COMPONENTS §8 — grid-of-records ────────────────────────────────────────
+// A registry scanned without table chrome. The rules are drawn by the 1px gap
+// over a #e8e1db ground, NOT by per-cell borders — the cells sit on #fffdfb and
+// the ground shows through the gaps. N is 4 for the eight-cell "what a page
+// covers" grid, 2 for two-up registries.
+.hmi-grid-records {
+  display: grid;
+  gap: 1px;
+  background: #e8e1db;
+  border: 1px solid #e8e1db;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.hmi-grid-records.hmi-grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.hmi-grid-records.hmi-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hmi-grid-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #fffdfb;
+  padding: 17px 18px;
+}
+
+.hmi-grid-k {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8b2a4a;
+  line-height: 1.3;
+}
+
+.hmi-grid-v {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #3f3a3f;
+}
+
+@media (max-width: 900px) {
+  .hmi-grid-records.hmi-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .hmi-grid-records {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
