@@ -70,7 +70,11 @@ export const sharedPageComponents: SharedLayout = {
     // Lives here, visible, instead of the hidden beforeBody `.page-header`.
     Component.BrandPreScreenTool(),
     Component.Corrections(),
-    Component.RelatedPages(),
+    // RelatedPages ("See also") removed: it rendered the SAME relatedByCategory
+    // graph the right-rail "Connections" already shows compactly (cap 3),
+    // including the inbound direction — a whole-graph duplicate at the page
+    // bottom that read as clutter and undercut the curated-reference posture.
+    // The rail keeps the compact version; the shared graph lives in relatedGraph.ts.
   ],
   footer: Component.Footer(),
 };
