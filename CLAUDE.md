@@ -241,6 +241,19 @@ This workflow produces certification thresholds. **Its outputs are staff and HMT
 
 The methodology is fixed, system-wide, and applies to every category and every row in the index. It is not infant-and-child-foods-specific.
 
+#### Method v2.0 — government-limit default (ratified 2026-08-03)
+
+**The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator (EU, Codex, FDA, WHO/JECFA, FSANZ, Health Canada), converted to the row's native basis.** This is a lookup, not a computation; it is maximally defensible (the standard cites sovereign limits, so there is no novel methodology to attack under Daubert) and it is the speed and scale lever for covering the whole program. Where the law itself splits a limit by formulation (e.g. EU nickel 250 cow-milk / 400 soy; AU/NZ aluminium 3500 / 7000 powder-basis), the standard adopts the law's own split and cites it — this dissolves the single-vs-envelope question entirely.
+
+Occurrence pooling is retained, but **selective**, in exactly two situations:
+
+1. **Tier 1 toxics (Pb, Cd, iAs, MeHg/tHg)** — standard = `min(occurrence percentile, strictest government ML)`. These four metals have no established safe threshold, so where clean producers demonstrably beat the government floor the tighter occurrence value governs and the ratchet is preserved. This is where the pooled-corpus authority earns its keep.
+2. **Cells no government regulates** (e.g. mercury, tin, Cr in formula) — the occurrence value (or a not-material / process-screen determination) is the sole basis, because a lookup returns nothing.
+
+For Tier 2 metals (Ni, Sn, Al, Cr-VI) the government limit is adopted directly; occurrence is not computed for them unless no government ML exists. The generator is `tools/standards/build-government-limit-standard.mjs`. The clean/dirty subcategory split, market stratification, and P97/P45 uplift below now run **only on the Tier 1 toxic and no-ML cells**, not on every cell. The Status A–E framework, the Tier-1/Tier-2 toxicological tiering, the 150% Tier-2 transitional allowance, the regulatory hard-stop, basis conversion, and lot testing are **unchanged** — they operate downstream of the limit regardless of how it was set.
+
+The v1.0 pooled-percentile rule below is retained verbatim because it still governs the selective occurrence cells.
+
 **Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~90% row-level pass; measured 94% on FDA per-sample lot data (2026-08).
 
 **Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~40% row-level pass (updated 2026-08-03 from the legacy 30%); measured 42% on FDA per-sample lot data. Calibration is anchored to that measurement, not to the earlier assumed analyte-correlation of 0.6 (measured ~0.27).
