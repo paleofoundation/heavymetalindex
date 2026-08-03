@@ -20,7 +20,9 @@ A coherent finding has emerged from three independent peer-reviewed studies in t
 
 This page synthesizes the three anchor studies and explains why their convergence reframes the wiki's current understanding of rice and freshwater fish risk. The synthesis does not yet rest on enough sources to be the wiki's final position; readers should treat it as the current best reading and trace each numerical claim upward to its source. Two additional corroborating studies, ideally from non-US and non-Chinese geographies, would strengthen the finding meaningfully.
 
-## The rice irrigation trade-off
+## Evidence base
+
+### The rice irrigation trade-off
 
 [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]] and [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer and Seyfferth 2024]] are companion field studies from the University of Delaware RICE facility. Across two distinct experiments separated by five growing seasons (2016-2017 and 2021-2022), the same finding holds. Soil redox conditions, controlled in practice by irrigation regime, drive opposite accumulation dynamics in inorganic arsenic and cadmium. Flooded paddies favor inorganic arsenic accumulation in the grain and suppress cadmium. Aerobic or alternate-wetting-and-drying paddies suppress inorganic arsenic and favor cadmium.
 
@@ -32,7 +34,7 @@ The companion paper, Seyfferth 2025, sharpens the warning at the drier end of th
 
 The Delaware experimental design does not by itself establish that real-world AWD adoption produces Codex-breaching cadmium in commercial rice supply. The result has not yet been demonstrated outside an experimental paddy at one US university. The synthesis position is correspondingly cautious: the trade-off mechanism is established at the experimental scale; whether it shows up in commercial AWD rice supply at scale, and how varietally and geographically variable the trade-off is, is the work that has not yet been done.
 
-## The freshwater fish methylmercury trajectory
+### The freshwater fish methylmercury trajectory
 
 [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] (PNAS) is the largest dataset to address this question to date, with approximately 13,000 fish mercury samples across 164 sampling sites in China spanning 2005 to 2020. The study combines machine learning, primarily random forest regression, with climate scenario modeling to project methylmercury concentrations in freshwater wild fish to the 2031-2060 and 2071-2100 windows under SSP2-4.5 and SSP5-8.5 emission pathways.
 
@@ -44,7 +46,7 @@ The third is the projection. Under both SSP2-4.5 (a moderate-mitigation pathway)
 
 The model is parameterized on Chinese data. The mechanism, climate-driven enhancement of microbial and photochemical methylation in freshwater systems, is not specific to China. Wu 2025's geographic generalization is a hypothesis the synthesis carries forward provisionally and would be substantially strengthened by parallel datasets from North America, Europe, and other Asian freshwater systems.
 
-## The convergent point
+### The convergent point
 
 The two threads are independent at the level of mechanism, scale, and geography. Rice irrigation trade-offs are an agronomic phenomenon driven by soil redox chemistry under farmer-controlled water management at the paddy scale. Freshwater fish methylmercury trajectories are an aquatic-systems phenomenon driven by global climate change at the watershed and basin scale. They converge on a single thesis: the heavy-metal contamination profile of the two food matrices the wiki cares about most for vulnerable populations, infant rice cereal and infants-and-children-consuming freshwater fish, is undergoing structural change in response to climate forcing.
 
@@ -52,15 +54,15 @@ The convergence matters because both food matrices are among the most consequent
 
 The implication for the wiki is that any synthesis work touching rice or freshwater fish needs to surface the climate-adaptation trade-off as an explicit consideration, not as a footnote. The underlying scientific point generalizes: an occurrence baseline derived from a historical contamination floor goes stale at the rate the floor itself moves, so a baseline calibrated against early-2000s rice arsenic or early-2000s freshwater fish methylmercury data drifts away from the system it is meant to characterize as climate adaptation proceeds. How any standards body or certification scheme responds to that drift is a policy choice the wiki does not prescribe; the literature-native finding is only that the drift is real and documented as of 2026.
 
-## What this synthesis does not yet rest on
+### Anchor sources
 
-Two corroborating datasets in non-US, non-Chinese geographies would strengthen each thread substantially. The rice irrigation trade-off would benefit from an independent reproduction in commercial AWD supply rather than experimental paddies. The freshwater fish methylmercury projection would benefit from a non-Chinese watershed dataset, ideally North American Great Lakes or European boreal lakes where long-term fish-Hg monitoring data exist.
+- [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]]. *Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies*, GeoHealth. Six outdoor rice paddies at U. Delaware RICE facility, 2-year field study (2016-2017), Oryza sativa cv. Jefferson, Typic Hapludult sandy clay loam soil; soil EH gradient from minus 177 mV (most flooded) to plus 623 mV (least flooded).
+- [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer and Seyfferth 2024]]. *Controlling exposure to As and Cd from rice via irrigation management*, Environmental Science and Technology. Six irrigation treatments at U. Delaware paddy mesocosm, two growing seasons (2021-2022), n=3 replicates per treatment; iAs by IC-ICP-MS, Cd by ICP-MS.
+- [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences. Approximately 13,000 fish mercury samples across 164 sampling sites in China, 2005-2020; random forest model coupled with SSP2-4.5 and SSP5-8.5 climate scenarios, projected to 2031-2060 and 2071-2100.
 
-Three secondary questions remain open. First, the cadmium trade-off in rice has been demonstrated at the experimental paddy scale, not yet in commercial AWD rice as it reaches consumers; the synthesis cannot yet state with confidence that branded AWD rice products are breaching cadmium limits. Second, the methylmercury increase in freshwater fish is projected under climate scenarios that themselves carry uncertainty; the 60 percent projected increase is the central estimate, not a confidence interval. Third, the climate-mediated mechanism in freshwater fish (enhanced solar radiation driving methylation) has not yet been tested directly under controlled conditions; the Wu 2025 attribution rests on machine learning identification of climate drivers, not mechanistic confirmation.
+## Interpretation
 
-The synthesis position is provisional and explicit about its provisionality. Re-synthesis is expected when corroborating studies enter the corpus, when commercial AWD rice cadmium data become available, or when an independent freshwater fish dataset from a non-Chinese watershed confirms the methylmercury projection.
-
-## Downstream pages updated
+### Downstream pages updated
 
 The findings on this page have been propagated to the following downstream wiki pages (2026-05-13):
 
@@ -71,13 +73,17 @@ The findings on this page have been propagated to the following downstream wiki 
 - [[metals/mercury-methyl]] — new "Climate-driven enhancement of MeHg production" H2 section
 - [[metals/cadmium]] — irrigation trade-off added to "Food sources" section
 
-## Anchor sources
+## Uncertainty
 
-- [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]]. *Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies*, GeoHealth. Six outdoor rice paddies at U. Delaware RICE facility, 2-year field study (2016-2017), Oryza sativa cv. Jefferson, Typic Hapludult sandy clay loam soil; soil EH gradient from minus 177 mV (most flooded) to plus 623 mV (least flooded).
-- [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer and Seyfferth 2024]]. *Controlling exposure to As and Cd from rice via irrigation management*, Environmental Science and Technology. Six irrigation treatments at U. Delaware paddy mesocosm, two growing seasons (2021-2022), n=3 replicates per treatment; iAs by IC-ICP-MS, Cd by ICP-MS.
-- [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences. Approximately 13,000 fish mercury samples across 164 sampling sites in China, 2005-2020; random forest model coupled with SSP2-4.5 and SSP5-8.5 climate scenarios, projected to 2031-2060 and 2071-2100.
+### What this synthesis does not yet rest on
 
-## How this page was promoted
+Two corroborating datasets in non-US, non-Chinese geographies would strengthen each thread substantially. The rice irrigation trade-off would benefit from an independent reproduction in commercial AWD supply rather than experimental paddies. The freshwater fish methylmercury projection would benefit from a non-Chinese watershed dataset, ideally North American Great Lakes or European boreal lakes where long-term fish-Hg monitoring data exist.
+
+Three secondary questions remain open. First, the cadmium trade-off in rice has been demonstrated at the experimental paddy scale, not yet in commercial AWD rice as it reaches consumers; the synthesis cannot yet state with confidence that branded AWD rice products are breaching cadmium limits. Second, the methylmercury increase in freshwater fish is projected under climate scenarios that themselves carry uncertainty; the 60 percent projected increase is the central estimate, not a confidence interval. Third, the climate-mediated mechanism in freshwater fish (enhanced solar radiation driving methylation) has not yet been tested directly under controlled conditions; the Wu 2025 attribution rests on machine learning identification of climate drivers, not mechanistic confirmation.
+
+The synthesis position is provisional and explicit about its provisionality. Re-synthesis is expected when corroborating studies enter the corpus, when commercial AWD rice cadmium data become available, or when an independent freshwater fish dataset from a non-Chinese watershed confirms the methylmercury projection.
+
+### How this page was promoted
 
 This synthesis page was promoted from the routing layer on 2026-05-13. The three anchor sources were ingested across two parallel sessions (Claude in Obsidian doing P4 bulk ingest; Claude Code Tier 2 source-legend filling) over the prior 24 hours. The thematic cluster was first surfaced in the P4 batch 9 status read on 2026-05-13: Obsidian Claude noted that Wu 2025 (batch 9), Seyfferth 2025, and Limmer 2024 (both ingested earlier in the seasonal-geographic-variance batch) independently document climate-mediated heavy-metal trade-offs in rice and freshwater fish, and that the convergence warranted a dedicated synthesis page.
 
@@ -112,9 +118,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

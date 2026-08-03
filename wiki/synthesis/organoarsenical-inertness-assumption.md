@@ -20,7 +20,9 @@ A foundational assumption in food-arsenic risk assessment holds that organoarsen
 
 Eight independent studies entered the wiki corpus across batches 9 through 11, published between 2023 and 2024, that collectively challenge one or more dimensions of the inertness assumption. No single paper refutes it definitively. Taken together, however, they establish that the assumption is being tested on three distinct evidentiary fronts simultaneously: the metabolism front (whether organoarsenicals are truly inert during digestion), the biomonitoring front (whether urinary metrics reliably distinguish organoarsenical metabolism from inorganic arsenic methylation), and the toxicity front (whether epidemiological endpoints associated with fish arsenic exposure remain below detection). The convergence of challenges across three independent research traditions, in multiple food matrices spanning seafood, fungi, and microalgae-derived ingredients, constitutes a synthesis-page-worthy finding that would not be visible from any single source page and has direct implications for how the wiki characterises arsenic in seafood-containing products.
 
-## The biomonitoring confound
+## Evidence base
+
+### The biomonitoring confound
 
 The standard approach to biomonitoring inorganic arsenic exposure in human populations uses the urinary ratio of dimethylarsinic acid (DMA) to inorganic metabolites as an index of methylation efficiency, with higher DMA fractions interpreted as efficient methylation and therefore lower retained iAs burden. [[sources/davydiuk2023-arsenosugars-methylation|Davydiuk et al. 2023]] reviewed the evidence on a specific confound in this interpretation: arsenosugars and arsenolipids from seafood consumption are metabolised to DMA via a pathway that does not pass through the inorganic arsenic methylation sequence. The metabolic route from arsenosugars to DMA is independent of the route from inorganic arsenite and arsenate to DMA.
 
@@ -28,13 +30,13 @@ The practical consequence is that populations with high seafood intake will show
 
 The implications run directly into the regulatory architecture. EFSA's 2021 chronic dietary iAs exposure assessment and EFSA's 2024 updated risk characterisation (both anchored to urinary biomonitoring data) estimate inorganic arsenic exposure partly through modelling that uses biomonitoring studies from European populations; the bias in those studies from seafood arsenosugars, while smaller in European than in Japanese populations, is not zero and is not corrected for. If the reference biomonitoring literature systematically underestimates inorganic arsenic exposure in fish-eating populations, the modelled exposure margins of the [[sources/efsa2024-risk-assessment-iAs-update|EFSA 2024]] assessment may be slightly optimistic.
 
-## Digestion-phase conversion of organic arsenicals
+### Digestion-phase conversion of organic arsenicals
 
 A separate challenge to the inertness assumption concerns whether organic arsenic forms survive gastrointestinal digestion intact. [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]] used a standardised in vitro gastrointestinal digestion protocol to characterise arsenic speciation in crab and scallop before and after simulated digestion. Organic arsenicals in both matrices underwent a 2-to-3-fold increase in the inorganic As(V) fraction following digestion, attributed to a pH-dependent free radical oxidation mechanism that becomes active under the acidic conditions of the stomach. The implication is that the speciation measured in the food at the moment of consumption — the speciation that is used to classify a food as "predominantly organic arsenic and therefore low risk" — is not the speciation present at the point of intestinal absorption.
 
 The magnitude of the in vitro conversion does not resolve how much inorganic arsenic is actually absorbed from a typical seafood portion. In vitro digestion models have well-documented limitations as proxies for in vivo absorption: they replicate pH, enzyme activity, and transit time imperfectly, and they do not account for intestinal re-speciation or transporter-mediated selectivity in absorption. The finding establishes that the assumption of speciation stability through digestion is not justified, and that the gap between food-measurement speciation and absorbed-fraction speciation has not been closed. It does not by itself establish the absorbed fraction of inorganic arsenic from seafood or its health relevance at typical dietary exposure levels.
 
-## Epidemiological signal in a large prospective cohort
+### Epidemiological signal in a large prospective cohort
 
 The strongest human-evidence challenge to the inertness assumption comes from a prospective cohort study, not from speciation biochemistry. [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]] reported on the J-MICC Daiko Study, a community-based cohort of 2,709 Japanese adults with measured serum arsenic levels and prospectively adjudicated hypertension outcomes. Serum total arsenic, which the authors estimate to be 98 percent arsenobetaine based on Japanese population speciation surveys, was associated with hypertension risk in a dose-dependent relationship that remained statistically significant after adjustment for fish consumption frequency, age, sex, body mass index, and other cardiovascular risk factors.
 
@@ -42,7 +44,7 @@ The finding is anomalous under the inertness assumption. If 98 percent of serum 
 
 The study does not discriminate among these interpretations, and none of the three is ruled out. What the study establishes is that a large, well-characterised prospective cohort provides an epidemiological signal for health risk at fish-arsenic exposure levels that the inertness assumption would predict are harmless. This is not the same as demonstrating arsenobetaine toxicity, but it is inconsistent with the assumption that organic arsenic from fish consumption is toxicologically invisible.
 
-## Extension to fungi and microalgae-derived ingredients
+### Extension to fungi and microalgae-derived ingredients
 
 The three papers above concern marine food matrices where arsenobetaine is the dominant species. Two papers from the same ingest period extend the concern about organoarsenical inertness assumptions into non-marine food categories that are increasingly relevant to supplement, functional-food, and protein-ingredient supply chains.
 
@@ -52,7 +54,7 @@ The three papers above concern marine food matrices where arsenobetaine is the d
 
 [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]] validated an HPLC-ICP-MS method for iAs determination in seaweed and found that Laminaria digitata carries more than 50 percent of its total arsenic as inorganic arsenic. This is not an organoarsenical inertness finding in the same sense as the preceding papers — it is an occurrence finding showing that kelp-family seaweeds have a high iAs fraction by matrix, not by metabolic conversion. But it is relevant to the synthesis because it illustrates that the assumption that "seaweed arsenic is organic and therefore low risk" is demonstrably wrong for this commercially important algae genus, and the EU's 2023/915 regulation now sets specific iAs limits for seaweed products in recognition of this. The distinction between what a food matrix contains and what the default "it's organic" assumption implies is exactly the structure this synthesis addresses.
 
-## The convergent point
+### The convergent point
 
 Each paper challenges a different component of the received view. The Davydiuk review challenges biomonitoring reliability. The Liu digestion study challenges speciation stability through GI transit. The Kagawa cohort challenges epidemiological inertness in a dose-response framework. The Raab microalgae paper and Walenta mushroom paper challenge the assumption that organoarsenical diversity is limited to the well-characterised marine-fish suite. The Sim seaweed paper challenges the assumption that plant-derived seafood ingredients are low in inorganic arsenic.
 
@@ -62,15 +64,20 @@ What the accumulation does support is a narrower claim: the inertness assumption
 
 The analytical implication is specific. Products formulated with microalgae-derived ingredients (spirulina, chlorella, algae protein, algae oil) and tested only for total arsenic are not fully characterised under the current state of the evidence, because total-arsenic measurement does not resolve the arsenolipid and inorganic-arsenic fractions that the studies above show can be substantial and toxicologically uncharacterised in these matrices. The EU 2023/915 seaweed iAs limit is the regulatory leading edge of this change, and its implementation is a signal of whether the "organic arsenic" exemption is narrowing in regulatory frameworks.
 
-## What this synthesis does not yet rest on
+### Anchor sources
 
-The most important gap is a controlled human in vivo feeding study directly measuring inorganic arsenic absorption from seafood. The Kagawa cohort provides an epidemiological signal but cannot distinguish arsenobetaine toxicity from confounding. The Liu digestion study provides a mechanism for in vitro As(V) generation but cannot establish the absorbed fraction in living subjects. Until an in vivo absorption study is conducted, the synthesis cannot state that arsenobetaine exposure contributes to inorganic arsenic body burden at measurable levels. The finding remains that the basis for assuming it does not is weaker than previously supposed.
+- [[sources/davydiuk2023-arsenosugars-methylation|Davydiuk et al. 2023]]. Critical review published 2023. Arsenosugars and arsenolipids from seafood catabolism produce urinary DMA independently of inorganic arsenic methylation efficiency, confounding biomonitoring studies that use urinary %DMA as an iAs methylation index in seafood-eating populations.
+- [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]]. In vitro gastrointestinal digestion study. Organic arsenicals in crab and scallop show a 2–3× increase in the inorganic As(V) fraction following simulated digestion via pH-dependent free radical oxidation. Speciation at consumption does not equal speciation at the point of absorption.
+- [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]]. J-MICC Daiko prospective cohort, n=2,709 Japanese adults. Serum total arsenic (98% arsenobetaine by population survey) is associated with dose-dependent hypertension risk after adjustment for fish consumption frequency and cardiovascular risk factors. Epidemiological signal anomalous under the inertness assumption.
+- [[sources/raab2024-arsenolipids-chlamydomonas|Raab et al. 2024]]. Analytical chemistry study of Chlamydomonas reinhardtii. First report of AsSugPhytol in any organism; 57% of total arsenic exists as arsenolipids. Implications for commercial microalgae-derived ingredients and standard total-arsenic measurement reliability.
+- [[sources/walenta2024-arsenic-speciation-mushrooms|Walenta et al. 2024]]. LC-ICP-MS speciation study of four mushroom species. Discovery of a novel arsenobetaine amide species previously unreported in any organism; extends organoarsenical diversity to terrestrial fungi.
+- [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]]. DoE-optimised HPLC-ICP-MS validation study. Laminaria digitata iAs exceeds 50% of total arsenic; recovery from hijiki CRM 99±9%. Seaweed is not a low-iAs matrix despite classification as a plant/algae ingredient.
+- [[sources/hull2023-arsenic-lake-foodweb|Hull et al. 2023]]. Foodweb arsenic study, Puget Sound legacy lakes. Sediment arsenic predicts fish iAs; inorganic arsenic fraction increases at lower trophic levels while organic arsenic enriches at higher trophic levels. Mechanistic trophic-transfer evidence showing iAs is the bioaccumulating fraction.
+- [[sources/sadee2023-arsenic-speciation-vegetables|Sadee et al. 2023]]. Review of arsenic speciation methods in vegetables. Contextualises the iAs vs organoarsenical distinction across non-marine food matrices and HPLC-ICP-MS analytical approaches.
 
-The Raab microalgae finding should be treated as organism-specific until replicated in commercial spirulina or chlorella products. Chlamydomonas reinhardtii is a model organism with growth conditions (laboratory culture, defined media) that may not reproduce the arsenolipid profile of commercially cultivated microalgae. The prevalence and identity of arsenolipids in commercial algae-ingredient matrices is an active research gap.
+## Interpretation
 
-The Kagawa cohort is Japanese. Arsenobetaine exposure from fish consumption is unusually high in Japanese adults relative to European or North American populations; the dose at which the epidemiological signal is detectable may not apply at lower seafood-consuming populations. Before extending the Kagawa finding to global recommendations, corroboration from a non-Japanese cohort with comparable arsenic speciation data would be necessary.
-
-## Implications for downstream wiki pages
+### Implications for downstream wiki pages
 
 [[ingredients/freshwater-fish]] should note in its arsenic coverage sub-block that biomonitoring studies from fish-eating populations that use urinary %DMA as a methylation index may underestimate inorganic arsenic exposure due to arsenosugar catabolism, and that total arsenic values in freshwater fish include both inorganic and organic fractions whose relative toxicological contributions are under active investigation.
 
@@ -84,18 +91,17 @@ Any future ingredient page created for microalgae-derived products (spirulina, c
 
 For the app model, ingredients flagged as primarily organic arsenic sources (fish, shellfish) should not receive a zero-risk modifier based solely on the organic classification; the app should model them as "arsenic speciation incompletely characterised for this matrix" and output uncertainty flags rather than dismissals.
 
-## Anchor sources
+## Uncertainty
 
-- [[sources/davydiuk2023-arsenosugars-methylation|Davydiuk et al. 2023]]. Critical review published 2023. Arsenosugars and arsenolipids from seafood catabolism produce urinary DMA independently of inorganic arsenic methylation efficiency, confounding biomonitoring studies that use urinary %DMA as an iAs methylation index in seafood-eating populations.
-- [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]]. In vitro gastrointestinal digestion study. Organic arsenicals in crab and scallop show a 2–3× increase in the inorganic As(V) fraction following simulated digestion via pH-dependent free radical oxidation. Speciation at consumption does not equal speciation at the point of absorption.
-- [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]]. J-MICC Daiko prospective cohort, n=2,709 Japanese adults. Serum total arsenic (98% arsenobetaine by population survey) is associated with dose-dependent hypertension risk after adjustment for fish consumption frequency and cardiovascular risk factors. Epidemiological signal anomalous under the inertness assumption.
-- [[sources/raab2024-arsenolipids-chlamydomonas|Raab et al. 2024]]. Analytical chemistry study of Chlamydomonas reinhardtii. First report of AsSugPhytol in any organism; 57% of total arsenic exists as arsenolipids. Implications for commercial microalgae-derived ingredients and standard total-arsenic measurement reliability.
-- [[sources/walenta2024-arsenic-speciation-mushrooms|Walenta et al. 2024]]. LC-ICP-MS speciation study of four mushroom species. Discovery of a novel arsenobetaine amide species previously unreported in any organism; extends organoarsenical diversity to terrestrial fungi.
-- [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]]. DoE-optimised HPLC-ICP-MS validation study. Laminaria digitata iAs exceeds 50% of total arsenic; recovery from hijiki CRM 99±9%. Seaweed is not a low-iAs matrix despite classification as a plant/algae ingredient.
-- [[sources/hull2023-arsenic-lake-foodweb|Hull et al. 2023]]. Foodweb arsenic study, Puget Sound legacy lakes. Sediment arsenic predicts fish iAs; inorganic arsenic fraction increases at lower trophic levels while organic arsenic enriches at higher trophic levels. Mechanistic trophic-transfer evidence showing iAs is the bioaccumulating fraction.
-- [[sources/sadee2023-arsenic-speciation-vegetables|Sadee et al. 2023]]. Review of arsenic speciation methods in vegetables. Contextualises the iAs vs organoarsenical distinction across non-marine food matrices and HPLC-ICP-MS analytical approaches.
+### What this synthesis does not yet rest on
 
-## How this page was promoted
+The most important gap is a controlled human in vivo feeding study directly measuring inorganic arsenic absorption from seafood. The Kagawa cohort provides an epidemiological signal but cannot distinguish arsenobetaine toxicity from confounding. The Liu digestion study provides a mechanism for in vitro As(V) generation but cannot establish the absorbed fraction in living subjects. Until an in vivo absorption study is conducted, the synthesis cannot state that arsenobetaine exposure contributes to inorganic arsenic body burden at measurable levels. The finding remains that the basis for assuming it does not is weaker than previously supposed.
+
+The Raab microalgae finding should be treated as organism-specific until replicated in commercial spirulina or chlorella products. Chlamydomonas reinhardtii is a model organism with growth conditions (laboratory culture, defined media) that may not reproduce the arsenolipid profile of commercially cultivated microalgae. The prevalence and identity of arsenolipids in commercial algae-ingredient matrices is an active research gap.
+
+The Kagawa cohort is Japanese. Arsenobetaine exposure from fish consumption is unusually high in Japanese adults relative to European or North American populations; the dose at which the epidemiological signal is detectable may not apply at lower seafood-consuming populations. Before extending the Kagawa finding to global recommendations, corroboration from a non-Japanese cohort with comparable arsenic speciation data would be necessary.
+
+### How this page was promoted
 
 This synthesis page was promoted on 2026-05-13 following P4 batch ingest sessions 10 and 11. The thread was first surfaced in the batch 10 close synthesis-proposals entry, where davydiuk2023, liu2023, and kagawa2023 were identified as a three-paper cluster challenging the organoarsenical inertness assumption from distinct methodological directions. Batch 11 added raab2024, walenta2024, and sim2024, extending the thread from marine fish into microalgae, mushrooms, and seaweed and resolving the borderline status of criterion 2 (spanning multiple matrices and products). The synthesis-proposals entry was upgraded to all-4-criteria-met after batch 11 closed, and Karen approved direct promotion. Eight A-tier anchor sources, three independent research traditions (biomonitoring, analytical chemistry, epidemiology), and three food matrix types (seafood, fungi, microalgae/seaweed) support the thesis at promotion. The synthesis is provisional; it does not assert arsenobetaine toxicity, only that the evidence base for the inertness assumption has weakened in specific and documented ways. Re-synthesis is expected when an in vivo human feeding study establishes or fails to establish iAs absorption from seafood, or when a non-Japanese cohort replicates or fails to replicate the Kagawa hypertension signal.
 
@@ -134,9 +140,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 8 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

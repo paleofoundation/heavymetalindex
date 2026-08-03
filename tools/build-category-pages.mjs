@@ -12,6 +12,7 @@
 // lean grid of cards from data/category-index.json (this script's other output),
 // each linking OUT to a section page.
 
+import crypto from "node:crypto"
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
@@ -117,6 +118,7 @@ function writeProductPages(groups) {
       // subcategories one level down gives the screen v3's shape and costs
       // nothing: the same headings, the same links, the same order.
       `## Overview\n\nProduct pages in **${g.label}**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.\n\n` +
+      metalsSection(g) +
       `## Subcategories\n\n`
     for (const s of g.subs) {
       // A subcategory with a single product IS that product — render it as a
@@ -130,7 +132,7 @@ function writeProductPages(groups) {
       }
     }
     fs.writeFileSync(path.join(dir, `${g.slug}.md`), body)
-    recordEdit(`wiki/products/categories/${g.slug}.md`, "hmi-category-index")
+    recordEdit(`wiki/products/categories/${g.slug}.md`, "hmi-category-index", body)
   }
   return groups.length
 }
@@ -319,9 +321,15 @@ const auditSeen = new Set(
     : [],
 )
 const auditRows = []
-function recordEdit(pageRelPath, spanId) {
+function recordEdit(pageRelPath, spanId, content) {
   const day = new Date().toISOString().slice(0, 10)
-  const edit_id = `category-pages:${pageRelPath}:${day}`
+  // Keyed by CONTENT, not just the date. A date-only key made the recorder
+  // idempotent in the wrong direction: re-running after a real change to the
+  // page emitted no new row, so the pre-commit guard saw wiki edits with no
+  // provenance and blocked the commit. The hash means an unchanged page stays
+  // silent and a changed page always records.
+  const hash = crypto.createHash("sha256").update(content ?? "").digest("hex").slice(0, 12)
+  const edit_id = `category-pages:${pageRelPath}:${hash}`
   if (auditSeen.has(edit_id)) return
   auditSeen.add(edit_id)
   auditRows.push({
@@ -342,6 +350,89 @@ function flushAudit() {
   fs.mkdirSync(path.dirname(AUDIT), { recursive: true })
   fs.appendFileSync(AUDIT, auditRows.map((r) => JSON.stringify(r)).join("\n") + "\n")
   return auditRows.length
+}
+
+
+// ── metals measured in this category's literature ────────────────────────────
+// v3's category screen carries "Metals that govern this category".
+//
+// The obvious input is each product page's `panel_metals`, and that would be a
+// FIREWALL VIOLATION: panel_metals is the HMT&C certification analyte panel, a
+// program decision, and rendering it on heavymetalindex.com under those words
+// would state a certification choice as an evidence conclusion (CLAUDE.md Part
+// 2, "strengthening" direction).
+//
+// This reads the literature instead: the routing audit maps every source to the
+// product pages it reports on, and each source page declares the metals it
+// measured. The section therefore says what the corpus MEASURED for this
+// category, with the number of sources behind each metal, which is a statement
+// about the evidence and not about any certification programme.
+
+// Renders the section, or nothing at all when the corpus has not been read for
+// this category. An empty "Metals that govern this category" would read as "no
+// metals are a concern here", which is a far stronger claim than "nobody has
+// routed sources to this category yet".
+function metalsSection(g) {
+  const bucket = CATEGORY_METALS.get(g.slug)
+  if (!bucket || bucket.size === 0) return ""
+  const ranked = [...bucket.entries()]
+    .map(([metal, srcs]) => ({ metal, n: srcs.size }))
+    .sort((a, b) => b.n - a.n || a.metal.localeCompare(b.metal))
+    .slice(0, 10)
+  const total = ranked.reduce((n, r) => Math.max(n, r.n), 0)
+  let out =
+    `## Metals that govern this category\n\n` +
+    `The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.\n\n` +
+    `| Metal | Sources reporting it |\n| --- | --- |\n`
+  for (const r of ranked) out += `| ${r.metal} | ${r.n} |\n`
+  out += `\n_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; ${total} sources at the deepest metal._\n\n`
+  return out
+}
+
+function metalsByCategory(groups) {
+  const auditPath = path.join(ROOT, "data", "evidence", "product_source_routing_audit.csv")
+  if (!fs.existsSync(auditPath)) return new Map()
+  const text = fs.readFileSync(auditPath, "utf8").split("\n")
+  const header = (text.shift() ?? "").split(",")
+  const iProd = header.indexOf("product_slug")
+  const iSrc = header.indexOf("source_page")
+  if (iProd < 0 || iSrc < 0) return new Map()
+
+  // product slug -> category slug
+  const catOf = new Map()
+  for (const g of groups) for (const sub of g.subs) for (const m of sub.members) catOf.set(m.slug.split("/").pop(), g.slug)
+
+  const metalCache = new Map()
+  const metalsOfSource = (rel) => {
+    if (!rel) return []
+    const file = rel.endsWith(".md") ? rel : `${rel}.md`
+    if (metalCache.has(file)) return metalCache.get(file)
+    const abs = path.join(ROOT, file)
+    let out = []
+    if (fs.existsSync(abs)) {
+      const m = fs.readFileSync(abs, "utf8").match(/^metals:\s*\[([^\]]*)\]/m)
+      if (m) out = m[1].split(",").map((x) => x.trim()).filter(Boolean)
+    }
+    metalCache.set(file, out)
+    return out
+  }
+
+  // category -> metal -> set of source pages (distinct sources, not rows)
+  const byCat = new Map()
+  for (const line of text) {
+    if (!line.trim()) continue
+    const cols = line.split(",")
+    const cat = catOf.get((cols[iProd] ?? "").trim().split("/").pop())
+    if (!cat) continue
+    const src = (cols[iSrc] ?? "").trim()
+    if (!byCat.has(cat)) byCat.set(cat, new Map())
+    const bucket = byCat.get(cat)
+    for (const metal of metalsOfSource(src)) {
+      if (!bucket.has(metal)) bucket.set(metal, new Set())
+      bucket.get(metal).add(src)
+    }
+  }
+  return byCat
 }
 
 // ------------------------------------------------------------ portal page
@@ -381,11 +472,12 @@ function writePortalPage(groups) {
     `\n## How categories are built\n\n` +
     `Category membership comes from each product page's own declared taxonomy, not from an editorial list kept alongside it, so a page joins or leaves a category by changing its own frontmatter and the grouping cannot drift from the pages it describes. Counts on this page are the number of subcategory pages currently routed to each category; they are a measure of coverage in the corpus, not of how many products exist in the market. A category with few pages means the reading is thin there, not that the category is small.\n`
   fs.writeFileSync(path.join(dir, "index.md"), body)
-  recordEdit("wiki/products/categories/index.md", "hmi-portal-index")
+  recordEdit("wiki/products/categories/index.md", "hmi-portal-index", body)
   return sorted.length
 }
 
 // ------------------------------------------------------------ write + index JSON
+const CATEGORY_METALS = metalsByCategory(productGroups)
 const pWritten = writeProductPages(productGroups)
 const iWritten = writeIngredientPages(ingredientGroups)
 const sWritten = writeSourceRegionPages(sourceGroups)

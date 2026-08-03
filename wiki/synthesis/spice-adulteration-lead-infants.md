@@ -25,7 +25,9 @@ updated: 2026-05-13
 
 The wiki's corpus of heavy metal contamination in food is dominated by agricultural uptake mechanisms: arsenic in flooded paddy soils, cadmium in volcanic-origin cocoa-growing soils, mercury biomagnification in aquatic food chains. These are biogeochemical processes that respond to agronomic, processing, and formulation interventions. Spice adulteration with lead chromate is fundamentally different. It is a deliberate introduction of an industrial pigment into the food supply, driven by market incentives and enabled by regulatory gaps, and it reaches the highest-concern demographic (infants and toddlers) through processed food products that parents purchase with the expectation of safety.
 
-## The mechanism
+## Evidence base
+
+### The mechanism
 
 Lead chromate (PbCrO4) is among the cheapest and most widely available yellow industrial pigments globally. It is used in paints, plastics, and industrial coatings. In the turmeric supply chain across South Asia, polishers add PbCrO4-based yellow pigments to dried turmeric roots during the polishing process to enhance color, compensate for poor-quality roots, and reduce polishing time. Forsyth et al. documented through 152 interviews across the Bangladesh turmeric supply chain that this practice has persisted for more than thirty years, catalyzed by a 1988 flood that damaged turmeric crop quality and by rising imports of brighter-colored Indian turmeric that set consumer color expectations ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Forsyth 2019]]). The practice is not clandestine; polishers openly discuss it, and yellow pigment waste bags are visible at polishing mills. None of the 43 polishers interviewed were aware that the pigments contained lead.
 
@@ -33,7 +35,7 @@ The diagnostic fingerprint is the molar ratio of lead to chromium. Environmental
 
 The same deliberate-adulteration mechanism operates in other spice supply chains. The WanaBana cinnamon applesauce recall, documented by the CDC in a Morbidity and Mortality Weekly Report, identified lead chromate as the contaminant in cinnamon used in applesauce pouches marketed to infants and toddlers. Lead concentrations in the cinnamon reached 1.9-3.0 ppm (1,900-3,000 ppb), and 566 children were identified with elevated blood lead levels, with a median BLL of 7.2 µg/dL and a range of 3.5-39.3 µg/dL. Fifty-five percent of cases were in children under two years of age ([[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]]).
 
-## The scale
+### The scale
 
 The most comprehensive prevalence estimate comes from a PRISMA-ScR scoping review synthesizing 48 publications and 2,235 commercial turmeric samples from 22 countries across six continents ([[sources/gafner2026-turmeric-adulteration-six-continents|Gafner 2026]]). The overall adulteration rate is 20.0% (448/2,235). One in five commercial turmeric products tested worldwide is adulterated by some mechanism, whether toxic colorants, undeclared bulking agents, species substitution, or synthetic curcumin. The rate is similar across market channels: 20.4% for turmeric sold as spice (n=1,767) and 22.0% for dietary supplements and herbal medicines (n=332).
 
@@ -49,11 +51,11 @@ Critically, the contamination reaches US consumers. A survey of 127 ground turme
 
 Independent epidemiological evidence from the Republic of Georgia confirms spice consumption as a Pb exposure vector beyond the South Asian supply chain context. Among 1,635 Georgian children aged 5-7 years, spice use was an independent predictor of elevated blood lead levels (OR approximately 1.47), with 39.8% of children having BLL at or above 3.5 µg/dL ([[sources/rylander2025-georgia-children-blood-lead|Rylander 2025]]).
 
-## Enforcement works: the Bangladesh case
+### Enforcement works: the Bangladesh case
 
 The most significant finding in the Gafner 2026 review for regulatory audiences is the Bangladesh enforcement success story. Following publication of the Forsyth 2019 supply chain investigation linking lead chromate adulteration to elevated blood lead levels in rural Bangladesh, the Bangladesh Food Safety Authority implemented a coordinated intervention: declared turmeric adulteration a prosecutable act, imposed fines on traders found treating turmeric with lead-containing dyes, deployed handheld XRF analyzers to field-test turmeric for lead and chromium at markets and mills, and conducted educational campaigns warning consumers, traders, and polishers about the health consequences of lead in food. The result was rapid and measurable: lead-contaminated turmeric samples dropped from 47% in 2019, to 5% in early 2020, to 2.3% in fall 2020, to 0% in early 2021 (Forsyth et al. 2023, cited in [[sources/gafner2026-turmeric-adulteration-six-continents|Gafner 2026]]). This is the strongest documented case in the wiki's corpus of a regulatory intervention producing near-complete elimination of a specific contamination mechanism within two years. The implication is that deliberate adulteration, unlike biogeochemical contamination, is tractable through enforcement if the political will and field-testing infrastructure exist.
 
-## Why this is distinct from other contamination pathways
+### Why this is distinct from other contamination pathways
 
 Three properties distinguish spice adulteration from the agricultural contamination mechanisms that dominate the rest of the wiki.
 
@@ -63,7 +65,7 @@ Second, the concentration magnitudes are orders of magnitude higher than agricul
 
 Third, the pathway bypasses agricultural mitigation entirely. Soil amendments, water management, cultivar selection, processing controls, and formulation dilution are the levers the wiki documents for agricultural heavy metal contamination. None of these apply to deliberate adulteration with an industrial chemical. The only effective levers are supply-chain testing at ingredient intake and supplier qualification that traces spice origin and processing history.
 
-## Implications for risk management
+### Implications for risk management
 
 Any food product containing turmeric, cinnamon, or other spices carries a Pb risk that is categorically different from the agricultural risks the rest of the wiki addresses. The risk cannot be managed by sourcing from "clean" agricultural regions or by processing interventions, because the adulteration is episodic, geographically variable, and invisible to visual inspection. The only documented effective control points are Pb testing of incoming spice material and supplier qualification that traces spice origin and processing history. The WanaBana recall demonstrates the consequence of not testing: 566 documented cases of childhood lead poisoning from a single product line.
 
@@ -71,7 +73,7 @@ For regulators, FDA Import Alert 99-42 has been active since the 1990s, yet US r
 
 For educators, spice adulteration is the clearest case study in the corpus of a non-agricultural contamination mechanism. The contrast with soil-uptake pathways is pedagogically useful: it demonstrates that "heavy metals in food" is not synonymous with "heavy metals in soil and water," and that the contamination landscape includes deliberate human decisions driven by market incentives.
 
-## Open questions
+### Open questions
 
 Whether other spice supply chains (chili pepper, paprika, saffron) carry the same PbCrO4 adulteration risk is not yet documented in the corpus at the same evidence level as turmeric and cinnamon. The Gafner 2026 review notes that natural colorants including paprika and chili powders are themselves used as turmeric adulterants, which suggests overlapping supply chain vulnerabilities but does not document lead chromate adulteration in those spice supply chains independently.
 
@@ -124,9 +126,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

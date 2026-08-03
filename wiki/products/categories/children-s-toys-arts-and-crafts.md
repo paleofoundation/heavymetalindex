@@ -11,6 +11,25 @@ description: Products in the Children's Toys, Arts, and Crafts category (22), by
 
 Product pages in **Children's Toys, Arts, and Crafts**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 33 |
+| Cd | 28 |
+| Cr | 13 |
+| tAs | 12 |
+| tHg | 12 |
+| Sb | 11 |
+| Ni | 10 |
+| Co | 7 |
+| Sn | 7 |
+| Cu | 6 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 33 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/toys-painted|General toys with paint/surface coatings]]

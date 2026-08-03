@@ -11,6 +11,25 @@ description: Products in the Infant and Child Personal Care category (16), by su
 
 Product pages in **Infant and Child Personal Care**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 34 |
+| Cd | 27 |
+| tAs | 22 |
+| Cr | 20 |
+| tHg | 20 |
+| Ni | 19 |
+| Co | 16 |
+| Zn | 14 |
+| Cu | 12 |
+| Sb | 11 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 34 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/baby-lotion-cream|Baby lotion and cream]]

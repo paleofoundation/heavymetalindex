@@ -11,6 +11,25 @@ description: Products in the Culinary Oils and Fats category (2), by subcategory
 
 Product pages in **Culinary Oils and Fats**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Cd | 29 |
+| Pb | 28 |
+| Cu | 25 |
+| Fe | 19 |
+| tAs | 19 |
+| Zn | 19 |
+| Ni | 18 |
+| Cr | 15 |
+| Mn | 10 |
+| Co | 9 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 29 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/olive-oil|Olive oil]]

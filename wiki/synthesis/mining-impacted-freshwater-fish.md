@@ -22,7 +22,9 @@ This synthesis is about the contamination driver and its geographic scope. The s
 
 The finding extends beyond mercury. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] documents Nile tilapia from the El-Rayah El-Tawfeeky industrial-effluent canal in the Eastern Delta of Egypt with simultaneous Pb 33.4 mg/kg, Cd 2.3 mg/kg, and Hg 10.4 mg/kg — extreme multi-metal co-elevation at orders of magnitude beyond every applicable food-safety limit. The multi-metal finding shifts the synthesis from a mercury-only story to a "freshwater fish from contaminated systems carry whatever the watershed inherits" story.
 
-## The artisanal and small-scale gold mining (ASGM) driver
+## Evidence base
+
+### The artisanal and small-scale gold mining (ASGM) driver
 
 Three independent ASGM-impacted regions document the same pattern: dissolved inorganic mercury entering freshwater from mercury amalgamation in informal gold mining is methylated in stream and sediment microbial communities and biomagnifies into the top-predator freshwater fish that local subsistence and small-commercial fisheries harvest.
 
@@ -34,13 +36,13 @@ Three independent ASGM-impacted regions document the same pattern: dissolved ino
 
 The mechanistic case for ASGM-driven contamination is well-established: amalgamation releases dissolved Hg(II) to water; methylation occurs in anaerobic sediment and biofilm microbial communities (the methylating taxa, principally sulfate-reducing and iron-reducing bacteria, are now mechanistically characterized in [[sources/zhou2025-microbial-methylmercury-rice-china|Zhou 2025]] for paddy systems and the same methylator clades operate in mining-impacted river sediments); MeHg accumulates upward through aquatic food webs with biomagnification factors of approximately 10× per trophic level; top-predator carnivorous freshwater fish reach concentrations 10⁴ to 10⁶ above water-column dissolved MeHg.
 
-## The industrial-pollution driver (multi-metal)
+### The industrial-pollution driver (multi-metal)
 
 [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] is the load-bearing source for the multi-metal extension of the synthesis. The El-Rayah El-Tawfeeky canal in the Eastern Delta of Egypt drains industrial effluent from textile, metallurgical, and chemical-processing facilities; Nile tilapia from this canal exhibit Pb 33.4 mg/kg, Cd 2.3 mg/kg, Hg 10.4 mg/kg, plus elevated Cr and Ni — Pb, Cd, Hg, Cr, and Ni co-elevated by factors of 10 to 1000 above any applicable food-safety limit. The dataset establishes the multi-metal nature of the freshwater-fish-from-contaminated-systems story: it is not specifically a Hg story; it is a "freshwater fish accumulates whatever the watershed receives" story, and the contamination source can be ASGM (mercury-dominant), industrial discharge (multi-metal), or mining-and-smelting legacy (the Almadén Spain case).
 
 [[sources/barquero2024-almaden-freshwater-bass-mercury|Barquero et al. 2024]] documents tHg up to 7.61 mg/kg in freshwater bass from the Almadén mercury-mine district of Spain, the world's historically largest cinnabar mine. The Almadén finding extends the synthesis to Europe and adds the legacy-mining mechanism: even decades after active mining ceases, mercury inventories in soils, sediments, and watershed runoff continue to feed methylation pathways and biomagnify into local fish populations. The legacy-contamination time horizon is the salient element here: a system contaminated by mining in the 19th or 20th century continues to deliver elevated fish Hg in the 21st century, so historical mining cessation does not by itself indicate current safety of fish sourced from that watershed.
 
-## The dam and impoundment driver
+### The dam and impoundment driver
 
 Two independent studies document that dam impoundment alters freshwater biogeochemistry sufficiently to produce a mining-equivalent fish-MeHg elevation through a different mechanism.
 
@@ -48,7 +50,7 @@ Two independent studies document that dam impoundment alters freshwater biogeoch
 
 [[sources/leclerc2023-methylmercury-periphyton-river|Leclerc et al. 2023]], published in Environmental Science & Technology, sampled periphyton biofilms and benthic food webs at a Québec run-of-river hydroelectric installation on the St. Maurice River. The MeHg-to-tHg ratio in impounded reaches was 2.9 times higher than in adjacent free-flowing reaches; periphyton biofilms function as MeHg-production hotspots that feed the benthic invertebrate community and biomagnify upward. The Québec finding is mechanistically distinct from the Almadén legacy-mining and the Colombian ASGM mechanisms but produces the same downstream-fish endpoint: a freshwater system altered by human infrastructure (mining, smelting, or impoundment) carries elevated fish MeHg compared with hydrologically unaltered systems.
 
-## The US baseline (Stahl 2023, Lepak 2023)
+### The US baseline (Stahl 2023, Lepak 2023)
 
 [[sources/stahl2023-us-river-fish-mercury|Stahl et al. 2023]], published in Science of the Total Environment, reports the EPA National Rivers and Streams Assessment characterization of mercury in fish fillets from 353 US river sites (2013-14) and 290 sites (2018-19) under a statistically representative probability-based survey design. All sampled fillets contained detectable mercury; applying EPA fish-tissue screening levels, 23.5 to 26.0 percent of the sampled river-kilometer population contained fish with mercury concentrations above levels protective of human health for average-fish-consumer reference groups. The fraction is nearly unchanged across the five-year resampling interval, indicating no material national improvement.
 
@@ -56,7 +58,7 @@ Two independent studies document that dam impoundment alters freshwater biogeoch
 
 The US baseline finding is the load-bearing reality check on the geographic scope of the finding: this is not an emerging-market or developing-country contamination story. The United States, with its mature environmental-monitoring infrastructure, EPA mercury rule, Clean Water Act, and decades of mercury-emission reduction policy, has approximately one in four river fish populations carrying mercury above human-health-protective levels for average consumers. The framing that "fish advisories handle this" is empirically inconsistent with the national-probability dataset.
 
-## The convergent point
+### The convergent point
 
 Ten anchor sources across six continents document that:
 
@@ -70,7 +72,7 @@ Fourth, the contamination is durable. Legacy-mining systems (Almadén) deliver e
 
 Fifth, the regulatory framework operates in the wrong unit. National and international fish-advisory frameworks (FDA, EPA, EFSA, JECFA) average across commercial-fishery supply chains and produce population-mean consumption recommendations that do not protect individuals whose fish supply comes preferentially from a mining-impacted, industrial-polluted, or impounded system.
 
-## Implications for risk characterization
+### Implications for risk characterization
 
 The synthesis bears on how freshwater-fish heavy-metal risk is characterized at the source-water level rather than only at the finished-product level.
 
@@ -82,21 +84,13 @@ On consumer exposure: freshwater fish from artisanal-gold-mining regions, indust
 
 On testing granularity: a single fish sample passing a product-level Hg test from a high-MeHg-production watershed is uninformative about the lot-to-lot distribution, because watershed-driven MeHg production is heterogeneous across lots; watershed-history information therefore adds characterization that product-level testing alone does not provide.
 
-## The relationship to the subsistence-fishing synthesis
+### The relationship to the subsistence-fishing synthesis
 
 The [[synthesis/subsistence-fishing-mehg-disparity]] synthesis identifies the vulnerable population. This synthesis identifies the contamination driver and the geographic scope of the driver. Together they make the full case: mining-impacted, industrial-polluted, and impounded freshwater systems globally produce elevated multi-metal freshwater fish; subsistence-fishing populations are the consumers most exposed because they cannot diversify away from local catch; the commercial-market regulatory framework cannot reach either population because its denominator and numerator are both calibrated against a different cohort. The two synthesis pages should be read together; the wiki's [[overview]] should reference them as a paired finding.
 
-## What this synthesis does not yet rest on
+## Interpretation
 
-A single peer-reviewed ASGM dataset reporting multi-metal co-elevation (Pb or Cd alongside Hg) in a fish from an active ASGM region would close the cleanest version of the multi-metal criterion. The Shaalan 2024 industrial-pollution case carries the multi-metal claim adequately for the synthesis, but the parallel finding in an ASGM context would tighten the geographic-driver alignment. The synthesis-proposals queue should remain open for such a paper.
-
-A third ASGM continent (Asia or Oceania) is not yet represented in the corpus. The Philippines, Indonesia, and Papua New Guinea each host substantial ASGM operations with known mercury-emission inventories; adding even one peer-reviewed fish-Hg dataset from those regions would generalize the ASGM signal across all populated continents.
-
-The reservoir-impoundment-MeHg literature has substantial coverage outside the two anchors used here (Willacker 2023 and Leclerc 2023). Three to five additional impoundment studies from Brazil, Canada, Russia, and China would harden the dam-driver component of the synthesis.
-
-A formal meta-analysis or pooled-effect estimate combining the geographic mining-impact studies is not in the corpus and would be the natural Journal of Food Metallomics output building on the wiki's source layer.
-
-## Implications for downstream wiki pages
+### Implications for downstream wiki pages
 
 [[ingredients/freshwater-fish]] should carry this synthesis as the load-bearing reference for the watershed-provenance dimension of the freshwater-fish ingredient profile, with the per-driver mechanism explanation (ASGM, industrial pollution, legacy mining, dam impoundment) as a structural feature of the page.
 
@@ -110,7 +104,19 @@ A formal meta-analysis or pooled-effect estimate combining the geographic mining
 
 The wiki's [[overview]] should pair this synthesis with [[synthesis/subsistence-fishing-mehg-disparity]] as a load-bearing finding about freshwater fish heavy metals.
 
-## Provisional status
+## Uncertainty
+
+### What this synthesis does not yet rest on
+
+A single peer-reviewed ASGM dataset reporting multi-metal co-elevation (Pb or Cd alongside Hg) in a fish from an active ASGM region would close the cleanest version of the multi-metal criterion. The Shaalan 2024 industrial-pollution case carries the multi-metal claim adequately for the synthesis, but the parallel finding in an ASGM context would tighten the geographic-driver alignment. The synthesis-proposals queue should remain open for such a paper.
+
+A third ASGM continent (Asia or Oceania) is not yet represented in the corpus. The Philippines, Indonesia, and Papua New Guinea each host substantial ASGM operations with known mercury-emission inventories; adding even one peer-reviewed fish-Hg dataset from those regions would generalize the ASGM signal across all populated continents.
+
+The reservoir-impoundment-MeHg literature has substantial coverage outside the two anchors used here (Willacker 2023 and Leclerc 2023). Three to five additional impoundment studies from Brazil, Canada, Russia, and China would harden the dam-driver component of the synthesis.
+
+A formal meta-analysis or pooled-effect estimate combining the geographic mining-impact studies is not in the corpus and would be the natural Journal of Food Metallomics output building on the wiki's source layer.
+
+### Provisional status
 
 This synthesis was established 2026-05-16 on ten anchor sources spanning six continents and three contamination drivers. The geographic scope is robust; the multi-metal claim rests on Shaalan 2024 as a single industrial-pollution anchor with additional support from the Almadén legacy-mining literature; the mechanism rests on well-established freshwater-microbiology literature plus the recent Zhou 2025 paddy-microbial-methylation mechanistic anchor. Resynthesis triggers fire on the next two independent A-tier sources adding multi-metal ASGM coverage, a third ASGM continent, or a formal pooled-effect estimate across the geographic dataset.
 
@@ -149,9 +155,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 9 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

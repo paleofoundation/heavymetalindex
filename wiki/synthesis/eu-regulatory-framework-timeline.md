@@ -20,7 +20,9 @@ The European Union's enforceable heavy-metal maximum levels in foodstuffs have e
 
 Every wiki source page in the wiki that names an "EU maximum level" for Pb, Cd, Hg, iAs, or Sn in food traces to one of the six instruments below. When working downstream from a source citation, identify which point in the timeline the source's regulatory comparison anchors against; this matters because the limits changed substantially between framework versions, and a paper citing "the EU 0.1 mg/kg Pb limit for infant foods" may be referencing the EC 1881/2006 value, the 2021/1317 amendment value, or the 2023/915 recast value — each requires the matching regulation page citation.
 
-## The six instruments
+## Evidence base
+
+### The six instruments
 
 **1. Commission Regulation (EC) No 466/2001 (effective March 2001, superseded December 2006).** The original EU-wide harmonized contaminants framework, replacing the older patchwork of member-state-specific maximum levels. Established baseline maximum levels for Pb, Cd, Hg, and others across major food matrices. Operated for five years before being recast by EC 1881/2006. See [[regulations/eu-466-2001-contaminants-superseded]]. Sources published 2001-2006 may cite this regulation.
 
@@ -37,7 +39,7 @@ See [[regulations/eu-1881-2006-contaminants-superseded]] for the consolidated fi
 
 **3. Commission Regulation (EU) 2023/915 (effective May 2023, current).** The full recast superseding EC 1881/2006 in its entirety. Substantively, most maximum levels carried forward unchanged from the final amended EC 1881/2006 framework; the recast was primarily a structural reorganization. See [[regulations/eu2023-contaminants-maximum-levels]]. New per-metal companion regulation pages in the wiki track specific recast sections: [[regulations/eu-2023-915-cadmium]] (Cd), [[regulations/eu-2023-915-lead-infant-young-child-foods]] (Pb in infant foods specifically).
 
-## How source pages cite this timeline
+### How source pages cite this timeline
 
 A source page citing "the EU Pb maximum level for infant foods" can mean different things depending on publication year:
 
@@ -49,13 +51,31 @@ A source page citing "the EU Pb maximum level for infant foods" can mean differe
 
 The numerical limit cited may be identical across multiple framework versions (Pb 0.020 mg/kg in processed cereal-based infant foods was 2021/1317 and remains in EU 2023/915), or different (Pb 0.020 mg/kg today vs higher values pre-2021). The wiki's source-page convention is to cite the regulation page version active when the source was published, and to update to the current framework reference when downstream synthesis work cites the value.
 
-## Current operative framework versus historical caps
+### Current operative framework versus historical caps
 
 The current operative EU framework is EU 2023/915 (with EU 2022/617 governing mercury in fishery products specifically). When a downstream synthesis compares a measured concentration against the current binding EU maximum level, the relevant value is the one in the current operative framework, regardless of when the contributing measurement was published. A pre-2023 source's reported value remains valid as evidence; the regulatory cap that source compared against is historical context, not the current binding limit.
 
 The historical EU caps from pre-recast frameworks (EC 1881/2006, EC 466/2001) are superseded. They are accurate as the regulatory context the source authors compared against at the time of publication, but they are not the current operative maximum levels. When synthesis work needs the current binding EU cap for a given matrix and analyte, it cites the current-framework regulation page ([[regulations/eu2023-contaminants-maximum-levels]], or [[regulations/eu-reg-2022-617-mercury-fishery]] for fish Hg); when it needs the value a particular pre-recast source compared against, it cites the historical regulation page active at that source's publication date.
 
-## What this synthesis does not yet rest on
+### Anchor sources (regulation pages)
+
+- [[regulations/eu-466-2001-contaminants-superseded]] — 2001 original framework.
+- [[regulations/eu-1881-2006-contaminants-superseded]] — 2006 successor; 16-year operative framework with multiple amendments.
+- [[regulations/eu-2021-1317-lead-cereals-superseded]] — 2021 Pb amendment.
+- [[regulations/eu-2021-1323-cadmium-cereals-superseded]] — 2021 Cd amendment.
+- [[regulations/eu-reg-2022-617-mercury-fishery]] — 2022 Hg-fish amendment (current).
+- [[regulations/eu2023-contaminants-maximum-levels]] — 2023 full recast (current).
+
+## Interpretation
+
+### Downstream pages updated
+
+- All six EU regulation pages cross-reference this synthesis: [[regulations/eu-466-2001-contaminants-superseded]], [[regulations/eu-1881-2006-contaminants-superseded]], [[regulations/eu-reg-2022-617-mercury-fishery]], [[regulations/eu-2021-1317-lead-cereals-superseded]], [[regulations/eu-2021-1323-cadmium-cereals-superseded]], [[regulations/eu2023-contaminants-maximum-levels]].
+- Source pages citing pre-2023 EU caps should reference the relevant historical regulation page; this synthesis page is the connector that helps citation work locate the correct framework version.
+
+## Uncertainty
+
+### What this synthesis does not yet rest on
 
 This synthesis page is structural (the timeline of regulatory instruments) rather than empirical (what the limits actually were at each point). The numerical limits for each instrument are documented on the individual regulation pages linked above; this synthesis page should NOT enumerate them (avoiding stale-data drift if the regulation pages get updated). When a wiki claim needs a specific EU cap value, cite the regulation page, not this synthesis.
 
@@ -65,21 +85,7 @@ Future expansion candidates:
 - **Comparison with US (FDA action levels) and Codex (CODEX STAN 193-1995) frameworks.** The EU framework is one of three major heavy-metal regulatory systems globally; cross-framework comparison synthesis would clarify how the same matrix and analyte are regulated across multi-jurisdictional markets but is out of scope for this single-EU-focused page.
 - **Pre-2001 member-state-specific frameworks** (German contaminant levels, French AFSSA limits, UK FSA guidance) that EC 466/2001 harmonized. Only relevant for very old sources (1990s and earlier).
 
-## Downstream pages updated
-
-- All six EU regulation pages cross-reference this synthesis: [[regulations/eu-466-2001-contaminants-superseded]], [[regulations/eu-1881-2006-contaminants-superseded]], [[regulations/eu-reg-2022-617-mercury-fishery]], [[regulations/eu-2021-1317-lead-cereals-superseded]], [[regulations/eu-2021-1323-cadmium-cereals-superseded]], [[regulations/eu2023-contaminants-maximum-levels]].
-- Source pages citing pre-2023 EU caps should reference the relevant historical regulation page; this synthesis page is the connector that helps citation work locate the correct framework version.
-
-## Anchor sources (regulation pages)
-
-- [[regulations/eu-466-2001-contaminants-superseded]] — 2001 original framework.
-- [[regulations/eu-1881-2006-contaminants-superseded]] — 2006 successor; 16-year operative framework with multiple amendments.
-- [[regulations/eu-2021-1317-lead-cereals-superseded]] — 2021 Pb amendment.
-- [[regulations/eu-2021-1323-cadmium-cereals-superseded]] — 2021 Cd amendment.
-- [[regulations/eu-reg-2022-617-mercury-fishery]] — 2022 Hg-fish amendment (current).
-- [[regulations/eu2023-contaminants-maximum-levels]] — 2023 full recast (current).
-
-## How this page was promoted
+### How this page was promoted
 
 Established 2026-05-18 after Codex created the EC 466/2001 page (and Karen + Claude created the EC 1881/2006 page, the EU 2022/617 page, the EU 2021/1317 + 1323 pages, and the EU 2023/915 page). With six EU regulation pages now in the wiki, the timeline connecting them needed dedicated synthesis-page treatment to prevent citation work from picking the wrong framework version.
 

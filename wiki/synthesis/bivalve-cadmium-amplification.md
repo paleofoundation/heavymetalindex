@@ -20,7 +20,9 @@ Cadmium concentrations in bivalve molluscs (mussels, clams, oysters, scallops) a
 
 Because the bivalve and finfish cadmium distributions are separated by one-to-two orders of magnitude, a single cadmium concentration threshold applied across the whole seafood category is not scientifically supportable: a threshold set near the finfish distribution would exclude nearly all bivalves regardless of how clean the source water is, while a threshold set near the bivalve distribution would fall well above the finfish distribution and discriminate poorly among finfish. EU regulation reflects this by setting separate per-category cadmium ceilings, and the bivalve-specific evidence base is the appropriate reference distribution for any bivalve cadmium benchmark.
 
-## The bivalve-finfish Cd differential
+## Evidence base
+
+### The bivalve-finfish Cd differential
 
 Across the wiki's seafood-axis evidence base, the Cd concentration pattern is:
 
@@ -31,7 +33,7 @@ Across the wiki's seafood-axis evidence base, the Cd concentration pattern is:
 
 The 10-100× differential between finfish-muscle Cd and bivalve Cd is consistent across all geographies and seasons in the wiki's evidence corpus. This is not measurement noise; it is a biological feature of filter feeding.
 
-## The mechanism
+### The mechanism
 
 Bivalves feed by pumping seawater through their gills and trapping suspended particles and dissolved organic matter for ingestion. Filtration rates are species- and size-dependent but typically range 1-5 liters per hour per individual; an adult mussel can process 50-100 liters per day, an adult oyster substantially more. Dissolved Cd (Cd²⁺ ion and Cd-bound organic complexes in seawater) and particulate Cd (Cd adsorbed to suspended phytoplankton, detritus, and inorganic colloids) are both extracted across the gill epithelium and transported to the digestive gland, gill, and mantle tissue.
 
@@ -39,7 +41,7 @@ Cd uptake in bivalves is non-regulated at the cellular level — metallothionein
 
 Cephalopods are not filter feeders, but they accumulate Cd through prey consumption and their high metabolic rate concentrates dietary Cd in muscle and viscera. The digestive gland (hepatopancreas) is the primary Cd accumulation site, which is why EU regulation excludes "without viscera" from the cephalopod Cd cap.
 
-## The Pb and Hg comparison (for completeness)
+### The Pb and Hg comparison (for completeness)
 
 Pb in bivalves and cephalopods is generally lower than in finfish, often below the EU 0.50 mg/kg crustacean/bivalve cap. Pb biomagnification is weaker than Cd biomagnification in the filter-feeding pathway because Pb²⁺ adsorbs less efficiently to phytoplankton and is excreted more readily through bivalve digestive processes.
 
@@ -47,25 +49,11 @@ Hg (specifically MeHg) in bivalves and cephalopods is generally similar to or lo
 
 So the bivalve-finfish differential is Cd-specific. Pb and Hg patterns in bivalves are not similarly amplified.
 
-## Structure of the seafood cadmium distribution
+### Structure of the seafood cadmium distribution
 
 The seafood category does not have a single cadmium distribution; it is at least two distributions separated by one-to-two orders of magnitude. Finfish muscle clusters well below the EU 0.05 mg/kg fin-fish cap, while bivalves and cephalopods-without-viscera occupy a distinct, much higher range bounded by the EU 1.0 mg/kg bivalve cap. EU regulatory architecture mirrors this by setting separate per-category cadmium ceilings rather than a single seafood-wide ceiling. Within the bivalve range, the species-level distributions diverge further: scallops and certain oysters sit higher than mussels and clams, so species-resolved characterization carries more information than the pooled bivalve aggregate. The water-column cadmium burden of the source region is an additional documented axis of variation, which is why origin is informative for cadmium when supplier traceability data are available.
 
-## What this synthesis does not yet rest on
-
-- **Scallop and oyster-specific evidence is thinner than mussel evidence.** Most of the bivalve corpus in the wiki today is mussel-focused; scallops and oysters have less species-specific characterization. Future ingest should prioritize scallop and oyster-specific surveys for the bivalve sub-category to be evidence-supported beyond extrapolation from mussels.
-- **Nanoparticle-bound Cd bioavailability.** [[sources/bao2024-sp-icp-ms-nps-mussels|Bao 2024]] single-particle ICP-MS evidence that some bivalve Cd is in nanoparticle form raises a follow-up question about whether nanoparticle Cd has lower bioavailability than dissolved Cd. If yes, the actual human-relevant exposure may be lower than total-Cd-derived risk models suggest. If no, the existing risk models are accurate. The mechanism is open.
-- **Aquaculture vs wild-caught bivalve Cd.** The aquaculture-vs-wild differential well-documented for finfish ([[synthesis/aquaculture-vs-wild-contamination-differential]]) may operate differently in bivalves because farmed bivalves still filter-feed on ambient water (unlike farmed finfish which eat controlled feed). Whether farmed mussels in Cd-managed waters carry meaningfully different Cd than wild mussels in the same region needs separate characterization.
-- **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts, and viscera-inclusive products fall outside the evidence base that the muscle-only cadmium values characterize. Whole-animal or viscera-inclusive cephalopod products therefore require their own cadmium characterization rather than extrapolation from muscle-only data.
-
-## Downstream pages updated
-
-- [[products/seafood]] — Levers to reduce contamination section notes bivalve-and-cephalopod water-quality screening as a sourcing lever.
-- [[products/canned-fish]] — Source Evidence Inventory cites the bivalve Cd sources where canned-bivalve products (canned mussels, canned clams, canned oysters) are in scope.
-- [[ingredients/bivalve-molluscs]], [[ingredients/molluscs]], [[ingredients/shellfish]] — Cd contamination profile and ingredient-derivative risk sections should reflect the amplification mechanism.
-- [[metals/cadmium]] — Toxicology and dietary exposure routes sections should reference bivalves as a high-load source distinct from finfish.
-
-## Anchor sources
+### Anchor sources
 
 - [[sources/bao2024-sp-icp-ms-nps-mussels]] — Single-particle ICP-MS characterization of Cd in mussels including nanoparticle forms.
 - [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily]] — Sicilian lagoon mussel/clam Cd survey approaching EU bivalve cap.
@@ -73,7 +61,25 @@ The seafood category does not have a single cadmium distribution; it is at least
 - [[sources/rohonczy2024-arctic-foodweb-cd-hg]] — Arctic foodweb Cd/Hg evidence showing bivalves at one trophic step.
 - [[sources/cardoso2023-mercury-portuguese-coast-seafood]] — Portuguese coastal bivalve Cd/Hg survey under EU caps.
 
-## How this page was promoted
+## Interpretation
+
+### Downstream pages updated
+
+- [[products/seafood]] — Levers to reduce contamination section notes bivalve-and-cephalopod water-quality screening as a sourcing lever.
+- [[products/canned-fish]] — Source Evidence Inventory cites the bivalve Cd sources where canned-bivalve products (canned mussels, canned clams, canned oysters) are in scope.
+- [[ingredients/bivalve-molluscs]], [[ingredients/molluscs]], [[ingredients/shellfish]] — Cd contamination profile and ingredient-derivative risk sections should reflect the amplification mechanism.
+- [[metals/cadmium]] — Toxicology and dietary exposure routes sections should reference bivalves as a high-load source distinct from finfish.
+
+## Uncertainty
+
+### What this synthesis does not yet rest on
+
+- **Scallop and oyster-specific evidence is thinner than mussel evidence.** Most of the bivalve corpus in the wiki today is mussel-focused; scallops and oysters have less species-specific characterization. Future ingest should prioritize scallop and oyster-specific surveys for the bivalve sub-category to be evidence-supported beyond extrapolation from mussels.
+- **Nanoparticle-bound Cd bioavailability.** [[sources/bao2024-sp-icp-ms-nps-mussels|Bao 2024]] single-particle ICP-MS evidence that some bivalve Cd is in nanoparticle form raises a follow-up question about whether nanoparticle Cd has lower bioavailability than dissolved Cd. If yes, the actual human-relevant exposure may be lower than total-Cd-derived risk models suggest. If no, the existing risk models are accurate. The mechanism is open.
+- **Aquaculture vs wild-caught bivalve Cd.** The aquaculture-vs-wild differential well-documented for finfish ([[synthesis/aquaculture-vs-wild-contamination-differential]]) may operate differently in bivalves because farmed bivalves still filter-feed on ambient water (unlike farmed finfish which eat controlled feed). Whether farmed mussels in Cd-managed waters carry meaningfully different Cd than wild mussels in the same region needs separate characterization.
+- **Cephalopod viscera consumption patterns.** In some culinary traditions (Mediterranean, East Asian), cephalopod viscera are consumed; the EU "without viscera" caveat does not protect consumers in those contexts, and viscera-inclusive products fall outside the evidence base that the muscle-only cadmium values characterize. Whole-animal or viscera-inclusive cephalopod products therefore require their own cadmium characterization rather than extrapolation from muscle-only data.
+
+### How this page was promoted
 
 Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page consolidates that differential and its filter-feeding mechanism into a single literature-native reference.
 
@@ -110,9 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

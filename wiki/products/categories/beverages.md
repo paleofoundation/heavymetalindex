@@ -11,6 +11,25 @@ description: Products in the Beverages category (18), by subcategory.
 
 Product pages in **Beverages**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 93 |
+| Cd | 86 |
+| tAs | 60 |
+| Cr | 56 |
+| Ni | 47 |
+| Cu | 36 |
+| Al | 32 |
+| Zn | 28 |
+| tHg | 26 |
+| Fe | 22 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 93 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/fruit-juices-non-apple|Fruit juices, non-apple]]

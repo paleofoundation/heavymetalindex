@@ -20,17 +20,19 @@ Eight independent datasets converge on a finding that separates tea from most ot
 
 This is a different kind of finding from the seaweed and cocoa cadmium stories. For seaweed (see [[synthesis/seaweed-cd-as-contamination]]), the dry-product concentration is close to the as-consumed concentration because dried seaweed is eaten whole. For tea, the consumed matrix is the infusion, not the leaf, and the gap between the two is the entire point.
 
-## The dry-leaf occurrence picture
+## Evidence base
+
+### The dry-leaf occurrence picture
 
 On a dry-leaf basis, tea carries a coherent multi-metal signature across every primary survey in the corpus, with lead, cadmium, and chromium generally below national leaf standards and aluminium an order of magnitude above every other metal by mass. The national-scale Chinese reconnaissance of [[sources/li2021-china-national-tea-reconnaissance|Li et al. 2021]], 225 paired soil and plant samples across 45 gardens in 15 provinces, reported young-leaf means of 0.66 mg/kg lead, 0.06 mg/kg cadmium, and 0.91 mg/kg chromium. The 227-paper Chinese meta-analysis of [[sources/hu2023-china-tea-heavy-metals|Hu et al. 2023]], covering several thousand samples, reported national means of 1.09 mg/kg lead, 0.14 mg/kg cadmium, 1.17 mg/kg total chromium, 0.21 mg/kg total arsenic, and 0.04 mg/kg total mercury, all below the Chinese leaf limits, with pollution rates under three percent for every metal. A 120-sample survey of Hangzhou green tea by [[sources/fan2025-hangzhou-green-tea-metals|Fan et al. 2025]] and the 26-sample Jiangxi survey of [[sources/li2015-green-tea-jiangxi-al-heavy-metals|Li et al. 2015]] both returned lead and cadmium in the same low range. The consistency of this picture across four independent Chinese datasets is itself informative: the leaf-basis lead and cadmium load is a stable property of the commodity, not a regional anomaly.
 
 The exception to the reassuring leaf-basis picture is leaf age. Li et al. 2021 measured young and mature leaves separately and found mean lead rising from 0.66 mg/kg in young leaves to 13.6 mg/kg in mature leaves, with 26.7 percent of mature-leaf samples exceeding the 2.0 mg/kg organic threshold while young leaves were universally below it. Most marketed tea is young-flush leaf, but lower grades and some processed and compressed teas carry mature leaf, and the leaf-age effect is large enough that grade is a stronger determinant of leaf lead than growing region in this dataset.
 
-## The aluminium hyperaccumulation signal
+### The aluminium hyperaccumulation signal
 
 Aluminium is the defining metal of tea and the one that conventional heavy-metal surveillance, focused on lead, cadmium, and arsenic, tends to omit entirely. Li et al. 2015 reported a mean leaf aluminium of 487.57 mg/kg, more than twenty times the next-highest toxic metal. Fan et al. 2025 reported a mean of 276.50 mg/kg with a maximum of 975 mg/kg. The review of [[sources/salmani2023-herbal-teas-metals-review|Salmani-Sani et al. 2023]] reported black-tea aluminium of 496.8 mg/kg. The starkest aluminium result comes from [[sources/zhang2018-tea-puan-guizhou-heavy-metals|Zhang et al. 2018]] in Guizhou, where mature-leaf aluminium reached 4,300 to 10,400 mg/kg against 250 to 660 mg/kg in young leaf from the same gardens, an order-of-magnitude age effect steeper than for any other element. Aluminium has no established toxicological reference value comparable to the lead or cadmium tolerable intakes, but it is not toxicologically inert, and its dominance of the tea metal mass makes it the element most likely to drive an infusion hazard index, which is exactly what Zhang et al. 2018 found.
 
-## The leaf-to-infusion transfer fraction
+### The leaf-to-infusion transfer fraction
 
 The quantitative core of this synthesis is that the brewed infusion, not the dry leaf, is what is consumed, and the transfer fraction is both metal-specific and origin-dependent. The only corpus source reporting explicit per-metal leaching percentages is [[sources/brzezicha-cirocka2016-green-tea-geographic-origins|Brzezicha-Cirocka et al. 2016]], which brewed 41 green teas of Chinese, Indian, and Japanese origin. Lead leached at 16.9 percent for Chinese-origin tea, meaning roughly five-sixths of the dry-leaf lead remained in the spent leaf. Cadmium leached far more readily and with a strong origin signal: 46.3 percent for Chinese tea, 43.8 percent for Indian tea, and 17.6 percent for Japanese tea. The systematic review of [[sources/kazeminia2023-tea-heavy-metals-review|Kazeminia et al. 2023]] corroborates the direction and magnitude from a different evidence base, reporting black-tea infusion concentrations roughly six to ten times lower than the corresponding dry herb, and adds a brewing-time effect: extending steeping from three to ten minutes increased extracted lead by two to three times. Li et al. 2015 reached the same qualitative conclusion, that lead, cadmium, copper, and aluminium mainly remain in the leaf rather than transferring to the infusion, and that infusion concentrations fall with each successive brew, supporting the long-standing practice of discarding the first infusion.
 
@@ -38,23 +40,23 @@ The two infusion-native datasets confirm that the resulting as-consumed concentr
 
 The practical consequence is a basis trap. A surveillance programme or a brand that measures dry-leaf lead at 1 mg/kg and compares it to a food limit is overstating the consumer dose by roughly a factor of six, because only about a sixth of that lead reaches the cup. Conversely, a programme that assumes infusion exposure is negligible without measuring it is unsupported, because cadmium can transfer at nearly half the leaf load from some origins, and because mature-leaf aluminium is high enough that the transferred fraction still matters. Zhang et al. 2018 found that 38.46 percent of mature-tea infusions carried a hazard index above one, driven by aluminium and manganese, even though every leaf-basis lead, cadmium, arsenic, mercury, and chromium value in the same study sat below the Chinese limits. The leaf-basis picture and the infusion-basis picture can therefore point in opposite directions.
 
-## Geographic origin and growing-soil dependence
+### Geographic origin and growing-soil dependence
 
 Tea metal load tracks growing region and soil, which is what makes origin a usable risk variable. Brzezicha-Cirocka et al. 2016 showed that chemometric analysis differentiated samples by geographic origin using the mineral profile, and that cadmium leaching itself varied by origin from 9 percent for Chinese to 44 percent for Indian tea. Jurowski et al. 2023 found that every Chinese-origin sample carried a higher heavy-metal index in the cup than the Sri Lankan samples. Hu et al. 2023 mapped carcinogenic cadmium risk to specific Chinese provinces, Shaanxi, Anhui, and the southwest, rather than to tea as a category, and attributed roughly 80 percent of young-leaf lead to atmospheric deposition rather than soil uptake, which is why proximity to industry and traffic matters. The soil substrate under tea is itself highly variable: the agricultural-soil survey of [[sources/ji2026-agricultural-soil-metals-zhejiang|Ji et al. 2026]] in a single tea-growing province found soil lead ranging to 11.7 times background and apportioned the dominant share to traffic and industrial sources rather than agriculture. Origin is not a proxy for safety in either direction, but it is a real and measurable determinant of both the leaf load and the transferable fraction.
 
-## A separate pathway: lead from brewing vessels
+### A separate pathway: lead from brewing vessels
 
 One corpus source on tea-adjacent lead must be kept strictly separate from the plant-uptake story. [[sources/munilla-garcia2023-lead-kombucha-ceramics|Munilla-García et al. 2023]] investigated a family lead-poisoning cluster traced to kombucha fermented and stored in improperly glazed ceramic vessels. The lead rose with contact time, from 0.95 mg/kg at 14 days to 47 mg/kg in the packaged product, while the raw water, sugar, and tea inputs were essentially clean and ceramic migration into acidic simulant reached 5.8 to 73 mg/litre. This is a food-contact-material contamination event driven by the organic acids of fermentation leaching lead from glaze, not a property of the tea plant. It belongs to the brewing-equipment pathway and must not be pooled into tea-leaf or tea-infusion occurrence distributions. It is included here because kombucha is marketed as a tea product and the distinction is exactly the kind a brand-legal or regulatory reader needs drawn explicitly.
 
-## Speciation and basis caveats
+### Speciation and basis caveats
 
 Every corpus source that reports arsenic reports total arsenic, every source that reports chromium reports total chromium, and every source that reports mercury reports total mercury. None speciate. The toxicologically meaningful distinctions for these elements are inorganic from total arsenic, hexavalent from total chromium, and methylmercury from total mercury, and none of those distinctions can be made from the present tea corpus. The chromium point matters most: Li et al. 2015 explicitly assessed risk using the trivalent-chromium reference dose on the argument that gastric acidity reduces hexavalent to trivalent chromium, so the corpus contains no basis for a hexavalent-chromium position on tea. The arsenic and mercury totals in tea are low enough that the speciation gap is not currently load-bearing for exposure, but it is a real limit on what the wiki can claim.
 
-## Why conventional surveillance mischaracterizes tea
+### Why conventional surveillance mischaracterizes tea
 
 National food surveillance measures tea, when it measures it at all, on a dry-leaf basis and compares the result to a leaf standard expressed in milligrams per kilogram. That framework answers a regulatory question about the commodity but not the exposure question about the consumer, because the consumer ingests an infusion whose metal concentration is a fraction of the leaf, and the fraction differs by metal, by origin, and by brewing time. The result is a category where the published numbers are abundant but answer the wrong question, where the two metals most worth attention, aluminium because of its mass and cadmium because of its high transfer fraction, are the two least consistently reported on an infusion basis, and where leaf age can swing the leaf-basis lead result by a factor of twenty. The mismatch between what is measured and what is consumed is the surveillance blind spot specific to tea.
 
-## Strategic implications
+### Strategic implications
 
 The exposure-relevant measurement for a tea or herbal-tea matrix is infusion-basis concentration under a defined and disclosed brewing protocol, not dry-leaf totals. Dry-leaf compliance over-represents exposure for lead and aluminium and under-represents it for cadmium from high-transfer origins; an assumption that infusion exposure is negligible without measuring it is unsupported, because the cadmium-leaching and mature-leaf-aluminium evidence directly undercuts it. A measured transfer fraction for the specific product, with origin and grade documented, is what the evidence supports as the exposure-relevant characterization.
 
@@ -64,15 +66,17 @@ For the consumer audience, the practical levers are real and quantified. Discard
 
 A leaf-basis standard and an infusion-basis standard are not interchangeable for tea, and the literature supports the infusion basis as the exposure-relevant one while acknowledging that infusion data are currently thin. Any threshold expressed for tea therefore depends on which basis it is stated in, and a leaf-basis number and an infusion-basis number cannot be compared without applying the transfer fraction.
 
-## What this synthesis does not yet rest on
-
-The infusion-native evidence base is thin, two datasets, and both are green tea; black tea, which dominates global consumption and is processed differently, is represented on an infusion basis only through the Kazeminia et al. 2023 review rather than a primary corpus dataset. A primary black-tea infusion survey would materially strengthen the as-consumed picture. No corpus source speciates arsenic, chromium, or mercury in tea, so the inorganic-arsenic and hexavalent-chromium questions remain open. Aluminium lacks a tolerable-intake anchor in the corpus, so the aluminium hyperaccumulation finding is currently a magnitude-and-mass observation rather than a quantified risk. The fluoride co-accumulation of tea, which shares the aluminium uptake biology and is a recognized consumption concern in its own right, is outside the present analyte scope and warrants its own treatment if fluoride enters the wiki vocabulary.
-
-## Downstream updates
+### Downstream updates
 
 On promotion, this page was added to the synthesis index at [[synthesis]], promoted from pending to promoted in the internal candidate queue, and linked from the [[ingredients/camellia-sinensis]] ingredient page as its load-bearing heavy-metals reference. The leaf-basis occurrence numbers feed [[metals/lead]], [[metals/cadmium]], and [[metals/aluminum]], which already carry the underlying source pages; the infusion-basis distinction documented here is the synthesis-level claim those metal pages did not previously connect.
 
-## Provisional status
+## Uncertainty
+
+### What this synthesis does not yet rest on
+
+The infusion-native evidence base is thin, two datasets, and both are green tea; black tea, which dominates global consumption and is processed differently, is represented on an infusion basis only through the Kazeminia et al. 2023 review rather than a primary corpus dataset. A primary black-tea infusion survey would materially strengthen the as-consumed picture. No corpus source speciates arsenic, chromium, or mercury in tea, so the inorganic-arsenic and hexavalent-chromium questions remain open. Aluminium lacks a tolerable-intake anchor in the corpus, so the aluminium hyperaccumulation finding is currently a magnitude-and-mass observation rather than a quantified risk. The fluoride co-accumulation of tea, which shares the aluminium uptake biology and is a recognized consumption concern in its own right, is outside the present analyte scope and warrants its own treatment if fluoride enters the wiki vocabulary.
+
+### Provisional status
 
 This synthesis was established 2026-06-04 on eight anchor sources, of which seven are A-tier and one (Kazeminia et al. 2023) is a B-tier systematic review carrying the corroborating transfer-fraction evidence. The leaf-basis occurrence picture is robust across four independent national and regional Chinese surveys; the transfer-fraction finding rests primarily on Brzezicha-Cirocka et al. 2016 with directional corroboration from Li et al. 2015 and Kazeminia et al. 2023, and is the part most in need of additional infusion-native datasets. Resynthesis triggers fire on the next two independent infusion-basis datasets, on any primary black-tea infusion survey, or on a speciated arsenic or chromium dataset for tea.
 
@@ -113,9 +117,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 10 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 <!-- END: hmi-page-history -->

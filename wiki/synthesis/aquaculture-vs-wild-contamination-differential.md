@@ -22,7 +22,9 @@ Because the differential is driven by feed regime rather than species, distingui
 
 The differential applies primarily to MeHg (the metal whose burden depends on cumulative dietary uptake over the organism's lifespan). Pb, Cd, and total arsenic show smaller or absent differentials between farmed and wild because their uptake routes are less dependent on lifetime food-web exposure.
 
-## The MeHg differential evidence
+## Evidence base
+
+### The MeHg differential evidence
 
 [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]] (PNAS) analyzed ~13,000 fish mercury samples across 164 Chinese sampling sites spanning 2005-2020. Across multiple trophic classes:
 
@@ -36,7 +38,7 @@ The ratio is largest at lower trophic levels and persists across all trophic cla
 
 [[sources/rusko2026-mercury-fish-latvia-risk-benefit|Rusko 2026]] Latvian inland-lake survey (n=460, 7 wild freshwater species) shows MeHg as the dominant Hg form with some samples exceeding the EU 0.5 mg/kg cap. The comparison this study does not make — but the Wu 2025 framework supports — is that farmed equivalents of the same species fed controlled feed would carry materially lower MeHg.
 
-## The mechanism
+### The mechanism
 
 In wild fish, MeHg enters the food web at the base (sediment microbial methylation of inorganic Hg, plus photochemical methylation in the water column), is taken up by primary producers and primary consumers, and biomagnifies at each trophic transfer (per-trophic-level magnification 3-10×). A wild fish at trophic level 4 has accumulated MeHg from years of eating prey that has itself accumulated MeHg over years. Lifetime cumulative MeHg exposure is high.
 
@@ -49,7 +51,7 @@ The same logic applies to other farmed species:
 - **Atlantic salmon (farmed)**: fish-meal feed but from low-MeHg forage species; typical 20-40 µg/kg vs wild Atlantic salmon 60-100 µg/kg.
 - **Rainbow trout (farmed)**: similar to salmon, typical 10-30 µg/kg vs wild 30-80 µg/kg.
 
-## Pb, Cd, As differential (smaller or absent)
+### Pb, Cd, As differential (smaller or absent)
 
 The aquaculture-vs-wild differential is metal-specific. Pb, Cd, and tAs uptake routes do not depend as heavily on lifetime food-web exposure, so the farmed-wild gap is smaller:
 
@@ -59,7 +61,7 @@ The aquaculture-vs-wild differential is metal-specific. Pb, Cd, and tAs uptake r
 
 So the farmed-vs-wild distinction is MeHg-specific. It separates two distinct MeHg populations for the farmed sub-category, but Pb, Cd, and As distributions are not separated by the same distinction and would require separate calibration on their own occurrence data.
 
-## Traceability that the distinction depends on
+### Traceability that the distinction depends on
 
 Operationalizing the farmed-vs-wild distinction depends on supply-chain traceability, because the MeHg difference is tied to feed regime rather than to anything observable in the finished fillet. The data elements that establish which population a sample belongs to:
 
@@ -70,14 +72,7 @@ Operationalizing the farmed-vs-wild distinction depends on supply-chain traceabi
 
 Wild-caught seafood is harder to bound under tighter MeHg expectations for the obvious reason that the fish ate whatever was in the water. For wild-caught fish, the available levers are origin specifications: catch region, season, and species body-size limits to bound the trophic-and-age accumulation window.
 
-## What this synthesis does not yet rest on
-
-- **Non-Chinese aquaculture data is thinner.** Wu 2025's 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions; verification with non-Chinese aquaculture datasets would strengthen the synthesis substantially.
-- **PCB, dioxin, pesticide differentials.** Aquaculture vs wild differentials exist for other contaminants (PCBs and dioxins are sometimes HIGHER in farmed salmon than wild because they accumulate in fish-meal lipid; pesticides can show either direction). This synthesis is scoped to heavy metals and does not address those other-contaminant differentials, but the corollary matters: a low-MeHg farmed salmon is not automatically lower-contaminant overall.
-- **Recirculating aquaculture system (RAS) effects.** Land-based RAS with closed water reuse may have different MeHg dynamics than net-pen marine aquaculture or pond aquaculture. The Wu 2025 dataset does not separately characterize RAS; this is a research gap.
-- **Organic-certified vs conventional aquaculture.** Some farmed-fish certifications (organic, eco-label) impose additional feed-input restrictions. Whether these translate to measurable MeHg differences between organic-certified and conventional farmed fish is not well-characterized in the wiki's current corpus.
-
-## Two distinct MeHg populations within the seafood category
+### Two distinct MeHg populations within the seafood category
 
 The evidence supports treating farmed and wild seafood as two distinct MeHg occurrence populations rather than one:
 
@@ -86,7 +81,15 @@ The evidence supports treating farmed and wild seafood as two distinct MeHg occu
 
 The "with-documented-feed-regime" qualifier is load-bearing: not all farmed-fish operations have feed-MeHg testing infrastructure, so the lower-MeHg population can only be established for those that do. Whether and how any threshold-setting program responds to this two-population structure is a policy choice that the wiki does not prescribe; what the literature supports is that the two populations exist and have different distributions.
 
-## Downstream pages updated
+### Anchor sources
+
+- [[sources/wu2025-climate-meghan-freshwater-fish-china]] — Load-bearing 2.9-6.2× farmed-wild MeHg ratio across multiple trophic classes in Chinese freshwater systems.
+- [[sources/li2024-global-fisheries-mehg]] — Global fisheries MeHg modeling supporting the aquaculture-as-exposure-reduction mechanism.
+- [[sources/rusko2026-mercury-fish-latvia-risk-benefit]] — Wild inland-fish MeHg evidence; comparison baseline for farmed equivalent.
+
+## Interpretation
+
+### Downstream pages updated
 
 - [[products/fresh-fish]] — Levers to reduce contamination section names aquaculture-vs-wild as a meaningful sourcing lever distinct from species-selection-within-wild.
 - [[products/seafood]] — same as above.
@@ -94,13 +97,16 @@ The "with-documented-feed-regime" qualifier is load-bearing: not all farmed-fish
 - [[ingredients/fish]], [[ingredients/freshwater-fish]] — contamination profile and ingredient-derivative risk sections should reflect the farmed-wild differential.
 - [[metals/mercury-methyl]] — Biomagnification section and Climate-driven enhancement section both reference the farmed-wild distinction.
 
-## Anchor sources
+## Uncertainty
 
-- [[sources/wu2025-climate-meghan-freshwater-fish-china]] — Load-bearing 2.9-6.2× farmed-wild MeHg ratio across multiple trophic classes in Chinese freshwater systems.
-- [[sources/li2024-global-fisheries-mehg]] — Global fisheries MeHg modeling supporting the aquaculture-as-exposure-reduction mechanism.
-- [[sources/rusko2026-mercury-fish-latvia-risk-benefit]] — Wild inland-fish MeHg evidence; comparison baseline for farmed equivalent.
+### What this synthesis does not yet rest on
 
-## How this page was promoted
+- **Non-Chinese aquaculture data is thinner.** Wu 2025's 2.9-6.2× ratio is parameterized on Chinese inland aquaculture systems. US-farmed salmon, Norwegian farmed salmon, UK/Scottish farmed salmon, Chilean farmed salmon, US-farmed catfish, US/Asian-farmed tilapia all have substantial aquaculture industries with potentially different feed-MeHg profiles. The 2.9-6.2× ratio may not transfer cleanly across regions; verification with non-Chinese aquaculture datasets would strengthen the synthesis substantially.
+- **PCB, dioxin, pesticide differentials.** Aquaculture vs wild differentials exist for other contaminants (PCBs and dioxins are sometimes HIGHER in farmed salmon than wild because they accumulate in fish-meal lipid; pesticides can show either direction). This synthesis is scoped to heavy metals and does not address those other-contaminant differentials, but the corollary matters: a low-MeHg farmed salmon is not automatically lower-contaminant overall.
+- **Recirculating aquaculture system (RAS) effects.** Land-based RAS with closed water reuse may have different MeHg dynamics than net-pen marine aquaculture or pond aquaculture. The Wu 2025 dataset does not separately characterize RAS; this is a research gap.
+- **Organic-certified vs conventional aquaculture.** Some farmed-fish certifications (organic, eco-label) impose additional feed-input restrictions. Whether these translate to measurable MeHg differences between organic-certified and conventional farmed fish is not well-characterized in the wiki's current corpus.
+
+### How this page was promoted
 
 Established 2026-05-18 from the seafood-axis evidence consolidation. The aquaculture-vs-wild MeHg differential is a large and consistent effect in the literature that had not been treated as a standalone synthesis. The page consolidates that evidence so the farmed-vs-wild distinction is documented as a distinct MeHg axis within the seafood category rather than being averaged into a single seafood-category figure.
 
@@ -133,9 +139,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 2 sections added and 2 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

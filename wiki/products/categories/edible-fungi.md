@@ -11,6 +11,25 @@ description: Products in the Edible Fungi category (3), by subcategory.
 
 Product pages in **Edible Fungi**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Cd | 9 |
+| Pb | 9 |
+| tHg | 7 |
+| Zn | 7 |
+| Cu | 6 |
+| Fe | 5 |
+| Mn | 5 |
+| Cr | 4 |
+| Ni | 4 |
+| Ag | 2 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 9 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/cultivated-mushrooms|Mushrooms — cultivated (clean counterpart)]]

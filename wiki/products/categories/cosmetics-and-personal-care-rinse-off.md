@@ -11,6 +11,25 @@ description: Products in the Cosmetics and Personal Care — Rinse-off category 
 
 Product pages in **Cosmetics and Personal Care — Rinse-off**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 13 |
+| Cd | 11 |
+| Cr | 10 |
+| Ni | 8 |
+| Co | 7 |
+| tHg | 5 |
+| tAs | 4 |
+| Zn | 4 |
+| Cu | 3 |
+| Cr-VI | 2 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 13 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/shampoo-adult|Shampoo (general adult)]]

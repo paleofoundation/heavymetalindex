@@ -11,6 +11,25 @@ description: Products in the Household Cleaning and Dishwashing category (21), b
 
 Product pages in **Household Cleaning and Dishwashing**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Cd | 5 |
+| Pb | 5 |
+| "[[metals/lead | 4 |
+| Cr | 4 |
+| Ni | 4 |
+| Co | 3 |
+| Cr-VI | 3 |
+| Cu | 2 |
+| Fe | 2 |
+| Mn | 2 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 5 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/all-purpose-cleaners|All-purpose cleaners]]

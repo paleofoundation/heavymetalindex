@@ -75,7 +75,19 @@ const RENAMES: Record<string, Rename[]> = {
   regulation: [
     { from: /^overview$/i, to: "What the instrument does" },
     { from: /^(minimal risk levels|the values|limits|values)$/i, to: "The values, exactly as set" },
-    { from: /^relationship to /i, to: "How to read it against other instruments" },
+    // Measured on atsdr-cadmium-mrls: the page heads its cross-instrument
+    // section "Comparison to other reference values" as often as "Relationship
+    // to <X>". Both do v3's job — telling the reader how this instrument sits
+    // against the others.
+    { from: /^(relationship to |comparison to )/i, to: "How to read it against other instruments" },
+  ],
+  // `regulation-program` is one page (fda-closer-to-zero) but it is the FDA
+  // programme every category page cites, so it is not one to leave off the
+  // model. Its own headings map cleanly onto v3's three.
+  "regulation-program": [
+    { from: /^overview$/i, to: "What the instrument does" },
+    { from: /^reference values underlying the program$/i, to: "The values, exactly as set" },
+    { from: /^comparison to /i, to: "How to read it against other instruments" },
   ],
   // v3's synthesis directory is "How findings are graded" then "All findings".
   // The build carries both under different names — mapped by FUNCTION, not by

@@ -11,6 +11,25 @@ description: Products in the Laundry and Fabric-Contact Home Products category (
 
 Product pages in **Laundry and Fabric-Contact Home Products**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Cd | 10 |
+| Pb | 10 |
+| Ni | 8 |
+| Cr | 7 |
+| Co | 5 |
+| tAs | 5 |
+| tHg | 5 |
+| Cr-VI | 4 |
+| Mn | 4 |
+| Sb | 4 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 10 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/laundry-detergents|Laundry detergents (liquid, powder, pods/sheets, delicates)]]

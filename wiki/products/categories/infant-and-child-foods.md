@@ -11,6 +11,25 @@ description: Products in the Infant and Child Foods category (16), by subcategor
 
 Product pages in **Infant and Child Foods**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 114 |
+| Cd | 98 |
+| tAs | 98 |
+| iAs | 65 |
+| tHg | 63 |
+| Al | 54 |
+| Cr | 47 |
+| Ni | 46 |
+| Zn | 34 |
+| Cu | 29 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 114 sources at the deepest metal._
+
 ## Subcategories
 
 ### Infant formula (powder)

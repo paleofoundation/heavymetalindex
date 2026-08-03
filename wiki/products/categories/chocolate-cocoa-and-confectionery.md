@@ -11,6 +11,25 @@ description: Products in the Chocolate, Cocoa and Confectionery category (3), by
 
 Product pages in **Chocolate, Cocoa and Confectionery**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Cd | 25 |
+| Pb | 17 |
+| tAs | 9 |
+| Ni | 7 |
+| tHg | 7 |
+| Al | 6 |
+| MeHg | 4 |
+| Cr | 3 |
+| iAs | 3 |
+| iHg | 2 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 25 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/chocolate|Cocoa and chocolate products (cocoa powder, dark, milk, chips)]]

@@ -22,7 +22,9 @@ If accepted, this framework would justify relaxing the regulatory MeHg ceiling o
 
 This synthesis page lays out the evidence on both sides. The wiki does not take a position; it presents the case for and against. The page exists to provide a citable consolidation of the Se:Hg literature, including the question of whether the evidence currently supports modulating an absolute MeHg ceiling on a selenium basis.
 
-## The mechanistic case FOR Se:Hg as a relaxation criterion
+## Evidence base
+
+### The mechanistic case FOR Se:Hg as a relaxation criterion
 
 [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Ralston and Raymond 2014]] formalized the Selenium Health Benefit Value (HBV) framework. The reasoning:
 
@@ -35,7 +37,7 @@ If this framework is correct, a fish with high MeHg AND high Se (Se:Hg >1) would
 
 Most commercially consumed fish have Se:Hg molar ratios above 1, including bluefin tuna per Chamorro 2024. The notable exceptions where Hg can exceed Se molar are pilot whale, large mako shark, and certain very-large old swordfish individuals. Under the Ralston framework, these are the species where the absolute MeHg ceiling is genuinely binding; for the rest, the Se:Hg ratio modulates risk and a single MeHg-only ceiling under-counts the protective Se co-presence.
 
-## The case AGAINST relaxing MeHg ceilings on Se:Hg basis
+### The case AGAINST relaxing MeHg ceilings on Se:Hg basis
 
 Three concerns counterweight applying the Ralston framework to threshold-setting:
 
@@ -43,7 +45,7 @@ Three concerns counterweight applying the Ralston framework to threshold-setting
 2. **The Faroe-vs-Seychelles divergence has alternative explanations.** The Ralston framework is one possible explanation for the divergent neurotoxicity findings in the two cohorts; competing explanations include long-chain polyunsaturated fatty acid (PUFA) co-exposure differences (whale low in EPA/DHA, ocean fish high), genetic-population differences in MeHg metabolism, and exposure-window timing differences. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]] reviews the mechanistic neurotoxicity literature; the Se-Hg interaction is one of several mechanistic factors, not necessarily the dominant one. Picking Se:Hg as the modulator without ruling out the alternatives risks a confounded basis.
 3. **Operational complexity at scale.** Even if Se:Hg modulation is quantitatively correct, requiring per-lot Se AND Hg measurement roughly doubles analytical cost versus Hg-only testing. Any program that adopted Se:Hg modulation would have to weigh the additional analytical burden against the protection-margin gain.
 
-## Where the evidence is strongest
+### Where the evidence is strongest
 
 The Ralston framework is on firmest ground for the population-level observational explanation (why some high-Hg-fish populations show less neurotoxicity than others) and weakest for translating Se:Hg into a quantitative MeHg-ceiling adjustment. The evidence supports three distinct uses to differing degrees:
 
@@ -51,19 +53,13 @@ The Ralston framework is on firmest ground for the population-level observationa
 - **As a quantitative cap-adjustment factor**, the framework is not yet supported, because no validated dose-response translates Se:Hg into a defined MeHg-ceiling change.
 - **As a sub-categorization criterion that identifies low-Se species**, the framework is well-supported: it cleanly flags the species where the absolute MeHg ceiling genuinely binds (pilot whale, large mako shark, very-large swordfish) without requiring per-lot Se testing on every product.
 
-## The mercury isotope tracer angle
+### The mercury isotope tracer angle
 
 A separate line of evidence using stable Hg isotope fractionation ([[sources/dietz2025-arctic-mercury-isotopes-greenland|Dietz et al. 2025]], [[sources/li2022-mercury-isotope-biota-review|Li et al. 2022]], [[sources/motta2022-marine-hg-isotopes|Motta et al. 2022]]) can distinguish MeHg from different source pools (atmospheric vs riverine vs marine, photochemical vs microbial methylation). Isotope-based Hg source attribution is a separate technical capability from Se:Hg modulation but bears on the same question: is all "MeHg" the same toxicologically? Different source pools may have different bioavailability and may be associated with different co-nutrient profiles. This is an active research frontier.
 
 Isotope-based source attribution is not yet a routine analytical methodology for routine compliance testing. It remains foundational research that may eventually inform sub-category-level distinctions but is not operational today.
 
-## What this synthesis does not yet rest on
-
-- **No regulatory body has validated a quantitative Se:Hg cap-adjustment.** EFSA, JECFA, EPA, FDA all maintain absolute MeHg thresholds. Until at least one regulatory body endorses a Se:Hg-modulated framework, any threshold built on one would sit outside the regulatory consensus.
-- **The Faroe-Seychelles cohort divergence has multiple plausible mechanistic explanations.** The Ralston framework is one; PUFA co-exposure is another; genetic-population differences are a third. The wiki's synthesis on the divergence (the Faroe and Seychelles cohort dose-response section in [[metals/mercury-methyl]]) treats the explanatory question as open.
-- **Quantitative dose-response data for Se:Hg modulation are sparse.** Even within the Ralston framework, the dose-response curve translating Se:Hg into a quantitative neurotoxicity-risk modifier is not established. Lab and animal studies are suggestive; the human-cohort quantitative dose-response that a Se:Hg-modulated threshold would need is not yet in the literature.
-
-## What the evidence currently supports
+### What the evidence currently supports
 
 Pending further regulatory consensus and quantitative dose-response evidence, the literature supports the following:
 
@@ -73,21 +69,31 @@ Pending further regulatory consensus and quantitative dose-response evidence, th
 
 Taken together, the available primary-literature evidence and the regulatory consensus both point in the same direction: absolute MeHg ceilings should not be relaxed on the marginal Se:Hg evidence currently available, and the low-Se species are where the absolute MeHg burden binds most clearly. How any certification program responds to the gap between this literature baseline and a chosen threshold is a policy choice that this wiki does not prescribe.
 
-## Downstream pages updated
-
-- [[metals/mercury-methyl]] — Selenium-mercury antagonism section presents the Ralston framework with the same caveats this synthesis develops.
-- [[products/seafood]] — Levers to reduce contamination section's Formulation lever subsection notes that "co-formulation with selenium-rich ingredients" is a hypothesized lever but not a validated mitigation.
-- [[products/canned-fish]] — same as above.
-- [[ingredients/canned-tuna]], [[ingredients/shark]] — Se:Hg-related scientific framing should appear in the contamination_profile narrative where the bivalve-Cd-style pages are built out.
-
-## Anchor sources
+### Anchor sources
 
 - [[sources/ralston2014-selenium-hbv-methylmercury-seafood]] — Foundational Selenium Health Benefit Value framework.
 - [[sources/chamorro2024-bluefin-tuna-mercury-review]] — Bluefin tuna Se:Hg evidence supporting the relaxation argument for tuna specifically.
 - [[sources/farina-rocha-aschner-2011-mehg-mechanism]] — Mechanistic neurotoxicity review providing the alternative-explanations context.
 - [[sources/dietz2025-arctic-mercury-isotopes-greenland]], [[sources/li2022-mercury-isotope-biota-review]], [[sources/motta2022-marine-hg-isotopes]] — Mercury isotope tracer evidence relevant to the source-attribution sub-question.
 
-## How this page was promoted
+## Interpretation
+
+### Downstream pages updated
+
+- [[metals/mercury-methyl]] — Selenium-mercury antagonism section presents the Ralston framework with the same caveats this synthesis develops.
+- [[products/seafood]] — Levers to reduce contamination section's Formulation lever subsection notes that "co-formulation with selenium-rich ingredients" is a hypothesized lever but not a validated mitigation.
+- [[products/canned-fish]] — same as above.
+- [[ingredients/canned-tuna]], [[ingredients/shark]] — Se:Hg-related scientific framing should appear in the contamination_profile narrative where the bivalve-Cd-style pages are built out.
+
+## Uncertainty
+
+### What this synthesis does not yet rest on
+
+- **No regulatory body has validated a quantitative Se:Hg cap-adjustment.** EFSA, JECFA, EPA, FDA all maintain absolute MeHg thresholds. Until at least one regulatory body endorses a Se:Hg-modulated framework, any threshold built on one would sit outside the regulatory consensus.
+- **The Faroe-Seychelles cohort divergence has multiple plausible mechanistic explanations.** The Ralston framework is one; PUFA co-exposure is another; genetic-population differences are a third. The wiki's synthesis on the divergence (the Faroe and Seychelles cohort dose-response section in [[metals/mercury-methyl]]) treats the explanatory question as open.
+- **Quantitative dose-response data for Se:Hg modulation are sparse.** Even within the Ralston framework, the dose-response curve translating Se:Hg into a quantitative neurotoxicity-risk modifier is not established. Lab and animal studies are suggestive; the human-cohort quantitative dose-response that a Se:Hg-modulated threshold would need is not yet in the literature.
+
+### How this page was promoted
 
 Established 2026-05-18 from the seafood-axis synthesis work. The Se:Hg framework is one of the contested points in MeHg toxicology bearing on per-species threshold questions; the page exists to provide a citable wiki-side consolidation of the debate rather than re-deriving it each time the question arises. The page is deliberately non-committal between the for-and-against positions; its contribution is the consolidated, evidence-graded assessment of where the framework is and is not on firm ground.
 
@@ -123,9 +129,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

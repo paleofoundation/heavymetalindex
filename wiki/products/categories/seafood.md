@@ -11,6 +11,25 @@ description: Products in the Seafood category (6), by subcategory.
 
 Product pages in **Seafood**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 256 |
+| Cd | 230 |
+| tHg | 222 |
+| tAs | 205 |
+| Al | 181 |
+| Cr | 127 |
+| Ni | 126 |
+| iAs | 88 |
+| MeHg | 68 |
+| Sn | 59 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 256 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]]

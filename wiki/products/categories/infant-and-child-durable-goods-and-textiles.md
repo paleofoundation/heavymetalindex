@@ -11,6 +11,25 @@ description: Products in the Infant and Child Durable Goods and Textiles categor
 
 Product pages in **Infant and Child Durable Goods and Textiles**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Pb | 14 |
+| Cd | 11 |
+| Sn | 6 |
+| tAs | 6 |
+| tHg | 6 |
+| Cr | 5 |
+| Ni | 5 |
+| Sb | 4 |
+| "Cr-VI" | 3 |
+| Co | 3 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 14 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/cribs-and-bassinets|Cribs and bassinets]]

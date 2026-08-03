@@ -20,19 +20,21 @@ Three independent PNAS-level publications converge on a finding that the wiki's 
 
 This is the forward-looking dimension of the seafood-MeHg story. The established [[synthesis/subsistence-fishing-mehg-disparity]] page identifies the vulnerable population for the present-day distribution; the [[synthesis/mining-impacted-freshwater-fish]] page identifies the supply-side driver for freshwater contamination; this page identifies the climate-driven projection that says the marine baseline is moving. Together the three synthesis pages describe the three structural dimensions of dietary mercury risk that the present regulatory infrastructure does not adequately address.
 
-## The biogeochemical-cycle anchor (Sonke 2023)
+## Evidence base
+
+### The biogeochemical-cycle anchor (Sonke 2023)
 
 [[sources/sonke2023-mercury-global-change|Sonke et al. 2023]], published in Ambio (CC BY), is the comprehensive global-change-effects-on-mercury-biogeochemistry review that frames the problem. The paper synthesizes climate-warming effects, land-use effects, ocean-deoxygenation effects, altered precipitation, and changing atmospheric emissions across the full mercury cycle from source emission through environmental transport to fish bioaccumulation to human dietary exposure. The headline economic-cost framing — approximately $117 billion USD per year in global economic losses attributable to mercury exposure, primarily through IQ reduction and cardiovascular disease from dietary MeHg — establishes the public-health-and-economic scale of the present-day burden against which the projection literature should be read. The paper projects that climate warming alone is expected to raise fish MeHg by 10 to 30 percent against the baseline, with the specific value depending on emission-reduction scenarios for anthropogenic mercury sources.
 
 Sonke 2023 is the load-bearing review for the wiki's framing of climate-driven mercury risk as a regulatorily-relevant phenomenon rather than a long-horizon planetary concern. The 10-to-30-percent fish-MeHg increase projected under high-warming scenarios falls within the same order of magnitude as the EFSA-versus-JECFA tolerable-intake gap for cadmium documented in [[synthesis.md|the cadmium synthesis section]], which is to say it is a margin large enough that calibrating against the present-day distribution as a permanent baseline produces a regulatory framework that is increasingly out of date as the projection horizon approaches.
 
-## The marine-cycle projection (Wang 2023)
+### The marine-cycle projection (Wang 2023)
 
 [[sources/wang2023-climate-marine-mercury|Wang et al. 2023]], published in PNAS, develops a coupled climate-biogeochemistry model under RCP4.5 (moderate emission) and RCP8.5 (high emission) scenarios to 2100. Under RCP8.5, upper-trophic-level pelagic marine fish MeHg is projected to increase by 5 to 20 percent relative to a 2000 baseline. The largest increases are projected in polar and sub-polar regions; mid-latitude commercial fishery zones face moderate but non-trivial increases. The mechanism the model identifies as dominant is ocean deoxygenation: warming seawater holds less dissolved oxygen, and the anoxic and suboxic zones where microbial mercury methylation rates are highest expand in volume and intensify in methylation activity. Methylation rate enhancement in expanded oxygen minimum zones reaches a factor of approximately 2× in high-latitude waters under RCP8.5.
 
 The Wang 2023 projection is the wiki's most quantitatively concrete forward-looking anchor for marine MeHg. The 5-to-20-percent upper-trophic-fish MeHg increase has a direct testing-distribution consequence: a tuna lot tested in 2026 against the FDA action level for MeHg in fish (1.0 ppm tHg, or roughly 0.7 ppm MeHg) may pass; the same supply chain in 2050 or 2075 faces a baseline 5 to 20 percent higher, which moves the entire distribution closer to the action-level threshold and increases the lot-level exceedance rate even without any change in fishery, processing, or product.
 
-## The mechanistic refinement (Motta 2022)
+### The mechanistic refinement (Motta 2022)
 
 [[sources/motta2022-marine-hg-isotopes|Motta et al. 2022]], published in PNAS, uses mercury stable-isotope mass-dependent and mass-independent fractionation analysis on North Pacific marine organisms, water samples, and filtered particles to demonstrate that the isotopic signatures of MeHg in pelagic fish match the signatures of small marine particles (less than 53 µm) in the upper 400 meters of the water column, not the signatures of dissolved seawater MeHg or of deep-water sources. The mechanistic implication is that pelagic-fish MeHg accumulation depends primarily on methylation occurring in upper-ocean particulate matter rather than in situ methylation in deep anoxic basins.
 
@@ -40,13 +42,13 @@ This is the mechanism that connects the Wang 2023 oxygen-minimum-zone projection
 
 The Motta 2022 finding also revises the previous assumption that deep-water methylation in anoxic basins is the dominant source of pelagic-fish MeHg. Under the older assumption, climate-driven changes in deep-water circulation would have been the relevant projection mechanism; under the Motta 2022 refinement, upper-ocean particulate processes — which respond on much shorter timescales to climate forcing — are the relevant mechanism, which shortens the projection horizon for when present-day fish lots begin to reflect climate-driven shifts.
 
-## The convergent point
+### The convergent point
 
 Three independent PNAS-level publications now jointly support the claim that climate change is altering marine MeHg in commercially-harvested fish on a regulatorily-relevant timescale. Sonke 2023 provides the global biogeochemical-cycle frame and the economic-cost scale; Wang 2023 provides the quantitative coupled-model projection with explicit 2100-horizon numbers; Motta 2022 provides the mechanistic chain that connects the climate driver to the consumer-product endpoint. None of the three studies stands alone — Sonke is a synthesis review, Wang is a coupled model, Motta is a stable-isotope mechanistic study — but the three together fit into a closed argument that no single study could carry.
 
 The argument is: (a) MeHg in pelagic marine fish comes principally from particle-phase methylation in the upper 400 m of the water column (Motta 2022 mechanism); (b) climate warming and ocean deoxygenation expand oxygen minimum zones, which are the loci where particle-phase methylation rates are highest (Wang 2023 coupled-model projection); (c) the combined biogeochemical-cycle effect raises fish MeHg by 5 to 30 percent against the present-day baseline by 2100 under high-emission scenarios (Sonke 2023 plus Wang 2023 projection range); (d) the present-day regulatory framework calibrates against the present-day distribution and does not incorporate the projection; therefore the framework's effective stringency declines as the projected baseline rises.
 
-## The regulatory and educational reading
+### The regulatory and educational reading
 
 For upper-trophic pelagic seafood (tuna, swordfish, marlin, mackerel) supplied into US, EU, UK, or other markets calibrating against present-day MeHg limits, the literature projects that the lot-level exceedance rate against existing thresholds increases over the next two to seven decades even if the underlying fishery, supplier, and product remain constant. This follows directly from the upward shift in the MeHg distribution: a fixed threshold applied to a rising distribution captures a larger fraction of lots over time.
 
@@ -56,21 +58,13 @@ For the educator audience: this synthesis is the canonical teaching example for 
 
 A general consequence follows for any threshold calibrated against marine-MeHg occurrence: because the projection literature establishes that the marine-MeHg baseline is shifting upward over a regulatory-relevant time horizon, a threshold frozen at a single calibration year does not hold its intended stringency as the baseline rises. The science supports treating thresholds for climate-sensitive contamination pathways as values that warrant periodic re-examination on regulatory-relevant horizons (5 to 15 years), with the next review informed by future updates to Wang 2023 or successor model-intercomparison studies. The present synthesis is the literature anchor for the marine-MeHg case. How any given certification or regulatory program responds to that gap is a policy choice the wiki does not prescribe.
 
-## The relationship to the established climate-metals-tradeoffs synthesis
+### The relationship to the established climate-metals-tradeoffs synthesis
 
 The [[synthesis/climate-metals-tradeoffs]] page covers paddy-iAs and freshwater-MeHg under climate change and establishes the trade-off framing: climate-smart agricultural practices that reduce one metal can increase another, and the wiki's threshold-setting work has to navigate the trade-offs rather than treat them as decoupled problems. The present synthesis extends the climate-metals story to marine pelagic fish, which is structurally distinct from the freshwater systems covered in the trade-offs synthesis. The two pages should be read together: climate-metals-tradeoffs covers the freshwater and terrestrial side; climate-fish-mehg-projections covers the marine side; the combined finding is that climate change is reshaping the heavy-metal contamination distribution across all major dietary-exposure pathways and that the present regulatory infrastructure is calibrated against a baseline that does not hold.
 
-## What this synthesis does not yet rest on
+## Interpretation
 
-A third independent projection study — distinct from Wang 2023 — would tighten the criterion-1 case (three independent A-tier sources). The criterion is technically met with Sonke, Wang, and Motta together (review plus projection plus mechanism), but a second quantitative coupled-model projection from an independent research group would harden the projection-range estimate and would let the wiki cite a model-intercomparison-style range rather than a single coupled-model estimate. The IPCC AR7 cycle is expected to incorporate ocean-mercury cycling more substantively than AR6 did; that future input is flagged for follow-up ingest.
-
-The freshwater parallel — climate-driven MeHg increase in inland fisheries — is partially covered in [[synthesis/climate-metals-tradeoffs]] via Wu 2025 PNAS and the freshwater-Hg microbial-methylation literature. A combined marine-and-freshwater climate-Hg projection synthesis would be the natural Journal of Food Metallomics output building on both synthesis pages.
-
-The economic-cost framing in Sonke 2023 ($117 billion annual) is durable but is itself a projection-based estimate. A second economic-impact study from an independent group would strengthen the evidence base for characterizing mercury exposure as a high-impact public-health burden rather than a low-priority concern.
-
-The species-specific projections (tuna versus swordfish versus mackerel versus salmon) are not separately resolved in Wang 2023; the coupled-model output is at the trophic-level aggregation. Species-specific projections that incorporate species-specific bioaccumulation factors and fishery-specific source-region weighting would resolve the climate-MeHg trajectory at the species-level granularity, which is the granularity at which dietary advice and product-level thresholds operate.
-
-## Implications for downstream wiki pages
+### Implications for downstream wiki pages
 
 [[ingredients/seafood]] and [[ingredients/fish]] should carry this synthesis in the climate-trajectory subsection, alongside the present-day MeHg load characterization.
 
@@ -80,7 +74,19 @@ The species-specific projections (tuna versus swordfish versus mackerel versus s
 
 The wiki's [[overview]] should pair this synthesis with [[synthesis/climate-metals-tradeoffs]], [[synthesis/subsistence-fishing-mehg-disparity]], and [[synthesis/mining-impacted-freshwater-fish]] as a four-page set covering the structural dimensions of dietary mercury risk.
 
-## Provisional status
+## Uncertainty
+
+### What this synthesis does not yet rest on
+
+A third independent projection study — distinct from Wang 2023 — would tighten the criterion-1 case (three independent A-tier sources). The criterion is technically met with Sonke, Wang, and Motta together (review plus projection plus mechanism), but a second quantitative coupled-model projection from an independent research group would harden the projection-range estimate and would let the wiki cite a model-intercomparison-style range rather than a single coupled-model estimate. The IPCC AR7 cycle is expected to incorporate ocean-mercury cycling more substantively than AR6 did; that future input is flagged for follow-up ingest.
+
+The freshwater parallel — climate-driven MeHg increase in inland fisheries — is partially covered in [[synthesis/climate-metals-tradeoffs]] via Wu 2025 PNAS and the freshwater-Hg microbial-methylation literature. A combined marine-and-freshwater climate-Hg projection synthesis would be the natural Journal of Food Metallomics output building on both synthesis pages.
+
+The economic-cost framing in Sonke 2023 ($117 billion annual) is durable but is itself a projection-based estimate. A second economic-impact study from an independent group would strengthen the evidence base for characterizing mercury exposure as a high-impact public-health burden rather than a low-priority concern.
+
+The species-specific projections (tuna versus swordfish versus mackerel versus salmon) are not separately resolved in Wang 2023; the coupled-model output is at the trophic-level aggregation. Species-specific projections that incorporate species-specific bioaccumulation factors and fishery-specific source-region weighting would resolve the climate-MeHg trajectory at the species-level granularity, which is the granularity at which dietary advice and product-level thresholds operate.
+
+### Provisional status
 
 This synthesis was established 2026-05-16 on three anchor sources. The synthesis is the most provisional of the three established in this batch because criterion 1 (three independent A-tier sources) is met with a review plus a projection plus a mechanism rather than with three independent projections, and a second quantitative projection study would strengthen the claim materially. The projection ranges (5 to 30 percent fish-MeHg increase by 2100 under high-emission scenarios) are robust to the present anchors but should be updated against future model-intercomparison studies as they enter the corpus. Resynthesis triggers fire on the next two independent A-tier projection studies, or on any IPCC-cycle update that incorporates ocean-mercury cycling into a formal assessment.
 
@@ -113,9 +119,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

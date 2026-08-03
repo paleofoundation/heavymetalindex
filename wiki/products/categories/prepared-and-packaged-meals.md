@@ -11,6 +11,25 @@ description: Products in the Prepared and Packaged Meals category (2), by subcat
 
 Product pages in **Prepared and Packaged Meals**, organized by subcategory. Each subcategory below collects the product pages that share a form and a supply chain; the evidence for each one lives on its own page.
 
+## Metals that govern this category
+
+The metals below are the ones the corpus has actually measured in this category, ranked by how many routed sources report each. This reflects what has been read, not what has been certified or regulated: a metal low on this list may be under-studied here rather than absent, and the count is a measure of evidence depth rather than of contamination.
+
+| Metal | Sources reporting it |
+| --- | --- |
+| Al | 15 |
+| Pb | 11 |
+| Cd | 9 |
+| tHg | 7 |
+| tAs | 6 |
+| Ni | 5 |
+| Sn | 5 |
+| Cr | 4 |
+| MeHg | 2 |
+| Cu | 1 |
+
+_Counted from data/evidence/product_source_routing_audit.csv joined to each source page's declared analytes; 15 sources at the deepest metal._
+
 ## Subcategories
 
 ### [[products/mixed-meals-prepared-foods|Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)]]
