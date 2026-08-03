@@ -96,6 +96,25 @@ export const V3SectionLabels: QuartzTransformerPlugin = () => ({
         const renames = type ? RENAMES[type] : undefined
         if (!renames?.length) return
 
+        // THE RAIL READS THE TOC, NOT THE DOM. Quartz builds file.data.toc in
+        // Plugin.TableOfContents(), which runs BEFORE this transformer, so
+        // renaming only the headings left the left rail showing the ORIGINAL
+        // labels while the body showed v3's. Every source page rendered a rail
+        // reading "Key numbers / Methods (brief) / Wiki pages this source may
+        // touch" above a body reading "Extracted values / Methods, as reported
+        // / Cited by" — the same page disagreeing with itself in two columns,
+        // on 2,219 pages. The toc entries carry the same text, so they take the
+        // same renames; slugs are untouched here exactly as they are below.
+        const toc = file.data?.toc
+        if (Array.isArray(toc)) {
+          for (const entry of toc) {
+            const t = (entry?.text ?? "").trim()
+            if (!t) continue
+            const hit = renames.find((r) => r.from.test(t))
+            if (hit) entry.text = hit.to
+          }
+        }
+
         visit(tree, "element", (node: any) => {
           if (node.tagName !== "h2" && node.tagName !== "h3") return
           // The anchor <a> Quartz appends is a child; read only the label text.
