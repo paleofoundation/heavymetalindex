@@ -115,6 +115,92 @@ type Row = { k: string; v: string }
 // where before they had none (the pages carry no `sources`/`n_*` counts, so the
 // box did not render and the hero ran full width against v3, which gives both a
 // panel). `isIndex` keeps a section's directory page out of the per-page rows.
+// INDEX SCREENS GET A SNAPSHOT TOO. v3 gives every one of them a "Page
+// snapshot" panel (metals: Elements tracked / Core toxic metals / ...;
+// products: Categories / Subcategories / ...; regulations: Instruments tracked
+// / Jurisdictions / ...). snapshotRows only ever assembled from per-page `n_*`
+// frontmatter, which no index page carries, so `rows` came back empty and the
+// panel silently did not render — the hero ran full width on /metals,
+// /products, /regulations and /synthesis against a design that gives all four
+// a panel.
+//
+// Every number here is COUNTED FROM allFiles at build time. v3's own values are
+// mockup content (it claims 34 categories and 61 instruments; the repo has its
+// own totals) and publishing them would be publishing a number we cannot
+// support — the standing rule is structure from v3, data from the repo.
+function indexSnapshot(section: string, allFiles: QuartzComponentProps["allFiles"]): Row[] {
+  // DIRECT CHILDREN ONLY. `wiki/products/categories/` holds 34 category pages
+  // beneath the products layer, so a plain prefix match counted them among the
+  // subcategories and the hero published "Subcategories 448" over a layer that
+  // has 414. A category is not a subcategory of itself.
+  const inSection = allFiles.filter((f) => {
+    const s = f.slug ?? ""
+    return s.startsWith(`${section}/`) && !s.endsWith("/index") && s.split("/").length === 2
+  })
+  const layerCount = (seg: string) =>
+    allFiles.filter((f) => {
+      const s = f.slug ?? ""
+      return s.startsWith(`${seg}/`) && !s.endsWith("/index") && s.split("/").length === 2
+    }).length
+  const n = inSection.length
+  if (!n) return []
+  const fmOf = (f: (typeof inSection)[number]) => (f.frontmatter ?? {}) as Record<string, unknown>
+  // Counts NUMBERS as well as strings. `hmtc_category: 23` parses to a number,
+  // so a string-only test saw exactly one distinct value on /products — the
+  // literal "pending_taxonomy_review" — and the hero published "Categories 1"
+  // over a catalogue of 448 subcategories. A visibly false count on a live page
+  // is worse than no panel at all.
+  const distinct = (key: string, opts?: { numericOnly?: boolean }) => {
+    const set = new Set<string>()
+    const add = (x: unknown) => {
+      if (typeof x === "number" && Number.isFinite(x)) set.add(String(x))
+      else if (typeof x === "string" && x.trim()) {
+        if (opts?.numericOnly && !/^\d+$/.test(x.trim())) return
+        set.add(x.trim())
+      }
+    }
+    for (const f of inSection) {
+      const v = fmOf(f)[key]
+      if (Array.isArray(v)) v.forEach(add)
+      else add(v)
+    }
+    return set.size
+  }
+  const countWhere = (pred: (fm: Record<string, unknown>) => boolean) =>
+    inSection.filter((f) => pred(fmOf(f))).length
+
+  const rows: Row[] = []
+  const push = (k: string, v: number) => {
+    if (v > 0) rows.push({ k, v: String(v) })
+  }
+
+  if (section === "metals") {
+    push("Elements tracked", n)
+    push("Elements split by species", distinct("parent_metal"))
+    push("Ingredient profiles", layerCount("ingredients"))
+    push("Product categories", layerCount("products"))
+  } else if (section === "products") {
+    push("Subcategories", n)
+    push("Categories", distinct("hmtc_category", { numericOnly: true }))
+    push("Ingredient profiles", layerCount("ingredients"))
+  } else if (section === "ingredients") {
+    push("Ingredient profiles", n)
+    push("Downstream categories", layerCount("products"))
+    push("Metals tracked", layerCount("metals"))
+  } else if (section === "regulations") {
+    push("Instruments tracked", n)
+    push("Jurisdictions", distinct("jurisdiction"))
+    push("Currently in force", countWhere((fm) => String(fm.status ?? "").toLowerCase() === "in-force" || String(fm.status ?? "").toLowerCase() === "in force"))
+    push("Metals covered", Math.max(distinct("metal"), distinct("metals")))
+  } else if (section === "sources") {
+    push("Source records", n)
+    push("Distinct elements measured", distinct("metals"))
+  } else {
+    push("Pages in this layer", n)
+  }
+  return rows
+}
+
 function snapshotRows(
   fm: Record<string, unknown>,
   section: string,
@@ -234,7 +320,12 @@ export default (() => {
 
     const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
     const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
-    const rows = snapshotRows(fm, section, citedBy, isIndex)
+    const rows = isIndex && section
+      ? (() => {
+          const declared = snapshotRows(fm, section, citedBy, isIndex)
+          return declared.length ? declared : indexSnapshot(section, allFiles)
+        })()
+      : snapshotRows(fm, section, citedBy, isIndex)
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined

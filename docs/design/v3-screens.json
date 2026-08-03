@@ -1,0 +1,373 @@
+{
+ "metal": {
+  "kind": "Metal profile",
+  "title": "Lead (Pb)",
+  "dek": "A non-essential heavy metal and pervasive environmental contaminant, and the one metal for which no agency has identified a safe level in children. This page states what each body has set, on what basis, and where the corpus supports it.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Corpus sources on this metal",
+    "896"
+   ],
+   [
+    "Ingredient profiles",
+    "15"
+   ],
+   [
+    "Product categories",
+    "8"
+   ],
+   [
+    "Regulations citing Pb",
+    "6"
+   ]
+  ]
+ },
+ "finding": {
+  "kind": "Synthesis finding \u00b7 preprint",
+  "title": "Dietary nickel is a plant-staple accumulation trait",
+  "dek": "Six independent datasets spanning four decades and five jurisdictions converge on the same commodity ranking, which is the signature of an intrinsic plant trait rather than of localized contamination.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Grade",
+    "A"
+   ],
+   [
+    "Anchor datasets",
+    "6"
+   ],
+   [
+    "Jurisdictions",
+    "5"
+   ],
+   [
+    "External review",
+    "none yet"
+   ]
+  ]
+ },
+ "ingredient": {
+  "kind": "Ingredient profile",
+  "title": "Rice",
+  "dek": "The most-studied commodity in the corpus. Flooded cultivation mobilizes arsenic into a staple crop, which is why rice carries matrix-specific limits that other cereals do not.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Corpus sources on rice",
+    "262"
+   ],
+   [
+    "Metals profiled",
+    "4"
+   ],
+   [
+    "Downstream categories",
+    "31"
+   ],
+   [
+    "Regulations citing rice",
+    "7"
+   ]
+  ]
+ },
+ "product": {
+  "kind": "Subcategory",
+  "title": "FDA Closer to Zero",
+  "dek": null,
+  "rails": [],
+  "snapshot": []
+ },
+ "regulation": {
+  "kind": "Regulation",
+  "title": "FDA Closer to Zero",
+  "dek": "The FDA program for reducing dietary exposure to lead, arsenic, cadmium, and mercury in foods eaten by babies and young children. Action levels here are nonbinding guidance, not statutory maximum levels.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Values set",
+    "6"
+   ],
+   [
+    "Metals covered",
+    "4"
+   ],
+   [
+    "Categories affected",
+    "112"
+   ],
+   [
+    "Legal status",
+    "Guidance"
+   ]
+  ]
+ },
+ "metalsIdx": {
+  "kind": "Reference layer",
+  "title": "Metals",
+  "dek": "Per-metal reference pages covering toxicology, exposure routes, food sources, and regulatory limits, with an at-a-glance comparison and the species distinctions that govern them.",
+  "rails": [
+   [
+    "01",
+    "Overview",
+    "#overview"
+   ],
+   [
+    "02",
+    "What a metal page covers",
+    "#covers",
+    "8"
+   ],
+   [
+    "03",
+    "Species \u2014 read this first",
+    "#species",
+    "4"
+   ],
+   [
+    "04",
+    "Metals at a glance",
+    "#glance",
+    "8"
+   ],
+   [
+    "05",
+    "Full index",
+    "#full-index",
+    "36"
+   ],
+   [
+    "09",
+    "Update history",
+    "#history"
+   ]
+  ],
+  "snapshot": [
+   [
+    "Elements tracked",
+    "36"
+   ],
+   [
+    "Core toxic metals",
+    "17"
+   ],
+   [
+    "Reference stubs",
+    "19"
+   ],
+   [
+    "Elements split by species",
+    "4"
+   ]
+  ]
+ },
+ "productsIdx": {
+  "kind": "Catalogue",
+  "title": "Product categories",
+  "dek": "Heavy-metal evidence for consumer food and personal-care product categories, organized by category and subcategory.",
+  "rails": [
+   [
+    "01",
+    "Overview",
+    "#overview"
+   ],
+   [
+    "02",
+    "Categories",
+    "#categories",
+    "34"
+   ],
+   [
+    "09",
+    "Update history",
+    "#history"
+   ]
+  ],
+  "snapshot": [
+   [
+    "Categories",
+    "34"
+   ],
+   [
+    "Subcategories",
+    "357"
+   ],
+   [
+    "Largest category",
+    "29"
+   ],
+   [
+    "Smallest category",
+    "2"
+   ]
+  ]
+ },
+ "regulationsIdx": {
+  "kind": "Instrument register",
+  "title": "Regulations",
+  "dek": "Regulatory thresholds, action levels, and guidance on heavy metals in food across jurisdictions.",
+  "rails": [
+   [
+    "01",
+    "Overview",
+    "#overview"
+   ],
+   [
+    "02",
+    "Categories",
+    "#categories",
+    "34"
+   ],
+   [
+    "09",
+    "Update history",
+    "#history"
+   ]
+  ],
+  "snapshot": [
+   [
+    "Instruments tracked",
+    "61"
+   ],
+   [
+    "Jurisdictions",
+    "10"
+   ],
+   [
+    "Currently in force",
+    "44"
+   ],
+   [
+    "Superseded or withdrawn",
+    "11"
+   ]
+  ]
+ },
+ "source": {
+  "kind": "Source record",
+  "title": "Scientific Opinion on Lead in Food",
+  "dek": "EFSA Panel on Contaminants in the Food Chain, 2010. The opinion that withdrew the tolerable weekly intake for lead and reported benchmark dose lower confidence limits for three endpoints.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Extracted values",
+    "11"
+   ],
+   [
+    "Index pages citing it",
+    "64"
+   ],
+   [
+    "Tier",
+    "A"
+   ],
+   [
+    "Integrity",
+    "Verified"
+   ]
+  ]
+ },
+ "synthesis": {
+  "kind": "Directory",
+  "title": "Synthesis findings",
+  "dek": "Conclusions the corpus supports across independent sources, each graded for the strength of that support and published alongside the evidence that argues against it.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Findings published",
+    "24"
+   ],
+   [
+    "Grade A findings",
+    "7"
+   ],
+   [
+    "Sources contributing",
+    "412"
+   ],
+   [
+    "Regraded this year",
+    "3"
+   ]
+  ]
+ },
+ "portal": {
+  "kind": "Portal",
+  "title": "Product categories",
+  "dek": "Consumer-facing categories, grouped by how a person encounters them. A portal is navigation: it states what exists, how much of it has been reviewed, and where the evidence lives.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Categories indexed",
+    "414"
+   ],
+   [
+    "Portals",
+    "11"
+   ],
+   [
+    "Variant groups",
+    "46"
+   ],
+   [
+    "Reviewed",
+    "62%"
+   ]
+  ]
+ },
+ "category": {
+  "kind": "Category",
+  "title": "Infant and child foods",
+  "dek": "Thirty-eight categories consumed by the population with the highest intake per unit body weight in the food supply. Four metals govern the group; the subcategories differ in which one dominates.",
+  "rails": [],
+  "snapshot": [
+   [
+    "Subcategories",
+    "38"
+   ],
+   [
+    "Variant groups",
+    "6"
+   ],
+   [
+    "Sources routed here",
+    "412"
+   ],
+   [
+    "Reviewed",
+    "86%"
+   ]
+  ]
+ },
+ "browse": {
+  "kind": "Directory",
+  "title": "Search the Index",
+  "dek": "Records across metals, ingredients, product categories, regulations, and the source archive, ranked by the depth of evidence routed to each.",
+  "rails": [
+   [
+    "01",
+    "Results",
+    "#results",
+    "41"
+   ]
+  ],
+  "snapshot": [
+   [
+    "Records matched",
+    "41"
+   ],
+   [
+    "Source records",
+    "23"
+   ],
+   [
+    "Reference pages",
+    "18"
+   ],
+   [
+    "Query time",
+    "38 ms"
+   ]
+  ]
+ }
+}
