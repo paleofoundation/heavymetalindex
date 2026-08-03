@@ -260,9 +260,21 @@ function snapshotRows(
   // are the product pages the page itself links out to — read from the page's
   // own outbound links so the number can never disagree with the list below it.
   if (outboundIn && (fm.type === "category-index" || fm.type === "portal-index")) {
-    const subs = outboundIn("products")
+    // A PORTAL points at categories; a CATEGORY points at subcategories. Both
+    // resolve to slugs under `products/`, so counting the prefix alone labelled
+    // the portal's 34 category links "Subcategories" — the right number under
+    // the wrong noun, which is the kind of error a reader trusts.
+    const isPortal = fm.type === "portal-index"
+    const cats = outboundIn("products/categories")
+    const subs = outboundIn("products") - cats
     const built: Array<Row | null> = [
-      subs > 0 ? { k: "Subcategories", v: String(subs) } : null,
+      isPortal
+        ? cats > 0
+          ? { k: "Categories", v: String(cats) }
+          : null
+        : subs > 0
+          ? { k: "Subcategories", v: String(subs) }
+          : null,
       outboundIn("metals") > 0 ? { k: "Metals profiled", v: String(outboundIn("metals")) } : null,
       outboundIn("ingredients") > 0
         ? { k: "Ingredient profiles", v: String(outboundIn("ingredients")) }
