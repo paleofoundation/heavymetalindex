@@ -206,6 +206,9 @@ function snapshotRows(
   section: string,
   citedBy: number,
   isIndex: boolean,
+  inboundIn?: (seg: string) => number,
+  pageTitle?: string,
+  outboundIn?: (seg: string) => number,
 ): Row[] {
   const declared = fm.snapshot
   if (Array.isArray(declared)) {
@@ -249,6 +252,59 @@ function snapshotRows(
     ].filter((r): r is Row => r !== null)
   }
 
+  // CATEGORY screens (wiki/products/categories/*, type: category-index). These
+  // are v3's `category` screen, and v3 gives them a panel (Subcategories /
+  // Variant groups / Sources routed here / Reviewed). Nothing in the corpus
+  // links TO a category page, so the inbound graph is empty for them and the
+  // panel did not render at all. Their counts come from their CHILDREN, which
+  // are the product pages the page itself links out to — read from the page's
+  // own outbound links so the number can never disagree with the list below it.
+  if (outboundIn && (fm.type === "category-index" || fm.type === "portal-index")) {
+    const subs = outboundIn("products")
+    const built: Array<Row | null> = [
+      subs > 0 ? { k: "Subcategories", v: String(subs) } : null,
+      outboundIn("metals") > 0 ? { k: "Metals profiled", v: String(outboundIn("metals")) } : null,
+      outboundIn("ingredients") > 0
+        ? { k: "Ingredient profiles", v: String(outboundIn("ingredients")) }
+        : null,
+    ]
+    const out = built.filter((r): r is Row => r !== null)
+    if (out.length) return out
+  }
+
+  // METAL / INGREDIENT / PRODUCT detail screens: four rows from the link graph,
+  // matching v3's shape. Frontmatter `sources`/`n_sources` still wins for the
+  // corpus count where a page declares it, because that number is curated;
+  // the other three layers have no frontmatter equivalent and are counted.
+  if (!isIndex && inboundIn && (section === "metals" || section === "ingredients" || section === "products")) {
+    const declaredSources = num(fm.sources) ?? num(fm.n_sources)
+    const topic = pageTitle ? pageTitle.toLowerCase() : "this page"
+    const srcRow =
+      declaredSources ?? (inboundIn("sources") > 0 ? String(inboundIn("sources")) : undefined)
+    const built: Array<Row | null> = [
+      srcRow
+        ? {
+            k: section === "metals" ? "Corpus sources on this metal" : `Corpus sources on ${topic}`,
+            v: srcRow,
+          }
+        : null,
+      section !== "metals" && inboundIn("metals") > 0
+        ? { k: "Metals profiled", v: String(inboundIn("metals")) }
+        : null,
+      section !== "ingredients" && inboundIn("ingredients") > 0
+        ? { k: "Ingredient profiles", v: String(inboundIn("ingredients")) }
+        : null,
+      section !== "products" && inboundIn("products") > 0
+        ? { k: "Product categories", v: String(inboundIn("products")) }
+        : null,
+      inboundIn("regulations") > 0
+        ? { k: "Regulations citing it", v: String(inboundIn("regulations")) }
+        : null,
+    ]
+    const out = built.filter((r): r is Row => r !== null).slice(0, 4)
+    if (out.length) return out
+  }
+
   const sources = num(fm.sources) ?? num(fm.n_sources)
   if (sources) {
     rows.push({
@@ -283,9 +339,24 @@ export default (() => {
     // HeroBand, so allFiles is already here; this adds no frontmatter and no
     // generator.
     const simpleSlug = simplifySlug(slug)
-    const citedBy = Array.isArray(allFiles)
-      ? allFiles.filter((f) => f.links?.includes(simpleSlug)).length
-      : 0
+    const inbound = Array.isArray(allFiles)
+      ? allFiles.filter((f) => f.links?.includes(simpleSlug))
+      : []
+    const citedBy = inbound.length
+    // The same read, SPLIT BY LAYER. v3's detail snapshots are four rows of
+    // exactly this shape — the metal screen shows "Corpus sources on this
+    // metal / Ingredient profiles / Product categories / Regulations citing
+    // Pb". The build had the whole graph in hand and collapsed it to one total,
+    // so Metal, Ingredient and Subcategory screens rendered a single-row panel
+    // against a design that gives them four. Nothing new is read: this is the
+    // inbound set already computed above, bucketed by the linking page's layer.
+    const inboundIn = (seg: string) =>
+      inbound.filter((f) => (f.slug ?? "").startsWith(`${seg}/`)).length
+    // This page's OWN links, bucketed the same way — what a directory page
+    // points at is its content, where a detail page's content is what points at it.
+    const ownLinks = ((fileData as { links?: string[] }).links ?? []) as string[]
+    const outboundIn = (seg: string) =>
+      new Set(ownLinks.filter((l) => String(l).startsWith(`${seg}/`))).size
 
     const rawTitle = (typeof fm.title === "string" && fm.title) || parts[parts.length - 1] || ""
     if (!rawTitle) return null
@@ -322,10 +393,10 @@ export default (() => {
     const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
     const rows = isIndex && section
       ? (() => {
-          const declared = snapshotRows(fm, section, citedBy, isIndex)
+          const declared = snapshotRows(fm, section, citedBy, isIndex, inboundIn, rawTitle, outboundIn)
           return declared.length ? declared : indexSnapshot(section, allFiles)
         })()
-      : snapshotRows(fm, section, citedBy, isIndex)
+      : snapshotRows(fm, section, citedBy, isIndex, inboundIn, rawTitle, outboundIn)
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
