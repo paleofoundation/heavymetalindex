@@ -59,7 +59,28 @@ export default (() => {
       const rest = GROUPS.flatMap((g) => inCat(g.key, want).slice(1))
       return [...first, ...rest].filter(Boolean)
     }
-    const connections = [...pick(true), ...pick(false)].slice(0, CONNECTION_CAP)
+    // INDEX SCREENS LINK SIBLING LAYERS, NOT MEMBERS. Measured in the v3
+    // artifact: the metals-index screen's connections are [Ingredients,
+    // Product categories], and the products index's are [Metals, Ingredients].
+    // Computing them the normal way instead walks this page's own outbound
+    // links, which on an index are its members — so /metals rendered
+    // "Arsenic / Arsenic, Inorganic / Arsenic, Total", three spellings of one
+    // element, as the whole Connections block. A layer's peers are the other
+    // layers; its members are already the body of the page.
+    const LAYERS: { seg: string; label: string }[] = [
+      { seg: "metals", label: "Metals" },
+      { seg: "ingredients", label: "Ingredients" },
+      { seg: "products", label: "Product categories" },
+      { seg: "regulations", label: "Regulations" },
+    ]
+    const here = (slug ?? "").replace(/\/index$/, "")
+    const isLayerIndex = LAYERS.some((l) => l.seg === here)
+    const connections = isLayerIndex
+      ? LAYERS.filter((l) => l.seg !== here).map((l) => ({
+          href: slug ? resolveRelative(slug, `${l.seg}/index` as SimpleSlug) : `/${l.seg}/`,
+          label: l.label,
+        }))
+      : [...pick(true), ...pick(false)].slice(0, CONNECTION_CAP)
 
     const rel = (to: string) => (slug ? resolveRelative(slug, to as SimpleSlug) : `/${to}`)
     // Static assets are not page slugs, so they resolve from the site root the
