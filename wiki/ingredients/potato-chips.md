@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Potato chips are a fried, sliced potato product, and their metal content originates primarily in the soil from which the source potatoes were grown. Potatoes (Solanum tuberosum) are shallow-rooted tubers that grow in direct contact with the soil matrix; cadmium (Cd) and lead (Pb) in soil solution are taken up through root absorption, with Cd being more bioavailable than Pb in most agricultural soils. The potato skin and outer flesh layers carry higher metal concentrations than the inner flesh because metals accumulate preferentially at the soil-plant interface and in the epidermal tissue. When chips are produced from skin-on slices, this differential is preserved in the finished product. Beyond the plant-accumulation pathway, atmospheric deposition of Pb onto field surfaces can contribute to surface contamination of the tuber, though this pathway is secondary relative to soil uptake in most modern production contexts. The frying step does not introduce metals from refined vegetable oil, which is typically stripped of trace contaminants during industrial refining. However, the moisture loss during frying, which reduces the product weight by roughly 50 to 60 percent relative to the raw slice, concentrates all pre-existing metals in proportion; a metal present at 10 ppb in the raw slice may appear at 20 to 25 ppb in the finished chip. This concentration effect is the primary reason processed snack forms of potatoes show higher per-gram metal loads than boiled or mashed preparations.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

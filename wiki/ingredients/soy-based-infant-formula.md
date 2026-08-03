@@ -138,6 +138,26 @@ Soy-based infant formula uses soy protein isolate as the protein base rather tha
 
 Soy-based formula is medically indicated for infants with cow-milk-protein allergy or galactosemia, and is otherwise consumed by infants of vegan families or by parents of preference. The HMTc Cat 1 Step 0 lock splits soy-based formula from non-soy into separate product rows ([[products/infant-formula-powder-soy-based]] and [[products/infant-formula-rtf-liquid-soy-based]]) because the Al/Ni/Cd-elevated profile warrants separate certification analysis. The HMTc panel concerns for soy-based infant formula are dominantly Al, Ni, and Cd (the soy-protein-isolate inheritance pathway), plus the standard [[metals/lead|Pb]] concerns common to all infant formulas. Arsenic occurrence in soy-based formula sits at 7-12 ppb tAs/iAs medium-confidence based on the U.S. systematic review by [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Thoerig 2025]], the U.S. cohort biomarker work by [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]], and the speciation survey by [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 below 5 | below pooling depth: iAs, tAs |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 The body-level analyte snapshot for soy-based formula follows the per-format pages: see [[products/infant-formula-powder-soy-based]] and [[products/infant-formula-rtf-liquid-soy-based]] for the format-specific concentration tables. The dominant analytes of concern (Al, Ni, Cd) reflect the soy-protein-isolate inheritance described above; the contributing sources documented in the Source legend collectively establish the multi-fold Al elevation versus cow-milk formula.

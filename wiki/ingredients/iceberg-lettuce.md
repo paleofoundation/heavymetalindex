@@ -104,6 +104,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Iceberg lettuce is a head-forming variety of Lactuca sativa with a notably high water content (approximately 95 percent) relative to other leafy vegetables. Like all leafy vegetables, it is capable of accumulating cadmium through root uptake from soil and lead through atmospheric deposition on leaf surfaces. However, several features of iceberg lettuce distinguish its contamination profile from denser leafy greens such as spinach or kale. The tight head structure means that outer wrapper leaves, which are the primary site of atmospheric Pb deposition, largely enclose and protect the inner leaves that reach the consumer; outer leaves are typically removed during harvesting and packing. The high water content dilutes metal concentrations on a fresh-weight basis relative to more concentrated leafy vegetables. Soil Cd is the dominant pathway for the Cd detected in iceberg lettuce, operating through root uptake into the edible leaf tissue; the FDA FY2018-FY2020 TDS data show Cd detectable in all 27 samples, with a median of 27 ppb and a maximum of 73 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. Nickel is also consistently detected, with a median of 90 ppb and a maximum of 250 ppb, reflecting the general tendency of leafy vegetables to accumulate Ni from soil. Lead, total arsenic, total mercury, and uranium were below their reporting limits across all 27 TDS samples, and chromium was below the limit in 26 of 27 with a single detect at 100 ppb; these below-limit results are carried as left-censored bounds rather than as measured zeros, so they constrain the edible-leaf metal burden from above rather than establishing it at zero (see the Synthesis basis and censoring treatment section). The head-leaf structure and commercial trimming of outer wrapper leaves are consistent with the low lead burden, but the FDA composite is fully censored for lead and cannot by itself confirm a zero value.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 4 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

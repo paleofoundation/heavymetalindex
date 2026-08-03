@@ -106,6 +106,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Grapefruit (Citrus paradisi) is a tree fruit with a thick, protective rind that substantially shields the edible inner flesh from surface contamination pathways such as atmospheric deposition of Pb-containing particulates and spray-borne metal residues. Citrus trees are deep-rooted perennial crops that draw metals from subsoil horizons rather than only the topsoil layer, but grapefruit orchards in major commercial growing regions (Florida, Texas, California in the US; Mediterranean Spain; South Africa) typically occupy soils with moderate metal burdens, and the physiology of citrus root metal uptake does not involve the same high-efficiency channels as, for example, leafy vegetables or legumes. The thick rind (flavedo and albedo) accumulates more Pb and other atmospherically deposited metals than the edible flesh, but since the rind is not consumed in typical fresh-fruit use, the consumer exposure from grapefruit flesh is very low. The FDA TDS data for raw grapefruit (n=27) report every measured analyte (Cd, Cr, Ni, Pb, U, tAs, tHg) below its reporting limit across the entire distribution [[sources/fda2022-tds-elements-fy2018-fy2020]]; those below-limit results are carried as left-censored bounds rather than as measured zeros, and the European retail citrus survey that measured grapefruit directly detected lead and cadmium at low but non-zero concentrations in the whole fruit (see the Synthesis basis and censoring treatment section). Grapefruit flesh remains among the lowest-risk food matrices for heavy metal exposure, but the values are low rather than zero.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 6 of 10 populated analytes declare a basis | no wet/dry basis declared: iAs, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

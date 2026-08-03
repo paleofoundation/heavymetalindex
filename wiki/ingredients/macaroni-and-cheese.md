@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Macaroni and cheese prepared from a boxed mix is a composite food product with two primary components: a refined-wheat pasta (macaroni) and a processed cheese sauce powder. The primary metal pathway in this product is cadmium, which enters through the semolina or refined wheat flour used to make the pasta. Wheat accumulates Cd through root uptake from soil, with durum wheat (used for semolina and pasta) showing somewhat different Cd accumulation characteristics from bread wheat. The milling of durum wheat into semolina removes much of the bran and germ (which carry higher Cd than the endosperm), but refined pasta flour retains detectable Cd because Cd distributes throughout the grain. The cheese powder component contributes very little to metal load, as dairy products are generally among the lowest-metal food matrices and cheese powders, which are derived from pasteurized milk with added emulsifiers, do not concentrate metals from the dairy fraction. The FDA FY2018-FY2020 TDS data for macaroni and cheese from a boxed mix found Cd ranging from 9.4 to 13 ppb and U with a maximum of 2.8 ppb, with other analytes at or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the wheat pathway being the dominant contributor.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

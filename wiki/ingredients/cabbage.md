@@ -97,6 +97,26 @@ Cabbage (Brassica oleracea var. capitata) is the head-forming leafy vegetable co
 
 Cabbage takes metals from soil predominantly through root uptake, with brassicas (Brassica oleracea, B. rapa, B. juncea, B. napus) known as moderate-to-high cadmium accumulators relative to other vegetable families. The compact head structure reduces surface-area-to-volume ratio relative to open-leaf greens, which means atmospheric Pb deposition is a smaller contributor than for spinach or kale grown in the same soil. The outer-leaf-vs-inner-head distinction matters: outer leaves are exposed to atmospheric deposition and carry slightly more Pb, while inner head tissue reflects primarily root-uptake. The Armand 2026 Iranian Behbahan probabilistic risk modeling work covered both lettuce and cabbage and found Pb, Cd, Cr, Ni at cumulative-exposure levels of concern under reasonable-worst-case consumption assumptions ([[sources/armand2026-lettuce-cabbage-behbahan]]). The Okonofua 2024 Nigerian mining-pits work demonstrated bioaccumulation of Pb, Cd, tHg, Ni from contaminated mining-area water into cabbage tissue and the associated tilapia fish, with concentrations in both reaching levels of regulatory concern ([[sources/okonofua2024-mining-pits-cabbage-fish-nigeria]]). The Reczajska 2005 Polish 272-sample chromium-in-plant-foods work provides the strongest single dataset for Cr-in-cabbage specifically ([[sources/reczajska2005-chromium-plant-foods-poland]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Al, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

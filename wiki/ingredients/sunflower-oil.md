@@ -97,6 +97,26 @@ Sunflower oil (Helianthus annuus seed oil) is the third- or fourth-most-consumed
 
 Sunflower oil enters the food system through seed (Helianthus annuus achene) production, mechanical or solvent-assisted extraction from the dehulled seed, and refining (degumming, neutralisation, bleaching, deodorisation). The seed accumulates Pb and Cd from soil through root uptake at modest rates relative to leafy vegetables; the achene's oil fraction (~40% by mass) carries a small fraction of the seed's total metal load because most metals partition with the protein-and-fiber-rich press cake. Refining further reduces residual metals through filtration, bleaching-clay adsorption, and deodorisation. Bleaching is the step that can introduce Ni from acid-activated clay catalysts; the magnitude is small but is the explanation for Ni being detectable in refined sunflower oil at levels above unrefined product. Packaging-migration during shelf life adds trace Pb, Cd, and other metals depending on the contact material. The Iranian Hamadan probabilistic risk work (n=40 vegetable oil samples) found sunflower oil among the lower-Pb and lower-Cd edible oils in the Iranian retail market ([[sources/mehri2024-vegetable-oils-iran-hamadan-ptes]]). The Ethiopian Gondar City survey (n=17) and the Turkish Pehlivan 2008 work confirm the pattern across emerging-market and Mediterranean settings. Geopolitical supply: Ukraine and Russia together produced ~75% of global sunflower oil exports pre-2022, and the 2022-2024 supply disruption shifted European import flows to alternative origins (Argentina, Turkey, Romania) without dramatic shifts in metal load reported in the loaded corpus.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 at 5-14, 4 below 5 | below pooling depth: tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -98,6 +98,26 @@ Commercial muscle meat from mammals and poultry is among the lower-risk food cat
 
 The category includes muscle cuts from beef, pork, lamb, and poultry, as well as processed meat products (sausages, frankfurters, deli meats) that may incorporate mechanically separated meat or organ-meat inclusions. Processed products are the relevant risk variant because organ-meat inclusion in formulation can elevate Cd above what pure muscle tissue would contribute. This page covers commercial muscle meat and processed meat products as a category; organ meats including kidney and liver are separately characterized.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 at 15+ studies, 5 at 5-14, 2 below 5 | below pooling depth: iAs, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | THIN | 1 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | OK | 2 instruments name this commodity | — |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

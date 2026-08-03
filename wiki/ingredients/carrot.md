@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Carrot (Daucus carota) is a root vegetable that grows entirely underground, positioning the edible taproot in direct contact with the soil solution throughout its development. This direct soil-root interface is the primary driver of heavy metal accumulation in carrots, distinguishing root vegetables as a category from above-ground produce. Lead and cadmium dissolved in the soil solution are absorbed across the root epidermis and periderm (the outer skin layer) and may be transported inward into the root cortex and storage tissue, though both metals tend to accumulate at higher concentrations in the outer layers (periderm and immediately sub-periderm cortex) than in the inner core. Soil pH is a key determinant: in acidic soils (below pH 6.0), Pb and Cd become more soluble and bioavailable, increasing root uptake substantially. Soil organic matter content, clay fraction, and cation exchange capacity modulate metal availability alongside pH. El-Batal et al. 2023 measured Ni, Cd, Pb, and Co in carrots irrigated with municipal wastewater in Egypt, finding detectable accumulation from all four metals and demonstrating that selenium nanoparticle treatment reduced accumulation by 30 to 60 percent [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles|El-Batal et al. 2023]]. Tonska et al. 2020 found no significant difference in Pb and Cd between organic and conventional carrots in Poland [[sources/tonska2020-carrots-lead-cadmium-organic|Tonska et al. 2020]], and Rusin et al. 2021 found all tested Polish carrot samples below EU maximum residue levels for both Cd and Pb across 370 samples [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, iAs, tHg, Al, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

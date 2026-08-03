@@ -99,6 +99,26 @@ Avocado is a lipid-rich tree fruit (approximately 15 percent fat by weight) whos
 
 The FDA FY2018-FY2020 TDS dataset for raw avocado (TDS Food 97, n=27) shows that avocado is a moderate-Ni matrix: Ni was detectable in all 27 samples with a median of 180 ppb, a p90 of 374 ppb, and a maximum of 580 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Cadmium was also detectable in all samples, with a median of 5.4 ppb and a maximum of 59 ppb. Total arsenic showed a p90 of 25.6 ppb and a maximum of 50 ppb, which is notable relative to most fruits. Lead was below the 4 µg/kg reporting limit in 26 of 27 composites with a single detect at 12 µg/kg, which the resynthesis treats as left-censored rather than as a measured zero; the upper distribution is recovered from primary fresh-fruit literature (see "Synthesis basis and censoring treatment" below). Chromium was below the 50 µg/kg reporting limit in all 27 composites, and total chromium was below the limit of detection in every avocado-pulp sample of the Peruvian survey, so the chromium cell rests on a censored floor rather than a confident zero. The elevated Ni relative to most fruits likely reflects Ni-rich volcanic or ultramafic soils prevalent in major avocado-producing regions (Mexico, Central America, California), though source-region breakdown is not available in TDS data. The lipid-rich mesocarp has not been shown to selectively accumulate fat-soluble metal species; the metals present appear to follow aqueous transport through the vascular system rather than lipophilic partitioning.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, iAs, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 2 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, tHg, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -106,6 +106,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Cauliflower is a Brassica vegetable that accumulates cadmium primarily through root uptake from soil, a pathway common to the crucifer family. Brassicas express metal-binding proteins and organic acid secretions that actively mobilise cadmium and other divalent cations from the rhizosphere, making them moderate cadmium accumulators relative to other vegetables. The dense, compact head structure of cauliflower limits direct atmospheric deposition of lead onto edible surfaces, unlike leafy greens where large surface-area-to-mass ratios drive leaf-surface Pb contamination. Soil cadmium concentration, pH (lower pH increases cadmium availability), and phosphate fertiliser history are the primary agronomic drivers of cauliflower cadmium load. Nickel uptake follows a similar root-uptake pathway and is detectable in some surveys; the FDA Total Diet Study FY2018-FY2020 found Ni in the 90th-percentile sample at 97 ppb (wet weight, n=27) [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 4 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

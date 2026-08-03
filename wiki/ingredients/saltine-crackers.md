@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Saltine crackers are thin, crisp crackers made primarily from refined wheat flour (typically white flour from which bran and germ have been removed), water, fat, and salt, with yeast or baking soda as a leavening agent. The heavy metal profile of saltine crackers is determined almost entirely by the metal content of the refined wheat flour base. Wheat (Triticum aestivum and related species) takes up cadmium (Cd) and lead (Pb) from soil through root absorption; Cd bioavailability is the primary driver because, as with most grain crops, Cd is efficiently translocated from root to grain. Refined white flour contains lower Cd than whole wheat flour because Cd preferentially accumulates in the outer layers of the wheat grain, including the bran and aleurone layer, which are removed during milling. A typical Cd concentration in whole wheat flour may be two to three times higher than in the corresponding white flour from the same source grain. Saltine crackers, being made from refined flour, therefore represent a moderate rather than high Cd risk within the wheat product category. Pb in wheat grain is low under normal agricultural conditions, and the milling of refined flour does not introduce Pb unless equipment or processing water is contaminated. Salt (NaCl) added to saltines at typical cracker-level inclusions (approximately 1 to 2 percent by weight) contributes negligible metals when food-grade salt is used. Vegetable shortening or oil added as a fat source is similarly low-risk after industrial refining.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

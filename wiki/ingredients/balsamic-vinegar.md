@@ -97,6 +97,26 @@ Balsamic vinegar — the aged grape-must-derived condiment from the Modena and R
 
 Balsamic vinegar accumulates heavy metals through two principal pathways: the grape-must substrate and the aging-vessel extraction. The substrate is concentrated grape must from Trebbiano, Lambrusco, or other Modenese grape varieties; grape-must carries grape-source Pb and Cd at modest levels driven by vineyard soil and atmospheric deposition. Concentration of the must (cooked to roughly 1/3 of its original volume) raises per-mass metal concentrations proportionally before aging begins. Aging is the dominant pathway for traditional product: the multi-wood-barrel sequence over 12-25+ years allows the acidic concentrated must to extract trace Pb, Cd, Al, and other metals from the wood, from previous-batch residual concentrate that has bonded to the barrel interior, and from any historical barrel-coating or sealing materials. The Karavoltsos 2020 Greek work found significantly higher Cu, Pb, and trace metals in balsamic versus common (white) vinegar from Greek production, with the elevation correlated with organic-matter content — the longer-aged, more concentrated, more organic-rich product carries higher metal loads ([[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]). The ESCP 2021 US-market sampling (n=24 balsamic vinegars from US retail) found Pb concentrations across the sample reaching levels that the petitioners argued required FDA regulatory action ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]). Industrial-imitation balsamic uses caramel and acidic concentrate rather than traditional aging; both forms can carry elevated Pb, but for different reasons (substrate-driven for industrial, aging-vessel-driven for traditional).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, Ni, Al, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -139,6 +139,26 @@ Non-soy infant formula is the default formula format in most markets, using cow-
 
 Non-soy formula carries a substantially different heavy-metal profile from [[ingredients/soy-based-infant-formula|soy-based formula]] because the cow-milk protein base does not concentrate Al, Ni, and Cd the way soy protein isolate does. The HMTc Cat 1 Step 0 lock splits non-soy from soy formula into separate product rows ([[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]]) on this basis. The HMTc-panel concerns for non-soy formula are dominantly [[metals/lead|Pb]] (vitamin-mineral premix inheritance), iAs when rice-derived ingredients are present, and [[metals/cadmium|Cd]] from background mineral salts. Mercury and aluminum sit at trace levels under most reasonable formulations; the [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Thoerig 2025]] U.S. systematic review documents this consistently.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 at 5-14, 3 below 5 | below pooling depth: Pb, Cd, tHg |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 The body-level analyte snapshot for non-soy formula follows the per-format pages: see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-rtf-liquid-non-soy]] for the format-specific concentration tables. The non-soy profile is dominated by trace Pb (≈1-10 ppb) and trace iAs (≈3-8 ppb), with Cd and Hg at near-LOQ background.

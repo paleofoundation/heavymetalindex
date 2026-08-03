@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Melon (cucurbit fruits including cantaloupe and honeydew) is among the lower-risk fruit categories for heavy metal accumulation. The edible flesh is physically separated from the external environment by a thick, waxy rind that limits atmospheric deposition of Pb particulates and reduces surface contamination during growth. Metal uptake in cucurbits occurs primarily through root absorption from soil, but the vine's rooting system and the water-dilution effect of the high-moisture flesh together produce low transfer factors from soil to edible tissue. Cadmium absorption by the fruit is further limited because Cd competes with calcium for uptake pathways that are less active in fruit tissue than in the roots and stems of the plant. The net result is that melon flesh typically contains concentrations of Pb, Cd, and most other regulated metals that are low relative to root vegetables or leafy greens grown under equivalent soil conditions. Inorganic arsenic and total mercury are not principal concerns for this matrix in monitoring data from major producing regions.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 3 below 5 | below pooling depth: Pb, Cd, tHg |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -97,6 +97,26 @@ Walnuts (Juglans regia, English/Persian walnut; Juglans nigra, Eastern black wal
 
 Walnut trees take up metals from soil through root uptake into the woody tissue and seed (kernel). The tree-nut nickel-accumulation pattern is driven by physiological demand for nickel as a cofactor in urease and other plant-tissue enzymes; tree nuts efficiently transport Ni from the root zone into the developing kernel. Cadmium uptake follows the standard plant pathway driven by soil Cd-to-Zn ratio; walnut kernels are moderate Cd accumulators, typically carrying 20-200 ppb on a dry-weight basis. Lead in walnuts is generally low because the woody tree tissue acts as a barrier to Pb transport from root zone to kernel, with most Pb in walnut product coming from atmospheric deposition during hulling-and-drying or from post-harvest contact contamination. The Polish Cwielag-Drabek 2025 dataset identified walnuts among the higher-Ni tree nuts within the surveyed five species, with the Ni profile broadly comparable to hazelnut and almond ([[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]). The German BfR MEAL Study (n=840 dietary Ni-intake samples, n=869 broader contaminant panel) confirmed walnuts as a meaningful dietary Ni source in the German consumption pattern ([[sources/bfr2022-nickel-dietary-intake-germany-meal]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]]). Walnut hull (the green outer hull discarded during processing) carries higher metals than the edible kernel and is sometimes used for natural-dye production, providing context but not a direct food-pathway.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 5 below 5 | below pooling depth: Pb, Cd, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

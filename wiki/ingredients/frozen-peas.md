@@ -100,6 +100,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Peas (Pisum sativum) are a leguminous crop that form symbiotic relationships with nitrogen-fixing bacteria in root nodules, a root architecture that also facilitates contact with soil metal fractions including cadmium and lead. Legumes as a plant family generally accumulate Cd from soil at higher rates than cereal crops on equivalent soils, because the organic acids and phytosiderophores exuded from legume roots to support nitrogen fixation also mobilize divalent metals including Cd from the rhizosphere. However, within the legume family, peas accumulate Cd at lower rates than dried beans or lentils because the commercially harvested portion (the immature green seed and pod) is taken earlier in the plant's growth cycle before maximum mineral accumulation in the mature seed. The pod and immature seed together carry less Cd than mature dried peas from the same plant, providing a natural dilution relative to dried legume products. Lead uptake in peas occurs primarily through soil contact and atmospheric deposition onto pod surfaces and is largely a surface contamination pathway, so the contribution of Pb to total plant burden is related to soil Pb and atmospheric deposition at the field site rather than to plant physiology specifically. Nickel is detected in frozen peas at concentrations higher than most metals in this matrix, consistent with Ni being a cofactor in the legume nitrogen-fixation enzyme system (urease), which may facilitate Ni accumulation in legume tissues at rates higher than in non-leguminous crops.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

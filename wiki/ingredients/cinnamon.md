@@ -97,6 +97,26 @@ Cinnamon — the dried inner bark of Cinnamomum trees, sold as Ceylon (Cinnamomu
 
 Cinnamon, like turmeric, has a bimodal heavy-metals distribution driven by adulteration rather than agronomy. Non-adulterated cinnamon (Ceylon or cassia) carries Pb at typical-spice levels of 50-500 ppb from ordinary soil-uptake into the inner-bark tissue and atmospheric deposition during sun-drying. Adulterated cinnamon carries Pb at 5,000-50,000 ppb (5-50 mg/kg) or higher, three to four orders of magnitude above non-adulterated baseline. The WanaBana case definitively documented the mechanism: ground cinnamon from a single Ecuadorian processor was intentionally adulterated with lead chromate (PbCrO₄, the same yellow-orange pigment implicated in the turmeric adulteration literature), with the contaminated cinnamon then incorporated into apple-cinnamon-puree baby food pouches sold under multiple brand labels across US retail. The Napier 2024 case report ([[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC]]) traced cases across NC, OH, LA, AZ, and other states, with cinnamon-source lead concentrations as high as 5 million ppb (0.5%, well over 1,000× any reasonable limit) in the adulterated supply chain. Non-adulterated cinnamon carries metals through normal agronomy: Cinnamomum trees grown in soils with elevated background Cd or Pb take up modest amounts into the bark tissue. The Cicero 2022 multi-origin work covers Ceylon and cassia cinnamon from six countries and reports the non-adulterated baseline distribution across the 8-metal panel ([[sources/cicero2022-minerals-spices-aromatic-herbs]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 at 5-14, 5 below 5 | below pooling depth: tAs, tHg, Ni, Al, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -97,6 +97,26 @@ Apple cider vinegar (ACV) is fermented apple juice or cider acidified through a 
 
 Apple cider vinegar's metal profile follows the standard vinegar pattern (see [[ingredients/vinegar]] for the category overview) with apple-specific upstream context. The apple substrate carries soil-derived Pb and Cd from orchard agronomy; apples are generally low-Pb and low-Cd among fruits, but orchards near roadways or in historically industrial regions can carry elevated atmospheric Pb on the fruit surface and elevated Cd in the flesh. The two-step fermentation (yeast then Acetobacter) does not change the metal load between starting juice and finished vinegar. The acidic finished pH (typically 2.5-3.5) makes ACV an effective metal-leacher from any contact surface during fermentation, aging (when applied), and packaging. Raw unfiltered ACV "with the mother" (the cellulose-bacterial culture that forms during fermentation) carries the cellulose mass and any metals bound to it; filtered commercial ACV removes the mother before bottling. The Saei-Dehkordi 2012 Iranian commercial-market survey of 96 vinegars provides the largest single-jurisdiction dataset and characterises the ACV subset within the broader commercial-vinegar landscape ([[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars]]). The Acosta 1993 four-country comparison places apple-derived vinegar in the lower-end of the within-vinegar-category Pb distribution relative to wine and balsamic vinegars ([[sources/acosta1993-cd-pb-ni-vinegar-types]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 at 5-14, 5 below 5 | below pooling depth: Cd, tAs, Ni, Al, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

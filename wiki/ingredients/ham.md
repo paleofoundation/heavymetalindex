@@ -101,6 +101,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Ham, as a cured pork product derived from the hind leg of swine, accumulates heavy metals through pathways similar to those governing other muscle meats: dietary intake from feed and water, and limited metabolic accumulation in soft tissue relative to visceral organs. Pork muscle generally presents low concentrations of Cd and Pb because these metals partition preferentially to the kidney cortex and liver in swine rather than to skeletal muscle. The curing process introduces several additives, including sodium chloride, sodium nitrite, and in some products inorganic phosphate salts and polyphosphate binders. Phosphate-based curing agents derived from impure mineral sources can introduce trace Cd, though food-grade phosphate specifications are intended to minimize this pathway. Cadmium in the feed chain from phosphate-fertilized crop inputs may also contribute to dietary Cd load in swine, ultimately manifesting at low levels in muscle tissue. Lead in pork muscle is typically near or below reporting limits in modern commercial production. The FDA FY2018-FY2020 Total Diet Study found detectable Pb in some ham samples at low concentrations, with Cd also detected at the high end of the distribution, reflecting the population variance across US retail sources [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 2 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -109,6 +109,26 @@ This is a structural ingredient node created so product pages can link to a real
 
 Turkey is a warm-blooded terrestrial animal whose muscle meat is a low-accumulator matrix for most heavy metals. Unlike fish, which bioaccumulate methylmercury (MeHg) through aquatic food chains, and unlike plant foods, which take up metals from soil, poultry muscle tissue is metabolically regulated: the bird's kidneys and liver process and excrete most systemic metals before they can accumulate in skeletal muscle. Residual metals in muscle reflect dietary intake from feed and water combined with the bird's metabolic efficiency of excretion. The FDA TDS FY2018-FY2020 composite for turkey breast (oven-roasted, n=27) reported lead, cadmium, mercury, and nickel below their reporting limits across the entire distribution and chromium below its limit in 26 of 27 samples ([[sources/fda2022-tds-elements-fy2018-fy2020]]); those below-limit results are carried as left-censored bounds rather than as measured zeros. The only turkey-measured occurrence dataset that detected these metals at all is a single C-tier dry-weight Iranian preprint with documented internal table inconsistencies ([[sources/raeeszadeh2021-animal-meat-metals-iran|Raeeszadeh et al. 2021]]), which is too weak and too far off the FDA wet-weight basis to anchor a published central or upper-tail value. The lead, cadmium, total-mercury, and nickel cells are therefore carried as reviewed data gaps with the FDA reporting limits noted as left-censored floors, rather than populated from chicken or broiler surveys (which measure a different species). The low FDA results are consistent with the low-accumulator characterisation of poultry muscle. Total arsenic shows a clearer signal at the higher percentiles even in the censored FDA turkey data (p95 = 7.47 ppb, max = 9.6 ppb). This tAs signal likely reflects carry-through of feed-borne organic arsenicals from poultry feed, a pathway studied more extensively in broiler chickens but applicable to turkeys raised under comparable commercial conditions. The historical use of roxarsone and nitarsone in poultry feed as growth promoters contributed to elevated As in broiler and turkey tissue; regulatory withdrawal of these compounds in the US (completed by 2015) has reduced but not eliminated this pathway.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 3 below 5 | below pooling depth: tAs, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 5 of 10 populated analytes declare a basis | no wet/dry basis declared: iAs, tAs, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable turkey-measured occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases. Only turkey-measured occurrence data populates these cells; chicken and broiler poultry surveys are not substituted for turkey, because the page is a litigation-facing turkey reference and cross-species substitution cannot be defended as turkey-specific occurrence.

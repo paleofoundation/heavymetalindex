@@ -99,6 +99,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Oranges are one of the lowest-risk food categories for heavy metal accumulation, though the edible flesh carries low but non-zero lead and cadmium rather than true zeros. The thick, waxy peel that characterizes citrus fruit provides a physical barrier that substantially limits atmospheric Pb deposition from reaching the edible flesh; Pb that deposits on the outer peel surface is removed with the peel during normal peeling and juicing operations. Root uptake of Cd and Pb from soil occurs in citrus trees as in other fruit trees, but the transfer factor from root to fruit flesh is low; citrus trees are not recognized accumulators of Pb or Cd, and the physiological buffering of the fruit through the tree's vascular system results in low concentrations in the flesh. Mercury is not a significant concern in citrus grown under typical commercial conditions. Inorganic arsenic is similarly not a significant analyte in citrus flesh. The FDA TDS FY2018-FY2020 composite for raw orange (TDS Food 79, n=27) reports Pb, Cd, Cr, and tHg below their reporting limits across most or all samples ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]); those below-limit results are carried as left-censored bounds rather than measured zeros, and primary fresh-fruit and retail-citrus surveys that name oranges by commodity detect lead and cadmium at low concentrations in the flesh (see the Synthesis basis and censoring treatment section). Nickel (max 87 ppb), uranium (a single detect at 6.5 ppb), and tAs (max 6.7 ppb) were the analytes detected at the high end of the FDA distribution.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 3 at 5-14, 6 below 5 | below pooling depth: iAs, tAs, tHg, Ni, Al, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 4 of 10 populated analytes declare a basis | no wet/dry basis declared: iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

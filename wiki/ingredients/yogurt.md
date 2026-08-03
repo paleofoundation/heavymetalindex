@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Yogurt is a fermented dairy product produced from whole or reduced-fat cow's milk by the action of thermophilic lactic acid bacteria, principally Streptococcus thermophilus and Lactobacillus delbrueckii subsp. bulgaricus, with optional addition of probiotic strains. Because yogurt derives its base metal profile directly from its milk substrate, and because dairy cows are efficient discriminators against heavy metal transfer from feed into milk, yogurt is one of the lowest-risk food categories in the diet for Pb, Cd, and other heavy metals. The bioavailability of heavy metals for transfer from feed into bovine milk is well established to be low: for lead, transfer factors from feed to milk are in the range of 1 to 3 percent of ingested dose per kilogram milk; for cadmium, the transfer factor is even lower. Arsenic in cow's milk is predominantly in the dimethylarsinic acid (DMA) form, an organic species of low toxicological concern, and inorganic arsenic in milk is consistently below analytical reporting limits in market surveillance data. Mercury transfer to milk is also low, as methylmercury preferentially partitions to fatty tissue rather than milk. The fermentation step itself does not concentrate metals or introduce them; the lactic acid bacteria responsible for souring and curdling draw no heavy metals into the curd-forming process, and the whey drained off in some yogurt styles carries a portion of the water-soluble metal load with it, if anything marginally reducing concentrations in the retained curd fraction. The FSA/Fera FS102048 survey measured yogurt as a food composite, and the FDA Closer to Zero final guidance for Pb establishes a 10 ppb action level applicable to yogurt-based products intended for infants and young children, confirming the regulatory expectation that yogurt operates well within low-risk territory for Pb ([[sources/fda-ctz-Pb-babyfood-2025|1]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, iAs, tHg, Al, Sn, tAs |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | OK | 1 instrument name this commodity | — |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

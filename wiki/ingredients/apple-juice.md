@@ -100,6 +100,26 @@ Apple juice derives its metal content primarily from the apples used in producti
 
 Tin (Sn) is a secondary contamination concern specific to canned apple juice, where contact between the acidic juice and tinplate can linings drives Sn dissolution. The magnitude of Sn release depends on juice pH, storage temperature, and can age, as demonstrated by [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan et al. 2016]] in a study of canned beverages including juice matrices. The gastrointestinal acute toxicity of inorganic Sn at high concentrations (above approximately 200 mg/kg in the product) was established in early outbreak investigations and underpins the international canned-beverage Sn limits ([[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy et al. 1971]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 at 5-14, 9 below 5 | below pooling depth: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

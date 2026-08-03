@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 True yam (Dioscorea spp.) is a starchy root tuber harvested from below-ground storage organs that develop in direct and sustained contact with soil over the several-month growing season typical of West African and Southeast Asian production systems. The extended soil contact during tuber development is the primary driver of heavy metal accumulation: lead, cadmium, and arsenic present in soil solution or as soil particles adsorbed to tuber surfaces can be taken up via the root system or deposited on tuber surfaces as soil adheres during harvest and handling. The soil-contact accumulation pathway is common to root vegetables broadly and is mechanistically similar to what is documented for sweet potato, carrot, cassava, and beet. Cadmium uptake efficiency varies by soil Cd content, soil pH, and the organic matter status of the soil; in West African yam-growing regions, where historically high phosphate fertilizer use has in some areas elevated soil Cd, the accumulation risk is higher than in production systems on low-Cd baseline soils. Lead in root vegetables reflects both soil-solution uptake and surface deposition from soil adherence at harvest; washing and peeling substantially reduce the surface-deposition component. The FSA/Fera FS102048 survey captured yam as a food composite in its Table 6, providing a baseline measurement reference for UK-market yam, which is sourced predominantly from West Africa and the Caribbean ([[sources/fsa2016-infant-food-formula-metals-survey|1]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 below 5 | below pooling depth: Pb, Cd |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

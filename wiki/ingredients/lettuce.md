@@ -97,6 +97,26 @@ Lettuce (Lactuca sativa) is the most-consumed leafy vegetable globally and a fre
 
 Lettuce takes metals from soil predominantly through root uptake and from atmospheric sources through leaf-surface deposition. The plant's high transpiration rate during the growing cycle pulls water and dissolved cadmium, nickel, and chromium from the root zone into the leaf tissue at higher rates than fruit or root vegetables. Lead behaves differently: less mobile within plant tissue, lead enters lettuce primarily via direct atmospheric deposition onto the leaf surface, which makes urban and roadside production a documented elevated-Pb pathway. The Johannesburg paired-market study compared 20 leafy-vegetable samples from roadside open-air markets versus large stores and found measurably higher Pb in the roadside subset ([[sources/adhikari2024-leafy-vegetables-johannesburg]]). The Ghanaian Kumasi study sampled 90 lettuce and spring onion samples from anthropogenic-activity sites and found Pb, Cr, Ni at concentrations of regulatory concern in a substantial fraction of urban-cultivated product ([[sources/owusuadoma2024-ghana-lettuce-metals]]). The Andalusian urban-garden study sampled 282 vegetable items from Spanish urban garden settings and quantified the cumulative exposure pathway specifically for urban-grown produce ([[sources/rossini-oliva2024-urban-garden-vegetables-spain]]). The Hungarian developmental-stage work documented arsenic uptake increasing with plant age, suggesting earlier-harvest practices reduce per-leaf metal load ([[sources/sandil2023-arsenic-bean-lettuce]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 5 at 5-14, 2 below 5 | below pooling depth: tHg, Al |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

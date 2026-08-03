@@ -105,6 +105,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Lamb chop is skeletal muscle from young sheep, and its metal contamination profile follows the general pattern of grazing ruminant muscle tissue. Sheep are pasture-fed and ingest metals primarily through forage, soil particles adhering to grass, and water. Unlike cattle, which are often grain-finished in feedlot systems, lamb in many production systems (UK, Australia, New Zealand) is predominantly pasture-raised throughout its lifespan, meaning pasture soil geochemistry is the dominant environmental exposure variable. Cadmium in sheep accumulates preferentially in the kidney cortex (sometimes called "lamb kidneys" for the retail product), with muscle tissue receiving a much smaller fraction of absorbed Cd. Pastoral UK and European studies have documented low but detectable Cd in sheep muscle tissue, with concentrations influenced by the Cd content of the underlying pasture soil. Lead in lamb muscle is typically at or near the reporting limit, consistent with the general principle that lead partitions to bone and soft organs more readily than to skeletal muscle. The FDA FY2018-FY2020 TDS data for lamb chop (pan-cooked with oil) show Cd with a maximum of 1 ppb and Pb with a maximum of 4.4 ppb across 27 samples, with all other measured analytes below their reporting limits; these below-limit FDA results are carried as left-censored bounds rather than measured zeros, and the detected clean-market sheep-muscle literature places lead, cadmium, total arsenic, total mercury, and total chromium at low but non-zero concentrations (see the Synthesis basis and censoring treatment section) [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 6 of 10 populated analytes declare a basis | no wet/dry basis declared: iAs, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

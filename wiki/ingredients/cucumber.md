@@ -101,6 +101,26 @@ Cucumber is a cucurbit fruit that is botanically a berry of a vine plant and is 
 
 The FDA TDS FY2018-FY2020 data for peeled raw cucumber (n=27 composites, TDS Food 123) is consistent with this low-risk characterization, but the lead, total-mercury, chromium, and uranium cells in that dataset are fully left-censored rather than measured zeros: every one of the 27 composites fell below the FDA reporting limit for Pb (4 µg/kg), tHg (1 µg/kg), Cr (50 µg/kg), and U (1 µg/kg) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Those below-limit results constrain the flesh metal burden from above; they are carried here as left-censored bounds, not as evidence that the metals are absent. The primary fresh-cucumber occurrence literature confirms that lead, total mercury, and total chromium are low but non-zero in cucumber flesh (see the Synthesis basis and censoring treatment section). Cadmium shows low-level detection in some FDA samples (median 1.6 ppb, maximum 3.2 ppb), Ni appears in the upper tail (p95 28 ppb, maximum 76 ppb), and tAs is consistently detectable at moderate levels (median 14 ppb, maximum 31 ppb, p90 20 ppb). The total arsenic signal is notable given the cucurbit's low-risk general reputation and warrants attention, though without iAs speciation it is not possible to determine the proportion attributable to inorganic versus organic arsenic species in this matrix.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 at 5-14, 8 below 5 | below pooling depth: Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

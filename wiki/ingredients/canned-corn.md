@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Canned corn (maize) presents a two-pathway metal risk: a low intrinsic pathway from the corn grain itself, and a secondary packaging pathway from the tinplate can. Corn (Zea mays) is among the lowest-accumulating major cereal crops for heavy metals. Its kernel anatomy, particularly the thick pericarp and the relatively impermeable protein matrix of the endosperm, limits uptake and storage of Pb and Cd compared to wheat, rice, or brassica vegetables. Soil cadmium levels have a modest effect on corn grain Cd, but maize is classified as a low Cd accumulator at typical agricultural soil concentrations. Lead uptake from soil into corn grain is also low. The dominant heavy metal concern for canned corn therefore shifts to tin (Sn) migration from the tinplate can interior. Tinplate food cans are manufactured from tin-coated steel; in unlacquered (unlined) cans, the acidic or mildly acidic environment of the food product in contact with the tin coating drives electrochemical corrosion that releases inorganic tin ions into the food. Corn in brine (which is mildly acidic) in contact with unlacquered tinplate can accumulate Sn over shelf life. Storage time and temperature amplify this effect [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

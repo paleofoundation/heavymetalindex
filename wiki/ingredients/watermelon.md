@@ -102,6 +102,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Watermelon is a cucurbit fruit with a high water content (approximately 92 percent by weight) and a large physical volume. Both characteristics limit heavy metal accumulation on a per-gram basis: metals taken up from soil by the root system are distributed across a large mass of dilute fruit tissue. The thick outer rind provides an additional physical barrier that restricts metal translocation into the edible flesh. Watermelon is therefore among the lower-risk food matrices on the wiki for most heavy metals, but the values are low rather than zero. The FDA TDS FY2018-FY2020 data (n=27) report Pb, Cr, tHg, and U below their reporting limits across the entire distribution ([[sources/fda2022-tds-elements-fy2018-fy2020]]); those below-limit results are carried as left-censored bounds rather than as measured zeros (see the Synthesis basis and censoring treatment section). The same FDA composite shows detectable upper-tail observations for Ni (reaching 79 ppb at maximum), tAs (reaching 6.8 ppb at maximum), and Cd (reaching 2.6 ppb at maximum). A primary fresh-watermelon survey from Iran detected lead in the edible flesh at a mean of 18.68 ppb and a maximum of 74.43 ppb ([[sources/chaleshtori2019-watermelon-carrot-pb-cd]]), low but non-zero. The Ni signal is consistent with low-level background Ni in cucurbit crops. The tAs signal at trace levels is not unexpected for fruit grown on soils with any background arsenic. Root-level uptake from contaminated soils is the operative pathway for all detected metals; there is no aquatic bioaccumulation or manufacturing-related metal pathway for fresh watermelon.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

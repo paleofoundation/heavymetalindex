@@ -100,6 +100,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Chocolate reduced-fat milk is a dairy-cocoa composite product whose metal burden reflects the sum of two ingredient streams with very different metal profiles: reduced-fat cow's milk, which is intrinsically very low in heavy metals, and cocoa powder, which carries cadmium, nickel, and other metals from the soil of its growing origin. The dairy base contributes to volume while diluting the cocoa's metals across a large mass of essentially metal-free liquid; this dilution effect is the defining feature of this product's metal profile relative to pure cocoa or chocolate. Nickel is the most consistently detectable metal in chocolate milk: cocoa is one of the highest dietary nickel sources, and the FDA Total Diet Study FY2018-FY2020 found nickel in all 27 composite chocolate milk samples at a median of 62 ppb (minimum 39 ppb) [[sources/fda2022-tds-elements-fy2018-fy2020]]. Cadmium was also consistently detectable at a median of 2.2 ppb (range 1.1-7 ppb), reflecting the cocoa-fraction cadmium diluted by the dairy matrix. Lead was detectable in a minority of samples at very low concentrations (median 1.2 ppb, maximum 1.9 ppb). Chromium was detectable at a median of 29 ppb, also consistent with the cocoa contribution.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 1 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

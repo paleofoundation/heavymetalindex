@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or a closely matching non-infant-specific food
 
 Root vegetables are a broad category of edible plant storage organs that develop entirely within the soil matrix, including carrots (Daucus carota), parsnips (Pastinaca sativa), turnips (Brassica rapa), beets (Beta vulgaris), celeriac (Apium graveolens var. rapaceum), and related crops. Because the edible organ grows in direct contact with soil solution, root vegetables are inherently more susceptible to heavy metal uptake and surface contamination than aerial plant parts such as fruits or leaves. Cadmium (Cd) is the analyte of greatest concern in this category: it is present in most agricultural soils at varying concentrations, has high bioavailability relative to other metals in soil solution, and is actively taken up through the same zinc transporter channels that plants use to acquire the essential nutrient zinc. Soil Cd loading is driven primarily by the historical and ongoing application of phosphate fertilizers derived from phosphate rock containing Cd as a co-contaminant, atmospheric deposition near industrial sources, and naturally elevated geogenic Cd in some soil types. Lead (Pb) accumulation in root vegetables occurs primarily through surface adsorption: soil particles and dissolved Pb adhere to the root surface during growth and post-harvest handling, and internal uptake of Pb is limited by the root epidermis under most soil conditions. However, when Pb-contaminated soil is mechanically worked into the root tissue through damage or when surface contamination is not adequately removed, surface Pb can represent a meaningful contributor to the analytical total. Different root vegetable species show different Cd accumulation efficiencies: leafy root crops and those with more permeable root surfaces tend to accumulate more Cd per unit dry weight than compact, waxy-skinned varieties. Potatoes are separately captured on [[ingredients/potato-chips]] for the snack-product context; sweet potato is separately captured on [[ingredients/sweet-potato]] for the infant-food context.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 at 5-14, 3 below 5 | below pooling depth: iAs, Al, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

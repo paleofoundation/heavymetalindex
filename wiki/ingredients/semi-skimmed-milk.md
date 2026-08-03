@@ -95,6 +95,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Semi-skimmed milk is fluid cow milk from which a portion of the milk fat has been removed, typically to achieve a fat content of approximately 1.5 to 1.8 percent by weight in European commercial standards. Its heavy metal profile is essentially identical to that of whole milk and fully skimmed milk: the fat reduction step removes fat-soluble components but does not alter the concentration of Pb, Cd, Hg, or other regulated heavy metals, which are distributed primarily in the aqueous and protein fractions of milk rather than in the fat. Dairy is a low-risk matrix for heavy metals because the mammary gland presents a substantial physiological barrier to metal transfer from blood into milk. Most absorbed metals in the lactating cow are excreted through urine and feces rather than milk, and blood-to-milk transfer efficiencies for Pb, Cd, and Hg are well below 1 percent under typical dietary exposure conditions. The small amounts of heavy metals present in milk reflect the cow's cumulative environmental and dietary exposure, which in commercially managed herds under regulated feed and veterinary oversight is generally low. Atmospheric contamination of farm environments, mineral composition of feed supplements, and water quality at the farm are the dominant drivers of any detectable metal levels in fluid milk. For the specific metal-content data available in the current corpus, see [[ingredients/reduced-fat-milk]] and [[ingredients/skim-milk]], which carry TDS data from comparable dairy matrices.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 5 below 5 | below pooling depth: Pb, Cd, tHg, Al, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

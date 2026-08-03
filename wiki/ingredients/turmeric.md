@@ -97,6 +97,26 @@ Turmeric (Curcuma longa) is the most heavily adulteration-documented spice in th
 
 Turmeric is one of the most consequential ingredients in the heavy-metals literature because the dominant Pb pathway is adulteration, not agronomy. The traditional turmeric supply chain has rhizomes harvested, boiled, sun-dried, and polished before grinding to powder. At some Bangladeshi and other South Asian polishing mills, processors add lead chromate during polishing because the pigment imparts the bright yellow color that commands a premium price on the wholesale market. The Forsyth 2019 work traced this practice to specific mills and documented Pb concentrations in finished turmeric reaching 50,000-100,000 ppb (50-100 mg/kg) — two to three orders of magnitude above non-adulterated product ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh]]). The lead chromate stoichiometry means Cr is elevated in tandem with Pb in adulterated product; the Cr-to-Pb ratio in confirmed-adulterated samples approaches the 0.16 stoichiometric ratio of PbCrO₄. Non-adulterated turmeric carries Pb at typical-spice levels (50-500 ppb) driven by ordinary agronomic uptake. The Cicero 2022 multi-origin spice work, the Tinggi 2025 Australian-market spice work (n=69, [[sources/tinggi2025-spices-herbs-queensland]]), and the Lancaster PA survey document both adulterated and non-adulterated product in retail; the distribution is bimodal rather than continuous, which means population-level mean concentrations under-represent the actual exposure to consumers buying the worst-case-tail product.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 at 5-14, 6 below 5 | below pooling depth: Cd, tAs, tHg, Ni, Al, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

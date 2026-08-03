@@ -97,6 +97,26 @@ Leafy vegetables — spinach, lettuce, kale, chard, amaranth, cabbage, mustard g
 
 The leafy vegetable contamination problem combines plant biology with siting and water-source factors. Leaf tissue is plant-machinery for photosynthesis: it has high transpiration rates that pull water and dissolved solutes from the root zone up through the stems into the leaves. Cadmium, nickel, and chromium move readily through this pathway because they are sufficiently soluble in the root zone to be co-transported with water. Lead is less mobile in plant tissue but enters leafy vegetables through a different route: direct atmospheric deposition onto the leaf surface, which is particularly relevant for leafy crops grown near roadways, downwind of industrial facilities, or in urban settings with elevated airborne particulate Pb. The Maryland urban-rural kale comparison ([[sources/kim2024-metals-kale-urban-rural-maryland]]) is the canonical demonstration of the urban-leaf-Pb-elevation pattern; the Johannesburg roadside-vs-store comparison ([[sources/adhikari2024-leafy-vegetables-johannesburg]]) demonstrates the same effect across a different urban context. Irrigation water source matters separately: production systems using wastewater or industrial-corridor groundwater accumulate elevated Pb, Cd, and Cr in the soil over time and in the crop directly. The Bangladesh multi-industry-zone study ([[sources/ahmed2019-irrigation-water-bangladesh-seasonal]]) and the Blantyre wastewater-vegetable study ([[sources/chiutula2025-wastewater-vegetables-malawi]]) both demonstrate this water-source pathway as the dominant contributor in their study systems. Surface-area-to-volume ratio explains the within-leafy-vegetable variance: spinach and amaranth (high SA/V) consistently carry higher Cd than iceberg lettuce (low SA/V) grown in the same soil.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 5 at 5-14, 4 below 5 | below pooling depth: iAs, tHg, Al, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-15 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

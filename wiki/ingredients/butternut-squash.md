@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Butternut squash is a cucurbit (Cucurbitaceae family) whose edible flesh is physically separated from direct soil contact by a thick, relatively impermeable outer rind. This anatomical feature fundamentally limits the soil-to-fruit metal transfer pathway that drives accumulation in root vegetables such as carrot and parsnip. Metals must travel via the root system and vascular transport into the developing fruit, and the cucurbit plant does not prioritize metal translocation to fruit tissue the way some brassica or root crops do. As a result, butternut squash exhibits substantially lower Pb and Cd concentrations than root vegetables grown in the same soil. That said, root uptake of cadmium and lead from contaminated soil does occur, and waterlogged or heavily industrially contaminated growing conditions can produce detectable fruit-tissue concentrations. Nickel and chromium can reach squash flesh at low but measurable concentrations depending on soil levels. The FSA/Fera FS102048 survey included butternut squash among non-infant food composites, confirming its inclusion in UK dietary exposure monitoring [[sources/fsa2016-infant-food-formula-metals-survey]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, iAs, tHg, Al, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

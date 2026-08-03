@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Fruit juice ready drinks are diluted, ready-to-consume juice beverages that combine fruit juice (from concentrate or not from concentrate) with water and, in some formulations, added sugars, vitamin C, and flavor components. The metal burden of these products is determined primarily by the metal content of the fruit juice fraction, which in turn reflects the metal uptake of the source fruit crop and, to a lesser extent, by the quality of the dilution water. Apple juice is a historically notable juice for lead content, partly because lead arsenate was used as a pesticide in US apple orchards through the mid-twentieth century, leaving residual Pb and As in orchard soils that continues to contribute to apple and apple juice metal burdens from some growing regions. Grape juice and grape-based juice drinks carry arsenic and Pb from vineyard soils and from historically applied copper-based and lead arsenate fungicides. The dilution of juice concentrate with water to ready-to-drink strength reduces per-serving metal exposure proportional to the dilution factor, but does not eliminate it. The water fraction contributes metals according to the source water quality, which for municipal-supply water is generally low.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 8 below 5 | below pooling depth: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

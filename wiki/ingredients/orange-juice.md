@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Orange juice, as a squeezed or processed citrus product, carries a metal profile that reflects both the inherently low metal content of orange flesh and the potential for metal introduction from processing equipment and packaging. Citrus fruit flesh is protected from atmospheric Pb deposition by the thick peel, and Pb is not efficiently translocated from the tree's root system to the fruit. Cadmium in orange flesh is similarly low under normal soil conditions because citrus trees are not strong Cd accumulators and the fruit's high-acidity and high-moisture character limits metal binding in tissue. The primary metal-risk pathways specific to the juice product (as opposed to the whole fruit) are: Pb contribution from corroded or contaminated processing equipment such as older metal pipes, tanks, or fittings; and, in theory, contamination from packaging materials. The EU maximum level for Pb in fruit juices (0.050 mg/kg) is more stringent than the level for fresh fruit (0.10 mg/kg), reflecting regulatory recognition that juice production can concentrate or introduce Pb relative to the raw fruit. No commercial-scale processing pathway for orange juice is known to introduce iAs, and tHg is not a concern for citrus-derived products.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 8 below 5 | below pooling depth: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

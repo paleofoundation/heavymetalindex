@@ -105,6 +105,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Reduced-fat milk is fluid cow milk from which a portion of the milk fat has been removed, typically to achieve a fat content of approximately 2 percent by weight. As a dairy matrix, reduced-fat milk is among the lowest-risk food categories for heavy metal contamination. The mammary gland is not a primary excretion route for most heavy metals; the blood-milk barrier limits transfer of Pb, Cd, Hg, and most other regulated analytes from systemic circulation into milk at detectable levels under normal dietary exposure conditions for the cow. The small amounts of metals that do transfer to milk are primarily associated with the casein protein fraction and to a lesser extent with the whey protein fraction, rather than with the fat fraction. Consequently, removing fat from whole milk does not meaningfully change the metal content of the resulting reduced-fat product: metals remain in the aqueous and protein phases. Pb and Cd in milk reflect the cow's environmental and dietary exposure, which in modern commercial dairy herds under regulated feeding conditions is low. Soil contamination near grazing pastures and the mineral content of feed supplements are the dominant drivers of variation in cow milk metal content; both are tightly managed in most commercial dairy supply chains. The FDA TDS FY2018-FY2020 composite for reduced-fat milk (n=27) reported every measured analyte below its reporting limit except for a single lead observation of 1.7 µg/kg at the maximum; those below-limit results are carried as left-censored bounds rather than as measured zeros, and the detected fluid-milk distributions from the primary clean-market literature show lead, cadmium, total arsenic, total mercury, and chromium present at low but non-zero concentrations (see the Synthesis basis and censoring treatment section) [[sources/fda2022-tds-elements-fy2018-fy2020]]. The concentrations are low rather than zero.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 6 of 10 populated analytes declare a basis | no wet/dry basis declared: iAs, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

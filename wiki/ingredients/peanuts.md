@@ -102,6 +102,26 @@ Peanuts (Arachis hypogaea), also called groundnuts, are unusual among legumes in
 
 Cadmium accumulation in peanuts is further documented in authoritative toxicology reviews as a characteristic of oilseed crops grown with Cd-containing phosphate fertilizers or on soils with elevated natural Cd; peanuts and sunflower seeds are specifically named as elevated-Cd crops in the canonical Cd toxicology chapter ([[sources/nordberg2015-cadmium-chapter]]). The EFSA Cd opinion of 2009 identifies peanuts as a contributing source in European dietary Cd exposure assessments, reflecting their position in processed snack foods and peanut-containing products ([[sources/efsa-cadmium-contam-2009]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 5 at 5-14, 3 below 5 | below pooling depth: iAs, tHg, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 1 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

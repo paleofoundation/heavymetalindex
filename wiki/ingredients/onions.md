@@ -100,6 +100,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Onions (Allium cepa) are bulb vegetables grown underground, but their metal accumulation pattern differs substantially from root vegetables such as carrots and potatoes. Onion bulbs are modified leaf bases rather than storage roots, and they lack some of the active metal-sequestration mechanisms that concentrate Cd and Pb in root tissues of other vegetables. Cadmium uptake in onions follows the general soil-to-plant pathway via root absorption, but the transfer factor from soil to bulb is lower than in dedicated root vegetables; onion bulbs do not appear to be hyperaccumulators of Cd under typical agricultural conditions. Lead accumulates in onion bulb tissue at low concentrations because Pb transfer from soil to above-ground plant parts is inefficient, and the bulb's protected position within the soil and outer scales provides some barrier from surface Pb deposition. Nickel is detectable in onion tissue; the FDA TDS FY2018-FY2020 data [[sources/fda2022-tds-elements-fy2018-fy2020]] show Ni in the 0 to 100 ppb range (max 100 ppb) in raw mature onion (n=27). Sulfur compounds distinctive to Allium vegetables may influence metal speciation and binding in tissue, though specific mechanistic data on this interaction are limited in the current corpus. Total arsenic is detectable at low concentrations (median approximately 4 ppb in FDA TDS data), with inorganic speciation expected to represent a portion of that total; the level is substantially below arsenic concentrations in rice or seafood.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 3 at 5-14, 3 below 5 | below pooling depth: tAs, tHg, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

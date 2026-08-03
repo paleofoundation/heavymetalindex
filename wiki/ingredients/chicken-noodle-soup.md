@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Chicken noodle soup is a multi-ingredient composite product whose metal burden is the sum of contributions from each ingredient stream. Cadmium enters primarily through the wheat-based noodle component: wheat grain accumulates cadmium through root uptake from soil, and whole-wheat or enriched-wheat noodles carry this signal into the final product. Nickel is a secondary concern that derives from both the noodle fraction (wheat contains moderate Ni) and the vegetable components (celery, carrots, peas) commonly included in the soup recipe. Chicken muscle itself contributes very little to Pb, Cd, or Ni; the broth component, if prepared from bones, may contribute trace lead through leaching from the skeletal calcium matrix. The canned format introduces the potential for tin (Sn) from the can interior, though modern cans use enamel linings that substantially reduce tin migration. The FDA Total Diet Study FY2018-FY2020 measured canned condensed chicken noodle soup prepared with water and found cadmium detectable at a median of 2.6 ppb and nickel at a maximum of 62 ppb across 3 composite samples [[sources/fda2022-tds-elements-fy2018-fy2020]]; the small sample size limits inference.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

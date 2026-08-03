@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Canned green beans (Phaseolus vulgaris) present a dual contamination pathway analogous to other canned legume vegetables: a modest intrinsic pathway from the bean pod and seed tissue, and a secondary tin migration pathway from the tinplate can. Green beans as a fresh crop exhibit low-to-moderate metal accumulation. Unlike root vegetables, beans do not directly mine metals from soil through epidermal root uptake at high rates; their Cd and Pb accumulation is predominantly via general root uptake and translocation, with concentrations typically in the single-digit to low tens of ppb range for Cd and near or below detection for Pb in non-contaminated soils. Nickel uptake is measurable, as the FDA TDS data show detectable Ni at up to 120 ppb in canned green bean drained solids [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. The can interior in contact with the bean brine undergoes Sn corrosion in unlacquered cans, particularly because legume brines are mildly acidic and can contain organic acids from the beans that accelerate tin release. Extended storage amplifies Sn migration significantly. The ATSDR tin toxicological profile documents this mechanism for canned vegetables broadly [[sources/atsdr2005-tin-toxicological-profile|Harper et al. 2005]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

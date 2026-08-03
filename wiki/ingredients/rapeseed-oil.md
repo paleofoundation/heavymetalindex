@@ -97,6 +97,26 @@ Rapeseed oil (also called canola oil in North America; the term "canola" was ori
 
 Rapeseed (Brassica napus) is a brassica oilseed grown predominantly in Canada (the largest producer, branded as canola), the EU (France, Germany, Poland, UK), China, India, and Australia. The brassica-family Cd-uptake pathway carries seed-Cd at moderate levels reflecting soil chemistry and Zn-availability. The seed metals partition during extraction: most metals stay with the spent meal (used for animal feed), and a small fraction transfers to the oil. Refining (degumming, neutralisation, bleaching, deodorisation) further reduces residual metals through filtration and bleaching-clay adsorption. Bleaching with acid-activated clay can introduce Ni at 5-50 ppb in finished oil. The Saudi Ashraf 2012 dataset placed rapeseed oil at the lower-middle of the Saudi retail edible-oil Pb-Cd distribution ([[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia]]). The González-Torres 2023 global systematic review identified rapeseed oil among the broadly-similar refined-seed-oil category occupying the lower-middle of the global edible-oil heavy-metals distribution ([[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 6 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

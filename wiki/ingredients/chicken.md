@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Chicken muscle meat is generally a low accumulator of heavy metals relative to plant foods and organ meats. The primary contamination pathway for muscle is dietary transfer: metals ingested through feed accumulate predominantly in liver and kidney, with muscle tissue retaining only a small fraction. Cadmium and lead in commercial poultry muscle are consistently low in global surveillance data. The notable exception for US broiler chicken is arsenic, which was historically elevated due to the veterinary use of roxarsone (an organoarsenic growth promotant) until its voluntary withdrawal by Pfizer in 2011 and subsequent FDA ban on arsenical veterinary drugs in 2015. Post-withdrawal monitoring indicates residual total arsenic and inorganic arsenic remain detectable at low levels in some commercial US broiler chicken muscle, reflecting the persistence of arsenical compounds in soil and feed supply chains [[sources/lasky2013-arsenic-chicken-correspondence]]. Spanish-market processed chicken baby purees measured by ICP-MS showed tAs, tHg, Pb, Cd, Ni, Al, and Cr across 39 products; exact values for chicken muscle purees are in progress pending structured extraction [[sources/henriquez-hernandez2023-baby-purees-spain-elements]]. A Bangladesh study measured heavy metals and trace elements in edible body parts of chicken with results pending extraction [[sources/hossain2023-bangladesh-chicken-metals]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 3 at 5-14, 6 below 5 | below pooling depth: iAs, tHg, Ni, Al, Sn, tAs |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

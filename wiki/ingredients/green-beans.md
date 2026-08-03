@@ -104,6 +104,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Green beans (Phaseolus vulgaris) are a leguminous pod vegetable harvested at an immature stage, before the seed has fully developed and mineralized. The primary metal pathways are soil uptake through the root system and surface deposition on the pod exterior from atmospheric particulates and spray applications. As a legume, green beans engage in nitrogen-fixing symbiosis via root nodules, an association that modifies root exudate chemistry and can enhance uptake of divalent metals including cadmium through the same rhizosphere mobilization mechanisms that operate in other legume crops. However, because the commercial harvest is the pod plus immature seed rather than the mature dried seed, the Cd accumulation that characterizes mature dried beans does not reach its maximum in green beans; the pod wall and immature seed carry substantially lower Cd per gram than dried kidney beans or lentils from the same plant. Nickel is the most consistently detected analyte in this matrix in the FDA TDS data (median 100 ppb, max 740 ppb, n=27) [[sources/fda2022-tds-elements-fy2018-fy2020]], consistent with the legume-family affinity for Ni through the urease enzyme system. Lead concentrations are low and predominantly below detection limits in the TDS dataset, suggesting that soil Pb uptake is limited and atmospheric deposition onto the pod exterior is the more consequential Pb pathway under typical commercial production conditions.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Rice cakes are produced by puffing or compressing whole or milled rice under heat and pressure, yielding a product that is essentially concentrated rice with minimal water content. The metal contamination profile of rice cakes is driven by the same pathway that makes all rice-derived products high-priority for inorganic arsenic (iAs) surveillance: rice (Oryza sativa) is uniquely efficient at accumulating iAs from paddy soil water, through the same silicon uptake transporter system the plant uses to acquire silicon as a structural nutrient. In flooded paddy conditions, soil reduction converts insoluble arsenate to soluble arsenite, which becomes highly bioavailable to rice roots. The grain accumulates both iAs (the toxicologically relevant species) and total arsenic in concentrations that substantially exceed those found in other staple cereals grown under non-flooded conditions. Because rice cakes are made from rice with minimal dilution by other ingredients, they concentrate this arsenic load into a small-volume, low-moisture product. Unlike some grain products where refining (for example, removal of the bran in white rice) reduces iAs content, the puffing or compression step in rice cake manufacture does not remove arsenic; indeed, the low moisture content of the finished product means that metal concentrations on a wet-weight basis are proportionally higher than in cooked rice. Rice cakes marketed specifically to infants and young children are of particular regulatory and public health concern because infants have higher per-kilogram-body-weight dietary exposure and developing nervous systems that are more susceptible to iAs neurotoxicity. The relevant canonical page for the rice primary commodity is [[ingredients/rice]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 4 below 5 | below pooling depth: Pb, Cd, iAs, tHg |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

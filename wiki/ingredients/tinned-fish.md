@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Tinned fish is a broad category of heat-processed canned fish products including tuna (Thunnus species), salmon (Oncorhynchus and Salmo species), sardines (Sardina pilchardus and related species), mackerel (Scomber species), and anchovies (Engraulis encrasicolus). The heavy metal contamination profile of canned fish is shaped by two distinct accumulation pathways: bioaccumulation in the fish tissue from the marine environment, and tin (Sn) migration from the can wall into the food. Mercury (Hg), primarily as methylmercury (MeHg), is the predominant toxicological concern in fish-based foods; MeHg is produced by methylation of inorganic Hg in marine sediments by sulfate-reducing bacteria and enters the marine food chain through phytoplankton, progressing through zooplankton, small fish, and ultimately to large predatory fish such as tuna. Because MeHg is lipid-soluble and tightly bound to muscle protein, it is not substantially eliminated by the fish and accumulates with each trophic level; older, larger fish of predatory species therefore carry the highest MeHg concentrations. Species and trophic level are therefore the dominant determinants of Hg in tinned fish: albacore and bigeye tuna carry substantially more Hg than light tuna, skipjack, sardines, anchovies, or mackerel. Lead (Pb) and cadmium (Cd) in fish tissue reflect marine environmental contamination and species-specific accumulation; filter-feeding or bottom-dwelling species may accumulate higher Cd than open-ocean pelagics. The second contamination pathway is Sn migration from the can wall: plain tinplate cans leach Sn into the food over time, particularly in acidic products and under elevated storage temperatures. The EU has established a maximum Sn limit of 200 mg/kg for canned foods to address this pathway. Lacquer-lined (enameled) cans substantially reduce Sn migration by interposing a polymer barrier between the tinplate and the food; the extent of Sn reduction depends on lacquer coverage, film integrity, and product pH.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 at 5-14, 6 below 5 | below pooling depth: Pb, Cd, iAs, Al, Sn, tAs |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

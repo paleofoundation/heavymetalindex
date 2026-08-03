@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Lima beans (Phaseolus lunatus), also known as butter beans, are a large-seeded legume with a contamination profile that parallels other pulses in its core pathways while differing in some quantitative characteristics due to seed size and starch content. As with lentils and other legumes, cadmium is the metal of primary concern: legumes accumulate Cd from soil through root uptake because the same mobilization chemistry that makes soil nutrients bioavailable to legume root systems also enhances divalent cation uptake. The seed coat of lima beans, as with other pulse crops, carries a higher Cd concentration than the starchy cotyledon interior, so whole dried lima beans have higher Cd than dehulled or split forms. However, the large seed size relative to lentils means that the cotyledon constitutes a larger fraction of total seed mass, which dilutes the overall Cd concentration per gram compared with smaller pulses. Lead in lima beans reaches the edible portion primarily through atmospheric deposition and post-harvest handling; root uptake of Pb is limited by its soil binding characteristics. Nickel in legumes is bioavailable and is the analyte that dominates in the FDA FY2018-FY2020 TDS data, where lima beans (immature, frozen, boiled) showed Ni ranging from 910 to 930 ppb across both samples, a conspicuously high value consistent with legumes' general affinity for Ni from soil [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

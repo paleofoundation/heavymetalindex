@@ -106,6 +106,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Celery is a high-water-content stalk vegetable that draws metals into its petioles primarily through root uptake from soil and irrigation water. The plant's physiology, which relies on high transpiration rates to move water and dissolved solutes upward through its hollow stalks, also transports cadmium, nickel, and other divalent cations that enter the root zone from soil or irrigation sources. Cadmium is the metal of primary concern in celery; the FDA Total Diet Study FY2018-FY2020 reports a median Cd concentration of 32 ppb wet weight (n=27), with a 90th-percentile value of 59.4 ppb and a maximum of 100 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]]. The Codex Alimentarius maximum level for cadmium in celery is 0.1 mg/kg fresh weight [[sources/codex-cxs-193-1995]], substantially higher than limits for most other vegetables, reflecting empirical recognition that celery accumulates cadmium at higher rates than lower-accumulating crops such as root vegetables or legumes. The stalk includes both the petiole (lower metal accumulation) and attached leaves (higher Pb and Cd per unit mass due to smaller cross-sectional area and higher surface-to-volume ratio); survey values reported for whole celery or unspecified plant parts reflect the combined tissue profile.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, iAs, tAs, tHg, Ni, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 3 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, tAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

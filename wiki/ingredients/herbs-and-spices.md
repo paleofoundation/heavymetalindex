@@ -97,6 +97,26 @@ Herbs and spices — the aromatic and flavor-imparting plant materials that make
 
 The herb-and-spice category combines three accumulation pathways that compound. Soil uptake into the live plant carries Cd, Cr, Ni, and trace metals into leaves, roots, and seeds at rates that depend on soil chemistry, species, and growing region. Drying then concentrates these metals on a dry-weight basis: fresh herbs at 80-90% moisture content reduce to dried product at 8-12% moisture, producing roughly a 7-10× concentration uplift on a per-gram basis. Atmospheric deposition adds surface Pb to leaf and flower parts harvested in roadside or industrial-corridor settings. The third pathway, distinct from the agronomic ones, is post-harvest adulteration: the Angelon-Gaetz 2018 New York / North Carolina cohort documented turmeric, paprika, and related red-and-yellow-pigmented spices from specific country-of-origin sources containing lead chromate, lead oxide, and other lead pigment compounds added to brighten color or extend weight ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]). The NYS Department of Health technical-support document for metals in spices ([[sources/nys-doh2019-metals-spices-guidance]]) followed this work with formal health-based guidance values for Pb, Cd, Cr, and iAs specifically in the spice matrix, recognizing the spice channel as a distinct exposure pathway not captured by general food-safety frameworks. The Huff 2025 Lancaster survey ([[sources/huff2025-spices-lancaster-pa]]) and the Australian Coordinated Sampling Project 41 (n=380 across 7 metals, [[sources/lhaac2025-csp41-herbs-spices-wa]]) confirm the pattern at scale in both US and Australian markets.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 5 at 5-14, 4 below 5 | below pooling depth: iAs, Ni, Cr, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

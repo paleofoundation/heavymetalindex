@@ -97,6 +97,26 @@ Fresh herbs — the live or freshly-cut leaves, flowers, and aerial plant parts 
 
 Fresh herbs take metals through the same plant-physiology pathways as the broader leafy-vegetable category (see [[ingredients/leafy-vegetables]]): root uptake of soluble soil metals (Cd, Cr, Ni) via the transpiration stream, and direct atmospheric deposition of particulate Pb onto the leaf surface during the growing cycle. The surface-area-to-volume ratio of fresh-herb leaves (typically thin, large surface area per gram) makes them efficient collectors of atmospheric Pb relative to root vegetables or compact-head leafy vegetables. The siting of fresh-herb production is highly variable: commercial Mediterranean herb production (Italy, Greece, Spain, Turkey) is dominantly in cropland settings with managed soil and water; home-garden and urban-garden production often sits in settings with elevated soil or atmospheric Pb backgrounds (former industrial sites, roadside plots). The Polish Winiarska-Mieczan 2023 dataset (n=432 herbs and single-component spices) is the largest single-jurisdiction recent dataset for the Cd-and-Pb profile across fresh and dried product on a comparable methodological basis ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]). The Fischer 2022 Polish mercury-in-spice-plants work characterises the mercury profile across 48 fresh-leaf samples, finding generally low mercury but with detectable concentrations in some species ([[sources/fischer2022-mercury-spice-plants-poland]]). The Australian LHAAC 2025 CSP 41 covers both fresh and dried product at scale (n=380) with the 7-metal panel ([[sources/lhaac2025-csp41-herbs-spices-wa]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Al, Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

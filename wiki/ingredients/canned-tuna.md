@@ -97,6 +97,26 @@ Canned tuna is the dominant retail-market form of tuna globally and the largest 
 
 Mercury in canned tuna originates from the marine biogeochemical cycle: atmospheric mercury deposition into ocean waters, methylation to MeHg by marine bacteria and archaea (predominantly in low-oxygen zones), uptake into phytoplankton, then progressive biomagnification up the food chain. Tuna are mid-to-high trophic-level predators, and their tissue mercury concentration is roughly proportional to age and trophic position. Species selection is the dominant variable: skipjack (the "light" canned tuna species) sits at trophic level ~3.5-4.0 with shorter lifespan and lower per-fish mercury; albacore (the "white" canned tuna species) at trophic level ~4.0-4.3 with longer lifespan accumulates 2-4× more MeHg. The Shim 2004 US-market dataset (n=272 canned tuna, salmon, mackerel samples) is the largest single-jurisdiction US dataset and confirms the species-specific pattern ([[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]). The Ulusoy 2023 multinational comparison covered 36 jurisdictions and characterised the global within-canned-tuna distribution by species and origin, finding consistent species differentiation across all jurisdictions ([[sources/ulusoy2023-canned-tuna-toxic-metals]]). Cadmium and lead in tuna come from a combination of marine uptake into prey species and post-harvest canning contributions. The canning step adds Pb, Sn, and Al through can-interior contact during the multi-year shelf life typical of commercial canned tuna; the DeLima 2021 Brazilian work and the Ali 2025 aluminum-cobalt sensor development specifically address the canned-product Al pathway ([[sources/delima2021-metals-canned-tuna-sardines-brazil]], [[sources/ali2025-carbon-dots-aluminum-cobalt-canned-food]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 at 5-14, 8 below 5 | below pooling depth: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

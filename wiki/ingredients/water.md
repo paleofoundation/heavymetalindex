@@ -96,6 +96,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Drinking water does not accumulate heavy metals through the biological mechanisms that apply to plant or animal food matrices. Instead, metals in potable water arise from two distinct source pathways. The first is source-water geochemistry: groundwater in aquifers underlain by arsenic-bearing minerals (sedimentary basins, volcanic tuffs, sulfide ore deposits) can carry naturally elevated iAs concentrations, with some regions of South Asia, South America, and the western United States documented as having groundwater As exceeding 10 ppb ([[sources/epa-arsenic-drinking-water-mcl]]). Uranium in groundwater similarly reflects geological uranium mineralisation. The second pathway, and the dominant one for Pb specifically, is distribution-system infrastructure: lead service lines, lead solder used in older copper plumbing, and lead-bearing brass fittings can release Pb into tap water at points of use, particularly in building with pre-1986 plumbing when water is corrosive or sits stagnant. This is not a property of the water source but of the infrastructure through which treated water travels. The US Lead and Copper Rule targets this pathway through corrosion-control treatment requirements. Cadmium, mercury, and most organic metal species are not major concerns in treated municipal drinking water under normal operating conditions.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 4 at 5-14, 6 below 5 | below pooling depth: tHg, Ni, Al, Cr, Sn, U |
+| Speciation transparency | OK | iAs, tHg, tAs | — |
+| Basis declaration | THIN | 1 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, Ni, Al, Cr, Sn, tAs, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | OK | 2 instruments name this commodity | — |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

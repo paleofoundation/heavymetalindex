@@ -102,6 +102,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Honey is unusual among food commodities in that its metal content reflects the surrounding foraging environment of the bee colony rather than any intrinsic biological accumulation by a plant or animal. Honeybees collect nectar, pollen, and water from a foraging radius of approximately two to five kilometers from the hive; metals present in that environment from soil, atmospheric deposition, industrial emissions, vehicle exhaust, or agricultural pesticide residues can enter the hive via contaminated floral sources, pollen, and water. Lead in honey is primarily of atmospheric and soil deposition origin; proximity to high-traffic roads, industrial facilities, or mining operations elevates Pb concentrations in honeybees and hive products. Cadmium enters honey principally through contaminated soils and agricultural inputs, particularly phosphate fertilizers applied to crops within the foraging range. Because honey is a bee-processed concentrate of nectar, it acts as an environmental biomonitor: systematic differences in honey metal concentration across geographic regions reflect differences in environmental contamination rather than commodity-specific physiological accumulation. This biomonitoring character distinguishes honey from virtually all other food commodities on this wiki, and it means that geographic sourcing is the dominant driver of inter-sample variance. Published studies from Italy, Morocco, and other producing regions confirm that Pb in honey can exceed the EU maximum level of 0.10 mg/kg (100 ppb) in apiaries near industrial or high-traffic sites [[sources/naccari2025-honey-toxic-metals-microelements]].
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 4 at 5-14, 4 below 5 | below pooling depth: tHg, Al, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 2 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

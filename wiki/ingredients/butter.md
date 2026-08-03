@@ -100,6 +100,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Butter accumulates heavy metals at very low levels relative to most food commodities, a consequence of its chemical composition. As a dairy fat product (approximately 80 percent milkfat by weight), butter separates the fat fraction of cream from the aqueous and protein fractions. Heavy metals, being hydrophilic ionic species in biological systems, partition strongly into the aqueous and protein-bound fractions of milk rather than into the lipid fraction. Lead, cadmium, mercury, and most other heavy metals present in raw milk are therefore concentrated in skimmed milk, whey, and milk proteins during dairy processing, while the fat that becomes butter carries minimal residual metal load. This partitioning behavior is well established in dairy processing science and explains why butter shows among the lowest heavy metal concentrations of any commonly studied food matrix. The FDA Total Diet Study FY2018-FY2020 confirms this pattern, reporting all measured metals (Cd, Cr, Ni, Pb, U, tAs, tHg) in salted butter at zero or below the reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. The residual risk in butter is primarily indirect: feed contamination in dairy cattle elevates metals in raw milk, but the subsequent fat-extraction process removes the vast majority of that load before butter reaches the consumer.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 1 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

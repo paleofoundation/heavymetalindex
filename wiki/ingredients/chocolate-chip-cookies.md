@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Chocolate chip cookies are a composite baked product whose heavy metal profile is driven by two primary ingredient streams: the chocolate chips and the wheat flour. Chocolate chips carry cadmium, lead, and nickel from the cocoa fraction; dark chocolate chips carry substantially more cocoa solids and thus more cadmium and nickel per gram than milk chocolate chips, which dilute the cocoa with dairy and sugar. The wheat flour contributes cadmium through bran-fraction uptake from agricultural soil. Butter, sugar, eggs, and leavening agents contribute negligible metals. The FDA Total Diet Study FY2018-FY2020 collected only a single composite sample for this food (n=1), finding chromium at 300 ppb as the sole detectable metal; all other analytes were at or below reporting limits in that single sample [[sources/fda2022-tds-elements-fy2018-fy2020]]. The very small sample size means the TDS data is indicative rather than distributional for this product; the chromium finding is consistent with cocoa being a known source of chromium in the diet. Cross-referencing with the chocolate cake TDS data (n=27) suggests that cadmium, lead, and nickel would be detectable in a larger sample of chocolate chip cookies, with concentrations depending on the chocolate-chip cocoa-solid fraction of the recipe.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 1 below 5 | below pooling depth: Cr |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

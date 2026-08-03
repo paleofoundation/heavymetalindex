@@ -97,6 +97,26 @@ Tea (Camellia sinensis leaf, processed into green, black, oolong, white, and pu-
 
 Tea's heavy-metals profile is shaped by three interacting factors: soil chemistry, the aluminum-hyperaccumulator pathway, and the infusion-extraction question. Soil chemistry: tea is grown predominantly on acidic mountain soils in Yunnan, Anhui, Zhejiang, Fujian (China), Assam and Darjeeling (India), Sri Lanka, Kenya, and similar high-altitude tropical-to-subtropical regions. These soils are naturally elevated in aluminum and frequently in cadmium relative to neutral-pH agricultural soils. Tea bushes take up Al, Cd, and trace metals from the root zone and transport them into leaves; the older the leaf, the higher the metal concentration. The aluminum-hyperaccumulator pathway is the defining feature: green and black teas routinely carry 10,000-100,000 ppb Al dry weight, with pu-erh and aged-leaf product reaching the upper end. The Hardisson 2017 dietary-exposure review documents tea as the dominant aluminum source in many western diets ([[sources/hardisson2017-aluminium-dietary-exposure-review]]). The infusion-extraction question is what makes finished-beverage exposure different from dry-leaf exposure: hot water extracts roughly 30-50% of dry-leaf lead, 50-70% of cadmium, 70-90% of fluoride, and a variable fraction of aluminum into the brewed cup. The Jurowski 2023 Polish-market survey ([[sources/jurowski2023-heavy-metals-green-tea-poland]]) measured both dry-leaf and infusion concentrations and confirmed the partial-extraction pattern. Atmospheric deposition adds surface Pb to tea leaves harvested in roadside or industrial-corridor settings, particularly relevant for lower-altitude commodity-grade product.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 4 at 5-14, 5 below 5 | below pooling depth: iAs, tHg, Ni, Cr, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

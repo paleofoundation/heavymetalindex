@@ -98,6 +98,26 @@ This ingredient stub was created during the FDA FY2018-FY2020 Total Diet Study e
 
 Chili con carne with beans is a composite canned product whose metal burden is driven by the interaction of three distinct contamination pathways. The bean fraction (typically red kidney beans or pinto beans) is the primary cadmium and nickel source: legumes are moderate cadmium accumulators that take up cadmium from soil through root transport mechanisms shared with other dicotyledonous crops, and nickel uptake is similarly elevated in legumes relative to cereal grains. The FDA Total Diet Study FY2018-FY2020 found nickel at a median of 330 ppb across 3 composite samples, which is among the higher values seen in the TDS dataset for this metal, consistent with the legume fraction driving Ni [[sources/fda2022-tds-elements-fy2018-fy2020]]. Ground beef (the "carne" fraction) contributes very little to Pb, Cd, or Ni in muscle meat. Tomato and tomato sauce components are typically low in metals. Total arsenic was detectable at a median of 3.3 ppb and a maximum of 5.3 ppb, likely reflecting contributions from both the beef and legume fractions [[sources/fda2022-tds-elements-fy2018-fy2020]]. The canned format introduces the potential for tin migration, though modern enamel-lined cans substantially limit this; Sn was declared a data gap in the contamination profile, indicating the TDS did not measure Sn for this food item.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 7 below 5 | below pooling depth: Pb, Cd, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-12 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

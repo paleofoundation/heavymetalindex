@@ -94,6 +94,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 White bread is produced from refined wheat flour (typically enriched white flour in the US) that has had the bran and germ fractions removed during milling. This processing step is the defining feature of white bread's metal profile: Cd partitions preferentially to the bran and germ of the wheat kernel, so refined flour carries approximately half the Cd of whole-wheat flour. The endosperm-dominant composition of white flour therefore results in a materially lower Cd content than whole-wheat bread or bran-enriched products made from the same grain. FDA TDS FY2018-FY2020 data (n=27) for enriched white pre-sliced bread confirm this pattern, with Cd showing a median of 29 ppb and a p95 of 35.4 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020]]). Nickel in the same dataset has a median of 79 ppb and a p95 of 117 ppb, consistent with wheat's background Ni contribution even through refining. Lead is near detection limits across the distribution (p90 = 5.3 ppb, max = 23 ppb). The primary metal accumulation pathway for all values present is soil uptake by the wheat crop; commercial yeast, salt, and water additives in bread manufacturing contribute negligible metals.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 9 below 5 | below pooling depth: Pb, Cd, iAs, tAs, Ni, Al, Cr, Sn, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

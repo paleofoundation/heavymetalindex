@@ -102,6 +102,26 @@ FSA/Fera measured this ingredient or non-infant-specific food composite in Table
 
 Broccoli is a member of the Brassica oleracea species complex, a plant family that includes some of the most studied moderate-to-high cadmium accumulators among common food crops. Brassica species express high-affinity cadmium transporters (in the ZIP/IRT family) that move Cd from the soil solution into root cells and then upward through the xylem to shoot tissues. Broccoli florets, which are the commercially harvested portion, receive metals translocated from roots and stems, and can accumulate Cd at concentrations meaningfully above those in low-accumulating crops such as corn or potato grown in the same soil. Lead accumulation in broccoli follows a different mechanism: atmospheric deposition of particulate Pb on the broad, rough surface of broccoli florets is a significant uptake route, supplementing the smaller root-absorption pathway. The textured, open floreted head structure of broccoli provides an effective surface area for trapping airborne particulates, making it more susceptible to surface-deposited lead than smooth-surfaced vegetables. Nickel uptake through soil solution is also measurable in brassica species, consistent with the family's generally elevated trace-metal absorption capacity.
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 8 below 5 | below pooling depth: Pb, Cd, iAs, tAs, tHg, Ni, Cr, U |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | THIN | 4 of 10 populated analytes declare a basis | no wet/dry basis declared: Cd, iAs, Ni, Al, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-13 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.

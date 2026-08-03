@@ -97,6 +97,26 @@ Beans — the broad legume category covering dried and canned pulses (kidney, bl
 
 Beans accumulate metals through root uptake into the seed-pod and seed tissues, with rates varying by species and soil chemistry. The legume-specific nickel accumulation is driven by Rhizobium nitrogen-fixation biochemistry: the bacterial urease enzyme requires nickel as a cofactor, so the plant actively concentrates Ni into the root nodule and into the seed. The Sandil 2023 work documented arsenic uptake into bean tissue at developmental-stage-dependent rates, with mature beans carrying more total arsenic than younger plant tissue ([[sources/sandil2023-arsenic-bean-lettuce]]). Cadmium uptake follows the standard plant pathway driven by soil Cd-to-Zn ratio. The canning step is the dominant downstream contamination event for canned beans specifically: traditional tin-plate cans contribute Sn through corrosion of the tinplate over shelf life, particularly for acidic bean products (chili beans, baked beans in tomato sauce); historical lead-soldered cans (largely phased out globally but persisting in some markets) contributed Pb. The Alzabadi 2018 Palestinian canned-foods survey found Cd-and-Pb in canned beans at retail levels of concern in some samples, with the canning step the most plausible explanation for the elevation relative to dried bean baseline ([[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn]]).
 
+<!-- BEGIN: hmi-completeness-scorecard -->
+## Completeness scorecard
+
+A deterministic gap audit. No status is a composite score and no cell is judged; every one is a function of this page's committed frontmatter and re-derives when the scorecard is rebuilt. This is the page saying where it is thin before it is read.
+
+| Dimension | Status | What is there | What is missing |
+| --- | --- | --- | --- |
+| Analyte coverage | OK | 10 of 10 profiled analytes populated | — |
+| Pooling depth | THIN | 2 at 5-14, 4 below 5 | below pooling depth: tAs, Ni, Cr, Sn |
+| Speciation transparency | OK | iAs, tAs, tHg | — |
+| Basis declaration | GAP | 0 of 10 populated analytes declare a basis | no wet/dry basis declared: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
+| Review recency | OK | 10 of 10 carry last_reviewed; oldest 2026-05-16 | — |
+| Mitigation evidence | OK | mitigation section present | — |
+| Regulatory coverage | GAP | — | no instrument in the register names this commodity by matrix |
+
+OK means the dimension's threshold is met, THIN means data exists but sits below pooling depth, and GAP means a required declaration or link is absent. A page can be heavily cited and still carry gaps.
+
+Not computed here: consumption-weighted depth, regional coverage, and the split between anthropogenic and background contamination evidence. Those need a curated consumption tier and a partitioned upstream source set, neither of which is in the repository yet. They are named rather than omitted, because a scorecard that leaves a dimension out reads as that dimension being fine.
+<!-- END: hmi-completeness-scorecard -->
+
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
