@@ -62,6 +62,24 @@ Conventional heavy-metal surveillance is built around the premise that an elevat
 
 An honest account states plainly that the exceedance claim depends on which health-based reference point is applied, and that this reference point moved substantially. In the 2015 opinion, the EFSA CONTAM Panel derived a chronic tolerable daily intake of 2.8 micrograms of nickel per kilogram of body weight per day, from a benchmark dose lower confidence limit of 0.28 milligrams per kilogram of body weight per day for post-implantation fetal loss in rats, divided by an uncertainty factor of 100. Under that value, background European diets exceeded the reference point at the mean for young age classes and at the 95th percentile for all age classes, and the finding that ordinary diets already breach the tolerable intake is robust. The Panel subsequently revised the chronic tolerable daily intake upward to 13 micrograms per kilogram of body weight per day in its 2020 update, roughly 4.6 times higher, on reconsideration of the dose-response endpoint. Under the 2020 value, most background mean intakes fall below the reference point, and the datasets here reflect this: Mania 2020 finds cereal grains contributing only about 13 percent of the 13-microgram tolerable daily intake for adults, and Han 2024 finds an exceedance (21.57 micrograms per kilogram of body weight per day) only for children aged 0 to 6 under the joint high-concentration, high-consumption assumption. The honest synthesis is therefore that background diets clearly reach or exceed the 2015 reference point and reach it primarily for young children and high-consumption scenarios under the 2020 reference point. Two further caveats belong alongside this. The EFSA opinion also derived a separate acute reference point of 1.1 micrograms per kilogram of body weight for nickel-sensitized individuals (an estimated prevalence of up to 15 percent of the general population with allergic contact dermatitis), against which calculated margins of exposure were far below the low-concern threshold at ordinary intakes; that sensitized-subpopulation concern is not resolved by the upward revision of the chronic tolerable daily intake and connects to [[synthesis/combined-exposure-underprotection]]. And several of the high-magnitude subgroup means rest on small samples (cocoa n=238 is robust, but Han's bean category is n=5 and Flyvholm's cocoa and soy figures rest on fewer than ten samples each), so the concentration ranking is far better supported than any single subgroup point estimate.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Ni). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Ni | EFSA | CONTAM Panel | 2020-09-24 |
+| Ni | European Commission | Commission Regulation | 2024-07-30 |
+| Ni | European Commission | Commission Recommendation | 2024-03-22 |
+| Ni | European Commission | Nickel Directive | — |
+| Ni | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Ni | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| Ni | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+
+_7 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### What the evidence implies for testing, regulation, and consumption
@@ -97,6 +115,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 14 sections added and 11 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 12 sections added; narrative text revised |

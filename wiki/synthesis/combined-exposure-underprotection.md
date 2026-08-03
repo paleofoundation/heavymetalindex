@@ -60,6 +60,37 @@ The three studies are not measuring the same thing. They are measuring different
 - [[sources/jecfa-91st-cadmium-2022|JECFA 91st meeting 2022]]. *Cadmium (Addendum) — 91st meeting of the Joint FAO/WHO Expert Committee on Food Additives*. Carried 1989 PTMI of 25 µg/kg b.w./month forward without revision; updated 2019 cocoa occurrence data pushed total dietary Cd exposure in children 0.5-12 years to up to 96 percent of PTMI in subpopulations.
 - [[sources/efsa2024-risk-assessment-iAs-update|EFSA CONTAM Panel 2024]]. *Update of the risk assessment of inorganic arsenic in food*, EFSA Journal. 191-page Scientific Opinion adopted November 2023; iAs classified as genotoxic carcinogen requiring Margin of Exposure approach; BMDL05 of 0.06 µg iAs/kg bw/day from US skin cancer case-control study; adult MOEs from 2 to 0.4 (mean consumers) and 0.9 to 0.2 (95th percentile), all below threshold MOE of 1.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Pb, Cd, iAs, MeHg, Ni, Al). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Al | ATSDR | Toxicological Profile series | 2008-09-01 |
+| Al | EFSA | AFC Panel | 2008-05-22 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| iAs | EFSA | CONTAM Panel | 2009-10-01 |
+| iAs | EPA | Safe Drinking Water Act | 2006-01-23 |
+| iAs | European Commission | Commission Regulation (EU) 2015/1006 | 2016-01-01 |
+| iAs | international | jecfa-arsenic-bmdl | — |
+| iAs | OEHHA | Proposition 65 | — |
+| MeHg | FDA | fda-cpg-540-600 | 1984-11-06 |
+| Ni | European Commission | Commission Regulation | 2024-07-30 |
+| Ni | European Commission | Commission Recommendation | 2024-03-22 |
+| Ni | European Commission | Nickel Directive | — |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+
+_32 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Implications for downstream wiki pages
@@ -114,9 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [8677b6c71](https://github.com/paleofoundation/heavymetalindex/commit/8677b6c71) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

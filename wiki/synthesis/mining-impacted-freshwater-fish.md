@@ -88,6 +88,37 @@ On testing granularity: a single fish sample passing a product-level Hg test fro
 
 The [[synthesis/subsistence-fishing-mehg-disparity]] synthesis identifies the vulnerable population. This synthesis identifies the contamination driver and the geographic scope of the driver. Together they make the full case: mining-impacted, industrial-polluted, and impounded freshwater systems globally produce elevated multi-metal freshwater fish; subsistence-fishing populations are the consumers most exposed because they cannot diversify away from local catch; the commercial-market regulatory framework cannot reach either population because its denominator and numerator are both calibrated against a different cohort. The two synthesis pages should be read together; the wiki's [[overview]] should reference them as a paired finding.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (tHg, MeHg, Pb, Cd, Cr, Ni). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cd | ATSDR | Toxicological Profile series | 2012-09-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Cr | SWRCB | California Safe Drinking Water Act | 2024-10-01 |
+| MeHg | FDA | fda-cpg-540-600 | 1984-11-06 |
+| MeHg | Secretaria de Salud | nom-242-ssa1-2009 | 2011-05-10 |
+| Ni | European Commission | Commission Regulation | 2024-07-30 |
+| Ni | European Commission | Commission Recommendation | 2024-03-22 |
+| Ni | European Commission | Nickel Directive | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 2023-11-05 |
+| Pb | Washington State Department of Ecology | Toxic-Free Cosmetics Act (TFCA) | 2025-01-01 |
+
+_32 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Implications for downstream wiki pages
@@ -155,9 +186,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 13 sections added and 10 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 9 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

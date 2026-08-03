@@ -103,6 +103,151 @@ for (const f of readdirSync(join(WIKI, "metals")).filter((x) => x.endsWith(".md"
   }
 }
 
+// ── 1b. What the reference values mean in practice — metal pages ───────────
+// v3 carries this section on the metal screen and the build had nothing there.
+//
+// v3's own copy is metal-specific interpretive prose (lead's lack of a
+// tolerable intake, the CDC blood lead reference value being a population
+// percentile rather than a health threshold). A generator cannot write that
+// honestly for 36 metals, and the file header already refuses to try.
+//
+// What a generator CAN state, and what makes v3's point, is the taxonomy: the
+// values recorded for this metal are different KINDS of number, set by bodies
+// doing different jobs, and they cannot be reduced to a single figure. The kind
+// follows deterministically from the issuing body, so nothing here is inferred
+// per metal.
+//
+// FIREWALL: instrument types only. No HMTc threshold, no percentile, no
+// comparison of the wiki's numbers to any certification value.
+const BODY_KIND = [
+  [/european commission|^ec$|^eu$/i, "a legally binding maximum level for a named food"],
+  [/\bfda\b/i, "an action level or guidance value, which the agency applies as an enforcement trigger rather than a safety threshold"],
+  // `contam` alone matched "Turkey CONTAMinants Maximum Levels" and filed a
+  // national ministry's binding maximum level under EFSA's health-based
+  // reference points — a false statement about what a regulator does, on a
+  // public page. Anchored to the panel's actual name.
+  [/efsa|contam panel/i, "a health-based reference point derived from toxicology, not a limit on any product"],
+  // "codex" alone matched "Turkish Food Codex Contaminants Regulation" — a
+  // national food code, not Codex Alimentarius — and filed Turkey's binding
+  // maximum level as an international reference point. Anchored to the body.
+  [/jecfa|codex alimentarius|\bfao\b|world health organization/i, "an international health-based reference point intended for national authorities to implement"],
+  [/\bepa\b|iris/i, "a reference dose: a daily intake estimated to be without appreciable risk over a lifetime"],
+  [/atsdr/i, "a minimal risk level, screening guidance for a defined exposure duration"],
+  [/oehha|proposition 65/i, "a warning threshold under state law, which triggers disclosure rather than prohibiting sale"],
+  [/ministry|secretaria|food standards|competent authority/i, "a legally binding maximum level under national law"],
+]
+for (const f of readdirSync(join(WIKI, "metals")).filter((x) => x.endsWith(".md") && x !== "index.md")) {
+  const p = join(WIKI, "metals", f)
+  const md = readFileSync(p, "utf8")
+  const name = (md.match(/^title:\s*"?([^"\n]+)"?/m) || [])[1]?.trim() ?? f.replace(/\.md$/, "")
+  const sym = (md.match(/^symbol:\s*"?([^"\n]+)"?/m) || [])[1]?.trim()
+  const key = f.replace(/\.md$/, "").toLowerCase()
+
+  const mine = regs.filter((r) => {
+    const hay = [r.metal, ...(r.metals ?? [])].filter(Boolean).map((x) => String(x).toLowerCase())
+    return hay.some((h) => h.includes(key) || (sym && h === sym.toLowerCase()))
+  })
+  if (mine.length < 2) continue
+
+  const kinds = new Map()
+  for (const r of mine) {
+    const who = `${r.agency ?? ""} ${r.program ?? ""}`
+    const hit = BODY_KIND.find(([re]) => re.test(who))
+    if (!hit) continue
+    if (!kinds.has(hit[1])) kinds.set(hit[1], new Set())
+    kinds.get(hit[1]).add(String(r.agency ?? r.jurisdiction ?? "").trim())
+  }
+  if (kinds.size < 2) continue // one kind of number needs no reconciling
+
+  const body = [
+    "## What the reference values mean in practice",
+    "",
+    `The ${mine.length} instruments recorded for ${name} are not ${mine.length} versions of one number. They are ${kinds.size} different kinds of value, set by bodies doing different jobs:`,
+    "",
+    ...[...kinds.entries()].map(
+      ([kind, bodies]) => `- ${[...bodies].filter(Boolean).sort().join(", ")} set ${kind}.`,
+    ),
+    "",
+    "The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.",
+  ].join("\n")
+
+  const next = upsert(md, "hmi-v3-refvalues", body)
+  if (next !== md) {
+    touched++
+    if (APPLY) writeFileSync(p, next)
+  }
+}
+
+// ── 1c. Regulatory limits and instruments — synthesis finding pages ────────
+// v3's finding screen carries this section. The pages carry the material for it
+// implicitly: each declares the metals it is about, and regulations.json knows
+// which instruments set values for those metals. The section states which
+// instruments a reader has to reconcile the finding against — it does not
+// interpret the finding, which is the author's job and is already above it.
+//
+// FIREWALL: instrument names, bodies and dates only. No HMTc threshold.
+for (const f of readdirSync(join(WIKI, "synthesis")).filter((x) => x.endsWith(".md") && x !== "index.md")) {
+  const p = join(WIKI, "synthesis", f)
+  const md = readFileSync(p, "utf8")
+  const fm = md.split(/^---$/m)[1] ?? ""
+  const metalsRaw = (fm.match(/^metals:\s*\[([^\]]*)\]/m) || [])[1]
+  if (!metalsRaw) continue
+  const metals = metalsRaw.split(",").map((x) => x.trim()).filter(Boolean)
+  if (!metals.length) continue
+
+  const seen = new Set()
+  const rows = []
+  for (const r of regs) {
+    const hay = [r.metal, ...(r.metals ?? [])].filter(Boolean).map((x) => String(x).toLowerCase())
+    const hit = metals.find((m) => hay.some((h) => h === m.toLowerCase() || h.includes(m.toLowerCase())))
+    if (!hit) continue
+    const id = `${r.agency ?? r.jurisdiction}|${r.program ?? r.rule_id}`
+    if (seen.has(id)) continue
+    seen.add(id)
+    rows.push({ metal: hit, agency: r.agency ?? r.jurisdiction, program: r.program ?? r.rule_id, date: r.effective_date })
+  }
+  if (rows.length < 2) continue
+  rows.sort((a, b) => String(a.metal).localeCompare(String(b.metal)) || String(a.agency).localeCompare(String(b.agency)))
+
+  const body = [
+    "## Regulatory limits and instruments",
+    "",
+    `Instruments that set a value for the metals this finding concerns (${metals.join(", ")}). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.`,
+    "",
+    "| Metal | Body | Instrument | Effective |",
+    "| --- | --- | --- | --- |",
+    ...rows.slice(0, 20).map(
+      (r) => `| ${esc(r.metal)} | ${esc(r.agency)} | ${esc(r.program)} | ${esc(r.date ? String(r.date).slice(0, 10) : "—")} |`,
+    ),
+    "",
+    `_${rows.length} instrument${rows.length === 1 ? "" : "s"} match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._`,
+  ].join("\n")
+
+  // PLACED IN v3's ORDER, not by the shared upsert's heuristic. That heuristic
+  // inserts before the first apparatus heading, which put this after
+  // Uncertainty; v3's finding screen runs Evidence base -> Regulatory limits
+  // and instruments -> Interpretation -> Uncertainty. Anchored to the first
+  // slot that should follow it.
+  const OPEN = "<!-- BEGIN: hmi-v3-finding-regs -->"
+  const CLOSE = "<!-- END: hmi-v3-finding-regs -->"
+  const block = `${OPEN}\n${body}\n${CLOSE}`
+  // Strip the block WITH the blank lines around it, then reinsert with exactly
+  // one. A first cut stripped only a single trailing newline and inserted two,
+  // so every run added one blank line and the generator was not idempotent —
+  // it rewrote all 24 pages on a no-change run, which is what
+  // audit-generators-idempotent.mjs exists to catch.
+  const re = new RegExp(`\n*${OPEN}[\\s\\S]*?${CLOSE}\n*`)
+  const stripped = md.replace(re, "\n\n")
+  const anchor = stripped.match(/\n## (Interpretation|Uncertainty)\b/)
+  const next = anchor
+    ? stripped.slice(0, anchor.index).replace(/\n+$/, "") + "\n\n" + block + "\n" + stripped.slice(anchor.index)
+    : upsert(stripped, "hmi-v3-finding-regs", body)
+  if (next !== md) {
+    touched++
+    if (APPLY) writeFileSync(p, next)
+  }
+}
+
 // ── 2. Where this page is thin — ingredient pages ──────────────────────────
 // COMPONENTS.md §9 absent state. The point is that a page with no caveat block
 // reads as "no caveats exist", which is a stronger and less true claim than

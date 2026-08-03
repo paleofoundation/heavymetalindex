@@ -66,6 +66,26 @@ The most important internal tension is at the effect threshold. Benoy 1971 found
 
 A gap this synthesis does not yet close is a modern US retail-market occurrence distribution for tin in canned acidic products; the corpus currently anchors the occurrence claim on the Polish Mania 2021 survey and the older primary values compiled in Blunden 2003. A US canned-fruit and canned-tomato tin survey would strengthen the occurrence component and is a candidate for a Journal of Food Metallomics contribution. Resynthesis triggers fire on the next two independent A-tier sources that confirm or contradict either the occurrence distribution or the effect threshold.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Sn). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Sn | Codex Alimentarius Commission | CXS 193-1995 | 1995-01-01 |
+| Sn | EU | ec-1881-2006 | 2007-03-01 |
+| Sn | EU | eu2023-contaminants-maximum-levels | — |
+| Sn | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Sn | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Sn | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| Sn | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+| Sn | Secretaria de Salud | nom-028-ssa1-1993 | 1995-04-02 |
+| Sn | Secretaria de Salud | nom-242-ssa1-2009 | 2011-05-10 |
+
+_9 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### What the evidence implies for testing, regulation, and consumption
@@ -109,6 +129,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 9 sections added and 7 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |

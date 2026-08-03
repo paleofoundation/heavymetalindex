@@ -70,6 +70,37 @@ Third, the pathway concentrates on peri-urban and informal production plots in t
 
 Consistent with the downstream-propagation rule, this synthesis is linked from the leafy-green and vegetable ingredient and product pages named in its frontmatter as the literature anchor for the wastewater-irrigation origin-risk descriptor: [[ingredients/spinach]], [[ingredients/leafy-greens]], [[ingredients/leafy-vegetables]], [[ingredients/lettuce]], [[ingredients/cabbage]], [[ingredients/carrot]], and [[ingredients/wheat]] on the ingredient side, and [[products/spinach]], [[products/leafy-vegetables-other]], [[products/root-tuber-vegetables]], and [[products/non-root-vegetables]] on the product side. These pages carry the pathway as an origin-and-production risk descriptor and explicitly do not adopt the field-study concentrations as retail typical values, per the transferability limit stated above. Where a downstream ingredient page needs a numeric contamination-profile edit, that edit is deferred to a synthesis pass over commercial-market occurrence data rather than executed from these context values, and that deferral is the specific blocker recorded here rather than a generic implication statement.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Pb, Cd, Cr, Ni, tAs). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cd | ATSDR | Toxicological Profile series | 2012-09-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Cr | SWRCB | California Safe Drinking Water Act | 2024-10-01 |
+| Ni | European Commission | Commission Regulation | 2024-07-30 |
+| Ni | European Commission | Commission Recommendation | 2024-03-22 |
+| Ni | European Commission | Nickel Directive | — |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+
+_28 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### What the evidence implies for testing, regulation, and consumption
@@ -119,6 +150,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 13 sections added and 10 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
 | [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 5 sources added; 11 sections added; narrative text revised |

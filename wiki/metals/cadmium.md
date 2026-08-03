@@ -289,6 +289,22 @@ Instruments that set a limit for Cadmium, oldest first. Dates are the instrument
 _Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 15 dated instruments._
 <!-- END: hmi-v3-tightening -->
 
+<!-- BEGIN: hmi-v3-refvalues -->
+## What the reference values mean in practice
+
+The 18 instruments recorded for Cadmium are not 18 versions of one number. They are 7 different kinds of value, set by bodies doing different jobs:
+
+- ATSDR set a minimal risk level, screening guidance for a defined exposure duration.
+- Food Standards Australia New Zealand, Ministry of Health, Secretaria de Salud set a legally binding maximum level under national law.
+- Codex Alimentarius Commission, JECFA set an international health-based reference point intended for national authorities to implement.
+- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
+- EPA set a reference dose: a daily intake estimated to be without appreciable risk over a lifetime.
+- European Commission set a legally binding maximum level for a named food.
+- OEHHA set a warning threshold under state law, which triggers disclosure rather than prohibiting sale.
+
+The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
+<!-- END: hmi-v3-refvalues -->
+
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

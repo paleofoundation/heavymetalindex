@@ -58,6 +58,34 @@ This disparity is not made visible by current regulatory documents. The exposure
 - [[sources/wu2025-climate-meghan-freshwater-fish-china|Wu et al. 2025]]. *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*, Proceedings of the National Academy of Sciences. ~13,000 fish Hg samples across 164 China sites 2005-2020; random forest + SSP climate scenarios; freshwater wild fish 2.9-6.2 times higher MeHg than farmed; 51 percent of China's total fish MeHg intake from freshwater fish; 60 percent projected increase 2031-2060.
 - [[sources/auzier-guimaraes2025-mercury-tapajos-fish|Auzier-Guimarães et al. 2025]]. *Systematic review and spatiotemporal assessment of mercury concentration in fish from the Tapajós River Basin*, ACS Environmental Au. PRISMA review of 36 studies 1992-2022; 143 species, 14,113 individuals, 735 mean Hg values; THQ greater than 1 in 89 percent of 129 food-fish species at basin consumption rate of 116.25 g/capita/day.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (MeHg, tHg). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| MeHg | EFSA | CONTAM Panel | 2012-12-01 |
+| MeHg | EPA | IRIS | 2001-07-27 |
+| MeHg | EU | ec-1881-2006 | 2007-03-01 |
+| MeHg | FDA | fda-cpg-540-600 | 1984-11-06 |
+| MeHg | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2003-06-01 |
+| MeHg | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| MeHg | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| MeHg | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+| MeHg | Secretaria de Salud | nom-027-ssa1-1993 | 1995-04-02 |
+| MeHg | Secretaria de Salud | nom-028-ssa1-1993 | 1995-04-02 |
+| MeHg | Secretaria de Salud | nom-242-ssa1-2009 | 2011-05-10 |
+| tHg | EU | eu2023-contaminants-maximum-levels | — |
+| tHg | European Commission | ec-466-2001 | 2002-04-05 |
+| tHg | European Commission | eu-reg-2018-73-mercury-compounds-mrls | 2018-02-07 |
+| tHg | European Commission | Food contaminants maximum levels | 2022-05-03 |
+| tHg | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| tHg | Instituto Ecuatoriano de Normalización | nte-inen-184-2013 | 2013-01-29 |
+
+_17 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Implications for downstream wiki pages
@@ -117,9 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->

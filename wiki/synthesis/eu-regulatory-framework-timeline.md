@@ -66,6 +66,37 @@ The historical EU caps from pre-recast frameworks (EC 1881/2006, EC 466/2001) ar
 - [[regulations/eu-reg-2022-617-mercury-fishery]] — 2022 Hg-fish amendment (current).
 - [[regulations/eu2023-contaminants-maximum-levels]] — 2023 full recast (current).
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Pb, Cd, tHg, MeHg, iAs, Sn). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cd | ATSDR | Toxicological Profile series | 2012-09-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| iAs | EFSA | CONTAM Panel | 2009-10-01 |
+| iAs | EPA | Safe Drinking Water Act | 2006-01-23 |
+| iAs | European Commission | Commission Regulation (EU) 2015/1006 | 2016-01-01 |
+| iAs | international | jecfa-arsenic-bmdl | — |
+| iAs | OEHHA | Proposition 65 | — |
+| MeHg | FDA | fda-cpg-540-600 | 1984-11-06 |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+
+_32 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Downstream pages updated
@@ -108,9 +139,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 10 sections added and 7 removed; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

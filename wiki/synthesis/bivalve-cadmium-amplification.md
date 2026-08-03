@@ -61,6 +61,37 @@ The seafood category does not have a single cadmium distribution; it is at least
 - [[sources/rohonczy2024-arctic-foodweb-cd-hg]] — Arctic foodweb Cd/Hg evidence showing bivalves at one trophic step.
 - [[sources/cardoso2023-mercury-portuguese-coast-seafood]] — Portuguese coastal bivalve Cd/Hg survey under EU caps.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Cd, Pb, tHg). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cd | ATSDR | Toxicological Profile series | 2012-09-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | ec-1881-2006 | 2007-03-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | EU | eu2023-contaminants-maximum-levels | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | European Commission | ec-466-2001 | 2002-04-05 |
+| Cd | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Cd | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| Cd | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Cd | Secretaria de Salud | nom-027-ssa1-1993 | 1995-04-02 |
+| Cd | Secretaria de Salud | nom-028-ssa1-1993 | 1995-04-02 |
+| Cd | Secretaria de Salud | nom-242-ssa1-2009 | 2011-05-10 |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+
+_27 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Downstream pages updated
@@ -116,9 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

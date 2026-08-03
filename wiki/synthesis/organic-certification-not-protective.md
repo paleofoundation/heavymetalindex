@@ -82,6 +82,37 @@ The existing organic-certification regimes (USDA NOP, EU 2018/848) do not includ
 
 For consumers, organic certification is not a heavy-metal-safety signal in the US, UK, EU, or Polish markets for cocoa, flaxseed, sesame, cereals, infant foods, or tomatoes. Direct heavy-metal occurrence testing of the finished product, not organic status, is the relevant signal for heavy-metal exposure. The New Zealand result indicates that the pattern is not universal across all jurisdictions and matrices, but the converging evidence supports the position that organic certification and heavy-metal occurrence are independent: they address independent food-safety problems, and one cannot substitute for the other.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Pb, Cd, Al, Ni, tAs). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Al | ATSDR | Toxicological Profile series | 2008-09-01 |
+| Al | EFSA | AFC Panel | 2008-05-22 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Ni | European Commission | Commission Regulation | 2024-07-30 |
+| Ni | European Commission | Commission Recommendation | 2024-03-22 |
+| Ni | European Commission | Nickel Directive | — |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+
+_28 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Implications for downstream wiki pages
@@ -148,9 +179,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 15 sections added and 12 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

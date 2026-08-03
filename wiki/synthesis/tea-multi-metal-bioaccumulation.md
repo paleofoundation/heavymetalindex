@@ -70,6 +70,37 @@ A leaf-basis standard and an infusion-basis standard are not interchangeable for
 
 On promotion, this page was added to the synthesis index at [[synthesis]], promoted from pending to promoted in the internal candidate queue, and linked from the [[ingredients/camellia-sinensis]] ingredient page as its load-bearing heavy-metals reference. The leaf-basis occurrence numbers feed [[metals/lead]], [[metals/cadmium]], and [[metals/aluminum]], which already carry the underlying source pages; the infusion-basis distinction documented here is the synthesis-level claim those metal pages did not previously connect.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Al, Pb, Cd, Cr, tAs). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Al | ATSDR | Toxicological Profile series | 2008-09-01 |
+| Al | EFSA | AFC Panel | 2008-05-22 |
+| Al | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Cr | SWRCB | California Safe Drinking Water Act | 2024-10-01 |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 2023-11-05 |
+| Pb | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+
+_26 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Uncertainty
 
 ### What this synthesis does not yet rest on
@@ -117,9 +148,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 13 sections added and 11 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 10 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -70,6 +70,37 @@ Meat monitoring is built around muscle. Muscle is the dominant edible fraction b
 
 The regulatory architecture partly acknowledges this: maximum levels for cadmium and lead in liver and kidney are set separately from, and looser than, the muscle limits, precisely because the baseline in offal is understood to be higher. But looser category-specific limits are not the same as characterization. A product formulator who reads a muscle occurrence value and applies it to an offal-containing product (liverwurst, pâté, mixed-organ meat purees, blended pet or infant meat products) inherits the muscle distribution rather than the offal distribution and understates cadmium exposure by roughly two to two-and-a-half times at the mean, based on the rabeey2025 occurrence differential; morshed2024's larger high-dose differential confirms the direction of this effect under experimental control but is not a real-product magnitude.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Cd, Pb, tHg, Cr). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cd | ATSDR | Toxicological Profile series | 2012-09-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | ec-1881-2006 | 2007-03-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | EU | eu2023-contaminants-maximum-levels | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | European Commission | ec-466-2001 | 2002-04-05 |
+| Cd | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Cd | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| Cd | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Cd | Secretaria de Salud | nom-027-ssa1-1993 | 1995-04-02 |
+| Cd | Secretaria de Salud | nom-028-ssa1-1993 | 1995-04-02 |
+| Cd | Secretaria de Salud | nom-242-ssa1-2009 | 2011-05-10 |
+| Cr | SWRCB | California Safe Drinking Water Act | 2024-10-01 |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+
+_28 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### What the evidence implies for testing, regulation, and consumption
@@ -128,6 +159,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 13 sections added and 10 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |

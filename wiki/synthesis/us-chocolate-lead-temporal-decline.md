@@ -56,6 +56,37 @@ The regulator implication is that state-level enforcement, when focused on a met
 - [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|Hands, Anderson, Cooperman, Balsky, and Frame 2024]]. *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*, Frontiers in Nutrition. 72 dark chocolate and cocoa products, multi-year US dataset 2014-2022; 43 percent of products exceeded California Prop 65 lead MADL; 35 percent exceeded Prop 65 cadmium MADL; organic products had significantly higher Cd than conventional.
 - [[sources/zhao2024-toxic-metals-metalloids-food-review|Zhao et al. 2024]]. *Toxic Metals and Metalloids in Food: A Comprehensive Review*. Multi-matrix synthesis covering 25-plus food categories across 19-plus countries; cocoa Cd up to 1.8 mg/kg with highest values from Latin American producing regions; mechanistic distinction between processing-side Pb contamination and soil-side Cd accumulation.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Pb, Cd). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cd | ATSDR | Toxicological Profile series | 2012-09-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Pb | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 2023-11-05 |
+| Pb | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Pb | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| Pb | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+
+_24 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### Implications for downstream wiki pages
@@ -115,9 +146,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->

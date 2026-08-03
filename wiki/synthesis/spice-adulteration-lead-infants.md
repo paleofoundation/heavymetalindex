@@ -83,6 +83,37 @@ The Bangladesh enforcement success (47% to 0% in two years) raises the question 
 
 Lead-based paints as a contamination vector for food contact surfaces (distinct from spice adulteration but sharing the non-agricultural, deliberate-introduction mechanism) is a parallel thread that the wiki has not yet surfaced with dedicated source coverage.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Pb, Cr). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Cr | OEHHA | Proposition 65 | 2008-12-19 |
+| Cr | SWRCB | California Safe Drinking Water Act | 2024-10-01 |
+| Pb | EFSA | CONTAM Panel | 2010-03-18 |
+| Pb | EPA | IRIS | 2004-07-08 |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Pb | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Pb | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 2023-11-05 |
+| Pb | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Pb | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+| Pb | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | 2023-06-30 |
+| Pb | Secretaria de Salud | nom-027-ssa1-1993 | 1995-04-02 |
+| Pb | Secretaria de Salud | nom-028-ssa1-1993 | 1995-04-02 |
+| Pb | Secretaria de Salud | nom-242-ssa1-2009 | 2011-05-10 |
+
+_21 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Sources
 
 - [[sources/forsyth2024-turmeric-lead-chromate-south-asia]]
@@ -126,9 +157,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 7 sections added and 6 removed |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

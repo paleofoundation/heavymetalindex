@@ -66,6 +66,37 @@ Two features of formula make the standard framing of contaminant safety a poor f
 
 The second is that formula sits outside the terrestrial-commodity monitoring streams that anchor most national food-safety databases, and aluminium in particular is frequently absent from those streams: it sits outside the four-metal priority of the United States Food and Drug Administration's Closer to Zero infant-food programme and has no formula-specific regulatory maximum in the major frameworks (a regulatory characterisation that is external context, drawn from those frameworks rather than from the seven anchor sources, none of which discuss the FDA programme). The result is a category where the dominant metal by mass, aluminium, is the least routinely monitored, where the soy-format and powder-format gradients are reproducible but not reflected in format-specific limits, and where the consumer perception of formula as a rigorously controlled medical-grade food runs ahead of the surveillance actually applied to its aluminium content.
 
+<!-- BEGIN: hmi-v3-finding-regs -->
+## Regulatory limits and instruments
+
+Instruments that set a value for the metals this finding concerns (Al, Pb, Cd, tAs, tHg). They are listed so the finding can be read against the rules already in force; the finding itself does not propose a limit.
+
+| Metal | Body | Instrument | Effective |
+| --- | --- | --- | --- |
+| Al | ATSDR | Toxicological Profile series | 2008-09-01 |
+| Al | EFSA | AFC Panel | 2008-05-22 |
+| Al | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | 2016-03-01 |
+| Cd | Codex Alimentarius Commission | CCCF (Codex Committee on Contaminants in Foods) | — |
+| Cd | EFSA | CONTAM Panel | 2009-01-30 |
+| Cd | EPA | IRIS | 1989-10-01 |
+| Cd | EU | eu-2023-915-cadmium | — |
+| Cd | European Commission | Commission Regulation (EU) 2021/1323 | 2021-08-31 |
+| Cd | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 2010-06-01 |
+| Cd | OEHHA | Proposition 65 | 1997-05-01 |
+| Pb | EU | ec-1881-2006 | 2007-03-01 |
+| Pb | EU | eu2023-contaminants-maximum-levels | — |
+| Pb | European Commission | Commission Regulation (EU) 2021/1317 | 2021-08-30 |
+| Pb | European Commission | Contaminants in Food | — |
+| Pb | European Commission | ec-466-2001 | 2002-04-05 |
+| Pb | FDA | Closer to Zero | — |
+| Pb | FDA | Juice HACCP | — |
+| Pb | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 2023-11-05 |
+| Pb | Ministry of Health | china-gb-2762-2012 | 2013-06-01 |
+| Pb | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | 2017-09-17 |
+
+_28 instruments match these metals. Values are not reproduced here; each instrument's own page states them on its own basis._
+<!-- END: hmi-v3-finding-regs -->
+
 ## Interpretation
 
 ### What the evidence implies for testing, regulation, and consumption
@@ -117,6 +148,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
