@@ -252,6 +252,24 @@ function snapshotRows(
     ].filter((r): r is Row => r !== null)
   }
 
+  // SYNTHESIS FINDING pages. v3's finding screen carries a panel (Grade /
+  // Anchor datasets / Jurisdictions / External review) and these rendered none,
+  // because a finding page declares no `sources` count and nothing in the
+  // corpus links to it — it sits at the end of the evidence chain, not the
+  // middle. All 24 pages carry anchor_sources, metals, ingredients and products
+  // in frontmatter, which is the same shape v3 shows.
+  if (!isIndex && section === "synthesis") {
+    const arr = (k: string) => (Array.isArray(fm[k]) ? (fm[k] as unknown[]).filter(Boolean).length : 0)
+    const built: Array<Row | null> = [
+      arr("anchor_sources") ? { k: "Anchor sources", v: String(arr("anchor_sources")) } : null,
+      arr("metals") ? { k: "Metals", v: String(arr("metals")) } : null,
+      arr("ingredients") ? { k: "Ingredient profiles", v: String(arr("ingredients")) } : null,
+      arr("products") ? { k: "Product categories", v: String(arr("products")) } : null,
+    ]
+    const out = built.filter((r): r is Row => r !== null)
+    if (out.length) return out
+  }
+
   // CATEGORY screens (wiki/products/categories/*, type: category-index). These
   // are v3's `category` screen, and v3 gives them a panel (Subcategories /
   // Variant groups / Sources routed here / Reviewed). Nothing in the corpus

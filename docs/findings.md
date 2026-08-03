@@ -416,3 +416,10 @@ literature-native intro. Tier: 1
 - **Why it matters:** it reads as a formatting error rather than two distinct sections, and v3 has one section here ("FDA Total Diet Study occurrence"). Pre-existing; the v3 rename made it visible rather than causing it.
 - **Fix shape:** drop the author wrapper heading and let the generated block stand alone, or move the wrapper's prose inside the marker region so the generator owns both.
 - **Logged:** 2026-08-03. Not chased per standing rule — it is a content edit on an evidence page, not presentation.
+
+## "Metals that govern this category" cannot be built from `panel_metals`
+- **File:** `tools/build-category-pages.mjs` (would-be section), data source `wiki/products/*.md` frontmatter `panel_metals` (286 pages)
+- **Claim:** v3's category screen carries a section "Metals that govern this category". The only per-product metals field in the corpus is `panel_metals` (e.g. `[Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]`), which is the HMT&C certification analyte panel — a program decision, not a literature finding.
+- **Why it matters:** rendering that list on a heavymetalindex.com page under the words "metals that govern this category" would state a certification-program choice as an evidence conclusion. That is the Part 2 drift in the "strengthening" direction (making an HMTc decision look more evidence-based than the literature supports), and it puts HMTc panel content on an HMI URL, which the standards-publication architecture treats as a firewall violation.
+- **Fix shape:** derive the section from metals actually measured in the sources routed to the category's product pages (`data/evidence/product_source_routing_audit.csv` joined to source `metals:` frontmatter). That is literature-native and belongs on the public page. Until that join exists, the section is honestly absent rather than wrongly populated.
+- **Logged:** 2026-08-03. Not built. This is the one v3 section I deliberately did not ship.
