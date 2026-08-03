@@ -402,3 +402,10 @@ mapping moved to staff/HMTc surfaces — NOT given an Overview heading as-is.
 **Not chased** (out of scope for the Overview task; not a false statement, so below
 the interrupt bar). Fix = a product-scaffold prose generator that writes a
 literature-native intro. Tier: 1
+
+## /regulations rail lists every instrument as a top-level section
+- **File:** `wiki/regulations/index.md`
+- **Claim:** the left rail renders 12 top-level rails — Overview, Cross-cut views, then one per instrument (Australia/NZ, EU, Category 5 Beverage, FDA Closer to Zero, California Drinking Water, Mexico Fishery, Turkey), Full register, Auto-linked stubs, Update history.
+- **Why it matters:** v3's `regulationsIdx` screen has three rails (01 Overview, 02 Categories, 09 Update history). Individual instruments are body content reached through the register table, not rails. Because v3's rail numbers are a fixed 01–09 taxonomy, an 11-section rail cannot be numbered without colliding with the pinned apparatus slots — `Snav.tsx` therefore falls back to sequential numbering on this page specifically, which is correct but is a workaround for the IA, not a fix.
+- **Fix shape:** group the per-instrument H2s under a single "Instruments" rail (or move them below the register table), which brings the rail to v3's shape and lets the pinned taxonomy apply.
+- **Logged:** 2026-08-03. Not chased per standing rule.

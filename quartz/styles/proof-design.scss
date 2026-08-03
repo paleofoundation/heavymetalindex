@@ -457,6 +457,13 @@ body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00
 /* the +/- affordance needs its room back on rails that have children */
 .snav .grp:not(.snav-further):has(> a.sub) > a.sec { padding-right: 26px; }
 
+/* An entry that carries its own number uses it. v3's rail numbers are a fixed
+   01-09 taxonomy that SKIPS the slots a screen lacks, so a pure counter
+   mislabels every rail with a gap - /products read "03 Update history" against
+   v3's 09. Snav.tsx pins References/Sources/Update history to 07/08/09; the
+   counter still numbers the content sections above them, which is correct. */
+.snav .grp > a.sec[data-n]::before { content: attr(data-n); }
+
 .snav .grp > a.sec::before,
 .snav .grp > summary.sec::before {
   content: counter(hmi-rail, decimal-leading-zero);

@@ -45,21 +45,52 @@ const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail
 //
 // `need` still gates each one on the section actually existing, so directory
 // pages without them render no dead anchor.
-const APPARATUS: { anchor: string; label: string; need: RegExp; badge?: boolean }[] = [
-  { anchor: "references", label: "References", need: /^references$/i },
-  { anchor: "sources", label: "Sources", need: /^sources$/i, badge: true },
-  { anchor: "update-history", label: "Update history", need: /^update history$/i },
+//
+// THE NUMBERS ARE A FIXED TAXONOMY, NOT A SEQUENCE. Extracted from every screen
+// record in the artifact:
+//
+//   01 Overview  02 Evidence  03 Limits  04 Interpretation  05 Uncertainty
+//   06 Questions  07 References  08 Sources  09 Update history
+//
+// A screen SKIPS the numbers it lacks — the ingredient screen runs 01, 02, 05,
+// 07, 08, 09, and the products index runs 01, 02, 09. The rail was numbered by
+// a pure CSS counter (proof-design.scss:426), which can only ever count
+// 01, 02, 03..., so every page whose rail has a gap was mislabelled: /products
+// showed "03 Update history" where v3 pins it at 09.
+//
+// Content sections still count sequentially, which is correct and matches all
+// five index screens. Only the apparatus is pinned, and it is pinned here as
+// data so the number travels with the entry rather than with its position.
+const APPARATUS: { anchor: string; label: string; need: RegExp; badge?: boolean; n: string }[] = [
+  { anchor: "references", label: "References", need: /^references$/i, n: "07" },
+  { anchor: "sources", label: "Sources", need: /^sources$/i, badge: true, n: "08" },
+  { anchor: "update-history", label: "Update history", need: /^update history$/i, n: "09" },
 ]
 
-function Apparatus({ toc, count }: { toc: { text?: string }[]; count?: string }) {
+// `contentCount` guards the pinned numbers against collision. The taxonomy only
+// holds while a screen has at most six content sections, which is true of every
+// v3 screen. /regulations currently lists all eleven instruments as top-level
+// rails, so pinning would render 01..11 followed by 09 - two 09s, out of order,
+// and a worse defect than the one being fixed. Where the rail is that long, the
+// sequence stays sequential until that page's IA is corrected.
+function Apparatus({
+  toc,
+  count,
+  contentCount,
+}: {
+  toc: { text?: string }[]
+  count?: string
+  contentCount: number
+}) {
   const has = (re: RegExp) => toc.some((e) => re.test((e.text ?? "").trim()))
   const items = APPARATUS.filter((u) => has(u.need))
   if (items.length === 0) return null
+  const pin = contentCount <= 6
   return (
     <>
       {items.map((u) => (
         <div class="grp">
-          <a class="sec" href={`#${u.anchor}`} data-for={u.anchor}>
+          <a class="sec" href={`#${u.anchor}`} data-for={u.anchor} data-n={pin ? u.n : undefined}>
             {u.label}
             {u.badge && count ? <span class="snav-badge">{count}</span> : null}
           </a>
@@ -173,7 +204,7 @@ export default (() => {
               ))}
             </details>
           )}
-          <Apparatus toc={toc} count={sourceCountLabel} />
+          <Apparatus toc={toc} count={sourceCountLabel} contentCount={groups.length + (ungrouped.length ? 1 : 0)} />
           <RailNote />
         </>
       )
@@ -207,7 +238,7 @@ export default (() => {
             ))}
           </details>
         )}
-        <Apparatus toc={toc} count={sourceCountLabel} />
+        <Apparatus toc={toc} count={sourceCountLabel} contentCount={core.length + (further.length ? 1 : 0)} />
         <RailNote />
       </>
     )
