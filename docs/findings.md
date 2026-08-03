@@ -408,4 +408,11 @@ literature-native intro. Tier: 1
 - **Claim:** the left rail renders 12 top-level rails — Overview, Cross-cut views, then one per instrument (Australia/NZ, EU, Category 5 Beverage, FDA Closer to Zero, California Drinking Water, Mexico Fishery, Turkey), Full register, Auto-linked stubs, Update history.
 - **Why it matters:** v3's `regulationsIdx` screen has three rails (01 Overview, 02 Categories, 09 Update history). Individual instruments are body content reached through the register table, not rails. Because v3's rail numbers are a fixed 01–09 taxonomy, an 11-section rail cannot be numbered without colliding with the pinned apparatus slots — `Snav.tsx` therefore falls back to sequential numbering on this page specifically, which is correct but is a workaround for the IA, not a fix.
 - **Fix shape:** group the per-instrument H2s under a single "Instruments" rail (or move them below the register table), which brings the rail to v3's shape and lets the pinned taxonomy apply.
-- **Logged:** 2026-08-03. Not chased per standing rule.
+- **Logged:** 2026-08-03. **RESOLVED 2026-08-03**: the seven instrument headings now nest under a `## Curated index` section, which is v3's own name for them (docs/design/v3-sections.json, regulationsIdx). The page is now Overview / Cross-cut views / Curated index / Full register / Auto-linked stubs / Update history — five content rails plus the pinned 09, matching v3 and letting the fixed taxonomy apply.
+
+## Rice carries two adjacent FDA Total Diet Study headings
+- **File:** `wiki/ingredients/rice.md:195` and `:200`
+- **Claim:** an author-owned `## FDA TDS FY2018-FY2020 Evidence` sits directly above the generated `hmi-fda-tds-occurrence` block, whose own heading covers the same material. The page renders two near-identical FDA headings back to back.
+- **Why it matters:** it reads as a formatting error rather than two distinct sections, and v3 has one section here ("FDA Total Diet Study occurrence"). Pre-existing; the v3 rename made it visible rather than causing it.
+- **Fix shape:** drop the author wrapper heading and let the generated block stand alone, or move the wrapper's prose inside the marker region so the generator owns both.
+- **Logged:** 2026-08-03. Not chased per standing rule — it is a content edit on an evidence page, not presentation.

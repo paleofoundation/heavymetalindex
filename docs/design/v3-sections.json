@@ -1,0 +1,98 @@
+{
+ "home": [
+  "What this reference is",
+  "Metal registry",
+  "How the Index is kept honest",
+  "Common questions",
+  "Recently revised"
+ ],
+ "metal": [
+  "Overview",
+  "At a glance",
+  "Toxicology",
+  "How it enters food",
+  "Where it is found",
+  "Regulatory limits",
+  "Regulatory tightening over time",
+  "What the reference values mean in practice",
+  "Testing",
+  "Microbiome effects",
+  "Historical context",
+  "Vulnerable populations",
+  "App-layer integration",
+  "Open questions and limits of this page",
+  "Questions this page answers"
+ ],
+ "synthesis": [
+  "How findings are graded",
+  "All findings"
+ ],
+ "finding": [
+  "Overview",
+  "Evidence base",
+  "Regulatory limits and instruments",
+  "Interpretation",
+  "Uncertainty"
+ ],
+ "portal": [
+  "Categories",
+  "How categories are built"
+ ],
+ "category": [
+  "Metals that govern this category",
+  "Subcategories"
+ ],
+ "ingredient": [
+  "Completeness scorecard",
+  "Heavy metal contamination profile",
+  "Why this ingredient accumulates",
+  "Metals profiled in rice",
+  "Irrigation management and the arsenic\u2013cadmium trade-off",
+  "Processing effects",
+  "FDA Total Diet Study occurrence",
+  "Mitigation options",
+  "Product categories that inherit this ingredient",
+  "Where this page is thin"
+ ],
+ "product": [
+  "Ingredient drivers",
+  "Limits applicable to this category",
+  "Testing and verification posture"
+ ],
+ "regulation": [
+  "What the instrument does",
+  "The values, exactly as set",
+  "How to read it against other instruments"
+ ],
+ "source": [
+  "Extracted values",
+  "Methods, as reported",
+  "Cited by"
+ ],
+ "metalsIdx": [
+  "Overview",
+  "What a metal page covers",
+  "Species \u2014 read this first",
+  "Metals at a glance",
+  "Full index"
+ ],
+ "productsIdx": [
+  "Overview",
+  "Categories"
+ ],
+ "regulationsIdx": [
+  "Overview",
+  "Cross-cut views",
+  "Curated index",
+  "Full register",
+  "Auto-linked stubs"
+ ],
+ "browse": [
+  "41 records"
+ ],
+ "_shared_tail": [
+  "References",
+  "Sources",
+  "Update history"
+ ]
+}

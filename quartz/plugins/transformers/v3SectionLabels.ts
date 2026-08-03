@@ -31,7 +31,10 @@ import { visit } from "unist-util-visit"
 // silently break `#typical-exposure-routes` links across the corpus — the same
 // class of breakage as deleting a rule that looked like a predecessor.
 
-type Rename = { from: RegExp; to: string }
+// `to` may be a function of the page title. v3 heads the ingredient section
+// "Metals profiled in rice"; a fixed string produced "Metals profiled in" — a
+// heading ending in a dangling preposition, shipped on every ingredient page.
+type Rename = { from: RegExp; to: string | ((title: string) => string) }
 
 // Keyed by frontmatter `type`. Each entry is v3's label for a section the build
 // already has under another name. Sections v3 adds that the build genuinely
@@ -56,9 +59,12 @@ const RENAMES: Record<string, Rename[]> = {
     { from: /^why this commodity accumulates/i, to: "Why this ingredient accumulates" },
     { from: /^ingredient-derivative risk$/i, to: "Product categories that inherit this ingredient" },
     { from: /^(evidence gaps|open questions|where this page is thin)$/i, to: "Where this page is thin" },
+    // Measured on rice: "FDA TDS FY2018-FY2020 Occurrence Values". v3 states it
+    // in words, and the fiscal-year span is already in the table beneath.
+    { from: /^fda tds\b.*occurrence/i, to: "FDA Total Diet Study occurrence" },
     // v3 heads this "Metals profiled in <ingredient>"; the build heads it with
     // the metal's own name ("Nickel in rice"). Same job, different vocabulary.
-    { from: /^(lead|cadmium|arsenic|mercury|nickel|chromium|alumini?um|tin|antimony) in /i, to: "Metals profiled in" },
+    { from: /^(lead|cadmium|arsenic|mercury|nickel|chromium|alumini?um|tin|antimony) in /i, to: (t) => `Metals profiled in ${t.toLowerCase()}` },
   ],
   "product-category": [
     { from: /^(ingredient drivers|drivers)$/i, to: "Ingredient drivers" },
@@ -70,6 +76,14 @@ const RENAMES: Record<string, Rename[]> = {
     { from: /^overview$/i, to: "What the instrument does" },
     { from: /^(minimal risk levels|the values|limits|values)$/i, to: "The values, exactly as set" },
     { from: /^relationship to /i, to: "How to read it against other instruments" },
+  ],
+  // v3's synthesis directory is "How findings are graded" then "All findings".
+  // The build carries both under different names — mapped by FUNCTION, not by
+  // name, which is the whole point of CONTENT-RULES §2: a reader looking for
+  // the grading rules is served identically by either heading.
+  "synthesis-index": [
+    { from: /^synthesis findings pages$/i, to: "All findings" },
+    { from: /^when to promote a synthesis findings page$/i, to: "How findings are graded" },
   ],
   source: [
     { from: /^(key numbers|extracted values)$/i, to: "Extracted values" },
@@ -95,6 +109,7 @@ export const V3SectionLabels: QuartzTransformerPlugin = () => ({
         const type = file.data?.frontmatter?.type as string | undefined
         const renames = type ? RENAMES[type] : undefined
         if (!renames?.length) return
+        const pageTitle = String(file.data?.frontmatter?.title ?? "").trim()
 
         // THE RAIL READS THE TOC, NOT THE DOM. Quartz builds file.data.toc in
         // Plugin.TableOfContents(), which runs BEFORE this transformer, so
@@ -111,7 +126,7 @@ export const V3SectionLabels: QuartzTransformerPlugin = () => ({
             const t = (entry?.text ?? "").trim()
             if (!t) continue
             const hit = renames.find((r) => r.from.test(t))
-            if (hit) entry.text = hit.to
+            if (hit) entry.text = typeof hit.to === "function" ? hit.to(pageTitle) : hit.to
           }
         }
 
@@ -134,7 +149,7 @@ export const V3SectionLabels: QuartzTransformerPlugin = () => ({
           for (const child of node.children ?? []) {
             if (child.type !== "text") continue
             if (!replaced) {
-              child.value = hit.to
+              child.value = typeof hit.to === "function" ? hit.to(pageTitle) : hit.to
               replaced = true
             } else {
               child.value = ""

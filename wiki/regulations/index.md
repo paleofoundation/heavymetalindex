@@ -18,21 +18,25 @@ Two auto-generated cross-cuts compose every regulation tracked below into a sing
 
 For the Category 1 lead comparison layer, start with [[products/lead-benchmark-context|Lead benchmark context]]. It normalizes FDA, EU, Prop 65, and occurrence-context lead values into ppb while preserving each value's legal or evidentiary role.
 
-## Australia/New Zealand Contaminants Maximum Levels
+## Curated index
+
+The instruments below are the ones the Index has read in full and written up individually. Each entry states what the instrument covers and how it relates to the others; the complete list of every instrument tracked, read or not, is in the full register further down.
+
+### Australia/New Zealand Contaminants Maximum Levels
 
 - [[regulations/au-nz-food-standards-code-schedule-19-contaminants|Australia New Zealand Food Standards Code]] - Australia New Zealand Food Standards Code Schedule 19 maximum levels for contaminants and natural toxicants, including selected metal limits in food.
 
-## EU Contaminants Maximum Levels
+### EU Contaminants Maximum Levels
 
 - [[regulations/eu2023-contaminants-maximum-levels|EU contaminants maximum-level framework]] - canonical HMI hub for Commission Regulation (EU) 2023/915, the EU maximum-level framework for contaminants in food.
 - [[regulations/eu-2015-1006-iAs-rice|EU inorganic-arsenic limits for rice (2015)]] - historical Commission Regulation (EU) 2015/1006 amendment adding inorganic-arsenic maximum levels for rice and rice products, including rice for infant and young-child foods.
 - [[regulations/eu-2023-915-cadmium|EU cadmium maximum levels]] - cadmium matrix maximum levels for infant foods, cereals, rice, vegetables, oilseeds, cocoa/chocolate, fishery products, offal, and supplements.
 
-## Category 5 Beverage Regulations
+### Category 5 Beverage Regulations
 
 - [[regulations/eu2023-arsenic-rice-based-drinks|EU inorganic-arsenic limit for rice-based drinks]]
 
-## FDA Closer To Zero
+### FDA Closer To Zero
 
 - [[regulations/fda2025-lead-processed-baby-foods|FDA 2025 lead action levels for processed baby foods]] - canonical hub for FDA's January 2025 final guidance action levels for lead in processed foods intended for babies and young children.
 - [[regulations/fda-closer-to-zero|FDA Closer to Zero]] - program overview.
@@ -40,7 +44,7 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 - [[regulations/fda-ctz-Pb-rootveg-20ppb|FDA Closer to Zero — 20 ppb lead (root vegetables)]] - 20 ppb lead action level for single-ingredient root vegetables.
 - [[regulations/fda-ctz-Pb-cereal-20ppb|FDA Closer to Zero — 20 ppb lead (dry infant cereals)]] - 20 ppb lead action level for dry infant cereals.
 
-## California Drinking Water and Proposition 65
+### California Drinking Water and Proposition 65
 
 - [[regulations/ca-swrcb-hexavalent-chromium-mcl|California hexavalent-chromium drinking-water limit]] - California State Water Resources Control Board hexavalent-chromium drinking-water Maximum Contaminant Level (10 µg/L), effective October 1, 2024. A drinking-water standard, not a food limit.
 - [[regulations/oehha-chromium-vi-prop65|California Proposition 65 — hexavalent chromium]] - California Proposition 65 listing of hexavalent chromium (carcinogen 1987; developmental and reproductive toxicant 2008) and its safe-harbor levels. A product-labeling instrument, not a food limit.
@@ -48,13 +52,13 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 - [[regulations/oehha-cadmium-prop65|California Proposition 65 — cadmium]] - California Proposition 65 cadmium listing and Maximum Allowable Daily Level.
 - [[regulations/oehha-arsenic-prop65|California Proposition 65 — inorganic arsenic]] - California Proposition 65 inorganic-arsenic listing.
 
-## Mexico Fishery Product Regulations
+### Mexico Fishery Product Regulations
 
 - [[regulations/mx-nom-242-ssa1-2009-fishery-products|Mexico NOM-242-SSA1-2009 (fishery products)]] - current Mexican sanitary standard for fresh, refrigerated, frozen, and processed fishery products, including fishery-product heavy-metal and metalloid limits.
 - [[regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded|Mexico NOM-027-SSA1-1993 (fresh and frozen fish, superseded)]] - historical fresh/refrigerated/frozen fish standard cancelled by NOM-242-SSA1-2009.
 - [[regulations/mx-nom-028-ssa1-1993-canned-fish-superseded|Mexico NOM-028-SSA1-1993 (canned fish, superseded)]] - historical canned-fish standard cancelled by NOM-242-SSA1-2009.
 
-## Turkey Contaminants Maximum Levels
+### Turkey Contaminants Maximum Levels
 
 - [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk|Turkish Food Codex — lead in raw milk]] - Turkish Food Codex raw milk, heat-treated milk, and milk for milk-based products lead maximum level.
 
@@ -144,9 +148,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [6d3ae2d30](https://github.com/paleofoundation/heavymetalindex/commit/6d3ae2d30) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
 | [79b06dd2c](https://github.com/paleofoundation/heavymetalindex/commit/79b06dd2c) | 2026-06-25 | minor | Narrative text revised |
 | [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 section added; narrative text revised |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
