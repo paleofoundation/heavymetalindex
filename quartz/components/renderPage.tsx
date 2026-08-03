@@ -260,6 +260,11 @@ export function renderPage(
   // 3-column grid (no snav/rail) and renders full-width.
   const isHome = (slug as string) === "index"
   // Auth screens render a single centered card (no hero / snav / rail).
+  // CHROME-SPEC §3: "Every screen carries §1.1, §1.2, §1.6. Every screen EXCEPT
+  // Home and Ask carries §1.3, §1.4, §1.5." Ask was rendering the detail hero
+  // AND both rails, so it read as a detail page with an ask form dropped into
+  // it. It is its own screen: a burgundy hero over a 1180px reading column.
+  const isAsk = (slug as string) === "ask"
   const isAuth = (slug as string) === "login" || (slug as string) === "signup"
   // The 404 page carries its own heading (pages/404.tsx). A research hero band
   // above it would be both meaningless and a second <h1> on the page.
@@ -307,7 +312,7 @@ export function renderPage(
         )}
         {/* Full-width burgundy hero band (microbiomemedicine-style), lifted
             outside #quartz-root so it spans the viewport; content pages only. */}
-        {!isHome && !isAuth && !isError && <HeroBand {...componentData} />}
+        {!isHome && !isAsk && !isAuth && !isError && <HeroBand {...componentData} />}
         {isAuth ? (
           <div id="quartz-root" class="page proof proof-auth">
             <main class="hmi-auth-page" id="main-content" tabindex={-1}>
@@ -315,7 +320,7 @@ export function renderPage(
             </main>
           </div>
         ) : (
-        <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
+        <div id="quartz-root" class={isHome ? "page proof proof-home" : isAsk ? "page proof proof-ask" : "page proof"}>
           <Body {...componentData}>
             <div class="proof-container">
               <div class="proof-layout">

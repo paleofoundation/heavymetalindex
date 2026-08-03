@@ -1136,3 +1136,217 @@ figcaption {
 .wiki-content table tbody td.wrap:first-child {
   white-space: normal;
 }
+
+/* ══ ASK SCREEN (v3 standalone export) ═════════════════════════════════════
+   Values read from the RENDERED standalone artifact. Ask is its own screen, not
+   a detail page: CHROME-SPEC §3 excludes it from the hero band and both rails,
+   which renderPage now honours via `.proof-ask`. What remains here is the
+   screen itself — a burgundy hero over a 1180px reading column. Narrower than
+   the 1760px detail shell on purpose: an answer is prose to be read, not a
+   reference layout to be scanned. */
+.proof-ask .snav,
+.proof-ask .rail,
+.proof-ask .page-header {
+  display: none;
+}
+
+.proof-ask .proof-layout {
+  display: block;
+  max-width: none;
+  padding: 0;
+}
+
+.proof-ask .proof-main {
+  padding: 0;
+  max-width: none;
+}
+
+.proof-ask .wiki-content {
+  max-width: none;
+}
+
+/* Hero — full-bleed burgundy. The header AND the ask form sit on it, so the
+   band is painted on a wrapper that spans both (v3: section #8b2a4a with the
+   card inside its 1180px inner). */
+.proof-ask .hmi-ask-page {
+  /* askindex.scss caps this at 760px, which is why the burgundy band spanned
+     only the left half of the viewport. v3's Ask hero is full-bleed with a
+     1180px inner column. */
+  max-width: none;
+  background: #8b2a4a;
+  padding: 72px 0 0;
+  margin: 0;
+}
+
+.hmi-ask-intro {
+  /* askindex/Header.css give this `display: flex; align-items: center`, which
+     put the mono kicker BESIDE the headline. v3 stacks kicker -> h1 -> dek. */
+  display: block;
+  background: none;
+  color: #fff;
+  border: 0;
+  padding: 0 calc(50% - 542px);
+  margin: 0;
+}
+
+.hmi-ask-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.66);
+  margin-bottom: 20px;
+}
+
+.hmi-ask-h1 {
+  font-family: Lora, serif;
+  font-size: 46px;
+  line-height: 1.12;
+  letter-spacing: -0.018em;
+  color: #fff;
+  max-width: 22ch;
+  margin: 0 0 24px;
+  border: 0;
+  padding: 0;
+}
+
+.hmi-ask-intro p {
+  margin: 0;
+  max-width: 66ch;
+  font-size: 16.5px;
+  line-height: 1.72;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+/* The ask box — white card on the burgundy. */
+.hmi-ask-form {
+  background: #fff;
+  border-radius: 3px;
+  padding: 18px 20px;
+  border: 0;
+  box-shadow: none;
+  /* aligns with the hero text column, not centred independently of it */
+  margin: 34px calc(50% - 542px) 0;
+  max-width: none;
+}
+
+/* the burgundy band ends below the card */
+.proof-ask .hmi-ask-form {
+  margin-bottom: 64px;
+}
+
+.hmi-ask-form textarea,
+.hmi-ask-form input[type="text"] {
+  font-size: 16px;
+  line-height: 1.55;
+  color: #2b1f24;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  padding: 0;
+}
+
+.hmi-ask-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #e8e1db;
+}
+
+.hmi-ask-submit {
+  background: #8b2a4a;
+  color: #fff;
+  border: none;
+  padding: 11px 22px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:hover {
+    background: #6f2139;
+  }
+}
+
+/* Body — 1180px reading column below the hero. */
+.hmi-ask-suggestions,
+.hmi-ask-conversation,
+.hmi-ask-note {
+  max-width: 1084px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Everything after the ask card is the reading column on the page ground, not
+   on the burgundy. */
+.proof-ask .hmi-ask-suggestions {
+  background: #fffdfb;
+  padding: 40px calc(50% - 542px) 0;
+  margin: 0;
+  max-width: none;
+}
+
+.proof-ask .hmi-ask-conversation {
+  background: #fffdfb;
+  padding: 40px calc(50% - 542px) 88px;
+  margin: 0;
+  max-width: none;
+}
+
+.hmi-ask-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  border: 0;
+  padding: 0;
+  background: none;
+  margin-top: 40px;
+}
+
+.hmi-ask-suggestions-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  flex-basis: 100%;
+  margin-bottom: 4px;
+}
+
+.hmi-ask-suggestions button {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  padding: 6px 11px;
+  border-radius: 2px;
+  border: 1px solid #e6ded8;
+  background: #fffdfb;
+  color: #736b6e;
+  cursor: pointer;
+  text-align: left;
+
+  &:hover {
+    border-color: #8b2a4a;
+    background: #f6ecf0;
+    color: #8b2a4a;
+  }
+}
+
+.hmi-ask-conversation {
+  padding: 40px 0 88px;
+}
+
+.hmi-ask-note {
+  border-left: 3px solid #8b2a4a;
+  background: #fbf5f7;
+  padding: 18px 22px;
+  margin-bottom: 32px;
+  font-size: 15px;
+  line-height: 1.72;
+  color: #5a4148;
+}
