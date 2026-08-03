@@ -1,11 +1,19 @@
 {
-  "$comment": "Machine-only clean/dirty/independent role assignment for the HMTc pooling engine, keyed by product_slug. This file exists because the role designation MUST NOT live in public wiki/products/ frontmatter: a `variant_type: contamination_platform` token in a public page is a Part-2 firewall leak (it exposes certification-internal row architecture), so firewall-fix.mjs renames it to `higher-contamination-sibling`, which the engine's dirty branch does not match. The net effect was that 0 rows computed as dirty corpus-wide and every 'higher-contamination-sibling' row silently fell through to the clean P97 (90%-pass) treatment. This config decouples the engine's percentile choice from the public frontmatter: the engine reads role from here first, and falls back to variant_type only when a slug is absent. Rows not listed here keep their prior behaviour.",
+  "$comment": "Machine-only standards config read by the pooling engine (build-hmtc-aggregate-distributions.mjs), keyed by product_slug. It carries two decisions that must NOT live in public wiki/products/ frontmatter (both are Part-2 firewall leaks there): the clean/dirty/independent ROLE, and whether the row's pool is restricted to the certification-relevant market (STRATIFY). Rows absent from `roles` keep default behaviour: independent P97, full (unstratified) pool.",
+  "$stratify_comment": "`stratify: true` restricts a row's pool to the jurisdictions in `target_markets` on EVERY build (no CLI flag needed) — this is how a ratified methodology change is made concrete for a category without a hand-run flag. Stratification is rolled out PER-CATEGORY as each is validated, deliberately NOT as a global default: a blanket flip empties ~100 cells across the corpus (salt, lipstick, coffee, canned-seafood tin, etc.) whose evidence base is entirely non-target-market, which would regress those categories. The `--markets` CLI flag still overrides this for ad-hoc analysis and forces stratification on all rows.",
+  "target_markets": [
+    "US", "CA", "UK", "EU", "FR", "DE", "IT", "PT", "SE", "ES", "SK", "IE", "NL",
+    "BE", "DK", "FI", "PL", "AT", "AU", "NZ", "JP", "NO", "CH", "LU", "GR", "CZ",
+    "HU", "RO", "BG", "HR", "SI", "EE", "LV", "LT", "CY", "MT"
+  ],
+  "target_markets_criterion": "Regulatory-equivalence, NOT geography: jurisdictions that enforce binding maximum levels for infant/young-child formula with comparable surveillance. This list is the operational expression of that criterion; the criterion, not the country list, is what may be published. Sources with no jurisdiction recorded are retained, not dropped.",
   "roles": {
     "infant-formula-powder-non-soy": {
       "role": "clean",
       "target_percentile": 0.97,
       "pair_partner": "infant-formula-powder-soy-based",
-      "rationale": "Cow-milk-based powdered formula is the clean benchmark of the infant-formula-powder within-matrix pair. Clean subcategory is held to P97 of its own occurrence distribution, calibrated to admit ~90% of well-controlled brands at the row level.",
+      "stratify": true,
+      "rationale": "Cow-milk-based powdered formula is the clean benchmark of the infant-formula-powder within-matrix pair. Clean subcategory is held to P97 of its own occurrence distribution, calibrated to admit ~90% of well-controlled brands at the row level. Pool restricted to the certification-relevant market.",
       "authorized_by": "Karen Pendergrass",
       "authorized_date": "2026-08-02"
     },
@@ -13,7 +21,8 @@
       "role": "dirty",
       "target_percentile": 0.45,
       "pair_partner": "infant-formula-powder-non-soy",
-      "rationale": "Soy-protein-isolate powdered formula is the higher-contamination sibling of the pair. Dirty subcategory is held to P45 of its own occurrence distribution: a deliberately demanding per-analyte target that admits only the cleanest brands at the row level, so the certification ratchets the segment toward cleaner product over time. The final per-analyte limit is still min(P45, lowest applicable regulatory cap); where P45 exceeds the cap (soy Ni), the cap binds.",
+      "stratify": true,
+      "rationale": "Soy-protein-isolate powdered formula is the higher-contamination sibling. Dirty subcategory is held to P45 of its own occurrence distribution: a demanding per-analyte target admitting only the cleanest brands at the row level (~40% row-pass, measured), so the certification ratchets the segment toward cleaner product. Final per-analyte limit is min(P45, lowest applicable regulatory cap). Pool restricted to the certification-relevant market.",
       "authorized_by": "Karen Pendergrass",
       "authorized_date": "2026-08-02"
     }

@@ -1,5 +1,7 @@
 # Standards methodology — pool admission and pooling math
 
+**Method version: v1.0 (ratified 2026-08-03).** This is the first stable, versioned methodology. It incorporates the 2026-08-03 amendments (target-market stratification, dirty target ~40% anchored to measured lot data, program-level ~80% monitored admission, split-certifies-not-envelope, variance handled in the pool/cadence not per-lot, process-control screens). Constitutional amendments are ratified in CLAUDE.md Part 19; the evolution rationale and the five-principle checks are in `data/workbench/standards/2026-08-03-methodology-evolution-proposal.md`. This is the version publishable as method (per the firewall in CLAUDE.md Part 2: method may be published on the HMTc property; per-cell arithmetic and the excluded-jurisdiction list may not).
+
 This document is the detailed reference for HMT&C standards methodology. The rule-grade firewall and the P97/P45 methodology summary live in CLAUDE.md Part 19; this file is the procedural detail.
 
 ## Pool admission rules

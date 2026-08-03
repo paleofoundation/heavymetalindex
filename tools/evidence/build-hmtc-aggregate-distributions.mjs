@@ -686,13 +686,39 @@ function bootstrapCI_sourceLevel(rowsForCell, productNativeBasis, targetP, itera
 // page. A source with NO jurisdiction recorded is retained rather than dropped:
 // silently discarding unlabelled evidence would bias the pool in an
 // undocumented direction. Those retentions are reported.
+// Two ways stratification turns on:
+//   1. --markets=... on the CLI forces stratification of EVERY row against that list
+//      (ad-hoc analysis / whole-corpus stratified runs).
+//   2. A row configured `stratify: true` in subcategory-roles.json is stratified on
+//      EVERY build against the config's `target_markets` — no flag needed. This is how
+//      a ratified methodology change is made concrete for a category. Rollout is
+//      per-category: a global default would empty ~100 non-target-market-only cells.
 const marketsArg = args.get("markets") ?? ""
-const targetMarkets = marketsArg
+const cliTargetMarkets = marketsArg
   ? new Set(marketsArg.split(",").map((m) => m.trim().toUpperCase()).filter(Boolean))
   : null
+const configTargetMarkets = (() => {
+  if (!fs.existsSync(subcategoryRolesPath)) return null
+  try {
+    const list = JSON.parse(fs.readFileSync(subcategoryRolesPath, "utf8")).target_markets
+    return Array.isArray(list) && list.length
+      ? new Set(list.map((m) => String(m).trim().toUpperCase()).filter(Boolean))
+      : null
+  } catch {
+    return null
+  }
+})()
 const sourceJurisdictions = loadSourceJurisdictions()
 const marketDropped = new Map()
 const marketUnlabelled = new Set()
+
+function stratifyMarketsForSlug(slug) {
+  // CLI flag wins and applies to all rows; otherwise a row is stratified only if its
+  // config marks stratify:true, and then against the config's target_markets.
+  if (cliTargetMarkets) return cliTargetMarkets
+  if (subcategoryRoles[slug]?.stratify && configTargetMarkets) return configTargetMarkets
+  return null
+}
 
 function loadSourceJurisdictions() {
   const dir = path.join(repoRoot, "wiki/sources")
@@ -712,8 +738,9 @@ function loadSourceJurisdictions() {
   return map
 }
 
-function inTargetMarket(row) {
-  if (!targetMarkets) return true
+function inTargetMarket(row, slug) {
+  const markets = stratifyMarketsForSlug(slug)
+  if (!markets) return true
   const sid = row.source_id
   if (!sid) return true
   const juris = sourceJurisdictions.get(sid)
@@ -721,8 +748,8 @@ function inTargetMarket(row) {
     marketUnlabelled.add(sid)
     return true
   }
-  if (juris.some((j) => targetMarkets.has(j))) return true
-  marketDropped.set(sid, juris.join("/"))
+  if (juris.some((j) => markets.has(j))) return true
+  marketDropped.set(sid, `${juris.join("/")} [${slug}]`)
   return false
 }
 
@@ -982,13 +1009,13 @@ function main() {
     for (const metal of metalsToProcess) {
       if (metalFilter && metal !== metalFilter) continue
       const key = `${slug}::${metal}`
-      const summaryRowsForCell = (rowsByKey.get(key) ?? []).filter(inTargetMarket)
+      const summaryRowsForCell = (rowsByKey.get(key) ?? []).filter((r) => inTargetMarket(r, slug))
 
       // De-dup contribution sources: when samples CSV holds raw values for a
       // source that the summary CSV also has, prefer the sample-level
       // reconstruction and drop the summary-row reconstruction so the same
       // physical paper isn't admitted twice.
-      const samplesForCell = (samplesByKey.get(key) ?? []).filter(inTargetMarket)
+      const samplesForCell = (samplesByKey.get(key) ?? []).filter((r) => inTargetMarket(r, slug))
       const samplesBySourceId = new Map()
       for (const sample of samplesForCell) {
         const sid = sample.source_id
@@ -1229,9 +1256,12 @@ function main() {
   })
 
   console.log(`Wrote ${outputRows.length} aggregate-distribution rows to ${path.relative(repoRoot, outputPath)}`)
-  if (targetMarkets) {
-    console.log(`Market stratification ACTIVE — target markets: ${[...targetMarkets].join(", ")}`)
-    console.log(`  excluded ${marketDropped.size} source(s) as out-of-market:`)
+  const stratifiedSlugs = cliTargetMarkets
+    ? "ALL rows (--markets flag)"
+    : Object.entries(subcategoryRoles).filter(([, v]) => v.stratify).map(([k]) => k).join(", ") || "none"
+  if (marketDropped.size || cliTargetMarkets || stratifiedSlugs !== "none") {
+    console.log(`Market stratification ACTIVE for: ${stratifiedSlugs}`)
+    console.log(`  excluded ${marketDropped.size} source-instance(s) as out-of-market:`)
     for (const [sid, j] of [...marketDropped].sort()) console.log(`    ${sid} (${j})`)
     console.log(`  retained ${marketUnlabelled.size} source(s) with no jurisdiction recorded (not dropped, by design)`)
   }

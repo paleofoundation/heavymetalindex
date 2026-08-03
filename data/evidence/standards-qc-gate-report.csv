@@ -12,7 +12,7 @@ baby-cereals-dry-rice-based,Pb,20,20,regulatory-alignment,PASS,
 baby-cereals-dry-rice-based,tAs,987.1145,,literature-baseline,DEMOTE,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11b-minimum-n-floor: firm at P97 with pooled_n=60 (<99) — no 95% bound exists at this n; must be provisional"
 baby-cereals-dry-rice-based,tHg,2.9982,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 baby-cereals-dry-rice-based,Ni,3039.8549,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=23 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-baby-cereals-dry-rice-based,Al,40614.4745,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=14 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile | C9-artifact-implausible: thin-source (distinct=1) value 40614.4745 ppb > 15x Al multi-source median 2150 — likely unit/single-sample artifact; verify before publishing"
+baby-cereals-dry-rice-based,Al,40614.4745,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=14 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 baby-food,tHg,782.9673,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 baby-food,Cd,56.0117,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 baby-lotion-cream,Pb,10000,10000,regulatory-alignment,PASS,
@@ -114,7 +114,7 @@ fish-marine-non-predatory,Ni,640.5136,,literature-baseline,PASS,
 fish-marine-predatory,MeHg,829.0015,1000,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=84 (<99) — no 95% bound exists at this n; must be provisional
 fish-marine-predatory,tHg,1000,1000,regulatory-alignment,PASS,
 fish-marine-predatory,Cd,50,50,regulatory-alignment,PASS,
-fish-marine-predatory,Al,35624.3153,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=30 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile | C9-artifact-implausible: thin-source (distinct=1) value 35624.3153 ppb > 15x Al multi-source median 2150 — likely unit/single-sample artifact; verify before publishing"
+fish-marine-predatory,Al,35624.3153,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=30 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fish-marine-predatory,Pb,300,300,regulatory-alignment,PASS,
 fish-marine-predatory,Ni,664.0556,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=5 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fish-marine-predatory,tAs,41162.1045,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
@@ -213,24 +213,24 @@ infant-formula-powder-dairy,Cd,10,10,regulatory-alignment,PASS,
 infant-formula-powder-dairy,iAs,20,20,regulatory-alignment,PASS,
 infant-formula-powder-dairy,Ni,250,250,regulatory-alignment,PASS,
 infant-formula-powder-dairy,Al,3500,3500,regulatory-alignment,PASS,
-infant-formula-powder-non-soy,Pb,20,20,regulatory-alignment,PASS,
-infant-formula-powder-non-soy,Cd,8.0258,10,literature-baseline,PASS,
-infant-formula-powder-non-soy,tAs,24.0025,500,literature-baseline,HOLD,C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending
+infant-formula-powder-non-soy,Pb,11.9253,20,literature-baseline,PASS,
+infant-formula-powder-non-soy,Cd,7.5199,10,literature-baseline,PASS,
+infant-formula-powder-non-soy,tAs,20.2528,500,literature-baseline,HOLD,C6-adjudication-register: in outlier/suspect register but verdict is firm — must render pending
 infant-formula-powder-non-soy,iAs,10.8937,20,literature-baseline,PASS,
-infant-formula-powder-non-soy,tHg,11.1474,,literature-baseline,PASS,
+infant-formula-powder-non-soy,tHg,1.4963,,literature-baseline,PASS,
 infant-formula-powder-non-soy,Ni,250,250,regulatory-alignment,PASS,
 infant-formula-powder-non-soy,Al,3500,3500,regulatory-alignment,PASS,
 infant-formula-powder-non-soy,Cr-VI,34.7047,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
-infant-formula-powder-non-soy,Sn,76.2,,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=61 (<99) — no 95% bound exists at this n; must be provisional
+infant-formula-powder-non-soy,Sn,48.9956,,literature-baseline,PASS,
 infant-formula-powder-soy,Pb,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,Cd,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,iAs,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,Ni,400,400,regulatory-alignment,PASS,
 infant-formula-powder-soy,Al,7000,7000,regulatory-alignment,PASS,
-infant-formula-powder-soy-based,Al,2150.2493,7000,literature-baseline,PASS,
+infant-formula-powder-soy-based,Al,4611.1205,7000,literature-baseline,PASS,
 infant-formula-powder-soy-based,Ni,400,400,regulatory-alignment,PASS,
-infant-formula-powder-soy-based,Cd,7.1367,20,literature-baseline,PASS,
-infant-formula-powder-soy-based,Pb,2.6992,20,literature-baseline,PASS,
+infant-formula-powder-soy-based,Cd,7.1685,20,literature-baseline,PASS,
+infant-formula-powder-soy-based,Pb,2.5394,20,literature-baseline,PASS,
 infant-formula-powder-soy-based,tAs,9.3236,500,literature-baseline,PASS,
 infant-formula-powder-soy-based,tHg,0.1445,,literature-baseline,PASS,
 infant-formula-powder-soy-based,iAs,10.4306,20,literature-baseline,PASS,

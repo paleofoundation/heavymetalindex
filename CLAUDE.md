@@ -241,11 +241,17 @@ This workflow produces certification thresholds. **Its outputs are staff and HMT
 
 The methodology is fixed, system-wide, and applies to every category and every row in the index. It is not infant-and-child-foods-specific.
 
-**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte.
+**Per-analyte standard for a clean subcategory = P97** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~90% row-level pass; measured 94% on FDA per-sample lot data (2026-08).
 
-**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte.
+**Per-analyte standard for a dirty subcategory = P45** of that subcategory's marginal occurrence distribution for that analyte. Calibrated to ~40% row-level pass (updated 2026-08-03 from the legacy 30%); measured 42% on FDA per-sample lot data. Calibration is anchored to that measurement, not to the earlier assumed analyte-correlation of 0.6 (measured ~0.27).
 
 **Per-analyte standard for an independent (no within-pair partner) row = P97** of that row's marginal distribution, treated as clean-by-default. Override slot exists for rows where evidence justifies dirty treatment.
+
+**The pool is restricted to the certification-relevant market (target-market stratification, ratified 2026-08-03).** An occurrence percentile estimates a population; a pool mixing jurisdictions that enforce binding MLs for the product class with jurisdictions that do not estimates a market no certified brand ships into. The admission criterion is **regulatory-equivalence, not geography** — the criterion, never a country list, is what may ever be published. Sources with no jurisdiction recorded are retained, not dropped. Stratification is rolled out per-category as each is validated (a global flip empties ~100 non-target-market-only cells across the corpus); it is configured machine-side in `data/workbench/standards/subcategory-roles.json` (`stratify: true` + `target_markets`), never in public frontmatter. This refines the older "geography is not a hard exclusion" line in [[docs/standards-methodology]].
+
+**The program admits roughly 80% of brands overall — a monitored average, not a per-category quota.** The subcategory targets (≈90% clean, ≈40% dirty) roll up by clean/dirty market share to ~80%. A category with no dirty sibling admits ~90%; a mostly-dirty one less. A sustained material deviation from ~80% is a signal to re-examine calibration, never a lever to force a category to a headcount.
+
+**Certify against the subcategory split, not the element-wise-max "envelope."** Each product is certified against its own subcategory row. Publishing the higher-of-the-two-rows number per analyte as the pass/fail instrument is prohibited: it certifies product above its own legal ceiling (the envelope Ni 400 exceeds the EU non-soy formula ML of 250) and leaks the ratchet (measured soy pass 42%→68% under the envelope). The envelope may be published only as a category-ceiling summary, never as the certification instrument.
 
 **Each row's standard is in the native basis of the product form.** Powder rows use powder-as-placed-on-market. RTF liquid rows use as-consumed. Dry cereal rows use dry-as-sold. Puree rows use as-consumed. Sources reporting in other bases are converted into the row's native basis during pooling, never the other way around. The 1:7 reconstitution factor lives in `tools/evidence/basis-conversion.mjs`.
 

@@ -3,7 +3,7 @@ title: "Methodology evolution proposal — forward and transparent"
 type: workbench-methodology-proposal
 audience: [internal]
 noindex: true
-status: proposed — awaiting Karen's ratification of the CLAUDE.md Part 19 amendments
+status: RATIFIED 2026-08-03 by Karen; amendments 2/3/5 locked into CLAUDE.md Part 19; stratification + dirty-40% + split made default in code
 updated: 2026-08-03
 ---
 
