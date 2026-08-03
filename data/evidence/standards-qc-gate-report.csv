@@ -441,3 +441,5 @@ vinegar,tHg,1.1181,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic,
 vinegar,Al,4837.0733,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=7 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 wild-mushrooms,Cd,500,500,regulatory-alignment,PASS,
 wild-mushrooms,Pb,800,800,regulatory-alignment,PASS,
+infant-formula-powder-non-soy,Cr-total,100,,process-control-screen,PROCESS_SCREEN,"PS-enforced: manufacturing-anomaly-tripwire at 100 ppb (powder_as_placed); investigate-the-line threshold, not a health limit"
+infant-formula-powder-soy-based,Cr-total,100,,process-control-screen,PROCESS_SCREEN,"PS-enforced: manufacturing-anomaly-tripwire at 100 ppb (powder_as_placed); investigate-the-line threshold, not a health limit"

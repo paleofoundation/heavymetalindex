@@ -75,6 +75,13 @@ const noMlSet = new Set(
   (fs.existsSync(ev("standards-no-ml-confirmed.csv")) ? parseCsv(fs.readFileSync(ev("standards-no-ml-confirmed.csv"), "utf8")) : [])
     .map((r) => `${r.row_slug}|${r.metal_species}`),
 )
+// process-control screens: manufacturing-anomaly tripwires that are NOT health standards
+// (e.g. total-Cr equipment-leaching screen). They flow through the gate as their own verdict
+// type so downstream consumers (standards tables, manual) surface them, and the gate validates
+// each screen is well-formed and does not collide with a health limit on the same cell.
+const processScreens = (fs.existsSync(ev("standards-process-screens.csv"))
+  ? parseCsv(fs.readFileSync(ev("standards-process-screens.csv"), "utf8"))
+  : [])
 
 const report = []
 for (const r of dist) {
@@ -193,6 +200,31 @@ for (const r of dist) {
   report.push({ product_slug: slug, metal_species: metal, candidate_value_ppb: r.candidate_value_ppb,
     cap: cap ?? "", rationale: rat, verdict_level: level,
     reasons: checks.map((c) => `${c.check}: ${c.detail}`).join(" | ") })
+}
+
+// Emit process-control screens as their own gated rows. A screen is enforced when it is
+// well-formed (positive value, recognised type) and does not collide with a same-cell health
+// limit; a malformed screen or a screen sitting on a cell that also carries a firm health
+// limit is a CRITICAL_FAIL (the two would be confused). PROCESS_SCREEN rows are informational
+// verdicts, distinct from the health-panel verdicts, so they can never be read as a
+// toxicological threshold.
+for (const s of processScreens) {
+  const slug = s.row_slug, metal = s.metal_species
+  const val = num(s.screen_value_ppb)
+  const problems = []
+  if (val === null || val <= 0) problems.push(`malformed screen value '${s.screen_value_ppb}'`)
+  if (s.screen_type !== "manufacturing-anomaly-tripwire") problems.push(`unknown screen_type '${s.screen_type}'`)
+  // A screen must sit on a cell that is NOT a firm health limit (not-material or no-health-standard only).
+  const cellIsNotMaterial = notMaterialSet.has(`${slug}|${metal}`) || notMaterialSet.has(`${slug}|${metal.replace(/-total$/, "-VI")}`)
+  const healthRow = dist.find((r) => r.product_slug === slug && r.metal_species === metal && num(r.candidate_value_ppb) !== null)
+  if (healthRow && !cellIsNotMaterial) problems.push(`collides with a health limit on the same cell — a process screen must not double as a health standard`)
+  report.push({
+    product_slug: slug, metal_species: metal, candidate_value_ppb: val ?? "",
+    cap: "", rationale: "process-control-screen", verdict_level: problems.length ? "CRITICAL_FAIL" : "PROCESS_SCREEN",
+    reasons: problems.length
+      ? problems.map((p) => `PS-invalid: ${p}`).join(" | ")
+      : `PS-enforced: ${s.screen_type} at ${val} ppb (${s.basis}); investigate-the-line threshold, not a health limit`,
+  })
 }
 
 // write report
