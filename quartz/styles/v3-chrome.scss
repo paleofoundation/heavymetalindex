@@ -1092,3 +1092,47 @@ figcaption {
   background: #faf7f4;
   border: 1px dotted #e8e1db;
 }
+
+/* ══ TABLE COLUMN CONVENTIONS (v3 "Metals at a glance", verbatim) ══════════
+   The burgundy chrome landed long ago; the COLUMN conventions never did, and
+   they are most of why our tables still did not read like v3's. Extracted from
+   the standalone artifact's reference table:
+
+     th   padding 11px 15px · Mono 10px · font-weight 500 · 0.1em · uppercase
+     td   padding 13px 15px · vertical-align top · line-height 1.55 · #3f3a3f
+     td1  white-space: nowrap · #2b1f24        <- the row's subject, never wrapped
+
+   The first cell is the thing the row is ABOUT — a metal, an instrument, a
+   matrix — so it is darker than the rest and never wraps. Every other cell is
+   body colour. That single contrast is what makes a v3 table scannable, and
+   without it every column carried equal weight. */
+.wiki-content table tbody td {
+  line-height: 1.55;
+  color: #3f3a3f;
+}
+
+.wiki-content table tbody td:first-child {
+  white-space: nowrap;
+  color: #2b1f24;
+}
+
+/* A value-first table (v3's Ask "Values used in this answer") leads with a
+   measured number rather than a name, so its first cell is mono and burgundy —
+   the value IS the subject. Tighter rows, because the cells are short. */
+.hmi-values-table tbody td {
+  padding: 12px 15px;
+}
+
+.hmi-values-table tbody td:first-child {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  color: #8b2a4a;
+  white-space: nowrap;
+}
+
+/* Long prose cells must be allowed to wrap even in column one — a citation or
+   a description is not a subject label. */
+.wiki-content table tbody td:first-child:has(> a[data-slug^="sources/"]),
+.wiki-content table tbody td.wrap:first-child {
+  white-space: normal;
+}
