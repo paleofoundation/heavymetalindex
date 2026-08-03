@@ -34,15 +34,27 @@ Final HMT&C values must not exceed the lowest applicable loaded regulatory cap r
 
 ## Geography, period, product-fit handling
 
-Do not combine geography, period, and product-fit scopes without labeling the consequence. Product fit, analytical basis, sample size, detection handling, period, and jurisdiction must be recorded as metadata for confidence and applicability review. The standards workflow may pool across jurisdictions when documented confidence is sufficient; pooling is a staff-side decision recorded in the workbench snapshot, not a public-page claim. Geography can affect weighting or scope notes; it is not a hard exclusion rule.
+Do not combine geography, period, and product-fit scopes without labeling the consequence. Product fit, analytical basis, sample size, detection handling, period, and jurisdiction must be recorded as metadata for confidence and applicability review.
+
+### Target-market pool (refines the prior "geography is not a hard exclusion" rule; proposed 2026-08-03, see the methodology-evolution proposal)
+
+An occurrence percentile estimates a population. If the pool mixes jurisdictions that enforce binding maximum levels for the product class with jurisdictions that do not, the percentile estimates a market no certified brand ships into. The standards pool is therefore restricted to the **certification-relevant market**: sources from jurisdictions enforcing binding MLs for the product class with comparable surveillance. The exclusion criterion is **regulatory-equivalence, not geography** — this framing is mandatory for both defensibility and public communication ("markets with binding formula MLs and equivalent oversight," never a list of excluded countries). Sources with no jurisdiction recorded are retained, not dropped, and the per-run exclusion list is logged. The restriction is applied by the `--markets` flag of the pooling engine; it is off by default and an explicit, auditable choice per run.
+
+Documented seasonal and geographic variance is accommodated **upstream of the pass/fail**, never as a per-brand waiver: the multi-season, multi-region pool already prices expected variance into P97/P45; the ratchet re-evaluates on rolling multi-season windows at a cadence longer than a seasonal cycle; lot-testing samples across the seasonal cycle. A per-lot "it was seasonal" exception is an unfalsifiable loophole and is not permitted.
 
 ## Why P97 and P45 (the row-pass calibration, in detail)
 
 Setting each analyte's limit at the raw P90 (clean) or P30 (dirty) of its marginal distribution under independence would deliver joint row-pass rates of approximately 0.9^10 = 35% (clean) and 0.3^10 ≈ 0% (dirty) across the ten HMTc analytes. Analytes correlate in real markets — supply-chain hygiene drives multiple metals together — so the actual joint pass rate is somewhere between independence and perfect correlation, typically 50-70% for clean and 10-15% for dirty at raw P90/P30.
 
-The Governing Principles require approximately 90% of clean-subcategory brands and 30% of dirty-subcategory brands to pass row-level certification — not per-analyte certification. To deliver the row-level outcome, per-analyte limits are uplifted: P90 → P97 (clean), P30 → P45 (dirty). Under typical analyte correlation (≈0.6), these uplifted per-analyte percentiles deliver joint row-pass rates close to the 90/30 target.
+The Governing Principles require approximately 90% of clean-subcategory brands and ~40% of dirty-subcategory brands to pass row-level certification — not per-analyte certification. To deliver the row-level outcome, per-analyte limits are uplifted: P90 → P97 (clean), P30 → P45 (dirty).
 
-The heuristic uplift is uniform across all analytes today. Per-analyte differentiation (e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a Tier 2 calibration deferred until HMT&C has lot-testing data to measure the actual joint pass rate empirically (target review: 6-12 months post-launch).
+**Calibration is now anchored to measured lot data, not an assumed correlation.** The earlier text asserted analyte correlation "≈0.6" to justify the uplift; the measured cross-analyte correlation is ~0.27 and the per-analyte-percentile → row-pass mapping is not uniquely identified from marginals. The anchor is the measurement: against the P97 clean / P45 dirty limits, the FDA 2026 special survey (per-sample vectors, four metals) delivered **94% clean and 42% dirty** row-pass on real market data — the 90/40 targets, confirmed. Update the dirty target from the legacy 30% to ~40% to match both this measurement and the Governing-Principles calibration.
+
+These subcategory targets roll up, weighted by clean/dirty market share, to a **program-level admission of roughly 80%** (≈85/15 clean/dirty → 0.85×90 + 0.15×40 ≈ 82%). This is a **monitored average, not a per-category hard cap**: a category with no dirty sibling admits ~90%, a mostly-dirty category less. A sustained material deviation from ~80% program-wide is a signal to re-examine subcategory calibration, never a lever to force a single category to a headcount quota.
+
+**The split is the certification instrument; the element-wise-max envelope is a headline only.** Certify each product against its own subcategory row. Publishing the envelope (the higher number per analyte) as the pass/fail instrument would (a) certify product above its own legal ceiling — the envelope nickel 400 exceeds the EU non-soy formula ML of 250 — and (b) leak the ratchet (measured: soy pass 42%→68% under the envelope). The envelope may be published as a category-ceiling summary only.
+
+The heuristic uplift is uniform across all analytes today. Per-analyte differentiation (e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a Tier 2 calibration deferred until HMT&C has broader lot-testing data (target review: 6-12 months post-launch).
 
 ### The sample size a percentile requires (non-negotiable)
 
