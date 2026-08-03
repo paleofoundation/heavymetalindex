@@ -61,6 +61,49 @@ wiring the combined-corpus view to the real corpus is the next phase.
 The page's static assets are self-contained, but the research tool needs the
 server (`npm run central-library`) for its API.
 
+## The regulatory pathway (Regulatory tab)
+
+The literature stack (OpenAlex, PubMed, Crossref, Semantic Scholar) indexes
+peer-reviewed papers with DOIs. The maximum-level instruments the HMTc program
+actually certifies against — Codex CXS 193, EU 2023/915, China GB 2762, FSSAI
+Contaminants Regulations, ANVISA RDC 722, FDA Closer-to-Zero — are not papers
+and have no DOI. Searching a literature API for them returns nothing. The
+**Regulatory tab** is a separate pathway for exactly these documents.
+
+It reads a curated registry of the world's heavy-metal-limit instruments
+(`data/regulatory/registry.json`) and pulls each PDF directly from its sovereign
+source: the registry's canonical `pdf_url` (fetched with a real browser
+User-Agent, because most government servers 403 a bot UA), then the official
+landing page's first PDF link, then — only if a SerpAPI key is set — a plain
+`site:<gov-domain> filetype:pdf` search. Every candidate is validated on its
+bytes (a `%PDF-` signature) so a bot-check page or a "standard is sold" store
+front never lands as a `.pdf`. Sold standards with no free copy (some GB / GSO
+texts) are reported as **manual retrieval**, not hammered as failed downloads.
+
+Prompt the pull with three filters — **program category**, **analytes**
+(iAs and Cr-VI are highlighted as the speciated ones), and **jurisdictions** —
+then Fetch. The instrument list shows exactly what will be pulled. Horizontal
+contaminant standards (Codex, EU, GB 2762, FSANZ 1.4.1, FSSAI, ANVISA) apply to
+every category; category-specific instruments (e.g. the FDA infant-rice-cereal
+iAs guidance) appear only for their own matrix. Downloads land in
+`raw/regulatory/<jurisdiction>/` with a `_manifest-<runId>.csv`.
+
+Headless:
+
+```bash
+npm run central-library:regulatory -- --category infant-child-foods
+node tools/central-library/fetch-regulatory.mjs --analytes iAs,Cr-VI --dry-run
+node tools/central-library/fetch-regulatory.mjs --jurisdictions codex,eu,cn,in
+node tools/central-library/fetch-regulatory.mjs --list        # print the registry
+```
+
+The registry's URLs are discovered and verified by web-research agents and
+folded in with `merge-regulatory-registry.mjs`, which preserves each entry's
+structural fields (scope_type, categories, region) and never downgrades an
+already-confirmed URL. `verified:true` means a URL was confirmed to resolve to
+the document; a `verified:false` entry still carries a best-known seed URL that
+the fetch validates at pull time.
+
 ## What's implemented
 
 Pixel-faithful to the mockup (exact colors/dimensions transcribed from source),
@@ -94,10 +137,18 @@ with every interaction working:
 
 ```
 tools/central-library/
-├── server.mjs           static server (node:http, 127.0.0.1:8092)
+├── server.mjs                        static server + APIs (node:http, 127.0.0.1:8092)
+├── run-condition.mjs                 CLI for the literature research runner
+├── fetch-regulatory.mjs             CLI for the regulatory pathway
+├── merge-regulatory-registry.mjs    fold URL-discovery results into the registry
 ├── README.md
+├── lib/
+│   ├── run-condition.mjs             literature runner (reuses the fetch-app engine)
+│   └── regulatory.mjs                government-document fetch engine
 └── public/
     ├── index.html       shell + font loading
     ├── styles.css       global base (verbatim from the mockup <helmet>)
-    └── app.js           ported logic + render + delegated events + sample data
+    └── app.js           ported logic + render + delegated events (Library/Presets/Regulatory/Wishlist)
+
+data/regulatory/registry.json         curated catalog of the world's maximum-level instruments
 ```

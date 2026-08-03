@@ -48,6 +48,7 @@
     "fetch-app:install-desktop": "bash tools/fetch-app/desktop-app/build-desktop-app.sh",
     "central-library": "node tools/central-library/server.mjs",
     "central-library:run": "node tools/central-library/run-condition.mjs",
+    "central-library:regulatory": "node tools/central-library/fetch-regulatory.mjs",
     "central-library:install-desktop": "bash tools/central-library/desktop-app/build-desktop-app.sh",
     "library:status": "node tools/library-status.mjs",
     "library:sort": "node tools/library/sort-inbox.mjs",

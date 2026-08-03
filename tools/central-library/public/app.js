@@ -125,6 +125,7 @@ const CL = {
   setTab(id) {
     this.setState({ tab: id, selIdx: null });
     if (id === 'library') this.loadLibrary(); // lazy: ~5 MB, only when opened
+    if (id === 'regulatory' && !this.state.reg) this.loadRegulatory();
   },
   setFacet(id) { this.setState({ facet: id, libLimit: 200, selIdx: null }); },
   setQ(v) { this.setState({ q: v, libLimit: 200 }); },
@@ -186,6 +187,7 @@ const CL = {
       ${s.tab === 'library' ? this.libraryTab() : ''}
       ${s.tab === 'wishlist' ? this.wishlistTab() : ''}
       ${s.tab === 'presets' ? this.presetsTab() : ''}
+      ${s.tab === 'regulatory' ? this.regulatoryTab() : ''}
       ${s.selIdx != null ? this.drawer() : ''}
       ${s.toast ? this.toast() : ''}
     </div>`;
@@ -195,7 +197,7 @@ const CL = {
     const s = this.state;
     // Pulls + Coverage were unbuilt mockup stubs; concepts recorded in
     // docs/architecture/central-library-roadmap.md. Re-add here when real.
-    const tabDef = [['library','Library'],['wishlist','Wishlist'],['presets','Presets']];
+    const tabDef = [['library','Library'],['wishlist','Wishlist'],['presets','Presets'],['regulatory','Regulatory']];
     const tabs = tabDef.map(([id, label]) =>
       `<button data-act="setTab" data-arg="${id}" style="font-size:13px;font-weight:${s.tab===id?600:500};color:${s.tab===id?'#8B2A4A':'rgba(26,29,36,0.55)'};background:${s.tab===id?'#F7F2F4':'transparent'};border:none;padding:7px 13px;border-radius:7px;cursor:pointer;">${label}</button>`
     ).join('');
@@ -641,6 +643,195 @@ const CL = {
     this.render();
   },
 
+  // ── Regulatory pathway (government maximum-level documents) ────────────────
+  loadRegulatory() {
+    this.state.regLoading = true; this.render();
+    fetch('/api/regulatory')
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(d => { this.state.reg = d; this.state.regLoading = false; this.state.regError = d.error || null; this.render(); })
+      .catch(e => { this.state.regLoading = false; this.state.regError = String(e && e.message || e); this.render(); });
+  },
+  regLabel(slug) { return String(slug || '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()); },
+  regCategoryOptions() {
+    const reg = this.state.reg; if (!reg || !reg.instruments) return [];
+    const set = new Set();
+    for (const e of reg.instruments) {
+      for (const c of (e.categories || [])) set.add(c);
+      for (const c of (e.infant_child_scope || [])) set.add(c);
+    }
+    return [...set].sort();
+  },
+  // Client-side mirror of the engine's relevantTo(), so the count and list shown
+  // are exactly what a Fetch will pull.
+  regMatching() {
+    const s = this.state, reg = s.reg;
+    if (!reg || !reg.instruments) return [];
+    const jur = s.regJur || [], an = s.regAnalytes || [], cat = s.regCat || '';
+    return reg.instruments.filter(e => {
+      if (jur.length && !jur.includes(e.jurisdiction_code)) return false;
+      if (an.length) { const have = new Set(e.analytes || []); if (!an.some(a => have.has(a))) return false; }
+      if (cat) {
+        const horizontal = e.scope_type === 'horizontal';
+        const cats = new Set([...(e.categories || []), ...(e.infant_child_scope || [])]);
+        if (!horizontal && !cats.has(cat)) return false;
+      }
+      return true;
+    });
+  },
+  regToggleJur(code) {
+    const set = new Set(this.state.regJur || []);
+    set.has(code) ? set.delete(code) : set.add(code);
+    this.state.regJur = [...set]; this.render();
+  },
+  regToggleAnalyte(a) {
+    const set = new Set(this.state.regAnalytes || []);
+    set.has(a) ? set.delete(a) : set.add(a);
+    this.state.regAnalytes = [...set]; this.render();
+  },
+  regSetCat(v) { this.state.regCat = v || ''; this.render(); },
+  regClear() { this.state.regJur = []; this.state.regAnalytes = []; this.state.regCat = ''; this.render(); },
+  toggleRegDryRun() { this.state.regDryRun = !this.state.regDryRun; this.render(); },
+  startRegRun() {
+    const s = this.state;
+    if (s.run && s.run.active) return;
+    const matching = this.regMatching();
+    if (!matching.length) { this.toastMsg('No instruments match these filters.'); return; }
+    s.run = { active: true, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: matching.length, currentQuery: '', summary: null };
+    this.render();
+    fetch('/api/regulatory/fetch', {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        jurisdictions: s.regJur || [], analytes: s.regAnalytes || [],
+        category: s.regCat || null, categoryLabel: s.regCat ? this.regLabel(s.regCat) : 'all instruments',
+        dryRun: !!s.regDryRun,
+      }),
+    }).then(async (r) => {
+      if (!r.ok) throw new Error((await r.text().catch(() => '')) || ('HTTP ' + r.status));
+      return r.json();
+    }).then(({ runId }) => {
+      if (!runId) throw new Error('server returned no runId');
+      const es = new EventSource('/api/run/stream?runId=' + encodeURIComponent(runId));
+      es.onmessage = (m) => { const ev = JSON.parse(m.data); this.onRunEvent(ev); if (ev.type === 'done' || ev.type === 'error') es.close(); };
+      es.onerror = () => { es.close(); const run = this.state.run; if (run && run.active) { run.active = false; run.log.unshift('✖ connection lost — run interrupted'); } this.render(); };
+    }).catch((err) => {
+      const run = this.state.run;
+      if (run) { run.active = false; run.log.unshift('✖ ' + (err && err.message ? err.message : 'run failed to start')); }
+      this.render();
+    });
+  },
+  regAccessStyle(access) {
+    const m = {
+      'free-official': { label: 'free · official', color: '#2C6E49', bg: '#E6F0EA' },
+      'free-mirror':   { label: 'free · mirror',   color: '#1F6F78', bg: '#E2F0F1' },
+      'paid-official': { label: 'sold — manual',   color: '#9A6A18', bg: '#F6EEDD' },
+      'summary-only':  { label: 'summary only',    color: 'rgba(26,29,36,0.6)', bg: '#F1EFEC' },
+    }[access] || { label: access || 'unknown', color: 'rgba(26,29,36,0.55)', bg: '#F1EFEC' };
+    return `font-size:10.5px;font-weight:600;color:${m.color};background:${m.bg};border-radius:5px;padding:2px 7px;white-space:nowrap;`;
+  },
+
+  regulatoryTab() {
+    const s = this.state;
+    const hd = 'font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(26,29,36,0.45);';
+    if (s.regLoading || (!s.reg && !s.regError)) return this.libNotice('Loading the regulatory registry…', 'Reading the world’s maximum-level instruments.');
+    if (s.regError) return this.libNotice('Regulatory registry unavailable', this.esc(s.regError));
+    const reg = s.reg;
+    const matching = this.regMatching();
+    const run = s.run || {};
+
+    // Jurisdiction chips, grouped by region for legibility.
+    const byRegion = {};
+    for (const j of reg.jurisdictions) { (byRegion[j.region || 'Other'] ||= []).push(j); }
+    const jurChips = Object.entries(byRegion).map(([region, js]) => {
+      const chips = js.map(j => {
+        const on = (s.regJur || []).includes(j.code);
+        const n = reg.stats.byJurisdiction[j.code] || 0;
+        return `<button data-act="regToggleJur" data-arg="${j.code}" title="${this.esc(j.name)}" style="font-size:11px;color:${on ? '#fff' : '#33373F'};background:${on ? '#8B2A4A' : '#F1EFEC'};border:none;border-radius:5px;padding:5px 8px;cursor:pointer;text-align:left;">${this.esc(j.name.replace(/\s*\(.*\)/, ''))}<span style="opacity:.6;"> · ${n}</span></button>`;
+      }).join('');
+      return `<div style="margin-bottom:8px;"><div style="font-size:9.5px;color:rgba(26,29,36,0.4);text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;">${this.esc(region)}</div><div style="display:flex;flex-wrap:wrap;gap:4px;">${chips}</div></div>`;
+    }).join('');
+
+    const analyteChips = (reg.analyte_vocabulary || []).map(a => {
+      const on = (s.regAnalytes || []).includes(a);
+      const n = reg.stats.byAnalyte[a] || 0;
+      const spec = (a === 'iAs' || a === 'Cr-VI');
+      return `<button data-act="regToggleAnalyte" data-arg="${a}" title="${spec ? 'speciated analyte' : ''}" style="font-size:11px;font-weight:${spec ? 600 : 500};color:${on ? '#fff' : (spec ? '#8B2A4A' : '#33373F')};background:${on ? '#8B2A4A' : (spec ? '#FBF3F5' : '#F1EFEC')};border:1px solid ${spec && !on ? '#E7C6D1' : 'transparent'};border-radius:5px;padding:5px 8px;cursor:pointer;">${a}<span style="opacity:.55;"> · ${n}</span></button>`;
+    }).join('');
+
+    const catOpts = ['<option value="">Any category (horizontal + all)</option>']
+      .concat(this.regCategoryOptions().map(c => `<option value="${this.esc(c)}" ${s.regCat === c ? 'selected' : ''}>${this.esc(this.regLabel(c))}</option>`))
+      .join('');
+
+    const anyFilter = (s.regJur || []).length || (s.regAnalytes || []).length || s.regCat;
+    const runBtnLabel = run.active ? 'Fetching…' : `Fetch ${matching.length} ${matching.length === 1 ? 'document' : 'documents'} →`;
+    const canRun = !run.active && matching.length > 0;
+
+    const filters = `<div style="border:1px solid #EDEBE8;border-radius:10px;padding:16px;background:#fff;">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:11px;">
+        <div style="${hd}">Prompt the pull</div>
+        ${anyFilter ? '<button data-act="regClear" style="font-size:11px;color:#8B2A4A;background:none;border:none;cursor:pointer;">clear</button>' : ''}
+      </div>
+      <div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:5px;">Program category</div>
+      <select data-input="regSetCat" style="width:100%;font-size:12px;border:1px solid #E2DFDB;border-radius:7px;padding:8px 9px;background:#FCFBFA;margin-bottom:12px;cursor:pointer;">${catOpts}</select>
+      <div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:5px;">Analytes ${(s.regAnalytes || []).length ? `· ${(s.regAnalytes || []).length} selected` : '· any'}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px;">${analyteChips}</div>
+      <div style="font-size:10.5px;color:rgba(26,29,36,0.55);margin-bottom:5px;">Jurisdictions ${(s.regJur || []).length ? `· ${(s.regJur || []).length} selected` : '· all worldwide'}</div>
+      ${jurChips}
+      <label style="display:flex;align-items:center;gap:7px;font-size:12px;color:#33373F;margin:6px 0 12px;cursor:pointer;"><input type="checkbox" data-act="toggleRegDryRun" ${s.regDryRun ? 'checked' : ''}> Dry run (list only, no download)</label>
+      <button data-act="startRegRun" ${canRun ? '' : 'disabled'} style="width:100%;font-size:13px;font-weight:600;color:#fff;background:${canRun ? '#8B2A4A' : '#CBB8BF'};border:none;border-radius:8px;padding:11px;cursor:${canRun ? 'pointer' : 'not-allowed'};">${runBtnLabel}</button>
+      <div style="font-size:11px;color:rgba(26,29,36,0.45);line-height:1.45;margin-top:9px;">Direct from source (fao.org, EUR-Lex, fda.gov, fssai.gov.in…), validated as real PDFs, into<br><span class="mono" style="color:#8B2A4A;">raw/regulatory/&lt;jurisdiction&gt;/</span>. Sold standards are flagged for manual retrieval, not force-fetched.</div>
+    </div>`;
+
+    // The instrument list — exactly what a Fetch will pull.
+    const rows = matching.map(e => {
+      const analyteBadges = (e.analytes || []).map(a =>
+        `<span style="font-size:10px;font-weight:${a === 'iAs' || a === 'Cr-VI' ? 600 : 500};color:${a === 'iAs' || a === 'Cr-VI' ? '#8B2A4A' : 'rgba(26,29,36,0.6)'};background:${a === 'iAs' || a === 'Cr-VI' ? '#FBF3F5' : '#F4F2EF'};border-radius:4px;padding:1px 5px;">${a}</span>`
+      ).join(' ');
+      const vdot = e.verified
+        ? '<span title="URL verified to resolve to the document" style="width:8px;height:8px;border-radius:50%;background:#2C6E49;display:inline-block;flex:0 0 auto;"></span>'
+        : '<span title="seed URL, not yet confirmed" style="width:8px;height:8px;border-radius:50%;background:#D8B24A;display:inline-block;flex:0 0 auto;"></span>';
+      const links = [
+        e.pdf_url ? `<a href="${this.esc(e.pdf_url)}" target="_blank" rel="noopener" style="font-size:11px;font-weight:600;color:#8B2A4A;text-decoration:none;">PDF ↗</a>` : '',
+        e.landing_url ? `<a href="${this.esc(e.landing_url)}" target="_blank" rel="noopener" style="font-size:11px;color:rgba(26,29,36,0.5);text-decoration:none;">source ↗</a>` : '',
+      ].filter(Boolean).join('<span style="opacity:.4;">·</span> ');
+      return `<div style="border:1px solid #EDEBE8;border-radius:9px;padding:13px 15px;margin-bottom:9px;background:#fff;">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:3px;">
+          ${vdot}
+          <span style="font-size:13px;font-weight:600;color:#1A1D24;">${this.esc(e.jurisdiction)}</span>
+          <span class="mono" style="font-size:11px;color:rgba(26,29,36,0.5);">${this.esc(e.reference || '')}</span>
+          <div style="flex:1;"></div>
+          <span style="${this.regAccessStyle(e.access)}">${this.esc(({ 'free-official': 'free · official', 'free-mirror': 'free · mirror', 'paid-official': 'sold — manual', 'summary-only': 'summary only' })[e.access] || e.access || 'unknown')}</span>
+        </div>
+        <div style="font-size:12.5px;color:#33373F;line-height:1.4;margin-bottom:7px;">${this.esc(e.instrument)}</div>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <div style="display:flex;gap:3px;flex-wrap:wrap;">${analyteBadges}</div>
+          <div style="flex:1;"></div>
+          ${links}
+        </div>
+      </div>`;
+    }).join('');
+
+    const specNote = (s.regAnalytes || []).some(a => a === 'iAs' || a === 'Cr-VI')
+      ? '<span style="color:#8B2A4A;font-weight:600;">Speciated analytes (iAs, Cr-VI) are highlighted.</span> '
+      : '';
+
+    return `<div style="flex:1;display:grid;grid-template-columns:320px 1fr;min-height:0;">
+      <div class="cl-scroll" style="border-right:1px solid #E7E5E2;padding:22px 18px;overflow-y:auto;background:#FCFBFA;">
+        <div style="${hd}margin-bottom:9px;">Regulatory registry</div>
+        <div style="font-size:12px;color:rgba(26,29,36,0.6);line-height:1.5;margin-bottom:14px;">${reg.stats.total} instruments across ${reg.jurisdictions.length} jurisdictions · ${reg.stats.verified} URL-verified. The government pathway, separate from the literature databases.</div>
+        ${filters}
+      </div>
+      <div class="cl-scroll" style="overflow-y:auto;padding:26px 28px;min-width:0;">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px;gap:12px;">
+          <h1 style="font-size:23px;font-weight:700;margin:0;letter-spacing:-0.01em;">Government limits — worldwide</h1>
+          <span class="mono" style="font-size:12px;color:rgba(26,29,36,0.5);">${matching.length} of ${reg.stats.total} shown</span>
+        </div>
+        <p style="font-size:13px;color:rgba(26,29,36,0.6);line-height:1.5;margin:0 0 18px;">${specNote}These are the maximum-level and action-level instruments the program certifies against. ${anyFilter ? 'Filtered to your selection.' : 'Pick a category, analytes, or jurisdictions to narrow, then Fetch.'}</p>
+        ${this.renderRunPanel()}
+        ${rows || '<div style="padding:26px;text-align:center;font-size:13px;color:rgba(26,29,36,0.5);border:1px dashed #E2DFDB;border-radius:9px;">No instruments match these filters.</div>'}
+      </div>
+    </div>`;
+  },
+
   wishlistTab() {
     const s = this.state;
     if (s.wishlist == null && !s.wlLoading) this.loadWishlist();
@@ -852,6 +1043,7 @@ Object.assign(CL.state, {
   realPresets: [], presetId: null, subject: '', presetsError: false,
   wishlist: null, wlBuild: 'all', wlQ: '', wlLoading: false, wlError: false, wlTotal: 0, wlAllBuilds: [],
   matrices: null, matCat: 0, matSub: null, notMaterial: null, nmOverride: false,
+  reg: null, regLoading: false, regError: null, regJur: [], regAnalytes: [], regCat: '', regDryRun: false,
   fromYear: '2000', maxPerQuery: '10', dryRun: false, serp: true,
   run: { active: false, log: [], downloaded: 0, failed: 0, skipped: 0, qIndex: 0, qTotal: 0, currentQuery: '', summary: null },
 });

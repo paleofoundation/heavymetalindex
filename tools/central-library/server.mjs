@@ -25,6 +25,8 @@ import { fileURLToPath } from "node:url"
 import os from "node:os"
 import { writeFile, mkdtemp, rm } from "node:fs/promises"
 import { runCondition, listPresets, loadPreset } from "./lib/run-condition.mjs"
+import { runRegulatoryFetch, loadRegistry } from "./lib/regulatory.mjs"
+import { loadKeys } from "../fetch-app/lib/config.mjs"
 import { loadWishlist, updateEntry } from "../wishlist/lib/wishlist-store.mjs"
 import { fulfillFile } from "../wishlist/lib/fulfill.mjs"
 import { openIndex, indexDbPath } from "../library/lib/index-db.mjs"
@@ -70,8 +72,10 @@ function emitTo(runId, event) {
 const STAMPED_FILES = [
   "tools/central-library/server.mjs",
   "tools/central-library/lib/run-condition.mjs",
+  "tools/central-library/lib/regulatory.mjs",
   "tools/central-library/public/app.js",
   "data/taxonomy/hmtc-v2.json",
+  "data/regulatory/registry.json",
   "data/evidence/standards-not-material.csv",
 ]
 function codeStamp() {
@@ -194,6 +198,63 @@ const server = http.createServer(async (request, response) => {
       const e = updateEntry(id, patch)
       if (!e) { response.writeHead(404, { "content-type": "text/plain" }); response.end("unknown wishlist_id"); return }
       sendJson(response, { ok: true, entry: e })
+      return
+    }
+
+    // ── Regulatory: the government-document pathway ───────────────────────────
+    // A registry of the world's maximum-level instruments (Codex, EU, GB 2762,
+    // FSSAI, ANVISA, FDA Closer-to-Zero…) plus a direct-fetch engine, separate
+    // from the OpenAlex/PubMed literature stack, which does not index them.
+    if (url.pathname === "/api/regulatory" && request.method === "GET") {
+      const reg = loadRegistry()
+      const byJurisdiction = {}
+      const byAnalyte = {}
+      let verified = 0
+      for (const e of reg.instruments) {
+        byJurisdiction[e.jurisdiction_code] = (byJurisdiction[e.jurisdiction_code] || 0) + 1
+        if (e.verified) verified++
+        for (const a of e.analytes || []) byAnalyte[a] = (byAnalyte[a] || 0) + 1
+      }
+      sendJson(response, {
+        schema_version: reg.schema_version,
+        error: reg.error || null,
+        analyte_vocabulary: reg.analyte_vocabulary,
+        jurisdictions: reg.jurisdictions,
+        instruments: reg.instruments,
+        stats: { total: reg.instruments.length, verified, byJurisdiction, byAnalyte },
+      })
+      return
+    }
+
+    // Fetch selected instruments. Shares the single-run guard and the SSE stream
+    // machinery with /api/run, so the UI's existing run panel renders it.
+    if (url.pathname === "/api/regulatory/fetch" && request.method === "POST") {
+      const payload = await readJsonBody(request)
+      for (const r of runs.values()) {
+        if (!r.done) {
+          response.writeHead(429, { "content-type": "text/plain" })
+          response.end("a run is already in progress")
+          return
+        }
+      }
+      const runId = `reg-${Date.now()}`
+      const run = { _id: runId, listeners: new Set(), events: [], done: false }
+      runs.set(runId, run)
+      run.expiry = setTimeout(() => runs.delete(runId), 60 * 60 * 1000)
+      runRegulatoryFetch({
+        jurisdictions: Array.isArray(payload.jurisdictions) && payload.jurisdictions.length ? payload.jurisdictions : null,
+        analytes: Array.isArray(payload.analytes) && payload.analytes.length ? payload.analytes : null,
+        category: payload.category || null,
+        categoryLabel: payload.categoryLabel || null,
+        dryRun: Boolean(payload.dryRun),
+        outRoot: payload.outRoot,
+        keys: loadKeys(),
+        runId,
+        onEvent: (ev) => emitTo(runId, ev),
+      }).catch((err) => {
+        emitTo(runId, { type: "error", msg: String(err?.message || err) })
+      })
+      sendJson(response, { ok: true, runId })
       return
     }
 
