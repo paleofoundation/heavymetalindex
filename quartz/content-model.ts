@@ -184,16 +184,12 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
       slugPrefix: "synthesis",
       hide: [...HIDE_BASE],
       parents: [
-        {
-          id: "overview",
-          label: "Overview",
-          children: [
-            { id: "overview", patterns: [/^overview$/i] },
-            { id: "findings", patterns: [/synthesis findings pages/i] },
-            { id: "promote", patterns: [/when to promote/i] },
-            { id: "cadmium", patterns: [/cadmium synthesis/i] },
-          ],
-        },
+        // v3's synthesis directory rail leads with the two generated sections;
+        // the promotion criteria and the cadmium-in-progress note are secondary
+        // and fall to "Further detail" (they are not listed as parents).
+        { id: "overview", label: "Overview", direct: true, children: [{ id: "overview", patterns: [/^overview$/i] }] },
+        { id: "grades", label: "How findings are graded", direct: true, children: [{ id: "grades", patterns: [/how findings are graded/i] }] },
+        { id: "findings", label: "All findings", direct: true, children: [{ id: "findings", patterns: [/^all findings$/i] }] },
       ],
     },
   ],

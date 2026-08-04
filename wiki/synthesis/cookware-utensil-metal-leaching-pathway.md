@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/rice]]", "[[ingredients/meat]]"]
 products: ["[[products/cookware-metal-alloy]]", "[[products/cookware-nonstick-coated]]", "[[products/utensils-metal]]", "[[products/rice-bulk-grain]]", "[[products/game-meats]]"]
 anchor_sources: ["[[sources/sultan2023-cookware-metal-leaching]]", "[[sources/alrajhi2021-imported-cookware-metal-release]]", "[[sources/mahdi2024-meat-cooked-utensils-metals]]", "[[sources/abdulrasheed2026-nigeria-cookware-metals]]", "[[sources/rittirong2018-cooked-rice-utensil-metals-thailand]]"]
 established: 2026-07-27
+grade: C
+dek: "Five small studies from five countries agree cooking pots can leach metals into food, but mainly under acidic or degraded conditions."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -144,9 +146,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 5 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

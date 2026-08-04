@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/breastmilk]]"]
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 anchor_sources: ["[[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review]]", "[[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea]]", "[[sources/chen2023-breast-milk-ewaste-china]]", "[[sources/naspolini2024-human-milk-sao-paulo]]", "[[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review]]", "[[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review]]"]
 established: 2026-07-27
+grade: C
+dek: "Breast milk carries measurable levels of toxic metals from the mother's diet and body, a route food-safety testing never checks."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -167,9 +169,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 4 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 14 sections added and 11 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

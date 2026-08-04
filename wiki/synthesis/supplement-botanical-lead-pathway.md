@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: ["[[products/dietary-supplements]]", "[[products/supplements-botanicals-herbs]]"]
 anchor_sources: ["[[sources/porwollik2026-rhodiola-supplements-us-market]]", "[[sources/inada2023-herbal-medicine-heavy-metal-regulations]]", "[[sources/ciocan2021-ayurvedic-lead-hg-poisoning]]", "[[sources/thomas2024-lead-poisoning-ayurvedic-herbal]]"]
 established: 2026-07-27
+grade: C
+dek: "Supplements and herbal remedies can carry lead thousands of times above food limits, with far weaker testing and enforcement than regular foods."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -135,9 +137,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 4 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
-| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 3 sources added; 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

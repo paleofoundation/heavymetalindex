@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/canned-tuna]]", "[[ingredie
 products: ["[[products/seafood]]", "[[products/canned-fish]]", "[[products/fresh-fish]]"]
 anchor_sources: ["[[sources/ralston2014-selenium-hbv-methylmercury-seafood]]", "[[sources/chamorro2024-bluefin-tuna-mercury-review]]", "[[sources/farina-rocha-aschner-2011-mehg-mechanism]]"]
 established: 2026-05-18
+grade: D
+dek: "Scientists disagree on whether selenium in fish offsets mercury risk, and no regulator accepts it, so mercury limits stay unchanged for now."
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -157,9 +159,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 6 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

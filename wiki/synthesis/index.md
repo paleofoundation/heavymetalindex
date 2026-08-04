@@ -9,36 +9,340 @@ audience: [regulator, educator, consumer, brand-legal]
 
 This page is the index of the Heavy Metal Index's synthesis layer. Each linked subpage is a self-contained synthesis findings page: a thesis statement built on at least three corroborating A-tier sources, presenting a non-obvious finding that emerges from the corpus and would not be evident from any single source page. Synthesis pages sit one layer above the source and product pages and one layer below the strategic / certification documents, and the wiki's epistemic authority rests on them remaining provisional, source-traceable, and explicit about their own uncertainty.
 
-## Synthesis findings pages
+<!-- BEGIN: hmi-synthesis-grades -->
+## How findings are graded
 
-Each row links to a self-contained synthesis page that carries the full anchor-source evidence and the reasoning behind the finding. Listed newest first.
+Each finding carries the Index's own confidence grade. The grade is a provisional editorial assessment of the evidence as it currently stands, not a claim of settled consensus: every finding is published as a preprint and its grade can move as the corpus grows or external review accumulates. A finding can be heavily cited and still graded provisional.
 
-| Finding | Metals | Anchor sources | Added |
-| --- | --- | --- | --- |
-| [Dietary nickel is an intrinsic accumulation trait of specific plant staples, not a contamination signal, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source](/synthesis/dietary-nickel-plant-staple-accumulation) | Ni | 6 | 2026-07-27 |
-| [Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits](/synthesis/tin-canned-food-acidic-matrix-migration) | Sn | 5 | 2026-07-27 |
-| [Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance](/synthesis/breastmilk-heavy-metal-exposure-pathway) | Pb, Cd, tAs, tHg, Al, Cr | 6 | 2026-07-27 |
-| [Manufactured infant formula delivers an aluminium-dominated metal load, many-fold above breastmilk and amplified in soy-based and powdered formats, to the most vulnerable consuming population](/synthesis/infant-formula-metal-amplification) | Al, Pb, Cd, tAs, tHg | 7 | 2026-07-27 |
-| [Wastewater and sewage-effluent irrigation is a single upstream pathway that co-elevates multiple metals in the same crop, concentrating in leafy greens on peri-urban plots across the Global South](/synthesis/wastewater-irrigation-multimetal-crop-pathway) | Pb, Cd, Cr, Ni, tAs | 5 | 2026-07-27 |
-| [Dietary supplements and traditional herbal preparations are a distinct, under-surveilled heavy-metal exposure pathway whose contamination magnitudes reach thousands of times conventional food limits under materially weaker enforcement](/synthesis/supplement-botanical-lead-pathway) | Pb, Cd, tAs, tHg | 4 | 2026-07-27 |
-| [Liver and kidney are physiological cadmium accumulation sinks that carry heavy-metal loads above skeletal muscle, making offal a distinct dietary exposure pathway that muscle-meat surveillance does not represent](/synthesis/organ-meat-cadmium-lead-accumulation) | Cd, Pb, tHg, Cr | 6 | 2026-07-27 |
-| [Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness](/synthesis/cookware-utensil-metal-leaching-pathway) | Pb, Cd, Ni, Cr, Al, tAs | 5 | 2026-07-27 |
-| [Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports](/synthesis/tea-multi-metal-bioaccumulation) | Al, Pb, Cd, Cr, tAs | 8 | 2026-06-04 |
-| [Aquaculture vs wild-caught contamination differential: why farmed fish carry systematically lower MeHg](/synthesis/aquaculture-vs-wild-contamination-differential) | MeHg, tHg, Cd, Pb, tAs | 3 | 2026-05-18 |
-| [Bivalve cadmium amplification through filter feeding: why mussels and oysters need a different threshold than finfish](/synthesis/bivalve-cadmium-amplification) | Cd, Pb, tHg | 5 | 2026-05-18 |
-| [Cooking does not reduce methylmercury, and why this matters for consumer messaging](/synthesis/cooking-does-not-reduce-mehg) | MeHg, tHg | 3 | 2026-05-18 |
-| [EU heavy-metals regulatory framework timeline (2001-2023 and beyond)](/synthesis/eu-regulatory-framework-timeline) | Pb, Cd, tHg, MeHg, iAs, Sn | 6 | 2026-05-18 |
-| [Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings: the certification debate](/synthesis/se-hg-molar-ratio-certification-debate) | MeHg, tHg | 3 | 2026-05-18 |
-| [Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline](/synthesis/climate-fish-mehg-projections) | tHg, MeHg | 3 | 2026-05-16 |
-| [Mining-impacted freshwater fish are a globally distributed multi-metal contamination pathway not addressed by commercial-market fish advisories](/synthesis/mining-impacted-freshwater-fish) | tHg, MeHg, Pb, Cd, Cr, Ni | 10 | 2026-05-16 |
-| [Organic certification is not protective against heavy-metal contamination, and is associated with elevated loads in several food categories](/synthesis/organic-certification-not-protective) | Pb, Cd, Al, Ni, tAs | 7 | 2026-05-16 |
-| [Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize](/synthesis/seaweed-cd-as-contamination) | Cd, tAs, iAs, Pb | 3 | 2026-05-16 |
-| [Climate adaptation creates new heavy-metal trade-offs](/synthesis/climate-metals-tradeoffs) | iAs, Cd, MeHg, tHg | 3 | 2026-05-13 |
-| [Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure](/synthesis/combined-exposure-underprotection) | Pb, Cd, iAs, MeHg, Ni, Al | 3 | 2026-05-13 |
-| [The organoarsenical inertness assumption is increasingly contested](/synthesis/organoarsenical-inertness-assumption) | iAs, tAs | 8 | 2026-05-13 |
-| [Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants](/synthesis/spice-adulteration-lead-infants) | Pb, Cr | 7 | 2026-05-13 |
-| [Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address](/synthesis/subsistence-fishing-mehg-disparity) | MeHg, tHg | 3 | 2026-05-13 |
-| [US chocolate lead has measurably declined since 2015; cadmium has not](/synthesis/us-chocolate-lead-temporal-decline) | Pb, Cd | 3 | 2026-05-13 |
+<div class="hmi-grade-cards">
+  <div class="hmi-grade-card">
+    <div class="hmi-grade-head">
+      <span class="hmi-grade-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#8b2a4a;color:#fff;">A</span>
+      <span class="hmi-grade-label">Established</span>
+    </div>
+    <p class="hmi-grade-def">Independent bodies or study groups agree, on separate evidence bases, and no reversal is on record.</p>
+  </div>
+  <div class="hmi-grade-card">
+    <div class="hmi-grade-head">
+      <span class="hmi-grade-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#a8496a;color:#fff;">B</span>
+      <span class="hmi-grade-label">Well supported</span>
+    </div>
+    <p class="hmi-grade-def">Consistent across multiple sources, with one methodological limitation named on the finding page.</p>
+  </div>
+  <div class="hmi-grade-card">
+    <div class="hmi-grade-head">
+      <span class="hmi-grade-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+      <span class="hmi-grade-label">Provisional</span>
+    </div>
+    <p class="hmi-grade-def">Direction of evidence is consistent, but resolution, sample sizes, or geography are limited.</p>
+  </div>
+  <div class="hmi-grade-card">
+    <div class="hmi-grade-head">
+      <span class="hmi-grade-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#d6aebc;color:#fff;">D</span>
+      <span class="hmi-grade-label">Contested</span>
+    </div>
+    <p class="hmi-grade-def">Sources conflict, or the finding rests on a single body of work not independently replicated.</p>
+  </div>
+</div>
+<!-- END: hmi-synthesis-grades -->
+
+<!-- BEGIN: hmi-synthesis-findings -->
+## All findings
+
+<span class="hmi-findings-count">24 findings · sorted by grade</span>
+
+<div class="hmi-findings-list">
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#a8496a;color:#fff;">B</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/dietary-nickel-plant-staple-accumulation">Dietary nickel is an intrinsic accumulation trait of specific plant staples, not a contamination signal, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source</a>
+      <p class="hmi-finding-dek">Six independent studies over forty years agree that certain plant foods naturally concentrate nickel, though how much exceeds intake limits is unsettled.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Ni</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">6 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#a8496a;color:#fff;">B</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/infant-formula-metal-amplification">Manufactured infant formula delivers an aluminium-dominated metal load, many-fold above breastmilk and amplified in soy-based and powdered formats, to the most vulnerable consuming population</a>
+      <p class="hmi-finding-dek">Several separate research teams across different countries find infant formula, especially soy and powdered types, delivers far more aluminium than breastmilk.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Al</span><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">tAs</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">7 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#a8496a;color:#fff;">B</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/bivalve-cadmium-amplification">Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish</a>
+      <p class="hmi-finding-dek">Mussels and oysters filter huge volumes of seawater, so they carry far more cadmium than fish caught in the same waters.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">5 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#a8496a;color:#fff;">B</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/seaweed-cd-as-contamination">Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize</a>
+      <p class="hmi-finding-dek">Seaweed and kelp reliably carry high cadmium and arsenic across three world regions, yet routine food-safety monitoring barely tracks them.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">tAs</span><span class="hmi-finding-tag">iAs</span><span class="hmi-finding-tag">Pb</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#a8496a;color:#fff;">B</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/spice-adulteration-lead-infants">Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants</a>
+      <p class="hmi-finding-dek">Lead chromate deliberately added to turmeric and cinnamon is confirmed by government agencies and independent studies across continents, including documented infant poisonings.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cr</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">1 source</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/breastmilk-heavy-metal-exposure-pathway">Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance</a>
+      <p class="hmi-finding-dek">Breast milk carries measurable levels of toxic metals from the mother's diet and body, a route food-safety testing never checks.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">tAs</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">6 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/cookware-utensil-metal-leaching-pathway">Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness</a>
+      <p class="hmi-finding-dek">Five small studies from five countries agree cooking pots can leach metals into food, but mainly under acidic or degraded conditions.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Ni</span><span class="hmi-finding-tag">Cr</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">5 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/organ-meat-cadmium-lead-accumulation">Liver and kidney are physiological cadmium accumulation sinks that carry heavy-metal loads above skeletal muscle, making offal a distinct dietary exposure pathway that muscle-meat surveillance does not represent</a>
+      <p class="hmi-finding-dek">Liver and kidney store more cadmium than muscle, so eating organ meat is a distinct exposure route that muscle-focused testing does not capture.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">tHg</span><span class="hmi-finding-tag">Cr</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">6 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/supplement-botanical-lead-pathway">Dietary supplements and traditional herbal preparations are a distinct, under-surveilled heavy-metal exposure pathway whose contamination magnitudes reach thousands of times conventional food limits under materially weaker enforcement</a>
+      <p class="hmi-finding-dek">Supplements and herbal remedies can carry lead thousands of times above food limits, with far weaker testing and enforcement than regular foods.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">tAs</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">4 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/tin-canned-food-acidic-matrix-migration">Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits</a>
+      <p class="hmi-finding-dek">Tin gets into food from unlined cans holding acidic contents, and only triggers stomach symptoms at doses far above lead limits.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Sn</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">5 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/wastewater-irrigation-multimetal-crop-pathway">Wastewater and sewage-effluent irrigation is a single upstream pathway that co-elevates multiple metals in the same crop, concentrating in leafy greens on peri-urban plots across the Global South</a>
+      <p class="hmi-finding-dek">Multiple studies across Nigeria, Malawi, India and Burkina Faso agree that wastewater irrigation raises several metals together in leafy vegetables.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Cr</span><span class="hmi-finding-tag">Ni</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">5 sources</div>
+      <div class="hmi-finding-date">JUL 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/tea-multi-metal-bioaccumulation">Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports</a>
+      <p class="hmi-finding-dek">How much metal ends up in your cup depends on how much brews out of the leaf, and few studies measure that directly.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Al</span><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Cr</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">8 sources</div>
+      <div class="hmi-finding-date">JUN 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/cooking-does-not-reduce-mehg">Cooking does not reduce methylmercury — and why this matters for consumer messaging</a>
+      <p class="hmi-finding-dek">Fish loses none of its methylmercury when cooked, canned, or smoked, so choosing lower-mercury species is the only real protection.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">MeHg</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/eu-regulatory-framework-timeline">EU heavy-metals regulatory framework timeline (2001-2023 and beyond)</a>
+      <p class="hmi-finding-dek">This page traces how the EU updated its food heavy metal limits through six regulations from 2001 to 2023.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">tHg</span><span class="hmi-finding-tag">MeHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">6 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/mining-impacted-freshwater-fish">Mining-impacted freshwater fish are a globally distributed multi-metal contamination pathway not addressed by commercial-market fish advisories</a>
+      <p class="hmi-finding-dek">Fish from mining, industrial, and dammed waters carry high mercury worldwide, but the broader multi-metal claim rests on one study.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">tHg</span><span class="hmi-finding-tag">MeHg</span><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">10 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/climate-metals-tradeoffs">Climate adaptation creates new heavy-metal trade-offs</a>
+      <p class="hmi-finding-dek">Two separate lines of research suggest climate-driven farming and warming shift which toxic metals show up in rice and freshwater fish.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">iAs</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">MeHg</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/combined-exposure-underprotection">Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure</a>
+      <p class="hmi-finding-dek">Three independent bodies agree that setting food metal limits one metal at a time underprotects people, but only one combined-exposure study anchors it.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">iAs</span><span class="hmi-finding-tag">MeHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/organoarsenical-inertness-assumption">The organoarsenical inertness assumption is increasingly contested</a>
+      <p class="hmi-finding-dek">Several recent studies each poke a different hole in the idea that seafood's organic arsenic is harmless, but none is conclusive yet.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">iAs</span><span class="hmi-finding-tag">tAs</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">8 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#c07f96;color:#fff;">C</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/subsistence-fishing-mehg-disparity">Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address</a>
+      <p class="hmi-finding-dek">Three independent studies across the ocean, China, and the Brazilian Amazon find people who eat locally caught fish face mercury exposures official advice ignores.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">MeHg</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#d6aebc;color:#fff;">D</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/aquaculture-vs-wild-contamination-differential">Aquaculture vs wild-caught contamination differential — why farmed fish carry systematically lower MeHg</a>
+      <p class="hmi-finding-dek">Farmed fish appear to carry much less mercury than wild fish, but the size of that gap rests on a single China study.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">MeHg</span><span class="hmi-finding-tag">tHg</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Pb</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#d6aebc;color:#fff;">D</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/se-hg-molar-ratio-certification-debate">Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings — the scientific debate</a>
+      <p class="hmi-finding-dek">Scientists disagree on whether selenium in fish offsets mercury risk, and no regulator accepts it, so mercury limits stay unchanged for now.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">MeHg</span><span class="hmi-finding-tag">tHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#d6aebc;color:#fff;">D</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/climate-fish-mehg-projections">Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline</a>
+      <p class="hmi-finding-dek">Warming oceans are expected to push mercury higher in fish like tuna, but the size of that increase rests on one climate model.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">tHg</span><span class="hmi-finding-tag">MeHg</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#d6aebc;color:#fff;">D</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/organic-certification-not-protective">Organic certification is not protective against heavy-metal contamination, and in some food matrices is associated with higher loads</a>
+      <p class="hmi-finding-dek">Across seven studies, organic food was not cleaner of heavy metals, but the results disagree and one large study found the opposite.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span><span class="hmi-finding-tag">Al</span><span class="hmi-finding-tag">Ni</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">7 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+  <div class="hmi-finding-row">
+    <span class="hmi-finding-badge" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex:0 0 auto;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:17px;background:#d6aebc;color:#fff;">D</span>
+    <div class="hmi-finding-body">
+      <a class="hmi-finding-title" href="/synthesis/us-chocolate-lead-temporal-decline">US chocolate lead has measurably declined since 2015; cadmium has not</a>
+      <p class="hmi-finding-dek">Lead levels in US dark chocolate appear to be dropping while cadmium stays put, but the trend comes from one dataset.</p>
+      <div class="hmi-finding-tags"><span class="hmi-finding-tag">Pb</span><span class="hmi-finding-tag">Cd</span></div>
+    </div>
+    <div class="hmi-finding-meta">
+      <div class="hmi-finding-count">3 sources</div>
+      <div class="hmi-finding-date">MAY 2026</div>
+    </div>
+  </div>
+</div>
+<!-- END: hmi-synthesis-findings -->
+
 
 ## When to promote a synthesis findings page
 

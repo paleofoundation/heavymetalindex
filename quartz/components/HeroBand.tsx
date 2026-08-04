@@ -195,6 +195,19 @@ function indexSnapshot(section: string, allFiles: QuartzComponentProps["allFiles
   } else if (section === "sources") {
     push("Source records", n)
     push("Distinct elements measured", distinct("metals"))
+  } else if (section === "synthesis") {
+    // v3's synthesis directory carries a grade breakdown. Counted from each
+    // finding's `grade` frontmatter — the Index's own provisional confidence
+    // assessment, published as a preprint layer.
+    const gradeN = (letter: string) =>
+      countWhere((fm) => String(fm.grade ?? "").toUpperCase() === letter)
+    push("Findings published", n)
+    push("Well supported (B)", gradeN("B"))
+    push("Provisional (C)", gradeN("C"))
+    push("Contested (D)", gradeN("D"))
+    // Grade A is shown only if any finding earns it, so a row of "0" never
+    // implies the layer is weaker than it is.
+    if (gradeN("A") > 0) rows.unshift({ k: "Established (A)", v: String(gradeN("A")) })
   } else {
     push("Pages in this layer", n)
   }

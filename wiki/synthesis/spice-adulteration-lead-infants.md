@@ -17,6 +17,8 @@ products: ["[[products/baby-food-purees]]", "[[products/infant-cereal]]"]
 audience: [regulator, brand-legal, educator]
 wiki_doi: null
 updated: 2026-05-13
+grade: B
+dek: "Lead chromate deliberately added to turmeric and cinnamon is confirmed by government agencies and independent studies across continents, including documented infant poisonings."
 ---
 
 # Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants
@@ -157,9 +159,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 5 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 7 sections added and 6 removed |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

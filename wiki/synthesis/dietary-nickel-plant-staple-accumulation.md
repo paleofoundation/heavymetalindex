@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredien
 products: ["[[products/chocolate]]", "[[products/legumes-pulses-other]]", "[[products/peanuts]]", "[[products/cashews]]", "[[products/nuts-seeds-other]]", "[[products/breakfast-cereals]]", "[[products/other-grain-products]]", "[[products/processed-meats]]", "[[products/poultry-product]]"]
 anchor_sources: ["[[sources/efsa2015-nickel-food-water]]", "[[sources/flyvholm1984-nickel-content-food-dietary-intake]]", "[[sources/mania2020-nickel-cereal-grains-poland]]", "[[sources/han2024-nickel-zhejiang-china]]", "[[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland]]", "[[sources/manfredi2025-nickel-meat-italy]]"]
 established: 2026-07-27
+grade: B
+dek: "Six independent studies over forty years agree that certain plant foods naturally concentrate nickel, though how much exceeds intake limits is unsettled."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -128,9 +130,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 1 source added; 1 section added; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 14 sections added and 11 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
-| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

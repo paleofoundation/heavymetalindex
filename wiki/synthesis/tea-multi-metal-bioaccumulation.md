@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/camellia-sinensis]]"]
 products: ["[[products/tea]]", "[[products/tea-infusions]]"]
 anchor_sources: ["[[sources/brzezicha-cirocka2016-green-tea-geographic-origins]]", "[[sources/li2015-green-tea-jiangxi-al-heavy-metals]]", "[[sources/li2021-china-national-tea-reconnaissance]]", "[[sources/jurowski2023-heavy-metals-green-tea-poland]]", "[[sources/hu2023-china-tea-heavy-metals]]", "[[sources/fan2025-hangzhou-green-tea-metals]]", "[[sources/zhang2018-tea-puan-guizhou-heavy-metals]]", "[[sources/kazeminia2023-tea-heavy-metals-review]]"]
 established: 2026-06-04
+grade: C
+dek: "How much metal ends up in your cup depends on how much brews out of the leaf, and few studies measure that directly."
 wiki_doi: null
 updated: 2026-06-04
 ---
@@ -148,9 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 10 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 13 sections added and 11 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 10 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

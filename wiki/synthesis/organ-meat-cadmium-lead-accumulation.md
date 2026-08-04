@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/organ-meats]]", "[[ingredients/beef]]", "[[ingredie
 products: ["[[products/beef-product]]", "[[products/poultry-product]]", "[[products/game-meats]]"]
 anchor_sources: ["[[sources/rabeey2025-bovine-hg-pb-cd-egypt]]", "[[sources/hossain2023-bangladesh-chicken-metals]]", "[[sources/kamaly2023-egypt-poultry-metals]]", "[[sources/morshed2024-heavy-metals-poultry-organs-bangladesh]]", "[[sources/marcelino2026-liver-trace-metals-netherlands-herbivores]]", "[[sources/khatemeh2022-pb-cd-sheep-liver-flukes]]"]
 established: 2026-07-27
+grade: C
+dek: "Liver and kidney store more cadmium than muscle, so eating organ meat is a distinct exposure route that muscle-focused testing does not capture."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -159,9 +161,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 5 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 13 sections added and 10 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

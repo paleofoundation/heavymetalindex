@@ -89,14 +89,13 @@ const RENAMES: Record<string, Rename[]> = {
     { from: /^reference values underlying the program$/i, to: "The values, exactly as set" },
     { from: /^comparison to /i, to: "How to read it against other instruments" },
   ],
-  // v3's synthesis directory is "How findings are graded" then "All findings".
-  // The build carries both under different names — mapped by FUNCTION, not by
-  // name, which is the whole point of CONTENT-RULES §2: a reader looking for
-  // the grading rules is served identically by either heading.
-  "synthesis-index": [
-    { from: /^synthesis findings pages$/i, to: "All findings" },
-    { from: /^when to promote a synthesis findings page$/i, to: "How findings are graded" },
-  ],
+  // NB: the synthesis directory's "How findings are graded" (the A/B/C/D grade
+  // cards) and "All findings" (the grade-sorted list) are now emitted as real
+  // generated sections by tools/build-synthesis-index.mjs, not relabelled from
+  // the promotion-criteria prose. An earlier pass here renamed "When to promote
+  // a synthesis findings page" to "How findings are graded", which was a
+  // function mismatch: the grade rubric and the promotion criteria are different
+  // things. Those renames are removed so the two headings do not collide.
   source: [
     { from: /^(key numbers|extracted values)$/i, to: "Extracted values" },
     // "Methods (brief)" - the original /^methods$/ anchored too tightly.

@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/flaxseed]]", "[[ingredient
 products: ["[[products/dark-chocolate]]", "[[products/infant-formula]]", "[[products/tahini]]", "[[products/baby-food-pouches]]"]
 anchor_sources: ["[[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]]", "[[sources/brum2025-flaxseeds-ptes-organic-conventional]]", "[[sources/potorti2026-tahini-quality-safety-inorganic-elements]]", "[[sources/slepecka2017-ecological-cereal-heavy-metals-poland]]", "[[sources/gardener2019-pb-cd-us-infant-formula-baby-foods]]", "[[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland]]", "[[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone]]"]
 established: 2026-05-16
+grade: D
+dek: "Across seven studies, organic food was not cleaner of heavy metals, but the results disagree and one large study found the opposite."
 wiki_doi: null
 updated: 2026-06-11
 ---
@@ -179,9 +181,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 7 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 15 sections added and 12 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

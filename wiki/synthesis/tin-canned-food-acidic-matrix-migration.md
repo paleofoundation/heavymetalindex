@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/tomato]]", "[[ingredients/canned-tomatoes]]", "[[in
 products: ["[[products/canned-foods-general]]", "[[products/canned-fruit]]", "[[products/canned-tomatoes]]", "[[products/canned-vegetables]]", "[[products/fruit-juices-non-apple]]", "[[products/fruit-juices-apple-containing]]", "[[products/canned-fish]]"]
 anchor_sources: ["[[sources/benoy1971-tin-toxicity-canned-fruit-juices]]", "[[sources/eu-scf-2002-acute-tin-canned-foods]]", "[[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland]]", "[[sources/blunden2003-tin-canned-food-review]]", "[[sources/buculei2012-tin-iron-migration-canned-food-romania]]"]
 established: 2026-07-27
+grade: C
+dek: "Tin gets into food from unlined cans holding acidic contents, and only triggers stomach symptoms at doses far above lead limits."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -129,9 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 4 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 9 sections added and 7 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

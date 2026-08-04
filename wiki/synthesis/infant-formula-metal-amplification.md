@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/breastmilk]]", "[[ingredients/infant-formula-ingred
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/plant-milks-soy-based]]"]
 anchor_sources: ["[[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]]", "[[sources/kazi2009-toxic-elements-in-infant-formulae]]", "[[sources/burrell2010-aluminium-in-infant-formulas]]", "[[sources/chuchu2013-aluminium-in-infant-formulas]]", "[[sources/collado-lopez2025-heavy-metals-baby-food-formula]]", "[[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility]]", "[[sources/milani2023-trace-elements-soy-based-beverages]]"]
 established: 2026-07-27
+grade: B
+dek: "Several separate research teams across different countries find infant formula, especially soy and powdered types, delivers far more aluminium than breastmilk."
 wiki_doi: null
 updated: 2026-07-27
 ---
@@ -148,9 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 7 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

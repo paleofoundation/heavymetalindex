@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]", "
 products: ["[[products/seafood]]", "[[products/canned-fish]]"]
 anchor_sources: ["[[sources/bao2024-sp-icp-ms-nps-mussels]]", "[[sources/bruno2024-metals-mussels-clams-faro-lake-sicily]]", "[[sources/dogruyol2024-mediterranean-mussels-health-risk]]", "[[sources/rohonczy2024-arctic-foodweb-cd-hg]]", "[[sources/cardoso2023-mercury-portuguese-coast-seafood]]"]
 established: 2026-05-18
+grade: B
+dek: "Mussels and oysters filter huge volumes of seawater, so they carry far more cadmium than fish caught in the same waters."
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -147,9 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 7 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

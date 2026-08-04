@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingr
 products: ["[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/wu2025-climate-meghan-freshwater-fish-china]]", "[[sources/li2024-global-fisheries-mehg]]", "[[sources/rusko2026-mercury-fish-latvia-risk-benefit]]"]
 established: 2026-05-18
+grade: D
+dek: "Farmed fish appear to carry much less mercury than wild fish, but the size of that gap rests on a single China study."
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -170,9 +172,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 3 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

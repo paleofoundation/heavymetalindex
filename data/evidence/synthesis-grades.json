@@ -1,0 +1,198 @@
+{
+ "generated_by": "tools/grade-synthesis-findings workflow + adversarial verify",
+ "method": "per-finding grade against the v3 confidence rubric (A/B/C/D); A/B grades adversarially verified and adopted the lower grade where refuted",
+ "grades": [
+  {
+   "slug": "aquaculture-vs-wild-contamination-differential",
+   "grade": "D",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Farmed fish appear to carry much less mercury than wild fish, but the size of that gap rests on a single China study.",
+   "rationale": "Meets D (single body of work not independently replicated): the quantitative farmed-vs-wild differential rests solely on Wu 2025, since Li 2024 only models fishing patterns and Rusko 2026 measures wild fish alone and, per the page, makes no farmed comparison."
+  },
+  {
+   "slug": "cookware-utensil-metal-leaching-pathway",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Five small studies from five countries agree cooking pots can leach metals into food, but mainly under acidic or degraded conditions.",
+   "rationale": "Meets the C criterion (direction consistent but samples, geography, and resolution limited): five independent studies from five countries converge that vessels can transfer metals, but all have small samples (n=4-46), cluster in less-regulated markets, include a genuine neutral-condition null (Rittirong, Abdulrasheed), and provide no population-level vessel-attributable dose."
+  },
+  {
+   "slug": "cooking-does-not-reduce-mehg",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Fish loses none of its methylmercury when cooked, canned, or smoked, so choosing lower-mercury species is the only real protection.",
+   "rationale": "B is overstated. The finding's direct comparative evidence reduces to a single cross-sectional government dataset (BfR MEAL), which measures different lots/species-forms rather than paired raw-vs-cooked samples, so it cannot separate \"no effect\" from a small effect masked by lot-to-lot variability \u2014 the page's attribution of observed variation to sampling noise is interpretive, not demonstrated. The occurrence evidence is essentially single-geography (German); the \"US/Canadian freshwater surveys\" are asserted, not cited. Of the three anchor sources, only BfR performs the cooked-vs-other-form comparison; Farina supplies the mechanism (a prediction, not a measurement of cooking's effect) and Aguilar-Miranda measures one canned form while citing OTHER papers for the MeHg fraction \u2014 it never compares canned vs raw. So B's \"multiple independent sources agree [on the comparative claim]\" is not cleanly met. The covalent Hg-cysteine mechanism is genuinely robust and keeps this clear of D, but per the conservative preprint posture the evidence is directionally consistent while limited in geography and resolution: grade C."
+  },
+  {
+   "slug": "climate-fish-mehg-projections",
+   "grade": "D",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Warming oceans are expected to push mercury higher in fish like tuna, but the size of that increase rests on one climate model.",
+   "rationale": "Meets rubric D because the load-bearing quantitative projection rests on a single coupled-model study (Wang 2023) that is not independently replicated \u2014 the other two anchors are a review (Sonke) and a mechanism study (Motta), not second projections \u2014 and the page itself flags this and calls itself \"the most provisional\" of its batch."
+  },
+  {
+   "slug": "breastmilk-heavy-metal-exposure-pathway",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Breast milk carries measurable levels of toxic metals from the mother's diet and body, a route food-safety testing never checks.",
+   "rationale": "Argue down from B to C. B requires multiple independent sources agreeing plus ONE named limitation; this finding sits on the B/C line and its own Uncertainty section names three limitations, two of which are the verbatim C triggers: limited resolution (no pooled occurrence distribution; per-study, method-heterogeneous values with divergent LOQs and censoring; cadmium 99% detected in Korea but entirely below quantification in S\u00e3o Paulo) and limited geography (East-Asia-heavy primary cohorts plus one e-waste district and urban Brazil, with explicitly \"thinner primary coverage of North American and Western European general populations\" \u2014 the US/EU signal comes largely through the two B-tier reviews, i.e., the wiki's own markets are the thin ones). The task instruction to default to C when directionally consistent but limited in samples/geography/resolution describes this finding almost exactly. The mechanistic clause (\"driven by maternal body burden and diet\") also leans narrow: the body-burden transfer framework is sourced to a single B-tier review (the page states Katrynska 2026 \"is the source of the transfer-mechanism framework\"), the diet-tracking to one A-tier cohort's regressions (Moon 2025), and the two health associations (birth weight in Chen, language in Naspolini) are different outcomes from single unreplicated cohorts, not independent replication. A is excluded outright (no independent convergence on separate evidence bases for the mechanism/outcome sub-claims; preprint with zero external verdicts logged). While six independent sources genuinely converge on the qualitative existence-and-distinctness core, the quantitative and mechanistic substance is resolution- and geography-limited in the exact sense C is written to capture, so B is overstated."
+  },
+  {
+   "slug": "bivalve-cadmium-amplification",
+   "grade": "B",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Mussels and oysters filter huge volumes of seawater, so they carry far more cadmium than fish caught in the same waters.",
+   "rationale": "A is overstated. The finding is real and directionally unanimous with no flagged conflict, so it is not D and stronger than C. But it does not cleanly meet the A bar of independent bodies converging on SEPARATE evidence bases. The grader's second \"independent\" basis \u2014 the EU 20-fold per-category Cd cap \u2014 is downstream of the same occurrence literature and the same filter-feeding mechanism, so it codifies the science rather than independently rediscovering it (near double-counting, not two independent derivations). The page also undercuts its own clean-separation claim: its cited finfish dataset (Hussein 2023, Egypt) reports Cd up to 0.13 mg/kg, inside the page's own bivalve floor (0.1\u20131.0), so the \"10\u2013100x consistent across all geographies from the same waters\" claim is not supported by the page's numbers. The comparison is cross-study (bivalves from Mediterranean/Arctic vs finfish from Egypt/Latvia), not paired same-water data, and geography is Mediterranean-concentrated. The title's \"oysters\" rests on admitted mussel-extrapolation. Critically, the page names its own key limitations (thin oyster/scallop data, open nanoparticle bioavailability, uncharacterized farmed-vs-wild) \u2014 multiple independent sources agreeing PLUS a self-named limitation is the exact definition of B under the v3 rubric. As an unreviewed preprint, the conservative call is B."
+  },
+  {
+   "slug": "combined-exposure-underprotection",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Three independent bodies agree that setting food metal limits one metal at a time underprotects people, but only one combined-exposure study anchors it.",
+   "rationale": "Meets C (\"direction consistent but geography/resolution limited\"): three independent bodies (Finnish authority, JECFA, EFSA) agree on direction, but the actual combined-exposure claim rests on a single unreplicated cumulative study (Suomi 2023, Finland only) while JECFA and EFSA supply single-metal results linked only by inference, and the page itself flags that no parallel cumulative analysis exists."
+  },
+  {
+   "slug": "climate-metals-tradeoffs",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Two separate lines of research suggest climate-driven farming and warming shift which toxic metals show up in rice and freshwater fish.",
+   "rationale": "Grades C (Provisional) because the evidence is directionally consistent but limited in geography and resolution: the rice thread rests on one research group's experimental paddies (two companion, non-independent Seyfferth/Limmer papers at a single US university) and the fish thread on a single Chinese dataset with no independent replication, all limits the page itself flags."
+  },
+  {
+   "slug": "dietary-nickel-plant-staple-accumulation",
+   "grade": "B",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Six independent studies over forty years agree that certain plant foods naturally concentrate nickel, though how much exceeds intake limits is unsettled.",
+   "rationale": "Meets B (consistent across multiple independent sources with one named limitation): six independent A-tier sources across four decades and five jurisdictions converge on the commodity ranking, and the page itself names the ~4.6x upward TDI revision that governs whether the exceedance half of the claim holds."
+  },
+  {
+   "slug": "mining-impacted-freshwater-fish",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Fish from mining, industrial, and dammed waters carry high mercury worldwide, but the broader multi-metal claim rests on one study.",
+   "rationale": "B is overstated. The title's distinctive, load-bearing claim is \"multi-metal\"; without it the finding reduces to the already-established mercury-biomagnification story. That multi-metal claim rests on a single source, Shaalan 2024, as the page itself concedes twice (Provisional-status: \"rests on Shaalan 2024 as a single industrial-pollution anchor\"; Uncertainty: a single ASGM multi-metal dataset \"would close the cleanest version of the multi-metal criterion,\" i.e. the corpus lacks one). Worse, Shaalan 2024 is an industrial-effluent canal, not a mining source, so the title's actual conjunction (mining + multi-metal) is supported by no single source: every mining source (Colombia, Amazon, Zambia, Almaden) is mercury-only, and the page even overstates its own support by crediting Almaden with multi-metal backing when Almaden reports tHg only. B requires \"multiple independent sources agree AND a named limitation\"; the named limitation is present but the multiple-independent-sources half fails for the defining claim \u2014 it is one study, one site (a single Egyptian canal), one driver-type. Per the rubric, a finding resting on a single source/geography \"cannot be A and probably cannot be B.\" Not D, because the finding does not wholly rest on one group and no sources conflict \u2014 its geographic mercury spine (9 of 10 sources, six continents) is genuinely well-replicated. C fits: direction consistent across many sources, but the distinctive multi-metal claim is limited in samples, geography, and driver-alignment."
+  },
+  {
+   "slug": "infant-formula-metal-amplification",
+   "grade": "B",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Several separate research teams across different countries find infant formula, especially soy and powdered types, delivers far more aluminium than breastmilk.",
+   "rationale": "Meets the B criterion: the soy-format gradient and elevated aluminium replicate across four independent lineages (Health Canada/Dabeka, Kazi/Pakistan, de Paiva/Brazil, Collado-Lopez global review), yet the page names its own key limitation that aluminium bioaccessibility of 0.5 to 48 percent means the delivered-load amplification overstates absorbed dose."
+  },
+  {
+   "slug": "organic-certification-not-protective",
+   "grade": "D",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Across seven studies, organic food was not cleaner of heavy metals, but the results disagree and one large study found the opposite.",
+   "rationale": "Meets D's \"sources conflict\" criterion: the page itself flags an A-tier counterexample (Dearing 2025, 736 samples) running opposite the directional pattern, and the \"higher loads\" half rests mainly on a single cocoa dataset (Hands 2024) after two supportive sources (Potort\u00ec n=1, S\u0142epecka anomalous) are self-flagged as unreliable and excluded from quantitative use."
+  },
+  {
+   "slug": "organoarsenical-inertness-assumption",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Several recent studies each poke a different hole in the idea that seafood's organic arsenic is harmless, but none is conclusive yet.",
+   "rationale": "Meets the C criterion (direction consistent but resolution, samples, and geography limited): eight independent sources point the same way but each challenges a different dimension rather than replicating one claim, the strongest human signal is a single unreplicated Japanese cohort, the digestion pillar is in vitro, and the page itself calls the synthesis provisional."
+  },
+  {
+   "slug": "organ-meat-cadmium-lead-accumulation",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Liver and kidney store more cadmium than muscle, so eating organ meat is a distinct exposure route that muscle-focused testing does not capture.",
+   "rationale": "Grading the load-bearing cadmium claim (the page narrows the \"heavy-metal loads\" title to cadmium; lead is contested/inverted and mercury is a direct counterexample). Direct within-carcass cadmium support reduces to two A-tier occurrence surveys BOTH from Egypt (rabeey2025 bovine, kamaly2023 broiler) plus morshed2024, a B-tier preprint with n=3/dose group and an internally inconsistent results table that the page itself keeps in a supporting role. The other two anchors are liver-only with no muscle comparison and so cannot show the differential (marcelino2026 had Cd below LOQ). This fails the B bar on two counts the rubric weights heavily: (1) geography is limited \u2014 both direct A-tier comparisons are single-country, which the page flags as a key limitation and which the task says \"probably cannot be B\"; and (2) the kidney half of the titular \"liver and kidney\" claim rests on a single dataset (rabeey2025), which the page concedes (\"a single dataset carries the kidney claim\"). The page also names three limitations, not the one B contemplates (geographic skew, kidney single-source, species gaps with pork absent), and it is an unreviewed preprint. Established metallothionein physiology keeps it above D \u2014 the cadmium direction is consistent with no reversal and two independent datasets \u2014 but mechanism plus two same-country surveys plus a caveated preprint is \"directionally consistent but limited in geography and sample coverage,\" which is C, not B."
+  },
+  {
+   "slug": "eu-regulatory-framework-timeline",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "This page traces how the EU updated its food heavy metal limits through six regulations from 2001 to 2023.",
+   "rationale": "Meets C's \"direction consistent but geography/scope limited\" criterion: the evidence base is six EU regulatory instruments from a single jurisdiction and legislative body, individually verifiable but neither cross-jurisdictionally corroborated nor externally reviewed, and the page itself flags it as structural rather than empirical."
+  },
+  {
+   "slug": "se-hg-molar-ratio-certification-debate",
+   "grade": "D",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Scientists disagree on whether selenium in fish offsets mercury risk, and no regulator accepts it, so mercury limits stay unchanged for now.",
+   "rationale": "Matches the D criterion on both counts: the page itself lays out an explicit \"case FOR\" versus \"case AGAINST\" with competing explanations for the Faroe-Seychelles divergence, and the core mechanistic framework rests on a single research thread (Ralston/Raymond HBV 2014) that the page states is not yet quantitatively validated and unadopted by any regulator."
+  },
+  {
+   "slug": "seaweed-cd-as-contamination",
+   "grade": "B",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Seaweed and kelp reliably carry high cadmium and arsenic across three world regions, yet routine food-safety monitoring barely tracks them.",
+   "rationale": "Meets the B criterion \u2014 three independent sources across three regions (NZ kelp survey, Salish Sea 43-site assessment, and the EFSA CONTAM Panel's 2,093-point occurrence opinion) agree on Cd/As elevation with no reversal, while the page names its own key limitation, the absence of a US retail-market occurrence dataset, and self-labels provisional."
+  },
+  {
+   "slug": "subsistence-fishing-mehg-disparity",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Three independent studies across the ocean, China, and the Brazilian Amazon find people who eat locally caught fish face mercury exposures official advice ignores.",
+   "rationale": "Argue down from B to C. The finding is written as a GLOBAL pattern, but the page itself concedes that reach is provisional: \"established for the populations the three studies document and provisional for jurisdictions where parallel quantitative work has not yet been done.\" That is nearly a verbatim match for the C definition (\"direction of the evidence is consistent, but... geography [is] limited\"). Three problems block B: (1) Empirical measurement covers only China (Wu) and one Brazilian basin (Auzier-Guimaraes); the global reach comes from Li, which is a model whose key subsistence figure (84-99%) is flagged as \"a global modeling estimate, not a population-cohort measurement.\" (2) The load-bearing exposure-exceedance claim rests on modeled/assumed consumption in ALL three legs (page: \"The exposure assessments in all three studies use modeled or assumed consumption rates rather than measured individual intake\"); no individual biomonitoring exists in any leg, so the three are not independent corroborations of the actual human-exposure claim. (3) The convergence is a synthesizer's cross-domain inference across three different systems and methods (\"the population they each implicitly identify but no single one names by itself\"), not three independent tests of one hypothesis, and the \"regulatory advice does not address this\" half is asserted rather than empirically tested. The page also names several limitations, not the single named limitation B specifies. Directionally consistent but geographically thin and model-dependent on its headline claim: C."
+  },
+  {
+   "slug": "tea-multi-metal-bioaccumulation",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "How much metal ends up in your cup depends on how much brews out of the leaf, and few studies measure that directly.",
+   "rationale": "Meets criterion C: the direction (metals largely stay in the leaf, so infusion dose is a fraction of leaf totals) is consistent across independent sources, but the load-bearing quantitative transfer fraction rests primarily on a single primary study (Brzezicha-Cirocka 2016) with only two green-tea infusion-native datasets and China/Poland-dominant geography."
+  },
+  {
+   "slug": "spice-adulteration-lead-infants",
+   "grade": "B",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Lead chromate deliberately added to turmeric and cinnamon is confirmed by government agencies and independent studies across continents, including documented infant poisonings.",
+   "rationale": "Argue down from A to B. The broad pathway is real and multiply-sourced, but the finding as written does not clear the A bar (independent bodies converging on SEPARATE evidence bases for the finding's load-bearing claims). Three defects: (1) The mechanistic spine \u2014 the Pb:Cr ~1:1 molar-ratio fingerprint proving lead chromate in turmeric, plus the South Asian supply-chain mechanism \u2014 rests almost entirely on the Forsyth/Stanford group (Forsyth 2019 + 2024, same lead and senior author; 2 of 7 anchors, one group). (2) The 'reaching infants' pillar is anchored on the single WanaBana cinnamon-applesauce outbreak (Troeschel/CDC); Rylander's cohort is children 5-7, not infants, and turmeric is not primarily an infant food. (3) The proposed rationale inflates independence: FDA Import Alert 99-42 is regulatory context, not an independent primary evidence base, and Gafner 2026 is a scoping review that re-packages the same primary literature (including Forsyth), so it double-counts rather than adding a sixth independent body. Combined with preprint status (no external review of the synthesis), A is overstated. Not lower than B: geography (six continents, 22 countries, 2,235 samples) and a 566-case CDC-documented outbreak make samples/geography a strength, ruling out C; sources do not conflict and it does not rest on a single body of work (Lech, Rylander, CDC are independent of Forsyth and each other), ruling out D. It is B because multiple independent sources agree AND the page names its own key limitations in the Open Questions and regulator sections (other spice chains under-documented, enforcement-replicability unknown, Import-Alert-vs-effectiveness gap)."
+  },
+  {
+   "slug": "us-chocolate-lead-temporal-decline",
+   "grade": "D",
+   "grader_initial": null,
+   "downgraded_by_verify": false,
+   "dek": "Lead levels in US dark chocolate appear to be dropping while cadmium stays put, but the trend comes from one dataset.",
+   "rationale": "Meets the D criterion \"rests on a single body of work not independently replicated\": the measurable-decline signal comes solely from Hands 2024's internal multi-year trajectory, with Abt 2018 only a non-comparable 2015 baseline and Zhao 2024 a review, while the page itself flags the Prop 65 causal attribution as an untested hypothesis rather than an established finding."
+  },
+  {
+   "slug": "supplement-botanical-lead-pathway",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Supplements and herbal remedies can carry lead thousands of times above food limits, with far weaker testing and enforcement than regular foods.",
+   "rationale": "The headline \"thousands of times conventional food limits\" rests entirely on two single-patient case reports (Ciocan, Thomas), which the page itself calls \"upper-tail existence proofs, not population estimates\" that \"cannot establish prevalence.\" Those two are the only sources carrying the extreme-magnitude claim, and both are confined to one narrow sub-population (Ayurvedic Rasa Shastra intentional metal addition, India-origin products) \u2014 a geographic/sub-population limit. The other two \"independent sources\" support different limbs: Porwollik (A, n=10, single botanical) shows only low-hundreds-ppb, not thousands-fold; Inada (A) is a lone regulatory comparison with no replication of the enforcement claim. So of four sources only two actually corroborate the load-bearing claim, and they are n=1. The finding's own Uncertainty section names multiple limitations (no large-n occurrence distribution, small single-botanical survey, unresolved arsenic speciation gap), exceeding B's single-named-limitation profile, and admits it \"cannot yet state what fraction of the retail market falls at any given concentration.\" Directionally consistent but severely limited in sample size, geography, and resolution = C. Not D, because the magnitude is genuinely replicated across two independent case reports and no sources conflict."
+  },
+  {
+   "slug": "tin-canned-food-acidic-matrix-migration",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Tin gets into food from unlined cans holding acidic contents, and only triggers stomach symptoms at doses far above lead limits.",
+   "rationale": "B is overstated because the \"three independent A-tier sources converge\" rationale does not survive decomposition. The finding has three pillars, and no single proposition is backed by genuine independent convergence. (1) The effect threshold \u2014 the headline quantitative claim \u2014 rests on a single 1971 study, Benoy et al., n=5 human volunteers; EU SCF 2002 is not a separate evidence base but an explicit downstream synthesis of that same primary work (the page says so), so it does not supply independent replication. (2) The occurrence distribution rests on Mania 2021 alone: single-country (Poland), single-year (2015), n=69 canned samples; the page itself notes no modern US distribution exists. (3) The migration mechanism, though directionally consistent, leans on a B-tier industry-sponsored review (Blunden 2003, ITRI-commissioned, \"context only\") and a C-tier figure-only experiment (Buculei 2012). Two rubric D-triggers are present on the threshold pillar: sources conflict (controlled ~700-1,370 mg/kg vs field episodes 154-289 mg/kg, reconciled only by an unverified co-factor hypothesis the page concedes leaves \"the point standing\"), and it rests on a single body of work. B additionally requires only \"one\" named limitation, whereas the page names several (n=5, single-country, industry sponsorship, figure-only C-tier data), and it is a preprint with no external review. It stays above D overall only because the qualitative direction is uncontested and the \"3-4 orders of magnitude above Pb/Cd\" claim survives even the lowest field threshold (154 mg/kg is ~1,540x the 100 ppb Pb benchmark). That leaves the exact C profile: directionally consistent but limited in sample size, geography, and threshold resolution. Suggested grade: C."
+  },
+  {
+   "slug": "wastewater-irrigation-multimetal-crop-pathway",
+   "grade": "C",
+   "grader_initial": null,
+   "downgraded_by_verify": true,
+   "dek": "Multiple studies across Nigeria, Malawi, India and Burkina Faso agree that wastewater irrigation raises several metals together in leafy vegetables.",
+   "rationale": "Argued down from B to C. The finding's distinctive claim is multi-metal CO-ELEVATION from a single wastewater source in the same crop (the page's own \"non-obvious element\"), not the generic \"wastewater elevates metals\" claim. The \"five independent sources converge\" rationale overstates support for that core: Ali 2022 is lead-only (single-analyte, I\u00b2=98%) and Clair-Caliot 2021 is arsenic-only, a greenhouse spiking experiment modeling GEOGENIC groundwater that the page concedes \"is not a sewage-irrigation study\" \u2014 neither bears on co-elevation. The co-elevation core therefore rests on just three field surveys, and by the page's own Uncertainty section these are thin: Adebayo is a \"single-composite-sample observation\" (a point, not a distribution), Pal is B-tier with an internal abstract-vs-discussion inconsistency, and only Chiutula (A-tier, n=36) is a robust multi-metal demonstration. That is one solid study plus a B-tier corroboration plus a single-sample anecdote, confined to one production context (untreated-wastewater peri-urban Global South plots), with numeric magnitude explicitly non-transferable and no controlled same-cultivar comparison and no commercial-market survey. This matches C (\"direction consistent, but resolution, sample sizes, or geography limited\") rather than B, which envisions multiple robust independent sources with a single named limitation \u2014 whereas this page stacks many limitations (unspeciated total-Cr throughout, high-dose experimental anchor with the wrong As source, I\u00b2=98%, no controlled field comparison). Not D: four genuinely independent groups across four countries, no reversal, and no true cross-source conflict on direction, so it is not single-group or contested \u2014 but the distinctive claim is provisional, so B is not clearly met."
+  }
+ ]
+}

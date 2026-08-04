@@ -8,6 +8,8 @@ ingredients: ["[[ingredients/seaweed]]", "[[ingredients/kelp]]", "[[ingredients/
 products: ["[[products/seaweed-snacks]]", "[[products/dietary-supplements]]"]
 anchor_sources: ["[[sources/nepper-davidsen2023-kelp-biomass-composition-nz]]", "[[sources/hahn2022-salish-seaweed-contaminants]]", "[[sources/efsa2023-heavy-metals-seaweed]]"]
 established: 2026-05-16
+grade: B
+dek: "Seaweed and kelp reliably carry high cadmium and arsenic across three world regions, yet routine food-safety monitoring barely tracks them."
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -152,9 +154,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 3 sources removed; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

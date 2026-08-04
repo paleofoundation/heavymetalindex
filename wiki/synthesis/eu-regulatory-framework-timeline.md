@@ -8,6 +8,8 @@ ingredients: []
 products: []
 anchor_sources: ["[[regulations/eu-466-2001-contaminants-superseded]]", "[[regulations/eu-1881-2006-contaminants-superseded]]", "[[regulations/eu-reg-2022-617-mercury-fishery]]", "[[regulations/eu-2021-1317-lead-cereals-superseded]]", "[[regulations/eu-2021-1323-cadmium-cereals-superseded]]", "[[regulations/eu2023-contaminants-maximum-levels]]"]
 established: 2026-05-18
+grade: C
+dek: "This page traces how the EU updated its food heavy metal limits through six regulations from 2001 to 2023."
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -151,9 +153,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [1e60f272d](https://github.com/paleofoundation/heavymetalindex/commit/1e60f272d) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 10 sections added and 7 removed; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
