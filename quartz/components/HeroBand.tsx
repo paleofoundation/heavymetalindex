@@ -273,10 +273,21 @@ function snapshotRows(
   // in frontmatter, which is the same shape v3 shows.
   if (!isIndex && section === "synthesis") {
     const arr = (k: string) => (Array.isArray(fm[k]) ? (fm[k] as unknown[]).filter(Boolean).length : 0)
+    // v3's finding snapshot LEADS with the confidence grade. The label makes the
+    // letter legible on its own ("B — Well supported") and the preprint framing
+    // is carried by the "How findings are graded" section and the Peer review
+    // state block, so the row is not overclaiming.
+    const GRADE_LABEL: Record<string, string> = {
+      A: "Established",
+      B: "Well supported",
+      C: "Provisional",
+      D: "Contested",
+    }
+    const grade = String(fm.grade ?? "").toUpperCase()
     const built: Array<Row | null> = [
+      grade && GRADE_LABEL[grade] ? { k: "Confidence grade", v: `${grade} — ${GRADE_LABEL[grade]}` } : null,
       arr("anchor_sources") ? { k: "Anchor sources", v: String(arr("anchor_sources")) } : null,
       arr("metals") ? { k: "Metals", v: String(arr("metals")) } : null,
-      arr("ingredients") ? { k: "Ingredient profiles", v: String(arr("ingredients")) } : null,
       arr("products") ? { k: "Product categories", v: String(arr("products")) } : null,
     ]
     const out = built.filter((r): r is Row => r !== null)
