@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T03:52:53.814Z",
+  "updated_at": "2026-08-04T05:37:03.828Z",
   "regulations": {
     "regulations/atsdr-aluminum-mrls": {
       "limit_value": 1,
@@ -24,6 +24,12 @@
       "limit_unit": "defined in IN 160/2022",
       "status": "active",
       "effective_date": "2022-07-01T00:00:00.000Z"
+    },
+    "regulations/ca-prop65-ab2762-cosmetics": {
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "enforced",
+      "effective_date": "2025-01-01T00:00:00.000Z"
     },
     "regulations/ca-swrcb-hexavalent-chromium-mcl": {
       "limit_value": 10,
@@ -204,6 +210,12 @@
       "status": "superseded",
       "effective_date": "2002-04-05T00:00:00.000Z"
     },
+    "regulations/eu-cosmetics-1223-2009": {
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "enforced",
+      "effective_date": "2013-07-11T00:00:00.000Z"
+    },
     "regulations/eu-nickel-directive-94-27-ec": {
       "limit_value": null,
       "limit_unit": null,
@@ -237,6 +249,12 @@
       "limit_value": null,
       "limit_unit": null,
       "status": "maximum levels",
+      "effective_date": null
+    },
+    "regulations/fda-cosmetics-heavy-metals": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "draft-guidance (Pb, 10 ppm, not for implementation); enforced (Hg, 21 CFR 700.13)",
       "effective_date": null
     },
     "regulations/fda-cpg-540-600-methylmercury-fish": {
@@ -286,6 +304,12 @@
       "limit_unit": null,
       "status": "final guidance action level",
       "effective_date": null
+    },
+    "regulations/health-canada-cosmetic-heavy-metal-impurities": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "guidance",
+      "effective_date": "2012-07-20T00:00:00.000Z"
     },
     "regulations/japan-mhlw-milk-products-standards": {
       "limit_value": "multiple",
@@ -365,11 +389,23 @@
       "status": "in-force",
       "effective_date": null
     },
+    "regulations/oehha-nickel-prop65": {
+      "limit_value": "listed-no-safe-harbor",
+      "limit_unit": "none",
+      "status": "in-force",
+      "effective_date": "2018-10-26T00:00:00.000Z"
+    },
     "regulations/turkey-food-codex-contaminants-2023-lead-raw-milk": {
       "limit_value": 0.02,
       "limit_unit": "mg/kg wet weight",
       "status": "in-force",
       "effective_date": "2023-11-05T00:00:00.000Z"
+    },
+    "regulations/us-cpsia-lead-childrens-products": {
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "enforced",
+      "effective_date": "2011-08-14T00:00:00.000Z"
     },
     "regulations/washington-tfca-toothpaste-pb-1000ppb": {
       "limit_value": 1000,

@@ -21,6 +21,8 @@ updated: 2026-07-29
 
 # US CPSIA — Lead in Children's Products (100 ppm substrate / 90 ppm surface coating)
 
+## Overview
+
 Section 101 of the Consumer Product Safety Improvement Act of 2008 (Pub. L. 110-314), codified at 15 U.S.C. § 1278a, makes any children's product whose lead content exceeds the statutory limits a banned hazardous substance under the Federal Hazardous Substances Act. Two numeric limits operate today: **100 ppm total lead content by weight for any part of the product** (the substrate rule) and **0.009 percent (90 ppm) lead in paint or similar surface-coating materials** (the lead paint rule, 16 CFR Part 1303 as amended by CPSIA § 101(f)). CPSIA sets numeric limits for lead only — it contains no numeric cadmium, arsenic, or mercury limits.
 
 ## Scope
@@ -68,3 +70,13 @@ Exceeding products are banned hazardous substances under the FHSA: sale, distrib
 
 - 15 U.S.C. § 1278a — Children's products containing lead; lead paint rule (CPSIA § 101, as amended by Pub. L. 112-28): <https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1278a&num=0&edition=prelim>
 - 16 CFR Part 1303 — Ban of lead-containing paint and certain consumer products bearing lead-containing paint: <https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1303>
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

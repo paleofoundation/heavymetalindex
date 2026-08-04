@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "db54a463823ebe3ce7d668e87d678e6e2e33b806def3b3c91073ec1270e61561",
       "content_bytes": 2065,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 99322f371:wiki/products/bouillon-seasoning-blends.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/bouillon-seasoning-blends.md | sha256sum"
     }
   },
   "evidence_base": {

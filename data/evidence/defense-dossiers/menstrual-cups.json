@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "ec0ce37dcbc8116c21443c1214150244d49bc268058229abd9d6fcc95747fbeb",
       "content_bytes": 9246,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/menstrual-cups.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/menstrual-cups.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -59,10 +59,10 @@
         "content_pin": {
           "content_sha256": "c18c658848d9b5b2e5351da441953e9dd7504551c1713e1c027536781ac0479e",
           "content_bytes": 9433,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
         }
       },
       {
@@ -95,10 +95,10 @@
         "content_pin": {
           "content_sha256": "54cc5de8f4226285cf93d317ca77f685383e61d3116dc5ce16a23c647256d888",
           "content_bytes": 8231,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
         }
       },
       {
@@ -116,10 +116,10 @@
         "content_pin": {
           "content_sha256": "f66f76b678f59793a4ccb8aab11b014ea5b5aa56e53043c4af1eeab6e363a67c",
           "content_bytes": 5740,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T03:52:48.299Z",
+  "generated_at": "2026-08-04T05:36:58.313Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -8,7 +8,7 @@
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi.",
   "canonical_base": "https://heavymetalindex.com",
-  "record_count": 61,
+  "record_count": 67,
   "records": [
     {
       "slug": "regulations/atsdr-aluminum-mrls",
@@ -205,6 +205,40 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/brazil-anvisa-rdc-722-2022",
       "updated": "2026-08-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/ca-prop65-ab2762-cosmetics",
+      "rule_id": "ca-prop65-ab2762-cosmetics",
+      "title": "California Prop 65 / AB 2762 — exposure-based warnings and intentionally-added mercury prohibition; no numeric heavy-metal concentration limit for cosmetics",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "OEHHA (Proposition 65); State of California (AB 2762, Health and Safety Code)",
+      "program": "Safe Drinking Water and Toxic Enforcement Act of 1986 (Prop 65); California Toxic-Free Cosmetics Act (AB 2762, 2020)",
+      "metal": "multiple (Prop 65: Pb, Cd, and others as exposure thresholds; AB 2762: intentionally-added Hg prohibition)",
+      "metals": [
+        "multiple (Prop 65: Pb, Cd, and others as exposure thresholds; AB 2762: intentionally-added Hg prohibition)"
+      ],
+      "matrix": "cosmetics",
+      "matrices": [
+        "cosmetics"
+      ],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "enforced",
+      "effective_date": "2025-01-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/ca-prop65-ab2762-cosmetics",
+      "updated": "2026-07-29T00:00:00.000Z"
     },
     {
       "slug": "regulations/ca-swrcb-hexavalent-chromium-mcl",
@@ -1310,6 +1344,40 @@
       "updated": "2026-05-18T00:00:00.000Z"
     },
     {
+      "slug": "regulations/eu-cosmetics-1223-2009",
+      "rule_id": "eu-cosmetics-1223-2009",
+      "title": "EU Cosmetics Regulation (EC) No 1223/2009 — prohibited-substance framework, no numeric heavy-metal maximum levels",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Parliament and Council (enforced by EU Member States)",
+      "program": "EU Cosmetics Regulation",
+      "metal": "multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients)",
+      "metals": [
+        "multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients)"
+      ],
+      "matrix": "cosmetics",
+      "matrices": [
+        "cosmetics"
+      ],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "enforced",
+      "effective_date": "2013-07-11T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-cosmetics-1223-2009",
+      "updated": "2026-07-29T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/eu-nickel-directive-94-27-ec",
       "rule_id": "eu-nickel-directive-94-27-ec",
       "title": "EU Nickel Directive 94/27/EC",
@@ -1474,6 +1542,40 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/eu2023-contaminants-maximum-levels",
       "updated": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-cosmetics-heavy-metals",
+      "rule_id": "fda-cosmetics-heavy-metals",
+      "title": "US FDA cosmetics heavy-metal policy — draft lead guidance (10 ppm) and the binding mercury trace rule (21 CFR 700.13, <1 ppm)",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "US Food and Drug Administration (FDA)",
+      "program": "FDA cosmetics contaminant policy (draft lead guidance; 21 CFR 700.13 mercury rule)",
+      "metal": "Pb; tHg",
+      "metals": [
+        "Pb; tHg"
+      ],
+      "matrix": "cosmetics — lip products and externally applied cosmetics (Pb draft guidance); all cosmetics (Hg rule)",
+      "matrices": [
+        "cosmetics — lip products and externally applied cosmetics (Pb draft guidance); all cosmetics (Hg rule)"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "draft-guidance (Pb, 10 ppm, not for implementation); enforced (Hg, 21 CFR 700.13)",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-cosmetics-heavy-metals",
+      "updated": "2026-07-29T00:00:00.000Z"
     },
     {
       "slug": "regulations/fda-cpg-540-600-methylmercury-fish",
@@ -1751,6 +1853,40 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/fda2025-lead-processed-baby-foods",
       "updated": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/health-canada-cosmetic-heavy-metal-impurities",
+      "rule_id": "health-canada-cosmetic-heavy-metal-impurities",
+      "title": "Health Canada — Guidance on Heavy Metal Impurities in Cosmetics: Pb 10, As 3, Cd 3, Hg 1, Sb 5 ppm",
+      "jurisdiction": "CA",
+      "jurisdictions": [
+        "CA"
+      ],
+      "agency": "Health Canada",
+      "program": "Guidance on Heavy Metal Impurities in Cosmetics (Food and Drugs Act, section 16; Cosmetic Ingredient Hotlist)",
+      "metal": "multiple (Pb, tAs, Cd, tHg, Sb)",
+      "metals": [
+        "multiple (Pb, tAs, Cd, tHg, Sb)"
+      ],
+      "matrix": "cosmetics — finished products as sold, heavy metals present as technically unavoidable impurities",
+      "matrices": [
+        "cosmetics — finished products as sold, heavy metals present as technically unavoidable impurities"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "guidance",
+      "effective_date": "2012-07-20T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/health-canada-cosmetic-heavy-metal-impurities",
+      "updated": "2026-07-29T00:00:00.000Z"
     },
     {
       "slug": "regulations/japan-mhlw-milk-products-standards",
@@ -2284,6 +2420,44 @@
       "updated": "2026-05-03T00:00:00.000Z"
     },
     {
+      "slug": "regulations/oehha-nickel-prop65",
+      "rule_id": "oehha-nickel-prop65",
+      "title": "California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Compounds Reproductive Toxicity)",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "OEHHA",
+      "program": "Proposition 65",
+      "metal": "Ni",
+      "metals": [
+        "Ni"
+      ],
+      "matrix": "all-consumer-products",
+      "matrices": [
+        "all-consumer-products"
+      ],
+      "limit_value": "listed-no-safe-harbor",
+      "limit_unit": "none",
+      "status": "in-force",
+      "effective_date": "2018-10-26T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/oehha-nickel-dart-evidence-2018",
+        "sources/oehha-nickel-prop65-factsheet-2025",
+        "sources/efsa-nickel-contam-2020"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/oehha-nickel-prop65",
+      "updated": "2026-06-22T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/turkey-food-codex-contaminants-2023-lead-raw-milk",
       "rule_id": "turkey-food-codex-contaminants-2023-lead-raw-milk",
       "title": "turkey-food-codex-contaminants-2023-lead-raw-milk",
@@ -2316,6 +2490,40 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/turkey-food-codex-contaminants-2023-lead-raw-milk",
       "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/us-cpsia-lead-childrens-products",
+      "rule_id": "us-cpsia-lead-childrens-products",
+      "title": "US CPSIA — lead in children's products: 100 ppm total lead (substrate), 90 ppm (paint and surface coatings)",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "US Consumer Product Safety Commission (CPSC)",
+      "program": "Consumer Product Safety Improvement Act of 2008 (CPSIA), Section 101",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "children's products — accessible component parts (substrate); paint and similar surface coatings",
+      "matrices": [
+        "children's products — accessible component parts (substrate); paint and similar surface coatings"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "ppm",
+      "status": "enforced",
+      "effective_date": "2011-08-14T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/us-cpsia-lead-childrens-products",
+      "updated": "2026-07-29T00:00:00.000Z"
     },
     {
       "slug": "regulations/washington-tfca-toothpaste-pb-1000ppb",

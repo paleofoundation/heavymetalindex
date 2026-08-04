@@ -25,10 +25,10 @@
     "content_pin": {
       "content_sha256": "a495a1c10924c961f108be18607eb3982a0cf04a8175b555f4c7a3ea40252ed5",
       "content_bytes": 18672,
-      "last_commit_sha": "91c7d5591",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 91c7d5591:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -52,10 +52,10 @@
         "content_pin": {
           "content_sha256": "303ef410e166855d25efa73ed579ff98634dec332b338d5387fe5456bca81dd3",
           "content_bytes": 17241,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/begday2026-plant-milk-heavy-metal-safety.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/begday2026-plant-milk-heavy-metal-safety.md | sha256sum"
         }
       },
       {
@@ -75,10 +75,10 @@
         "content_pin": {
           "content_sha256": "01299aee0f1ef1c8a0b4eb129d6c6697ff698fcb65720d45c25b8d2bad4826fe",
           "content_bytes": 20657,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -97,10 +97,10 @@
         "content_pin": {
           "content_sha256": "80b0d949f697fb68ba65fbb2b5c97f9dbe72009d1c13ccaf382c12287bf69337",
           "content_bytes": 21761,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -119,10 +119,10 @@
         "content_pin": {
           "content_sha256": "6abb8f5fb90c0d744837ba80fa95ea7cb0f680480ff954b21422a3ff07cf2c07",
           "content_bytes": 5479,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
         }
       },
       {
@@ -140,10 +140,10 @@
         "content_pin": {
           "content_sha256": "fd50156ac572c99c662187fe50f2c6809c6305f55fc13fc05bb385540c9ecc58",
           "content_bytes": 13928,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       },
       {
@@ -161,10 +161,10 @@
         "content_pin": {
           "content_sha256": "900ebed0fe100f4dd2b56a1d23c1a85641ef797c275c255f1dca3eefd61c5fda",
           "content_bytes": 22287,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
         }
       }
     ]

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "9ba990f9a130438a118e28a0498e57da62278a43de3bd5411aed23c949ae6212",
       "content_bytes": 8809,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/toys-battery-electronic.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/toys-battery-electronic.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,10 +43,10 @@
         "content_pin": {
           "content_sha256": "c721b02a58a9458db357db74c4078217a15f64d4c2d5f3e56a1e8aabc936aa4f",
           "content_bytes": 31889,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
         }
       }
     ]

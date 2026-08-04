@@ -41,6 +41,7 @@ The FDA oversees the safety of most of the US food supply. For heavy metals it w
 | Lead | Action level | see instrument | [[regulations/fda2025-lead-processed-baby-foods\|FDA 2025 Lead Action Levels for Processed Food Int…]] | — | final guidance action level |
 | Inorganic arsenic | Action level | 100 ppb | [[regulations/fda-iAs-rice-cereal-100ppb\|FDA Closer to Zero — 100 ppb Inorganic Arsenic Act…]] | 2020 | finalized |
 | Methylmercury | Action level | 1 ppm methyl mercury expressed as mercury | [[regulations/fda-cpg-540-600-methylmercury-fish\|FDA CPG Sec. 540.600 Fish]] | 1984 | active |
+| Pb; tHg | — | multiple — see instrument | [[regulations/fda-cosmetics-heavy-metals\|US FDA cosmetics heavy-metal policy — draft lead g…]] | — | draft-guidance (Pb, 10 ppm, not for implementation); enforced (Hg, 21 CFR 700.13) |
 <!-- END: hmi-regulator-positions -->
 
 ## Where it diverges
@@ -48,6 +49,10 @@ The FDA oversees the safety of most of the US food supply. For heavy metals it w
 FDA action levels are concentration values (ppb) in specific products and can be compared directly with EU maximum levels where the food category matches, but not with the intake-based guidance of EFSA or JECFA. FDA's baby-food lead action levels are generally less stringent than the EU's binding infant-food limits; FDA frames that gap as feasibility-driven and provisional under Closer to Zero, not as a judgment that its levels are protective. The recurring point in FDA's own framing — and the one that matters most — is that an action level is a trigger for enforcement, never a declaration that exposure below it is safe.
 
 <!-- BEGIN: hmi-regulator-divergence -->
+### Pb; tHg
+
+_No other tracked body sets a position for pb; thg; FDA is the only one in the index._
+
 ### Lead
 
 | Body | Type | Value | Instrument |
@@ -127,9 +132,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [a5c3272bf](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bf) | 2026-07-31 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

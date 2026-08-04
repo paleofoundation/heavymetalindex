@@ -21,6 +21,8 @@ updated: 2026-07-29
 
 # Health Canada — Guidance on Heavy Metal Impurities in Cosmetics
 
+## Overview
+
 Health Canada's Guidance on Heavy Metal Impurities in Cosmetics sets **numeric impurity limits for five heavy metals** in finished cosmetic products: **lead 10 ppm, arsenic 3 ppm, cadmium 3 ppm, mercury 1 ppm, antimony 5 ppm**. This is the only North American instrument in this wiki that puts numeric heavy-metal values on finished cosmetics. It is administrative guidance — not a regulation — operating alongside the statutory prohibition of these metals as intentional ingredients (section 16 of the Food and Drugs Act, communicated via the Cosmetic Ingredient Hotlist). The values are loadable as caps in this wiki with `status: guidance impurity limit` and their units converted explicitly (1 ppm = 1 µg/g = 1 mg/kg per the guidance's own definitions).
 
 ## Scope
@@ -68,3 +70,13 @@ Section 5 of the guidance states: "Health Canada will take action as deemed appr
 
 - Health Canada, Guidance on Heavy Metal Impurities in Cosmetics: <https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/industry-professionals/guidance-heavy-metal-impurities-cosmetics.html>
 - Cosmetic Ingredient Hotlist (intentional-use prohibitions): <https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients.html>
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

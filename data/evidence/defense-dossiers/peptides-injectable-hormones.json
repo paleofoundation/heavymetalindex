@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "2c792e06673370e010a1977accbb0c97246477e114d230595b7adeec5067b4e1",
       "content_bytes": 2937,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/peptides-injectable-hormones.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/peptides-injectable-hormones.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,10 +44,10 @@
         "content_pin": {
           "content_sha256": "9e4ea0da40dd1c9cd24cd7d345ee7ae362bdcc5896d0dfb652e0e3f9b02387fd",
           "content_bytes": 10638,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/ucalgary2026-cpt-pearl-unauthorized-injectable-peptides.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/ucalgary2026-cpt-pearl-unauthorized-injectable-peptides.md | sha256sum"
         }
       }
     ]

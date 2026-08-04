@@ -5089,7 +5089,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Al",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 314,
@@ -5101,14 +5101,14 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Cd",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 100,
@@ -5120,17 +5120,17 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
           "n": 80,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "fsa2016-infant-food-formula-metals-survey",
           "n": null,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -5156,7 +5156,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Co",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 1,
@@ -5168,14 +5168,14 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Cr-total",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 29,
@@ -5187,12 +5187,12 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
           "n": 80,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -5214,7 +5214,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "iAs",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 0,
@@ -5226,7 +5226,7 @@
         {
           "source_id": "fsa2016-infant-food-formula-metals-survey",
           "n": null,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -5286,7 +5286,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Ni",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 80,
@@ -5298,17 +5298,17 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
           "n": 80,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "fsa2016-infant-food-formula-metals-survey",
           "n": null,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -5334,7 +5334,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Pb",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 40,
@@ -5346,12 +5346,12 @@
         {
           "source_id": "weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
           "n": 80,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "fsa2016-infant-food-formula-metals-survey",
           "n": null,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -5377,7 +5377,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Sb",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 1,
@@ -5389,14 +5389,14 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "Sn",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 83,
@@ -5408,14 +5408,14 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "tAs",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 2,
@@ -5427,12 +5427,12 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         },
         {
           "source_id": "fsa2016-infant-food-formula-metals-survey",
           "n": null,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -5473,7 +5473,7 @@
     {
       "row_slug": "fruit-juice-not-canned",
       "metal": "V",
-      "basis": "as_consumed",
+      "basis": "as_sold",
       "unit": "ppb",
       "range_low": 0,
       "range_high": 1,
@@ -5485,7 +5485,7 @@
         {
           "source_id": "chekri2019-french-infant-toddler-tds-trace-elements",
           "n": 4,
-          "basis": "as_consumed"
+          "basis": "as_sold"
         }
       ]
     },
@@ -6449,172 +6449,6 @@
           "source_id": "fsa2016-infant-food-formula-metals-survey",
           "n": null,
           "basis": "as_consumed"
-        }
-      ]
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "Al",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": 0,
-      "range_high": 5000,
-      "central_low": 0,
-      "central_high": 5000,
-      "n_sources": 14,
-      "confidence": "medium",
-      "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Aluminum in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (crisped-rice-cereal, non-rice-grains, rice, rice-bran-oil, rice-cakes, rice-cereal, rice-flour, rice-puffs); treat it as indicative context, not finished-product evidence.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "Cd",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 14,
-      "range_high": 41,
-      "central_low": 14,
-      "central_high": 14,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 91,
-          "basis": "as_sold"
-        }
-      ]
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "Cr-VI",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Chromium (hexavalent) in this matrix yet. Hexavalent chromium is rarely reported in food; confirm the lab actually speciated Cr(VI) rather than reporting total chromium, because the two are not interchangeable for regulatory or toxicological purposes.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "iAs",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": 0,
-      "range_high": 323,
-      "central_low": 0,
-      "central_high": 323,
-      "n_sources": 23,
-      "confidence": "medium",
-      "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Arsenic (inorganic) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (crisped-rice-cereal, non-rice-grains, rice, rice-bran-oil, rice-cakes, rice-cereal, rice-flour, rice-puffs); treat it as indicative context, not finished-product evidence.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "MeHg",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Mercury (methyl) in this matrix yet. Methylmercury is concentrated in larger predatory fish. The most direct lever is fish-species selection (smaller, shorter-lived species) rather than processing change.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "Ni",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": 0,
-      "range_high": 800,
-      "central_low": 0,
-      "central_high": 800,
-      "n_sources": 29,
-      "confidence": "medium",
-      "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Nickel in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (crisped-rice-cereal, non-rice-grains, rice, rice-bran-oil, rice-cakes, rice-cereal, rice-flour, rice-puffs); treat it as indicative context, not finished-product evidence.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "Pb",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 4.5,
-      "range_high": 23.7,
-      "central_low": 4.5,
-      "central_high": 4.5,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 91,
-          "basis": "as_sold"
-        }
-      ]
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "Sn",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": 0,
-      "range_high": 50,
-      "central_low": 0,
-      "central_high": 50,
-      "n_sources": 13,
-      "confidence": "medium",
-      "tier": "ingredient_synthesis",
-      "coverage_note": "No finished-product sampling for Tin in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (crisped-rice-cereal, non-rice-grains, rice, rice-bran-oil, rice-cakes, rice-cereal, rice-flour, rice-puffs); treat it as indicative context, not finished-product evidence.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "tAs",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 61,
-      "range_high": 561,
-      "central_low": 61,
-      "central_high": 61,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 91,
-          "basis": "as_sold"
-        }
-      ]
-    },
-    {
-      "row_slug": "grain-based-snacks-rice-status-unspecified",
-      "metal": "tHg",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 0,
-      "range_high": 3.3,
-      "central_low": 0,
-      "central_high": 0,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 28,
-          "basis": "as_sold"
         }
       ]
     },
@@ -11377,6 +11211,172 @@
       ]
     },
     {
+      "row_slug": "milk-and-dairy",
+      "metal": "Al",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": 130,
+      "range_high": 1500,
+      "central_low": 130,
+      "central_high": 1500,
+      "n_sources": 12,
+      "confidence": "medium",
+      "tier": "ingredient_synthesis",
+      "coverage_note": "No finished-product sampling for Aluminum in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (milk-and-dairy); treat it as indicative context, not finished-product evidence.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1,
+      "range_high": 1,
+      "central_low": 1,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 5,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "Cr-VI",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Chromium (hexavalent) in this matrix yet. Hexavalent chromium is rarely reported in food; confirm the lab actually speciated Cr(VI) rather than reporting total chromium, because the two are not interchangeable for regulatory or toxicological purposes.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "iAs",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": 4,
+      "range_high": 20,
+      "central_low": 4,
+      "central_high": 20,
+      "n_sources": 6,
+      "confidence": "medium",
+      "tier": "ingredient_synthesis",
+      "coverage_note": "No finished-product sampling for Arsenic (inorganic) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (milk-and-dairy); treat it as indicative context, not finished-product evidence.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "MeHg",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Mercury (methyl) in this matrix yet. Methylmercury is concentrated in larger predatory fish. The most direct lever is fish-species selection (smaller, shorter-lived species) rather than processing change.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "Ni",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": 25,
+      "range_high": 50,
+      "central_low": 25,
+      "central_high": 50,
+      "n_sources": 11,
+      "confidence": "medium",
+      "tier": "ingredient_synthesis",
+      "coverage_note": "No finished-product sampling for Nickel in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (milk-and-dairy); treat it as indicative context, not finished-product evidence.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 1,
+      "range_high": 2.6,
+      "central_low": 1,
+      "central_high": 1,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 5,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "Sn",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 50,
+      "central_low": 0,
+      "central_high": 50,
+      "n_sources": 5,
+      "confidence": "medium",
+      "tier": "ingredient_synthesis",
+      "coverage_note": "No finished-product sampling for Tin in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (milk-and-dairy); treat it as indicative context, not finished-product evidence.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 2,
+      "range_high": 2.9,
+      "central_low": 2,
+      "central_high": 2,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 5,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "milk-and-dairy",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 0,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 3,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
       "row_slug": "mineral-water",
       "metal": "Al",
       "basis": "ingredient_synthesis",
@@ -13918,6 +13918,172 @@
       "source_summaries": []
     },
     {
+      "row_slug": "snacks-general",
+      "metal": "Al",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Aluminum in this matrix yet. Aluminum in food often tracks packaging contact, additives (sodium aluminum phosphates), and certain mineral premixes. Review the additive/premix supplier specs before pursuing process changes.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "Cd",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 14,
+      "range_high": 41,
+      "central_low": 14,
+      "central_high": 14,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 91,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "Cr-VI",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Chromium (hexavalent) in this matrix yet. Hexavalent chromium is rarely reported in food; confirm the lab actually speciated Cr(VI) rather than reporting total chromium, because the two are not interchangeable for regulatory or toxicological purposes.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "iAs",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Arsenic (inorganic) in this matrix yet. Inorganic arsenic typically tracks rice and rice-derivatives (brown rice syrup, rice protein). Lower-iAs rice varieties (Californian, basmati) and rinse-and-cook protocols are the first levers; ingredient substitution is the strongest.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "MeHg",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Mercury (methyl) in this matrix yet. Methylmercury is concentrated in larger predatory fish. The most direct lever is fish-species selection (smaller, shorter-lived species) rather than processing change.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "Ni",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Nickel in this matrix yet. Nickel often migrates from stainless-steel processing equipment in acidic or chloride-rich matrices. Audit dwell time, equipment alloy grade, and ingredient-borne nickel (legumes, oats, soy) in that order.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "Pb",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 4.5,
+      "range_high": 23.7,
+      "central_low": 4.5,
+      "central_high": 4.5,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 91,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "Sn",
+      "basis": "ingredient_synthesis",
+      "unit": "ppb",
+      "range_low": null,
+      "range_high": null,
+      "central_low": null,
+      "central_high": null,
+      "n_sources": 0,
+      "confidence": "data gap",
+      "tier": "data_gap",
+      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Tin in this matrix yet. Tin in canned or metal-packaged products typically tracks can-coating wear and storage time; review packaging supplier specs, lacquer integrity, and shelf-life protocols.",
+      "source_summaries": []
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "tAs",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 61,
+      "range_high": 561,
+      "central_low": 61,
+      "central_high": 61,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 91,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
+      "row_slug": "snacks-general",
+      "metal": "tHg",
+      "basis": "as_sold",
+      "unit": "ppb",
+      "range_low": 0,
+      "range_high": 3.3,
+      "central_low": 0,
+      "central_high": 0,
+      "n_sources": 1,
+      "confidence": "low",
+      "source_summaries": [
+        {
+          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
+          "n": 28,
+          "basis": "as_sold"
+        }
+      ]
+    },
+    {
       "row_slug": "soy-products",
       "metal": "Al",
       "basis": "ingredient_synthesis",
@@ -15489,172 +15655,6 @@
       "tier": "ingredient_synthesis",
       "coverage_note": "No finished-product sampling for Mercury (total) in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (wild-mushrooms); treat it as indicative context, not finished-product evidence.",
       "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "Al",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Aluminum in this matrix yet. Aluminum in food often tracks packaging contact, additives (sodium aluminum phosphates), and certain mineral premixes. Review the additive/premix supplier specs before pursuing process changes.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "Cd",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 1,
-      "range_high": 1,
-      "central_low": 1,
-      "central_high": 1,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 5,
-          "basis": "as_sold"
-        }
-      ]
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "Cr-VI",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Chromium (hexavalent) in this matrix yet. Hexavalent chromium is rarely reported in food; confirm the lab actually speciated Cr(VI) rather than reporting total chromium, because the two are not interchangeable for regulatory or toxicological purposes.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "iAs",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Arsenic (inorganic) in this matrix yet. Inorganic arsenic typically tracks rice and rice-derivatives (brown rice syrup, rice protein). Lower-iAs rice varieties (Californian, basmati) and rinse-and-cook protocols are the first levers; ingredient substitution is the strongest.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "MeHg",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Mercury (methyl) in this matrix yet. Methylmercury is concentrated in larger predatory fish. The most direct lever is fish-species selection (smaller, shorter-lived species) rather than processing change.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "Ni",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Nickel in this matrix yet. Nickel often migrates from stainless-steel processing equipment in acidic or chloride-rich matrices. Audit dwell time, equipment alloy grade, and ingredient-borne nickel (legumes, oats, soy) in that order.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "Pb",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 1,
-      "range_high": 2.6,
-      "central_low": 1,
-      "central_high": 1,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 5,
-          "basis": "as_sold"
-        }
-      ]
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "Sn",
-      "basis": "ingredient_synthesis",
-      "unit": "ppb",
-      "range_low": null,
-      "range_high": null,
-      "central_low": null,
-      "central_high": null,
-      "n_sources": 0,
-      "confidence": "data gap",
-      "tier": "data_gap",
-      "coverage_note": "The corpus carries no finished-product or ingredient-level literature for Tin in this matrix yet. Tin in canned or metal-packaged products typically tracks can-coating wear and storage time; review packaging supplier specs, lacquer integrity, and shelf-life protocols.",
-      "source_summaries": []
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "tAs",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 2,
-      "range_high": 2.9,
-      "central_low": 2,
-      "central_high": 2,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 5,
-          "basis": "as_sold"
-        }
-      ]
-    },
-    {
-      "row_slug": "yogurts-custards-puddings-out-of-scope",
-      "metal": "tHg",
-      "basis": "as_sold",
-      "unit": "ppb",
-      "range_low": 0,
-      "range_high": 0,
-      "central_low": 0,
-      "central_high": 0,
-      "n_sources": 1,
-      "confidence": "low",
-      "source_summaries": [
-        {
-          "source_id": "fda2024-toxic-elements-baby-food-compliance-2009-2024",
-          "n": 3,
-          "basis": "as_sold"
-        }
-      ]
     }
   ],
   "reg_caps": [

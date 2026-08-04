@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "602eb8f6ca9c75203aebd5eb95f341bcfaac64c0cefafad3b16bbb3ecb65b741",
       "content_bytes": 14017,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/menstrual-tampons.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/menstrual-tampons.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,10 +41,10 @@
         "content_pin": {
           "content_sha256": "234d42884807c2a71b8a7323bf76ea02cb1eccc8ce8d6d80b4276323e35443b3",
           "content_bytes": 7118,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/archer2005-tampon-dioxins-furans.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/archer2005-tampon-dioxins-furans.md | sha256sum"
         }
       },
       {
@@ -67,10 +67,10 @@
         "content_pin": {
           "content_sha256": "a570a45f7ce553a11f11e913b26c130ec020e402c3916dbe3e6e9803b94d798d",
           "content_bytes": 8238,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/carlin2020-tampons-eyeshadows-chemistry.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/carlin2020-tampons-eyeshadows-chemistry.md | sha256sum"
         }
       },
       {
@@ -85,10 +85,10 @@
         "content_pin": {
           "content_sha256": "e11670edfb6951a4e6a417fe30a5ad2a1a6d6dd802b30599bbf168bded4a92ea",
           "content_bytes": 15748,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/devito2002-tampons-diapers-dioxin-exposure.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/devito2002-tampons-diapers-dioxin-exposure.md | sha256sum"
         }
       },
       {
@@ -105,10 +105,10 @@
         "content_pin": {
           "content_sha256": "1ee9d1d13b459a32d23aad0d0ca0fb2901c922fe6f303dd1570e2d828b7efdc5",
           "content_bytes": 6912,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/ellison2026-tampon-lead-exposure.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/ellison2026-tampon-lead-exposure.md | sha256sum"
         }
       },
       {
@@ -123,10 +123,10 @@
         "content_pin": {
           "content_sha256": "3d5d064c49da1e959cdf14e03d3cf844bb72acadb485901352030217a2c220cd",
           "content_bytes": 8578,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
         }
       },
       {
@@ -158,10 +158,10 @@
         "content_pin": {
           "content_sha256": "40fd0ecf43e921eb2831eda48fa5d5bb2abd7f989b3e89d5023f70406a0b4f66",
           "content_bytes": 8688,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/ica2024-tampon-contaminants-review.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/ica2024-tampon-contaminants-review.md | sha256sum"
         }
       },
       {
@@ -194,10 +194,10 @@
         "content_pin": {
           "content_sha256": "c18c658848d9b5b2e5351da441953e9dd7504551c1713e1c027536781ac0479e",
           "content_bytes": 9433,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
         }
       },
       {
@@ -230,10 +230,10 @@
         "content_pin": {
           "content_sha256": "54cc5de8f4226285cf93d317ca77f685383e61d3116dc5ce16a23c647256d888",
           "content_bytes": 8231,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
         }
       },
       {
@@ -248,10 +248,10 @@
         "content_pin": {
           "content_sha256": "f39ff488fa597685d521bc773a4dbb657cbc11fe5704949103143c1eb5d1c897",
           "content_bytes": 9163,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marroquin2024-menstrual-products-chemicals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marroquin2024-menstrual-products-chemicals.md | sha256sum"
         }
       },
       {
@@ -269,10 +269,10 @@
         "content_pin": {
           "content_sha256": "f66f76b678f59793a4ccb8aab11b014ea5b5aa56e53043c4af1eeab6e363a67c",
           "content_bytes": 5740,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
         }
       },
       {
@@ -291,10 +291,10 @@
         "content_pin": {
           "content_sha256": "e980a7589d0912dcd47fa646555187a1098768062c649739a7257f56af7e936e",
           "content_bytes": 8745,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/okwuegbuna2025-tampon-metal-release-thesis.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/okwuegbuna2025-tampon-metal-release-thesis.md | sha256sum"
         }
       },
       {
@@ -322,10 +322,10 @@
         "content_pin": {
           "content_sha256": "22570989013ce79b45d7fce35ab64de4800483f22d914c34903cba46b096d3b6",
           "content_bytes": 4896,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/shearston2024-tampon-metalloids.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/shearston2024-tampon-metalloids.md | sha256sum"
         }
       },
       {
@@ -347,10 +347,10 @@
         "content_pin": {
           "content_sha256": "f263c00b4974691a1b1935f57877f73ee2eb680d712f2e08b72db6f01d495e34",
           "content_bytes": 5617,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/shin2009-womens-sanitary-products-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/shin2009-womens-sanitary-products-metals.md | sha256sum"
         }
       },
       {
@@ -369,10 +369,10 @@
         "content_pin": {
           "content_sha256": "ac9671e7d2390b3da6372d14b9bf3317a740699af5d6878315fcf96c8a4ecc79",
           "content_bytes": 9085,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
         }
       }
     ]

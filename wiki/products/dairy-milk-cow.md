@@ -15,7 +15,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: none
-sources: 2
+sources: 4
 wiki_doi: null
 updated: 2026-06-08
 ---
@@ -38,7 +38,9 @@ No sources are routed to this row yet. The corpus will accumulate via the source
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
+| 1 | [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|Ibrahim et al. 2024]]. *Heavy metals in raw milk and Egyptian cheese types*, Open Veterinary Journal | 2024 | Peer-reviewed | EG Pb, Cd, tHg, tAs, Cu, Fe, Zn occurrence in 100 raw bovine milk samples and 100 Egyptian cheese samples (25 each Karish, Domiati, Ras) collected from Alexandria... (n=200) |
+| 2 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
+| 3 | [[sources/abdelnaby2022-lead-cadmium-milk\|Abdelnaby et al. 2022]]. *Application of Bentonite Clay, Date Pit, and Chitosan Nanoparticles as Promising Adsorbents to Sequester Toxic Lead and Cadmium from Milk*, Biological Trace Element Research | 2022 | Peer-reviewed | EG Pb, Cd occurrence in Raw (n=15) and pasteurized (n=20) cow milk samples from Egypt (n=35) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -48,9 +50,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

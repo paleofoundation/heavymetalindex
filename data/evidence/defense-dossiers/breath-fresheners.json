@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "63ded67e3c21d2384255ec235038be38fbfaa3787e91db762b308f514e7d50c0",
       "content_bytes": 7570,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/breath-fresheners.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/breath-fresheners.md | sha256sum"
     }
   },
   "evidence_base": {

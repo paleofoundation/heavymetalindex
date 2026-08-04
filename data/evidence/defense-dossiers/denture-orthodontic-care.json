@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "505b168623896005239e928a1320d1412f2b562c800a4cc913eb37a0de52ca18",
       "content_bytes": 7778,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/denture-orthodontic-care.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/denture-orthodontic-care.md | sha256sum"
     }
   },
   "evidence_base": {

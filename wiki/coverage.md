@@ -42,7 +42,7 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
  ▼
  Included: Source pages routed to destination pages
  │
- │ Routing rows in product_source_routing_audit.csv: 6516
+ │ Routing rows in product_source_routing_audit.csv: 6528
  ▼
  Synthesized: Ingredient cells, product rows, metal pages, regulation pages
 ```
@@ -60,7 +60,7 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 | Product-category rows (total) | 414 |
 | Product-category rows (non-stub, has scaffold or content) | 142 |
 | Metal profiles | 36 |
-| Regulation pages | 64 |
+| Regulation pages | 70 |
 | Mitigation pages | 7 |
 | Microbiome pages | 1 |
 | Testing-method pages | 2 |

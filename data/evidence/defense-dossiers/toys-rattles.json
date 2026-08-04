@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "c0a2f5dfe4f1fbf8a77df2e2451f024f9073f2b7d42442f359f99dc999a706b0",
       "content_bytes": 8646,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/toys-rattles.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/toys-rattles.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,10 +50,10 @@
         "content_pin": {
           "content_sha256": "e3381bb879178ccd1e232186f56428f004d5247b89102afc24aed17c7b51825f",
           "content_bytes": 41098,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       },
       {
@@ -75,10 +75,10 @@
         "content_pin": {
           "content_sha256": "999af78e6ef87ad145300664226c39446d10a886d5b1e5698053133053620214",
           "content_bytes": 29890,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       }
     ]

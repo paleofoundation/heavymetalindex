@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "f1f5d0bb9eb7740347cd9da8249e638c3c2b60258aa6b1b22066391fce9c3c30",
       "content_bytes": 3170,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/fish-sauce.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/fish-sauce.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,10 +43,10 @@
         "content_pin": {
           "content_sha256": "da6484ec26b06ca2047ef2fd47cc97e4d87ab8bea7d97133aed977377e907a3e",
           "content_bytes": 13762,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
         }
       },
       {
@@ -64,10 +64,10 @@
         "content_pin": {
           "content_sha256": "b3bab7cc679847f1c857040733ab34dcd556418669a9d62fa628f8d7983c5711",
           "content_bytes": 21806,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/rodriguez2009-fish-sauce-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/rodriguez2009-fish-sauce-arsenic-speciation.md | sha256sum"
         }
       }
     ]

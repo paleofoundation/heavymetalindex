@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "7d45877001c8792b4ab616cbc7ccde421d7b81b24df9fa3c584b4950bdf7e3e6",
       "content_bytes": 8679,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/supplements-oral-solids-capsules.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,10 +48,10 @@
         "content_pin": {
           "content_sha256": "46c9140afd74d5cdd0d5db1e3267b1cb8cf4244161316e3bbf572f36f78ddb9e",
           "content_bytes": 6877,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
         }
       },
       {
@@ -68,10 +68,10 @@
         "content_pin": {
           "content_sha256": "0d762cbf4fa2b3efa95f613c46d11886eba62525aa8211031ec049f66090bbfa",
           "content_bytes": 6318,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
         }
       }
     ]

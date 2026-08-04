@@ -21,6 +21,8 @@ updated: 2026-07-29
 
 # US FDA — Lead and Mercury in Cosmetics
 
+## Overview
+
 The United States has **no binding finished-product lead limit for cosmetics**. FDA's only numeric finished-cosmetic lead value is a **draft guidance** (December 2016) recommending a maximum of 10 ppm lead as an impurity — it is not for implementation and binds no one. For mercury, a **binding regulation** exists: 21 CFR 700.13 treats any cosmetic containing mercury as adulterated unless the mercury is an unavoidable GMP trace below 1 ppm (or, for eye-area preservatives only, at or below 65 ppm). Both values are transcribed below with their different legal statuses kept explicit.
 
 ## Scope
@@ -68,3 +70,13 @@ The 10 ppm lead value is a **recommendation**; FDA stated it would not itself co
 - Supporting Document for Recommended Maximum Lead Level (FDA): <https://www.fda.gov/cosmetics/cosmetics-guidance-documents/supporting-document-recommended-maximum-lead-level-cosmetic-lip-products-and-externally-applied>
 - 21 CFR 700.13 — Use of mercury compounds in cosmetics: <https://www.ecfr.gov/current/title-21/chapter-I/subchapter-G/part-700/subpart-B/section-700.13>
 - FDA, "FDA's Testing of Cosmetics for Arsenic, Cadmium, Chromium, Cobalt, Lead, Mercury, and Nickel Content": <https://www.fda.gov/cosmetics/potential-contaminants-cosmetics/fdas-testing-cosmetics-arsenic-cadmium-chromium-cobalt-lead-mercury-and-nickel-content>
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

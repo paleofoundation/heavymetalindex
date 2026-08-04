@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "9d9a8207f7dc19313eecdf56b87c9d7ad605f8dc87ec48e5c94d2df78a320f9a",
       "content_bytes": 7411,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/toy-chests.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/toy-chests.md | sha256sum"
     }
   },
   "evidence_base": {

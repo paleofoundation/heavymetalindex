@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "e00128163a71a9b2d712b1311d3e5a6d6f93443d8ed7f881cc96c2ab14563bac",
       "content_bytes": 7571,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/capillary-reed-wood-diffusers.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/capillary-reed-wood-diffusers.md | sha256sum"
     }
   },
   "evidence_base": {

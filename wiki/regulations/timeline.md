@@ -15,7 +15,7 @@ The page is auto-regenerated on every build from the `effective_date` frontmatte
 
 ## Headline trajectory
 
-The index carries **46 dated regulations**. Earliest in the timeline: 1951-12-27 (japan-mhlw-milk-products-standards, Ministry of Health, Labour and Welfare). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1950s**: 1 · **1980s**: 2 · **1990s**: 5 · **2000s**: 11 · **2010s**: 13 · **2020s**: 14.
+The index carries **51 dated regulations**. Earliest in the timeline: 1951-12-27 (japan-mhlw-milk-products-standards, Ministry of Health, Labour and Welfare). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1950s**: 1 · **1980s**: 2 · **1990s**: 5 · **2000s**: 11 · **2010s**: 17 · **2020s**: 15.
 
 ## Chronology by decade
 
@@ -66,15 +66,19 @@ The index carries **46 dated regulations**. Earliest in the timeline: 1951-12-27
 | 2010-06-01 | [[regulations/jecfa-cadmium-ptmi\|JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month]] | International (Codex / JECFA / WHO) | JECFA | Cadmium | 25 µg/kg-bw/month | in-force |
 | 2010-06-01 | [[regulations/jecfa-lead-ptwi-withdrawn\|JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)]] | International (Codex / JECFA / WHO) | JECFA | Lead | µg/kg-bw/week | withdrawn |
 | 2011-05-10 | [[regulations/mx-nom-242-ssa1-2009-fishery-products\|Norma Oficial Mexicana NOM-242-SSA1-2009, Productos de la pesca frescos, refrigerados, congelados y procesados]] | Mexico | Secretaria de Salud | Total arsenic, Cadmium, Methylmercury, Lead, Tin | multiple mg/kg | active |
+| 2011-08-14 | [[regulations/us-cpsia-lead-childrens-products\|US CPSIA — lead in children's products: 100 ppm total lead (substrate), 90 ppm (paint and surface coatings)]] | United States (federal) | US Consumer Product Safety Commission (CPSC) | Lead | multiple ppm | enforced |
+| 2012-07-20 | [[regulations/health-canada-cosmetic-heavy-metal-impurities\|Health Canada — Guidance on Heavy Metal Impurities in Cosmetics: Pb 10, As 3, Cd 3, Hg 1, Sb 5 ppm]] | CA | Health Canada | multiple (Pb, tAs, Cd, tHg, Sb) | multiple ppm | guidance |
 | 2012-09-01 | [[regulations/atsdr-cadmium-mrls\|ATSDR — Minimal Risk Levels for Cadmium]] | United States (federal) | ATSDR | Cadmium | 0.1 µg/kg-bw/day | in-force |
 | 2012-12-01 | [[regulations/efsa-mercury-twi\|EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week)]] | European Union | EFSA | Inorganic mercury | 4 µg/kg-bw/week | in-force |
 | 2012-12-01 | [[regulations/efsa-methylmercury-twi\|EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)]] | European Union | EFSA | Methylmercury | 1.3 µg/kg-bw/week | in-force |
 | 2013-01-29 | [[regulations/ecuador-nte-inen-184-2013-canned-tuna\|ecuador-nte-inen-184-2013-canned-tuna]] | Ecuador | Instituto Ecuatoriano de Normalización | Total mercury | 1 mg/kg total mercury as Hg | active |
 | 2013-06-01 | [[regulations/china-gb-2762-2012-contaminants-superseded\|china-gb-2762-2012-contaminants-superseded]] | China | Ministry of Health | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | superseded |
+| 2013-07-11 | [[regulations/eu-cosmetics-1223-2009\|EU Cosmetics Regulation (EC) No 1223/2009 — prohibited-substance framework, no numeric heavy-metal maximum levels]] | European Union | European Parliament and Council (enforced by EU Member States) | multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients) | — | enforced |
 | 2016-01-01 | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] | European Union | European Commission | Inorganic arsenic | 0.2,0.25,0.3,0.1 mg/kg wet weight | superseded |
 | 2016-03-01 | [[regulations/au-nz-food-standards-code-schedule-19-contaminants\|Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants]] | Australia, New Zealand | Food Standards Australia New Zealand | Aluminium, Total arsenic, Inorganic arsenic, Cadmium, Lead, Total mercury, Tin | multiple mg/kg | in-force |
 | 2017-09-17 | [[regulations/china-gb-2762-2017-contaminants-superseded\|china-gb-2762-2017-contaminants-superseded]] | China | National Health and Family Planning Commission; China Food and Drug Administration | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | superseded |
 | 2018-02-07 | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] | European Union | European Commission | Total mercury | 0.01 mg/kg as mercury | finalized |
+| 2018-10-26 | [[regulations/oehha-nickel-prop65\|California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Compounds Reproductive Toxicity)]] | United States — California | OEHHA | Nickel | listed-no-safe-harbor none | in-force |
 
 ### 2020s
 
@@ -92,6 +96,7 @@ The index carries **46 dated regulations**. Earliest in the timeline: 1951-12-27
 | 2024-03-22 | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food]] | European Union | European Commission | Nickel | monitoring-recommendation none | in-force |
 | 2024-07-30 | [[regulations/eu-2024-1987-nickel-maximum-levels\|Commission Regulation (EU) 2024/1987 — maximum levels of nickel in certain foodstuffs]] | European Union | European Commission | Nickel | 0.10–40 mg/kg | in-force |
 | 2024-10-01 | [[regulations/ca-swrcb-hexavalent-chromium-mcl\|California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water]] | United States — California | SWRCB | Hexavalent chromium | 10 ppb | in-force |
+| 2025-01-01 | [[regulations/ca-prop65-ab2762-cosmetics\|California Prop 65 / AB 2762 — exposure-based warnings and intentionally-added mercury prohibition; no numeric heavy-metal concentration limit for cosmetics]] | United States — California | OEHHA (Proposition 65); State of California (AB 2762, Health and Safety Code) | multiple (Prop 65: Pb, Cd, and others as exposure thresholds; AB 2762: intentionally-added Hg prohibition) | — | enforced |
 | 2025-01-01 | [[regulations/epa-iris-inorganic-arsenic-rfd\|EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)]] | United States (federal) | EPA | Inorganic arsenic | pending-extraction | finalized-2025 |
 | 2025-01-01 | [[regulations/washington-tfca-toothpaste-pb-1000ppb\|washington-tfca-toothpaste-pb-1000ppb]] | United States — Washington State | Washington State Department of Ecology | Lead | 1000 ppb | enforced |
 
@@ -117,6 +122,7 @@ The following regulation pages exist in the index but do not yet carry an `effec
 | [[regulations/fda-juice-haccp-lead-50ppb\|FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice]] | United States (federal) | FDA | Lead | current-guidance-context |
 | [[regulations/jecfa-arsenic-bmdl\|JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)]] | International (Codex / JECFA / WHO) | JECFA (FAO/WHO Joint Expert Committee on Food Additives) | Inorganic arsenic | stub |
 | [[regulations/korea-mfds-food-code-heavy-metals\|korea-mfds-food-code-heavy-metals]] | KR | Korea Food and Drug Administration / Ministry of Food and Drug Safety | Lead, Cadmium, Total mercury, Methylmercury | source-snapshot |
+| [[regulations/fda-cosmetics-heavy-metals\|US FDA cosmetics heavy-metal policy — draft lead guidance (10 ppm) and the binding mercury trace rule (21 CFR 700.13, <1 ppm)]] | United States (federal) | US Food and Drug Administration (FDA) | Pb; tHg | draft-guidance (Pb, 10 ppm, not for implementation); enforced (Hg, 21 CFR 700.13) |
 
 ## How to read this surface
 

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "237dfadbdc4a17699adda9996644b0000f7b0135d4afa7f0c69fb72c1a98fd40",
       "content_bytes": 2067,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 99322f371:wiki/products/disinfectants-sanitizers.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/disinfectants-sanitizers.md | sha256sum"
     }
   },
   "evidence_base": {

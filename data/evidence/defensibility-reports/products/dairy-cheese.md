@@ -2,7 +2,7 @@
 source_page: wiki/products/dairy-cheese.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 73fe7d6851629844c902763f2f660069aee5d23afc0012e47ba709037ec86eb9
+source_page_sha256: a7d46dc7ba6ce9246c11b14320e854df3132de5299b08dc02c19cb7ae4aeae15
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

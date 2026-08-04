@@ -319,7 +319,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Seaweed & kelp foods",
             "slug": "products/seaweed-kelp-foods",
-            "count": 207
+            "count": 210
           },
           {
             "label": "Bottled drinking water",
@@ -458,7 +458,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 62 regulations"
+    "allLabel": "All 68 regulations"
   },
   {
     "key": "evidence",

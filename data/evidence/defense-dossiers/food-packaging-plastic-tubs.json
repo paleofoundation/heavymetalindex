@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "3b8f6509814a293a7b0c326c7b48feb9509d802bec1eef0c885748cadd6a54ba",
       "content_bytes": 9640,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,10 +43,10 @@
         "content_pin": {
           "content_sha256": "8a76d8e81878e54a037bd6a6b1e77ac60e0406aa34b611d25d88d1947ce73dfc",
           "content_bytes": 24735,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
         }
       },
       {
@@ -76,10 +76,10 @@
         "content_pin": {
           "content_sha256": "ba3d9cab07265ee19699f71ad244f109632bc9f0ffcc6b77ab097fd6604a07c5",
           "content_bytes": 8341,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/li2019-plastic-packaging-metal-migration.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/li2019-plastic-packaging-metal-migration.md | sha256sum"
         }
       },
       {
@@ -112,10 +112,10 @@
         "content_pin": {
           "content_sha256": "e320f7331f7581816fe197f34f2060adde4d4afbfa28cf026fb2a47717d38dd8",
           "content_bytes": 22120,
-          "last_commit_sha": "3a67e1307",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3a67e1307:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -145,10 +145,10 @@
         "content_pin": {
           "content_sha256": "042a50dfc68a2c878395e26671d90faf37fadb34c692ce17a646d08f1055ef3c",
           "content_bytes": 7948,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

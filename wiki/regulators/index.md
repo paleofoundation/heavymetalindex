@@ -18,18 +18,18 @@ Each body below has a profile page: what it is and whether its numbers are bindi
 ## European Union
 
 - [[regulators/efsa\|European Food Safety Authority (EFSA)]] — Advisory — risk assessment, not binding law. 7 instruments.
-- [[regulators/eu-commission\|European Commission (EC)]] — Binding — legally enforceable maximum levels. 14 instruments.
+- [[regulators/eu-commission\|European Commission (EC)]] — Binding — legally enforceable maximum levels. 15 instruments.
 
 ## United States (federal)
 
-- [[regulators/us-fda\|United States Food and Drug Administration (FDA)]] — Guidance — action levels (not health-based limits). 8 instruments.
+- [[regulators/us-fda\|United States Food and Drug Administration (FDA)]] — Guidance — action levels (not health-based limits). 9 instruments.
 - [[regulators/us-epa\|United States Environmental Protection Agency (US EPA)]] — Mixed — IRIS assessments (advisory) + binding water limits. 6 instruments.
 - [[regulators/atsdr\|Agency for Toxic Substances and Disease Registry (ATSDR)]] — Advisory — screening Minimal Risk Levels, not enforceable. 2 instruments.
 - [[regulators/us-cdc\|United States Centers for Disease Control and Prevention (CDC)]] — Reference — blood-lead biomonitoring value, not a food limit. no food-limit instruments tracked.
 
 ## United States — California
 
-- [[regulators/oehha\|California Office of Environmental Health Hazard Assessment (OEHHA)]] — Binding — Proposition 65 warning law (listings + MADL/NSRL). 4 instruments.
+- [[regulators/oehha\|California Office of Environmental Health Hazard Assessment (OEHHA)]] — Binding — Proposition 65 warning law (listings + MADL/NSRL). 5 instruments.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -123,6 +123,7 @@ EFSA's intake-based guidance (TWI/TDI, per kilogram body weight) is not directly
 | [[regulators/eu-commission\|EC]] | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | [[regulators/eu-commission\|EC]] | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] |
+| [[regulators/oehha\|OEHHA]] | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
 
 ### Aluminium
 
@@ -171,9 +172,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [a5c3272bf](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bf) | 2026-07-31 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

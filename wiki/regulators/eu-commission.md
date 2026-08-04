@@ -59,6 +59,7 @@ The European Commission holds the legislative power to set binding food-contamin
 | Nickel | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] | 2024 | in-force |
 | Tin | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — | maximum levels |
 | Tin | Maximum level | see instrument | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | 2007 | superseded |
+| multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients) | Maximum level | see instrument | [[regulations/eu-cosmetics-1223-2009\|prohibited-substance framework]] | 2013 | enforced |
 <!-- END: hmi-regulator-positions -->
 
 ## Where it diverges
@@ -66,6 +67,10 @@ The European Commission holds the legislative power to set binding food-contamin
 The Commission's maximum levels are binding concentration limits in specific foods and are not comparable with EFSA's or JECFA's intake-based guidance — though they and FDA's action levels both express concentrations (mg/kg vs ppb) and can be compared food-by-food where the matrices match. The EU's infant-food lead limits are among the tightest in force globally; where they sit below US FDA action levels for comparable categories, the gap reflects the EU's more precautionary, binding posture rather than a different toxicological basis.
 
 <!-- BEGIN: hmi-regulator-divergence -->
+### multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients)
+
+_No other tracked body sets a position for multiple (annex ii prohibits pb, cd, as, hg, sb, be, cr and their compounds as ingredients); EC is the only one in the index._
+
 ### Lead
 
 | Body | Type | Value | Instrument |
@@ -143,6 +148,7 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 | **EC** | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] |
 | **EC** | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] |
 | [[regulators/efsa\|EFSA]] | TDI | 13 µg/kg bw/day | [[regulations/efsa-nickel-tdi\|Nickel Tolerable Daily Intake]] |
+| [[regulators/oehha\|OEHHA]] | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] |
 
 ### Tin
 
@@ -161,6 +167,7 @@ _No other tracked body sets a position for total mercury; EC is the only one in 
 | 2002-04-05 | Superseded basis | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | superseded |
 | 2007-03-01 | Superseded basis | [[regulations/eu-1881-2006-contaminants-superseded\|Commission Regulation]] | superseded |
 | 2007-03-01 | Superseded / sunset | [[regulations/eu-466-2001-contaminants-superseded\|Commission Regulation]] | superseded |
+| 2013-07-11 | Issued / in force | [[regulations/eu-cosmetics-1223-2009\|prohibited-substance framework]] | enforced |
 | 2016-01-01 | Superseded basis | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] | superseded |
 | 2018-02-07 | Issued / in force | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] | finalized |
 | 2021-08-30 | Superseded basis | [[regulations/eu-2021-1317-lead-cereals-superseded\|Lead maximum level for cereals and pulses]] | superseded |
@@ -199,9 +206,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [a5c3272bf](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bf) | 2026-07-31 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

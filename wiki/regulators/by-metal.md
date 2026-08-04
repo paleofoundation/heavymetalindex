@@ -102,6 +102,7 @@ For each metal, every regulatory body the index profiles and the position it has
 | [[regulators/eu-commission\|EC]] | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] | 2024 |
 | [[regulators/eu-commission\|EC]] | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] | — |
 | [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — |
+| [[regulators/oehha\|OEHHA]] | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] | 2018 |
 
 ## Aluminium
 

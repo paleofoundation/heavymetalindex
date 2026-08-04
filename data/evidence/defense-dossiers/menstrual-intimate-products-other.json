@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "a4c14f021f9932e715dfd92013a89ca2c0cd7c26d727f5ae4c9f18ac0836d8c3",
       "content_bytes": 9437,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/menstrual-intimate-products-other.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/menstrual-intimate-products-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -59,10 +59,10 @@
         "content_pin": {
           "content_sha256": "c18c658848d9b5b2e5351da441953e9dd7504551c1713e1c027536781ac0479e",
           "content_bytes": 9433,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marcelis2024-feminine-intimate-products-thesis.md | sha256sum"
         }
       },
       {
@@ -95,10 +95,10 @@
         "content_pin": {
           "content_sha256": "54cc5de8f4226285cf93d317ca77f685383e61d3116dc5ce16a23c647256d888",
           "content_bytes": 8231,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/marcelis2025-micp-leachables-metals.md | sha256sum"
         }
       },
       {
@@ -125,10 +125,10 @@
         "content_pin": {
           "content_sha256": "4a4701edaa74c3a8a0c72227149903098baf58320900a1de1c724cbc2528779c",
           "content_bytes": 8690,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/nilsson2006-sex-toys-chemicals.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/nilsson2006-sex-toys-chemicals.md | sha256sum"
         }
       }
     ]

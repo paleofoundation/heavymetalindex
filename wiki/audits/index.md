@@ -17,7 +17,7 @@ Generated: **2026-08-04**.  Baseline snapshot: [[audits/2026-08-04-baseline|2026
 |---|---:|:---:|
 | Taxonomy v2.0 coverage (destination pages exist for HMTc rows) | 347 / 356 (97%) | WARN |
 | Routing audit (unresolved source routings) | 72 unresolved | FAIL |
-| Routing rows generated | 6516 | — |
+| Routing rows generated | 6528 | — |
 | Ingredient mandatory sections (non-stub pages) | 229 / 230 (100%) | PASS |
 | Product mandatory sections (non-stub pages) | 255 / 287 (89%) | FAIL |
 | Routing discipline check 1 (sources with product-shaped matrices but empty products[]) | 16 failures | WARN |
@@ -37,10 +37,10 @@ Detail report: [[data/evidence/taxonomy-coverage-audit|data/evidence/taxonomy-co
 
 ## Routing audit
 
-Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 6516 routing rows in current audit.
+Routing layer (CLAUDE.md Part 5b) fans source-page declarations of `products: [<slug>]` to product-category pages. 6528 routing rows in current audit.
 
 - Unresolved targets (source frontmatter declares a slug that doesn't exist): **72**
-- Malformed sources (missing required frontmatter fields): **2020** (non-blocking)
+- Malformed sources (missing required frontmatter fields): **2011** (non-blocking)
 
 Detail: [[data/evidence/product_source_routing_audit|data/evidence/product_source_routing_audit.csv]], [[data/evidence/routing_unresolved|data/evidence/routing_unresolved.csv]], [[data/evidence/routing_malformed|data/evidence/routing_malformed.csv]].
 

@@ -67,7 +67,7 @@ These pages are graph anchors for sources that report a broader product category
 - [[products/oral-electrolyte-solutions|Oral electrolyte solutions]] (2 sources)
 - [[products/glucose-solutions|Glucose solutions]] (1 source)
 - [[products/infant-formula-dairy|Infant formula, dairy/cow-milk-based (coarse, spans powder + RTF rows above)]] (11 sources)
-- [[products/infant-formula-dairy-free|Infant formula, dairy-free (coarse, spans soy + other rows above)]] (4 sources)
+- [[products/infant-formula-dairy-free|Infant formula, dairy-free (coarse, spans soy + other rows above)]] (5 sources)
 - [[products/infant-food-general|Infant food, general (coarse master node)]] (18 sources)
 - [[products/infant-rice-cereal|Infant rice cereal (coarse — feeds the rice-based baby-cereals row above)]] (16 sources)
 
@@ -108,7 +108,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 4. [[products/pasta-rice-based|Pasta (rice-based)]] (2 sources)
 5. [[products/breakfast-cereal-non-rice|Breakfast cereal (non-rice)]] (0 sources)
 6. [[products/breakfast-cereal-rice-based|Breakfast cereal (rice-based)]] (0 sources)
-7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (77 sources)
+7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (80 sources)
 8. [[products/rice-snacks-crackers|Rice snacks/crackers]] (13 sources)
 9. [[products/rice-noodles|Rice noodles]] (4 sources)
 10. [[products/rice-beverages-rice-milk|Rice beverages (rice milk)]] (7 sources)
@@ -166,7 +166,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (821 sources)
 3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (372 sources)
 4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (454 sources)
-5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (207 sources)
+5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (210 sources)
 6. [[products/canned-fish|Canned seafood/fish (with tin flag)]] (53 sources)
 
 Bridge / coarse-grained nodes (broad author-scope pages that span several rows above; listed so their accumulated evidence stays visible while the fine-grained rows fill in):
@@ -524,10 +524,10 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA (Grade A
 
 Scaffolded under HMTc Taxonomy v2.1 (2026-06-08); see [[docs/governance/category-24-step0-lock]]. Rows are routing destinations with no candidate values yet. Master rollup: [[products/milk-and-dairy|Milk and Dairy (Cat 24 master)]]. Butter and ghee remain Cat 7 Row 3 and cross-link here.
 
-1. [[products/dairy-milk-cow|Liquid milk — cow]] (2 sources)
+1. [[products/dairy-milk-cow|Liquid milk — cow]] (4 sources)
 2. [[products/dairy-milk-goat-sheep|Liquid milk — goat/sheep/other ruminant]] (1 source)
 3. [[products/dairy-milk-camel|Camel milk]] (0 sources)
-4. [[products/dairy-cheese|Cheese]] (1 source)
+4. [[products/dairy-cheese|Cheese]] (3 sources)
 5. [[products/dairy-yogurt-cultured|Yogurt and cultured dairy]] (1 source)
 6. [[products/dairy-cream|Cream]] (0 sources)
 7. [[products/dairy-milk-powders|Milk powders (whole, skim, specialty)]] (2 sources)
@@ -680,9 +680,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
 | [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 38 removed; narrative text revised |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [2db16f3ee](https://github.com/paleofoundation/heavymetalindex/commit/2db16f3ee) | 2026-06-09 | major | 7 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

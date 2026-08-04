@@ -84,11 +84,11 @@ cookware-specialty-alloy,wiki/products/cookware-specialty-alloy.md,1,false,pass,
 cribs-and-bassinets,wiki/products/cribs-and-bassinets.md,3,false,pass,0,false,
 cultivated-mushrooms,wiki/products/cultivated-mushrooms.md,2,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
 cutting-boards,wiki/products/cutting-boards.md,0,true,exempt:stub,0,false,
-dairy-cheese,wiki/products/dairy-cheese.md,1,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
+dairy-cheese,wiki/products/dairy-cheese.md,3,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
 dairy-condensed-evaporated,wiki/products/dairy-condensed-evaporated.md,0,true,exempt:stub,0,false,
 dairy-cream,wiki/products/dairy-cream.md,0,true,exempt:stub,0,false,
 dairy-milk-camel,wiki/products/dairy-milk-camel.md,0,true,exempt:stub,0,false,
-dairy-milk-cow,wiki/products/dairy-milk-cow.md,1,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
+dairy-milk-cow,wiki/products/dairy-milk-cow.md,3,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
 dairy-milk-goat-sheep,wiki/products/dairy-milk-goat-sheep.md,1,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
 dairy-milk-powders,wiki/products/dairy-milk-powders.md,1,false,fail:missing-levers-load-bearing,9,true,who_for;methodology;literature_evidence_summary;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
 dairy-yogurt-cultured,wiki/products/dairy-yogurt-cultured.md,1,false,fail:missing-levers-load-bearing,8,true,who_for;methodology;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
@@ -192,7 +192,7 @@ infant-food-ready-to-eat,wiki/products/infant-food-ready-to-eat.md,1,false,fail:
 infant-food-vegetables,wiki/products/infant-food-vegetables.md,0,true,exempt:stub,0,false,
 infant-formula-concentrated-liquid-non-soy,wiki/products/infant-formula-concentrated-liquid-non-soy.md,2,false,pass,0,false,
 infant-formula-concentrated-liquid-soy-based,wiki/products/infant-formula-concentrated-liquid-soy-based.md,2,false,pass,0,false,
-infant-formula-dairy-free,wiki/products/infant-formula-dairy-free.md,4,false,pass,0,false,
+infant-formula-dairy-free,wiki/products/infant-formula-dairy-free.md,5,false,pass,0,false,
 infant-formula-dairy,wiki/products/infant-formula-dairy.md,11,false,pass,0,false,
 infant-formula-powder-dairy,wiki/products/infant-formula-powder-dairy.md,3,false,pass,0,false,
 infant-formula-powder-non-soy,wiki/products/infant-formula-powder-non-soy.md,156,false,pass,0,false,
@@ -301,7 +301,7 @@ regulatory-crosswalk-field-findings,wiki/products/regulatory-crosswalk-field-fin
 research-chem-raw-powders,wiki/products/research-chem-raw-powders.md,0,true,exempt:stub,0,false,
 research-chemicals-peptides-sarms,wiki/products/research-chemicals-peptides-sarms.md,0,true,exempt:stub,0,false,
 rice-beverages-rice-milk,wiki/products/rice-beverages-rice-milk.md,7,false,pass,0,false,
-rice-bulk-grain,wiki/products/rice-bulk-grain.md,76,false,pass,0,false,
+rice-bulk-grain,wiki/products/rice-bulk-grain.md,79,false,pass,0,false,
 rice-grain-syrup,wiki/products/rice-grain-syrup.md,0,true,exempt:stub,0,false,
 rice-noodles,wiki/products/rice-noodles.md,4,false,pass,0,false,
 rice-snacks-crackers,wiki/products/rice-snacks-crackers.md,13,false,pass,0,false,
@@ -314,7 +314,7 @@ sarms-oral,wiki/products/sarms-oral.md,0,true,exempt:stub,0,false,
 scented-candles,wiki/products/scented-candles.md,0,true,exempt:stub,0,false,
 scented-wax-blocks-melts,wiki/products/scented-wax-blocks-melts.md,0,true,exempt:stub,0,false,
 seafood,wiki/products/seafood.md,0,true,exempt:stub,0,false,
-seaweed-kelp-foods,wiki/products/seaweed-kelp-foods.md,350,false,pass,0,false,
+seaweed-kelp-foods,wiki/products/seaweed-kelp-foods.md,353,false,pass,0,false,
 sensor-puff-releasers,wiki/products/sensor-puff-releasers.md,0,true,exempt:stub,0,false,
 shampoo-adult,wiki/products/shampoo-adult.md,8,false,pass,0,false,
 shaving-cream-gel-foam,wiki/products/shaving-cream-gel-foam.md,5,false,pass,0,false,
@@ -323,7 +323,7 @@ sippy-cups-toddler-drinkware,wiki/products/sippy-cups-toddler-drinkware.md,6,fal
 skin-lightening-cream,wiki/products/skin-lightening-cream.md,0,true,exempt:stub,0,false,
 snack-bars-energy-bars,wiki/products/snack-bars-energy-bars.md,2,false,pass,0,false,
 snacks-crackers-biscuits,wiki/products/snacks-crackers-biscuits.md,0,true,exempt:stub,0,false,
-snacks-general,wiki/products/snacks-general.md,23,false,fail:missing-levers-load-bearing,8,true,who_for;methodology;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
+snacks-general,wiki/products/snacks-general.md,24,false,fail:missing-levers-load-bearing,8,true,who_for;methodology;source_evidence_inventory;broad_context_index;regulatory_vs_field;levers;standards_math;recalls_enforcement
 soft-drinks-carbonated-beverages,wiki/products/soft-drinks-carbonated-beverages.md,12,false,pass,0,false,
 soups-broths-stocks,wiki/products/soups-broths-stocks.md,0,true,exempt:stub,0,false,
 soy-products,wiki/products/soy-products.md,8,false,pass,0,false,

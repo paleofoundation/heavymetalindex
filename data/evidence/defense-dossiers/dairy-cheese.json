@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/dairy-cheese",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "af1d753f499d14368a5ecd215acb0fd9f827acbcb47c293183cb9948a3083dcc",
-      "content_bytes": 2755,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "content_sha256": "af2c2d7b921737c61eb31a947f266f01e8030ea511f8674ff9e8e391f987a649",
+      "content_bytes": 3600,
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/dairy-cheese.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/dairy-cheese.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -43,10 +43,62 @@
         "content_pin": {
           "content_sha256": "ecbc48ac36ba4c426a7245399fb4d00bdb4ac2025feb835b7ddc1c22ce89e673",
           "content_bytes": 5584,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/arellano2023-dairy-products-arsenic-argentina.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/arellano2023-dairy-products-arsenic-argentina.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/erol2025-turkish-cheese-metals",
+        "title": "Safety and Nutritional Profile of Traditional Turkish Cheeses: A Comprehensive Study on Their Mineral Content, Heavy Metal Contamination, and Health Risks of Aho, Golot, and Telli",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Al",
+          "tAs",
+          "Cd",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/erol2025-turkish-cheese-metals",
+        "content_pin": {
+          "content_sha256": "09c53952d3f680cdc7e183c4d566bcfc198a265767c7c9c7391b26cc8fb7c266",
+          "content_bytes": 7659,
+          "last_commit_sha": "38cedd111",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 38cedd111:wiki/sources/erol2025-turkish-cheese-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ibrahim2024-heavy-metals-egyptian-milk-cheese",
+        "title": "Heavy metals in raw milk and Egyptian cheese types",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "Cu",
+          "Fe",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ibrahim2024-heavy-metals-egyptian-milk-cheese",
+        "content_pin": {
+          "content_sha256": "ea1ba42980447153eb916a665502e706177a1b4d1b0a833ed7c1cc37ced66b1f",
+          "content_bytes": 4729,
+          "last_commit_sha": "38cedd111",
+          "last_commit_date": "2026-08-04",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 38cedd111:wiki/sources/ibrahim2024-heavy-metals-egyptian-milk-cheese.md | sha256sum"
         }
       }
     ]

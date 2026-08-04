@@ -2,7 +2,7 @@
 source_page: wiki/products/dairy-milk-cow.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4dabb1f5c4b9fc97d2f0d64cae7c2633867114adfc4f7fbab79f2730582fe71a
+source_page_sha256: 867933f1bbbe7b9fd9a7016d2b1ab46c17d3f024e92c437b8abf4aa826ae6c78
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

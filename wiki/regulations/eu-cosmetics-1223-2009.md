@@ -21,6 +21,8 @@ updated: 2026-07-29
 
 # EU Cosmetics Regulation (EC) No 1223/2009 — heavy metals
 
+## Overview
+
 Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast) is the EU's binding framework for cosmetic products. For heavy metals it operates as a **prohibited-substance plus technically-unavoidable-trace framework, not a maximum-level framework**: the Regulation sets **no numeric heavy-metal concentration limit** for any metal in any cosmetic product. HMI handling: standards rows governed by this instrument are **ADJUDICATE, not CAP_MAP** — there is no numeric cap to transcribe, and none is inferred here.
 
 ## Scope
@@ -77,3 +79,13 @@ Binding in its entirety and directly applicable in all Member States since 2013-
 - Regulation (EC) No 1223/2009, OJ L 342, 22.12.2009, p. 59 — EUR-Lex CELEX 32009R1223 (original) and 02009R1223 (consolidated): <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32009R1223>
 - Annex II entry numbering and substance wording verified against the retained-EU-law reproduction at legislation.gov.uk: <https://www.legislation.gov.uk/eur/2009/1223/annex/II>
 - Article 17 text verified at <https://www.legislation.gov.uk/eur/2009/1223/article/17>
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

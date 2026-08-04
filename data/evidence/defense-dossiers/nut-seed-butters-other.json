@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "69a7c72190204f6788aa1aace28744afdfbdd044ac953714d07c48c7662eca74",
       "content_bytes": 11594,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/nut-seed-butters-other.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/nut-seed-butters-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,10 +51,10 @@
         "content_pin": {
           "content_sha256": "f200bbdd86bb69c51e9f9f85e8eb901dbcabc0deecace524789df57063c04132",
           "content_bytes": 11080,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
         }
       },
       {
@@ -72,10 +72,10 @@
         "content_pin": {
           "content_sha256": "47d3f6a8bc9f578ad6f3b13f926f1c3d6c7878ce3c86eb4c8d201e0d122d2de2",
           "content_bytes": 15500,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
         }
       }
     ]

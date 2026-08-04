@@ -2,7 +2,7 @@
 source_page: wiki/products/seaweed-kelp-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0cbbbd860a81e64e4dfd45d4b7f003ddf398e7b054ebb299c75b5054c0038892
+source_page_sha256: 3be0b72698a07f83b8ad8e24fab37fddd5f61143993d0b3b38b22bca83df768f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0

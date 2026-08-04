@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "086c5e528eaf9bc2131db59763c9cec129d07a5a1d408e4faf3c9c2d5e27af16",
       "content_bytes": 7500,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/toys-sound-producing.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/toys-sound-producing.md | sha256sum"
     }
   },
   "evidence_base": {

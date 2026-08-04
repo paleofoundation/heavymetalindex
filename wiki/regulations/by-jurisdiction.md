@@ -17,20 +17,20 @@ The page is auto-regenerated on every build from the [`jurisdiction`, `metals`, 
 
 How many regulation pages the index carries for each (metal, jurisdiction) cell. A blank cell means the index does not yet track any regulation for that combination — that is either a real coverage gap or an ingest backlog item.
 
-| Metal | United States (federal) | United States — California | United States — Washington State | European Union | International (Codex / JECFA / WHO) | China | Mexico | Australia | New Zealand | Ecuador | Turkey | BR | JP | KR | Total |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Lead | 8 | 1 | 1 | 6 | 1 | 3 | 3 | 1 | 1 | | 1 | 1 | 1 | 1 | 28 |
-| Cadmium | 3 | 1 | | 6 | 2 | 3 | 3 | 1 | 1 | | | 1 | 1 | 1 | 22 |
-| Inorganic arsenic | 4 | 1 | | 4 | 1 | 3 | | 1 | 1 | | | 1 | | | 15 |
-| Total arsenic | | | | 1 | | 3 | 1 | 1 | 1 | | | 1 | 1 | | 8 |
-| Total mercury | 1 | | | 5 | | 3 | 2 | 1 | 1 | 1 | | 1 | | 1 | 15 |
-| Methylmercury | 2 | | | 2 | 1 | 3 | 3 | | | | | | | 1 | 12 |
-| Inorganic mercury | 1 | | | 1 | | | | | | | | | | | 2 |
-| Nickel | | | | 5 | | 3 | | | | | | | | | 8 |
-| Aluminium | 1 | | | 1 | | | | 1 | 1 | | | | | | 3 |
-| Chromium | | | | | | 3 | | | | | | | | | 3 |
-| Hexavalent chromium | | 2 | | | | | | | | | | | | | 2 |
-| Tin | | | | 2 | 1 | 3 | 2 | 1 | 1 | | | 1 | | | 10 |
+| Metal | United States (federal) | United States — California | United States — Washington State | European Union | International (Codex / JECFA / WHO) | China | Mexico | Australia | New Zealand | Ecuador | Turkey | BR | CA | JP | KR | Total |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Lead | 9 | 1 | 1 | 6 | 1 | 3 | 3 | 1 | 1 | | 1 | 1 | | 1 | 1 | 29 |
+| Cadmium | 3 | 1 | | 6 | 2 | 3 | 3 | 1 | 1 | | | 1 | | 1 | 1 | 22 |
+| Inorganic arsenic | 4 | 1 | | 4 | 1 | 3 | | 1 | 1 | | | 1 | | | | 15 |
+| Total arsenic | | | | 1 | | 3 | 1 | 1 | 1 | | | 1 | | 1 | | 8 |
+| Total mercury | 1 | | | 5 | | 3 | 2 | 1 | 1 | 1 | | 1 | | | 1 | 15 |
+| Methylmercury | 2 | | | 2 | 1 | 3 | 3 | | | | | | | | 1 | 12 |
+| Inorganic mercury | 1 | | | 1 | | | | | | | | | | | | 2 |
+| Nickel | | 1 | | 5 | | 3 | | | | | | | | | | 9 |
+| Aluminium | 1 | | | 1 | | | | 1 | 1 | | | | | | | 3 |
+| Chromium | | | | | | 3 | | | | | | | | | | 3 |
+| Hexavalent chromium | | 2 | | | | | | | | | | | | | | 2 |
+| Tin | | | | 2 | 1 | 3 | 2 | 1 | 1 | | | 1 | | | | 10 |
 
 ## Regulations grouped by jurisdiction
 
@@ -45,10 +45,12 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/epa-iris-lead-rfd\|EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment]] | EPA | Lead | not-derived | qualitative-only | 2004-07-08 |
 | [[regulations/epa-arsenic-mcl\|EPA — Maximum Contaminant Level for Arsenic in Drinking Water]] | EPA | Inorganic arsenic | 10 ppb | in-force | 2006-01-23 |
 | [[regulations/atsdr-aluminum-mrls\|ATSDR — Minimal Risk Levels for Aluminum]] | ATSDR | Aluminium | 1 mg/kg-bw/day | in-force | 2008-09-01 |
+| [[regulations/us-cpsia-lead-childrens-products\|US CPSIA — lead in children's products: 100 ppm total lead (substrate), 90 ppm (paint and surface coatings)]] | US Consumer Product Safety Commission (CPSC) | Lead | multiple ppm | enforced | 2011-08-14 |
 | [[regulations/atsdr-cadmium-mrls\|ATSDR — Minimal Risk Levels for Cadmium]] | ATSDR | Cadmium | 0.1 µg/kg-bw/day | in-force | 2012-09-01 |
 | [[regulations/fda-iAs-rice-cereal-100ppb\|FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal]] | FDA | Inorganic arsenic | 100 ppb | finalized | 2020-08-06 |
 | [[regulations/fda-closer-to-zero\|FDA Closer to Zero — Program Overview]] | FDA | Lead, Cadmium, Inorganic arsenic, Total mercury | — | — | 2021-04-01 |
 | [[regulations/epa-iris-inorganic-arsenic-rfd\|EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)]] | EPA | Inorganic arsenic | pending-extraction | finalized-2025 | 2025-01-01 |
+| [[regulations/fda-cosmetics-heavy-metals\|US FDA cosmetics heavy-metal policy — draft lead guidance (10 ppm) and the binding mercury trace rule (21 CFR 700.13, <1 ppm)]] | US Food and Drug Administration (FDA) | Pb; tHg | multiple ppm | draft-guidance (Pb, 10 ppm, not for implementation); enforced (Hg, 21 CFR 700.13) | — |
 | [[regulations/fda-ctz-Pb-babyfood-10ppb\|FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)]] | FDA | Lead | 10 ppb | finalized | — |
 | [[regulations/fda-ctz-Pb-cereal-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals]] | FDA | Lead | 20 ppb | finalized | — |
 | [[regulations/fda-ctz-Pb-rootveg-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)]] | FDA | Lead | 20 ppb | finalized | — |
@@ -62,7 +64,9 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/oehha-cadmium-prop65\|California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level]] | OEHHA | Cadmium | 4.1 µg/day-oral | in-force | 1997-05-01 |
 | [[regulations/oehha-chromium-vi-prop65\|California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels]] | OEHHA | Hexavalent chromium | 8.2 µg/day-oral-MADL | in-force | 2008-12-19 |
+| [[regulations/oehha-nickel-prop65\|California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Compounds Reproductive Toxicity)]] | OEHHA | Nickel | listed-no-safe-harbor none | in-force | 2018-10-26 |
 | [[regulations/ca-swrcb-hexavalent-chromium-mcl\|California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water]] | SWRCB | Hexavalent chromium | 10 ppb | in-force | 2024-10-01 |
+| [[regulations/ca-prop65-ab2762-cosmetics\|California Prop 65 / AB 2762 — exposure-based warnings and intentionally-added mercury prohibition; no numeric heavy-metal concentration limit for cosmetics]] | OEHHA (Proposition 65); State of California (AB 2762, Health and Safety Code) | multiple (Prop 65: Pb, Cd, and others as exposure thresholds; AB 2762: intentionally-added Hg prohibition) | — | enforced | 2025-01-01 |
 | [[regulations/oehha-arsenic-prop65\|California Proposition 65 — Inorganic Arsenic Compounds Listing]] | OEHHA | Inorganic arsenic | NSRL-pending | in-force | — |
 | [[regulations/oehha-lead-prop65\|California Proposition 65 — Lead and Lead Compounds Listing]] | OEHHA | Lead | multiple ug/day | in-force | — |
 
@@ -84,6 +88,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/efsa-lead-contam-2010\|EFSA — Lead in Food (2010), No-Threshold Position]] | EFSA | Lead | µg/kg-bw/day-BMDL | in-force-no-threshold | 2010-03-18 |
 | [[regulations/efsa-mercury-twi\|EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week)]] | EFSA | Inorganic mercury | 4 µg/kg-bw/week | in-force | 2012-12-01 |
 | [[regulations/efsa-methylmercury-twi\|EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)]] | EFSA | Methylmercury | 1.3 µg/kg-bw/week | in-force | 2012-12-01 |
+| [[regulations/eu-cosmetics-1223-2009\|EU Cosmetics Regulation (EC) No 1223/2009 — prohibited-substance framework, no numeric heavy-metal maximum levels]] | European Parliament and Council (enforced by EU Member States) | multiple (Annex II prohibits Pb, Cd, As, Hg, Sb, Be, Cr and their compounds as ingredients) | — | enforced | 2013-07-11 |
 | [[regulations/eu-2015-1006-iAs-rice\|eu-2015-1006-iAs-rice]] | European Commission | Inorganic arsenic | 0.2,0.25,0.3,0.1 mg/kg wet weight | superseded | 2016-01-01 |
 | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] | European Commission | Total mercury | 0.01 mg/kg as mercury | finalized | 2018-02-07 |
 | [[regulations/efsa-nickel-tdi\|EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)]] | EFSA | Nickel | 13 µg/kg-bw/day | in-force | 2020-09-24 |
@@ -154,6 +159,12 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Title | Agency | Metals | Limit | Status | Effective |
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/brazil-anvisa-rdc-722-2022\|brazil-anvisa-rdc-722-2022]] | Agência Nacional de Vigilância Sanitária | Lead, Cadmium, Total mercury, Inorganic arsenic, Total arsenic, Tin | multiple defined in IN 160/2022 | active | 2022-07-01 |
+
+### CA
+
+| Title | Agency | Metals | Limit | Status | Effective |
+| --- | --- | --- | --- | --- | --- |
+| [[regulations/health-canada-cosmetic-heavy-metal-impurities\|Health Canada — Guidance on Heavy Metal Impurities in Cosmetics: Pb 10, As 3, Cd 3, Hg 1, Sb 5 ppm]] | Health Canada | multiple (Pb, tAs, Cd, tHg, Sb) | multiple ppm | guidance | 2012-07-20 |
 
 ### JP
 

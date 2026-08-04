@@ -80,7 +80,7 @@ updated: 2026-07-31
         <li><a href="products/fish-marine-non-predatory/"><span>Fish — marine, non-predatory (sardines, anchovies, salmon, cod)</span><span class="hmi-home-top-count">821</span></a></li>
         <li><a href="products/shellfish/"><span>Shellfish (shrimp, crab, lobster, clams, oysters, mussels)</span><span class="hmi-home-top-count">454</span></a></li>
         <li><a href="products/fish-marine-predatory/"><span>Fish — marine, predatory (tuna, swordfish, shark, king mackerel)</span><span class="hmi-home-top-count">372</span></a></li>
-        <li><a href="products/seaweed-kelp-foods/"><span>Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)</span><span class="hmi-home-top-count">207</span></a></li>
+        <li><a href="products/seaweed-kelp-foods/"><span>Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)</span><span class="hmi-home-top-count">210</span></a></li>
         <li><a href="products/root-vegetable-purees/"><span>Root-Vegetable Purees</span><span class="hmi-home-top-count">184</span></a></li>
         <li><a href="products/seafood/"><span>Seafood</span><span class="hmi-home-top-count">161</span></a></li>
         </ul>
@@ -95,7 +95,7 @@ updated: 2026-07-31
 <section class="hmi-band hmi-band--shade" data-no-cite>
   <div class="hmi-band-inner">
     <h2>What changed recently</h2>
-    <p class="hmi-band-lede">The 8 most recent evidence changes across the corpus, from 1,378 recorded events. Every page also carries its own update history.</p>
+    <p class="hmi-band-lede">The 8 most recent evidence changes across the corpus, from 1,384 recorded events. Every page also carries its own update history.</p>
     <ul class="hmi-home-feed">
       <li>
         <time datetime="2026-08-04">2026-08-04</time>
@@ -166,7 +166,7 @@ updated: 2026-07-31
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="who-sets-limits" data-question="Who sets the limits for heavy metals in food?">
       <summary>Who sets the limits for heavy metals in food?</summary>
       <div class="hmi-home-faq-answer" data-hmi-faq-answer="1">
-        <p>Different bodies set different kinds of value, and they are not interchangeable. Codex Alimentarius publishes international maximum levels; the European Commission sets binding maximum levels for the EU; the US FDA issues action levels and guidance rather than binding limits for most foods; EFSA and JECFA derive health-based intake values that inform the others but are not themselves limits; and state programmes such as California's Proposition 65 set their own thresholds. The Index carries 62 regulation pages, each stating the exact value, the matrix it applies to and the basis it is measured on.</p>
+        <p>Different bodies set different kinds of value, and they are not interchangeable. Codex Alimentarius publishes international maximum levels; the European Commission sets binding maximum levels for the EU; the US FDA issues action levels and guidance rather than binding limits for most foods; EFSA and JECFA derive health-based intake values that inform the others but are not themselves limits; and state programmes such as California's Proposition 65 set their own thresholds. The Index carries 68 regulation pages, each stating the exact value, the matrix it applies to and the basis it is measured on.</p>
       </div>
     </details>
     <details class="hmi-faq-item" data-hmi-faq="1" data-anchor="testing-and-brands" data-question="Does the Index test products or rank brands?">
@@ -294,7 +294,7 @@ updated: 2026-07-31
     <span class="hmi-v3-registry-d">Endpoints, kinetics, and the reference value each body has or has not set.</span>
   </a>
   <a class="hmi-v3-registry" href="regulations/">
-    <span class="hmi-v3-registry-n">62</span>
+    <span class="hmi-v3-registry-n">68</span>
     <span class="hmi-v3-registry-t">Regulations</span>
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>

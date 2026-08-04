@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "d38974e7d91fc5dd2fe2520139f5df2ccca699dba6e75394ebf64e7ac49764cf",
       "content_bytes": 8552,
-      "last_commit_sha": "3a67e1307",
-      "last_commit_date": "2026-08-02",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 3a67e1307:wiki/products/pasta-rice-based.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/pasta-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,10 +44,10 @@
         "content_pin": {
           "content_sha256": "ac0c044c93768472ae9724807c956f6107670bd05776860b758f2f8d83f6e2b8",
           "content_bytes": 19020,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -64,10 +64,10 @@
         "content_pin": {
           "content_sha256": "05a18779cc39376dc10c2b7e197f4b117b6f6e3c28450ee6a269312998cd3ee5",
           "content_bytes": 6266,
-          "last_commit_sha": "3171d069e",
-          "last_commit_date": "2026-08-02",
+          "last_commit_sha": "b01ec52c3",
+          "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3171d069e:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
+          "verify_command": "git show b01ec52c3:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
         }
       }
     ]

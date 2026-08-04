@@ -1,11 +1,11 @@
 # Firewall lint — no derivation token on an index URL — 2026-08-04
 
-Generated: 2026-08-04T03:53:03.712Z
+Generated: 2026-08-04T05:37:14.064Z
 Mode: blocking (ERROR)
 
 ## Summary
 
-- Files scanned: 868
+- Files scanned: 874
 - ERROR (structural, build-blocking): 0
 - WARN  (workbench frontmatter leak, drain backlog): 16
 - INFO  (prose heuristics, review-only): 2

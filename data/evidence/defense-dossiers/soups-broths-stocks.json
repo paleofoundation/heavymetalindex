@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "df2766a2eb47792cfcf18c8fcb9bc8780da218a284242c6e3e592edb1fd30478",
       "content_bytes": 2037,
-      "last_commit_sha": "99322f371",
-      "last_commit_date": "2026-07-30",
+      "last_commit_sha": "b01ec52c3",
+      "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 99322f371:wiki/products/soups-broths-stocks.md | sha256sum"
+      "verify_command": "git show b01ec52c3:wiki/products/soups-broths-stocks.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -20,6 +20,8 @@ audience: [regulator, educator, consumer, brand-legal]
 
 # California Proposition 65 — Nickel Listings
 
+## Overview
+
 Nickel appears on California's Proposition 65 list in two separate registers. Nickel and nickel compounds are listed as carcinogens, and soluble nickel compounds are separately listed as reproductive toxicants, with nickel carbonyl listed for the developmental endpoint before the soluble-compounds determination. The practically important feature of the nickel listings, and the reason this page exists as a distinct regulation entry, is that California has adopted no oral safe-harbor level for nickel. The only Proposition 65 safe-harbor numbers for nickel are inhalation cancer No Significant Risk Levels (NSRLs) for two specific nickel forms; there is no Maximum Allowable Dose Level (MADL) for the reproductive-toxicity listing and no NSRL for elemental nickel or for nickel compounds as a class. For dietary nickel exposure the listing is therefore best described as "listed, no dietary safe-harbor": the chemical is on the list, but no California number translates the listing into a food pass/fail threshold. The dietary nickel reference value lives in the European Food Safety Authority's tolerable daily intake, not in Proposition 65 ([[sources/efsa-nickel-contam-2020|EFSA 2020]]; [[regulations/efsa-nickel-tdi]]).
 
 ## Listing summary
@@ -60,15 +62,19 @@ _Safe-harbor NSRL values (Nickel Refinery Dust 0.8 µg/day; Nickel Subsulfide 0.
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2020). *Update of the Risk Assessment of Nickel in Food and Drinking Water*. EFSA Journal 2020;18(11):6268. [https://doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268). Government report, A-tier. [[sources/efsa-nickel-contam-2020|Source record]]
-2. California Office of Environmental Health Hazard Assessment (2025). *Nickel and Nickel Compounds — Proposition 65 Warnings Website fact sheet*. California Office of Environmental Health Hazard Assessment, Proposition 65 Warnings Website (p65warnings.ca.gov). [www.p65warnings.ca.gov](https://www.p65warnings.ca.gov/fact-sheets/nickel-and-nickel-compounds). Government report, C-tier. [[sources/oehha-nickel-prop65-factsheet-2025|Source record]]
-3. California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Branch (2018). *Evidence on the Developmental and Reproductive Toxicity of Nickel and Nickel Compounds (Proposition 65 hazard-identification document)*. OEHHA, California Environmental Protection Agency; hazard-identification document prepared for the Developmental and Reproductive Toxicant Identification Committee (DARTIC), July 2018. [oehha.ca.gov](https://oehha.ca.gov/media/downloads/crnr/nihid072718.pdf). Government report, A-tier. [[sources/oehha-nickel-dart-evidence-2018|Source record]]
+1. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/oehha-nickel-prop65-factsheet-2025|Nickel and Nickel Compounds — Proposition 65 Warnings Website fact sheet]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · 2025 · [www.p65warnings.ca.gov](https://www.p65warnings.ca.gov/fact-sheets/nickel-and-nickel-compounds)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/oehha-nickel-dart-evidence-2018|Evidence on the Developmental and Reproductive Toxicity of Nickel and Nickel Compounds (Proposition 65 hazard-identification document)]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Branch · OEHHA, California Environmental Protection Agency; hazard-identification document prepared for the Developmental and Reproductive Toxicant Identification Committee (DARTIC), July 2018 · 2018 · [oehha.ca.gov](https://oehha.ca.gov/media/downloads/crnr/nihid072718.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | 3 sources added; contamination-profile values revised; 7 sections added |
 <!-- END: hmi-page-history -->
