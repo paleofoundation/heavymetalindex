@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Adhikari & Struwig 2024 — Heavy metal concentrations in leafy vegetables from roadside markets vs. large stores in Johannesburg
 
+## Overview
+
 This study compared concentrations of ten elements (Al, As, Cd, Co, Cr, Cu, Hg, Ni, Pb, Zn) in five leafy vegetables (coriander, lettuce, mint, spring onion, swiss chard) from roadside open-air markets (unwashed and washed) versus supermarkets and vegetable markets in Johannesburg, South Africa, and assessed associated human health risks. Unwashed open-air-market leaves showed the highest concentrations of all elements, with Cd, Hg, Ni, and Pb being significantly elevated relative to washed samples, reflecting anthropogenic deposition rather than soil uptake alone. Hazard index exceeded 1 in all sample groups (OMUW: 11.77; OMW: 1.83; SMW: 1.29; VMW: 1.01), while cancer risk for Cd and As exceeded 1×10⁻⁶ in both washed and unwashed open-air-market leaves. Thorough washing reduced non-carcinogenic risk by 84% and cancer risk by 74–87%.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cacc8f421](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f421) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -31,6 +31,8 @@ updated: 2026-05-28
 
 # Meyer et al. 2018 — Low inorganic arsenic in hydrolysed-rice infant formula for cow's milk protein allergy
 
+## Overview
+
 Meyer and colleagues measured inorganic arsenic (As(V)) and dimethylarsinic acid (DMA) in commercially available hydrolysed-rice infant formula (HRF) powders sourced from Italy, France, and Belgium and analysed at the Institute for Global Food Security, Queen's University Belfast. HRF is used in the management of cow's milk protein allergy (CMPA) when breastmilk is not available and conventional extensively hydrolysed casein/whey or amino-acid formulas are not used. Across six distinct product variants (ten batch-level measurements presented), As(V) ranged from 9 to 20 µg/kg in dry powder, with calculated daily As(V) exposure for a typical 0–6 month, 8 kg infant of 0.16–0.23 µg/kg body weight/day — roughly an order of magnitude below the WHO 2 µg/kg b.w./day exposure benchmark and below the EFSA-reported childhood dietary iAs exposure range (0.24–0.43 µg/kg b.w./day for infants). The authors concluded that As(V) levels in HRF powder were within the safe range as stipulated by EFSA and WHO, while noting that actual exposure can be modified by arsenic in the tap water used to reconstitute the formula.
 
 ## Key numbers
@@ -80,9 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [753ee81b7](https://github.com/paleofoundation/heavymetalindex/commit/753ee81b7) | 2026-05-28 | minor | Narrative text revised |
-| [31a5a4d95](https://github.com/paleofoundation/heavymetalindex/commit/31a5a4d95) | 2026-05-28 | major | 1 section added and 1 removed; narrative text revised |
-| [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

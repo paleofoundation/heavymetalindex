@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Shirani et al. 2017 — Cd, Pb and tAs in 120 Iranian-, Indian- and Pakistani-origin rice samples on the Mashhad retail market
 
+## Overview
+
 This Mashhad market-survey paper reports total concentrations of cadmium, lead and arsenic (the latter measured by hydride-generation AAS on the wet-ashed extract, treated here as total arsenic in the absence of any inorganic-species separation step) in 120 packed rice samples collected from local agricultural agencies and retail markets in Mashhad. Samples were split into four producer-origin groups of n=30 each: two domestic Iranian categories (Mazandaran and Gilan provinces — together accounting for >80% of Iranian rice cultivation per the paper) and two imported categories (Pakistani and Indian). Across the full panel the Cd concentrations ranged 0.001-0.156 mg/kg (mean 0.064 ± 0.001 mg/kg), the Pb concentrations ranged 0.108-0.234 mg/kg (mean 0.153 ± 0.001 mg/kg), and the As concentrations ranged 0.039-0.378 mg/kg (mean 0.129 ± 0.017 mg/kg). The paper reports significant differences between Iranian- and imported-origin rice for all three metals but no significant difference between Mazandaran and Gilan or between Pakistani and Indian (one-way ANOVA, Tukey post-test, p<0.05). Estimated daily intakes for the population-weighted "mean rice" via Equation 1 (EF 365 d/y, ED 70 y, FIR 100 g/person/day, WAB 70 kg) were 0.217 µg/kg bw/day for Pb, 0.183 µg/kg bw/day for As, and 0.090 µg/kg bw/day for Cd. Target hazard quotients (THQ = EDI × 7 / PTWI) were below 1 for every metal in every origin group; the hazard index HI summed across the three metals was 0.331 for the population-weighted mean. The paper concludes there is no aggregate health risk from rice-borne Pb, As and Cd at the modelled consumption rate, while noting that 96.66% of the 120 samples exceeded the Iranian national lead ceiling and 58.33% exceeded the Iranian arsenic ceiling (all four origin-group mean Cd concentrations also exceeded the Iranian Cd ceiling). The compliance contrast against FAO/WHO is much milder.
 
 ## Key numbers
@@ -117,7 +119,7 @@ Sample preparation. Dry-ashing for Cd and Pb: 5 g of each sample dried at 80 °C
 
 Instrumentation. Atomic absorption spectrophotometry on a Varian model AA-1275 (Varian Medical Systems, Inc., Palo Alto, CA, USA). Pb and Cd determined by graphite-furnace AAS with auto-sampler at furnace temperatures of 1,800 °C (Pb) and 2,100 °C (Cd). As determined by hydride-generation AAS on the wet-ashed extracts using the same Varian AA-1275 platform fitted with a hydride generation system. Three replicates per sample. Reagent blanks and a "standard plant sample" run alongside; recovery and CRM values not published.
 
-Speciation. Total As (hydride-generation AAS measures the total arsenic that can be reduced to AsH₃ under the digestion-and-hydride-formation conditions used; no As-species separation step is described). The wiki page accordingly uses `tAs` rather than `iAs` per CLAUDE.md Part 14. No Hg panel, no Cr or Cr-VI panel, no Ni panel.
+Speciation. Total As (hydride-generation AAS measures the total arsenic that can be reduced to AsH₃ under the digestion-and-hydride-formation conditions used; no As-species separation step is described). The wiki page accordingly uses `tAs` rather than `iAs`. No Hg panel, no Cr or Cr-VI panel, no Ni panel.
 
 Statistical analysis. SPSS v13.0 (SPSS Inc., Chicago, IL, USA). Mean ± SD by descriptive statistics. One-way ANOVA with Tukey post-test for per-province comparisons. Significance threshold p < 0.05.
 
@@ -165,7 +167,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
-| [48d950920](https://github.com/paleofoundation/heavymetalindex/commit/48d950920) | 2026-06-01 | major | 3 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

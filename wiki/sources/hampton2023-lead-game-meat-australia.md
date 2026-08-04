@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hampton et al. 2023 — Lead contamination in Australian game meat
 
+## Overview
+
 This study is the first systematic assessment of lead contamination in Australian game meat, examining 133 samples of four types: commercially available kangaroo (n=36) and Bennett's wallaby (n=28) products, and recreationally harvested venison (n=32) and stubble quail (n=37). Lead contamination arises from ammunition (lead-based gunshot and bullets) used in harvest. The study uses both digital radiography (to detect lead fragments) and ICP-MS (to measure total lead concentration). Venison and quail samples showed high exceedance rates of the Australian food safety threshold (0.1 mg/kg wet weight for livestock meat): 53% of venison and 86% of quail samples exceeded this threshold.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

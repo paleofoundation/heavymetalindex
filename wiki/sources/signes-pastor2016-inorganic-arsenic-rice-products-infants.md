@@ -35,6 +35,8 @@ updated: 2026-05-17
 
 # Signes-Pastor et al. 2016 — Inorganic arsenic in rice-based products for infants and young children
 
+## Overview
+
 UK-market survey speciating inorganic arsenic (Asi), DMA, and MMA in 179 commercial rice-based products sold for weaning and toddler-age consumption (baby rice, rice cereals, rice crackers), compared statistically against the US FDA 2014 published rice/rice-product survey for the same three product categories. Asi median across the UK baby-rice subset was 121 µg/kg dry weight, with 14% of samples exceeding the JECFA-proposed 200 µg/kg maximum for polished rice; rice crackers from the UK market showed a significantly higher Asi median (111 µg/kg) than the US-market rice cracker subset (79 µg/kg, p=0.011). Organically-produced samples, which were predominantly whole-grain, showed significantly higher Asi than non-organic milled samples within each product category. The paper closes by arguing that regulatory limits specifically for infant rice-based foods are urgently needed because the modelled per-serving Asi exposures fall within the EFSA BMDL01 risk range for the youngest infant population.
 
 ## Key numbers
@@ -86,13 +88,13 @@ Within-category Asi differences for organic vs non-organic were significant for 
 |---|---|---:|---|---|---|---|---|---|
 | Baby rice | US FDA 2014 | 85 | 0.114 (0.039 – 0.254) | 0.071 (0.015 – 0.204) | 0.003 (0.001 – 0.012) | 0.215 (0.550 – 0.341) [sic — source typo; total-As bounds 0.060–0.373 indicate likely intended ΣAs range upper bound is ~0.341] | 0.200 (0.060 – 0.373) | 65.5 (22.0 – 82.9) |
 | Baby rice | UK present study | 29 | 0.121 (0.056 – 0.268) | 0.041 (0.003 – 0.123) | 0.001 (0.001 – 0.004) | 0.175 (0.084 – 0.334) | — | 69.8 (51.4 – 84.6) |
-| | p-value |  | 0.235 | 0.001 | 0.002 | 0.028 | — | 0.676 |
+| | p-value | | 0.235 | 0.001 | 0.002 | 0.028 | — | 0.676 |
 | Rice cereals | US FDA 2014 | 105 | 0.091 (0.023 – 0.283) | 0.042 (0.007 – 0.493) | 0.001 (0.001 – 0.014) | 0.135 (0.041 – 0.625) | 0.132 (0.050 – 0.723) | 63.0 (18.8 – 87.7) |
 | Rice cereals | UK present study | 53 | 0.075 (0.008 – 0.323) | 0.037 (0.005 – 0.081) | 0.001 (0.001 – 0.004) | 0.119 (0.042 – 0.396) | — | 70.6 (14.2 – 89.6) |
-| | p-value |  | 0.096 | 0.004 | 0.590 | 0.005 | — | 0.077 |
+| | p-value | | 0.096 | 0.004 | 0.590 | 0.005 | — | 0.077 |
 | Rice crackers | US FDA 2014 | 199 | 0.079 (0.008 – 0.273) | 0.034 (0.001 – 0.477) | 0.001 (0.001 – 0.021) | 0.116 (0.012 – 0.657) | 0.121 (0.009 – 1.931) | 65.1 (18.4 – 97.6) |
 | Rice crackers | UK present study | 97 | 0.111 (0.018 – 0.201) | 0.025 (0.001 – 0.172) | 0.001 (0.001 – 0.006) | 0.141 (0.019 – 0.328) | — | 80.9 (44.8 – 100.0) |
-| | p-value |  | 0.011 | <0.001 | 0.224 | 0.153 | — | <0.001 |
+| | p-value | | 0.011 | <0.001 | 0.224 | 0.153 | — | <0.001 |
 
 UK rice crackers had significantly higher Asi than US rice crackers (median 111 vs 79 µg/kg, p=0.011); UK and US baby rice and rice cereals did not differ significantly in Asi. UK samples consistently had a higher Asi proportion of total speciated As, attributed by the authors to lower DMA in UK rice (geographic/cultivar effects on As speciation).
 
@@ -166,7 +168,7 @@ Enhanced 2026-05-17 from the prior 2026-05-07 revision under the v2.0 manual-fet
 
 1. **Added `raw_handle: MFK_inorganic-arsenic-in-rice-based-products-for-infan` and corrected `raw_path`** to the actual PDF location under `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/`. The prior path `raw/studies/...` did not exist on the filesystem.
 
-2. **Frontmatter slug fields converted to quoted-wikilink form** per current schema (Part 14 of CLAUDE.md and `docs/gpt-collaboration/system-prompt.md`): `products` and `ingredients` are now `["[[products/...]]", ...]` instead of bare strings.
+2. **Frontmatter slug fields converted to quoted-wikilink form** per current schema and `docs/gpt-collaboration/system-prompt.md`): `products` and `ingredients` are now `["[[products/...]]",...]` instead of bare strings.
 
 3. **Added `matrices: [rice, infant-cereal, baby-snack]`** (was absent). Values picked from the controlled vocabulary in `docs/gpt-collaboration/system-prompt.md` — `rice` for raw-ingredient context, `infant-cereal` for baby-rice and rice-cereal products, `baby-snack` for rice crackers.
 
@@ -177,9 +179,9 @@ Enhanced 2026-05-17 from the prior 2026-05-07 revision under the v2.0 manual-fet
 6. **`product_metal_scope` widened** from `[iAs]` only to `[iAs, tAs]` for both routed product pages. The paper reports both Asi and ΣAs (total speciated As) for UK samples and additionally cites US FDA total As; tAs is in-scope as a routed metal alongside iAs.
 
 7. **Body restructured to current schema:**
-   - Legacy `## Summary` heading replaced with un-headed opening paragraph per current `wiki/sources/` template.
-   - `## Key Numbers` (title-case) → `## Key numbers` (sentence-case per schema).
-   - `## Evidence Fitness`, `## Routing Notes`, `## Limitations`, and `## Wiki Pages Updated On Ingest` sections replaced by `## Methods (brief)`, `## Implications`, `## Wiki pages this source may touch`, and `## Verification notes`. The "evidence fitness" content (medians/ranges only, not sample-level values) is preserved inside `## Implications` under Certification.
+ - Legacy `## Summary` heading replaced with un-headed opening paragraph per current `wiki/sources/` template.
+ - `## Key Numbers` (title-case) → `## Key numbers` (sentence-case per schema).
+ - `## Evidence Fitness`, `## Routing Notes`, `## Limitations`, and `## Wiki Pages Updated On Ingest` sections replaced by `## Methods (brief)`, `## Implications`, `## Wiki pages this source may touch`, and `## Verification notes`. The "evidence fitness" content (medians/ranges only, not sample-level values) is preserved inside `## Implications` under Certification.
 
 8. **Key numbers expanded substantially** from the prior 6-row Table 3 summary. The prior version omitted: (a) the per-manufacturer baby-rice, rice-cereal, and rice-cracker breakdowns from Table 1; (b) the organic vs non-organic stratification (Table 2) — a major finding of the paper; (c) the full Table 3 comparison with DMA, MMA, ΣAs, total As, and Asi% columns; (d) the per-serving exposure estimates (Table 4) and the 0.31 / 0.47 / 0.38 µg Asi/kg b.w./day modelled exposures at median body weight; (e) the JECFA 0.200 mg/kg proposed-maximum exceedance percentages (14%, ~2%, ~1% for baby rice, rice cereals, rice crackers); (f) analytical performance figures (recoveries, LODs).
 
@@ -219,9 +221,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [749e65742](https://github.com/paleofoundation/heavymetalindex/commit/749e65742) | 2026-05-17 | major | 1 section added; narrative text revised |
-| [18111307d](https://github.com/paleofoundation/heavymetalindex/commit/18111307d) | 2026-05-17 | major | 5 sections added and 6 removed; narrative text revised |
-| [ee060260e](https://github.com/paleofoundation/heavymetalindex/commit/ee060260e) | 2026-05-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

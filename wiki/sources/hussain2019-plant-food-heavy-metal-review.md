@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hussain 2019 - Plant-food heavy metal review
 
+## Overview
+
 Hussain and colleagues reviewed arsenic, cadmium, lead, mercury, and nickel contamination in plant-based foods. The chapter is not a primary sampling study; it compiles literature tables for cereal grains, vegetables, fruits, nuts, pulses, and plant oils. This page records the review-level ranges and routing context only, and downstream quantitative pooling should prefer the underlying primary studies when those are already in the corpus or can be retrieved.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [9fa1a5113](https://github.com/paleofoundation/heavymetalindex/commit/9fa1a5113) | 2026-06-08 | major | 4 sections added; narrative text revised |

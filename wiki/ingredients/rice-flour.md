@@ -88,29 +88,7 @@ sources: 9
 
 # Rice Flour
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 2/10 HMTc analytes, total n=4 | only 2/10 analytes have evidence |
-| D2 Regional coverage | OK | 6 jurisdictions, top US 43% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, iAs THIN | Pb: needs 1 more study(ies); iAs: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 9 claims checked, 9 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming rice-flour: codex-cxs-193-1995 |
-| D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, iAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, iAs; pairing 0 paired, 2 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); iAs: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.50, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -142,20 +120,20 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. (2025). *Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment*. Environmental Geochemistry and Health. [https://doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2). Peer-reviewed, A-tier. [[sources/arsenic2025-unknown|Source record]]
-2. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
-3. Gacal M, Gut-Pietrasz K, and Cwielag-Drabek M (2023). *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*. Annales Academiae Medicae Silesiensis. [https://doi.org/10.18794/aams/172906](https://doi.org/10.18794/aams/172906). Peer-reviewed, A-tier. [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Source record]]
-4. Chiger A and Lynch MT (2017). *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*. Abt Associates report prepared for Healthy Babies Bright Futures. [www.healthybabyfood.org](https://www.healthybabyfood.org/sites/healthybabyfoods.org/files/2017-12/HBBF_InorganicArsenicReport_Dec2017.pdf). Agency report, B-tier. [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Source record]]
-5. Song G, Tan H, Cheng C, Li P, Sun X, Zhou Y, et al. (2024). *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*. Toxics 12(5): 325. [https://doi.org/10.3390/toxics12050325](https://doi.org/10.3390/toxics12050325). Peer-reviewed, A-tier. [[sources/song2024-crvi-hplc-icpms-food-reduction|Source record]]
-6. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+1. [[sources/arsenic2025-unknown|Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment]]<span class="hmi-ref-meta">Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. · Environmental Geochemistry and Health · 2025 · [doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
+3. [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland|Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers]]<span class="hmi-ref-meta">Gacal M, Gut-Pietrasz K, and Cwielag-Drabek M · Annales Academiae Medicae Silesiensis · 2023 · [doi.org/10.18794/aams/172906](https://doi.org/10.18794/aams/172906)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment]]<span class="hmi-ref-meta">Chiger A and Lynch MT · Abt Associates report prepared for Healthy Babies Bright Futures · 2017 · [www.healthybabyfood.org](https://www.healthybabyfood.org/sites/healthybabyfoods.org/files/2017-12/HBBF_InorganicArsenicReport_Dec2017.pdf)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/song2024-crvi-hplc-icpms-food-reduction|Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods]]<span class="hmi-ref-meta">Song G, Tan H, Cheng C, Li P, Sun X, Zhou Y, et al. · Toxics 12(5): 325 · 2024 · [doi.org/10.3390/toxics12050325](https://doi.org/10.3390/toxics12050325)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -215,9 +193,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [ff65dc934](https://github.com/paleofoundation/heavymetalindex/commit/ff65dc934) | 2026-05-17 | major | 6 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

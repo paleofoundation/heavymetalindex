@@ -2,7 +2,7 @@
 source_page: wiki/products/menstrual-pads.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6ad3ca9346a7e118d0ec81e9d7a2cd51b3a2138f811ed340fc33e18b7cea4dee
+source_page_sha256: 405b495275a94332ef1af409ca21d3451d9ac1c8b7048f55b2153ca5cc221340
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 

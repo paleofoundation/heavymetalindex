@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Sultan et al. 2023 — Potentially hazardous element leaching from cookware
 
+## Overview
+
 Sultan and colleagues measured elemental composition of locally made aluminum, stainless-steel, and copper cookware from Pakistan and tested metal release under acidic, alkaline, neutral-water, and cooked-meat conditions. The source is direct product evidence for metal-alloy cookware and leaching-context evidence for food-contact exposure. It should not be treated as a nonstick-coating paper merely because the auto-fetch row used that label.
 
 ## Key numbers
@@ -73,6 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [6c01fa54c](https://github.com/paleofoundation/heavymetalindex/commit/6c01fa54c) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

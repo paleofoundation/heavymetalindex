@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Reinke 1975 - Fish and shellfish inorganic arsenic
 
+## Overview
+
 Reinke and colleagues developed a selective extraction and polarographic method for arsenite and arsenate in fish and shellfish tissue. The occurrence-relevant table reports total arsenic and total inorganic arsenic, defined by the paper as `As3+` plus `As5+`, for eight fish or shellfish tissues. The key finding is that high total arsenic in several marine foods was not matched by high inorganic arsenic, except for lobster hepatopancreas at `0.9 ppm`.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [19fd78215](https://github.com/paleofoundation/heavymetalindex/commit/19fd78215) | 2026-06-08 | major | 4 sections added; narrative text revised |

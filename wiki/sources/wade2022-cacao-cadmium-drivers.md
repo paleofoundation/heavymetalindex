@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wade et al. 2022 — Drivers of cacao bean cadmium across the Cacao Belt
 
+## Overview
+
 This systematic review and quantitative synthesis compiles soil, leaf, and bean cadmium data from 31 studies across 489 site-years and 10 countries within the global Cacao Belt (roughly 20 degrees latitude on either side of the equator). Using boosted regression trees (BRTs), the authors identify total soil cadmium concentration and soil pH as the dominant predictors of bean Cd content, with leaf Cd as a secondary predictor, while available (extractable) soil Cd has negligible explanatory power independent of total soil Cd. The practical implication is that soil-based remediation strategies are less promising than plant physiology approaches such as low-Cd-accumulating rootstocks or cultivar breeding.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e4c0b2340](https://github.com/paleofoundation/heavymetalindex/commit/e4c0b2340) | 2026-05-13 | major | 4 sections added; narrative text revised |

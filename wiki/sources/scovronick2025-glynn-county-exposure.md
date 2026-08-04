@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Scovronick et al. 2025 — Human exposure to industrial toxicants in Glynn County, Georgia
 
+## Overview
+
 This community-engaged biomonitoring study enrolled 100 adults in coastal Brunswick, Georgia, a city surrounded by four EPA National Priorities List Superfund sites contaminated with Aroclor 1268 PCBs, toxaphene pesticide, and mercury. The study was initiated at the request of local community leaders and environmental groups, and it measured whole blood metals (Pb, Cd, tHg) alongside serum PCBs, toxaphene, p,p'-DDE, and PFAS. The primary finding was that levels of the highly chlorinated PCBs associated with Aroclor 1268 were substantially elevated — 19–40% of participants exceeded the estimated 95th percentile reference levels for PCBs 196+203, 199, and 206 — while blood mercury levels were broadly comparable to the US general population. The seafood pathway emerged as a significant predictor of PCB exposure; participants who reported active fishing had significantly higher odds of detectable highly chlorinated PCBs (OR 5.25–8.52 for PCBs 199 and 206).
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a0f6a8e80](https://github.com/paleofoundation/heavymetalindex/commit/a0f6a8e80) | 2026-05-12 | major | 4 sections added; narrative text revised |

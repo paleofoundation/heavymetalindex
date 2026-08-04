@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Gao and Kannan 2020 - EDCs in U.S. feminine hygiene products
 
+## Overview
+
 Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The analyte panel was phthalates, parabens, bisphenols, and triclocarban; the study did not measure Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U, or any other heavy-metal analyte. This page is therefore a product-occurrence context source only, useful for feminine-care exposure-method precedent and product-category routing, not for heavy-metal occurrence pools.
 
 ## Key numbers
@@ -97,6 +99,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [cdfa4e487](https://github.com/paleofoundation/heavymetalindex/commit/cdfa4e487) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

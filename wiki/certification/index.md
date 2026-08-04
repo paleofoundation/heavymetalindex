@@ -5,6 +5,8 @@ audience: [regulator, educator, researcher]
 updated: 2026-05-02
 ---
 
+## Overview
+
 The Heavy Metal Index is operated by the Paleo Foundation, which also operates the Heavy Metal Tested and Certified program at [heavymetaltested.com](https://heavymetaltested.com). These properties are maintained as architecturally separate products; this wiki does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. Where certification-program references appear in this wiki, they are treated as external commercial instruments, not as content produced by the wiki. The program is described at [[heavy-metal-tested-certified]].
 
 For general coverage of certification and standards in the heavy-metals space, including comparative analyses across certification bodies and standards-setting organizations, pages will be developed as the relevant literature is ingested. Internal staff tools may use Index evidence for standards review, but public Index pages do not publish candidate limits, pass/fail cutoffs, or certification approvals.
@@ -22,9 +24,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [276f55976](https://github.com/paleofoundation/heavymetalindex/commit/276f55976) | 2026-06-09 | minor | Narrative text revised |
 | [80c3dcdd2](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcdd2) | 2026-05-02 | major | 1 section added; narrative text revised |
 | [541b2a113](https://github.com/paleofoundation/heavymetalindex/commit/541b2a113) | 2026-04-30 | minor | Narrative text revised |
-| [2bf254de0](https://github.com/paleofoundation/heavymetalindex/commit/2bf254de0) | 2026-04-30 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

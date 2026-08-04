@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pokorska-Niewiada et al. 2024 - trace elements in Polish-market coffee
 
+## Overview
+
 Pokorska-Niewiada and colleagues measured lead and cadmium in commercially available ground and instant coffees sold in Poland, then measured transfer into brewed coffee infusions. The dry coffee concentrations were low, and the authors reported limited transfer into ground-coffee brews, especially for lead.
 
 ## Key numbers
@@ -70,7 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [c5e9176e2](https://github.com/paleofoundation/heavymetalindex/commit/c5e9176e2) | 2026-06-09 | minor | Narrative text revised |
-| [11d64a571](https://github.com/paleofoundation/heavymetalindex/commit/11d64a571) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

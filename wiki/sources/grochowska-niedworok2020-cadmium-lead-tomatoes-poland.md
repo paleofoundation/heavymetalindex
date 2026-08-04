@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Grochowska-Niedworok et al. 2020 — Cadmium and lead in Polish tomatoes and tomato products
 
+## Overview
+
 This Polish study assessed cadmium and lead contamination across 25 samples of fresh tomatoes (multiple varieties and farming systems) and processed tomato products (concentrates, purees, juices, sauces, dried tomatoes), comparing measured concentrations against EU maximum levels set in Commission Regulation (EC) No 1881/2006. Nearly all samples fell within regulatory limits; the sole exceedance was a canned tomato concentrate with Cd at 0.064 mg/kg fresh weight, modestly above the 0.050 mg/kg EU limit. The study found generally low contamination levels consistent with tomatoes being among the least heavy-metal-laden vegetable groups, while flagging that frequent consumption and the bioaccumulative nature of both metals warrant ongoing monitoring.
 
 ## Key numbers
@@ -118,9 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [059a41347](https://github.com/paleofoundation/heavymetalindex/commit/059a41347) | 2026-05-18 | minor | Narrative text revised |
-| [20a6b08de](https://github.com/paleofoundation/heavymetalindex/commit/20a6b08de) | 2026-05-18 | major | 1 section added; narrative text revised |
-| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Zmudzinska et al. 2022 — Heavy Metals in Ready-to-Eat Baby Foods, Poland
 
+## Overview
+
 Polish survey assessing As, Cd, Hg, and Pb in 397 ready-to-eat products marketed for children aged 0.5–3 years, sampled across six product categories from Polish brick-and-mortar and online retail between December 2020 and September 2021. The study reports per-category means, maxima, exceedance counts against EU baby-food limits, and exposure estimates (EDI, EWI, PTWI%, BMDL%, THQ, CR) by age subgroup. Pb exceeded the applicable EU limit in 4.53% of samples and Hg in 1.5%; As and Cd showed no exceedances.
 
 ## Key numbers
@@ -143,7 +145,7 @@ Enhanced 2026-05-17 from the prior 2026-05-12 revision under the v2.0 manual-fet
 
 2. **Corrected Hg-max attribution.** Prior version stated "poultry dinners (37.25 µg/kg)" for the Hg maximum, copied from the abstract. Source body (Results §3.1, line "The highest Hg value was 37.25 µg/kg in a lunch based on vegetables, rice, and hake") and Discussion ("those containing hake had the highest levels of Hg (37.25 µg/kg)") both state the highest-Hg product was a **hake (fish) baby dinner**, not poultry. The abstract's "dinners with poultry" wording is a paper-internal abstract/body discrepancy resolvable in favour of the body; the prior session flagged this as anomalous in a footnote but did not correct the attribution. Corrected to "hake/rice/vegetable baby dinner." The earlier defensive note about "fish-containing components in multi-ingredient poultry dinners" is removed as no longer needed.
 
-3. **Methods section expanded** with instrument vendors (PerkinElmer NexION 300D for ICP-MS; Leco AMA-254 for Hg amalgamation; Berghof Speedwave microwave digester), reference materials (Corn Flour INCT-CF-3, Skim Milk Powder CRM 63R, Simulated Diet D), LODs (As 0.019, Cd 0.017, Pb 0.16 µg/kg; Hg 0.003 ng/kg), full digestion protocol, statistical software, and the explicit US EPA / JECFA constants used for the EDI/PTWI/BMDL/THQ/CR calculations. Vendor/material names are scientific-method exception per the locked 2026-05-17 brand-firewall reading (CLAUDE.md Part 12 Exception 2), not brand-attribution-to-contamination.
+3. **Methods section expanded** with instrument vendors (PerkinElmer NexION 300D for ICP-MS; Leco AMA-254 for Hg amalgamation; Berghof Speedwave microwave digester), reference materials (Corn Flour INCT-CF-3, Skim Milk Powder CRM 63R, Simulated Diet D), LODs (As 0.019, Cd 0.017, Pb 0.16 µg/kg; Hg 0.003 ng/kg), full digestion protocol, statistical software, and the explicit US EPA / JECFA constants used for the EDI/PTWI/BMDL/THQ/CR calculations. Vendor/material names are scientific-method exception per the locked 2026-05-17 brand-firewall reading (Exception 2), not brand-attribution-to-contamination.
 
 4. **Key numbers expanded** with the full Table 3 (per-category exceedance counts), Table 5 (EDI/EWI/PTWI/BMDL by category), Table 6 (THQ/CR by category), and Table 7 (age-subgroup means). Prior version had only the abstract-level summary.
 
@@ -170,8 +172,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [03effda73](https://github.com/paleofoundation/heavymetalindex/commit/03effda73) | 2026-05-17 | major | 3 sections added and 2 removed; narrative text revised |
-| [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

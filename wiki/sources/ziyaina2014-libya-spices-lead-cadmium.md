@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ziyaina et al. 2014 — Lead and cadmium in Tripoli market spices
 
+## Overview
+
 Ziyaina and colleagues measured Pb and Cd in selected spices available in Tripoli City markets, Libya. The study covered red pepper, black pepper, turmeric, and mixed spices collected from wholesale and retail markets, then analyzed nitric-acid/hydrogen-peroxide digests by atomic absorption spectroscopy. The main occurrence signal is that Pb means were below the source-cited FAO/WHO limit, while Cd means for several spice/source combinations were above the source-cited 0.2 ppm recommendation.
 
 ## Key numbers
@@ -91,6 +93,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [6ef3fdc16](https://github.com/paleofoundation/heavymetalindex/commit/6ef3fdc16) | 2026-06-08 | major | 4 sections added; narrative text revised |

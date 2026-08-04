@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # Wickrama-Arachchige et al. 2022 - elements in edible aquatic organisms in Sri Lanka
 
+## Overview
+
 Wickrama-Arachchige and colleagues measured 36 elements in edible aquatic organisms sold in Sri Lankan local fish markets. The main PDF reports trophic-level summaries, tuna muscle-type comparisons, a yellowfin-tuna mercury comparison table, and yellowfin-tuna risk calculations. Species-level concentration tables are named as supplementary Tables S2 and S3; they were not bundled in the local PDF, so this page preserves the exact main-PDF values and flags the supplement as required for future species-level extraction.
 
 The study reports total mercury measured by a mercury analyzer. For the human-health calculation, the authors assume all total Hg in yellowfin tuna is methylmercury; this page records that assumption as a source assumption and does not relabel the measured occurrence table as directly speciated MeHg.
@@ -180,3 +182,16 @@ The paper is not infant-formula evidence despite being located in an infant-form
 - Full-PDF read performed from the 19-page MDPI PDF. Main-PDF Table 1, Figures 1-5, and all main-text numeric summaries were checked once from `pdftotext -layout` and a second time against the extracted layout text before commit. The source's supplementary Tables S1-S4 are named by the PDF but were not bundled in the local PDF.
 - Brand firewall: the source reports species- and muscle-level market seafood values, not branded commercial products.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [924e2c465](https://github.com/paleofoundation/heavymetalindex/commit/924e2c465) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

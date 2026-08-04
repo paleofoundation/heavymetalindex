@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Asadi Touranlou et al. 2025 - Health risk from heavy metals in Iranian bread, Monte Carlo analysis
 
+## Overview
+
 This study quantifies heavy metal contamination in 248 Iranian bread samples spanning four traditional bread types (lavash, taftoon, barbari/Barbary, sangak) across 11 provinces, then applies Monte Carlo simulation to characterize non-cancer and cancer risk for children and adults. Chromium (Cr) and iron (Fe) drive the non-cancer risk model, with hazard indices (HI) above 1 for both children and adults in the source's 95% Monte Carlo interval. Lead (Pb) and cadmium (Cd), evaluated for cancer risk only in four provinces where they were detected, fall in the source's moderate-risk band.
 
 ## Key numbers
@@ -117,8 +119,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5801e3dd6](https://github.com/paleofoundation/heavymetalindex/commit/5801e3dd6) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [c3a27e230](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e230) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

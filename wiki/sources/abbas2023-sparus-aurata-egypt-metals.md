@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Abbas 2023 — Heavy metals in wild vs. farmed gilthead seabream (Sparus aurata), Egypt
 
+## Overview
+
 This study measured six heavy metals (Fe, Pb, Cd, Ni, Cu, Zn) in muscle, liver, intestine, and gill tissues of gilthead seabream (Sparus aurata) from two sources: wild fish from Bardawil Lake (North Sinai, Egypt) and farmed fish from a private fish farm at Ezbet Elborg, Domeitta. Cooking effects on metal concentrations were assessed for frying, microwave heating, and grilling. Human health risk assessment was conducted using Target Hazard Quotient (THQ), Hazard Index (HI), and carcinogenic risk index.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c932ae397](https://github.com/paleofoundation/heavymetalindex/commit/c932ae397) | 2026-05-13 | major | 4 sections added; narrative text revised |

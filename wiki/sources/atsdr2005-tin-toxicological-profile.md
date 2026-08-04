@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # ATSDR 2005 — Toxicological Profile for Tin and Tin Compounds
 
+## Overview
+
 The August 2005 ATSDR Toxicological Profile for Tin and Tin Compounds (Profile No. 55, "tp55") is the comprehensive U.S. toxicology synthesis for elemental tin, inorganic tin compounds (stannous and stannic ions, principally entering the diet through tinplated cans), and organotin compounds (mono-, di-, and tributyltin; triphenyltin; trialkyltins), prepared under CERCLA Section 104(i) authority and superseding the September 2003 draft for public comment. The profile maintains an enforced inorganic-vs-organotin species distinction throughout: derived oral Minimal Risk Levels (MRLs) span three orders of magnitude between inorganic tin (0.3 mg Sn/kg/day, intermediate) and tributyltin oxide (0.0003 mg/kg/day, intermediate and chronic), reflecting the fundamentally different toxicological profiles of the two classes.
 
 ## Key numbers
@@ -126,9 +128,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 8 sections added and 3 removed; narrative text revised |
 | [3233f2706](https://github.com/paleofoundation/heavymetalindex/commit/3233f2706) | 2026-06-03 | major | 5 sections added and 7 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

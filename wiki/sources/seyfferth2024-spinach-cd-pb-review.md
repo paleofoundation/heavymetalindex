@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Seyfferth et al. 2024 — Cadmium and lead in U.S. spinach: comprehensive review
 
+## Overview
+
 This review synthesizes U.S. occurrence data and soil-plant mechanisms for Cd and Pb in spinach, using paired data from the 1980s USDA-FDA-EPA national survey and the FDA Total Diet Study (TDS) to document concentrations, trends over time, and the practicality of mitigation strategies. Cd in U.S. spinach ranges approximately 2 orders of magnitude (0.01–1.1 mg/kg fresh weight) and is higher in newer TDS data than in 1980s samples, likely reflecting geographic shift toward the Salinas Valley growing region. Pb in U.S. spinach has declined substantially over time, consistent with the phase-out of leaded gasoline, though approximately 15–30% of recent TDS samples still exceed the FDA draft guidance limit for vegetables in baby and young-child foods. The review is directly relevant to FDA Closer to Zero action plan implementation and proposes mitigation strategies including chloride reduction in irrigation to limit Cd bioavailability.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [591741c26](https://github.com/paleofoundation/heavymetalindex/commit/591741c26) | 2026-05-13 | major | 4 sections added; narrative text revised |

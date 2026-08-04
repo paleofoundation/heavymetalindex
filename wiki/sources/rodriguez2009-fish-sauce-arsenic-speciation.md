@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Rodriguez, Raber & Goessler 2009 — Arsenic speciation in fish sauce by HPLC-ICPMS
 
+## Overview
+
 Six commercial fish sauces from Thailand (n=4) and Vietnam (n=2), purchased at local stores in Graz, Austria, were analysed for total arsenic by flow injection ICP-MS and for arsenic speciation by HPLC-ICP-MS with HPLC/ESI–MS confirmation on the three highest-concentration samples. Total arsenic ranged from 0.69 to 2.75 mg/L across the six samples. Speciation identified arsenobetaine as the dominant species (82–94% of total arsenic), with arsenocholine (4.9–7.7%), trimethylarsine oxide (TMAO, 0.7–7.8%), and trimethylarsoniopropionate (TMAP, 0.5–2.1%) as minor components. Anion-exchange chromatography showed that the highly toxic anionic species — arsenite, arsenate, methylarsonic acid (MA), and dimethylarsinic acid (DMA) — were all below the 0.01 mg/L detection limit in every sample. The authors note that their results contradict an earlier study (Kato, Nagashima & Shiomi 2004, Fisheries Science 70, 695–702), which reported DMA as the major arsenical in Japanese fish sauces; the authors attribute the divergence either to matrix-influenced detection by the Kato et al. instrumentation or to genuine difference in fish-sauce arsenic profile between Japanese and Thai/Vietnamese product. The conclusion drawn by the authors is that the fermentation process does not transform marine non-toxic arsenicals into toxic forms, but they recommend broader sampling to resolve the Kato et al. discrepancy before fish sauce is endorsed as an iron-fortification vehicle in iron-deficient populations.
 
 ## Key numbers
@@ -147,7 +149,7 @@ Not appropriate for:
 - **Evidence-tier B rationale.** Peer-reviewed primary research with CRM-anchored QC (DORM-2 total As recovered at 17.2 ± 0.2 mg/kg by conventional ICPMS and 17.2 ± 0.3 mg/kg by FI-ICPMS; AB recovered at 16.6 ± 0.4 mg/kg vs certified 16.4 ± 1.1; tetramethylarsonium recovered at 0.24 ± 0.09 vs certified 0.248 ± 0.054). The methodological strength is high (HPLC-ICPMS with HPLC/ESI–MS confirmation; explicit anion-exchange screen for the toxic species). The primary tier-B limitation is the convenience sample of n=6 from a single retail channel in Graz, Austria, and the single-purchase cross-section without temporal replication.
 - **Disagreement with Kato et al. 2004.** The authors note their results contradict Kato, Nagashima & Shiomi 2004 (Fisheries Science 70, 695–702), which reported DMA as the major arsenical in Japanese fish sauces. The Implications section records this as an open paired-citation question rather than as a Kato-superseded claim. This is a literature-level observation, not a HMTc-level pivot, and stays within the Part 2 firewall.
 - **Iron-fortification framing.** The authors cite the iron-fortification context (Fidler et al. 2003, Thuy et al. 2003, Mannar & Gallego 2002) as motivation for resolving the speciation. The wiki Implications section retains this as a downstream-synthesis flag, not as a wiki-side recommendation about fortification programs.
-- **`fish-sauce` ingredient and product slugs absent from taxonomy.** Surfaced for Karen's future taxonomy-review attention. Current routing uses `[[ingredients/fish]]`, `[[ingredients/seafood]]`, and `[[products/condiments-general]]`. Per CLAUDE.md, this ingest skill does not create ingredient or product pages; the gap is logged for the taxonomy review pass.
+- **`fish-sauce` ingredient and product slugs absent from taxonomy.** Surfaced for Karen's future taxonomy-review attention. Current routing uses `[[ingredients/fish]]`, `[[ingredients/seafood]]`, and `[[products/condiments-general]]`. This ingest skill does not create ingredient or product pages; the gap is logged for the taxonomy review pass.
 - **Folder placement.** PDF is filed under `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/`. The folder is the upstream sorter's category and is preserved (immutable per Part 4).
 
 ## Wiki pages this source may touch
@@ -168,7 +170,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
-| [fb729e702](https://github.com/paleofoundation/heavymetalindex/commit/fb729e702) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

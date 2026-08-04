@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Burrell and Exley 2010 — Aluminium in infant formulas
 
+## Overview
+
 Burrell and Exley measured aluminium in infant formula products from the UK market, covering both ready-made liquid formulas and powders, cow-milk-based and a soya-based product, and first-infant, follow-on, growing-up, preterm, and good-night formulations. Ready-made formulas (n=8) ranged from 175.5 to 700.4 µg/L; the highest was the preterm formula. Powder-format entries in Table 2 (n=8), evaluated as prepared-milk equivalents per manufacturer instructions, ranged from 333.3 to 629.0 µg/L; the highest was the soya-based powder. The authors compared these values to typical breast-milk aluminium concentrations (~15-30 µg/L) and characterized formula aluminium content as 10 to 40 times higher.
 
 ## Key numbers
@@ -84,9 +86,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [823f0db5f](https://github.com/paleofoundation/heavymetalindex/commit/823f0db5f) | 2026-05-18 | minor | Narrative text revised |
-| [23e1355b3](https://github.com/paleofoundation/heavymetalindex/commit/23e1355b3) | 2026-05-17 | minor | Narrative text revised |
-| [018ad5c31](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c31) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

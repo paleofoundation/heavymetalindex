@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # McSheehy and Szpunar 2000 - arsenic speciation in edible algae
 
+## Overview
+
 McSheehy and Szpunar developed a two-dimensional SE-AE-HPLC-ICP-MS and ESI-MS/MS workflow for arsenosugar identification in edible algae extracts. The occurrence-relevant table reports total arsenic and "mineral" arsenic in commercially available edible algal products on the French market. The sample frame was enriched for products already withdrawn because of high mineral arsenic, so the values are direct measurements but not a random market survey.
 
 ## Key numbers
@@ -102,6 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [a1543108e](https://github.com/paleofoundation/heavymetalindex/commit/a1543108e) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

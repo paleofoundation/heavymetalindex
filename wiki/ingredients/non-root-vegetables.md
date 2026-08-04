@@ -88,29 +88,7 @@ sources: 24
 
 # Non-root vegetables
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | GAP | 2/10 HMTc analytes, total n=2 | only 2/10 analytes have evidence |
-| D2 Regional coverage | OK | 9 jurisdictions, top CN 30% | — |
-| D3 Anthropogenic evidence | GAP | 1 irrigation-water + 1 agricultural-soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | iAs THIN, tHg THIN | iAs: needs 2 more study(ies); tHg: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/8 populated cells declare a basis token | 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 1 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming non-root-vegetables: fsa2016-infant-food-formula-metals-survey |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 7 metal(s) covered | — |
-| D11 Standards-readiness | NOT-READY | priority: iAs, tHg; pairing 0 paired, 2 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); basis: 8 populated cell(s) lack a basis token: iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below staple bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or a closely matching non-infant-specific food composite in the FS102048 survey. Exact concentrations remain in progress until Table 6 is parsed into structured ingredient rows with quantitation flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -127,12 +105,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
 | Pb | pending | — | — | — |
-| Cd | pending | — | — | — |
+| Cd | n=3 | 0.239–176.5 | low | — |
 | iAs | n=1 | 9.4–125.3 | low | — |
 | tAs | data gap | — | — | — |
 | tHg | n=1 | 0–0.2 | low | — |
 | Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
+| Al | n=1 | 87.3–115.1 | low | — |
 | Cr | data gap | — | — | — |
 | Sn | data gap | — | — | — |
 | U | data gap | — | — | — |
@@ -190,15 +168,15 @@ European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximu
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -232,9 +210,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [6f2afad63](https://github.com/paleofoundation/heavymetalindex/commit/6f2afad63) | 2026-05-31 | correction | Contamination-profile values revised |
-| [4929e59d8](https://github.com/paleofoundation/heavymetalindex/commit/4929e59d8) | 2026-05-31 | major | Contamination-profile values revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
+| [a1c3b5b59](https://github.com/paleofoundation/heavymetalindex/commit/a1c3b5b59) | 2026-07-27 | correction | Contamination-profile values revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Orywal et al. 2021 — Heavy metals in dried wild-grown mushrooms, Poland
 
+## Overview
+
 This study measured mercury (Hg), lead (Pb), cadmium (Cd), and arsenic (As) in 80 samples of dried wild-grown mushrooms (Boletus edulis and Xerocomus badius) purchased at retail in Poland, and assessed the consumer health risk associated with standard portion consumption. Boletus edulis showed markedly higher Hg and Cd concentrations than Xerocomus badius. Consumption of a standard dried portion of Boletus edulis corresponded to 76.2%, 34.1%, 33.0%, and 4.3% of maximum daily doses for Hg, Cd, Pb, and As, respectively, indicating Hg and Cd as the primary concerns in this matrix. The study highlights a regulatory gap: EU law defines maximum levels for Cd and Hg only in fresh mushrooms and for Pb only in fresh cultivated mushrooms, leaving dried wild-grown mushrooms without enforceable limits.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

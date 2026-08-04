@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Kicińska & Kowalczyk 2025 — Heavy metals (Cr, Fe, Mn, Ni, Zn) in online-market cosmetics with QRA-based health risk
 
+## Overview
+
 This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 23 cosmetic products (foundations, blushes, lipsticks, face creams, face masks, eye shadows) purchased from the online consumer market and computed margin of safety (MoS), hazard quotient (HQ), hazard index (HI), lifetime cancer risk (LCR) and quantitative risk assessment (QRA) per US EPA guidelines. Mean concentrations ranked Fe (6,407) > Zn (190) > Mn (88) > Cr (24) > Ni (8) mg/kg across the 23-sample set. The authors concluded that the calculated MoS, HQ and HI values for all cosmetic samples indicated the products do not present a risk to human health under modeled use, but reported elevated maxima for Cr (416 mg/kg in a blush) and Ni (95 mg/kg in the same blush) that exceed values reported in literature for those product categories.
 
 ## Key numbers
@@ -93,9 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [eb714c69b](https://github.com/paleofoundation/heavymetalindex/commit/eb714c69b) | 2026-05-17 | minor | Narrative text revised |
-| [08b214968](https://github.com/paleofoundation/heavymetalindex/commit/08b214968) | 2026-05-17 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Brima et al. 2025 — toxic elements in African foods sold in the UK market
 
+## Overview
+
 Brima, Haris, and Frei measured arsenic, cadmium, mercury, and lead in 152 African food and additive samples sold in the UK. The source is broad food-occurrence evidence, with a routeable spices subcategory and additional context for fish, prawns, and non-food additives such as kaun, calabash, and chuna.
 
 ## Key numbers
@@ -74,9 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [53e71d443](https://github.com/paleofoundation/heavymetalindex/commit/53e71d443) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

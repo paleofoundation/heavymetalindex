@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Luvonga 2020 — Analytical methodologies for organoarsenicals in edible marine species (methods review)
 
+## Overview
+
 Luvonga and colleagues (US National Institute of Standards and Technology) reviewed the analytical methodologies for determining organoarsenicals in edible marine species (seafood and seaweed): sample handling, extraction, cleanup, chromatographic separation, element-specific detection, and molecular characterization. This is a methods review with no primary occurrence measurements; its relevance to the Category 6 seaweed-kelp-foods row is methodological and toxicological framing rather than concentration data. Its load-bearing point for the row is that total arsenic is an inadequate dietary-risk indicator for seaweed: organoarsenicals (predominantly arsenosugars) make up >85% of total arsenic in most seafood, several organoarsenicals (arsenic-containing hydrocarbons and fatty acids) have toxicity approaching inorganic arsenic, and seaweed arsenic is especially difficult to extract and speciate reliably — so speciated inorganic-arsenic measurement (with quality standards and CRMs) is essential for credible risk assessment and regulation.
 
 ## Key numbers
@@ -72,8 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [7b0d0960c](https://github.com/paleofoundation/heavymetalindex/commit/7b0d0960c) | 2026-06-08 | minor | Narrative text revised |
-| [5b27d45ad](https://github.com/paleofoundation/heavymetalindex/commit/5b27d45ad) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

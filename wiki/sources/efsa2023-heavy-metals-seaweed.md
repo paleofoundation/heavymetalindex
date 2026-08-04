@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2023 - Heavy metals in seaweeds and halophytes
 
+## Overview
+
 EFSA assessed occurrence and dietary exposure for cadmium, lead, total arsenic, inorganic arsenic, total mercury, and iodine in seaweeds, halophytes, and products based on or containing seaweed in Europe. The report used sampling years 2011-2021 and separates total arsenic from inorganic arsenic, and total mercury from the few reported methylmercury and inorganic-mercury records. The PDF-visible tables provide aggregate occurrence means by FoodEx-style seaweed group and exposure estimates for current seaweed consumers and replacement-scenario products.
 
 ## Key numbers
@@ -85,9 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [977b4b50f](https://github.com/paleofoundation/heavymetalindex/commit/977b4b50f) | 2026-06-09 | minor | Narrative text revised |
 | [d9030eae2](https://github.com/paleofoundation/heavymetalindex/commit/d9030eae2) | 2026-06-08 | major | 1 section added and 1 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [97958635e](https://github.com/paleofoundation/heavymetalindex/commit/97958635e) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

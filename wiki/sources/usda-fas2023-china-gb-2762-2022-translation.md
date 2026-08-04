@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # USDA FAS GAIN Report CH2023-0040 (2023) — China releases GB 2762-2022 maximum levels of contaminants in foods (unofficial English translation)
 
+## Overview
+
 GAIN Report CH2023-0040, prepared by FAS China Staff in Beijing and approved by Adam Branson on 20 March 2023, is the USDA Foreign Agricultural Service's unofficial English translation of the National Food Safety Standard for Maximum Levels of Contaminants in Foods (GB 2762-2022). The Chinese standard was released on 30 June 2022 by the National Health Commission (NHC) and the State Administration for Market Regulation (SAMR) and entered into force on 30 June 2023, replacing GB 2762-2017 (whose translation FAS published on 9 May 2018 as GAIN report CH18025). The report transcribes the standard's foreword, scope, terms, principles of application, and Tables 1 through 12 of analyte-by-food-category maximum limits, plus Appendix A on food category definitions. Changes from the 2017 version are marked in red in the translated text. This source page anchors the GB 2762-2022 regulatory framework on the wiki via its USDA-translated text rather than the original Chinese; the active regulation page [[regulations/china-gb-2762-2022-contaminants]] is the routing target for downstream comparator references.
 
 ## Key numbers
@@ -274,9 +276,9 @@ GAIN Report CH2023-0040 is a regulatory-translation document, not an analytical 
 - The active regulation page [[regulations/china-gb-2762-2022-contaminants]] was created 2026-05-18 ahead of this source-page ingest; this page is the underlying USDA-translation source it cites in its "Sources" section ("USDA Foreign Agricultural Service. China releases standard for maximum levels of contaminants in foods…").
 - `jurisdictions: [CN]` because the standard is a Chinese-jurisdiction instrument; the USDA translation is the access surface, not a US-jurisdiction document.
 - `metals: [Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr]` matches the metal-bearing tables explicitly present in the standard. The standard separately distinguishes total vs. inorganic As and total vs. methyl Hg in Tables 3 and 4 (with the explicit speciation footnotes preserved above). Cr is asserted as total Cr, not Cr-VI, because Table 7 does not state speciation.
-- `ingredients` and `products` populated from the in-taxonomy slugs whose pages correspond to food categories named with metal-specific limits in the standard. The broad coverage is intentional per CLAUDE.md Part 5b routing layer guidance — the routing audit fans broad scopes out to sibling pages.
+- `ingredients` and `products` populated from the in-taxonomy slugs whose pages correspond to food categories named with metal-specific limits in the standard. The broad coverage is intentional routing layer guidance — the routing audit fans broad scopes out to sibling pages.
 - License field set to `us-government-work-public-domain` because the FAS GAIN report is a US-government work product (translation prepared by FAS China Staff and approved by Adam Branson); the underlying GB 2762-2022 standard is a Chinese-government instrument and its copyright status is separate from this translation.
-- No HMTc threshold proposals or comparisons are made on this page per CLAUDE.md Part 2; the wiki records what the regulation states, and any HMTc-side use of the values lives on the HMTc certification pages, not here.
+- No HMTc threshold proposals or comparisons are made on this page; the wiki records what the regulation states, and any HMTc-side use of the values lives on the HMTc certification pages, not here.
 - Audit subagent (2026-06-03) flagged `[[products/chocolate]]` as not in the Products taxonomy snapshot (Check 2 ⚠️); verified against the snapshot at docs/gpt-collaboration/taxonomy-snapshot.md line 45 (Products list) — `chocolate` is present in the Products vocabulary and `wiki/products/chocolate.md` exists. The audit subagent only inspected the Ingredients section of the snapshot, missing the Products-section occurrence. Finding was a false positive; no change applied. Checks 1, 3, 4, 5 all returned ✅ clean against the source PDF.
 
 ## Wiki pages this source may touch
@@ -302,7 +304,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

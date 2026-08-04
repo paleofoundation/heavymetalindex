@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Razanov et al. 2019 - Poultry Meat Heavy Metals and Silicon-Mineral Extract
 
+## Overview
+
 Razanov et al. measured lead, cadmium, zinc, and copper in poultry feed ingredients and edible poultry tissues, then evaluated whether replacing part of drinking water with a silicon-mineral extract reduced tissue accumulation. The paper is direct poultry occurrence evidence, but the intervention design means the values should be treated as feed/treatment-context evidence rather than routine retail-market poultry evidence.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [477ff83fb](https://github.com/paleofoundation/heavymetalindex/commit/477ff83fb) | 2026-05-25 | major | 5 sections added; narrative text revised |

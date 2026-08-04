@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Pan et al. 2016 — Heavy metals in marketed vegetables from Zhejiang
 
+## Overview
+
 Pan and colleagues measured As, Cd, Cr, Hg, Ni, and Pb in 5,785 marketed vegetable samples representing 28 species from Zhejiang province, China. The paper reports overall mean, P97.5, range, and exceedance counts in `mg/kg, fresh weight`, plus selected species-level highlights from the supplementary table. Arsenic and mercury are reported as total As and total Hg only; no inorganic arsenic or methylmercury speciation is provided.
 
 ## Key numbers
@@ -91,6 +93,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [69495621b](https://github.com/paleofoundation/heavymetalindex/commit/69495621b) | 2026-06-08 | major | 4 sections added; narrative text revised |

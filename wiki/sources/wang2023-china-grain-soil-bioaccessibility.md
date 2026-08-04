@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang et al. 2023 — Heavy metal(loid)s in Chinese grain-production agricultural soils: bioaccessibility and health risks
 
+## Overview
+
 This is a systematic meta-analysis of 509 agricultural soil datasets from 13 Chinese grain-producing provinces (Heilongjiang, Henan, Shandong, Anhui, Jilin, Hebei, Jiangsu, Inner Mongolia, Sichuan, Hunan, Hubei, Liaoning, and Jiangxi), integrating published data from 2000–2022. The paper's primary contribution is applying bioaccessibility correction factors to soil metal concentrations to derive more accurate human health risk estimates for incidental soil ingestion — the dominant non-dietary exposure pathway for Chinese grain-region agricultural workers and children. Cadmium emerged as the priority pollutant: mean soil Cd was 0.47 mg/kg (versus Chinese background of 0.097 mg/kg), with a geo-accumulation index up to 5.24, and children faced higher carcinogenic risk than adults from Cd ingestion across all regions.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

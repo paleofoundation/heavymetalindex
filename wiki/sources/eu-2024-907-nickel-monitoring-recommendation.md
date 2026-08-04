@@ -30,6 +30,8 @@ updated: 2026-06-22
 
 # Commission Recommendation (EU) 2024/907 — Monitoring of Nickel in Food
 
+## Overview
+
 Commission Recommendation (EU) 2024/907, adopted 22 March 2024 and published in the Official Journal L series on 26 March 2024, directs European Union Member States to monitor the presence of nickel in food. It is a non-binding Commission act (Article 292 TFEU) that operationalises the regulatory response to the European Food Safety Authority's 2020 nickel risk assessment, and it is the precursor and companion monitoring instrument to the EU's nickel maximum levels. Those binding levels were set four months later, by [[sources/eu-2024-1987-nickel-maximum-levels|Commission Regulation (EU) 2024/1987]] of 30 July 2024, which inserted nickel as Annex I point 3.6 of [[regulations/eu2023-contaminants-maximum-levels|Commission Regulation (EU) 2023/915]] (applying from 1 July 2025; 1 July 2026 for cereals). Signed by Commissioner Stella Kyriakides.
 
 ## The scientific basis the Commission cited (recital 6)
@@ -75,9 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 2 removed; narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [0aa71d590](https://github.com/paleofoundation/heavymetalindex/commit/0aa71d590) | 2026-06-03 | major | 1 source added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

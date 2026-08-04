@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This systematic review, registered on PROSPERO (ID: CRD42024545030), searched PubMed, Scopus, and Science Direct for primary studies published 2013–2023 reporting heavy metals in human breast milk and contributing maternal/environmental factors. Of 355 records screened, 22 articles were assessed full-text and 9 met inclusion criteria. The review identified Pb, Cd, Al, Cu, Cr, Hg, and As (with Ni and Zn in some studies) in breast milk across studies from Taiwan, Spain, China, Palestine, Nigeria, Egypt, and Slovenia, and found that food intake (seafood, fruit, canned food), water consumption, smoking, regional location, and medical conditions were associated factors. Key quantitative findings drawn from the reviewed studies include: Pb concentrations 13.22 ± 3.58 ng/mL in colostrum (Chao, Taiwan, n=34); Pb 6.49 ± 5.23 ng/mL in mature milk (Lin, Taiwan, n=228); tHg geometric mean 14 ng/mL in 195/197 samples (Li, China); Cd 1.37 ± 0.94 ng/mL in colostrum (Chao, Taiwan); Al 56.45 ± 22.77 ng/mL in colostrum (Chao, Taiwan); As 1.50 ± 1.50 ng/mL in colostrum (Chao, Taiwan).
 
 ## Key numbers
@@ -110,9 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05cd7864a](https://github.com/paleofoundation/heavymetalindex/commit/05cd7864a) | 2026-05-19 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -2,7 +2,7 @@
 source_page: wiki/products/dusting-powder-cornstarch-adult.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 95c47f9c5087eb8a9a1d6d100d4f879610e8b8298be29be240a6de49f9745593
+source_page_sha256: f447ddfd62e7ce144238b49521afcd1c9cc7aaf13705c4fa33faed24307bd4b4
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 

@@ -26,6 +26,8 @@ updated: 2026-05-09
 
 # Rothenberg et al. 2021 — Maternal methylmercury exposure through rice ingestion and child neurodevelopment, rural China
 
+## Overview
+
 This Environmental Health prospective cohort study by a U.S.-China collaboration (Rothenberg lead, Harvard, USC, U South Carolina, Guangxi University of Chinese Medicine, Duke, Emory) is the first U.S.-quality cohort study quantifying maternal methylmercury exposure from rice ingestion paired with child neurodevelopmental outcomes through 36 months. The study enrolls 391 peripartum women in rural China where rice is the dominant dietary MeHg source (in contrast to the fish-based MeHg pathway documented in U.S. and European populations), measures peripartum hair MeHg as the exposure biomarker, and assesses child neurodevelopment using the Bayley Scales of Infant Development 2nd Edition (Mental Developmental Index and Psychomotor Developmental Index) at 12 and 36 months in 264 and 190 children respectively. The paper is the canonical reference for the rice-as-MeHg-pathway dietary route and is directly relevant to the HMTc rice-based subcategory rows where MeHg has historically been a documented data gap because most MeHg surveillance focuses on fish.
 
 ## Key conclusions
@@ -55,6 +57,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8f2cd83b0](https://github.com/paleofoundation/heavymetalindex/commit/8f2cd83b0) | 2026-05-09 | major | 4 sections added; narrative text revised |

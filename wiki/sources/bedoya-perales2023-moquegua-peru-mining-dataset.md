@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Bedoya-Perales et al. 2023 — Metals and Metalloids in Food Crops and Soils, Moquegua Mining Region, Peru
 
+## Overview
+
 This Scientific Data paper (CC BY) reports the first open-access dataset on heavy metal and metalloid concentrations in food crops and agricultural soils from Moquegua, a mining-impacted department in southern Peru that contains one of the country's largest copper deposits and contributes to Peru's status as the world's second-largest copper producer. The dataset covers 13,828 observations from 341 sampling sites across three provinces (General Sánchez Cerro, Mariscal Nieto, Ilo) at altitudes ranging from 9 to 3,934 m above sea level, collected in 2021 during harvest season. For food crops, 31 elements were measured using ICP-MS; for soils, 23 elements by ICP-OES and AAS. The paper functions primarily as a data descriptor rather than an analytical study; key concentration results are presented in the paper itself.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

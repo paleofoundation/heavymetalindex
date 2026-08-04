@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Allwood et al. (2024) — Recently Recalled Children's Products Due to Lead Hazards
 
+## Overview
+
 This is a five-page review article (with one figure and one table) published in *Pediatrics* as part of a 2024 supplement (Suppl 2), authored by CDC Lead Poisoning Prevention and Surveillance Branch staff (Paul Allwood PhD; Perri Zeitz Ruckart DrPH; Qaiyim Harris). The paper describes the implementation of a CDC automated tool that monitors the US Consumer Product Safety Commission (CPSC) Really Simple Syndication (RSS) recall feed for the keyword "lead" and uses Microsoft Power Automate workflows to filter, log, and disseminate lead-related children's-product recall notices to public health partners. The authors then descriptively summarise the 30 lead-related children's-product recalls captured by the tool during June 2022 through April 2024, including product type, country of manufacture, time-on-market before recall, recall type (voluntary vs not), remedy offered, distribution scope, and injuries reported. The paper reports no primary contamination measurements; its contribution to the HMI corpus is as a contemporaneous CDC-authored regulatory-landscape paper documenting CPSC lead-recall activity for children's products in the two-year window immediately following the 2022 wave of cinnamon-applesauce and toddler-cup CPSIA actions.
 
 ## Key numbers
@@ -101,8 +103,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [ed60faf2a](https://github.com/paleofoundation/heavymetalindex/commit/ed60faf2a) | 2026-06-01 | minor | Narrative text revised |
-| [24ed99b5e](https://github.com/paleofoundation/heavymetalindex/commit/24ed99b5e) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

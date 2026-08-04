@@ -5,6 +5,8 @@ audience: [regulator, educator, researcher, commercial]
 updated: 2026-06-02
 ---
 
+## Overview
+
 Commodity-level pages describe why specific ingredients accumulate specific metals, typical concentration ranges by source and variety, processing effects, and mitigation options. Each page carries a structured contamination profile in frontmatter that the future consumer app will consume directly. Ingredient-level values belong on these pages; finished-product values belong on [[products/index|product-category pages]].
 
 <!-- BEGIN: hmi-ingredient-index -->
@@ -64,14 +66,14 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/cauliflower|Cauliflower]] (9 sources)
 - [[ingredients/celery|Celery]] (8 sources)
 - [[ingredients/collard-greens|Collard greens]] (1 source)
-- [[ingredients/corn|Corn]] (53 sources)
+- [[ingredients/corn|Corn]] (54 sources)
 - [[ingredients/cucumber|Cucumber]] (17 sources)
 - [[ingredients/dill-pickles|Dill pickles]] (2 sources)
 - [[ingredients/green-beans|Green beans]] (5 sources)
 - [[ingredients/green-bell-pepper|Green bell pepper]] (4 sources)
 - [[ingredients/iceberg-lettuce|Iceberg lettuce]] (2 sources)
-- [[ingredients/leafy-greens|Leafy Greens]] (39 sources)
-- [[ingredients/leafy-vegetables|Leafy Vegetables]] (102 sources)
+- [[ingredients/leafy-greens|Leafy Greens]] (41 sources)
+- [[ingredients/leafy-vegetables|Leafy Vegetables]] (105 sources)
 - [[ingredients/lettuce|Lettuce]] (27 sources)
 - [[ingredients/mushrooms|Mushrooms]] (38 sources)
 - [[ingredients/non-root-vegetable-purees|Non-root vegetable purees]] (0 sources)
@@ -80,15 +82,15 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/parsnips|Parsnips]] (0 sources)
 - [[ingredients/potatoes|Potatoes]] (51 sources)
 - [[ingredients/root-vegetable-purees|Root Vegetable Purees]] (0 sources)
-- [[ingredients/root-vegetables|Root vegetables]] (88 sources)
-- [[ingredients/seaweed|Seaweed]] (85 sources)
-- [[ingredients/spinach|Spinach]] (42 sources)
+- [[ingredients/root-vegetables|Root vegetables]] (89 sources)
+- [[ingredients/seaweed|Seaweed]] (86 sources)
+- [[ingredients/spinach|Spinach]] (45 sources)
 - [[ingredients/squash|Squash]] (1 source)
-- [[ingredients/sweet-potato|Sweet potato]] (12 sources)
+- [[ingredients/sweet-potato|Sweet potato]] (13 sources)
 - [[ingredients/tomato|Tomato]] (43 sources)
 - [[ingredients/tomato-paste|Tomato Paste]] (7 sources)
 - [[ingredients/vegetable-purees|Vegetable Purees]] (0 sources)
-- [[ingredients/vegetables|Vegetables]] (114 sources)
+- [[ingredients/vegetables|Vegetables]] (116 sources)
 - [[ingredients/vegetables-mixed|Vegetables Mixed]] (2 sources)
 - [[ingredients/wild-mushrooms|Wild Mushrooms]] (27 sources)
 - [[ingredients/winter-squash|Winter squash]] (1 source)
@@ -119,14 +121,14 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/oatmeal|Oatmeal]] (2 sources)
 - [[ingredients/pasta|Pasta]] (8 sources)
 - [[ingredients/quinoa|Quinoa]] (10 sources)
-- [[ingredients/rice|Rice]] (274 sources)
+- [[ingredients/rice|Rice]] (280 sources)
 - [[ingredients/rice-cakes|Rice cakes]] (4 sources)
 - [[ingredients/rice-cereal|Rice Cereal]] (16 sources)
 - [[ingredients/rice-flour|Rice Flour]] (9 sources)
 - [[ingredients/rice-puffs|Rice Puffs]] (0 sources)
 - [[ingredients/saltine-crackers|Saltine crackers]] (1 source)
 - [[ingredients/tortilla-chips|Tortilla chips]] (1 source)
-- [[ingredients/wheat|Wheat]] (99 sources)
+- [[ingredients/wheat|Wheat]] (102 sources)
 - [[ingredients/wheat-cereal-biscuits|Wheat cereal biscuits]] (1 source)
 - [[ingredients/white-bread|White bread]] (3 sources)
 - [[ingredients/whole-wheat-bread|Whole wheat bread]] (2 sources)
@@ -135,13 +137,13 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 ### Legumes & pulses
 
 - [[ingredients/baked-beans|Baked beans]] (0 sources)
-- [[ingredients/beans|Beans]] (44 sources)
+- [[ingredients/beans|Beans]] (45 sources)
 - [[ingredients/pork-and-beans-canned|Canned pork and beans]] (1 source)
 - [[ingredients/frozen-peas|Frozen peas]] (2 sources)
-- [[ingredients/legumes|Legumes]] (31 sources)
+- [[ingredients/legumes|Legumes]] (32 sources)
 - [[ingredients/lentils|Lentils]] (24 sources)
 - [[ingredients/lima-beans|Lima beans]] (1 source)
-- [[ingredients/soy|Soy]] (31 sources)
+- [[ingredients/soy|Soy]] (33 sources)
 - [[ingredients/soy-protein-isolate|Soy Protein Isolate]] (2 sources)
 
 ### Nuts & seeds
@@ -150,7 +152,7 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/cashews|Cashews]] (9 sources)
 - [[ingredients/hazelnuts|Hazelnuts]] (5 sources)
 - [[ingredients/peanut-butter|Peanut butter]] (6 sources)
-- [[ingredients/peanuts|Peanuts]] (38 sources)
+- [[ingredients/peanuts|Peanuts]] (39 sources)
 - [[ingredients/sunflower-seeds|Sunflower Seeds]] (16 sources)
 - [[ingredients/walnuts|Walnuts]] (9 sources)
 
@@ -190,12 +192,12 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 
 - [[ingredients/beef|Beef]] (22 sources)
 - [[ingredients/bologna-luncheon-meat|Bologna luncheon meat]] (2 sources)
-- [[ingredients/chicken|Chicken]] (37 sources)
+- [[ingredients/chicken|Chicken]] (38 sources)
 - [[ingredients/frankfurter|Frankfurter]] (2 sources)
 - [[ingredients/ground-beef|Ground beef]] (2 sources)
 - [[ingredients/ham|Ham]] (2 sources)
 - [[ingredients/lamb-chop|Lamb chop]] (1 source)
-- [[ingredients/meat-and-poultry|Meat and Poultry]] (112 sources)
+- [[ingredients/meat-and-poultry|Meat and Poultry]] (113 sources)
 - [[ingredients/meat|Meat and poultry]] (66 sources)
 - [[ingredients/meat-and-poultry-purees|Meat And Poultry Purees]] (1 source)
 - [[ingredients/organ-meats|Organ Meats (Kidney and Liver)]] (34 sources)
@@ -210,14 +212,14 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/bivalve-molluscs|Bivalve Molluscs (Excluding Oysters)]] (64 sources)
 - [[ingredients/canned-tuna|Canned Tuna]] (25 sources)
 - [[ingredients/chitosan|Chitosan]] (1 source)
-- [[ingredients/fish|Fish]] (309 sources)
+- [[ingredients/fish|Fish]] (314 sources)
 - [[ingredients/fish-fingers|Fish fingers]] (2 sources)
 - [[ingredients/freshwater-fish|Freshwater Fish]] (77 sources)
 - [[ingredients/marlin|Marlin]] (4 sources)
 - [[ingredients/molluscs|Molluscs]] (54 sources)
-- [[ingredients/seafood|Seafood]] (193 sources)
-- [[ingredients/shark|Shark]] (10 sources)
-- [[ingredients/shellfish|Shellfish]] (110 sources)
+- [[ingredients/seafood|Seafood]] (194 sources)
+- [[ingredients/shark|Shark]] (11 sources)
+- [[ingredients/shellfish|Shellfish]] (113 sources)
 - [[ingredients/swordfish|Swordfish]] (15 sources)
 - [[ingredients/tinned-fish|Tinned fish]] (21 sources)
 - [[ingredients/white-fish|White fish]] (4 sources)
@@ -232,7 +234,7 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/eggs|Eggs]] (35 sources)
 - [[ingredients/fromage-frais|Fromage frais]] (0 sources)
 - [[ingredients/half-and-half|Half and half]] (2 sources)
-- [[ingredients/milk-and-dairy|Milk and Dairy]] (98 sources)
+- [[ingredients/milk-and-dairy|Milk and Dairy]] (104 sources)
 - [[ingredients/processed-american-cheese|Processed American cheese]] (6 sources)
 - [[ingredients/reduced-fat-milk|Reduced-fat milk]] (1 source)
 - [[ingredients/rice-milk|Rice Milk]] (7 sources)
@@ -240,7 +242,7 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/skim-milk|Skim milk]] (2 sources)
 - [[ingredients/soy-milk|Soy Milk]] (8 sources)
 - [[ingredients/whole-milk|Whole milk]] (10 sources)
-- [[ingredients/yogurt|Yogurt]] (8 sources)
+- [[ingredients/yogurt|Yogurt]] (9 sources)
 
 ### Infant formula & baby foods
 
@@ -252,7 +254,7 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/fish-containing-baby-foods|Fish Containing Baby Foods]] (2 sources)
 - [[ingredients/infant-formula|Infant Formula]] (5 sources)
 - [[ingredients/infant-formula-concentrated-liquid|Infant Formula Concentrated Liquid]] (0 sources)
-- [[ingredients/infant-formula-ingredients|Infant Formula Ingredients]] (18 sources)
+- [[ingredients/infant-formula-ingredients|Infant Formula Ingredients]] (19 sources)
 - [[ingredients/infant-formula-powder|Infant Formula Powder]] (21 sources)
 - [[ingredients/infant-formula-rtf-liquid|Infant Formula Rtf Liquid]] (3 sources)
 - [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]] (0 sources)
@@ -271,7 +273,7 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/beverages|Beverages]] (13 sources)
 - [[ingredients/fermented-beverage-bases|Fermented beverage bases]] (1 source)
 - [[ingredients/flavored-carbonated-bottled-waters|Flavored carbonated bottled waters]] (0 sources)
-- [[ingredients/fruit-juice|Fruit Juice]] (30 sources)
+- [[ingredients/fruit-juice|Fruit Juice]] (31 sources)
 - [[ingredients/fruit-juice-ready-drinks|Fruit juice ready drinks]] (0 sources)
 - [[ingredients/grape-juice|Grape Juice]] (7 sources)
 - [[ingredients/grapefruit-juice|Grapefruit juice]] (3 sources)
@@ -279,11 +281,11 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/orange-juice|Orange juice]] (11 sources)
 - [[ingredients/pear-juice|Pear juice]] (1 source)
 - [[ingredients/plant-milk|Plant milk base]] (8 sources)
-- [[ingredients/soft-drink-bases|Soft drink bases]] (1 source)
+- [[ingredients/soft-drink-bases|Soft drink bases]] (2 sources)
 - [[ingredients/sports-drink-bases|Sports drink bases]] (0 sources)
 - [[ingredients/tea|Tea]] (57 sources)
 - [[ingredients/vegetable-juice|Vegetable juice]] (0 sources)
-- [[ingredients/water|Water]] (59 sources)
+- [[ingredients/water|Water]] (60 sources)
 
 ### Sweeteners & condiments
 
@@ -294,7 +296,7 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/ketchup|Ketchup]] (5 sources)
 - [[ingredients/mayonnaise|Mayonnaise]] (1 source)
 - [[ingredients/pancake-syrup|Pancake syrup]] (1 source)
-- [[ingredients/salt|Salt]] (10 sources)
+- [[ingredients/salt|Salt]] (11 sources)
 - [[ingredients/vinegar|Vinegar]] (13 sources)
 - [[ingredients/white-sugar|White sugar]] (3 sources)
 - [[ingredients/wine-vinegar|Wine Vinegar]] (5 sources)
@@ -304,10 +306,10 @@ Pages are grouped by commodity type and listed alphabetically within each group.
 - [[ingredients/chicken-noodle-soup|Chicken noodle soup]] (1 source)
 - [[ingredients/chicken-potpie|Chicken potpie]] (1 source)
 - [[ingredients/chili-con-carne-with-beans|Chili con carne with beans]] (1 source)
-- [[ingredients/chocolate|Chocolate]] (39 sources)
+- [[ingredients/chocolate|Chocolate]] (40 sources)
 - [[ingredients/chocolate-cake|Chocolate cake with chocolate icing]] (1 source)
 - [[ingredients/chocolate-chip-cookies|Chocolate chip cookies]] (1 source)
-- [[ingredients/cocoa|Cocoa]] (68 sources)
+- [[ingredients/cocoa|Cocoa]] (69 sources)
 - [[ingredients/macaroni-and-cheese|Macaroni and cheese]] (1 source)
 - [[ingredients/mixed-meals|Mixed Meals]] (2 sources)
 - [[ingredients/potato-chips|Potato chips]] (6 sources)
@@ -322,9 +324,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
+| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 15 removed; narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 15 sections added and 2 removed; narrative text revised |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | minor | Narrative text revised |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

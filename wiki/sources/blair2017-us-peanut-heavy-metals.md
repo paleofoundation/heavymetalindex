@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Blair 2017 - U.S. peanut heavy metals
 
+## Overview
+
 Blair and Lamb analyzed mercury, cadmium, lead, and arsenic in U.S. peanut crop samples collected at farmer-stock buying points during the 2013-2015 crop years. The sampling design covered three major U.S. growing regions and used censored-data methods for analytes with results below detection limits. The arsenic testing did not differentiate organic from inorganic forms, so arsenic is treated here as total/unspecified arsenic.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [f304ce8b1](https://github.com/paleofoundation/heavymetalindex/commit/f304ce8b1) | 2026-06-08 | major | 4 sections added; narrative text revised |

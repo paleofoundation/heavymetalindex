@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abebe et al. 2023 — Heavy metals in Awash River and Lake Beseka, Ethiopia
 
+## Overview
+
 This study assesses heavy metal concentrations and pollution sources in the Awash River basin (Ethiopia), one of the most populated and industrially developed river basins in the country. A total of 205 water samples from 21 stations were analysed by ICP-MS across surface water and groundwater. The findings reveal that 20 percent of the 20 measured parameters exceeded WHO drinking water limits, with Al, V, Fe, Mn, and Mo elevated at multiple stations. Arsenic exceeded WHO limits in 57 percent of water samples at many stations down the river system. The study documents both anthropogenic contamination sources in the upper Awash (industrial, agricultural, and domestic discharges from Addis Ababa and surrounding urban areas) and geogenic contributions in the middle Awash, particularly from Lake Beseka, whose high metal concentrations derive from geological processes.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Auzier Guimarães et al. 2025 — Mercury in fish from the Tapajós River Basin: systematic review and health risk
 
+## Overview
+
 This systematic review compiled 36 studies published between 1992 and 2022 covering 143 fish species (14,113 individuals, 735 mean Hg values) from the Tapajós River Basin in the Brazilian Amazon, a region heavily impacted by artisanal gold mining. Mercury concentrations in fish muscle tissue ranged from 0.01 to 3.82 mg/kg across all trophic levels, with piscivorous species showing the highest levels and clear spatial clustering in the middle Tapajós, upper Tapajós, and Teles Pires sub-basins, which are identified as Hg contamination hotspots closely associated with illegal gold mining activity. Using the Target Hazard Quotient (THQ) at the local average consumption of 116.25 g/capita/day, 89% of the 129 food-fish species evaluated showed THQ ≥1 in at least one sub-basin, indicating potential chronic health risk in the authors' model; the MSCQ analysis indicated that 75% of evaluated food species fell below the local average daily intake threshold in at least one sub-basin. Received July 2024, accepted October 2024, published October 30, 2024 online; printed in ACS Environ. Au 2025, 5, 86–100.
 
 ## Key numbers
@@ -80,9 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [23e1355b3](https://github.com/paleofoundation/heavymetalindex/commit/23e1355b3) | 2026-05-17 | minor | Narrative text revised |
-| [018ad5c31](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c31) | 2026-05-17 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

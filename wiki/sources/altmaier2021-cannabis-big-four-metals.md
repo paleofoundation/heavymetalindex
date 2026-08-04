@@ -28,6 +28,8 @@ audience: [regulator, educator, app]
 
 # Altmaier 2021 - big-four metals in cannabis flowers
 
+## Overview
+
 Altmaier describes an ICP-MS workflow for arsenic, cadmium, mercury, and lead in *Cannabis sativa* plant material, using three industrial-hemp flower varieties purchased from a German drugstore. The paper is a trade-publication technical feature rather than a peer-reviewed market survey, but it prints concentration tables for dried hemp flowers and separated plant parts. Chromium and nickel values are also reported as milling-contamination diagnostics, so those values should not be pooled with product occurrence without preserving the milling method.
 
 ## Key numbers
@@ -89,6 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [2eb93347f](https://github.com/paleofoundation/heavymetalindex/commit/2eb93347f) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

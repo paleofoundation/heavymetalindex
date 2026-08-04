@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Dietz et al. (2025) present Hg stable isotope data for key aquatic predatory species sampled across Greenland between 1983 and 2024, including Arctic char (Salvelinus alpinus), shorthorn sculpin (Myoxocephalus scorpius), ringed seal (Pusa hispida), glaucous gull, and polar bear. The study found that total Hg concentrations in muscle tissue are lowest in sculpins, ringed seals, and polar bears (medians 0.09–0.36 µg/g wet weight) and highest in Arctic char and glaucous gull (medians 0.61–0.66 µg/g ww). Isotope analysis demonstrates that ocean currents carrying legacy Hg — not atmospheric deposition — are the dominant pathway driving Hg uptake in Arctic marine and coastal areas, explaining the paradox of decreasing atmospheric Hg emissions but increasing Hg loads in many Arctic species.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |

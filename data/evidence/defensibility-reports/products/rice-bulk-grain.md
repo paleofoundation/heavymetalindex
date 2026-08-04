@@ -2,7 +2,7 @@
 source_page: wiki/products/rice-bulk-grain.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 315774df492e6bdd2f054e3b3a4457fd8ca364010f87662a728de272af05108c
+source_page_sha256: 64f7fd5398db64b80640fcd9ec7cea73cac8925a09fe0c78251c4895d112c003
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 76
 distinct_cited_sources: 76
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 76 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 

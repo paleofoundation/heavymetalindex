@@ -22,6 +22,8 @@ updated: 2026-05-18
 
 # NOM-027-SSA1-1993 - Mexican fresh/refrigerated/frozen fish standard (superseded)
 
+## Overview
+
 NOM-027-SSA1-1993 was Mexico's sanitary specification for fresh, refrigerated, and frozen fish. It was published in the Diario Oficial de la Federacion on 3 March 1995 and became mandatory 30 days after publication. It was later cancelled by [[regulations/mx-nom-242-ssa1-2009-fishery-products|NOM-242-SSA1-2009]], which entered into force on 10 May 2011.
 
 This page exists as a historical citation target for source papers that quote NOM-027-SSA1-1993. For current Mexican fishery-product compliance context, use [[regulations/mx-nom-242-ssa1-2009-fishery-products]].
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [300990514](https://github.com/paleofoundation/heavymetalindex/commit/300990514) | 2026-05-18 | major | Contamination-profile values revised; 5 sections added; narrative text revised |

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-17
 ---
 
+## Overview
+
 This systematic review (PROSPERO CRD42021235435) searched five databases, returned 4098 records, and included 26 intervention studies from 21 low- and middle-income countries that aimed to reduce cadmium exposure during pregnancy and childhood. Interventions ranged from nutritional supplements, probiotic yogurt, dietary education (rice cooking methods), chelation therapy, and indoor air filtration to agricultural soil remediation (biochar, organic amendments). The review found that several interventions showed measurable reductions in cadmium body burden or food-chain concentrations, but none offered a realistic scalable solution. Rice-specific interventions (rice cooking method education, rice paddy soil biochar amendment) were notably represented. The finding that no existing intervention robustly addresses Cd pollution at scale underscores the ongoing need for upstream source control and supply-chain screening.
 
 ## Key numbers
@@ -66,8 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a16fc5288](https://github.com/paleofoundation/heavymetalindex/commit/a16fc5288) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [7da5b3c02](https://github.com/paleofoundation/heavymetalindex/commit/7da5b3c02) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

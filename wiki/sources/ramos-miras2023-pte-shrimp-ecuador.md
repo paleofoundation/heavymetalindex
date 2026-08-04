@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Ramos-Miras et al. 2023 — PTE concentrations in farmed Pacific White shrimp from Ecuador
 
+## Overview
+
 This study measured nine potentially toxic elements (As, Cd, Co, Cr, Cu, Hg, Ni, Pb, Zn) in Pacific White shrimp (Litopenaeus vannamei) from indoor cage farming in Ecuador's El Oro Province, an area with legacy gold mining and associated metal contamination in water and sediments. Measurements were made separately in the cephalothorax (head) and abdominal muscle (tail). The EU regulatory limit for arsenic in seafood cephalothorax (4 mg/kg) was exceeded: head As ranged 3.52–6.11 mg/kg DW. All other PTEs were below applicable EU seafood regulatory limits. Target hazard quotient (THQ) values for muscle tissue (the consumed portion) were below 1 for all elements, indicating no adverse health risk from muscle consumption under the assessed consumption scenarios.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

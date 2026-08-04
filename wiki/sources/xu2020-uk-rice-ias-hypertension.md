@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Xu & Polya 2020 — UK rice-iAs intake and hypertension association
 
+## Overview
+
 This cross-sectional secondary analysis quantified daily inorganic-arsenic intake from rice and rice products (E-iAs_ing,rice) in 598 UK adults using the NDNS Rolling Programme Years 7-8 (April 2014 to August 2016) and examined associations with five blood-pressure endpoints (general hypertension, SBP add 10, DBP add 10, mean arterial pressure, mean pulse pressure) via generalized linear models adjusted for established hypertension risk factors. iAs intake was estimated by multiplying food-diary rice consumption by EFSA 2014 concentration estimates and applying a cooking-loss factor of 5% for not-ready-to-eat and 0% for ready-to-eat foods; iAs was not directly measured in the food samples participants consumed. The authors report a negative but statistically non-significant association between E-iAs_ing,rice and adjusted hypertension risks, with effect modification by sex, age, ethnicity, BMI, and alcohol consumption suggesting higher risks for male, middle-aged (35-49), overweight, alcohol-consuming, and Asian or Asian British, Black or Black British, and mixed ethnic subgroups. The authors characterize the study as exploratory and the overall association as weak and inconclusive due to cross-sectional design, modest sample size in stratified subgroups, and the use of EFSA literature-derived rather than directly measured iAs concentrations.
 
 ## Key numbers
@@ -141,8 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b66d1a128](https://github.com/paleofoundation/heavymetalindex/commit/b66d1a128) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [3efdd1dae](https://github.com/paleofoundation/heavymetalindex/commit/3efdd1dae) | 2026-05-28 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

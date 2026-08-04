@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Alimohammadi et al. 2018 — Heavy metals in Tehran supermarket vegetables across two seasons
 
+## Overview
+
 The authors measured seven heavy metal(oid)s (As, Cd, Cr, Cu, Ni, Pb, Zn) in six common Tehran supermarket vegetables — cucumber and tomato (fruit vegetables), lettuce and cabbage (leafy vegetables), potato and carrot (root vegetables) — across two seasons (summer and autumn 2016), then computed target hazard quotients (THQ), total THQ (TTHQ), and excess lifetime cancer risk (ELCR) for Tehran adult consumers. Lead exceeded Codex limits in multiple vegetable–season cells (potato, cabbage, carrot, tomato), chromium exceeded reference limits in root and leafy vegetables, and the calculated total cancer risk from As + Cd + Pb exposure was 2.26 × 10⁻⁴ — unsafe even under non-conservative assumptions.
 
 ## Key numbers
@@ -120,8 +122,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [bff6681c1](https://github.com/paleofoundation/heavymetalindex/commit/bff6681c1) | 2026-06-01 | minor | Narrative text revised |
-| [074f05892](https://github.com/paleofoundation/heavymetalindex/commit/074f05892) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

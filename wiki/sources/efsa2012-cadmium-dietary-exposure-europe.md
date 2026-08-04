@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2012 - Cadmium dietary exposure in Europe
 
+## Overview
+
 The European Food Safety Authority reviewed cadmium occurrence in foods on the European market and estimated dietary exposure using the EFSA Comprehensive European Food Consumption Database. Food was the dominant exposure pathway considered for the non-smoking population. The report provides broad FoodEx occurrence statistics and exposure-contribution rankings for cadmium; it does not provide brand-level product comparisons.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [02264132c](https://github.com/paleofoundation/heavymetalindex/commit/02264132c) | 2026-06-08 | major | 4 sections added; narrative text revised |

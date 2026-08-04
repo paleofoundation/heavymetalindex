@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # EFSA CONTAM Panel 2024 — Risk assessment of small organoarsenic species in food
 
+## Overview
+
 This 89-page EFSA Scientific Opinion, adopted 4 June 2024, is the first comprehensive EFSA risk assessment of small (mono- and dimethylated) organoarsenic species in food, completing the 2009 Scientific Opinion on arsenic in food where these species had been set aside for lack of data. The CONTAM Panel derived BMDL₁₀ reference points for monomethylarsonic acid MMA(V) (18.2 mg MMA(V)/kg bw per day, equivalent to 9.7 mg As/kg bw per day, from decreased body weight with diarrhoea in rats) and for dimethylarsinic acid DMA(V) (1.1 mg DMA(V)/kg bw per day, equivalent to 0.6 mg As/kg bw per day, from urinary bladder tumour incidence in male rats), applied a margin-of-exposure (MOE) approach because key toxicological data are missing, and concluded that DMA(V) raises a health concern: MOEs are below 10,000 in many dietary surveys at the 95th percentile, especially in infants, toddlers and other children whose main dietary contributors are rice and fish meat. MMA(V) does not raise a health concern across the assessed scenarios. Tri-/tetra-methylated species (TMAO, TETRA) and the thio-analogues (thio-DMA, dithio-DMA, thio-MMA) could not be assessed for lack of toxicological data.
 
 ## Key numbers
@@ -141,7 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

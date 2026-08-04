@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:08:58.014Z",
+  "generated_at": "2026-08-04T03:52:48.299Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -8,7 +8,7 @@
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi.",
   "canonical_base": "https://heavymetalindex.com",
-  "record_count": 58,
+  "record_count": 61,
   "records": [
     {
       "slug": "regulations/atsdr-aluminum-mrls",
@@ -156,6 +156,55 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/brazil-anvisa-rdc-722-2022",
+      "rule_id": "brazil-anvisa-rdc-722-2022",
+      "title": "brazil-anvisa-rdc-722-2022",
+      "jurisdiction": "BR",
+      "jurisdictions": [
+        "BR"
+      ],
+      "agency": "Agência Nacional de Vigilância Sanitária",
+      "program": "Food contaminant maximum tolerated limits",
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "iAs",
+        "tAs",
+        "Sn"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "iAs",
+        "tAs",
+        "Sn"
+      ],
+      "matrix": "foodstuffs",
+      "matrices": [
+        "foodstuffs"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "defined in IN 160/2022",
+      "status": "active",
+      "effective_date": "2022-07-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/anvisa2022-rdc-722-contaminants"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/brazil-anvisa-rdc-722-2022",
+      "updated": "2026-08-03T00:00:00.000Z"
     },
     {
       "slug": "regulations/ca-swrcb-hexavalent-chromium-mcl",
@@ -1190,6 +1239,7 @@
       "sunset_date": null,
       "source_refs": [
         "sources/eu-2024-907-nickel-monitoring-recommendation",
+        "sources/eu-2024-1987-nickel-maximum-levels",
         "sources/efsa-nickel-contam-2020"
       ],
       "audience": [
@@ -1403,7 +1453,8 @@
         "tHg",
         "iAs",
         "tAs",
-        "Sn"
+        "Sn",
+        "Ni"
       ],
       "matrix": null,
       "matrices": [],
@@ -1702,6 +1753,57 @@
       "updated": "2026-05-02T00:00:00.000Z"
     },
     {
+      "slug": "regulations/japan-mhlw-milk-products-standards",
+      "rule_id": "japan-mhlw-milk-products-standards",
+      "title": "japan-mhlw-milk-products-standards",
+      "jurisdiction": "JP",
+      "jurisdictions": [
+        "JP"
+      ],
+      "agency": "Ministry of Health, Labour and Welfare",
+      "program": "Milk and milk-product compositional and container/package standards",
+      "metal": [
+        "Pb",
+        "Cd",
+        "tAs"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tAs"
+      ],
+      "matrix": [
+        "milk",
+        "milk-products",
+        "infant-formula",
+        "food-contact-packaging"
+      ],
+      "matrices": [
+        "milk",
+        "milk-products",
+        "infant-formula",
+        "food-contact-packaging"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "varies",
+      "status": "source-snapshot",
+      "effective_date": "1951-12-27T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/mhlw2007-milk-products-standards"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/japan-mhlw-milk-products-standards",
+      "updated": "2026-08-03T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/jecfa-arsenic-bmdl",
       "rule_id": "jecfa-arsenic-bmdl",
       "title": "JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)",
@@ -1833,6 +1935,57 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/jecfa-methylmercury-ptwi",
       "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/korea-mfds-food-code-heavy-metals",
+      "rule_id": "korea-mfds-food-code-heavy-metals",
+      "title": "korea-mfds-food-code-heavy-metals",
+      "jurisdiction": "KR",
+      "jurisdictions": [
+        "KR"
+      ],
+      "agency": "Korea Food and Drug Administration / Ministry of Food and Drug Safety",
+      "program": "Food Code common standards",
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg"
+      ],
+      "matrix": [
+        "fish",
+        "shellfish",
+        "agricultural-products"
+      ],
+      "matrices": [
+        "fish",
+        "shellfish",
+        "agricultural-products"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "source-snapshot",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/mfds2012-food-code-heavy-metals"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/korea-mfds-food-code-heavy-metals",
+      "updated": "2026-08-03T00:00:00.000Z"
     },
     {
       "slug": "regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded",

@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Xiong et al. 2025 — Heavy metals (9-analyte panel) in 33 infant/adult clothing samples with bioaccessibility, HQ/HI/CR and HaCaT cytotoxicity
 
+## Overview
+
 This Toxics paper measured total and artificial-sweat-bioaccessible concentrations of nine heavy metals (As, Cd, Cr, Cu, Mn, Ni, Pb, Zn, Fe) by ICP-MS in 33 unwashed clothing samples purchased from online retail platforms, then computed ECHA-/US-EPA-formula dermal exposure, hazard quotient (HQ), hazard index (HI) and carcinogenic risk (CR) across five wear-scenario groups (adult-male T-shirt, adult-male underwear, adult-woman blouse, adult-woman underwear and infant under 1 year in a one-piece pajama). Infant-scenario HI exceeded the safe threshold (HI = 1.13) driven by Cd (HQ = 1.12), and infant Cr CR reached 4.35 × 10⁻⁵, approximately 27-fold higher than infant As CR. Artificial-sweat bioaccessibility was highest for Cr (37.78%) and Ni (28.51%); Pb and Fe were below detection in the sweat extract. HaCaT keratinocyte assays of sweat extracts produced dose-dependent cytotoxicity (22-59% viability reduction across T1-T5 groups) and ROS elevation (+130-131% in T2/T4; +17% in T1/T3/T5), with T2 the most pronounced cytotoxic group.
 
 ## Key numbers
@@ -125,8 +127,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [429c3fd9f](https://github.com/paleofoundation/heavymetalindex/commit/429c3fd9f) | 2026-05-17 | minor | Narrative text revised |
-| [b4ad5059c](https://github.com/paleofoundation/heavymetalindex/commit/b4ad5059c) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

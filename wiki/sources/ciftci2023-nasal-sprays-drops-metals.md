@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Ciftci 2023 - metals in saline and sea-water nasal sprays
 
+## Overview
+
 Ciftci measured heavy metals and essential elements in `22` saline, sea-water, or ocean-water nasal spray/drop products by ICP-MS. The paper reports product-liquid concentrations in `µg/L`; it is a finished-product occurrence source, but the current taxonomy has no nasal-spray product slug. Arsenic is reported as total arsenic from elemental ICP-MS, not inorganic arsenic.
 
 ## Key numbers
@@ -82,6 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [b4580e424](https://github.com/paleofoundation/heavymetalindex/commit/b4580e424) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

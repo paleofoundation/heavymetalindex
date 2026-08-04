@@ -21,6 +21,8 @@ updated: 2026-05-13
 
 # Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants
 
+## Overview
+
 The wiki's corpus of heavy metal contamination in food is dominated by agricultural uptake mechanisms: arsenic in flooded paddy soils, cadmium in volcanic-origin cocoa-growing soils, mercury biomagnification in aquatic food chains. These are biogeochemical processes that respond to agronomic, processing, and formulation interventions. Spice adulteration with lead chromate is fundamentally different. It is a deliberate introduction of an industrial pigment into the food supply, driven by market incentives and enabled by regulatory gaps, and it reaches the highest-concern demographic (infants and toddlers) through processed food products that parents purchase with the expectation of safety.
 
 ## The mechanism
@@ -104,15 +106,15 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Forsyth JE, Nurunnahar S, Islam SS, Baker M, Yeasmin D, Islam MS, et al. (2019). *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*. Environmental Research. [https://doi.org/10.1016/j.envres.2019.108722](https://doi.org/10.1016/j.envres.2019.108722). Peer-reviewed, A-tier. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Source record]]
-2. Forsyth JE, Mistree D, Nash E, Angrish M, and Luby SP (2024). *Evidence of turmeric adulteration with lead chromate across South Asia*. Science of the Total Environment. [https://doi.org/10.1016/j.scitotenv.2024.175003](https://doi.org/10.1016/j.scitotenv.2024.175003). Peer-reviewed, A-tier. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|Source record]]
-3. Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, et al. (2024). *Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024*. Morbidity and Mortality Weekly Report (MMWR). [https://doi.org/10.15585/mmwr.mm7414a2](https://doi.org/10.15585/mmwr.mm7414a2). Government report, A-tier. [[sources/troeschel2024-cinnamon-applesauce-lead|Source record]]
-4. Gafner S, Orhan N, Kahraman C, and Blumenthal M (2026). *A scoping review of turmeric adulteration based on data from six continents*. Pharmaceutical Biology. [https://doi.org/10.1080/13880209.2025.2606229](https://doi.org/10.1080/13880209.2025.2606229). Peer-reviewed, A-tier. [[sources/gafner2026-turmeric-adulteration-six-continents|Source record]]
-5. Lech FA, Brown S, Karagas MR, and Matte TD (2020). *Ground Turmeric as a Source of Lead Exposure in the United States*. Environmental Health Perspectives. [https://doi.org/10.1289/EHP5561](https://doi.org/10.1289/EHP5561). Peer-reviewed, A-tier. [[sources/lech2020-turmeric-lead-united-states|Source record]]
-6. U.S. Food and Drug Administration (2024). *FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination*. FDA Import Alerts. [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html). Regulatory, A-tier. [[sources/fda-import-alert-99-42-spice-lead|Source record]]
-7. Rylander C, Sandanger TM, Nguyen TT, Ugulava N, Maglakelidze N, Lomtadze N, et al. (2025). *Blood lead levels in children aged 5–7 years in the Republic of Georgia*. Environmental Health Perspectives. [https://doi.org/10.1289/EHP15788](https://doi.org/10.1289/EHP15788). Peer-reviewed, A-tier. [[sources/rylander2025-georgia-children-blood-lead|Source record]]
+1. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh]]<span class="hmi-ref-meta">Forsyth JE, Nurunnahar S, Islam SS, Baker M, Yeasmin D, Islam MS, et al. · Environmental Research · 2019 · [doi.org/10.1016/j.envres.2019.108722](https://doi.org/10.1016/j.envres.2019.108722)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|Evidence of turmeric adulteration with lead chromate across South Asia]]<span class="hmi-ref-meta">Forsyth JE, Mistree D, Nash E, Angrish M, and Luby SP · Science of the Total Environment · 2024 · [doi.org/10.1016/j.scitotenv.2024.175003](https://doi.org/10.1016/j.scitotenv.2024.175003)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/troeschel2024-cinnamon-applesauce-lead|Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024]]<span class="hmi-ref-meta">Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, et al. · Morbidity and Mortality Weekly Report (MMWR) · 2024 · [doi.org/10.15585/mmwr.mm7414a2](https://doi.org/10.15585/mmwr.mm7414a2)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/gafner2026-turmeric-adulteration-six-continents|A scoping review of turmeric adulteration based on data from six continents]]<span class="hmi-ref-meta">Gafner S, Orhan N, Kahraman C, and Blumenthal M · Pharmaceutical Biology · 2026 · [doi.org/10.1080/13880209.2025.2606229](https://doi.org/10.1080/13880209.2025.2606229)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/lech2020-turmeric-lead-united-states|Ground Turmeric as a Source of Lead Exposure in the United States]]<span class="hmi-ref-meta">Lech FA, Brown S, Karagas MR, and Matte TD · Environmental Health Perspectives · 2020 · [doi.org/10.1289/EHP5561](https://doi.org/10.1289/EHP5561)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/fda-import-alert-99-42-spice-lead|FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Import Alerts · 2024 · [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html)</span><span class="hmi-ref-tag">Regulation</span>
+7. [[sources/rylander2025-georgia-children-blood-lead|Blood lead levels in children aged 5–7 years in the Republic of Georgia]]<span class="hmi-ref-meta">Rylander C, Sandanger TM, Nguyen TT, Ugulava N, Maglakelidze N, Lomtadze N, et al. · Environmental Health Perspectives · 2025 · [doi.org/10.1289/EHP15788](https://doi.org/10.1289/EHP15788)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -122,9 +124,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sources added; 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [ef98f0fda](https://github.com/paleofoundation/heavymetalindex/commit/ef98f0fda) | 2026-05-13 | major | 2 sources added; 1 section added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

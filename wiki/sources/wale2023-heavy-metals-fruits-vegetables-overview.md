@@ -26,6 +26,8 @@ updated: 2026-06-07
 
 # Wale 2023 — Heavy metals in fruits and vegetables (International Journal of Food Science and Biotechnology)
 
+## Overview
+
 This three-page single-author narrative review (Vol. 8, No. 2, pp. 23-25, doi 10.11648/j.ijfsb.20230802.12) summarizes secondary claims from the heavy-metals-in-produce literature, framed around the general thesis that untreated wastewater discharges from leather and textile industries, automobile lead emissions, and inadequate household waste disposal are the dominant routes by which Pb, Cd, As, Cr, Ni, and other heavy metals enter fruits, vegetables, and fruit juices at concentrations the review claims exceed WHO/FAO tolerable limits. The review presents no primary measurements; its two data tables are tertiary reproductions of values from Anwar et al. 2014 (Table 1, essential trace-element dietary reference intakes) and Ihesinachi and Eresiya 2014 (Table 2, claimed WHO/FAO tolerable limits in fruit juices). The paper carries paper-internal defects flagged below — notably a units-label inconsistency in Table 2 and an inclusion of palladium (Pd) as a major dietary heavy-metal contaminant alongside Pb/Cd/As/Cr, which is not a mainstream characterization in the heavy-metals-in-food literature. Evidence tier C: thin narrative review at a low-prestige Science Publishing Group venue with entirely tertiary data and unverified secondary citations.
 
 ## Key numbers
@@ -107,6 +109,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [e7896b50d](https://github.com/paleofoundation/heavymetalindex/commit/e7896b50d) | 2026-06-07 | major | 8 sections added; narrative text revised |

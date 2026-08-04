@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Afonne and Ifediba 2020 — Heavy metals risks in plant foods (Current Opinion in Toxicology)
 
+## Overview
+
 This six-page invited narrative review in Current Opinion in Toxicology synthesizes the literature on heavy metal contamination in plant foods — cereals, root and tubers, fruits, and vegetables — arguing that agricultural wastewater irrigation, fertilizer use, mining, and urban pollution in densely populated developing countries have created a dietary heavy-metal exposure burden that demands a precautionary regulatory response. The review tabulates Codex Alimentarius FAO/WHO maximum levels for the four priority heavy metals (Pb, Cd, As, Hg) across plant-food classes (Table 1) and summarizes cited concentration and health-risk findings for rice, wheat, maize, potato, cassava, and fruits/vegetables from Nigeria, China, Tanzania, Slovakia, Kosovo, Bangladesh, and a municipal-solid-waste landfill site whose attribution is internally inconsistent (review body says "Dutch village"; the cited reference is a Vientiane, Laos study). The review makes no primary measurements and reports no quantitative synthesis; all concentration values in the body are paraphrases of cited secondary sources.
 
 ## Key numbers
@@ -114,8 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fb3992262](https://github.com/paleofoundation/heavymetalindex/commit/fb3992262) | 2026-05-18 | minor | Narrative text revised |
-| [e30673400](https://github.com/paleofoundation/heavymetalindex/commit/e30673400) | 2026-05-18 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

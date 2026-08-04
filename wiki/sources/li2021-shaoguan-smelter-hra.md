@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Li et al. 2021 — Probabilistic health risk assessment at Shaoguan smelter, Guangdong, China
 
+## Overview
+
 This study performed a probabilistic health risk assessment of heavy metal exposure from soil around the Shaoguan non-ferrous metal smelter in Guangdong Province, China. Sixty soil samples were collected across five microenvironment types (residential, agricultural, industrial, road, recreational) and analyzed for 16 metals including Pb, Cd, Hg, As, Cr, Mn, Ni, Sb, and Sn by standard Chinese EPA methods. Monte Carlo simulation was applied to model non-carcinogenic and carcinogenic risk distributions for children and adults via ingestion, dermal contact, and inhalation. Pb, Cd, and As were the principal contributors to excess carcinogenic risk, which exceeded acceptable levels (10^-6 to 10^-4) in agricultural and residential zones adjacent to the smelter.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ea6d55857](https://github.com/paleofoundation/heavymetalindex/commit/ea6d55857) | 2026-05-13 | major | 4 sections added; narrative text revised |

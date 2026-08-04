@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jiang et al. 2020 — Metals in Henan village grain and vegetables near a battery factory
 
+## Overview
+
 Jiang and colleagues measured mercury, arsenic, nickel, lead, cadmium, chromium, copper, and zinc across soil, groundwater, air particulates, locally produced grain, and vegetables in a village near a battery factory in Henan Province, China. For Heavy Metal Index product occurrence, the relevant values are the wheat, corn, and vegetable concentrations reported in Table 4. Mercury and arsenic are total-element results; chromium is reported as total Cr, not Cr(VI).
 
 ## Key numbers
@@ -102,6 +104,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [a68bdbfb3](https://github.com/paleofoundation/heavymetalindex/commit/a68bdbfb3) | 2026-06-08 | major | 5 sections added; narrative text revised |

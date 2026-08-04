@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Owusu Adoma et al. 2024 — Heavy metals in lettuce and spring onion at anthropogenic sites in Kumasi, Ghana
 
+## Overview
+
 This study measured Cu, Cr, Fe, Ni, and Zn concentrations in lettuce and spring onion collected from six anthropogenic activity sites (traffic, market, sewage farm, school grounds) in the Kumasi Metropolis, Ghana. Nickel contamination was particularly severe at the Buokrom Second Grade School site (BSGS), with mean Ni concentrations of 137.15 mg/kg in lettuce and 173.55 mg/kg in spring onion, far exceeding WHO/FAO maximum permissible limits. Sites near sewage treatment and heavy traffic corridors showed the highest multi-metal contamination, demonstrating that urban farming on anthropogenic land presents substantial food safety hazards for consumers.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0562446e9](https://github.com/paleofoundation/heavymetalindex/commit/0562446e9) | 2026-05-13 | major | 4 sections added; narrative text revised |

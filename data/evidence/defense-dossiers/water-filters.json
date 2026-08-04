@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/water-filters",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "24339b303886e9733026b140f939b84b8dfb9f20731bf852631c0092e7ecaf98",
-      "content_bytes": 10151,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "68a620f57efb19c8cfb3d7ca0e6b76722574b1570ef34d51d0674c8c51e3f98a",
+      "content_bytes": 10263,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/water-filters.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/water-filters.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abuawad2023-folic-creatine-arsenic-methylation",
         "content_pin": {
-          "content_sha256": "1da4f586bd2e1c23e188877fcd434198a20bb3615cc826443ad012f200b3e234",
-          "content_bytes": 5600,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "ece1d5275f11ba3e028f73f7687c3c82a2d846626fbb7ef711af58ca2d864f6b",
+          "content_bytes": 6290,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/abuawad2023-folic-creatine-arsenic-methylation.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/abuawad2023-folic-creatine-arsenic-methylation.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2020-school-drinking-water-pb-cd",
         "content_pin": {
-          "content_sha256": "cae444f69d6103d0f275586b154502c1ff4b80ed4e0e95880132ecaf395c7cf1",
-          "content_bytes": 2884,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "6dc383b6c55334c55dd0f70be45c57082c57244573cd425b651617baa67c0a40",
+          "content_bytes": 3078,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
         }
       }
     ]

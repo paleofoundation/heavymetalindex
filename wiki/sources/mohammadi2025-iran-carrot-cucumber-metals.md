@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mohammadi et al. 2025 - Pb, Cd, Cr, and Ni in carrots and cucumbers from Iran
 
+## Overview
+
 Mohammadi and colleagues measured Pb, Cd, total Cr, and Ni in carrots and cucumbers collected across seven Fars Province sampling points in Iran, then used those concentrations in deterministic and Monte Carlo dietary-risk calculations. The source reports carrot concentrations higher than cucumber concentrations for all four metals, with carrot Pb averaging 0.303 mg/kg and carrot Cr averaging 0.654 mg/kg.
 
 ## Key numbers
@@ -86,6 +88,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

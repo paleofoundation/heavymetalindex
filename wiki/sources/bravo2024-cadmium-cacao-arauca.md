@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Bravo et al. 2024 — Cadmium in cacao and artisanal chocolate, Arauca Colombia
 
+## Overview
+
 This field study characterized cadmium (Cd) contamination in cacao crops and artisanal chocolates across 180 farms in the Arauca Department of Colombia, a growing cacao-producing region in the Orinoco basin. The study documents a north-south gradient in Cd concentration driven by proximity to the Andes, with higher Cd levels in farms closer to the mountain foothills. Average Cd in cacao seeds (n=14 farms) was 0.78 mg/kg; average Cd in artisanal chocolates (n=6) was 1.10 mg/kg, exceeding the EU maximum limit of 0.80 mg/kg for dark chocolate (Regulation EU 488/2014). The study used macro-X-ray fluorescence (MXRF) technology for in-situ measurement of Cd in chocolate bars, validated against laboratory ICP-MS results on cacao seeds.
 
 ## Key numbers
@@ -64,6 +66,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Durovic et al. 2017 - microelements in human milk and infant formula
 
+## Overview
+
 This study compares Zn, Fe, and Cu determination in mature human milk and powdered infant formula using dilution-based sample preparation without digestion. The direct HMT&C value is nutrient-metal context for powdered infant formula and human milk, not toxic-contaminant screening. The paper reports measured Zn, Fe, and Cu in five commercial formula products and 28 human milk samples, with certified reference material checks against infant/adult nutritional formula.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d784e29f4](https://github.com/paleofoundation/heavymetalindex/commit/d784e29f4) | 2026-05-19 | major | 5 sections added; narrative text revised |

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Buchet et al. 1983 — Belgian duplicate-meal metal intake
 
+## Overview
+
 Buchet and colleagues analyzed 124 duplicate 24-hour meals from three Belgian areas and a Brussels hospital kitchen for Cd, Pb, Mn, Cu, Cr, Hg, Ca, Zn, and As. This is a dietary-exposure source: it measures whole daily meals and beverages, not concentration in a specific product category. It is therefore useful as historical duplicate-diet context and broad mixed-meal exposure evidence, but not as product-row occurrence data for standards pooling. Arsenic and mercury are reported as total elements only.
 
 ## Key numbers
@@ -90,8 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [7714be765](https://github.com/paleofoundation/heavymetalindex/commit/7714be765) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [1263b065f](https://github.com/paleofoundation/heavymetalindex/commit/1263b065f) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

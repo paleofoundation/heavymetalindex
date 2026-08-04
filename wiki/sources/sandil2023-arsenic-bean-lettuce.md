@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Sandil et al. 2023 — Arsenic uptake in bean and lettuce at different developmental stages
 
+## Overview
+
 This greenhouse study characterized arsenic uptake and accumulation in two contrasting vegetable types — a fruit vegetable (bean, Phaseolus vulgaris) and a leafy vegetable (lettuce, Lactuca sativa) — across multiple developmental stages when irrigated with water containing 0.1, 0.25, and 0.5 mg As/L. Lettuce edible parts accumulated As concentrations of 0.30, 0.61, and 1.21 mg/kg DW at the three irrigation treatments respectively, substantially higher than bean fruits (0.008, 0.005, and 0.022 mg/kg DW), and the study found that health risks from As consumption were significant at all applied concentrations in lettuce.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

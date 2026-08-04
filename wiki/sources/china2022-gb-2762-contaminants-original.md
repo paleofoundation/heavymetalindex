@@ -27,6 +27,8 @@ updated: 2026-08-03
 
 # China 2022 - GB 2762 contaminants original text
 
+## Overview
+
 This is the original Chinese-language GB 2762-2022 National Food Safety Standard for maximum levels of contaminants in foods. The wiki already carries [[sources/usda-fas2023-china-gb-2762-2022-translation]], an unofficial English translation; this source page anchors the original raw PDF hash and verifies key HMI-relevant values against the Chinese standard.
 
 ## Key numbers
@@ -80,3 +82,13 @@ Microbiome: No direct microbiome endpoint.
 
 - Ingested from `raw/regulatory` on 2026-08-03.
 - Values above were checked against both the Chinese PDF text extraction and the existing USDA FAS translation source page.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6abef4583](https://github.com/paleofoundation/heavymetalindex/commit/6abef4583) | 2026-08-03 | major | 1 source added; 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

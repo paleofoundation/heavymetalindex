@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Chen et al. 2001 - Arsenic in edible fats and oils from Taiwan
 
+## Overview
+
 Chen et al. developed a focused microwave digestion and atomic fluorescence spectrometry method for arsenic in edible fats and oils, then applied it to 21 market samples. The market-sample results ranged from 0.005 to 0.027 ppm arsenic, all below Taiwan's 0.1 ppm maximum permissible concentration for edible fats and oils cited by the authors. The paper is useful both as total-arsenic occurrence evidence for fats and oils and as a method-validation source for oil-matrix digestion.
 
 ## Key numbers
@@ -112,8 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [aa4d396ba](https://github.com/paleofoundation/heavymetalindex/commit/aa4d396ba) | 2026-06-02 | minor | Narrative text revised |
-| [6ea337a70](https://github.com/paleofoundation/heavymetalindex/commit/6ea337a70) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Farid and Enani 2010 — Trace elements in commercial fruit juices, Jeddah, Saudi Arabia
 
+## Overview
+
 This study measured Zn, Cu, Fe, Mn, Co, Cr, and Ni in 129 commercial fruit juice samples (apple, orange, mango) of 15 brands available in supermarkets in Jeddah, Saudi Arabia, using graphite furnace atomic absorption spectrometry (GFAAS) after HNO3/V2O5 wet digestion. No Pb, Cd, As, Hg, Sn, Al, or U were measured. Reported concentrations for Cr (total) and Ni are the only HMT&C-panel-adjacent values; total Cr is not substitutable for Cr-VI. Daily intakes for all seven elements at an assumed Saudi consumption of 10 L/person/year (~27.4 mL/day) were well below RDA or tolerable limits.
 
 ## Key numbers
@@ -105,9 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [59db27e0c](https://github.com/paleofoundation/heavymetalindex/commit/59db27e0c) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [cdd7c226b](https://github.com/paleofoundation/heavymetalindex/commit/cdd7c226b) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Magdas et al. 2012 — Isotopic and elemental profile of Romanian organic apple juices
 
+## Overview
+
 This study characterized H, C, O stable isotope ratios and the concentration of nine elements (Cu, Cr, Ni, Zn, Pb, Co, As, Cd, U) in 31 organic single-strength apple juices from four Transylvanian regions of Romania (2010 harvest). The primary aim was building an authentic-value database for adulteration and authenticity testing of Romanian apple juice; the elemental occurrence data are presented as a parallel objective. Pb, Cd, total As, U, and Zn concentrations were below US-EPA drinking-water reference limits in every sample. Copper exceeded the 1000 µg/L drinking-water limit in one Alba sample (1224 µg/L). Chromium exceeded the 100 µg/L drinking-water limit in one Cluj sample (144.84 µg/L). Nickel exceeded the 40 µg/L drinking-water limit in some individual samples from Alba, Maramures and Cluj; the regional mean exceeded 40 µg/L only in Maramures (45.74 µg/L).
 
 ## Key numbers
@@ -120,8 +122,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5d9bf9e38](https://github.com/paleofoundation/heavymetalindex/commit/5d9bf9e38) | 2026-05-20 | major | 4 sections added and 3 removed; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

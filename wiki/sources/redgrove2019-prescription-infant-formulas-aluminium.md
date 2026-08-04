@@ -26,6 +26,8 @@ updated: 2026-05-17
 
 # Redgrove, Rodriguez, Mahadevan-Bava, Exley 2019 — Prescription infant formulas are contaminated with aluminium
 
+## Overview
+
 This International Journal of Environmental Research and Public Health article from the Birchall Centre at Keele University and Russells Hall Hospital, Dudley, is the first systematic survey of aluminium in prescription infant formulas. Twenty-four specialised UK formulas (ready-to-drink and powdered) were obtained from a paediatric clinic and analysed by transversely heated graphite furnace atomic absorption spectrometry (TH GFAAS) following microwave-assisted acid/peroxide digestion. The headline finding: ready-to-drink concentrations range from 49.9 µg/L in a preterm ready-to-drink formula to 1956.3 µg/L in an apple-flavoured ready-to-drink weight-gain supplement, a roughly 40-fold range. The highest-Al product delivers 391.3 µg Al per 200 mL serving. Some prescription formulas, including two amino-acid powders prepared according to manufacturer instructions at 41.4 and 44.4 µg/L, were the lowest-Al formulas measured in the Keele group's accumulated experience, demonstrating that the contamination of infant formulas with aluminium is not inevitable. Powdered formulas were generally less contaminated than ready-to-drink products, which inverts the pattern seen for off-the-shelf formulas in their prior work.
 
 ## Key numbers
@@ -108,8 +110,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98ee7a5ba](https://github.com/paleofoundation/heavymetalindex/commit/98ee7a5ba) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [9d8a88a6b](https://github.com/paleofoundation/heavymetalindex/commit/9d8a88a6b) | 2026-05-11 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

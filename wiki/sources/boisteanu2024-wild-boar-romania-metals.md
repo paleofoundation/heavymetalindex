@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Boișteanu et al. 2024 - Wild boar tissue metals in north-eastern Romania
 
+## Overview
+
 Boișteanu and colleagues measured essential minerals and toxic metals in wild-boar muscle and kidney from north-eastern Romania. The study is routeable for game-meat and organ-meat occurrence because the results tables report tissue-specific Pb and Cd concentrations on a wet-weight basis. The authors found age- and sex-related differences and flagged Pb and Cd accumulation as a consumer-health concern for the study area.
 
 ## Key numbers
@@ -66,8 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [7a67a3d71](https://github.com/paleofoundation/heavymetalindex/commit/7a67a3d71) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

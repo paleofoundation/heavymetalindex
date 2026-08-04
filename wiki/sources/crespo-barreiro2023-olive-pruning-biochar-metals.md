@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Crespo-Barreiro et al. 2023 - Metals and PAHs in olive-pruning biochar
 
+## Overview
+
 Crespo-Barreiro and colleagues scaled olive-tree-pruning biochar production from semi-pilot to pilot and industrial pyrolysers, then measured heavy metals, PAHs, pH, carbon stability, and germination-index phytotoxicity. The source is primary evidence for agricultural-input contamination and soil-amendment quality control, not food occurrence evidence: it measures biochar made from olive pruning residues and does not report metal concentrations in olives, olive oil, soil after application, or edible crops.
 
 ## Key numbers
@@ -123,8 +125,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [4c89e2508](https://github.com/paleofoundation/heavymetalindex/commit/4c89e2508) | 2026-06-02 | minor | Narrative text revised |
-| [6b423a81b](https://github.com/paleofoundation/heavymetalindex/commit/6b423a81b) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

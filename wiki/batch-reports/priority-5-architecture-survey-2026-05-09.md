@@ -15,6 +15,8 @@ noindex: true
 
 # Priority 5 — HMTc Product Category Architecture Survey (cycle 23)
 
+## Overview
+
 This report documents the cycle-23 survey of `wiki/products/` for HMTc product category architecture beyond Cat 1 (Infant and Child Foods) and Cat 5 (Beverages). The survey was triggered by Karen's directive to "begin Priority 5 (other HMTc product categories — Cat 2 / 3 / 4 / 6+)" in the post-cycle-20 /loop re-fire.
 
 ## Headline finding

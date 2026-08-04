@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Uneyama 2007 - Arsenic in foods cumulative data
 
+## Overview
+
 Uneyama and colleagues collated arsenic measurements across many food categories, with data drawn from published papers, Japanese local-authority research databases, and food-safety surveillance reports. The review grouped the data into crops, milk/meat/egg, fish, algae, seafood, and others, then estimated inorganic-arsenic ratios for selected food groups. This is secondary cumulative evidence, not a primary market survey, and total arsenic and inorganic arsenic must remain separate.
 
 ## Key numbers
@@ -96,6 +98,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [e89e8e6ea](https://github.com/paleofoundation/heavymetalindex/commit/e89e8e6ea) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Demir et al. 2025 - Elements in Commercial Coffees in Turkiye
 
+## Overview
+
 Demir et al. measured essential and non-essential elements in ten brewed commercial coffee samples sold in Turkiye using ICP-OES, then calculated adult intake, target hazard quotient, hazard index, and target carcinogenic risk for a 300 mL/day coffee-consumption scenario. The paper is directly relevant to the coffee product row for brewed-coffee occurrence context. It is not evidence for total arsenic contamination in coffee: arsenic and cadmium were not detected in any sample.
 
 ## Key numbers
@@ -85,8 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [caaa2eea9](https://github.com/paleofoundation/heavymetalindex/commit/caaa2eea9) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [d1c9a1e86](https://github.com/paleofoundation/heavymetalindex/commit/d1c9a1e86) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

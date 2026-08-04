@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Samma et al. 2024 — Heavy metals in soil and vegetables across Bogura district, Bangladesh
 
+## Overview
+
 Copper (Cu), chromium (Cr), and lead (Pb) were quantified by atomic absorption spectrophotometry in five vegetable types (potato, tomato, chili pepper, cabbage, cauliflower) and paired surface soils from six upazilas in the Bogura district, Bangladesh's most industrialized northern city. While Cu concentrations in all matrices remained within BFSA and FAO/WHO safe limits, Cr and Pb in vegetables substantially exceeded permissible levels, with Pb exhibiting a contamination factor greater than 6 (severe contamination category) across most sites. Carcinogenic (CHR > 10⁻⁴) and non-carcinogenic (HI > 1) health risk indices indicated significant risk to consumers across all six upazilas.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0562446e9](https://github.com/paleofoundation/heavymetalindex/commit/0562446e9) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Al-Sulaiti et al. 2023 — MeHg in commercially consumed fish in Qatar
 
+## Overview
+
 This study assessed methylmercury (MeHg) health risk from fish consumption among adult residents of Qatar, combining a dietary survey (n=600) with chemical analysis of 65 composite samples spanning seven commercially important species. Total mercury (T-Hg) was measured in all samples by ICP-MS following microwave acid digestion, with LOD 1 µg/kg and LOQ 10 µg/kg. MeHg concentrations were derived from T-Hg using species-specific literature conversion factors. The mean T-Hg across all fish was 0.077 µg/g wet weight (range: 0.001 µg/g in rabbitfish to 0.422 µg/g in imported grouper), well within the EU maximum of 0.5 µg/g for most species, though the finding that average estimated weekly MeHg intakes exceed the EFSA tolerable weekly intake (TWI) of 1.3 µg/kg bw/week for high-protein diet consumers and females of childbearing age raises concern about regular high-consumption patterns.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98dd9c826](https://github.com/paleofoundation/heavymetalindex/commit/98dd9c826) | 2026-05-13 | major | 4 sections added; narrative text revised |

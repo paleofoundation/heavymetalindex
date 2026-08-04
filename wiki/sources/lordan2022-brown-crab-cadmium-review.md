@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Lordan and Zabetakis 2022 — Cadmium in the brown crab industry and human health risks
 
+## Overview
+
 Lordan and Zabetakis review cadmium accumulation in brown crab (Cancer pagurus), the divergent regulatory limits applied in the European Union versus the People's Republic of China and Hong Kong, the dietary-intake context that determines whether crab consumption contributes meaningfully to total cadmium exposure, and the clinical effects of chronic cadmium exposure on humans. The review is most useful to the wiki as compiled occurrence evidence for cadmium in brown-crab white meat, brown meat, and hepatopancreas across European fisheries, and as a synthesis of the EU/PRC regulatory divergence that has shaped live-export trade.
 
 ## Key numbers
@@ -143,9 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [b041f2eca](https://github.com/paleofoundation/heavymetalindex/commit/b041f2eca) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

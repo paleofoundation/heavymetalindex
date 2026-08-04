@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Urbina 2018 — Biomining dissertation: isothermal-titration characterisation of natural and rationally-designed Cu/Zn/Ni-binding peptides, and a flagellin-knockout strain for surface-display metal recovery
 
+## Overview
+
 Urbina's PhD dissertation at UC Santa Cruz frames biomining (microbial extraction of metals from materials that are not traditionally mined, principally end-of-life electronics) as the application context and then reports two pieces of primary work in support of that goal. Chapter 1 is a review of the state of biomining (biooxidation of metal sulfides, heap bioleaching, basalt and silicate-mineral bioleaching, electronic-component bioleaching, and bioengineering of bacterial surfaces). Chapter 2 measures the intrinsic binding affinity (Kₐ, ΔH, n) of eight short peptides for Cu²⁺, Zn²⁺, and Ni²⁺ by isothermal titration calorimetry (ITC) and the apparent affinity for Cu when a competing ion (Zn or Ni) is pre-bound, contrasting naturally-occurring metal-binding motifs against motifs designed *in silico* by Kožíšek et al. (2008). Chapter 3 constructs and characterises a Bacillus subtilis flagellin-knockout strain (PY79 ΔhagAB::ery) intended as a chassis for displaying random peptide libraries on flagella for affinity-based screening of metal-binding peptides. The dissertation does not measure heavy metals in food, cosmetics, or any human-exposure matrix; its relevance to the Heavy Metal Index is to the peptide-Cu / peptide-Ni / peptide-Zn coordination-chemistry literature that already includes [[sources/luo2024-peptides-heavy-metal-remediation]], [[sources/shalev2022-peptide-metal-nmr-review]], [[sources/spallacci2025-bioinformatics-biomimetic-metal-peptide]], [[sources/zhang2025-metalorian-de-novo-metal-binding-peptides]], and [[sources/grill1989-phytochelatins-heavy-metal-binding-peptides-plants]].
 
 ## Why this matters
@@ -166,8 +168,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [534c0e1a1](https://github.com/paleofoundation/heavymetalindex/commit/534c0e1a1) | 2026-06-08 | minor | Narrative text revised |
-| [6ff61791f](https://github.com/paleofoundation/heavymetalindex/commit/6ff61791f) | 2026-06-08 | major | 5 sources added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

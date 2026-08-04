@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # de Oliveira et al. 2018 - Metals in traditional and herbal teas
 
+## Overview
+
 de Oliveira and colleagues measured aluminum, total arsenic, cadmium, total chromium, and lead in 47 traditional and herbal tea products collected in the US market, and then measured the same metals in 5-minute boiling-water infusions. The sample set covered herbal, black, green, and oolong teas with declared origins across 13 countries. The source reports both dry tea-leaf concentrations in `mg kg-1` and infusion concentrations in `mg L-1` for aluminum or `µg L-1` for arsenic, cadmium, chromium, and lead.
 
 ## Key numbers
@@ -86,6 +88,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [3df1f6daa](https://github.com/paleofoundation/heavymetalindex/commit/3df1f6daa) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

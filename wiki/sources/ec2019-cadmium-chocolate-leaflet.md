@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # EC 2019 — Cadmium in Chocolate (consumer information leaflet)
 
+## Overview
+
 This is a two-page consumer information leaflet issued by the European Commission around the 1 January 2019 cocoa-products enforcement deadline of Commission Regulation (EU) No 488/2014. The leaflet's purpose is to communicate, in plain language, the four cadmium maximum levels that the 2014 amendment of 1881/2006 set for chocolate and drinking-chocolate cocoa powder, and to explain why the levels apply to the finished product rather than to the cocoa beans. It is not a legal instrument; it is a public-facing Commission communication that summarises the binding text already in force.
 
 ## Source role
@@ -120,8 +122,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [38e81d282](https://github.com/paleofoundation/heavymetalindex/commit/38e81d282) | 2026-06-02 | minor | Narrative text revised |
-| [ca333922d](https://github.com/paleofoundation/heavymetalindex/commit/ca333922d) | 2026-06-02 | major | 1 source added; 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

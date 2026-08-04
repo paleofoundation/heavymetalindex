@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EPA IRIS — Cadmium Oral Reference Doses
 
+## Overview
+
 The EPA Integrated Risk Information System chemical assessment for cadmium provides two route-specific oral reference doses that reflect the different absorption efficiency of cadmium in water versus food matrices ([[sources/epa-iris-cadmium-1989|EPA IRIS Cd 1989]]). Both values were last revised October 1, 1989 and remain in force ([[sources/epa-iris-cadmium-1989|EPA IRIS Cd 1989]]).
 
 | Parameter | Water RfD | Food RfD |
@@ -61,11 +63,11 @@ The EPA IRIS food RfD is the most permissive of the four major dietary cadmium r
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Environmental Protection Agency, National Center for Environmental Assessment (1989). *Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=141). Government report, A-tier. [[sources/epa-iris-cadmium-1989|Source record]]
-2. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
-3. Agency for Toxic Substances and Disease Registry (2012). *Toxicological Profile for Cadmium*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp5.pdf). Government report, A-tier. [[sources/atsdr-cadmium-toxprofile-2012|Source record]]
+1. [[sources/epa-iris-cadmium-1989|Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, National Center for Environmental Assessment · U.S. Environmental Protection Agency, Integrated Risk Information System · 1989 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=141)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/atsdr-cadmium-toxprofile-2012|Toxicological Profile for Cadmium]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2012 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp5.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -75,9 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
-| [7c398715c](https://github.com/paleofoundation/heavymetalindex/commit/7c398715c) | 2026-04-25 | major | 3 sources added; contamination-profile values revised; 3 sections added and 5 removed |
 <!-- END: hmi-page-history -->

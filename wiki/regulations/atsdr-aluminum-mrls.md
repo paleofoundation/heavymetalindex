@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # ATSDR — Minimal Risk Levels for Aluminum
 
+## Overview
+
 The US Agency for Toxic Substances and Disease Registry derived oral Minimal Risk Levels for aluminum in its September 2008 Toxicological Profile, anchored on neurotoxic effects in lifetime-exposed mice (Golub et al. 2000) ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]). The chronic-duration oral MRL is **1 mg Al/kg/day**, the same value as the intermediate-duration oral MRL ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]). An acute-duration oral MRL was not derived because the available data were considered inadequate ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]).
 
 ## Minimal Risk Levels
@@ -65,10 +67,10 @@ Typical adult dietary aluminum intake of 5 to 15 mg/day is well below the chroni
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Agency for Toxic Substances and Disease Registry (2008). *Toxicological Profile for Aluminum*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf). Government report, A-tier. [[sources/atsdr-aluminum-toxprofile-2008|Source record]]
-2. EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) (2008). *Safety of Aluminium from Dietary Intake*. The EFSA Journal 2008;754:1-34. [https://doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754). Government report, A-tier. [[sources/efsa-aluminium-afc-2008|Source record]]
+1. [[sources/atsdr-aluminum-toxprofile-2008|Toxicological Profile for Aluminum]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2008 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/efsa-aluminium-afc-2008|Safety of Aluminium from Dietary Intake]]<span class="hmi-ref-meta">EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) · The EFSA Journal 2008;754:1-34 · 2008 · [doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -78,9 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
-| [7c398715c](https://github.com/paleofoundation/heavymetalindex/commit/7c398715c) | 2026-04-25 | major | 2 sources added; contamination-profile values revised; 5 sections added |
 <!-- END: hmi-page-history -->

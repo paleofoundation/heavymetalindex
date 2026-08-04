@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang et al. 2023 — Heavy metal distribution in industrial zone soils, Hangzhou, China
 
+## Overview
+
 This study characterised heavy metal concentrations, spatial distribution, sources, and ecological and human health risks in soils of the key industrial zones of Hangzhou, Zhejiang Province, eastern China. A total of 2,651 soil surface samples were collected from 180 enterprises across chemical engineering, pharmacy, printing/dyeing, electroplating, and papermaking industries. Positive matrix factorization (PMF) analysis attributed 84.6% of soil HM pollution to human activities and 15.6% to natural sources, with Cd (PERI: 323.4) identified as the main ecological pollution risk element. Carcinogenic and non-carcinogenic risk indices were generally within acceptable ranges, with the notable exception of Cr in some sample clusters, though health risks were below regulatory thresholds for most sites.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [29a65ac86](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac86) | 2026-05-12 | major | 5 sections added; narrative text revised |

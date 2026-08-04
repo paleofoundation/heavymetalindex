@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kharkwal 2023 - Cooked beans and vegetables metals in Punjab
 
+## Overview
+
 Kharkwal and colleagues measured arsenic, cadmium, lead, and mercury in cooked beans and cooked vegetable preparations collected from household diets in Ludhiana and Bathinda districts of Punjab, India. The study reports `mg/kg` mean concentrations by district and urban/rural household stratum, alongside chronic daily intake and risk calculations for adults and elderly subjects. The arsenic and mercury measurements are total/unspecified species; the paper does not report inorganic arsenic or methylmercury speciation.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [c16b86030](https://github.com/paleofoundation/heavymetalindex/commit/c16b86030) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Yan et al. (2025) analyzed 6,632 rice samples collected from 18 prefecture-level cities in Henan Province, China, between 2020 and 2022 for five heavy metals: cadmium (Cd), chromium (Cr), lead (Pb), total mercury (Hg), and inorganic arsenic (iAs). The study found that inorganic arsenic had the highest detection rate (99.59%) and median concentration (0.110 mg/kg), with a hazard quotient exceeding 1 for all age groups — making it the dominant health risk in Henan rice, particularly for children and toddlers. All samples met China GB 2762-2017 food safety limits for Pb, Hg, As, Cr, and iAs, except for Cd, for which some exceedances were observed.
 
 ## Key numbers
@@ -80,6 +82,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |

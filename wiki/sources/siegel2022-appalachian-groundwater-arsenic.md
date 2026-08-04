@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Siegel et al. 2022 — Groundwater quality in the northwestern Appalachian Basin
 
+## Overview
+
 Siegel et al. collected and analyzed 216 water samples from domestic wells and springs in eastern Ohio and northwestern West Virginia — a region of co-occurring unconventional oil and gas (UOG) development, coal mining, and conventional oil and gas activity. Using ICP-MS and ICP-AES, supplemented by noble gas geochemistry and hierarchical cluster analysis, they characterize contaminant distributions and attribute sources. Arsenic exceeded the EPA MCL (10 µg/L) in 6.8% of samples, with concentrations highest in valley wells in Doddridge and Tyler counties (West Virginia) and strongly associated with naturally geochemical conditions (alkaline, ion-exchange-driven groundwater) rather than with proximity to UOG operations. Manganese exceeded the EPA health advisory level of 0.3 mg/L in 7.3% of samples, and iron exceeded aesthetic SMCLs in many more. The study provides concentration data for arsenic and manganese in a rural drinking water system serving 2.4 million residents.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [63a84a1f0](https://github.com/paleofoundation/heavymetalindex/commit/63a84a1f0) | 2026-05-13 | major | 4 sections added; narrative text revised |

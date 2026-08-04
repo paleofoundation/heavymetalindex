@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Anderson & Anderson 2002 — Mouse-bioassay VOC-emission toxicity comparison of British vs American disposable diapers
 
+## Overview
+
 This four-page Indoor Air 2002 conference-proceedings paper from the Anderson Laboratories group (West Hartford, Vermont) reports a screening-level mouse-bioassay comparison of the volatile-organic-compound (VOC) emissions of British- and American-manufactured disposable diapers sold under two unnamed brand names. The bioassay is a modified ASTM E-981 head-only inhalation protocol coupled to whole-body plethysmography (pneumotachograph-derived TB, TP, VD waveform parameters) and a 25-parameter Functional Observational Battery (FOB) for screening neurotoxicity in mice. Total VOC (TVOC) emissions in the 40-L equilibration chamber, measured against a 100 ppm methane calibration on a Rosemont 400A FID analyzer, were 115 ppm (X-Brit), 350 ppm (X-Amer), 110 ppm (Y-Brit), and 200 ppm (Y-Amer), against a 26 ppm charcoal-filtered-air baseline — i.e., American-branded versions of the same two brand lines emitted ~ 2-3 × the TVOC of their British counterparts. American versions produced statistically significant Sensory Irritation (SI), Pulmonary Irritation (PI), Airflow Limitation (AFL), and FOB-detected neurotoxicity on both first and second one-hour exposures; British versions produced only mild first-exposure neurotoxicity, though X-Brit also produced moderate SI/PI/AFL on second exposure. The authors discuss VOCs known to occur in American-manufactured diaper emissions from prior work (xylene, styrene, ethylbenzene, isopropylbenzene, plus several aldehydes; Anderson and Anderson 1999) but do not chemically speciate the emissions of the four samples in this study. **The paper measures no heavy metals** and contributes no occurrence data to the HMI Pb/Cd/iAs/tAs/MeHg/tHg/Ni/Al/Cr-VI/Sn certification panel; it is ingested as an out-of-core-scope methodology and exposure-pathway reference (per the precedent set by `lai2025-infant-diaper-phthalate-dna-oxidation.md` for phthalates and `lea2018-dinp-endocrine-disruption.md` for DINP weight-of-evidence) and routed to `[[products/diapers-and-components]]` for discoverability as a diaper-substance paper documenting a non-metals inhalation/dermal-headspace exposure pathway from product VOC emissions.
 
 ## Key numbers
@@ -111,6 +113,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c660ae705](https://github.com/paleofoundation/heavymetalindex/commit/c660ae705) | 2026-06-01 | major | 1 section added |
 | [22f745719](https://github.com/paleofoundation/heavymetalindex/commit/22f745719) | 2026-06-01 | major | 6 sections added; narrative text revised |

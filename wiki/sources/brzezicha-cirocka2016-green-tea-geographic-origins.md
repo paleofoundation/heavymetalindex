@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Brzezicha-Cirocka et al. 2016 — Monitoring heavy metals in green tea from China, India, and Japan
 
+## Overview
+
 This study measured Cd, Pb, and 11 other elements (Ca, K, Mg, Na, P, Mn, Fe, Zn, Cu, Co, Cr, Ni) in dry leaves and infusions of 41 green teas purchased in Poland representing China (17 original + 10 marketed), India (2 original), Japan (7 original), and mixed/unspecified origins (5 marketed). Both dry tea and prepared infusions were analysed to assess leaching percentages and PTWI exceedance risk. Indian teas had the highest Cd leaching (43.8%) while Chinese teas had the lowest (9.41%). Chemometric analysis (factor and cluster analysis) successfully differentiated samples by geographic origin using K, P, Mn, Fe, Cu, Co, and Cd as key discriminating elements.
 
 ## Key numbers
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

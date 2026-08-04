@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # US House Subcommittee 2021 — Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury
 
+## Overview
+
 The U.S. House Subcommittee on Economic and Consumer Policy compiled internal testing records subpoenaed from seven major US baby-food manufacturers between November 2019 and February 2021 and reported sample-level inorganic arsenic, total arsenic, lead, cadmium, and mercury concentrations across ingredient pre-shipment tests and finished-product tests. The staff report aggregates manufacturer-provided test results for products marketed for infants and young children, identifies internal corporate threshold values that exceed every existing US and international regulatory standard for related products (drinking water, infant formula, juice, candy), documents a confidential August 2019 Hain presentation to FDA showing that finished-product inorganic arsenic levels run 28-93% higher than ingredient testing alone predicts, and recommends mandatory finished-product testing, mandatory labeling, voluntary phase-out of high-contamination ingredients (notably rice), uniform FDA action levels across all infant and toddler foods, and parental avoidance guidance. The report is a public-record Congressional oversight document; the manufacturers named are subjects of the investigation per Part 12 Exception 1.
 
 ## Key numbers
@@ -88,8 +90,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [c2d95354e](https://github.com/paleofoundation/heavymetalindex/commit/c2d95354e) | 2026-06-02 | minor | Narrative text revised |
-| [bc9725e1c](https://github.com/paleofoundation/heavymetalindex/commit/bc9725e1c) | 2026-06-02 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Viviers et al. 2021 - South African cannabis product metals
 
+## Overview
+
 Viviers et al. analyzed 310 cannabis-based products submitted to a South African private laboratory for Class 1 and Class 2 elemental impurities. The paper reports aggregate detection and source-limit failure counts by product category, rather than individual sample concentration values. Arsenic and mercury are not speciated, so this page records them as total arsenic (tAs) and total mercury (tHg).
 
 ## Key numbers
@@ -123,6 +125,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [718c85d1d](https://github.com/paleofoundation/heavymetalindex/commit/718c85d1d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

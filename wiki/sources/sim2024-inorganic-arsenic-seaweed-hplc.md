@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sim et al. 2024 — HPLC-ICP-MS method for inorganic arsenic in seaweed, grain, and novel food matrices
 
+## Overview
+
 This paper develops and validates an optimized HPLC-ICP-MS method for iAs determination in a range of food matrices including seaweed, rice, grass silage, and insect proteins, using a design of experiments (DoE) approach to optimize chromatographic conditions. The method is validated against certified reference material (hijiki certified reference material) achieving 99±9% recovery for iAs. The paper also reports iAs concentrations in the tested matrices, establishing that Laminaria digitata can have iAs comprising more than 50% of total arsenic in some samples, with regulatory implications under the EU maximum level for iAs in seaweed.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

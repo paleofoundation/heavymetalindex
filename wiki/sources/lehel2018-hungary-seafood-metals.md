@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lehel 2018 - Hungary seafood market metals
 
+## Overview
+
 Lehel, Bartha, Danko, Lanyi, and Laczay measured arsenic, cadmium, lead, and mercury in shellfish, oysters, and squids purchased from a Hungarian fishery product market. The samples represented imported seafood origins: shellfish from Denmark and Italy, oysters from France, and squids from Argentina. Arsenic is reported as total/unspecified arsenic; mercury is reported as total mercury and was below the method limit of detection in every sample.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [3eea5692d](https://github.com/paleofoundation/heavymetalindex/commit/3eea5692d) | 2026-06-08 | major | 4 sections added; narrative text revised |

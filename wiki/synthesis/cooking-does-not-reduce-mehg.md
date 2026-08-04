@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # Cooking does not reduce methylmercury — and why this matters for consumer messaging
 
+## Overview
+
 A widespread consumer misconception is that thorough cooking — frying, grilling, baking, broiling, smoking, canning, pickling — reduces the methylmercury (MeHg) content of fish. It does not. Methylmercury binds covalently to cysteine residues in muscle protein and survives every conventional cooking method intact. This means species selection at the point of sourcing is the only lever that meaningfully reduces dietary MeHg exposure; no kitchen practice substitutes for it. The consumer-protection significance is direct: the cooking-as-mitigation misconception leaves a household that assumes its tuna-heavy diet is safe because the fish is cooked well exposed to the full dietary MeHg load.
 
 This synthesis page consolidates the mechanism evidence and the comparative measurements across cooked-and-processed forms that establish the finding.
@@ -102,12 +104,12 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Farina M, Rocha JBT, and Aschner M (2011). *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*. Life Sciences 89(15-16):555-563. [https://doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019). Peer-reviewed, A-tier. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Source record]]
-2. German Federal Institute for Risk Assessment (BfR) (2024). *Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study*. BfR Opinion 023/2024. [https://doi.org/10.17590/20240626-094256-0](https://doi.org/10.17590/20240626-094256-0). Government report, A-tier. [[sources/bfr2024-methylmercury-fish-seafood-germany|Source record]]
-3. Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. (2024). *Total mercury exposure through canned tuna in water sold in Quito, Ecuador*. Scientific Reports. [https://doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y). Peer-reviewed, A-tier. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Source record]]
-4. Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. (2023). *Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice*. Archives of Toxicology, Vol. 97, pp. 2399-2418. [https://doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7). Peer-reviewed, A-tier. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Source record]]
+1. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/bfr2024-methylmercury-fish-seafood-germany|Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study]]<span class="hmi-ref-meta">German Federal Institute for Risk Assessment (BfR) · BfR Opinion 023/2024 · 2024 · [doi.org/10.17590/20240626-094256-0](https://doi.org/10.17590/20240626-094256-0)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Total mercury exposure through canned tuna in water sold in Quito, Ecuador]]<span class="hmi-ref-meta">Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. · Scientific Reports · 2024 · [doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [49bebbcc6](https://github.com/paleofoundation/heavymetalindex/commit/49bebbcc6) | 2026-05-18 | major | 4 sources added; 8 sections added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

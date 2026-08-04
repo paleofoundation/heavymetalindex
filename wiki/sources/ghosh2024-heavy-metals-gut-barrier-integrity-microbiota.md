@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Ghosh, Nukavarapu, Jala 2024 — Effects of heavy metals on gut barrier integrity and gut microbiota
 
+## Overview
+
 This Microbiota and Host review by Ghosh, Nukavarapu, and Jala (University of Louisville Brown Cancer Center, Center for Microbiomics, Inflammation and Pathogenicity, with University of Connecticut collaboration) covers the mechanistic literature on how environmental heavy-metal exposure damages the intestinal epithelial barrier and disrupts gut microbiota homeostasis. The review documents the well-characterized links between heavy-metal exposure (Pb, Cd, As, Hg, Cr) and gastrointestinal-related disorders including inflammatory bowel disease, with attention to barrier-function endpoints (tight-junction protein expression, mucus-layer integrity, paracellular permeability) and to immune-homeostasis endpoints (mucosal cytokine balance, regulatory T-cell function).
 
 ## Key conclusions
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 3 sections added; narrative text revised |

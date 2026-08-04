@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Margaoan et al. 2024 — Environmental pollution, honey bees, and bee products
 
+## Overview
+
 This comprehensive review examines environmental pollutants — heavy metals, pesticides, acaricides, antibiotics, and emerging contaminants — affecting honey bees and the quality and safety of bee-derived products (honey, pollen, beeswax, royal jelly, bee bread). The heavy metals section covers Pb, Cd, Hg, As, Cr, and Ni, reviewing concentrations reported in honey and pollen from contaminated versus clean environments and their implications for human health. The review also documents the use of honey bees as reliable bioindicators of environmental pollution, given their wide foraging range and the accumulation of trace elements in hive matrices.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

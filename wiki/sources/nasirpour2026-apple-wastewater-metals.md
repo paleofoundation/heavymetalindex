@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Nasirpour et al. 2026 — Heavy metals in apple fruit, leaves, and soil under treated wastewater irrigation, Iran
 
+## Overview
+
 This study measured the accumulation of heavy metals and essential elements in apple (Cultivar: Golden Delicious) fruit, leaves, and soil under irrigation with urban treated wastewater compared to clean water controls over a 2021-2023 field experiment in Iran (BMC Plant Biology 2026:26:441). Metals measured in fruit included As, Se, Ba, and Sr; in leaves: As, Co, Cr, Ni, Pb, Se, and Ba; in soil: As, Co, Cr, Ni, Pb, and Ba. The study found that irrigating apple trees with treated wastewater led to measurable accumulation of heavy metals in soil and plant tissues, including in the edible fruit, compared to conventionally irrigated controls. This has direct implications for food safety in regions where wastewater irrigation of fruit orchards is practiced.
 
 ## Key numbers
@@ -55,6 +57,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

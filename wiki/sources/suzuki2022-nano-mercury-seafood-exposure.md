@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Suzuki 2022 - Nano-sized mercury particles in seafood
 
+## Overview
+
 Suzuki and colleagues measured nano-sized mercury-containing particles (NP-Hg), total mercury (T-Hg), methylmercury (MeHg), and selenium in raw fish and shellfish purchased in Japan. The study reports occurrence data for seafood groups and uses Japanese consumption data to estimate dietary exposure to T-Hg, MeHg, and NP-Hg. NP-Hg is treated as a separate nanoparticulate mercury finding in this page, not as a substitute for T-Hg or MeHg.
 
 ## Key numbers
@@ -79,8 +81,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [59be7b583](https://github.com/paleofoundation/heavymetalindex/commit/59be7b583) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [745b46425](https://github.com/paleofoundation/heavymetalindex/commit/745b46425) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

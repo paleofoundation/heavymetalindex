@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Huda et al. 2024 - Heavy metals and pesticides in irrigated rice near Dhaka
 
+## Overview
+
 Huda et al. (2024) measured metal and pesticide residues in a soil-water-rice system near Gazipur, Bangladesh, where three rice fields were irrigated with water sources influenced by nearby industrial activity. The routeable product occurrence data are the rice-grain concentrations in Table 3; soil, irrigation water, husk, and stem values are supply-chain context and should not be pooled as finished-grain values. Arsenic and mercury are reported only as total/unspecified As and Hg, so this page records them as tAs and tHg, not inorganic arsenic or methylmercury.
 
 ## Key numbers
@@ -82,6 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [afced5e2a](https://github.com/paleofoundation/heavymetalindex/commit/afced5e2a) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

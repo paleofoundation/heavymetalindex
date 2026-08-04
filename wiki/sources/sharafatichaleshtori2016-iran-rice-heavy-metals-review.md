@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Sharafati Chaleshtori, Rafieian Kopaei & Sharafati Chaleshtori 2016 — Systematic review of Cd, As, Pb, Cr, Co, Ni, and Hg in Iranian rice (2005-2016)
 
+## Overview
+
 This review article aggregates 28 prior studies (25 full-text plus 3 abstracts) published 2005-2016 on heavy metal contamination of rice (Oryza sativa) cultivated in or imported into Iran, drawn from Iranian and international databases (Magiran, Iran Medex, Irandoc, SID, Google Scholar, Scopus, ISI Web of Knowledge, Cochrane CDSR, PubMed). The authors tabulate province-level means and ranges for cadmium, arsenic, lead, chromium, cobalt, nickel, and mercury reported across the assembled corpus (Table 1) and compute a single Iran-wide estimated weekly intake (EWI) per metal for a 60 kg adult under a 165 g/day average per-capita rice consumption assumption (Table 2). The headline finding: averaged across the assembled corpus, weekly intakes of Cd, As, Pb, Cr, Co, and Ni from rice fall below their respective WHO/FAO provisional tolerable weekly intake ceilings, but the average weekly intake of mercury (9.68 µg/kg body weight per week) exceeds the 4 µg/kg bw/week PTWI by approximately 2.4×. The review also reports that in 14 of 23 Cd-reporting studies and 16 of 22 Pb-reporting studies, province-level mean concentrations exceeded the Iranian national standards (ISIRI 12968: 0.06 µg/g Cd, 0.15 µg/g Pb, 0.15 µg/g As).
 
 ## Key numbers
@@ -167,6 +169,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [657c7b0da](https://github.com/paleofoundation/heavymetalindex/commit/657c7b0da) | 2026-06-01 | major | 5 sections added; narrative text revised |

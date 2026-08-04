@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Marques et al. 2025 — Phytochelatins and cadmium mitigation via plant genetic manipulation
 
+## Overview
+
 Marques, Thiengo, and Azevedo (Department of Genetics and Luiz de Queiroz College of Agriculture, ESALQ/USP, Piracicaba, Brazil) review the published evidence on genetic-manipulation strategies that exploit the phytochelatin (PC) pathway to modulate cadmium (Cd) tolerance, accumulation, and translocation in plants. The piece is a "Perspective" article in *International Journal of Molecular Sciences* combining a narrative synthesis of ~80 functional-genetics studies (Table 1) with a Web of Science bibliometric analysis of two subsets — mutant-focused (final n=39) and transgenic-focused (final n=44) — and a forward look at multigene precision-engineering and grafting strategies for phytoremediation and food-safety outcomes in Cd-contaminated agricultural systems. The review reports no primary contamination measurements in any food matrix; its value to the wiki is conceptual background for [[metals/cadmium]] and for the mitigation/remediation-evidence section of the wiki when those pages discuss the biological mechanisms by which plants chelate, sequester, and translocate Cd.
 
 ## Why this matters
@@ -108,7 +110,7 @@ This is a narrative perspective article with no declared inclusion/exclusion cri
 
 **Evidence tier.** B (secondary narrative perspective with bibliometric component). The paper reports no primary measurements, declares no systematic search strategy for the narrative portion, and uses a single-database bibliometric portion without PRISMA. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither.
 
-**Metals frontmatter.** Cd only. From the HMTc 10-analyte priority list (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), only cadmium is the subject of this review. The paper mentions arsenic once in passing (Gui et al. co-overexpression study) and copper once (the cad1-3 altered copper transport finding) but does not provide synthesis material on any non-Cd metal. The metals abbreviation `Cd` is used per CLAUDE.md Part 14 vocabulary.
+**Metals frontmatter.** Cd only. From the HMTc 10-analyte priority list (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), only cadmium is the subject of this review. The paper mentions arsenic once in passing (Gui et al. co-overexpression study) and copper once (the cad1-3 altered copper transport finding) but does not provide synthesis material on any non-Cd metal. The metals abbreviation `Cd` is used vocabulary.
 
 **Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The source measures nothing in any food matrix; the only species names with food relevance (rice, wheat, *Brassica juncea* mustard, *Nicotiana tabacum* tobacco, *Boehmeria nivea* ramie) appear as model or transgenic host organisms in genetic-engineering experiments, not as sampled food commodities with reported Cd concentrations. Brazil is the authors' institutional country but the review is conceptually international and no national regulatory or occurrence frame applies, so `jurisdictions:` remains empty.
 
@@ -136,8 +138,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [547dbcda6](https://github.com/paleofoundation/heavymetalindex/commit/547dbcda6) | 2026-06-08 | minor | Narrative text revised |
-| [95b689d4d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d4d) | 2026-06-08 | major | 11 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

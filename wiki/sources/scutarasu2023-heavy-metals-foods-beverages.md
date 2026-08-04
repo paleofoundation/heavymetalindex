@@ -27,6 +27,8 @@ updated: 2026-05-25
 
 # Scutarasu and Trincă 2023 — Heavy metals in foods and beverages: global review including edible oils
 
+## Overview
+
 This narrative review in the MDPI journal Foods covers the global situation of heavy metal contamination across major food groups (fruits and vegetables, dairy, meat, edible oils, alcoholic beverages), with a dedicated section (Section 4.4 and Table 4) on edible oils aggregating concentration data from published studies across multiple countries. The review is broad-scope and should be treated as evidence tier B (secondary synthesis, not original data), but its Table 4 provides a useful cross-oil cross-country heavy metal inventory drawing on A-tier primary studies. The review also provides a useful regulatory summary of Codex Alimentarius limits for As, Cd, Pb, and Hg across food matrices.
 
 ## Key numbers
@@ -148,9 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6f1ac662b](https://github.com/paleofoundation/heavymetalindex/commit/6f1ac662b) | 2026-05-25 | minor | Narrative text revised |
-| [612b62b94](https://github.com/paleofoundation/heavymetalindex/commit/612b62b94) | 2026-05-25 | minor | Narrative text revised |
-| [539c1ba70](https://github.com/paleofoundation/heavymetalindex/commit/539c1ba70) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

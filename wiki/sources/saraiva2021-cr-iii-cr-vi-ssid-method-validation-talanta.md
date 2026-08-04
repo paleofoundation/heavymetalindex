@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Saraiva et al. 2021 — Single-run SS-ID-HPLC-ICP-MS method for Cr(III)/Cr(VI) speciation in meat and dairy
 
+## Overview
+
 This A-tier analytical-methods paper develops and validates a species-specific isotope-dilution (SS-ID) HPLC-ICP-MS method for simultaneous quantification of Cr(III) and Cr(VI) in meat and dairy food matrices, with mathematical correction for species interconversion during sample preparation. Sequential complexation of Cr(III) with ethylenediaminetetraacetic acid (EDTA) and Cr(VI) with 1,5-diphenylcarbazide (DPC) is followed by anion-exchange HPLC separation (<3 min) and ICP-MS detection using ⁵⁰Cr(III) and ⁵³Cr(VI) isotopically enriched spikes. The method was applied to three real food matrices — baby milk, semi-skimmed milk and steak beef — purchased in retail shops in Maisons-Alfort, France: Cr(VI) was not quantified in any sample at LOQ 0.049 µg/kg, while Cr(III) levels (2.64–4.73 µg/kg) matched independently measured total Cr (2.30–4.65 µg/kg) within combined uncertainty, supporting the EFSA position that chromium in these foodstuffs is present solely as Cr(III). This Talanta paper is the methodological foundation for the same authors' companion application papers in *Food Additives & Contaminants Part A* (raw/cooked milk and meat, n=30) and *Journal of Food Composition and Analysis* (bread and breakfast cereals).
 
 ## Key numbers
@@ -140,8 +142,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [614190ae8](https://github.com/paleofoundation/heavymetalindex/commit/614190ae8) | 2026-05-18 | minor | Narrative text revised |
-| [16169cf3a](https://github.com/paleofoundation/heavymetalindex/commit/16169cf3a) | 2026-05-18 | major | 2 sources added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

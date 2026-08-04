@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Mirończuk-Chodakowska et al. 2013 — Cadmium and lead in wild and cultivated mushrooms, eastern Poland
 
+## Overview
+
 This study measured cadmium (Cd) and lead (Pb) in 21 edible mushroom species from the low-industry eastern region of Poland known as the Green Lungs, comparing 18 wild-harvested species from Podlaskie Province against 3 commercially cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes). Wild mushrooms exhibited wide interspecies variability for Cd (0.10–10.20 µg/g dry mass) while Pb concentrations were generally low; two wild species (Rozites caperatus and Boletus chrysenteron) accumulated Cd at levels whose intake from a single 100 g fresh-weight serving could marginally exceed the provisional tolerable monthly intake (PTMI) established by FAO/WHO JECFA for cadmium. Cultivated mushrooms carried markedly lower heavy-metal burdens than most wild species, particularly for Pb.
 
 ## Key numbers
@@ -139,9 +141,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [f98ee09c8](https://github.com/paleofoundation/heavymetalindex/commit/f98ee09c8) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [a78ee30c0](https://github.com/paleofoundation/heavymetalindex/commit/a78ee30c0) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Piwowarczyk et al. 2018 — Kidney vetch response to lead for phytostabilization
 
+## Overview
+
 Piwowarczyk et al. tested how a calamine ecotype of kidney vetch responds to lead exposure under controlled in vitro culture. The paper is mitigation evidence rather than consumer-product occurrence evidence: it evaluates plant tolerance and Pb retention patterns relevant to phytostabilization of lead-contaminated sites. The authors found much higher Pb accumulation in roots than shoots, supporting the plant's potential role in immobilizing Pb rather than moving it into aboveground biomass.
 
 ## Key numbers
@@ -68,6 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [d0eb87907](https://github.com/paleofoundation/heavymetalindex/commit/d0eb87907) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

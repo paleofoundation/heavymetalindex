@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Paula et al. 2015 - selected elements in Portuguese-market fruit juices
 
+## Overview
+
 Paula et al. measured Cd, Cr, Pb, Ni, Zn, and Fe in 62 packs of 100% fruit juices from the Portuguese retail market. The study was designed to test how pre-harvest factors such as fruit species, origin, and agricultural practice, and post-harvest factors such as blending, packaging, conservation, pasteurisation, and processing relate to juice elemental composition. The direct occurrence signal for HMTc is a Portuguese-market fruit-juice dataset with low mean Cd, Cr, and Pb, higher Ni, and a clear association between fruit species and selected element concentrations.
 
 ## Key numbers
@@ -105,6 +107,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3b7325f42](https://github.com/paleofoundation/heavymetalindex/commit/3b7325f42) | 2026-05-19 | major | 5 sections added; narrative text revised |

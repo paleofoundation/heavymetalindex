@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Freire et al. 2022 - Lead, mercury, cadmium, and arsenic in donor breast milk in Spain
 
+## Overview
+
 Freire and colleagues measured lead, mercury, cadmium, and arsenic in pooled donor breast milk from a Spanish human milk bank. The study is routeable for human-milk exposure evidence because it reports detection frequencies and median milk concentrations for 242 pooled samples from 83 donors. It also identifies donor and dietary predictors of metal concentrations.
 
 ## Key numbers
@@ -66,8 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [88f087d20](https://github.com/paleofoundation/heavymetalindex/commit/88f087d20) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

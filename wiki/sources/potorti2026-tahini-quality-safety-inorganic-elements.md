@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Potortì et al. 2026 — Chemical composition and safety of commercial tahini (Italy)
 
+## Overview
+
 This characterisation of seven commercial tahini brands sold on the Italian market is the first to assess toxic and potentially toxic inorganic elements — Cd, Pb, As, Hg, Ni — alongside proximate composition, fatty acid profile, sterol profile, and essential minerals. One sample (T-1, Turkey-origin organic hulled-seed tahini) substantially exceeded EU Regulation 2023/915 limits for both Cd (0.35 mg/kg vs. the 0.10 mg/kg oilseeds limit, 3.5× over) and Pb (0.50 mg/kg, five times the 0.10 mg/kg fats-and-oils limit) and was the only sample with detectable arsenic (tAs 0.20 mg/kg). The remaining six brands were at or near LOQ (0.010 mg/kg) for Cd, Pb, and As. Total mercury was below LOQ in every sample. Nickel was quantified in all seven brands at 0.02–0.10 mg/kg.
 
 ## Key numbers
@@ -97,9 +99,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2088ceec9](https://github.com/paleofoundation/heavymetalindex/commit/2088ceec9) | 2026-05-28 | minor | Narrative text revised |
-| [79636a110](https://github.com/paleofoundation/heavymetalindex/commit/79636a110) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [f3c079bf9](https://github.com/paleofoundation/heavymetalindex/commit/f3c079bf9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

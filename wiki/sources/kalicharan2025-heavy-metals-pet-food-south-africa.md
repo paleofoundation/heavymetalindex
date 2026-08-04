@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Kalicharan et al. 2025 — Heavy metal contamination in extruded pet food, South Africa
 
+## Overview
+
 Kalicharan and colleagues quantified nine metals (As, Cd, Co, Cu, Fe, Ni, Pb, Zn by ICP-OES; Hg by HGAAS) in 31 extruded dry kibble products available in South Africa, split between 14 premium brands (PB) and 17 supermarket brands (SB) and across protein formulations (red meat, poultry, fish, meat medley, "other"). Concentrations are reported as mean ± SD with min-max ranges in mg/kg on an as-purchased basis and compared against FDA/NRC and FEDIAF maximum tolerable limits (MTLs). The paper is held in this wiki as a methodological and supply-chain cross-reference: the matrix is pet food, outside HMT&C's human-food scope.
 
 **Scope classification:** This source does not contribute occurrence data to any HMT&C-scope product page. It is routed only to `pet-food-dry-kibble` (HMTc Cat 17 Row 1, pet-food taxonomy) and not to human-poultry, human-fish, or human-meat product pages, even though the kibble formulations are described by their human-style protein source.
@@ -94,9 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [71e7f9700](https://github.com/paleofoundation/heavymetalindex/commit/71e7f9700) | 2026-05-18 | minor | Narrative text revised |
-| [545906fcf](https://github.com/paleofoundation/heavymetalindex/commit/545906fcf) | 2026-05-18 | major | 3 sections added and 4 removed; narrative text revised |
-| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

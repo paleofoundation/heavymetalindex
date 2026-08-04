@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Shim et al. 2004 — Mercury and fatty acids in canned tuna, salmon, and mackerel
 
+## Overview
+
 This 2004 US study analyzed total mercury (tHg) and polyunsaturated fatty acids in canned tuna (n=240), salmon (n=16), and mackerel (n=16) purchased from stores in Lafayette, Indiana. Mercury was measured as total Hg by thermal decomposition amalgamation atomic absorption spectrophotometry (TDA/AAS); the paper does not speciate MeHg from inorganic Hg, but notes that up to 90% of Hg in fish is typically found as MeHg. Overall mean tHg was 188 ppb in tuna, 45 ppb in salmon, and 55 ppb in mackerel — all below the FDA action level of 1000 ppb. The paper's central trade-off is that white/albacore tuna rows had higher tHg and higher EPA+DHA than light tuna in water, while salmon and mackerel had lower tHg and higher EPA+DHA than the tuna category average.
 
 ## Key numbers
@@ -109,9 +111,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b394c328b](https://github.com/paleofoundation/heavymetalindex/commit/b394c328b) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [14e275223](https://github.com/paleofoundation/heavymetalindex/commit/14e275223) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

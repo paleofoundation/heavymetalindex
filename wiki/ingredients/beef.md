@@ -88,29 +88,7 @@ sources: 22
 
 # Beef
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | below-tier | 6/10 HMTc analytes, total n=31 | staple tier expects total n>=40; have 31 |
-| D2 Regional coverage | OK | 18 jurisdictions, top EG 38% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tHg POOLABLE, Ni POOLABLE, Al THIN, Cr POOLABLE, tAs POOLABLE | Al: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming beef: hoha2014-pork-pb-cd-cu-zn-romania |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tHg, Ni, Al, Cr, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tHg, Ni, Al, Cr, tAs; pairing 0 paired, 7 single, 0 unpaired | Pb: POOLABLE; Cd: POOLABLE; tHg: POOLABLE; Ni: POOLABLE; Al: THIN, needs 1 more study(ies); Cr: POOLABLE; tAs: POOLABLE; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below staple bar |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -142,17 +120,17 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI (2025). *Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt*. Scientific Reports. [https://doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x). Peer-reviewed, A-tier. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Source record]]
-2. Altalib SA, Ghania AA, and Alazzabi AA (2025). *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*. Mediterranean Journal of Medical Research. [https://doi.org/10.5281/zenodo.17986261](https://doi.org/10.5281/zenodo.17986261). Peer-reviewed, B-tier. [[sources/altalib2025-frozen-meat-libya|Source record]]
-3. Hoha GV, Costăchescu E, Leahu A, and Păsărin B (2014). *Heavy metals contamination levels in processed meat marketed in Romania*. Environmental Engineering and Management Journal. [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/). Peer-reviewed, B-tier. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Source record]]
+1. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt]]<span class="hmi-ref-meta">Rabeey MA, Sabala RF, Zakaria AI, and Sallam KI · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-29927-x](https://doi.org/10.1038/s41598-025-29927-x)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/altalib2025-frozen-meat-libya|Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market]]<span class="hmi-ref-meta">Altalib SA, Ghania AA, and Alazzabi AA · Mediterranean Journal of Medical Research · 2025 · [doi.org/10.5281/zenodo.17986261](https://doi.org/10.5281/zenodo.17986261)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Heavy metals contamination levels in processed meat marketed in Romania]]<span class="hmi-ref-meta">Hoha GV, Costăchescu E, Leahu A, and Păsărin B · Environmental Engineering and Management Journal · 2014 · [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -235,9 +213,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [c17596197](https://github.com/paleofoundation/heavymetalindex/commit/c17596197) | 2026-05-17 | major | 3 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

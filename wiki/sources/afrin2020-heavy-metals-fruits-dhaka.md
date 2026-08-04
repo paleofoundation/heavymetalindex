@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Afrin 2020 — Heavy metals in retail fruits from Dhaka city, Bangladesh
 
+## Overview
+
 Five fruit types (grape, apple, orange, banana, pomegranate) were collected from five retail outlets in Dhaka and analyzed for Pb, Cd, Cr, Ni, and Co by AAS. All measured concentrations were below FAO/WHO maximum allowable concentrations: Pb <1.50 mg/kg, Cd <0.20 mg/kg, Cr <2.30 mg/kg, Ni <0.80 mg/kg, Co <50 mg/kg. Pb varied most strongly by outlet/fruit combination, with banana samples from two markets approaching but not exceeding the FAO/WHO Pb limit (1.31 and 1.24 mg/kg vs. a 1.50 mg/kg ceiling). Risk indices (single-factor pollution index, sum of pollution index, metal pollution index) all indicated the fruits posed no contamination risk under FAO/WHO reference values at the time of sampling.
 
 ## Key numbers
@@ -83,9 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [08454324f](https://github.com/paleofoundation/heavymetalindex/commit/08454324f) | 2026-05-19 | minor | Narrative text revised |
-| [a53c1bc1f](https://github.com/paleofoundation/heavymetalindex/commit/a53c1bc1f) | 2026-05-19 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

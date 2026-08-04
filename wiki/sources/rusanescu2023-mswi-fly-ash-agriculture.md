@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Rusanescu and Rusanescu 2023 - MSWI fly ash in agriculture
 
+## Overview
+
 Rusanescu and Rusanescu review whether fly ash from municipal solid waste incineration (MSWI) can be used as an agricultural soil amendment. The source is not a primary market-food or crop-occurrence study: its metal concentrations are secondary ranges from cited literature. Its routeable value is context evidence for waste-derived soil amendments, including the high variability of As, Cd, Cr, Cu, Hg, Ni, Pb, Zn, and other elements in MSWI fly ash and the dose-dependent rise of several metals in amended soil.
 
 ## Key numbers
@@ -113,6 +115,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [0abe8c73c](https://github.com/paleofoundation/heavymetalindex/commit/0abe8c73c) | 2026-06-02 | major | 8 sections added; narrative text revised |

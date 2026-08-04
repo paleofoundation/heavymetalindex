@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Forsyth et al. 2024 — Turmeric lead chromate adulteration across South Asia
 
+## Overview
+
 The first systematic assessment of lead chromate adulteration in turmeric across four South Asian countries representing more than 80% of global turmeric production and 1.7 billion people. Turmeric samples were collected from 23 major cities in India, Pakistan, Sri Lanka, and Nepal between December 2020 and March 2021, analyzed by XRF and ICP-MS for lead and chromium concentrations, with Pb:Cr molar ratios used to distinguish lead chromate adulteration from environmental contamination.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [65a88cd11](https://github.com/paleofoundation/heavymetalindex/commit/65a88cd11) | 2026-05-13 | major | 4 sections added; narrative text revised |

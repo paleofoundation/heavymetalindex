@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Naz et al. 2025 — Cd, Cu, Pb, and Ni in freshwater fish from Punjnad headworks, Pakistan
 
+## Overview
+
 This study measured cadmium, copper, lead, and nickel in the liver, gills, and muscle tissue of five freshwater fish species collected from the right and left banks of Punjnad headworks in Punjab, Pakistan, where five rivers (Beas, Sutlej, Ravi, Chenab, and Jhelum) converge and industrial and agricultural effluents contribute to elevated metal burdens. Wallago attu, a carnivorous catfish at the top of the local food chain, showed the highest accumulation across all four metals and all organs, with liver lead reaching 46.03 mg/kg in the right bank during winter; the right bank consistently showed higher metal concentrations than the left bank, consistent with differential industrial discharge patterns. Human health risk assessment using THQ found that Cd and Pb had THQ >1 for both mature and juvenile regular consumers, and the total target hazard quotient (TTHQ) exceeded 1 for all five species, indicating that fish from both banks were unsafe for consumption under routine intake scenarios. The study is one of the few to characterize Punjnad headworks specifically for multiple metals across seasons and banks, and provides baseline data for a heavily populated agricultural region of Pakistan with few prior contamination records at this site.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ca2114587](https://github.com/paleofoundation/heavymetalindex/commit/ca2114587) | 2026-05-12 | major | 4 sections added; narrative text revised |

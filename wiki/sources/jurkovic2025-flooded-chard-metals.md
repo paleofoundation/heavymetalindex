@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Jurkovic et al. 2025 — Heavy metals in flooded-area chard
 
+## Overview
+
 Jurkovic et al. measured heavy metals and microbiological indicators in a soil-plant system after major flooding in central Bosnia and Herzegovina. The source is routeable to leafy vegetables because it reports chard tissue measurements, but it should remain jurisdiction- and event-specific because the sampling frame is a flooded-area case study. The paper found elevated Pb in soils and sludge, root-favoring Pb behavior in chard, and cases where chard Cd exceeded permissible amounts.
 
 ## Key numbers
@@ -74,6 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [31268c2b4](https://github.com/paleofoundation/heavymetalindex/commit/31268c2b4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

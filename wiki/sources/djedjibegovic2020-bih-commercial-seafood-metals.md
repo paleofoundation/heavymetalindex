@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Djedjibegovic 2020 - Commercial seafood metals in Bosnia and Herzegovina
 
+## Overview
+
 Djedjibegovic and colleagues measured cadmium, mercury, and lead in `37` commercial fish and seafood samples sold at retail in Bosnia and Herzegovina. The study reports wet-weight concentrations for frozen fish, canned tuna, canned mackerel, squid, mussel, shrimp, and prawn products, then models adult exposure by age and socioeconomic group. Mercury is reported as total/unspecified `Hg`; the paper does not measure methylmercury separately.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [a9c056a99](https://github.com/paleofoundation/heavymetalindex/commit/a9c056a99) | 2026-06-08 | major | 4 sections added; narrative text revised |

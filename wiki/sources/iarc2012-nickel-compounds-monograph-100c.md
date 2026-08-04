@@ -31,6 +31,8 @@ updated: 2026-06-22
 
 # IARC Monograph 100C (2012) — Nickel and Nickel Compounds
 
+## Overview
+
 This is the International Agency for Research on Cancer's authoritative carcinogenicity evaluation of nickel and nickel compounds, published as a chapter of Monographs Volume 100C, the "Review of Human Carcinogens" re-evaluation of agents previously classified by IARC. Nickel had been considered by earlier Working Groups in 1972, 1975, 1979, 1982, 1987, and 1989; this 2012 reassessment incorporates the human epidemiology, animal bioassay, and mechanistic literature that accumulated since. The Working Group concluded that there is sufficient evidence in humans for the carcinogenicity of mixtures that include nickel compounds and nickel metal, with the evidence strongest for soluble nickel compounds and independent evidence for oxidic and sulfidic nickel compounds; these agents cause cancers of the lung and of the nose and nasal sinuses. The overall classification is that nickel compounds are carcinogenic to humans (Group 1). The monograph is primarily an inhalation-and-occupational carcinogenicity document, but its Section 1.5.3 compiles dietary nickel concentrations across food categories, which is the part most directly relevant to a food-and-supply-chain wiki.
 
 ## Key numbers
@@ -92,7 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [a01989ff5](https://github.com/paleofoundation/heavymetalindex/commit/a01989ff5) | 2026-06-22 | major | 1 source added; 1 section added; narrative text revised |
-| [92634affd](https://github.com/paleofoundation/heavymetalindex/commit/92634affd) | 2026-06-22 | major | 4 sources added; 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

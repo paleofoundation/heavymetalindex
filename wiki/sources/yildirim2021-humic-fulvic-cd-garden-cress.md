@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Yildirim et al. 2021 — Humic + Fulvic acid mitigation of soil Cd uptake by garden cress (Erzurum, Turkey)
 
+## Overview
+
 This greenhouse pot study tested whether soil application of a commercial humic + fulvic acid product (Powhumus, 80–85% humic substances composed of 90% humic acid + 10% fulvic acid) reduced the uptake of cadmium into the edible aerial tissue of garden cress (*Lepidium sativum* cv Helen) grown in artificially Cd-spiked soil. Authors used a 3×4 factorial of soil Cd (0, 100, 200 mg/kg as CdSO4·8H2O) crossed with HA+FA solution (0, 3500, 5250, 7000 mg/L). The principal finding for the wiki is that, at the highest HA+FA rate (7000 mg/L), Cd uptake into garden cress leaves was reduced by 95% relative to the no-amendment control at 200 mg/kg soil Cd, and Cl uptake by 80%. HA+FA also mitigated Cd-driven losses of leaf and root biomass, leaf area, chlorophyll content, leaf relative water content, and antioxidant enzyme stress markers. The study is an agronomic / soil-amendment intervention, not a food-occurrence survey: it does not measure Cd in retail or harvested commercial cress and the soil Cd doses are far above typical agricultural-soil contamination.
 
 ## Key numbers
@@ -118,8 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 | [bebfd4a9c](https://github.com/paleofoundation/heavymetalindex/commit/bebfd4a9c) | 2026-05-30 | minor | Narrative text revised |
-| [ddfd41410](https://github.com/paleofoundation/heavymetalindex/commit/ddfd41410) | 2026-05-30 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -5,6 +5,8 @@ audience: [regulator, educator, commercial, researcher]
 updated: 2026-06-10
 ---
 
+## Overview
+
 Supply-chain pages describe the paths by which heavy metals enter the food system, and which sources put them there. Coverage includes soil geochemistry and agricultural uptake; the aquatic pathway by which metals reach fish, shellfish, and seaweed; atmospheric deposition from smelting, mining, shipping, traffic, and aviation; irrigation water, sewage sludge, biosolids, and fertilisers as anthropogenic inputs to cropland; food-contact equipment and packaging; and the source-attribution evidence that apportions an ambient burden among the industries that created it. Pages link to the downstream [ingredients](/ingredients) and [products](/products) affected, and to the [regulations](/regulations) governing inputs. The load-bearing rule across every page in this section is that an upstream concentration, in soil, water, sediment, air, or an emission inventory, is never a food concentration and is never promoted into the measured food-occurrence record or the certification thresholds.
 
 ## Pathway hubs
@@ -30,9 +32,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
 | [b94966e35](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35) | 2026-06-10 | major | 3 sections added and 1 removed; narrative text revised |
 | [a2f3a812b](https://github.com/paleofoundation/heavymetalindex/commit/a2f3a812b) | 2026-05-31 | minor | Narrative text revised |
-| [59896fdd7](https://github.com/paleofoundation/heavymetalindex/commit/59896fdd7) | 2026-04-29 | major | 1 section added; narrative text revised |
-| [22991a6f5](https://github.com/paleofoundation/heavymetalindex/commit/22991a6f5) | 2026-04-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

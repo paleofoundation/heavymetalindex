@@ -24,6 +24,8 @@ updated: 2026-06-07
 
 # Al-Faraji 2023 - Minerals and lead in powdered infant formula from Baghdad markets
 
+## Overview
+
 Al-Faraji measured calcium, iron, zinc, copper, and lead in 10 powdered infant formula samples sold in Baghdad Governorate, Iraq. The source is routeable for powdered infant formula occurrence evidence because it reports sample-level lead and copper concentrations from atomic absorption analysis. The paper does not resolve soy versus non-soy formula status, so it should route at the broad powdered-infant-formula level rather than to a soy or dairy subrow.
 
 ## Key numbers
@@ -83,8 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [4dfc2ac30](https://github.com/paleofoundation/heavymetalindex/commit/4dfc2ac30) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [826e27a87](https://github.com/paleofoundation/heavymetalindex/commit/826e27a87) | 2026-06-07 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

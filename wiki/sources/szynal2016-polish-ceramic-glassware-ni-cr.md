@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Szynal 2016 - nickel and chromium migration from Polish-market ceramic and glassware
 
+## Overview
+
 Szynal, Rebeniak, and Mania measured nickel and total chromium migration from ceramic tableware and decorated-rim glassware available on the Polish market into acidic food simulants. The study found nearly all migration values below the method limit of quantification (`0.02 mg/L`), with one decorated ceramic bowl inner surface releasing nickel at `0.04 mg/L`. The evidence is food-contact-material leachate data, not food-as-consumed occurrence data.
 
 ## Key numbers
@@ -104,6 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [cf74b7c9b](https://github.com/paleofoundation/heavymetalindex/commit/cf74b7c9b) | 2026-06-09 | major | 7 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

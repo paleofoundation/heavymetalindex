@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Henríquez-Hernández et al. 2023 — Elements in Ready-to-Eat Baby Purees, Spain
 
+## Overview
+
 This 2023 Spanish study measured 38 chemical elements by ICP-MS in 159 commercial ready-to-eat baby purees across four food types (fruit, chicken, fish, beef). It is the first study to include rare earth elements (REEs) in baby food and provides useful benchmarks for multi-metal occurrence in complementary feeding products marketed for 6–12-month-old infants. Acid digestion by microwave (Milestone Ethos Up), recoveries 87–118%, LOQs determined from 20-replicate blank runs.
 
 ## Key numbers
@@ -115,6 +117,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 4 sections added; narrative text revised |

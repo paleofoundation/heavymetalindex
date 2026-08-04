@@ -9,7 +9,7 @@ publication: "Final Report submitted under EC Contract ETD/FIF.2001592"
 source_type: gov-report
 no_doi_assigned: true
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: government-contract research report (LGC Limited / UK National Measurement Laboratory under EC Contract ETD/FIF.2001592). Government-commissioned scientific report."
+tier_rationale: "Per: government-contract research report (LGC Limited / UK National Measurement Laboratory under EC Contract ETD/FIF.2001592). Government-commissioned scientific report."
 method_quality_caveat: "2003 dossier preceding EU nickel restrictions; specific to piercing-post contact-product subcategory, not food matrices."
 license: public-reference-only
 raw_path: "raw/Digest/nickel_en.pdf"
@@ -189,9 +189,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [35055e47a](https://github.com/paleofoundation/heavymetalindex/commit/35055e47a) | 2026-05-04 | minor | Narrative text revised |
 | [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [dafe852a7](https://github.com/paleofoundation/heavymetalindex/commit/dafe852a7) | 2026-04-29 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

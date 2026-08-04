@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Nguyen et al. (2026) synthesize nitrogen and sulfur co-doped carbon quantum dots (N,S-CQDs) from rice straw waste biomass as a precursor, and use these as a fluorescence-quenching probe for the selective detection of Hg2+ in water samples. The use of rice straw as a zero-waste, green synthesis precursor is highlighted as an environmental sustainability contribution.
 
 ## Key numbers
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb0c500b](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c500b) | 2026-05-12 | major | 4 sections added; narrative text revised |

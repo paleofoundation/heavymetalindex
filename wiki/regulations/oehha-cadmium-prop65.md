@@ -20,6 +20,8 @@ audience: [regulator, educator, consumer]
 
 # California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level
 
+## Overview
+
 Cadmium is listed under California's Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65) under two separate findings: as a carcinogen (listing pre-dating this wiki's ingest corpus, with a separately derived No Significant Risk Level that is not yet ingested) and as a reproductive toxicant (listing effective May 1, 1997, following the Developmental and Reproductive Toxicant Identification Committee's December 4, 1996 determination) ([[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]]). This page covers the reproductive-toxicity listing and its implementing Maximum Allowable Daily Level of 4.1 µg/day oral ([[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]]). The carcinogen listing and its NSRL are covered in a separate regulation page pending ingest of the underlying OEHHA documents.
 
 ## Reproductive-toxicity listing
@@ -73,10 +75,10 @@ _Pending: OEHHA documents underlying the separate Proposition 65 carcinogen list
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section (1996). *Evidence on the Developmental and Reproductive Toxicity of Cadmium*. California Environmental Protection Agency, Office of Environmental Health Hazard Assessment. [https://doi.org/10.1016/0890-6238(96)00019-6](https://doi.org/10.1016/0890-6238(96)00019-6). Government report, A-tier. [[sources/oehha-cadmium-prop65-evidence-1996|Source record]]
-2. California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section (2001). *Proposition 65 Maximum Allowable Daily Level (MADL) for Reproductive Toxicity for Cadmium (Oral Route)*. California Environmental Protection Agency, Office of Environmental Health Hazard Assessment. [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/cadmium). Government report, A-tier. [[sources/oehha-cadmium-prop65-madl-2001|Source record]]
+1. [[sources/oehha-cadmium-prop65-evidence-1996|Evidence on the Developmental and Reproductive Toxicity of Cadmium]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section · California Environmental Protection Agency, Office of Environmental Health Hazard Assessment · 1996 · [doi.org/10.1016/0890-6238(96)00019-6](https://doi.org/10.1016/0890-6238(96)00019-6)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/oehha-cadmium-prop65-madl-2001|Proposition 65 Maximum Allowable Daily Level (MADL) for Reproductive Toxicity for Cadmium (Oral Route)]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment, Reproductive and Cancer Hazard Assessment Section · California Environmental Protection Agency, Office of Environmental Health Hazard Assessment · 2001 · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/cadmium)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -86,9 +88,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
-| [5368433de](https://github.com/paleofoundation/heavymetalindex/commit/5368433de) | 2026-04-24 | major | 2 sources added; contamination-profile values revised; 5 sections added and 3 removed |
 <!-- END: hmi-page-history -->

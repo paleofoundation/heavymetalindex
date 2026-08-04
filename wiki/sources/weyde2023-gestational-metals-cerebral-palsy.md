@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Weyde et al. 2023 — Gestational metals and cerebral palsy risk
 
+## Overview
+
 This case-control study nested within Norway's large MoBa cohort investigates whether gestational blood concentrations of total mercury (tHg), lead (Pb), and total arsenic (tAs) are associated with cerebral palsy (CP) risk in offspring. Blood samples were collected from 144 mothers of children later diagnosed with CP and 1,082 matched controls at gestational weeks 17 to 19. The study found no statistically significant associations between any of the three measured metals and CP risk at the concentration levels observed in this Norwegian population.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

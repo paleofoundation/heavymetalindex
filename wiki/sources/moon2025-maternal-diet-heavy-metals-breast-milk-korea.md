@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study measured Pb, Cd, tHg, and tAs in breast milk from 209 Korean lactating mothers, assessed potential infant health risks using estimated daily intake (EDI) and hazard quotient (HQ), and identified maternal dietary factors associated with heavy metal concentrations via multiple linear regression. Cadmium was the most frequently detected metal (99% of samples), followed by Hg (97%), As (89%), and Pb (79%). The authors employed age-specific infant body weight and milk consumption to refine the exposure model beyond single representative values. Arsenic was identified as the largest contributor to potential health risk. Dietary associations: Pb with legume and seaweed consumption; Cd with vegetables and seaweed; tHg with sugar intake; tAs with meat intake.
 
 ## Key numbers
@@ -99,8 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0ce0f3ad2](https://github.com/paleofoundation/heavymetalindex/commit/0ce0f3ad2) | 2026-05-19 | major | 1 section added; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

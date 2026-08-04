@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Sacchi et al. 2021 - Natural background levels of PTEs in Balangero asbestos-mine groundwater
 
+## Overview
+
 Sacchi and colleagues derive natural background levels (NBLs) for potentially toxic elements (PTEs) in groundwater from the former Balangero chrysotile asbestos mine in serpentinised mantle peridotite of the Lanzo Massif, a "Contaminated Site of National Interest" 30 km northwest of Turin in the Piedmont region of North Italy. The study illustrates a modified Italian NBL workflow that uses all available measurements rather than per-station medians, in order to capture the high naturally occurring concentrations of Cr, Cr-VI, Ni, Mn and Fe that arise from water-rock interaction with ultramafic and metabasite host rocks, ore minerals, mine tailings and waste sludge. The work is environmental natural-background characterisation, not food, drinking-water-supply, or consumer-product occurrence evidence.
 
 ## Key numbers
@@ -158,9 +160,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [0377ad4ab](https://github.com/paleofoundation/heavymetalindex/commit/0377ad4ab) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

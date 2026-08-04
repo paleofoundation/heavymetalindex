@@ -18,6 +18,8 @@ updated: 2026-05-18
 
 # EC 1881/2006 — EU framework on contaminants in foodstuffs (superseded)
 
+## Overview
+
 Commission Regulation (EC) No 1881/2006 of 19 December 2006 set enforceable EU-wide maximum levels for heavy metal and other contaminants in foodstuffs. It was the operative EU contaminants framework from 2007 until being recast by [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] on 25 May 2023. Most EU literature published before late 2023 cites this regulation as the regulatory benchmark for Pb, Cd, Hg, iAs, and Sn limits in food.
 
 This page exists so pre-recast literature has a citable regulatory anchor in the wiki. For current EU enforceable maximum levels, use [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] and its per-metal companion pages ([[regulations/eu-2023-915-cadmium|Cd]], [[regulations/eu-2023-915-lead-infant-young-child-foods|Pb infant/young-child]], [[regulations/eu-reg-2022-617-mercury-fish|Hg fish — 2022/617]]). The values below are historical and should be cited as such.
@@ -112,7 +114,7 @@ Inorganic arsenic was added to the regulation in 2015 via Regulation (EU) 2015/1
 
 ## How this page interacts with HMT&C
 
-Per CLAUDE.md Part 2, the wiki reports what EU regulation set as the operative maximum levels under EC 1881/2006; it does not propose what HMT&C should certify at. HMT&C certification pages may cite this regulation as the regulatory baseline for EU-market product categories and document any deviation (tighter for precautionary, market-ratcheting, or feasibility-driven reasons; aligned with regulatory-alignment label per Part 19).
+The wiki reports what EU regulation set as the operative maximum levels under EC 1881/2006; it does not propose what HMT&C should certify at. HMT&C certification pages may cite this regulation as the regulatory baseline for EU-market product categories and document any deviation (tighter for precautionary, market-ratcheting, or feasibility-driven reasons; aligned with regulatory-alignment label per Part 19).
 
 For HMT&C-facing material, prefer citing the current successor framework [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] unless the source paper specifically pre-dates the May 2023 recast and uses the EC 1881/2006 thresholds as its benchmark — in which case cite EC 1881/2006 here for accurate provenance.
 
@@ -136,7 +138,7 @@ Pre-2023 source pages in the wiki citing EC 1881/2006 maximum levels — includi
 
 ## Verification notes
 
-- This regulation page was created 2026-05-18 as a routing target for pre-2023 EU literature in the wiki. Codex correctly surfaced the gap in its 2026-05-18 session. Per CLAUDE.md Part 10, regulations are created on first encounter; the surfacing-first restriction in Codex's prior operating manual is being relaxed 2026-05-18 (see Codex collaboration README) since regulations have hard identifiers and can be looked up from official EU sources without ambiguity.
+- This regulation page was created 2026-05-18 as a routing target for pre-2023 EU literature in the wiki. Codex correctly surfaced the gap in its 2026-05-18 session. Regulations are created on first encounter; the surfacing-first restriction in Codex's prior operating manual is being relaxed 2026-05-18 (see Codex collaboration README) since regulations have hard identifiers and can be looked up from official EU sources without ambiguity.
 - The values shown are the FINAL amended levels under EC 1881/2006 prior to the May 2023 recast. Earlier versions of the regulation (2007-2014) had different cadmium and lead limits for several matrices; cite the specific amendment regulation if working with a source published before the relevant amendment took effect.
 - Tin maximum levels (50-200 mg/kg) carried forward into EU 2023/915 substantively unchanged. Lead infant/young-child-food limit was tightened by 2021/1317 (the 0.020 mg/kg value shown). Cadmium infant formula was tightened by 2014/488 (the 0.010 mg/kg powder / 0.005 mg/kg liquid values shown). iAs rice limits added by 2015/1006.
 
@@ -147,7 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [029687ba2](https://github.com/paleofoundation/heavymetalindex/commit/029687ba2) | 2026-05-18 | major | 3 sources added; contamination-profile values revised; 10 sections added |
 <!-- END: hmi-page-history -->

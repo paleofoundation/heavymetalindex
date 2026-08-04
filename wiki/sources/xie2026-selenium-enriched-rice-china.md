@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Xie et al. 2026 — Co-occurrence of selenium and toxic elements in Chinese selenium-enriched rice
 
+## Overview
+
 Xie and colleagues measured arsenic (tAs) and cadmium (Cd) alongside selenium (Se) in 54 commercial selenium-enriched rice samples sourced from 14 provinces across China, finding that the premium nutritional positioning of Se-enriched rice does not preclude co-contamination with toxic elements. Arithmetic mean concentrations were 0.11 mg/kg (110 ppb) for total As and 0.08 mg/kg (80 ppb) for Cd, measured by HDXRF spectrometry. A Monte Carlo-based health risk assessment found overall risk from As and Cd intake via Se-enriched rice to be within acceptable bounds under average consumption, but highlighted that Se bioaccessibility (median 7.0 µg/kg, overall 14.6 ± 8.7%) varied substantially by region, with southern China showing the highest bioaccessible Se (29.0 µg/kg). The study is notable for combining speciation-naive total-element analysis with in vitro digestion (PBET model) for Se, without speciation of As into inorganic and organic fractions.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

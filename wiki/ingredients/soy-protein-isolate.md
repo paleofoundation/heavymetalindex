@@ -88,29 +88,7 @@ sources: 2
 
 # Soy Protein Isolate
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 0/10 HMTc analytes, total n=0 | only 0/10 analytes have evidence |
-| D2 Regional coverage | below-tier | 1 jurisdictions, top BR 100% | only 1 distinct jurisdiction(s) |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | GAP | no priority analytes | — |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 8 claims checked, 8 supported; 3 citations, 0 orphan, 3 foreign | 3 foreign citation(s) not naming soy-protein-isolate: burrell2010-aluminium-in-infant-formulas, chuchu2013-aluminium-in-infant-formulas, kazi2009-toxic-elements-in-infant-formulae |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | — |
-| D11 Standards-readiness | NOT-READY | no priority analytes | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.38, scale 0.00 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -142,17 +120,17 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Shelle-Ann M. Burrell and Christopher Exley (2010). *There is (still) too much aluminium in infant formulas*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63). Peer-reviewed, A-tier. [[sources/burrell2010-aluminium-in-infant-formulas|Source record]]
-2. Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley (2013). *The aluminium content of infant formulas remains too high*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162). Peer-reviewed, A-tier. [[sources/chuchu2013-aluminium-in-infant-formulas|Source record]]
-3. Tasneem G. Kazi, Nusrat Jalbani, Jameel A. Baig, Hassan I. Afridi, Ghulam A. Kandhro, Mohammad B. Arain, et al. (2009). *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*. Food and Chemical Toxicology. [https://doi.org/10.1016/j.fct.2009.03.025](https://doi.org/10.1016/j.fct.2009.03.025). Peer-reviewed, A-tier. [[sources/kazi2009-toxic-elements-in-infant-formulae|Source record]]
+1. [[sources/burrell2010-aluminium-in-infant-formulas|There is (still) too much aluminium in infant formulas]]<span class="hmi-ref-meta">Shelle-Ann M. Burrell and Christopher Exley · BMC Pediatrics · 2010 · [doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/chuchu2013-aluminium-in-infant-formulas|The aluminium content of infant formulas remains too high]]<span class="hmi-ref-meta">Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley · BMC Pediatrics · 2013 · [doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/kazi2009-toxic-elements-in-infant-formulae|Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer]]<span class="hmi-ref-meta">Tasneem G. Kazi, Nusrat Jalbani, Jameel A. Baig, Hassan I. Afridi, Ghulam A. Kandhro, Mohammad B. Arain, et al. · Food and Chemical Toxicology · 2009 · [doi.org/10.1016/j.fct.2009.03.025](https://doi.org/10.1016/j.fct.2009.03.025)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -211,9 +189,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

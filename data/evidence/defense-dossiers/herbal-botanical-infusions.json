@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/herbal-botanical-infusions",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bcfe1c5b63452da11f3224025100d9e81a1e1fd12041290149ce9944e89b4e98",
-      "content_bytes": 22882,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "a65869085638311af0710b50d07af659617330bd7aa868cccd95d6d56a9e2c13",
+      "content_bytes": 22795,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/herbal-botanical-infusions.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/herbal-botanical-infusions.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -53,12 +53,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bandara2025-bael-herbal-tea-minerals",
         "content_pin": {
-          "content_sha256": "7d1f6d9ecc86632be8a879ef8cde119593bc654ead8724b3105aabd0e61b80d7",
-          "content_bytes": 4355,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "4775f7f4825d911e45290f492effb3ca73e6cab780fc3054ee5130290c473788",
+          "content_bytes": 4495,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/bandara2025-bael-herbal-tea-minerals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/bandara2025-bael-herbal-tea-minerals.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bulduk2020-vicia-faba-elements",
         "content_pin": {
-          "content_sha256": "f582676b47587eaed3779d8d6d4fbec00a7886f70b538bf2f6ff07f154b2bb62",
-          "content_bytes": 3533,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "7a36cbf3568cb80159afb94c0a1adbdbc5b557a062a96185e6db43ca5e574464",
+          "content_bytes": 3714,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/deoliveira2018-traditional-herbal-teas-metals",
         "content_pin": {
-          "content_sha256": "20cd19fe7a77bb725a139df29d716f53791251a16fb4a743c1b2069a30dcd8e2",
-          "content_bytes": 8107,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "95829fa792bc775b84dbcf1a972f9e8ccf997db35f52849539e19065a10da8b9",
+          "content_bytes": 8800,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/deoliveira2018-traditional-herbal-teas-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/deoliveira2018-traditional-herbal-teas-metals.md | sha256sum"
         }
       },
       {
@@ -128,12 +128,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/feszterova2025-herbal-tea-risk-elements",
         "content_pin": {
-          "content_sha256": "180ba63a213c6b258437566b3cbe2436a18a5efa258c1328f59e1b103a9a5547",
-          "content_bytes": 3011,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "d770fd3098cceb0e5fbb2e98a68c548d541e873c078d185fd61cecb637f2e041",
+          "content_bytes": 3210,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/feszterova2025-herbal-tea-risk-elements.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/feszterova2025-herbal-tea-risk-elements.md | sha256sum"
         }
       },
       {
@@ -148,12 +148,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fogarasi2019-tea-aluminum",
         "content_pin": {
-          "content_sha256": "d49b1cecc6a770dbc9d43902fca1e49c7afade4e467e9279a307b7929bd3f347",
-          "content_bytes": 3021,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "a06a730021c62da5c692ffb621544416030ae90891979db154347710060ecc71",
+          "content_bytes": 3220,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
         }
       },
       {
@@ -178,12 +178,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/izah2016-beverages-heavy-metals-nigeria",
         "content_pin": {
-          "content_sha256": "110f6a2d92a009c5d8625858e3bac62ce78e8e10bf307baa246202d982bded18",
-          "content_bytes": 20731,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "bf8b35ad3ddbd559f6fbf3df516881b64f0d5c8bd08f579ab9fd328a277ba091",
+          "content_bytes": 21009,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/izah2016-beverages-heavy-metals-nigeria.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/izah2016-beverages-heavy-metals-nigeria.md | sha256sum"
         }
       },
       {
@@ -203,12 +203,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kocevar-glavac2017-medicinal-plants-soil-metals",
         "content_pin": {
-          "content_sha256": "2df2603caaddc70cefce2e1c45cf5ed34d8abe9d4ee3f72883d1d1d972e00819",
-          "content_bytes": 10109,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "cc5cb622bb473350b9c5aebb2929469d566308ec294f92c80fb048bc1242eea1",
+          "content_bytes": 10800,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/kocevar-glavac2017-medicinal-plants-soil-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/kocevar-glavac2017-medicinal-plants-soil-metals.md | sha256sum"
         }
       },
       {
@@ -227,12 +227,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kowalski2024-herbal-tea-heavy-metals",
         "content_pin": {
-          "content_sha256": "3e1d5cbf5b0d813b022cff9c25e9121fa1fd412e7e2fb0f8b012069e375bfb70",
-          "content_bytes": 3105,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "9329428253a61acdb957668aac6279a8110a3ed825db46780deb8f299e935b95",
+          "content_bytes": 3304,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/kowalski2024-herbal-tea-heavy-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/kowalski2024-herbal-tea-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -248,12 +248,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liu2018-tcm-arsenic-bioaccessibility",
         "content_pin": {
-          "content_sha256": "4af1bc4192d16d8a73740aea9dbf16536b73a63423200e7197fd1ea56842a0fb",
-          "content_bytes": 9319,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "53ce1ace8e64e722a667560635e0b32c77cb48730285446837be75e30b83d2e9",
+          "content_bytes": 9995,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/liu2018-tcm-arsenic-bioaccessibility.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/liu2018-tcm-arsenic-bioaccessibility.md | sha256sum"
         }
       },
       {
@@ -271,12 +271,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
         "content_pin": {
-          "content_sha256": "0711cff1f583497b6e4236461e8ebdfa509094ac748fb54c16fd62d60549612d",
-          "content_bytes": 10366,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "03555c357a6ff04c6a387b6a548f26febb51ab23fee6bc91699db5f04ff7e160",
+          "content_bytes": 10547,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
         }
       },
       {
@@ -296,12 +296,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marinescu2020-romanian-herbs-spices-metals",
         "content_pin": {
-          "content_sha256": "0606d5d952fd5bc5a840f27b5f6395f93e4859600ac8c99657eac1911a15dc69",
-          "content_bytes": 5646,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "26f4ee3e6007103c3a08bb54a393da8f13627238a3b0416bf8609d7e7657a564",
+          "content_bytes": 5817,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/marinescu2020-romanian-herbs-spices-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/marinescu2020-romanian-herbs-spices-metals.md | sha256sum"
         }
       },
       {
@@ -319,12 +319,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/miroslawski2017-polish-medicinal-plants-infusions",
         "content_pin": {
-          "content_sha256": "df123fe7072d3b97b2fc76792f6d3effe2d2426b4370d9d7e80db4ddedef9897",
-          "content_bytes": 7013,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "3399513ab0257e71ed93b7b3830e3d596071cf4c4c636440af20c271495fa440",
+          "content_bytes": 7702,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/miroslawski2017-polish-medicinal-plants-infusions.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/miroslawski2017-polish-medicinal-plants-infusions.md | sha256sum"
         }
       },
       {
@@ -340,12 +340,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/njinga2022-nigeria-herbal-cd-cr",
         "content_pin": {
-          "content_sha256": "9b8acb535de003a9103ff0c7b8611596d3ead53afce22d74a2a17ef9f202d9e7",
-          "content_bytes": 3156,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "51adb5711683aafd4f7ad7c5a7c059f1485fcf0cc1c4e2ae67f92c4aec8bcf39",
+          "content_bytes": 3355,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
         }
       },
       {
@@ -362,12 +362,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/santos2017-yerba-mate-metals",
         "content_pin": {
-          "content_sha256": "e3bf801e4c404202ababd87a08eddef96f503d8febf0f98584c7b3383f757289",
-          "content_bytes": 5202,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "1b3ebadf4fe8a2987476d61ffcbd6b52ff764251ed5ae703c703325a194b1781",
+          "content_bytes": 5350,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/santos2017-yerba-mate-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/santos2017-yerba-mate-metals.md | sha256sum"
         }
       },
       {
@@ -392,12 +392,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shchukin2022-mint-products-heavy-metals",
         "content_pin": {
-          "content_sha256": "5367f61c2b44ff30519cfd49867955edf31a7d9737bd93332cc1941e90ea76e1",
-          "content_bytes": 3747,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "062956033fccae4e0de392bece9132324cde4147749f3058f82c2d359dd7e7c8",
+          "content_bytes": 3946,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/shchukin2022-mint-products-heavy-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/shchukin2022-mint-products-heavy-metals.md | sha256sum"
         }
       }
     ]

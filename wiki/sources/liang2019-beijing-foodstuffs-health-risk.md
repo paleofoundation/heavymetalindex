@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Liang et al. 2019 - Heavy metals in Beijing foodstuffs: concentrations and health risk
 
+## Overview
+
 Liang et al. measured Cd, Cr, Pb, total As, and total Hg in 25 foodstuff types collected in Beijing, China, then estimated dietary intakes, weekly intakes, and non-carcinogenic target hazard quotients (THQs) for local adults. The sampled foods covered cereals, vegetables, fruits, meat, and fish/shellfish. The paper is useful for broad dietary-exposure context, but it does not speciate arsenic or mercury and it contains one source-side mismatch between the narrative exceedance list and the values in Table 1.
 
 ## Key numbers
@@ -164,8 +166,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0468e601d](https://github.com/paleofoundation/heavymetalindex/commit/0468e601d) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [c3a27e230](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e230) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # ANSES 2026 - French TDS3 aluminium, silver, cadmium, mercury and lead
 
+## Overview
+
 ANSES reported the first results from the Third French Total Diet Study for acrylamide and five trace elements: silver, cadmium, lead, aluminium, and mercury. Foods were sampled from French supply channels, prepared as consumed, and paired with INCA3 food-consumption data for dietary-exposure assessment. Mercury speciation is explicit: methylmercury and inorganic mercury were measured in a targeted set of foods, while total mercury was measured in all samples.
 
 ## Key numbers
@@ -91,6 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

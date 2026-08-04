@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Famurewa et al. 2023 - Metals and pesticide residues in coconut oil sold in Nigeria
 
+## Overview
+
 Famurewa et al. measured toxic metals, trace minerals, pesticide residues, vitamins, and amino-acid profiles in three coconut oil samples associated with the Nigerian market. The metal analysis used ICP-OES after acid extraction/digestion and reported concentrations in mg/kg oil. Lead, cadmium, total arsenic, nickel, and aluminum were detected in all three oils, while mercury was not detected. The imported oil had higher toxic-metal concentrations than the two locally produced Nigerian oils, but all reported toxic-metal values were below the FAO/WHO reference limits cited by the authors.
 
 ## Key numbers
@@ -122,6 +124,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [bbf4c32a8](https://github.com/paleofoundation/heavymetalindex/commit/bbf4c32a8) | 2026-06-02 | major | 8 sections added; narrative text revised |

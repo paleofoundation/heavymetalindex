@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Arévalo-Gardini et al. 2017 — Heavy metal accumulation in cacao leaves and beans across Peru's major growing regions
 
+## Overview
+
 This study measured Cd, Cr, Cu, Fe, Mn, Ni, Pb, and Zn in leaves and beans from 70 cacao plantations across three major Peruvian growing regions: North (Tumbes, Piura, Cajamarca, Amazonas), Center (Huánuco, San Martín), and South (Junín, Cuzco). The key finding is that more than 57% of all sampled cacao beans exceeded the EU critical limit of 0.8 µg/g (800 µg/kg) for Cd, with the Amazonas, Piura, and Tumbes regions being the primary drivers of exceedance. Genotype, soil Cd availability, and zinc-cadmium interactions were identified as significant determinants of accumulation, offering a path toward varietal and agronomic mitigation.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Shumba et al. (2025) assessed total mercury (tHg) concentrations in tilapia (Oreochromis niloticus), soil, and sediments from copper mining and non-mining areas along the Kafue River in Kitwe District, Zambia. Tilapia in the mining area had a mean tHg of 0.015 mg/kg (15 µg/kg) in muscle tissue compared to 0.007 mg/kg (7 µg/kg) in the non-mining area — a statistically significant difference. Soil and sediment Hg levels in the mining area exceeded USEPA reference values, but fish tHg concentrations and estimated daily intake (EDI) from fish consumption remained below USEPA and WHO/FAO maximum tolerable limits. The Kafue River drains a region where copper smelting has operated for over 80 years, and mercury enters the system primarily from smelting operations and artisanal gold mining.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |

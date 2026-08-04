@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Brzezinska-Rojek et al. 2023 — Elemental composition and safety of beetroot dietary supplements, Poland
 
+## Overview
+
 Brzezinska-Rojek et al. measured 19 elements in 37 beetroot-based dietary supplements (tablets, capsules, and powders) available in Poland, using microwave plasma atomic emission spectrometry (MP-AES; Agilent 4210). Products were homogenized and microwave-digested (Anton Paar Multiwave Go); recoveries 80–120%; LOQ values ranged by element (Pb LOQ 0.035 mg/kg, Cd LOQ 0.066 mg/kg, Al LOQ 0.26 mg/kg). The safety-critical finding is that five products exceeded 4–134% of the PTMI for cadmium, two products delivered 11–12% of the PTWI for aluminum per daily dose, and three products provided Ba at 1.085–1.331 µg/daily dose. Lead was below LOQ in all 37 samples (LOQ = 0.035 mg/kg). Powders generally contained the highest element concentrations per daily dose, substantially exceeding tablets and capsules, because powder daily portions (3–15 g/day) are far larger by mass.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3f107ba96](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba96) | 2026-05-12 | major | 4 sections added; narrative text revised |

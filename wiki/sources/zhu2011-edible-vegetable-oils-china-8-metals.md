@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # Zhu et al. 2011 — Eight heavy metals across nine edible-vegetable-oil types in China
 
+## Overview
+
 Zhu and colleagues measured eight heavy metals (Cu, Zn, Fe, Mn, Cd, Ni, Pb, total As) in 109 commercial edible vegetable oil samples spanning nine oil types (soybean, corn, peanut, sesame, rapeseed, cottonseed, olive, blend, sunflower) purchased from Chinese supermarkets during 2009-2010, using ICP-AES (Cu, Zn, Fe, Mn) and GF-AAS (Cd, Ni, Pb, As) after HNO₃/H₂O₂ microwave digestion. Iron was the dominant element across all oil types (16.2-45.3 µg/g), followed by zinc (0.742-2.56 µg/g) and copper (0.021-0.265 µg/g per Table 3 means; the abstract's Cu range "0.214-0.875 µg g⁻¹" is anomalous and contradicts both the paper's own body-text statement at §3 that "minimum and maximum values of copper in our samples were 0.021 and 0.265 µg g⁻¹" and every cell in Table 3, see Verification notes). Cadmium concentrations were higher in these Chinese oils than in most prior literature reports (2.64-8.43 ng/g; reported by the source at p.3083 as a comparative observation). Two-way ANOVA found that oil type had a highly significant effect on the concentrations of all measured metals except Pb (p = 8.66 × 10⁻⁴ per Table 3 notation 0.866E-3, still strongly significant) and Ni (p = 0.156, not significant); oil-source brand and type × source interaction were non-significant for every analyte. Estimated daily dietary intakes (EDDIs) from 25 g/day consumption and estimated weekly dietary intakes (EWDIs) from 175 g/week consumption fell well below the relevant IOM RDA/AL and UL, US EPA RfDo, JECFA PTWI, and WHO guideline values for a 70 kg adult.
 
 ## Key numbers
@@ -145,8 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [40a4bf499](https://github.com/paleofoundation/heavymetalindex/commit/40a4bf499) | 2026-06-01 | minor | Narrative text revised |
-| [22856e6d9](https://github.com/paleofoundation/heavymetalindex/commit/22856e6d9) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

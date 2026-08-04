@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/nut-seed-butters-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "002ae91366e29c5fcd4a80908668117155e7ad2c6d8c1e6270a00dd9d48ce351",
-      "content_bytes": 10562,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "69a7c72190204f6788aa1aace28744afdfbdd044ac953714d07c48c7662eca74",
+      "content_bytes": 11594,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/nut-seed-butters-other.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/nut-seed-butters-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/potorti2026-tahini-quality-safety-inorganic-elements",
         "content_pin": {
-          "content_sha256": "41f06fcb5ec8cbc83bd4268197216c4abfa341778a1365160b9fa87ea9b410bc",
-          "content_bytes": 10899,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "f200bbdd86bb69c51e9f9f85e8eb901dbcabc0deecace524789df57063c04132",
+          "content_bytes": 11080,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadeghi2021-tahini-heavy-metals-voltammetry",
         "content_pin": {
-          "content_sha256": "b2367c8f25ae9a3fa6546aacebf1df7d84f67ce07eab3c5821a5a4ab542fe48a",
-          "content_bytes": 15324,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "47d3f6a8bc9f578ad6f3b13f926f1c3d6c7878ce3c86eb4c8d201e0d122d2de2",
+          "content_bytes": 15500,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
         }
       }
     ]

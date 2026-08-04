@@ -19,12 +19,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-containing-baby-foods",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8ecaabe7eb3e79c53f21562aafb48c18088548a2a4243c953bcc16f364d0ff20",
-      "content_bytes": 34679,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "660299427d1272fb873138fe51dc5b2b1df99bc05f7fc80aed78a5f4538b6fce",
+      "content_bytes": 40247,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/fish-containing-baby-foods.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/fish-containing-baby-foods.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
         "content_pin": {
-          "content_sha256": "3859ff4c28124d065d5da3cba0816fb11dbf97ca6d375c24eaec757fd16d1bc9",
-          "content_bytes": 13721,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "95132b3e7f74c719c57961e7d7fdc23ca71574c35eea269fc3b199a75620ee4d",
+          "content_bytes": 13902,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chekri2019-french-infant-toddler-tds-trace-elements",
         "content_pin": {
-          "content_sha256": "1233c4430534e4aca762e6d0e8c9238fac340f785901e5a262714609a140036f",
-          "content_bytes": 7866,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "f41ccda2a2844503187b0d09b5f8b0f4d944e907c99a1eb3fdb354f91342d732",
+          "content_bytes": 8060,
+          "last_commit_sha": "99322f371",
+          "last_commit_date": "2026-07-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
+          "verify_command": "git show 99322f371:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
         }
       },
       {
@@ -99,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/collado-lopez2025-heavy-metals-baby-food-formula",
         "content_pin": {
-          "content_sha256": "9ddf369209430c5b979888d2c635cf4351e3205028fe708213f03e8f624bc262",
-          "content_bytes": 8964,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "683ec1bf5f17f8128bdfd94c951f66653941c4997a0596b80564648a3bfe264f",
+          "content_bytes": 9164,
+          "last_commit_sha": "99322f371",
+          "last_commit_date": "2026-07-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md | sha256sum"
+          "verify_command": "git show 99322f371:wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md | sha256sum"
         }
       },
       {
@@ -130,12 +130,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cot2003-infant-food-metals",
         "content_pin": {
-          "content_sha256": "23f3854a1a5b2e21d4d89efb85f1de71cf7f1a2d90e892316d49268e613537bb",
-          "content_bytes": 5708,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "69ed558597298695eed26d0ac517c12b839060c224dd482e314f5a94b77b5bf1",
+          "content_bytes": 6426,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/cot2003-infant-food-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/cot2003-infant-food-metals.md | sha256sum"
         }
       },
       {
@@ -150,12 +150,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cot2013-uk-aluminium-infant-diet",
         "content_pin": {
-          "content_sha256": "f937c57ca30901b7b226930df48c921c83c32c8b482af8e69030ed7656b6c1de",
-          "content_bytes": 17057,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "226033cfd1e0666567bf59d63707f00f8390ad6ed4be265dbc0ca02766801790",
+          "content_bytes": 17262,
+          "last_commit_sha": "99322f371",
+          "last_commit_date": "2026-07-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
+          "verify_command": "git show 99322f371:wiki/sources/cot2013-uk-aluminium-infant-diet.md | sha256sum"
         }
       },
       {
@@ -171,12 +171,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada",
         "content_pin": {
-          "content_sha256": "37d98b6681b2cc0e18dc624128c9b3c856baa82ac71db819bde0c73735af7038",
-          "content_bytes": 18307,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "5a7b74ea1d45ee1d70ab02e67ba92a9c7e8e64f982f9c5c7a09545dfe351d462",
+          "content_bytes": 18507,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
         }
       },
       {
@@ -204,12 +204,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsa2014-infant-foods-metals",
         "content_pin": {
-          "content_sha256": "89d01edbdca71dd8719d204bb85668b2e3223574e50c4bf2153d506b1204eec7",
-          "content_bytes": 6583,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "44a0f14b0522a7cec1073da09e4c18c57afcb1c2f04e170955ec3295baf69d22",
+          "content_bytes": 7301,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/fsa2014-infant-foods-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/fsa2014-infant-foods-metals.md | sha256sum"
         }
       },
       {
@@ -239,19 +239,19 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsa2016-infant-food-formula-metals-survey",
         "content_pin": {
-          "content_sha256": "71e9c57c87a56a40fa31f3a230ab0eb712d5f6e41399b46907896ba3ab330845",
-          "content_bytes": 6033,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "08cde7711ed0c29ff9185856fef78fcf5f780520ded14193a7c1a97f6bf24d60",
+          "content_bytes": 6208,
+          "last_commit_sha": "99322f371",
+          "last_commit_date": "2026-07-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/fsa2016-infant-food-formula-metals-survey.md | sha256sum"
+          "verify_command": "git show 99322f371:wiki/sources/fsa2016-infant-food-formula-metals-survey.md | sha256sum"
         }
       },
       {
         "slug": "sources/henriquez_hernandez2023-elemental-infant-purees",
         "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
         "route_kind": "direct_evidence",
-        "route_status": "missing_direct_product_route",
+        "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -265,12 +265,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/henriquez_hernandez2023-elemental-infant-purees",
         "content_pin": {
-          "content_sha256": "0c102791af359b8c857a234644734fd82f5477f06bdbc20d7448698238dcf17f",
-          "content_bytes": 6691,
-          "last_commit_sha": "5f7a7150d",
-          "last_commit_date": "2026-07-29",
+          "content_sha256": "8d62fdd6b112bb842d5c8068b04b310a2675a0c35994d3931a118fc68ad2a6d8",
+          "content_bytes": 6848,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 5f7a7150d:wiki/sources/henriquez_hernandez2023-elemental-infant-purees.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/henriquez_hernandez2023-elemental-infant-purees.md | sha256sum"
         }
       },
       {
@@ -286,12 +286,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/henriquez-hernandez2023-baby-purees-spain-elements",
         "content_pin": {
-          "content_sha256": "84993fa1faf9e549a0cee5b0da91bda97d19a38c14016db00f5da6aabda5752c",
-          "content_bytes": 5683,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "f27746090baee20b502b8c3cd2ccbb0e044ff63377890bb1b85e61834943b800",
+          "content_bytes": 5882,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements.md | sha256sum"
         }
       },
       {
@@ -309,12 +309,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
         "content_pin": {
-          "content_sha256": "0711cff1f583497b6e4236461e8ebdfa509094ac748fb54c16fd62d60549612d",
-          "content_bytes": 10366,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "03555c357a6ff04c6a387b6a548f26febb51ab23fee6bc91699db5f04ff7e160",
+          "content_bytes": 10547,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
         }
       },
       {
@@ -335,12 +335,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meli2024-chemical-characterization-baby-food-italy",
         "content_pin": {
-          "content_sha256": "1423c4e859ccb7afaee906bbe1697644705ea5944c98095df46b92d9307e398b",
-          "content_bytes": 5448,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "dbb4c449e587e02e4fe430324b42dbb781bee3201e50f6680c416f556e33a3b7",
+          "content_bytes": 5641,
+          "last_commit_sha": "99322f371",
+          "last_commit_date": "2026-07-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/meli2024-chemical-characterization-baby-food-italy.md | sha256sum"
+          "verify_command": "git show 99322f371:wiki/sources/meli2024-chemical-characterization-baby-food-italy.md | sha256sum"
         }
       },
       {
@@ -359,12 +359,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mielech2021-contamination-food-infants-toddlers",
         "content_pin": {
-          "content_sha256": "3d86bcb9c585803addf3190f203ff6deb2123f867fcb61d668caae243766b24b",
-          "content_bytes": 16960,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "dc438e8f68b02ec7b6e4b9c4bdf5b1fb4de1b9c88a4c5fbb0a56f15f1cb858c5",
+          "content_bytes": 17448,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/mielech2021-contamination-food-infants-toddlers.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/mielech2021-contamination-food-infants-toddlers.md | sha256sum"
         }
       },
       {
@@ -379,12 +379,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/silva2022-total-mercury-baby-food",
         "content_pin": {
-          "content_sha256": "22ef0556cbee44e008ac69603f793d6b21cb5ed62dbdf4c05cc98f1f6849f8ff",
-          "content_bytes": 25892,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "c0bb236ac5ff3c8bf26d01ff9ee07ca559e74ea63f002c086402cce2e75e4722",
+          "content_bytes": 26319,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/silva2022-total-mercury-baby-food.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/silva2022-total-mercury-baby-food.md | sha256sum"
         }
       },
       {
@@ -400,19 +400,19 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
         "content_pin": {
-          "content_sha256": "dc320efe0044a303e3fc2270b21a6332cf91d6c2d29c116a6f8def9777bf39e7",
-          "content_bytes": 8377,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "b6e20621940f25cc0bcf5a2395da065006e8134122cbc289f9bd94fe8afd5207",
+          "content_bytes": 8530,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
         }
       },
       {
         "slug": "sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
         "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
         "route_kind": "direct_evidence",
-        "route_status": "missing_direct_product_route",
+        "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -421,12 +421,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
         "content_pin": {
-          "content_sha256": "be50d262e29be10fd46b5c4d87b8436b00b15b4579812820d66e7068250ce8a2",
+          "content_sha256": "6656cde85f698112f68d83fcc042755103c6d7fb048ef34508f3f06836199b7a",
           "content_bytes": 4471,
-          "last_commit_sha": "5f7a7150d",
-          "last_commit_date": "2026-07-29",
+          "last_commit_sha": "90a2f9a38",
+          "last_commit_date": "2026-07-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 5f7a7150d:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
+          "verify_command": "git show 90a2f9a38:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
         }
       },
       {
@@ -444,12 +444,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
         "content_pin": {
-          "content_sha256": "ee8cb20271a9b353b9771503ae5a7a164e3dd888ee480068dfba1b551f92cb32",
-          "content_bytes": 15346,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e42fd215cf804317a396b281f325ba3c9af5265ff79c2e62b303561140c5e75b",
+          "content_bytes": 15509,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
         }
       }
     ]
@@ -466,7 +466,7 @@
     "cited_claims": 53,
     "uncited_claims": 0,
     "distinct_cited_sources": 22,
-    "audit_rows_on_cited_targets": 50,
+    "audit_rows_on_cited_targets": 22,
     "provenance_complete": true
   }
 }

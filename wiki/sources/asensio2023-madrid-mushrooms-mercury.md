@@ -24,6 +24,8 @@ updated: 2026-06-04
 
 # Asensio 2023 - Mercury and methylmercury in Madrid market mushrooms
 
+## Overview
+
 Asensio measured cadmium, lead, total mercury, and methylmercury in 48 edible mushroom samples from Madrid markets. The strongest occurrence signal was total mercury in wild mushrooms: wild mushrooms averaged 0.15 mg/kg total Hg, while cultivated mushrooms averaged 0.007 mg/kg. One wild Lepista panaeolus sample reported 0.97 mg/kg total Hg and 0.12 mg/kg MeHg, with MeHg representing 13% of total mercury in that sample.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [68051c8de](https://github.com/paleofoundation/heavymetalindex/commit/68051c8de) | 2026-06-04 | major | 5 sections added; narrative text revised |

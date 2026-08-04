@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # Acosta et al. 1993 — Cd, Pb, and Ni in different types of vinegar
 
+## Overview
+
 This study measured cadmium, lead, and nickel in 52 commercial bottled vinegars (wine, apple, alcohol, and malt types) purchased from supermarkets in the Canary Islands, Spain, using flame atomic absorption spectrophotometry (FAAS) after ashing at 500°C. Lead concentrations differed significantly by vinegar type, with apple vinegar lowest and malt vinegar highest; cadmium showed no significant inter-type difference and was non-detectable in the majority of samples; nickel showed no significant inter-type difference. Only 3 samples (6%) exceeded the Spanish legal limit of 1 ppm total for Pb + Hg + As. The data are among the earliest systematic occurrence datasets for cadmium, lead, and nickel across multiple commercial vinegar types.
 
 ## Key numbers
@@ -104,8 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ea11d89b9](https://github.com/paleofoundation/heavymetalindex/commit/ea11d89b9) | 2026-05-26 | major | 1 section added; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Lepak et al. 2023 — tHg in sport fish from Colorado reservoirs
 
+## Overview
+
 This study used a random forest machine learning approach to identify predictors of mercury (Hg) concentrations in three sport fish species across 32 Colorado reservoirs, using 864 individual and composite muscle tissue measurements collected by the Colorado Department of Public Health and Environment from 2004 to 2013. The primary purpose is predictive modelling for fisheries management and fish consumption advisories, but the study contains a comprehensive database of empirical Hg concentrations in US sport fish relevant to food-chain exposure assessment.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e6a6159d1](https://github.com/paleofoundation/heavymetalindex/commit/e6a6159d1) | 2026-05-13 | major | 4 sections added; narrative text revised |

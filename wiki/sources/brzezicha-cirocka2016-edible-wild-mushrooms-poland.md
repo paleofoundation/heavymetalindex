@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Brzezicha-Cirocka et al. 2016 - Cadmium and silver in wild edible mushrooms from eastern Poland
 
+## Overview
+
 Brzezicha-Cirocka et al. measured bio-elements and toxic elements in seven edible wild mushroom species collected from two eastern Polish regions with different environmental settings. Cadmium was detected in all specimens, with low median values below 1.0 mg/kg dry biomass for several species but elevated values in some Boletus, Leccinum, and Xerocomus rows. The most important occurrence signal is Leccinum versipelle from the Tarnobrzeska Plain, where whole fruiting bodies had median Cd of 9.8 mg/kg dry biomass and a reported range up to 57 mg/kg dry biomass.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [c393165a3](https://github.com/paleofoundation/heavymetalindex/commit/c393165a3) | 2026-06-02 | major | 5 sections added; narrative text revised |

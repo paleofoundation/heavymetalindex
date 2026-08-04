@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Liu et al. 2018 - arsenic in traditional Chinese medicines
 
+## Overview
+
 Liu and colleagues measured total arsenic, arsenic species, and arsenic bioaccessibility in 84 traditional Chinese medicines purchased in Beijing. The study included Chinese patent medicines (CPMs), Chinese herbal medicines (CHMs), and three realgar-containing CPMs. The main text reports class-level ranges and selected sample identities; supplementary sample tables are referenced but were not present in the extracted PDF, so this page does not reconstruct per-sample values from figures.
 
 ## Key numbers
@@ -131,6 +133,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [401afcfae](https://github.com/paleofoundation/heavymetalindex/commit/401afcfae) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

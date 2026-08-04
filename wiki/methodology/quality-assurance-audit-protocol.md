@@ -9,6 +9,8 @@ sources: 0
 
 # Quality Assurance Audit Protocol
 
+## Overview
+
 This page defines how the Heavy Metal Index audits its own public evidence output before moving from preview into general availability, and how it performs ongoing quality assurance after launch.
 
 ## Audit goal
@@ -137,6 +139,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [e142f34a3](https://github.com/paleofoundation/heavymetalindex/commit/e142f34a3) | 2026-05-07 | major | 1 section added; narrative text revised |
 | [666da4bb0](https://github.com/paleofoundation/heavymetalindex/commit/666da4bb0) | 2026-05-07 | major | 12 sections added; narrative text revised |

@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 
 # Weldegebriel et al. 2025 — Toxic metals (Cd, Cr, Pb, Ni) in 80 packaged fruit juices marketed to children in Gondar, Ethiopia
 
+## Overview
+
 This peer-reviewed *Scientific Reports* study (Sci Rep 15:36868, 2025) measured cadmium, chromium, lead, and nickel in 80 packaged fruit juice samples consumed by children in Gondar city, Northwest Ethiopia. Samples covered eight Ethiopian-manufactured brands across four juice types (mango, pineapple, strawberry, cocktail) and five packaging formats (tetra pack, glass, carton, plastic, canned). Health risk to children aged 3-14 years was assessed via target hazard quotient (THQ), hazard index (HI), and cancer risk (CR), parameterized from a separately-conducted consumption survey of n=422 Gondar children. Median pooled concentrations across all 80 samples were Cd 0.08 mg/L, Cr 0.004 mg/L, Pb 0.035 mg/L, Ni 0.078 mg/L (Table 5). Several samples exceeded international safety limits for Cd, Ni, and Pb, but all individual-metal THQ values and HI fell below 1, suggesting non-cancer effects are unlikely at the modeled intake (0.034 L/day, 20 kg body weight, 6-year exposure duration). Cancer risk for Cd and Ni exceeded the USEPA 1×10⁻⁶ acceptable threshold. Cr and Ni concentrations differed significantly by juice type (Kruskal-Wallis p=0.018 for Cr, p=0.001 for Ni; Cd p=0.055 is at the conventional threshold but does not meet p<0.05); the authors also report that juices in cans and glass containers carried higher metal loads than tetra pack or plastic containers. Method: 210VGP flame atomic absorption spectroscopy with HNO₃ wet acid digestion, triplicate measurements, certified reference material from an India-accredited laboratory, calibration r² 0.9983-0.9998 (Table 2; the PDF narrative text on p. 3 prints the range as 0.9983-0.9992, a paper-internal inconsistency).
 
 ## Key numbers
@@ -146,9 +148,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [52f7af774](https://github.com/paleofoundation/heavymetalindex/commit/52f7af774) | 2026-05-20 | minor | Narrative text revised |
-| [fd55de35f](https://github.com/paleofoundation/heavymetalindex/commit/fd55de35f) | 2026-05-20 | major | 9 sections added and 6 removed; narrative text revised |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

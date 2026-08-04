@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # SCCS 2025 — Scientific Advice on Children's Exposure to Methyl Salicylate (SCCS/1676/25, revision of SCCS/1654/23)
 
+## Overview
+
 This is the EU regulatory-science re-assessment of children's aggregate exposure to Methyl Salicylate (CAS 119-36-8; methyl 2-hydroxybenzoate) in cosmetic products intended for children of age 0–3 years, adopted by written procedure on 30 April 2025. It supersedes SCCS/1654/23 by adopting the updated toothpaste-amount data introduced in the SCCS Addendum on Hexyl Salicylate (SCCS/1668/24). The substance itself is not a heavy metal; the document is in scope for the Heavy Metal Index as the EU-canonical exposure-assessment framework for children's-personal-care safety evaluation. Its product-use amounts, retention factors, dermal-absorption defaults, child body weights, and toothpaste ingestion values are the inputs that any heavy-metal MoS calculation for the children's-personal-care HMTc category must inherit, alongside SCCS/1647/22 (the 12th Notes of Guidance, see [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12]]).
 
 ## Key numbers
@@ -90,8 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [954b25912](https://github.com/paleofoundation/heavymetalindex/commit/954b25912) | 2026-05-17 | minor | Narrative text revised |
-| [09e7e95da](https://github.com/paleofoundation/heavymetalindex/commit/09e7e95da) | 2026-05-17 | major | 1 source added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

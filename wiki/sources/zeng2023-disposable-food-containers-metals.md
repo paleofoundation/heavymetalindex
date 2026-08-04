@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zeng et al. 2023 - disposable food-container metal migration
 
+## Overview
+
 Zeng et al. (2023) measured fourteen metals and metalloids released from disposable fast-food container products into hot water. The routeable occurrence signal is food-contact-material leachate, not intrinsic food contamination: paper cups, plastic cups, plastic bags, and plastic bowls were filled or contacted with freshly boiled water for 15 min and the resulting leachates were analyzed by ICP-MS. Table 1 reports mean +/- SD concentrations in `microgram/L` for seven experiments per product type.
 
 ## Key numbers
@@ -99,6 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [761b54272](https://github.com/paleofoundation/heavymetalindex/commit/761b54272) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

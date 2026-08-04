@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Shavali-gilani et al. 2025 — Heavy metals in canned tomato paste, olives, and pickled cucumbers, Iran
 
+## Overview
+
 This Iranian study surveyed eight metals (Cd, Cu, As, Fe, Pb, Zn, Hg, Sn) in 49 samples of canned pickled cucumbers, tomato paste, and olives collected from Tehran markets, using AAS-flame and graphite furnace for most analytes and ICP-MS for mercury and tin. All three product types contained detectable lead at average concentrations above the Codex Alimentarius permissible limit of 0.10 mg/kg for canned products; mercury was not detected in any sample. Tin was detected in all canned goods, with tomato paste showing the highest Sn level (0.41 mg/kg), but all values remained far below the EU maximum of 200 mg/kg and Codex 150–250 mg/kg. The study highlights lead as the key canning-associated contaminant in these products.
 
 ## Key numbers
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |

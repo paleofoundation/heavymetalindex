@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Siric et al. 2019 - Heavy metals in cultivated mushrooms from Croatia
 
+## Overview
+
 Siric and colleagues measured Fe, Zn, Cu, As, Cd, Pb, and Hg in three cultivated mushroom species, with 20 samples per species. The source is routeable because it provides species-level means and SDs for edible cultivated mushrooms. As, Cd, Pb, and Hg are reported in ug/kg, while Fe, Zn, and Cu are reported in mg/kg.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

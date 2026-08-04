@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Ji and Wu 2026 — Heavy metal spatial variability and source apportionment in agricultural soils of eastern Zhejiang
 
+## Overview
+
 This study applied geostatistics, principal component analysis (PCA), positive matrix factorization (PMF), and finite mixture modeling (FMM) to characterize the spatial distribution and source contributions of five heavy metals (Cr, Pb, Cd, Hg, As) across 877 agricultural soil sampling sites in coastal eastern Zhejiang Province, China. The study area spans four cities (Ningbo, Jinhua, Shaoxing, Taizhou) and encompasses paddy fields, upland fields, tea gardens, orchards, bamboo plantations, and forests. Overall soil quality was classified as good at most sites, but notable exceedances of environmental background values were detected at a subset of locations.
 
 Mean concentrations in agricultural topsoil were: Cr 65.17 mg/kg, Pb 35.08 mg/kg, Cd 0.18 mg/kg, Hg 0.10 mg/kg, and As 5.44 mg/kg. Maximum observed concentrations exceeded environmental background values for Zhejiang Province by 3.96× (Cr), 11.73× (Pb), 7.42× (Cd), 12.65× (Hg), and 7.29× (As). All five metals fall below national Grade II standards (GB 15618) at the mean, but hotspot sites substantially exceed them. Mercury showed extreme spatial variability (coefficient of variation 127.5%) and Pb showed high variability (83.1%), both consistent with dominant anthropogenic input.
@@ -81,6 +83,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [15eca2e78](https://github.com/paleofoundation/heavymetalindex/commit/15eca2e78) | 2026-05-12 | major | 4 sections added; narrative text revised |

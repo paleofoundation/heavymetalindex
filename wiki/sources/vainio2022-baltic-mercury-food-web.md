@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Vainio et al. 2022 — Total mercury trophic magnification in the Baltic Archipelago Sea food web
 
+## Overview
+
 This study measured total mercury (THg) concentrations in 30 species spanning benthic, pelagic, and benthopelagic food chains in the Baltic Archipelago Sea, a brackish low-diversity ecosystem with known Hg contamination, to investigate how ecological traits (food-chain origin) and ecophysiological traits (thermoregulatory strategy) affect trophic magnification. Trophic magnification factors (TMFs) were significantly higher in pelagic food chains (3.58–4.02) than in benthic food chains (2.11–2.34) when homeotherm bird species were excluded, demonstrating that food-chain origin and thermoregulation both shape Hg accumulation patterns and that standard risk assessment models using a single TMF may underestimate risk in pelagic food chains or for homeotherms.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [531487a33](https://github.com/paleofoundation/heavymetalindex/commit/531487a33) | 2026-05-13 | major | 4 sections added; narrative text revised |

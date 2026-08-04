@@ -88,29 +88,7 @@ sources: 8
 
 # Plant milk base
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=9 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 6 jurisdictions, top US 33% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 0 upstream source(s) | drivers[] empty; no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN, iAs THIN, Ni THIN, Al THIN, tAs POOLABLE | Pb: needs 1 more study(ies); iAs: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 2 claims checked, 2 supported; 4 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming plant-milk: milani2023-trace-elements-soy-based-beverages, damato2026-inorganic-arsenic-rice-based-beverages |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, iAs, Ni, Al, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, iAs, Ni, Al, tAs; pairing 0 paired, 5 single, 0 unpaired | Pb: THIN, needs 1 more study(ies); iAs: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -152,18 +130,18 @@ Do not copy their values into the machine-readable `contamination_profile` until
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S (2023). *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986). Peer-reviewed, A-tier. [[sources/milani2023-trace-elements-soy-based-beverages|Source record]]
-2. D'Amato M, Turco AC, D'Amore T, Vitale F, Marini F, Stacchini P, et al. (2026). *Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment*. Foods. [https://doi.org/10.3390/foods15020383](https://doi.org/10.3390/foods15020383). Peer-reviewed, A-tier. [[sources/damato2026-inorganic-arsenic-rice-based-beverages|Source record]]
-3. Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. (2021). *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5). Peer-reviewed, A-tier. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Source record]]
-4. Walther B, Guggisberg D, Badertscher R, Egger L, Portmann R, Dubois S, et al. (2022). *Comparison of nutritional composition between plant-based drinks and cow's milk*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2022.988707](https://doi.org/10.3389/fnut.2022.988707). Peer-reviewed, A-tier. [[sources/walther2022-plantbased-drinks-arsenic|Source record]]
+1. [[sources/milani2023-trace-elements-soy-based-beverages|Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility]]<span class="hmi-ref-meta">Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/damato2026-inorganic-arsenic-rice-based-beverages|Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment]]<span class="hmi-ref-meta">D'Amato M, Turco AC, D'Amore T, Vitale F, Marini F, Stacchini P, et al. · Foods · 2026 · [doi.org/10.3390/foods15020383](https://doi.org/10.3390/foods15020383)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/marques2021-trace-elements-milks-plant-based-drinks|Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks]]<span class="hmi-ref-meta">Marques M, Correig E, Capdevila E, Gargallo E, Gonzalez N, Nadal M, et al. · Biological Trace Element Research · 2021 · [doi.org/10.1007/s12011-021-03021-5](https://doi.org/10.1007/s12011-021-03021-5)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/walther2022-plantbased-drinks-arsenic|Comparison of nutritional composition between plant-based drinks and cow's milk]]<span class="hmi-ref-meta">Walther B, Guggisberg D, Badertscher R, Egger L, Portmann R, Dubois S, et al. · Frontiers in Nutrition · 2022 · [doi.org/10.3389/fnut.2022.988707](https://doi.org/10.3389/fnut.2022.988707)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -244,9 +222,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [6618d41b3](https://github.com/paleofoundation/heavymetalindex/commit/6618d41b3) | 2026-05-17 | major | 4 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

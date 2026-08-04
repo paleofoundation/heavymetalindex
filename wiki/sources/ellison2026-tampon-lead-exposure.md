@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ellison et al. 2026 - Lead fate during tampon use
 
+## Overview
+
 Ellison et al. measured endogenous and experimentally spiked lead (Pb) in menstrual fluid fractions and used those data in a deterministic mass-balance model for tampon use. The source is exposure and bioavailability evidence for the menstrual-tampon category, not product-occurrence evidence: product Pb content was taken from a prior total-digestion tampon study and then modeled through menstrual-fluid partitioning, tampon reabsorption, and potential vaginal-tissue uptake.
 
 ## Key numbers
@@ -70,6 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [cb847a2fa](https://github.com/paleofoundation/heavymetalindex/commit/cb847a2fa) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

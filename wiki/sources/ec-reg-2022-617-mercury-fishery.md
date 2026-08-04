@@ -31,6 +31,8 @@ updated: 2026-05-16
 
 # EC Regulation 2022/617 — Mercury MLs in fishery products and salt
 
+## Overview
+
 This Commission Regulation, adopted 12 April 2022 and published in OJ L 115 on 13 April 2022, replaces Section 3.3 of Regulation (EC) No 1881/2006 in its entirety and sets the operative EU maximum levels for total mercury in fish, cephalopods, marine gastropods, food supplements, and salt. The applicability date is 3 May 2022 (twenty days after publication). The structural change is the introduction of a third species tier at 0.30 mg/kg wet weight for 19 lower-mercury fish species plus all cephalopods and all marine gastropods; the previous structure used a single general tier and a high-predator tier only.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c9c46d7d4](https://github.com/paleofoundation/heavymetalindex/commit/c9c46d7d4) | 2026-05-16 | major | 2 sources added; 5 sections added; narrative text revised |

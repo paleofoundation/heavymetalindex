@@ -29,6 +29,8 @@ updated: 2026-05-25
 
 # Brum et al. 2025 — Essential elements and PTEs in organic vs conventional flaxseeds
 
+## Overview
+
 This study quantified 20 chemical elements (11 essential, 9 PTEs) in 52 commercially available European flaxseed samples using ICP-OES, comparing organic (n=15) and conventional (n=37) seeds. Three elements showed statistically significant differences (p < 0.05) between organic and conventional samples: Al and Ni were higher in conventional flaxseeds (p = 0.0312 and p = 0.0142, respectively), while Na was higher in organic flaxseeds (p = 0.0072). Pb and Cd concentrations did not differ significantly between organic and conventional groups. Cadmium concentrations in both groups remained well below the EU Regulation 2023/915 maximum level of 0.50 mg/kg for linseeds. Hazard Index modelling showed that Al and Pb pose the more pressing health risk at typical consumption levels of 15–30 g/day; Cd HI values remained below 1 in all scenarios.
 
 ## Key numbers
@@ -121,7 +123,7 @@ Other enhancements:
 - Removed inline µg/kg parenthetical conversions that risked silent unit drift; values reported in the paper's native mg/kg dry-weight basis throughout.
 
 Audit subagent (2026-05-25) verdict REVISE; two ⚠️ findings reviewed:
-- Check 2: `ingredients/flaxseeds` slug not yet in `docs/gpt-collaboration/taxonomy-snapshot.md` (snapshot dated 2026-05-18). Verified against `wiki/ingredients/` — no `flaxseeds.md` page exists yet, and three source pages now reference the slug (brum2025, lee2019, nazari2023). The slug therefore qualifies for the ≥freq-2 auto-stub via `tools/autonomy/create-missing-pages.mjs` per CLAUDE.md Part 10. Action: leave the slug in place; the auto-stub will create the ingredient page and the taxonomy snapshot will pick it up on its next regeneration. No correction needed.
+- Check 2: `ingredients/flaxseeds` slug not yet in `docs/gpt-collaboration/taxonomy-snapshot.md` (snapshot dated 2026-05-18). Verified against `wiki/ingredients/` — no `flaxseeds.md` page exists yet, and three source pages now reference the slug (brum2025, lee2019, nazari2023). The slug therefore qualifies for the ≥freq-2 auto-stub via `tools/autonomy/create-missing-pages.mjs`. Action: leave the slug in place; the auto-stub will create the ingredient page and the taxonomy snapshot will pick it up on its next regeneration. No correction needed.
 - Check 2: `matrices: [seed, oilseed]` flagged as unconfirmed against a controlled matrices vocabulary. Verified — matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` is documented as bare strings with broad-scope guidance rather than a closed list; `oilseed` is already in use in `wiki/sources/lee2019-food-processing-heavy-metals-migration.md`. False positive; no change.
 
 All five audit checks otherwise clean (numerical fidelity verified across Tables 1/2/3 and the p. 5 HI narrative; speciation/methods accurate; brand firewall clean; wiki/HMTc firewall clean including Implications section).
@@ -133,9 +135,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [455da1be1](https://github.com/paleofoundation/heavymetalindex/commit/455da1be1) | 2026-05-25 | minor | Narrative text revised |
-| [06e1a0b1a](https://github.com/paleofoundation/heavymetalindex/commit/06e1a0b1a) | 2026-05-25 | major | 3 sections added and 2 removed; narrative text revised |
-| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

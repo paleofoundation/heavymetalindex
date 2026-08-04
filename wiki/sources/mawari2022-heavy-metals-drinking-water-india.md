@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Mawari et al. 2022 — Heavy metals in drinking water from industrial Maharashtra, India
 
+## Overview
+
 Mawari et al. measured concentrations of fluoride, arsenic, cadmium, mercury, lead, nickel, copper, zinc, manganese, and chromium in ground and surface water across seven industrial area locations in Maharashtra, India, by ICP-MS. Urinary biomarkers were also collected: mean urinary mercury was 4.91 ± 0.280 µg/L and mean urinary arsenic was 42.04 ± 2.635 µg/L among the sampled population. The paper situates these levels in relation to WHO and Indian drinking-water standards and provides a multi-metal exposure profile for an industrial region with both groundwater and surface-water sources.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5d7a39a46](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a46) | 2026-05-13 | major | 4 sections added; narrative text revised |

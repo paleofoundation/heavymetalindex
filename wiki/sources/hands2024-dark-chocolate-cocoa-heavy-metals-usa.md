@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hands et al. 2024 — Multi-year heavy metal survey of 72 US dark chocolate and cocoa products
 
+## Overview
+
 This multi-year study analyzed 72 popular consumer cocoa-containing products purchased in the United States across four cohorts (2014, 2016, 2019, 2022) for lead (Pb), cadmium (Cd), and total arsenic (tAs) using ICP-MS following acid digestion. The study is notable for documenting temporal trends (declining Pb and Cd across cohorts) and the counterintuitive finding that organic-certified products carried significantly higher Cd concentrations than non-organic counterparts. Across all products, 43% exceeded California Proposition 65 MADLs for Pb per serving and 35% exceeded Prop 65 MADLs for Cd per serving, but median concentrations fell below the Prop 65 thresholds, indicating a strong influence of high-contamination outliers on mean values. Arsenic concentrations were universally below Prop 65 limits.
 
 ## Key numbers
@@ -88,7 +90,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [591741c26](https://github.com/paleofoundation/heavymetalindex/commit/591741c26) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

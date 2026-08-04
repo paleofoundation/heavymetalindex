@@ -72,6 +72,8 @@ last_review_board_update: 2026-05-28
 
 # Curators and conflict-of-interest disclosure
 
+## Overview
+
 This page names the curators of the Heavy Metal Index, lists their relevant credentials and domain expertise, and discloses conflicts of interest. It is the defensibility surface that distinguishes a curated reference from an anonymous compilation — Cochrane has it, EFSA scientific opinions have it, every credible standards body has it. The Heavy Metal Index has one because the [[methodology|methodology]] and [[editorial-standards|editorial-standards]] arguments depend on it.
 
 The page is a **scaffold**. The structural slots are in place; the named individuals will be filled in as the curatorial board is finalised. The placeholders are explicit so a reader can see what is and is not yet named. The placeholders will be replaced (not removed) as the board comes together.

@@ -32,31 +32,9 @@ created_routed_sources: 2
 
 # Black Pepper
 
-<!-- hmi-completeness-scorecard -->
+## Overview
 
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 7/10 HMTc analytes, total n=32 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 23 jurisdictions, top SA 15% | — |
-| D3 Anthropogenic evidence | GAP | 1 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 3 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni POOLABLE, Al THIN, Cr THIN, Sn THIN | tAs: THIN; tHg: needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 8/10 populated cells declare a basis token | 2 populated cell(s) lack a basis token: iAs, U |
-| D8 Provenance integrity | OK | 22 claims checked, 22 supported; 8 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 4 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 8 single, 0 unpaired | tAs: THIN; tHg: THIN, needs 1 more study(ies); Al: THIN; Cr: THIN; Sn: THIN, needs 2 more study(ies); basis: 2 populated cell(s) lack a basis token: iAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.75, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
-
-Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
+Source-grounded narrative on this page is populated incrementally from the routed source pages; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
@@ -77,22 +55,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. (2025). *Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco*. World's Veterinary Journal 15(4): 863-881. [https://doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88). Peer-reviewed, B-tier. [[sources/sabri2025-moroccan-spices-casablanca-metals|Source record]]
-2. Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S (2025). *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*. Journal of Environmental Exposure Assessment. [https://doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10). Peer-reviewed, A-tier. [[sources/tinggi2025-spices-herbs-queensland|Source record]]
-3. Ammar HR, Saleh SM, Sivasankaran S, Albadri AEAE, and Al-Mufadi FA (2023). *Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS*. Applied Sciences (MDPI). [https://doi.org/10.3390/app132413119](https://doi.org/10.3390/app132413119). Peer-reviewed, B-tier. [[sources/ammar2023-element-migration-aluminum-cookware|Source record]]
-4. Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. (2022). *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [https://doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548). Peer-reviewed, A-tier. [[sources/cicero2022-minerals-spices-aromatic-herbs|Source record]]
-5. Mercan Yucel U (2022). *Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals*. Balikesir Health Sciences Journal. [https://doi.org/10.53424/balikesirsbd.1160866](https://doi.org/10.53424/balikesirsbd.1160866). Peer-reviewed, A-tier. [[sources/mercan-yucel2022-van-spices-heavy-metals|Source record]]
-6. Savić S, Petrović S, Petronijević M, Cvetanović A, and Petronijević Ž (2019). *Determination of the mineral content of spices by ICP-OES*. Advanced Technologies. [https://doi.org/10.5937/savteh1901027s](https://doi.org/10.5937/savteh1901027s). Peer-reviewed, A-tier. [[sources/savic2019-serbian-spices-minerals|Source record]]
-7. Matloob MH (2016). *Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq*. Polish Journal of Environmental Studies. [https://doi.org/10.15244/pjoes/62401](https://doi.org/10.15244/pjoes/62401). Peer-reviewed, A-tier. [[sources/matloob2016-iraq-spices-heavy-metals|Source record]]
-8. Ziyaina M, Rajab A, Alkhweldi K, Algami W, Al-Toumi O, and Rasco B (2014). *Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)*. African Journal of Biochemistry Research. [https://doi.org/10.5897/AJBR2014.0766](https://doi.org/10.5897/AJBR2014.0766). Peer-reviewed, A-tier. [[sources/ziyaina2014-libya-spices-lead-cadmium|Source record]]
+1. [[sources/sabri2025-moroccan-spices-casablanca-metals|Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco]]<span class="hmi-ref-meta">Sabri S, Sabri C, Salam MR, El Mellouli F, Lafram A, Khallouki H, et al. · World's Veterinary Journal 15(4): 863-881 · 2025 · [doi.org/10.54203/scil.2025.wvj88](https://doi.org/10.54203/scil.2025.wvj88)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/tinggi2025-spices-herbs-queensland|Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure]]<span class="hmi-ref-meta">Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S · Journal of Environmental Exposure Assessment · 2025 · [doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/ammar2023-element-migration-aluminum-cookware|Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS]]<span class="hmi-ref-meta">Ammar HR, Saleh SM, Sivasankaran S, Albadri AEAE, and Al-Mufadi FA · Applied Sciences (MDPI) · 2023 · [doi.org/10.3390/app132413119](https://doi.org/10.3390/app132413119)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/cicero2022-minerals-spices-aromatic-herbs|Mineral and Microbiological Analysis of Spices and Aromatic Herbs]]<span class="hmi-ref-meta">Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. · Foods · 2022 · [doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/mercan-yucel2022-van-spices-heavy-metals|Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals]]<span class="hmi-ref-meta">Mercan Yucel U · Balikesir Health Sciences Journal · 2022 · [doi.org/10.53424/balikesirsbd.1160866](https://doi.org/10.53424/balikesirsbd.1160866)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/savic2019-serbian-spices-minerals|Determination of the mineral content of spices by ICP-OES]]<span class="hmi-ref-meta">Savić S, Petrović S, Petronijević M, Cvetanović A, and Petronijević Ž · Advanced Technologies · 2019 · [doi.org/10.5937/savteh1901027s](https://doi.org/10.5937/savteh1901027s)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/matloob2016-iraq-spices-heavy-metals|Using Stripping Voltammetry to Determine Heavy Metals in Cooking Spices Used in Iraq]]<span class="hmi-ref-meta">Matloob MH · Polish Journal of Environmental Studies · 2016 · [doi.org/10.15244/pjoes/62401](https://doi.org/10.15244/pjoes/62401)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/ziyaina2014-libya-spices-lead-cadmium|Lead and cadmium residue determination in spices available in Tripoli City markets (Libya)]]<span class="hmi-ref-meta">Ziyaina M, Rajab A, Alkhweldi K, Algami W, Al-Toumi O, and Rasco B · African Journal of Biochemistry Research · 2014 · [doi.org/10.5897/AJBR2014.0766](https://doi.org/10.5897/AJBR2014.0766)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -175,9 +153,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [3c19d3ce9](https://github.com/paleofoundation/heavymetalindex/commit/3c19d3ce9) | 2026-06-14 | minor | Narrative text revised |
-| [0ba9ef588](https://github.com/paleofoundation/heavymetalindex/commit/0ba9ef588) | 2026-06-11 | major | 6 sources added; 1 section added; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 8 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

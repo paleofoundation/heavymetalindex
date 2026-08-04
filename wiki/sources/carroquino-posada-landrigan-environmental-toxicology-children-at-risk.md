@@ -24,6 +24,8 @@ updated: 2026-05-09
 
 # Carroquino, Posada, Landrigan — Environmental toxicology: children at risk
 
+## Overview
+
 This Encyclopedia of Sustainability Science and Technology chapter by Carroquino, Posada, and Landrigan synthesizes the foundational principles of pediatric environmental toxicology: critical developmental periods, dose-response relationships, vulnerable life stages from embryonic period through adolescence, and the empirical case for child-specific environmental health protection. Philip J. Landrigan is the founding director of the Children's Environmental Health Center at Mount Sinai and the canonical U.S. authority on the pediatric environmental health framework that motivates child-vulnerable-population reasoning across the environmental-health and food-safety regulatory frameworks. The chapter is the foundational secondary reference for the case that infants and children warrant tighter regulatory protection than adults at any given environmental exposure.
 
 ## Key conclusions
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8f2cd83b0](https://github.com/paleofoundation/heavymetalindex/commit/8f2cd83b0) | 2026-05-09 | major | 3 sections added; narrative text revised |

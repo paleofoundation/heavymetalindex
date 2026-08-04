@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Macias and Rodriguez de San Miguel 2023 - PIM separation of Pb(II), Cd(II), and Zn(II) from seawater
 
+## Overview
+
 Macias and Rodriguez de San Miguel optimized polymer inclusion membranes (PIMs) for selective transport of Cd(II), Pb(II), and Zn(II) in saline media and seawater matrices. This is primary remediation and separation-method evidence, not seawater occurrence evidence: synthetic and collected seawater matrices were spiked with defined metal-ion concentrations, and the measured endpoints are transport fractions, separation factors, membrane stability, and preconcentration behavior.
 
 ## Key numbers
@@ -101,6 +103,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [cadcfb2f3](https://github.com/paleofoundation/heavymetalindex/commit/cadcfb2f3) | 2026-06-02 | major | 8 sections added; narrative text revised |

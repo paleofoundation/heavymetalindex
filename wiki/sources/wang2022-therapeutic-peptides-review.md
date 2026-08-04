@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Wang 2022 — Therapeutic peptides: current applications and future directions
 
+## Overview
+
 Wang and colleagues (Zhejiang Sci-Tech University, Nanjing University of Chinese Medicine, Hangzhou First People's Hospital affiliated with PLA Joint Logistic Support Force, the Chinese Academy of Medical Sciences in Lanzhou, and Lanzhou University) review the state of therapeutic peptide drug development in 2022, covering discovery strategies (natural-hormone mimicry, peptide drug candidates from natural products, non-ribosomal peptides, rational design based on protein-protein interactions, phage display), chemical and recombinant production (solid-phase peptide synthesis via Fmoc-SPPS and Boc-SPPS, recombinant DNA technology, semi-synthesis, genetic code expansion with non-canonical amino acids, site-specific PEGylation), chemical modification (alanine-scan, backbone modification, side chain modification, cyclization, α-helix and β-sheet stabilization), and current and future therapeutic applications across diabetes mellitus, cardiovascular disease, gastrointestinal and gastric disease, oncology, and antiviral therapy (including SARS-CoV-2 peptide vaccine candidates). The review is a secondary narrative synthesis with no primary measurements; its relevance to the Heavy Metal Index is indirect — it provides the methodological and pharmaceutical-industry context for any future wiki work on heavy-metal exposure routes specific to therapeutic and black-market peptide products.
 
 ## Why this matters
@@ -120,8 +122,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [2bd570f5c](https://github.com/paleofoundation/heavymetalindex/commit/2bd570f5c) | 2026-06-08 | minor | Narrative text revised |
-| [6603ebd41](https://github.com/paleofoundation/heavymetalindex/commit/6603ebd41) | 2026-06-08 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Adler et al. 2019 - selected metals in coffee from Bosnia and Herzegovina
 
+## Overview
+
 This study measured selected metals in green coffee beans, roasted coffee beans, and Turkish-style coffee infusions prepared from roasted coffee purchased in Sarajevo, Bosnia and Herzegovina. The study is direct coffee occurrence evidence for Cd, Pb, Ni, Al, Cu, Zn, Fe, and Mg, with transfer-to-infusion percentages for six roasted-coffee samples.
 
 ## Key numbers
@@ -123,6 +125,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e75f2836b](https://github.com/paleofoundation/heavymetalindex/commit/e75f2836b) | 2026-05-19 | major | 5 sections added; narrative text revised |

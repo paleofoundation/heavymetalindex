@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water
 
+## Overview
+
 California's drinking-water Maximum Contaminant Level (MCL) for hexavalent chromium (Cr-VI) is 0.010 mg/L, equal to 10 µg/L or 10 ppb. The State Water Resources Control Board adopted the regulation on April 17, 2024; the Office of Administrative Law approved it on July 24, 2024; and it took effect on October 1, 2024 ([[sources/swrcb-hexavalent-chromium-mcl-2024|SWRCB Cr-VI MCL]]). The MCL is the first enforceable concentration limit in California to address hexavalent chromium specifically rather than through the broader total-chromium MCL of 50 µg/L ([[sources/swrcb-hexavalent-chromium-mcl-2024|SWRCB Cr-VI MCL]]).
 
 This is a drinking-water standard, not a food limit. It governs the concentration of hexavalent chromium permitted in water delivered by public water systems in California. There is no California or US regulatory maximum level for hexavalent chromium in a food matrix; this MCL is cited on the wiki as the closest ingestion-route Cr-VI regulatory benchmark, derived from drinking-water toxicology rather than from food-occurrence data. See [[metals/chromium-hexavalent]] for the species synthesis and the food-occurrence evidence base.
@@ -65,9 +67,9 @@ The federal Safe Drinking Water Act has no hexavalent-chromium-specific MCL; the
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. California State Water Resources Control Board, Division of Drinking Water (2024). *California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003)*. California State Water Resources Control Board. [www.waterboards.ca.gov](https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/SWRCBDDW-21-003_hexavalent_chromium.html). Regulation, A-tier. [[sources/swrcb-hexavalent-chromium-mcl-2024|Source record]]
+1. [[sources/swrcb-hexavalent-chromium-mcl-2024|California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003)]]<span class="hmi-ref-meta">California State Water Resources Control Board, Division of Drinking Water · 2024 · [www.waterboards.ca.gov](https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/SWRCBDDW-21-003_hexavalent_chromium.html)</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -77,6 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added; narrative text revised |
-| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 source added; contamination-profile values revised; 7 sections added |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

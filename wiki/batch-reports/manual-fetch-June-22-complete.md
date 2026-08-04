@@ -8,6 +8,8 @@ outcome: no-new-pages (all candidates are duplicates of already-ingested documen
 
 # Manual-fetch folder close — June 22 (nickel regulatory/reference set)
 
+## Overview
+
 Karen added three PDFs to `raw/Manual Fetch Kimi /June 22` and requested ingest. All
 three are duplicates of documents already present in the corpus under different file
 copies. No new source pages were created; doing so would duplicate existing content and

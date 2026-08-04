@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Urosevic et al. 2024 - Salix phytoremediation
 
+## Overview
+
 Urosevic and colleagues tested three white willow clones and one basket willow genotype for heavy-metal uptake from Kolubara Mining Basin soil that was further enriched with heavy-metal salts. This is primary environmental phytoremediation evidence: it reports soil and willow root, stem, and leaf metal concentrations, but it does not measure edible crops, ingredients, food products, or dietary exposure.
 
 ## Key numbers
@@ -94,7 +96,7 @@ Courses: Good teaching example for separating environmental remediation data fro
 
 This page was built from the full PDF, including the abstract, Table 1 soil concentrations, Figure 1 soil summaries, Table 2 root/stem/leaf concentrations, Figure 2 organ plots, Table 3 genotype comparisons and CDA results, the discussion, materials and methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source does not measure edible commodities or consumer products. The source reports total elemental concentrations after digestion; arsenic and chromium species are not separated.
 
-Audit subagent (2026-06-02) flagged frontmatter `metals: [..., As]` as inconsistent with CLAUDE.md Part 14, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected frontmatter to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
+Audit subagent (2026-06-02) flagged frontmatter `metals: [..., As]` as inconsistent with, which lists tAs/iAs as non-negotiable speciation distinctions; verified against source Methods (aqua regia + HNO3/H2O2 digestion, ICP-OES, no inorganic-arsenic separation) — corrected frontmatter to `tAs`. Body prose retains "As" per the dominant convention in other tAs-tagged source pages.
 
 Audit subagent (2026-06-02) flagged the Cu2(OH)3Cl fungicide pre-treatment as a methodologically important omission from the prior Methods section; verified against source page 13 ("The willow cuttings were soaked in fungicide [Cu2(OH)3Cl] before planting.") — added a one-sentence note in Methods that this is a confounder for Cu accumulation results.
 
@@ -107,8 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [95683a05c](https://github.com/paleofoundation/heavymetalindex/commit/95683a05c) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

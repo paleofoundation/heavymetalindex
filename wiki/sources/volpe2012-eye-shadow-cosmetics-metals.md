@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Volpe 2012 - selected metals in eye shadow cosmetics
 
+## Overview
+
 Volpe and colleagues measured lead, cadmium, cobalt, chromium, and nickel in `20` powdered eye shadow cosmetics purchased in Italy and labeled as manufactured in China, Italy, or the United States. Lead is reported in `µg g-1 wet weight`; cadmium, cobalt, chromium, and nickel are reported in `ng g-1 wet weight`. The source includes brand/sample group numbers, but this page reports product-form and origin-country context only.
 
 ## Key numbers
@@ -72,6 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [ecf202b37](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b37) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

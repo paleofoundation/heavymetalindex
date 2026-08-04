@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Tayeb and Movassaghghazani 2025 — Lead and cadmium in olive and corn oils, northern Iran
 
+## Overview
+
 This study measured lead and cadmium in 60 commercial and traditional olive and corn oil samples from Gonbad-Kavus City in northern Iran using graphite furnace atomic absorption spectrometry (GFAAS) after microwave digestion. All samples had quantifiable Pb and Cd levels; all Pb concentrations were below the 80 µg/kg ISIRI (Iranian national) limit. Hazard Index (HI) values were below 1 for all oils, indicating no non-carcinogenic risk. However, the Margin of Exposure (MOE) for lead in traditional olive oil was below 10,000, signaling a concern for potential carcinogenic risk in that specific product type.
 
 ## Key numbers
@@ -93,9 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [50d719b22](https://github.com/paleofoundation/heavymetalindex/commit/50d719b22) | 2026-05-17 | minor | Narrative text revised |
-| [a1aeac1d6](https://github.com/paleofoundation/heavymetalindex/commit/a1aeac1d6) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

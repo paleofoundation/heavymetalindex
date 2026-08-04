@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Uzomah et al. 2021 — Chemical contaminants in Nigerian fresh and marine fish: review
 
+## Overview
+
 This narrative review synthesizes the Nigerian literature on chemical contaminants in fresh and marine fish, covering polycyclic aromatic hydrocarbons (PAHs), persistent organic pollutants (POPs), heavy metals, and microplastics across more than 104 commercially important species. The heavy metals section reports that iron and lead may reach potentially toxic concentrations in fish from specific contaminated sites in Nigeria, particularly near oil extraction, industrial effluent discharge, and urbanized waterbodies. The review provides geographic context for which species and regions present elevated metal risk but does not report pooled concentration statistics; it synthesizes primary studies conducted under varying analytical conditions.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [313c29c4c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c4c) | 2026-05-12 | major | 4 sections added; narrative text revised |

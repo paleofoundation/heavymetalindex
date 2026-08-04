@@ -25,6 +25,8 @@ updated: 2026-05-31
 
 # Gorbanov and Giro 2025 — Toxic elements in lamb meat used for meat-snack production
 
+## Overview
+
 Gorbanov and Giro tested lamb muscle tissue from Edilbay-breed sheep after a 90-day feeding trial with the bifidogenic feed supplement LaktuVet-1, then used the tested meat to formulate dried lamb meat snacks. Lead was detected at 0.02 mg/kg in the supplemented group and 0.03 mg/kg in the control group, while cadmium and arsenic were both reported below 0.01 mg/kg in both groups. The article is routeable to lamb/mutton and processed meat snack context, but the auto-fetch filename is a false soy-products/cadmium match.
 
 ## Key numbers
@@ -70,8 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
 | [f3839d22a](https://github.com/paleofoundation/heavymetalindex/commit/f3839d22a) | 2026-05-31 | minor | Narrative text revised |
-| [c13827333](https://github.com/paleofoundation/heavymetalindex/commit/c13827333) | 2026-05-31 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

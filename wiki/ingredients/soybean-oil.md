@@ -91,29 +91,7 @@ created_routed_sources: 5
 
 # Soybean Oil
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=20 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 25 jurisdictions, top TR 40% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Cr THIN | tAs: THIN; tHg: needs 2 more study(ies); Ni: THIN; Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 8 claims checked, 8 supported; 5 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | tAs: THIN; tHg: THIN, needs 2 more study(ies); Ni: THIN; Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Soybean oil (Glycine max seed oil) is the most-consumed edible oil in the United States and the second most-consumed globally after palm oil. The heavy-metals profile of soybean oil follows the standard refined-seed-oil pattern: modest baseline Pb-and-Cd from upstream seed agronomy, partial reduction through the refining chain, and trace Ni introduced by bleaching-clay contact during refining. The current corpus loads 5 sources: Ashraf 2012 Saudi market survey (21 soybean oil samples within 161-sample multi-oil survey, [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia]]), Pehlivan 2008 Turkish ICP-AES method ([[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]), Scutarasu 2023 global foods-and-beverages review ([[sources/scutarasu2023-heavy-metals-foods-beverages]]), Silva 2025 edible-oils health-and-sustainability review ([[sources/silva2025-edible-oils-health-sustainability]]), and Yohannes 2024 Ethiopian Gondar City survey ([[sources/yohannes2024-vegetable-oils-ethiopia-gondar]]). Soybean oil consistently sits in the lower-middle of the edible-oil heavy-metals distribution, comparable to sunflower oil and below olive oil on Pb-and-Cd.
 
@@ -183,19 +161,19 @@ The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets spe
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ashraf MW (2012). *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*. Asian Journal of Chemistry (Uncorrected Proof). Peer-reviewed, A-tier. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Source record]]
-2. Pehlivan E, Arslan G, Gode F, Altun T, and Özcan MM (2008). *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*. Grasas y Aceites. [https://doi.org/10.3989/gya.2008.v59.i3.514](https://doi.org/10.3989/gya.2008.v59.i3.514). Peer-reviewed, B-tier. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Source record]]
-3. Scutarasu EC and Trincă LC (2023). *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*. Foods. [https://doi.org/10.3390/foods12183340](https://doi.org/10.3390/foods12183340). Peer-reviewed, B-tier. [[sources/scutarasu2023-heavy-metals-foods-beverages|Source record]]
-4. Silva VdS, Arias LVA, Usberti FCS, Oliveira RAd, and Fakhouri FM (2025). *Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks*. Lipidology. [https://doi.org/10.3390/lipidology2040021](https://doi.org/10.3390/lipidology2040021). Peer-reviewed, B-tier. [[sources/silva2025-edible-oils-health-sustainability|Source record]]
-5. Yohannes L, Feleke H, Sharew Melaku M, and Eyachew Amare D (2024). *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*. BMC Public Health. [https://doi.org/10.1186/s12889-024-19695-0](https://doi.org/10.1186/s12889-024-19695-0). Peer-reviewed, B-tier. [[sources/yohannes2024-vegetable-oils-ethiopia-gondar|Source record]]
+1. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population]]<span class="hmi-ref-meta">Ashraf MW · Asian Journal of Chemistry (Uncorrected Proof) · 2012</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)]]<span class="hmi-ref-meta">Pehlivan E, Arslan G, Gode F, Altun T, and Özcan MM · Grasas y Aceites · 2008 · [doi.org/10.3989/gya.2008.v59.i3.514](https://doi.org/10.3989/gya.2008.v59.i3.514)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/scutarasu2023-heavy-metals-foods-beverages|Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods]]<span class="hmi-ref-meta">Scutarasu EC and Trincă LC · Foods · 2023 · [doi.org/10.3390/foods12183340](https://doi.org/10.3390/foods12183340)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/silva2025-edible-oils-health-sustainability|Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks]]<span class="hmi-ref-meta">Silva VdS, Arias LVA, Usberti FCS, Oliveira RAd, and Fakhouri FM · Lipidology · 2025 · [doi.org/10.3390/lipidology2040021](https://doi.org/10.3390/lipidology2040021)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/yohannes2024-vegetable-oils-ethiopia-gondar|Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia]]<span class="hmi-ref-meta">Yohannes L, Feleke H, Sharew Melaku M, and Eyachew Amare D · BMC Public Health · 2024 · [doi.org/10.1186/s12889-024-19695-0](https://doi.org/10.1186/s12889-024-19695-0)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -219,9 +197,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
-| [d1b330ea5](https://github.com/paleofoundation/heavymetalindex/commit/d1b330ea5) | 2026-05-16 | major | 5 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

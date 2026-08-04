@@ -11,7 +11,7 @@ no_doi_assigned: true
 access_url: null
 source_type: regulatory
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13, A-tier covers government reports (FDA, EFSA, EPA, WHO, Codex) and national-agency authoritative risk assessments. The Bundesinstitut für Risikobewertung (BfR) is the German federal scientific risk-assessment agency under the Federal Ministry of Food and Agriculture; its formally numbered Opinions (here No. 048/2009) are the agency's public regulatory determinations. The Opinion synthesises ATSDR 2007, EFSA 2004 and 2009, IARC 2004 and 2006, JECFA 1986/2002/2003, WHO 1995/2007, DFG 2003/2007, and the German HBM Commission 2009 evaluations and applies them to the migration-limit values of EU Toy Safety Directive 2009/48/EC."
+tier_rationale: "A-tier covers government reports (FDA, EFSA, EPA, WHO, Codex) and national-agency authoritative risk assessments. The Bundesinstitut für Risikobewertung (BfR) is the German federal scientific risk-assessment agency under the Federal Ministry of Food and Agriculture; its formally numbered Opinions (here No. 048/2009) are the agency's public regulatory determinations. The Opinion synthesises ATSDR 2007, EFSA 2004 and 2009, IARC 2004 and 2006, JECFA 1986/2002/2003, WHO 1995/2007, DFG 2003/2007, and the German HBM Commission 2009 evaluations and applies them to the migration-limit values of EU Toy Safety Directive 2009/48/EC."
 license: "public-domain (BfR public Opinion)"
 raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/03_2009_lead_and_cadmium_do_not_belong_in_toys.pdf"
 raw_sha256: aaf0493e6b7a29fc066e1236c51c7cbfa03fbb6dc134379c8caffc5123037e69
@@ -29,6 +29,8 @@ created_by: claude-opus-4-7
 ---
 
 # BfR 2009 — Lead and cadmium do not belong in toys (BfR Opinion No. 048/2009)
+
+## Overview
 
 This Bundesinstitut für Risikobewertung (BfR, German Federal Institute for Risk Assessment) formal Opinion, issued as BfR Opinion No. 048/2009 on 1 June 2009, is the agency's health risk assessment of children's exposure to lead and cadmium in toys in the context of the then-new European Toy Safety Directive (TSD) 2009/48/EC. The Opinion synthesises ATSDR, EFSA, IARC, JECFA, WHO, DFG, and German HBM Commission evaluations and concludes that (i) because no scientific safe-effect threshold can be established for lead's neurotoxic and endocrine effects in children, the ALARA principle (as low as reasonably achievable) should govern lead in toys and other consumer products and the prior, tighter migration limit values of Directive 88/378/EEC should not be loosened; (ii) the cadmium migration limits in TSD 2009/48/EC, derived from the older JECFA 2003 PTWI of 7 µg Cd/kg bw/week, must be lowered to align with EFSA 2009's revised TWI of 2.5 µg Cd/kg bw/week; and (iii) because children's dietary cadmium intake already exceeds the new EFSA TWI by 100% on a regular basis, toys should contribute at most 5% of the EFSA TWI across all three TSD toy-material categories combined (dry/brittle, liquid/sticky, scraped-off). The Opinion does not report any primary contamination measurements; it is a regulatory-opinion derivation of recommended migration-limit positions from upstream toxicological reference values.
 
@@ -63,9 +65,9 @@ This Bundesinstitut für Risikobewertung (BfR, German Federal Institute for Risk
 
 - **Cd intestinal resorption:** documented at an average of 5% of oral intake, varying 1-20% with food composition and nutritional status (WHO 1992). Accumulation potential high; biological half-life in kidneys 10-30 years (p. 6).
 - **EFSA 2009 cadmium intake estimates:**
-  - Adults: 1.9-3.9 µg/kg bw/week (median 2.3 µg/kg bw/week) (p. 7).
-  - Children 1-12 years: 0.49-7.9 µg/kg bw/week (median 2.71 µg/kg bw/week); "intake is higher for younger children" (p. 7).
-  - Young children (1.5-4.5 years): cadmium intake **exceeds adult intake by 165%** (EFSA 2009) (p. 7).
+ - Adults: 1.9-3.9 µg/kg bw/week (median 2.3 µg/kg bw/week) (p. 7).
+ - Children 1-12 years: 0.49-7.9 µg/kg bw/week (median 2.71 µg/kg bw/week); "intake is higher for younger children" (p. 7).
+ - Young children (1.5-4.5 years): cadmium intake **exceeds adult intake by 165%** (EFSA 2009) (p. 7).
 - **WHO/JECFA estimate for foodstuffs (cited 2.8-4.2 µg/kg bw/week or 24-36 µg/day):** broadly consistent with the EFSA range above (p. 7).
 - **U.S. Total Diet Study (ATSDR 1999) average dietary Cd:** 30 µg/day (p. 7).
 - **IARC classification:** Group 1 human carcinogen (IARC 1993) (p. 6).
@@ -113,10 +115,10 @@ This is a regulatory-opinion document. No primary analytical work was carried ou
 - **Source-type rationale.** `source_type: regulatory`: matches the existing handling of national-agency Opinions and staff reports in the corpus. The Opinion is the agency's formal scientific advice to the European Commission regarding the migration-limit values of TSD 2009/48/EC and an explicit policy recommendation to lower those values for cadmium and apply ALARA to lead.
 - **License rationale.** `public-domain`: BfR public Opinions are German federal agency publications and are made available without licensing restriction at the agency's discretion.
 - **Frontmatter `products:` field.** Three slugs selected from the 2026-05-18 taxonomy snapshot that best match the Opinion's scope:
-  - `toys-painted` — paints and varnishes on toys are explicitly identified as the primary release pathway in Section 2 Results ("paints and varnishes used for toys can also contain these heavy metals such products constitute an additional possible source of exposure to children", p. 1);
-  - `toys-substrate-materials` — substrate materials of toys releasing Pb/Cd through dry/brittle/pliable, liquid/sticky, and scraped-off pathways are the three TSD material categories the Opinion analyses;
-  - `pacifiers-and-sucking-teething-aids` — Section 3.2.2 explicitly addresses "Toy parts small enough to be swallowed constitute a relevant child-specific source of exposure. Stomach acids can release cadmium contained in these parts" (p. 7); this is the mouthing/swallowing pathway central to pacifiers and teething aids.
-  - The Opinion is broadly about all toys covered by TSD 2009/48/EC, not a specific toy form. Per the Phase 1 broad-scope rule, slugs are not over-narrowed to specific sub-categories of toys (toys-balls, toys-rattles, toys-squeeze, etc.) that the Opinion does not separately analyse.
+ - `toys-painted` — paints and varnishes on toys are explicitly identified as the primary release pathway in Section 2 Results ("paints and varnishes used for toys can also contain these heavy metals such products constitute an additional possible source of exposure to children", p. 1);
+ - `toys-substrate-materials` — substrate materials of toys releasing Pb/Cd through dry/brittle/pliable, liquid/sticky, and scraped-off pathways are the three TSD material categories the Opinion analyses;
+ - `pacifiers-and-sucking-teething-aids` — Section 3.2.2 explicitly addresses "Toy parts small enough to be swallowed constitute a relevant child-specific source of exposure. Stomach acids can release cadmium contained in these parts" (p. 7); this is the mouthing/swallowing pathway central to pacifiers and teething aids.
+ - The Opinion is broadly about all toys covered by TSD 2009/48/EC, not a specific toy form. Per the Phase 1 broad-scope rule, slugs are not over-narrowed to specific sub-categories of toys (toys-balls, toys-rattles, toys-squeeze, etc.) that the Opinion does not separately analyse.
 - **Frontmatter `ingredients: []`** is correct — the Opinion is a children's-article consumer-product risk assessment; no food ingredients are involved. Dietary intake of Pb and Cd is referenced as a comparison baseline (alimentary intake against which the toy contribution is measured), but no specific food commodity is in scope.
 - **Frontmatter `matrices: []`** is correct — no primary measurements are reported in any food or biological matrix. The Opinion synthesises external dietary-intake and blood-Pb data from SCOOP, EFSA, JECFA, HBM Commission, and the German Environmental Survey, but reports no new matrix measurements. Matches the matrices-empty handling of the analogous toy-related sources `cpsc1997-pvc-children-products` and `cephed2013-heavy-metals-childrens-toys-nepal`.
 - **Frontmatter `metals: [Pb, Cd]`** is correct — the Opinion addresses lead and cadmium only. No speciation question arises: the Opinion reports dietary, drinking-water, and blood-lead intake/concentration values in total elemental Pb and total elemental Cd, consistent with how the upstream reference values (JECFA PTWI, EFSA TWI) are expressed.
@@ -129,10 +131,10 @@ This is a regulatory-opinion document. No primary analytical work was carried ou
 - **Near-duplicates.** None identified. The Opinion is a stand-alone BfR document; no companion BfR Communication or Statement appears to be paired with it in the corpus at this writing.
 - **Raw integrity.** raw_sha256 = aaf0493e6b7a29fc066e1236c51c7cbfa03fbb6dc134379c8caffc5123037e69 verified by `shasum -a 256` against the file at `raw_path`. Matches the `may21-kimi-novelty-2026-05-31.csv` novelty-check record for the `MFK_03-2009-lead-and-cadmium-do-not-belong-in-toys` handle (status: no_doi_needs_claude, unprocessed).
 - **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit returned verdict REVISE with two findings, both verified against the PDF and applied:
-  - Check 1 ⚠️ "exceeds adult median by 165%" — PDF p. 7 reads "Young children (1.5 to 4.5 years) thus exceed the cadmium intake of adults by 165% (EFSA 2009)"; the word "median" was a wiki-side interpolation (the source separately reports adult median 2.3 µg/kg bw/week but does not attribute the 165% figure to the median specifically). Reframed to "exceeds adult intake by 165%."
-  - Check 5 ⚠️ "BfR position prefigured the EU's eventual tightening...EFSA 2010 lead Contam Panel BMDL01 ≈0.5 µg/kg bw/day" — this was a cross-source synthesis sentence linking the BfR 2009 Opinion to the downstream EFSA 2010 lead Opinion (not cited in this BfR Opinion). Per Part 2 wiki/HMTc firewall and per the audit-prompt Check 5 explicit failure mode ("synthesis claims that compare this paper to other literature"), the forward-synthesis sentence was removed; the bullet now reports BfR's 2009 position as expressed in this Opinion only.
-  - Check 5 also flagged the "HMTc audit implications" bullet as ⚠️ borderline because it names HMTc product slugs and the rationale-tag vocabulary. Not changed: the bullet describes what the source contributes to threshold work ("can cite this Opinion as the regulatory-alignment anchor") without proposing any threshold value, which is the allowed side of the Part 2 boundary per audit-prompt.md; matches the established precedent of `cpsc1997-pvc-children-products` (HMTc audit implications bullet using the same `regulatory-alignment` rationale-tag framing passed audit).
-  - Checks 1 (remaining 30+ numerical values), 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall) all returned ✅ clean.
+ - Check 1 ⚠️ "exceeds adult median by 165%" — PDF p. 7 reads "Young children (1.5 to 4.5 years) thus exceed the cadmium intake of adults by 165% (EFSA 2009)"; the word "median" was a wiki-side interpolation (the source separately reports adult median 2.3 µg/kg bw/week but does not attribute the 165% figure to the median specifically). Reframed to "exceeds adult intake by 165%."
+ - Check 5 ⚠️ "BfR position prefigured the EU's eventual tightening...EFSA 2010 lead Contam Panel BMDL01 ≈0.5 µg/kg bw/day" — this was a cross-source synthesis sentence linking the BfR 2009 Opinion to the downstream EFSA 2010 lead Opinion (not cited in this BfR Opinion). Per Part 2 wiki/HMTc firewall and per the audit-prompt Check 5 explicit failure mode ("synthesis claims that compare this paper to other literature"), the forward-synthesis sentence was removed; the bullet now reports BfR's 2009 position as expressed in this Opinion only.
+ - Check 5 also flagged the "HMTc audit implications" bullet as ⚠️ borderline because it names HMTc product slugs and the rationale-tag vocabulary. Not changed: the bullet describes what the source contributes to threshold work ("can cite this Opinion as the regulatory-alignment anchor") without proposing any threshold value, which is the allowed side of the Part 2 boundary per audit-prompt.md; matches the established precedent of `cpsc1997-pvc-children-products` (HMTc audit implications bullet using the same `regulatory-alignment` rationale-tag framing passed audit).
+ - Checks 1 (remaining 30+ numerical values), 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall) all returned ✅ clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -141,8 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
-| [e44f2a6b7](https://github.com/paleofoundation/heavymetalindex/commit/e44f2a6b7) | 2026-06-01 | minor | Narrative text revised |
-| [d4ba1cd98](https://github.com/paleofoundation/heavymetalindex/commit/d4ba1cd98) | 2026-06-01 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

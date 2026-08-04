@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Boostani et al. 2025 - biochar and bentonite immobilization of cadmium in calcareous soil
 
+## Overview
+
 Boostani and colleagues tested whether bentonite combined with pristine or phosphoric-acid-modified biochars could immobilize cadmium in contaminated calcareous soil. The study is mitigation evidence: it uses Cd-spiked soil and amendment treatments, so its values should not be routed into coffee, food, or ingredient occurrence pools.
 
 ## Key numbers
@@ -74,7 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [5298c6f73](https://github.com/paleofoundation/heavymetalindex/commit/5298c6f73) | 2026-06-09 | minor | Narrative text revised |
-| [f27a79b7e](https://github.com/paleofoundation/heavymetalindex/commit/f27a79b7e) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

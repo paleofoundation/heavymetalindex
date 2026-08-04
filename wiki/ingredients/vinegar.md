@@ -91,29 +91,7 @@ created_routed_sources: 10
 
 # Vinegar
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=33 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 16 jurisdictions, top US 31% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 5 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr THIN | tHg: THIN; Ni: THIN; Al: needs 1 more study(ies); Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 3 claims checked, 3 supported; 6 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming vinegar: cfia2025-toxic-metals-selected-foods-2022-23 |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN; Ni: THIN; Al: THIN, needs 1 more study(ies); Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Vinegar — the acidified aqueous product of acetic-acid fermentation of a sugar or alcohol substrate, sold as white distilled vinegar, apple cider vinegar, balsamic vinegar, wine vinegar, malt vinegar, and rice vinegar — accumulates heavy metals through two distinct pathways: the upstream substrate (fruit or grain feedstock) and the downstream packaging-and-aging contact materials. The acidic pH (typically 2.5-3.5) makes vinegar an effective metal-leacher from any contact surface, which is why vinegar has historically been used as a test simulant in food-contact-material regulations (EU 4% acetic acid migration test). The current corpus loads 10 sources spanning Spain/Germany/UK (Acosta 1993 four-vinegar-type comparison), Greece (Karavoltsos 2020 balsamic-vs-common-vinegar trace-metal study), Turkey (Ozbek 2016 MIP-OES method development), Iran (Saei-Dehkordi 2012 commercial-market survey), China (Liu 2010 mercury method), Romania (Bora 2022 fruit-vegetable wash intervention work that also characterised vinegar baseline), Canada (CFIA 2025 targeted survey n=470), the US Environmental and Safety Compliance Project FDA petition (Pb and tAs in balsamic vinegar at levels of concern), and EFSA's 2022 buffered-vinegar food-additive safety assessment. The Environmental and Safety Compliance Project's 2021 FDA letter ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]) is the policy-anchor source documenting elevated Pb and tAs specifically in balsamic-vinegar product sold in the US market.
 
@@ -183,20 +161,20 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set vinegar-specif
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Corrigan ZB, Braiman J, and Chittenden C (2021). *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*. Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter. NGO report, B-tier. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Source record]]
-2. Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. (2020). *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*. Molecules. [https://doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861). Peer-reviewed, A-tier. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Source record]]
-3. Acosta A, Diaz C, Hardisson A, and Gonzalez D (1993). *Levels of Cd, Pb, and Ni in Different Types of Vinegars*. Bulletin of Environmental Contamination and Toxicology. Peer-reviewed, A-tier. [[sources/acosta1993-cd-pb-ni-vinegar-types|Source record]]
-4. Canadian Food Inspection Agency (2025). *Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report*. Canadian Food Inspection Agency. [inspection.canada.ca](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2022-2022-toxic-metals). Government report, A-tier. [[sources/cfia2025-toxic-metals-selected-foods-2022-23|Source record]]
-5. Ndung'u K, Hibdon S, and Flegal AR (2004). *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*. Talanta. [https://doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017). Peer-reviewed, A-tier. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Source record]]
-6. EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Degen G, Engel KH, Fowler PJ, et al. (2022). *Safety evaluation of buffered vinegar as a food additive*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2022.7351](https://doi.org/10.2903/j.efsa.2022.7351). Government report, A-tier. [[sources/efsa2022-buffered-vinegar-food-additive-safety|Source record]]
+1. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA]]<span class="hmi-ref-meta">Corrigan ZB, Braiman J, and Chittenden C · Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter · 2021</span><span class="hmi-ref-tag">NGO</span>
+2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/cfia2025-toxic-metals-selected-foods-2022-23|Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report]]<span class="hmi-ref-meta">Canadian Food Inspection Agency · 2025 · [inspection.canada.ca](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2022-2022-toxic-metals)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/efsa2022-buffered-vinegar-food-additive-safety|Safety evaluation of buffered vinegar as a food additive]]<span class="hmi-ref-meta">EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Degen G, Engel KH, Fowler PJ, et al. · EFSA Journal · 2022 · [doi.org/10.2903/j.efsa.2022.7351](https://doi.org/10.2903/j.efsa.2022.7351)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -222,9 +200,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 3 sources added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

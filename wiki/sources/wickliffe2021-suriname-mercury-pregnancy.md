@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wickliffe et al. 2021 — Total and methylmercury exposure in pregnant women in Suriname
 
+## Overview
+
 This study characterized total mercury (tHg) and methylmercury (MeHg) exposure in 807 pregnant women across three geographic cohorts in Suriname: interior communities (Indigenous and Maroon populations with high freshwater fish consumption), Paramaribo (the capital), and Nickerie (a rice-growing agricultural region). Hair and blood mercury concentrations were measured; a subsample of 75 participants had MeHg speciation. Median tHg in hair was substantially higher in interior community women (3.64 µg/g) compared to Paramaribo (0.63 µg/g) and Nickerie (0.74 µg/g), reflecting marked geographic differences in fish consumption patterns. Artisanal gold mining activity in interior regions contributes additional inorganic mercury exposure. This study provides important baseline exposure data for a largely understudied Amazon-adjacent population and demonstrates that interior fish-dependent communities have MeHg exposures approaching or exceeding WHO guidance values during pregnancy.
 
 ## Key numbers
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

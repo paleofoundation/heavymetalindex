@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Seelen et al. 2023 — DOM thiol concentrations determine methylmercury bioavailability across aquatic continuum
 
+## Overview
+
 This study measured dissolved organic matter (DOM) thiol concentrations alongside methylmercury (MeHg) and total mercury (tHg) in 20 aquatic sites spanning a terrestrial-to-marine continuum in the northeastern United States, and demonstrated that DOM thiol concentrations are the primary determinant of MeHg bioavailability to biota. Sites ranged from freshwater streams to coastal marine waters. The authors showed that thiols in DOM compete with biotic uptake sites for MeHg binding, and that sites with high thiol:MeHg ratios show markedly lower bioaccumulation of MeHg into food webs. This mechanism helps explain why MeHg bioaccumulation varies substantially across aquatic ecosystems even when total Hg concentrations are similar.
 
 ## Key numbers
@@ -56,6 +58,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ea6d55857](https://github.com/paleofoundation/heavymetalindex/commit/ea6d55857) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Dokubo et al. 2023 — Heavy metals in Nigerian seasoning powders (IJSHR)
 
+## Overview
+
 This original research article measured ten metals (As, Cr, Ni, Pb, Cd, Fe, Co, Cu, Mn, V) in four brands of commercially sold dry seasoning powder purchased in Port Harcourt, Nigeria, using Flame Atomic Absorption Spectrophotometry, and computed adult-population health-risk indices (Estimated Daily Intake, Hazard Quotient, Hazard Index, and Cancer Risk) using the USEPA model. Mean Pb (6.35 ± 1.07 mg/kg) and mean Cd (0.53 ± 0.09 mg/kg) across the four brands exceeded the FAO/WHO Maximum Permissible Limits of 5.0 mg/kg and 0.3 mg/kg respectively. One brand (SP4) carried Pb at 12.61 mg/kg, more than 2.5× the MPL. Arsenic and chromium were not detected in any sample. The summed Hazard Index exceeded 1.0 for one brand (SP2 HI = 1.04). The combined Excess Cancer Risk for Ni + Pb + Cd exceeded the 1×10⁻⁴ upper bound in all four brands.
 
 ## Key numbers
@@ -114,8 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2a255930f](https://github.com/paleofoundation/heavymetalindex/commit/2a255930f) | 2026-05-18 | minor | Narrative text revised |
-| [ee936a16d](https://github.com/paleofoundation/heavymetalindex/commit/ee936a16d) | 2026-05-18 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

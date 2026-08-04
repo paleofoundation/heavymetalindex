@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Nachman et al. 2013 - Chicken arsenic research brief
 
+## Overview
+
 This Johns Hopkins Center for a Livable Future brief summarizes the Nachman et al. Environmental Health Perspectives study of arsenic species in US chicken meat. It reports a compact occurrence signal for inorganic arsenic in chicken likely raised with roxarsone and describes the underlying market-basket sampling frame. Because the local PDF is a two-page research brief rather than the full peer-reviewed article, this page treats the source as B-tier secondary evidence and flags the full article DOI as a near-duplicate to avoid double counting if the primary paper is later fetched.
 
 ## Key numbers
@@ -74,6 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c074f53e0](https://github.com/paleofoundation/heavymetalindex/commit/c074f53e0) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

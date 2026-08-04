@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Falconer 1983 - North Sea seafood arsenic
 
+## Overview
+
 Falconer and colleagues reported total arsenic in fish and shellfish landed at Scottish fishing ports and in plaice from major North Sea spawning grounds. The paper compares arsenic levels across seafood species and areas, linking higher arsenic levels to benthic diets. Arsenic is reported as total arsenic only; no inorganic arsenic speciation is provided.
 
 ## Key numbers
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [24da51c69](https://github.com/paleofoundation/heavymetalindex/commit/24da51c69) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Mesinger and Ocieczek 2021 - Heavy metals in red deer meat in Poland
 
+## Overview
+
 Mesinger and Ocieczek measured arsenic, cadmium, lead, and mercury in meat samples from red deer does and assessed game-meat intake risk in Poland. The study is routeable for game-meat occurrence because Table 1 reports measured concentrations in meat samples. Arsenic, cadmium, and mercury were below the method detection limit in all 12 samples, and lead was below detection in 11 of 12 samples with a single sample at 0.018 mg/kg.
 
 ## Key numbers
@@ -69,8 +71,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [04321168c](https://github.com/paleofoundation/heavymetalindex/commit/04321168c) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

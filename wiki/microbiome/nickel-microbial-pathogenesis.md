@@ -10,6 +10,8 @@ updated: 2026-05-11
 
 # Nickel in microbial pathogenesis
 
+## Overview
+
 This page synthesizes the mechanistic literature on nickel's role as a pathogen virulence cofactor and the host nutritional-immunity systems that counter pathogen Ni acquisition. The primary source is [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Maier and Benoit 2019]] (Inorganics 7:80, University of Georgia Center for Metalloenzyme Studies). The page exists because nickel is one of the few HMI-tracked metals that functions as both a host toxicant (the conventional dietary-exposure framing) and a pathogen virulence cofactor (the framing developed below). Dietary or ambient Ni perturbs not just host endpoints (EFSA reproductive/developmental TDI; contact-dermatitis flare-up) but the host-pathogen relationship.
 
 ## Mechanism of action
@@ -65,13 +67,13 @@ This page is structured for federation to [WikiBiome](https://wikibiome.com) wit
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Robert J. Maier and Stéphane L. Benoit (2019). *Role of Nickel in Microbial Pathogenesis*. Inorganics 7(7):80. [https://doi.org/10.3390/inorganics7070080](https://doi.org/10.3390/inorganics7070080). Peer-reviewed, A-tier. [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Source record]]
-2. Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. (2023). *Nickel exposure induces gut microbiome disorder and serum uric acid elevation*. Environmental Pollution, Vol. 324, 121349. [https://doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349). Peer-reviewed, A-tier. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Source record]]
-3. Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk (2019). *The Human Gut Microbiome's Influence on Arsenic Toxicity*. Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504. [https://doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4). Peer-reviewed, A-tier. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|Source record]]
-4. Qinheng Zhu, Boyan Chen, Fu Zhang, Baodan Zhang, Yujie Guo, Mengtao Pang, et al. (2024). *Toxic and essential metals: metabolic interactions with the gut microbiota and health implications*. Frontiers in Nutrition 11:1448388. [https://doi.org/10.3389/fnut.2024.1448388](https://doi.org/10.3389/fnut.2024.1448388). Peer-reviewed, A-tier. [[sources/zhu2024-toxic-essential-metals-gut-microbiota-review|Source record]]
-5. Sweta Ghosh, Syam P. Nukavarapu, and Venkatakrishna Rao Jala (2024). *Effects of heavy metals on gut barrier integrity and gut microbiota*. Microbiota and Host 2(1):e230015. [https://doi.org/10.1530/MAH-23-0015](https://doi.org/10.1530/MAH-23-0015). Peer-reviewed, A-tier. [[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Source record]]
+1. [[sources/maier-benoit-2019-nickel-microbial-pathogenesis|Role of Nickel in Microbial Pathogenesis]]<span class="hmi-ref-meta">Robert J. Maier and Stéphane L. Benoit · Inorganics 7(7):80 · 2019 · [doi.org/10.3390/inorganics7070080](https://doi.org/10.3390/inorganics7070080)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|The Human Gut Microbiome's Influence on Arsenic Toxicity]]<span class="hmi-ref-meta">Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk · Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504 · 2019 · [doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/zhu2024-toxic-essential-metals-gut-microbiota-review|Toxic and essential metals: metabolic interactions with the gut microbiota and health implications]]<span class="hmi-ref-meta">Qinheng Zhu, Boyan Chen, Fu Zhang, Baodan Zhang, Yujie Guo, Mengtao Pang, et al. · Frontiers in Nutrition 11:1448388 · 2024 · [doi.org/10.3389/fnut.2024.1448388](https://doi.org/10.3389/fnut.2024.1448388)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Effects of heavy metals on gut barrier integrity and gut microbiota]]<span class="hmi-ref-meta">Sweta Ghosh, Syam P. Nukavarapu, and Venkatakrishna Rao Jala · Microbiota and Host 2(1):e230015 · 2024 · [doi.org/10.1530/MAH-23-0015](https://doi.org/10.1530/MAH-23-0015)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 ## Sources
@@ -89,6 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added; narrative text revised |
 | [ef64089bc](https://github.com/paleofoundation/heavymetalindex/commit/ef64089bc) | 2026-05-11 | major | 5 sources added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

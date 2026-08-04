@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Bakhshalizadeh et al. 2023 — REEs and trace elements in golden grey mullet, Caspian Sea
 
+## Overview
+
 This primary study determined concentrations of rare earth elements (REEs) and four trace elements (As, Cd, Hg, Pb) by ICP-MS in five tissues (muscle, intestine, kidney, liver, gill) of twenty golden grey mullet (Chelon auratus) caught from the southern Caspian Sea. Cadmium and lead concentrations in muscle tissue were reported to be of concern for human health, and terbium concentrations were anomalously high suggesting anthropogenic contamination, probably associated with oil extraction activity in the Caspian region.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e6a6159d1](https://github.com/paleofoundation/heavymetalindex/commit/e6a6159d1) | 2026-05-13 | major | 4 sections added; narrative text revised |

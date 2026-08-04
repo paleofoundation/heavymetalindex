@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # CPSC (2009) — CPSIA Section 101(b)(2) Inaccessibility Interpretative Rule (16 CFR 1500.87)
 
+## Overview
+
 A fifty-two-page Consumer Product Safety Commission ballot package dated July 23, 2009 (ballot vote due July 30, 2009; rule effective August 14, 2009) containing the Commission's draft Federal Register notice promulgating the final interpretative rule on inaccessible component parts of children's products containing lead under Section 101(b)(2) of the Consumer Product Safety Improvement Act of 2008. The package codifies the rule at a new 16 CFR 1500.87 and consists of: (i) a two-page ballot vote sheet from CPSC Office of General Counsel (Philip Chao, Hyun S. Kim) routed through General Counsel Cheryl A. Falvey and Acting Executive Director Jacqueline Elder to the Commission and Secretary Todd A. Stevenson; (ii) Attachment 1, the thirty-page draft Federal Register notice (16 CFR Part 1500) reproducing the rule preamble (Background, Statutory Authority, Notice of Proposed Rulemaking, Discussion of Comments and Responses, Effective Date, List of Subjects, Conclusion) and the full regulatory text of §1500.87(a) through (j); (iii) Attachment 2, a five-page CPSC staff memorandum "Consumer Product Safety Improvement Act of 2008 (CPSIA) — Guidance for Evaluating Accessibility of Lead-Containing Component Parts" by Robert J. Howell and Kristina M. Hatlelid summarizing the proposed accessibility-assessment framework and the staff's conclusions and recommendation to the Commission; and (iv) Attachment 3, a ten-page CPSC staff memorandum "Response to Public Comments: Inaccessibility of Lead-Containing Components of Children's Products" by Kristina M. Hatlelid (through Lori E. Saltzman to Mary Ann Danello) cataloguing the nine public comments received on the January 15, 2009 notice of proposed rulemaking (74 FR 2439) and the staff's responses, with Appendix A listing the commenters (Office of the Secretary memorandum from Todd A. Stevenson, February 24, 2009). The package contains no primary contamination measurements; it is included in the Heavy Metal Index corpus as the primary-regulatory-record source for the 16 CFR 1500.87 inaccessibility-exclusion framework that any HMTc certification of US children's products covered by CPSIA must reckon with, and as the canonical citation for the statutory-interpretation reasoning the Commission adopted in distinguishing physical accessibility from leaching or ingestion-based accessibility.
 
 ## Key numbers
@@ -106,8 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [894d69e66](https://github.com/paleofoundation/heavymetalindex/commit/894d69e66) | 2026-06-01 | minor | Narrative text revised |
-| [04cbe2350](https://github.com/paleofoundation/heavymetalindex/commit/04cbe2350) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

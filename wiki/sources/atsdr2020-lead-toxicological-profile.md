@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # ATSDR 2020 — Toxicological Profile for Lead
 
+## Overview
+
 The August 2020 ATSDR Toxicological Profile for Lead is the current US government comprehensive toxicology reference for lead. Prepared by the Agency for Toxic Substances and Disease Registry (ATSDR) under CERCLA section 104(i), with peer review by an interagency Minimal Risk Level (MRL) Workgroup including ATSDR, NCEH, NIOSH, EPA, and NTP, this profile is the public-health reference document underlying CDC blood lead reference value updates, EPA risk assessments, and US state-level lead exposure investigations. ATSDR did not derive Minimal Risk Levels for lead in this profile because the developmental-neurotoxicity literature establishes effects at blood lead concentrations below the limit of confident measurement; no demonstrated threshold for the most sensitive endpoint exists. This is a settled position across major regulatory bodies.
 
 ## Key numbers
@@ -60,7 +62,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

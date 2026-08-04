@@ -33,6 +33,8 @@ updated: 2026-06-08
 
 # Aljedani 2017 — Heavy metals and elements in honeybees and honey from Saudi Arabia
 
+## Overview
+
 Honeybee (Apis mellifera jemenatica) bodies and honey samples were collected from four agricultural regions of Saudi Arabia (Jazan, Asir, Al-Baha, Makkah) in March 2017 and analyzed for eight heavy metals (Cd, Cr, Cu, Fe, Mn, Ni, Pb, Zn) and four mineral elements (Ca, K, Mg, Na) by ICP-OES after dry-ashing. In honeybee tissue, Cd, Cr, Ni, and Pb were not detected (mean ± SD = 0.000 ± 0.000 mg/g) in any region; Fe was the dominant heavy metal (2.088–8.794 mg/g across regions). In honey, Cd, Mn, and Pb were not detected; Cr and Ni were quantified only in Al-Baha honey (Cr 0.1599 mg/L, Ni 0.037 mg/L); Fe was again the most concentrated heavy metal (0.907–1.904 mg/L). The author concludes that all measured values fell within international permissible limits for honey and bee products in Saudi Arabia, providing a low-contamination baseline for honey from agricultural regions distant from heavy industry.
 
 ## Key numbers
@@ -121,9 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [7bf1c3ea4](https://github.com/paleofoundation/heavymetalindex/commit/7bf1c3ea4) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [2e065f5d5](https://github.com/paleofoundation/heavymetalindex/commit/2e065f5d5) | 2026-05-20 | major | 1 section added; narrative text revised |
-| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kongta et al. 2023 — Aluminum in noodle products from Thailand
 
+## Overview
+
 Kongta and colleagues measured aluminum in four commonly consumed noodle-product groups sold in Thailand and assessed exposure from noodle consumption. The study collected 80 samples across rice stick noodles, egg noodles, wide rice noodles, and Thai rice noodles from Bangkok and four regional provinces. The paper reports aluminum only; it does not measure lead, cadmium, arsenic, mercury, or chromium.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [92567258d](https://github.com/paleofoundation/heavymetalindex/commit/92567258d) | 2026-06-08 | major | 5 sections added; narrative text revised |

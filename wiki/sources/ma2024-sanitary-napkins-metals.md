@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ma et al. 2024 — Heavy metals in sanitary napkins from seven countries
 
+## Overview
+
 Ma et al. measured eight metals in 56 sanitary-napkin samples collected from China, Japan, South Korea, the United States, the United Kingdom, Australia, and Germany. The study reports country-level median concentrations and ranges in `μg/kg` for As, Co, Cu, Pb, Cd, Zn, Ni, and Cr. Arsenic and chromium were not speciated, so this page records arsenic as total arsenic and chromium as total chromium.
 
 ## Key numbers
@@ -85,6 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [607df174a](https://github.com/paleofoundation/heavymetalindex/commit/607df174a) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

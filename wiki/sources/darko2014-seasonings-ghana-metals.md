@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Darko et al. 2014 — Heavy metals in Ghanaian seasonings
 
+## Overview
+
 Darko and colleagues measured Fe, Zn, Cu, Cd, Pb, and Hg in 22 mixed and unmixed powdered seasonings purchased from markets in Kumasi, Ghana. Flame atomic absorption spectrometry was used for Fe, Zn, Cu, Cd, and Pb, while mercury was measured by cold-vapour atomic absorption spectrometry. The occurrence finding for HMI target analytes is that Pb was detected across the seasoning set, Cd was detected in a smaller subset, and Hg was below the detection limit in every seasoning. The authors report grouped ranges for mixed and unmixed seasonings and interpret Pb and Cd as the main toxic-metal concern in this sample set.
 
 ## Key numbers
@@ -76,8 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [57961bd5d](https://github.com/paleofoundation/heavymetalindex/commit/57961bd5d) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [57bbe1017](https://github.com/paleofoundation/heavymetalindex/commit/57bbe1017) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Yamanaka 2025 - Tin migration from unlacquered tinplate pineapple cans
 
+## Overview
+
 Yamanaka studied corrosion of unlacquered tinplate cans used for fruit by storing commercially available pineapple cans at 43 C and measuring tin and iron in the combined pineapple solid-plus-syrup fraction. The paper is not a general pineapple field-contamination study; it is migration evidence for tinplate food-contact packaging under accelerated storage. Tin in pineapple syrup rose from about 30 ppm at the beginning of the pack test to 310 ppm by 6 months, while uncanned pineapple was below 0.1 ppm Sn.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

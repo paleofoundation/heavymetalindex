@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Kheirati Rounizi et al. 2021 - Heavy metals in sesame oils by extraction method
 
+## Overview
+
 Kheirati Rounizi and colleagues compared sesame seed, traditional Ardeh oil, cold-pressed virgin sesame oil, and refined sesame oil for fatty-acid composition, oil-quality metrics, heavy metals, and non-cancer risk estimates. This is routeable sesame-oil occurrence evidence because Table 5 reports As, Pb, Cd, Zn, and Cu concentrations in three edible sesame-oil preparations on an mg/kg basis.
 
 ## Key numbers
@@ -89,8 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [012e2a5c2](https://github.com/paleofoundation/heavymetalindex/commit/012e2a5c2) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

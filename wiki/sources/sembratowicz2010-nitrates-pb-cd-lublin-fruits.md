@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Sembratowicz et al. 2010 — Lead and cadmium in domestic fruits from Lublin allotments, Poland
 
+## Overview
+
 Sembratowicz and colleagues measured lead, cadmium, and nitrates (III)/(V) in five domestic fruit species (apple, plum, strawberry, raspberry, white grape) drawn from allotment gardens in central Lublin and from rural allotments 15–20 km outside the city. Lead was determined by non-flame AAS on a Varian Spectra AA 880Z with deuterium background correction following dry mineralisation at 450 °C per PN-EN 14082; cadmium by the same method on the same digests. The mean lead concentration exceeded the EU 1881/2006 maximum permissible level (0.10 mg/kg f.m. for non-berry fruits; 0.20 mg/kg f.m. for berries and small fruits) in the majority of analysed lots, while cadmium exceeded its limit (0.050 mg/kg f.m.) only in white grape, where every grape lot was above the limit regardless of harvest site. A significant site effect (p ≤ 0.05) was found for raspberry lead (higher in city-centre gardens) and strawberry cadmium (higher in city-centre gardens); no consistent site effect was observed for the other species.
 
 ## Key numbers
@@ -146,9 +148,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [03615e2d5](https://github.com/paleofoundation/heavymetalindex/commit/03615e2d5) | 2026-05-19 | minor | Narrative text revised |
-| [26ba9957e](https://github.com/paleofoundation/heavymetalindex/commit/26ba9957e) | 2026-05-19 | major | 4 sections added and 3 removed; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Ali 2024 — Microbial and heavy metal contamination in leeks, Thi-Qar, Iraq
 
+## Overview
+
 Ali measured microbial contamination (Escherichia coli, Klebsiella) and three heavy metals (Ni, Cu, Pb) in 100 leek samples and in soil at three agricultural stations in Thi-Qar governorate, southern Iraq, across winter and summer seasons. The study reports soil and leek-tissue concentrations separately, documents a seasonal pattern (higher concentrations in summer) and a spatial gradient (markets and district samples higher than city-center samples and farm samples), and links the elevated Station 2 metals to proximity to a thermal electric station, traffic emissions, and small industrial activity. This is a conference proceedings paper (Seminar Nasional & Call Paper, SENASAINS 7th, Universitas Muhammadiyah Sidoarjo, *Procedia of Engineering and Life Science* Vol. 7, 2024); B-tier.
 
 ## Key numbers
@@ -90,9 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [61258ae4f](https://github.com/paleofoundation/heavymetalindex/commit/61258ae4f) | 2026-05-18 | minor | Narrative text revised |
-| [5e65083ca](https://github.com/paleofoundation/heavymetalindex/commit/5e65083ca) | 2026-05-18 | major | 2 sections added and 3 removed; narrative text revised |
-| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

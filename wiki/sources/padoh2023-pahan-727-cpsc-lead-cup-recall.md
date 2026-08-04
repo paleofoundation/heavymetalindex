@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Pennsylvania DOH PAHAN # 727 (2023) — CPSC lead recall of PandaEar, LAOION, and Green Sprouts stainless-steel children's cups and bottles
 
+## Overview
+
 This is a four-page Pennsylvania Department of Health Health Alert Network (PAHAN) Advisory issued 29 November 2023 over the signature of Acting Secretary of Health Debra L. Bogen, MD, FAAP. The advisory transmits three contemporaneous US Consumer Product Safety Commission (CPSC) consumer-product recall actions involving children's stainless-steel drinkware whose bottom-exterior solder bead exceeded the federal lead content ban (the CPSIA Section 101 children's-product substrate limit of 100 ppm Pb, codified at 15 USC 1278a). The advisory reports no analytical Pb concentrations, no laboratory methods, and no sample sizes beyond the approximate unit counts each recall affected; its scientific contribution to the HMI corpus is as a public-record documentation of a US federal regulatory enforcement event identifying solder-bead Pb in children's stainless-steel cups and bottles as a recurrent supply-chain hazard in 2020–2023.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
 | [28ce054ec](https://github.com/paleofoundation/heavymetalindex/commit/28ce054ec) | 2026-05-31 | major | 5 sections added; narrative text revised |

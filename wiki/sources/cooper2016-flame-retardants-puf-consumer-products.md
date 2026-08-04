@@ -30,6 +30,8 @@ updated: 2026-06-09
 
 # Cooper et al. 2016 — Flame retardant screening of 1141 polyurethane-foam consumer products
 
+## Overview
+
 This 8-page Environmental Science & Technology paper reports the results of a free public PUF-testing screening service operated by the Stapleton lab at Duke University between February 2014 and June 2016. The service received 1141 foam sub-samples from 567 U.S. households across 44 states and screened each for seven additive flame retardants (PentaBDE, Firemaster 550 / FM550, Firemaster 600 / FM600, TCIPP, TDCIPP, the isobutylated triaryl-phosphate mixture the authors call "TBPP," and V6) by GC/MS in scan mode plus UPLC/MS/MS for V6. Across all samples, 52% (598/1141) contained a flame retardant at greater than 1% by weight; TDCIPP was the most frequently detected single FR (24% of all samples), followed by FM550 (10%), TCIPP (9%), and PentaBDE (6%). Within child car seats (n=98), FR detection frequency fell from 91% in seats purchased 2009–2013 to 50% in seats purchased 2014–2016 (p<0.0001), with TDCIPP detection in car-seat foam dropping from 77% to 48% and TCIPP detection rising from 29% to 52%, consistent with a TCIPP-for-TDCIPP substitution following TDCIPP's 2011 addition to California's Proposition 65 list. The paper measures no heavy metals and contributes no occurrence data to the HMI Pb/tAs/Cd/MeHg/tHg/iAs/Ni/Al/Cr-VI/Sn certification panel; it is ingested as an out-of-core-scope durable-infant-product contamination reference (per the precedent set by `[[sources/stapleton2010-flame-retardants-baby-product-foam]]` from the same lab, of which this paper is the larger 2014–2016 follow-on screening), routed to `[[products/car-seats]]` for discoverability as a child-car-seat additive-chemical exposure-pathway reference covering the post-TB-117-2013 regulatory transition window.
 
 ## Key numbers
@@ -166,7 +168,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [a46bb8b96](https://github.com/paleofoundation/heavymetalindex/commit/a46bb8b96) | 2026-06-09 | minor | Narrative text revised |
-| [1cab269ef](https://github.com/paleofoundation/heavymetalindex/commit/1cab269ef) | 2026-06-09 | major | 1 source added; 18 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

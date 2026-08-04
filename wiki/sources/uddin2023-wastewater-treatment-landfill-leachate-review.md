@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Uddin et al. 2023 — Wastewater treatment technologies for municipal landfill leachate (Springer book-chapter review)
 
+## Overview
+
 Thirty-two-page narrative review of treatment technologies for municipal landfill leachate (LL), organised into physicochemical processes (coagulation-flocculation, ammonium stripping, chemical precipitation, membrane filtration, activated carbon adsorption), biological processes (aerated lagoons, activated sludge, sequencing batch reactor, rotating biological contactor, trickling filter, moving-bed biofilm reactor, fluidised-bed biofilm reactor, membrane bioreactor, constructed wetlands, myco-remediation, phytoremediation, anaerobic filter, UASB, ANAMMOX), and combined treatment trains. The chapter catalogues COD, BOD, NH3-N, and (in passing) heavy-metal removal efficiencies restated from ~110 primary references; it is descriptive in form, with no primary sampling, no inclusion criteria, no quality assessment, and no quantitative meta-synthesis. Heavy metals are mentioned only in narrow vignettes — granular activated carbon (GAC) removal of Cd/Cr/Mn/Pb/Zn at pH 6–7.7 (Wasay et al. 1999), Cr3+/Cu2+ removal by NTR-7250 nanofiltration membrane (Urase et al. 1997), Ni(II)/Cd(II) removal by kaolinite ion exchange (Majone et al. 1998), and lime precipitation of Cu/Ni/Mn/Pb/Fe (Cecen and Gursoy 2000). The chapter's primary focus is COD and ammoniacal-nitrogen removal, not heavy-metal occurrence in food or supply chains. Relevance to the Heavy Metal Index is leads-only: the chapter provides upstream context for landfill-leachate contamination pathways (relevant to e-waste, soil-contamination, and groundwater pathways feeding into food supply chains in regions with active municipal solid waste disposal) but no primary occurrence data on any food matrix, ingredient, product, or regulation. Evidence tier C.
 
 ## Key numbers
@@ -109,6 +111,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [cd2665c84](https://github.com/paleofoundation/heavymetalindex/commit/cd2665c84) | 2026-06-01 | major | 1 source added; 9 sections added; narrative text revised |

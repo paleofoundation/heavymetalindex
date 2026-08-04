@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Ye et al. 2026 — Tin in foods and dietary exposure, Zhejiang Province, China
 
+## Overview
+
 This comprehensive provincial survey measured total tin (Sn) concentrations in 2014 food samples across five major categories (fresh vegetables, tea, fresh aquatic products, fresh fruits, and canned foods) in Zhejiang Province, China, and assessed dietary exposure risk across five age groups using matched consumption data from a 2015–2017 nutrition survey. Canned foods, particularly acidic canned fruits (mean 12.67 mg/kg dw, max 134 mg/kg dw), contained the highest Sn concentrations by far; fresh vegetables, fresh fruits, and most aquatic products had uniformly low concentrations. All total hazard quotients (THQ) for inorganic Sn remained below 1 across all scenarios; the highest THQ (0.2176) was for adults aged 18–59 years under the P95-consumption × P95-concentration scenario, dominated by canned fruits. A separate organotin analysis using a conservative reverse dietary risk approach found that only 0.16% of total Sn in canned foods or 0.37% in fresh aquatic products would need to be organotin species to reach the organotin TDI, highlighting that even though total Sn is safe, organotin speciation in these high-risk categories warrants ongoing monitoring, particularly for children aged 6 years and under.
 
 ## Key numbers
@@ -208,9 +210,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c2312928c](https://github.com/paleofoundation/heavymetalindex/commit/c2312928c) | 2026-05-20 | minor | Narrative text revised |
-| [a6c57b8e9](https://github.com/paleofoundation/heavymetalindex/commit/a6c57b8e9) | 2026-05-20 | major | 1 section added and 1 removed; narrative text revised |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

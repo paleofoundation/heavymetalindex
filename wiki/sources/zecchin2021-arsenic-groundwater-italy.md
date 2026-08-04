@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Zecchin et al. 2021 — Arsenic-contaminated groundwaters in Po Plain, Northern Italy
 
+## Overview
+
 Arsenic contamination of drinking water wells in Northern Italy's Po Plain frequently exceeds the WHO guideline and EU drinking water directive limit of 10 µg/L, posing a health risk to local populations who rely on groundwater for potable supply. This study characterizes the microbial communities in six arsenic-contaminated wells and investigates the phylogenetic and functional potential of arsenic-transforming bacteria, particularly arsenic oxidizers, to understand the geomicrobiological drivers of arsenic mobilization in Alpine Pleistocene sediments.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [776a085c8](https://github.com/paleofoundation/heavymetalindex/commit/776a085c8) | 2026-05-13 | major | 4 sections added; narrative text revised |

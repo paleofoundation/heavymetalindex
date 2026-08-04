@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Bai et al. 2022 — Arsenic contamination from coal burning in Shaanxi, China, with food and biomarker data
 
+## Overview
+
 This cross-sectional study investigates arsenic (As) exposure in a coal-burning area of Shaanxi Province, China, where endemic arseniasis (arsenicosis) has been documented from indoor coal combustion used for drying food. The study reports As concentrations in food (corn and peppers), coal, soil, water, and human biomarkers (urine, blood, hair) from 100 arseniasis patients and 50 healthy controls. Coal and food arsenic levels grossly exceeded Chinese national standards, establishing a direct food-matrix contamination pathway from coal combustion.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [364792f87](https://github.com/paleofoundation/heavymetalindex/commit/364792f87) | 2026-05-13 | major | 4 sections added; narrative text revised |

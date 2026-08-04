@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Muehe et al. 2019 — Rice grain arsenic doubles under projected climate warming
 
+## Overview
+
 Using outdoor mesocosm experiments at the University of California Davis with California-grown short-grain rice (*Oryza sativa* cv. M206), Muehe et al. demonstrate that projected end-of-century warming (approximately +5°C above ambient) combined with elevated CO₂ doubles the concentration of inorganic arsenic (iAs) in rice grain relative to current ambient conditions. The mechanism is twofold: warming accelerates microbial reduction of iron-oxyhydroxides in flooded paddy soils, releasing sorbed arsenate into porewater, while elevated CO₂ increases root exudation of organic acids that further mobilize arsenic; both effects increase iAs uptake via aquaporin channels. The study is notable because it characterises a climate-driven geographic variance mechanism that operates within a single production region — California — rather than between regions, providing a forward-looking risk basis for rice supply chains that currently source from California as a lower-arsenic alternative.
 
 ## Key numbers
@@ -56,6 +58,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |

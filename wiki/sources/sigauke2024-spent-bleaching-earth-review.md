@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Sigauke et al. 2024 - Spent bleaching earth synthesis, properties, characterisation, and application
 
+## Overview
+
 Sigauke and colleagues review the literature on spent bleaching earth (SBE), the solid waste generated when bentonite-derived bleaching earth is used to decolourise and decontaminate crude edible vegetable oils. The review covers bentonite acid activation methods, the bleaching unit operation, SBE characterisation by XRD/FTIR/TGA, residual oil composition, and downstream applications (biodiesel, biogas, briquettes, bio-organic fertiliser, lubricating grease, foamed concrete, non-fired wall tiles). Heavy-metal-relevant content is limited: the authors state that bentonite-based bleaching earth removes heavy metals and phosphorus from crude oil during the bleaching unit operation, and compiled tables report trace-element composition of SBE (Cu, Zn, Mn, Fe) and of residual oil retained in SBE (Cu, Fe) drawn from prior primary studies.
 
 ## Key numbers
@@ -129,8 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [3d4b6480d](https://github.com/paleofoundation/heavymetalindex/commit/3d4b6480d) | 2026-06-02 | minor | Narrative text revised |
-| [17f97d0e5](https://github.com/paleofoundation/heavymetalindex/commit/17f97d0e5) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

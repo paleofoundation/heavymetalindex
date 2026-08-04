@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Pollard 2016 — Heavy metal tolerance and accumulation in plants of the southeastern USA
 
+## Overview
+
 This invited narrative review for the *Castanea* themed treatment of southeastern serpentine ecology synthesizes the published and previously unpublished evidence on heavy-metal-tolerant and hyperaccumulating plants in the southeastern United States, framed around the two best-studied serpentine outcrops (Soldiers Delight, MD; Buck Creek, NC) and the cobalt and manganese hyperaccumulators *Nyssa* spp. and *Phytolacca americana*. Previously unpublished foliar nickel data from five woody species at Buck Creek (mean across all sample points 15.3 µg g⁻¹ dry leaf, N=146) confirm that woody plants on this serpentine barren take up Ni at the upper end of the typical serpentine range (5–100 µg g⁻¹) but far below the 1,000 µg g⁻¹ hyperaccumulation threshold. The review reports no food, beverage, ingredient, or supply-chain measurements and is plant-ecology evidence rather than direct food-system evidence; relevance to the wiki is as upstream context for soil-to-plant uptake of Ni, Mn, and Co in temperate-USA conditions, and for the geochemical baseline of ultramafic soils.
 
 ## Key numbers
@@ -117,8 +119,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [08e20c544](https://github.com/paleofoundation/heavymetalindex/commit/08e20c544) | 2026-05-18 | minor | Narrative text revised |
-| [a6c2ce9b5](https://github.com/paleofoundation/heavymetalindex/commit/a6c2ce9b5) | 2026-05-18 | major | 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

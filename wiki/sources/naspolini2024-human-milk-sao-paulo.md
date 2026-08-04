@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Naspolini et al. 2024 — Heavy metals in human milk, São Paulo cohort
 
+## Overview
+
 Naspolini et al. measured As, Pb, Hg, and Cd in 185 human milk samples from the Germina prospective cohort in São Paulo, Brazil, collected at 3 months postpartum, and assessed associations with infant neurodevelopment via the Bayley-III scales at 3, 5–9, and 10–16 months of age. Arsenic had the highest detection rate (38.6%, mean 2.76 µg/L), followed by Hg (23.9%, mean 1.96 µg/L) and Pb (22.8%, mean 2.09 µg/L); Cd was not detected above LOQ in any sample. Infants exposed to Pb in human milk showed significantly lower language development trajectories at 10–16 months compared to non-exposed infants (β = −0.413; 95% CI −0.653 to −0.173), even though mean Pb concentrations in this cohort were lower than in most prior Brazilian and international studies.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7067f946a](https://github.com/paleofoundation/heavymetalindex/commit/7067f946a) | 2026-05-13 | major | 4 sections added; narrative text revised |

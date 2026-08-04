@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Knoll and Cappai 2024 — Honey bee foraging and cadmium exposure: review
 
+## Overview
+
 This comprehensive review synthesizes the literature on the pathway by which environmental cadmium enters honey bee (Apis mellifera) colonies through foraging activity and can appear in honey and other bee products consumed by humans. The paper traces the chain from soil Cd pollution sources through plant uptake into pollen and nectar, to bee foraging behavior, Cd accumulation in bee tissues, and potential carryover into honey. Bees are presented both as sensitive environmental Cd bioindicators and as a possible route by which Cd reaches the human food chain through honey consumption.
 
 ## Key numbers
@@ -67,8 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b2f988b70](https://github.com/paleofoundation/heavymetalindex/commit/b2f988b70) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [c932ae397](https://github.com/paleofoundation/heavymetalindex/commit/c932ae397) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

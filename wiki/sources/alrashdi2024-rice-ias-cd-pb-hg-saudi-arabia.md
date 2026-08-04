@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Alrashdi et al. 2024 — Toxic elements in local and imported rice consumed in Saudi Arabia
 
+## Overview
+
 This study measured total arsenic (tAs), inorganic arsenic (iAs), cadmium (Cd), lead (Pb), and mercury (Hg) in 33 rice samples purchased from Saudi Arabian markets, comparing locally grown Hassawi rice (n=9) against imported rice from India, USA, Australia, Pakistan, and Thailand (n=24), using HPLC-ICP-MS for arsenic speciation and ICP-MS for other metals. Among the five analytes, iAs was the primary concern, with imported rice showing significantly higher iAs than local Hassawi rice; Cd, Pb, and Hg levels in both rice types were well below WHO guidance values. Estimated lifetime carcinogenic risks from iAs in imported rice consumed in Najran city (high-consumption population) were within or slightly above the 1×10⁻⁴ threshold, suggesting that risk mitigation may be warranted for heavy consumers.
 
 ## Key numbers
@@ -89,6 +91,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [519f81ee2](https://github.com/paleofoundation/heavymetalindex/commit/519f81ee2) | 2026-05-13 | major | 4 sections added; narrative text revised |

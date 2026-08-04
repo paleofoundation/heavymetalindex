@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Mancuso et al. 2024 — Food contamination and cardiovascular disease: narrative review
 
+## Overview
+
 This narrative review synthesizes evidence linking food-borne contaminants to cardiovascular disease (CVD), covering heavy metals (arsenic, lead, mercury, cadmium, chromium, and tungsten) alongside ultra-processed foods, artificial sweeteners, nitrates, dioxins and PCBs, and acrolein. The review contextualizes each contaminant within dietary exposure pathways, discusses proposed mechanisms of cardiovascular toxicity, and draws on both experimental and epidemiological literature. No primary concentration data are reported; the paper functions as a synthesis of existing literature rather than a new measurement study.
 
 ## Key numbers
@@ -77,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6f19e380b](https://github.com/paleofoundation/heavymetalindex/commit/6f19e380b) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [c932ae397](https://github.com/paleofoundation/heavymetalindex/commit/c932ae397) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

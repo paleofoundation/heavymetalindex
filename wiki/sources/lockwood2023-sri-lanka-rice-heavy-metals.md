@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Lockwood et al. 2023 — Heavy metals in traditional Sri Lankan rice varieties
 
+## Overview
+
 This study measures toxic and essential element concentrations in 11 traditional Sri Lankan rice varieties from Anuradhapura district using laser ablation ICP-MS (LA-ICP-MS), which provides spatially resolved elemental analysis across the grain cross-section (bran, sub-bran, endosperm). The study is set in the context of CKDu (chronic kidney disease of unknown aetiology) in Sri Lankan agricultural communities, which has been hypothesized to involve cadmium exposure via rice consumption. Multiple traditional rice varieties with different processing states (brown, white) are assessed, including the Suwadel variety known for special cultural significance and elevated Cd accumulation.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

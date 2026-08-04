@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Erol and Ürkek 2025 — Heavy metals in traditional Turkish cheeses (Aho, Golot, Telli)
 
+## Overview
+
 This study measures 18 elements — including the heavy metals Pb, Hg, As, Cd, Ni, Co, Cr, and Al — in 30 samples of three artisanal cheeses from Turkey's Black Sea region (Trabzon Province): Aho (a pressed cow's-milk cheese), Golot (a semi-hard cheese from cow or mixed milk), and Telli (a string-type cheese). Analysis was by ICP-MS (Agilent 7700). The key safety finding is that two outlier samples (6.7% of the 30-sample set) exceeded the hazard index (HI) threshold of 1, driven by a single Golot cheese sample with a Pb concentration of 1788.75 µg/kg and a single Telli cheese sample with a Hg concentration of 468.71 µg/kg. The remaining 28 samples showed HI <1, and mean concentrations for most heavy metals were low relative to European regulatory benchmarks for dairy. The paper demonstrates that artisanal production without standardized sanitation controls can produce occasional extreme outlier values for both Pb and Hg, even in a matrix (cheese) where such values are uncommon.
 
 All concentrations are reported per kilogram (µg/kg, wet weight basis implied; the authors do not state dry vs wet weight explicitly, but cheese metal studies conventionally report on a wet-weight (as-sold) basis unless otherwise specified; this is flagged as a limitation in interpretability).
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bb32b038b](https://github.com/paleofoundation/heavymetalindex/commit/bb32b038b) | 2026-05-12 | major | 4 sections added; narrative text revised |

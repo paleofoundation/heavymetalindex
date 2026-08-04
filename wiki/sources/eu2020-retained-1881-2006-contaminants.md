@@ -27,6 +27,8 @@ updated: 2026-08-03
 
 # EU 2020 - Consolidated EC 1881/2006 contaminants text
 
+## Overview
+
 This PDF is the 28 September 2020 consolidated text of Commission Regulation (EC) No 1881/2006. The file name in `raw/regulatory` labels it as UK retained material, but the PDF itself states that it is a EUR-Lex consolidated text for documentation with no legal effect. It is therefore ingested as a superseded EU regulatory source and a UK-retained-law lead, not as a current UK legal determination.
 
 ## Key numbers
@@ -75,3 +77,13 @@ Microbiome: No direct microbiome endpoint.
 - Ingested from `raw/regulatory` on 2026-08-03.
 - The PDF label and source title were kept distinct: the local path says UK retained, but the text itself is a EUR-Lex consolidated documentation text.
 - Numeric rows were checked twice against the extracted PDF text.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6abef4583](https://github.com/paleofoundation/heavymetalindex/commit/6abef4583) | 2026-08-03 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

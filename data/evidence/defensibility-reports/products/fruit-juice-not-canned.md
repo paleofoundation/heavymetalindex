@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 19bc33676880631877ff8ff6861923dadb715843a20b7b4c5be0551d178b9ae6
+source_page_sha256: 7a66172f48c4b5ee9428cb4c0db585036c4411c24045f70eecb25088f482a52a
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 53
 distinct_cited_sources: 46
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 117
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 46 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 117 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 

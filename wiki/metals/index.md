@@ -5,46 +5,48 @@ audience: [regulator, educator, researcher]
 updated: 2026-05-08
 ---
 
+## Overview
+
 Core toxic-metal pages describe toxicology, typical exposure routes through food, food sources linked to [ingredients](/ingredients), regulatory limits linked to [regulations](/regulations), analytical methods linked to [testing](/testing), and microbiome effects where documented. Arsenic, mercury, chromium, and tin are maintained under separate species pages because the toxicological and regulatory implications of the species differ sharply: inorganic versus total arsenic, methylmercury versus total mercury, hexavalent versus total chromium, and organotin versus inorganic tin each have between two and three orders of magnitude separation in derived oral guidance values, and total-element measurement without speciation cannot be honestly mapped to toxicity-derived guidance. Nutrient elements such as [[metals/manganese]] and [[metals/zinc]] are included as graph stubs when they appear in infant-formula risk-assessment sources, but they are not HMTc toxic-metal analytes unless separately designated.
 
 ## Metal Pages
 
-- [[metals/aluminum]] (169 sources)
-- [[metals/antimony]] (66 sources)
-- [[metals/arsenic]] (369 sources)
-- [[metals/arsenic-inorganic]] (106 sources)
-- [[metals/arsenic-total]] (356 sources)
+- [[metals/aluminum]] (526 sources)
+- [[metals/antimony]] (68 sources)
+- [[metals/arsenic]] (893 sources)
+- [[metals/arsenic-inorganic]] (109 sources)
+- [[metals/arsenic-total]] (371 sources)
 - [[metals/barium]] (46 sources)
 - [[metals/beryllium]] (11 sources)
-- [[metals/cadmium]] (1021 sources)
+- [[metals/cadmium]] (1593 sources)
 - [[metals/cesium]] (5 sources)
-- [[metals/chromium]] (460 sources)
+- [[metals/chromium]] (876 sources)
 - [[metals/chromium-hexavalent]] (70 sources)
 - [[metals/cobalt]] (133 sources)
-- [[metals/copper]] (306 sources)
+- [[metals/copper]] (316 sources)
 - [[metals/gold]] (3 sources)
-- [[metals/iron]] (168 sources)
-- [[metals/lead]] (1053 sources)
+- [[metals/iron]] (173 sources)
+- [[metals/lead]] (1465 sources)
 - [[metals/lithium]] (13 sources)
 - [[metals/magnesium]] (17 sources)
-- [[metals/manganese]] (162 sources)
-- [[metals/mercury]] (288 sources)
-- [[metals/mercury-methyl]] (56 sources)
-- [[metals/mercury-total]] (273 sources)
+- [[metals/manganese]] (166 sources)
+- [[metals/mercury]] (881 sources)
+- [[metals/mercury-methyl]] (63 sources)
+- [[metals/mercury-total]] (281 sources)
 - [[metals/molybdenum]] (29 sources)
-- [[metals/nickel]] (453 sources)
+- [[metals/nickel]] (773 sources)
 - [[metals/organotins]] (16 sources)
 - [[metals/palladium]] (4 sources)
 - [[metals/platinum]] (4 sources)
 - [[metals/silver]] (20 sources)
 - [[metals/tellurium]] (2 sources)
 - [[metals/thallium]] (15 sources)
-- [[metals/tin]] (83 sources)
-- [[metals/tin-inorganic]] (12 sources)
+- [[metals/tin]] (228 sources)
+- [[metals/tin-inorganic]] (14 sources)
 - [[metals/titanium]] (10 sources)
 - [[metals/uranium]] (25 sources)
 - [[metals/vanadium]] (34 sources)
-- [[metals/zinc]] (278 sources)
+- [[metals/zinc]] (286 sources)
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -53,9 +55,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [27c8ead68](https://github.com/paleofoundation/heavymetalindex/commit/27c8ead68) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | minor | Narrative text revised |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | minor | Narrative text revised |
+| [b1eb2d10c](https://github.com/paleofoundation/heavymetalindex/commit/b1eb2d10c) | 2026-07-04 | major | 4 sections added and 1 removed; narrative text revised |
+| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

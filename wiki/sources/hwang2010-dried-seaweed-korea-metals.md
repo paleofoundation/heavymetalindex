@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hwang 2010 - Metals in Korean dried seaweed
 
+## Overview
+
 Hwang and colleagues measured total arsenic, total mercury, lead, and cadmium in 426 dried edible seaweed samples sold in Korea during 2007-2008. The study covers laver, brown seaweed, kelp, and sea lettuce, with results reported on a dry-weight basis. Arsenic was measured as total arsenic, not inorganic arsenic.
 
 ## Key numbers
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [9b9679828](https://github.com/paleofoundation/heavymetalindex/commit/9b9679828) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [a6d2d791e](https://github.com/paleofoundation/heavymetalindex/commit/a6d2d791e) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

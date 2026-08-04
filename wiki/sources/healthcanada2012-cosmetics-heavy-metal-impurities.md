@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Health Canada 2012 - Heavy metal impurities in cosmetics
 
+## Overview
+
 Health Canada issued this guidance to communicate technically avoidable impurity limits for lead, arsenic, cadmium, mercury, and antimony in cosmetics sold in Canada. The PDF is a regulatory guidance document, not a market-sampling paper: it states policy limits and toxicological context but does not print the underlying Health Canada laboratory dataset. This page records the source-stated limits as Canadian regulatory context, with total arsenic and total mercury kept distinct from inorganic arsenic and methylmercury occurrence.
 
 ## Key numbers
@@ -84,6 +86,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [11e3a0523](https://github.com/paleofoundation/heavymetalindex/commit/11e3a0523) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

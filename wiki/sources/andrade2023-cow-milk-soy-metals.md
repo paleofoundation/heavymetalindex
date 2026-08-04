@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Andrade et al. 2023 - Metals in Portuguese cow milk and soy beverages
 
+## Overview
+
 Andrade and colleagues measured lead, cadmium, and manganese in 28 retail beverages purchased on the Portuguese market in Lisbon between February and May 2019, split evenly between 14 cow-milk (CM) brands and 14 soy-beverage (SB) brands. The basis is liquid as-purchased, measured in micrograms per liter; the authors do not convert to per-kilogram or apply a reconstitution factor. Soy beverages carried significantly higher cadmium (mean 5.6 μg/L vs 2.15 μg/L, p < 0.05) and roughly twenty-fold higher manganese (mean 117.4 μg/L vs 5.93 μg/L, p < 0.05) than cow milk; lead was numerically higher in cow milk (19.3 vs 13.4 μg/L) but the difference was not statistically significant (p > 0.05). The cow-milk Pb mean sat just under the EU 2023/915 maximum level of 20 μg/kg, and one cow-milk brand's cadmium value exceeded the 5 μg/kg EU ceiling that applies to infant-formula products manufactured from cow's milk proteins.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [480888108](https://github.com/paleofoundation/heavymetalindex/commit/480888108) | 2026-06-08 | minor | Narrative text revised |
-| [38e80715d](https://github.com/paleofoundation/heavymetalindex/commit/38e80715d) | 2026-06-08 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

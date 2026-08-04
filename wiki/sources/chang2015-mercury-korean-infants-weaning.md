@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Chang et al. 2015 — Mercury in Korean Weaning-Age Infants
 
+## Overview
+
 This 2015 Korean cohort study measured total mercury in hair and blood of 252 healthy weaning-age infants (6–22 months) in Seoul, finding geometric mean hair Hg of 0.22 µg/g and blood Hg of 0.94 µg/L. Fish intake was a key predictor of mercury levels.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 4 sections added; narrative text revised |

@@ -15,6 +15,8 @@ updated: 2026-05-02
 
 # EU Regulation 2023/915 Cadmium Maximum Levels
 
+## Overview
+
 Commission Regulation (EU) 2023/915 sets enforceable cadmium maximum levels by matrix. These are external EU legal maximum levels, not HMTc thresholds.
 
 For product pages, route only rows that match the same product basis. For ingredient pages, these values are useful because many cadmium drivers are commodity-specific: rice and cereals, cocoa solids, leafy vegetables, root/tuber vegetables, oilseeds, fishery products, bivalve molluscs, and edible offal.
@@ -111,8 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 4 sections added |
-| [d17b351b8](https://github.com/paleofoundation/heavymetalindex/commit/d17b351b8) | 2026-04-25 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

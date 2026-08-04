@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Zhou et al. (2025) used ¹³CH₃Hg⁺ DNA stable-isotope probing (SIP) combined with shotgun metagenomics to identify microbial taxa responsible for methylmercury (MeHg) degradation in paddy and upland soils in China, then estimated how microbial demethylation activity reduces MeHg accumulation in rice grains across the country. The study found that three taxa — Pseudarthrobacter, Methylophilaceae (MM2), and Dechloromonas — are the primary degraders of MeHg in paddy soil under high background Hg contamination, and estimated that microbial degradation contributes to 0.08–0.64-fold decreases in rice grain MeHg accumulation nationally, reducing associated hazard quotients (HQ) by 0.62–13.75%.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |

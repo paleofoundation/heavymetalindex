@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Muniz et al. 2018 — Metals in tomato sauces by packaging type, Brazil
 
+## Overview
+
 Twenty commercial tomato sauce samples across four packaging types (plastic, metallic/canned, cellulosic, and glass) from Rio de Janeiro supermarkets were analysed by ICP-MS for As, Cd, Pb, Cr, Ni, Sb, and Sn. The study found that As, Cd, and Pb were all below Brazilian regulatory limits across all packaging types, and no significant difference between packaging types was found for most metals. The critical findings were that Cr exceeded Brazil's maximum permissible level (0.1 mg/kg) in all packaging types (mean values 0.27–0.39 mg/kg), and Sn was significantly higher in metallic/canned packaging (0.125–0.258 mg/kg) than in plastic, cellulosic, or glass containers, with tin migration from can linings confirmed by simulant solution testing.
 
 ## Key numbers
@@ -97,9 +99,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [65a08dec8](https://github.com/paleofoundation/heavymetalindex/commit/65a08dec8) | 2026-05-28 | minor | Narrative text revised |
-| [8af409a5c](https://github.com/paleofoundation/heavymetalindex/commit/8af409a5c) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [f3c079bf9](https://github.com/paleofoundation/heavymetalindex/commit/f3c079bf9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

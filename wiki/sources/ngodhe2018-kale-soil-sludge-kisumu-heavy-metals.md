@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Ngodhe and Odhiambo 2018 - Kale and soil near sludge irrigation in Kisumu
 
+## Overview
+
 This study measured Pb, Cu, and Zn in soil and kale grown near the KIWASCO sewage treatment plant in Obunga slum, Kisumu County, Kenya.
 
 ## Key numbers
@@ -67,8 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [1834d9dad](https://github.com/paleofoundation/heavymetalindex/commit/1834d9dad) | 2026-06-09 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [53f221f6e](https://github.com/paleofoundation/heavymetalindex/commit/53f221f6e) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Bae, Kwon & Kim 2018 — Safety-assessment framework review for disposable absorbent hygiene pads
 
+## Overview
+
 This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers, feminine hygiene pads, and adult incontinence diapers — including hazard identification, hazard characterization, exposure assessment, risk characterization, clinical evaluation, and post-market surveillance. It is a methodology synthesis with no primary measurement data of its own. Heavy-metal content is limited to a regulatory listing — the Korea MFDS restriction list for baby-diaper "Sanitary Products" names eight metal contaminants (antimony, barium, cadmium, chromium, lead, mercury, arsenic, selenium) without quantitative limits or measured values — and a single secondary citation of organotin (tin) exposure from baby diapers in Šmajgl & Obhođaš 2015 (already ingested at [[sources/smajgl2015-tin-baby-diapers-croatia]]). The paper is ingested as an out-of-core-scope methodology and regulatory-context reference; `metals: []` is correct per the precedent set by [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] (phthalate-only paper ingested for the paired diaper + urine + biomarker design). The exposure-model equations (Section 3.2.1) and the direct-contact / indirect-reflux pathway distinction (Section 3.2.2, 3.2.3) are reusable for HMI heavy-metals modeling once primary metal measurements in diaper or pad materials become available in the corpus.
 
 ## Key numbers
@@ -93,8 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [faed66da8](https://github.com/paleofoundation/heavymetalindex/commit/faed66da8) | 2026-05-18 | minor | Narrative text revised |
-| [8c2b48060](https://github.com/paleofoundation/heavymetalindex/commit/8c2b48060) | 2026-05-18 | major | 2 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

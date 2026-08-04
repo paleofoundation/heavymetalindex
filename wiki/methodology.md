@@ -6,6 +6,8 @@ updated: 2026-04-24
 status: stub
 ---
 
+## Overview
+
 This page describes how the Heavy Metal Index is built. It is the first page sophisticated readers are expected to consult, and is maintained as a living document. Substantive changes to methodology are logged; the version history in git is the authoritative record.
 
 ## Current status

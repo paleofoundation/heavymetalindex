@@ -32,6 +32,8 @@ audience: [regulator, educator, consumer, app]
 
 # Sadeghi et al. 2021 — Heavy metals in tahini from the Tehran retail market (DPASV)
 
+## Overview
+
 Sadeghi and coauthors surveyed cadmium, lead, copper, and zinc concentrations in 37 commercial tahini brands (n=74 duplicate samples) purchased from Tehran retail markets, using differential-pulse anodic-stripping voltammetry (DPASV) on a 746 VA trace analyzer with a hanging mercury drop electrode. Across all 37 brands, mean concentrations were 0.015 ± 0.01 µg/100g for lead and 0.012 ± 0.007 µg/100g for cadmium — equivalent to 0.15 ppb Pb and 0.12 ppb Cd on a per-kg basis, both well below the Codex CXS 193-1995 maximum level of 0.01 mg/kg (10 ppb) for tahini. Mean zinc was 3.79 ± 2.43 µg/100g and mean copper was 1.48 ± 0.08 µg/100g (the abstract conclusion transposes the Cd and Cu mean values; see Verification notes for the cross-check against Table 1 and Figure 1). The authors conclude that Tehran-market tahini is a high-value food meeting nutritional needs without toxic concern from lead or cadmium at the concentrations they measured, while recommending continued attention to soil-uptake risks in sesame cultivation given the crop's known sensitivity to soil contamination.
 
 ## Key numbers
@@ -128,8 +130,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [bf39b5cee](https://github.com/paleofoundation/heavymetalindex/commit/bf39b5cee) | 2026-06-02 | minor | Narrative text revised |
-| [d0ed2707c](https://github.com/paleofoundation/heavymetalindex/commit/d0ed2707c) | 2026-06-02 | major | 1 source added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

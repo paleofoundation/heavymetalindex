@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Pappalardo et al. 2017 - canned tuna metals in Italy
 
+## Overview
+
 Pappalardo et al. analyzed canned tuna products sold in Italian supermarkets for cadmium, lead, and total mercury, while also using COI DNA barcoding to verify the tuna species declared on the label. The paper is direct canned-tuna occurrence evidence. Brand-level mean concentrations were reported in mg/kg wet weight for five tuna-in-olive-oil products and five tuna-in-brine products. Mean Cd, Pb, and Hg values were below the cited EU limits, but one batch from an olive-oil product exceeded the Cd limit, and Hg exposure drove the authors' consumption-frequency concern.
 
 ## Key numbers
@@ -82,9 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [24424515a](https://github.com/paleofoundation/heavymetalindex/commit/24424515a) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

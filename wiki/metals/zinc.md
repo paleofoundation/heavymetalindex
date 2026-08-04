@@ -6,7 +6,7 @@ name: Zinc
 species: [Zn2+, total-zinc]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 278
+sources: 286
 wiki_doi: null
 updated: 2026-05-17
 n_sources: 3
@@ -15,6 +15,8 @@ scope_note: "Essential nutrient, not part of the standard toxic-metal analyte pa
 ---
 
 # Zinc
+
+## Overview
 
 Zinc is an essential nutrient and is not one of the toxic metals at the center of food-contamination concern. The Index nevertheless carries this page because zinc appears in elemental-survey sources alongside the toxic-metal analytes — many ICP-MS multi-element methods report zinc as part of the standard analyte set, and some toxicology sources covering cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context. Zinc is in scope only as cross-metal context, not as a contamination analyte in its own right.
 
@@ -26,6 +28,31 @@ Where source pages declare `metals:` arrays including Zn alongside the toxic-met
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] attaches zinc as an essential-metal-with-toxicity-potential node, covering zinc transport, essentiality, deficiency, high-dose toxicity, metal fume fever, neuronal toxicity, and pancreatic toxicity context. It is a toxicology source, not a food occurrence dataset.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### Is zinc a heavy metal contaminant I should worry about in my food?
+
+No. Zinc is an essential nutrient, not one of the toxic metals at the center of food-contamination concern. The Heavy Metal Index treats zinc only as cross-metal context, because its primary food-safety question is nutritional adequacy (whether enough is present) rather than contamination (whether too much unwanted contaminant is present).
+
+### Why does a heavy-metals index even have a zinc page if zinc isn't a contaminant?
+
+Zinc shows up alongside the toxic-metal analytes in elemental-survey data, since many ICP-MS multi-element methods report zinc as part of the standard analyte set. Some toxicology sources on cadmium and lead also discuss zinc as a competing-uptake or co-toxicity context. When a source's metals list includes zinc next to toxic metals, the routing audit attaches it to this page and the values are recorded for completeness.
+
+### Can you have too much zinc, or is more always better?
+
+Zinc's effects are dose-dependent. Adequate intake supports immune function, wound healing, and child growth, while insufficient intake produces deficiency syndromes prevalent in some populations. High-dose chronic intake, however, can cause copper deficiency, immune impairment, and gastrointestinal effects. The toxicology source [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] also covers high-dose contexts such as metal fume fever and neuronal and pancreatic toxicity.
+
+### How is zinc regulated in infant formula and baby food?
+
+For infant formula and baby food, zinc is handled through compositional requirements rather than contamination limits, meaning the concern is whether enough zinc is present rather than whether too much is. EU compositional rules for infant formula set minimum and maximum zinc levels per 100 kcal, and FDA rules are similar. The Index does not synthesize zinc compositional adequacy, since that work belongs to pediatric-nutrition references.
+
+### Does the Heavy Metal Index tell me whether my food has enough zinc?
+
+No. The Index addresses the presence of unwanted contaminants, not the sufficiency of essential nutrients, so zinc adequacy falls outside its scope. Questions about whether a food provides enough zinc belong to pediatric-nutrition and other nutrition references rather than to a heavy-metals-in-food index.
+<!-- END: hmi-metal-faq -->
+
 ## Sources
 
 - [[sources/astolfi2021-italy-powdered-infant-formula-elements]]
@@ -35,9 +62,9 @@ Where source pages declare `metals:` arrays including Zn alongside the toxic-met
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -47,9 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 8 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [4f2cde4d1](https://github.com/paleofoundation/heavymetalindex/commit/4f2cde4d1) | 2026-05-17 | major | 1 source removed; contamination-profile values revised; narrative text revised |
-| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

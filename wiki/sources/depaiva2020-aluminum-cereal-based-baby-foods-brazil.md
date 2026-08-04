@@ -26,7 +26,9 @@ updated: 2026-05-09
 
 # de Paiva et al. 2020 — Aluminum in cereal-based baby foods (Brazil)
 
-This A-tier peer-reviewed analytical study determines total aluminum and its in vitro bioaccessibility in 35 cereal-based infant cereal samples from the Brazilian market across six product compositions and three brands. Total Al varied from 0.92 mg/kg (corn-flour cereal, brand A) to 8.82 mg/kg (multicereal, brand-aggregated), with multicereals and fruit-plum cereals presenting the highest concentrations and corn-flour and rice-flour cereals the lowest. Bioaccessibility ranged 1.5–10.4% across compositions. Author scope is exact on matrix axis (six compositions explicitly labeled by ingredient mix) and exact on format axis (dry infant cereal as sold; bioaccessibility separately reported with whole-milk reconstitution per manufacturer instructions). Per the corrected row-fit rule (CLAUDE.md Part 6), de Paiva 2020 routes to both [[products/baby-cereals-dry-rice-based]] (the five rice-containing compositions: multicereals, fruit-banana-apple, fruit-plum, rice-and-oat, rice-flour) and [[products/baby-cereals-dry-non-rice]] (corn-flour-only composition).
+## Overview
+
+This A-tier peer-reviewed analytical study determines total aluminum and its in vitro bioaccessibility in 35 cereal-based infant cereal samples from the Brazilian market across six product compositions and three brands. Total Al varied from 0.92 mg/kg (corn-flour cereal, brand A) to 8.82 mg/kg (multicereal, brand-aggregated), with multicereals and fruit-plum cereals presenting the highest concentrations and corn-flour and rice-flour cereals the lowest. Bioaccessibility ranged 1.5–10.4% across compositions. Author scope is exact on matrix axis (six compositions explicitly labeled by ingredient mix) and exact on format axis (dry infant cereal as sold; bioaccessibility separately reported with whole-milk reconstitution per manufacturer instructions). Per the corrected row-fit rule, de Paiva 2020 routes to both [[products/baby-cereals-dry-rice-based]] (the five rice-containing compositions: multicereals, fruit-banana-apple, fruit-plum, rice-and-oat, rice-flour) and [[products/baby-cereals-dry-non-rice]] (corn-flour-only composition).
 
 ## Key Numbers
 
@@ -119,6 +121,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [50f001d15](https://github.com/paleofoundation/heavymetalindex/commit/50f001d15) | 2026-05-09 | major | 12 sections added; narrative text revised |

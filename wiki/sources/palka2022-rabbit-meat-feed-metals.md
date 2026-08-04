@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Palka et al. 2022 — Rabbit meat and liver metals after nettle or fenugreek feed supplementation
 
+## Overview
+
 Palka et al. measured Zn, Cu, Ni, Fe, Mn, Cd, and Pb in rabbit liver, rabbit loin meat, and the nettle-leaf or fenugreek-seed feed additives used in a controlled feeding trial. The source is direct occurrence evidence for rabbit meat and liver on a wet-weight basis, and mitigation/formulation context for herbal feed additives because the authors compared unsupplemented feed with 1% nettle or fenugreek inclusion.
 
 ## Key numbers
@@ -74,6 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c80862a01](https://github.com/paleofoundation/heavymetalindex/commit/c80862a01) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

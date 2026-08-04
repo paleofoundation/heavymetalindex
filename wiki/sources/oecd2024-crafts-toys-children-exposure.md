@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # OECD 2024 — Considerations when estimating children's exposure to crafts and toys (Series on Testing and Assessment No. 401)
 
+## Overview
+
 This OECD Working Party on Exposure Assessment (WPEA) document compiles parameters and algorithms for estimating children's chemical exposure via dermal, inhalation, and oral routes from seven craft/toy product categories: modelling clay/silly putty/slimes; paint (craft, face, finger); markers/highlighters/pens; cuddle toys/squishies; glues/adhesives/pastes; temporary tattoos; chalk/crayons/colouring pencils. Includes 12 case studies (Crayon-Oral, Markers-Dermal-Oral-Inhalation, Glue-Dermal-Oral-Inhalation, Face Paint-Dermal, Face Paint-Dermal-Oral, Finger Paint-Dermal-Oral, Slime-Dermal-Oral [×3], Putty-Dermal-Oral, Squishies-Dermal-Inhalation, Temporary Tattoos-Dermal). The document does not include analytical occurrence data on heavy metals; it is a methodology and exposure-modeling guidance.
 
 ## Key numbers
@@ -75,9 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [1e9ee5bce](https://github.com/paleofoundation/heavymetalindex/commit/1e9ee5bce) | 2026-06-01 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [172cdd014](https://github.com/paleofoundation/heavymetalindex/commit/172cdd014) | 2026-05-17 | minor | Narrative text revised |
-| [015986477](https://github.com/paleofoundation/heavymetalindex/commit/015986477) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

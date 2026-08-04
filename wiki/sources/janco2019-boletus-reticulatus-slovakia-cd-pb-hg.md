@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Janco et al. 2019 - Cd, Pb, and Hg in Boletus reticulatus from Slovakia
 
+## Overview
+
 Janco and colleagues measured Cd, Pb, and Hg in wild edible Boletus reticulatus fruiting bodies and paired soils from eight locations in Slovakia. The source is routeable because it reports cap and stem concentrations on a dry-weight basis and counts regulatory-limit exceedances. Cadmium was the dominant exceedance concern: all cap samples and 75% of stem samples exceeded the referenced Cd limit.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

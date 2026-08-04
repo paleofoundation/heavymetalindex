@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Saleem et al. 2025 — Heavy metals in 13 locally grown vegetables from a Grand Forks (North Dakota) farmer's market
 
+## Overview
+
 Saleem and colleagues analyzed 82 vegetable samples (13 locally grown species) from the Town Square Farmer's Market in Grand Forks, North Dakota, for 15 elements (Na, Mg, K, Ca, Fe, Se, Mn, Cu, Zn, Co, Cr, Ni, As, Cd, Hg, Pb). The study reports per-vegetable means and SDs, computes EDI, THQ/HI, and TCR per metal per vegetable, and contrasts leafy vs fruit vegetables. Spinach showed the highest total metal accumulation; Cd levels exceeded FAO/WHO maximum allowable concentrations in most vegetable species in the sample set.
 
 ## Key numbers
@@ -89,6 +91,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 4 sections added; narrative text revised |

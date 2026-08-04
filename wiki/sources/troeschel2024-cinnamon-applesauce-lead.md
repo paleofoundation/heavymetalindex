@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Troeschel et al. 2024 — Lead and chromium exposure from contaminated cinnamon applesauce (WanaBana recall)
 
+## Overview
+
 This CDC MMWR report documents the national investigation of lead and chromium poisoning linked to cinnamon-containing applesauce pouches marketed primarily to young children. In October 2023, routine pediatric blood lead surveillance in North Carolina identified four cases of lead poisoning linked to WanaBana brand applesauce; FDA subsequently detected lead concentrations of 1.9–3.0 ppm in product pouches, representing 200–300 times FDA's recommended action level for fruit purees intended for babies and young children. The distributor voluntarily recalled 2,998,088 pouches sold under three brand names (WanaBana, Schnucks, Weis). A national call for cases yielded 566 total cases across 44 U.S. states, the District of Columbia, and Puerto Rico, with the median maximum venous blood lead level (BLL) of 7.2 µg/dL (range 3.5–39.3 µg/dL; IQR 5.2–11.3). On January 5, 2024, FDA determined the contaminating agent in the cinnamon was lead chromate (a yellow pigment), explaining the co-occurrence of both lead and chromium.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

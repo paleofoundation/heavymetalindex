@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Melnyk et al. 2021 — Total mercury in anadromous fish, Penobscot River, Maine
 
+## Overview
+
 This US EPA/ATSDR study measured total mercury concentrations in six species of anadromous fish (and roe) returning to the Penobscot River in Maine after dam removal restored fish passage. Samples were collected during two consecutive spawning seasons (2017 and 2018). The study compared mercury levels against EPA reference doses to assess risks for Penobscot Indian Nation members who consume these fish at traditional subsistence rates. All species except sea lamprey were within current consumption advisories at 40 g/day; sea lamprey consistently exceeded HQ > 1 and a recommendation was issued to avoid consumption. Wildlife risk for mink, otter, and eagle was also assessed.
 
 ## Key numbers
@@ -80,6 +82,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [509f5e7b5](https://github.com/paleofoundation/heavymetalindex/commit/509f5e7b5) | 2026-05-13 | major | 4 sections added; narrative text revised |

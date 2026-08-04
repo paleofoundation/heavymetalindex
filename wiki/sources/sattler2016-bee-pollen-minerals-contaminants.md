@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Sattler et al. 2016 - Minerals and inorganic contaminants in dried bee pollen from Rio Grande do Sul
 
+## Overview
+
 This survey measured essential minerals and inorganic contaminants in five dehydrated bee-pollen samples from southern Brazil. The occurrence-relevant table reports Ba, Cd, Li, Pb, and V in mg/100 g, with Cd ranging from 0.0026 to 0.0244 mg/100 g and Pb ranging from 0.012 to 0.018 mg/100 g. The source is routeable for dried bee pollen and botanical supplement context; it is not a US-market benchmark source.
 
 ## Key numbers
@@ -68,6 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 6 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

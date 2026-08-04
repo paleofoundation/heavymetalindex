@@ -33,6 +33,8 @@ updated: 2026-06-03
 
 # JECFA 33rd Meeting (1988) — Tin Re-evaluation (WHO Food Additives Series 24)
 
+## Overview
+
 The 33rd meeting of the Joint FAO/WHO Expert Committee on Food Additives (Geneva, 21-30 March 1988) re-examined the human acute-toxicity literature for inorganic tin in canned foods and beverages, in response to a request from the 18th session of the Codex Committee on Food Additives (The Hague, November 1985) for clarification of the 26th JECFA report's findings on the chemical forms of tin that cause gastric disturbances. The Committee left the underlying tolerable intake unchanged and instead converted the previously established provisional maximum tolerable daily intake of 2 mg inorganic tin per kg body weight (set at JECFA's 14th meeting, 1971, and reaffirmed in 1975, 1978, and 1982) into a provisional tolerable weekly intake of 14 mg inorganic tin per kg body weight, applicable to chronic exposure. For acute effects, the monograph concludes that gastric irritation can occur at tin concentrations as low as 150 µg/g in canned beverages and 250 µg/g in other canned foods, while some canned products containing up to 700 µg/g produced no detectable effects, and recommends that tin in canned foods be kept as low as practicable consistent with good manufacturing practice.
 
 ## Key numbers
@@ -152,9 +154,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [0667533ed](https://github.com/paleofoundation/heavymetalindex/commit/0667533ed) | 2026-06-03 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

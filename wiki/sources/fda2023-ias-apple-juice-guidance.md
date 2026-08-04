@@ -32,6 +32,8 @@ updated: 2026-05-19
 
 # FDA CFSAN 2023 — Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry
 
+## Overview
+
 FDA's June 2023 final guidance establishes an action level of 10 µg/kg (10 ppb) for inorganic arsenic in single-strength apple juice intended for human consumption, including apple cider. This finalises the approach presented in the July 2013 draft guidance (docket FDA-2012-D-0322) and is an enforcement reference under 21 CFR 109.6(d): apple juice with iAs at or above this level may be regarded as adulterated under section 402(a)(1) of the FD&C Act (21 U.S.C. 342(a)(1)). The action level was set on the basis of achievability under current good manufacturing practices together with a quantitative risk assessment that considered both cancer (lung and bladder) and non-cancer (neurodevelopmental) endpoints.
 
 ## Key numbers
@@ -119,9 +121,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [026baa57f](https://github.com/paleofoundation/heavymetalindex/commit/026baa57f) | 2026-05-19 | minor | Narrative text revised |
-| [21a6c7653](https://github.com/paleofoundation/heavymetalindex/commit/21a6c7653) | 2026-05-19 | major | 1 section added and 1 removed; narrative text revised |
-| [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Saba et al. 2016 - Mercury in Suillus luteus from Poland, Belarus, and Sweden
 
+## Overview
+
 This study measured total mercury in Suillus luteus caps, stems, and underlying soil substratum from several European regions. Caps had higher mercury than stems, and soil mercury was generally low. The source is direct wild-mushroom mercury occurrence evidence on a dry-weight basis.
 
 ## Key numbers
@@ -69,6 +71,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 6 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

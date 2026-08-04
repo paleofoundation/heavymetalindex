@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Zafeiraki et al. 2021 — Heavy metals in hemp (Cannabis sativa L.) from Greece
 
+## Overview
+
 This study quantified 29 macro and trace elements by ICP-MS in 90 hemp leaf/flower samples representing 9 cultivar varieties from 13 Greek growing regions, providing a comprehensive multi-analyte occurrence dataset for a crop with expanding applications in dietary supplements, edible oils, and herbal medicines. Of the key toxic elements, Hg, Pb, Cd, and As concentrations were below WHO 2007 recommendation limits in all but one sample (one Cd exceedance at 1.4× the limit); however, Cr exceeded the WHO limit in approximately 25% of the analyzed samples, indicating a systematic regional or soil-driven Cr enrichment issue for Greek hemp.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [776a085c8](https://github.com/paleofoundation/heavymetalindex/commit/776a085c8) | 2026-05-13 | major | 4 sections added; narrative text revised |

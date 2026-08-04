@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zhao et al. 2023 - Rice-straw biochar sorption of Cu(II) and Pb(II)
 
+## Overview
+
 Zhao and colleagues compared original, bleached, and NaOH-activated rice-straw biochars as sorbents for dissolved Cu(II) and Pb(II). The source is primary remediation-method evidence for metal immobilization mechanisms, not food or ingredient occurrence evidence: the measured endpoints are sorption coefficients, model fits, biochar functional groups, and DFT binding energies rather than concentrations in edible rice, rice straw as feed, soil after application, or food products.
 
 ## Key numbers
@@ -129,8 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [97161e623](https://github.com/paleofoundation/heavymetalindex/commit/97161e623) | 2026-06-02 | minor | Narrative text revised |
-| [1f103c511](https://github.com/paleofoundation/heavymetalindex/commit/1f103c511) | 2026-06-02 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

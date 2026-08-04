@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # La Pera et al. 2010 — Heavy metals and selenium in Sicilian virgin olive oils, by cultivar and crop year
 
+## Overview
+
 La Pera and colleagues quantified Pb, Cd, Cu, Zn, and Se by derivative stripping chronopotentiometry in 49 virgin olive oils representing three Sicilian cultivars (Nocellara del Belice, Biancolilla, Cerasuola) across two crop years (2000 and 2001), then used canonical discriminant analysis to test whether metal and selenium fingerprints can classify oils by cultivar. Cadmium was below the limit of detection (<0.5 µg/kg) in every sample across both crop years; Pb means ranged from 26–50 µg/kg, well below the EC 466/2001 limit of 100 µg/kg for olive oil; Zn was the most abundant trace element measured (mean 162–335 µg/kg). The discriminant model classified 95.2% of 2000 samples and 85.7% of 2001 samples to their cultivar of origin, with Se and Cu contributing most to the discrimination — evidence that cultivar/geographic provenance fingerprinting from heavy-metal and selenium signatures is feasible for Sicilian PDO oils.
 
 ## Key numbers
@@ -119,6 +121,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [9156c4484](https://github.com/paleofoundation/heavymetalindex/commit/9156c4484) | 2026-06-01 | major | 5 sections added; narrative text revised |

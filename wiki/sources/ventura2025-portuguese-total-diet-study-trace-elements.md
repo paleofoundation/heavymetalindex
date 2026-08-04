@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Ventura et al. 2025 — Portuguese Total Diet Study: dietary exposure to trace elements
 
+## Overview
+
 This paper presents occurrence data for nine trace elements (As, Cd, Co, I, Mo, Pb, Se, Sn, and Sr) in representative foods consumed by the Portuguese population, using the first harmonised Portuguese Total Diet Study (TDS) methodology aligned with WHO and EFSA guidelines. The study analysed 163 pooled samples representing 1,956 food items purchased at retail level in 2014-2016, categorised into 17 food groups per the FOODEX2 classification. All measured levels of trace elements were below applicable legal limits, indicating no consumer health risk from the analysed foods. The dataset fills previously missing data in the Portuguese Food Composition Database and is reported to EFSA to support pan-European dietary exposure monitoring.
 
 ## Key numbers
@@ -64,6 +66,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

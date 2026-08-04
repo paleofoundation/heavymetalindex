@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Mansour 2014 — Monitoring and health risk assessment of heavy metals in food (Wiley book chapter)
 
+## Overview
+
 Chapter 13 of *Practical Food Safety: Contemporary Issues and Future Directions* (Bhat & Gómez-López, eds., Wiley-Blackwell 2014) by Sameeh A. Mansour of Egypt's National Research Centre. The chapter has two halves: §13.2 surveys the analytical-method toolbox for heavy metals in food (colorimetric, FAAS, GFAAS, ICP-AES, ICP-MS, XRF screening) with detection-limit characteristics, and §§13.3–13.5 compile contamination occurrence and dietary-health-risk-assessment results from a broad international literature (with the author's own Egyptian cucumber and potato farming-system work as the most extensively reported primary data). Quantitative anchors include Tables 13.1–13.4 plus Figures 13.1–13.5: Egyptian-market medicinal-plant concentrations of 10 metals (Abou-Arab et al. 1999), seasonal heavy-metal content in cucumber from conventional/greenhouse/organic Egyptian farms (Mansour et al. 2009a), the same for potato tubers (Mansour et al. 2009b), Egyptian Pb and Cd dietary intakes from 20 vegetables and fruits (Soliman et al. 1997), and HRI bars for Cd and Pb in 10 Indian foodstuffs from wastewater-irrigated sites (Singh et al. 2010). The framework half lays out DIM, DDI, HQ, HRI, PTWI/RfD/ADI methodology with the standard equations.
 
 ## Key numbers
@@ -241,8 +243,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [52a352a42](https://github.com/paleofoundation/heavymetalindex/commit/52a352a42) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [eb5a53dd5](https://github.com/paleofoundation/heavymetalindex/commit/eb5a53dd5) | 2026-05-18 | major | 14 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

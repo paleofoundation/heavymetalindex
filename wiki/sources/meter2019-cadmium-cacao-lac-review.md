@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Meter et al. 2019 — Cadmium in Cacao from Latin America and the Caribbean
 
+## Overview
+
 This comprehensive review, commissioned by the CAF Development Bank of Latin America and Bioversity International, synthesizes the state of knowledge on cadmium accumulation in cacao beans across Latin America and the Caribbean (LAC), covering sources of cadmium contamination in soil, soil properties affecting bioavailability, plant uptake mechanisms, genotypic variability, post-harvest processing effects, and mitigation options. The report's central finding is that LAC cacao — particularly from Ecuador, Peru, Honduras, and Trinidad — consistently exhibits higher cadmium concentrations than cacao from Africa or Asia, frequently exceeding EU regulatory thresholds that became enforceable in January 2019, posing an existential commercial threat to smallholder farmers producing fine and single-origin cacao in the region.
 
 ## Key numbers
@@ -111,6 +113,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

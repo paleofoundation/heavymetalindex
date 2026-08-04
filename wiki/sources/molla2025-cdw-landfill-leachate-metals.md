@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Molla et al. 2025 — Heavy metal leaching from construction-and-demolition waste fine residues in a landfill column experiment, Hunter/Central Coast NSW
 
+## Overview
+
 Molla and colleagues ran a 25-week column-leaching experiment on construction-and-demolition waste (C&DW) fine residues mixed with organic compost and varying gypsum content, simulating the conditions of mixed-stream landfills in the Hunter/Central Coast region of New South Wales, Australia. They measured ten metals (Pb, Hg, As, Cr, Ni, Cu, Zn, Co, Al, Fe) in the leachate over time and at the peak-release week. The findings indicate that higher C&DW and gypsum contents produce substantially higher leachate metal concentrations, with a two-phase release pattern: rapid early mobilisation through weeks 13-15, followed by stabilisation as anaerobic conditions and sulfate-reducing bacteria promote metal-sulfide precipitation. Pb, Hg, As, Cr, Ni, Cu, Zn, and Co stayed within Australian regulatory thresholds for general and restricted solid waste classification, but Al and Fe exceeded Australian and New Zealand Guidelines for Fresh and Marine Water Quality.
 
 ## Key numbers
@@ -148,9 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [503b22a6e](https://github.com/paleofoundation/heavymetalindex/commit/503b22a6e) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Kasozi et al. 2021 — Heavy metal contamination in beef from Eastern Uganda with health risk assessment
 
+## Overview
+
 This study measured concentrations of Cu, Zn, Pb, Cd, Co, Fe, Ni, and Cr in 40 raw beef samples collected from butcher points of sale in Soroti district, Eastern Uganda, and assessed health risks via target hazard quotient (THQ) and incremental lifetime cancer risk (ILCR) modeling. Analysis by atomic absorption spectrophotometry (PerkinElmer AAS 2380). Mean concentrations (ppm): Cu 1.45, Zn 44.43, Pb 5.42, Cd 0.41, Co 1.63, Fe 164.33, Ni 14.96, Cr 19.37. Of the measured non-essential metals, only Cd was below the WHO guideline limit (0.5 ppm). Lead (mean 5.42 ppm; max 10.94 ppm), Ni (mean 14.96 ppm), and Cr (mean 19.37 ppm) substantially exceeded WHO limits. THQ values above 1 for most metals indicated non-carcinogenic health risk in both adults and children. Cancer risk from Ni and Cr was notably elevated, especially for children.
 
 ## Key numbers
@@ -54,6 +56,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

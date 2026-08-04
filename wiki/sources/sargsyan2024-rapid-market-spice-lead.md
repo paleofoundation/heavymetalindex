@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Sargsyan et al. 2024 - rapid market screening for lead in spices
 
+## Overview
+
 Sargsyan and colleagues screened 5,007 consumer products from 25 low- and middle-income countries for total lead using portable X-ray fluorescence. The source includes 1,084 loose processed spice samples and is useful as broad geographic screening evidence, especially because the authors report the percentage of spice samples above their 2 ppm reference level.
 
 ## Key numbers
@@ -67,9 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [a45ddc4ca](https://github.com/paleofoundation/heavymetalindex/commit/a45ddc4ca) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
 <!-- END: hmi-page-history -->

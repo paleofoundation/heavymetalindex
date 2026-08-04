@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Tesfaye and Abebaw 2016 - Essential metals in edible oils from Ethiopia
 
+## Overview
+
 Tesfaye and Abebaw measured physico-chemical quality parameters and selected essential metals in four edible oil samples from the Ethiopian market. The metals table reports Cu, Zn, and Fe concentrations in mg/L after wet digestion and FAAS, with Na and K measured by flame photometry. This is not a toxic-metal occurrence paper for Pb, Cd, arsenic, or mercury, but it provides primary oil-matrix concentration data for copper, zinc, and iron in imported palm oil and Ethiopian nuog/niger seed oil.
 
 ## Key numbers
@@ -97,6 +99,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [c70fc46e7](https://github.com/paleofoundation/heavymetalindex/commit/c70fc46e7) | 2026-06-02 | major | 7 sections added; narrative text revised |

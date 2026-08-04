@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Dearing et al. 2025 — Heavy metals in Hawke's Bay vegetables one year after Cyclone Gabrielle, with organic vs. non-organic and flooded vs. non-flooded comparisons
 
+## Overview
+
 Dearing and colleagues sampled 736 commercially grown vegetables (combined into 153 composite representative samples) from 14 market gardens at 10 growing sites in Hawke's Bay, New Zealand, in February 2024, one year after Severe Tropical Cyclone Gabrielle caused widespread flooding in February 2023. The study compared organic vs. non-organic and flooded vs. non-flooded growing as factors. Cadmium and nickel were significantly lower in organic vegetables and in vegetables grown on flood-affected land; mercury was below LOD in all samples; three samples exceeded the Codex 0.1 mg/kg FW lead limit and one Brassica exceeded the 0.05 mg/kg FW cadmium limit.
 
 ## Key numbers
@@ -101,8 +103,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 6 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 6 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [c83d53ac1](https://github.com/paleofoundation/heavymetalindex/commit/c83d53ac1) | 2026-05-20 | major | 1 section added; narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

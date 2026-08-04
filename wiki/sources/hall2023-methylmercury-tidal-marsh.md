@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Hall et al. 2023 — MeHg production and bioaccumulation in tidal marsh food webs
 
+## Overview
+
 This study characterized mesoscale spatial variation in methylmercury (MeHg) production and bioaccumulation across four hydrological and geomorphological marsh features (interiors, edges, first-order channels, third-order channels) at three tidal marshes along the Petaluma River, San Francisco Bay, California. Marsh interiors had biogeochemical conditions — greater organic matter, greater sulfate reduction rates, greater MeHg production potential — that led to greater MeHg concentrations in sediments and surface water particulates. Consumer tissue MeHg concentrations were greater from marsh edges and interiors than from channels, a spatial mismatch from sediment patterns that the authors attribute to consumer behavior and physiology governing the spatial scale over which MeHg is integrated into tissues.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

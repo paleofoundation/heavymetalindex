@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Lech et al. 2020 — Turmeric as a lead exposure source in the US
 
+## Overview
+
 The first systematic survey of lead concentrations in ground turmeric sold at retail in the United States. Nearly all 127 products contained detectable lead, with mean concentrations of 1,410 ppb and a range spanning three orders of magnitude (10 to 7,590 ppb). The study establishes that lead-contaminated turmeric is not exclusively a South Asian supply-chain problem; it reaches US consumers through imported ground turmeric at retail.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [65a88cd11](https://github.com/paleofoundation/heavymetalindex/commit/65a88cd11) | 2026-05-13 | major | 4 sections added; narrative text revised |

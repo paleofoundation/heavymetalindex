@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Morshed et al. 2024 - Heavy metals in experimental poultry organs, Bangladesh
 
+## Overview
+
 This Research Square preprint reports a 28-day experimental feeding study in which broiler chickens were fed poultry feed intentionally adulterated with graded concentrations of lead (Pb), cadmium (Cd), and chromium (Cr). The authors measured Pb, Cd, and Cr in feed and in chicken muscle, bone, liver, kidney, and lung after slaughter. The source is useful as a mechanistic dose-response and organ-distribution study; it is not retail occurrence evidence for ambient commercial chicken because the feed metal additions were deliberate and high-dose.
 
 ## Key numbers
@@ -100,8 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ecba1e008](https://github.com/paleofoundation/heavymetalindex/commit/ecba1e008) | 2026-05-18 | major | 2 sources removed; 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 2 sources added; 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Schilsky et al. 1989 — Hepatocellular copper toxicity in HepG2 and its attenuation by zinc-induced metallothionein
 
+## Overview
+
 Schilsky and colleagues (Albert Einstein College of Medicine, Marion Bessin Liver Research Center) report a mechanistic study in the HepG2 human hepatoblastoma cell line of acute copper toxicity and zinc-mediated protection. Confluent HepG2 cells exposed to copper chloride for 48 h showed a dose-dependent loss of viability with LD50 ≈ 750 µM CuCl₂. Preincubation with 200 µM zinc acetate for 2 h raised the LD50 to 1,250 µM CuCl₂ and protected against the copper-induced generalised reduction in protein synthesis seen at 1,000 µM Cu for 1 h (>80% reduction without zinc; preserved at 80±5% of control with zinc). The zinc protection persisted for ~30 h after the 2 h preincubation. The protective effect was not explained by inhibition of cellular copper uptake (essentially unchanged across 0/200/400 µM coincubated zinc at 30 and 60 min) but correlated tightly with zinc-induced synthesis of a 10-kD cysteine-rich protein identified as metallothionein by Western blot using sheep anti-rat metallothionein antibody (cross-reactive with human MT) and by metallothionein mRNA induction on Northern blot. HPLC gel-filtration of 100,000 g supernatants showed increased ⁶⁷Cu and [³⁵S]cysteine in the metallothionein-containing 10-30 kD fractions of zinc-pretreated cells. Cellular ATP was virtually unchanged at 1,000 µM Cu for 1 h, and ultrastructural injury (loss of intercellular adhesion, ER disruption, lysosomal dense bodies, mitochondrial vacuolisation) appeared only at 3-12 h, well after the protein-synthesis collapse, supporting a translational rather than energetic primary mechanism. The wiki uses this source as mechanistic background for [[metals/copper]] (acute hepatocellular copper toxicity, the translational-machinery target, lysosomal sequestration of copper-metallothionein) and for [[metals/zinc]] (the canonical zinc-induces-metallothionein hepatoprotection axis cited in Wilson's disease therapeutic literature). It carries no food-matrix occurrence data and no regulatory content.
 
 ## Why this matters
@@ -162,7 +164,7 @@ Funding: NIH grants DK-34668, DK-17702, DK-32972; National Center for the Study 
 
 **HMTc firewall (Part 2).** The paper contains no HMTc-threshold language, no claims about HMI certification levels, no consumer-audience risk advisories, and no policy-relevant content. The discussion is entirely mechanistic biochemistry and cell biology, with references to Wilson's-disease therapeutic context (Hill 1987; Hoogenraad 1987) framed as scientific rationale for the experimental design rather than as policy recommendation. No firewall action required.
 
-**Speciation note.** The paper uses "Cu" and "Zn" generically; experimental doses are administered as CuCl₂ and zinc acetate; the uptake tracer is ⁶⁷Cu. No methylated, organic, or oxidation-state-specific species are reported. The HMI canonical analyte symbols for copper and zinc are `Cu` and `Zn` (no isotope/species distinction needed; see CLAUDE.md Part 14). Metallothionein isoform is MT-IIA per the cDNA probe used (Schmidt, Hamer & McBride 1984).
+**Speciation note.** The paper uses "Cu" and "Zn" generically; experimental doses are administered as CuCl₂ and zinc acetate; the uptake tracer is ⁶⁷Cu. No methylated, organic, or oxidation-state-specific species are reported. The HMI canonical analyte symbols for copper and zinc are `Cu` and `Zn` (no isotope/species distinction needed;). Metallothionein isoform is MT-IIA per the cDNA probe used (Schmidt, Hamer & McBride 1984).
 
 **Date arithmetic.** Received 11 January 1988; revised 31 May 1989; published November 1989 (Vol. 84, No. 5, pp. 1562-1568). Consistent with `year: 1989` frontmatter.
 
@@ -179,8 +181,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [7e3ca4799](https://github.com/paleofoundation/heavymetalindex/commit/7e3ca4799) | 2026-06-08 | minor | Narrative text revised |
-| [83a5ba62a](https://github.com/paleofoundation/heavymetalindex/commit/83a5ba62a) | 2026-06-08 | major | 15 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

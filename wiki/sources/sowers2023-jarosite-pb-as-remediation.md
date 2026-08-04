@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Sowers et al. 2023 — Potassium jarosite soil remediation reducing Pb and As bioaccessibility
 
+## Overview
+
 This study developed and tested a soil remediation method that converts soil lead and arsenic into jarosite-group minerals — plumbojarosite (PLJ) and beudantite — which have exceptionally low bioaccessibility at gastric pH (1.5–3). Treatment with potassium jarosite seeding reduced Pb and As bioaccessibility from approximately 70% and 60% (unamended) to less than 10% across all treatment conditions, representing a rare dual remediation option addressing both metals simultaneously. This is particularly significant because conventional phosphate-based Pb remediation can actually increase As bioaccessibility through competitive sorption effects.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

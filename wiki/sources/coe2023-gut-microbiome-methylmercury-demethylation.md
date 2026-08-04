@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Coe, Krout, Munro-Ehrlich, Beamish, Vorojeikina, Colman, Boyd, Walk, Rand 2023 — Gut microbiome role in methylmercury demethylation and elimination
 
+## Overview
+
 This Archives of Toxicology paper from a Montana State University and University of Rochester collaboration assesses whether the human gut microbiome contributes to methylmercury (MeHg) demethylation and fecal elimination, using both a human cohort with paired stool-and-MeHg-exposure data and a gnotobiotic mouse experimental model with human-microbiota colonization. The paper is the first to combine human cohort observation with controlled gnotobiotic experimental confirmation that gut microbial activity is a determinant of host MeHg fate. The findings support the gut-microbiome-mediated demethylation pathway as a contributor to the inter-individual variability in MeHg body burden observed across populations consuming similar dietary MeHg from fish and seafood.
 
 ## Key conclusions
@@ -50,6 +52,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |

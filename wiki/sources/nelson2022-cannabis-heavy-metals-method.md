@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Nelson et al. 2022 - AOAC cannabis heavy-metals method validation
 
+## Overview
+
 Nelson et al. (2022) report AOAC Official Method 2021.03 for total arsenic, cadmium, total mercury, and lead in cannabis and cannabis-derived products after microwave-assisted acid digestion and ICP-MS. The paper is primarily a single-laboratory method-validation study, but Table 5 includes native concentration values for four validation matrices: flower, hemp butter, pain relief cream, and CBD crude extract. These values are limited occurrence context and should not be treated as a market-prevalence survey.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [f3c71fe11](https://github.com/paleofoundation/heavymetalindex/commit/f3c71fe11) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

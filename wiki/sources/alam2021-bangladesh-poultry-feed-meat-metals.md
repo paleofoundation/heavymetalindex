@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Alam et al. 2021 - Poultry Feed and Meat Contaminants in Bangladesh
 
+## Overview
+
 Alam et al. tested broiler feed and meat for antibiotic residues, aflatoxin, and heavy metals in Bangladesh. The metal findings are direct poultry occurrence evidence, with a notable caveat: in meat, Cd and Cr were detected in only one of sixty samples, while lead was not detected.
 
 ## Key numbers
@@ -64,8 +66,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [f0dfd8f6d](https://github.com/paleofoundation/heavymetalindex/commit/f0dfd8f6d) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [477ff83fb](https://github.com/paleofoundation/heavymetalindex/commit/477ff83fb) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Carpena et al. 2024 — Chemical hazards in herbs consumed in Europe (conference proceedings)
 
+## Overview
+
 This 8-page conference proceedings paper from IECTO2024 (MDPI Proceedings) reviews chemical hazards in herbs and spices ("wild edible plants" in the authors' framing) consumed in Europe, drawing on a non-systematic literature search and on RASFF notification data from 2013 to 2023. The paper is primarily concerned with mycotoxins (aflatoxins, ochratoxin A), pyrrolizidine alkaloids (PAs), unauthorised dyes (Sudan I–IV), and pesticide residues (chlorpyrifos, ethylene oxide); heavy metals (Cd, Pb, Hg) appear in the RASFF chemical-hazard bar chart and in the abstract framing but receive no quantitative treatment and no primary concentration data. The RASFF analysis reports 1,133 notifications for herbs and spices over the ten-year window. The paper is funded through the EU-FORA EFSA Fellowship Programme.
 
 ## Key numbers
@@ -95,9 +97,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e445bfade](https://github.com/paleofoundation/heavymetalindex/commit/e445bfade) | 2026-05-28 | minor | Narrative text revised |
-| [dfa2c0b19](https://github.com/paleofoundation/heavymetalindex/commit/dfa2c0b19) | 2026-05-28 | major | 2 sections added; narrative text revised |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Atanasov et al. 2024 — SERS of ammonium nitrate using Al nanostructures from AlN ceramic
 
+## Overview
+
 This methods paper presents laser-induced surface structuring of aluminium nitride (AlN) ceramic to generate aluminium nanostructures, evaluated as SERS (Surface-Enhanced Raman Spectroscopy) substrates for the detection of ammonium nitrate (NH4NO3). The paper demonstrates LOD for ammonium nitrate in water below the EU nitrate ML (50 mg/L NO3) using Al plasmonics at 514 nm and 785 nm excitation. It is a materials science / analytical chemistry paper focused on sensor fabrication. No food matrices or heavy metal concentrations in food are reported. The text-mining flags for Al and As arise from the use of AlN (aluminium nitride) ceramic and standard SERS substrate terminology; neither heavy metal occurs as a food contaminant analyte in this work.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [38d88bdc6](https://github.com/paleofoundation/heavymetalindex/commit/38d88bdc6) | 2026-05-12 | major | 4 sections added; narrative text revised |

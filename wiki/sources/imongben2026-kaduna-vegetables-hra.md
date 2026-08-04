@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Imongben et al. 2026 — Heavy metals and health risk in Kaduna market vegetables, Nigeria
 
+## Overview
+
 Imongben and colleagues measured Cr, Mn, Fe, Co, Ni, Cu, Mo, and Zn in 12 commonly consumed vegetable types purchased from five markets in Kaduna Metropolis, Nigeria, using energy-dispersive X-ray fluorescence (ED-XRF) spectrometry. The authors computed Estimated Maximum Daily Intake (EMDI), Hazard Quotient (HQ), Hazard Index (HI), and Incremental Lifetime Cancer Risk (ILCR) for adults (60 kg body weight) and toddlers 1–2 y (10 kg body weight). HI exceeded 1 for every vegetable and both age groups; Cr, Cu, and Ni ILCR values were in the moderate-to-high risk range for most vegetables. The authors attribute the contamination to irrigation with River Kaduna water, which receives untreated effluent from the city's refinery, textile, food and beverage, ceramics, fertilizer, and paper industries.
 
 ## Key numbers
@@ -189,9 +191,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2a1e5419a](https://github.com/paleofoundation/heavymetalindex/commit/2a1e5419a) | 2026-05-20 | minor | Narrative text revised |
-| [cdf45cc18](https://github.com/paleofoundation/heavymetalindex/commit/cdf45cc18) | 2026-05-20 | major | 3 sections added and 2 removed; narrative text revised |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

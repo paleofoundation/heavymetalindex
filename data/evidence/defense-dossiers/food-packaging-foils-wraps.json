@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-foils-wraps",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c067a865fc48312ae4238787037dc7fd2533bb1e9034b2eca57d2e6b158a1455",
-      "content_bytes": 10356,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "2870a42719a86068d21e608bcdceda723e5e923a844e6d20c0e7567e869c14de",
+      "content_bytes": 10524,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/food-packaging-foils-wraps.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/food-packaging-foils-wraps.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bassioni2012-aluminum-foil-meat-cooking-uae",
         "content_pin": {
-          "content_sha256": "9da16e4c7da5a2dacc4a8982a19a6d4cbd34662e584876e7a677e317255f291c",
-          "content_bytes": 16934,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "7bc3030eae47e55eddd46f5851e230095b80e60a3d3b9903ab9063c03ce28ff8",
+          "content_bytes": 17110,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
         }
       },
       {
@@ -61,12 +61,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
         "content_pin": {
-          "content_sha256": "954f3093fe694e156141b8832adc0b08decb9298b3366dfdb59b43ed9aa3932b",
-          "content_bytes": 14813,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "7a3a9271074184fc1d13b280a8cee7d86c6612206f0fb921b74d4a46e47e5cb6",
+          "content_bytes": 14984,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dordevic2019-aluminum-foil-culinary-baking-czech",
         "content_pin": {
-          "content_sha256": "0bde6263b4f834f10860c97d86ee3beba719fb9821ec32f6282e5225904f187b",
-          "content_bytes": 14922,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "54191dc42aa0ea543e4e1da91a8c78ad1624cf1527c227a3c4169b9f9fd14382",
+          "content_bytes": 15098,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
         }
       },
       {
@@ -124,12 +124,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm2024-metals-alloys-food-contact-guide",
         "content_pin": {
-          "content_sha256": "f6feb4df343a83a58589947eeb3edba93de94ed8f1b9e3d992e20e2683c28c73",
-          "content_bytes": 10051,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "3135a4fae6a6787eef9cba3bfdf42a986e886bdb96648b1a7d5d7e7b8ac8c941",
+          "content_bytes": 10748,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
         }
       },
       {
@@ -144,12 +144,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-aluminium-afc-2008",
         "content_pin": {
-          "content_sha256": "b019bbd3b4e5afefdbd145484c5a6807b8b4b4efed965d904b71ec9dfb97d171",
-          "content_bytes": 21563,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "f58beff055d8e9c47be7571b3bb39278fe4d955f8475e76998b0aefe331aef37",
+          "content_bytes": 21622,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
         }
       },
       {
@@ -164,12 +164,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
         "content_pin": {
-          "content_sha256": "0146a3fd2b212c8653c04f0ed8bab620b5306013b6ed9f26fcb93ac0c6ed7489",
-          "content_bytes": 22672,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "665dd0031bf6a9db854ee04e0053970afc88e96bf62499734e92fd4a14aa22f8",
+          "content_bytes": 23062,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
         }
       },
       {
@@ -184,12 +184,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "a5023a8877b61d2623844b4e4159c0d4c7c9c7d9bfa7d97aa2ff706a8862b423",
-          "content_bytes": 7451,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "6c2f0caadb90ea263f7a4c486d99adf3752879cee8cace1b346dd5bc813ff9be",
+          "content_bytes": 8152,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       }
     ]

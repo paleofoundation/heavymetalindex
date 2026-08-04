@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Maier and Benoit 2019 — Role of Nickel in Microbial Pathogenesis
 
+## Overview
+
 This MDPI Inorganics review by Robert Maier and Stéphane Benoit (University of Georgia, Center for Metalloenzyme Studies) synthesizes the mechanistic literature on nickel-dependent virulence factors in human and animal pathogens. The review covers the [NiFe] hydrogenase and urease enzyme families, with particular depth on Helicobacter pylori (the gastric pathogen most heavily dependent on Ni for both H2-utilization-driven host colonization and translocation of the carcinogenic CagA toxin into host epithelial cells). Salmonella enterica Typhimurium hydrogenases are characterized as host-colonization factors; Proteus mirabilis, Staphylococcus species, and Cryptococcus genus ureases are reviewed as pathogenesis components in urinary-tract, soft-tissue, and meningeal infections respectively. The authors document the pathogen Ni-uptake, Ni-storage, and Ni-maturation enzyme machinery that supports the virulence-relevant Ni utilization.
 
 ## Key conclusions
@@ -48,6 +50,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 3 sections added; narrative text revised |

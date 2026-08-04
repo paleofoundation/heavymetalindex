@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jarin et al. 2025 — Plant responses to heavy metal stresses, defense strategies, and nanoparticle-assisted remediation
 
+## Overview
+
 Jarin, Khan, Apon, Islam, Rahat, Akter, Anik, H. M. Nguyen, T. T. Nguyen, Ha, and Tran (Department of Agronomy and Department of Genetics and Plant Breeding, Gazipur Agricultural University, Bangladesh; Institute of Genomics for Crop Abiotic Stress Tolerance, Texas Tech University, USA; Bangladesh Sugarcrop Research Institute; Department of Agroforestry, Bangladesh Agricultural University; Vietnam National University of Agriculture; corresponding authors Khan, Ha, and Tran) review the published evidence on plant morphological, physiological, biochemical, and molecular responses to heavy metal (HM) stress, the defense strategies plants deploy against HM toxicity, and the emerging use of engineered and biogenic nanoparticles (NPs) for HM remediation in soils and water. The paper is a "Review" article in *Plants* (MDPI) covering 244+ cited references, four figures (Figure 1 essential vs non-essential metal toxicity targets in plants; Figure 2 HM-stress disruption of photosynthesis, ABA/ROS/NO signalling, and stomatal regulation; Figure 3 microbial enhancement of detoxification, nutrient transport, and biomass accumulation; Figure 4 cellular-compartment cascade of HM detoxification through cell wall, plasma membrane, cytosol, tonoplast, and vacuole), and seven synthesis tables (Table 1 essentiality and adequate/toxic levels for 12 metals in plants; Table 2 morphological/physiological/biochemical responses to HM stress across nine crop species and one weed; Table 3 antioxidant enzyme responses across twelve plant species; Table 4 five signalling pathways with key components, target metals, responses, and gene families; Table 5 transcription-factor families activated under HM stress in seven plant species; Table 6 seven nanoparticle types with target metals, percent HM reduction, and key findings; Table 7 fifteen microbial/plant-extract-based NP biosyntheses with their phytotoxicity-alleviation effects). The review reports no primary chemical, occurrence, or exposure measurements in any food, beverage, supplement, personal-care, or environmental matrix; its value to the wiki is conceptual background on plant-side HM biology and a structured catalogue of nanoparticle-assisted remediation evidence relevant to the [[mitigation/remediation-evidence]] chapter.
 
 ## Why this matters
@@ -244,8 +246,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [029e9a50a](https://github.com/paleofoundation/heavymetalindex/commit/029e9a50a) | 2026-06-08 | minor | Narrative text revised |
-| [f4c7a4e11](https://github.com/paleofoundation/heavymetalindex/commit/f4c7a4e11) | 2026-06-08 | major | 17 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

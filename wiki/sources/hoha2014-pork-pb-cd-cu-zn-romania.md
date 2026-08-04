@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Hoha et al. 2014 — Heavy metals in processed pork products, Romania
 
+## Overview
+
 A 2014 study from the University of Agricultural Sciences and Veterinary Medicine Iasi, Romania analyzed 36 samples of pork products (bacon, ham, sausage, salami) from four commercial centers in Iasi for lead (Pb), cadmium (Cd), copper (Cu), and zinc (Zn) by atomic absorption spectrophotometry. Product-type mean cadmium values in all four product types exceeded the paper-cited FAO/EC comparator of 0.1 mg/kg, while lead means were below the paper-cited 1 mg/kg comparator; the salami maximum for Pb reached 1.06 mg/kg. The authors identified spice additions during processing as a likely driver of elevated Pb and Cd in sausage and salami relative to less-seasoned bacon and ham.
 
 **Note on metals coverage:** This paper reports Pb, Cd, Cu, and Zn. Cu and Zn are retained in the `metals` frontmatter for source discoverability, but the certification-relevant signal in this source is primarily Pb/Cd because the paper reports Cu and Zn means below its cited comparators.
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b98e88b6e](https://github.com/paleofoundation/heavymetalindex/commit/b98e88b6e) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

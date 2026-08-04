@@ -31,6 +31,8 @@ updated: 2026-06-22
 
 # OEHHA 2018 — Developmental and Reproductive Toxicity of Nickel and Nickel Compounds (Prop 65 hazard-identification document)
 
+## Overview
+
 This is the OEHHA hazard-identification document that assembled and evaluated the scientific evidence on the developmental and reproductive toxicity of nickel and nickel compounds for the California Developmental and Reproductive Toxicant Identification Committee (DARTIC), whose deliberation on whether to list nickel and nickel compounds under Proposition 65 for reproductive toxicity was scheduled for 11 October 2018. It is the full scientific basis behind the consumer-facing [[sources/oehha-nickel-prop65-factsheet-2025|OEHHA Prop 65 nickel fact sheet]], which names this document as one of its underlying sources. The document is structured around three endpoints — developmental toxicity, female reproductive toxicity, and male reproductive toxicity — each with separate human and animal evidence sections and an integrative evaluation. Nickel carbonyl was already on the Proposition 65 list for the developmental endpoint before this deliberation, so its listing status for that endpoint was unaffected.
 
 The document is a hazard-identification (toxicology) review, not a food-occurrence study. The dominant human exposure pathway it examines is inhalation of nickel particles in ambient air; biomonitoring studies measure nickel in blood, urine, and semen. The wiki value of the source is as the authoritative US sub-federal review of nickel's reproductive and developmental hazard, complementing the EFSA CONTAM Panel's chronic-TDI derivation (which rests on the same reproductive/developmental critical effect: post-implantation fetal loss in rats).
@@ -91,7 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [fe1962dc4](https://github.com/paleofoundation/heavymetalindex/commit/fe1962dc4) | 2026-06-22 | minor | Narrative text revised |
-| [529b3d5c5](https://github.com/paleofoundation/heavymetalindex/commit/529b3d5c5) | 2026-06-22 | major | 2 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

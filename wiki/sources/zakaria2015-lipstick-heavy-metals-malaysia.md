@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Zakaria 2015 - lead, cadmium, and chromium in lipsticks sold in Malaysia
 
+## Overview
+
 Zakaria and Ho measured lead, cadmium, and chromium in `15` lipstick products selected from popularity rankings among surveyed lipstick users in Malaysia. The study reports concentrations in `mg kg-1` and analyzes each lipstick in triplicate. Brand names were collected in the survey workflow, but this page reports only product category, country of production, price category, and coded sample values.
 
 ## Key numbers
@@ -73,6 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [ecf202b37](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b37) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

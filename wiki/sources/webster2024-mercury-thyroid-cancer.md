@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Webster et al. 2024 — Mercury exposure and thyroid cancer: systematic review and meta-analysis
 
+## Overview
+
 This systematic review and meta-analysis examined the association between mercury (total and methylmercury) exposure and the risk of thyroid cancer. Drawing on epidemiological studies that measured urinary, blood, and tissue mercury concentrations in human populations, the authors synthesized evidence on whether dietary mercury exposure, primarily through fish consumption, represents a plausible risk factor for thyroid cancer. The paper contributes to the dietary exposure context for MeHg and tHg, particularly in populations with high seafood intake.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3dc7cbb24](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb24) | 2026-05-13 | major | 4 sections added; narrative text revised |

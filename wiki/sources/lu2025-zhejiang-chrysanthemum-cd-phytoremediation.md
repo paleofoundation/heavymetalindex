@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Lu et al. 2025 — Profitable chrysanthemum phytoremediation of Cd-contaminated farmland in Zhejiang
 
+## Overview
+
 Lu and colleagues screened 23 ornamental chrysanthemum cultivars over two growing seasons for their ability to remove cadmium from contaminated farmland in eastern China, then tested a single high-performing cultivar against bamboo-vinegar and EDTA-Si chelator treatments. The source is primary field evidence for phytoremediation and supply-chain mitigation: the trial site is the kind of Cd-contaminated farmland that drives rice exceedances in the region, and the ornamental crop is positioned as an income stream that lets remediation pay for itself without entering the food channel.
 
 ## Key numbers
@@ -135,9 +137,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [5e57d6cd8](https://github.com/paleofoundation/heavymetalindex/commit/5e57d6cd8) | 2026-06-02 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

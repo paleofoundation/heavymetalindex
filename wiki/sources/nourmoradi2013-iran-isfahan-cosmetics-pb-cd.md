@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Nourmoradi et al. 2013 — Pb and Cd in lipstick and eye shadow from Isfahan, Iran
 
+## Overview
+
 Nourmoradi and colleagues quantified lead and cadmium by graphite-furnace atomic absorption spectrometry in 50 cosmetic samples purchased from cosmetic stores in Isfahan, Iran: 35 lipsticks (5 colors × 7 brands) and 15 eye shadows (3 colors × 5 brands). The reported ranges are Pb 0.08–5.2 µg/g and Cd 4.08–60.20 µg/g for lipsticks and Pb 0.85–6.90 µg/g and Cd 1.54–55.59 µg/g for eye shadows on a wet-weight basis. Cadmium content exceeded lead content in both product categories, and the eye shadow range for both metals exceeded the lipstick range. The authors compare results to the FDA cosmetic Pb guidance of 20 µg/g (all samples below) and the Health Canada cosmetic Cd guidance of 3 µg/g (most samples above).
 
 ## Key numbers
@@ -151,6 +153,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [be866fe9b](https://github.com/paleofoundation/heavymetalindex/commit/be866fe9b) | 2026-06-01 | major | 5 sections added; narrative text revised |

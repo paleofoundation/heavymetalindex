@@ -20,7 +20,9 @@ updated: 2026-05-17
 ---
 # Ingredient class — protein/collagen powders
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 20: **Ingredient class — protein/collagen powders**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [supplements-protein-collagen-powders]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 20: **Ingredient class — protein/collagen powders**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [supplements-protein-collagen-powders]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 
 ## Literature scope
@@ -30,27 +32,27 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Ingredient class — protein/collagen powders, with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Ingredient class — protein/collagen powders, the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Ingredient class — protein/collagen powders, with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Ingredient class — protein/collagen powders, the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in ingredient class — protein/collagen powders. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in ingredient class — protein/collagen powders. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA (DSHEA), USP, California Prop 65**.
 
@@ -79,8 +81,8 @@ The sources below are catalogued as product-context candidates for this row. The
 | [[sources/barber2025-baby-food-elements-us]] | Toxic elements in baby and young children's foods in the US a... | infant-and-child-foods-master; baby-cereals-dry-rice-based; baby-cereals-dry-non-rice; teething-and-snacks-rice-based | tAs; iAs; Cd; tHg; MeHg; Pb; Tl | Matrix axis: unresolved (declares powder generally; soy/non-soy not split). Format axis: exact (powder). Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/biondicfuckar2023-coffee-silverskin-metals]] | Coffee Silver Skin-Health Safety, Nutritional Value, and Micr... | coffee; dietary-supplements | Ni; Pb; tAs; Cd; Cr; Cu; Zn; Mn; Fe | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/bolan2017-rice-complementary-medicines-arsenic]] | Comparative analysis of speciation and bioaccessibility of ar... | rice-bulk-grain; dietary-supplements; supplements-botanicals-herbs | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
-| [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland]] | Mercury Exposure from the Consumption of Dietary Supplements ... | supplements-oil-based; dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
-| [[sources/brodziak-dopierala2024-hg-supplements-poland]] | Mercury Levels in Selected Medicines and Dietary Supplements ... | dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland]] | Mercury Exposure from the Consumption of Dietary Supplements... | supplements-oil-based; dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/brodziak-dopierala2024-hg-supplements-poland]] | Mercury Levels in Selected Medicines and Dietary Supplements... | dietary-supplements | tHg | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/brzezinska-rojek2023-beetroot-supplements-safety]] | Evaluation of the Safety and Potential Benefits of Beetroot-B... | dietary-supplements; supplements-oral-solids-tablets | Cd; Pb; Al | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/cao2014-sargassum-pallidum-arsenic-speciation]] | Pharmacokinetic properties of arsenic species after oral admi... | seaweed-kelp-foods; supplements-algae-seaweed-based; dietary-supplements | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/cheyns2021-algae-cyanobacteria-supplements-arsenic]] | Intake of food supplements based on algae or cyanobacteria ma... | supplements-algae-seaweed-based; dietary-supplements | tAs; iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
@@ -138,7 +140,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -185,9 +187,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
-| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Zolfaghari 2018 — Mercury and lead in fish from Iranian international wetlands
 
+## Overview
+
 Mercury and lead concentrations were determined in multiple tissues of several fish species from three internationally significant Iranian wetland systems: Anzali Wetland (Caspian Sea coast), the Caspian Sea, and Hamun Wetlands. Species analyzed included Rutilus rutilus, Hemiculter leucisculus, Alosa caspia caspia, Ctenopharyngodon idella, Cyprinus carpio, Hypophthalmichthys molitrix, Hypophthalmichthys nobilis, Schizocypris altidorsalis, and Schizothorax zardunyi. Mercury concentrations in all species were below FAO, WHO, FDA, and EU limits for fish. Lead concentrations in C. idella, C. carpio, and H. molitrix were below FAO, WHO, FDA, Turkish Acceptable Limits, UK MAFF, and NHMRC limits; however, Schizocypris altidorsalis and Schizothorax zardunyi had lead concentrations above WHO and Turkish Acceptable Limits. Hazard Quotient (HQ) analysis showed cumulative risk increases markedly with fish consumption frequency, raising consumer health concerns for high fish-consuming populations.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

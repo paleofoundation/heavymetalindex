@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Afzal and Mahreen 2024 — Heavy metals exposure on livestock health, reproduction, and productivity (narrative review)
 
+## Overview
+
 This is a narrative review in Frontiers in Pharmacology surveying how heavy metals (principally As, Pb, Hg, Cd, Cu, with secondary mention of Cr, Ni, Zn, Co, Mn, Mg, Se, Fe, Al) affect livestock animals across health, reproductive, and productive endpoints. It is a livestock veterinary toxicology synthesis, not a food-contamination dataset: contamination values appear only as illustrative figures pulled from prior literature (notably Adamse et al. 2017 for EU feed surveillance and Medardus et al. 2014 for pig muscle). For HMI purposes the paper has thin direct fit — it is most useful as a context citation for animal-feed exposure pathways, livestock organ accumulation patterns, and reproductive endpoints in cattle. The misleading filesystem handle (`MFD_afzal2024-camel-milk-heavy-metals`) reflects a Manual Fetch Discovery misclassification; the paper does not discuss camels.
 
 ## Key numbers
@@ -128,8 +130,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 | [c85019ea8](https://github.com/paleofoundation/heavymetalindex/commit/c85019ea8) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [fc6e7070e](https://github.com/paleofoundation/heavymetalindex/commit/fc6e7070e) | 2026-05-30 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Ewubare et al. 2024 — Heavy metals in the environment: effects on soil, plants, human health, and possible solutions (AJEE narrative review)
 
+## Overview
+
 This open-access narrative review in the American Journal of Environmental Economics surveys heavy-metal sources, soil and plant uptake, human-health effects, and phytoremediation/microbial remediation strategies. The seven Nigerian co-authors (Department-of-Chemistry-affiliated, four institutions in Edo and Imo States) frame the review around three coupled compartments — soil, plants, humans — and assemble regulatory limits from WHO, FAO/Codex, the EEA, and the European Union, plus two African case studies and one global vegetable-accumulation comparison. The paper is a teaching-grade synthesis rather than a primary-data report. It cites Hazrat et al. (2019), Pourret et al. (2021), and Das et al. (2023) as recent umbrella references; no original sampling or analytical work is reported. Evidence tier C: useful as a leads document and as a textbook-style overview of the soil–plant–human pathway, not citable as direct evidence for occurrence values. All quantitative values appearing on this page are reattributions of cited primary sources.
 
 ## Key numbers
@@ -169,6 +171,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d11d4a2f9](https://github.com/paleofoundation/heavymetalindex/commit/d11d4a2f9) | 2026-05-18 | major | 12 sections added; narrative text revised |

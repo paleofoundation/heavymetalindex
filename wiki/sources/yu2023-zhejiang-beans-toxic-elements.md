@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Yu 2023 - Zhejiang beans toxic elements
 
+## Overview
+
 Yu, Pan, and Han measured arsenic, cadmium, chromium, mercury, and lead in `692` dried bean samples from local commercial markets in Zhejiang Province, southeast China. The bean panel included black bean, broad bean, mung bean, soybean, red bean, kidney bean, and pea. The occurrence measurements are total/unspecified arsenic and total/unspecified mercury; the paper's health-risk model estimates inorganic arsenic from total arsenic using a `72%` assumption from prior crop literature, but it does not measure inorganic arsenic speciation in these bean samples.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [72249d758](https://github.com/paleofoundation/heavymetalindex/commit/72249d758) | 2026-06-08 | major | 4 sections added; narrative text revised |

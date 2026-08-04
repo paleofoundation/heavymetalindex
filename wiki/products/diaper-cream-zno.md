@@ -23,9 +23,11 @@ created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Diaper Cream, ZnO-Based
 
+## Overview
+
 Diaper rash treatments using zinc oxide as active ingredient (Desitin, Boudreaux's Butt Paste, Triple Paste, most '10-40% ZnO' products). Contaminated row of the Row 7 / Row 8 pair: ZnO is sourced from sphalerite (ZnS) ore co-occurring with Pb-containing minerals; pyrometallurgical and electrolytic ZnO production routes reduce but do not eliminate Pb and Cd carry-through. Pb has been documented at elevated levels in surveyed diaper-cream products in the Cat 2 Step 0 lock review; <!-- UNCITED: ZnO diaper-cream Pb specific values pending source-page ingest of the underlying consumer testing data referenced in the Cat 2 Step 0 lock document. -->
 
-This page is a Step 0 lock scaffold for Cat 2 Row 8. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 2 Row 8. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
 ## Who this page is for
 
@@ -33,7 +35,7 @@ Brand legal teams evaluating HMTc Cat 2 certification for the Diaper Cream, ZnO-
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the Diaper Cream, ZnO-Based row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the Diaper Cream, ZnO-Based row. Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 Cat 2 dose-pathway methodology supplement (per OPERATING.md Part 7 initiative 3.1) is documented at [[health/cat-2-non-ingestion-exposure-pathways]]. That supplement governs how dermal, inhalation, accidental-ingestion, and trans-placental exposure factors apply to this row.
 
@@ -90,12 +92,12 @@ The percentile arithmetic that informs HMTc Cat 2 thresholds for this row lives 
 
 ## Historical recalls and enforcement
 
-Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
+Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens fall under FDA OTC drug monograph; toothpaste falls under FDA cosmetic + OTC drug regulation. State-level enforcement is more active: Washington State Toxic-Free Cosmetics Act 2025 sets heavy-metal limits for cosmetic products sold in Washington; New York Toxic Children's Cosmetic Products Act sets limits for children's makeup. California Prop 65 enforcement actions on cosmetics (lip balm, lipstick, eye products) have established practical compliance thresholds via settlement agreements. EU Cosmetic Regulation 1223/2009 Annex II/III addresses cosmetic-ingredient restrictions but not finished-product action levels. Individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that establish the operative compliance landscape.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -113,9 +115,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [8530c3e2e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e2e) | 2026-05-17 | minor | Narrative text revised |
-| [887c6886b](https://github.com/paleofoundation/heavymetalindex/commit/887c6886b) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Karavoltsos et al. 2020 — Copper complexation and 16 trace metals in Greek vinegars
 
+## Overview
+
 This study applied differential pulse anodic stripping voltammetry (DPASV) to characterize copper complexing capacity in 43 vinegars retailed in Greece, and used ICP-MS to quantify 16 trace elements (Al, As, Ba, Cd, Co, Cr, Cs, Cu, Fe, Mn, Ni, Pb, Rb, Sr, V, Zn). Balsamic vinegars consistently showed higher concentrations of Al, Cr, Fe, Mn, Rb, Co, Sr, and Cs compared to common vinegars, reflecting their production from cooked concentrated grape must. Of the toxicologically significant metals, Pb concentrations reached 86 µg/L in one balsamic red vinegar with honey, and two samples (5% of total) exceeded the California state maximum-allowed Pb intake equivalent of 34 µg/L; total As and Cd were lower but detectable.
 
 ## Key numbers
@@ -123,7 +125,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 
 - Replace legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_copper-complexing-capacity-and-trace-metal-content` handle.
 - Correct the truncated `raw_path` (prior path was missing the space after "Kimi" and truncated the filename mid-word).
-- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated (CLAUDE.md Part 14).
+- Change `As` → `tAs` in `metals:` because the paper reports only total As; iAs is not speciated.
 - Expand `metals:` to all 16 elements the paper actually measures by ICP-MS, for documentary fidelity. The routing layer maps only HMTc-relevant abbreviations (tAs, Pb, Cd, Al, Cr, Ni, Cu) into product-row rows; the remainder (Fe, Mn, Zn, Co, Ba, Cs, Rb, Sr, V) are recorded for the page's documentary completeness, consistent with the convention used on the sibling vinegar paper [[ozbek2016-mip-oes-turkish-vinegars]].
 - Simplify `matrices:` from the prior over-granular `[balsamic-red-vinegar, balsamic-white-vinegar, wine-red-vinegar, wine-white-vinegar, apple-cider-vinegar, fruit-vinegar]` to the broadest accurate set `[balsamic-vinegar, wine-vinegar, apple-cider-vinegar, fruit-vinegar]` per the broad-scope-frontmatter rule in `docs/gpt-collaboration/system-prompt.md`. Subgroup detail (BR, BRH, BW, WR, WW, F) remains in the body, which is where it belongs.
 - Add `wine-vinegar` and `apple-cider-vinegar` to `ingredients:` (the WR and WW samples are wine vinegars; the apple-fruit samples in F are apple-cider vinegars).
@@ -146,9 +148,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [07a0c1660](https://github.com/paleofoundation/heavymetalindex/commit/07a0c1660) | 2026-05-26 | minor | Narrative text revised |
-| [dc89bab0f](https://github.com/paleofoundation/heavymetalindex/commit/dc89bab0f) | 2026-05-26 | major | 1 section added and 1 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

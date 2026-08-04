@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Kazeminia et al. 2023 — Systematic review: heavy metals in tea herb, health effects, and mitigation strategies
 
+## Overview
+
 Kazeminia et al. present a systematic review of 157 articles (screened from 961, published 2000–2022) examining heavy metal contamination in tea herb (*Camellia sinensis*), associated health effects, and strategies to reduce exposure. Metals covered include As, Cd, Cr, Pb, Hg, Al, Fe, Ba, Ni, and Co. The review synthesises tolerable daily intake (PTDI) and tolerable weekly intake (PTWI) data for multiple metals in black tea and tea infusion, and documents that HM levels in tea vary substantially by region, proximity to pollution sources, genetic cultivar differences, brewing method, and steeping time. Key mitigation strategies reviewed include cleaner irrigation water, avoiding acidifying fertilizers, liming soil, restricting cultivation near pollution sources, shorter brewing times, and phytoremediation.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [87efb16cc](https://github.com/paleofoundation/heavymetalindex/commit/87efb16cc) | 2026-05-12 | major | 4 sections added; narrative text revised |

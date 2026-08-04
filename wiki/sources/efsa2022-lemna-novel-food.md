@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # EFSA NDA Panel 2022 — Safety of Lemna minor and Lemna gibba as novel food
 
+## Overview
+
 This EFSA scientific opinion evaluates the safety of heat-treated water lentils (Lemna minor and Lemna gibba whole plant material) as a novel food under Regulation (EU) 2015/2283. As part of the compositional assessment, the applicant provided heavy metals data for ten production batches by ICP-MS. The Panel found As, Cd, and Hg below their respective LOQs across all batches, and Pb detected in only a few batches at trace levels. The opinion concluded the novel food could not yet be established as safe primarily due to manganese intake concerns rather than heavy metal levels.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6edd24b09](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b09) | 2026-05-13 | major | 4 sections added; narrative text revised |

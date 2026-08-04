@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Park 2005 - Korean seafood arsenic speciation
 
+## Overview
+
 Park and colleagues optimized HPLC-ICP-MS separation for six arsenic compounds and applied the method to Korean seafood samples. The source reports species-specific arsenic values for seaweed, shrimp, fish, shellfish, squid, cuttlefish, and clams. The table is a speciation table, not a total-arsenic occurrence table; inorganic arsenic is represented by AsIII and AsV.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [edb6dabc1](https://github.com/paleofoundation/heavymetalindex/commit/edb6dabc1) | 2026-06-08 | major | 4 sections added; narrative text revised |

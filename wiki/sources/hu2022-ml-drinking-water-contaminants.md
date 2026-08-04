@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Hu et al. 2022 — Machine learning for predicting arsenic and chromium in drinking water
 
+## Overview
+
 This review and modeling paper evaluates machine learning approaches for predicting the risk of chemical contaminants — primarily arsenic, nitrate, and hexavalent chromium (Cr-VI) — in US public drinking water systems. The authors synthesize literature on ML model performance, including random forest and neural network architectures trained on UCMR and SDWIS databases, and find that geospatial, geological, and demographic features achieve good predictive accuracy for arsenic exceedance above the 10 µg/L MCL, supporting prioritized monitoring and remediation resource allocation.
 
 ## Key numbers
@@ -55,6 +57,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [97958635e](https://github.com/paleofoundation/heavymetalindex/commit/97958635e) | 2026-05-13 | major | 4 sections added; narrative text revised |

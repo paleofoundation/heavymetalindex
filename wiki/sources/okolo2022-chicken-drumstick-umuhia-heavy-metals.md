@@ -25,6 +25,8 @@ updated: 2026-06-08
 
 # Okolo et al. 2022 - Chemical and microbiological quality of commercial fresh and frozen chicken drumstick in Umuhia, Nigeria
 
+## Overview
+
 This study measured proximate quality, microbial counts, and selected heavy metals in fresh and frozen commercial chicken drumsticks sold in Umuahia, Nigeria. The occurrence data are usable for poultry-context routing, especially for frozen chicken drumstick values where several metals were higher than in fresh drumsticks.
 
 ## Key numbers
@@ -66,9 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [5ec9acff8](https://github.com/paleofoundation/heavymetalindex/commit/5ec9acff8) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [64af12214](https://github.com/paleofoundation/heavymetalindex/commit/64af12214) | 2026-05-25 | minor | Narrative text revised |
-| [53f221f6e](https://github.com/paleofoundation/heavymetalindex/commit/53f221f6e) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Han et al. 2024 — Nickel occurrence and dietary exposure in Zhejiang Province, China
 
+## Overview
+
 This study quantifies nickel concentrations across six food categories in Zhejiang Province, China (2628 samples, 2018–2019) and assesses dietary exposure risk by age group. Beans (n=5) carry exceptionally high nickel levels (mean 3.094 mg/kg, all five samples above the GB 2762-2022 1 mg/kg national limit), while cereal products and fruits stay below the limit. Children aged 0–6 are the only population segment showing unacceptable cumulative exposure (THQ = 1.078) under high-consumption/high-contamination assumptions.
 
 ## Key numbers
@@ -141,9 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [182f760eb](https://github.com/paleofoundation/heavymetalindex/commit/182f760eb) | 2026-05-29 | minor | Narrative text revised |
 | [57382d6db](https://github.com/paleofoundation/heavymetalindex/commit/57382d6db) | 2026-05-29 | major | 3 sections added and 2 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [012611134](https://github.com/paleofoundation/heavymetalindex/commit/012611134) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

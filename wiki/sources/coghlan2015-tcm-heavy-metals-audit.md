@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Coghlan et al. 2015 - Heavy Metals in Traditional Chinese Medicine Products
 
+## Overview
+
 Coghlan et al. combined DNA sequencing, toxicological screening, and heavy-metal screening to audit 26 traditional Chinese medicine products. The heavy-metal component screened 25 products for arsenic, lead, and cadmium by sector-field ICP-MS and compared estimated daily exposures from package dosage directions against Australian TGA medicine limits. The paper is direct finished-product evidence for dietary-supplement/herbal-remedy contamination, not for brewed herbal tea or botanical infusions.
 
 ## Key numbers
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [feb2f8563](https://github.com/paleofoundation/heavymetalindex/commit/feb2f8563) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [d1c9a1e86](https://github.com/paleofoundation/heavymetalindex/commit/d1c9a1e86) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

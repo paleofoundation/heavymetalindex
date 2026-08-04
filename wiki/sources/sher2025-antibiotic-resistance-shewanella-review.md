@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Sher et al. 2025 — Antibiotic resistance in Shewanella species and heavy-metal co-selection (narrative review)
 
+## Overview
+
 Narrative review in Microorganisms (MDPI) of the genus Shewanella as an emerging multi-drug-resistant pathogen in clinical and aquatic environmental settings. For HMI purposes the relevance is the paper's Section 5 on heavy-metal co-selection of antibiotic resistance: arsenic, mercury, cadmium, and chromium exposure is shown across cited studies to drive antibiotic-resistance acquisition in Shewanella via co-resistance (linked genes), cross-resistance (shared efflux systems), and co-regulation (shared promoter regions). The paper contains no primary food-contamination measurements and no ppb-level occurrence data; it is microbiome/AMR context for the heavy-metal-driven selection pressure that contaminated estuaries and aquaculture environments place on resistant pathogen reservoirs.
 
 ## Key numbers
@@ -112,6 +114,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 7 sections added; narrative text revised |

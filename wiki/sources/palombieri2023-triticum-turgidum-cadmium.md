@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Palombieri et al. 2023 — Cadmium content and micronutrient characterization of Triticum turgidum subspecies
 
+## Overview
+
 This study characterized technological properties and nutritional quality (including toxic cadmium content) across multiple accessions of three Triticum turgidum subspecies — durum (standard pasta wheat), turanicum (Khorasan/KAMUT), and polonicum (Polish wheat) — grown for two seasons in Central Italy. A key finding for the wiki is the identification of a Polish wheat accession (Pol2) that showed lower cadmium content in grain compared to other accessions, along with better technological performances and higher micro- and macro-nutrient accumulation. The study demonstrates that Cd content varies among wheat subspecies and accessions, reinforcing that cultivar selection is a lever for reducing dietary Cd exposure from wheat-based foods.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

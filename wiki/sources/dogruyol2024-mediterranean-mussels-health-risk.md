@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Dogruyol et al. 2024 — Toxic trace elements and Se in farmed Mediterranean mussels, Türkiye and Bulgaria
 
+## Overview
+
 Dogruyol et al. measured selenium, cadmium, mercury, and lead in farmed Mediterranean mussels (*Mytilus galloprovincialis*) collected seasonally from four aquaculture farms — three on Turkish coasts (M1, M2, M3) and one in Bulgaria (M4). Analysis was by ICP-MS (Perkin Elmer NexION 1000) following microwave acid digestion (AOAC 999.10). CRM ERM-CE278k recoveries were 99–113%. All Hg is total mercury; the authors assumed 80% MeHg fraction for risk assessment following EFSA guidance, but no direct MeHg speciation was performed. All reported metals (Cd, Hg, Pb) were below EU and Codex maximum limits at the annual farm-mean level. The exception was a single spring sample from M2 (Pb 0.372 µg/g), which marginally exceeded the Codex recommended limit of 0.30 µg/g for mollusks. THQ and TTHQ values for Se, Cd, and MeHg were all below 1 for both Turkish and Bulgarian consumer consumption patterns; MOE-SBP and MOE-NE for Pb were well above 10. Se health benefit values (HBVSe 10.1–37.3) indicated that Se in mussels substantially outweighed any MeHg-associated risk.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3f107ba96](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba96) | 2026-05-12 | major | 4 sections added; narrative text revised |

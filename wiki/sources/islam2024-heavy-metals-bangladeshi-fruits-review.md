@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Islam et al. 2024 — Systematic review of heavy metals in Bangladeshi fruits
 
+## Overview
+
 This systematic review synthesized findings from 10 primary studies (2012–2022) measuring heavy metal concentrations in locally produced fruits in Bangladesh. The review compiled concentration ranges across 22 fruit varieties for As, Cd, Pb, Cr, Mn, Ni, Cu, Zn, and Hg, then estimated carcinogenic and non-carcinogenic health risks using estimated daily intake (EDI), target hazard quotient (THQ), and target cancer risk (TR). Several fruits — banana, mango, guava, litchi, blackberry, lemon, and tamarind — contained Pb and Cd above WHO/FAO maximum allowable concentrations, and As exceeded the safety threshold in mango and guava (up to 1.3 mg/kg FW). Cancer risk (TR) from As, Cd, Cr, and Ni exceeded acceptable levels for most fruit types, indicating potential long-term carcinogenic risk for regular consumers of Bangladeshi fruits.
 
 ## Key numbers
@@ -91,9 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [42f5d870b](https://github.com/paleofoundation/heavymetalindex/commit/42f5d870b) | 2026-05-19 | minor | Narrative text revised |
-| [1b01023ec](https://github.com/paleofoundation/heavymetalindex/commit/1b01023ec) | 2026-05-19 | minor | Narrative text revised |
-| [eb495abac](https://github.com/paleofoundation/heavymetalindex/commit/eb495abac) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

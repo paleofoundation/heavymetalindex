@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Rittirong and Saenboonruang 2018 - Metals in cooked rice and cooking utensils
 
+## Overview
+
 Rittirong and Saenboonruang quantified aluminium and seven heavy metals in Thai cooked-rice samples prepared with different cooking utensils and water chemistries. The study found high Al and Zn relative to the other measured elements, but no strong indication that the tested utensils substantially increased metal concentrations compared with raw rice. The health-risk calculations identified Pb, As, Al, and Cd as the dominant contributors.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [6461a39ba](https://github.com/paleofoundation/heavymetalindex/commit/6461a39ba) | 2026-05-31 | major | 1 section added |
 | [8291a0d46](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d46) | 2026-05-31 | major | 5 sections added; narrative text revised |

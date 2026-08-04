@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Dabeka 2003 - Canadian total-diet mercury
 
+## Overview
+
 Dabeka, McKenzie, and Bradley measured total mercury in Canadian total-diet food composites from Whitehorse and Ottawa. The paper reports total mercury occurrence by composite and food category, plus age/sex dietary-intake estimates. Mercury is not speciated in the occurrence data; comparisons to methylmercury guidance values are risk-context estimates rather than measured MeHg.
 
 ## Key numbers
@@ -104,6 +106,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [9e5a91ae2](https://github.com/paleofoundation/heavymetalindex/commit/9e5a91ae2) | 2026-06-08 | major | 4 sections added; narrative text revised |

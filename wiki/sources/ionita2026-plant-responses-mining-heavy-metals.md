@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ioniță, Dunca, Radu 2026 — Plant responses to heavy metal stress in mining-impacted environments
 
+## Overview
+
 Ioniță, Dunca, and Radu (Department of Environmental Engineering and Geology, and Department of Mechanical, Industrial and Transport Engineering, University of Petroșani, Romania; corresponding author Dunca) review the published evidence on the molecular and cellular mechanisms by which plants respond to chronic, multifactorial heavy metal stress in environments affected by mining activities (mine tailings, tailings ponds, flotation residues, acid mine drainage, ultramafic outcrops). The paper is a "Review" article in *Plants* (MDPI) covering 74 cited references, three schematic figures (Figure 1 mining-soil → root uptake → ROS/antioxidant defence framework; Figure 2 soil-root interface → ZIP/NRAMP/HMA transporters → vacuolar sequestration/cell-wall binding; Figure 3 redox imbalance and oxidative stress signalling axis), and seven synthesis tables (Table 1 metal-by-metal mining sources and cellular targets; Table 2 ZIP/NRAMP/HMA/ABC transporter comparison across acute vs chronic exposure; Table 3 strength-of-evidence matrix for absorption/transport mechanisms; Table 4 strength-of-evidence matrix for redox/antioxidant mechanisms; Table 5 seven detoxification mechanisms with primary cellular location and integration; Table 6 strength-of-evidence matrix for all seven mechanism families across laboratory / pot / field contexts; Table 7 conceptual differences between controlled experimental exposure and chronic mining exposure). The review reports no primary chemical, occurrence, or exposure measurements in any food, beverage, supplement, personal-care, or environmental matrix; its value to the wiki is conceptual background for the plant-side biology of metal uptake, translocation, chelation, and vacuolar sequestration as it bears on the [[mitigation/remediation-evidence]] chapter, with a distinctive contribution in the form of explicit field-vs-laboratory evidence gradings for each mechanism family.
 
 ## Why this matters
@@ -228,8 +230,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [aa16a1b19](https://github.com/paleofoundation/heavymetalindex/commit/aa16a1b19) | 2026-06-08 | minor | Narrative text revised |
-| [802fbf3da](https://github.com/paleofoundation/heavymetalindex/commit/802fbf3da) | 2026-06-08 | major | 20 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

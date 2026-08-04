@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # NOM-242-SSA1-2009 - Mexican fishery-products standard
 
+## Overview
+
 NOM-242-SSA1-2009 is Mexico's sanitary standard for fresh, refrigerated, frozen, and processed fishery products. It was published in the Diario Oficial de la Federacion on 10 February 2011 and entered into force on 10 May 2011. Its transitory provision cancelled the earlier fishery-product standards including [[regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded|NOM-027-SSA1-1993]] for fresh/refrigerated/frozen fish and [[regulations/mx-nom-028-ssa1-1993-canned-fish-superseded|NOM-028-SSA1-1993]] for canned fish.
 
 ## Scope
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [300990514](https://github.com/paleofoundation/heavymetalindex/commit/300990514) | 2026-05-18 | major | Contamination-profile values revised; 8 sections added; narrative text revised |

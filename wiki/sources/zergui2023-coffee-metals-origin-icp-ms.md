@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Zergui et al. 2023 — Trace metals in coffee by origin, form, and packaging (Algeria)
 
+## Overview
+
 This cross-sectional study measured 10 trace elements (Ni, Cr, Pb, Zn, Cu, Co, Cd, As, Mn, Al) by ICP-MS in 44 coffee samples purchased from Chlef markets in Algeria, covering instant coffee (n=20) from 8 country origins (France, Italy, Sweden, Switzerland, UK, Poland, USA, Algeria), local-brand instant coffee (n=12), and roasted coffee sold in bulk (n=12). The study reports statistically significant differences (P < 0.0001) between coffee forms (ground, instant, beans) and packaging types (capsules, cartons, glass bottles, bulk) for most elements. Aluminum and manganese dominated by concentration; cadmium and arsenic were detectable but at low levels. Chronic daily intake (CDI) exceeded the reference dose (RfD) for Cd and Al in different forms. Evidence tier is B: single-location marketplace sampling in Algeria, small n, and no origin-confirmed trace of the 44 samples through supply chain.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6de0a7cc2](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7cc2) | 2026-05-12 | major | 5 sections added; narrative text revised |

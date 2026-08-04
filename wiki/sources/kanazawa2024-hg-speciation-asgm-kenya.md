@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Mercury speciation including total Hg and methylmercury (MeHg) was measured in environmental matrices (soil, water, sediment) from artisanal small-scale gold mining (ASGM) areas in Kenya. The study characterises Hg cycling and MeHg formation in ASGM environments, which are a major source of Hg emissions globally. Not a food occurrence paper, but provides supply-chain context for Hg contamination of local food systems near ASGM sites.
 
 ## Key numbers
@@ -51,6 +53,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [303004243](https://github.com/paleofoundation/heavymetalindex/commit/303004243) | 2026-05-12 | major | 4 sections added; narrative text revised |

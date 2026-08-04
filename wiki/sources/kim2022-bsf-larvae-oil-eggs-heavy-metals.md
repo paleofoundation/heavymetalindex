@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Kim et al. 2022 — Heavy metal monitoring in eggs from hens fed black soldier fly larvae oil
 
+## Overview
+
 This study evaluated the performance, egg quality, and food safety implications of replacing soybean oil with black soldier fly (BSF, Hermetia illucens) larvae oil in laying hen diets. As part of the safety assessment, concentrations of aluminum (Al), fluorine (F), arsenic (As), lead (Pb), mercury (Hg), and cadmium (Cd) were measured in eggs from all treatment groups. All measured heavy metal concentrations fell below Korean and international permissible limits across the full range of BSF oil inclusion rates tested. The paper confirms that BSF larvae oil as a feed ingredient does not elevate heavy metal accumulation in eggs above regulatory thresholds under the tested conditions.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7c3dcee05](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee05) | 2026-05-13 | major | 4 sections added; narrative text revised |

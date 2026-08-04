@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Tatsuta et al. 2024 — Dietary methylmercury intake by 0–5 year-old children, Japan (duplicate diet)
 
+## Overview
+
 This is the first study to apply the 24-hour duplicate-diet method to estimate methylmercury (MeHg) intake by Japanese infants and children aged 0–5 years across the formula-milk, baby-food, and toddler-meal stages. Across 276 three-day dietary duplicate samples, median estimated MeHg intake was 18.3 ng/kg bw/day (5–95th percentile 0.65–209.2 ng/kg bw/day) — highest at baby food stages 3 and 4 (9–17 m) and toddler meal stages 1–2 (18–47 m). Hair total mercury (THg) median was 1.05 ppm; 51.8% of children had hair THg above the EPA-equivalent 1.0 ppm RfD threshold and 15.6% above the 2.2 ppm PTWI threshold. Authors conclude MeHg intakes in some Japanese children exceed reference and PTWI levels because Japanese cuisine commonly uses lean fish (tuna, bonito, yellowtail, horse mackerel, sardines) in baby and toddler meals.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 4 sections added; narrative text revised |

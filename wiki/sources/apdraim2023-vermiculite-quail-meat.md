@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Apdraim et al. 2023 — Cadmium and lead residues in quail meat; vermiculite dietary additive reduces heavy metal content
 
+## Overview
+
 This study evaluated the effect of vermiculite (natural mineral) feed additive at 3% and 5% inclusion rates on chemical, mineral, and amino acid compositions of quail meat, and specifically measured Cd and Pb residues in pectoral muscle. Control quail showed Cd at 0.0008 mg/kg and Pb at 0.0012 mg/kg in muscle — both below Kazakh maximum permissible concentrations (MPC: Cd 0.05 mg/kg; Pb 0.5 mg/kg). Arsenic and mercury were not detected in any group. Vermiculite supplementation at 5% significantly reduced Cd by ~21% and Pb by ~25% relative to controls. The study provides baseline heavy metal residue data for quail pectoral muscle in a Kazakhstan commercial farming context.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cacc8f421](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f421) | 2026-05-13 | major | 4 sections added; narrative text revised |

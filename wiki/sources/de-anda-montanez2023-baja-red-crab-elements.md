@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # De Anda-Montanez et al. 2023 - Trace and macro elements in Baja California red crab
 
+## Overview
+
 De Anda-Montanez and colleagues measured Cd, Cu, Fe, Mn, Ni, Pb, Zn, Ca, Mg, and P in whole adult red crab from the Pacific coast of the Baja California Peninsula, Mexico. The paper is routeable as shellfish/seafood occurrence evidence on a dry-weight whole-organism basis, with the important limitation that the source sampled wild red crab used or proposed for feed/flour and potential consumption rather than finished retail shellfish portions. Cadmium was the highest toxic-metal concern, while Pb was not detected in any cruise or zone group.
 
 ## Key numbers
@@ -108,8 +110,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [cd700b2e2](https://github.com/paleofoundation/heavymetalindex/commit/cd700b2e2) | 2026-06-02 | minor | Narrative text revised |
-| [04eb973eb](https://github.com/paleofoundation/heavymetalindex/commit/04eb973eb) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

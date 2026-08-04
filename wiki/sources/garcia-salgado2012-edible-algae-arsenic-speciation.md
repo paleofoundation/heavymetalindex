@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # García-Salgado et al. 2012 - edible algae arsenic speciation
 
+## Overview
+
 García-Salgado et al. measured total arsenic and water-extractable arsenic species in 12 commercially available edible marine algae from France, Japan, and Spain. The study reports total arsenic by ICP-AES after microwave digestion and speciation by HPLC-(UV)-HG-AFS after microwave-assisted water extraction. Inorganic arsenic is reported as arsenate, As(V), with As(III) not detected in the alga extracts; total arsenic and As(V) are therefore kept separate throughout this page.
 
 ## Key numbers
@@ -100,6 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [d58060e82](https://github.com/paleofoundation/heavymetalindex/commit/d58060e82) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

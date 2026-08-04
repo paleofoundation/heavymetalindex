@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # de Paiva, Medeiros, Fioravanti, Milani, Morgano, Pallone, Arisseto-Bragotto 2020 — Aluminium in infant foods: total content and bioaccessibility
 
+## Overview
+
 This Journal of Food Composition and Analysis article from UNICAMP (Faculty of Food Engineering) and the Institute of Food Technology (ITAL) Campinas is the primary Brazilian-market Al occurrence survey for infant foods, covering 95 samples across 9 commercial brands in four product categories: salty purees, fruit purees, infant drinks, and petit-suisse. Two distinguishing features: it pairs total-Al measurement by ICP-OES with an optimized in vitro gastrointestinal-digestion protocol to estimate bioaccessibility, and it documents a dramatic 95-fold spread in bioaccessibility (0.5 to 48 percent) across sample compositions, demonstrating that total Al substantially overestimates actual gut absorption for many infant food matrices. The headline numbers: petit-suisse reached 4170 µg/kg, soy-based drink 2860 µg/kg, salty purees containing zucchini-lettuce-lentil-sweet-potato-egg 2760 µg/kg, salty puree containing zucchini-sweet-potato-lettuce-beans-egg-yolk 2310 µg/kg. Consumption of three portions per day of soy-based drink could reach the PTWI for Al.
 
 ## Key numbers
@@ -97,6 +99,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1fa17efaf](https://github.com/paleofoundation/heavymetalindex/commit/1fa17efaf) | 2026-05-11 | major | 7 sections added; narrative text revised |

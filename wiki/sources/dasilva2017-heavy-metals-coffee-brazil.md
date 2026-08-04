@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # da Silva et al. 2017 - heavy metals in Brazilian roasted coffee and brew
 
+## Overview
+
 This study measured Cd, Cr, Cu, Mn, Ni, Pb, and Zn in 50 arabica coffee samples from the Cerrado Mineiro / Alto Paranaiba region of Minas Gerais, Brazil, after medium roasting and grinding. The authors also prepared coffee infusions and estimated metal leaching from roasted/ground coffee into a 50 mL brew. The strongest source signal is Pb and Cr in roasted/ground coffee, with Pb and Cr also showing the highest average leaching percentages into infusion.
 
 ## Key numbers
@@ -132,8 +134,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [780788af0](https://github.com/paleofoundation/heavymetalindex/commit/780788af0) | 2026-05-20 | minor | Narrative text revised |
-| [66642fe4e](https://github.com/paleofoundation/heavymetalindex/commit/66642fe4e) | 2026-05-19 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

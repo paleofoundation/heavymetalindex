@@ -91,29 +91,7 @@ created_routed_sources: 4
 
 # Cabbage
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 6/10 HMTc analytes, total n=17 | labeled data-gaps: iAs, Sn |
-| D2 Regional coverage | OK | 13 jurisdictions, top NG 18% | — |
-| D3 Anthropogenic evidence | GAP | 3 irrigation-water + 1 soil + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 3 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr POOLABLE | tAs: needs 1 more study(ies); tHg: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 5 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming cabbage: islam2007-dietary-toxicity-vegetables-food-crops |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 1 more study(ies); tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Cabbage (Brassica oleracea var. capitata) is the head-forming leafy vegetable consumed fresh as slaw, fermented as sauerkraut and kimchi, and cooked in countless preparations. As a brassica, cabbage sits at the middle of the vegetable-category heavy-metals risk distribution: lower than open-leaf greens (spinach, kale) because the compact head structure reduces surface-area-to-volume ratio and atmospheric Pb deposition, but a moderate Cd accumulator because brassicas as a family tend to take up cadmium efficiently from soil. The current corpus loads 4 sources directly routed to cabbage plus broader vegetable surveys reachable via the routing layer: Armand 2026 Behbahan Iran probabilistic lettuce-and-cabbage risk assessment (n=40, [[sources/armand2026-lettuce-cabbage-behbahan]]), Islam 2007 dietary toxicity in vegetables and food crops covering cabbage cross-context ([[sources/islam2007-dietary-toxicity-vegetables-food-crops]]), Okonofua 2024 Nigerian mining-pits cabbage-fish-water bioaccumulation work (n=48, [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria]]), Reczajska 2005 Polish 272-sample chromium in plant foods including cabbage ([[sources/reczajska2005-chromium-plant-foods-poland]]), See 2025 Malaysian leafy-vegetable ICP-OES panel (n=12, [[sources/see2025-malaysia-leafy-vegetables-icp-oes]]).
 
@@ -183,19 +161,19 @@ The Codex Alimentarius General Standard CXS 193-1995 applies the brassica-vegeta
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Armand R, Rafati L, Mohammadi H, and Armand N (2026). *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*. Scientific Reports. [https://doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w). Peer-reviewed, A-tier. [[sources/armand2026-lettuce-cabbage-behbahan|Source record]]
-2. Islam EU, Yang XE, He ZL, and Mahmood Q (2007). *Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops*. Journal of Zhejiang University Science B. [https://doi.org/10.1631/jzus.2007.B0001](https://doi.org/10.1631/jzus.2007.B0001). Review, B-tier. [[sources/islam2007-dietary-toxicity-vegetables-food-crops|Source record]]
-3. Okonofua ES, Komolafe AS, Emeribe CN, Ogbomida ET, and Butu AW (2024). *Analysis of Bioaccumulation of Heavy Metals in Water, Cabbage (Brassica oleracea var. capitata) and Tilapia Fish (Oreochromis niloticus) from Unreclaimed Mining Pits*. Earth Sciences Pakistan. [https://doi.org/10.26480/esp.02.2024.134.139](https://doi.org/10.26480/esp.02.2024.134.139). Peer-reviewed, B-tier. [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria|Source record]]
-4. Reczajska W, Jedrzejczak R, and Szteke B (2005). *Determination of Chromium Content of Food and Beverages of Plant Origin*. Polish Journal of Food and Nutrition Sciences. Peer-reviewed, A-tier. [[sources/reczajska2005-chromium-plant-foods-poland|Source record]]
-5. See SN, Pak Dek MS, Sanny M, Shukri R, and Ramli NS (2025). *Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia*. Pertanika Journal of Tropical Agricultural Science. [https://doi.org/10.47836/pjtas.48.1.12](https://doi.org/10.47836/pjtas.48.1.12). Peer-reviewed, B-tier. [[sources/see2025-malaysia-leafy-vegetables-icp-oes|Source record]]
+1. [[sources/armand2026-lettuce-cabbage-behbahan|Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation]]<span class="hmi-ref-meta">Armand R, Rafati L, Mohammadi H, and Armand N · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/islam2007-dietary-toxicity-vegetables-food-crops|Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops]]<span class="hmi-ref-meta">Islam EU, Yang XE, He ZL, and Mahmood Q · Journal of Zhejiang University Science B · 2007 · [doi.org/10.1631/jzus.2007.B0001](https://doi.org/10.1631/jzus.2007.B0001)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/okonofua2024-mining-pits-cabbage-fish-nigeria|Analysis of Bioaccumulation of Heavy Metals in Water, Cabbage (Brassica oleracea var. capitata) and Tilapia Fish (Oreochromis niloticus) from Unreclaimed Mining Pits]]<span class="hmi-ref-meta">Okonofua ES, Komolafe AS, Emeribe CN, Ogbomida ET, and Butu AW · Earth Sciences Pakistan · 2024 · [doi.org/10.26480/esp.02.2024.134.139](https://doi.org/10.26480/esp.02.2024.134.139)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/reczajska2005-chromium-plant-foods-poland|Determination of Chromium Content of Food and Beverages of Plant Origin]]<span class="hmi-ref-meta">Reczajska W, Jedrzejczak R, and Szteke B · Polish Journal of Food and Nutrition Sciences · 2005</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/see2025-malaysia-leafy-vegetables-icp-oes|Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia]]<span class="hmi-ref-meta">See SN, Pak Dek MS, Sanny M, Shukri R, and Ramli NS · Pertanika Journal of Tropical Agricultural Science · 2025 · [doi.org/10.47836/pjtas.48.1.12](https://doi.org/10.47836/pjtas.48.1.12)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -227,9 +205,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

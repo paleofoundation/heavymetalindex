@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Altunay et al. 2023 — Cadmium in 13 Turkish market foods by FAAS, Sivas
 
+## Overview
+
 Altunay et al. developed a vortex-assisted dispersive solid-phase microextraction (VA-dSPµE) method using a novel polyvinyl benzyl xanthate (PvbXa) adsorbent for ultra-sensitive cadmium determination by flame atomic absorption spectrophotometry (FAAS). The method was applied to 13 food commodities purchased from a greengrocer in Sivas, Turkey. Method LOD: 0.06 µg/L (in solution); LOQ: 0.20 µg/L; preconcentration factor 160; linear range 0.20–150 µg/L. The primary purpose is method development and validation, but Table 6 provides Cd concentrations in 13 real food matrices from Turkish market. The authors conclude results fall within WHO limits, stating no health risk.
 
 **Caution on reported values:** The Cd concentrations in Table 6 are in µg/g (ppm), not µg/kg (ppb). For context, the EU MRL for Cd in cereals (including rice) is 0.1 mg/kg (100 µg/kg = 0.1 µg/g); for leafy vegetables it is 0.2 mg/kg. Several reported values in this paper — including onion at 2.08 µg/g (2080 µg/kg, 20× EU MRL for vegetables), spinach at 0.89 µg/g (8.9× EU MRL), salad at 1.15 µg/g, mushroom at 1.14 µg/g, white rice at 0.95 µg/g (9.5× the rice EU MRL) — are extraordinarily high compared to established surveillance data. The authors state results are within WHO limits, but do not show the comparison. These values are anomalously high relative to any peer-reviewed surveillance study in the literature. The values should be treated with caution; they may reflect a concentrating effect of the extraction procedure, matrix-specific interference, or a unit/dilution reporting error in the paper.
@@ -80,6 +82,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3f107ba96](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba96) | 2026-05-12 | major | 4 sections added; narrative text revised |

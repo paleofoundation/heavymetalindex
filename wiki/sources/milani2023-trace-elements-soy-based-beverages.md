@@ -23,6 +23,8 @@ updated: 2026-05-07
 # Milani 2023 - Trace Elements In Soy-Based Beverages
 
 
+## Overview
+
 This A-tier peer-reviewed paper is the first promoted Category 5 occurrence source for the soy-based plant-milk row. It measured 18 soy-based beverages from Campinas, Brazil, grouped by soy source, using ICP-OES. It provides usable finished-product values for Al, As, Cd, Ni, Pb, Sn, and other trace elements, plus an Al exposure estimate for one 200 mL serving.
 
 ## Key numbers
@@ -65,8 +67,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
-| [48511e9c2](https://github.com/paleofoundation/heavymetalindex/commit/48511e9c2) | 2026-05-02 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

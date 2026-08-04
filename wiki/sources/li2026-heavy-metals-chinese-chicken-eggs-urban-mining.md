@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study quantified ten heavy metals (Cr, Mn, Co, Ni, Cu, Zn, As, Se, Cd, Pb) in 90 chicken eggs from nine areas across China by ICP-MS, comparing free-range eggs from non-mining cities and three mining areas against commercial eggs from supermarkets. All samples complied with China's National Food Safety Standard for Contaminants in Foods (GB 2762-2022) and with FAO/WHO and EU permissible limits as cited by the authors. Within the same region, free-range eggs consistently carried higher heavy-metal levels than commercial eggs; mining-area free-range eggs were 1.5 to 3.5 times higher in Cd, Pb, and Cr than commercial or non-mining free-range eggs. Monte Carlo–simulated 95th-percentile hazard indices remained below 1 for males, females, and children in every area. The 95th-percentile total carcinogenic risk for children exceeded the USEPA 1×10⁻⁴ threshold in seven of nine areas, driven primarily by Cr, which accounted for 60–75% of TCR across the four areas exceeding the threshold (DG-F, SJZ-F, DZ, EM).
 
 ## Key numbers
@@ -128,7 +130,7 @@ App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, t
 
 (c) The prior `## Key numbers` compliance line read "Pb: <0.02 mg/kg in all samples (China national standard)." This conflated the measured Pb upper bound (the corpus maximum is 0.018 mg/kg) with the regulatory standard (GB 2762-2022 Pb ≤ 0.2 mg/kg for eggs). The two values differ by a factor of ten; the prior line implied the standard is 0.02 mg/kg. Corrected — the standards are now stated separately from the measured ranges.
 
-(d) The prior `## Implications` Certification line began "This study confirms that even in a heavily industrialized/mining country, eggs can meet national food safety standards…" — a synthesis claim about literature consensus that violates CLAUDE.md Part 2 (the wiki reports what this single paper found, not how it relates to other literature). Rewritten to describe what the paper itself documents about this corpus.
+(d) The prior `## Implications` Certification line began "This study confirms that even in a heavily industrialized/mining country, eggs can meet national food safety standards…" — a synthesis claim about literature consensus that violates (the wiki reports what this single paper found, not how it relates to other literature). Rewritten to describe what the paper itself documents about this corpus.
 
 (e) The prior `## Implications` Courses line ("free-range production systems that allow foraging on contaminated soil produce eggs with higher heavy metal loads, reversing the common consumer assumption that free-range means safer") had consumer-audience risk-advisory tone with editorial framing ("reversing the common consumer assumption…"). Rewritten to state the paper's documented finding without editorializing.
 
@@ -153,8 +155,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [33065a444](https://github.com/paleofoundation/heavymetalindex/commit/33065a444) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

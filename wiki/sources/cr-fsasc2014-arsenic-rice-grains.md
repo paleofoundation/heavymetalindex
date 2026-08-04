@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Consumer Reports FSASC 2014 — Analysis of Arsenic in Rice and Other Grains
 
+## Overview
+
 Consumer Reports' Food Safety and Sustainability Center tested 128 samples of basmati, jasmine, and sushi rice purchased in 2014, combined those results with FDA data and their 2012 dataset to create a 697-sample composite, and analyzed 114 alternative grain samples to assess inorganic arsenic levels across rice types and grain alternatives. The headline finding is a statistically significant geographic effect: basmati rice from India, Pakistan, or California and U.S.-grown sushi rice had the lowest mean total inorganic arsenic concentrations of any rice category tested, while rice labeled from Arkansas, Louisiana, or Texas had the highest. Alternative grains including amaranth, millet, and quinoa showed significantly less inorganic arsenic than rice of any type.
 
 ## Key numbers
@@ -94,6 +96,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

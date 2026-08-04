@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Inada 2023 — Heavy metal regulations in herbal medicines across nine pharmacopoeias
 
+## Overview
+
 This paper compares the heavy metal regulatory limits for herbal medicines (Pb, Cd, Hg, As) as specified in nine major pharmacopoeias: Japanese (JP), European (EP), United States Pharmacopeia (USP), Chinese (ChP), Korean (KP), Taiwanese (TaiwanP), Indian (IP), British (BP), and the WHO guidelines. The analysis reveals substantial variation in allowable limits across jurisdictions, with some pharmacopoeias applying much stricter thresholds than others for the same analytes and matrices.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-refresher-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ed23f5f872ad1700e5806ab6e45dc1acd286bf5af790a88d15d139eb39f52c46",
-      "content_bytes": 8738,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "400f3ba603282fff829d788399db878ed9eaeb1cbb2661e2cf1d5483ea8a03dd",
+      "content_bytes": 8902,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/fabric-refresher-products.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/fabric-refresher-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
         "content_pin": {
-          "content_sha256": "1dc8080eea6791f6ec73a026ede9281f30d792fdb8d9ba739797a27c5e04ddea",
-          "content_bytes": 22400,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "a93ccbf7bdac65c8fe58c8095eeeea1e91b709b08525f84cc7ee2530dbc95196",
+          "content_bytes": 22571,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
         "content_pin": {
-          "content_sha256": "9f3fa9ceff5b2cafcbbec31ecf5b95a1af9b0da0990042fe7900a3321ac2baf1",
-          "content_bytes": 9141,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "81c46576248b026806e48c02d1f9ab4ec6b269767c6822e4b6c2ae64e761f432",
+          "content_bytes": 9839,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
         }
       }
     ]

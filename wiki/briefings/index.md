@@ -8,6 +8,8 @@ noindex: true
 
 # Weekly briefings
 
+## Overview
+
 Each entry is a 7-day summary of autonomy-loop output: new sources, synthesized cells, OA fetches, gaps closed, and the per-week Cochrane comparison.
 
 - [[briefings/weekly-2026-05-30|weekly-2026-05-30]]

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Sharma et al. 2023 — Phytoremediation mechanisms and metal-binding proteins for heavy metal soil remediation
 
+## Overview
+
 Sharma and colleagues review the four phytoremediation strategies used to remove heavy metals from contaminated soils — phytoextraction, phytostabilization, phytovolatilization, and rhizofiltration — and the plant molecular machinery (metal-binding proteins, transporters, and chelators) that underlies metal tolerance and accumulation. The review tabulates hyperaccumulator plant species reported in the primary literature for Zn, Cu, Ni, Cd, Pb, As, Hg, and Cr (Table 1), the plant proteins and genes involved in metal handling across model and crop species (Table 2), and plant–microbe consortia tested for assisted phytoremediation (Table 3). Biotechnological enhancement via genetic modification, biochar amendment, chelating agents, and plant growth-promoting rhizobacteria is discussed as a route to improve phytoextraction efficiency in candidate cereal and dicot species. The paper is open-access (CC BY) in Frontiers in Plant Science.
 
 ## Key numbers
@@ -132,9 +134,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [9aad74078](https://github.com/paleofoundation/heavymetalindex/commit/9aad74078) | 2026-05-18 | minor | Narrative text revised |
-| [e4f243f43](https://github.com/paleofoundation/heavymetalindex/commit/e4f243f43) | 2026-05-18 | major | 6 sections added and 4 removed; narrative text revised |
-| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

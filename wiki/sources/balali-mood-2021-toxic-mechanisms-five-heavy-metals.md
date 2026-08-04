@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Balali-Mood, Naseri, Tahergorabi, Khazdair, Sadeghi 2021 — Toxic mechanisms of five heavy metals: mercury, lead, chromium, cadmium, and arsenic
 
+## Overview
+
 This Frontiers in Pharmacology review from the Birjand University of Medical Sciences Medical Toxicology and Drug Abuse Research Center is the canonical mechanistic-toxicology cross-cutting reference for the five regulated toxic heavy metals (Hg, Pb, Cr, Cd, As). The paper consolidates the shared toxicity pathways — ROS generation, weakening of antioxidant defense, enzyme inactivation, oxidative stress — and the metal-specific mechanisms (Pb binding to aminolevulinic acid dehydratase and ferrochelatase blocking heme biosynthesis; Cr(VI) ternary DNA adducts via ascorbate reduction; Cd glutathione depletion and metallothionein binding; iAs SAM-depleting methylation and BER/NER inhibition; Hg thiol affinity disrupting selenoenzymes). Carcinogenicity of Cr, Cd, and iAs is attributed to oxidative stress-induced DNA damage combined with repair-pathway inhibition. The review is the cross-metal anchor that wiki pages on these five metals should cite for mechanistic context, in parallel with the metal-specific primary references.
 
 ## Key mechanistic findings
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3902221b1](https://github.com/paleofoundation/heavymetalindex/commit/3902221b1) | 2026-05-11 | major | 7 sections added; narrative text revised |

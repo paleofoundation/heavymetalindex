@@ -6,6 +6,8 @@ updated: 2026-04-30
 review: legal-counsel-needed
 ---
 
+## Overview
+
 This Privacy Notice explains how Heavy Metal Index handles personal data when you visit heavymetalindex.com or contact the Paleo Foundation about the site.
 
 ## Controller

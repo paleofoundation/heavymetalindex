@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Carignan, Cottingham, Jackson, Farzan, Gandolfi, Punshon, Folt, Karagas 2015 — Estimated arsenic exposure in breastfed and formula-fed U.S. infants
 
+## Overview
+
 This Environmental Health Perspectives paper from the Children's Environmental Health and Disease Prevention Research Center at Dartmouth (Carignan, Cottingham, Jackson, Punshon, Folt, Karagas) plus University of Arizona (Gandolfi) and other collaborators reports estimated arsenic exposure in a U.S. infant cohort comparing breastfed and formula-fed infants. The paper uses urinary arsenic biomarkers paired with dietary intake assessment to characterize per-feeding-mode infant arsenic exposure. The Dartmouth group's New Hampshire Birth Cohort is the canonical U.S. source for prospective infant-arsenic-exposure data; this 2015 paper, the related 2016 Carignan commentary, the 2016 Carignan first-year-of-life cohort paper (NIHMS-760843), and the Pikounis-Cottingham urinary biomarkers paper together form the U.S. infant-As prospective evidence cluster.
 
 ## Key conclusions
@@ -51,6 +53,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |

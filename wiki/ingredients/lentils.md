@@ -88,29 +88,7 @@ sources: 24
 
 # Lentils
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: occasional) | OK | 8/10 HMTc analytes, total n=45 | — |
-| D2 Regional coverage | OK | 23 jurisdictions, top EU 32% | — |
-| D3 Anthropogenic evidence | GAP | 2 drinking-water + 1 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 3 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd CONFIDENT, iAs THIN, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn POOLABLE, tAs THIN | iAs: needs 1 more study(ies); Ni: THIN; Al: needs 2 more study(ies); Cr: THIN; tAs: THIN |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 7 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming lentils: fsa2016-infant-food-formula-metals-survey |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 4 rule link(s), 7 metal(s) covered | unmapped analytes: Al, Cr |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs; pairing 0 paired, 9 single, 0 unpaired | iAs: THIN, needs 1 more study(ies); Ni: THIN; Al: THIN, needs 2 more study(ies); Cr: THIN; tAs: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -188,21 +166,21 @@ EU Regulation 2023/915 sets a maximum level for Cd in dried legumes (pulses) of 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
-2. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2020). *Update of the Risk Assessment of Nickel in Food and Drinking Water*. EFSA Journal 2020;18(11):6268. [https://doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268). Government report, A-tier. [[sources/efsa-nickel-contam-2020|Source record]]
-3. Nordberg GF, Nogawa K, and Nordberg M (2015). *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*. Academic Press / Elsevier, Amsterdam. [https://doi.org/10.1016/B978-0-444-59453-2.00032-9](https://doi.org/10.1016/B978-0-444-59453-2.00032-9). Textbook chapter, A-tier. [[sources/nordberg2015-cadmium-chapter|Source record]]
-4. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2009). *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*. The EFSA Journal. [https://doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980). Government report, A-tier. [[sources/efsa-cadmium-contam-2009|Source record]]
-5. Bandara JMRS, Wijewardena HVP, Liyanege J, Upul MA, and Bandara JMUA (2010). *Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution*. Toxicology Letters 198(1):33–39. [https://doi.org/10.1016/j.toxlet.2010.04.016](https://doi.org/10.1016/j.toxlet.2010.04.016). Peer-reviewed, A-tier. [[sources/bandara2010-cadmium-rice-sri-lanka-crf|Source record]]
-6. Ventura M, Rego A, Gueifão S, Delgado I, and Coelho I (2025). *Dietary Exposure to Essential and Toxic Trace Elements in the Portuguese Population: A Total Diet Study Approach*. Foods. [https://doi.org/10.3390/foods15050838](https://doi.org/10.3390/foods15050838). Peer-reviewed, A-tier. [[sources/ventura2025-portuguese-total-diet-study-trace-elements|Source record]]
-7. Valizadeh Moghadam Jirandehi H, Nourieh N, Yazdanfar N, and Kashi G (2023). *Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Beans and Fava Beans Distributed in Gilan Province of Iran*. Scientific Reports (published 2023; open access). [https://doi.org/10.1038/s41598-025-34271-1](https://doi.org/10.1038/s41598-025-34271-1). Peer-reviewed, A-tier. [[sources/valizadeh2023-canned-beans-iran-health-risk|Source record]]
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/nordberg2015-cadmium-chapter|Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals]]<span class="hmi-ref-meta">Nordberg GF, Nogawa K, and Nordberg M · Academic Press / Elsevier, Amsterdam · 2015 · [doi.org/10.1016/B978-0-444-59453-2.00032-9](https://doi.org/10.1016/B978-0-444-59453-2.00032-9)</span><span class="hmi-ref-tag">Textbook</span>
+4. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/bandara2010-cadmium-rice-sri-lanka-crf|Chronic Renal Failure in Sri Lanka Caused by Elevated Dietary Cadmium: Trojan Horse of the Green Revolution]]<span class="hmi-ref-meta">Bandara JMRS, Wijewardena HVP, Liyanege J, Upul MA, and Bandara JMUA · Toxicology Letters 198(1):33–39 · 2010 · [doi.org/10.1016/j.toxlet.2010.04.016](https://doi.org/10.1016/j.toxlet.2010.04.016)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/ventura2025-portuguese-total-diet-study-trace-elements|Dietary Exposure to Essential and Toxic Trace Elements in the Portuguese Population: A Total Diet Study Approach]]<span class="hmi-ref-meta">Ventura M, Rego A, Gueifão S, Delgado I, and Coelho I · Foods · 2025 · [doi.org/10.3390/foods15050838](https://doi.org/10.3390/foods15050838)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/valizadeh2023-canned-beans-iran-health-risk|Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Beans and Fava Beans Distributed in Gilan Province of Iran]]<span class="hmi-ref-meta">Valizadeh Moghadam Jirandehi H, Nourieh N, Yazdanfar N, and Kashi G · Scientific Reports (published 2023; open access) · 2023 · [doi.org/10.1038/s41598-025-34271-1](https://doi.org/10.1038/s41598-025-34271-1)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -239,9 +217,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 3 sources added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

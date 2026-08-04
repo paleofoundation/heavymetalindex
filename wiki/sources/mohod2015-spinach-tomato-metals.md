@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Mohod 2015 - metals in spinach and tomato near Amba Nalla
 
+## Overview
+
 Mohod reports AAS measurements of heavy metals in spinach leaf and tomato grown near Amba Nalla in Amravati City, India. Despite the title using the word review, the abstract describes measured vegetable samples and gives numeric Pb and Cd values. The source is routeable to spinach but should be treated cautiously because reporting quality is limited.
 
 ## Key numbers
@@ -68,8 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [69ec0f6c7](https://github.com/paleofoundation/heavymetalindex/commit/69ec0f6c7) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

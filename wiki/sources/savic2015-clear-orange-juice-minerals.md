@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Savic et al. 2015 - minerals in clear orange juices
 
+## Overview
+
 This study measured 23 mineral and trace elements in seven clear orange-juice samples purchased from the Leskovac, Serbia local market. The paper is direct non-apple fruit-juice occurrence evidence. Its main HMT&C signal is high total arsenic in all seven samples and lead detected in all seven samples (sample VI an outlier maximum at 1.19 mg/L), with cadmium detected in three samples.
 
 ## Key numbers
@@ -105,8 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5e63b5d46](https://github.com/paleofoundation/heavymetalindex/commit/5e63b5d46) | 2026-05-19 | minor | Narrative text revised |
-| [e20cbe140](https://github.com/paleofoundation/heavymetalindex/commit/e20cbe140) | 2026-05-19 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

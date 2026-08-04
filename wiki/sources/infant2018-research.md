@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Eticha et al. 2018 — Lead and cadmium in milk-based infant formula, Ethiopia
 
+## Overview
+
 Authors analyzed five milk-based infant formula brands sold in Mekelle, Ethiopia using flame atomic absorption spectrophotometry. Cadmium was not detected in any sample. Lead ranged from not detected to 0.103 mg/kg across brands. Estimated daily intake values for both metals were below regulatory safety limits (PTWI for lead: 25 µg/kg bw/week; PTWI for cadmium: 7 µg/kg bw/week). The findings indicate low acute health risk from these metals through infant formula consumption, though the authors note that regular monitoring remains critical given infants' heightened susceptibility to metal absorption and effects.
 
 ## Key numbers
@@ -66,7 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [db5b2a825](https://github.com/paleofoundation/heavymetalindex/commit/db5b2a825) | 2026-05-20 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

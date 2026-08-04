@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Molina et al. 2023 — Mercury accumulation in Buenaventura Bay sediments
 
+## Overview
+
 This study investigates the environmental variables controlling spatiotemporal dynamics of total mercury (tHg) accumulation in sediments of Buenaventura Bay, a tropical estuary on the Colombian Pacific coast heavily impacted by anthropogenic activity including illegal artisanal gold mining, domestic wastewater, and industrial discharges. Sediment samples were collected across four areas representing a salinity gradient from river-influenced interior to marine-influenced exterior, in both dry and rainy seasons, to depths of 15 cm. tHg in sediments was higher in the rainy season than the dry season and higher in interior estuarine areas than exterior areas, consistent with a pattern driven by organic matter transport and freshwater input from mercury-contaminated tributaries. Generalized additive modelling identified organic matter content and salinity as the primary predictors of tHg accumulation. Historical records show tHg concentrations in Buenaventura Bay water increased 22-fold between 1995 and 2002, attributed largely to artisanal gold mining in tributary rivers. The study documents a food-chain pathway by which mercury reaches benthic fauna and thence to fish harvested for human consumption.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

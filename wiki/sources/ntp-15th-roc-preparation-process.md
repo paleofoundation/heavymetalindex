@@ -30,6 +30,8 @@ updated: 2026-06-04
 
 # NTP (2021) — Process for Preparation of the Report on Carcinogens (RoC 15th Edition Front Matter)
 
+## Overview
+
 A two-page procedural insert reproduced in the front matter of the Report on Carcinogens, Fifteenth Edition (December 2021), prepared by the U.S. National Toxicology Program (NTP) on behalf of the Secretary of Health and Human Services. The insert describes the four-part NTP process by which a substance, mixture, exposure circumstance, or other agent becomes listed in the RoC as either *known to be a human carcinogen* or *reasonably anticipated to be a human carcinogen*, the two RoC listing categories. The Report on Carcinogens is a Congressionally-mandated, science-based public health document; each edition is cumulative and incorporates newly reviewed substances alongside those previously listed. The document contains no primary contamination measurements, exposure data, or substance-specific carcinogenicity findings; its contribution to the Heavy Metal Index corpus is as the primary-record procedural account of how the RoC listing recommendations cited elsewhere in the corpus (notably [[ntp-15th-roc-nickel-2021]] for nickel compounds and metallic nickel) are produced.
 
 ## Key numbers
@@ -87,7 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

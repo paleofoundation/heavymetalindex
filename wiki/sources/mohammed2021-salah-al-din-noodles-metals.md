@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Mohammed et al. 2021 — Copper, cadmium, and lead in noodles from Salah Al-din markets
 
+## Overview
+
 Mohammed and colleagues measured mycotoxins, fungi, and selected heavy metals in ten noodle types collected from markets in Salah Al-din Governorate, Iraq. The heavy-metal occurrence portion reports per-sample copper and cadmium values in Figures 4 and 5 (n=10) plus the abstracted ranges, and a censored Pb result of less than 0.1 ppm in all ten samples. The paper reports total-element Cu, Cd, and Pb only; it does not report arsenic, mercury, chromium, or metal speciation.
 
 ## Key numbers
@@ -63,8 +65,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [3578c74dd](https://github.com/paleofoundation/heavymetalindex/commit/3578c74dd) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c216f2486](https://github.com/paleofoundation/heavymetalindex/commit/c216f2486) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

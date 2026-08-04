@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Kiczorowski et al. 2022 - lead and cadmium in raw and fermented vegetables
 
+## Overview
+
 Kiczorowski and coauthors compared raw and fermented vegetables for nutrients, minerals, vitamins, phenols, lead, and cadmium. The paper is directly useful for processing-effect evidence because the same vegetable types were compared before and after fermentation. It does not support the mineral-water row named in the fetched filename.
 
 ## Key numbers
@@ -85,8 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [434c53603](https://github.com/paleofoundation/heavymetalindex/commit/434c53603) | 2026-06-09 | minor | Narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

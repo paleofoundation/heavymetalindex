@@ -15,6 +15,8 @@ n_sources: 2
 
 # Chromium, Hexavalent
 
+## Overview
+
 Hexavalent chromium (Cr-VI, Cr(VI), or Cr6+) is the high-oxidation-state form of chromium found in chromate (CrO4^2-) and dichromate (Cr2O7^2-) anions. The species is operationally distinct from trivalent chromium (Cr3+), which is far less toxic and was historically (and contestedly) treated as an essential trace nutrient. The Heavy Metal Index maintains the Cr-VI / Cr(III) split throughout, treating hexavalent chromium as a separate analyte from total or trivalent chromium. Total chromium reported by a source is never substituted for Cr-VI on this wiki; sources that do not speciate are routed to [chromium](/metals/chromium) as total chromium and labeled as such. See also [chromium](/metals/chromium) for the parent element page.
 
 ## Toxicology
@@ -73,25 +75,54 @@ What Cr-VI speciation evidence exists outside the infant-formula matrix? Drinkin
 
 How do supply-chain Cr-VI exposures (chromated wood pallets, chromate-containing process equipment, chromated leather and gelatin) propagate into finished food? This is a manufacturing and packaging question, not a primary-agriculture question, and the loaded sources do not address it.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### What is hexavalent chromium and how is it different from regular chromium?
+
+Hexavalent chromium (Cr-VI) is the high-oxidation-state form of chromium found in chromate and dichromate anions, and it is operationally distinct from trivalent chromium (Cr3+), which is far less toxic and was historically treated as an essential trace nutrient. The wiki keeps the two species separate throughout and never substitutes total chromium reported by a source for Cr-VI. Sources that do not distinguish the species are routed to the total-chromium page and labeled as such.
+
+### Why is hexavalent chromium considered harmful?
+
+Once inside a cell, Cr-VI is reduced to Cr(III) through reactive intermediates, generating reactive oxygen species and DNA damage along the way. According to [[sources/ufelle2021-metals-chapter|Ufelle and Barchowsky 2021]], its principal toxic endpoints are corrosive injury at high acute exposure, allergic contact dermatitis on chronic skin contact, acute renal injury after high-dose ingestion, and lung cancer and genotoxicity after inhalation. Its carcinogenicity is best characterized for inhalation exposure, while carcinogenicity by ingestion is documented in animal studies.
+
+### How would hexavalent chromium get into food?
+
+Inhalation is the dominant Cr-VI exposure route but falls outside this wiki's dietary scope. For food and the supply chain, the relevant pathways are drinking and process water used in food preparation and manufacturing, and contact with chromated stainless steel, chromated wood preservatives, or other chromate-bearing materials in equipment, packaging, or storage. Geogenic Cr-VI in groundwater is documented in regions with serpentinite or chromite-bearing geology and in some agricultural watersheds.
+
+### How much hexavalent chromium is actually found in food?
+
+The wiki notes that in finished food matrices ambient chromium is overwhelmingly trivalent, and nearly all occurrence data report total chromium rather than Cr-VI. The only food-occurrence source that reports Cr-VI explicitly is [[sources/soares2000-chromium-vi-powdered-milk-formulas|Soares et al. 2000]], which measured 20 commercial powdered milk infant formulas from the Portuguese market; the seven newborn-formula samples had a Cr-VI mean of 24 ppb and a range from below 10 to 75 ppb, with the low end censored at the method limit. That dataset is small and market-specific, so it provides context for dairy-based powdered formula but cannot support broad conclusions on its own.
+
+### Are there legal limits on hexavalent chromium in food?
+
+No regulation in the current wiki corpus sets a Cr-VI maximum level for a food matrix. The frameworks that do impose Cr-VI limits are in adjacent domains, including drinking-water standards such as California's state-level Cr-VI maximum contaminant level of 10 ug/L, occupational inhalation exposure limits, and California Proposition 65 listings of Cr-VI as a carcinogen and reproductive toxicant. Codex Alimentarius general standards do not separately specify Cr-VI for food.
+
+### Why is it so hard to test food specifically for hexavalent chromium?
+
+Selective Cr-VI measurement is difficult because the total digestion methods typical of routine occurrence surveys, such as microwave-assisted nitric acid digestion for ICP-MS, reduce Cr-VI to Cr(III) and report only total chromium. Speciation-preserving methods must route the analyte through an ion-exchange or chromatographic step first; modern work typically uses ion chromatography coupled to ICP-MS, and drinking-water Cr-VI is most commonly measured by EPA Method 218.7. Because speciation methods are uncommon in routine surveys, the wiki holds many total-chromium values but only one Cr-VI food dataset.
+<!-- END: hmi-metal-faq -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
-2. Maria E Soares, Maria L Bastos, and Margarida Ferreira (2000). *Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange*. Journal of AOAC International 83(1):220-223. [https://doi.org/10.1093/jaoac/83.1.220](https://doi.org/10.1093/jaoac/83.1.220). Peer-reviewed, A-tier. [[sources/soares2000-chromium-vi-powdered-milk-formulas|Source record]]
-3. Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley (2013). *The aluminium content of infant formulas remains too high*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162). Peer-reviewed, A-tier. [[sources/chuchu2013-aluminium-in-infant-formulas|Source record]]
-4. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
-5. Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S (2023). *Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986). Peer-reviewed, A-tier. [[sources/milani2023-trace-elements-soy-based-beverages|Source record]]
-6. Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. (2019). *Trace element contents in foods from the first French Total Diet Study on infants and toddlers*. Journal of Food Composition and Analysis. [https://doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002). Peer-reviewed, A-tier. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Source record]]
-7. Chung S and et al. (2021). *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*. Foods 9(12):1839. [https://doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839). Peer-reviewed, A-tier. [[sources/chung2021-china-infant-formula-toxic-elements|Source record]]
-8. Meli MA, Desideri D, Sisti D, Fagiolino I, and Roselli C (2024). *Chemical characterization of baby food consumed in Italy*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0297158](https://doi.org/10.1371/journal.pone.0297158). Peer-reviewed, A-tier. [[sources/meli2024-chemical-characterization-baby-food-italy|Source record]]
+1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
+2. [[sources/soares2000-chromium-vi-powdered-milk-formulas|Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange]]<span class="hmi-ref-meta">Maria E Soares, Maria L Bastos, and Margarida Ferreira · Journal of AOAC International 83(1):220-223 · 2000 · [doi.org/10.1093/jaoac/83.1.220](https://doi.org/10.1093/jaoac/83.1.220)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/chuchu2013-aluminium-in-infant-formulas|The aluminium content of infant formulas remains too high]]<span class="hmi-ref-meta">Nancy Chuchu, Bhavini Patel, Blaise Sebastian, and Christopher Exley · BMC Pediatrics · 2013 · [doi.org/10.1186/1471-2431-13-162](https://doi.org/10.1186/1471-2431-13-162)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/milani2023-trace-elements-soy-based-beverages|Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility]]<span class="hmi-ref-meta">Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/chekri2019-french-infant-toddler-tds-trace-elements|Trace element contents in foods from the first French Total Diet Study on infants and toddlers]]<span class="hmi-ref-meta">Rachida Chekri, Emilie Le Calvez, Julie Zinck, Jean-Charles Leblanc, Veronique Sirot, Marion Hulin, et al. · Journal of Food Composition and Analysis · 2019 · [doi.org/10.1016/j.jfca.2019.02.002](https://doi.org/10.1016/j.jfca.2019.02.002)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/chung2021-china-infant-formula-toxic-elements|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market]]<span class="hmi-ref-meta">Chung S and et al. · Foods 9(12):1839 · 2021 · [doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/meli2024-chemical-characterization-baby-food-italy|Chemical characterization of baby food consumed in Italy]]<span class="hmi-ref-meta">Meli MA, Desideri D, Sisti D, Fagiolino I, and Roselli C · PLOS ONE · 2024 · [doi.org/10.1371/journal.pone.0297158](https://doi.org/10.1371/journal.pone.0297158)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -178,9 +209,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 9 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sources added; 2 sections added and 1 removed; narrative text revised |
-| [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [5757c0098](https://github.com/paleofoundation/heavymetalindex/commit/5757c0098) | 2026-05-13 | major | 2 sources removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Liu et al. 2025 - heavy metals in Nanyang Basin soil-crop system
 
+## Overview
+
 Liu and coauthors measured As, Cd, Cr, Hg, and Pb in soils and crops from the Nanyang Basin, including 114 peanut samples. The source is routeable to peanuts because crop-tissue concentrations are part of the measured soil-crop system, although the paper is primarily a regional pollution-risk assessment. It should be used as China/Nanyang context rather than silently pooled with other markets.
 
 ## Key numbers
@@ -68,8 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [acbf3fe68](https://github.com/paleofoundation/heavymetalindex/commit/acbf3fe68) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

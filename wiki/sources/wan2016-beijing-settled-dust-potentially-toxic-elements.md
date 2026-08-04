@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Wan et al. 2016 - Potentially toxic elements in Beijing settled dust
 
+## Overview
+
 Wan and colleagues measured twelve potentially toxic elements in 62 settled-dust samples from the Beijing urban area and used those concentrations in a US EPA-style exposure model. This is primary environmental and health-risk evidence, not food, ingredient, cosmetic, or consumer-product occurrence evidence. Its main value for the index is context: dust ingestion as a child exposure pathway, total-element method notes, and the relative contribution of arsenic, lead, and antimony to non-cancer hazard in an urban dust setting.
 
 ## Key numbers
@@ -89,6 +91,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [4c9bd4a13](https://github.com/paleofoundation/heavymetalindex/commit/4c9bd4a13) | 2026-06-02 | major | 5 sections added; narrative text revised |

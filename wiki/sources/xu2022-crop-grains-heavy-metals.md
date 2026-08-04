@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Xu et al. 2022 - Heavy metals in rape, wheat, and rice grains near mining activity
 
+## Overview
+
 Xu and colleagues collected 81 crop-grain samples and 81 paired agricultural-soil samples from rape, wheat, and paddy fields in Tongling, China, and measured Cu, Zn, Pb, Cd, Fe, and Mn. The food endpoints are rape grain, wheat grain, and rice grain; the auto-fetch target of salt Cd is a false row fit. Cd and Pb were the most important food-safety findings: 96% of wheat grain and 60% of rice grain samples exceeded the cited Chinese Cd maximum levels, 70% of rice grain samples exceeded the cited Pb maximum level, and about 10% of rice grain samples exceeded 1.0 mg/kg Cd.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [bd42001f4](https://github.com/paleofoundation/heavymetalindex/commit/bd42001f4) | 2026-06-01 | major | 5 sections added; narrative text revised |

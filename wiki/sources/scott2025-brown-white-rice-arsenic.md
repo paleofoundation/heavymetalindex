@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Scott & Wu 2025 — Arsenic in brown vs. white rice in the United States
 
+## Overview
+
 This critical review compares arsenic exposure from brown and white rice consumption for U.S. populations, synthesizing existing literature on iAs and tAs concentrations and conducting dietary exposure calculations. Rice bran and brown rice consistently contain higher arsenic concentrations than white rice endosperm, because arsenic concentrates in the outer bran and germ layers that are retained in brown rice but removed by milling to produce white rice. The review finds that Americans who regularly consume brown rice have higher estimated dietary arsenic exposures than white-rice consumers. Because young children consume substantially more food per unit body weight than adults, brown rice consumption in young children produces disproportionately greater arsenic exposure increments. The authors conclude that, while no acute public health risk is indicated for the general U.S. population, risk-benefit analyses comparing arsenic exposure against nutritional benefits are warranted, and that public health nutrition messaging promoting brown rice over white rice does not adequately account for the arsenic differential, particularly for infants and young children.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

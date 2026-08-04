@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Welna et al. 2018 - Inorganic arsenic in brown rice sold in Poland
 
+## Overview
+
 This method-validation paper developed a non-chromatographic hydride-generation ICP-OES approach for inorganic arsenic in rice and applied it to nine brown rice samples sold in Poland. It is routeable for brown-rice occurrence context because Table 4 reports total arsenic, inorganic arsenic, organic arsenic by difference, and inorganic-arsenic percentage for each rice sample.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b5ce02642](https://github.com/paleofoundation/heavymetalindex/commit/b5ce02642) | 2026-05-26 | major | 5 sections added; narrative text revised |

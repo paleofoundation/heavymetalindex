@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Motta-Romero et al. 2021 — Cadmium accumulation in hard winter wheat grains across 80 years of breeding, with fungicide treatment effects
 
+## Overview
+
 This study evaluated the effects of fungicide application on grain yield, micronutrients, and cadmium (Cd) concentration in 20 hard winter wheat genotypes representing 80 years of US Great Plains breeding history (cultivar registration years 1870-2013). Field experiments were conducted at the University of Nebraska Eastern Nebraska Research and Extension Center (ENREC) near Mead, NE, known for elevated soil Cd concentrations (DTPA-extractable 0.16-0.26 mg/kg), across two growing seasons (2017 and 2018). Metals were measured by ICP-MS. The key finding for food safety is that grain Cd significantly increased over the 80-year breeding period at an annualized rate of 0.4 µg/kg/year in the absence of fungicide treatment (p<0.01), while essential micronutrients Fe and Zn declined. This suggests that modern hard winter wheat cultivars bred for yield may inadvertently accumulate more dietary Cd than older varieties. Fungicide application modified some of these trends.
 
 ## Key numbers
@@ -53,6 +55,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

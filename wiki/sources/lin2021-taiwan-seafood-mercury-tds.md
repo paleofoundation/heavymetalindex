@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Lin 2021 - Taiwan seafood mercury total diet study
 
+## Overview
+
 Lin, Nan, and Ling measured total mercury in 140 Taiwan seafood samples and compared raw and steam-cooked preparations. The study then estimated methylmercury exposure using literature-derived MeHg/THg ratios for seafood families. Measured occurrence values are total mercury; methylmercury values in this paper are converted estimates used for risk assessment, not directly measured MeHg concentrations.
 
 ## Key numbers
@@ -75,7 +77,7 @@ This source contributes Taiwan total-diet-study evidence for seafood total mercu
 - PDF text extracted with `pdftotext -layout`; title page, methods, Tables 1-4, Results sections, risk discussion, Table 5 text, and appendices were readable.
 - DOI `10.3390/ijerph182212227`, raw handle `MFK_ijerph-18-12227`, and cite-key checks found no existing source page before creation.
 - Table 1 sample counts, Table 4 THg values, MeHg/THg conversion ranges, MeHg estimated ranges, detection rates, and method recovery/LOD values were checked against extracted text. Units are preserved as `mg/kg`, `µg/kg BW/week`, and `g/week`; no conversion was performed.
-- Speciation: THg was measured directly; MeHg concentrations were estimated from literature MeHg/THg ratios and are not direct MeHg measurements. Per the CLAUDE.md Part 14 speciation rule, frontmatter `metals:` lists `tHg` only; including `MeHg` would feed converted estimates into MeHg occurrence pooling as if measured.
+- Speciation: THg was measured directly; MeHg concentrations were estimated from literature MeHg/THg ratios and are not direct MeHg measurements. Per the speciation rule, frontmatter `metals:` lists `tHg` only; including `MeHg` would feed converted estimates into MeHg occurrence pooling as if measured.
 - Brand firewall: no sampled seafood product brands were reported.
 - Missing closed-vocabulary slugs: cephalopod and crustacean product slugs are not present in the taxonomy snapshot, so those categories are documented in the body without invented frontmatter product slugs.
 
@@ -86,8 +88,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [96c06b3a0](https://github.com/paleofoundation/heavymetalindex/commit/96c06b3a0) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [6091c03d6](https://github.com/paleofoundation/heavymetalindex/commit/6091c03d6) | 2026-06-08 | major | 4 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

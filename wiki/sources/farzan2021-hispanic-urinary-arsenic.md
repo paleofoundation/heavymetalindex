@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Farzan et al. 2021 — Urinary arsenic in a Hispanic pregnancy cohort in Los Angeles
 
+## Overview
+
 This study examined urinary arsenic species (total As, inorganic As, MMA, DMA) in 241 low-income predominantly Hispanic pregnant women enrolled in the MADRES (Maternal And Developmental Risks from Environmental and Social stressors) cohort in Los Angeles, California. Total urinary arsenic ranged widely from 0.8 to 506.2 µg/L, with a mean of 9.0 µg/L. Demographic predictors of higher urinary arsenic included rice consumption and seafood consumption, with rice being a particularly important dietary predictor in this Hispanic cohort where rice is a dietary staple. The study highlights the food consumption-based arsenic exposure pathway as a significant contributor to inorganic arsenic body burden in a vulnerable population (pregnant women) and a minority group with distinctive dietary patterns. The iAs to DMA ratio reflects individual variation in arsenic methylation capacity.
 
 ## Key numbers
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

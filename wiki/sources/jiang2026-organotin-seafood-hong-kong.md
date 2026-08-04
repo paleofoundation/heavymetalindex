@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jiang 2026 - Organotins in Hong Kong seafood
 
+## Overview
+
 Jiang and colleagues assessed organotin compounds in Hong Kong seafood after the 2017 local ban on organotin antifouling systems on vessel hulls. The extracted source is a ScienceDirect article-preview printout, but the abstract and snippets report direct occurrence and exposure numbers for 23 marine species collected in 2023. The analytes are organotin compounds, including TBT and TPT; they are tin-organic species and should not be pooled as total tin.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [a063a8dd9](https://github.com/paleofoundation/heavymetalindex/commit/a063a8dd9) | 2026-06-08 | major | 4 sections added; narrative text revised |

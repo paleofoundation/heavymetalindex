@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Song et al. 2024 — Selenium-enriched Lactobacillus plantarum mitigation of cadmium accumulation
 
+## Overview
+
 Song et al. tested whether selenium-enriched *Lactobacillus plantarum* reduced cadmium-induced liver injury in mice. The paper is mitigation evidence for cadmium retention and gut-liver injury, not occurrence evidence for probiotic supplements or vitamin-mineral supplements.
 
 ## Key numbers
@@ -68,6 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [5eb4696b2](https://github.com/paleofoundation/heavymetalindex/commit/5eb4696b2) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

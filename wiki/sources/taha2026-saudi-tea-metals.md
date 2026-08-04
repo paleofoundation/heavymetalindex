@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Taha et al. 2026 - Metals in commercial tea in Saudi Arabia
 
+## Overview
+
 This Scientific Reports study measured heavy metals in 20 commercial tea samples imported into Saudi Arabia. It is routeable for true-tea and tea-infusion context, with brand identities deliberately omitted from the wiki page.
 
 ## Key numbers
@@ -64,6 +66,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d9d380dc](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380dc) | 2026-05-26 | major | 5 sections added; narrative text revised |

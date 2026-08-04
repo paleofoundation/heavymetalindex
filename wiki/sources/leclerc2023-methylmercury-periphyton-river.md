@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Leclerc et al. 2023 — MeHg bioaccumulation via periphyton in river food webs impounded by run-of-river dams
 
+## Overview
+
 This study examined how run-of-river (ROR) hydroelectric dam impoundment affects methylmercury (MMHg) production and bioaccumulation in the benthic food web of the St. Maurice River, Québec, Canada. The key finding is that flooded pondage areas created by ROR dams provide favorable environments for periphyton proliferation, and these periphytic biofilms can produce and accumulate MMHg. The proportion of total mercury present as MMHg reached maximum values approximately 2.9 times higher in flooded sites compared to unflooded sites. Periphyton MMHg concentrations significantly predicted MMHg concentrations in some benthic macroinvertebrates, demonstrating a local transfer pathway. Trophic magnification slopes did not differ significantly between flooded and unflooded sectors, but intercepts were higher in flooded sectors, indicating elevated MMHg at the base of the food web rather than altered biomagnification efficiency.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

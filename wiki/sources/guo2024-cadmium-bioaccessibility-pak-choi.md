@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Guo et al. 2024 — Cadmium bioaccessibility in pak choi with wollastonite and phosphate soil amendments
 
+## Overview
+
 This study investigates whether soil amendments (wollastonite, a calcium silicate mineral, combined with phosphate treatments) can reduce cadmium (Cd) concentrations and bioaccessibility in pak choi (Chinese cabbage, Brassica rapa ssp. chinensis) grown in Cd-contaminated agricultural soil. Pak choi is a staple leafy vegetable in Chinese diets and is well established as a high Cd-accumulating crop. The paper uses both total Cd measurement in plant tissue and an in vitro physiologically based extraction test (PBET) to estimate bioaccessible Cd fractions, linking these to a health risk assessment for Chinese consumers.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

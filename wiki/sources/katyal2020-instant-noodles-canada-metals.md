@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Katyal et al. 2020 - Lead, arsenic, and cadmium in Canadian instant noodles
 
+## Overview
+
 Katyal et al. measured lead, arsenic, and cadmium in 30 instant-noodle packets purchased from large grocery stores in Canada. The study is useful for the rice-noodle and wheat-based pasta/noodle rows because it directly compares rice-based and wheat-based instant noodles on a dry-product basis. The authors found that rice noodles had significantly higher lead and arsenic than wheat noodles, while cadmium did not differ significantly by grain base.
 
 ## Key numbers
@@ -81,8 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [07e898192](https://github.com/paleofoundation/heavymetalindex/commit/07e898192) | 2026-06-09 | minor | Narrative text revised |
 | [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
-| [d47f9951d](https://github.com/paleofoundation/heavymetalindex/commit/d47f9951d) | 2026-05-31 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

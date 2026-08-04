@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Van Hulle et al. 2004 - Laminaria ingestion arsenic metabolism
 
+## Overview
+
 Van Hulle and colleagues studied arsenic metabolites in human urine, blood, serum, and packed cells after healthy volunteers ingested Chinese supermarket *Laminaria*. The occurrence-relevant food matrix is the *Laminaria* sample itself; urine, blood, serum, packed-cell, and simulated-gastric-fluid values are retained as exposure and metabolism context. The source reports total arsenic in the seaweed and identifies DMA, MA, and DMAE as urinary metabolites, but it does not report an inorganic-arsenic concentration for the seaweed.
 
 ## Key numbers
@@ -99,6 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [b93e64e2f](https://github.com/paleofoundation/heavymetalindex/commit/b93e64e2f) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

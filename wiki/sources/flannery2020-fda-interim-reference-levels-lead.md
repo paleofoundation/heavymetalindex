@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Flannery, Dolan, Hoffman-Pennesi, Gavelek, Jones, Kanwal, Wolpert, Gensheimer, Dennis, Fitzpatrick 2020 — FDA interim reference levels for dietary lead exposure
 
+## Overview
+
 This Regulatory Toxicology and Pharmacology paper from a 10-author FDA team derives and documents the U.S. FDA Interim Reference Levels (IRLs) for dietary lead exposure in children and women of childbearing age. The IRLs are the FDA's operational dietary-Pb-exposure benchmark for the FDA Closer-to-Zero program: 2.2 µg/day for children (interpreted at the corresponding age groups) and 8.8 µg/day for women of childbearing age. These IRLs translate the CDC blood-lead reference value (5 µg/dL at the time of derivation, since updated to 3.5 µg/dL) into a dietary-equivalent intake using IEUBK and adult kinetic models, and serve as the action-level-development anchor for FDA action levels in juice (target 5 ppb), infant rice cereal (target 100 ppb iAs), and processed baby food (target 10/20 ppb).
 
 ## Key conclusions
@@ -48,6 +50,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |

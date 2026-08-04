@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Romero-Estevez et al. 2019 — Cd, Ni, and Pb in Ecuadorian Cocoa Beans (Nine Provinces)
 
+## Overview
+
 This peer-reviewed study, published in Food Control (accepted manuscript form), measured cadmium, nickel, and lead concentrations in cocoa beans from nine Ecuadorian provinces using flame atomic absorption spectrophotometry (FAAS) and graphite furnace atomic absorption spectrophotometry (GFAAS), and applied multivariate regression and Pearson correlation analysis to assess whether the three metals co-vary. The key finding is that Ni was the most abundant metal in all samples, Cd was present at concentrations exceeding the EU 0.8 mg/kg threshold in 33.3% of samples, and the three metals did not demonstrate significant linear correlation with each other, meaning remediation of one metal does not predict co-reduction of the others.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

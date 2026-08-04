@@ -16,6 +16,8 @@ audience: [regulator, educator]
 
 # FDA Closer to Zero — Program Overview
 
+## Overview
+
 Closer to Zero is the US Food and Drug Administration's program to reduce childhood dietary exposure to lead, cadmium, inorganic arsenic, and mercury by setting action levels for foods commonly consumed by babies and young children under two years of age ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). The program launched in April 2021 and is iterative by design: FDA collects occurrence data through its Toxic Elements Program and Total Diet Study, publishes draft action levels for industry comment, finalizes guidance, then uses the finalized levels in enforcement decisions under 21 CFR 109.6(d) and section 402(a)(1) of the Federal Food, Drug, and Cosmetic Act ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]).
 
 The program frames its thresholds against FDA's Interim Reference Levels for dietary exposure, which are themselves derived from the underlying public-health reference values each metal has accumulated (for lead, the CDC blood lead reference value of 3.5 µg/dL ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]); cadmium, inorganic arsenic, and mercury reference values are pending ingest of the corresponding FDA CTZ documents). Action levels are chosen such that industry achievability, defined as the share of samples in FDA's combined Toxic Elements Program and targeted-survey data at or below the level, lands in the 90th to 95th percentile range ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). This achievability framing is consistent with the approach the Codex Committee on Contaminants in Foods uses to recommend reductions in maximum levels when samples traded internationally have contaminant concentrations at or below proposed new MLs ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]).
@@ -56,12 +58,12 @@ Each per-rule page carries its own jurisdictional comparison for the specific th
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2025). *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*. U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children). Government guidance, A-tier. [[sources/fda-ctz-Pb-babyfood-2025|Source record]]
-2. U.S. Centers for Disease Control and Prevention (2021). *Blood Lead Reference Value (3.5 µg/dL)*. U.S. Centers for Disease Control and Prevention, National Center for Environmental Health. [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm). Government report, A-tier. [[sources/cdc-blood-lead-reference-value|Source record]]
-3. Codex Alimentarius Commission, Codex Committee on Contaminants in Foods (2024). *Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)*. Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission. [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf). Government report, A-tier. [[sources/codex-cccf17-2024|Source record]]
-4. Joint FAO/WHO Expert Committee on Food Additives (2011). *Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives (Lead, among others)*. WHO Technical Report Series 959. [www.who.int](https://www.who.int/publications/i/item/9789241209595). Government report, A-tier. [[sources/jecfa-72nd-lead-2010|Source record]]
+1. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
+2. [[sources/cdc-blood-lead-reference-value|Blood Lead Reference Value (3.5 µg/dL)]]<span class="hmi-ref-meta">U.S. Centers for Disease Control and Prevention · 2021 · [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/jecfa-72nd-lead-2010|Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives (Lead, among others)]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 959 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209595)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -71,9 +73,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 4 sources added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [80c3dcdd2](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcdd2) | 2026-05-02 | minor | Narrative text revised |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 4 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

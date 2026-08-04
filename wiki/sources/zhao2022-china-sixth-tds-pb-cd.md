@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Zhao et al. 2022 — Pb and Cd in China's Sixth Total Diet Study
 
+## Overview
+
 The Sixth China Total Diet Study (TDS), conducted 2016–2019 across 24 provincial-level administrative divisions covering approximately 86% of the Chinese population, measured dietary exposure to lead (Pb) and cadmium (Cd) in 288 composite samples spanning 12 food categories. The study found that mean dietary Pb intake for Chinese adult males (0.318 µg/kg body weight per day) was within acceptable levels by margin of exposure (MOE) analysis, while mean Cd intake (8.26 µg/kg body weight per month, 33% of PTMI) was broadly acceptable but exceeded the PTMI in Hunan Province (120% of PTMI) driven by exceptionally high Cd in cereals (primarily rice). This represents a significant national dietary surveillance finding from the NHC Key Laboratory of Food Safety Risk Assessment at China's National Center for Food Safety Risk Assessment (CFSA).
 
 ## Key numbers
@@ -110,7 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

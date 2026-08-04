@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Cantoral et al. 2024 — Lead levels in the most consumed Mexican foods
 
+## Overview
+
 This study reports the first systematic monitoring of lead (Pb) concentrations across 103 foods and beverages commonly consumed by the Mexican population, purchased from retail outlets in Mexico City. Samples were analyzed by graphite furnace atomic absorption spectrophotometry (GF-AAS) with a limit of quantification (LOQ) of 0.0025 mg/kg. Overall, 18% of samples had detectable Pb (above LOQ), with the highest single concentration found in infant rice cereal (1.005 mg/kg), followed by whole wheat bread (0.447 mg/kg), pre-cooked rice (0.276 mg/kg), black pepper (0.239 mg/kg), and turmeric (0.176 mg/kg). Four items exceeded FAO/WHO maximum limits (MLs) for Pb: infant rice cereal, whole wheat bread, pre-cooked rice, and soy infant formula. The baby foods group had the highest rate of ML exceedances (18%), followed by cereals (11%).
 
 ## Key numbers
@@ -102,6 +104,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [38d88bdc6](https://github.com/paleofoundation/heavymetalindex/commit/38d88bdc6) | 2026-05-12 | major | 4 sections added; narrative text revised |

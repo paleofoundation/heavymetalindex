@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Shi et al. 2020 - Global Rice Grain Cadmium
 
+## Overview
+
 Shi et al. compiled and analyzed cadmium concentrations in 2,270 polished white rice samples from the global market supply chain. The source is direct rice-grain occurrence evidence and infant-rice-food context because the authors compare rice-grain cadmium distributions with the EU 40 ug/kg processed-infant-food standard for products that can be nearly all rice.
 
 ## Key numbers
@@ -77,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [0e923e9b3](https://github.com/paleofoundation/heavymetalindex/commit/0e923e9b3) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [db181df75](https://github.com/paleofoundation/heavymetalindex/commit/db181df75) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

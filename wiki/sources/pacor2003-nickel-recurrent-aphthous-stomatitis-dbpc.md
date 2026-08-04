@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Pacor, Di Lorenzo, Martinelli, Lombardo, Di Gregoli, Mansueto, Rini, G. Corrocher, R. Corrocher 2003 — Double-blind placebo-controlled challenge with nickel salts in recurrent aphthous stomatitis
 
+## Overview
+
 This International Archives of Allergy and Immunology study from the University of Verona (Departments of Clinical and Experimental Medicine and Maxillofacial Surgery / Odontostomatology) and the University of Palermo (Department of Clinical Medicine and Emerging Pathologies) tests whether nickel sensitization underlies recurrent aphthous stomatitis (RAS) in a large patient cohort. 380 consecutive RAS patients underwent patch testing for nickel and double-blind placebo-controlled oral nickel challenge. Among nickel-sensitive RAS patients, 45.7 percent had a positive DBPC oral nickel challenge, and 21 of 32 patients who followed a nickel-free diet experienced symptom improvement. The cohort is the largest controlled study of the nickel-RAS link and supports nickel sensitivity as a meaningful subset etiology for RAS that responds to dietary intervention.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 4 sections added; narrative text revised |

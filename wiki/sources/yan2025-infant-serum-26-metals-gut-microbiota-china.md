@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Yan et al. 2025 — Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China
 
+## Overview
+
 This Frontiers in Microbiology original-research paper from Central South University and the Hunan Children's Hospital reports a hospital-based cross-sectional study correlating infant serum concentrations of 26 metals with gut-microbiome 16S rRNA profiles in a Chinese pediatric cohort. The 26-metal panel covers the HMTc analyte set (Pb, Cd, As, Hg, Ni, Al, Cr, Sn, U) plus essential and additional trace elements, and the gut-microbiome characterization covers community-level diversity and taxon-level abundance. The cross-sectional design identifies metal-microbiome associations rather than causal mechanisms, but the breadth of the metal panel is unusual in the early-life-microbiome literature and provides a multi-metal-multi-taxon association map that complements the single-metal mechanistic studies (Yang 2023 for Ni, Soto-Ocaña 2024 for Zn / Mn).
 
 ## Key contribution
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 2 sources added; 5 sections added; narrative text revised |

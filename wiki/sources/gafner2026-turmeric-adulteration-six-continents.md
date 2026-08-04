@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Gafner et al. 2026 — Scoping review of turmeric adulteration across six continents
 
+## Overview
+
 This is the most comprehensive systematic assessment of turmeric adulteration in the published literature, synthesizing 48 publications representing 2,235 commercial turmeric samples from 22 countries across six continents. The PRISMA-ScR methodology, broad geographic coverage, and distinction between spice and supplement adulteration patterns make this the anchoring prevalence denominator for the wiki's spice adulteration synthesis. The overall adulteration rate of 20.0% (448/2,235) establishes that turmeric adulteration is not a localized problem confined to South Asian supply chains; it is a global market-integrity failure documented on every inhabited continent with available data.
 
 ## Key numbers
@@ -103,6 +105,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ef98f0fda](https://github.com/paleofoundation/heavymetalindex/commit/ef98f0fda) | 2026-05-13 | major | 5 sections added; narrative text revised |

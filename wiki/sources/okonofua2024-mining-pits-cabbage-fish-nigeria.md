@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Okonofua et al. 2024 — Bioaccumulation of heavy metals in water, cabbage, and tilapia from unreclaimed mining pits, Bukuru, Nigeria
 
+## Overview
+
 Okonofua and colleagues sampled surface water, cabbage (Brassica oleracea var. capitata), and Nile tilapia (Oreochromis niloticus) from five unreclaimed tin-mining pits in Bukuru, Jos South LGA, Plateau State, Nigeria, across both seasons of 2019, with a paired control site in Riyom LGA. Cadmium in surface water exceeded the Nigerian NESREA drinking-water standard (0.003 mg/L) at every mining-pit site in both seasons. Cabbage from the mining pits showed elevated Cd, Mn, Cu, Ni, Pb, and Zn relative to the Riyom control in the rainy season; in the dry season, control-site cabbage Cu, Ni, and Pb were unexpectedly higher than mining-pit values (paper-internal anomaly flagged in Verification notes). Tilapia exceeded the NESREA standard for Cd, Mn, and Ni in the dry season; the abstract's stronger claim that "all investigated heavy metals except uranium" exceeded the fish-consumption limit is not consistent with the paper's own Table 7. Uranium was not detected in any matrix in either season. The study is a localised mining-impact occurrence survey, not a commercial supply-chain dataset; its quantitative findings are direct evidence only for mining-affected freshwater fish and irrigation-water-exposed leafy vegetables in tin-mining regions.
 
 ## Key numbers
@@ -171,6 +173,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ab0f87e6e](https://github.com/paleofoundation/heavymetalindex/commit/ab0f87e6e) | 2026-05-18 | major | 1 source added; 7 sections added; narrative text revised |

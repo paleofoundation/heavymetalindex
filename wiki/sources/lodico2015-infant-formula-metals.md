@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Lo Dico et al. 2015 - ICP-MS metals in infant formula
 
+## Overview
+
 Lo Dico and colleagues validated an ICP-MS method for simultaneous determination of arsenic, copper, chromium, selenium, tin, cadmium, antimony, and lead in infant formula after microwave-assisted digestion. The paper is a pure method-validation study and does not report measured concentrations of the eight elements in the 10 commercial liquid-milk infant formulas collected from Sicilian supermarkets in February–March 2015. Those 10 samples served as the matrix for spike-recovery experiments. The paper reports total elements only and does not perform arsenic, chromium, tin, or mercury speciation. The source contributes ICP-MS method-validation context to infant-formula testing-method discussions; it does not contribute occurrence values to the standards pool.
 
 ## Key numbers
@@ -68,8 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [9e40f60e0](https://github.com/paleofoundation/heavymetalindex/commit/9e40f60e0) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

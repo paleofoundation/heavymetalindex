@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This 2021 narrative review in Toxics synthesizes the global literature on heavy metal accumulation in rice (Oryza sativa) and edible aquatic plants — water spinach (Ipomoea aquatica), Indian lotus (Nelumbo nucifera), watercress (Nasturtium officinale), Chinese water chestnut (Eleocharis dulcis), water mimosa (Neptunia oleracea), taro (Colocasia esculenta), and others. The authors compile occurrence values from sites across Bangladesh, Sri Lanka, Thailand, China, Australia, and Nigeria, showing that Cd, As, Cr, Pb, and Hg repeatedly appear in these food plants at concentrations exceeding WHO/FAO permissible limits. The review identifies rice as the dominant Hg exposure pathway for inland Asian populations through paddy methylation, in contrast with the fish-mediated pathway elsewhere.
 
 ## Key numbers
@@ -96,8 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [9496620ce](https://github.com/paleofoundation/heavymetalindex/commit/9496620ce) | 2026-05-18 | minor | Narrative text revised |
-| [44f2f5ecb](https://github.com/paleofoundation/heavymetalindex/commit/44f2f5ecb) | 2026-05-18 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Cicero et al. 2022 — Mineral and microbiological analysis of spices and aromatic herbs
 
+## Overview
+
 This Italian study simultaneously assessed microbiological contamination and trace mineral content in 13 dried spice and aromatic herb samples purchased from an international market in Saudi Arabia, representing products sourced from India, Iran, Indonesia, and Vietnam. Mineral analysis by ICP-MS (Agilent 7500CX) quantified 18 elements including all four potentially toxic metals (Cd, Pb, As, Hg) plus Al, Ni, Cr, Sn, V, Co, Sb, Sr, Fe, Mn, Cu, Se, Zn, and Be. Microbiological analyses confirmed the samples met EU criteria for food safety pathogens. For the four regulated heavy metals, Pb was the primary concern: ajwan seeds (thymol seeds) from India showed 0.544 mg/kg, five times the EU fresh herb limit of 0.1 mg/kg. Aluminium reached 930 mg/kg in thymol seeds and 145 mg/kg in saffron, representing notable accumulation. All Cd, As, and Hg values were within regulatory limits across all 13 samples.
 
 ## Key numbers
@@ -93,9 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b71668e40](https://github.com/paleofoundation/heavymetalindex/commit/b71668e40) | 2026-05-29 | minor | Narrative text revised |
 | [2c0c09fd2](https://github.com/paleofoundation/heavymetalindex/commit/2c0c09fd2) | 2026-05-29 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

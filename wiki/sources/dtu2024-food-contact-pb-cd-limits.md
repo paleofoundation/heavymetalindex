@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # DTU 2024 - lead and cadmium food-contact-material migration limits
 
+## Overview
+
 The DTU National Food Institute prepared this memo for the Danish Veterinary and Food Administration as a working document proposing national maximum limits for migration of lead and cadmium from ceramic, glass, and enamelled food-contact materials. The memo is a regulatory source, not a peer-reviewed primary occurrence paper; it combines proposed limits, analytical LOQ reasoning, and secondary summaries of migration studies. The routeable HMI signal is food-contact-material leachate and food-simulant context for ceramic and glass tableware, decorated rims/coatings, ceramic-coated/enamelled cookware, bakeware, and infant feeding bottles.
 
 ## Key numbers
@@ -102,6 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [8d058840f](https://github.com/paleofoundation/heavymetalindex/commit/8d058840f) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

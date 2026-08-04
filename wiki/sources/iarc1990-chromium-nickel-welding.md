@@ -34,6 +34,8 @@ audience: [regulator, educator, app]
 
 # IARC Monograph Volume 49 (1990) — Chromium, Nickel and Welding
 
+## Overview
+
 The IARC Working Group convened in Lyon (5-13 June 1989) reviewed the human, animal, and mechanistic evidence for chromium compounds, nickel compounds, and welding fume exposures, and issued the foundational carcinogenicity classifications that subsequent food-safety, occupational-health, and drinking-water authorities continue to cite. The volume establishes Cr[VI] compounds (as encountered in chromate production, chromate pigment production, and chromium plating) and nickel compounds (sulfate and sulfide/oxide combinations encountered in refining) as Group 1 human carcinogens; metallic chromium and Cr[III] are Group 3; metallic nickel is Group 2B; welding fumes are Group 2B. The monograph also catalogues background concentrations of chromium and nickel in food, drinking water, air, and human biological samples, plus the analytical methods then in use across all those matrices.
 
 ## Key numbers
@@ -140,9 +142,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 9 sections added and 5 removed; narrative text revised |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [d34b55320](https://github.com/paleofoundation/heavymetalindex/commit/d34b55320) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Yuan et al. 2023 — Fluorescent aptasensor for As(III) detection using triple-helix molecular switch
 
+## Overview
+
 This paper from the Shanghai Engineering Research Center of Food Rapid Detection describes a novel fluorescence-based aptasensor for the detection of As(III) ions using a triple-helix molecular switch (THMS) platform. The system uses an arsenic-binding aptamer combined with a dual-labeled signal transduction probe (FAM fluorophore and BHQ1 quencher); in the absence of As(III) the triple helix structure holds the probe open and fluorescence is high, while As(III) binding breaks the triple helix and releases the probe to fold back into a hairpin that quenches fluorescence. The sensor achieves a detection limit of 69.95 nM (approximately 5.2 µg/L) with a linear range of 0.1 to 2.5 µM, and the total detection process takes 30 minutes. Real-sample validation was performed using Huangpu River water with good recoveries, and the authors estimate cost per test below USD 1.
 
 ## Key numbers
@@ -54,6 +56,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c4878be6e](https://github.com/paleofoundation/heavymetalindex/commit/c4878be6e) | 2026-05-12 | major | 4 sections added; narrative text revised |

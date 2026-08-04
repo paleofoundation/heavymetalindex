@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Maisto et al. 2024 - Polyphenol formulations and heavy-metal bioaccessibility
 
+## Overview
+
 Maisto and colleagues tested whether water-soluble maltodextrin formulations of quercetin, ellagic acid, curcumin, or a mixed formulation changed heavy-metal bioaccessibility during simulated gastrointestinal digestion. This is primary in vitro health/testing evidence, not food, ingredient, or product occurrence evidence. The source's routeable concentration facts are the standardized metal-spiked water concentrations, AAS method limits, and measured duodenal bioaccessible fraction (DBF) versus non-bioaccessible fraction (NBF) shifts.
 
 ## Key numbers
@@ -105,9 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [81ae93e55](https://github.com/paleofoundation/heavymetalindex/commit/81ae93e55) | 2026-06-02 | minor | Narrative text revised |
-| [7f3026208](https://github.com/paleofoundation/heavymetalindex/commit/7f3026208) | 2026-06-02 | minor | Narrative text revised |
-| [657ade3a0](https://github.com/paleofoundation/heavymetalindex/commit/657ade3a0) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

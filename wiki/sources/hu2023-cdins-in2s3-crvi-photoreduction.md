@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Hu et al. 2023 - CdIn2S4/In2S3 photocatalytic Cr(VI) reduction
 
+## Overview
+
 Hu and colleagues synthesized CdIn2S4/In2S3 heterojunction photocatalysts and tested visible-light reduction of synthetic aqueous Cr(VI). This is primary remediation/testing evidence, not food, ingredient, drinking-water occurrence, or product evidence. The routeable facts are the defined synthetic Cr(VI) challenge concentration, catalyst loading, reaction-rate constants, and near-complete Cr(VI) reduction time for the optimal 0.5 CISI composite.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [59e5a0cd8](https://github.com/paleofoundation/heavymetalindex/commit/59e5a0cd8) | 2026-06-02 | major | 9 sections added; narrative text revised |

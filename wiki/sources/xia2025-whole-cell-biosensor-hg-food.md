@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Xia et al. 2025 — Whole-cell biosensor with biological digestion circuit for Hg detection in food matrices
 
+## Overview
+
 This paper describes a whole-cell biosensor augmented with a synthetic biological digestion gene circuit designed to overcome matrix interference during mercury (Hg2+) detection in complex food samples. The gene circuit automates the digestion of organic matter within the bacterial host, eliminating the need for manual acid digestion steps and enabling more direct detection of Hg2+ in food matrices including fish, rice, shellfish, and black beans. The study validates sensor performance using spiked samples and reports recovery rates, but does not measure actual Hg concentrations in commercially sourced or environmental food samples.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1d941b66c](https://github.com/paleofoundation/heavymetalindex/commit/1d941b66c) | 2026-05-12 | major | 4 sections added; narrative text revised |

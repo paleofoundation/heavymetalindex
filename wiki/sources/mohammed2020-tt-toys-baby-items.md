@@ -10,7 +10,7 @@ doi: 10.5897/JECE2020.0465
 access_url: "https://academicjournals.org/journal/JECE/article-abstract/FD807546393"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Peer-reviewed primary research published in the Journal of Environmental Chemistry and Ecotoxicology (Academic Journals, open access, CC BY 4.0). Documented analytical method (Flame Atomic Absorption Spectrophotometry following 550-600°C ashing and HNO3 digestion), QC documentation (spike recoveries 102.9-114.4%, calibration R2 0.9944-0.9999, triplicate samples, method blank, spiked sample), explicit per-sample reporting in Table 1, and explicit health-risk-assessment calculation framework (USEPA-style ADD/HQ/HI with parameter list). Tier A per CLAUDE.md Part 13."
+tier_rationale: "Peer-reviewed primary research published in the Journal of Environmental Chemistry and Ecotoxicology (Academic Journals, open access, CC BY 4.0). Documented analytical method (Flame Atomic Absorption Spectrophotometry following 550-600°C ashing and HNO3 digestion), QC documentation (spike recoveries 102.9-114.4%, calibration R2 0.9944-0.9999, triplicate samples, method blank, spiked sample), explicit per-sample reporting in Table 1, and explicit health-risk-assessment calculation framework (USEPA-style ADD/HQ/HI with parameter list). Tier A."
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/14_2020_fd8075463937.pdf"
 raw_sha256: 0a0b5d1790e3b78d6560f5a6efeab22866700cd9db59870b6d12d4392a34be04
@@ -30,6 +30,8 @@ created_by: claude-opus-4-7
 ---
 
 # Mohammed et al. 2020 — Pb, Ni, Cr, Cd, Cu, and Mn in children's toys and baby items by FAAS, with USEPA non-carcinogenic ingestion risk assessment (Trinidad and Tobago)
+
+## Overview
 
 This peer-reviewed Journal of Environmental Chemistry and Ecotoxicology paper measures total Pb, Ni, Cr, Cd, Cu, and Mn in eighteen plastic children's toys and baby items (eleven toys, seven baby items) sold in Trinidad and Tobago by Flame Atomic Absorption Spectrophotometry (FAAS) after 550–600 °C ashing and 70% HNO3 digestion. Pb, Ni, and Cr are detected in every sample; Cd, Cu, and Mn are detected in fewer than 40% of samples. Every Pb value in both the toys (2.5–34.5 mg/kg) and the baby items (2.1–14.7 mg/kg) exceeds the EN 71-3:2013 Category I total-content limit of 2 mg/kg; the purple jewellery (34.5 mg/kg Pb) and the rubber duck (4.1 mg/kg Cd) are reported as exceeding the EU regulatory ceilings cited by the authors. Despite these exceedances, the USEPA-style oral ingestion hazard quotients (Pb HQ 0.007–0.115; Ni HQ 0.0015–0.0113; Cr HQ 0.0036–0.0627) and the summed hazard indices (HI 0.0156–0.1447 across the eighteen items) remain below 1 under the authors' default exposure model (15 kg body weight, 0.0002 kg/day intake, 5-year exposure duration), leading the authors to conclude that the items pose generally low ingestion risk to children. The paper also transcribes prior heavy-metals-in-toys ranges from Vietnam, Malaysia, India, Nigeria, China, and Palestine for context.
 
@@ -217,8 +219,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b81f32ce9](https://github.com/paleofoundation/heavymetalindex/commit/b81f32ce9) | 2026-06-01 | major | 1 section added |
 | [a002dc704](https://github.com/paleofoundation/heavymetalindex/commit/a002dc704) | 2026-06-01 | minor | Narrative text revised |
-| [36e05d4bf](https://github.com/paleofoundation/heavymetalindex/commit/36e05d4bf) | 2026-06-01 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Ren et al. 2018 — Cr(VI) Reduction in Pork by High-Energy Electron Beam Irradiation
 
+## Overview
+
 This is a laboratory mitigation study, not an occurrence survey. Lean, fat, and marbled pork from a Hefei, China market were cut into 0.5 cm cubes, spiked with potassium dichromate to defined Cr(VI) levels, and irradiated with a 10 MeV / 10 kW high-energy electron beam (HEEB) at doses from 5 to 25 kGy. The reductive efficiency (RE) for free Cr(VI), defined as the fraction of free Cr(VI) converted to Cr(III), reached a maximum of 98.03% at 20 kGy. Free-Cr(VI) fraction differed sharply across tissue types — fat pork carried 80–85% of its total Cr(VI) as free (unbound) Cr(VI), marbled pork 20–35%, and lean pork only 2–4% — attributed to the differing density of protein-borne amine binding sites across tissues. RE was largely insensitive to NaCl (100–250 mg/g), pH (3–10), temperature (−20 to 60 °C), and soybean-oil content (20–50%). XPS spectra confirmed that adsorbed Cr(VI) is desorbed and reduced to Cr(III) during irradiation.
 
 ## Key numbers
@@ -112,8 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cb8e552a7](https://github.com/paleofoundation/heavymetalindex/commit/cb8e552a7) | 2026-05-18 | minor | Narrative text revised |
-| [eabe4d106](https://github.com/paleofoundation/heavymetalindex/commit/eabe4d106) | 2026-05-18 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

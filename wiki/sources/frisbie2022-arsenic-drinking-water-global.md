@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Frisbie & Mitchell 2022 — Global arsenic drinking water regulations
 
+## Overview
+
 Frisbie and Mitchell systematically collated arsenic (As) drinking water regulations from 176 countries worldwide, finding that 136 have maximum allowable concentrations of 10 µg/L or less while 40 permit more than 10 µg/L; regulations for 19 countries could not be found. The WHO's provisional 10 µg/L guideline, set in 1993 on the basis of analytical achievability rather than health-based risk assessment, is shown to be inadequate, and the authors argue that lower, more protective standards are both scientifically warranted and technologically feasible for countries at all income levels.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [011a2983c](https://github.com/paleofoundation/heavymetalindex/commit/011a2983c) | 2026-05-13 | major | 4 sections added; narrative text revised |

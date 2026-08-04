@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Job 2023 - Metals in Thondi coast commercial fish
 
+## Overview
+
 Job and colleagues measured arsenic, cadmium, chromium, copper, lead, and zinc in edible muscle from five commercially important fish species associated with the Thondi coast, Palk Bay, India. The fish were randomly collected from the market, and muscle tissue was analyzed by atomic absorption spectroscopy. The source reports arsenic and chromium without speciation; arsenic is therefore total/unspecified As, and chromium is total Cr, not Cr-VI.
 
 ## Key numbers
@@ -86,6 +88,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [c6a83f3c5](https://github.com/paleofoundation/heavymetalindex/commit/c6a83f3c5) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Jaafar 2020 - Pediococcus lead and cadmium bioremediation
 
+## Overview
+
 Jaafar isolated a Pediococcus pentosaceus strain from common-carp pond water in Basra, Iraq, confirmed probiotic traits, and tested its tolerance and removal of experimentally added lead and cadmium. This is mitigation and bioremediation evidence, not consumer-product occurrence evidence: the Pb and Cd values come from spiked laboratory media and fish-pond remediation framing, so they should not enter food, salt, probiotic, or supplement benchmark pools.
 
 ## Key numbers
@@ -80,6 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [2795e8a81](https://github.com/paleofoundation/heavymetalindex/commit/2795e8a81) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

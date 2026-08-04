@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shaughnessy et al. 2023 - metals in wild and farmed New England sugar kelp
 
+## Overview
+
 Shaughnessy and coauthors measured arsenic, cadmium, lead, and mercury in wild and farmed sugar kelp from New England. The paper is directly relevant to seaweed foods because it compares farmed and wild material, blade position, geography, and food-safety standards. Cadmium and total arsenic were the main regulatory-concern signals, while inorganic arsenic, lead, and mercury were lower relative to the standards discussed by the authors.
 
 ## Key numbers
@@ -108,8 +110,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [169946999](https://github.com/paleofoundation/heavymetalindex/commit/169946999) | 2026-06-09 | minor | Narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

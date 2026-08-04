@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Balali-Mood et al. 2018 - arsenic and lead in Mashhad commercial fruit juices
 
+## Overview
+
 This study measured Pb and total As in 50 commercial fruit-juice samples purchased from local markets in Mashhad, Iran during spring and winter 2016. The sampled matrices were grape, apple, orange, pomegranate, and multi-fruit juices. The key HMT&C signal is widespread Pb exceedance: the authors report that 83% of samples were above the Codex fruit-juice Pb maximum level of 30 ng/mL, while all measured total-As values were below the 10 ng/mL comparator used by the paper.
 
 ## Key numbers
@@ -105,8 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5e63b5d46](https://github.com/paleofoundation/heavymetalindex/commit/5e63b5d46) | 2026-05-19 | minor | Narrative text revised |
-| [e20cbe140](https://github.com/paleofoundation/heavymetalindex/commit/e20cbe140) | 2026-05-19 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Lai et al. 2025 — Phthalates in disposable diapers and paired urinary metabolites/8-OHdG in 66 Guangzhou infants
 
+## Overview
+
 This Toxics paper quantifies six phthalates (DEP, DiBP, DnBP, DEHP, and two non-detectable isomers) in inner-layer disposable-diaper samples from 66 Guangzhou infants and nine urinary phthalate monoester metabolites (mEP, miBP, mnBP, mEHP, mEHHP, mEOHP plus the non-detectable mBzP and mMP) and 8-hydroxydeoxyguanosine (8-OHdG) in paired spot urine. Authors estimate the daily intake (DI) of each phthalate via dermal absorption from diapers and the proportion that diaper-derived dermal absorption contributes to the total daily intake (TDI back-calculated from urinary metabolites). DEHP was the predominant phthalate in diapers (median 1670 ng/g, 48.8 % of ΣPAEs); urinary mEHP-derived DEHP metabolites were the most abundant (Σ mDEHP 87.1 ng/mL median). Diaper DnBP correlated weakly with urinary mnBP (r = 0.259, p = 0.035), and urinary metabolites correlated with the oxidative-DNA-damage biomarker 8-OHdG (r = 0.265-0.316, p < 0.01). The paper measures **no heavy metals** and contributes no occurrence data to the HMI corpus; it is ingested as a methodology and exposure-pathway reference for diaper-derived dermal absorption in infants — the paired diaper + urine + biomarker design and the body-burden / TDI ratio framework are reusable for HMI heavy-metals modeling if/when comparable analyte data become available.
 
 ## Key numbers
@@ -113,8 +115,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [834c5a507](https://github.com/paleofoundation/heavymetalindex/commit/834c5a507) | 2026-05-17 | minor | Narrative text revised |
-| [5ed8239c5](https://github.com/paleofoundation/heavymetalindex/commit/5ed8239c5) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Taghavi et al. 2023 - trace elements in saffron-cultivation soils
 
+## Overview
+
 Taghavi and colleagues measured trace elements in agricultural soils used for saffron cultivation in Gonabad County, Iran. This is upstream supply-chain evidence: it reports the soil reservoir and soil-exposure indices that can inform saffron-origin contamination context, but it does not measure saffron stigmas or finished spice. The page therefore treats the values as soil-to-crop pathway context, not as saffron occurrence data.
 
 ## Key numbers
@@ -80,7 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [780310824](https://github.com/paleofoundation/heavymetalindex/commit/780310824) | 2026-06-10 | minor | Narrative text revised |
-| [06cda2894](https://github.com/paleofoundation/heavymetalindex/commit/06cda2894) | 2026-06-10 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

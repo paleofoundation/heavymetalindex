@@ -544,6 +544,9 @@ root-vegetable-purees,D10,not-comparable,confirm matrix-scope fit and like-for-l
 root-vegetables,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 root-vegetables,D4,driver-citation,confirm prose cites a source for each driver
 root-vegetables,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
+salt,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
+salt,D4,driver-citation,confirm prose cites a source for each driver
+salt,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
 saltine-crackers,D2,regional-discussion,confirm prose names >=2 of top-3 jurisdictions and is substantive
 saltine-crackers,D4,driver-citation,confirm prose cites a source for each driver
 saltine-crackers,D10,not-comparable,confirm matrix-scope fit and like-for-like speciation (tAs cap vs iAs literature is not comparable)
@@ -732,11 +735,11 @@ apple,data-hygiene,missing-primary-metals,missing-primary-metals: derived priori
 apple,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
-apple,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 apple,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+apple,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 applesauce,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 applesauce,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 applesauce,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -761,6 +764,7 @@ avocado,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product r
 avocado,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 avocado,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 avocado,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+avocado,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 baked-beans,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 baked-beans,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 baked-beans,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -787,10 +791,12 @@ banana,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row
 banana,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 banana,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 banana,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+banana,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 banana,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 banana,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 banana,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 banana,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+banana,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 beans,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 beans,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 beans,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -834,6 +840,7 @@ blueberry-muffin,data-hygiene,missing-primary-metals,missing-primary-metals: der
 blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 blueberry-muffin,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
@@ -967,6 +974,7 @@ cantaloupe,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged produc
 cantaloupe,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 cantaloupe,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 cantaloupe,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+cantaloupe,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 carrot,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 carrot,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 carrot,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -995,10 +1003,11 @@ celery,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product ro
 celery,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 celery,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 celery,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+celery,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 cereals,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=20 vs distinct_sources=4
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=23 vs distinct_sources=4
-cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=10 vs distinct_sources=4
+cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=10 vs distinct_sources=6
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=8 vs distinct_sources=1
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=14 vs distinct_sources=2
 cereals,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=6 vs distinct_sources=1
@@ -1071,6 +1080,7 @@ chocolate-reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: tAs has n
 chocolate-reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 chocolate-reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 chocolate-reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+chocolate-reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 chocolate,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 chocolate,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 chocolate,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1148,6 +1158,7 @@ corn,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row;
 corn,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 corn,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 corn,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+corn,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 cornbread,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 cornbread,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 cornbread,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1183,6 +1194,7 @@ cucumber,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product r
 cucumber,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 cucumber,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 cucumber,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+cucumber,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 custard,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 custard,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 custard,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1225,6 +1237,7 @@ eggs,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; 
 eggs,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 eggs,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 eggs,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+eggs,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 fish-fingers,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 fish-fingers,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 fish-fingers,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1240,7 +1253,7 @@ fish,data-hygiene,missing-primary-metals,missing-primary-metals: derived priorit
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=49 vs distinct_sources=1
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=48 vs distinct_sources=3
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=18 vs distinct_sources=1
-fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=70 vs distinct_sources=5
+fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=70 vs distinct_sources=3
 fish,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 fish,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=11 vs distinct_sources=1
 fish,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
@@ -1317,7 +1330,7 @@ fruit-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged produ
 fruit-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 fruit,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=21 vs distinct_sources=3
-fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=4
+fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=5
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=8 vs distinct_sources=3
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=12 vs distinct_sources=4
 fruit,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=8 vs distinct_sources=3
@@ -1338,6 +1351,7 @@ grapefruit,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged produc
 grapefruit,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 grapefruit,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 grapefruit,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+grapefruit,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 grapes,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 grapes,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 grapes,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1347,6 +1361,7 @@ grapes,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row
 grapes,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 grapes,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 grapes,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+grapes,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 green-beans,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 green-beans,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 green-beans,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1362,6 +1377,7 @@ green-bell-pepper,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged
 green-bell-pepper,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 green-bell-pepper,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 green-bell-pepper,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+green-bell-pepper,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 ground-beef,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 ground-beef,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 ground-beef,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1382,6 +1398,7 @@ half-and-half,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged pro
 half-and-half,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 half-and-half,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 half-and-half,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+half-and-half,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 ham,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 ham,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 ham,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1430,9 +1447,11 @@ iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged p
 iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+iceberg-lettuce,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 infant-cereal-ingredients,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 infant-formula-ingredients,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-infant-formula-ingredients,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=3 vs distinct_sources=6
+infant-formula-ingredients,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=7 vs distinct_sources=4
+infant-formula-ingredients,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=5 vs distinct_sources=2
 infant-formula-ingredients,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 infant-formula-powder,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 infant-formula-powder,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
@@ -1454,6 +1473,7 @@ lamb-chop,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product
 lamb-chop,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 lamb-chop,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 lamb-chop,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+lamb-chop,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 leafy-greens,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 leafy-greens,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 leafy-greens,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1550,15 +1570,15 @@ melon,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row;
 melon,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 melon,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 milk-and-dairy,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=20 vs distinct_sources=7
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=8
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=20 vs distinct_sources=3
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=21 vs distinct_sources=6
 milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: iAs n_studies=6 vs distinct_sources=2
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=14 vs distinct_sources=4
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tHg n_studies=14 vs distinct_sources=2
 milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=11 vs distinct_sources=3
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=12 vs distinct_sources=8
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=16 vs distinct_sources=6
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=12 vs distinct_sources=5
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=16 vs distinct_sources=5
 milk-and-dairy,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
-milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Sn n_studies=5 vs distinct_sources=2
+milk-and-dairy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Sn n_studies=5 vs distinct_sources=1
 molluscs,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 molluscs,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 molluscs,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1588,12 +1608,15 @@ non-rice-grains,data-hygiene,missing-bridge,missing-bridge: Al has no bridged pr
 non-rice-grains,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 non-rice-grains,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 non-root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 non-root-vegetables,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
+non-root-vegetables,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 non-soy-infant-formula,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 non-soy-infant-formula,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 non-soy-infant-formula,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1654,6 +1677,7 @@ onions,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product ro
 onions,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 onions,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 onions,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+onions,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 orange-juice,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 orange-juice,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 orange-juice,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1673,6 +1697,7 @@ oranges,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product ro
 oranges,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 oranges,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 oranges,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+oranges,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 organ-meats,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 organ-meats,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 organ-meats,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1708,6 +1733,7 @@ peach,data-hygiene,missing-primary-metals,missing-primary-metals: derived priori
 peach,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 peach,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 peach,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+peach,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 peach,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 peach,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 peach,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
@@ -1741,6 +1767,7 @@ pear,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row;
 pear,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 pear,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 pear,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+pear,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 plant-milk,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 plant-milk,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 plant-milk,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
@@ -1776,6 +1803,7 @@ pork-chop,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product
 pork-chop,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 pork-chop,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 pork-chop,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+pork-chop,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 pork-sausages,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 pork-sausages,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 pork-sausages,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1802,6 +1830,7 @@ potatoes,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product r
 potatoes,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 potatoes,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 potatoes,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+potatoes,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 poultry,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 poultry,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 poultry,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1843,6 +1872,7 @@ reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged 
 reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+reduced-fat-milk,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 rice-bran-oil,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 rice-bran-oil,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 rice-bran-oil,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1874,6 +1904,7 @@ rice,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; 
 rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Sn n_studies=11 vs distinct_sources=0
 rice,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=6 vs distinct_sources=0
 root-vegetable-purees,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 root-vegetable-purees,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
@@ -1887,6 +1918,8 @@ root-vegetables,data-hygiene,missing-bridge,missing-bridge: Al has no bridged pr
 root-vegetables,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 root-vegetables,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 root-vegetables,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+salt,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+salt,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 saltine-crackers,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 saltine-crackers,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 saltine-crackers,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -1916,6 +1949,7 @@ seaweed,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product ro
 semi-skimmed-milk,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 semi-skimmed-milk,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 semi-skimmed-milk,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
+semi-skimmed-milk,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 semi-skimmed-milk,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 semi-skimmed-milk,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 semi-skimmed-milk,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
@@ -1943,12 +1977,14 @@ skim-milk,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product
 skim-milk,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 skim-milk,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 skim-milk,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+skim-milk,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 soy-based-infant-formula,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 soy-based-infant-formula,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 soy-based-infant-formula,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 soy,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=9 vs distinct_sources=5
+soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=9 vs distinct_sources=4
 soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Ni n_studies=6 vs distinct_sources=2
+soy,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=7 vs distinct_sources=4
 soy,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 soybean-oil,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 soybean-oil,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
@@ -2003,13 +2039,15 @@ sweet-potato,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged produ
 sweet-potato,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 sweet-potato,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
 tea,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
-tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=8 vs distinct_sources=1
-tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=8 vs distinct_sources=1
+tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Pb n_studies=8 vs distinct_sources=0
+tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Cd n_studies=8 vs distinct_sources=0
 tea,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: tAs n_studies=5 vs distinct_sources=0
 tea,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
-tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=6 vs distinct_sources=1
+tea,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
+tea,data-hygiene,distinct-vs-nstudies-disagree,distinct-vs-nstudies-disagree: Al n_studies=6 vs distinct_sources=0
 tea,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+tea,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
 tinned-fish,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 tinned-fish,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 tinned-fish,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -2037,6 +2075,7 @@ tomato,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product ro
 tomato,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 tomato,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 tomato,data-hygiene,missing-bridge,missing-bridge: Sn has no bridged product row; fell back to n_studies/confidence
+tomato,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 tortilla-chips,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 tortilla-chips,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 tortilla-chips,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -2046,7 +2085,11 @@ tortilla-chips,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged pro
 tortilla-chips,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 tortilla-chips,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 turkey,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
+turkey,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
+turkey,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 turkey,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+turkey,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
+turkey,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 turkey,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 turkey,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 turmeric,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
@@ -2106,6 +2149,7 @@ watermelon,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged produc
 watermelon,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 watermelon,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 watermelon,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+watermelon,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 wheat-cereal-biscuits,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 wheat-cereal-biscuits,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 wheat-cereal-biscuits,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
@@ -2128,6 +2172,7 @@ white-bread,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged produc
 white-bread,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 white-bread,data-hygiene,missing-bridge,missing-bridge: iAs has no bridged product row; fell back to n_studies/confidence
 white-bread,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+white-bread,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 white-bread,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 white-bread,data-hygiene,missing-bridge,missing-bridge: Al has no bridged product row; fell back to n_studies/confidence
 white-bread,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
@@ -2155,11 +2200,14 @@ whole-milk,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged produc
 whole-milk,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 whole-milk,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
 whole-milk,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
+whole-milk,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 whole-wheat-bread,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence
 whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: Cd has no bridged product row; fell back to n_studies/confidence
 whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: tAs has no bridged product row; fell back to n_studies/confidence
+whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: tHg has no bridged product row; fell back to n_studies/confidence
 whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: Ni has no bridged product row; fell back to n_studies/confidence
+whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: Cr has no bridged product row; fell back to n_studies/confidence
 whole-wheat-bread,data-hygiene,missing-bridge,missing-bridge: U has no bridged product row; fell back to n_studies/confidence
 wholemeal-bread,data-hygiene,missing-primary-metals,missing-primary-metals: derived priority set from populated analytes
 wholemeal-bread,data-hygiene,missing-bridge,missing-bridge: Pb has no bridged product row; fell back to n_studies/confidence

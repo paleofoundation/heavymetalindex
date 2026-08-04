@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2026 - AMF and calcium mitigation of arsenic stress in cotton seedlings
 
+## Overview
+
 Zhang and colleagues tested whether arbuscular mycorrhizal fungi and exogenous calcium could reduce arsenate stress in cotton seedlings. This is mitigation and supply-chain agronomy evidence for cotton grown on arsenic-contaminated soil, not finished-product occurrence evidence for fabric or child-product rows. The paper supports the mitigation layer because the combined fungal and calcium treatment improved growth, root architecture, photosynthetic performance, osmotic regulation, antioxidant activity, and potassium/calcium balance under arsenate stress.
 
 ## Key numbers
@@ -77,6 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [3ec492de8](https://github.com/paleofoundation/heavymetalindex/commit/3ec492de8) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

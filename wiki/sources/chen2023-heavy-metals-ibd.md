@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Chen et al. 2023 — Heavy metals and inflammatory bowel disease
 
+## Overview
+
 This narrative review synthesizes evidence on how heavy metal exposure — including lead (Pb), manganese (Mn), arsenic (As), cadmium (Cd), and mercury (Hg) — contributes to the pathogenesis and exacerbation of inflammatory bowel disease (IBD), encompassing Crohn's disease and ulcerative colitis. The authors frame diet and drinking water as the dominant routes of human heavy metal exposure and trace the mechanistic pathways from exposure to intestinal inflammation, emphasizing gut dysbiosis, oxidative stress, barrier disruption, and immune activation.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

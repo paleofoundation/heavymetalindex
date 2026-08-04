@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kagawa et al. 2023 — Fish meat arsenic and hypertension in Japanese adults
 
+## Overview
+
 This cross-sectional epidemiological study of 2,709 Japanese adults (Daiko Study, J-MICC) examines associations among dietary fish consumption, fasting serum total arsenic, and hypertension prevalence. Using logistic regression and mediation analysis, the authors demonstrate that higher fish-meat ingestion frequency is associated with elevated fasting serum arsenic, which in turn is associated with increased hypertension prevalence in a dose-dependent manner. A mouse experimental study confirmed that oral exposure to a mixture of arsenic species at concentrations matching those in common Japanese fish meat elevated systolic blood pressure. The species composition reported for the fish meat used in the animal experiment (Tinu, black seabream *Acanthopagrus schlegelii*) provides explicit arsenic species data for a commonly consumed Japanese fish.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [16697dbc2](https://github.com/paleofoundation/heavymetalindex/commit/16697dbc2) | 2026-05-13 | major | 4 sections added; narrative text revised |

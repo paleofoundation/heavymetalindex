@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Shar et al. 2026 - metals in sunflower seeds from Sindh ecological zones
 
+## Overview
+
 Shar and coauthors measured Pb, Cd, Cr, Cu, Zn, and Fe in 36 composite sunflower seed samples (six composites from each of six districts) collected from different ecological zones of Sindh, Pakistan during the rabi crop season 2022-2023. The source is directly routeable to sunflower seeds and provides per-site dry-weight means with SDs. Tando jam emerges as the priority Pb/Cd/Cr contamination cluster (attributed to upstream industrial effluents and urban drainage), while Kotri's higher Fe/Zn/Cu is attributed to naturally ferruginous alluvial soils of the lower Indus plain.
 
 ## Key numbers
@@ -68,8 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c63b4e9d5](https://github.com/paleofoundation/heavymetalindex/commit/c63b4e9d5) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [f5efca8e6](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8e6) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

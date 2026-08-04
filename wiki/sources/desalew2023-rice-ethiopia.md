@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Desalew & Mehari 2023 — Elemental composition of rice in Ethiopia
 
+## Overview
+
 Desalew and Mehari quantified ten elements (Ca, Mg, Fe, Zn, Mn, Cu, Ni, Cr, Cd, Pb) in rice grains collected from the three major production regions of Ethiopia (Fogera, Metema, Pawe) and their corresponding field soils, using flame atomic absorption spectroscopy (FAAS). Cadmium, lead, and chromium were all below the limit of quantitation in rice grain samples from all three regions. The study provides useful baseline occurrence data confirming that Ethiopian-grown rice, at least from these three regions, does not appear to accumulate toxic metals at measurable levels under local agricultural conditions, though method sensitivity for heavy metals was limited.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e307b9560](https://github.com/paleofoundation/heavymetalindex/commit/e307b9560) | 2026-05-13 | major | 4 sections added; narrative text revised |

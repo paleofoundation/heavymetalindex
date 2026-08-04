@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Sadighara 2021 - Food organotin systematic review
 
+## Overview
+
 Sadighara and colleagues systematically reviewed organotin contamination in food matrices and performed a meta-analysis of tributyltin in seafood. The source is secondary evidence: it compiles food occurrence values from prior studies rather than generating new measurements. The review identifies seafood and edible oils as reported contaminated food categories and keeps organotin compounds such as TBT, TPhT, DBT, DOT, MBT, DPhT, and MPhT distinct from total elemental tin.
 
 ## Key numbers
@@ -75,7 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c58ed59b9](https://github.com/paleofoundation/heavymetalindex/commit/c58ed59b9) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

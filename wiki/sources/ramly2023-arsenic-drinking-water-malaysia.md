@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ramly et al. 2023 — Arsenic in drinking water, hair biomonitoring, and arsenicosis in Perak, Malaysia
 
+## Overview
+
 This comparative cross-sectional study investigated arsenic contamination in drinking water and chronic arsenic exposure in residents of two villages in Perak, Malaysia, where a water treatment plant (WTP) serving the exposed village had reported violations of the 0.01 mg/L arsenic standard. Of 395 household drinking water samples, 41 percent from the exposed village (Village AG) exceeded the 0.01 mg/L threshold, while no samples from the non-exposed village (Village P) exceeded this level. Among 639 hair samples, 85 individuals (13.5%) had arsenic levels above the 1 µg/g reference, concentrated in Village AG. Physical examination confirmed 18 residents with arsenicosis signs, all from Village AG. Female sex, increasing age, residence in Village AG, and smoking were significantly associated with elevated hair arsenic.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [97958635e](https://github.com/paleofoundation/heavymetalindex/commit/97958635e) | 2026-05-13 | major | 4 sections added; narrative text revised |

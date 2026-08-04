@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # EFSA Scientific Committee 2017 — Update on the use of the benchmark dose approach in risk assessment
 
+## Overview
+
 The EFSA Scientific Committee's 41-page guidance document (adopted 17 November 2016, published EFSA Journal 2017;15(1):4658, question EFSA-Q-2014-00747) updates the Committee's 2009 BMD guidance (EFSA 2009a) on the basis of seven years of in-house application experience and methodological developments. The opinion reconfirms that the benchmark dose (BMD) approach is scientifically more advanced than the no-observed-adverse-effect level (NOAEL) approach for deriving a Reference Point (RP), introduces model averaging as the preferred method for calculating the BMD confidence interval (with rejection-on-AIC as a suboptimal fallback while model-averaging tools mature), replaces the log-likelihood with the Akaike Information Criterion (AIC) for goodness-of-fit characterisation across mathematical models, narrows the default set of recommended dose-response models, and locks in the requirement to report the BMD confidence interval (BMDL as the potential RP, BMDU for the BMDU/BMDL uncertainty ratio) rather than the point BMD. The opinion does not call for general re-evaluation of past NOAEL- or BMD-based assessments, but updates downstream guidance for risk assessors performing dose-response analyses on quantal, continuous, and epidemiological data. Appendix A summarises differences between the BMDS (US EPA) and PROAST (RIVM) software; Appendix B is the BMD analysis reporting template.
 
 The guidance applies to all chemicals in food regardless of category — pesticides, additives, contaminants — and explicitly extends to both experimental animal toxicity studies and observational epidemiological data, with the caveat that human-data BMD analysis will be the subject of a separate forthcoming Scientific Committee guidance. The PDF retrieved 2026-06-03 carries an "OBSOLETE" watermark on every page, indicating that this 2017 update has itself been superseded by a later EFSA Scientific Committee revision; this document nonetheless remains the historical RP-derivation methodology for EFSA's pre-2022 contaminant opinions and is required reading for reconstructing the dose-response logic those opinions are built on.
@@ -145,7 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

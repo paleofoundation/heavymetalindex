@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Escobar-Camacho et al. 2024 — Mercury in fish and aquatic environments of the Piedmont Ecuadorian Amazon
 
+## Overview
+
 This study measured total mercury (tHg) in muscle tissue of freshwater fish consumed by indigenous communities in two territories of the Piedmont Ecuadorian Amazon (Cofán-Bermejo and Dureno), alongside tHg in water and sediments from the same rivers. The authors applied ICP-MS following acid digestion to quantify tHg concentrations in approximately 120 fish from multiple species; MeHg in fish muscle was estimated through established conversion factors and literature comparisons rather than direct speciation. Results showed fish tHg concentrations exceeded WHO and Codex Alimentarius maximum limits of 500 µg/kg in several predatory species, with notable inter-species variation reflecting biomagnification along the food web. This is the first systematic mercury occurrence survey for these Amazonian indigenous communities, where subsistence fishing constitutes the primary protein source.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [591741c26](https://github.com/paleofoundation/heavymetalindex/commit/591741c26) | 2026-05-13 | major | 4 sections added; narrative text revised |

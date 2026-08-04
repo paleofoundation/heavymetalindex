@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Badeenezhad et al. 2021 — Heavy metal health risk in drinking water, Shiraz, Iran
 
+## Overview
+
 This study assessed heavy metal pollution and probabilistic health risk in drinking water from 80 groundwater samples collected from Shiraz, Iran. Concentrations of Cd, Pb, Hg, As, Cu, Zn, Cr, Fe, and Mn were determined. Monte Carlo simulation (10,000 iterations) was used to quantify carcinogenic and non-carcinogenic health risks for children and adults separately. Water quality indices (HPI, Nemerow pollution index) were calculated. The study found that As and Cr posed the highest carcinogenic risk to both age groups at the 95th percentile exposure scenario.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ea6d55857](https://github.com/paleofoundation/heavymetalindex/commit/ea6d55857) | 2026-05-13 | major | 4 sections added; narrative text revised |

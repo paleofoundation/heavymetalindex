@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # El Ziani et al. 2024 — Heavy metals in instant noodles from Benghazi, Libya
 
+## Overview
+
 El Ziani and colleagues measured Cd, Cr, Pb, As, and Sn in seven instant-noodle samples collected from local markets in Benghazi, Libya. Dried and powdered noodle samples were digested and analyzed by triple-quadrupole ICP-MS, with results reported in ppb. The occurrence finding is that sample 2 had the highest value for every measured metal, and the table-average concentration order was Pb > Cd > Sn > Cr > As. The paper reports total As and total Cr only; it does not distinguish inorganic arsenic or Cr-VI.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [3807a04d1](https://github.com/paleofoundation/heavymetalindex/commit/3807a04d1) | 2026-06-08 | major | 4 sections added; narrative text revised |

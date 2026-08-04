@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lea et al. 2018 — DINP endocrine disruption: weight-of-evidence assessment
 
+## Overview
+
 This weight-of-evidence (WoE) assessment evaluates the endocrine disrupting potential of di-isononyl phthalate (DINP) using the ECHA/EFSA Endocrine Disruptor Guidance (2018) framework, examining estrogen (E), androgen (A), thyroid (T), and steroidogenesis (S) pathways. Based on analysis of 110 articles and 105 high-throughput assays, the authors conclude DINP does not meet ECHA/EFSA criteria to be considered an endocrine disruptor. DINP did not elicit thyroid- or estrogen-related apical outcomes in vivo; for the A and S pathways, limited adverse apical evidence was found and no biologically plausible adverse outcome pathway (AOP) was established. A data gap exists for thyroid hormone levels in vivo, preventing a conclusion on the T-pathway.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

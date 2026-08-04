@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Troncoso and Guzman 1988 — Metallic contaminants in Andalusian vinegars
 
+## Overview
+
 This early study measured Fe, Zn, Cu, Pb, and total As in 16 white wine vinegar samples from Western Andalusia, Spain, using direct flame atomic absorption spectrophotometry (FAAS) without prior digestion (the authors verified that no interfering components plug the flame at the working acetic-acid concentrations). The authors report no important metallic contamination overall; only one sample exceeded the Spanish regulatory limit of 1 ppm for total (Pb + As). The study is described in the abstract as the first systematic characterization of metallic content in Andalusian vinegars.
 
 ## Key numbers
@@ -77,8 +79,8 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 - Added the mean Cu uncertainty (± 0.04 ppm) from Table 2, previously omitted.
 - Added the explicit list of samples exceeding each combined Spanish limit (Zn + Cu: 6 samples; Pb + As: 1 sample) for traceability.
 - Added the per-sample Pb list from Table 3 (kept; the existing list was accurate) and added the sample-4 As + Pb arithmetic (1.21 + 0.242 = 1.452 ppm) to make the abstract's "only one sample exceeded 1 ppm Pb + As" claim numerically traceable.
-- Removed the cross-source synthesis sentence "Pb in wine vinegar approximately 200–1200 µg/kg range across both this and Acosta 1993 data" from the App section per CLAUDE.md Part 2 (the source page reports this paper's findings only; cross-paper comparison belongs in synthesis pages, not source pages).
-- Trimmed the prior "unlike the later Ndung'u 2004 work that established digestion requirements" comparison from the Methods evidence-tier rationale per CLAUDE.md Part 2 (same reason). Tier-B rationale retained without the cross-source comparison.
+- Removed the cross-source synthesis sentence "Pb in wine vinegar approximately 200–1200 µg/kg range across both this and Acosta 1993 data" from the App section (the source page reports this paper's findings only; cross-paper comparison belongs in synthesis pages, not source pages).
+- Trimmed the prior "unlike the later Ndung'u 2004 work that established digestion requirements" comparison from the Methods evidence-tier rationale (same reason). Tier-B rationale retained without the cross-source comparison.
 - Expanded Methods section with the Table 1 instrumental parameters (lamp intensities, band passes, gas flows, integrating times), hydride-generator settings for As, reagents and stock-solution concentrations, and the Fe/Na ratio interference check — all already present in the PDF, previously summarized at a level that omitted reproducibility-relevant detail.
 - Added `## Verification notes` section (previously absent).
 - Set `updated:` to 2026-05-28.
@@ -105,8 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [bd2432ee4](https://github.com/paleofoundation/heavymetalindex/commit/bd2432ee4) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

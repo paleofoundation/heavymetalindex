@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Qvarfort and Holmgren 2025 - game meat lead bioaccessibility
 
+## Overview
+
 Qvarfort and Holmgren measured total lead and simulated gastrointestinal release of lead from metallic fragments in wild-boar tissues collected around bullet wound channels. The study is not a representative market-occurrence survey; it deliberately sampled the most contaminated wound-channel tissues so that metallic-lead dissolution could be tested. It is useful as game-meat lead-fragment bioaccessibility context, with its measured tissue lead values kept on the source's `mg/kg ww` basis.
 
 ## Key numbers
@@ -132,6 +134,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [f54cd506e](https://github.com/paleofoundation/heavymetalindex/commit/f54cd506e) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

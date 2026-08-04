@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Najem et al. 2024 — Lead, arsenic, and mercury bioaccumulation in common carp from Baqubah, Iraq
 
+## Overview
+
 This study measured total arsenic (tAs), lead (Pb), and total mercury (tHg) in liver, gills, and dorsal muscle of 10 common carp (*Cyprinus carpio* L.) from Baqubah market fish, sourced from aquaculture in Diyala province, Iraq. Analysis by flame atomic absorption spectrometry (FAAS). Key finding: As and Pb concentrations in all three tissues were below WHO permissible limits (As: 0.5 ppm; Pb: 1.5 ppm), while Hg exceeded the WHO permissible limit (0.14 ppm) in 60% of liver samples, 100% of gill samples, and 90% of muscle samples, indicating significant Hg contamination of freshwater systems in Diyala province (Tigris and Diyala rivers). Histopathological lesions in gills and liver were documented alongside the chemical findings.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ff4abae67](https://github.com/paleofoundation/heavymetalindex/commit/ff4abae67) | 2026-05-13 | major | 4 sections added; narrative text revised |

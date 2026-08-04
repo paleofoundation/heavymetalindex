@@ -88,29 +88,7 @@ sources: 41
 
 # Carrot
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | below-tier | 6/10 HMTc analytes, total n=12 | common tier expects total n>=15; have 12 |
-| D2 Regional coverage | OK | 11 jurisdictions, top IR 18% | — |
-| D3 Anthropogenic evidence | GAP | 1 irrigation-water + 1 agricultural-soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, iAs THIN, tHg THIN, Al THIN, Sn THIN | iAs: needs 2 more study(ies); tHg: needs 2 more study(ies); Al: needs 2 more study(ies); Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 12 claims checked, 12 supported; 4 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming carrot: fsa2016-infant-food-formula-metals-survey |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 4 rule link(s), 7 metal(s) covered | unmapped analytes: Al |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tHg, Al, Sn; pairing 0 paired, 6 single, 0 unpaired | iAs: THIN, needs 2 more study(ies); tHg: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below common bar |
-| **Principle balance** | **flag** | consumer-protection 0.83, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -190,18 +168,18 @@ The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level f
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Food Standards Agency / Fera Science Ltd (2016). *Survey of metals in commercial infant foods, infant formula and non-infant specific foods*. UK Food Standards Agency report FS102048. [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey). Government report, A-tier. [[sources/fsa2016-infant-food-formula-metals-survey|Source record]]
-2. El-Batal AI, El-Sayyad GS, El-Ghamry A, and Abdel-Megeed A (2023). *Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater*. Biologia. [https://doi.org/10.1007/s11756-023-01401-x](https://doi.org/10.1007/s11756-023-01401-x). Peer-reviewed, A-tier. [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles|Source record]]
-3. Tonska E, Jadwisienczak K, and Szpendowski J (2020). *Lead and cadmium content in organic and conventional carrots and their dietary risk assessment*. Proceedings of the Nutrition Society. [https://doi.org/10.1017/s0029665120002724](https://doi.org/10.1017/s0029665120002724). Peer-reviewed, A-tier. [[sources/tonska2020-carrots-lead-cadmium-organic|Source record]]
-4. Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I (2021). *Concentration of cadmium and lead in vegetables and fruits*. Scientific Reports. [https://doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z). Peer-reviewed, A-tier. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Source record]]
+1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles|Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater]]<span class="hmi-ref-meta">El-Batal AI, El-Sayyad GS, El-Ghamry A, and Abdel-Megeed A · Biologia · 2023 · [doi.org/10.1007/s11756-023-01401-x](https://doi.org/10.1007/s11756-023-01401-x)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/tonska2020-carrots-lead-cadmium-organic|Lead and cadmium content in organic and conventional carrots and their dietary risk assessment]]<span class="hmi-ref-meta">Tonska E, Jadwisienczak K, and Szpendowski J · Proceedings of the Nutrition Society · 2020 · [doi.org/10.1017/s0029665120002724](https://doi.org/10.1017/s0029665120002724)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Concentration of cadmium and lead in vegetables and fruits]]<span class="hmi-ref-meta">Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -233,9 +211,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

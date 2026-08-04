@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Nazari et al. 2023 — Heavy metals in seed crops and oil products: impacts on human health (review)
 
+## Overview
+
 This Iranian-led narrative review (Carpathian Journal of Food Science and Technology) summarises the published literature on heavy metal contamination in oilseeds and their derived vegetable/seed oils, covering sources of contamination, occurrence concentrations across multiple countries, effects on oil nutritional quality, regulatory maximum permission levels (Codex, FDA, EU), and human health impacts of As, Pb, Cd, Hg, Ni, and Cr exposure. The review consolidates concentration ranges from primary studies conducted in Spain, Iran, Turkey, Brazil, Sweden, France, Italy, Saudi Arabia, Poland, Nigeria, China, Bulgaria, and Morocco, organised by metal in a single comparative table (Table 1). A second table (Table 2) compiles Codex Alimentarius, US FDA, and EU regulatory maximum levels. The review identifies Pb and Cd as the most consistently documented concerns in oilseeds and notes that current regulation leaves several oil categories without specific MLs.
 
 ## Key numbers
@@ -205,9 +207,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [667d8fd97](https://github.com/paleofoundation/heavymetalindex/commit/667d8fd97) | 2026-05-25 | minor | Narrative text revised |
-| [5c3578136](https://github.com/paleofoundation/heavymetalindex/commit/5c3578136) | 2026-05-25 | major | 4 sections added and 3 removed; narrative text revised |
-| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

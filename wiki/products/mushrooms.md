@@ -32,20 +32,20 @@ updated: 2026-06-09
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Woldegiorgis AZ, Abate D, Haki GD, and Ziegler GR (2015). *Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia*. Journal of Food Processing & Technology. [https://doi.org/10.4172/2157-7110.1000430](https://doi.org/10.4172/2157-7110.1000430). Peer-reviewed, A-tier. [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals|Source record]]
+1. [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals|Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia]]<span class="hmi-ref-meta">Woldegiorgis AZ, Abate D, Haki GD, and Ziegler GR · Journal of Food Processing & Technology · 2015 · [doi.org/10.4172/2157-7110.1000430](https://doi.org/10.4172/2157-7110.1000430)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -64,7 +64,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [465c001fd](https://github.com/paleofoundation/heavymetalindex/commit/465c001fd) | 2026-06-10 | major | 1 section added; narrative text revised |
-| [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

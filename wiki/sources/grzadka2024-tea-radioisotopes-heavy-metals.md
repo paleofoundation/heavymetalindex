@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Grzadka et al. 2024 - Radioisotopes and heavy metals in commercial teas
 
+## Overview
+
 Grzadka and colleagues measured radionuclides and elemental contaminants in 30 commercial true-tea samples imported to the Polish market. The source is routeable for tea and tea-infusion occurrence evidence because it reports dry-leaf metal concentrations, post-brewing residues, leaching behavior, and non-carcinogenic hazard quotients for black, green, red, oolong, and white teas. Lead, cadmium, and vanadium were below the reported MIP-OES detection limits in the result narrative, while chromium, aluminum, manganese, nickel, copper, molybdenum, iron, and phosphorus varied by tea type and origin.
 
 ## Key numbers
@@ -107,6 +109,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [71a4a992c](https://github.com/paleofoundation/heavymetalindex/commit/71a4a992c) | 2026-06-02 | major | 10 sections added; narrative text revised |

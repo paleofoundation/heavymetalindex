@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Sahu et al. 2014 - heavy metals in cosmetics from Delhi markets
 
+## Overview
+
 Sahu, Saxena, and Johnson reported a Centre for Science and Environment Pollution Monitoring Laboratory survey of commonly available cosmetics purchased from markets in Delhi, India. The study tested 30 lipsticks, 8 lip balms, and 3 anti-ageing creams for Pb, Cd, total Cr, and Ni, and tested 32 fairness/skin-whitening creams for total Hg. This page preserves the report's `ppm` units and total-metal speciation while suppressing brand and shade names attached to individual contamination values.
 
 ## Key numbers
@@ -92,6 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c896ce8a5](https://github.com/paleofoundation/heavymetalindex/commit/c896ce8a5) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # Majlesi et al. 2017 — Hg, Cd and Pb in muscle of three freshwater fish species, Khersan River, Iran
 
+## Overview
+
 Majlesi and colleagues measured mercury (total Hg by hybrid-system AAS), cadmium, and lead (both by graphite-furnace AAS) in muscle tissue of three wild-caught freshwater fish species — rainbow trout (Oncorhynchus mykiss), pike (Esox lucius), and common carp (Cyprinus carpio) — landed by local fishermen on the Khersan River (largest tributary of the Karun River, southwest Iran) in May–June 2016. Mean muscle concentrations were lowest in rainbow trout (Hg 0.023, Cd 0.110, Pb 1.12 mg/kg) and highest in common carp (Hg 0.027, Cd 0.155, Pb 1.45 mg/kg), with pike intermediate (Hg 0.026, Cd 0.162, Pb 1.34 mg/kg). Mercury and cadmium were below the WHO, FAO, FDA, and EC fish-tissue limits in every species; lead exceeded the WHO (0.5 mg/kg) and EC Regulation 1881/2006 (1.0 mg/kg) limits in all three species and the NOAA (1.28 mg/kg) limit in pike and common carp. Lead and cadmium concentrations correlated negatively and significantly with fish weight (r = −0.517 for Pb, r = −0.568 for Cd; P < 0.05); length correlations were negative but non-significant. The authors attribute the elevated lead burden to urban, rural, and agricultural wastewater entering the river upstream of the sampling reach.
 
 ## Key numbers
@@ -97,9 +99,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [0ae256171](https://github.com/paleofoundation/heavymetalindex/commit/0ae256171) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

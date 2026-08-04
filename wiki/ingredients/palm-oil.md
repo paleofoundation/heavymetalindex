@@ -106,15 +106,6 @@ updated: 2026-06-02
 
 # Palm oil
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Not yet characterized — scorecard activates at 2 contributing A-tier sources._
-
-<!-- /hmi-completeness-scorecard -->
-
-
 > **Provisional scaffold.** This page was created automatically on 2026-06-02 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** June 2 manual-fetch edible-oil source reports palm oil metal concentrations
@@ -128,15 +119,15 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Bereket Tesfaye and Alemayehu Abebaw (2016). *Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils*. Advances in Chemistry. [https://doi.org/10.1155/2016/3480329](https://doi.org/10.1155/2016/3480329). Peer-reviewed, A-tier. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia|Source record]]
+1. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia|Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils]]<span class="hmi-ref-meta">Bereket Tesfaye and Alemayehu Abebaw · Advances in Chemistry · 2016 · [doi.org/10.1155/2016/3480329](https://doi.org/10.1155/2016/3480329)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -154,9 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed; narrative text revised |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added; narrative text revised |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

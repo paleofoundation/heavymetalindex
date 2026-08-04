@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Copat 2013 - Eastern Mediterranean fish and shellfish metals
 
+## Overview
+
 Copat and colleagues measured arsenic, cadmium, chromium, lead, manganese, nickel, vanadium, and zinc in edible tissues from fish and sand-dwelling mussel sold through the Catania fish market. The study reports concentrations in `mg/kg w.w.` and then models intake, THQ, cancer risk, and consumption limits. Arsenic was measured as total/unspecified As; the paper's inorganic-arsenic risk calculations assume 3% of total arsenic and are not measured iAs concentrations.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [1eb1ebb54](https://github.com/paleofoundation/heavymetalindex/commit/1eb1ebb54) | 2026-06-08 | major | 4 sections added; narrative text revised |

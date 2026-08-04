@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2022 - lead, cadmium, and nickel in jewelry risk assessment
 
+## Overview
+
 This ESR client report for the New Zealand Ministry of Health develops a generic risk assessment for incidental oral and dermal exposure to Pb, Cd, and Ni in jewelry. It is not a New Zealand occurrence survey; the report explicitly says no New Zealand jewelry recall data and no New Zealand occurrence/prevalence data were available. The quantitative sections summarize overseas metal-content, bioaccessibility, and risk-assessment studies, then interpret those studies for children and adults who mouth, swallow, or wear jewelry.
 
 ## Key numbers
@@ -129,6 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [5fb79cc80](https://github.com/paleofoundation/heavymetalindex/commit/5fb79cc80) | 2026-06-09 | major | 9 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

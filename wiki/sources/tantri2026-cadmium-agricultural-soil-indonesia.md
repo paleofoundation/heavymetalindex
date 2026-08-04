@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Tantri 2026 — Cadmium contamination of agricultural soils and food security in Indonesia
 
+## Overview
+
 This integrative study synthesizes secondary data on cadmium in agricultural soils of West Java and Central Java, computing contamination and ecological-risk indices and relating soil Cd to food-security risk. It is upstream soil-burden and exposure context for cadmium; it reports no primary retail food occurrence and is context-only for Heavy Metal Index purposes. It is exactly the kind of soil-contamination-assessment evidence the routing layer connects to crops grown on affected ground.
 
 ## Key numbers
@@ -72,6 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c9b85bf01](https://github.com/paleofoundation/heavymetalindex/commit/c9b85bf01) | 2026-06-18 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

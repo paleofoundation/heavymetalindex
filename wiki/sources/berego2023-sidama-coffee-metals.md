@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Berego et al. 2023 - metals in Sidama coffee beans and soils
 
+## Overview
+
 Berego and colleagues measured essential and toxic metals in coffee beans and associated agricultural soils from Dale Woreda in Sidama, Ethiopia. The coffee-bean tables report Pb, Cd, Cr, and Co as not detected in both farm and washing-plant beans, while Ni, Cu, Zn, Mn, Na, K, and Ca were quantifiable at low mg/kg levels. Soil Cd exceeded the authors' cited agricultural-soil comparator, so this source is useful for both coffee occurrence routing and supply-chain soil context without treating the soil values as coffee-product concentrations.
 
 ## Key numbers
@@ -77,7 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [0a343876a](https://github.com/paleofoundation/heavymetalindex/commit/0a343876a) | 2026-06-09 | minor | Narrative text revised |
-| [f4ed23400](https://github.com/paleofoundation/heavymetalindex/commit/f4ed23400) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

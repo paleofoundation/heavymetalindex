@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # EL Daouk et al. 2020 — Aluminum exposure from food in the Lebanese population
 
+## Overview
+
 This is the first national-scope study of dietary aluminum (Al) exposure in Lebanon. The authors combined a targeted retail-market survey of 97 food items measured by flame atomic absorption spectrometry (FAAS) with a self-administered Electronic Food Frequency Questionnaire (E-FFQ) completed by 167 Lebanese adults to estimate Daily Dietary Exposure (DDE) and Provisional Tolerable Weekly Intake (PTWI) for Al. Food selection followed the second French Total Diet Study (EAT2) and Lebanese Food Based Dietary Guidelines, with explicit inclusion of traditional Lebanese foods cooked in aluminum utensils (kanafeh, maamoul, foul, falafel, shawarma) and acidic foods stored in metal cans or aluminum foil. Mean Al concentration across the 97 items was 3.56 ± 2.08 mg/kg fresh weight (range 0.14–9.37 mg/kg), with the highest group-mean concentrations in vegetables, sauces and condiments, candies, ready meals, potatoes, and coffee/cocoa/tea. Mean DDE was estimated at 4341.18 µg/day, giving a 50th-percentile Dietary Weekly Intake (DWI) of 0.50 mg/kg bw/week at an assumed 60 kg body weight — half of the JECFA/EFSA PTWI of 1 mg/kg bw/week — and a 95th-percentile DWI of 1.01 mg/kg bw/week, at the threshold. Top contributors to ingested Al by total daily food mass were soft drinks, fresh tomatoes, tea, ice cream, Turkish coffee, and fresh lettuce. The authors attribute the bulk of Al loading to packaging (cans, foil, capsules), cookware migration into acidic foods, and food additives, with secondary contribution from soil/irrigation-water uptake into vegetables.
 
 ## Key numbers
@@ -228,8 +230,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [246411edf](https://github.com/paleofoundation/heavymetalindex/commit/246411edf) | 2026-06-08 | minor | Narrative text revised |
-| [234c2cf71](https://github.com/paleofoundation/heavymetalindex/commit/234c2cf71) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

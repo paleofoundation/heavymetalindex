@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-powder-cornstarch",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9819bea89829539dc46856a9ce7bd5f89511ddb446a30de1bfc615f275e076ac",
-      "content_bytes": 11164,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "7e6ab5502d32448687a775342821c938eb8ac8994166275998c0c15d49c087ea",
+      "content_bytes": 11397,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/baby-powder-cornstarch.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/baby-powder-cornstarch.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
         "content_pin": {
-          "content_sha256": "ae7db0aab03b90eee7e08dcfacea59a9b10401c6348b264805ae0e7ba55fdd5f",
-          "content_bytes": 24423,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "df90826ce827e78b8716317ffc9bf6ec41c2b0fbad2b19b287c83802a70a53e9",
+          "content_bytes": 24575,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "3fd2e0164f5c1247cda2385a82de33a253b42992d52222326aba7f971cb40018",
-          "content_bytes": 31174,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "d2763ab27f1d51f10ee5d74c9c4d3fd00bd0fc31183e0483f1d28f1c8dbf091f",
+          "content_bytes": 31350,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Rahati et al. 2026 — Heavy Metals in Infant Formula and Baby Food, Iranian Market
 
+## Overview
+
 This 2026 Journal of Health, Population and Nutrition study from Mashhad University of Medical Sciences measured 13 trace and toxic elements in 80 powdered infant formula and 27 baby food samples drawn from the Mashhad (Iran) retail market across three seasonal sampling rounds between June 2020 and June 2021, then applied deterministic and probabilistic (Monte Carlo, 10,000 iterations, 95th percentile) health risk assessment covering Hazard Quotient (HQ), Hazard Index (HI), and Cancer Risk (CR) for infants aged 0–24 months. Lead, cadmium, and mercury were below the instrument LOD in all samples; concentrations of aluminium, cobalt, chromium, copper, iron, and zinc exceeded FAO/WHO limits and drove all-age-group HI values above the EPA non-cancer threshold of 1.0. The authors summarize chromium cancer risks as ranging from 9.55 × 10⁻⁵ to 3.57 × 10⁻⁴ in the abstract and discussion, while Table 3 reports 3.75 × 10⁻⁴ for the 18–24 month infant-formula stratum.
 
 ## Key numbers
@@ -204,9 +206,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [82a0b6c50](https://github.com/paleofoundation/heavymetalindex/commit/82a0b6c50) | 2026-05-18 | minor | Narrative text revised |
-| [2c5dcf689](https://github.com/paleofoundation/heavymetalindex/commit/2c5dcf689) | 2026-05-17 | minor | Narrative text revised |
-| [b23764486](https://github.com/paleofoundation/heavymetalindex/commit/b23764486) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

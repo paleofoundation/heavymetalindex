@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Wehmeier et al. 2023 — Inorganic arsenic in 30 Austrian market rice products by HPLC-ICP-MS and Cola field method
 
+## Overview
+
 Wehmeier et al. measured total arsenic (tAs) by ICP-MS and inorganic arsenic (iAs) by HPLC-ICP-MS in 30 rice and rice products purchased in Austria, as part of a method development study comparing a novel Cola-extraction field-deployable screening method against the reference HPLC-ICP-MS technique. This paper provides directly relevant food occurrence data for Austrian market rice. All As values are speciated: iAs was measured by HPLC-ICP-MS (Hamilton PRP-X100 anion exchange column, 40-mM ammonium carbonate mobile phase, Agilent 7700 ICP-MS). Total arsenic was measured by full acid digest + ICP-MS (Agilent 7900). CRM NIST 1568b recovery: tAs 299 ± 5 µg/kg (certified 285 ± 14); iAs 93 ± 1 µg/kg (certified 92 ± 10 µg/kg).
 
 The iAs dataset across the 30 Austrian rice samples shows: range 60–249 µg/kg; mean 74% of total arsenic was iAs; DMA averaged 26% of total arsenic. Only one sample (an unpolished rice, R27) exceeded the applicable EU MCL for that rice type (250 µg/kg for unpolished/husked rice). If the infant rice MCL of 100 µg/kg were applied to all 30 samples, 22/30 would fail.
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3f107ba96](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba96) | 2026-05-12 | major | 4 sections added; narrative text revised |

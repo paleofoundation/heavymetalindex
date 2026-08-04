@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Carignan, Karagas, Punshon, Gilbert-Diamond, Cottingham 2016 — Breast milk and formula contributions to first-year-of-life arsenic exposure
 
+## Overview
+
 This Journal of Exposure Science and Environmental Epidemiology paper from the Dartmouth Children's Environmental Health Center (Carignan, Karagas, Punshon, Gilbert-Diamond, Cottingham) extends the [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]] cross-sectional finding to a prospective first-year-of-life cohort design within the New Hampshire Birth Cohort Study. The 2016 paper documents the longitudinal arsenic-exposure trajectory across the first year of life with feeding-mode stratification (exclusively breastfed, mixed-fed, exclusively formula-fed, with-solid-foods-introduced), providing the temporal evidence for how feeding-mode transitions modulate cumulative infant arsenic body burden. The paper is the longitudinal companion to Carignan 2015 within the Dartmouth infant-As cluster.
 
 ## Key conclusions
@@ -48,6 +50,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 2 sources added; 3 sections added; narrative text revised |

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study measured Pb and Cd in 165 traditionally produced cow's-milk yogurt samples collected across 11 regions of Lebanon (Nabatiyeh, South Area, Chouf, Metn, Kesserwan, Jbeil, Batroun, North Area, Akkar, Bekaa, Baalbeck-Hermel; n=15 per region) using graphite furnace atomic absorption spectrometry (GFAAS) on a Shimadzu AA-6800. Microwave-acid digestion with HNO3/H2O2 was used; accuracy was validated against BCR-679 white-cabbage certified reference material (94–111% recovery for Cd) with LODs of 0.004 mg/kg (Pb) and 0.0007 mg/kg (Cd). All concentrations are wet-weight on the as-consumed yogurt. The dataset is the first known regional survey of Pb and Cd in Lebanese yogurt and provides regional means, exceedance fractions against EU 2023/915 limits (0.020 mg/kg Pb; 0.005 mg/kg Cd), and estimated dietary intake (EDI) for the adult population.
 
 ## Key numbers
@@ -150,9 +152,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [f2de49d93](https://github.com/paleofoundation/heavymetalindex/commit/f2de49d93) | 2026-05-19 | minor | Narrative text revised |
-| [f5e5c1a8e](https://github.com/paleofoundation/heavymetalindex/commit/f5e5c1a8e) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

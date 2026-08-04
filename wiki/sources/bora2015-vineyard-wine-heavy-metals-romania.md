@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Bora et al. 2015 — Heavy metals in the soil-grapevine-wine system in NW Romania
 
+## Overview
+
 Bora and colleagues measured concentrations of ten elements (Na, Ca, Mg, Fe, Cu, Zn, Pb, Cd, Ni, Co) by flame atomic absorption spectrophotometry (FAAS) across the soil–grapevine–wine system of three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in the Turulung vineyard (Satu Mare County, NW Romania), 57 km from the Baia Mare metallurgical complex. The vineyard soil exceeded the Romanian maximum limit allowed (MLA) for copper (mean 479.64 mg/kg vs 20 mg/kg MLA), attributed by the authors to long-running Cu-based fungicide treatments and regional smelter emissions; all other soil analytes (Pb, Cd, Zn, Ni, Co) were below their MLAs. In the resulting micro-vinified young wines, all measured heavy metals were below the International Organisation of Vine and Wine (OIV) ceilings: Cu 0.23 mg/L, Zn 0.46 mg/L, Pb 0.09 mg/L, Ni 0.04 mg/L; Cd was under the limit of detection. Transfer-factor analysis showed Cd and Pb preferentially accumulating in leaves rather than in must, consistent with vine-internal sequestration of toxic metals away from the berries.
 
 ## Key numbers
@@ -149,8 +151,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [d70d6eb09](https://github.com/paleofoundation/heavymetalindex/commit/d70d6eb09) | 2026-06-06 | minor | Narrative text revised |
-| [6d519cf85](https://github.com/paleofoundation/heavymetalindex/commit/6d519cf85) | 2026-06-06 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

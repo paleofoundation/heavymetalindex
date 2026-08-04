@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Tonska et al. 2020 — Pb and Cd in conventional vs. organic carrots, Poland
 
+## Overview
+
 Tonska et al. compared Pb and Cd concentrations in 18 conventional and 18 organic carrot samples purchased at retail in Poland, and assessed dietary risk using EFSA/WHO tolerable weekly intake values. Organic and conventional carrots showed no statistically significant differences in Pb or Cd content, contradicting a common consumer assumption that organic produce has lower heavy metal burden. Both categories were below EU maximum residue limits for Pb (0.10 mg/kg fresh weight) and Cd (0.050 mg/kg fresh weight for carrots under EU Regulation 1881/2006), though individual samples approached those limits. The study provides a European baseline for carrot Pb and Cd from a major EU carrot-producing country.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |

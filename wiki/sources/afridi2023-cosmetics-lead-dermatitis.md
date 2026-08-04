@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Afridi et al. 2023 - Lead in cosmetics and dermatitis-patient biomarkers
 
+## Overview
+
 Afridi and colleagues measured lead in cosmetic products and in biological specimens from female dermatitis patients and healthy referents in Hyderabad, Pakistan. For the Index, the routeable product evidence is the cosmetic-product lead range by product type; biomarker results are exposure context rather than product occurrence values. The source page deliberately reports product-type ranges without naming the sampled consumer brands.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zhao et al. 2024 — Toxic metals and metalloids in food: global occurrence, dietary intake, and mitigation
 
+## Overview
+
 This peer-reviewed narrative review from Nanjing Agricultural University synthesises the contamination status of arsenic (As), cadmium (Cd), and lead (Pb) across 25+ food categories, drawing on Total Diet Study data from Australia, Brazil, France, Japan, New Zealand, Singapore, and 19 European countries, and assesses dietary intake relative to health-based guidance values. The central finding is that for the general population dietary intake remains generally below JECFA/EFSA guidance values, but vulnerable populations — infants, children, and pregnant women — are at or above those values for iAs and Cd. Mitigation strategies at the agronomic, processing, and supply-chain level are catalogued.
 
 ## Key numbers
@@ -108,6 +110,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [519f81ee2](https://github.com/paleofoundation/heavymetalindex/commit/519f81ee2) | 2026-05-13 | major | 4 sections added; narrative text revised |

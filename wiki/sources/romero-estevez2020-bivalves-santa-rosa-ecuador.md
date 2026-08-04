@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Romero-Estévez et al. 2020 — Cadmium, chromium, and lead in *Anadara* bivalves, Santa Rosa Island, Ecuador
 
+## Overview
+
 Romero-Estévez and colleagues measured cadmium, chromium, and lead in soft tissues of two mangrove-bivalve species (*Anadara tuberculosa* and *Anadara similis*) that the Afro-Ecuadorean community of Santa Rosa Island, in the Cayapas-Mataje Mangrove Reserve (REMACAM, Esmeraldas Province), harvest both for subsistence and for local commerce. Fifty composite bivalve samples (~10 specimens each) were collected from four sites inside the mangrove concession together with sediment (n = 4) and *Rhizophora mangle* leaves (n = 4) from the same locations. Concentrations were quantified by flame atomic absorption spectrophotometry on a Perkin Elmer AAnalyst 400 after CEM MARS 6 microwave acid digestion, with DORM-4 fish protein as the certified reference material. Results are reported in mg/kg fresh weight for the bivalves and mg/kg (dry-equivalent matrix basis) for sediments and leaves.
 
 For both species and across all body weights, cadmium exposure exceeded the US EPA RfD of 1 µg/kg/day, implying a non-carcinogenic risk for consumers; lead exposure exceeded the FDA interim reference level of 3 µg/day for children in nearly every scenario, implying a high pediatric risk for *A. tuberculosa* in particular. Chromium exposure stayed well below the US EPA Cr(III) RfD of 1.5 mg/kg/day in every case. Sediment and leaf concentrations did not correlate with bivalve tissue concentrations, suggesting that the metals accumulated in the bivalves come from contributions in the wider mangrove ecosystem rather than from the immediately co-located substrate.
@@ -171,9 +173,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [aa68e072f](https://github.com/paleofoundation/heavymetalindex/commit/aa68e072f) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

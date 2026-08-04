@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Liu et al. 2021 — Arsenolipids in krill oil, tuna, hairtail, and kelp
 
+## Overview
+
 This paper develops and validates a high-throughput method (HPLC-SWATH-MS with the Precursorfinder computational tool) for screening lipid-soluble arsenic species (arsenolipids) in seafood and algae, and applies it to identify 23 arsenolipids across krill oil, tuna fillets, hairtail fish heads, and kelp. Arsenolipids are organic arsenic compounds of growing concern because several have demonstrated cytotoxicity comparable to inorganic arsenite in human cell lines and neurotoxicity in vertebrate brain cells. The method represents a significant advance over prior targeted approaches by using data-independent acquisition (SWATH) to capture low-abundance arsenolipids that would be missed by data-dependent methods.
 
 ## Key numbers
@@ -64,6 +66,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [776a085c8](https://github.com/paleofoundation/heavymetalindex/commit/776a085c8) | 2026-05-13 | major | 4 sections added; narrative text revised |

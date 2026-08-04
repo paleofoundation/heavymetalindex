@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Fuentes-Lopez et al. 2025 — Total mercury in carnivorous freshwater fish, La Mojana, Colombia
 
+## Overview
+
 This study quantifies total mercury (tHg) concentrations in muscle tissue of 326 carnivorous freshwater fish from the San Jorge River in La Mojana, Sucre, Colombia — a region heavily impacted by gold mining and agricultural pesticide use — and links tHg accumulation to nematode parasite burden and liver pathology. Across all nine species and both seasons, mean tHg was 0.31 ± 0.01 µg/g wet weight, with individual species exceeding regulatory thresholds during certain seasons and consumer risk assessments indicating hazard quotient (HQ) values above 1 for frequent consumers, particularly pregnant women, nursing mothers, and young children. The study provides species-level tHg distributions and safe weekly consumption limit estimates for a fish-dependent community in northwestern Colombia.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [873fef7aa](https://github.com/paleofoundation/heavymetalindex/commit/873fef7aa) | 2026-05-13 | major | 4 sections added; narrative text revised |

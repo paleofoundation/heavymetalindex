@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2016 — Analytical results: inorganic arsenic in infant/toddler foods
 
+## Overview
+
 This is the sample-level analytical results companion dataset to the FDA 2016 Arsenic in Rice and Rice Products Risk Assessment Report, providing individual iAs measurements for 547 infant and toddler food samples across 17 product categories including rice-based cereals, non-rice cereals, multigrain cereals, juices (grape, pear, peach, apricot), oat rings, peanut butter, quinoa, raisins, teething biscuits, toddler puffs, stage 2 toddler foods, and whole fruits. The dataset gives product category, country of origin (often "Not Specified"), and sample description for each row. The 29-page tabular document is the raw data underlying the summary statistics in the risk assessment report, enabling per-sample iAs traceability.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

@@ -32,6 +32,8 @@ created_by: claude-opus-4-7
 
 # Schade 2010 — Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging
 
+## Overview
+
 This 47-page Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs report, authored by Michael Schade (CHEJ PVC Campaign Coordinator) with X-ray fluorescence (XRF) toy and packaging testing performed by Jeff Gearhart of the Ecology Center (Ann Arbor, MI) and a Statement of the National Commission of Inquiry into Toxic Toys, evaluates whether Toys "R" Us has kept its February 15, 2008 corporate pledge "to phase out the sale of toys containing lead or phthalates, reduce the sale of PVC-containing products and offer more PVC-free products." The investigation conducted two rounds of handheld portable XRF screening: a first round in June 2010 on nine licensed-film-tie-in toy items and seven of their packaging materials purchased at a single Toys "R" Us retail store in Ann Arbor, Michigan, and a second, broader round in Fall 2010 on 60 randomly selected toys, children's and infant products and 44 of their packaging materials purchased at a Toys "R" Us in Rockville, MD and a Babies "R" Us in Silver Spring, MD. Chlorine (Cl) was used as a surrogate for the presence of polyvinyl chloride (PVC) and tin (Sn) was used as a surrogate for the presence of organotin stabilizers; lead (Pb) and cadmium (Cd) were measured directly as additive chemicals of concern. The report finds that, 33 months after the 2008 corporate pledge, 72.5% of 69 retail-purchased toys/children's products contained chlorine indicative of PVC, 20.3% contained tin indicative of organotin stabilizers, 5.8% contained low levels of Pb and 1.4% contained low levels of Cd; 52.9% of 51 packaging materials contained chlorine indicative of PVC, 52.9% contained tin, 5.9% contained Pb and 0% contained Cd; and only 1 of 60 Fall 2010 products carried any PVC-content labeling visible to consumers at point of purchase. The Commission, the report, and the recommendations frame the findings as a regulatory-policy event (Toxic Substances Control Act reform; CPSC labeling regulation) rather than as a per-brand consumer-ranking document. This page records the XRF screening findings as occurrence data for toy and toy-packaging product categories; HMTc threshold-setting is not addressed and is out of scope per Part 2.
 
 ## Key numbers
@@ -209,8 +211,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [4a7d5be6e](https://github.com/paleofoundation/heavymetalindex/commit/4a7d5be6e) | 2026-06-01 | minor | Narrative text revised |
-| [de50e8ad7](https://github.com/paleofoundation/heavymetalindex/commit/de50e8ad7) | 2026-06-01 | major | 2 sources added; 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

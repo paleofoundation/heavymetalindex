@@ -27,6 +27,8 @@ updated: 2026-05-08
 
 # Jackson, Taylor, Punshon, Cottingham 2012 — Arsenic concentration and speciation in infant formulas and first foods
 
+## Overview
+
 This IUPAC Pure and Applied Chemistry paper from Dartmouth's Trace Element Analysis Laboratory and Department of Biological Sciences (Jackson, Taylor, Punshon, Cottingham) reports total arsenic and arsenic speciation (inorganic arsenic plus methylated species) in U.S. infant formulas and first foods using HPLC-ICP-MS speciation methodology. The paper is one of the few primary sources with sample-level speciation data for infant-formula matrices and is directly applicable to the milk-based powdered infant formula iAs gap that the IandC overnight final report flagged as the highest-priority Phase 3b ingest target. The Dartmouth group is the U.S. center of expertise for infant arsenic speciation; this paper and the related Carignan 2015, Carignan 2016, and Pikounis-Cottingham companion papers form the Dartmouth infant-As evidence cluster. A NIH preprint version of this paper is also present in raw/Digest as nihms374391.pdf.
 
 ## Key conclusions
@@ -100,8 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [531252824](https://github.com/paleofoundation/heavymetalindex/commit/531252824) | 2026-05-11 | major | 5 sections added; narrative text revised |
-| [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Florez-Garcia et al. 2023 — Meta-analysis of cadmium exposure and female breast cancer: pooled OR 1.13, dietary route non-significant
 
+## Overview
+
 This random-effects meta-analysis of 17 epidemiological studies evaluates the association between cadmium exposure and female breast cancer incidence, stratifying by exposure route (dietary, airborne, biomarker-based). The pooled odds ratio across all routes is 1.13 (95% CI: 1.00, 1.28; I² = 77%), indicating a borderline elevated risk with substantial heterogeneity. When stratified by exposure route, dietary cadmium alone is not linked to elevated risk (OR: 1.05; 95% CI: 0.91, 1.21; I² = 69%), but biomarker-based studies show a non-significant elevated pooled estimate (OR: 1.37; 95% CI: 0.96, 1.94; I² = 84%). Only two of the 17 studies addressed airborne cadmium directly. No clear difference in risk by menopausal status was observed. The authors note that residual confounding by tobacco smoke constituents (a major Cd exposure route) remains a concern in interpreting the biomarker-based subgroup.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7df819dbc](https://github.com/paleofoundation/heavymetalindex/commit/7df819dbc) | 2026-05-13 | major | 4 sections added; narrative text revised |

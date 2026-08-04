@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Abegaz & Midekssa 2021 — Rural drinking water quality in Guto Gida, Ethiopia
 
+## Overview
+
 This cross-sectional study assessed the bacteriological and physicochemical quality of 32 drinking water samples collected from four source types (protected dug well, open dug well, protected spring, open spring) at 8 locations in the Guto Gida woreda of Oromia, Ethiopia. The study found widespread microbial contamination and chemical non-compliance, with lead concentrations exceeding WHO permissible levels at two sites (J2 and K1) in both spring and well categories. Iron and manganese also exceeded permissible limits across multiple sources.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

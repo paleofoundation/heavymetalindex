@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Nischwitz and Pergantis 2006 - commercial kelp arsenic speciation
 
+## Overview
+
 Nischwitz and Pergantis analyzed 12 commercially available edible marine algal powders by ICP-MS total arsenic analysis and HPLC-ICP-MS / HPLC-ES-MS/MS arsenic-speciation methods. The products were kelp-style powders sold through United States and Canadian suppliers, with Ascophyllum, Laminaria, and Fucus materials represented. The occurrence-relevant results are total arsenic in the commercial powders and water-extractable arsenic species; total arsenic, arsenate, DMA, arsenobetaine, and arsenosugars are kept separate below.
 
 ## Key numbers
@@ -121,6 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [6a040f25e](https://github.com/paleofoundation/heavymetalindex/commit/6a040f25e) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

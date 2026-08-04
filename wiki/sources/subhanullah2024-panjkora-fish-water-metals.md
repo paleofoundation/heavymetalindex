@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Subhanullah et al. 2024 - Heavy metals in Panjkora River fish and water, Pakistan
 
+## Overview
+
 This Scientific Reports paper measured Fe, Pb, Mn, Zn, Cd, and As in Panjkora River water and in edible fish muscle. The abstract reports a highest fish Pb concentration of 2.028 mg/kg and a highest water Pb concentration of 0.060 mg/L. The routeable food matrix is freshwater fish muscle; water results are environmental context unless used for source-apportionment pages.
 
 ## Key numbers
@@ -76,6 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 6 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

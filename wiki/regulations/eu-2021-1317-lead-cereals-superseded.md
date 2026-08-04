@@ -21,6 +21,8 @@ updated: 2026-05-18
 
 # EU Regulation 2021/1317 - Lead Maximum Level For Cereals And Pulses
 
+## Overview
+
 Commission Regulation (EU) 2021/1317 amended Regulation (EC) No 1881/2006 as regards maximum levels of lead in certain foodstuffs. The regulation entered into force on 30 August 2021 and was implicitly repealed by Regulation (EU) 2023/915 from 25 May 2023.
 
 ## Selected Limit Used By Source Pages
@@ -49,6 +51,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [9a863c736](https://github.com/paleofoundation/heavymetalindex/commit/9a863c736) | 2026-05-18 | major | Contamination-profile values revised; 4 sections added; narrative text revised |

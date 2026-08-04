@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # García Porras et al. 2025 — Cadmium in cacao farmland: sources, uptake, and mitigation
 
+## Overview
+
 This review consolidates current knowledge on cadmium (Cd) sources in cacao agroecosystems, the factors driving Cd uptake into cacao beans, and mitigation strategies, with particular attention to the challenge posed by the EU's 2019 Cd limits for cocoa products (Regulation EU No. 488/2014, setting 0.10 and 0.80 mg Cd/kg dry matter depending on cacao content). Latin American cacao-producing soils — particularly in Colombia, Ecuador, Peru, Costa Rica, and Honduras — naturally contain elevated Cd due to geogenic sources (volcanic parent materials, sedimentary rocks) compounded by anthropogenic inputs (phosphate fertilizers, mining). The review synthesizes a meta-analysis of 785 paired soil-plant data points showing that soil total Cd, lower pH, and reduced soil organic carbon are the primary predictors of bean Cd concentration, and discusses promising mitigation approaches including beneficial element amendments (Mn, Zn), low-Cd accumulator genotype selection, and rhizosphere microbiota manipulation.
 
 ## Key numbers
@@ -80,6 +82,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

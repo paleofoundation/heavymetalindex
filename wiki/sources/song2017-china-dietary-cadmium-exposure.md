@@ -49,6 +49,8 @@ updated: 2026-06-02
 
 # Song et al. 2017 — Dietary cadmium exposure assessment for the Chinese population (PLOS ONE)
 
+## Overview
+
 A national semi-probabilistic dietary cadmium exposure assessment for China combining 228,687 food samples measured by graphite furnace atomic absorption spectrometry (GFAAS) between 2011 and 2015 with food consumption data from the 2002 China National Nutrition and Health Survey (CNNHS; n=67,608). Exposures are estimated for the general population and for age-sex sub-groups (children 4–11 years, young people 12–17 years male and female, adults ≥18 years male and female), and compared north of the Huai-River/Qinling-Mountains line versus south of it. The reference health-based guidance value is the JECFA Provisional Tolerable Monthly Intake (PTMI) of 25 µg/kg body weight per month.
 
 Mean cadmium exposure of the general Chinese population was 15.3 µg/kg BW/month (61.2% of PTMI). High-consumer (P95) exposure for the general population was 33.0 µg/kg BW/month (1.3× PTMI). For children 4–11 years the P95 reached 48.2 µg/kg BW/month (1.93× PTMI). Southern-population mean exposure was 1.7–1.8× higher than the northern-population mean across all age-sex groups. Rice was the single largest contributor (55.8% of intake in the general population, 58.6% in the high-exposure sub-population, 65.1% in the southern population, 37.8% in the northern population, and 90% of intake reported by Vietnam in a comparator study cited by the authors).
@@ -204,8 +206,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [9426986ad](https://github.com/paleofoundation/heavymetalindex/commit/9426986ad) | 2026-06-02 | minor | Narrative text revised |
-| [1d3a63aaf](https://github.com/paleofoundation/heavymetalindex/commit/1d3a63aaf) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

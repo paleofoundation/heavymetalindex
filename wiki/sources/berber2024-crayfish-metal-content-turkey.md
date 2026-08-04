@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Berber et al. 2024 — Metals and fatty acids in narrow-clawed crayfish, Turkey
 
+## Overview
+
 This study reports a 12-month monitoring investigation of metal concentrations (Fe, Zn, Al, Cu, Mn, Se, As, Hg, Cd, Pb) and fatty acid profiles in the narrow-clawed crayfish Pontastacus leptodactylus harvested from Atikhisar Dam Lake, Çanakkale Province, Turkey. Crayfish are a commercially harvested freshwater crustacean in Turkey and a food product of regional significance. The study examines seasonal variation and sex-based differences in metal accumulation, and concludes with a health risk assessment (EDI, THQ, cancer risk) for consumers.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

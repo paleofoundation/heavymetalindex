@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Sultana et al. 2022 — Heavy metals in root and leafy vegetables, Dhaka, Bangladesh
 
+## Overview
+
 This study measured concentrations of eight metals (Cr, Cd, Pb, Ni, Cu, Zn, Fe, Mn) in four root vegetables (beet, radish, carrot, turnip) and five leafy vegetables (mustard, cabbage, spinach, coriander, mint) purchased at Kawran Bazar, Dhaka's largest fresh produce market, across four seasonal sampling phases at minimum 14-day intervals over two months. Leafy vegetables consistently showed higher metal concentrations than root vegetables, with mean concentrations of Cr, Cd, Pb, and Ni exceeding FAO/WHO maximum permissible limits (MPL) in several species. Average daily intake (ADI), hazard quotient (HQ), and hazard index (HI) calculations indicated that four of five leafy vegetables (mustard, spinach, coriander, mint) and one of four root vegetables (turnip) posed potential health risks (HI > 1) at the assumed Bangladeshi adult intake of 166.1 g/person/day.
 
 ## Key numbers
@@ -173,8 +175,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [21ad3c322](https://github.com/paleofoundation/heavymetalindex/commit/21ad3c322) | 2026-05-20 | major | 3 sections added and 2 removed; narrative text revised |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # CPSC (2009) — CPSIA Section 101 Determinations/Exclusions Procedures NPR (16 CFR 1500.89 and 1500.90) and Companion Natural-Materials NPR
 
+## Overview
+
 A six-page extract of the Federal Register issue of Thursday, January 15, 2009 (Vol. 74, No. 10, pp. 2428-2433) reproducing two companion Consumer Product Safety Commission notices of proposed rulemaking issued under the Consumer Product Safety Improvement Act of 2008 (CPSIA, Public Law 110-314, 122 Stat. 3016) Section 101. The first notice (FR Doc. E9-715, signed January 9, 2009 by Secretary Todd A. Stevenson) proposes 16 CFR 1500.89 (procedures and requirements for a Commission determination under CPSIA Section 101(a) that a commodity or class of materials or a specific material or product does not exceed the Section 101(a) lead-content limits) and 16 CFR 1500.90 (procedures and requirements for a Commission exclusion under CPSIA Section 101(b)(1) of a specific product or material that exceeds the lead-content limits but will not result in absorption of any lead into the human body nor have any other adverse impact on public health or safety). The second notice (commencing on p. 2433) is the Commission's notice of proposed rulemaking on preliminary determinations that certain natural, untreated and unadulterated materials and metals do not exceed the Section 101(a) lead-content limits; only the first four items of the natural-materials list (precious gemstones; certain semiprecious gemstones; natural or cultured pearls; wood) are visible within the six-page PDF extract — the natural-materials list and the accompanying preliminary metals list continue beyond p. 2433. The contact point for both notices is Kristina M. Hatlelid, Ph.D., M.P.H., Directorate for Health Sciences. Public-comment deadlines: February 17, 2009. The first NPR was finalized at 74 FR 10475 (March 11, 2009); the second NPR was finalized at 74 FR 43031 (August 26, 2009) at 16 CFR 1500.91. The PDF contains no primary contamination measurements; it is included in the Heavy Metal Index corpus as the primary-regulatory-record source for the procedural rules that govern how CPSIA Section 101 determinations and exclusions are requested and adjudicated, and as the primary-record citation for the Commission's preliminary determinations that certain natural materials are categorically exempt from the Section 101 testing requirements.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [827ca6b90](https://github.com/paleofoundation/heavymetalindex/commit/827ca6b90) | 2026-06-01 | major | 5 sections added; narrative text revised |

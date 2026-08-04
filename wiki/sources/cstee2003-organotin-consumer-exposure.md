@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # CSTEE 2003 - organotin exposure from consumer products and food-contact materials
 
+## Overview
+
 The European Commission's Scientific Committee on Toxicity, Ecotoxicity and the Environment reviewed non-food consumer and environmental exposures to organostannic compounds, while explicitly noting that foods and food-contact materials contribute to total exposure. This is an A-tier regulatory opinion and exposure-context source, not a primary occurrence survey. The opinion keeps organotin species such as MBT, DBT, TBT, MOT, DOT, and TPT distinct from total elemental tin.
 
 ## Key numbers
@@ -112,6 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [19c75a014](https://github.com/paleofoundation/heavymetalindex/commit/19c75a014) | 2026-06-09 | major | 7 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

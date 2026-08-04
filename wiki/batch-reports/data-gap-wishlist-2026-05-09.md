@@ -12,6 +12,8 @@ noindex: true
 
 # Data-Gap Wishlist — 2026-05-09
 
+## Overview
+
 External candidate papers identified for the HMTc Category 1 data-gap cells via PubMed E-utilities queries. Each entry shows the PMID, year, title, journal, OA status (PMC available or paywalled), and the (subcategory × analyte) cells the paper would address.
 
 The PubMed query strategy targeted the most-acute data gaps from the Phase 5 master summary's readiness roll-up: MeHg in any IandC subcategory, Cr-VI speciation in cereals/purees/snacks, second sample-level Pb/Cd/tAs source for infant rice cereal, Ni/Al/Sn rice-cereal-specific or puree-specific sample-level data, and Al in baby cereals.

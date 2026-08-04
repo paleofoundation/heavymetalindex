@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Eagles-Smith et al. 2016 — Fish Hg spatial and temporal patterns across Western US + Canada (USGS broad synthesis)
 
+## Overview
+
 This USGS-led broad synthesis compiles total mercury (THg) concentrations in **96,310 individual fish from 4,262 unique locations** across 15 U.S. states, 3 Canadian provinces, and 2 Canadian territories — covering 206 species sampled 1969-2014. It is the largest freshwater-fish-Hg dataset in the Western North American literature. Across all fish, total THg in muscle ranges from **0.001 to 28.54 µg/g wet weight** with a geometric mean of **0.170 ± 0.001 µg/g ww**. Crucially:
 
 - **30% of individual fish samples exceed the EPA Fish Tissue Residue Criterion for methylmercury** (0.30 µg/g ww), the threshold designed to protect noncommercial-fish-consuming humans
@@ -155,9 +157,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [12d44c412](https://github.com/paleofoundation/heavymetalindex/commit/12d44c412) | 2026-05-29 | minor | Narrative text revised |
 | [396fa580c](https://github.com/paleofoundation/heavymetalindex/commit/396fa580c) | 2026-05-29 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [b9702d755](https://github.com/paleofoundation/heavymetalindex/commit/b9702d755) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

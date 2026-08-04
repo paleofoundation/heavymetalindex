@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # Valencia et al. 2021 — Pb and Cd in cultured *Crassostrea iredalei* oysters, Cañacao Bay, Philippines
 
+## Overview
+
 Valencia and colleagues measured lead and cadmium in 214 cultured slipper-cupped oysters (*Crassostrea iredalei*) and parallel surface-seawater samples taken from three sampling stations across the Cañacao Bay mariculture area (Cavite Province, Luzon, Philippines) over the four months October 2016 to January 2017, spanning the wet-to-dry seasonal transition. The bay is a section of the larger Manila Bay and is bordered by a residential coastal community, the Cavite-Manila ferry route, and a steel corporation outfall. Concentrations were quantified by inductively coupled plasma optical emission spectrometry (ICP-OES) on a Shimadzu ICPE-9810 after dry-ashing acid digestion, with results expressed in mg/kg for oyster soft tissue and mg/L for seawater. Tissue Pb and Cd ranged below the maximum permitted levels set by FAO, FSAI, and FSANZ in every month at every station; target hazard quotients (THQ) and total target hazard quotient (TTHQ) computed for a Filipino adult reference (65 kg BW, 71-year exposure duration, 3.50 g/person/day oyster ingestion) were below 1.0 in every monthly cell, indicating no appreciable non-carcinogenic risk for the modelled adult population. Pb in oyster tissue varied significantly between wet and dry seasons (p<0.05); Cd did not. No significant differences in either metal were observed across the three sampling stations.
 
 ## Key numbers
@@ -156,7 +158,7 @@ Three sampling stations were established within the Cañacao Bay mariculture are
 - Full paper pages 1-10 (abstract, methods, all results/tables 1-3, figures 2-3, discussion, conclusion, opening of references) read directly from the PDF. Tables 1-3 numeric values transcribed verbatim, including the (*) "below detection limit" footnotes and the "*computed at 0.1 mg/kg" annotation on the October and January Pb THQ rows.
 - Speciation flags: the source measures total Pb (elemental Pb by ICP-OES at 220.353 nm) and total Cd (elemental Cd by ICP-OES at 226.502 nm). No methylmercury, no inorganic-arsenic-vs-total-arsenic distinction (arsenic is not measured in this study).
 - Units preserved as the source reports them: mg/kg for oyster soft tissue (fresh-weight basis; the dry-ashing digestion is sample preparation, not a basis change), mg/L for seawater, dimensionless THQ/TTHQ. No silent conversion to ppb or ppm.
-- Method-vendor names retained per CLAUDE.md Part 12 Exception 2: Shimadzu ICPE-9810 (ICP-OES instrument), Garmin GPSMAP 62s (geolocation), FLIR Systems ExStik II DO600 and pH meter (in-situ physicochemical), APEL PD-303UV (turbidity spectrophotometer), IBM SPSS Statistics 20.0 (statistical software), GraphPad Prism 7 (statistical software).
+- Method-vendor names retained Exception 2: Shimadzu ICPE-9810 (ICP-OES instrument), Garmin GPSMAP 62s (geolocation), FLIR Systems ExStik II DO600 and pH meter (in-situ physicochemical), APEL PD-303UV (turbidity spectrophotometer), IBM SPSS Statistics 20.0 (statistical software), GraphPad Prism 7 (statistical software).
 - Brand-firewall: no consumer-brand contamination attributions appear in the source. The steel corporation adjacent to Station 3 is not named in the paper and is not named here.
 - Part 2 wiki/HMTc firewall: this page reports the Cañacao Bay Pb and Cd values, the THQ/TTHQ computation, and the FAO/FSAI/FSANZ ceilings the authors cite. It does not propose, soften, or strengthen any HMTc shellfish threshold; the Implications section is restricted to noting routing destinations and the source's status as one contributor among many for any future HMTc percentile-pool analysis.
 - One textual oddity in the source (resolved against Table 1, no correction to wiki values needed): page 4 of the PDF (paragraph immediately above the oyster-Pb paragraph that precedes Table 1) reads "Cd concentrations ranged from 0.2 mg/kg to 0.9 mg/kg levels." This sentence is inconsistent with Table 1 (Cd-in-oyster individual-station values 0.02-0.09 mg/kg; monthly means 0.027-0.083 ± 0.006 mg/kg) and with the abstract (Cd 0.027 ± 0.006 to 0.083 ± 0.006 mg/kg), and the 0.2-0.9 mg/kg range is exactly 10× the actual Table 1 Cd-in-oyster individual-station range. The most parsimonious reading is a decimal-place typographical error in the source itself (intended Cd-in-oyster-tissue range, miswritten by one order of magnitude); the surrounding paragraph context (Gobas 2001 cited for detection-limit discussion, sediment-binding gloss) makes the "comparison study" reading less likely. The Key-numbers table values for Cd in Cañacao oysters come from Table 1 and the abstract and are internally consistent at the 0.02-0.09 mg/kg order of magnitude.
@@ -169,9 +171,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [3f56d4a18](https://github.com/paleofoundation/heavymetalindex/commit/3f56d4a18) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

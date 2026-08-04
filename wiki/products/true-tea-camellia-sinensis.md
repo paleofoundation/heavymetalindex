@@ -22,34 +22,36 @@ sources: 16
 
 # True Tea (Camellia Sinensis)
 
+## Overview
+
 This page is HMTc Category 5 row 11 from the locked beverage architecture. It exists as a wiki node so evidence, regulatory context, ingredient routing, and future field findings have a stable place to land.
 
 <!-- BEGIN: hmi-stakeholder-guide -->
 <div class="hmi-stakeholder-guide">
-  <div class="hmi-stakeholder-guide-label">Who this page is for</div>
-  <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
-  <dl>
-    <div>
-      <dt>Brand legal and regulatory affairs</dt>
-      <dd>Cherry-pick attack vectors on tea (Camellia sinensis) typically center on aluminum, manganese, and lead uptake by the tea plant; elevation and provincial sourcing drive multi-fold variance. The aluminum case for true tea is one of the most-litigated heavy-metal-in-food categories. Geographic and elevation context is the defensive core. Compare with <a href="/products/matcha">Matcha</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
-    </div>
-    <div>
-      <dt>Retailer quality and compliance</dt>
-      <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
-    </div>
-    <div>
-      <dt>Brand QA and product development</dt>
-      <dd>Use the <a href="/certification/lab-result-comparator?category=true-tea-camellia-sinensis">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for true tea, with aluminum and lead treated as primary concerns.</dd>
-    </div>
-    <div>
-      <dt>Regulators, journalists, and adversarial readers</dt>
-      <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
-    </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
-    </div>
-  </dl>
+ <div class="hmi-stakeholder-guide-label">Who this page is for</div>
+ <p>Heavy Metal Index pages are written for several audiences at once. Each entry point below names where to start if you are reading this page with a specific question in mind.</p>
+ <dl>
+ <div>
+ <dt>Brand legal and regulatory affairs</dt>
+ <dd>Cherry-pick attack vectors on tea (Camellia sinensis) typically center on aluminum, manganese, and lead uptake by the tea plant; elevation and provincial sourcing drive multi-fold variance. The aluminum case for true tea is one of the most-litigated heavy-metal-in-food categories. Geographic and elevation context is the defensive core. Compare with <a href="/products/matcha">Matcha</a> for the within-pair sibling. The cited sources at the bottom of this page are the citations list, written to be quoted into a Daubert brief without further editing.</dd>
+ </div>
+ <div>
+ <dt>Retailer quality and compliance</dt>
+ <dd>The Federal / Regulatory Limits vs Field Findings section compares the applicable regulatory cap to cited field evidence on a like-for-like basis, with basis conversion shown when conversion is well-defined and a methodology anchor when speciation differs. The Literature Evidence Summary gives source count and confidence rating per analyte.</dd>
+ </div>
+ <div>
+ <dt>Brand QA and product development</dt>
+ <dd>Use the <a href="/certification/lab-result-comparator?category=true-tea-camellia-sinensis">Lab Result Comparator</a> to position a single lab value inside the cited literature. The comparator positions a single lab value inside the cited literature for true tea, with aluminum and lead treated as primary concerns.</dd>
+ </div>
+ <div>
+ <dt>Regulators, journalists, and adversarial readers</dt>
+ <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See.</dd>
+ </div>
+ </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
 ## Decision Snapshot
@@ -98,16 +100,16 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Food and Drug Administration (2004). *Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice*. FDA Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first). Government guidance, A-tier. [[sources/fda2004-juice-haccp-lead|Source record]]
-2. U.S. Food and Drug Administration (2022). *Draft Guidance for Industry: Action Levels for Lead in Juice*. FDA Draft Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice). Government guidance, A-tier. [[sources/fda2022-draft-lead-juice|Source record]]
+1. [[sources/fda2004-juice-haccp-lead|Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Guidance for Industry · 2004 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-juice-hazard-analysis-critical-control-point-hazards-and-controls-guidance-first)</span><span class="hmi-ref-tag">Guidance</span>
+2. [[sources/fda2022-draft-lead-juice|Draft Guidance for Industry: Action Levels for Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Draft Guidance for Industry · 2022 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice)</span><span class="hmi-ref-tag">Guidance</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -159,7 +161,7 @@ _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator aud
 
 ## Methodology
 
-_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules that govern downstream sections of this page._
 
 ## Source Evidence Inventory
 
@@ -206,15 +208,15 @@ The sources below are catalogued as product-context candidates for this row. The
 
 ## Levers to reduce contamination
 
-Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here.
+Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Individual brand recall actions are not enumerated here.
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
-Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here.
+Cat 5 beverage regulatory enforcement covers the FDA Juice HACCP framework ([[sources/fda2004-juice-haccp-lead|FDA 2004]]) and 2022 draft Pb-in-juice action levels ([[sources/fda2022-draft-lead-juice|FDA 2022]]) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v. Welch Foods California Prop 65 settlement specifically established practical compliance thresholds for grape and other juice products. Tea-and-coffee enforcement is principally California Prop 65 with documented enforcement actions on tea products from Asian importers. Individual brand recall actions are not enumerated here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -223,9 +225,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sources added; 3 sections added and 1 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [8530c3e2e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e2e) | 2026-05-17 | major | 2 sources added; narrative text revised |
-| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 7 sections added; narrative text revised |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Divrikli et al. 2006 - metals in western Anatolia spices and herbal plants
 
+## Overview
+
 Divrikli and colleagues measured copper, cadmium, lead, nickel, chromium, iron, manganese, and zinc in eleven spice and herbal plant species collected from farms in western Anatolia, Turkey. The study is occurrence evidence for herbs-and-spices and botanical raw materials, with values reported for the plant parts selected to match local consumption. Results are dry-weight total elemental measurements; chromium is total Cr, not Cr-VI.
 
 ## Key numbers
@@ -100,6 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [607bef219](https://github.com/paleofoundation/heavymetalindex/commit/607bef219) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

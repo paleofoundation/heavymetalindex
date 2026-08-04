@@ -8,7 +8,7 @@ publication: "Journal of Association of Official Analytical Chemists 70(4):754-7
 doi: 10.1093/jaoac/70.4.754
 source_type: study
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed primary study (J Assoc Off Anal Chem) + government agency authors (Health Protection Branch, Canada). Both A-tier criteria satisfied."
+tier_rationale: "Per: peer-reviewed primary study (J Assoc Off Anal Chem) + government agency authors (Health Protection Branch, Canada). Both A-tier criteria satisfied."
 method_quality_caveat: "1987-era methodology; LOD/LOQ should be checked against modern ICP-MS sensitivity for any contemporary comparison."
 jurisdiction: Canada
 metals: [Pb, Cd]
@@ -92,9 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e9ee7e689](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e689) | 2026-05-07 | minor | Narrative text revised |
 | [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
-| [bad22dde1](https://github.com/paleofoundation/heavymetalindex/commit/bad22dde1) | 2026-04-29 | major | 1 source added; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

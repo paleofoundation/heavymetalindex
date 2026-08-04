@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Moreda-Pineiro et al. 2020 - Inorganic arsenic speciation in commercial rice
 
+## Overview
+
 This Talanta method paper developed an ionic-imprinted-polymer extraction workflow for inorganic arsenic species in rice and applied it to commercial rice samples. It is routeable for rice occurrence context because the paper reports inorganic arsenic ranges and total arsenic checks in real rice matrices.
 
 ## Key numbers
@@ -63,8 +65,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [00a2af1d9](https://github.com/paleofoundation/heavymetalindex/commit/00a2af1d9) | 2026-05-26 | minor | Narrative text revised |
-| [b5ce02642](https://github.com/paleofoundation/heavymetalindex/commit/b5ce02642) | 2026-05-26 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

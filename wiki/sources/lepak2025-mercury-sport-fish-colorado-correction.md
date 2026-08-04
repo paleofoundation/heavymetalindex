@@ -26,6 +26,8 @@ updated: 2026-05-12
 near_duplicates: []
 ---
 
+## Overview
+
 Lepak et al. (2025) publish a formal correction to previously reported mercury concentration data for sport fish from Colorado reservoirs. Although the document is a correction notice, it contains primary concentration data for total mercury (tHg) and/or methylmercury (MeHg) in sport fish from Colorado water bodies, with corrected values for species including walleye, northern pike, and smallmouth bass. Correction papers in PLoS ONE are peer-reviewed and carry the same evidence status as the original article; the corrected values supersede and replace values from the original paper.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb0c500b](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c500b) | 2026-05-12 | major | 4 sections added; narrative text revised |

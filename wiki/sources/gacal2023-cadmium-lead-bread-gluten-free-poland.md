@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Gacal et al. 2023 - Cadmium and lead in gluten and gluten-free bread, Poland
 
+## Overview
+
 Gacal et al. (2023) measured cadmium and lead in 50 bread samples purchased in Silesia Province, Poland, then estimated non-cancer and cancer risk across eight age groups. The study is a finished-product bread occurrence source for Cd and Pb, with separate rows for gluten-free, wheat-rye, wheat, and rye bread. The authors' initial hypothesis was that gluten-free bread would be more contaminated because many gluten-free formulations use rice or maize flour, but measured Cd was lowest in the gluten-free group and Pb was above LOQ in only one wheat-bread sample.
 
 ## Key numbers
@@ -128,9 +130,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [22a69e60d](https://github.com/paleofoundation/heavymetalindex/commit/22a69e60d) | 2026-05-19 | minor | Narrative text revised |
-| [9a863c736](https://github.com/paleofoundation/heavymetalindex/commit/9a863c736) | 2026-05-18 | major | 3 sections added and 1 removed; narrative text revised |
-| [c3a27e230](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e230) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

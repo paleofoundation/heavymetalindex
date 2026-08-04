@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Singhato et al. 2025 — Toxic heavy metals (As, Cd, Hg, Pb) in 20 seafood species from Thai markets and risk assessment
 
+## Overview
+
 Singhato and colleagues measured total arsenic, cadmium, total mercury, and lead in 20 commonly consumed seafood species purchased from three markets in Chonburi Province, Thailand (eastern coastal region), and conducted dietary risk assessment using Thai per-capita and eater-only consumption data stratified by age group (3-5.9, 6-12.9, 13-17.9, 18-34.9, 35-64.9, ≥65 years) and three cooking methods (boiling, frying, grilling). Wedge shell (Mercenaria mercenaria) and musk crab (Charybdis feriata Linnaeus) exhibited the highest concentrations of arsenic (21.4 and 16.2 mg/kg FW respectively) and wedge shell also the highest cadmium (7.3 mg/kg FW, exceeding the Thai 2.0 mg/kg bivalve cadmium limit). Risk characterization (margin-of-exposure for As and Pb, hazard quotient against PTMI/PTWI for Cd and Hg) identified arsenic as the principal exposure-driven concern, with the youngest age group (3-5.9 y) most vulnerable; cadmium and mercury risks were minimal apart from discrete hotspots; lead margins of exposure fell below 100 (potential concern) across most eater-only seafood-consumer scenarios.
 
 ## Key numbers
@@ -211,9 +213,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [b350787ad](https://github.com/paleofoundation/heavymetalindex/commit/b350787ad) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

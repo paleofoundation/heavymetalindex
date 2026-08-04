@@ -14,38 +14,40 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 17
+sources: 18
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Processed meats (sausage, deli meat, bacon, hot dogs)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 11 (Meat, Poultry, and Eggs), Row 7: **Processed meats (sausage, deli meat, bacon, hot dogs)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [processed-meats]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 11 (Meat, Poultry, and Eggs), Row 7: **Processed meats (sausage, deli meat, bacon, hot dogs)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [processed-meats]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Processed meats (sausage, deli meat, bacon, hot dogs), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Processed meats (sausage, deli meat, bacon, hot dogs), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Processed meats (sausage, deli meat, bacon, hot dogs), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Processed meats (sausage, deli meat, bacon, hot dogs), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in processed meats (sausage, deli meat, bacon, hot dogs). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in processed meats (sausage, deli meat, bacon, hot dogs). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA, USDA (meat/poultry inspection), EU, Codex**.
 
@@ -112,7 +114,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -128,11 +130,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/el-daouk2020-aluminum-food-lebanon\|EL et al. 2020]]. *Aluminum exposure from food in the population of Lebanon*, Toxicology Reports | 2020 | Peer-reviewed | LB Al occurrence in Ninety-seven food items collected May–September 2018 from the Beirut retail market (105 sampled; 8 discarded for turbidity), comprising... (n=97) |
 | 11 | [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|Shaltout et al. 2020]]. *Prevalence of Some Chemical Hazards in Some Meat Products*, Concepts of Dairy & Veterinary Sciences (Lupine Publishers) 3(4):000166 | 2020 | Peer-reviewed | EG Pb, Cd occurrence in 60 random meat product samples (15 each of minced meat, beef burger, sausage, luncheon meat) from supermarkets and... (n=60) |
 | 12 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
-| 13 | [[sources/wang2019-dietary-lead-guangzhou\|Wang et al. 2019]]. *Dietary Lead Exposure and Associated Health Risks in Guangzhou, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb occurrence in Food safety risk monitoring samples from Guangzhou, China, collected during 2014-2017 across 27 food categories; consumption inputs came... (n=6339) |
-| 14 | [[sources/stahl2017-aluminum-food-contact-part1\|Stahl et al. 2017]]. *Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods*, Environmental Sciences Europe | 2017 | Peer-reviewed | DE/EU Al occurrence in Hessian State Laboratory aluminum results for 1,825 foodstuff samples across 30 product groups, plus Part I study-design context... (n=1825) |
-| 15 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
-| 16 | [[sources/buculei2012-tin-iron-migration-canned-food-romania\|Buculei et al. 2012]]. *Study regarding the tin and iron migration from metallic cans into foodstuff during storage*, Journal of Agroalimentary Processes and Technologies, 18(4), 299-303 | 2012 | Peer-reviewed | RO Sn, Fe occurrence in Four canned product types (peas, tomato paste, pork in own juice, pork liver pate) packed in three-piece tinplate... (n=4) |
-| 17 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
+| 13 | [[sources/jayanthi2019-chennai-chicken-heavy-metals\|Jayanthi et al. 2019]]. *Assessment of non-essential heavy metals in ready-to-eat chicken meat products of Chennai city*, International Journal of Chemical Studies | 2019 | Peer-reviewed | IN Al, tAs, Cd, Cr, tHg, Pb occurrence in Two hundred eighty-eight ready-to-eat chicken meat product samples from street food outlets in northern, central, and southern Chennai,... (n=288) |
+| 14 | [[sources/wang2019-dietary-lead-guangzhou\|Wang et al. 2019]]. *Dietary Lead Exposure and Associated Health Risks in Guangzhou, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb occurrence in Food safety risk monitoring samples from Guangzhou, China, collected during 2014-2017 across 27 food categories; consumption inputs came... (n=6339) |
+| 15 | [[sources/stahl2017-aluminum-food-contact-part1\|Stahl et al. 2017]]. *Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods*, Environmental Sciences Europe | 2017 | Peer-reviewed | DE/EU Al occurrence in Hessian State Laboratory aluminum results for 1,825 foodstuff samples across 30 product groups, plus Part I study-design context... (n=1825) |
+| 16 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
+| 17 | [[sources/buculei2012-tin-iron-migration-canned-food-romania\|Buculei et al. 2012]]. *Study regarding the tin and iron migration from metallic cans into foodstuff during storage*, Journal of Agroalimentary Processes and Technologies, 18(4), 299-303 | 2012 | Peer-reviewed | RO Sn, Fe occurrence in Four canned product types (peas, tomato paste, pork in own juice, pork liver pate) packed in three-piece tinplate... (n=4) |
+| 18 | [[sources/efsa-lead-contam-2010\|EFSA 2010]]. *Scientific Opinion on Lead in Food*, EFSA Journal 2010;8(4):1570 | 2010 | Government report | EU Pb occurrence in Aggregated EU occurrence data: 94,126 quantified analytical results across 14 Member States, Norway and three commercial operators (2003–2009),... (n=94126) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -142,9 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
-| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
-| [815efe885](https://github.com/paleofoundation/heavymetalindex/commit/815efe885) | 2026-05-17 | major | 1 section added |
 <!-- END: hmi-page-history -->

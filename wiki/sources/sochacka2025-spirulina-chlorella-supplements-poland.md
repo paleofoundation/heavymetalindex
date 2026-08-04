@@ -28,6 +28,8 @@ updated: 2026-06-04
 
 # Sochacka et al. 2025 — Heavy Metals and Pharmaceutical Residues in Spirulina and Chlorella Dietary Supplements on the Polish Market
 
+## Overview
+
 Sochacka and colleagues at the Medical University of Warsaw measured 22 trace elements (17 reported above the detection limit) and 134 pharmaceutical compounds (29 detected) in 52 microalgae-based dietary supplements — 29 *Spirulina platensis* and 23 *Chlorella vulgaris* tablet and powder products commercially available on the Polish market — using ICP-MS for elements and LC-MS/MS (Hybrid Triple Quadrupole/Linear Ion Trap, AB SCIEX QTRAP 4000) for pharmaceuticals. The headline finding is that all 52 samples complied with EU regulatory limits for Cd (EC No. 488/2014, 0.050 µg/g) and Pb (EC No. 2015/1005, 0.30 µg/g) when reported as ranges — though several individual samples exceeded those numerical thresholds (Cd up to 0.270 µg/g in Spirulina; Pb up to 3.23 µg/g in Spirulina). Aluminum was the dominant trace element (Spirulina mean 269 ± 267 µg/g; Chlorella mean 148 ± 163 µg/g, both dry-basis), with individual *Spirulina* supplements contributing up to 56.10% of the Al tolerable weekly intake at the manufacturer-recommended daily dose. Pharmaceutical residues — including caffeine, the antiprotozoal/antifungal thiabendazole, the antibiotic metronidazole, the anticonvulsant carbamazepine, the local anaesthetic benzocaine, the sulfonamide antibiotic sulfathiazole, and the opioid analgesic tramadol — were detected at ng/g levels in essentially every sample, with the authors describing this as the first systematic report of pharmaceutical contamination in algal-based dietary supplements.
 
 ## Key numbers
@@ -161,7 +163,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Rosales-Huamani et al. 2023 — PTEs in Quinoa Soils, Huacaybamba-Huánuco, Peru
 
+## Overview
+
 This peer-reviewed study from the National University of Engineering (Lima) and National University of Callao measured potentially toxic elements (As, Pb, Cd, Cu, Zn) in 50 agricultural soil samples from a 4-hectare quinoa-producing area in the Huacaybamba-Huánuco Department of Peru, an Andean highland region adjacent to gold and copper mineralization zones. Analyzed by atomic absorption spectrophotometry (AAS, EPA 3050-B method). The study found that all As, Cu, and Zn concentrations were below Peruvian and European agricultural soil quality standards, but 46% of Pb samples exceeded standards and 100% of Cd samples exceeded Peruvian environmental soil quality standards.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

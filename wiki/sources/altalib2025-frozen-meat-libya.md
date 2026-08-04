@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Altalib et al. 2025 — Heavy metals in imported frozen meat, Tripoli markets
 
+## Overview
+
 This cross-sectional study measured lead (Pb), cadmium (Cd), chromium (Cr), and copper (Cu) in 30 imported frozen meat samples collected from retail markets in Tripoli, Libya. Samples included chicken (50% of total), beef (27%), and lamb (23%), sourced from Brazil, USA, Jordan, Spain, and Australia. Analysis was by Atomic Absorption Spectrophotometry (AAS) following acid digestion. All samples complied with the tabulated Libyan limits for Cd and Cr and with the study's Cu reference level; one sample (3.3%) exceeded the tabulated Libyan Pb limit of 0.10 mg/kg. The study provides a baseline Pb, Cd, Cr, and Cu dataset for imported commercial meat in a North African market context.
 
 ## Key numbers
@@ -112,9 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [222c02867](https://github.com/paleofoundation/heavymetalindex/commit/222c02867) | 2026-05-19 | minor | Narrative text revised |
-| [c16c7864f](https://github.com/paleofoundation/heavymetalindex/commit/c16c7864f) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

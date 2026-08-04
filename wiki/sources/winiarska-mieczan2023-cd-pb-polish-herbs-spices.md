@@ -30,6 +30,8 @@ updated: 2026-05-29
 
 # Winiarska-Mieczan et al. 2023 — Cd and Pb in Polish culinary herbs and spices
 
+## Overview
+
 This Polish study measured cadmium and lead in 432 samples of culinary herbs and spices purchased in Lublin, eastern Poland: 100 dried herb samples across 9 species, 184 fresh herb samples across 15 species, and 148 single-component spice samples across 14 species. Analysis was by graphite furnace AAS (GF-AAS). Mean Cd was highest in dried herbs (0.134 mg/kg fresh weight), far above fresh herbs (0.004 mg/kg) and spices (0.017 mg/kg). Mean Pb was also highest in dried herbs (0.548 mg/kg), compared to fresh herbs (0.039 mg/kg) and spices (0.064 mg/kg). All calculated exposure metrics (% TWI, % BMDL, CDI, THQ, HI) were well below 1 at typical Polish consumption of 0.7 g/day of herbs and 0.7 g/day of spices. However, Cd exceeded the EU maximum level in dried coriander (mean 0.419 mg/kg) and estragon (mean 0.427 mg/kg), and Pb exceeded the limit in several fresh herbs: watercress, jiaogulan, celery, basil, and dill.
 
 ## Key numbers
@@ -116,9 +118,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [5c8045fb3](https://github.com/paleofoundation/heavymetalindex/commit/5c8045fb3) | 2026-05-29 | minor | Narrative text revised |
 | [45991f9fd](https://github.com/paleofoundation/heavymetalindex/commit/45991f9fd) | 2026-05-29 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

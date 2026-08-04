@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Iyabo et al. 2015 — Zn, Cu, Cd, and Pb in staple foods consumed by Ekiti students
 
+## Overview
+
 Iyabo and colleagues measured zinc, copper, cadmium, and lead in staple foods commonly consumed by university students in Ekiti State, southwest Nigeria. The foods were grouped as cereal/cereal products, legume products, and tuber products, with concentrations reported in `mg/kg`. The paper reports no arsenic, mercury, chromium, or nickel data.
 
 ## Key numbers
@@ -143,8 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [593d25dd6](https://github.com/paleofoundation/heavymetalindex/commit/593d25dd6) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [eb75b21a1](https://github.com/paleofoundation/heavymetalindex/commit/eb75b21a1) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

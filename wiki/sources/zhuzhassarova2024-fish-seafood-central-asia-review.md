@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Zhuzhassarova, Azarbayjani & Zamaratskaia 2024 — Toxic metals in aquatic environments and fish across Central Asia
 
+## Overview
+
 Zhuzhassarova, Azarbayjani & Zamaratskaia (2024) review arsenic, mercury, cadmium, and lead concentrations in surface waters, fish tissues, and human biomonitoring samples (hair, urine, blood) across the five Central Asian republics: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan. The review compiles per-study fish-tissue values from 13 regional studies (Table 2), per-country fish-consumption estimates from FAOSTAT and food-frequency surveys (Table 3), and the Eurasian Customs Union maximum permissible concentrations for fish (Table 1). Despite generally low regional fish consumption (0.63 to 3.86 kg/year/capita in FAOSTAT data, well below recommended intake), specific hotspots — notably Lake Balkyldak in Pavlodar (Hg from the former Pavlodar chlor-alkali plant) and the lower Amu Darya / Syr Darya basins (As, Pb, Cd in water) — drive localized elevated exposure, particularly for Hg in populations relying on contaminated fisheries.
 
 ## Key numbers
@@ -131,7 +133,7 @@ App: Contextual signal that Central Asian freshwater fish, on average, present l
 
 ## Verification notes
 
-- Speciation: the review's tabulated fish-tissue values are all totals (As, Hg, Cd, Pb) with no inorganic/total or methyl/total separation in Table 2 or surrounding text. This page uses `tAs` and `tHg` accordingly per CLAUDE.md Part 14. The introductory speciation discussion (organic As / arsenobetaine in fish; MeHg comprising up to 100% of total Hg in seafood) is conceptual context, not measured speciation.
+- Speciation: the review's tabulated fish-tissue values are all totals (As, Hg, Cd, Pb) with no inorganic/total or methyl/total separation in Table 2 or surrounding text. This page uses `tAs` and `tHg` accordingly. The introductory speciation discussion (organic As / arsenobetaine in fish; MeHg comprising up to 100% of total Hg in seafood) is conceptual context, not measured speciation.
 - Eurasian Customs Union limit values for Hg in freshwater non-predatory vs predatory fish (0.3 vs 0.6 mg/kg) preserved verbatim from Table 1; the "predatory fish 0.6" figure is the source's own designation and applies to species like pike perch, walleye, pikeperch in the Customs Union framework.
 - Folder placement (`03_Marine_Predatory`) is a mismatch for the actual paper scope. Central Asia is landlocked (the Aral and Caspian seas are inland salt seas, not connected to global oceans); the fish data in Table 2 is overwhelmingly freshwater (crucian carp, tench, perch, roach, common carp, silver carp, pike perch in freshwater, rainbow trout, goldfish). The paper's only "marine" references are the regulatory framework (Eurasian Customs Union categories include "saltwater fish" and "tuna, swordfish, and beluga") and brief introductory mentions of marine vs freshwater toxicology. Frontmatter products list `fresh-fish` and `fish-freshwater` accordingly, not the marine subcategories.
 - The Allen et al. Pb-in-Shardara-Reservoir value is reported in the source as "0.1 to 3.8 µg/g wet weight" (= mg/kg wet weight, since 1 µg/g = 1 mg/kg); preserved in source units throughout.
@@ -151,9 +153,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [de9fe83e0](https://github.com/paleofoundation/heavymetalindex/commit/de9fe83e0) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

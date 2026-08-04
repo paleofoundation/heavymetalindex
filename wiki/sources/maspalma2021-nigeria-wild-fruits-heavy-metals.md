@@ -24,6 +24,8 @@ updated: 2026-06-04
 
 # Maspalma et al. 2021 — heavy metals in Nigerian wild fruits
 
+## Overview
+
 Maspalma and coauthors measured Fe, Cd, Pb, Cr, Mn, Ni, Co, and Zn in mature ripe Ximenia americana and Sclerocarya birrea wild fruits from Adamawa State, Nigeria. The paper is routeable as fresh-fruit occurrence evidence, but the values are dry-weight fruit measurements from two wild species rather than a market basket of packaged fruit products.
 
 ## Key numbers
@@ -68,7 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

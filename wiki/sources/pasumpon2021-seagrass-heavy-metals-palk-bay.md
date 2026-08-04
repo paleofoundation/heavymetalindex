@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Pasumpon & Vasudevan 2021 — Heavy metals in seagrasses, Thondi coast, India
 
+## Overview
+
 Pasumpon and Vasudevan (2021) measured Mn, Cu, Zn, Pb, Cd, and Cr by atomic absorption spectrophotometry in four live seagrass species (*Syringodium isoetifolium*, *Halodule pinifolia*, *Cymodocea serrulata*, *Halophila ovalis*) and in dead/decayed offshore seagrass deposition at Thondi coast, Palk Bay, southeast India, across four seasons of 2019–2020. Mn was the most concentrated metal across all species and seasons (peak 15.62 ± 1.02 mg/kg in *S. isoetifolium*, summer); Cr was the least concentrated (down to 0.002 mg/kg in *H. ovalis*, monsoon). *S. isoetifolium* bioaccumulated heavy metals to higher levels than the other three species. Heavy metals were significantly higher in summer (P < 0.05) and declined through pre-monsoon to monsoon; offshore decayed seagrass deposition carried higher metal concentrations than live seagrass for Mn (16.01 ± 2.01 mg/kg), Pb (0.35 ± 0.02 mg/kg), and Cd (0.54 ± 0.04 mg/kg). The paper is an environmental-bioindicator study; seagrasses are not directly consumed by humans, so it routes as marine-bioindicator context for the heavy-metals literature rather than as a food-contamination measurement.
 
 ## Key numbers
@@ -137,8 +139,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2dba7e1e8](https://github.com/paleofoundation/heavymetalindex/commit/2dba7e1e8) | 2026-05-18 | minor | Narrative text revised |
-| [19c72bc4c](https://github.com/paleofoundation/heavymetalindex/commit/19c72bc4c) | 2026-05-18 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

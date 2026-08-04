@@ -21,6 +21,8 @@ created_by: cat2_step0_alignment_2026_05_16
 
 # Children Personal Care (HMT&C Category 2 master)
 
+## Overview
+
 This is the master rollup page for HMT&C Category 2 — Children's Personal Care, covering products marketed for and applied to infants and children ages 0 through 5. The category is split into sixteen rows by product form and higher-contamination row, with four clean-versus-contaminated sibling pairs that share exposure pathways but differ in heavy-metal load by virtue of base material or pigment choice. The dose pathway differs from Category 1 (Infant and Child Foods): dermal absorption, accidental aspiration during application, hand-to-mouth transfer of smeared product, and per-application weight load per kg body weight are the relevant routes. The Cat 2 toxicology supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines those exposure factors and is the prerequisite reference for every Cat 2 row.
 
 ## Who this page is for
@@ -29,7 +31,7 @@ Brand legal teams evaluating Cat 2 certification for children's personal-care li
 
 ## Methodology
 
-Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions from CLAUDE.md Part 6 (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
+Cat 2 reports what the cited sources say about heavy-metal concentrations in children's personal-care products. It inherits the speciation, basis-preservation, non-detect, and row-fit conventions (which Cat 1 also inherits), with one critical addition: **dose pathway determines toxicology**. A wet wipe's dermal absorption fraction differs from a talcum powder's pulmonary deposition fraction, which differs from a baby lotion's daily-applied volume per kg body weight, which differs from a mineral sunscreen's full-body daily reapplication. The Cat 2 supplement at [[health/cat-2-non-ingestion-exposure-pathways]] defines the per-row exposure factors HMT&C uses to set thresholds.
 
 HMT&C certification thresholds for Cat 2 children's personal-care products are developed under the certification program at heavymetaltested.com, not on this page. This public page reports the literature baseline; the gap between literature baseline and HMT&C threshold is named on the certification program side, not hidden.
 
@@ -56,7 +58,7 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards (CLAUDE.md Part 19) and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
+Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
 
 ## Cross-row contamination platforms
 
@@ -163,9 +165,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [378d999f9](https://github.com/paleofoundation/heavymetalindex/commit/378d999f9) | 2026-05-17 | minor | Narrative text revised |
-| [5cf068bf7](https://github.com/paleofoundation/heavymetalindex/commit/5cf068bf7) | 2026-05-17 | minor | Narrative text revised |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -30,6 +30,8 @@ updated: 2026-05-01
 # D'Amato 2026 - Inorganic Arsenic In Rice-Based Beverages
 
 
+## Overview
+
 This A-tier peer-reviewed paper is a high-priority Category 5 source because it directly measures inorganic arsenic in finished rice-based beverages. It analyzed 25 rice-based drinks from the Italian market using HPLC-ICP-MS speciation and ICP-MS total arsenic. It gives both occurrence findings and a regulatory comparison against the EU maximum level for non-alcoholic rice-based drinks.
 
 ## Key numbers
@@ -80,8 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
-| [48511e9c2](https://github.com/paleofoundation/heavymetalindex/commit/48511e9c2) | 2026-05-02 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

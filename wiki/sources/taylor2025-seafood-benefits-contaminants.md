@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Taylor et al. 2025 — Seafood benefits and contaminants: comprehensive review
 
+## Overview
+
 This broad review from Delaware State University surveys the nutritional benefits and contaminant risks associated with seafood consumption, covering heavy metals (mercury, lead, cadmium, arsenic), microplastics, PFAS, pathogens, and biogenic amines. The heavy metals section synthesizes published literature on Hg, Pb, and Cd concentrations in commercial seafood species, FDA and EPA advisory frameworks, vulnerable populations (pregnant women, infants, young children), and risk mitigation strategies including species selection and consumption frequency guidance. The review is B-tier because it synthesizes secondary literature rather than reporting new primary measurements. It is most useful as a roadmap to primary literature and for its treatment of US regulatory context.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [313c29c4c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c4c) | 2026-05-12 | major | 4 sections added; narrative text revised |

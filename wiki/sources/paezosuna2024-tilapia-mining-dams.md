@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Páez-Osuna et al. 2024 — Tilapia metal biomonitoring across eleven mining-watershed dams in NW Mexico
 
+## Overview
+
 Blue tilapia (*Oreochromis aureus*, n=320) collected from eleven dams in Sinaloa, Mexico, were analyzed for Cd, Cu, Pb, and Zn in muscle, liver, gills, and gut to assess metal accumulation patterns and human health risk from fish consumption. Dams 1, 2, 5, and 9 showed the highest metal concentrations, consistent with the greater number of mining sites (55, 55, 19, and 16, respectively) in their sub-basins. The liver consistently accumulated higher metal loads than muscle, and non-carcinogenic risk calculations indicated elevated Pb risk for consumers ingesting 231.5 g per week or more of tilapia muscle from the most contaminated dams.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0562446e9](https://github.com/paleofoundation/heavymetalindex/commit/0562446e9) | 2026-05-13 | major | 4 sections added; narrative text revised |

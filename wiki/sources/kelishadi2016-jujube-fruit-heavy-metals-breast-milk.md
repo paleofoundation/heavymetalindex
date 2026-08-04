@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Kelishadi et al. 2016 — Jujube Fruit Intervention for Heavy Metals in Breast Milk, Iran
 
+## Overview
+
 This 2016 randomized controlled trial from Isfahan, Iran, evaluated whether jujube fruit (Ziziphus jujuba) supplementation reduces toxic element concentrations in breast milk of lactating mothers. The key finding was no significant reduction across Pb, Cd, or As, but the study provides baseline breast milk metal concentrations for an industrial Iranian city.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 4 sections added; narrative text revised |

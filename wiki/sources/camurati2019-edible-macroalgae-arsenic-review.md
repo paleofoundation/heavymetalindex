@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Camurati 2019 — Arsenic in edible macroalgae (critical review)
 
+## Overview
+
 Camurati and Salomone reviewed the literature to 2019 on arsenic in edible marine macroalgae, integrating arsenic speciation and toxicity, the behaviour of arsenic species during digestion and cooking, analytical/CRM challenges, and current legislation, with a view to informing future regulation as seaweed consumption grows (including in South America). This is a secondary source: it reports no primary measurements, and its quantitative statements are syntheses of cited primary studies. Its principal value for the index is the synthesized picture it confirms — that inorganic arsenic in seaweed is generally low but with species-specific high exceptions (hijiki and *Laminaria digitata*), that brown algae carry both higher total arsenic and a higher inorganic fraction than red or green algae, and that cooking and digestion can change arsenic bioaccessibility and speciation in ways current total-As/iAs limits do not capture.
 
 ## Key numbers
@@ -77,9 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [9912a166a](https://github.com/paleofoundation/heavymetalindex/commit/9912a166a) | 2026-06-08 | minor | Narrative text revised |
-| [365a5caee](https://github.com/paleofoundation/heavymetalindex/commit/365a5caee) | 2026-06-08 | correction | Narrative text revised |
-| [e20b61fc6](https://github.com/paleofoundation/heavymetalindex/commit/e20b61fc6) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

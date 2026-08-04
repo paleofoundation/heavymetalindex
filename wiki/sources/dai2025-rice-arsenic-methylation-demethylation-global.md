@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Dai et al. 2025 — Microbial control of arsenic speciation in paddy soils and rice grains: global survey
 
+## Overview
+
 This PNAS paper integrates a global metagenomic survey of 801 paddy soils with soil chronosequence experiments spanning 1 to 2,000 years of rice cultivation, controlled incubations, and field surveys to demonstrate that the balance between arsenic-methylating bacteria and DMA-demethylating methanogenic archaea in paddy soils is the primary determinant of arsenic speciation in rice grains. The study establishes that younger paddy soils (less than 700 years of cultivation), common in the Americas and Europe, are enriched in arsenic methylators, leading to elevated dimethylarsinic acid (DMA) and its highly toxic derivative dimethylated monothioarsenate (DMMTA) in rice, while ancient Southeast Asian paddies harbor robust demethylating populations that limit these species. The paper provides measured arsenic speciation data in brown rice and rice husks across multiple soil ages and constructs a global risk map for rice straighthead disease and methylated arsenic accumulation.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb63b34c](https://github.com/paleofoundation/heavymetalindex/commit/ffb63b34c) | 2026-05-12 | major | 4 sections added; narrative text revised |

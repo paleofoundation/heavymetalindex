@@ -33,6 +33,8 @@ updated: 2026-06-04
 
 # JECFA 64th Meeting (2005) — Cadmium Maximum-Level Impact Assessment and Inorganic Tin Re-evaluation (WHO TRS 930)
 
+## Overview
+
 The sixty-fourth meeting of the Joint FAO/WHO Expert Committee on Food Additives (Rome, 8-17 February 2005) addressed six agenda compounds, of which two are within scope for Heavy Metal Index: cadmium (Section 3.2, an impact assessment of different proposed Codex maximum levels rather than a re-derivation of the underlying tolerable intake) and inorganic tin (Section 3.4, a re-evaluation of acute and chronic toxicity in the context of canned-food maximum levels). The 64th meeting did not change the cadmium provisional tolerable weekly intake of 7 µg/kg body weight per week (subsequently withdrawn at the [[sources/jecfa-73rd-cadmium-2010|73rd meeting in 2010]]), nor the inorganic tin PTWI of 14 mg/kg body weight per week (established at the [[sources/jecfa-33rd-tin-1989|33rd meeting in 1988]]). The Committee concluded that an acute reference dose for inorganic tin was inappropriate because gastrointestinal irritation depends on tin concentration and chemical nature in the product rather than on body-weight dose. The non-HMI agenda items (acrylamide, ethyl carbamate, polybrominated diphenyl ethers, polycyclic aromatic hydrocarbons) are out of scope and are not summarized below.
 
 ## Key numbers
@@ -184,7 +186,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 2 sources added; 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

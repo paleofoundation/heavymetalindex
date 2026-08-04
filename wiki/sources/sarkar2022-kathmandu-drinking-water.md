@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Sarkar et al. 2022 — Drinking water quality in Kathmandu Valley, Nepal
 
+## Overview
+
 This observational study measures bacterial and multi-metal chemical contamination across 35 drinking water sources in Nepal's Kathmandu Valley, combined with a health and taste-preference survey of 146 households (603 individuals) using those sources. The study reports widespread bacterial contamination (94% of sources positive for total or fecal coliform) and exceedances of Nepal Drinking Water Quality Standards and WHO Drinking-Water Guidelines for aluminum, arsenic, iron, and manganese. Uranium is measured and reported but does not exceed WHO guideline values at these sites. The authors find that taste ratings by consumers are not correlated with iron or manganese concentrations, raising public-health concerns about WHO's reliance on aesthetic criteria rather than formal health-based limits for these metals.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e4c0b2340](https://github.com/paleofoundation/heavymetalindex/commit/e4c0b2340) | 2026-05-13 | major | 4 sections added; narrative text revised |

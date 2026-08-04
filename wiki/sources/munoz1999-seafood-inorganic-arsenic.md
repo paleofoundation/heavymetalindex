@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Munoz 1999 - Inorganic arsenic in seafood products
 
+## Overview
+
 Munoz and colleagues developed and validated a microwave-assisted distillation method for measuring inorganic arsenic, defined as `As(III)+As(V)`, in seafood products by hydride generation atomic absorption spectrometry. The paper includes occurrence values for `21` natural seafood samples, reporting total arsenic and inorganic arsenic on a dry-mass basis. The table is useful because it keeps total arsenic and inorganic arsenic separate in fish, shellfish, fresh, canned, and frozen seafood matrices.
 
 ## Key numbers
@@ -86,6 +88,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [ab99091e9](https://github.com/paleofoundation/heavymetalindex/commit/ab99091e9) | 2026-06-08 | major | 4 sections added; narrative text revised |

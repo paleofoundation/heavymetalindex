@@ -26,6 +26,8 @@ sampling_year_range: 2012
 
 # Taylor 2016 — Arsenic concentration and speciation across 20 New England seaweed species
 
+## Overview
+
 Taylor and Jackson surveyed total arsenic and arsenic speciation across 20 macroalgae species (46 samples; plus flowering plants, mixed products, and fertilizers) harvested for food and agriculture in New England, by ICP-MS and HPLC-ICP-MS. Total arsenic ranged 4.1–106 mg/kg, occurring mostly as arsenosugars, and inorganic arsenic was a minor component (<1 mg/kg) across nearly all taxa — with one striking exception: the kelp *Laminaria digitata* from Maine carried inorganic arsenic of 2.8–20.4 mg/kg (mean 8.32 ± 7.67), and two mixed granulated seaweed products containing this species held 6.6 and 10.9 mg/kg. Within this survey it is *L. digitata* kelp, not hijiki, that accumulates toxicologically significant inorganic arsenic, and the elevation is harvester-/region-variable even within one species (the single New Hampshire *L. digitata* sample was <0.01 mg/kg iAs).
 
 ## Key numbers
@@ -96,8 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [7ec1c2c98](https://github.com/paleofoundation/heavymetalindex/commit/7ec1c2c98) | 2026-06-08 | minor | Narrative text revised |
-| [04a1578fe](https://github.com/paleofoundation/heavymetalindex/commit/04a1578fe) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

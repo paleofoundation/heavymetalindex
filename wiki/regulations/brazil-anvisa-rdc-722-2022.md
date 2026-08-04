@@ -18,6 +18,8 @@ audience: [regulator, educator, commercial, app, legal]
 
 # Brazil ANVISA RDC 722/2022 - contaminants in foods
 
+## Overview
+
 RDC 722/2022 is Brazil's framework resolution for maximum tolerated limits of contaminants in foods. It defines the legal concept of `LMT`, sets scope and basis rules, and points to IN 160/2022 for contaminant-by-food numeric limits.
 
 ## Scope
@@ -47,3 +49,13 @@ This page is a jurisdictional framework anchor, not a comparison table. Numeric 
 ## Sources
 
 - [[sources/anvisa2022-rdc-722-contaminants]]
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6abef4583](https://github.com/paleofoundation/heavymetalindex/commit/6abef4583) | 2026-08-03 | major | 1 source added; contamination-profile values revised; 7 sections added |
+<!-- END: hmi-page-history -->

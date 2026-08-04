@@ -33,6 +33,8 @@ updated: 2026-06-03
 
 # WHO 2022 — Guidelines for drinking-water quality, fourth edition incorporating the first and second addenda
 
+## Overview
+
 The fourth edition of the WHO *Guidelines for drinking-water quality* (GDWQ), consolidated in 2022 to incorporate the first (2017) and second (2022) addenda, is the global reference framework for drinking-water safety and the parent document under which WHO publishes background documents for each individual chemical and microbial parameter. The chemical fact sheets (Chapter 12) and the consolidated summary tables (Annex 3) carry health-based guideline values for the substances of concern in drinking-water, including all ten of the HMI analyte panel except inorganic tin; the framework is implemented through water safety plans (Chapters 2 and 4) and surveillance arrangements (Chapter 5). For HMI, the load-bearing rows are the guideline values for lead (provisional, 10 µg/L), arsenic (provisional, 10 µg/L), cadmium (3 µg/L), chromium (50 µg/L for total Cr), nickel (70 µg/L), inorganic mercury (6 µg/L), uranium (provisional, 30 µg/L) and antimony (20 µg/L), together with the explicit decisions not to set health-based guideline values for aluminium (instead specifying coagulation-performance targets of 0.1 mg/L for large facilities and 0.2 mg/L for small facilities) and inorganic tin (occurrence well below health concern).
 
 ## Key numbers
@@ -143,7 +145,7 @@ This is a synthesis-and-policy document, not a primary occurrence study. The num
 - Mercury appears in `metals:` as `tHg` only. The WHO GV is explicitly for inorganic Hg²⁺ (which is a subset of tHg) and is explicitly NOT for methylmercury, so `MeHg` is correctly absent.
 - Arsenic appears as both `iAs` and `tAs` because the WHO fact sheet derives the GV on the total-As basis (noting that toxicology is inorganic-dominated and ~25% of dietary intake is inorganic) and is enforceable as total arsenic at the tap.
 - Chromium appears as `Cr` (not `Cr-VI`) because the WHO GV is for total Cr; the document discusses Cr(VI) toxicology but does not set a Cr-VI-specific value.
-- Sb is included per CLAUDE.md Part 14 (HMI carries antimony as a recognized metal even though it is not in the certification ten-analyte panel).
+- Sb is included (HMI carries antimony as a recognized metal even though it is not in the certification ten-analyte panel).
 - No new ingredient or product pages proposed; all slugs used (`ingredients/water`, `ingredients/breastmilk`, `products/bottled-drinking-water`, `products/infant-formula-powder-non-soy`, `products/infant-formula-powder-soy-based`) exist in the current taxonomy.
 - No-near-duplicate flag: the trailing-"2" file in the June 3 Folder is byte-identical to `9789240045064-eng.pdf` (both 5 321 705 bytes) and the SHA-256 above is the canonical hash for this ingest; the near_duplicates field records the alternate filename.
 - Brand firewall (Part 12): no brand names in source-page content. The WHO document itself names no brands.
@@ -156,7 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 2 sources added; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

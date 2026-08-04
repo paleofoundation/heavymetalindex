@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # As You Sow 2022 — Expert Investigation Related to Cocoa and Chocolate Products (Final Report)
 
+## Overview
+
 This is the Final Report of a four-member Expert Committee charged under a California Proposition 65 Consent Judgment with investigating the predominant sources of cadmium (Cd) and lead (Pb) in cocoa and chocolate products and recommending feasible measures to reduce Cd and Pb levels in those products. The Committee operated from March 2018 through April 2022. The Final Report (March 28, 2022) consolidates three earlier technical reports — the Root Cause Report (submitted March 27, 2020), the Reductions Recommendations Report (submitted April 12, 2021), and the Warning Triggers Report (submitted November 15, 2021) — and adds individually authored "affirmative conclusions" from each of the four Experts. The full document is 381 pages including the three technical attachments and the alphabetized cited-references list.
 
 ## Source role
@@ -250,8 +252,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [beb2e4259](https://github.com/paleofoundation/heavymetalindex/commit/beb2e4259) | 2026-06-02 | major | 1 source added; narrative text revised |
-| [635915af2](https://github.com/paleofoundation/heavymetalindex/commit/635915af2) | 2026-06-02 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

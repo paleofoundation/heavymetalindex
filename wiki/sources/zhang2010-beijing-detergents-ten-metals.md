@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # Zhang et al. 2010 — Pb, Cd, Cr, Ni, Cu, Zn, Fe, Mn, Ti, Se in four Beijing-market detergents by ICP-MS
 
+## Overview
+
 A four-page short communication in Asian Journal of Chemistry reporting simultaneous ICP-MS quantification of ten heavy metals — titanium, chromium (total), manganese, nickel, copper, cadmium, lead, iron, zinc and selenium — in four detergent brands purchased at a Beijing supermarket. The products are framed by the authors as manual-use detergents for washing tableware, vegetables and fruits, a single product category in the Chinese household market. Titanium dominated the metal mass in three of the four brands (740-872 ng/g) while one brand whose raw material is described as plant-tissue-derived (Brand 3) returned an order-of-magnitude lower Ti (6 ng/g) and the lowest values for nearly every other metal. The authors recommend that Chinese hygiene authorities widen monitoring of detergent products and that consumers reduce detergent use and prefer lower-metal brands. The contribution to the heavy-metals literature is a small but unusually multi-element occurrence snapshot for the manual-dish/produce-wash detergent category in the Chinese retail market circa 2009, with the caveat that n=4 and no certified reference material, recovery percentage or interlaboratory comparison is reported.
 
 ## Key numbers
@@ -127,9 +129,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [19f813f79](https://github.com/paleofoundation/heavymetalindex/commit/19f813f79) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Abu Salem et al. 2023 — Hydrogeochemistry and heavy metal pollution of groundwater in Beni Suef, Egypt
 
+## Overview
+
 This study characterized the hydrogeochemical evolution and pollution sources of the shallow Quaternary aquifer in Beni Suef Governorate, Egypt, by analyzing 18 groundwater samples collected from hand-dug wells and boreholes using ICP-ES for multi-element determination. The authors applied multivariate statistical analysis (principal component analysis, cluster analysis, Piper and Gibbs diagrams) to identify geogenic versus anthropogenic contamination sources. Elevated concentrations of Fe, Mn, and Pb were attributed to agricultural drainage and industrial effluent inputs, while the overall water chemistry was dominated by evaporite dissolution and water-rock interaction. Several samples exceeded WHO drinking water guidelines for multiple parameters including heavy metals.
 
 ## Key numbers
@@ -56,6 +58,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ea6d55857](https://github.com/paleofoundation/heavymetalindex/commit/ea6d55857) | 2026-05-13 | major | 4 sections added; narrative text revised |

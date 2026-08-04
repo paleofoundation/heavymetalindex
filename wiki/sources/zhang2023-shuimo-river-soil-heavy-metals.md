@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Zhang et al. 2023 - Shuimo River riparian soil heavy metals
 
+## Overview
+
 Zhang and colleagues measured heavy metals in riparian soil along the Shuimo River in Urumqi, Xinjiang, China, then used grey relational analysis and factor analysis to classify soil quality and infer source groups. This is primary environmental-context evidence, not food, ingredient, or consumer-product occurrence evidence. The paper does not sample crops, finished foods, cosmetics, supplements, drinking water, or branded products.
 
 The routeable finding is that the upper and middle river reaches were classified as Grade III / slight pollution under the authors' soil-quality scheme, while downstream zones were Grade II / good soil quality. The six evaluation metals were total arsenic, lead, zinc, copper, nickel, and total chromium. Cadmium and total mercury were screened but excluded from the modeled evaluation because the measured values were described as low or not detectable.
@@ -91,8 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [70b02d369](https://github.com/paleofoundation/heavymetalindex/commit/70b02d369) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

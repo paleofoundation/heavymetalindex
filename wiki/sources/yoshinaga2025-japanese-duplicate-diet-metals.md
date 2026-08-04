@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Yoshinaga and Ogawa 2025 — Duplicate diet study: dietary metal exposure in Japanese adults
 
+## Overview
+
 This duplicate diet study measured 12 metals (V, Co, Ni, Rb, Sr, Mo, Ag, Cd, Sb, Cs, Ba, and Pb) in 150 complete 24-hour dietary samples from adult Japanese, collected 2017–2019. Each participant provided a duplicate portion of every food and beverage consumed across the sampling day, which was homogenized, freeze-dried, acid-digested, and analyzed by ICP-MS. The duplicate diet approach measures what people actually consumed rather than estimating intake from food composition tables and market basket statistics. The authors also estimated the contributions of incidental soil and house-dust ingestion to total oral metal exposure and compared dietary intakes against US EPA Reference Doses.
 
 ## Key numbers
@@ -161,9 +163,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ece4d3939](https://github.com/paleofoundation/heavymetalindex/commit/ece4d3939) | 2026-05-25 | minor | Narrative text revised |
-| [78ceaf797](https://github.com/paleofoundation/heavymetalindex/commit/78ceaf797) | 2026-05-25 | major | 2 sections added and 1 removed; narrative text revised |
-| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

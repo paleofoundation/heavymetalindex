@@ -9,6 +9,8 @@ sources: 0
 
 # Corpus Genesis — April 2026 Assembly
 
+## Overview
+
 This page documents how the working corpus of the Heavy Metal Index was assembled. It is the answer to the question "how do you know this is the relevant literature?" The wiki's epistemic standing depends on this answer being honest, specific, and reproducible.
 
 ## What the corpus is
@@ -166,6 +168,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [7c398715c](https://github.com/paleofoundation/heavymetalindex/commit/7c398715c) | 2026-04-25 | major | 20 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

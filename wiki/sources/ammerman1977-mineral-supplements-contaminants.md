@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ammerman et al. 1977 - contaminants in animal mineral supplements
 
+## Overview
+
 Ammerman and coauthors reviewed contaminating elements in feed-grade mineral supplements used for domestic animals. The strongest HMI-relevant primary data are example analyses of micro-mineral supplement materials, especially Table 2's Pb, As, Cd, Al, and Hg entries. These values are supply-chain context for livestock-derived foods, not finished meat, poultry, milk, or dairy occurrence values.
 
 ## Key numbers
@@ -96,6 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [bff07ee68](https://github.com/paleofoundation/heavymetalindex/commit/bff07ee68) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

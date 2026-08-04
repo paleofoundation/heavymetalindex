@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Marcelis 2024 - feminine intimate products safety thesis
 
+## Overview
+
 Marcelis's PhD thesis develops a safety-assessment workflow for feminine intimate products, combining extractables/leachables testing, menstrual/vaginal fluid simulants, fragrance-allergen QRA, and in vitro mixture testing. Chapter 2 contains the same chemical-characterization program later published as Marcelis et al. 2025, so its metal leachables should be treated as overlapping provenance rather than an independent occurrence replicate. The thesis is C-tier thesis evidence; the later peer-reviewed Environment International article remains the preferred primary occurrence anchor for the Chapter 2 metal table.
 
 ## Key numbers
@@ -94,6 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [7408d1cab](https://github.com/paleofoundation/heavymetalindex/commit/7408d1cab) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # FSANZ 2012 — Total and inorganic arsenic in apple and pear juice (Australia and New Zealand)
 
+## Overview
+
 Food Standards Australia New Zealand (FSANZ) conducted a targeted analytical survey in 2012 measuring total and inorganic arsenic in 100 fruit juice samples (96 apple juice, 4 pear juice) drawn from Australian and New Zealand retail and manufacturing supply. Apple juice samples were re-analysed retention samples from a parallel FSANZ–MPI cyanogenic-glycoside (HCN) survey collected April/May 2012; pear juice samples were purchased separately by FSANZ from Queensland retail stores. Of the 96 apple juice samples, 34 (35%) had total arsenic above the laboratory's level of reporting (LOR) of 2.5 µg/kg, with the highest total arsenic at 16 µg/kg; of those 34, 20 had quantifiable inorganic arsenic concentrations ranging from 2.5 to 11.3 µg/kg and 14 had inorganic arsenic at "trace" level (between the LOD of 0.5 µg/kg and the LOR of 2.5 µg/kg). No total arsenic was detected in any of the 4 pear juice samples; consequently no pear juice was further analysed for inorganic arsenic. The survey concluded that arsenic concentrations in Australian and New Zealand apple juice were broadly comparable to those previously reported in the United States.
 
 ## Key numbers
@@ -111,9 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [db58db798](https://github.com/paleofoundation/heavymetalindex/commit/db58db798) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [d3b0c4cec](https://github.com/paleofoundation/heavymetalindex/commit/d3b0c4cec) | 2026-05-20 | minor | Narrative text revised |
-| [4f92dd294](https://github.com/paleofoundation/heavymetalindex/commit/4f92dd294) | 2026-05-20 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # EFSA 2005 - tin in canned foods and dietary intake
 
+## Overview
+
 EFSA's Scientific Panel reviewed inorganic tin occurrence, dietary intake, and toxicity evidence to assess whether a tolerable upper intake level could be derived. The opinion is not a new market survey, but it is an A-tier regulatory anchor for tin migration from cans into foods. It identifies tinned fruit and vegetables as the main dietary sources of tin and preserves tin as inorganic tin/elemental Sn context rather than organotin occurrence.
 
 ## Key numbers
@@ -79,6 +81,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

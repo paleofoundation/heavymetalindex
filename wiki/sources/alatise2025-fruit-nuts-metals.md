@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Alatise et al. 2025 - metals in edible fruit nuts from Nigerian markets
 
+## Overview
+
 Alatise, Aluko, and Okoye measured natural radionuclides and heavy metals in six edible fruit-nut categories from Lagos and Ogun State markets. The source is routeable to nuts and seeds because it reports market-sourced edible nut matrices and includes Pb, Cd, Cr, Ni, Co, Cu, Zn, As, and Hg in the analytical scope. The authors report Ni and Cr as the metals with the most cross-sample variation, with the highest concentrations in tiger nuts and kola nuts; they conclude that observed levels do not pose a significant health risk at the consumption levels considered.
 
 ## Key numbers
@@ -77,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [2fe2b734c](https://github.com/paleofoundation/heavymetalindex/commit/2fe2b734c) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

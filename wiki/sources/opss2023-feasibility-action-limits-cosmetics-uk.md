@@ -30,6 +30,8 @@ updated: 2026-05-17
 
 # OPSS / Axford et al. 2023 — UK market survey of Sb, tAs, Cd, Pb, tHg in 91 cosmetics; international regulatory feasibility review
 
+## Overview
+
 This report is a UK government feasibility study commissioned by the Office for Product Safety and Standards (OPSS) and executed by LGC under Contract FM21190. It combines (1) a comprehensive international review of regulatory limits and non-regulatory guidance values for technically-unavoidable heavy-metal impurities (Sb, As, Cd, Pb, Hg) in cosmetic products, (2) identification and verification of a fit-for-purpose analytical method based on ISO 21392:2021 (microwave-assisted HNO₃/HCl ± HF digestion + ICP-MS), and (3) a small UK-market survey of 91 cosmetic products covering 10 product types across high-street and online retailers. The report concludes that the German BVL guidance values (Sb <0.5, As <0.5, Cd <0.1, Pb <2.0 general / <0.5 toothpaste / <5.0 theatre-make-up, Hg <0.1 mg/kg) can be applied to the UK market with minimal impact at the 90 % compliance threshold the BVL itself uses, with eye shadow as the principal exception (3 of 9 eye-shadow samples exceeded the BVL 2 mg/kg Pb general-cosmetics limit; max Pb 8.8 mg/kg). Regulatory framing rests on UK EU-retained law Regulation (EC) No 1223/2009 Article 17 (technically-unavoidable trace impurities permitted in good manufacturing practice) read with Article 3 (safety) and Article 8 (GMP).
 
 ## Key numbers
@@ -150,8 +152,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c05da7f23](https://github.com/paleofoundation/heavymetalindex/commit/c05da7f23) | 2026-05-17 | minor | Narrative text revised |
-| [9b86815df](https://github.com/paleofoundation/heavymetalindex/commit/9b86815df) | 2026-05-17 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

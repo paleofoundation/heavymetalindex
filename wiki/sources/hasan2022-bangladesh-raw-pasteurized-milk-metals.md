@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hasan et al. 2022 - Heavy metals in raw and pasteurized liquid milk from Bangladesh
 
+## Overview
+
 Hasan and colleagues measured Fe, Cu, Mn, Zn, Pb, Cd, Cr, and total As in 128 milk samples from Bangladesh, split evenly between raw cow milk and liquid pasteurized milk. The paper is routeable for milk occurrence because it reports concentration means, minima, maxima, and SDs in mg/kg for each matrix, with separate raw and pasteurized rows. The highest mean values in both matrices were for Cu and Cr; Pb averaged 0.013 mg/kg in both raw and pasteurized milk, while Cd averaged 0.032 mg/kg in raw milk and 0.027 mg/kg in pasteurized milk.
 
 ## Key numbers
@@ -71,8 +73,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [a203c6947](https://github.com/paleofoundation/heavymetalindex/commit/a203c6947) | 2026-06-11 | correction | Narrative text revised |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
-| [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

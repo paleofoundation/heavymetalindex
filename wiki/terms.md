@@ -6,6 +6,8 @@ updated: 2026-04-30
 review: legal-counsel-needed
 ---
 
+## Overview
+
 These Terms of Use govern access to and use of the Heavy Metal Index at heavymetalindex.com. By using the site, you agree to these terms. If you do not agree, do not use the site.
 
 ## Operator

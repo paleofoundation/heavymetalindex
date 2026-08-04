@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Naess 2020 - Norwegian seafood metals
 
+## Overview
+
 Naess and colleagues measured mercury, lead, arsenic, and cadmium in commercially available seafood products sold in Norway from 2015 through 2018. The study reports `mg/kg` concentrations for processed fish categories including fish burgers/cakes, fish au gratin, fish fingers, saithe products, fish pudding, salmon/trout spread, canned mackerel in tomato sauce, and caviar. The arsenic measurements are total/unspecified arsenic, and the mercury measurements are total/unspecified mercury; the paper's methylmercury exposure calculations assume all measured mercury is MeHg as a conservative scenario but do not measure MeHg speciation.
 
 ## Key numbers
@@ -105,6 +107,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [60d0e8667](https://github.com/paleofoundation/heavymetalindex/commit/60d0e8667) | 2026-06-08 | major | 4 sections added; narrative text revised |

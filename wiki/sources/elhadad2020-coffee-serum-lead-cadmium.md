@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Elhadad et al. 2020 - Coffee consumption, serum lead, and urinary cadmium in NHANES III
 
+## Overview
+
 Elhadad and colleagues used an environment-wide association study design to test 245 metabolites, nutrients, and lifestyle factors against regular coffee and caffeinated-beverage consumption in NHANES III. This is lane a4 exposure and biomonitoring evidence, not a coffee occurrence paper. The replicated biomarker associations included positive associations between regular coffee consumption and serum lead concentration, and between regular coffee consumption and urinary cadmium.
 
 ## Key numbers
@@ -76,6 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [174658717](https://github.com/paleofoundation/heavymetalindex/commit/174658717) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-09
 
 # Igweze et al. 2020 — Al, As, and Hg in Infant Formulas Marketed in Nigeria
 
+## Overview
+
 This A-tier peer-reviewed paper measures aluminium, total arsenic, and total mercury in 26 infant formula samples acquired in Nigeria in March 2017. The samples span three formula types: milk-based (M, n=9), cereal-based (C, n=7), and corn-meal (CM, n=10) per the paper's groupings. Author scope is exact on matrix axis for the milk-based subset (M1–M9, milk-based formulas) but the paper does not explicitly distinguish soy-based formulas within the M-group; the cereal-based and corn-meal groups are not standard HMTc Category 1 product rows and require curator review for routing. Atomic absorption spectrophotometry was used; samples were acid-digested.
 
 ## Key Numbers
@@ -44,7 +46,7 @@ Per-sample Table 1 data is in the JATS XML at `raw/external-fetch/2026-05-09/igw
 
 ## Geographic-context flag
 
-The Nigerian-market tAs values (milk-based mean 330 ppb, cereal-based 680 ppb) are substantially higher than U.S. FDA 2026 prepared-for-feeding milk-based powder tAs (p90 1.3 ppb). This is consistent with regional water-quality and sourcing differences in Nigerian markets and should not be silently merged with U.S. or EU formula tAs distributions without explicit jurisdiction labeling per CLAUDE.md Part 6. The Al values (1170-1700 ppb) are within the same order of magnitude as European cow-milk powder ranges (Almeida 2022 432-1241 ppb; Burrell 2010 446.8 mean) and provide useful triangulation.
+The Nigerian-market tAs values (milk-based mean 330 ppb, cereal-based 680 ppb) are substantially higher than U.S. FDA 2026 prepared-for-feeding milk-based powder tAs (p90 1.3 ppb). This is consistent with regional water-quality and sourcing differences in Nigerian markets and should not be silently merged with U.S. or EU formula tAs distributions without explicit jurisdiction labeling. The Al values (1170-1700 ppb) are within the same order of magnitude as European cow-milk powder ranges (Almeida 2022 432-1241 ppb; Burrell 2010 446.8 mean) and provide useful triangulation.
 
 ## Evidence Fitness
 
@@ -84,7 +86,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [592ac0f3b](https://github.com/paleofoundation/heavymetalindex/commit/592ac0f3b) | 2026-05-09 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

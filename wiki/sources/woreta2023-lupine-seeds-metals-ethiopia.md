@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Woreta et al. 2023 - lupine seed metals in Ethiopia
 
+## Overview
+
 Woreta et al. (2023) measured Cr, Mn, Fe, Co, Ni, Cu, Zn, Cd, and Pb in lupine seeds and paired agricultural soils from four districts of South Gondar Zone, Ethiopia. The routeable occurrence values are the Table 4 seed concentrations in `mg/kg`; Table 5 soil values and Table 7 bioaccumulation factors are pathway context and should not be pooled as product concentrations. The paper reports total-element measurements only, with no arsenic, mercury, or chromium speciation.
 
 ## Key numbers
@@ -91,6 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [f15cb50f1](https://github.com/paleofoundation/heavymetalindex/commit/f15cb50f1) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

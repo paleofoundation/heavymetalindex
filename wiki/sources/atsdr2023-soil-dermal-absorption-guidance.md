@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # ATSDR 2023 — Exposure Dose Guidance for Soil/Sediment Dermal Absorption (V3)
 
+## Overview
+
 This July 2023 ATSDR exposure-dose guidance (EDG) supersedes the dermal section of the 2005 Public Health Assessment Guidance Manual (now itself superseded by the 2022 PHAGM) and aligns ATSDR's dermal-route methodology with EPA RAGS Part E (2004) and the EPA Exposure Factors Handbook (2011). It provides health assessors with the equations, default skin surface areas by age, soil adherence factors by activity, chemical-specific dermal absorption fractions (ABSd) for soil/sediment contact, and chemical-specific gastrointestinal absorption factors (ABS_GI) used to convert dermally absorbed doses into administered-dose equivalents that can be compared to oral MRLs and RfDs. It is the canonical US federal source for the default dermal-absorption and oral-absorption fractions used to model heavy-metal exposure from soil contact in children and adults.
 
 ## Key numbers
@@ -91,9 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [9eca546e7](https://github.com/paleofoundation/heavymetalindex/commit/9eca546e7) | 2026-05-17 | minor | Narrative text revised |
-| [e01f955e0](https://github.com/paleofoundation/heavymetalindex/commit/e01f955e0) | 2026-05-17 | minor | Narrative text revised |
-| [5c2c39379](https://github.com/paleofoundation/heavymetalindex/commit/5c2c39379) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

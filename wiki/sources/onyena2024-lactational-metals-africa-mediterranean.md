@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Onyena et al. 2024 — Metal(loid)s in breast milk across Sub-Saharan Africa and Mediterranean Europe
 
+## Overview
+
 This systematic review and meta-analysis pooled data on metal(loid) concentrations from 42 studies across Sub-Saharan Africa and Mediterranean Europe to quantify regional differences in lactational infant exposure. Weighted mean concentrations revealed substantial disparities: Sub-Saharan Africa showed significantly higher cadmium, lead, and mercury in breast milk, while Mediterranean Europe had elevated selenium and iron. Key determinants included maternal smoking, dietary patterns, occupational exposure, and water source.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [475eaa6a7](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6a7) | 2026-05-25 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Silva et al. 2025 — Edible oils: health benefits and contamination risks (systematic review)
 
+## Overview
+
 This systematic review (35 included studies from MEDLINE/PubMed, ScienceDirect, and SCOPUS through September 2025) examines the health impacts, production methods, and contamination profiles of extra virgin olive oil, olive oil, soybean, palm olein, corn, and camellia seed oils, with a section specifically addressing heavy metal and PAH contamination. Seven of the 35 included studies focused on contaminants; the review synthesizes their findings alongside original concentration data from a broader appendix table (Table A1) drawing on additional published literature. The review concludes that heavy metals in edible oils are generally below regulatory thresholds but that environmental and agricultural conditions create meaningful regional variation, and that continued monitoring is warranted given proximity of some values to limits.
 
 ## Key numbers
@@ -108,9 +110,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [9b26fb659](https://github.com/paleofoundation/heavymetalindex/commit/9b26fb659) | 2026-05-25 | minor | Narrative text revised |
-| [ca721ba9c](https://github.com/paleofoundation/heavymetalindex/commit/ca721ba9c) | 2026-05-25 | minor | Narrative text revised |
-| [2d9a30036](https://github.com/paleofoundation/heavymetalindex/commit/2d9a30036) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

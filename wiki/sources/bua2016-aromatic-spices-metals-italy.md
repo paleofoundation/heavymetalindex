@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bua et al. 2016 — Cd, Hg, As, and Pb in aromatic spices traded in Italy
 
+## Overview
+
 Bua and colleagues measured Cd, Hg, As, and Pb in seven aromatic spice samples traded in the Italian market. Samples included cinnamon, curcuma, and ginger from multiple declared origins and were analyzed by microwave-assisted digestion followed by ICP-MS. The paper reports total As and total Hg only, not inorganic arsenic or methylmercury. The current ingredient taxonomy includes `spices`, `cinnamon`, and `turmeric`; ginger-specific values are retained in the matrix notes because `ginger` is not in the snapshot.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [4113edc0c](https://github.com/paleofoundation/heavymetalindex/commit/4113edc0c) | 2026-06-08 | major | 5 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hossain et al. 2023 — Heavy metals in edible chicken parts, Bangladesh
 
+## Overview
+
 Hossain et al. measured lead, cadmium, chromium, iron, copper, and zinc in six edible body parts (breast muscle, liver, gizzard, heart, kidney, brain) of 18 broiler chickens from six markets in Dhaka North City Corporation (DNCC), Bangladesh. The study found that lead concentrations were notably elevated — up to 4.6 mg/kg fresh weight in the brain, roughly six times above FAO/WHO maximum allowable concentrations — while cadmium and chromium were mostly within regulatory limits. The authors conclude that while most target hazard quotients (THQ) for adult and child consumers remained below 1.0, the Pb levels in certain body parts (brain, kidney) warrant continued monitoring, and that tannery-waste-derived poultry feed is a likely contamination pathway.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [872a86686](https://github.com/paleofoundation/heavymetalindex/commit/872a86686) | 2026-05-13 | major | 4 sections added; narrative text revised |

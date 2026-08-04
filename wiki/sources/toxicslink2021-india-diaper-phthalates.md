@@ -30,6 +30,8 @@ updated: 2026-06-09
 
 # Toxics Link 2021 — Phthalates in Indian-market disposable diapers, paired 2019 commodity vs 2021 "phthalate-free / organic" e-platform samples
 
+## Overview
+
 This is an eight-page Toxics Link (New Delhi) NGO investigation report, compiled by researcher Alka Dubey under supervision of Piyush Mohapatra, that pairs two consumer-survey datasets on phthalate plasticisers in disposable baby diapers sold in India. The 2019 round sampled 20 commonly available, low-cost Delhi-market diapers; the 2021 "current study" round sampled 15 diapers (13 disposable + 2 reusable organic cloth) marketed on e-commerce platforms as "organic", "bio", "chemical-free" or specifically "phthalate-free". Both rounds were analysed at Spectro Analytical Labs in Delhi for the same four phthalates DEHP, BBP, DBP, and DIBP (the 2021 round additionally screened DEP), and the report frames the headline finding around the social-equity gap that the cheap commodity diapers used by lower-income families carry the heaviest phthalate burden while the expensive "phthalate-free"-branded e-platform alternatives are not actually phthalate-free.
 
 The paper measures **no heavy metals** and contributes no occurrence data to the HMI corpus. It is ingested as a methodology and exposure-pathway reference for diaper-derived plasticiser exposure in Indian-market diapers — the paired commodity-vs-"chemical-free" study design and the labelling-vs-laboratory-finding discrepancy framework are reusable for HMI work on diaper substrate metals (Pb, Cd, Ni, Sn, Cr, Al in printed dyes, superabsorbent polymers, elastic backsheets) if/when comparable metal data become available. The corresponding sibling HMI metal-occurrence paper for Indian-market diapers is currently absent from the corpus; see [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] for a Guangzhou phthalate paper that fuses inner-layer diaper sampling with paired urinary metabolites, and [[sources/smajgl2015-tin-baby-diapers-croatia]] for Sn occurrence in Croatian-market diapers.
@@ -121,7 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [3d9861a6f](https://github.com/paleofoundation/heavymetalindex/commit/3d9861a6f) | 2026-06-09 | minor | Narrative text revised |
-| [342c5c80b](https://github.com/paleofoundation/heavymetalindex/commit/342c5c80b) | 2026-06-09 | major | 3 sources added; 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

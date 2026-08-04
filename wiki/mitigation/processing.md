@@ -12,6 +12,8 @@ sources: 0
 
 # Processing mitigation
 
+## Overview
+
 Processing mitigation comprises post-harvest, pre-consumption interventions that reduce heavy metal concentrations in food through physical or biochemical transformation of the harvested commodity. The category sits between [[mitigation/agronomic|agronomic mitigation]] (which prevents the metal from entering the harvested commodity) and [[mitigation/formulation|formulation mitigation]] (which works at the recipe level). The intervention point is the processor, miller, co-packer, or finished-product manufacturer; the responsible party is typically the entity that holds the commodity between farm and finished product.
 
 Processing interventions are commercially relevant for HMT&C certification because they are auditable on a per-batch or per-line basis. A processor can demonstrate that a polishing step, a parboiling protocol, or a fermentation regime is applied to a certified product line in a way that an in-field agronomic intervention cannot easily be demonstrated downstream.
@@ -64,10 +66,10 @@ Specific primary studies in the corpus that should be promoted to populate this 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Su LJ, Chiang TC, and O'Connor SN (2023). *Arsenic in Brown Rice: Do the Benefits Outweigh the Risks?*. Frontiers in Nutrition 10:1209574. [https://doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574). Peer-reviewed, A-tier. [[sources/su-2023-arsenic-brown-rice|Source record]]
-2. Codex Alimentarius Commission (2022). *Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)*. FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome. [https://doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en). Government report, A-tier. [[sources/codex-cxc-81-2022|Source record]]
+1. [[sources/su-2023-arsenic-brown-rice|Arsenic in Brown Rice: Do the Benefits Outweigh the Risks?]]<span class="hmi-ref-meta">Su LJ, Chiang TC, and O'Connor SN · Frontiers in Nutrition 10:1209574 · 2023 · [doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -77,7 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added; narrative text revised |
-| [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 1 source added; narrative text revised |
-| [ed8797d63](https://github.com/paleofoundation/heavymetalindex/commit/ed8797d63) | 2026-05-03 | major | 1 source added; 4 sections added; narrative text revised |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

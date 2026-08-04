@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Gulcin 2025 — Antioxidants: a comprehensive review
 
+## Overview
+
 Gulcin, at the Department of Chemistry, Atatürk University (Erzurum, Türkiye), surveys the chemistry and in vitro methodology of antioxidant capacity measurement in a 105-page narrative review. The paper is organised around (i) reactive oxygen and nitrogen species (ROS, RNS) and the biochemistry of oxidative stress, (ii) enzymatic antioxidants (superoxide dismutase, catalase, glutathione reductase, glutathione peroxidase) and their metalloenzyme cofactors, (iii) non-enzymatic antioxidants (vitamins, polyphenols, carotenoids, sulfur-containing peptides), (iv) the principal in vitro antioxidant capacity assays — DPPH·, ABTS·⁺, DMPD·⁺, FRAP, CUPRAC, FCR, ORAC, O₂·⁻ scavenging, NO· scavenging, ONOO⁻ scavenging, H₂O₂ scavenging, ¹O₂ quenching, metal chelating, and TBARS — with chemical principles, advantages, disadvantages, and limitations of each, and (v) a closing discussion of method selection. There are no original experimental measurements, no food or biological sampling, and no contamination occurrence data; the heavy-metals relevance is methodological (the metal-chelating antioxidant assay and the Fenton/Haber-Weiss chemistry of iron- and copper-mediated ROS generation) and conceptual (the role of heavy metals as a source of oxidative stress).
 
 ## Why this matters
@@ -146,6 +148,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [af61f849f](https://github.com/paleofoundation/heavymetalindex/commit/af61f849f) | 2026-06-08 | major | 1 source added; 10 sections added; narrative text revised |

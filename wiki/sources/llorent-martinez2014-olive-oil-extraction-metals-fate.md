@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Llorent-Martínez et al. 2014 — Fate of metals during virgin olive oil extraction, Spain
 
+## Overview
+
 This methods-and-fate paper developed and validated a microwave-assisted acid digestion (HNO3/H2O2) plus ICP-MS procedure for quantifying eleven metals (Al, V, Cr, Fe, Co, Ni, Cu, tAs, Cd, Sb, Pb) in raw olive fruits (including the stone), olive pomace, and virgin olive oil (VOO). Olives of three Andalusian cultivars (Picual, Hojiblanca, Arbequina) from a single irrigated orchard in Jaén, Spain were processed through an Abencor laboratory mill (milling, malaxation at 26 °C for 30 min, centrifugation at 3,500 rpm), then analyzed as paste, pomace, and VOO. In natural (unspiked) olive fruits only Al, Cu, and Fe were above method detection limits (MDLs); As, Cd, Co, Cr, Ni, Pb, Sb, and V were all below MDL. Spiking olive paste at 2,400 ng/g per element (Hojiblanca) and at 3,000–10,000 ng/g for Cu and Fe (Arbequina) showed that on average at least 90 % (the conclusion states 93 % across all elements) of the metals introduced into the paste partitioned into the olive pomace, with the residual VOO levels remaining below the International Olive Council (IOC) maximum levels for As, Cu, Fe, and Pb and below the EU Regulation (EC) No. 1881/2006 maximum level for Pb in VOO (0.1 µg/g = 100 µg/kg) in every spike condition. The paper concludes that the Abencor extraction pathway delivers high-quality VOO from a metal-content standpoint even when the parent fruits carry an appreciable metal burden.
 
 ## Key numbers
@@ -124,8 +126,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [ed28f05f2](https://github.com/paleofoundation/heavymetalindex/commit/ed28f05f2) | 2026-06-01 | minor | Narrative text revised |
-| [f602238f0](https://github.com/paleofoundation/heavymetalindex/commit/f602238f0) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

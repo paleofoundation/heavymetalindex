@@ -8,7 +8,7 @@ publication: "International Journal of Analytical Chemistry, Vol. 2018, Article 
 doi: "10.1155/2018/2985698"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed primary study (Int J Anal Chem / Hindawi). Hindawi journal-impact concerns are captured in journal_impact field, not used to demote tier."
+tier_rationale: "Per: peer-reviewed primary study (Int J Anal Chem / Hindawi). Hindawi journal-impact concerns are captured in journal_impact field, not used to demote tier."
 method_quality_caveat: "Hindawi-published; journal-impact below premier food-safety venues. Methodology details require review before sample-level pooling."
 journal_impact: "Hindawi venue with mixed peer-review reputation; verify methodology details before standards use."
 license: cc-by
@@ -27,6 +27,8 @@ updated: 2026-05-08
 ---
 
 # Eticha, Afrasa, Kahsay, Gebretsadik 2018 — Infant exposure to metals through formula feeding in Mekelle, Ethiopia
+
+## Overview
 
 This International Journal of Analytical Chemistry research article from Mekelle University School of Pharmacy (Eticha, Afrasa, Kahsay, Gebretsadik) reports atomic absorption spectrometry quantification of Pb, Cd, As, and Cr in infant formulas sold in the Mekelle, Ethiopia retail market. The paper provides per-formula-product concentration data and per-day infant exposure estimates against international reference values. As an Ethiopian-market-specific dataset, it complements the broader U.S. and European infant-formula occurrence literature with sub-Saharan African market context.
 
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 4 sections added; narrative text revised |

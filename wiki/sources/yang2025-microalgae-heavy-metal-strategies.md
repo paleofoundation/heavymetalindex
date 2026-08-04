@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Yang et al. 2025 — Microalgal strategies against heavy-metal toxicity (Microorganisms narrative review)
 
+## Overview
+
 Yang and colleagues review biochemical, additive, genetic, strain-selection, and immobilization strategies by which microalgae remove heavy metals (HMs) from contaminated water while continuing to produce biomass. The review covers two principal removal modes — passive biosorption (metabolism-independent, fast, dead-or-live biomass) and active bioaccumulation (metabolism-dependent, slow, live cells only) — and surveys exogenous chemical additives (organic acids, dissolved organic matter, sulphate, phosphate, nitric-oxide donors, salicylic acid, fulvic acid), transgenic strategies (metallothionein and metal-tolerance-protein over-expression, mercuric-reductase MerA expression, surface-displayed MerR), microalgal strain selection for acid-tolerance and metal-tolerance phenotypes, immobilization carriers (alginate, biopolymer films, pine sawdust, biochar-algae complexes, dielectrophoresis-assisted devices), and coupled HM-bioremediation/biofuel-production systems. The scope is wastewater bioremediation and algal biotechnology, not food or supply-chain contamination; HMI relevance is restricted to (a) mechanistic vocabulary for any future microalgae-and-metal microbiome page, and (b) the table inventory of microalgae × heavy-metal removal efficiencies, which restates primary-literature figures the chapter itself does not re-measure. Evidence tier C; cite as a leads document only.
 
 ## Key numbers
@@ -185,6 +187,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 5 sources added; 12 sections added; narrative text revised |

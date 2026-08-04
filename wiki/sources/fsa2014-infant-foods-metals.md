@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # FSA 2014 - metals in UK infant foods, formula and other infant-diet foods
 
+## Overview
+
 The UK Food Standards Agency commissioned a survey of metals and other elements in ready-to-feed infant formula, dry infant formula, commercial infant foods, and other foods consumed by infants and young children. The report is A-tier occurrence and exposure evidence for infant foods because it gives category mean concentrations and total infant-diet exposure estimates. Brand-name products were measured, but the report calculates exposure by category and food group; this page follows that firewall.
 
 ## Key numbers
@@ -92,6 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

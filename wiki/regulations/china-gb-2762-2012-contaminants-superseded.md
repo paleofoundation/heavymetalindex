@@ -20,6 +20,8 @@ updated: 2026-05-18
 
 # China GB 2762-2012 - Maximum levels of contaminants in food (superseded)
 
+## Overview
+
 GB 2762-2012 was China's National Food Safety Standard for maximum levels of contaminants in foods. The Ministry of Health announced the standard on 13 November 2012; it took effect on 1 June 2013 and was replaced by [[regulations/china-gb-2762-2017-contaminants-superseded|GB 2762-2017]] on 17 September 2017.
 
 ## Scope
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0468e601d](https://github.com/paleofoundation/heavymetalindex/commit/0468e601d) | 2026-05-18 | major | 1 source added; contamination-profile values revised; 5 sections added |

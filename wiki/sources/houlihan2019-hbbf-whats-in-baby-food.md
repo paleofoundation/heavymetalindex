@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Houlihan and Brody 2019 — HBBF: What's in My Baby's Food?
 
+## Overview
+
 Healthy Babies Bright Futures (HBBF) commissioned Brooks Applied Labs (Bothell, Washington) to test 168 commercially purchased baby food containers for four toxic heavy metals — arsenic, lead, cadmium, and mercury — across 61 brands and 13 food types purchased from 14 US metropolitan areas. Testing found detectable levels of at least one metal in 95 percent of baby foods sampled, with one in four containers positive for all four metals simultaneously. The report also commissioned Abt Associates to estimate IQ loss attributable to lead and arsenic in the diets of children aged 0 to 24 months, finding a total population-level loss exceeding 11 million IQ points from dietary exposure, with rice-based foods alone accounting for nearly one-fifth of that total.
 
 **Note on evidence tier:** This is a B-tier nonprofit report, not a peer-reviewed primary study. The laboratory results are from a single commercially accredited lab without published QC data in the main report body; they are presented without uncertainty estimates or statistical comparison across food types. The IQ-loss estimates are modeled by Abt Associates using federal dietary survey data rather than directly measured. Use with appropriate attribution.
@@ -134,9 +136,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [85fa8399d](https://github.com/paleofoundation/heavymetalindex/commit/85fa8399d) | 2026-06-09 | minor | Narrative text revised |
 | [4c4465f45](https://github.com/paleofoundation/heavymetalindex/commit/4c4465f45) | 2026-06-09 | minor | Narrative text revised |
-| [a34b9a700](https://github.com/paleofoundation/heavymetalindex/commit/a34b9a700) | 2026-06-01 | minor | Narrative text revised |
-| [6ab5c940d](https://github.com/paleofoundation/heavymetalindex/commit/6ab5c940d) | 2026-06-01 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

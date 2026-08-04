@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study characterized 11 elements (Cr, Mn, Fe, Co, Ni, Cu, Zn, Se, Mo, Cd, Pb) in raw cow's milk (n=195, 9 villages) and traditional Georgian cheeses (n=25; 16 Imeruli, 9 Sulguni) from the Kvemo Kartli region of Georgia, an agricultural area along the Mashavera River with documented soil, water, and pasture contamination from the Madneuli polymetallic mining plant (operating since 1975) and the RMG gold/copper mine (since 2014). Quantification was by ICP-MS (Agilent 7800) on samples ashed with concentrated HNO3 (65%) in a muffle furnace, with quality control via ISO 17034 traceable CRMs and the GOST 26929-94 Georgian national method. Mean Cd in milk was below LOD (<0.001 mg/L) in all villages. Mean Pb in milk ranged 0.004–0.048 mg/L across villages, with seven individual samples exceeding the EU limit of 0.020 mg/L in Kvemo Bolnisi, Bolnisi, Mtskneti, and Ratawani. Cu means in Sabereti and Vanati (0.568 and 0.592 mg/L) exceeded the EU limit of 0.4 mg/L. In cheese, Pb in both Imeruli (mean 0.121 mg/kg ww) and Sulguni (mean 0.258 mg/kg ww) exceeded the EU/Codex maximum level of 0.020 mg/kg but were below the Georgian regulation MPC of 0.500 mg/kg; Mn, Cr, Se, Mo, Zn, and Fe in both cheeses also exceeded the cited permissible limits. A t-test showed Sulguni cheese had significantly higher Cr, Se, Mn, Pb, Co, Cu, and Ni than Imeruli cheese, consistent with the fact that Sulguni is made by re-processing Imeruli curd and that heavy metals partition preferentially into the casein/curd fraction. A second t-test on milk samples grouped by river basin showed significantly higher Fe, Mn, Cu, Pb, and Cr in the Mashavera-region villages than in the Khrami-region villages.
 
 ## Key numbers
@@ -166,9 +168,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [44c601f66](https://github.com/paleofoundation/heavymetalindex/commit/44c601f66) | 2026-05-19 | minor | Narrative text revised |
-| [1f697d03f](https://github.com/paleofoundation/heavymetalindex/commit/1f697d03f) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

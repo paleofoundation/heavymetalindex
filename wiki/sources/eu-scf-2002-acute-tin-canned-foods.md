@@ -27,6 +27,8 @@ updated: 2026-05-08
 
 # EU SCF 2002 — Opinion on Acute Risks Posed by Tin in Canned Foods
 
+## Overview
+
 This European Commission Scientific Committee on Food opinion (SCF/CS/CNTM/OTH/18 Final, adopted 12 December 2001, published 8 January 2002) is the EU regulatory toxicology basis for the inorganic-tin maximum levels for canned foods that were subsequently set in EC 1881/2006 and that have carried forward to the current [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] inorganic-tin canned-food limits (200 mg/kg general canned food, 100 mg/kg canned beverages, 50 mg/kg canned baby food and infant/young-child formula). The opinion synthesizes the inorganic tin acute-toxicity literature (including the [[sources/benoy1971-tin-toxicity-canned-fruit-juices|Benoy 1971]] symptomatic-threshold work and subsequent outbreak reports) and derives the regulatory threshold based on the no-observed-adverse-effect-level (NOAEL) for acute gastrointestinal effects in humans with appropriate uncertainty factors.
 
 ## Key conclusions
@@ -50,6 +52,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 1 source added; 3 sections added; narrative text revised |

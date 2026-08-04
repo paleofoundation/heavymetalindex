@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Medley et al. 2023 — Children's makeup and body products usage survey (US)
 
+## Overview
+
 This Columbia/Earthjustice mixed-methods survey of 207 US parents/guardians (reporting on 312 children ≤12 years) characterizes the use, frequency, duration, and motivation behind children's makeup and body products (CMBPs) — a broad category covering body paint, face paint, temporary tattoos, body glitter, eye products, lip products, face products, nail products, hair products, and fragrances. The paper does not measure heavy-metal content; it provides the exposure-pathway parameters (use prevalence, frequency, duration, ingestion proportion, application route) needed for any downstream metal-exposure assessment in children using these products. The paper explicitly excluded hair relaxers and skin-lightening products from the CMBP definition.
 
 ## Key numbers
@@ -91,8 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [f0a6a3631](https://github.com/paleofoundation/heavymetalindex/commit/f0a6a3631) | 2026-05-17 | minor | Narrative text revised |
-| [d0fb1c869](https://github.com/paleofoundation/heavymetalindex/commit/d0fb1c869) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Pulze et al. 2025 — Volcanic eruptions and heavy metal contamination in the food chain
 
+## Overview
+
 This review examines how volcanic activity — primarily ash deposition and soil enrichment from lava weathering — elevates heavy metal concentrations in agricultural soils and subsequently in food crops, with Italy's Mount Etna as the primary case study. Volcanic soils near Etna are naturally enriched in Ni, Cd, and V relative to non-volcanic agricultural soils. The review documents transfer of these metals into crops (vegetables, fruits, wine grapes) grown in the surrounding agricultural zone, and discusses compliance implications under EU Regulation 2023/915 (maximum levels for certain contaminants in food). The paper notes that naturally elevated metal concentrations from geological sources complicate regulatory compliance for Etna-area producers, particularly for Ni in leafy vegetables and Cd in some crop types.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

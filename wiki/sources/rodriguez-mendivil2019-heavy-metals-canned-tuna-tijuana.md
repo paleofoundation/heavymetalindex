@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Rodriguez-Mendivil et al. 2019 — Heavy metals in canned tuna and fresh fish, Tijuana, Mexico
 
+## Overview
+
 This 2019 peer-reviewed study measured total Hg (tHg), Pb, Cd, and Cr in 48 canned tuna samples from 8 brands and 20 fresh fish samples from 4 species sold in Tijuana, Mexico, then calculated hazard quotients (HQs) and total hazard quotients (THQs) using the USEPA region III risk-based concentration table. Note that mercury was measured as total Hg by cold vapor atomic absorption spectrometry (CVAAS) — the paper does not speciate MeHg from inorganic Hg. The authors concluded that all HQ and THQ values fell below 1.0 under their Mexican general-population consumption scenario; however, two canned tuna samples (4.16%) exceeded the author-cited Mexican 1.0 mg/kg maximum permissible limit for Hg, and two samples exceeded the EU Pb limit of 0.20 mg/kg.
 
 ## Key numbers
@@ -111,8 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [300990514](https://github.com/paleofoundation/heavymetalindex/commit/300990514) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

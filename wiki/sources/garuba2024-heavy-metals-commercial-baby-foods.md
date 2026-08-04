@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Garuba et al. 2024 — Heavy metals in commercial US baby foods
 
+## Overview
+
 Garuba et al. (2024) measured seven metals (Al, Cr, Ni, Zn, total As, Cd, Pb) in ten commercial US infant and toddler food products from seven anonymized brands (labeled Brand 1-Brand 7) using single-reaction-chamber microwave digestion followed by triple-quadrupole ICP-MS (QQQ-ICP-MS). Each product was analyzed in triplicate. Aluminum exceeded the ATSDR oral intermediate MRL of 1 µg/g/day in two plant-based fruit/vegetable purees (4.09 and 2.50 µg/g), and zinc exceeded the cited 2-3 µg/g/day reference in three products (syrup 33.55 µg/g, beef-and-gravy 69.54 µg/g, fruit punch 30.25 µg/g). Mercury was not analyzed. Regression analysis showed no significant relationship between packaging material (squeezable pouch, plastic, glass jar, aluminum can, box pouch) and metal concentration, supporting a soil-to-crop rather than packaging-migration origin for the contamination observed.
 
 ## Key numbers
@@ -160,8 +162,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5caa8225](https://github.com/paleofoundation/heavymetalindex/commit/d5caa8225) | 2026-05-18 | minor | Narrative text revised |
-| [5414ac92a](https://github.com/paleofoundation/heavymetalindex/commit/5414ac92a) | 2026-05-18 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

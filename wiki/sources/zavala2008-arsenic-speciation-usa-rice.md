@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Zavala et al. 2008 — Arsenic speciation in USA rice grain and global comparison
 
+## Overview
+
 This study analyzed arsenic speciation (arsenite As(III), arsenate As(V), dimethylarsenic acid DMA, monomethylarsenic acid MMA) in 24 U.S. rice samples at the higher end of observed total As concentrations representing rice grown in Texas (n=16), Arkansas (n=3), and California (n=5), using IC-ICP-DRC-MS, and combined these with all published global rice speciation data (105 samples total) to characterize two distinct As rice types. Arsenite and DMA were the dominant species; DMA increased linearly with total As (R²=0.92), while inorganic As remained relatively constant at approximately 0.1 mg/kg regardless of total As level. U.S. rice was predominantly the "DMA type," while rice from Asia and Europe was predominantly the "Inorganic As type." The finding has direct human health implications because the two As species types differ substantially in relative toxicity.
 
 ## Key numbers
@@ -86,6 +88,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

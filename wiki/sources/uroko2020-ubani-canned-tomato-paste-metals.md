@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Uroko et al. 2020 — Heavy metals in canned tomato paste from Ubani-Umuahia
 
+## Overview
+
 Uroko and colleagues measured nine metals in ten canned tomato-paste products sold at Ubani-Umuahia market in Nigeria. Table 1 reports coded sample concentrations in ppm, but this page aggregates the coded rows to avoid attaching values to named consumer products. Lead and nickel were not detected; chromium and cadmium were detected above the paper's comparator values in all tested samples.
 
 ## Key numbers
@@ -70,8 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [1b4710498](https://github.com/paleofoundation/heavymetalindex/commit/1b4710498) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [77fbf2429](https://github.com/paleofoundation/heavymetalindex/commit/77fbf2429) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

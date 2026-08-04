@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Yazdanian Ghahfarokhi et al. 2025 — Heavy metals in raw camel milk from Iran
 
+## Overview
+
 This study collected 115 raw camel milk samples from Chaharmahal Bakhtiari province, Iran, and analyzed 49 samples (randomly selected) for Pb, Cd, and As by atomic absorption spectrophotometry (AAS). The paper's primary focus was microbial safety (S. aureus and E. coli prevalence and virulence genes), with the heavy metal analysis as a secondary component; results indicated that concentrations of all three metals were generally low and below applicable maximum allowable concentrations (MACs). The data provide a baseline occurrence dataset for heavy metals in raw camel milk from rural Iran, a geographic region and food matrix with very limited prior published data.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb63b34c](https://github.com/paleofoundation/heavymetalindex/commit/ffb63b34c) | 2026-05-12 | major | 4 sections added; narrative text revised |

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Balbo and Wozniak 2022 — Chemical contaminants including heavy metals in rye-wheat bread, Poland
 
+## Overview
+
 This EFSA EU-FORA technical report measured acrylamide, mycotoxins (DON and related compounds), and six heavy metals (Al, As, Cd, Cr, Pb, Ni) in 51 loaves of rye-wheat bread (refined flour) randomly purchased in Warsaw, Poland. Heavy metal occurrence was measured by ICP-MS per European standard EN 15763:2009. All heavy metal concentrations were below EU maximum levels for the applicable matrices. However, estimated dietary exposures for aluminium, lead, and nickel raised public health concerns across some population groups, particularly toddlers and children, when combined with EFSA consumption data.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6edd24b09](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b09) | 2026-05-13 | major | 4 sections added; narrative text revised |

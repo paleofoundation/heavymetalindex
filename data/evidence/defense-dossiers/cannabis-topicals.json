@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cannabis-topicals",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4640c9951e8f9ba8d1141fa04218a5149099b370dfbce7b09c95929f13ff4e36",
-      "content_bytes": 1389,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "b582e9570a7e691d0a2bdd92d15e48821a7cfaabb168493a4cb330f720214f3b",
+      "content_bytes": 2061,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/cannabis-topicals.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/cannabis-topicals.md | sha256sum"
     }
   },
   "evidence_base": {

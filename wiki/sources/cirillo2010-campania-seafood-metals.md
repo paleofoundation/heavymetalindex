@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Cirillo 2010 - Campania seafood metals
 
+## Overview
+
 Cirillo and colleagues measured lead, cadmium, total mercury, and total arsenic in fresh catch, aquaculture, and frozen seafood purchased in Campania, Italy. The study covered marine fish, cephalopods, and mussels, and reported prevalence, mean, median, and range values on a wet-weight basis. Mercury and arsenic are reported as total Hg and total As; methylmercury and inorganic arsenic were not analytically speciated.
 
 ## Key numbers
@@ -81,6 +83,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [7a0924b46](https://github.com/paleofoundation/heavymetalindex/commit/7a0924b46) | 2026-06-08 | major | 4 sections added; narrative text revised |

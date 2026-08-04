@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # OSPAR 2022 — Pb, Cd, and Hg status and trend assessment in Northeast Atlantic fish, shellfish, and sediment (1979-2020)
 
+## Overview
+
 The OSPAR Common Indicator Assessment evaluates the status and temporal trend of mercury (Hg), cadmium (Cd), and lead (Pb) — with extended coverage of zinc (Zn), copper (Cu), chromium (Cr), nickel (Ni), arsenic (As), cobalt (Co), silver (Ag), tin (Sn), and selenium (Se) — measured in fish, shellfish, and sediment across the OSPAR Convention area (Northeast Atlantic) for the 2023 Quality Status Report. The assessment finds that lead concentrations in fish and shellfish are above background levels in most areas, mercury is above the EU Environmental Quality Standard for secondary poisoning (QS_sp) throughout all assessed subregions, and cadmium is above background in the Celtic Seas, Iberian Sea, and Northern Bay of Biscay. Despite bans and the Minamata Convention on Mercury, biota concentrations are mostly increasing — particularly in OSPAR Region II (Greater North Sea) — while sediment concentrations are often above the NOAA Effects Range-Low (ERL) environmental threshold but decreasing in most subregions. The assessment uses the CEMP dataset held at the ICES Data Centre, processed via the online OHAT assessment tool with a linear mixed model fitted across contaminants assessment areas.
 
 ## Key numbers
@@ -151,7 +153,7 @@ This is an A-tier intergovernmental status and trend assessment that provides re
 - Biota: mussels (BAC 90 µg/kg dw for Hg, 960 µg/kg dw for Cd, 1300 µg/kg dw for Pb), oysters (BAC 180 µg/kg dw for Hg, 3000 µg/kg dw for Cd, 1300 µg/kg dw for Pb), and fish whole-fish for the QS_sp comparison (20 µg/kg ww for Hg). Fish muscle is the basis for the EC MPC comparison (500 µg/kg ww for Hg and Cd-free at 50 µg/kg ww; Pb at 300 µg/kg ww in fish muscle).
 - Sediment: total metal concentrations, normalised to 5% aluminium (except for the Iberian Sea and Gulf of Cadiz subregions, where sediments are coarser and not derived from glacial clays). Expressed in mg/kg dw.
 
-Mercury was measured as total mercury in biota and sediment; the report explicitly notes that the QS_sp value is "mainly derived from methylmercury but applied to total mercury" (page 7). The OSPAR speciation discipline does not separate inorganic and methylmercury at the CEMP-level assessment, so frontmatter and synthesis carry `tHg` per CLAUDE.md Part 14. Arsenic in the secondary-metal extended results is total arsenic (`tAs`); no inorganic-arsenic speciation is reported. Chromium in the extended results is total chromium (`Cr`), no Cr-VI speciation. Tin in the extended results is total tin (`Sn`); no organotin speciation is reported in the trend figures.
+Mercury was measured as total mercury in biota and sediment; the report explicitly notes that the QS_sp value is "mainly derived from methylmercury but applied to total mercury" (page 7). The OSPAR speciation discipline does not separate inorganic and methylmercury at the CEMP-level assessment, so frontmatter and synthesis carry `tHg`. Arsenic in the secondary-metal extended results is total arsenic (`tAs`); no inorganic-arsenic speciation is reported. Chromium in the extended results is total chromium (`Cr`), no Cr-VI speciation. Tin in the extended results is total tin (`Sn`); no organotin speciation is reported in the trend figures.
 
 **Statistical method:** For each trace metal at each monitoring site, the time series of concentration measurements was assessed for trends and status using the methods described in the OHAT online assessment tool (https://dome.ices.dk/ohat/?assessmentperiod=2022). Individual time-series results were synthesised at the assessment-area scale via meta-analyses. The trend in each metal at each monitoring site was summarised by the estimated annual change in log concentration, with its associated standard error. The annual change in log concentration was then modelled by a linear mixed model with fixed effects of trace metal and OSPAR contaminants assessment area, and random effects of monitoring site (biota only) and metal-by-monitoring-site interaction plus residual variation. Status at the assessment-area scale was summarised as the log ratio of the fitted concentration in the last monitoring year to the QS_sp, and to the BAC. The QS_sp analyses also included a term to estimate and adjust for the difference in concentrations between fish and shellfish (implicitly accounting for trophic level via a statistical model rather than measured trophic level).
 
@@ -174,7 +176,7 @@ PDF retrieved as part of the Kimi Agent Download Corruption Issue manual-fetch b
 
 The report is the OSPAR-area sibling to [[sources/helcom2017-core-indicator-metals-baltic]] (HELCOM Core Indicator for the Baltic Sea, 2011-2015 assessment period). Where both sources cover Region II (Greater North Sea) and the Kattegat (an OSPAR Skagerrak-and-Kattegat subregion that is also in HELCOM's southwestern Baltic), they describe the same monitoring sites under different intergovernmental commissions; downstream synthesis should treat the two reports as overlapping rather than independent for those subregions.
 
-Sediment threshold values are reported with European-style decimal commas in the original Table a (e.g., "0,31" for Cd BAC in mg/kg dw); these have been faithfully transcribed using standard decimal points in this page (0.31 mg/kg dw, etc.) following CLAUDE.md Part 14 number convention.
+Sediment threshold values are reported with European-style decimal commas in the original Table a (e.g., "0,31" for Cd BAC in mg/kg dw); these have been faithfully transcribed using standard decimal points in this page (0.31 mg/kg dw, etc.) number convention.
 
 ## Verification notes
 
@@ -214,9 +216,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [57ef20259](https://github.com/paleofoundation/heavymetalindex/commit/57ef20259) | 2026-06-03 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

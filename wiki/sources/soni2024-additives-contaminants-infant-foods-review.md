@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Soni et al. 2024 — Food additives and contaminants in infant foods: critical review
 
+## Overview
+
 Soni and colleagues review the additive and contaminant landscape of the infant-food category, covering direct additives (colorants, flavoring agents, preservatives), indirect additives (bisphenols, phthalates, PFAS, perchlorate, food-packaging migrants), naturally occurring contaminants (mycotoxins, POPs, heavy metals), and the regulatory frameworks that govern them (US FDA Redbook/GRAS, EFSA scientific opinions, JECFA ADI evaluations, Codex Alimentarius, Indian FSSAI). The paper's primary focus is food additives and packaging migrants rather than heavy metals; heavy-metal content is brief, drawing on Bair 2022 and Tchounwou 2012 as anchor citations for the FDA Closer-to-Zero program and metal toxicity respectively. The review is most useful to HMI as regulatory-landscape context for infant-food contaminant governance and for its discussion of aluminum and titanium dioxide immunological pathways in young children.
 
 ## Key numbers
@@ -114,7 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [4c15d7c8b](https://github.com/paleofoundation/heavymetalindex/commit/4c15d7c8b) | 2026-06-09 | minor | Narrative text revised |
-| [bc390e301](https://github.com/paleofoundation/heavymetalindex/commit/bc390e301) | 2026-06-09 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

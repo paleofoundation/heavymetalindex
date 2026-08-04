@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Wu et al. 2023 - Hybrid membrane adsorption of Pb2+ and Cu2+
 
+## Overview
+
 Wu, Zheng, and Han synthesized negatively charged PEG/Si-O-Si organic-inorganic hybrid membranes and tested their adsorption of Cu2+ and Pb2+ under varied pH, temperature, initial concentration, and contact time. This is primary remediation-method evidence, not occurrence evidence: the source reports laboratory adsorption capacities and condition optimization for prepared metal-ion solutions rather than concentrations in food, ingredients, drinking water, or field wastewater.
 
 ## Key numbers
@@ -104,8 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [ad5622a10](https://github.com/paleofoundation/heavymetalindex/commit/ad5622a10) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

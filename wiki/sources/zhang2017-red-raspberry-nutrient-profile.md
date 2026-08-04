@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Zhang et al. 2017 — Nutrient profile of processed red raspberries for nutrition labeling
 
+## Overview
+
 This market basket study characterised the nutrient content and variation in processed red raspberry (Rubus idaeus L.) products, including individually quick frozen (IQF), puree, and juice concentrates, collected from US retail, processing plants, and distributors in 2017. The study was conducted collaboratively between Illinois Institute of Technology and USDA Agricultural Research Service (Beltsville Human Nutrition Research Center) to provide new data to the USDA nutrient composition database. Key findings: IQF and puree with seeds are excellent sources of dietary fiber (≥20% DV per FDA criteria); IQF and puree are good sources (10-19% DV) of copper, thiamin, riboflavin, and folate; all forms are excellent or good sources of vitamin C and manganese.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

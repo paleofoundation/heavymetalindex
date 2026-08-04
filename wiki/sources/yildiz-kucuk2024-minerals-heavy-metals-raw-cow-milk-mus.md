@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 This study measured Pb, Cd, Fe, Cu, Mn, Ca, Mg, Na, K, and Zn in 10 raw cow milk samples collected from different locations in Muş province in eastern Türkiye using atomic absorption spectrometry (AAS). Lead and cadmium were the heavy metals of primary concern; essential minerals were also characterized. Table 2 reports Pb from 0.19 to 0.44 mg/L and Cd from 0.20 to 0.38 mg/L. The authors compare Pb against the Turkish Food Codex raw-milk lead limit of 0.020 mg/kg and state that all samples exceed that limit; they also state that the Turkish regulation did not specify limits for the other measured elements.
 
 ## Key numbers
@@ -90,9 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ef380b8d3](https://github.com/paleofoundation/heavymetalindex/commit/ef380b8d3) | 2026-05-19 | minor | Narrative text revised |
-| [4477417ed](https://github.com/paleofoundation/heavymetalindex/commit/4477417ed) | 2026-05-18 | major | 1 section added; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

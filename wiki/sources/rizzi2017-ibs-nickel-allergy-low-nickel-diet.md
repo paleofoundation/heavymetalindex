@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Rizzi, Nucera, Laterza, Gaetani, Valenza, Corbo, Inchingolo, Buonomo, Schiavino, Gasbarrini 2017 — IBS and nickel allergy: role of the low-nickel diet
 
+## Overview
+
 This Journal of Neurogastroenterology and Motility original article from the Gemelli Hospital allergology, gastroenterology, nuclear medicine, and pulmonology consortium tests whether a low-nickel diet improves gastrointestinal symptoms in IBS patients with nickel sensitization, and characterizes the intestinal permeability profile of these patients using 51Cr-EDTA excretion. The study confirms that nickel-sensitive IBS patients have substantially elevated intestinal permeability versus controls (5.91 percent vs 2.20 percent 51Cr-EDTA excretion) and that all GI symptoms except vomiting improve significantly on a low-nickel diet. The finding positions IBS with nickel sensitization as a candidate subtype of SNAS amenable to dietary intervention.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 1 source added; 4 sections added; narrative text revised |

@@ -3,7 +3,7 @@ title: "Regulatory tightening over time"
 description: "Chronological view of every dated regulation in the Heavy Metal Index, grouped by decade. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-23
+updated: 2026-08-04
 noindex: false
 ---
 
@@ -15,9 +15,15 @@ The page is auto-regenerated on every build from the `effective_date` frontmatte
 
 ## Headline trajectory
 
-The index carries **45 dated regulations**. Earliest in the timeline: 1984-11-06 (FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury, FDA). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1980s**: 2 · **1990s**: 5 · **2000s**: 11 · **2010s**: 14 · **2020s**: 13.
+The index carries **46 dated regulations**. Earliest in the timeline: 1951-12-27 (japan-mhlw-milk-products-standards, Ministry of Health, Labour and Welfare). Most recent: 2025-01-01 (washington-tfca-toothpaste-pb-1000ppb, Washington State Department of Ecology). By decade: **1950s**: 1 · **1980s**: 2 · **1990s**: 5 · **2000s**: 11 · **2010s**: 13 · **2020s**: 14.
 
 ## Chronology by decade
+
+### 1950s
+
+| Effective | Title | Jurisdiction | Agency | Metals | Limit | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1951-12-27 | [[regulations/japan-mhlw-milk-products-standards\|japan-mhlw-milk-products-standards]] | JP | Ministry of Health, Labour and Welfare | Lead, Cadmium, Total arsenic | multiple varies | source-snapshot |
 
 ### 1980s
 
@@ -69,7 +75,6 @@ The index carries **45 dated regulations**. Earliest in the timeline: 1984-11-06
 | 2016-03-01 | [[regulations/au-nz-food-standards-code-schedule-19-contaminants\|Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants]] | Australia, New Zealand | Food Standards Australia New Zealand | Aluminium, Total arsenic, Inorganic arsenic, Cadmium, Lead, Total mercury, Tin | multiple mg/kg | in-force |
 | 2017-09-17 | [[regulations/china-gb-2762-2017-contaminants-superseded\|china-gb-2762-2017-contaminants-superseded]] | China | National Health and Family Planning Commission; China Food and Drug Administration | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | superseded |
 | 2018-02-07 | [[regulations/eu-reg-2018-73-mercury-compounds-mrls\|eu-reg-2018-73-mercury-compounds-mrls]] | European Union | European Commission | Total mercury | 0.01 mg/kg as mercury | finalized |
-| 2018-10-26 | [[regulations/oehha-nickel-prop65\|California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Compounds Reproductive Toxicity)]] | United States — California | OEHHA | Nickel | listed-no-safe-harbor none | in-force |
 
 ### 2020s
 
@@ -81,6 +86,7 @@ The index carries **45 dated regulations**. Earliest in the timeline: 1984-11-06
 | 2021-08-30 | [[regulations/eu-2021-1317-lead-cereals-superseded\|EU Regulation 2021/1317 - Lead maximum level for cereals and pulses]] | European Union | European Commission | Lead | 0.2 mg/kg wet weight | superseded |
 | 2021-08-31 | [[regulations/eu-2021-1323-cadmium-cereals-superseded\|EU Regulation 2021/1323 - Cadmium maximum levels for cereals]] | European Union | European Commission | Cadmium | multiple mg/kg wet weight | superseded |
 | 2022-05-03 | [[regulations/eu-reg-2022-617-mercury-fish\|eu-reg-2022-617-mercury-fish]] | European Union | European Commission | Total mercury | 0.3,0.5,1,0.1 mg/kg ww | finalized |
+| 2022-07-01 | [[regulations/brazil-anvisa-rdc-722-2022\|brazil-anvisa-rdc-722-2022]] | BR | Agência Nacional de Vigilância Sanitária | Lead, Cadmium, Total mercury, Inorganic arsenic, Total arsenic, Tin | multiple defined in IN 160/2022 | active |
 | 2023-06-30 | [[regulations/china-gb-2762-2022-contaminants\|china-gb-2762-2022-contaminants]] | China | National Health Commission; State Administration for Market Regulation | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | active |
 | 2023-11-05 | [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk\|turkey-food-codex-contaminants-2023-lead-raw-milk]] | Turkey | Ministry of Agriculture and Forestry | Lead | 0.02 mg/kg wet weight | in-force |
 | 2024-03-22 | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food]] | European Union | European Commission | Nickel | monitoring-recommendation none | in-force |
@@ -110,10 +116,11 @@ The following regulation pages exist in the index but do not yet carry an `effec
 | [[regulations/fda-ctz-Pb-rootveg-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)]] | United States (federal) | FDA | Lead | finalized |
 | [[regulations/fda-juice-haccp-lead-50ppb\|FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice]] | United States (federal) | FDA | Lead | current-guidance-context |
 | [[regulations/jecfa-arsenic-bmdl\|JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)]] | International (Codex / JECFA / WHO) | JECFA (FAO/WHO Joint Expert Committee on Food Additives) | Inorganic arsenic | stub |
+| [[regulations/korea-mfds-food-code-heavy-metals\|korea-mfds-food-code-heavy-metals]] | KR | Korea Food and Drug Administration / Ministry of Food and Drug Safety | Lead, Cadmium, Total mercury, Methylmercury | source-snapshot |
 
 ## How to read this surface
 
-A regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See [[CLAUDE|wiki/HMTc separation policy]] for the rationale.
+A regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See wiki/HMTc separation policy for the rationale.
 
 For the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].
 

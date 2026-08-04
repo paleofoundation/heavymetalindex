@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Hunt et al. 2009 - lead bullet fragments in venison
 
+## Overview
+
 Hunt and colleagues radiographed rifle-killed white-tailed deer carcasses and commercially processed venison packages to test whether standard lead-based bullets leave fragments in edible meat. The study reports direct occurrence evidence for projectile-derived lead fragments in ground venison, plus ICP confirmation of lead in excised radiodense fragments. A separate swine feeding experiment tested bioavailability; those blood-lead results are exposure context rather than product concentration measurements.
 
 ## Key numbers
@@ -77,6 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [990df5562](https://github.com/paleofoundation/heavymetalindex/commit/990df5562) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

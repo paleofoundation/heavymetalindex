@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Asni and Najamuddin (2020) measured lead (Pb) in cultivated red seaweed (Kappaphycus alvarezii) and surrounding seawater at three cultivation stations along the Bantaeng Regency coastline in South Sulawesi, Indonesia, sampling across rainy and dry seasons. Pb concentrations in seaweed tissue at the three stations exceeded the Indonesian food-safety threshold (SNI 01-289-1998: 2.0 ppm) in both seasons, with the dry-season upper end (20.87 ppm) approximately 10× the food limit and 3× the rainy-season upper end (7.00 ppm). Pb in surrounding seawater exceeded the Indonesian fishery-water threshold (KEP MENLH No 51, 2004: 0.08 ppm) at all stations in both seasons. Pb was highest at Station C (Paju'kukang) and lowest at Stations A and B, and was higher in the near-shore substations than in the substations further offshore, which the authors attribute to the proximity of Station C to a fish landing place and to terrestrial runoff and ship-fuel combustion as Pb sources.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [4e4367978](https://github.com/paleofoundation/heavymetalindex/commit/4e4367978) | 2026-05-18 | minor | Narrative text revised |
-| [4f7cdaed7](https://github.com/paleofoundation/heavymetalindex/commit/4f7cdaed7) | 2026-05-18 | major | 1 section added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

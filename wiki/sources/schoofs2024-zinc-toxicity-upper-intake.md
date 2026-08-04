@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Schoofs et al. 2024 — Zinc toxicity: understanding the upper intake limits
 
+## Overview
+
 This review summarises current knowledge on zinc bioavailability and zinc toxicity, covering both acute zinc poisoning and the consequences of chronic high-level zinc exposure. Zinc is essential to over 300 enzymatic reactions, immune modulation, and gene expression regulation; both deficiency and excess carry significant health risks. The review compiles dietary reference values from major international bodies: WHO recommends 6.7-15 mg/day; EFSA defines the tolerable upper intake level (UL) at 25 mg/day; FDA allows 40 mg/day. Excess zinc intake produces anemia, neutropenia, and zinc-induced copper deficiency. The paper also addresses non-dietary exposure routes (inhalation, topical application) that can contribute to zinc intoxication.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

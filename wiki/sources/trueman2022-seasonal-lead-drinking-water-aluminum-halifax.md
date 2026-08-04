@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Trueman et al. 2022 — Seasonal lead release into drinking water and the effect of aluminum (Halifax, Canada)
 
+## Overview
+
 Monitoring data and a controlled coupon experiment from Halifax, Canada demonstrate a seasonal pattern in lead release from drinking water distribution infrastructure, mediated in part by aluminum from water treatment coagulation. The authors used generalized additive models on field time-series data to identify aluminum as a correlate of lead, then confirmed the mechanism experimentally: increasing soluble aluminum from 20 to 500 µg/L increased lead release from new lead coupons by 41%, attributable to precipitation of variscite (AlPO4·2H2O) that depletes orthophosphate corrosion inhibitor and increases particulate lead transport. The findings have direct implications for lead monitoring program design and for the interaction between coagulation chemistry and lead service line management.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [67cbff729](https://github.com/paleofoundation/heavymetalindex/commit/67cbff729) | 2026-05-13 | major | 4 sections added; narrative text revised |

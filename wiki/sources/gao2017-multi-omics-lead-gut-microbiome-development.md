@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Gao, Chi, Mahbub, Bian, Tu, Ru, Lu 2017 — Multi-omics reveals that lead exposure disturbs gut microbiome development, key metabolites and metabolic pathways
 
+## Overview
+
 This Chemical Research in Toxicology paper from the Lu laboratory at the University of Georgia and the University of North Carolina applies multi-omics (16S rRNA gut microbiome sequencing, untargeted metabolomics, shotgun metagenomics) to an experimental mouse model of dietary lead exposure to characterize the consequences of Pb exposure for gut microbial community structure, microbial metabolic output, and host metabolic pathways. The paper is one of the foundational mouse experimental studies in the Pb-and-microbiome literature and provides the mechanistic detail that complements the human-cohort observational studies (Yang 2023, Yan 2025) and the broader review literature (Coryell 2019, Assefa 2020, Zhu 2024).
 
 ## Key conclusions
@@ -48,6 +50,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 2 sources added; 3 sections added; narrative text revised |

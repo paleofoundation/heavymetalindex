@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Huhmann et al. 2022 — Arsenic exposure from multiple wells and rice in Bangladesh
 
+## Overview
+
 Using a mass-balance model applied to the Health Effects of Arsenic Longitudinal Study (HEALS) cohort of 11,197 participants in Araihazar, Bangladesh, Huhmann and colleagues show that participants on average obtain 60–75% of their drinking water from their primary household well and 25–40% from other wells, correcting a systematic underestimate in prior exposure assessments that relied solely on the primary well. Their new rice arsenic measurements (n=814 samples from 410 HEALS households) indicate that rice rather than drinking water is the largest As exposure source for participants whose primary wells contain 50 µg/L or less of As.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [011a2983c](https://github.com/paleofoundation/heavymetalindex/commit/011a2983c) | 2026-05-13 | major | 4 sections added; narrative text revised |

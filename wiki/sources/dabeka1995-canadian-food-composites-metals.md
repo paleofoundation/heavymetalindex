@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Dabeka 1995 - Canadian food composite metals
 
+## Overview
+
 Dabeka and McKenzie measured lead, cadmium, fluoride, nickel, and cobalt in Canadian total-diet food composites prepared from retail foods purchased in five cities during `1986-1988`. Lead and cadmium were analyzed in all city composite sets, while fluoride, nickel, and cobalt were city-limited. Fluoride is documented here because the paper reports it, but it is not lifted into the HMTc metals frontmatter.
 
 ## Key numbers
@@ -91,6 +93,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [df08614e0](https://github.com/paleofoundation/heavymetalindex/commit/df08614e0) | 2026-06-08 | major | 4 sections added; narrative text revised |

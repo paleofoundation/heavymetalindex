@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Yousaf, Hagen, Mitchell, Ghareeb, Fang, Correa, Zinn, Gayam 2021 — Low-nickel diet and gastroesophageal reflux disease: a pilot study
 
+## Overview
+
 This Indian Journal of Gastroenterology pilot trial from West Virginia University Departments of Dermatology, Internal Medicine, and Clinical and Translational Science tests whether a low-nickel diet reduces GERD symptoms in refractory patients and whether epicutaneous patch testing to nickel predicts diet responsiveness. 20 patients with refractory GERD (measured by GERD-HRQL) underwent patch testing and an 8-week low-nickel diet. The headline finding: 19 of 20 patients (95 percent) had GERD-HRQL symptom-severity reduction at 8 weeks; the response was not predicted by patch-test positivity. The implication challenges the standard clinical framework that nickel sensitivity (and the therapeutic relevance of low-Ni diet) tracks with positive patch testing.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 2 sources added; 4 sections added; narrative text revised |

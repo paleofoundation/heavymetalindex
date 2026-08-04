@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Munir et al. 2022 — Heavy metal contamination of natural foods: a review (Sustainability)
 
+## Overview
+
 This open-access narrative review in MDPI *Sustainability* surveys the literature on heavy metal contamination in plant-based foods (cereals, root and leafy vegetables, fruits), focusing on the five metals the authors treat as the most relevant for dietary toxicity — arsenic, cadmium, lead, mercury, and chromium — with additional sections on nickel and iron. It is structured in three blocks: a per-metal toxicology block (mechanisms of action, target organs, carcinogenicity), a per-crop occurrence block reporting concentration ranges cited from prior studies for rice, wheat, potato, tomato, lettuce, cabbage, carrot, avocado, orange, pawpaw, and pineapple, and a biomarkers block covering internal-dose, biologically-active-dose, and susceptibility biomarkers. The authors retrieved literature from Science Direct, PubMed, Google Scholar, and the Directory of Open Access Journals; no systematic-review protocol (PRISMA, defined inclusion/exclusion criteria, risk-of-bias assessment) is reported. The paper makes no primary measurements and presents no new occurrence data — every concentration value in the body is paraphrased from a cited secondary source.
 
 ## Key numbers
@@ -116,8 +118,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [65d79cc6c](https://github.com/paleofoundation/heavymetalindex/commit/65d79cc6c) | 2026-05-18 | minor | Narrative text revised |
-| [f62b56a40](https://github.com/paleofoundation/heavymetalindex/commit/f62b56a40) | 2026-05-18 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Colapinto et al. 2016 - Tea intake and maternal blood metals in MIREC
 
+## Overview
+
 Colapinto and colleagues analysed tea intake against maternal whole-blood metals, cord-blood metals, and first-trimester urinary arsenic species in the Canadian MIREC cohort. This is lane a4 biomonitoring and dietary-exposure evidence, not a coffee or tea occurrence study. The strongest reported signal was for blood lead, especially green and herbal tea categories, while most adjusted mercury, cadmium, arsenic, and manganese comparisons were not significant for any tea versus no tea.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [122957572](https://github.com/paleofoundation/heavymetalindex/commit/122957572) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

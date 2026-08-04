@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Hardisson et al. 2017 — Aluminium exposure through the diet
 
+## Overview
+
 This 2017 narrative review compiles aluminium (Al) concentration data from published studies across multiple food matrices and drink types, with the aim of estimating total dietary intake and comparing it to health-based guidance values. The authors find that vegetables (mean 16.8 mg/kg), fish and seafood (mean 11.9 mg/kg), and roots and tubers (mean 9.60 mg/kg) carry the highest Al concentrations among food groups, while processed cheese manufactured with sodium aluminium phosphate additives can reach extreme concentrations (470 mg/kg). Estimated dietary intakes calculated against Spanish population consumption data and EFSA's Tolerable Weekly Intake (TWI) of 1 mg/kg body weight per week indicate that vegetables account for 32.5% of weekly Al intake in both children and adults, while fruits account for 29.4% in children and 18.2% in adults.
 
 ## Key numbers
@@ -127,8 +129,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [91326cdb5](https://github.com/paleofoundation/heavymetalindex/commit/91326cdb5) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

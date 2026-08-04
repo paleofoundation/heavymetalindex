@@ -8,6 +8,8 @@ study_count: 44
 
 # Arsenic Primary Literature Catalog
 
+## Overview
+
 This page is a citable index of primary research articles related to arsenic in food, supply chain, exposure, biomarkers, and remediation. The articles are held privately under raw/studies/ (gitignored per the licensing model documented in `raw/README.md`); each entry below provides the document filename, an inferred title from the filename, and the DOI where extractable. Source pages with full provenance metadata, key-numbers extraction, and substantive synthesis are deferred to a future per-study deep-ingestion wave; this catalog establishes the corpus exists and makes each study citable from the metals and ingredients pages.
 
 For curated regulatory, advisory, and textbook sources see the source pages under wiki/sources/. The articles cataloged here are primary research literature contributing to the empirical base underlying the regulatory documents.
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [35055e47a](https://github.com/paleofoundation/heavymetalindex/commit/35055e47a) | 2026-05-04 | minor | Narrative text revised |
 | [f691dc17a](https://github.com/paleofoundation/heavymetalindex/commit/f691dc17a) | 2026-04-25 | major | 1 section added; narrative text revised |

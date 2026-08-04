@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Lin et al. 2023 - Lead and mercury in breast milk from a Taiwanese human milk bank cohort
 
+## Overview
+
 Lin and colleagues measured Pb, total Hg, and MeHg in 228 breast milk samples longitudinally donated by 39 lactating women recruited through the Taiwan Southern Human Milk Bank (TSHMB) at National Cheng Kung University Hospital, and estimated infant health risk from breastfeeding using Monte Carlo simulation. Although samples were collected through a milk bank, the donors are mothers in the general lactating population and the findings characterise breast-milk Pb/Hg exposure for breastfed infants of those mothers and for vulnerable recipients of bank-donated milk. The authors describe this as the first cohort study of heavy metals in a human milk bank.
 
 ## Key numbers
@@ -72,8 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b69d4601f](https://github.com/paleofoundation/heavymetalindex/commit/b69d4601f) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

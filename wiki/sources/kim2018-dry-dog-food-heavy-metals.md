@@ -26,6 +26,8 @@ updated: 2026-05-28
 
 # Kim et al. 2018 — Arsenic, cadmium, lead, and mercury in dry dog foods grouped by primary animal ingredient
 
+## Overview
+
 This study measured total arsenic, cadmium, lead, and total mercury by ICP-MS in 51 over-the-counter dry dog foods (17 fish-based, 17 poultry-based, 17 red-meat-based), reported concentrations as mg/Mcal metabolizable energy, and compared canine intakes to published US human total-diet-study intakes. Fish-based diets had significantly higher arsenic, cadmium, and mercury; red-meat-based diets had the highest lead. The source is routeable to dry-kibble pet-food evidence; it is not routeable to human ingredient or product pages despite the appearance of "fish," "poultry," and "red meat" in formulation labels.
 
 ## Key numbers
@@ -114,9 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5c63075d6](https://github.com/paleofoundation/heavymetalindex/commit/5c63075d6) | 2026-05-28 | minor | Narrative text revised |
-| [cc2432f6e](https://github.com/paleofoundation/heavymetalindex/commit/cc2432f6e) | 2026-05-28 | major | 1 section added and 1 removed; narrative text revised |
-| [fc6cafc34](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc34) | 2026-05-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

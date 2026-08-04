@@ -6,6 +6,8 @@ audience: [regulator, educator, consumer]
 
 # Heavy Metal Index — Overview
 
+## Overview
+
 Heavy Metal Index is a curated reference on heavy metals in food, the supply chain that delivers food, the remediation interventions available to growers and processors, and the regulatory findings that govern the trade. The index is operated by the Paleo Foundation and lives at heavymetalindex.com.
 
 The index reports what the peer-reviewed and regulatory literature supports. It does not prescribe thresholds, it does not rank brands, and it does not substitute for reading the primary sources. Every quantitative claim on this wiki carries a citation that links back to a source page, which in turn links to the raw document.

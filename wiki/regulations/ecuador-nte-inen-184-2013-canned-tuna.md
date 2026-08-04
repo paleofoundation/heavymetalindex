@@ -19,6 +19,8 @@ updated: 2026-05-18
 
 # Ecuador NTE INEN 184:2013 - canned tuna and bonito
 
+## Overview
+
 NTE INEN 184:2013 is the Ecuadorian technical standard for canned tuna and bonito. Ecuador's Resolucion No. 302 officialized the second revision of NTE INEN 184 as mandatory for canned tuna and bonito requirements. The FAOLEX/UNEP record lists the date of text as 14 December 2012 and the official publication as Registro Oficial No. 881 on 29 January 2013.
 
 ## Scope
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [50058fb99](https://github.com/paleofoundation/heavymetalindex/commit/50058fb99) | 2026-05-18 | major | 1 source added; contamination-profile values revised; 7 sections added |

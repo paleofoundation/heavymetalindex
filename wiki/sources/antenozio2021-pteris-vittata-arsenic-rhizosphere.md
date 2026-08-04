@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Antenozio et al. 2021 — Pteris vittata phytoextraction on As-rich soil and As-resistant rhizosphere bacteria
 
+## Overview
+
 This study evaluated arsenic phytoextraction by the fern *Pteris vittata* grown on a naturally arsenic-rich volcanic soil from the Viterbo area of central Italy, and characterized the arsenic-resistant bacteria of its rhizosphere. It is upstream mechanism evidence on the soil-to-plant transfer of arsenic and its microbial modulation; it reports no occurrence of arsenic in food, ingredients, or consumer products and is context-only for Heavy Metal Index purposes.
 
 ## Key numbers
@@ -73,6 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c9b85bf01](https://github.com/paleofoundation/heavymetalindex/commit/c9b85bf01) | 2026-06-18 | major | 1 source added; 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

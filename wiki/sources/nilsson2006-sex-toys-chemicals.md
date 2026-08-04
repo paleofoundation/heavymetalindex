@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Nilsson et al. 2006 - Danish EPA sex-toy chemical survey
 
+## Overview
+
 Nilsson et al. screened 16 sex-toy and fetish-clothing products for elements and organic chemicals for the Danish Environmental Protection Agency. The HMI-relevant findings are total-content ICP-MS results for metals in finished product material, a confirmed cadmium value in one hard-plastic dildo, and trimethyltin chloride in one soft-vinyl dildo with a follow-up artificial-sweat migration result. Tin and trimethyltin are kept separate: the ICP-MS table reports total elemental tin, while the GC-MS work identifies one volatile organotin species.
 
 ## Key numbers
@@ -95,6 +97,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [96007b0d6](https://github.com/paleofoundation/heavymetalindex/commit/96007b0d6) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

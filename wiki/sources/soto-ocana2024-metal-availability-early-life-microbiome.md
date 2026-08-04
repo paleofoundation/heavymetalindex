@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Soto-Ocaña et al. 2024 — Metal availability shapes early-life microbial ecology and community succession
 
+## Overview
+
 This mBio research article from the Children's Hospital of Philadelphia / Penn / Vanderbilt collaboration shows that host-mediated nutritional immunity (calprotectin-driven Zn and Mn sequestration) shapes which bacterial taxa successfully colonize the infant gut early in life, and that formula-fed infants harbor markedly higher gastrointestinal metal levels than breastfed infants with measurable consequences for microbial community structure. The authors document that calprotectin (the dominant metal-chelating host protein) is highly abundant in infants; that early-colonizer taxa (Enterococcus, Enterobacteriaceae, Bacteroides) are highly resistant to experimental metal starvation in culture while Lactobacillus is highly susceptible; and that formula-fed infants with high gastrointestinal metal levels harbor distinct microbial communities from breastfed infants. The findings establish that host nutritional immunity and dietary metal availability are upstream determinants of infant gut microbiome assembly and succession.
 
 ## Key findings
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 2 sources added; 4 sections added; narrative text revised |

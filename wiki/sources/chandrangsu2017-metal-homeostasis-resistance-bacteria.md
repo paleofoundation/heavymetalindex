@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Chandrangsu, Rensing, Helmann 2017 — Metal homeostasis and resistance in bacteria
 
+## Overview
+
 This Nature Reviews Microbiology article by Chandrangsu (Cornell), Rensing (Chinese Academy of Sciences and Fujian Agriculture and Forestry University), and Helmann (Cornell) is the foundational reference on bacterial metal homeostasis. The review documents the protein-based and RNA-based metal sensors that activate transcriptional responses to metal limitation (importer induction, metal-mobilization pathway activation) and to metal excess (efflux pump activation, metallothionein-like storage, sequestration). The authors describe the stepwise transcriptional response to metal stress, the post-transcriptional regulatory systems that reinforce it, and the host-driven nutritional immunity strategies (Zn and Mn sequestration by calprotectin; Fe sequestration by transferrin and lipocalin) that exploit bacterial metal-limitation pathways to restrict bacterial growth during infection.
 
 ## Key conclusions
@@ -51,6 +53,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 2 sources added; 3 sections added; narrative text revised |

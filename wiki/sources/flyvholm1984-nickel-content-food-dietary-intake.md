@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Flyvholm, Nielsen, Andersen 1984 — Nickel content of food and estimation of dietary intake
 
+## Overview
+
 This Zeitschrift für Lebensmittel-Untersuchung und -Forschung review from the Danish National Food Institute and the Danish Toxicology Centre is the foundational primary-data source for nickel concentrations in foods and dietary nickel intake estimation. The authors compiled 2,221 food samples from the post-1969 literature (when AAS flame/flameless or PIXE methods began producing reliable Ni values) plus their own National Food Institute analyses, then modeled the Danish average diet (2,099 g/person/day exclusive of drinking water, 3,250 kcal). The headline number: 150 µg Ni/person/day from the Danish average diet, with drinking water adding another 16 µg/day. By replacing average-diet items with high-Ni foods, total intake can climb to 900 µg/day or more, well within the 600 to 5,600 µg single-dose range that provokes hand eczema flare in nickel-sensitive patients per oral challenge. The paper introduces the load factor F (ratio between percent of total Ni intake and percent of total consumption) as a way to identify which foods drive intake disproportionately to their dietary weight.
 
 ## Key numbers
@@ -127,6 +129,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [481a26b97](https://github.com/paleofoundation/heavymetalindex/commit/481a26b97) | 2026-05-11 | major | 8 sections added; narrative text revised |

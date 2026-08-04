@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # CPSC Staff (2012) — CPSIA §101(b) Functional Purpose Exception: Public-Health-Protection Criterion
 
+## Overview
+
 A 26-page U.S. Consumer Product Safety Commission staff report dated November 2012, bearing the standard CPSC staff caveat that "these comments are those of the CPSC staff and have not been reviewed or approved by, and may not necessarily reflect the views of, the Commission." The report addresses the third of three statutory criteria the Commission must find to grant a functional-purpose exception from the CPSIA Section 101(a) 100 ppm total-lead content limit for children's products: that the exception "will have no measurable adverse effect on public health or safety," where the Public Law 112-28 amendment to §101(b) defines "no measurable adverse effect" as "no measurable increase in blood lead levels of a child." Staff derive a quantitative interpretation: a measurable BLL increase is approximately 0.8 µg/dL, and the daily exposure to lead from a children's product that would produce that BLL increase is approximately 2.2 µg/day. The report contains no primary lead-occurrence measurements; it is a methodology and threshold-derivation document built from published BLL biokinetic modelling (EPA IEUBK), the Lanphear et al. (2005) international pooled BLL–IQ dose-response analysis, the Parsons et al. (2001) interlaboratory BLL-reference-material analysis, and the OEHHA (2007) child-specific benchmark BLL-change framework, and includes a January–March 2012 external scientific peer review by five reviewers with staff responses.
 
 ## Key numbers
@@ -92,8 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [a84742792](https://github.com/paleofoundation/heavymetalindex/commit/a84742792) | 2026-06-01 | minor | Narrative text revised |
-| [c80655300](https://github.com/paleofoundation/heavymetalindex/commit/c80655300) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

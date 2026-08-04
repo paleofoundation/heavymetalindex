@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Jaiswal et al. 2022 — Heavy metal contamination across the full Yamuna river stretch with fuzzy-logic health risk assessment
 
+## Overview
+
 This study reports concentrations of eight metals (As, Cd, Cr, Cu, Ni, Pb, Fe, Zn) measured at 13 sites distributed across the entire 1,376 km Yamuna river in Uttar Pradesh, India, over seven years (2011–2018) in both monsoon and non-monsoon seasons. Atomic absorption spectrometry (Varian AA240 Zeeman) was used for analysis. Except for iron, mean concentrations of all metals were within WHO and BIS drinking water limits in both seasons; children's hazard indices exceeded 1 at most sites in non-monsoon season, indicating non-carcinogenic risk from cumulative multi-metal exposure. The paper introduces a fuzzy-logic hazard index (FHI) as a complement to the conventional hazard index, demonstrating that uncertain and imprecise data can be incorporated systematically into health risk frameworks.
 
 ## Key numbers
@@ -89,6 +91,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [531487a33](https://github.com/paleofoundation/heavymetalindex/commit/531487a33) | 2026-05-13 | major | 4 sections added; narrative text revised |

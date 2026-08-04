@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Hajmoradi & Moghadami 2024 — Pb and Zn in Verbascum speciosum near the Zehabad-e-Qazvin mine, Iran
 
+## Overview
+
 This study measured lead and zinc in soil, roots, and aerial tissue of wild-harvested *Verbascum speciosum* Schrad. (Common Mullein, locally "Gole Mahur"), a medicinal plant collected by local people for traditional respiratory and gastrointestinal remedies, growing on and around the Zehabad-e-Qazvin Pb/Zn mine tailings area in Qazvin province, Iran. The authors paired the metal-uptake measurements with a cytogenetic assay on pollen mother cells (PMCs) to test whether the metal load translated into meiotic abnormalities. The principal source findings are that (i) soil, root, and aerial-part Pb and Zn concentrations all exceeded the source-cited regulatory comparators at every mining-area locality, (ii) the transfer factor exceeded 1 for both metals at every locality, indicating preferential translocation into aerial tissue, and (iii) the frequency of meiotic abnormalities (sticky chromosomes, bridges, laggards, cytomixis, micronuclei, tri-/penta-polar tetrads) tracked the metal gradient and the meiotic index fell from 98.5% in the control to 62.5% at the mine-adjacent locality.
 
 ## Key numbers
@@ -104,6 +106,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 | [cdf9cd08c](https://github.com/paleofoundation/heavymetalindex/commit/cdf9cd08c) | 2026-05-30 | major | 6 sections added; narrative text revised |

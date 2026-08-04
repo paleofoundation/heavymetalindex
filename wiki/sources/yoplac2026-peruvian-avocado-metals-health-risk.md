@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Yoplac-Navarro et al. 2026 — Metals in Peruvian avocados: ecological and health risk across 8 regions
 
+## Overview
+
 This study quantified As, Cd, Cr, Hg, Ni, and Pb in soils and avocado pulp across eight major Peruvian producing regions using microwave plasma atomic emission spectroscopy (MP-AES) with inductively coupled plasma sample introduction, applying probabilistic risk assessment (Monte Carlo simulation with Latin Hypercube sampling, 10 runs of 100,000 iterations) from a One Health perspective. The study is directly relevant to an active food-safety issue: in 2025 the EU RASFF system generated nine alerts for Peruvian avocados exceeding the EU cadmium maximum limit of 0.05 mg/kg. Results show substantial regional variation in soil metal concentrations, with Lima and La Libertad — the two highest-volume export regions — exhibiting the highest soil burdens. Bioaccumulation factors below 1 confirmed limited soil-to-fruit translocation, but fruit concentrations of Pb, Hg, Cd, As, and Ni varied widely enough to produce values approaching or exceeding regulatory benchmarks in several regions.
 
 ## Key numbers
@@ -147,9 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ce5c31169](https://github.com/paleofoundation/heavymetalindex/commit/ce5c31169) | 2026-05-25 | minor | Narrative text revised |
-| [6055edda4](https://github.com/paleofoundation/heavymetalindex/commit/6055edda4) | 2026-05-25 | major | 2 sections added and 1 removed; narrative text revised |
-| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

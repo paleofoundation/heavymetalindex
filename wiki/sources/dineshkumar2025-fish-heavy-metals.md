@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Dinesh Kumar et al. 2025 - Heavy metals in commercially important fish
 
+## Overview
+
 Dinesh Kumar and colleagues compared heavy-metal concentrations across four organs (muscle, liver, intestine, gills) in three commercially important fish species landed at Ennore fishing port, Chennai (Bay of Bengal, India): Indian Oil Sardine (*Sardinella longiceps*, planktivorous), Indian Mackerel (*Rastrelliger kanagurta*, planktivorous), and Red Snapper (*Lutjanus campechanus*, carnivorous predator). The study is routeable for marine-fish occurrence context across both non-predatory and predatory product categories. The paper emphasizes organ-specific variation, so edible-muscle values must be separated from non-edible organ values during downstream extraction.
 
 ## Key numbers
@@ -81,8 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [0133bac87](https://github.com/paleofoundation/heavymetalindex/commit/0133bac87) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

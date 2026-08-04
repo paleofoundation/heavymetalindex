@@ -31,31 +31,9 @@ created_routed_sources: 3
 
 # Wine Vinegar
 
-<!-- hmi-completeness-scorecard -->
+## Overview
 
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 1/10 HMTc analytes, total n=3 | only 1/10 analytes have evidence |
-| D2 Regional coverage | OK | 6 jurisdictions, top ES 40% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb THIN | Pb: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 4 claims checked, 4 supported; 3 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb |
-| D11 Standards-readiness | NOT-READY | priority: Pb; pairing 0 paired, 1 single, 0 unpaired | Pb: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.50, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.75, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
-
-Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
+Source-grounded narrative on this page is populated incrementally from the routed source pages; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
@@ -76,17 +54,17 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Troncoso Gonzalez AM and Guzman Chozas M (1988). *Metallic contaminants in Andalusian vinegars*. Die Nahrung. Peer-reviewed, B-tier. [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars|Source record]]
-2. Acosta A, Diaz C, Hardisson A, and Gonzalez D (1993). *Levels of Cd, Pb, and Ni in Different Types of Vinegars*. Bulletin of Environmental Contamination and Toxicology. Peer-reviewed, A-tier. [[sources/acosta1993-cd-pb-ni-vinegar-types|Source record]]
-3. Ndung'u K, Hibdon S, and Flegal AR (2004). *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*. Talanta. [https://doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017). Peer-reviewed, A-tier. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Source record]]
+1. [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars|Metallic contaminants in Andalusian vinegars]]<span class="hmi-ref-meta">Troncoso Gonzalez AM and Guzman Chozas M · Die Nahrung · 1988</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -146,9 +124,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9e37a4461](https://github.com/paleofoundation/heavymetalindex/commit/9e37a4461) | 2026-05-17 | major | 3 sources added; narrative text revised |
-| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

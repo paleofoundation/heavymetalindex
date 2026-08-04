@@ -29,6 +29,8 @@ updated: 2026-06-18
 
 # Nkrumah et al. 2022 — Farming for battery metals
 
+## Overview
+
 Nkrumah, Echevarria, Erskine and van der Ent set out the case for agromining (also called phytomining) as a route to battery-grade metals. Hyperaccumulator plants, grown on naturally metal-rich ultramafic soils or on mine wastes and tailings, take metals up into their biomass; the biomass is harvested, dried and incinerated to a metal-rich "bio-ore", and the bio-ore is processed into high-purity metal salts suited to lithium-ion battery manufacture. The article is a perspective by the principal agromining research group rather than a primary measurement study, and it reports no measurement of metals in food, ingredients, or consumer products. For Heavy Metal Index purposes it is context-only: its value is mechanistic. Nickel hyperaccumulation on ultramafic and serpentine soils is the extreme end of the same soil-to-plant transfer continuum that governs food-side metal uptake, and the same plant physiology that lets a "metal crop" concentrate nickel is what drives cadmium, arsenic and nickel into edible crops grown on contaminated ground.
 
 ## Key numbers
@@ -104,6 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [6539d4f0b](https://github.com/paleofoundation/heavymetalindex/commit/6539d4f0b) | 2026-06-20 | major | 1 source added; 10 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

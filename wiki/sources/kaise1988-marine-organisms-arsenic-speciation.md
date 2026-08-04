@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kaise 1988 - Marine-organism arsenic speciation
 
+## Overview
+
 Kaise, Hanaoka, Tagawa, Hirayama, and Fukui measured total arsenic and hydride-generation species in 60 marine-organism specimens including edible seaweeds, bivalves, gastropods, crustaceans, and fish. The paper separates water-soluble and lipid-soluble fractions and reports inorganic arsenic, methylated arsenic, dimethylated arsenic, trimethylated arsenic, and total arsenic as arsenic. It is useful for speciation context because total arsenic was often high while inorganic arsenic was not detected in most rows.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [ae1444148](https://github.com/paleofoundation/heavymetalindex/commit/ae1444148) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-17
 ---
 
+## Overview
+
 Sushila et al. (2024) conducted a PRISMA-guided systematic review of 22 primary studies reporting metal concentrations in human breast milk across multiple countries, supplementing the literature survey with estimated daily intake (EDI), hazard quotient (HQ), and cancer risk (CR) calculations. This source is quarantined for country-specific Cd outlier use: the Cd section reports Iraq as having the highest Cd concentration (Ci=57.33 mg/L), but assigns the matching EDI/HQ/CR values (EDI=4.7 mg/kg/day, HQ=4.7, CR=3.62) to Iran, and then states that Lebanon, Cyprus, and Iraq exceeded the recommended allowance. Other clearly labeled values can be used cautiously as source-reported review values, but the Cd outlier should not be used for downstream synthesis until the figures or underlying study data are manually checked.
 
 ## Key numbers
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0af103348](https://github.com/paleofoundation/heavymetalindex/commit/0af103348) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |

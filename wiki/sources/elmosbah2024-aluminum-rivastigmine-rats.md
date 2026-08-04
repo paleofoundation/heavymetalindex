@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # ElMosbah et al. 2024 - Aluminum chloride rat neurotoxicity and rivastigmine chitosan nanoparticles
 
+## Overview
+
 ElMosbah and colleagues used oral aluminum chloride to induce Alzheimer's-like pathology in rats, then compared oral versus intranasal rivastigmine-loaded chitosan nanoparticles. This is in-scope lane a4 toxicology evidence for aluminum neurotoxicity and treatment response. It is not consumer-product occurrence evidence and does not report aluminum concentrations in food, water, or tissue.
 
 ## Key numbers
@@ -87,6 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [d0625510b](https://github.com/paleofoundation/heavymetalindex/commit/d0625510b) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

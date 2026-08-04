@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Gu et al. 2019 — Cd, Cu, Hg, Pb, and Zn in maize and peanut soil-crop systems in Guangxi
 
+## Overview
+
 Gu and colleagues assessed Cd, Cu, Hg, Pb, and Zn in Guangxi soil-crop systems for maize and peanut. The paper includes measured grain/soil relationships, bioaccumulation models, and model-estimated grain concentrations used for adult maize-ingestion risk assessment. Table 5 values are model-estimated grain concentrations rather than raw measured sample distributions; measured grain values in Figure 5 are not numerically extractable from the PDF text layer.
 
 ## Key numbers
@@ -89,8 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [b1df58804](https://github.com/paleofoundation/heavymetalindex/commit/b1df58804) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [375197a66](https://github.com/paleofoundation/heavymetalindex/commit/375197a66) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

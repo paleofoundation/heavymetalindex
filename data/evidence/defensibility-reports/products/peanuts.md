@@ -2,7 +2,7 @@
 source_page: wiki/products/peanuts.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ba233dec58f069fd1b221914917f54726eea2a5414dd8eb1606aa99ccbc3968d
+source_page_sha256: a6243dc971e9c20c071f70eb44d00a1889d5cc691b722d70cf75af8d766c948f
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,13 +36,19 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 
 - `edit_id=taxonomy-v2.2-cat4split-peanuts-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T01:00:00Z · span=v2.2-cat4-split
 
 ## Claims by section
+
+### Overview
+
+#### Claim `119 mg/kg`
+- Context: `il), giving direct soil contact during seed development. Chen 2022 peanut Al 64-119 mg/kg, 1-2 orders of magnitude above`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -52,17 +58,11 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
 
-### (opening)
-
-#### Claim `119 mg/kg`
-- Context: `il), giving direct soil contact during seed development. Chen 2022 peanut Al 64-119 mg/kg, 1-2 orders of magnitude above`
-- Cited targets: **none in section** — claim has no traceable provenance
-
 ## Uncited claims
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `119 mg/kg` in section _(opening)_ — context: `il), giving direct soil contact during seed development. Chen 2022 peanut Al 64-119 mg/kg, 1-2 orders of magnitude above`
+- `119 mg/kg` in section _Overview_ — context: `il), giving direct soil contact during seed development. Chen 2022 peanut Al 64-119 mg/kg, 1-2 orders of magnitude above`
 
 ## Defensibility chain — distinct cited targets
 

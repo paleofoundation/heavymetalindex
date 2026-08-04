@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Limmer et al. 2023 — SR-µXRF mapping of metals in rice grain
 
+## Overview
+
 This study applies synchrotron micro X-ray fluorescence (SR-µXRF) imaging to map the spatial distribution of arsenic (As), zinc (Zn), copper (Cu), and manganese (Mn) within cross-sections of rice grain (n=50 grains from US field trials). The primary aim is to characterize the within-grain distribution of arsenic — particularly inorganic arsenic — across anatomical compartments (bran, endosperm, embryo, aleurone layer) to inform milling and processing interventions that could reduce arsenic exposure from rice consumption.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

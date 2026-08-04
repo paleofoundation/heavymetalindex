@@ -36,6 +36,8 @@ created_by: claude_opus_47_session
 
 # Dragičević et al. 2025 — Essential minerals and bioavailability in popcorn kernels and flakes (Serbia)
 
+## Overview
+
 This Chilean Journal of Agricultural Research paper measured Ca, Mg, Fe, Cu, Mn, Zn and phytic phosphorus in kernels and microwave-popped flakes of 12 popcorn (Zea mays subsp. everta) hybrids grown 2021-2022 at the Maize Research Institute Zemun Polje, Serbia. The study is a bio-fortification and nutritional-bioavailability investigation; HMI-scope heavy metals (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) are NOT measured in the present work — Cd, As, Pb, and Ni appear only in the literature-review framing, citing Abebe et al. 2017 and Dada & Kutu 2022 on lower accumulation of potentially toxic elements in popcorn maize. Microwave popping decreased phytic acid concentration up to 11.8% in flakes of six hybrids (541/1k, ZP 542/1k, ZP 657/1k, ZP 644/1k, ZP 557/1k, ZP 686/1k), improving potential bioavailability of essential elements.
 
 ## Key numbers
@@ -81,7 +83,7 @@ This page was merge-enhanced on 2026-05-29 against the original PDF (raw/Manual 
 - **Authors string** updated to include the full author list (was previously truncated in `authors:` array order; now matches PDF p. 277 byline exactly).
 - **Publication string** updated to "Chilean Journal of Agricultural Research 85(2): 277-286" (was 277-285; the article runs through p. 286 per the PDF page numbering).
 - Brand-firewall scan: the paper does not name any consumer brand or producer. Genotype identifiers (ZP 611k, ZP 542/1k, etc.) are breeding-program designations from Maize Research Institute Zemun Polje, not consumer-product brand names; these are research-material identifiers and are retained. Methods-section vendor names (Samsung, Perten/PerkinElmer, Biochrom, Thermo Scientific, Cretors, EU Instruments) are scientific-reproducibility content retained per the Part 12 vendor-name exception.
-- Direction-of-edit check (CLAUDE.md Part 2): all changes move toward the literature (correcting a transposed Mg digit, completing the measured-analyte list, populating routing fields per the matrix map, removing a legacy heading). No changes move toward HMTc convenience; the page remains explicit that no HMTc analyte sub-block is advanced.
+- Direction-of-edit check: all changes move toward the literature (correcting a transposed Mg digit, completing the measured-analyte list, populating routing fields per the matrix map, removing a legacy heading). No changes move toward HMTc convenience; the page remains explicit that no HMTc analyte sub-block is advanced.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -90,8 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [a7cb3114d](https://github.com/paleofoundation/heavymetalindex/commit/a7cb3114d) | 2026-05-29 | major | 1 section added and 2 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

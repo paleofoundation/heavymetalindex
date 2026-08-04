@@ -27,26 +27,26 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. (2024). *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*. Environmental Health. [https://doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w). Peer-reviewed, A-tier. [[sources/research2024-research-open-access-y|Source record]]
-2. Tugba Demir and Sema Agaoglu (2023). *Estimated daily intake and health risk assessment of toxic elements in infant formulas*. British Journal of Nutrition. [https://doi.org/10.1017/S0007114523000971](https://doi.org/10.1017/S0007114523000971). Peer-reviewed, A-tier. [[sources/demir2023-infant-formulas-turkey-toxic-elements|Source record]]
-3. V. O. Odhiambo, R. Wanjau, J. O. Odundo, and M. P. Nawiri (2015). *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*. African Journal of Food Science. [https://doi.org/10.5897/AJFS2015.1315](https://doi.org/10.5897/AJFS2015.1315). Peer-reviewed, A-tier. [[sources/odhiambo2015-infant-formula-nairobi-trace-elements|Source record]]
-4. Songul Unuvar, Ebru Kuyumcu Savan, and Nagihan M. Karaaslan (2017). *Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry*. Atomic Spectroscopy. [https://doi.org/10.46770/as.2017.04.005](https://doi.org/10.46770/as.2017.04.005). Peer-reviewed, A-tier. [[sources/unuvar2017-commercial-infant-formula-elements-turkey|Source record]]
-5. Ainara Gredilla, Silvia Fdez-Ortiz de Vallejuelo, Gorka Arana, Alberto de Diego, Marcos L. S. Oliveira, Katia da Boit, et al. (2022). *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*. Food Analytical Methods. [https://doi.org/10.1007/s12161-022-02267-6](https://doi.org/10.1007/s12161-022-02267-6). Peer-reviewed, A-tier. [[sources/gredilla2022-powdered-milk-hazardous-elements|Source record]]
-6. Dijana Durovic, Branka Milisavljevic, Mirjana Nedovic-Vukovic, Branislav Potkonjak, Snezana Spasic, and Miroslav M. Vrvic (2017). *Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES*. Acta Chimica Slovenica. [https://doi.org/10.17344/acsi.2016.2582](https://doi.org/10.17344/acsi.2016.2582). Peer-reviewed, A-tier. [[sources/durovic2017-human-milk-infant-formula-microelements|Source record]]
-7. Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega (2019). *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636). Peer-reviewed, A-tier. [[sources/frisbie2019-manganese-infant-formula-beverages|Source record]]
+1. [[sources/research2024-research-open-access-y|High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants]]<span class="hmi-ref-meta">Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. · Environmental Health · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/demir2023-infant-formulas-turkey-toxic-elements|Estimated daily intake and health risk assessment of toxic elements in infant formulas]]<span class="hmi-ref-meta">Tugba Demir and Sema Agaoglu · British Journal of Nutrition · 2023 · [doi.org/10.1017/S0007114523000971](https://doi.org/10.1017/S0007114523000971)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/odhiambo2015-infant-formula-nairobi-trace-elements|Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya]]<span class="hmi-ref-meta">V. O. Odhiambo, R. Wanjau, J. O. Odundo, and M. P. Nawiri · African Journal of Food Science · 2015 · [doi.org/10.5897/AJFS2015.1315](https://doi.org/10.5897/AJFS2015.1315)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/unuvar2017-commercial-infant-formula-elements-turkey|Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry]]<span class="hmi-ref-meta">Songul Unuvar, Ebru Kuyumcu Savan, and Nagihan M. Karaaslan · Atomic Spectroscopy · 2017 · [doi.org/10.46770/as.2017.04.005](https://doi.org/10.46770/as.2017.04.005)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/gredilla2022-powdered-milk-hazardous-elements|A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements]]<span class="hmi-ref-meta">Ainara Gredilla, Silvia Fdez-Ortiz de Vallejuelo, Gorka Arana, Alberto de Diego, Marcos L. S. Oliveira, Katia da Boit, et al. · Food Analytical Methods · 2022 · [doi.org/10.1007/s12161-022-02267-6](https://doi.org/10.1007/s12161-022-02267-6)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/durovic2017-human-milk-infant-formula-microelements|Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES]]<span class="hmi-ref-meta">Dijana Durovic, Branka Milisavljevic, Mirjana Nedovic-Vukovic, Branislav Potkonjak, Snezana Spasic, and Miroslav M. Vrvic · Acta Chimica Slovenica · 2017 · [doi.org/10.17344/acsi.2016.2582](https://doi.org/10.17344/acsi.2016.2582)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/frisbie2019-manganese-infant-formula-beverages|Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations]]<span class="hmi-ref-meta">Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega · PLOS ONE · 2019 · [doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -120,7 +120,7 @@ The current evidence supports direct finished-product testing first, with powder
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
@@ -133,9 +133,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [ce3e07c7b](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c7b) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [0e753f349](https://github.com/paleofoundation/heavymetalindex/commit/0e753f349) | 2026-05-25 | major | 7 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

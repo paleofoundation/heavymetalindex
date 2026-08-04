@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Hoy et al. 2023 - Arsenic speciation in freshwater fish
 
+## Overview
+
 This peer-reviewed review summarizes arsenic speciation in freshwater fish and the analytical challenges created by lower arsenic concentrations, complex fish matrices, and a large unidentified arsenic fraction. The review distinguishes total arsenic (tAs) from inorganic arsenic (iAs), contrasts freshwater-fish values with marine-fish values, and describes the extraction, chromatographic, and mass-spectrometric methods used to separate and identify arsenic species.
 
 ## Key numbers
@@ -87,8 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fdb011cf6](https://github.com/paleofoundation/heavymetalindex/commit/fdb011cf6) | 2026-05-18 | major | 3 sections added and 2 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

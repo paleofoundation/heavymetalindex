@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zafarzadeh & Shahryari 2025 — Heavy metals in Sari rice, north Iran
 
+## Overview
+
 This study assessed Pb, Cd, Cu, and Zn contamination in commercially sold rice from Sari (Mazandaran Province, northern Iran), a major national rice-production hub. All 144 samples exceeded the Iranian/international Pb safety limit of 0.2 mg/kg; the Pb non-carcinogenic hazard quotient (HQ > 1) indicated significant risk for both children and adults. Spatial analysis identified a coastal Pb hotspot in northern Sari near the Caspian Sea (up to 9.88 mg/kg) versus much lower concentrations in southern areas (0.38 mg/kg), attributable to tourism-related activities and wastewater irrigation.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [509f5e7b5](https://github.com/paleofoundation/heavymetalindex/commit/509f5e7b5) | 2026-05-13 | major | 4 sections added; narrative text revised |

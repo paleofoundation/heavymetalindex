@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Marriott et al. 2023 — PHEs in fish and aquaculture, Lake Victoria, Kenya
 
+## Overview
+
 This study examined potentially harmful elements (PHEs) in wild and farmed Nile tilapia (Oreochromis niloticus) from Winam Gulf, Lake Victoria, Kenya, alongside water and sediment measurements, as part of a broader biogeochemical and food-security assessment of the lake system. Cadmium, chromium, and lead concentrations in fish tissue exceeded provisional maximum tolerable intake (PMTI) thresholds established by regulatory agencies, raising concerns about consumption safety for local populations dependent on the lake's fishery.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e6a6159d1](https://github.com/paleofoundation/heavymetalindex/commit/e6a6159d1) | 2026-05-13 | major | 4 sections added; narrative text revised |

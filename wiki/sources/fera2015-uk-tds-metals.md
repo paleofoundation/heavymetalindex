@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # FERA / FSA 2015 - UK Total Diet Study of metals and other elements in food
 
+## Overview
+
 This UK Food Standards Agency total diet study measured metals and other elements in 3312 retail food samples collected from 24 UK locations. Foods were prepared as for consumption, composited into 138 food categories and 28 food groups, and analyzed primarily by ICP-MS. The report is valuable because it gives as-consumed UK baseline concentrations for broad food groups and category composites, and because it reports inorganic arsenic separately from total arsenic. All values below are mg/kg as received or prepared unless otherwise noted; the source uses a leading `~` for values above LoD but below LoQ.
 
 ## Key numbers
@@ -167,9 +169,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [da3479331](https://github.com/paleofoundation/heavymetalindex/commit/da3479331) | 2026-05-18 | minor | Narrative text revised |
-| [b6e901d4e](https://github.com/paleofoundation/heavymetalindex/commit/b6e901d4e) | 2026-05-18 | major | 7 sections added and 4 removed; narrative text revised |
-| [c3a27e230](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e230) | 2026-05-13 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

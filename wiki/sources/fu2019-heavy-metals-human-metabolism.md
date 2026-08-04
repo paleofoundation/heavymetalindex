@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Fu and Xi 2019 — Heavy metals and human metabolism
 
+## Overview
+
 Fu and Xi review the metabolic mechanisms by which five heavy metals — lead, arsenic, cadmium, nickel, and mercury — disrupt human physiology. The paper is mechanism-oriented, anchored in oxidative stress and reactive oxygen species generation as the common toxicity pathway, and draws on occupational exposure literature, drinking-water contamination studies, and experimental cell and animal work. The authors frame contaminated drinking water as the primary human exposure route and explicitly limit the scope to mechanisms and metabolic effects rather than food-occurrence quantification.
 
 ## Key numbers
@@ -96,9 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fc1b51681](https://github.com/paleofoundation/heavymetalindex/commit/fc1b51681) | 2026-05-18 | minor | Narrative text revised |
-| [d701e83be](https://github.com/paleofoundation/heavymetalindex/commit/d701e83be) | 2026-05-18 | major | 1 section added; narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

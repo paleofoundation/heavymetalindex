@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Dziubanek et al. 2025 — Non-dietary children's exposure to Cd, Pb, Zn in soil of three postindustrial districts of Upper Silesia, Poland
 
+## Overview
+
 This study measured cadmium, lead, and zinc in 77 surface soil samples collected from playgrounds, sports fields, gyms, parks, squares, and other recreational areas across three postindustrial districts of Upper Silesia: Katowice-Szopienice (legacy non-ferrous smelter zone), Świętochłowice-Lipiny, and Piekary Śląskie-Brzeziny. The work assesses non-dietary pediatric exposure via three routes (incidental soil ingestion, dermal contact, inhalation of PM10) under three concentration scenarios (S1 minimum, S2 mean, S3 maximum) across three age groups (preschool <6 y, younger school 6 to <12 y, older school 12-15 y), using the US EPA average-daily-dose and hazard-quotient framework with reference doses from the EPA IRIS database (0.001 mg/kg/day Cd; 0.3 mg/kg/day Zn; 0.0035 mg/kg/day Pb derived from the historical PTWI divided by seven). Eighth-grade national-exam results from three schools in the studied districts (2019, 2021, 2024) were compared with city, provincial, and national averages as a supplementary cognitive-outcome readout. Polish legal maximum permissible concentrations (MPC; Regulation of the Minister of Environment, 1 September 2016) and FAO/WHO maximum permissible limits are tabulated alongside the soil data. No food crops, food products, or human tissues are sampled; the paper is a soil-and-exposure study, not a dietary-intake study.
 
 ## Key numbers
@@ -156,9 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [94dc97b85](https://github.com/paleofoundation/heavymetalindex/commit/94dc97b85) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

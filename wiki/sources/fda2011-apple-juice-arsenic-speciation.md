@@ -29,6 +29,8 @@ updated: 2026-05-07
 # FDA 2011 - Apple Juice Arsenic Speciation
 
 
+## Overview
+
 FDA's 2011 ORA apple-juice sampling assignment reports 94 single-strength apple-juice samples with total arsenic, inorganic arsenic, DMA, and MMA results in ppb. The Index routes the inorganic-arsenic rows to [[products/fruit-juices-apple-containing]] as direct species-specific apple-juice evidence and to [[products/fruit-juice-not-canned]] as apple-only subcategory context.
 
 ## Structured Extract
@@ -67,9 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
-| [0f3f4e7db](https://github.com/paleofoundation/heavymetalindex/commit/0f3f4e7db) | 2026-05-07 | minor | Narrative text revised |
-| [a0b674673](https://github.com/paleofoundation/heavymetalindex/commit/a0b674673) | 2026-05-07 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

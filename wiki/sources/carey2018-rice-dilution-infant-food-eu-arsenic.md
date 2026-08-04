@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Carey et al. 2018 — Rice dilution in UK infant foods after EU 100 µg/kg iAs standard
 
+## Overview
+
 This PLoS ONE study assessed inorganic arsenic (iAs) concentrations in UK infant rice-based foods and their general (non-infant-labelled) equivalents in 2017, comparing the findings to 2014 and 2016 surveys, in the context of the EU 100 µg/kg iAs standard for infant rice products that came into force 1 January 2016. All 2017 UK products specifically labelled for infants fell below the 100 µg/kg threshold. Pure rice infant porridge had a median of 66 µg/kg (down from 114 µg/kg in 2016 and 127 µg/kg in 2014); multi-grain infant porridge had a median of 10 µg/kg, illustrating that blending rice with maize, oats, quinoa, or potato as a formulation strategy has been broadly adopted. General-market rice cakes had a median of 120 µg/kg — above the infant standard — demonstrating that non-infant-labelled products remain a risk vector for young children.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6de0a7cc2](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7cc2) | 2026-05-12 | major | 5 sections added; narrative text revised |

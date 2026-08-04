@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sawe et al. 2023 — Potentially toxic metals in tilapia and catfish from Lake Manyara, Tanzania
 
+## Overview
+
 This study measures Cu, Ni, Pb, and Zn in the edible muscle tissue of two fish species from Lake Manyara, an endorheic (no outflow) soda lake in Tanzania's Rift Valley, at 5 landing sites in April 2022. All measured concentrations are below FAO/WHO permissible levels. Based on the highest observed Pb concentration (0.81 mg/kg dw in catfish at Mfulo wa Ng'ombe), the authors derive a maximum recommended consumption of 2.2 kg of Lake Manyara fish per week. No significant interspecies or inter-site differences were observed, indicating no detectable food-chain bioaccumulation and no localized pollution hotspots.
 
 ## Key numbers
@@ -88,6 +90,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [16697dbc2](https://github.com/paleofoundation/heavymetalindex/commit/16697dbc2) | 2026-05-13 | major | 4 sections added; narrative text revised |

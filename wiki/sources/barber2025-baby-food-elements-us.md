@@ -31,6 +31,8 @@ created_by: codex_gpt_55_session
 
 # Barber et al. 2025 - Toxic elements in US baby and young-child foods
 
+## Overview
+
 Barber et al. report an FDA Human Foods Program non-targeted convenience survey of 566 ready-to-eat foods intended for babies, young children, pregnant women, and nursing mothers, collected from the U.S. marketplace in 2023. The study measured total arsenic, cadmium, total mercury, lead, and thallium by ICP-MS, then ran targeted arsenic speciation on rice-containing dry foods/supplements above 50 µg/kg total As and methylmercury analysis on the two fish-containing puree/mixture products. The ingredient-predictor analysis found rice-associated arsenic, root-vegetable-associated lead, and kale/brassica-associated thallium signals, while cadmium and mercury showed weaker or less stable ingredient associations.
 
 ## Key numbers
@@ -191,8 +193,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [17e814db4](https://github.com/paleofoundation/heavymetalindex/commit/17e814db4) | 2026-05-19 | minor | Narrative text revised |
-| [98bb5a8f3](https://github.com/paleofoundation/heavymetalindex/commit/98bb5a8f3) | 2026-05-18 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ created_by: autonomy_v0
 
 # Tatsuta et al. 2024 — Postnatal methylmercury intake from baby foods and toddler meals in Japanese children
 
+## Overview
+
 This study used the 24-hour duplicate diet method to measure methylmercury (MeHg) and total mercury (THg) intake in 260 Japanese children aged 0–5 years and examined correlations with hair THg levels. The median estimated MeHg intake was 18.3 ng/kgbw/day (range 0.65–209.2), with 13.8% of children exceeding the US EPA reference dose and 4.3% exceeding the WHO provisional tolerable weekly intake. MeHg comprised 90% of total mercury in dietary samples with THg ≥1 ng/g, reflecting Japan's high fish consumption even in infants. These findings highlight the importance of monitoring MeHg exposure during complementary feeding, as infants and toddlers are highly susceptible due to low body weight and high food intake per kilogram.
 
 ## Key numbers
@@ -112,7 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [475eaa6a7](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6a7) | 2026-05-25 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

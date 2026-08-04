@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Tandhanskul et al. 2025 — Kombucha as a sustainable source of metabiotics (review)
 
+## Overview
+
 Tandhanskul and colleagues (Theophane Venard School of Food Biotechnology and Innovation, Assumption University of Thailand; Kagawa University Graduate School of Agriculture, Japan) review kombucha as a functional beverage that delivers postbiotics, parabiotics, and bioactive metabolites (the authors' term: "metabiotics"). The review's primary subject is fermentation microbiology, organic-acid and polyphenol chemistry, vitamin and mineral content, antioxidant and antimicrobial activity, sustainability of alternative substrates, and food-safety concerns. Heavy-metal content enters the review in three narrow ways: as cited mineral-profile measurements (Bauer-Petrovska and Petrushevska-Tozi 2000 [ref 102], section 4.3) including Pb 0.005 µg/mL, Cr 0.001 µg/mL, Co 0.004 µg/mL, Cd undetected, and a statement that fermentation increases Cu, Fe, Mn, Ni, Zn but not Co; as two cited case reports of lead intoxication from kombucha brewed or stored in lead-glazed ceramic vessels (Sabouraud et al. 2009 [ref 187]; Phan et al. 1998 [ref 188]); and as a passing mention of SCOBY bacterial cellulose as a heavy-metal biosorbent citing Pb, Ni, and tea-fungus biosorption studies (refs 13–15). The review contributes no new measurements and frames kombucha contamination as primarily a vessel-leaching and food-safety practice issue rather than an ingredient-occurrence issue.
 
 ## Key numbers
@@ -100,7 +102,7 @@ Evidence tier set to C. The source is a narrative review without systematic meth
 
 No brand names appear in the body. The review names instrument and reference vendors only in third-party citations and in passing (PCR primers, sequencing approaches); no Part 12 brand-firewall violations are present in either the review's own prose or this wiki page.
 
-The `metals:` frontmatter lists Pb, Cd, Cr, Co, Ni. Pb, Cd, Cr appear with numerical values from the cited Bauer-Petrovska 2000 mineral profile (Pb 0.005 µg/mL; Cr 0.001 µg/mL; Cd undetected). Co appears as the only element the review states fermentation does not increase, with the cited value 0.004 µg/mL. Ni appears in the review's list of elements "Cu, Fe, Mn, Ni, Zn" that fermentation increases, without a numerical concentration, and in the cited Mousavi Ni-biosorption study title. Per CLAUDE.md Part 14 speciation discipline, Cr is recorded as elemental Cr (the cited paper does not specify Cr-VI vs Cr-III), and no arsenic or mercury speciation labels apply because the review does not report As or Hg values in kombucha. Fe, Cu, Mn, Zn, Mg, K are mentioned in the review but are not HMI tracked analytes per CLAUDE.md Part 14 and are omitted from `metals:`.
+The `metals:` frontmatter lists Pb, Cd, Cr, Co, Ni. Pb, Cd, Cr appear with numerical values from the cited Bauer-Petrovska 2000 mineral profile (Pb 0.005 µg/mL; Cr 0.001 µg/mL; Cd undetected). Co appears as the only element the review states fermentation does not increase, with the cited value 0.004 µg/mL. Ni appears in the review's list of elements "Cu, Fe, Mn, Ni, Zn" that fermentation increases, without a numerical concentration, and in the cited Mousavi Ni-biosorption study title. Per speciation discipline, Cr is recorded as elemental Cr (the cited paper does not specify Cr-VI vs Cr-III), and no arsenic or mercury speciation labels apply because the review does not report As or Hg values in kombucha. Fe, Cu, Mn, Zn, Mg, K are mentioned in the review but are not HMI tracked analytes and are omitted from `metals:`.
 
 The `ingredients:` frontmatter contains only [[ingredients/camellia-sinensis]]. The review names a large list of alternative substrates (oak leaves, hibiscus, butterfly pea, grapes, coconut, papaya, goji berry, acerola cherry, snake fruit, pear, wheatgrass, corn, rice, barley, black carrot, broccoli, spinach, green and roasted coffee beans, yerba mate, linden, sage, mint, rooibos, zijuan, yarrow, cardamom, cinnamon, turmeric, garlic, yogurt, fermented milk, whey, cheese whey, laver Porphyra dentata, sea grapes, brown sugar, honey, coconut sugar molasses, soy milk, soy whey, corn silk) in Table 1 (p. 5) but reports no heavy-metals data tied to any of them; these are listed as substrate possibilities, not contamination sources. The review's heavy-metals signal pertains to the kombucha finished beverage as a whole rather than to specific tea or alternative-substrate ingredients, so the `ingredients:` field is kept minimal at camellia-sinensis (the canonical traditional substrate).
 
@@ -114,7 +116,7 @@ The review's section 4.3 (p. 9) statement on Pb — "Toxic metals like lead (0.0
 
 The review's mineral-profile single-point estimates (one value per element from one paper) are not pooling-engine eligible for [[products/kombucha-tea-based]] occurrence on their own; they sit alongside the quantitative ceramic-vessel-leaching values in [[sources/munilla-garcia2023-lead-kombucha-ceramics]] (0.95–47 mg/kg Pb in vessel-fermented kombucha) and the dietary-intake comparator framework would need at least the Bauer-Petrovska underlying paper plus additional non-vessel kombucha primary studies before any synthesis pass on the kombucha-tea-based row.
 
-No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, per CLAUDE.md Part 2 wiki/HMTc firewall.
+No HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no synthesis claims of the form "this confirms the literature consensus that..." appear in the body, wiki/HMTc firewall.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -123,7 +125,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [db9225b8b](https://github.com/paleofoundation/heavymetalindex/commit/db9225b8b) | 2026-06-06 | major | 1 source added; 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

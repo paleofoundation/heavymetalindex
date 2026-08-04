@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Rempelos et al. 2023 - Cd, Ni, and Pb in UK field vegetables under organic and conventional protocols
 
+## Overview
+
 Rempelos and colleagues analyzed harvested potato tubers, cabbage heads, lettuce heads, and onion bulbs from the long-term Nafferton Factorial Systems Comparison trials in Northumberland, UK. The paper reports cadmium, nickel, and lead concentrations on a fresh-weight basis as main-effect means under organic versus conventional crop protection, mineral NPK versus cattle farmyard manure fertilization, and spring-bean versus winter-barley pre-crops. The source is routeable as summary-level vegetable occurrence evidence and as supply-chain evidence that fertilization regime can shift Cd and Ni in harvested vegetables.
 
 ## Key numbers
@@ -109,9 +111,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [414629fec](https://github.com/paleofoundation/heavymetalindex/commit/414629fec) | 2026-06-02 | minor | Narrative text revised |
-| [e1f4391c6](https://github.com/paleofoundation/heavymetalindex/commit/e1f4391c6) | 2026-06-02 | minor | Narrative text revised |
-| [d82d85121](https://github.com/paleofoundation/heavymetalindex/commit/d82d85121) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

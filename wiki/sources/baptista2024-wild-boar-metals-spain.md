@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Baptista et al. 2024 - wild-boar liver and kidney metals in Spain
 
+## Overview
+
 Baptista et al. (2024) measured metal and metalloid concentrations in liver and kidney tissues from 28 hunted wild boars in Castile and Leon, Spain. The study is routeable for game-meat and organ-meat occurrence because liver and kidney tissues are edible offal and the paper frames wild boars as part of the hunting economy and human diet in the Iberian Peninsula. Concentrations are reported in `mg/kg dry weight`; arsenic and chromium are total-element ICP-MS measurements without inorganic-arsenic or Cr-VI speciation.
 
 ## Key numbers
@@ -82,6 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [eaba170f8](https://github.com/paleofoundation/heavymetalindex/commit/eaba170f8) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

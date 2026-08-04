@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Zhang et al. 2023 — Metal emissions from material-extrusion 3D printing
 
+## Overview
+
 Zhang and colleagues measured metals in raw 3D-printing filaments and in particles emitted during material-extrusion printing, then modelled indoor exposure scenarios. The paper is routeable as durable-goods exposure and testing-method evidence, not as HMTc product-occurrence evidence for fabric protectants despite the auto-fetch row that retrieved it. Its key contribution is source attribution: some metals came from filaments, while boron, arsenic, manganese, and lead often appeared in emitted particles without being detected in the corresponding raw filament.
 
 ## Key numbers
@@ -74,7 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [728fe7548](https://github.com/paleofoundation/heavymetalindex/commit/728fe7548) | 2026-06-09 | minor | Narrative text revised |
-| [3dd241dfc](https://github.com/paleofoundation/heavymetalindex/commit/3dd241dfc) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

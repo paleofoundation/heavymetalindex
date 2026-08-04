@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Bodur et al. 2023 - Inorganic arsenic speciation method for olive oil
 
+## Overview
+
 Bodur et al. developed a spray-assisted preconcentration method coupled to HPLC, continuous-flow hydride generation, and FAAS for inorganic arsenic speciation in olive oil. The real-sample portion tested two Istanbul-market olive oil samples and reported no detectable arsenite or arsenate in either sample. The paper is therefore useful as method-validation and censored olive-oil evidence: it supports non-detect status under the stated method, not a measured concentration distribution.
 
 ## Key numbers
@@ -112,6 +114,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [cfa5610d8](https://github.com/paleofoundation/heavymetalindex/commit/cfa5610d8) | 2026-06-02 | major | 8 sections added; narrative text revised |

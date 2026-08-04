@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # Climate adaptation creates new heavy-metal trade-offs
 
+## Overview
+
 A coherent finding has emerged from three independent peer-reviewed studies in the past eighteen months: agricultural and ecological responses to climate change are reshaping the heavy-metal contamination profile of two of the wiki's most consequential food matrices, rice and freshwater fish. The shift is not a uniform increase. It is a redistribution. Climate-smart agricultural practices that reduce one toxic element appear to increase another, and climate-driven changes to freshwater ecosystems are increasing methylmercury in wild fish even where total mercury inputs are stable or declining. The scientific implication is sharp: any heavy-metal occurrence baseline derived from the historically-flooded rice paddy and the early-2000s freshwater fishery characterizes a system that is already changing, so contamination data anchored to those conditions may not represent the matrices as they are now produced.
 
 This page synthesizes the three anchor studies and explains why their convergence reframes the wiki's current understanding of rice and freshwater fish risk. The synthesis does not yet rest on enough sources to be the wiki's final position; readers should treat it as the current best reading and trace each numerical claim upward to its source. Two additional corroborating studies, ideally from non-US and non-Chinese geographies, would strengthen the finding meaningfully.
@@ -96,11 +98,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK (2025). *Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies*. GeoHealth. [https://doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410). Peer-reviewed, A-tier. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Source record]]
-2. Limmer MA and Seyferth LD (2024). *Controlling exposure to As and Cd from rice via irrigation management*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310). Peer-reviewed, A-tier. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Source record]]
-3. Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H (2025). *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122). Peer-reviewed, A-tier. [[sources/wu2025-climate-meghan-freshwater-fish-china|Source record]]
+1. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK · GeoHealth · 2025 · [doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Controlling exposure to As and Cd from rice via irrigation management]]<span class="hmi-ref-meta">Limmer MA and Seyferth LD · Environmental Science & Technology · 2024 · [doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -110,9 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [abd3a7c09](https://github.com/paleofoundation/heavymetalindex/commit/abd3a7c09) | 2026-05-13 | major | 1 section added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

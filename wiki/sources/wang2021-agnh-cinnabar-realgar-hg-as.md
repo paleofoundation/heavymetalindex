@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wang et al. 2021 — AGNH protects against cinnabar and realgar toxicity in mice
 
+## Overview
+
 Cinnabar (HgS) and realgar (As4S4) are mercury and arsenic sulfide minerals used in traditional Chinese medicine (TCM) formulations. This study investigates whether AGNH (a herbal preparation) can attenuate the hepatorenal toxicity induced by these mineral-based TCM ingredients, measuring Hg and As species in liver and kidney tissue of dosed mice using IC-ICP-MS (ion chromatography coupled to ICP-MS). The paper provides quantitative data on Hg and As tissue concentrations following oral administration of HgS and As4S4, directly relevant to supplement safety assessment.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [776a085c8](https://github.com/paleofoundation/heavymetalindex/commit/776a085c8) | 2026-05-13 | major | 4 sections added; narrative text revised |

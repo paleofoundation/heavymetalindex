@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Sharma et al. 2016 - Heavy metals in Amritsar vegetables grown near wastewater drains
 
+## Overview
+
 Sharma, Katnoria, and Nagpal measured cadmium, lead, copper, cobalt, and iron in edible portions of 12 vegetable types collected from three Amritsar, Punjab agricultural settings: two groundwater-irrigated sites beside the Tung-Dhab drain and one municipal-wastewater-irrigated site. The paper is routeable for contaminated-site vegetable occurrence evidence, especially spinach, because it reports exact prose values for spinach cadmium, cobalt, and copper and shows lead and metal-pollution results in figures. It should not be pooled silently with ordinary retail-market spinach because all sites were selected for wastewater-drain exposure or wastewater irrigation.
 
 ## Key numbers
@@ -80,8 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [eb580ee4c](https://github.com/paleofoundation/heavymetalindex/commit/eb580ee4c) | 2026-06-02 | minor | Narrative text revised |
-| [3b1339981](https://github.com/paleofoundation/heavymetalindex/commit/3b1339981) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

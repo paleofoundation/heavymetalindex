@@ -28,6 +28,8 @@ audience: [regulator, educator, app]
 
 # Duinker et al. 2020 - macroalgae food and feed safety
 
+## Overview
+
 This Institute of Marine Research report updates Norwegian macroalgae food and feed safety evidence using data generated from 2014 to 2019. It reports species-level dry-weight concentrations for inorganic arsenic, cadmium, lead, total mercury, iodine, selenium, iron, and zinc across Norwegian macroalgae and selected Asian-origin imported products. The arsenic occurrence table is explicitly inorganic arsenic; mercury is reported as total mercury with most results below LOQ and without a methylmercury concentration table.
 
 ## Key numbers
@@ -125,6 +127,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [afbab7450](https://github.com/paleofoundation/heavymetalindex/commit/afbab7450) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

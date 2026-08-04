@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Vela et al. 2023 - Cadmium and lead in Quito vegetables
 
+## Overview
+
 This study measured cadmium and lead in tomatoes, carrots, and lettuce marketed in Quito, Ecuador. It is directly routeable for vegetable occurrence because the source reports matrix-specific concentrations and comparison limits.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d9d380dc](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380dc) | 2026-05-26 | major | 5 sections added; narrative text revised |

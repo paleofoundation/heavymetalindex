@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Almela 2002 — Total and inorganic arsenic, Pb, Cd, and Hg in edible algae food products
 
+## Overview
+
 Almela and colleagues measured total arsenic, inorganic arsenic, lead, cadmium, and mercury in 18 processed edible-algae food products on retail sale in Spain, using a hydride-generation method for arsenic speciation validated against three macroalgal reference materials. Across the products, total arsenic ranged 2.3–141 mg/kg dry weight and inorganic arsenic 0.15–88 mg/kg dw, with the brown alga *Hizikia fusiforme* (hijiki) standing apart: its inorganic arsenic (83–88 mg/kg dw) constituted 60–72% of total arsenic, two orders of magnitude above every other product, while 84% of all samples held inorganic arsenic below 1 mg/kg dw. Cadmium reached 1.9 mg/kg dw in wakame and exceeded the French (0.5 mg/kg dw) and Australian (0.2 mg/kg dw) limits in 10 and 14 samples respectively. The study is a foundational speciated-arsenic occurrence survey for the seaweed/kelp food category.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [0bb8e8546](https://github.com/paleofoundation/heavymetalindex/commit/0bb8e8546) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Guo 2017 - Asian rice-derived products metals
 
+## Overview
+
 Guo and colleagues measured trace elements and heavy metals in Asian rice-derived food products purchased from oriental markets in Jackson, Mississippi. The study covered rice noodles, rice vinegar/wine, and rice snacks, with product origins spanning several Asian countries and one USA-labeled vinegar/wine product. The source reports category-level findings and brand-labeled figures; this page preserves the category findings and does not attach contamination values to brand names.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [4f218cf51](https://github.com/paleofoundation/heavymetalindex/commit/4f218cf51) | 2026-06-08 | major | 4 sections added; narrative text revised |

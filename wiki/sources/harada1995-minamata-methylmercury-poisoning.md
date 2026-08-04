@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Harada 1995 - Minamata methylmercury poisoning in Japan
 
+## Overview
+
 Harada reviews Minamata disease as methylmercury poisoning caused by ingestion of contaminated fish and shellfish from Minamata Bay and the Shiranui Sea. The paper is primarily a health-effect and historical exposure source, but it reports several historical marine-life mercury concentrations from Minamata Bay and the estuary. Those values are recorded here as source-reported Hg/total-Hg context, not as modern seafood market occurrence data and not as measured methylmercury occurrence.
 
 ## Key numbers
@@ -70,8 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [4e739d14e](https://github.com/paleofoundation/heavymetalindex/commit/4e739d14e) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [3b3fd81d5](https://github.com/paleofoundation/heavymetalindex/commit/3b3fd81d5) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

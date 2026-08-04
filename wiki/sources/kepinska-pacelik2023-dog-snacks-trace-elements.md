@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Kepinska-Pacelik et al. 2023 - Trace elements in nutraceutical dog snacks
 
+## Overview
+
 Kepinska-Pacelik and colleagues produced four dog-snack prototypes and measured proximate composition, minerals, trace elements, structure, and palatability. This is finished pet-treat evidence for experimental prototypes, not a commercial-market survey. The source's routeable product facts are dry-matter trace-element concentrations in four snack variants; Cd, Pb, Co, Cr, and Ni were reported as not detected, but no LOD/LOQ was provided for those nondetects.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [4b6fbe264](https://github.com/paleofoundation/heavymetalindex/commit/4b6fbe264) | 2026-06-02 | minor | Narrative text revised |
-| [5799787e1](https://github.com/paleofoundation/heavymetalindex/commit/5799787e1) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

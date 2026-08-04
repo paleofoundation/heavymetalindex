@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Venant et al. 2025 — Cadmium and lead in Lake Victoria sardine, Tanzania
 
+## Overview
+
 This cross-sectional study assessed Cd and Pb concentrations in 279 samples of the small pelagic sardine Rastrineobola argentea collected from three regions of the Tanzanian Lake Victoria basin (Mwanza, Kagera, Mara), alongside a community-awareness survey of 425 sardine processors. All 279 samples fell below the FAO/WHO limit of 0.3 mg/kg for both metals. Median concentrations were low: Cd 0.012 ± 0.005 mg/kg and Pb 0.081 ± 0.057 mg/kg on a dry-weight basis. Health risk metrics (THQ, HI, cancer risk) were all well below thresholds of concern. Community awareness of heavy metal contamination was extremely low (96.2% unaware), though most processors had adopted raised drying racks that reduce contact with contaminated substrates.
 
 ## Key numbers
@@ -80,6 +82,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [87efb16cc](https://github.com/paleofoundation/heavymetalindex/commit/87efb16cc) | 2026-05-12 | major | 4 sections added; narrative text revised |

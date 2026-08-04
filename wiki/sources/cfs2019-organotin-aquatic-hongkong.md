@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Centre for Food Safety 2019 — Organotin compounds in aquatic products, Hong Kong
 
+## Overview
+
 This 2019 government risk assessment report from Hong Kong's Centre for Food Safety (CFS) measured four organotin compounds (OTC) — tributyltin (TBT), dibutyltin (DBT), di-n-octyltin (DOT), and triphenyltin (TPT) — in 341 samples of fish, crustaceans, and molluscs collected from local markets in 2017–2018, finding detection in 60% of samples with TPT as the dominant compound. Dietary exposures for both average (0.020-0.021 mcg/kg bw/day as Sn) and high (0.0574-0.0588 mcg/kg bw/day as Sn) consumers were below the EFSA group TDI of 0.1 mcg/kg bw/day (expressed as Sn), representing 20-21% and 57-59% of the TDI respectively, and the CFS concluded no adverse health outcome was likely.
 
 **Important note on metals classification:** The analytes in this paper are organotin compounds (TBT, DBT, DOT, TPT), not inorganic tin. Organotin species are distinct from total tin (Sn) in toxicological profile, environmental behavior, and regulatory framework. These compounds enter aquatic food chains primarily through antifouling paints on ships and from agricultural pesticide use; they are endocrine disruptors at very low concentrations (1 ng/L in water for TBT and TPT imposex effects) and are outside the HMTc 10-analyte scope. They are included here under `metals: [Sn]` for element-level routing because they are tin-organic compounds, but synthesis should route the toxicological discussion to [[metals/organotins]] and must not conflate organotins with inorganic Sn.
@@ -106,9 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [669db40ac](https://github.com/paleofoundation/heavymetalindex/commit/669db40ac) | 2026-05-30 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [ff1dca23c](https://github.com/paleofoundation/heavymetalindex/commit/ff1dca23c) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

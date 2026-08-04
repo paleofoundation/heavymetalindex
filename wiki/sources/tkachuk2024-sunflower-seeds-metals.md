@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Tkachuk et al. 2024 - ecological safety of sunflower seeds under agricultural intensification
 
+## Overview
+
 Tkachuk and coauthors measured heavy metals and other toxicants in soil and sunflower seeds under intensive agricultural technology. The source is routeable to sunflower seeds because it reports direct seed testing for Pb, Cd, Cu, Zn, nitrates, and related soil contaminants. It is production-system context, not a consumer-market basket.
 
 ## Key numbers
@@ -88,8 +90,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [eb11108ff](https://github.com/paleofoundation/heavymetalindex/commit/eb11108ff) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [f5efca8e6](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8e6) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

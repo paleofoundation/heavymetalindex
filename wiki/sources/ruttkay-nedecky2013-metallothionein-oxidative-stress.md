@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ruttkay-Nedecky et al. 2013 — The role of metallothionein in oxidative stress
 
+## Overview
+
 Ruttkay-Nedecky and colleagues at the Central European Institute of Technology and Mendel University in Brno, with co-authors from Masaryk University, Charles University, and University Hospital Motol in Prague, review the published literature on metallothionein (MT) as a small cysteine-rich heavy-metal-binding protein that participates in cellular protective responses against oxidative stress. The review compiles evidence from mammalian cell-line, transgenic mouse, and *Drosophila* knockout systems on MT's structure, its role as a zinc reservoir and cysteine-thiol-mediated radical scavenger, its induction by oxidative and nitrosative stimuli, and its relevance to cancer and apoptosis. The paper reports no primary chemical or toxicological measurements; its value to the wiki is mechanistic — it organises the vocabulary used by the underlying cadmium-toxicology and zinc-homeostasis literature on which subsequent occurrence and exposure papers depend.
 
 ## Why this matters
@@ -142,8 +144,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [8f4be101f](https://github.com/paleofoundation/heavymetalindex/commit/8f4be101f) | 2026-06-08 | minor | Narrative text revised |
-| [5096d9b76](https://github.com/paleofoundation/heavymetalindex/commit/5096d9b76) | 2026-06-08 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

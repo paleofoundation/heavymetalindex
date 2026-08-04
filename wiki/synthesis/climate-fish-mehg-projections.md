@@ -14,6 +14,8 @@ updated: 2026-05-16
 
 # Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline
 
+## Overview
+
 Three independent PNAS-level publications converge on a finding that the wiki's brand-legal, regulator, and educator audiences need to read together: the methylmercury concentration in upper-trophic-level marine fish is not a constant. Ocean warming, ocean deoxygenation, expansion of oxygen minimum zones, and altered primary productivity are projected to increase MeHg in commercially harvested pelagic fish by 5 to 30 percent by 2100 under high-emission climate scenarios, with the mechanistic pathway now traced to particle-phase methylation in the upper 400 meters of the water column rather than the previously-assumed dissolved-phase methylation in deep anoxic basins. The MeHg concentration that present-day FDA fish advisories and EFSA tolerable weekly intake calculations are calibrated against is the present-day distribution; the projection literature now establishes that this baseline is shifting upward over a regulatory-relevant time horizon, and that the regulatory frameworks themselves are not yet adjusted to incorporate the projection.
 
 This is the forward-looking dimension of the seafood-MeHg story. The established [[synthesis/subsistence-fishing-mehg-disparity]] page identifies the vulnerable population for the present-day distribution; the [[synthesis/mining-impacted-freshwater-fish]] page identifies the supply-side driver for freshwater contamination; this page identifies the climate-driven projection that says the marine baseline is moving. Together the three synthesis pages describe the three structural dimensions of dietary mercury risk that the present regulatory infrastructure does not adequately address.
@@ -80,7 +82,7 @@ The wiki's [[overview]] should pair this synthesis with [[synthesis/climate-meta
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on three anchor sources. The synthesis is the most provisional of the three established in this batch because criterion 1 (three independent A-tier sources) is met with a review plus a projection plus a mechanism rather than with three independent projections, and a second quantitative projection study would strengthen the claim materially. The projection ranges (5 to 30 percent fish-MeHg increase by 2100 under high-emission scenarios) are robust to the present anchors but should be updated against future model-intercomparison studies as they enter the corpus. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier projection studies, or on any IPCC-cycle update that incorporates ocean-mercury cycling into a formal assessment.
+This synthesis was established 2026-05-16 on three anchor sources. The synthesis is the most provisional of the three established in this batch because criterion 1 (three independent A-tier sources) is met with a review plus a projection plus a mechanism rather than with three independent projections, and a second quantitative projection study would strengthen the claim materially. The projection ranges (5 to 30 percent fish-MeHg increase by 2100 under high-emission scenarios) are robust to the present anchors but should be updated against future model-intercomparison studies as they enter the corpus. Resynthesis triggers fire on the next two independent A-tier projection studies, or on any IPCC-cycle update that incorporates ocean-mercury cycling into a formal assessment.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -97,11 +99,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, and Schartup A (2023). *Global change effects on biogeochemical mercury cycling*. Ambio. [https://doi.org/10.1007/s13280-023-01855-y](https://doi.org/10.1007/s13280-023-01855-y). Peer-reviewed, A-tier. [[sources/sonke2023-mercury-global-change|Source record]]
-2. Wang F, Macdonald RW, Armstrong DA, and Stern GA (2023). *Climate-driven changes of global marine mercury cycles in 2100*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2202488120](https://doi.org/10.1073/pnas.2202488120). Peer-reviewed, A-tier. [[sources/wang2023-climate-marine-mercury|Source record]]
-3. Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. (2022). *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119). Peer-reviewed, A-tier. [[sources/motta2022-marine-hg-isotopes|Source record]]
+1. [[sources/sonke2023-mercury-global-change|Global change effects on biogeochemical mercury cycling]]<span class="hmi-ref-meta">Sonke JE, Angot H, Zhang Y, Poulain A, Björn E, and Schartup A · Ambio · 2023 · [doi.org/10.1007/s13280-023-01855-y](https://doi.org/10.1007/s13280-023-01855-y)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/wang2023-climate-marine-mercury|Climate-driven changes of global marine mercury cycles in 2100]]<span class="hmi-ref-meta">Wang F, Macdonald RW, Armstrong DA, and Stern GA · Proceedings of the National Academy of Sciences · 2023 · [doi.org/10.1073/pnas.2202488120](https://doi.org/10.1073/pnas.2202488120)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/motta2022-marine-hg-isotopes|Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms]]<span class="hmi-ref-meta">Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. · Proceedings of the National Academy of Sciences · 2022 · [doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -111,9 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [b85ab6847](https://github.com/paleofoundation/heavymetalindex/commit/b85ab6847) | 2026-05-16 | major | 3 sources added; 9 sections added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

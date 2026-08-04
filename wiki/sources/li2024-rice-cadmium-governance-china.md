@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Li et al. 2024 — Integrated governance of cadmium contamination in rice, Xiangjiang River Basin, China
 
+## Overview
+
 This seven-year field study (2014–2020) evaluated an integrated governance framework (IGF) for reducing cadmium (Cd) accumulation in rice grown in the Cd-contaminated Xiangjiang River Basin of Hunan Province, China — one of the most heavily Cd-polluted agricultural regions globally. Across 180,000 hectares involving over 3 million farmers and 26 county-level administrative regions, the IGF combined soil pH adjustment, low-Cd-accumulating rice cultivars, water management, and organic amendments. The key outcome was a 57–78% reduction in Cd in rice grain compared to the 2013 baseline, with all rice samples from the study area falling below the EU and Chinese maximum limit of 0.2 mg Cd/kg by 2018–2020. This is among the largest field-scale heavy metal remediation studies ever published.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [519f81ee2](https://github.com/paleofoundation/heavymetalindex/commit/519f81ee2) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Ranjbar et al. 2025 - mineral-water safety monitoring in Arak City
 
+## Overview
+
 Ranjbar and coauthors assessed radioactive isotopes and heavy metals in 15 commercial bottled mineral water brands sold in Arak City, Iran. The heavy-metal result is reported only as a bulk non-detect at the analytical method's reporting floor; no per-sample concentrations, LODs, reference materials, or wavelength assignments are tabulated. The abstract names lead and chromium as the metals absent from samples; the Summary and Conclusion expands the assayed list to cadmium, mercury, tin, lead, and arsenic at "zero mg/L." The two analyte lists do not agree, and the paper provides no table reconciling them. The page is routeable as bottled/mineral-water non-detect surveillance, not as a concentration distribution.
 
 ## Key numbers
@@ -75,8 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [7148335cd](https://github.com/paleofoundation/heavymetalindex/commit/7148335cd) | 2026-06-09 | major | 4 sources added; narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

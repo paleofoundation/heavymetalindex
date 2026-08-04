@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/instant-air-refreshment-sprays",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "47feb292a50743a54df91d6b058c8e6afda1f1ec01efddef70aeaec3bf88a60b",
-      "content_bytes": 8778,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "4e5c25271ecbdbf578036d033921e05c26027097443b43cdaf479508830ce713",
+      "content_bytes": 8895,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/instant-air-refreshment-sprays.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/instant-air-refreshment-sprays.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -39,12 +39,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
         "content_pin": {
-          "content_sha256": "c38712ad8bfe3828dba7b2ead0358bc7519438704854f0522b82b37483bb7cb1",
-          "content_bytes": 25074,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "a8dc93d64143179cf07ad22f085f3b8c2828939a07239f6308d53146cc9ec9de",
+          "content_bytes": 25526,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
         }
       }
     ]

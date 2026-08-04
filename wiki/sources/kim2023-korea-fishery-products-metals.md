@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Kim 2023 - Heavy metals in Korean fishery products
 
+## Overview
+
 Kim, Jeon, and Shin measured Pb, Cd, arsenic, total mercury, and methylmercury in `1186` Korean fishery-product samples. The source covers seven broad categories: sea algae, freshwater fish, marine fish, crustaceans, mollusks, tunicates, and echinoderms. Arsenic is reported as total/unspecified As in the occurrence table, while the risk section assumes inorganic arsenic for carcinogenic-risk modeling.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [0a6d11977](https://github.com/paleofoundation/heavymetalindex/commit/0a6d11977) | 2026-06-08 | major | 4 sections added; narrative text revised |

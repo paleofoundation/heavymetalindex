@@ -31,6 +31,8 @@ created_by: claude_opus_47_session
 
 # DeVito and Schecter 2002 — dioxin exposure assessment from tampons and diapers (US)
 
+## Overview
+
 DeVito and Schecter performed a screening-level and refined exposure assessment of dioxin (PCDD/PCDF) uptake from tampons and disposable diapers, motivated by late-1990s public concern that chlorine-bleached pulp products in feminine-hygiene and infant-care sanitary items might be a meaningful dioxin exposure pathway. The analytes are the 17 `2,3,7,8`-chlorine-substituted polychlorinated dibenzo-p-dioxin and dibenzofuran congeners; **no heavy metals were measured**. This page is therefore ingested as out-of-core-scope tampon and diaper contaminant context, parallel to `[[sources/archer2005-tampon-dioxins-furans]]` for tampons and the ANSES/BfR diaper-safety opinions for diapers. It carries the agency-level null finding for HMI's core analytes in these product classes (the most potent dioxin congeners TCDD and `1,2,3,7,8`-pentachlorodibenzo-p-dioxin were not detected in any sample) and the population-frame exposure parameters that may be reusable for HMI's future heavy-metals dermal-exposure modelling in diapers and menstrual products.
 
 ## Key numbers
@@ -137,6 +139,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [b739a4c1b](https://github.com/paleofoundation/heavymetalindex/commit/b739a4c1b) | 2026-06-09 | major | 1 source added; 13 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

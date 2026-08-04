@@ -30,6 +30,8 @@ updated: 2026-06-03
 
 # EFSA Scientific Committee 2015 — Risk-benefit assessment of fish/seafood consumption versus methylmercury
 
+## Overview
+
 This EFSA Scientific Committee statement is the European Union's primary risk-benefit synthesis weighing the nutritional benefits of fish/seafood consumption (n-3 long-chain polyunsaturated fatty acids, LCPUFA) against exposure to methylmercury (MeHg) for the European population. EFSA received the mandate from the European Commission as Question No EFSA-Q-2014-00665 and adopted the statement on 19 December 2014. The Scientific Committee built on two prior EFSA outputs as starting points: the EFSA CONTAM Panel (2012) opinion on inorganic mercury and methylmercury in food, which had set the operative tolerable weekly intake (TWI) of 1.3 µg/kg body weight per week for methylmercury based on prenatal neurodevelopmental toxicity (NOEL ~11 mg/kg maternal hair after adjustment for n-3 LCPUFA confounding in the Seychelles cohort, with an uncertainty factor of 6.4), and the EFSA NDA Panel (2014) opinion on the health benefits of seafood consumption in relation to methylmercury risks, which concluded that consumption of about 1–2 servings up to 3–4 servings of seafood per week during pregnancy and adulthood is associated with beneficial effects on functional neurodevelopment in children and on coronary heart disease (CHD) mortality in adults. The contribution of this 2015 statement is a scenario-based calculation, executed for each population group across 17 EU Member States, of how many fish/seafood servings per week would be required to reach the TWI for methylmercury and the dietary reference value (DRV) for n-3 LCPUFA, given that group's reported pattern of contributing species and serving sizes. The Committee found that toddlers (1–<3 years) and other children (3–<10 years) are the age classes that reach the TWI at the fewest servings per week (typically 2–3 servings/week, and in some cases below 1 serving/week where high-MeHg predatory species dominate consumption), and concluded that no single Europe-wide fish-consumption recommendation is possible — each country must assess its own pattern of fish species consumed, limit intake of species high in methylmercury (notably swordfish, tuna, pike, hake, bass, bream, lobster, and Lophiiformes/monkfish) to protect women of child-bearing age and young children, and prefer species low in methylmercury (notably salmon/trout, herring, mackerel, cod, plaice, sole, squid, fish products, and whitefish) where the benefits of fish consumption can be obtained at substantially higher servings per week.
 
 ## Key numbers
@@ -239,7 +241,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

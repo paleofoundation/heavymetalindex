@@ -9,7 +9,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-20
-sources: 15
+sources: 16
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -80,7 +80,7 @@ The practical control levers for Infant Rice Cereal start with product identity 
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/standards/infant-rice-cereal.md` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology in CLAUDE.md Part 19 to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
+The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/standards/infant-rice-cereal.md` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
 
 ## Historical recalls and enforcement
 
@@ -89,16 +89,17 @@ No row-specific public recall or enforcement synthesis has been promoted for Inf
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic\|Vincevica-Gaile et al. 2024]]. *Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya*, BIO Web of Conferences | 2024 | Peer-reviewed | LY tAs occurrence in Commercial infant/toddler foods purchased in supermarkets in Sabha, Tripoli, and Benghazi, Libya. (n=36) |
 | 2 | [[sources/efsa2021-chronic-exposure-iAs\|EFSA 2021]]. *Chronic dietary exposure to inorganic arsenic*, EFSA Journal | 2021 | Government report | EU iAs, tAs occurrence in 13,608 analytical results on inorganic arsenic in food and drinking water (7,623 drinking water; 5,985 food) submitted to... (n=13608) |
-| 3 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | UK/EU Cd, iAs occurrence in Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants... (n=Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent.) |
-| 4 | [[sources/shi2020-rice-grain-cadmium-global-supply-chain\|Shi et al. 2020]]. *Rice Grain Cadmium Concentrations in the Global Supply-Chain*, Exposure and Health 12:869-876 | 2020 | Peer-reviewed | GLOBAL Cd occurrence in Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and... (n=2270) |
-| 5 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
-| 6 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
+| 3 | [[sources/lodhi2021-methyl-inorganic-mercury-infant-formula\|Lodhi et al. 2021]]. *Evaluation of the Methyl and Inorganic Mercury in Infant Formula Milk and Cereals Samples: Estimated Risk Assessment in Children under 2.0 Years*, ACS Food Science & Technology | 2021 | Peer-reviewed | PK tHg, MeHg occurrence in 20 infant formula milk samples (starting, follow-on, grown-up) and 10 baby cereal samples purchased in Hyderabad, Pakistan (n=30) |
+| 4 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | UK/EU Cd, iAs occurrence in Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants... (n=Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent.) |
+| 5 | [[sources/shi2020-rice-grain-cadmium-global-supply-chain\|Shi et al. 2020]]. *Rice Grain Cadmium Concentrations in the Global Supply-Chain*, Exposure and Health 12:869-876 | 2020 | Peer-reviewed | GLOBAL Cd occurrence in Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and... (n=2270) |
+| 6 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
+| 7 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -108,9 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [f7173b530](https://github.com/paleofoundation/heavymetalindex/commit/f7173b530) | 2026-05-25 | minor | Narrative text revised |
-| [c2b716ea1](https://github.com/paleofoundation/heavymetalindex/commit/c2b716ea1) | 2026-05-20 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

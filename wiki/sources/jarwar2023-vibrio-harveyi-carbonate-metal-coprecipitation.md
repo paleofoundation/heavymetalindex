@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Jarwar et al. 2023 - Vibrio harveyi carbonate co-precipitation of Cd, Cr, Pb, and Zn
 
+## Overview
+
 Jarwar and colleagues isolated a heavy-metal-resistant *Vibrio harveyi* strain from Mediterranean Sea sediment near Pozzuoli, Italy, and tested whether the organism could precipitate carbonates while removing dissolved Cd, Cr, Pb, and Zn from metal-spiked culture medium. This is primary remediation-method evidence, not food, ingredient, product, or drinking-water occurrence evidence: the reported concentrations are controlled aqueous-spike supernatants and mineral precipitate measurements.
 
 ## Key numbers
@@ -96,8 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [6d13cb03c](https://github.com/paleofoundation/heavymetalindex/commit/6d13cb03c) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

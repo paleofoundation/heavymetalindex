@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # de Lima et al. 2021 - Metals in canned tuna and sardines sold in Brazil
 
+## Overview
+
 This Data in Brief article reports ICP-OES measurements of metals, one nonmetal, and one metalloid in canned tuna and canned sardines purchased from supermarkets in Campo Grande, Mato Grosso do Sul, Brazil. The source tables use anonymized company codes; this wiki page aggregates by product form and range to avoid turning coded company rows into a brand- or company-comparison surface. Arsenic is reported as total arsenic (tAs) only; the study does not speciate inorganic arsenic.
 
 ## Key numbers
@@ -111,9 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [17e814db4](https://github.com/paleofoundation/heavymetalindex/commit/17e814db4) | 2026-05-19 | minor | Narrative text revised |
-| [2c972be07](https://github.com/paleofoundation/heavymetalindex/commit/2c972be07) | 2026-05-18 | major | 3 sections added and 2 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

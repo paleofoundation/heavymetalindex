@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-containing-baby-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 70b50f879a8c1f6dfc1bbee0519ac961c5bc310bbdd261a2629e0c87e6673aae
+source_page_sha256: 9c0d6f035582a09a02b7c45dd7b00b49470806bb1d83235039def7c746f11acd
 total_claims: 53
 cited_claims: 53
 uncited_claims: 0
 distinct_cited_targets: 28
 distinct_cited_sources: 22
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 50
-audit_log_total_rows: 2426
+audit_rows_for_cited_targets: 22
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -35,8 +35,8 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited targets | 28 |
 | distinct cited `sources/` pages | 22 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 50 |
-| audit log rows read | 2426 |
+| audit rows on cited target pages | 22 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 
@@ -265,9 +265,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `165 ppb`
 - Context: `ic]] | Fish/fish-mix baby foods in global scoping review | median 0.165 mg/kg | 165 ppb | [[sources/collado-lopez2025-he`
@@ -278,9 +277,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `0.016 mg/kg`
 - Context: `ry-total|Mercury]] | Fish/fish-mix baby foods in global scoping review | median 0.016 mg/kg | 16 ppb | [[sources/collado`
@@ -291,9 +289,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `16 ppb`
 - Context: `ry]] | Fish/fish-mix baby foods in global scoping review | median 0.016 mg/kg | 16 ppb | [[sources/collado-lopez2025-hea`
@@ -304,9 +301,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `0.445 ppb`
 - Context: `ury]] | Baby food stage 3 duplicate-diet stage | median 0.445 ng/g wet weight | 0.445 ppb wet weight | [[sources/tatsuta`
@@ -317,9 +313,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `15 ug/kg`
 - Context: `ls/arsenic-total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-in`
@@ -330,9 +325,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `15 ppb`
 - Context: `total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-infant-food-f`
@@ -343,9 +337,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `9 ug/kg`
 - Context: `. | | [[metals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infa`
@@ -356,9 +349,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `9 ppb`
 - Context: `tals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-fo`
@@ -369,9 +361,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `5 ug/kg`
 - Context: `h. | | [[metals/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016`
@@ -382,9 +373,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `5 ppb`
 - Context: `/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016-infant-food-fo`
@@ -395,9 +385,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `390 ppb`
 - Context: `um|cadmium]], and [[metals/lead|lead]] | Italian homogenized fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80`
@@ -408,9 +397,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `60 ppb`
 - Context: `and [[metals/lead|lead]] | Italian homogenized fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 p`
@@ -421,9 +409,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `6.8 ppb`
 - Context: `s/lead|lead]] | Italian homogenized fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 ppb; Cd <5 pp`
@@ -434,9 +421,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `80 ppb`
 - Context: `] | Italian homogenized fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 ppb; Cd <5 ppb; Pb <100 p`
@@ -447,9 +433,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `75 ppb`
 - Context: `homogenized fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 ppb; Cd <5 ppb; Pb <100 ppb | same nu`
@@ -460,9 +445,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `5 ppb`
 - Context: `fish products | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 ppb; Cd <5 ppb; Pb <100 ppb | same numeric ppb we`
@@ -473,9 +457,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `100 ppb`
 - Context: `ts | Al 390 ppb; tAs 60 ppb; tHg 6.8 ppb; Ni 80 ppb; Sn <75 ppb; Cd <5 ppb; Pb <100 ppb | same numeric ppb wet weight |`
@@ -486,9 +469,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 ### French TDS Category Rows
 
@@ -537,9 +519,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `0.016 mg/kg`
 - Context: `ps in the review at 0.165 mg/kg and the highest median mercury concentration at 0.016 mg/kg; Hg was detected in 100% of`
@@ -548,9 +529,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `390 ppb`
 - Context: `t-weight Table 5 summary rows for three homogenized fish products, including Al 390 ppb, total arsenic 60 ppb, total mer`
@@ -559,9 +539,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `60 ppb`
 - Context: `y rows for three homogenized fish products, including Al 390 ppb, total arsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb`
@@ -570,9 +549,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `6.8 ppb`
 - Context: `enized fish products, including Al 390 ppb, total arsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb, Sn <75 ppb, Cd <5 pp`
@@ -581,9 +559,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `80 ppb`
 - Context: `products, including Al 390 ppb, total arsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb, Sn <75 ppb, Cd <5 ppb, and Pb <1`
@@ -592,9 +569,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `75 ppb`
 - Context: `cluding Al 390 ppb, total arsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb, Sn <75 ppb, Cd <5 ppb, and Pb <100 ppb. The`
@@ -603,9 +579,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `5 ppb`
 - Context: `90 ppb, total arsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb, Sn <75 ppb, Cd <5 ppb, and Pb <100 ppb. The same study r`
@@ -614,9 +589,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `100 ppb`
 - Context: `rsenic 60 ppb, total mercury 6.8 ppb, Ni 80 ppb, Sn <75 ppb, Cd <5 ppb, and Pb <100 ppb. The same study reported that a`
@@ -625,9 +599,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 #### Claim `0.143 ug/kg`
 - Context: `d food had the highest estimated daily intake for total arsenic in the study at 0.143 ug/kg body weight per day, but it`
@@ -636,9 +609,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
     - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md`
-    - audit rows (1):
-      - `edit_id=ab2ff37d-60c1-42aa-abd2-4390ff20a056` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+  - `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md`
+    - audit rows: none
 
 ### Sources
 
@@ -788,8 +760,8 @@ _All claims trace to at least one cited source._
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` | sources | 0 | — | — |
 | `wiki/sources/mielech2021-contamination-food-infants-toddlers\.md` | sources | 0 | — | — |
 | `wiki/sources/silva2022-total-mercury-baby-food\.md` | sources | 0 | — | — |
-| `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md` | sources | 1 | 2026-05-30 | 2026-05-30 |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
+| `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

@@ -6,6 +6,8 @@ updated: 2026-05-12
 noindex: true
 ---
 
+## Overview
+
 This page is a literature comparator for finished-product heavy-metal results. It is intended for brand QA leads, retailer assortment reviewers, and analytical-method engineers who want a fast read on whether a single laboratory value sits inside the range reported by cited peer-reviewed and government sources for the relevant product category, and how that value compares to the applicable regulatory ceiling.
 
 ## How To Read The Output
@@ -29,9 +31,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [0b990ef32](https://github.com/paleofoundation/heavymetalindex/commit/0b990ef32) | 2026-05-30 | minor | Narrative text revised |
 | [f5649fb96](https://github.com/paleofoundation/heavymetalindex/commit/f5649fb96) | 2026-05-12 | minor | Narrative text revised |
 | [541b2a113](https://github.com/paleofoundation/heavymetalindex/commit/541b2a113) | 2026-04-30 | minor | Narrative text revised |
-| [2bf254de0](https://github.com/paleofoundation/heavymetalindex/commit/2bf254de0) | 2026-04-30 | major | 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

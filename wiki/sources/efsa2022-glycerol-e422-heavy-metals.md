@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # EFSA FAF Panel 2022 — Heavy metals in food additive E 422 (glycerol)
 
+## Overview
+
 The EFSA Panel on Food Additives and Flavourings assessed data submitted by interested business operators on the levels of arsenic, lead, cadmium, and mercury in 18 commercial glycerol (E 422) samples as part of a follow-up re-evaluation to update EU specifications. All 18 samples had all four toxic elements below detection limits (LOD range: As 0.02–0.43 mg/kg; Pb 0.02–0.14 mg/kg; Cd 0.02–0.1 mg/kg; Hg 0.005–0.19 mg/kg). The Panel found that at the current EU specification limits (As 3 mg/kg, Pb 2 mg/kg, Hg 1 mg/kg, Cd 1 mg/kg) potential exposure to these toxic elements from glycerol use would raise concerns, particularly for lead (MOE < 1 at maximum allowed concentration) and arsenic (insufficient MOE), and concluded that the maximum limits in EU specifications for all four elements should be lowered to reflect actual achievable commercial levels.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [67cbff729](https://github.com/paleofoundation/heavymetalindex/commit/67cbff729) | 2026-05-13 | major | 4 sections added; narrative text revised |

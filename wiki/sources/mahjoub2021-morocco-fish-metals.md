@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Mahjoub et al. 2021 — Mercury, lead, and cadmium in five fish species from a Moroccan dam, with health risk assessment
 
+## Overview
+
 This study measured total mercury (tHg), lead (Pb), and cadmium (Cd) in the muscle tissue of five fish species collected from the Mechraa-Hammadi Dam in Morocco, a drinking water and irrigation reservoir. Analytical methods used were GF-AAS (graphite furnace atomic absorption spectrometry) for Pb and Cd, and CV-AAS (cold vapor atomic absorption spectrometry) for Hg. All measured metal concentrations in fish muscle were below the limits established by EC Regulation N° 1881/2006 for food safety. A target hazard quotient (THQ) analysis was performed to characterize non-cancer health risk for consumers. This study provides food-chain-relevant metal occurrence data for freshwater dam fish in North Africa and a regulatory compliance comparison against EU standards.
 
 ## Key numbers
@@ -54,6 +56,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

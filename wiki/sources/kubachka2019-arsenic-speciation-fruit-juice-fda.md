@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Kubachka et al. 2019 — FDA HPLC-ICPMS method for arsenic speciation in fruit juices (AOAC First Action 2016.04)
 
+## Overview
+
 This FDA methods paper describes and validates a modified HPLC-ICPMS extraction procedure for quantitative arsenic speciation (iAs, DMA, MMA, AsB) in commercial fruit juices. The key methodological advance is the use of 0.28 M nitric acid (HNO3) extraction, which improves mass balance in low-recovery juices (particularly pomegranate and prune) relative to the original water-extraction procedure. The method became AOAC First Action Method 2016.04, making it the FDA reference method for arsenic speciation in fruit juices and relevant to the FDA action level of 10 µg/kg (ppb) iAs in apple juice.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [364792f87](https://github.com/paleofoundation/heavymetalindex/commit/364792f87) | 2026-05-13 | major | 4 sections added; narrative text revised |

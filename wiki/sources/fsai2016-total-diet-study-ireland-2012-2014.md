@@ -29,6 +29,8 @@ updated: 2026-05-26
 
 # FSAI 2016 — Total Diet Study Ireland 2012–2014
 
+## Overview
+
 This is the second Total Diet Study (TDS) conducted by the Food Safety Authority of Ireland, covering chemical exposure in the Irish population from food purchased in autumn 2012. 141 food samples (1,043 sub-samples) were collected from major Dublin retailers, prepared as consumed, and analysed under contract by the Food and Environment Research Agency (FERA, UK). Dietary exposure was modelled by combining measured occurrence levels with food consumption data from the National Adult Nutrition Survey (NANS, n = 1,500 adults aged 18+, 2008–2010) and the National Children's Food Survey (NCFS, n = 594 children aged 5–12, 2003–2004). The report covers contaminant metals (Al, total As, inorganic As, Cd, Cr, Pb, total Hg, Sn), essential nutrients (I, Se), food additives (nitrates, nitrites), acrylamide, mycotoxins, PAHs, BPA, phthalates, and pesticides. For heavy metals, Irish dietary exposures were below health-based guidance values for all metals except cadmium, where exceedances of the EFSA TWI were observed at the 97.5th percentile in both adults and children. Cereals were the dominant contributor to inorganic-arsenic, lead, and aluminium exposure; fish (white and canned) dominated mercury exposure.
 
 ## Key numbers
@@ -134,9 +136,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3a7d82c35](https://github.com/paleofoundation/heavymetalindex/commit/3a7d82c35) | 2026-05-26 | minor | Narrative text revised |
-| [a8004ac4f](https://github.com/paleofoundation/heavymetalindex/commit/a8004ac4f) | 2026-05-26 | major | 1 section added; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

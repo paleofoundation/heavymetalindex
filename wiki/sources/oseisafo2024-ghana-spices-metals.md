@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Osei-Safo et al. 2024 — As, Cd, and Pb in spices from Accra markets, Ghana
 
+## Overview
+
 Ninety spice samples across ten varieties (ginger, garlic, rosemary, aniseed, negro pepper, nutmeg, green pepper, white pepper, turmeric powder, black pepper) were purchased from three major markets in Accra and analyzed by microwave-digestion ICP-MS for arsenic, iron, zinc, lead, and cadmium. Arsenic and lead in turmeric powder, whole rosemary, and garlic, and lead in ginger, slightly exceeded Codex Alimentarius limits but remained below FAO/WHO permissible levels. All spices showed target hazard quotient (THQ) and hazard index (HI) values below 1, suggesting no acute non-carcinogenic health risk from individual spice consumption at typical Ghanaian ingestion rates, though the authors note the need for ongoing monitoring given long-term bioaccumulation potential.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0562446e9](https://github.com/paleofoundation/heavymetalindex/commit/0562446e9) | 2026-05-13 | major | 4 sections added; narrative text revised |

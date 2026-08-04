@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hossain et al. 2016 - Lead, cadmium, and chromium in vegetables from Bangladesh
 
+## Overview
+
 Hossain and colleagues conducted a nationwide surveillance study of five commonly grown vegetables from Bangladesh to assess Pb, total Cr, and Cd contamination. The study covers white potato, green cabbage, red spinach, white radish, and green bean from all 64 districts, with 292 samples collected and metal-specific analytical counts of 285-290. It is useful for geographic-variance evidence because the authors report contamination rates, maxima, medians, and upper quartiles by vegetable type and link Pb occurrence to a broadly distributed national pattern.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

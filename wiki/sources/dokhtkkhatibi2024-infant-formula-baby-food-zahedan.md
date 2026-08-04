@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Dokht Khatibi et al. 2024 — Lead and cadmium in infant formula and infant cereals, Zahedan, Iran
 
+## Overview
+
 This Sigma Journal of Engineering and Natural Sciences paper from Zahedan University of Medical Sciences measured Pb and Cd in 18 brands of powdered infant milk formula and 7 brands of infant cereals / baby foods collected from the Zahedan market (Sistan and Baluchestan Province, southeastern Iran) in March-April 2019. Pb and Cd were quantified by graphite-furnace atomic absorption spectroscopy on dry-ashed samples. Estimated Daily Intake (EDI) and Health Risk Index (HRI) were computed for two infant age strata (0-6 months and 6-12 months) using daily-consumption assumptions of 200 g/day at 6.5 kg body weight and 100 g/day at 10 kg body weight, respectively, drawn from manufacturer feeding tables. Although the article carries a 2024 publication date, the field sampling and laboratory work were conducted in 2019-2020; the authors describe the work as a 2020 Zahedan-market survey.
 
 ## Key numbers
@@ -99,9 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e0cd8571](https://github.com/paleofoundation/heavymetalindex/commit/1e0cd8571) | 2026-05-17 | minor | Narrative text revised |
-| [cfbc16c92](https://github.com/paleofoundation/heavymetalindex/commit/cfbc16c92) | 2026-05-17 | major | 2 sections added and 2 removed; narrative text revised |
-| [2d4429eb4](https://github.com/paleofoundation/heavymetalindex/commit/2d4429eb4) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

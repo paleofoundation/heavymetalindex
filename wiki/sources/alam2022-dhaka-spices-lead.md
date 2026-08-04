@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Alam et al. 2022 - Lead in branded and nonbranded powdered spices from Dhaka
 
+## Overview
+
 Alam et al. measured lead in 72 powdered spice samples collected from three local markets in Dhaka city, Bangladesh. The sample set covered cumin powder, red pepper chili powder, turmeric powder, and coriander powder, split between branded and nonbranded market items. Lead was quantified by flame atomic absorption spectrometry after hot-plate digestion. The highest source-stated lead range was in nonbranded turmeric powder, below 0.27 to 37.29 mg/kg; branded turmeric also reached 13.83 mg/kg. The paper reports that about 90% of samples were within the Bangladesh Standard maximum allowable limit, but the nonbranded red pepper and turmeric estimated daily intakes exceeded the maximum tolerable daily intake comparator used by the authors.
 
 ## Key numbers
@@ -104,8 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [43efd9678](https://github.com/paleofoundation/heavymetalindex/commit/43efd9678) | 2026-06-02 | minor | Narrative text revised |
-| [e41016120](https://github.com/paleofoundation/heavymetalindex/commit/e41016120) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

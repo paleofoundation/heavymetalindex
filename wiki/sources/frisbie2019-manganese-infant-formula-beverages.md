@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Frisbie et al. 2019 - manganese in infant formula and young-child beverages
 
+## Overview
+
 This PLOS ONE study measured manganese in 44 infant formulas and young-child nutritional beverage products from the United States and France using simultaneous PIXE/RBS analysis. Products included cow-milk, goat-milk, soy, rice, amino-acid, chocolate-containing, supplemented, and unsupplemented products labeled from birth through 3 years. The occurrence signal is not a toxic-metal contaminant in the usual Pb/Cd/As/Hg sense, but it is important for infant formula risk assessment because Mn has neurodevelopmental toxicity concerns at excess exposure.
 
 ## Key numbers
@@ -103,6 +105,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d784e29f4](https://github.com/paleofoundation/heavymetalindex/commit/d784e29f4) | 2026-05-19 | major | 5 sections added; narrative text revised |

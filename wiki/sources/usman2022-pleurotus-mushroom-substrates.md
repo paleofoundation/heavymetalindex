@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Usman et al. 2022 - Pleurotus mushroom substrates and heavy metals
 
+## Overview
+
 Usman et al. grew Pleurotus tuberregium mushrooms on four substrate types in Aba, Nigeria and analyzed Cd, Cr, and Pb in the harvested fruiting bodies. The study is useful as mushroom occurrence evidence because it reports a direct food matrix with substrate metadata. All three target metals were below the detection limit in mushrooms grown on the tested substrates.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [6461a39ba](https://github.com/paleofoundation/heavymetalindex/commit/6461a39ba) | 2026-05-31 | major | 1 section added |
 | [8291a0d46](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d46) | 2026-05-31 | major | 5 sections added; narrative text revised |

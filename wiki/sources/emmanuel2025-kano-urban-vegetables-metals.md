@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Emmanuel 2025 - Heavy metals in urban-grown vegetables from Kano State, Nigeria
 
+## Overview
+
 Emmanuel measured Cd, Ni, Pb, Mn, and total Cr in vegetables grown around Wudil, Nomans-Land, and Sharada in Kano State, Nigeria. Table 1 gives crop-by-site concentrations for pepper, lettuce, carrot, onion, beetroot, and spinach. Cadmium is the clearest occurrence concern in the table, reaching 0.36 mg/kg in Wudil carrot, while chromium reaches 0.42 mg/kg in Nomans-Land spinach and 0.41 mg/kg in Sharada onion.
 
 ## Key numbers
@@ -91,6 +93,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

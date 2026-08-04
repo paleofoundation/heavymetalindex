@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Agarwal et al. 2022 — Seasonal variation of Pb, Cd, Cr, Hg in vegetables from East Kolkata Wetlands, India
 
+## Overview
+
 This study examines seasonal variation in bioaccumulation and translocation of Pb, Cd, Cr, and tHg in three food crops grown in the East Kolkata Wetlands (EKW), a Ramsar-listed site that doubles as a sewage-treatment and urban food-supply system for Kolkata, India. Vegetables sampled were bottle gourd (Lagenaria siceraria), ladies' fingers/okra (Abelmoschus esculentus), and maize (Zea mays) from the Dhapa municipal solid-waste dumping site. Heavy metal concentrations in edible parts were substantially elevated relative to ambient soil, with the monsoon season producing the highest bioaccumulation and translocation factors across all species and metals.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [364792f87](https://github.com/paleofoundation/heavymetalindex/commit/364792f87) | 2026-05-13 | major | 4 sections added; narrative text revised |

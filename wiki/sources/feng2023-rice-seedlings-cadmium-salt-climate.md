@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Feng et al. 2023 - Rice seedling cadmium and salt uptake under temperature and CO2 shifts
 
+## Overview
+
 Feng and colleagues exposed rice seedlings to cadmium, sodium chloride, and combined cadmium-plus-sodium stress under two temperatures and three CO2 levels. The study is supply-chain and plant-uptake mechanism evidence for rice cultivation stressors, not market occurrence evidence for rice grain, salt, or finished foods.
 
 ## Key numbers
@@ -101,6 +103,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [41f7f1dbf](https://github.com/paleofoundation/heavymetalindex/commit/41f7f1dbf) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

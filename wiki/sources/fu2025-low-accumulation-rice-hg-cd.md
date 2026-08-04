@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Fu et al. 2025 - Low-accumulation rice and Hg/Cd mitigation
 
+## Overview
+
 Fu and colleagues tested low-accumulation rice cultivars, soil conditioners, foliar barrier agents, and conditioner application rates in Hg-Cd co-contaminated farmland in Tongren, Guizhou. This source is routeable rice evidence for husked/milled brown rice grain, with treatment-level field summaries for total Hg, Cd, total As, Pb, and total Cr; it should not be mistaken for an HMTc aggregate percentile or a general China rice benchmark.
 
 ## Key numbers
@@ -119,7 +121,7 @@ This page was built from the full PDF, including the abstract, Tables 1-8, Figur
 
 Merge-enhance pass 2026-06-02: trimmed `matrices:` from five entries to the two actual measurement matrices (paddy-soil, brown-rice-grain); the prior `rice-variety-field-trial`, `soil-conditioner-field-trial`, and `foliar-barrier-field-trial` entries described the experimental design rather than what was measured, and are removed.
 
-Audit-application 2026-06-02 (subagent PROMOTE verdict): added instrument vendor and model identifiers to the Methods section (AFS-933 and AFS-8220 from Jitian Instruments Beijing; ICAP RQ from Thermo Fisher; Avio 200 from PerkinElmer) per CLAUDE.md Part 12 Exception 2 (scientific-method vendor names are not brand-firewall violations and aid reproducibility). Audit also flagged that `[[mitigation/agronomic]]`, `[[mitigation/remediation-evidence]]`, and `[[testing/index]]` in Wiki-pages-touched fall outside the four-list taxonomy snapshot; verified that all three target pages exist in the live wiki (`wiki/mitigation/`, `wiki/testing/`), so the links are valid — the snapshot is the file with limited scope, not the wiki structure.
+Audit-application 2026-06-02 (subagent PROMOTE verdict): added instrument vendor and model identifiers to the Methods section (AFS-933 and AFS-8220 from Jitian Instruments Beijing; ICAP RQ from Thermo Fisher; Avio 200 from PerkinElmer) Exception 2 (scientific-method vendor names are not brand-firewall violations and aid reproducibility). Audit also flagged that `[[mitigation/agronomic]]`, `[[mitigation/remediation-evidence]]`, and `[[testing/index]]` in Wiki-pages-touched fall outside the four-list taxonomy snapshot; verified that all three target pages exist in the live wiki (`wiki/mitigation/`, `wiki/testing/`), so the links are valid — the snapshot is the file with limited scope, not the wiki structure.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -128,8 +130,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
-| [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [bbc6d2a1a](https://github.com/paleofoundation/heavymetalindex/commit/bbc6d2a1a) | 2026-06-02 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

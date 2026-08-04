@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Aishwarya et al. 2024 — Extremophiles in heavy-metal and e-waste bioremediation (Springer book-chapter review)
 
+## Overview
+
 Single-chapter narrative review of extremophilic microorganisms (thermophiles, halophiles, acidophiles, psychrophiles, polyextremophiles) and their potential for bioremediation of heavy-metal-contaminated environments and e-waste. The chapter surveys (a) the molecular mechanisms underlying heavy-metal resistance in extremophiles — efflux pumps (Cus, CopA), mercury reductase (MerA), organomercurial lyase (MerB), Cr(VI)→Cr(III) reduction, metalloproteins with cysteine-thiol metal binding, HKT1-mediated salt-and-metal tolerance — (b) biosorption versus bioaccumulation as the two principal microbial metal-removal modes, with a tabulated efficiency inventory drawn from primary literature, and (c) the composition and remediation prospects of e-waste, which contains Pb, Cd, Hg, Cr-VI, Ni, Cu, Be, Ba, Co, Fe, Li, La, Mn, Mo, Ag plus persistent organic pollutants (dioxins, PCBs, PBDEs, PVC). The chapter is descriptive: it walks through each mechanism and bacterial genus with examples drawn from 60+ cited references, names representative biosorption and bioaccumulation efficiency figures from the primary literature, and frames extremophile bioremediation as underexplored. There is no primary sampling, no inclusion criteria, no quality assessment, and no quantitative synthesis. The scope is environmental bioremediation engineering, not food or supply-chain contamination; relevance to the Heavy Metal Index is limited to (a) the mechanistic vocabulary it provides for downstream microbiome-and-metal pages, and (b) the bacterial-strain inventory at Tables 1 and 2, which restates primary biosorption and bioaccumulation efficiency figures. Evidence tier C; cite as a leads document only.
 
 ## Key numbers
@@ -136,8 +138,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [922a9c644](https://github.com/paleofoundation/heavymetalindex/commit/922a9c644) | 2026-06-01 | major | 1 source added; 1 section added; narrative text revised |
-| [04c340cbb](https://github.com/paleofoundation/heavymetalindex/commit/04c340cbb) | 2026-06-01 | major | 1 source added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

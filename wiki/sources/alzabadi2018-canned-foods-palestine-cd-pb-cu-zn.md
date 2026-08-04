@@ -30,6 +30,8 @@ updated: 2026-05-25
 
 # Al Zabadi et al. 2018 — Cd, Pb, Cu, and Zn in Palestinian canned foods
 
+## Overview
+
 This study quantified cadmium, lead, copper, and zinc in 16 canned food samples — four products (beans, chickpeas, corn, mushroom) with four different brand-product combinations each — sold in a single supermarket in Nablus, Palestine, using flame atomic absorption spectrometry (FAAS, Thermo Scientific iCE-3000 series). Samples originated from Thailand, China, the United Arab Emirates, Jordan, and Palestine. Concentrations are reported in mg/L of the digestion solution (5 g sample digested into 50 mL final volume; on a wet-weight food basis this corresponds to a 10× multiplier into mg/kg). Cadmium and copper concentrations exceeded the authors' stated permissible-limit references in multiple samples; lead exceeded its 1 mg/L reference in one canned corn sample; zinc was within the cited reference across the dataset.
 
 ## Key numbers
@@ -121,8 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [92557b12a](https://github.com/paleofoundation/heavymetalindex/commit/92557b12a) | 2026-05-25 | major | 4 sections added and 3 removed; narrative text revised |
-| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

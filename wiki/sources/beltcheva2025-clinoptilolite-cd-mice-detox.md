@@ -26,6 +26,8 @@ updated: 2026-06-02
 
 # Beltcheva et al. 2025 - Modified clinoptilolite as oral Cd sorbent in ICR mice
 
+## Overview
+
 Beltcheva and colleagues ran a 45-day in vivo experiment testing whether Na-exchanged and tribo-activated natural clinoptilolite from the Beli Plast deposit in Bulgaria, administered as a 12.5 wt.% dietary supplement, mitigates cadmium toxicity in male ICR (CD-1) mice exposed to environmentally relevant Cd through drinking water. This is primary remediation-mechanism evidence in a mammalian model, not food or product occurrence data: the measured endpoints are Cd accumulation in liver, kidney, and feces (ICP-MS), hematological indices, oxidative stress markers (MDA and GSH in liver and kidney homogenates), body and organ mass, and genotoxicity (peripheral-blood micronucleus frequency).
 
 ## Key numbers
@@ -181,9 +183,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [1409a4842](https://github.com/paleofoundation/heavymetalindex/commit/1409a4842) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

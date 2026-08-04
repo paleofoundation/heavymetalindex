@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Zhan et al. 2023 - Yangshan gold-mine soil metals
 
+## Overview
+
 Zhan and colleagues measured As, Cd, Hg, and Pb in soil around the Anba-Getiaowan mining area of the Yangshan Gold Belt in Gansu, China. This is source-attribution and soil-pathway evidence: it does not measure mineral water or food, but it documents arsenic loading in mining-area soils and nearby surface water, tied by the authors to arsenic-bearing gold-mineralization and mining-development context.
 
 ## Key numbers
@@ -74,6 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c0789b813](https://github.com/paleofoundation/heavymetalindex/commit/c0789b813) | 2026-06-10 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

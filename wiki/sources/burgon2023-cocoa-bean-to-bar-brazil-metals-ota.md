@@ -32,6 +32,8 @@ updated: 2026-05-30
 
 # Burgon 2023 — Inorganic contaminants and ochratoxin A in Brazilian cocoa beans and "bean-to-bar" chocolates
 
+## Overview
+
 This ITAL master's thesis (Campinas, Brazil) validated and applied ICP OES, ICP-MS and HPLC-FLD methods to quantify seven trace elements (As, Cd, Co, Cu, Hg, Pb, Se) and ochratoxin A in cocoa beans and artisanal "bean-to-bar" chocolates produced from Brazilian cacao between 2020 and 2022. Across 23 cocoa-bean samples and 65 bean-to-bar chocolates, total arsenic and total mercury were below detection in every sample; cadmium in Amazonas cocoa beans averaged 0.68 mg/kg, exceeding the Brazilian maximum tolerated limit of 0.30 mg/kg for cocoa paste, and one Amazonas-origin 70% dark chocolate reached 0.74 mg/kg Cd, exceeding the 0.40 mg/kg limit for chocolates >40% cocoa solids in both BRASIL IN 160/2022 and EU 2014. Cadmium exposure modelled at 15.75 g/day of dark chocolate reached 94% of the JECFA PTMI in children (15 kg body weight). Cobalt at the maximum dark-chocolate level (1.88 mg/kg) modelled to 123% of the EFSA upper level in children. Ochratoxin A was detected in 30% of cocoa beans and roughly 19% of chocolates, with all values below Brazilian regulatory limits.
 
 ## Key numbers
@@ -156,8 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
 | [95f6bf7ba](https://github.com/paleofoundation/heavymetalindex/commit/95f6bf7ba) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [7e144cdba](https://github.com/paleofoundation/heavymetalindex/commit/7e144cdba) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -34,6 +34,8 @@ updated: 2026-06-03
 
 # Yap & Al-Mutairi 2022 — Ni in 19 marine fish species, two molluscs, and one cited mussel dataset from Peninsular Malaysia, with EDI/THQ/EWI risk assessment
 
+## Overview
+
 This MDPI Biology paper measured nickel in three locally caught seafood types from Peninsular Malaysia — 19 commercial marine fish species from Setiu (Terengganu) on the east coast, the mangrove snail *Cerithidea obtusa* pooled from 17 west-coast mangrove sites, and the cockle *Anadara granosa* pooled from 12 west-coast intertidal sites — and compared the resulting human-health risk profile (estimated daily intake, target hazard quotient, and estimated weekly intake) to a 40-site green-lipped mussel *Perna viridis* dataset that the same group had previously published. Nickel was determined by air-acetylene flame atomic absorption spectrometry on nitric-acid digests of dried-and-ground tissue; DOLT-3 (dogfish liver) certified reference material was recovered at 88.8–119%. Wet-weight Ni ranged 0.11–0.90 mg/kg in the fish muscle, 0.40–6.14 mg/kg in the snail total soft tissue, and 0.15–3.23 mg/kg in the cockle total soft tissue, with all three datasets falling well below the only Ni regulatory ceiling the authors could find (the US FDA molluscan-shellfish action level of 80 mg/kg wet weight). Target hazard quotients for nickel were <1.00 for average and high-level consumers across all three newly measured seafood types; only the high-level mussel consumers of the *P. viridis* dataset from the polluted Kampung Pasir Puteh sites had THQ values >1.00 in the cited comparison data.
 
 ## Key numbers
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [2eb0dab4c](https://github.com/paleofoundation/heavymetalindex/commit/2eb0dab4c) | 2026-06-03 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

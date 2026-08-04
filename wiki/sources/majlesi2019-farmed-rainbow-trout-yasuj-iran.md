@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Majlesi et al. 2019 — Heavy metals in farmed rainbow trout, Yasuj, Iran
 
+## Overview
+
 Majlesi and colleagues measured mercury (total Hg by cold-vapour atomic absorption), cadmium, and lead in the muscle tissue of farmed rainbow trout (Oncorhynchus mykiss) sampled from six farms across three aquaculture sites in Yasuj, southwest Iran, during February–April 2018. The three sites differed by water-supply contamination probability: site A close to the spring source, site B downstream of cities and villages, and site C downstream of a rural area. Three commercial feed-pellet mixtures (I, II, III) used in the farms were also analysed. Overall mean muscle concentrations were 0.022 mg/kg Hg, 0.105 mg/kg Cd, and 1.07 mg/kg Pb (dry weight). Mercury and cadmium in edible tissue were below the maximum permissible limits set by the WHO, FDA, FAO, and EC; lead (1.07 mg/kg) exceeded the WHO limit (0.5 mg/kg) and the EC limit (1.0 mg/kg) but remained below the FDA (1.7 mg/kg) and FAO (2.0 mg/kg) limits. Fish from the lower-contamination spring-fed site A carried the lowest cadmium and lead concentrations. Cd and Pb concentrations correlated negatively and significantly with fish weight, and biomagnification factors for all three metals were below 1, indicating no biomagnification from feed to fish.
 
 ## Key numbers
@@ -115,8 +117,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 | [f3327060e](https://github.com/paleofoundation/heavymetalindex/commit/f3327060e) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [df2865014](https://github.com/paleofoundation/heavymetalindex/commit/df2865014) | 2026-05-30 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

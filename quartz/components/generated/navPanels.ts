@@ -39,37 +39,37 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Lead",
             "slug": "metals/lead",
-            "count": 1196
+            "count": 1465
           },
           {
             "label": "Cadmium",
             "slug": "metals/cadmium",
-            "count": 1146
+            "count": 1593
           },
           {
             "label": "Arsenic",
             "slug": "metals/arsenic",
-            "count": 451
+            "count": 893
           },
           {
             "label": "Mercury",
             "slug": "metals/mercury",
-            "count": 372
+            "count": 881
           },
           {
             "label": "Nickel",
             "slug": "metals/nickel",
-            "count": 540
+            "count": 773
           },
           {
             "label": "Chromium",
             "slug": "metals/chromium",
-            "count": 542
+            "count": 876
           },
           {
             "label": "Aluminum",
             "slug": "metals/aluminum",
-            "count": 333
+            "count": 526
           }
         ]
       },
@@ -104,7 +104,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Tin",
             "slug": "metals/tin",
-            "count": 115
+            "count": 228
           },
           {
             "label": "Antimony",
@@ -151,17 +151,17 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Rice",
             "slug": "ingredients/rice",
-            "count": 275
+            "count": 280
           },
           {
             "label": "Cocoa",
             "slug": "ingredients/cocoa",
-            "count": 68
+            "count": 69
           },
           {
             "label": "Fish",
             "slug": "ingredients/fish",
-            "count": 310
+            "count": 314
           },
           {
             "label": "Leafy greens",
@@ -176,7 +176,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Seaweed",
             "slug": "ingredients/seaweed",
-            "count": 85
+            "count": 86
           },
           {
             "label": "Cinnamon",
@@ -279,7 +279,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Rice-based baby cereal",
             "slug": "products/baby-cereals-dry-rice-based",
-            "count": 77
+            "count": 81
           },
           {
             "label": "Non-rice baby cereal",
@@ -294,7 +294,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Vegetable purees",
             "slug": "products/root-vegetable-purees",
-            "count": 25
+            "count": 184
           },
           {
             "label": "Rice snacks & crackers",
@@ -309,27 +309,27 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Seafood",
             "slug": "products/fish-marine-predatory",
-            "count": 104
+            "count": 372
           },
           {
             "label": "Shellfish",
             "slug": "products/shellfish",
-            "count": 153
+            "count": 454
           },
           {
             "label": "Seaweed & kelp foods",
             "slug": "products/seaweed-kelp-foods",
-            "count": 99
+            "count": 207
           },
           {
             "label": "Bottled drinking water",
             "slug": "products/bottled-drinking-water",
-            "count": 27
+            "count": 28
           },
           {
             "label": "Baby wipes",
             "slug": "products/baby-wipes",
-            "count": 9
+            "count": 83
           },
           {
             "label": "Baby lotion & cream",
@@ -339,7 +339,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Mineral sunscreen",
             "slug": "products/baby-sunscreen-mineral",
-            "count": 10
+            "count": 141
           }
         ]
       },
@@ -458,7 +458,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 59 regulations"
+    "allLabel": "All 62 regulations"
   },
   {
     "key": "evidence",
@@ -499,7 +499,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 12
+            "count": 13
           }
         ]
       },
@@ -509,7 +509,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Source archive",
             "slug": "sources",
-            "count": 2219
+            "count": 3020
           },
           {
             "label": "Synthesis findings",

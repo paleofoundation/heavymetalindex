@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Yao et al. 2022 — Copper, lead, cadmium, chromium, and nickel in Tieguanyin tea (Fujian, China)
 
+## Overview
+
 This study quantifies copper, lead, cadmium, chromium, and nickel in 91 Tieguanyin oolong tea samples from Fujian Province, China, characterises their transfer rates from dry leaf to brewed infusion in a fixed-protocol brewing experiment, and computes hazard quotients and lifetime carcinogenic risks for six demographic subpopulations (male/female, age 18–40/age ≥41, urban/rural) using subpopulation-specific tea consumption and body-weight inputs from the authors' previous consumption survey. It is routeable for Cu, Pb, Cd, Cr, and Ni occurrence evidence on Camellia sinensis tea (oolong-class Tieguanyin) and on Tieguanyin tea infusions in a Chinese production-region market.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [e4938ae98](https://github.com/paleofoundation/heavymetalindex/commit/e4938ae98) | 2026-06-08 | major | 5 sections added; narrative text revised |

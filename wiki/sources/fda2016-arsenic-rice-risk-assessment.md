@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # FDA 2016 — Arsenic in rice and rice products risk assessment report
 
+## Overview
+
 FDA's Center for Food Safety and Applied Nutrition (CFSAN) released this risk assessment in March 2016 (revised version for public comment; earlier drafts from 2013–2015). The report characterizes lung and bladder cancer risk from inorganic arsenic in rice and rice products for the U.S. population, using FDA's own dose-response model and exposure assessment data from FDA's 2013 and 2015 arsenic-in-rice surveys, Consumer Reports survey data, and dietary consumption data. The report was the key scientific basis for FDA's proposed action level for inorganic arsenic in infant rice cereal (100 ppb iAs) that was finalized in 2020 under the Closer to Zero program. The concentration data section includes average iAs by product category for infant/toddler foods, which is among the most comprehensive FDA surveillance datasets for rice-based infant food.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

@@ -31,31 +31,9 @@ created_routed_sources: 3
 
 # Mango Juice
 
-<!-- hmi-completeness-scorecard -->
+## Overview
 
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 0/10 HMTc analytes, total n=0 | only 0/10 analytes have evidence |
-| D2 Regional coverage | OK | 6 jurisdictions, top ES 20% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 3 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | GAP | no priority analytes | — |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming mango-juice: fda2022-draft-lead-juice, codex-cxs-193-1995 |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | — |
-| D11 Standards-readiness | NOT-READY | no priority analytes | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 0.67, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.00 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
-
-Source-grounded narrative on this page is populated incrementally from the routed source pages per CLAUDE.md Part 9; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
+Source-grounded narrative on this page is populated incrementally from the routed source pages; values for analytes marked as data gap below have not yet accumulated 2+ A-tier contributing sources.
 ## Heavy metal contamination profile
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
@@ -76,19 +54,19 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Farid SM and Enani MA (2010). *Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia*. Medical Journal of Islamic World Academy of Sciences. Peer-reviewed, A-tier. [[sources/farid2010-fruit-juices-jeddah-trace-elements|Source record]]
-2. Paudel N, Dhakal A, and Pradhanang SS (2024). *Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy*. International Journal of Applied Sciences and Biotechnology 12(3): 158-165. [https://doi.org/10.3126/ijasbt.v12i3.70167](https://doi.org/10.3126/ijasbt.v12i3.70167). Peer-reviewed, B-tier. [[sources/paudel2024-packaged-fruit-juices-nepal|Source record]]
-3. Sobhanardakani S, Shahmoradi B, and Jahangard A (2017). *Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices*. Annals of Military and Health Sciences Research. [https://doi.org/10.5812/amh.68743](https://doi.org/10.5812/amh.68743). Peer-reviewed, A-tier. [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran|Source record]]
-4. U.S. Food and Drug Administration (2022). *Draft Guidance for Industry: Action Levels for Lead in Juice*. FDA Draft Guidance for Industry. [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice). Government guidance, A-tier. [[sources/fda2022-draft-lead-juice|Source record]]
-5. Codex Alimentarius Commission (1995). *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*. Codex Alimentarius (Joint FAO/WHO Food Standards Programme). [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf). Government report, A-tier. [[sources/codex-cxs-193-1995|Source record]]
+1. [[sources/farid2010-fruit-juices-jeddah-trace-elements|Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia]]<span class="hmi-ref-meta">Farid SM and Enani MA · Medical Journal of Islamic World Academy of Sciences · 2010</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/paudel2024-packaged-fruit-juices-nepal|Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy]]<span class="hmi-ref-meta">Paudel N, Dhakal A, and Pradhanang SS · International Journal of Applied Sciences and Biotechnology 12(3): 158-165 · 2024 · [doi.org/10.3126/ijasbt.v12i3.70167](https://doi.org/10.3126/ijasbt.v12i3.70167)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran|Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices]]<span class="hmi-ref-meta">Sobhanardakani S, Shahmoradi B, and Jahangard A · Annals of Military and Health Sciences Research · 2017 · [doi.org/10.5812/amh.68743](https://doi.org/10.5812/amh.68743)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/fda2022-draft-lead-juice|Draft Guidance for Industry: Action Levels for Lead in Juice]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Draft Guidance for Industry · 2022 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-action-levels-lead-juice)</span><span class="hmi-ref-tag">Guidance</span>
+5. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -147,9 +125,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7b9099a2f](https://github.com/paleofoundation/heavymetalindex/commit/7b9099a2f) | 2026-05-17 | major | 5 sources added; narrative text revised |
-| [0b917c57b](https://github.com/paleofoundation/heavymetalindex/commit/0b917c57b) | 2026-05-17 | minor | Narrative text revised |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

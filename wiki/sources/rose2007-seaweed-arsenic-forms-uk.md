@@ -26,6 +26,8 @@ sampling_year_range: 2003
 
 # Rose 2007 — Total and inorganic arsenic in UK retail seaweed (forms, concentration, exposure)
 
+## Overview
+
 Rose and colleagues (UK Food Standards Agency with Defra Central Science Laboratory) measured total and inorganic arsenic in 31 dried seaweed products covering five varieties on UK retail sale, analysing each as sold and, where preparation was advised, after soaking/cooking and in the soaking water. Total arsenic ranged 18–124 mg/kg across all samples, but inorganic arsenic was detectable (LOD 0.3 mg/kg) only in the nine hijiki samples, at 67–96 mg/kg as sold (68–73% of total arsenic); every arame, wakame, kombu, and nori sample held inorganic arsenic below 0.3 mg/kg (<2% of total). Preparation reduced but did not eliminate hijiki's inorganic arsenic (mean 77 mg/kg as sold falling to a 67% inorganic fraction after soaking), contradicting producer claims that soaking removes it. On the strength of this survey the FSA issued formal consumer advice to avoid eating hijiki seaweed.
 
 ## Key numbers
@@ -96,8 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c5a5510aa](https://github.com/paleofoundation/heavymetalindex/commit/c5a5510aa) | 2026-06-08 | minor | Narrative text revised |
-| [95b689d4d](https://github.com/paleofoundation/heavymetalindex/commit/95b689d4d) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

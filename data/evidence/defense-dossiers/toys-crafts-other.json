@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-crafts-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cb0df1cadf91fde4ef06aa7c71b42af95f3b1e1be3d7975df880c12495464c38",
-      "content_bytes": 9207,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "7103b8f4b3845813fdff8777c9b087c8d8209a6ba7fed60bdcf34f068cffd09e",
+      "content_bytes": 9371,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/toys-crafts-other.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/toys-crafts-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "0edb11fc4818d59c4a7a298bcbcb66f5ab3b98188b4a0828b05eb120062c311a",
-          "content_bytes": 41004,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e3381bb879178ccd1e232186f56428f004d5247b89102afc24aed17c7b51825f",
+          "content_bytes": 41098,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gautam2024-finger-paints-metals-formaldehyde",
         "content_pin": {
-          "content_sha256": "8c8821157377be6867fdfb99ab9a9b0cffc74a4f1b78322a722d465f15c07984",
-          "content_bytes": 12516,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "429673d1980a88ac4c4fd40de3385455bc0356b12a3ab78360c143e37499f1db",
+          "content_bytes": 13234,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md | sha256sum"
         }
       },
       {
@@ -100,12 +100,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jalal2020-modeling-clay-metals",
         "content_pin": {
-          "content_sha256": "57b0864eb04a39321d48e78bdf7556c0f4d8188d0644ab7a4b6862883502aece",
-          "content_bytes": 6361,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "d573a1b6acde4aa87103834501b768a6e6cc962b74354286cf9a2fe166bacd08",
+          "content_bytes": 7065,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/jalal2020-modeling-clay-metals.md | sha256sum"
         }
       }
     ]

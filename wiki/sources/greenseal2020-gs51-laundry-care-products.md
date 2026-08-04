@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Green Seal 2020 - GS-51 laundry care products standard
 
+## Overview
+
 Green Seal GS-51 Edition 1.6 is a voluntary environmental certification standard for industrial and institutional laundry care products. It is not an occurrence study and reports no measured product concentrations, but it gives routeable regulatory context for laundry detergents, laundry additives, fabric softeners, prewash/stain-removal products, anti-static products, fabric refreshers, anti-wrinkle products, starch/sizing/fabric-finish products, and fabric protectants. Its heavy-metal relevance is limited to binary intentional-addition prohibitions in formulated products and a `100 ppm` sum ceiling for four metals in packaging.
 
 ## Key numbers
@@ -100,6 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c7e5aec50](https://github.com/paleofoundation/heavymetalindex/commit/c7e5aec50) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

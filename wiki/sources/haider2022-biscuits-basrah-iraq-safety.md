@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Haider et al. 2022 — Nutritional quality and safety of imported biscuits marketed in Basrah, Iraq
 
+## Overview
+
 This peer-reviewed MDPI Applied Sciences study analyzed 36 imported biscuit samples (three types: cookies, crackers, and digestives) purchased in Basrah city markets, Iraq, from four countries of origin: Spain, Iran, Turkey, and the United Arab Emirates. Nine brands were collected per country of origin, three replicates per sample, sampled July–November 2021. The work measured nutritional composition (moisture, ash, fat, protein, fiber, carbohydrates), food safety parameters (water activity, peroxide value, HMF, acrylamide), heavy metals (Pb, Cd) and trace elements (Zn, Cu), and microbiological load. Cadmium was entirely absent across all 36 samples and all three biscuit types; lead was detected in all samples but remained considerably below the EU Regulation 1881/2006 limit of 200 µg/kg, with Spanish-origin biscuits showing the lowest lead values and Iranian biscuits the highest. Acrylamide content exceeded the EU limit of 350 µg/kg in multiple non-EU-origin samples, and yeasts and molds exceeded FAO/WHO limits in five samples, pointing to food safety concerns beyond heavy metals for biscuits in this market.
 
 ## Key numbers
@@ -95,7 +97,7 @@ Limitations relevant to downstream use:
 - Limitation paragraph: rewritten to be explicit about which HMTc analytes are not addressed (As, Hg, Ni, Cr, Sn, Al, Sb), about the absence of LOD/LOQ, and about the single-market / single-window sampling design.
 - Acrylamide and HMF results are retained on the page even though they are outside the HMTc analyte vocabulary, because they are integral to the paper's safety conclusions and a future course or risk-communication asset on the snacks/biscuits category will want them traceable to a peer-reviewed source.
 - Audit subagent (2026-05-20) flagged the 622% fat and 577% protein label-discrepancy extremes as misattributed to BSD1-U (UAE digestive); verified against Table 1 of the PDF — both extremes belong to BSCr1-U (UAE cracker; fat D=18.05, L=2.5, Δ%=622; protein D=13.54, L=2.1, Δ%=577). The source's page-7 body text contradicts its own Table 1 on the sample ID. The wiki page now follows Table 1 (authoritative) and adds an explicit footnote noting the source-internal inconsistency. Corrections applied in both the Key numbers paragraph and the Courses-Implications paragraph.
-- Audit subagent (2026-05-20) flagged the Certification-Implications cross-source synthesis sentence ("consistent with the working expectation that wheat-flour-derived baked goods carry lower Pb and Cd burdens than rice-based, cocoa-based, or root-vegetable-based products") as belonging at the synthesis-pass layer rather than on a source page (CLAUDE.md Part 9). Verified — the comparison imports knowledge the paper itself does not produce (the paper does not measure rice, cocoa, or root vegetables). Sentence trimmed; replaced with an explicit statement that cross-ingredient synthesis is the synthesis pass's responsibility.
+- Audit subagent (2026-05-20) flagged the Certification-Implications cross-source synthesis sentence ("consistent with the working expectation that wheat-flour-derived baked goods carry lower Pb and Cd burdens than rice-based, cocoa-based, or root-vegetable-based products") as belonging at the synthesis-pass layer rather than on a source page. Verified — the comparison imports knowledge the paper itself does not produce (the paper does not measure rice, cocoa, or root vegetables). Sentence trimmed; replaced with an explicit statement that cross-ingredient synthesis is the synthesis pass's responsibility.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -104,9 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [77a9e11b7](https://github.com/paleofoundation/heavymetalindex/commit/77a9e11b7) | 2026-05-20 | minor | Narrative text revised |
-| [338e4c438](https://github.com/paleofoundation/heavymetalindex/commit/338e4c438) | 2026-05-20 | major | 1 section added and 1 removed; narrative text revised |
-| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

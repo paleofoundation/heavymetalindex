@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Brima and Haris 2026 - toxic elements in UK tap and bottled drinking water
 
+## Overview
+
 Brima and Haris measured 26 elements in bottled and tap drinking water from Leicester, UK, and compared the findings with literature reports for African drinking-water supplies. The paper is directly useful for bottled-drinking-water occurrence evidence because it separates bottled drinking water from tap drinking water and reports detection patterns for Cd, Pb, As, and Hg. The source also provides cross-market context rather than a pooled benchmark for African countries.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
 | [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |

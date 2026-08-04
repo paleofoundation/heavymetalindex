@@ -85,49 +85,27 @@ sources: 17
 
 # Soy-Based Infant Formula
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | GAP | 2/10 HMTc analytes, total n=7 | only 2/10 analytes have evidence |
-| D2 Regional coverage | OK | 10 jurisdictions, top US 44% | — |
-| D3 Anthropogenic evidence | GAP | 4 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 4 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | POOLABLE | iAs POOLABLE, tAs POOLABLE | — |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 12 claims checked, 12 supported; 6 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: iAs, tAs |
-| D11 Standards-readiness | PARTIAL | priority: iAs, tAs; pairing 0 paired, 2 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.67, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.75, scale 0.75 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient/profile node for soy-based infant formula routing. Finished formula occurrence values belong on the relevant formula product pages unless a source reports ingredient-only values.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Shelle-Ann M. Burrell and Christopher Exley (2010). *There is (still) too much aluminium in infant formulas*. BMC Pediatrics. [https://doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63). Peer-reviewed, A-tier. [[sources/burrell2010-aluminium-in-infant-formulas|Source record]]
-2. Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. (2025). *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*. American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026. [https://doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001). Peer-reviewed, A-tier. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Source record]]
-3. Courtney C. Carignan, Kathryn L. Cottingham, Brian P. Jackson, Shohreh F. Farzan, A. Jay Gandolfi, Tracy Punshon, et al. (2015). *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*. Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506. [https://doi.org/10.1289/ehp.1408789](https://doi.org/10.1289/ehp.1408789). Peer-reviewed, A-tier. [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Source record]]
-4. Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham (2012). *Arsenic concentration and speciation in infant formulas and first foods*. Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223. [https://doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Source record]]
-5. Lawrence H. Pacquette and Anumolu Anumula (2016). *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*. Journal of AOAC International, Vol. 99, No. 3, pp. 766-779. [https://doi.org/10.5740/jaoacint.15-0211](https://doi.org/10.5740/jaoacint.15-0211). Peer-reviewed, A-tier. [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Source record]]
-6. SCHEER (2017). *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*. Scientific Committee on Health, Environmental and Emerging Risks (SCHEER), European Commission. [https://doi.org/10.2875/264211](https://doi.org/10.2875/264211). Government report, A-tier. [[sources/scheer2017-aluminium-tolerable-intake-toys|Source record]]
+1. [[sources/burrell2010-aluminium-in-infant-formulas|There is (still) too much aluminium in infant formulas]]<span class="hmi-ref-meta">Shelle-Ann M. Burrell and Christopher Exley · BMC Pediatrics · 2010 · [doi.org/10.1186/1471-2431-10-63](https://doi.org/10.1186/1471-2431-10-63)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review]]<span class="hmi-ref-meta">Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. · American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 · 2025 · [doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort]]<span class="hmi-ref-meta">Courtney C. Carignan, Kathryn L. Cottingham, Brian P. Jackson, Shohreh F. Farzan, A. Jay Gandolfi, Tracy Punshon, et al. · Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 · 2015 · [doi.org/10.1289/ehp.1408789](https://doi.org/10.1289/ehp.1408789)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Arsenic concentration and speciation in infant formulas and first foods]]<span class="hmi-ref-meta">Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham · Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 · 2012 · [doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation]]<span class="hmi-ref-meta">Lawrence H. Pacquette and Anumolu Anumula · Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 · 2016 · [doi.org/10.5740/jaoacint.15-0211](https://doi.org/10.5740/jaoacint.15-0211)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/scheer2017-aluminium-tolerable-intake-toys|Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys]]<span class="hmi-ref-meta">SCHEER · 2017 · [doi.org/10.2875/264211](https://doi.org/10.2875/264211)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -214,9 +192,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [c06900296](https://github.com/paleofoundation/heavymetalindex/commit/c06900296) | 2026-05-17 | major | 6 sources added; narrative text revised |
-| [e3eb66979](https://github.com/paleofoundation/heavymetalindex/commit/e3eb66979) | 2026-05-17 | major | 3 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Rubio et al. 2023 — Cd, Pb, Hg in cereals from Madeira and Azores
 
+## Overview
+
 Rubio and colleagues measured cadmium, lead, and total mercury in cereals and cereal derivatives commercially sold in Madeira and the Azores (Portugal's Atlantic island archipelagos) and assessed dietary exposure against EU regulatory maxima and tolerable intake values. The study found widespread exceedances of EU maximum levels: in Madeira, all cereals except maize exceeded the EU Cd maximum, and 50% of rye and 25% of corn flour samples exceeded the EU Pb limit. Oats showed the highest Cd (0.307 mg/kg) and rye showed the highest Pb (0.347 mg/kg). The results indicate that consumers relying on locally sold cereals in these island territories face meaningful dietary exposures to Cd and Pb, with Margin of Exposure (MOE) values for Pb from rye and corn flour falling below levels generally considered to indicate low concern for toxicity.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e307b9560](https://github.com/paleofoundation/heavymetalindex/commit/e307b9560) | 2026-05-13 | major | 4 sections added; narrative text revised |

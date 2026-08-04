@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Cardoso et al. 2024 - Cadmium stress and volatile communication among bacteria
 
+## Overview
+
 Cardoso and colleagues tested how cadmium-stressed bacteria influence neighboring bacteria through volatile compounds. This is primary mechanistic evidence for Cd-driven microbial stress response, not food/product occurrence evidence. The source's routeable metal concentration facts are the experimental Cd exposures: 100 uM Cd in the divided-plate growth and biochemical assays, and 1 mM Cd in the Rhizobium volatilome experiment.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [39678064f](https://github.com/paleofoundation/heavymetalindex/commit/39678064f) | 2026-06-02 | major | 7 sections added; narrative text revised |

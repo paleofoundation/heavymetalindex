@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Braga, Quecchia, Perotta, Timpini, Maccarinelli, Di Tommaso, Di Gioacchino 2013 — SNAS nosologic framework and diet regimen for diagnosis
 
+## Overview
+
 This Int J Immunopathol Pharmacol study from the Spedali Civili Brescia and University G. d'Annunzio Chieti SNAS-research groups is the canonical reference for the SNAS nosologic framework and the development of the BraMa-Ni diet as a diagnostic tool. 145 patients with suspected SNAS underwent oral nickel challenge for definitive diagnosis, and the BraMa-Ni structured low-nickel diet (~50 µg Ni/day, nutritionally balanced) was compared against the conventional forbidden-foods-list approach for sensitivity and specificity. The BraMa-Ni diet substantially outperformed the forbidden-food-list approach: 94.4 percent sensitivity and 93.3 percent specificity, versus 51.1 percent / 44.2 percent for the simpler list. The paper consolidates SNAS as a well-defined clinical entity with rigorous diagnostic criteria.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Walenta et al. 2024 — Arsenic speciation in four mushroom species; discovery of arsenobetaine amide
 
+## Overview
+
 This study characterized total arsenic mass fractions and arsenic speciation by HPLC-ICP-MS in four mushroom species — *Ramaria sanguinea*, *Amanita muscaria*, *Boletus edulis*, and *Macrolepiota procera* — collected from contaminated and non-contaminated sites in Austria and Czech Republic. Total As ranged from 0.28 ± 0.01 mg/kg dry mass (*Boletus edulis*) to 22 ± 2 mg/kg dm (*Amanita muscaria*). Arsenic species found included arsenobetaine (AB; 8–64% of total As), DMA (0.17–14%), arsenocholine (AC; 1.1–7.4%), and previously unknown species. Critically, a novel nitrogen-containing arsenic compound — arsenobetaine amide (trimethylarsonioacetamide) — was isolated from *R. sanguinea* and confirmed present in all investigated species by spiking experiments. Inorganic arsenic was detected in some samples; the dominant organic form across species was arsenobetaine. The total As values represent a broad range of contamination levels relevant to human consumption of wild-foraged fungi.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cacc8f421](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f421) | 2026-05-13 | major | 4 sections added; narrative text revised |

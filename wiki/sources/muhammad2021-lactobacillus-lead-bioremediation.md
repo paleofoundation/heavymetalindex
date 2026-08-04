@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Muhammad et al. 2021 - Lactobacillus lead bioremediation
 
+## Overview
+
 Muhammad and colleagues tested whether free or maize-resistant-starch microencapsulated Lactobacillus acidophilus KLDS strains could bind Pb in vitro and reduce Pb body burden in a chronic mouse exposure model. This is mitigation and detoxification evidence, not product occurrence evidence: the study used Pb nitrate-spiked media and drinking water and should not contribute to HMTc occurrence or threshold pools.
 
 ## Key numbers
@@ -94,7 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [23cd0fb92](https://github.com/paleofoundation/heavymetalindex/commit/23cd0fb92) | 2026-06-09 | minor | Narrative text revised |
-| [865eb2b00](https://github.com/paleofoundation/heavymetalindex/commit/865eb2b00) | 2026-06-09 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

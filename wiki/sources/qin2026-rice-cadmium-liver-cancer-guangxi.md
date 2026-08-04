@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Qin et al. 2026 — Spatial coupling of rice cadmium and liver cancer incidence in Guangxi, China
 
+## Overview
+
 Qin and colleagues conducted a large-scale spatial and individual-level study linking dietary cadmium exposure via rice to hepatocellular carcinoma incidence in Guangxi, a province with unusually high liver cancer rates (crude rate 40.54 per 100,000, roughly 1.46x the Chinese national average). Across 3,754 rice grain samples from 44 counties, the median Cd concentration was 0.07 mg/kg (70 ppb) and the arithmetic mean was 0.12 mg/kg (120 ppb), with spatial clustering of high-Cd rice in central and south-central Guangxi overlapping geographically with liver cancer hot spots. High-Cd counties (Mashan, Gangnan, Hepu, Binyang, Guiping) averaged 0.21–0.24 mg/kg Cd, roughly 2–3x the Guangxi average. Blood Cd levels were significantly higher in liver cancer patients than healthy controls, and a strong correlation (Pearson) was found between county-level rice Cd concentrations and liver cancer incidence rates, with individual rice-to-blood Cd matching suggesting rice consumption as the primary exposure pathway.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

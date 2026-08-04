@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Souri et al. 2019 - Growth-stage heavy metals in garden cress and sweet basil
 
+## Overview
+
 Souri et al. measured heavy metals in garden cress and sweet basil grown in wastewater-irrigated fields south of Tehran, then compared young and mature garden-cress plants in a hydroponic Pb/Cd exposure experiment. The field results are directly routeable for leafy vegetables and fresh herbs because edible leaf tissue concentrations are reported in mg kg-1 dry weight. Garden cress leaves generally had higher Cd, Pb, tAs, Ni, Cr, Zn, Cu, and Mn than sweet basil leaves, and the hydroponic experiment showed higher Cd and Pb accumulation in young garden-cress shoots than mature shoots under several exposure levels.
 
 ## Key numbers
@@ -83,8 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [e8fef7d98](https://github.com/paleofoundation/heavymetalindex/commit/e8fef7d98) | 2026-06-01 | minor | Narrative text revised |
-| [c575f7466](https://github.com/paleofoundation/heavymetalindex/commit/c575f7466) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

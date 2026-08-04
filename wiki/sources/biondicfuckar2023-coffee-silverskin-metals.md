@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Biondic Fuckar et al. 2023 - metals in coffee silverskin
 
+## Overview
+
 Biondic Fuckar and colleagues evaluated coffee silverskin, the thin tegument removed during coffee roasting, for food-safety contaminants and nutritional composition. The source reports one homogenized coffee-silverskin by-product sample with six parallel analyses; Ni, Pb, total As, Cd, and Cr were measurable, but the matrix is a roasting by-product rather than brewed coffee or ground coffee as sold. The paper is useful for coffee by-product and potential nutraceutical/supplement routing, with a clear matrix firewall.
 
 ## Key numbers
@@ -80,6 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [53761657b](https://github.com/paleofoundation/heavymetalindex/commit/53761657b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

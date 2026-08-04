@@ -35,6 +35,8 @@ updated: 2026-06-04
 
 # Health Canada 2006 — Guidelines for Canadian Drinking Water Quality: Arsenic
 
+## Overview
+
 Health Canada's May 2006 Guideline Technical Document for arsenic in drinking water, prepared with the Federal-Provincial-Territorial Committee on Drinking Water of the Federal-Provincial-Territorial Committee on Health and the Environment, establishes a maximum acceptable concentration (MAC) for arsenic in drinking water of 0.010 mg/L (10 µg/L) based on municipal- and residential-scale treatment achievability. The document classifies arsenic as a Group 1 human carcinogen and notes that the MAC is higher than the concentration that would represent an "essentially negligible" lifetime cancer risk (estimated at 0.3 µg/L on the basis of internal organ cancer endpoints in the southwestern Taiwan cohort). The document is identified as a risk-management decision: every effort should be made to reduce arsenic in drinking water to as low as reasonably achievable (ALARA), and the 10 µg/L MAC reflects the practical quantitation limit (3 µg/L), the reliable measurement limit (5 µg/L), and what municipal- and residential-scale treatment can practically achieve at reasonable cost, especially for smaller public systems and private wells. Lifetime cancer risk at the MAC is estimated at 3.0 × 10⁻⁵ to 3.9 × 10⁻⁴ — above the 10⁻⁶ to 10⁻⁵ range Health Canada defines as "essentially negligible." The document compiles Canadian provincial and territorial drinking-water arsenic occurrence data from 1976 to 2002, reviews analytical methods and municipal/residential treatment technologies, and synthesizes the human and animal toxicology underlying the carcinogenicity classification.
 
 This is the May 2006 guideline document, which supersedes prior Health Canada guideline technical documents on arsenic in drinking water (the 1989 guideline of 25 µg/L, lowered following review of the southwestern Taiwan internal-organ cancer evidence). The 10 µg/L MAC is numerically the same as the US EPA 10 µg/L MCL (see [[regulations/epa-arsenic-mcl]]) and the WHO 10 µg/L provisional guideline; the underlying derivations are not all identical and are described in the respective agency documents.
@@ -248,7 +250,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Hahn et al. 2022 — Chemical contaminants in edible seaweeds of the Salish Sea
 
+## Overview
+
 Hahn et al. measured concentrations of heavy metals (cadmium, mercury, lead, arsenic, chromium, nickel, and others) as well as polycyclic aromatic hydrocarbons (PAHs) and polychlorinated biphenyls (PCBs) in three commercially harvested edible brown seaweeds collected at 43 sites across the Salish Sea (coastal Washington State, USA and British Columbia, Canada). Cadmium exceeded international regulatory limits for human consumption at every single collection site, and total arsenic concentrations were elevated across all three species. The authors conclude that current international standards for Cd and tAs in seaweed may be inadequate to protect frequent consumers of locally harvested seaweed, particularly given that inorganic arsenic is typically a small fraction of total arsenic in seaweed matrices.
 
 ## Key numbers
@@ -91,6 +93,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [63a84a1f0](https://github.com/paleofoundation/heavymetalindex/commit/63a84a1f0) | 2026-05-13 | major | 4 sections added; narrative text revised |

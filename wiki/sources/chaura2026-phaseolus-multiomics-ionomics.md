@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Chaura et al. 2026 — Multiomics of Phaseolus beans: heavy metal outlier in P. vulgaris
 
+## Overview
+
 A comprehensive multiomics study of 46 Phaseolus bean accessions (three species, 19 countries of origin) finds that overall heavy metal concentrations in dry bean seeds are below Codex Alimentarius thresholds, with the important exception of one P. vulgaris accession (G3645, "Jamapa," from Veracruz, Mexico) which exhibited 3311 ppb lead and 134 ppb cadmium — both exceeding the 100 ppb threshold applied by the authors. Excluding that single outlier, cadmium showed a significant species-level difference, with P. acutifolius (tepary bean) averaging 36 ppb versus 11-12 ppb in P. vulgaris and P. lunatus; arsenic also differed significantly by species, with P. acutifolius averaging 6 ppb versus 1.3-1.8 ppb. The findings are relevant to bean ingredient suppliers and agronomic genebank screening.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [da722b679](https://github.com/paleofoundation/heavymetalindex/commit/da722b679) | 2026-05-12 | major | 4 sections added; narrative text revised |

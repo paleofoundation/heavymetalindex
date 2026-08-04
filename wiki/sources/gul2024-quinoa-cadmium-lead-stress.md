@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Gül et al. 2024 — Cd and Pb phytotoxicity and accumulation in quinoa, greenhouse study, Turkey
 
+## Overview
+
 Gül et al. conducted a greenhouse pot experiment testing the effects of Cd (50, 100, 200 mg/kg soil) and Pb (500, 1000, 2000 mg/kg soil) on quinoa (*Chenopodium quinoa*) growth parameters and antioxidant enzyme activities. While the primary framing is phytotoxicity and stress response, the study incidentally provides data on Cd and Pb accumulation in quinoa plant tissue under a range of soil contamination levels, including at the lower spike dose (50 mg Cd/kg soil) which, while still above typical ambient levels, is closer to contaminated agricultural reality in some mining-adjacent zones. Quinoa has received attention as a high-Cd-accumulating pseudocereal in some studies; this study provides Turkish context. Evidence tier B due to controlled spiked-soil conditions far above ambient and small Turkish journal.
 
 ## Key numbers
@@ -56,6 +58,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [87efb16cc](https://github.com/paleofoundation/heavymetalindex/commit/87efb16cc) | 2026-05-12 | major | 4 sections added; narrative text revised |

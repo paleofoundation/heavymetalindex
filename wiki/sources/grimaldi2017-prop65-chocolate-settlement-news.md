@@ -32,6 +32,8 @@ updated: 2026-06-03
 
 # Grimaldi 2017 — Prop 65 chocolate settlement establishes tiered Pb and Cd warning triggers
 
+## Overview
+
 This is a December 30, 2017 attorney-commentary article by Ann Grimaldi (Grimaldi Law Offices, San Francisco) summarizing the comprehensive Proposition 65 settlement reached among nine chocolate-industry settling defendants and As You Sow over lead and cadmium in chocolate products. The article documents the settlement's tiered warning-trigger structure (cacao-percentage-stratified Pb and Cd concentrations in ppm), the immediate triggers, the year-7 automatic drop-down levels, the Expert Committee's mandate to investigate root causes and feasibility-of-reduction, the maximum settlement payment ($210,375 for a large grinder/wholesaler), and the implicit settlement acknowledgment that lead and cadmium in chocolate are naturally occurring. The article was written in anticipation of the San Francisco Superior Court's review hearing scheduled for February 14, 2018.
 
 ## Source role
@@ -101,7 +103,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-07-29
 
 # Aquino Hancco et al. 2026 - mercury, cadmium, and lead in Lima canned tuna and fish
 
+## Overview
+
 Aquino Hancco and colleagues report mercury, cadmium, and lead measurements in canned tuna and fresh fish sold at the Central Market of Lima, Peru, during 2023. The paper reports summary tables rather than full sample-level results. It also contains draft-like "figure suggestions" text inside the Results section; this page therefore treats the source as lower-tier market-surveillance evidence until independently audited.
 
 The paper does not report methylmercury speciation. Mercury values are total mercury.
@@ -143,3 +145,16 @@ The paper's summary-table format limits downstream extraction: cadmium and lead 
 - Full-PDF read performed from the eight-page PDF. Tables 1-4 and the exposure-calculation bullets were checked twice from `pdftotext -layout` before commit. No DOI is printed in the PDF metadata or first-page text.
 - Brand firewall: the page reports sample-code and matrix-level values only; no commercial brand values are reproduced.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [3dfd62978](https://github.com/paleofoundation/heavymetalindex/commit/3dfd62978) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

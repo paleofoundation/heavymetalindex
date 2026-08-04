@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Lynch 2014 — Comprehensive meta-analysis of inorganic arsenic in food (seaweed is the highest-inAs group)
 
+## Overview
+
 Lynch and colleagues compiled 134 studies into a >6500-data-point database to estimate mean speciated-arsenic concentrations across food groups, focused on inorganic arsenic (inAs). This is a secondary source (literature meta-analysis), not a primary measurement study; its values are aggregates of the underlying primary studies and so are recorded here as literature-wide context, not as poolable occurrence data (pooling them would double-count the primary sources). Its central finding for the Category 6 seaweed row: seaweed/algae had the highest mean total inorganic arsenic of any food group, 11,000 µg/kg (n=312, range <14–120,000), with seaweed-containing products far lower at 260 µg/kg (n=30). The review also documents extensive data-quality caveats (extraction efficiencies often <80% for algae, high non-detect fractions, combined dry/wet-weight reporting) that bear on how seaweed arsenic data should be interpreted.
 
 ## Key numbers
@@ -79,8 +81,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [8bc7757f3](https://github.com/paleofoundation/heavymetalindex/commit/8bc7757f3) | 2026-06-08 | minor | Narrative text revised |
-| [78199c239](https://github.com/paleofoundation/heavymetalindex/commit/78199c239) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

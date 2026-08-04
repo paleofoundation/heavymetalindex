@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Mehri et al. 2024 — Potentially toxic elements in edible vegetable oils, Hamadan, Iran
 
+## Overview
+
 This study measured five potentially toxic elements (tAs, Cd, Pb, Fe, Zn) in 40 samples of traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, collected in 2022 using ICP-OES after nitric acid/hydrogen peroxide digestion. Industrial oils had significantly higher total tAs, Fe, and Zn than traditional oils in the pooled type comparison; Pb and Cd did not differ significantly by production type. Pb and Cd means were below the Codex/Iranian benchmarks cited by the authors, while industrial olive oil mean tAs (0.113 mg/kg) exceeded the 0.1 mg/kg benchmark despite the paper's narrative statement that the sampled oils were lower than legal limits. Non-carcinogenic TTHQ values were below 1 for both adults and children, but the paper's cancer-risk calculation for inorganic arsenic exceeded 1×10⁻⁶ for both traditional and industrial oils.
 
 ## Key numbers
@@ -97,9 +99,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2def67c71](https://github.com/paleofoundation/heavymetalindex/commit/2def67c71) | 2026-05-17 | minor | Narrative text revised |
-| [79b5c66e1](https://github.com/paleofoundation/heavymetalindex/commit/79b5c66e1) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

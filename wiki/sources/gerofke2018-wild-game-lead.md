@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Gerofke et al. 2018 - Lead in wild game shot with lead and non-lead ammunition
 
+## Overview
+
 Gerofke and colleagues measured lead in wild game meat and compared animals shot with lead versus non-lead ammunition. The study is routeable for game-meat lead occurrence because it reports lead concentration distributions and explicitly ties the concentration difference to ammunition type. It supports the game-meat page's distinction between environmental uptake and projectile-derived contamination.
 
 ## Key numbers
@@ -77,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [7a6fbaa64](https://github.com/paleofoundation/heavymetalindex/commit/7a6fbaa64) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

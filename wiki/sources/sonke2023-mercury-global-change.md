@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sonke et al. 2023 — Global change and mercury biogeochemical cycling
 
+## Overview
+
 This synthesis review examines how global change drivers — climate change, land use, ocean deoxygenation, altered precipitation patterns, and changing atmospheric emissions — affect the biogeochemical cycling of mercury (tHg) and methylmercury (MeHg) from emission through environmental cycling to human dietary exposure, primarily via fish consumption. The paper estimates the annual economic cost of mercury-related human health impacts at approximately $117 billion USD and projects future mercury concentrations in fish under different emission reduction scenarios.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

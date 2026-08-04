@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mekonnen et al. 2024 — Potentially toxic elements in fruits, Bahir Dar, Ethiopia
 
+## Overview
+
 This study measured Pb, Cd, Cr, and Cu concentrations in the edible portions of mango, banana, and orange collected from open markets in Bahir Dar town, Northwest Ethiopia, and assessed associated noncarcinogenic and carcinogenic health risks. Mango showed Pb (0.576 mg/kg dw) and Cd (1.771 mg/kg dw) concentrations exceeding FAO/WHO permissible limits of 0.3 and 0.2 mg/kg respectively, yielding a hazard index of 3.69 and a target cancer risk of 1.71 × 10⁻³, which exceeds the moderate risk threshold. Banana and orange Pb was not detected, with Cd below FAO/WHO limits.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [591741c26](https://github.com/paleofoundation/heavymetalindex/commit/591741c26) | 2026-05-13 | major | 4 sections added; narrative text revised |

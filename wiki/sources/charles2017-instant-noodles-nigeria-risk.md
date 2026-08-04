@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Charles et al. 2017 — Metals and PAHs in instant noodles from Port Harcourt
 
+## Overview
+
 Charles and colleagues measured Pb, As, Ni, Hg, Cu, Cd, Al, and Cr in six instant-noodle brands commonly consumed in Port Harcourt, Nigeria, and also measured PAHs. The paper reports coded brand identifiers; this page reports aggregate ranges and coded-brand counts rather than pairing identifiers with values. Pb, Ni, Cu, Al, and Cr were detected, while As, Hg, and Cd were not detected in the noodle samples. Arsenic, mercury, and chromium are reported only as total analytes, with no iAs, MeHg, or Cr-VI speciation.
 
 ## Key numbers
@@ -91,8 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [a00479a9e](https://github.com/paleofoundation/heavymetalindex/commit/a00479a9e) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [3c2ea92f2](https://github.com/paleofoundation/heavymetalindex/commit/3c2ea92f2) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

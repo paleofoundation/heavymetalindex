@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Nour et al. 2025 — Heavy metals in seaweeds from Djibouti
 
+## Overview
+
 Six seaweed species from the Djiboutian coastline were analyzed for nutritional composition and heavy metal content (Cr, Ni, As, Cd, Pb) by ICP-MS, providing one of the first published occurrence datasets for edible marine algae from the Horn of Africa region. Results showed wide inter-species variation, with arsenic concentrations notably elevated in the brown alga *Turbinaria decurrens* (70.2 µg/g dry weight) and chromium highest in the green alga *Ulva clathrata* (29.61 µg/g DW). The paper documents both nutritional value and contamination risk for seaweeds increasingly harvested and consumed in East African coastal communities and entering global health-food markets.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb63b34c](https://github.com/paleofoundation/heavymetalindex/commit/ffb63b34c) | 2026-05-12 | major | 4 sections added; narrative text revised |

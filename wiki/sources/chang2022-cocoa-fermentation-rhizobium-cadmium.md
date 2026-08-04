@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Chang et al. 2022 - Rhizobium treatment and cadmium in fermented cocoa
 
+## Overview
+
 Chang and colleagues tested whether adding Rhizobium japonicum during fermentation reduced cadmium in two cocoa varieties, Nacional and Trinitarian. The study reports cadmium concentrations for six variety-by-treatment combinations after fermentation. The paper is intervention evidence for cocoa processing/fermentation rather than finished chocolate retail occurrence evidence.
 
 ## Key numbers
@@ -71,9 +73,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [cc9e662d7](https://github.com/paleofoundation/heavymetalindex/commit/cc9e662d7) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

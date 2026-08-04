@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Barthwal et al. 2008 - medicinal-plant metals in Lucknow
 
+## Overview
+
 Barthwal, Nair, and Kakkar measured Pb, Cd, Cr, and Ni in five medicinal-plant species and paired soils from three environmentally different sites in Lucknow, India. The paper is occurrence evidence for botanical raw material used in traditional medicine, with soil measurements as collection-site context. The exact plant values available in extracted text are limited because many results are plotted in figures rather than printed as tables.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [8cad64e98](https://github.com/paleofoundation/heavymetalindex/commit/8cad64e98) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

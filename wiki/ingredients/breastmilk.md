@@ -88,29 +88,7 @@ sources: 42
 
 # Breastmilk (Human Milk)
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=44 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 55 jurisdictions, top US 28% | — |
-| D3 Anthropogenic evidence | GAP | 6 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 6 upstream source(s) | — |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, tHg POOLABLE, Al POOLABLE, Cr POOLABLE, tAs POOLABLE | — |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | OK | 12 claims checked, 12 supported; 14 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 2 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, tHg, Al, Cr, tAs; pairing 0 paired, 6 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **OK** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.75 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Breastmilk is the infant exposure route this wiki tracks alongside infant formula. It is not a manufactured ingredient and does not appear in any product-category page, but it is the comparator against which formula-fed infant exposure is measured and the source of evidence behind WHO and AAP feeding guidance. The page exists so that cohort studies, systematic reviews, and agency tox profiles addressing breastmilk concentrations of Pb, Cd, As species, Hg species, and Al can route here cleanly.
 
@@ -146,28 +124,28 @@ All ten contamination_profile sub-blocks are `pending`. Population-typical conce
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 14 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Naspolini NF, Vanzele PAR, Tótolo P, Schüroff PA, Fatori D, Vicentini Neto SA, et al. (2024). *Lead contamination in human milk affects infants' language trajectory: results from a prospective cohort study*. Frontiers in Public Health. [https://doi.org/10.3389/fpubh.2024.1450570](https://doi.org/10.3389/fpubh.2024.1450570). Peer-reviewed, A-tier. [[sources/naspolini2024-human-milk-sao-paulo|Source record]]
-2. Moon N, Heo SJ, Park S, Im H, and Kim JH (2025). *The Association Between Maternal Dietary Intake and the Risk of Heavy Metals in Human Breast Milk in Korea*. Toxics. [https://doi.org/10.3390/toxics13050381](https://doi.org/10.3390/toxics13050381). Peer-reviewed, A-tier. [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea|Source record]]
-3. Agency for Toxic Substances and Disease Registry (2008). *Toxicological Profile for Aluminum*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf). Government report, A-tier. [[sources/atsdr-aluminum-toxprofile-2008|Source record]]
-4. Aisyiah, Rahfiludin MZ, Agushybana F, and Sutiningsih D (2025). *Heavy Metal Content in Breast Milk and Contributing Environmental and Maternal Factors: A Systematic Review*. Jurnal Bidan Cerdas. [https://doi.org/10.33860/jbc.v7i2.4042](https://doi.org/10.33860/jbc.v7i2.4042). Review, B-tier. [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review|Source record]]
-5. Sushila S, Balda A, Balhara N, Aarushi A, and Giri A (2024). *Literature review and health risks assessment of heavy metal contamination in human milk*. Discover Minerals. [https://doi.org/10.1007/s44346-024-00002-z](https://doi.org/10.1007/s44346-024-00002-z). Review, B-tier. [[sources/sushila2024-heavy-metals-human-milk-review|Source record]]
-6. Serreau R, Terbeche Y, and Rigourd V (2024). *Pollutants in Breast Milk: A Scoping Review of the Most Recent Data in 2024*. Healthcare. [https://doi.org/10.3390/healthcare12060680](https://doi.org/10.3390/healthcare12060680). Review, B-tier. [[sources/serreau2024-pollutants-breast-milk-scoping-review|Source record]]
-7. Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. (2025). *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*. American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026. [https://doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001). Peer-reviewed, A-tier. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Source record]]
-8. Chen C, Ma C, Li Q, Hang JG, Shen J, Nakayama SF, et al. (2023). *Prenatal Exposure to Heavy Metals and Adverse Birth Outcomes: Evidence From an E-Waste Area in China*. GeoHealth. [https://doi.org/10.1029/2023GH000897](https://doi.org/10.1029/2023GH000897). Peer-reviewed, A-tier. [[sources/chen2023-breast-milk-ewaste-china|Source record]]
-9. Fatima A, Afzal U, Aslam M, Rafi Z, Ahmad N, and Baig MA (2024). *Analysis of heavy metal concentrations in breast milk by neutrosophic method in the locate of Lahore, Pakistan*. npj Women's Health. [https://doi.org/10.1038/s44294-024-00024-0](https://doi.org/10.1038/s44294-024-00024-0). Peer-reviewed, B-tier. [[sources/fatima2024-breast-milk-heavy-metals-lahore-neutrosophic|Source record]]
-10. Katrynska D, Bzikowska-Jura A, Goc Z, and Kogut L (2026). *Human Milk as a Biomonitor of Toxic Metal Exposure: Sources, Transfer Mechanisms, and Implications for Infant Health — A Review*. Nutrients. [https://doi.org/10.3390/nu18101527](https://doi.org/10.3390/nu18101527). Review, B-tier. [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review|Source record]]
-11. Talia D. Pikounis, Kassaundra L. Amann, Brian P. Jackson, Tracy Punshon, Diane Gilbert-Diamond, Susan Korrick, et al. (2024). *Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula*. Environmental Epidemiology. [https://doi.org/10.1097/EE9.0000000000000286](https://doi.org/10.1097/EE9.0000000000000286). Peer-reviewed, A-tier. [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk|Source record]]
-12. Joshua Soto Ocaña, Elliot S. Friedman, Orlaith Keenan, Nile U. Bayard, Eileen Ford, Ceylan Tanes, et al. (2024). *Metal availability shapes early life microbial ecology and community succession*. mBio 15(7):e00854-24. [https://doi.org/10.1128/mbio.00854-24](https://doi.org/10.1128/mbio.00854-24). Peer-reviewed, A-tier. [[sources/soto-ocana2024-metal-availability-early-life-microbiome|Source record]]
-13. Courtney C. Carignan, Margaret R. Karagas, Tracy Punshon, Diane Gilbert-Diamond, and Kathryn L. Cottingham (2016). *Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort*. Journal of Exposure Science and Environmental Epidemiology, Vol. 26, No. 5, pp. 452-457. [https://doi.org/10.1038/jes.2015.69](https://doi.org/10.1038/jes.2015.69). Peer-reviewed, A-tier. [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort|Source record]]
-14. Courtney C. Carignan, Kathryn L. Cottingham, Brian P. Jackson, Shohreh F. Farzan, A. Jay Gandolfi, Tracy Punshon, et al. (2015). *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*. Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506. [https://doi.org/10.1289/ehp.1408789](https://doi.org/10.1289/ehp.1408789). Peer-reviewed, A-tier. [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Source record]]
+1. [[sources/naspolini2024-human-milk-sao-paulo|Lead contamination in human milk affects infants' language trajectory: results from a prospective cohort study]]<span class="hmi-ref-meta">Naspolini NF, Vanzele PAR, Tótolo P, Schüroff PA, Fatori D, Vicentini Neto SA, et al. · Frontiers in Public Health · 2024 · [doi.org/10.3389/fpubh.2024.1450570](https://doi.org/10.3389/fpubh.2024.1450570)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea|The Association Between Maternal Dietary Intake and the Risk of Heavy Metals in Human Breast Milk in Korea]]<span class="hmi-ref-meta">Moon N, Heo SJ, Park S, Im H, and Kim JH · Toxics · 2025 · [doi.org/10.3390/toxics13050381](https://doi.org/10.3390/toxics13050381)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/atsdr-aluminum-toxprofile-2008|Toxicological Profile for Aluminum]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2008 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/aisyiah2025-heavy-metals-breast-milk-systematic-review|Heavy Metal Content in Breast Milk and Contributing Environmental and Maternal Factors: A Systematic Review]]<span class="hmi-ref-meta">Aisyiah, Rahfiludin MZ, Agushybana F, and Sutiningsih D · Jurnal Bidan Cerdas · 2025 · [doi.org/10.33860/jbc.v7i2.4042](https://doi.org/10.33860/jbc.v7i2.4042)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/sushila2024-heavy-metals-human-milk-review|Literature review and health risks assessment of heavy metal contamination in human milk]]<span class="hmi-ref-meta">Sushila S, Balda A, Balhara N, Aarushi A, and Giri A · Discover Minerals · 2024 · [doi.org/10.1007/s44346-024-00002-z](https://doi.org/10.1007/s44346-024-00002-z)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/serreau2024-pollutants-breast-milk-scoping-review|Pollutants in Breast Milk: A Scoping Review of the Most Recent Data in 2024]]<span class="hmi-ref-meta">Serreau R, Terbeche Y, and Rigourd V · Healthcare · 2024 · [doi.org/10.3390/healthcare12060680](https://doi.org/10.3390/healthcare12060680)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review]]<span class="hmi-ref-meta">Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. · American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 · 2025 · [doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/chen2023-breast-milk-ewaste-china|Prenatal Exposure to Heavy Metals and Adverse Birth Outcomes: Evidence From an E-Waste Area in China]]<span class="hmi-ref-meta">Chen C, Ma C, Li Q, Hang JG, Shen J, Nakayama SF, et al. · GeoHealth · 2023 · [doi.org/10.1029/2023GH000897](https://doi.org/10.1029/2023GH000897)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/fatima2024-breast-milk-heavy-metals-lahore-neutrosophic|Analysis of heavy metal concentrations in breast milk by neutrosophic method in the locate of Lahore, Pakistan]]<span class="hmi-ref-meta">Fatima A, Afzal U, Aslam M, Rafi Z, Ahmad N, and Baig MA · npj Women's Health · 2024 · [doi.org/10.1038/s44294-024-00024-0](https://doi.org/10.1038/s44294-024-00024-0)</span><span class="hmi-ref-tag">Review</span>
+10. [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review|Human Milk as a Biomonitor of Toxic Metal Exposure: Sources, Transfer Mechanisms, and Implications for Infant Health — A Review]]<span class="hmi-ref-meta">Katrynska D, Bzikowska-Jura A, Goc Z, and Kogut L · Nutrients · 2026 · [doi.org/10.3390/nu18101527](https://doi.org/10.3390/nu18101527)</span><span class="hmi-ref-tag">Review</span>
+11. [[sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk|Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula]]<span class="hmi-ref-meta">Talia D. Pikounis, Kassaundra L. Amann, Brian P. Jackson, Tracy Punshon, Diane Gilbert-Diamond, Susan Korrick, et al. · Environmental Epidemiology · 2024 · [doi.org/10.1097/EE9.0000000000000286](https://doi.org/10.1097/EE9.0000000000000286)</span><span class="hmi-ref-tag">Review</span>
+12. [[sources/soto-ocana2024-metal-availability-early-life-microbiome|Metal availability shapes early life microbial ecology and community succession]]<span class="hmi-ref-meta">Joshua Soto Ocaña, Elliot S. Friedman, Orlaith Keenan, Nile U. Bayard, Eileen Ford, Ceylan Tanes, et al. · mBio 15(7):e00854-24 · 2024 · [doi.org/10.1128/mbio.00854-24](https://doi.org/10.1128/mbio.00854-24)</span><span class="hmi-ref-tag">Review</span>
+13. [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort|Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort]]<span class="hmi-ref-meta">Courtney C. Carignan, Margaret R. Karagas, Tracy Punshon, Diane Gilbert-Diamond, and Kathryn L. Cottingham · Journal of Exposure Science and Environmental Epidemiology, Vol. 26, No. 5, pp. 452-457 · 2016 · [doi.org/10.1038/jes.2015.69](https://doi.org/10.1038/jes.2015.69)</span><span class="hmi-ref-tag">Review</span>
+14. [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort]]<span class="hmi-ref-meta">Courtney C. Carignan, Kathryn L. Cottingham, Brian P. Jackson, Shohreh F. Farzan, A. Jay Gandolfi, Tracy Punshon, et al. · Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 · 2015 · [doi.org/10.1289/ehp.1408789](https://doi.org/10.1289/ehp.1408789)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -256,9 +234,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 9 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 5 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 5 sources added; 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fcd020390](https://github.com/paleofoundation/heavymetalindex/commit/fcd020390) | 2026-05-17 | major | 14 sources added; narrative text revised |
-| [e3c860eb5](https://github.com/paleofoundation/heavymetalindex/commit/e3c860eb5) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

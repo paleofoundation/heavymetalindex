@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Kithure et al. 2021 — Heavy metals and physico-chemical parameters in Nairobi PET-bottled drinking water
 
+## Overview
+
 This 2021 study from the University of Nairobi Department of Chemistry analysed seven anonymised brands (A–G) of commercial PET-bottled drinking water purchased from Nairobi supermarkets for seven heavy metals (Sb, Cd, Cr, Cu, Mn, Pb, Zn) by atomic absorption spectrometry and three physico-chemical parameters (pH, electrical conductivity, total dissolved solids). Sb, Cd, and Zn were below detection limit in all seven brands. Cu, Pb, Cr, and Mn were detected in subsets of brands at levels the authors compared to Kenya Bureau of Standards (KEBS), National Environment Management Authority (NEMA), and WHO drinking water limits, with Pb exceeding cited KEBS/WHO limits in two brands and Mn exceeding cited limits in one brand. The paper reports concentrations in units of "mg/g" throughout, which is physically implausible for water samples; method-section calibration standards and limits of detection are reported in mg/L–equivalent units (µg/mL), so the reported concentrations are almost certainly mg/L mis-labelled. The wiki reports the source's verbatim numbers with this caveat documented in `## Verification notes`.
 
 ## Key numbers
@@ -131,8 +133,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
 | [7e144cdba](https://github.com/paleofoundation/heavymetalindex/commit/7e144cdba) | 2026-05-30 | minor | Narrative text revised |
-| [4bcc466ce](https://github.com/paleofoundation/heavymetalindex/commit/4bcc466ce) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

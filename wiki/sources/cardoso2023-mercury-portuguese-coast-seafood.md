@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cardoso et al. 2023 — Seasonal mercury in three Portuguese estuaries and seafood health risk
 
+## Overview
+
 This study characterises seasonal variability in total mercury (tHg) contamination across three distinct Portuguese estuarine systems (Ria de Aveiro, Tagus estuary, Ria Formosa), measuring tHg in water, primary producers, and macrobenthos including edible bivalves. The study evaluates both human health risk from bivalve consumption and environmental risk. Ria de Aveiro and Tagus estuary reflect historical industrial mercury contamination from chlor-alkali plants; Ria Formosa represents a less industrialised southern system. The study finds that tHg concentrations in surface waters were higher in Ria de Aveiro and Tagus than in Ria Formosa, with particular concern in Ria de Aveiro during autumn where Hg levels approached approximately 100 µg/L. For edible species, tHg concentrations in bivalves were below 0.5 µg/g wet weight across all systems, representing no human health risk under standard consumption scenarios. An environmental risk quotient greater than 0.1 (moderate risk) was observed in Ria de Aveiro during autumn, indicating ecosystem-level concern even where human health risk is low.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

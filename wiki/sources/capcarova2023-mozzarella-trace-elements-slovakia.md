@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Capcarova et al. 2023 — Trace elements and heavy metals in mozzarella, Slovak market
 
+## Overview
+
 This study measured concentrations of 17 elements — including aluminum, arsenic, chromium, nickel, lead, and antimony — in 27 commercially available mozzarella cheese samples purchased from markets in Nitra, Slovakia. Samples were classified into three product types (classic, light, basil) with paired whey fractions analyzed separately. The authors compared concentrations against Slovak and EU permissible limits and estimated consumer exposure via expected dietary intake (EDI) and contribution to provisional tolerable weekly intake (PTWI). The paper is one of a series by this group characterizing trace element profiles across Slovak dairy products (milk, yogurt, cottage cheese, mozzarella).
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3dc7cbb24](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb24) | 2026-05-13 | major | 4 sections added; narrative text revised |

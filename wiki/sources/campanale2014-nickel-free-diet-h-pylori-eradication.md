@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Campanale, Nucera, Ojetti, Cesario, Di Rienzo, D'Angelo, Pecere, Barbaro, Gigante, De Pasquale, Rizzi, Cammarota, Schiavino, Franceschi, Gasbarrini 2014 — Nickel-free diet enhances Helicobacter pylori eradication rate
 
+## Overview
+
 This Digestive Diseases and Sciences randomized pilot trial from the Gemelli Hospital (Rome) group tests whether a nickel-free diet added to standard triple therapy increases H. pylori eradication. The rationale: H. pylori requires the nickel-containing metalloenzymes urease and [NiFe]-hydrogenase to survive at low gastric pH; depleting dietary nickel could disable the pathogen's acid-tolerance machinery and expose it to gastric acid plus amoxicillin. 52 first-diagnosis H. pylori patients were randomized 1:1 to standard LCA triple therapy (lansoprazole + clarithromycin + amoxicillin for 7 days) with a common diet, versus the same regimen plus a 30-day nickel-free diet starting 14 days before triple therapy. The intervention nearly doubled the eradication rate.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 1 source added; 4 sections added; narrative text revised |

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Igweze et al. 2020 — Pb, Cd, and As in Chinese-import children's toys in Nigeria, with USEPA non-carcinogenic and carcinogenic risk assessment
 
+## Overview
+
 This Heliyon paper measures total Pb, Cd, and As in the surface-paint coatings of 30 low-cost "made in China" children's toys purchased from supermarkets and street vendors in Port Harcourt, Nigeria, by flame atomic absorption spectrophotometry (PerkinElmer AAS-700) after concentrated HNO₃ digestion. All thirty samples report measurable Pb (4.16–9.747 mg/kg), Cd (1.942–6.50 mg/kg), and As (1.459–6.318 mg/kg) in the scraped paint, with every value below the EU Toy Safety Directive 2009/48/EC migration limits cited by the source as 90 mg/kg (Pb), 23 mg/kg (Cd), and 47 mg/kg (As). USEPA-style oral and dermal hazard quotients (HQ), total target hazard quotients (TTHQ), hazard indices (HI), and lifetime cancer risks were computed using exposure parameters from the Risk Assessment Information System (RAIS) for a 6-year-old, 15-kg child; all HQ/HI values are below 1 (HI range 0.126–0.409) and all total cancer risk values are within the 1×10⁻⁶–1×10⁻⁴ acceptable range. The authors conclude that these particular "made in China" toys lately imported into Nigeria do not add measurably to children's body burden of these metals, while noting that bioaccumulation under chronic exposure may still be relevant — particularly for Pb, which has no safe blood level.
 
 ## Key numbers
@@ -166,7 +168,7 @@ The authors interpret their lower values, relative to the two earlier Nigerian d
 ## Verification notes
 
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path: three identity checks against `wiki/sources/` returned no match (DOI 10.1016/j.heliyon.2020.e03732 not present; raw_handle MFK_a-pediatric-health-risk-assessment-of-childrens-to not present; cite-key collision check for `igweze` returned two unrelated infant-formula papers `igweze2019-trace-metals-infant-formula-nigeria` and `igweze2020-al-as-hg-infant-formula-nigeria`, both different DOIs and different sample populations).
-- `products: ["[[products/toys-painted]]"]` only — broadest accurate scope per CLAUDE.md Part 5b. The paper analyses scraped surface-paint from 30 painted plastic toys (figurines, balls, rattles, dolls, pacifier, stuffed teddy bear, masks, etc.); all measurements are paint-coating concentrations, not bulk plastic. The HMTc Cat 21 Row 1 "general toys with paint/surface coatings" page is the routing target. Narrower sub-page routing (toys-rattles, toys-balls, toy-pacifiers, toys-stuffed-bean-bag) would overspecify; the routing layer fans broad scopes out as needed.
+- `products: ["[[products/toys-painted]]"]` only — broadest accurate scope. The paper analyses scraped surface-paint from 30 painted plastic toys (figurines, balls, rattles, dolls, pacifier, stuffed teddy bear, masks, etc.); all measurements are paint-coating concentrations, not bulk plastic. The HMTc Cat 21 Row 1 "general toys with paint/surface coatings" page is the routing target. Narrower sub-page routing (toys-rattles, toys-balls, toy-pacifiers, toys-stuffed-bean-bag) would overspecify; the routing layer fans broad scopes out as needed.
 - `matrices: []` — no toy-paint-coating slug exists in the current matrices vocabulary (the existing slug set is food/water/soil/cosmetic-personal-care biased). Consistent with [[sources/oecd2024-crafts-toys-children-exposure]] which also leaves matrices empty. The products field carries the routing signal.
 - `jurisdictions: [NG, CN, EU]` — Nigeria (sampling location, Port Harcourt 2018), China (manufacturing origin per "made in China" branding), EU (the regulatory framework the source benchmarks against via the Toy Safety Directive 2009/48/EC migration limits in Table 3). The US CPSIA paint-Pb limit is referenced in Discussion but not used as a numerical comparator in the results tables; jurisdictions list reflects the sources of regulatory comparison actually used.
 - `metals: [Pb, Cd, As]` — total Pb, total Cd, total As. No speciation. The risk arithmetic uses the inorganic-As CSF (1.5) against total-As measurements; the wiki reports the source's methods choice but does not endorse it. No iAs slug in `metals:` because the analytical method does not distinguish iAs from organic As; the source's risk-assessment assumption that all measured As behaves as inorganic-As for CSF purposes is documented in Methods, not promoted into the metals frontmatter.
@@ -187,8 +189,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [0c629ae39](https://github.com/paleofoundation/heavymetalindex/commit/0c629ae39) | 2026-05-18 | minor | Narrative text revised |
-| [c89b9e93d](https://github.com/paleofoundation/heavymetalindex/commit/c89b9e93d) | 2026-05-18 | major | 1 source added; 11 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

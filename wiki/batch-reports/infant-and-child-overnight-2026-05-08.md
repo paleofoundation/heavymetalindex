@@ -14,6 +14,8 @@ noindex: true
 
 # Infant and Child Foods Overnight Final Report — 2026-05-08
 
+## Overview
+
 This report consolidates everything produced overnight under Karen's autonomous-operation directive. Karen is asleep; this is the artifact to read in the morning.
 
 ## Subcategory readiness state per analyte

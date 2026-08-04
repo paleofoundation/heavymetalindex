@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Fattorini 2004 - Cienfuegos seafood arsenic speciation
 
+## Overview
+
 Fattorini and colleagues measured total arsenic and arsenic species in marine organisms collected from Cienfuegos Bay, Cuba, after an accidental release of `3.7 tons` of arsenic as arsenate oxides from a nitro-fertilizer factory. The source includes fish muscle, crustaceans, and algae; this page routes the fish and crustacean results as seafood occurrence context and treats the algae rows as environmental context only. Arsenic speciation is load-bearing here: the paper reports both total arsenic and inorganic arsenic percentages in selected fish and crustacean rows.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [3f4345c28](https://github.com/paleofoundation/heavymetalindex/commit/3f4345c28) | 2026-06-08 | major | 4 sections added; narrative text revised |

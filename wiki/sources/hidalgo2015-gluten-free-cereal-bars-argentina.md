@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Hidalgo et al. 2015 - Gluten-Free Cereal Bars in Argentina
 
+## Overview
+
 Hidalgo et al. measured total arsenic, cadmium, and lead in 72 commercial gluten-free cereal bars marketed in Argentina. The products were grouped by flavor/formulation rather than named brands, preserving a usable product-form signal without propagating consumer-brand identities.
 
 ## Key numbers
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [6d80c1aa0](https://github.com/paleofoundation/heavymetalindex/commit/6d80c1aa0) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [db181df75](https://github.com/paleofoundation/heavymetalindex/commit/db181df75) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

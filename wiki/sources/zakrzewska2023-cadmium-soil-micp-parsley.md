@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zakrzewska et al. 2023 — MICP treatment reduces Cd uptake by crop plants
 
+## Overview
+
 Supplementing Cd-contaminated agricultural soil with metabolites containing carbonates (MCC) produced by the ureolytic bacterium Ochrobactrum sp. POC9 reduced the bioavailability of cadmium in soil by 27–65% (depending on MCC volume applied) and reduced Cd uptake by root parsley (Petroselinum crispum) by approximately 86% in shoots and 74% in roots relative to untreated controls. The study demonstrates that microbially-induced carbonate precipitation (MICP) can be applied at trace but legally permissible Cd concentrations characteristic of agricultural soils, where conventional remediation methods are often unsuitable because they disrupt soil function. Additional benefits observed included improvement of soil microbiological activity and plant condition due to nitrogen-containing co-metabolites produced during urea hydrolysis.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # Salahel din et al. 2025 — Multi-matrix heavy metals in Egyptian foods, Qena
 
+## Overview
+
 This study quantified Pb, Cd, Cr, and total As in 54 food and beverage samples from five categories (beverages, processed cereals, milk and dairy products, fish and meat products, and table salt) collected during 2022 from local markets in Qena Governorate, southern Egypt. Pb dominated the overall heavy-metals burden at 72% of detected mass, with the highest mean concentration in canned fish and meat products (221.5 ± 39.9 µg/kg). Health-risk metrics (hazard quotient, hazard index, and carcinogenic risk) computed against EFSA, USEPA, and JECFA reference values stayed within acceptable ranges, but Pb exceeded the EFSA 10 µg/kg limit in 79% of carbonated and energy drinks, the 20 µg/kg limit in 50% of milk and dairy samples, and the 100 µg/kg limit in 100% of canned beef and luncheon samples; Cd exceeded the 10 µg/kg limit in 29% of carbonated and energy drinks and the 50 µg/kg limit in 100% of luncheon samples; and tAs exceeded the 10 µg/kg limit in 50% of luncheon samples.
 
 ## Key numbers
@@ -147,9 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [5c3e342cb](https://github.com/paleofoundation/heavymetalindex/commit/5c3e342cb) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

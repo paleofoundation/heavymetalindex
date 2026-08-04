@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Šmajgl & Obhođaš 2015 — Tin in disposable baby diapers, Croatia
 
+## Overview
+
 This study quantifies total tin in the top sheet and adhesive tape system of six brands of disposable baby diapers (Croatia, 2012-2014) using ²⁴¹Am-excited energy-dispersive X-ray fluorescence (EDXRF). Tin was detected in two of six diaper top sheets (range <MDL to 23.1 mg/kg) and in four of five measured adhesive tape systems (range <MDL to 22.4 mg/kg; the fifth tape system was not analyzed). The authors attribute the diaper tin to organotin compounds (TBT, DBT, MBT, DOT) used as PVC heat stabilizers, catalysts, or biocides; EDXRF reports only total Sn and cannot speciate. Measured concentrations are below the EU REACH Annex XVII No. 20 prohibition limit (0.1 % by weight = 1000 mg/kg in articles) but exceed the voluntary EU supplier-agreed limits of <2 mg/kg for TBT and <10 mg/kg for each individual organotin species. The worst-case dermal exposure scenario (6-8 month infant, 8 kg body weight, five diapers/day) is estimated at 0.021 µg Sn/kg-bw/day, equivalent to 20-100% of the tolerable daily intake.
 
 ## Key numbers
@@ -104,16 +106,16 @@ Microbiome: Not addressed in this paper. Organotin effects on the developing gut
 ## Verification notes
 
 - 2026-05-18 (Claude Opus 4.7, autonomous manual-fetch v2.0 enhancement): merge-enhance pass against prior 2026-05-14 page.
-  - **Corrected transposed detection counts.** Prior page narrative said "Tin appears in 4 of 6 diapers' top sheets and 2 of 6 in adhesive tape system." Paper abstract (p. 1) says the opposite: "Almost all diapers contained tin in the adhesive tape system (four of five), and two of six samples contained tin in top sheet." Table 1 confirms: top sheet detections in Diapers 2 (23.1) and 6 (2.0) only = 2/6; tape system detections in Diapers 1 (9.5), 2 (22.4), 4 (12.2), 6 (22.4) = 4/5 measured (Diaper 5 was n.a.). The numbers were swapped between rows.
-  - **Corrected HMTc category assignment.** Prior page assigned this to "HMTc Cat 2 disposable baby diapers row." `wiki/products/diapers-and-components.md` is HMTc Cat 9 Row 7 (Infant and Child Contact Products, Ages 0-5). Cat 2 is `children-personal-care`, a different (broader) category. Implications section updated to Cat 9 Row 7.
-  - **Removed Part 5 threshold proposal.** Prior page Implications #4 said "warrants a precautionary threshold below 2 mg/kg total Sn in any diaper layer with skin contact." Per Part 5 of CLAUDE.md and the audit-prompt Check 5 boundary, source pages report occurrence data and may describe what a paper contributes to threshold work, but must not propose threshold values. Reworded to note the methodological limitation of total-Sn screening and recommend speciation as orthogonal confirmation, without proposing a numeric ceiling.
-  - **Corrected speciation-methods description.** Prior page said "GC or LC with ICP-MS or AAS." Paper text (p. 1) lists "atomic absorption analysis, inductively coupled plasma atomic emission spectrometry or inductively coupled plasma mass spectrometry." Added ICP-OES to the list.
-  - **Fixed invalid product slug.** Prior page declared `products/disposable-baby-diapers` as a routing target; that page does not exist in `wiki/products/`. Replaced with `products/diapers-and-components` (the existing HMTc Cat 9 Row 7 product page; matches sibling diaper sources nyamukamba2023, lai2025, bae2018).
-  - **Fixed matrices vocabulary.** Prior page used `[cosmetic-personal-care, dermal-contact-product]`. Sibling diaper sources use `matrices: [diaper]`; aligned to that convention.
-  - **Fixed sample_population precision.** Prior version said "Top sheet and adhesive tape system analyzed separately for total tin." Tightened to specify EDXRF as the analytical method.
-  - **Removed speculative app statement.** Prior page said "the consumer app should flag high-Sn brands (any layer >10 mg/kg total Sn) as concerning." That is a threshold proposal and a brand-flag prescription. Reworded to describe what is and is not available as consumer-facing data; no numeric ceiling and no flagging-rule proposed.
-  - **Preserved.** cite_key, raw_handle, raw_path, license, evidence_tier (A — peer-reviewed primary study in X-Ray Spectrometry), sample_n=6, jurisdictions [HR, EU].
-  - **Verified accurate (no change needed).** All numerical values in the Key numbers table match Table 1 exactly. Methods detail (²⁴¹Am source, Canberra Ge(Li) detector model and FWHM, 2000 s acquisition, IAEA AXIL/QXAS, 2.5 cm pellet ~0.2 g, MDL 1.5 mg/kg, error 15.6%) matches paper. Exposure scenario (0.021 µg Sn/kg-bw/day, 8 kg infant, 5 diapers/day, 20-100% TDI) matches paper p. 3 exactly. Regulatory citations (REACH Annex XVII No. 20, voluntary <2 mg/kg TBT, <10 mg/kg per organotin, KEMI 2012) match.
+ - **Corrected transposed detection counts.** Prior page narrative said "Tin appears in 4 of 6 diapers' top sheets and 2 of 6 in adhesive tape system." Paper abstract (p. 1) says the opposite: "Almost all diapers contained tin in the adhesive tape system (four of five), and two of six samples contained tin in top sheet." Table 1 confirms: top sheet detections in Diapers 2 (23.1) and 6 (2.0) only = 2/6; tape system detections in Diapers 1 (9.5), 2 (22.4), 4 (12.2), 6 (22.4) = 4/5 measured (Diaper 5 was n.a.). The numbers were swapped between rows.
+ - **Corrected HMTc category assignment.** Prior page assigned this to "HMTc Cat 2 disposable baby diapers row." `wiki/products/diapers-and-components.md` is HMTc Cat 9 Row 7 (Infant and Child Contact Products, Ages 0-5). Cat 2 is `children-personal-care`, a different (broader) category. Implications section updated to Cat 9 Row 7.
+ - **Removed Part 5 threshold proposal.** Prior page Implications #4 said "warrants a precautionary threshold below 2 mg/kg total Sn in any diaper layer with skin contact." Per and the audit-prompt Check 5 boundary, source pages report occurrence data and may describe what a paper contributes to threshold work, but must not propose threshold values. Reworded to note the methodological limitation of total-Sn screening and recommend speciation as orthogonal confirmation, without proposing a numeric ceiling.
+ - **Corrected speciation-methods description.** Prior page said "GC or LC with ICP-MS or AAS." Paper text (p. 1) lists "atomic absorption analysis, inductively coupled plasma atomic emission spectrometry or inductively coupled plasma mass spectrometry." Added ICP-OES to the list.
+ - **Fixed invalid product slug.** Prior page declared `products/disposable-baby-diapers` as a routing target; that page does not exist in `wiki/products/`. Replaced with `products/diapers-and-components` (the existing HMTc Cat 9 Row 7 product page; matches sibling diaper sources nyamukamba2023, lai2025, bae2018).
+ - **Fixed matrices vocabulary.** Prior page used `[cosmetic-personal-care, dermal-contact-product]`. Sibling diaper sources use `matrices: [diaper]`; aligned to that convention.
+ - **Fixed sample_population precision.** Prior version said "Top sheet and adhesive tape system analyzed separately for total tin." Tightened to specify EDXRF as the analytical method.
+ - **Removed speculative app statement.** Prior page said "the consumer app should flag high-Sn brands (any layer >10 mg/kg total Sn) as concerning." That is a threshold proposal and a brand-flag prescription. Reworded to describe what is and is not available as consumer-facing data; no numeric ceiling and no flagging-rule proposed.
+ - **Preserved.** cite_key, raw_handle, raw_path, license, evidence_tier (A — peer-reviewed primary study in X-Ray Spectrometry), sample_n=6, jurisdictions [HR, EU].
+ - **Verified accurate (no change needed).** All numerical values in the Key numbers table match Table 1 exactly. Methods detail (²⁴¹Am source, Canberra Ge(Li) detector model and FWHM, 2000 s acquisition, IAEA AXIL/QXAS, 2.5 cm pellet ~0.2 g, MDL 1.5 mg/kg, error 15.6%) matches paper. Exposure scenario (0.021 µg Sn/kg-bw/day, 8 kg infant, 5 diapers/day, 20-100% TDI) matches paper p. 3 exactly. Regulatory citations (REACH Annex XVII No. 20, voluntary <2 mg/kg TBT, <10 mg/kg per organotin, KEMI 2012) match.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -122,8 +124,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [f7d70d7f0](https://github.com/paleofoundation/heavymetalindex/commit/f7d70d7f0) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [98c8a6396](https://github.com/paleofoundation/heavymetalindex/commit/98c8a6396) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

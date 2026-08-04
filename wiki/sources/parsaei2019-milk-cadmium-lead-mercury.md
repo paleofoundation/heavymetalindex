@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Parsaei et al. 2019 - Cadmium, lead, and mercury in raw milk
 
+## Overview
+
 Parsaei and colleagues measured cadmium, lead, and mercury in 1100 raw milk samples from multiple animal species. The study is routeable for milk and dairy occurrence evidence because it reports ppb concentrations by species, age, and season. It found the highest concentrations in raw bovine milk and seasonal elevation in spring.
 
 ## Key numbers
@@ -72,8 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [f099999ed](https://github.com/paleofoundation/heavymetalindex/commit/f099999ed) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

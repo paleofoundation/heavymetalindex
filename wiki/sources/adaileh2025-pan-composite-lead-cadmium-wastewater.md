@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Adaileh et al. 2025 - PAN composite for lead and cadmium wastewater removal
 
+## Overview
+
 Adaileh and colleagues fabricated a Cu-ZnO/ZrO2 polyacrylonitrile polymer composite and tested it for simultaneous removal of Pb(II), Cd(II), sulfamethoxazole, and ibuprofen from water. This is remediation and treatment-technology evidence. The reported concentrations, adsorption capacities, and percent removals describe wastewater-treatment performance, not heavy-metal occurrence in a consumer product.
 
 ## Key numbers
@@ -68,6 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [74df70578](https://github.com/paleofoundation/heavymetalindex/commit/74df70578) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

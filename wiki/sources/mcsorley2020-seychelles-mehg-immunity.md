@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # McSorley et al. 2020 — Methylmercury and immune dysregulation in Seychelles young adults
 
+## Overview
+
 This study examined associations between methylmercury (MeHg) exposure and immune function in 497 young adults (approximately age 19) from the Seychelles Child Development Study, a longitudinal cohort in the Republic of Seychelles characterized by very high habitual fish consumption (approximately 7 fish meals per week). Hair methylmercury was used as the primary biomarker of chronic MeHg exposure. The mean Y19 hair mercury was 10.23 ppm (SD 6.02), substantially above US and European reference population levels. The study found that MeHg and long-chain polyunsaturated fatty acids (LC-PUFAs) were jointly associated with markers of immune dysregulation, with opposing effects that partially modulate one another. This study contributes to the evidence base for fish consumption as a high-exposure pathway for MeHg and the co-exposure trade-off framework between MeHg and beneficial fish nutrients.
 
 ## Key numbers
@@ -53,6 +55,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

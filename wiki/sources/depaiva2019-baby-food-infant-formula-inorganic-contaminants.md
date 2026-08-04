@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # de Paiva et al. 2019 - inorganic contaminants in baby food and infant formula
 
+## Overview
+
 This peer-reviewed review summarizes recent occurrence, regulatory, exposure-assessment, and analytical-method evidence for inorganic contaminants in infant formula and baby foods. The paper covers cadmium, arsenic, lead, mercury, aluminum, copper, zinc, and nickel, with a specific distinction between total mercury and methylmercury where source studies reported both.
 
 The source is a secondary review rather than a primary occurrence survey. It is useful for broad Category 1 context, method mapping, and locating primary studies, but source-level row-fit decisions should go back to the cited primary papers before using values in product-row benchmark pools.
@@ -158,3 +160,16 @@ The regulatory table is useful as historical context for how the review framed i
 - Full-PDF read performed from the seven-page ScienceDirect PDF. Table 1, Table 2, Table 3, and the exposure-assessment paragraphs on page 63 were checked once from `pdftotext -layout` and a second time against rendered page images before commit.
 - Brand firewall: Table 1 and body text are expressed at food/category level only. No brand-by-brand values are reproduced.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this review.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [da1080e52](https://github.com/paleofoundation/heavymetalindex/commit/da1080e52) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -9,7 +9,7 @@ microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 288
+sources: 881
 ---
 
 # Mercury
@@ -169,6 +169,35 @@ First, the n-3 fatty acid protective adjustment that [[sources/efsa-mercury-meth
 
 Second, the EPA IRIS methylmercury reassessment (currently in step 1 at IRIS) may produce an updated oral RfD when finalized, with potential implications for the 0.1 µg/kg/day value that has been operative since 2001. The wiki should track the IRIS reassessment progress and update the methylmercury page when a new value is finalized.
 
+<!-- BEGIN: hmi-metal-faq -->
+## Frequently asked questions
+<!-- audience: consumer, educator -->
+
+### Which type of mercury in food should I actually worry about?
+
+Methylmercury (MeHg) is the form relevant to dietary risk, and it comes primarily from fish and seafood, especially long-lived predatory fish ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]). Inorganic mercury exposure through diet is uncommon, and elemental mercury vapor from dental amalgam is a separate exposure handled through dental practice rather than food choice ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]).
+
+### Which fish are highest in mercury and which are safest to eat?
+
+Long-lived predatory fish such as swordfish, shark, king mackerel, tilefish, bigeye tuna, marlin, and orange roughy carry methylmercury roughly 10x to 50x higher than lower-trophic-level fish and are in the FDA/EPA "Choices to Avoid" category ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]). Lower-mercury "Best Choices" like salmon, sardines, anchovies, tilapia, shrimp, and catfish (under 0.1 ppm) are recommended at 2 to 3 servings per week, while light canned tuna is a "Good Choice" at 1 serving per week ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]).
+
+### Why are pregnant women and children singled out for mercury advice?
+
+Methylmercury crosses the placenta and concentrates in the developing fetal brain, and the developmental window is the most consequential exposure period ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]]). The major dietary reference values from EFSA, JECFA, and EPA IRIS are all anchored on developmental neurotoxicity, so pregnant and breastfeeding women, women who might become pregnant, and children should follow the FDA/EPA fish categories rather than averaging across "fish" as one group ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]], [[sources/jecfa-61st-methylmercury|JECFA 61st]], [[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]).
+
+### What are the official regulatory limits for methylmercury?
+
+The main dietary reference values are the EPA IRIS oral RfD of 0.1 µg/kg/day, the EFSA tolerable weekly intake (TWI) of 1.3 µg Hg/kg body weight per week (daily equivalent about 0.19), and the JECFA provisional tolerable weekly intake (PTWI) of 1.6 µg/kg body weight per week (daily equivalent about 0.23) ([[sources/epa-iris-methylmercury|EPA IRIS MeHg]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]], [[sources/jecfa-61st-methylmercury|JECFA 61st]]). These values agree to within a factor of 2.3, making mercury the most regulatory-harmonized of the heavy metals on this wiki, and all are anchored on the same Faroe Islands and Seychelles cohort developmental-neurotoxicity endpoint ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]).
+
+### How is mercury exposure measured in people?
+
+Biomonitoring for methylmercury exposure typically measures hair mercury, which integrates exposure over weeks to months, or whole-blood mercury, which reflects recent integrated exposure ([[sources/jecfa-61st-methylmercury|JECFA 61st]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). Maternal hair mercury was the dominant biomarker in the Faroe Islands cohort that underlies the EFSA TWI ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]).
+
+### How much light canned tuna can I safely eat?
+
+Light canned tuna contains roughly 0.1 to 0.3 ppm methylmercury, so a 100-gram serving delivers about 10 to 30 µg ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]). For a 70-kg adult, one can per week is at or below the EFSA TWI, but for a 25-kg child a single serving would be at or above all three reference values, which is why the FDA/EPA "Good Choices" guidance of 1 serving per week with age-scaled serving sizes exists ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]).
+<!-- END: hmi-metal-faq -->
+
 ## Sources
 
 - [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] — ATSDR, October 2024. Toxicological Profile for Mercury.
@@ -187,17 +216,17 @@ See also [[studies/mercury-primary-literature]] for the citable index of mercury
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Agency for Toxic Substances and Disease Registry (2024). *Toxicological Profile for Mercury*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf). Government report, A-tier. [[sources/atsdr-mercury-toxprofile-2024|Source record]]
-2. U.S. Environmental Protection Agency (1995). *Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692). Government report, A-tier. [[sources/epa-iris-mercuric-chloride|Source record]]
-3. U.S. Environmental Protection Agency (2001). *Methylmercury (MeHg) — IRIS Chemical Assessment Summary*. U.S. Environmental Protection Agency, Integrated Risk Information System. [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73). Government report, A-tier. [[sources/epa-iris-methylmercury|Source record]]
-4. Joint FAO/WHO Expert Committee on Food Additives (2004). *Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA*. WHO Technical Report Series 922. [https://doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3). Government report, A-tier. [[sources/jecfa-61st-methylmercury|Source record]]
-5. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2012). *Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food*. EFSA Journal 2012;10(12):2985. [https://doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985). Government report, A-tier. [[sources/efsa-mercury-methylmercury-2012|Source record]]
-6. United Nations Environment Programme (2013). *Minamata Convention on Mercury — Text and Annexes (2024 Edition)*. United Nations Environment Programme, Secretariat of the Minamata Convention on Mercury. [minamataconvention.org](https://minamataconvention.org/en/resources/minamata-convention-mercury-text-annexes). Government report, A-tier. [[sources/minamata-convention-2013|Source record]]
-7. Farina M, Rocha JBT, and Aschner M (2011). *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*. Life Sciences 89(15-16):555-563. [https://doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019). Peer-reviewed, A-tier. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Source record]]
-8. U.S. Food and Drug Administration and U.S. Environmental Protection Agency (2017). *Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years*. U.S. FDA and U.S. EPA. [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish). Government report, A-tier. [[sources/fda-epa-fish-consumption-advice|Source record]]
-9. Ufelle AC and Barchowsky A (2021). *Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition*. Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education. [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827). Textbook chapter, A-tier. [[sources/ufelle2021-metals-chapter|Source record]]
+1. [[sources/atsdr-mercury-toxprofile-2024|Toxicological Profile for Mercury]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2024 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/epa-iris-mercuric-chloride|Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 1995 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/epa-iris-methylmercury|Methylmercury (MeHg) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 2001 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=73)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/jecfa-61st-methylmercury|Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 922 · 2004 · [doi.org/10.1016/s0168-1605(03)00167-3](https://doi.org/10.1016/s0168-1605(03)00167-3)</span><span class="hmi-ref-tag">Government</span>
+5. [[sources/efsa-mercury-methylmercury-2012|Scientific Opinion on the Risk for Public Health Related to the Presence of Mercury and Methylmercury in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2012;10(12):2985 · 2012 · [doi.org/10.2903/j.efsa.2012.2985](https://doi.org/10.2903/j.efsa.2012.2985)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/minamata-convention-2013|Minamata Convention on Mercury — Text and Annexes (2024 Edition)]]<span class="hmi-ref-meta">United Nations Environment Programme · 2013 · [minamataconvention.org](https://minamataconvention.org/en/resources/minamata-convention-mercury-text-annexes)</span><span class="hmi-ref-tag">Government</span>
+7. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/fda-epa-fish-consumption-advice|Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years]]<span class="hmi-ref-meta">U.S. Food and Drug Administration and U.S. Environmental Protection Agency · U.S. FDA and U.S. EPA · 2017 · [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish)</span><span class="hmi-ref-tag">Government</span>
+9. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -207,9 +236,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 9 sources added; 9 sections added and 1 removed; narrative text revised |
+| [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 8 sources added; 2 sections added and 1 removed; narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [3902221b1](https://github.com/paleofoundation/heavymetalindex/commit/3902221b1) | 2026-05-11 | major | 1 source added; narrative text revised |
-| [3d34b33a9](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33a9) | 2026-04-30 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

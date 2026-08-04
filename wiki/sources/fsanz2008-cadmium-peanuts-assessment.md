@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # FSANZ 2008 - Cadmium in peanuts
 
+## Overview
+
 Food Standards Australia New Zealand assessed Application A552, which proposed changing the maximum level for cadmium in peanuts in the Australia New Zealand Food Standards Code. The report includes international peanut cadmium occurrence data and dietary exposure modeling for Australia and New Zealand. This page records the occurrence and exposure tables as source evidence, while treating the maximum-level discussion as a source-reported regulatory context rather than an HMTc threshold proposal.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [57668714b](https://github.com/paleofoundation/heavymetalindex/commit/57668714b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

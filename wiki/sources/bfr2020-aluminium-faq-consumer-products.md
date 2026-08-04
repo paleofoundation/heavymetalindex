@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # BfR 2020 — Aluminium in food and consumer products (FAQ)
 
+## Overview
+
 The German Federal Institute for Risk Assessment (BfR) issued this consumer-facing FAQ on 20 July 2020 to consolidate its position on aluminium exposure from food, food-contact materials, cosmetics, and medicines, incorporating a 2020 revision of its earlier antiperspirant assessment in light of new SCCS data on dermal uptake of aluminium chlorohydrate. The document reaffirms that food remains the dominant exposure pathway — the majority of adolescents and adults in Germany already consume roughly half of the EFSA tolerable weekly intake of 1 mg Al/kg body weight from food alone — and that aggregate intake from food plus food-contact migration plus cosmetics plus medication can exceed the EFSA TWI, while remaining below the higher JECFA provisional TWI of 2 mg/kg bw/week. The revised antiperspirant position is that dermal absorption under realistic application conditions is considerably lower than the BfR's 2014 and 2019 assessments had estimated, making cosmetics a small contributor to total intake relative to food.
 
 ## Key numbers
@@ -127,9 +129,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [0123eaf2b](https://github.com/paleofoundation/heavymetalindex/commit/0123eaf2b) | 2026-06-03 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

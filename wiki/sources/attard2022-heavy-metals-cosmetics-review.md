@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Attard & Attard 2022 — Heavy metals in cosmetics (review)
 
+## Overview
+
 Open-access IntechOpen book chapter compiling published occurrence data and toxicological information on five heavy metals (Pb, Cd, Ni, Hg, As) across sixteen cosmetic formulation categories. Tables 1-3 aggregate reported concentration ranges from the underlying primary literature for face products, body products, and face/body products. Table 4 reports a Spearman correlation matrix across the five metals; a Principal Component Analysis on the same data identifies lipsticks, eye shadows, face paints, makeup foundation, and skin-lightening creams as the high-metal-load categories. The chapter also catalogs the regulatory limits set by FDA CIR, WHO, EU, and Health Canada and summarizes metallokinetics (dermal absorption, stratum-corneum reservoir effect, allergic contact dermatitis for Ni). Useful as broad regulatory and occurrence context for Cat 2 (Children Personal Care) work; the underlying primary studies are the authoritative occurrence source.
 
 ## Key numbers
@@ -145,9 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [765a00121](https://github.com/paleofoundation/heavymetalindex/commit/765a00121) | 2026-05-18 | minor | Narrative text revised |
-| [0a2366826](https://github.com/paleofoundation/heavymetalindex/commit/0a2366826) | 2026-05-18 | major | 9 sections added and 2 removed; narrative text revised |
-| [401c3c2f8](https://github.com/paleofoundation/heavymetalindex/commit/401c3c2f8) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

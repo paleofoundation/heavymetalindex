@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lasky 2013 / Nachman et al. 2013 — Arsenic in chicken: regulatory correspondence
 
+## Overview
+
 This correspondence piece in Environmental Health Perspectives comprises two items: (1) a letter by Tamar Lasky responding to Nachman et al. 2013 (the primary market basket study of roxarsone, inorganic arsenic, and other arsenic species in US chicken), and (2) the formal response from Nachman et al. The Lasky letter notes that arsenic levels in chicken remain high despite earlier 2004 reporting (Lasky et al. 2004), attributing this to the complex multi-agency regulatory structure for food animal drug residues involving FDA, USDA FSIS, EPA, CDC, USDA ARS, and USDA AMS. The Nachman response confirms that arsenic-based drugs (roxarsone, nitarsone) increase inorganic arsenic levels in chicken meat and calls for banning arsenical drugs in food animal production; it acknowledges the USDA FSIS National Residue Program's role and notes that the current arsenic standard for meat was set before 1963 and applies to total arsenic rather than inorganic arsenic.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

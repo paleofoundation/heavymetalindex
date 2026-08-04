@@ -5,6 +5,8 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-05-17
 ---
 
+## Overview
+
 Product-category pages describe heavy-metal evidence for consumer-facing product categories. Start here when the reader's question begins with a product type rather than a metal.
 
 <div class="hmi-quick-read">
@@ -38,15 +40,15 @@ These pages report what the evidence says about the product row, source coverage
 
 Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in [[products/lead-benchmark-context|Category 1 lead benchmark context]]. The ppb view keeps FDA, EU, Prop 65, and occurrence values comparable while preserving each value's legal or evidentiary role.
 
-1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]] (63 sources)
+1. [[products/infant-formula-powder-non-soy|Infant formula, powder (non-soy)]] (64 sources)
 2. [[products/infant-formula-powder-soy-based|Infant formula, powder (soy-based)]] (35 sources)
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]] (31 sources)
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]] (16 sources)
-5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (38 sources)
-6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (76 sources)
-7. [[products/fruit-purees|Fruit purees]] (36 sources)
-8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (22 sources)
-9. [[products/root-vegetable-purees|Root-vegetable purees]] (24 sources)
+5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (39 sources)
+6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (81 sources)
+7. [[products/fruit-purees|Fruit purees]] (37 sources)
+8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (23 sources)
+9. [[products/root-vegetable-purees|Root-vegetable purees]] (184 sources)
 10. [[products/meat-and-poultry-purees|Meat and poultry purees]] (16 sources)
 11. [[products/fish-containing-baby-foods|Fish-containing baby foods]] (19 sources)
 12. [[products/mixed-meals-non-rice|Mixed meals, non-rice]] (27 sources)
@@ -59,7 +61,7 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 
 These pages are graph anchors for sources that report a broader product category than the locked HMTc row split. They should not replace the 16 Category 1 row pages or carry final p90/p100 candidate values unless the evidence is later resolved into a specific row.
 
-- [[products/infant-formula-powder|Infant formula powder]] (49 sources)
+- [[products/infant-formula-powder|Infant formula powder]] (105 sources)
 - [[products/infant-formula-concentrated-liquid-non-soy|Infant formula, concentrated liquid (non-soy)]] (2 sources)
 - [[products/infant-formula-concentrated-liquid-soy-based|Infant formula, concentrated liquid (soy-based)]] (2 sources)
 - [[products/oral-electrolyte-solutions|Oral electrolyte solutions]] (2 sources)
@@ -67,7 +69,7 @@ These pages are graph anchors for sources that report a broader product category
 - [[products/infant-formula-dairy|Infant formula, dairy/cow-milk-based (coarse, spans powder + RTF rows above)]] (11 sources)
 - [[products/infant-formula-dairy-free|Infant formula, dairy-free (coarse, spans soy + other rows above)]] (4 sources)
 - [[products/infant-food-general|Infant food, general (coarse master node)]] (18 sources)
-- [[products/infant-rice-cereal|Infant rice cereal (coarse — feeds the rice-based baby-cereals row above)]] (15 sources)
+- [[products/infant-rice-cereal|Infant rice cereal (coarse — feeds the rice-based baby-cereals row above)]] (16 sources)
 
 ## Children Personal Care (HMTc Category 2, Ages 0-5)
 
@@ -80,12 +82,12 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] (4 sources)
 4. [[products/baby-talcum-powder|Baby talcum powder]] (8 sources)
 5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (14 sources)
-6. [[products/baby-wipes|Baby wipes]] (9 sources)
+6. [[products/baby-wipes|Baby wipes]] (83 sources)
 7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (6 sources)
 8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (6 sources)
 9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (9 sources)
-10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (10 sources)
-11. [[products/toothpaste|Children's toothpaste]] (23 sources)
+10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (141 sources)
+11. [[products/toothpaste|Children's toothpaste]] (24 sources)
 12. [[products/face-paint|Children's face paint]] (14 sources)
 13. [[products/childrens-makeup|Children's makeup]] (23 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (10 sources)
@@ -106,7 +108,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 4. [[products/pasta-rice-based|Pasta (rice-based)]] (2 sources)
 5. [[products/breakfast-cereal-non-rice|Breakfast cereal (non-rice)]] (0 sources)
 6. [[products/breakfast-cereal-rice-based|Breakfast cereal (rice-based)]] (0 sources)
-7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (76 sources)
+7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (77 sources)
 8. [[products/rice-snacks-crackers|Rice snacks/crackers]] (13 sources)
 9. [[products/rice-noodles|Rice noodles]] (4 sources)
 10. [[products/rice-beverages-rice-milk|Rice beverages (rice milk)]] (7 sources)
@@ -123,17 +125,17 @@ Under the v2.2 matrix-family re-cut ([[docs/governance/category-4-split-step0-am
 - [[products/fresh-fruit|Fresh and Frozen Fruits]] (59 sources)
 - [[products/dried-fruit|Dried Fruit]] (6 sources)
 - [[products/fruit-snacks|Fruit Snacks]] (1 source)
-- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (46 sources)
-- [[products/spinach|Spinach]] (19 sources)
-- [[products/non-root-vegetables|Non-Root Vegetables]] (55 sources)
-- [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (58 sources)
+- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (49 sources)
+- [[products/spinach|Spinach]] (20 sources)
+- [[products/non-root-vegetables|Non-Root Vegetables]] (57 sources)
+- [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (59 sources)
 
 ## Category 5: Beverages
 
 These pages carry the first Category 5 beverage comparison layer. The locked row nodes separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
 
 - [[products/category-5-beverages]] (14 sources)
-- [[products/fruit-juices-non-apple]] (33 sources)
+- [[products/fruit-juices-non-apple]] (34 sources)
 - [[products/fruit-juices-apple-containing]] (25 sources)
 - [[products/vegetable-juices-non-root]] (2 sources)
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
@@ -147,7 +149,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/matcha]] (2 sources)
 - [[products/tea|Tea (coarse, all types — spans true-tea and herbal-infusion rows)]] (31 sources)
 - [[products/coffee]] (17 sources)
-- [[products/soft-drinks-carbonated-beverages]] (11 sources)
+- [[products/soft-drinks-carbonated-beverages]] (12 sources)
 - [[products/fermented-beverages-non-tea-based]] (9 sources)
 - [[products/kombucha-tea-based]] (2 sources)
 - [[products/regulatory-crosswalk-field-findings]] (4 sources)
@@ -160,11 +162,11 @@ Contamination platform notes: Predatory fish are a contamination platform for Me
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]] (36 sources)
-2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (62 sources)
-3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (62 sources)
-4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (90 sources)
-5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (64 sources)
+1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]] (37 sources)
+2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (821 sources)
+3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (372 sources)
+4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (454 sources)
+5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (207 sources)
 6. [[products/canned-fish|Canned seafood/fish (with tin flag)]] (53 sources)
 
 Bridge / coarse-grained nodes (broad author-scope pages that span several rows above; listed so their accumulated evidence stays visible while the fine-grained rows fill in):
@@ -192,8 +194,8 @@ Exposure pathway: **Ingestion (oral, high-volume daily consumption)**.  Regulato
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] (26 sources)
-2. [[products/mineral-water|Mineral water]] (7 sources)
+1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] (28 sources)
+2. [[products/mineral-water|Mineral water]] (9 sources)
 3. [[products/sparkling-carbonated-water|Sparkling/carbonated water (unflavored)]] (1 source)
 4. [[products/infant-nursery-water|Infant water / nursery water (if not routed to Category 1 by age-marketing)]] (0 sources)
 
@@ -242,10 +244,10 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 1. [[products/beef-product|Beef]] (20 sources)
 2. [[products/pork-product|Pork]] (10 sources)
 3. [[products/lamb-mutton|Lamb/mutton]] (6 sources)
-4. [[products/poultry-product|Poultry (chicken, turkey, duck)]] (40 sources)
+4. [[products/poultry-product|Poultry (chicken, turkey, duck)]] (41 sources)
 5. [[products/game-meats|Game meats (venison, bison, rabbit)]] (19 sources)
 6. [[products/eggs-product|Eggs]] (12 sources)
-7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] (17 sources)
+7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] (18 sources)
 8. [[products/canned-meats|Canned meats (with tin flag)]] (0 sources)
 
 ## HMTc Category 12: Household Cleaning and Dishwashing
@@ -366,7 +368,7 @@ Exposure pathway: **Ingestion (oral, animal)**.  Regulatory jurisdiction: **FDA 
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/pet-food-dry-kibble|Complete & balanced dry (kibble)]] (6 sources)
+1. [[products/pet-food-dry-kibble|Complete & balanced dry (kibble)]] (15 sources)
 2. [[products/pet-food-canned-wet|Complete & balanced canned/wet]] (1 source)
 3. [[products/pet-food-semi-moist|Semi-moist pet foods]] (0 sources)
 4. [[products/pet-food-raw|Raw pet foods (frozen/chilled raw diets)]] (0 sources)
@@ -522,13 +524,13 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA (Grade A
 
 Scaffolded under HMTc Taxonomy v2.1 (2026-06-08); see [[docs/governance/category-24-step0-lock]]. Rows are routing destinations with no candidate values yet. Master rollup: [[products/milk-and-dairy|Milk and Dairy (Cat 24 master)]]. Butter and ghee remain Cat 7 Row 3 and cross-link here.
 
-1. [[products/dairy-milk-cow|Liquid milk — cow]] (1 source)
+1. [[products/dairy-milk-cow|Liquid milk — cow]] (2 sources)
 2. [[products/dairy-milk-goat-sheep|Liquid milk — goat/sheep/other ruminant]] (1 source)
 3. [[products/dairy-milk-camel|Camel milk]] (0 sources)
 4. [[products/dairy-cheese|Cheese]] (1 source)
-5. [[products/dairy-yogurt-cultured|Yogurt and cultured dairy]] (0 sources)
+5. [[products/dairy-yogurt-cultured|Yogurt and cultured dairy]] (1 source)
 6. [[products/dairy-cream|Cream]] (0 sources)
-7. [[products/dairy-milk-powders|Milk powders (whole, skim, specialty)]] (1 source)
+7. [[products/dairy-milk-powders|Milk powders (whole, skim, specialty)]] (2 sources)
 8. [[products/dairy-condensed-evaporated|Condensed and evaporated milks]] (0 sources)
 
 ## HMTc Category 25: Cannabis, Hemp, and CBD Products
@@ -561,8 +563,8 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 
 Re-cut from Cat 4 under v2.2 ([[docs/governance/category-4-split-step0-amendment-2]]). Cd/Pb soil uptake; peanuts carry the legume Al/Ni platform. Peanuts and peanut butter live here (peanuts are legumes), cross-linked from Cat 28.
 
-1. [[products/legumes-pulses-other|Legumes and pulses (beans, lentils, chickpeas, peas)]] (24 sources)
-2. [[products/soy-products|Soy products]] (7 sources)
+1. [[products/legumes-pulses-other|Legumes and pulses (beans, lentils, chickpeas, peas)]] (25 sources)
+2. [[products/soy-products|Soy products]] (8 sources)
 3. [[products/peanuts|Peanuts]] (21 sources)
 4. [[products/peanut-butter|Peanut butter]] (7 sources)
 
@@ -594,7 +596,7 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 Re-homed from the dissolved Cat 7 ([[docs/governance/category-7-dissolution-step0-event]]); shipped standards verbatim. Refined seed oils (clean) vs unrefined/origin-specific (dirty); Pb/Ni. Butter/ghee are dairy fat → Cat 24.
 
 1. [[products/olive-oil|Olive oil]] (21 sources)
-2. [[products/cooking-oils-other|Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)]] (29 sources)
+2. [[products/cooking-oils-other|Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)]] (104 sources)
 
 ## HMTc Category 31: Sweeteners and Syrups
 
@@ -625,7 +627,7 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 
 Chocolate from Cat 7 + the confectionery gap. Cacao Cd (dark/high-cocoa/origin dirty); imported/tamarind/chili candy Pb. Cocoa-as-beverage → Cat 5.
 
-1. [[products/chocolate|Cocoa and chocolate products (cocoa powder, dark, milk, chips)]] (35 sources)
+1. [[products/chocolate|Cocoa and chocolate products (cocoa powder, dark, milk, chips)]] (36 sources)
 2. [[products/confectionery-candy|Candy and confectionery (hard candy, caramels, imported/ethnic sweets)]] (0 sources)
 3. [[products/gummies-jellies|Gummies and jelly sweets]] (0 sources)
 
@@ -636,7 +638,7 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 Spices + salt from Cat 7. Pb/Cr adulteration (turmeric, chili) + soil uptake; salt independent (Codex anchor). Hot/chili sauces route here — their Pb is chili-borne.
 
 1. [[products/spices|Herbs, spices, and dried seasonings (turmeric, cinnamon, paprika, chili powder, pepper)]] (65 sources)
-2. [[products/salt|Salt (table, sea, Himalayan)]] (9 sources)
+2. [[products/salt|Salt (table, sea, Himalayan)]] (10 sources)
 3. [[products/hot-chili-sauces|Hot sauce and chili sauces]] (0 sources)
 
 ## HMTc Category 35: Prepared and Packaged Meals
@@ -645,7 +647,7 @@ Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Cod
 
 Composite — inherits its component-matrix platforms; provisional until component evidence accumulates. Route by dominant ingredient.
 
-1. [[products/mixed-meals-prepared-foods|Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)]] (1 source)
+1. [[products/mixed-meals-prepared-foods|Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)]] (17 sources)
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
@@ -678,9 +680,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added; narrative text revised |
+| [19cec1a0a](https://github.com/paleofoundation/heavymetalindex/commit/19cec1a0a) | 2026-07-03 | major | 2 sections added and 38 removed; narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [2db16f3ee](https://github.com/paleofoundation/heavymetalindex/commit/2db16f3ee) | 2026-06-09 | major | 7 sections added and 1 removed; narrative text revised |
-| [55f6bded4](https://github.com/paleofoundation/heavymetalindex/commit/55f6bded4) | 2026-06-09 | major | 4 sections added and 1 removed; narrative text revised |
-| [a47b3db41](https://github.com/paleofoundation/heavymetalindex/commit/a47b3db41) | 2026-06-08 | major | 4 sections added; narrative text revised |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

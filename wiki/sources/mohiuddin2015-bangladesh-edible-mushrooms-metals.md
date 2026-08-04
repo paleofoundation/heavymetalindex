@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mohiuddin et al. 2015 - Bangladesh edible mushroom heavy metals
 
+## Overview
+
 Mohiuddin and colleagues analyzed edible mushroom varieties collected from different areas of Bangladesh for nutritional composition and heavy metals. The source is routeable for mushroom occurrence because it reports dry-weight concentration ranges and an average row for Fe, Cu, Zn, Mn, Cr, Pb, As, and Cd. Arsenic and cadmium were below the paper's detection limit, while Pb ranged up to 0.59 ug/g dry weight and Cr was reported around 0.20-0.30 ug/g dry weight.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

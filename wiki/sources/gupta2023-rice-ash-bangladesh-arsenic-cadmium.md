@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gupta et al. 2023 — Household ash as rice fertiliser in Bangladesh: effects on grain iAs and Cd
 
+## Overview
+
 This field trial from the Meharg group at Queen's University Belfast investigates whether recycling household biomass ash as a fertiliser in Bangladeshi rice paddies can improve soil fertility and rice yield without increasing accumulation of inorganic arsenic (iAs) or cadmium (Cd) in grain. Large-scale trials across two geographically distinct regions (Barind and Madhupur Tracts), two growing seasons (dry/Boro and wet/Amon), and three fertiliser treatments found that ash application boosted rice yield by approximately 20 percent relative to conventional NPKS without altering grain iAs, dimethylarsonic acid (DMA), or Cd. The study also characterises rhizosphere microbial communities and demonstrates that region, season, and soil microbial composition are the dominant drivers of elemental accumulation in rice grain, outweighing the treatment effect on iAs and Cd. This is a practically significant null finding from a high-quality research group: a low-cost agronomic intervention that improves yield does not worsen grain arsenic or cadmium in this context.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

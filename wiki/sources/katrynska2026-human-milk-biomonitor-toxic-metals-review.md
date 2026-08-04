@@ -27,6 +27,8 @@ updated: 2026-05-19
 
 # Katrynska et al. 2026 — Human milk as a biomonitor of toxic metal exposure
 
+## Overview
+
 This structured narrative review with systematic search elements synthesizes 112 studies (2010–2025) on heavy metal contamination in human milk, with particular emphasis on maternal–infant transfer pathways, environmental and dietary determinants of exposure, and geographical variability. The review covers Pb, Cd, tHg (including MeHg in fish-eating populations), tAs, Cr, and Al. Under typical (low-exposure) conditions the authors report population-level concentration ranges of approximately 2–5 µg/L for Pb, 1.4–1.7 µg/L for tHg, and below 1 µg/L for Cd. Substantially higher values occur in industrialized and mining regions, with extreme isolated reports exceeding 1000 µg/L for Pb (Turkey, max 1515 µg/L) and ~104 µg/L for tHg (Amazon, max). The review frames human milk as a context-dependent biomarker reflecting both current environmental exposure and long-term mobilization of maternal stores during lactation (bone resorption for Pb, adipose mobilization for lipophilic organometals). Infants are described as a particularly vulnerable subpopulation due to immature hepatic and renal detoxification, higher per-body-weight intake, and increased gastrointestinal absorption (Pb absorption is several times higher in infants than adults). The authors conclude that breastfeeding's benefits clearly outweigh its risks under typical exposure conditions but flag industrial/mining-area and chronic-water-contamination settings as warranting closer monitoring.
 
 ## Key numbers
@@ -164,9 +166,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b7b00f808](https://github.com/paleofoundation/heavymetalindex/commit/b7b00f808) | 2026-05-19 | major | 1 section added and 1 removed; narrative text revised |
-| [81766d438](https://github.com/paleofoundation/heavymetalindex/commit/81766d438) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

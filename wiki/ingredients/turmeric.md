@@ -91,29 +91,7 @@ created_routed_sources: 9
 
 # Turmeric
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=24 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 42 jurisdictions, top US 31% | — |
-| D3 Anthropogenic evidence | GAP | 2 soil + 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 2 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni THIN, Al THIN, Cr POOLABLE | tHg: needs 2 more study(ies); Ni: needs 2 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 12 claims checked, 12 supported; 9 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 3 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 2 more study(ies); Ni: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Turmeric (Curcuma longa) is the most heavily adulteration-documented spice in the food system. The dominant heavy-metals concern is not soil-derived contamination but post-harvest addition of lead chromate (PbCrO₄, the bright yellow pigment that boosts turmeric's commercial color) by some Bangladeshi, Indian, Pakistani, and Sri Lankan processors. The Forsyth 2019 Bangladesh investigation traced the adulteration practice to the polishing step at specific Bangladeshi mills and documented its scale across 524 samples ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh]]); the 2024 South Asia follow-up extended the documentation across India, Pakistan, Sri Lanka, and Nepal (n=356, [[sources/forsyth2024-turmeric-lead-chromate-south-asia]]); the Gafner 2026 scoping review consolidates evidence across six continents (n=2,235 samples) ([[sources/gafner2026-turmeric-adulteration-six-continents]]). FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead]]) authorises detention-without-physical-examination for turmeric and other spices from documented-adulteration-risk supply chains. The US-side case literature — Angelon-Gaetz 2018 North Carolina home-investigation cohort (n=386, [[sources/angelon-gaetz2018-lead-spices-north-carolina]]), Lech 2020 ground turmeric US survey (n=127, [[sources/lech2020-turmeric-lead-united-states]]), Huff 2025 Lancaster PA (n=116, [[sources/huff2025-spices-lancaster-pa]]) — links US-market adulterated turmeric to elevated childhood blood-lead levels.
 
@@ -183,23 +161,23 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set a turmeric-spe
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 9 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Forsyth JE, Nurunnahar S, Islam SS, Baker M, Yeasmin D, Islam MS, et al. (2019). *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*. Environmental Research. [https://doi.org/10.1016/j.envres.2019.108722](https://doi.org/10.1016/j.envres.2019.108722). Peer-reviewed, A-tier. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Source record]]
-2. Forsyth JE, Mistree D, Nash E, Angrish M, and Luby SP (2024). *Evidence of turmeric adulteration with lead chromate across South Asia*. Science of the Total Environment. [https://doi.org/10.1016/j.scitotenv.2024.175003](https://doi.org/10.1016/j.scitotenv.2024.175003). Peer-reviewed, A-tier. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|Source record]]
-3. Gafner S, Orhan N, Kahraman C, and Blumenthal M (2026). *A scoping review of turmeric adulteration based on data from six continents*. Pharmaceutical Biology. [https://doi.org/10.1080/13880209.2025.2606229](https://doi.org/10.1080/13880209.2025.2606229). Peer-reviewed, A-tier. [[sources/gafner2026-turmeric-adulteration-six-continents|Source record]]
-4. U.S. Food and Drug Administration (2024). *FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination*. FDA Import Alerts. [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html). Regulatory, A-tier. [[sources/fda-import-alert-99-42-spice-lead|Source record]]
-5. Angelon-Gaetz KA, Klaus C, Chaudhry EA, and Bean DK (2018). *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm6746a2](https://doi.org/10.15585/mmwr.mm6746a2). Government report, A-tier. [[sources/angelon-gaetz2018-lead-spices-north-carolina|Source record]]
-6. Lech FA, Brown S, Karagas MR, and Matte TD (2020). *Ground Turmeric as a Source of Lead Exposure in the United States*. Environmental Health Perspectives. [https://doi.org/10.1289/EHP5561](https://doi.org/10.1289/EHP5561). Peer-reviewed, A-tier. [[sources/lech2020-turmeric-lead-united-states|Source record]]
-7. Huff A, Lam H, Ghimirey A, Goldring J, Pimentel M, and Okatch H (2025). *Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-025-14064-9](https://doi.org/10.1007/s10661-025-14064-9). Peer-reviewed, A-tier. [[sources/huff2025-spices-lancaster-pa|Source record]]
-8. Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S (2025). *Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure*. Journal of Environmental Exposure Assessment. [https://doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10). Peer-reviewed, A-tier. [[sources/tinggi2025-spices-herbs-queensland|Source record]]
-9. Osei-Safo I, Miezah K, Sackey LNA, Adusei-Gyamf J, and Abdul AM (2024). *Trace and Heavy Metals in Locally and Imported Spices Sold on Markets in Accra Metropolis, Ghana*. The Scientific World Journal. [https://doi.org/10.1155/2024/3168279](https://doi.org/10.1155/2024/3168279). Peer-reviewed, A-tier. [[sources/oseisafo2024-ghana-spices-metals|Source record]]
+1. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh]]<span class="hmi-ref-meta">Forsyth JE, Nurunnahar S, Islam SS, Baker M, Yeasmin D, Islam MS, et al. · Environmental Research · 2019 · [doi.org/10.1016/j.envres.2019.108722](https://doi.org/10.1016/j.envres.2019.108722)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|Evidence of turmeric adulteration with lead chromate across South Asia]]<span class="hmi-ref-meta">Forsyth JE, Mistree D, Nash E, Angrish M, and Luby SP · Science of the Total Environment · 2024 · [doi.org/10.1016/j.scitotenv.2024.175003](https://doi.org/10.1016/j.scitotenv.2024.175003)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/gafner2026-turmeric-adulteration-six-continents|A scoping review of turmeric adulteration based on data from six continents]]<span class="hmi-ref-meta">Gafner S, Orhan N, Kahraman C, and Blumenthal M · Pharmaceutical Biology · 2026 · [doi.org/10.1080/13880209.2025.2606229](https://doi.org/10.1080/13880209.2025.2606229)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/fda-import-alert-99-42-spice-lead|FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Import Alerts · 2024 · [www.accessdata.fda.gov](https://www.accessdata.fda.gov/cms_ia/importalert_1167.html)</span><span class="hmi-ref-tag">Regulation</span>
+5. [[sources/angelon-gaetz2018-lead-spices-north-carolina|Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018]]<span class="hmi-ref-meta">Angelon-Gaetz KA, Klaus C, Chaudhry EA, and Bean DK · MMWR Morbidity and Mortality Weekly Report · 2018 · [doi.org/10.15585/mmwr.mm6746a2](https://doi.org/10.15585/mmwr.mm6746a2)</span><span class="hmi-ref-tag">Government</span>
+6. [[sources/lech2020-turmeric-lead-united-states|Ground Turmeric as a Source of Lead Exposure in the United States]]<span class="hmi-ref-meta">Lech FA, Brown S, Karagas MR, and Matte TD · Environmental Health Perspectives · 2020 · [doi.org/10.1289/EHP5561](https://doi.org/10.1289/EHP5561)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/huff2025-spices-lancaster-pa|Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation]]<span class="hmi-ref-meta">Huff A, Lam H, Ghimirey A, Goldring J, Pimentel M, and Okatch H · Environmental Monitoring and Assessment · 2025 · [doi.org/10.1007/s10661-025-14064-9](https://doi.org/10.1007/s10661-025-14064-9)</span><span class="hmi-ref-tag">Review</span>
+8. [[sources/tinggi2025-spices-herbs-queensland|Heavy metal analysis in commercial spices and herbs by inductively coupled plasma mass spectrometry (ICP-MS) and estimated dietary exposure]]<span class="hmi-ref-meta">Tinggi U, Farrell M, Porter J, Mitchell S, and Jurd S · Journal of Environmental Exposure Assessment · 2025 · [doi.org/10.20517/jeea.2025.10](https://doi.org/10.20517/jeea.2025.10)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/oseisafo2024-ghana-spices-metals|Trace and Heavy Metals in Locally and Imported Spices Sold on Markets in Accra Metropolis, Ghana]]<span class="hmi-ref-meta">Osei-Safo I, Miezah K, Sackey LNA, Adusei-Gyamf J, and Abdul AM · The Scientific World Journal · 2024 · [doi.org/10.1155/2024/3168279](https://doi.org/10.1155/2024/3168279)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -239,9 +217,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sources added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

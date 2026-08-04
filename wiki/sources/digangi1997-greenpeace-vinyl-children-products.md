@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Di Gangi 1997 — Lead and cadmium in vinyl children's products: A Greenpeace Exposé
 
+## Overview
+
 This 70-page Greenpeace USA report by Joseph Di Gangi, PhD, published October 1997 and archived in the U.S. Department of Education's ERIC database as document ED 414 034, is the catalyst report that prompted both the November 1997 U.S. Consumer Product Safety Commission staff response ([[sources/cpsc1997-pvc-children-products]]) and the parallel Health Canada investigation cited there. Greenpeace's investigators bought 131 PVC consumer products at national chain stores in Chicago, Illinois, then expanded the Chicago lead-positive subset to representative samples in nine other US cities (Boston, Boulder, Los Angeles, Minneapolis, New Orleans, New York, Portland OR, San Francisco, Seattle, Washington DC) and one Canadian city (Montreal, Quebec). Total Pb and Cd were measured by atomic-absorption spectroscopy at Stat Analysis (Chicago), 0.07 N HCl extractability of Pb was measured on three commonly-mouthed items using CPSC's own ASTM-derived protocol, and seven children's items were subjected to four weeks of UV-A-only accelerated weathering at the Environmental Quality Institute (UNC-Asheville) per the CPSC weatherometer specification (ASTM G53 without condensation) to quantify Pb and Cd dust released onto product surfaces during aging. The investigation found that 28 of 131 Chicago items (~21%) contained ≥100 ppm Pb, 24 of those 28 (86%) exceeded the CPSC staff-recommended 200-ppm vinyl-miniblind limit, more than half exceeded the 1978 CPSC 600-ppm paint-Pb regulatory limit, and every Pb-positive item also contained varying levels of Cd. Greenpeace's framing — built around the Proposition 65 0.5 µg Pb/day and 0.05 µg Cd/day inhalation thresholds rather than the CPSC chronic-ingestion 15 µg Pb/day and 9.2 µg Cd/day limits — concluded that hazardous Pb and Cd levels were widely present in vinyl children's products and recommended that the CPSC prohibit Pb and Cd in PVC consumer products, that the State of California pursue Proposition 65 enforcement, and that retailers, trademark licensors, and the plastics industry stop marketing vinyl children's products.
 
 ## Key numbers
@@ -231,8 +233,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b81f32ce9](https://github.com/paleofoundation/heavymetalindex/commit/b81f32ce9) | 2026-06-01 | major | 1 section added |
 | [fde24645f](https://github.com/paleofoundation/heavymetalindex/commit/fde24645f) | 2026-06-01 | major | 1 source added; narrative text revised |
-| [93f87ebaa](https://github.com/paleofoundation/heavymetalindex/commit/93f87ebaa) | 2026-06-01 | major | 1 source added; 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Zerihun et al. 2015 - Ethiopian cannabis leaf metals
 
+## Overview
+
 Zerihun et al. measured calcium, zinc, nickel, copper, cadmium, lead, and total chromium in *Cannabis sativa L.* leaves collected from four regions of Ethiopia. The samples were dried and reported on a dry-weight basis. Chromium was measured as total chromium; the paper explicitly says it was not possible to know the specific chromium form in the leaves, so no Cr(VI) value is inferred.
 
 ## Key numbers
@@ -85,6 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [718c85d1d](https://github.com/paleofoundation/heavymetalindex/commit/718c85d1d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

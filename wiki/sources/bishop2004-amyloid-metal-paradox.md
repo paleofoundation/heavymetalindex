@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bishop & Robinson 2004 — Aβ-metal complexes are paradoxically neurotoxic and neuroprotective in rat cerebral cortex
 
+## Overview
+
 Bishop and Robinson (School of Psychology, Psychiatry and Psychological Medicine, Monash University, Australia) co-injected human Aβ1-42 with iron, copper, or zinc into rat cerebral cortex at the concentrations these metals are reported to reach in Alzheimer-disease senile plaques (Fe 1 mM, Cu 0.4 mM, Zn 1 mM; Lovell et al. 1998 cited in [28]), and counted Fluoro-Jade-labelled dying neurones 24 hours later. The experiment was designed to reconcile a recurring conflict in the in vitro literature in which Aβ-metal complexes appear sometimes more neurotoxic than free metal and sometimes less. The headline result is paradoxical at the in vivo level too: Aβ-iron and Aβ-copper complexes killed substantially fewer cortical neurones than iron or copper injected alone, while Aβ-zinc trended (non-significantly) toward greater neurotoxicity than zinc alone. The authors interpret the findings as evidence that Aβ contributes to antioxidant defence of the brain by binding redox-active metal ions, and that the neurotoxicity reported for amyloid plaques in vivo may be attributable to the iron and zinc components of the plaques rather than to Aβ or copper.
 
 ## Why this matters
@@ -174,8 +176,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [f7072bd7c](https://github.com/paleofoundation/heavymetalindex/commit/f7072bd7c) | 2026-06-08 | major | 1 source added; narrative text revised |
-| [42af49768](https://github.com/paleofoundation/heavymetalindex/commit/42af49768) | 2026-06-08 | major | 2 sources added; 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

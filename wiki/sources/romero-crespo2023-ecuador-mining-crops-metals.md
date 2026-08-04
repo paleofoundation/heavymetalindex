@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Romero-Crespo et al. 2023 — Heavy metals in soils and food crops near Ecuadorean mining area
 
+## Overview
+
 Romero-Crespo et al. measured As, Cd, Cr, Cu, Ni, Pb, and Zn in soils and food crops (including leafy vegetables, potato, and corn) in an agricultural zone adjacent to active mining operations in Ecuador. The study documents mining-related soil contamination transfer into edible crop portions, with As and Pb showing the most pronounced elevations relative to background concentrations. Ecuador is the highest Cd context for cocoa globally, but this study focuses on a distinct mining-adjacent geographic zone rather than the volcanic Andean cocoa-growing regions, illustrating that Ecuador's heavy metal burden in agriculture is geographically heterogeneous with mining as a second contamination pathway separate from the volcanic soil Cd pathway.
 
 ## Key numbers
@@ -57,7 +59,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

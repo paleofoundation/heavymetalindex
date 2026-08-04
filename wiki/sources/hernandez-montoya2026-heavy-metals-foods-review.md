@@ -27,6 +27,8 @@ updated: 2026-05-28
 
 # Hernández-Montoya et al. 2026 — Heavy metal contamination in foods: scoping review of detection, regulation, and health risk
 
+## Overview
+
 This PRISMA-ScR scoping review (121 studies from 255 initial records) synthesizes peer-reviewed literature on the occurrence of five priority toxic metals (As, Cd, Pb, Hg, Ni) in food matrices, emphasizing contamination pathways, analytical detection strategies, and documented human health effects. The review is qualitative — no quantitative meta-analysis was attempted because of methodological heterogeneity across included studies, and no formal risk-of-bias assessment was performed. Chromium and tin were excluded by design.
 
 The review consolidates regulatory maximum levels from Codex Alimentarius CXS 193-1995 Rev. 2024, EU Regulation 1881/2006, EU Regulation 2023/915, and OIV 2021 (wine), and provides a comparative overview of conventional analytical methods (AAS, ICP-MS, ICP-OES, LC-ICP-MS, AFS, DMA) and emerging methods (portable XRF, Raman/SERS, electronic tongues, nanomaterial-based electrochemical biosensors, in situ environmental magnetism).
@@ -184,9 +186,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [f992813e1](https://github.com/paleofoundation/heavymetalindex/commit/f992813e1) | 2026-05-28 | minor | Narrative text revised |
 | [ff06a2ca3](https://github.com/paleofoundation/heavymetalindex/commit/ff06a2ca3) | 2026-05-28 | major | 8 sections added and 1 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

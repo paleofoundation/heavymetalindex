@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Lucchini et al. 2025 — Mercury in the Amazon Basin: fish contamination and co-exposures
 
+## Overview
+
 This review examines mercury contamination in the Amazon Basin, focusing on fish consumption as the primary exposure pathway for indigenous and riverside communities. Fish total Hg concentrations range from 0.10 to 4.73 µg/g (wet weight) across Amazonian species, with piscivorous predators (surubim, tucunaré/peacock bass, piranha) at the high end. Human hair mercury concentrations in documented exposed populations range from 3.07 to 24.6 µg/g, substantially exceeding the WHO guidance value of 1 µg/g. The review also addresses co-exposures with agrochemicals, microplastics, and artisanal gold mining (ASGM) byproducts, noting synergistic effects that may amplify neurotoxic risk. Nutritional trade-offs (omega-3 benefits vs. Hg risk) are discussed in the context of food security for communities dependent on river fish.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

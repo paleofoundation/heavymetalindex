@@ -27,6 +27,8 @@ sampling_year_range: null
 
 # Narukawa 2020 — Hijiki candidate reference material: total arsenic, inorganic arsenic (As(V)), and arsenosugars (inter-laboratory study)
 
+## Overview
+
 Narukawa and colleagues (NMIJ/AIST, with the University of Graz) ran a two-laboratory inter-laboratory study to characterise a candidate hijiki seaweed certified reference material (NMIJ CRM 7405-b) for total arsenic and water-soluble arsenic species, validating methods against the existing certified hijiki CRM 7405-a. This is a metrology/CRM-development paper rather than a market survey, but it provides rigorously-quantified hijiki arsenic occurrence values on a dry-mass basis: the candidate hijiki material carried total arsenic 49.4 mg/kg and inorganic arsenic (measured as As(V)) 24.4 mg/kg dry weight (≈49% of total), and the control CRM 7405-a is certified at total arsenic 35.8 and As(V) 10.1 mg/kg. The values reinforce hijiki as a high-inorganic-arsenic seaweed and supply CRM-quality anchor points; because they are reference materials, not retail products, they are flagged below as method/anchor data rather than market-occurrence inputs.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [f8cb5c36e](https://github.com/paleofoundation/heavymetalindex/commit/f8cb5c36e) | 2026-06-08 | major | 4 sections added; narrative text revised |

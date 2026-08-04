@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Beene et al. 2022 — Mass-balance approach to arsenic intake and excretion (Bangladesh, Navajo, Chile)
 
+## Overview
+
 This study applies a geoscience-derived mass-balance framework to reconcile arsenic intake from multiple environmental sources with urinary arsenic excretion in three well-characterized populations: rural Bangladesh (HEALS cohort, n=11,224), Navajo Nation birth cohort (NBCS, n=619), and northern Chile case-control studies (n=630). The approach treats biomarker arsenic as a dependent variable reflecting total intake from multiple pathways, rather than as an independent exposure marker. In Bangladesh, accounting for arsenic from both well water and rice substantially improved the alignment between predicted intake and measured urinary excretion; rice contributed an average of approximately 96 µg/day of arsenic, about one-third of the 300 µg/day average from drinking water. Rice As concentrations ranged 50–1,200 µg/kg (average 244 ± 150 µg/kg uncooked; 235 ± 180 µg/kg cooked). In Navajo Nation, home dust emerged as an important additional arsenic source beyond drinking water. In northern Chile, persistent imbalance between intake estimates and excretion suggested imprecise measurement of drinking water arsenic as the main source of misclassification.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

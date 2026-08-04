@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Rebellato et al. 2023 — Composition and bioaccessibility of inorganic elements in plant-based yogurts (Brazil retail)
 
+## Overview
+
 Rebellato and colleagues at the Institute of Food Technology (ITAL, São Paulo) and Adolfo Lutz Institute measured 10 essential inorganic elements (Ca, Cu, Fe, K, Mg, Mn, Na, P, Zn, Se) by inductively coupled plasma optical emission spectrometry (ICP-OES) and 6 trace elements (Al, Ba, Co, Cr, Mo, Ni) by inductively coupled plasma mass spectrometry (ICP-MS) in 44 plant-based yogurt sample-lots and 1 cow-milk natural yogurt sample-lot purchased from retail establishments in Campinas (São Paulo, Brazil) between August and October 2022. Six plant-based sample-lots (samples 2, 5, 12, 13, 16) and the cow-milk comparator (sample 18) were additionally subjected to a static in vitro INFOGEST 2.0 simulated gastrointestinal digestion to estimate the bioaccessible fraction of each element. The selected subset spanned different brand sources and formulation compositions. Bioaccessibility of essential elements ranged widely across plant-based products: calcium bioaccessibility ranged 17.2 to 55.6%, magnesium 7.7 to 70.3%, phosphorus < LOQ to 76.2%, with the cow-milk comparator at 40.6% (Ca), 61.1% (Mg), and 76.2% (P). Among the trace elements, the bioaccessibility of Mo exceeded 70% in plant-based samples and reached 71% in the animal-based comparator, while Ni bioaccessibility in plant-based samples ranged 7 to 90%, Ba 12 to 76%, and Co 11% and 89% in the two samples (2 and 13) where Co was detected. The authors note that despite the lower trace-element contents observed in plant-based versus animal-based yogurts, bioaccessibility fractions above 50% for several elements (Cr, Ni, Mo, Ba, Co) reinforce the importance of characterizing both total content and bioaccessible fraction when assessing exposure from this emerging product category.
 
 ## Key numbers
@@ -169,8 +171,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [ba1c4cdaa](https://github.com/paleofoundation/heavymetalindex/commit/ba1c4cdaa) | 2026-06-08 | minor | Narrative text revised |
-| [07a005f15](https://github.com/paleofoundation/heavymetalindex/commit/07a005f15) | 2026-06-08 | major | 1 source added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

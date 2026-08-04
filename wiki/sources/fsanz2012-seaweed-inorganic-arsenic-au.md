@@ -27,6 +27,8 @@ sampling_year_range: 2010
 
 # FSANZ 2012 — Inorganic arsenic in seaweed and seaweed products on the Australian market
 
+## Overview
+
 Food Standards Australia New Zealand surveyed inorganic arsenic in 38 dried seaweed and seaweed-containing product samples collected from Australian retail in April–May 2010, undertaken to review the 2004 FSANZ consumer advice to avoid hijiki. Inorganic arsenic in dried seaweed ranged from below the 0.05 mg/kg limit of reporting to 7.80 mg/kg in a single hijiki composite, with all samples below the Australia New Zealand Food Standards Code maximum level of 1 mg/kg (calculated at 85% hydration) except that one hijiki composite, which at 7.80 mg/kg dried equated to 1.4 mg/kg at 85% hydration and was referred to the relevant jurisdiction. Inorganic arsenic was consistently higher in hijiki/Sargassum fusiforme than in wakame, kombu, or nori; among seaweed-containing products only two seaweed-chip samples exceeded the limit of reporting. The survey reproduces the cross-national pattern that hijiki is the inorganic-arsenic outlier among edible seaweeds.
 
 ## Key numbers
@@ -96,6 +98,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [fdd609860](https://github.com/paleofoundation/heavymetalindex/commit/fdd609860) | 2026-06-08 | major | 4 sections added; narrative text revised |

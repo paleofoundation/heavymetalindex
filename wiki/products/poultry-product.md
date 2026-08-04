@@ -13,38 +13,40 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 40
+sources: 41
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Poultry (chicken, turkey, duck)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 11 (Meat, Poultry, and Eggs), Row 4: **Poultry (chicken, turkey, duck)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [poultry-product]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 11 (Meat, Poultry, and Eggs), Row 4: **Poultry (chicken, turkey, duck)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [poultry-product]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Poultry (chicken, turkey, duck), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Poultry (chicken, turkey, duck), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Poultry (chicken, turkey, duck), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Poultry (chicken, turkey, duck), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in poultry (chicken, turkey, duck). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in poultry (chicken, turkey, duck). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA, USDA (meat/poultry inspection), EU, Codex**.
 
@@ -114,7 +116,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -147,17 +149,18 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 27 | [[sources/lukin2020-broiler-drumstick-minerals\|Lukin et al. 2020]]. *Mineral composition of chicken meat semi-finished products from different producers*, Innovations and Food Safety | 2020 | Peer-reviewed | RU tAs, Cd, Pb, Cr, Ni, Sn, Al, Sb occurrence in Chilled broiler drumsticks from two producers sold in Chelyabinsk, Russia |
 | 28 | [[sources/majid2020-broiler-meat-cumin-minerals\|Majid et al. 2020]]. *Effect of dietary supplementing cumin (Cuminum cyminum L.) on meat traits of the broiler chicks*, Basrah Journal of Agricultural Sciences 33(1): 159-171 | 2020 | Peer-reviewed | IQ Cr, Cu, Cd, Pb, Ni, Zn, Fe occurrence in Ninety-six Ross 308 broiler chicks assigned to four diet groups with three replicates of eight chicks each; breast... (n=96) |
 | 29 | [[sources/wang2020-jilin-total-diet-metals\|Wang et al. 2020]]. *Contamination and health risk assessment of lead, arsenic, cadmium, and aluminum from a total diet study of Jilin Province, China*, Food Science & Nutrition | 2020 | Peer-reviewed | CN Pb, tAs, Cd, Al occurrence in Jilin Province total-diet-study composites across 12 food groups and 48 product groups, with consumption inputs for 7700 residents... |
-| 30 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg occurrence in Beijing general population; 25 foodstuff types collected from four sites, three replicates per foodstuff at each site (n=300) |
-| 31 | [[sources/razanov2019-poultry-silicon-mineral-heavy-metals\|Razanov et al. 2019]]. *Effect of silicon and mineral extract on heavy metals balance and accumulation rate in the muscle tissue of poultry*, Ukrainian Journal of Ecology 9(4):742-748 | 2019 | Peer-reviewed | UA Pb, Cd, Zn, Cu occurrence in Poultry fed raw materials including corn, wheat, oats, barley, and sunflower meal, with a silicon-mineral water extract intervention. (n=Poultry edible parts and diet raw materials from the Right-bank Forest-steppe of Ukraine; per-cell animal counts not extracted.) |
-| 32 | [[sources/wang2019-dietary-lead-guangzhou\|Wang et al. 2019]]. *Dietary Lead Exposure and Associated Health Risks in Guangzhou, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb occurrence in Food safety risk monitoring samples from Guangzhou, China, collected during 2014-2017 across 27 food categories; consumption inputs came... (n=6339) |
-| 33 | [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|Mahbub et al. 2018]]. *Detection of heavy metals in poultry feed, meat and eggs*, Asian-Australasian Journal of Food Safety and Security | 2018 | Peer-reviewed | BD Cr, Pb, tAs occurrence in Poultry feed, meat, and egg samples from major poultry-producing areas of Bangladesh |
-| 34 | [[sources/islam2015-bangladesh-foods-heavy-metals\|Islam et al. 2015]]. *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*, Ecotoxicology and Environmental Safety | 2015 | Peer-reviewed | BD Cr, Ni, Cu, tAs, Cd, Pb occurrence in Commonly consumed meat, egg, fish, milk, vegetable, cereal, and fruit foods collected from agriculture fields, farms, river, and... |
-| 35 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | US tAs, iAs occurrence in Commentary on Nachman et al. 2013 market basket study of chicken arsenic; no primary sample collection in this... |
-| 36 | [[sources/nachman2013-chicken-arsenic-research-brief\|Nachman et al. 2013]]. *Arsenic in Chicken Meat*, Johns Hopkins Center for a Livable Future research brief | 2013 | Research brief | US iAs, tAs occurrence in One hundred forty-two chicken breast samples purchased from 82 stores in 10 US cities, representing 60 unique brands;... (n=142) |
-| 37 | [[sources/loutfy2012-ismailia-foodstuffs-metals\|Loutfy et al. 2012]]. *Analysis and exposure assessment of some heavy metals in foodstuffs from Ismailia city, Egypt*, Toxicological & Environmental Chemistry | 2012 | Peer-reviewed | EG Cd, Pb, Cr, Zn, Cu occurrence in About 350 locally produced individual food samples purchased in 2007 from four local markets around Ismailia city, Egypt,... (n=117) |
-| 38 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | PK Cr-VI occurrence in Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm)... |
-| 39 | [[sources/uneyama2007-arsenic-foods-cumulative-data\|Uneyama et al. 2007]]. *Arsenic in various foods: Cumulative data*, Food Additives & Contaminants | 2007 | Peer-reviewed | JP/US/GB tAs, iAs occurrence in Cumulative review of arsenic measurements in food from PubMed, Japanese local-authority research databases, and national food-safety surveillance reports;... |
-| 40 | [[sources/cot2003-arsenic-food-tds\|Committee on Toxicity of 2003]]. *Statement on arsenic in food: results of the 1999 Total Diet Study*, Committee on Toxicity statement | 2003 | Government report | GB tAs, iAs occurrence in 1999 UK Total Diet Study arsenic analysis: 119 food categories collected from 24 towns and combined into 20... (n=480) |
+| 30 | [[sources/jayanthi2019-chennai-chicken-heavy-metals\|Jayanthi et al. 2019]]. *Assessment of non-essential heavy metals in ready-to-eat chicken meat products of Chennai city*, International Journal of Chemical Studies | 2019 | Peer-reviewed | IN Al, tAs, Cd, Cr, tHg, Pb occurrence in Two hundred eighty-eight ready-to-eat chicken meat product samples from street food outlets in northern, central, and southern Chennai,... (n=288) |
+| 31 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg occurrence in Beijing general population; 25 foodstuff types collected from four sites, three replicates per foodstuff at each site (n=300) |
+| 32 | [[sources/razanov2019-poultry-silicon-mineral-heavy-metals\|Razanov et al. 2019]]. *Effect of silicon and mineral extract on heavy metals balance and accumulation rate in the muscle tissue of poultry*, Ukrainian Journal of Ecology 9(4):742-748 | 2019 | Peer-reviewed | UA Pb, Cd, Zn, Cu occurrence in Poultry fed raw materials including corn, wheat, oats, barley, and sunflower meal, with a silicon-mineral water extract intervention. (n=Poultry edible parts and diet raw materials from the Right-bank Forest-steppe of Ukraine; per-cell animal counts not extracted.) |
+| 33 | [[sources/wang2019-dietary-lead-guangzhou\|Wang et al. 2019]]. *Dietary Lead Exposure and Associated Health Risks in Guangzhou, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb occurrence in Food safety risk monitoring samples from Guangzhou, China, collected during 2014-2017 across 27 food categories; consumption inputs came... (n=6339) |
+| 34 | [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|Mahbub et al. 2018]]. *Detection of heavy metals in poultry feed, meat and eggs*, Asian-Australasian Journal of Food Safety and Security | 2018 | Peer-reviewed | BD Cr, Pb, tAs occurrence in Poultry feed, meat, and egg samples from major poultry-producing areas of Bangladesh |
+| 35 | [[sources/islam2015-bangladesh-foods-heavy-metals\|Islam et al. 2015]]. *The concentration, source and potential human health risk of heavy metals in the commonly consumed foods in Bangladesh*, Ecotoxicology and Environmental Safety | 2015 | Peer-reviewed | BD Cr, Ni, Cu, tAs, Cd, Pb occurrence in Commonly consumed meat, egg, fish, milk, vegetable, cereal, and fruit foods collected from agriculture fields, farms, river, and... |
+| 36 | [[sources/lasky2013-arsenic-chicken-correspondence\|Lasky et al. 2013]]. *Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)*, Environmental Health Perspectives | 2013 | Peer-reviewed | US tAs, iAs occurrence in Commentary on Nachman et al. 2013 market basket study of chicken arsenic; no primary sample collection in this... |
+| 37 | [[sources/nachman2013-chicken-arsenic-research-brief\|Nachman et al. 2013]]. *Arsenic in Chicken Meat*, Johns Hopkins Center for a Livable Future research brief | 2013 | Research brief | US iAs, tAs occurrence in One hundred forty-two chicken breast samples purchased from 82 stores in 10 US cities, representing 60 unique brands;... (n=142) |
+| 38 | [[sources/loutfy2012-ismailia-foodstuffs-metals\|Loutfy et al. 2012]]. *Analysis and exposure assessment of some heavy metals in foodstuffs from Ismailia city, Egypt*, Toxicological & Environmental Chemistry | 2012 | Peer-reviewed | EG Cd, Pb, Cr, Zn, Cu occurrence in About 350 locally produced individual food samples purchased in 2007 from four local markets around Ismailia city, Egypt,... (n=117) |
+| 39 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | PK Cr-VI occurrence in Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm)... |
+| 40 | [[sources/uneyama2007-arsenic-foods-cumulative-data\|Uneyama et al. 2007]]. *Arsenic in various foods: Cumulative data*, Food Additives & Contaminants | 2007 | Peer-reviewed | JP/US/GB tAs, iAs occurrence in Cumulative review of arsenic measurements in food from PubMed, Japanese local-authority research databases, and national food-safety surveillance reports;... |
+| 41 | [[sources/cot2003-arsenic-food-tds\|Committee on Toxicity of 2003]]. *Statement on arsenic in food: results of the 1999 Total Diet Study*, Committee on Toxicity statement | 2003 | Government report | GB tAs, iAs occurrence in 1999 UK Total Diet Study arsenic analysis: 119 food categories collected from 24 towns and combined into 20... (n=480) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -167,9 +170,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
-| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
-| [815efe885](https://github.com/paleofoundation/heavymetalindex/commit/815efe885) | 2026-05-17 | major | 1 section added |
 <!-- END: hmi-page-history -->

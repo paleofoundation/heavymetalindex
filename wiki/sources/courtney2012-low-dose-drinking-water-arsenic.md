@@ -28,6 +28,8 @@ ingest_method: marker_manifest_batch
 
 # Effects of Low-Dose Drinking Water Arsenic on Mouse Fetal and Postnatal Growth and Development
 
+## Overview
+
 Marker-corpus ingest from `raw/markdown/FM_3365045/FM_3365045.md`.
 
 ## Evidence fitness
@@ -67,8 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [56a8b2bfc](https://github.com/paleofoundation/heavymetalindex/commit/56a8b2bfc) | 2026-05-19 | minor | Narrative text revised |
-| [493fa39c9](https://github.com/paleofoundation/heavymetalindex/commit/493fa39c9) | 2026-05-19 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

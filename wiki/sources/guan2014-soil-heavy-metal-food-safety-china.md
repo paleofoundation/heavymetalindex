@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Guan and Sun 2014 — Soil heavy metal pollution and food safety, China
 
+## Overview
+
 Guan and Sun present a three-page narrative overview of soil heavy metal pollution sources, characteristics, and food safety implications, framed primarily around Chinese conditions. The paper was published in Applied Mechanics and Materials, a Trans Tech Publications conference proceedings volume (Vols. 675-677, 2014, pp 612-614), as part of the "Environmental Technology and Resource Utilization II" symposium. It reports no original experimental data; it synthesizes previously published findings on pollution sources (industrial "three wastes" emissions, mining and smelting, coal combustion, vehicle exhaust, agricultural inputs including chemical fertilizers and sewage irrigation) and mitigation approaches (physical-chemical soil replacement, leaching technology, bioremediation, agronomic measures, cultivar selection, and planting-structure adjustment in contaminated zones).
 
 This is a C-tier reference: a short Chinese conference paper from 2014 with no original data, predating the substantial expansion of high-quality food heavy metal occurrence literature published in 2015-2025. It is retained in the corpus primarily as a historical baseline document attesting to Chinese scientific awareness of soil-to-food heavy metal transfer circa 2014.
@@ -95,9 +97,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b7163f9e2](https://github.com/paleofoundation/heavymetalindex/commit/b7163f9e2) | 2026-05-18 | minor | Narrative text revised |
-| [d9305085d](https://github.com/paleofoundation/heavymetalindex/commit/d9305085d) | 2026-05-18 | major | 4 sections added and 1 removed; narrative text revised |
-| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

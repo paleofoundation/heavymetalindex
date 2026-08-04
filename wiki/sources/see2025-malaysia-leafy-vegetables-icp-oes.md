@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # See et al. 2025 — Heavy metals in leafy vegetables from Selangor wet market, Malaysia
 
+## Overview
+
 This 2025 Malaysian market survey measured Al, Cd, Cr, Cu, Fe, and Pb in four commercially important leafy vegetables (cabbage, mustard, spinach, and pak choi) purchased from Pasar Borong Selangor, one of the largest wholesale wet markets in the Klang Valley region, using inductively coupled plasma–optical emission spectrometry (ICP-OES). Cd, Cr, Cu, and Pb were undetected in all samples (below detection limits of <0.004 mg/kg for Cd and Pb, <0.01 mg/kg for Cr and Cu). Al and Fe were detected at levels within FAO/WHO permissible limits, with spinach consistently showing the highest concentrations of both metals. Health-risk assessment via target hazard quotient (THQ) and hazard index (HI) found low non-carcinogenic risks for the adult population across all vegetables and metals; target cancer risk (TCR) values were not calculable because no carcinogenic metals were detected.
 
 ## Key numbers
@@ -145,9 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e88b58732](https://github.com/paleofoundation/heavymetalindex/commit/e88b58732) | 2026-05-20 | minor | Narrative text revised |
-| [1c479f96b](https://github.com/paleofoundation/heavymetalindex/commit/1c479f96b) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

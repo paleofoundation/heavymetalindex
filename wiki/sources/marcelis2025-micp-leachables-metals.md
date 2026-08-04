@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Marcelis et al. 2025 — Menstrual and intimate care product leachables
 
+## Overview
+
 Marcelis et al. developed an extractables-and-leachables workflow for 64 menstrual and intimate care products (MICPs), including tampons, menstrual pads, menstrual cups, adult novelties, Kegel-exercise devices, and menstrual sea sponges. The paper reports organic leachables and a pilot ICP-MS/MS metal/metalloid leaching table under simulated-use conditions. Metal values are reported in the leachate in `ppb`; arsenic, chromium, tin, and mercury are total-element measurements, not speciated forms.
 
 ## Key numbers
@@ -88,6 +90,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [a2319d6e4](https://github.com/paleofoundation/heavymetalindex/commit/a2319d6e4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Zhao et al. 2014 - edible-seaweed arsenic digestion speciation
 
+## Overview
+
 Zhao and colleagues measured total arsenic and four extractable arsenic species in five edible seaweeds purchased from Qingdao supermarkets. The paper separates water-extract, simulated-gastric, and simulated-intestinal arsenic species, so As(III), As(V), DMA, and MMA are recorded separately below. The source is directly relevant to seaweed/kelp foods, especially because the high total arsenic in *Hizikia fusiformis* is paired with high water-extract As(V) but lower simulated-gastric As(III).
 
 ## Key numbers
@@ -106,6 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [3ad014942](https://github.com/paleofoundation/heavymetalindex/commit/3ad014942) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

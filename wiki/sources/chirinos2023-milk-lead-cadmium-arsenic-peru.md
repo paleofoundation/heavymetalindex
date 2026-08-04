@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Chirinos-Peinado et al. 2023 — Lead, cadmium, and arsenic in raw milk near mineral concentrator, Peru
 
+## Overview
+
 This study measured lead, cadmium, and total arsenic concentrations in 19 raw bovine milk samples collected from cows raised on a farm immediately adjacent to a mini mineral concentrator in the Mantaro Valley, Central Andes, Peru. Paired soil and pasture samples were collected to trace the soil-pasture-milk transfer pathway. Health risks were assessed for the Peruvian population across age groups (2–85 years) using weekly intake, dietary risk quotient, and hazard quotient calculations at three consumption scenarios (minimum, average, maximum).
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3dc7cbb24](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb24) | 2026-05-13 | major | 4 sections added; narrative text revised |

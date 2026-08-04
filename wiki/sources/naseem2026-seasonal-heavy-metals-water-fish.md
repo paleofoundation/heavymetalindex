@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Naseem & Bashir 2026 — Seasonal fluctuation of heavy metals in water and fish (TEMJ review)
 
+## Overview
+
 Naseem Bhanu (Research Scholar) and Haroom Bashir (Assistant Professor), both at Sunrise University, Alwar, Rajasthan (India), published a four-section narrative review in Transformative Education: A Multidisciplinary Journal (TEMJ), Volume 2 Issue 1, January 2026 (pp. 99–105). The paper has no original measurements, no quantitative meta-analysis, no concentration tables, and no figures: it is a textbook-style overview of how rainfall, temperature, pH, dissolved oxygen, sediment dynamics, and fish physiology jointly drive within-year variability in dissolved-metal concentrations in water bodies and in metal bioaccumulation in fish tissues. The metals named in the body text are lead, cadmium, mercury, chromium, arsenic, copper, zinc, and nickel; speciation is not addressed, so total mercury and total arsenic are the only defensible readings of the paper's mercury and arsenic discussion.
 
 ## Key numbers
@@ -81,6 +83,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d5eb71c1](https://github.com/paleofoundation/heavymetalindex/commit/0d5eb71c1) | 2026-05-18 | major | 1 section added; narrative text revised |

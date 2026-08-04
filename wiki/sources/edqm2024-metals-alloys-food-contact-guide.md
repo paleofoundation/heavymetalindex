@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # EDQM 2024 - metals and alloys food-contact-material guide
 
+## Overview
+
 The EDQM / Council of Europe 2nd edition technical guide supplements Resolution `CM/Res(2020)9` for food-contact materials and articles made from metals and alloys. It sets specific release limits (`SRLs`) in `mg/kg food`, summarizes safety reviews for alloy components and metal contaminants, and specifies release-testing approaches for foodstuffs and food simulants. This is regulatory context for metal food-contact materials rather than an occurrence study; its values are release limits and test-method instructions, not measured product concentrations.
 
 ## Key numbers
@@ -154,6 +156,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [2894f25d8](https://github.com/paleofoundation/heavymetalindex/commit/2894f25d8) | 2026-06-09 | major | 7 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

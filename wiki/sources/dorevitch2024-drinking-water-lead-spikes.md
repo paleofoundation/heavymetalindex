@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Dorevitch et al. 2024 — Lead in drinking water from particulate spike simulation
 
+## Overview
+
 This study simulated lead particulate spikes in drinking water to evaluate whether existing sampling protocols adequately capture episodic lead exposure from corroding lead service lines and household plumbing. The authors ran controlled experiments spiking water samples with lead particles at defined concentrations and compared detection rates under standard first-draw vs. sequential flushing sampling protocols. The paper identifies methodological gaps in regulatory monitoring that may cause underestimation of lead exposure from drinking water, particularly for vulnerable populations including infants and children consuming formula reconstituted with tap water.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3dc7cbb24](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb24) | 2026-05-13 | major | 4 sections added; narrative text revised |

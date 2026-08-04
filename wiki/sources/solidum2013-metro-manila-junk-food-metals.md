@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Solidum et al. 2013 — Lead, cadmium, and chromium in Metro Manila junk food
 
+## Overview
+
 Solidum and colleagues measured Pb, Cd, and total Cr in 36 junk-food samples purchased from sari-sari stores in Metro Manila, Philippines. The study reports ppm concentrations from flame atomic absorption spectroscopy after nitric-acid digestion. The occurrence finding is aggregate rather than brand-routed here: one imported snack sample had the highest Pb value, Cd was low or non-detectable, and every tested snack was above the source's chromium comparator.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [418e6eeab](https://github.com/paleofoundation/heavymetalindex/commit/418e6eeab) | 2026-06-08 | major | 4 sections added; narrative text revised |

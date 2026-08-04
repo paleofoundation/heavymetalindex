@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings — the scientific debate
 
+## Overview
+
 A live methodological debate in seafood toxicology asks whether the selenium-to-mercury molar ratio (Se:Hg) in consumed fish should modulate the regulatory ceiling on methylmercury. The argument: Se and Hg share an extraordinarily high binding affinity (Hg-Se bond ~70 kcal/mol, among the strongest in biochemistry); when molar Se in the consumed fish exceeds molar Hg, the Hg is sequestered as inert HgSe particles in vivo, and net Se remains bioavailable to support selenoprotein synthesis. The toxicological cascade that drives MeHg neurotoxicity (oxidative stress from Se-depleted antioxidant defenses, thyroid disruption from disabled iodothyronine deiodinases) is therefore proposed to depend on Se:Hg balance, not absolute MeHg concentration alone.
 
 If accepted, this framework would justify relaxing the regulatory MeHg ceiling on Se-rich fish species — notably bluefin tuna, where per [[sources/chamorro2024-bluefin-tuna-mercury-review|Chamorro et al. 2024]] Se:Hg is typically >1 despite high absolute Hg. If rejected, the framework is theoretically supported but not yet quantitatively validated, and the absolute MeHg ceiling remains the binding constraint.
@@ -104,14 +106,14 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 6 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Chamorro S, Cassani L, Barros-Velázquez J, Gallardo JM, and Aubourg SP (2024). *Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption*. Food Reviews International. [https://doi.org/10.3389/fnut.2024.1340121](https://doi.org/10.3389/fnut.2024.1340121). Peer-reviewed, A-tier. [[sources/chamorro2024-bluefin-tuna-mercury-review|Source record]]
-2. Ralston NVC, Ralston CR, and Raymond LJ (2014). *Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments*. Archives of Environmental Contamination and Toxicology. [https://doi.org/10.1007/s12011-015-0516-z](https://doi.org/10.1007/s12011-015-0516-z). Peer-reviewed, A-tier. [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Source record]]
-3. Farina M, Rocha JBT, and Aschner M (2011). *Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies*. Life Sciences 89(15-16):555-563. [https://doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019). Peer-reviewed, A-tier. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Source record]]
-4. Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, et al. (2025). *Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs*. Nature Communications. [https://doi.org/10.1038/s41467-025-59785-5](https://doi.org/10.1038/s41467-025-59785-5). Peer-reviewed, A-tier. [[sources/dietz2025-arctic-mercury-isotopes-greenland|Source record]]
-5. Li M, Huang T, Cheng H, Obrist D, and Yu B (2022). *Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes*. Environmental Science & Technology. [https://doi.org/10.1021/acs.est.1c08631](https://doi.org/10.1021/acs.est.1c08631). Peer-reviewed, A-tier. [[sources/li2022-mercury-isotope-biota-review|Source record]]
-6. Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. (2022). *Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119). Peer-reviewed, A-tier. [[sources/motta2022-marine-hg-isotopes|Source record]]
+1. [[sources/chamorro2024-bluefin-tuna-mercury-review|Atlantic bluefin tuna (Thunnus thynnus): health benefits, contaminants and risk-benefit analysis for human consumption]]<span class="hmi-ref-meta">Chamorro S, Cassani L, Barros-Velázquez J, Gallardo JM, and Aubourg SP · Food Reviews International · 2024 · [doi.org/10.3389/fnut.2024.1340121](https://doi.org/10.3389/fnut.2024.1340121)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/ralston2014-selenium-hbv-methylmercury-seafood|Selenium Health Benefit Values: Updated Criteria for Mercury Risk Assessments]]<span class="hmi-ref-meta">Ralston NVC, Ralston CR, and Raymond LJ · Archives of Environmental Contamination and Toxicology · 2014 · [doi.org/10.1007/s12011-015-0516-z](https://doi.org/10.1007/s12011-015-0516-z)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/dietz2025-arctic-mercury-isotopes-greenland|Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs]]<span class="hmi-ref-meta">Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-59785-5](https://doi.org/10.1038/s41467-025-59785-5)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/li2022-mercury-isotope-biota-review|Internal Dynamics and Metabolism of Mercury in Biota: A Review of Insights from Mercury Stable Isotopes]]<span class="hmi-ref-meta">Li M, Huang T, Cheng H, Obrist D, and Yu B · Environmental Science & Technology · 2022 · [doi.org/10.1021/acs.est.1c08631](https://doi.org/10.1021/acs.est.1c08631)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/motta2022-marine-hg-isotopes|Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms]]<span class="hmi-ref-meta">Motta LC, Blum JD, Popp BN, Umhau BP, Benitez-Nelson CR, Close HG, et al. · Proceedings of the National Academy of Sciences · 2022 · [doi.org/10.1073/pnas.2208183119](https://doi.org/10.1073/pnas.2208183119)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -121,9 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [49bebbcc6](https://github.com/paleofoundation/heavymetalindex/commit/49bebbcc6) | 2026-05-18 | major | 6 sources added; 9 sections added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Vičarová et al. 2016 — Heavy metals in common carp from three Czech reservoirs
 
+## Overview
+
 Vičarová and colleagues measured cadmium, lead, and total mercury in the dorsal muscle and liver of 75 common carp (*Cyprinus carpio* L.), 25 from each of three reservoirs (Pilská, Domaninský, Matějovský) in the Bohemian-Moravian Highlands of the Czech Republic, caught by anglers between April 2013 and September 2014. Cadmium and lead were determined by electrothermal high-resolution continuum-source atomic absorption spectrometry; total mercury by cold-vapour AAS on an AMA 254 analyser. All tissue concentrations are expressed on a fresh-weight basis. Cadmium accumulated preferentially in the liver (means up to 258.1 µg/kg FW at Domaninský), while mercury accumulated preferentially in the dorsal muscle (up to 72.4 µg/kg FW at Domaninský), a tissue-distribution pattern the authors associate with clean rather than heavily contaminated localities. Lead was highest at the Pilská reservoir (muscle 253.3 µg/kg FW, liver 262.7 µg/kg FW), which the authors attribute to legacy traffic-related deposition near a busy road. In all edible muscle samples, cadmium, lead, and mercury complied with the EU maximum limits (Cd 50, Pb 300, Hg 500 µg/kg). The authors conclude that common carp from these reservoirs pose no health risk for human consumption, because the elevated cadmium occurs in liver, which is not commonly eaten.
 
 ## Key numbers
@@ -121,8 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 | [627698b52](https://github.com/paleofoundation/heavymetalindex/commit/627698b52) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [4a3b16755](https://github.com/paleofoundation/heavymetalindex/commit/4a3b16755) | 2026-05-30 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

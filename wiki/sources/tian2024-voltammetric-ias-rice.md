@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 A voltammetric method for total inorganic arsenic (iAs) detection in rice was developed using screen-printed electrodes (SPEs) modified in situ with gold nanoparticles and L-cysteine, combined with magnetic composite interference removal. The primary analytical contribution is the method development, but the paper includes LC-ICP/MS measurements of iAs in 36 commercial rice samples sourced from five Chinese provinces — making it a genuine food concentration occurrence dataset for iAs in Chinese commercial rice.
 
 The method converts As(V) to As(III) via simultaneous ultrasonic extraction with L-cysteine in 5% HNO3, then detects As(III) by linear stripping voltammetry (LSV). Copper interference — a major challenge in rice matrices due to Cu being roughly 1000x more concentrated than As — is removed by carboxyl-functionalised magnetic composites. The LOD is 0.018 mg/kg and LOQ is 0.043 mg/kg (on a dry-weight basis, though the paper does not state whether concentrations are dry or wet weight; rice is typically reported on dry weight for regulatory comparison).
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [303004243](https://github.com/paleofoundation/heavymetalindex/commit/303004243) | 2026-05-12 | major | 4 sections added; narrative text revised |

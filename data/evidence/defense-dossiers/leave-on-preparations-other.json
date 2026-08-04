@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/leave-on-preparations-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "06322f9e517ada8478d820261a72467c10817b68ed641bc1d30b824425ef487c",
-      "content_bytes": 8262,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "122e185123c2c960caa2a47b7750c04e05a05a2ed307322907b46332ddb4c538",
+      "content_bytes": 8379,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/leave-on-preparations-other.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/leave-on-preparations-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sahu2014-cosmetics-metals-india",
         "content_pin": {
-          "content_sha256": "26afee8ded743f2e5d6aef24c94bf626e4516ed3c0f4ca9b324aa08411d87a3b",
-          "content_bytes": 8701,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "0a8d425a4d58005071288c93cf12cb16cd5609410b4854258f04d56f68ace0fd",
+          "content_bytes": 9408,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/sahu2014-cosmetics-metals-india.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/sahu2014-cosmetics-metals-india.md | sha256sum"
         }
       }
     ]

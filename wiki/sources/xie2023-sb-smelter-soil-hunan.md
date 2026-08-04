@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Xie et al. 2023 — Heavy metal pollution from antimony smelter soils, Hunan, China
 
+## Overview
+
 This study systematically characterised heavy metal pollution in soils surrounding a hydrometallurgical antimony (Sb) smelter in Lengshuijiang city, Hunan Province (the "antimony capital" of the world), combining GIS spatial mapping, positive matrix factorization (PMF) source apportionment, pollution indices, and health risk assessment. Soil samples from 32 sites (including paddy, dry land, and forest) were analysed for Hg, Pb, Cd, Cr, As, and Sb. Cadmium (76.9%) and arsenic (57.7%) were predominantly attributable to agricultural activity, while antimony smelting contributed 12.7% of Cd and 25% of As. The potential ecological risk index (PERI) of 407.54 indicated high ecological risk overall, with Cd as the dominant contributing element (PERI 323.4).
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [29a65ac86](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac86) | 2026-05-12 | major | 5 sections added; narrative text revised |

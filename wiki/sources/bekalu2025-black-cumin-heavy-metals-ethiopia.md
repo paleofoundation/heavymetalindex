@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Bekalu et al. 2025 - Metals in black cumin seeds from East Gojjam, Ethiopia
 
+## Overview
+
 Bekalu et al. quantified Fe, Cu, Zn, Pb, and Cd in Nigella sativa L. black cumin seeds collected from three districts in East Gojjam, Ethiopia. The study used microwave-assisted acid digestion followed by flame atomic absorption spectrometry. Lead ranged from 0.11 +/- 0.005 to 0.21 +/- 0.01 mg/kg dry weight and cadmium ranged from 0.09 +/- 0.01 to 0.14 +/- 0.007 mg/kg dry weight across the three districts. All Pb and Cd values were below the WHO herbal-material limits cited by the authors, while Fe, Cu, Zn, and Cd showed significant regional variation.
 
 ## Key numbers
@@ -94,8 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [43efd9678](https://github.com/paleofoundation/heavymetalindex/commit/43efd9678) | 2026-06-02 | minor | Narrative text revised |
-| [84a519dbc](https://github.com/paleofoundation/heavymetalindex/commit/84a519dbc) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bakeware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ad8aea6f37bee6090a61b49fc119204bddf0727cc7eb9d99998f0c25bfc38c2c",
-      "content_bytes": 9744,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "fd7fa9e19f7fd66d7f32c305686be227fc2b325446f8774de6547bcc57525984",
+      "content_bytes": 9861,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/bakeware.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/bakeware.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cstee2003-organotin-consumer-exposure",
         "content_pin": {
-          "content_sha256": "63f0f4b00c59c3e0aa521b9a350e14552ea684744cfdb96aa322e582ad0d7e49",
-          "content_bytes": 8671,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "7c095ca39fecc990f59984a9ba78ef2e7f93cf33eaa530a39c5d1552671b470c",
+          "content_bytes": 9372,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/cstee2003-organotin-consumer-exposure.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/cstee2003-organotin-consumer-exposure.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dtu2024-food-contact-pb-cd-limits",
         "content_pin": {
-          "content_sha256": "afdf53f4d12d075d828283d2cb10845a6ba771a6cb7488d9b4c1862bff3c1f73",
-          "content_bytes": 12126,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "d8f02b3f62a55a7ea5c10fa03a165b91c4500bf41b64ecca2acd1213eb8ef77e",
+          "content_bytes": 12831,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm2024-metals-alloys-food-contact-guide",
         "content_pin": {
-          "content_sha256": "f6feb4df343a83a58589947eeb3edba93de94ed8f1b9e3d992e20e2683c28c73",
-          "content_bytes": 10051,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "3135a4fae6a6787eef9cba3bfdf42a986e886bdb96648b1a7d5d7e7b8ac8c941",
+          "content_bytes": 10748,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
         }
       },
       {
@@ -125,12 +125,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "a5023a8877b61d2623844b4e4159c0d4c7c9c7d9bfa7d97aa2ff706a8862b423",
-          "content_bytes": 7451,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "6c2f0caadb90ea263f7a4c486d99adf3752879cee8cace1b346dd5bc813ff9be",
+          "content_bytes": 8152,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       }
     ]

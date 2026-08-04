@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Bartels et al. 2023 — Heavy metals in canned fish, Cape Coast market, Ghana
 
+## Overview
+
 This study measured lead (Pb), zinc (Zn), iron (Fe), tin (Sn), manganese (Mn), and total mercury (tHg) in ten commercially available canned fish products from Cape Coast market in Ghana's Central Region. Products covered three species groups: mackerel (n=4 products), sardines (n=4 products), and tuna (n=2 products). The paper compared Pb, Sn, and tHg against source-cited EU Regulation No. 1881/2006 values and reported all analyte means below the comparator levels. The dataset is most useful for Pb, Sn, and tHg values across three commercially important canned fish species in a West African retail context.
 
 ## Key numbers
@@ -107,9 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [222c02867](https://github.com/paleofoundation/heavymetalindex/commit/222c02867) | 2026-05-19 | minor | Narrative text revised |
-| [761e045ab](https://github.com/paleofoundation/heavymetalindex/commit/761e045ab) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-01
 
 # Onghena et al. 2016 — Chemical migration from non-polycarbonate baby bottles under EU repetitive-use vs real-life duration testing
 
+## Overview
+
 This Food Additives & Contaminants: Part A paper compares the EU Regulation 10/2011 standardised plastics-FCM migration test (three sequential 2 h fillings at 70 °C with H₂O-EtOH 50:50 v/v milk simulant) against four real-life "duration" treatments (microwave heating, dishwasher washing, steam sterilisation, cooking sterilisation) on six post-BPA-ban alternative-polymer baby bottles (PP brand A, PP brand B, PES, PA, Tritan, silicone). Migration of pre-selected priority organic compounds — additives, monomers, oligomers, degradation products — was quantified by validated GC-QqQ-MS and LC-QqQ-MS methods (Onghena et al. 2016, Food Anal Methods, in press). Under EU repetitive-use conditions, no authorised compound exceeded its specific migration limit (SML), but several non-listed compounds were detected above the EU 10 µg/kg generic-default threshold for non-authorised substances. Under real-life duration testing, repeated use did not increase migration; concentrations were generally lower than or comparable to the reference experiment and became negligible after a number of cycles. Steam sterilisation released fewer compounds at lower concentrations than cooking (boiling-water) sterilisation, particularly for silicone bottles, and the authors recommend steam sterilisation as a pre-use treatment to reduce residual migrants. **The paper measures no heavy metals and contributes no occurrence data to the HMI corpus.** It is ingested as a methodology and exposure-pathway reference for baby-bottle migration testing — the comparison of EU repetitive-use vs real-life "duration" testing, and the demonstration that EU conditions can over-estimate real-life migration by up to a factor of 10 for some analytes, are reusable framings if/when heavy-metals migration from baby-bottle polymers (or from bottle additives, colorants, or printed graphics) is investigated in future work.
 
 ## Key numbers
@@ -129,9 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
 | [5176ead0b](https://github.com/paleofoundation/heavymetalindex/commit/5176ead0b) | 2026-06-01 | minor | Narrative text revised |
-| [1eee5056d](https://github.com/paleofoundation/heavymetalindex/commit/1eee5056d) | 2026-05-31 | minor | Narrative text revised |
-| [459c25295](https://github.com/paleofoundation/heavymetalindex/commit/459c25295) | 2026-05-31 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Chamorro et al. 2024 — Atlantic bluefin tuna: health benefits, contaminants, and risk-benefit analysis
 
+## Overview
+
 This review comprehensively covers the nutritional composition (omega-3 fatty acids, proteins, vitamins, minerals) and contaminant profile (principally mercury, but also Cd, Pb, and As) of Atlantic bluefin tuna (Thunnus thynnus), followed by a quantitative risk-benefit analysis for human consumption. The paper is directly relevant to the wiki because it synthesizes mercury contamination data across multiple studies, discusses the EU regulatory framework for Hg in large predatory fish (0.5–1.0 mg/kg wet weight), and addresses the selenium-to-mercury protective ratio (Se:Hg molar ratio) as a modifier of mercury toxicity.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

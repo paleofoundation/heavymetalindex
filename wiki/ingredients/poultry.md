@@ -88,29 +88,7 @@ sources: 24
 
 # Poultry
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: staple) | GAP | 3/10 HMTc analytes, total n=9 | only 3/10 analytes have evidence |
-| D2 Regional coverage | OK | 24 jurisdictions, top CN 21% | — |
-| D3 Anthropogenic evidence | GAP | 2 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 2 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, tAs THIN | Cd: THIN; tAs: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tHg, tAs declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U |
-| D8 Provenance integrity | GAP | 0 claims checked, 0 supported; 2 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming poultry: kazimov2014-dietary-heavy-metals-azerbaijan |
-| D9 Mitigation | GAP | 0 cited lever(s), 6 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | OK | 2 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, tAs |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs; pairing 0 paired, 3 single, 0 unpaired | Pb: POOLABLE; Cd: THIN; tAs: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tHg, Ni, Al, Cr, Sn, tAs, U; depth below staple bar |
-| **Principle balance** | **OK** | consumer-protection 0.50, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | — |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
 
@@ -142,16 +120,16 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Mahmud T, Rehman R, Ali S, Anwar J, Abbas A, Farooq M, et al. (2011). *Estimation of Chromium (VI) in various body parts of Local Chicken*. Journal of the Chemical Society of Pakistan. [jcsp.org.pk](https://jcsp.org.pk/issueDetail.aspx?id=292). Peer-reviewed, B-tier. [[sources/mahmud2011-crvi-chicken-pakistan|Source record]]
-2. Kazimov MA and Alieva NV (2014). *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*. Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709. Peer-reviewed, B-tier. [[sources/kazimov2014-dietary-heavy-metals-azerbaijan|Source record]]
+1. [[sources/mahmud2011-crvi-chicken-pakistan|Estimation of Chromium (VI) in various body parts of Local Chicken]]<span class="hmi-ref-meta">Mahmud T, Rehman R, Ali S, Anwar J, Abbas A, Farooq M, et al. · Journal of the Chemical Society of Pakistan · 2011 · [jcsp.org.pk](https://jcsp.org.pk/issueDetail.aspx?id=292)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/kazimov2014-dietary-heavy-metals-azerbaijan|Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods]]<span class="hmi-ref-meta">Kazimov MA and Alieva NV · Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 · 2014</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -239,9 +217,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | minor | Narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [c17596197](https://github.com/paleofoundation/heavymetalindex/commit/c17596197) | 2026-05-17 | major | 2 sources added; narrative text revised |
 <!-- END: hmi-page-history -->

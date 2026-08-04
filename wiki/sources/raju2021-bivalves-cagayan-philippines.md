@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Raju et al. 2021 — Cadmium and lead in freshwater clam and marine mussel, Cagayan Valley, Philippines
 
+## Overview
+
 This paper measured Pb and Cd in soft tissues of two bivalve species collected from Cagayan Valley, Philippines: freshwater clam (*Corbicula fluminea*) and marine mussel (*Mytilus edulis*). The tissue was digested in nitric acid and analyzed by graphite furnace atomic absorption spectrophotometry (GFAAS). Reported concentrations were low relative to the Malaysian comparator values used by the authors, but the study is a thin regional data point: the number of individual specimens is not reported, the results are single species-level values without variability statistics, and no Philippine regulatory framework is cited.
 
 ## Key numbers
@@ -76,8 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a26f2f242](https://github.com/paleofoundation/heavymetalindex/commit/a26f2f242) | 2026-05-18 | major | 3 sections added and 2 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

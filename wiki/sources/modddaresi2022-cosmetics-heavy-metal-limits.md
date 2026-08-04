@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Modddaresi and Yu 2022 - cosmetics heavy-metal limits and analytical tests
 
+## Overview
+
 Modddaresi and Yu review cosmetic heavy-metal impurity controls across the EU/UK, United States, Canada, China, India, and German BVL technical guidance. The paper does not report new finished-product measurements; its useful content is regulatory context and method comparison for Pb, As, Cd, Hg, Sb, and related trace metals. This page is therefore context-only and should not be routed into product occurrence pools.
 
 ## Key numbers
@@ -92,6 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [01f3943ec](https://github.com/paleofoundation/heavymetalindex/commit/01f3943ec) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

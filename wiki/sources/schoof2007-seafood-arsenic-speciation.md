@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Schoof 2007 - Seafood arsenic speciation
 
+## Overview
+
 Schoof and Yager reviewed total arsenic and speciated arsenic data for commonly consumed fish and seafood. The review summarizes total arsenic (`Astot`) and inorganic arsenic (`Asi`) on a wet-weight basis for freshwater finfish, anadromous fish, marine fish, crustaceans, and molluscs. The paper also separately summarizes DMA and MMA, so those organic arsenic species must not be collapsed into inorganic arsenic.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [6b0d2f1a7](https://github.com/paleofoundation/heavymetalindex/commit/6b0d2f1a7) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Nieder & Benbi 2022 — PTEs in environment and human health: integrated review
 
+## Overview
+
 Nieder and Benbi provide a comprehensive narrative review of five potentially toxic elements (PTEs) — arsenic (As), cadmium (Cd), chromium (Cr), mercury (Hg), and lead (Pb) — covering their sources, biogeochemical cycling, pathways into food and water, and human health consequences. The review synthesizes global literature on concentration ranges in soil, water, and food, covers exposure routes including dietary intake, and discusses toxicological mechanisms and dose-response data for each metal. It serves as a broad reference synthesizing the primary literature on all five metals within a single framework, making it useful as a contextual anchor for regulatory limit comparisons and multi-metal exposure assessments.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5d7a39a46](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a46) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zanon 2008 - Organotins in Venice Lagoon shellfish
 
+## Overview
+
 Zanon and colleagues measured butyltin and phenyltin compounds in edible mussels (*Mytilus galloprovincialis*) and clams (*Tapes* spp.) from the Lagoon of Venice before the European organotin-antifouling restrictions took full effect. The source reports organotin species as cation concentrations on a dry-weight basis, with a later comparison to a wet-weight TBT residue level. These are organotin occurrence values and must not be collapsed into total elemental tin or inorganic tin.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [ea5afb1cd](https://github.com/paleofoundation/heavymetalindex/commit/ea5afb1cd) | 2026-06-08 | major | 4 sections added; narrative text revised |

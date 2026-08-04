@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # US EPA 1999 — Mercury Update: Impact on Fish Advisories
 
+## Overview
+
 This EPA Office of Water fact sheet (September 1999) summarizes total-mercury and methylmercury concentrations measured in US freshwater fish, the resulting state-level fish consumption advisories, and recommended monthly meal limits keyed to fish-tissue mercury. As of December 1998 mercury was the basis for 1,931 advisories in 40 states (an 8% one-year increase and 115% increase from 899 advisories in 1993). The fact sheet describes biomagnification factors, expected MeHg fraction of total Hg in fish, and gives a structured methylmercury risk-based consumption-limit table that has been widely adopted by state fish-advisory programs.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [eb2b86de1](https://github.com/paleofoundation/heavymetalindex/commit/eb2b86de1) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Ding 2023 - Peanut cadmium and arsenic transfer
 
+## Overview
+
 Ding and colleagues studied how cadmium and arsenic co-contamination in soil affected transfer into peanut plants, including edible peanut grains. The source is an experimental outdoor pot study, not a market-basket survey, so its peanut-grain values are supply-chain transfer evidence rather than consumer-market occurrence. Arsenic is reported as total/unspecified As; no inorganic arsenic speciation is reported.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [e5d0cac54](https://github.com/paleofoundation/heavymetalindex/commit/e5d0cac54) | 2026-06-08 | major | 4 sections added; narrative text revised |

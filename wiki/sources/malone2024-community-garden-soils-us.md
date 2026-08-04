@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Malone & Shakya 2024 — Trace metal contamination in US community garden soils
 
+## Overview
+
 Malone and Shakya conducted an integrative literature review of trace metal contamination (Pb, As, Cd, Zn) in US urban community garden soils, synthesizing 52 peer-reviewed articles from Web of Science and PubMed. The central finding is that lead is the primary soil contaminant of concern in urban community gardens, driven by legacy industrial activity, leaded paint chips, and leaded gasoline residues. The US EPA's residential screening level for lead — reduced from 400 ppm to 200 ppm in January 2024, and 100 ppm at residences with multiple lead sources — remains substantially higher than state, international, and recommended levels (California 80, WHO 85, Finland ~60, US EPA 2013 urban-gardener recommendation 100). Arsenic and cadmium are secondary concerns, often co-occurring with lead, with notable cadmium contributions from phosphate fertilizers, vehicle exhaust deposition, and treated wood. Zinc is generally low-toxicity to humans but functions as an indicator metal: where Zn is elevated, Pb/Cd/As are often also elevated. Environmental justice is a cross-cutting theme: contamination hotspots disproportionately affect lower-income and minority urban communities.
 
 ## Key numbers
@@ -124,8 +126,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [dd962087f](https://github.com/paleofoundation/heavymetalindex/commit/dd962087f) | 2026-05-18 | minor | Narrative text revised |
-| [8133d249d](https://github.com/paleofoundation/heavymetalindex/commit/8133d249d) | 2026-05-18 | major | 7 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

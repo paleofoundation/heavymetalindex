@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Pereira 2008 - Ria de Aveiro mercury review
 
+## Overview
+
 Pereira and colleagues reviewed mercury contamination in the Ria de Aveiro coastal lagoon in Portugal, including historical chlor-alkali contamination in Laranjo bay. The occurrence-relevant table summarizes total mercury in macroalgae, benthic fauna, and fish muscle from Laranjo bay, the broader Ria de Aveiro, and nearby Atlantic waters. The source reports total mercury (`Hg`) only; it does not measure methylmercury.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [a1c2ca9df](https://github.com/paleofoundation/heavymetalindex/commit/a1c2ca9df) | 2026-06-08 | major | 4 sections added; narrative text revised |

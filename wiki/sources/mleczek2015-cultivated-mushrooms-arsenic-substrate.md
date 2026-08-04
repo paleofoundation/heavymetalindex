@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Mleczek et al. 2015 - Arsenic uptake in cultivated mushrooms from controlled substrates
 
+## Overview
+
 Mleczek and colleagues tested how arsenic species in cultivation substrate affect arsenic accumulation in mushroom biomass. This is not a natural retail-occurrence survey, but it is a routeable experimental food-matrix source because it reports final mushroom arsenic concentrations under controlled substrate treatments. Total arsenic ranged from 1.97 +/- 0.14 mg/kg dry weight in Agaricus bisporus to about 68 mg/kg dry weight in Pleurotus strains under higher exposure conditions.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

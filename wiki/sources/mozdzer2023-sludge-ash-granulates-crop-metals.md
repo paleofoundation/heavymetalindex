@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Mozdzer and Gamrat 2023 - Sludge-ash granulates and crop metal uptake
 
+## Overview
+
 Mozdzer and Gamrat tested four fertilizer granulates made from industrial sewage sludge, lignite ash, sawdust, ammonium phosphate, and potassium salt in a pot experiment with rape seed and triticale. This is primary soil-to-plant transfer and fertilizer-input evidence, not market food occurrence evidence. The source's routeable facts are metal concentrations in the waste inputs, the finished granulates, baseline soil, rape seeds, and triticale grain, plus uptake and concentration-uptake correlations under controlled fertilizer treatments.
 
 ## Key numbers
@@ -137,6 +139,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [9bbe50b60](https://github.com/paleofoundation/heavymetalindex/commit/9bbe50b60) | 2026-06-02 | major | 9 sections added; narrative text revised |

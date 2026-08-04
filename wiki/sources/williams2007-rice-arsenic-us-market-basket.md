@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Williams et al. 2007 — Market basket survey: elevated arsenic in South Central U.S. rice vs. California
 
+## Overview
+
 This paper reports the largest U.S. market basket survey of arsenic in domestic rice at the time of publication, comparing total arsenic levels in rice sourced from California (n=27) and from the South Central U.S. (TX, LA, AR, MS, MO; n=107). The central finding is that South Central U.S. rice had mean total As of 0.30 µg/g (300 µg/kg) and a median of 0.27 µg/g (270 µg/kg), while California rice averaged 0.17 µg/g (170 µg/kg) mean and 0.16 µg/g (160 µg/kg) median — a 41% difference that was statistically significant (GLM p < 0.001). The authors attribute South Central elevation to arsenic pesticide legacy from historical cotton cultivation in Arkansas and Mississippi Delta soils where rice varieties were introduced.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

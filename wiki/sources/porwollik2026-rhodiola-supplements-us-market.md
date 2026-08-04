@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Porwollik & Jafari 2026 — Heavy metal contamination in U.S. Rhodiola rosea supplements
 
+## Overview
+
 This study is the first peer-reviewed investigation of heavy metal contamination levels in Rhodiola rosea dietary supplements sold on the U.S. market, alongside analysis of biomarker compound content (rosavins and salidroside) and pesticide residues. Ten products (seven capsular, three tinctures) were purchased from Amazon in 2024 and analyzed at Eurofins Scientific laboratories using ICP-MS for heavy metals (As, Cd, Co, Pb, Hg) and GC-MS or LC-MS for pesticides. All seven capsular products contained detectable arsenic, cobalt, and lead; pesticide residues were below detection limits in all ten products; tinctures showed no detectable metals.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a0d9a6181](https://github.com/paleofoundation/heavymetalindex/commit/a0d9a6181) | 2026-05-12 | major | 4 sections added; narrative text revised |

@@ -2,7 +2,7 @@
 source_page: wiki/products/sunflower-seeds.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 188d3875789870452352bc19a33ec47b05519836929edccca515ead3b20dca37
+source_page_sha256: 06974d6c7d4e05599653150a8c2b84b2845134588f490cb80188cead550f3ada
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,13 +36,19 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 
 - `edit_id=taxonomy-v2.2-cat4split-sunflower-seeds-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T01:00:00Z · span=v2.2-cat4-split
 
 ## Claims by section
+
+### Overview
+
+#### Claim `265 µg/kg`
+- Context: `remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -52,17 +58,11 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-2023-915.md` (page missing)
     - audit rows: none
 
-### (opening)
-
-#### Claim `265 µg/kg`
-- Context: `remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s`
-- Cited targets: **none in section** — claim has no traceable provenance
-
 ## Uncited claims
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `265 µg/kg` in section _(opening)_ — context: `remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s`
+- `265 µg/kg` in section _Overview_ — context: `remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s`
 
 ## Defensibility chain — distinct cited targets
 

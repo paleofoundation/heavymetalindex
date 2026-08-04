@@ -28,6 +28,8 @@ updated: 2026-05-15
 
 # Sadiq and Beauchemin 2021 — Multi-elemental bioaccessibility and speciation in baby rice cereals
 
+## Overview
+
 This Queen's University study used both batch and online in vitro leaching methods to determine what fractions of As, Cr, Se, Cd, Pb, Cu, Fe, and Zn from three commercial baby rice cereals (brands A, B, C; Kingston, ON) can actually enter a baby's body. It is one of the few studies to conduct simultaneous HPLC-ICP-MS speciation of As, Cr, and Se in the bio-accessible fraction specifically, and its key finding for HMT&C is stark: all three samples showed bio-accessible As fractions exceeding the FDA's 100 ppb action level for iAs in infant rice cereal, meaning that the portion of As reaching the bloodstream was already at or above the regulatory threshold before speciation is even applied as a further discriminant.
 
 ## Key numbers
@@ -116,6 +118,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ad03d65fe](https://github.com/paleofoundation/heavymetalindex/commit/ad03d65fe) | 2026-05-15 | major | 4 sections added; narrative text revised |

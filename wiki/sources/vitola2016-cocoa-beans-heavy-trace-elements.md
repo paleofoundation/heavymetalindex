@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Vitola and Ciprovica 2016 - Heavy and trace elements in cocoa beans for confectionery products
 
+## Overview
+
 This study measured mercury, arsenic, lead, cadmium, selenium, zinc, and aluminium in cocoa beans or cocoa-bean fractions from Cameroon, Ecuador, Nigeria, and Ghana. Lead and cadmium varied by origin, with Nigerian cocoa beans having the highest reported Pb mean and Ecuadorian cocoa beans having the highest reported Cd mean. The source is routeable for cocoa and chocolate ingredient evidence, while its country-of-origin scope should remain separate from any US-market chocolate benchmark pool.
 
 ## Key numbers
@@ -77,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [2ccf94fa2](https://github.com/paleofoundation/heavymetalindex/commit/2ccf94fa2) | 2026-06-01 | minor | Narrative text revised |
-| [c63b031a2](https://github.com/paleofoundation/heavymetalindex/commit/c63b031a2) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

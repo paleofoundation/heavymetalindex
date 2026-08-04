@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Ma et al. 2018 - total and inorganic arsenic contents in seaweeds
 
+## Overview
+
 Ma and colleagues reviewed published total arsenic and inorganic arsenic measurements in seaweeds, grouping the literature by Rhodophyta, Phaeophyta, and Chlorophyta. This is secondary evidence: it compiles prior studies and does not add new sample measurements. The values below are useful for seaweed/kelp food and algae/seaweed supplement context, but downstream occurrence pooling should trace and de-duplicate the underlying primary studies.
 
 ## Key numbers
@@ -143,6 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [e892a1bc0](https://github.com/paleofoundation/heavymetalindex/commit/e892a1bc0) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

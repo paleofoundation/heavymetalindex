@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Onyegeme-Okerenta & West 2023 — Shellfish PTE contamination, Niger Delta Nigeria
 
+## Overview
+
 Onyegeme-Okerenta and West measured five potential toxic elements (As, Cd, Cr, Pb, Ni) in three shellfish species — shrimp (Penaeus monodon), oyster (Crassostrea rhizophorae), and periwinkle (Tympanostomus fuscatus) — from three rivers in the Niger Delta region of Nigeria (Buguma, Krakrama, Bonny Rivers), which are heavily impacted by oil and gas exploration and illegal artisanal refining. Concentrations in several species from the Buguma River exceeded FAO/WHO and EU regulatory limits for Cd and Cr. Dietary intake calculations for children showed Cd exposure from P. monodon and T. fuscatus from Buguma exceeds the tolerable daily intake, and Pb EDI for both age classes frequently exceeded TDI from several shellfish/river combinations. Hazard index (HI) values were above 1 for all species due primarily to elevated chromium, and total cancer risk (TCR) values for all species from all rivers exceeded the 1×10−4 priority risk threshold.
 
 ## Key numbers
@@ -90,6 +92,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e307b9560](https://github.com/paleofoundation/heavymetalindex/commit/e307b9560) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Stahl et al. 2017 - aluminum food-contact study Part I
 
+## Overview
+
 Stahl and colleagues summarize aluminum exposure sources and present the study design for a three-part investigation of aluminum migration from food contact materials into foods. Part I does not report the bottle, moka-pot, grill-pan, or camping-cookware migration results; those are reserved for Parts II and III. It does, however, include Hessian State Laboratory foodstuff aluminum data expanded beyond a 2011 publication, making this paper occurrence context for aluminum in broad food categories and food-contact-material investigations.
 
 ## Key numbers
@@ -118,6 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [046939195](https://github.com/paleofoundation/heavymetalindex/commit/046939195) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

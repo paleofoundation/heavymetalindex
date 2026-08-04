@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-flexible-pouches-films",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8d7417fd370659df72f16b2008b4940ec403cab2cc5140625f292852a72a1e00",
-      "content_bytes": 10055,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "3eae73172a3167b22317b3b7c24da26fa8d1d9b1a467f5cae37a406aa1dc5655",
+      "content_bytes": 10219,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/food-packaging-flexible-pouches-films.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/food-packaging-flexible-pouches-films.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cstee2003-organotin-consumer-exposure",
         "content_pin": {
-          "content_sha256": "63f0f4b00c59c3e0aa521b9a350e14552ea684744cfdb96aa322e582ad0d7e49",
-          "content_bytes": 8671,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "7c095ca39fecc990f59984a9ba78ef2e7f93cf33eaa530a39c5d1552671b470c",
+          "content_bytes": 9372,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/cstee2003-organotin-consumer-exposure.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/cstee2003-organotin-consumer-exposure.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2019-plastic-packaging-metal-migration",
         "content_pin": {
-          "content_sha256": "e3238efd214c55c7a903113f90bf9764b8b083fac3ea5103a3bfb6b6b33379de",
-          "content_bytes": 7643,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "ba3d9cab07265ee19699f71ad244f109632bc9f0ffcc6b77ab097fd6604a07c5",
+          "content_bytes": 8341,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/li2019-plastic-packaging-metal-migration.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/li2019-plastic-packaging-metal-migration.md | sha256sum"
         }
       },
       {
@@ -94,12 +94,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mandrile2020-organotin-food-packaging-sers",
         "content_pin": {
-          "content_sha256": "1893b3f8d03f291f8ef9b9df2e8648acaf8e55c239852e2d979884266fd8abc5",
-          "content_bytes": 7966,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "a376d390b4e90ca5de5a1b7f77037b8088a9a55ea48f7e577d6f6ff0167fd7a0",
+          "content_bytes": 8688,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/mandrile2020-organotin-food-packaging-sers.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/mandrile2020-organotin-food-packaging-sers.md | sha256sum"
         }
       },
       {
@@ -130,12 +130,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "c1063a76e8e2d244da8c5ebd5f6309b4f147b8b4b5146ca55e61ef8bba8b3881",
-          "content_bytes": 21824,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e320f7331f7581816fe197f34f2060adde4d4afbfa28cf026fb2a47717d38dd8",
+          "content_bytes": 22120,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -163,12 +163,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zeng2023-disposable-food-containers-metals",
         "content_pin": {
-          "content_sha256": "0729c37120fb8de255f2ee18d486a9ffe3dd656651fb0a989701adf45fe47685",
-          "content_bytes": 7252,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "042a50dfc68a2c878395e26671d90faf37fadb34c692ce17a646d08f1055ef3c",
+          "content_bytes": 7948,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

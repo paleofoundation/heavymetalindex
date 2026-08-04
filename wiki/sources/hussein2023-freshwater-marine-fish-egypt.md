@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Hussein et al. 2023 — Toxic residues in Egyptian freshwater and marine fish
 
+## Overview
+
 Hussein et al. measured Pb, Cd, total Hg, total As, and Al in 120 fish from six freshwater and marine species collected at the El-Obour city fish market in Egypt. The study reports species-level mean concentrations in edible fish flesh, exceedance counts against European Commission maximum permissible limits for Pb, Cd, and Hg, and dietary exposure calculations for Egyptian adults. Arsenic was measured as total arsenic only; the risk assessment modeled inorganic arsenic as 10% of total. Mercury was likewise measured as total mercury without methylmercury speciation.
 
 ## Key numbers
@@ -88,9 +90,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8f617daa3](https://github.com/paleofoundation/heavymetalindex/commit/8f617daa3) | 2026-05-17 | minor | Narrative text revised |
-| [7fd18cedd](https://github.com/paleofoundation/heavymetalindex/commit/7fd18cedd) | 2026-05-17 | minor | Narrative text revised |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

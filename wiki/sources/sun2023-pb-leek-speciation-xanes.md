@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Sun et al. 2023 — Pb speciation and elemental distribution in leeks using synchrotron XRF and XANES
 
+## Overview
+
 This mechanistic study uses micro-XRF and XANES at the Shanghai and Beijing synchrotron facilities to map lead distribution and identify Pb chemical species in leek roots and leaves. Leek plants were sourced from a vegetable garden adjacent to the Qixiashan Pb-Zn mine in Nanjing, where soil Pb was 787 mg/kg (also As 68.63, Cd 4.37, Cu 69.81, Zn 823.15, Cr 78.34 mg/kg). The plants were then additionally spiked with 500 mg/L Pb(NO3)2 solution to obtain sufficient XANES signal. The central finding is that leek roots convert ambient Pb primarily into insoluble lead phosphate and basic lead carbonate (combined >80%), immobilizing Pb on root epidermis and limiting translocation to edible leaf tissue.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [16697dbc2](https://github.com/paleofoundation/heavymetalindex/commit/16697dbc2) | 2026-05-13 | major | 4 sections added; narrative text revised |

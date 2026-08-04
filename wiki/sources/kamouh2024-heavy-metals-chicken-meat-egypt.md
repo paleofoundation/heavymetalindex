@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kamouh et al. 2024 — Lead, cadmium, and copper in Egyptian chicken meat
 
+## Overview
+
 This Egyptian study measured Pb, Cd, and Cu in 100 chicken samples across four tissue types (breast, thigh, gizzard, liver) collected from commercial poultry slaughterhouses in Kafr El-Sheikh and El-Gharbia governorates using flame atomic absorption spectroscopy (AAS). The study documents a consistent tissue-level gradient: liver > gizzard > thigh > breast for all three metals, reflecting bioaccumulation in metabolically active organs. While most samples fell within Egyptian Organization for Standardization (EOS) limits, the authors noted that contamination levels were notable enough to warrant public health attention, particularly given the cumulative dietary exposure from regular chicken consumption. A secondary component of the study investigated whether Lactobacillus rhamnosus probiotic application could reduce metal loads in experimentally contaminated chicken fillets.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

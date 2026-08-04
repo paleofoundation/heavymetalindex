@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Mercan Yucel 2022 - Heavy metals in unpackaged spices sold in Van Province
 
+## Overview
+
 Mercan Yucel measured aflatoxins and heavy metals in 60 unpackaged spice samples purchased from herbal shops and markets in Van Province, Turkey. The heavy-metal portion covers black pepper, cumin, and red pepper, with 20 samples per spice analyzed by ICP-MS. Nickel, cadmium, lead, and aluminum were quantified in all three spice groups; total arsenic was detected only in cumin. Black pepper carried the highest mean Pb and Cd, cumin carried the highest mean total As and Al, and red pepper had the lowest mean Pb, Cd, and Al.
 
 ## Key numbers
@@ -91,8 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [43efd9678](https://github.com/paleofoundation/heavymetalindex/commit/43efd9678) | 2026-06-02 | minor | Narrative text revised |
-| [e5206a479](https://github.com/paleofoundation/heavymetalindex/commit/e5206a479) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

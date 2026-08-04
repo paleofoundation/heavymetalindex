@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # BfR 2018 - Cadmium and lead in infant foods
 
+## Overview
+
 The German Federal Institute for Risk Assessment assessed lead and cadmium occurrence in foods for infants and young children using German Federal Control Plan 2015 and Monitoring 2015 data. The source covers baby formula in powder and ready-to-eat forms, processed cereal-based foods, rusks/biscuits, and complete meals for infants and young children. Cadmium and lead are reported in `mg per kg` occurrence tables and `µg per kg body weight and day` exposure tables.
 
 ## Key numbers
@@ -93,6 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [8eb689c59](https://github.com/paleofoundation/heavymetalindex/commit/8eb689c59) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

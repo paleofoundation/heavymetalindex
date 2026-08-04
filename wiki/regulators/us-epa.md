@@ -16,7 +16,9 @@ updated: 2026-06-23
 
 # United States Environmental Protection Agency (US EPA)
 
-*United States (federal) · Mixed — IRIS assessments (advisory) + binding water limits · Established 1970 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute for Contaminant Standards · [www.epa.gov](https://www.epa.gov)*
+<!-- BEGIN: hmi-regulator-masthead -->
+*United States (federal) · Mixed — IRIS assessments (advisory) + binding water limits · Established 1970 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.epa.gov](https://www.epa.gov)*
+<!-- END: hmi-regulator-masthead -->
 
 ## Quick read
 
@@ -140,7 +142,7 @@ EPA's IRIS oral reference doses are intake-based (µg/kg b.w./day) and comparabl
 
 ## References
 
-Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what US EPA has published; it does not endorse it. See [[CLAUDE|the wiki/HMTc separation policy]] for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
+Positions, the update log, and key documents above are generated from the per-instrument [[regulations/index|regulation pages]] this body issues, via `tools/build-regulator-pages.mjs`. The wiki reports what US EPA has published; it does not endorse it. See the wiki/HMTc separation policy for why reporting regulatory values is kept architecturally separate from certification threshold-setting.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -149,6 +151,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [a5c3272bf](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bf) | 2026-07-31 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [1c26ab9a0](https://github.com/paleofoundation/heavymetalindex/commit/1c26ab9a0) | 2026-06-23 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

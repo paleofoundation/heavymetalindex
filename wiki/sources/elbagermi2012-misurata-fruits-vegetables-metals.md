@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Elbagermi et al. 2012 — Pb, Cd, Zn, Cu, Co, and Ni in fruits and vegetables from Misurata, Libya
 
+## Overview
+
 Elbagermi and colleagues measured lead, cadmium, zinc, copper, cobalt, and nickel in selected fruits and vegetables collected from production and market sites in the Misurata area of Libya. The study reports dry-weight concentrations for nine fruits and seven vegetables, using atomic absorption spectrophotometry. No arsenic, mercury, methylmercury, inorganic arsenic, or chromium species are reported.
 
 ## Key numbers
@@ -100,6 +102,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [99cb844ee](https://github.com/paleofoundation/heavymetalindex/commit/99cb844ee) | 2026-06-08 | major | 5 sections added; narrative text revised |

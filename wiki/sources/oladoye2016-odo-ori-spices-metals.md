@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Oladoye and Jegede 2016 — Heavy metals in spices from Odo-Ori Market
 
+## Overview
+
 Oladoye and Jegede measured Fe, Cu, Cd, and Pb in eight common spice samples purchased from Odo-Ori Market in Iwo, Osun State, Nigeria. The study separated four natural spices from four processed spices and reported concentrations in mg/kg. Cadmium was the main occurrence concern in the paper because five of the eight samples (62.5%) were reported above the WHO maximum permissible level of 0.3 mg/kg.
 
 ## Key numbers
@@ -77,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [a32c3a7c1](https://github.com/paleofoundation/heavymetalindex/commit/a32c3a7c1) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [cbcd8e349](https://github.com/paleofoundation/heavymetalindex/commit/cbcd8e349) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

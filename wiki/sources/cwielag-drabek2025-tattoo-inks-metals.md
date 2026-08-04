@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Cwielag-Drabek et al. 2025 - Heavy metals in tattoo and permanent makeup inks
 
+## Overview
+
 Cwielag-Drabek and colleagues measured 12 trace elements in 41 tattoo and permanent makeup ink products available to European consumers after the 2022 REACH restrictions took effect. The source is direct product-occurrence evidence for tattoo inks and related permanent makeup pigments: the authors report finished-ink concentrations in mg/kg, identify EU-limit exceedances, and model dermal exposure scenarios. Mercury was not detected above the 0.008 mg/kg LOQ in any sample, while copper, nickel, arsenic, chromium, and lead drove the main compliance and risk findings.
 
 ## Key numbers
@@ -83,6 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [80c2df52b](https://github.com/paleofoundation/heavymetalindex/commit/80c2df52b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

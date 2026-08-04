@@ -8,7 +8,7 @@ publication: "Frontiers in Molecular Neuroscience 14:695873"
 doi: "10.3389/fnmol.2021.695873"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed primary study (Frontiers in Molecular Neuroscience). Open-access Frontiers journal; established peer-review track record."
+tier_rationale: "Per: peer-reviewed primary study (Frontiers in Molecular Neuroscience). Open-access Frontiers journal; established peer-review track record."
 method_quality_caveat: "Review/synthesis article on metallome-ASD mechanism; cites primary studies. Useful for mechanism context; cell-level n_a_tier crediting requires checking whether each finding is original measurement vs literature citation."
 license: cc-by
 raw_path: "raw/Digest/fnmol-14-695873.pdf"
@@ -25,6 +25,8 @@ updated: 2026-05-08
 ---
 
 # Stanton, Malijauskaite, McGourty, Grabrucker 2021 — The metallome as a link between the omes in autism spectrum disorders
+
+## Overview
 
 This Frontiers in Molecular Neuroscience mini-review by Stanton, Malijauskaite, McGourty, and Grabrucker (University of Limerick) frames metal dyshomeostasis as a candidate connecting axis between the proteome, transcriptome, epigenome, and microbiome in autism spectrum disorders. The paper argues that metallomics studies have historically been conducted in isolation from the other omics layers, and that integrating trace-metal composition data with proteomic, transcriptomic, epigenomic, and microbiome data may explain ASD pathologies that any single layer cannot. The review covers Cu, Zn, Fe in essential-metal dyshomeostasis as well as Pb, Cd, Hg, and Al as toxic metals with documented associations to neurodevelopmental outcomes, with attention to the gut-brain axis and to maternal-fetal exposure pathways.
 
@@ -53,6 +55,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 3 sections added; narrative text revised |

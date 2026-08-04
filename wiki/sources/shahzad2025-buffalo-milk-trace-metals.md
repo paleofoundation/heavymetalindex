@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Shahzad et al. 2025 - Trace metals in buffalo milk by feed category
 
+## Overview
+
 Shahzad et al. measured lead, cadmium, mercury, arsenic, manganese, and iron in buffalo milk from Pakistan and compared concentrations across three feed categories. The study reports routeable liquid-milk concentration ranges in mg/L, with feed-related differences and health-risk calculations for adults and children. It is useful as Pakistan-market buffalo-milk occurrence evidence and as animal-feed contamination context, not as human-milk or infant-formula evidence.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [92fd08bbb](https://github.com/paleofoundation/heavymetalindex/commit/92fd08bbb) | 2026-06-02 | major | 5 sections added; narrative text revised |

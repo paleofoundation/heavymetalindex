@@ -91,29 +91,7 @@ created_routed_sources: 4
 
 # Balsamic Vinegar
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=14 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 3 jurisdictions, top US 50% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd THIN, tAs THIN, Ni THIN, Al THIN, Cr THIN | Cd: needs 1 more study(ies); tAs: needs 1 more study(ies); Ni: needs 1 more study(ies); Al: needs 1 more study(ies); Cr: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 3 claims checked, 3 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Al, Cr; pairing 0 paired, 6 single, 0 unpaired | Cd: THIN, needs 1 more study(ies); tAs: THIN, needs 1 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 1 more study(ies); Cr: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.50, scale 0.25 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Balsamic vinegar — the aged grape-must-derived condiment from the Modena and Reggio Emilia regions of Italy, made traditionally in a sequence of progressively smaller wooden barrels for 12-25 years (Aceto Balsamico Tradizionale di Modena DOP/Reggio Emilia DOP) or industrially produced from concentrated grape must and wine vinegar with optional brief aging — sits at the high end of the vinegar-category heavy-metals distribution. The traditional aging-vessel chain (a sequence of chestnut, cherry, oak, mulberry, juniper, ash barrels) is the dominant heavy-metals risk because the acidic must (pH 2.5-3.0) extracts trace metals from the wood and from previous batches' residual concentrate over decades-long aging cycles. The current corpus loads 4 sources: ESCP 2021 FDA petition (n=24 US-market balsamic vinegar samples with Pb and tAs at regulatory-concern levels, [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]), Karavoltsos 2020 Greek balsamic-vs-common-vinegar comparison (n=43, 7-metal panel, [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece]]), Ndungu 2004 Pb-in-vinegar analytical method (n=59, [[sources/ndungu2004-lead-vinegar-icpms-gfaas]]), Ozbek 2016 Turkish MIP-OES method (n=32, including balsamic, [[sources/ozbek2016-mip-oes-turkish-vinegars]]). The ESCP 2021 petition is the policy-anchor source: in 2021, the Environmental and Safety Compliance Project petitioned the US FDA to set a maximum lead level for balsamic vinegar after documenting elevated Pb across 24 US-market samples ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]).
 
@@ -183,18 +161,18 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set a balsamic-vin
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Corrigan ZB, Braiman J, and Chittenden C (2021). *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*. Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter. NGO report, B-tier. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Source record]]
-2. Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. (2020). *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*. Molecules. [https://doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861). Peer-reviewed, A-tier. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Source record]]
-3. Ndung'u K, Hibdon S, and Flegal AR (2004). *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*. Talanta. [https://doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017). Peer-reviewed, A-tier. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Source record]]
-4. Ozbek N, Koca M, and Akman S (2016). *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*. Food Analytical Methods. [https://doi.org/10.1007/s12161-016-0421-x](https://doi.org/10.1007/s12161-016-0421-x). Peer-reviewed, A-tier. [[sources/ozbek2016-mip-oes-turkish-vinegars|Source record]]
+1. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA]]<span class="hmi-ref-meta">Corrigan ZB, Braiman J, and Chittenden C · Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter · 2021</span><span class="hmi-ref-tag">NGO</span>
+2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/ozbek2016-mip-oes-turkish-vinegars|A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry]]<span class="hmi-ref-meta">Ozbek N, Koca M, and Akman S · Food Analytical Methods · 2016 · [doi.org/10.1007/s12161-016-0421-x](https://doi.org/10.1007/s12161-016-0421-x)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -211,9 +189,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

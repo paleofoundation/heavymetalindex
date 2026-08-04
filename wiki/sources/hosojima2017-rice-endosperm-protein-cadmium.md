@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Hosojima et al. 2017 - Cadmium in rice endosperm protein powder used for hemodialysis nutrition
 
+## Overview
+
 Hosojima and colleagues ran a randomized, double-blind, crossover pilot trial of rice endosperm protein supplementation in maintenance hemodialysis patients. The trial is primarily a clinical nutrition study, but its source material includes a measured composition table for the rice endosperm protein (REP) powder used in the intervention. Five REP powder batches were analyzed, and Table 1 reports cadmium at 0.14 +/- 0.17 ppm after the preparation process that washed the REP aggregate to reduce minerals and heavy metals. The paper does not report lead values, and the soy and casein reference columns list cadmium as not available, so its routeable occurrence evidence is narrow: Cd in REP powder, not Pb in casein.
 
 ## Key numbers
@@ -70,8 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [974995976](https://github.com/paleofoundation/heavymetalindex/commit/974995976) | 2026-06-02 | minor | Narrative text revised |
-| [f182129c6](https://github.com/paleofoundation/heavymetalindex/commit/f182129c6) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

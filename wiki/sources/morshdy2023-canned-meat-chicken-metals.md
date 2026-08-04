@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Morshdy et al. 2023 - canned meat and chicken metals in Egypt
 
+## Overview
+
 Morshdy and colleagues measured lead, cadmium, total arsenic, total mercury, aluminium, and tin in canned beef, canned corned beef, and canned chicken luncheon sold in Sharkia Governorate, Egypt. The study reports product-category concentration summaries on a `mg/kg wet weight (PPM)` basis for `n = 20` samples per category. It also calculates EDI, HQ, and HI values for Egyptian adult consumption assumptions; those exposure calculations are source-side context and are kept separate from the occurrence table.
 
 ## Key numbers
@@ -91,6 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [4c4465f45](https://github.com/paleofoundation/heavymetalindex/commit/4c4465f45) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

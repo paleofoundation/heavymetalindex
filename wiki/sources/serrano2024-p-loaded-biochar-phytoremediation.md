@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Serrano et al. 2024 - phosphorus-loaded biochar-assisted phytoremediation
 
+## Overview
+
 Serrano and colleagues tested whether phosphorus-loaded biochars made from coffee husk or sugar-cane leaf residues could assist Lolium perenne phytoremediation of Cd-, Cr-, and Pb-contaminated soils. This is mitigation evidence, not occurrence evidence: the metals were deliberately added to soil and measured through soil bioavailability and plant-organ retention. The source belongs in remediation and metal pages while leaving product and ingredient occurrence pools empty.
 
 ## Key numbers
@@ -75,7 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [db983676f](https://github.com/paleofoundation/heavymetalindex/commit/db983676f) | 2026-06-09 | minor | Narrative text revised |
-| [59f08e6d8](https://github.com/paleofoundation/heavymetalindex/commit/59f08e6d8) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

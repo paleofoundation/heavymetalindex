@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Peters et al. 2021 — Cadmium and lead exposures and red cell distribution width in NHANES 2003-2016
 
+## Overview
+
 This large cross-sectional study pooled NHANES (National Health and Nutrition Examination Survey) data from 2003 to 2016 to examine associations between blood cadmium (Cd) and blood lead (Pb) and red cell distribution width (RDW), a marker of erythrocyte size variability linked to inflammation and hematological dysfunction. The analysis included 24,607 participants representing the US general population. This study provides nationally representative blood cadmium and lead concentration data for US adults across a 13-year surveillance window, offering insight into population-level exposure distributions and demographic patterns. Blood Cd and Pb were measured by ICP-MS as part of the NHANES heavy metals component. The documented association between these blood metal levels and RDW suggests a mechanism linking dietary metal exposure to anemia-related and inflammatory hematological outcomes.
 
 ## Key numbers
@@ -53,6 +55,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

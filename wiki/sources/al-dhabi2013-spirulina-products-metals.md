@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Al-Dhabi 2013 - metals in commercial Spirulina supplements
 
+## Overview
+
 Al-Dhabi measured nickel, zinc, mercury, platinum, magnesium, and manganese in 25 commercial Spirulina products sold for direct human consumption. The study sampled tablets and capsules from seven declared countries of origin, digested powdered product material, and quantified elements by ICP-MS. Values are reported on a dry-weight basis in `mg/kg d.w.`; mercury is reported only as Hg with no methylmercury speciation, so this page records it as total mercury (`tHg`).
 
 ## Key numbers
@@ -87,6 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [3bb71fce4](https://github.com/paleofoundation/heavymetalindex/commit/3bb71fce4) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

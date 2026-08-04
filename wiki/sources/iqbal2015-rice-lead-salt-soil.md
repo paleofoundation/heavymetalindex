@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Iqbal et al. 2015 — Lead accumulation in rice varieties under combined Pb and salt stress, Pakistan
 
+## Overview
+
 Iqbal et al. examined lead (Pb) accumulation and growth responses in two Pakistani rice varieties (Super Basmati and Irri-6) grown in pots with soil spiked at 0, 50, 100, and 200 mg Pb/kg under varying salt (NaCl) concentrations (0, 50, 100, 150 mM). The study is primarily a phytotoxicity investigation using artificially contaminated soil at concentrations considerably above ambient field levels; its relevance to natural-occurrence surveillance is limited. However, it provides data on differential Pb accumulation between cultivars and between plant organs (straw vs. grain) under controlled conditions in Pakistan, a country with significant rice cultivation and soil Pb contamination concerns.
 
 ## Key numbers
@@ -55,6 +57,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |

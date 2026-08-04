@@ -26,6 +26,8 @@ updated: 2026-06-06
 
 # Babayo et al. 2026 — Contamination factor, metal pollution index, and EDI of heavy metals in selected energy drinks from Nigeria
 
+## Overview
+
 Babayo and colleagues (Gombe State University; Abubakar Tafawa Balewa University, Bauchi; Yobe State University, Damaturu) quantified cobalt (Co), chromium (Cr), cadmium (Cd), arsenic (As), nickel (Ni), and lead (Pb) in thirty commercially available energy-drink samples purchased from Nigerian retail outlets, comprising twenty-three liquid formulations and seven powdered formulations. Liquid samples were digested with aqua regia (HCl:HNO₃ 3:1) on a Kjeldahl heater for 4–5 hours and analysed by atomic absorption spectrophotometry (AAS; Bulk 205 instrument). Powdered samples were pressed into 25 mm pellets with a hydraulic press, covered with a 6 µm polypropylene film, and analysed by X-ray fluorescence (XRF). Contamination Factor (CF), Metal Pollution Index (MPI), and Estimated Daily Intake (EDI) were computed for both adults (60 kg body weight; 0.6 L/day intake) and children (20 kg body weight; 0.3 L/day intake). The authors report that cadmium, nickel, and lead were the most critical contaminants, with several powdered formulations (EJ, KR) and isolated liquid formulations (SY, MP, PR) exceeding the manuscript-defined reference values. Powdered formulations generally exhibited relatively higher concentrations than liquid formulations for several metals.
 
 ## Key numbers
@@ -232,11 +234,11 @@ The MPI calculation in the source is described in prose (Section 2.3.2, p. 3) as
 
 The powder-vs-liquid unit-basis inconsistency described in Evidence Fitness item (ii) is a methodological caveat, not a stop condition. The reported powder values are treated as the source presents them and routed to a separate `energy-drink-powder` matrix string so the basis difference is visible to downstream pooling and synthesis.
 
-Brand firewall (CLAUDE.md Part 12): the source uses two-letter sample codes (SY, RB, PH, etc.) throughout and does not disclose commercial brand identities. No brand-firewall handling was required because the source itself does not attach contamination values to named brands.
+Brand firewall: the source uses two-letter sample codes (SY, RB, PH, etc.) throughout and does not disclose commercial brand identities. No brand-firewall handling was required because the source itself does not attach contamination values to named brands.
 
-Wiki/HMTc firewall (CLAUDE.md Part 2): no HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no cross-source synthesis claims of the form "this confirms the literature consensus that…" appear in this wiki page body. The reported exceedances of WHO drinking-water reference values are restated from the source's own comparator framework; they are not framed as HMTc threshold recommendations. The children-vs-adult EDI gradient is reported as the source presents it, with the methodological caveat that the chosen consumption anchor (calcium-requirement-derived 0.3–0.6 L/day) is not a population-survey-anchored intake rate for Nigerian consumers.
+Wiki/HMTc firewall: no HMTc threshold proposals, no consumer-audience translations, no risk advisories, and no cross-source synthesis claims of the form "this confirms the literature consensus that…" appear in this wiki page body. The reported exceedances of WHO drinking-water reference values are restated from the source's own comparator framework; they are not framed as HMTc threshold recommendations. The children-vs-adult EDI gradient is reported as the source presents it, with the methodological caveat that the chosen consumption anchor (calcium-requirement-derived 0.3–0.6 L/day) is not a population-survey-anchored intake rate for Nigerian consumers.
 
-Speciation handling (CLAUDE.md Part 14): the source measures total arsenic without speciation into iAs and organic forms (analyte recorded as `tAs` in frontmatter). The source measures total chromium without Cr-VI/Cr-III speciation (analyte recorded as `Cr` in frontmatter). Mercury, inorganic tin, uranium, and aluminum were not in the analyte panel; not recorded.
+Speciation handling: the source measures total arsenic without speciation into iAs and organic forms (analyte recorded as `tAs` in frontmatter). The source measures total chromium without Cr-VI/Cr-III speciation (analyte recorded as `Cr` in frontmatter). Mercury, inorganic tin, uranium, and aluminum were not in the analyte panel; not recorded.
 
 The `products:` frontmatter lists `sports-energy-drinks` only. The source's matrix is energy drinks (caffeine-based stimulant beverages, sometimes called "energy drink" in the Nigerian market with both liquid ready-to-drink and powder/sachet reconstitutable formulations), which the wiki taxonomy locates as HMTc Category 5 row 9 (`sports-energy-drinks`). Routing to `soft-drinks-carbonated-beverages` would over-route on a category basis; the source itself frames the products as energy drinks distinct from soft drinks throughout.
 
@@ -257,8 +259,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [5890fa4fb](https://github.com/paleofoundation/heavymetalindex/commit/5890fa4fb) | 2026-06-06 | minor | Narrative text revised |
-| [da3fd32b7](https://github.com/paleofoundation/heavymetalindex/commit/da3fd32b7) | 2026-06-06 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

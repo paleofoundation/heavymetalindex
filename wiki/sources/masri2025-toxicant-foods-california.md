@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Masri et al. 2025 — Dietary consumption of toxicant-laden foods and beverages in Southern California
 
+## Overview
+
 This is a population dietary-intake study, not a contamination occurrence study. The authors deployed a one-week online food frequency questionnaire to 186 Southern California residents (60.8% adults, 39.2% adolescents) covering staple foods and the food categories most commonly targeted under California's Proposition 65 for lead and acrylamide exposure: root vegetables, rice, leafy greens, pasta/noodles, tea, juice, seafood, twenty individual herbs/spices, stuffed grape leaves, tamarind/chili candy, chocolate products, nutritional powders, and traditional beverage powders such as matcha. The study reports daily intake (g/day), portion size, eating-occasion frequency, and home-food behaviors (homegrown food, store-bought soil use, tap-water reliance, pre-1978 housing) by age and race/ethnicity, then uses one Prop 65 consent-judgment threshold to demonstrate the magnitude of underestimated single-day lead exposure from stuffed grape leaves. The contribution to the Heavy Metal Index corpus is **exposure-side**: it provides population intake denominators that downstream synthesis can multiply against published contamination concentrations to estimate dietary exposure, and it documents underestimation patterns in Prop 65's product-by-product exposure assessment methodology for herbs and spices (which cumulate to ~8.3 g/day mean across the food category but are conventionally assessed at a 0.5 g RACC per single herb). The study itself measures no metal concentrations and proposes no contamination thresholds.
 
 ## Key numbers
@@ -340,8 +342,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [3ce252a49](https://github.com/paleofoundation/heavymetalindex/commit/3ce252a49) | 2026-06-08 | minor | Narrative text revised |
-| [54c9910f7](https://github.com/paleofoundation/heavymetalindex/commit/54c9910f7) | 2026-06-08 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Bora et al. 2022 — Heavy metals in Romanian fruits and vegetables, with vinegar washing reduction
 
+## Overview
+
 This study quantified total arsenic, cadmium, lead, and zinc in 80 fruit and vegetable samples from Galați County, Romania using ICP-MS, comparing contamination between vegetable/fruit market and amateur-farm produce, then testing 5% and 10% acetic-acid vinegar washing as a mitigation intervention. Market-sourced samples carried higher metal loads than amateur-farm samples across all four analytes (means up to 35% higher for As, 68% for Cd, 67% for Pb, 3% for Zn). Washing with 10% vinegar reduced As by 45%, Cd by 65%, and Pb by 33% relative to water-washed baselines, with the strongest per-commodity reductions reaching 93% (tomato As, tomato Cd) and 100% (red cherry tomato Pb); zinc was largely unaffected (~5–13% reduction). The page's downstream value is twofold: (1) Romanian occurrence data for 21 fresh-produce commodities across four metals on a fresh-weight basis, and (2) empirical evidence on acetic-acid washing as a partial-mitigation intervention for produce metals.
 
 ## Key numbers
@@ -197,9 +199,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8f28a50fc](https://github.com/paleofoundation/heavymetalindex/commit/8f28a50fc) | 2026-05-28 | minor | Narrative text revised |
-| [2c3d830a8](https://github.com/paleofoundation/heavymetalindex/commit/2c3d830a8) | 2026-05-28 | major | 8 sections added and 2 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

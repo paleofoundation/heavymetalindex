@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Pompa et al. 2021 — Six years of Cd, Pb, Hg monitoring in imported durum wheat (Italy, 2015–2020)
 
+## Overview
+
 This six-year Italian official control study (2015–2020) measured cadmium, lead, and mercury in 346 whole durum wheat grain samples imported into Italy from six countries (Australia, Canada, Kazakhstan, Russia, Turkey, United States), analyzed by ICP-MS per EN 15763:2009. All samples were compliant with FAO/WHO and EU regulations. Overall means were Cd 0.0322 mg/kg and Pb 0.0162 mg/kg; all mercury concentrations were below the LOD (0.004 mg/kg). The study is notable for reporting statistically significant temporal (year-to-year) and geographic (origin country) variation in Cd, but no significant seasonal variation, with the United States being flagged for an anomalous cluster of high-Cd samples in November 2017 (five samples from the US, 0.099–0.125 mg/kg Cd).
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6de0a7cc2](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7cc2) | 2026-05-12 | major | 5 sections added; narrative text revised |

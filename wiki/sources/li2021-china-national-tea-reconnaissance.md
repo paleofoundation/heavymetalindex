@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Li et al. 2021 — National reconnaissance of trace metals in Chinese tea gardens (45 gardens, 15 provinces)
 
+## Overview
+
 This is the first published national-scale soil and tea plant survey of potentially toxic elements (PTEs) across China's tea-producing regions, covering 225 paired soil and tea plant samples from 45 tea gardens in 15 provinces spanning East, South, Central, and Southwest China. Collected in May 2019. The overall finding is that Chinese tea garden soils are generally within risk-control standards, but Cd and As have the highest geo-accumulation indices and 2.22% and 4.44% of soils are moderately to heavily contaminated with As and Cd respectively. In tea leaves, Pb concentrations in young leaves (YTL) universally met organic tea thresholds (<2.0 mg/kg); however, 26.7% of mature tea leaf (MTL) samples exceeded the organic threshold for Pb. Cd had the highest Igeo value, making it the priority monitoring element.
 
 ## Key numbers
@@ -78,6 +80,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

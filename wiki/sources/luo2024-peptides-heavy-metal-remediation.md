@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Luo et al. 2024 — Peptides used for heavy metal remediation: a review of mechanisms and sources
 
+## Overview
+
 Luo and colleagues at the Key Laboratory of Coarse Cereal Processing (Sichuan Engineering & Technology Research Center of Coarse Cereal Industrialization, Chengdu University) review the published literature on peptide-based remediation of heavy metal pollution, covering peptide sources (animal, plant, microbial-fermentation, and chemical-synthesis routes), peptide-metal binding chemistry, the chelation reaction mechanism, phytochelatins, metallothioneins, and the cell-transducing TAT peptide. The review is a secondary synthesis with no primary measurements; its value to the wiki is conceptual — it organises the amino-acid residues, peptide families, and binding modes most cited in the peptide-remediation literature and is therefore a routing-relevant background source for `mitigation/remediation-evidence.md` and for any future page on peptide-based contamination mitigation.
 
 ## Why this matters
@@ -177,8 +179,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [ba01991e3](https://github.com/paleofoundation/heavymetalindex/commit/ba01991e3) | 2026-06-08 | minor | Narrative text revised |
-| [3ffa5dd0e](https://github.com/paleofoundation/heavymetalindex/commit/3ffa5dd0e) | 2026-06-08 | major | 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

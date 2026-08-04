@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Di Bella et al. 2020 - Augusta Meat, Milk, and Seafood Metals
 
+## Overview
+
 Di Bella et al. measured heavy metals and PAHs in seafood, meat, and milk from the Augusta area in Southern Italy. The paper is direct occurrence evidence for seafood, beef, pork, and raw milk in a polluted-area context. It is not infant-formula evidence; the wishlist hit came from infant-formula comparison terms in the paper rather than sampled formula products.
 
 ## Key numbers
@@ -87,8 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [55a3e39d1](https://github.com/paleofoundation/heavymetalindex/commit/55a3e39d1) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [db181df75](https://github.com/paleofoundation/heavymetalindex/commit/db181df75) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # CFIA T-4-93 — Canadian safety standards for heavy metals in fertilizers and supplements
 
+## Overview
+
 T-4-93 is the Canadian Food Inspection Agency's consolidated standard document for all safety requirements governing fertilizer and supplement products regulated under the Fertilizers Act. It covers prohibitions, upper limits for contaminants (metals, dioxins/furans, indicator organisms), tolerances for micronutrient fertilizers, and acceptable analytical methods. The metals standards are based on maximum acceptable cumulative metal additions to soil over a 45-year horizon and apply to total (not extractable) metal content. All fertilizers and supplements — including processed sewage sludge, composts, and other by-products — must meet these standards.
 
 ## Key numbers
@@ -79,6 +81,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [29a65ac86](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac86) | 2026-05-12 | major | 5 sections added; narrative text revised |

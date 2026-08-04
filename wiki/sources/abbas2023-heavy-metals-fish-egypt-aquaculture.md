@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Abbas et al. 2023 — Heavy metals in Nile tilapia and mullet from Egyptian aquaculture fishponds
 
+## Overview
+
 This study measured Pb, Cu, Fe, Cd, Mn, and Zn in water, sediment, and five fish tissues (spleen, muscle, liver, intestines, gills) from polyculture aquaculture ponds in two Egyptian governorates — El-Sharkia (ES; n=7 ponds) and Kafr El-Sheikh (KES; n=8 ponds) — using ICP-OES. The two fish species were Bolti (Oreochromis niloticus, Nile tilapia) and Topara (Chelon ramada, thinlip mullet), which together represent the dominant species in Egyptian aquaculture. Heavy metal concentrations were significantly higher in ES ponds than KES ponds across all matrices. Human health risk assessment (EDI, THQ, HI, carcinogenic risk) based on muscle tissue showed non-carcinogenic risk within acceptable bounds for all metals, but cadmium poses a carcinogenic risk to children consuming Bolti muscle from ES ponds.
 
 ## Key numbers
@@ -88,6 +90,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0b663ae0d](https://github.com/paleofoundation/heavymetalindex/commit/0b663ae0d) | 2026-05-13 | major | 4 sections added; narrative text revised |

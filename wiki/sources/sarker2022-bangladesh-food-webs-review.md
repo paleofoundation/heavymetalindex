@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Sarker et al. 2022 — Heavy metals in Bangladesh food webs: systematic review (ESPR)
 
+## Overview
+
 This systematic, non-exhaustive review in Environmental Science and Pollution Research synthesizes heavy metal contamination, multi-trophic transfer, and associated health risks in Bangladesh's food webs. The authors surveyed rice, vegetables, fruits, fish, meat, dairy, soil, sediment, groundwater, and surface-water matrices, concluding that several lines of evidence show heavy metals in Bangladesh foodstuffs above WHO/FAO maximum tolerable limits (MTLs), primarily due to poor management of industrial effluents, contaminated irrigation water, improper use of metal-containing pesticides and fertilizers, and weak regulatory enforcement. The review specifically notes that arsenic in Bangladesh is a well-documented groundwater-derived crisis, and that Pb in mango and Cd in tomatoes exceeded WHO/FAO limits in a national survey of 30 agroecological zones. A cited cultured-fish study reported arsenic in tilapia at 1.486 mg/kg, higher than rahu and pangas in that comparison, and described potential carcinogenic and chronic-toxicity concern with continuous consumption in contaminated areas.
 
 ## Key numbers
@@ -87,9 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2204e14d9](https://github.com/paleofoundation/heavymetalindex/commit/2204e14d9) | 2026-05-18 | minor | Narrative text revised |
-| [a11dcb5d3](https://github.com/paleofoundation/heavymetalindex/commit/a11dcb5d3) | 2026-05-18 | minor | Narrative text revised |
-| [d0adb11bf](https://github.com/paleofoundation/heavymetalindex/commit/d0adb11bf) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

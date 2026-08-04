@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Singh and Nyau 2020 - Heavy metals in edible wild mushrooms from Zambia
 
+## Overview
+
 Singh and Nyau measured Cu, Cd, Pb, Zn, Ni, and Co in three edible wild mushroom species from a mining-influenced site in Solwezi District and an agriculture-influenced site in Mpongwe District, Zambia. The paper gives species-by-site mean concentrations on a dry-weight basis. Cadmium in Termitomyces titaniscus and Lactarius titaniscus was well above the source-cited 0.3 mg/kg FAO/WHO benchmark at both sites, while lead values stayed below or near the source-cited 2.0 mg/kg benchmark.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Unguryanu et al. 2023 - Heavy metals in wild mushrooms and berries from Arkhangelsk
 
+## Overview
+
 Unguryanu et al. analysed official laboratory protocols for wild mushrooms and berries collected in the Arkhangelsk region during 2015-2021. The dataset covers 201 mushroom samples and 175 berry samples, with wet-weight concentrations for mercury, arsenic, lead, and cadmium plus radionuclide results. The source is useful for geographic-variance context in wild mushrooms and northern wild berries; it should not be pooled with cultivated mushroom or commercial fresh-fruit market samples without preserving the wild-foraged Russian scope.
 
 ## Key numbers
@@ -90,6 +92,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [693786430](https://github.com/paleofoundation/heavymetalindex/commit/693786430) | 2026-06-01 | major | 5 sections added; narrative text revised |

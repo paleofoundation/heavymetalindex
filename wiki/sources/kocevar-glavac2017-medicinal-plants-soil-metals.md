@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Kočevar Glavač et al. 2017 - soil-to-medicinal-plant metals in Slovenia
 
+## Overview
+
 Kočevar Glavač and coauthors measured Cd, Pb, Zn, Cu, Fe, and Mn in four wild medicinal plant species and paired soil samples from eight locations in Slovenia's Meža Valley, including sites near a former lead smelter. The plant occurrence data are directly relevant to herbal-botanical raw material; the soil data are supply-chain context rather than product concentrations. The paper also reports hot-water extraction from *Urtica dioica* at two locations, giving a prepared-infusion view separate from the dried plant table.
 
 ## Key numbers
@@ -137,6 +139,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [15cdb4f82](https://github.com/paleofoundation/heavymetalindex/commit/15cdb4f82) | 2026-06-09 | major | 8 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

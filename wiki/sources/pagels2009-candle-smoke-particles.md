@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Pagels 2009 - candle smoke particle composition and metal emissions
 
+## Overview
+
 Pagels and colleagues measured candle-smoke particle composition from two tapered candle types during steady burn, sooting burn, and smouldering in a controlled chamber. The study is routeable as home-air emission product context because Table 3 reports metal component emission factors for Cu, Sn, Co, Zn, and Pb from the candle-smoke particles. The source reports emission factors in `µg h-1` and particle-mass emission factors in `mg h-1`; no product-content concentration, migration value, or consumer threshold is inferred here.
 
 ## Key numbers
@@ -107,6 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [4759f48b0](https://github.com/paleofoundation/heavymetalindex/commit/4759f48b0) | 2026-06-09 | major | 7 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

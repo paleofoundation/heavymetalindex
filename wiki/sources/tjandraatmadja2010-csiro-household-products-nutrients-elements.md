@@ -33,6 +33,8 @@ created_by: claude_opus_47_session
 
 # Tjandraatmadja et al. 2010 — Sb, Cr, Co, Mo, Se, F, Cl, N, P in 156 Australian household and personal-care products (CSIRO Smart Water Fund report)
 
+## Overview
+
 A 103-page CSIRO Water for a Healthy Country Flagship report prepared for the Victorian Smart Water Fund (Round 3, Project 5) characterising the concentration of nine priority elements — antimony (Sb), chloride (Cl), cobalt (Co), chromium (Cr, total), fluoride (F), molybdenum (Mo), selenium (Se), Total Kjeldahl Nitrogen (TKN) and total phosphorus (TP) — in 156 household and personal-care products purchased from Melbourne supermarkets in early 2008. The intent of the report is wastewater-management rather than consumer-product safety: the elemental concentrations are converted into weekly per-capita household loads using assumed product dosages and use frequencies (Roberts 2005), then compared against the anthropogenic excretion load to attribute domestic-wastewater pollution between human waste and household-product use. From a heavy-metals occurrence standpoint the analytical-chemistry contribution is the per-category concentration tables for the four panel metals tracked by Heavy Metal Index — antimony (an HMTc Category-1 analyte), chromium (HMTc Cr-VI is not speciated here; total Cr is reported), and the trace-element panel companions cobalt, molybdenum and selenium — measured on an as-purchased finished-product basis. Antimony was the least-frequently detected element (9.6 % of products, detection limit 5 µg/L); chromium was detected in 64 % of products at concentrations ranging from 0.002 to 6.2 mg/kg. Brand identities (private, market-leader, environmental-label) appear as descriptive columns in the source tables and are stripped here per the Part 12 brand firewall; only product-form-and-brand-class descriptors are retained.
 
 ## Key numbers
@@ -242,9 +244,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [a7df828cc](https://github.com/paleofoundation/heavymetalindex/commit/a7df828cc) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

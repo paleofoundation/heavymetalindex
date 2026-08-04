@@ -5,6 +5,8 @@ audience: [regulator, researcher, consumer, commercial]
 updated: 2026-04-24
 ---
 
+## Overview
+
 The Heavy Metal Index is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc. Correspondence is currently handled through the [Paleo Foundation](https://paleofoundation.com) contact channels, which Paleo Certified, Inc. also operates. Institute-branded contact routes will be published with contaminantstandards.com; until then the addresses below are the working channels.
 
 ## Corrections and editorial

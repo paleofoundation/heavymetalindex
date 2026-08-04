@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Breakfast cereal — rice-based (puffed rice, rice flakes, crisped rice)
 
+## Overview
+
 Step 0 scope-locked row for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 6. Created to give the broad `breakfast-cereals` declarations a routable destination (Check 3 backlog resolution). Scope locked (`variant_type: whole_row_platform`); per-analyte threshold numbers come from the staff Standards Workbench.
 
 ## Literature scope
@@ -61,7 +63,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -91,9 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | major | 2 sections added; narrative text revised |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 2 sections removed; narrative text revised |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 2 sections added; narrative text revised |
-| [aa68e072f](https://github.com/paleofoundation/heavymetalindex/commit/aa68e072f) | 2026-06-03 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Cioca et al. 2022 — Food matrix effects on bioaccessibility and bioavailability of Cd, Pb, Hg, and As
 
+## Overview
+
 This EFSA EU-FORA technical report is a two-part work program: the first part analyzed inconsistencies in the translation of the terms "hazard" and "risk" across EU member state food legislation; the second part compiled a database of published bioaccessibility and bioavailability data for cadmium (Cd), lead (Pb), mercury (Hg), and arsenic (As) across different food matrices, intended to support future statistical analysis of how the food matrix affects gastrointestinal absorption and systemic availability of these metals. The paper does not itself report original measured food concentrations but provides a structured compilation of bioaccessibility data from peer-reviewed journals, establishing the data infrastructure for improved food safety risk assessment that accounts for in-matrix absorption modulation.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6edd24b09](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b09) | 2026-05-13 | major | 4 sections added; narrative text revised |

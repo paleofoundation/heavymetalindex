@@ -8,6 +8,8 @@ updated: 2026-05-28
 
 # Licensing and downstream use
 
+## Overview
+
 This page is the public license posture for everything published at heavymetalindex.com. It is one of three pages a sophisticated reader is expected to consult before relying on the Index: [[methodology]] for how evidence is selected and graded, [[editorial-standards]] for the wiki/HMTc firewall and editorial governance, and this page for what may be done with the content downstream.
 
 The Heavy Metal Index is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc. The European Union's `sui generis` database-rights regime under Directive 96/9/EC and its implementations in Cyprus law applies to the curated database the Index publishes. This is the legal frame the rest of this page derives from.

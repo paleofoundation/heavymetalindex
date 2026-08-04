@@ -6,6 +6,8 @@ audience: [regulator, educator, consumer, researcher]
 updated: 2026-06-09
 ---
 
+## Overview
+
 Heavy Metal Tested & Certified (HMT&C, also written HMTc) is a voluntary consumer-product certification program operated by the Paleo Foundation, the standards organization. This reference, the Heavy Metal Index, is operated by the Institute of Contaminant Standards; the Paleo Foundation and the Institute of Contaminant Standards are both trade names of Paleo Certified, Inc. The program tests consumer products against per-analyte thresholds for lead, cadmium, arsenic, mercury, and related elements, and is published at its own property, [heavymetaltested.com](https://heavymetaltested.com). This page explains what the program is and how it relates to the Index. It is maintained on the Index under the editorial firewall described at [[editorial-standards]], and it is a reference page, not a certification-claims or marketing page.
 
 ## What the program is

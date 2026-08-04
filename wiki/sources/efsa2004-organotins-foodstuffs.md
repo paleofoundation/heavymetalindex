@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # EFSA 2004 - Organotins in foodstuffs
 
+## Overview
+
 The EFSA CONTAM Panel assessed dietary exposure and health risk for organotin compounds in foodstuffs, focusing on tributyltin (`TBT`), dibutyltin (`DBT`), triphenyltin (`TPT`), and dioctyltin (`DOT`) because of shared immunotoxicity concerns. The occurrence assessment uses the EU SCOOP Task 3.2.13 database for fish and fishery products, including fish plus seafood other than fish such as molluscs, crustaceans, cephalopods, and echinoderms. These values are species-specific organotin occurrence and exposure data; they must not be collapsed into total tin or inorganic tin.
 
 ## Key numbers
@@ -122,6 +124,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [8922a9da4](https://github.com/paleofoundation/heavymetalindex/commit/8922a9da4) | 2026-06-08 | major | 4 sections added; narrative text revised |

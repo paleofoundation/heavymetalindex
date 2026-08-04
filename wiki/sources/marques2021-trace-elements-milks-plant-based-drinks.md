@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Marques et al. 2021 — Essential and non-essential trace elements in milks and plant-based drinks (Reus, Catalonia, Spain retail)
 
+## Overview
+
 Marques and colleagues at the Universitat Rovira i Virgili Laboratory of Toxicology and Environmental Health measured seven essential elements (Ca, Co, K, Mg, Mn, Na, Ni, P) and four non-essential/toxic elements (Hg, Pb, U, V) in 32 milk and plant-based drink composites purchased from supermarkets in Reus, Catalonia, Spain in January 2021. The product frame covered cow milk (13 variants enumerated in the Methods text, including whole, semi-skimmed, skimmed, lactose-free, fresh, and organic versions; Table 1 contains 14 cow-milk rows owing to source-paper duplication and labeling inconsistencies), goat milk (4 variants), soy drink (conventional and organic), almond drink (conventional and organic), rice drink (conventional and organic), oat drink (conventional and organic), and seven infant/follow-on formula products. All elements were quantified by inductively coupled plasma mass spectrometry (ICP-MS) following nitric-acid digestion. Of the four toxic elements measured, only Pb was detected (in three samples: non-organic whole cow milk, non-organic skimmed cow milk, and non-organic oat drink); Hg, U, and V were below detection limits in every sample. The authors report that the two non-organic cow milk Pb values exceeded the Codex Alimentarius CODEX STAN 193-1995 maximum limit for milk. Goat milk had the highest essential-element content overall (K, Na, P, Mg); cow milk was richest in Ca; soy drink led plant-based drinks for Mg and Mn; almond drink led plant-based drinks for Ca. Production system (organic vs conventional) and presence of lactose did not produce statistically significant differences in essential-element content; sterilization method (fresh vs UHT) and animal species (cow vs goat) did.
 
 ## Why this matters
@@ -156,9 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [64f281eae](https://github.com/paleofoundation/heavymetalindex/commit/64f281eae) | 2026-06-08 | minor | Narrative text revised |
 | [a45b20f04](https://github.com/paleofoundation/heavymetalindex/commit/a45b20f04) | 2026-06-08 | major | 9 sections added and 2 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
 <!-- END: hmi-page-history -->

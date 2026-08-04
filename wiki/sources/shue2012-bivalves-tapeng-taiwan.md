@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Shue et al. 2012 — Seasonal heavy-metal variation in six bivalve species, Ta-Peng Bay, Taiwan
 
+## Overview
+
 This study measured Cu, Zn, Pb, Ni, Cr, and Cd concentrations in six bivalve mollusc species from Ta-Peng Bay lagoon in southwestern Taiwan across four seasons (December 2005 to September 2006). Ta-Peng Bay is a shallow productive coastal lagoon described as heavily polluted by effluent from fisheries, domestic sewage, and agricultural wastewater. Cu and Zn dominated by mass across all species and seasons; Cd was the lowest by mass. Pb, Ni, and Cr declined with season rank (winter → spring → summer → autumn) and were significantly higher in winter; Cu, Zn, and Cd showed no significant seasonal correlation. Cd accumulation differed significantly between species (ANOVA F = 10.166, p < 0.001), supporting the authors' suggestion that bivalve molluscs may serve as a species-sensitive monitoring tool for Cd in coastal waters.
 
 ## Key numbers
@@ -145,8 +147,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c6f78d0ae](https://github.com/paleofoundation/heavymetalindex/commit/c6f78d0ae) | 2026-05-18 | minor | Narrative text revised |
-| [20bb8bb9c](https://github.com/paleofoundation/heavymetalindex/commit/20bb8bb9c) | 2026-05-18 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

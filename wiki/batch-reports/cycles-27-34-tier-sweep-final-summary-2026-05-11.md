@@ -18,6 +18,8 @@ noindex: true
 
 # Tier-1→3→4 Sweep Final Summary (cycles 27-35)
 
+## Overview
+
 This report documents the tier-1→3→4 autonomous-loop sweep that ran from cycle 27 (2026-05-11 fruit-juice mislabel correction) through cycle 35 (final summary). The sweep was launched after the tier-classification audit (commit `a31e398`) and Karen's "do them ASAP" directive on deferred row-by-row updates (commit `59d95c6`). The objective was to systematically credit already-loaded A-tier sources toward `n_a_tier` confidence calibration across IandC subcategories where they were undercounted in master CC blocks.
 
 ## Headline outcome

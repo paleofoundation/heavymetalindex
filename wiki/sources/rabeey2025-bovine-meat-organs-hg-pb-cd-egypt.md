@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Duplicate source page — see canonical Rabeey et al. 2025 page
 
+## Overview
+
 This page is a retired duplicate of [[sources/rabeey2025-bovine-hg-pb-cd-egypt]]. It is retained so older generated source legends and synthesis audit logs that linked to `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt` do not break.
 
 Do not use this page as an independent evidence source. The canonical page holds the verified table-based values, corrected raw path, raw SHA-256, and duplicate-resolution notes.
@@ -45,8 +47,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 1 source added; contamination-profile values revised; 2 sections added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source removed; contamination-profile values revised; 2 sections removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [f65e873cc](https://github.com/paleofoundation/heavymetalindex/commit/f65e873cc) | 2026-05-18 | major | 1 source added and 1 removed; contamination-profile values revised; 1 section added and 4 removed |
-| [6534772af](https://github.com/paleofoundation/heavymetalindex/commit/6534772af) | 2026-05-15 | major | 1 source added; 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

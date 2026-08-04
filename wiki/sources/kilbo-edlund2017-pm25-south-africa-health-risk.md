@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kilbo Edlund et al. 2017 — PM2.5 health risk in rural South Africa; nickel and trace element exposure
 
+## Overview
+
 This study applied the US EPA human health risk assessment (HRA) model to assess health risks from PM2.5 ambient air pollution and its trace elemental components in Thohoyandou, a rural South African community, using PM2.5 samples collected April 2017 to April 2018. Despite relatively moderate annual average PM2.5 of 11 µg/m3 (above WHO 10 µg/m3 guideline but below South African NAAQS of 20 µg/m3), health risks were substantial, especially for infants and children. Particle-bound nickel posed both non-cancer and cancer risks. The study concludes air quality standards in South Africa need to be tightened, as the risks were present even at levels compliant with national annual standards.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

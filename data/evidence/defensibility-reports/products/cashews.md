@@ -2,7 +2,7 @@
 source_page: wiki/products/cashews.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8f394d39650766388e9e70205eff6bce6a1d5682067f215075f80060448d80f2
+source_page_sha256: f044234b3970d6fdc5eb6cfc77d96b8b257e492fd791eadf254a41ff1fd08190
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 
@@ -44,15 +44,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-### Federal/Regulatory Limits vs Field Findings
-
-#### Claim `0.20 mg/kg`
-- Context: `fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915`
-- Cited targets (1):
-  - `wiki/regulations/eu-2023-915.md` (page missing)
-    - audit rows: none
-
-### (opening)
+### Overview
 
 #### Claim `434 µg/kg`
 - Context: `production geography (West Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  Thi`
@@ -62,12 +54,20 @@ This report joins every numerical claim on the page to its citation chain and th
 - Context: `t Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  This page is a Step 0 lock s`
 - Cited targets: **none in section** — claim has no traceable provenance
 
+### Federal/Regulatory Limits vs Field Findings
+
+#### Claim `0.20 mg/kg`
+- Context: `fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915`
+- Cited targets (1):
+  - `wiki/regulations/eu-2023-915.md` (page missing)
+    - audit rows: none
+
 ## Uncited claims
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `434 µg/kg` in section _(opening)_ — context: `production geography (West Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  Thi`
-- `350 µg/kg` in section _(opening)_ — context: `t Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  This page is a Step 0 lock s`
+- `434 µg/kg` in section _Overview_ — context: `production geography (West Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  Thi`
+- `350 µg/kg` in section _Overview_ — context: `t Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  This page is a Step 0 lock s`
 
 ## Defensibility chain — distinct cited targets
 

@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Sadee 2022 - Trace metals in vegetables from Erbil markets
 
+## Overview
+
 Sadee measured arsenic, cadmium, chromium, copper, and lead in ten commonly consumed vegetables purchased from local markets in Erbil, Kurdistan Region, Iraq. The paper is routeable for vegetable occurrence evidence because it reports concentration ranges in edible vegetables by ICP-MS. The authors also calculated estimated daily intake and carcinogenic risk.
 
 ## Key numbers
@@ -69,8 +71,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [731deef0e](https://github.com/paleofoundation/heavymetalindex/commit/731deef0e) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

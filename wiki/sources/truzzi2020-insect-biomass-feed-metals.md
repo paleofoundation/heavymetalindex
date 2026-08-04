@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Truzzi et al. 2020 - potentially toxic elements in insect biomass and coffee-silverskin substrates
 
+## Overview
+
 Truzzi et al. tested whether black soldier fly prepupae grown on coffee-silverskin substrates enriched with microalgae could remain chemically suitable as feed or food biomass. The study measured Cd, Pb, total Hg, total As, and Ni in substrate ingredients, formulated growth substrates, prepupae, and frass. Coffee silverskin had low Cd, Pb, total As, and total Hg, while black soldier fly prepupae bioaccumulated Cd, Pb, and total Hg but remained within the EU undesirable-substance limits evaluated by the authors.
 
 ## Key numbers
@@ -70,6 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [6712f3d44](https://github.com/paleofoundation/heavymetalindex/commit/6712f3d44) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

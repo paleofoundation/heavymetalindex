@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Baki 2018 - St. Martin Island seafood metals
 
+## Overview
+
 Baki and colleagues measured Cr, Mn, Cu, Zn, arsenic, Cd, Pb, Hg, and Fe in fish and crustaceans from Saint Martin's Island, Bangladesh. The sampled seafood included eight fish species plus shrimp, lobster, and crab species, with crustacean muscle and shell/carapace fractions analyzed separately. The occurrence tables report concentrations on a `mg/kg ww` basis; the text describes the arsenic measurement as inorganic As and reports mercury as total/unspecified Hg, not methylmercury.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [02e446516](https://github.com/paleofoundation/heavymetalindex/commit/02e446516) | 2026-06-08 | major | 4 sections added; narrative text revised |

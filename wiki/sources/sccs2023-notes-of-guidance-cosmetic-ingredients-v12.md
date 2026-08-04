@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # SCCS 2023 — Notes of Guidance for the Testing of Cosmetic Ingredients (12th Revision, SCCS/1647/22)
 
+## Overview
+
 This is the canonical EU regulatory-science methodology document for safety evaluation of cosmetic ingredients under Regulation (EC) No 1223/2009. The 12th revision, adopted 15 May 2023, supersedes SCCS/1628/21 and consolidates the SCCS framework for hazard identification, dose-response assessment, external and internal exposure assessment, MoS calculation, and population-specific risk evaluation including children. For the Heavy Metal Index, it is the regulatory backbone of how dermal, oral, and inhalation exposure to trace heavy-metal contaminants in cosmetic ingredients is parameterised, aggregated, and compared to toxicological reference values in the EU; it also fixes the default child body weights, retention factors, surface areas, and product-category exposure assumptions that any pediatric-cosmetic safety-evaluation cross-walk must inherit.
 
 ## Key numbers
@@ -106,6 +108,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [f0494b774](https://github.com/paleofoundation/heavymetalindex/commit/f0494b774) | 2026-05-17 | major | 5 sections added; narrative text revised |

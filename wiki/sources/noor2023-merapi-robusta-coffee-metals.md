@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Noor et al. 2023 - Pb and Cd screening in Merapi Robusta coffee
 
+## Overview
+
 Noor and coauthors compared Merapi Robusta coffee roasted by traditional, semi-modern, and modern methods at two roasting durations (20 and 25 min). The primary study focus is quality and sensory performance; the three best-scoring hedonic samples (sample 1: traditional 20 min; sample 3: semi-modern 20 min; sample 6: modern 25 min) were then tested by ICP-MS for Pb and Cd and by LC-MS/MS for ochratoxin A. All three samples were below the limits of detection for all three analytes.
 
 ## Key numbers
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b804e422f](https://github.com/paleofoundation/heavymetalindex/commit/b804e422f) | 2026-06-09 | minor | Narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -2,7 +2,7 @@
 source_page: wiki/products/spices.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 969ba1f15b532729bfb2333f159b8e0de919815822bd6ba22c0deb316eced734
+source_page_sha256: cf905883afb9717939e7f9fc59f1c4900a60b101dd8ea9c413762bf796238cb5
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 64
 distinct_cited_sources: 64
 audit_rows_for_page: 4
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 64 |
 | audit rows on this page | 4 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 

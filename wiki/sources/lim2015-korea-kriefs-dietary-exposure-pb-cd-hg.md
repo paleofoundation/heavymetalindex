@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lim et al. 2015 — Korean KRIEFS: nationwide dietary exposure to Pb, Cd, and Hg
 
+## Overview
+
 The Korean Research Project on the Integrated Exposure Assessment of Hazardous Substances for Food Safety (KRIEFS), initiated in 2010 by the National Institute of Food and Drug Safety Evaluation, was the first nationwide integrated dietary exposure assessment in Korea covering all ages. This paper presents the survey design and results for lead (Pb), cadmium (Cd), and mercury (Hg) in 4,867 subjects across 15 metropolitan areas and provinces. The highest Pb and Cd concentrations (median values) were found in seaweed (Pb 94.2 µg/kg, Cd 594 µg/kg); the highest Hg was in fish (46.4 µg/kg). Dietary exposure (median) was 0.14 µg/kg bw/day for Pb, 0.18 µg/kg bw/day for Cd, and 0.07 µg/kg bw/day for Hg. Blood Hg levels and dietary Hg exposure were both higher in Korea than in the EU reference populations, attributed to higher fish consumption.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Hussain et al. 2016 - Spinach cadmium under soil Cd:Zn ratios
 
+## Overview
+
 Hussain and colleagues tested whether changing the Cd:Zn ratio in contaminated soil changed cadmium uptake into edible spinach leaves. This is in-scope mitigation and soil-to-plant pathway evidence: the spinach was grown in deliberately Cd-spiked glasshouse soil, so these values should not be treated as ordinary market spinach occurrence.
 
 ## Key numbers
@@ -114,6 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [e9f0b8980](https://github.com/paleofoundation/heavymetalindex/commit/e9f0b8980) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

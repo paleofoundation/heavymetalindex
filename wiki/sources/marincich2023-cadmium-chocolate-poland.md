@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Marincich et al. 2023 — Cadmium in chocolate bars, Polish market (EFSA EU-FORA)
 
+## Overview
+
 This EFSA EU-FORA fellowship report presents cadmium occurrence data from chocolate bars purchased in Warsaw, Poland, and estimates dietary exposure for three Polish population groups (children 3–9 years, adolescents 10–17 years, adults 18–64 years). ICP-MS analysis of both milk chocolate and bitter chocolate samples found all products below EU maximum levels (Commission Regulation EC 1881/2006 as amended), and cadmium exposure from chocolate consumption did not exceed the EFSA CONTAM TWI of 2.5 µg/kg body weight per week for any population group.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e307b9560](https://github.com/paleofoundation/heavymetalindex/commit/e307b9560) | 2026-05-13 | major | 4 sections added; narrative text revised |

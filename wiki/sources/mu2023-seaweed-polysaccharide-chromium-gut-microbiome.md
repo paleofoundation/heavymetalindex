@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Mu et al. 2023 — Seaweed polysaccharide ameliorates Cr(VI)-induced gut microbiome dysbiosis in mice
 
+## Overview
+
 Mice exposed to K2Cr2O7 at 75 mg/kg exhibited marked gut microbial dysbiosis, with reduced alpha diversity (Chao1 and Shannon indices significantly lower), decreased beneficial taxa, and increased pathogenic bacteria including Escherichia_Shigella (rising from 10.71% in controls to 57.75% under Cr exposure). Administration of seaweed polysaccharide at 200 mg/kg restored gut microbial diversity and partially reversed compositional shifts, restoring Bacteroidota and Firmicutes abundances toward control levels. The study provides mechanistic grounding for food-chain chromium exposure as a gut microbiome disruptor and identifies a dietary intervention candidate.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7df819dbc](https://github.com/paleofoundation/heavymetalindex/commit/7df819dbc) | 2026-05-13 | major | 4 sections added; narrative text revised |

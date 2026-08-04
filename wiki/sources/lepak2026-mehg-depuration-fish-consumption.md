@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lepak et al. 2026 — MeHg depuration kinetics from fish consumption in travelers
 
+## Overview
+
 Two adults monitored before, during, and after consuming fish in Gabon, Central Africa provided rare direct evidence for human methylmercury (MeHg) depuration kinetics. One subject was a frequent fish consumer (baseline hair Hg 813 ng/g dry weight); the other was an infrequent consumer (baseline 120 ng/g dry weight). Total hair mercury was measured via ICP-MS at weekly to biweekly intervals across approximately five months. Both subjects exceeded the US EPA MeHg reference dose (0.1 µg/kg body weight/day) by 2 to 4 times during the consumption period. The measured whole-hair depuration rate was 8.3 ± 1.1 ng/g/day, consistent with the known biological half-life of MeHg in hair (approximately 65–80 days). Hair total mercury provides an integrated record of past methylmercury exposure, making this a useful calibration dataset for biomonitoring interpretation.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [15eca2e78](https://github.com/paleofoundation/heavymetalindex/commit/15eca2e78) | 2026-05-12 | major | 4 sections added; narrative text revised |

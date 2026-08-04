@@ -91,29 +91,7 @@ created_routed_sources: 3
 
 # Fresh Herbs
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 6/10 HMTc analytes, total n=12 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 4 jurisdictions, top IR 50% | — |
-| D3 Anthropogenic evidence | GAP | 1 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni THIN, Al THIN, Cr THIN | tAs: needs 2 more study(ies); tHg: needs 1 more study(ies); Ni: needs 2 more study(ies); Al: needs 2 more study(ies); Cr: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 6 claims checked, 6 supported; 3 citations, 0 orphan, 1 foreign | 1 foreign citation(s) not naming fresh-herbs: lhaac2025-csp41-herbs-spices-wa |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tAs: THIN, needs 2 more study(ies); tHg: THIN, needs 1 more study(ies); Ni: THIN, needs 2 more study(ies); Al: THIN, needs 2 more study(ies); Cr: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Fresh herbs — the live or freshly-cut leaves, flowers, and aerial plant parts of culinary aromatic plants (basil, parsley, cilantro, dill, mint, thyme, oregano, sage, rosemary, chives, tarragon, marjoram) — sit at the lower end of the herbs-and-spices category by per-mass concentration because the fresh form has not undergone the 7-10× concentration uplift that drying produces. Fresh herbs are commonly grown in home gardens, community gardens, urban allotments, and small-scale commercial production, which means siting variability (roadside, industrial-corridor) drives much of the within-category variance on Pb specifically. The current corpus loads 3 directly-routed sources: Fischer 2022 Polish mercury in spice plants (n=48 including fresh-leaf samples, [[sources/fischer2022-mercury-spice-plants-poland]]), LHAAC 2025 Australian Coordinated Sampling Project 41 covering both fresh and dried product (n=380, [[sources/lhaac2025-csp41-herbs-spices-wa]]), and Winiarska-Mieczan 2023 Polish Cd-Pb in 432 herb-and-single-component-spice samples covering fresh herbs as a subset ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]). The paired-product comparison with [[ingredients/dried-herbs]] establishes the fresh-vs-dried-basis factor; the same plant species at the same source carries roughly 1/8 to 1/10 the per-mass Pb-and-Cd of the dried form purely from the moisture-removal accounting.
 
@@ -183,17 +161,17 @@ The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Fischer A and Brodziak-Dopierała B (2022). *The Mercury Concentration in Spice Plants*. Processes. [https://doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954). Peer-reviewed, A-tier. [[sources/fischer2022-mercury-spice-plants-poland|Source record]]
-2. LHAAC (2025). *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*. Local Health Authorities Analytical Committee, Edith Cowan University. Government report, A-tier. [[sources/lhaac2025-csp41-herbs-spices-wa|Source record]]
-3. Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. (2023). *The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine*. Biological Trace Element Research. [https://doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7). Peer-reviewed, A-tier. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|Source record]]
+1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/lhaac2025-csp41-herbs-spices-wa|Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices]]<span class="hmi-ref-meta">LHAAC · Local Health Authorities Analytical Committee, Edith Cowan University · 2025</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine]]<span class="hmi-ref-meta">Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -212,9 +190,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

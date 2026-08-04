@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # Faraj et al. 2023 - backyard chicken metals in Iraq
 
+## Overview
+
 Faraj, Khidhir, and Zahir measured cadmium, copper, and lead in backyard chicken breast and liver samples from four regions of Sulaymaniyah Province, Iraq. The paper reports tissue means as `mg/kg (mean ±SD)` after drying, microwave digestion, and ICP-OES analysis. The downloaded filename says "Turkey", but the extracted article is the Iraq backyard-chicken study identified by DOI `10.25130/tjas.23.3.15`.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [00ff477e3](https://github.com/paleofoundation/heavymetalindex/commit/00ff477e3) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

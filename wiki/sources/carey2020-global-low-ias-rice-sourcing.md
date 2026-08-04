@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Carey et al. 2020 — Global sourcing of low-inorganic arsenic rice grain
 
+## Overview
+
 This study is the largest published global market survey of arsenic speciation in polished (white) rice, analysing 1,180 samples from 29 distinct sampling zones across 6 continents. The global mean inorganic arsenic (iAs) was 66 µg/kg and the global mean dimethylarsinic acid (DMA) was 21 µg/kg. Critically, the paper identifies a pronounced regional structure: southern hemisphere South American rice (Argentina, Bolivia, Chile, Paraguay, Uruguay) was universally high in iAs (medians 60–198 µg/kg), while East African rice (Mali, Ghana region) and southern Indonesian island rice were consistently low (means below 10–20 µg/kg). This geographic pattern has direct implications for supply-chain sourcing strategies aimed at reducing consumer iAs exposure.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

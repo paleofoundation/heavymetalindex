@@ -107,15 +107,6 @@ updated: 2026-05-17
 
 # Infant Mixed Grain Cereal
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Not yet characterized — scorecard activates at 2 contributing A-tier sources._
-
-<!-- /hmi-completeness-scorecard -->
-
-
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source trace2025-trace-element-intake-dairy-free declared ingredient/infant-mixed-grain-cereal, no close-slug match
@@ -140,8 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [b4ac73454](https://github.com/paleofoundation/heavymetalindex/commit/b4ac73454) | 2026-05-18 | major | 1 source added; contamination-profile values revised; 2 sections added |
 <!-- END: hmi-page-history -->

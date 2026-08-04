@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Abeslami et al. 2025 — Mineral profile and heavy metals in Moroccan honeys
 
+## Overview
+
 This study characterized the mineral profile and heavy metal content of seven honey types (six monofloral and one multifloral) from eastern Morocco, using ICP-MS. Botanical origin significantly influenced mineral composition: multifloral honey had the highest total mineral content (661 mg/kg), while monofloral varieties showed distinct elemental fingerprints. For heavy metals, cadmium ranged from 0.0017 to 0.018 mg/kg and lead from 0.13 to 0.19 mg/kg across honey types; all values fell within safe regulatory limits. The study provides geographic and botanical-origin context for Moroccan honey mineral variability.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [313c29c4c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c4c) | 2026-05-12 | major | 4 sections added; narrative text revised |

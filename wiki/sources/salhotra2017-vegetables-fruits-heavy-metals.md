@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Salhotra and Verma 2017 - metals in Jagdalpur market vegetables and fruits
 
+## Overview
+
 Salhotra and Verma measured heavy metals in vegetables and fruits from Jagdalpur market in Chhattisgarh, India. The source is routeable to spinach because Table 1 reports edible-part spinach concentrations for Cu, Cd, Fe, Co, and Pb. The paper is a small market survey and should be treated as India/Jagdalpur context.
 
 ## Key numbers
@@ -87,8 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [fe13d04d8](https://github.com/paleofoundation/heavymetalindex/commit/fe13d04d8) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [f5efca8e6](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8e6) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

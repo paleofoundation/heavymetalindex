@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zlotko et al. 2021 - Black soldier fly chitin and nickel sorption
 
+## Overview
+
 Zlotko and colleagues isolated chitin from black soldier fly pupal exuviae and tested whether one isolated chitin variant could sorb Ni2+ from aqueous solution. This is primary materials/remediation evidence, not insect-food or feed-occurrence evidence: the nickel data are controlled sorption experiments and surface EDX confirmation, not concentrations in edible insect meal or consumer products.
 
 ## Key numbers
@@ -97,6 +99,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [7b14b5db1](https://github.com/paleofoundation/heavymetalindex/commit/7b14b5db1) | 2026-06-02 | major | 8 sections added; narrative text revised |

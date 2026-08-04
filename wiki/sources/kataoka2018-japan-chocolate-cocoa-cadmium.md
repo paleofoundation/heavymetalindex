@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Kataoka et al. 2018 - Cadmium in chocolate and cocoa powder products in Japan
 
+## Overview
+
 Kataoka and colleagues measured cadmium in 180 chocolate products and 140 cocoa powder products sold in Japan. The survey found broad product-level variation: chocolate products ranged from 0.00021 to 2.3 mg/kg Cd, while cocoa powder ranged from 0.015 to 1.8 mg/kg Cd. The paper is direct occurrence evidence for cadmium in chocolate and cocoa powder as sold in the Japanese retail market.
 
 ## Key numbers
@@ -68,8 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 6 sections added; narrative text revised |
 | [ead8551c8](https://github.com/paleofoundation/heavymetalindex/commit/ead8551c8) | 2026-06-03 | major | 5 sections removed; narrative text revised |
-| [fad08a829](https://github.com/paleofoundation/heavymetalindex/commit/fad08a829) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

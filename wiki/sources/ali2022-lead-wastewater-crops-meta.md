@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ali et al. 2022 — Meta-analysis of lead in wastewater-irrigated soil and crops
 
+## Overview
+
 This systematic review and meta-analysis synthesises 24 studies across 13 countries to quantify the accumulation of lead in municipal wastewater, wastewater-irrigated soil, and edible crops, and to assess associated public health risks. The studies are concentrated in South and East Asia (India, Pakistan, Iran, China), where large-scale untreated wastewater irrigation is documented. The review includes 44 crops, of which 38 are leafy and non-leafy vegetables. Key finding: in all studied crops produced using untreated wastewater, lead concentrations in edible parts exceeded WHO limits for edibility, and health risk indices (HRI) calculated for multiple countries (India, Iraq, Morocco, Egypt) exceed 1, indicating unacceptable risk.
 
 ## Key numbers
@@ -70,9 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [23e1355b3](https://github.com/paleofoundation/heavymetalindex/commit/23e1355b3) | 2026-05-17 | minor | Narrative text revised |
-| [018ad5c31](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c31) | 2026-05-17 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hu et al. 2023 — Heavy metals in Heijing 5 rice grain at high latitude (Sweden vs China)
 
+## Overview
+
 This study evaluates Heijing 5, a japonica rice cultivar from Heilongjiang province China, for low methane emissions and its performance at high-latitude growing conditions. As part of field trials in Uppsala, Sweden (59.81°N) and Nanjing, China (32.05°N), the authors measured total As, Pb, and Cd in mature rice grains from both sites using ICP at an accredited laboratory (Eurofins Sweden). The Swedish cultivation produced grains with notably lower heavy metal concentrations than literature values for rice from Asia, attributed to the low background contamination of Swedish paddy soils. All values were substantially below FAO/WHO Codex limits.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [16697dbc2](https://github.com/paleofoundation/heavymetalindex/commit/16697dbc2) | 2026-05-13 | major | 4 sections added; narrative text revised |

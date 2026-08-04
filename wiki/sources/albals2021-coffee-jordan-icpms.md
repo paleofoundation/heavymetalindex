@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Albals et al. 2021 — Multi-element ICP-MS in green and roasted coffee beans, Jordanian market
 
+## Overview
+
 This study determined concentrations of 22 elements including toxic metals (Pb, Cd, Al, Cr, Ni, U) and essential elements in 56 green and roasted coffee bean samples representing five origins (Brazil, Colombia, Ethiopia, Guatemala, Yemen) collected from the Jordanian market. ICP-MS analysis was performed following microwave-assisted acid digestion. Roasting was found to affect elemental concentrations differentially: some toxic metals increased on a dry-weight basis after roasting due to mass loss, while absolute content per bean was unchanged. Concentrations of all toxic metals were below EU maximum limits for contaminants in food.
 
 ## Key numbers
@@ -57,6 +59,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ea6d55857](https://github.com/paleofoundation/heavymetalindex/commit/ea6d55857) | 2026-05-13 | major | 4 sections added; narrative text revised |

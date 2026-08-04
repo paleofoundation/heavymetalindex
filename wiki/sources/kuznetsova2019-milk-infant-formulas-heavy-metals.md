@@ -28,6 +28,8 @@ updated: 2026-07-29
 
 # Kuznetsova et al. 2019 - heavy metals in milk infant formulas
 
+## Overview
+
 Kuznetsova and colleagues measured copper, zinc, and lead in seven dry milk infant-formula products labeled for infants from 6 months to 1 year. The study is direct powdered-formula occurrence evidence, but the paper reports product-level results by named commercial formula. Under the brand firewall, this page preserves only the category-level range and exceedance signal.
 
 The source does not measure mercury or methylmercury despite appearing in a methylmercury research-pull folder.
@@ -82,3 +84,16 @@ The source does not distinguish soy-based from non-soy formula in the HMTc row s
 - Full-PDF read performed from the seven-page journal PDF. Tables 1-7 were checked once from `pdftotext -layout` and a second time against rendered page images before commit.
 - Brand firewall: the source's named commercial formula table is not reproduced. The page reports only category-level ranges and counts.
 - HMTc firewall: page records source facts only; no certification threshold, percentile, or pass/fail calculation is derived from this source.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
+| [2edb4d393](https://github.com/paleofoundation/heavymetalindex/commit/2edb4d393) | 2026-07-29 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Hanc et al. 2021 - Mercury and selenium in Amanita muscaria
 
+## Overview
+
 Hanc and colleagues measured total mercury and selenium in wild Amanita muscaria fruiting bodies from a single forest site in Pomerania, Poland, separating caps and stipes across six developmental stages. The source is useful for wild-mushroom mercury context because it reports dry-weight total Hg ranges by anatomical part and growth stage, with selenium measured in the same composites. It is not methylmercury occurrence evidence and does not measure cooked, boiled, or pickled finished products.
 
 ## Key numbers
@@ -90,6 +92,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Liu et al. 2020 - Lactobacillus plantarum CCFM8610 and cadmium excretion
 
+## Overview
+
 Liu and colleagues tested whether Lactobacillus plantarum CCFM8610 could relieve cadmium-induced intestinal motility dysfunction and reduce cadmium burden in mice. This is probiotic mitigation evidence: it supports a plausible fecal-excretion mechanism for lowering cadmium absorption, but it does not measure metals in probiotic supplements or consumer foods.
 
 ## Key numbers
@@ -80,6 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [f6e2fbf9f](https://github.com/paleofoundation/heavymetalindex/commit/f6e2fbf9f) | 2026-06-09 | major | 8 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

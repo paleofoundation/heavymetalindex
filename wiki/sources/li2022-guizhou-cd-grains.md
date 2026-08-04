@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 This study mapped the spatial distribution of cadmium (Cd) across 334 grain samples (rice, corn, wheat) collected from karst farming regions of Guizhou province, China, a zone known for elevated natural Cd background due to karst geology. Cadmium concentrations ranged widely, and exceedance rates against the Chinese national standard (GB 2762-2017: 0.2 mg/kg for rice, 0.1 mg/kg for corn and wheat) were substantial, especially in wheat (45.1%). The paper also addressed fluorine, but Cd is the primary heavy-metal finding of wiki relevance.
 
 ## Key numbers
@@ -56,6 +58,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7da5b3c02](https://github.com/paleofoundation/heavymetalindex/commit/7da5b3c02) | 2026-05-13 | major | 4 sections added; narrative text revised |

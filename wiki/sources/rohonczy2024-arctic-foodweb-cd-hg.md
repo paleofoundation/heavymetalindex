@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Rohonczy et al. 2024 — Cadmium and mercury trophic transfer in the Arctic marine food web, Hudson Bay
 
+## Overview
+
 This study quantified cadmium and mercury (total and methylmercury) concentrations across multiple trophic levels in the Hudson Bay Arctic marine food web, including blue mussel (Mytilus edulis), common eider (Somateria mollissima), shorthorn sculpin (Myoxocephalus scorpius), Arctic cod (Boreogadus saida), and ringed seal (Pusa hispida). The authors examined trophic magnification factors (TMF) for both metals and compared Hudson Bay concentrations against available regulatory limits and prior circumpolar baseline data. The paper documents how climate change and reduced sea ice in Hudson Bay may be altering metal cycling and trophic transfer in Arctic marine ecosystems.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3dc7cbb24](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb24) | 2026-05-13 | major | 4 sections added; narrative text revised |

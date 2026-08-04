@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Pehlivan et al. 2008 — Inorganic metals in Turkish edible vegetable oils by ICP-AES
 
+## Overview
+
 This study determined nine metals (Cu, Fe, Mn, Co, Cr, Pb, Cd, Ni, Zn) in 17 edible vegetable oil samples from Turkish markets using ICP-AES after direct acid extraction with dilute nitric acid. The study demonstrates a simple sample preparation approach — 2–3 g oil + 1 mL 10% HNO3, shaken and incubated 2 h at 50°C, then centrifuged — that avoided the losses associated with wet digestion or dry ashing. Lead concentrations were below the [[regulations/eu-466-2001-contaminants-superseded|EC 466/2001]] vegetable-oil Pb limit cited by the authors; the paper does not provide vegetable-oil regulatory limits for most other measured metals. Virgin olive oil had the highest lead among oil types (0.0074 mg/kg), and almond oil showed the highest values for Cu, Cr, Ni, and Zn.
 
 Note on evidence tier: downgraded from A to B. The study is older (2008), uses ICP-AES without speciation, and the variety of oil subtypes within a single category (e.g., 5 sunflower oil brands) means per-variety n=1. Total chromium is reported; this cannot be treated as Cr-VI.
@@ -114,9 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [eb66ab0b4](https://github.com/paleofoundation/heavymetalindex/commit/eb66ab0b4) | 2026-05-18 | minor | Narrative text revised |
-| [dc36ffdf2](https://github.com/paleofoundation/heavymetalindex/commit/dc36ffdf2) | 2026-05-18 | minor | Narrative text revised |
-| [66f91dc0a](https://github.com/paleofoundation/heavymetalindex/commit/66f91dc0a) | 2026-05-17 | major | 3 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

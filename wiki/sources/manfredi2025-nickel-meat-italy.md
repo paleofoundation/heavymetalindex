@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Manfredi et al. 2025 - Nickel in Italian poultry, beef, and pork
 
+## Overview
+
 This study measured nickel in 809 poultry, bovine, and pig muscle-meat samples collected under Italian official control from 2011 to 2023. It provides direct occurrence data for nickel in meat matrices and pairs those concentrations with an Italian dietary-exposure assessment.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5146d670e](https://github.com/paleofoundation/heavymetalindex/commit/5146d670e) | 2026-05-26 | major | 5 sections added; narrative text revised |

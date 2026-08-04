@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Paz-Suconota et al. 2024 — Total mercury in freshwater fish from the Pastaza River, Ecuador
 
+## Overview
+
 This study quantified total mercury (THg) in dorsal muscle tissue of 40 fish specimens representing 13 families from two sites (Metzeras River and Pastaza River at Santa Inés) in the Amazon region of Ecuador. Carnivorous species accumulated the highest THg concentrations, with *Charax* sp. reaching 0.241 ± 0.018 mg kg⁻¹ and *Hoplias malabaricus* reaching 0.160 ± 0.033 mg kg⁻¹, while herbivorous *Hypostomus* sp. showed the lowest levels and the omnivore *Creagrutus* sp. measured 0.020 ± 0.007 mg kg⁻¹. All measured concentrations fell below the maximum permissible limits set by INEN (Ecuador), FAO/WHO, and the European Commission, and hazard quotients were below 1, indicating that consumption of these fish poses no significant risk to human health under normal consumption rates.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ff4abae67](https://github.com/paleofoundation/heavymetalindex/commit/ff4abae67) | 2026-05-13 | major | 4 sections added; narrative text revised |

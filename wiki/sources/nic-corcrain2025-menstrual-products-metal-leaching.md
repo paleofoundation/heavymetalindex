@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Nic Corcrain 2025 - lead leaching from menstrual products in simulated vaginal fluid
 
+## Overview
+
 Nic Corcrain's research poster reports a small C-tier menstrual-product leaching experiment and a participant survey. The occurrence-relevant result is that tampons released lead into synthetic vaginal fluid at `0.66-6.35 ppb`, while menstrual cups were reported as `<1 ppb`. Arsenic was targeted, but the poster says arsenic detection was compromised by background contamination, so no arsenic occurrence value is recorded.
 
 ## Key numbers
@@ -76,6 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [ecf202b37](https://github.com/paleofoundation/heavymetalindex/commit/ecf202b37) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

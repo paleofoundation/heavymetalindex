@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Matei et al. 2025 — Cd, Pb, Cu, Cr, Co, Mn, Ni in eight Romanian edible vegetable oils by GF-AAS
 
+## Overview
+
 This study determined seven trace metals (Cd, Pb, Cu, Cr, Co, Mn, Ni) and seven physicochemical quality indices (acidity index, moisture content, peroxide value, refractive index, iodine value, saponification value, total phenolic compounds) in eight types of edible vegetable oil purchased from local markets in Constanta, Romania, in 2024. Three samples of each oil type were analyzed (24 samples total) by graphite furnace atomic absorption spectrometry after microwave-assisted nitric acid/hydrogen peroxide digestion. Across all eight oils, Cd was 0.001–0.010 mg/kg, Pb 0.011–0.217 mg/kg, Cu 0.010–0.672 mg/kg, Cr <LD–0.062 mg/kg, Co 0.003–0.031 mg/kg, Mn 0.007–0.083 mg/kg, and Ni 0.003–0.015 mg/kg. The authors report that three values exceed the 0.1 mg/kg FAO/WHO 2002 ceiling cited for Cu in vegetable oils (blend oil 0.672, organic extra virgin olive 0.312, sunflower not exceeding) and for Pb (rice oil 0.217, organic extra virgin olive 0.101 at the cap). Target hazard quotient (THQ) and hazard index (HI) values were below 1 for all oils (HI range 0.00369–0.02672), and the sum of incremental lifetime cancer risks (∑ILCR, for Cr, Cd, Pb, Ni) ranged 4.41×10⁻⁶ to 16.39×10⁻⁶ for adults — within the U.S. EPA acceptable range of 1×10⁻⁶ to 1×10⁻⁴. The paper measures total Pb, total Cd, and total Cr (no speciation); arsenic and mercury were not measured.
 
 Note on evidence tier: assigned B. Peer-reviewed MDPI Applied Sciences with a complete methods description, calibration and digestion documentation, but per-oil-type n is small (n=3) and the geographic frame is a single Romanian city (Constanta) market in a single year (2024). The seven-metal panel omits the two HMI-priority analytes most regulated in food-safety contexts (arsenic and mercury). Total Pb, total Cd, and total Cr are reported without speciation, which is appropriate for these elements in oils.
@@ -204,6 +206,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [f93b189f2](https://github.com/paleofoundation/heavymetalindex/commit/f93b189f2) | 2026-06-01 | major | 6 sources added; 5 sections added; narrative text revised |

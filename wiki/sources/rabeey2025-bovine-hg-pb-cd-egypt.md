@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Rabeey et al. 2025 — Heavy metals in imported frozen bovine tissues, Sohag, Egypt
 
+## Overview
+
 This study analyzed 315 imported frozen bovine samples (105 each of muscle, liver, and kidney) from local markets in Sohag, Egypt, for total mercury (tHg), lead (Pb), and cadmium (Cd) by atomic absorption spectrophotometry. The authors report frequent exceedance of their cited maximum permissible limits for Pb and Hg, while calculated dietary risk indices remained below concern thresholds for average adult Egyptian consumption rates. The core tissue pattern was muscle highest for tHg, liver highest for Pb, and kidney highest for Cd.
 
 ## Key numbers
@@ -109,9 +111,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [bcbfbe85d](https://github.com/paleofoundation/heavymetalindex/commit/bcbfbe85d) | 2026-05-18 | minor | Narrative text revised |
-| [f65e873cc](https://github.com/paleofoundation/heavymetalindex/commit/f65e873cc) | 2026-05-18 | major | 3 sections added and 2 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Lin et al. 2025 - Coffee waste bio-adsorbent for metal and dye removal
 
+## Overview
+
 Lin and colleagues used Coffee Powder Trimmings (CPT), including spent coffee grounds and dried coffee-processing residues, as a bio-adsorbent for copper and iron ions before converting the metal-loaded material into biochar composites for methylene blue removal. This is primary remediation/materials evidence, not coffee-ingredient occurrence evidence: the source reports engineered adsorption and biochar performance rather than metals measured in coffee as consumed.
 
 ## Key numbers
@@ -106,8 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [29d9f5057](https://github.com/paleofoundation/heavymetalindex/commit/29d9f5057) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

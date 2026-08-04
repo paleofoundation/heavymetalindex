@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cegolon et al. 2022 — Mercury in human hair linked to fish and shellfish consumption, Gulf of Trieste
 
+## Overview
+
 This cross-sectional biomonitoring study measured total mercury (tHg) in scalp hair of 301 residents of the Gulf of Trieste coastal area in Italy, a region historically contaminated by mercury from the Idrija cinnabar mining district (Slovenia) via the Isonzo/Soča river system. The mean hair Hg concentration was 1.63 mg/kg, slightly above the 1.0 mg/kg WHO reference for pregnant women and children, though well below the NOAEL of 10 mg/kg. Shellfish/crayfish/mollusk preference was the strongest positive predictor of elevated hair Hg (adjusted RC = 0.35; 95% CI: 0.16, 0.55), and preference for frozen fish was protective (adjusted RC = -0.23), consistent with the dominance of MeHg from aquatic food chain exposure.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [97958635e](https://github.com/paleofoundation/heavymetalindex/commit/97958635e) | 2026-05-13 | major | 4 sections added; narrative text revised |

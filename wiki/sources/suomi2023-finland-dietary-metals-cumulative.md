@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Suomi & Tuominen 2023 — Cumulative dietary heavy metal and aluminum exposure of Finnish adults
 
+## Overview
+
 This Finnish Food Authority paper is the first cumulative dietary risk assessment for a mixture of Cd, Pb, iAs, MeHg, Ni, and Al among Finnish adults, combining national occurrence monitoring data with individual-level consumption data from the FinDiet 2012 national survey (n=1295, ages 25–74). Using relative potency factors referenced to Pb neurotoxicity as the index compound, the authors calculate cumulative hazard indices (HI) for three endpoints: neurotoxicity, kidney tubular effects, and fertility effects. Critically, HI exceeds 1 (non-negligible risk threshold) for the average consumer in all age groups for both neurotoxicity and kidney toxicity. Women aged 25–45 years have statistically significantly higher cumulative exposure than men of the same age (P<0.05) and older women (P<0.001). More than 95% of women below age 45 have HI>1 for neurotoxicity. The main dietary sources of cumulative exposure for adults aged 25–64 are bread and other cereal products, non-alcoholic beverages (coffee, tea, soft drinks, plant-based milk alternatives), and vegetables.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98dd9c826](https://github.com/paleofoundation/heavymetalindex/commit/98dd9c826) | 2026-05-13 | major | 4 sections added; narrative text revised |

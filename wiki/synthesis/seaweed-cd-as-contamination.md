@@ -14,6 +14,8 @@ updated: 2026-05-16
 
 # Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize
 
+## Overview
+
 Three independent A-tier datasets — a 12-site spatial-temporal survey of New Zealand kelp, a 43-site Salish Sea contaminant assessment across three commercially harvested brown seaweeds, and the EFSA CONTAM Panel's full European-population dietary exposure assessment built on more than two thousand occurrence data points — converge on a single finding: commercial edible seaweed and kelp products carry systematically elevated cadmium and arsenic concentrations that conventional terrestrial-food-chain surveillance frameworks do not capture.
 
 The finding is distinct from the established [[synthesis/organoarsenical-inertness-assumption|organoarsenical inertness synthesis]], which addressed the toxicological status of organic-arsenic species in seafood, fungi, microalgae, and seaweed. That synthesis is about the assumption that organoarsenicals are biologically inert. This synthesis is about the contamination magnitude and the regulatory blind spot at the product-distribution end of the supply chain. The two synthesis pages are complementary: the inertness synthesis tells us we cannot read total arsenic minus inorganic arsenic as "the safe part"; this synthesis tells us the totals themselves are large enough that the framing question matters at population scale.
@@ -82,7 +84,7 @@ The wiki's [[overview]] should reference seaweed-as-a-Cd-pathway alongside the e
 
 ## Provisional status
 
-This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
+This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
 
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
@@ -99,11 +101,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M (2023). *High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata*. Journal of Applied Phycology. [https://doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2). Peer-reviewed, A-tier. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|Source record]]
-2. Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. (2022). *Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption*. PLOS ONE. [https://doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269). Peer-reviewed, A-tier. [[sources/hahn2022-salish-seaweed-contaminants|Source record]]
-3. European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA (2023). *Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798). Peer-reviewed, A-tier. [[sources/efsa2023-heavy-metals-seaweed|Source record]]
+1. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata]]<span class="hmi-ref-meta">Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M · Journal of Applied Phycology · 2023 · [doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hahn2022-salish-seaweed-contaminants|Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption]]<span class="hmi-ref-meta">Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. · PLOS ONE · 2022 · [doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -113,9 +115,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [b85ab6847](https://github.com/paleofoundation/heavymetalindex/commit/b85ab6847) | 2026-05-16 | major | 3 sources added; 9 sections added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

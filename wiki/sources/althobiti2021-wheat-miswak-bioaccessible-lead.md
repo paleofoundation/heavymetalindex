@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Althobiti and Beauchemin 2021 - Bio-accessible lead in wheat and Miswak
 
+## Overview
+
 Althobiti and Beauchemin measured lead isotope ratios in bio-accessible fractions from wheat, Miswak toothbrush, and Miswak fruit using batch and continuous on-line gastrointestinal leaching methods. The study is routeable for wheat and Miswak chewing-stick/toothbrush context because it links bio-accessible Pb fractions to geogenic, leaded-gasoline, industrial-emission, and coal-combustion source signatures. It is primarily source-apportionment evidence rather than a simple concentration survey.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [6461a39ba](https://github.com/paleofoundation/heavymetalindex/commit/6461a39ba) | 2026-05-31 | major | 1 section added |
 | [8291a0d46](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d46) | 2026-05-31 | major | 5 sections added; narrative text revised |

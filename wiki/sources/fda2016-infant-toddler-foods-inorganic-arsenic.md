@@ -35,7 +35,9 @@ updated: 2026-05-08
 
 # FDA 2016 - Infant/Toddler Foods Inorganic Arsenic
 
-FDA's 2016 inorganic-arsenic dataset reports sample-level iAs (with paired total arsenic, DMA, and MMA) across product categories commonly eaten by infants and toddlers. The Index routes the dataset's sample-level subsets to the relevant locked HMTc rows: cereal-rice and multigrain-with-rice samples (n=82 combined) to [[products/baby-cereals-dry-rice-based]]; non-rice infant cereal (n=30, no rice ingredients) to [[products/baby-cereals-dry-non-rice]]; the `Juice - Grape` category (n=61) to [[products/fruit-juices-non-apple]] as grape-category context and to [[products/fruit-juice-not-canned]] as broader juice context. Per the corrected row-fit rule (CLAUDE.md Part 6), the rice / non-rice cereal subcategorization is exact on both matrix axis (rice-presence) and format axis (dry infant cereal as sold) because FDA's footnotes 4-6 define each subcategory by ingredient composition.
+## Overview
+
+FDA's 2016 inorganic-arsenic dataset reports sample-level iAs (with paired total arsenic, DMA, and MMA) across product categories commonly eaten by infants and toddlers. The Index routes the dataset's sample-level subsets to the relevant locked HMTc rows: cereal-rice and multigrain-with-rice samples (n=82 combined) to [[products/baby-cereals-dry-rice-based]]; non-rice infant cereal (n=30, no rice ingredients) to [[products/baby-cereals-dry-non-rice]]; the `Juice - Grape` category (n=61) to [[products/fruit-juices-non-apple]] as grape-category context and to [[products/fruit-juice-not-canned]] as broader juice context. Per the corrected row-fit rule, the rice / non-rice cereal subcategorization is exact on both matrix axis (rice-presence) and format axis (dry infant cereal as sold) because FDA's footnotes 4-6 define each subcategory by ingredient composition.
 
 ## Structured Extracts
 
@@ -100,9 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
-| [355575118](https://github.com/paleofoundation/heavymetalindex/commit/355575118) | 2026-05-08 | major | 4 sections added and 1 removed; narrative text revised |
-| [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
 <!-- END: hmi-page-history -->

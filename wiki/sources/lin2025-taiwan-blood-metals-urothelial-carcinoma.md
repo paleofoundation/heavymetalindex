@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lin et al. 2025 — Blood metals and urothelial carcinoma risk in Taiwan
 
+## Overview
+
 This hospital-based case-control study measured whole-blood concentrations of arsenic, cadmium, chromium, nickel, and lead in 478 urothelial carcinoma (UC) patients and 569 controls recruited at a medical center in central Taiwan between 2011 and 2019. The primary finding relevant to food safety is that blood arsenic was significantly elevated in UC cases compared with controls, independently associated with bladder cancer (UB) risk after adjustment for confounders (adjusted OR = 1.05 per µg/L; 95% CI: 1.02–1.08; p = 0.002), and selected by LASSO regression as the most important metal for both UB and upper tract UC. The authors explicitly note that seafood consumption is a recognized driver of blood arsenic in this population and was not captured in the questionnaire, constituting a measurement-bias limitation.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |

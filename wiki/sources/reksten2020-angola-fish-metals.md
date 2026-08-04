@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Reksten et al. 2020 — Nutrients and contaminants in five Angolan marine fish species
 
+## Overview
+
 This study measured nutrients and heavy metals (tAs, Cd, tHg, Pb) in five commercially important marine fish species from the Angolan coast: Atlantic bumper (Chloroscombrus chrysurus), flat sardinella (Sardinella maderensis), round sardinella (Sardinella aurita), bigeye grunt (Brachydeuterus auritus), and cassava croaker (Pseudotolithus senegalensis). Analysis by ICP-MS was performed at the Institute of Marine Research (IMR) in Bergen, Norway. All measured metal concentrations fell below applicable EU maximum limits, suggesting these species represent low-to-moderate heavy metal risk despite their importance to local food security.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [313c29c4c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c4c) | 2026-05-12 | major | 4 sections added; narrative text revised |

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Adegbola et al. 2015 — Metals in snacks and drinks sold in Ibadan, Nigeria
 
+## Overview
+
 Adegbola and colleagues measured calcium, chromium, copper, iron, lead, and cadmium in 34 snack, drink, candy, biscuit, concentrate, and milk-product samples sold in Ibadan, Nigeria. The samples were cold-digested with hydrochloric acid and nitric acid and analyzed by flame atomic absorption spectrophotometry. The paper reports coded sample IDs rather than public brand names in its tables; this page keeps the occurrence data at the product-group level. Chromium is reported as total Cr only, with no Cr-VI speciation.
 
 ## Key numbers
@@ -91,8 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [88520732b](https://github.com/paleofoundation/heavymetalindex/commit/88520732b) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [ae87c34f8](https://github.com/paleofoundation/heavymetalindex/commit/ae87c34f8) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

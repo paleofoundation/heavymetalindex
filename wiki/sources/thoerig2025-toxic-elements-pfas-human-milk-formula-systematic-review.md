@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Thoerig et al. 2025 — Toxic elements and PFAS in U.S. human milk and infant formula: systematic review
 
+## Overview
+
 This American Journal of Clinical Nutrition systematic review by a 15-author team led by Thoerig and O'Connor (Agriculture, Food, and Nutrition Evidence Center, Fort Worth) synthesizes the U.S. evidence base on As, Cd, Pb, Hg, and per-and-polyfluoroalkyl substances (PFAS) in human milk and infant formula. The review applies systematic review methodology (PRISMA-style inclusion criteria, predefined search and screening protocols) to the U.S.-applicable peer-reviewed and government-data corpus through 2024-2025, producing a summary distribution by matrix and analyte. As of the 2025 publication date, this is the most current and most comprehensive U.S. systematic review of toxic elements in infant feedings and is directly applicable to HMTc milk-based and soy-based infant formula row evidence assessment.
 
 ## Key conclusions
@@ -54,6 +56,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |

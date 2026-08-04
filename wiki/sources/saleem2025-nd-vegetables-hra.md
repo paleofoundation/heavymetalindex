@@ -26,6 +26,8 @@ updated: 2026-05-13
 
 # Saleem et al. 2025 — Metal concentrations and health risk assessment in locally grown vegetables, Grand Forks, North Dakota
 
+## Overview
+
 This study measured 16 metals (Na, Mg, K, Ca, Fe, Se, Mn, Cu, Zn, Co, Hg, Cr, Ni, As, Cd, Pb) in 82 samples of 13 vegetable species from a local farmer's market in Grand Forks, North Dakota, and assessed non-carcinogenic and carcinogenic health risks. Spinach showed the highest total metal burden and the highest concentrations of Cd, Cr, Pb, and Hg among the 13 species. Cadmium levels exceeded FAO/WHO maximum allowable concentrations in 100% of samples of tomato, green chili, white eggplant, capsicum, and spinach, and in 86% of onion, sugar beet, and potato samples. Non-carcinogenic target hazard quotients (THQ) exceeded 1 for Cd, Co, and As in most vegetable species; mean carcinogenic target cancer risk (TCR) values for Cr, Ni, As, and Cd all exceeded 1.0 × 10−4, indicating carcinogenic risk by USEPA criteria.
 
 ## Key numbers
@@ -112,7 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [686c2be70](https://github.com/paleofoundation/heavymetalindex/commit/686c2be70) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Deka et al. 2023 — Monitoring strategies for heavy metals in foods and beverages (IntechOpen chapter)
 
+## Overview
+
 This IntechOpen open-access book chapter reviews analytical monitoring methods, exposure parameters (RDA, EDI, MPL, THQ, HI, TCR), and remediation tactics for heavy metals in foods and beverages. The chapter compiles maximum permissible limits (MPL) from WHO, USEPA, JECFA, CalEPA, ATSDR, the Standards Organisation of Nigeria (SON), and the International Organization of Grapes and Wine (OIV), lists oral reference doses for several metals, and summarizes analytical techniques (ICP-OES, ICP-MS, FAAS variants including HGAAS and CVAAS, TRXF, CR-SENLIBS, electrochemical aptasensors). Remediation strategies covered include nanotechnological innovations, chelating ligands, plant phenolic compounds, and microbial bio-absorbents (gram-positive and gram-negative bacteria, cyanobacteria, yeast, fungi, algae). No primary food-concentration measurements are reported; the chapter is a methods, regulatory, and remediation summary with educational orientation. Authors are affiliated with the Department of Chemistry, Central Institute of Technology Kokrajhar (Assam, India).
 
 ## Key numbers
@@ -141,8 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [91c1d1024](https://github.com/paleofoundation/heavymetalindex/commit/91c1d1024) | 2026-05-18 | minor | Narrative text revised |
-| [78a658bdf](https://github.com/paleofoundation/heavymetalindex/commit/78a658bdf) | 2026-05-18 | major | 7 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

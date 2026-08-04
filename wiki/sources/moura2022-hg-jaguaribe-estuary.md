@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Moura & de Lacerda 2022 — Mercury in Jaguaribe River Estuary: tissue concentrations in shrimp and fish
 
+## Overview
+
 Moura and de Lacerda measured total mercury (tHg) in water, sediments, aquatic plants, shrimp, and fish from the Jaguaribe River Estuary in Ceará state, northeastern Brazil, a region receiving both natural geogenic and anthropogenic Hg inputs. Sediment tHg was 9.94 ng/g dry weight in the dry season and 6.14 ng/g DW in the rainy season, with total annual Hg load to the estuary estimated at approximately 243 kg/year. Tissue concentrations in commercially fished species were reported; shrimp (Littopenaeus vannamei) and two fish species (Eugerres brasilianus, a grunt, and Cathorops spixii, a sea catfish) were sampled. The paper provides a food-chain perspective on Hg bioavailability in a subtropical estuarine system that supplies seafood to local and regional markets.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5d7a39a46](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a46) | 2026-05-13 | major | 4 sections added; narrative text revised |

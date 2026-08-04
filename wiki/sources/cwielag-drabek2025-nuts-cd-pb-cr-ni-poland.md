@@ -27,6 +27,8 @@ updated: 2026-05-14
 
 # Ćwieląg-Drabek et al. 2025 — Cd, Pb, Cr, Ni in five nut types: health risk for Polish consumers
 
+## Overview
+
 This study measured Cd, Pb, Cr, and Ni concentrations in 69 samples of five nut types (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market using electrothermal atomic absorption spectrometry (ETAAS). Samples originated from 13 countries. All Cd concentrations remained below the EU ML of 0.20 mg/kg for tree nuts and peanuts. One peanut sample (from Poland) exceeded the Chinese Pb limit for peanuts (0.2 mg/kg) at 0.818 mg/kg. Health risk assessment using hazard quotient (HQ) and hazard index (HI) found that consumers with higher nut intake scenarios (particularly children) may face moderate to high non-cancer health risks, primarily driven by Ni and cumulative multi-metal exposure.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |

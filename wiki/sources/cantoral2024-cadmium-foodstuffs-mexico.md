@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Cantoral et al. 2024 — Dietary cadmium risk assessment across 143 Mexican foodstuffs
 
+## Overview
+
 This 2024 cross-sectional monitoring study measured cadmium (Cd) concentrations in 143 foodstuffs commonly purchased in Mexico City, covering 14 food groups, using atomic absorption spectrophotometry. Of the 143 samples, 68.5% (n = 98) had detectable Cd concentrations (>LoQ), with the highest individual values found in oyster mushrooms (0.575 mg/kg), romaine lettuce (0.335 mg/kg), and cocoa powder (0.289 mg/kg), with ancho chili and romaine lettuce exceeding the FAO/WHO maximum level (ML). Theoretical Cd intake modeled against Mexican Dietary Guidelines yielded weekly estimates of 1.80, 2.06, and 3.83 µg/kg BW for adults, adolescents, and school-age children, respectively — a health risk only for school-age children, who exceed the EFSA TWI of 2.5 µg/kg BW by 53.2%.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6de0a7cc2](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7cc2) | 2026-05-12 | major | 5 sections added; narrative text revised |

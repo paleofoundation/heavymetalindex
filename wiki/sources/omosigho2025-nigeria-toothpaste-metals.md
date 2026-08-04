@@ -25,6 +25,8 @@ updated: 2026-06-03
 
 # Omosigho et al. 2025 - Metals in toothpaste products used in Nigeria
 
+## Overview
+
 Omosigho, Balogun, Ataikiru, and Obetta measured pH, moisture/volatile content, and five metals in five toothpaste products purchased in Warri, Delta State, Nigeria. Cadmium, copper, zinc, manganese, and lead were detected in every coded toothpaste sample. The paper is directly routeable to the toothpaste product page as small-sample market occurrence evidence, with the coded sample design preserving product-category signal without brand-level publication in the wiki.
 
 ## Key numbers
@@ -87,9 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [c1e2311c5](https://github.com/paleofoundation/heavymetalindex/commit/c1e2311c5) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

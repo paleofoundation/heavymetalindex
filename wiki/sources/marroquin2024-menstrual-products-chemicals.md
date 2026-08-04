@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Marroquin et al. 2024 - menstrual-product chemical review
 
+## Overview
+
 Marroquin et al. systematically reviewed studies that measured environmental chemicals in menstrual products or in biospecimens linked to menstrual-product use. The review is secondary evidence and does not perform new laboratory testing. It is routeable as menstrual-pad and menstrual-tampon occurrence context for non-metal chemicals, but it reports no Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U, organotin, or other heavy-metal analyte values.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [2452c1812](https://github.com/paleofoundation/heavymetalindex/commit/2452c1812) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

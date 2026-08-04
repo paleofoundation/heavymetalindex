@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zhang et al. 2024 - Lettuce cadmium under greenhouse amendment treatments
 
+## Overview
+
 Zhang and colleagues measured cadmium uptake in lettuce grown for one cycle in a Cd-enriched solar greenhouse soil in Shaanxi, China. This is primary lettuce Cd evidence, but it is an intervention trial in contaminated greenhouse soil rather than a retail or ordinary-market occurrence survey. The routeable facts are the dry-sample aboveground lettuce Cd concentrations under deep plowing, soil covering, phosphorus fertilizers, biochar, attapulgite clay, and nano-hydroxyapatite treatments.
 
 ## Key numbers
@@ -135,6 +137,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [011289c72](https://github.com/paleofoundation/heavymetalindex/commit/011289c72) | 2026-06-02 | major | 9 sections added; narrative text revised |

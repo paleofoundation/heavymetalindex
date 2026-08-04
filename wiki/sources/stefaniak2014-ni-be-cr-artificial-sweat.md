@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Stefaniak et al. 2014 — Dissolution of Ni, Be, Cr in artificial sweat for dermal bioaccessibility
 
+## Overview
+
 This Environmental Science: Processes & Impacts paper compares reactant-assisted digestion ("total" or "soluble" mass) vs artificial-sweat extraction (bioaccessible mass) for three metal sensitizers - beryllium metal, nickel metal, and chromium carbide (Cr3C2) - and uses speciated isotope dilution mass spectrometry (SIDMS) to determine Cr-VI vs Cr-III speciation in artificial sweat over time. The work establishes that reactant-assisted digestion overstates bioaccessible (dermal) exposure to all three metals, and that Cr-VI added to artificial sweat decays into Cr-III over hours.
 
 ## Key numbers
@@ -74,9 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [f084ce497](https://github.com/paleofoundation/heavymetalindex/commit/f084ce497) | 2026-05-17 | minor | Narrative text revised |
-| [4e2308ed1](https://github.com/paleofoundation/heavymetalindex/commit/4e2308ed1) | 2026-05-17 | major | 1 section added and 1 removed; narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Braeuer et al. 2022 — Quantitative Hg and Se mapping in porcini and parasol mushrooms by LA-ICP-MS
 
+## Overview
+
 This paper develops and validates a method for spatially resolved, quantitative measurement of Hg and Se in mushroom fruit bodies using laser ablation coupled to ICP-MS (LA-ICP-MS) at pixel sizes down to 5–20 µm. Beyond its methodological contribution, the study provides quantitative bulk Hg and Se concentrations in edible porcini (Boletus edulis, B. aereus, B. pinophilus) and parasol (Macrolepiota procera) mushroom tissue, confirmed against certified reference materials (TORT-3 lobster hepatopancreas, DORM-4 fish protein) using ICP-MS/MS.
 
 Porcini mushrooms are among the most widely consumed wild-harvested edible fungi worldwide and are known to accumulate unusually high Hg concentrations compared to other macrofungi. The study confirms this: Hg in Boletus spp. can reach approximately 20 µg/g dry mass (dm), compared with <0.5 µg/g dm in most other mushroom species. All five porcini individuals showed Hg well above the general macrofungal background. The tolerable weekly intake (TWI) for inorganic Hg is 4 µg/kg body weight per week (EFSA), making high-consumption of porcini a potential route of meaningful Hg exposure. The study also notes that mushroom Hg is predominantly inorganic (>90% inorganic Hg, only minor methylmercury) based on prior literature. Se in porcini is also elevated, at approximately 20 µg/g dm or higher, co-occurring with Hg.
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7c3dcee05](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee05) | 2026-05-13 | major | 4 sections added; narrative text revised |

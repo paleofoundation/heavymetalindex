@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Ahmed et al. (2019) sampled irrigation water, soil, and vegetables at three sites adjacent to a multi-industry zone (textiles, dyeing, garments, pharmaceuticals, ceramics, paint, packaging) in Gazipur District, Bangladesh, comparing dry-season (Nov–Dec 2017) and wet-season (Jun–Jul 2015, drawn from the authors' prior study) concentrations of Cr, Cu, Zn, As, Cd, and Pb. Heavy metal concentrations in irrigation water and vegetables exceeded FAO permissible levels in both seasons, while soil concentrations remained below EU permissible levels in both seasons except for As. Dry-season values were consistently higher than wet-season values across all three media. Hierarchical cluster analysis of metal co-occurrence suggested that vegetable contamination was sourced from irrigation water in the wet season and from soil in the dry season. Bioconcentration factors from soil to vegetable averaged 1.18 for Cd and 0.37 for Zn, indicating high transfer of these metals from soil into edible tissue.
 
 ## Key numbers
@@ -144,8 +146,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a8cffbc9f](https://github.com/paleofoundation/heavymetalindex/commit/a8cffbc9f) | 2026-05-18 | minor | Narrative text revised |
-| [549f39d13](https://github.com/paleofoundation/heavymetalindex/commit/549f39d13) | 2026-05-18 | major | 1 section added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # González-Arqueros et al. 2021 — Morelia closed-dump metals
 
+## Overview
+
 González-Arqueros and colleagues sampled urban solid waste (USW) from eight opencast wells in the closed dump of Morelia, Michoacán, Mexico, to test whether hazardous waste had been illegally co-confined with USW during the dump's 1997-2007 operational life. The closed site sits in the Trans-Mexican Volcanic Belt over a fractured, permeable recharge zone of an overexploited aquifer that supplies water to more than 120,000 people. This is primary environmental solid-waste evidence for metals and arsenic in landfill material, not occurrence evidence for food, ingredients, or consumer products.
 
 ## Key numbers
@@ -134,8 +136,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [0fc71d8fe](https://github.com/paleofoundation/heavymetalindex/commit/0fc71d8fe) | 2026-06-02 | major | 1 section added; narrative text revised |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
-| [fbdb9d1b8](https://github.com/paleofoundation/heavymetalindex/commit/fbdb9d1b8) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

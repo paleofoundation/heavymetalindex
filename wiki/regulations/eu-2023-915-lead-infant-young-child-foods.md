@@ -18,6 +18,8 @@ audience: [regulator, educator, app]
 
 # EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods
 
+## Overview
+
 Commission Regulation (EU) 2023/915 sets enforceable maximum levels for lead in foods placed on the EU market. HMI stores these values in ppb for comparison against FDA action levels, Prop 65 exposure screens, and occurrence findings, while preserving the EU legal basis.
 
 | Product scope | EU lead maximum level | HMI ppb value | Basis |
@@ -44,6 +46,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e18eb986](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb986) | 2026-05-03 | major | 1 source added; contamination-profile values revised; 2 sections added |

@@ -7,7 +7,7 @@ year: 2016
 publication: "International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333"
 source_type: peer-reviewed
 evidence_tier: B
-tier_rationale_b_retained: "International Journal of PharmTech Research is published by SphinxSai, which has appeared on Beall's List of predatory open-access publishers. Per CLAUDE.md Part 13, 'peer-reviewed' is meant to imply substantive peer review; predatory venues do not satisfy that intent. Stays B-tier pending curator decision on whether predatory-venue concern overrides peer-reviewed-in-name status."
+tier_rationale_b_retained: "International Journal of PharmTech Research is published by SphinxSai, which has appeared on Beall's List of predatory open-access publishers. Per, 'peer-reviewed' is meant to imply substantive peer review; predatory venues do not satisfy that intent. Stays B-tier pending curator decision on whether predatory-venue concern overrides peer-reviewed-in-name status."
 no_doi_assigned: true
 no_doi_reason: "International Journal of PharmTech Research (Sphinx Knowledge House Publishers, sphinxsai.com) does not register DOIs through CrossRef; CrossRef returned no record for this article on 2026-05-08."
 raw_path: "raw/Digest/(330-333)V9N5PT.pdf"
@@ -72,6 +72,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d04abbc18](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc18) | 2026-05-08 | major | 1 source added; 6 sections added; narrative text revised |

@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Hamid et al. 2021 — Bacterial plant biostimulants for crop growth, productivity, and health (MDPI Sustainability narrative review)
 
+## Overview
+
 Narrative review of plant growth-promoting rhizobacteria (PGPR) as bacterial plant biostimulants (BPBs) covering five mechanism classes: (i) nutrient acquisition via N₂ fixation and solubilization of P, K, and Zn through organic acids and siderophores; (ii) antimicrobial metabolite and lytic-enzyme production; (iii) phytohormone modulation; (iv) abiotic stress amelioration including drought, salinity, temperature extremes, oxidative stress, and heavy metals; and (v) induction of systemic resistance (SAR, ISR, IST). The paper is primarily an agronomy/sustainable-agriculture review; heavy-metal contamination of food or supply chains is not its scope. Section 3.3.5 ("Heavy Metal Stress," p. 12) contains the entire heavy-metals content: a single qualitative paragraph naming Hg, As, Cd, Pb, and Al as toxic metals that reduce crop productivity, and listing PGPR genera (*Pseudomonas*, *Bacillus*, *Methylobacterium*, *Streptomyces*) reported to mitigate heavy-metal toxicity through chelation, precipitation, complexation, redox reactions, adsorption, and exopolysaccharide-mediated biosorption. Table 3 (pp. 10–11) lists two heavy-metal-stress entries: *Pseudomonas fluorescens* on maize (IAA production) and *Azotobacter chroococcum* on maize (IAA, ammonia, ACC-deaminase production). No measured metal concentrations, no exposure values, no thresholds, no regulatory limits. Evidence tier C; relevant to HMI only as a leads document for the bioremediation/microbiome-and-metals angle.
 
 ## Key numbers
@@ -109,9 +111,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [30763fe03](https://github.com/paleofoundation/heavymetalindex/commit/30763fe03) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

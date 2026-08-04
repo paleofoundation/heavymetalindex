@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Reksten et al. 2021 — Heavy metals in 24 fish species from the Bay of Bengal
 
+## Overview
+
 This study measured tAs, Cd, tHg, and Pb in 1,111 individual fish spanning 24 commercially important species collected from the Bay of Bengal coast in Sri Lanka and Bangladesh. With the largest individual-level sample size yet reported for Bay of Bengal fish metal contamination, it provides robust species-level distributions and a complete health risk assessment including target hazard quotients (THQ), hazard index (HI), and carcinogenic risk estimates. The most notable finding is cadmium: 58% of sampled small fish (body length ≤25 cm) exceeded the EU maximum limit of 0.050 mg/kg for Cd in fish muscle, driven by species that are consumed whole rather than filleted.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [313c29c4c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c4c) | 2026-05-12 | major | 4 sections added; narrative text revised |

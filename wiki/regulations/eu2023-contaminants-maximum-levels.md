@@ -15,6 +15,8 @@ updated: 2026-06-03
 
 # EU Regulation 2023/915 Maximum Levels
 
+## Overview
+
 Commission Regulation (EU) 2023/915 is the EU contaminants maximum-level framework for food. It is binding in its entirety and directly applicable in Member States. For HMI and HMTc, it is an external legal benchmark: it can sit next to field findings, but it is not an HMTc threshold.
 
 The local source PDF is the original Official Journal text. Because EU regulations can be amended, legal users should also check the current EUR-Lex consolidated version before relying on a value in a live dispute or compliance decision. HMI preserves the original PDF hash on [[sources/eu-2023-915-contaminants-maximum-levels]]. The framework has since been amended to add nickel: Commission Regulation (EU) 2024/1987 of 30 July 2024 inserted a full nickel entry (Annex I, point 3.6) into 2023/915, applying from 1 July 2025 (1 July 2026 for cereals). Those levels are reproduced in the Nickel section below and on [[regulations/eu-2024-1987-nickel-maximum-levels]]; their primary source is [[sources/eu-2024-1987-nickel-maximum-levels]].
@@ -151,10 +153,10 @@ That is why this regulation is wired into `data/evidence/regulatory_limits.csv` 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. European Commission (2023). *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*. Official Journal of the European Union. [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915). Regulation, A-tier. [[sources/eu-2023-915-contaminants-maximum-levels|Source record]]
-2. European Commission (2024). *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*. Official Journal of the European Union, L series, 2024/1987 (31.7.2024). [data.europa.eu](http://data.europa.eu/eli/reg/2024/1987/oj). Regulation, A-tier. [[sources/eu-2024-1987-nickel-maximum-levels|Source record]]
+1. [[sources/eu-2023-915-contaminants-maximum-levels|Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006]]<span class="hmi-ref-meta">European Commission · Official Journal of the European Union · 2023 · [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915)</span><span class="hmi-ref-tag">Regulation</span>
+2. [[sources/eu-2024-1987-nickel-maximum-levels|Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs]]<span class="hmi-ref-meta">European Commission · Official Journal of the European Union, L series, 2024/1987 (31.7.2024) · 2024 · [data.europa.eu](http://data.europa.eu/eli/reg/2024/1987/oj)</span><span class="hmi-ref-tag">Regulation</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -164,8 +166,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 3 sections added and 1 removed; narrative text revised |
 | [e1665ee7b](https://github.com/paleofoundation/heavymetalindex/commit/e1665ee7b) | 2026-06-03 | correction | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [66751b45d](https://github.com/paleofoundation/heavymetalindex/commit/66751b45d) | 2026-05-02 | major | 1 source added; contamination-profile values revised; 5 sections added |
 <!-- END: hmi-page-history -->

@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4013a708944fe13c7793a2fe2ee58ec3d4d46138fab6cc265998d99cf065114f
+source_page_sha256: e23648ef17aa6351b8fdb7075ad9cabe0edc448ac7ced595d740c51ddb7ebfda
 total_claims: 88
 cited_claims: 88
 uncited_claims: 0
-distinct_cited_targets: 109
-distinct_cited_sources: 104
+distinct_cited_targets: 148
+distinct_cited_sources: 143
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 22
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 88 |
 | cited claims | 88 |
 | uncited claims | 0 |
-| distinct cited targets | 109 |
-| distinct cited `sources/` pages | 104 |
+| distinct cited targets | 148 |
+| distinct cited `sources/` pages | 143 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 22 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 
@@ -918,7 +918,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2550 ppb`
 - Context: `8 | 2016 | Government report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), t`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -927,7 +927,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -937,21 +949,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -1045,6 +1111,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -1073,6 +1141,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -1083,13 +1155,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1108,7 +1186,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11 ppb`
 - Context: `rnment report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -1117,7 +1195,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -1127,21 +1217,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -1235,6 +1379,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -1263,6 +1409,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -1273,13 +1423,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1298,7 +1454,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.6 ppb`
 - Context: `| UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -1307,7 +1463,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -1317,21 +1485,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -1425,6 +1647,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -1453,6 +1677,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -1463,13 +1691,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1487,8 +1721,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `7 ppb`
-- Context: `sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 69 | [[`
-- Cited targets (93):
+- Context: `sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 106 | [`
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -1497,7 +1731,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -1507,21 +1753,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -1615,6 +1915,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -1643,6 +1945,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -1653,13 +1959,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1677,8 +1989,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `200 ppb`
-- Context: `category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 69 | [[sources/pacq`
-- Cited targets (93):
+- Context: `category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 106 | [[sources/pac`
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -1687,7 +1999,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -1697,21 +2021,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -1805,6 +2183,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -1833,6 +2213,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -1843,13 +2227,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1868,7 +2258,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `756 ppb`
 - Context: `viewed | Al in UK powdered infant formulas including 2 soy-powder products; 656–756 ppb prepared estimate from powder fo`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -1877,7 +2267,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -1887,21 +2289,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -1995,6 +2451,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -2023,6 +2481,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -2033,13 +2495,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2058,7 +2526,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/L`
 - Context: `viewed | tAs in soy toddler formula with organic brown rice syrup (1.5–2.5× the 10 µg/L drinking-water standard); highli`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -2067,7 +2535,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -2077,21 +2557,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -2185,6 +2719,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -2213,6 +2749,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -2223,13 +2763,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2248,7 +2794,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `18.3 ppb`
 - Context: `on and Analysis | 2012 | Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy ba`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -2257,7 +2803,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -2267,21 +2825,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -2375,6 +2987,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -2403,6 +3017,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -2413,13 +3031,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2438,7 +3062,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `30.5 ppb`
 - Context: `| Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy basket higher than milk-f`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -2447,7 +3071,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -2457,21 +3093,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -2565,6 +3255,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -2593,6 +3285,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -2603,13 +3299,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2627,8 +3329,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `1461 ppb`
-- Context: `formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 86 | [[sources`
-- Cited targets (93):
+- Context: `formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 125 | [[source`
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -2637,7 +3339,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -2647,21 +3361,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -2755,6 +3523,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -2783,6 +3553,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -2793,13 +3567,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2818,7 +3598,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `629 ppb`
 - Context: `trics | 2010 | Peer-reviewed | Al in UK infant formulas including 1 soy powder; 629 ppb prepared estimate for the soy po`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -2827,7 +3607,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -2837,21 +3629,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -2945,6 +3791,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -2973,6 +3821,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -2983,13 +3835,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -3007,8 +3865,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `2270 ppb`
-- Context: `nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 91 | [[sourc`
-- Cited targets (93):
+- Context: `nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 130 | [[sour`
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -3017,7 +3875,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -3027,21 +3897,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -3135,6 +4059,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -3163,6 +4089,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -3173,13 +4103,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -3197,8 +4133,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `2720 ppb`
-- Context: `dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 91 | [[sources/jecfa-67th-`
-- Cited targets (93):
+- Context: `dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 130 | [[sources/jecfa-67th`
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -3207,7 +4143,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -3217,21 +4165,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -3325,6 +4327,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -3353,6 +4357,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -3363,13 +4371,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -3388,7 +4402,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `35 ppb`
 - Context: `oy-base infant formula Cd distribution (n=15: mean 13.3, median 12.0, range 1.1–35 ppb) | <!-- END: hmi-source-legend --`
-- Cited targets (93):
+- Cited targets (132):
   - `wiki/sources/alfaraji2023-infant-formula-baghdad-minerals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
@@ -3397,7 +4411,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` (page missing)
     - audit rows: none
@@ -3407,21 +4433,75 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-craig-t-martin-department-head\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
@@ -3515,6 +4595,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` (page missing)
     - audit rows: none
   - `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` (page missing)
@@ -3543,6 +4625,10 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
@@ -3553,13 +4639,19 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
     - audit rows: none
   - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -3691,19 +4783,52 @@ _All claims trace to at least one cited source._
 | `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` | sources | 0 | — | — |
+| `wiki/sources/article2026-packaging-for-whole-milk-powder-and-infant\.md` | sources | 0 | — | — |
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2017-assessment-of-human-dietary-exposure-to-arsenic-through\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2018-regarding-pfos-and-pfoa-occurrence-the-final-data\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2018-review-nutritional-ecology-of-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2019-lead-chambers-of-installations-reddish-sediment-was-obtained\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2020-bioavailability-of-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-crm-rapid-response-approach-for-the-certification-of\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-benefits-toxicity-and-pathologies\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-janet-m-roseland-judith-h-spungen2-kristine-y\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-jppt-infant-nutrition-survey\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-all-infants-up-to-the-age-of-6\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-determination-of-heavy-metal-ions-in-infant-milk\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-introduction-drinking-water-contaminated-with-heavy-metals-like\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2023-oxidation-of-infant-formula-powder\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-association-between-prenatal-dietary-toxicants-and-infant\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-is-an-urgent-issue-3-mcpd-and-ge\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-seafood-toxicant-exposure-during-pregnancy-lactation-and\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2024-the-genotoxicity-studies-carried-out-on-fcm-no\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-a-method-has-been-developed-and-validated-for\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-complementary-foods-in-infants-an-in-vitro-study\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-setac-europe-35-th-annual-meeting\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-the-presence-of-fungal-species-fungal-loads-mycotoxins\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-craig-t-martin-department-head\.md` | sources | 0 | — | — |
 | `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a\.md` | sources | 0 | — | — |
+| `wiki/sources/authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/barca2023-a-comprehensive-review-on-infant\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2020-aluminium-faq-consumer-products\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
@@ -3758,6 +4883,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` | sources | 0 | — | — |
 | `wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` | sources | 0 | — | — |
+| `wiki/sources/july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods\.md` | sources | 0 | — | — |
 | `wiki/sources/kazi2009-toxic-elements-in-infant-formulae.md` | sources | 0 | — | — |
 | `wiki/sources/kazi2009-toxic-elements-in-infant-formulae\.md` | sources | 0 | — | — |
 | `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` | sources | 0 | — | — |
@@ -3773,17 +4899,22 @@ _All claims trace to at least one cited source._
 | `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/mielech2021-contamination-food-infants-toddlers\.md` | sources | 0 | — | — |
 | `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/occurrence2026-heavy-metals-in-infant-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` | sources | 0 | — | — |
 | `wiki/sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\.md` | sources | 0 | — | — |
 | `wiki/sources/pandelova2012-eu-baby-food-formula-elements.md` | sources | 0 | — | — |
 | `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/rothstein2021-vulnerable-families-and-costly-formula-a\.md` | sources | 0 | — | — |
 | `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` | sources | 0 | — | — |
+| `wiki/sources/shawahna2023-breastmilk-cadmium-levels-and-estimated\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
 | `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/state2021-health-risk-evaluation-of-selected-heavy-metals-in\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` | sources | 0 | — | — |

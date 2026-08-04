@@ -25,6 +25,8 @@ updated: 2026-05-26
 
 # Liu et al. 2022 - Cadmium and arsenic co-accumulation in South China rice
 
+## Overview
+
 This field study measured cadmium and arsenic species in brown rice grains from 208 rice cultivars grown in South China. It is useful for rice occurrence and cultivar-screening context because the paper reports ranges, means, medians, exceedance rates, and arsenic speciation in the edible grain.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d9d380dc](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380dc) | 2026-05-26 | major | 5 sections added; narrative text revised |

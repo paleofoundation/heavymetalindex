@@ -29,6 +29,8 @@ updated: 2026-06-08
 
 # Amarh et al. 2023 — Ghana Infant Food Heavy Metals
 
+## Overview
+
 Amarh and colleagues measured eight metals in 22 locally and internationally produced infant formula and baby-food samples purchased from markets and baby-care centers in Wa, Ghana. The study used ICP-MS after acid digestion and reported sample-level concentrations in mg/kg, plus EDI, THQ, HI, and cancer-risk calculations for infants aged 6-12 months. The occurrence finding is broad infant-food/formula evidence: the paper does not provide enough product-code decoding in the extracted text to assign each sample to a specific formula, cereal, puree, snack, or mixed-meal row. The paper reports total metals only; it does not distinguish inorganic arsenic, methylmercury, or Cr-VI.
 
 ## Key numbers
@@ -80,9 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [94b95d8c1](https://github.com/paleofoundation/heavymetalindex/commit/94b95d8c1) | 2026-06-09 | minor | Narrative text revised |
 | [8a682f8af](https://github.com/paleofoundation/heavymetalindex/commit/8a682f8af) | 2026-06-08 | major | 1 source removed; 3 sections added and 5 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9a3fa9ddf](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9ddf) | 2026-04-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

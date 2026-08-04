@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Martinez-Morata et al. 2022 — County-level arsenic and uranium in US public drinking water by racial/ethnic composition
 
+## Overview
+
 This Nature Communications paper reports a nationwide geospatial analysis of US county-level community water system (CWS) arsenic and uranium concentrations from EPA compliance monitoring data, evaluating associations with county racial/ethnic composition. The study provides the most comprehensive available distribution of arsenic and uranium concentrations in US public drinking water for the 2000–2011 period. Nationwide, the county-level mean CWS arsenic concentration was 1.42 µg/L (SD 2.22), and uranium was 3.45 µg/L (SD 6.85). The study found that higher proportions of Hispanic/Latino and American Indian/Alaskan Native residents were significantly associated with higher CWS arsenic and uranium concentrations at the county level, with High-High spatial autocorrelation clusters concentrated in the Midwest and Southwest.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6edd24b09](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b09) | 2026-05-13 | major | 4 sections added; narrative text revised |

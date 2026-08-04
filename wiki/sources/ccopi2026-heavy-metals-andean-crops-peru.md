@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ccopi et al. 2026 — Heavy metal bioaccumulation in Peruvian Andean crops: irrigated vs rainfed systems
 
+## Overview
+
 This study assessed concentrations and bioaccumulation factors (BAF) for 11 heavy metals (Cd, Pb, As, Cr, Hg, Ni, Cu, Zn, Mn, Fe, Mo) in 88 soil samples, 88 foliar samples from seven crop types (potato, broad bean/Vicia faba, maize, quinoa, barley, carrot, alfalfa), and 42 surface water samples collected in the Mantaro Valley (Junín Department, Peru) in February–March 2023, comparing irrigated and rainfed agricultural systems. The valley has a long history of contamination from mining, industrial, and urban discharges into the Mantaro River. Irrigated soils had higher and more homogeneous Cd, Pb, and As concentrations than rainfed soils. Several crops exceeded Codex Alimentarius limits for Cd, Pb, and As — especially potato and broad bean. Quinoa, broad bean, and potato showed BAF > 1 for Cd, Zn, and Mn, indicating active accumulation.
 
 ## Key numbers
@@ -88,6 +90,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

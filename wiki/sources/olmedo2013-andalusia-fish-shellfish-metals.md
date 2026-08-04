@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Olmedo 2013 - Andalusia fish and shellfish metals
 
+## Overview
+
 Olmedo and colleagues measured mercury, cadmium, lead, arsenic, and tin in fresh, canned, and frozen fish and shellfish products commonly consumed in Andalusia, Spain. The study analyzed `485` samples, reported medians with 5th and 95th percentiles in `mg/kg wet weight`, and performed methylmercury speciation in the high-total-mercury predatory fish subset. Arsenic was measured as total arsenic, not inorganic arsenic.
 
 ## Key numbers
@@ -111,7 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [e432f38eb](https://github.com/paleofoundation/heavymetalindex/commit/e432f38eb) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

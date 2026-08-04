@@ -130,6 +130,8 @@ updated: 2026-06-09
 # FDA 2022 - TDS Elements Analytical Results FY2018-FY2020
 
 
+## Overview
+
 FDA's FY2018-FY2020 Total Diet Study elements dataset reports 29,148 analytical-result rows across 90 prepared TDS foods, 24 analytes, fiscal years 2018-2020, and calendar years 2017-2020. The accompanying FDA key defines the twelve columns in the CSV, including fiscal year, calendar year, collection, TDS food number and description, season, food-list type, region, analyte, units, concentration, and reporting limit. The raw CSV and key PDF are retained as audit artifacts, and the normalized rows are written to `data/evidence/fda_tds_fy2018_2020_element_results_samples.csv`.
 
 ## Why this is critical
@@ -295,9 +297,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [a6ae025b0](https://github.com/paleofoundation/heavymetalindex/commit/a6ae025b0) | 2026-06-09 | minor | Narrative text revised |
 | [aea8a1e1b](https://github.com/paleofoundation/heavymetalindex/commit/aea8a1e1b) | 2026-06-02 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [20add894b](https://github.com/paleofoundation/heavymetalindex/commit/20add894b) | 2026-05-08 | major | 1 section removed |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Krasnopyorova et al. 2025 — Trace elements in drinking water, Almaty, Kazakhstan
 
+## Overview
+
 This study characterizes the trace element composition of drinking water in Almaty, Kazakhstan (78 samples, 24 elements) using ICP-MS, with seasonal sampling in 2023. Elements measured include As, Cd, Pb, Ni, U, Hg, Al, Cr, Fe, Mn, Zn, and Cu, among others. The study provides baseline concentration data for a Central Asian metropolitan area and compares measured values against WHO and Kazakh national drinking water standards.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

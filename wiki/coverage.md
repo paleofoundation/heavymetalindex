@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-06-23
+updated: 2026-08-04
 noindex: false
 ---
 
@@ -12,42 +12,42 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-06-23** from the current state of the corpus.
+This page was regenerated on **2026-08-04** from the current state of the corpus.
 
 The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 
 ## Literature search flow (PRISMA-equivalent)
 
 ```
-  Identification: 23,260 papers triaged from the literature search
-         │
-         │  Triage tiers (priority bands):
-         │    P1: 42
-         │    P2: 488
-         │    P3: 18
-         │    P4: 6,571
-         │    P5: 16,141
-         ▼
-  Screening:      Papers triaged for ingest priority
-         │
-         │  Papers from year ≥ 2020: 14,343
-         ▼
-  Eligibility:    2005 source pages currently in wiki/sources/
-         │
-         │    evidence_tier A: 1420
-         │    evidence_tier A-tier: 1
-         │    evidence_tier B: 482
-         │    evidence_tier C: 101
-         │    evidence_tier unknown: 1
-         ▼
-  Included:       Source pages routed to destination pages
-         │
-         │  Routing rows in product_source_routing_audit.csv: 4272
-         ▼
-  Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
+ Identification: 23,260 papers triaged from the literature search
+ │
+ │ Triage tiers (priority bands):
+ │ P1: 42
+ │ P2: 488
+ │ P3: 18
+ │ P4: 6,571
+ │ P5: 16,141
+ ▼
+ Screening: Papers triaged for ingest priority
+ │
+ │ Papers from year ≥ 2020: 14,343
+ ▼
+ Eligibility: 3021 source pages currently in wiki/sources/
+ │
+ │ evidence_tier A: 1455
+ │ evidence_tier A-tier: 1
+ │ evidence_tier B: 1461
+ │ evidence_tier C: 103
+ │ evidence_tier unknown: 1
+ ▼
+ Included: Source pages routed to destination pages
+ │
+ │ Routing rows in product_source_routing_audit.csv: 6516
+ ▼
+ Synthesized: Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 2005 have been promoted to source pages — 8.6% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 3021 have been promoted to source pages — 13.0% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -55,21 +55,21 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 2005 |
+| Source pages | 3021 |
 | Ingredient profiles | 257 |
 | Product-category rows (total) | 414 |
 | Product-category rows (non-stub, has scaffold or content) | 142 |
 | Metal profiles | 36 |
-| Regulation pages | 62 |
+| Regulation pages | 64 |
 | Mitigation pages | 7 |
 | Microbiome pages | 1 |
 | Testing-method pages | 2 |
 
 ## HMTc Taxonomy v2.0 coverage
 
-Total subcategories defined by the taxonomy: **356**.  Pages scaffolded or content-filled against the taxonomy: **347** (97%).
+Total subcategories defined by the taxonomy: **356**. Pages scaffolded or content-filled against the taxonomy: **347** (97%).
 
-Of the 347 matched: 339 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 8 are matched by slug-alias to legacy pages (frontmatter needs backfill).  Pages still to be created: **0**.
+Of the 347 matched: 339 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 8 are matched by slug-alias to legacy pages (frontmatter needs backfill). Pages still to be created: **0**.
 
 | Cat | Name | Total | Exact | By alias | Missing | Coverage |
 |----:|------|------:|------:|---------:|--------:|---------:|
@@ -113,7 +113,7 @@ Every taxonomy subcategory has a destination page on the wiki. Source-page decla
 
 ## Why this page matters
 
-Cochrane systematic reviews open with a PRISMA flow diagram because the defensibility of every downstream claim depends on the reader understanding what was searched, what was screened, what was included, and on what grounds. The wiki's defensibility argument (CLAUDE.md Part 1) rests on the same property: any hostile reader — a plaintiff's expert, a regulatory reviewer, a competing standards body — must be able to see the universe the wiki is accountable to, not just the slice it has published.
+Cochrane systematic reviews open with a PRISMA flow diagram because the defensibility of every downstream claim depends on the reader understanding what was searched, what was screened, what was included, and on what grounds. The wiki's defensibility argument rests on the same property: any hostile reader — a plaintiff's expert, a regulatory reviewer, a competing standards body — must be able to see the universe the wiki is accountable to, not just the slice it has published.
 
 Naming the gap is the work. The gap is not the failure mode; the failure mode is the gap being invisible.
 

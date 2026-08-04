@@ -25,7 +25,7 @@ updated: 2026-06-09
 > **v2.2 Step Zero scaffold — Category 31 (Sweeteners and Syrups), Row 3.** New row from the Cat 7
 > dissolution (`docs/governance/category-7-dissolution-step0-event.md`); carries **no candidate values**
 > yet. Routing destination; sources populate it as ingest proceeds, then synthesis fills the evidence
-> sections per CLAUDE.md Part 9.
+> sections.
 
 ## Literature scope
 
@@ -43,6 +43,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [08c8f8330](https://github.com/paleofoundation/heavymetalindex/commit/08c8f8330) | 2026-06-09 | major | 2 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

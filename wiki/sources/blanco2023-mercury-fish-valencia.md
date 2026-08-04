@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Blanco et al. 2023 — Mercury in fish, Valencian Community, Spain, 2011–2017
 
+## Overview
+
 This retrospective descriptive study analysed total mercury (THg) and methylmercury (MeHg) concentrations in 635 fish and seafood samples collected under the Generalitat Valenciana's official food health surveillance programme between 2011 and 2017. Across all species and years, the median THg was 0.20 mg/kg wet weight and the median MeHg was 0.14 mg/kg wet weight. Swordfish/emperor (Xiphias gladius) was the highest-contaminated group (median THg 0.80 mg/kg), with 31.8% of swordfish samples exceeding the EU legal limit of 1 mg/kg; fresh tuna/albacore (median 0.46 mg/kg) and canned tuna (median 0.25 mg/kg) ranked second and third. Adjusted for the variable annual sampling weight of high-mercury species, the overall temporal trend was downward for THg; within swordfish specifically, THg declined approximately 7% per year. Mediterranean-origin fish showed higher THg than Atlantic- or Pacific-origin fish.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fdf16f91c](https://github.com/paleofoundation/heavymetalindex/commit/fdf16f91c) | 2026-05-13 | major | 4 sections added; narrative text revised |

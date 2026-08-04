@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Holbert et al. 2023 — Mercury in Hawaiian recreational fish
 
+## Overview
+
 Holbert and colleagues measured total mercury (THg) in muscle, liver, and kidney tissues of four nearshore recreational fish species commonly caught around O'ahu, Hawai'i: giant trevally, bluefin trevally, and two species of bonefish. The study compared THg to FDA and EPA consumption advisory benchmarks. Both bonefish species had mean muscle THg exceeding FDA/EPA benchmarks, suggesting consumption advisories should be considered. The authors also evaluated metallothionein (MET) and thioredoxin reductase (TrxR) mRNA expression as molecular biomarkers of mercury exposure, finding that MET expression in round jaw bonefish kidney tissue showed a marginally significant positive correlation with kidney THg.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e307b9560](https://github.com/paleofoundation/heavymetalindex/commit/e307b9560) | 2026-05-13 | major | 4 sections added; narrative text revised |

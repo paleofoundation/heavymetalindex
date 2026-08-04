@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Muntean et al. 2024 - elemental content of alternative aquaculture protein flours
 
+## Overview
+
 Muntean and colleagues evaluated animal- and plant-derived protein flours as alternative ingredients for fish nutrition, including spent coffee grounds and other food-industry by-products. The study reports elemental composition for each flour type, including aluminum, nickel, total arsenic, cadmium, and lead; these are feed-ingredient and supply-chain values, not finished coffee or fish occurrence values.
 
 ## Key numbers
@@ -72,7 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 | [848c2074e](https://github.com/paleofoundation/heavymetalindex/commit/848c2074e) | 2026-06-09 | minor | Narrative text revised |
-| [a1c622721](https://github.com/paleofoundation/heavymetalindex/commit/a1c622721) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

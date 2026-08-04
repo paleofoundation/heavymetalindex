@@ -31,6 +31,8 @@ updated: 2026-05-19
 
 # Rusin et al. 2021 — Cd and Pb across fresh, frozen, dried, and processed Polish fruits and vegetables
 
+## Overview
+
 Rusin and colleagues measured cadmium and lead in 370 retail samples of six fruit species (apple, cranberry, grape, pear, raspberry, strawberry) and four vegetable species (beetroot, celery, carrot, tomato) sourced from the Polish market, partitioned across four processing states (fresh, frozen, dried, processed). Concentrations were determined by graphite-furnace atomic absorption spectrometry against the TYG006RM vegetable-puree certified reference material under ISO/IEC 17025 conditions. Mean concentrations of both metals were highest in dried products on a dry-weight basis, and twelve samples (2 fruit, 10 vegetable) exceeded the EU Cd maximum permissible level while three vegetable samples exceeded the EU Pb maximum, with a single frozen tomato reaching 1074% of the 0.050 mg/kg Pb limit.
 
 ## Key numbers
@@ -194,8 +196,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [550d2caf8](https://github.com/paleofoundation/heavymetalindex/commit/550d2caf8) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
-| [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

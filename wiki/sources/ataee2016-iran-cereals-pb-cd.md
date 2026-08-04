@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Ataee et al. 2016 — Pb and Cd in Kermanshah-market cereals and pulses by MA-DLLME-SFO/GFAAS
 
+## Overview
+
 This methodological-validation study reports total Pb and Cd in seven Iranian cereal and pulse commodities — rice, wheat, barley, peas, beans, corn, and lentil — purchased from three local markets in Kermanshah province (West Iran) and quantified by graphite-furnace atomic absorption spectrometry after microwave-assisted dry ashing and a dispersive liquid–liquid microextraction step based on solidification of a floating organic drop (MA-DLLME-SFO). Pb concentrations in every rice and wheat sample across all three markets exceeded the WHO maximum allowable level for cereals (0.2 mg/kg) cited by the authors, ranging from 202 to 320 µg/kg in rice and 202 to 267 µg/kg in wheat. Cd was elevated above the WHO 0.1 mg/kg ceiling only in Market 1 rice (108 µg/kg). Method validation against two Chinese reference cereals (NCS ZC 73,008 rice and 73,009 wheat) returned recoveries within ~3 % of certified values.
 
 ## Key numbers
@@ -147,6 +149,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [e1862497c](https://github.com/paleofoundation/heavymetalindex/commit/e1862497c) | 2026-06-01 | major | 5 sections added; narrative text revised |

@@ -91,29 +91,7 @@ created_routed_sources: 9
 
 # Lettuce
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 6/10 HMTc analytes, total n=32 | labeled data-gaps: iAs, Sn |
-| D2 Regional coverage | OK | 18 jurisdictions, top IR 17% | — |
-| D3 Anthropogenic evidence | GAP | 3 soil + 2 agricultural-soil + 1 irrigation-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, tHg THIN, Ni POOLABLE, Al THIN, Cr POOLABLE | tHg: needs 1 more study(ies); Al: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 5 claims checked, 5 supported; 7 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Al, Cr; pairing 0 paired, 7 single, 0 unpaired | tHg: THIN, needs 1 more study(ies); Al: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Lettuce (Lactuca sativa) is the most-consumed leafy vegetable globally and a frequent target of heavy-metals surveys because it sits at the intersection of three exposure variables: short growing cycle, high water content (making it an efficient transpiration-driven metal carrier), and frequent urban or peri-urban siting. Within the leafy-vegetable category ([[ingredients/leafy-vegetables]]), lettuce is one of the lower-Cd accumulators relative to spinach and amaranth, but it remains a meaningful Pb and Cd source in retail dietary surveys. The current corpus loads 9 sources spanning Iran (Behbahan probabilistic risk modeling), South Africa (Johannesburg roadside-vs-store comparison), Ghana (Kumasi anthropogenic-activity sites), Spain (Andalusia urban gardens), Ecuador (mining-influenced farmland), Burkina Faso (arsenic-irrigated vegetables), Hungary (developmental-stage uptake mechanism), and a Cd-mitigation systematic review.
 
@@ -183,21 +161,21 @@ The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 7 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Adhikari S and Struwig M (2024). *Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa*. [https://doi.org/10.1007/s10661-023-12343-4](https://doi.org/10.1007/s10661-023-12343-4). Peer-reviewed, A-tier. [[sources/adhikari2024-leafy-vegetables-johannesburg|Source record]]
-2. Owusu Adoma M, Nyarko G, Boateng A, and Darko G (2024). *Assessment of Heavy Metal Contamination in Lettuce and Spring Onion Cultivated at Anthropogenic Activity Sites in the Kumasi Metropolis, Ghana*. Environmental Health Insights. [https://doi.org/10.1177/11786302241285737](https://doi.org/10.1177/11786302241285737). Peer-reviewed, A-tier. [[sources/owusuadoma2024-ghana-lettuce-metals|Source record]]
-3. Rossini-Oliva S and López Nuñez R (2024). *Is it healthy urban agriculture? Human exposure to potentially toxic elements in urban gardens from Andalusia, Spain*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-024-33500-w](https://doi.org/10.1007/s11356-024-33500-w). Peer-reviewed, A-tier. [[sources/rossini-oliva2024-urban-garden-vegetables-spain|Source record]]
-4. Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, et al. (2023). *Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-30615-w](https://doi.org/10.1007/s11356-023-30615-w). Peer-reviewed, A-tier. [[sources/sandil2023-arsenic-bean-lettuce|Source record]]
-5. Armand R, Rafati L, Mohammadi H, and Armand N (2026). *Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation*. Scientific Reports. [https://doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w). Peer-reviewed, A-tier. [[sources/armand2026-lettuce-cabbage-behbahan|Source record]]
-6. Clair-Caliot G, Marks SJ, Hug SJ, Bretzler A, N'guessan ND, Tihe SFK, et al. (2021). *Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso*. Frontiers in Water. [https://doi.org/10.3389/frwa.2021.667308](https://doi.org/10.3389/frwa.2021.667308). Peer-reviewed, A-tier. [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina|Source record]]
-7. Schaefer HR, Dennis S, and Fitzpatrick S (2020). *Cadmium: Mitigation strategies to reduce dietary exposure*. Journal of Food Science. [https://doi.org/10.1111/1750-3841.14997](https://doi.org/10.1111/1750-3841.14997). Review, A-tier. [[sources/schaefer2020-cadmium-mitigation-strategies|Source record]]
+1. [[sources/adhikari2024-leafy-vegetables-johannesburg|Concentrations and health risks of selected elements in leafy vegetables: a comparison between roadside open-air markets and large stores in Johannesburg, South Africa]]<span class="hmi-ref-meta">Adhikari S and Struwig M · 2024 · [doi.org/10.1007/s10661-023-12343-4](https://doi.org/10.1007/s10661-023-12343-4)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/owusuadoma2024-ghana-lettuce-metals|Assessment of Heavy Metal Contamination in Lettuce and Spring Onion Cultivated at Anthropogenic Activity Sites in the Kumasi Metropolis, Ghana]]<span class="hmi-ref-meta">Owusu Adoma M, Nyarko G, Boateng A, and Darko G · Environmental Health Insights · 2024 · [doi.org/10.1177/11786302241285737](https://doi.org/10.1177/11786302241285737)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/rossini-oliva2024-urban-garden-vegetables-spain|Is it healthy urban agriculture? Human exposure to potentially toxic elements in urban gardens from Andalusia, Spain]]<span class="hmi-ref-meta">Rossini-Oliva S and López Nuñez R · Environmental Science and Pollution Research · 2024 · [doi.org/10.1007/s11356-024-33500-w](https://doi.org/10.1007/s11356-024-33500-w)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/sandil2023-arsenic-bean-lettuce|Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages]]<span class="hmi-ref-meta">Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, et al. · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-30615-w](https://doi.org/10.1007/s11356-023-30615-w)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/armand2026-lettuce-cabbage-behbahan|Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation]]<span class="hmi-ref-meta">Armand R, Rafati L, Mohammadi H, and Armand N · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-40958-w](https://doi.org/10.1038/s41598-026-40958-w)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina|Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso]]<span class="hmi-ref-meta">Clair-Caliot G, Marks SJ, Hug SJ, Bretzler A, N'guessan ND, Tihe SFK, et al. · Frontiers in Water · 2021 · [doi.org/10.3389/frwa.2021.667308](https://doi.org/10.3389/frwa.2021.667308)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/schaefer2020-cadmium-mitigation-strategies|Cadmium: Mitigation strategies to reduce dietary exposure]]<span class="hmi-ref-meta">Schaefer HR, Dennis S, and Fitzpatrick S · Journal of Food Science · 2020 · [doi.org/10.1111/1750-3841.14997](https://doi.org/10.1111/1750-3841.14997)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -237,9 +215,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 6 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

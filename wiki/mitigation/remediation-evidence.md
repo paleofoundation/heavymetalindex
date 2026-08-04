@@ -8,6 +8,8 @@ updated: 2026-05-31
 
 # Remediation evidence: drivers and interventions
 
+## Overview
+
 This page is generated from the remediation register. It captures what the literature reports about the factors and practices that raise or lower heavy-metal contamination in food crops, anywhere across the supply chain, so the intelligence informs remediation plans and sourcing analysis rather than being discarded once a food concentration is recorded. It serves the program's first governing principle, driving contamination down through reformulation and sourcing improvement.
 
 Evidence is graded. A-tier findings rest on replicated field trials, systematic reviews, or official codes of practice. B-tier findings rest on a single field study or a strong controlled experiment. C-tier entries are leads, observational correlations or single mechanism studies, and each carries the controlled comparison that would confirm it. A lead is retained intelligence, not a recommendation; the distinction is what keeps it usable. Soil and water concentrations described here are drivers of food contamination and are never substituted for measured food concentrations. The structured form of this evidence is published at [/static/remediation.json](/static/remediation.json).
@@ -96,13 +98,13 @@ See also [[mitigation/agronomic]], [[supply-chain/soil-to-plant-transfer]].
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Blommaert H, Ruttens A, Wannijn J, Thijs S, Vangronsveld J, Smolders E, et al. (2022). *Cadmium translocation from soil to cacao bean: Isotope fractionation as a tool to assess plant compartmentalization and uptake mechanisms*. Frontiers in Plant Science. [https://doi.org/10.3389/fpls.2022.1055912](https://doi.org/10.3389/fpls.2022.1055912). Peer-reviewed, A-tier. [[sources/blommaert2022-cd-cacao-translocation|Source record]]
-2. Cao X, Sun L, Ren Y, Zhang Y, Zhao W, Wang H, et al. (2023). *EPS-producing bacteria reduce lead accumulation in edible pakchoi under soil lead contamination*. Frontiers in Microbiology. [https://doi.org/10.3389/fmicb.2023.1117312](https://doi.org/10.3389/fmicb.2023.1117312). Peer-reviewed, A-tier. [[sources/cao2023-lead-pakchoi-eps-bacteria|Source record]]
-3. Guo Y, Zhao X, Zhang J, Yang H, Chu G, Zhang C, et al. (2024). *Effects of wollastonite and phosphate treatments on cadmium bioaccessibility and health risk in pak choi (Brassica rapa ssp. chinensis) grown in contaminated soil*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1337996](https://doi.org/10.3389/fnut.2024.1337996). Peer-reviewed, A-tier. [[sources/guo2024-cadmium-bioaccessibility-pak-choi|Source record]]
-4. Hossain M Z, Islam M A, Islam M A, and Kibria K Q (2024). *Effects of soil pH and organic matter on the accumulation of cadmium in the grains of salt tolerant rice genotypes grown in Cd contaminated soil*. Khulna University Studies. [https://doi.org/10.53808/kus.2024.21.01.1133-ls](https://doi.org/10.53808/kus.2024.21.01.1133-ls). Peer-reviewed, A-tier. [[sources/hossain2024-rice-cadmium-soil-ph|Source record]]
-5. Begum M, Li L, Young E, Carey M, Meharg AA, Meharg C, et al. (2024). *Fertilization Enhances Grain Inorganic Arsenic Assimilation in Rice*. Exposure and Health. [https://doi.org/10.1007/s12403-023-00563-y](https://doi.org/10.1007/s12403-023-00563-y). Peer-reviewed, A-tier. [[sources/begum2024-rice-fertilization-arsenic|Source record]]
+1. [[sources/blommaert2022-cd-cacao-translocation|Cadmium translocation from soil to cacao bean: Isotope fractionation as a tool to assess plant compartmentalization and uptake mechanisms]]<span class="hmi-ref-meta">Blommaert H, Ruttens A, Wannijn J, Thijs S, Vangronsveld J, Smolders E, et al. · Frontiers in Plant Science · 2022 · [doi.org/10.3389/fpls.2022.1055912](https://doi.org/10.3389/fpls.2022.1055912)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/cao2023-lead-pakchoi-eps-bacteria|EPS-producing bacteria reduce lead accumulation in edible pakchoi under soil lead contamination]]<span class="hmi-ref-meta">Cao X, Sun L, Ren Y, Zhang Y, Zhao W, Wang H, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1117312](https://doi.org/10.3389/fmicb.2023.1117312)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/guo2024-cadmium-bioaccessibility-pak-choi|Effects of wollastonite and phosphate treatments on cadmium bioaccessibility and health risk in pak choi (Brassica rapa ssp. chinensis) grown in contaminated soil]]<span class="hmi-ref-meta">Guo Y, Zhao X, Zhang J, Yang H, Chu G, Zhang C, et al. · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1337996](https://doi.org/10.3389/fnut.2024.1337996)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/hossain2024-rice-cadmium-soil-ph|Effects of soil pH and organic matter on the accumulation of cadmium in the grains of salt tolerant rice genotypes grown in Cd contaminated soil]]<span class="hmi-ref-meta">Hossain M Z, Islam M A, Islam M A, and Kibria K Q · Khulna University Studies · 2024 · [doi.org/10.53808/kus.2024.21.01.1133-ls](https://doi.org/10.53808/kus.2024.21.01.1133-ls)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/begum2024-rice-fertilization-arsenic|Fertilization Enhances Grain Inorganic Arsenic Assimilation in Rice]]<span class="hmi-ref-meta">Begum M, Li L, Young E, Carey M, Meharg AA, Meharg C, et al. · Exposure and Health · 2024 · [doi.org/10.1007/s12403-023-00563-y](https://doi.org/10.1007/s12403-023-00563-y)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -112,7 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added; narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 4 sources added; 4 sections added; narrative text revised |
-| [63d2820a0](https://github.com/paleofoundation/heavymetalindex/commit/63d2820a0) | 2026-05-31 | major | 1 source added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

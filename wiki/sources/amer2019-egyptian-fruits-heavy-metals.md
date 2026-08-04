@@ -28,6 +28,8 @@ updated: 2026-05-20
 
 # Amer et al. 2019 — Heavy metal exposure assessment in Egyptian apples, grapes, and oranges
 
+## Overview
+
 This study measured Pb, Cd, Cr, Cu, and Ni concentrations in 108 fresh fruit samples (apples, grapes, oranges; 36 per fruit type, 9 per governorate per fruit) collected from four governorates in Egypt (Cairo, Giza, Alexandria, El-Fayoum). Lead and cadmium were not detected in any sample. Copper and nickel were present in all samples, frequently above WHO/FAO maximum residue limits. Chromium was detected only in grape samples from Cairo and El-Fayoum at concentrations more than ten times the EU permissible limit. Washing grapes reduced Cu and Ni by up to ~97%; peeling oranges reduced Cu by up to ~81%. Estimated daily intake for Cu and Ni exceeded reference tolerable daily intake values in most fruit-governorate combinations.
 
 ## Key numbers
@@ -110,9 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [36a89471b](https://github.com/paleofoundation/heavymetalindex/commit/36a89471b) | 2026-05-20 | minor | Narrative text revised |
-| [93b033021](https://github.com/paleofoundation/heavymetalindex/commit/93b033021) | 2026-05-20 | major | 1 section added; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

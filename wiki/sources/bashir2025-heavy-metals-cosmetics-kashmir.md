@@ -29,6 +29,8 @@ updated: 2026-05-17
 
 # Bashir et al. 2025 — Pb, Cd, Cu, Co, Ag, Ni, Zn, tAs, Mn, tHg in 30 adult cosmetic samples (lipsticks, beauty creams, nail polishes), Trarkhel District Sudhnoti, AJ&K, Pakistan
 
+## Overview
+
 This Scientific Reports paper quantifies ten heavy metals (Pb, Cd, Cu, Co, Ag, Ni, Zn, total As, Mn, total Hg) by graphite-furnace atomic absorption spectroscopy (Perkin Elmer AAS-700) in 30 cosmetic products — 10 lipsticks, 10 beauty creams (including facial sunblocks and acne cream), and 10 nail polishes — sampled in 2023 from local markets in the remote Trarkhel area of District Sudhnoti, Azad Jammu and Kashmir, Pakistan. Branded and counterfeit-suspect imports as well as locally manufactured products were sampled in roughly equal numbers per category. The paper computes dermal Systemic Exposure Dosage (SED), Margin of Safety (MoS), Hazard Quotient (HQ), Hazard Index (HI), and Lifetime Cancer Risk (LCR) at both 50% and 100% bioaccessibility assumptions, applying SCCS dermal-exposure parameters (lipstick SAA 4.8 cm² AA 0.05 g/cm²; beauty cream SAA 565 cm² AA 1.54 g/cm²; nail polish SAA 580 cm² AA 3.5 g/cm² applied 0.1 frequency/day, retention factor 1/week 20 min). MoS, HQ, and HI exceeded permissible boundaries for most lipsticks, beauty creams, and nail polishes; LCR surpassed the USEPA 1 × 10⁻⁶ acceptable threshold in every product category except lipsticks. Pb in many lipstick samples and Hg in two branded beauty creams (3 047 and 511 mg/kg) markedly exceeded Health Canada (10 mg/kg Pb) and USFDA (1 mg/kg Hg) cosmetic limits.
 
 ## Key numbers
@@ -152,8 +154,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d0c7ae500](https://github.com/paleofoundation/heavymetalindex/commit/d0c7ae500) | 2026-05-17 | minor | Narrative text revised |
-| [1caf312b1](https://github.com/paleofoundation/heavymetalindex/commit/1caf312b1) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

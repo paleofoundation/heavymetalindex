@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # Ebrahimi et al. 2015 - Dietary lead effects on broiler intestinal transporters
 
+## Overview
+
 Ebrahimi and colleagues tested whether dietary lead acetate suppresses broiler growth and intestinal nutrient-transporter expression. This is animal-feed toxicology and exposure-pathway evidence, not a supplement or enzyme product occurrence survey. The page records the source's exact lead-dose, analyzed diet concentration, ingestion, and tissue-retention values while keeping the graphical gene-expression results qualitative where no table values are printed.
 
 ## Key numbers
@@ -76,6 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [870705667](https://github.com/paleofoundation/heavymetalindex/commit/870705667) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

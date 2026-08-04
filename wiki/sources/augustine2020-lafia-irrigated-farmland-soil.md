@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Augustine et al. 2020 - Lafia irrigated farmland soil
 
+## Overview
+
 Augustine and colleagues measured lead and cobalt in surface soils from an irrigated vegetable farmland near the Amba River in Lafia, Nigeria. The source is not utensils or finished-product occurrence evidence: it is upstream irrigation/farmland pathway evidence for metals in soil where vegetables are grown.
 
 ## Key numbers
@@ -85,6 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c6adbbb11](https://github.com/paleofoundation/heavymetalindex/commit/c6adbbb11) | 2026-06-10 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

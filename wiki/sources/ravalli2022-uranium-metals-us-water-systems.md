@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Ravalli et al. 2022 — Uranium and metal inequalities in US community water systems
 
+## Overview
+
 This large cross-sectional study estimated concentrations of ten metals in community water systems (CWSs) serving ~290 million Americans, using US EPA compliance monitoring records from 2006–2011 (2000–2011 for uranium). Uranium emerged as an under-recognized drinking water contaminant with the highest detection rate (63.1%) of all metals examined; 2.1% of CWSs exceeded the EPA MCL of 30 µg/L. Arsenic exceeded its MCL (10 µg/L) in 2.6% of CWSs. Elevated concentrations of uranium, chromium, barium, and selenium were concentrated in CWSs serving Semi-Urban Hispanic communities and CWSs relying on groundwater in the Central Midwest, highlighting environmental justice concerns.
 
 ## Key numbers
@@ -64,6 +66,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [011a2983c](https://github.com/paleofoundation/heavymetalindex/commit/011a2983c) | 2026-05-13 | major | 4 sections added; narrative text revised |

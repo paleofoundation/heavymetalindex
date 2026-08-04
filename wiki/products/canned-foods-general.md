@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 4
+sources: 7
 updated: 2026-06-02
 step0_status: provisional
 step0_provisional_reason: "Zero corpus coverage of the Sn (tinplate migration) platform that defines this row. Planned whole_row_platform (Sn). Discovery target: tin migration in canned food."
@@ -29,12 +29,12 @@ planned_platform_metals: [Sn]
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -74,7 +74,7 @@ _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator aud
 
 ## Methodology
 
-_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules from CLAUDE.md Part 6 that govern downstream sections of this page._
+_Pending. This section will state the speciation, basis-preservation, row-fit, and pooling rules that govern downstream sections of this page._
 
 ## Literature Evidence Summary
 
@@ -113,7 +113,7 @@ The sources below are catalogued as product-context candidates for this row. The
 | [[sources/belabid2025-canned-tomato-pineapple-trace-elements]] | Evaluation of trace element contents in canned tomato paste a... | tomato-paste; canned-tomatoes; canned-vegetables | Fe; Zn; Cu; Cd; Pb | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/buculei2012-tin-iron-migration-canned-food-romania]] | Study regarding the tin and iron migration from metallic cans... | canned-vegetables; tomato-paste; canned-tomatoes; processed-meats | Sn; Fe | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/cfs2012-hktds-inorganic-arsenic]] | The First Hong Kong Total Diet Study: Inorganic Arsenic | seafood; condiments-general; fruit-juices-non-apple; tomato-paste | iAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
-| [[sources/cfs2019-hk-metallic-contamination-guidelines]] | Guidelines on the Food Adulteration (Metallic Contamination) ... | fish-marine-predatory; fish-marine-non-predatory; fish-freshwater; shellfish | Sb; tAs; iAs; Ba; B; Cd; Cr; Cu; Pb; Mn; MeHg; tHg; Ni; Se; Sn; U | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
+| [[sources/cfs2019-hk-metallic-contamination-guidelines]] | Guidelines on the Food Adulteration (Metallic Contamination)... | fish-marine-predatory; fish-marine-non-predatory; fish-freshwater; shellfish | Sb; tAs; iAs; Ba; B; Cd; Cr; Cu; Pb; Mn; MeHg; tHg; Ni; Se; Sn; U | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/cot2008-uk-tds-metals]] | COT Statement on the 2006 UK Total Diet Study of Metals and O... | bread-and-baked-goods; breakfast-cereals; other-grain-products; fresh-fish | Al; Sb; tAs; iAs; Ba; Cd; Cr; Cu; Pb; Mn; tHg; Mo; Ni; Se; Sn; Tl; Zn | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania]] | The heavy metals analyses in canned tomato paste | canned-tomatoes; tomato-paste; tomato-sauce | Pb; Cd; Sn; Al; Cr; Fe; Zn; tAs | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
 | [[sources/efsa2005-tin-food-upper-intake]] | Opinion of the Scientific Panel on Dietetic Products, Nutriti... | canned-vegetables; canned-fruit; canned-tomatoes; food-packaging-cans-lids | Sn | Matrix axis: unresolved. Format axis: unresolved. Source is broader than this row; authors do not narrow to this exact matrix/format pair. | (context only) |
@@ -147,11 +147,11 @@ _Pending synthesis. Practical interventions to reduce heavy-metal load — order
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology in CLAUDE.md Part 19. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
 
 ## Historical recalls and enforcement
 
-_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
+_Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Recalls are framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -160,9 +160,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
 | [1ca3eb02b](https://github.com/paleofoundation/heavymetalindex/commit/1ca3eb02b) | 2026-06-06 | major | 1 section added; narrative text revised |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed; narrative text revised |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added; narrative text revised |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 <!-- END: hmi-page-history -->

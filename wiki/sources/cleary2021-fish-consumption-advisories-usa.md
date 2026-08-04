@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cleary et al. 2021 — Comparison of US state fish consumption advisories for MeHg and PCBs
 
+## Overview
+
 This comparative review examined the risk assessment assumptions underlying fish consumption advisories for methylmercury (MeHg) and PCBs across 46 US states, identifying substantial cross-state variation in toxicity values, bodyweight assumptions, meal size, and cancer risk levels. The paper quantified how these assumptions translate into divergent target fish tissue concentrations that would trigger advisory issuance, and demonstrated that advisories for the same species in contiguous states bordering shared waterbodies (Lake Michigan, Lower Mississippi River) can differ markedly. The analysis highlights that advisory inconsistency undermines public health messaging for consumers of self-caught fish, particularly sensitive populations.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

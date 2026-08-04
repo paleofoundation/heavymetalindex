@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Farahat et al. 2025 - Sinapic acid and cadmium hepatotoxicity in rats
 
+## Overview
+
 Farahat and colleagues tested whether oral sinapic acid pretreatment mitigated acute cadmium-chloride liver injury in male Wistar rats. This is primary health/toxicology evidence, not food, ingredient, or product occurrence evidence. The routeable metal facts are the CdCl2 exposure dose, measured liver Cd accumulation, and downstream liver-function and oxidative-stress outcomes.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [d258d7b94](https://github.com/paleofoundation/heavymetalindex/commit/d258d7b94) | 2026-06-02 | major | 8 sections added; narrative text revised |

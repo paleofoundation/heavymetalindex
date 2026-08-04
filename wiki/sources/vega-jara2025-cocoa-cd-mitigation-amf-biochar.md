@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Vega-Jara et al. 2025 — Mitigation of cadmium accumulation in cocoa beans using AMF, biochar, and Callisia repens
 
+## Overview
+
 This field experiment tested three biological and organic mitigation strategies for reducing Cd uptake in cocoa beans in Huánuco, Peru — a region where soil Cd is elevated (0.78 mg/kg total) and baseline bean Cd (1.07 mg/kg) substantially exceeds the EU maximum permissible level (0.8 mg/kg for chocolate with ≥50% cocoa solids). Arbuscular mycorrhizal fungi (AMF) applied alone reduced bean Cd concentration by 40.43%; Callisia repens (a herbaceous competitor plant) applied alone reduced bean Cd by 30.85%; their combination achieved a 24.47% reduction; biochar at 1% and 2% w/w did not produce statistically significant effects. Critically, Cd concentrations still exceeded EU limits under all treatment conditions after six months, indicating that these strategies alone cannot bring a highly contaminated site into compliance within a single growing season.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

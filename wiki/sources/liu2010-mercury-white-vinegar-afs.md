@@ -27,11 +27,13 @@ updated: 2026-05-26
 
 # Liu 2010 — Mercury in white vinegar by photochemical vapor generation AFS
 
+## Overview
+
 This analytical-note paper develops and validates a direct method for total mercury in white vinegar by atomic fluorescence spectrometry (AFS) using matrix-assisted photochemical vapor generation, exploiting the acetic-acid matrix to photoreduce Hg(II) to Hg⁰ under UV irradiation without any sample pretreatment. The method gives an AFS detection limit of 0.08 µg/L and was cross-validated against acid-digestion ICP-MS and against aqueous certified reference materials (GBW(E) 080392 and 080393), with no significant difference between AFS and ICP-MS at the 95% confidence level. Of three commercial white vinegars analyzed, two were below the AFS detection limit and one (4.0% acidity) contained roughly 1.8–2.0 µg/L total mercury; HPLC-AFS speciation found no monomethyl- or monoethylmercury in the real samples.
 
 ## Key numbers
 
-All concentrations are reported as µg/L of as-sold white vinegar; µg/L = ppb for this aqueous matrix per CLAUDE.md Part 14.
+All concentrations are reported as µg/L of as-sold white vinegar; µg/L = ppb for this aqueous matrix.
 
 **Method performance (Section 3.5 and Table 2):**
 
@@ -89,7 +91,7 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - Soften the `sample_population` field. Prior version asserted "from local markets in Beijing, China"; the paper says only "purchased from local markets" without specifying the city. The Beijing inference is reasonable because the author is at the Beijing Center for Physical and Chemical Analysis, but the inference should be marked as such rather than presented as paper-stated.
 - Verified the Key numbers against the PDF (Table 2, Section 3.5): all reported LODs, RSDs, CRM recoveries, real-sample concentrations, and speciation findings reproduce the source. Added the calibration line equation (Y = 15.62 C + 2.25, r² = 0.9995) and the upper linear range (1 mg/L) that the prior version omitted.
 - Expanded Methods to capture instrumental detail (PMT voltage, lamp current, ICP-MS m/z 202, plasma/carrier/makeup gas flows, integration timing) that supports A-tier classification, plus the optimization plateau details from Figs. 1 and 2 and the matrix-interference tolerances from Section 3.4.
-- Restate µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix per CLAUDE.md Part 14.
+- Restate µg/L = ppb equivalence explicitly in Key numbers for the aqueous matrix.
 - **Remove HMTc-framework classification claim from Implications.** Prior version stated "White vinegar should be classified as a low tHg/MeHg risk matrix" — this is HMTc-classification language and violates the Part 2 wiki/HMTc firewall (the wiki reports what the literature says; HMTc classification is HMT&C's job). Revised to report the n = 3 finding honestly and explicitly flag that the dataset is too small for category-level extrapolation.
 - Remove the legacy `## Wiki pages updated on ingest` heading per current Part 6 practice; downstream-page fan-out lives in the routing audit, not on the source page.
 - License kept as "All rights reserved" — Spectrochimica Acta Part B (Elsevier) 2010 paywall paper; no open-access notice on the PDF.
@@ -103,9 +105,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [a22ac5cec](https://github.com/paleofoundation/heavymetalindex/commit/a22ac5cec) | 2026-05-26 | minor | Narrative text revised |
-| [cf5630058](https://github.com/paleofoundation/heavymetalindex/commit/cf5630058) | 2026-05-26 | major | 1 section added and 1 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Ntigoroku and Agbaire 2025 - Heavy metals in edible oils from Delta State, Nigeria
 
+## Overview
+
 Ntigoroku and Agbaire measured physicochemical quality parameters, Cd, Cr, Pb, Cu, and screening-level health risk metrics in 20 edible vegetable oil samples purchased from major markets in Delta State, Nigeria. The source is routeable occurrence evidence for olive oil and other cooking oils. Concentrations are reported as ug/g, numerically equivalent to mg/kg oil.
 
 ## Key numbers
@@ -141,9 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [420b234c7](https://github.com/paleofoundation/heavymetalindex/commit/420b234c7) | 2026-06-02 | minor | Narrative text revised |
-| [d592c940d](https://github.com/paleofoundation/heavymetalindex/commit/d592c940d) | 2026-06-02 | minor | Narrative text revised |
-| [5a91e56b3](https://github.com/paleofoundation/heavymetalindex/commit/5a91e56b3) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Zhang et al. 2025 — Metalorian: a classifier-guided diffusion model that designs *de novo* heavy-metal-binding peptides, with in vitro validation against Cu and Zn
 
+## Overview
+
 Zhang and colleagues (University of Pennsylvania, Duke-NUS Medical School, Duke University) report a two-component computational platform for *de novo* design of heavy-metal-binding peptides: **MetaLATTE**, a multi-label classifier built on the ESM-2 protein language model that predicts metal-binding propensity across 14 transition/heavy metals from sequence alone, and **Metalorian**, a co-evolving conditional diffusion model that uses MetaLATTE as a guidance classifier to generate short metal-binding peptides (30-80 residues) with controllable length and target-metal specificity. The pipeline was validated in two stages: (i) in silico molecular-dynamics simulations comparing generated Cu- and Cd-binding peptides to wild-type metal-binding proteins, and (ii) in vitro ELISA-based binding assays for three SUMO-fusion-expressed Metalorian-generated constructs (two Cu binders and one Zn binder) against Cu- or Zn-coated microplates. The MbPA training database covers fourteen metal labels (Ag, Cd, Co, Cu, Fe, Hg, Mn, Mo, Ni, Pb, Pt, V, W, Zn). The paper is a methods-and-design contribution; there are no food, cosmetic, or human-exposure measurements. It is a bioRxiv preprint posted 2025-07-10 and not certified by peer review.
 
 ## Why this matters
@@ -175,8 +177,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [16fb63b65](https://github.com/paleofoundation/heavymetalindex/commit/16fb63b65) | 2026-06-08 | major | 1 section added; narrative text revised |
-| [86d003747](https://github.com/paleofoundation/heavymetalindex/commit/86d003747) | 2026-06-08 | major | 3 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

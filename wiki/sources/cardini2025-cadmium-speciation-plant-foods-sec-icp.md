@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-13
 ---
 
+## Overview
+
 Cardini et al. (2025) introduce a qualitative methodology combining size exclusion chromatography (SEC) coupled with ICP-MS/MS and SEC-QTOF-MS to identify cadmium-chelating compounds in seven plant-based food matrices. The study reports total Cd mass fractions in the matrices (by microwave digestion and ICP-MS) ranging from 9 to 570 µg/kg dry weight, with the lowest in basmati rice and the highest in beetroot leaves. The study's primary contribution is analytical methodology for Cd speciation — identifying the molecular forms in which Cd is bound in plant foods (phytochelatins, phytic acid, flavonoids, and other ligands in the 1–20 kDa range) — with implications for future bioaccessibility studies.
 
 ## Key numbers
@@ -77,6 +79,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |

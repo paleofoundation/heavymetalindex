@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Juskowiak 2008 — Synthesis, screening, and sequencing of cysteine-rich OBOC peptide libraries
 
+## Overview
+
 Juskowiak, McGee, Greaves, and Van Vranken at UC Irvine reported the first method for synthesizing, screening, and sequencing one-bead one-compound (OBOC) peptide libraries that incorporate cysteine at variable positions. The paper is a synthetic and analytical chemistry methodology study: it solves three coupled bench problems that had previously kept cysteine out of OBOC libraries — tritylcysteine aggregation during Fmoc solid-phase synthesis, side-product formation during cyanogen bromide cleavage of cysteine-rich peptides from TentaGel beads, and direct MS/MS sequencing of cleaved cysteine-rich peptides from single 130 µm beads. Validation used the biarsenical fluorophore FlAsH·EDT2 to retrieve beads bearing the known tetracysteine binding motif CCXXCC. The motivation cited for the work spans tetracysteine tags for live-cell fluorescence imaging, environmental remediation and phytoremediation of cadmium and mercury via cysteine-rich peptide ligands, and cysteine-rich pharmaceuticals; the experimental work itself does not measure cadmium, mercury, lead, or any other HMI-tracked heavy metal in any food, personal-care, or environmental matrix. The paper enters the HMI corpus as upstream methodology context for the bioremediation-peptide and metal-chelating-peptide literature already represented in the same Kimi peptide folder ([[luo2024-peptides-heavy-metal-remediation]], [[lu2022-metal-chelating-peptides-review]], [[grill1989-phytochelatins-heavy-metal-binding-peptides-plants]], [[shalev2022-peptide-metal-nmr-review]], [[han2025-peptide-zinc-complexation-aquatic-review]], [[urbina2018-biomining-peptide-metal-recovery]], [[spallacci2025-bioinformatics-biomimetic-metal-peptide]]).
 
 ## Key numbers
@@ -89,8 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [f81f4b865](https://github.com/paleofoundation/heavymetalindex/commit/f81f4b865) | 2026-06-08 | minor | Narrative text revised |
-| [f35ea1306](https://github.com/paleofoundation/heavymetalindex/commit/f35ea1306) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

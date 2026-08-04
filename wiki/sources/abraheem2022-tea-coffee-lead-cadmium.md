@@ -26,6 +26,8 @@ updated: 2026-05-27
 
 # Abraheem et al. 2022 - Lead and cadmium in Libyan tea and coffee
 
+## Overview
+
 This study measured lead and cadmium in tea and coffee samples circulating in Tripoli, Libya. It is routeable for coffee and tea occurrence evidence because it reports concentration ranges and means in mg/kg for both beverage commodities.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3fc1e8e3c](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e3c) | 2026-05-27 | major | 5 sections added; narrative text revised |

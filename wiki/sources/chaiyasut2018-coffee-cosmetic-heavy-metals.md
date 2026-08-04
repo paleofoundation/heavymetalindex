@@ -24,6 +24,8 @@ updated: 2026-05-30
 
 # Chaiyasut et al. 2018 — Heavy metals in coffee-extract cosmetic preparations
 
+## Overview
+
 Chaiyasut et al. formulated body lotion and hand moisturizing cream with Arabica and civet coffee extracts, then tested stability, pH, microbial counts, and heavy metals after accelerated storage. The heavy-metal component is directly relevant to leave-on personal-care products: lead was not detected, arsenic was reported below 0.16 mg/kg, and mercury remained below 0.09 mg/kg in body lotion and below 0.09-0.28 mg/kg in hand moisturizing cream. The paper supports occurrence-style evidence for finished cosmetic preparations containing coffee-derived ingredients, but it does not measure metals in beverage coffee or roasted coffee as food.
 
 ## Key numbers
@@ -72,8 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [d4a143fce](https://github.com/paleofoundation/heavymetalindex/commit/d4a143fce) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [d0d3a6fe4](https://github.com/paleofoundation/heavymetalindex/commit/d0d3a6fe4) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

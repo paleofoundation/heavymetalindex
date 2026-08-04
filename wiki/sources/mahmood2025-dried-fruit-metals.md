@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Mahmood et al. 2025 - metals in dried fruit from local markets
 
+## Overview
+
 Mahmood and coauthors measured six heavy metals (Cu, Pb, Cr, Ni, Mn, Fe) in eight dried fruit types purchased from public markets, shops, and shopping centers in Anbar Governorate, Iraq, and assessed compliance against WHO and Codex Alimentarius reference limits. Samples were digested in aqua regia and analyzed by flame atomic absorption spectroscopy. The paper does not name any product brand; fruit types are reported in aggregate by fruit identity (plum, banana, orange, kiwi, mango, quince, apple, fig).
 
 ## Key numbers
@@ -80,8 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [69152921d](https://github.com/paleofoundation/heavymetalindex/commit/69152921d) | 2026-06-09 | major | 1 section added; narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

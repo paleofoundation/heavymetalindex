@@ -25,6 +25,8 @@ updated: 2026-06-11
 
 # BaSalamah et al. 2018 - Lead acetate, vitamin D, and rat renal/testicular injury
 
+## Overview
+
 BaSalamah and colleagues tested whether vitamin D3 altered renal and testicular injury in a controlled rat model of lead acetate toxicity. This is lane a4 toxicology evidence, not supplement occurrence evidence: lead acetate was deliberately administered in drinking water, and vitamin D3 was a co-treatment. The source reports exact tissue Pb concentrations and biochemical, cytokine, oxidative-stress, histology, and gene-expression endpoints while stating that vitamin D3 did not lower tissue Pb concentrations.
 
 ## Key numbers
@@ -75,6 +77,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [7412baabf](https://github.com/paleofoundation/heavymetalindex/commit/7412baabf) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

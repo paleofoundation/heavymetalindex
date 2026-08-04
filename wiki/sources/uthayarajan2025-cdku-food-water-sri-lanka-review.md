@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-17
 ---
 
+## Overview
+
 Uthayarajan et al. (2025) present a systematic review of 57 studies (screened from 1,067 records, databases searched through 21 August 2024) examining the quality of food and water consumed by people with chronic kidney disease of unknown etiology (CKDu) in Sri Lanka. CKDu is highly prevalent in Sri Lanka's North Central Province and is suspected to be associated with nephrotoxic heavy metal and fluoride contamination via food and water. The review found that food — including rice, other cereals, legumes, bread, animal source foods, eggs, freshwater fish, fruit, and vegetables — was commonly contaminated with Cd, Pb, As, Mn, Zn, Cu, Fe, Cr, Se, Co, Al, Hg, Sn, K, Na, Mg, Ni, Ca, and V; cadmium was the most frequently reported nephrotoxic metal (detected in 14 studies), followed by lead (10 studies) and arsenic as the third most frequently listed contaminant.
 
 ## Key numbers
@@ -98,8 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cca5fa70e](https://github.com/paleofoundation/heavymetalindex/commit/cca5fa70e) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hadi et al. 2025 — Lead, cadmium, and chromium in dried fruits sold in Iraqi markets
 
+## Overview
+
 This study measured Pb, Cd, and Cr concentrations in 15 dried-fruit samples sourced from Iranian manufacturers and purchased from Iraqi markets in February 2025, using a Shimadzu AA-7000 atomic absorption spectrophotometer (AAS) after acid digestion (HNO3:HClO4, 3:1). Multiple samples exceeded FAO/WHO maximum allowable levels for Cd (0.05 mg/kg) and Cr (0.12 mg/kg), and the authors calculated estimated daily intakes (EDI), target hazard quotients (THQ), hazard indices (HI), and total cancer risk (TCR) against USEPA reference values. The overall HI was below 1.0 for all samples, indicating no acute noncarcinogenic health hazard from typical consumption patterns, but the authors flag long-term cumulative risk from samples that exceed regulatory limits.
 
 ## Key numbers
@@ -89,6 +91,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [f5c6a7638](https://github.com/paleofoundation/heavymetalindex/commit/f5c6a7638) | 2026-05-13 | major | 4 sections added; narrative text revised |

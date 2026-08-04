@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Jermilova et al. 2025 — Bayesian network Hg risk assessment, Mackenzie watershed freshwater fish
 
+## Overview
+
 Jermilova et al. developed Bayesian Network Relative Risk Models (BN-RRMs) to assess mercury (Hg) exposure risk in the freshwater ecosystems of Great Slave Lake and the Mackenzie River Basin (Canadian Northwest Territories) using 2005–2020 monitoring data from 21 studies. The models integrated atmospheric Hg deposition, permafrost thaw, soil erosion, and proximity to mining and fossil fuel operations as source nodes, connecting environmental Hg concentrations to measured tissue Hg in five ecologically and food-security-relevant fish species and then propagating those concentrations to human dietary intake risk against Health Canada, WHO, and USEPA provisional tolerable weekly intake (pTWI) thresholds. The study is particularly relevant to Indigenous communities in the Northwest Territories, for whom these freshwater fish species are country foods and primary protein sources.
 
 ## Key numbers
@@ -92,6 +94,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2961cee1c](https://github.com/paleofoundation/heavymetalindex/commit/2961cee1c) | 2026-05-12 | major | 4 sections added; narrative text revised |

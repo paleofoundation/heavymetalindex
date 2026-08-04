@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Chen 2019 - Organotins in Chinese oysters
 
+## Overview
+
 Chen and colleagues measured six organotin compounds in commercial and wild oysters from China: MBT, DBT, TBT, MPhT, DPhT, and TPhT. The paper reports commercial oyster samples from Shanghai markets and wild oyster samples from fourteen coastal cities. These are organometallic tin species reported as `ng Sn g−1 dw`; they are not total inorganic tin measurements.
 
 ## Key numbers
@@ -92,8 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [38bdc56cc](https://github.com/paleofoundation/heavymetalindex/commit/38bdc56cc) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [77dca52ba](https://github.com/paleofoundation/heavymetalindex/commit/77dca52ba) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

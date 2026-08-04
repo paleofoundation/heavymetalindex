@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Haseeb-ur-Rehman 2023 - metals in Pakistani export seafood
 
+## Overview
+
 Haseeb-ur-Rehman and colleagues measured metals in `400` export-quality seafood samples from Pakistani processing plants. The study reports edible-portion concentrations in `mg kg-1 w.w` for fish, crustaceans, and cephalopods. Mercury was analyzed and was not detected in any sample; the page therefore treats mercury as total mercury (`tHg`) nondetect context, not as methylmercury.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [b4580e424](https://github.com/paleofoundation/heavymetalindex/commit/b4580e424) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

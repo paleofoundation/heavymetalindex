@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Li et al. 2017 — Cadmium transfer from Jiangsu soils into rice
 
+## Overview
+
 Li and colleagues studied cadmium transfer through a soil-rice-human chain in southern Jiangsu Province, China. The authors collected 70 paired Indica rice-grain and surface-soil samples, measured Cd and Zn by ICP-MS, and used RIVM in vitro digestion to estimate bioaccessible Cd in rice grain. The source is a supply-chain occurrence paper: rice-grain Cd is the product-facing evidence, while soil chemistry and extractable Cd/Zn are context for predicting rice Cd and bioaccessible rice Cd.
 
 ## Key numbers
@@ -77,7 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c12da7209](https://github.com/paleofoundation/heavymetalindex/commit/c12da7209) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

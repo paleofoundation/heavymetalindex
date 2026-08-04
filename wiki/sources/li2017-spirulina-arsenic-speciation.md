@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Li et al. 2017 - arsenic species in food-grade spirulina powder
 
+## Overview
+
 Li and colleagues developed a two-step microwave-assisted extraction and IC-ICP-MS method for arsenic speciation in food-grade spirulina powder. They then applied the method to seven spirulina powder samples from Chinese production sites, reporting arsenite, arsenate, DMA(V), MMA(V), five unknown organic arsenic species, species sum, total arsenic, and recovery. Spirulina is handled here as an algae/cyanobacteria supplement powder; the taxonomy snapshot has no exact Spirulina ingredient slug.
 
 ## Key numbers
@@ -101,6 +103,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [44269ab67](https://github.com/paleofoundation/heavymetalindex/commit/44269ab67) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

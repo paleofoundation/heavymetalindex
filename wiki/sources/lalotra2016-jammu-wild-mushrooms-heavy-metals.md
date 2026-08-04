@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Lalotra et al. 2016 - Heavy-metal bioaccumulation in wild mushrooms from Jammu
 
+## Overview
+
 Lalotra and colleagues measured Zn, Cu, Mn, Fe, Cd, and Pb in three wild mushrooms and their substrates from Jammu and Kashmir, India. The source is routeable with caution: it contains real mushroom concentration values, but only one of the three species, Macrolepiota procera, is explicitly edible. The highest fruiting-body concentrations were in Boletus subvelutipes for Zn, Cu, Mn, Fe, Cd, and Pb, but food-occurrence routing should keep the edible-status note attached.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

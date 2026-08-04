@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Hardy 2025 - UK REACH decision on tattoo and permanent make-up inks
 
+## Overview
+
 Parliamentary Under Secretary of State Emma Hardy issued this UK REACH decision report on substances in tattoo inks and permanent make-up (PMU) on behalf of the Secretary of State for Environment, Food and Rural Affairs. The report proposes an amendment to Annex 17 of UK REACH after considering the Health and Safety Executive Agency's Annex 15 dossier and Final Opinion. This is regulatory-context evidence for tattoo/PMU inks; it does not report new finished-product metal concentrations.
 
 ## Key numbers
@@ -81,6 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [0cbacf592](https://github.com/paleofoundation/heavymetalindex/commit/0cbacf592) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

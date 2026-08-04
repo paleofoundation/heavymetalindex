@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Shine et al. 2015 — Phytochelatin synthase (PCS1) is required for Cd and Cu tolerance in a basidiomycete yeast and is broadly conserved across fungi
 
+## Overview
+
 Shine, Shakya, and Idnurm (Division of Cell Biology and Biophysics, School of Biological Sciences, University of Missouri–Kansas City; School of BioSciences, University of Melbourne) identify a putative phytochelatin synthase gene (*PCS1*) in the basidiomycete yeast *Sporobolomyces* sp. strain IAM 13481 (Pucciniomycotina), demonstrate by heterologous expression in *Saccharomyces cerevisiae* and *Schizosaccharomyces pombe* that it confers Cd tolerance, generate a *pcs1Δ* deletion in *Sporobolomyces* that is hypersensitive to cadmium and copper (and slightly to zinc), show by GFP fusion in *S. pombe* that Pcs1 co-localises with the mitochondrial dye MitoTracker, and use comparative genomics of 375 fungal genome sequences across 18 lineages and sub-lineages (Table 1 sum) to map a wide but punctate distribution of PCS homologs across the fungal kingdom (present in most early-diverging phyla, lost in much of the Dikarya including all Saccharomycotina and Agaricomycotina). The paper extends the function of PCS — previously characterised in only two ascomycete species (*S. pombe* and *Tuber melanosporum*) — into a second major fungal lineage, and argues that PCS is an ancestral eukaryotic metal-homeostasis factor that has been lost repeatedly in fungi, parallelling the distribution seen in plants and animals. Published in *Fungal Biology and Biotechnology* 2:3, 28 March 2015 (received 11 Nov 2014; accepted 11 Mar 2015). In the wiki this is mechanistic background for [[metals/cadmium]] (PCS-mediated detoxification in fungi), [[metals/copper]] (PCS role in essential-metal homeostasis), and [[metals/zinc]]; it contains no food-matrix, environmental, or human-exposure measurements.
 
 ## Why this matters
@@ -111,8 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [dc90421de](https://github.com/paleofoundation/heavymetalindex/commit/dc90421de) | 2026-06-08 | minor | Narrative text revised |
-| [7bec9a15f](https://github.com/paleofoundation/heavymetalindex/commit/7bec9a15f) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

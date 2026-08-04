@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Wang et al. 2019 - Dietary lead exposure in Guangzhou foods
 
+## Overview
+
 Wang and colleagues estimated dietary lead exposure for Guangzhou residents using lead concentrations from the local food safety risk monitoring system. The occurrence dataset included 6339 samples across 27 food categories collected in 2014-2017. The paper reports lead only; it does not measure arsenic, cadmium, mercury, chromium, or tin.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [75c0addff](https://github.com/paleofoundation/heavymetalindex/commit/75c0addff) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [def1a1b97](https://github.com/paleofoundation/heavymetalindex/commit/def1a1b97) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

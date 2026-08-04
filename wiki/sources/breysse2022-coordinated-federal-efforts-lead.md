@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Breysse, Cascio, Geller, Choiniere, Ammon 2022 — Targeting coordinated federal efforts to address persistent hazardous lead exposures
 
+## Overview
+
 This American Journal of Public Health Supplement 7 commentary by senior leadership of the CDC National Center for Environmental Health (Breysse, NCEH director), the EPA Office of Research and Development (Cascio and Geller), the FDA Office of Analytics and Outreach (Choiniere), and the HUD Office of Lead Hazard Control and Healthy Homes (Ammon) frames the U.S. federal coordination approach to persistent lead exposures across the Pb-in-paint, Pb-in-water, Pb-in-food, and Pb-in-dust pathways. The commentary is the inter-agency consensus statement of how the four primary federal Pb-relevant agencies coordinate their authorities, programs, and surveillance to drive cumulative blood-lead reduction in U.S. populations. The commentary is policy-frame rather than empirical and is the highest-profile recent statement of inter-agency Pb policy alignment.
 
 ## Key conclusions
@@ -47,6 +49,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |

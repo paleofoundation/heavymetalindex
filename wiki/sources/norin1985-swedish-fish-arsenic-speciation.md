@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Norin 1985 - Swedish fish arsenic speciation
 
+## Overview
+
 Norin, Vahter, Christakopoulos, and Sandstrom measured total arsenic and inorganic arsenic in fish from arsenic-polluted and reference brackish and freshwater sites in Sweden. The source reports fish meat and liver on a wet-weight basis. It is useful because total arsenic and inorganic arsenic are quantified separately; total arsenic is not a proxy for inorganic arsenic.
 
 ## Key numbers
@@ -80,6 +82,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [ad52d12bf](https://github.com/paleofoundation/heavymetalindex/commit/ad52d12bf) | 2026-06-08 | major | 4 sections added; narrative text revised |

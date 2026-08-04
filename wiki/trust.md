@@ -8,6 +8,8 @@ updated: 2026-05-28
 
 # Trust Center
 
+## Overview
+
 This page is the single navigator a sophisticated reader can reach to confirm how the Heavy Metal Index is built, who is accountable for it, and what they can do with what they read here. It is intentionally one page and intentionally short. Each section names the canonical artifact and links straight to it; the depth lives on the linked pages, not here.
 
 This page is referenced from [[curators]] as the future hub for editorial governance. Brand legal, regulatory-affairs, retailer compliance, and academic-peer readers should be able to confirm every defensibility claim the Index rests on by reading this page and following one link.

@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Díaz et al. 2012 - Chilean algae arsenic
 
+## Overview
+
 Díaz et al. measured total arsenic and inorganic arsenic in 79 algae samples representing 14 economically important species from Chilean coastal zones. The paper reports species-level mean concentrations in `mg kg-1 d.w.` and identifies which species were used for direct consumption, carrageenan, agar agar, or alginates. Total arsenic and inorganic arsenic are reported as separate analytes and are kept separate below.
 
 ## Key numbers
@@ -94,6 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [e5522a024](https://github.com/paleofoundation/heavymetalindex/commit/e5522a024) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

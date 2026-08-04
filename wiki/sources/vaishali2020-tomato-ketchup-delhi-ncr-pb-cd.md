@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Vaishali & Negi 2020 — Lead and cadmium in tomato ketchup from Delhi NCR street vendors
 
+## Overview
+
 This short research article reports Pb and Cd concentrations in 12 tomato ketchup samples collected from street food vendors across four locales in the Delhi NCR region of India. Lead was reported in all four locale summaries, with mean concentrations in Delhi (0.183 ppm), Noida (0.096 ppm), and Faridabad (0.089 ppm) exceeding the FAO/WHO Codex limit of 0.05 mg/kg; only Gurugram samples (0.031 ppm mean) fell below. Cadmium was below detectable limit in all 12 samples.
 
 ## Key numbers
@@ -78,9 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [099c229aa](https://github.com/paleofoundation/heavymetalindex/commit/099c229aa) | 2026-05-28 | minor | Narrative text revised |
-| [01de84b17](https://github.com/paleofoundation/heavymetalindex/commit/01de84b17) | 2026-05-18 | minor | Narrative text revised |
-| [eb3c1adf9](https://github.com/paleofoundation/heavymetalindex/commit/eb3c1adf9) | 2026-05-18 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

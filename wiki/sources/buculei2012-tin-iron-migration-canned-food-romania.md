@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Buculei et al. 2012 — Tin and iron migration from tinplate cans into canned foodstuffs over 1080-day storage (Romania)
 
+## Overview
+
 This Romanian packaging-migration study measured Fe and Sn concentrations in four canned product types (peas, tomato paste, pork in own juice, and pork liver pate) packed in three-piece tinplate cans with different internal varnish systems and held at ambient temperature (~20 °C) for up to 1080 days (≈36 months). For each product/varnish combination, samples were drawn at 0, 180, 360, 720, and 1080 days and analysed by atomic absorption spectrometry for iron and by inductively coupled plasma atomic emission spectrometry for tin. The authors report that Fe and Sn concentrations rise monotonically with storage time across all products and varnish systems, that acidic matrices (tomato paste) accumulate Sn substantially faster than near-neutral matrices (peas, pork, pate), and that the relative migration ordering between varnish types is product-dependent. Numerical values are presented exclusively as scatter-plus-regression-line graphs (Figures 1–8) and short conclusion-section qualitative statements; no underlying tabulated values are printed. The authors cite the Turkish Food Codex 15 µg/g Fe limit as the relevant ceiling and the Romanian Ministry of Health Order No. 975/1998 as the in-country reference; they do not specify a Sn ceiling.
 
 ## Key numbers
@@ -138,8 +140,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [87acb21f9](https://github.com/paleofoundation/heavymetalindex/commit/87acb21f9) | 2026-06-02 | minor | Narrative text revised |
-| [f48a6e605](https://github.com/paleofoundation/heavymetalindex/commit/f48a6e605) | 2026-06-02 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

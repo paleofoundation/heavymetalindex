@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Marcelino et al. 2026 — Liver trace minerals and heavy metals in free-living large herbivores, Netherlands
 
+## Overview
+
 A twenty-year post-mortem monitoring programme at the Oostvaardersplassen (OVP) nature reserve in the Netherlands measured 13 trace elements and heavy metals by ICP-MS in the livers of 346 Heck cattle, red deer, and Konik horses, establishing species-specific reference intervals and documenting temporal trends in hepatic concentrations of Pb, Cd, As, Cr, Ni, Co, Cu, Fe, Mn, Mo, Se, V, and Zn across 2003–2023.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

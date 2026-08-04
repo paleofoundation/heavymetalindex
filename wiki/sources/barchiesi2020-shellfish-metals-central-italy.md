@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Barchiesi 2020 - Shellfish metals in central Italy
 
+## Overview
+
 Barchiesi and colleagues analyzed official-monitoring data for cadmium, lead, and mercury in shellfish collected along the Italian coastline from 2017 through 2019. The dataset covered bivalve mollusks, marine gastropods, and sea urchins, with `N = 2207` records after data cleaning. Mercury is reported as `Hg` without methylmercury speciation, so this page records it as total/unspecified mercury (`tHg`).
 
 ## Key numbers
@@ -157,8 +159,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [85fa8399d](https://github.com/paleofoundation/heavymetalindex/commit/85fa8399d) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c58449d9f](https://github.com/paleofoundation/heavymetalindex/commit/c58449d9f) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

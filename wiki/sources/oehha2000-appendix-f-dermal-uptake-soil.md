@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # OEHHA 2000 — Appendix F: Dermal absorption fractions for soil-bound chemicals (Cal/EPA Hot Spots TSD)
 
+## Overview
+
 This September 2000 OEHHA Technical Support Document Appendix F provides California's recommended dermal absorption fractions (ABS) for soil-bound chemicals used in the Air Toxics Hot Spots program. The chemicals reviewed include the inorganic salts of arsenic, beryllium, cadmium, mercury, lead, nickel, and hexavalent chromium, plus several organic compounds (TCDD/PCDD/PCDF, PCBs, BaP/PAHs, hexachlorocyclohexanes, DEHP, pentachlorophenol). Per-chemical ABS recommendations are point estimates derived from review of in-vivo human, in-vivo animal, and in-vitro percutaneous-absorption studies. OEHHA values diverge from the prior 1% Clement Associates (1988) default for inorganics when chemical-specific evidence supports a different value.
 
 ## Key numbers
@@ -83,7 +85,7 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - 2026-05-17 merge-enhance: Added explicit OEHHA recommendations for Beryllium (1%, Clement Associates 1988 default) and Chromium VI (1%, same default) that were previously omitted from Key numbers despite both metals appearing in `metals:` frontmatter.
 - 2026-05-17 merge-enhance: Replaced "BaP not stated in pages read; referenced 13% in EPA RAGS Part E" with the actual OEHHA Appendix F F.1.4.3 recommendation of 13% based on Wester et al. 1990 in-vivo Rhesus monkey (24 h ABS 13.2 ± 3.4%, n=4). The 13% number is OEHHA's own recommendation, not an EPA RAGS Part E reference.
 - 2026-05-17 merge-enhance: Added DEHP (10%) and hexachlorocyclohexanes (10%) to organic-compounds cross-reference for completeness.
-- 2026-05-17 merge-enhance: Changed `metals:` frontmatter from `As` to `tAs` per CLAUDE.md Part 14 speciation rule — OEHHA Appendix F discusses arsenic salts generically without separating inorganic from total arsenic species, so `tAs` is the correct unspeciated form.
+- 2026-05-17 merge-enhance: Changed `metals:` frontmatter from `As` to `tAs` speciation rule — OEHHA Appendix F discusses arsenic salts generically without separating inorganic from total arsenic species, so `tAs` is the correct unspeciated form.
 - 2026-05-17 merge-enhance: Cleaned up Implications cross-jurisdictional comparison — the previous version mis-stated the OEHHA-vs-ATSDR Cd relationship (ATSDR Table 8's 0.001 is the same fraction as OEHHA's 0.1%, not a stricter value).
 - Sample-level numerical findings from cited primary studies (Baranowska-Dutkiewicz, Moore, Lilly, Stauber, Fullerton, Wester) belong on those primary-source pages when those papers are themselves ingested; this OEHHA document is the aggregator/recommender.
 - Arsenic ABS in the F.1.3.4 chromium-comparison text reads "absorption of arsenic from water and from soil (2-6% and 3-5%, respectively)" — this range is the comparison context, not the OEHHA point estimate; the OEHHA point estimate for arsenic from soil is 4% per F.1.3.1.
@@ -98,9 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [08e6d78af](https://github.com/paleofoundation/heavymetalindex/commit/08e6d78af) | 2026-05-17 | minor | Narrative text revised |
-| [d54ed1e7e](https://github.com/paleofoundation/heavymetalindex/commit/d54ed1e7e) | 2026-05-17 | minor | Narrative text revised |
-| [d7886838e](https://github.com/paleofoundation/heavymetalindex/commit/d7886838e) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

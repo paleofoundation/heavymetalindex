@@ -14,6 +14,8 @@ updated: 2026-04-29
 
 # EU Nickel Directive 94/27/EC
 
+## Overview
+
 This page records the Nickel Directive requirements as described in [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]]. It is a historical/source-grounded regulation page, not a current consolidated REACH legal-status page.
 
 ## Requirements Preserved From Source
@@ -47,9 +49,9 @@ This regulation page is relevant to nickel hazard, dermal sensitisation, and con
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. LGC Limited (2003). *Risk of sensitisation of humans to nickel by piercing post assemblies*. Final Report submitted under EC Contract ETD/FIF.2001592. Government report, A-tier. [[sources/lgc2003-nickel-piercing-post-assemblies|Source record]]
+1. [[sources/lgc2003-nickel-piercing-post-assemblies|Risk of sensitisation of humans to nickel by piercing post assemblies]]<span class="hmi-ref-meta">LGC Limited · Final Report submitted under EC Contract ETD/FIF.2001592 · 2003</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -59,7 +61,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [dafe852a7](https://github.com/paleofoundation/heavymetalindex/commit/dafe852a7) | 2026-04-29 | major | 1 source added; contamination-profile values revised; 4 sections added |
 <!-- END: hmi-page-history -->

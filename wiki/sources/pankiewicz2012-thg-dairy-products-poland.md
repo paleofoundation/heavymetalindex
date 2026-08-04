@@ -27,6 +27,8 @@ updated: 2026-05-19
 
 # Pankiewicz 2012 — Total mercury in dairy products from south-east Poland
 
+## Overview
+
 This study measured total mercury in 48 dairy products from six regional milk cooperatives across south and south-east Poland (Lublin, Podkarpackie, Silesia, and adjacent regions) using non-flame atomic absorption (AMA-254 direct mercury analyzer). Mercury levels ranged from 0.01 µg/kg on a wet-product basis (reached by natural kefir from two cooperatives, cream, buttermilk, and strawberry flavoured yogurt) up to 0.79 µg/kg (butter extra), all well below the Polish national maximum permissible level of 10 µg/kg for milk. Butter and whole milk powder consistently showed the highest concentrations across producers; kefir consistently showed the lowest. Speciation was not measured (total Hg only).
 
 ## Key numbers
@@ -98,9 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b05cfbec2](https://github.com/paleofoundation/heavymetalindex/commit/b05cfbec2) | 2026-05-19 | minor | Narrative text revised |
-| [e56d77268](https://github.com/paleofoundation/heavymetalindex/commit/e56d77268) | 2026-05-19 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

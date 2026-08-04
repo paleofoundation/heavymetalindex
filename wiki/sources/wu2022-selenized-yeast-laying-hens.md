@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wu et al. 2022 — Selenized yeast, laying hen performance, and heavy metal accumulation in eggs
 
+## Overview
+
 This 12-week controlled feeding study measured the protective effects of selenized yeast supplementation on laying hen performance and on the accumulation of cadmium, lead, mercury, and chromium in egg yolk and egg white. Hens were orally gavaged with Cd, Pb, Hg, and Cr at fixed doses, with and without selenized yeast co-supplementation. Metal concentrations in egg yolk and egg white were measured by graphite furnace atomic absorption spectrometry (GFAAS) for Pb and Cd and by direct mercury analysis (DMA-80) for Hg. The study found that selenized yeast supplementation significantly reduced metal accumulation in egg tissue compared to the heavy-metal-only control group, and it improved egg production rate and egg quality parameters.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3153dee0d](https://github.com/paleofoundation/heavymetalindex/commit/3153dee0d) | 2026-05-13 | major | 4 sections added; narrative text revised |

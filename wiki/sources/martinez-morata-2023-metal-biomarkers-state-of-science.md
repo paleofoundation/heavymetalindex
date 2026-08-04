@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Martinez-Morata, Sobel, Tellez-Plaza, Navas-Acien, Howe, Sanchez 2023 — A state-of-the-science review on metal biomarkers
 
+## Overview
+
 This Current Environmental Health Reports state-of-the-science review by Martinez-Morata, Sobel, Tellez-Plaza, Navas-Acien, Howe, and Sanchez (Columbia University Mailman School of Public Health, Centro Nacional de Epidemiología Madrid, and collaborators) covers the current consensus on biomarkers of human metal exposure across blood, urine, hair, and nails for the regulated and emerging-concern toxic metals (Pb, Cd, As, Hg, Ni, Mn, Mo, U). The review is the most comprehensive recent synthesis of metal biomarker validity, kinetics, and interpretation across exposure assessment, epidemiology, and clinical applications. It is the canonical reference for choosing the right biomarker for a given metal-exposure question.
 
 ## Key conclusions
@@ -51,6 +53,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sections added; narrative text revised |

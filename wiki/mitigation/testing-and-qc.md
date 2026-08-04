@@ -12,6 +12,8 @@ sources: 0
 
 # Testing and quality-control mitigation
 
+## Overview
+
 Testing-and-QC mitigation is the brand-side and manufacturer-side practice of detecting heavy-metal load early enough in the supply chain that contaminated lots can be diverted, blended, or rejected before they reach finished product. Unlike agronomic or processing interventions, testing-and-QC does not lower heavy-metal load in raw material — it provides the visibility that lets every other mitigation strategy fire on time. Brand QA teams routinely report that the largest single driver of finished-product heavy-metal variance is whether incoming raw material was tested at all, and at what point in the supply chain the test occurred.
 
 ## Intervention points
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [03afe1a61](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a61) | 2026-05-17 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

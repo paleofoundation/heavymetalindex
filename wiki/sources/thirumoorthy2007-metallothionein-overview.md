@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Thirumoorthy et al. 2007 — Metallothionein: an overview
 
+## Overview
+
 Thirumoorthy and colleagues at the KMCH College of Pharmacy (Coimbatore, Tamil Nadu) and the Department of Pharmaceutical Technology, Jadavpur University (Kolkata) review the published literature on metallothionein (MT) — a low-molecular-weight (Mr ≈ 6000), sulfhydryl-rich, divalent-metal-binding protein discovered by Margoshes and Vallee in 1957. The four-page narrative is organised as a short orientation to MT classification, structure, protective biology, role in carcinogenesis and apoptosis, anti-cancer-drug response, and an immunohistochemical staining protocol used by the authors' group to detect MT-1 in cold-acetone-fixed paraffin-embedded liver sections. The paper reports no primary chemical or toxicological measurements; its value to the wiki is conceptual — it organises the MT-I/MT-II/MT-III/MT-IV isoform vocabulary and the cysteine-thiolate metal-binding chemistry that the downstream cadmium- and mercury-handling literature draws on.
 
 ## Why this matters
@@ -116,7 +118,7 @@ This is a short (four-page) narrative review with no declared search strategy, n
 
 **Evidence tier.** B (secondary narrative review). The paper reports no primary measurements and declares no systematic search strategy. A-tier is reserved for primary peer-reviewed studies and authoritative agency monographs; this is neither. The review is published in a Scopus/Web of Science-indexed journal (*World Journal of Gastroenterology*), supporting B over C.
 
-**Metals frontmatter.** The review explicitly names two of the HMTc 10-analyte list metals as MT substrates: cadmium and mercury (source p. 993, *Characteristics of MTs* — "MTs bind a number of trace metals including cadmium, mercury, platinum and silver"). Speciation is not addressed for either metal; the wiki-page `metals` frontmatter records `Cd` and `tHg` (total mercury) per the speciation-default rule in CLAUDE.md Part 14 (no methyl-vs-total distinction in the source → total mercury). Platinum and silver are not on the HMTc 10-analyte list and are not recorded. Vanadium, zinc, copper, and manganese also appear in the review but are not on the HMTc list and are not recorded. Pb, iAs, tAs, MeHg, Ni, Cr-VI, Al, and Sn do not appear substantively in this review.
+**Metals frontmatter.** The review explicitly names two of the HMTc 10-analyte list metals as MT substrates: cadmium and mercury (source p. 993, *Characteristics of MTs* — "MTs bind a number of trace metals including cadmium, mercury, platinum and silver"). Speciation is not addressed for either metal; the wiki-page `metals` frontmatter records `Cd` and `tHg` (total mercury) per the speciation-default rule (no methyl-vs-total distinction in the source → total mercury). Platinum and silver are not on the HMTc 10-analyte list and are not recorded. Vanadium, zinc, copper, and manganese also appear in the review but are not on the HMTc list and are not recorded. Pb, iAs, tAs, MeHg, Ni, Cr-VI, Al, and Sn do not appear substantively in this review.
 
 **Ingredients, products, matrices, jurisdictions frontmatter.** All empty. The source measures nothing in any food, beverage, personal-care, or environmental sampling matrix; it reviews MT biology and tumour pathology. No `ingredients:` slug applies (the experimental systems are cell lines and rodent tumour models). No `products:` slug applies. No `matrices:` slug applies (the only "matrix" framing is liver, breast, skin, cervix, and pancreas tissue in human or rodent pathology, which is target-organ framing rather than HMI food-matrix sampling). No jurisdiction applies (the literature scope is international; authors are based in India but no national regulatory framework is applied).
 
@@ -141,8 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [4084fc224](https://github.com/paleofoundation/heavymetalindex/commit/4084fc224) | 2026-06-08 | minor | Narrative text revised |
-| [1cdae9b21](https://github.com/paleofoundation/heavymetalindex/commit/1cdae9b21) | 2026-06-08 | major | 13 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

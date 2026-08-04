@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Riyazuddin et al. 2022 — Heavy metal toxicity and sequestration in plants
 
+## Overview
+
 Riyazuddin, Nisha, Ejaz, Khan, Kumar, Ramteke, and Gupta (corresponding author Gupta at Kookmin University, Seoul, with co-authors at the University of Szeged, Szent István University, Jamia Hamdard University, Dongguk University, and Mandsaur University) review the published evidence on how heavy metals (HMs) impair plant growth and on the morphological, physiological, biochemical, and molecular mechanisms plants deploy to tolerate and sequester them. The paper is a "Review" article in *Biomolecules* (MDPI) covering 264 cited references, three schematic figures (Figure 1 morphological symptoms; Figure 2 the ROS / phytochelatin / metallothionein / antioxidant-enzyme response axis; Figure 3 phytohormone crosstalk under HM exposure), and one synthesis table (Table 1) cataloguing genes whose differential expression has been linked to HM tolerance in transgenic or knockout systems. The review reports no primary chemical, occurrence, or exposure measurements in any food, beverage, supplement, personal-care, or environmental matrix; its value to the wiki is conceptual background for the plant-side biology of metal uptake, translocation, chelation, and vacuolar sequestration, on which the wiki's metals/ and mitigation/remediation-evidence pages may draw when explaining why specific crops accumulate specific metals and what biological levers exist for plant-side mitigation.
 
 ## Why this matters
@@ -181,8 +183,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c36d38bcb](https://github.com/paleofoundation/heavymetalindex/commit/c36d38bcb) | 2026-06-08 | minor | Narrative text revised |
-| [9b3f9fef2](https://github.com/paleofoundation/heavymetalindex/commit/9b3f9fef2) | 2026-06-08 | major | 15 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

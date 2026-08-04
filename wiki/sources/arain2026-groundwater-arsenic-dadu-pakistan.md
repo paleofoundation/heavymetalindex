@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Arain et al. 2026 — Groundwater arsenic and hydrochemistry in flood-prone Dadu district, Sindh, Pakistan
 
+## Overview
+
 This study characterized the hydrochemistry of 159 groundwater samples from District Dadu, Sindh, one of Pakistan's most flood-prone agricultural districts, assessing fitness for drinking and irrigation. Arsenic concentrations ranged up to 500 µg/L, exceeding WHO and Pakistan National Standards for Drinking Water Quality limits (10 µg/L) at a substantial fraction of sampling sites. Fluoride co-contamination was also widespread. Total dissolved solids reached up to 22,900 mg/L, and Escherichia coli was detected in 59.7% of samples, indicating concurrent microbiological hazard. Hazard quotient analysis showed elevated non-carcinogenic health risks for arsenic and fluoride, with infants and children identified as the highest-risk subpopulations due to their lower body weight relative to intake. The sodium adsorption ratio and residual sodium carbonate indices indicated that a majority of groundwater samples are unsuitable for irrigation without treatment, raising concerns for arsenic transfer to crops grown in the district.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [15eca2e78](https://github.com/paleofoundation/heavymetalindex/commit/15eca2e78) | 2026-05-12 | major | 4 sections added; narrative text revised |

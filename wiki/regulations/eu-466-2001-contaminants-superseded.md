@@ -22,6 +22,8 @@ updated: 2026-05-18
 
 # EC 466/2001 - EU contaminants framework in foodstuffs (superseded)
 
+## Overview
+
 Commission Regulation (EC) No 466/2001 of 8 March 2001 set EU maximum levels for certain contaminants in foodstuffs. It recast the earlier EC 194/97 framework and was itself superseded by [[regulations/eu-1881-2006-contaminants-superseded|EC 1881/2006]] when that successor framework became applicable on 1 March 2007.
 
 This page exists as a historical citation target for older source pages that cite EC 466/2001 rather than the later EC 1881/2006 or EU 2023/915 frameworks. Use it only for source-era provenance. For live EU regulatory comparisons, use [[regulations/eu2023-contaminants-maximum-levels]] or the relevant current companion page.
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [eb66ab0b4](https://github.com/paleofoundation/heavymetalindex/commit/eb66ab0b4) | 2026-05-18 | major | Contamination-profile values revised; 6 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Shahim et al. 2019 — FET sensor for multiplexed Cr(III)/Cr(VI) detection in water
 
+## Overview
+
 This paper describes the development and characterization of a portable field effect transistor (FET)-based sensor array for simultaneous detection of Cr(III) and Cr(VI) in liquid media, with a detection limit below the US EPA maximum contaminant level (MCL) of 100 ppb (0.1 mg/L) total chromium in drinking water. The sensor uses ion-selective membranes incorporating target-specific ionophores: bis(cyclohexanone)oxaldihydrazone for Cr(III) and quinaldine red for Cr(VI), achieving calibration sensitivities of 99 mV/log[Cr3+] and 71 mV/log[Cr6+] respectively, with detection limits of 10^-11 M. The device is designed for point-of-use water quality monitoring without laboratory infrastructure.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

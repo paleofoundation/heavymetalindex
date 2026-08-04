@@ -27,6 +27,8 @@ updated: 2026-06-01
 
 # Hussain et al. 2024 - Total arsenic in rice genotypes under soil amendments
 
+## Overview
+
 This open book chapter reports total arsenic uptake in two rice genotypes, Kainat and Basmati-385, under gypsum, farmyard manure, cow dung, lignite, biogas slurry, biomaterial, and untreated control conditions. The routeable food endpoint is rice grain total As on a dry-weight basis, not rice milk. Cow dung and biomaterial treatments produced the lowest grain As values in the printed table, including 0.04 mg/kg for Kainat under biomaterials and 0.09 mg/kg for Basmati-385 under biomaterials.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [bd42001f4](https://github.com/paleofoundation/heavymetalindex/commit/bd42001f4) | 2026-06-01 | major | 5 sections added; narrative text revised |

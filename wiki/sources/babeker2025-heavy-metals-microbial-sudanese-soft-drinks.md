@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Babeker 2025 — Heavy metals and microbial profile of Sudanese carbonated soft drinks and fruit-flavoured beverages, Khartoum
 
+## Overview
+
 This Sudanese single-laboratory study analysed twenty non-alcoholic beverages (eleven carbonated soft drinks and nine fruit-flavoured beverage products) from five Sudanese bottlers in Khartoum for five heavy metals (Pb, Cd, Fe, Cu, Cr) by flame atomic absorption spectroscopy and for microbial contamination (total aerobic plate count, total yeast/mould, *E. coli*, *Salmonella*) by membrane-filtration culture, compared against the WHO 2011 limit references the authors cite (Pb 0.01 ppm, Fe 0.3 ppm, Cu 2.0 ppm, Cd 0.003 ppm, Cr 0.05 ppm). Cadmium, copper, chromium were below detection in every sample; iron was below detection in every carbonated soft drink and detected in six of nine fruit-flavoured beverages (all below the 0.3 ppm limit). Lead was the only metal exceeding a cited limit: detected above 0.01 ppm in four of eleven carbonated soft drinks (0.016–0.066 ppm) and in one of nine fruit-flavoured beverages (0.013 ppm); detected below 0.01 ppm in two further fruit-flavoured beverages. All twenty samples were negative for total aerobic count, total yeast/mould, *E. coli*, and *Salmonella*. The auto-discovery filename labelled this paper as a cadmium-in-soft-drinks finding; in fact Cd was below detection across the entire sample, and the binding result of the study is lead occurrence in branded carbonated beverages from the Sudanese bottling sector.
 
 ## Key numbers
@@ -116,8 +118,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [985d580bf](https://github.com/paleofoundation/heavymetalindex/commit/985d580bf) | 2026-06-09 | minor | Narrative text revised |
 | [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
-| [1a5a1ecf3](https://github.com/paleofoundation/heavymetalindex/commit/1a5a1ecf3) | 2026-05-31 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

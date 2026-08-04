@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ramadan et al. 2024 — Heavy metals and water quality in Bahr Mouse stream, Egypt
 
+## Overview
+
 This study assesses heavy metal contamination and water quality in Bahr Mouse stream, a drainage waterway in Dakahlia Governorate, Egypt, which serves as a source of water for human consumption and agricultural irrigation. The authors measured eight heavy metals (Fe, Mn, Cd, Cu, Pb, Zn, Ni, Co, Cr) in 38 surface water samples collected in winter and summer seasons by flame atomic absorption spectrometry (AAS), then calculated a water quality index (WQI) to characterize suitability for drinking water use.
 
 ## Key numbers
@@ -64,6 +66,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

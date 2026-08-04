@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # CFS 2012 — Safety Issues of Baby Bottles and Children's Tableware (RAS Report No. 47)
 
+## Overview
+
 The Hong Kong Centre for Food Safety (CFS) review summarises the food-contact-material safety landscape for baby bottles, sippy cups, and children's tableware as of January 2012. The bulk of the document covers two organic migrants — bisphenol A (BPA) from polycarbonate (PC) baby bottles and formaldehyde from melamine-ware — and their regulatory status across the EU, US, mainland China, Australia, and Hong Kong. Heavy-metal relevance for HMI is concentrated in Annex II (Overview of Common Non-Plastics): the table identifies lead and cadmium as the migrants of concern from ceramic glazes and decorative paints, nickel and chromium (including chromium VI) as the components of concern from stainless steel tableware, and aluminium as the component of concern from aluminium drinking bottles. The body narrative additionally notes that migration of heavy metals from metal-ware increases when the article contacts highly acidic foods, and the public advice section recommends avoiding holding highly acidic foods in metal tableware for long periods. No original heavy-metal occurrence or migration data are reported; the document is a qualitative regulatory review with IARC classifications and pointers to the EU, US, and Chinese specific migration limits.
 
 ## Key numbers
@@ -114,8 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8cae8bf6e](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf6e) | 2026-06-01 | major | 1 section added |
 | [1be9575c1](https://github.com/paleofoundation/heavymetalindex/commit/1be9575c1) | 2026-05-31 | minor | Narrative text revised |
-| [9f8d4fe66](https://github.com/paleofoundation/heavymetalindex/commit/9f8d4fe66) | 2026-05-31 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

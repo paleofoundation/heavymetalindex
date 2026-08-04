@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # González-Torres et al. 2023 — Comparative review of heavy metals in edible vegetable oils (2015–2022)
 
+## Overview
+
 This review synthesizes the scientific literature (2015–2022) on the presence of heavy metals in edible vegetable oils, analyzing more than 25 metals across 35 different oil types from 24 countries. The most studied oils are olive (14.36%), sunflower (13.81%), rapeseed (9.94%), and corn (9.94%); the most studied metals are Cd (14.60%), Pb (12.41%), Cu (12.04%), and Fe (9.49%). A key regulatory finding: cadmium, the most analyzed metal in this matrix, had no specific international regulatory limit for edible vegetable oils in the reviewed regulation set, despite high values reported in some reviewed primary studies. The review also highlights antimony (Sb) in PET-packaged edible oils as an emerging migration question.
 
 ## Key numbers
@@ -118,9 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2c6c3c12a](https://github.com/paleofoundation/heavymetalindex/commit/2c6c3c12a) | 2026-05-18 | minor | Narrative text revised |
-| [0df08e5c6](https://github.com/paleofoundation/heavymetalindex/commit/0df08e5c6) | 2026-05-17 | major | 3 sections added and 2 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

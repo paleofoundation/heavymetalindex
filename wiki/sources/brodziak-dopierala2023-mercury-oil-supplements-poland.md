@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # Brodziak-Dopierała et al. 2023 — Mercury in oil-based dietary supplements on the Polish market
 
+## Overview
+
 This peer-reviewed study measures total mercury (tHg) in 36 oil-based dietary supplements purchased from Polish pharmacies, drugstores, and herbal shops, using atomic absorption spectrometry via the amalgamation technique (AMA 254, Altec; LOD 0.01 ng Hg). The 36 preparations span vegetable oils (n = 18, all cold-pressed and unrefined), cod liver oils (n = 12), and shark liver oils (n = 6). All samples fell below the EU maximum level for dietary supplements of 0.10 mg/kg (100 µg/kg). Counterintuitively, vegetable oil supplements contained significantly higher tHg concentrations than fish oil supplements. No preparation approached a health-relevant dose at standard recommended intakes.
 
 This paper is distinct from Brodziak-Dopierała et al. 2024 (which covers a broader set of medicines and dietary supplements, n = 139, 2022–2023 purchase dates) and from Torović et al. 2024 (which covers fish oil supplements only in Serbia/Srpska, n = 42).
@@ -136,9 +138,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [860527061](https://github.com/paleofoundation/heavymetalindex/commit/860527061) | 2026-05-26 | minor | Narrative text revised |
-| [0bf88ec36](https://github.com/paleofoundation/heavymetalindex/commit/0bf88ec36) | 2026-05-26 | major | 1 section added; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

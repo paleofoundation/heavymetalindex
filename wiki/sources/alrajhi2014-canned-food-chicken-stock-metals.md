@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Al-Rajhi 2014 — Metals in imported canned foods and chicken stock in Riyadh
 
+## Overview
+
 Al-Rajhi measured multiple metals in imported canned foods and chicken stock purchased from supermarkets around Riyadh, Saudi Arabia. The paper reports coded samples rather than public product names, so occurrence values are kept at the imported canned-food/chicken-stock category level. Total arsenic is reported as As, and chromium is reported as total Cr; the paper does not provide inorganic arsenic or Cr-VI speciation.
 
 ## Key numbers
@@ -98,8 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [cccf08a17](https://github.com/paleofoundation/heavymetalindex/commit/cccf08a17) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [7fbaa8b08](https://github.com/paleofoundation/heavymetalindex/commit/7fbaa8b08) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Mehouel 2021 - Algerian seafood metals review
 
+## Overview
+
 Mehouel and Fowler reviewed published concentrations of arsenic, cadmium, lead, total mercury, and methylmercury in seafood species from Algerian coastal waters and compared selected data with neighboring Mediterranean studies from Tunisia and Morocco. The source is secondary evidence: it compiles values from earlier seafood studies rather than generating new measurements. Arsenic is reported as `As` without inorganic speciation, while mercury values distinguish `Hg` from `MeHg` where the source does so.
 
 ## Key numbers
@@ -106,6 +108,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [d79540411](https://github.com/paleofoundation/heavymetalindex/commit/d79540411) | 2026-06-08 | major | 4 sections added; narrative text revised |

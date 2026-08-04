@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Willacker et al. 2023 — Reservoir stratification and mercury in Smallmouth Bass along the Snake River
 
+## Overview
+
 This study examined total mercury (THg) concentrations in Smallmouth Bass from reservoir, tailrace, and free-flowing habitats along an 863 km segment of the Snake River (22 impoundments), and assessed the role of reservoir thermal stratification in modulating Hg bioaccumulation. Across three fish size-classes, THg concentrations in reservoirs and tailraces averaged 76% higher than in free-flowing river segments. Among reservoir types, THg was highest in inconsistently stratified reservoirs (47% higher than annually stratified, 144% higher than unstratified). Tailraces below stratified reservoirs had higher THg than those below unstratified or inconsistently stratified reservoirs. The fraction of fish exceeding human consumption benchmarks was 52–80% from stratifying reservoirs and downstream tailraces, compared to 6–17% where stratification did not occur.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cc296bdc4](https://github.com/paleofoundation/heavymetalindex/commit/cc296bdc4) | 2026-05-13 | major | 4 sections added; narrative text revised |

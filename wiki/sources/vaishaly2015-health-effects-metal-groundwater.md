@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Vaishaly et al. 2015 — Health effects of metal-contaminated groundwater
 
+## Overview
+
 Vaishaly, Mathew, and Krishnamurthy (Department of Biotechnology, Sapthagiri College of Engineering, Bangalore) review human-health effects from heavy metals delivered via contaminated groundwater, with brief sections on Zn, Pb, Cu, Cd, Ni, As, Cr, Hg, and Mn followed by a short remediation overview. The paper is a five-page narrative review with 21 references, framed around drinking-water exposure as the dominant pathway for arsenic and lead and around food and cigarettes for cadmium. No primary data are presented; reported numerical values are reproductions of WHO guideline values, USEPA-style daily-allowance figures, and ranges cited from earlier reviews. The review's appropriate use is as a teaching-level orientation to per-metal toxicology, not as a source of occurrence values for ingredient or product contamination profiles.
 
 ## Key numbers
@@ -101,6 +103,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ec1d778b2](https://github.com/paleofoundation/heavymetalindex/commit/ec1d778b2) | 2026-05-18 | major | 8 sections added; narrative text revised |

@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # CFIA 2020 — Toxic metals in selected foods, April 2018–March 2019
 
+## Overview
+
 The Canadian Food Inspection Agency tested 985 samples of bran products, infant formula, meal replacement products, protein powders, and rice products collected from retail outlets in six Canadian cities (Halifax, Montreal, Toronto, Ottawa, Vancouver, Calgary) over fiscal year 2018–2019 for arsenic, cadmium, lead, and mercury. Across all 985 samples, 70% contained at least one of the four metals and 12% contained traces of all four; rice products had the highest mean arsenic level (0.263 ppm, max 1.13 ppm in brown rice bran/germ powder) and protein powders had the highest mean cadmium (0.060 ppm), lead (0.035 ppm), and mercury (0.003 ppm) levels. Infant formula had the lowest detection rates and the lowest mean values for all four metals; all arsenic and lead results in ready-to-serve infant formula and ready-to-serve meal replacement beverages met Canada's existing tolerances, and Health Canada concluded that no sample in the survey posed a concern to human health.
 
 ## Key numbers
@@ -105,6 +107,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [ee7adcf7c](https://github.com/paleofoundation/heavymetalindex/commit/ee7adcf7c) | 2026-06-02 | major | 6 sections added; narrative text revised |

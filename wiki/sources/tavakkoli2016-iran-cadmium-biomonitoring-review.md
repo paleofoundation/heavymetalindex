@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Tavakkoli & Khanjani 2016 — Systematic review of human cadmium biomonitoring in Iran
 
+## Overview
+
 This narrative systematic review aggregates 18 Iranian biomonitoring studies (of 25 retrieved) reporting cadmium concentrations in human matrices — blood, urine, breast milk, hair, saliva, amniotic fluid, umbilical cord blood, and deciduous teeth — across general, occupational, and clinical populations in Iran, with sampling years spanning roughly 2003 through 2015. The authors report no formal meta-analysis because of population heterogeneity; the review's value is corpus-level: it surfaces the Iranian biomonitoring evidence base for Cd, in one place, with consistent attribution. Three headline patterns emerge from the assembled corpus: (1) Cd concentrations are systematically higher in industrial workers than in general-population referents (Yazd electroplating glazers post-shift urine 10.85 ± 12.88 µg/g creatinine vs office-worker referents 3.07 ± 7.24 µg/g; Borujen natural-gas-pipeline back welders 1.72 ± 0.65 µg/g creatinine vs unexposed controls 0.04 ± 0.07 µg/g); (2) Cd concentrations are higher in smokers than non-smokers in general-population samples (Farzin et al. blood Cd in male smokers 2.18 ± 0.89 µg/L vs male non-smokers 1.74 ± 0.66 µg/L; Ebrahim et al. amniotic-fluid Cd in pregnant smokers vs non-smokers, with a smoking-thiocyanate correlation r=0.882); and (3) Cd concentrations are elevated in residents of industrial regions relative to non-industrial regional referents (Tadayon et al. hair Cd Tehran 1.76 ± 1.09 µg/g vs Tekab 0.35 ± 0.56 µg/g; Norouzi et al. breast-milk Cd Lenjan/Mobarakeh-steel-region 2.31 µg/L vs Konjedjan rural-referent 0.772 µg/L). The review does not aggregate food-matrix Cd data and does not propose Iranian exposure or dietary-intake thresholds; the JECFA/FAO 25 µg/kg body weight per month provisional tolerable monthly intake is cited but not compared to per-study figures.
 
 ## Key numbers
@@ -164,6 +166,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [4e5c6e63c](https://github.com/paleofoundation/heavymetalindex/commit/4e5c6e63c) | 2026-06-01 | major | 1 source added; 5 sections added; narrative text revised |

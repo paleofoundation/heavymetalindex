@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Enamorado-Montes et al. 2021 - Total mercury accumulation in rice grown in La Mojana-region soil, Colombia
 
+## Overview
+
 This controlled greenhouse study evaluated total mercury (tHg) accumulation in roots, husks, and grains of three commercial Oryza sativa L. cultivar codes (FA473, FA2000, FAM) cultivated in soil from La Mojana, Colombia. The control soil already contained 130 ug/kg Hg; the authors also spiked soil to 800 and 1500 ug/kg Hg. Across all cultivar/treatment combinations, Hg partitioned strongly into roots (overall mean 739.04 ug/kg tHg), with lower concentrations in husks (74.18 ug/kg) and grains (17.02 ug/kg), and translocation factors from root to grain were below 0.13 in all cases. The highest reported grain concentration, 26.15 +/- 3.23 ug/kg in FA473 at 1500 ug/kg soil Hg, exceeded the source-cited EU 10 ug/kg and China 20 ug/kg rice comparators, while all hazard quotients remained below 1.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [f5e5458af](https://github.com/paleofoundation/heavymetalindex/commit/f5e5458af) | 2026-05-18 | major | 3 sections added and 1 removed; narrative text revised |
-| [c3a27e230](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e230) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

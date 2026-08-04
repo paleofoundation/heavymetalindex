@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-12
 ---
 
+## Overview
+
 Ali et al. (2025) develop a carbon dots-based dual-analyte fluorometric sensor for the simultaneous detection of aluminum (Al3+) and cobalt (Co2+) in canned food products. The sensor is validated in canned tomato sauce and canned tuna as real food matrices, making this one of the few papers in this batch that tests directly in food rather than water.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb0c500b](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c500b) | 2026-05-12 | major | 4 sections added; narrative text revised |

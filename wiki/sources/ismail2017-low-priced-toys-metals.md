@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Syed Ismail 2017 - heavy metals in low-priced toys
 
+## Overview
+
 Syed Ismail and colleagues measured total elemental content in `42` low-priced toy samples from convenience shops in urban Selangor, Malaysia. The toys were imported from China and grouped by toy use category and material; the routeable evidence is for finished toy paint/coatings and accessible toy substrate materials, not for food or biological matrices. Measurements were made by HDXRF and reported as total content in `ppm`, so the results should not be treated as EN 71-3 migration-test values even though the paper compares them with EN 71-3:2013 Category III concentration limits.
 
 ## Key numbers
@@ -118,6 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [7b1480441](https://github.com/paleofoundation/heavymetalindex/commit/7b1480441) | 2026-06-09 | major | 7 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

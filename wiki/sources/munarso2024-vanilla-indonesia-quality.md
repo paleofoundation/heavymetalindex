@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Munarso et al. 2024 — Chemical quality and production dynamics of Indonesian vanilla
 
+## Overview
+
 Survey-and-laboratory study of cured Indonesian vanilla beans (Vanilla planifolia Andrews) sampled May–August 2023 across seven provinces, conducted by Indonesia's National Research and Innovation Agency (BRIN) with the National Food Agency (NFA) to inform a Codex Alimentarius draft standard for vanilla. The paper's primary focus is vanillin content and physical/chemical quality across four export grades, plus production constraints (theft-driven premature harvest, curing variation between farmers and exporters). Heavy-metal data (Pb and Cd only) appear in a single contaminant table (Table 6) framed by the authors as evidence supporting a "clean-green-safety" positioning of Indonesian vanilla in the export market.
 
 ## Key numbers
@@ -112,8 +114,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [929871549](https://github.com/paleofoundation/heavymetalindex/commit/929871549) | 2026-05-28 | minor | Narrative text revised |
 | [6a02117a2](https://github.com/paleofoundation/heavymetalindex/commit/6a02117a2) | 2026-05-28 | major | 3 sections added and 1 removed; narrative text revised |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-05
 
 # Enemuor et al. 2021 - Heavy metals in Kogi East palm oil
 
+## Overview
+
 Enemuor and colleagues measured physicochemical quality, microbial contamination, and selected heavy metals in traditionally processed palm oil sold in three Kogi East markets in Nigeria. The routeable HMI evidence is Table 3, which reports market-level mean concentrations in ppm for cadmium, chromium, lead, arsenic, copper, and iron. Cadmium was highest in Idah market samples, while arsenic and iron were highest in Anyigba and Idah samples respectively.
 
 ## Key numbers
@@ -81,8 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [9986cc7f3](https://github.com/paleofoundation/heavymetalindex/commit/9986cc7f3) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [4496362b4](https://github.com/paleofoundation/heavymetalindex/commit/4496362b4) | 2026-06-05 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

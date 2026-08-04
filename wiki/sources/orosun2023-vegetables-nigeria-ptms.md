@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Orosun et al. 2023 - potentially toxic metals in Nigerian vegetables
 
+## Overview
+
 Orosun and coauthors measured As, Cd, Cr, and Pb in irrigation water, soil, and two farm-grown leafy vegetables (cabbage and a plant labelled "spinach (Amaranthushybridus)") in Ilorin, Kwara State, Nigeria, and modeled non-cancer and cancer health risks using Monte Carlo simulation. The leafy-green species the paper calls spinach is Amaranthus hybridus (an African leafy green, locally called spinach), not Spinacia oleracea; this source routes to the leafy-vegetables pages rather than the spinach pages. The paper provides field/context evidence tied to contaminated irrigation and soil along the lower Niger River basin.
 
 ## Key numbers
@@ -71,8 +73,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [88f7d13d0](https://github.com/paleofoundation/heavymetalindex/commit/88f7d13d0) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [f5efca8e6](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8e6) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

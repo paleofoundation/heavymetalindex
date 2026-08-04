@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # Health Canada 2019 — Guideline Technical Document, Lead in drinking water
 
+## Overview
+
 This Health Canada Guideline Technical Document, prepared in collaboration with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) of 0.005 mg/L (5 µg/L) for total lead in drinking water based on a sample taken at the consumer's tap using the appropriate protocol for the type of building being sampled, paired with an explicit ALARA expectation because the MAC exceeds the drinking-water concentration associated with neurodevelopmental effects in children. The MAC is **feasibility-based** rather than a calculated health-based value: it is set at the U.S. EPA practical quantitation limit of 5 µg/L because no threshold below which lead is no longer associated with adverse neurodevelopmental effects has been identified. The document reviews the IQ-decrement dose-response anchored on the Lanphear et al. (2005) pooled analysis (BMDL₀₁ = 1.2 µg/dL blood lead, EFSA 2013/JECFA 2011 derivation) and translates it via three PBPK models (IEUBK, Leggett, O'Flaherty) into per-µg/L drinking-water slope factors, plus a parallel cancer risk assessment from Waalkes et al. (1995) renal-tumor data. It compiles Canadian provincial/territorial occurrence data, an analytical-method inventory, a treatment-technology and distribution-system review centered on lead service lines and corrosion control, and an international comparison with U.S. EPA, WHO, EU, Australian NHMRC, and California OEHHA values.
 
 ## Key numbers
@@ -47,9 +49,9 @@ Non-cancer (IQ) risk assessment derivation (Sections 10.2 and 8.5; p. 64-67):
 - Critical study: **Lanphear et al. (2005)** pooled analysis of 7 longitudinal prospective cohorts (n=1,333 children; Boston, Cincinnati/Cleveland, Rochester, Mexico City, Port Pirie, Kosovo), Wechsler-Intelligence-Scales-for-Children IQ vs concurrent BLL, piece-wise linear best-fit model.
 - Reference point: **EFSA (2013) BMDL₀₁ = 1.2 µg/dL** concurrent blood lead associated with a 1-IQ-point (1%) benchmark response, derived via the piece-wise linear best-fit model and adopted by Health Canada. JECFA (2011)'s parallel BMDL₀₁ from the same Lanphear et al. (2005) dataset is **0.8 µg/dL** (also blood lead, not adopted here — different model choice).
 - PBPK translation to external oral dose for a 5-year-old child (drinking water set as sole exposure source):
-  - IEUBK: **0.4 µg/kg bw/day** (selected as point of departure)
-  - Leggett (enhanced): **0.2 µg/kg bw/day** (not used; known low-dose BLL overestimation per Pounds and Leggett 1998)
-  - O'Flaherty: **0.8 µg/kg bw/day**
+ - IEUBK: **0.4 µg/kg bw/day** (selected as point of departure)
+ - Leggett (enhanced): **0.2 µg/kg bw/day** (not used; known low-dose BLL overestimation per Pounds and Leggett 1998)
+ - O'Flaherty: **0.8 µg/kg bw/day**
 - Slope factor: **2,500 (mg/kg bw/day)⁻¹** = 1% benchmark response ÷ 0.0004 mg/kg bw/day.
 - Equation for child IQ-loss per drinking-water concentration: average IQ loss = (drinking-water concentration × 0.9 L/day ÷ 18.2 kg) × 2,500 (mg/kg bw/day)⁻¹.
 
@@ -102,10 +104,10 @@ Lead-service-line and stagnation-driven exposure (Section 5.1.1 cont., p. 13):
 
 - Alberta corrosion-optimization study (Hayes et al. 2014; n=12 LSL homes, six each in Edmonton and Calgary; 12 sequential 1-L samples per home): peak Pb after 30-min stagnation 1.3–31.8 µg/L (Edmonton) and 5.7–39.6 µg/L (Calgary); after 6-h stagnation 3.0–62.7 µg/L (Edmonton) and 9.1–96.5 µg/L (Calgary).
 - Manitoba worst-case LSL homes (Brandon and Portage la Prairie; 4 consecutive 1-L samples after 6-h stagnation; Manitoba Conservation 2013):
-  - Brandon homes: stagnant mean **39.2 µg/L** (range <DL–280, n=80); 5-min flushed mean **21.62 µg/L** (range <DL–79, n=20).
-  - Portage la Prairie homes: stagnant mean **19.3 µg/L** (range 0.61–140, n=72); 5-min flushed mean **3.62 µg/L** (range 0.55–21, n=14).
-  - Brandon schools (n=5): first-draw mean **11 µg/L** (range 2.7–27); 30-sec flushed mean **3.4 µg/L** (range 0.54–13); 5-min flushed mean **1.33 µg/L** (range 0.59–2).
-  - Portage la Prairie schools (n=5): first-draw mean **9.14 µg/L** (range 0.5–36); 30-sec flushed mean **0.93 µg/L** (range 0.5–2.2); 5-min flushed mean **0.55 µg/L** (range 0.5–0.75).
+ - Brandon homes: stagnant mean **39.2 µg/L** (range <DL–280, n=80); 5-min flushed mean **21.62 µg/L** (range <DL–79, n=20).
+ - Portage la Prairie homes: stagnant mean **19.3 µg/L** (range 0.61–140, n=72); 5-min flushed mean **3.62 µg/L** (range 0.55–21, n=14).
+ - Brandon schools (n=5): first-draw mean **11 µg/L** (range 2.7–27); 30-sec flushed mean **3.4 µg/L** (range 0.54–13); 5-min flushed mean **1.33 µg/L** (range 0.59–2).
+ - Portage la Prairie schools (n=5): first-draw mean **9.14 µg/L** (range 0.5–36); 30-sec flushed mean **0.93 µg/L** (range 0.5–2.2); 5-min flushed mean **0.55 µg/L** (range 0.5–0.75).
 - Doré et al. (2014) pre-1970 Canadian schools (n=7 elementary + 1 high; 6–10 sites per building; 30-sec, 5-min, 30-min, 8-h stagnation): of n=356 samples, **72.7% <5 µg/L**, range <0.15–851 µg/L (overall average 11 µg/L). 30-sec pre-drink flushing reduced concentration in 9 of 10 schools.
 - Deshommes et al. (2016) Canadian non-residential buildings: n=78,971 samples from n=8,530 buildings across four provinces (schools, daycares, universities, hospitals, penitentiaries); maximum concentrations **13,200 µg/L** (long stagnation) and **3,890 µg/L** (short stagnation); biokinetic modelling indicated taps at most buildings would not elevate BLL, but some daycares and elementary schools showed system-wide release at concentrations potentially capable of acute exposure (BLL ≫5 µg/dL).
 
@@ -133,12 +135,12 @@ Canadian biomonitoring — BLL (Section 5.6; CHMS cycles 1–3; p. 20-21):
 
 - Geometric mean BLL all participants ages 6–79 (cycle 1 / 2 / 3): **1.3 / 1.2 / 1.1 µg/dL**.
 - By age group (cycles 1 / 2 / 3, µg/dL):
-  - 3–5 y: na / 0.93 / 0.77
-  - 6–11 y: 0.90 / 0.79 / 0.71
-  - 12–19 y: 0.80 / 0.71 / 0.64
-  - 20–39 y: 1.1 / 0.98 / 0.90
-  - 40–59 y: 1.6 / 1.4 / 1.3
-  - 60–79 y: 2.1 / 1.9 / 1.6
+ - 3–5 y: na / 0.93 / 0.77
+ - 6–11 y: 0.90 / 0.79 / 0.71
+ - 12–19 y: 0.80 / 0.71 / 0.64
+ - 20–39 y: 1.1 / 0.98 / 0.90
+ - 40–59 y: 1.6 / 1.4 / 1.3
+ - 60–79 y: 2.1 / 1.9 / 1.6
 - BLLs higher in males than females across most cycles/age strata.
 - Atypical-exposure communities (smelter towns, rural communities consuming game with lead shot; SENES 2012): GM BLLs 1–5.6 µg/dL (children, 2000–2010) and 1.7–3.9 µg/dL (adults, 2001–2005). Maximum BLLs **≈40 µg/dL** (children) and **≈50 µg/dL** (adults).
 - Decline since 1978–1979 baseline (mean BLL ≈4.79 µg/dL in ages 6–79; Bushnik et al. 2010): **>70%**.
@@ -239,7 +241,7 @@ No new analytical measurements are reported. The document operates as a synthesi
 - Cite-key uses the `hc` (Health Canada) agency abbreviation with the publication year (2019), consistent with other Health Canada source pages in `wiki/sources/` (e.g., `hc2008-aluminum-food-additives-industry-request`, `hc2008-review-dietary-exposure-aluminum`, `hc2020-cadmium-drinking-water`).
 - The sibling file `guidance-document.pdf` in the same folder is byte-identical (SHA-256 match) to `raw_path`; listed in `near_duplicates`.
 - `matrices` includes general drinking-water descriptors (drinking-water, tap-water, source-water, raw-water, treated-water, distribution-water) that span the document's data tables; no closer-fitting canonical matrix slug for treated/distributed water exists in the system-prompt list.
-- No matching `[[regulations/canada-lead-drinking-water-mac]]` page exists yet in the taxonomy snapshot; the document IS the operative Canadian federal MAC for lead in drinking water. Flagged here as a backlog regulation-page candidate but NOT created (regulation pages require a hard agency identifier and a Karen-driven Step 0 Lock per CLAUDE.md Part 10).
+- No matching `[[regulations/canada-lead-drinking-water-mac]]` page exists yet in the taxonomy snapshot; the document IS the operative Canadian federal MAC for lead in drinking water. Flagged here as a backlog regulation-page candidate but NOT created (regulation pages require a hard agency identifier and a Karen-driven Step 0 Lock).
 - The 2019 publication date matches the cover page ("March, 2019"; Pub. 180137). Catalogue number is H144-13/11-2018E-PDF (the "-2018E-PDF" suffix is a catalogue-numbering convention preserved verbatim, not a year mismatch).
 - No brand names appear in the source's contamination data. Vendor names retained in the analytical-methods table (U.S. EPA, APHA, ASTM, Palintest) are method-publishing standards bodies and a method-vendor identifier, not Part 12 violations (Exception 2: scientific-method vendor/material names).
 - Page numbers in Key numbers cite the PDF's internal page numbers (e.g., "p. 69-70" = Section 11.0 Rationale and Section 10.4 International considerations).
@@ -247,7 +249,7 @@ No new analytical measurements are reported. The document operates as a synthesi
 - Per-µg/L IQ-loss values in Table 2 are reported exactly as the document derives them via IEUBK (per p. 66: slope factor 2,500 (mg/kg bw/day)⁻¹, child intake 0.9 L/day, bw 18.2 kg; per Figure 1: population MID background = 2.27%).
 - Audit subagent (2026-06-04) flagged the original "JECFA's parallel BMDL₀₁ in dietary external-dose units = 0.8 µg/kg bw/day" as misattributed; verified against source p. 51 — finding correct. The 0.8 µg/dL is JECFA's BMDL₀₁ in blood lead concentration (same units as EFSA's 1.2 µg/dL), not in dietary mg/kg bw/day. The 0.8 µg/kg bw/day in this document is the O'Flaherty PBPK external oral dose (p. 66), not a JECFA dietary BMDL. Block corrected — EFSA (2013) explicitly named as the source of the 1.2 µg/dL adopted reference, JECFA (2011) parallel BMDL₀₁ correctly labelled as 0.8 µg/dL blood lead.
 - Audit subagent (2026-06-04) flagged the "IEUBK default child intake: drinking water 0.55 L/day" claim as unverified in pages reviewed; verified against source p. 39 (Section 8.5.3) — **finding was a false positive**. The 0.55 L/day value is explicitly stated in §8.5.3: "The IEUBK default drinking water consumption rate of 0.55 L/day and default bioavailability of lead in drinking water of 50% were used. The model's assumed body weight of 4- to 5-year-old children was 18.2 kg." The auditor read pages 39 and 66 but did not locate the §8.5.3 reference. Wiki claim retained unchanged.
-- Audit subagent (2026-06-04) flagged four invented regulation slugs (`who-lead-drinking-water-guideline`, `us-epa-lead-copper-rule`, `eu-drinking-water-directive`, `efsa-lead-bmdl-iq`) in `## Wiki pages this source may touch`; verified against filesystem (`wiki/regulations/`) — finding correct. Replaced `efsa-lead-bmdl-iq` with the existing `[[regulations/efsa-lead-contam-2010]]` page (which is the EFSA 2010 Scientific Opinion that established the BMDL₀₁), added `[[regulations/epa-iris-lead-rfd]]` (existing page), and removed the three other invented slugs. Backlog regulation-page candidates surfaced by this source but not yet in taxonomy: a Canadian-MAC page for lead in drinking water (analogous to the cadmium-MAC backlog flagged elsewhere); a U.S. EPA Lead and Copper Rule page (1991 action level 15 µg/L); a WHO drinking-water lead guideline page (2011/2017 provisional 10 µg/L); and an EU Drinking Water Directive page (2018 revised 5 µg/L, phased 10 y). These four are flagged here, not created (regulation pages require Karen-driven Step 0 Lock per CLAUDE.md Part 10).
+- Audit subagent (2026-06-04) flagged four invented regulation slugs (`who-lead-drinking-water-guideline`, `us-epa-lead-copper-rule`, `eu-drinking-water-directive`, `efsa-lead-bmdl-iq`) in `## Wiki pages this source may touch`; verified against filesystem (`wiki/regulations/`) — finding correct. Replaced `efsa-lead-bmdl-iq` with the existing `[[regulations/efsa-lead-contam-2010]]` page (which is the EFSA 2010 Scientific Opinion that established the BMDL₀₁), added `[[regulations/epa-iris-lead-rfd]]` (existing page), and removed the three other invented slugs. Backlog regulation-page candidates surfaced by this source but not yet in taxonomy: a Canadian-MAC page for lead in drinking water (analogous to the cadmium-MAC backlog flagged elsewhere); a U.S. EPA Lead and Copper Rule page (1991 action level 15 µg/L); a WHO drinking-water lead guideline page (2011/2017 provisional 10 µg/L); and an EU Drinking Water Directive page (2018 revised 5 µg/L, phased 10 y). These four are flagged here, not created (regulation pages require Karen-driven Step 0 Lock).
 - Audit subagent (2026-06-04) flagged the IEUBK version string "0.99d for Windows v1.1 build 11" as conflating two distinct identifiers (source p. 39 uses "IEUBK for Windows version 1.1 build 11" and "IEUBK version 0.99d" as separate references); verified — minor finding accepted. The Methods (brief) section already correctly names the model as "IEUBK 0.99d for Windows v1.1 build 11" in the form Health Canada uses in §8.5.3; left as-is because the source itself uses this conjoined phrasing in the assessment narrative.
 
 ## Wiki pages this source may touch
@@ -266,7 +268,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 6 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

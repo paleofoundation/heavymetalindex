@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Rahim et al. 2020 — Toxic heavy metals in widely consumed fruits, Pakistan
 
+## Overview
+
 This primary study measured chromium, cobalt, nickel, cadmium and lead in 11 commonly consumed fruits (apple, apricot, banana, cherry, grapes, guava, lemon, mango, orange, peach and pomegranate) collected from 28 markets across Khyber Pakhtunkhwa (KPK) province in Pakistan, a predominantly mountainous region with limited industrialisation and historically light pesticide use. All concentrations are reported on a dry-weight basis and every fruit×metal mean falls well below the WHO maximum permissible limits the authors cite (Cr 2.3, Co 50, Ni 70, Cd 0.1, Pb 0.3 mg kg⁻¹ DW). The authors attribute the low loadings to the region's low industrial footprint and frame the dataset as a low-contamination baseline for these fruit commodities.
 
 ## Key numbers
@@ -122,9 +124,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7c16826c5](https://github.com/paleofoundation/heavymetalindex/commit/7c16826c5) | 2026-05-19 | minor | Narrative text revised |
-| [c65e50143](https://github.com/paleofoundation/heavymetalindex/commit/c65e50143) | 2026-05-19 | major | 1 section added; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Liu et al. 2023 — PTEs in Beibu Gulf Surface Water and Sediment
 
+## Overview
+
 This peer-reviewed study characterizes the concentrations, distribution, sources, and ecological/health risk of seven potentially toxic elements (As, Cd, Cr, Cu, Hg, Pb, Zn) in surface seawater and sediment of the eastern Beibu Gulf, China, sampled in spring 2021 (47 seawater sites) and winter 2022 (23 seawater sites, 23 sediment sites). Using PCA and positive matrix factorization (PMF), the authors found PTEs in seawater were primarily of natural origin, with the exception of Hg (predominantly anthropogenic). Sediment PTE concentrations were generally below historical values, indicating acceptable ecological risk for most elements. Significant spatial and seasonal variation was observed in seawater PTE concentrations.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

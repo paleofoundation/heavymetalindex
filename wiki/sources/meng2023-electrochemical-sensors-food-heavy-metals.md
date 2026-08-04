@@ -27,6 +27,8 @@ updated: 2026-05-18
 
 # Meng et al. 2023 — Electrochemical sensors for heavy metal detection in food
 
+## Overview
+
 Meng and colleagues survey the state of electrochemical sensor (ECS) technology for detecting heavy metals in food matrices through roughly 2022. The review organizes the literature by electrode-modification material — inorganic nanomaterials (Au, Ag, Bi, Pt nanoparticles; metal-oxide nanoparticles including Fe₃O₄, TiO₂, ZnO, MnO₂, MgO, Co₃O₄, Co₂O₃; carbon nanotubes; graphene), organic materials (small molecules such as GSH, DTT, NAC, MPA; polymers including PGA and PPy; metal-organic frameworks), and biomaterials (nucleic-acid aptamers and DNAzymes; enzymes including urease, choline oxidase, catalase) — and assesses each class for sensitivity, selectivity, linear range, and limit of detection. The authors recommend Fe₃O₄/graphene/nucleic-acid composites as the optimal materials combination for electrode modification, balancing economy, sensitivity, specificity, and stability.
 
 ## Key numbers
@@ -131,9 +133,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7bab55052](https://github.com/paleofoundation/heavymetalindex/commit/7bab55052) | 2026-05-18 | minor | Narrative text revised |
-| [63b2fa5df](https://github.com/paleofoundation/heavymetalindex/commit/63b2fa5df) | 2026-05-18 | major | 9 sections added and 6 removed; narrative text revised |
-| [4ff3b02c6](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02c6) | 2026-05-15 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

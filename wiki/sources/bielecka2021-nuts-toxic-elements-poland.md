@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Bielecka 2021 - Toxic elements in nuts
 
+## Overview
+
 Bielecka and colleagues measured arsenic, cadmium, lead, and mercury in 120 edible nut samples available on the Polish market. The paper reports values by nut subgroup and evaluates dietary risk indicators. Arsenic and mercury are total-element measurements; the paper does not report inorganic arsenic or methylmercury speciation.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [2bae4095a](https://github.com/paleofoundation/heavymetalindex/commit/2bae4095a) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)
 
+## Overview
+
 The EFSA AFC Panel established a tolerable weekly intake for aluminium of **1 mg Al/kg body weight per week** in its May 2008 Scientific Opinion on the Safety of Aluminium from Dietary Intake, replacing the prior JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week (a sevenfold reduction) ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]). The TWI is anchored on neurotoxic, reproductive, and developmental effects in animal studies ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]). The Panel concluded the TWI is likely to be exceeded in a significant part of the European population, particularly among consumers of foods containing aluminium-based food additives, infants on certain formulae, and adults consuming antacids ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]).
 
 JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]).
@@ -38,9 +40,9 @@ JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week ([[sources/efsa-alumini
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) (2008). *Safety of Aluminium from Dietary Intake*. The EFSA Journal 2008;754:1-34. [https://doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754). Government report, A-tier. [[sources/efsa-aluminium-afc-2008|Source record]]
+1. [[sources/efsa-aluminium-afc-2008|Safety of Aluminium from Dietary Intake]]<span class="hmi-ref-meta">EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) · The EFSA Journal 2008;754:1-34 · 2008 · [doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -50,9 +52,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
-| [9873dd17f](https://github.com/paleofoundation/heavymetalindex/commit/9873dd17f) | 2026-04-25 | major | 1 source added; contamination-profile values revised; 1 section added |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Janvier et al. 2019 — Metals in Mondia whytei root bark used as a food supplement
 
+## Overview
+
 Janvier et al. measured minerals, vitamins, protein, and sugars in root bark of Mondia whytei, a Rwandan wild edible plant consumed fresh or powdered as a food supplement. The heavy-metal-relevant findings are dry-weight Pb and Cd concentrations in root bark across Rwandan localities and in old versus young Byangabo plants.
 
 ## Key numbers
@@ -73,6 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [cea70cc2b](https://github.com/paleofoundation/heavymetalindex/commit/cea70cc2b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

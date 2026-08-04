@@ -91,29 +91,7 @@ created_routed_sources: 3
 
 # Dried Herbs
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 8/10 HMTc analytes, total n=28 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 10 jurisdictions, top PL 25% | — |
-| D3 Anthropogenic evidence | GAP | 5 soil; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 4 drivers, 5 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb THIN, Cd THIN, iAs THIN, tAs POOLABLE, tHg POOLABLE, Ni THIN, Al THIN, Cr THIN, Sn THIN | Pb: needs 3 distinct source(s); Cd: needs 3 distinct source(s); iAs: needs 2 more study(ies); Ni: needs 1 more study(ies); Al: needs 3 distinct source(s); Cr: needs 1 more study(ies); Sn: needs 2 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 5 claims checked, 5 supported; 8 citations, 0 orphan, 6 foreign | 6 foreign citation(s) not naming dried-herbs: angelon-gaetz2018-lead-spices-north-carolina, chime2025-nigerian-spices-as-cd-pb, cicero2022-minerals-spices-aromatic-herbs |
-| D9 Mitigation | OK | 1 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn; pairing 0 paired, 9 single, 0 unpaired | Pb: THIN, needs 3 distinct source(s); Cd: THIN, needs 3 distinct source(s); iAs: THIN, needs 2 more study(ies); Ni: THIN, needs 1 more study(ies); Al: THIN, needs 3 distinct source(s); Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 2 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.25, scale 0.25 | spread 0.75 — starved: legal-defensibility |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Dried herbs — the dehydrated leaves, flowers, and aerial plant parts of culinary and medicinal aromatic plants (oregano, basil, thyme, parsley, sage, rosemary, mint, chamomile, lemon balm, dill, marjoram, savory) — share the drying-concentration heavy-metals pattern with the broader [[ingredients/herbs-and-spices]] category. The dominant feature is concentration: fresh herbs at 80-90% moisture content dry down to product at 8-12% moisture, producing a 7-10× per-mass concentration uplift on Pb, Cd, and other metals relative to the fresh-weight baseline. The current corpus loads 3 routed sources plus broader herbs-and-spices corpus reachable via the routing layer: Angelon-Gaetz 2018 NC home-investigation cohort (n=386, [[sources/angelon-gaetz2018-lead-spices-north-carolina]]), Chime 2025 Nigerian-market spice trace-metal work (n=7, [[sources/chime2025-nigerian-spices-as-cd-pb]]), Cicero 2022 multi-origin 8-metal panel (n=13, [[sources/cicero2022-minerals-spices-aromatic-herbs]]), Fischer 2022 Polish mercury in spice plants (n=48, [[sources/fischer2022-mercury-spice-plants-poland]]), Huff 2025 Lancaster PA spice survey (n=116, [[sources/huff2025-spices-lancaster-pa]]), Kowalska 2021 Polish 240-sample herb-spice-tea-coffee panel ([[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]]), LHAAC 2025 Australian Coordinated Sampling Project 41 (n=380, [[sources/lhaac2025-csp41-herbs-spices-wa]]), NYS DOH 2019 spice-specific health-based guidance values ([[sources/nys-doh2019-metals-spices-guidance]]).
 
@@ -183,22 +161,22 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set a dried-herbs-
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 8 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Angelon-Gaetz KA, Klaus C, Chaudhry EA, and Bean DK (2018). *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*. MMWR Morbidity and Mortality Weekly Report. [https://doi.org/10.15585/mmwr.mm6746a2](https://doi.org/10.15585/mmwr.mm6746a2). Government report, A-tier. [[sources/angelon-gaetz2018-lead-spices-north-carolina|Source record]]
-2. Chime CI, Eze M, Ndukwe IE, Abah EI, Chinyere OND-R, and Anene CS (2025). *Assessment of toxic trace metal contamination in food spices sold in Nigerian markets*. World Journal of Advanced Research and Reviews. [https://doi.org/10.30574/wjarr.2025.27.2.3032](https://doi.org/10.30574/wjarr.2025.27.2.3032). Peer-reviewed, B-tier. [[sources/chime2025-nigerian-spices-as-cd-pb|Source record]]
-3. Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. (2022). *Mineral and Microbiological Analysis of Spices and Aromatic Herbs*. Foods. [https://doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548). Peer-reviewed, A-tier. [[sources/cicero2022-minerals-spices-aromatic-herbs|Source record]]
-4. Fischer A and Brodziak-Dopierała B (2022). *The Mercury Concentration in Spice Plants*. Processes. [https://doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954). Peer-reviewed, A-tier. [[sources/fischer2022-mercury-spice-plants-poland|Source record]]
-5. Huff A, Lam H, Ghimirey A, Goldring J, Pimentel M, and Okatch H (2025). *Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation*. Environmental Monitoring and Assessment. [https://doi.org/10.1007/s10661-025-14064-9](https://doi.org/10.1007/s10661-025-14064-9). Peer-reviewed, A-tier. [[sources/huff2025-spices-lancaster-pa|Source record]]
-6. Kowalska G (2021). *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*. International Journal of Environmental Research and Public Health. [https://doi.org/10.3390/ijerph18115779](https://doi.org/10.3390/ijerph18115779). Peer-reviewed, A-tier. [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland|Source record]]
-7. LHAAC (2025). *Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices*. Local Health Authorities Analytical Committee, Edith Cowan University. Government report, A-tier. [[sources/lhaac2025-csp41-herbs-spices-wa|Source record]]
-8. Bureau of Toxic Substance Assessment, Center for Environmental Health, and New York State Department of Health (2019). *Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices*. New York State Department of Health. Government report, A-tier. [[sources/nys-doh2019-metals-spices-guidance|Source record]]
+1. [[sources/angelon-gaetz2018-lead-spices-north-carolina|Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018]]<span class="hmi-ref-meta">Angelon-Gaetz KA, Klaus C, Chaudhry EA, and Bean DK · MMWR Morbidity and Mortality Weekly Report · 2018 · [doi.org/10.15585/mmwr.mm6746a2](https://doi.org/10.15585/mmwr.mm6746a2)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/chime2025-nigerian-spices-as-cd-pb|Assessment of toxic trace metal contamination in food spices sold in Nigerian markets]]<span class="hmi-ref-meta">Chime CI, Eze M, Ndukwe IE, Abah EI, Chinyere OND-R, and Anene CS · World Journal of Advanced Research and Reviews · 2025 · [doi.org/10.30574/wjarr.2025.27.2.3032](https://doi.org/10.30574/wjarr.2025.27.2.3032)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/cicero2022-minerals-spices-aromatic-herbs|Mineral and Microbiological Analysis of Spices and Aromatic Herbs]]<span class="hmi-ref-meta">Cicero N, Gervasi T, Durazzo A, Lucarini M, Macrì A, Nava V, et al. · Foods · 2022 · [doi.org/10.3390/foods11040548](https://doi.org/10.3390/foods11040548)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/huff2025-spices-lancaster-pa|Heavy metals in spices from Lancaster, PA: arsenic, cadmium, and lead exposure risks and the need for regulation]]<span class="hmi-ref-meta">Huff A, Lam H, Ghimirey A, Goldring J, Pimentel M, and Okatch H · Environmental Monitoring and Assessment · 2025 · [doi.org/10.1007/s10661-025-14064-9](https://doi.org/10.1007/s10661-025-14064-9)</span><span class="hmi-ref-tag">Review</span>
+6. [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland|The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland]]<span class="hmi-ref-meta">Kowalska G · International Journal of Environmental Research and Public Health · 2021 · [doi.org/10.3390/ijerph18115779](https://doi.org/10.3390/ijerph18115779)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/lhaac2025-csp41-herbs-spices-wa|Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices]]<span class="hmi-ref-meta">LHAAC · Local Health Authorities Analytical Committee, Edith Cowan University · 2025</span><span class="hmi-ref-tag">Government</span>
+8. [[sources/nys-doh2019-metals-spices-guidance|Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices]]<span class="hmi-ref-meta">Bureau of Toxic Substance Assessment, Center for Environmental Health, and New York State Department of Health · 2019</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -227,9 +205,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 3 sources added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

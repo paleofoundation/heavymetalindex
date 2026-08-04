@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 
 # Tsegay et al. 2025 — Toxicological qualities and detoxification of fruit by-products: review
 
+## Overview
+
 Open-access narrative review (CC BY 4.0, De Gruyter) synthesizing toxicological data on by-products (peels, pomace, seeds, kernels, rinds) of the world's highest-production fruits as of 2022, motivated by the valorization push that increasingly routes these by-products into food ingredients, nutraceuticals, cosmetics, and animal feed. Scope is global; the review pulls from refs [1–142] without restricting to any single jurisdiction, growing region, or analytical method. Hazards examined are heavy metals (As, Cd, Co, Cr, Ni, Pb, Hg), mycotoxins (aflatoxins, OTA, fumonisins, ZEN, T-2, alternaria toxins, tryptoquialanines), anti-nutritional factors (oxalates, phytates, tannins, alkaloids, saponins, HCN, glycosides), toxicant organic compounds (biogenic amines, AMG, phthalates), and pesticide/fungicide residues. Final section reviews thermal, chemical, and non-thermal detoxification methods (high-pressure processing, pulsed electric field, cold plasma, supercritical CO₂, ultrasound, ozone treatment, lyophilization, fermentation).
 
 ## Key numbers
@@ -162,9 +164,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c23bfb991](https://github.com/paleofoundation/heavymetalindex/commit/c23bfb991) | 2026-05-20 | minor | Narrative text revised |
-| [6e3fabb4b](https://github.com/paleofoundation/heavymetalindex/commit/6e3fabb4b) | 2026-05-20 | major | 3 sections added and 3 removed; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

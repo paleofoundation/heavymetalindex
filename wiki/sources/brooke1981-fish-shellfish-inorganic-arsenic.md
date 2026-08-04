@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Brooke 1981 - Fish and shellfish inorganic arsenic
 
+## Overview
+
 Brooke and Evans developed two methods for determining total inorganic arsenic in fish, shellfish, and fish products. The paper is method-focused, but Table V reports occurrence-style values for total arsenic and inorganic arsenic in fish and shellfish sample rows. Inorganic arsenic is reported as the sum of the inorganic valency states isolated by the methods; total arsenic remains a separate `tAs` measurement.
 
 ## Key numbers
@@ -72,6 +74,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [10ae140c5](https://github.com/paleofoundation/heavymetalindex/commit/10ae140c5) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Sule et al. 2026 - Metals and modeled health risk in Gombe drinking water
 
+## Overview
+
 Sule, Olowolafe, and Dabi assessed Pb, Fe, Cu, Cr, Mn, and Cd in 87 drinking-water samples from Gombe Local Government Area, Nigeria, including tap, borehole, well, vendor, rainwater, sachet-water, and bottled-water sources. The paper reports source-type chronic daily intake, hazard quotient, hazard index, and incremental lifetime cancer risk outputs for adults, children, and infants. It is useful for drinking-water source context in Nigeria and for source-specific risk documentation, but the PDF does not print the underlying AAS concentration table, so the modeled risk outputs should not be used as benchmark concentration values.
 
 ## Key numbers
@@ -121,9 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [bdad52137](https://github.com/paleofoundation/heavymetalindex/commit/bdad52137) | 2026-06-08 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
 <!-- END: hmi-page-history -->

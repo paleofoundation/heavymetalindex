@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Shibata et al. 2016 — Arsenic Risk Assessment for US Infant Rice Cereal
 
+## Overview
+
 Shibata and colleagues (Northern Illinois University; Global Environmental Health LAB, Brooklyn) constructed a probabilistic Monte Carlo risk assessment of inorganic-arsenic exposure for US infants and toddlers ages 4–24 months, drawing concentration inputs for rice cereal from FDA market-survey data and inputs for drinking water, infant formula, and other infant solid foods (purees, 2nd/3rd-stage foods, fruits, vegetables, meats) from EPA and published literature. The objective was to evaluate whether detected iAs concentrations in US-market rice cereal are safe for infant consumption and to derive a candidate maximum contaminant level (MCL) for iAs in rice cereal given overall background exposure. Evidence tier B because the concentration data are modeled inputs rather than independently measured samples.
 
 ## Key numbers
@@ -76,8 +78,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [5c2ca53f1](https://github.com/paleofoundation/heavymetalindex/commit/5c2ca53f1) | 2026-06-08 | major | 1 section added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

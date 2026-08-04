@@ -27,6 +27,8 @@ updated: 2026-05-26
 
 # Kabaran et al. 2020 — Heavy metals in Northern Cyprus olive oil and health risk assessment
 
+## Overview
+
 This study determined concentrations of Cr, Co, Ni, As, Cd, Pb, Fe, Cu, and Zn in 27 natural olive oil samples from Morphou and Lefka (Northern Cyprus) by ICP-MS, and paired them with a dietary intake survey of 500 adults to calculate Daily Intake of Metal (DIM) and Health Risk Index (HRI). All HRI values were below 1 for all metals, indicating no significant non-carcinogenic health risk to the local adult population from olive oil consumption at observed concentrations and dietary intake levels. The study is noteworthy for using individually measured body weights and dietary intakes rather than assumed population averages, and for its Cyprus-specific geographic relevance.
 
 ## Key numbers
@@ -99,9 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ac7068f6e](https://github.com/paleofoundation/heavymetalindex/commit/ac7068f6e) | 2026-05-26 | minor | Narrative text revised |
-| [636028f84](https://github.com/paleofoundation/heavymetalindex/commit/636028f84) | 2026-05-26 | minor | Narrative text revised |
-| [95ea0e449](https://github.com/paleofoundation/heavymetalindex/commit/95ea0e449) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

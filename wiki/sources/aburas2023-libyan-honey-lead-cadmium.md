@@ -24,6 +24,8 @@ updated: 2026-06-03
 
 # Aburas et al. 2023 - Libyan honey lead and cadmium
 
+## Overview
+
 Aburas et al. measured lead and cadmium plus basic physicochemical properties in several Libyan honey types. The source is direct honey occurrence evidence for Pb and Cd because it reports honey-sample concentrations in ppm using atomic absorption spectroscopy. The clearest food-safety signal was lead in the tamarisk/athel honey sample, which the authors describe as elevated relative to the cited European honey limit.
 
 ## Key numbers
@@ -72,9 +74,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [2c492a796](https://github.com/paleofoundation/heavymetalindex/commit/2c492a796) | 2026-06-03 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

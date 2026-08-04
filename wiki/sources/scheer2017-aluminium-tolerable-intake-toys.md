@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # SCHEER 2017 — Tolerable intake of aluminium: review for toy migration limit adaptation
 
+## Overview
+
 The Scientific Committee on Health, Environmental and Emerging Risks (SCHEER) was commissioned by the European Commission to review available aluminium toxicity data and advise on a tolerable intake level suitable for adapting the migration limits for aluminium in toys under Toy Safety Directive 2009/48/EC. This opinion synthesises the EFSA 2008 TWI (1 mg Al/kg bw/week), the JECFA 2007 (superseded) and JECFA 2011 PTWI (2 mg Al/kg bw/week), the WHO 2010 drinking-water guideline, the ATSDR 2008 profile, and the SCCS 2014 cosmetics opinion. It concludes that a TDI of 0.3 mg Al/kg bw/day is appropriate for toy migration limit calculation, derived from the NOAEL of 30 mg/kg bw/day in Poirier et al. (2011), a GLP twelve-month neurodevelopmental study of aluminium citrate in Sprague-Dawley rats. The opinion notes that dietary aluminium exposure in children frequently already exceeds both the EFSA and JECFA reference values, particularly for soy-based formula-fed infants, and recommends that aluminium exposure from toys should be minimised.
 
 ## Key numbers
@@ -125,9 +127,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fd2079a29](https://github.com/paleofoundation/heavymetalindex/commit/fd2079a29) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [afdfc1657](https://github.com/paleofoundation/heavymetalindex/commit/afdfc1657) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

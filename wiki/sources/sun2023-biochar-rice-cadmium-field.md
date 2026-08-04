@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Sun et al. 2023 - Biochar and cadmium uptake in rice
 
+## Overview
+
 Sun and colleagues ran a three-year field trial in Cd-contaminated paddy soil near Shenyang, China, measuring cadmium in brown rice, rice organs, and soil Cd fractions after corn-stalk biochar application. The source is primary evidence for rice Cd mitigation and soil-to-rice transfer under a contaminated-field intervention. It is not a market-basket distribution: the field had total soil Cd of 3.17 mg/kg and was selected as a contaminated site, so the brown-rice values should be routed as agronomic intervention/context evidence rather than as a normal commercial-rice benchmark pool.
 
 ## Key numbers
@@ -130,6 +132,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [5f73e0485](https://github.com/paleofoundation/heavymetalindex/commit/5f73e0485) | 2026-06-02 | major | 10 sections added; narrative text revised |

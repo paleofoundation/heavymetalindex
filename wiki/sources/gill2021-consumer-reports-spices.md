@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Gill 2021 — Consumer Reports testing of heavy metals in 15 herbs and spices
 
+## Overview
+
 Consumer Reports commissioned independent laboratory testing of 126 dried herb and spice products purchased from US retail across 15 categories (basil, black pepper, chili powder, coriander, cumin, curry powder, garlic powder, ginger, oregano, paprika, saffron, sesame seed, thyme, turmeric, white pepper) for arsenic, cadmium, and lead. Two to three lots of each product were tested. Roughly one-third of the products carried what Consumer Reports characterized as concerning combined heavy-metal levels for children at typical serving sizes, with lead the most frequently elevated analyte and thyme and oregano emerging as the categories with the broadest cross-product contamination. The dataset is widely cited in subsequent US discussion of spice-borne heavy-metal exposure and is a public, brand-aware survey rather than a peer-reviewed study; it is treated here as a B-tier NGO survey and aggregated to the category and analyte level.
 
 ## Key numbers
@@ -98,9 +100,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [79a1de956](https://github.com/paleofoundation/heavymetalindex/commit/79a1de956) | 2026-05-28 | minor | Narrative text revised |
-| [cdec79369](https://github.com/paleofoundation/heavymetalindex/commit/cdec79369) | 2026-05-28 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

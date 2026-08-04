@@ -25,6 +25,8 @@ updated: 2026-05-25
 
 # Alzagtat et al. 2016 - Conformity of Fruit Nectar Samples to Libyan Specification Standards
 
+## Overview
+
 This study evaluated Libyan fruit nectar samples against Libyan specification standards and measured heavy metals in local and imported nectars, including pineapple-containing nectar categories.
 
 ## Key numbers
@@ -66,8 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8704bcd7c](https://github.com/paleofoundation/heavymetalindex/commit/8704bcd7c) | 2026-06-09 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [4123c6387](https://github.com/paleofoundation/heavymetalindex/commit/4123c6387) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

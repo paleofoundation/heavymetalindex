@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Mahdi et al. 2024 - Metals in meat cooked with different utensils
 
+## Overview
+
 Mahdi et al. measured iron, zinc, copper, cadmium, lead, and aluminium in meat cooked using different utensil materials. The paper is useful for both meat and cookware pages because it reports utensil-specific metal concentrations in the cooked food matrix. Copper utensils increased iron and copper, aluminium utensils increased zinc and aluminium, Teflon and aluminium had higher cadmium, and iron utensils had the highest lead.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [6461a39ba](https://github.com/paleofoundation/heavymetalindex/commit/6461a39ba) | 2026-05-31 | major | 1 section added |
 | [8291a0d46](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d46) | 2026-05-31 | major | 5 sections added; narrative text revised |

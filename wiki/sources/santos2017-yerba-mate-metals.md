@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Santos et al. 2017 - arsenic, cadmium, and lead in yerba mate
 
+## Overview
+
 Santos and coauthors measured total arsenic, cadmium, and lead in 104 yerba mate samples marketed in three southern Brazilian states. Cadmium was the main compliance signal: many samples exceeded Brazil's 0.4 mg/kg ANVISA cadmium limit, while arsenic remained below the cited 0.6 mg/kg limit. The source is occurrence evidence for dried yerba mate leaves used in herbal infusions, not mineral water.
 
 ## Key numbers
@@ -73,8 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [29e2635df](https://github.com/paleofoundation/heavymetalindex/commit/29e2635df) | 2026-06-09 | minor | Narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

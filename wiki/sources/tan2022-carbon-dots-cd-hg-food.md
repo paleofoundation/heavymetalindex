@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Tan et al. 2022 — Carbon dot fluorescence sensor for Cd and Hg in food matrices
 
+## Overview
+
 This method paper reports the synthesis of nitrogen-doped carbon dots (N-CDs) as a dual-channel fluorescence sensor for simultaneous detection of cadmium (Cd²⁺) and mercury (Hg²⁺) ions in food samples. The sensor exploits differential quenching and enhancement effects on the carbon dot fluorescence signal to distinguish and quantify both analytes in a single measurement. The method was validated using spiked apple and cabbage matrices, with recovery rates and limits of detection reported.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3153dee0d](https://github.com/paleofoundation/heavymetalindex/commit/3153dee0d) | 2026-05-13 | major | 4 sections added; narrative text revised |

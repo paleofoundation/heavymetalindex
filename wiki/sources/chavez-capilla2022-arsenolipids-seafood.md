@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Chávez-Capilla 2022 — Arsenolipid transformations in humans
 
+## Overview
+
 This narrative review synthesizes current knowledge on arsenolipid species in seafood and fish oil, their bioaccessibility and bioavailability in the human gastrointestinal tract, and their potential transformation and accumulation in human tissues. The author frames arsenolipids as an underregulated food-safety concern because current regulatory limits for arsenic in food focus almost exclusively on inorganic arsenic (iAs), leaving the dominant arsenic species in seafood, which constitute 10–70% of total arsenic in oily fish, outside any formal limits. The review makes a case for interdisciplinary research into arsenolipid metabolism, particularly regarding gut microbiota and the blood-brain barrier, before regulatory agencies can act.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e4c0b2340](https://github.com/paleofoundation/heavymetalindex/commit/e4c0b2340) | 2026-05-13 | major | 4 sections added; narrative text revised |

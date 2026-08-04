@@ -28,6 +28,8 @@ updated: 2026-05-14
 
 # Sobhanardakani et al. 2017 — Aluminum and copper in commercial fruit juices, Iran
 
+## Overview
+
 This study analyzed aluminum (Al) and copper (Cu) concentrations in 48 commercially packaged fruit juice samples (cherry, mango, orange, and pineapple; 4 brands × 3 replicates per juice type) from Hamedan, Iran. The mean Al concentration (1.24 ± 0.36 mg/L) exceeded the WHO maximum permissible limit (MPL) of 0.2 mg/L, while Cu (mean 0.04 ± 0.02 mg/L) was well below its MPL of 2.0 mg/L. Despite elevated Al, health risk assessment using estimated average daily intake (EADI) and hazard index (HI) indicated no significant direct health hazard for adults or children. The highest Al was found in cherry juice from Brand 1 (3.30 mg/L), likely reflecting packaging interactions and acid-mediated Al leaching from Tetra Pak materials.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |

@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Carey et al. 2015 — Percolating cooking water removes up to 85% of inorganic arsenic from rice
 
+## Overview
+
 This PLOS ONE study tested three percolating-cooking approaches against the conventional absorption method for removing inorganic arsenic (iAs) from rice: (1) a laboratory cooking experiment at water-to-rice ratios of 3:1, 6:1 and 12:1 under reflux to capture evaporative losses; (2) a Soxhlet apparatus where cooking water was continuously recycled through distilled steam; and (3) an off-the-shelf domestic coffee percolator running near-boiling water through the rice. The 12:1 ratio removed an average 57±5% of iAs across all rice types; the Soxhlet method removed 59±8% (polished) and 69±10% (wholegrain); the coffee percolator removed 49±7% on average and up to 85% in the best individual sample. Dimethylarsinic acid (DMA) was not significantly reduced by any cooking method tested. Potassium was the only major mineral lost in substantial quantity (53% on coffee-percolator cooking).
 
 ## Key numbers
@@ -108,7 +110,7 @@ Page rebuilt 2026-05-28 from the source PDF (raw_sha256 5529a95f… matches the 
 - **Frontmatter `raw_handle`** was missing; added `auto-fetched` to match the discovery-pipeline convention used by sibling auto-fetched pages.
 - **Frontmatter field rename** `sha256` → `raw_sha256` to match the current v2 schema (e.g., `dehghani2020-food-lead-cadmium-mspe`).
 - **Legacy section** `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` per v2 schema; the prior body of that section listed `[[mitigation/cooking-methods-arsenic]]`, which is not in the current taxonomy and was removed.
-- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate Part 2 of CLAUDE.md (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
+- **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
 
 Audit subagent (2026-05-28) flagged the following; verified against source and applied or rejected:
 
@@ -129,9 +131,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [6238d1ad7](https://github.com/paleofoundation/heavymetalindex/commit/6238d1ad7) | 2026-05-28 | major | 1 source added; narrative text revised |
-| [89eb6bb88](https://github.com/paleofoundation/heavymetalindex/commit/89eb6bb88) | 2026-05-28 | major | 1 source added; 3 sections added and 2 removed; narrative text revised |
-| [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

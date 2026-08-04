@@ -31,6 +31,8 @@ updated: 2026-06-03
 
 # HELCOM 2017 — Pb, Cd, and Hg status assessment in Baltic Sea fish, mussels, sediment, and seawater (2011-2015)
 
+## Overview
+
 The HELCOM core indicator on metals evaluates the contamination status of the Baltic Sea marine environment for cadmium (Cd), lead (Pb), and total mercury (Hg) measured in seawater, biota (fish muscle, fish liver, mussel soft body), and sediment over the assessment period 2011-2015, against threshold values derived from EU Environmental Quality Standards (Water Framework Directive Directive 2008/105/EC, amended by Directive 2013/39/EU) and OSPAR Background Assessment Criteria. Good Environmental Status was not achieved for cadmium across most of the southern Baltic, was achieved for lead in northern and central sub-basins but exceeded the lead threshold in mussel and fish liver across the southwestern Baltic, and was not achieved for mercury in fish muscle in any of the assessed sub-basins. The assessment uses the HELCOM COMBINE monitoring database (hosted at ICES) and the agreed MIME R script that returns the upper bound of the 95 percent confidence level as the representative concentration per assessment unit.
 
 ## Key numbers
@@ -206,9 +208,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [4dbd67349](https://github.com/paleofoundation/heavymetalindex/commit/4dbd67349) | 2026-06-03 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

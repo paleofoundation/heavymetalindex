@@ -8,6 +8,8 @@ updated: 2026-05-30
 
 # Soil-to-plant transfer of heavy metals
 
+## Overview
+
 Root uptake from soil is the dominant pathway by which cadmium, arsenic, nickel, and a large share of the lead found in plant-derived foods enter the food system. For these elements the soil is the principal reservoir, and the concentration measured in an edible crop is the downstream result of a transfer process that begins in the soil solution. Understanding that process is what allows the literature to explain why a given commodity carries the contamination it does, rather than merely recording that it does. This page is the hub for that upstream half of the corpus; it sets out the mechanism, the quantitative discipline that governs how soil evidence may be used, and the element-specific behaviour that connects soil geochemistry to the [ingredient](/ingredients) pages downstream.
 
 ## Soil concentration is not food concentration
@@ -45,6 +47,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [a2f3a812b](https://github.com/paleofoundation/heavymetalindex/commit/a2f3a812b) | 2026-05-31 | major | Contamination-profile values revised; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

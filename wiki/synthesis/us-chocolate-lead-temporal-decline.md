@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # US chocolate lead has measurably declined since 2015; cadmium has not
 
+## Overview
+
 The US chocolate market has been under sustained California Proposition 65 enforcement pressure for over a decade, with private-litigation settlements driving cocoa-sourcing and processing changes at major manufacturers. Three independent peer-reviewed datasets spanning 2015 to 2022 now allow the question to be answered directly: has the regulatory pressure produced a measurable change in product-level heavy-metal concentrations? The answer is metal-specific. Lead concentrations in US-market dark chocolate and cocoa products have declined materially over the period. Cadmium has not, and may be increasing in the organic segment.
 
 The synthesis is bounded. It addresses the US dark chocolate and cocoa-powder product class only; milk chocolate, chocolate-containing baby foods, and global non-US markets are out of scope here and need separate treatment. The lead-declined-but-cadmium-did-not framing is the load-bearing finding the wiki should call out, both for what it says about the effectiveness of state-level enforcement reshaping a national market and for what it says about the limits of single-metal interventions in commodity supply chains where the contamination drivers differ by metal.
@@ -93,11 +95,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 3 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin (2018). *Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market*. Food Additives & Contaminants: Part B Surveillance. [https://doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700). Peer-reviewed, A-tier. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Source record]]
-2. Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA (2024). *A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA*. Frontiers in Nutrition. [https://doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231). Peer-reviewed, A-tier. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|Source record]]
-3. Zhao D, Wang P, and Zhao FJ (2024). *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*. Current Opinion in Environmental Science & Health. [https://doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6). Peer-reviewed, A-tier. [[sources/zhao2024-toxic-metals-metalloids-food-review|Source record]]
+1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA]]<span class="hmi-ref-meta">Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/zhao2024-toxic-metals-metalloids-food-review|Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies]]<span class="hmi-ref-meta">Zhao D, Wang P, and Zhao FJ · Current Opinion in Environmental Science & Health · 2024 · [doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -107,9 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9469b2835](https://github.com/paleofoundation/heavymetalindex/commit/9469b2835) | 2026-05-13 | major | 3 sources added; 8 sections added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

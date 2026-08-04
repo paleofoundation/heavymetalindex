@@ -8,6 +8,8 @@ updated: 2026-04-26
 
 # Soil nickel screening
 
+## Overview
+
 _Stub. Pending dedicated content describing how soil nickel concentrations are screened in the supply chain — relevant to crop-uptake risk assessment for cocoa, oats, legumes, and other nickel-bioaccumulator commodities. The EPA Eco-SSL (Ecological Soil Screening Level) framework provides plant-based and soil-invertebrate-based screening values that supply-chain actors can use to flag growing regions warranting commodity-level monitoring._
 
 The page should populate with:
@@ -22,9 +24,9 @@ See [[metals/nickel]] for the cross-source Ni synthesis and [[sources/epa-eco-ss
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. U.S. Environmental Protection Agency, Office of Solid Waste and Emergency Response (2007). *Ecological Soil Screening Levels for Nickel — Interim Final*. OSWER Directive 9285.7-76, U.S. Environmental Protection Agency. [www.epa.gov](https://www.epa.gov/chemical-research/ecological-soil-screening-level-metal-contaminants). Government report, A-tier. [[sources/epa-eco-ssl-nickel-2007|Source record]]
+1. [[sources/epa-eco-ssl-nickel-2007|Ecological Soil Screening Levels for Nickel — Interim Final]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency, Office of Solid Waste and Emergency Response · OSWER Directive 9285.7-76, U.S. Environmental Protection Agency · 2007 · [www.epa.gov](https://www.epa.gov/chemical-research/ecological-soil-screening-level-metal-contaminants)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -34,7 +36,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added; narrative text revised |
 | [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [d17b351b8](https://github.com/paleofoundation/heavymetalindex/commit/d17b351b8) | 2026-04-25 | major | 1 source added; contamination-profile values revised; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Vermont CHCC Rule (2016) — Chemical Disclosure Program guidance document
 
+## Overview
+
 This is the Vermont Department of Health's manufacturer-facing guidance document for the state's Chemical Disclosure Program, implementing 18 V.S.A. Chapter 38A (Act 188 of 2014) and the Vermont Chemicals of High Concern to Children (CHCC) Rule. The document is the February 16, 2016 DRAFT, issued in advance of the program's first reporting period that opened on January 1, 2016 and closed on July 1, 2016. The guidance does not establish chemical lists, numerical concentration limits, or product-specific bans on its own face — those are products of the statute (the chemicals-of-high-concern list at 18 V.S.A. § 1773) and a separate CHCC Rule. The guidance explains who must report, what must be reported, when reports are due, how reporting interacts with chemicals intentionally added versus present as contaminants, and which products and chemical uses are exempt. It is one of the four state children's-products programmes (WA, OR, VT, ME) referenced as a programme model in [[sources/ny-dec-tccp-2023-chem-pqls-draft]].
 
 ## Key numbers
@@ -106,8 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
 | [78a135e10](https://github.com/paleofoundation/heavymetalindex/commit/78a135e10) | 2026-06-01 | minor | Narrative text revised |
-| [e74355a4a](https://github.com/paleofoundation/heavymetalindex/commit/e74355a4a) | 2026-06-01 | major | 6 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

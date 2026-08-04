@@ -10,7 +10,7 @@ doi: null
 no_doi_assigned: true
 source_type: regulatory
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13, A-tier covers government reports and authoritative national/state-agency studies. This is the formal Quality Assurance Project Plan (QAPP) authored by Alex Stone (Senior Chemist, HWTR-HQ Program) for a Washington State Department of Ecology W2R/HWTR project funded by the Washington State Attorney General's Office. The QAPP was reviewed and approved by Ecology's Quality Assurance Officer (Samuel Iwenofu, HWTR-SWRO), the Section Manager (Ken Zarker, HWTR-HQ), and the W2R Clients (Joshua Grice and John Williams), making it an authoritative regulatory-program design document. It is the planning predecessor cited as 'Ecology 2012a-d' (one of four QAPPs) by the final report at [[sources/stone2021-wa-metals-childrens-consumer-products]] (Publication 14-04-014, Revised 2021). The document contains no original analytical measurement data; its evidentiary contribution is the documentary record of Washington State and federal regulatory action levels (Table 1), CSPA Reporting Rule context, planned analytical methods and detection limits, and quality control procedures applied in the eventual published report."
+tier_rationale: "A-tier covers government reports and authoritative national/state-agency studies. This is the formal Quality Assurance Project Plan (QAPP) authored by Alex Stone (Senior Chemist, HWTR-HQ Program) for a Washington State Department of Ecology W2R/HWTR project funded by the Washington State Attorney General's Office. The QAPP was reviewed and approved by Ecology's Quality Assurance Officer (Samuel Iwenofu, HWTR-SWRO), the Section Manager (Ken Zarker, HWTR-HQ), and the W2R Clients (Joshua Grice and John Williams), making it an authoritative regulatory-program design document. It is the planning predecessor cited as 'Ecology 2012a-d' (one of four QAPPs) by the final report at [[sources/stone2021-wa-metals-childrens-consumer-products]] (Publication 14-04-014, Revised 2021). The document contains no original analytical measurement data; its evidentiary contribution is the documentary record of Washington State and federal regulatory action levels (Table 1), CSPA Reporting Rule context, planned analytical methods and detection limits, and quality control procedures applied in the eventual published report."
 license: "us-state-government-public-domain"
 access_url: "https://apps.ecology.wa.gov/publications/SummaryPages/1207021.html"
 raw_path: "raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-015_WA_Ecology_2012_QAPP_Parabens_Metals_Childrens_Cosmetics.pdf"
@@ -31,6 +31,8 @@ created_by: claude-opus-4-7
 ---
 
 # Stone 2012 — WA Ecology QAPP for parabens and nine metals in children's cosmetic and personal care products (WSDOE 12-07-021)
+
+## Overview
 
 This is the formal Quality Assurance Project Plan (QAPP) issued by the Washington State Department of Ecology's Hazardous Waste and Toxics Reduction (HWTR) Program and Waste 2 Resources (W2R) Program (Stone 2012, Publication 12-07-021, February 2012) to scope a planned product-testing programme of parabens (four esters) and nine potentially hazardous metals — antimony (Sb), arsenic (tAs), cadmium (Cd), cobalt (Co), copper (Cu), lead (Pb), mercury (tHg), molybdenum (Mo), and zinc (Zn) — in children's cosmetic and personal care products purchased from Washington retailers. The study was authorised in response to the upcoming Children's Safe Product Act (CSPA, Chapter 70.240 RCW, passed 2008) Reporting Rule (finalised June 2011, with manufacturer reporting beginning August 2012 for the largest manufacturers of Tier 1 children's products), and funded by the Washington State Attorney General's Office. Six of the nine metals (Sb, tAs, Cd, Co, Mo, tHg) are CSPA Chemicals of High Concern to Children (CHCC). Lead is included because it is regulated under federal Consumer Product Safety Commission (CPSC) 16 C.F.R. § 1303 surface-coating restrictions for children's products and was part of the original CSPA. Copper and zinc are included because of Puget Sound water-quality concerns (Ecology 2011 toxic-chemical assessment).
 
@@ -74,8 +76,8 @@ Four paraben esters of para-hydroxybenzoic acid (CAS 99-96-7):
 - Ethyl paraben (CAS 120-47-8)
 - n-Propyl paraben (CAS 94-13-3)
 - Butyl paraben — two isomers reported separately:
-  - n-Butyl paraben (CAS 94-26-8)
-  - iso-Butyl paraben (CAS 4247-02-3)
+ - n-Butyl paraben (CAS 94-26-8)
+ - iso-Butyl paraben (CAS 4247-02-3)
 
 The European Union identified all four parabens on Washington's Chemicals of High Concern to Children (CHCC) list as Category 1 potential endocrine disruptors (Stone and Delistraty 2010); the parabens listing on the CHCC list pre-dated REACH and is the subject of ongoing EU re-evaluation (Background p. 5–6).
 
@@ -248,8 +250,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
-| [f5d4ec972](https://github.com/paleofoundation/heavymetalindex/commit/f5d4ec972) | 2026-06-02 | major | 2 sources added; narrative text revised |
-| [92f500006](https://github.com/paleofoundation/heavymetalindex/commit/92f500006) | 2026-06-02 | major | 4 sources added; 18 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 1
+sources: 17
 updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "Zero routed sources. Aggregates across matrices; populates as component-matrix evidence accumulates."
@@ -30,7 +30,7 @@ step0_lock_doc: docs/governance/category-7-step0-lock.md
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections per CLAUDE.md Part 6.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -52,11 +52,27 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fagbemi2023-akure-street-food-lead\|Fagbemi et al. 2023]]. *Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria*, IPS Journal of Public Health 3(2):73-78 | 2023 | Peer-reviewed | NG Pb, Cu, Fe, Zn occurrence in Seven street-hawked food types purchased from busy road intersections in Akure Metropolis, Nigeria (n=7) |
+| 1 | [[sources/authors2026-18-1-and-salmonella-enterica-16-9-strong\|authors 2026]]. *(18.1%) and Salmonella enterica (16.9%). Strong biofilm formation was detected in 81 isolates (48.8%), particularly*, Peer-reviewed article | 2026 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 2 | [[sources/authors2025-levels-of-rare-earth-elements-in-food-and\|authors 2025]]. *Levels of Rare Earth Elements in Food and Human Dietary Exposure:*, Peer-reviewed article | 2025 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 3 | [[sources/authors2025-the-icp-ms-study-on-the-release-of\|authors 2025]]. *The ICP-MS Study on the Release of Toxic Trace Elements from*, Peer-reviewed article | 2025 | Peer-reviewed | US MeHg, tHg, Cd, Pb, iAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 4 | [[sources/vegetables2025-vegetables-and-beneficial-roles\|Vegetables et al. 2025]]. *Vegetables and Beneficial Roles*, Peer-reviewed article | 2025 | Peer-reviewed | US Pb, Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 5 | [[sources/source2024-\|Харченко 2024]]. *САДОВОДСТВО, ОВОЩЕВОДСТВО, ВИНОГРАДАРСТВО И ЛЕКАРСТВЕННЫЕ КУЛЬТУРЫ*, Peer-reviewed article | 2024 | Peer-reviewed | US Cd, Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 6 | [[sources/authors2023-commercially-prepared-and-home-prepared-infant-fruit-and\|authors 2023]]. *Commercially Prepared and Home Prepared Infant Fruit and*, Peer-reviewed article | 2023 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 7 | [[sources/authors2023-the-stability-of-phenolic-compounds-in-fruit-berry\|authors 2023]]. *The Stability of Phenolic Compounds in Fruit, Berry,*, Peer-reviewed article | 2023 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 8 | [[sources/fagbemi2023-akure-street-food-lead\|Fagbemi et al. 2023]]. *Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria*, IPS Journal of Public Health 3(2):73-78 | 2023 | Peer-reviewed | NG Pb, Cu, Fe, Zn occurrence in Seven street-hawked food types purchased from busy road intersections in Akure Metropolis, Nigeria (n=7) |
+| 9 | [[sources/authors2022-benefits-and-availability-to-industry-five-smoothie-formulations\|authors 2022]]. *benefits, and availability to industry. Five smoothie formulations were produced and analyzed for*, Peer-reviewed article | 2022 | Peer-reviewed | US Cd, Pb, Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 10 | [[sources/authors2022-sweet-potato-is-not-simply-an-abundant-food\|authors 2022]]. *Sweet Potato Is Not Simply an Abundant Food Crop: A*, Peer-reviewed article | 2022 | Peer-reviewed | US Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 11 | [[sources/hwang2022-home-meal-replacement-heavy-metals\|Hwang et al. 2022]]. *Risk Assessment and Determination of Heavy Metals in Home Meal Replacement Products by Using Inductively Coupled Plasma Mass Spectrometry and Direct Mercury Analyzer*, Foods | 2022 | Peer-reviewed | KR Pb, Cd, tAs, Sn, tHg, MeHg occurrence in Home meal replacement products purchased from convenience and grocery stores in the Republic of Korea from January to... (n=480) |
+| 12 | [[sources/authors2020-lead-cadmium-mercury-aluminium-iron-nickel-bulging-them\|authors 2020]]. *lead, cadmium, mercury, aluminium, iron, nickel, bulging them metal packaging materials represents 15% of the total*, Peer-reviewed article | 2020 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 13 | [[sources/authors2018-by-the-accumulation-of-various-heavy-metals-24\|authors 2018]]. *by the accumulation of various heavy metals [24–26], polycyclic aromatic hydro-*, Peer-reviewed article | 2018 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 14 | [[sources/authors2017-through-complex-environmentally-mediated-pathways-the-exposure-for\|authors 2017]]. *through complex, environmentally mediated pathways. The exposure. For example, complementary foods for young*, Peer-reviewed article | 2017 | Peer-reviewed | US tAs, Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 15 | [[sources/authors2016-formulation-and-nutritional-evaluation-of-a-healthy-vegetable\|authors 2016]]. *Formulation and nutritional evaluation of a healthy vegetable*, Peer-reviewed article | 2016 | Peer-reviewed | US tHg, Cd, Pb, tAs, Al occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 16 | [[sources/authors2016-tance-of-vegetables-the-first-offering-infants-a\|authors 2016]]. *tance of vegetables. The first, offering infants a high variety of vegetables at weaning,*, Peer-reviewed article | 2016 | Peer-reviewed | US Pb, Al, Sn occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 17 | [[sources/prevention2010-best-available-techniques-bat\|Reference Document for the 2010]]. *Best Available Techniques (BAT)*, Peer-reviewed article | 2010 | Peer-reviewed | US tHg, Cd, Pb, Ni, Al, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -79,9 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
-| [cedfa8b8a](https://github.com/paleofoundation/heavymetalindex/commit/cedfa8b8a) | 2026-06-11 | correction | Narrative text revised |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | minor | Narrative text revised |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 2 sections added; narrative text revised |
-| [743ed7c4f](https://github.com/paleofoundation/heavymetalindex/commit/743ed7c4f) | 2026-05-30 | major | 2 sections added; narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -18,6 +18,8 @@ audience: [regulator, educator, app]
 
 # FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice
 
+## Overview
+
 FDA's Juice HACCP guidance recommends controls to ensure lead levels in ready-to-drink fruit juices and fruit nectars do not exceed 50 ppb when lead is a hazard reasonably likely to occur. HMI treats this as current FDA juice lead context, not as an HMTc standard.
 
 The FDA issued draft lead-in-juice action levels in 2022 that would set 10 ppb for apple juice and 20 ppb for other single-strength juices and blends. Those draft values are not for implementation and are tracked separately in [[regulations/fda2022-draft-lead-juice]].
@@ -33,6 +35,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e18eb986](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb986) | 2026-05-03 | major | 1 source added; contamination-profile values revised; 1 section added |

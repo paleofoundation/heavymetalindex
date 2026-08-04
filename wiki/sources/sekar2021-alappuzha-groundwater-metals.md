@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Selvam et al. 2021 — Heavy metal contamination in coastal aquifer groundwater, Kerala, India
 
+## Overview
+
 This study evaluated heavy metal contamination in 50 groundwater samples from the coastal aquifer of Alappuzha district, Kerala, India, using the OSPRC (Overall Pollution Risk Classification) framework across pre-monsoon and post-monsoon periods. ICP-OES was used to measure 12 elements including As, Cd, Sr, Ni, Cu, Fe, Ba, Cr, Pb, Al, Mn, and Co. The study found elevated concentrations of several metals compared to WHO drinking water guidelines, with the OSPRC framework identifying zones of moderate to high contamination risk. Seasonal variation was observed between pre- and post-monsoon samples, with some metals showing higher concentrations post-monsoon due to leaching dynamics.
 
 ## Key numbers
@@ -55,6 +57,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

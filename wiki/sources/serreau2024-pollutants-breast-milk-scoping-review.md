@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This scoping review examined the persistent presence of POPs (PCBs, PFASs, organochlorine pesticides, halogenated flame retardants, dioxins/furans, PAHs, DDT, PBDEs) and heavy metals in breast milk. MEDLINE and Google Scholar were searched from 1995 to June 2023; 341 primary studies were identified and 54 were selected via PRISMA screening. The review is primarily focused on organic pollutants, with heavy metals as a secondary concern. Table 1 cites mixed food and water reference values for Pb and Cd; it does not establish breast-milk-specific regulatory limits. The review situates breast milk contamination within the 'One Health' concept, noting that breast milk quality serves as an indicator of overall environmental health, and concludes that breastfeeding remains WHO-recommended for the first six months of life despite the pollutant load.
 
 ## Key numbers
@@ -87,9 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fdcce06c0](https://github.com/paleofoundation/heavymetalindex/commit/fdcce06c0) | 2026-05-19 | major | 1 source removed; narrative text revised |
-| [c53330057](https://github.com/paleofoundation/heavymetalindex/commit/c53330057) | 2026-05-19 | minor | Narrative text revised |
-| [07695c1eb](https://github.com/paleofoundation/heavymetalindex/commit/07695c1eb) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

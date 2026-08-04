@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Sund et al. 2026 - processing effects on potentially toxic elements in sugar kelp
 
+## Overview
+
 Sund and coauthors compared pulsed electric field processing with warm-water treatment for reducing iodine and potentially toxic elements in Saccharina latissima. The source is processing and mitigation evidence for seaweed-kelp foods. It reports that PEF at the highest level reduced iodine by 25%, warm-water treatment reduced iodine by 19%, and PEF retained less lead than warm-water treatment.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 | [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |

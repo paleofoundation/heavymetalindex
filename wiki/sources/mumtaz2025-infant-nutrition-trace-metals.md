@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Mumtaz et al. 2025 - Trace metals in infant nutrition sources in Multan
 
+## Overview
+
 Mumtaz and colleagues measured trace metals in infant nutrition sources from rural and urban Multan, Pakistan and evaluated non-carcinogenic and carcinogenic risk. The study covers two matrices — breast milk from lactating mothers and commercial infant formula collected from local pharmacies and supermarkets — and reports Pb, Cd, Ni, Zn, and Fe concentration summaries and risk indices stratified by rural versus urban dwelling. Concentrations are reported on a liquid basis (mg/L). It should be kept market-specific to Pakistan.
 
 ## Key numbers
@@ -70,8 +72,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [eeb36b218](https://github.com/paleofoundation/heavymetalindex/commit/eeb36b218) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

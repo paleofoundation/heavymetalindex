@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wijeyaratne & Kumari 2021 — Cd, Cr, Pb in Alternanthera sessilis (Sri Lanka)
 
+## Overview
+
 Alternanthera sessilis (known locally as mukunuwenna) is a protein-rich green leafy vegetable consumed raw across South Asia; this study measured Cd, Cr, and Pb concentrations in roots, leaves, and root-zone soils from organic and non-organic cultivation sites in Sri Lanka's North Central Province, a region with elevated chronic kidney disease of unknown etiology (CKDue) prevalence. All leaf and root concentrations of Pb, Cd, and Cr exceeded WHO/FAO safe limits for human consumption, and bioconcentration factors greater than 1 for Cd confirmed hyperaccumulation potential; however, target hazard quotients (THQ) for each metal were below 1 for both adults and children, indicating negligible individual-metal health risk at average consumption rates, though the hazard index (HI) for adults at non-organic sites was 1.2, suggesting potential cumulative risk.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [776a085c8](https://github.com/paleofoundation/heavymetalindex/commit/776a085c8) | 2026-05-13 | major | 4 sections added; narrative text revised |

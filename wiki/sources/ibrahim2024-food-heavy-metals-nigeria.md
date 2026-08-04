@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ibrahim et al. 2024 — Heavy metal contamination in staple foods, Jigawa State, northwest Nigeria
 
+## Overview
+
 This cross-sectional study measured lead (Pb), cadmium (Cd), and total mercury (Hg) in 361 raw staple food samples — cereals (maize, rice, millet, sorghum) and legumes (cowpea, soybean) — collected from households in 4 local government areas of Jigawa State, northwest Nigeria, to investigate the association between food heavy metal contamination and chronic kidney disease burden in the region. Mercury contamination was the dominant finding: 97.8% of households had food Hg levels above the authors' reference threshold (>0.02 mg/kg), while only 4.2% showed elevated Pb and all showed normal Cd. The study used atomic absorption spectrophotometry (AAS) for analysis.
 
 ## Key numbers
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [519f81ee2](https://github.com/paleofoundation/heavymetalindex/commit/519f81ee2) | 2026-05-13 | major | 4 sections added; narrative text revised |

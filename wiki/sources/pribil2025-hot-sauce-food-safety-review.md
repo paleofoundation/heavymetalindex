@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # Pribil et al. 2025 — Hot sauce food safety review (Oklahoma State University)
 
+## Overview
+
 A narrative review article from Oklahoma State University covering hot sauce production, food safety hazards, and US regulatory compliance. The review's primary focus is microbial safety (Clostridium botulinum and acid-tolerant pathogens), 21 CFR 114 (Acidified Foods Regulations), and FSMA Preventive Controls (21 CFR 117) — content that falls outside HMI's scope. For HMI the paper contributes one short narrative paragraph on chemical hazards: lead contamination has been identified as a public health risk in imported hot sauces "particularly those manufactured in Mexico and Asia," with lead exposure linked to neurological impairment in children. The claim is supported by a single secondary citation (Dhaneria et al. 2013, "Assessment of lead contamination in imported hot sauces", J Environ Sci Health 48(9):731–736) and is reported without concentrations, sample sizes, or product specificity. The review also notes that hot sauce formulations contain salt at 1.2–12% by mass and that vinegar / citric / lactic / acetic acids are the dominant acidulants — relevant for ingredient cross-referencing but not for direct metals exposure quantification within this source.
 
 ## Key numbers
@@ -100,8 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [df071f71b](https://github.com/paleofoundation/heavymetalindex/commit/df071f71b) | 2026-06-02 | major | 1 source added; narrative text revised |
-| [bcd89557b](https://github.com/paleofoundation/heavymetalindex/commit/bcd89557b) | 2026-06-02 | major | 1 source added; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

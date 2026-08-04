@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Höpfner et al. 2025 — Infant Formula Contribution to Dietary Exposure of Nine Elements in Germany
 
+## Overview
+
 This peer-reviewed German total diet study (TDS) quantifies both the occurrence of nine contaminants and essential elements in powdered infant formula — iAs, Cd, Cr, Pb, Mn, Hg, Ni, Se, and Zn — and the dietary exposure of formula-consuming infants and toddlers aged 0.5 to 3 years, using measured consumption data from the KiESEL survey (n=114 children) combined with occurrence data from the BfR MEAL Study. The study compares exposure against health-based guidance values (HBGVs) and uses a margin of exposure (MoE) approach for Pb and iAs, finding that Cd exposure exceeded the TWI for approximately 30% of infants and toddlers, and that iAs MoEs fell below one for all formula-consuming children. Infant formula contributed up to 64% of reported Zn exposure in infants; reported formula-contribution proportions for iAs, Cr, and Ni were 18%, 19%, and 20%, while Mn was 7%.
 
 ## Key numbers
@@ -118,9 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [17e814db4](https://github.com/paleofoundation/heavymetalindex/commit/17e814db4) | 2026-05-19 | minor | Narrative text revised |
-| [d99ae2009](https://github.com/paleofoundation/heavymetalindex/commit/d99ae2009) | 2026-05-18 | minor | Narrative text revised |
-| [f39b0639f](https://github.com/paleofoundation/heavymetalindex/commit/f39b0639f) | 2026-05-18 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -16,6 +16,8 @@ sources: 2
 
 # Infant Formula, Concentrated Liquid (Soy-Based)
 
+## Overview
+
 This bridge node exists for sources that report concentrated liquid soy-based formula, which is not one of the locked HMTc Category 1 rows but is part of the formula evidence graph.
 ## Who this page is for
 
@@ -124,21 +126,21 @@ Citing this page at a single source's maximum value as if it were a threshold ju
 
 <!-- audience: regulator, educator -->
 
-_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings (CLAUDE.md Part 12)._
+_No row-specific regulatory recall or enforcement action has been added to this page. Future entries will be framed as regulatory events, not brand rankings._
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 2 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte (2011). *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*. Food Additives & Contaminants: Part A. [https://doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795). Peer-reviewed, A-tier. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Source record]]
-2. U.S. Food and Drug Administration (2026). *Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey*. FDA analytical results table. [www.fda.gov](https://www.fda.gov/media/192124/download?attachment=). Government dataset, A-tier. [[sources/fda2026-infant-formula-toxic-elements-special-survey|Source record]]
+1. [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions]]<span class="hmi-ref-meta">Robert Dabeka, Andre Fouquet, Stephane Belisle, and Stephane Turcotte · Food Additives & Contaminants: Part A · 2011 · [doi.org/10.1080/19393210.2011.571795](https://doi.org/10.1080/19393210.2011.571795)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/fda2026-infant-formula-toxic-elements-special-survey|Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA analytical results table · 2026 · [www.fda.gov](https://www.fda.gov/media/192124/download?attachment=)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -153,9 +155,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [f907793bb](https://github.com/paleofoundation/heavymetalindex/commit/f907793bb) | 2026-05-17 | minor | Narrative text revised |
-| [4e2cdd0cc](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0cc) | 2026-05-17 | minor | Narrative text revised |
-| [a32d2cf5f](https://github.com/paleofoundation/heavymetalindex/commit/a32d2cf5f) | 2026-05-13 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

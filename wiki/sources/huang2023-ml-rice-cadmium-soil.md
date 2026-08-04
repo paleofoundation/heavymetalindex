@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Huang et al. 2023 — Machine learning predicts rice grain Cd from soil properties in Hunan, China
 
+## Overview
+
 This study uses machine learning (support vector machine, SVM) to predict cadmium (Cd) concentration in rice grain from soil physicochemical properties, using 601 paired soil-rice grain samples from Xiangtan County, Hunan Province, one of China's most severely Cd-contaminated rice-producing regions. The SVM model achieved R² of 0.87 on the test set. The most important predictor was the iron-manganese oxide bound Cd fraction (55.5 percent feature importance), followed by soil pH (22.2 percent), soil moisture (13 percent), and reducible Mn (8.4 percent). The practical significance of the pH finding is underscored by the soil liming scenario analysis: raising soil pH to 6.5 through liming would reduce the proportion of rice grain samples exceeding China's maximum permissible limit (MPL, 0.2 mg/kg) from 36.5 percent to 2 percent, demonstrating that pH management is the highest-leverage mitigation lever for Cd in rice in this region.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [5028098bf](https://github.com/paleofoundation/heavymetalindex/commit/5028098bf) | 2026-05-13 | major | 4 sections added; narrative text revised |

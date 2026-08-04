@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Pradhan 2023 - elements in Heracleum nepalense fruit
 
+## Overview
+
 Pradhan analyzed mature fruit of Heracleum nepalense, a Sikkim Himalayan plant used locally as a flavoring agent, spice, and ethnomedicine. The paper provides a single replicated elemental profile rather than a market survey, but it includes directly extractable concentrations for lead, cadmium, arsenic, mercury, chromium, nickel, tin, antimony, uranium, aluminum, and other elements.
 
 ## Key numbers
@@ -77,9 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [91d2bb531](https://github.com/paleofoundation/heavymetalindex/commit/91d2bb531) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
 <!-- END: hmi-page-history -->

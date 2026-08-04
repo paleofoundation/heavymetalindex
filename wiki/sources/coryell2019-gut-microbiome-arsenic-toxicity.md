@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Coryell, Roggenbeck, Walk 2019 — The human gut microbiome's influence on arsenic toxicity
 
+## Overview
+
 This Current Pharmacology Reports review by the Walk laboratory at Montana State University covers the role of the human gut microbiome in modulating arsenic toxicity. Arsenic exposure is global in scale and produces adverse health effects at low chronic doses; the review documents the gut microbiome's role in arsenic biotransformation (microbial methylation of inorganic arsenic to MMA and DMA, microbial demethylation of organic arsenic species back to inorganic arsenic, microbial reduction of As-V to As-III), in arsenic absorption (microbial influence on intestinal As uptake versus fecal excretion), and in modulating systemic As toxicity through the gut-microbiome-host metabolic axis. The Walk laboratory is a primary U.S. center for the human microbiome and metals work; the related Coe et al. 2023 paper (this batch) on MeHg demethylation is from the same laboratory.
 
 ## Key conclusions
@@ -48,6 +50,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 1 source added; 3 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Elbagory et al. 2025 — Potentially toxic elements in four melon varieties, Ganges-Yamuna River Basin
 
+## Overview
+
 This study assessed eight potentially toxic elements (PTEs: Cd, Cr, Cu, Pb, As, Fe, Mn, Zn) in four melon varieties — two watermelons (*Citrullus lanatus* var. Arka Shyama and Crimson Sweet) and two muskmelons (*Cucumis melo* var. Cantaloupe and Kajri) — grown at 10 riverbank sites in the Ganges-Yamuna Basin of Northern India in summer 2024. Concentrations were measured in dry-weight edible pulp by ICP-OES after diacid digestion. Cd, Pb, and As levels in several samples exceeded WHO/FAO permissible limits on a dry-weight basis. Health risk indices (HRI, DIM, THQ) remained below 1 across all four varieties, with HRI for Cd, Cr, Pb, and Fe approaching 0.5 in watermelon and muskmelon varieties.
 
 ## Key numbers
@@ -153,9 +155,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c42dbbccb](https://github.com/paleofoundation/heavymetalindex/commit/c42dbbccb) | 2026-05-19 | minor | Narrative text revised |
-| [27de52f03](https://github.com/paleofoundation/heavymetalindex/commit/27de52f03) | 2026-05-19 | major | 1 section added and 1 removed; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

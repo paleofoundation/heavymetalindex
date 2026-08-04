@@ -31,6 +31,8 @@ note_on_cite_key: "Manifest cite_key 'arsenic2025-unknown' is a text-mining arti
 
 # Navaretnam et al. 2025 — Arsenic speciation in Malaysian white and brown rice
 
+## Overview
+
 This study optimizes and validates a 4-minute HPLC-ICP-MS method for arsenic speciation (AsIII, AsV, DMA, MMA) in white and brown rice, then applies it to 30 commercial rice samples (15 white, 15 brown) from Klang Valley, Malaysia. Inorganic arsenic concentrations exceed the EU Commission's 2023-revised limits in 4 of 30 samples (2 brown above the 0.250 mg/kg husked-rice limit, 2 white above the 0.150 mg/kg polished-rice limit). Under the USEPA-2025 revised reference dose (6×10⁻⁵ mg/kg-bw/day) and cancer slope factor (32 (mg/kg-bw/day)⁻¹), every rice sample's THQ > 1 and ILCR > 10⁻⁴ for Malaysian per-capita rice consumption (208 g/day), signalling potential non-carcinogenic and carcinogenic risks. The authors recommend that adults limit white rice intake to ≤33 g/day and brown rice to ≤21 g/day under THQ < 1, with stricter limits for children (9 g/day white, 6 g/day brown).
 
 ## Key numbers
@@ -110,7 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1d50bf6a4](https://github.com/paleofoundation/heavymetalindex/commit/1d50bf6a4) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

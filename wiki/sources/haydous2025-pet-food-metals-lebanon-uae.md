@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Haydous et al. 2025 — Toxic metals in pet food marketed in Lebanon and UAE
 
+## Overview
+
 This study analyzed 196 commercial pet food stock keeping units (SKUs) collected from Lebanon (n = 75) and the UAE (n = 121) for nine metals by ICP-MS. The matrix split was 81 dry and 115 wet products. Lead and arsenic exceeded regulatory safety thresholds in a subset of samples, raising concerns for animal welfare and indirect human exposure via pet-owner handling and cross-contamination. This is the first systematic survey of toxic metal contamination in pet food marketed in Lebanon and the UAE, and fills a gap in Middle Eastern food-safety surveillance data.
 
 ## Key numbers
@@ -81,6 +83,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |

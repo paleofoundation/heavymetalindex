@@ -26,6 +26,8 @@ sampling_year_range: 2021
 
 # Siregar 2025 — Total and inorganic arsenic across thallus sections of seven Australian brown macroalgae
 
+## Overview
+
 Siregar and colleagues measured total arsenic and water-soluble arsenic speciation (As(V), methylated arsenicals, and four arsenosugars) by HPLC-ICP-MS in seven wild brown macroalgae taxa from Mosquito Bay (NSW, Australia), sectioned into holdfast, old stipe, young stipe, and blade. Total arsenic ranged 32.3–70.2 µg/g dry weight (whole thallus), arsenosugars dominated (66–97% of arsenic, predominantly the phosphate arsenosugar), and inorganic arsenic (measured as As(V)) ranged 0.04–14.0 µg/g dw, highest in *Fucus vesiculosus* (blade) and generally higher in upper/younger sections (young stipe, blade) than in holdfast/old stipe. Inorganic arsenic in almost all taxa and sections exceeded the Australia–New Zealand 1 mg/kg seaweed limit, although these are wild seaweeds not harvested for consumption; estimated dietary-intake risk indices (THQ, CR) were below thresholds given low Australian seaweed consumption.
 
 ## Key numbers
@@ -91,8 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [e45917104](https://github.com/paleofoundation/heavymetalindex/commit/e45917104) | 2026-06-08 | minor | Narrative text revised |
-| [6fe667b4f](https://github.com/paleofoundation/heavymetalindex/commit/6fe667b4f) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

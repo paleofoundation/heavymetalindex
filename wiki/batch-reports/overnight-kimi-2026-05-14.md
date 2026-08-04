@@ -10,6 +10,8 @@ noindex: true
 
 # Overnight Ingest Report — 2026-05-14
 
+## Overview
+
 This report covers all ingest work from the Kimi manual-fetch condiment_papers/ completion (all five subcategories) and the Papers Cube Manual Fetch flat folder (57 PDFs). It also notes the self-healing autonomy daemon stack committed in parallel by the autonomy session.
 
 ## Summary counts

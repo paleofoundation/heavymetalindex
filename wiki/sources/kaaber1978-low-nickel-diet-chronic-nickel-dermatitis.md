@@ -26,6 +26,8 @@ updated: 2026-05-11
 
 # Kaaber, Veien, Tjell 1978 — Low nickel diet in chronic nickel dermatitis
 
+## Overview
+
 This British Journal of Dermatology study from the Finsen Institute (Copenhagen) and the Technical University of Denmark Department of Sanitary Engineering is the foundational paper of the low-nickel-diet literature. It is the first systematic test of whether reducing dietary nickel can improve chronic nickel dermatitis in patients with documented oral nickel reactivity. 28 chronic-nickel-dermatitis patients were enrolled, 17 had clear oral nickel reactivity (positive 2.5 mg challenge, negative placebo), and 9 of 17 (53 percent) had dermatitis improvement during a 6-week low-nickel diet. Seven of the 9 improvers flared again when normal diet was resumed. The companion biomarker work measured 24-hour urinary nickel excretion by atomic absorption spectrometry in 14 patients before, during, and after diet, documenting that the diet reduced urinary excretion but with no statistically significant difference between improvers and non-improvers.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 4 sections added; narrative text revised |

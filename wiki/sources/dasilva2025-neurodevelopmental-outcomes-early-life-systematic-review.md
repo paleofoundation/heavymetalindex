@@ -8,7 +8,7 @@ publication: "International Journal of Environmental Research and Public Health 
 doi: "10.3390/ijerph22081308"
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed systematic review in IJERPH, PRISMA-compliant, PROSPERO-registered (CRD420250653229). Search across PubMed, Scopus, Web of Science, EMBASE, Lilacs, and PsycInfo. Joanna Briggs Institute (JBI) Critical Appraisal Tool quality scoring; 43 of 68 included studies (63%) classified as Good quality. 215,195 pooled participants across 68 primary studies (48 longitudinal + 20 cross-sectional) from 23 countries."
+tier_rationale: "Per: peer-reviewed systematic review in IJERPH, PRISMA-compliant, PROSPERO-registered (CRD420250653229). Search across PubMed, Scopus, Web of Science, EMBASE, Lilacs, and PsycInfo. Joanna Briggs Institute (JBI) Critical Appraisal Tool quality scoring; 43 of 68 included studies (63%) classified as Good quality. 215,195 pooled participants across 68 primary studies (48 longitudinal + 20 cross-sectional) from 23 countries."
 method_quality_caveat: "Narrative systematic review, not a meta-analysis. Authors explicitly state that 'available data could not be meta-analyzed due to the heterogeneity of exposure assessment methodologies, exposure thresholds, and outcomes assessed.' Effect sizes were available in only 29 of 68 included studies (42.6%); among those, 79.3% were small effects, 13.8% moderate, and 17.2% large. Search strategy used general descriptors ('children AND heavy metals AND neurodevelopment') rather than metal-specific terms, which the authors acknowledge may have restricted study identification. No specific cutoff was applied for the JBI Good/Fair/Low classification; the team weighted JBI items 1, 3, 4, 5, 6, 7 for cross-sectional studies and items 1, 3-9 for cohort studies. Speciation handling in the underlying primary studies is heterogeneous: most Hg measurements are total Hg with a subset reporting MeHg; most As measurements are total As; Pb, Cd, and Mn are reported as elemental concentrations."
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Neurodevelopmental_Outcomes_Associated_with_Early-Life_Exposure_to_Heavy_Metals.pdf"
@@ -32,6 +32,8 @@ created_by: claude-opus-4-7
 ---
 
 # da Silva, Santos, De Marco, Rezende, Martins, Silva, Romano-Silva, Miranda 2025 — Heavy metals and child neurodevelopment systematic review (68 studies, 215,195 individuals, 23 countries)
+
+## Overview
 
 This Federal University of Minas Gerais (UFMG) systematic review, published open-access in *International Journal of Environmental Research and Public Health* (IJERPH 22:1308, 21 August 2025) and registered at PROSPERO under CRD420250653229, synthesizes 68 primary studies (48 longitudinal + 20 cross-sectional) examining associations between early-life heavy-metal exposure and child neurodevelopmental outcomes. The pooled sample is 215,195 individuals from 23 countries with publication dates 2006-2025. Searches were conducted on 15 February 2025 across PubMed, Scopus, Web of Science, EMBASE, Lilacs, and PsycInfo using "children AND heavy metals AND neurodevelopment" descriptors. Study quality was assessed with the Joanna Briggs Institute (JBI) Critical Appraisal Tool; 43 of 68 studies (63%) were rated Good quality. Heterogeneity in exposure assessment methodology, exposure thresholds, and outcomes precluded meta-analysis; the review is therefore a narrative synthesis with PRISMA-aligned reporting. The five most consistently investigated metals across the corpus were Pb (51 studies; 75%), Hg (33 studies; 48.53%), Cd (20 studies; 29.41%), As (16 studies; 23.53%), and Mn (9 studies; 13.24%). Headline narrative findings: Pb shows the most consistent adverse associations across cognitive, motor, and behavioral domains; Hg and Cd are consistently linked to cognitive deficits with some behavioral and motor effects; As is most consistently associated with behavioral and motor outcomes; prenatal exposure (particularly the first trimester) yields more robust associations than postnatal exposure. Ten studies report beneficial associations for Hg, attributed in the discussion to co-occurring fish consumption (omega-3 and other nutritional factors offsetting MeHg neurotoxicity).
 
@@ -205,6 +207,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ba410d289](https://github.com/paleofoundation/heavymetalindex/commit/ba410d289) | 2026-05-18 | major | 1 source added; 5 sections added; narrative text revised |

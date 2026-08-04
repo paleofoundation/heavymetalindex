@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # Maine PL 643 (2008) — Toxic Chemicals in Children's Products framework statute
 
+## Overview
+
 This is Maine's enabling statute for the state's Toxic Chemicals in Children's Products programme at 38 MRSA Chapter 16-D, §§ 1691 to 1699-B, signed as Chapter 643 of the 2008 public laws by the 123rd Maine State Legislature on 17 April 2008 (HP 1432, LR 2877; LD 2048) and effective 18 July 2008. The statute does not establish numerical limits, testing requirements, or product-specific bans for individual heavy metals. It directs the Maine DEP, in concurrence with MeCDC, to identify a list of "chemicals of high concern" in consumer children's products (§ 1693), to designate "priority chemicals" from that list (§ 1694), to require manufacturer disclosure of priority chemicals in children's products sold in Maine (§ 1695), and to authorise rulemaking by the Board of Environmental Protection to prohibit the sale of children's products containing priority chemicals when safer alternatives are available at comparable cost (§ 1696). It is one of the four state children's-products programmes (WA, OR, VT, ME) referenced as a programme model in [[sources/ny-dec-tccp-2023-chem-pqls-draft]].
 
 ## Key numbers
@@ -107,8 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [1c410cb9c](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb9c) | 2026-06-01 | major | 1 section added |
 | [aa0d6dcc4](https://github.com/paleofoundation/heavymetalindex/commit/aa0d6dcc4) | 2026-06-01 | major | 1 source added; narrative text revised |
-| [66af599fa](https://github.com/paleofoundation/heavymetalindex/commit/66af599fa) | 2026-06-01 | major | 4 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

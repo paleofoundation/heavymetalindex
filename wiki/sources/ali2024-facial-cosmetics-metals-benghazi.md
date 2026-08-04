@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Ali et al. 2024 - toxic metals in facial cosmetics from Benghazi markets
 
+## Overview
+
 Ali, Ahmida, Busaadia, El-zwaey, Towier, and Ahmida measured Cr, Fe, Ni, Pb, and Cd in facial cosmetics purchased from Benghazi, Libya shops during 2022. The study covered mascara, lipstick, and foundation cream and reported concentrations in `mg/kg` finished product. Sample codes are de-identified, so this page preserves product-form means/ranges and code-level maxima without attaching any brand to a contamination value.
 
 ## Key numbers
@@ -86,6 +88,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [5f6db767f](https://github.com/paleofoundation/heavymetalindex/commit/5f6db767f) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

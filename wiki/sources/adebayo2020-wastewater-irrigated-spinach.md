@@ -24,6 +24,8 @@ updated: 2026-06-07
 
 # Adebayo 2020 - Heavy metals in wastewater-irrigated spinach from Bauchi
 
+## Overview
+
 Adebayo and coauthors measured cadmium, chromium, copper, manganese, nickel, and lead in irrigation wastewater and wastewater-grown African spinach from Railway Quarters in Bauchi, Nigeria. The paper is routeable for spinach occurrence evidence because it reports mean concentrations in the edible vegetable sample and a health-risk calculation based on local spinach consumption.
 
 ## Key numbers
@@ -90,6 +92,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [aed2b9247](https://github.com/paleofoundation/heavymetalindex/commit/aed2b9247) | 2026-06-07 | major | 5 sections added; narrative text revised |

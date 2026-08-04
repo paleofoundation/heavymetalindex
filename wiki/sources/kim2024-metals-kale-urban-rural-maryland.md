@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Kim et al. 2024 — Metals in kale from urban versus rural farms, Maryland
 
+## Overview
+
 This pilot study from Johns Hopkins University (co-funded by USDA) measured eight non-essential metals (As, Ba, Cd, Cr, Pb, Ni, U, V) alongside essential nutrients in Darkibor kale grown at three urban and four rural farms in and around Baltimore City, Maryland. The study found that mean concentrations of nine non-essential metals were higher in urban kale samples compared to rural field samples, with Pb and Cd concentrations for all samples remaining below public health guidelines. Compared to rural samples, urban field samples had higher concentrations of eight nutritional elements (by as much as 413% for iron), suggesting that urban soils, while more contaminated with non-essential metals, also have higher nutrient availability. Within-urban and within-rural variance exceeded between-group variance for six elements, indicating that farm-level site history and soil conditions may matter more than urban vs. rural location per se.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

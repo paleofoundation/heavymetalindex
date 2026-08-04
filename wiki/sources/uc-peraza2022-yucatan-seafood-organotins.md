@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Uc-Peraza 2022 - Organotins in Yucatán seafood
 
+## Overview
+
 Uc-Peraza and colleagues measured butyltins and phenyltins in edible muscle or soft tissue of commercially important fish and shellfish from the Yucatán Peninsula, Mexico. The study reports organotin concentrations as tin-equivalent values, but the analytes are organotin species: TBT, DBT, MBT, TPhT, DPhT, and MPhT. These values should remain organotin-specific and must not be pooled as inorganic tin or total tin occurrence.
 
 ## Key numbers
@@ -102,6 +104,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [de8fdc7ae](https://github.com/paleofoundation/heavymetalindex/commit/de8fdc7ae) | 2026-06-08 | major | 4 sections added; narrative text revised |

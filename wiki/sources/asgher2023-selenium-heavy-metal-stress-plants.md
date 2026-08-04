@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Asgher, Rehaman, Islam, Arshad & Khan 2023 — Selenium-mediated tolerance of plants to heavy-metal stress (narrative review)
 
+## Overview
+
 This MDPI Agriculture review synthesises laboratory and greenhouse evidence on how exogenous selenium (Se) — applied as selenite (SeO₃²⁻), selenate (SeO₄²⁻), selenocysteine (SeCys), selenomethionine (SeMT), or selenium nanoparticles (SeNPs) — modulates uptake, translocation, antioxidant metabolism, osmolyte production, phytohormone signalling, secondary-metabolite biosynthesis, and mineral-nutrient acquisition in crop and model plants exposed to cadmium, lead, arsenic, chromium, nickel, copper, zinc, aluminium, and mercury. The paper is a narrative review with no independent measurements, no primary data extraction, and no quantitative meta-analysis; quantitative entries in Tables 1–3 are experimental treatment doses and qualitative response statements drawn from cited primary studies rather than occurrence values. It is ingested as an out-of-core-scope agronomic-mitigation-context reference following the [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent for methodology / context reviews without primary metal-occurrence data; `metals: []`, `ingredients: []`, and `products: []` are correct because the paper contributes no measured contamination values to any HMI ingredient, product, or metal page. The review is potentially useful as a starting point for an HMI mitigation-lever entry on Se biofortification / Se co-application as an agronomic intervention to reduce heavy-metal accumulation in cereal and vegetable crops, but each specific mechanistic claim should be sourced from its underlying primary citation rather than from this review.
 
 ## Key numbers
@@ -155,8 +157,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [01ccf6088](https://github.com/paleofoundation/heavymetalindex/commit/01ccf6088) | 2026-06-02 | minor | Narrative text revised |
-| [e9466bb30](https://github.com/paleofoundation/heavymetalindex/commit/e9466bb30) | 2026-06-02 | major | 1 source added; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

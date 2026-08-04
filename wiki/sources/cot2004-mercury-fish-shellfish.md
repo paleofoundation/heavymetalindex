@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # COT 2004 - mercury in fish and shellfish
 
+## Overview
+
 The UK Committee on Toxicity updated its fish and shellfish mercury advice after the 2003 JECFA methylmercury PTWI revision. The statement reviews FSA survey data for imported/farmed fish and shellfish, UK dietary exposure estimates, and blood mercury data. It treats fish mercury as methylmercury-relevant exposure context but repeatedly notes that some intake estimates use total mercury measurements that do not distinguish inorganic and organic forms.
 
 ## Key numbers
@@ -83,6 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [fb63f6e92](https://github.com/paleofoundation/heavymetalindex/commit/fb63f6e92) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

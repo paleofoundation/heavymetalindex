@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Hata et al. 2014 - organoarsenic extraction from dry wakame
 
+## Overview
+
 Hata and colleagues developed an enzymatic plus methanol extraction method for organoarsenic species in wakame. The occurrence-relevant material is a single commercial dry wakame product from Japan; the rest of the paper tests extraction efficiency and speciation preservation. The source reports total arsenic in the dry wakame and method-dependent extractable arsenic peaks, but it does not report measured inorganic arsenic.
 
 ## Key numbers
@@ -99,6 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [2733855b8](https://github.com/paleofoundation/heavymetalindex/commit/2733855b8) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

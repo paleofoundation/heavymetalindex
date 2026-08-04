@@ -9,7 +9,7 @@ doi: null
 no_doi_assigned: true
 source_type: ngo-report
 evidence_tier: B
-tier_rationale: "Per CLAUDE.md Part 13: NGO investigative report rather than peer-reviewed journal article (B-tier ceiling). However, the laboratory analysis was carried out by the Nepal Handicraft Testing Laboratory — a Public-Private Partnership lab operated jointly by the Federation of Handicraft Associations of Nepal (FHAN) and the Nepal Bureau of Standard and Metrology (NBSM, Ministry of Industry, Government of Nepal) — using X-Ray Fluorescence (XRF) instrumentation, which raises confidence on the analytical side. Funded by UNEP Eco-Peace Leadership Program (EPLC) via Yuhan-Kimberly University, South Korea. Sample frame is convenience-sampled from Kathmandu/Bhaktapur/Dhulikhel markets (n=100); not population-representative."
+tier_rationale: "Per: NGO investigative report rather than peer-reviewed journal article (B-tier ceiling). However, the laboratory analysis was carried out by the Nepal Handicraft Testing Laboratory — a Public-Private Partnership lab operated jointly by the Federation of Handicraft Associations of Nepal (FHAN) and the Nepal Bureau of Standard and Metrology (NBSM, Ministry of Industry, Government of Nepal) — using X-Ray Fluorescence (XRF) instrumentation, which raises confidence on the analytical side. Funded by UNEP Eco-Peace Leadership Program (EPLC) via Yuhan-Kimberly University, South Korea. Sample frame is convenience-sampled from Kathmandu/Bhaktapur/Dhulikhel markets (n=100); not population-representative."
 method_quality_caveat: "XRF measures the surface-layer elemental composition of an object, not migration (extractable) or total digested content. Results are therefore reported as bulk-surface ppm of the screened element rather than as soluble/migratable concentrations comparable to EN 71-3 or ASTM F963 leach tests. The report does not specify XRF instrument make/model, calibration standards, replicate-measurement protocol, or per-element limits of detection. Bromine is reported as elemental Br at the toy surface; the report does not speciate brominated flame retardants (PBDEs, HBCD, TBBPA, etc.) or distinguish surface-printed dye sources. Mercury detection is limited to 1 of 100 samples (the report itself flags this as a screening-level finding). Phthalate testing was scoped out of the study due to laboratory-capacity limits stated by the authors."
 license: "© CEPHED 2013 — fair-use summary; report distributed publicly by CEPHED"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Study_of_Heavy_Metals_in_Childrens_Toys_and_Products.pdf"
@@ -33,6 +33,8 @@ created_by: claude-opus-4-7
 ---
 
 # CEPHED 2013 — Heavy metals in 100 children's toys sampled in Kathmandu Valley and Dhulikhel, Nepal (XRF surface screening)
+
+## Overview
 
 This Centre for Public Health and Environmental Development (CEPHED, Lalitpur) investigative report — funded under the UNEP Eco-Peace Leadership Program through Yuhan-Kimberly University (South Korea) and analytically supported by the Federation of Handicraft Associations of Nepal (FHAN) / Nepal Bureau of Standard and Metrology (NBSM) Public-Private Partnership Nepal Handicraft Testing Laboratory — surveys heavy-metal surface content in 100 children's toys and play-items purchased from Kathmandu Valley and Dhulikhel Municipality markets in 2013. Samples were screened by X-Ray Fluorescence (XRF) for lead (Pb), mercury (Hg), cadmium (Cd), chromium (Cr), and bromine (Br). The report frames itself as the first systematic chemicals-in-children's-toys study performed inside Nepal and pairs the laboratory results with questionnaire surveys of retailers, parents, and school administrators on labelling, purchase factors, and chemical-presence awareness. 54 of 100 toys (54%) had at least one of the five screened elements detected at the toy surface; 27 toys had two or more; 11 had three or more; one toy had four. The report compares per-element detections against the USA CPSIA/CPSC ceiling for total lead in children's products (90 ppm), the corresponding USA limits for Cd (75 ppm) and Cr (60 ppm) used by the authors as reference, and the Philippines ceiling for Hg (1 ppm) used by the authors as reference; XRF surface ppm exceeded the USA Pb ceiling in 46.42% of Pb-positive toys (13 of 28), the USA Cd ceiling in 33.33% of Cd-positive toys (3 of 9), and the USA Cr ceiling in 42.86% of Cr-positive toys (6 of 14). Bromine appeared in 40 toys at 3.6-3923 ppm; the report does not speciate the brominated compound class.
 
@@ -151,8 +153,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [a2b0756d2](https://github.com/paleofoundation/heavymetalindex/commit/a2b0756d2) | 2026-05-18 | major | 1 section added; narrative text revised |
-| [a013adb79](https://github.com/paleofoundation/heavymetalindex/commit/a013adb79) | 2026-05-18 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

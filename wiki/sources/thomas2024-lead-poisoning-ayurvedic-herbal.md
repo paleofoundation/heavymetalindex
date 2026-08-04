@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Thomas et al. 2024 — Lead poisoning from Ayurvedic herbal diabetes capsule, Kerala
 
+## Overview
+
 This case report describes a 58-year-old female who presented with generalized tiredness, decreased food intake, and abdominal pain. Peripheral blood smear showed basophilic stippling and ring sideroblasts, leading to investigation for heavy metal exposure. Blood lead was 121.20 µg/dL (reference: <25 µg/dL) and random urine lead was 400.2 µg/dL (reference: <80 µg/dL). The patient had been taking Sheopal's Herbal Diabetes Care Capsule — an Ayurvedic supplement purchased via the internet — for 1.5 months prior to presentation. The capsule was submitted for analysis, revealing lead content of 40,657 ppm (40,657 µg/g), compared to the permissible limit of 10 ppm per the Ayurvedic Pharmacopoeia of India. The patient was treated with BAL followed by d-penicillamine oral chelation for 6 weeks, with normalization of blood and urine lead levels.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0b663ae0d](https://github.com/paleofoundation/heavymetalindex/commit/0b663ae0d) | 2026-05-13 | major | 4 sections added; narrative text revised |

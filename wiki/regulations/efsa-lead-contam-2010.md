@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Lead in Food (2010), No-Threshold Position
 
+## Overview
+
 EFSA's Panel on Contaminants in the Food Chain established in its March 2010 Scientific Opinion on Lead in Food that the previous JECFA provisional tolerable weekly intake of 25 µg/kg b.w./week is no longer appropriate, on the basis that the dose-response evidence for the most sensitive lead endpoints does not support a threshold ([[sources/efsa-lead-contam-2010|EFSA Pb 2010]]). EFSA does not therefore set a numeric TWI for lead, but instead reports Benchmark Dose Lower Confidence Limits for three critical endpoints: developmental neurotoxicity in young children, systolic blood pressure effects in adults, and chronic kidney disease prevalence in adults ([[sources/efsa-lead-contam-2010|EFSA Pb 2010]]).
 
 ## Critical endpoint BMDLs
@@ -53,9 +55,9 @@ Cereal products are the dominant dietary contributor; dust and soil are importan
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2010). *Scientific Opinion on Lead in Food*. EFSA Journal 2010;8(4):1570. [https://doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570). Government report, A-tier. [[sources/efsa-lead-contam-2010|Source record]]
+1. [[sources/efsa-lead-contam-2010|Scientific Opinion on Lead in Food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2010;8(4):1570 · 2010 · [doi.org/10.2903/j.efsa.2010.1570](https://doi.org/10.2903/j.efsa.2010.1570)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -65,9 +67,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
-| [36ff5c84a](https://github.com/paleofoundation/heavymetalindex/commit/36ff5c84a) | 2026-04-25 | major | 1 source added; contamination-profile values revised; 3 sections added |
 <!-- END: hmi-page-history -->

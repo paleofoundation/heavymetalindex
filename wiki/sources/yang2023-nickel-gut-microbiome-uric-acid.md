@@ -26,6 +26,8 @@ updated: 2026-05-08
 
 # Yang et al. 2023 — Nickel exposure induces gut microbiome disorder and serum uric acid elevation
 
+## Overview
+
 This Environmental Pollution paper from Lanzhou University investigates the mechanism linking long-term occupational nickel exposure to elevated serum uric acid by combining biomarker measurements with gut-microbiome 16S rRNA sequencing in a 109-participant cohort of Ni-exposed workers and matched controls. Serum Ni was significantly elevated in the exposure group (5.70 ± 3.21 µg/L versus controls), serum uric acid was significantly elevated (355.95 ± 67.87 µmol/L), and the abundances of uric-acid-lowering bacteria were significantly diminished in the exposure group. The authors propose that intestinal degradation of purine to uric acid is disturbed by nickel-driven gut microbiome perturbation, producing the observed serum uric acid elevation.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 4 sections added; narrative text revised |

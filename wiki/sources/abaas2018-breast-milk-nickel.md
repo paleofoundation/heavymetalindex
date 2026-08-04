@@ -23,6 +23,8 @@ updated: 2026-06-08
 ---
 # Abaas et al. 2018 - Nickel in breast milk in Hilla City
 
+## Overview
+
 Abaas and colleagues measured nickel in breast milk from lactating mothers living in Hilla City, Iraq. The study is routeable for human-milk nickel exposure because it reports breast-milk nickel concentrations in ppb and evaluates associations with maternal and environmental variables. It is human-milk exposure evidence, not infant formula evidence.
 
 ## Key numbers
@@ -66,8 +68,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [d6a5a0ce9](https://github.com/paleofoundation/heavymetalindex/commit/d6a5a0ce9) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-05-19
 ---
 
+## Overview
+
 This study measured Cr, Zn, Sr, Ba, and Pb concentrations in free-range duck eggs from the Wuchuan mercury mining area in Guizhou Province (southwestern China) compared to a background area (Anshun). The Wuchuan mine has operated for ~400 years; mining ceased ~20 years before sampling, but local environmental Hg (in soil, water, and rice) remains elevated and the mining area is known to carry elevated co-contaminants (Cd, Pb, Cr, As) in soil and crops. Duck eggs from the mining area had higher mean concentrations of all five measured metals than background-area eggs, with yolks consistently carrying higher metal loads than whites for all five metals at both sites. Single-factor pollution indices for the mining-area yolks exceeded 1 for every measured metal (with Pb and Ba highest); USEPA non-carcinogenic risk modelling using Chinese exposure parameters returned total hazard indices (HI) >1 for both adults and children consuming mining-area duck eggs, with HI for children 2.9× the adult value; carcinogenic risk (TCR) for Cr and Pb in mining-area duck eggs exceeded 1×10⁻⁶ in both populations and exceeded 1×10⁻⁵ for children consuming yolk. The paper does not measure total Hg, methylmercury, As, Cd, or Ni in duck eggs (its panel is Cr, Zn, Sr, Ba, Pb only).
 
 ## Key numbers
@@ -184,8 +186,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 1 source added; 6 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source removed; 6 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [f2891e275](https://github.com/paleofoundation/heavymetalindex/commit/f2891e275) | 2026-05-19 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [19f640f31](https://github.com/paleofoundation/heavymetalindex/commit/19f640f31) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

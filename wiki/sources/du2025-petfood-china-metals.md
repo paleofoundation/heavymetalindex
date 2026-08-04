@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Du et al. 2025 — Toxic metals in commercial cat and dog food, Chinese market
 
+## Overview
+
 This study measured Pb, Cd, Cr, Hg, and As in 93 imported cat and dog food products collected from Chinese supermarkets and store chains (Beijing, Shenzhen, Wuhan) in 2021-2022 and conducted an acute hazard index (aHI) assessment for cats and dogs across body-weight categories. Flame atomic absorption spectrometry (FAAS) quantified Pb, Cd, Cr; atomic fluorescence spectrometry (AFS) quantified Hg and As. Cr and As were detected in 100% of samples; Hg in 97.85%. Cr had the highest average concentrations of the five metals. Against the Chinese Hygienical Standard for Pet Feed (Announcement No. 20 of 2018), 8.60% of samples exceeded the Pb limit and 26.88% exceeded the Cr limit; Cd, Hg, and As remained within their limits across all 93 samples. Dry food showed higher contamination rates and higher mean concentrations of Pb, Cd, Cr, and As than canned food. Combined contamination by three or more metals was the norm; Cr+Hg+As was the dominant triad. aHI values for Cr, Pb, and As exceeded the safety threshold (>1) across all simulated body weights.
 
 ## Key numbers
@@ -167,9 +169,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [826e4b83b](https://github.com/paleofoundation/heavymetalindex/commit/826e4b83b) | 2026-05-18 | minor | Narrative text revised |
-| [c7a78ccb5](https://github.com/paleofoundation/heavymetalindex/commit/c7a78ccb5) | 2026-05-18 | major | 2 sections added and 1 removed; narrative text revised |
-| [ea6d55857](https://github.com/paleofoundation/heavymetalindex/commit/ea6d55857) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

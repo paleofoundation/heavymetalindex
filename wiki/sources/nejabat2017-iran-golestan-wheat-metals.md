@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Nejabat et al. 2017 — Total Pb, Cd, Cu, Fe, Zn in bulk wheat grain from 35 silos in Golestan province, Iran, with adult dietary EDI/TDI comparison by graphite-furnace and flame AAS
 
+## Overview
+
 This Iranian post-harvest survey quantifies total Pb, Cd, Cu, Fe, and Zn in bulk wheat grain drawn from 35 storage silos in Golestan province, northern Iran. Wheat from each silo was sampled per Iranian National Standardization Organization (INSO) protocol No. 13535, dried at 100 °C for 24 h, ground, dry-ashed at 450 °C, dissolved in 6 M HCl on a water bath, and re-suspended in 1 % HNO₃ for atomic absorption spectrometry per Jorhem (NMKL1; J. AOAC Int. 2000). Pb and Cd were quantified by graphite-furnace AAS (Perkin-Elmer AAnalyst 800 with Zeeman background correction, AS 800 auto-sampler, L'vov platform, pyrolytic-coated graphite tubes, 99.996 % Argon); Cu, Fe, and Zn by flame AAS (air-acetylene burner, deuterium background correction). Recovery across the five analytes was 70–110 % with RSD < 20 %; LODs (mg/kg) were Cd 0.0007, Pb 0.002, Cu 0.057, Fe 1.4, and Zn 0.56. Mean ± SD concentrations across the 35 silos were Pb 0.057 ± 0.003, Cd 0.016 ± 0.005, Cu 2.7 ± 0.17, Fe 111.2 ± 21, and Zn 5.7 ± 0.22 mg/kg dry weight (ranges Pb 0.013–0.14, Cd 0.008–0.031, Cu 0.48–6.2, Fe 58.50–406.9, Zn 3.41–32.75 mg/kg). The concentration rank was Fe > Zn > Cu > Pb > Cd. All five mean values sat below the FAO/WHO maximum permissible limits cited by the authors (Cd 0.2, Pb 0.3, Cu 73.3, Fe 425.5, Zn 99.4 mg/kg) and below the INSO 2013 limits where applicable (Cd 0.03, Pb 0.15 mg/kg). Estimated daily intakes for an Iranian adult (70 kg body weight, 334 g wheat/person/day) were Pb 0.2679, Cd 0.0752, Cu 12.69, Fe 522.64, and Zn 26.79 µg/kg bw/day — all below the JECFA-derived TDIs the paper cites (Pb 3.5, Cd 0.8, Cu 50, Fe 800, Zn 30–100 µg/kg bw/day). The paper concludes wheat from Golestan does not pose a measurable non-carcinogenic health risk via the cereal pathway alone.
 
 ## Key numbers
@@ -153,8 +155,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [9b3a0f59b](https://github.com/paleofoundation/heavymetalindex/commit/9b3a0f59b) | 2026-06-01 | minor | Narrative text revised |
-| [c9cffb843](https://github.com/paleofoundation/heavymetalindex/commit/c9cffb843) | 2026-06-01 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

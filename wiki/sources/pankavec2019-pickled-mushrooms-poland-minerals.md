@@ -29,6 +29,8 @@ updated: 2026-05-28
 
 # Pankavec et al. 2019 — Mineral constituents of commercially pickled white button mushrooms (Poland)
 
+## Overview
+
 This study characterised the multi-element composition of commercially conserved (pickled and canned) white button mushrooms (Agaricus bisporus) available on the Polish market in 2016, measuring 23 elements — Hg, Li, Mg, Al, Co, Ni, Cu, As, Se, Rb, Sr, Ag, Cd, Cs, Sb, Tl, Pb, U, Ba, Cr, Zn, Mn, V — across 100 unit packages drawn from 10 product batches and six manufacturers. The toxicologically critical analytes Pb, Cd, tHg, and tAs were present at overall medians of 0.072, 0.040, 0.043, and 0.030 mg/kg dry mass (dm) respectively, all well below the EU maximum levels of 0.30 mg/kg fresh weight (fw) for Pb and 0.20 mg/kg fw for Cd in cultivated Agaricus bisporus under Commission Regulation (EC) No 629/2008 (which, assuming the paper's ~90% moisture conversion, correspond to roughly 3.0 and 2.0 mg/kg dm). Significant inter-producer variability was observed for Li, As, Rb, Sr, Ag, Ba, and Cs (PC1 of the PCA, 42% of total variance), which the authors attribute to differences in marinade quality (water, salt, vinegar) rather than mushroom substrate. Industrial conserving substantially reduces toxic-element content relative to fresh A. bisporus, particularly for tAs (roughly 10-fold reduction attributed to water-soluble arsenical species leaching during blanching and pickling) and Cd/Pb (roughly an order of magnitude lower medians than fresh).
 
 ## Key numbers
@@ -136,9 +138,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e9e3413a1](https://github.com/paleofoundation/heavymetalindex/commit/e9e3413a1) | 2026-05-28 | minor | Narrative text revised |
-| [7f00de57d](https://github.com/paleofoundation/heavymetalindex/commit/7f00de57d) | 2026-05-28 | major | 1 section added; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

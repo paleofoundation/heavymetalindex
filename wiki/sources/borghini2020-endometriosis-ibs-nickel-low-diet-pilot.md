@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Borghini, Porpora, Casale, Marino, Palmieri, Greco, Donato, Picarelli 2020 — IBS-like disorders in endometriosis: prevalence of nickel sensitivity and effects of a low-nickel diet
 
+## Overview
+
 This Nutrients open-label pilot study from the Sapienza University Rome consortium (Translational and Precision Medicine + Gynecology, Obstetrics, and Urology) is the foundational link between nickel sensitivity and endometriosis. The hypothesis: gynecological and intestinal symptoms in endometriosis may depend on nickel allergic contact mucositis (Ni ACM), and a 3-month low-Ni diet should improve both intestinal and gynecological endpoints. The findings are remarkable: 90.3 percent of endometriosis patients with GI symptoms have positive Ni omPT (nickel oral mucosa patch test), and the 3-month low-Ni diet significantly improves all 15 GI symptoms, all 7 extra-intestinal symptoms, and gynecological symptoms (dysmenorrhea, dyspareunia, pelvic pain). The paper proposes nickel as a metalloestrogen contributing to endometriosis-tissue proliferation, providing a mechanistic frame beyond the GI symptom relief.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [796f79581](https://github.com/paleofoundation/heavymetalindex/commit/796f79581) | 2026-05-11 | major | 4 sections added; narrative text revised |

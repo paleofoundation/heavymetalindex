@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Hu et al. 2023 — Heavy Metals in Chinese Tea: National Status and Health Risk
 
+## Overview
+
 This peer-reviewed meta-analysis, published in Toxics (MDPI, CC BY), synthesized heavy metal concentration data from 227 published papers (1993–2021) covering tea samples and tea plantation soils across China, using Kriging spatial interpolation to map geographic distributions and EPA/Dutch RIVM health risk models to assess non-carcinogenic and carcinogenic risks for adult tea consumers. The study found that the average contamination of six heavy metals in Chinese tea was: As = 0.21 mg/kg, Cd = 0.14 mg/kg, Cr = 1.17 mg/kg, Cu = 14.6 mg/kg, Hg = 0.04 mg/kg, Pb = 1.09 mg/kg. Contamination rates for all metals were below 3%, and non-carcinogenic risks were within safe limits nationally; however, carcinogenic risks from Cd in Shaanxi Province, Anhui Province, and southwest China exceeded acceptable ranges.
 
 ## Key numbers
@@ -81,6 +83,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

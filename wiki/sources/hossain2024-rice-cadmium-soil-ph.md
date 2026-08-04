@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Hossain et al. 2024 - cadmium uptake in salt-tolerant rice genotypes
 
+## Overview
+
 Hossain and coauthors tested how soil pH and organic matter affected cadmium accumulation in rice grains grown in Cd-contaminated soil. This is controlled pot-experiment evidence for rice Cd drivers, not edible-salt occurrence evidence. The source is most useful for mitigation and source-apportionment logic because it links grain Cd to soil pH, organic matter, genotype, and soil-bioavailable Cd.
 
 ## Key numbers
@@ -104,8 +106,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [421849435](https://github.com/paleofoundation/heavymetalindex/commit/421849435) | 2026-06-09 | minor | Narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

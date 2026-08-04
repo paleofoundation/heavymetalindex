@@ -26,6 +26,8 @@ updated: 2026-06-11
 
 # Karimi and Ziarati 2015 - Heavy metals in nail polishes sold in Tehran
 
+## Overview
+
 Karimi and Ziarati measured Cd, total As, total Cr, Pb, and Ni in 150 nail-polish samples purchased from Tehran beauty shops in 2014. The sample frame covered 13 colours and products made in several countries. This is direct lane a1 occurrence evidence for leave-on manicuring preparations, with brand names stripped under the Part 12 firewall.
 
 ## Key numbers
@@ -83,6 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [dfc17e6f0](https://github.com/paleofoundation/heavymetalindex/commit/dfc17e6f0) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

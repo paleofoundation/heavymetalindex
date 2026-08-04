@@ -32,6 +32,8 @@ updated: 2026-06-04
 
 # Health Canada 2021 — Guidelines for Canadian Drinking Water Quality: Aluminum
 
+## Overview
+
 Health Canada's 2021 Guideline Technical Document for Aluminum in Drinking Water, prepared with the Federal-Provincial-Territorial Committee on Drinking Water, establishes a maximum acceptable concentration (MAC) for total aluminum of 2.9 mg/L (2 900 µg/L) and an operational guidance (OG) value of 0.100 mg/L (100 µg/L). The MAC is a health-based value derived from a NOAEL of 30 mg Al/kg bw per day for neuromuscular effects in the Poirier et al. (2011) developmental neurotoxicity study in rats exposed to aluminum citrate; the OG value is set to limit accumulation and release of aluminum and co-occurring contaminants (As, Cr, Mn, Ni, Pb, Cu) in the distribution system and to protect treatment and infrastructure performance. The document also compiles 2012–2017 occurrence data for total aluminum across Canadian municipal and non-municipal supplies in 10 provinces/territories, summarizes Canadian dietary exposure across seven age categories, and reviews the analytical, treatment and distribution-system controls used to manage aluminum in drinking water.
 
 ## Key numbers
@@ -144,7 +146,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

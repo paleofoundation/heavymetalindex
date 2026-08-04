@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/cooking-oils-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "692a0e646e6ab9b7791b91412de27dbdf065b2a36683b70b8c8ebb5009e61ac3",
-      "content_bytes": 21373,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "bc3de3ba7ab7b07d819bb5b05bd69fead619878529dd67de7969c0103f7ff163",
+      "content_bytes": 47788,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/cooking-oils-other.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/cooking-oils-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 29,
+    "contributing_source_count": 104,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -52,12 +52,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abedi2025-edible-oils-bleaching-review",
         "content_pin": {
-          "content_sha256": "1a4f7cf7361e34f9da139d3e15be92741aefeddcc55c1cd91cd91c4195319362",
-          "content_bytes": 17857,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "b325e82859bb3c41c9a03af33a9a3e7c07fe78d30c7a44d8859dd80fc2389135",
+          "content_bytes": 18033,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/abedi2025-edible-oils-bleaching-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/abedi2025-edible-oils-bleaching-review.md | sha256sum"
         }
       },
       {
@@ -76,12 +76,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/acar2012-vegetable-oils-olives-turkey-etaas",
         "content_pin": {
-          "content_sha256": "ba9b7472d88b5484bb671a3ebe655010be00669d2e3df267349ba6ae9ab2ffe5",
-          "content_bytes": 19943,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "d281cd4d97c5c80c651680e8775728ae7722203140b429d3d5f965b653e94875",
+          "content_bytes": 20136,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/acar2012-vegetable-oils-olives-turkey-etaas.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/acar2012-vegetable-oils-olives-turkey-etaas.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alrajhi2020-riyadh-edible-oils-trace-metals",
         "content_pin": {
-          "content_sha256": "f36afb82f6dff7042df9935cf395860850ea900de6fc5f03a57cf2406cfad409",
-          "content_bytes": 7446,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "3781ca062a9397aef82888ee4ba640693e3dfd10aeae7a06e9bac4ddb9b178fd",
+          "content_bytes": 7622,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/alrajhi2020-riyadh-edible-oils-trace-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/alrajhi2020-riyadh-edible-oils-trace-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/article2019-distinct-size-dependent-properties-led-to-the-development",
+        "title": "distinct size-dependent properties led to the development of",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/article2019-distinct-size-dependent-properties-led-to-the-development",
+        "content_pin": {
+          "content_sha256": "9233c2cea2f7d3b6c91678ff08b8a7b9e4dccf2470171fd33ecc33e5e0a083bd",
+          "content_bytes": 9214,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/article2019-distinct-size-dependent-properties-led-to-the-development.md | sha256sum"
         }
       },
       {
@@ -131,12 +153,1432 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia",
         "content_pin": {
-          "content_sha256": "303093d665728eac684ec02da863bf9d2c0f84813e389258adc178bf84288ee0",
-          "content_bytes": 11670,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "4067683050ca3c8fbe0467f2d54f4a43ac5f146db598695ba7e1497b5b4a06b9",
+          "content_bytes": 11851,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors1997-an-alyson-that-appeared-to-be-confined-to",
+        "title": "an “alyson” that appeared to be confined to serpentine soils,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors1997-an-alyson-that-appeared-to-be-confined-to",
+        "content_pin": {
+          "content_sha256": "b75c3aebc2c49767ec287f5a51e4afde76414931208d154185f68dc6a2aa7d1b",
+          "content_bytes": 7919,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors1997-an-alyson-that-appeared-to-be-confined-to.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2009-for-humans-nevertheless-low-photostability-and-putative-toxicity",
+        "title": "for humans. Nevertheless, low photostability and putative toxicity for humans and environment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2009-for-humans-nevertheless-low-photostability-and-putative-toxicity",
+        "content_pin": {
+          "content_sha256": "2aacbc940b41e464db1fddc881ac599de45c3b0955145d1bdbb9950ddec7f1bd",
+          "content_bytes": 8033,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2009-for-humans-nevertheless-low-photostability-and-putative-toxicity.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2011-investing-much-to-the-agricultural-sector-is-necessary",
+        "title": "investing much to the agricultural sector is necessary in order to produce more food to feed the world.",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2011-investing-much-to-the-agricultural-sector-is-necessary",
+        "content_pin": {
+          "content_sha256": "bfd3f1fc985b02c9036d07215b9f753eb25470c0bff649ae9fde4b679412b4ea",
+          "content_bytes": 6800,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2011-investing-much-to-the-agricultural-sector-is-necessary.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa",
+        "title": "Estimates of dietary exposure to bisphenol A (BPA) from light metal packaging using food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa",
+        "content_pin": {
+          "content_sha256": "2ec371e18a1017834400c2eafb74c2efce0e24f74b484af950655205068538b7",
+          "content_bytes": 8020,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2013-of-major-pollutants-including-heavy-metals-microplastics-persistent",
+        "title": "of major pollutants, including heavy metals, microplastics, persistent organic pollutants,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2013-of-major-pollutants-including-heavy-metals-microplastics-persistent",
+        "content_pin": {
+          "content_sha256": "107a042282715fd968c49cbdb3e5dd3de2c761041d840edadc380d2853c44bd5",
+          "content_bytes": 8275,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2013-of-major-pollutants-including-heavy-metals-microplastics-persistent.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed",
+        "title": "and trade repercussions. Regular, economical and straightforward feed testing is critical to reach a",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed",
+        "content_pin": {
+          "content_sha256": "a4e4035e4fde8a4644906a7b86ca1033393ceb80e121e7296df939d4bd2ad52d",
+          "content_bytes": 8573,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2015-reclaimed-water-through-field-trials-on-the-content",
+        "title": "reclaimed water through field trials on the content and distribution of heavy metals in both tomatoes",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2015-reclaimed-water-through-field-trials-on-the-content",
+        "content_pin": {
+          "content_sha256": "d080694261768b3ff5acb2e218843df24b6eb08dda537322653e03cacbc67716",
+          "content_bytes": 6290,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2015-reclaimed-water-through-field-trials-on-the-content.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-a-comparative-study-of-the-content-of-heavy",
+        "title": "A comparative study of the content of heavy metals in oils:",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-a-comparative-study-of-the-content-of-heavy",
+        "content_pin": {
+          "content_sha256": "6d18218ecd5b627a49e09c0cd5b82bb8112d94f4352d88107289aabf38dd5e3f",
+          "content_bytes": 5882,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2016-a-comparative-study-of-the-content-of-heavy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-a-review-of-mercury-bioavailability-in-humans",
+        "title": "A Review of Mercury Bioavailability in Humans",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-a-review-of-mercury-bioavailability-in-humans",
+        "content_pin": {
+          "content_sha256": "ca0eee5c6d5b738959a34f60ad084aecb4df1e54625100ecb751836b0b149f07",
+          "content_bytes": 9000,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2016-a-review-of-mercury-bioavailability-in-humans.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake",
+        "title": "and evaluates the resulting threats to food intake and public health in Bangladesh by",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake",
+        "content_pin": {
+          "content_sha256": "97895906d52e1ed0995826dac0d6dd3b4c4ed6d715563e7485143df7121a26c3",
+          "content_bytes": 9178,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2016-australia-or-argentina-one-exception-is-the-argan",
+        "title": "Australia or Argentina. One exception is the argan tree, which is well adapted to the extremely dry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2016-australia-or-argentina-one-exception-is-the-argan",
+        "content_pin": {
+          "content_sha256": "b919b3c86a7f82b97bed0694593d503aca639e02c04e3f140b54fd9bc79712a6",
+          "content_bytes": 8796,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2017-mercury-removal-hot-paper",
+        "title": "& Mercury Removal | Hot Paper |",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2017-mercury-removal-hot-paper",
+        "content_pin": {
+          "content_sha256": "8afb664321dd71e82e79496f336c13f9287398ba30c4907fd19de592c95fea93",
+          "content_bytes": 9292,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2017-mercury-removal-hot-paper.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2018-and-retention-of-dha-and-epa-in-selected",
+        "title": "and retention of DHA and EPA in selected fish fillets",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2018-and-retention-of-dha-and-epa-in-selected",
+        "content_pin": {
+          "content_sha256": "27cb5977a4af88f17b18a0d5d60fafe47809e8fcbeca768d23e890742908cbb2",
+          "content_bytes": 7498,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2018-and-retention-of-dha-and-epa-in-selected.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers",
+        "title": "cooperation I received from very distinguished Professors, Lecturers and other contributors who took time off",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Al",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers",
+        "content_pin": {
+          "content_sha256": "f51fcf69079ba37ce40046c19a6d7b4a2ec07e5ee1ffae4ea81867043664ca78",
+          "content_bytes": 9314,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2018-minerals-and-heavy-metals-in",
+        "title": "minerals and heavy metals in",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2018-minerals-and-heavy-metals-in",
+        "content_pin": {
+          "content_sha256": "5f93172e11ac427d1d34d466fb9e406050ea9bd1640fa7c6d2b8918abfe0ab59",
+          "content_bytes": 9548,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2018-minerals-and-heavy-metals-in.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-approach-to-speciation-analysis-as-in-previous-years",
+        "title": "approach to speciation analysis. As in previous years, As speciation continues to dominate the",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "iAs",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years",
+        "content_pin": {
+          "content_sha256": "ea31728ad6a5efc0701360a0e95ef4610e0878d782510aa60e6878362a175d96",
+          "content_bytes": 9162,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2019-approach-to-speciation-analysis-as-in-previous-years.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2019-infant-skin-care-products",
+        "title": "Infant Skin Care Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2019-infant-skin-care-products",
+        "content_pin": {
+          "content_sha256": "4535f679b4b1af19756b58d3005038b9e42842966c40c9eb9749c8bcbea82a1f",
+          "content_bytes": 4579,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2019-infant-skin-care-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis",
+        "title": "Abstract: Contact allergy (sensitisation) and allergic contact dermatitis (ACD) resulting from it have",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis",
+        "content_pin": {
+          "content_sha256": "88a8bb1db55aae3857a56dd059bc1712ff4b8c7637260983a22ab37800a9fe6c",
+          "content_bytes": 9276,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol",
+        "title": "Giuseppe De Santis, Olubukunmi Amos Ilori , Diana Marisol Abrego-Guandique , Pierluigi Plastina ,",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol",
+        "content_pin": {
+          "content_sha256": "4ff8da4c1a4dce2bba29d48b4c3c69677df5b5ec4585f6e144e25b3af5af3963",
+          "content_bytes": 7778,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-healthy-eating-patterns-should-include-a-variety-of",
+        "title": "healthy eating patterns should include a variety of vegetables from all ﬁve of the Access this article online",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-healthy-eating-patterns-should-include-a-variety-of",
+        "content_pin": {
+          "content_sha256": "7699b009e7ba8b87643a4414d97a79c4ca2ee07af1a29337cbcfcf3733fd219c",
+          "content_bytes": 8984,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2020-healthy-eating-patterns-should-include-a-variety-of.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-heavy-metal-pollution-in-the-environment-and-their",
+        "title": "Heavy metal pollution in the environment and their toxicological effects",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "iAs",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-heavy-metal-pollution-in-the-environment-and-their",
+        "content_pin": {
+          "content_sha256": "2c5d4fd9f0bc42a83fcc7c72fc8c6bd7ff9187b67cc31594c61585fbc5dab2fa",
+          "content_bytes": 7246,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2020-heavy-metal-pollution-in-the-environment-and-their.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-pcbs-and-heavy-metals-in-farmed-escaped-and",
+        "title": "PCBs and Heavy Metals in Farmed, Escaped and Wild",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-pcbs-and-heavy-metals-in-farmed-escaped-and",
+        "content_pin": {
+          "content_sha256": "4cf277074c1a4d6035dc9816874597641c4f2c33ea1ec5b7390ea06fae5b64dd",
+          "content_bytes": 8625,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2020-pcbs-and-heavy-metals-in-farmed-escaped-and.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items",
+        "title": "Seafood, wine, rice, vegetables, and other food items associated",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items",
+        "content_pin": {
+          "content_sha256": "70900dc505a276f4ec39b5c61d56c2e49f3ed4a8f2168707cad44da4c11e4874",
+          "content_bytes": 8431,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2020-seafood-wine-rice-vegetables-and-other-food-items.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-320-400-nm-radiation-a-distinction-between-spf",
+        "title": "(320‒400 nm) radiation; a distinction between SPF and UVA protection factor (UVA-PF) is made. Many of the studies of",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-320-400-nm-radiation-a-distinction-between-spf",
+        "content_pin": {
+          "content_sha256": "cd9664d8c80ecf7a41e7dca75040635f76bd84126e9b205b0f2b6793b2bfa495",
+          "content_bytes": 8764,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2021-320-400-nm-radiation-a-distinction-between-spf.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-benefits-toxicity-and-pathologies",
+        "title": "Benefits, Toxicity and Pathologies",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "iAs",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-benefits-toxicity-and-pathologies",
+        "content_pin": {
+          "content_sha256": "35d3df430c454274a4f5a0dfcbdc732137c41987ce4407896336d499df799f07",
+          "content_bytes": 8264,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2021-benefits-toxicity-and-pathologies.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-chemical-composition-and-antigenotoxic-properties",
+        "title": "Chemical Composition and Antigenotoxic Properties",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-chemical-composition-and-antigenotoxic-properties",
+        "content_pin": {
+          "content_sha256": "5399cabec7f478f52a974e771d07f581363c1d7f254a31ee87eb2e227cf398ef",
+          "content_bytes": 7501,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2021-chemical-composition-and-antigenotoxic-properties.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-journal-of-nutrition-fasting-and-health",
+        "title": "JOURNAL OF NUTRITION FASTING AND HEALTH",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-journal-of-nutrition-fasting-and-health",
+        "content_pin": {
+          "content_sha256": "dc60a265864c0a51ca87c2567492279662f7dc41b2e6148a279193748bb7b4c3",
+          "content_bytes": 8129,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2021-journal-of-nutrition-fasting-and-health.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-open-correlates-of-prenatal-heavy-metal",
+        "title": "OPEN Correlates of prenatal heavy metal",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-open-correlates-of-prenatal-heavy-metal",
+        "content_pin": {
+          "content_sha256": "85c82b52f414094b0220f2fc8d7a4e7fc2c8c709781455b83a42bdd0df4af03e",
+          "content_bytes": 8848,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2021-open-correlates-of-prenatal-heavy-metal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2021-toxicology-2021-34-pp-1046-1054-10-1021",
+        "title": "Toxicology, 2021, 34, pp.1046-1054. ⟨10.1021/acs.chemrestox.0c00461⟩. ⟨hal-03161988⟩",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2021-toxicology-2021-34-pp-1046-1054-10-1021",
+        "content_pin": {
+          "content_sha256": "9887b7d40c405ebd83dccfe988f1987d168971d059bc4c3f036c565d37304cf0",
+          "content_bytes": 8211,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2021-toxicology-2021-34-pp-1046-1054-10-1021.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals",
+        "title": "Bioaccumulation and Translocation of Heavy Metals",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals",
+        "content_pin": {
+          "content_sha256": "3963630090e1ff20d6ac58508e8aed7127427c9381e370bafd7cd47adfa5fd96",
+          "content_bytes": 6574,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2022-bioaccumulation-and-translocation-of-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-compounds-that-can-be-further-valorized-in-the",
+        "title": "compounds that can be further valorized in the formulation of food, nutraceuticals, and pharmacological prod-",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-compounds-that-can-be-further-valorized-in-the",
+        "content_pin": {
+          "content_sha256": "4d4ae4ebedd1bf161a26ec62d0030d4bbf768c61758596b2ca355c6d745ead54",
+          "content_bytes": 9769,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2022-compounds-that-can-be-further-valorized-in-the.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major",
+        "title": "Dietary Intake of Toxic Heavy Metals with Major Groups of",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major",
+        "content_pin": {
+          "content_sha256": "34f17304066b6746c8e85c4be55d3d2cd2198ceec147e87e90c4ab7bce2abc16",
+          "content_bytes": 8071,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2022-dietary-intake-of-toxic-heavy-metals-with-major.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-epa-and-dha-in-fish-as-affected-by",
+        "title": "(EPA and DHA) in fish as affected by cooking methods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Al",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-epa-and-dha-in-fish-as-affected-by",
+        "content_pin": {
+          "content_sha256": "59fae2703ffef3c817a488161b84d097c0b608589304c8caccc3b19802ad46cc",
+          "content_bytes": 7252,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2022-epa-and-dha-in-fish-as-affected-by.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-hexavalent-chromium-exposure",
+        "title": "Hexavalent Chromium Exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-hexavalent-chromium-exposure",
+        "content_pin": {
+          "content_sha256": "a9911f8a5cf63de9d4888df2f8c5717cdd81ffe0dd3be0b3769706119f957204",
+          "content_bytes": 6278,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2022-hexavalent-chromium-exposure.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis",
+        "title": "the existing literature on food and pediatric DGBIs. The following have been shown to be beneficial: (i) in infants with",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis",
+        "content_pin": {
+          "content_sha256": "f2822cbc57e2408b016892d694771589c9febb5ee0e71380ee3dbfff7bb079e6",
+          "content_bytes": 8714,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2022-the-existing-literature-on-food-and-pediatric-dgbis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2022-total-mercury-and-fatty-acids-in-selected-fish",
+        "title": "Total Mercury and Fatty Acids in Selected Fish Species on the",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2022-total-mercury-and-fatty-acids-in-selected-fish",
+        "content_pin": {
+          "content_sha256": "a55e0c76182c4267e449aff9dcc330bef0fe06a978db0d3422a1447dcfbec378",
+          "content_bytes": 8161,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2022-total-mercury-and-fatty-acids-in-selected-fish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-all-infants-up-to-the-age-of-6",
+        "title": "all infants up to the age of 6 months and 600 IU/24 h for infants aged 6–12 months [16].",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-all-infants-up-to-the-age-of-6",
+        "content_pin": {
+          "content_sha256": "b8982ab3ac95ad43cdbdeeeba788899f6d68b991ffcb2f099b50e761d77a1d23",
+          "content_bytes": 6845,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2023-all-infants-up-to-the-age-of-6.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-chen-j-hao-s-ban-uelos-g-and",
+        "title": "Chen J, Hao S, Bañuelos G and Zhou X Mercury (Hg) is a highly toxic heavy metal entering the human body through the",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-chen-j-hao-s-ban-uelos-g-and",
+        "content_pin": {
+          "content_sha256": "7764c8b172f2d9c817b6faa45bbee6dd2bbbe0f83d699c7d8f387f662c7cae37",
+          "content_bytes": 8900,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2023-chen-j-hao-s-ban-uelos-g-and.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-open-access-metals-toxicity-with-special",
+        "title": "OPEN ACCESS metals toxicity with special",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "iAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-open-access-metals-toxicity-with-special",
+        "content_pin": {
+          "content_sha256": "561482e978536567c97d4c69e57813f5806357c34cb08fc7095f6764da2d7d9d",
+          "content_bytes": 9252,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2023-open-access-metals-toxicity-with-special.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer",
+        "title": "skin aging, DNA damage, and even skin cancer. Therefore, it is worth supporting skin protection",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer",
+        "content_pin": {
+          "content_sha256": "1e0f4a8aef6fdbcd8aa0a8fb5ff9fd5d44b8acf94bdbb8013f98b956f6b02250",
+          "content_bytes": 6585,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2023-skin-aging-dna-damage-and-even-skin-cancer.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-suppresses-genotoxicity-hepatotoxicity",
+        "title": "suppresses genotoxicity, hepatotoxicity",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-suppresses-genotoxicity-hepatotoxicity",
+        "content_pin": {
+          "content_sha256": "e47090121789b3baa8ccb12867870f1a4cbb11f8c2e064a5066fb5c5faec5591",
+          "content_bytes": 5236,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2023-suppresses-genotoxicity-hepatotoxicity.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which",
+        "title": "The paper provides an overview of biocosmetics, which has tremendous potential for growth and is attracting huge business",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which",
+        "content_pin": {
+          "content_sha256": "c25ac1c7570c3bda6d74fad882744f0e698f6077a87b00fe111679167b7b751f",
+          "content_bytes": 6495,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2023-the-paper-provides-an-overview-of-biocosmetics-which.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2023-which-leads-to-skin-cancer-and-other-phototoxic",
+        "title": "which leads to skin cancer and other phototoxic effects. The application of sunscreen shields to the",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2023-which-leads-to-skin-cancer-and-other-phototoxic",
+        "content_pin": {
+          "content_sha256": "5345b86bfde2621b2bbdd43eea71307d28a0afb7a4e76a8da1795a7ccf910a0e",
+          "content_bytes": 7927,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2023-which-leads-to-skin-cancer-and-other-phototoxic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is",
+        "title": "augments the immune system. Furthermore, red beetroot is known to improve stomach and intestine functions, stop lipid",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is",
+        "content_pin": {
+          "content_sha256": "8dab828a600194b0ea271e8375b6104a545aa4b33185d8931adbff30d9669197",
+          "content_bytes": 6469,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2024-augments-the-immune-system-furthermore-red-beetroot-is.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-nlc-based-sunscreen-formulations-with-optimized",
+        "title": "NLC-Based Sunscreen Formulations with Optimized",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-nlc-based-sunscreen-formulations-with-optimized",
+        "content_pin": {
+          "content_sha256": "a196bd61a4effc77b112129c4b765957d6ac1e2e3fe16f8d256e3dbd12c7e088",
+          "content_bytes": 8202,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2024-nlc-based-sunscreen-formulations-with-optimized.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2024-overview-of-nanocosmetics-with-emphasis-on-those-incorporating",
+        "title": "Overview of Nanocosmetics with Emphasis on those Incorporating",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2024-overview-of-nanocosmetics-with-emphasis-on-those-incorporating",
+        "content_pin": {
+          "content_sha256": "a93fbc3823c39d125ff6ba20e0ebf5307f10129baada33e21ed0be931cd3e1e2",
+          "content_bytes": 7921,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2024-overview-of-nanocosmetics-with-emphasis-on-those-incorporating.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-against-arsenic-induced-lung-damage-in-rats",
+        "title": "against arsenic-induced lung damage in rats",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-against-arsenic-induced-lung-damage-in-rats",
+        "content_pin": {
+          "content_sha256": "56308385acef5fe041acdb778a7b3ae0f7de69e378e8f2bf92cbefcf1bb58d3a",
+          "content_bytes": 8520,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2025-against-arsenic-induced-lung-damage-in-rats.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence",
+        "title": "Associated with Fresh Pet Food: Evaluating Scientific Evidence",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence",
+        "content_pin": {
+          "content_sha256": "055c87d3f784fa6fc798027b56443c84e2c16795ef4328ba38cad1dbc2124fba",
+          "content_bytes": 7389,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial",
+        "title": "Ionizing Radiation for Quality Control and Mitigating Microbial",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial",
+        "content_pin": {
+          "content_sha256": "3cbfe40ae020b5b9811456b4871b01e29def1824f0f5e107360c5b9ff89b3b00",
+          "content_bytes": 8146,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the",
+        "title": "of four tissues with distinct embryological origins- the alveolar bone, cementum, gingiva, and periodontal",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the",
+        "content_pin": {
+          "content_sha256": "d25ec073a05770eb030d4bedc66349704d1336cb1fa71a94459f5f185c111fb1",
+          "content_bytes": 5029,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/authors2025-of-four-tissues-with-distinct-embryological-origins-the.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-promoting-health-and-sustainability-exploring-safer-alternatives",
+        "title": "Promoting health and sustainability: exploring safer alternatives",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-promoting-health-and-sustainability-exploring-safer-alternatives",
+        "content_pin": {
+          "content_sha256": "64f9ec82aeffd8d6d4f1f4e71cffed19d1b31a6bc7e6b823b4b11504139e7351",
+          "content_bytes": 9504,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2025-promoting-health-and-sustainability-exploring-safer-alternatives.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec",
+        "title": "pyrolyzed biochar showed high cation exchange capacity (CEC) resulting from improved",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec",
+        "content_pin": {
+          "content_sha256": "f56122ffacbf9c3a867abfc15318f660e0926430121b33a0b78ed4e81a6c422a",
+          "content_bytes": 6973,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2025-pyrolyzed-biochar-showed-high-cation-exchange-capacity-cec.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins",
+        "title": "Reused Oil, Savory Snacks, Public Health, Toxic vitamins. Frying is a common method for preparing many foods, but the deep-frying process can",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins",
+        "content_pin": {
+          "content_sha256": "5934206e7e656140be611deda5394dbaf5bef48578581b48999ab6d600e33694",
+          "content_bytes": 6934,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-setac-europe-35-th-annual-meeting",
+        "title": "SETAC EUROPE 35 TH ANNUAL MEETING",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-setac-europe-35-th-annual-meeting",
+        "content_pin": {
+          "content_sha256": "51c2b3a950c328a45d683a872d3b3ee4caad478af68ce814fed92d6e36e39066",
+          "content_bytes": 9450,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2025-setac-europe-35-th-annual-meeting.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2025-sunscreen-protects-skin-from-harmful-ultra-violet-uv",
+        "title": "Sunscreen protects skin from harmful Ultra Violet (UV) rays, preventing skin diseases",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2025-sunscreen-protects-skin-from-harmful-ultra-violet-uv",
+        "content_pin": {
+          "content_sha256": "0a674b21fee87f44820e0cbe515499da582d7bb95a67076a22a27f9030df8e7f",
+          "content_bytes": 5605,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2025-sunscreen-protects-skin-from-harmful-ultra-violet-uv.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-but-also-leads-to-the-continual-infiltration-of",
+        "title": "but also leads to the continual infiltration of illegal products into the market, posing serious health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-but-also-leads-to-the-continual-infiltration-of",
+        "content_pin": {
+          "content_sha256": "91dae875d477e7f958d149f5985316524d98010eea39eaf51ac41d9e921eb2a3",
+          "content_bytes": 7756,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2026-but-also-leads-to-the-continual-infiltration-of.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-craig-t-martin-department-head",
+        "title": "Craig T. Martin, Department Head",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Sn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-craig-t-martin-department-head",
+        "content_pin": {
+          "content_sha256": "c78fce93c1bf4a93238954b937c43aac4d99c8bc14fb5ea657754bc31f045368",
+          "content_bytes": 8737,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2026-craig-t-martin-department-head.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-diseases-related-to-excessive-exposure-to-ultraviolet-uv",
+        "title": "diseases related to excessive exposure to ultraviolet (UV) rays. The",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-diseases-related-to-excessive-exposure-to-ultraviolet-uv",
+        "content_pin": {
+          "content_sha256": "95db90dad00d727f1d05d7c86fdac390e66986b4e42c2b893011e630ae1478c4",
+          "content_bytes": 9534,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2026-diseases-related-to-excessive-exposure-to-ultraviolet-uv.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-draws-on-data-retrieved-from-the-web-of",
+        "title": "draws on data retrieved from the Web of Science, Scopus, and functional foods fortified with health-promoting ingredi-",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-draws-on-data-retrieved-from-the-web-of",
+        "content_pin": {
+          "content_sha256": "3c3fcdd37e0be455b1672b52ce116091274f442c11a3cde7c36d54b19c1153c7",
+          "content_bytes": 8073,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/authors2026-draws-on-data-retrieved-from-the-web-of.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-mercury-induced-oxidative-stress-and",
+        "title": "Mercury-Induced Oxidative Stress and",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-mercury-induced-oxidative-stress-and",
+        "content_pin": {
+          "content_sha256": "fd70cfae394b9124cc90a54835b34e3d9e518715c9a6fb13e57161d9ea3aeccf",
+          "content_bytes": 7645,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/authors2026-mercury-induced-oxidative-stress-and.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-the-human-body-either-directly-or-indirectly-the",
+        "title": "the human body, either directly or indirectly. The excessive usage of heavy metals, like Cr(VI), Pb(II), As(II),",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-the-human-body-either-directly-or-indirectly-the",
+        "content_pin": {
+          "content_sha256": "d51420cd9bcbcdd650ce9dc79d935bb889ae3e63d0ebea75a32e49fef93a330f",
+          "content_bytes": 8753,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/authors2026-threat-to-the-environment-due-to-their-toxicological",
+        "title": "threat to the environment due to their toxicological profile, nonbiodegradability, and potential for",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/authors2026-threat-to-the-environment-due-to-their-toxicological",
+        "content_pin": {
+          "content_sha256": "77068ff52b1fb1bc99e2edd6f22ce25c152684cce976e73fbe5288eedaec7067",
+          "content_bytes": 8393,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/authors2026-threat-to-the-environment-due-to-their-toxicological.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/barca2023-a-comprehensive-review-on-infant",
+        "title": "A comprehensive review on infant",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/barca2023-a-comprehensive-review-on-infant",
+        "content_pin": {
+          "content_sha256": "5df688011d106886e01fbda44ef6be7f1588fa57f47404e40267ffa3bea12063",
+          "content_bytes": 10764,
+          "last_commit_sha": "9df161fe2",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9df161fe2:wiki/sources/barca2023-a-comprehensive-review-on-infant.md | sha256sum"
         }
       },
       {
@@ -151,12 +1593,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bodur2023-olive-oil-inorganic-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "4efc02f406b3cdcea19025386bfa93b4d0aa31757e17cbfecc29909773d654a9",
-          "content_bytes": 6593,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "a7c06b8716d34fe1309db36a4ba679618f95020b3d5de4d6b453f675cb516c45",
+          "content_bytes": 6787,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/bodur2023-olive-oil-inorganic-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/bodur2023-olive-oil-inorganic-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -171,12 +1613,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chen2001-edible-fats-oils-arsenic",
         "content_pin": {
-          "content_sha256": "5634dfba489ae3e10a9c89408febc7241dc303a09fb217bdbc93451cb7ddf288",
-          "content_bytes": 8089,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "01e09f22c8cb5cfe5e15344b6ce6139af5d5bf9ed7ac09bb52240e82e4dfecd9",
+          "content_bytes": 8265,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/chen2001-edible-fats-oils-arsenic.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/chen2001-edible-fats-oils-arsenic.md | sha256sum"
         }
       },
       {
@@ -189,12 +1631,53 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/chetima2024-activated-carbons-cottonseed-oil-bleaching",
         "content_pin": {
-          "content_sha256": "886b963dbb4effd999a435ede37415599f1f1278d776b4096a43f6c9358ec658",
-          "content_bytes": 20858,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e7478a8c312ed6fd3a1decf59770893bc92525b86c34a05aa37db89ae7f982dd",
+          "content_bytes": 21015,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/chetima2024-activated-carbons-cottonseed-oil-bleaching.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/chetima2024-activated-carbons-cottonseed-oil-bleaching.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/contamination2018-timothy-d-scheibe-and-david-c-mays",
+        "title": "Timothy D. Scheibe and David C. Mays",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/contamination2018-timothy-d-scheibe-and-david-c-mays",
+        "content_pin": {
+          "content_sha256": "381f908c125934239ac8270ac79a34a9c8a3fedea84dfce60b746b3bf789b1f5",
+          "content_bytes": 9070,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/contamination2018-timothy-d-scheibe-and-david-c-mays.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/elder2024-culture-of-antiquity-and-later-times-starting-with",
+        "title": "culture of antiquity and later times, starting with the mythological",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/elder2024-culture-of-antiquity-and-later-times-starting-with",
+        "content_pin": {
+          "content_sha256": "26d41122599db9186cc900e0171550310f68603829f8ea2a7a987c7aadeb1e77",
+          "content_bytes": 3584,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with.md | sha256sum"
         }
       },
       {
@@ -214,12 +1697,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/enemuor2021-palm-oil-kogi-metals",
         "content_pin": {
-          "content_sha256": "d069d6b7db4aff54e94dc2d52580ba7d3d4748291fcdac21122b7dc4ac9dab81",
-          "content_bytes": 5660,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "689ee955cd66bf6824ef7b2c081e92b73ae660869b4f42e7040a13b9474f9e45",
+          "content_bytes": 5786,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/enemuor2021-palm-oil-kogi-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/enemuor2021-palm-oil-kogi-metals.md | sha256sum"
         }
       },
       {
@@ -250,12 +1733,80 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/famurewa2023-coconut-oil-metals-pesticides",
         "content_pin": {
-          "content_sha256": "3429103a26593744e14ab570cfef9c39767a3197b570a2e2c32a43ec6f2245aa",
-          "content_bytes": 7412,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "3440175b96fe80a7d534a88b0eb87f16aaf937adfcbf3bed7ac32ab582f42171",
+          "content_bytes": 7606,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/famurewa2023-coconut-oil-metals-pesticides.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/famurewa2023-coconut-oil-metals-pesticides.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/faraca2023-commission-nor-any-person-acting-on-behalf-of",
+        "title": "Commission nor any person acting on behalf of the Commission is responsible for the use that might be made of this",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/faraca2023-commission-nor-any-person-acting-on-behalf-of",
+        "content_pin": {
+          "content_sha256": "b241274a2fed7d81da0913b436d802417cd7b675f6f8d4fc64356b41b77cd18d",
+          "content_bytes": 7920,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/faraca2023-commission-nor-any-person-acting-on-behalf-of.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal",
+        "title": "Occurrence data of nickel in feed and animal exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal",
+        "content_pin": {
+          "content_sha256": "770a275aa905d7288c71ef9ac79807e7ba3e0500379125acc330d88a7fd9295a",
+          "content_bytes": 8902,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/goli2021-the-effect-of-chelating-agents-including-potassium-tartrate",
+        "title": "The effect of chelating agents including potassium tartrate and",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/goli2021-the-effect-of-chelating-agents-including-potassium-tartrate",
+        "content_pin": {
+          "content_sha256": "c2c1d43493a447630360a114ecee42bbdd60bd3e5b7fc771845cb9c6d818a4c6",
+          "content_bytes": 9728,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/goli2021-the-effect-of-chelating-agents-including-potassium-tartrate.md | sha256sum"
         }
       },
       {
@@ -275,12 +1826,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review",
         "content_pin": {
-          "content_sha256": "8a98b72a2c3b92307328a742c6a2e790ad5b2c8da2ba022030168ef4f67d1e79",
-          "content_bytes": 7695,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e2f6bcb7ebca1e38fc4718b7ca5069b4d7a02c73d694ef9e912c0b2c87b3db3b",
+          "content_bytes": 7876,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
         }
       },
       {
@@ -299,12 +1850,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hussain2019-plant-food-heavy-metal-review",
         "content_pin": {
-          "content_sha256": "1becec09e6e2f84c5df18f8b5aed840d68361006d3254967e7fb7c94d6e53122",
-          "content_bytes": 6874,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "4a5e14d6e27a8ee40a8093d31bf4badbb86cc2e9b1dfdc0a7990b3e2ed3f8182",
+          "content_bytes": 7386,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/hussain2019-plant-food-heavy-metal-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/hussain2019-plant-food-heavy-metal-review.md | sha256sum"
         }
       },
       {
@@ -323,12 +1874,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kheirati-rounizi2021-sesame-oil-heavy-metals",
         "content_pin": {
-          "content_sha256": "ec739e4f3d0497de03a5ec420a2c3833b20df42f6231531a9c40f4a43c5f7b1f",
-          "content_bytes": 6800,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "83e75a31df649432d5277e076375e736645a6f1e602b97f96f0882729b25290f",
+          "content_bytes": 6976,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/kheirati-rounizi2021-sesame-oil-heavy-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/kheirati-rounizi2021-sesame-oil-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -354,12 +1905,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lin2024-edible-oils-taiwan-12-metals",
         "content_pin": {
-          "content_sha256": "51ef137c4a5f5474dc3143ecca7b6d2eff000f5df045082f0246b9d92c80ab7c",
-          "content_bytes": 16286,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "f764a958d0cea66074e11656b4e1080d000a42211f5e355df3f2febd5d4711c1",
+          "content_bytes": 16462,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/lin2024-edible-oils-taiwan-12-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/lin2024-edible-oils-taiwan-12-metals.md | sha256sum"
         }
       },
       {
@@ -379,12 +1930,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/luka2019-northern-cyprus-olive-oil-metals",
         "content_pin": {
-          "content_sha256": "aa6bfd66593c07b09511a46049ff760620f260b2cdced75ae0af004469e6831b",
-          "content_bytes": 7864,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "88e69a078694b99537ef81c4682ee99b48fe8249f86f164888346f7dde1bf4da",
+          "content_bytes": 8058,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/luka2019-northern-cyprus-olive-oil-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/luka2019-northern-cyprus-olive-oil-metals.md | sha256sum"
         }
       },
       {
@@ -405,12 +1956,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/matei2025-vegetable-oils-romania-gfaas",
         "content_pin": {
-          "content_sha256": "586f6ff1a379c54da6b45bca946d394c9a4f67ace3ac024a22887949084c2c12",
-          "content_bytes": 22348,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "3abab4e13fed9e7c1af735d40c6d1e631d31118d3366a74b4eb286e8ab32d5d8",
+          "content_bytes": 22559,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/matei2025-vegetable-oils-romania-gfaas.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/matei2025-vegetable-oils-romania-gfaas.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/meharg2024-exposure-and-health-2024-16-715-726",
+        "title": "Exposure and Health (2024) 16:715–726",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "iAs",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/meharg2024-exposure-and-health-2024-16-715-726",
+        "content_pin": {
+          "content_sha256": "78cb179c014b4cacfcecf524bbbd644c8345f8c5a5048302874dc694efee0595",
+          "content_bytes": 8777,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/meharg2024-exposure-and-health-2024-16-715-726.md | sha256sum"
         }
       },
       {
@@ -429,12 +2002,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mehri2024-vegetable-oils-iran-hamadan-ptes",
         "content_pin": {
-          "content_sha256": "de88a9f5f5ed804f16f4555c04b39c20e3f96c9fb43851d43c4d378a58bb0e87",
-          "content_bytes": 7530,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "5b531095959bef79c3944834a9658d0032f99552ea4d293b3592abbc2bafc48b",
+          "content_bytes": 7711,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/mehri2024-vegetable-oils-iran-hamadan-ptes.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/mehri2024-vegetable-oils-iran-hamadan-ptes.md | sha256sum"
         }
       },
       {
@@ -457,12 +2030,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
         "content_pin": {
-          "content_sha256": "7eabd396a3810bffcc58dce9288e2e1136e96d550da789ebbfa8e6cb2c426b1a",
-          "content_bytes": 16502,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "f389ee465940dbca54341a76fe1497b270f85ad850a8af49489ee587bb60c654",
+          "content_bytes": 16683,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nitrogen2019-on-rc-silage-this-study-compared-two-rc",
+        "title": "on RC silage. This study compared two RC silages which when ensiled had contrasting PPO activities (RC+ and RC−) against a control of",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nitrogen2019-on-rc-silage-this-study-compared-two-rc",
+        "content_pin": {
+          "content_sha256": "c4088a50479f13597f1758508a9abb17a0bd3d30cb80abf4672020ddd2912c08",
+          "content_bytes": 8540,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/nitrogen2019-on-rc-silage-this-study-compared-two-rc.md | sha256sum"
         }
       },
       {
@@ -480,12 +2073,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ntigoroku2025-delta-state-edible-oils-metals",
         "content_pin": {
-          "content_sha256": "01efca15f1c3496470a904528395616340ad591fe58d286240572c917ad107b9",
-          "content_bytes": 10782,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "46e14991619b9570ba90b14c42509d56e13a49dc90bbfdc4a48bd01ab40e72ee",
+          "content_bytes": 10958,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/ntigoroku2025-delta-state-edible-oils-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/ntigoroku2025-delta-state-edible-oils-metals.md | sha256sum"
         }
       },
       {
@@ -511,12 +2104,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/olafisoye2020-virgin-palm-oil-metals",
         "content_pin": {
-          "content_sha256": "48add17e2416cc222ba0adab2c9af6c1e3f22a1ce2a0b13f096da3825c347205",
-          "content_bytes": 6123,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "486cd56e415d9f64371f2e5a17ececd9e25af96fec1458a9281feb584625d786",
+          "content_bytes": 6294,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/olafisoye2020-virgin-palm-oil-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/olafisoye2020-virgin-palm-oil-metals.md | sha256sum"
         }
       },
       {
@@ -539,12 +2132,59 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pehlivan2008-vegetable-oils-turkey-icp-aes",
         "content_pin": {
-          "content_sha256": "02bab848eed2112a3b5c7cc672ea50601d80762019b0e2e0c3c4f459abb3e8b1",
-          "content_bytes": 8743,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "350324579380197bcde829f59c229d7b4f7eea5795b85f4e0d976e2faae7316b",
+          "content_bytes": 8924,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/products2019-concentration-of-total-mercury-in-convenience-fish",
+        "title": "Concentration of Total Mercury in Convenience Fish",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "MeHg",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/products2019-concentration-of-total-mercury-in-convenience-fish",
+        "content_pin": {
+          "content_sha256": "7e8ae9967da30661ae55d8e6b5fb33a546f612fe667e33a042b78e9453e6a2ca",
+          "content_bytes": 8443,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/products2019-concentration-of-total-mercury-in-convenience-fish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami",
+        "title": "Catello Pane, Aldo Tava and Cristina Bignami",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami",
+        "content_pin": {
+          "content_sha256": "18c8c35bca5d333334269853e1da47798bbd421a97e1c22b7ba648ff3cacecc5",
+          "content_bytes": 8939,
+          "last_commit_sha": "39e962871",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 39e962871:wiki/sources/properties2020-catello-pane-aldo-tava-and-cristina-bignami.md | sha256sum"
         }
       },
       {
@@ -559,12 +2199,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadighara2021-food-organotin-review",
         "content_pin": {
-          "content_sha256": "34b2759c868bd812a6d7f3fed7ce3290e10ab92fa0b0dd860a26c0a5e8845dee",
-          "content_bytes": 7077,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "9aee2133abd8e465833c91f72f5f9c32e59b56e4c6b74ac6befe3434ef3fbeba",
+          "content_bytes": 7430,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/sadighara2021-food-organotin-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/sadighara2021-food-organotin-review.md | sha256sum"
         }
       },
       {
@@ -582,12 +2222,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/samuel2020-palm-oil-metals-nigeria",
         "content_pin": {
-          "content_sha256": "15c7c64f10b525c8e07a21ccd5ebdcc750f7ce69fa4a9caebde4df668969cece",
-          "content_bytes": 5899,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "26bbcf8a121641c89fae5d81fc5d4e826f4e8e43410f64dd329f4ed699d8506f",
+          "content_bytes": 6070,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/samuel2020-palm-oil-metals-nigeria.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/samuel2020-palm-oil-metals-nigeria.md | sha256sum"
         }
       },
       {
@@ -610,12 +2250,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/scutarasu2023-heavy-metals-foods-beverages",
         "content_pin": {
-          "content_sha256": "12767ceded18cd340ac363a6a815e1406cc3ac91f8669430b305b8412bd3d007",
-          "content_bytes": 9063,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "417e03395f094083e2407bb0426aeba337a7d9c18b2bd20095b9c41c6a1e6b9b",
+          "content_bytes": 9244,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
         }
       },
       {
@@ -633,12 +2273,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sigauke2024-spent-bleaching-earth-review",
         "content_pin": {
-          "content_sha256": "74b259a8cbce8f6601ee1e36180ea2754dd5ca2acc4c730a215bfa3e157a89df",
-          "content_bytes": 12635,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "4d73a04207b214f04eca70512f41e6bf2520f0831b3cef842adc9bc2686f0fb1",
+          "content_bytes": 12811,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/sigauke2024-spent-bleaching-earth-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/sigauke2024-spent-bleaching-earth-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/surface2012-when-citing-papers-from-this-publication-the-appropriate",
+        "title": "When citing papers from this publication, the appropriate citation includes the paper",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Ni",
+          "Al",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/surface2012-when-citing-papers-from-this-publication-the-appropriate",
+        "content_pin": {
+          "content_sha256": "48d7ace728ee4d0f0a357df42d5da7b3dfb618ee76bd96565e34ec332694c1e9",
+          "content_bytes": 7589,
+          "last_commit_sha": "3ca2007c5",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ca2007c5:wiki/sources/surface2012-when-citing-papers-from-this-publication-the-appropriate.md | sha256sum"
         }
       },
       {
@@ -654,12 +2319,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tayeb2025-olive-corn-oil-iran-pb-cd",
         "content_pin": {
-          "content_sha256": "947740e9ed7496cf63c18efa9c084c8e9a815b3c4d9f7ba6a7e54c80c1e6db81",
-          "content_bytes": 6684,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e7e1db2c2c1f8be1e01adcbe27fcae4d8df12a5affdfdfc9fed8f4485e1800e4",
+          "content_bytes": 6865,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md | sha256sum"
         }
       },
       {
@@ -676,12 +2341,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tesfaye2016-edible-oils-essential-metals-ethiopia",
         "content_pin": {
-          "content_sha256": "069ec563ad5888faae847d3505544fd2a1e350aa4df59f45927bbc7b2c69a022",
-          "content_bytes": 6589,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "ef4c5744adcd23fa76f556a703bb1c492e2dbc866099c278865308897b8ef5d1",
+          "content_bytes": 6783,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/tesfaye2016-edible-oils-essential-metals-ethiopia.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/tesfaye2016-edible-oils-essential-metals-ethiopia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet",
+        "title": "barrier. Phototoxicity caused by overexposure, especially to ultraviolet radiation (UVR), results",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet",
+        "content_pin": {
+          "content_sha256": "f514da0f0fec4e309cdb80f081440a78b6782c1d4e81c8dbfde13acbc1a1bd68",
+          "content_bytes": 7937,
+          "last_commit_sha": "d5eece090",
+          "last_commit_date": "2026-08-03",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d5eece090:wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet.md | sha256sum"
         }
       },
       {
@@ -700,12 +2385,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yohannes2024-vegetable-oils-ethiopia-gondar",
         "content_pin": {
-          "content_sha256": "e53e21b32448f54649b5f228879a2207f7ce0f3f663381ae6e49604ca712f4ed",
-          "content_bytes": 6796,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "519c715656c24e92f9532e62fcff9731f2bd336c27cfe8f75602e552ae3684dd",
+          "content_bytes": 6977,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md | sha256sum"
         }
       },
       {
@@ -727,12 +2412,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhu2011-edible-vegetable-oils-china-8-metals",
         "content_pin": {
-          "content_sha256": "c76e5dd66e1e155126171006322ceb8623df0bdde7b7006abb771ff88e8f3202",
-          "content_bytes": 22508,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "4cb0382e773b8d812dae9f70fa33e3f9bbbc0abadf15c314e5faa35e369a752e",
+          "content_bytes": 22684,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/zhu2011-edible-vegetable-oils-china-8-metals.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/zhu2011-edible-vegetable-oils-china-8-metals.md | sha256sum"
         }
       },
       {
@@ -750,12 +2435,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ziarati2019-iranian-italian-flavoured-olive-oil",
         "content_pin": {
-          "content_sha256": "3bdc00758b56f19efb8c3fb9523cfccc2b3dd67e83a196ce95332aba996a51c5",
-          "content_bytes": 8436,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "63a9f70e9055896e17c753f36dd723dbaf0676bbb54caef07a2333bffc50a631",
+          "content_bytes": 8617,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md | sha256sum"
         }
       }
     ]

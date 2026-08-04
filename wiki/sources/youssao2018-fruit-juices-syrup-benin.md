@@ -29,6 +29,8 @@ updated: 2026-05-19
 
 # Youssao et al. 2018 - minor and trace elements in Benin fruit juices and syrup
 
+## Overview
+
 This study measured minor and trace elements in 92 commercial fruit-juice and syrup samples from Benin and France. The main occurrence signal is bottled pineapple juice and pineapple-watermelon cocktail from Beninese artisanal and semi-industrial processors, with six French pineapple juices used as a reference set and one pineapple syrup sample included as a separate matrix. The source is directly relevant to non-apple fruit juice, especially for Al, Pb, Hg, Ba, Sn, and total As in non-canned bottled juice.
 
 ## Key numbers
@@ -126,8 +128,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [95d82ac7e](https://github.com/paleofoundation/heavymetalindex/commit/95d82ac7e) | 2026-05-19 | minor | Narrative text revised |
-| [f2251d4bc](https://github.com/paleofoundation/heavymetalindex/commit/f2251d4bc) | 2026-05-19 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address
 
+## Overview
+
 Three independent A-tier studies from the past eighteen months document the same finding from three different methodological vantage points: the methylmercury exposure profile that underlies regulatory fish-consumption advice (FDA-EPA, EFSA, national-level equivalents) is calibrated against typical Western market consumer patterns, while a substantial and identifiable global subpopulation, the consumers of subsistence-fished and locally-caught freshwater and pelagic fish, faces methylmercury exposures that routinely exceed the thresholds the regulatory advice is built against. The pattern is geographically diverse, holds across both marine and freshwater systems, and is being amplified by climate change. The scientific implication is straightforward: an exposure profile calibrated to median-consumer dietary methylmercury intake does not describe the consumers most at risk, because subsistence-fishing populations face exposures the median-consumer calibration does not capture.
 
 The pattern is not subtle and it is not new in regional documentation. The synthesis here is that three independently-conducted studies in different geographies and methods converge on the same quantitative claim about scale and population, which is the synthesis-page bar this finding now meets. The wiki should treat the finding as established for the populations the three studies document and provisional for jurisdictions where parallel quantitative work has not yet been done.
@@ -93,13 +95,13 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM (2024). *Global fishing patterns amplify human exposures to methylmercury*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121). Peer-reviewed, A-tier. [[sources/li2024-global-fisheries-mehg|Source record]]
-2. Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H (2025). *Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers*. Proceedings of the National Academy of Sciences. [https://doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122). Peer-reviewed, A-tier. [[sources/wu2025-climate-meghan-freshwater-fish-china|Source record]]
-3. Auzier Guimarães KL, do Nascimento Andrade SJ, Liscano-Carreño AA, de Oliveira RB, and Ribeiro Rodrigues LR (2025). *Systematic review and spatiotemporal assessment of mercury concentration in fish from the Tapajós River Basin: implications for environmental and human health*. ACS Environmental Au. [https://doi.org/10.1021/acsenvironau.4c00053](https://doi.org/10.1021/acsenvironau.4c00053). Peer-reviewed, A-tier. [[sources/auzier-guimaraes2025-mercury-tapajos-fish|Source record]]
-4. Venant HK, Lwetoijera DW, and Kassim N (2025). *Community Awareness and Health Risk of Heavy Metals Through Consumption of Sardine (Rastrineobola argentea) From Lake Victoria, Tanzania*. Food Science & Nutrition. [https://doi.org/10.1002/fsn3.70898](https://doi.org/10.1002/fsn3.70898). Peer-reviewed, A-tier. [[sources/venant2025-lake-victoria-sardine-cd-pb|Source record]]
-5. Paul SK, Jahan N, Saha D, Sarker BS, Majumdar PR, and Rahman M (2025). *Arsenic bioaccumulation in fish of the lower meghna river: Seasonal dynamics, species sensitivity, and public health implications*. PLoS One. [https://doi.org/10.1371/journal.pone.0330602](https://doi.org/10.1371/journal.pone.0330602). Peer-reviewed, A-tier. [[sources/paul2025-meghna-fish-arsenic|Source record]]
+1. [[sources/li2024-global-fisheries-mehg|Global fishing patterns amplify human exposures to methylmercury]]<span class="hmi-ref-meta">Li ML, Thackray CP, Lam VWY, Cheung WWL, and Sunderland EM · Proceedings of the National Academy of Sciences · 2024 · [doi.org/10.1073/pnas.2405898121](https://doi.org/10.1073/pnas.2405898121)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/auzier-guimaraes2025-mercury-tapajos-fish|Systematic review and spatiotemporal assessment of mercury concentration in fish from the Tapajós River Basin: implications for environmental and human health]]<span class="hmi-ref-meta">Auzier Guimarães KL, do Nascimento Andrade SJ, Liscano-Carreño AA, de Oliveira RB, and Ribeiro Rodrigues LR · ACS Environmental Au · 2025 · [doi.org/10.1021/acsenvironau.4c00053](https://doi.org/10.1021/acsenvironau.4c00053)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/venant2025-lake-victoria-sardine-cd-pb|Community Awareness and Health Risk of Heavy Metals Through Consumption of Sardine (Rastrineobola argentea) From Lake Victoria, Tanzania]]<span class="hmi-ref-meta">Venant HK, Lwetoijera DW, and Kassim N · Food Science & Nutrition · 2025 · [doi.org/10.1002/fsn3.70898](https://doi.org/10.1002/fsn3.70898)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/paul2025-meghna-fish-arsenic|Arsenic bioaccumulation in fish of the lower meghna river: Seasonal dynamics, species sensitivity, and public health implications]]<span class="hmi-ref-meta">Paul SK, Jahan N, Saha D, Sarker BS, Majumdar PR, and Rahman M · PLoS One · 2025 · [doi.org/10.1371/journal.pone.0330602](https://doi.org/10.1371/journal.pone.0330602)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -109,9 +111,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9469b2835](https://github.com/paleofoundation/heavymetalindex/commit/9469b2835) | 2026-05-13 | major | 5 sources added; 8 sections added; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

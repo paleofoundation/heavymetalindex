@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Tamele 2020 - African Indian Ocean and Red Sea seafood metals
 
+## Overview
+
 Tamele and Loureiro reviewed lead, mercury, and cadmium occurrence in seafood from African countries on the Indian Ocean and Red Sea coasts. The paper is a narrative review and monitoring-context source, not a primary market-sampling study. Its seafood occurrence table compiles concentrations from cited studies in Egypt, Djibouti, Kenya, Tanzania, Mozambique, and South Africa and reports the occurrence unit as `mgKg−1`.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [f2164bd71](https://github.com/paleofoundation/heavymetalindex/commit/f2164bd71) | 2026-06-08 | major | 4 sections added; narrative text revised |

@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Simionov 2023 - Danube fish-market PTEs and microplastics
 
+## Overview
+
 Simionov and colleagues measured Al, As, Cd, Cr, Cu, Ni, Pb, Zn, and Hg in muscle tissue from fish and seafood products bought from retailers in Galati, Romania. The paper reports `mg/kg fresh weight` mean concentrations for 23 taxa, with seafood species generally carrying the highest potentially toxic element levels except for Hg, which the authors report as highest in fish caught in the Lower Danube River sector. The arsenic and mercury measurements are total/unspecified species in the occurrence table; the paper discusses methylmercury and inorganic arsenic toxicology but does not measure MeHg or iAs speciation in Table 3.
 
 ## Key numbers
@@ -92,6 +94,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [ce8e5d59f](https://github.com/paleofoundation/heavymetalindex/commit/ce8e5d59f) | 2026-06-08 | major | 4 sections added; narrative text revised |

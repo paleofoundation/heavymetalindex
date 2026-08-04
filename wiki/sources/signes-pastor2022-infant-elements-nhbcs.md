@@ -31,6 +31,8 @@ updated: 2026-05-18
 
 # Signes-Pastor et al. 2022 - infant urinary elements during the first year of life
 
+## Overview
+
 This Exposure and Health study measured urinary elements in infants from the New Hampshire Birth Cohort Study to evaluate how internal exposure changed between early infancy and one year of age, and whether one-year rice consumption was associated with urinary element concentrations. The study is biomonitoring evidence, not direct product-composition evidence: no infant cereal, formula, or baby-food products were chemically analyzed. Its HMT&C value is exposure-context support for rice and rice-based infant foods, especially the arsenic and molybdenum signal during weaning and the borderline urinary nickel signal among rice consumers.
 
 ## Key numbers
@@ -117,8 +119,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3ea52a8a3](https://github.com/paleofoundation/heavymetalindex/commit/3ea52a8a3) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
-| [97958635e](https://github.com/paleofoundation/heavymetalindex/commit/97958635e) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

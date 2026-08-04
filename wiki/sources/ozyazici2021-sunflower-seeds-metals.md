@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Gül and Kul 2021 - heavy metals in oil sunflower seeds from the Middle Black Sea Region of Turkey
 
+## Overview
+
 Gül and Kul measured heavy metals in 18 oil sunflower (Helianthus annuus L.) seed samples drawn from six locations across the Middle Black Sea Region of northern Turkey (Havza, Vezirköprü, Bafra in Samsun; Merzifon in Amasya; Turhal in Tokat; and Çorum). The source is directly routeable to sunflower seeds and provides range values for Cd, Pb, Ni, Al, Cu, and Zn. Units in the abstract are reported as µg/kg and should be checked against the source's figures before conversion.
 
 ## Key numbers
@@ -67,8 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c39f24bfe](https://github.com/paleofoundation/heavymetalindex/commit/c39f24bfe) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [f5efca8e6](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8e6) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

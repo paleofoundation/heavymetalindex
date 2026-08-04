@@ -91,29 +91,7 @@ created_routed_sources: 7
 
 # Sunflower Oil
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=26 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 28 jurisdictions, top TR 31% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | OK | section present, 5 drivers, 1 upstream source(s) | — |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs THIN, tHg THIN, Ni POOLABLE, Cr THIN | tAs: THIN; tHg: needs 2 more study(ies); Cr: THIN |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 7 claims checked, 7 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 2 cited lever(s), 0 mitigation/ link(s) | — |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, tHg, Ni, Cr; pairing 0 paired, 6 single, 0 unpaired | tAs: THIN; tHg: THIN, needs 2 more study(ies); Cr: THIN; basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 1.00, brand-value 0.50, legal-defensibility 0.50, scale 0.25 | spread 0.75 — starved: scale |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Sunflower oil (Helianthus annuus seed oil) is the third- or fourth-most-consumed edible oil globally and a workhorse cooking oil across Eastern Europe, the Mediterranean, the Middle East, and increasingly North Africa. The heavy-metals profile of sunflower oil is qualitatively similar to other refined seed oils (corn, soybean, rapeseed): the seed itself carries a modest soil-derived metal load, the pressing-and-refining chain partitions most of that load into the spent meal rather than the oil, and the dominant remaining concerns are trace Pb and Cd from seed-source agronomy plus packaging-migration during shelf life. The current corpus loads 7 sources covering Saudi Arabia (Ashraf 2012 161-sample market survey including 28 sunflower-oil samples), Iran (Hamadan probabilistic risk assessment), Turkey (Pehlivan 2008 ICP-AES method development), Ethiopia (Yohannes 2024 Gondar City survey), and global systematic reviews (González-Torres 2023, Silva 2025). Sunflower oil is consistently among the lowest-metal-load edible oils in market surveys.
 
@@ -183,18 +161,18 @@ The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets spe
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Mehri F, Heshmati A, Talebi Ghane E, Khazaei M, Mahmudiono T, and Fakhri Y (2024). *A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran*. BMC Public Health. [https://doi.org/10.1186/s12889-023-17624-1](https://doi.org/10.1186/s12889-023-17624-1). Peer-reviewed, A-tier. [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes|Source record]]
-2. Ashraf MW (2012). *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*. Asian Journal of Chemistry (Uncorrected Proof). Peer-reviewed, A-tier. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Source record]]
-3. Yohannes L, Feleke H, Sharew Melaku M, and Eyachew Amare D (2024). *Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia*. BMC Public Health. [https://doi.org/10.1186/s12889-024-19695-0](https://doi.org/10.1186/s12889-024-19695-0). Peer-reviewed, B-tier. [[sources/yohannes2024-vegetable-oils-ethiopia-gondar|Source record]]
-4. Pehlivan E, Arslan G, Gode F, Altun T, and Özcan MM (2008). *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*. Grasas y Aceites. [https://doi.org/10.3989/gya.2008.v59.i3.514](https://doi.org/10.3989/gya.2008.v59.i3.514). Peer-reviewed, B-tier. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Source record]]
+1. [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes|A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran]]<span class="hmi-ref-meta">Mehri F, Heshmati A, Talebi Ghane E, Khazaei M, Mahmudiono T, and Fakhri Y · BMC Public Health · 2024 · [doi.org/10.1186/s12889-023-17624-1](https://doi.org/10.1186/s12889-023-17624-1)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia|Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population]]<span class="hmi-ref-meta">Ashraf MW · Asian Journal of Chemistry (Uncorrected Proof) · 2012</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/yohannes2024-vegetable-oils-ethiopia-gondar|Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia]]<span class="hmi-ref-meta">Yohannes L, Feleke H, Sharew Melaku M, and Eyachew Amare D · BMC Public Health · 2024 · [doi.org/10.1186/s12889-024-19695-0](https://doi.org/10.1186/s12889-024-19695-0)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes|Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)]]<span class="hmi-ref-meta">Pehlivan E, Arslan G, Gode F, Altun T, and Özcan MM · Grasas y Aceites · 2008 · [doi.org/10.3989/gya.2008.v59.i3.514](https://doi.org/10.3989/gya.2008.v59.i3.514)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -224,9 +202,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [fe6ad96e1](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96e1) | 2026-05-17 | major | Contamination-profile values revised; narrative text revised |
-| [b7d5142c8](https://github.com/paleofoundation/heavymetalindex/commit/b7d5142c8) | 2026-05-16 | major | 4 sources added; contamination-profile values revised; 12 sections added |
 <!-- END: hmi-page-history -->

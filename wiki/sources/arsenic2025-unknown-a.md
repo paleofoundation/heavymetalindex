@@ -28,6 +28,8 @@ created_by: claude_opus_47_session
 
 # Near-duplicate cluster entry — Navaretnam et al. 2025
 
+## Overview
+
 This is a dedup pointer page. The triage manifest's cluster_0102 contains two entries for the same Navaretnam et al. 2025 paper on arsenic speciation in Malaysian rice. The canonical entry is at [[sources/arsenic2025-unknown]] (cite_key `arsenic2025-unknown`, raw_handle FM_12378713).
 
 This page exists so the autonomous Marker ingester doesn't re-process the same paper under a different cite-key. No content lives here; see the canonical page.
@@ -43,7 +45,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 1 source added; 2 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source removed; 2 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [ed7edab2c](https://github.com/paleofoundation/heavymetalindex/commit/ed7edab2c) | 2026-05-15 | major | 1 source added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-06-08
 
 # Wu et al. 2025 — Cadmium in the Soil–Tea–Infusion Continuum of Se-Enriched Gardens (Anhui, China)
 
+## Overview
+
 This peer-reviewed field study, published in Foods (MDPI, CC BY 4.0), characterized cadmium migration through the soil-to-tea-tree-to-infusion continuum across 12 selenium-enriched tea gardens in southwestern Anhui Province, China, and evaluated whether co-occurring soil Se modulates Cd accumulation in tea leaves. The authors collected 36 topsoil samples and 216 tea-tree organ samples (fibrous roots, taproots, main stems, lateral stems, old leaves, young leaves), prepared tea infusions from young-leaf samples using traditional Chinese green-tea production methods, and quantified Cd and Se in all matrices by ICP-MS (Thermo Fisher iCAP RQ; LOD Cd 0.002 mg/kg, Se 0.005 mg/kg) per Chinese national standard GB 5413.21-2010. Mean soil Cd was 0.37 mg/kg (3.81× background) with 67% of gardens exceeding the Cd safety standard (pollution index Pi > 1.0); mean soil Se was 2.58 mg/kg (above the 0.40 mg/kg Chinese Se-enriched-soil standard). Cd in tea-tree organs followed a descending root-to-leaf gradient — fibrous root 1.17 > taproot 0.29 ≈ main stem 0.27 ≈ lateral stem 0.28 > old leaf 0.07 > young leaf 0.02 mg/kg — with all leaf values well below the 1 mg/kg Chinese tea Cd limit. Cd in tea infusion averaged 0.141 µg/L (mean leaching rate 13.33%), below the 5 µg/L Chinese permissible limit for food/beverage Cd. The authors reported a threshold antagonism: when fibrous-root Se < 2.0 mg/kg, Se and Cd accumulated together (positive correlation); when fibrous-root Se ≥ 2.0 mg/kg, Se inhibited Cd uptake (significant negative correlation). Estimated annual carcinogenic risk of Cd from single-brew tea consumption ranged 2.53 × 10⁻⁸ to 3.84 × 10⁻⁸, and a worst-case 100%-leaching scenario produced 1.60 × 10⁻⁷ to 5.03 × 10⁻⁷ — both within the ICRP-acceptable bound of 5 × 10⁻⁵.
 
 ## Key numbers
@@ -126,6 +128,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [0d0cfb70d](https://github.com/paleofoundation/heavymetalindex/commit/0d0cfb70d) | 2026-06-08 | major | 4 sections added; narrative text revised |

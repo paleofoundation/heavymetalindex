@@ -32,6 +32,8 @@ created_by: claude_opus_47_session
 
 # Iwegbue et al. 2019 — Cd/Pb/Cr/Cu/Co/Ni/Mn/Zn/Fe in 27 brands of household hygienic products from Delta State, Nigeria
 
+## Overview
+
 An Elsevier Toxicology Reports open-access study quantifying nine metals (Cd, Pb, Cr, Cu, Co, Ni, Mn, Zn, Fe) in twenty-seven brands of household hygienic products (HHPs) purchased in Abraka, Sapele and Warri (Delta State, southern Nigeria). The sample mix spans powdered laundry detergents (n=10), bar soaps (n=8), liquid dish-washing soaps (n=3), hand sanitizers (n=2), spot-removing creams (n=2) and hand/body creams (n=2). Three to five sub-samples per brand were analysed to capture intra-brand variation across manufacturing dates and batch numbers. Digestion was a triacid attack on a 0.5 g aliquot using HNO₃, HCl and HClO₄ in a 1:3:1 volume ratio (3 mL HNO₃, 9 mL HCl, 3 mL HClO₄) with a pre-digest at room temperature and heating to 110 °C; quantification was on a PerkinElmer Analyst 200 atomic absorption spectrophotometer. Spike-recovery validation gave 84.9-101.8 % across three concentration levels in the absence of a matrix-matched certified reference material. The authors then converted the metal concentrations into Systemic Exposure Dosages (SEDs) using the SCCS body-weight-normalised equation with the standard daily-application, skin-surface-area, frequency-of-application and retention-factor inputs for each product type, applied a 50 % (midpoint) and 100 % (worst-case) bioaccessibility assumption, and compared the SEDs against the (now withdrawn but still used as indicative) FAO/WHO Provisional Tolerable Daily Intake of 3.6 µg Pb kg⁻¹ bw day⁻¹ and the EFSA 0.35 µg Cd kg⁻¹ bw day⁻¹ tolerable weekly-intake-derived daily comparator. The authors' Margin-of-Safety values for every product-metal combination exceeded the 100 SCCS minimum-acceptable threshold; their public-health conclusion is that the HHPs in this market basket are "reasonably safe for the investigated metals" despite the presence of significant Cd and Pb levels.
 
 ## Key numbers
@@ -217,9 +219,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [5249fe6b6](https://github.com/paleofoundation/heavymetalindex/commit/5249fe6b6) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

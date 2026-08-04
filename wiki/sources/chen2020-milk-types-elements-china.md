@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Chen et al. 2020 — Seventeen elements in five Chinese milk types by ICP-MS
 
+## Overview
+
 Chen and colleagues at the Shandong Academy of Agricultural Sciences analyzed 17 major, minor, and trace elements in 350 raw milk samples spanning five species — goat, cow, buffalo, yak, and camel — collected from five Chinese provinces. The analytical platform was ICP-MS (Thermo iCAP Q) operated in kinetic energy discrimination mode after microwave HNO3/H2O2 digestion, with two milk-matrix CRMs (GBW10011 wheat, GBW10017 milk powder) used for accuracy verification. The paper's primary aim was to use multi-element profiles plus chemometrics (PCA, factor analysis, LDA) to discriminate species; the heavy-metals subset (Pb, Cd, tAs, Cr, Ni, Al, Sn) is a secondary outcome that is nevertheless one of the few cross-species ICP-MS occurrence datasets for raw milk in China. Mean Pb in cow milk (23.4 ng/g) exceeded the Codex CXS 193-1995 maximum level for raw milk (20 ng/g, 20 ppb); all other toxic trace elements were below the corresponding limits.
 
 ## Key numbers
@@ -127,8 +129,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 | [5a4f6bdd6](https://github.com/paleofoundation/heavymetalindex/commit/5a4f6bdd6) | 2026-05-30 | minor | Narrative text revised |
-| [f1502f2ad](https://github.com/paleofoundation/heavymetalindex/commit/f1502f2ad) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

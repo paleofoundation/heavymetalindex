@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Falandysz et al. 2020 - Mercury in Yunnan wild and medicinal fungi
 
+## Overview
+
 Falandysz and colleagues measured total mercury in traditionally foraged edible and medicinal fungi from Yunnan province, China, and compared low-mercury wood-decaying medicinal species with higher-mercury soft-flesh edible Boletaceae and related mushrooms. The study is occurrence evidence for total mercury in wild mushrooms, medicinal mushroom materials, and mushroom-derived capsule exposure scenarios; it does not report methylmercury concentrations in the occurrence table.
 
 ## Key numbers
@@ -83,6 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [04c4ff30b](https://github.com/paleofoundation/heavymetalindex/commit/04c4ff30b) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

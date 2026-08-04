@@ -29,6 +29,8 @@ updated: 2026-06-09
 
 # Gautam 2023 - ESR tattoo-ink heavy-metal risk assessment
 
+## Overview
+
 Gautam prepared an ESR health-risk assessment for Manatu Hauora/Te Whatu Ora on heavy metals in tattoo inks used for professional permanent tattoos. The report is not a new laboratory survey, but it selects maximum concentrations from the 2012 New Zealand Ministry of Health tattoo-ink survey for exposure assessment and summarizes international occurrence studies, NZ/EU/US regulatory context, and EU recall patterns. It is A-tier regulatory/exposure context for tattoo inks; occurrence values should be traced to the source surveys named in the report.
 
 ## Key numbers
@@ -95,6 +97,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [5382895af](https://github.com/paleofoundation/heavymetalindex/commit/5382895af) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

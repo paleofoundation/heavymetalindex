@@ -8,6 +8,8 @@ updated: 2026-05-28
 
 # Errata and corrections
 
+## Overview
+
 The Heavy Metal Index is a curated reference. The corpus is large (over a thousand source pages and growing) and the underlying literature is fast-moving; substantive errors are inevitable. This page documents how corrections are submitted, what the Index does on receipt, and the public log of substantiated changes. It is the public-facing complement to the version history stored in [git](https://github.com/paleofoundation/heavymetalindex) and rendered on every page in the "Page history" footer.
 
 This commitment is part of the [[methodology|editorial methodology]] and [[editorial-standards|editorial standards]]. It is also one of the structural requirements for the defensibility argument the Index rests on: a curated reference whose errors are visibly tracked and corrected is more credible than one whose errors are silently fixed or never acknowledged.

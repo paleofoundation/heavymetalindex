@@ -14,6 +14,8 @@ updated: 2026-05-13
 
 # Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure
 
+## Overview
+
 The regulatory architecture for heavy metals in food is built almost entirely on single-metal reference values. EFSA's tolerable weekly intake for cadmium, JECFA's provisional tolerable monthly intake for cadmium, the FDA's action levels for inorganic arsenic in infant rice cereal, the EU's maximum levels under Regulation 2023/915, and the parallel national-level frameworks all set thresholds one metal at a time. Three lines of recent evidence converge on the finding that this architecture systematically underprotects: even when consumers are at or near the most permissive single-metal reference value for each individual metal, their cumulative dietary exposure to the regulated metal mixture exceeds the cumulative hazard threshold for health-protective endpoints. The single-metal floor is the wrong floor.
 
 The synthesis here is that the regulatory positions, taken at face value and combined, do not add up to a health-protective outcome. A framework calibrated to cumulative exposure rather than to single-metal floors is what the convergent evidence below supports.
@@ -90,12 +92,12 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Suomi J and Tuominen P (2023). *Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-27879-x](https://doi.org/10.1007/s11356-023-27879-x). Peer-reviewed, A-tier. [[sources/suomi2023-finland-dietary-metals-cumulative|Source record]]
-2. Joint FAO/WHO Expert Committee on Food Additives (2022). *Cadmium: dietary exposure assessment*. WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA). [www.who.int](https://www.who.int/publications/i/item/9789240060760). Government report, A-tier. [[sources/jecfa-91st-cadmium-2022|Source record]]
-3. EFSA CONTAM Panel, Schrenk D, Bignami M, Bodin L, Chipman JK, del Mazo J, et al. (2024). *Update of the risk assessment of inorganic arsenic in food*. EFSA Journal. [https://doi.org/10.2903/j.efsa.2024.8488](https://doi.org/10.2903/j.efsa.2024.8488). Government report, A-tier. [[sources/efsa2024-risk-assessment-iAs-update|Source record]]
-4. U.S. Food and Drug Administration (2022). *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*. U.S. Food and Drug Administration, Total Diet Study Program. [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results). Government report, A-tier. [[sources/fda-tds-elements-2018-2020|Source record]]
+1. [[sources/suomi2023-finland-dietary-metals-cumulative|Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults]]<span class="hmi-ref-meta">Suomi J and Tuominen P · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-27879-x](https://doi.org/10.1007/s11356-023-27879-x)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/efsa2024-risk-assessment-iAs-update|Update of the risk assessment of inorganic arsenic in food]]<span class="hmi-ref-meta">EFSA CONTAM Panel, Schrenk D, Bignami M, Bodin L, Chipman JK, del Mazo J, et al. · EFSA Journal · 2024 · [doi.org/10.2903/j.efsa.2024.8488](https://doi.org/10.2903/j.efsa.2024.8488)</span><span class="hmi-ref-tag">Government</span>
+4. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -105,9 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [8677b6c71](https://github.com/paleofoundation/heavymetalindex/commit/8677b6c71) | 2026-06-11 | correction | Narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [9469b2835](https://github.com/paleofoundation/heavymetalindex/commit/9469b2835) | 2026-05-13 | major | 4 sources added; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

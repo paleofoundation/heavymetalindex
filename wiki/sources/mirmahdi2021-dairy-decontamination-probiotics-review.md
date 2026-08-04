@@ -28,6 +28,8 @@ updated: 2026-05-30
 
 # Mirmahdi et al. 2021 — Biodecontamination of milk and dairy by probiotics: review (Italian J. Food Science)
 
+## Overview
+
 This narrative review from an Iran–Pakistan author group, published in the Italian Journal of Food Science (Codon Publications, Special Issue 2, 2021), surveys (i) heavy metal and mycotoxin contamination patterns in milk and dairy products worldwide and (ii) the use of probiotic lactic acid bacteria (LAB), kefir grains, and yeast — especially *Saccharomyces cerevisiae* — as biosorbents for in-product decontamination. Heavy metals are the secondary focus; the dominant analytical focus is aflatoxin M1 (AFM1) and other mycotoxins. For the Heavy Metal Index the load-bearing content is Table 1 (country-level Pb / Cd / As concentrations in milk from ten primary studies, 2014–2021), Table 5 (heavy-metal removal efficiencies by LAB and yeasts in milk and kefir matrices), the cited International Dairy Federation (IDF) maximum permissible limits, and the FDA / EU AFM1 ceilings. No primary occurrence measurements are generated; the review is a directional gateway to the cited primary literature.
 
 ## Key numbers
@@ -134,6 +136,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 | [cf3483d22](https://github.com/paleofoundation/heavymetalindex/commit/cf3483d22) | 2026-05-30 | major | 5 sections added; narrative text revised |

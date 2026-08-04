@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Vatanpour et al. 2020 — Pb, Cd, Cr, Zn, Fe and Cu accumulation in cultivated rice, paddy soil and irrigation water across the Tajan river basin, northern Iran
 
+## Overview
+
 This Tajan-river-basin survey reports total concentrations of lead, cadmium, chromium, zinc, iron and copper in 33 cultivated rice samples drawn from 11 paddy locations along the 140-km Tajan river course (Mazandaran province, northern Iran) in the summer of 2018, alongside 33 paired paddy-soil samples and 75 winter + 33 summer surface-water samples. The paper computes soil-to-plant transfer factors (TF), USEPA target hazard quotients (THQ) and a summed hazard index (HI) for adult human consumption of the cultivated rice. The reported per-metal mean concentrations in rice (Pb 9.02 ± 0.2 mg/kg, Cd 0.7 mg/kg per Tables 2–3, Cr 7.7 ± 0.39 mg/kg, Zn 10.7 ± 0.67 mg/kg, Cu 10.4 ± 0.32 mg/kg, Fe 2526 ± 77.13 mg/kg) and the resulting THQ values (Pb 13.80, Fe 7.73, Cr 5.51 per the abstract / 0.08 per Table 3 — the Table 3 row transposition is flagged in Verification notes, Cd 1.50, Zn 5.51 per Table 3 / not stated in the abstract, Cu 0.56) push the summed Hazard Index for adult rice consumers in the basin to 29.18 — i.e., roughly 29× the USEPA non-carcinogenic threshold. TF ranges for the two most toxicologically relevant elements (Pb 4.89–23.65, Cd 3.67–12.42) sit one to two orders of magnitude above the WHO permissible-crop ceiling. The basin's Pb/Zn mineral processing operations, road dust along the highway-adjacent paddies, and phosphate-fertiliser use are advanced by the authors as the likely anthropogenic sources, supported by a principal-components analysis that loads Cr, Fe, Cd and Pb on PC1 (79.7% of variance in rice) and Zn + Cu on PC2 (14.4%).
 
 ## Key numbers
@@ -178,8 +180,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [2e7183ca7](https://github.com/paleofoundation/heavymetalindex/commit/2e7183ca7) | 2026-06-01 | major | 4 sources added; narrative text revised |
-| [64907d29e](https://github.com/paleofoundation/heavymetalindex/commit/64907d29e) | 2026-06-01 | major | 4 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

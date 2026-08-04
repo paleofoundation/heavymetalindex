@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-probiotics-digestive",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0026897588bc117fa16d8d9f2d4a9851bbc5a90560fb613702a46373dd57f2d8",
-      "content_bytes": 7446,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "7a360c994b85a08fc7dab9e509d847e3f6978f7106870719ee1fd2f1878c7e0d",
+      "content_bytes": 7553,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/pet-supplements-probiotics-digestive.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/pet-supplements-probiotics-digestive.md | sha256sum"
     }
   },
   "evidence_base": {

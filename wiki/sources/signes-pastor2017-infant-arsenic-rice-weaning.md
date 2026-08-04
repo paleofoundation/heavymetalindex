@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Signes-Pastor et al. 2017 - infant urinary arsenic and rice-based weaning foods
 
+## Overview
+
 This PLOS ONE study measured urinary arsenic species in 79 infants from Belfast before weaning, followed 11 infants with paired pre- and post-weaning urine samples, and measured arsenic species in 73 rice-based products purchased in Belfast in February 2016. The food analyses used IC-ICP-MS speciation and directly measured inorganic arsenic (iAs), DMA, and MMA in baby rice, rice crackers/cakes, and rice cereals. The study found higher urinary methylated arsenic species in formula-fed infants before weaning, higher urinary arsenic metabolites after rice-product weaning in the paired subset, and frequent exceedance of the source-cited EU 0.10 mg/kg iAs comparator for rice destined for foods for infants and young children.
 
 ## Key numbers
@@ -111,8 +113,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c3629d43e](https://github.com/paleofoundation/heavymetalindex/commit/c3629d43e) | 2026-05-19 | major | 2 sections added and 1 removed; narrative text revised |
-| [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

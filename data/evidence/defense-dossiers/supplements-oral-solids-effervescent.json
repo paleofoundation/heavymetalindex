@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-effervescent",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "853069c9667fa5bfdcf5cecd6d7a40331b6be4b64020390f6376ff7c91d70493",
-      "content_bytes": 7491,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "b8a509e9243013fa1b1ebd4498ebcf03cc726af9ed3ed552a329c4a16362966a",
+      "content_bytes": 7598,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/supplements-oral-solids-effervescent.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/supplements-oral-solids-effervescent.md | sha256sum"
     }
   },
   "evidence_base": {

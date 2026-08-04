@@ -2,7 +2,7 @@
 source_page: wiki/products/childrens-jewelry.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3d9791e0236592bdd4b763c3e5c546a841740941a3e0370d82b1c9b187947f81
+source_page_sha256: ab2409cf810bd784835b3b97123e21cad3bdf39777f3f102d2c4880e782fbbba
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 13
 distinct_cited_sources: 13
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 13 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 

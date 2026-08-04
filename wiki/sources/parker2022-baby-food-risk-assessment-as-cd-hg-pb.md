@@ -28,6 +28,8 @@ updated: 2026-05-15
 
 # Parker et al. 2022 — Human health risk assessment of As, Cd, Hg, and Pb in US baby foods
 
+## Overview
+
 This Cardno ChemRisk (now Stantec) study purchased 36 commercially available US baby and toddler foods across four primary ingredient categories (fruit, grain, leguminous vegetable, root vegetable) and analyzed them for total As, Cd, Hg, and Pb by ICP-MS (FDA EAM Method 4.7). It then conducted a full deterministic health risk assessment across three age groups (birth to 1 year, 1 to 2 years, 2 to 3 years), calculating average daily doses, hazard indices, and lifetime cancer risks. The primary finding is that rice-based grain products drive all elevated risk signals: As in grain products exceeded non-cancer hazard quotients for all age groups and concentrations tested, and the two rice-based products in the grain category had mean As of approximately 120 µg/kg against a wheat-based product with much lower As. Mercury was not detected in any sample. Cadmium and Hg were not associated with non-cancer or cancer risks under any evaluated scenario. The study concludes that risks from heavy metals in baby foods are generally within acceptable limits under most scenarios, with As in rice-based grain products as the primary exception — consistent with the broader literature.
 
 **Conflict-of-interest disclosure:** Four of five authors are or were employed by Cardno ChemRisk, a consulting firm providing scientific advice to corporations and law firms. The study was unfunded. This does not invalidate the methods or data, but the risk-assessment framing (including selection of conservative assumptions and characterization of exceedances as "likely overestimated") reflects the professional orientation of the authoring organization. The concentration data and detection frequencies are the load-bearing evidence; the risk characterization is appropriately hedged but should be read alongside that institutional context.
@@ -108,7 +110,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [ad03d65fe](https://github.com/paleofoundation/heavymetalindex/commit/ad03d65fe) | 2026-05-15 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

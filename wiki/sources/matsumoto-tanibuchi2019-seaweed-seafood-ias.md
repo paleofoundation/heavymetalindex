@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Matsumoto-Tanibuchi et al. 2019 - inorganic arsenic in seaweed and seafood by LC-ICP-MS
 
+## Overview
+
 Matsumoto-Tanibuchi and colleagues validated an LC-ICP-MS method for inorganic arsenic in seaweed, seafood, and seafood products purchased from a local market in Japan. The occurrence-relevant data are Table 4 product concentrations and Table 5 tissue-part concentrations, which report inorganic arsenic, total arsenic, total arsenic in extracts, and extraction rates. The page keeps inorganic arsenic and total arsenic separate throughout.
 
 ## Key numbers
@@ -122,6 +124,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [aaa789f27](https://github.com/paleofoundation/heavymetalindex/commit/aaa789f27) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

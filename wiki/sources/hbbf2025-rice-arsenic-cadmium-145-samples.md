@@ -28,6 +28,8 @@ updated: 2026-05-29
 
 # HBBF 2025 — Total and inorganic arsenic, cadmium, lead, and mercury in 145 US retail rice samples and 66 alternative grain samples
 
+## Overview
+
 Healthy Babies Bright Futures commissioned Brooks Applied Labs to test 211 containers of rice and alternative grains purchased from retailers in 20 US metro areas during 2024-2025, measuring total arsenic, inorganic arsenic, cadmium, lead, and total mercury. Inorganic arsenic was detected in 100% of 145 rice samples, with more than one in four (>25%) exceeding the FDA action level of 100 ppb iAs for infant rice cereal. Brown rice grown in the Southeastern US and arborio risotto rice from Italy showed the highest average total heavy metal burdens (151 ppb and 142 ppb respectively); California-grown rice averaged 65 ppb total heavy metals, the lowest of the rice categories tested. Alternative grains averaged 33 ppb total heavy metals versus 108 ppb for rice, a roughly 69% reduction.
 
 ## Key numbers
@@ -91,9 +93,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aa829f52a](https://github.com/paleofoundation/heavymetalindex/commit/aa829f52a) | 2026-05-29 | minor | Narrative text revised |
 | [9f787bded](https://github.com/paleofoundation/heavymetalindex/commit/9f787bded) | 2026-05-29 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

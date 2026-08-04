@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Smolikova et al. 2016 — Heavy metals in fish products sold in Czech Republic
 
+## Overview
+
 This conference-proceedings paper reports Cd, Pb, and total Hg (tHg) in 159 fish muscle samples representing 33 species from 17 FAO fishing localities, purchased from Brno, Czech Republic markets between September 2015 and June 2016. Cd and Pb were measured by electrothermal atomic absorption spectrometry (ETAAS) after microwave digestion; tHg was measured by direct mercury analysis (AMA 254). Ten samples exceeded the EU mercury maximum levels then set under Commission Regulation (EC) No 1881/2006 (0.5 mg/kg for most fish; 1.0 mg/kg for selected predatory species), and three samples exceeded the cadmium limit applicable to the relevant fish rows. No lead exceedances were found.
 
 The most contaminated species were white marlin (tHg 10.42 ± 2.08 mg/kg; Cd 0.1809 ± 0.0362 mg/kg) and other large predatory fish including swordfish and blue shark. The source states that several above-limit findings from this research were reported through the EU RASFF system and led to withdrawal of some fish batches from Czech markets.
@@ -87,8 +89,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [17cfe9dc8](https://github.com/paleofoundation/heavymetalindex/commit/17cfe9dc8) | 2026-05-18 | major | 3 sections added and 2 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

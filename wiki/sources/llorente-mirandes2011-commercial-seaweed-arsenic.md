@@ -26,6 +26,8 @@ sampling_year_range: null
 
 # Llorente-Mirandes 2011 — Total arsenic and arsenic speciation in six commercial edible seaweeds (Spain)
 
+## Overview
+
 Llorente-Mirandes and colleagues determined total arsenic and water-soluble arsenic speciation (arsenosugars, methylated species, and inorganic arsenic) by LC-ICP-MS in six commercial edible seaweeds sold in Spain. Total arsenic ranged 5.8–56.8 mg As/kg dry weight; arsenosugars dominated (>90% of extracted arsenic in four of six species), and inorganic arsenic [As(III)+As(V)] was a small fraction, detected in only three of the six samples at 0.29–0.51 mg/kg and below detection in the two kombu species (*Laminaria ochroleuca*, *L. saccharina*) and nori. All six were below the French inorganic-arsenic seaweed limit (3 mg/kg dw). The certified reference material *Sargassum fulvellum* (a hijiki relative), run throughout, by contrast carried 69.9 mg/kg inorganic arsenic (69% of extracted As). The study refines the row picture: the kombu/*Laminaria* genus is not uniformly high-iAs — these European-market kombu species were low, in contrast to the elevated *L. digitata* reported elsewhere.
 
 ## Key numbers
@@ -79,8 +81,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [b0202f253](https://github.com/paleofoundation/heavymetalindex/commit/b0202f253) | 2026-06-08 | minor | Narrative text revised |
-| [addea1cd6](https://github.com/paleofoundation/heavymetalindex/commit/addea1cd6) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

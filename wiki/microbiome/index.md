@@ -5,6 +5,8 @@ audience: [regulator, educator, researcher]
 updated: 2026-04-24
 ---
 
+## Overview
+
 Microbiome pages address the subset of microbiome biology for which heavy-metal exposure is the primary mechanistic link. Pages are written so that they can be lifted to [WikiBiome](https://wikibiome.com) with minimal editing; broader microbiome medicine, including clinical metallomics outside the food and supply-chain context, is covered at WikiBiome rather than here. Each page covers the mechanism of action, taxon-level effects at genus or species resolution where the source supports it, functional and metabolic consequences, the evidence base separating human from animal studies, and disease-process implications.
 
 <!-- BEGIN: hmi-page-history -->
@@ -14,6 +16,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [22991a6f5](https://github.com/paleofoundation/heavymetalindex/commit/22991a6f5) | 2026-04-29 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

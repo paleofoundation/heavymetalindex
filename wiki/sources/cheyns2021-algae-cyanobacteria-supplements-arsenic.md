@@ -27,6 +27,8 @@ audience: [regulator, educator, app]
 
 # Cheyns et al. 2021 - arsenic species in algae and cyanobacteria supplements
 
+## Overview
+
 Cheyns and colleagues measured total arsenic and selected arsenic species in 33 algae- or cyanobacteria-based food supplements purchased in Belgium. The source is directly relevant to algae/seaweed supplement occurrence because it reports sample-level total As, inorganic As, DMA, arsenobetaine, recommended dose, and exposure estimates. All sample results are reported on a whole-weight, product-as-sold basis.
 
 ## Key numbers
@@ -115,6 +117,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [9101d0500](https://github.com/paleofoundation/heavymetalindex/commit/9101d0500) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

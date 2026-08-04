@@ -30,6 +30,8 @@ updated: 2026-05-30
 
 # Konuspayeva et al. 2009 — Heavy metals in camel milk, shubat, and fodder from Kazakhstan
 
+## Overview
+
 Konuspayeva and colleagues from Al-Farabi Kazakh National University and CIRAD conducted the first published assessment of heavy-metal contamination in camel milk from Kazakhstan, a country with documented environmental burdens from Soviet-era nuclear testing, polymetal mining, oil extraction, and leaded gasoline still in widespread use at the time of sampling. Sample (i) collected paired water, fodder, raw camel milk, and shubat (fermented camel milk) from 8 farms in 4 regions near identified pollution sources (polymetal industries, oil forages, phosphate manufacturing, the Baikonur cosmodrome). Sample (ii) collected 63 individual raw camel milk samples from 12 different farms in the same 4 regions for Pb, Cr, and Zn. Analytical platform was ICP-AES (Varian Vista MPX – CCD) after wet-oxidation digestion. The headline finding is a mean Pb of 250 ± 56 ppb in the 63-sample dataset, well above tolerable limits used in Turkey (20 ppb), Germany/Netherlands (50 ppb), and Kazakhstan's own standard (100 ppb), with a maximum individual value of 532 ppb at Atyrau. Lead consistently decreased from raw milk to shubat, which the authors attribute provisionally to lactic-bacteria binding under study elsewhere in the same lab.
 
 ## Key numbers
@@ -151,8 +153,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
 | [2b9a5c2d2](https://github.com/paleofoundation/heavymetalindex/commit/2b9a5c2d2) | 2026-05-30 | minor | Narrative text revised |
-| [cf3483d22](https://github.com/paleofoundation/heavymetalindex/commit/cf3483d22) | 2026-05-30 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

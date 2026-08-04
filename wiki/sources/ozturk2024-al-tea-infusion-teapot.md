@@ -26,6 +26,8 @@ updated: 2026-05-20
 
 # Öztürk et al. 2024 — Aluminium in black, green, and white tea infusions: teapot material and infusion time effects
 
+## Overview
+
 This study measured Al concentrations in infusions of black, green, and white tea brewed in five teapot materials (aluminium, copper, glass, steel, porcelain) at three infusion times (5, 10, 15 min) using HPLC with fluorescence detection. Al concentrations across all conditions ranged from 38.46 ± 5.08 to 845.75 ± 11.14 µg/L. Tea type was the dominant determinant of infusion Al: green tea (mean 715.53 ± 97.32 µg/L) reached roughly 14-fold higher infusion Al than black tea (mean 50.36 ± 22.78 µg/L), with white tea intermediate (mean 271.13 ± 48.76 µg/L). Teapot material and infusion time both exerted statistically significant but secondary effects (p < 0.001 for each main effect; the three-way tea × teapot × time interaction was also significant at p < 0.001). Hazard quotient calculations based on JECFA's 1 mg Al/kg body weight/day tolerable daily intake indicated that green tea consumption exceeds HQ = 1 for all teapot/time combinations, white tea exceeds HQ = 1 only for the 15-min glass-teapot condition, and black tea remains well below HQ = 1 across all conditions.
 
 ## Key numbers
@@ -105,7 +107,7 @@ Microbiome: Not addressed in this paper.
 Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existing page `updated: 2026-05-13` predated the 2026-05-14 schema cutoff):
 
 - **Corrected metal wikilink slug.** Prior revision linked `[[metals/aluminium]]` (British spelling); the canonical metal page is `wiki/metals/aluminum.md` (US spelling, per the existing taxonomy). Changed the wikilink to `[[metals/aluminum]]`. The frontmatter symbol `Al` was already correct.
-- **Stripped invented ingredient sub-slugs.** Prior `ingredients:` array included `[[ingredients/green-tea]]`, `[[ingredients/black-tea]]`, and `[[ingredients/white-tea]]` — none of those pages exist in the current taxonomy (only `wiki/ingredients/tea.md`, which lists `green-tea`, `black-tea`, and `oolong-tea` as aliases). Per CLAUDE.md Part 10 (5-paper threshold for sub-variant page creation) and the verification checklist taxonomy rule, the array now contains only the existing umbrella slug `[[ingredients/tea]]`. The tea-type granularity (black/green/white) is fully preserved in the Key numbers prose and Table 1 rendering. The "Wiki pages updated on ingest" list was correspondingly trimmed.
+- **Stripped invented ingredient sub-slugs.** Prior `ingredients:` array included `[[ingredients/green-tea]]`, `[[ingredients/black-tea]]`, and `[[ingredients/white-tea]]` — none of those pages exist in the current taxonomy (only `wiki/ingredients/tea.md`, which lists `green-tea`, `black-tea`, and `oolong-tea` as aliases). Per (5-paper threshold for sub-variant page creation) and the verification checklist taxonomy rule, the array now contains only the existing umbrella slug `[[ingredients/tea]]`. The tea-type granularity (black/green/white) is fully preserved in the Key numbers prose and Table 1 rendering. The "Wiki pages updated on ingest" list was correspondingly trimmed.
 - **Corrected truncated `raw_path`.** Prior revision ended at "Determination of aluminium concentrations in black, green, and wh.pdf"; the actual filename ends with "...white tea samples_ effects of different infusion times and teapot species on aluminium.pdf". Restored the full filename.
 - **Expanded Key numbers to a per-condition rendering.** Prior revision reported only overall, time-margin, and teapot-margin means. The merged page lays out all 43 tabulated condition-level means (Table 1), preserving the paper's full 3 × 5 × 3 design. This makes the per-cell numerical fidelity auditable and reproducible without back-reference to the PDF.
 - **Documented paper-internal precision discrepancy.** The body text on p. 3 reports the overall range as "38.46 ± 5.08 to 845.75 ± 11.14 µg/L"; Table 1 shows the green-tea/steel/15-min cell as "844.8 ± 10.9". This is a paper-internal precision difference, not a wiki-side error. The page now notes the discrepancy explicitly. The abstract reports "38.46 ± 5.08 to 844.75 ± 10.86 µg/L", consistent with the table at low precision. Following the precedent set by other autonomous-cycle merges, the page reports the body-text overall range and notes the discrepancy in line.
@@ -121,8 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [23cdae183](https://github.com/paleofoundation/heavymetalindex/commit/23cdae183) | 2026-05-20 | major | 1 section added; narrative text revised |
-| [3b7bf28d9](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28d9) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ljung & Vahter 2007 — Manganese in Drinking Water: Time to Revise the WHO Guideline
 
+## Overview
+
 This 2007 review by Swedish researchers argued that the WHO guideline value of 500 µg/L for Mn in drinking water is insufficiently protective for infants, given evidence of neurotoxicity at lower concentrations. Mn is not in the HMT&C 10-analyte panel but is a relevant neurotoxic metal affecting the infant formula water preparation pathway.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 4 sections added; narrative text revised |

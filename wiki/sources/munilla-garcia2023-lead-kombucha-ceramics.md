@@ -29,6 +29,8 @@ updated: 2026-05-13
 
 # Munilla García et al. 2023 — Lead poisoning family outbreak from kombucha in ceramic containers, Ibiza
 
+## Overview
+
 This case report describes an outbreak investigation by Balearic Islands food safety authorities following a family of four presenting with markedly elevated blood lead levels at Hospital Can Mises, Ibiza. The affected individuals were producing and selling kombucha fermented in unglazed or improperly glazed ceramic vessels. Lead concentrations in the kombucha samples rose dramatically with fermentation time and storage: 0.95 mg/kg at 14 days fermentation (unpackaged), 7.1 mg/kg at 19 days (unpackaged), and 47 mg/kg in the packaged ready-to-sell product. Lead migration from the ceramic commercial containers under acetic acid simulant (4% acetic acid, 24 h, 22°C) ranged from 5.8 to 73 mg/L. The father, who consumed more than one glass daily, had blood lead of 3,324 µg/L; his wife 1,349 µg/L; two children (aged 8 and 9) 487 and 551 µg/L. No EU or Spanish maximum level exists for lead in kombucha, which the authors flag as a regulatory gap. The ceramic containers' supplier lacked required sanitary registration. Risk assessment used EFSA Benchmark Dose Lower Confidence Limits (BMDL01 for developmental neurotoxicity 0.5 µg/kg bw/day; BMDL01 cardiovascular 1.5 µg/kg bw/day; BMDL10 nephrotoxic 0.63 µg/kg bw/day).
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fdf16f91c](https://github.com/paleofoundation/heavymetalindex/commit/fdf16f91c) | 2026-05-13 | major | 4 sections added; narrative text revised |

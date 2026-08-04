@@ -31,6 +31,8 @@ updated: 2026-06-01
 
 # OECD 2019 — Considerations when assessing children's exposure to chemicals from products (Series on Testing and Assessment No. 310)
 
+## Overview
+
 This OECD Environment Directorate / Joint Meeting of the Chemicals Committee and Working Party on Chemicals, Pesticides and Biotechnology document presents a five-question decision tree (Q0–Q5) for determining whether a child-specific exposure assessment is needed for a chemical in a consumer product, and a checklist of child-specific physiological and behavioural factors (Table 1) that influence inhalation, oral and dermal exposure routes. Three modelled case studies illustrate the framework: two hair sprays (non-VOC and VOC), a kitchen cleaner spray, and a post-application MCPA herbicide scenario in a public park. The focus is "industrial chemicals" in "consumer products"; exposure via food or the environment is explicitly treated as background and is out of scope. No analytical occurrence data on heavy metals are reported; the document is methodology and exposure-modelling guidance, not an occurrence study.
 
 ## Key numbers
@@ -94,8 +96,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [2fd48f18a](https://github.com/paleofoundation/heavymetalindex/commit/2fd48f18a) | 2026-06-01 | minor | Narrative text revised |
-| [d3b1e7aac](https://github.com/paleofoundation/heavymetalindex/commit/d3b1e7aac) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

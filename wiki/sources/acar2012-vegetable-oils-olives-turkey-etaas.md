@@ -30,6 +30,8 @@ updated: 2026-06-01
 
 # Acar 2012 — Cd, Pb, Cu, Fe, Zn in Turkish dietary vegetable oils and olives by ETAAS/FAAS
 
+## Overview
+
 This study determined Cd, Pb, Cu, Fe, and Zn in 53 edible vegetable oil samples (soybean, sunflower, flower, nut, corn, olive) and 70 table olive samples (olive-1, black, green, and black/green crushed-with-seeds preparations) purchased from supermarkets in Ankara, Turkey. Cd, Pb, and Cu were determined by electrothermal atomic absorption spectrometry (ETAAS) using a novel Sc + Ir + NH4H2PO4 chemical modifier mixture; Fe and Zn were determined by flame atomic absorption spectrometry (FAAS). All samples were prepared by microwave-assisted nitric acid/hydrogen peroxide digestion. Across vegetable oils, Cd ranged 31–58 µg/kg, Pb 0.04–0.11 mg/kg, Cu 0.04–0.13 mg/kg, Fe 0.96–2.14 mg/kg, and Zn 1.01–1.74 mg/kg. Across table olive preparations, Cd ranged 43–108 µg/kg, Pb 0.11–0.32 mg/kg, Cu 2.17–3.80 mg/kg, Fe 10.6–18.1 mg/kg, and Zn 2.33–4.44 mg/kg. The author reports Cd in olive samples as higher than several literature values cited but in agreement with the EC Commission Regulation 1881/2006 maximum contaminant levels and Turkish food codex regulations. The paper measures total Pb and total Cd (no speciation); arsenic and mercury are not measured.
 
 Note on evidence tier: assigned B. Single-author study with reasonable analytical rigor (SRM 1577b bovine liver recovery 96–101%, RSDs 3.4–6.2%, microwave digestion, well-described modifier optimisation), but per-oil-type n is small (n=8–12), the geographic frame is restricted to Ankara market supply, and the panel omits arsenic and mercury (the two HMI-priority analytes most regulated in food safety contexts). Total Cd and total Pb are reported without speciation, which is appropriate for these elements in foods.
@@ -158,8 +160,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [5c4f97174](https://github.com/paleofoundation/heavymetalindex/commit/5c4f97174) | 2026-06-01 | major | 2 sources added; narrative text revised |
-| [8db654b03](https://github.com/paleofoundation/heavymetalindex/commit/8db654b03) | 2026-06-01 | major | 1 source added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

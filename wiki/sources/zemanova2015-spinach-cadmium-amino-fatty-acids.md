@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Zemanova et al. 2015 - Cadmium-dosed spinach leaves in a controlled pot experiment
 
+## Overview
+
 Zemanova, Pavlik, Pavlikova, and Kyjakova measured cadmium accumulation in spinach leaves grown in Chernozem soil amended with 0, 30, 60, or 90 mg Cd/kg soil. The study is routeable for spinach and leafy-vegetable cadmium context because it reports dry-matter leaf Cd concentrations and harvest timing, but it is not a retail-market occurrence survey. Its strongest use is evidence fitness for contaminated-soil sensitivity, growth-stage interpretation, and upper-bound Cd uptake behavior in spinach.
 
 ## Key numbers
@@ -73,8 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [eb580ee4c](https://github.com/paleofoundation/heavymetalindex/commit/eb580ee4c) | 2026-06-02 | minor | Narrative text revised |
-| [3b1339981](https://github.com/paleofoundation/heavymetalindex/commit/3b1339981) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Hernandez-Cruz et al. 2024 - Sulforaphane protection against cadmium toxicity in C. elegans
 
+## Overview
+
 Hernandez-Cruz and colleagues tested whether sulforaphane pre-exposure reduces cadmium chloride toxicity and mitochondrial dysfunction in the nematode Caenorhabditis elegans. This is primary health/toxicology mechanism evidence, not food, ingredient, or product occurrence evidence. The source's routeable metal facts are experimental CdCl2 exposure doses: a 300-6000 uM survival screen and a selected 4600 uM CdCl2 challenge for the remaining toxicity, mitochondrial, oxidative-stress, and IIS-pathway assays.
 
 ## Key numbers
@@ -96,9 +98,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [80150df7d](https://github.com/paleofoundation/heavymetalindex/commit/80150df7d) | 2026-06-02 | minor | Narrative text revised |
-| [f4c9c111b](https://github.com/paleofoundation/heavymetalindex/commit/f4c9c111b) | 2026-06-02 | minor | Narrative text revised |
-| [c6649eb1f](https://github.com/paleofoundation/heavymetalindex/commit/c6649eb1f) | 2026-06-02 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

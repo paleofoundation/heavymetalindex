@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Oranges, Dini & Romanelli 2015 — Skin physiology of the neonate and infant: clinical implications
 
+## Overview
+
 This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology, University of Pisa) summarises the structural and functional maturation of the skin from birth through the first year of life and describes the clinical implications of immature barrier function for topical-agent absorption, infection susceptibility, thermoregulation, and product selection. The paper contains no primary heavy-metal occurrence data and no metal-specific permeability measurements; it is included in the Heavy Metal Index corpus as exposure-pathway framing for HMI work that needs to translate adult dermal-absorption assumptions to neonatal and infant skin in the context of baby personal-care products (lotions, oils, cleansers, topical antiseptics).
 
 ## Key numbers
@@ -94,6 +96,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [807699c0f](https://github.com/paleofoundation/heavymetalindex/commit/807699c0f) | 2026-05-17 | major | 1 source added; 5 sections added; narrative text revised |

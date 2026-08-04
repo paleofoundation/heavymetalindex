@@ -26,6 +26,8 @@ updated: 2026-06-09
 
 # ICA 2024 - FDA CDRH systematic review of tampon contaminants
 
+## Overview
+
 International Consulting Associates prepared this systematic literature review for FDA CDRH to summarize evidence on additives, chemicals, and contaminants in vaginal tampons, including metals. The review is secondary evidence: it transports study-level summaries from included bench and clinical studies and does not itself test tampons. Its metals value is mainly as an FDA-commissioned evidence map around the primary Shearston et al. tampon-metal dataset and the BioCycle tampon-use blood-metal biomonitoring study.
 
 ## Key numbers
@@ -107,6 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [c558e1774](https://github.com/paleofoundation/heavymetalindex/commit/c558e1774) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

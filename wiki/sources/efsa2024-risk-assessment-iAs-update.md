@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # EFSA CONTAM Panel 2024 — Updated risk assessment of inorganic arsenic in food
 
+## Overview
+
 This 191-page EFSA Scientific Opinion, adopted November 2023, is the first comprehensive update to EFSA's 2009 iAs risk assessment and integrates the revised 2021 exposure assessment. The CONTAM Panel reviewed new epidemiological evidence and BMD modelling, concluded that iAs is a genotoxic carcinogen, and selected a new Reference Point (RP): BMDL₀₅ of 0.06 µg iAs/kg bw per day from a US skin cancer (squamous cell carcinoma) case-control study, based on a 5% relative increase in background incidence (BMR05). Because iAs is both a threshold and non-threshold carcinogen (genotoxic), the Panel applied a Margin of Exposure (MOE) approach rather than deriving a health-based guidance value. MOEs for adults range from 2 to 0.4 for mean consumers and 0.9 to 0.2 at the 95th percentile — all below an MOE of 1 (the exposure level associated with a 5% increase in background skin cancer incidence), raising a health concern.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6de0a7cc2](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7cc2) | 2026-05-12 | major | 5 sections added; narrative text revised |

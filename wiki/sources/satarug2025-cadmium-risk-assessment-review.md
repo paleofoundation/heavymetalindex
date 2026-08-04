@@ -25,6 +25,8 @@ updated: 2026-06-02
 
 # Satarug 2025 - Challenges in toxicological risk assessment of environmental cadmium exposure
 
+## Overview
+
 Satarug, writing from the Centre for Kidney Disease Research at the Translational Research Institute in Brisbane, reviews the methodology and evidence base behind dietary cadmium exposure guidelines and argues that current threshold-based risk assessments substantially underestimate Cd nephrotoxicity. The review highlights two methodological problems: the JECFA 5.24 microg/g creatinine threshold (derived from a beta2-microglobulinuria endpoint at 300 microg/g creatinine) is too high to be protective for low-iron and low-zinc subpopulations, and the conventional practice of normalizing urinary Cd to creatinine excretion (Ecr) introduces non-differential errors that bias dose-response relationships toward the null. Normalizing to creatinine clearance (Ccr) instead recovers stronger associations between Cd exposure and low eGFR, proteinuria, and CKD. The review then summarizes benchmark dose (BMD) modeling results across six named population datasets and concludes that current dietary Cd guidelines do not adequately protect kidney function.
 
 ## Key numbers
@@ -183,9 +185,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [0a09ab33b](https://github.com/paleofoundation/heavymetalindex/commit/0a09ab33b) | 2026-06-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

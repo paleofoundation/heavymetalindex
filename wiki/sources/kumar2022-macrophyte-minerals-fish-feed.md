@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Kumar et al. 2022 — Heavy metals and minerals in 12 freshwater macrophytes as feed ingredients
 
+## Overview
+
 Kumar and colleagues analyzed the mineral composition of twelve freshwater macrophyte species (duckweeds, watercress, waterthyme, water spinach, water clover, water cabbage, water fern, and others) grown under controlled outdoor culture conditions in India, using ICP-MS (Agilent 7900). Among the heavy metals of concern, Pb was detected in all twelve species; Cd was highest in Hydrilla verticillata; Sn, Ni, and Cr were also measured. All Cd, Cu, Pb, and Sn values were reported as within WHO/FAO permissible limits (Cd: 0.2 mg/kg wet wt; Pb: 0.3 mg/kg wet wt; Sn: 250 mg/kg wet wt), noting that the study measured dry weight and the comparison requires adjustment for approximately 90% moisture. Several macrophytes are consumed by humans in South and Southeast Asia; the majority are candidates for use as animal feed ingredients.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [011a2983c](https://github.com/paleofoundation/heavymetalindex/commit/011a2983c) | 2026-05-13 | major | 4 sections added; narrative text revised |

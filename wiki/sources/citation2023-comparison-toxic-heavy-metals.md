@@ -28,6 +28,8 @@ created_by: autonomy_v0
 
 # Philip-Slaboh et al. 2023 — Heavy metals in diabetic and non-diabetic postpartum breast milk
 
+## Overview
+
 This cross-sectional study compared concentrations of toxic heavy metals in breast milk from 144 postpartum mothers (72 diabetic, 72 non-diabetic) in Yenagoa, Nigeria, collected 5–6 weeks after delivery. All four metals measured (arsenic, lead, mercury, cadmium) were detected at concentrations exceeding WHO permissible limits in the majority of participants from both groups. No significant difference in metal concentrations was found between diabetic and non-diabetic mothers.
 
 ## Key numbers
@@ -66,6 +68,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0b33e2373](https://github.com/paleofoundation/heavymetalindex/commit/0b33e2373) | 2026-05-18 | major | 4 sections added; narrative text revised |

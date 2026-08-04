@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Anwar et al. 2021 - lead and mercury in canned tuna from Aceh waters
 
+## Overview
+
 Anwar and coauthors evaluated canned tuna made from yellowfin tuna (Thunnus albacares) caught in Aceh waters, Indonesia, under different pressure-canner sterilization conditions and media. Heavy metals were one of several quality parameters. The paper reports lead below the analytical detection limit and measurable total mercury in canned tuna, making it routeable to canned fish rather than salt.
 
 ## Key numbers
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aff6b3523](https://github.com/paleofoundation/heavymetalindex/commit/aff6b3523) | 2026-06-09 | minor | Narrative text revised |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
-| [50ec0f053](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f053) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

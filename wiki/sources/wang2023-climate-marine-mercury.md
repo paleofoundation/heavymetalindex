@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Wang et al. 2023 — Climate-driven changes in global marine mercury cycles to 2100
 
+## Overview
+
 This PNAS study models how projected climate change will alter global marine mercury biogeochemical cycles and methylmercury (MeHg) concentrations in marine food webs through 2100. Under high-emissions scenarios (RCP8.5), ocean warming, acidification, and changes to primary productivity are projected to increase MeHg bioaccumulation in upper-trophic-level fish by 5–20 percent relative to baseline, with the largest increases in polar and sub-polar regions. Ocean deoxygenation expands anoxic zones that favor mercury methylation, amplifying MeHg in pelagic food webs. The findings suggest that climate mitigation is necessary alongside anthropogenic mercury emission controls to prevent increasing dietary MeHg exposure from seafood consumption.
 
 ## Key numbers
@@ -56,6 +58,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [97958635e](https://github.com/paleofoundation/heavymetalindex/commit/97958635e) | 2026-05-13 | major | 4 sections added; narrative text revised |

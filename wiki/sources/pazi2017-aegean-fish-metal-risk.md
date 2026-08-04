@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Pazi 2017 - Eastern Aegean fish metal risk
 
+## Overview
+
 Pazi and colleagues measured metal concentrations in edible fish muscle from Aliaga Bay and Izmir Bay on the Turkish Eastern Aegean coast. The study reports wet-weight concentrations for total mercury, cadmium, lead, total chromium, copper, and zinc in four fish species. Mercury is reported as `Hg`; the paper does not report methylmercury speciation.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [7c421b977](https://github.com/paleofoundation/heavymetalindex/commit/7c421b977) | 2026-06-08 | major | 4 sections added; narrative text revised |

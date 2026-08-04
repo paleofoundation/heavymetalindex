@@ -24,6 +24,8 @@ updated: 2026-06-11
 
 # Gumilar et al. 2022 - Nickel and molybdenum additions in POME ethanol treatment
 
+## Overview
+
 Gumilar and colleagues tested whether nickel and molybdenum additions changed ethanol formation during anaerobic treatment of palm oil mill effluent. This is in-scope supply-chain wastewater-treatment and trace-metal-addition context: it reports POME metal concentrations and metal dosing in a treatment process, but it is not palm-oil occurrence evidence and it does not report heavy-metal removal.
 
 ## Key numbers
@@ -118,6 +120,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [f56e59ed3](https://github.com/paleofoundation/heavymetalindex/commit/f56e59ed3) | 2026-06-11 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

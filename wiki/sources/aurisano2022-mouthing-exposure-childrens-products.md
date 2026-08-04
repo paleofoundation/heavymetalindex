@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Aurisano et al. 2022 — High-throughput mouthing exposure model for children's products
 
+## Overview
+
 This JESEE paper develops a high-throughput model for predicting chemical migration from children's product materials into saliva during mouthing, calibrated on 437 measured migration rates spanning 66 chemical-material combinations (phthalate plasticizers, alternative plasticizers, polybrominated diphenyl ethers, parabens, methylsiloxanes, chlorophenols, fragrances). The model adapts the Ernstoff food-packaging migration framework to mouthed plastics. The paper does not include heavy-metal occurrence data; it is a methodology paper for non-metal contaminants.
 
 ## Key numbers
@@ -67,8 +69,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cabd79869](https://github.com/paleofoundation/heavymetalindex/commit/cabd79869) | 2026-05-17 | minor | Narrative text revised |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

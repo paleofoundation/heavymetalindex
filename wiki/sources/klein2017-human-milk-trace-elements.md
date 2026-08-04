@@ -23,6 +23,8 @@ updated: 2026-06-09
 ---
 # Klein et al. 2017 — Trace elements in human milk across four populations
 
+## Overview
+
 Klein and colleagues measured five essential trace elements (Ca, Zn, Fe, Cu, Mn) and three toxic elements (Pb, As, Cd) in human milk from 70 lactating mothers across four populations: an urban US sample (Boston, n=20), rural Polish villagers from the Mogielica Human Ecology Study Site (n=23), indigenous Qom women of northeastern Argentina (n=21), and semi-nomadic Himba women of northern Namibia (n=6). Concentrations of all elements except zinc varied significantly across populations after controlling for infant age, infant sex, and maternal parity. Cadmium was below the limit of detection in every sample and was excluded from analysis. Mean lead concentrations were low compared with recently published values from other populations, but mean arsenic concentrations were 2 to 5-fold higher than recently reported Taiwanese and Swedish values. This is a small-sample, broadly geographic human-milk exposure paper; it is not an infant-formula, commercial dairy, or product source.
 
 ## Key numbers
@@ -85,8 +87,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c396e0393](https://github.com/paleofoundation/heavymetalindex/commit/c396e0393) | 2026-06-09 | major | 1 section added and 1 removed; narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [0edf3ce78](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce78) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

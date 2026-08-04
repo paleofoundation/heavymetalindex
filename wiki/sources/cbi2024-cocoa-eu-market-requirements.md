@@ -32,6 +32,8 @@ updated: 2026-06-02
 
 # CBI 2024 — EU market requirements for cocoa (buyer-requirements article)
 
+## Overview
+
 This is a buyer-requirements / market-information article published by the Centre for the Promotion of Imports from developing countries (CBI), the export-promotion arm of the Netherlands Enterprise Agency under the Dutch Ministry of Foreign Affairs. The article is dated "Last updated 10 July 2024" and consolidates, in plain language for exporting producers in cocoa-origin countries, the mandatory EU regulatory requirements that cocoa beans and cocoa-derived products must meet to enter the European market.
 
 ## Source role
@@ -176,8 +178,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [56e4ad26c](https://github.com/paleofoundation/heavymetalindex/commit/56e4ad26c) | 2026-06-02 | major | 2 sources added; narrative text revised |
-| [fd52f3ccb](https://github.com/paleofoundation/heavymetalindex/commit/fd52f3ccb) | 2026-06-02 | major | 5 sources added; 14 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

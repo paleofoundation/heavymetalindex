@@ -27,6 +27,8 @@ updated: 2026-06-09
 
 # Buba et al. 2020 - domestic pig metals in Nigeria
 
+## Overview
+
 Buba and colleagues measured lead, iron, cadmium, nickel, and copper in domestic pig kidney, liver, and muscle samples purchased from ten commercial sellers in Guyuk Metropolis, Adamawa State, Nigeria. The paper reports tissue means in `mg/g` after drying, ashing, acid digestion, and AAS analysis. The units and tissue labels are preserved as printed; no conversion to `mg/kg` was performed.
 
 ## Key numbers
@@ -78,6 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [48e2c9593](https://github.com/paleofoundation/heavymetalindex/commit/48e2c9593) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

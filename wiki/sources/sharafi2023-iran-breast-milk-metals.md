@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Sharafi et al. 2023 - Heavy metals in breast milk from western Iran
 
+## Overview
+
 Sharafi and colleagues measured arsenic, cadmium, mercury, lead, chromium, and nickel in breast milk from 100 lactating women in Kermanshah, western Iran. Chromium, nickel, and lead had the highest mean concentrations in breast milk, and the authors reported exceedance of their cited tolerable or maximum limits for several metals. The source is routeable for human-milk occurrence and infant exposure context, not for infant formula.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

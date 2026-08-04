@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Kumar et al. 2022 - Lead in Bangladeshi agricultural foods
 
+## Overview
+
 Kumar et al. compiled published lead concentration data for agricultural foods commonly consumed in Bangladesh and assessed non-cancer and cancer risk. The source is a summary-rich literature survey, not a new sampling campaign, but it reports routeable food concentration values by commodity group, district, and food item. It is useful for Bangladesh geographic context and for source-pool sensitivity review, not for silent pooling into US-market benchmark rows.
 
 ## Key numbers
@@ -109,6 +111,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [92fd08bbb](https://github.com/paleofoundation/heavymetalindex/commit/92fd08bbb) | 2026-06-02 | major | 5 sections added; narrative text revised |

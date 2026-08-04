@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Ramtahal et al. 2016 — Cd in cacao tissues and soils across 45 plantations in Trinidad and Tobago
 
+## Overview
+
 Ramtahal et al. measured cadmium in leaves, pod husks, shells, and nibs (beans) of cacao plants, and in corresponding soils, from 45 plantations spanning all seven major soil types (I–VII) across Trinidad and Tobago. The study evaluated whether Cd levels in readily accessible tissues (leaves, pods) could predict Cd in beans (nibs), which would allow screening without waiting for harvest. A wide range of cultivars was sampled, giving the correlations broad applicability.
 
 Cd levels in cacao tissues varied in the order: leaves (0.54–5.21 µg/g) > pods (0.53–4.49 µg/g) > shells (0.44–4.41 µg/g) > nibs (0.35–3.82 µg/g). Soil total extractable Cd ranged 0.3–1.7 µg/g. All inter-tissue correlations were statistically significant (p < 0.05) and strongly positive: nib/shell r = 0.86, nib/leaf r = 0.79, nib/pod r = 0.76, shell/leaf r = 0.83, shell/pod r = 0.68, leaf/pod r = 0.80. Nib-to-soil correlations were weaker but significant: nib/soil r = 0.35, shell/soil r = 0.43. This suggests that leaf and pod Cd can serve as practical predictors of bean Cd, enabling pre-harvest screening of farms and cultivars for Cd compliance before beans are harvested and sold.
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [87efb16cc](https://github.com/paleofoundation/heavymetalindex/commit/87efb16cc) | 2026-05-12 | major | 3 sections added; narrative text revised |

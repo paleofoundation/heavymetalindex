@@ -12,6 +12,8 @@ noindex: true
 
 # Row-Fit Re-Sweep — 2026-05-08
 
+## Overview
+
 Read-only Phase 1 sweep across all `wiki/products/*.md` pages, applying the row-fit determination rule from CLAUDE.md Part 6 ("trust author scope statements; over-hedging row-fit destroys the value of the source evidence inventory"). The motivating defect is the Soares 2000 over-hedge pattern (hedged "milk-based or soy-based" despite explicit milk-only author scope at every level). This sweep enumerates other rows likely affected.
 
 ## Methodology

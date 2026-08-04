@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Houston et al. 2023 - Alumina nanofibers for Hg(II) and Pb(II) removal
 
+## Overview
+
 Houston and colleagues synthesized amine-functionalized gamma-alumina nanofibers and tested them as adsorbents for mercury(II) and lead(II) ions in prepared aqueous solutions. This is primary remediation-method evidence, not occurrence evidence for food, ingredients, consumer products, or field drinking-water samples.
 
 ## Key numbers
@@ -94,6 +96,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [46f24918b](https://github.com/paleofoundation/heavymetalindex/commit/46f24918b) | 2026-06-02 | major | 8 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Olgunoglu et al. 2025 — Trace metals in black scorpionfish from Izmir Bay
 
+## Overview
+
 This study measures concentrations of ten trace elements (Cd, Cr, Cu, Fe, Hg, Mn, Ni, Pb, Se, Zn) in the muscle tissue of 52 black scorpionfish (*Scorpaena porcus*) collected across four seasons from Izmir Bay (Aegean Sea) using ICP-MS, and evaluates associated human health risks through estimated weekly intake (EWI), target hazard quotient (THQ), carcinogenic risk (CR), and the Metal Pollution Index (MPI). The authors find that Mn, Pb, and Hg exceeded international permissible legal limits, and that Cr and Ni concentrations surpassed carcinogenic risk thresholds. Cadmium showed statistically significant sex-based differences (p < 0.05), while overall sex differences across metals were not significant (p > 0.05). Seasonal variation was significant (p < 0.05) for multiple elements.
 
 ## Key numbers
@@ -60,6 +62,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

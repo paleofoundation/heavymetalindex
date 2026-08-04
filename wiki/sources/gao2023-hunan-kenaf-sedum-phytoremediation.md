@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Gao et al. 2023 - Kenaf and Sedum rotation for contaminated farmland phytoremediation
 
+## Overview
+
 Gao and colleagues tested whether rotating kenaf with the Cd/Zn hyperaccumulator Sedum plumbizincicola could improve removal of cadmium, copper, lead, and zinc from contaminated farmland in Hunan, China. The source is primary field evidence for soil-remediation and supply-chain mitigation context, not food occurrence evidence: the measured plants were phytoremediation/industrial-biomass crops grown on land described as no longer suitable for food crops.
 
 ## Key numbers
@@ -105,8 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [7b9326c84](https://github.com/paleofoundation/heavymetalindex/commit/7b9326c84) | 2026-06-02 | minor | Narrative text revised |
-| [32608a943](https://github.com/paleofoundation/heavymetalindex/commit/32608a943) | 2026-06-02 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

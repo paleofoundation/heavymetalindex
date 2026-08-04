@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Katebe et al. 2024 — Trace metals in vegetables from Lubumbashi contaminated soils
 
+## Overview
+
 Katebe et al. assessed the effectiveness of organocalcareous amendments (chicken droppings, sawdust, and agricultural lime) in reducing transfer of trace metals from mine-contaminated soils to four vegetable species grown in Lubumbashi, DRC, where copper–cobalt mining has severely contaminated urban agricultural soils (Cu: 204–1355 mg/kg; Pb: 20–221 mg/kg; Cd: <0.05–45 mg/kg across three market gardens). The primary finding for food safety is that cobalt in vegetables from even the least-contaminated garden exceeded the FAO/WHO daily intake limit by 0.5 to 8.45 times, while Cd, Cu, and Pb daily consumption indices remained below FAO/WHO limits in the low-contamination garden. Organocalcareous amendments improved germination and reduced metal transfer only in low-contamination soil; in high and medium Cu-contaminated soils plant survival was too poor to assess metal transfer effectively.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [7067f946a](https://github.com/paleofoundation/heavymetalindex/commit/7067f946a) | 2026-05-13 | major | 4 sections added; narrative text revised |

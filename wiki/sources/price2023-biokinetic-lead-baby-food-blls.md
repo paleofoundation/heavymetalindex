@@ -29,6 +29,8 @@ created_by: claude_opus_47_session
 
 # Price et al. 2023 (Stantec ChemRisk) — Biokinetic models comparing baby food Pb to soil/dust/water BLL contributions
 
+## Overview
+
 This study compares three biokinetic Pb models (IEUBK, ICRP v5, AALM) to characterize how baby food Pb contributes to infant blood lead levels (BLLs) relative to soil, dust, water, and other dietary sources. The three models converge for children ≥3 years to the FDA dietary conversion factor of **0.16 µg Pb/dL blood per µg Pb intake/day**, with some variation for younger infants. Applying IEUBK in a probabilistic Monte Carlo framework with US-national distributions for all media: **soil and dust are the primary contributors to BLL variance; food and water contribute <15% combined**. The Stantec ChemRisk authors conclude that "reductions in upper-bound soil and dust concentrations will be necessary before achieving appreciable reductions in the frequency of BLLs greater than the BLRV of 3.5 µg/dL." This is a defensible biokinetic argument from an industry-aligned consultancy, important for HMTc Cat 1 messaging: even with FDA action levels at 10/20 ppb implemented across the food supply, the residual BLL reduction is modest because non-food Pb sources dominate exposure variance.
 
 ## Key numbers
@@ -127,6 +129,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [fa7496edd](https://github.com/paleofoundation/heavymetalindex/commit/fa7496edd) | 2026-05-15 | major | 4 sections added; narrative text revised |

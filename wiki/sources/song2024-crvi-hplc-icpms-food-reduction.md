@@ -29,6 +29,8 @@ updated: 2026-05-20
 
 # Song et al. 2024 — HPLC-ICP-MS method for Cr(VI) in foods and reduction mechanism
 
+## Overview
+
 A fast HPLC-ICP-MS method was developed for Cr(VI) speciation in food matrices, achieving separation in 1.5 minutes using a weak anion-exchange column (Sepax Proteomix WAX-NP5) with 70 mM NH4NO3 mobile phase at pH 7.0. The limit of detection was 0.1 µg/kg, substantially better than most prior published HPLC-ICP-MS methods. When applied to seven commercially purchased food products from a Nanjing supermarket (milk powder, rice flour, whole wheat bread, yoghurt, white vinegar, orange juice, green tea), Cr(VI) was not detected in any sample. Spiking experiments revealed that Cr(VI) is unstable in food matrices and rapidly converts to Cr(III), with conversion accelerated by vitamin C, tea polyphenols, acidic conditions (pH 3.0), and elevated temperatures (80 °C). The authors conclude that natural reducing substances in foods likely prevent the occurrence of Cr(VI).
 
 ## Key numbers
@@ -39,22 +41,22 @@ Cr(VI) in the seven tested foods: not detected (< 0.1 µg/kg) in milk powder, ri
 
 Recovery rates across three spiking approaches (spike levels 5, 25, 50 µg/kg; Table 3):
 
-| Approach                                                | Recovery range (%) | Notes |
+| Approach | Recovery range (%) | Notes |
 |---------------------------------------------------------|---------------------|-------|
-| 1 — Cr(VI) spiked directly into the alkaline extract    | 91.70 – 111.85      | Across all 7 foods × 3 spike levels |
-| 2 — Cr(VI) spiked into food, extracted after 2 min      | 33.91 – 104.76      | Orange juice 33.91% at 5 µg/kg was the lowest |
-| 3 — Cr(VI) spiked into food, extracted after 3 h        | 0 – 102.38          | Orange juice and green tea were ND at all 3 spike levels |
+| 1 — Cr(VI) spiked directly into the alkaline extract | 91.70 – 111.85 | Across all 7 foods × 3 spike levels |
+| 2 — Cr(VI) spiked into food, extracted after 2 min | 33.91 – 104.76 | Orange juice 33.91% at 5 µg/kg was the lowest |
+| 3 — Cr(VI) spiked into food, extracted after 3 h | 0 – 102.38 | Orange juice and green tea were ND at all 3 spike levels |
 
 Cr(VI) reduction time-to-completion in spiked food components (1 g component per 1 L ultrapure water; 0.01 g for vitamin C; Cr(VI) spiked at 200 µg/kg for vitamin C and 25 µg/kg for the other five; Figure 5):
 
-| Food component  | Time to complete conversion |
+| Food component | Time to complete conversion |
 |-----------------|-----------------------------|
-| Vitamin C       | 20 min |
+| Vitamin C | 20 min |
 | Tea polyphenols | 24 min |
-| Whey proteins   | 24 h |
-| Gelatin         | 24 h |
-| Fructose        | 60 h |
-| Cellulose       | 60 h |
+| Whey proteins | 24 h |
+| Gelatin | 24 h |
+| Fructose | 60 h |
+| Cellulose | 60 h |
 
 Reduction-rate acceleration at 80 °C versus 25 °C (Figure 6): vitamin C 1.93×, tea polyphenols 1.04×, whey proteins 3.92×, gelatin 2.07×, fructose 10.11×, cellulose 1.70×.
 
@@ -70,7 +72,7 @@ The paper does not report a certified reference material for Cr(VI) accuracy ver
 
 ## Implications
 
-**Certification (HMT&C):** The paper's main contribution to threshold work is methodological. It demonstrates that Cr(VI) is rapidly reduced to Cr(III) by reducing agents present in most foods — vitamin C, tea polyphenols, proteins, gelatin, sugars, cellulose — with timescales ranging from 20 minutes (vitamin C) to 60 hours (cellulose, fructose), accelerated by heat and acidity. For HMT&C threshold work where Cr-VI is a target analyte (one of the 10 official HMT&C analytes per CLAUDE.md Part 14), this paper supports the view that protocols permitting prolonged contact time between sampling and extraction will systematically underestimate any Cr(VI) that was originally present, and that the fast (1.5 min) anion-exchange extraction used here represents a methodologically more defensible upper-bound. The negative result (Cr(VI) ND across all seven foods, LOD 0.1 µg/kg) is, in the authors' own framing (introduction §1 citing Novotnik et al. [9] and Vacchina et al. [10]; conclusion §4), consistent with the position that Cr(VI) is generally absent from plant-based and animal-derived foods at typical detection limits.
+**Certification (HMT&C):** The paper's main contribution to threshold work is methodological. It demonstrates that Cr(VI) is rapidly reduced to Cr(III) by reducing agents present in most foods — vitamin C, tea polyphenols, proteins, gelatin, sugars, cellulose — with timescales ranging from 20 minutes (vitamin C) to 60 hours (cellulose, fructose), accelerated by heat and acidity. For HMT&C threshold work where Cr-VI is a target analyte (one of the 10 official HMT&C analytes), this paper supports the view that protocols permitting prolonged contact time between sampling and extraction will systematically underestimate any Cr(VI) that was originally present, and that the fast (1.5 min) anion-exchange extraction used here represents a methodologically more defensible upper-bound. The negative result (Cr(VI) ND across all seven foods, LOD 0.1 µg/kg) is, in the authors' own framing (introduction §1 citing Novotnik et al. [9] and Vacchina et al. [10]; conclusion §4), consistent with the position that Cr(VI) is generally absent from plant-based and animal-derived foods at typical detection limits.
 
 **Courses:** Excellent teaching case for the distinction between total Cr and Cr-VI: foods can contain detectable total Cr while having effectively zero Cr-VI because the food matrix reduces Cr(VI) to Cr(III). Vitamin C and tea polyphenols are quantitatively the most potent reducing agents identified; protein and gelatin matrices reduce more slowly due to steric hindrance and less favorable electron-donating geometry; cellulose and fructose reduce slowest. Heat and acidic conditions during food processing further accelerate the Cr(VI) → Cr(III) conversion, particularly for protein, sugar, and cellulose matrices.
 
@@ -91,7 +93,7 @@ The paper does not report a certified reference material for Cr(VI) accuracy ver
 ## Verification notes
 
 - 2026-05-20 merge-enhance pass against the full PDF (pages 1–13, including Tables 1–3 and Figures 1–6): corrected `raw_handle: manual-fetch-kimi` (a parent-folder placeholder) → `MFK_development-of-a-fast-method-using-hplc-icp-ms-and`; fixed truncated `raw_path` to include the full PDF filename "Reduction Mechanism of Cr(VI) in Foods.pdf"; expanded `metals: [Cr]` → `[Cr-VI, Cr]` since the paper's primary analyte is Cr(VI) speciation and Cr(III) is discussed as the reduction product; rewrote `ingredients:` removing invented `[[ingredients/milk]]` (no such ingredient page; substituted `[[ingredients/milk-and-dairy]]`) and substituting `[[ingredients/whole-wheat-bread]]` for the overspecified `[[ingredients/wheat]]` (the paper tested whole wheat bread, not raw wheat); added the missing tested ingredients (`yogurt`, `orange-juice`, `vinegar`); rewrote `products:` removing invented slugs (`milk-powder`, `yoghurt`, `fruit-juice` — none exist in the current taxonomy) and the wrongly-applied `plant-milks-non-soy-non-rice` (the paper's "milk powder" is cow-milk-derived, not plant milk); kept the canonical product slugs that match the tested foods (`vinegar`, `fruit-juices-non-apple` for orange juice, `tea` for green tea, `bread-and-baked-goods` for whole wheat bread); rewrote `matrices:` using the canonical vocabulary plus a few necessary extensions; renamed legacy section heading `## Wiki pages updated on ingest` → `## Wiki pages this source may touch` per Part 5b (the model does not maintain routing by hand); removed the stray `[[testing/arsenic-speciation]]` cross-reference (an As-speciation page is not analogous to a Cr-VI method paper for routing purposes); removed the speculative "Microbiome" subsection from Implications (the paper does not address gut metabolism directly); expanded Methods to include the EPA 3060A reference, full sample-prep stoichiometry, ICP-MS gas flows, instrument/centrifuge model numbers, and statistical software details; noted absence of certified reference material for Cr(VI) accuracy verification.
-- Numerical-fidelity spot-checks against source: LOD 0.1 µg/kg confirmed (page 6, Section 3.2); analysis time 1.5 min confirmed (abstract, conclusions, Table 2); linear range 0–50 µg/kg and calibration equation y = 587.32x − 24.39 with R² = 0.9996 confirmed (page 6); recovery range 91.70–111.85% confirmed for spiking approach 1 across Table 3; orange juice and green tea ND in approach 3 confirmed (Table 3 cells for 5, 25, 50 µg/kg spike levels — all "not detected"); food-component reduction times confirmed against Figure 5 caption text on page 9; 80 °C and pH 3 acceleration factors confirmed against page 10 narrative; "Cr(III) ... 100 to 300 times less toxic than Cr(VI)" interpretive framing not imported (paper page 1 actually states "Cr(VI) is 100 to 300 times more toxic than Cr(III)") and that toxicology ratio is not surfaced in this page because it is upstream of any HMT&C use.
+- Numerical-fidelity spot-checks against source: LOD 0.1 µg/kg confirmed (page 6, Section 3.2); analysis time 1.5 min confirmed (abstract, conclusions, Table 2); linear range 0–50 µg/kg and calibration equation y = 587.32x − 24.39 with R² = 0.9996 confirmed (page 6); recovery range 91.70–111.85% confirmed for spiking approach 1 across Table 3; orange juice and green tea ND in approach 3 confirmed (Table 3 cells for 5, 25, 50 µg/kg spike levels — all "not detected"); food-component reduction times confirmed against Figure 5 caption text on page 9; 80 °C and pH 3 acceleration factors confirmed against page 10 narrative; "Cr(III)... 100 to 300 times less toxic than Cr(VI)" interpretive framing not imported (paper page 1 actually states "Cr(VI) is 100 to 300 times more toxic than Cr(III)") and that toxicology ratio is not surfaced in this page because it is upstream of any HMT&C use.
 - Part 12 (brand firewall): the paper reports food samples generically by category ("milk powder", "rice flour", etc.) purchased from "a local supermarket (Nanjing, China)" without naming brands. No brand attribution attached to contamination values. Methods name instrument and reagent vendors (Agilent, Sepax, Milli-Q, Macklin, Aladdin, KQ-400DE / Kunshan Ultrasonic Instrument, H1850 / Xiangyi, Jinteng filter membranes, IBM SPSS, OriginLab) — all permitted under Exception 2 (scientific-method vendor names support reproducibility). No firewall issue.
 - Part 2 (wiki/HMT&C firewall): the Implications "Certification" subsection describes the paper's methodological contribution to Cr-VI threshold work without proposing a numerical threshold; no HMT&C threshold values are stated. The wiki page reports what this single paper found and does not synthesize with prior literature beyond the paper's own framing.
 - 2026-05-20 fresh-context audit subagent verdict: REVISE. Three ⚠️ findings, no ❌ findings. Numerical fidelity confirmed clean (Check 1) — 80 °C and pH-3 acceleration factor pairings independently verified against page 10 of the source. Findings applied: (Check 2 matrices) the canonical `system-prompt.md` matrices vocabulary contains `rice-flour`, `cereal-grain`, `cow-milk`, and `tea`; the three extensions in this page are `yoghurt`, `fruit-juice`, and `vinegar`, explicitly noted here as proposed additions to that vocabulary because the paper's tested matrices include yoghurt, an orange-juice product, and a vinegar product that do not have closer canonical equivalents. (Check 5b Certification) the "consistent with prior literature" sentence was tightened to attribute the framing to the paper's own introduction (citing Novotnik [9] and Vacchina [10]) and conclusion (§4), so the wiki is paraphrasing the paper rather than performing cross-source synthesis. (Check 5c App) the App subsection generalization ("most processed foods… typical storage conditions") was hedged to a single-paper finding referencing the seven foods, the LOD, the 3 h orange-juice / green-tea loss, and the paper's own conclusion language. Checks 3 and 4 were ✅ clean.
@@ -103,9 +105,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [ee97c1518](https://github.com/paleofoundation/heavymetalindex/commit/ee97c1518) | 2026-05-25 | minor | Narrative text revised |
-| [ad6aea8a5](https://github.com/paleofoundation/heavymetalindex/commit/ad6aea8a5) | 2026-05-20 | minor | Narrative text revised |
-| [c124fb58e](https://github.com/paleofoundation/heavymetalindex/commit/c124fb58e) | 2026-05-20 | major | 3 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

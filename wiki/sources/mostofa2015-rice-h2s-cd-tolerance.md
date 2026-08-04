@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Mostofa et al. 2015 — Hydrogen sulfide modulates Cd-induced responses in rice
 
+## Overview
+
 A controlled hydroponic experiment on rice seedlings (Oryza sativa L. cv. BRRI dhan52) examining how exogenous hydrogen sulfide, supplied as sodium hydrosulfide (NaHS), alters cadmium uptake, mineral homeostasis, oxidative stress, and antioxidant defense under pharmacological CdCl2 exposure. The paper is mechanistic plant-biology evidence on the rice–cadmium interaction; it does not measure cadmium in rice grain as sold or consumed, and the CdCl2 doses (250–1000 µM) are well above environmentally relevant soil-pore-water concentrations. Relevance to the wiki is as supporting evidence for how rice plants respond to cadmium stress at the seedling stage, the role of sulfur-containing metabolites in restricting cadmium translocation, and the underlying biochemistry that informs sulfur-amendment mitigation strategies.
 
 ## Key numbers
@@ -93,8 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 | [a7403a9b7](https://github.com/paleofoundation/heavymetalindex/commit/a7403a9b7) | 2026-05-30 | minor | Narrative text revised |
-| [4697ad77e](https://github.com/paleofoundation/heavymetalindex/commit/4697ad77e) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

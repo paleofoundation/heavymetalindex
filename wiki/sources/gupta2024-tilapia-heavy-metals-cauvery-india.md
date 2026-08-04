@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Gupta and Arunachalam 2024 — Heavy metals in Tilapia from the Cauvery River, Tamil Nadu, India
 
+## Overview
+
 This study measured eight heavy metals (Cr, Cd, Fe, Ni, Zn, Co, Pb, Cu) in muscle, liver, and gills of 16 Tilapia fish (*Oreochromis mossambicus*) from four sites along the Cauvery River near Erode, Tamil Nadu, India, using Atomic Absorption Spectroscopy (AAS), and assessed human health risks via pollution indices (PI), estimated daily intake (EDI), and target hazard quotient (THQ). Cadmium, chromium, and lead in liver and gills greatly exceeded permissible limits, with Cd and Cr cancer risks above the USEPA 10⁻⁵ acceptable threshold, and THQ values above 1 for Cd, Co, Pb, and Cr in liver and for Co and Cr in gills. Muscle tissue showed more modest contamination; the main public health concern is consumption of whole fish including offal from heavily industrially impacted river sections.
 
 ## Key numbers
@@ -94,6 +96,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [519f81ee2](https://github.com/paleofoundation/heavymetalindex/commit/519f81ee2) | 2026-05-13 | major | 4 sections added; narrative text revised |

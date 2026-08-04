@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Valizadeh et al. 2023 — Potentially toxic elements in canned pinto and fava beans, Gilan Province, Iran
 
+## Overview
+
 Valizadeh et al. measured As, Cu, Pb, Fe, Sn, Zn, Mn, Cd, and Hg in 90 canned bean samples (pinto beans across 8 brands, fava beans across 4 brands) distributed in Gilan Province, northern Iran. Analysis used ICP-OES (Varian 730-ES) for most elements and EPA Method 7473 (direct Hg analysis) for mercury; wet digestion with HNO3/HClO4/H2SO4. LOD: Hg 0.01 mg/L, Cd 0.0003 mg/L, As 0.01 mg/L, Pb 0.003 mg/L, Sn 0.02 mg/L. Certified reference material recoveries: Cd 99.1%, Pb 99.5%, As 99.4%. All As is total arsenic (ICP-OES; no speciation). Mercury was below the detection limit in all samples. Cadmium was detected in pinto bean samples (max 0.004 mg/kg, well below EU limit 0.1 mg/kg) but not in fava bean samples. The element ranking by mean concentration in both matrices was: Hg < Cd < As < Pb < Sn < Cu < Zn < Fe. Carcinogenic risk for 95th percentile consumers was 2.68×10⁻⁵ (pinto beans) and 1.30×10⁻⁵ (fava beans), above the generally accepted threshold of 10⁻⁶ but below 10⁻⁴; non-carcinogenic THQ was 0.3 for both types, below the hazard quotient threshold of 1.
 
 ## Key numbers
@@ -76,6 +78,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3f107ba96](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba96) | 2026-05-12 | major | 4 sections added; narrative text revised |

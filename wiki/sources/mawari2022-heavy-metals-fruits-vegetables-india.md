@@ -28,6 +28,8 @@ updated: 2026-06-08
 
 # Mawari et al. 2022 — Heavy metals in fruits, vegetables and soil, Solapur, Maharashtra, India
 
+## Overview
+
 This study quantified Pb, Cd, total As, and total Hg in 24 frequently consumed crop types — 11 vegetables and 13 fruits/legumes — grown on farms surrounding the industrialized city of Solapur in Maharashtra, India, and in native soil at six sampling locations within a roughly 10 km radius of the city's industrial hub. Samples were collected during winter (January) and summer (April) of 2017. Crops were analysed by ICP-MS (Agilent 7500) after acid digestion following EPA Method 3050B and FSSAI guidance. Mean concentrations across all 24 commodities were Pb 0.17 ± 0.38 mg/kg > Hg 0.06 ± 0.09 mg/kg > Cd 0.02 ± 0.007 mg/kg > As 0.002 ± 0.003 mg/kg. Vegetables accumulated more metal than fruits across all four analytes; the authors attribute this to higher transpiration rates, greater leaf surface area and physical contamination from dust and rainwater. Garlic exhibited the highest Cd concentration (0.37 mg/kg, exceeding the WHO/FAO standard of 0.2 mg/kg), sugarcane the highest Pb (1.741 mg/kg), and sorghum the highest Hg (0.356 mg/kg). Hazard Index exceeded 1 for garlic (HI ≈ 3.00, driven by Cd then Pb) and sugarcane (HI ≈ 2.22, driven by Pb), indicating non-carcinogenic health concern at modeled intakes. Soil concentrations at all six sites remained below Indian and EU regulatory thresholds.
 
 ## Key numbers
@@ -140,9 +142,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [e68341311](https://github.com/paleofoundation/heavymetalindex/commit/e68341311) | 2026-06-08 | minor | Narrative text revised |
 | [9451d8471](https://github.com/paleofoundation/heavymetalindex/commit/9451d8471) | 2026-05-31 | minor | Narrative text revised |
-| [d66dcd4fe](https://github.com/paleofoundation/heavymetalindex/commit/d66dcd4fe) | 2026-05-31 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 <!-- END: hmi-page-history -->

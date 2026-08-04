@@ -28,6 +28,8 @@ updated: 2026-06-03
 
 # US EPA 1997 — Toxicological review of tributyltin oxide (IRIS)
 
+## Overview
+
 This July 1997 toxicological review by Robert Benson (USEPA Region 8) is the supporting document for the Integrated Risk Information System (IRIS) summary on tributyltin oxide (TBTO, bis-(tri-n-butyltin)-oxide; CAS 56-35-9). It is the document that establishes EPA's chronic oral Reference Dose (RfD) for TBTO at 3 × 10⁻⁴ mg/kg-day (0.3 µg/kg-day), grounded in the Vos et al. 1990 chronic immunotoxicity study in rats with a benchmark dose 10% (BMD10) of 0.03 mg/kg-day, an uncertainty factor of 100, and a modifying factor of 1. EPA assigned high overall confidence to the RfD. No inhalation Reference Concentration (RfC) and no oral cancer slope factor were derived because available data did not meet the minimum requirements. TBTO was assigned to cancer category D (1986 guidelines) / "cannot be determined" (1996 proposed guidelines). The review went through agency-wide consensus approval and external peer review (R. Baggs, M. Holsapple, A. Silverstone).
 
 **Scope note (metals classification).** TBTO is an organotin compound, toxicologically distinct from inorganic tin (Sn²⁺, Sn⁴⁺) by approximately three orders of magnitude in derived reference values. The critical effect for TBTO is immunotoxicity (thymus-dependent immune suppression); the critical effect for inorganic tin is local gastrointestinal irritation. These two classes share an element (Sn) but no toxicological pathway. The frontmatter carries `metals: [Sn]` for element-level routing, but the substantive content routes to [[metals/organotins]] and must not be conflated with inorganic-tin reference values. The 0.3 µg/kg-day RfD reported here is the basis for the ATSDR 2005 chronic oral MRL of 0.3 µg/kg-day for TBTO (see [[sources/atsdr2005-tin-toxicological-profile]]).
@@ -147,9 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [3b6392508](https://github.com/paleofoundation/heavymetalindex/commit/3b6392508) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

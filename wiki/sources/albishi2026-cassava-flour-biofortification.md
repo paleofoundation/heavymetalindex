@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Albishi et al. 2026 — Heavy metal concentrations in biofortified cassava flour from Nigeria
 
+## Overview
+
 Albishi and colleagues measured Pb, Cd, As (total), and Cr in cassava (Manihot esculenta) flour samples from Nigeria under different natural biofortification treatments, finding that all heavy metal concentrations were well below WHO/FAO maximum permissible limits (Pb: 300 µg/kg DW; Cd and As: 200 µg/kg DW). The control group (unfortified cassava flour) showed Pb at 61.33–68.67 µg/kg DW, Cd at 57.67–63.00 µg/kg DW, As at 9.97–11.13 µg/kg DW, and Cr at 65.00–68.00 µg/kg DW, and biofortification treatments generally reduced heavy metal levels, with the best-performing treatment (F11) achieving Pb 21.33, Cd 27.33, As 6.07, and Cr 55.33 µg/kg DW. The primary focus of the paper is nutritional biofortification rather than contamination surveillance, so the cassava samples were not selected to represent worst-case contamination and the geographic sourcing details are limited.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

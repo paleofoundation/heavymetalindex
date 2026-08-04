@@ -28,6 +28,8 @@ updated: 2026-06-01
 
 # Lin et al. 2024 — Twelve heavy metals across 24 edible-oil types in Taiwan
 
+## Overview
+
 Lin and colleagues measured 12 heavy metals (As, Pb, Cd, Ni, V, Cr, Co, Cu, Fe, Zn, Mn, Ba — mercury was not analysed) in 50 commercial edible-oil samples representing 24 oil types (12 refined, 12 unrefined) sold in Taiwan, using ICP-MS after microwave digestion. None of the sampled oils exceeded Taiwan, CODEX, IOC, or EU limits for any analyte. Unrefined (cold-pressed and virgin) oils carried significantly higher concentrations than refined counterparts for 8 of 12 metals, with the largest fold-changes in Mn (468-fold), Ba (23-fold), and Zn (11-fold). Olive oil was the consistent exception: per the source text (page 177), refined olive oil carried higher metal concentrations than unrefined extra-virgin olive oil for every measured metal except Pb, Cr, and Co (note: Table 1 vs Table 2 values in fact show refined > unrefined for Pb and Cr in olive; this paper-internal text-vs-table inconsistency is flagged in Verification notes rather than silently re-synthesised here). Incremental lifetime cancer risk from arsenic exceeded 10⁻⁶ for unrefined oils in every age group except 19–65 years, with the unrefined-sesame-oil ILCR in the 0–3 year group also exceeding 10⁻⁶.
 
 ## Key numbers
@@ -148,8 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [8668f9a72](https://github.com/paleofoundation/heavymetalindex/commit/8668f9a72) | 2026-06-01 | minor | Narrative text revised |
-| [f0b84e611](https://github.com/paleofoundation/heavymetalindex/commit/f0b84e611) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

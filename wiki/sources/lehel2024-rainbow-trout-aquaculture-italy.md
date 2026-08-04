@@ -29,6 +29,8 @@ updated: 2026-05-30
 
 # Lehel et al. 2024 — Potentially toxic elements in farmed rainbow trout, Italy
 
+## Overview
+
 Lehel and colleagues measured arsenic, cadmium, mercury, and lead by inductively coupled plasma optical emission spectrometry (ICP-OES) in the flesh of 40 farmed rainbow trout (Oncorhynchus mykiss) purchased at a Hungarian fishery market but originating from an aquaculture farm in Treviso County, Veneto Region, Italy. Mean total arsenic was 1.65 ± 0.49 mg/kg, but the authors note total As cannot be evaluated against a regulatory limit because none exists; estimating inorganic As as 5% of total As gave a mean of 0.08 ± 0.02 mg/kg, with estimated daily intake (EDI) and target hazard quotient (THQ) below reference values. Cadmium exceeded the EU maximum level in 30% of samples, but its EDI and THQ stayed below recommended limits. Mercury was below the limit of detection in all samples. Lead exceeded the EU maximum level in 10% of samples, while its EDI and THQ remained below the reference dose. The hazard index (HI) was below 1 for adults (0.86) but above 1 for children (1.22), so the authors concluded the fish is safe for adult consumption but poses a slight risk to children, particularly during long-term intake.
 
 ## Key numbers
@@ -115,8 +117,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | major | 1 section added |
 | [3ba41eb4c](https://github.com/paleofoundation/heavymetalindex/commit/3ba41eb4c) | 2026-05-30 | major | 1 section added; narrative text revised |
-| [b1eb378d6](https://github.com/paleofoundation/heavymetalindex/commit/b1eb378d6) | 2026-05-30 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-18
 
 # Chime et al. 2025 — Toxic trace metals in food spices from Enugu, Nigeria
 
+## Overview
+
 This study measured total arsenic (As), cadmium (Cd), and lead (Pb) in seven spice/herb samples: six coded commercial spice samples A–F purchased from New Heaven market in Enugu, Nigeria, plus one scent leaf sample collected from a nearby garden at Ugwuaji. The most alarming finding is cadmium: all seven samples exceeded the FAO/WHO permissible limit of 0.02 µg/g by a substantial margin, with values ranging from 2.58 to 6.45 µg/g — between 129 and 322 times the limit. Arsenic exceeded the upper end of the source's 0.1–0.5 µg/g permissible range in two samples (C: 1.68, E: 1.26 µg/g); Sample D (0.315 µg/g) exceeded the lower end but not the 0.5 µg/g upper threshold. Lead exceeded the 2.0 µg/g threshold in two samples (A: 2.16, B: 2.19 µg/g). The authors discuss possible contamination pathways including improper drying practices, polluted irrigation sources, atmospheric deposition, and poor post-harvest handling.
 
 ## Key numbers
@@ -79,9 +81,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e3b2bee96](https://github.com/paleofoundation/heavymetalindex/commit/e3b2bee96) | 2026-05-18 | minor | Narrative text revised |
-| [200715b16](https://github.com/paleofoundation/heavymetalindex/commit/200715b16) | 2026-05-18 | major | 1 section added; narrative text revised |
-| [f3c079bf9](https://github.com/paleofoundation/heavymetalindex/commit/f3c079bf9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Wang, Tang & Yang 2025 — MnO2/biochar electrochemical Cd sensor validated in rice and seawater
 
+## Overview
+
 This paper reports the synthesis of a manganese dioxide (MnO2) nanoparticle-loaded porous biochar composite (MnO2/KLSC), derived from longan shells, as the electrode material for an electrochemical Cd2+ sensor. The sensor achieves a LOD of 9.8 nmol/L with a linear range of 0.01–80 µmol/L using square-wave anodic stripping voltammetry (SWASV). The sensor is validated against spiked rice and seawater samples. In the rice sample, Cd was at or below the detection limit before spiking; only recovery rates from spiked additions are reported. No measured Cd occurrence data from actual rice are provided.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [1d941b66c](https://github.com/paleofoundation/heavymetalindex/commit/1d941b66c) | 2026-05-12 | major | 4 sections added; narrative text revised |

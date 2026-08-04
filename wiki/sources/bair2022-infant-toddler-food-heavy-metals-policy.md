@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Bair 2022 — Heavy metals in infant and toddler foods, and US policy evaluation
 
+## Overview
+
 Bair's review synthesizes US-policy and US-evidence on toxic heavy metal contamination of infant and toddler foods, anchored in the 2021 US House Subcommittee on Economic and Consumer Policy investigation of seven baby food manufacturers. The paper covers four metals (iAs, Pb, tHg, Cd), the FDA Closer-to-Zero (CTZ) action-plan timeline, the Baby Food Safety Act (H.R. 2229) proposed action levels, the Clean Label Project private-standard tolerance limits, and existing federal/international thresholds (FDA, EPA, EC, WHO, Codex). The paper also describes the limited evidence base behind organic certification as a contamination-reduction strategy. The author is the sole contributor and is disclosed as an independent consultant for Else Nutrition, an infant-formula manufacturer; this is documented in the published Conflict of Interest section and is relevant context for citing the review in policy-adjacent work.
 
 ## Key numbers
@@ -127,9 +129,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [23e1355b3](https://github.com/paleofoundation/heavymetalindex/commit/23e1355b3) | 2026-05-17 | minor | Narrative text revised |
-| [018ad5c31](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c31) | 2026-05-17 | minor | Narrative text revised |
-| [10c4cbe86](https://github.com/paleofoundation/heavymetalindex/commit/10c4cbe86) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

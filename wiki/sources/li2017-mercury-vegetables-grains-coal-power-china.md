@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Li et al. 2017 — Total mercury in vegetables, grains, and soils near two Chinese coal-fired power plants
 
+## Overview
+
 Li and colleagues measured total mercury concentrations in soil and in the edible parts of three leafy vegetables (lettuce, amaranth, water spinach), five fruit vegetables (tomato, eggplant, pepper, cucumber, cowpea), and two grains (rice, maize) collected from six open-field locations within 10 km of two Chinese coal-fired power plants in 2015, compared to control samples from a grocery store >55 km from any power plant. 79% of vegetable samples and 67% of grain samples exceeded China's GB 2762-2012 maximum levels for Hg (10 µg/kg FW vegetables; 20 µg/kg FW grains). Soil Hg was negatively correlated with distance from the power plants (R² = 0.82, P<0.001).
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 4 sections added; narrative text revised |

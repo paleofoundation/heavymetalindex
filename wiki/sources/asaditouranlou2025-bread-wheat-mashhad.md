@@ -30,6 +30,8 @@ updated: 2026-05-18
 
 # Asadi Touranlou et al. 2025 - Heavy metals in bread and wheat flour, Mashhad, Iran
 
+## Overview
+
 This study assessed arsenic and potentially toxic elements in flour, dough, and finished bread from 90 bakeries in Mashhad, Iran. The authors collected matched flour-dough-bread triplets across five city regions between June and December 2020, then measured 12 elements by ICP-OES against certified reference material NIST 1567a (Wheat Flour). The principal source finding is that total arsenic dominates both the non-carcinogenic and carcinogenic risk models for bread consumption in Mashhad. Lead and mercury were below detection limits in all 270 samples.
 
 ## Key numbers
@@ -133,9 +135,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [839665dd4](https://github.com/paleofoundation/heavymetalindex/commit/839665dd4) | 2026-05-29 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [06ba494b7](https://github.com/paleofoundation/heavymetalindex/commit/06ba494b7) | 2026-05-18 | major | 3 sections added and 1 removed; narrative text revised |
-| [a05bf3eb5](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3eb5) | 2026-05-12 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Deng et al. 2021 - Mg-modified corncob biochar for Cu, Pb, Cd remediation
 
+## Overview
+
 Deng and colleagues prepared four magnesium-modified corncob biochars (5%, 10%, 15%, 20% Mg/biomass ratios) by impregnating dried corncob biomass with MgCl2 solution, ultrasonicating, drying, and pyrolyzing at 450 °C under nitrogen, then tested their adsorption performance for aqueous Cu(II), Cd(II), and Pb(II) in single-metal and binary-metal batch experiments. This is primary remediation-method evidence, not food, ingredient, or consumer-product occurrence evidence: the measured endpoints are sorbent properties, kinetic and isotherm fits, and binary-system selectivity, not concentrations in any edible matrix or drinking water.
 
 ## Key numbers
@@ -121,9 +123,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [54cf1a390](https://github.com/paleofoundation/heavymetalindex/commit/54cf1a390) | 2026-06-03 | major | 1 source added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

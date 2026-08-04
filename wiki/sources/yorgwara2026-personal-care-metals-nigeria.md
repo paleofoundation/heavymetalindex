@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Yorgwara et al. 2026 - heavy metals in personal-care products from Eleme, Nigeria
 
+## Overview
+
 Yorgwara and colleagues measured Pb, Cd, total Cr, total As, total Hg, and Co in 26 cosmetic and personal-care products purchased from cosmetic stores and markets in Eleme LGA, Rivers State, Nigeria. The source groups the samples as facial cosmetics, skin/body-care cosmetics, and hair-care cosmetics, then reports concentration tables plus dermal-exposure calculations. The page preserves the source's table units and total-metal speciation, while suppressing brand and product names attached to individual contamination values.
 
 ## Key numbers
@@ -99,6 +101,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [fa86cc36d](https://github.com/paleofoundation/heavymetalindex/commit/fa86cc36d) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hussein et al. 2024 — Toxic metals in canned fish from Mansoura, Egypt
 
+## Overview
+
 This Egyptian food safety study determined residual concentrations of Cd, Pb, As, Hg, Al, and Sn in 100 canned fish products (five species, 20 samples each) purchased from Mansoura city retail markets between May and September 2023. Detection used atomic absorption spectroscopy (AAS) with hydride generation and cold vapor for As and Hg respectively. The study found that sardine and tuna had the highest rates of EU limit exceedance across multiple metals, with sardine exceeding EU limits for Pb in 35% of samples, Cd in 30%, and Hg in 45%; tuna exceeded Pb limits in 25%, Cd in 25%, and Hg in 40% of samples. The estimated daily intake of Hg exceeded the tolerable daily intake for all species tested. The hazard index for canned tuna and sardines exceeded 1.0, indicating non-negligible health risk.
 
 ## Key numbers
@@ -75,6 +77,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Barquero et al. 2024 — Mercury and methylmercury in largemouth bass from Almadén, Spain
 
+## Overview
+
 This study reports the highest total and methylmercury concentrations ever documented in *Micropterus salmoides* from a heavily mercury-contaminated watershed downstream of the world's most historically productive mercury mine. THg in muscle ranged from 0.47 to 7.61 mg kg⁻¹ (wet weight), with methylmercury representing 79.7–92.1% of THg across the seven sampling sites. These values substantially exceed EU maximum limits for fish (0.5 mg kg⁻¹ for most species; 1.0 mg kg⁻¹ for certain predatory species) at all but the most downstream sites. The Se/Hg molar ratio and HBV_Se index indicated low risk for most fish except small/young specimens from the most contaminated site. Other potentially toxic elements (As, Pb, Sb, Zn, Cu) showed no concerning values despite the area being heavily populated with decommissioned polymetallic mines.
 
 ## Key numbers
@@ -71,6 +73,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ff4abae67](https://github.com/paleofoundation/heavymetalindex/commit/ff4abae67) | 2026-05-13 | major | 4 sections added; narrative text revised |

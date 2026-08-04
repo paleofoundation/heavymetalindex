@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Guo et al. 2024 — Heavy metals in duck eggs near mercury mining areas, southwest China
 
+## Overview
+
 This study measured chromium, lead, zinc, strontium, and barium concentrations in duck eggs collected from five farm locations in a historically significant mercury mining area in southwest China (Guizhou province). The authors assessed contamination levels against Chinese food safety standards and estimated health risks for local populations. The paper documents how proximity to legacy mercury mining operations elevates heavy metal content in free-range poultry eggs, even when the primary concern is mercury; the study measured co-contaminants (Cr, Pb) alongside the expected mercury pathway.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3dc7cbb24](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb24) | 2026-05-13 | major | 4 sections added; narrative text revised |

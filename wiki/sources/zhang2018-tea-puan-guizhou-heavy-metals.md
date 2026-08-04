@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Zhang et al. 2018 — Heavy metal accumulation in tea leaves, Puan County, Guizhou Province
 
+## Overview
+
 This study measured Al, Mn, Pb, Cd, Hg, As, Cr, Ni, Cu, and Zn in 13 young tea leaf samples, 13 mature tea leaf samples, and 13 corresponding soil samples (0–30 cm) from the Puan tea-growing area of Guizhou Province, China, using ICP-MS and ICP-AES, and assessed potential health risks from consuming infusions brewed from young and mature tea leaves. Young tea leaf concentrations were well below China's national safety limits for Pb, Cu, As, Hg, Cd, and Cr. Mature tea leaf concentrations for these same elements were also below safety limits. However, for mature tea infusions, 38.46% of samples had hazard index (HI) values above 1, with the risk primarily driven by Mn and Al. The soil was moderately polluted by Cu.
 
 ## Key numbers
@@ -86,6 +88,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

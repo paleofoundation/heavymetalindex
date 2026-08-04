@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Xie et al. 2022 - Brassica napus metal tolerance protein genes
 
+## Overview
+
 Xie and colleagues identified the metal tolerance protein (MTP/CDF) gene family in the rapeseed genome and tested how BnMTP expression in roots and leaves responds to metal-ion stress. This is primary plant-genomics and phytoremediation-context evidence, not consumer-product occurrence evidence. The source does not measure metal concentrations in rapeseed seed, oil, meal, or any food matrix.
 
 ## Key numbers
@@ -112,6 +114,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [c90d709b7](https://github.com/paleofoundation/heavymetalindex/commit/c90d709b7) | 2026-06-02 | major | 8 sections added; narrative text revised |

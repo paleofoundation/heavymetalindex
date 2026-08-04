@@ -29,6 +29,8 @@ updated: 2026-06-03
 
 # EFSA 2021 — Chronic dietary exposure to inorganic arsenic in the European population
 
+## Overview
+
 This 50-page EFSA scientific report, approved 14 December 2020 by the CONTAM Panel at its 112th Plenary, presents the updated chronic dietary exposure assessment for inorganic arsenic (iAs) across the European population using measured iAs data from 13,608 analytical results (7,623 for drinking water; 5,985 for food), collected across 23 European countries between 2013 and 2018. This is a major methodological advance over the 2014 EFSA scientific report, which derived iAs from total arsenic (tAs) data using modelling assumptions — the primary source of uncertainty in that earlier assessment. Mean dietary exposure estimates (lower bound) were below the BMDL₀₁ range of 0.3–8 µg/kg bw per day established by the EFSA CONTAM Panel in 2009, but 95th percentile exposures for infants, toddlers, and other children fell within or at the lower end of that BMDL₀₁ range. The main contributors to iAs exposure across all age classes were rice, rice-based products, grain and grain-based products (no rice), and drinking water.
 
 ## Key numbers
@@ -103,8 +105,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [6de0a7cc2](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7cc2) | 2026-05-12 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

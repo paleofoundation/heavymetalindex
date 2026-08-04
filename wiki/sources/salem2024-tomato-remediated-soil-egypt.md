@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Salem et al. 2024 — PTEs in tomato fruits from remediated and non-remediated contaminated soil, Egypt
 
+## Overview
+
 This study evaluates whether bioremediation treatments applied to Cd-, Ni-, Cu-, Zn-, and Pb-contaminated agricultural soil and drainage water in El-Rahawy Village, Giza Governorate, Egypt can produce tomato fruits (Solanum lycopersicum var. cerasiforme) that are safe for human consumption. The study combines a greenhouse pot experiment with a field-scale validation and measures both PTE concentrations in harvested tomato fruits and microbiological safety. A health risk assessment (EDI, THQ) is included.
 
 ## Key numbers
@@ -85,6 +87,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [bae0d2181](https://github.com/paleofoundation/heavymetalindex/commit/bae0d2181) | 2026-05-13 | major | 4 sections added; narrative text revised |

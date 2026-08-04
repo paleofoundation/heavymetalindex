@@ -20,6 +20,8 @@ audience: [regulator, educator]
 
 # EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)
 
+## Overview
+
 The EFSA CONTAM Panel established a tolerable daily intake for nickel of **13 µg Ni/kg body weight per day** in its September 2020 update of the risk assessment of nickel in food and drinking water, anchored on a BMDL10 of 1.3 mg Ni/kg b.w./day for increased post-implantation loss in rats ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]). For acute oral nickel exposure, the Panel identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect, with a margin-of-exposure approach using a LOAEL of 4.3 µg Ni/kg b.w. and an MOE threshold of 30 for low health concern ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]).
 
 | Parameter | Value |
@@ -38,9 +40,9 @@ The EFSA CONTAM Panel established a tolerable daily intake for nickel of **13 µ
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The work cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. EFSA Panel on Contaminants in the Food Chain (CONTAM) (2020). *Update of the Risk Assessment of Nickel in Food and Drinking Water*. EFSA Journal 2020;18(11):6268. [https://doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268). Government report, A-tier. [[sources/efsa-nickel-contam-2020|Source record]]
+1. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -50,9 +52,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [7c4c20f88](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f88) | 2026-04-25 | minor | Narrative text revised |
-| [fe46127e7](https://github.com/paleofoundation/heavymetalindex/commit/fe46127e7) | 2026-04-25 | major | 1 source added; narrative text revised |
-| [9873dd17f](https://github.com/paleofoundation/heavymetalindex/commit/9873dd17f) | 2026-04-25 | major | 1 source added; contamination-profile values revised; 1 section added |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-05-14
 
 # Ćwieląg-Drabek et al. 2025 — Cd, Pb, Cr, and Ni in five nut types on the Polish market
 
+## Overview
+
 This study measured cadmium, lead, chromium, and nickel in 69 samples of five nut types commercially available in Poland: almonds, cashews, hazelnuts, peanuts, and walnuts. Using electrothermal atomic absorption spectrometry (ETAAS), the authors found that peanuts carried the highest mean concentrations of both Cd and Pb among the five types, while cashews had the highest Ni and almonds had the highest Cr. Health risk modelling across eight age groups identified moderate-to-high non-cancer hazard quotients (HQ > 1) for infants 6–11 months in multiple nut types, underscoring particular concern for early-life exposures when nut-containing foods are introduced into the diet.
 
 ## Key numbers
@@ -88,7 +90,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 5 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [bc8551eda](https://github.com/paleofoundation/heavymetalindex/commit/bc8551eda) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

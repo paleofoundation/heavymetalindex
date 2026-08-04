@@ -27,6 +27,8 @@ updated: 2026-08-03
 
 # FSANZ 2024 - Schedule 19 contaminants and natural toxicants
 
+## Overview
+
 This Federal Register compilation is the 13 September 2024 authorised version of Australia New Zealand Food Standards Code Schedule 19. It sets maximum levels for selected food contaminants and natural toxicants and is the raw regulatory source behind [[regulations/au-nz-food-standards-code-schedule-19-contaminants]].
 
 ## Key numbers
@@ -91,3 +93,13 @@ Microbiome: No direct microbiome endpoint.
 
 - Ingested from `raw/regulatory` on 2026-08-03.
 - Numeric values were checked against the PDF text twice during ingest.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [6abef4583](https://github.com/paleofoundation/heavymetalindex/commit/6abef4583) | 2026-08-03 | major | 5 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

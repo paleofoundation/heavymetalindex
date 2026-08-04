@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Islam 2014 - Bangladesh cereals and pulses metals
 
+## Overview
+
 Islam, Ahmed, and Habibullah-Al-Mamun measured chromium, nickel, copper, zinc, arsenic, cadmium, and lead in five commonly consumed cereals and pulses from agricultural fields in Bogra district, Bangladesh. The food panel covered rice, wheat, maize, lentil, and black gram, with paired soil sampling used to discuss soil-to-crop transfer. The occurrence data report total/unspecified arsenic as `As`; the paper's carcinogenic-risk model assumes `90%` inorganic arsenic in cereals and pulses, but it does not measure arsenic speciation in the food samples.
 
 ## Key numbers
@@ -98,6 +100,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [94737ef69](https://github.com/paleofoundation/heavymetalindex/commit/94737ef69) | 2026-06-08 | major | 4 sections added; narrative text revised |

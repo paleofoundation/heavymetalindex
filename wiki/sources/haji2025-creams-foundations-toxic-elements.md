@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Haji et al. 2025 - Toxic elements in creams and foundations
 
+## Overview
+
 Haji, Kombo, and Mohamed measured toxic elements in seven creams and three foundation products using energy-dispersive X-ray fluorescence. The cream group contained detectable mercury, bismuth, lead, cadmium, and copper, while the foundation group contained niobium, tellurium, copper, tantalum, and total arsenic. The most certification-relevant findings are extremely high mercury in one whitening cream, lead above the cited 20 ppm cosmetic limit in one cream, and cadmium in the same cream matrix.
 
 ## Key numbers
@@ -102,8 +104,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [af80083dd](https://github.com/paleofoundation/heavymetalindex/commit/af80083dd) | 2026-06-02 | minor | Narrative text revised |
-| [dfd45d47c](https://github.com/paleofoundation/heavymetalindex/commit/dfd45d47c) | 2026-06-02 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

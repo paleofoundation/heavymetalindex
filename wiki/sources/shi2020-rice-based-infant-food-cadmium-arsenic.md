@@ -28,6 +28,8 @@ updated: 2026-05-25
 
 # Shi et al. 2020 - Rice-Based Infant Foods, Cadmium, and Inorganic Arsenic
 
+## Overview
+
 Shi et al. measured cadmium and inorganic arsenic in rice-based foods marketed for infants, generic rice products that infants may eat, and UK-purchased polished rice grain by country of origin. The central finding is that rice-based products labeled for infants complied with the authors' EU-threshold comparisons, while some generic rice crackers, rice cakes, puffed rice cereals, and rice grains exceeded cadmium or inorganic-arsenic thresholds relevant to infant diets.
 
 ## Key numbers
@@ -81,8 +83,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [e5daa6def](https://github.com/paleofoundation/heavymetalindex/commit/e5daa6def) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [d1c9a1e86](https://github.com/paleofoundation/heavymetalindex/commit/d1c9a1e86) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

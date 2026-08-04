@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Cao et al. 2023 — EPS-producing bacteria reduce lead in pakchoi
 
+## Overview
+
 This study investigates how exopolysaccharide (EPS)-producing bacteria applied to lead-contaminated Chinese agricultural soil reduce lead accumulation in edible pakchoi (bok choy, Brassica chinensis). The experiment was conducted using Chinese agricultural soil with measured Pb contamination ranging from 7.6 to 77.27 mg/kg. EPS-producing bacterial inoculants reduced lead in pakchoi edible tissues by 14.5 to 39.2%, depending on strain and soil contamination level.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

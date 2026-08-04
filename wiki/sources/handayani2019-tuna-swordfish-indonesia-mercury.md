@@ -25,6 +25,8 @@ updated: 2026-06-09
 
 # Handayani et al. 2019 - Kandungan Logam Berat Merkuri Pada Ikan Tuna (Yellowfin dan Bigeye) dan Tuna-like (Swordfish) Hasil Tangkapan dari Samudera Hindia dan Samudera Pasifik
 
+## Overview
+
 This study analyzed 895 secondary official-control records for mercury in yellowfin tuna, bigeye tuna, and swordfish from Indian and Pacific Ocean catch areas associated with Indonesia.
 
 ## Key numbers
@@ -68,9 +70,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [f44d75353](https://github.com/paleofoundation/heavymetalindex/commit/f44d75353) | 2026-06-09 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [64af12214](https://github.com/paleofoundation/heavymetalindex/commit/64af12214) | 2026-05-25 | minor | Narrative text revised |
-| [4123c6387](https://github.com/paleofoundation/heavymetalindex/commit/4123c6387) | 2026-05-25 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

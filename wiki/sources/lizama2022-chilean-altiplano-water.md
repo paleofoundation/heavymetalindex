@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Lizama-Allende et al. 2022 — Arsenic and boron in Chilean Altiplano-Puna surface waters, 2008–2018
 
+## Overview
+
 This 10-year monitoring study assessed water quality at multiple stations in the Chilean Altiplano-Puna region across 2008–2018. The primary finding is that most monitoring stations exceeded Chilean drinking water standards for arsenic and boron throughout the monitoring period. Elevated arsenic levels are attributed to naturally high geological sources, specifically volcanic and geothermal activity in the Atacama region rather than anthropogenic contamination. The study documents persistent and geographically widespread arsenic exceedances in surface waters used as drinking water sources in an arid high-altitude region.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3153dee0d](https://github.com/paleofoundation/heavymetalindex/commit/3153dee0d) | 2026-05-13 | major | 4 sections added; narrative text revised |

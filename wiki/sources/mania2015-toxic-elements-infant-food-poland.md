@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Mania et al. 2015 - toxic elements in Polish commercial infant foods
 
+## Overview
+
 This monitoring study reports Pb, Cd, total As, and total Hg in approximately 1,000 infant-food samples collected across Poland from 2009 to 2013, with all products analyzed as sold. The dataset covers infant formulae, rice and non-rice cereal foods, biscuits, ready-to-eat meals, fish-based foods, fruit desserts, juices, and infant teas. The highest arsenic signals were in rice gruel and fish-based infant foods, the highest mercury signal was in fish-based infant foods, cadmium was most prominent in vegetable meals and some cereal products, and lead exposure estimates approached or exceeded EFSA reference-dose comparators in the authors' infant diet scenarios.
 
 ## Key numbers
@@ -135,8 +137,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8da4c2292](https://github.com/paleofoundation/heavymetalindex/commit/8da4c2292) | 2026-05-25 | minor | Narrative text revised |
-| [c06d7079c](https://github.com/paleofoundation/heavymetalindex/commit/c06d7079c) | 2026-05-19 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

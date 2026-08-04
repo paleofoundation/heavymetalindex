@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cultivated-mushrooms",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "66800317e3f9364d18be48a50494baec80e238b229ffedcd2f8ef16fedf1c04a",
-      "content_bytes": 2996,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "10a187919a7fc12b33c174e4a9785146f767f4f015d9bdd27a68966db9fcbe63",
+      "content_bytes": 3373,
+      "last_commit_sha": "91c7d5591",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/cultivated-mushrooms.md | sha256sum"
+      "verify_command": "git show 91c7d5591:wiki/products/cultivated-mushrooms.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/falandysz2020-yunnan-fungi-mercury",
         "content_pin": {
-          "content_sha256": "e150cdcc12148a4f0901614094137e710f709d7a4384c37f069f4671d8b1dcf2",
-          "content_bytes": 5616,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "0d762cbf4fa2b3efa95f613c46d11886eba62525aa8211031ec049f66090bbfa",
+          "content_bytes": 6318,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jasinska2019-mushroom-cadmium",
         "content_pin": {
-          "content_sha256": "d7492a4f3a6e66f949f2078f470b0ed512ee0c15d546920c01a8ccb609b78f71",
-          "content_bytes": 6869,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "a1d57ab7ed0f16bb7e2ffab83f21ea8e23c87314f53b974c83be4c8405ee0ab6",
+          "content_bytes": 7018,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/jasinska2019-mushroom-cadmium.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/jasinska2019-mushroom-cadmium.md | sha256sum"
         }
       }
     ]

@@ -27,6 +27,8 @@ updated: 2026-05-29
 
 # Iqbal et al. 2023 — Heavy metals in poultry feed and poultry products from Rawalpindi/Islamabad farms
 
+## Overview
+
 This Saudi Journal of Medical and Pharmaceutical Sciences article reports concentrations of Pb, Cd, Cr, Hg, and Fe in solid feed, water, liver, breast muscle, thigh muscle, egg albumen, egg yolk, and whole eggs from six poultry farms in Rawalpindi and Islamabad, Pakistan. Mercury was not detected in any sample; lead was present in feed and most tissues with farm-level values often above WHO permissible limits; iron in liver and chromium in feed and certain tissues were similarly elevated. Liver accumulated the highest Fe and Cd concentrations among the tissues.
 
 ## Key numbers
@@ -82,9 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [b4d6a2f79](https://github.com/paleofoundation/heavymetalindex/commit/b4d6a2f79) | 2026-05-29 | minor | Narrative text revised |
 | [86fac3194](https://github.com/paleofoundation/heavymetalindex/commit/86fac3194) | 2026-05-29 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [0d0d0b0a0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0a0) | 2026-05-17 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ericson et al. 2020 — Lead in Georgian spices
 
+## Overview
+
 Ericson and colleagues investigated potential sources of elevated blood lead levels in Georgian children and found exceptionally high Pb concentrations in multiple spices. Although the auto-fetch row was labelled as cookware, the routeable consumer-product evidence is for spices; cookware, paint, soil, dust, toys, and water were comparison media and were generally within applied guidance values. The paper is strong direct evidence that adulterated or contaminated spices can be a high-lead exposure source in a specific market.
 
 ## Key numbers
@@ -73,6 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [7eea61ef1](https://github.com/paleofoundation/heavymetalindex/commit/7eea61ef1) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

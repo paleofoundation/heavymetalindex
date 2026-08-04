@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 44
+sources: 45
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
@@ -91,29 +91,7 @@ created_routed_sources: 4
 
 # Beans
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: common) | OK | 5/10 HMTc analytes, total n=21 | labeled data-gaps: tHg, iAs, Al |
-| D2 Regional coverage | OK | 19 jurisdictions, top CN 22% | — |
-| D3 Anthropogenic evidence | GAP | no upstream/attribution sources | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 4 drivers, 0 upstream source(s) | no upstream source to substantiate |
-| D5 Pooling depth | THIN | Pb POOLABLE, Cd POOLABLE, tAs POOLABLE, Ni POOLABLE, Cr THIN, Sn THIN | Cr: needs 1 more study(ies); Sn: needs 1 more study(ies) |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | GAP | 11 claims checked, 11 supported; 5 citations, 0 orphan, 2 foreign | 2 foreign citation(s) not naming beans: sandil2023-arsenic-bean-lettuce, atsdr2005-tin-toxicological-profile |
-| D9 Mitigation | GAP | 0 cited lever(s), 0 mitigation/ link(s) | section present but no source-cited lever |
-| D10 Regulatory coverage | GAP | 0 rule link(s), 0 metal(s) covered | no regulations/ link in section |
-| D11 Standards-readiness | NOT-READY | priority: Pb, Cd, tAs, Ni, Cr, Sn; pairing 0 paired, 6 single, 0 unpaired | Cr: THIN, needs 1 more study(ies); Sn: THIN, needs 1 more study(ies); basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| **Principle balance** | **flag** | consumer-protection 1.00, contamination-reduction 0.00, brand-value 0.00, legal-defensibility 0.25, scale 0.25 | spread 1.00 — starved: contamination-reduction |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 Beans — the broad legume category covering dried and canned pulses (kidney, black, pinto, navy, cannellini, fava, pinto, chickpeas, lentils as a distinct sub-category) — sit at the middle of the food-system heavy-metals risk distribution. The defining feature of the legume category is nickel accumulation: leguminous plants harbour nitrogen-fixing Rhizobium bacteria in root nodules that require nickel for their urease enzyme machinery, so legumes consistently carry higher Ni than non-legume crops. Beans also accumulate Cd at modest rates and inherit canning-source Pb when sold in cans rather than dried. The current corpus loads 4 sources directly: Abdolahpour 2023 Iranian Babol-city vegetable Pb-Cd (n=32, [[sources/abdolahpour2023-heavy-metals-babol-vegetables]]), Alzabadi 2018 Palestinian canned-foods including canned beans (n=16, [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn]]), Bora 2022 Romanian fruit-and-vegetable washing intervention covering bean baseline (n=80, [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing]]), Sandil 2023 bean-and-lettuce arsenic uptake mechanism ([[sources/sandil2023-arsenic-bean-lettuce]]); plus the ATSDR 2005 Tin Toxicological Profile relevant to canned-bean Sn ([[sources/atsdr2005-tin-toxicological-profile]]) and the broader vegetable-and-legume corpus reachable through the routing layer.
 
@@ -183,19 +161,19 @@ The Codex Alimentarius General Standard CXS 193-1995 sets a Pb maximum of 0.10 m
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 5 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Abdolahpour Alamdari H, Sleman Ali H, Sadighara P, Jahed Khaniki G, Shahsavanpoor Landeh K, and Dehghani MH (2023). *The health risk assessment of heavy metals in vegetables grown in Babol city, Iran*. International Archives of Health Sciences. [https://doi.org/10.48307/IAHSJ.2023.177176](https://doi.org/10.48307/IAHSJ.2023.177176). Peer-reviewed, A-tier. [[sources/abdolahpour2023-heavy-metals-babol-vegetables|Source record]]
-2. Al Zabadi H, Sayeh G, and Jodeh S (2018). *Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods*. Agriculture & Food Security 7:50. [https://doi.org/10.1186/s40066-018-0205-1](https://doi.org/10.1186/s40066-018-0205-1). Peer-reviewed, A-tier. [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn|Source record]]
-3. Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. (2022). *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*. Horticulturae. [https://doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034). Peer-reviewed, A-tier. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Source record]]
-4. Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, et al. (2023). *Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages*. Environmental Science and Pollution Research. [https://doi.org/10.1007/s11356-023-30615-w](https://doi.org/10.1007/s11356-023-30615-w). Peer-reviewed, A-tier. [[sources/sandil2023-arsenic-bean-lettuce|Source record]]
-5. Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry (2005). *Toxicological Profile for Tin and Tin Compounds*. U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry. [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf). Government report, A-tier. [[sources/atsdr2005-tin-toxicological-profile|Source record]]
+1. [[sources/abdolahpour2023-heavy-metals-babol-vegetables|The health risk assessment of heavy metals in vegetables grown in Babol city, Iran]]<span class="hmi-ref-meta">Abdolahpour Alamdari H, Sleman Ali H, Sadighara P, Jahed Khaniki G, Shahsavanpoor Landeh K, and Dehghani MH · International Archives of Health Sciences · 2023 · [doi.org/10.48307/IAHSJ.2023.177176](https://doi.org/10.48307/IAHSJ.2023.177176)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn|Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods]]<span class="hmi-ref-meta">Al Zabadi H, Sayeh G, and Jodeh S · Agriculture & Food Security 7:50 · 2018 · [doi.org/10.1186/s40066-018-0205-1](https://doi.org/10.1186/s40066-018-0205-1)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania]]<span class="hmi-ref-meta">Bora FD, Bunea A, Pop SR, Banita SI, Dusa DS, Chira A, et al. · Horticulturae · 2022 · [doi.org/10.3390/horticulturae8111034](https://doi.org/10.3390/horticulturae8111034)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/sandil2023-arsenic-bean-lettuce|Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages]]<span class="hmi-ref-meta">Sandil S, Záray G, Endrédi A, Füzy A, Takács T, Óvári M, et al. · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-30615-w](https://doi.org/10.1007/s11356-023-30615-w)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/atsdr2005-tin-toxicological-profile|Toxicological Profile for Tin and Tin Compounds]]<span class="hmi-ref-meta">Carolyn Harper, Fernando Llados, Gary Diamond, Lara L. Chappell, and Agency for Toxic Substances and Disease Registry · U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry · 2005 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp55.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -227,9 +205,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 source added; 2 sections added and 1 removed; narrative text revised |
-| [1ccaea44e](https://github.com/paleofoundation/heavymetalindex/commit/1ccaea44e) | 2026-06-14 | major | Contamination-profile values revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

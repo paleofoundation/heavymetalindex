@@ -27,7 +27,9 @@ updated: 2026-05-09
 
 # Hernandez et al. 2019 — Cr(VI) and Cr(III) in milk, dairy and cereal products (France)
 
-This A-tier peer-reviewed analytical study determines total chromium and hexavalent chromium in 68 French food samples representing milk, dairy, and cereal products — the categories that contribute 32% of total Cr dietary exposure for French adults and 42% for French children. The headline finding is that **Cr(VI) was not detected in any of the 68 samples** despite high method sensitivity (Cr-VI LOD 0.3-0.4 µg/kg), confirming the EFSA 2014 assessment that food matrices reduce hexavalent chromium to the trivalent form (Cr(III)). Total Cr was quantified in 58% of dairy and 76% of cereal samples; the highest mean total Cr was in breakfast cereals (269 µg/kg fresh weight) and cheese (25 µg/kg fw). The authors explicitly address older studies that reported detected Cr(VI) in food (Figueiredo et al. 2007, Ambushe et al. 2009, Soares et al. 2010, Mandiwana et al. 2011 reporting Cr(VI) at 1.3-20% of total Cr) and conclude those were "probably due to analytical artefacts or lack of specificity" given that newer LC-ICP-MS speciation finds Cr(VI) absent. Per the corrected row-fit rule (CLAUDE.md Part 6), this paper's findings extend by chemistry mechanism to infant cereal and milk-based formula matrices even though the samples are general-population French foods.
+## Overview
+
+This A-tier peer-reviewed analytical study determines total chromium and hexavalent chromium in 68 French food samples representing milk, dairy, and cereal products — the categories that contribute 32% of total Cr dietary exposure for French adults and 42% for French children. The headline finding is that **Cr(VI) was not detected in any of the 68 samples** despite high method sensitivity (Cr-VI LOD 0.3-0.4 µg/kg), confirming the EFSA 2014 assessment that food matrices reduce hexavalent chromium to the trivalent form (Cr(III)). Total Cr was quantified in 58% of dairy and 76% of cereal samples; the highest mean total Cr was in breakfast cereals (269 µg/kg fresh weight) and cheese (25 µg/kg fw). The authors explicitly address older studies that reported detected Cr(VI) in food (Figueiredo et al. 2007, Ambushe et al. 2009, Soares et al. 2010, Mandiwana et al. 2011 reporting Cr(VI) at 1.3-20% of total Cr) and conclude those were "probably due to analytical artefacts or lack of specificity" given that newer LC-ICP-MS speciation finds Cr(VI) absent. Per the corrected row-fit rule, this paper's findings extend by chemistry mechanism to infant cereal and milk-based formula matrices even though the samples are general-population French foods.
 
 ## Key Numbers
 
@@ -81,7 +83,7 @@ Soares et al. 2000 reported detected Cr(VI) in 20 powdered milk infant formulas 
 
 > "Our results confirm the assumptions previously made, indicating that the detected Cr(VI) in previous studies was probably due to analytical artefacts or lack of specificity (Novotnik et al. 2013, 2015; Vacchina et al. 2015). The absence of Cr(VI) in the investigated samples may also be due to its instability in food, which is by and large a reducing medium (EFSA 2014a; Novotnik et al. 2015; Vacchina et al. 2015)."
 
-This is a methodologically-grounded resolution per CLAUDE.md Part 6 / Part 14: the modern LC-ICP-MS speciation with anion+cation exchange separation supersedes older ETAAS-based methods because LC-ICP-MS is matrix-validated for food samples and avoids the on-column reduction artefacts that ETAAS+ion exchange is prone to. Per Part 14, Cr-VI must not be treated as a separate species unless the source speciates hexavalent chromium with a method validated for the food matrix; Hernandez 2019 meets this bar, Soares 2000's older ETAAS approach does not.
+This is a methodologically-grounded resolution / Part 14: the modern LC-ICP-MS speciation with anion+cation exchange separation supersedes older ETAAS-based methods because LC-ICP-MS is matrix-validated for food samples and avoids the on-column reduction artefacts that ETAAS+ion exchange is prone to. Per Part 14, Cr-VI must not be treated as a separate species unless the source speciates hexavalent chromium with a method validated for the food matrix; Hernandez 2019 meets this bar, Soares 2000's older ETAAS approach does not.
 
 The Soares 2000 source page is retained as historical context. Its Cr(VI) values are documented as **superseded** by Hernandez 2019's finding plus the EFSA 2014a + Novotnik 2013/2015 + Vacchina 2015 confirmation that food-matrix Cr(VI) reduces to Cr(III) and earlier-detected-Cr(VI) was method artefact.
 
@@ -141,7 +143,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [678c9ee35](https://github.com/paleofoundation/heavymetalindex/commit/678c9ee35) | 2026-05-09 | major | 1 source added; 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

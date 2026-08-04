@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 
 # Bazie et al. 2022 - trace metals in raw foodstuffs in Burkina Faso
 
+## Overview
+
 Bazié and coauthors evaluated the contents of nine metallic trace elements (Fe, Zn, Mn, Co, Cd, Pb, Cu, Ni, Cr) in five major raw foodstuffs (rice, maize, peanut, tomato, dried fish) collected from open markets across five Burkinabé cities. The data are jurisdiction-specific to Burkina Faso open-market supply and reflect local agricultural and storage conditions; cross-market pooling should be evaluated case-by-case.
 
 ## Key numbers
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [cf4530ec1](https://github.com/paleofoundation/heavymetalindex/commit/cf4530ec1) | 2026-06-09 | minor | Narrative text revised |
 | [9658f6be5](https://github.com/paleofoundation/heavymetalindex/commit/9658f6be5) | 2026-05-30 | major | 1 section added |
-| [7a4c45a30](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a30) | 2026-05-30 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

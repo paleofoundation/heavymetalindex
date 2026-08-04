@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Pacquette and Anumula 2016 — Simultaneous determination of As, Cd, Hg, Pb in raw ingredients, nutritional products, and infant formula by ICP-MS
 
+## Overview
+
 This Journal of AOAC International method-validation paper by Lawrence Pacquette and Anumolu Anumula (Abbott Nutrition Global Research Services, Columbus OH and Bangalore) reports a single-laboratory validation of an ICP-MS method for the simultaneous determination of As, Cd, Hg, and Pb in raw ingredients (acid casein, maltodextrin, skim milk powder), nutritional products, and infant formula. Validation used three NIST standard reference materials (1548a Typical Diet, 1577c Bovine Liver, 1568b Rice Flour) and demonstrated method performance suitable for compliance and surveillance applications. The paper is the canonical Abbott-Nutrition-authored ICP-MS validation reference for infant formula heavy-metal analysis and supports the analytical-method basis behind the Abbott-marketed formula occurrence work cited in [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum|Dabeka 2011]] and the broader formula-industry analytical practice.
 
 ## Key conclusions
@@ -48,6 +50,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 1 source added; 3 sections added; narrative text revised |

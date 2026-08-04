@@ -28,6 +28,8 @@ updated: 2026-05-26
 
 # Ashraf 2012 — Heavy metals in seven vegetable oil varieties consumed in Saudi Arabia
 
+## Overview
+
 This study determined concentrations of seven elements (Cu, Zn, Fe, Mn, Cd, Pb, and total As) in 161 commercially available edible vegetable oil samples from Saudi hypermarkets using graphite furnace atomic absorption spectrometry (GF-AAS) after microwave digestion, verified against NIST SRM 1577b (bovine liver). The author concludes that estimated daily and weekly dietary intakes from 25 g of oil per day (the WHO GEMS/Food maximum) remain well below the JECFA provisional tolerable weekly intakes (PTWIs) for Cd, Pb, and inorganic As, posing no significant health risk to the Saudi adult population at the analytical concentrations reported.
 
 ## Key numbers
@@ -106,9 +108,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ee0407f0f](https://github.com/paleofoundation/heavymetalindex/commit/ee0407f0f) | 2026-05-26 | minor | Narrative text revised |
-| [14cd93fab](https://github.com/paleofoundation/heavymetalindex/commit/14cd93fab) | 2026-05-26 | major | 2 sections added and 1 removed; narrative text revised |
-| [472d023f9](https://github.com/paleofoundation/heavymetalindex/commit/472d023f9) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

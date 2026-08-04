@@ -25,6 +25,8 @@ updated: 2026-05-11
 
 # Coryell, Roggenbeck, Walk 2019 — The human gut microbiome's influence on arsenic toxicity
 
+## Overview
+
 This Current Pharmacology Reports review from Montana State University (Coryell laboratory, Department of Microbiology and Immunology) is the canonical synthesis of microbial arsenic biotransformation in the human gastrointestinal tract. The paper maps the complete arsenal of bacterial arsenic-handling enzymes (ars operon: arsR, arsB/acr3, arsC, arsA, arsD, arsH, arsI, arsJ, arsK, arsN, arsP; methyltransferase arsM; arsenite oxidases aioAB and arxAB; arsenate respiratory reductase arrAB; thiolation pathways) and the compartment-specific conditions of the oral cavity, stomach, small intestine, and large intestine that constrain which pathways can operate where. The review also synthesizes germ-free mouse, antibiotic, and AS3MT-knockout data demonstrating that the microbiome contributes to host arsenic excretion and protection from toxicity, with inter-individual variation in microbiome composition proposed as a partial explanation for the longstanding observation that arsenicosis severity varies dramatically among people with similar exposure. The paper is the right starting point for any wiki section that aims to capture the microbiome dimension of arsenic toxicity beyond the host AS3MT-pathway framework.
 
 ## Key concepts and findings
@@ -92,7 +94,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 10 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 10 sections removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [77c3e8bd8](https://github.com/paleofoundation/heavymetalindex/commit/77c3e8bd8) | 2026-05-11 | major | 9 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

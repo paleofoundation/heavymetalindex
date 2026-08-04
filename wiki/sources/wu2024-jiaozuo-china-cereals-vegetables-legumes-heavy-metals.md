@@ -30,6 +30,8 @@ updated: 2026-05-31
 
 # Wu 2024 — Heavy metals and arsenic in cereals, vegetables, and legumes from local markets of Jiaozuo, China, with USEPA health-risk assessment
 
+## Overview
+
 Single-author study from Henan Polytechnic University analysing eight elements (Pb, Cd, Cr, total As, total Hg, Ni, Cu, Zn) in 244 retail food samples collected across cereals (n=78), legumes (n=52), and vegetables (n=114) from supermarkets, farmers' markets, and one wholesale market in Jiaozuo City, Henan Province. Quantification on a fresh-weight basis using ICP-MS for Pb, Cd, Cr, As, Ni, Cu, and Zn (Varian 810-MS) and a Direct Mercury Analyzer DMA-80 for total Hg. Exceedance against the GB 2762-2022 Chinese food-hygiene limits was greatest for Ni in legumes (75.47%) and Hg in cereals (44.16%); Cr in cereals (2.60%), Pb in cereals (3.90%), Hg in cereals (44.16%), Ni in cereals (3.90%), Hg in vegetables (0.90%), Zn in vegetables (17.12%), Cr in legumes (16.98%), and Pb in legumes (13.21%) were the other reported exceedances, with Cr in soybeans alone reaching 42.86%. USEPA TTHQ for the three combined food groups exceeded 1 for both children (4.619) and adults (2.518); cumulative TCR remained below 1×10⁻⁴ for both (8.92×10⁻⁶ children, 2.65×10⁻⁶ adults). Cereals and Hg in rice were the dominant non-carcinogenic risk contributors. Single-region, single-sampling-campaign, single-author study; results characterise Jiaozuo retail availability and are not directly transferable to other Chinese regions without context.
 
 ## Key numbers
@@ -124,7 +126,7 @@ EF-4 (context only) for any HMTc-row-level threshold-setting work, because: (a) 
 
 ## Implications
 
-Not synthesised — single-paper source page. The routing audit will surface this source to cereals, leafy-vegetables-other, spinach, non-root-vegetables, root-tuber-vegetables, legumes-pulses-other, peanuts, rice-bulk-grain, and flour-non-rice product pages and to the rice, wheat, maize, peanuts, soy, spinach, broccoli, cabbage, cauliflower, carrot, lettuce, cucumber, potatoes, tomato, leafy-greens, mushrooms, and legumes ingredient pages; Part 9 synthesis on each (ingredient, metal) cell will run as a separate workflow when the trigger conditions in CLAUDE.md Part 9 fire.
+Not synthesised — single-paper source page. The routing audit will surface this source to cereals, leafy-vegetables-other, spinach, non-root-vegetables, root-tuber-vegetables, legumes-pulses-other, peanuts, rice-bulk-grain, and flour-non-rice product pages and to the rice, wheat, maize, peanuts, soy, spinach, broccoli, cabbage, cauliflower, carrot, lettuce, cucumber, potatoes, tomato, leafy-greens, mushrooms, and legumes ingredient pages; Part 9 synthesis on each (ingredient, metal) cell will run as a separate workflow when the trigger conditions fire.
 
 ## Provenance notes
 
@@ -203,8 +205,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 8 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [324868f70](https://github.com/paleofoundation/heavymetalindex/commit/324868f70) | 2026-05-31 | major | 1 section added |
-| [de5ba1cb7](https://github.com/paleofoundation/heavymetalindex/commit/de5ba1cb7) | 2026-05-31 | minor | Narrative text revised |
-| [f86d57fc6](https://github.com/paleofoundation/heavymetalindex/commit/f86d57fc6) | 2026-05-31 | major | 7 sections added; narrative text revised |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 8 sections removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -27,6 +27,8 @@ updated: 2026-06-03
 
 # Yamada et al. 1993 — Small-scale survey of organotin compounds in Japanese household commodities
 
+## Overview
+
 This March/April 1993 Journal of AOAC International technical communication by Sadaji Yamada and colleagues at the Aichi Prefectural Institute of Public Health and the Aichi Prefectural Government Department of Health (Nagoya, Japan) reports an organotin-compound (OTC) survey of 95 household commodity items purchased in Aichi Prefecture between 1990 and 1992. The survey covered the 13 household-product classes designated under Japan's 1973 Law for the Control of Household Products Containing Harmful Substances (textile products including diapers, diaper covers, bibs, sanitary panties, underwear, socks, gloves, outergarments, and stockings; plus shoe polishes, adhesives, paints, and waxes) and assayed for six organotin species by flame photometric detection/gas chromatography (FPD/GC) with GC/MS confirmation. Tributyltin (TBT) and triphenyltin (TPT) — which Japan had banned for household-product use in 1979–1980 under the Law cited — were not detected in any of the 95 items. Mono- and/or di-substituted octyltin (DOT, TOT) and dibutyltin (DBT) compounds, which were not banned, were detected in 15 items: 6 of 10 diaper covers, 3 of 10 bibs, 2 of 10 sanitary panties, 1 of 5 outergarments, 1 of 5 stockings, 1 of 5 socks, and 1 of 10 shoe polishes. Diapers themselves, underwear, gloves, adhesives, paint, and wax were OTC-negative across all items tested. The single highest organotin loading observed was DOT at 1666.7 µg/g (≈ 0.17% by weight) in a polyester diaper cover; a second polyester diaper cover reached DOT at 902.8 µg/g with co-occurring TOT at 58.3 µg/g and DBT at 33.7 µg/g. The authors attribute octyltin and dibutyltin occurrence to intentional addition as silicone-coating catalysts (water-resistivity treatment for diaper covers, outergarments, and shoe polish) and to carry-over from poly(vinyl chloride) and polyurethane stabiliser additives.
 
 ## Key numbers
@@ -35,19 +37,19 @@ This March/April 1993 Journal of AOAC International technical communication by S
 
 - **Total items surveyed: 95** commercially available household commodities purchased 1990–1992 at retail stores in Aichi Prefecture, Japan; no more than two items per manufacturer per category.
 - **Category-by-category counts (number assayed / number with OTC detected):**
-  - Diaper 10/0
-  - Diaper cover 10/6
-  - Bib 10/3
-  - Sanitary panty 10/2
-  - Underwear 10/0
-  - Socks 5/1
-  - Gloves 5/0
-  - Outergarment 5/1
-  - Stockings 5/1
-  - Shoe polish 10/1
-  - Adhesive 5/0
-  - Paint 5/0
-  - Wax 5/0
+ - Diaper 10/0
+ - Diaper cover 10/6
+ - Bib 10/3
+ - Sanitary panty 10/2
+ - Underwear 10/0
+ - Socks 5/1
+ - Gloves 5/0
+ - Outergarment 5/1
+ - Stockings 5/1
+ - Shoe polish 10/1
+ - Adhesive 5/0
+ - Paint 5/0
+ - Wax 5/0
 - **OTC detection frequencies by category:** 6/10 (60%) diaper covers; 3/10 bibs; 2/10 sanitary panties; 1/5 outergarments; 1/5 stockings; 1/5 socks; 1/10 shoe polishes.
 - **Items with OTC detected: 15 of 95** (15.8%).
 
@@ -174,13 +176,13 @@ Mass-spectral confirmation for the three positively detected species used the fo
 - **Source-tier rationale.** `evidence_tier: A`: peer-reviewed publication in the Journal of AOAC International (Technical Communications section; the section retains peer review). Quantitative measurements use validated analytical chemistry (FPD/GC with GC/MS confirmation), explicit LODs per analyte, triplicate spike-recovery in four matrix types, and a controlled standard panel from named suppliers.
 - **Source-type rationale.** `source_type: peer-reviewed`: Journal of AOAC International is a peer-reviewed scientific journal of AOAC International (the Association of Official Analytical Chemists).
 - **License rationale.** `copyrighted-third-party`: AOAC International holds copyright on the 1993 volume per the masthead ("Copyright, 1993, by AOAC International, Inc. All rights reserved"). This page reproduces numerical findings under fair-use scholarly excerpting.
-- **Frontmatter `metals: [Sn]`** is correct — the elemental analyte family is tin in all six measured organotin species. Per CLAUDE.md Part 14, the frontmatter abbreviation vocabulary uses `Sn` for tin. The speciation distinction (DBT, DOT, TOT all detected; TBT and TPT not detected; DPT not determinable) is captured in the Key numbers and Methods sections and in the `[[metals/organotins]]` wikilink in the "Wiki pages this source may touch" section. "organotins" is not in the abbreviation vocabulary, so the routing path is via the body wikilink section, matching the pattern used on [[sources/stringer2001-greenpeace-pvc-children-products]].
+- **Frontmatter `metals: [Sn]`** is correct — the elemental analyte family is tin in all six measured organotin species. The frontmatter abbreviation vocabulary uses `Sn` for tin. The speciation distinction (DBT, DOT, TOT all detected; TBT and TPT not detected; DPT not determinable) is captured in the Key numbers and Methods sections and in the `[[metals/organotins]]` wikilink in the "Wiki pages this source may touch" section. "organotins" is not in the abbreviation vocabulary, so the routing path is via the body wikilink section, matching the pattern used on [[sources/stringer2001-greenpeace-pvc-children-products]].
 - **Frontmatter `products:` field.** Four slugs selected from the 2026-05-18 taxonomy snapshot, all reflecting direct sample classes in Table 2/Table 3:
-  - `bibs` (10 items surveyed; 3 OTC-positive — Bib A 312.5 µg/g DOT, Bib B 59.7 µg/g DOT, Bib C 48.9 µg/g DOT);
-  - `diapers-and-components` (10 diapers surveyed all OTC-negative + 10 diaper covers surveyed of which 6 were OTC-positive — Diaper covers A–F; this slug covers diapers and their components including diaper covers);
-  - `period-underwear-reusable-garments` (10 "sanitary panties" surveyed; 2 OTC-positive — Sanitary panty A 144.4 µg/g DOT, Sanitary panty B 5.5 µg/g DBT. In Japanese consumer-product terminology, *sanitary panty* (生理用ショーツ) is a reusable menstrual-management garment, which maps to the `period-underwear-reusable-garments` slug);
-  - `infant-clothing` (the diaper covers and bibs are within the infant/young-child clothing category; included as the broader umbrella because diaper covers are functionally a clothing layer used during infancy).
-  - Test categories with no matching slug in the current 2026-05-18 taxonomy: adult underwear, socks, gloves, outergarments, stockings, shoe polishes, adhesives, paints, and waxes. Per Phase 1 frontmatter discipline I do not invent slugs for these; the test results are documented in the page body but are not routed by `products:` until matching slugs exist. This matches the discipline applied on [[sources/stringer2001-greenpeace-pvc-children-products]] for the same family of dataset.
+ - `bibs` (10 items surveyed; 3 OTC-positive — Bib A 312.5 µg/g DOT, Bib B 59.7 µg/g DOT, Bib C 48.9 µg/g DOT);
+ - `diapers-and-components` (10 diapers surveyed all OTC-negative + 10 diaper covers surveyed of which 6 were OTC-positive — Diaper covers A–F; this slug covers diapers and their components including diaper covers);
+ - `period-underwear-reusable-garments` (10 "sanitary panties" surveyed; 2 OTC-positive — Sanitary panty A 144.4 µg/g DOT, Sanitary panty B 5.5 µg/g DBT. In Japanese consumer-product terminology, *sanitary panty* (生理用ショーツ) is a reusable menstrual-management garment, which maps to the `period-underwear-reusable-garments` slug);
+ - `infant-clothing` (the diaper covers and bibs are within the infant/young-child clothing category; included as the broader umbrella because diaper covers are functionally a clothing layer used during infancy).
+ - Test categories with no matching slug in the current 2026-05-18 taxonomy: adult underwear, socks, gloves, outergarments, stockings, shoe polishes, adhesives, paints, and waxes. Per Phase 1 frontmatter discipline I do not invent slugs for these; the test results are documented in the page body but are not routed by `products:` until matching slugs exist. This matches the discipline applied on [[sources/stringer2001-greenpeace-pvc-children-products]] for the same family of dataset.
 - **Frontmatter `ingredients: []`** is correct — no food ingredients are involved.
 - **Frontmatter `matrices: []`** is correct — no food matrix is sampled. All values are reported as µg/g (≈ mg/kg, ≈ ppm) by weight of the consumer-product substrate, expressed as the dichloride for di-substituted organotin species and as the chloride for tri-substituted species.
 - **Frontmatter `jurisdictions: [JP]`** reflects the Japanese sampling jurisdiction (Aichi Prefecture retail purchases, 1990–1992) and the Japanese regulatory context (Law for the Control of Household Products Containing Harmful Substances, Law No. 112, October 12, 1973; Ministry of Health and Welfare Ordinance No. 34, September 26, 1974, which banned TBT and TPT for household products in 1979–1980).
@@ -194,9 +196,9 @@ Mass-spectral confirmation for the three positively detected species used the fo
 - **Internal-source consistency check.** Table 2 (frequency) and Table 3 (concentrations) are mutually consistent on all 15 OTC-positive items. Table 2 column totals are: 4 DBT-positive (verified against Table 3: Diaper cover A 33.7, Diaper cover B 8.9, Diaper cover F 3.7, Sanitary panty B 5.5 — 4 entries); 14 DOT-positive (verified against Table 3: 14 numerical entries in the DOT column, with Sanitary panty B being the lone OTC-positive item without a DOT entry); 5 TOT-positive (verified against Table 3: Diaper cover A 58.3, Diaper cover C 128.5, Diaper cover D 91.3, Diaper cover E 33.6, Stockings 14.2 — 5 entries); 0 TBT-positive and 0 TPT-positive.
 - **Raw integrity.** raw_sha256 = d307067002c8b40a3b7214009609d0f54402e56804c825045a4afe8d5670c7b0 computed from the PDF at the raw path.
 - **Audit subagent findings applied (2026-06-03).** Fresh-context Agent subagent audit returned verdict REVISE with 2 ⚠️ findings (Check 1 — Numerical fidelity); verified each against the PDF and applied:
-  - ⚠️ Applied: The GC/MS confirmation list for dipropyl-DBT was missing the m/z 235 fragment, listed the m/z 207 fragment with the wrong composition string ([Sn(C₃H₇)₂(C₄H₉)]⁺ when the source has [Sn(C₃H₇)₂]⁺), and listed the m/z 263 fragment with the same composition string as m/z 277 ([Sn(C₃H₇)(C₄H₉)₂]⁺ when the source has [Sn(C₃H₇)₂(C₄H₉)]⁺ at m/z 263). PDF p. 440 ("A base peak at m/z 221 [Sn(C₄H₉)(C₃H₇)]⁺ and fragment peaks at m/z 121 [Sn]⁺, 165 [Sn(C₃H₇)₂]⁺, 179 [Sn(C₄H₉)₂]⁺, 207 [Sn(C₃H₇)₂]⁺, 235 [Sn(C₄H₉)₂]⁺, 263 [Sn(C₃H₇)₂(C₄H₉)]⁺, and 277 [Sn(C₃H₇)(C₄H₉)₂]⁺ isotope peaks were observed for peak 1"). Corrected the fragment list to the full seven-peak source-faithful sequence. The subagent identified one of the two wrong composition strings (263); the deeper re-read against the PDF surfaced the missing 235 peak and the 207 transposition as well.
-  - ⚠️ Applied: The Results-and-Discussion bullet "Diaper covers A and B both contained DOT near 1000 µg/g (≈ 0.1% by weight)" understated diaper cover B's 1666.7 µg/g value. The paper's narrative itself paraphrases diaper cover B as having "a similar concentration" to diaper cover A's 902.8 µg/g, but the table values differ by ≈ 1.85×. Rewrote the bullet to give each diaper cover its own concentration and to flag the paper's own loose paraphrase of B as "similar."
-  - Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all returned ✅ clean from the subagent and were spot-checked clean here.
+ - ⚠️ Applied: The GC/MS confirmation list for dipropyl-DBT was missing the m/z 235 fragment, listed the m/z 207 fragment with the wrong composition string ([Sn(C₃H₇)₂(C₄H₉)]⁺ when the source has [Sn(C₃H₇)₂]⁺), and listed the m/z 263 fragment with the same composition string as m/z 277 ([Sn(C₃H₇)(C₄H₉)₂]⁺ when the source has [Sn(C₃H₇)₂(C₄H₉)]⁺ at m/z 263). PDF p. 440 ("A base peak at m/z 221 [Sn(C₄H₉)(C₃H₇)]⁺ and fragment peaks at m/z 121 [Sn]⁺, 165 [Sn(C₃H₇)₂]⁺, 179 [Sn(C₄H₉)₂]⁺, 207 [Sn(C₃H₇)₂]⁺, 235 [Sn(C₄H₉)₂]⁺, 263 [Sn(C₃H₇)₂(C₄H₉)]⁺, and 277 [Sn(C₃H₇)(C₄H₉)₂]⁺ isotope peaks were observed for peak 1"). Corrected the fragment list to the full seven-peak source-faithful sequence. The subagent identified one of the two wrong composition strings (263); the deeper re-read against the PDF surfaced the missing 235 peak and the 207 transposition as well.
+ - ⚠️ Applied: The Results-and-Discussion bullet "Diaper covers A and B both contained DOT near 1000 µg/g (≈ 0.1% by weight)" understated diaper cover B's 1666.7 µg/g value. The paper's narrative itself paraphrases diaper cover B as having "a similar concentration" to diaper cover A's 902.8 µg/g, but the table values differ by ≈ 1.85×. Rewrote the bullet to give each diaper cover its own concentration and to flag the paper's own loose paraphrase of B as "similar."
+ - Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all returned ✅ clean from the subagent and were spot-checked clean here.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -205,9 +207,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [ec819b563](https://github.com/paleofoundation/heavymetalindex/commit/ec819b563) | 2026-06-03 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

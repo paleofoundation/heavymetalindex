@@ -23,6 +23,8 @@ updated: 2026-05-29
 ---
 # Paulsen et al. 2015 - Lead-free rifle bullets in game meat and pork
 
+## Overview
+
 Paulsen and colleagues ran a pilot study on metal release from "lead-free" rifle bullets in hunted roe deer, hunted wild boar, and pork shoulders experimentally shot post-mortem in an Austrian abattoir. 108 90-g meat portions were X-rayed for radiodense fragments, then subjected to simulated gastric and duodenal digestion, and the digested (bioaccessible) and undigested (residue) fractions were analysed separately for seven metals (Al, Cr, Cu, Fe, Ni, Pb, Zn) by ICP-OES. The paper's headline finding is that even in the small minority of portions with high metal content from embedded bullet fragments, the bioaccessible metal fraction stayed at the same low level as in controls — most metal stayed in the undigested residue and would be excreted via feces.
 
 ## Key numbers
@@ -71,8 +73,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [adbf96c29](https://github.com/paleofoundation/heavymetalindex/commit/adbf96c29) | 2026-06-09 | minor | Narrative text revised |
 | [70ae1ccdf](https://github.com/paleofoundation/heavymetalindex/commit/70ae1ccdf) | 2026-05-30 | major | 1 section added |
-| [6eea0b911](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b911) | 2026-05-29 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

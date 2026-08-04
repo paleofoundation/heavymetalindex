@@ -19,6 +19,8 @@ updated: 2026-05-18
 
 # Australia New Zealand Food Standards Code Schedule 19 - contaminants and natural toxicants
 
+## Overview
+
 Schedule 19 of the Australia New Zealand Food Standards Code lists maximum levels for contaminants and natural toxicants in food. Standard 1.4.1 is the operative standard that applies those Schedule 19 limits to foods sold or prepared for sale in Australia and New Zealand. This page is the wiki routing target for literature that cites Standard 1.4.1 / Schedule 19 as the comparator for arsenic, cadmium, lead, mercury, tin, or aluminium in food.
 
 The current Federal Register compilation at the time this page was created is F2024C00908, compilation No. 6, registered 21 October 2024 and in force from 13 September 2024. The Schedule 19 standard commenced on 1 March 2016.
@@ -101,6 +103,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5bb2a632](https://github.com/paleofoundation/heavymetalindex/commit/d5bb2a632) | 2026-05-18 | major | 1 source added; contamination-profile values revised; 8 sections added |

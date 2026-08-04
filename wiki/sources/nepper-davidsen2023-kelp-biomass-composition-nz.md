@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Nepper-Davidsen et al. 2023 — Heavy metal composition of NZ kelp (Ecklonia radiata)
 
+## Overview
+
 A spatial and temporal survey of the kelp Ecklonia radiata from 12 sites across the North Island of New Zealand found high arsenic concentrations (mean 49 ppm dry weight, range 40.0–64.4 ppm DW across sites) typical of marine brown algae, which bioaccumulate arsenic as arsenobetaine and other organoarsenicals. Cadmium was present at mean 1.2 ppm DW (range 0.4–2.2 ppm), lead at mean 0.3 ppm DW (range 0.0–0.7 ppm), and mercury at mean 0.02 ppm DW (range 0.00–0.04 ppm). Significant temporal autocorrelation was detected for arsenic and mercury, meaning their concentrations at a single site shifted meaningfully over a 12-month cycle. Spatial variation in heavy metal content appeared driven primarily by local site conditions rather than broad regional patterns. The paper notes Ecklonia radiata as a candidate for New Zealand seaweed aquaculture and therefore has direct relevance to product safety assessment for any kelp-derived food ingredient, supplement, or functional food application.
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

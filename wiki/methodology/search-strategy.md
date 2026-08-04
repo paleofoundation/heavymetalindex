@@ -8,6 +8,8 @@ status: living-document
 
 # Search strategy and database coverage
 
+## Overview
+
 This page is the Cochrane-equivalent search-protocol publication for the Heavy Metal Index. It documents which academic and grey-literature databases are queried, how candidate papers are deduped against the existing corpus, the scoring rubric that determines whether a paper is auto-fetched for ingest, and the inclusion / exclusion criteria. A reader auditing the defensibility of the Index — regulator, brand-legal expert, journalist, or competing standards body — should be able to land here and replicate the search.
 
 The page describes the working pipeline as of the date in the frontmatter. The history of the pipeline is in [git](https://github.com/paleofoundation/heavymetalindex), which is the authoritative version record. Substantive changes are noted in [[log|wiki/log.md]].
@@ -112,8 +114,8 @@ The complete corpus dedupe index is rebuilt from on-disk state on every run (`da
 
 This page documents the search strategy. It does not document:
 
-- The synthesis workflow (how source pages become ingredient and product page claims). See [[CLAUDE|CLAUDE.md § Part 9]].
-- The routing layer (how source frontmatter fans out to product, ingredient, metal, and regulation destination pages). See [[CLAUDE|CLAUDE.md § Part 5b]] and the live audit at `data/evidence/product_source_routing_audit.csv`.
+- The synthesis workflow (how source pages become ingredient and product page claims). See.
+- The routing layer (how source frontmatter fans out to product, ingredient, metal, and regulation destination pages). See and the live audit at `data/evidence/product_source_routing_audit.csv`.
 - The HMTc standards-setting methodology (how literature percentiles are pooled and certification thresholds chosen). That work is published separately at the [Heavy Metal Tested & Certified program manual](https://heavymetaltested.com); the wiki / HMTc firewall is documented at [[editorial-standards]].
 
 For the full corpus coverage and gap surface, see [[coverage]].
@@ -125,6 +127,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [43618b5f5](https://github.com/paleofoundation/heavymetalindex/commit/43618b5f5) | 2026-05-28 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

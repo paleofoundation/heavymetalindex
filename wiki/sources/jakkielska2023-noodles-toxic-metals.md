@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Jakkielska et al. 2023 — Toxic metals in noodles and pasta sold in Poland
 
+## Overview
+
 Jakkielska and colleagues measured Pb, Cd, As, and Hg in 20 commercially available noodle/pasta products collected from Polish markets. Acid microwave digestion followed by ICP-MS produced total-metal concentrations for each product, and the authors then calculated ADI, THQ, HI, and CR values for Polish adult consumers. The occurrence finding is that Cd had the highest mean concentration among the four measured metals, while Hg was the lowest on average but had one high sample-level maximum. The arsenic speciation finding is not a direct speciation assay: the authors estimated i-As by applying a 70% conversion factor to total arsenic.
 
 ## Key numbers
@@ -64,7 +66,7 @@ This source contributes occurrence data for processed non-rice grain pasta/noodl
 - DOI verified from the title page as `10.2478/aucft-2023-0008`; DOI, raw handle `MFK_10-2478-aucft-2023-0008`, and cite-key checks found no existing source page before creation.
 - All concentration means, ranges, ADI, THQ, HI, CR, and LOD values above were checked against the extracted title-page abstract, Results text, methods LOD sentence, and Table 2.
 - Units are preserved as reported (`μg·kg-1`, `μg·kg-1 bw·day-1`, `µg·L-1`); no ppb/ppm conversion was performed.
-- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result. Per CLAUDE.md Part 14, `iAs` was removed from the frontmatter `metals` array (2026-06-09 autonomous audit) so this source does not route as direct iAs evidence; the estimated i-As discussion is preserved in body text only.
+- Speciation: arsenic in the occurrence table is total As; mercury is total Hg. The i-As entry is source-estimated by a 70% conversion factor and is not a measured arsenic-speciation result. Per, `iAs` was removed from the frontmatter `metals` array (2026-06-09 autonomous audit) so this source does not route as direct iAs evidence; the estimated i-As discussion is preserved in body text only.
 - Frontmatter slug check (2026-06-09 autonomous audit): GPT-style audit flagged `[[ingredients/non-rice-grains]]` as off-vocabulary. Verified false positive — the slug appears in `docs/gpt-collaboration/taxonomy-snapshot.md` ingredients list and `wiki/ingredients/non-rice-grains.md` exists. No change applied.
 - ADI unit correction (2026-06-09 autonomous audit): the source defines ADIHMs in `μg·kg-1 bw·day-1` (body-weight normalized); earlier draft dropped the `bw` qualifier. Corrected in Key numbers and verification-notes unit list.
 - Brand firewall: the source's sample-characterization table names commercial pasta products. This page reports only aggregated product-form descriptors and does not attach brand names to contamination values.
@@ -78,8 +80,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [f4141d790](https://github.com/paleofoundation/heavymetalindex/commit/f4141d790) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [ba7f1e796](https://github.com/paleofoundation/heavymetalindex/commit/ba7f1e796) | 2026-06-08 | major | 4 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

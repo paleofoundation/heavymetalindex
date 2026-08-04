@@ -13,38 +13,40 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 6
+sources: 15
 wiki_doi: null
 updated: 2026-05-17
 ---
 # Complete & balanced dry (kibble)
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 1: **Complete & balanced dry (kibble)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [pet-food-dry-kibble]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+## Overview
+
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 1: **Complete & balanced dry (kibble)**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [pet-food-dry-kibble]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
-  <div>
-    <dt>Brand legal teams</dt>
-    <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Complete & balanced dry (kibble), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
-  </div>
-  <div>
-    <dt>Brand regulatory affairs / QA</dt>
-    <dd>The current evidence base for Complete & balanced dry (kibble), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
-  </div>
-  <div>
-    <dt>Retailers and category buyers</dt>
-    <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
-  </div>
-  <div>
-    <dt>HMT&amp;C staff (internal)</dt>
-    <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
-  </div>
+ <div>
+ <dt>Brand legal teams</dt>
+ <dd>What the peer-reviewed and regulatory literature reports for heavy-metal occurrence in Complete & balanced dry (kibble), with applicable regulatory caps and source-traceable findings. Use this page to evaluate certification or class-action exposure on a literature-anchored basis.</dd>
+ </div>
+ <div>
+ <dt>Brand regulatory affairs / QA</dt>
+ <dd>The current evidence base for Complete & balanced dry (kibble), the levers most-effective at reducing heavy-metal load, and the applicable regulatory limits with jurisdiction and basis.</dd>
+ </div>
+ <div>
+ <dt>Retailers and category buyers</dt>
+ <dd>The row-level assortment risk profile and where the literature distinguishes higher-risk from lower-risk product configurations within this row.</dd>
+ </div>
+ <div>
+ <dt>HMT&amp;C staff (internal)</dt>
+ <dd>HMT&amp;C certification thresholds for products in this row are developed under the certification program at <a href="https://heavymetaltested.com">heavymetaltested.com</a>, not on this public page. The Index and HMT&amp;C operate on the same evidence base but apply different publication rules; see the <a href="/methodology">methodology</a> for the separation.</dd>
+ </div>
 </dl>
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in complete & balanced dry (kibble). Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in complete & balanced dry (kibble). Speciation is non-substitutable (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (finished-product as sold unless the source specifies otherwise; see each row for the basis label). Non-detect handling follows each source's reporting convention. Pooling is avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 The applicable regulatory jurisdictions for this row are: **FDA CVM, AAFCO, EU Directive 2002/32**.
 
@@ -96,16 +98,25 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/du2025-petfood-china-metals\|Du et al. 2025]]. *Individual and combined contamination of the toxic metals in commercial cat and dog food*, Scientific Reports | 2025 | Peer-reviewed | CN Pb, Cd, Cr, tHg, tAs occurrence in Imported cat and dog food products from the Chinese market (produced 2021-2022); 45 cat food, 48 dog food;... (n=93) |
-| 2 | [[sources/haydous2025-pet-food-metals-lebanon-uae\|Haydous et al. 2025]]. *Pet food safety at risk? Investigating toxic metal contamination in Lebanon and the UAE*, RSC Advances | 2025 | Peer-reviewed | LB/AE Pb, Cd, As, tHg, Cr occurrence in 196 commercial pet food SKUs: 75 from Lebanon, 121 from UAE; 81 dry, 115 wet; 147 cat food,... (n=196) |
-| 3 | [[sources/kalicharan2025-heavy-metals-pet-food-south-africa\|Kalicharan et al. 2025]]. *Determination of Heavy Metal Contamination in Premium and Supermarket Brands of Extruded Feline and Canine Food in the South African Market*, Veterinary Medicine and Science | 2025 | Peer-reviewed | ZA Pb, Cd, tAs, tHg, Ni, Zn, Cu occurrence in 14 premium and 17 supermarket brands of extruded cat and dog food (kibble) from the South African market;... (n=31) |
-| 4 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
-| 5 | [[sources/kim2018-dry-dog-food-heavy-metals\|Hyun-Tae et al. 2018]]. *Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)*, Frontiers in Veterinary Science | 2018 | Peer-reviewed | US tAs, Cd, Pb, tHg occurrence in 51 over-the-counter maintenance or all-life-stage dry dog foods (17 fish-based, 17 poultry-based, 17 red-meat-based) purchased in the United... (n=51) |
-| 6 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | US/WHO Cr, Ni, Al occurrence in 49 commercially available dry dog foods (maintenance/all life stage) from Ithaca, NY area retail and Cornell University Veterinary... (n=49) |
+| 1 | [[sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence\|authors 2025]]. *Associated with Fresh Pet Food: Evaluating Scientific Evidence*, Peer-reviewed article | 2025 | Peer-reviewed | US Al, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 2 | [[sources/authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial\|authors 2025]]. *Ionizing Radiation for Quality Control and Mitigating Microbial*, Peer-reviewed article | 2025 | Peer-reviewed | US tHg occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 3 | [[sources/authors2025-testing-for-heavy-metals-in-drinking-water-collected\|authors 2025]]. *Testing for heavy metals in drinking water collected from Dog*, Peer-reviewed article | 2025 | Peer-reviewed | US Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 4 | [[sources/du2025-petfood-china-metals\|Du et al. 2025]]. *Individual and combined contamination of the toxic metals in commercial cat and dog food*, Scientific Reports | 2025 | Peer-reviewed | CN Pb, Cd, Cr, tHg, tAs occurrence in Imported cat and dog food products from the Chinese market (produced 2021-2022); 45 cat food, 48 dog food;... (n=93) |
+| 5 | [[sources/haydous2025-pet-food-metals-lebanon-uae\|Haydous et al. 2025]]. *Pet food safety at risk? Investigating toxic metal contamination in Lebanon and the UAE*, RSC Advances | 2025 | Peer-reviewed | LB/AE Pb, Cd, As, tHg, Cr occurrence in 196 commercial pet food SKUs: 75 from Lebanon, 121 from UAE; 81 dry, 115 wet; 147 cat food,... (n=196) |
+| 6 | [[sources/kalicharan2025-heavy-metals-pet-food-south-africa\|Kalicharan et al. 2025]]. *Determination of Heavy Metal Contamination in Premium and Supermarket Brands of Extruded Feline and Canine Food in the South African Market*, Veterinary Medicine and Science | 2025 | Peer-reviewed | ZA Pb, Cd, tAs, tHg, Ni, Zn, Cu occurrence in 14 premium and 17 supermarket brands of extruded cat and dog food (kibble) from the South African market;... (n=31) |
+| 7 | [[sources/barca2023-a-comprehensive-review-on-infant\|Barca et al. 2023]]. *A comprehensive review on infant*, Peer-reviewed article | 2023 | Peer-reviewed | US tHg occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 8 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
+| 9 | [[sources/authors2022-mineral-trace-element-and-toxic-metal-concentration\|authors 2022]]. *Mineral, trace element, and toxic metal concentration*, Peer-reviewed article | 2022 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Al, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 10 | [[sources/authors2021-nutritional-evaluation-and-risk-assessment-of-the-exposure\|authors 2021]]. *Nutritional Evaluation and Risk Assessment of the Exposure to*, Peer-reviewed article | 2021 | Peer-reviewed | US MeHg, tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 11 | [[sources/authors2020-however-this-ingredient-is-costly-compared-to-formulated\|authors 2020]]. *However, this ingredient is costly compared to formulated to meet the requirements for adult cats*, Peer-reviewed article | 2020 | Peer-reviewed | US Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 12 | [[sources/authors2018-minerals-and-heavy-metals-in\|authors 2018]]. *minerals and heavy metals in*, Peer-reviewed article | 2018 | Peer-reviewed | US MeHg, tHg, Cd, Pb, tAs, Ni, Al, Sn, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 13 | [[sources/kim2018-dry-dog-food-heavy-metals\|Hyun-Tae et al. 2018]]. *Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)*, Frontiers in Veterinary Science | 2018 | Peer-reviewed | US tAs, Cd, Pb, tHg occurrence in 51 over-the-counter maintenance or all-life-stage dry dog foods (17 fish-based, 17 poultry-based, 17 red-meat-based) purchased in the United... (n=51) |
+| 14 | [[sources/authors2017-8-address-1school-of-veterinary-medicine-and-science\|authors 2017]]. *8 Address: 1School of Veterinary Medicine and Science, University of Nottingham, Sutton Bonington*, Peer-reviewed article | 2017 | Peer-reviewed | US tHg, Cd, Pb, tAs, Ni, Cr occurrence in Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors. |
+| 15 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | US/WHO Cr, Ni, Al occurrence in 49 commercially available dry dog foods (maintenance/all life stage) from Ithaca, NY area retail and Cornell University Veterinary... (n=49) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -115,9 +126,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [88594dab3](https://github.com/paleofoundation/heavymetalindex/commit/88594dab3) | 2026-05-17 | major | 1 section added |
-| [1e684a825](https://github.com/paleofoundation/heavymetalindex/commit/1e684a825) | 2026-05-17 | minor | Narrative text revised |
-| [815efe885](https://github.com/paleofoundation/heavymetalindex/commit/815efe885) | 2026-05-17 | major | 1 section added |
 <!-- END: hmi-page-history -->

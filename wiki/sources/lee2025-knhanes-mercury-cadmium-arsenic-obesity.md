@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Lee & Park 2025 — Blood mercury, serum cadmium, and urinary arsenic in 6,609 Korean adults (KNHANES 2008–2012)
 
+## Overview
+
 This cross-sectional study uses data from 6,609 Korean adults in KNHANES 2008–2012 to examine associations between biomarkers of heavy metal exposure (serum Hg, serum Cd, urinary As) and overweight/obesity, with a focus on the interactive effect of high sodium excretion and high mercury. The primary finding is that higher serum mercury (≥5.1 µg/L vs. <3.0 µg/L) was significantly associated with overweight/obesity (OR=1.57, 95% CI 1.31–1.88), and this effect was amplified in participants with high urinary sodium excretion (combined OR=3.61 vs. lowest tertiles for both). The study is most relevant to the wiki as a source of population-level biomonitoring data for tHg, Cd, and urinary As in a Korean reference population, with exposures principally attributed to fish consumption (Hg) and dietary sources (Cd, As).
 
 ## Key numbers
@@ -74,6 +76,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [467af7ddd](https://github.com/paleofoundation/heavymetalindex/commit/467af7ddd) | 2026-05-12 | major | 4 sections added; narrative text revised |

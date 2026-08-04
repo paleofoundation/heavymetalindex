@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # CFIA 2025 — Toxic metals in selected foods, April 2022–March 2023
 
+## Overview
+
 The Canadian Food Inspection Agency (CFIA) conducted a targeted survey of 470 samples of duck eggs, juices and nectars, dried mushrooms, spices, sugar and syrups, sweets, and vinegars collected from retail locations in 11 major cities across four Canadian geographic regions, testing for arsenic, cadmium, lead, and mercury. The survey found that dried mushrooms had the highest concentrations of all four toxic metals by a substantial margin, while juices and nectars, and duck eggs, had the lowest detection rates. All juice and nectar arsenic results met Canada's 0.1 ppm tolerance for ready-to-serve beverages, lead was not detected in any juice or nectar sample, and Health Canada determined that no samples posed a concern to human health.
 
 ## Key numbers
@@ -82,6 +84,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3859dbf11](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf11) | 2026-05-12 | major | 5 sections added; narrative text revised |

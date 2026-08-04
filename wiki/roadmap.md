@@ -8,6 +8,8 @@ updated: 2026-05-28
 
 # Roadmap
 
+## Overview
+
 This page is the public 10-year direction for the Heavy Metal Index. It is intentionally direct about what the Index is becoming, because the defensibility argument the Index rests on — that it is the canonical curated reference for heavy metals in food — requires that direction to be visible, not hidden. Brand-legal, regulatory affairs, retailer category-floor programs, the standards-body community, and AI integrators considering building on the Index can read this page and know what they are building on top of.
 
 This page is the public-facing statement of the Index's strategic frame.

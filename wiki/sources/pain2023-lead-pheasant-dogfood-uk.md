@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Pain et al. 2023 — Lead in commercial pheasant-based dogfood, UK
 
+## Overview
+
 Lead concentrations in raw minced pheasant dogfood purchased from three UK online retailers in 2022 were dramatically elevated, with a weighted mean of 220.99 ppm dry weight (d.w.) across 81 samples known or assumed to be shot-free — 34 times higher than the mean in pheasant meat sold for human consumption (6.46 ppm d.w.) over the same shooting seasons. A total of 77% of raw pheasant dogfood samples exceeded the EU maximum residue level (MRL) for lead in animal feed (11.36 ppm d.w. for complementary/animal feed; 5.68 ppm d.w. for complete feed). Processed tinned pheasant dogfood (0.65 ppm d.w.) and chicken-based products (0.09–0.46 ppm d.w.) did not exceed the MRL, consistent with processing removing or distributing lead fragments from ammunition.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [8c1225ead](https://github.com/paleofoundation/heavymetalindex/commit/8c1225ead) | 2026-05-13 | major | 4 sections added; narrative text revised |

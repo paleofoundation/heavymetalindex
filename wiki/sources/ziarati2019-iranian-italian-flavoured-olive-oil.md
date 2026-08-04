@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Ziarati et al. 2019 — Toxic metals in Iranian and Italian flavoured olive oil
 
+## Overview
+
 This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties. Table 3 reports higher Iranian Pb, Cd, and As combined means than Italian samples and a lower Iranian Ni combined mean, although the narrative text states that Iranian Ni was higher; treat the country-level Ni comparison as source-internal contradictory. Fungi-flavoured olive oil exhibited the highest Italian Pb and Cd concentrations, while pepper-flavoured olive oil showed the lowest heavy metal levels across the Italian flavour categories.
 
 ## Key numbers
@@ -93,9 +95,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [32bf094dc](https://github.com/paleofoundation/heavymetalindex/commit/32bf094dc) | 2026-05-25 | minor | Narrative text revised |
-| [fc8713918](https://github.com/paleofoundation/heavymetalindex/commit/fc8713918) | 2026-05-18 | minor | Narrative text revised |
-| [41c4646ff](https://github.com/paleofoundation/heavymetalindex/commit/41c4646ff) | 2026-05-17 | major | 3 sections added and 2 removed; narrative text revised |
 <!-- END: hmi-page-history -->

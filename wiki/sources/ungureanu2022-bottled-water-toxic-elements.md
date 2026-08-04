@@ -24,6 +24,8 @@ updated: 2026-06-09
 
 # Ungureanu et al. 2022 - potentially toxic elements in bottled drinking water
 
+## Overview
+
 Ungureanu et al. measured 12 potentially toxic elements in 50 bottled drinking-water samples sold on the Romanian market. The sample set included still, spring, sparkling, table, semi-sparkling, and artesian waters in PET bottles, mostly produced in Romania with additional European and Fiji-origin products. Most measured elements were below applicable drinking-water limits, but one sample exceeded the Pb limit and several samples had elevated Fe.
 
 ## Key numbers
@@ -73,6 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [f0a8e1f28](https://github.com/paleofoundation/heavymetalindex/commit/f0a8e1f28) | 2026-06-09 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

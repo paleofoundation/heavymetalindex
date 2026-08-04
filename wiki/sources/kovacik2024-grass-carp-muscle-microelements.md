@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kovacik et al. 2024 — Microelements and fatty acids in grass carp muscle, Slovak Republic
 
+## Overview
+
 Kovacik et al. measured 16 microelements plus total mercury in dorsal muscle of 36 grass carp (*Ctenopharyngodon idella*) harvested from a university experimental pond in Kolinany, Slovakia during summer (n=18) and autumn (n=18) seasons. The pond is adjacent to intensive agricultural activity and connected to a wastewater treatment plant. All metals were measured by ICP-OES (Al, As, Ba, Cd, Co, Cr, Cu, Fe, Li, Mn, Ni, Pb, Se, Sr, Zn); total mercury was measured separately by CV-AAS. Cadmium and cobalt were below the limit of quantification in all samples; arsenic was below LOQ in more than 88% of samples; lead was below LOQ in more than 66% of samples; selenium was below LOQ in approximately 50% of samples. The overall elemental ranking was Fe > Zn > Al > Sr > Ba > Ni > Se > Cr > Cu > Mn > Pb > As > Li > Hg. Total hazard quotient (TTHQ) ranged 0.27–0.76, below 1 in all individuals; mercury and nickel jointly accounted for 49% of the TTHQ and were identified as the elements of most concern.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [3f107ba96](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba96) | 2026-05-12 | major | 4 sections added; narrative text revised |

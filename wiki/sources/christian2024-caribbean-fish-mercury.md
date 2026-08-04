@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Christian et al. 2024 — Mercury in Caribbean fish and invertebrates
 
+## Overview
+
 More than 1,600 samples of 108 unique species of fish and aquatic invertebrates collected between 2005 and 2023 from eleven countries or territories in the wider Caribbean Region were compiled and analyzed for total mercury (tHg). The study finds wide variability in tHg concentrations: 55% of samples were below the 0.23 µg/g wet weight (ww) FDA/EPA guideline for 2-3 weekly servings, while 26% exceeded the 0.46 µg/g ww guideline associated with adverse health effects from continual consumption, particularly for sensitive populations. Significant relationships were found between tHg concentrations and taxonomic family, sampling country, fish length, and trophic level. The dataset represents baseline mercury data collected partly through the Caribbean Region Mercury Monitoring Network (CRMMN), established in 2022 under Minamata Convention obligations.
 
 ## Key numbers
@@ -61,6 +63,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

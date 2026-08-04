@@ -85,47 +85,25 @@ sources: 19
 
 # Non-soy Infant Formula
 
-<!-- hmi-completeness-scorecard -->
-
-## Completeness scorecard
-
-_Deterministic gap audit — no score is composite, no cell is LLM-judged. Each chip is re-derivable by re-running `tools/evidence/build-ingredient-scorecard.mjs`. `review:` residuals and missing data are worked autonomously via `data/evidence/ingredient-scorecard-review-flags.csv` and `wiki/completeness-gaps.md`._
-
-| Dimension | Status | What's there (auditable counts) | What's missing |
-|---|---|---|---|
-| D1 Analyte coverage (tier: unset) | tier-unset | 5/10 HMTc analytes, total n=23 | consumption tier unset; depth bar uncheckable |
-| D2 Regional coverage | OK | 14 jurisdictions, top US 47% | — |
-| D3 Anthropogenic evidence | GAP | 1 drinking-water; no supply-chain link | link a supply-chain/ hub page |
-| D4 Background mechanism | GAP | section present, 0 drivers, 1 upstream source(s) | drivers[] empty |
-| D5 Pooling depth | POOLABLE | Pb POOLABLE, Cd POOLABLE, iAs POOLABLE, tAs POOLABLE, tHg POOLABLE | — |
-| D6 Speciation | OK | iAs, tAs, tHg declared | — |
-| D7 Basis declaration | GAP | 0/10 populated cells declare a basis token | 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U |
-| D8 Provenance integrity | OK | 13 claims checked, 13 supported; 4 citations, 0 orphan, 0 foreign | — |
-| D9 Mitigation | OK | 1 cited lever(s), 6 mitigation/ link(s) | — |
-| D10 Regulatory coverage | OK | 3 rule link(s), 0 metal(s) covered | unmapped analytes: Pb, Cd, iAs, tAs, tHg |
-| D11 Standards-readiness | PARTIAL | priority: Pb, Cd, iAs, tAs, tHg; pairing 0 paired, 5 single, 0 unpaired | basis: 10 populated cell(s) lack a basis token: Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, U; consumption tier unset (depth bar uncheckable) |
-| **Principle balance** | **flag** | consumer-protection 0.75, contamination-reduction 1.00, brand-value 0.00, legal-defensibility 0.75, scale 0.75 | spread 1.00 — starved: brand-value |
-
-<!-- /hmi-completeness-scorecard -->
-
+## Overview
 
 This is a structural ingredient/profile node for non-soy infant formula routing. Finished formula occurrence values belong on the relevant formula product pages unless a source reports ingredient-only values.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-The 4 works cited in this page's text, numbered in the order the citations appear. Each entry links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document the record was built from. The wider set of sources routed to this page, including those not yet cited in the text, is listed under [Sources](#sources).
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham (2012). *Arsenic concentration and speciation in infant formulas and first foods*. Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223. [https://doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17). Peer-reviewed, A-tier. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Source record]]
-2. Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. (2025). *Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review*. American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026. [https://doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001). Peer-reviewed, A-tier. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Source record]]
-3. Tadele Eticha, Melat Afrasa, Getu Kahsay, and Hailekiros Gebretsadik (2018). *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*. International Journal of Analytical Chemistry, Vol. 2018, Article 2985698. [https://doi.org/10.1155/2018/2985698](https://doi.org/10.1155/2018/2985698). Peer-reviewed, A-tier. [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia|Source record]]
-4. Lawrence H. Pacquette and Anumolu Anumula (2016). *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*. Journal of AOAC International, Vol. 99, No. 3, pp. 766-779. [https://doi.org/10.5740/jaoacint.15-0211](https://doi.org/10.5740/jaoacint.15-0211). Peer-reviewed, A-tier. [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Source record]]
+1. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Arsenic concentration and speciation in infant formulas and first foods]]<span class="hmi-ref-meta">Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham · Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 · 2012 · [doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review|Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroalkyl substances concentrations in human milk and infant formula in the United States: a systematic review]]<span class="hmi-ref-meta">Rachel C. Thoerig, Lauren E. O'Connor, Maureen K. Spill, Arin A. Balalian, Rupal Trivedi, Shailesh M. Advani, et al. · American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026 · 2025 · [doi.org/10.1016/j.ajcnut.2025.07.001](https://doi.org/10.1016/j.ajcnut.2025.07.001)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia|Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia]]<span class="hmi-ref-meta">Tadele Eticha, Melat Afrasa, Getu Kahsay, and Hailekiros Gebretsadik · International Journal of Analytical Chemistry, Vol. 2018, Article 2985698 · 2018 · [doi.org/10.1155/2018/2985698](https://doi.org/10.1155/2018/2985698)</span><span class="hmi-ref-tag">Review</span>
+4. [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation|Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation]]<span class="hmi-ref-meta">Lawrence H. Pacquette and Anumolu Anumula · Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 · 2016 · [doi.org/10.5740/jaoacint.15-0211](https://doi.org/10.5740/jaoacint.15-0211)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -217,9 +195,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [a0eb4e0e2](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e2) | 2026-08-02 | major | 1 section removed; narrative text revised |
+| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
-| [df0616078](https://github.com/paleofoundation/heavymetalindex/commit/df0616078) | 2026-06-11 | major | 1 section added; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [c06900296](https://github.com/paleofoundation/heavymetalindex/commit/c06900296) | 2026-05-17 | major | 4 sources added; narrative text revised |
-| [e3eb66979](https://github.com/paleofoundation/heavymetalindex/commit/e3eb66979) | 2026-05-17 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

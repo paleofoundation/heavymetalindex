@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Li et al. 2025 - Iris sibirica biochar for cadmium adsorption from wastewater
 
+## Overview
+
 Li and colleagues pyrolyzed the root, stem, and leaf tissue of Iris sibirica L. (a wetland emergent plant) at 900 degrees C and tested the resulting biochars (BC_R, BC_S, BC_L) as aqueous sorbents for Cd(II). This is primary remediation-method evidence, not food or product occurrence evidence: the measured endpoints are biochar physico-chemical properties, batch adsorption kinetics, isotherm capacities, and mechanism partitioning rather than cadmium concentrations in edible crops, ingredients, consumer products, or drinking water.
 
 ## Key numbers
@@ -146,6 +148,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 14 sections added; narrative text revised |

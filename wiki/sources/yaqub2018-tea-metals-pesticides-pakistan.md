@@ -27,6 +27,8 @@ updated: 2026-05-12
 
 # Yaqub et al. 2018 — Monitoring heavy metals and pesticides in Pakistani tea samples (Mansehra gardens and market brands)
 
+## Overview
+
 This study assessed heavy metals and pesticides in tea samples from two sources: 52 samples from Mansehra tea gardens (Pakistan) and 25 commercial brand tea samples from local markets. Heavy metals measured were Zn, Fe, Cr, Cu, Mn, and Co by AAS; pesticides (Bifenthrin, Lambda-Chalothrin, Dichlorovas, Glyphosate, Imidacloprid, Difenaconazole, Emamectin) by HPLC. The paper is B-tier due to limited sample characterisation, AAS rather than ICP-MS, and primary focus on pesticide detection rather than metals risk for human health. Key metals findings: Co in source tea exceeded the EU allowed limit (0.01 ppm); Mn exceeded EU standards in both sample types; other metals (Zn, Fe, Cu, Cr) were within limits.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |

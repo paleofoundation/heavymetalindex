@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Hull et al. 2023 — Arsenic trophic transfer in Puget Sound lakes
 
+## Overview
+
 Hull and colleagues investigated arsenic trophic transfer through aquatic food webs in ten arsenic-contaminated urban lakes in Washington State's Puget Sound lowlands, a region with legacy pollution from historical copper smelting operations. Their key finding is that littoral sediment arsenic concentration is a reliable predictor of arsenic bioaccumulation across trophic levels, including in edible fish muscle tissue, providing a low-cost screening tool for human health risk from recreational fish consumption. The percent inorganic arsenic (%iAs) increased with decreasing trophic level across all lakes, confirming that iAs dilutes with trophic transfer while total arsenic biodiminishes.
 
 ## Key numbers
@@ -67,6 +69,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [e307b9560](https://github.com/paleofoundation/heavymetalindex/commit/e307b9560) | 2026-05-13 | major | 4 sections added; narrative text revised |

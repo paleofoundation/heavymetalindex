@@ -24,6 +24,8 @@ updated: 2026-06-10
 
 # Hendrawati et al. 2015 - Chitosan coagulation for lake-water quality
 
+## Overview
+
 Hendrawati and colleagues tested chitosan prepared from shrimp-shell waste as a natural coagulant for turbid lake water from Situ Cipondoh. This is in-scope mitigation evidence for water treatment and metal reduction, not chitosan ingredient occurrence or aluminum contamination evidence.
 
 ## Key numbers
@@ -83,6 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
-| [db8d7fdd8](https://github.com/paleofoundation/heavymetalindex/commit/db8d7fdd8) | 2026-06-10 | major | 5 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | major | 1 section added |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zahran et al. 2023 — Mercury bioaccumulation in Nile tilapia muscle under HgCl₂ exposure; Nannochloropsis dietary mitigation
 
+## Overview
+
 This controlled aquaculture study evaluated mercury (Hg²⁺) bioaccumulation in muscle tissue of Nile tilapia (*Oreochromis niloticus*) exposed to a sub-lethal concentration of HgCl₂ (0.3 mg/L; ¼ LC₅₀) for 21 days, and assessed whether dietary supplementation with *Nannochloropsis oculata* microalga (5% or 10% of feed) could reduce Hg muscle deposition. Hg²⁺ toxicity led to significant musculature bioaccumulation, inhibited acetylcholinesterase (AChE) activity, downregulated antioxidant- and stress-related genes, and caused histopathological changes in gills and intestine. Supplementation with 10% *N. oculata* upregulated antioxidative genes, downregulated stress-apoptotic genes, and produced minor to no histopathological lesions. The study quantifies Hg accumulation in the muscle of a globally consumed aquaculture fish species under controlled contamination conditions and demonstrates a dietary mitigation strategy.
 
 ## Key numbers
@@ -63,6 +65,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [cacc8f421](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f421) | 2026-05-13 | major | 4 sections added; narrative text revised |

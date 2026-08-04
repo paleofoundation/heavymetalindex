@@ -24,6 +24,8 @@ updated: 2026-05-31
 
 # Gao et al. 2025 - Arsenic in wild Cordyceps sinensis
 
+## Overview
+
 Gao et al. compared wild Cordyceps sinensis powder with an equivalent total arsenic dose delivered as inorganic arsenic compounds in mice. The paper is useful for herbal/botanical supplement context because it reports the arsenic content and inorganic arsenic ratio of the Cordyceps material used for dosing. At the maximum clinical dose tested, Cordyceps did not produce the organ accumulation and hepatorenal toxicity seen with equivalent-dose inorganic arsenic.
 
 ## Key numbers
@@ -70,6 +72,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [6461a39ba](https://github.com/paleofoundation/heavymetalindex/commit/6461a39ba) | 2026-05-31 | major | 1 section added |
 | [8291a0d46](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d46) | 2026-05-31 | major | 5 sections added; narrative text revised |

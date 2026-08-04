@@ -27,6 +27,8 @@ updated: 2026-05-17
 
 # Rahma & Lane 2022 — Skin barrier function in infants: update and outlook
 
+## Overview
+
 This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys what is known about the infant skin barrier with a primary focus on the diaper area, the safety and effectiveness of baby wipes, and the risk factors that predispose infants — especially preterm and low-birth-weight infants — to higher percutaneous absorption of topically applied chemicals. The paper contains no primary heavy-metal occurrence data; it is included in the Heavy Metal Index corpus as exposure-pathway infrastructure for any HMI work that needs to translate adult dermal-absorption inputs to infant skin (e.g., heavy metals in baby wipes, diaper creams, baby lotions, or sunscreens). The review reports nomenclature, quantitative differences between infant and adult skin, the consequences of diaper occlusion, baby-wipe formulation requirements, and the EMA / SCCS / FDA / RCPCH regulatory framing that governs paediatric topical ingredient selection.
 
 ## Key numbers
@@ -94,6 +96,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [87977a6bc](https://github.com/paleofoundation/heavymetalindex/commit/87977a6bc) | 2026-05-17 | major | 5 sections added; narrative text revised |

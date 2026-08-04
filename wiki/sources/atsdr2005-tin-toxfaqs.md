@@ -31,6 +31,8 @@ updated: 2026-06-04
 
 # ATSDR 2005 — ToxFAQs for Tin and Tin Compounds
 
+## Overview
+
 The August 2005 ATSDR ToxFAQs fact sheet (Tox fact sheet #55) is the two-page consumer-facing summary of the ATSDR 2005 Toxicological Profile for Tin and Compounds (Update). It carries no primary data of its own; its function in the wiki corpus is to document the US federal occupational and food-additive regulatory framework for tin and tin compounds as the agency communicated it to non-specialist audiences in 2005, and to capture the public-health framing ATSDR used to distinguish inorganic tin from the substantially more toxic organotin compounds. The full quantitative profile lives in the sibling page [[sources/atsdr2005-tin-toxicological-profile]].
 
 ## Key numbers
@@ -83,7 +85,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 source added; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

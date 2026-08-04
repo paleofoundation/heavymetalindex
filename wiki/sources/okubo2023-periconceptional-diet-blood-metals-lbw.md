@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
+## Overview
+
 Okubo and Nakayama (2023) analysed 72,317 mother-child pairs from the Japan Environment and Children's Study (JECS) to test whether periconceptional diet quality, scored using a modified Balanced Diet Score (BDS) anchored to the Japanese Food Guide Spinning Top, modifies both maternal blood metal concentrations measured in the second/third trimester and the association between blood Pb and low birth weight (LBW, birth weight <2,500 g). Higher periconceptional BDS was associated with modestly lower blood Pb (adjusted β = −0.03 per 10-point BDS increase, 95% CrI −0.04, −0.03) and Cd (adjusted β = −0.010, 95% CrI −0.016, −0.004) but higher Hg (adjusted β = +0.05, 95% CrI 0.05, 0.06), the Hg signal reflecting greater fish and shellfish consumption in higher-quality diets. In Bayesian logistic regression adjusted for maternal age, height, pre-pregnancy BMI, gestational weight gain, parity, education, smoking, alcohol, folate supplementation, physical activity, gestational age, and child sex, each log2-doubling of blood Pb was associated with elevated LBW risk (adjusted OR 1.50, 95% CrI 1.36, 1.64); equivalently, Q4 vs Q1 blood Pb (≥7.33 ng/g vs ≤4.71 ng/g) adjusted OR was 1.44 (95% CrI 1.34, 1.56). Higher BDS attenuated this association (BDS × log2-Pb interaction OR 0.991, 95% CrI 0.983, 0.999; multiple-imputation sensitivity OR 0.993, 95% CrI 0.986, 0.999), with the effect more visible at higher blood Pb concentrations. No effect modification of BDS was found on Cd-LBW or Hg-LBW relationships.
 
 ## Key numbers
@@ -114,8 +116,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [dbbc33ffe](https://github.com/paleofoundation/heavymetalindex/commit/dbbc33ffe) | 2026-05-18 | minor | Narrative text revised |
-| [de9d0b9cf](https://github.com/paleofoundation/heavymetalindex/commit/de9d0b9cf) | 2026-05-18 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

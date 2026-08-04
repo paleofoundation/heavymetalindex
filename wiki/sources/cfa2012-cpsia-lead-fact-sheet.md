@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Consumer Federation of America (c. 2012) — CPSIA and Lead Fact Sheet
 
+## Overview
+
 This is a two-page advocacy fact sheet published by the Consumer Federation of America (CFA) summarising the lead-content provisions of the Consumer Product Safety Improvement Act of 2008 (CPSIA), the pre-CPSIA regulatory baseline, the August 2011 HR 2175 amendment (Public Law 112-28), and the contextual public-health framing for lead exposure in children. The fact sheet contains no primary measurements; it is included in the Heavy Metal Index corpus as a regulatory-history reference for the federal US lead-in-children's-products limit (the phased-in 600 → 300 → 100 ppm Section 101 standard) and as the consumer-advocacy framing that accompanied the 2012 CDC blood-lead-reference-value revision.
 
 ## Key numbers
@@ -84,6 +86,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [99ba4821a](https://github.com/paleofoundation/heavymetalindex/commit/99ba4821a) | 2026-05-17 | major | 5 sections added; narrative text revised |

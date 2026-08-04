@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/gummies-jellies",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "82132c43e54c4141814dfb608cef969e97b43e16b9ce37ad5e4e68713f92a71f",
-      "content_bytes": 1348,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "38c5b9eb3b48db4b10dd268c2a4fbd0fdf10b321390d9e23eeeff92641e0dba6",
+      "content_bytes": 2018,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/gummies-jellies.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/gummies-jellies.md | sha256sum"
     }
   },
   "evidence_base": {

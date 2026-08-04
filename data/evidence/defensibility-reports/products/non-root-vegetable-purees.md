@@ -2,7 +2,7 @@
 source_page: wiki/products/non-root-vegetable-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8273e42d963e80e98731a8f2219006227c42681ea7ab2b6e47b84deba24220cd
+source_page_sha256: 43b564c04c680c6edd6d4d294e776e8ba19166ece71e9eb563deb775b3fd55b8
 total_claims: 118
 cited_claims: 117
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 31
 distinct_cited_sources: 25
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 42
-audit_log_total_rows: 2426
+audit_log_total_rows: 6212
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 25 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 42 |
-| audit log rows read | 2426 |
+| audit log rows read | 6212 |
 
 ## Page-level audit rows
 
@@ -49,7 +49,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 ### Who this page is for
 
 #### Claim `10 ppb`
-- Context: `inside the cited literature for non-root vegetable purees, against the FDA 2025 10 ppb baby-food lead cap.</dd>     </di`
+- Context: `inside the cited literature for non-root vegetable purees, against the FDA 2025 10 ppb baby-food lead cap.</dd>  </div>`
 - Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal / Regulatory Limits vs Field Findings
@@ -1644,7 +1644,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `10 ppb` in section _Who this page is for_ — context: `inside the cited literature for non-root vegetable purees, against the FDA 2025 10 ppb baby-food lead cap.</dd>     </di`
+- `10 ppb` in section _Who this page is for_ — context: `inside the cited literature for non-root vegetable purees, against the FDA 2025 10 ppb baby-food lead cap.</dd>  </div>`
 
 ## Defensibility chain — distinct cited targets
 

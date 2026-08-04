@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # EFSA FAF Panel 2022 — Heavy metals in food additive E 475 (polyglycerol esters of fatty acids)
 
+## Overview
+
 The EFSA Panel on Food Additives and Flavourings conducted a follow-up risk assessment of polyglycerol esters of fatty acids (PEFA, E 475) to address data gaps identified in the 2017 re-evaluation. Analytical data on toxic elements in 14 commercial E 475 samples were provided by an interested business operator and assessed against current EU specification limits. The Panel concluded that the maximum limits for all four toxic elements (arsenic, lead, mercury, and cadmium) in the EU specifications should be lowered based on the actual levels achievable in commercial product, and that the proposed lowest technologically achievable levels for Hg, Cd, and As do not raise safety concerns at the calculated exposure levels, though the MOE for arsenic was insufficient at the lower end.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [67cbff729](https://github.com/paleofoundation/heavymetalindex/commit/67cbff729) | 2026-05-13 | major | 4 sections added; narrative text revised |

@@ -28,6 +28,8 @@ updated: 2026-05-17
 
 # Laoye et al. 2024 — Heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria
 
+## Overview
+
 Laoye et al. (2024) present a PRISMA systematic review of 64 studies (from 10,212 initially identified) reporting heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria published between 2014 and 2024. The majority of research focused on fish (40 studies), followed by vegetables (20 studies) and fruits (4 studies). The most commonly studied fish species were Tilapia zilli, Chrysichthys nigrodigitatus (bagrid catfish), Clarias gariepinus (African catfish), and Oreochromis niloticus, with heavy metal concentrations in fish frequently exceeding WHO limits. Studies were predominantly from Lagos (30 studies), Ondo (8 studies), Ogun (7 studies), Osun (7 studies), Ekiti (6 studies), and Oyo (3 studies).
 
 ## Key numbers
@@ -90,8 +92,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [966c4bcfc](https://github.com/paleofoundation/heavymetalindex/commit/966c4bcfc) | 2026-05-17 | major | 2 sections added and 1 removed; narrative text revised |
-| [e2e70eba5](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eba5) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

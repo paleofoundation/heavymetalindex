@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Aendo et al. 2024 — Mercury, lead, cadmium, and manganese in eggs from poultry farms near a gold mine in Thailand
 
+## Overview
+
 This study compared Hg, Pb, Cd, and Mn concentrations in eggs (yolk and albumen separately) from laying hen, laying duck, and free-grazing duck farms in contaminated (<25 km) and uncontaminated (>25 km) areas surrounding the largest gold mine in Thailand (Pichit Province, operating 2001–2016), which was legally paused at the time of sampling. Free-grazing duck eggs showed significantly higher Hg concentrations than confined laying hen or duck eggs in both areas, attributed to greater environmental exposure through grazing behavior. Pb and Mn were elevated in duck eggs (both confined and free-grazing) relative to laying hen eggs in the contaminated area. Hg and Cd preferentially partitioned into egg albumen, while Pb and Mn were concentrated in the yolk. Ecological risk assessment found Cd in soil around all farm types at considerable to high risk, driven by mining legacy contamination.
 
 ## Key numbers
@@ -68,6 +70,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0562446e9](https://github.com/paleofoundation/heavymetalindex/commit/0562446e9) | 2026-05-13 | major | 4 sections added; narrative text revised |

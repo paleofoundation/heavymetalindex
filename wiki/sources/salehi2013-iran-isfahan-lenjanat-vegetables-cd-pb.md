@@ -30,6 +30,8 @@ created_by: claude_opus_47_session
 
 # Salehi, Mohajer & Mohammadi 2013 — Cd and Pb in 130 topsoils and 50 vegetable samples, Lenjanat region (Isfahan, Iran)
 
+## Overview
+
 This short ICHMET 2012 conference paper reports total cadmium and total lead concentrations in 130 topsoil samples and 50 vegetable samples drawn from agricultural lands in the 75 km² Lenjanat region of Isfahan province, central Iran — an intensively-cultivated area surrounded by steel and cement factories and lead mining. Total metals were extracted from soils with concentrated HNO₃ and from dry-ashed plant tissue with 3 N HCl, then quantified by flame atomic absorption spectrometry (FAAS). The mean soil Cd concentration (1.34 mg/kg) exceeded the Swiss VBBo 0.8 mg/kg threshold and the United Kingdom 1 mg/kg maximum allowable limit cited by the authors; the mean soil Pb concentration (14.23 mg/kg) fell below the Swiss VBBo 50 mg/kg threshold. Across the 50-sample vegetable panel, 48 % of samples exceeded the FAO/WHO 0.1 mg/kg dry-weight Cd maximum permissible limit for vegetables and 75 % exceeded the corresponding 0.3 mg/kg Pb limit. The paper does not break out which vegetable species were sampled, the per-species sample sizes, or any replicate structure; species-level interpretation is therefore not possible from the published text.
 
 ## Key numbers
@@ -102,7 +104,7 @@ This source contributes Iranian agricultural-land occurrence data for total Cd a
 ## Verification notes
 
 - **Identity checks.** DOI grep (`10.1051/e3sconf/20130110003`), raw_handle grep (`MFK_salehi2013`), and cite-key prefix grep (`salehi2013`) against `wiki/sources/` all returned zero hits prior to ingest. NEW path applied.
-- **Frontmatter discipline.** All ingredient, metal, matrix, and jurisdiction slugs verified against the 2026-05-18 taxonomy snapshot. The metals abbreviation vocabulary uses `Cd` and `Pb` per CLAUDE.md Part 14. The paper does not enumerate which vegetable species were sampled, so the ingredients array uses the broadest accurate slug `vegetables` rather than overspecified species-level slugs; per CLAUDE.md Part 5b the routing layer fans broad scopes out to sibling pages, so overspecification would be a defect. The products array is empty: the paper reports agricultural-field contamination of unsold vegetables, not a market-form or processed-product survey, and no product-form descriptor in the current taxonomy maps to "field-harvested mixed vegetables of unspecified species."
+- **Frontmatter discipline.** All ingredient, metal, matrix, and jurisdiction slugs verified against the 2026-05-18 taxonomy snapshot. The metals abbreviation vocabulary uses `Cd` and `Pb`. The paper does not enumerate which vegetable species were sampled, so the ingredients array uses the broadest accurate slug `vegetables` rather than overspecified species-level slugs; the routing layer fans broad scopes out to sibling pages, so overspecification would be a defect. The products array is empty: the paper reports agricultural-field contamination of unsold vegetables, not a market-form or processed-product survey, and no product-form descriptor in the current taxonomy maps to "field-harvested mixed vegetables of unspecified species."
 - **Speciation discipline (Part 14).** FAAS quantifies total elemental Cd and Pb. The `metals:` field uses `Cd` and `Pb`. No As, Hg, Cr, Ni, or other metals reported by the paper.
 - **Basis.** Vegetable Cd and Pb concentrations are reported on a dry-weight basis per the authors' explicit comparison against the FAO/WHO 0.1 mg/kg Cd and 0.3 mg/kg Pb dry-weight maximum permissible limits for vegetables and fruits (Results and discussion prose, p. 2). The soil concentrations are reported in mg/kg with the moisture basis not explicitly stated; standard FAAS soil protocols (Allen et al. 1986) work on air- or oven-dried sieved samples, so the soil values are read as dry-weight equivalents absent contrary indication.
 - **Brand firewall (Part 12).** The paper names no commercial vegetable brands, no producer brands, and no commercial product lines. No brand-firewall edits required. Industrial-source attributions ("steel and cement-making factories and lead mining") are reported as the paper publishes them; no plant-operator name attribution.
@@ -119,7 +121,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
-| [f5acbbf5b](https://github.com/paleofoundation/heavymetalindex/commit/f5acbbf5b) | 2026-06-01 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kim et al. (year unknown) — Ultra-trace minerals in commercial dry dog foods: Cr, Ni, Mo, Si, Al
 
+## Overview
+
 Forty-nine commercially available dry dog foods from US retail outlets were analyzed for chromium, nickel, molybdenum, silica, and aluminum by ICP-AES (Thermo Scientific iCAP 6500) at the USDA Robert Holley Center for Agriculture and Health, Ithaca, NY. Results were expressed per megacalorie (Mcal) of metabolizable energy and compared to WHO average daily human intake values. Chromium, molybdenum, and aluminum concentrations in all dog foods were above average human daily consumption on a caloric basis. Nickel and silica were comparable to human intake patterns, with outliers exceeding twice the upper range of human daily intake. No evidence of potential chronic toxic exposure was found based on presumptive intake extrapolated from WHO toxic intake concentrations. A wide range of silica intake (2.96-83.67 mg/1,000 kcal) may have implications for dogs prone to silica urolithiasis.
 
 ## Key numbers
@@ -59,6 +61,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [6b2cd85b9](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85b9) | 2026-05-12 | major | 4 sections added; narrative text revised |

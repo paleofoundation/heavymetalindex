@@ -33,6 +33,8 @@ updated: 2026-06-08
 
 # David et al. 2008 — Heavy metals in canned tomato paste (Romania)
 
+## Overview
+
 This Romanian study measured eight heavy metals (Cr, Fe, Pb, Cd, Sn, Al, Zn, As) in five commercially available canned and plastic-packaged tomato paste and tomato-sauce products sourced from the Romanian retail market, using atomic absorption spectrometry and cyclic voltammetry, to evaluate packaging-related contamination risk. The authors conclude that tin (Sn) and aluminium (Al) exceeded legally admitted Romanian concentrations in metal-canned products, particularly the Italian imports. Cadmium reached its highest measured value in one of the Italian metal-canned sauces (0.111 ppm), and lead reached an anomalously high value in the same sample (2.10 ppm) that exceeds typical EU limits for processed tomato products though the authors do not flag it explicitly. Total arsenic was below the limit of detection in all samples. The study highlights the metal-can packaging pathway, especially weld-seam migration, as a significant contamination vector for Sn, Fe, and Al in acidic tomato products, consistent with acid-driven leaching from tin-plate cans.
 
 ## Key numbers
@@ -95,9 +97,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [095765ff2](https://github.com/paleofoundation/heavymetalindex/commit/095765ff2) | 2026-06-08 | minor | Narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [4130c7eaa](https://github.com/paleofoundation/heavymetalindex/commit/4130c7eaa) | 2026-05-20 | minor | Narrative text revised |
-| [11483b016](https://github.com/paleofoundation/heavymetalindex/commit/11483b016) | 2026-05-20 | major | 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

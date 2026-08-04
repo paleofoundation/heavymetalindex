@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Cherry 2019 - Edible seaweeds risks and benefits
 
+## Overview
+
 Cherry and colleagues reviewed edible seaweeds as food, functional-food ingredients, and nutraceutical inputs, balancing proposed nutritional benefits against safety concerns. The source is secondary evidence and does not generate new contaminant measurements. Its heavy-metal section is mainly useful for seaweed arsenic/speciation context and for identifying food and supplement monitoring needs.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
 | [9d7d304f5](https://github.com/paleofoundation/heavymetalindex/commit/9d7d304f5) | 2026-06-08 | major | 4 sections added; narrative text revised |

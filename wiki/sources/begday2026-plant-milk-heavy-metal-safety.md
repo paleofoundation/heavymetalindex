@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Begday et al. 2026 — Heavy metals in plant-milk alternatives on the Russian market
 
+## Overview
+
 Begday and colleagues at North-Caucasus Federal University in Stavropol' measured lead, cadmium, zinc, and copper in eight plant-based milk beverages distributed in or producible from Russian-market raw materials: four commercial ready-to-drink beverages (one almond, one rice, one coconut, one oat) purchased at a Russian retail chain, and four laboratory-prepared beverages produced from mature buckwheat groats, green buckwheat groats, oat flakes, and long-grain rice via a standardized soak-and-filter protocol. All eight samples fell well below Russian SanPiN 42-123-4089-86 maximum permissible concentrations (MPCs) for the four metals, with the highest reported value (lead at 0.053 mg/kg in mature-buckwheat-groat milk) reaching only 10.6 percent of the 0.5 mg/kg lead MPC. Cadmium was non-detected in all four laboratory-prepared samples but was quantified in all four commercial beverages (0.0068 to 0.0108 mg/kg). The authors computed hazard quotients (HQ) for adults (70 kg, 120 kg beverage/year) and children (31 kg, 137.4 kg beverage/year) against EPA 2021 reference doses; per-metal HQs ranged from 0.000004 to 0.00874 and total HQ sums per beverage ranged from 0.00061 to 0.0062, all well below the threshold of 1 that would indicate non-carcinogenic concern.
 
 ## Key numbers
@@ -133,7 +135,7 @@ Courses: Useful for illustrating (a) the structural difference between commercia
 
 The source paper is in Russian with an English-language abstract, keywords, table captions, author affiliations, and full references list. All numerical data extracted to this page were read from the bilingual table captions (Tables 1, 2, 3) and the Russian Results section text, cross-checked against the English abstract's summary statements. The Cyrillic-only narrative sections were translated for context; no numerical values were drawn from translation, only from the bilingual tables.
 
-The commercial samples are reported in the source under Russian-language brand names: «Овсяша» (almond and coconut), «Здоровое меню» (rice), and «Nemoloko» (oat), all purchased at the «Перекресток» supermarket chain. Per CLAUDE.md Part 12 brand-firewall strict reading (locked 2026-05-17), this page reports each commercial sample by product-form descriptor only ("commercial almond beverage (Russian retail)" etc.) and does not name the brands. The single-brand-per-product-type structure of the source's commercial sampling means the product type is the natural descriptor; this is not a brand-by-brand ranking situation (which would be a Part 12 violation) but a brand-attributed single-observation situation (which is converted to a product-form description without information loss for wiki purposes).
+The commercial samples are reported in the source under Russian-language brand names: «Овсяша» (almond and coconut), «Здоровое меню» (rice), and «Nemoloko» (oat), all purchased at the «Перекресток» supermarket chain. Per brand-firewall strict reading (locked 2026-05-17), this page reports each commercial sample by product-form descriptor only ("commercial almond beverage (Russian retail)" etc.) and does not name the brands. The single-brand-per-product-type structure of the source's commercial sampling means the product type is the natural descriptor; this is not a brand-by-brand ranking situation (which would be a Part 12 violation) but a brand-attributed single-observation situation (which is converted to a product-form description without information loss for wiki purposes).
 
 The laboratory-prepared samples used Russian-brand grain inputs («Националь» Hercules oat flakes, «Увелка» green buckwheat groats sort 1 and mature buckwheat groats sort 1, «Бакалейный стандарт» long-grain rice sort 2). These are raw-material grain brands feeding a lab preparation, not branded beverages, and are likewise reported on this page by grain-form descriptor only ("oat flakes," "green buckwheat groats," "mature buckwheat groats," "long-grain rice") without brand attribution. The source notes all grain inputs carried GOST certification and "without GMO" labeling.
 
@@ -156,8 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [ca8031044](https://github.com/paleofoundation/heavymetalindex/commit/ca8031044) | 2026-06-08 | minor | Narrative text revised |
-| [a74b96c98](https://github.com/paleofoundation/heavymetalindex/commit/a74b96c98) | 2026-06-08 | major | 9 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -26,6 +26,8 @@ sampling_year_range: "2020"
 updated: 2026-06-04
 ---
 
+## Overview
+
 Martín-León and colleagues (2021) measured cadmium, lead, total mercury, and nitrate in 72 edible algae samples marketed in Tenerife (Canary Islands, Spain), partitioning species by declared geographic origin into an Asian-sourced group (Japan, Korea) and a European-sourced group (Galicia, Spain). Metals were quantified by graphite-furnace and cold-vapor atomic absorption spectrophotometry after microwave acid digestion; nitrate by ion chromatography. Cadmium concentrations were notably higher in Asian-sourced algae, with hijiki (1.196 mg/kg dry weight) and nori (1.005 mg/kg dw) the highest species means in the dataset. Lead was highest in Asian-sourced wakame (0.119 mg/kg dw). Total mercury was highest in European-sourced arame (0.055 mg/kg dw). Nitrate concentrations exceeded 8000 mg/kg in some nori samples and reached a maximum of 6400 mg/kg in kombu; mean nitrate in kombu (3084 mg/kg) and nori (3183 mg/kg) was within the 6000–7000 mg/kg range that EU Regulation 1258/2011 sets as the maximum for rocket/arugula, the leafy vegetable category nearest to seaweed for nitrate regulatory comparison (seaweed itself is not regulated for nitrate). The authors compute estimated daily intake at the manufacturer's recommended 4 g/day dry-seaweed consumption and a mean Spanish adult body weight of 68.48 kg; under those assumptions, no analyte exceeds its EFSA tolerable weekly intake or benchmark dose for adult consumers, with the highest contributions coming from Asian hijiki Cd (19.6% of TWI) and Asian nori Cd (16.4% of TWI).
 
 ## Key numbers
@@ -129,7 +131,7 @@ The 4 g/day exposure assumption is the manufacturer's recommended portion size f
 
 - Fresh ingest 2026-06-04 from KADC manual-fetch folder `05_Kelp_Seaweed_Canned`. No prior wiki source page existed for this DOI, raw_handle, or cite-key (three identity checks clean).
 - License: CC BY 4.0 per the MDPI Applied Sciences publisher boilerplate on page 1 of the PDF. DOI 10.3390/app11156934 verified against the publisher footer.
-- Speciation discipline (CLAUDE.md Part 14): the paper measures total Hg by CV-AAS and reports it as a single concentration value per species. Table 6's two %TWI columns ("Hg (Org.)" and "Hg (Inorg.)") apply the same total-Hg measurement against two different EFSA TWIs; they are not separate methylmercury / inorganic-Hg measurements. Frontmatter `metals:` therefore records `tHg`, not `MeHg`. The body table preserves the source's column labels and adds an explicit note that both columns derive from the same total-Hg measurement.
+- Speciation discipline: the paper measures total Hg by CV-AAS and reports it as a single concentration value per species. Table 6's two %TWI columns ("Hg (Org.)" and "Hg (Inorg.)") apply the same total-Hg measurement against two different EFSA TWIs; they are not separate methylmercury / inorganic-Hg measurements. Frontmatter `metals:` therefore records `tHg`, not `MeHg`. The body table preserves the source's column labels and adds an explicit note that both columns derive from the same total-Hg measurement.
 - Arsenic was not measured in this study; frontmatter omits both `tAs` and `iAs`.
 - Brand firewall (Part 12): no commercial brand names attached to contamination values appear in the paper's results tables. The instrument vendors (PerkinElmer, Anton Paar, Waters), reference-material providers (BCR, NIST), and statistical software (GraphPad) named in the methods section are scientific-reproducibility vendor names, permitted under Exception 2 (Part 12 strict reading, 2026-05-17).
 - Wiki/HMTc firewall (Part 2): the paper's MoE and %TWI/%BMDL/%ADI calculations are reported as the authors compute them (against EFSA reference values), not converted into HMTc threshold suggestions. The Implications section describes occurrence-channel contributions to seaweed-kelp-foods, not HMTc thresholds.
@@ -147,7 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
-| [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 4 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

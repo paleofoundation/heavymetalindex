@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fragrance-preparations",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e5df62a5c462584abf637dc3cd6140310d5bfe992306ed5d12d7d120e500c63f",
-      "content_bytes": 9821,
-      "last_commit_sha": "50de6ab21",
-      "last_commit_date": "2026-07-27",
+      "content_sha256": "304f4f47cda495f710006642f84b5d80bbd1c763d827117af6976eaf3490342c",
+      "content_bytes": 9985,
+      "last_commit_sha": "3a67e1307",
+      "last_commit_date": "2026-08-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 50de6ab21:wiki/products/fragrance-preparations.md | sha256sum"
+      "verify_command": "git show 3a67e1307:wiki/products/fragrance-preparations.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alblooshi2025-perfumes-cosmetics-health-review",
         "content_pin": {
-          "content_sha256": "1511239e155ac3476bb32684c3bc68f8879215ce4ba9b92e59a57efafc43e432",
-          "content_bytes": 14838,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "b67cd825dafd7b02376ea8324b2bbb87d5aa2109e4d4cbbc79cc121b8078096c",
+          "content_bytes": 15033,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
         }
       },
       {
@@ -85,12 +85,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "aecafb2cfaebc53625580f89ab4329ff414d2e77558fb43a3fce89b3a7d4c90e",
-          "content_bytes": 20847,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "e444836cbe408d7c03efaa1554a206a0d2d324406736dc0be749773e5ce21c40",
+          "content_bytes": 20933,
+          "last_commit_sha": "3a67e1307",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show 3a67e1307:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "3fd2e0164f5c1247cda2385a82de33a253b42992d52222326aba7f971cb40018",
-          "content_bytes": 31174,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "d2763ab27f1d51f10ee5d74c9c4d3fd00bd0fc31183e0483f1d28f1c8dbf091f",
+          "content_bytes": 31350,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       },
       {
@@ -128,12 +128,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yorgwara2026-personal-care-metals-nigeria",
         "content_pin": {
-          "content_sha256": "587abd187f1ab870e74305bf0cdc66c542220be1c3c7bd0784af1389c7a1a2d2",
-          "content_bytes": 10024,
-          "last_commit_sha": "50de6ab21",
-          "last_commit_date": "2026-07-27",
+          "content_sha256": "ee6cc309ef172857a37ba96116d31855a600884883dd34da43db1e6d3c8b5bf1",
+          "content_bytes": 10721,
+          "last_commit_sha": "3171d069e",
+          "last_commit_date": "2026-08-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 50de6ab21:wiki/sources/yorgwara2026-personal-care-metals-nigeria.md | sha256sum"
+          "verify_command": "git show 3171d069e:wiki/sources/yorgwara2026-personal-care-metals-nigeria.md | sha256sum"
         }
       }
     ]

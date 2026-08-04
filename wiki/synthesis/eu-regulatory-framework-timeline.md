@@ -14,6 +14,8 @@ updated: 2026-05-18
 
 # EU heavy-metals regulatory framework timeline (2001-2023 and beyond)
 
+## Overview
+
 The European Union's enforceable heavy-metal maximum levels in foodstuffs have evolved through six major regulatory instruments since 2001, each building on its predecessor with tighter limits, new analyte coverage, or recalibration to updated EFSA scientific opinions. Source pages in the wiki citing EU regulatory caps cite different points along this timeline depending on publication year; this synthesis maps the timeline so citation work doesn't fall through cracks.
 
 Every wiki source page in the wiki that names an "EU maximum level" for Pb, Cd, Hg, iAs, or Sn in food traces to one of the six instruments below. When working downstream from a source citation, identify which point in the timeline the source's regulatory comparison anchors against; this matters because the limits changed substantially between framework versions, and a paper citing "the EU 0.1 mg/kg Pb limit for infant foods" may be referencing the EC 1881/2006 value, the 2021/1317 amendment value, or the 2023/915 recast value — each requires the matching regulation page citation.
@@ -100,9 +102,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed; narrative text revised |
+| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
+| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 | [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
-| [57c298553](https://github.com/paleofoundation/heavymetalindex/commit/57c298553) | 2026-05-28 | minor | Narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [49bebbcc6](https://github.com/paleofoundation/heavymetalindex/commit/49bebbcc6) | 2026-05-18 | major | 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

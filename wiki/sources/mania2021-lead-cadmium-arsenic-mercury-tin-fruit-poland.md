@@ -27,6 +27,8 @@ updated: 2026-05-20
 
 # Mania et al. 2021 — Lead, cadmium, arsenic, mercury, and tin in Polish fruit and fruit products (2015 monitoring)
 
+## Overview
+
 This paper reports results from a 2015 Polish national monitoring program, analyzing approximately 600 samples across multiple fruit categories (fresh, frozen, dried, preserved, and canned) for Pb, Cd, As (total), Hg (total), and Sn (canned products only). Contamination levels were generally low, broadly comparable to other EU member states, and estimated dietary exposures for all five elements were below EFSA and JECFA tolerable doses for both adults and children. The highest single-sample values were Pb in dried raisins from Iran (0.150 mg/kg) and Sn in canned pears from China (206 mg/kg, still below the EU ML of 250 mg/kg for canned fruit). At 90th-percentile (MB) contamination of fresh fruits, children's lead intake reached 31.5% of the BMDL₀₁ for neurotoxicity.
 
 ## Key numbers
@@ -105,8 +107,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [12ae91282](https://github.com/paleofoundation/heavymetalindex/commit/12ae91282) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
-| [ba9b2540f](https://github.com/paleofoundation/heavymetalindex/commit/ba9b2540f) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

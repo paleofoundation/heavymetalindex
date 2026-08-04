@@ -29,6 +29,8 @@ updated: 2026-06-02
 
 # Jalal, da Silva Oliveira, Rosa, Galindo & Teixeira Filho 2023 — Plant growth-promoting microorganisms mitigating climatic-extreme abiotic stresses (narrative review)
 
+## Overview
+
 This MDPI *Life* review synthesises laboratory, greenhouse, and field evidence on how plant growth-promoting rhizobacteria (PGPB, including *Azospirillum*, *Bradyrhizobium*, *Pseudomonas*, *Bacillus*, *Enterobacter*, *Burkholderia*, *Pantoea*, *Rhizobium*, *Serratia*, *Arthrobacter*, *Microbacterium* spp. and others) and plant growth-promoting fungi (PGPF, including arbuscular mycorrhizal fungi *Glomus / Funneliformis / Rhizophagus*, *Trichoderma*, *Penicillium*, *Aspergillus* spp.) ameliorate the impact of climatic-extreme abiotic stresses on cereal, legume, oilseed, vegetable, and forage crops. The abstract (page 1) groups the stresses into six categories — "drought, salinity, heavy metals, flooding, extreme temperatures, and intense light" — and the body splits "extreme temperatures" into separate high-temperature (Section 5) and low-temperature (Section 6) sections, yielding seven body chapters: drought, salinity, heavy metals, high temperature, low temperature, flooding/oxygen deficit, and intense light. The paper is a narrative review with no independent measurements, no primary data extraction, and no quantitative meta-analysis; tabular entries in Tables 1–3 are microorganism / stress / host-plant pairings catalogued from cited primary studies rather than occurrence values. It is ingested as an out-of-core-scope agronomic-mitigation-context reference following the [[sources/asgher2023-selenium-heavy-metal-stress-plants]] and [[sources/bae2018-absorbent-hygiene-pads-safety-review]] precedent for methodology / context reviews without primary metal-occurrence data; `metals: []`, `ingredients: []`, and `products: []` are correct because the paper contributes no measured contamination values to any HMI ingredient, product, or metal page. The heavy-metals section (Section 4, pages 7–8, and Table 2) is potentially useful as a starting point for a future HMI mitigation-lever entry on microbial bioremediation / phytostabilisation / phytoextraction / phyto-volatilisation as a soil-side intervention to reduce heavy-metal uptake into crops, but each specific mechanistic or quantitative claim should be sourced from its underlying primary citation rather than from this tertiary review.
 
 ## Key numbers
@@ -137,6 +139,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | minor | Narrative text revised |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 2 sources added; 7 sections added; narrative text revised |

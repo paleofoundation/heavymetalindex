@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Ibrahim et al. 2024 — Heavy metals in Egyptian raw milk and cheese
 
+## Overview
+
 This Egyptian survey measured seven metals (Pb, Cd, Hg, As, Cu, Fe, Zn) in 100 raw bovine milk samples and 100 cheese samples (three traditional Egyptian varieties: Karish, Domiati, and Ras) collected from Alexandria and Cairo in winter 2021 using flame atomic absorption spectroscopy (AAS). The study found that 46% of raw milk samples exceeded the Egyptian regulatory limit for lead, and 4% exceeded the limit for cadmium. Lead concentrations were highest in Ras cheese, followed by Domiati, Karish, and raw milk in descending order. Mercury and arsenic were detected in subsets of samples. The findings raise food safety concerns given the widespread consumption of these traditional dairy products in Egyptian households.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

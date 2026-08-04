@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Li et al. 2024 — Global fishing patterns and methylmercury exposure (PNAS)
 
+## Overview
+
 This PNAS modeling study combined high-resolution global fisheries catch data for 1,774 species with an empirically constrained spatial model of seafood MeHg concentrations to estimate the mass and geographic distribution of MeHg extracted from the ocean. Catch-weighted MeHg concentrations varied over two orders of magnitude (range: 0.004–1.7 µg/g wet weight; geometric mean: 0.13 µg/g wet weight) and were highest in tropical and subtropical regions where large pelagic species (tuna, swordfish, sharks) are harvested. Tropical and subtropical fisheries account for over 70% of MeHg extracted from the ocean, driven by the combination of large harvest biomass of high-trophic-level species and higher bioavailable Hg at the base of tropical food webs. The study estimates that 84–99% of subsistence fishing entities globally likely exceed MeHg exposure thresholds based on typical subsistence fish consumption rates.
 
 ## Key numbers
@@ -69,6 +71,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [0562446e9](https://github.com/paleofoundation/heavymetalindex/commit/0562446e9) | 2026-05-13 | major | 4 sections added; narrative text revised |

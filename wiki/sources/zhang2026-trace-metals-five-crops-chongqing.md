@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Zhang et al. 2026 — Trace metal contamination in five crops near a manganese mining area in Chongqing, China
 
+## Overview
+
 Zhang and colleagues measured nine trace metals (Mn, Cd, Cu, Zn, Ni, Pb, As, Cr, Sb) in roots, stems, leaves, shells, and edible grain/tuber portions of five crops (rice, maize, peanut, soybean, sweet potato) grown near an active manganese mining and smelting area in Xiushan County, Chongqing. Rice showed the highest accumulation of As and Cr in edible grain portions among the five crops, with grain-specific As concentration of 0.2944 ± 0.0132 mg/kg (294 ppb) and Cr of 1.9800 ± 0.1682 mg/kg (1,980 ppb, exceeding China's GB 2762-2017 limit of 1,000 ppb for total Cr in grain). Health risk assessment found Cr-THQ of 3.09 (adults) and As-THQ of 10.72 (children), indicating potential chronic risk for children consuming locally-grown rice, driven by high rice intake combined with the elevated As and Cr levels in this mining-affected area.
 
 ## Key numbers
@@ -83,6 +85,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [98e0e7c8c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c8c) | 2026-05-13 | major | 4 sections added; narrative text revised |

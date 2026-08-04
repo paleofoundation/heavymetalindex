@@ -27,6 +27,8 @@ updated: 2026-05-13
 
 # Czech et al. 2021 — Lead and cadmium in whole citrus fruits, peel, and pulp from European retail
 
+## Overview
+
 This study measured lead (Pb) and cadmium (Cd) in the pulp, peel, and whole fruit of eight citrus species and cultivars purchased at a supermarket in Poland (originating from Turkey and Israel) using ICP-OES. The study compared heavy metal content across fruit fractions (peel contains higher metal concentrations than pulp) and evaluated whether use of whole citrus fruits in food processing would raise heavy metal intake to unsafe levels. Results: Pb in whole fruits ranged from 1.00 µg/100g (orange, mandarin) to 2.72 µg/100g (red grapefruit); Cd in whole fruits ranged from 0.023 µg/100g (key lime) to 0.131 µg/100g (white grapefruit). Peel contained significantly higher Pb and Cd than pulp for most varieties. The authors conclude that heavy metal levels in whole citrus fruits, while higher than in pulps, were well below the acceptable daily intake values. This study provides occurrence data for Pb and Cd in retail citrus fruits from European markets, with the key finding that peel use in whole-fruit processing products (jams, juices, nectars) increases heavy metal intake relative to pulp-only products.
 
 ## Key numbers
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [05433b89a](https://github.com/paleofoundation/heavymetalindex/commit/05433b89a) | 2026-05-13 | major | 4 sections added; narrative text revised |

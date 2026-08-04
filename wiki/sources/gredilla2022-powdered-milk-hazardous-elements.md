@@ -28,6 +28,8 @@ updated: 2026-05-19
 
 # Gredilla et al. 2022 - hazardous elements in powdered milks
 
+## Overview
+
 This study measured 27 elements in 12 powdered milk formulas from Brazil and Colombia, including initiation, follow-up, follow-on, and adult powdered milks. It is direct occurrence and risk-assessment context for infant/child powdered milks, although the paper reports some statistics across the whole 12-sample milk set rather than only infant formulas.
 
 ## Key numbers
@@ -126,6 +128,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [aecfcae63](https://github.com/paleofoundation/heavymetalindex/commit/aecfcae63) | 2026-05-19 | major | 5 sections added; narrative text revised |

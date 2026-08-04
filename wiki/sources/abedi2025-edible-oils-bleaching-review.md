@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # Abedi et al. 2025 - Emerging versus conventional bleaching methods for edible oils
 
+## Overview
+
 Abedi and colleagues review industrial oil bleaching (IB) and four emerging alternatives — ultrasound-assisted bleaching (UAB), high-voltage electric field-assisted bleaching (HVAB), microwave-assisted bleaching (MWAB), and membrane-assisted bleaching (MAB) — across pigment removal, sterol and tocopherol retention, oxidative indices, heavy metals removal, clay consumption, and adsorption kinetics and thermodynamics. Heavy-metal-relevant content is confined to four short subsections (one per bleaching technology) plus scattered table entries. The authors summarise that bleaching clays remove trace metals (notably Fe, Cu, and a broader set including Pb, Cd, Ni, Cr, Co, Al) from crude vegetable oils by adsorption, that higher temperatures and ultrasonic or electric-field assistance enhance the metal-removal efficiency relative to conventional bleaching, and that incomplete neutralisation upstream can leave residual Ca, Mg, Pb, and P in the bleached oil. The review reports no original measurements and presents no occurrence distributions for heavy metals in finished retail edible oils.
 
 ## Key numbers
@@ -148,8 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [89442659c](https://github.com/paleofoundation/heavymetalindex/commit/89442659c) | 2026-06-02 | minor | Narrative text revised |
-| [bfd34e4df](https://github.com/paleofoundation/heavymetalindex/commit/bfd34e4df) | 2026-06-02 | major | 12 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

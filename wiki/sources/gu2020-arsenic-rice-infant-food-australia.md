@@ -30,6 +30,8 @@ updated: 2026-06-08
 
 # Gu et al. 2020 — Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia
 
+## Overview
+
 This A-tier peer-reviewed paper measures total arsenic (tAs) and inorganic arsenic (iAs) in 39 rice-based infant food products from the Australian market across four product categories: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12), and rice crackers (n=21). Non-rice comparators (n=3 non-rice milk powder; n=3 wheat pasta) were analyzed in parallel for tAs only. Author scope is exact on matrix axis (rice-based vs non-rice comparator) and exact on format axis per the four sub-product categories. The paper reports that nearly 75% of samples had iAs exceeding the EU maximum level of 0.1 mg/kg for infants and children, and the mean iAs proportion of tAs reached as high as 84.8% in rice pasta. The paper also reports tAs–rice-content correlations, brown-vs-white-rice differentials, country-of-origin patterns, and dietary-exposure estimates for 9-month-old infants and 2–5-year-old children.
 
 ## Key Numbers
@@ -168,9 +170,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [1be66b2f4](https://github.com/paleofoundation/heavymetalindex/commit/1be66b2f4) | 2026-06-08 | major | 2 sections added and 1 removed; narrative text revised |
 | [e22dea419](https://github.com/paleofoundation/heavymetalindex/commit/e22dea419) | 2026-06-08 | major | 3 sections added and 1 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1b628b2bd](https://github.com/paleofoundation/heavymetalindex/commit/1b628b2bd) | 2026-05-09 | major | 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

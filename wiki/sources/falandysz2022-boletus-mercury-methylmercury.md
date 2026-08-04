@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Falandysz et al. 2022 - Total mercury and methylmercury in crude and braised Boletus edulis
 
+## Overview
+
 This study measured total mercury and methylmercury in Boletus edulis carpophores across four developmental stages and after braising. Crude mushrooms contained 0.1880 to 0.2929 mg/kg wet weight total Hg, while braised mushrooms contained 0.2668 to 0.5434 mg/kg wet weight total Hg. Methylmercury made up a small fraction of total Hg, but the source is directly relevant because it speciates MeHg and reports both raw and cooked food forms.
 
 ## Key numbers
@@ -69,6 +71,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [5f7a7150d](https://github.com/paleofoundation/heavymetalindex/commit/5f7a7150d) | 2026-07-29 | major | 6 sections added; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 5 sections removed; narrative text revised |
 | [6661f4696](https://github.com/paleofoundation/heavymetalindex/commit/6661f4696) | 2026-06-09 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

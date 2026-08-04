@@ -28,6 +28,8 @@ updated: 2026-05-13
 
 # Prasanna et al. 2025 — Metal pollution in the Betwa-Yamuna river system, India
 
+## Overview
+
 This study characterizes heavy metal contamination in the Betwa-Yamuna river system in central India, using monthly sampling over a full annual cycle (June 2023–May 2024) and probabilistic Monte Carlo health risk modeling. Metals measured include As, Pb, Cd, Cu, Fe, Mn, Mo, Ni, and Zn. Arsenic ranged 0.001–0.011 mg/L and lead 0.0004–0.012 mg/L in sampled waters. The Monte Carlo hazard index (HI) for children exceeded 1.0 in approximately 67% of simulation runs, indicating probable non-cancer risk exceedance for pediatric populations relying on this water source. The study illustrates how a combination of agricultural runoff and upstream industrial activity elevates multi-metal contamination in major Indian river systems.
 
 ## Key numbers
@@ -58,6 +60,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [b23e81a00](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a00) | 2026-05-13 | major | 4 sections added; narrative text revised |

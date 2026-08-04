@@ -30,6 +30,8 @@ updated: 2026-06-02
 
 # BfR MEAL Study Final Report — Germany's first Total Diet Study (2023)
 
+## Overview
+
 This is the umbrella final report of the BfR MEAL Study (Mahlzeiten für die Expositionsschätzung und Analytik von Lebensmitteln — "meals for exposure assessment and analysis of foods"), Germany's first Total Diet Study (TDS), published as a BfR Science Report on 28 July 2023. The report documents the design, implementation, quality assurance, and use of the MEAL data set; analyte-specific concentration tables and exposure assessments are published in companion peer-reviewed articles and BfR opinions/communications, several of which already have wiki source pages (Fechner et al. 2022 for Hg, Cd, Pb, Ni; Sarvan et al. 2021 for MeHg in fish; Hackethal et al. 2021 for inorganic arsenic and arsenic species; BfR Communication 033/2022 for the Ni intake assessment; BfR Opinion 023/2024 for the MeHg fish risk assessment). The final report is the methodology and programmatic source-of-record for that data set; for HMI's purposes, it documents the sample basis, analytical scope, and limit-of-quantification regime that the companion publications draw from, and it lists the EU maximum-level exceedances identified across the entire study.
 
 The report is distinct from the four MEAL-derived sources already in the corpus: `fechner2022-bfr-meal-hg-cd-pb-ni-germany.md` (Hg, Cd, Pb, Ni paper), `bfr2022-nickel-dietary-intake-germany-meal.md` (Ni communication 033/2022), `bfr2024-methylmercury-fish-seafood-germany.md` (MeHg fish opinion), and `hopfner2025-infant-formula-dietary-exposure-germany.md` (infant formula exposure paper). All four reuse occurrence data documented in this final report.
@@ -110,8 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [566c7b2fc](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2fc) | 2026-06-02 | major | 1 section added |
 | [b98b453cb](https://github.com/paleofoundation/heavymetalindex/commit/b98b453cb) | 2026-06-02 | minor | Narrative text revised |
-| [96ca688f8](https://github.com/paleofoundation/heavymetalindex/commit/96ca688f8) | 2026-06-02 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

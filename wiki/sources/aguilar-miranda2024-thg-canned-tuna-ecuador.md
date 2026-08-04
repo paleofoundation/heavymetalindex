@@ -29,6 +29,8 @@ updated: 2026-05-18
 
 # Aguilar-Miranda et al. 2024 - Total mercury in canned tuna sold in Quito, Ecuador
 
+## Overview
+
 Aguilar-Miranda et al. measured total mercury (tHg) in 60 cans of tuna in water purchased from supermarkets in the Metropolitan District of Quito, Ecuador. The study sampled three anonymized coded product groups, 20 cans per group, between March 2022 and March 2023. Mercury was quantified by cold-vapor atomic fluorescence spectrometry after freeze-drying and microwave-assisted acid digestion. The authors measured tHg only; they did not speciate methylmercury (MeHg) or inorganic mercury. For the exposure assessment, they followed the US EPA fish-advisory convention of treating measured tHg as MeHg.
 
 The overall tHg range was 0.02-1.98 mg/kg wet weight. One sample in the intermediate-price coded group reached 1.98 mg/kg and another sample in the same coded group reached 1.0 mg/kg. The authors state that 96.7% of samples were below the national and international threshold limits they cite. The source uses anonymized group codes rather than public brand names; this page preserves those codes only as non-identifying sample strata and does not name or rank sampled manufacturers.
@@ -107,9 +109,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [222c02867](https://github.com/paleofoundation/heavymetalindex/commit/222c02867) | 2026-05-19 | minor | Narrative text revised |
-| [50058fb99](https://github.com/paleofoundation/heavymetalindex/commit/50058fb99) | 2026-05-18 | major | 5 sections added and 2 removed; narrative text revised |
-| [fd884aa17](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa17) | 2026-05-13 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

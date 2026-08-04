@@ -28,6 +28,8 @@ updated: 2026-06-09
 
 # Neuwirth et al. 2022 — Cereal and Juice, Lead and Arsenic: A Call for FDA Re-Evaluation
 
+## Overview
+
 Opinion paper in IJERPH arguing the FDA should tighten allowable limits of Pb and As in cereals and juices marketed to infants, toddlers, and children. The authors review pediatric gastrointestinal absorption physiology, summarize contamination findings from third-party surveys (Consumer Reports, Clean Label Project, Healthy Babies Bright Futures) and the FDA Total Diet Study 2006–2013, and propose sequential testing along the manufacturing chain plus surgeon-general-style warning labels. No independent primary contamination data are reported; figures are second-hand from the cited surveys.
 
 ## Key numbers
@@ -74,9 +76,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | Narrative text revised |
 | [82a8a97e0](https://github.com/paleofoundation/heavymetalindex/commit/82a8a97e0) | 2026-06-09 | minor | Narrative text revised |
-| [719327c34](https://github.com/paleofoundation/heavymetalindex/commit/719327c34) | 2026-06-09 | major | 3 sections added and 1 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [1e477bf45](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf45) | 2026-05-12 | major | 3 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

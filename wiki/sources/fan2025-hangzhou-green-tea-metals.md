@@ -30,6 +30,8 @@ updated: 2026-05-20
 
 # Fan et al. 2025 — Heavy metals in green tea from Hangzhou area (n=120, ICP-MS)
 
+## Overview
+
 This study is the most analytically comprehensive recent survey of heavy metals in Hangzhou-area green tea, measuring 15 elements (Al, As, Ba, Cd, Cr, Cu, Hg, Li, Mn, Ni, Pb, Sb, Se, Sn, V) in 120 tea samples by ICP-MS. All 120 samples were below Chinese standard limit values for As, Cd, Cr, Hg (NY659-2003 agricultural industry standard for tea) and Pb (GB2762-2022 national food safety standard). The comprehensive pollution index (P = 0.094) and all single-factor pollution indices were well below 0.7, placing Hangzhou-origin tea in the "safe/clean" classification. Health risk assessment yielded a cumulative hazard index (HI) of 0.42, with Mn the dominant contributor (HQ = 0.40); the study concludes that green tea consumption from this region poses no meaningful health risk.
 
 ## Key numbers
@@ -123,8 +125,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [2d4314033](https://github.com/paleofoundation/heavymetalindex/commit/2d4314033) | 2026-05-20 | major | 2 sections added and 1 removed; narrative text revised |
-| [96966651f](https://github.com/paleofoundation/heavymetalindex/commit/96966651f) | 2026-05-12 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

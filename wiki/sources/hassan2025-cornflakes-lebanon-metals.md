@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Hassan et al. 2025 — Heavy metals in cornflakes from Lebanese retail markets
 
+## Overview
+
 This study measured arsenic, cadmium, chromium, mercury, and lead in 42 commercially sold cornflake products available on the Lebanese market by ICP-MS, comparing results against EU and Codex Alimentarius maximum limits and calculating estimated daily intakes (EDI) and hazard quotients (HQ) for risk assessment. All five metals were detected across samples, with chromium registering the highest mean concentrations, and the authors evaluated both carcinogenic and non-carcinogenic risks for adult and child consumers. The paper provides one of the first occurrence datasets for heavy metals in cornflakes from Lebanon, a country with limited regulatory monitoring infrastructure for cereal contaminants.
 
 ## Key numbers
@@ -73,6 +75,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ffb63b34c](https://github.com/paleofoundation/heavymetalindex/commit/ffb63b34c) | 2026-05-12 | major | 4 sections added; narrative text revised |

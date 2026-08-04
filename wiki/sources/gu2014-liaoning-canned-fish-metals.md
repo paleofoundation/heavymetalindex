@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Gu et al. 2014 — Cd, Cr, Cu, Fe, Pb, Sn, and Zn in canned fish from Liaoning Province
 
+## Overview
+
 Gu and colleagues measured seven metal elements in canned fish purchased from retail outlets in Liaoning Province, China. The analyzed edible portion included muscle and soup from canned mackerel, tuna, sardines, yellow croaker, trichiurus haumela, dace, and anchovy. The source reports wet-weight total elemental concentrations; chromium is total Cr, and tin is elemental Sn rather than organotin speciation.
 
 ## Key numbers
@@ -89,8 +91,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [0e61f6c2f](https://github.com/paleofoundation/heavymetalindex/commit/0e61f6c2f) | 2026-06-09 | minor | Narrative text revised |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [c5c41ddde](https://github.com/paleofoundation/heavymetalindex/commit/c5c41ddde) | 2026-06-08 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

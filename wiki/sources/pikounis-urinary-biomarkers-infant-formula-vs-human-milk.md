@@ -25,6 +25,8 @@ updated: 2026-05-08
 
 # Pikounis, Amann, Jackson, Punshon, Gilbert-Diamond, Korrick, Karagas, Cottingham — Urinary biomarkers of exposure to toxic and essential elements in infants by feeding mode
 
+## Overview
+
 This Environmental Epidemiology original-research paper from the Dartmouth + Brigham/Harvard infant-environmental-health collaboration (Pikounis, Amann, Jackson, Punshon, Gilbert-Diamond, Korrick, Karagas, Cottingham) compares urinary biomarkers of exposure to toxic and essential trace elements in infants fed with human milk versus infant formula. The paper is the most direct U.S. infant-cohort comparison of feeding-mode-stratified biomarker exposure for both toxic (As, Pb, Cd, Hg) and essential (Mn) elements, complementing the dietary-intake-estimate approach used in [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]] with biomarker-validated exposure measurements. Together with the broader Dartmouth infant-As cluster ([[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Jackson 2012]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Carignan 2015]], [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort|Carignan 2016 cohort]]), this paper establishes the U.S. evidence base for the infant-formula-versus-human-milk biomarker case.
 
 ## Key conclusions
@@ -49,6 +51,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [66af802fb](https://github.com/paleofoundation/heavymetalindex/commit/66af802fb) | 2026-05-08 | major | 3 sources added; 3 sections added; narrative text revised |

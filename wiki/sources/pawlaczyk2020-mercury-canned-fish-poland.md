@@ -26,6 +26,8 @@ updated: 2026-06-03
 
 # Pawlaczyk et al. 2020 - mercury in canned fish from Polish retail
 
+## Overview
+
 Pawlaczyk and colleagues measured total mercury in 84 canned fish products (plus seafood comparators and the non-fish packaging matrices) purchased in Lodz, Poland in 2019-2020, using cold-vapor atomic absorption spectrometry on an MA-3000 gold-amalgamation analyzer. The study compared mercury content across fish species, predatory versus non-predatory groupings, country of production, and packaging matrix, and used the standard Burger 1.12 division factor to estimate methylmercury from total mercury for the exposure assessment. None of the 489 individual analytical samples exceeded the EU regulatory ceilings, but tuna - and one Bonito-in-oil product in particular at 336 µg/kg - drove both the highest mean concentrations and the only meaningful share of the modeled tolerable weekly intake.
 
 ## Key numbers
@@ -182,9 +184,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c679df8af](https://github.com/paleofoundation/heavymetalindex/commit/c679df8af) | 2026-06-08 | major | 1 section added |
 | [8707c6671](https://github.com/paleofoundation/heavymetalindex/commit/8707c6671) | 2026-06-05 | major | 1 section removed |
-| [140e84efb](https://github.com/paleofoundation/heavymetalindex/commit/140e84efb) | 2026-06-03 | major | 1 section added |
-| [3934559ea](https://github.com/paleofoundation/heavymetalindex/commit/3934559ea) | 2026-06-03 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

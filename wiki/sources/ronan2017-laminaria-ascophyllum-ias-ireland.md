@@ -26,6 +26,8 @@ sampling_year_range: 2015
 
 # Ronan 2017 — Inorganic vs total arsenic across thallus parts of kelp (L. digitata) and wrack (A. nodosum)
 
+## Overview
+
 Ronan and colleagues measured total arsenic and inorganic arsenic (as As(V)) by ICP-MS and HPLC-ICP-MS across the different thallus parts of two wild Irish brown seaweeds: the kelp *Laminaria digitata* and the intertidal wrack *Ascophyllum nodosum*. Total arsenic was similar between species (36–131 mg/kg dry weight in *L. digitata*, 38–111 in *A. nodosum*), but the inorganic fraction diverged sharply: inorganic arsenic was always below 1% of total in *A. nodosum* (≤0.703 mg/kg DW) yet reached 2.2–87 mg/kg DW in *L. digitata*, rising along the thallus from the stipe to the decaying distal blades and exceeding 50% of total arsenic in the middle, distal, and decaying-distal blades. This establishes that high inorganic arsenic in edible seaweed is not confined to hijiki: kelp harvested from a clean site carried inorganic arsenic an order of magnitude above the French (3 mg/kg) and Australia–New Zealand (1 mg/kg) seaweed limits.
 
 ## Key numbers
@@ -80,8 +82,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [f732e6461](https://github.com/paleofoundation/heavymetalindex/commit/f732e6461) | 2026-06-08 | minor | Narrative text revised |
-| [ab2b5a072](https://github.com/paleofoundation/heavymetalindex/commit/ab2b5a072) | 2026-06-08 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

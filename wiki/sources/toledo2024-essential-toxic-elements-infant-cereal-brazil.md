@@ -35,6 +35,8 @@ updated: 2026-05-18
 
 # Toledo et al. 2024 - Essential and toxic elements in infant cereal, Brazil
 
+## Overview
+
 Toledo et al. (2024) used published concentration data from Pedron et al. to assess cancer and non-cancer risk from essential and toxic elements in Brazilian infant cereals. The occurrence dataset covers 18 infant-cereal samples bought in 2014-2015 across several Brazilian jurisdictions, with three source groupings: rice cereal, multi-grain cereal containing rice, and non-rice-based cereal. The paper's added contribution is the deterministic exposure and risk assessment for infants and toddlers aged 4 to <24 months.
 
 ## Key numbers
@@ -160,8 +162,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [9bd8d48bf](https://github.com/paleofoundation/heavymetalindex/commit/9bd8d48bf) | 2026-05-18 | major | 6 sections added and 10 removed; narrative text revised |
-| [c2f8cfda5](https://github.com/paleofoundation/heavymetalindex/commit/c2f8cfda5) | 2026-05-09 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

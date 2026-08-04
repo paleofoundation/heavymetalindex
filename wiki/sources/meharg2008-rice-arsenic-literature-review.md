@@ -27,6 +27,8 @@ updated: 2026-06-10
 
 # Meharg et al. 2008 - Rice arsenic literature review
 
+## Overview
+
 Meharg and colleagues prepared this Food Standards Agency contract review to summarize total and inorganic arsenic in rice, rice products, and rice-containing infant foods. The report mixes published literature, FSA survey tables, and University of Aberdeen data, so this page treats it as B-tier review and agency-commissioned evidence rather than as one primary market survey. Total arsenic and inorganic arsenic are kept separate throughout; DMA(V) is reported in the source but is not collapsed into inorganic arsenic.
 
 ## Key numbers
@@ -92,6 +94,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [46f81a309](https://github.com/paleofoundation/heavymetalindex/commit/46f81a309) | 2026-06-10 | major | 1 section added; narrative text revised |
 | [5d5a7f89a](https://github.com/paleofoundation/heavymetalindex/commit/5d5a7f89a) | 2026-06-09 | major | 5 sections added; narrative text revised |

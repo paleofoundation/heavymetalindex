@@ -28,6 +28,8 @@ updated: 2026-05-12
 
 # Kim et al. 2026 — Mixed Pb/MeHg/Cd exposure and hippocampal dopamine in mice
 
+## Overview
+
 Fifty male ICR mice were divided into five groups and exposed for 28 days via drinking water to lead (25 mg/L as lead acetate), methylmercury (10 mg/L as methylmercury chloride), cadmium (15 mg/L as cadmium chloride), or all three combined; spatial memory was assessed by the Morris water maze and dopaminergic markers were quantified in hippocampal tissue. The combined-exposure group showed significantly greater spatial memory deficits than any single-metal group, and hippocampal dopamine levels were substantially lower in the combined group, indicating synergistic rather than additive neurotoxicity. Dopaminergic pathway proteins — tyrosine hydroxylase (TH), dopamine transporter (DAT), and dopamine receptors D1 and D2 (DRD1, DRD2) — were all downregulated in the combined group relative to single-metal groups, suggesting convergent disruption of dopamine synthesis, reuptake, and signaling. The study is relevant to the heavy metals-in-food domain because Pb, MeHg, and Cd are the three food-route metals with the highest dietary exposure for vulnerable human populations, and co-exposure is the rule rather than the exception.
 
 ## Key numbers
@@ -65,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [ca2114587](https://github.com/paleofoundation/heavymetalindex/commit/ca2114587) | 2026-05-12 | major | 4 sections added; narrative text revised |

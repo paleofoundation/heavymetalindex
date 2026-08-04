@@ -24,6 +24,8 @@ updated: 2026-06-01
 
 # Falandysz et al. 2021 - Total mercury and methylmercury in crude and braised Boletus edulis
 
+## Overview
+
 Falandysz and colleagues measured total mercury and methylmercury in Boletus edulis fruiting bodies across developmental stages before and after braising. The source is routeable for mushroom mercury because it reports both total Hg and MeHg, separates crude and braised matrices, and reports wet-weight concentration ranges. Braising increased wet-weight Hg and MeHg concentrations because cooking reduced water content, while dry-weight contents decreased.
 
 ## Key numbers
@@ -62,6 +64,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [c3909aad7](https://github.com/paleofoundation/heavymetalindex/commit/c3909aad7) | 2026-06-02 | major | 1 section added |
 | [6c3798180](https://github.com/paleofoundation/heavymetalindex/commit/6c3798180) | 2026-06-02 | major | 5 sections added; narrative text revised |

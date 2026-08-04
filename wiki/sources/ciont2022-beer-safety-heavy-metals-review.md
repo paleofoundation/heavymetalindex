@@ -25,6 +25,8 @@ updated: 2026-06-06
 
 # Ciont et al. 2022 — Beer safety review: heavy metals in beer
 
+## Overview
+
 Ciont and colleagues (Universities of Cluj-Napoca, Liège, Bari, South China University of Technology, and Harper Adams) review chemical, microbiological, and physical contaminants in craft and large-scale beer. Section 4.2 ("Heavy Metals") narratively summarises the sources, transfer routes, and reported concentrations of heavy metals in beer, citing one primary quantitative dataset (Eticha and Hymete 2014, Ethiopian locally-manufactured beer) and describing aluminium and tin as the two metals of particular concern for beer. The review states that "metal mining, smelters, shredder plants, trash dumping, and incineration" raise environmental metal concentrations above natural background, that "heavy metals can be found in beer due to agricultural herbicides, fungicides, and bactericides," and that brewing equipment (pipelines, tanks, filtration, fermentation, conditioning, carbonation, packaging) and packaging (barrels, aluminium cans) are additional transfer routes. The HACCP section reports that a heavy-metal concentration exceeding 0.04 mg/L at the raw-materials reception stage is treated as a substantial risk to human health, and assigns reception as a Critical Control Point.
 
 ## Key numbers
@@ -93,7 +95,7 @@ The review is a narrative review, not a systematic review or meta-analysis. The 
 
 The HACCP critical limit of 0.04 mg/L for heavy metals at the raw-materials reception CCP (Table 4, page 13) is reproduced as the review states it. The review does not cite the specific regulation, codex standard, or industry guideline underlying this figure and treats heavy metals and mycotoxins as sharing the same 0.04 mg/L critical limit; this should be treated as a review-level claim rather than a regulatory baseline pending confirmation against the cited references [21, 68, 72, 89] grouped at that table row.
 
-The `metals:` frontmatter list includes Cu, Mn, and Zn because the review reports concentration values for them (Eticha and Hymete data) even though those three are outside the HMTc 10-analyte certification list per CLAUDE.md Part 14. Aluminium and tin are included as HMTc analytes with qualitative-only coverage in the source; iAs, tAs, MeHg, tHg, Ni, and Cr-VI are not discussed in the heavy-metals section and are therefore absent from the metals list.
+The `metals:` frontmatter list includes Cu, Mn, and Zn because the review reports concentration values for them (Eticha and Hymete data) even though those three are outside the HMTc 10-analyte certification list. Aluminium and tin are included as HMTc analytes with qualitative-only coverage in the source; iAs, tAs, MeHg, tHg, Ni, and Cr-VI are not discussed in the heavy-metals section and are therefore absent from the metals list.
 
 The `ingredients:` frontmatter is empty: the review discusses barley, malt, hops, water, and adjuncts as beer ingredients, but none of these are present in the current ingredients taxonomy as primary HMI tracking targets. The `products:` frontmatter uses [[products/fermented-beverages-non-tea-based]] as the closest existing umbrella; no beer-specific product page exists in the current taxonomy.
 
@@ -110,8 +112,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
-| [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [20a969fb8](https://github.com/paleofoundation/heavymetalindex/commit/20a969fb8) | 2026-06-06 | minor | Narrative text revised |
-| [0f9cd1a2e](https://github.com/paleofoundation/heavymetalindex/commit/0f9cd1a2e) | 2026-06-06 | major | 7 sections added; narrative text revised |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

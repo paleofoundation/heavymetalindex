@@ -5,6 +5,8 @@ audience: [regulator, educator, commercial, researcher]
 updated: 2026-05-03
 ---
 
+## Overview
+
 Regulation pages describe specific thresholds, action levels, and guidance from specific jurisdictions. Principal jurisdictions covered include the United States (Food and Drug Administration, Environmental Protection Agency, California Proposition 65, and state attorneys general), the European Union (European Food Safety Authority and the Commission Regulations on contaminants), the World Health Organization and Codex Alimentarius, and others where material appears in the literature. Every page preserves the exact value from the agency source; unit conversions are shown rather than concealed.
 
 ## Cross-cut views
@@ -73,9 +75,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
+| [62866cb6b](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b) | 2026-07-04 | major | 1 section added |
 | [79b06dd2c](https://github.com/paleofoundation/heavymetalindex/commit/79b06dd2c) | 2026-06-25 | minor | Narrative text revised |
 | [25c92d7ad](https://github.com/paleofoundation/heavymetalindex/commit/25c92d7ad) | 2026-06-22 | major | 1 section added; narrative text revised |
-| [22b1fecd0](https://github.com/paleofoundation/heavymetalindex/commit/22b1fecd0) | 2026-05-31 | minor | Narrative text revised |
-| [a4dcf15e7](https://github.com/paleofoundation/heavymetalindex/commit/a4dcf15e7) | 2026-05-30 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

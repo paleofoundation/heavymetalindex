@@ -31,6 +31,8 @@ updated: 2026-06-02
 
 # ECETOC 1992 — Nickel, cobalt and chromium in consumer products: allergic contact dermatitis (Technical Report No. 45)
 
+## Overview
+
 ECETOC Technical Report No. 45 is an industry-consortium review prepared by a European Chemical Industry Ecology and Toxicology Centre Task Force in response to renewed regulatory interest (post-Nava et al. 1987, Vilaplana et al. 1987, Angelini and Vena 1989) in whether trace nickel, cobalt and chromium impurities in personal-care and domestic-cleaning products contribute to allergic contact dermatitis (ACD). The report pools published analytical data on Ni/Co/Cr concentrations in detergents, dishwashing liquids, surface cleaners, bleaches, textile softeners, shampoos, toothpastes, deodorants, lipsticks, mascaras and other cosmetics with unpublished industry datasets contributed by Unilever (1990) and Procter & Gamble (1985-1990) and presents them as country/product-type cells in Table 6. The Task Force concludes that trace Ni/Co/Cr in modern consumer products are typically below the ~1 ppm minimum eliciting concentration established under 48-hour occluded patch-test conditions on moderately irritated skin, and recommends that current good manufacturing practice ensuring <5 ppm of each metal in finished consumer products be adopted as a standard, with ≤1 ppm as the ultimate target. Because the report is authored by the European chemical industry's own toxicology centre and explicitly oriented toward arguing that consumer products are "not an important source" of metal contact and that regulatory focus should shift to jewellery and metal objects, its conclusions and the rhetorical framing of the Hazard Assessment (Section 6) carry an obvious sponsor-interest signature. The underlying analytical-chemistry data tables (Tables 6-9) are nonetheless an unusually broad multi-country compilation and are the report's primary contribution to the heavy-metals literature.
 
 ## Key numbers
@@ -205,8 +207,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [c036da098](https://github.com/paleofoundation/heavymetalindex/commit/c036da098) | 2026-06-02 | major | 1 section added; narrative text revised |
-| [7984e0abb](https://github.com/paleofoundation/heavymetalindex/commit/7984e0abb) | 2026-06-02 | major | 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

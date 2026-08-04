@@ -24,6 +24,8 @@ updated: 2026-05-08
 
 # Zhu, Chen, Zhang, Zhang, Guo, Pang, Huang, Wang 2024 — Toxic and essential metals: metabolic interactions with the gut microbiota and health implications
 
+## Overview
+
 This Frontiers in Nutrition review from the Zhejiang Center for Disease Control and Prevention synthesizes the metals-microbiota interaction literature across both toxic metals (Pb, Cd, As, Hg, Cr, Ni) and essential metals with toxicity at excess (Cu, Zn, Fe, Mn, Se). The review covers three principal axes: how metals modulate microbiota composition and diversity; how the microbiota modulates metal absorption, biotransformation, and excretion; and how these reciprocal interactions translate to metabolic and disease outcomes including inflammatory bowel disease, metabolic syndrome, neurodevelopmental disorders, and cardiovascular disease. The paper documents the metal-driven taxonomic shifts (Lactobacillus and Bifidobacterium decrease; Proteobacteria expansion) and the microbial-driven metal-speciation effects (gut microbial methylation of inorganic mercury and arsenic; siderophore-mediated metal scavenging).
 
 ## Key conclusions
@@ -52,6 +54,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [d5b9ea59e](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea59e) | 2026-05-08 | major | 3 sections added; narrative text revised |

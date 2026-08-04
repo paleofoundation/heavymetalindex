@@ -26,6 +26,8 @@ updated: 2026-06-08
 
 # Hao et al. 2022 — Probabilistic health risk from metals in rice, Xiangtan County, China
 
+## Overview
+
 Hao and colleagues measured total arsenic (tAs), inorganic arsenic (iAs), Pb, Cd, Cr, and total Hg in 220 rice samples from Xiangtan County, Hunan Province, China, a multi-mining county with rice cultivation. The paper is routeable as rice-bulk-grain occurrence evidence because Table 2 reports rice concentrations directly; mining and soil context should be treated as source-attribution context rather than product concentration data. The rice occurrence finding is dominated by Cd, tAs, and iAs, with iAs kept separate from tAs and total Hg kept separate from methylmercury.
 
 ## Key numbers
@@ -86,9 +88,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [598ebf521](https://github.com/paleofoundation/heavymetalindex/commit/598ebf521) | 2026-06-09 | minor | Narrative text revised |
 | [1ab877dc8](https://github.com/paleofoundation/heavymetalindex/commit/1ab877dc8) | 2026-06-08 | major | 3 sections added and 3 removed; narrative text revised |
-| [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [29a65ac86](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac86) | 2026-05-12 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

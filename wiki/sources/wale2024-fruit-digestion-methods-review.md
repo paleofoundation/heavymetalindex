@@ -26,6 +26,8 @@ updated: 2026-06-07
 
 # Wale 2024 — Digestion methods for heavy metals in fruits (Science Journal of Analytical Chemistry)
 
+## Overview
+
 This single-author 6-page review article (Vol. 12, No. 1, pp. 7-12, doi 10.11648/j.sjac.20241201.12) compares the wet-digestion methodologies most commonly used to release heavy metals from fruit and fruit-juice matrices prior to instrumental quantification, and concludes that microwave-assisted pressurized wet digestion in closed vessels is preferred over open-vessel wet digestion, conventional thermally convective wet pressure digestion, UV-photolysis digestion, and ultrasound-assisted acid decomposition for routine fruit-matrix analysis. It carries no original measurements. The only quantitative table is a reproduction of a WHO/FAO acceptable-limits table tertiary-cited from Ihesinachi and Eresiya 2014, the same table that appears (with a paper-internal units-label defect) in the same author's wale2023 review; flagged below. Evidence tier C: short single-author review at a Science Publishing Group venue with no primary data, no PRISMA flow, and no risk-of-bias appraisal of the cited methodological literature.
 
 ## Key numbers
@@ -119,8 +121,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed; narrative text revised |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 | [aca5e2155](https://github.com/paleofoundation/heavymetalindex/commit/aca5e2155) | 2026-06-09 | major | 1 section added |
-| [1c1eeb346](https://github.com/paleofoundation/heavymetalindex/commit/1c1eeb346) | 2026-06-07 | minor | Narrative text revised |
-| [e6ae7b7a6](https://github.com/paleofoundation/heavymetalindex/commit/e6ae7b7a6) | 2026-06-07 | major | 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

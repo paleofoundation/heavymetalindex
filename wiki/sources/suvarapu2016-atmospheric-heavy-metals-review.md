@@ -27,6 +27,8 @@ updated: 2026-06-02
 
 # Suvarapu & Baek 2016 — Heavy metal determination in ambient atmosphere (narrative review)
 
+## Overview
+
 This open-access-style narrative review in *Toxicology and Industrial Health* surveys roughly 70 peer-reviewed studies on the determination of heavy metals in ambient air (TSPM, PM10, PM2.5) published since 2006. The authors catalogue analytical methods (ICP-OES, ICP-MS, AES, AAS, XRF, PIXE), QA/QC practices (SRM/CRM use, blanks, replicates, inter-lab comparison), source-apportionment findings (industrial emissions, vehicular emissions, coal combustion, smelting, brake wear, secondary aerosols, dust resuspension, fireworks events), and meteorological influences on heavy-metal concentrations in particulate matter. Geographic coverage skews toward developing-country sites in China, India, and other Asian countries where concentrations run higher than in Europe and North America. No primary data are reported; the review's quantitative content is reattribution of the cited primary sources. Evidence tier C: useful as a methodological and source-apportionment leads document and as exposure-pathway context for atmospheric deposition into food crops, not citable as direct evidence for occurrence values. Authors disclosed no conflicts of interest and no funding.
 
 ## Key numbers
@@ -156,8 +158,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [c8a032840](https://github.com/paleofoundation/heavymetalindex/commit/c8a032840) | 2026-06-02 | minor | Narrative text revised |
-| [41749edee](https://github.com/paleofoundation/heavymetalindex/commit/41749edee) | 2026-06-02 | major | 13 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

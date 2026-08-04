@@ -5,6 +5,8 @@ updated: 2026-04-26
 audience: [regulator, educator, consumer]
 ---
 
+## Overview
+
 This page describes who maintains Heavy Metal Index, how the index is governed, and the firewall between the index and the Paleo Foundation's Heavy Metal Tested & Certified (HMT&C) certification program. It is one of two pages a sophisticated reader is expected to consult before relying on the index for regulatory, legal, or commercial purposes; the other is [[methodology]].
 
 This page is a stub and will be expanded. The governance posture below is not aspirational; it is the working policy under which the index is being built. Sections marked stub will be expanded with names, dates, and procedural detail before the index transitions out of preview.

@@ -24,6 +24,8 @@ updated: 2026-06-02
 
 # Majid et al. 2020 - Cumin-supplemented broiler meat minerals
 
+## Overview
+
 Majid, Albashr, Hamma, and Khidhir tested whether adding cumin seed powder to broiler diets changed meat-quality traits and mineral concentrations in breast and thigh meat. The study used four diets: control feed and basal feed supplemented with 3, 6, or 9 g cumin per kg of diet. Table 7 reports mean plus standard deviation mineral concentrations in ppm for Cr, Cu, Cd, Pb, Ni, Zn, Fe, Mg, P, Na, Ca, and K in finished broiler meat. For Heavy Metal Index routing, the usable occurrence signal is the measured breast and thigh meat concentration table; the source is not cumin-seed occurrence evidence.
 
 ## Key numbers
@@ -87,6 +89,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [315a7b8a2](https://github.com/paleofoundation/heavymetalindex/commit/315a7b8a2) | 2026-06-02 | major | 1 section added |
 | [c6649eb1f](https://github.com/paleofoundation/heavymetalindex/commit/c6649eb1f) | 2026-06-02 | major | 5 sections added; narrative text revised |

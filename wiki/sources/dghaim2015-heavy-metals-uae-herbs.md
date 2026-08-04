@@ -30,6 +30,8 @@ updated: 2026-05-28
 
 # Dghaim et al. 2015 — Heavy metals in traditional herbs consumed in the UAE
 
+## Overview
+
 This peer-reviewed primary study from Zayed University (Dubai) measured cadmium, lead, copper, iron, and zinc in 81 samples of seven traditional herbs purchased from 13 authenticated Dubai-municipality-approved shops and supermarkets. All concentrations are expressed on a dry-weight basis after fresh samples were air-dried at room temperature and powdered. Microwave-assisted digestion followed US-EPA Method 3052 (HNO3/HCl/H2O2 in a CEM MARS microwave system); metals were quantified by AAS (Varian AA240FS). The headline finding is that 64% of all samples exceeded the WHO/FAO permissible limit (PL) for lead in medicinal herbs (10 mg/kg dry weight), and 29% of cadmium-analyzed samples exceeded the WHO/FAO PL for cadmium (0.3 mg/kg). Lead contamination was particularly high in sage (100% of samples above PL), thyme (91%), basil (90%), and oregano (90%), with individual maxima of 16-23 mg/kg. Cadmium exceedances were most prevalent in basil (80%) and sage (66%). The paper does not measure arsenic or mercury.
 
 ## Key numbers
@@ -93,12 +95,12 @@ The source paper carries a minor internal inconsistency: Table 1 lists 81 total 
 - **2026-05-28 merge-enhance (Claude Opus 4.7, autonomous v2.0 manual-fetch skill).** EXISTING path: DOI grep against `wiki/sources/` matched this same page (`dghaim2015-heavy-metals-uae-herbs.md`, DOI 10.1155/2015/973878). Prior page dated `updated: 2026-05-14`, flagged advisory in `data/evidence/routing_malformed.csv` for missing optional routing-input fields. Full PDF re-read end-to-end (6 pages, single-file; tables 1 and 2 re-verified).
 - **Preserved from prior page:** cite_key (`dghaim2015-heavy-metals-uae-herbs`), license (`CC BY` — verified against title-page copyright statement), near_duplicates (empty), source_type (`peer-reviewed`), evidence_tier (`A`), sample_n (81), publication, authors.
 - **`raw_handle` updated** from legacy `manual-fetch-kimi` (folder placeholder, not a unique handle) to `MFK_determination-of-heavy-metals-concentration-in-tra` per current MFK_-prefix convention used by sibling Manual Fetch Kimi sources (aldayel2018, abdolahpour2023, etc.).
-- **`raw_path` corrected** from `"raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Determination of Heavy Metals Concentration in Traditional Herbs .pdf"` (missing trailing space in parent directory name and truncated filename) to the actual path with the trailing-space convention preserved and the full filename `...Commonly Consumed in the United Ara.pdf`.
+- **`raw_path` corrected** from `"raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Determination of Heavy Metals Concentration in Traditional Herbs.pdf"` (missing trailing space in parent directory name and truncated filename) to the actual path with the trailing-space convention preserved and the full filename `...Commonly Consumed in the United Ara.pdf`.
 - **`raw_sha256` added:** `62cc1c5e953dadcfa4340f54b1658e0c2aed19350b1ab8ce069977f3ea209c4e` (computed locally from the PDF).
 - **`access_url` added:** `https://doi.org/10.1155/2015/973878` (DOI canonical resolver).
 - **`no_doi_assigned: false` added** to match the current source-page schema (DOI is present).
 - **`metals:` expanded** from `[Pb, Cd]` to `[Pb, Cd, Cu, Fe, Zn]`. The paper measures and reports all five elements with full ranges and exceedance statistics; restricting to Pb/Cd omitted the Cu, Fe, and Zn occurrence data that the paper carries. As and Hg are NOT added because the paper does not measure them.
-- **`ingredients:` expanded** to include `[[ingredients/sage]]`, which was missing from the prior page despite sage being one of the seven herbs measured (and the highest Pb herb, 100% above PL). Also added `[[ingredients/dried-herbs]]` as the broad-matrix umbrella since all samples are reported on dry-weight basis. Per-species slugs (`basil`, `sage`, `oregano`, `mint`, `thyme`, `chamomile`) do not currently exist as wiki ingredient pages; per CLAUDE.md Part 10 + the skill's no-new-ingredient-pages rule, those slugs are left in the frontmatter so the auto-stub script can pick them up at freq-2.
+- **`ingredients:` expanded** to include `[[ingredients/sage]]`, which was missing from the prior page despite sage being one of the seven herbs measured (and the highest Pb herb, 100% above PL). Also added `[[ingredients/dried-herbs]]` as the broad-matrix umbrella since all samples are reported on dry-weight basis. Per-species slugs (`basil`, `sage`, `oregano`, `mint`, `thyme`, `chamomile`) do not currently exist as wiki ingredient pages; + the skill's no-new-ingredient-pages rule, those slugs are left in the frontmatter so the auto-stub script can pick them up at freq-2.
 - **`matrices:` corrected** from `[herbs, dry-weight]` to `[herbs, dried-herbs]`. `dry-weight` is a basis, not a matrix; the dry-weight basis is documented in prose. `dried-herbs` matches the corpus-established matrix vocabulary used by sibling herb-spice sources (cicero2022, kowalska2021, lhaac2025-csp41).
 - **`jurisdictions:` corrected** from `[UAE]` to `[AE]` per ISO-3166 two-letter convention used across the corpus.
 - **`sample_population` expanded** to include per-herb n breakdown (mint 13, parsley 13, basil 11, sage 11, oregano 11, thyme 13, chamomile 9) per Table 1, plus the 13-shop sourcing detail and dry-weight basis explicitly.
@@ -108,10 +110,10 @@ The source paper carries a minor internal inconsistency: Table 1 lists 81 total 
 - **Part 12 brand firewall:** no brand names appear in source-page body. Method-section vendors (Suprapur/Merck, Sigma-Aldrich, Fluka TraceCert Ultra, Varian AA240FS, CEM MARS, Millipore Elix Advantage) are scientific-method vendors and are PERMITTED per the 2026-05-17 strict-reading Exception 2 (instrument/reagent/reference-material naming is scientific reproducibility, not brand attribution to contamination values).
 - **Part 2 wiki/HMTc firewall:** Implications section describes what the paper contributes (occurrence dataset, high-risk-herb pattern); it does not propose HMTc thresholds, does not synthesize across other literature, and does not issue consumer risk advisories. The contrast with EU 1881/2006 is stated as regulatory context, not as a threshold proposal.
 - **2026-05-28 fresh-context audit subagent (general-purpose) verdict: PROMOTE.** All five checks ✅ except two ⚠️ notes:
-  - ⚠️ Check 1: per-herb Cu exceedance percentages (chamomile 66%, sage 18%, oregano 18% vs Chinese PL 20 mg/kg) from PDF page 4 §3.3 + Table 2 were absent from Key numbers. Verified against source — APPLIED: full per-herb Cu breakdown added to the Cu paragraph in Key numbers.
-  - ⚠️ Check 1: minor source-internal discrepancy on mint Fe max (Table 2 "821.02 ± 17.83" vs Section 3.5 narrative "821.01"). Wiki cites the narrative value (821.01). Defensible per audit. No change; the source-internal denominator/value discrepancies are already flagged in Provenance notes generally; documenting this specific Fe instance here.
-  - ⚠️ Check 2: per-species ingredient slugs (`basil`, `sage`, `oregano`, `thyme`, `mint`, `chamomile`) not in current taxonomy snapshot. Already explicitly flagged in Verification notes above per the audit-prompt Check 2 carve-out for snapshot-missing-but-disclosed slugs; auto-stub freq-2 mechanism handles promotion. No change.
-  - ⚠️ Check 5: "illustrative case for geographic sourcing effects" under Courses bullet flagged as borderline-synthesis. Re-reviewed — the bullet describes one paper's teaching utility, not a cross-paper consensus claim; acceptable per audit's own note. No change.
+ - ⚠️ Check 1: per-herb Cu exceedance percentages (chamomile 66%, sage 18%, oregano 18% vs Chinese PL 20 mg/kg) from PDF page 4 §3.3 + Table 2 were absent from Key numbers. Verified against source — APPLIED: full per-herb Cu breakdown added to the Cu paragraph in Key numbers.
+ - ⚠️ Check 1: minor source-internal discrepancy on mint Fe max (Table 2 "821.02 ± 17.83" vs Section 3.5 narrative "821.01"). Wiki cites the narrative value (821.01). Defensible per audit. No change; the source-internal denominator/value discrepancies are already flagged in Provenance notes generally; documenting this specific Fe instance here.
+ - ⚠️ Check 2: per-species ingredient slugs (`basil`, `sage`, `oregano`, `thyme`, `mint`, `chamomile`) not in current taxonomy snapshot. Already explicitly flagged in Verification notes above per the audit-prompt Check 2 carve-out for snapshot-missing-but-disclosed slugs; auto-stub freq-2 mechanism handles promotion. No change.
+ - ⚠️ Check 5: "illustrative case for geographic sourcing effects" under Courses bullet flagged as borderline-synthesis. Re-reviewed — the bullet describes one paper's teaching utility, not a cross-paper consensus claim; acceptable per audit's own note. No change.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
@@ -120,9 +122,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [3171d069e](https://github.com/paleofoundation/heavymetalindex/commit/3171d069e) | 2026-08-02 | major | 1 section added |
+| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
-| [5170225ff](https://github.com/paleofoundation/heavymetalindex/commit/5170225ff) | 2026-05-28 | minor | Narrative text revised |
-| [30637ca58](https://github.com/paleofoundation/heavymetalindex/commit/30637ca58) | 2026-05-28 | major | 4 sections added and 3 removed; narrative text revised |
-| [99e9ccb8e](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb8e) | 2026-05-14 | major | 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
