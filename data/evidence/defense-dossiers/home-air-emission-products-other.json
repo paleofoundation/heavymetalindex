@@ -17,18 +17,63 @@
     "canonical_url": "https://heavymetalindex.com/products/home-air-emission-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2eb0829c94aad953aa90d5d9c38d847b51ae585d81b7cbb3e2e9dc87b42e2e60",
-      "content_bytes": 7625,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "016a11b33ba112073e0e966b0d6a2bad651e8ce10b42512e77e6d8a9311a90bf",
+      "content_bytes": 8690,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/home-air-emission-products-other.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/home-air-emission-products-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/pagels2009-candle-smoke-particles",
+        "title": "Chemical Composition and Mass Emission Factors of Candle Smoke Particles",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Sn",
+          "Co",
+          "Zn",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pagels2009-candle-smoke-particles",
+        "content_pin": {
+          "content_sha256": "3a53aa81934db4aa106d4efc9a4294c8d56d21fb13abf00c0d4daadc223b04dc",
+          "content_bytes": 7544,
+          "last_commit_sha": "4759f48b0",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 4759f48b0:wiki/sources/pagels2009-candle-smoke-particles.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/steinemann2020-car-air-freshener-vocs",
+        "title": "Volatile Chemical Emissions from Car Air Fresheners",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/steinemann2020-car-air-freshener-vocs",
+        "content_pin": {
+          "content_sha256": "4a8a7a0eb88ba4544509b17d699b6f51a4d14d49471592f47af5c37bc234cd62",
+          "content_bytes": 5236,
+          "last_commit_sha": "224e9d8dd",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 224e9d8dd:wiki/sources/steinemann2020-car-air-freshener-vocs.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

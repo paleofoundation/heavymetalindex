@@ -4,8 +4,8 @@
   "product": {
     "slug": "products/sunflower-seeds",
     "title": "Sunflower Seeds",
-    "hmtc_category": 4,
-    "hmtc_row": 13,
+    "hmtc_category": 28,
+    "hmtc_row": 3,
     "category_label": "Fruits, Vegetables, and Produce",
     "age_range": null,
     "label": "Sunflower Seeds",
@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sunflower-seeds",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ebf092308ba6bab2af8cc449464ec6ea28e44b0eadfcba261c632ec6cdebdb4b",
-      "content_bytes": 12847,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "e77539d09e7300ebf836309823338b1dcdbb597a9f0a74cc064fd2c671967f17",
+      "content_bytes": 12805,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/sunflower-seeds.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/sunflower-seeds.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,10 +47,10 @@
         "content_pin": {
           "content_sha256": "f33fa80c44ac678ce0f8f4785a8349b0eafdb8a3aebd7df69068a64ea9c20abb",
           "content_bytes": 13285,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa-cadmium-contam-2009.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/efsa-cadmium-contam-2009.md | sha256sum"
         }
       },
       {
@@ -67,10 +67,10 @@
         "content_pin": {
           "content_sha256": "ca6205c0eb0329cc65dcd4305ad2ba407bd34860883eb42e1545cd04ceb5577e",
           "content_bytes": 4636,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fu2022-sunflower-cd-cultivar-transcriptomics.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/fu2022-sunflower-cd-cultivar-transcriptomics.md | sha256sum"
         }
       },
       {
@@ -95,10 +95,10 @@
         "content_pin": {
           "content_sha256": "792edf5976212c0788c57ea5e902a1254776311058a2beb31cf33999f4f513f9",
           "content_bytes": 16441,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
         }
       },
       {
@@ -115,15 +115,15 @@
         "content_pin": {
           "content_sha256": "3f03c7e4940e0bcca6445f58b12e379b69013f454375506b25c7e67593aa8fbe",
           "content_bytes": 11562,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nordberg2015-cadmium-chapter.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/nordberg2015-cadmium-chapter.md | sha256sum"
         }
       },
       {
         "slug": "sources/ozyazici2021-sunflower-seeds-metals",
-        "title": "Determination of some heavy metal contents of sunflower seeds grown in the Middle Black Sea Region",
+        "title": "Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey",
         "route_kind": "direct_evidence",
         "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
@@ -133,18 +133,17 @@
           "Cd",
           "Pb",
           "Ni",
-          "Cr",
           "Cu",
           "Zn"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ozyazici2021-sunflower-seeds-metals",
         "content_pin": {
-          "content_sha256": "444a1e881e6a3c5eaafdcbd8be955c4fad9ad4bcd455b4679a135261918d3b21",
-          "content_bytes": 2677,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "729d32352db1f0793a5f487ddd4a8e05d9f094325ec61e81ea28725758913777",
+          "content_bytes": 4119,
+          "last_commit_sha": "c39f24bfe",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ozyazici2021-sunflower-seeds-metals.md | sha256sum"
+          "verify_command": "git show c39f24bfe:wiki/sources/ozyazici2021-sunflower-seeds-metals.md | sha256sum"
         }
       },
       {
@@ -161,15 +160,15 @@
         "content_pin": {
           "content_sha256": "d50c4915fb808223476b4cc3f2be30d7cbba345af3cc916c4138ae2460c6904b",
           "content_bytes": 10359,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
         }
       },
       {
         "slug": "sources/shaikh2026-sunflower-seeds-heavy-metals",
-        "title": "Monitoring of heavy metals in sunflower seeds collected from different ecological zones of Sindh, Pakistan",
+        "title": "Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds",
         "route_kind": "direct_evidence",
         "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
@@ -179,16 +178,17 @@
           "Cd",
           "Cr",
           "Cu",
-          "Zn"
+          "Zn",
+          "Fe"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaikh2026-sunflower-seeds-heavy-metals",
         "content_pin": {
-          "content_sha256": "c538e2029fec3bd439d9545682368eaf75261168f8ed189a37eee093d8542a02",
-          "content_bytes": 2870,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7bc1042af3f847e184ae61b2f83643f5a4cd62a3025e6bee560e22d81df4eff9",
+          "content_bytes": 5183,
+          "last_commit_sha": "c63b4e9d5",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/shaikh2026-sunflower-seeds-heavy-metals.md | sha256sum"
+          "verify_command": "git show c63b4e9d5:wiki/sources/shaikh2026-sunflower-seeds-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -202,17 +202,16 @@
           "Pb",
           "Cd",
           "Cu",
-          "Zn",
-          "tHg"
+          "Zn"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tkachuk2024-sunflower-seeds-metals",
         "content_pin": {
-          "content_sha256": "dedbd36dd17381ace363a6a59ee02b5274f609915893ce75a06dd76f922c1595",
-          "content_bytes": 2936,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "55aace7c431d7c9217fabb8aafb3a9df681bc340ce66154b58312045db6c5389",
+          "content_bytes": 4553,
+          "last_commit_sha": "eb11108ff",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tkachuk2024-sunflower-seeds-metals.md | sha256sum"
+          "verify_command": "git show eb11108ff:wiki/sources/tkachuk2024-sunflower-seeds-metals.md | sha256sum"
         }
       }
     ]

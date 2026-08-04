@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-rtf-liquid-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0f1116b15326418221eae37ad998d777307cd5c85b8051070ff85032c1d0d3a0
+source_page_sha256: df47fcff6b70d41ecda6eeb2e5eb82f8c337bbe41888354a0795f23123216492
 total_claims: 43
 cited_claims: 43
 uncited_claims: 0
-distinct_cited_targets: 45
-distinct_cited_sources: 40
+distinct_cited_targets: 44
+distinct_cited_sources: 39
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 10
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 43 |
 | cited claims | 43 |
 | uncited claims | 0 |
-| distinct cited targets | 45 |
-| distinct cited `sources/` pages | 40 |
+| distinct cited targets | 44 |
+| distinct cited `sources/` pages | 39 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 10 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -304,12 +304,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2860 µg/kg`
 - Context: `2020 | Peer-reviewed | Total Al by ICP-OES in Brazilian soy-based infant drink (2860 µg/kg) and fruit purees; also repor`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -360,10 +362,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -380,12 +378,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `34 µg/L`
 - Context: `-reviewed | iAs by HPLC-ICP-MS in 5 hydrolysed rice formulas (EU): iAs range 10–34 µg/L as-prepared; context for rice-pr`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -436,10 +436,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -456,12 +452,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2550 µg/kg`
 - Context: `infant formula samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg,`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -512,10 +510,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -532,12 +526,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7 µg/kg`
 - Context: `samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -588,10 +584,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -608,12 +600,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.6 µg/kg`
 - Context: `udes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) di`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -664,10 +658,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -684,12 +674,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11 µg/kg`
 - Context: `t soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing s`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -740,10 +732,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -760,12 +748,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `200 µg/kg`
 - Context: `ormula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing soy from milk-`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -816,10 +806,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -836,12 +822,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/L`
 - Context: `ce syrup; reconstituted soy-based formula showed iAs approximately 1.5–2.5× the 10 µg/L drinking-water standard, establi`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -892,10 +880,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -912,12 +896,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `730 µg/kg`
 - Context: `asis by format and protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -968,10 +954,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -988,12 +970,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.18 µg/kg`
 - Context: `protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with mea`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -1044,10 +1028,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -1063,13 +1043,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `1.45 µg/kg`
-- Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 34`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 33`
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -1120,10 +1102,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -1140,12 +1118,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2.5 µg/kg`
 - Context: `9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati`
-- Cited targets (36):
-  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
+- Cited targets (35):
+  - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -1196,10 +1176,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/open2017-open-infants-dietary-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
@@ -1235,9 +1211,10 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 2 | 2026-06-02 | 2026-06-03 |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
-| `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` | sources | 0 | — | — |
@@ -1267,8 +1244,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/lutfullah2014-peshawar-dried-fluid-milk-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` | sources | 0 | — | — |
-| `wiki/sources/open2017-open-infants-dietary-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` | sources | 0 | — | — |
 | `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |

@@ -2,15 +2,15 @@
 source_page: wiki/products/seaweed-kelp-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 286dba23187a472011d13bf5e94ff64126b177bd2fbb04188014b034d76a8b26
+source_page_sha256: 8666450030c049f45860e3256167f6bea3e1c0d144e29db8b79b500cccb5bc14
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 1
+audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -34,13 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 1 |
+| audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-lock-seaweed-kelp-foods-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
+- `edit_id=cat6-final-seaweed-hook` · retrieval=2026-06-16 · models=[claude-opus-4-8] · agreement=not_applicable · applied=2026-06-16T00:00:00.000Z · span=across_row_review_hook
 
 ## Claims by section
 

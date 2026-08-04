@@ -14,7 +14,7 @@ raw_path: "raw/Digest/toxic_element_infant_formula_prepared_for_posting_20260324
 access_url: "https://www.fda.gov/media/192124/download?attachment="
 raw_sha256: "928429d5c42e7d71ab08f1c2608ee8eac9e0d34df13b4111b3c20f167ed330d0"
 metals: [tAs, Pb, Cd, tHg]
-products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
+products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based, infant-formula-concentrated-liquid-non-soy, infant-formula-concentrated-liquid-soy-based, infant-formula-dairy-free]
 context_products: [infant-formula-concentrated-liquid-non-soy, infant-formula-concentrated-liquid-soy-based, infant-formula-powder-amino-acid-based-out-of-scope]
 matrices: [infant-formula, prepared-for-feeding, special-survey]
 jurisdictions: [US]

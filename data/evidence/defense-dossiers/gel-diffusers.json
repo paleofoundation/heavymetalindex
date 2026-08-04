@@ -17,18 +17,37 @@
     "canonical_url": "https://heavymetalindex.com/products/gel-diffusers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6c90964f48ff076211c7683e5c571aa41bfced77e740de687ed61669c64ae0a7",
-      "content_bytes": 7258,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "94ae0ee7ee5f1482dc3f890c743aff132809f491b0fcc0feeb76a1feb2ac50d9",
+      "content_bytes": 8368,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/gel-diffusers.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/gel-diffusers.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/bcpp2017-ca-sb258-factsheet",
+        "title": "SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
+        "content_pin": {
+          "content_sha256": "d0a222ad786f70388437d3afd039bd95c7edaf9a43528e505fbd21ae77a83d16",
+          "content_bytes": 24099,
+          "last_commit_sha": "5b087c8ff",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5b087c8ff:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

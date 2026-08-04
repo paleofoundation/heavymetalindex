@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "3d649923f2a02d469c944480a74cb74eb689bcdfda6530ac55a374450fb5f0f3",
       "content_bytes": 7420,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "last_commit_sha": "aca5e2155",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/toys-attached-cribs-playpens.md | sha256sum"
+      "verify_command": "git show aca5e2155:wiki/products/toys-attached-cribs-playpens.md | sha256sum"
     }
   },
   "evidence_base": {

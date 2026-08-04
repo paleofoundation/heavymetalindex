@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "9f865f8fdb7ff445cf7606499fc23dab938b9f791a32818a3a7993c0d95799aa",
       "content_bytes": 7319,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "last_commit_sha": "aca5e2155",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/pet-chews-dental.md | sha256sum"
+      "verify_command": "git show aca5e2155:wiki/products/pet-chews-dental.md | sha256sum"
     }
   },
   "evidence_base": {

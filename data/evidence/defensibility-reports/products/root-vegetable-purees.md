@@ -2,15 +2,15 @@
 source_page: wiki/products/root-vegetable-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3ce5cfb1405c96b4e32e1cd6fdfba852a8f41d0193503faaba89e9d7db09f29a
+source_page_sha256: c05fc0700b418ffd44b0b33bb09b1aa3b1d6452b6e36e27352637420caed07d3
 total_claims: 135
 cited_claims: 133
 uncited_claims: 2
-distinct_cited_targets: 35
-distinct_cited_sources: 29
+distinct_cited_targets: 36
+distinct_cited_sources: 30
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 50
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 135 |
 | cited claims | 133 |
 | uncited claims | 2 |
-| distinct cited targets | 35 |
-| distinct cited `sources/` pages | 29 |
+| distinct cited targets | 36 |
+| distinct cited `sources/` pages | 30 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 50 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -1630,7 +1630,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `2025 | Government guidance | FDA Closer to Zero final guidance establishing the 20 ppb Pb action level for single-ingred`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1648,6 +1648,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1672,7 +1674,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `21 ppb`
 - Context: `tudy exposure analysis identifying sweet-potato baby food as a named Pb signal (21 ppb hybrid mean) and supplying exposu`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1690,6 +1692,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1714,7 +1718,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `c Monte Carlo modeling Pb intake reduction from FDA action levels including the 20 ppb root-vegetable cap; ~26% dietary`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1732,6 +1736,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1756,7 +1762,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `48 ppb`
 - Context: `-vegetable group (N=9) with min/mean/median/max statistics; highest Pb maximum (48 ppb) in this source set | | 11 | [[so`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1774,6 +1780,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1798,7 +1806,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `21 ppb`
 - Context: `FS102048 | 2016 | Government report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoe`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1816,6 +1824,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1840,7 +1850,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1 ppb`
 - Context: `nt report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoes) for UK infant-diet veget`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1858,6 +1868,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1882,7 +1894,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `n in 330 baby-food samples including strained and junior vegetables by AAS; LOD 10 ppb makes values a historical ceiling`
-- Cited targets (19):
+- Cited targets (20):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1900,6 +1912,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1952,6 +1966,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2014-infant-foods-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/gardener2019-lead-cadmium-infant-formula-baby-food.md` | sources | 0 | — | — |

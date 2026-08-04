@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_9506624/FM_9506624.md
 metals: [Cd, tHg, Pb, tAs, Cr, Ni]
 ingredients: ["[[ingredients/seaweed]]"]
-products: []
+products: ["[[products/seaweed-kelp-foods]]"]
 matrices: [seaweed, edible-seaweed]
 jurisdictions: [US, CA]
 near_duplicates: []

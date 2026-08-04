@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: flavored-waters
 public_page: products/flavored-waters
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Flavored waters

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "5aaa91d2e29591e8b06fc79df85a02f9d20ee2bf48848a13bde2cfc84cdf4d2b",
       "content_bytes": 7445,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "last_commit_sha": "aca5e2155",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/supplements-probiotics.md | sha256sum"
+      "verify_command": "git show aca5e2155:wiki/products/supplements-probiotics.md | sha256sum"
     }
   },
   "evidence_base": {

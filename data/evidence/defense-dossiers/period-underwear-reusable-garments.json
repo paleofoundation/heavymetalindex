@@ -17,18 +17,39 @@
     "canonical_url": "https://heavymetalindex.com/products/period-underwear-reusable-garments",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a951770f2ee661f8518955654ffc6541e72b5d28aeef69c3673dfbdb61f3ae94",
-      "content_bytes": 8149,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "3780d17a9e47b209a1c5ca37a80baa25d3ecfc613a4a6848f2b92b540836249b",
+      "content_bytes": 8574,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/period-underwear-reusable-garments.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/period-underwear-reusable-garments.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/nic-corcrain2025-menstrual-products-metal-leaching",
+        "title": "Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nic-corcrain2025-menstrual-products-metal-leaching",
+        "content_pin": {
+          "content_sha256": "2cea0a0a17c0b048b1a07e08b690797e65f15184bc0f3892a175025098286b21",
+          "content_bytes": 4267,
+          "last_commit_sha": "ecf202b37",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ecf202b37:wiki/sources/nic-corcrain2025-menstrual-products-metal-leaching.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/yamada1993-organotin-household-commodities",
         "title": "Small-Scale Survey of Organotin Compounds in Household Commodities",
@@ -43,10 +64,10 @@
         "content_pin": {
           "content_sha256": "3897d280a7f79c26e9829916abfd0e6311076bb8599067437ccd09127dabc91f",
           "content_bytes": 28201,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/yamada1993-organotin-household-commodities.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/yamada1993-organotin-household-commodities.md | sha256sum"
         }
       }
     ]

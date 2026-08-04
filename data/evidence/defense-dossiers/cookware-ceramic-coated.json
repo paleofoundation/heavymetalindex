@@ -17,18 +17,39 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-ceramic-coated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9b96f132764134d4bab5ac8678d318cd564b510dcde2c5158d10fc333ec47f7a",
-      "content_bytes": 8038,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "df5504426b9dc96369ee1601ef171fc0cfe8fce5bf54c09fb571fafced0e3629",
+      "content_bytes": 8484,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/cookware-ceramic-coated.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/cookware-ceramic-coated.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/dtu2024-food-contact-pb-cd-limits",
+        "title": "Suggestive maximum limits for lead and cadmium in food contact materials",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dtu2024-food-contact-pb-cd-limits",
+        "content_pin": {
+          "content_sha256": "90dc28fc30d88b4b802b0ab5e0f04fc947d322adf7946cae4fe4dbabe037c2be",
+          "content_bytes": 11358,
+          "last_commit_sha": "8d058840f",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8d058840f:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/esoyan2024-matsoun-ceramic-packaging",
         "title": "Impact of ceramic packaging on the quality and safety of Armenian fermented dairy product Matsoun",
@@ -46,10 +67,10 @@
         "content_pin": {
           "content_sha256": "fff7cd9be7778d8901243e991146ba6eabb2fd307e774782278a3ee5b13e0de9",
           "content_bytes": 3917,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
         }
       }
     ]

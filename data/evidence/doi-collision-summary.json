@@ -1,0 +1,1091 @@
+{
+  "generated_note": "Source pages sharing a DOI. Canonical suggested by inbound refs, key quality, frontmatter richness. Verify same-paper (title/authors) before deleting; a confabulated page can carry a wrong DOI and will NOT cluster here.",
+  "source_pages_with_doi": 1652,
+  "distinct_dois": 1603,
+  "duplicate_clusters": 43,
+  "collapsible_pages": 49,
+  "high_confidence_clusters": 39,
+  "review_clusters": 4,
+  "clusters": [
+    {
+      "doi": "10.1007/s10653-025-02723-2",
+      "confidence": "high",
+      "canonical": "navaretnam-2025-rice-as-speciation",
+      "drop": [
+        "arsenic2025-unknown",
+        "arsenic2025-unknown-a"
+      ],
+      "members": [
+        {
+          "cite_key": "navaretnam-2025-rice-as-speciation",
+          "refs": 26,
+          "fields": 22,
+          "title": "Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "arsenic2025-unknown",
+          "refs": 123,
+          "fields": 28,
+          "title": "Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment",
+          "garbage_key": true
+        },
+        {
+          "cite_key": "arsenic2025-unknown-a",
+          "refs": 13,
+          "fields": 25,
+          "title": "Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment (near-duplicate cluster entry)",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1265/ehpm.24-00048",
+      "confidence": "high",
+      "canonical": "tatsuta2024-mehg-duplicate-diet-children-japan",
+      "drop": [
+        "tatsuta2024-methylmercury-intake-children-duplicate-diet",
+        "tatsuta2024-mehg-japan-duplicate-diet"
+      ],
+      "members": [
+        {
+          "cite_key": "tatsuta2024-mehg-duplicate-diet-children-japan",
+          "refs": 179,
+          "fields": 24,
+          "title": "Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "tatsuta2024-methylmercury-intake-children-duplicate-diet",
+          "refs": 149,
+          "fields": 22,
+          "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "tatsuta2024-mehg-japan-duplicate-diet",
+          "refs": 11,
+          "fields": 26,
+          "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1289/ehp.1104619",
+      "confidence": "high",
+      "canonical": "jackson2012-arsenic-organic-foods-brown-rice-syrup",
+      "drop": [
+        "jackson2012-brown-rice-syrup-arsenic",
+        "arsenic2012-arsenic-organic-foods-brown"
+      ],
+      "members": [
+        {
+          "cite_key": "jackson2012-arsenic-organic-foods-brown-rice-syrup",
+          "refs": 207,
+          "fields": 19,
+          "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "jackson2012-brown-rice-syrup-arsenic",
+          "refs": 41,
+          "fields": 24,
+          "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "arsenic2012-arsenic-organic-foods-brown",
+          "refs": 81,
+          "fields": 23,
+          "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1289/ehp.1408789",
+      "confidence": "high",
+      "canonical": "carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
+      "drop": [
+        "carignan2015-arsenic-infancy-well-water-breast-milk",
+        "estimated2015-estimated-exposure-arsenic-breastfed"
+      ],
+      "members": [
+        {
+          "cite_key": "carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
+          "refs": 88,
+          "fields": 22,
+          "title": "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "carignan2015-arsenic-infancy-well-water-breast-milk",
+          "refs": 59,
+          "fields": 24,
+          "title": "Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "estimated2015-estimated-exposure-arsenic-breastfed",
+          "refs": 30,
+          "fields": 22,
+          "title": "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/foods9121839",
+      "confidence": "review",
+      "canonical": "chung2021-china-infant-formula-toxic-elements",
+      "drop": [
+        "su2020-infant-formula-china-toxic-elements",
+        "abstract2020-content-dietary-exposure-toxic"
+      ],
+      "members": [
+        {
+          "cite_key": "chung2021-china-infant-formula-toxic-elements",
+          "refs": 173,
+          "fields": 18,
+          "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "su2020-infant-formula-china-toxic-elements",
+          "refs": 39,
+          "fields": 24,
+          "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "abstract2020-content-dietary-exposure-toxic",
+          "refs": 49,
+          "fields": 29,
+          "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/nu15143251",
+      "confidence": "high",
+      "canonical": "henriquez-hernandez2023-baby-purees-spain-elements",
+      "drop": [
+        "henriquez_hernandez2023-elemental-infant-purees",
+        "concentration2023-concentration-essential-toxic-rare"
+      ],
+      "members": [
+        {
+          "cite_key": "henriquez-hernandez2023-baby-purees-spain-elements",
+          "refs": 152,
+          "fields": 24,
+          "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "henriquez_hernandez2023-elemental-infant-purees",
+          "refs": 87,
+          "fields": 28,
+          "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "concentration2023-concentration-essential-toxic-rare",
+          "refs": 139,
+          "fields": 30,
+          "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s00217-015-2545-4",
+      "confidence": "high",
+      "canonical": "mleczek2015-cultivated-mushrooms-arsenic-substrate",
+      "drop": [
+        "mleczek2016-mushroom-arsenic-substrate"
+      ],
+      "members": [
+        {
+          "cite_key": "mleczek2015-cultivated-mushrooms-arsenic-substrate",
+          "refs": 17,
+          "fields": 21,
+          "title": "Importance of low substrate arsenic content in mushroom cultivation and safety of final food product",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "mleczek2016-mushroom-arsenic-substrate",
+          "refs": 9,
+          "fields": 21,
+          "title": "Importance of low substrate arsenic content in mushroom cultivation and safety of final food product",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s10653-023-01514-x",
+      "confidence": "high",
+      "canonical": "romero-crespo2023-trace-elements-crops-ecuador-mining",
+      "drop": [
+        "romero-crespo2023-ecuador-mining-crops-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "romero-crespo2023-trace-elements-crops-ecuador-mining",
+          "refs": 42,
+          "fields": 25,
+          "title": "Trace elements in farmland soils and crops, and probabilistic health risk assessment in areas influenced by mining activity in Ecuador",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "romero-crespo2023-ecuador-mining-crops-metals",
+          "refs": 33,
+          "fields": 24,
+          "title": "Heavy metals in soils and crops in a mining area of Ecuador",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s11356-015-5513-4",
+      "confidence": "high",
+      "canonical": "saba2015-suillus-luteus-mercury-europe",
+      "drop": [
+        "saba2016-suillus-luteus-mercury"
+      ],
+      "members": [
+        {
+          "cite_key": "saba2015-suillus-luteus-mercury-europe",
+          "refs": 15,
+          "fields": 21,
+          "title": "Accumulation and distribution of mercury in fruiting bodies by fungus Suillus luteus foraged in Poland, Belarus and Sweden",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "saba2016-suillus-luteus-mercury",
+          "refs": 9,
+          "fields": 21,
+          "title": "Accumulation and distribution of mercury in fruiting bodies by fungus Suillus luteus foraged in Poland, Belarus and Sweden",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s11356-021-15884-1",
+      "confidence": "high",
+      "canonical": "falandysz2021-boletus-edulis-braising-mercury",
+      "drop": [
+        "falandysz2022-boletus-mercury-methylmercury"
+      ],
+      "members": [
+        {
+          "cite_key": "falandysz2021-boletus-edulis-braising-mercury",
+          "refs": 17,
+          "fields": 21,
+          "title": "Total mercury and methylmercury (MeHg) in braised and crude Boletus edulis carpophores during various developmental stages",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "falandysz2022-boletus-mercury-methylmercury",
+          "refs": 10,
+          "fields": 21,
+          "title": "Total mercury and methylmercury (MeHg) in braised and crude Boletus edulis carpophores during various developmental stages",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s12011-024-04438-4",
+      "confidence": "review",
+      "canonical": "cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+      "drop": [
+        "cwielag-drabek2025-nuts-cd-pb-cr-ni-poland"
+      ],
+      "members": [
+        {
+          "cite_key": "cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+          "refs": 112,
+          "fields": 24,
+          "title": "Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
+          "refs": 105,
+          "fields": 24,
+          "title": "Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1007/s40495-019-00206-4",
+      "confidence": "high",
+      "canonical": "coryell2019-gut-microbiome-arsenic-toxicity",
+      "drop": [
+        "coryell2019-human-gut-microbiome-arsenic-toxicity"
+      ],
+      "members": [
+        {
+          "cite_key": "coryell2019-gut-microbiome-arsenic-toxicity",
+          "refs": 22,
+          "fields": 21,
+          "title": "The Human Gut Microbiome's Influence on Arsenic Toxicity",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "coryell2019-human-gut-microbiome-arsenic-toxicity",
+          "refs": 16,
+          "fields": 22,
+          "title": "The Human Gut Microbiome's Influence on Arsenic Toxicity",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.crtox.2024.100201",
+      "confidence": "high",
+      "canonical": "onyena2024-lactational-metals-africa-mediterranean",
+      "drop": [
+        "onyena2024-lactational-metals-africa-europe"
+      ],
+      "members": [
+        {
+          "cite_key": "onyena2024-lactational-metals-africa-mediterranean",
+          "refs": 23,
+          "fields": 25,
+          "title": "Lactational exposure of human infants to metal(loid)s in Sub-Saharan Africa and Mediterranean Europe: A systematic review and meta-analysis",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "onyena2024-lactational-metals-africa-europe",
+          "refs": 13,
+          "fields": 24,
+          "title": "Lactational Exposure of Human Infants to Metal(loid)s in Sub-Saharan Africa and Mediterranean Europe: A Systematic Review and Meta-Analysis",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1016/j.toxrep.2022.02.001",
+      "confidence": "high",
+      "canonical": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+      "drop": [
+        "parker2022-baby-food-risk-assessment-as-cd-hg-pb"
+      ],
+      "members": [
+        {
+          "cite_key": "parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+          "refs": 817,
+          "fields": 18,
+          "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+          "refs": 140,
+          "fields": 25,
+          "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-023-33919-0",
+      "confidence": "high",
+      "canonical": "sharafi2023-iran-breast-milk-metals",
+      "drop": [
+        "sharafi2023-breast-milk-toxic-elements"
+      ],
+      "members": [
+        {
+          "cite_key": "sharafi2023-iran-breast-milk-metals",
+          "refs": 31,
+          "fields": 21,
+          "title": "Human health risk assessment of potentially toxic elements in the breast milk consumed by infants in Western Iran",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "sharafi2023-breast-milk-toxic-elements",
+          "refs": 13,
+          "fields": 21,
+          "title": "Human health risk assessment of potentially toxic elements in the breast milk consumed by infants in Western Iran",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-024-53340-5",
+      "confidence": "high",
+      "canonical": "subhanullah2024-panjkora-fish-metals",
+      "drop": [
+        "subhanullah2024-panjkora-fish-water-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "subhanullah2024-panjkora-fish-metals",
+          "refs": 77,
+          "fields": 21,
+          "title": "The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus diplocheilus, and the well-being of human health",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "subhanullah2024-panjkora-fish-water-metals",
+          "refs": 17,
+          "fields": 21,
+          "title": "The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus aplocheilus, and the well-being of human health",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-025-06896-9",
+      "confidence": "high",
+      "canonical": "shavali-gilani2025-canned-tomato-olive-pickle-iran",
+      "drop": [
+        "shavalig2025-canned-tomato-olives-pickles-iran"
+      ],
+      "members": [
+        {
+          "cite_key": "shavali-gilani2025-canned-tomato-olive-pickle-iran",
+          "refs": 83,
+          "fields": 24,
+          "title": "Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "shavalig2025-canned-tomato-olives-pickles-iran",
+          "refs": 44,
+          "fields": 24,
+          "title": "Investigation of heavy metal levels in canned tomato paste, olives, and pickled",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-025-29927-x",
+      "confidence": "high",
+      "canonical": "rabeey2025-bovine-hg-pb-cd-egypt",
+      "drop": [
+        "rabeey2025-bovine-meat-organs-hg-pb-cd-egypt"
+      ],
+      "members": [
+        {
+          "cite_key": "rabeey2025-bovine-hg-pb-cd-egypt",
+          "refs": 63,
+          "fields": 25,
+          "title": "Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "rabeey2025-bovine-meat-organs-hg-pb-cd-egypt",
+          "refs": 32,
+          "fields": 26,
+          "title": "Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1038/srep46545",
+      "confidence": "high",
+      "canonical": "li2017-mercury-coal-power-plants-vegetables-grains",
+      "drop": [
+        "li2017-mercury-vegetables-grains-coal-power-china"
+      ],
+      "members": [
+        {
+          "cite_key": "li2017-mercury-coal-power-plants-vegetables-grains",
+          "refs": 36,
+          "fields": 24,
+          "title": "Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "li2017-mercury-vegetables-grains-coal-power-china",
+          "refs": 34,
+          "fields": 24,
+          "title": "Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1139/cjc-2020-0518",
+      "confidence": "high",
+      "canonical": "sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
+      "drop": [
+        "sadiq-beauchemin-2021-multielemental-baby-rice-cereals"
+      ],
+      "members": [
+        {
+          "cite_key": "sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
+          "refs": 124,
+          "fields": 25,
+          "title": "Multi-elemental risk assessment of various baby rice cereals: some cause for concern?",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "sadiq-beauchemin-2021-multielemental-baby-rice-cereals",
+          "refs": 83,
+          "fields": 23,
+          "title": "Multi-elemental risk assessment of various baby rice cereals: some cause for concern?",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1155/2018/2985698",
+      "confidence": "high",
+      "canonical": "eticha2018-infant-formula-metals-mekelle-ethiopia",
+      "drop": [
+        "infant2018-research"
+      ],
+      "members": [
+        {
+          "cite_key": "eticha2018-infant-formula-metals-mekelle-ethiopia",
+          "refs": 34,
+          "fields": 25,
+          "title": "Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "infant2018-research",
+          "refs": 20,
+          "fields": 25,
+          "title": "Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.1186/s12940-024-01115-w",
+      "confidence": "high",
+      "canonical": "kumar2024-arsenic-breast-milk-bihar-gangetic",
+      "drop": [
+        "research2024-research-open-access-y"
+      ],
+      "members": [
+        {
+          "cite_key": "kumar2024-arsenic-breast-milk-bihar-gangetic",
+          "refs": 40,
+          "fields": 24,
+          "title": "High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "research2024-research-open-access-y",
+          "refs": 61,
+          "fields": 22,
+          "title": "High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.12688/f1000research.175538.1",
+      "confidence": "high",
+      "canonical": "dearing2025-nz-organic-nonorganic-vegetables-cyclone",
+      "drop": [
+        "dearing2025-hawkes-bay-organic-nonorganic-vegetables"
+      ],
+      "members": [
+        {
+          "cite_key": "dearing2025-nz-organic-nonorganic-vegetables-cyclone",
+          "refs": 122,
+          "fields": 23,
+          "title": "Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "dearing2025-hawkes-bay-organic-nonorganic-vegetables",
+          "refs": 73,
+          "fields": 24,
+          "title": "Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1289/ehp.11094",
+      "confidence": "review",
+      "canonical": "fangstrom2008-breastfeeding-arsenic-protection-bangladesh",
+      "drop": [
+        "breast-feeding2008-breast-feeding-protects-against-arsenic"
+      ],
+      "members": [
+        {
+          "cite_key": "fangstrom2008-breastfeeding-arsenic-protection-bangladesh",
+          "refs": 13,
+          "fields": 24,
+          "title": "Breast-Feeding Protects against Arsenic Exposure in Bangladeshi Infants",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "breast-feeding2008-breast-feeding-protects-against-arsenic",
+          "refs": 9,
+          "fields": 25,
+          "title": "Breast-feeding Protects against Arsenic Exposure in Bangladeshi Infants",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0194700",
+      "confidence": "high",
+      "canonical": "carey2018-rice-dilution-infant-food-eu-arsenic",
+      "drop": [
+        "carey2018-rice-dilution-glutenfree-eu"
+      ],
+      "members": [
+        {
+          "cite_key": "carey2018-rice-dilution-infant-food-eu-arsenic",
+          "refs": 137,
+          "fields": 24,
+          "title": "Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "carey2018-rice-dilution-glutenfree-eu",
+          "refs": 9,
+          "fields": 25,
+          "title": "Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.15414/jmbfs.2019/20.9.3.657-660",
+      "confidence": "high",
+      "canonical": "janco2019-boletus-reticulatus-slovakia-cd-pb-hg",
+      "drop": [
+        "janco2019-boletus-reticulatus-mushroom-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "janco2019-boletus-reticulatus-slovakia-cd-pb-hg",
+          "refs": 19,
+          "fields": 21,
+          "title": "The relationship between risk elements contamination of wild edible mushrooms (Boletus reticulatus Schaeff.) and underlying soil substrate",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "janco2019-boletus-reticulatus-mushroom-metals",
+          "refs": 11,
+          "fields": 21,
+          "title": "The relationship between risk elements contamination of wild edible mushrooms (Boletus reticulatus Schaeff.) and underlying soil substrate",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.15620/cdc:95222",
+      "confidence": "high",
+      "canonical": "atsdr-lead-toxprofile-2020",
+      "drop": [
+        "atsdr2020-lead-toxicological-profile"
+      ],
+      "members": [
+        {
+          "cite_key": "atsdr-lead-toxprofile-2020",
+          "refs": 57,
+          "fields": 25,
+          "title": "Toxicological Profile for Lead",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "atsdr2020-lead-toxicological-profile",
+          "refs": 12,
+          "fields": 25,
+          "title": "Toxicological Profile for Lead",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.1590/1678-457x.0029",
+      "confidence": "high",
+      "canonical": "sattler2016-bee-pollen-metals",
+      "drop": [
+        "sattler2016-bee-pollen-minerals-contaminants"
+      ],
+      "members": [
+        {
+          "cite_key": "sattler2016-bee-pollen-metals",
+          "refs": 84,
+          "fields": 21,
+          "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "sattler2016-bee-pollen-minerals-contaminants",
+          "refs": 25,
+          "fields": 21,
+          "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.31925/farmacia.2019.3.3",
+      "confidence": "high",
+      "canonical": "mititelu2019-romania-wild-edible-mushrooms-metals",
+      "drop": [
+        "mititelu2019-romania-edible-mushrooms-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "mititelu2019-romania-wild-edible-mushrooms-metals",
+          "refs": 21,
+          "fields": 21,
+          "title": "The Influence of Heavy Metals Contamination in Soil on the Composition of Some Wild Edible Mushrooms",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "mititelu2019-romania-edible-mushrooms-metals",
+          "refs": 12,
+          "fields": 21,
+          "title": "The influence of heavy metals contamination in soil on the composition of some wild edible mushrooms",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3389/fnut.2023.1209574",
+      "confidence": "high",
+      "canonical": "su2023-arsenic-brown-rice-benefits-risks",
+      "drop": [
+        "su-2023-arsenic-brown-rice"
+      ],
+      "members": [
+        {
+          "cite_key": "su2023-arsenic-brown-rice-benefits-risks",
+          "refs": 68,
+          "fields": 25,
+          "title": "Arsenic in brown rice: do the benefits outweigh the risks?",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "su-2023-arsenic-brown-rice",
+          "refs": 31,
+          "fields": 23,
+          "title": "Arsenic in Brown Rice: Do the Benefits Outweigh the Risks?",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3389/fnut.2024.1366231",
+      "confidence": "high",
+      "canonical": "hands2024-multiyear-dark-chocolate-cocoa-usa",
+      "drop": [
+        "hands2024-dark-chocolate-cocoa-heavy-metals-usa"
+      ],
+      "members": [
+        {
+          "cite_key": "hands2024-multiyear-dark-chocolate-cocoa-usa",
+          "refs": 86,
+          "fields": 25,
+          "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "hands2024-dark-chocolate-cocoa-heavy-metals-usa",
+          "refs": 58,
+          "fields": 25,
+          "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3389/fpubh.2024.1352043",
+      "confidence": "high",
+      "canonical": "guo2024-duck-eggs-hg-mining-china",
+      "drop": [
+        "guo2024-heavy-metals-duck-eggs-mercury-mine-china"
+      ],
+      "members": [
+        {
+          "cite_key": "guo2024-duck-eggs-hg-mining-china",
+          "refs": 39,
+          "fields": 25,
+          "title": "Heavy metal contamination in duck eggs near mercury mining areas in southwest China",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "guo2024-heavy-metals-duck-eggs-mercury-mine-china",
+          "refs": 29,
+          "fields": 24,
+          "title": "Heavy metal contamination in duck eggs from a mercury mining area, southwestern China",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/foods12142732",
+      "confidence": "review",
+      "canonical": "price2023-biokinetic-lead-baby-food-blls",
+      "drop": [
+        "extending2023-extending-regulatory-biokinetic-lead"
+      ],
+      "members": [
+        {
+          "cite_key": "price2023-biokinetic-lead-baby-food-blls",
+          "refs": 162,
+          "fields": 26,
+          "title": "Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "extending2023-extending-regulatory-biokinetic-lead",
+          "refs": 11,
+          "fields": 25,
+          "title": "Extending Regulatory Biokinetic Lead Models towards Food Safety—Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/foods14132264",
+      "confidence": "high",
+      "canonical": "saleem2025-nd-vegetables-hra",
+      "drop": [
+        "saleem2025-locally-grown-vegetables-north-dakota"
+      ],
+      "members": [
+        {
+          "cite_key": "saleem2025-nd-vegetables-hra",
+          "refs": 68,
+          "fields": 23,
+          "title": "Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "saleem2025-locally-grown-vegetables-north-dakota",
+          "refs": 52,
+          "fields": 24,
+          "title": "Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ijerph19105788",
+      "confidence": "high",
+      "canonical": "neuwirth2022-baby-cereals-lead-arsenic",
+      "drop": [
+        "cereal2013-cereal-juice-lead-arsenic"
+      ],
+      "members": [
+        {
+          "cite_key": "neuwirth2022-baby-cereals-lead-arsenic",
+          "refs": 83,
+          "fields": 25,
+          "title": "Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "cereal2013-cereal-juice-lead-arsenic",
+          "refs": 114,
+          "fields": 25,
+          "title": "Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.3390/ijerph192316232",
+      "confidence": "high",
+      "canonical": "garciasalcedo2022-arsenic-biomonitoring-mexico",
+      "drop": [
+        "garcia-salcedo2022-arsenic-biomonitoring-mexico"
+      ],
+      "members": [
+        {
+          "cite_key": "garciasalcedo2022-arsenic-biomonitoring-mexico",
+          "refs": 11,
+          "fields": 25,
+          "title": "Comparative Biomonitoring of Arsenic Exposure in Mothers and Their Neonates in Comarca Lagunera, Mexico",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "garcia-salcedo2022-arsenic-biomonitoring-mexico",
+          "refs": 10,
+          "fields": 24,
+          "title": "Comparative Biomonitoring of Arsenic Exposure in Mothers and Their Neonates in Comarca Lagunera, Mexico",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.3889/oamjms.2019.706",
+      "confidence": "high",
+      "canonical": "igweze2019-trace-metals-infant-formula-nigeria",
+      "drop": [
+        "keywords2019-appropriateness-essentials-trace-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "igweze2019-trace-metals-infant-formula-nigeria",
+          "refs": 28,
+          "fields": 24,
+          "title": "Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "keywords2019-appropriateness-essentials-trace-metals",
+          "refs": 114,
+          "fields": 29,
+          "title": "Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.4103/1735-1995.193499",
+      "confidence": "high",
+      "canonical": "kelishadi2016-jujube-fruit-heavy-metals-breast-milk",
+      "drop": [
+        "introduction2014-randomized-controlled-trial-jujube"
+      ],
+      "members": [
+        {
+          "cite_key": "kelishadi2016-jujube-fruit-heavy-metals-breast-milk",
+          "refs": 15,
+          "fields": 24,
+          "title": "A Randomized Controlled Trial on the Effects of Jujube Fruit on the Concentrations of Some Toxic Trace Elements in Human Milk",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "introduction2014-randomized-controlled-trial-jujube",
+          "refs": 26,
+          "fields": 31,
+          "title": "A randomized controlled trial on the effects of jujube fruit on the concentrations of some toxic trace elements in human milk",
+          "garbage_key": true
+        }
+      ]
+    },
+    {
+      "doi": "10.46234/ccdcw2022.045",
+      "confidence": "high",
+      "canonical": "zhao2022-china-tds6-lead-cadmium-exposure",
+      "drop": [
+        "zhao2022-china-sixth-tds-pb-cd"
+      ],
+      "members": [
+        {
+          "cite_key": "zhao2022-china-tds6-lead-cadmium-exposure",
+          "refs": 52,
+          "fields": 24,
+          "title": "Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "zhao2022-china-sixth-tds-pb-cd",
+          "refs": 47,
+          "fields": 23,
+          "title": "Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.53424/balikesirsbd.1160866",
+      "confidence": "high",
+      "canonical": "mercan-yucel2022-van-spices-heavy-metals",
+      "drop": [
+        "mercanyucel2022-van-spices-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "mercan-yucel2022-van-spices-heavy-metals",
+          "refs": 110,
+          "fields": 21,
+          "title": "Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "mercanyucel2022-van-spices-metals",
+          "refs": 68,
+          "fields": 21,
+          "title": "Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.54117/ijph.v3i2.22",
+      "confidence": "high",
+      "canonical": "fagbemi2023-akure-street-foods-lead",
+      "drop": [
+        "fagbemi2023-akure-street-food-lead"
+      ],
+      "members": [
+        {
+          "cite_key": "fagbemi2023-akure-street-foods-lead",
+          "refs": 111,
+          "fields": 21,
+          "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "fagbemi2023-akure-street-food-lead",
+          "refs": 26,
+          "fields": 21,
+          "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.5943/cream/6/3/2",
+      "confidence": "high",
+      "canonical": "lalotra2016-jammu-wild-mushrooms-heavy-metals",
+      "drop": [
+        "lalotra2016-jammu-wild-mushrooms-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "lalotra2016-jammu-wild-mushrooms-heavy-metals",
+          "refs": 17,
+          "fields": 21,
+          "title": "Bioaccumulation of heavy metals in the sporocarps of some wild mushrooms",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "lalotra2016-jammu-wild-mushrooms-metals",
+          "refs": 10,
+          "fields": 21,
+          "title": "Bioaccumulation of heavy metals in the sporocarps of some wild mushrooms",
+          "garbage_key": false
+        }
+      ]
+    },
+    {
+      "doi": "10.62051/ijnres.v2n1.21",
+      "confidence": "high",
+      "canonical": "wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
+      "drop": [
+        "wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals"
+      ],
+      "members": [
+        {
+          "cite_key": "wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
+          "refs": 183,
+          "fields": 27,
+          "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
+          "garbage_key": false
+        },
+        {
+          "cite_key": "wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+          "refs": 151,
+          "fields": 27,
+          "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
+          "garbage_key": false
+        }
+      ]
+    }
+  ]
+}

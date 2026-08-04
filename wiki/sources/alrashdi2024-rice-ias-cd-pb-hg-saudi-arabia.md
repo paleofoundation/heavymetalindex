@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_11569018/FM_11569018.md
 metals: [tAs, iAs, Cd, Pb, tHg]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/rice-bulk-grain]]"]
 matrices: [rice-grain]
 jurisdictions: [SA]
 near_duplicates: [FM_11569018_Chemical_analysis_of_toxic_elements_total_cadmium_lead_mercu]

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: toothpaste
 public_page: products/toothpaste
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Toothpaste (Cat 2)

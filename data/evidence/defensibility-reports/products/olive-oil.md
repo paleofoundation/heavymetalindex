@@ -2,15 +2,15 @@
 source_page: wiki/products/olive-oil.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9b0d8561ee1903940790cac6eb7c5c1210eb34ff1886b015e57e6602d4b51d25
+source_page_sha256: 1fddade7a6e520b44d069c30554388e5498eba1b46267241b40e9b4f0b40ea00
 total_claims: 1
 cited_claims: 0
 uncited_claims: 1
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 2
+audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -34,14 +34,15 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 1 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 2 |
+| audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
 - `edit_id=cat7-primary-metals-olive-oil-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-primary-metals
 - `edit_id=cat7-step0-lock-olive-oil-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
+- `edit_id=taxonomy-v2.2-cat7dissolution-olive-oil-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T02:00:00Z · span=v2.2-cat7-dissolution
 
 ## Claims by section
 

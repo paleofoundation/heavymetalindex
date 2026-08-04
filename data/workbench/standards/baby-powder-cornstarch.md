@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-powder-cornstarch
 public_page: products/baby-powder-cornstarch
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Baby Powder, Cornstarch-Based

@@ -1181,3 +1181,6 @@
 {"ts": "2026-06-11T08:06:13Z", "actor": "codex", "status": "rescreen-start", "automation_id": "hmi-corpus-re-screen-loop", "batch_id": "2026-06-11-b01", "note": "Started metadata-first corpus rescreen from clean origin/main worktree."}
 {"ts": "2026-06-11T08:06:13Z", "actor": "codex", "status": "rescreen-batch-written", "automation_id": "hmi-corpus-re-screen-loop", "batch_id": "2026-06-11-b01", "screened": 100, "new": 40, "needs_deep_read": 22, "wikibiome_handoff": 1, "duplicate": 1, "genuinely_out": 36}
 {"ts": "2026-06-11T08:06:13Z", "actor": "codex", "status": "rescreen-state-updated", "automation_id": "hmi-corpus-re-screen-loop", "batch_id": "2026-06-11-b01", "manual_selected": 60, "wishlist_selected": 40}
+{"ts":"2026-07-28T16:59:38.016Z","actor":"codex-auditor","source_path":"raw/Manual Resourcing/OJ_L_202401987_EN_nickel-maximum-levels.pdf","cite_key":"eu-2024-1987-nickel-maximum-levels","status":"audited:REVISE","commit":"","blocker":"","next":"conductor review"}
+{"ts":"2026-07-28T17:04:51.700Z","actor":"drain","source_path":"","cite_key":"","status":"cycle-1-complete","commit":"","blocker":"","next":"assigned=15 committed_total=0"}
+{"ts":"2026-07-28T17:05:39.598Z","actor":"drain","source_path":"","cite_key":"","status":"cycle-1-complete","commit":"","blocker":"","next":"assigned=6 committed_total=0"}

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-09T10:33:26.163Z",
+  "generated_at": "2026-07-27T14:02:51.084Z",
   "source": "gap-driven (build-targeted-queries.mjs)",
-  "total_candidates": 3039,
+  "total_candidates": 3062,
   "emitted": 3000,
   "cap": 3000,
   "breakdown": {
-    "hmtc_blocked": 302,
+    "hmtc_blocked": 325,
     "autonomy_gap_driven": 2500,
     "ingredient_pending": 237
   },
@@ -1156,6 +1156,64 @@
       }
     },
     {
+      "id": "GAP-childrens-jewelry-Cd",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"childrens jewelry\" cadmium concentration",
+      "search_query_full": "(\"childrens jewelry\" OR \"\") cadmium OR Cd (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "childrens jewelry"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "childrens-jewelry",
+        "metal": "Cd",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-childrens-jewelry-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"childrens jewelry\" lead concentration",
+      "search_query_full": "(\"childrens jewelry\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "childrens jewelry"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "childrens-jewelry",
+        "metal": "Pb",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
       "id": "GAP-childrens-lip-balm-mineral-bearing-Cd",
       "section": "hmtc-gap-blocked",
       "priority": "high",
@@ -2041,6 +2099,35 @@
       }
     },
     {
+      "id": "GAP-fish-freshwater-Cd",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"fish freshwater\" cadmium concentration",
+      "search_query_full": "(\"fish freshwater\" OR \"\") cadmium OR Cd (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "fish freshwater"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "fish-freshwater",
+        "metal": "Cd",
+        "reason": "BLOCKED: local extraction pending",
+        "regulatory_cap": "50"
+      }
+    },
+    {
       "id": "GAP-fish-freshwater-Hg",
       "section": "hmtc-gap-blocked",
       "priority": "high",
@@ -2123,6 +2210,37 @@
         "metal": "Pb",
         "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": "300"
+      }
+    },
+    {
+      "id": "GAP-fish-freshwater-tHg",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"fish freshwater\" mercury concentration",
+      "search_query_full": "(\"fish freshwater\" OR \"\") mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "fish freshwater"
+        ],
+        "regions": [],
+        "metals": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "metal_search_terms": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "fish-freshwater",
+        "metal": "tHg",
+        "reason": "BLOCKED: local extraction pending",
+        "regulatory_cap": "500"
       }
     },
     {
@@ -2242,6 +2360,35 @@
       }
     },
     {
+      "id": "GAP-fish-marine-non-predatory-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"fish marine non predatory\" lead concentration",
+      "search_query_full": "(\"fish marine non predatory\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "fish marine non predatory"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "fish-marine-non-predatory",
+        "metal": "Pb",
+        "reason": "BLOCKED: local extraction pending",
+        "regulatory_cap": "300"
+      }
+    },
+    {
       "id": "GAP-fish-marine-non-predatory-tHg",
       "section": "hmtc-gap-blocked",
       "priority": "high",
@@ -2269,7 +2416,7 @@
         "slug": "fish-marine-non-predatory",
         "metal": "tHg",
         "reason": "BLOCKED: local extraction pending",
-        "regulatory_cap": ""
+        "regulatory_cap": "500"
       }
     },
     {
@@ -2298,7 +2445,7 @@
         "slug": "fish-marine-predatory",
         "metal": "Cd",
         "reason": "BLOCKED: local extraction pending",
-        "regulatory_cap": ""
+        "regulatory_cap": "50"
       }
     },
     {
@@ -2328,6 +2475,35 @@
         "metal": "MeHg",
         "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": "1000"
+      }
+    },
+    {
+      "id": "GAP-fish-marine-predatory-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"fish marine predatory\" lead concentration",
+      "search_query_full": "(\"fish marine predatory\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "fish marine predatory"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "fish-marine-predatory",
+        "metal": "Pb",
+        "reason": "BLOCKED: local extraction pending",
+        "regulatory_cap": "300"
       }
     },
     {
@@ -2661,6 +2837,122 @@
         "slug": "herbal-botanical-infusions",
         "metal": "Pb",
         "reason": "BLOCKED: local extraction pending",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-honey-Cd",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"honey\" cadmium concentration",
+      "search_query_full": "(\"honey\" OR \"\") cadmium OR Cd (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "honey"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "honey",
+        "metal": "Cd",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-honey-Cr",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"honey\" chromium concentration",
+      "search_query_full": "(\"honey\" OR \"\") chromium OR Cr (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "honey"
+        ],
+        "regions": [],
+        "metals": [
+          "chromium",
+          "Cr"
+        ],
+        "metal_search_terms": [
+          "chromium",
+          "Cr"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "honey",
+        "metal": "Cr",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-honey-Ni",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"honey\" nickel concentration",
+      "search_query_full": "(\"honey\" OR \"\") nickel OR Ni (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "honey"
+        ],
+        "regions": [],
+        "metals": [
+          "nickel",
+          "Ni"
+        ],
+        "metal_search_terms": [
+          "nickel",
+          "Ni"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "honey",
+        "metal": "Ni",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-honey-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"honey\" lead concentration",
+      "search_query_full": "(\"honey\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "honey"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "honey",
+        "metal": "Pb",
+        "reason": "BLOCKED: no structured evidence loaded",
         "regulatory_cap": ""
       }
     },
@@ -5963,6 +6255,124 @@
       }
     },
     {
+      "id": "GAP-lipstick-Al",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"lipstick\" aluminum concentration",
+      "search_query_full": "(\"lipstick\" OR \"\") aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "lipstick"
+        ],
+        "regions": [],
+        "metals": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "metal_search_terms": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "lipstick",
+        "metal": "Al",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-lipstick-Cd",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"lipstick\" cadmium concentration",
+      "search_query_full": "(\"lipstick\" OR \"\") cadmium OR Cd (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "lipstick"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "lipstick",
+        "metal": "Cd",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-lipstick-Cr",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"lipstick\" chromium concentration",
+      "search_query_full": "(\"lipstick\" OR \"\") chromium OR Cr (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "lipstick"
+        ],
+        "regions": [],
+        "metals": [
+          "chromium",
+          "Cr"
+        ],
+        "metal_search_terms": [
+          "chromium",
+          "Cr"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "lipstick",
+        "metal": "Cr",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-lipstick-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"lipstick\" lead concentration",
+      "search_query_full": "(\"lipstick\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "lipstick"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "lipstick",
+        "metal": "Pb",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
       "id": "GAP-matcha-Al",
       "section": "hmtc-gap-blocked",
       "priority": "high",
@@ -7569,6 +7979,68 @@
       }
     },
     {
+      "id": "GAP-salt-tAs",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"salt\" arsenic concentration",
+      "search_query_full": "(\"salt\" OR \"\") arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "salt"
+        ],
+        "regions": [],
+        "metals": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "metal_search_terms": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "salt",
+        "metal": "tAs",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": "500"
+      }
+    },
+    {
+      "id": "GAP-salt-tHg",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"salt\" mercury concentration",
+      "search_query_full": "(\"salt\" OR \"\") mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "salt"
+        ],
+        "regions": [],
+        "metals": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "metal_search_terms": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "salt",
+        "metal": "tHg",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": "100"
+      }
+    },
+    {
       "id": "GAP-snack-bars-energy-bars-Cd",
       "section": "hmtc-gap-blocked",
       "priority": "high",
@@ -8457,6 +8929,126 @@
       }
     },
     {
+      "id": "GAP-tea-infusions-Al",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"tea infusions\" aluminum concentration",
+      "search_query_full": "(\"tea infusions\" OR \"\") aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "tea infusions"
+        ],
+        "regions": [],
+        "metals": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "metal_search_terms": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "tea-infusions",
+        "metal": "Al",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-tea-infusions-Cd",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"tea infusions\" cadmium concentration",
+      "search_query_full": "(\"tea infusions\" OR \"\") cadmium OR Cd (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "tea infusions"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "tea-infusions",
+        "metal": "Cd",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-tea-infusions-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"tea infusions\" lead concentration",
+      "search_query_full": "(\"tea infusions\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "tea infusions"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "tea-infusions",
+        "metal": "Pb",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-tea-infusions-tAs",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"tea infusions\" arsenic concentration",
+      "search_query_full": "(\"tea infusions\" OR \"\") arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "tea infusions"
+        ],
+        "regions": [],
+        "metals": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "metal_search_terms": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "tea-infusions",
+        "metal": "tAs",
+        "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
       "id": "GAP-teething-and-snacks-non-rice-Cd",
       "section": "hmtc-gap-blocked",
       "priority": "high",
@@ -8990,6 +9582,95 @@
         "slug": "water-filters",
         "metal": "tAs",
         "reason": "BLOCKED: no structured evidence loaded",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-wild-mushrooms-Cd",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"wild mushrooms\" cadmium concentration",
+      "search_query_full": "(\"wild mushrooms\" OR \"\") cadmium OR Cd (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "wild mushrooms"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "wild-mushrooms",
+        "metal": "Cd",
+        "reason": "BLOCKED: local candidate review pending",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-wild-mushrooms-Pb",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"wild mushrooms\" lead concentration",
+      "search_query_full": "(\"wild mushrooms\" OR \"\") lead OR Pb (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "wild mushrooms"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "wild-mushrooms",
+        "metal": "Pb",
+        "reason": "BLOCKED: local candidate review pending",
+        "regulatory_cap": ""
+      }
+    },
+    {
+      "id": "GAP-wild-mushrooms-tHg",
+      "section": "hmtc-gap-blocked",
+      "priority": "high",
+      "search_query_core": "\"wild mushrooms\" mercury concentration",
+      "search_query_full": "(\"wild mushrooms\" OR \"\") mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence OR exposure)",
+      "extracted": {
+        "crops": [
+          "wild mushrooms"
+        ],
+        "regions": [],
+        "metals": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "metal_search_terms": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "product",
+        "slug": "wild-mushrooms",
+        "metal": "tHg",
+        "reason": "BLOCKED: local candidate review pending",
         "regulatory_cap": ""
       }
     },
@@ -90224,691 +90905,6 @@
         "kind": "ingredient",
         "slug": "pear-juice",
         "metal": "Al",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-Cd",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice cadmium concentration",
-      "search_query_full": "pear juice cadmium OR Cd (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "cadmium",
-          "Cd"
-        ],
-        "metal_search_terms": [
-          "cadmium",
-          "Cd"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "Cd",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-iAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice inorganic arsenic concentration",
-      "search_query_full": "pear juice inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "iAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-MeHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice methylmercury concentration",
-      "search_query_full": "pear juice methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "metal_search_terms": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "MeHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-Ni",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice nickel concentration",
-      "search_query_full": "pear juice nickel OR Ni (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "nickel",
-          "Ni"
-        ],
-        "metal_search_terms": [
-          "nickel",
-          "Ni"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "Ni",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-Pb",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice lead concentration",
-      "search_query_full": "pear juice lead OR Pb (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "lead",
-          "Pb"
-        ],
-        "metal_search_terms": [
-          "lead",
-          "Pb"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "Pb",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-Sn",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice tin concentration",
-      "search_query_full": "pear juice tin OR Sn (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "tin",
-          "Sn"
-        ],
-        "metal_search_terms": [
-          "tin",
-          "Sn"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "Sn",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-tAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice arsenic concentration",
-      "search_query_full": "pear juice arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "tAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pear-juice-tHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pear juice mercury concentration",
-      "search_query_full": "pear juice mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pear juice"
-        ],
-        "regions": [],
-        "metals": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "metal_search_terms": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pear-juice",
-        "metal": "tHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-Al",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple aluminum concentration",
-      "search_query_full": "pineapple aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "metal_search_terms": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "Al",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-Cd",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple cadmium concentration",
-      "search_query_full": "pineapple cadmium OR Cd (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "cadmium",
-          "Cd"
-        ],
-        "metal_search_terms": [
-          "cadmium",
-          "Cd"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "Cd",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-iAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple inorganic arsenic concentration",
-      "search_query_full": "pineapple inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "iAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-MeHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple methylmercury concentration",
-      "search_query_full": "pineapple methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "metal_search_terms": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "MeHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-Ni",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple nickel concentration",
-      "search_query_full": "pineapple nickel OR Ni (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "nickel",
-          "Ni"
-        ],
-        "metal_search_terms": [
-          "nickel",
-          "Ni"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "Ni",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-Pb",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple lead concentration",
-      "search_query_full": "pineapple lead OR Pb (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "lead",
-          "Pb"
-        ],
-        "metal_search_terms": [
-          "lead",
-          "Pb"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "Pb",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-Sn",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple tin concentration",
-      "search_query_full": "pineapple tin OR Sn (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "tin",
-          "Sn"
-        ],
-        "metal_search_terms": [
-          "tin",
-          "Sn"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "Sn",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-tAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple arsenic concentration",
-      "search_query_full": "pineapple arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "tAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-pineapple-tHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "pineapple mercury concentration",
-      "search_query_full": "pineapple mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "pineapple"
-        ],
-        "regions": [],
-        "metals": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "metal_search_terms": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "pineapple",
-        "metal": "tHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-Al",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk aluminum concentration",
-      "search_query_full": "rice milk aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "metal_search_terms": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "Al",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-Cd",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk cadmium concentration",
-      "search_query_full": "rice milk cadmium OR Cd (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "cadmium",
-          "Cd"
-        ],
-        "metal_search_terms": [
-          "cadmium",
-          "Cd"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "Cd",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-iAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk inorganic arsenic concentration",
-      "search_query_full": "rice milk inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "iAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-MeHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk methylmercury concentration",
-      "search_query_full": "rice milk methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "metal_search_terms": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "MeHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-Ni",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk nickel concentration",
-      "search_query_full": "rice milk nickel OR Ni (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "nickel",
-          "Ni"
-        ],
-        "metal_search_terms": [
-          "nickel",
-          "Ni"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "Ni",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-rice-milk-Pb",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "rice milk lead concentration",
-      "search_query_full": "rice milk lead OR Pb (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "rice milk"
-        ],
-        "regions": [],
-        "metals": [
-          "lead",
-          "Pb"
-        ],
-        "metal_search_terms": [
-          "lead",
-          "Pb"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "rice-milk",
-        "metal": "Pb",
         "status": "pending",
         "n_studies": 0
       }

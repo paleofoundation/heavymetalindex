@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T19:27:47.472Z",
+  "generated_at": "2026-06-23T14:09:22.947Z",
   "schema_version": "hmi.risk-map.v1",
   "canonical_base": "https://heavymetalindex.com",
   "disclaimer": "Ranks where heavy-metal exposure originates within each category's declared ingredient targets, by literature-reported concentration. Ingredient-level evidence, not finished-product measurement, and not a certification threshold.",
@@ -343,7 +343,7 @@
                 200
               ],
               "p95_ppb": 323,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 6,
               "share": 0.642
             },
@@ -379,7 +379,7 @@
                 300
               ],
               "p95_ppb": 400,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 5,
               "share": 1
             }
@@ -1307,16 +1307,32 @@
         "Pb",
         "Cd",
         "tAs",
+        "Ni",
         "Al",
+        "Cr",
         "Sn"
       ],
       "metals": {
         "Pb": {
           "label": "Lead",
-          "top_driver": "fruit-purees",
-          "top_driver_share": 0.512,
-          "driver_count": 2,
+          "top_driver": "apple",
+          "top_driver_share": 0.936,
+          "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 150,
+              "typical_ppb": [
+                1,
+                50
+              ],
+              "p95_ppb": 150,
+              "confidence": "medium",
+              "n_studies": 6,
+              "share": 0.936
+            },
             {
               "ingredient": "fruit-purees",
               "title": "Fruit Purees",
@@ -1329,7 +1345,7 @@
               "p95_ppb": 5.24,
               "confidence": "low",
               "n_studies": 3,
-              "share": 0.512
+              "share": 0.033
             },
             {
               "ingredient": "fruit-juice",
@@ -1343,16 +1359,30 @@
               "p95_ppb": null,
               "confidence": "low",
               "n_studies": 2,
-              "share": 0.488
+              "share": 0.031
             }
           ]
         },
         "Cd": {
           "label": "Cadmium",
-          "top_driver": "fruit-purees",
-          "top_driver_share": 1,
-          "driver_count": 1,
+          "top_driver": "apple",
+          "top_driver_share": 0.884,
+          "driver_count": 2,
           "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 30,
+              "typical_ppb": [
+                1,
+                10
+              ],
+              "p95_ppb": 30,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 0.884
+            },
             {
               "ingredient": "fruit-purees",
               "title": "Fruit Purees",
@@ -1365,7 +1395,7 @@
               "p95_ppb": 3.95,
               "confidence": "low",
               "n_studies": 5,
-              "share": 1
+              "share": 0.116
             }
           ]
         },
@@ -1419,6 +1449,28 @@
             }
           ]
         },
+        "Ni": {
+          "label": "Nickel",
+          "top_driver": "apple",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 360,
+              "typical_ppb": [
+                1,
+                110
+              ],
+              "p95_ppb": 360,
+              "confidence": "low",
+              "n_studies": 3,
+              "share": 1
+            }
+          ]
+        },
         "Al": {
           "label": "Aluminum",
           "top_driver": "apple",
@@ -1435,8 +1487,30 @@
                 1410
               ],
               "p95_ppb": 1645,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
+              "share": 1
+            }
+          ]
+        },
+        "Cr": {
+          "label": "Chromium (total)",
+          "top_driver": "apple",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 126,
+              "typical_ppb": [
+                4,
+                57
+              ],
+              "p95_ppb": 126,
+              "confidence": "low",
+              "n_studies": 3,
               "share": 1
             }
           ]
@@ -1457,7 +1531,7 @@
                 16.4
               ],
               "p95_ppb": 20.8,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 1
             }
@@ -1640,16 +1714,31 @@
         "tAs",
         "Ni",
         "Al",
+        "Cr",
         "Sn",
         "U"
       ],
       "metals": {
         "Pb": {
           "label": "Lead",
-          "top_driver": "fruit-purees",
-          "top_driver_share": 1,
-          "driver_count": 1,
+          "top_driver": "apple",
+          "top_driver_share": 0.966,
+          "driver_count": 2,
           "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 150,
+              "typical_ppb": [
+                1,
+                50
+              ],
+              "p95_ppb": 150,
+              "confidence": "medium",
+              "n_studies": 6,
+              "share": 0.966
+            },
             {
               "ingredient": "fruit-purees",
               "title": "Fruit Purees",
@@ -1662,16 +1751,30 @@
               "p95_ppb": 5.24,
               "confidence": "low",
               "n_studies": 3,
-              "share": 1
+              "share": 0.034
             }
           ]
         },
         "Cd": {
           "label": "Cadmium",
-          "top_driver": "fruit-purees",
-          "top_driver_share": 0.414,
-          "driver_count": 3,
+          "top_driver": "apple",
+          "top_driver_share": 0.759,
+          "driver_count": 4,
           "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 30,
+              "typical_ppb": [
+                1,
+                10
+              ],
+              "p95_ppb": 30,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 0.759
+            },
             {
               "ingredient": "fruit-purees",
               "title": "Fruit Purees",
@@ -1684,7 +1787,7 @@
               "p95_ppb": 3.95,
               "confidence": "low",
               "n_studies": 5,
-              "share": 0.414
+              "share": 0.1
             },
             {
               "ingredient": "peach",
@@ -1696,9 +1799,9 @@
                 1.8
               ],
               "p95_ppb": 2.9,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
-              "share": 0.304
+              "share": 0.073
             },
             {
               "ingredient": "pear",
@@ -1710,9 +1813,9 @@
                 1.8
               ],
               "p95_ppb": 2.7,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
-              "share": 0.283
+              "share": 0.068
             }
           ]
         },
@@ -1754,7 +1857,7 @@
                 8.3
               ],
               "p95_ppb": 9.3,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
               "share": 0.302
             },
@@ -1768,7 +1871,7 @@
                 7.9
               ],
               "p95_ppb": 8.5,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
               "share": 0.276
             },
@@ -1804,10 +1907,24 @@
         },
         "Ni": {
           "label": "Nickel",
-          "top_driver": "pear",
-          "top_driver_share": 0.35,
-          "driver_count": 3,
+          "top_driver": "apple",
+          "top_driver_share": 0.519,
+          "driver_count": 4,
           "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 360,
+              "typical_ppb": [
+                1,
+                110
+              ],
+              "p95_ppb": 360,
+              "confidence": "low",
+              "n_studies": 3,
+              "share": 0.519
+            },
             {
               "ingredient": "pear",
               "title": "Pear",
@@ -1818,9 +1935,9 @@
                 102.8
               ],
               "p95_ppb": 117,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
-              "share": 0.35
+              "share": 0.169
             },
             {
               "ingredient": "banana",
@@ -1832,9 +1949,9 @@
                 57
               ],
               "p95_ppb": 109.9,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 3,
-              "share": 0.329
+              "share": 0.158
             },
             {
               "ingredient": "peach",
@@ -1846,9 +1963,9 @@
                 100
               ],
               "p95_ppb": 107,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
-              "share": 0.32
+              "share": 0.154
             }
           ]
         },
@@ -1868,8 +1985,30 @@
                 1410
               ],
               "p95_ppb": 1645,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
+              "share": 1
+            }
+          ]
+        },
+        "Cr": {
+          "label": "Chromium (total)",
+          "top_driver": "apple",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "apple",
+              "title": "Apple",
+              "page_url": "https://heavymetalindex.com/ingredients/apple",
+              "risk_ppb": 126,
+              "typical_ppb": [
+                4,
+                57
+              ],
+              "p95_ppb": 126,
+              "confidence": "low",
+              "n_studies": 3,
               "share": 1
             }
           ]
@@ -1890,7 +2029,7 @@
                 16.4
               ],
               "p95_ppb": 20.8,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.594
             },
@@ -1926,7 +2065,7 @@
                 0
               ],
               "p95_ppb": 1,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
               "share": 1
             }
@@ -1979,7 +2118,7 @@
                 2000
               ],
               "p95_ppb": 5000,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 8,
               "share": 1
             }
@@ -2001,7 +2140,7 @@
                 200
               ],
               "p95_ppb": 500,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 8,
               "share": 1
             }
@@ -2566,7 +2705,7 @@
                 2000
               ],
               "p95_ppb": 5000,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 8,
               "share": 1
             }
@@ -2588,7 +2727,7 @@
                 200
               ],
               "p95_ppb": 500,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 8,
               "share": 1
             }
@@ -2891,7 +3030,7 @@
                 5.4
               ],
               "p95_ppb": 7.5,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
               "share": 0.097
             }
@@ -3001,7 +3140,7 @@
                 0
               ],
               "p95_ppb": 0.8,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 2,
               "share": 1
             }
@@ -3538,8 +3677,8 @@
         "Pb": {
           "label": "Lead",
           "top_driver": "vegetables",
-          "top_driver_share": 0.774,
-          "driver_count": 3,
+          "top_driver_share": 0.543,
+          "driver_count": 4,
           "drivers": [
             {
               "ingredient": "vegetables",
@@ -3553,7 +3692,21 @@
               "p95_ppb": 200,
               "confidence": "high",
               "n_studies": 38,
-              "share": 0.774
+              "share": 0.543
+            },
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 110,
+              "typical_ppb": [
+                2,
+                40
+              ],
+              "p95_ppb": 110,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 0.299
             },
             {
               "ingredient": "rice-flour",
@@ -3567,7 +3720,7 @@
               "p95_ppb": null,
               "confidence": "low",
               "n_studies": 2,
-              "share": 0.116
+              "share": 0.081
             },
             {
               "ingredient": "meat",
@@ -3581,14 +3734,14 @@
               "p95_ppb": 28.4,
               "confidence": "high",
               "n_studies": 15,
-              "share": 0.11
+              "share": 0.077
             }
           ]
         },
         "Cd": {
           "label": "Cadmium",
           "top_driver": "vegetables",
-          "top_driver_share": 0.92,
+          "top_driver_share": 0.642,
           "driver_count": 3,
           "drivers": [
             {
@@ -3603,21 +3756,21 @@
               "p95_ppb": 300,
               "confidence": "high",
               "n_studies": 41,
-              "share": 0.92
+              "share": 0.642
             },
             {
               "ingredient": "rice",
               "title": "Rice",
               "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 19,
+              "risk_ppb": 160,
               "typical_ppb": [
-                3.5,
-                9.7
+                4,
+                40
               ],
-              "p95_ppb": 19,
-              "confidence": "high",
-              "n_studies": 86,
-              "share": 0.058
+              "p95_ppb": 160,
+              "confidence": "medium",
+              "n_studies": 8,
+              "share": 0.343
             },
             {
               "ingredient": "meat",
@@ -3631,16 +3784,30 @@
               "p95_ppb": 7,
               "confidence": "high",
               "n_studies": 15,
-              "share": 0.021
+              "share": 0.015
             }
           ]
         },
         "iAs": {
           "label": "Arsenic (inorganic)",
-          "top_driver": "rice-flour",
-          "top_driver_share": 0.745,
+          "top_driver": "rice",
+          "top_driver_share": 0.487,
           "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 190,
+              "typical_ppb": [
+                40,
+                150
+              ],
+              "p95_ppb": 190,
+              "confidence": "medium",
+              "n_studies": 8,
+              "share": 0.487
+            },
             {
               "ingredient": "rice-flour",
               "title": "Rice Flour",
@@ -3653,21 +3820,7 @@
               "p95_ppb": null,
               "confidence": "low",
               "n_studies": 2,
-              "share": 0.745
-            },
-            {
-              "ingredient": "rice",
-              "title": "Rice",
-              "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 41.6,
-              "typical_ppb": [
-                41.6,
-                41.6
-              ],
-              "p95_ppb": 41.6,
-              "confidence": "high",
-              "n_studies": 74,
-              "share": 0.172
+              "share": 0.462
             },
             {
               "ingredient": "vegetables",
@@ -3681,16 +3834,30 @@
               "p95_ppb": 20,
               "confidence": "high",
               "n_studies": 14,
-              "share": 0.083
+              "share": 0.051
             }
           ]
         },
         "tAs": {
           "label": "Arsenic (total)",
-          "top_driver": "vegetables",
-          "top_driver_share": 0.405,
+          "top_driver": "rice",
+          "top_driver_share": 0.66,
           "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 350,
+              "typical_ppb": [
+                90,
+                250
+              ],
+              "p95_ppb": 350,
+              "confidence": "medium",
+              "n_studies": 6,
+              "share": 0.66
+            },
             {
               "ingredient": "vegetables",
               "title": "Vegetables",
@@ -3703,7 +3870,7 @@
               "p95_ppb": 100,
               "confidence": "high",
               "n_studies": 30,
-              "share": 0.405
+              "share": 0.189
             },
             {
               "ingredient": "meat",
@@ -3717,30 +3884,30 @@
               "p95_ppb": 80,
               "confidence": "medium",
               "n_studies": 9,
-              "share": 0.324
-            },
-            {
-              "ingredient": "rice",
-              "title": "Rice",
-              "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 66.9,
-              "typical_ppb": [
-                30.2,
-                62
-              ],
-              "p95_ppb": 66.9,
-              "confidence": "high",
-              "n_studies": 95,
-              "share": 0.271
+              "share": 0.151
             }
           ]
         },
         "tHg": {
           "label": "Mercury (total)",
-          "top_driver": "vegetables",
-          "top_driver_share": 0.909,
-          "driver_count": 2,
+          "top_driver": "rice",
+          "top_driver_share": 0.476,
+          "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 20,
+              "typical_ppb": [
+                0.5,
+                6
+              ],
+              "p95_ppb": 20,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 0.476
+            },
             {
               "ingredient": "vegetables",
               "title": "Vegetables",
@@ -3753,7 +3920,7 @@
               "p95_ppb": 20,
               "confidence": "high",
               "n_studies": 22,
-              "share": 0.909
+              "share": 0.476
             },
             {
               "ingredient": "meat",
@@ -3767,7 +3934,7 @@
               "p95_ppb": 2,
               "confidence": "medium",
               "n_studies": 8,
-              "share": 0.091
+              "share": 0.048
             }
           ]
         },
@@ -3874,8 +4041,8 @@
         "Cr": {
           "label": "Chromium (total)",
           "top_driver": "meat",
-          "top_driver_share": 0.67,
-          "driver_count": 2,
+          "top_driver_share": 0.648,
+          "driver_count": 3,
           "drivers": [
             {
               "ingredient": "meat",
@@ -3889,7 +4056,7 @@
               "p95_ppb": 1014,
               "confidence": "medium",
               "n_studies": 6,
-              "share": 0.67
+              "share": 0.648
             },
             {
               "ingredient": "vegetables",
@@ -3903,7 +4070,21 @@
               "p95_ppb": 500,
               "confidence": "high",
               "n_studies": 21,
-              "share": 0.33
+              "share": 0.32
+            },
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 50,
+              "typical_ppb": [
+                0,
+                30
+              ],
+              "p95_ppb": 50,
+              "confidence": "low",
+              "n_studies": 3,
+              "share": 0.032
             }
           ]
         },
@@ -4101,7 +4282,7 @@
                 125.3
               ],
               "p95_ppb": 150.2,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.882
             },
@@ -4201,7 +4382,7 @@
                 0.2
               ],
               "p95_ppb": 2.7,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.037
             }
@@ -4756,17 +4937,33 @@
         "Cd",
         "iAs",
         "tAs",
+        "tHg",
         "Ni",
         "Al",
+        "Cr",
         "Sn"
       ],
       "metals": {
         "Pb": {
           "label": "Lead",
-          "top_driver": "plant-milk",
-          "top_driver_share": 1,
-          "driver_count": 1,
+          "top_driver": "rice",
+          "top_driver_share": 0.894,
+          "driver_count": 2,
           "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 110,
+              "typical_ppb": [
+                2,
+                40
+              ],
+              "p95_ppb": 110,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 0.894
+            },
             {
               "ingredient": "plant-milk",
               "title": "Plant milk base",
@@ -4779,7 +4976,7 @@
               "p95_ppb": 13,
               "confidence": "low",
               "n_studies": 2,
-              "share": 1
+              "share": 0.106
             }
           ]
         },
@@ -4793,14 +4990,14 @@
               "ingredient": "rice",
               "title": "Rice",
               "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 19,
+              "risk_ppb": 160,
               "typical_ppb": [
-                3.5,
-                9.7
+                4,
+                40
               ],
-              "p95_ppb": 19,
-              "confidence": "high",
-              "n_studies": 86,
+              "p95_ppb": 160,
+              "confidence": "medium",
+              "n_studies": 8,
               "share": 1
             }
           ]
@@ -4808,22 +5005,22 @@
         "iAs": {
           "label": "Arsenic (inorganic)",
           "top_driver": "rice",
-          "top_driver_share": 0.634,
+          "top_driver_share": 0.888,
           "driver_count": 2,
           "drivers": [
             {
               "ingredient": "rice",
               "title": "Rice",
               "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 41.6,
+              "risk_ppb": 190,
               "typical_ppb": [
-                41.6,
-                41.6
+                40,
+                150
               ],
-              "p95_ppb": 41.6,
-              "confidence": "high",
-              "n_studies": 74,
-              "share": 0.634
+              "p95_ppb": 190,
+              "confidence": "medium",
+              "n_studies": 8,
+              "share": 0.888
             },
             {
               "ingredient": "plant-milk",
@@ -4837,29 +5034,29 @@
               "p95_ppb": 24,
               "confidence": "low",
               "n_studies": 1,
-              "share": 0.366
+              "share": 0.112
             }
           ]
         },
         "tAs": {
           "label": "Arsenic (total)",
           "top_driver": "rice",
-          "top_driver_share": 0.536,
+          "top_driver_share": 0.858,
           "driver_count": 2,
           "drivers": [
             {
               "ingredient": "rice",
               "title": "Rice",
               "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 66.9,
+              "risk_ppb": 350,
               "typical_ppb": [
-                30.2,
-                62
+                90,
+                250
               ],
-              "p95_ppb": 66.9,
-              "confidence": "high",
-              "n_studies": 95,
-              "share": 0.536
+              "p95_ppb": 350,
+              "confidence": "medium",
+              "n_studies": 6,
+              "share": 0.858
             },
             {
               "ingredient": "plant-milk",
@@ -4873,7 +5070,29 @@
               "p95_ppb": 58,
               "confidence": "medium",
               "n_studies": 3,
-              "share": 0.464
+              "share": 0.142
+            }
+          ]
+        },
+        "tHg": {
+          "label": "Mercury (total)",
+          "top_driver": "rice",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 20,
+              "typical_ppb": [
+                0.5,
+                6
+              ],
+              "p95_ppb": 20,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 1
             }
           ]
         },
@@ -4946,6 +5165,28 @@
               "confidence": "high",
               "n_studies": 11,
               "share": 0.452
+            }
+          ]
+        },
+        "Cr": {
+          "label": "Chromium (total)",
+          "top_driver": "rice",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 50,
+              "typical_ppb": [
+                0,
+                30
+              ],
+              "p95_ppb": 50,
+              "confidence": "low",
+              "n_studies": 3,
+              "share": 1
             }
           ]
         },
@@ -5480,7 +5721,7 @@
                 0.9
               ],
               "p95_ppb": 1.3,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.342
             },
@@ -5516,7 +5757,7 @@
                 1340
               ],
               "p95_ppb": 1468,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 1
             }
@@ -5538,7 +5779,7 @@
                 67.7
               ],
               "p95_ppb": 73.7,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 1
             }
@@ -6083,17 +6324,33 @@
         "Cd",
         "iAs",
         "tAs",
+        "tHg",
         "Ni",
         "Al",
+        "Cr",
         "Sn"
       ],
       "metals": {
         "Pb": {
           "label": "Lead",
-          "top_driver": "rice-flour",
-          "top_driver_share": 1,
-          "driver_count": 1,
+          "top_driver": "rice",
+          "top_driver_share": 0.786,
+          "driver_count": 2,
           "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 110,
+              "typical_ppb": [
+                2,
+                40
+              ],
+              "p95_ppb": 110,
+              "confidence": "medium",
+              "n_studies": 5,
+              "share": 0.786
+            },
             {
               "ingredient": "rice-flour",
               "title": "Rice Flour",
@@ -6106,7 +6363,7 @@
               "p95_ppb": null,
               "confidence": "low",
               "n_studies": 2,
-              "share": 1
+              "share": 0.214
             }
           ]
         },
@@ -6120,24 +6377,38 @@
               "ingredient": "rice",
               "title": "Rice",
               "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 19,
+              "risk_ppb": 160,
               "typical_ppb": [
-                3.5,
-                9.7
+                4,
+                40
               ],
-              "p95_ppb": 19,
-              "confidence": "high",
-              "n_studies": 86,
+              "p95_ppb": 160,
+              "confidence": "medium",
+              "n_studies": 8,
               "share": 1
             }
           ]
         },
         "iAs": {
           "label": "Arsenic (inorganic)",
-          "top_driver": "rice-flour",
-          "top_driver_share": 0.812,
+          "top_driver": "rice",
+          "top_driver_share": 0.514,
           "driver_count": 2,
           "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 190,
+              "typical_ppb": [
+                40,
+                150
+              ],
+              "p95_ppb": 190,
+              "confidence": "medium",
+              "n_studies": 8,
+              "share": 0.514
+            },
             {
               "ingredient": "rice-flour",
               "title": "Rice Flour",
@@ -6150,21 +6421,7 @@
               "p95_ppb": null,
               "confidence": "low",
               "n_studies": 2,
-              "share": 0.812
-            },
-            {
-              "ingredient": "rice",
-              "title": "Rice",
-              "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 41.6,
-              "typical_ppb": [
-                41.6,
-                41.6
-              ],
-              "p95_ppb": 41.6,
-              "confidence": "high",
-              "n_studies": 74,
-              "share": 0.188
+              "share": 0.486
             }
           ]
         },
@@ -6178,14 +6435,36 @@
               "ingredient": "rice",
               "title": "Rice",
               "page_url": "https://heavymetalindex.com/ingredients/rice",
-              "risk_ppb": 66.9,
+              "risk_ppb": 350,
               "typical_ppb": [
-                30.2,
-                62
+                90,
+                250
               ],
-              "p95_ppb": 66.9,
-              "confidence": "high",
-              "n_studies": 95,
+              "p95_ppb": 350,
+              "confidence": "medium",
+              "n_studies": 6,
+              "share": 1
+            }
+          ]
+        },
+        "tHg": {
+          "label": "Mercury (total)",
+          "top_driver": "rice",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 20,
+              "typical_ppb": [
+                0.5,
+                6
+              ],
+              "p95_ppb": 20,
+              "confidence": "medium",
+              "n_studies": 5,
               "share": 1
             }
           ]
@@ -6230,6 +6509,28 @@
               "p95_ppb": null,
               "confidence": "high",
               "n_studies": 11,
+              "share": 1
+            }
+          ]
+        },
+        "Cr": {
+          "label": "Chromium (total)",
+          "top_driver": "rice",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "rice",
+              "title": "Rice",
+              "page_url": "https://heavymetalindex.com/ingredients/rice",
+              "risk_ppb": 50,
+              "typical_ppb": [
+                0,
+                30
+              ],
+              "p95_ppb": 50,
+              "confidence": "low",
+              "n_studies": 3,
               "share": 1
             }
           ]
@@ -6303,7 +6604,7 @@
                 2000
               ],
               "p95_ppb": 5000,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 8,
               "share": 1
             }
@@ -6325,7 +6626,7 @@
                 200
               ],
               "p95_ppb": 500,
-              "confidence": "high",
+              "confidence": "medium",
               "n_studies": 8,
               "share": 1
             }
@@ -6951,7 +7252,7 @@
                 0.9
               ],
               "p95_ppb": 1.3,
-              "confidence": "high",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.061
             }
@@ -7037,7 +7338,7 @@
                 1340
               ],
               "p95_ppb": 1468,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.24
             }
@@ -7095,7 +7396,7 @@
                 67.7
               ],
               "p95_ppb": 73.7,
-              "confidence": "medium",
+              "confidence": "low",
               "n_studies": 1,
               "share": 0.118
             },

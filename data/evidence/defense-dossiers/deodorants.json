@@ -17,18 +17,38 @@
     "canonical_url": "https://heavymetalindex.com/products/deodorants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "31084adfa09a6165c7d2cff0597d50b737f089d95f531ef7a36918e0530a26f3",
-      "content_bytes": 10942,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "7b43eaa07f325c4aab05b36576bf021d1af0aa5c19297c8e1a7029ff88402f42",
+      "content_bytes": 12369,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/deodorants.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/deodorants.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 7,
+    "contributing_source_count": 10,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/aicis2022-aluminium-antiperspirants-evaluation",
+        "title": "Use of Aluminium in Antiperspirants: Evaluation statement",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aicis2022-aluminium-antiperspirants-evaluation",
+        "content_pin": {
+          "content_sha256": "0f454a979bd6b2b919989724c8a17e164883c07e32356097d4a0ad7bc7411cf2",
+          "content_bytes": 7492,
+          "last_commit_sha": "b739a4c1b",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show b739a4c1b:wiki/sources/aicis2022-aluminium-antiperspirants-evaluation.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/alblooshi2025-perfumes-cosmetics-health-review",
         "title": "The impact of perfumes and cosmetic products on human health: a narrative review",
@@ -49,10 +69,10 @@
         "content_pin": {
           "content_sha256": "f6961c419e596a20c9610ea1ae9189d40901111c4934ab7e58a2b3fb79a158aa",
           "content_bytes": 14777,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md | sha256sum"
         }
       },
       {
@@ -79,10 +99,10 @@
         "content_pin": {
           "content_sha256": "4edfd3a96395759e1ef907ead54a5c9c68bd17443307809bc525ec03d817989e",
           "content_bytes": 35241,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -99,10 +119,10 @@
         "content_pin": {
           "content_sha256": "8ae1333eae90919f83f32ba07cbdffe61b50cb2b649669ec367e82e6c97ab0a9",
           "content_bytes": 14794,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
         }
       },
       {
@@ -122,10 +142,51 @@
         "content_pin": {
           "content_sha256": "9bd4df1cffa6bb2e23c8035baadc791916fa181e9de684f7848d56a8294cb258",
           "content_bytes": 28693,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mackiewicz2025-eu-deodorants-elements",
+        "title": "Application of the ICP-OES and SEM-EDS Techniques for Elemental Analysis of Various Types of Cosmetic Products with Antiperspirant and Deodorant Properties Available on the EU Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ag",
+          "Al",
+          "Ba",
+          "Ca",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "K",
+          "Mg",
+          "Mn",
+          "Ni",
+          "P",
+          "Pb",
+          "S",
+          "Sb",
+          "Sn",
+          "Sr",
+          "Ti",
+          "Zn",
+          "Zr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mackiewicz2025-eu-deodorants-elements",
+        "content_pin": {
+          "content_sha256": "995554439cbc9a06e2380e2a8ce33a19b114c40d48ba12c49ac50c3963c99944",
+          "content_bytes": 6584,
+          "last_commit_sha": "4c0976e85",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 4c0976e85:wiki/sources/mackiewicz2025-eu-deodorants-elements.md | sha256sum"
         }
       },
       {
@@ -146,10 +207,10 @@
         "content_pin": {
           "content_sha256": "19ec2fab306d46f9c6c4c0f3fc34e746329f915c869bfd4e387f7b16daf6d8e1",
           "content_bytes": 31839,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {
@@ -164,10 +225,10 @@
         "content_pin": {
           "content_sha256": "7c084db648a27770989212b919d6cac3540af9b5860430bf9bd4aa418a2bdbfe",
           "content_bytes": 31113,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       },
       {
@@ -184,10 +245,35 @@
         "content_pin": {
           "content_sha256": "0f96701317a7023c022bed1658d555c1f16d45a9306751447432144af544b101",
           "content_bytes": 28363,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yorgwara2026-personal-care-metals-nigeria",
+        "title": "Assessment of Heavy Metal Concentration in Some Selected Cosmetic Products and Human Health Risk in Eleme LGA, Rivers State, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yorgwara2026-personal-care-metals-nigeria",
+        "content_pin": {
+          "content_sha256": "091170524d2ebc05d5e16dc442bb73f29bc07bdee41644071fb9757128e6e6c5",
+          "content_bytes": 9248,
+          "last_commit_sha": "fa86cc36d",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fa86cc36d:wiki/sources/yorgwara2026-personal-care-metals-nigeria.md | sha256sum"
         }
       }
     ]

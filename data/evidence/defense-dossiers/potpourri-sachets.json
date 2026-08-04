@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "11264c022e2cc713ee20b3b2ace3c03a9005dd621a8c21e51b3b8ab158340ad2",
       "content_bytes": 7295,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "last_commit_sha": "aca5e2155",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/potpourri-sachets.md | sha256sum"
+      "verify_command": "git show aca5e2155:wiki/products/potpourri-sachets.md | sha256sum"
     }
   },
   "evidence_base": {

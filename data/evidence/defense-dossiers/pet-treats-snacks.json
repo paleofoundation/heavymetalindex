@@ -24,10 +24,10 @@
     "content_pin": {
       "content_sha256": "ba583e6f0754961272d16b227615b90130092693187dff64df009ffd1718c615",
       "content_bytes": 9506,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "last_commit_sha": "aca5e2155",
+      "last_commit_date": "2026-06-09",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/pet-treats-snacks.md | sha256sum"
+      "verify_command": "git show aca5e2155:wiki/products/pet-treats-snacks.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -57,10 +57,10 @@
         "content_pin": {
           "content_sha256": "055e09873f1f27aff06ec7ce73eb60cf830e75991ed621ea15fb34632fbd54b0",
           "content_bytes": 8831,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kepinska-pacelik2023-dog-snacks-trace-elements.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/kepinska-pacelik2023-dog-snacks-trace-elements.md | sha256sum"
         }
       }
     ]

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/traditional-eye-cosmetics",
+    "title": "Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform",
+    "hmtc_category": 13,
+    "hmtc_row": 16,
+    "category_label": null,
+    "age_range": null,
+    "label": "Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/traditional-eye-cosmetics",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "a2f8d395a649a2cd61329d8c13e05b2d3c877d298bac5e222c53e72cc73af8b8",
+      "content_bytes": 580,
+      "last_commit_sha": "45ecb2e7e",
+      "last_commit_date": "2026-06-10",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 45ecb2e7e:wiki/products/traditional-eye-cosmetics.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 0,
+    "sources_with_structured_values": 0,
+    "contributing_sources": []
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/traditional-eye-cosmetics.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

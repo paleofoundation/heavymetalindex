@@ -17,18 +17,43 @@
     "canonical_url": "https://heavymetalindex.com/products/leave-on-preparations-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b30cff3cea661eaec48b54072b57a0d0f5ee4b8d6bfd65020fd8a67b7c1ff113",
-      "content_bytes": 7478,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "9a0c040cb08632bda5bf475941103c61516834b138885d374109d5b0126613d3",
+      "content_bytes": 8160,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/leave-on-preparations-other.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/leave-on-preparations-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/sahu2014-cosmetics-metals-india",
+        "title": "Heavy Metals in Cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sahu2014-cosmetics-metals-india",
+        "content_pin": {
+          "content_sha256": "fdf9d2ba88afc7c5294625514fc338b815f36b57f969c28b285ac0c863b141ec",
+          "content_bytes": 7935,
+          "last_commit_sha": "c896ce8a5",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c896ce8a5:wiki/sources/sahu2014-cosmetics-metals-india.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

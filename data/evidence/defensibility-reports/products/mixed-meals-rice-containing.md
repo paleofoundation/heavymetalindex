@@ -2,15 +2,15 @@
 source_page: wiki/products/mixed-meals-rice-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 289f5fb12c27124db42db7fdafd7c556a82462b2bfa8446a42927bc07248a62f
+source_page_sha256: f57f464169f82f3df668dc03c2d55d6b84ee26ed129f642bffb9f78fe3b898d8
 total_claims: 82
 cited_claims: 82
 uncited_claims: 0
-distinct_cited_targets: 33
-distinct_cited_sources: 27
+distinct_cited_targets: 37
+distinct_cited_sources: 31
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 6
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 82 |
 | cited claims | 82 |
 | uncited claims | 0 |
-| distinct cited targets | 33 |
-| distinct cited `sources/` pages | 27 |
+| distinct cited targets | 37 |
+| distinct cited `sources/` pages | 31 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 6 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -790,12 +790,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 ppb`
 - Context: `r-reviewed | Global scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exc`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -806,6 +808,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -822,6 +826,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -834,12 +842,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `48 ppb`
 - Context: `scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exceeding the Pb maximu`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -850,6 +860,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -866,6 +878,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -878,12 +894,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `ood rows, the most recent analytical dataset supporting the 2025 final guidance 10 ppb action level for mixtures | | 5 |`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -894,6 +912,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -910,6 +930,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -922,12 +946,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `ren 0–6; canonical NGO/policy reference behind cost-benefit arguments for FDA's 100 ppb iAs action level on rice-cereal-`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -938,6 +964,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -954,6 +982,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -966,12 +998,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `6.45 µg/kg`
 - Context: `in 87 European rice products including baby-food rice, finding MeHg range 0.11-6.45 µg/kg; provides the mercury occurre`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -982,6 +1016,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -998,6 +1034,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1010,12 +1050,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9 ppb`
 - Context: `102048 | 2016 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) fo`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -1026,6 +1068,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -1042,6 +1086,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1054,12 +1102,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `6 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other s`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -1070,6 +1120,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -1086,6 +1138,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1098,12 +1154,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 ppb`
 - Context: `rt | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other savoury infant foods`
-- Cited targets (20):
+- Cited targets (24):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` (page missing)
     - audit rows: none
@@ -1114,6 +1172,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-food-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
@@ -1130,6 +1190,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1157,6 +1221,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/arsenic2025-unknown\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
@@ -1164,6 +1229,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/deroma2017-prepared-meals-italy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/fagbemi2023-akure-street-food-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
@@ -1176,6 +1242,8 @@ _All claims trace to at least one cited source._
 | `wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\.md` | sources | 0 | — | — |
 | `wiki/sources/iyabo2015-ekiti-staple-foods-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
+| `wiki/sources/meharg2008-rice-arsenic-literature-review\.md` | sources | 0 | — | — |
+| `wiki/sources/noh2023-arsenic-rice-snacks-korea\.md` | sources | 0 | — | — |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |

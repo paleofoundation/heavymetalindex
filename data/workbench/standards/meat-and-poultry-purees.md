@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: meat-and-poultry-purees
 public_page: products/meat-and-poultry-purees
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Meat and poultry purees

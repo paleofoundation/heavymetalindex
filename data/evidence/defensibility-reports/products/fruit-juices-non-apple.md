@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-non-apple.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 162d4e27082d67caf415fe1081b71bc775a3bb80b0a6f13790ab4424387b0f68
+source_page_sha256: c27378e07d064b2140a9aeae557824498964cbfd4d654c6a904711b0d87e406e
 total_claims: 25
 cited_claims: 25
 uncited_claims: 0
-distinct_cited_targets: 35
-distinct_cited_sources: 32
+distinct_cited_targets: 38
+distinct_cited_sources: 35
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 36
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 25 |
 | cited claims | 25 |
 | uncited claims | 0 |
-| distinct cited targets | 35 |
-| distinct cited `sources/` pages | 32 |
+| distinct cited targets | 38 |
+| distinct cited `sources/` pages | 35 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 36 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -356,7 +356,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `115 ppb`
 - Context: `te and other non-apple juices; highest-reporting pomegranate samples reached 91–115 ppb Pb; primary Pb occurrence source`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/adegbola2015-nigeria-snacks-drinks-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -373,6 +373,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` (page missing)
@@ -385,6 +387,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/godwill2015-soft-drinks-metals-nigeria\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/jecfa-33rd-tin-1989\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jecfa-64th-cadmium-tin-2006\.md` (page missing)
@@ -392,6 +396,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/jurowski2023-heavy-metals-green-tea-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/neuwirth2022-baby-cereals-lead-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` (page missing)
     - audit rows: none
@@ -437,6 +443,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/blunden2003-tin-canned-food-review\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` | sources | 0 | — | — |
+| `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` | sources | 0 | — | — |
 | `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 0 | — | — |
@@ -445,10 +452,12 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 0 | — | — |
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` | sources | 0 | — | — |
 | `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` | sources | 0 | — | — |
+| `wiki/sources/godwill2015-soft-drinks-metals-nigeria\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-33rd-tin-1989\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-64th-cadmium-tin-2006\.md` | sources | 0 | — | — |
 | `wiki/sources/jurowski2023-heavy-metals-green-tea-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` | sources | 0 | — | — |
+| `wiki/sources/neuwirth2022-baby-cereals-lead-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/paudel2024-packaged-fruit-juices-nepal\.md` | sources | 0 | — | — |
 | `wiki/sources/paula2015-fruit-juices-elements-portugal\.md` | sources | 0 | — | — |
 | `wiki/sources/savic2015-clear-orange-juice-minerals\.md` | sources | 0 | — | — |

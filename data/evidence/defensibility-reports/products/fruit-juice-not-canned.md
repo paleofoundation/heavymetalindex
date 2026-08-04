@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 21a757a0bc2c63d876f95caa05c52bd0e5a789ce19f86c2efe3980cf0f6831ab
+source_page_sha256: 149a30d7362747997d1060dbec49b3f24eb8dc61db2ebb6b5ee040807d335917
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
-distinct_cited_targets: 52
-distinct_cited_sources: 45
+distinct_cited_targets: 53
+distinct_cited_sources: 46
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 117
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 125 |
 | cited claims | 125 |
 | uncited claims | 0 |
-| distinct cited targets | 52 |
-| distinct cited `sources/` pages | 45 |
+| distinct cited targets | 53 |
+| distinct cited `sources/` pages | 46 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 117 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -1765,7 +1765,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `Industry | 2022 | Government guidance | FDA April 2022 draft guidance proposing 10 ppb Pb for single-strength apple juic`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1825,6 +1825,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -1841,7 +1843,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `ril 2022 draft guidance proposing 10 ppb Pb for single-strength apple juice and 20 ppb for other single-strength juices,`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1901,6 +1903,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -1917,7 +1921,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `on reference method (AOAC First Action 2016.04) for fruit juices; validates the 10 ppb iAs action level analytical basis`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1977,6 +1981,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -1993,7 +1999,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.24 mg/L`
 - Context: `ckaged cherry, mango, orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), docume`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2053,6 +2059,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2069,7 +2077,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3.30 mg/L`
 - Context: `orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), documenting Al-leaching from`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2129,6 +2137,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2145,7 +2155,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.2 ppb`
 - Context: `1 grape and grape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), t`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2205,6 +2215,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2221,7 +2233,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `22.6 ppb`
 - Context: `ape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-categ`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2281,6 +2293,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2297,7 +2311,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `49.6 ppb`
 - Context: `juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-category subcategor`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2357,6 +2371,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2373,7 +2389,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.3 µg/kg`
 - Context: `e juices and 4 pear juices reporting tAs and speciated iAs (apple iAs range 2.5–11.3 µg/kg in samples >LOR; AsV predomin`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2433,6 +2449,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2449,7 +2467,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `e 2.5–11.3 µg/kg in samples >LOR; AsV predominant), directly supporting the FDA 10 ppb iAs apple-juice action-level basi`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2509,6 +2527,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2525,7 +2545,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.9 ppb`
 - Context: `dataset | 94-sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2585,6 +2605,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2601,7 +2623,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7.7 ppb`
 - Context: `sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct specie`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2661,6 +2683,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2677,7 +2701,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9.8 ppb`
 - Context: `ngle-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct species-specific ap`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2737,6 +2761,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2753,7 +2779,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 µg/L`
 - Context: `and mango commercial juice Cr (total) and Ni concentrations by GFAAS (means ~5–8 µg/L); no Pb, Cd, As, Hg, or Sn measur`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2813,6 +2839,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2829,7 +2857,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `50 ppb`
 - Context: `| Government guidance | FDA Juice HACCP guidance recommending lead controls at 50 ppb for ready-to-drink fruit juices;`
-- Cited targets (36):
+- Cited targets (37):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2889,6 +2917,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -2956,6 +2986,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/savic2015-clear-orange-juice-minerals\.md` | sources | 0 | — | — |
 | `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` | sources | 0 | — | — |
 | `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` | sources | 0 | — | — |
+| `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` | sources | 0 | — | — |
 | `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` | sources | 0 | — | — |
 | `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |

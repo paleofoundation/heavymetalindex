@@ -2,15 +2,15 @@
 source_page: wiki/products/spices.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8d93af57fecd60aebd3d54a1dfdfc2507a7114ca4c02c89946d7f8029826170e
+source_page_sha256: fa5758b8979f523b0c9aff78324f9ae4dc4758d84769445333bc12a0fb7d4ab2
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
-distinct_cited_targets: 61
-distinct_cited_sources: 61
-audit_rows_for_page: 2
+distinct_cited_targets: 64
+distinct_cited_sources: 64
+audit_rows_for_page: 4
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,16 +32,18 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 2 |
 | cited claims | 1 |
 | uncited claims | 1 |
-| distinct cited targets | 61 |
-| distinct cited `sources/` pages | 61 |
-| audit rows on this page | 2 |
+| distinct cited targets | 64 |
+| distinct cited `sources/` pages | 64 |
+| audit rows on this page | 4 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
 - `edit_id=0ca170a1-7582-4f05-a870-e3dc297a7ef3` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=frontmatter-alias-backfill
 - `edit_id=cat7-step0-lock-spices-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
+- `edit_id=taxonomy-v2.2-cat7dissolution-spices-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T02:00:00Z · span=v2.2-cat7-dissolution
+- `edit_id=governance-spices-across-row-hook-resolved-2026-06-18` · retrieval=2026-06-18 · models=[claude-opus-4-8] · agreement=single_model · applied=2026-06-18T12:00:00.000Z · span=frontmatter:across_row_review_hook
 
 ## Claims by section
 
@@ -54,13 +56,15 @@ This report joins every numerical claim on the page to its citation chain and th
 ### Sources
 
 #### Claim `3 mg/L`
-- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 44 | [[sources/kow`
-- Cited targets (61):
+- Context: `seedlings treated for 10 days with arsenite or arsenate solutions at 1, 2, and 3 mg/L,... (n=21) | | 45 | [[sources/kow`
+- Cited targets (64):
   - `wiki/sources/adams2017-nigerian-processed-spices-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alam2022-dhaka-spices-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/angelon-gaetz2018-lead-spices-north-carolina\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/anses2026-tds3-metals-france\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bahrouna2025-zawia-spices-metals\.md` (page missing)
     - audit rows: none
@@ -90,11 +94,15 @@ This report joins every numerical claim on the page to its citation chain and th
     - audit rows: none
   - `wiki/sources/dghaim2015-heavy-metals-uae-herbs\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/divrikli2006-spices-herbal-plants-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/dokubo2023-nigeria-seasoning-powder\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ericson2020-georgian-spices-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda-import-alert-99-42-spice-lead\.md` (page missing)
     - audit rows: none
@@ -192,6 +200,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/adams2017-nigerian-processed-spices-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/alam2022-dhaka-spices-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/angelon-gaetz2018-lead-spices-north-carolina\.md` | sources | 0 | — | — |
+| `wiki/sources/anses2026-tds3-metals-france\.md` | sources | 0 | — | — |
 | `wiki/sources/bahrouna2025-zawia-spices-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/bekalu2025-black-cumin-heavy-metals-ethiopia\.md` | sources | 0 | — | — |
 | `wiki/sources/brima2025-african-foods-uk-metals\.md` | sources | 0 | — | — |
@@ -206,9 +215,11 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/darko2014-seasonings-ghana-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter\.md` | sources | 0 | — | — |
 | `wiki/sources/dghaim2015-heavy-metals-uae-herbs\.md` | sources | 0 | — | — |
+| `wiki/sources/divrikli2006-spices-herbal-plants-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/dokubo2023-nigeria-seasoning-powder\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2012-cadmium-dietary-exposure-europe\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
+| `wiki/sources/ericson2020-georgian-spices-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fda-import-alert-99-42-spice-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fischer2022-mercury-spice-plants-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh\.md` | sources | 0 | — | — |

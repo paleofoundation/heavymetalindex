@@ -2,15 +2,15 @@
 source_page: wiki/products/toys-painted.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c2a38f9938c8d6bc55acadca097ae76f3fdb47d3081b519470a2f9a7a7a0b629
+source_page_sha256: 63bf4c5051b5b44f427c6ea602b84870f0a7e7ec6922b999ed5341fdf94dd0b6
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 23
-distinct_cited_sources: 23
+distinct_cited_targets: 25
+distinct_cited_sources: 25
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 2 |
 | cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 23 |
-| distinct cited `sources/` pages | 23 |
+| distinct cited targets | 25 |
+| distinct cited `sources/` pages | 25 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -50,7 +50,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppm`
 - Context: `fety 2011]]. *Children's Products Containing Lead; Technological Feasibility of 100 ppm for Lead Content; Notice of Effe`
-- Cited targets (23):
+- Cited targets (25):
   - `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2009-lead-cadmium-toys\.md` (page missing)
@@ -75,9 +75,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fowles2021-lead-toys\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/gul2022-karachi-plastic-toys-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\.md` (page missing)
     - audit rows: none
   - `wiki/sources/igweze2020-china-toys-nigeria-pb-cd-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ismail2017-low-priced-toys-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/iso2020-8124-3-toy-migration-elements\.md` (page missing)
     - audit rows: none
@@ -100,7 +104,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppm`
 - Context: `hnological Feasibility of 100 ppm for Lead Content; Notice of Effective Date of 100 ppm Lead Content Limit in Children's`
-- Cited targets (23):
+- Cited targets (25):
   - `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2009-lead-cadmium-toys\.md` (page missing)
@@ -125,9 +129,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/fowles2021-lead-toys\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/gul2022-karachi-plastic-toys-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\.md` (page missing)
     - audit rows: none
   - `wiki/sources/igweze2020-china-toys-nigeria-pb-cd-as\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ismail2017-low-priced-toys-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/iso2020-8124-3-toy-migration-elements\.md` (page missing)
     - audit rows: none
@@ -168,8 +176,10 @@ _All claims trace to at least one cited source._
 | `wiki/sources/depa2015-cmr-toys\.md` | sources | 0 | — | — |
 | `wiki/sources/digangi1997-greenpeace-vinyl-children-products\.md` | sources | 0 | — | — |
 | `wiki/sources/fowles2021-lead-toys\.md` | sources | 0 | — | — |
+| `wiki/sources/gul2022-karachi-plastic-toys-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\.md` | sources | 0 | — | — |
 | `wiki/sources/igweze2020-china-toys-nigeria-pb-cd-as\.md` | sources | 0 | — | — |
+| `wiki/sources/ismail2017-low-priced-toys-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/iso2020-8124-3-toy-migration-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/johnson2012-cpsc-astm-f963-status\.md` | sources | 0 | — | — |
 | `wiki/sources/pirg2010-trouble-in-toyland\.md` | sources | 0 | — | — |

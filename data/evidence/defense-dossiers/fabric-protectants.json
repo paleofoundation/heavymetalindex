@@ -17,18 +17,65 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-protectants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "aa7a5b55c230ec74945383008866f0962d7121a04d7a9593ba0dedfdfc5360a5",
-      "content_bytes": 9222,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "50af812e956bbd55649fb7a2ed0a41f1df184db0ff4b6f30d9bb7fee3e1c5d1a",
+      "content_bytes": 10677,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/fabric-protectants.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/fabric-protectants.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/greenseal2020-gs51-laundry-care-products",
+        "title": "GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Cd",
+          "Cr-VI",
+          "tAs",
+          "Co",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
+        "content_pin": {
+          "content_sha256": "41cc32bdc3c4587c2d46e165f257a2bb42f0f4392fd371386fa05f00e837ca9d",
+          "content_bytes": 8366,
+          "last_commit_sha": "c7e5aec50",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c7e5aec50:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2024-selenium-pps-mercury-immobilization",
+        "title": "Biomimetic mercury immobilization by selenium functionalized polyphenylene sulfide fabric",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2024-selenium-pps-mercury-immobilization",
+        "content_pin": {
+          "content_sha256": "f85b21ed82575603dac6fdb3817cbd053a87f6143b351c3540c81ead60d4d9d4",
+          "content_bytes": 3843,
+          "last_commit_sha": "d9caf3878",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d9caf3878:wiki/sources/li2024-selenium-pps-mercury-immobilization.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/nydec2020-cleansing-product-disclosure-bmp",
         "title": "Cleansing Product Information Disclosure Program — Recommended Best Management Practices",
@@ -48,10 +95,37 @@
         "content_pin": {
           "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
           "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhang2023-3d-printing-metal-emissions",
+        "title": "Metal compositions of particle emissions from material extrusion 3D printing: Emission sources and indoor exposure modeling",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cr",
+          "Cd",
+          "tAs",
+          "Pb",
+          "Ni",
+          "Sn",
+          "Sb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2023-3d-printing-metal-emissions",
+        "content_pin": {
+          "content_sha256": "84166c6627bac559b46c32704badf7cef76b5c24f5b3e2244712c87fdb946a08",
+          "content_bytes": 4566,
+          "last_commit_sha": "728fe7548",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 728fe7548:wiki/sources/zhang2023-3d-printing-metal-emissions.md | sha256sum"
         }
       }
     ]

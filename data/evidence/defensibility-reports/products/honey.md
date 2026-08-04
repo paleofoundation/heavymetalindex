@@ -2,15 +2,15 @@
 source_page: wiki/products/honey.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 09ee58bd27fb0065d095a3db5af94be6421f5ec72949dda257621808e079cbac
+source_page_sha256: 17154327d18795cfd38f3e879085aadc1ff3fabbf328727203c0135f746f5f0c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 3
+audit_rows_for_page: 4
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -34,15 +34,16 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 3 |
+| audit rows on this page | 4 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
 - `edit_id=ef12a0ae-b241-46ac-bce7-b73c7e35a06c` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=frontmatter-alias-backfill
 - `edit_id=cat7-primary-metals-honey-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-primary-metals
 - `edit_id=cat7-step0-lock-honey-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
+- `edit_id=taxonomy-v2.2-cat7dissolution-honey-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T02:00:00Z · span=v2.2-cat7-dissolution
 
 ## Claims by section
 

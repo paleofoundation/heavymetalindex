@@ -17,18 +17,36 @@
     "canonical_url": "https://heavymetalindex.com/products/car-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2c7866d92ed4d35a1490d0c5d711d7ef05add66512eaa10db434b0d7b14566e3",
-      "content_bytes": 9812,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "5eb009521d8e2f58ffc1ca7ec385c66f7a04b2e88280a0406a657ae7bc5f0885",
+      "content_bytes": 10294,
+      "last_commit_sha": "cedfa8b8a",
+      "last_commit_date": "2026-06-11",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/car-seats.md | sha256sum"
+      "verify_command": "git show cedfa8b8a:wiki/products/car-seats.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/cooper2016-flame-retardants-puf-consumer-products",
+        "title": "Results from Screening Polyurethane Foam Based Consumer Products for Flame Retardant Chemicals: Assessing Impacts on the Change in the Furniture Flammability Standards",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/cooper2016-flame-retardants-puf-consumer-products",
+        "content_pin": {
+          "content_sha256": "ab257210f3b80ddb79d1520cc9aacdc212e839be8d0ad7bb3ee2774978036e02",
+          "content_bytes": 25315,
+          "last_commit_sha": "a46bb8b96",
+          "last_commit_date": "2026-06-09",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a46bb8b96:wiki/sources/cooper2016-flame-retardants-puf-consumer-products.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/echa2023-cmr-childcare-articles",
         "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
@@ -51,10 +69,10 @@
         "content_pin": {
           "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
           "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -69,10 +87,10 @@
         "content_pin": {
           "content_sha256": "f1b9cda57730898d121b9e7f36c1a8d27a670a2839bcb2aa255d43fab995e7d3",
           "content_bytes": 38524,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md | sha256sum"
         }
       },
       {
@@ -89,10 +107,10 @@
         "content_pin": {
           "content_sha256": "f0722f89a40f6e995163bb42f7327661dade9d8137076b116f5a070ec3d5e156",
           "content_bytes": 13840,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md | sha256sum"
         }
       },
       {
@@ -107,10 +125,10 @@
         "content_pin": {
           "content_sha256": "27deada06ce0c941b0a9e91b5496f1273a8f7ac4989bd2dc4f5a87a148519802",
           "content_bytes": 18941,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "last_commit_sha": "aca5e2155",
+          "last_commit_date": "2026-06-09",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
+          "verify_command": "git show aca5e2155:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
         }
       }
     ]

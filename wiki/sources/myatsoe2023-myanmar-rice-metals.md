@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10038304/FM_10038304.md
 metals: [tAs, Pb, Cd, Cr, Ni]
 ingredients: ["[[ingredients/rice]]"]
-products: []
+products: ["[[products/rice-bulk-grain]]"]
 matrices: [rice-grain]
 jurisdictions: [MM]
 near_duplicates: []

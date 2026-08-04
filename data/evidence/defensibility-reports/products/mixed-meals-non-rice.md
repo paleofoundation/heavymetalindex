@@ -2,15 +2,15 @@
 source_page: wiki/products/mixed-meals-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 140f6351b197c1a10303228b5ceffd44e14764f8f4be940acb39fa3eb42d6fac
+source_page_sha256: 32d42a7a689eb41396d1753c398c65033cadaa020777b539745456e961b8e0e7
 total_claims: 96
 cited_claims: 96
 uncited_claims: 0
-distinct_cited_targets: 33
-distinct_cited_sources: 27
+distinct_cited_targets: 35
+distinct_cited_sources: 29
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 6
-audit_log_total_rows: 972
+audit_log_total_rows: 2177
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 96 |
 | cited claims | 96 |
 | uncited claims | 0 |
-| distinct cited targets | 33 |
-| distinct cited `sources/` pages | 27 |
+| distinct cited targets | 35 |
+| distinct cited `sources/` pages | 29 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 6 |
-| audit log rows read | 972 |
+| audit log rows read | 2177 |
 
 ## Page-level audit rows
 
@@ -868,8 +868,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.008 mg/kg`
 - Context: `tection rates and medians; mixed foods category had highest reported Cd median (0.008 mg/kg) among all baby-food categor`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -904,6 +906,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -914,8 +918,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `covering mixed-ingredient categories; contributes to the evidence base for the 10 ppb Pb action level applied to mixtur`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -950,6 +956,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -960,8 +968,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `760 µg/kg`
 - Context: `in 43 Brazilian commercial salty purees (mixed-ingredient infant meals up to 2,760 µg/kg) plus in vitro bioaccessibilit`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -996,6 +1006,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1006,8 +1018,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `653 µg/kg`
 - Context: `concentrations for Al, Sb, tAs, Cd, Cr, Ni, Sn, and V in soups/purees (Al mean 653 µg/kg) and vegetable-based ready-to-`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1042,6 +1056,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1052,8 +1068,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `999 µg/kg`
 - Context: `al category-level means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg,`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1088,6 +1106,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1098,8 +1118,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `15 µg/kg`
 - Context: `el means in savoury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1134,6 +1156,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1144,8 +1168,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9 µg/kg`
 - Context: `ury infant foods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 6`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1180,6 +1206,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1190,8 +1218,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/kg`
 - Context: `oods/dishes without meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg);`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1226,6 +1256,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1236,8 +1268,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 µg/kg`
 - Context: `hout meat (Al 1,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to no`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1272,6 +1306,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1282,8 +1318,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `97 µg/kg`
 - Context: `,995–1,999 µg/kg, tAs 15 µg/kg, iAs 7–9 µg/kg, Cd 10 µg/kg, Pb 3–5 µg/kg, Ni 66–97 µg/kg); relevant to non-rice mixed-me`
-- Cited targets (21):
+- Cited targets (23):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` (page missing)
     - audit rows: none
@@ -1318,6 +1356,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` (page missing)
     - audit rows: none
   - `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` (page missing)
     - audit rows: none
@@ -1341,6 +1381,7 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2018-infant-food-cadmium-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/buchet1983-belgium-duplicate-meal-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
@@ -1364,6 +1405,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
+| `wiki/sources/stahl2017-aluminum-food-contact-part1\.md` | sources | 0 | — | — |
 | `wiki/sources/starska2011-noxious-elements-milk-products-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/zhang2017-red-raspberry-nutrient-profile\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
