@@ -184,22 +184,14 @@ Packaging and storage conditions are not a material driver of heavy metal load i
 The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in root vegetables of 0.10 mg/kg (100 ppb) wet weight and for Cd in root vegetables of 0.10 mg/kg (100 ppb) wet weight (higher than the general vegetable Cd limit of 0.050 mg/kg, reflecting the elevated accumulation pattern in root vegetables). FDA Closer to Zero [[regulations/fda-ctz-Pb-rootveg-20ppb]] sets a 20 ppb (0.020 mg/kg) action level for Pb in root vegetable purees intended for consumption by young children, substantially below the EU limit. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets a Cd maximum of 0.10 mg/kg for root and tuber vegetables consistent with EU. Rusin et al. 2021 found Polish carrot samples below EU MLs, which at 100 ppb Cd is achievable from clean-soil European growing regions but would be exceeded by wastewater-irrigated growing conditions like those in the El-Batal 2023 study [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]].
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 41 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles|Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater]]<span class="hmi-ref-meta">El-Batal AI, El-Sayyad GS, El-Ghamry A, and Abdel-Megeed A · Biologia · 2023 · [doi.org/10.1007/s11756-023-01401-x](https://doi.org/10.1007/s11756-023-01401-x)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/tonska2020-carrots-lead-cadmium-organic|Lead and cadmium content in organic and conventional carrots and their dietary risk assessment]]<span class="hmi-ref-meta">Tonska E, Jadwisienczak K, and Szpendowski J · Proceedings of the Nutrition Society · 2020 · [doi.org/10.1017/s0029665120002724](https://doi.org/10.1017/s0029665120002724)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Concentration of cadmium and lead in vegetables and fruits]]<span class="hmi-ref-meta">Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles|Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater]]<span class="hmi-ref-meta">El-Batal AI, El-Sayyad GS, El-Ghamry A, and Abdel-Megeed A · Biologia · 2023 · [doi.org/10.1007/s11756-023-01401-x](https://doi.org/10.1007/s11756-023-01401-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/tonska2020-carrots-lead-cadmium-organic|Lead and cadmium content in organic and conventional carrots and their dietary risk assessment]]<span class="hmi-ref-meta">Tonska E, Jadwisienczak K, and Szpendowski J · Proceedings of the Nutrition Society · 2020 · [doi.org/10.1017/s0029665120002724](https://doi.org/10.1017/s0029665120002724)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Concentration of cadmium and lead in vegetables and fruits]]<span class="hmi-ref-meta">Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

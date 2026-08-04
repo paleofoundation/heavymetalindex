@@ -219,22 +219,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 The FDA has proposed an action level of 20 ppb Pb for processed foods containing root vegetables (including potatoes) that are intended for babies and young children under the Closer to Zero program ([[regulations/fda-ctz-Pb-rootveg-20ppb]]). This action level applies to the processed food product rather than to the raw potato ingredient. In the European Union, Regulation (EU) 2023/915 sets a Pb ML of 0.10 mg/kg (100 ppb) and a Cd ML of 0.10 mg/kg (100 ppb) for potatoes (noting that potatoes carry a higher Cd ML than most other vegetables under EU law, reflecting the literature on potato as a moderate Cd accumulator) ([[regulations/eu2023-contaminants-maximum-levels]]). For processed potato products intended for infants and young children, the EU applies stricter Pb limits. No US FDA action level for Cd or tAs in fresh or processed potato exists under the current Closer to Zero framework ([[regulations/fda-closer-to-zero]]). The Codex Alimentarius ML for Cd in potatoes is 0.10 mg/kg (100 ppb), consistent with the EU value ([[regulations/codex-cadmium-mls]]).
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 1 routed source. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/stasinos2014-heavy-metals-tubers-review|The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review]]<span class="hmi-ref-meta">Stasinos S, Nasopoulou C, Tsikrika C, and Zabetakis I · Journal of Food Science · 2014 · [doi.org/10.1111/1750-3841.12433](https://doi.org/10.1111/1750-3841.12433)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/sixto2023-potatoes-sweet-potatoes-metals|Inorganic contaminants (As, Cd, Pb) in peeled and whole potatoes and sweet potatoes]]<span class="hmi-ref-meta">Sixto A, Mollo A, Ibanez F, and Piston M · Agrociencia Uruguay · 2023 · [doi.org/10.31285/AGRO.27.1060](https://doi.org/10.31285/AGRO.27.1060)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/mahaffey1975-fda-total-diet-study-heavy-metals|Heavy Metal Exposure from Foods]]<span class="hmi-ref-meta">Mahaffey KR, Corneliussen PE, Jelinek CF, and Fiorino JA · Environmental Health Perspectives · 1975</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/sixto2023-potatoes-sweet-potatoes-metals|Inorganic contaminants (As, Cd, Pb) in peeled and whole potatoes and sweet potatoes]]<span class="hmi-ref-meta">Sixto A, Mollo A, Ibanez F, and Piston M · Agrociencia Uruguay · 2023 · [doi.org/10.31285/AGRO.27.1060](https://doi.org/10.31285/AGRO.27.1060)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/mahaffey1975-fda-total-diet-study-heavy-metals|Heavy Metal Exposure from Foods]]<span class="hmi-ref-meta">Mahaffey KR, Corneliussen PE, Jelinek CF, and Fiorino JA · Environmental Health Perspectives · 1975</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

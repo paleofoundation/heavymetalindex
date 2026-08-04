@@ -209,14 +209,6 @@ _No quantified data on this lever in the current corpus; section will be expande
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in fruit juices is 0.050 mg/kg (50 ppb). This is the same limit that applies to all single-strength fruit juices and is stricter than the general food Pb limit, reflecting the historical occurrence data across juice types. Grapefruit juice as a product category is not specifically enumerated with a stricter or looser limit than the general fruit juice category. In the United States, FDA has established a guidance level for Pb in juice at 50 ppb under the framework referenced at [[regulations/fda-juice-haccp-lead-50ppb]], which applies to all commercially sold juice including grapefruit juice. The FDA TDS data showing all analytes below detection in bottled/cartoned grapefruit juice (n=3) [[sources/fda2022-tds-elements-fy2018-fy2020]] indicates that this limit is met with substantial margin under current US market conditions.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 3 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

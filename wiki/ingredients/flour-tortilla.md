@@ -219,21 +219,13 @@ _No quantified data on this lever in the current corpus; section will be expande
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Cd in cereal-based processed foods is 0.10 mg/kg. For Pb in cereal-based processed foods intended for general consumption, the maximum level is 0.20 mg/kg. The flour tortilla as a finished product would be assessed against these limits at the ready-to-eat stage. No specific EU or US FDA maximum level applies to total arsenic in wheat-based products intended for general consumption; the FDA TDS data show tAs in flour tortillas at a median of approximately 4.3 ppb (n=27), well below any regulatory threshold that might be proposed by analogy with cereal-based infant foods [[sources/fda2022-tds-elements-fy2018-fy2020]].
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 1 routed source. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/cantoral2024-lead-levels-mexican-foods|Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort]]<span class="hmi-ref-meta">Cantoral A, Betanzos-Robledo L, Collado-López S, García-Martínez BA, Lamadrid-Figueroa H, Mariscal-Moreno RM, et al. · Toxics · 2024 · [doi.org/10.3390/toxics12050318](https://doi.org/10.3390/toxics12050318)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/masri2025-toxicant-foods-california|Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65]]<span class="hmi-ref-meta">Masri S, Nasla S, Payán DD, and Wu J · Nutrients · 2025 · [doi.org/10.3390/nu17193149](https://doi.org/10.3390/nu17193149)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/cantoral2024-lead-levels-mexican-foods|Lead Levels in the Most Consumed Mexican Foods: First Monitoring Effort]]<span class="hmi-ref-meta">Cantoral A, Betanzos-Robledo L, Collado-López S, García-Martínez BA, Lamadrid-Figueroa H, Mariscal-Moreno RM, et al. · Toxics · 2024 · [doi.org/10.3390/toxics12050318](https://doi.org/10.3390/toxics12050318)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/masri2025-toxicant-foods-california|Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65]]<span class="hmi-ref-meta">Masri S, Nasla S, Payán DD, and Wu J · Nutrients · 2025 · [doi.org/10.3390/nu17193149](https://doi.org/10.3390/nu17193149)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

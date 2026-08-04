@@ -118,19 +118,11 @@ updated: 2026-05-19
 The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-No source has yet been routed to this page. That is a statement about the corpus, not about the ingredient: absence of routed evidence is not evidence of absence. Nothing here should be read as a finding of low contamination.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/rezaei2020-fruits-markazi-essential-elements|Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study]]<span class="hmi-ref-meta">Mohammad Rezaei, Yousef Fakhri, Maryam Abtahi, Majid Keramati, Gholamreza Ghasemi, Mohammad H. Moradi, et al. · Quality Assurance and Safety of Crops & Foods · 2020 · [doi.org/10.15586/qas.v12i3.777](https://doi.org/10.15586/qas.v12i3.777)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/rezaei2020-fruits-markazi-essential-elements|Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study]]<span class="hmi-ref-meta">Mohammad Rezaei, Yousef Fakhri, Maryam Abtahi, Majid Keramati, Gholamreza Ghasemi, Mohammad H. Moradi, et al. · Quality Assurance and Safety of Crops & Foods · 2020 · [doi.org/10.15586/qas.v12i3.777](https://doi.org/10.15586/qas.v12i3.777)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

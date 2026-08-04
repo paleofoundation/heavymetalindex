@@ -217,14 +217,6 @@ Glass jar packaging eliminates any potential for metal leaching from container w
 No specific US federal maximum level for lead or cadmium in pickled vegetable products has been finalized as of 2026. Under the European Union [[regulations/eu2023-contaminants-maximum-levels]], pickled vegetables fall under the general vegetable category with a maximum level for lead of 0.10 mg/kg (100 ppb) wet weight and cadmium of 0.050 mg/kg (50 ppb) wet weight. The TDS Pb maximum of 9.8 ppb and Cd maximum of 1.3 ppb [[sources/fda2022-tds-elements-fy2018-fy2020]] are within these limits. Codex Alimentarius (CXS 193-1995 and revisions) sets a lead limit of 0.10 mg/kg for vegetables.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

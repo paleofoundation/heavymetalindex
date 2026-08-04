@@ -205,14 +205,6 @@ _No quantified data on this lever in the current corpus; section will be expande
 Under EU Regulation (EC) No 1881/2006 as amended by [[regulations/eu2023-contaminants-maximum-levels]], fish muscle (the primary ingredient in fish fingers) is subject to a Pb maximum level of 0.30 mg/kg wet weight and a Cd maximum level of 0.050 mg/kg wet weight. These limits apply to the muscle fraction as placed on the market. The breaded composite format is not separately enumerated in current EU regulations, and the applicable limit is therefore the most restrictive limit applicable to any ingredient fraction; in practice, the fish muscle limits govern. There is no EU maximum level for total arsenic in fish products; arsenic regulation in seafood focuses on inorganic arsenic, for which a specific limit applies to fish-based dietary supplements but not to fresh or frozen fish or fish products at the time of this writing. The FSA/Fera survey [[sources/fsa2016-infant-food-formula-metals-survey]] measured fish fingers in the context of the UK total diet study framework, which benchmarks against the same EU limits. No specific US FDA action level applies to total metals in fish finger products; the FDA's mercury guidance for fish applies to commercial fish species by species rather than to processed composite products.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

@@ -108,6 +108,19 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The anchor sources this finding is built on, together with any additional works its text cites. This is not the full corpus for the topic; the complete set of routed sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[sources/efsa2015-nickel-food-water|Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2015;13(2):4002, 202 pp · 2015 · [doi.org/10.2903/j.efsa.2015.4002](https://doi.org/10.2903/j.efsa.2015.4002)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/flyvholm1984-nickel-content-food-dietary-intake|Nickel Content of Food and Estimation of Dietary Intake]]<span class="hmi-ref-meta">Mari-Ann Flyvholm, Gitte Dalsgaard Nielsen, and Allan Andersen · Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 · 1984 · [doi.org/10.1007/BF01043437](https://doi.org/10.1007/BF01043437)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/mania2020-nickel-cereal-grains-poland|Assessment of exposure to nickel intake with selected cereal grains and cereal-based products]]<span class="hmi-ref-meta">Mania M, Rebeniak M, Orshulyak O, and Postupolski J · Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene) · 2020 · [doi.org/10.32394/rpzh.2020.0142](https://doi.org/10.32394/rpzh.2020.0142)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/han2024-nickel-zhejiang-china|Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China]]<span class="hmi-ref-meta">Han J, Zhang R, Tang J, Chen J, Zheng C, Zhao D, et al. · Toxics · 2024 · [doi.org/10.3390/toxics12030169](https://doi.org/10.3390/toxics12030169)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers]]<span class="hmi-ref-meta">Ćwieląg-Drabek M, Nieć-Leśniak J, Białek-Dratwa A, Piekut A, Kiciak A, Dziubanek G, et al. · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-024-04438-4](https://doi.org/10.1007/s12011-024-04438-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/manfredi2025-nickel-meat-italy|Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population]]<span class="hmi-ref-meta">Manfredi A, Varra MO, Zanardi E, Vitellino M, Peloso M, Lorusso P, et al. · Italian Journal of Food Safety · 2025 · [doi.org/10.4081/ijfs.2025.13840](https://doi.org/10.4081/ijfs.2025.13840)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -115,6 +128,7 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 14 sections added and 11 removed |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |

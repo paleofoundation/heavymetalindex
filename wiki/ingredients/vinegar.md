@@ -177,23 +177,15 @@ Glass packaging is the baseline-clean option. PET is acceptable. Avoid ceramic d
 The Codex Alimentarius General Standard CXS 193-1995 does not set vinegar-specific heavy-metals maxima. The EU Regulation 2023/915 applies general food-category limits to vinegar, with no vinegar-specific maximum for Pb, Cd, or tAs. The US FDA has not set vinegar-specific action levels but received the 2021 ESCP petition for action on balsamic vinegar specifically ([[sources/escp2021-pb-as-balsamic-vinegar-fda-letter]]). Italy's IGP and DOP traditional-balsamic protocols do not set heavy-metals limits as part of the geographic-indication framework. The CFIA 2025 Canadian targeted survey ([[sources/cfia2025-toxic-metals-selected-foods-2022-23]]) found general compliance with Health Canada's vinegar-applicable limits in the surveyed product. The regulatory gap on balsamic vinegar specifically, given the documented Pb-and-tAs elevation in this product category, is the focus of ongoing US advocacy and is likely to drive an FDA action in coming years.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 13 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter|Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA]]<span class="hmi-ref-meta">Corrigan ZB, Braiman J, and Chittenden C · Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter · 2021</span><span class="hmi-ref-tag">NGO</span>
-2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/cfia2025-toxic-metals-selected-foods-2022-23|Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report]]<span class="hmi-ref-meta">Canadian Food Inspection Agency · 2025 · [inspection.canada.ca](https://inspection.canada.ca/en/food-safety-industry/food-chemistry-and-microbiology/testing-reports-and-journal-articles/2022-2022-toxic-metals)</span><span class="hmi-ref-tag">Government</span>
-5. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/efsa2022-buffered-vinegar-food-additive-safety|Safety evaluation of buffered vinegar as a food additive]]<span class="hmi-ref-meta">EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Degen G, Engel KH, Fowler PJ, et al. · EFSA Journal · 2022 · [doi.org/10.2903/j.efsa.2022.7351](https://doi.org/10.2903/j.efsa.2022.7351)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 

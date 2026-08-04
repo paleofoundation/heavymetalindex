@@ -209,14 +209,6 @@ Mayonnaise is packaged in glass jars or plastic bottles; the Sn migration pathwa
 EU Regulation 2023/915 sets a maximum level for Pb in fats and oils of 0.10 mg/kg [[regulations/eu2023-contaminants-maximum-levels]]; mayonnaise, as an emulsified fat product, falls under this or the general condiment framework. No specific EU maximum for Cd in mayonnaise is set. The United States does not set statutory maxima for Pb or Cd in mayonnaise. Codex Alimentarius provisions for contaminants in edible fats and oils and condiments apply [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 1 routed source. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

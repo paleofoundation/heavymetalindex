@@ -225,14 +225,6 @@ Preference for glass, plastic, or retort pouch packaging over tinplate canning e
 In the European Union, Regulation (EU) 2023/915 establishes maximum levels for Pb and Cd in vegetables. For asparagus, as a fresh vegetable, the applicable Pb ML is 0.10 mg/kg (100 ppb) wet weight and the Cd ML is 0.050 mg/kg (50 ppb) wet weight ([[regulations/eu2023-contaminants-maximum-levels]]). No specific EU ML for asparagus Cd deviating from the general vegetable value appears in the current corpus; some leafy and stem vegetables have higher specific limits. In the United States, no FDA action level for Pb, Cd, or Ni in fresh asparagus exists under current Closer to Zero guidelines ([[regulations/fda-closer-to-zero]]); FDA's Closer to Zero program focuses on processed infant and toddler foods rather than fresh vegetables directly. No Codex Alimentarius ML specifically for asparagus contaminants appears in the current corpus. For canned asparagus, the EU applies an Sn ML of 200 mg/kg for canned solid food under Regulation (EU) 2023/915.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

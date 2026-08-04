@@ -211,14 +211,6 @@ _No quantified data on this lever in the current corpus; section will be expande
 In the European Union, Regulation (EU) 2023/915 establishes maximum levels for Pb and Cd in meat products. For processed meat products (including luncheon meats and sausages), the applicable Pb ML is 0.10 mg/kg (100 ppb) wet weight and the Cd ML is 0.050 mg/kg (50 ppb) wet weight ([[regulations/eu2023-contaminants-maximum-levels]]). For offal (organ meats), the EU applies a higher Cd ML of 1.0 mg/kg (1,000 ppb) in bovine kidney and 0.5 mg/kg in liver, reflecting the biological accumulation in those organs; these limits apply to the organ as a separate food rather than to a processed meat product incorporating organ fractions. In the United States, no FDA action level for Pb or Cd in processed meat products exists under the Closer to Zero framework ([[regulations/fda-closer-to-zero]]). The USDA Food Safety and Inspection Service (FSIS) regulates meat product composition and labeling but has not established specific heavy metal action levels for processed meat products in the current corpus. No Codex Alimentarius ML specific to processed luncheon meat or bologna appears in the current corpus.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

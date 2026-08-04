@@ -137,7 +137,7 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk|A Randomized Controlled Trial on the Effects of Jujube Fruit on the Concentrations of Some Toxic Trace Elements in Human Milk]]<span class="hmi-ref-meta">Kelishadi R, Hasanghaliaei N, Poursafa P, Keikha M, Ghannadi A, Yazdi M, et al. · Journal of Research in Medical Sciences 21(1):94 · 2016 · [doi.org/10.4103/1735-1995.193499](https://doi.org/10.4103/1735-1995.193499)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk|A Randomized Controlled Trial on the Effects of Jujube Fruit on the Concentrations of Some Toxic Trace Elements in Human Milk]]<span class="hmi-ref-meta">Kelishadi R, Hasanghaliaei N, Poursafa P, Keikha M, Ghannadi A, Yazdi M, et al. · Journal of Research in Medical Sciences 21(1):94 · 2016 · [doi.org/10.4103/1735-1995.193499](https://doi.org/10.4103/1735-1995.193499)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

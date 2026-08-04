@@ -233,22 +233,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in vegetables (general) is 0.10 mg/kg wet weight and for Cd in vegetables (general) it is 0.050 mg/kg wet weight. These limits apply to green bell pepper as placed on the market. All FDA TDS Pb measurements for green bell pepper (n=27) are below the 4 µg/kg reporting limit [[sources/fda2022-tds-elements-fy2018-fy2020]], and Cd values peak at 24 ppb, indicating substantial margin below the EU 50 ppb Cd limit under typical US commercial supply. The detected non-FDA anchors tell a more cautionary story for contaminated production: the Nigerian urban-agriculture survey reports pepper lead of 100 µg/kg at one site [[sources/emmanuel2025-kano-urban-vegetables-metals]], which sits exactly at the EU general-vegetable Pb limit of 0.10 mg/kg, so peri-urban or industrially impacted growing soils can push green-bell-pepper lead to the regulatory ceiling. For bell pepper used in processed vegetable products for infants and young children, the EU applies a stricter Pb maximum of 0.020 mg/kg for vegetable-based processed foods; bell pepper may require verification testing when included in infant food formulations to demonstrate compliance with this lower limit, particularly for supply originating from regions with documented soil-lead loading. There are no specific US FDA action levels for metals in fresh or processed bell pepper.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 4 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/emmanuel2025-kano-urban-vegetables-metals|Assessment of Heavy Metal Contamination and Health Risks from Urban-Grown Vegetables in Kano State, Nigeria]]<span class="hmi-ref-meta">Bernard Emmanuel · ChemClass Journal · 2025 · [doi.org/10.33003/chemclass-2025-0902/184](https://doi.org/10.33003/chemclass-2025-0902/184)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/salhotra2017-vegetables-fruits-heavy-metals|Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State]]<span class="hmi-ref-meta">Salhotra P and Verma R · IOSR Journal of Applied Chemistry · 2017 · [doi.org/10.9790/5736-100502110113](https://doi.org/10.9790/5736-100502110113)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/li2017-mercury-vegetables-grains-coal-power-china|Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants]]<span class="hmi-ref-meta">Li R, Wu H, Ding J, Fu W, Gan L, and Li Y · Scientific Reports · 2017 · [doi.org/10.1038/srep46545](https://doi.org/10.1038/srep46545)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/emmanuel2025-kano-urban-vegetables-metals|Assessment of Heavy Metal Contamination and Health Risks from Urban-Grown Vegetables in Kano State, Nigeria]]<span class="hmi-ref-meta">Bernard Emmanuel · ChemClass Journal · 2025 · [doi.org/10.33003/chemclass-2025-0902/184](https://doi.org/10.33003/chemclass-2025-0902/184)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/salhotra2017-vegetables-fruits-heavy-metals|Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State]]<span class="hmi-ref-meta">Salhotra P and Verma R · IOSR Journal of Applied Chemistry · 2017 · [doi.org/10.9790/5736-100502110113](https://doi.org/10.9790/5736-100502110113)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/li2017-mercury-vegetables-grains-coal-power-china|Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants]]<span class="hmi-ref-meta">Li R, Wu H, Ding J, Fu W, Gan L, and Li Y · Scientific Reports · 2017 · [doi.org/10.1038/srep46545](https://doi.org/10.1038/srep46545)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

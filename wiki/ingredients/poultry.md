@@ -136,20 +136,12 @@ This node is linked from [[products/meat-and-poultry-purees]].
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 24 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/mahmud2011-crvi-chicken-pakistan|Estimation of Chromium (VI) in various body parts of Local Chicken]]<span class="hmi-ref-meta">Mahmud T, Rehman R, Ali S, Anwar J, Abbas A, Farooq M, et al. · Journal of the Chemical Society of Pakistan · 2011 · [jcsp.org.pk](https://jcsp.org.pk/issueDetail.aspx?id=292)</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/kazimov2014-dietary-heavy-metals-azerbaijan|Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods]]<span class="hmi-ref-meta">Kazimov MA and Alieva NV · Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 · 2014</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/mahmud2011-crvi-chicken-pakistan|Estimation of Chromium (VI) in various body parts of Local Chicken]]<span class="hmi-ref-meta">Mahmud T, Rehman R, Ali S, Anwar J, Abbas A, Farooq M, et al. · Journal of the Chemical Society of Pakistan · 2011 · [jcsp.org.pk](https://jcsp.org.pk/issueDetail.aspx?id=292)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/kazimov2014-dietary-heavy-metals-azerbaijan|Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods]]<span class="hmi-ref-meta">Kazimov MA and Alieva NV · Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 · 2014</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

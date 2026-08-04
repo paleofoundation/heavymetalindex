@@ -130,9 +130,9 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+The anchor sources this finding is built on, together with any additional works its text cites. This is not the full corpus for the topic; the complete set of routed sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/suomi2023-finland-dietary-metals-cumulative|Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults]]<span class="hmi-ref-meta">Suomi J and Tuominen P · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-27879-x](https://doi.org/10.1007/s11356-023-27879-x)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/suomi2023-finland-dietary-metals-cumulative|Cumulative risk assessment of the dietary heavy metal and aluminum exposure of Finnish adults]]<span class="hmi-ref-meta">Suomi J and Tuominen P · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-27879-x](https://doi.org/10.1007/s11356-023-27879-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/jecfa-91st-cadmium-2022|Cadmium: dietary exposure assessment]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Food Additives Series, No. 82 (Safety evaluation of certain contaminants in food, prepared by the 91st meeting of JECFA) · 2022 · [www.who.int](https://www.who.int/publications/i/item/9789240060760)</span><span class="hmi-ref-tag">Government</span>
 3. [[sources/efsa2024-risk-assessment-iAs-update|Update of the risk assessment of inorganic arsenic in food]]<span class="hmi-ref-meta">EFSA CONTAM Panel, Schrenk D, Bignami M, Bodin L, Chipman JK, del Mazo J, et al. · EFSA Journal · 2024 · [doi.org/10.2903/j.efsa.2024.8488](https://doi.org/10.2903/j.efsa.2024.8488)</span><span class="hmi-ref-tag">Government</span>
 4. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
@@ -145,9 +145,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 3 sources added; 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [8677b6c71](https://github.com/paleofoundation/heavymetalindex/commit/8677b6c71) | 2026-06-11 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->

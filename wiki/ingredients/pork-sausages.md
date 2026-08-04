@@ -236,22 +236,14 @@ FDA Total Diet Study FY2018-FY2020 reports prepared/composite-food concentration
 <!-- END: hmi-fda-tds-occurrence -->
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-3. [[sources/zhang2022-pork-heavy-metals-china|Risk assessment of heavy metals contamination in pork]]<span class="hmi-ref-meta">Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. · Food Control · 2022 · [doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/ren2018-crvi-pork-electron-beam|One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation]]<span class="hmi-ref-meta">Ren J, Zhang G, Wang D, Han J, Wu Z, and Cai D · Journal of Food Science · 2018 · [doi.org/10.1111/1750-3841.14088](https://doi.org/10.1111/1750-3841.14088)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/zhang2022-pork-heavy-metals-china|Risk assessment of heavy metals contamination in pork]]<span class="hmi-ref-meta">Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. · Food Control · 2022 · [doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/ren2018-crvi-pork-electron-beam|One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation]]<span class="hmi-ref-meta">Ren J, Zhang G, Wang D, Han J, Wu Z, and Cai D · Journal of Food Science · 2018 · [doi.org/10.1111/1750-3841.14088](https://doi.org/10.1111/1750-3841.14088)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

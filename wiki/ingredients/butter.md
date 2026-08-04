@@ -211,14 +211,6 @@ Packaging and storage conditions are not a material driver of heavy metal load i
 The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in raw milk, heat-treated milk, and milk for manufacture of dairy-based products of 0.020 mg/kg (20 ppb). No specific EU maximum level for Pb in butter as a distinct product is established separate from the milk limit, reflecting the expectation that the fat-extraction process keeps butter values well below any applicable ceiling. Cd limits for dairy products are not separately specified in EU Regulation 2023/915 for most dairy fractions; butter falls within the general "foods for which no maximum levels are set" category for Cd given its consistently low measured values. No FDA action level specific to butter for Cd, Pb, or other heavy metals is currently operative.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 7 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

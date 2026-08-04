@@ -184,22 +184,14 @@ _No quantified data on this lever in the current corpus; section will be expande
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the associated contaminants regulation ([[regulations/eu2023-contaminants-maximum-levels]]) set a lead maximum of 0.10 mg/kg and a cadmium maximum of 0.050 mg/kg for poultry muscle meat. These limits apply to chicken as placed on the market. No specific US FDA action level for Pb or Cd applies to chicken muscle meat; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories rather than raw poultry. For inorganic arsenic in chicken, FDA has not established a specific action level for poultry muscle; the monitoring and regulatory response to arsenical veterinary drug residues is addressed through the veterinary drug residue program rather than a food contaminant limit. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides international cadmium limits for meat; the applicable limit for poultry muscle is 0.050 mg/kg.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 38 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/lasky2013-arsenic-chicken-correspondence|Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)]]<span class="hmi-ref-meta">Lasky T, Nachman KE, Baron PA, Raber G, Francesconi KA, and Love DC · Environmental Health Perspectives · 2013 · [doi.org/10.1289/ehp.1307083](https://doi.org/10.1289/ehp.1307083)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/henriquez-hernandez2023-baby-purees-spain-elements|Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market]]<span class="hmi-ref-meta">Henríquez-Hernández LA, Acosta-Dacal AC, Boada LD, Zumbado M, Serra-Majem L, and Luzardo OP · Nutrients 15(14):3251 · 2023 · [doi.org/10.3390/nu15143251](https://doi.org/10.3390/nu15143251)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/hossain2023-bangladesh-chicken-metals|Human health risk assessment of edible body parts of chicken through heavy metals and trace elements quantitative analysis]]<span class="hmi-ref-meta">Hossain E, Nesha M, Chowdhury MAZ, and Rahman SH · PLoS ONE · 2023 · [doi.org/10.1371/journal.pone.0279043](https://doi.org/10.1371/journal.pone.0279043)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/lasky2013-arsenic-chicken-correspondence|Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)]]<span class="hmi-ref-meta">Lasky T, Nachman KE, Baron PA, Raber G, Francesconi KA, and Love DC · Environmental Health Perspectives · 2013 · [doi.org/10.1289/ehp.1307083](https://doi.org/10.1289/ehp.1307083)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/henriquez-hernandez2023-baby-purees-spain-elements|Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market]]<span class="hmi-ref-meta">Henríquez-Hernández LA, Acosta-Dacal AC, Boada LD, Zumbado M, Serra-Majem L, and Luzardo OP · Nutrients 15(14):3251 · 2023 · [doi.org/10.3390/nu15143251](https://doi.org/10.3390/nu15143251)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/hossain2023-bangladesh-chicken-metals|Human health risk assessment of edible body parts of chicken through heavy metals and trace elements quantitative analysis]]<span class="hmi-ref-meta">Hossain E, Nesha M, Chowdhury MAZ, and Rahman SH · PLoS ONE · 2023 · [doi.org/10.1371/journal.pone.0279043](https://doi.org/10.1371/journal.pone.0279043)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

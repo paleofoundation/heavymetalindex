@@ -63,10 +63,10 @@ The gap between literature evidence (this page reports it) and HMTc Cat 2 thresh
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/attard2022-heavy-metals-cosmetics-review|Heavy Metals in Cosmetics]]<span class="hmi-ref-meta">Attard T and Attard E · Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) · 2022 · [doi.org/10.5772/intechopen.102406](https://doi.org/10.5772/intechopen.102406)</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder]]<span class="hmi-ref-meta">Rashmi V · IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 · 2020 · [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Health risk implications of heavy metals in toothpaste]]<span class="hmi-ref-meta">Massarsky A, Unice KM, and Kreider ML · Public Health and Toxicology 5(2):9 · 2025 · [doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/li2021-lead-lip-cosmetics-china-ecommerce|Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis]]<span class="hmi-ref-meta">Li Y, Fang Y, Liu Z, Zhang Y, Liu K, Jiang L, et al. · Frontiers in Public Health 9:766984 · 2021 · [doi.org/10.3389/fpubh.2021.766984](https://doi.org/10.3389/fpubh.2021.766984)</span><span class="hmi-ref-tag">Review</span>
-5. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">Šmajgl D and Obhođaš J · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india|Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder]]<span class="hmi-ref-meta">Rashmi V · IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 · 2020 · [patnawomenscollege.in](https://patnawomenscollege.in/iris-vol-x2020/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/massarsky2025-heavy-metals-toothpaste-health-risk|Health risk implications of heavy metals in toothpaste]]<span class="hmi-ref-meta">Massarsky A, Unice KM, and Kreider ML · Public Health and Toxicology 5(2):9 · 2025 · [doi.org/10.18332/pht/207273](https://doi.org/10.18332/pht/207273)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/li2021-lead-lip-cosmetics-china-ecommerce|Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis]]<span class="hmi-ref-meta">Li Y, Fang Y, Liu Z, Zhang Y, Liu K, Jiang L, et al. · Frontiers in Public Health 9:766984 · 2021 · [doi.org/10.3389/fpubh.2021.766984](https://doi.org/10.3389/fpubh.2021.766984)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">Šmajgl D and Obhođaš J · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 ## Sources
@@ -84,6 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 4 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 | [fd41c52c4](https://github.com/paleofoundation/heavymetalindex/commit/fd41c52c4) | 2026-05-15 | major | 5 sources added; 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

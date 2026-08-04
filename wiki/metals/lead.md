@@ -217,48 +217,6 @@ Under its Closer to Zero program (2025 final guidance), the FDA set action level
 Blood lead concentration (µg/dL) is the standard human biomarker; the CDC blood lead reference value is 3.5 µg/dL, a population-screening threshold rather than a health-based safety threshold ([[sources/cdc-blood-lead-reference-value|CDC BLRV]]). Bone lead measured by K-shell X-ray fluorescence reflects cumulative lifetime exposure ([[sources/atsdr-lead-toxprofile-2020|ATSDR 2020]]). Lead in food and water is typically measured by ICP-MS ([[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]]).
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-tightening -->
-## Regulatory tightening over time
-
-Instruments that set a limit for Lead, oldest first. Dates are the instrument's own effective date.
-
-| Year | Body | Instrument | Value as set |
-| --- | --- | --- | --- |
-| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
-| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
-| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
-| 2004 | EPA | IRIS |  not-derived |
-| 2007 | EU | ec-1881-2006 |  |
-| 2010 | EFSA | CONTAM Panel |  µg/kg-bw/day-BMDL |
-| 2010 | JECFA | FAO/WHO Joint Expert Committee on Food Additives |  µg/kg-bw/week |
-| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
-| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
-| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
-| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
-| 2021 | European Commission | Commission Regulation (EU) 2021/1317 | 0.2 mg/kg wet weight |
-| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
-| 2023 | Ministry of Agriculture and Forestry | Turkish Food Codex Contaminants Regulation | 0.02 mg/kg wet weight |
-| 2025 | Washington State Department of Ecology | Toxic-Free Cosmetics Act (TFCA) | 1000 ppb |
-
-_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 15 dated instruments._
-<!-- END: hmi-v3-tightening -->
-
-<!-- BEGIN: hmi-v3-refvalues -->
-## What the reference values mean in practice
-
-The 24 instruments recorded for Lead are not 24 versions of one number. They are 7 different kinds of value, set by bodies doing different jobs:
-
-- Food Standards Australia New Zealand, Ministry of Agriculture and Forestry, Ministry of Health, Secretaria de Salud set a legally binding maximum level under national law.
-- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
-- EPA set a reference dose: a daily intake estimated to be without appreciable risk over a lifetime.
-- European Commission set a legally binding maximum level for a named food.
-- FDA set an action level or guidance value, which the agency applies as an enforcement trigger rather than a safety threshold.
-- JECFA set an international health-based reference point intended for national authorities to implement.
-- OEHHA set a warning threshold under state law, which triggers disclosure rather than prohibiting sale.
-
-The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
-<!-- END: hmi-v3-refvalues -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -271,9 +229,9 @@ Works cited in this page's text, in first-appearance order. This is not the full
 6. [[sources/cdc-blood-lead-reference-value|Blood Lead Reference Value (3.5 µg/dL)]]<span class="hmi-ref-meta">U.S. Centers for Disease Control and Prevention · 2021 · [www.cdc.gov](https://www.cdc.gov/mmwr/volumes/70/wr/mm7043a4.htm)</span><span class="hmi-ref-tag">Government</span>
 7. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
 8. [[sources/oehha-lead-prop65-listing|Lead and Lead Compounds — Proposition 65 Chemical Listing]]<span class="hmi-ref-meta">California Office of Environmental Health Hazard Assessment · [oehha.ca.gov](https://oehha.ca.gov/proposition-65/chemicals/lead-and-lead-compounds)</span><span class="hmi-ref-tag">Government</span>
-9. [[sources/ordemann-austin-2016-pb-zinc-finger|Lead neurotoxicity: exploring the potential impact of lead substitution in zinc-finger proteins on mental health]]<span class="hmi-ref-meta">Ordemann JM and Austin RN · Metallomics, Issue 6, 2016 · 2016 · [doi.org/10.1039/c5mt00300h](https://doi.org/10.1039/c5mt00300h)</span><span class="hmi-ref-tag">Review</span>
-10. [[sources/tamagno-freeman-2025-pb-glutamate|Glutamate-Mediated Neural Alterations in Lead Exposure: Mechanisms, Pathways, and Phenotypes]]<span class="hmi-ref-meta">Tamagno WA and Freeman JL · Toxics 13(7):519 · 2025 · [doi.org/10.3390/toxics13070519](https://doi.org/10.3390/toxics13070519)</span><span class="hmi-ref-tag">Review</span>
-11. [[sources/huang-2020-pb-alad-threshold|Use of Generalized Additive Model to Detect the Threshold of δ-Aminolevulinic Acid Dehydratase Activity Reduced by Lead Exposure]]<span class="hmi-ref-meta">Huang CC, Yang CC, Liu TY, Dai CY, Wang CL, and Chuang HY · International Journal of Environmental Research and Public Health · 2020 · [doi.org/10.3390/ijerph17165712](https://doi.org/10.3390/ijerph17165712)</span><span class="hmi-ref-tag">Review</span>
+9. [[sources/ordemann-austin-2016-pb-zinc-finger|Lead neurotoxicity: exploring the potential impact of lead substitution in zinc-finger proteins on mental health]]<span class="hmi-ref-meta">Ordemann JM and Austin RN · Metallomics, Issue 6, 2016 · 2016 · [doi.org/10.1039/c5mt00300h](https://doi.org/10.1039/c5mt00300h)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/tamagno-freeman-2025-pb-glutamate|Glutamate-Mediated Neural Alterations in Lead Exposure: Mechanisms, Pathways, and Phenotypes]]<span class="hmi-ref-meta">Tamagno WA and Freeman JL · Toxics 13(7):519 · 2025 · [doi.org/10.3390/toxics13070519](https://doi.org/10.3390/toxics13070519)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/huang-2020-pb-alad-threshold|Use of Generalized Additive Model to Detect the Threshold of δ-Aminolevulinic Acid Dehydratase Activity Reduced by Lead Exposure]]<span class="hmi-ref-meta">Huang CC, Yang CC, Liu TY, Dai CY, Wang CL, and Chuang HY · International Journal of Environmental Research and Public Health · 2020 · [doi.org/10.3390/ijerph17165712](https://doi.org/10.3390/ijerph17165712)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 12. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
@@ -1671,9 +1629,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 3 sources added; 1 section added; narrative text revised |
 | [41191f2c9](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9) | 2026-08-02 | major | 1 section added and 1 removed |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [0f0b1cd7c](https://github.com/paleofoundation/heavymetalindex/commit/0f0b1cd7c) | 2026-08-01 | correction | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 9 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -169,7 +169,14 @@ export function referenceTag(fm) {
   if (/industry|trade|application-note/.test(s)) return "Industry"
   if (/ngo|non-?profit/.test(s)) return "NGO"
   if (/preprint/.test(s)) return "Preprint"
-  if (/review/.test(s)) return "Review" // peer-reviewed-review, systematic-review
+  // WORD-BOUNDARY on "review": the bare /review/ also matched the "review" inside
+  // "peer-reviewed", so all 1,799 peer-reviewed sources in the corpus rendered as
+  // "Review" — a reference list that calls every primary study a review is exactly
+  // what discredits it under scrutiny. \breview\b still catches an actual review
+  // article ("systematic-review", "peer-reviewed-review", "review") because the
+  // hyphen is a word boundary, while "peer-reviewed" and "peer-reviewed-primary"
+  // fall through to the peer-reviewed tag below.
+  if (/\breview\b/.test(s)) return "Review" // peer-reviewed-review, systematic-review
   if (/peer-reviewed|journal|^article|^study$/.test(s)) return "Peer-reviewed"
   if (/textbook|book/.test(s)) return "Textbook"
   if (/thesis|dissertation/.test(s)) return "Thesis"

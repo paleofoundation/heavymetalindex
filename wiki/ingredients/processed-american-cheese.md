@@ -209,14 +209,6 @@ Packaging does not contribute heavy metals to processed cheese under standard in
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Pb maximum level for processed cheese is 0.020 mg/kg (20 ppb) wet weight, the same limit that applies to raw fluid milk and other dairy products. A Cd maximum level of 0.020 mg/kg (20 ppb) wet weight applies to milk-based dairy products under EU frameworks. The FDA does not publish a specific action level for Pb or Cd in processed cheese; the closest applicable standard is the general tolerance framework under 21 CFR and the broader Closer to Zero program direction (see [[regulations/fda-closer-to-zero]]) for processed foods intended for children, though processed American cheese is not specifically addressed in current CTZ guidance documents.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 6 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

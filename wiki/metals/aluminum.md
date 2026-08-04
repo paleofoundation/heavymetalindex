@@ -211,32 +211,6 @@ Aluminum content varies widely by product; [[sources/efsa-aluminium-afc-2008|EFS
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-tightening -->
-## Regulatory tightening over time
-
-Instruments that set a limit for Aluminum, oldest first. Dates are the instrument's own effective date.
-
-| Year | Body | Instrument | Value as set |
-| --- | --- | --- | --- |
-| 2008 | EFSA | AFC Panel | 1 mg/kg-bw/week |
-| 2008 | ATSDR | Toxicological Profile series | 1 mg/kg-bw/day |
-| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
-
-_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 3 dated instruments._
-<!-- END: hmi-v3-tightening -->
-
-<!-- BEGIN: hmi-v3-refvalues -->
-## What the reference values mean in practice
-
-The 3 instruments recorded for Aluminum are not 3 versions of one number. They are 3 different kinds of value, set by bodies doing different jobs:
-
-- ATSDR set a minimal risk level, screening guidance for a defined exposure duration.
-- Food Standards Australia New Zealand set a legally binding maximum level under national law.
-- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
-
-The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
-<!-- END: hmi-v3-refvalues -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -245,8 +219,8 @@ Works cited in this page's text, in first-appearance order. This is not the full
 2. [[sources/atsdr-aluminum-toxprofile-2008|Toxicological Profile for Aluminum]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2008 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf)</span><span class="hmi-ref-tag">Government</span>
 3. [[sources/jecfa-food-additive-specs-compendium|Combined Compendium of Food Additive Specifications: All Specifications Monographs from the 1st to the 65th Meeting (1956-2005)]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · FAO JECFA Monographs 1, ISSN 1817-7077 · 2005 · [openknowledge.fao.org](https://openknowledge.fao.org/handle/20.500.14283/a0691e)</span><span class="hmi-ref-tag">Government</span>
 4. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
-5. [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility|Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment]]<span class="hmi-ref-meta">Esther Lima de Paiva, Camila Medeiros, Maria Isabel Andrekowisk Fioravanti, Raquel Fernanda Milani, Marcelo Antônio Morgano, Juliana Azevedo Lima Pallone, et al. · Journal of Food Composition and Analysis 90:103493 · 2020 · [doi.org/10.1016/j.jfca.2020.103493](https://doi.org/10.1016/j.jfca.2020.103493)</span><span class="hmi-ref-tag">Review</span>
-6. [[sources/redgrove2019-prescription-infant-formulas-aluminium|Prescription Infant Formulas Are Contaminated with Aluminium]]<span class="hmi-ref-meta">James Redgrove, Isabel Rodriguez, Subramanian Mahadevan-Bava, and Christopher Exley · International Journal of Environmental Research and Public Health 16(5):899 · 2019 · [doi.org/10.3390/ijerph16050899](https://doi.org/10.3390/ijerph16050899)</span><span class="hmi-ref-tag">Review</span>
+5. [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility|Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment]]<span class="hmi-ref-meta">Esther Lima de Paiva, Camila Medeiros, Maria Isabel Andrekowisk Fioravanti, Raquel Fernanda Milani, Marcelo Antônio Morgano, Juliana Azevedo Lima Pallone, et al. · Journal of Food Composition and Analysis 90:103493 · 2020 · [doi.org/10.1016/j.jfca.2020.103493](https://doi.org/10.1016/j.jfca.2020.103493)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/redgrove2019-prescription-infant-formulas-aluminium|Prescription Infant Formulas Are Contaminated with Aluminium]]<span class="hmi-ref-meta">James Redgrove, Isabel Rodriguez, Subramanian Mahadevan-Bava, and Christopher Exley · International Journal of Environmental Research and Public Health 16(5):899 · 2019 · [doi.org/10.3390/ijerph16050899](https://doi.org/10.3390/ijerph16050899)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -676,9 +650,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 5 sources added; 9 sections added and 1 removed; narrative text revised |
-| [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

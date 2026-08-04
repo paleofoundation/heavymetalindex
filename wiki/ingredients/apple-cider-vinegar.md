@@ -177,23 +177,15 @@ Glass packaging is the baseline-cleanest option for retail product. PET is compa
 The Codex Alimentarius General Standard CXS 193-1995 does not set ACV-specific maxima. The EU Regulation 2023/915 applies general food-category limits to vinegar including ACV. The US FDA has not set ACV-specific action levels. The CFIA 2025 Canadian targeted survey did not identify ACV-specific exceedances of Canadian limits in the surveyed product set. The general vinegar regulatory framework (see [[ingredients/vinegar]] for the broader picture) applies to ACV without modification.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 6 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/ozbek2016-mip-oes-turkish-vinegars|A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry]]<span class="hmi-ref-meta">Ozbek N, Koca M, and Akman S · Food Analytical Methods · 2016 · [doi.org/10.1007/s12161-016-0421-x](https://doi.org/10.1007/s12161-016-0421-x)</span><span class="hmi-ref-tag">Review</span>
-5. [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars|Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry]]<span class="hmi-ref-meta">Saei-Dehkordi SS, Fallah AA, and Ghafari E · Food Analytical Methods · 2012 · [doi.org/10.1007/s12161-011-9303-4](https://doi.org/10.1007/s12161-011-9303-4)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/acosta1993-cd-pb-ni-vinegar-types|Levels of Cd, Pb, and Ni in Different Types of Vinegars]]<span class="hmi-ref-meta">Acosta A, Diaz C, Hardisson A, and Gonzalez D · Bulletin of Environmental Contamination and Toxicology · 1993</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece|Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter]]<span class="hmi-ref-meta">Karavoltsos S, Sakellari A, Sinanoglou VJ, Zoumpoulakis P, Plavsic M, Dassenakis M, et al. · Molecules · 2020 · [doi.org/10.3390/molecules25040861](https://doi.org/10.3390/molecules25040861)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/ndungu2004-lead-vinegar-icpms-gfaas|Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures]]<span class="hmi-ref-meta">Ndung'u K, Hibdon S, and Flegal AR · Talanta · 2004 · [doi.org/10.1016/j.talanta.2004.02.017](https://doi.org/10.1016/j.talanta.2004.02.017)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/ozbek2016-mip-oes-turkish-vinegars|A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry]]<span class="hmi-ref-meta">Ozbek N, Koca M, and Akman S · Food Analytical Methods · 2016 · [doi.org/10.1007/s12161-016-0421-x](https://doi.org/10.1007/s12161-016-0421-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars|Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry]]<span class="hmi-ref-meta">Saei-Dehkordi SS, Fallah AA, and Ghafari E · Food Analytical Methods · 2012 · [doi.org/10.1007/s12161-011-9303-4](https://doi.org/10.1007/s12161-011-9303-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

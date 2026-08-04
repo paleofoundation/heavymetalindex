@@ -79,6 +79,44 @@ for (const file of fs.readdirSync(sourcesDir)) {
   sources.set(citeKey.toLowerCase(), { fm, citeKey: fm.cite_key || citeKey })
 }
 
+// Regulation pages, indexed the same way, so a synthesis finding whose declared
+// evidence base is instruments rather than papers (the EU regulatory-framework
+// timeline is built entirely on `[[regulations/...]]`) still renders a complete
+// References section pointing at those instruments.
+const regulationsDir = path.join(repoRoot, "wiki/regulations")
+const regulations = new Map()
+if (fs.existsSync(regulationsDir)) {
+  for (const file of fs.readdirSync(regulationsDir)) {
+    if (!file.endsWith(".md")) continue
+    const key = file.replace(/\.md$/, "")
+    try {
+      regulations.set(key.toLowerCase(), { fm: matter(fs.readFileSync(path.join(regulationsDir, file), "utf8")).data, key })
+    } catch {
+      /* skip unparseable */
+    }
+  }
+}
+
+function renderRegulationEntry(fm, key) {
+  const title = String(fm.title || key).trim().replace(/[[\]|]/g, " ").replace(/\s+/g, " ")
+  // YAML parses an unquoted ISO date to a JS Date, whose String() is
+  // "Fri Jan 01 2001 ..." — slicing that gave a weekday. Pull a 4-digit year
+  // whether the value is a Date or a string.
+  const year =
+    fm.effective_date instanceof Date
+      ? fm.effective_date.getUTCFullYear()
+      : (String(fm.effective_date ?? "").match(/\d{4}/) || [null])[0]
+  const meta = [fm.jurisdiction, fm.agency, fm.program, year]
+    .filter(Boolean)
+    .map((x) => String(x).trim())
+    .join(" · ")
+  return (
+    `[[regulations/${key}|${title}]]` +
+    `<span class="hmi-ref-meta">${meta}</span>` +
+    `<span class="hmi-ref-tag">Regulation</span>`
+  )
+}
+
 function resolveSource(key) {
   let entry = sources.get(String(key).toLowerCase())
   const seen = new Set()
@@ -134,6 +172,51 @@ function citedKeysInOrder(raw) {
   return ordered
 }
 
+// SYNTHESIS FINDINGS cite their evidence base in `anchor_sources` frontmatter,
+// and several (including dietary-nickel, the design's own flagship finding) never
+// repeat those citations inline in the prose. The prose-only collector therefore
+// returned nothing for them and they rendered with NO references section at all —
+// the epistemic-authority layer, with an empty evidence trail. For a synthesis
+// finding the anchor sources ARE the references: they are the works the finding
+// is declared to rest on. So on these pages the reference list is the union of
+// the anchor sources (in frontmatter order) and anything the prose additionally
+// cites, and every finding is guaranteed a complete, auditable evidence trail.
+function anchorSourceEntries(raw) {
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/)
+  if (!fmMatch) return []
+  const fm = fmMatch[1]
+  // Capture the anchor_sources value whether it is flow (`[ ... ]` on one line)
+  // or block (`- "[[sources/x]]"` lines) style, up to the next top-level key.
+  const m = fm.match(/^anchor_sources:\s*([\s\S]*?)(?=^\S|\n---|$)/m)
+  if (!m) return []
+  // Each anchor is either a source page or a regulation page. Preserve
+  // frontmatter order and dedupe by fully-qualified key.
+  const refs = [...m[1].matchAll(/\b(sources|regulations)\/([a-z0-9._-]+)/gi)].map((x) => ({
+    kind: x[1].toLowerCase(),
+    key: x[2],
+  }))
+  const out = []
+  const seen = new Set()
+  for (const ref of refs) {
+    if (ref.kind === "regulations") {
+      const entry = regulations.get(ref.key.toLowerCase())
+      if (!entry) continue
+      const id = `regulations/${entry.key.toLowerCase()}`
+      if (seen.has(id)) continue
+      seen.add(id)
+      out.push({ citeKey: `regulations/${entry.key}`, rendered: renderRegulationEntry(entry.fm, entry.key) })
+      continue
+    }
+    const resolved = resolveSource(ref.key)
+    if (!resolved) continue
+    const canonical = resolved.citeKey.toLowerCase()
+    if (seen.has(canonical)) continue
+    seen.add(canonical)
+    out.push(resolved)
+  }
+  return out
+}
+
 // Intro copy, v3-aligned. Short, but it keeps the audit-trail sentence: the
 // short form is only defensible because each title still resolves to the source
 // record that carries the receipt, the hash, and the extracted values. No em
@@ -144,19 +227,28 @@ const INTRO =
   "listed under [Sources](#sources) below. Each title links to its source record, which carries " +
   "the ingest receipt, the extracted values, and the file hash of the document it was built from."
 
-function renderBlock(entries) {
+// A synthesis finding's references ARE its declared evidence base, so the intro
+// says that honestly rather than claiming everything below was superscripted in
+// the prose (some anchors are not).
+const SYNTHESIS_INTRO =
+  "The anchor sources this finding is built on, together with any additional works its text cites. " +
+  "This is not the full corpus for the topic; the complete set of routed sources is listed under " +
+  "[Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, " +
+  "the extracted values, and the file hash of the document it was built from."
+
+function renderBlock(entries, intro = INTRO) {
   // Each item is a markdown list line whose content is a source wikilink (the
   // title) plus two inline spans the stylesheet lays out. The `${i + 1}.` marker
   // is what makes it an <ol>; CSS hides it and renders `[n]` from a counter, so
   // the numbering still comes from first-appearance order and cannot drift from
   // the prose superscripts.
   const items = entries
-    .map((e, i) => `${i + 1}. ${renderReferenceEntry(e.fm, e.citeKey)}`)
+    .map((e, i) => `${i + 1}. ${e.rendered ?? renderReferenceEntry(e.fm, e.citeKey)}`)
     .join("\n")
   return `${BEGIN_MARKER}
 ## References
 
-${INTRO}
+${intro}
 
 ${items}
 ${END_MARKER}`
@@ -207,11 +299,23 @@ for (const targetDir of TARGETS) {
     const raw = fs.readFileSync(absPath, "utf8")
     if (!/^---\n/.test(raw)) continue
 
-    const entries = citedKeysInOrder(raw)
+    const cited = citedKeysInOrder(raw)
+    // Synthesis findings: union the prose citations with the declared
+    // anchor_sources (cited first, then any anchor not already present), so the
+    // finding's full evidence base is always its reference list.
+    const isSynthesis = targetDir === "wiki/synthesis" && file !== "index.md"
+    let entries = cited
+    let intro = INTRO
+    if (isSynthesis) {
+      const seen = new Set(cited.map((e) => e.citeKey.toLowerCase()))
+      const extraAnchors = anchorSourceEntries(raw).filter((e) => !seen.has(e.citeKey.toLowerCase()))
+      entries = [...cited, ...extraAnchors]
+      intro = SYNTHESIS_INTRO
+    }
     if (entries.length === 0) noCitations += 1
     totalRefs += entries.length
 
-    const next = upsert(raw, entries.length ? renderBlock(entries) : null)
+    const next = upsert(raw, entries.length ? renderBlock(entries, intro) : null)
     if (next === raw) {
       unchanged += 1
       continue

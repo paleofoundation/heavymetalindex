@@ -177,21 +177,13 @@ Packaging is not the dominant pathway for fresh herbs. Standard food-grade clams
 The Codex Alimentarius General Standard CXS 193-1995 applies the leafy-vegetable Pb maximum of 0.30 mg/kg fresh weight to fresh herbs, and Cd at 0.20 mg/kg fresh weight (general vegetables; some fresh herbs fall under specific tighter categories). The EU Regulation 2023/915 applies tighter limits: 0.30 mg/kg Pb for "leafy vegetables and fresh herbs," and 0.20 mg/kg Cd for leafy vegetables and stems excluding celery and salsify. The Australian LHAAC 2025 CSP 41 found commercial fresh-herb product generally compliant with applicable Australian caps on a fresh-weight basis ([[sources/lhaac2025-csp41-herbs-spices-wa]]). The Polish Winiarska-Mieczan 2023 work confirmed similar compliance for the Polish-market fresh-herb category ([[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]]).
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 9 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/fischer2022-mercury-spice-plants-poland|The Mercury Concentration in Spice Plants]]<span class="hmi-ref-meta">Fischer A and Brodziak-Dopierała B · Processes · 2022 · [doi.org/10.3390/pr10101954](https://doi.org/10.3390/pr10101954)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/lhaac2025-csp41-herbs-spices-wa|Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices]]<span class="hmi-ref-meta">LHAAC · Local Health Authorities Analytical Committee, Edith Cowan University · 2025</span><span class="hmi-ref-tag">Government</span>
-3. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine]]<span class="hmi-ref-meta">Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices|The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine]]<span class="hmi-ref-meta">Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, et al. · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-022-03437-7](https://doi.org/10.1007/s12011-022-03437-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

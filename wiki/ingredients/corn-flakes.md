@@ -217,20 +217,12 @@ _No quantified data on packaging or storage effects on heavy metal content in co
 The European Union under [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for cadmium in processed cereal-based foods of 0.040 mg/kg (40 ppb) for products specifically marketed for infants and young children, and a general cereal maximum of 0.10 mg/kg (100 ppb) for other cereal products. For lead, the EU general cereal maximum is 0.20 mg/kg (200 ppb). No specific EU maximum level for total chromium or nickel in processed cereals has been finalized as of 2026; chromium as Cr-VI is subject to separate drinking water and occupational standards rather than food-matrix maximum levels. Codex Alimentarius sets a general cereal maximum of 0.10 mg/kg for Cd and 0.20 mg/kg for Pb.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 3 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/hassan2025-cornflakes-lebanon-metals|Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance]]<span class="hmi-ref-meta">Hassan H, Abdallah M, Khalil N, and Sleiman M · RSC Advances · 2025 · [doi.org/10.1039/d5ra03210k](https://doi.org/10.1039/d5ra03210k)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/hassan2025-cornflakes-lebanon-metals|Cornflakes as a source of dietary metal exposure in Lebanon: Risk assessment and regulatory compliance]]<span class="hmi-ref-meta">Hassan H, Abdallah M, Khalil N, and Sleiman M · RSC Advances · 2025 · [doi.org/10.1039/d5ra03210k](https://doi.org/10.1039/d5ra03210k)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

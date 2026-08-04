@@ -75,22 +75,6 @@ The ratio of inorganic to total arsenic varies systematically by matrix. In whit
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-tightening -->
-## Regulatory tightening over time
-
-Instruments that set a limit for Arsenic, Total, oldest first. Dates are the instrument's own effective date.
-
-| Year | Body | Instrument | Value as set |
-| --- | --- | --- | --- |
-| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
-| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
-| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
-| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
-| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
-
-_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 5 dated instruments._
-<!-- END: hmi-v3-tightening -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

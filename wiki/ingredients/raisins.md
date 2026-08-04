@@ -209,14 +209,6 @@ _No quantified data on packaging or storage effects on raisin metal content in t
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Pb maximum level for dried fruits including raisins is 0.10 mg/kg (100 ppb) wet weight. A Cd maximum level of 0.050 mg/kg (50 ppb) wet weight applies to dried fruits under the EU framework. The FDA does not publish a specific action level for Pb or Cd in raisins; the general tolerance framework under 21 CFR applies. For the broader context of FDA efforts to reduce Pb in foods marketed to young children, see [[regulations/fda-closer-to-zero]].
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 3 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

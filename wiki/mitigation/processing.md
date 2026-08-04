@@ -68,7 +68,7 @@ Specific primary studies in the corpus that should be promoted to populate this 
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in brown rice: do the benefits outweigh the risks?]]<span class="hmi-ref-meta">Su LJ, Chiang TC, and O'Connor SN · Frontiers in Nutrition · 2023 · [doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in brown rice: do the benefits outweigh the risks?]]<span class="hmi-ref-meta">Su LJ, Chiang TC, and O'Connor SN · Frontiers in Nutrition · 2023 · [doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
@@ -79,8 +79,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 | [43f4b5e53](https://github.com/paleofoundation/heavymetalindex/commit/43f4b5e53) | 2026-06-15 | correction | 1 source added and 1 removed; narrative text revised |
 | [215477918](https://github.com/paleofoundation/heavymetalindex/commit/215477918) | 2026-05-03 | major | 1 source added; narrative text revised |
-| [ed8797d63](https://github.com/paleofoundation/heavymetalindex/commit/ed8797d63) | 2026-05-03 | major | 1 source added; 4 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -234,24 +234,16 @@ _No quantified data on this lever in the current corpus; section will be expande
 The European Union sets maximum levels for turkey muscle meat under [[regulations/eu2023-contaminants-maximum-levels]]: Pb at 0.10 mg/kg (100 ppb) and Cd at 0.050 mg/kg (50 ppb) for poultry muscle. No Hg or As specific maximum levels apply to poultry muscle under current EU contaminant regulations. In the US, [[regulations/fda-closer-to-zero]] Pb guidance (20 ppb for meat-based baby food purees) applies when turkey is used in products formulated for infants. No general FDA action level for As, Pb, or Cd in poultry muscle meat is currently promulgated for the domestic retail market.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 3 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
 2. [[sources/raeeszadeh2021-animal-meat-metals-iran|Determination of some heavy metals concentration in species animal meat (sheep, beef, turkey, and ostrich) and carcinogenic health risk assessment in Kurdistan province, western Iran]]<span class="hmi-ref-meta">Raeeszadeh M, Gravandi H, and Akbari A · Research Square · 2021 · [doi.org/10.21203/rs.3.rs-407310/v1](https://doi.org/10.21203/rs.3.rs-407310/v1)</span><span class="hmi-ref-tag">Preprint</span>
-3. [[sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals|Analysis of heavy metals content in domestic and imported poultry meat]]<span class="hmi-ref-meta">Omirzakov OM, Krivets VV, Berdikulov MA, Kuanysh AE, Omarova AS, and Dyussembayev KA · Herald of Science of S. Seifullin Kazakh Agrotechnical Research University: Veterinary Sciences · 2024 · [doi.org/10.51452/kazatuvc.2024.3(007).1753](https://doi.org/10.51452/kazatuvc.2024.3(007).1753)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/lysenko2021-organic-broiler-meat-heavy-metals|Organic Meat Production of Broiler Chickens Hubbard Redbro Cross]]<span class="hmi-ref-meta">Lysenko Y, Koshchayev A, Luneva A, Omarov R, and Shlykov S · International Journal of Veterinary Science 10(1):62-68 · 2021 · [doi.org/10.47278/journal.ijvs/2020.021](https://doi.org/10.47278/journal.ijvs/2020.021)</span><span class="hmi-ref-tag">Review</span>
-5. [[sources/kamouh2024-heavy-metals-chicken-meat-egypt|Heavy metals load in chicken meat and its reduction by probiotic strains]]<span class="hmi-ref-meta">Kamouh HM, Kirrella GA, Shafik S, and Mostafa NY · Open Veterinary Journal · 2024 · [doi.org/10.5455/OVJ.2024.v14.i1.51](https://doi.org/10.5455/OVJ.2024.v14.i1.51)</span><span class="hmi-ref-tag">Review</span>
-6. [[sources/kamaly2023-egypt-poultry-metals|Health risk assessment of metals in chicken meat and liver in Egypt]]<span class="hmi-ref-meta">Kamaly HF and Sharkawy AA · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-27826-w](https://doi.org/10.1007/s11356-023-27826-w)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals|Analysis of heavy metals content in domestic and imported poultry meat]]<span class="hmi-ref-meta">Omirzakov OM, Krivets VV, Berdikulov MA, Kuanysh AE, Omarova AS, and Dyussembayev KA · Herald of Science of S. Seifullin Kazakh Agrotechnical Research University: Veterinary Sciences · 2024 · [doi.org/10.51452/kazatuvc.2024.3(007).1753](https://doi.org/10.51452/kazatuvc.2024.3(007).1753)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/lysenko2021-organic-broiler-meat-heavy-metals|Organic Meat Production of Broiler Chickens Hubbard Redbro Cross]]<span class="hmi-ref-meta">Lysenko Y, Koshchayev A, Luneva A, Omarov R, and Shlykov S · International Journal of Veterinary Science 10(1):62-68 · 2021 · [doi.org/10.47278/journal.ijvs/2020.021](https://doi.org/10.47278/journal.ijvs/2020.021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/kamouh2024-heavy-metals-chicken-meat-egypt|Heavy metals load in chicken meat and its reduction by probiotic strains]]<span class="hmi-ref-meta">Kamouh HM, Kirrella GA, Shafik S, and Mostafa NY · Open Veterinary Journal · 2024 · [doi.org/10.5455/OVJ.2024.v14.i1.51](https://doi.org/10.5455/OVJ.2024.v14.i1.51)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/kamaly2023-egypt-poultry-metals|Health risk assessment of metals in chicken meat and liver in Egypt]]<span class="hmi-ref-meta">Kamaly HF and Sharkawy AA · Environmental Science and Pollution Research · 2023 · [doi.org/10.1007/s11356-023-27826-w](https://doi.org/10.1007/s11356-023-27826-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

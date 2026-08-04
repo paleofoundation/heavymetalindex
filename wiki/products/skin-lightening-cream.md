@@ -84,7 +84,7 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/ricketts2020-mercury-skin-lightening-jamaica|Mercury Exposure Associated with Use of Skin Lightening Products in Jamaica]]<span class="hmi-ref-meta">Ricketts P, Knight C, Gordon A, Boischio A, and Voutchkov M · Journal of Health & Pollution 10(26): 200601 · 2020 · [meridian.allenpress.com](https://meridian.allenpress.com/jhp/article-pdf/10/26/200601/2486234/i2156-9614-10-26-200601.pdf)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/ricketts2020-mercury-skin-lightening-jamaica|Mercury Exposure Associated with Use of Skin Lightening Products in Jamaica]]<span class="hmi-ref-meta">Ricketts P, Knight C, Gordon A, Boischio A, and Voutchkov M · Journal of Health & Pollution 10(26): 200601 · 2020 · [meridian.allenpress.com](https://meridian.allenpress.com/jhp/article-pdf/10/26/200601/2486234/i2156-9614-10-26-200601.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 

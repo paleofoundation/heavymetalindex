@@ -138,11 +138,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+The anchor sources this finding is built on, together with any additional works its text cites. This is not the full corpus for the topic; the complete set of routed sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata]]<span class="hmi-ref-meta">Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M · Journal of Applied Phycology · 2023 · [doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2)</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/hahn2022-salish-seaweed-contaminants|Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption]]<span class="hmi-ref-meta">Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. · PLOS ONE · 2022 · [doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/nepper-davidsen2023-kelp-biomass-composition-nz|High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata]]<span class="hmi-ref-meta">Nepper-Davidsen J, Glasson CRK, Lawton RJ, and Magnusson M · Journal of Applied Phycology · 2023 · [doi.org/10.1007/s10811-023-02969-2](https://doi.org/10.1007/s10811-023-02969-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/hahn2022-salish-seaweed-contaminants|Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption]]<span class="hmi-ref-meta">Hahn ME, Schultz IR, Ylitalo GM, Boyd D, Sloan CA, Niewolny LA, et al. · PLOS ONE · 2022 · [doi.org/10.1371/journal.pone.0269269](https://doi.org/10.1371/journal.pone.0269269)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -152,9 +152,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 12 sections added and 9 removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
-| [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 <!-- END: hmi-page-history -->

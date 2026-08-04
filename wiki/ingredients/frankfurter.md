@@ -209,14 +209,6 @@ _No quantified data on this lever in the current corpus; section will be expande
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in meat and meat products intended for general consumption is 0.10 mg/kg wet weight, and for Cd in muscle meat of bovine animals and pig it is 0.050 mg/kg wet weight. For offal (liver, kidney) from bovine animals and pigs, the EU Cd maximum level is 0.50 mg/kg wet weight, reflecting the known accumulation in these tissues. The frankfurter as a composite product is assessed against the limits for the finished meat product category, not the organ-specific limits, unless organ content is declared and the product is sold as an offal product. In the United States, USDA FSIS has not established action levels for metals in processed meat products analogous to FDA's food contaminant limits; the primary regulatory framework is through feed safety rules that govern the Cd burden in livestock feed, acting upstream of the product.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

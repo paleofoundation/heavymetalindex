@@ -184,14 +184,6 @@ Lead service line replacement is the most impactful infrastructure-level interve
 In the United States, the EPA Maximum Contaminant Level for arsenic in public drinking water is 10 µg/L (10 ppb) as iAs, established by the 2001 Arsenic Rule ([[sources/epa-arsenic-drinking-water-mcl]]). For lead, the EPA action level is 15 µg/L (15 ppb); any public water system with more than 10 percent of samples exceeding this level must take remedial action under the Lead and Copper Rule. FDA applies equivalent standards to bottled water sold in interstate commerce. The EU Drinking Water Directive (2020/2184) sets a Pb limit of 5 µg/L (5 ppb) for tap water, a standard tighter than the US action level, and an As limit of 10 µg/L. The EU Cd limit in drinking water is 5 µg/L. [[regulations/codex-cadmium-mls]] covers maximum levels for Cd in natural mineral waters.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 60 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.

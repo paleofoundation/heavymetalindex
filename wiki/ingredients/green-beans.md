@@ -231,22 +231,14 @@ Avoiding older tin-plate cans without lacquer coatings for canned green bean pro
 Under EU Regulation as updated in [[regulations/eu2023-contaminants-maximum-levels]], the maximum level for Pb in vegetables (general) is 0.10 mg/kg wet weight and for Cd in vegetables (general) it is 0.050 mg/kg wet weight. These limits apply to green beans as a vegetable product. There is no specific EU maximum level for Ni in vegetables, despite Ni being the most frequently detected analyte in the FDA TDS data for this matrix. In the United States, FDA has not established action levels for metals in green beans or other fresh vegetables. The FDA TDS data show Cd with a max of 4.2 ppb (n=27) and Pb with a max of 4.1 ppb (n=27) [[sources/fda2022-tds-elements-fy2018-fy2020]], both substantially below EU regulatory thresholds, indicating that compliance with EU limits is not a routine concern for typical commercial green bean supply.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 5 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/saleem2025-locally-grown-vegetables-north-dakota|Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables]]<span class="hmi-ref-meta">Saleem M, Wang Y, Pierce D, Sens DA, Somji S, and Garrett SH · Foods · 2025 · [doi.org/10.3390/foods14132264](https://doi.org/10.3390/foods14132264)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr|Environmental surveillance of commonly-grown vegetables for investigating potential lead and chromium contamination intensification in Bangladesh]]<span class="hmi-ref-meta">Hossain AMMM, Islam MS, Mamun MM, Al-Jonaed HM, Imran M, Rahman MH, et al. · SpringerPlus · 2016 · [doi.org/10.1186/s40064-016-3458-9](https://doi.org/10.1186/s40064-016-3458-9)</span><span class="hmi-ref-tag">Review</span>
-4. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis]]<span class="hmi-ref-meta">Dearing C, Ye Z, and Robertshaw G · F1000Research · 2025 · [doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/saleem2025-locally-grown-vegetables-north-dakota|Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables]]<span class="hmi-ref-meta">Saleem M, Wang Y, Pierce D, Sens DA, Somji S, and Garrett SH · Foods · 2025 · [doi.org/10.3390/foods14132264](https://doi.org/10.3390/foods14132264)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr|Environmental surveillance of commonly-grown vegetables for investigating potential lead and chromium contamination intensification in Bangladesh]]<span class="hmi-ref-meta">Hossain AMMM, Islam MS, Mamun MM, Al-Jonaed HM, Imran M, Rahman MH, et al. · SpringerPlus · 2016 · [doi.org/10.1186/s40064-016-3458-9](https://doi.org/10.1186/s40064-016-3458-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis]]<span class="hmi-ref-meta">Dearing C, Ye Z, and Robertshaw G · F1000Research · 2025 · [doi.org/10.12688/f1000research.175538.1](https://doi.org/10.12688/f1000research.175538.1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

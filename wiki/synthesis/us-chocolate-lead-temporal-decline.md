@@ -132,11 +132,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+The anchor sources this finding is built on, together with any additional works its text cites. This is not the full corpus for the topic; the complete set of routed sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA]]<span class="hmi-ref-meta">Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/zhao2024-toxic-metals-metalloids-food-review|Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies]]<span class="hmi-ref-meta">Zhao D, Wang P, and Zhao FJ · Current Opinion in Environmental Science & Health · 2024 · [doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market]]<span class="hmi-ref-meta">Eileen Abt, Jennifer Fong Sam, Patrick Gray, and Lauren Posnick Robin · Food Additives & Contaminants: Part B Surveillance · 2018 · [doi.org/10.1080/19393210.2017.1420700](https://doi.org/10.1080/19393210.2017.1420700)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA]]<span class="hmi-ref-meta">Hands JM, Anderson ML, Cooperman T, Balsky JE, and Frame LA · Frontiers in Nutrition · 2024 · [doi.org/10.3389/fnut.2024.1366231](https://doi.org/10.3389/fnut.2024.1366231)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/zhao2024-toxic-metals-metalloids-food-review|Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies]]<span class="hmi-ref-meta">Zhao D, Wang P, and Zhao FJ · Current Opinion in Environmental Science & Health · 2024 · [doi.org/10.1007/s42247-024-00934-6](https://doi.org/10.1007/s42247-024-00934-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -146,9 +146,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 11 sections added and 8 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

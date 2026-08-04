@@ -135,11 +135,11 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+The anchor sources this finding is built on, together with any additional works its text cites. This is not the full corpus for the topic; the complete set of routed sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK · GeoHealth · 2025 · [doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410)</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Controlling exposure to As and Cd from rice via irrigation management]]<span class="hmi-ref-meta">Limmer MA and Seyferth LD · Environmental Science & Technology · 2024 · [doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK · GeoHealth · 2025 · [doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Controlling exposure to As and Cd from rice via irrigation management]]<span class="hmi-ref-meta">Limmer MA and Seyferth LD · Environmental Science & Technology · 2024 · [doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/wu2025-climate-meghan-freshwater-fish-china|Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers]]<span class="hmi-ref-meta">Wu M, Wu X, Saiz-Lopez A, Blanchfield PJ, Ren H, and Zhong H · Proceedings of the National Academy of Sciences · 2025 · [doi.org/10.1073/pnas.2424001122](https://doi.org/10.1073/pnas.2424001122)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -149,9 +149,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 10 sections added and 7 removed; narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
-| [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

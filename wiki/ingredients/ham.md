@@ -222,21 +222,13 @@ Non-canned ham (the form characterized on this page) is not subject to Sn migrat
 EU Regulation 2023/915 sets maximum levels for Pb in meat (muscle meat of pig) at 0.10 mg/kg wet weight and for Cd at 0.050 mg/kg wet weight [[regulations/eu2023-contaminants-maximum-levels]]. The FDA TDS maximum values for Pb (9.3 ppb) and Cd (4.7 ppb) in baked ham are well within these limits. No specific US statutory maximum for Pb or Cd in cured pork exists. The EU Cd limit for pig muscle of 0.050 mg/kg (50 ppb) is the operative regulatory cap for EU market access [[regulations/eu-2023-915-cadmium]]. Codex Alimentarius does not set a specific ML for Pb or Cd in cured pork muscle as a distinct category [[regulations/codex-cadmium-mls]].
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 2 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/zhang2022-pork-heavy-metals-china|Risk assessment of heavy metals contamination in pork]]<span class="hmi-ref-meta">Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. · Food Control · 2022 · [doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Heavy metals contamination levels in processed meat marketed in Romania]]<span class="hmi-ref-meta">Hoha GV, Costăchescu E, Leahu A, and Păsărin B · Environmental Engineering and Management Journal · 2014 · [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/zhang2022-pork-heavy-metals-china|Risk assessment of heavy metals contamination in pork]]<span class="hmi-ref-meta">Zhang H, Zhou G, Zhang S, Yang Y, Dev S, Su Q, et al. · Food Control · 2022 · [doi.org/10.1016/j.foodcont.2021.108793](https://doi.org/10.1016/j.foodcont.2021.108793)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Heavy metals contamination levels in processed meat marketed in Romania]]<span class="hmi-ref-meta">Hoha GV, Costăchescu E, Leahu A, and Păsărin B · Environmental Engineering and Management Journal · 2014 · [omicron.ch.tuiasi.ro](http://omicron.ch.tuiasi.ro/EEMJ/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

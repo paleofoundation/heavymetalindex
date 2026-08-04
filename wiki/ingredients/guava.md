@@ -50,19 +50,11 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | U | data gap | — | — | — |
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 4 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/hernandez-montoya2026-heavy-metals-foods-review|Heavy Metal Contamination in Foods: Advances in Detection Technologies, Regulatory Challenges, Health Risks, and Implications for Sustainable Food Safety]]<span class="hmi-ref-meta">Hernández-Montoya DA, Castañeda-Miranda AG, Martinez-Fierro ML, Talavera-Lopez A, Sandoval-Aréchiga R, Gomez-Rodriguez JR, et al. · Sustainability · 2026 · [doi.org/10.3390/su18094280](https://doi.org/10.3390/su18094280)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/hernandez-montoya2026-heavy-metals-foods-review|Heavy Metal Contamination in Foods: Advances in Detection Technologies, Regulatory Challenges, Health Risks, and Implications for Sustainable Food Safety]]<span class="hmi-ref-meta">Hernández-Montoya DA, Castañeda-Miranda AG, Martinez-Fierro ML, Talavera-Lopez A, Sandoval-Aréchiga R, Gomez-Rodriguez JR, et al. · Sustainability · 2026 · [doi.org/10.3390/su18094280](https://doi.org/10.3390/su18094280)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
 3. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->

@@ -132,6 +132,18 @@ This synthesis claim has not yet been evaluated by external reviewers. Verdicts 
 The Heavy Metal Index publishes synthesis claims as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, a synthesis page is a preprint, not a peer-reviewed work. External review accumulates over time, and the credibility of the claim is partly the cumulative result of that visible review.
 <!-- END: hmi-peer-review -->
 
+<!-- BEGIN: hmi-page-references -->
+## References
+
+The anchor sources this finding is built on, together with any additional works its text cites. This is not the full corpus for the topic; the complete set of routed sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+
+1. [[regulations/eu-466-2001-contaminants-superseded|Commission Regulation (EC) No 466/2001 setting maximum levels for certain contaminants in foodstuffs]]<span class="hmi-ref-meta">EU · European Commission · 2002</span><span class="hmi-ref-tag">Regulation</span>
+2. [[regulations/eu-1881-2006-contaminants-superseded|Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in foodstuffs]]<span class="hmi-ref-meta">EU · 2007</span><span class="hmi-ref-tag">Regulation</span>
+3. [[regulations/eu-2021-1317-lead-cereals-superseded|EU Regulation 2021/1317 - Lead maximum level for cereals and pulses]]<span class="hmi-ref-meta">EU · European Commission · 2021</span><span class="hmi-ref-tag">Regulation</span>
+4. [[regulations/eu-2021-1323-cadmium-cereals-superseded|EU Regulation 2021/1323 - Cadmium maximum levels for cereals]]<span class="hmi-ref-meta">EU · European Commission · 2021</span><span class="hmi-ref-tag">Regulation</span>
+5. [[regulations/eu2023-contaminants-maximum-levels|EU Regulation 2023/915 maximum levels for contaminants in food]]<span class="hmi-ref-meta">EU</span><span class="hmi-ref-tag">Regulation</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -139,9 +151,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [a5f7a116c](https://github.com/paleofoundation/heavymetalindex/commit/a5f7a116c) | 2026-08-03 | major | 10 sections added and 7 removed; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [6738e62dc](https://github.com/paleofoundation/heavymetalindex/commit/6738e62dc) | 2026-07-04 | correction | 1 section added |
 | [af9c97a50](https://github.com/paleofoundation/heavymetalindex/commit/af9c97a50) | 2026-06-23 | minor | Narrative text revised |
-| [cfa4fda20](https://github.com/paleofoundation/heavymetalindex/commit/cfa4fda20) | 2026-06-11 | correction | 1 section added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->

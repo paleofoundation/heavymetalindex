@@ -263,48 +263,6 @@ Because the biggest population contributors are nutritional staples like rice, w
 <!-- END: hmi-metal-faq -->
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-tightening -->
-## Regulatory tightening over time
-
-Instruments that set a limit for Cadmium, oldest first. Dates are the instrument's own effective date.
-
-| Year | Body | Instrument | Value as set |
-| --- | --- | --- | --- |
-| 1989 | EPA | IRIS | 1 µg/kg-bw/day-food |
-| 1995 | Secretaria de Salud | nom-027-ssa1-1993 | multiple mg/kg |
-| 1995 | Secretaria de Salud | nom-028-ssa1-1993 | multiple mg/kg |
-| 1997 | OEHHA | Proposition 65 | 4.1 µg/day-oral |
-| 2002 | European Commission | ec-466-2001 | multiple mg/kg |
-| 2007 | EU | ec-1881-2006 |  |
-| 2009 | EFSA | CONTAM Panel | 2.5 µg/kg-bw/week |
-| 2010 | JECFA | FAO/WHO Joint Expert Committee on Food Additives | 25 µg/kg-bw/month |
-| 2011 | Secretaria de Salud | nom-242-ssa1-2009 | multiple mg/kg |
-| 2012 | ATSDR | Toxicological Profile series | 0.1 µg/kg-bw/day |
-| 2013 | Ministry of Health | china-gb-2762-2012 | multiple mg/kg; food-specific maximum levels |
-| 2016 | Food Standards Australia New Zealand | Australia New Zealand Food Standards Code Schedule 19 | multiple mg/kg |
-| 2017 | National Health and Family Planning Commission; China Food and Drug Administration | china-gb-2762-2017 | multiple mg/kg; food-specific maximum levels |
-| 2021 | European Commission | Commission Regulation (EU) 2021/1323 | multiple mg/kg wet weight |
-| 2023 | National Health Commission; State Administration for Market Regulation | china-gb-2762-2022 | multiple mg/kg; food-specific maximum levels |
-
-_Values are quoted on the basis stated in each instrument and are not converted to a common basis; a maximum level, an action level and a reference dose are different kinds of number. 15 dated instruments._
-<!-- END: hmi-v3-tightening -->
-
-<!-- BEGIN: hmi-v3-refvalues -->
-## What the reference values mean in practice
-
-The 18 instruments recorded for Cadmium are not 18 versions of one number. They are 7 different kinds of value, set by bodies doing different jobs:
-
-- ATSDR set a minimal risk level, screening guidance for a defined exposure duration.
-- Food Standards Australia New Zealand, Ministry of Health, Secretaria de Salud set a legally binding maximum level under national law.
-- Codex Alimentarius Commission, JECFA set an international health-based reference point intended for national authorities to implement.
-- EFSA set a health-based reference point derived from toxicology, not a limit on any product.
-- EPA set a reference dose: a daily intake estimated to be without appreciable risk over a lifetime.
-- European Commission set a legally binding maximum level for a named food.
-- OEHHA set a warning threshold under state law, which triggers disclosure rather than prohibiting sale.
-
-The practical consequence is that conformity cannot be demonstrated against a single figure. A value is read against the instrument that governs the matrix in question, on the basis that instrument states, and a number quoted without its instrument and basis is not interpretable. Where two instruments cover the same matrix, the stricter one governs, and the page above names both rather than resolving them.
-<!-- END: hmi-v3-refvalues -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
@@ -320,8 +278,8 @@ Works cited in this page's text, in first-appearance order. This is not the full
 9. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
 10. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 11. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
-12. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Controlling exposure to As and Cd from rice via irrigation management]]<span class="hmi-ref-meta">Limmer MA and Seyferth LD · Environmental Science & Technology · 2024 · [doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310)</span><span class="hmi-ref-tag">Review</span>
-13. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK · GeoHealth · 2025 · [doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410)</span><span class="hmi-ref-tag">Review</span>
+12. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Controlling exposure to As and Cd from rice via irrigation management]]<span class="hmi-ref-meta">Limmer MA and Seyferth LD · Environmental Science & Technology · 2024 · [doi.org/10.1021/acs.est.4c02310](https://doi.org/10.1021/acs.est.4c02310)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+13. [[sources/seyfferth2025-rice-water-management-as-hg-cd|Concentrations and Health Implications of As, Hg, and Cd and Micronutrients in Rice and Emissions of CH4 From Variably Flooded Paddies]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Jackson BP, and Runkle BRK · GeoHealth · 2025 · [doi.org/10.1029/2025GH001410](https://doi.org/10.1029/2025GH001410)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -1673,9 +1631,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [5cfd8b10d](https://github.com/paleofoundation/heavymetalindex/commit/5cfd8b10d) | 2026-08-03 | major | 1 section added; narrative text revised |
 | [8dfcde584](https://github.com/paleofoundation/heavymetalindex/commit/8dfcde584) | 2026-08-02 | major | 1 section added; narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 2 sources added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 11 sources added; 9 sections added and 1 removed; narrative text revised |
-| [c26d92116](https://github.com/paleofoundation/heavymetalindex/commit/c26d92116) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

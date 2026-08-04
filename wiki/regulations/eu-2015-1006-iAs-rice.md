@@ -57,7 +57,7 @@ For current-facing EU comparisons, use [[regulations/eu2023-contaminants-maximum
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. · PLOS ONE · 2017 · [doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/signes-pastor2017-infant-arsenic-rice-weaning|Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard]]<span class="hmi-ref-meta">Antonio J. Signes-Pastor, Jayne V. Woodside, Paul McMullan, Karen Mullan, Manus Carey, Margaret R. Karagas, et al. · PLOS ONE · 2017 · [doi.org/10.1371/journal.pone.0176923](https://doi.org/10.1371/journal.pone.0176923)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -67,6 +67,8 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [970e09b65](https://github.com/paleofoundation/heavymetalindex/commit/970e09b65) | 2026-08-02 | major | 1 section added |
+| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
 | [10eef01a0](https://github.com/paleofoundation/heavymetalindex/commit/10eef01a0) | 2026-05-28 | correction | 1 section added |
 | [c3629d43e](https://github.com/paleofoundation/heavymetalindex/commit/c3629d43e) | 2026-05-19 | major | 1 source added; contamination-profile values revised; 4 sections added |

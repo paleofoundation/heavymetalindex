@@ -136,20 +136,12 @@ This node is linked from [[products/infant-formula-concentrated-liquid-non-soy]]
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 6 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach]]<span class="hmi-ref-meta">Sim M, Weyer C, and Pétursdóttir ÁH · Food Chemistry · 2024 · [doi.org/10.1007/s00216-024-05250-8](https://doi.org/10.1007/s00216-024-05250-8)</span><span class="hmi-ref-tag">Review</span>
-2. [[sources/masite2022-mopane-trace-metals|Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts]]<span class="hmi-ref-meta">Masite NS, Ncube S, Madikizela LM, Mtunzi FM, and Pakade VE · International Journal of Food Science · 2022 · [doi.org/10.1155/2022/1509569](https://doi.org/10.1155/2022/1509569)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach]]<span class="hmi-ref-meta">Sim M, Weyer C, and Pétursdóttir ÁH · Food Chemistry · 2024 · [doi.org/10.1007/s00216-024-05250-8](https://doi.org/10.1007/s00216-024-05250-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/masite2022-mopane-trace-metals|Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts]]<span class="hmi-ref-meta">Masite NS, Ncube S, Madikizela LM, Mtunzi FM, and Pakade VE · International Journal of Food Science · 2022 · [doi.org/10.1155/2022/1509569](https://doi.org/10.1155/2022/1509569)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

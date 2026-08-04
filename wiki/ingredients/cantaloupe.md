@@ -229,21 +229,13 @@ Packaging and storage conditions are not a material driver of heavy metal load i
 The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level for Pb in fruit of 0.10 mg/kg (100 ppb) wet weight and for Cd in fruit of 0.050 mg/kg (50 ppb) wet weight. Cantaloupe falls under these general fruit limits. The Codex Alimentarius [[regulations/codex-cadmium-mls]] sets analogous Cd limits for fruit. No specific FDA action levels for cantaloupe are currently operative. Under FDA Closer to Zero [[regulations/fda-closer-to-zero]], any cantaloupe puree marketed as a food for young children would fall within the scope of Pb action levels under development for fruit-based baby foods.
 
 <!-- BEGIN: hmi-page-references -->
-<!-- BEGIN: hmi-v3-thin -->
-## Where this page is thin
-
-This page rests on 3 routed sources. Analytes with no rows are unreviewed rather than clean, and a gap in the table is a gap in the reading, not a finding of absence.
-
-_Corrections and additions are logged publicly. See the correction route in the page rail._
-<!-- END: hmi-v3-thin -->
-
 ## References
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/total-diet-study/total-diet-study-results)</span><span class="hmi-ref-tag">Dataset</span>
-2. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin]]<span class="hmi-ref-meta">Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V · Horticulturae · 2025 · [doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216)</span><span class="hmi-ref-tag">Review</span>
-3. [[sources/rashid2015-metals-rock-melon-malaysia|Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat]]<span class="hmi-ref-meta">Rashid NFA and Yaacob A · Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) · 2015</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna|Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin]]<span class="hmi-ref-meta">Elbagory M, Abd El-Aziz MA, Omara AED, Abou Fayssal S, and Kumar V · Horticulturae · 2025 · [doi.org/10.3390/horticulturae11020216](https://doi.org/10.3390/horticulturae11020216)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/rashid2015-metals-rock-melon-malaysia|Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat]]<span class="hmi-ref-meta">Rashid NFA and Yaacob A · Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) · 2015</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
