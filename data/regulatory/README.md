@@ -18,15 +18,15 @@ Part 19.
   `scope_type`/`categories`/`region` that agents don't produce.
 
 - **`extracted-limits-infant-child-2026-08-03.json`** — 141 structured limit rows
-  (12 jurisdictions, 8 metals) extracted by the 2026-08-03 external gathering
-  package: `{jurisdiction, instrument, metal, food_category, limit_value, unit,
-  speciation, notes, source_doc, source_url}`. **UNVALIDATED** — spot-checked
-  against the synthesis, not yet reconciled against the primary PDFs. Do **not**
-  feed it into HMTc standards before validation. Known discrepancy to resolve:
-  Codex Pb infant-formula reads 0.02 mg/kg here vs 0.01 in some sources — check
-  `Codex_CXS193_2023.pdf`. No jurisdiction sets a numeric Cr-VI limit for infant
-  food (Chromium rows are total-Cr; consistent with the Cr-VI-not-material
-  determination for formula).
+  from the 2026-08-03 gathering package. **QUARANTINED — DO NOT USE.** Validated
+  cell-by-cell against the primary texts on 2026-08-04: of 87 in-scope cells only
+  **37 (43%) were correct** — 22 wrong, 26 fabricated, 23 real limits missing.
+  Retained only as a record of what was gathered. See
+  **`validation-report-2026-08-04.md`** and `validation-discrepancies-2026-08-04.json`.
+- **`validation-report-2026-08-04.md`** / **`validation-discrepancies-2026-08-04.json`**
+  — the validation verdict and the per-cell discrepancy map (the divergences +
+  the 23 missing limits). This is the defensibility artifact: where the extraction
+  diverged from the sovereign text, with primary-source values.
 
 - **`synthesis-infant-child-2026-08-03.md`** — the human-readable 11-jurisdiction
   compilation with per-jurisdiction limit tables and citations. Companion to the
