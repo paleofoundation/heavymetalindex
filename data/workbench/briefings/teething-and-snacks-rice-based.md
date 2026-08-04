@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: teething-and-snacks-rice-based
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-30T18:53:47.657Z
+generated_at: 2026-06-16T09:56:05.646Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-30
+**Date generated:** 2026-06-16
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -44,6 +44,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---|---:|---|---|
 | Pb | **10 ppb** [as-sold]<br>≈ 2 ppb [prepared] | 7.828 ppb | literature-baseline | 2 | stable | — |
 | iAs | **500 ppb** [as-sold]<br>≈ 50 ppb [prepared] | 231.660 ppb | literature-baseline | 2 | stable | 300 ppb (eu2023_ias_rice_products_300) |
+| tAs | **200 ppb** [as-sold]<br>≈ 20 ppb [prepared] | 121.801 ppb | literature-baseline | 2 | stable | — |
 | Cd | **10 ppb** [as-sold]<br>≈ 1 ppb [prepared] | 6.809 ppb | literature-baseline | 2 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -81,7 +82,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0.87, 8] ppb**
+**Bootstrap 95% CI: [4.55, 8] ppb**
 **Sensitivity: log-normal 7.83 · gamma 7.83 · nonparametric 7.83 ppb · spread 0% (stable)**
 
 
@@ -114,7 +115,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 300 ppb (eu2023_ias_rice_products_300)
 **Pool composition:** 2 sources contributing · 20 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [15.43, 268.25] ppb**
+**Bootstrap 95% CI: [178.84, 267.29] ppb**
 **Sensitivity: log-normal 230.05 · gamma 235.29 · nonparametric 209.06 ppb · spread 11% (stable)**
 
 
@@ -140,6 +141,39 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 </details>
 
+### tAs
+
+**Published HMTc threshold:** 200 ppb [as-sold] · 121.801 ppb (pre-rounding)
+**Cross-basis: ≈ 20 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [48, 167.60] ppb**
+**Sensitivity: log-normal 119.80 · gamma 119.86 · nonparametric 119.80 ppb · spread 0% (stable)**
+
+
+
+**Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 200 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
+
+<details>
+<summary>Per-source contribution log (2 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| collado-lopez2025-heavy-metals-baby-food-formula (2025) · global | Concentrations of Heavy Metals in Processed Baby Foods and I… | mixed_or_source_reported | 1 | single_point | 50.0% |
+| fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US | Analytical Results for Arsenic, Lead, Cadmium, and Mercury i… | as_sold | 2 | percentile_interpolation | 50.0% |
+
+</details>
+
 ### Cd
 
 **Published HMTc threshold:** 10 ppb [as-sold] · 6.809 ppb (pre-rounding)
@@ -147,7 +181,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0.35, 7] ppb**
+**Bootstrap 95% CI: [2.23, 7] ppb**
 **Sensitivity: log-normal 6.81 · gamma 6.81 · nonparametric 6.81 ppb · spread 0% (stable)**
 
 
@@ -220,7 +254,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 
 | Gate | Description | Status |
 |---|---|---|
-| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (3 of 10) |
+| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (4 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✗ FAIL |
@@ -261,17 +295,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `f77049550650a3561e78e0e42c009cbc903082e8` in the heavymetalindex.com repository.
+1. Checking out commit `770bdab1d6041ad192e5f5633d3f4fca28af3fd2` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=teething-and-snacks-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-30T18:53:47.667Z |
+| Generated at | 2026-06-16T09:56:05.658Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `f77049550650a3561e78e0e42c009cbc903082e8` |
+| Git commit | `770bdab1d6041ad192e5f5633d3f4fca28af3fd2` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

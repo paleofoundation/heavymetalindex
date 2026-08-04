@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-sunscreen-chemical
 public_page: products/baby-sunscreen-chemical
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Baby Sunscreen, Chemical

@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: root-vegetable-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-30T18:53:46.848Z
+generated_at: 2026-06-16T09:56:05.207Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** higher-contamination-sibling
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-30
+**Date generated:** 2026-06-16
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -42,8 +42,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | *data gap* | 17.304 ppb | no-data | 3 | needs_review | 20 ppb (fda2025_pb_root_baby_food_20) |
+| Pb | **20 ppb** [as-consumed]<br>≈ 200 ppb [powder] | 17.304 ppb | literature-baseline | 3 | needs_review | 20 ppb (fda2025_pb_root_baby_food_20) |
+| tAs | **15 ppb** [as-consumed]<br>≈ 100 ppb [powder] | 12.009 ppb | literature-baseline | 2 | stable | — |
 | Cd | **10 ppb** [as-consumed]<br>≈ 50 ppb [powder] | 5.003 ppb | literature-baseline | 2 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
+| tHg | **2 ppb** [as-consumed]<br>≈ 15 ppb [powder] | 1.500 ppb | literature-baseline | 2 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -75,22 +77,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Pb
 
-**Published HMTc threshold:** *data gap*
-**Rationale tag:** `no-data`
+**Published HMTc threshold:** 20 ppb [as-consumed] · 17.304 ppb (pre-rounding)
+**Cross-basis: ≈ 200 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 20 ppb (fda2025_pb_root_baby_food_20)
 **Pool composition:** 3 sources contributing · 20 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [2.99, 131.10] ppb**
+**Bootstrap 95% CI: [3.33, 142.72] ppb**
 **Sensitivity: log-normal 63.28 · gamma 16.72 · nonparametric 67.28 ppb · spread 75% (needs_review)**
 
 
 
-**Defensibility.** This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
+**Defensibility.** Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 20 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
 **Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band needs_review.
@@ -106,6 +109,39 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 </details>
 
+### tAs
+
+**Published HMTc threshold:** 15 ppb [as-consumed] · 12.009 ppb (pre-rounding)
+**Cross-basis: ≈ 100 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 2 sources contributing · 18 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [1.28, 12.03] ppb**
+**Sensitivity: log-normal 12.02 · gamma 12.02 · nonparametric 12.02 ppb · spread 0% (stable)**
+
+
+
+**Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 15 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
+
+<details>
+<summary>Per-source contribution log (2 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US | Human health risk assessment of arsenic, cadmium, lead, and … | as_consumed | 9 | lognormal_mean_median | 50.0% |
+| fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US | Analytical Results for Arsenic, Lead, Cadmium, and Mercury i… | as_sold | 54 | percentile_interpolation | 50.0% |
+
+</details>
+
 ### Cd
 
 **Published HMTc threshold:** 10 ppb [as-consumed] · 5.003 ppb (pre-rounding)
@@ -113,7 +149,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 40 ppb (eu2023_cd_babyfood_cereal_40)
 **Pool composition:** 2 sources contributing · 18 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0.17, 5.67] ppb**
+**Bootstrap 95% CI: [5.00, 5.65] ppb**
 **Sensitivity: log-normal 5.01 · gamma 5.01 · nonparametric 5.01 ppb · spread 0% (stable)**
 
 
@@ -136,6 +172,39 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 |---|---|---|---:|---|---:|
 | parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US | Human health risk assessment of arsenic, cadmium, lead, and … | as_consumed | 9 | lognormal_mean_median | 50.0% |
 | fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US | Analytical Results for Arsenic, Lead, Cadmium, and Mercury i… | as_sold | 54 | percentile_interpolation | 50.0% |
+
+</details>
+
+### tHg
+
+**Published HMTc threshold:** 2 ppb [as-consumed] · 1.500 ppb (pre-rounding)
+**Cross-basis: ≈ 15 ppb [powder] (×7 (1:7 reconstitution))**
+**Rationale tag:** `literature-baseline`
+**Regulatory ceiling reference:** no applicable cap loaded
+**Pool composition:** 2 sources contributing · 18 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [0.06, 1.50] ppb**
+**Sensitivity: log-normal 1.50 · gamma 1.50 · nonparametric 1.50 ppb · spread 0% (stable)**
+
+
+
+**Defensibility.** Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+
+<!-- audience: brand-legal -->
+**Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+<!-- audience: retailer-compliance -->
+**Retailer compliance read.** A certified product tests at or below 2 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+<!-- audience: regulator -->
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
+
+<details>
+<summary>Per-source contribution log (2 admitted)</summary>
+
+| Source | Title | Basis | N used | Reconstruction | Pool share |
+|---|---|---|---:|---|---:|
+| parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US | Human health risk assessment of arsenic, cadmium, lead, and … | as_consumed | 9 | lognormal_mean_median | 50.0% |
+| fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US | Analytical Results for Arsenic, Lead, Cadmium, and Mercury i… | as_sold | 25 | percentile_interpolation | 50.0% |
 
 </details>
 
@@ -186,7 +255,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 
 | Gate | Description | Status |
 |---|---|---|
-| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (2 of 10) |
+| 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (4 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
 | 3 | Every published value is on the primary increment ladder | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
@@ -196,7 +265,7 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
 | 9 | Provenance footer carries the git commit and engine version | ✓ PASS (see footer) |
 
-**Gate 1 caveat — uncovered analytes:** 1 analytes (Pb) have no defensible threshold and the certification mark for this product explicitly does NOT cover them. This is honest gap reporting, not a gate failure — but the Master Limit Table flags the gap clearly so retailers, regulators, and adversarial readers can see what is and is not covered.
+
 
 ---
 
@@ -227,17 +296,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `f77049550650a3561e78e0e42c009cbc903082e8` in the heavymetalindex.com repository.
+1. Checking out commit `770bdab1d6041ad192e5f5633d3f4fca28af3fd2` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=root-vegetable-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-30T18:53:46.859Z |
+| Generated at | 2026-06-16T09:56:05.217Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `f77049550650a3561e78e0e42c009cbc903082e8` |
+| Git commit | `770bdab1d6041ad192e5f5633d3f4fca28af3fd2` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

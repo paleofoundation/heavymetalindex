@@ -2,39 +2,27 @@
   "3": {
     "name": "Grains, Cereals, and Rice Products",
     "locked_rows": 2,
-    "ready_rows": 0,
-    "manual_ready": false,
+    "ready_rows": 2,
+    "manual_ready": true,
     "rows": [
       {
         "slug": "breakfast-cereal-non-rice",
-        "ready": false,
-        "blocking": [
-          "Pb: no usable evidence (needs data)",
-          "Cd: no usable evidence (needs data)"
-        ]
+        "ready": true,
+        "blocking": []
       },
       {
         "slug": "breakfast-cereal-rice-based",
-        "ready": false,
-        "blocking": [
-          "iAs: no usable evidence (needs data)",
-          "tAs: no usable evidence (needs data)",
-          "Cd: no usable evidence (needs data)"
-        ]
+        "ready": true,
+        "blocking": []
       }
     ]
   },
   "6": {
     "name": "Seafood",
-    "locked_rows": 6,
-    "ready_rows": 6,
+    "locked_rows": 5,
+    "ready_rows": 5,
     "manual_ready": true,
     "rows": [
-      {
-        "slug": "canned-seafood",
-        "ready": true,
-        "blocking": []
-      },
       {
         "slug": "fish-freshwater",
         "ready": true,

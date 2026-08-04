@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: canned-seafood
 public_page: products/canned-seafood
-updated: 2026-06-04
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Canned seafood (with tin flag)

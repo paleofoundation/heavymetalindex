@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: mineral-water
 public_page: products/mineral-water
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Mineral water

@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10020323/FM_10020323.md
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/milk-and-dairy]]"]
-products: []
+products: ["[[products/dairy-milk-cow]]"]
 matrices: [milk, dairy]
 jurisdictions: [EG]
 near_duplicates: [raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-chitosan-cd_2022_10-1007-s12011-022-03353-w.pdf]

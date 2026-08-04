@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-juices-non-apple
 public_page: products/fruit-juices-non-apple
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Fruit juices, non-apple
@@ -37,7 +37,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Process the local extraction backlog before pooling. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (fda2022_draft_pb_other_juice_20). |
-| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Process the local extraction backlog before pooling. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_ias_fruit_juice_20). |
+| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_ias_fruit_juice_20). |
 
 ## Operational reminders
 

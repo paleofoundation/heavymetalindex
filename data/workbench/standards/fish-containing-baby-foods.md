@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fish-containing-baby-foods
 public_page: products/fish-containing-baby-foods
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Fish-containing baby foods

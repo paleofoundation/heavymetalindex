@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: diaper-cream-non-zno
 public_page: products/diaper-cream-non-zno
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Diaper Cream, Non-ZnO

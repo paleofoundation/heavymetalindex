@@ -15,7 +15,7 @@ doi: null
 no_doi_assigned: true
 raw_sha256: "2a295ce054da90d9be2a93a81830840f599c91bfb076b5f04a0a85dba5c055fb"
 metals: [tAs, Pb, Cd, tHg]
-products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, mixed-meals-non-rice, mixed-meals-rice-containing, teething-and-snacks-rice-based, "[[products/infant-and-child-foods-master]]"]
+products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, fruit-purees, non-root-vegetable-purees, root-vegetable-purees, mixed-meals-non-rice, mixed-meals-rice-containing, teething-and-snacks-rice-based, snacks-general, milk-and-dairy, "[[products/infant-and-child-foods-master]]"]
 context_products: [teething-and-snacks-non-rice, grain-based-snacks-rice-status-unspecified, yogurts-custards-puddings-out-of-scope]
 excluded_category1_rows: [infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based, meat-and-poultry-purees, fish-containing-baby-foods, fruit-juice-not-canned]
 matrices: [baby-food, young-child-food, compliance-sampling]

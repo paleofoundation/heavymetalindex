@@ -14,7 +14,7 @@ raw_path: "raw/Papers Cube Manual Fetch/article (2) copy 3.pdf"
 access_url: "https://doi.org/10.1088/1755-1315/564/1/012037"
 metals: [Pb]
 ingredients: ["[[ingredients/seaweed]]"]
-products: []
+products: ["[[products/seaweed-kelp-foods]]"]
 matrices: [seaweed]
 jurisdictions: [ID]
 near_duplicates: []

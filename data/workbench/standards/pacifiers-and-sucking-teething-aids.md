@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: pacifiers-and-sucking-teething-aids
 public_page: products/pacifiers-and-sucking-teething-aids
-updated: 2026-06-02
+updated: 2026-06-14
 ---
 
 # Workbench standards snapshot — Pacifiers and sucking/teething aids

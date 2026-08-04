@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_10144899/FM_10144899.md
 metals: [tAs, Cd, Pb, tHg]
 ingredients: ["[[ingredients/seaweed]]", "[[ingredients/seafood]]"]
-products: []
+products: ["[[products/seaweed-kelp-foods]]"]
 matrices: [seaweed, kelp]
 jurisdictions: [NZ]
 near_duplicates: []
