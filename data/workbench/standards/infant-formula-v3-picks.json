@@ -1,5 +1,5 @@
 {
-  "powder-cow": {
+  "powder": {
     "Pb": 20,
     "iAs": 20,
     "Cd": 10,
@@ -9,33 +9,13 @@
     "Sn": 35000,
     "Cr-total": 2000
   },
-  "powder-soy": {
-    "Pb": 20,
-    "iAs": 20,
-    "Cd": 20,
-    "tHg": null,
-    "Ni": 400,
-    "Al": 7000,
-    "Sn": 35000,
-    "Cr-total": 2000
-  },
-  "rtf-cow": {
+  "rtf": {
     "Pb": 10,
     "iAs": 10,
     "Cd": 5,
     "tHg": null,
     "Ni": 100,
     "Al": 500,
-    "Sn": 5000,
-    "Cr-total": null
-  },
-  "rtf-soy": {
-    "Pb": 10,
-    "iAs": 10,
-    "Cd": 10,
-    "tHg": null,
-    "Ni": 100,
-    "Al": 1000,
     "Sn": 5000,
     "Cr-total": null
   }

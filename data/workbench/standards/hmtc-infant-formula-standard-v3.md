@@ -23,16 +23,22 @@ put in force. The prior occurrence-percentile methodology is retired: it repeate
 defects (basis mis-conversions, poisoned pools, dead branches), and a lookup against sovereign law
 is both faster and unimpeachable.
 
-## The standard — one number per analyte × subcategory (µg/kg)
+## The standard — the lowest government limit in the world (µg/kg)
 
-| Subcategory | Pb | iAs | Cd | Hg | Ni | Al | Sn | Cr |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|
-| **Powder · cow-milk** | 20 | 20 | 10 | mon. | 250 | 3500 | 35000 | 2000ᵈ |
-| **Powder · soy** | 20 | 20 | 20 | mon. | 400 | 7000 | 35000 | 2000ᵈ |
-| **Ready-to-feed · cow-milk** | 10 | 10 | 5 | mon. | 100 | 500 | 5000 | mon. |
-| **Ready-to-feed · soy** | 10 | 10 | 10 | mon. | 100 | 1000 | 5000 | mon. |
+One number per analyte, per product form: **the strictest maximum level any government sets, anywhere.** The cow-milk and soy formulations are an internal calculation step, not a published distinction. Where the law itself splits them (cadmium, nickel, aluminium), the published limit is the **lower** of the two, so the single category number sits at or below every national law for both formulations and never certifies a product above its own legal ceiling.
 
-*mon. = monitored, not limited (no government sets a limit; reflex speciation screen applies). ᵈ = broad-dairy fallback, no formula-specific limit. Powder rows are powder-as-sold basis; ready-to-feed rows are as-consumed basis. Every value is the strictest government maximum level worldwide for that product form; the derivation is the per-country matrix below.*
+| Analyte | Powder (as-sold) | Ready-to-feed (as-consumed) |
+|---|--:|--:|
+| Lead (Pb) | 20 | 10 |
+| Inorganic arsenic (iAs) | 20 | 10 |
+| Cadmium (Cd) | 10 | 5 |
+| Mercury (tHg) | monitored | monitored |
+| Nickel (Ni) | 250 | 100 |
+| Aluminium (Al) | 3500 | 500 |
+| Tin (Sn) | 35000 | 5000 |
+| Total chromium (Cr) | 2000ᵈ | monitored |
+
+*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is provisional pending confirmation of the India primary-text basis. The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*
 
 ## How certification works against these limits
 

@@ -74,6 +74,18 @@ function pickFor(sub, a) {
   const min = withVal.reduce((m, x) => (x.r.v < m.r.v ? x : m))
   return { v: min.r.v, src: COUNTRY[min.c], fallback: min.r.fallback }
 }
+// merged single-category pick per product form = the LOWEST regulatory number across cow + soy.
+// (Adopt-lowest, not adopt-higher: a single category number at or below every national law for both
+//  formulations, so it never certifies a product above its own legal ceiling.)
+const FORMS = [
+  { key: "powder", label: "Powder (as-sold)", subs: ["powder-cow", "powder-soy"] },
+  { key: "rtf", label: "Ready-to-feed (as-consumed)", subs: ["rtf-cow", "rtf-soy"] },
+]
+function mergedPick(form, a) {
+  const picks = form.subs.map((sk) => pickFor(SUBCATS.find((s) => s.key === sk), a)).filter((p) => p.v != null)
+  if (!picks.length) return { v: null }
+  return picks.reduce((m, p) => (p.v < m.v ? p : m))
+}
 let md = ""
 // ---- frontmatter + title + method intro (deliverable wrapper) ----
 md += `---
@@ -101,19 +113,22 @@ put in force. The prior occurrence-percentile methodology is retired: it repeate
 defects (basis mis-conversions, poisoned pools, dead branches), and a lookup against sovereign law
 is both faster and unimpeachable.
 
-## The standard — one number per analyte × subcategory (µg/kg)\n\n`
-md += "| Subcategory | " + ANALYTES.map((a) => a.sym).join(" | ") + " |\n"
-md += "|---|" + ANALYTES.map(() => "--:").join("|") + "|\n"
-for (const sub of SUBCATS) {
-  md += `| **${sub.label}** | ` + ANALYTES.map((a) => {
-    const p = pickFor(sub, a)
-    return p.v == null ? "mon." : fmt(p.v) + (p.fallback ? "ᵈ" : "")
-  }).join(" | ") + " |\n"
+## The standard — the lowest government limit in the world (µg/kg)\n\n`
+md += "One number per analyte, per product form: **the strictest maximum level any government sets, anywhere.** "
+md += "The cow-milk and soy formulations are an internal calculation step, not a published distinction. Where the "
+md += "law itself splits them (cadmium, nickel, aluminium), the published limit is the **lower** of the two, so the "
+md += "single category number sits at or below every national law for both formulations and never certifies a product "
+md += "above its own legal ceiling.\n\n"
+md += "| Analyte | Powder (as-sold) | Ready-to-feed (as-consumed) |\n|---|--:|--:|\n"
+for (const a of ANALYTES) {
+  const p = mergedPick(FORMS[0], a), r = mergedPick(FORMS[1], a)
+  const cell = (x) => x.v == null ? "monitored" : fmt(x.v) + (x.fallback ? "ᵈ" : "")
+  md += `| ${a.disp} | ${cell(p)} | ${cell(r)} |\n`
 }
-md += "\n*mon. = monitored, not limited (no government sets a limit; reflex speciation screen applies). "
-md += "ᵈ = broad-dairy fallback, no formula-specific limit. Powder rows are powder-as-sold basis; ready-to-feed rows are as-consumed basis. "
-md += "Every value is the strictest government maximum level worldwide for that product form; the derivation is the per-country matrix below.*\n\n"
-const summaryJson = Object.fromEntries(SUBCATS.map((sub) => [sub.key, Object.fromEntries(ANALYTES.map((a) => [a.tok[0], pickFor(sub, a).v]))]))
+md += "\n*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). "
+md += "ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is provisional pending confirmation of the India primary-text basis. "
+md += "The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*\n\n"
+const summaryJson = Object.fromEntries(FORMS.map((f) => [f.key, Object.fromEntries(ANALYTES.map((a) => [a.tok[0], mergedPick(f, a).v]))]))
 fs.writeFileSync(path.join(REPO, "data/workbench/standards/infant-formula-v3-picks.json"), JSON.stringify(summaryJson, null, 2))
 
 // ---- method / statuses ----
@@ -230,3 +245,32 @@ at heavymetalindex.com.*
 fs.writeFileSync(path.join(REPO, "data/workbench/standards/infant-formula-per-country-matrix.md"), md)
 fs.writeFileSync(path.join(REPO, "data/workbench/standards/hmtc-infant-formula-standard-v3.md"), md)
 process.stdout.write("wrote deliverable: data/workbench/standards/hmtc-infant-formula-standard-v3.md (" + md.length + " chars)\n")
+
+// ---- monograph master markdown (renders through the Program Manual book template) ----
+const contentBody = md
+  .replace(/^---\n[\s\S]*?\n---\n+/, "")                              // strip briefing YAML frontmatter
+  .replace(/^(#{2,3}) /gm, (m, h) => "#".repeat(h.length - 1) + " ")  // promote ## -> # (chapters), ### -> ## (sections)
+const titlePage = `# Heavy Metal Tested & Certified (HMTc)
+
+## Infant Formula Program Manual
+
+### 2026 Edition · Method v3.0
+
+---
+
+**Institute of Contaminant Standards** — Program Operator
+
+Paleo Certified, Inc. dba The Paleo Foundation
+Orlando, Florida
+
+---
+
+*The certification limit for each analyte is the lowest maximum level set by any government in the world, in the product form's own basis.*
+
+# Table of Contents
+
+TYPSTOUTLINEPLACEHOLDER
+
+`
+fs.writeFileSync(path.join(REPO, "data/workbench/standards/hmtc-infant-formula-manual-master.md"), titlePage + contentBody)
+process.stdout.write("wrote monograph master: data/workbench/standards/hmtc-infant-formula-manual-master.md\n")
