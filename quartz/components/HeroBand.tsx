@@ -499,9 +499,24 @@ export default (() => {
                 <a class="hero-act" href="#update-history">
                   Version history
                 </a>
-                <a class="hero-act hero-act--solid" href={`/api/evidence-packet?slug=${slug}`}>
-                  Download PDF
-                </a>
+                {/* Download PDF points at the STATIC scholarly PDF that
+                    postbuild-synthesis-pdf.mjs emits to public/<section>/<slug>.pdf
+                    — the same document Head.tsx sets as citation_pdf_url. It
+                    exists only for synthesis findings and developed (non-stub)
+                    metal pages, so the button is shown only there; the earlier
+                    /api/evidence-packet target was a route that does not exist
+                    and 404'd on every page. */}
+                {(() => {
+                  const hasPdf =
+                    !isIndex &&
+                    (section === "synthesis" ||
+                      (section === "metals" && String(fm.status ?? "").toLowerCase() !== "stub"))
+                  return hasPdf ? (
+                    <a class="hero-act hero-act--solid" href={`/${slug}.pdf`}>
+                      Download PDF
+                    </a>
+                  ) : null
+                })()}
               </span>
             </div>
           </div>
