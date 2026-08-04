@@ -34,7 +34,7 @@ sources: 0
 - **FM_10494610** (2020) — ORIGINAL ARTICLE. Metals: Pb, Cd, iAs, tAs, tHg, Al, Sn, U
 - **FM_7269330** (n.d.) — Interactions of Dimethylarsinic Acid, Total Arsenic and Zinc Affecting Rice Crop Management and Human Health in Cambodia. Metals: Pb, Cd, iAs, tAs, Ni, Al, Sn, U
 - **FM_10883532** (2024) — Chemical characterization of baby food consumed in Italy. Metals: Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn, U — [[sources/meli2024-chemical-characterization-baby-food-italy]]
-- **FM_11111292** (n.d.) — RESEARCH ARTICLE. Metals: Pb, Cd, iAs, tAs, tHg, MeHg, Al, Sn, U — [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
+- **FM_11111292** (n.d.) — RESEARCH ARTICLE. Metals: Pb, Cd, iAs, tAs, tHg, MeHg, Al, Sn, U — [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]]
 - **FM_12344449** (2018) — RESEARCH ARTICLE. Metals: Pb, Cd, iAs, tAs, tHg, MeHg, Al, Cr, Sn, U
 - **FM_13072912** (2026) — Rapid and Accurate ED-XRF Quantification of Trace Arsenic in Rice-Based Foods Employing ANNs to Resolve Lead Spectral Interference. Metals: Pb, Cd, iAs, tAs, Ni, Al, Sn, U
 - **FM_5940663** (2017) — OPEN Infants' dietary arsenic exposure during transition to solid food. Metals: Pb, iAs, tAs, Al, Sn, U — [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food]]

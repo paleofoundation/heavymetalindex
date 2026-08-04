@@ -1,114 +1,112 @@
 // Converts in-article source-page citation links (a[data-slug^="sources/"]) into
-// superscript bracketed numbers ([1]) with a hover card, and strips the
-// parentheses the prose wraps them in — "...claim (cite)." → "...claim.[1]",
+// Examine-style superscript bracketed numbers ([1]) with a hover card, and strips
+// the parentheses the prose wraps them in — "...claim (cite)." → "...claim.[1]",
 // "(cite, cite)" → "[1], [2]". Render-time only; the build/content is untouched.
-//
-// Numbering is read off the generated "## References" list rather than assigned
-// here (build-page-references.mjs emits it in first-appearance order). Deriving
-// both from the same list is what keeps superscript [7] and reference 7 the same
-// work: a link the reference list does not carry — a corpus table cell, a
-// citation inside apparatus — is left as an ordinary link rather than being
-// numbered into a sequence the reference list cannot resolve.
-
-type Ref = { num: number; href: string; label: string; title: string; publication: string }
-
-// Index the References list: assign each entry an anchor id and read back the
-// citation parts the hover card shows.
-function indexReferences(content: Element): Map<string, Ref> {
-  const bySlug = new Map<string, Ref>()
-  const heading = content.querySelector("#references")
-  if (!heading) return bySlug
-
-  let el: Element | null = heading.nextElementSibling
-  let list: HTMLOListElement | null = null
-  while (el) {
-    if (el.tagName === "OL") {
-      list = el as HTMLOListElement
-      break
-    }
-    if (el.tagName === "H1" || el.tagName === "H2") break
-    el = el.nextElementSibling
-  }
-  if (!list) return bySlug
-  list.classList.add("ref-list")
-
-  Array.from(list.children).forEach((li, i) => {
-    const num = i + 1
-    li.id = `ref-${num}`
-    const a = li.querySelector('a[data-slug^="sources/"]') as HTMLAnchorElement | null
-    const slug = a?.getAttribute("data-slug")
-    if (!slug) return
-    const em = li.querySelector("em")
-    const text = (li.textContent || "").trim()
-    const title = (em?.textContent || "").trim()
-    const label = title ? text.split(title)[0].replace(/[*.\s]+$/, "").trim() : text.slice(0, 80)
-    const afterTitle = title ? text.split(title)[1] || "" : ""
-    const publication = afterTitle.replace(/^[.\s]+/, "").split(/https?:\/\//)[0].trim().replace(/[.\s]+$/, "")
-    bySlug.set(slug, {
-      num,
-      href: a?.getAttribute("href") || "#",
-      label,
-      title,
-      publication,
-    })
-  })
-  return bySlug
-}
-
 function applyCiteSuperscripts() {
   const content = document.querySelector(".wiki-content")
   if (!content) return
-
-  // Landing surfaces carry no citation apparatus, and their links to corpus hubs
-  // are navigation rather than citations. Without this, the homepage's six
-  // `href="sources/"` links match `a[data-slug^="sources/"]` and get replaced by
-  // bare "[1]" superscripts — which is what ate the "Sources" card heading
-  // before the References list existed. The empty-refs check below is not a
-  // guard for that case; it only happens to bail today because the homepage has
-  // no reference list yet.
+  // Landing surfaces carry no citation apparatus; their links to /sources are
+  // navigation, not citations. Without this the homepage feature-card "Sources"
+  // link is eaten and rendered as a bare "[1]".
   if ((document.body.dataset.slug ?? "") === "index") return
 
-  const refs = indexReferences(content)
-  if (refs.size === 0) return
+  // The trailing apparatus — References, Sources, Update history — is not prose.
+  // Its source links are the reference list and the corpus table, not citations,
+  // and must be left alone. They were meant to be excluded by
+  // a.closest("#references, #sources, ...") — but those ids sit on the HEADINGS,
+  // and the lists are SIBLINGS of the headings, not descendants, so closest()
+  // never matched and every reference entry's own source link was being
+  // converted into a stray trailing superscript. Exclude by DOCUMENT POSITION
+  // instead: find the first apparatus heading and skip any citation at or after
+  // it. This also lets the reference list make the title itself the source link
+  // without the script eating it.
+  const apparatus = Array.from(
+    content.querySelectorAll(
+      "h2#references, h2#sources, h2[id='update-history'], h2[id='page-history']",
+    ),
+  ).sort((a, b) =>
+    a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1,
+  )[0]
 
   // 1) Convert each source link to a superscript citation.
   const links = content.querySelectorAll('a[data-slug^="sources/"]')
+  const numBySlug = new Map<string, number>()
+  let n = 0
   links.forEach((el) => {
     const a = el as HTMLAnchorElement
     if (a.closest("sup.cite")) return
-    if (a.closest("#references, .ref-list")) return
     if (a.closest("table")) return
-    // Generated navigation/landing blocks opt out explicitly, so the guard
-    // travels with the markup if one is ever reused on a non-index slug.
-    if (a.closest("[data-no-cite]")) return
+    if (apparatus && apparatus.compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING) return
     const slug = a.getAttribute("data-slug") || ""
-    const ref = refs.get(slug)
-    if (!ref) return
+    let num = numBySlug.get(slug)
+    if (num === undefined) {
+      num = ++n
+      numBySlug.set(slug, num)
+    }
+    const href = a.getAttribute("href") || "#"
+    const orig = (a.textContent || "").trim()
+    // Metadata stamped at build time by the SourceCiteMeta transformer.
+    const dAuthors = (a.getAttribute("data-authors") || "").trim()
+    const dTitle = (a.getAttribute("data-title") || "").trim()
+    const dJournal = (a.getAttribute("data-journal") || "").trim()
+    const dReview = (a.getAttribute("data-review-link") || "").trim()
 
     const sup = document.createElement("sup")
     sup.className = "cite"
     const link = document.createElement("a")
-    link.href = `#ref-${ref.num}`
-    link.textContent = String(ref.num)
+    link.href = href
+    link.textContent = String(num)
     const card = document.createElement("span")
     card.className = "cite-card"
-    const au = document.createElement("span")
-    au.className = "au"
-    au.textContent = ref.label || (a.textContent || "").trim()
-    const ti = document.createElement("span")
-    ti.className = "ti"
-    ti.textContent = ref.title
-    const pub = document.createElement("span")
-    pub.className = "pub"
-    pub.textContent = ref.publication
-    const go = document.createElement("a")
-    go.className = "go"
-    go.href = ref.href
-    go.textContent = "Read source →"
-    card.appendChild(au)
-    if (ref.title) card.appendChild(ti)
-    if (ref.publication) card.appendChild(pub)
-    card.appendChild(go)
+
+    if (dTitle || dAuthors) {
+      // microbiomemedicine-style card: tinted header (authors + hyperlinked
+      // title), then journal/body + a "Read source →" button.
+      const head = document.createElement("span")
+      head.className = "cite-card-head"
+      if (dAuthors) {
+        const au = document.createElement("span")
+        au.className = "cite-card-authors"
+        au.textContent = dAuthors
+        head.appendChild(au)
+      }
+      const titleEl = document.createElement("a")
+      titleEl.className = "cite-card-title"
+      titleEl.href = href
+      titleEl.textContent = dTitle || orig
+      head.appendChild(titleEl)
+      card.appendChild(head)
+
+      const body = document.createElement("span")
+      body.className = "cite-card-body"
+      if (dJournal) {
+        const j = document.createElement("span")
+        j.className = "cite-card-journal"
+        j.textContent = dJournal
+        body.appendChild(j)
+      }
+      const review = document.createElement("a")
+      review.className = "cite-card-review"
+      review.href = dReview || href
+      if (dReview) {
+        review.target = "_blank"
+        review.rel = "noopener"
+      }
+      review.textContent = "Read source →"
+      body.appendChild(review)
+      card.appendChild(body)
+    } else {
+      // Fallback (no stamped metadata): link text + "View source".
+      const au = document.createElement("span")
+      au.className = "au"
+      au.textContent = orig
+      const go = document.createElement("a")
+      go.className = "go"
+      go.href = href
+      go.textContent = "View source →"
+      card.appendChild(au)
+      card.appendChild(go)
+    }
     sup.appendChild(link)
     sup.appendChild(card)
     a.replaceWith(sup)

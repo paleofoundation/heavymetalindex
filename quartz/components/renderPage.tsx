@@ -1,12 +1,16 @@
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
-import { JSResourceToScriptElement, StaticResources } from "../util/resources"
+import HeroBandConstructor from "./HeroBand"
+import AuthCardConstructor from "./AuthCard"
+import { JSResource, JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
+import { BuildCtx } from "../util/ctx"
+import { hasBeforeDOMScripts } from "../plugins/emitters/componentResources"
 import { i18n } from "../i18n"
 import { styleText } from "util"
 
@@ -25,9 +29,25 @@ const headerRegex = new RegExp(/h[1-6]/)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
+  ctx?: BuildCtx,
 ): StaticResources {
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+
+  // componentResources only writes prescript.js when some component actually
+  // contributes a beforeDOMReady script. Referencing it unconditionally shipped
+  // a render-blocking <script src> for a 0-byte file on every page. Callers
+  // without a ctx keep the old behaviour so the reference can never 404.
+  const prescript: JSResource[] =
+    !ctx || hasBeforeDOMScripts(ctx)
+      ? [
+          {
+            src: joinSegments(baseDir, "prescript.js"),
+            loadTime: "beforeDOMReady",
+            contentType: "external",
+          },
+        ]
+      : []
 
   const resources: StaticResources = {
     css: [
@@ -37,11 +57,7 @@ export function pageResources(
       ...staticResources.css,
     ],
     js: [
-      {
-        src: joinSegments(baseDir, "prescript.js"),
-        loadTime: "beforeDOMReady",
-        contentType: "external",
-      },
+      ...prescript,
       {
         loadTime: "beforeDOMReady",
         contentType: "inline",
@@ -238,9 +254,16 @@ export function renderPage(
     footer: Footer,
   } = components
   const Body = BodyConstructor()
+  const HeroBand = HeroBandConstructor()
+  const AuthCard = AuthCardConstructor()
   // The homepage carries its own full-bleed hero, so it opts out of the proof's
   // 3-column grid (no snav/rail) and renders full-width.
   const isHome = (slug as string) === "index"
+  // Auth screens render a single centered card (no hero / snav / rail).
+  const isAuth = (slug as string) === "login" || (slug as string) === "signup"
+  // The 404 page carries its own heading (pages/404.tsx). A research hero band
+  // above it would be both meaningless and a second <h1> on the page.
+  const isError = (slug as string) === "404"
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -282,6 +305,16 @@ export function renderPage(
             ))}
           </header>
         )}
+        {/* Full-width burgundy hero band (microbiomemedicine-style), lifted
+            outside #quartz-root so it spans the viewport; content pages only. */}
+        {!isHome && !isAuth && !isError && <HeroBand {...componentData} />}
+        {isAuth ? (
+          <div id="quartz-root" class="page proof proof-auth">
+            <main class="hmi-auth-page" id="main-content" tabindex={-1}>
+              <AuthCard {...componentData} />
+            </main>
+          </div>
+        ) : (
         <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
           <Body {...componentData}>
             <div class="proof-container">
@@ -315,6 +348,7 @@ export function renderPage(
             </div>
           </Body>
         </div>
+        )}
         <Footer {...componentData} />
       </body>
       {pageResources.js

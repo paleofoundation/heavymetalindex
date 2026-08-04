@@ -2,15 +2,15 @@
 source_page: wiki/products/condiments-general.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bf7c4512fa6f0098065009979593b8d21fed17fe028a35ead1133c6338ed2bf4
+source_page_sha256: 6e6264e9f0307426ed40790296b46fb019f7ba93a80fa1a42f1a7b041f866421
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
 distinct_cited_targets: 0
 distinct_cited_sources: 0
-audit_rows_for_page: 1
+audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -34,13 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 1 |
+| audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
 - `edit_id=cat7-step0-provisional-condiments-general-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-provisional
+- `edit_id=taxonomy-v2.2-gaps-condiments-general-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T03:00:00Z · span=v2.2-cat7-dissolution
 
 ## Claims by section
 

@@ -4,8 +4,8 @@
   "product": {
     "slug": "products/vinegar",
     "title": "Vinegar",
-    "hmtc_category": 7,
-    "hmtc_row": 5,
+    "hmtc_category": 32,
+    "hmtc_row": 1,
     "category_label": null,
     "age_range": null,
     "label": "Vinegar",
@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vinegar",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "61ed7aff17abf1536b167784df268f1b434b20f9076322d92d7e4106d5b301f4",
-      "content_bytes": 12546,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "cca0ab184af3cedea71629a6e87ad4ab13cfeb6b2beaf290432459f653d39c11",
+      "content_bytes": 12653,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/vinegar.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/vinegar.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/acosta1993-cd-pb-ni-vinegar-types",
         "content_pin": {
-          "content_sha256": "5d2fe40e14c440e8163df1a82e939109fb55463d6c97c633bb697b13c84829d5",
-          "content_bytes": 7155,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "38dccaa861448236710d54ba11ffc23b71ddcbb74892a4f8c5a0acc7878b8118",
+          "content_bytes": 7216,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/acosta1993-cd-pb-ni-vinegar-types.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/acosta1993-cd-pb-ni-vinegar-types.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2022-buffered-vinegar-food-additive-safety",
         "content_pin": {
-          "content_sha256": "ad919679a100d6aff46ef12ccb706e6d3855cb150287666222c2b091567db343",
-          "content_bytes": 17678,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ddb05bf3e48e29da20219c241534ba1ce32ba385f9ab5dbb8c042856207b4b1d",
+          "content_bytes": 17739,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2022-buffered-vinegar-food-additive-safety.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2022-buffered-vinegar-food-additive-safety.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/escp2021-pb-as-balsamic-vinegar-fda-letter",
         "content_pin": {
-          "content_sha256": "0bd9b454c4c312dceefcbe7d5101222c4e5a840328db41ba862ac4058f378053",
-          "content_bytes": 10803,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5c643cec8da04636b9e48ae06b1998da2463a17250d3e12136ffe6879b698338",
+          "content_bytes": 10864,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/escp2021-pb-as-balsamic-vinegar-fda-letter.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/escp2021-pb-as-balsamic-vinegar-fda-letter.md | sha256sum"
         }
       },
       {
@@ -118,12 +118,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/guo2017-asian-rice-derived-products-metals",
         "content_pin": {
-          "content_sha256": "a5af694c75eecded3880f9c916b11c60afb6ab5c49ee83eb2561cfe6b2ddbfd1",
-          "content_bytes": 5455,
-          "last_commit_sha": "4f218cf",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c307092f792858ab512b2201bb3084809509a0dbd94043f2bd7d0dc1124e43c4",
+          "content_bytes": 5805,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4f218cf:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/karavoltsos2020-copper-trace-metals-vinegars-greece",
         "content_pin": {
-          "content_sha256": "325bc83214d679401ee8e338e560cb3ea754fa9dbbf720c0caeebc7ef80ee55b",
-          "content_bytes": 15794,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "972dcf749794c5bddd44c66169799e9eeb76ac43d710d0e9126ed1dc69f6db21",
+          "content_bytes": 15855,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/karavoltsos2020-copper-trace-metals-vinegars-greece.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/karavoltsos2020-copper-trace-metals-vinegars-greece.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liu2010-mercury-white-vinegar-afs",
         "content_pin": {
-          "content_sha256": "b51a7703fe16574f93b8a1ae50b6b6c8993a5b45676aa16d18301260e1ca109f",
-          "content_bytes": 11571,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9654b082d4df8f4db07b5c44522c182a3906123a880041fa07041eb44b42b732",
+          "content_bytes": 11632,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/liu2010-mercury-white-vinegar-afs.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/liu2010-mercury-white-vinegar-afs.md | sha256sum"
         }
       },
       {
@@ -193,12 +193,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ndungu2004-lead-vinegar-icpms-gfaas",
         "content_pin": {
-          "content_sha256": "0e8c1548116d3a4de839f31f08d6c976bba2151fc2d0448b5dca430905c6174d",
-          "content_bytes": 14058,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c529aa0cba199145d58acd23aa1e0704bca904ab98bca057fb179996598210ea",
+          "content_bytes": 14119,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ndungu2004-lead-vinegar-icpms-gfaas.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ndungu2004-lead-vinegar-icpms-gfaas.md | sha256sum"
         }
       },
       {
@@ -222,12 +222,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ozbek2016-mip-oes-turkish-vinegars",
         "content_pin": {
-          "content_sha256": "54c0cc589f98fca184a8bc79196a77c8b66de878fb0dd343a1b642166c29db13",
-          "content_bytes": 9933,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6c7bcdd6f12b8d75e238d8892e28c0c2f26ac5f2404043c2fa8ed71e8803fa61",
+          "content_bytes": 9994,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ozbek2016-mip-oes-turkish-vinegars.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ozbek2016-mip-oes-turkish-vinegars.md | sha256sum"
         }
       },
       {
@@ -245,12 +245,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars",
         "content_pin": {
-          "content_sha256": "876d16e0166d989130a674f92effbbe92de2f8b4a4d34b391f5e26d7ce8e9ba8",
-          "content_bytes": 13009,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8c0613ebebd36f51402948998843b8a04073ae5d2ad2724f0dfd8df0a5fdfcdc",
+          "content_bytes": 13070,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
         }
       },
       {
@@ -266,12 +266,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
         "content_pin": {
-          "content_sha256": "d1d0ddab5a9709a4b6ce4e08214600a971810db0974fe27cf67632a5670b0647",
-          "content_bytes": 13820,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a8aedd0d8473c08e62349b63120082ec0124cccb16a4b4790765b739868f27a9",
+          "content_bytes": 13881,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       },
       {
@@ -290,12 +290,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/troncoso1988-metallic-contaminants-andalusian-vinegars",
         "content_pin": {
-          "content_sha256": "fd784bb295037e841ab1cbb10cab8d3fcbcb2b1fdbd5d5d6499dd1a6fe6e857a",
-          "content_bytes": 10369,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fdbebc77545f86539aaa78e5f2d11c065a8d889ebf36d7e093309ea6ad3ffc81",
+          "content_bytes": 10430,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/troncoso1988-metallic-contaminants-andalusian-vinegars.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/troncoso1988-metallic-contaminants-andalusian-vinegars.md | sha256sum"
         }
       }
     ]

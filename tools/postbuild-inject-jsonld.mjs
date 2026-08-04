@@ -16,7 +16,7 @@
 //                          `about`)
 //   wiki/synthesis/*     → ScholarlyArticle (analytic synthesis claim)
 //
-// All injected JSON-LD declares the Paleo Foundation as `publisher`, the
+// All injected JSON-LD declares the Institute of Contaminant Standards as `publisher`, the
 // Heavy Metal Index as `isPartOf`, and a `creator` Organization. The
 // `identifier` field is populated from `wiki_doi:` when present; absent that,
 // the canonical URL is the identifier. This is the field path downstream
@@ -33,8 +33,7 @@ import matter from "gray-matter"
 import { answerTripsFirewall } from "./lib/faq-firewall-guard.mjs"
 
 const repoRoot = process.cwd()
-const FAQ_CATEGORIES = new Set(["metals", "index"]) // metals-first rollout + the homepage
-
+const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
 const publicDir = path.join(repoRoot, "public")
 const wikiDir = path.join(repoRoot, "wiki")
 
@@ -58,8 +57,11 @@ const METAL_ENTITY_LINKS = {
 }
 
 const PUBLISHER = {
+  // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming". The
+  // url stays on the live Foundation site until contaminantstandards.com
+  // serves; a correctly-branded dead link is worse than a live stale one.
   "@type": "Organization",
-  name: "Paleo Foundation",
+  name: "Institute of Contaminant Standards",
   url: "https://paleofoundation.com",
 }
 // Named, ORCID-identified author of the Index's own content — the human
@@ -70,7 +72,7 @@ const AUTHOR = {
   "@id": "https://orcid.org/0000-0002-2348-7259",
   identifier: "https://orcid.org/0000-0002-2348-7259",
   sameAs: ["https://orcid.org/0000-0002-2348-7259"],
-  affiliation: { "@type": "Organization", name: "Paleo Foundation" },
+  affiliation: { "@type": "Organization", name: "Institute of Contaminant Standards" },
 }
 const REFERENCE_WORK = {
   "@type": "WebSite",
@@ -97,19 +99,11 @@ let injected = 0
 let alreadyHasBlock = 0
 let skippedNoHtml = 0
 
-// ---------------------------------------------------------------------------
-// The homepage. The category loop below skips index.md by construction, so
-// before this the site's most-linked page carried no structured data at all.
-//
-// The Organization object deliberately declares NO parentOrganization,
-// subOrganization or memberOf. Per docs/architecture/cross-site-seo-wiring.md
-// §1 the Index sits outside the certification org tree on purpose — its
-// independence is the argument the whole property rests on, and a graph edge to
-// the certifier would hand that away in machine-readable form. The other
-// properties in the group DO declare those edges, so the asymmetry reads as an
-// oversight to anyone tidying up later; the assertion below makes it enforced
-// rather than merely commented.
-// ---------------------------------------------------------------------------
+// The homepage: the category loop skips index.md, so the site's most-linked
+// page had no structured data. Organization declares NO parentOrganization /
+// subOrganization / memberOf — the Index sits outside the certification org
+// tree on purpose (docs/architecture/cross-site-seo-wiring.md §1); a runtime
+// assertion enforces that so a later edit can't quietly wire it in.
 function injectHomepage() {
   const htmlPath = path.join(publicDir, "index.html")
   if (!fs.existsSync(htmlPath)) return "no index.html"
@@ -132,15 +126,8 @@ function injectHomepage() {
     publisher: PUBLISHER,
     founder: AUTHOR,
   }
-
   if (/parentOrganization|subOrganization|memberOf/.test(JSON.stringify(organization))) {
-    console.error(
-      "postbuild-inject-jsonld: the homepage Organization declares a parent/sub/member edge.",
-    )
-    console.error(
-      "  The Index is deliberately outside the certification org tree — see" +
-        " docs/architecture/cross-site-seo-wiring.md §1. Remove the edge.",
-    )
+    console.error("postbuild-inject-jsonld: homepage Organization declares a parent/sub/member edge; the Index is deliberately outside the cert org tree (cross-site-seo-wiring.md §1).")
     process.exit(1)
   }
 
@@ -152,16 +139,6 @@ function injectHomepage() {
     url: `${SITE}/`,
     inLanguage: "en",
     publisher: { "@id": orgId },
-    // Honoured by the hero's ?q= handler (homeSearch.inline.ts) — not an
-    // aspirational template.
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${SITE}/?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   }
 
   const collection = {
@@ -190,18 +167,12 @@ function injectHomepage() {
 
   const block =
     `<!-- HMI-JSONLD-START -->\n` +
-    objects
-      .map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
-      .join("\n") +
+    objects.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") +
     `\n<!-- HMI-JSONLD-END -->`
-
-  const next = html.includes("</head>")
-    ? html.replace("</head>", `${block}\n</head>`)
-    : `${html}\n${block}`
+  const next = html.includes("</head>") ? html.replace("</head>", `${block}\n</head>`) : `${html}\n${block}`
   fs.writeFileSync(htmlPath, next, "utf8")
   return `${objects.length} object(s)${faq ? " incl. FAQPage" : ""}`
 }
-
 const homepageResult = injectHomepage()
 
 for (const [category, meta] of Object.entries(TYPE_MAP)) {

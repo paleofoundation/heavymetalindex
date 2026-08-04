@@ -2,7 +2,7 @@
 source_page: wiki/products/blankets-and-sleep-sacks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 384698932a655a9493004d0d9e2a9d4f2ceebc31749f91d8b76ab6682e8acf0d
+source_page_sha256: abf46ee58a8dab7db1b3ef75fed1a1b1b37e0e89ad1e2a1c86ecac8be564ded3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

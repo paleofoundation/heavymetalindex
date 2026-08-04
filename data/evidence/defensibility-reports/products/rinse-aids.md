@@ -2,7 +2,7 @@
 source_page: wiki/products/rinse-aids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: de250a1a0ff895f167b1e6ad32afa4eefab4b5e3814cd011a1f675355a7c146a
+source_page_sha256: 5e0756dae81d0eed2acdb5f27d2f8e717a5000fd79f921624534bd28b53ad28c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

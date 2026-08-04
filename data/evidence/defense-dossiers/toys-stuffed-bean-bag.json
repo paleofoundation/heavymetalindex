@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-stuffed-bean-bag",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c2298459fe54d098bdf613d976d37c842dfc7ef6b84f26b78a7291feaa5a7cf7",
-      "content_bytes": 10223,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "3497cd9601742d123331c26355d4e96e4a7729cd5b23945b55659bb3f40bd967",
+      "content_bytes": 10284,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/toys-stuffed-bean-bag.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/toys-stuffed-bean-bag.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "91b420186c36663f17dbe2a9b6727a88d29d533e5555d33d9dd5b0b126a25fb8",
-          "content_bytes": 40943,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0edb11fc4818d59c4a7a298bcbcb66f5ab3b98188b4a0828b05eb120062c311a",
+          "content_bytes": 41004,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "1ada4c7461d3aceca4cd225c62bbf305fd050ee37a09e4a415183891cf0234af",
-          "content_bytes": 29653,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cc7a9144ec6b14db03737e663c80b443e788f0c3aceaea984024a45f7288168f",
+          "content_bytes": 29714,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pirg2010-trouble-in-toyland",
         "content_pin": {
-          "content_sha256": "584ee453313f45ea394de24323bc31734930d8783c15ca3eaf09bb0c371ebd61",
-          "content_bytes": 28065,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a8933b089d95925f7b1c73d7b3bd438170c85f06d6185b5d2f111e5b0d0a2d98",
+          "content_bytes": 28126,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
         }
       },
       {
@@ -119,12 +119,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "962878b90793deffa6e67dca2a55a48fb4157d090272fab2b32f580082bfdbb7",
-          "content_bytes": 29100,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0642861c5af5a5d71535c7a5e27d82bcf2d751a3c165f11db42ff108549192b8",
+          "content_bytes": 29161,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
         }
       },
       {
@@ -145,12 +145,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015",
         "content_pin": {
-          "content_sha256": "4de57bb5a7dcc8e59990c2c1fc5d6a7d877ed227a4d583617d5000b33e7522d0",
-          "content_bytes": 40591,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "edc78dc963e4529c07a8ccc85d12b959fd8c6e694d363dca3091d99a4a4d2a0c",
+          "content_bytes": 40652,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015.md | sha256sum"
         }
       },
       {
@@ -172,12 +172,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "2c7cd44904ba216629459e1d42ae831486c0e1fb96a5795dd6a641b3c1625840",
-          "content_bytes": 31726,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7ed0105d7af30af1c6d0dffd8b139e039b3b08b6d48a6cb212ede2bdf173a62c",
+          "content_bytes": 31787,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       }
     ]

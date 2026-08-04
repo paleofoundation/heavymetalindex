@@ -2,7 +2,7 @@
 source_page: wiki/products/body-wash-shower-gel.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 992cd71002804855a78ca47f2d418e314e9da65661af688c4c3d528f684bc555
+source_page_sha256: 890d98d1ce4bbb6b96ba31400a2669f2d7a4015a652d2bb427070efbb6ce35fb
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

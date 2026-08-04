@@ -3,7 +3,7 @@ title: "Regulatory bodies"
 description: "Profiles of every regulatory body that sets heavy-metal limits or guidance the Heavy Metal Index tracks — what each body is, its positions across metals, where it diverges, and how it has changed. Auto-regenerated."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-23
+updated: 2026-08-01
 ---
 
 # Regulatory bodies
@@ -29,7 +29,7 @@ Each body below has a profile page: what it is and whether its numbers are bindi
 
 ## United States — California
 
-- [[regulators/oehha\|California Office of Environmental Health Hazard Assessment (OEHHA)]] — Binding — Proposition 65 warning law (listings + MADL/NSRL). 5 instruments.
+- [[regulators/oehha\|California Office of Environmental Health Hazard Assessment (OEHHA)]] — Binding — Proposition 65 warning law (listings + MADL/NSRL). 4 instruments.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

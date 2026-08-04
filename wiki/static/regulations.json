@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T19:27:47.542Z",
+  "generated_at": "2026-07-30T18:08:58.014Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -8,7 +8,7 @@
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi.",
   "canonical_base": "https://heavymetalindex.com",
-  "record_count": 55,
+  "record_count": 58,
   "records": [
     {
       "slug": "regulations/atsdr-aluminum-mrls",
@@ -156,6 +156,40 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/au-nz-food-standards-code-schedule-19-contaminants",
       "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/ca-swrcb-hexavalent-chromium-mcl",
+      "rule_id": "ca-swrcb-hexavalent-chromium-mcl",
+      "title": "California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "SWRCB",
+      "program": "California Safe Drinking Water Act",
+      "metal": "Cr-VI",
+      "metals": [
+        "Cr-VI"
+      ],
+      "matrix": "drinking-water",
+      "matrices": [
+        "drinking-water"
+      ],
+      "limit_value": 10,
+      "limit_unit": "ppb",
+      "status": "in-force",
+      "effective_date": "2024-10-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/swrcb-hexavalent-chromium-mcl-2024"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/ca-swrcb-hexavalent-chromium-mcl",
+      "updated": "2026-06-22T00:00:00.000Z"
     },
     {
       "slug": "regulations/china-gb-2762-2012-contaminants-superseded",
@@ -1095,6 +1129,43 @@
       "updated": "2026-05-03T00:00:00.000Z"
     },
     {
+      "slug": "regulations/eu-2024-1987-nickel-maximum-levels",
+      "rule_id": "eu-2024-1987-nickel-maximum-levels",
+      "title": "Commission Regulation (EU) 2024/1987 — maximum levels of nickel in certain foodstuffs",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": "Commission Regulation",
+      "metal": "Ni",
+      "metals": [
+        "Ni"
+      ],
+      "matrix": "food (multiple categories)",
+      "matrices": [
+        "food (multiple categories)"
+      ],
+      "limit_value": "0.10–40",
+      "limit_unit": "mg/kg",
+      "status": "in-force",
+      "effective_date": "2024-07-30T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/eu-2024-1987-nickel-maximum-levels",
+        "sources/efsa-nickel-contam-2020"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "brand-qa",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2024-1987-nickel-maximum-levels",
+      "updated": "2026-06-22T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/eu-2024-907-nickel-monitoring",
       "rule_id": "eu-2024-907-nickel-monitoring",
       "title": "Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food",
@@ -1989,6 +2060,41 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/oehha-cadmium-prop65",
       "updated": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/oehha-chromium-vi-prop65",
+      "rule_id": "oehha-chromium-vi-prop65",
+      "title": "California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "OEHHA",
+      "program": "Proposition 65",
+      "metal": "Cr-VI",
+      "metals": [
+        "Cr-VI"
+      ],
+      "matrix": "all-consumer-products",
+      "matrices": [
+        "all-consumer-products"
+      ],
+      "limit_value": 8.2,
+      "limit_unit": "µg/day-oral-MADL",
+      "status": "in-force",
+      "effective_date": "2008-12-19T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/oehha-chromium-vi-prop65-listing"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/oehha-chromium-vi-prop65",
+      "updated": "2026-06-22T00:00:00.000Z"
     },
     {
       "slug": "regulations/oehha-lead-prop65",

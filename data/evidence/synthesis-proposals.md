@@ -1,6 +1,6 @@
 ---
 type: synthesis-proposals
-updated: 2026-06-04
+updated: 2026-07-27
 audience: [internal]
 noindex: true
 ---
@@ -62,7 +62,7 @@ Promotion readiness: 1 of 4 criteria met (criterion 3, non-obvious from any sing
 
 Suggested synthesis page slug: `dual-metal-soil-co-mitigation` (broader framing that can absorb corroborating papers on any co-mitigation approach, not just jarosite).
 
-### Dietary and herbal supplement Pb contamination (seeding)
+### ~~Dietary and herbal supplement Pb contamination (seeding)~~ → PROMOTED 2026-07-27 to [[../../wiki/synthesis/supplement-botanical-lead-pathway|supplement-botanical-lead-pathway]] (corpus screen confirmed 4 independent A/B-tier anchors; growth trace below)
 
 Anchor sources (1 B-tier study; seeding only):
 
@@ -80,11 +80,45 @@ Promotion readiness: 1 of 4 criteria met. Criterion 3 (non-obvious) is met — a
 
 These crossed the evidence-density threshold in the routing audit but have not been evaluated in full. Recorded so they are not lost:
 
-- **Milk, dairy, and infant formula heavy metals** (Cd 21, Pb 20, tAs 16, tHg 14, Al 12, Ni 11 source pages). Multi-national total-diet studies plus infant-formula studies. Likely a product-category synthesis (infant formula) rather than an ingredient one; overlaps Category 1 work and the in-progress cadmium synthesis. A pass must find the non-obvious finding, since dairy is often the low-contamination reference and must earn criterion 3.
-- **Breastmilk heavy metals** (Pb 10, tAs 10). Vulnerable-population infant-exposure angle distinct from formula; emerging, watch for a third independent study.
+- ~~**Milk, dairy, and infant formula heavy metals** (Cd 21, Pb 20, tAs 16, tHg 14, Al 12, Ni 11 source pages).~~ The infant-formula slice was promoted 2026-07-27 as [[../../wiki/synthesis/infant-formula-metal-amplification|infant-formula-metal-amplification]] (the non-obvious finding is aluminium dominance plus a soy-and-powder amplification gradient). The broader dairy/milk cadmium slice remains a fold-in to a future dietary-cadmium synthesis, which does not yet exist as a page.
+- ~~**Breastmilk heavy metals** (Pb 10, tAs 10).~~ Promoted 2026-07-27 as [[../../wiki/synthesis/breastmilk-heavy-metal-exposure-pathway|breastmilk-heavy-metal-exposure-pathway]]; the corpus screen found six independent bodies of evidence, past the "watch for a third study" bar.
 - **Cereals/wheat cadmium** (Cd 39) and **leafy-greens cadmium** (Cd 22). High density, but these are the canonical population-level cadmium drivers and almost certainly belong inside the in-progress cadmium synthesis rather than as standalone pages. Fold in, do not duplicate.
 
 ## Promoted
+
+> **2026-07-27 batch (8 pages).** A fresh corpus-promotability screen (re-verifying the four criteria against the current corpus rather than the hand queue, which had drifted ~7 weeks behind with the `PROPOSE-SYNTHESIS-PAGES` signal still not running) surfaced eight promotable threads. One (`supplement-botanical-lead-pathway`) was already queued in Pending; two (`breastmilk-heavy-metal-exposure-pathway`, `infant-formula-metal-amplification`) were queued only as Emerging clusters; five (`dietary-nickel-plant-staple-accumulation`, `tin-canned-food-acidic-matrix-migration`, `wastewater-irrigation-multimetal-crop-pathway`, `organ-meat-cadmium-lead-accumulation`, `cookware-utensil-metal-leaching-pathway`) were surfaced by a gap-hunter and had never been queued. Each page was drafted from full anchor reads and passed an adversarial fact-check before publication (no fabrication found; six pages took precision corrections for overreach). `dual-metal-soil-co-mitigation` and `root-vegetable-cadmium-lead-uptake` were re-checked and remain NOT promotable (still 1 qualifying source, and fails the non-obvious criterion, respectively).
+
+### Dietary nickel is an intrinsic accumulation trait of plant staples, not a contamination signal
+
+Promoted 2026-07-27. Anchor sources: EFSA 2015, Flyvholm 1984, Mania 2020, Han 2024, Ćwieląg-Drabek 2025, Manfredi 2025. Six independent A-tier sources across five jurisdictions and four decades. Strategically load-bearing: Ni is one of the ten HMTc certification analytes. Synthesis page: [[../../wiki/synthesis/dietary-nickel-plant-staple-accumulation|dietary-nickel-plant-staple-accumulation]].
+
+### Inorganic tin in food is a can-format-and-acidity migration contaminant
+
+Promoted 2026-07-27. Anchor sources: Benoy 1971, EU SCF 2002, Blunden 2003, Mania 2021, Buculei 2012. Sn is an HMTc certification analyte; the acute-GI toxicological register and tinplate-migration mechanism are distinct from every other analyte. Synthesis page: [[../../wiki/synthesis/tin-canned-food-acidic-matrix-migration|tin-canned-food-acidic-matrix-migration]].
+
+### Human breastmilk is an infant heavy-metal exposure pathway distinct from formula
+
+Promoted 2026-07-27. Anchor sources: Thoerig 2025, Moon 2025, Chen 2023, Naspolini 2024, Katrynska 2026, Aisyiah 2025. Vulnerable-population pathway invisible to food-matrix surveillance. Synthesis page: [[../../wiki/synthesis/breastmilk-heavy-metal-exposure-pathway|breastmilk-heavy-metal-exposure-pathway]].
+
+### Manufactured infant formula delivers an aluminium-dominated metal load
+
+Promoted 2026-07-27. Anchor sources: Dabeka 2011, Kazi 2009, Burrell 2010, Chuchu 2013, Collado-López 2025, de Paiva 2020, Milani 2023. Seven datasets across five independent research lineages; soy-based and powdered formats amplify the load. Synthesis page: [[../../wiki/synthesis/infant-formula-metal-amplification|infant-formula-metal-amplification]].
+
+### Wastewater irrigation is a single upstream pathway that co-elevates multiple metals
+
+Promoted 2026-07-27. Anchor sources: Ali 2022, Adebayo 2020, Chiutula 2025, Clair-Caliot 2021, Pal 2017. The irrigation water, not the cultivar or soil parent material, is the correlated multi-metal driver in peri-urban leafy greens. Synthesis page: [[../../wiki/synthesis/wastewater-irrigation-multimetal-crop-pathway|wastewater-irrigation-multimetal-crop-pathway]].
+
+### Dietary supplements and traditional herbal preparations are an under-surveilled Pb pathway
+
+Promoted 2026-07-27. Anchor sources: Porwollik 2026, Inada 2023, Ciocan 2021, Thomas 2024. Contamination magnitudes reach thousands of times conventional food limits under materially weaker enforcement. Synthesis page: [[../../wiki/synthesis/supplement-botanical-lead-pathway|supplement-botanical-lead-pathway]].
+
+### Liver and kidney are physiological cadmium accumulation sinks above skeletal muscle
+
+Promoted 2026-07-27. Anchor sources: Rabeey 2025, Kamaly 2023, Morshed 2024 (with Hossain 2023 on lead, and Marcelino 2026 / Khatemeh 2022 on liver as the standard monitored matrix). Offal is a distinct matrix that muscle-focused surveillance does not represent. Synthesis page: [[../../wiki/synthesis/organ-meat-cadmium-lead-accumulation|organ-meat-cadmium-lead-accumulation]].
+
+### Cooking vessels are a post-harvest metal-leaching pathway
+
+Promoted 2026-07-27. Anchor sources: Abdulrasheed 2026, Alrajhi 2021, Rittirong 2018, Sultan 2023, Mahdi 2024. A clean ingredient can become a contaminated meal through the vessel, breaking the assumption that ingredient testing bounds exposure. Synthesis page: [[../../wiki/synthesis/cookware-utensil-metal-leaching-pathway|cookware-utensil-metal-leaching-pathway]].
 
 ### Climate adaptation creates new heavy-metal trade-offs
 

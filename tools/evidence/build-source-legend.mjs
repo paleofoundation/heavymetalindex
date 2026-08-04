@@ -229,7 +229,11 @@ function renderLegend(citeKeys, preservedContributions = new Map()) {
     BEGIN_MARKER,
     "## Sources",
     "",
-    `_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as ${'`*[awaiting synthesis]*`'}._`,
+    // COMPONENTS §10 caption: emitted as a classed HTML paragraph (not markdown
+    // emphasis) so the shared `.hmi-table-note` rule in v3-primitives.scss styles
+    // it (11.5px / #a9a1a2). Raw HTML blocks render as-is in Quartz; the blank
+    // line below separates it from the markdown table so the table still parses.
+    `<p class="hmi-table-note">Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as <code>*[awaiting synthesis]*</code>.</p>`,
     "",
     "| # | Citation | Year | Type | Used on this page for |",
     "| --- | --- | ---: | --- | --- |",

@@ -17,18 +17,42 @@
     "canonical_url": "https://heavymetalindex.com/products/pork-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1ce64ec1846ddf630becff3d30653a7c4cba8554c55dba2affc43efeff7863f3",
-      "content_bytes": 10331,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "840a293c63724ad5fdcb241a13b46ab7ee52a467a7ff60ce35af9de61a66fa1b",
+      "content_bytes": 11269,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/pork-product.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/pork-product.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 8,
+    "contributing_source_count": 10,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/buba2020-domestic-pig-metals-nigeria",
+        "title": "Determination of Some Heavy Metals in Kidney, Liver and Muscle of Domestic Pig (Sus scrofa domesticus) in Guyuk Metropolis, Adamawa State, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Fe",
+          "Cd",
+          "Ni",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/buba2020-domestic-pig-metals-nigeria",
+        "content_pin": {
+          "content_sha256": "9efc378409fa55248cc9487c84a78107f9bab48f940302ea5ee9e343f91afc25",
+          "content_bytes": 6103,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/buba2020-domestic-pig-metals-nigeria.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/buculei2012-tin-iron-migration-canned-food-romania",
         "title": "Study regarding the tin and iron migration from metallic cans into foodstuff during storage",
@@ -42,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/buculei2012-tin-iron-migration-canned-food-romania",
         "content_pin": {
-          "content_sha256": "9f9336aa95b01db9975462fe85dacf8bcc8a0e61c575dbb080ba3657fabe17d4",
-          "content_bytes": 18214,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "69b877d22da6aa18a8d239566bb1cdf2fb4907a88557793bbfb992c98af497f3",
+          "content_bytes": 18260,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/buculei2012-tin-iron-migration-canned-food-romania.md | sha256sum"
         }
       },
       {
@@ -68,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "81aaf24639ad1a4a09e38857e540b737fb3552bed9db2a12f1ddebd5b4023bd9",
-          "content_bytes": 6097,
-          "last_commit_sha": "55a3e39",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "361fe5ad6efbc4aa753556757c5a0a99995bfc7987254cefa920fe2b86007d7a",
+          "content_bytes": 6170,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 55a3e39:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
         }
       },
       {
@@ -91,12 +115,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hoha2014-pork-pb-cd-cu-zn-romania",
         "content_pin": {
-          "content_sha256": "e0c679c0e43148b23a1652002ca7dbfa66cf8d3acead22f7e158529306b3ec4d",
-          "content_bytes": 6711,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5bb9fa0037483a22f5a67977a136aff5ffde7f713c935926da384f43d2dd9699",
+          "content_bytes": 6772,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
         }
       },
       {
@@ -115,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "89a143bd79396e76cb5ddd0a644b2a2eb8b9a7a126335b9c0e741e1a8008af0d",
-          "content_bytes": 10066,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "16673bec9909c02fb5d0f35a6b7b0fec5ff55d2f2cf91960e37de1ec9a89b675",
+          "content_bytes": 10127,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -138,34 +162,38 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "0b5edb59dd2cc438d402c073163f9790d9afbfc625949f6f4069e5799098c6bd",
-          "content_bytes": 2708,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "677d4e2d33e376a74b5f576f46c9fc69b134bf4f355e5c7209dbb6a29f2ee6cb",
+          "content_bytes": 4548,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
         }
       },
       {
         "slug": "sources/paulsen2015-game-meat-metal-bioaccessibility",
-        "title": "Metal contents in the digested and undigested fraction of meat portions from game and pork",
+        "title": "Pilot study on metal contents in meat portions from wild game killed by 'lead-free' rifle bullets",
         "route_kind": "direct_evidence",
         "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
-          "Pb",
+          "Al",
+          "Cr",
           "Cu",
+          "Fe",
+          "Ni",
+          "Pb",
           "Zn"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/paulsen2015-game-meat-metal-bioaccessibility",
         "content_pin": {
-          "content_sha256": "54a8f1395ba1465641887384436c1a9f45b3e003fd3f61bbb70c62275adebf55",
-          "content_bytes": 3251,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "70a9ad4c1b70853c27d5d3519e0bd61570b3ae56b1bc95ebf59ad29ef2134d22",
+          "content_bytes": 6850,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
         }
       },
       {
@@ -180,12 +208,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2019-dietary-lead-guangzhou",
         "content_pin": {
-          "content_sha256": "a4980acaa36bd06019ed74519661469fb2a07825c56a6a57ad539b622aa80325",
-          "content_bytes": 6493,
-          "last_commit_sha": "def1a1b",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c2e6ed9654a11cc1b703b299d536e1be2c11c2082b3ff78f5d5c6290425c0526",
+          "content_bytes": 7166,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show def1a1b:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2019-dietary-lead-guangzhou.md | sha256sum"
         }
       },
       {
@@ -203,12 +231,35 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2020-jilin-total-diet-metals",
         "content_pin": {
-          "content_sha256": "2cfc4769003d463626f0b0bd80a0d9bb5327f492e54d61541af97ffc1f6f6b17",
-          "content_bytes": 6251,
-          "last_commit_sha": "0642913",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fabbf4cfc205e73cd864914180c76b5cc3c14fb21165791962ced81fb7cdaf9b",
+          "content_bytes": 7552,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0642913:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2020-jilin-total-diet-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhang2022-pork-heavy-metals-china",
+        "title": "Risk assessment of heavy metals contamination in pork",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2022-pork-heavy-metals-china",
+        "content_pin": {
+          "content_sha256": "3096f58ca65e4793c4667cfb9900c1ae27e95345f7543a034d39cd435eb4ce6f",
+          "content_bytes": 5924,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/zhang2022-pork-heavy-metals-china.md | sha256sum"
         }
       }
     ]

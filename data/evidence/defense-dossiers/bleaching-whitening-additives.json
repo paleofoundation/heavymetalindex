@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/bleaching-whitening-additives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ab012b9765ec855f7c435109a6e82ad94eb7136badaf5516b17cf851fa67e136",
-      "content_bytes": 9475,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "c9d6c8471c3378adb27145de6ac10a9e84450e55ba9f034b2e859a1d80959cb5",
+      "content_bytes": 10166,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/bleaching-whitening-additives.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/bleaching-whitening-additives.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -44,12 +44,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "9bd4df1cffa6bb2e23c8035baadc791916fa181e9de684f7848d56a8294cb258",
-          "content_bytes": 28693,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "72bbc9c5a8edb79ee689a11e456473a2c893a78f55f81fcd6dd55d53743f14c2",
+          "content_bytes": 28746,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/greenseal2020-gs51-laundry-care-products",
+        "title": "GS-51: Green Seal Standard for Laundry Care Products for Industrial and Institutional Use, Edition 1.6",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Cd",
+          "Cr-VI",
+          "tAs",
+          "Co",
+          "Mn",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
+        "content_pin": {
+          "content_sha256": "9f3fa9ceff5b2cafcbbec31ecf5b95a1af9b0da0990042fe7900a3321ac2baf1",
+          "content_bytes": 9141,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
         }
       },
       {
@@ -69,12 +96,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
-          "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "95b2e0b9587ae8b3f7172cb4a375e0dc2d390a96f37c00351e74a6c3e265f883",
+          "content_bytes": 49098,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

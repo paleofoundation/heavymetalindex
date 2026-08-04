@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-raw",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2254caa8229742e97bfd7049f3025951e68603b71acf3996b491121c2a1629ae",
-      "content_bytes": 7333,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "9dabdd47cbfee120e09af7743c6a446685ddb2bdb07c698b8fe5fad15399759c",
+      "content_bytes": 7394,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/pet-food-raw.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/pet-food-raw.md | sha256sum"
     }
   },
   "evidence_base": {

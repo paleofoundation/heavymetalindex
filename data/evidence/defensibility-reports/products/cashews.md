@@ -2,15 +2,15 @@
 source_page: wiki/products/cashews.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 17445b0e128e7461f23255325859e09e0ed68f4154276ad02c62b23a83585d49
+source_page_sha256: 8f394d39650766388e9e70205eff6bce6a1d5682067f215075f80060448d80f2
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2
 distinct_cited_targets: 1
 distinct_cited_sources: 0
-audit_rows_for_page: 0
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -34,15 +34,13 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 2 |
 | distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 0 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=taxonomy-v2.2-cat4split-cashews-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T01:00:00Z · span=v2.2-cat4-split
 
 ## Claims by section
 

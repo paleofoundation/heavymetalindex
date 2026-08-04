@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/aas-injectable",
+    "title": "Injectable anabolic-androgenic steroids (AAS)",
+    "hmtc_category": 26,
+    "hmtc_row": 3,
+    "category_label": null,
+    "age_range": null,
+    "label": "Injectable anabolic-androgenic steroids (AAS)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/aas-injectable",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "778bf84e45a0ca92a1d59441e12caac7a4f164435d7e6bd6cb27e9914c2a83d8",
+      "content_bytes": 1409,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 50de6ab21:wiki/products/aas-injectable.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 0,
+    "sources_with_structured_values": 0,
+    "contributing_sources": []
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/aas-injectable.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

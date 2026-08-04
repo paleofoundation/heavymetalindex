@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-teas-labeled",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "14b8fa48e22838ca1880e3c675c7c1d5228a67a1ff4c304057008bfac6eec31c",
-      "content_bytes": 9196,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "c3f9e67d2c30ea79eb504c7be1c841f3682ba2f689f83063aa5a2530e7069d4a",
+      "content_bytes": 9257,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/supplements-teas-labeled.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-teas-labeled.md | sha256sum"
     }
   },
   "evidence_base": {

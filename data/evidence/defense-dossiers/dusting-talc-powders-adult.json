@@ -17,18 +17,36 @@
     "canonical_url": "https://heavymetalindex.com/products/dusting-talc-powders-adult",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "429eca7612be39f3ecf1d3ddf39729453bd849b37e3c3d1020b6c20216934eb9",
-      "content_bytes": 8112,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "8735ec7091e5c856d21bca7e9732394b9b1fc6d46eb196b6b82b9409401caba2",
+      "content_bytes": 9083,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/dusting-talc-powders-adult.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/dusting-talc-powders-adult.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/gao2020-feminine-hygiene-edcs",
+        "title": "Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/gao2020-feminine-hygiene-edcs",
+        "content_pin": {
+          "content_sha256": "119e53c6e66ad1006611d70d83ddb33f9728f35d8d04700c80ca2b8a3c1e96c8",
+          "content_bytes": 7913,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/gao2020-feminine-hygiene-edcs.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/hepp2014-fda-cosmetics-seven-elements",
         "title": "Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content",
@@ -47,12 +65,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "1233c7a497e4f35bc4f4b1da2df3927ee74882bbf03c7eaa80f5f3331c5adfad",
-          "content_bytes": 29010,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "06bb9ea3ba31de6e8742fed8f0f9cba1382451bac3508f3ad0aa7c8c5572d4d6",
+          "content_bytes": 29071,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/upson2022-menstrual-products-exposure-review",
+        "title": "Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/upson2022-menstrual-products-exposure-review",
+        "content_pin": {
+          "content_sha256": "9f0eeb2843ffd2aa2076ca4d6f823f4ce62a8b307b8df8bda017a8bceacb7552",
+          "content_bytes": 8391,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/upson2022-menstrual-products-exposure-review.md | sha256sum"
         }
       }
     ]

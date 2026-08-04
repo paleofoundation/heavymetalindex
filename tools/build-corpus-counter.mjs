@@ -17,9 +17,6 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 
-import { upsertMarkerBlock } from "./lib/upsert-marker-block.mjs"
-import { countMarkdownPages } from "./lib/count-pages.mjs"
-
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
@@ -32,12 +29,27 @@ const homepagePath = path.join(repoRoot, "wiki/index.md")
 
 const beginMarker = "<!-- BEGIN: hmi-corpus-counter -->"
 const endMarker = "<!-- END: hmi-corpus-counter -->"
+const featureBeginMarker = "<!-- BEGIN: hmi-feature-grid -->"
+const featureEndMarker = "<!-- END: hmi-feature-grid -->"
+const metalBeginMarker = "<!-- BEGIN: hmi-metal-registry -->"
+const metalEndMarker = "<!-- END: hmi-metal-registry -->"
 
-// Where the counter re-installs itself if its markers are ever lost. An explicit
-// comment in the page, not a computed offset into the hero markup — the previous
-// version anchored on `class="hmi-home-hero"`, which silently relocated the block
-// to the bottom of the file the moment the hero was restyled.
-const HERO_END_ANCHOR = "<!-- hmi-home-anchor: after-hero -->"
+// Editorial columns for the homepage metal registry (v3 HOME A, "Metal
+// registry"). Reference-value status and driver matrices are editorial
+// judgements, not counts, so they live here; the source count beside each row
+// is read from the metal page's own `sources:` frontmatter and is never
+// written by hand. A metal absent from this map simply does not appear in the
+// table — the registry is a curated top slice, not the full 36.
+const METAL_REGISTRY = [
+  ["lead", "Lead", "Pb", "No tolerable intake", "none", "Cereals, root vegetables, spices, infant foods"],
+  ["cadmium", "Cadmium", "Cd", "EFSA TWI", "value", "Cocoa, leafy greens, root vegetables, offal"],
+  ["chromium", "Chromium", "Cr", "Species-specific", "species", "Processing contact, drinking water"],
+  ["nickel", "Nickel", "Ni", "EU maximum levels", "value", "Legumes, nuts, cocoa, equipment contact"],
+  ["arsenic-total", "Arsenic", "As", "Species-specific", "species", "Rice, seaweed, drinking water, apple juice"],
+  ["mercury-total", "Mercury", "Hg", "JECFA PTWI, MeHg", "value", "Predatory fish, shellfish"],
+  ["aluminum", "Aluminum", "Al", "EFSA TWI", "value", "Additives, packaging contact, botanicals"],
+  ["tin", "Tin", "Sn", "Codex ML", "species", "Canned foods, acidic matrices"],
+]
 
 // Source-type normalization map. The on-disk vocabulary has accumulated
 // spelling drift over time; the counter normalizes to a canonical set so
@@ -172,68 +184,41 @@ if (fs.existsSync(routingAuditPath)) {
 
 const today = new Date().toISOString().slice(0, 10)
 const block = renderBlock(counts, today)
+const featureBlock = renderFeatureGrid(counts)
 
-upsertMarkerBlock(homepagePath, beginMarker, endMarker, block, {
-  // The counter is the one block allowed to self-install: it sits directly under
-  // the hero, and a homepage without it would ship with no corpus scale at all.
-  anchorAfter: HERO_END_ANCHOR,
-})
+const metalBlock = renderMetalRegistry()
+
+upsertHomepageBlock(homepagePath, block)
+upsertFeatureGridBlock(homepagePath, featureBlock)
+upsertMarkerBlock(homepagePath, metalBeginMarker, metalEndMarker, metalBlock)
 console.log(
   `Wrote corpus counter: ${counts.source_pages_total} source pages (${counts.source_peer_reviewed} peer-reviewed, ${counts.source_government} government, ${counts.source_databases_indexed} databases, ${counts.source_evidence_tier_a} A-tier), ${counts.ingredient_pages} ingredients, ${counts.product_pages} products, ${counts.metal_pages} metals, ${counts.regulation_pages} regulations, ${counts.structured_value_records} structured records, ${counts.routing_rows} routing rows, ${counts.jurisdictions_indexed} jurisdictions.`,
 )
 
 function renderBlock(c, refreshDate) {
+  // v3 HOME A lines 116-129: a 6-row ledger inside the hero, not a 10-row dl.
+  const rows = [
+    ["Peer-reviewed studies", c.source_peer_reviewed],
+    ["Government reports and datasets", c.source_government],
+    ["Programmatic databases indexed", c.source_databases_indexed],
+    ["A-tier curated sources", c.source_evidence_tier_a],
+    ["Structured evidence records", c.structured_value_records],
+    ["Jurisdictions covered", c.jurisdictions_indexed],
+  ]
+  const body = rows
+    .map((r) => `      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">${r[0]}</span><span class="hmi-v3-ledger-v">${fmt(r[1])}</span></div>`)
+    .join("\n")
   return `${beginMarker}
-<section class="hmi-band hmi-band--shade" data-no-cite>
-  <div class="hmi-band-inner">
-<section class="hmi-home-corpus-counter" aria-label="Corpus scope">
-  <div class="hmi-home-corpus-counter-label">Corpus indexed</div>
-  <dl class="hmi-home-corpus-counter-grid">
-    <div>
-      <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">${fmt(c.source_peer_reviewed)}</a></dd>
-    </div>
-    <div>
-      <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">${fmt(c.source_government)}</a></dd>
-    </div>
-    <div>
-      <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">${fmt(c.source_databases_indexed)}</a></dd>
-    </div>
-    <div>
-      <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">${fmt(c.source_evidence_tier_a)}</a></dd>
-    </div>
-    <div>
-      <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">${fmt(c.structured_value_records)}</a></dd>
-    </div>
-    <div>
-      <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">${fmt(c.jurisdictions_indexed)}</a></dd>
-    </div>
-    <div>
-      <dt>Ingredient profiles</dt>
-      <dd><a href="ingredients/">${fmt(c.ingredient_pages)}</a></dd>
-    </div>
-    <div>
-      <dt>Product categories</dt>
-      <dd><a href="products/">${fmt(c.product_pages)}</a></dd>
-    </div>
-    <div>
-      <dt>Metal profiles</dt>
-      <dd><a href="metals/">${fmt(c.metal_pages)}</a></dd>
-    </div>
-    <div>
-      <dt>Regulation pages</dt>
-      <dd><a href="regulations/">${fmt(c.regulation_pages)}</a></dd>
-    </div>
-  </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: ${refreshDate}. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
-</section>
+<div class="hmi-v3-ledger" aria-label="Corpus ledger">
+  <div class="hmi-v3-ledger-head">
+    <span class="hmi-v3-ledger-title">Corpus ledger</span>
+    <span class="hmi-v3-ledger-refresh">REFRESH ${refreshDate}</span>
   </div>
-</section>
+  <div class="hmi-v3-ledger-body">
+${body}
+    <p class="hmi-v3-ledger-note">Counts derive from on-disk frontmatter and the structured evidence layer on every build. Source-type counts are normalized across spelling variants.</p>
+  </div>
+</div>
 ${endMarker}`
 }
 
@@ -241,7 +226,54 @@ function fmt(value) {
   return new Intl.NumberFormat("en-US").format(value)
 }
 
+function renderFeatureGrid(c) {
+  // v3 HOME A lines 163-175 + registries data at 2155-2161: five cards, each a
+  // mono count over a Lora title over one line of prose. No sixth card, no
+  // "pages" suffix, no meta line.
+  const cards = [
+    [fmt(c.product_pages), "Products", "products/", "Category risk profiles built from the ingredients that drive them."],
+    [fmt(c.ingredient_pages), "Ingredients", "ingredients/", "Why a commodity accumulates a metal, and how much the literature reports."],
+    [fmt(c.metal_pages), "Metals", "metals/", "Endpoints, kinetics, and the reference value each body has or has not set."],
+    [fmt(c.regulation_pages), "Regulations", "regulations/", "Values, matrices, bases, and legal status, per instrument."],
+    [fmt(c.source_pages_total), "Sources", "sources/", "Methods, extracted values, and the file hash behind every figure."],
+  ]
+  const body = cards
+    .map(
+      (k) => `  <a class="hmi-v3-registry" href="${k[2]}">
+    <span class="hmi-v3-registry-n">${k[0]}</span>
+    <span class="hmi-v3-registry-t">${k[1]}</span>
+    <span class="hmi-v3-registry-d">${k[3]}</span>
+  </a>`,
+    )
+    .join("\n")
+  // v3 163-165: a full-bleed band whose INNER wrapper carries max-width 1760
+  // and the 72px 48px 80px padding. Without the wrapper the cards spread past
+  // 1760 on wide viewports instead of centring.
+  return `${featureBeginMarker}
+<section class="hmi-v3-registries" aria-label="Registries">
+  <div class="hmi-v3-registries-inner">
+${body}
+  </div>
+</section>
+${featureEndMarker}`
+}
 
+function countMarkdownPages(dir, skipFiles) {
+  if (!fs.existsSync(dir)) return 0
+  const skip = new Set(skipFiles)
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith(".md") && !skip.has(file))
+    .filter((file) => !file.startsWith("_"))
+    .filter((file) => {
+      // Exclude auto-generated cross-cut pages so the "Regulation pages" /
+      // "Product pages" / etc. counts reflect atomic items, not derived views.
+      const raw = fs.readFileSync(path.join(dir, file), "utf8")
+      const fm = matter(raw).data
+      return fm.auto_generated !== true
+    })
+    .length
+}
 
 function asArray(value) {
   if (Array.isArray(value)) return value
@@ -249,5 +281,112 @@ function asArray(value) {
   return [value]
 }
 
+function upsertHomepageBlock(filePath, block) {
+  if (!fs.existsSync(filePath)) {
+    console.error(`Homepage not found at ${filePath}`)
+    process.exit(1)
+  }
+  const text = fs.readFileSync(filePath, "utf8")
+  const pattern = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
 
+  let next
+  if (pattern.test(text)) {
+    // Function replacer: keep `$&`/`$1`/`$'`/`` $` `` in the generated block
+    // literal rather than letting String.replace treat them as backreferences
+    // (the source-legend idempotency bug class).
+    next = text.replace(pattern, () => block)
+  } else {
+    // Insert after the hero section, before the feature grid. If the hero
+    // section isn't where expected, append at the end of the file.
+    const heroEnd = text.indexOf("</section>", text.indexOf('class="hmi-home-hero"'))
+    if (heroEnd >= 0) {
+      const insertAt = heroEnd + "</section>".length
+      next = `${text.slice(0, insertAt)}\n\n${block}\n${text.slice(insertAt)}`
+    } else {
+      next = `${text.trimEnd()}\n\n${block}\n`
+    }
+  }
 
+  if (next === text) return
+  fs.writeFileSync(filePath, next, "utf8")
+}
+
+function upsertFeatureGridBlock(filePath, block) {
+  if (!fs.existsSync(filePath)) return
+  const text = fs.readFileSync(filePath, "utf8")
+  const pattern = new RegExp(`${escapeRegExp(featureBeginMarker)}[\\s\\S]*?${escapeRegExp(featureEndMarker)}`)
+  if (!pattern.test(text)) return
+  const next = text.replace(pattern, () => block)  // literal replacement, no $-backreference interpretation
+  if (next === text) return
+  fs.writeFileSync(filePath, next, "utf8")
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+// ── homepage metal registry (v3 HOME A) ──────────────────────────────────
+// Source counts come from each metal page's own `sources:` frontmatter, so the
+// table cannot drift from the pages it links to. Rows whose page is missing are
+// skipped rather than rendered with a blank or a guessed number.
+function renderMetalRegistry() {
+  const rows = []
+  for (const [slug, name, sym, tag, tone, drivers] of METAL_REGISTRY) {
+    const file = path.join(metalsDir, `${slug}.md`)
+    if (!fs.existsSync(file)) continue
+    const fm = matter(fs.readFileSync(file, "utf8")).data
+    const n = Number(fm?.sources)
+    if (!Number.isFinite(n) || n <= 0) continue
+    rows.push({ slug, name, sym, tag, tone, drivers, n })
+  }
+  rows.sort((a, b) => b.n - a.n)
+
+  const body = rows
+    .map(
+      (r) => `      <tr>
+        <td class="hmi-metal-name"><a href="metals/${esc(r.slug)}/">${esc(r.name)}</a> <span>${esc(r.sym)}</span></td>
+        <td class="hmi-metal-n">${r.n.toLocaleString("en-US")}</td>
+        <td><span class="hmi-metal-tag hmi-metal-tag--${esc(r.tone)}">${esc(r.tag)}</span></td>
+        <td class="hmi-metal-drivers">${esc(r.drivers)}</td>
+      </tr>`,
+    )
+    .join("\n")
+
+  return `${metalBeginMarker}
+<section class="hmi-home-metals" aria-label="Metal registry">
+  <div class="hmi-home-metals-head">
+    <h2>Metal registry</h2>
+    <a class="hmi-home-metals-all" href="metals/">All metals &rarr;</a>
+  </div>
+  <table class="hmi-metal-table">
+    <thead>
+      <tr><th>Metal</th><th>Sources</th><th>Reference value status</th><th>Driver matrices</th></tr>
+    </thead>
+    <tbody>
+${body}
+    </tbody>
+  </table>
+</section>
+${metalEndMarker}`
+}
+
+function esc(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+}
+
+// Generic marker upsert. Like upsertFeatureGridBlock, it refuses to insert when
+// the markers are absent: a homepage rewrite that drops a marker should lose the
+// block, not gain a duplicate appended at the end of the file.
+function upsertMarkerBlock(filePath, begin, end, block) {
+  if (!fs.existsSync(filePath)) return
+  const text = fs.readFileSync(filePath, "utf8")
+  const pattern = new RegExp(`${escapeRegExp(begin)}[\\s\\S]*?${escapeRegExp(end)}`)
+  if (!pattern.test(text)) return
+  const next = text.replace(pattern, () => block)
+  if (next === text) return
+  fs.writeFileSync(filePath, next, "utf8")
+}

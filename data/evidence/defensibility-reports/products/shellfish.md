@@ -2,7 +2,7 @@
 source_page: wiki/products/shellfish.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6989e03da27483d62e919c5daf8a55adb91df37084e66c9a85d8ac870adacf27
+source_page_sha256: 51538d7356f2b673faff0ae0d37d3896293efc63bbd805f1a813ed0cdf4bf5ee
 total_claims: 2
 cited_claims: 0
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

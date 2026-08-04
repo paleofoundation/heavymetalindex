@@ -50,7 +50,7 @@ sources: 0
 - **FM_9140929** (2014) — Speciation of Arsenic(III) and Arsenic(V) in Plant-Based Drinks
 - **FM_7269330** (n.d.) — Interactions of Dimethylarsinic Acid, Total Arsenic and Zinc Affecting Rice Crop Management and Human Health in Cambodia
 - **FM_12524768** (2021) — Zinc-Mediated Defenses Against Toxic Heavy Metals and Metalloids: Mechanisms, Immunomodulation, and Therapeutic Relevance
-- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
+- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]]
 - **FM_10852378** (2019) — Associations with household tap water as a function of feeding mode
 - **FM_11415992** (2018) — RESEARCH Open Access
 - **FM_12344449** (2018) — RESEARCH ARTICLE

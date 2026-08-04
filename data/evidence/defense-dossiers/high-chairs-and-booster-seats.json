@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/high-chairs-and-booster-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bff36cd51a4d8ca56af3f090d82e786eb35c1d01b49ade55eb4812471fe87067",
-      "content_bytes": 8795,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "20f433e0886083281085d799044b28f80a0f0cd997782dd888946152215f36d3",
+      "content_bytes": 8856,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/high-chairs-and-booster-seats.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/high-chairs-and-booster-seats.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c5943b8d32cbe8f78c9c22a42e5f6443214c47200f2ad8e1559194a47eb5c3f3",
+          "content_bytes": 59435,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "406d7ec851e2aec334f83f2f1ed7c006a4220c5ff89c511a0456be6d544e9681",
-          "content_bytes": 33076,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "62da85e8e56912dfe3bd833c9b33eb2d593c2c27ada78f2f683162702791ba5f",
+          "content_bytes": 33137,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       }
     ]

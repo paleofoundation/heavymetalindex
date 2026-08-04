@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-vitamin-mineral",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "310259674f3247ea7e5594d91bf1f6c020f3ce732911d36e07fbef0efa0fdf54",
-      "content_bytes": 7375,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "8cf51457e11a6b3f4117e840583af983de86b0f27eac442c9a770fe39b6faef1",
+      "content_bytes": 7436,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/pet-supplements-vitamin-mineral.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/pet-supplements-vitamin-mineral.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-removal-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "749387eda4ad9fa7d881eb92d4927416fd7db7f9dc9fb9d3c95fe2377d5bce7f",
-      "content_bytes": 8675,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "233f7b6f22723e35a00e9dc88d12599c5234e994980379e17a3dd6e5d65e3363",
+      "content_bytes": 8736,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/hair-removal-products.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/hair-removal-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "19ec2fab306d46f9c6c4c0f3fc34e746329f915c869bfd4e387f7b16daf6d8e1",
-          "content_bytes": 31839,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "358e739a89b55028049e3035d607323e9b1805c0f397eeb1f5220c0366d2defa",
+          "content_bytes": 31748,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "7c084db648a27770989212b919d6cac3540af9b5860430bf9bd4aa418a2bdbfe",
-          "content_bytes": 31113,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3fd2e0164f5c1247cda2385a82de33a253b42992d52222326aba7f971cb40018",
+          "content_bytes": 31174,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

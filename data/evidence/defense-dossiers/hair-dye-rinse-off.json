@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-dye-rinse-off",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3eb8901d52c9ea87e0d95178328cbc845b6505dae5b1e587a427265a8aa8419e",
-      "content_bytes": 9142,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "bb6e5415ec5467abce5c1e6c8a0ca6dde5daf933b9be6e35e2008e9d3bcafc68",
+      "content_bytes": 10154,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/hair-dye-rinse-off.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/hair-dye-rinse-off.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
         "content_pin": {
-          "content_sha256": "f1cc8f1c2667a6f00c5858f09cb55c4e9d630d431c0294fb07154f2555f3bf5f",
-          "content_bytes": 21381,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f9d103a3627e5be25bdb9a8be560ec11cfc2487c2f2603200746a157896112ed",
+          "content_bytes": 21442,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "19ec2fab306d46f9c6c4c0f3fc34e746329f915c869bfd4e387f7b16daf6d8e1",
-          "content_bytes": 31839,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "358e739a89b55028049e3035d607323e9b1805c0f397eeb1f5220c0366d2defa",
+          "content_bytes": 31748,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
         }
       },
       {
@@ -84,12 +84,61 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "7c084db648a27770989212b919d6cac3540af9b5860430bf9bd4aa418a2bdbfe",
-          "content_bytes": 31113,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3fd2e0164f5c1247cda2385a82de33a253b42992d52222326aba7f971cb40018",
+          "content_bytes": 31174,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yashim2020-hair-dyes-metals-nigeria",
+        "title": "Evaluation of Heavy Metals Level in Hair Dyes and their Potential Health Risk",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cr",
+          "Cd",
+          "Ni",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yashim2020-hair-dyes-metals-nigeria",
+        "content_pin": {
+          "content_sha256": "bef0c3ad889dd609d7112e290e651959316d2bb04dab28a3f07a44e50ae6768b",
+          "content_bytes": 8703,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/yashim2020-hair-dyes-metals-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yorgwara2026-personal-care-metals-nigeria",
+        "title": "Assessment of Heavy Metal Concentration in Some Selected Cosmetic Products and Human Health Risk in Eleme LGA, Rivers State, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yorgwara2026-personal-care-metals-nigeria",
+        "content_pin": {
+          "content_sha256": "587abd187f1ab870e74305bf0cdc66c542220be1c3c7bd0784af1389c7a1a2d2",
+          "content_bytes": 10024,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/yorgwara2026-personal-care-metals-nigeria.md | sha256sum"
         }
       }
     ]

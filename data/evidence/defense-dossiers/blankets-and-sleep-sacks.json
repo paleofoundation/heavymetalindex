@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/blankets-and-sleep-sacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bb54b84657b416d721cbb9b16eea373c2b732b9d513f0996410589f8ebc10856",
-      "content_bytes": 8985,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "907b98f0f6860802e97bbc20ad5b839e88546e5d7dfd5b6b3323e5e9beb5037e",
+      "content_bytes": 9046,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/blankets-and-sleep-sacks.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/blankets-and-sleep-sacks.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c5943b8d32cbe8f78c9c22a42e5f6443214c47200f2ad8e1559194a47eb5c3f3",
+          "content_bytes": 59435,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -76,12 +76,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
         "content_pin": {
-          "content_sha256": "4f59c50d1fb41932016e5f63f136e4139ff3ad60831d3ed2dc7cbe4401add3ad",
-          "content_bytes": 22476,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "82f38fa7d3acd0810542036208a3bcdd72349836df496e34ca0ec619fb17f13e",
+          "content_bytes": 22537,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
         }
       }
     ]

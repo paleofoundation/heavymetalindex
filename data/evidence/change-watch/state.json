@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T19:27:52.356Z",
+  "updated_at": "2026-07-30T18:08:58.801Z",
   "regulations": {
     "regulations/atsdr-aluminum-mrls": {
       "limit_value": 1,
@@ -18,6 +18,12 @@
       "limit_unit": "mg/kg",
       "status": "in-force",
       "effective_date": "2016-03-01T00:00:00.000Z"
+    },
+    "regulations/ca-swrcb-hexavalent-chromium-mcl": {
+      "limit_value": 10,
+      "limit_unit": "ppb",
+      "status": "in-force",
+      "effective_date": "2024-10-01T00:00:00.000Z"
     },
     "regulations/china-gb-2762-2012-contaminants-superseded": {
       "limit_value": "multiple",
@@ -174,6 +180,12 @@
       "status": "in-force",
       "effective_date": null
     },
+    "regulations/eu-2024-1987-nickel-maximum-levels": {
+      "limit_value": "0.10–40",
+      "limit_unit": "mg/kg",
+      "status": "in-force",
+      "effective_date": "2024-07-30T00:00:00.000Z"
+    },
     "regulations/eu-2024-907-nickel-monitoring": {
       "limit_value": "monitoring-recommendation",
       "limit_unit": "none",
@@ -323,6 +335,12 @@
       "status": "in-force",
       "effective_date": "1997-05-01T00:00:00.000Z"
     },
+    "regulations/oehha-chromium-vi-prop65": {
+      "limit_value": 8.2,
+      "limit_unit": "µg/day-oral-MADL",
+      "status": "in-force",
+      "effective_date": "2008-12-19T00:00:00.000Z"
+    },
     "regulations/oehha-lead-prop65": {
       "limit_value": "multiple",
       "limit_unit": "ug/day",
@@ -446,31 +464,31 @@
     "apple|Pb": {
       "typical_ppb": [
         0,
-        0
+        46
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 90,
       "confidence": "medium",
-      "n_studies": 9,
+      "n_studies": 5,
       "status": "populated"
     },
     "apple|Cd": {
       "typical_ppb": [
         0,
-        0
+        10
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 30,
       "confidence": "medium",
-      "n_studies": 7,
+      "n_studies": 5,
       "status": "populated"
     },
     "apple|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "apple|tAs": {
@@ -486,21 +504,21 @@
     "apple|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 4,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "apple|Ni": {
       "typical_ppb": [
         0,
-        0
+        360
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 360,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "apple|Al": {
@@ -516,10 +534,10 @@
     "apple|Cr": {
       "typical_ppb": [
         0,
-        0
+        57
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 126,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -535,12 +553,12 @@
     },
     "apple|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "apple-cider-vinegar|Pb": {
@@ -656,9 +674,9 @@
     "apple-juice|Cd": {
       "typical_ppb": [
         0,
-        0
+        2.6
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 3,
       "confidence": "low",
       "n_studies": 3,
       "status": "populated"
@@ -686,11 +704,11 @@
     "apple-juice|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 1,
       "status": "populated"
     },
     "apple-juice|Ni": {
@@ -716,11 +734,11 @@
     "apple-juice|Cr": {
       "typical_ppb": [
         0,
-        0
+        55
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 90,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 4,
       "status": "populated"
     },
     "apple-juice|Sn": {
@@ -746,11 +764,11 @@
     "applesauce|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|Cd": {
@@ -888,8 +906,8 @@
         0,
         0
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 0.2,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -916,10 +934,10 @@
     "asparagus|Cr": {
       "typical_ppb": [
         0,
-        0
+        390.5
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -946,10 +964,10 @@
     "avocado|Pb": {
       "typical_ppb": [
         0,
-        0
+        40
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 90,
+      "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
     },
@@ -1018,9 +1036,9 @@
         0,
         0
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "avocado|Sn": {
@@ -1035,12 +1053,12 @@
     },
     "avocado|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "baby-cereals-dry|Pb": {
@@ -1179,7 +1197,7 @@
         1
       ],
       "p95_ppb": 4.2,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -1289,8 +1307,8 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "baked-potato-with-peel|Ni": {
@@ -1349,7 +1367,7 @@
         500
       ],
       "p95_ppb": 1500,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 4,
       "status": "populated"
     },
@@ -1359,7 +1377,7 @@
         30
       ],
       "p95_ppb": null,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -1379,7 +1397,7 @@
         200
       ],
       "p95_ppb": 500,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -1446,19 +1464,19 @@
     "banana|Pb": {
       "typical_ppb": [
         0,
-        0
+        90
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 330,
       "confidence": "medium",
-      "n_studies": 5,
+      "n_studies": 6,
       "status": "populated"
     },
     "banana|Cd": {
       "typical_ppb": [
         0,
-        0
+        33
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 33,
       "confidence": "medium",
       "n_studies": 5,
       "status": "populated"
@@ -1476,21 +1494,21 @@
     "banana|tAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 3.2,
       "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
     },
     "banana|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "banana|Ni": {
@@ -1516,11 +1534,11 @@
     "banana|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 193,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 6,
       "status": "populated"
     },
     "banana|Sn": {
@@ -1535,12 +1553,12 @@
     },
     "banana|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "beans|Pb": {
@@ -1599,7 +1617,7 @@
         1500
       ],
       "p95_ppb": null,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
     },
@@ -2045,22 +2063,22 @@
     },
     "black-pepper|Pb": {
       "typical_ppb": [
-        10,
-        130
+        130,
+        640
       ],
-      "p95_ppb": 370,
-      "confidence": "low",
-      "n_studies": 2,
+      "p95_ppb": 2500,
+      "confidence": "medium",
+      "n_studies": 8,
       "status": "populated"
     },
     "black-pepper|Cd": {
       "typical_ppb": [
-        20,
-        80
+        27,
+        200
       ],
-      "p95_ppb": 100,
-      "confidence": "low",
-      "n_studies": 2,
+      "p95_ppb": 390,
+      "confidence": "medium",
+      "n_studies": 6,
       "status": "populated"
     },
     "black-pepper|iAs": {
@@ -2075,62 +2093,62 @@
     },
     "black-pepper|tAs": {
       "typical_ppb": [
-        50,
+        33,
         200
       ],
       "p95_ppb": 1700,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 4,
       "status": "populated"
     },
     "black-pepper|tHg": {
       "typical_ppb": [
-        1,
-        10
+        null,
+        17
       ],
-      "p95_ppb": 60,
+      "p95_ppb": 17,
       "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "black-pepper|Ni": {
       "typical_ppb": [
-        850,
-        2080
+        1700,
+        4900
       ],
-      "p95_ppb": 4800,
-      "confidence": "low",
-      "n_studies": 2,
+      "p95_ppb": 5100,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "black-pepper|Al": {
       "typical_ppb": [
-        10000,
-        60000
+        110000,
+        210000
       ],
-      "p95_ppb": 178000,
+      "p95_ppb": 540000,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 4,
       "status": "populated"
     },
     "black-pepper|Cr": {
       "typical_ppb": [
-        100,
-        600
+        800,
+        2300
       ],
-      "p95_ppb": 2400,
+      "p95_ppb": 6600,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 3,
       "status": "populated"
     },
     "black-pepper|Sn": {
       "typical_ppb": [
         null,
-        null
+        1200
       ],
-      "p95_ppb": null,
-      "confidence": null,
-      "n_studies": 0,
+      "p95_ppb": 1200,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "black-pepper|U": {
@@ -2149,7 +2167,7 @@
         24
       ],
       "p95_ppb": 33.5,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -2159,7 +2177,7 @@
         2
       ],
       "p95_ppb": 4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -2179,7 +2197,7 @@
         2.9
       ],
       "p95_ppb": 3.2,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -2246,11 +2264,11 @@
     "blueberry-muffin|Pb": {
       "typical_ppb": [
         0,
-        0
+        5
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 5,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "blueberry-muffin|Cd": {
@@ -2285,12 +2303,12 @@
     },
     "blueberry-muffin|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "blueberry-muffin|Ni": {
@@ -2316,11 +2334,11 @@
     "blueberry-muffin|Cr": {
       "typical_ppb": [
         0,
-        0
+        56
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 56,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "blueberry-muffin|Sn": {
@@ -2746,11 +2764,11 @@
     "broccoli|Pb": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "broccoli|Cd": {
@@ -2776,21 +2794,21 @@
     "broccoli|tAs": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "broccoli|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "broccoli|Ni": {
@@ -2816,11 +2834,11 @@
     "broccoli|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "broccoli|Sn": {
@@ -2886,9 +2904,9 @@
     "butter|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 3,
       "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
@@ -2949,7 +2967,7 @@
         6.5
       ],
       "p95_ppb": 7.3,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -2959,7 +2977,7 @@
         2.2
       ],
       "p95_ppb": 2.8,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -2979,7 +2997,7 @@
         0.2
       ],
       "p95_ppb": 1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -2999,7 +3017,7 @@
         3215
       ],
       "p95_ppb": 3478,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3019,7 +3037,7 @@
         10.5
       ],
       "p95_ppb": 12.8,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3099,7 +3117,7 @@
         800
       ],
       "p95_ppb": null,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -3649,7 +3667,7 @@
         41
       ],
       "p95_ppb": 84,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3659,7 +3677,7 @@
         21.8
       ],
       "p95_ppb": 39.8,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3669,7 +3687,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3679,7 +3697,7 @@
         3.3
       ],
       "p95_ppb": 17.9,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3699,7 +3717,7 @@
         4994
       ],
       "p95_ppb": 5503,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3719,7 +3737,7 @@
         480.9
       ],
       "p95_ppb": 909.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3749,7 +3767,7 @@
         14.7
       ],
       "p95_ppb": 32.1,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3759,7 +3777,7 @@
         14
       ],
       "p95_ppb": 21,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3769,7 +3787,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3799,7 +3817,7 @@
         2702
       ],
       "p95_ppb": 3037,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -3889,7 +3907,7 @@
         500
       ],
       "p95_ppb": 1500,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 5,
       "status": "populated"
     },
@@ -3946,10 +3964,10 @@
     "cantaloupe|Pb": {
       "typical_ppb": [
         0,
-        0
+        7
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 7,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -3986,11 +4004,11 @@
     "cantaloupe|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "cantaloupe|Ni": {
@@ -4016,10 +4034,10 @@
     "cantaloupe|Cr": {
       "typical_ppb": [
         0,
-        0
+        92
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 114,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -4035,12 +4053,12 @@
     },
     "cantaloupe|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "carrot|Pb": {
@@ -4079,7 +4097,7 @@
         0.9
       ],
       "p95_ppb": 1.3,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4099,7 +4117,7 @@
         1340
       ],
       "p95_ppb": 1468,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4119,7 +4137,7 @@
         67.7
       ],
       "p95_ppb": 73.7,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4246,11 +4264,11 @@
     "cauliflower|Pb": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "cauliflower|Cd": {
@@ -4276,20 +4294,20 @@
     "cauliflower|tAs": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "cauliflower|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -4316,10 +4334,10 @@
     "cauliflower|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -4346,10 +4364,10 @@
     "celery|Pb": {
       "typical_ppb": [
         0,
-        0
+        31
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 74,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -4389,7 +4407,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -4418,8 +4436,8 @@
         0,
         0
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 69,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -4435,12 +4453,12 @@
     },
     "celery|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "cereals|Pb": {
@@ -4549,7 +4567,7 @@
         15.4
       ],
       "p95_ppb": 20.5,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4559,7 +4577,7 @@
         30
       ],
       "p95_ppb": 42,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4569,7 +4587,7 @@
         230
       ],
       "p95_ppb": 260,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4579,7 +4597,7 @@
         1
       ],
       "p95_ppb": 2.3,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4599,7 +4617,7 @@
         4292
       ],
       "p95_ppb": 6160,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4619,7 +4637,7 @@
         67.3
       ],
       "p95_ppb": 267,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -4646,21 +4664,21 @@
     "cheddar-cheese|Pb": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 250,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "cheddar-cheese|Cd": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 120,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "cheddar-cheese|iAs": {
@@ -4676,31 +4694,31 @@
     "cheddar-cheese|tAs": {
       "typical_ppb": [
         0,
-        0
+        21
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 90,
+      "confidence": "medium",
+      "n_studies": 3,
       "status": "populated"
     },
     "cheddar-cheese|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "cheddar-cheese|Ni": {
       "typical_ppb": [
         0,
-        0
+        150
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "cheddar-cheese|Al": {
@@ -4716,10 +4734,10 @@
     "cheddar-cheese|Cr": {
       "typical_ppb": [
         0,
-        0
+        80
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -5249,7 +5267,7 @@
         12.4
       ],
       "p95_ppb": 13.7,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5259,7 +5277,7 @@
         26
       ],
       "p95_ppb": 26.7,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5279,7 +5297,7 @@
         4.6
       ],
       "p95_ppb": 4.6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5289,7 +5307,7 @@
         1.4
       ],
       "p95_ppb": 1.6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5299,7 +5317,7 @@
         652
       ],
       "p95_ppb": 677,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5319,7 +5337,7 @@
         300
       ],
       "p95_ppb": 300,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5339,7 +5357,7 @@
         2.6
       ],
       "p95_ppb": 3,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -5486,11 +5504,11 @@
     "chocolate-reduced-fat-milk|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 1,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "chocolate-reduced-fat-milk|Ni": {
@@ -5535,12 +5553,12 @@
     },
     "chocolate-reduced-fat-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "cinnamon|Pb": {
@@ -5549,7 +5567,7 @@
         5000
       ],
       "p95_ppb": 50000,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 7,
       "status": "populated"
     },
@@ -5649,7 +5667,7 @@
         19.7
       ],
       "p95_ppb": 20,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -5679,7 +5697,7 @@
         1
       ],
       "p95_ppb": 1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -6119,8 +6137,8 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "collard-greens|Sn": {
@@ -6146,11 +6164,11 @@
     "corn|Pb": {
       "typical_ppb": [
         0,
-        0
+        60
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 19,
+      "p95_ppb": 130,
+      "confidence": "medium",
+      "n_studies": 9,
       "status": "populated"
     },
     "corn|Cd": {
@@ -6176,21 +6194,21 @@
     "corn|tAs": {
       "typical_ppb": [
         0,
-        0
+        7
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 13,
+      "p95_ppb": 10,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "corn|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 8,
+      "p95_ppb": 18,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "corn|Ni": {
@@ -6216,11 +6234,11 @@
     "corn|Cr": {
       "typical_ppb": [
         0,
-        0
+        256
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 15,
+      "p95_ppb": 740,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "corn|Sn": {
@@ -6235,12 +6253,12 @@
     },
     "corn|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "corn-flakes|Pb": {
@@ -6846,11 +6864,11 @@
     "cucumber|Pb": {
       "typical_ppb": [
         0,
-        0
+        98
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 112,
+      "confidence": "medium",
+      "n_studies": 5,
       "status": "populated"
     },
     "cucumber|Cd": {
@@ -6886,10 +6904,10 @@
     "cucumber|tHg": {
       "typical_ppb": [
         0,
-        0
+        2.3
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 2.3,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
@@ -6916,11 +6934,11 @@
     "cucumber|Cr": {
       "typical_ppb": [
         0,
-        0
+        175
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 222,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "cucumber|Sn": {
@@ -6935,12 +6953,12 @@
     },
     "cucumber|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "custard|Pb": {
@@ -6949,7 +6967,7 @@
         14.8
       ],
       "p95_ppb": 51.1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -6959,7 +6977,7 @@
         4.3
       ],
       "p95_ppb": 5.2,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -6979,7 +6997,7 @@
         1
       ],
       "p95_ppb": 2.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -6999,7 +7017,7 @@
         1734
       ],
       "p95_ppb": 2352,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7019,7 +7037,7 @@
         200.6
       ],
       "p95_ppb": 245.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7149,7 +7167,7 @@
         2000
       ],
       "p95_ppb": 5000,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 7,
       "status": "populated"
     },
@@ -7159,7 +7177,7 @@
         500
       ],
       "p95_ppb": 1200,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 6,
       "status": "populated"
     },
@@ -7346,61 +7364,61 @@
     "eggs|Pb": {
       "typical_ppb": [
         0,
-        0
+        200
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 11,
+      "p95_ppb": 690,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "eggs|Cd": {
       "typical_ppb": [
         0,
-        0
+        37
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 67,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "eggs|iAs": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "eggs|tAs": {
       "typical_ppb": [
         0,
-        0
+        230
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 230,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "eggs|tHg": {
       "typical_ppb": [
         0,
-        0
+        43
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 266,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "eggs|Ni": {
       "typical_ppb": [
         0,
-        0
+        63
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 1300,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "eggs|Al": {
@@ -7416,11 +7434,11 @@
     "eggs|Cr": {
       "typical_ppb": [
         0,
-        0
+        140
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 140,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "eggs|Sn": {
@@ -7435,12 +7453,12 @@
     },
     "eggs|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "fermented-beverage-bases|Pb": {
@@ -7769,7 +7787,7 @@
         0
       ],
       "p95_ppb": 2.5,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7809,7 +7827,7 @@
         1752
       ],
       "p95_ppb": 2617,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7829,7 +7847,7 @@
         30.8
       ],
       "p95_ppb": 36.6,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7849,7 +7867,7 @@
         2
       ],
       "p95_ppb": 2,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7859,7 +7877,7 @@
         0
       ],
       "p95_ppb": 1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7869,7 +7887,7 @@
         5
       ],
       "p95_ppb": 6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7879,7 +7897,7 @@
         0.1
       ],
       "p95_ppb": 0.5,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7899,7 +7917,7 @@
         0
       ],
       "p95_ppb": 342.6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -7919,7 +7937,7 @@
         3.4
       ],
       "p95_ppb": 5.9,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8089,8 +8107,8 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "flour-tortilla|Ni": {
@@ -8149,7 +8167,7 @@
         5.1
       ],
       "p95_ppb": 6.2,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8159,7 +8177,7 @@
         4.6
       ],
       "p95_ppb": 4.7,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8179,7 +8197,7 @@
         0
       ],
       "p95_ppb": 2.9,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8189,7 +8207,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8199,7 +8217,7 @@
         59.4
       ],
       "p95_ppb": 73.3,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8219,7 +8237,7 @@
         47.7
       ],
       "p95_ppb": 97.7,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8239,7 +8257,7 @@
         2.2
       ],
       "p95_ppb": 2.4,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8249,7 +8267,7 @@
         300
       ],
       "p95_ppb": 800,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
     },
@@ -8259,7 +8277,7 @@
         80
       ],
       "p95_ppb": 200,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 3,
       "status": "populated"
     },
@@ -8289,7 +8307,7 @@
         10
       ],
       "p95_ppb": null,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -8449,7 +8467,7 @@
         14.8
       ],
       "p95_ppb": 51.1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8459,7 +8477,7 @@
         4.3
       ],
       "p95_ppb": 5.2,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8479,7 +8497,7 @@
         1
       ],
       "p95_ppb": 2.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8499,7 +8517,7 @@
         1734
       ],
       "p95_ppb": 2352,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8519,7 +8537,7 @@
         200.6
       ],
       "p95_ppb": 245.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8546,9 +8564,9 @@
     "frozen-peas|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
       "n_studies": 3,
       "status": "populated"
@@ -8586,11 +8604,11 @@
     "frozen-peas|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 3,
+      "n_studies": 2,
       "status": "populated"
     },
     "frozen-peas|Ni": {
@@ -8616,9 +8634,9 @@
     "frozen-peas|Cr": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
       "n_studies": 3,
       "status": "populated"
@@ -8849,7 +8867,7 @@
         29.9
       ],
       "p95_ppb": 49.9,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8859,7 +8877,7 @@
         0.2
       ],
       "p95_ppb": 6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8869,7 +8887,7 @@
         3.6
       ],
       "p95_ppb": 5.5,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -8879,7 +8897,7 @@
         0.2
       ],
       "p95_ppb": 1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -9146,20 +9164,20 @@
     "grapefruit|Pb": {
       "typical_ppb": [
         0,
-        0
+        20
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 27,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "grapefruit|Cd": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 1,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -9176,31 +9194,31 @@
     "grapefruit|tAs": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Al": {
@@ -9216,11 +9234,11 @@
     "grapefruit|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Sn": {
@@ -9235,12 +9253,12 @@
     },
     "grapefruit|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "grapefruit-juice|Pb": {
@@ -9346,21 +9364,21 @@
     "grapes|Pb": {
       "typical_ppb": [
         0,
-        0
+        28
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 84,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 5,
       "status": "populated"
     },
     "grapes|Cd": {
       "typical_ppb": [
         0,
-        0
+        15
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 30,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 5,
       "status": "populated"
     },
     "grapes|iAs": {
@@ -9386,11 +9404,11 @@
     "grapes|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "grapes|Ni": {
@@ -9416,11 +9434,11 @@
     "grapes|Cr": {
       "typical_ppb": [
         0,
-        0
+        15
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 5,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "grapes|Sn": {
@@ -9435,22 +9453,22 @@
     },
     "grapes|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "green-beans|Pb": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 4.1,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "green-beans|Cd": {
@@ -9488,8 +9506,8 @@
         0,
         0
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -9518,8 +9536,8 @@
         0,
         0
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -9546,11 +9564,11 @@
     "green-bell-pepper|Pb": {
       "typical_ppb": [
         0,
-        0
+        100
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 100,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "green-bell-pepper|Cd": {
@@ -9576,20 +9594,20 @@
     "green-bell-pepper|tAs": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "green-bell-pepper|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 62,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -9616,10 +9634,10 @@
     "green-bell-pepper|Cr": {
       "typical_ppb": [
         0,
-        0
+        130
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 130,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -9635,32 +9653,32 @@
     },
     "green-bell-pepper|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "ground-beef|Pb": {
       "typical_ppb": [
         0,
-        0
+        60
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 90,
+      "confidence": "low",
       "n_studies": 3,
       "status": "populated"
     },
     "ground-beef|Cd": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 100,
       "confidence": "medium",
-      "n_studies": 3,
+      "n_studies": 5,
       "status": "populated"
     },
     "ground-beef|iAs": {
@@ -9686,11 +9704,11 @@
     "ground-beef|tHg": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 80,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "ground-beef|Ni": {
@@ -9846,20 +9864,20 @@
     "half-and-half|Pb": {
       "typical_ppb": [
         0,
-        0
+        13
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 33,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "half-and-half|Cd": {
       "typical_ppb": [
         0,
-        0
+        3
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 20,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -9876,31 +9894,31 @@
     "half-and-half|tAs": {
       "typical_ppb": [
         0,
-        0
+        19
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 80,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "half-and-half|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 2,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "half-and-half|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|Al": {
@@ -9916,11 +9934,11 @@
     "half-and-half|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|Sn": {
@@ -9935,12 +9953,12 @@
     },
     "half-and-half|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "ham|Pb": {
@@ -9986,21 +10004,21 @@
     "ham|tHg": {
       "typical_ppb": [
         0,
-        0
+        7
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "ham|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "ham|Al": {
@@ -10259,7 +10277,7 @@
         500
       ],
       "p95_ppb": 1500,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 9,
       "status": "populated"
     },
@@ -10346,9 +10364,9 @@
     "honey|Pb": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 190,
       "confidence": "medium",
       "n_studies": 9,
       "status": "populated"
@@ -10356,9 +10374,9 @@
     "honey|Cd": {
       "typical_ppb": [
         0,
-        0
+        40
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 125,
       "confidence": "medium",
       "n_studies": 9,
       "status": "populated"
@@ -10376,31 +10394,31 @@
     "honey|tAs": {
       "typical_ppb": [
         0,
-        0
+        60
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 8,
       "status": "populated"
     },
     "honey|tHg": {
       "typical_ppb": [
         0,
-        0
+        45
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": 100,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "honey|Ni": {
       "typical_ppb": [
         0,
-        0
+        650
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 8,
+      "p95_ppb": 1100,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "honey|Al": {
@@ -10416,11 +10434,11 @@
     "honey|Cr": {
       "typical_ppb": [
         0,
-        0
+        160
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 900,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "honey|Sn": {
@@ -10446,11 +10464,11 @@
     "iceberg-lettuce|Pb": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|Cd": {
@@ -10476,21 +10494,21 @@
     "iceberg-lettuce|tAs": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|Ni": {
@@ -10516,11 +10534,11 @@
     "iceberg-lettuce|Cr": {
       "typical_ppb": [
         0,
-        0
+        100
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|Sn": {
@@ -10535,12 +10553,12 @@
     },
     "iceberg-lettuce|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "infant-cereal-ingredients|Pb": {
@@ -11136,21 +11154,21 @@
     "lamb-chop|Pb": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 100,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "lamb-chop|Cd": {
       "typical_ppb": [
         0,
-        0
+        2
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 10,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "lamb-chop|iAs": {
@@ -11166,31 +11184,31 @@
     "lamb-chop|tAs": {
       "typical_ppb": [
         0,
-        0
+        10
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 10,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "lamb-chop|tHg": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 30,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "lamb-chop|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "lamb-chop|Al": {
@@ -11206,10 +11224,10 @@
     "lamb-chop|Cr": {
       "typical_ppb": [
         0,
-        0
+        25
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 83,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -11225,12 +11243,12 @@
     },
     "lamb-chop|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "leafy-greens|Pb": {
@@ -11589,7 +11607,7 @@
         10765
       ],
       "p95_ppb": 13200,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -11639,7 +11657,7 @@
         300
       ],
       "p95_ppb": 800,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 7,
       "status": "populated"
     },
@@ -11649,7 +11667,7 @@
         250
       ],
       "p95_ppb": 600,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 7,
       "status": "populated"
     },
@@ -12456,11 +12474,11 @@
     "meat|iAs": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 27,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "meat|tHg": {
@@ -12739,7 +12757,7 @@
         4.8
       ],
       "p95_ppb": 20.7,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -12749,7 +12767,7 @@
         10
       ],
       "p95_ppb": 12.6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -12769,7 +12787,7 @@
         0.1
       ],
       "p95_ppb": 0.2,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13149,7 +13167,7 @@
         11.3
       ],
       "p95_ppb": 17.9,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13159,7 +13177,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13169,7 +13187,7 @@
         1.9
       ],
       "p95_ppb": 9.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13539,7 +13557,7 @@
         125.3
       ],
       "p95_ppb": 150.2,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13549,7 +13567,7 @@
         0.2
       ],
       "p95_ppb": 2.7,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13819,7 +13837,7 @@
         41
       ],
       "p95_ppb": 84,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13829,7 +13847,7 @@
         21.8
       ],
       "p95_ppb": 39.8,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13839,7 +13857,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13849,7 +13867,7 @@
         3.3
       ],
       "p95_ppb": 17.9,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13869,7 +13887,7 @@
         4994
       ],
       "p95_ppb": 5503,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -13889,7 +13907,7 @@
         480.9
       ],
       "p95_ppb": 909.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -14416,11 +14434,11 @@
     "onions|Pb": {
       "typical_ppb": [
         0,
-        0
+        16
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 76,
       "confidence": "medium",
-      "n_studies": 9,
+      "n_studies": 5,
       "status": "populated"
     },
     "onions|Cd": {
@@ -14456,11 +14474,11 @@
     "onions|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 1,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "onions|Ni": {
@@ -14486,11 +14504,11 @@
     "onions|Cr": {
       "typical_ppb": [
         0,
-        0
+        34
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 6,
+      "p95_ppb": 60,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "onions|Sn": {
@@ -14505,12 +14523,12 @@
     },
     "onions|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "orange-juice|Pb": {
@@ -14519,7 +14537,7 @@
         29.9
       ],
       "p95_ppb": 49.9,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -14529,7 +14547,7 @@
         0.2
       ],
       "p95_ppb": 6,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -14539,7 +14557,7 @@
         3.6
       ],
       "p95_ppb": 5.5,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -14549,7 +14567,7 @@
         0.2
       ],
       "p95_ppb": 1,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -14616,9 +14634,9 @@
     "oranges|Pb": {
       "typical_ppb": [
         0,
-        0
+        49
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 72,
       "confidence": "medium",
       "n_studies": 6,
       "status": "populated"
@@ -14626,10 +14644,10 @@
     "oranges|Cd": {
       "typical_ppb": [
         0,
-        0
+        10
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 15,
+      "confidence": "low",
       "n_studies": 6,
       "status": "populated"
     },
@@ -14656,11 +14674,11 @@
     "oranges|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "oranges|Ni": {
@@ -14686,10 +14704,10 @@
     "oranges|Cr": {
       "typical_ppb": [
         0,
-        0
+        9
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": 50,
+      "confidence": "low",
       "n_studies": 5,
       "status": "populated"
     },
@@ -14705,12 +14723,12 @@
     },
     "oranges|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "organ-meats|Pb": {
@@ -15029,7 +15047,7 @@
         90.5
       ],
       "p95_ppb": 142.8,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15039,7 +15057,7 @@
         112.7
       ],
       "p95_ppb": 152.8,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15049,7 +15067,7 @@
         0.6
       ],
       "p95_ppb": 2,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15119,7 +15137,7 @@
         41
       ],
       "p95_ppb": 84,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15139,7 +15157,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15149,7 +15167,7 @@
         3.3
       ],
       "p95_ppb": 17.9,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15169,7 +15187,7 @@
         4994
       ],
       "p95_ppb": 5503,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15189,7 +15207,7 @@
         480.9
       ],
       "p95_ppb": 909.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -15216,10 +15234,10 @@
     "peach|Pb": {
       "typical_ppb": [
         0,
-        0
+        9
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 12,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -15255,12 +15273,12 @@
     },
     "peach|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "peach|Ni": {
@@ -15286,11 +15304,11 @@
     "peach|Cr": {
       "typical_ppb": [
         0,
-        0
+        8
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 12,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "peach|Sn": {
@@ -15516,11 +15534,11 @@
     "peanuts|Pb": {
       "typical_ppb": [
         0,
-        0
+        90
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 230,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 7,
       "status": "populated"
     },
     "peanuts|Cd": {
@@ -15545,22 +15563,22 @@
     },
     "peanuts|tAs": {
       "typical_ppb": [
-        1,
-        5
+        5,
+        36
       ],
-      "p95_ppb": 5,
+      "p95_ppb": 71,
       "confidence": "medium",
-      "n_studies": 7,
+      "n_studies": 6,
       "status": "populated"
     },
     "peanuts|tHg": {
       "typical_ppb": [
         0,
-        0
+        5
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "peanuts|Ni": {
@@ -15586,11 +15604,11 @@
     "peanuts|Cr": {
       "typical_ppb": [
         0,
-        0
+        290
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 720,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "peanuts|Sn": {
@@ -15616,11 +15634,11 @@
     "pear|Pb": {
       "typical_ppb": [
         0,
-        0
+        8
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 78,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "pear|Cd": {
@@ -15656,11 +15674,11 @@
     "pear|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "pear|Ni": {
@@ -15686,11 +15704,11 @@
     "pear|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "pear|Sn": {
@@ -15705,12 +15723,12 @@
     },
     "pear|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "plant-milk|Pb": {
@@ -15819,7 +15837,7 @@
         100
       ],
       "p95_ppb": 250,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -15829,7 +15847,7 @@
         30
       ],
       "p95_ppb": 80,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -16056,11 +16074,11 @@
     "pork-bacon|tHg": {
       "typical_ppb": [
         0,
-        0
+        7
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 7,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "pork-bacon|Ni": {
@@ -16116,21 +16134,21 @@
     "pork-chop|Pb": {
       "typical_ppb": [
         0,
-        0
+        38
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 38,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "pork-chop|Cd": {
       "typical_ppb": [
         0,
-        0
+        8
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 8,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "pork-chop|iAs": {
@@ -16146,31 +16164,31 @@
     "pork-chop|tAs": {
       "typical_ppb": [
         0,
-        0
+        18
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 18,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "pork-chop|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "pork-chop|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|Al": {
@@ -16186,11 +16204,11 @@
     "pork-chop|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|Sn": {
@@ -16205,12 +16223,12 @@
     },
     "pork-chop|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "pork-sausages|Pb": {
@@ -16246,31 +16264,31 @@
     "pork-sausages|tAs": {
       "typical_ppb": [
         0,
-        0
+        28
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "pork-sausages|tHg": {
       "typical_ppb": [
         0,
-        0
+        7
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "pork-sausages|Ni": {
       "typical_ppb": [
         0,
-        0
+        43
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-sausages|Al": {
@@ -16286,11 +16304,11 @@
     "pork-sausages|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-sausages|Sn": {
@@ -16416,11 +16434,11 @@
     "potatoes|Pb": {
       "typical_ppb": [
         0,
-        0
+        31
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 11,
+      "p95_ppb": 200,
+      "confidence": "medium",
+      "n_studies": 5,
       "status": "populated"
     },
     "potatoes|Cd": {
@@ -16446,10 +16464,10 @@
     "potatoes|tHg": {
       "typical_ppb": [
         0,
-        0
+        13
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 5,
       "status": "populated"
     },
@@ -16476,11 +16494,11 @@
     "potatoes|Cr": {
       "typical_ppb": [
         0,
-        0
+        9
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 9,
+      "p95_ppb": 63,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "potatoes|Sn": {
@@ -16505,12 +16523,12 @@
     },
     "potatoes|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "poultry|Pb": {
@@ -17116,21 +17134,21 @@
     "reduced-fat-milk|Pb": {
       "typical_ppb": [
         0,
-        0
+        17
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 30,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "reduced-fat-milk|Cd": {
       "typical_ppb": [
         0,
-        0
+        27
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 45,
+      "confidence": "medium",
+      "n_studies": 3,
       "status": "populated"
     },
     "reduced-fat-milk|iAs": {
@@ -17146,31 +17164,31 @@
     "reduced-fat-milk|tAs": {
       "typical_ppb": [
         0,
-        0
+        43
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 80,
+      "confidence": "medium",
+      "n_studies": 3,
       "status": "populated"
     },
     "reduced-fat-milk|tHg": {
       "typical_ppb": [
         0,
-        0
+        2
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 10,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "reduced-fat-milk|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|Al": {
@@ -17185,12 +17203,12 @@
     },
     "reduced-fat-milk|Cr": {
       "typical_ppb": [
-        0,
-        0
+        3,
+        8
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|Sn": {
@@ -17205,52 +17223,52 @@
     },
     "reduced-fat-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "rice|Pb": {
       "typical_ppb": [
-        0,
-        0
+        2,
+        40
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 61,
+      "p95_ppb": 110,
+      "confidence": "medium",
+      "n_studies": 5,
       "status": "populated"
     },
     "rice|Cd": {
       "typical_ppb": [
-        3.5,
-        9.7
+        4,
+        40
       ],
-      "p95_ppb": 19,
+      "p95_ppb": 160,
       "confidence": "high",
-      "n_studies": 86,
+      "n_studies": 8,
       "status": "populated"
     },
     "rice|iAs": {
       "typical_ppb": [
-        41.6,
-        41.6
+        40,
+        150
       ],
-      "p95_ppb": 41.6,
+      "p95_ppb": 190,
       "confidence": "high",
-      "n_studies": 74,
+      "n_studies": 8,
       "status": "populated"
     },
     "rice|tHg": {
       "typical_ppb": [
-        0,
-        0
+        0.5,
+        6
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 45,
+      "p95_ppb": 20,
+      "confidence": "medium",
+      "n_studies": 5,
       "status": "populated"
     },
     "rice|Ni": {
@@ -17276,11 +17294,11 @@
     "rice|Cr": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 30,
+      "p95_ppb": 50,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "rice|Sn": {
@@ -17295,22 +17313,22 @@
     },
     "rice|tAs": {
       "typical_ppb": [
-        30.2,
-        62
+        90,
+        250
       ],
-      "p95_ppb": 66.9,
+      "p95_ppb": 350,
       "confidence": "high",
-      "n_studies": 95,
+      "n_studies": 6,
       "status": "populated"
     },
     "rice|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 4,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "rice-bran-oil|Pb": {
@@ -17419,7 +17437,7 @@
         10.6
       ],
       "p95_ppb": 15.8,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -17429,7 +17447,7 @@
         22
       ],
       "p95_ppb": 32.5,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -17439,7 +17457,7 @@
         132.5
       ],
       "p95_ppb": 150,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -17449,7 +17467,7 @@
         1.2
       ],
       "p95_ppb": 1.9,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -18229,7 +18247,7 @@
         3000
       ],
       "p95_ppb": 8000,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 7,
       "status": "populated"
     },
@@ -18239,7 +18257,7 @@
         5000
       ],
       "p95_ppb": 20000,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 6,
       "status": "populated"
     },
@@ -18335,12 +18353,12 @@
     },
     "semi-skimmed-milk|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 1,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "semi-skimmed-milk|tHg": {
@@ -18716,21 +18734,21 @@
     "skim-milk|Pb": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "skim-milk|Cd": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|iAs": {
@@ -18746,31 +18764,31 @@
     "skim-milk|tAs": {
       "typical_ppb": [
         0,
-        0
+        27
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
     "skim-milk|tHg": {
       "typical_ppb": [
         0,
-        0
+        2
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 10,
+      "confidence": "low",
+      "n_studies": 3,
       "status": "populated"
     },
     "skim-milk|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|Al": {
@@ -18785,11 +18803,11 @@
     },
     "skim-milk|Cr": {
       "typical_ppb": [
-        0,
-        0
+        6,
+        12
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": null,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -18805,12 +18823,12 @@
     },
     "skim-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "soft-drink-bases|Pb": {
@@ -19716,11 +19734,11 @@
     "strawberries|Pb": {
       "typical_ppb": [
         0,
-        0
+        11
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 32,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 5,
       "status": "populated"
     },
     "strawberries|Cd": {
@@ -19756,11 +19774,11 @@
     "strawberries|tHg": {
       "typical_ppb": [
         0,
-        0
+        2
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 5,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "strawberries|Ni": {
@@ -19785,12 +19803,12 @@
     },
     "strawberries|Cr": {
       "typical_ppb": [
-        0,
-        0
+        6,
+        32
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 56,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "strawberries|Sn": {
@@ -19929,7 +19947,7 @@
         500
       ],
       "p95_ppb": 800,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 6,
       "status": "populated"
     },
@@ -20119,7 +20137,7 @@
         2000
       ],
       "p95_ppb": 5000,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 8,
       "status": "populated"
     },
@@ -20129,7 +20147,7 @@
         200
       ],
       "p95_ppb": 500,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 8,
       "status": "populated"
     },
@@ -20339,7 +20357,7 @@
         66.5
       ],
       "p95_ppb": 88.8,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -20389,7 +20407,7 @@
         30.8
       ],
       "p95_ppb": 36.6,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -20416,11 +20434,11 @@
     "tomato|Pb": {
       "typical_ppb": [
         0,
-        0
+        80
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 11,
+      "p95_ppb": 240,
+      "confidence": "medium",
+      "n_studies": 6,
       "status": "populated"
     },
     "tomato|Cd": {
@@ -20446,31 +20464,31 @@
     "tomato|tAs": {
       "typical_ppb": [
         0,
-        0
+        35
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 389,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 5,
       "status": "populated"
     },
     "tomato|tHg": {
       "typical_ppb": [
         0,
-        0
+        4
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 14,
       "confidence": "medium",
-      "n_studies": 3,
+      "n_studies": 4,
       "status": "populated"
     },
     "tomato|Ni": {
       "typical_ppb": [
-        0,
-        0
+        16,
+        230
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 250,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "tomato|Al": {
@@ -20485,12 +20503,12 @@
     },
     "tomato|Cr": {
       "typical_ppb": [
-        0,
-        0
+        32,
+        410
       ],
-      "p95_ppb": 0,
-      "confidence": "medium",
-      "n_studies": 7,
+      "p95_ppb": 410,
+      "confidence": "low",
+      "n_studies": 4,
       "status": "populated"
     },
     "tomato|Sn": {
@@ -20505,12 +20523,12 @@
     },
     "tomato|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "tomato-paste|Pb": {
@@ -20815,22 +20833,22 @@
     },
     "turkey|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "turkey|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "turkey|iAs": {
@@ -20855,22 +20873,22 @@
     },
     "turkey|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "turkey|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "turkey|Al": {
@@ -20886,11 +20904,11 @@
     "turkey|Cr": {
       "typical_ppb": [
         0,
-        0
+        59
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "turkey|Sn": {
@@ -20989,7 +21007,7 @@
         5000
       ],
       "p95_ppb": 50000,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 4,
       "status": "populated"
     },
@@ -21119,7 +21137,7 @@
         200
       ],
       "p95_ppb": 500,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 6,
       "status": "populated"
     },
@@ -21129,7 +21147,7 @@
         50
       ],
       "p95_ppb": 100,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 6,
       "status": "populated"
     },
@@ -21419,7 +21437,7 @@
         200
       ],
       "p95_ppb": 500,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 10,
       "status": "populated"
     },
@@ -21746,9 +21764,9 @@
     "water|tHg": {
       "typical_ppb": [
         0,
-        0
+        1
       ],
-      "p95_ppb": 0,
+      "p95_ppb": 2,
       "confidence": "medium",
       "n_studies": 4,
       "status": "populated"
@@ -21816,10 +21834,10 @@
     "watermelon|Pb": {
       "typical_ppb": [
         0,
-        0
+        19
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
+      "p95_ppb": 74,
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -21856,11 +21874,11 @@
     "watermelon|tHg": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "watermelon|Ni": {
@@ -21886,11 +21904,11 @@
     "watermelon|Cr": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "watermelon|Sn": {
@@ -21905,12 +21923,12 @@
     },
     "watermelon|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "wheat|Pb": {
@@ -21939,8 +21957,8 @@
         12
       ],
       "p95_ppb": 12,
-      "confidence": "medium",
-      "n_studies": 8,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "wheat|tHg": {
@@ -21965,22 +21983,22 @@
     },
     "wheat|Al": {
       "typical_ppb": [
-        2700,
-        6000
+        2300,
+        5200
       ],
-      "p95_ppb": 6000,
+      "p95_ppb": 7000,
       "confidence": "medium",
-      "n_studies": 8,
+      "n_studies": 4,
       "status": "populated"
     },
     "wheat|Cr": {
       "typical_ppb": [
-        100,
-        1000
+        0,
+        100
       ],
-      "p95_ppb": 1000,
-      "confidence": "high",
-      "n_studies": 18,
+      "p95_ppb": 305,
+      "confidence": "low",
+      "n_studies": 6,
       "status": "populated"
     },
     "wheat|Sn": {
@@ -22019,7 +22037,7 @@
         15.4
       ],
       "p95_ppb": 20.5,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22029,7 +22047,7 @@
         30
       ],
       "p95_ppb": 42,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22039,7 +22057,7 @@
         230
       ],
       "p95_ppb": 260,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22049,7 +22067,7 @@
         1
       ],
       "p95_ppb": 2.3,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22069,7 +22087,7 @@
         4292
       ],
       "p95_ppb": 6160,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22089,7 +22107,7 @@
         67.3
       ],
       "p95_ppb": 267,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22155,12 +22173,12 @@
     },
     "white-bread|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "white-bread|Ni": {
@@ -22219,7 +22237,7 @@
         60
       ],
       "p95_ppb": 80,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22229,7 +22247,7 @@
         70
       ],
       "p95_ppb": 130,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22239,7 +22257,7 @@
         0
       ],
       "p95_ppb": 2.5,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22249,7 +22267,7 @@
         570
       ],
       "p95_ppb": 900.3,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22269,7 +22287,7 @@
         1752
       ],
       "p95_ppb": 2617,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22289,7 +22307,7 @@
         30.8
       ],
       "p95_ppb": 36.6,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22416,21 +22434,21 @@
     "whole-milk|Pb": {
       "typical_ppb": [
         0,
-        0
+        17
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 30,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "whole-milk|Cd": {
       "typical_ppb": [
         0,
-        0
+        30
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 45,
+      "confidence": "medium",
+      "n_studies": 4,
       "status": "populated"
     },
     "whole-milk|iAs": {
@@ -22446,31 +22464,31 @@
     "whole-milk|tAs": {
       "typical_ppb": [
         0,
-        0
+        50
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": 90,
+      "confidence": "medium",
+      "n_studies": 3,
       "status": "populated"
     },
     "whole-milk|tHg": {
       "typical_ppb": [
         0,
-        0
+        2
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": 10,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "whole-milk|Ni": {
       "typical_ppb": [
         0,
-        0
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 1,
       "status": "populated"
     },
     "whole-milk|Al": {
@@ -22485,12 +22503,12 @@
     },
     "whole-milk|Cr": {
       "typical_ppb": [
-        0,
-        0
+        3,
+        8
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 3,
+      "p95_ppb": null,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "whole-milk|Sn": {
@@ -22505,12 +22523,12 @@
     },
     "whole-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "whole-wheat-bread|Pb": {
@@ -22555,12 +22573,12 @@
     },
     "whole-wheat-bread|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "whole-wheat-bread|Ni": {
@@ -22585,12 +22603,12 @@
     },
     "whole-wheat-bread|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "high",
-      "n_studies": 2,
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
       "status": "populated"
     },
     "whole-wheat-bread|Sn": {
@@ -22649,7 +22667,7 @@
         1.7
       ],
       "p95_ppb": 2.1,
-      "confidence": "medium",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22669,7 +22687,7 @@
         4292
       ],
       "p95_ppb": 6160,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -22919,7 +22937,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 2,
       "status": "populated"
     },
@@ -22959,7 +22977,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
+      "confidence": "medium",
       "n_studies": 2,
       "status": "populated"
     },
@@ -22989,7 +23007,7 @@
         0
       ],
       "p95_ppb": 0,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 2,
       "status": "populated"
     },
@@ -23169,7 +23187,7 @@
         1734
       ],
       "p95_ppb": 2352,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },
@@ -23189,7 +23207,7 @@
         200.6
       ],
       "p95_ppb": 245.4,
-      "confidence": "high",
+      "confidence": "low",
       "n_studies": 1,
       "status": "populated"
     },

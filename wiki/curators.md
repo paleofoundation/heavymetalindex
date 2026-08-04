@@ -92,7 +92,7 @@ The current composition is in the page frontmatter under `external_reviewers:`. 
 
 The Paleo Foundation operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
 
-The firewall, as documented in [[editorial-standards|editorial-standards.md]] and [[CLAUDE|CLAUDE.md § Part 2]]:
+The firewall, as documented in [[editorial-standards|editorial-standards.md]] and:
 
 1. **The Index reports what the literature supports.** It does not soften claims to make HMT&C thresholds look more aligned with the literature than they are, and it does not strengthen claims to make those thresholds look more evidence-based than they are.
 2. **HMT&C threshold deviations from the literature baseline are labeled, not hidden.** Where HMT&C certifies to a value tighter than the literature mandates, the rationale is named — precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment.

@@ -17,18 +17,36 @@
     "canonical_url": "https://heavymetalindex.com/products/household-specialty-cleaners-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b7d347f1baf3ee91653752eccfc7b56cca73fd4c65efbb8e9c8b7e0a016cf866",
-      "content_bytes": 11875,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "e3a181ff2a2bcfde343068a95dbac7a8d36e2e32ea6ace07ca2a93b57af1b6e0",
+      "content_bytes": 13663,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/household-specialty-cleaners-other.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/household-specialty-cleaners-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 6,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/bcpp2017-ca-sb258-factsheet",
+        "title": "SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
+        "content_pin": {
+          "content_sha256": "c38712ad8bfe3828dba7b2ead0358bc7519438704854f0522b82b37483bb7cb1",
+          "content_bytes": 25074,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/davidsuzuki2014-toxic-household-cleaners",
         "title": "The dirt on toxic chemicals in household cleaning products",
@@ -43,12 +61,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
         "content_pin": {
-          "content_sha256": "77a63e0f7cd290fb5ca308025880516756fb79b14161319f0af39f071841a37e",
-          "content_bytes": 22446,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1dc8080eea6791f6ec73a026ede9281f30d792fdb8d9ba739797a27c5e04ddea",
+          "content_bytes": 22400,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -66,12 +84,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
         "content_pin": {
-          "content_sha256": "9bd4df1cffa6bb2e23c8035baadc791916fa181e9de684f7848d56a8294cb258",
-          "content_bytes": 28693,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "72bbc9c5a8edb79ee689a11e456473a2c893a78f55f81fcd6dd55d53743f14c2",
+          "content_bytes": 28746,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
         }
       },
       {
@@ -84,12 +102,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-master-criteria-ingredients",
         "content_pin": {
-          "content_sha256": "5ba7cc909c28b0c4397137506cc44d17e3db624b6afc53d6834ae07daf3893e5",
-          "content_bytes": 29811,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "11abb21354f087bbe55bfcf40a996e8f63f0ab982a56073c97ce5af5c53829d0",
+          "content_bytes": 29909,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md | sha256sum"
         }
       },
       {
@@ -107,12 +125,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/epa2024-safer-choice-standard-dfe",
         "content_pin": {
-          "content_sha256": "97aa55b3cb311d300bc8bcdca0fcbebeeb6641e5a719cdfb968a6a09c64770e4",
-          "content_bytes": 32450,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2536e7dec842e96eb0c19d58ed7c6729fe7bf70572d80e2679b3b36c7e09620f",
+          "content_bytes": 32563,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/epa2024-safer-choice-standard-dfe.md | sha256sum"
         }
       },
       {
@@ -132,12 +150,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "30bf9e55be09d1b4a7ff7a4fdb934ebfcb9d7b2c8b8f212672767bf89b916fa1",
-          "content_bytes": 49086,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "95b2e0b9587ae8b3f7172cb4a375e0dc2d390a96f37c00351e74a6c3e265f883",
+          "content_bytes": 49098,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       },
       {
@@ -156,12 +174,30 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements",
         "content_pin": {
-          "content_sha256": "19ec2fab306d46f9c6c4c0f3fc34e746329f915c869bfd4e387f7b16daf6d8e1",
-          "content_bytes": 31839,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "358e739a89b55028049e3035d607323e9b1805c0f397eeb1f5220c0366d2defa",
+          "content_bytes": 31748,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tjandraatmadja2010-csiro-household-products-nutrients-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wve2017-ca-sb258-passage-summary",
+        "title": "California Cleaning Product Right to Know Act — coalition co-sponsor post-passage summary letter (SB 258, 2017)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/wve2017-ca-sb258-passage-summary",
+        "content_pin": {
+          "content_sha256": "392cdff830421785e62ade0bc5e4c46adc6f625590dc539ed4fe19f0dab701d9",
+          "content_bytes": 23748,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/wve2017-ca-sb258-passage-summary.md | sha256sum"
         }
       }
     ]

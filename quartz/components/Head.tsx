@@ -91,26 +91,34 @@ function CitationMetadata({
       frontmatterString(frontmatter.created)
     const wikiDoi = frontmatterString(frontmatter.wiki_doi)
     const isSynthesis = frontmatter.type === "synthesis" || slugStr.startsWith("synthesis/")
+    // Developed metal reviews ship a PDF too (postbuild-synthesis-pdf.mjs);
+    // status:stub scaffolds are excluded so we never point citation_pdf_url at a
+    // PDF that was not rendered (and never overclaim a thin page as a report).
+    const isDevelopedMetal =
+      frontmatter.type === "metal" &&
+      frontmatterString(frontmatter.status)?.toLowerCase() !== "stub"
+    const hasPdf = isSynthesis || isDevelopedMetal
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
         <meta name="citation_author" content="Pendergrass, Karen" />
         <meta
           name="citation_author_institution"
-          content="Heavy Metal Index, Paleo Foundation"
+          content="Heavy Metal Index, Institute of Contaminant Standards"
         />
-        <meta name="citation_publisher" content="Paleo Foundation" />
+        <meta name="citation_publisher" content="Institute of Contaminant Standards" />
         <meta
           name="citation_technical_report_institution"
-          content="Heavy Metal Index, Paleo Foundation"
+          content="Heavy Metal Index, Institute of Contaminant Standards"
         />
         {pubDate && (
           <meta name="citation_publication_date" content={pubDate.replace(/-/g, "/")} />
         )}
         <meta name="citation_abstract_html_url" content={socialUrl} />
         <meta name="citation_fulltext_html_url" content={socialUrl} />
-        {/* Google Scholar strongly prefers a PDF; synthesis pages ship one. */}
-        {isSynthesis && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
+        {/* Google Scholar strongly prefers a PDF; synthesis + developed metal
+            reviews ship one at <url>.pdf (postbuild-synthesis-pdf.mjs). */}
+        {hasPdf && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
         {wikiDoi && <meta name="citation_doi" content={wikiDoi} />}
       </>
     )

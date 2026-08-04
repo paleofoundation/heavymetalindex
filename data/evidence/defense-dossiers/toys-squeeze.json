@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-squeeze",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "337fdee0518d35f36cf828ffba3ef5a2a926de33ca7d4a3f7c613988cd51f580",
-      "content_bytes": 9295,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "385cbf520490c688495b3d04170cf5e4fb01f2ed59d8503b03cf2f8837d071ac",
+      "content_bytes": 9356,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/toys-squeeze.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/toys-squeeze.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "1ada4c7461d3aceca4cd225c62bbf305fd050ee37a09e4a415183891cf0234af",
-          "content_bytes": 29653,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cc7a9144ec6b14db03737e663c80b443e788f0c3aceaea984024a45f7288168f",
+          "content_bytes": 29714,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schade2010-toxic-toys-r-us-pvc",
         "content_pin": {
-          "content_sha256": "1de137d8dc1b0b85bd50e91d1d596b5741e65f3f06e4cd66840c9cb4ecdbb65a",
-          "content_bytes": 33456,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4e1dec6fd61fd483fba5458ababb9e453acce8d3c30e3b7f3b176b88971b298c",
+          "content_bytes": 33517,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "962878b90793deffa6e67dca2a55a48fb4157d090272fab2b32f580082bfdbb7",
-          "content_bytes": 29100,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0642861c5af5a5d71535c7a5e27d82bcf2d751a3c165f11db42ff108549192b8",
+          "content_bytes": 29161,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
         }
       },
       {
@@ -114,12 +114,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "406d7ec851e2aec334f83f2f1ed7c006a4220c5ff89c511a0456be6d544e9681",
-          "content_bytes": 33076,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "62da85e8e56912dfe3bd833c9b33eb2d593c2c27ada78f2f683162702791ba5f",
+          "content_bytes": 33137,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       }
     ]

@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/canned-mushrooms",
+    "title": "Canned Mushrooms",
+    "hmtc_category": 4,
+    "hmtc_row": 18,
+    "category_label": null,
+    "age_range": null,
+    "label": "Canned Mushrooms",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/canned-mushrooms",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "5664968685554601d5ad887898be601ea0bfbf923a8a47e147016c95cb20ca34",
+      "content_bytes": 9296,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 50de6ab21:wiki/products/canned-mushrooms.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 2,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/pankavec2019-pickled-mushrooms-poland-minerals",
+        "title": "Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "Ag",
+          "Sb",
+          "Tl",
+          "U",
+          "Ni",
+          "Al",
+          "Cr",
+          "Co",
+          "Cu",
+          "Zn",
+          "Mn",
+          "Mg",
+          "Se",
+          "Li",
+          "Cs",
+          "Ba",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pankavec2019-pickled-mushrooms-poland-minerals",
+        "content_pin": {
+          "content_sha256": "9e3ecabf34c211da10e985d3722e90a0383e0718b442ccaab73eaf3b5ba10532",
+          "content_bytes": 14542,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/usman2022-pleurotus-mushroom-substrates",
+        "title": "Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/usman2022-pleurotus-mushroom-substrates",
+        "content_pin": {
+          "content_sha256": "baed6c12157e794f903cc4f43c70d98d5f99e860d863db7dc9949c0d12efd0d8",
+          "content_bytes": 3686,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/usman2022-pleurotus-mushroom-substrates.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/canned-mushrooms.md",
+    "total_claims": 11,
+    "cited_claims": 11,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 1,
+    "audit_rows_on_cited_targets": 22,
+    "provenance_complete": true
+  }
+}

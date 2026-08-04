@@ -64,6 +64,23 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
   }
 }
 
+// Does any component in this build contribute a beforeDOMReady script?
+//
+// Only Darkmode and ReaderMode define `beforeDOMLoaded`, and neither is in
+// quartz.layout.ts (the site is light-only), so prescript.js was being emitted
+// as a 0-byte file that every page still requested via a render-blocking
+// <script src> in <head>. Callers use this to skip both the file and the tag.
+// Memoized per build: the answer depends only on the emitter set, which is
+// fixed for a given ctx.
+const beforeDOMCache = new Map<string, boolean>()
+export function hasBeforeDOMScripts(ctx: BuildCtx): boolean {
+  const cached = beforeDOMCache.get(ctx.buildId)
+  if (cached !== undefined) return cached
+  const has = getComponentResources(ctx).beforeDOMLoaded.length > 0
+  beforeDOMCache.set(ctx.buildId, has)
+  return has
+}
+
 async function joinScripts(scripts: string[]): Promise<string> {
   // wrap with iife to prevent scope collision
   const script = scripts.map((script) => `(function () {${script}})();`).join("\n")
@@ -323,10 +340,51 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       // that everyone else had the chance to register a listener for it
       addGlobalPageResources(ctx, componentResources)
 
+      // Component stylesheets are compiled into the `legacy` cascade layer, the
+      // same layer custom.scss puts base/proof-design/legacy into. CSS ranks
+      // UNLAYERED rules above layered ones regardless of specificity, so the v3
+      // sheets (imported unlayered at the end of custom.scss) win by
+      // construction instead of by out-specifying chrome CSS.
+      //
+      // Without this, component CSS was unlayered AND emitted first, so v3 beat
+      // it only on ties and lost to any higher-specificity selector — which is
+      // why `footer.site-footer` and search.scss kept overriding v3 and had to
+      // be fought one at a time.
+      //
+      // googleFontsStyleSheet stays outside: it can carry @import, which is
+      // illegal inside @layer. Component CSS carries neither @import nor
+      // @charset (checked), and its @media/@keyframes nest fine.
+      // THE CASCADE ORDER IS DECLARED HERE AND ONLY HERE (SITEWIDE.md move 1).
+      //
+      // `@layer legacy;` on its own line names the layer BEFORE anything is put
+      // in it. That single statement is the whole contract:
+      //
+      //   layer `legacy`  — every component stylesheet, plus base/proof-design/
+      //                     _legacy-all via custom.scss's own `@layer legacy`.
+      //   unlayered       — the v3 design sheets (v3-type, v3-chrome, home-v3),
+      //                     imported after the layer block in custom.scss.
+      //
+      // CSS ranks any unlayered rule above any layered one regardless of
+      // specificity, so v3 wins by being unlayered rather than by out-specifying
+      // 2,000 lines of older CSS. The property that matters for going sitewide:
+      // a NEW component stylesheet is swept into `legacy` automatically by the
+      // wrap below, so it cannot outrank the design layer merely by existing —
+      // which is the F-18 failure that turned every previous fix into a
+      // specificity patch.
+      //
+      // Chose layers over reordering Quartz's emission: the order here is
+      // load-bearing for other reasons (theme vars and the Google Fonts @import
+      // must precede everything), so re-sequencing would trade one implicit
+      // dependency for another. A layer declaration is one line and is explicit.
+      //
+      // googleFontsStyleSheet stays outside any layer: it can carry @import,
+      // which is illegal inside @layer. Component CSS carries neither @import
+      // nor @charset (checked), and its @media/@keyframes nest fine.
       const stylesheet = joinStyles(
         ctx.cfg.configuration.theme,
         googleFontsStyleSheet,
-        ...componentResources.css,
+        `@layer legacy;`,
+        `@layer legacy {\n${componentResources.css.join("\n\n")}\n}`,
         styles,
       )
 
@@ -354,12 +412,17 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         }).code.toString(),
       })
 
-      yield write({
-        ctx,
-        slug: "prescript" as FullSlug,
-        ext: ".js",
-        content: prescript,
-      })
+      // Skip the file entirely when there is nothing to run before DOM ready;
+      // renderPage drops the matching <script src> under the same condition, so
+      // the two never disagree and no page requests a 0-byte asset.
+      if (prescript.length > 0) {
+        yield write({
+          ctx,
+          slug: "prescript" as FullSlug,
+          ext: ".js",
+          content: prescript,
+        })
+      }
 
       yield write({
         ctx,

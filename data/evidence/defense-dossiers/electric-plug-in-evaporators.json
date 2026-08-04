@@ -17,18 +17,37 @@
     "canonical_url": "https://heavymetalindex.com/products/electric-plug-in-evaporators",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4b427b5ec8d2f06f82fe55a31c429641ab864e2f3a455239bbbfbc4fcc5b5631",
-      "content_bytes": 7393,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "712d70c1f29b22b8f9573bc7f2fda713522b7d25db49e73e2b48bf8a83c4eee5",
+      "content_bytes": 8605,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/electric-plug-in-evaporators.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/electric-plug-in-evaporators.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/bcpp2017-ca-sb258-factsheet",
+        "title": "SB 258 (Lara): The Cleaning Product Right to Know Act of 2017 — factsheet",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
+        "content_pin": {
+          "content_sha256": "c38712ad8bfe3828dba7b2ead0358bc7519438704854f0522b82b37483bb7cb1",
+          "content_bytes": 25074,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

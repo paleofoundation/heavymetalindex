@@ -22,18 +22,39 @@
     "canonical_url": "https://heavymetalindex.com/products/water-filters",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5b9b6f47443fa352348db8499662b472fb2186f4fb7ac8dc069ddd7423f31b6c",
-      "content_bytes": 9573,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "24339b303886e9733026b140f939b84b8dfb9f20731bf852631c0092e7ecaf98",
+      "content_bytes": 10151,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/water-filters.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/water-filters.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/abuawad2023-folic-creatine-arsenic-methylation",
+        "title": "The Folic Acid and Creatine Trial: Treatment Effects of Supplementation on Arsenic Methylation Indices and Metabolite Concentrations in Blood in a Bangladeshi Population",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abuawad2023-folic-creatine-arsenic-methylation",
+        "content_pin": {
+          "content_sha256": "1da4f586bd2e1c23e188877fcd434198a20bb3615cc826443ad012f200b3e234",
+          "content_bytes": 5600,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/abuawad2023-folic-creatine-arsenic-methylation.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/decharat2020-school-drinking-water-pb-cd",
         "title": "Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand",
@@ -47,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2020-school-drinking-water-pb-cd",
         "content_pin": {
-          "content_sha256": "c1193c4727bff5999b9bde4dbd51e74fecc2d04dfebd37197057bdda42a38881",
-          "content_bytes": 2823,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cae444f69d6103d0f275586b154502c1ff4b80ed4e0e95880132ecaf395c7cf1",
+          "content_bytes": 2884,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
         }
       }
     ]
@@ -65,10 +86,10 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/water-filters.md",
-    "total_claims": 0,
-    "cited_claims": 0,
+    "total_claims": 1,
+    "cited_claims": 1,
     "uncited_claims": 0,
-    "distinct_cited_sources": 0,
+    "distinct_cited_sources": 2,
     "audit_rows_on_cited_targets": 0,
     "provenance_complete": true
   }

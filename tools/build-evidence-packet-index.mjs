@@ -124,11 +124,34 @@ function extractContributingSources(frontmatter, body) {
 }
 
 // Single-pass git log to attribute last commit to every file under wiki/.
+//
+// GUARDED. `vercel deploy` from the CLI uploads a source tarball WITHOUT `.git`,
+// so this exec threw `fatal: not a git repository` and took the entire prebuild
+// — and therefore every CLI deploy — down with it. Empirically, not
+// theoretically: deployment dpl_CgibHnyhTq5p36yWX1o2s4mCJjQE failed exactly
+// this way (docs/findings.md:58).
+//
+// The guard is a try/catch that degrades to an EMPTY index rather than a
+// fallback that fabricates attribution: with no git history there is no honest
+// last-commit date, and inventing one would put a wrong date on a provenance
+// artifact. Callers already handle a missing entry.
+//
+// Same family as the shallow-clone trap, but worse: a shallow clone yields one
+// commit per file, this yields zero repository at all.
 function buildGitIndex() {
-  const log = execSync(
-    `git log --name-only --pretty=format:"COMMIT|%h|%ai" -- 'wiki'`,
-    { cwd: repoRoot, encoding: "utf8", maxBuffer: 200 * 1024 * 1024 },
-  )
+  let log
+  try {
+    log = execSync(
+      `git log --name-only --pretty=format:"COMMIT|%h|%ai" -- 'wiki'`,
+      { cwd: repoRoot, encoding: "utf8", maxBuffer: 200 * 1024 * 1024, stdio: ["ignore", "pipe", "ignore"] },
+    )
+  } catch {
+    console.warn(
+      "build-evidence-packet-index: no git history available (CLI deploy uploads without .git); " +
+        "emitting index with no commit attribution.",
+    )
+    return new Map()
+  }
   const map = new Map()
   let current = null
   for (const line of log.split("\n")) {

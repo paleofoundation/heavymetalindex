@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sippy-cups-toddler-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "199b605df2e17f14454e9eba5b1f0349bb4a6eb18a54f093c91d1ec349de1ac8",
-      "content_bytes": 10953,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "cef249387cb1b94085a326fa6bad522d80eb95df4af76525e26594580bafc10d",
+      "content_bytes": 11014,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "c6d6b3536b1ecedfcc9100b248a0d994de4b46bae6da26bcdc4d19a31fc4c20f",
-          "content_bytes": 19130,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "93a217a1d69ea35ec7ab9aac742796ffc782720f11c1d274d996bef4bc840af0",
+          "content_bytes": 19191,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "b99cbe00b9f53aecd919031d72fb878617de0d39017862450690312d5b9018e5",
-          "content_bytes": 59374,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c5943b8d32cbe8f78c9c22a42e5f6443214c47200f2ad8e1559194a47eb5c3f3",
+          "content_bytes": 59435,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -99,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
         "content_pin": {
-          "content_sha256": "2ef0bbb5794c71be86cdbc03b1eda6d20c22d44a25f7a8e11b5aab07043aba3b",
-          "content_bytes": 23597,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0fc62154ba0aec1db3c1286882a4178ba059cc07850efa9cd123f5beaac4e4a8",
+          "content_bytes": 23658,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
         }
       },
       {
@@ -124,12 +124,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "1ada4c7461d3aceca4cd225c62bbf305fd050ee37a09e4a415183891cf0234af",
-          "content_bytes": 29653,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "cc7a9144ec6b14db03737e663c80b443e788f0c3aceaea984024a45f7288168f",
+          "content_bytes": 29714,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -144,12 +144,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
         "content_pin": {
-          "content_sha256": "1f00f2f448e881fb6ea16f006b9f75276612372dc830d6d3d2d9eba8d9fe0751",
-          "content_bytes": 18063,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "eaabc3d51300339f7733b0cbd975056a8f0f75661141fe4e350b480459b15e20",
+          "content_bytes": 18124,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
         }
       },
       {
@@ -166,12 +166,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schade2010-toxic-toys-r-us-pvc",
         "content_pin": {
-          "content_sha256": "1de137d8dc1b0b85bd50e91d1d596b5741e65f3f06e4cd66840c9cb4ecdbb65a",
-          "content_bytes": 33456,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4e1dec6fd61fd483fba5458ababb9e453acce8d3c30e3b7f3b176b88971b298c",
+          "content_bytes": 33517,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
         }
       }
     ]

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cutting-boards",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1b2d2477f6324d5ebabf584e94ef6bc4ecd98f5557268591c1a0a49417ea2d41",
-      "content_bytes": 7413,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "2b42cd031a9d7971b2387e45c1579c417365262040c42a2021ad5814799f2b22",
+      "content_bytes": 7474,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/cutting-boards.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/cutting-boards.md | sha256sum"
     }
   },
   "evidence_base": {

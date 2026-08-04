@@ -36,7 +36,7 @@ sources: 0
 - **FM_12469486** (n.d.) — Bimetallic Gold–Platinum (AuPt) Nanozymes: Recent Advances in Synthesis and Applications for Food Safety Monitoring
 - **FM_8870816** (n.d.) — Risk Assessment and Determination of Heavy Metals in Home Meal Replacement Products by Using Inductively Coupled Plasma Mass Spectrometry and Direct Mercury Analyzer
 - **FM_12524768** (2021) — Zinc-Mediated Defenses Against Toxic Heavy Metals and Metalloids: Mechanisms, Immunomodulation, and Therapeutic Relevance
-- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet]]
+- **FM_11111292** (n.d.) — RESEARCH ARTICLE — [[sources/tatsuta2024-mehg-duplicate-diet-children-japan]]
 - **FM_11720090** (2024) — Toxic Trace Elements in Meat and Meat Products Across Asia: A Comprehensive Literature Review and Implications for Human Health
 - **FM_8066597** (2021) — Evaluation and Dietary Exposure Assessment of Selected Toxic Trace Elements in Durum Wheat (Triticum durum) Imported into the Italian Market: Six Years of Official Controls
 - **FM_12344449** (2018) — RESEARCH ARTICLE

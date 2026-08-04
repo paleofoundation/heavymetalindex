@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-projectile-guns",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "01ff221105e3afba326d2128b3454b3f4b612c39364465e9e784ac1b3a9f0c5f",
-      "content_bytes": 8525,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "f5ae0fbe760eaa29814eb9ef26233cf18eff83bfb126138516fcf93df3e91c48",
+      "content_bytes": 8586,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/toys-projectile-guns.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/toys-projectile-guns.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pirg2010-trouble-in-toyland",
         "content_pin": {
-          "content_sha256": "584ee453313f45ea394de24323bc31734930d8783c15ca3eaf09bb0c371ebd61",
-          "content_bytes": 28065,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a8933b089d95925f7b1c73d7b3bd438170c85f06d6185b5d2f111e5b0d0a2d98",
+          "content_bytes": 28126,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schade2010-toxic-toys-r-us-pvc",
         "content_pin": {
-          "content_sha256": "1de137d8dc1b0b85bd50e91d1d596b5741e65f3f06e4cd66840c9cb4ecdbb65a",
-          "content_bytes": 33456,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4e1dec6fd61fd483fba5458ababb9e453acce8d3c30e3b7f3b176b88971b298c",
+          "content_bytes": 33517,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
         }
       }
     ]

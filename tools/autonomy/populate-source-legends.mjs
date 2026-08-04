@@ -14,12 +14,20 @@
 // Idempotent: re-running on pages where the cell is already populated is a
 // no-op (we only touch literal `*[awaiting synthesis]*` strings).
 //
+// `--repair` additionally rewrites cells that an earlier run filled from a bad
+// parse. parseShallowYaml used to return the STRING "null" for a `key: null`
+// frontmatter line, which rendered as "Pb, Cd occurrence in null" on 62 pages.
+// The parse is fixed, but because normal runs only touch the placeholder, those
+// cells stay wrong until they are re-derived. Repair matches the exact defect
+// signature and recomputes the cell from the source frontmatter.
+//
 // Per CLAUDE.md Part 15: prose-first, no em dashes, no inline bold.
 //
 // Usage:
 //   node tools/autonomy/populate-source-legends.mjs              # write
 //   node tools/autonomy/populate-source-legends.mjs --dry-run    # report only
 //   node tools/autonomy/populate-source-legends.mjs --dir wiki/products  # scope to a single dir
+//   node tools/autonomy/populate-source-legends.mjs --repair     # also re-derive null-artifact cells
 
 import fs from "node:fs"
 import path from "node:path"
@@ -27,7 +35,11 @@ import path from "node:path"
 const repoRoot = process.cwd()
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
+const repair = args.includes("--repair")
 const scopedDir = args.includes("--dir") ? args[args.indexOf("--dir") + 1] : null
+
+// Cells an earlier, buggy parse filled with the literal string "null".
+const NULL_ARTIFACT = / occurrence in null(?=\s*$|\s*\|)/
 
 const targetDirs = scopedDir
   ? [path.join(repoRoot, scopedDir)]
@@ -80,6 +92,13 @@ function loadSourceFrontmatter(citeKey) {
   return result
 }
 
+// YAML tokens that mean "no value". This parser reads raw lines rather than
+// running a YAML load, so `sample_population: null` arrived as the five-character
+// STRING "null" — truthy, non-empty, and therefore rendered straight into the
+// legend as "Pb, Cd occurrence in null" on 62 pages. Treat every null spelling as
+// an absent key so callers can rely on a plain truthiness check.
+const YAML_NULL = new Set(["null", "Null", "NULL", "~", "none", "None", ""])
+
 function parseShallowYaml(text) {
   // Minimal YAML extractor for our specific fields. We don't need a full parser
   // — just the keys we care about, with arrays handled as comma-separated.
@@ -93,10 +112,16 @@ function parseShallowYaml(text) {
     const v = m[1].trim()
     if (v.startsWith("[")) {
       // array
-      out[key] = v.replace(/^\[|\]$/g, "").split(",").map((s) => s.trim().replace(/^"|"$/g, "")).filter(Boolean)
+      const items = v
+        .replace(/^\[|\]$/g, "")
+        .split(",")
+        .map((s) => s.trim().replace(/^"|"$/g, ""))
+        .filter((s) => s && !YAML_NULL.has(s))
+      if (items.length > 0) out[key] = items
     } else if (v.startsWith('"')) {
-      out[key] = v.replace(/^"|"$/g, "")
-    } else {
+      const unquoted = v.replace(/^"|"$/g, "").trim()
+      if (!YAML_NULL.has(unquoted)) out[key] = unquoted
+    } else if (!YAML_NULL.has(v)) {
       out[key] = v
     }
   }
@@ -118,7 +143,8 @@ function describeSourceForPage(citeKey, pageContext) {
     sampleSnippet = words.slice(0, 18).join(" ")
     if (words.length > 18) sampleSnippet += "..."
   }
-  const sampleN = fm.sample_n && fm.sample_n !== "null" ? `n=${fm.sample_n}` : null
+  // parseShallowYaml drops YAML null tokens, so a plain truthiness check is enough.
+  const sampleN = fm.sample_n ? `n=${fm.sample_n}` : null
 
   // Build a single sentence
   if (metals && sampleSnippet) {
@@ -154,6 +180,7 @@ let pagesScanned = 0
 let pagesModified = 0
 let cellsFilled = 0
 let cellsSkipped = 0
+let cellsRepaired = 0
 
 for (const dir of targetDirs) {
   if (!fs.existsSync(dir)) continue
@@ -163,7 +190,8 @@ for (const dir of targetDirs) {
     pagesScanned += 1
     const filepath = path.join(dir, file)
     const raw = fs.readFileSync(filepath, "utf8")
-    if (!raw.includes("*[awaiting synthesis]*")) continue
+    const hasRepairWork = repair && NULL_ARTIFACT.test(raw)
+    if (!raw.includes("*[awaiting synthesis]*") && !hasRepairWork) continue
     const pageSlug = file.replace(/\.md$/, "")
     const pageType = dir.endsWith("products") ? "product" : dir.endsWith("ingredients") ? "ingredient" : "metal"
     // Extract source-legend block(s) by marker bounds
@@ -177,7 +205,9 @@ for (const dir of targetDirs) {
     const lines = legendBlock.split("\n")
     const newLines = []
     for (const line of lines) {
-      if (!line.includes("*[awaiting synthesis]*")) {
+      const isPlaceholder = line.includes("*[awaiting synthesis]*")
+      const isNullArtifact = repair && NULL_ARTIFACT.test(line)
+      if (!isPlaceholder && !isNullArtifact) {
         newLines.push(line)
         continue
       }
@@ -202,8 +232,23 @@ for (const dir of targetDirs) {
       // `$$` in a dollar-bearing description (e.g. "$12–18 billion") be
       // interpreted as backreferences. Same idempotency hazard as
       // build-source-legend.mjs.
-      newLines.push(line.replace("*[awaiting synthesis]*", () => escaped))
-      cellsFilled += 1
+      if (isPlaceholder) {
+        newLines.push(line.replace("*[awaiting synthesis]*", () => escaped))
+        cellsFilled += 1
+        continue
+      }
+      // Repair: replace the whole final column rather than patching inside it,
+      // so the re-derived sentence fully supersedes the bad one.
+      const cells = line.split("|")
+      const lastIndex = cells.reduce((acc, cell, i) => (cell.trim() ? i : acc), -1)
+      if (lastIndex === -1) {
+        newLines.push(line)
+        cellsSkipped += 1
+        continue
+      }
+      cells[lastIndex] = ` ${escaped} `
+      newLines.push(cells.join("|"))
+      cellsRepaired += 1
     }
     const newLegend = newLines.join("\n")
     const newContent = before + newLegend + after
@@ -218,4 +263,5 @@ console.log(`populate-source-legends: ${dryRun ? "DRY-RUN" : "EXECUTED"}`)
 console.log(`  pages scanned: ${pagesScanned}`)
 console.log(`  pages modified: ${pagesModified}`)
 console.log(`  cells filled: ${cellsFilled}`)
+console.log(`  cells repaired (null artifact): ${cellsRepaired}`)
 console.log(`  cells skipped (no cite-key match or insufficient source metadata): ${cellsSkipped}`)

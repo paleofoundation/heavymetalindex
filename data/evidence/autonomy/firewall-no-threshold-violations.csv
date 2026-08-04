@@ -1,6 +1,4 @@
 severity,file,label,line,snippet
-ERROR,wiki/dossiers/,DOSSIER_DIR_ON_INDEX,0,"wiki/dossiers/ contains 297 markdown pages"
-ERROR,wiki/for-brands.md,FOR_BRANDS_ON_INDEX,1,"for-brands certification surface present on index"
 WARN,wiki/products/breakfast-cereal-non-rice.md,WORKBENCH_FRONTMATTER_FIELD,21,"step0_basis: ""regulatory-alignment (EU cereals Cd 100); literature-baseline where depth suppo…"
 WARN,wiki/products/breakfast-cereal-rice-based.md,WORKBENCH_FRONTMATTER_FIELD,21,"step0_basis: ""literature-baseline (iAs); regulatory-alignment (EU iAs rice-product 300 binds)…"
 WARN,wiki/products/butter-and-ghee.md,WORKBENCH_FRONTMATTER_FIELD,22,"step0_basis: ""regulatory-alignment (all analytes; n<5 per analyte)"""

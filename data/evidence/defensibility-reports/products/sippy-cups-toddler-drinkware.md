@@ -2,7 +2,7 @@
 source_page: wiki/products/sippy-cups-toddler-drinkware.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bf5ffd8f2424a1e7c2fc16bbe89618ba9f7ebbff9c37a55a7ffb8afd61ab92cf
+source_page_sha256: 2799b8d153959ea91cc6c9f440c5c63715b9b642824a8462d9a826a3df9313a7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

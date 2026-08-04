@@ -25,7 +25,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import readline from "node:readline"
-import { spawn } from "node:child_process"
+import { execFileSync, spawn } from "node:child_process"
 import {
   accumulate,
   classifyChange,
@@ -74,6 +74,28 @@ const verbose = args.includes("--verbose")
 // Merge commits produce no patch under `git log -p`, so they drop out naturally.
 async function collectHistory() {
   const history = new Map() // relPath -> [{sha, date, subject, stats}]
+
+  // GUARDED, same defect as build-evidence-packet-index's buildGitIndex.
+  // `vercel deploy` from the CLI uploads a source tarball WITHOUT `.git`, so
+  // this spawn fails and — because stderr is inherited and the stream never
+  // yields — takes the whole prebuild down, and with it every CLI deploy.
+  //
+  // Degrades to an EMPTY history rather than a fabricated one: with no
+  // repository there is no honest commit list, and the generator's own output
+  // is a published "Update history" block. Inventing entries there would put
+  // false provenance on a public page, which is worse than an absent section.
+  // stderr is captured rather than inherited so the failure is reported by this
+  // function instead of being printed as a bare git error mid-build.
+  try {
+    execFileSync("git", ["rev-parse", "--git-dir"], { cwd: repoRoot, stdio: "ignore" })
+  } catch {
+    console.warn(
+      "build-page-changelogs: no git repository available (CLI deploy uploads without .git); " +
+        "emitting no update-history entries.",
+    )
+    return history
+  }
+
   const child = spawn(
     "git",
     [

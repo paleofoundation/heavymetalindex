@@ -17,18 +17,43 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-tablets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5ae04264004ff827e39381cb18455e30dc7fdf3da8399eac4cadaaadc2b2daee",
-      "content_bytes": 8396,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "e17ea4d57296fc3e386dea2bbf0e63ae564e709e15454cbc54f78b044c7eb36e",
+      "content_bytes": 8887,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/al-dhabi2013-spirulina-products-metals",
+        "title": "Heavy metal analysis in commercial Spirulina products for human consumption",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Zn",
+          "tHg",
+          "Pt",
+          "Mg",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/al-dhabi2013-spirulina-products-metals",
+        "content_pin": {
+          "content_sha256": "bc3de5676fa83e9457a0fb92aeabb37158f2e05e23a9cdef59311b23bb395a31",
+          "content_bytes": 6203,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/al-dhabi2013-spirulina-products-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/brizio2013-italian-food-supplements-metals",
         "title": "Heavy metals occurrence in Italian food supplements",
@@ -45,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brizio2013-italian-food-supplements-metals",
         "content_pin": {
-          "content_sha256": "cf2d1aa5cd7c0828e8314e9bcf3a7c8d9c23650427602c37e114a8ab1840e04b",
-          "content_bytes": 4816,
-          "last_commit_sha": "fba840f",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ce1220ff07e8bd1dbbdbe04787e61d67e94bab62527b49a400bb2900311fc272",
+          "content_bytes": 5166,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fba840f:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brizio2013-italian-food-supplements-metals.md | sha256sum"
         }
       },
       {
@@ -67,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezinska-rojek2023-beetroot-supplements-safety",
         "content_pin": {
-          "content_sha256": "e039d4c0d68896833b7c8010f49678456b17b77653e23cd2591449a350cffb40",
-          "content_bytes": 4573,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fa906ca8c9e472ca589746be9f436426d35fe108acdaf8150aac1494b4bec15b",
+          "content_bytes": 4634,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
         }
       },
       {
@@ -103,12 +128,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sochacka2025-spirulina-chlorella-supplements-poland",
         "content_pin": {
-          "content_sha256": "fd7971d9d7dc253e3e238a359c673e49e40a9283d4b3504e447ca7df129bb892",
-          "content_bytes": 24114,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b1d2ae110d91044a9c697a75d016e5b246d7589220e18dfe741195e8b504ad27",
+          "content_bytes": 24467,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md | sha256sum"
         }
       }
     ]

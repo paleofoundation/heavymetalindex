@@ -1,0 +1,701 @@
+// v3 HOME A — quartz/styles/home-v3.scss
+//
+// Every value is read from "Heavy Metal Index v3.dc.html": the global type
+// rules at lines 23-32, HOME A markup at 99-262, the data arrays at 2140-2191,
+// and the grid constants at 2013-2028. The hero and footer sit on burgundy and
+// use white-alpha literals with no equivalent in the light-surface token set,
+// so those stay literal.
+//
+// The three generator-owned blocks now EMIT v3's markup rather than being
+// restyled into it (build-corpus-counter.mjs for the ledger and registries,
+// build-recently-updated.mjs for recently revised), so the classes below are
+// v3's own, not the old homepage's.
+
+/* ══ v3 global type (artifact lines 27-30) ═══════════════════════════════
+   v3 sets every heading to weight 400 and links to #1c43ad. The build shipped
+   Lora at 600 and burgundy links, which is the single biggest reason the page
+   read as "close but not it". */
+.hmi-v3-home {
+  h1, h2, h3, h4, h5 { font-weight: 400; margin: 0; }
+  a { color: #1c43ad; text-decoration: none; }
+  a:hover { color: #8b2a4a; text-decoration: underline; }
+}
+
+::selection { background: #f0d8e0; }
+
+/* ══ hero ══════════════════════════════════════════════════════════════ */
+.hmi-v3-hero {
+  background: #8b2a4a;
+  color: #fff;
+  width: 100%;
+}
+
+.hmi-v3-hero-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 96px 48px 88px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) 400px;
+  gap: 96px;
+  align-items: start;
+}
+
+.hmi-v3-hero-copy h1 {
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fff;
+  max-width: 21ch;
+  margin: 0;
+}
+
+.hmi-v3-hero-dek {
+  margin: 30px 0 0;
+  max-width: 60ch;
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.hmi-v3-hero-search {
+  margin-top: 40px;
+  max-width: 660px;
+
+  & > .search-button {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 56px;
+    padding: 0;
+    gap: 0;
+    background: #fff;
+    border: 0;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+}
+
+.hmi-v3-hero-search-label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  padding: 0 18px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  color: #a9a1a2;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hmi-v3-hero-search-go {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0 30px;
+  background: #6f2139;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+}
+
+.hmi-v3-hero-search > .search-button:hover .hmi-v3-hero-search-go { background: #5b1c30; }
+
+/* ══ corpus ledger (v3 116-129) ═══════════════════════════════════════ */
+.hmi-v3-ledger { border: 1px solid rgba(255, 255, 255, 0.22); }
+
+.hmi-v3-ledger-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: rgba(0, 0, 0, 0.13);
+}
+
+.hmi-v3-ledger-title {
+  font-family: Lora, serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.hmi-v3-ledger-refresh {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.hmi-v3-ledger-body { padding: 8px 20px 18px; }
+
+.hmi-v3-ledger-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 0;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.22);
+}
+
+.hmi-v3-ledger-k {
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.hmi-v3-ledger-v {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 15px;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
+.hmi-v3-ledger-note {
+  margin: 14px 0 0;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+/* ══ start here (v3 134-147) ══════════════════════════════════════════ */
+.hmi-v3-start {
+  background: #fffdfb;
+  border-bottom: 1px solid #e8e1db;
+}
+
+.hmi-v3-start-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 64px 48px 72px;
+}
+
+.hmi-v3-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8b2a4a;
+  margin-bottom: 30px;
+}
+
+.hmi-v3-start-row {
+  display: grid;
+  grid-template-columns: minmax(0, 340px) minmax(0, 1fr) 150px;
+  gap: 48px;
+  align-items: baseline;
+  padding: 26px 4px;
+  border-top: 1px solid #e8e1db;
+  text-decoration: none;
+
+  &:hover { background: #fbf5f7; text-decoration: none; }
+}
+
+.hmi-v3-start-t {
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #8b2a4a;
+}
+
+.hmi-v3-start-d {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: #736b6e;
+}
+
+.hmi-v3-start-n {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #a9a1a2;
+  text-align: right;
+}
+
+/* ══ split bands (v3 149-161, 222-242) ════════════════════════════════ */
+.hmi-v3-split { background: #faf7f4; }
+.hmi-v3-faq { background: #fffdfb; border-top: 1px solid #e8e1db; }
+
+.hmi-v3-split-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 96px 48px;
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 96px;
+  align-items: start;
+}
+
+.hmi-v3-faq .hmi-v3-split-inner { padding: 88px 48px; }
+
+.hmi-v3-split-head h2 {
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.15;
+  color: #2b1f24;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.hmi-v3-rule {
+  width: 54px;
+  height: 2px;
+  background: #8b2a4a;
+  margin-top: 20px;
+}
+
+.hmi-v3-split-body {
+  max-width: 74ch;
+
+  & > p {
+    margin: 0 0 22px;
+    font-size: 17px;
+    line-height: 1.78;
+    color: #3f3a3f;
+  }
+
+  & > p:last-child { margin-bottom: 0; }
+}
+
+.hmi-v3-faq .hmi-v3-split-body { max-width: 86ch; }
+
+/* ══ registries (v3 163-175) ══════════════════════════════════════════ */
+.hmi-v3-registries {
+  background: #fffdfb;
+  border-top: 1px solid #e8e1db;
+  border-bottom: 1px solid #e8e1db;
+}
+
+.hmi-v3-registries-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 72px 48px 80px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.hmi-v3-registry {
+  display: block;
+  text-decoration: none;
+  border-top: 2px solid #8b2a4a;
+  padding-top: 18px;
+
+  &:hover { text-decoration: none; }
+}
+
+.hmi-v3-registry-n {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 22px;
+  color: #2b1f24;
+  margin-bottom: 12px;
+}
+
+.hmi-v3-registry-t {
+  display: block;
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #8b2a4a;
+  margin-bottom: 10px;
+}
+
+.hmi-v3-registry-d {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: #736b6e;
+}
+
+/* ══ metal registry (v3 177-204) ══════════════════════════════════════ */
+.hmi-home-metals {
+  background: #faf7f4;
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 88px 48px;
+}
+
+.hmi-home-metals-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 34px;
+
+  & h2 {
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: #2b1f24;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+}
+
+.hmi-home-metals-all {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8b2a4a;
+}
+
+.hmi-metal-table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+
+  & th {
+    text-align: left;
+    padding: 0 16px 12px 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #a9a1a2;
+    border-bottom: 1px solid #cfc4c6;
+  }
+
+  & td {
+    padding: 16px 16px 16px 0;
+    border-bottom: 1px solid #ece5e0;
+    vertical-align: top;
+  }
+}
+
+.hmi-metal-name {
+  white-space: nowrap;
+
+  & a { font-family: Lora, serif; font-weight: 400; font-size: 19px; color: #8b2a4a; }
+  & span { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: #b7aeb0; }
+}
+
+.hmi-metal-n {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: #2b1f24;
+  font-variant-numeric: tabular-nums;
+}
+
+.hmi-metal-drivers { color: #736b6e; line-height: 1.5; }
+
+.hmi-metal-tag {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 2px;
+  white-space: nowrap;
+
+  &--none { background: #f6ecf0; color: #8b2a4a; }
+  &--value { background: #eef1f6; color: #1c43ad; }
+  &--species { background: #f4f0ec; color: #736b6e; }
+}
+
+/* ══ how the Index is kept honest (v3 206-220) ════════════════════════ */
+.hmi-v3-trust {
+  background: #fbf5f7;
+  border-top: 1px solid #eddfe4;
+}
+
+.hmi-v3-trust-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 88px 48px;
+}
+
+.hmi-v3-trust-inner > h2 {
+  font-family: Lora, serif;
+  font-weight: 400;
+  font-size: 34px;
+  color: #2b1f24;
+  margin: 0 0 14px;
+  border: 0;
+  padding: 0;
+}
+
+.hmi-v3-trust-lede {
+  margin: 0 0 44px;
+  max-width: 76ch;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #5a4148;
+}
+
+.hmi-v3-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 64px;
+}
+
+.hmi-v3-trust-col {
+  border-top: 1px solid #e0c9d1;
+  padding-top: 22px;
+
+  & h3 {
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #8b2a4a;
+    margin: 0 0 14px;
+  }
+
+  & p {
+    margin: 0 0 16px;
+    font-size: 14.5px;
+    line-height: 1.72;
+    color: #5a4148;
+  }
+
+  & a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #8b2a4a;
+  }
+}
+
+/* ══ common questions (v3 229-239) ════════════════════════════════════ */
+.hmi-v3-q {
+  border-top: 1px solid #e8e1db;
+
+  & > summary {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    cursor: pointer;
+    padding: 22px 0;
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1.35;
+    color: #8b2a4a;
+    list-style: none;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "+";
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 17px;
+      line-height: 1;
+      color: #8b2a4a;
+      flex: 0 0 auto;
+    }
+  }
+
+  &[open] > summary::before { content: "\2212"; }
+
+  & > p {
+    margin: -6px 0 26px 35px;
+    padding-left: 20px;
+    border-left: 2px solid #e0c9d1;
+    font-size: 16px;
+    line-height: 1.78;
+    color: #3f3a3f;
+  }
+}
+
+/* ══ recently revised (v3 244-259) ════════════════════════════════════ */
+.hmi-v3-rev {
+  background: #faf7f4;
+  border-top: 1px solid #e8e1db;
+}
+
+.hmi-v3-rev-inner {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 72px 48px 80px;
+}
+
+.hmi-v3-rev-head {
+  margin: 0 0 26px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  & h2 {
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #2b1f24;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+}
+
+.hmi-v3-rev-all {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8b2a4a;
+}
+
+.hmi-v3-rev-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0 64px;
+}
+
+.hmi-v3-rev-row {
+  display: grid;
+  grid-template-columns: 92px 1fr auto;
+  gap: 14px;
+  align-items: baseline;
+  padding: 12px 0;
+  border-bottom: 1px dotted #e0d8d2;
+}
+
+.hmi-v3-rev-d {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  color: #a9a1a2;
+}
+
+.hmi-v3-rev-t {
+  font-size: 13.5px;
+  color: #1c43ad;
+}
+
+.hmi-v3-rev-k {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #b7aeb0;
+}
+
+/* ══ narrow: v3 removes chrome below 1150px rather than shrinking it ══ */
+/* ══ narrow (v3's vw < 1150 branch) ═══════════════════════════════════
+   v3 makes exactly SEVEN things responsive: heroASt, h1ASt, splitSt, splitSt2,
+   startRowSt, registriesSt, trustSt and revlogSt. Every HOME A section wrapper
+   keeps its literal padding — 64px 48px 72px, 72px 48px 80px, 88px 48px — at
+   every width. An earlier pass dropped five of them to 24px and forced the
+   start-here count left; both were invented, and both are what showed as wrong
+   whitespace. Do not add responsive rules here that the artifact does not have. */
+@media (max-width: 1149px) {
+  .hmi-v3-hero-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 44px;
+    padding: 56px 24px;
+  }
+
+  .hmi-v3-hero-copy h1 { font-size: 36px; }
+
+  .hmi-v3-split-inner,
+  .hmi-v3-faq .hmi-v3-split-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding: 56px 24px;
+  }
+
+  .hmi-v3-start-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    padding: 20px 2px;
+  }
+
+  .hmi-v3-registries-inner {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 28px;
+  }
+
+  .hmi-v3-trust-grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .hmi-v3-rev-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* ══ what v3's HOME A does NOT contain ════════════════════════════════
+   v3 ends at "Recently revised". The build additionally rendered a
+   .page-header above the hero and Component.RelatedPages()'s "See also" band
+   between the last section and the footer; neither exists in the design.
+   Unlayered, so this is authoritative without a specificity fight. */
+.proof-home .page-header,
+.proof-home .hmi-related,
+.hmi-v3-home ~ .hmi-related,
+body:has(.hmi-v3-home) .hmi-related { display: none; }
+
+/* ══ neutralise legacy defaults the v3 rules are SILENT about ═════════
+   Layers make v3 win where v3 speaks. Where it says nothing, legacy still
+   fills in — the metal table's th inherited a solid #8b2a4a bar because these
+   rules never declared `background`. v3's table is text on a hairline. */
+.hmi-metal-table,
+.hmi-metal-table thead,
+.hmi-metal-table tbody,
+.hmi-metal-table tr,
+.hmi-metal-table th,
+.hmi-metal-table td {
+  background: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+.hmi-metal-table th {
+  color: #a9a1a2;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hmi-metal-table td {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hmi-v3-home {
+  table { border-collapse: collapse; }
+}
+
+/* ══ link-colour precedence ═══════════════════════════════════════════
+   `.hmi-v3-home a { color: #1c43ad }` is (0,1,1) and beats a bare (0,1,0)
+   class, so the two burgundy "→" links were rendering link-blue. v3 uses blue
+   only for prose links and the recently-revised row titles; the section "all"
+   links are #8b2a4a (artifact lines 181, 248). Introduced when the global
+   link rule was added, and found by the element-level diff rather than by any
+   assertion I thought to write. */
+.hmi-v3-home .hmi-home-metals-all,
+.hmi-v3-home .hmi-v3-rev-all,
+.hmi-v3-home .hmi-v3-trust-col a {
+  color: #8b2a4a;
+
+  &:hover { color: #6f2139; }
+}
+
+/* ══ v3 must SPEAK for every property, not rely on a legacy killer ═════
+   Excluding these classes from proof-design's `a.internal { background/
+   border-radius/padding: 0 !important }` stopped the !important zeroing their
+   padding — but it also handed them back Quartz's internal-link pill, which is
+   why the registry cards grew a blush background and rounded corners. The rule
+   generalises: anywhere v3 is silent, something else fills in. */
+.hmi-v3-registry,
+.hmi-v3-start-row,
+.hmi-v3-rev-t,
+.hmi-v3-start-t {
+  background: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.hmi-v3-registry { padding: 18px 0 0; }
+
+/* ══ weight ═══════════════════════════════════════════════════════════
+   v3's HOME A declares font-weight on ZERO elements: everything is 400, via
+   the global h1-h5 rule plus the browser default. The build kept leaking 500
+   and 600 from legacy link and heading rules — the registry descriptions were
+   rendering semibold. Stated once and totally, rather than element by element
+   as each leak is spotted. <strong>/<b> keep their emphasis. */
+.hmi-v3-home,
+.hmi-v3-home *:not(strong):not(b) {
+  font-weight: 400;
+}

@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/lamb-mutton",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "12ddd5b0e9932dd233ed38d9a2db5f1fc847017efb6a39e5d1ce712f7b87226f",
-      "content_bytes": 9635,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "71f50e706ee0bc5bf534c0b535ff933fbe80c9907ef393360ab3aed32b71a551",
+      "content_bytes": 10226,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/lamb-mutton.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/lamb-mutton.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 5,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
         "content_pin": {
-          "content_sha256": "456122f5c123b588ce0e55c16d20b4a55ba82d3733030e5d4a2d945275b38f3e",
-          "content_bytes": 7149,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "be43aab3ee91b3236372acd65c85ddf61237f8a1714edfb3cfbcefbd35b865fa",
+          "content_bytes": 7210,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gorbanov2025-lamb-meat-snacks-metals",
         "content_pin": {
-          "content_sha256": "63c837a5bd79fed942a98bf88aeb45e9305d6df79705f0228a1171df90f95442",
-          "content_bytes": 5407,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a901c17d0446916a82b6796f379320180e3e7a8712c20c9a4dd8e8ed5535b7c3",
+          "content_bytes": 5468,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2015-bangladesh-foods-heavy-metals",
         "content_pin": {
-          "content_sha256": "9c5eb4b1220bc870b8784cc59ce97c12ec0dd021f0ae829fcd2494b795ea5fde",
-          "content_bytes": 7843,
-          "last_commit_sha": "b1e03ce",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b100edae0ecfa4e7c55960b7a81f77815b282f55a3d7506904d6a6eecbc91008",
+          "content_bytes": 8366,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b1e03ce:wiki/sources/islam2015-bangladesh-foods-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/islam2015-bangladesh-foods-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -115,12 +115,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "89a143bd79396e76cb5ddd0a644b2a2eb8b9a7a126335b9c0e741e1a8008af0d",
-          "content_bytes": 10066,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "16673bec9909c02fb5d0f35a6b7b0fec5ff55d2f2cf91960e37de1ec9a89b675",
+          "content_bytes": 10127,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -138,12 +138,40 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "0b5edb59dd2cc438d402c073163f9790d9afbfc625949f6f4069e5799098c6bd",
-          "content_bytes": 2708,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "677d4e2d33e376a74b5f576f46c9fc69b134bf4f355e5c7209dbb6a29f2ee6cb",
+          "content_bytes": 4548,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/raeeszadeh2021-animal-meat-metals-iran",
+        "title": "Determination of some heavy metals concentration in species animal meat (sheep, beef, turkey, and ostrich) and carcinogenic health risk assessment in Kurdistan province, western Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Se",
+          "Pb",
+          "Cd",
+          "tAs",
+          "Zn",
+          "Ni",
+          "Co",
+          "Cu",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/raeeszadeh2021-animal-meat-metals-iran",
+        "content_pin": {
+          "content_sha256": "d9a2872a7a8bdffb8b57e3c2eb3cc3411afed6fc37adb4e91be70cca598ceb2c",
+          "content_bytes": 5431,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/raeeszadeh2021-animal-meat-metals-iran.md | sha256sum"
         }
       }
     ]

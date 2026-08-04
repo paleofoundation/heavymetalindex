@@ -4,8 +4,8 @@
   "product": {
     "slug": "products/nut-seed-butters-other",
     "title": "Nut and Seed Butters, Other",
-    "hmtc_category": 4,
-    "hmtc_row": 14,
+    "hmtc_category": 28,
+    "hmtc_row": 4,
     "category_label": "Fruits, Vegetables, and Produce",
     "age_range": null,
     "label": "Nut and Seed Butters, Other",
@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/nut-seed-butters-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1defabeebf5040b9d68fa6cddc4d62aaebb2435bb50a4a98ac9991f54ee37932",
-      "content_bytes": 10461,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "002ae91366e29c5fcd4a80908668117155e7ad2c6d8c1e6270a00dd9d48ce351",
+      "content_bytes": 10562,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/nut-seed-butters-other.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/nut-seed-butters-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/potorti2026-tahini-quality-safety-inorganic-elements",
         "content_pin": {
-          "content_sha256": "59c6dad02be1750936525c85a0876bc5bb51bad79170312145d40e1a2f36535f",
-          "content_bytes": 10838,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "41f06fcb5ec8cbc83bd4268197216c4abfa341778a1365160b9fa87ea9b410bc",
+          "content_bytes": 10899,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadeghi2021-tahini-heavy-metals-voltammetry",
         "content_pin": {
-          "content_sha256": "a68913f377a9a6a9e59a20dc5835510c74ed014a9d1fe03dd7be936fe11f287d",
-          "content_bytes": 15263,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b2367c8f25ae9a3fa6546aacebf1df7d84f67ce07eab3c5821a5a4ab542fe48a",
+          "content_bytes": 15324,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
         }
       }
     ]

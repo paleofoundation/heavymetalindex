@@ -11,9 +11,9 @@ This page is a stub and will be expanded. The governance posture below is not as
 
 ## Operator
 
-Heavy Metal Index is operated by the Paleo Foundation, a non-profit entity registered in Cyprus. The Foundation also operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com, which is a separately branded certification program for consumer products tested against thresholds for lead, cadmium, arsenic, mercury, and related elements. The program itself is described at [[heavy-metal-tested-certified]].
+Heavy Metal Index is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc. The Paleo Foundation, the corporation's other trade name, also operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com, which is a separately branded certification program for consumer products tested against thresholds for lead, cadmium, arsenic, mercury, and related elements. The program itself is described at [[heavy-metal-tested-certified]].
 
-The Foundation's operation of both projects is disclosed openly on every page of this index, in the site header, and is the central governance question this page exists to address. The remainder of this document describes how the two projects are kept editorially distinct.
+Paleo Certified, Inc.'s operation of both projects is disclosed openly on every page of this index, in the site header, and is the central governance question this page exists to address. The remainder of this document describes how the two projects are kept editorially distinct.
 
 ## Editorial firewall
 
@@ -55,4 +55,4 @@ Substantive disagreements with Index claims flow through the same channel as err
 
 ## Governing reference
 
-The internal governance document for this index is maintained at the project root as `CLAUDE.md`. The policies described on this page are the public restatement of that document; in any conflict between this page and the internal document, the internal document is authoritative and this page will be updated to match.
+The internal governance document for this index is maintained separately as an internal governance document. The policies described on this page are the public restatement of that document; in any conflict between this page and the internal document, the internal document is authoritative and this page will be updated to match.

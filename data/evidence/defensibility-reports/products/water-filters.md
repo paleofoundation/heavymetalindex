@@ -2,15 +2,15 @@
 source_page: wiki/products/water-filters.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 133c57c276cba76cf58c456044765078b1440318f0cf8a723196c9eae5d09f00
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 6f292500fb633cb7319f58042ec98d24ec66aadda702e3f09008ae1844f6aab7
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
-distinct_cited_sources: 0
+distinct_cited_targets: 2
+distinct_cited_sources: 2
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
-| distinct cited `sources/` pages | 0 |
+| distinct cited targets | 2 |
+| distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,15 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Sources
+
+#### Claim `50 ug/L`
+- Context: `adults aged 20-65 years with household well-water arsenic concentrations above 50 ug/L for at least one year (n=622) |`
+- Cited targets (2):
+  - `wiki/sources/abuawad2023-folic-creatine-arsenic-methylation\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/decharat2020-school-drinking-water-pb-cd\.md` (page missing)
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +62,8 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/sources/abuawad2023-folic-creatine-arsenic-methylation\.md` | sources | 0 | — | — |
+| `wiki/sources/decharat2020-school-drinking-water-pb-cd\.md` | sources | 0 | — | — |
 

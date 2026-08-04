@@ -1,8 +1,14 @@
 #!/usr/bin/env node
-// Postbuild: render each synthesis page to a clean preprint-style PDF at
-// public/synthesis/<slug>.pdf, and let Head.tsx point citation_pdf_url at it.
-// Google Scholar strongly prefers a PDF to index; the synthesis pages are the
-// Index's article-length original analytical work, so they get one.
+// Postbuild: render the Index's own scholarly pages to clean preprint-style PDFs
+// at public/<type>/<slug>.pdf, and let Head.tsx point citation_pdf_url at them.
+// Google Scholar strongly prefers a PDF to index; the citation_* meta is already
+// emitted for these pages (Head.tsx isWikiScholarly), so the PDF is the missing
+// piece that makes the reference corpus indexable as citable literature.
+//
+//   wiki/synthesis/*  — article-length original analytical work (all pages)
+//   wiki/metals/*     — the comprehensive metal reviews (DEVELOPED pages only;
+//                       status:stub scaffolds are excluded to avoid overclaiming
+//                       a thin page as a technical report — matches Head.tsx)
 //
 // Pure-JS (pdfkit) — no headless browser — so it's deterministic, fast, and
 // verifiable locally. The PDF is a typeset document (title, named byline +
@@ -14,8 +20,18 @@ import { readFileSync, readdirSync, createWriteStream, mkdirSync, existsSync } f
 import { join } from "node:path"
 
 const BASE = "https://heavymetalindex.com"
-const SRC = "wiki/synthesis"
-const OUT = "public/synthesis"
+
+// Each config: source dir, output dir, and an include() predicate over the
+// page's frontmatter. `pathSeg` is the URL/cite path segment.
+const CONFIGS = [
+  { pathSeg: "synthesis", src: "wiki/synthesis", out: "public/synthesis", include: () => true },
+  {
+    pathSeg: "metals",
+    src: "wiki/metals",
+    out: "public/metals",
+    include: (fm) => fm.type === "metal" && String(fm.status ?? "").toLowerCase() !== "stub",
+  },
+]
 
 function parse(md) {
   const m = md.match(/^---\n([\s\S]*?)\n---\n?/)
@@ -42,12 +58,12 @@ function stripInline(s) {
     .replace(/\\([\\`*_{}[\]()#+\-.!])/g, "$1")
 }
 
-function renderOne(file) {
+function renderOne(cfg, file) {
   const slug = file.replace(/\.md$/, "")
-  const { fm, body } = parse(readFileSync(join(SRC, file), "utf8"))
+  const { fm, body } = parse(readFileSync(join(cfg.src, file), "utf8"))
   const title = fm.title || slug
   const date = fm.established || fm.updated || ""
-  const url = `${BASE}/synthesis/${slug}`
+  const url = `${BASE}/${cfg.pathSeg}/${slug}`
   const doi = fm.wiki_doi && fm.wiki_doi.toLowerCase() !== "null" ? fm.wiki_doi : null
 
   return new Promise((resolve, reject) => {
@@ -62,7 +78,7 @@ function renderOne(file) {
         Keywords: "heavy metals, food safety, contamination",
       },
     })
-    const stream = createWriteStream(join(OUT, `${slug}.pdf`))
+    const stream = createWriteStream(join(cfg.out, `${slug}.pdf`))
     doc.pipe(stream)
     stream.on("finish", resolve)
     stream.on("error", reject)
@@ -157,22 +173,28 @@ function renderOne(file) {
 }
 
 async function main() {
-  if (!existsSync(SRC)) {
-    console.log("synthesis-pdf: no wiki/synthesis dir; skipping")
-    return
-  }
-  mkdirSync(OUT, { recursive: true })
-  const files = readdirSync(SRC).filter((f) => f.endsWith(".md") && f !== "index.md")
-  let n = 0
-  for (const f of files) {
-    try {
-      await renderOne(f)
-      n++
-    } catch (err) {
-      console.error(`synthesis-pdf: failed on ${f}:`, err.message)
+  for (const cfg of CONFIGS) {
+    if (!existsSync(cfg.src)) {
+      console.log(`scholarly-pdf: no ${cfg.src} dir; skipping`)
+      continue
     }
+    mkdirSync(cfg.out, { recursive: true })
+    const files = readdirSync(cfg.src).filter((f) => f.endsWith(".md") && f !== "index.md")
+    let n = 0
+    let eligible = 0
+    for (const f of files) {
+      try {
+        const { fm } = parse(readFileSync(join(cfg.src, f), "utf8"))
+        if (!cfg.include(fm)) continue
+        eligible++
+        await renderOne(cfg, f)
+        n++
+      } catch (err) {
+        console.error(`scholarly-pdf: failed on ${cfg.src}/${f}:`, err.message)
+      }
+    }
+    console.log(`scholarly-pdf: rendered ${n}/${eligible} ${cfg.pathSeg} PDFs`)
   }
-  console.log(`synthesis-pdf: rendered ${n}/${files.length} synthesis PDFs`)
 }
 
 main()

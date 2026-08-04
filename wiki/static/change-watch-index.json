@@ -1,482 +1,477 @@
 {
-  "generated_at": "2026-06-08T19:27:52.359Z",
+  "generated_at": "2026-07-30T18:08:58.805Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
-  "total_events": 717,
+  "total_events": 1074,
   "categories_touched": 23,
   "recent_global": [
     {
-      "id": "57bc94b8f1aa8b1e",
-      "date": "2026-05-31",
+      "id": "69bb50e3d0aeb519",
+      "date": "2026-07-30",
       "scope": "synthesis",
       "kind": "synthesis_confidence_changed",
-      "detail": "Cd in fruit-purees confidence null → low.",
-      "affected_categories": [
-        "products/fruit-juice-not-canned",
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit-purees"
-    },
-    {
-      "id": "4cc85ff445b94da0",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tAs in non-root-vegetable-purees confidence null → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetable-purees"
-    },
-    {
-      "id": "3391e1315f9527ba",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in non-root-vegetable-purees confidence null → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetable-purees"
-    },
-    {
-      "id": "312f1b96b8d14cf8",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in root-vegetable-purees confidence null → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/root-vegetable-purees"
-    },
-    {
-      "id": "3fb359bd28bc9587",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tAs in root-vegetable-purees confidence null → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/root-vegetable-purees"
-    },
-    {
-      "id": "189c7405c3abafd8",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_shift_up",
-      "detail": "Pb in spices synthesis moved up 126.6x (typical [0.003,23.7]→[100,3000] ppb, p95 2411→null).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/spices"
-    },
-    {
-      "id": "62d8fd6d0885ef2c",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_shift_up",
-      "detail": "Cd in spices synthesis moved up 6.2x (typical [0.001,80.8]→[30,500] ppb, p95 1023→null).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/spices"
-    },
-    {
-      "id": "0dbe69401c47112f",
-      "date": "2026-05-31",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in spices confidence low → high.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/spices"
-    },
-    {
-      "id": "cf3203b10ccf9797",
-      "date": "2026-05-30",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Al in infant-formula (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/infant-formula"
-    },
-    {
-      "id": "f8e04033404d592b",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Al in cocoa (n=2, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cocoa"
-    },
-    {
-      "id": "ff1615e83ec4e733",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tAs in cocoa (n=1, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cocoa"
-    },
-    {
-      "id": "4fecd591ec33974d",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tHg in cocoa (n=1, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cocoa"
-    },
-    {
-      "id": "257c0f7b53861119",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for iAs in cocoa (n=0, ? confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cocoa"
-    },
-    {
-      "id": "0e142d51ab3e570f",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cr in cocoa (n=0, ? confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cocoa"
-    },
-    {
-      "id": "799d2c0bc791a8dc",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Sn in cocoa (n=0, ? confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cocoa"
-    },
-    {
-      "id": "926d2d7144adfe9b",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Pb in seafood (n=5, medium confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "24821d74e9cd87a0",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cd in seafood (n=5, medium confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "827b4f50401fcd8b",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for iAs in seafood (n=4, medium confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "e5decce65010b53b",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tHg in seafood (n=5, high confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "cf7facd77167e3d0",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tAs in seafood (n=5, high confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "e7cd74cf6b9d1f03",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Ni in seafood (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "d837f966fce4dfb6",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Al in seafood (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "8b1e330c2bd10d30",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cr in seafood (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "e7eac095c2b17e7d",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Sn in seafood (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/seafood"
-    },
-    {
-      "id": "66bcd7c6fce6feb1",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Pb in fruit (n=8, medium confidence).",
+      "detail": "iAs in apple confidence medium → null.",
       "affected_categories": [
         "products/fruit-juice-not-canned",
         "products/fruit-juices-apple-containing",
-        "products/fruit-juices-non-apple",
         "products/fruit-purees"
       ],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/apple"
     },
     {
-      "id": "39dbfc2eff30e3ce",
-      "date": "2026-05-16",
+      "id": "5b620f1af0852ff5",
+      "date": "2026-07-30",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cd in fruit (n=8, medium confidence).",
-      "affected_categories": [
-        "products/fruit-juice-not-canned",
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
-    },
-    {
-      "id": "499c7f7be2d9e586",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for iAs in fruit (n=4, low confidence).",
-      "affected_categories": [
-        "products/fruit-juice-not-canned",
-        "products/fruit-juices-apple-containing",
-        "products/fruit-juices-non-apple",
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
-    },
-    {
-      "id": "d655180464e06cf7",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tAs in fruit (n=6, low confidence).",
-      "affected_categories": [
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
-    },
-    {
-      "id": "f2f403f951049e38",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tHg in fruit (n=5, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in apple confidence medium → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/apple"
     },
     {
-      "id": "b48d69ccdee99e09",
-      "date": "2026-05-16",
+      "id": "eb32e07f756b0407",
+      "date": "2026-07-30",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Ni in fruit (n=5, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in applesauce confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/applesauce"
+    },
+    {
+      "id": "a606b529c4878d15",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in celery confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/celery"
+    },
+    {
+      "id": "b30cc4f9285fc61a",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in eggs confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/eggs"
+    },
+    {
+      "id": "277d5fcbf84ec158",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in grapes confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/grapes"
+    },
+    {
+      "id": "c84cbdf474f2cb7f",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in ground-beef confidence medium → low.",
+      "affected_categories": [
+        "products/meat-and-poultry-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/ground-beef"
+    },
+    {
+      "id": "9ce5198329a5a11a",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_evidence_grew",
+      "detail": "tAs in honey evidence base doubled (n 4 → 8); resynthesis trigger per Part 9.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/honey"
+    },
+    {
+      "id": "84f97a267793301a",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in honey confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/honey"
+    },
+    {
+      "id": "f4a412361e9bb956",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in oranges confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/oranges"
+    },
+    {
+      "id": "c08e933395aaf8f4",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in peanuts confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/peanuts"
+    },
+    {
+      "id": "0dd520a863dc801c",
+      "date": "2026-07-30",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in potatoes confidence medium → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/potatoes"
+    },
+    {
+      "id": "0913048737725b27",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Ni in apple confidence high → low.",
       "affected_categories": [
         "products/fruit-juice-not-canned"
       ],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/apple"
     },
     {
-      "id": "8d49da6c2ab111d6",
-      "date": "2026-05-16",
+      "id": "aa1671e4c4a3313b",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Al in fruit (n=5, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in apple confidence high → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/apple"
     },
     {
-      "id": "75edf55608357217",
-      "date": "2026-05-16",
+      "id": "5a89e5003776f237",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_shift_down",
-      "detail": "Al in fruit synthesis moved down 6.7x (typical [100,4000]→[100,600] ppb).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "U in apple confidence high → null.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/apple"
     },
     {
-      "id": "4be829a1b387467d",
-      "date": "2026-05-16",
+      "id": "74cd259d0cb001df",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cr in fruit (n=5, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in asparagus confidence high → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/asparagus"
     },
     {
-      "id": "47025d748051522d",
-      "date": "2026-05-16",
+      "id": "ca103b325e37a68e",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Sn in fruit (n=4, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in asparagus confidence high → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/fruit"
+      "page_url": "https://heavymetalindex.com/ingredients/asparagus"
     },
     {
-      "id": "71ac7c60a0622008",
-      "date": "2026-05-16",
+      "id": "9fec8c7c7dabca2b",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Pb in shellfish (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in avocado confidence high → medium.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/avocado"
     },
     {
-      "id": "1aa2d2df5c67f0a7",
-      "date": "2026-05-16",
+      "id": "ea30895d67c79a58",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cd in shellfish (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in avocado confidence high → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/avocado"
     },
     {
-      "id": "54584be92cdc5937",
-      "date": "2026-05-16",
+      "id": "92bb5a10eeb0a24b",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for iAs in shellfish (n=4, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "U in avocado confidence high → null.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/avocado"
     },
     {
-      "id": "27e2a304823d57cf",
-      "date": "2026-05-16",
+      "id": "4cda482d6b3c7f70",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tHg in shellfish (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in baked-beans confidence medium → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/baked-beans"
     },
     {
-      "id": "0322d44ef7d93dbe",
-      "date": "2026-05-16",
+      "id": "cca0f55ebaea30b4",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Ni in shellfish (n=4, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in baked-potato-with-peel confidence high → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/baked-potato-with-peel"
     },
     {
-      "id": "acdbde1bcb9a9269",
-      "date": "2026-05-16",
+      "id": "a7964031cedb822e",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Al in shellfish (n=2, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in balsamic-vinegar confidence high → medium.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/balsamic-vinegar"
     },
     {
-      "id": "ef5a808c53b99004",
-      "date": "2026-05-16",
+      "id": "ecab2cbf7867c84c",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cr in shellfish (n=3, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in balsamic-vinegar confidence medium → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/balsamic-vinegar"
     },
     {
-      "id": "897c5a116ed03631",
-      "date": "2026-05-16",
+      "id": "bc2720109b8f3963",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tAs in shellfish (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tAs in balsamic-vinegar confidence medium → low.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/shellfish"
+      "page_url": "https://heavymetalindex.com/ingredients/balsamic-vinegar"
     },
     {
-      "id": "20083a3de20a1b9d",
-      "date": "2026-05-16",
+      "id": "fc4884918769ed2c",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cd in bivalve-molluscs (n=6, high confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in banana confidence high → null.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/banana"
     },
     {
-      "id": "58908d4d828f94f7",
-      "date": "2026-05-16",
+      "id": "a177bd5baaa4d624",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Pb in bivalve-molluscs (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "U in banana confidence high → null.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/banana"
     },
     {
-      "id": "e9ccfecc2f5a982a",
-      "date": "2026-05-16",
+      "id": "0f3bec89b313e43b",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tHg in bivalve-molluscs (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Ni in beans confidence high → medium.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/beans"
     },
     {
-      "id": "f3832243002b5264",
-      "date": "2026-05-16",
+      "id": "4597800c7704fedc",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tAs in bivalve-molluscs (n=3, low confidence).",
+      "kind": "synthesis_shift_up",
+      "detail": "Pb in black-pepper synthesis moved up 6.8x (typical [10,130]→[130,640] ppb, p95 370→2500).",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
     },
     {
-      "id": "015afd6aa4d80f80",
-      "date": "2026-05-16",
+      "id": "de8fffd13800c520",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for iAs in bivalve-molluscs (n=2, low confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in black-pepper confidence low → medium.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
     },
     {
-      "id": "c10197211843fbb8",
-      "date": "2026-05-16",
+      "id": "84f81dc30df5a96f",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Ni in bivalve-molluscs (n=2, low confidence).",
+      "kind": "synthesis_evidence_grew",
+      "detail": "Pb in black-pepper evidence base doubled (n 2 → 8); resynthesis trigger per Part 9.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
     },
     {
-      "id": "0e1c6356e4c00d0c",
-      "date": "2026-05-16",
+      "id": "1e70e03bf2421c8e",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cr in bivalve-molluscs (n=2, low confidence).",
+      "kind": "synthesis_shift_up",
+      "detail": "Cd in black-pepper synthesis moved up 3.9x (typical [20,80]→[27,200] ppb, p95 100→390).",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/bivalve-molluscs"
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
     },
     {
-      "id": "d2d282dce7bdecc5",
-      "date": "2026-05-16",
+      "id": "7858cf4de8708c35",
+      "date": "2026-06-23",
       "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Pb in coffee (n=5, medium confidence).",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in black-pepper confidence low → medium.",
       "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "8b11d5b74e9b2c98",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_evidence_grew",
+      "detail": "Cd in black-pepper evidence base doubled (n 2 → 6); resynthesis trigger per Part 9.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "daf5c639324baf9c",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_evidence_grew",
+      "detail": "tAs in black-pepper evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "7ea73b40dec8d5cd",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_shift_up",
+      "detail": "tHg in black-pepper synthesis moved up 3.5x (typical [1,10]→[null,17] ppb, p95 60→17).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "98e4ade41ce7b7ca",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_shift_up",
+      "detail": "Ni in black-pepper synthesis moved up 2.4x (typical [850,2080]→[1700,4900] ppb, p95 4800→5100).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "786feab541e9446c",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Ni in black-pepper confidence low → medium.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "916549101e193f39",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_evidence_grew",
+      "detail": "Ni in black-pepper evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "40eb57cbf3901245",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_shift_up",
+      "detail": "Al in black-pepper synthesis moved up 3.5x (typical [10000,60000]→[110000,210000] ppb, p95 178000→540000).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "c482666d2fa039be",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_evidence_grew",
+      "detail": "Al in black-pepper evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "e95323c72880c010",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_shift_up",
+      "detail": "Cr in black-pepper synthesis moved up 3.8x (typical [100,600]→[800,2300] ppb, p95 2400→6600).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "30bfc67e0d5ffdad",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Sn in black-pepper confidence null → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/black-pepper"
+    },
+    {
+      "id": "4dc1126a6ffcb4b4",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in blueberries confidence high → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberries"
+    },
+    {
+      "id": "ea2c616e150b7874",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in blueberries confidence high → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberries"
+    },
+    {
+      "id": "d7ae4a4d8851896f",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in blueberries confidence high → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberries"
+    },
+    {
+      "id": "732b7bb0be4aa859",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in blueberry-muffin confidence high → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberry-muffin"
+    },
+    {
+      "id": "67890c1bdfbd13f1",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in blueberry-muffin confidence high → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberry-muffin"
+    },
+    {
+      "id": "fd0e9afe51775859",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in blueberry-muffin confidence high → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberry-muffin"
+    },
+    {
+      "id": "47d7d44543fccfd7",
+      "date": "2026-06-23",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in broccoli confidence high → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/broccoli"
     }
   ],
   "by_category": {
+    "products/aas-injectable": {
+      "slug": "products/aas-injectable",
+      "label": "Injectable anabolic-androgenic steroids (AAS)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/air-product-refill-materials": {
       "slug": "products/air-product-refill-materials",
       "label": "Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)",
@@ -501,6 +496,13 @@
     "products/anti-wrinkle-wrinkle-release-products": {
       "slug": "products/anti-wrinkle-wrinkle-release-products",
       "label": "Anti-wrinkle/wrinkle-release products",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/antiperspirant": {
+      "slug": "products/antiperspirant",
+      "label": "Antiperspirant (Al-salt, dirty sibling of r9 deodorant)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -537,8 +539,80 @@
       "slug": "products/baby-cereals-dry-non-rice",
       "label": "Baby cereals / grain products, dry (non-rice)",
       "category_label": "Infant and Child Foods",
-      "event_count": 19,
+      "event_count": 25,
       "recent_events": [
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -773,8 +847,80 @@
       "slug": "products/baby-cereals-dry-rice-based",
       "label": "Baby cereals / grain products, dry (rice-based)",
       "category_label": "Infant and Child Foods",
-      "event_count": 20,
+      "event_count": 26,
       "recent_events": [
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -1002,18 +1148,6 @@
           ],
           "match_strength": "direct",
           "page_url": "https://heavymetalindex.com/ingredients/vitamin-mineral-premix"
-        },
-        {
-          "id": "1d5db97af7ff38ef",
-          "date": "2020-08-06T00:00:00.000Z",
-          "scope": "regulation",
-          "kind": "regulation_effective",
-          "detail": "FDA effective 2020-08-06T00:00:00.000Z: 100 ppb.",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/regulations/fda-iAs-rice-cereal-100ppb"
         }
       ]
     },
@@ -1080,6 +1214,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/bar-bath-soap": {
+      "slug": "products/bar-bath-soap",
+      "label": "Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/bathroom-tub-tile-cleaners": {
       "slug": "products/bathroom-tub-tile-cleaners",
       "label": "Bathroom/tub/tile cleaners",
@@ -1136,6 +1277,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/bouillon-seasoning-blends": {
+      "slug": "products/bouillon-seasoning-blends",
+      "label": "Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/bread-and-baked-goods": {
       "slug": "products/bread-and-baked-goods",
       "label": "Bread and baked goods",
@@ -1167,6 +1315,62 @@
     "products/butter-and-ghee": {
       "slug": "products/butter-and-ghee",
       "label": "Butter and ghee",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-concentrates": {
+      "slug": "products/cannabis-concentrates",
+      "label": "Concentrates and extracts",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-edibles": {
+      "slug": "products/cannabis-edibles",
+      "label": "Edibles (gummies, baked goods, beverages)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-flower": {
+      "slug": "products/cannabis-flower",
+      "label": "Cannabis flower / dried herb",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-tinctures-oils": {
+      "slug": "products/cannabis-tinctures-oils",
+      "label": "Tinctures and sublingual oils",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-topicals": {
+      "slug": "products/cannabis-topicals",
+      "label": "Topicals (creams, balms, salves)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/cannabis-vape-hardware": {
+      "slug": "products/cannabis-vape-hardware",
+      "label": "Vape cartridges and hardware",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/canned-meats": {
+      "slug": "products/canned-meats",
+      "label": "Canned meats (with tin flag)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/canned-mushrooms": {
+      "slug": "products/canned-mushrooms",
+      "label": "Canned Mushrooms",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1210,6 +1414,13 @@
       "slug": "products/cashews",
       "label": "Cashews",
       "category_label": "Fruits, Vegetables, and Produce",
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/childrens-jewelry": {
+      "slug": "products/childrens-jewelry",
+      "label": "Children's Jewelry",
+      "category_label": null,
       "event_count": 0,
       "recent_events": []
     },
@@ -1262,6 +1473,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/cocoa-beverage-mixes": {
+      "slug": "products/cocoa-beverage-mixes",
+      "label": "Cocoa/hot-chocolate beverage mixes and malted drink powders",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/coffee": {
       "slug": "products/coffee",
       "label": "Coffee",
@@ -1279,6 +1497,13 @@
     "products/conditioner-adult-rinse-out": {
       "slug": "products/conditioner-adult-rinse-out",
       "label": "Conditioner (general adult, rinse-out)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/confectionery-candy": {
+      "slug": "products/confectionery-candy",
+      "label": "Candy and confectionery (hard candy, caramels, imported/ethnic sweets)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1325,9 +1550,72 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/cultivated-mushrooms": {
+      "slug": "products/cultivated-mushrooms",
+      "label": "Mushrooms — cultivated (button, cremini, portobello, oyster)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/cutting-boards": {
       "slug": "products/cutting-boards",
       "label": "Cutting boards (wood, plastic)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-cheese": {
+      "slug": "products/dairy-cheese",
+      "label": "Cheese",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-condensed-evaporated": {
+      "slug": "products/dairy-condensed-evaporated",
+      "label": "Condensed and evaporated milks",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-cream": {
+      "slug": "products/dairy-cream",
+      "label": "Cream",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-camel": {
+      "slug": "products/dairy-milk-camel",
+      "label": "Camel milk",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-cow": {
+      "slug": "products/dairy-milk-cow",
+      "label": "Liquid milk — cow",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-goat-sheep": {
+      "slug": "products/dairy-milk-goat-sheep",
+      "label": "Liquid milk — goat / sheep / other ruminant",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-milk-powders": {
+      "slug": "products/dairy-milk-powders",
+      "label": "Milk powders (whole, skim, specialty)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dairy-yogurt-cultured": {
+      "slug": "products/dairy-yogurt-cultured",
+      "label": "Yogurt and cultured dairy",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1342,6 +1630,13 @@
     "products/degreasers": {
       "slug": "products/degreasers",
       "label": "Degreasers",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dentifrices": {
+      "slug": "products/dentifrices",
+      "label": "Dentifrices (toothpaste, gel, powder, tablets)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -1395,6 +1690,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/disinfectants-sanitizers": {
+      "slug": "products/disinfectants-sanitizers",
+      "label": "Disinfectants and sanitizers (EPA-registered antimicrobial sprays, wipes, concentrates)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/douches-vaginal-irrigation": {
       "slug": "products/douches-vaginal-irrigation",
       "label": "Douches and vaginal irrigation solutions/apparatus components",
@@ -1413,6 +1715,13 @@
       "slug": "products/dried-fruit",
       "label": "Dried Fruit",
       "category_label": "Fruits, Vegetables, and Produce",
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/dusting-powder-cornstarch-adult": {
+      "slug": "products/dusting-powder-cornstarch-adult",
+      "label": "Dusting powder, cornstarch base (clean sibling of r2 talc)",
+      "category_label": null,
       "event_count": 0,
       "recent_events": []
     },
@@ -1570,6 +1879,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/fish-sauce": {
+      "slug": "products/fish-sauce",
+      "label": "Fish sauce",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/flavored-waters": {
       "slug": "products/flavored-waters",
       "label": "Flavored waters",
@@ -1721,8 +2037,92 @@
       "slug": "products/fruit-juice-not-canned",
       "label": "Fruit juice (not canned)",
       "category_label": "Infant and Child Foods",
-      "event_count": 15,
+      "event_count": 22,
       "recent_events": [
+        {
+          "id": "69bb50e3d0aeb519",
+          "date": "2026-07-30",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in apple confidence medium → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/apple"
+        },
+        {
+          "id": "0913048737725b27",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Ni in apple confidence high → low.",
+          "metals": [
+            "Ni"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/apple"
+        },
+        {
+          "id": "27d9c55408fa0249",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "9f6fce32671a1632",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in fruit-juice-ready-drinks confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "6aa4b0d8902e5f80",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "1fa56570b0e73e26",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in non-apple-fruit confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
+        {
+          "id": "a7dad9c1bb66a79a",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
         {
           "id": "57bc94b8f1aa8b1e",
           "date": "2026-05-31",
@@ -1909,8 +2309,56 @@
       "slug": "products/fruit-juices-apple-containing",
       "label": "Fruit juices, apple-containing",
       "category_label": null,
-      "event_count": 5,
+      "event_count": 9,
       "recent_events": [
+        {
+          "id": "69bb50e3d0aeb519",
+          "date": "2026-07-30",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in apple confidence medium → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/apple"
+        },
+        {
+          "id": "27d9c55408fa0249",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "6aa4b0d8902e5f80",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "a7dad9c1bb66a79a",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
         {
           "id": "66bcd7c6fce6feb1",
           "date": "2026-05-16",
@@ -1977,8 +2425,44 @@
       "slug": "products/fruit-juices-non-apple",
       "label": "Fruit juices, non-apple",
       "category_label": null,
-      "event_count": 5,
+      "event_count": 8,
       "recent_events": [
+        {
+          "id": "27d9c55408fa0249",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "6aa4b0d8902e5f80",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "a7dad9c1bb66a79a",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
         {
           "id": "66bcd7c6fce6feb1",
           "date": "2026-05-16",
@@ -2045,8 +2529,104 @@
       "slug": "products/fruit-purees",
       "label": "Fruit purees (general)",
       "category_label": "Infant and Child Foods",
-      "event_count": 12,
+      "event_count": 20,
       "recent_events": [
+        {
+          "id": "69bb50e3d0aeb519",
+          "date": "2026-07-30",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in apple confidence medium → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/apple"
+        },
+        {
+          "id": "27d9c55408fa0249",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "9f6fce32671a1632",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in fruit-juice-ready-drinks confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "6aa4b0d8902e5f80",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in fruit-juice-ready-drinks confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice-ready-drinks"
+        },
+        {
+          "id": "1fa56570b0e73e26",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in non-apple-fruit confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
+        {
+          "id": "a7dad9c1bb66a79a",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
+        {
+          "id": "a6c491f39e46ae2d",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in peach confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/peach"
+        },
+        {
+          "id": "e8f73cf4371f3726",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in pear confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/pear"
+        },
         {
           "id": "57bc94b8f1aa8b1e",
           "date": "2026-05-31",
@@ -2214,6 +2794,20 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/grain-based-snacks": {
+      "slug": "products/grain-based-snacks",
+      "label": "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/gummies-jellies": {
+      "slug": "products/gummies-jellies",
+      "label": "Gummies and jelly sweets",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/hair-dye-rinse-off": {
       "slug": "products/hair-dye-rinse-off",
       "label": "Hair dye/color rinses (rinse-off after processing)",
@@ -2266,6 +2860,13 @@
     "products/honey": {
       "slug": "products/honey",
       "label": "Honey",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/hot-chili-sauces": {
+      "slug": "products/hot-chili-sauces",
+      "label": "Hot sauce and chili sauces",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -3208,6 +3809,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/lipstick": {
+      "slug": "products/lipstick",
+      "label": "Lip products (lipstick, gloss, lip liner, adult lip balm)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/makeup-body-paints-bases-fixatives": {
       "slug": "products/makeup-body-paints-bases-fixatives",
       "label": "Makeup — body/leg paints, bases, fixatives (including airbrush)",
@@ -3240,8 +3848,80 @@
       "slug": "products/meat-and-poultry-purees",
       "label": "Meat and poultry purees",
       "category_label": "Infant and Child Foods",
-      "event_count": 16,
+      "event_count": 22,
       "recent_events": [
+        {
+          "id": "c84cbdf474f2cb7f",
+          "date": "2026-07-30",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in ground-beef confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/ground-beef"
+        },
+        {
+          "id": "754e0400a742a709",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "tHg in ground-beef confidence high → low.",
+          "metals": [
+            "tHg"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/ground-beef"
+        },
+        {
+          "id": "980d5270e2088c72",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_evidence_grew",
+          "detail": "tHg in ground-beef evidence base doubled (n 2 → 4); resynthesis trigger per Part 9.",
+          "metals": [
+            "tHg"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/ground-beef"
+        },
+        {
+          "id": "a80b430c0ed1164d",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in turkey confidence high → null.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/turkey"
+        },
+        {
+          "id": "e10035e4dbd7d191",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in turkey confidence high → null.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/turkey"
+        },
+        {
+          "id": "eee44ecb030cbbc2",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "tHg in turkey confidence high → null.",
+          "metals": [
+            "tHg"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/turkey"
+        },
         {
           "id": "5d3588b70e90fb92",
           "date": "2026-05-16",
@@ -3482,8 +4162,104 @@
       "slug": "products/mixed-meals-non-rice",
       "label": "Mixed meals, non-rice",
       "category_label": "Infant and Child Foods",
-      "event_count": 24,
+      "event_count": 32,
       "recent_events": [
+        {
+          "id": "67fbc1ae2fae9509",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in meat confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/meat"
+        },
+        {
+          "id": "138d177c8f013b53",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-root-vegetables confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetables"
+        },
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -3687,90 +4463,6 @@
           ],
           "match_strength": "ingredient",
           "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry-purees"
-        },
-        {
-          "id": "f1862b1c2bac93d6",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in meat-and-poultry-purees (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry-purees"
-        },
-        {
-          "id": "52297bcae4e75c9a",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in mixed-meals (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/mixed-meals"
-        },
-        {
-          "id": "6ae14ec01565d67f",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in mixed-meals (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/mixed-meals"
-        },
-        {
-          "id": "cad17803f16993d3",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in mixed-meals (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/mixed-meals"
-        },
-        {
-          "id": "1bff2b0ddd0a410a",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "603d2dff148117c2",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "b0c0b55983b55015",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
         }
       ]
     },
@@ -3778,8 +4470,104 @@
       "slug": "products/mixed-meals-rice-containing",
       "label": "Mixed meals, rice-containing",
       "category_label": "Infant and Child Foods",
-      "event_count": 24,
+      "event_count": 32,
       "recent_events": [
+        {
+          "id": "67fbc1ae2fae9509",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in meat confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/meat"
+        },
+        {
+          "id": "138d177c8f013b53",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-root-vegetables confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetables"
+        },
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -3983,96 +4771,19 @@
           ],
           "match_strength": "ingredient",
           "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry-purees"
-        },
-        {
-          "id": "f1862b1c2bac93d6",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in meat-and-poultry-purees (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry-purees"
-        },
-        {
-          "id": "52297bcae4e75c9a",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in mixed-meals (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/mixed-meals"
-        },
-        {
-          "id": "6ae14ec01565d67f",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in mixed-meals (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/mixed-meals"
-        },
-        {
-          "id": "cad17803f16993d3",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in mixed-meals (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/mixed-meals"
-        },
-        {
-          "id": "1bff2b0ddd0a410a",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "603d2dff148117c2",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "b0c0b55983b55015",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
         }
       ]
     },
     "products/mouthwash-oral-rinse": {
       "slug": "products/mouthwash-oral-rinse",
       "label": "Mouthwash/oral rinse",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/mustard-mayo-dressings": {
+      "slug": "products/mustard-mayo-dressings",
+      "label": "Mustard, mayonnaise, dressings",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -4088,8 +4799,68 @@
       "slug": "products/non-root-vegetable-purees",
       "label": "Non-root vegetable purees",
       "category_label": "Infant and Child Foods",
-      "event_count": 14,
+      "event_count": 19,
       "recent_events": [
+        {
+          "id": "193659016fa019fd",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in butternut-squash confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/butternut-squash"
+        },
+        {
+          "id": "2aa116efd4796471",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in butternut-squash confidence medium → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/butternut-squash"
+        },
+        {
+          "id": "d0ae8effdfbfff3c",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in vegetable-oils confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/vegetable-oils"
+        },
+        {
+          "id": "c4d19e54430bb5a9",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in vegetable-oils confidence high → medium.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/vegetable-oils"
+        },
+        {
+          "id": "99a5d88ad7a0d372",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in winter-squash confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/winter-squash"
+        },
         {
           "id": "46029e34ee4a5d6b",
           "date": "2026-05-16",
@@ -4358,6 +5129,20 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/peptides-injectable-hormones": {
+      "slug": "products/peptides-injectable-hormones",
+      "label": "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/peptides-nasal-sublingual": {
+      "slug": "products/peptides-nasal-sublingual",
+      "label": "Nasal/sublingual/troche gray-market peptide preparations (mucosal route)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/period-underwear-reusable-garments": {
       "slug": "products/period-underwear-reusable-garments",
       "label": "Period underwear and reusable menstrual garments",
@@ -4389,6 +5174,13 @@
     "products/pet-food-dry-kibble": {
       "slug": "products/pet-food-dry-kibble",
       "label": "Complete & balanced dry (kibble)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/pet-food-fish-marine-protein": {
+      "slug": "products/pet-food-fish-marine-protein",
+      "label": "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -4480,6 +5272,27 @@
     "products/pet-treats-snacks": {
       "slug": "products/pet-treats-snacks",
       "label": "Pet treats/snacks",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/pickled-fermented-vegetables": {
+      "slug": "products/pickled-fermented-vegetables",
+      "label": "Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/pickled-mushrooms": {
+      "slug": "products/pickled-mushrooms",
+      "label": "Pickled Mushrooms",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/plant-based-meat-alternatives": {
+      "slug": "products/plant-based-meat-alternatives",
+      "label": "Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -4640,8 +5453,80 @@
       "slug": "products/plant-milks-rice-based",
       "label": "Plant milks, rice-based",
       "category_label": null,
-      "event_count": 14,
+      "event_count": 20,
       "recent_events": [
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -4970,6 +5855,20 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/refined-sugar": {
+      "slug": "products/refined-sugar",
+      "label": "Refined sugars (cane, beet, brown)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/research-chem-raw-powders": {
+      "slug": "products/research-chem-raw-powders",
+      "label": "Raw AAS / peptide powders (pre-formulation)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/rice-beverages-rice-milk": {
       "slug": "products/rice-beverages-rice-milk",
       "label": "Rice beverages (rice milk)",
@@ -4980,6 +5879,13 @@
     "products/rice-bulk-grain": {
       "slug": "products/rice-bulk-grain",
       "label": "Rice (white, brown, wild — bulk grain)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/rice-grain-syrup": {
+      "slug": "products/rice-grain-syrup",
+      "label": "Rice and grain syrups",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5023,8 +5929,32 @@
       "slug": "products/root-vegetable-purees",
       "label": "Root-vegetable purees",
       "category_label": "Infant and Child Foods",
-      "event_count": 12,
+      "event_count": 14,
       "recent_events": [
+        {
+          "id": "d0ae8effdfbfff3c",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in vegetable-oils confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/vegetable-oils"
+        },
+        {
+          "id": "c4d19e54430bb5a9",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in vegetable-oils confidence high → medium.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/vegetable-oils"
+        },
         {
           "id": "b13d3284c640bacd",
           "date": "2026-05-16",
@@ -5178,6 +6108,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/sarms-oral": {
+      "slug": "products/sarms-oral",
+      "label": "Oral SARMs",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/scented-candles": {
       "slug": "products/scented-candles",
       "label": "Scented candles",
@@ -5241,10 +6178,24 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/soups-broths-stocks": {
+      "slug": "products/soups-broths-stocks",
+      "label": "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/soy-products": {
       "slug": "products/soy-products",
       "label": "Soy Products",
       "category_label": "Fruits, Vegetables, and Produce",
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/soy-sauce-fermented": {
+      "slug": "products/soy-sauce-fermented",
+      "label": "Soy sauce and fermented sauces",
+      "category_label": null,
       "event_count": 0,
       "recent_events": []
     },
@@ -5279,6 +6230,13 @@
     "products/strollers": {
       "slug": "products/strollers",
       "label": "Strollers",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/sun-suntan-mineral": {
+      "slug": "products/sun-suntan-mineral",
+      "label": "Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5332,9 +6290,30 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/supplements-clay-mineral-earth": {
+      "slug": "products/supplements-clay-mineral-earth",
+      "label": "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/supplements-enzymes": {
       "slug": "products/supplements-enzymes",
       "label": "Ingredient class — enzymes",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/supplements-greens-superfood": {
+      "slug": "products/supplements-greens-superfood",
+      "label": "Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/supplements-mushroom-fungal": {
+      "slug": "products/supplements-mushroom-fungal",
+      "label": "Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)",
       "category_label": null,
       "event_count": 0,
       "recent_events": []
@@ -5458,6 +6437,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/syrups-maple-agave-molasses": {
+      "slug": "products/syrups-maple-agave-molasses",
+      "label": "Tree and plant syrups (maple, agave, molasses)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/tableware-ceramicware": {
       "slug": "products/tableware-ceramicware",
       "label": "Ceramicware",
@@ -5500,12 +6486,139 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/tea-infusions": {
+      "slug": "products/tea-infusions",
+      "label": "Tea Infusions",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/teething-and-snacks-non-rice": {
       "slug": "products/teething-and-snacks-non-rice",
       "label": "Teething & snacks (non-rice)",
       "category_label": "Infant and Child Foods",
-      "event_count": 21,
+      "event_count": 31,
       "recent_events": [
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "ee2471242ecb2236",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in wheat confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/wheat"
+        },
+        {
+          "id": "6e7d18d1835088b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in wheat-cereal-biscuits confidence medium → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/wheat-cereal-biscuits"
+        },
+        {
+          "id": "45836850a67324d2",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in wheat-cereal-biscuits confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/wheat-cereal-biscuits"
+        },
+        {
+          "id": "d454b09700a00ec8",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in wheat-cereal-biscuits confidence high → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/wheat-cereal-biscuits"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -5685,78 +6798,6 @@
           ],
           "match_strength": "direct",
           "page_url": "https://heavymetalindex.com/ingredients/wheat"
-        },
-        {
-          "id": "1bff2b0ddd0a410a",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "603d2dff148117c2",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "b0c0b55983b55015",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in rice-puffs (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/rice-puffs"
-        },
-        {
-          "id": "29a732d5e12a3cdd",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in teething-and-snacks (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/teething-and-snacks"
-        },
-        {
-          "id": "fc84a62984bbfd8b",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in teething-and-snacks (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/teething-and-snacks"
-        },
-        {
-          "id": "a9f326063d31c42f",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in teething-and-snacks (n=0, ? confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/teething-and-snacks"
         }
       ]
     },
@@ -5764,8 +6805,80 @@
       "slug": "products/teething-and-snacks-rice-based",
       "label": "Teething & snacks (rice-based)",
       "category_label": "Infant and Child Foods",
-      "event_count": 16,
+      "event_count": 22,
       "recent_events": [
+        {
+          "id": "87c87fde54ce2b40",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cfa7d28078f92bfe",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "Cd in rice synthesis moved up 8.4x (typical [3.5,9.7]→[4,40] ppb, p95 19→160).",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "4f9fe32f68ce7073",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_shift_up",
+          "detail": "iAs in rice synthesis moved up 4.6x (typical [41.6,41.6]→[40,150] ppb, p95 41.6→190).",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/rice"
+        },
+        {
+          "id": "cb37b43ff03907ff",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in rice-cakes confidence high → low.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "5d26377f338fd41b",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in rice-cakes confidence high → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
+        {
+          "id": "44940270fbc046b7",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in rice-cakes confidence medium → low.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/rice-cakes"
+        },
         {
           "id": "95472c2e3bb65ec0",
           "date": "2026-05-16",
@@ -5967,6 +7080,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/tomato-condiments": {
+      "slug": "products/tomato-condiments",
+      "label": "Tomato condiments (ketchup, salsa)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/tongue-cleaners-scrapers": {
       "slug": "products/tongue-cleaners-scrapers",
       "label": "Tongue cleaners/scrapers",
@@ -6141,6 +7261,13 @@
       "event_count": 0,
       "recent_events": []
     },
+    "products/traditional-eye-cosmetics": {
+      "slug": "products/traditional-eye-cosmetics",
+      "label": "Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
     "products/true-tea-camellia-sinensis": {
       "slug": "products/true-tea-camellia-sinensis",
       "label": "True tea (Camellia sinensis)",
@@ -6205,8 +7332,20 @@
       "slug": "products/vegetable-juices-root-vegetable-containing",
       "label": "Vegetable juices, root-vegetable-containing",
       "category_label": null,
-      "event_count": 4,
+      "event_count": 5,
       "recent_events": [
+        {
+          "id": "627d44d2c8e0ffdc",
+          "date": "2026-06-23",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Pb in potatoes confidence high → medium.",
+          "metals": [
+            "Pb"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/potatoes"
+        },
         {
           "id": "ed5d7cb89b3c9738",
           "date": "2026-05-16",
@@ -6281,6 +7420,13 @@
     "products/whitening-products": {
       "slug": "products/whitening-products",
       "label": "Whitening products (strips/gels/powders/pens)",
+      "category_label": null,
+      "event_count": 0,
+      "recent_events": []
+    },
+    "products/wild-mushrooms": {
+      "slug": "products/wild-mushrooms",
+      "label": "Wild Mushrooms",
       "category_label": null,
       "event_count": 0,
       "recent_events": []

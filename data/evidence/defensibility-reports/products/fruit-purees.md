@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d025d5b62e0f4facd2423cb2ea0865623e037e2efb57ad9358b30b91686c5bf2
+source_page_sha256: 53b100dfeaa870f190be3965f99cbb497fb4656035337c4622efb722fec0ef6a
 total_claims: 122
 cited_claims: 122
 uncited_claims: 0
-distinct_cited_targets: 46
-distinct_cited_sources: 40
+distinct_cited_targets: 49
+distinct_cited_sources: 43
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 28
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 122 |
 | cited claims | 122 |
 | uncited claims | 0 |
-| distinct cited targets | 46 |
-| distinct cited `sources/` pages | 40 |
+| distinct cited targets | 49 |
+| distinct cited `sources/` pages | 43 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 28 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 
@@ -1380,7 +1380,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `am | 2025 | Government guidance | FDA Closer to Zero final guidance setting the 10 ppb Pb action level for fruits, non-r`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1395,6 +1395,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1406,6 +1408,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1432,6 +1436,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1444,7 +1450,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `tions for 386 processed baby foods (FY2023) that directly underpin the FDA 2025 10 ppb Pb action level; includes fruit-b`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1459,6 +1465,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1470,6 +1478,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1496,6 +1506,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1508,7 +1520,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3.0 ppm`
 - Context: `ence to MMWR North Carolina WanaBana apple cinnamon outbreak investigation (1.9–3.0 ppm Pb in product, 190–300× the FDA`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1523,6 +1535,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1534,6 +1548,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1560,6 +1576,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1572,7 +1590,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `on outbreak investigation (1.9–3.0 ppm Pb in product, 190–300× the FDA proposed 10 ppb action level); identifies cinnamo`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1587,6 +1605,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1598,6 +1618,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1624,6 +1646,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1636,7 +1660,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `800 µg/kg`
 - Context: `WanaBana apple cinnamon fruit puree pouches to childhood Pb poisoning (1,900–5,800 µg/kg Pb); adulteration event docume`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1651,6 +1675,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1662,6 +1688,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1688,6 +1716,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1700,7 +1730,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `reviewed | IEUBK/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/ce`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1715,6 +1745,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1726,6 +1758,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1752,6 +1786,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1764,7 +1800,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `K/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/cereal); fruits,`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1779,6 +1815,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1790,6 +1828,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1816,6 +1856,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1828,7 +1870,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `139 µg/kg`
 - Context: `ready-to-eat baby foods; fruit mousse subcategory had highest reported Pb (max 139 µg/kg) among product groups tested |`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1843,6 +1885,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1854,6 +1898,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1880,6 +1926,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1892,7 +1940,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `500 µg/kg`
 - Context: `| ICP-OES total Al measurement in 15 Brazilian commercial fruit purees (up to 2,500 µg/kg) plus in vitro bioaccessibilit`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1907,6 +1955,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1918,6 +1968,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -1944,6 +1996,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -1955,8 +2009,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `424 µg/kg`
-- Context: `, and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 23 | [[sourc`
-- Cited targets (30):
+- Context: `, and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 24 | [[sourc`
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1971,6 +2025,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -1982,6 +2038,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -2008,6 +2066,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2020,7 +2080,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 µg/kg`
 - Context: `ke during weaning to elevated urinary iAs; cites prior data reporting iAs up to 20 µg/kg in fruit and vegetable purees,`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -2035,6 +2095,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -2046,6 +2108,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -2072,6 +2136,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2084,7 +2150,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `125 µg/kg`
 - Context: `tals (including Al, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014`
-- Cited targets (30):
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -2099,6 +2165,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -2110,6 +2178,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -2136,6 +2206,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2147,8 +2219,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `50 µg/kg`
-- Context: `l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 28 |`
-- Cited targets (30):
+- Context: `l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 30 |`
+- Cited targets (33):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -2163,6 +2235,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
@@ -2174,6 +2248,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
@@ -2200,6 +2276,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
@@ -2234,6 +2312,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` | sources | 0 | — | — |
+| `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` | sources | 0 | — | — |
 | `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` | sources | 0 | — | — |
@@ -2242,6 +2321,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` | sources | 0 | — | — |
 | `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2014-infant-foods-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
@@ -2260,6 +2340,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
+| `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
 | `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |

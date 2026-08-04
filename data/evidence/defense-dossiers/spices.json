@@ -4,8 +4,8 @@
   "product": {
     "slug": "products/spices",
     "title": "Spices",
-    "hmtc_category": 7,
-    "hmtc_row": 8,
+    "hmtc_category": 34,
+    "hmtc_row": 1,
     "category_label": null,
     "age_range": null,
     "label": "Spices",
@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/spices",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8ae51a1d23f2549ccbd64d1bb3e190411826ae52f282b3ef4b22873d7a7a357a",
-      "content_bytes": 31331,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "6b664a9f71e913a6c0198c25d49dbfc61f84bf0b3a1623d9c916bf0c3563ff79",
+      "content_bytes": 32756,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/spices.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/spices.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 61,
+    "contributing_source_count": 64,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/adams2017-nigerian-processed-spices-metals",
         "content_pin": {
-          "content_sha256": "dcc06feaa517b7b640dc8cf9c8cfb38081349a75417eadd346997d65918f9a1b",
-          "content_bytes": 3796,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7a24ce0bed4c19ffcc498fd39f251290524d3617b91e5eef521816e3a0f49a39",
+          "content_bytes": 4733,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/adams2017-nigerian-processed-spices-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/adams2017-nigerian-processed-spices-metals.md | sha256sum"
         }
       },
       {
@@ -69,12 +69,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alam2022-dhaka-spices-lead",
         "content_pin": {
-          "content_sha256": "cf65ed24c67ea92773bf619ce329065ec29c59252b3538fa98d93cd322e9727f",
-          "content_bytes": 7552,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7c0ded4408369d12c07e078a2deadac11bd37abdda0e9f5b9a4b6fae4b4d69d6",
+          "content_bytes": 7600,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/alam2022-dhaka-spices-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/alam2022-dhaka-spices-lead.md | sha256sum"
         }
       },
       {
@@ -89,12 +89,38 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/angelon-gaetz2018-lead-spices-north-carolina",
         "content_pin": {
-          "content_sha256": "1d9a6a5c305860e763bcff790786011776ab99ec75d11eaf108212719bcda784",
-          "content_bytes": 21344,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0f9c994103396041483dc217ddc6db52887441135925f87b6a906da0cc7a1a61",
+          "content_bytes": 21405,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/angelon-gaetz2018-lead-spices-north-carolina.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/angelon-gaetz2018-lead-spices-north-carolina.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/anses2026-tds3-metals-france",
+        "title": "Opinion of the French Agency for Food, Environmental and Occupational Health & Safety on the results of the Third French Total Diet Study (TDS3) - Acrylamide, aluminium, silver, cadmium, mercury and lead",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Ag",
+          "Cd",
+          "Pb",
+          "tHg",
+          "iHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/anses2026-tds3-metals-france",
+        "content_pin": {
+          "content_sha256": "40ddf08f51ee8f9bcfc1b00d1250a41a80563604119bb57a92554fbca11bf4e1",
+          "content_bytes": 6904,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/anses2026-tds3-metals-france.md | sha256sum"
         }
       },
       {
@@ -108,7 +134,7 @@
           "Pb",
           "Cd",
           "tAs",
-          "Hg",
+          "tHg",
           "Mn",
           "Ni",
           "Cu",
@@ -119,12 +145,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bahrouna2025-zawia-spices-metals",
         "content_pin": {
-          "content_sha256": "bc9c3ca14c597af3c7f2ad57825bfbf7e87446d8afa2fde5964b8f8416b969f1",
-          "content_bytes": 4147,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "578abc3e5072469c88b21fbdd315b24e47d30cfd79626d7bc6220af737beab5a",
+          "content_bytes": 4995,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bahrouna2025-zawia-spices-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bahrouna2025-zawia-spices-metals.md | sha256sum"
         }
       },
       {
@@ -143,12 +169,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bekalu2025-black-cumin-heavy-metals-ethiopia",
         "content_pin": {
-          "content_sha256": "ee6286f72f5840968b343c0a9240bc2f19e9e082997e9ee494a8dec41fefb5e5",
-          "content_bytes": 6463,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7cac40b87733eaa01c931e6811d37f7d117ce2a17435847bb20b0ba87c5683ee",
+          "content_bytes": 6511,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bekalu2025-black-cumin-heavy-metals-ethiopia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bekalu2025-black-cumin-heavy-metals-ethiopia.md | sha256sum"
         }
       },
       {
@@ -166,12 +192,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brima2025-african-foods-uk-metals",
         "content_pin": {
-          "content_sha256": "a17772cc1272f33d08ac486787deb0dfc1b6d062531fbe7a80f2e65c6bd650e3",
-          "content_bytes": 4461,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5e8b847cf00515eb36fe4466df735d5f3e11d89b3c18957caf08456a8271594e",
+          "content_bytes": 4656,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/brima2025-african-foods-uk-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brima2025-african-foods-uk-metals.md | sha256sum"
         }
       },
       {
@@ -187,12 +213,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brown2022-patna-spice-lead",
         "content_pin": {
-          "content_sha256": "89265823cb02103be9a9df57d434d025f0fd9f366a1dedcad3e99d5566dd7180",
-          "content_bytes": 5007,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1102a0c49ff9d8381819acece37a561187fac1672fa44fca88187e132adcad1e",
+          "content_bytes": 5654,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/brown2022-patna-spice-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brown2022-patna-spice-lead.md | sha256sum"
         }
       },
       {
@@ -210,12 +236,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bua2016-aromatic-spices-metals-italy",
         "content_pin": {
-          "content_sha256": "52bbfae39a872a3ab402909f02cb40ef91f6339de07d073b4b5e4fa8b7fb813f",
-          "content_bytes": 5861,
-          "last_commit_sha": "4113edc",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8bd5ccd2cd48359f72db1e309c9ef870699238a9d5edc22268ba9230cfb460c9",
+          "content_bytes": 6211,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4113edc:wiki/sources/bua2016-aromatic-spices-metals-italy.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bua2016-aromatic-spices-metals-italy.md | sha256sum"
         }
       },
       {
@@ -238,12 +264,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bulduk2020-vicia-faba-elements",
         "content_pin": {
-          "content_sha256": "964985b55ba7424c974ce21e2eae492d3d6370512f12fbabd362d692295d49e4",
-          "content_bytes": 3472,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "f582676b47587eaed3779d8d6d4fbec00a7886f70b538bf2f6ff07f154b2bb62",
+          "content_bytes": 3533,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
         }
       },
       {
@@ -258,12 +284,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cantoral2024-lead-levels-mexican-foods",
         "content_pin": {
-          "content_sha256": "b0b79a2af02d160abdc6ec5ee7d27b9dfbd880aed8dca6e7bcf0077be441bb82",
-          "content_bytes": 6356,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b5490ebea193003c113b642afbbeaed8d8052aa45b3a867753683d4113b1c0a6",
+          "content_bytes": 6417,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cantoral2024-lead-levels-mexican-foods.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cantoral2024-lead-levels-mexican-foods.md | sha256sum"
         }
       },
       {
@@ -280,12 +306,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/carpena2024-chemical-hazards-herbs-europe",
         "content_pin": {
-          "content_sha256": "dc66a9148262b4ca97a7d61ca8da8b3dcb3814f833c6ae578eefec20614c0d45",
-          "content_bytes": 9742,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "97b6c60e4fcf322d5200494ea4350e7f57823d23f356574c08ce3c6e6c887857",
+          "content_bytes": 9803,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/carpena2024-chemical-hazards-herbs-europe.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/carpena2024-chemical-hazards-herbs-europe.md | sha256sum"
         }
       },
       {
@@ -303,12 +329,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfia2025-toxic-metals-selected-foods-2022-23",
         "content_pin": {
-          "content_sha256": "a371e98a0764fe25d34b3ad5b312056e188c23db07daa50490a8b22a030bf4cb",
-          "content_bytes": 5243,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b2621289c3ec2f287f1ba65e93e93c23c86392de9d9af9bb87c457d1f02fb758",
+          "content_bytes": 5304,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23.md | sha256sum"
         }
       },
       {
@@ -325,12 +351,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chime2025-nigerian-spices-as-cd-pb",
         "content_pin": {
-          "content_sha256": "9ab15e0a2c819abbabda8a01f7beb7e21d4dddbe6307c53aebc0ba96ce961efe",
-          "content_bytes": 5894,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a7a2379e140c7350805d0b4c6a004b5beb6f552833a2f63a0e2b039e1e45bfc9",
+          "content_bytes": 5955,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
         }
       },
       {
@@ -352,12 +378,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cicero2022-minerals-spices-aromatic-herbs",
         "content_pin": {
-          "content_sha256": "0ef4b9af0c727bcb4bb7752dc28d61002d4284977e1459f2a916dd001fc77b36",
-          "content_bytes": 8404,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0c7d578e99c8d9d5b4bb31e26e7bc142a48f557268cad3758d41138b411139f5",
+          "content_bytes": 8465,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/cicero2022-minerals-spices-aromatic-herbs.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/cicero2022-minerals-spices-aromatic-herbs.md | sha256sum"
         }
       },
       {
@@ -368,21 +394,18 @@
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
-          "Fe",
-          "Zn",
-          "Cu",
           "Cd",
           "Pb",
           "tHg"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/darko2014-seasonings-ghana-metals",
         "content_pin": {
-          "content_sha256": "6a04eb1a1fe94e57cfe4917725e8116e48b7810c929dbf99cd55b163e7faf2e6",
-          "content_bytes": 5381,
-          "last_commit_sha": "57bbe10",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2b55a353b44d51aeedf5689e9fc719b8daebe85bf1f2e7606c8ccab41cff74ef",
+          "content_bytes": 6306,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 57bbe10:wiki/sources/darko2014-seasonings-ghana-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/darko2014-seasonings-ghana-metals.md | sha256sum"
         }
       },
       {
@@ -410,12 +433,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/deka2023-monitoring-strategies-heavy-metals-chapter",
         "content_pin": {
-          "content_sha256": "62aa6b3288cee2ad97f585877b6ee779d8a563716d0cf3af356d96093474731c",
-          "content_bytes": 10311,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6a0e94dfe8ad8485e87010b071c6fde6ca541eee58ad68dc9e9066f8b5ff803b",
+          "content_bytes": 10372,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
         }
       },
       {
@@ -434,12 +457,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dghaim2015-heavy-metals-uae-herbs",
         "content_pin": {
-          "content_sha256": "50683015da4fa10b5fc393ca8007c421aafa653874762e5973dc8cac3bbac536",
-          "content_bytes": 15492,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "aaf05292f82215ed1705b945ed4afd09b992fd46dc991c33ecbca42eb5396a32",
+          "content_bytes": 15553,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/dghaim2015-heavy-metals-uae-herbs.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/dghaim2015-heavy-metals-uae-herbs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/divrikli2006-spices-herbal-plants-metals",
+        "title": "Trace heavy metal contents of some spices and herbal plants from western Anatolia, Turkey",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Cd",
+          "Pb",
+          "Ni",
+          "Cr",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/divrikli2006-spices-herbal-plants-metals",
+        "content_pin": {
+          "content_sha256": "72028dea8b2e893ba354092ed60e19c53a103bda32ab9e07302f8df64a0b8f3c",
+          "content_bytes": 7324,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/divrikli2006-spices-herbal-plants-metals.md | sha256sum"
         }
       },
       {
@@ -463,12 +513,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dokubo2023-nigeria-seasoning-powder",
         "content_pin": {
-          "content_sha256": "3781c09da92d6c723304abfd985cc49737e211dc204e5bbdc90934800da4c53f",
-          "content_bytes": 10132,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "50ad26d10a34929b12fd6243ab42d2e400c7a4081a27ffcfc186a618dd1662fe",
+          "content_bytes": 10193,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
         }
       },
       {
@@ -483,12 +533,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2012-cadmium-dietary-exposure-europe",
         "content_pin": {
-          "content_sha256": "a9e18e6abdbe2e88582689b79abee5c0f8d8b4014da7c4881fe6d5106f5acb39",
-          "content_bytes": 7369,
-          "last_commit_sha": "0226413",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fbc8e0305a873d793400180c5cba591a8156cb1900bc21ec0efc2c45e810bd02",
+          "content_bytes": 7719,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 0226413:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md | sha256sum"
         }
       },
       {
@@ -503,12 +553,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "230bb3d82ddc62a76d5958a93fe400e7f0153d95462223e42f41d106db5f3829",
-          "content_bytes": 30180,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1d6698efc1af2795a1c8cc6aa2c49f125eb9305e07e6a72bc1366fb9f9237841",
+          "content_bytes": 30241,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ericson2020-georgian-spices-lead",
+        "title": "Elevated Levels of Lead (Pb) Identified in Georgian Spices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ericson2020-georgian-spices-lead",
+        "content_pin": {
+          "content_sha256": "878f08ee39450d2725a1050efd2bdd9f293e7a0c325b0dc91b9703c774d2a470",
+          "content_bytes": 4698,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/ericson2020-georgian-spices-lead.md | sha256sum"
         }
       },
       {
@@ -523,12 +593,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda-import-alert-99-42-spice-lead",
         "content_pin": {
-          "content_sha256": "c7cdeb473e554e31842c467e82a003381394fe39a59dd9e1ed92c775d912952f",
-          "content_bytes": 3060,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fae9bab047fe207b78db88c56a6fbd80ac869e6ec6fe40a81b2ddecbba8fbd13",
+          "content_bytes": 3121,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fda-import-alert-99-42-spice-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fda-import-alert-99-42-spice-lead.md | sha256sum"
         }
       },
       {
@@ -543,12 +613,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fischer2022-mercury-spice-plants-poland",
         "content_pin": {
-          "content_sha256": "0ce06ceed411c91199908c4cb7f628588112d14d44bdf66aaea7adf8f1695031",
-          "content_bytes": 11869,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "63b42e385a2ed4c9cada2b75578033faf791e55610a71f30ce45da6b0ee8a59e",
+          "content_bytes": 11930,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fischer2022-mercury-spice-plants-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fischer2022-mercury-spice-plants-poland.md | sha256sum"
         }
       },
       {
@@ -564,12 +634,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/forsyth2019-turmeric-lead-chromate-bangladesh",
         "content_pin": {
-          "content_sha256": "bf9c32a703d283019e5f2ce6d7387bee74110569dcb08ff0e1164eb0513620a2",
-          "content_bytes": 4618,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ca040e76a2a2b7df43d04c4e00867b4e7d7c193d7821580ab53355cdb6353a69",
+          "content_bytes": 4679,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh.md | sha256sum"
         }
       },
       {
@@ -585,12 +655,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/forsyth2024-turmeric-lead-chromate-south-asia",
         "content_pin": {
-          "content_sha256": "b1bc47bf6433b24564a460be9fc20958b1817fef260b55c739923a58305a7282",
-          "content_bytes": 5203,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6804778a8dd30bb89fa50f78bb0b1c6f171821d2b4c80b6afed8bfd54c551825",
+          "content_bytes": 5264,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/forsyth2024-turmeric-lead-chromate-south-asia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/forsyth2024-turmeric-lead-chromate-south-asia.md | sha256sum"
         }
       },
       {
@@ -606,12 +676,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gafner2026-turmeric-adulteration-six-continents",
         "content_pin": {
-          "content_sha256": "3626bfb967e5f32ce9be0caec2555f7298cb176832da15b93522939cc5634fbd",
-          "content_bytes": 7492,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8e3a2fab292f69ae47fb11c42b3b602f13c35f7f8ab049182fe48900b814091d",
+          "content_bytes": 7553,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/gafner2026-turmeric-adulteration-six-continents.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gafner2026-turmeric-adulteration-six-continents.md | sha256sum"
         }
       },
       {
@@ -628,12 +698,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gill2021-consumer-reports-spices",
         "content_pin": {
-          "content_sha256": "73881a82035976f6d4f120f71f9184c6cf9c57f73f9f0e5bc848247b3fec5bed",
-          "content_bytes": 9277,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1f885d00b9d0ef709a42286c876deb0071342e3c11adb603d416164d75ada20d",
+          "content_bytes": 9338,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/gill2021-consumer-reports-spices.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gill2021-consumer-reports-spices.md | sha256sum"
         }
       },
       {
@@ -650,12 +720,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/huff2025-spices-lancaster-pa",
         "content_pin": {
-          "content_sha256": "cdebcbeda7f4222994dd9ad8aba7fa28f94406e33a430ff01d470f383c27b3ab",
-          "content_bytes": 17740,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3b4c78eef0f7f10696e3941e4d412ae15eeedf6238ac3795d69064516c2c8dc1",
+          "content_bytes": 17801,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/huff2025-spices-lancaster-pa.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/huff2025-spices-lancaster-pa.md | sha256sum"
         }
       },
       {
@@ -673,12 +743,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/inada2023-herbal-medicine-heavy-metal-regulations",
         "content_pin": {
-          "content_sha256": "266eb7c226981f94af71c4e088c40f414329172c1dee2a5257b4d65dfcd651e1",
-          "content_bytes": 3213,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "91336942ddc2f7df20a56a946690b54fe370d1eb3d720db22794184ad6a47483",
+          "content_bytes": 3274,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations.md | sha256sum"
         }
       },
       {
@@ -695,12 +765,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2023-noakhali-spices-bangladesh",
         "content_pin": {
-          "content_sha256": "6008387f03f06a7cd64885f8915ea03b556959c2a15d557876f1fb6d3f7d8be4",
-          "content_bytes": 13176,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "378373247b3fd45bad24f752fbc58ed7477d36781ba1601a05556ed62f206994",
+          "content_bytes": 13237,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/islam2023-noakhali-spices-bangladesh.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/islam2023-noakhali-spices-bangladesh.md | sha256sum"
         }
       },
       {
@@ -715,12 +785,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kaalieswari2021-fenugreek-arsenic",
         "content_pin": {
-          "content_sha256": "468b4aa5df90912c40b273e77e14dcce9435ebe3d7893b4667c963791ea1da07",
-          "content_bytes": 4304,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "e857259ee3b6cb25a039b018cf6196e21e7174c23246ccf457fdf716774b1239",
+          "content_bytes": 5145,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kaalieswari2021-fenugreek-arsenic.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kaalieswari2021-fenugreek-arsenic.md | sha256sum"
         }
       },
       {
@@ -738,12 +808,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland",
         "content_pin": {
-          "content_sha256": "57fedd2f6369eecc47dad4c97da594edf7a3459c8c5bef1b4057f8473ae6df8c",
-          "content_bytes": 17111,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8e6767687bb80d5478b7e2d875eaaf19370013f15794e29b6914134daebbb7f3",
+          "content_bytes": 17172,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md | sha256sum"
         }
       },
       {
@@ -758,12 +828,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kumar2022-bangladesh-agricultural-products-lead",
         "content_pin": {
-          "content_sha256": "fd82a18d92ad5463f78336af7df0ef6ad557839a2dee5e9446d9953245167738",
-          "content_bytes": 6674,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ade9988c5ae60013eefd90d8295a0981cc67e761797cc9139bf0402ade7f88e1",
+          "content_bytes": 6735,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
         }
       },
       {
@@ -778,12 +848,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lech2020-turmeric-lead-united-states",
         "content_pin": {
-          "content_sha256": "b3d760660af2da3a0e2709ce3def81fe96fc18b15b32417a481adddfbcfc15de",
-          "content_bytes": 3012,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9618d1e42ff5b08094c6d1bace1cbe0e63588e06fff1f9254537c3d7c4e134df",
+          "content_bytes": 3073,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/lech2020-turmeric-lead-united-states.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/lech2020-turmeric-lead-united-states.md | sha256sum"
         }
       },
       {
@@ -804,12 +874,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lhaac2025-csp41-herbs-spices-wa",
         "content_pin": {
-          "content_sha256": "b909c1a213209309fe80d81903a29840df02b974d0a71d74c1ff235b43da3c17",
-          "content_bytes": 17719,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4cd1c32fda47aad23eecb0625a6d19b97a5cb2f9659a2749017fc30f5d4e0247",
+          "content_bytes": 17780,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/lhaac2025-csp41-herbs-spices-wa.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/lhaac2025-csp41-herbs-spices-wa.md | sha256sum"
         }
       },
       {
@@ -829,12 +899,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marinescu2020-romanian-herbs-spices-metals",
         "content_pin": {
-          "content_sha256": "ea5fb1eecea1f8fc8534aca06d7ec63275d60847003c5dfca1f7e828482a84ea",
-          "content_bytes": 5607,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "0606d5d952fd5bc5a840f27b5f6395f93e4859600ac8c99657eac1911a15dc69",
+          "content_bytes": 5646,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/marinescu2020-romanian-herbs-spices-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/marinescu2020-romanian-herbs-spices-metals.md | sha256sum"
         }
       },
       {
@@ -852,12 +922,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
         "content_pin": {
-          "content_sha256": "8080a1824e02c590594f2746d3ec13c01b42544c105c31c4735483e7c693055a",
-          "content_bytes": 34476,
-          "last_commit_sha": "3ce252a",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4c6f6d6953c96374cf5841f64de2b44623728e39a29369d2501d95bbdf53a960",
+          "content_bytes": 34829,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3ce252a:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
         }
       },
       {
@@ -881,12 +951,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/matloob2016-iraq-spices-heavy-metals",
         "content_pin": {
-          "content_sha256": "fab35a59bb82d0e83ba449a1cc72f72eaab91f61c9df976021b183cee429e2d9",
-          "content_bytes": 4519,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fd29e8e8184a6f253d0f8b673fd2d7208b09906ffd83a02c5e5c79e183e64f7c",
+          "content_bytes": 4711,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/matloob2016-iraq-spices-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/matloob2016-iraq-spices-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -905,19 +975,19 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mercan-yucel2022-van-spices-heavy-metals",
         "content_pin": {
-          "content_sha256": "a6768b41c728a9b10a1e31d1ce0930e86bf9bc76354246f9d384470e1e361e61",
-          "content_bytes": 6023,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "a08cc6c25c50bd3fd715798536fdf8b84d9692e3102d0981885e77b49ed56f41",
+          "content_bytes": 6071,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mercan-yucel2022-van-spices-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/mercan-yucel2022-van-spices-heavy-metals.md | sha256sum"
         }
       },
       {
         "slug": "sources/mercanyucel2022-van-spices-metals",
         "title": "Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals",
         "route_kind": "direct_evidence",
-        "route_status": "source_on_page_no_structured_value",
+        "route_status": "missing_direct_product_route",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -929,12 +999,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mercanyucel2022-van-spices-metals",
         "content_pin": {
-          "content_sha256": "054012cdf190cecd2452a1893bc6749c58629c90e8612f75b098dc8b09047a13",
-          "content_bytes": 4504,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6207b6b84d68a762ad58c44d78db3c3e039c4e242f2f38f1809cb588dd556d98",
+          "content_bytes": 5174,
+          "last_commit_sha": "5f7a7150d",
+          "last_commit_date": "2026-07-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/mercanyucel2022-van-spices-metals.md | sha256sum"
+          "verify_command": "git show 5f7a7150d:wiki/sources/mercanyucel2022-van-spices-metals.md | sha256sum"
         }
       },
       {
@@ -952,12 +1022,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moussa2024-spices-herbs-lebanon",
         "content_pin": {
-          "content_sha256": "768d01206dfb0d53fd6544a1d4c479c3059505f8101806cd02fde154224c39a9",
-          "content_bytes": 10810,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ede8ed23ac6b5c26fad73d9320ef9bb1410269ac0a26a1557109cdfb82d7efd9",
+          "content_bytes": 10871,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/moussa2024-spices-herbs-lebanon.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/moussa2024-spices-herbs-lebanon.md | sha256sum"
         }
       },
       {
@@ -973,12 +1043,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munarso2024-vanilla-indonesia-quality",
         "content_pin": {
-          "content_sha256": "dc6fe73689a6e482be6713faafe31053ec987ae67c3cef1f8b77a15a784e1d98",
-          "content_bytes": 12721,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2642f49f1f42512aafed7d6431121abf060a05904dc23c0600f562503ca311f9",
+          "content_bytes": 12782,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/munarso2024-vanilla-indonesia-quality.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/munarso2024-vanilla-indonesia-quality.md | sha256sum"
         }
       },
       {
@@ -994,12 +1064,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/njinga2022-nigeria-herbal-cd-cr",
         "content_pin": {
-          "content_sha256": "b8f110de6556417989ce13e6d66de51182f0ed570946fb5e9c76f2b8ee3639ea",
-          "content_bytes": 3095,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "9b8acb535de003a9103ff0c7b8611596d3ead53afce22d74a2a17ef9f202d9e7",
+          "content_bytes": 3156,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
         }
       },
       {
@@ -1017,12 +1087,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nys-doh2019-metals-spices-guidance",
         "content_pin": {
-          "content_sha256": "3bcd2c60c5a7a8db3e195a4fcb0c7e180f669cc727733ca1292dd564230bbbd9",
-          "content_bytes": 13830,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "4dfbf02c7486ecc1eed6198546ceae34d13fc2896a43395219673333503493ae",
+          "content_bytes": 13891,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/nys-doh2019-metals-spices-guidance.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/nys-doh2019-metals-spices-guidance.md | sha256sum"
         }
       },
       {
@@ -1040,12 +1110,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oladoye2016-odo-ori-spices-metals",
         "content_pin": {
-          "content_sha256": "69e5a7d96aaa5e863f7e784c4a70ca64ae545895b8887089544cc34248fb71af",
-          "content_bytes": 3996,
-          "last_commit_sha": "cbcd8e3",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5c48346960f8b098181a945342e324be953e449878e39920d5d4382e8e7d9c87",
+          "content_bytes": 4779,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cbcd8e3:wiki/sources/oladoye2016-odo-ori-spices-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/oladoye2016-odo-ori-spices-metals.md | sha256sum"
         }
       },
       {
@@ -1062,12 +1132,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oseisafo2024-ghana-spices-metals",
         "content_pin": {
-          "content_sha256": "ec3d8066e80357f170281f3daedd7cc28570859f369754ba552e0d696be2d739",
-          "content_bytes": 4841,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3615e2821d2b9fa9e37486005357d0cd8edd79b2b5215d246ead24ab1d76e146",
+          "content_bytes": 4902,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/oseisafo2024-ghana-spices-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/oseisafo2024-ghana-spices-metals.md | sha256sum"
         }
       },
       {
@@ -1088,12 +1158,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/patel2023-singrauli-herbal-plants-metals",
         "content_pin": {
-          "content_sha256": "74d6acd43c4a0e26b498f84651be3a3bf9d6dbf9b40e29a1847aadb3a22d7621",
-          "content_bytes": 5958,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "570d1d884d21f0623dbcd32f079204a4c9bb411feb14f990530355000032ae89",
+          "content_bytes": 5997,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/patel2023-singrauli-herbal-plants-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/patel2023-singrauli-herbal-plants-metals.md | sha256sum"
         }
       },
       {
@@ -1107,7 +1177,7 @@
           "Pb",
           "Cd",
           "tAs",
-          "Hg",
+          "tHg",
           "Al",
           "Cr",
           "Ni",
@@ -1117,12 +1187,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pradhan2023-heracleum-nepalense-elements",
         "content_pin": {
-          "content_sha256": "476dc4c65d81feef2ccf0496995a4020cbc62d7333e9b2f6b1ffd2e922164175",
-          "content_bytes": 3935,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7db8f47bb3d76ca4cbe902052b9a9e384b4dea5c124df0af9a657f612febb3d0",
+          "content_bytes": 5141,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/pradhan2023-heracleum-nepalense-elements.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/pradhan2023-heracleum-nepalense-elements.md | sha256sum"
         }
       },
       {
@@ -1144,12 +1214,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rahman2021-dhaka-turmeric-heavy-metals",
         "content_pin": {
-          "content_sha256": "236f23fa14cd9e86fd8edff8ff4599f29d3a38d91784b9435b610fc87f834507",
-          "content_bytes": 5298,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "85d86c2bf030bb726eaee276de3e0970b75732fcb0c5d95fbdd98ece6d254793",
+          "content_bytes": 5341,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/rahman2021-dhaka-turmeric-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/rahman2021-dhaka-turmeric-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -1168,12 +1238,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sabri2025-moroccan-spices-casablanca-metals",
         "content_pin": {
-          "content_sha256": "f48020eb005b295a4edb8d1fd555e6eb903f5bc81429e87cc25868178b287973",
-          "content_bytes": 14214,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "5126288ee15c58c767c8d3112686db8509b05e80c7985bcd55f68f8c0eea088c",
+          "content_bytes": 14275,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sabri2025-moroccan-spices-casablanca-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sabri2025-moroccan-spices-casablanca-metals.md | sha256sum"
         }
       },
       {
@@ -1193,12 +1263,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salmani2023-herbal-teas-metals-review",
         "content_pin": {
-          "content_sha256": "0957b53e00cd6c568af0b899fb9e0ae7ed03490d25a054189873030f3cb7ef56",
-          "content_bytes": 5571,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "92689ad7e06fee9bd4766aef9baf18d33679930e340d36647cf693c1587ca47d",
+          "content_bytes": 5632,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
         }
       },
       {
@@ -1213,12 +1283,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sargsyan2024-rapid-market-spice-lead",
         "content_pin": {
-          "content_sha256": "c55a4fdbf4c3fcba1fb00ed34e0a7baca0ad710aac7010e24b8176a6f776675b",
-          "content_bytes": 4849,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b6aee5ac2161dab6e1e6687084c9195573ab6a7a6e2ff7590d4e38bb7a705eaf",
+          "content_bytes": 5114,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sargsyan2024-rapid-market-spice-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sargsyan2024-rapid-market-spice-lead.md | sha256sum"
         }
       },
       {
@@ -1237,12 +1307,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/savic2019-serbian-spices-minerals",
         "content_pin": {
-          "content_sha256": "fb6642dbe40f0b8d90745e5bd34379a9bda1ad4c66df66845895d95e3685f0ed",
-          "content_bytes": 4689,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ab9555f7a926baf18e392803a529b6108040b4e6e94ac958a52101807a742790",
+          "content_bytes": 4737,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/savic2019-serbian-spices-minerals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/savic2019-serbian-spices-minerals.md | sha256sum"
         }
       },
       {
@@ -1258,12 +1328,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shah2025-commercial-turmeric-lead-chromium",
         "content_pin": {
-          "content_sha256": "1ddaccd0a9a14e4e6d1bcf4bdf8527bf4b070c09ae647bce1c4ecb0379e53ae3",
-          "content_bytes": 4104,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b06e9f8dedaaafaded1b6e34d6c8cb0473a5b0fb70c66d1893f7a121f74dc4f6",
+          "content_bytes": 4290,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/shah2025-commercial-turmeric-lead-chromium.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/shah2025-commercial-turmeric-lead-chromium.md | sha256sum"
         }
       },
       {
@@ -1282,12 +1352,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/spex2023-hot-sauce-chili-powder-metals",
         "content_pin": {
-          "content_sha256": "4ce6fc7d1537fe3b0be40955b718c36067c8804d6480280483a3dea8a8ba3421",
-          "content_bytes": 6604,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "6194931b68f56fb5c0fc3f1c1856d7afa9bac9151e2ec759214e452d1bc52bc4",
+          "content_bytes": 6665,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
         }
       },
       {
@@ -1308,12 +1378,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tinggi2025-spices-herbs-queensland",
         "content_pin": {
-          "content_sha256": "bbe65977d14bffd764ef27f684ba83ac7ca534b7ed350dcfc78abc8ed2966db3",
-          "content_bytes": 16434,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3bbf33cdd7038d080fd174d95d7a1cd3c7c73039190b84ff979f0c6e27fe5a46",
+          "content_bytes": 16495,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/tinggi2025-spices-herbs-queensland.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/tinggi2025-spices-herbs-queensland.md | sha256sum"
         }
       },
       {
@@ -1329,12 +1399,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/troeschel2024-cinnamon-applesauce-lead",
         "content_pin": {
-          "content_sha256": "82386326265cbccd2f1aaf874fe8e06f066e9141be8c5f34c18ce53de0a168e6",
-          "content_bytes": 4375,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c8995bb0054b7c16a27c466f473833a36ec03136ea7a23311768e9bd2b995684",
+          "content_bytes": 4436,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/troeschel2024-cinnamon-applesauce-lead.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/troeschel2024-cinnamon-applesauce-lead.md | sha256sum"
         }
       },
       {
@@ -1357,12 +1427,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "78d8ccf0654ebe2b200d5b8a38a84256b3414c2440a6d304bdfa07f40cb75e06",
-          "content_bytes": 20536,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7497381125a241669e08759195d6e87c76b852554cc0e57c76f43b51416f500a",
+          "content_bytes": 20886,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
         }
       },
       {
@@ -1379,12 +1449,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2025-sers-nanogap-hg-pb-cd",
         "content_pin": {
-          "content_sha256": "8134af4553af7ad8d72b8f12b2764d8bf69e93d5aa4809dd05fc456f66c02f16",
-          "content_bytes": 2888,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "fec0d9df1a9e9ca44f6c5b6d82a2ff97461b2ad2d66439e8e4a1e48955e51ee2",
+          "content_bytes": 2949,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/wang2025-sers-nanogap-hg-pb-cd.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wang2025-sers-nanogap-hg-pb-cd.md | sha256sum"
         }
       },
       {
@@ -1400,12 +1470,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices",
         "content_pin": {
-          "content_sha256": "9a33a5403ad8e08106c7f91444256d789da1d71652d5f9eda54b43b05ca473f0",
-          "content_bytes": 10808,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "16da4223e5451f04f0c9750aaf2a87682fe809119e577657587bf21bf70b7089",
+          "content_bytes": 10869,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices.md | sha256sum"
         }
       },
       {
@@ -1420,12 +1490,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zakrzewska2023-cadmium-soil-micp-parsley",
         "content_pin": {
-          "content_sha256": "09832e655a6d59e98b94818afc313f114c43ac0068a8c1b320b308a0c96d9a66",
-          "content_bytes": 4679,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "8504a98e43ef58ef65962581fe8ba2963bc3595bd77fdd2b23f3ad88930fce59",
+          "content_bytes": 4740,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/zakrzewska2023-cadmium-soil-micp-parsley.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/zakrzewska2023-cadmium-soil-micp-parsley.md | sha256sum"
         }
       },
       {
@@ -1441,12 +1511,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ziyaina2014-libya-spices-lead-cadmium",
         "content_pin": {
-          "content_sha256": "1937405c9d8cb7a2deda29ee2fa36c87ce328597f3ac2ee885be6ad7d57cbe78",
-          "content_bytes": 5840,
-          "last_commit_sha": "6ef3fdc",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d396f794cdfe6aad206c0c08af66e5382927b2ebd66756a75554243ed3f1742c",
+          "content_bytes": 6190,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6ef3fdc:wiki/sources/ziyaina2014-libya-spices-lead-cadmium.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ziyaina2014-libya-spices-lead-cadmium.md | sha256sum"
         }
       }
     ]
@@ -1462,7 +1532,7 @@
     "total_claims": 2,
     "cited_claims": 1,
     "uncited_claims": 1,
-    "distinct_cited_sources": 61,
+    "distinct_cited_sources": 64,
     "audit_rows_on_cited_targets": 0,
     "provenance_complete": false
   }

@@ -48,8 +48,19 @@ export interface SeedPanel {
   blurb: string
   /** Additional slug prefixes that light this item as active. */
   extraPrefixes?: string[]
-  /** Exactly two groups — they render as the panel's two columns. */
-  groups: [SeedGroup, SeedGroup]
+  /**
+   * The panel's link columns. CHROME-SPEC §1.2: **three, never two.** The type
+   * used to be a 2-tuple, which is why every panel shipped two columns into a
+   * `repeat(3, minmax(0, 1fr))` grid — a layout that computes correctly and
+   * renders a third of the panel empty. The generator has always mapped over
+   * this array generically; only the type pinned it.
+   *
+   * The third column is Cross-cuts: what cuts across every page in the panel
+   * rather than being one of them. It ships only where every item resolves to a
+   * real page (the generator hard-fails otherwise), and below two surviving
+   * items it is handed back rather than padded.
+   */
+  groups: SeedGroup[]
   /** Footer link text; `{n}` is replaced with the live hub total. */
   allLabel: string
 }
@@ -63,7 +74,7 @@ export const seedPanels: SeedPanel[] = [
     allLabel: "All {n} metals",
     groups: [
       {
-        heading: "Most-referenced",
+        heading: "Most referenced",
         children: [
           { label: "Lead", slug: "metals/lead", count: "sources" },
           { label: "Cadmium", slug: "metals/cadmium", count: "sources" },
@@ -77,7 +88,7 @@ export const seedPanels: SeedPanel[] = [
       {
         // Species matter more than totals for arsenic and mercury: iAs and MeHg
         // are the toxicologically governing forms and carry their own limits.
-        heading: "By species",
+        heading: "By regulated species",
         children: [
           { label: "Inorganic arsenic", slug: "metals/arsenic-inorganic", count: "sources" },
           { label: "Total arsenic", slug: "metals/arsenic-total", count: "sources" },
@@ -88,18 +99,42 @@ export const seedPanels: SeedPanel[] = [
           { label: "Antimony", slug: "metals/antimony", count: "sources" },
         ],
       },
+      {
+        // What cuts across every metal rather than being one of them: where the
+        // limits are, when they moved, how metals get into a consumable, and how
+        // they are measured.
+        heading: "Cross-cuts",
+        children: [
+          { label: "Limits by metal", slug: "regulators/by-metal" },
+          { label: "Regulatory timeline", slug: "regulations/timeline" },
+          { label: "Upstream pathways", slug: "supply-chain" },
+          { label: "Testing methods", slug: "testing", count: "dir:wiki/testing" },
+        ],
+      },
     ],
   },
   {
     key: "ingredients",
     label: "Foods",
-    panelLabel: "Foods & Ingredients",
+    panelLabel: "Foods & ingredients",
     slug: "ingredients",
     blurb: "Commodity-level contamination profiles: why an ingredient accumulates, and how much.",
     allLabel: "All {n} ingredients",
     groups: [
       {
-        heading: "By commodity",
+        heading: "Most studied",
+        children: [
+          { label: "Rice", slug: "ingredients/rice", count: "sources" },
+          { label: "Cocoa", slug: "ingredients/cocoa", count: "sources" },
+          { label: "Fish", slug: "ingredients/fish", count: "sources" },
+          { label: "Leafy greens", slug: "ingredients/leafy-greens", count: "sources" },
+          { label: "Black pepper", slug: "ingredients/black-pepper", count: "sources" },
+          { label: "Seaweed", slug: "ingredients/seaweed", count: "sources" },
+          { label: "Cinnamon", slug: "ingredients/cinnamon", count: "sources" },
+        ],
+      },
+      {
+        heading: "By commodity group",
         children: [
           { label: "Fruits", slug: "ingredients", anchor: "fruits", count: "group" },
           { label: "Vegetables", slug: "ingredients", anchor: "vegetables", count: "group" },
@@ -121,15 +156,15 @@ export const seedPanels: SeedPanel[] = [
         ],
       },
       {
-        heading: "Most-studied ingredients",
+        // The upstream pathways that put a metal in a crop in the first place.
+        // They cut across every commodity, which is why they are here rather
+        // than repeated on each ingredient page's siblings.
+        heading: "Cross-cuts",
         children: [
-          { label: "Rice", slug: "ingredients/rice", count: "sources" },
-          { label: "Cocoa", slug: "ingredients/cocoa", count: "sources" },
-          { label: "Fish", slug: "ingredients/fish", count: "sources" },
-          { label: "Leafy greens", slug: "ingredients/leafy-greens", count: "sources" },
-          { label: "Black pepper", slug: "ingredients/black-pepper", count: "sources" },
-          { label: "Seaweed", slug: "ingredients/seaweed", count: "sources" },
-          { label: "Cinnamon", slug: "ingredients/cinnamon", count: "sources" },
+          { label: "Soil-to-plant transfer", slug: "supply-chain/soil-to-plant-transfer" },
+          { label: "Irrigation & soil amendments", slug: "supply-chain/irrigation-and-soil-amendments" },
+          { label: "Aquatic bioaccumulation", slug: "supply-chain/aquatic-bioaccumulation" },
+          { label: "Atmospheric deposition", slug: "supply-chain/atmospheric-deposition" },
         ],
       },
     ],
@@ -137,9 +172,10 @@ export const seedPanels: SeedPanel[] = [
   {
     key: "products",
     label: "Products",
+    panelLabel: "Product categories",
     slug: "products",
     blurb: "Consumer-category risk profiles, built from the ingredients that drive them.",
-    allLabel: "All {n} product categories",
+    allLabel: "All {n} categories",
     groups: [
       {
         heading: "Infant & child",
@@ -165,6 +201,16 @@ export const seedPanels: SeedPanel[] = [
           { label: "Mineral sunscreen", slug: "products/baby-sunscreen-mineral", count: "sources" },
         ],
       },
+      {
+        // What cuts across categories regardless of matrix: the container, the
+        // measurement, and the limit surface.
+        heading: "Cross-cuts",
+        children: [
+          { label: "Packaging & food contact", slug: "supply-chain/aluminum-based-packaging" },
+          { label: "Testing & verification", slug: "testing", count: "dir:wiki/testing" },
+          { label: "Limits by jurisdiction", slug: "regulations/by-jurisdiction" },
+        ],
+      },
     ],
   },
   {
@@ -183,12 +229,12 @@ export const seedPanels: SeedPanel[] = [
           { label: "EFSA cadmium TWI", slug: "regulations/efsa-cadmium-twi" },
           { label: "California Prop 65 lead", slug: "regulations/oehha-lead-prop65" },
           { label: "EU nickel maximum levels", slug: "regulations/eu-2024-1987-nickel-maximum-levels" },
-          { label: "By jurisdiction", slug: "regulations/by-jurisdiction" },
-          { label: "Regulatory timeline", slug: "regulations/timeline" },
+          { label: "EU contaminants maximum levels", slug: "regulations/eu2023-contaminants-maximum-levels" },
+          { label: "Codex cadmium MLs", slug: "regulations/codex-cadmium-mls" },
         ],
       },
       {
-        heading: "Regulatory bodies",
+        heading: "Bodies",
         children: [
           { label: "US FDA", slug: "regulators/us-fda" },
           { label: "EFSA", slug: "regulators/efsa" },
@@ -199,25 +245,34 @@ export const seedPanels: SeedPanel[] = [
           { label: "All bodies", slug: "regulators" },
         ],
       },
+      {
+        // Views ACROSS the instruments rather than one of them.
+        heading: "Cross-cuts",
+        children: [
+          { label: "By jurisdiction", slug: "regulations/by-jurisdiction" },
+          { label: "Regulatory timeline", slug: "regulations/timeline" },
+          { label: "Limits by metal", slug: "regulators/by-metal" },
+        ],
+      },
     ],
   },
   {
     key: "evidence",
     label: "Evidence",
+    panelLabel: "Evidence & methods",
     slug: "trust",
     blurb: "How the Index is built, what it covers, and where it is still thin.",
     extraPrefixes: ["coverage", "synthesis", "methodology", "audits", "sources", "testing", "errata"],
     allLabel: "The trust center",
     groups: [
       {
-        heading: "Methods & coverage",
+        heading: "Methods",
         children: [
           { label: "Methodology", slug: "methodology", count: "dir:wiki/methodology" },
           { label: "Search strategy", slug: "methodology/search-strategy" },
           { label: "Corpus coverage (PRISMA)", slug: "coverage" },
           { label: "Editorial standards", slug: "editorial-standards" },
           { label: "Defensibility audits", slug: "audits", count: "dir:wiki/audits" },
-          { label: "Errata & corrections", slug: "errata" },
         ],
       },
       {
@@ -227,6 +282,15 @@ export const seedPanels: SeedPanel[] = [
           { label: "Synthesis findings", slug: "synthesis", count: "dir:wiki/synthesis" },
           { label: "Testing methods", slug: "testing", count: "dir:wiki/testing" },
           { label: "ICP-MS", slug: "testing/icp-ms" },
+          { label: "EN 1811 nickel release", slug: "testing/en-1811-nickel-release" },
+        ],
+      },
+      {
+        // Neither a method nor a piece of evidence: what a reader DOES with the
+        // corpus. All three were filed in the wrong column.
+        heading: "Cross-cuts",
+        children: [
+          { label: "Errata & corrections", slug: "errata" },
           { label: "Licensing & reuse", slug: "licensing" },
           { label: "Ask the Index", slug: "ask" },
         ],

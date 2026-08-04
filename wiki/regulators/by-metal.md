@@ -3,7 +3,7 @@ title: "Regulatory positions by metal"
 description: "Every tracked regulatory body's stance on each metal, side by side. Auto-regenerated from wiki/static/regulations.json on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-06-23
+updated: 2026-08-01
 ---
 
 # Regulatory positions by metal
@@ -101,8 +101,6 @@ For each metal, every regulatory body the index profiles and the position it has
 | [[regulators/eu-commission\|EC]] | Maximum level | 0.10–40 mg/kg | [[regulations/eu-2024-1987-nickel-maximum-levels\|maximum levels of nickel in certain foodstuffs]] | 2024 |
 | [[regulators/eu-commission\|EC]] | Monitoring | monitoring recommendation | [[regulations/eu-2024-907-nickel-monitoring\|Commission Recommendation]] | 2024 |
 | [[regulators/eu-commission\|EC]] | Directive | see instrument | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94 27 EC]] | — |
-| [[regulators/eu-commission\|EC]] | Maximum level | see instrument | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023 915 maximum levels for contamin…]] | — |
-| [[regulators/oehha\|OEHHA]] | Prop 65 | listed-no-safe-harbor none | [[regulations/oehha-nickel-prop65\|Nickel Listings]] | 2018 |
 
 ## Aluminium
 

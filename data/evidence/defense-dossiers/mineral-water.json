@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/mineral-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "faa5c3cb4282fe6ff79f8857c9bbd9e870ca140a09aac2534bdf05d5ff94f3cc",
-      "content_bytes": 10982,
-      "last_commit_sha": "c679df8",
-      "last_commit_date": "2026-06-08",
+      "content_sha256": "91e36a9627cf9a3f03b44157db55d2902f965e4a7209a728591dc6bacff348af",
+      "content_bytes": 12534,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c679df8:wiki/products/mineral-water.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/mineral-water.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 5,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-lead-contam-2010",
         "content_pin": {
-          "content_sha256": "421e0c58e8b48e343db3e51c2a6f2124c8b2a9445e02635bbc5617d4a9acb3d2",
-          "content_bytes": 21903,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "398e3cb49cc8dd26ce7110fbd03c1accf5dea5da05ad1fcef2998d4d5800c0b0",
+          "content_bytes": 21954,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "230bb3d82ddc62a76d5958a93fe400e7f0153d95462223e42f41d106db5f3829",
-          "content_bytes": 30180,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "1d6698efc1af2795a1c8cc6aa2c49f125eb9305e07e6a72bc1366fb9f9237841",
+          "content_bytes": 30241,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -83,16 +83,20 @@
         "value_record_count": 0,
         "metal_species": [
           "Pb",
+          "Cd",
+          "tHg",
+          "Sn",
+          "tAs",
           "Cr"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ranjbar2025-mineral-water-metals",
         "content_pin": {
-          "content_sha256": "71dc4f3108e78e668960776db1fff95ad119d2c92f6d382d520a92d3d3ae6ef0",
-          "content_bytes": 2993,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "d97b759fe724d3d8c5e4aabdf63005fc27f151cd08c02d88d8e56bf332adaffb",
+          "content_bytes": 8293,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
         }
       },
       {
@@ -123,12 +127,84 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "c86013e2348f872d54033c147accde35b6be373e8ed66e82790634a6c6e6e5d3",
-          "content_bytes": 21471,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c1063a76e8e2d244da8c5ebd5f6309b4f147b8b4b5146ca55e61ef8bba8b3881",
+          "content_bytes": 21824,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sawadogo2023-burkina-faso-packaged-water-metals",
+        "title": "Transfer of bisphenol A and trace metals from plastic packaging to mineral water in Ouagadougou, Burkina Faso",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sawadogo2023-burkina-faso-packaged-water-metals",
+        "content_pin": {
+          "content_sha256": "feab3804dbe80c4941f9db8f0f4869e55969d86ac2f1b828f157ef53b669e844",
+          "content_bytes": 3001,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/sawadogo2023-burkina-faso-packaged-water-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stahl2017-aluminum-food-contact-part1",
+        "title": "Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
+        "content_pin": {
+          "content_sha256": "a5023a8877b61d2623844b4e4159c0d4c7c9c7d9bfa7d97aa2ff706a8862b423",
+          "content_bytes": 7451,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ungureanu2022-bottled-water-toxic-elements",
+        "title": "Occurrence of Potentially Toxic Elements in Bottled Drinking Water-Carcinogenic and Non-Carcinogenic Risks Assessment in Adults via Ingestion",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ba",
+          "Co",
+          "Cu",
+          "Zn",
+          "Mn",
+          "Ni",
+          "Li",
+          "Fe",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Sb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ungureanu2022-bottled-water-toxic-elements",
+        "content_pin": {
+          "content_sha256": "59ea63bcb284f48a9ace21024d825529204adff28b2ad8fd85a4b654aba30924",
+          "content_bytes": 4381,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/ungureanu2022-bottled-water-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -151,12 +227,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "78d8ccf0654ebe2b200d5b8a38a84256b3414c2440a6d304bdfa07f40cb75e06",
-          "content_bytes": 20536,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "7497381125a241669e08759195d6e87c76b852554cc0e57c76f43b51416f500a",
+          "content_bytes": 20886,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
         }
       }
     ]

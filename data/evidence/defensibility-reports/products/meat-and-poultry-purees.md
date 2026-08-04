@@ -2,7 +2,7 @@
 source_page: wiki/products/meat-and-poultry-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9eef467167441d91666bd73a3846490b04c8ff81c5424b9c21accba9573f01a9
+source_page_sha256: de1962781f201646e328d475560e6f8b4ddd6e4d76cde354c1bdf8adee9f6472
 total_claims: 70
 cited_claims: 70
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 25
 distinct_cited_sources: 19
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 22
-audit_log_total_rows: 972
+audit_log_total_rows: 2426
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 19 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 22 |
-| audit log rows read | 972 |
+| audit log rows read | 2426 |
 
 ## Page-level audit rows
 

@@ -1,0 +1,568 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/tea-infusions",
+    "title": "Tea Infusions",
+    "hmtc_category": 5,
+    "hmtc_row": 10,
+    "category_label": null,
+    "age_range": null,
+    "label": "Tea Infusions",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "Al",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/tea-infusions",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "a6c1a1d4a6144ab98e57ff87767e4d8dc1f53bfb44d8376f33d0b5224d60756f",
+      "content_bytes": 14267,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show 50de6ab21:wiki/products/tea-infusions.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 22,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/abraheem2022-tea-coffee-lead-cadmium",
+        "title": "Determination of Lead and Cadmium Concentration in Different Samples of Tea and Coffee Circulating in the Libyan Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abraheem2022-tea-coffee-lead-cadmium",
+        "content_pin": {
+          "content_sha256": "672af1807cad829e7ebe2ced1cebc7076bb9227d656bc61ed80c9de272efcb69",
+          "content_bytes": 3003,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/brzezicha-cirocka2016-green-tea-geographic-origins",
+        "title": "Monitoring of essential and heavy metals in green tea from different geographical origins",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Zn",
+          "Co",
+          "Mn",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brzezicha-cirocka2016-green-tea-geographic-origins",
+        "content_pin": {
+          "content_sha256": "186d9a389a5691ad8ebced1a6a0b45455526339a9d5241857fab1d25aa507d9e",
+          "content_bytes": 4950,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/brzezicha-cirocka2016-green-tea-geographic-origins.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dehghani2020-food-lead-cadmium-mspe",
+        "title": "Magnetic Multi-Walled Carbon Nanotubes Modified with Polythiophene as a Sorbent for Simultaneous Solid Phase Microextraction of Lead and Cadmium from Water and Food Samples",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dehghani2020-food-lead-cadmium-mspe",
+        "content_pin": {
+          "content_sha256": "bd2c2d0afae95d37bde49d44a9bb972e3b29d85fe7e93c01ac0d22ab3a902abb",
+          "content_bytes": 5859,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/deoliveira2018-traditional-herbal-teas-metals",
+        "title": "Metal concentrations in traditional and herbal teas and their potential risks to human health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/deoliveira2018-traditional-herbal-teas-metals",
+        "content_pin": {
+          "content_sha256": "20cd19fe7a77bb725a139df29d716f53791251a16fb4a743c1b2069a30dcd8e2",
+          "content_bytes": 8107,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/deoliveira2018-traditional-herbal-teas-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "1d6698efc1af2795a1c8cc6aa2c49f125eb9305e07e6a72bc1366fb9f9237841",
+          "content_bytes": 30241,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fogarasi2019-tea-aluminum",
+        "title": "Aluminium contamination of several types of tea",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fogarasi2019-tea-aluminum",
+        "content_pin": {
+          "content_sha256": "d49b1cecc6a770dbc9d43902fca1e49c7afade4e467e9279a307b7929bd3f347",
+          "content_bytes": 3021,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/grzadka2024-tea-radioisotopes-heavy-metals",
+        "title": "Do You Know What You Drink? Comparative Research on the Contents of Radioisotopes and Heavy Metals in Different Types of Tea from Various Parts of the World",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Mo",
+          "Ni",
+          "Pb",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/grzadka2024-tea-radioisotopes-heavy-metals",
+        "content_pin": {
+          "content_sha256": "e93dc0d9cf9dffd398ac3855db65471e58fa2c52799d9ed7e419f49745bc255b",
+          "content_bytes": 8653,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/grzadka2024-tea-radioisotopes-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hamitoglu2026-turkiye-tea-metals",
+        "title": "Determination of essential and toxic elements in black teas sold in Turkiye",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Pb",
+          "tAs",
+          "Cd",
+          "Mg",
+          "Fe",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hamitoglu2026-turkiye-tea-metals",
+        "content_pin": {
+          "content_sha256": "169e93406a38eafd58ff8004a23dd275e96e8597cb7e0aa378f8dd6419116c6f",
+          "content_bytes": 3195,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/hamitoglu2026-turkiye-tea-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jurowski2023-heavy-metals-green-tea-poland",
+        "title": "The Control and Comprehensive Safety Assessment of Heavy Metal Impurities (As, Pb, and Cd) in Green Tea Camellia sinensis (L.) Samples (Infusions) Available in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jurowski2023-heavy-metals-green-tea-poland",
+        "content_pin": {
+          "content_sha256": "d75715ac3a531a8df9b5a72d161887d57cbe0b7fbbd4a38cc0c98aed3d957d0e",
+          "content_bytes": 4760,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/jurowski2023-heavy-metals-green-tea-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kazeminia2023-tea-heavy-metals-review",
+        "title": "Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "As",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Hg",
+          "Al",
+          "Fe",
+          "Ba",
+          "Ni",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kazeminia2023-tea-heavy-metals-review",
+        "content_pin": {
+          "content_sha256": "8ddfa45407924a5a6c7219d4c1c5c61a29cfa913cc77666c420a54efccf26689",
+          "content_bytes": 3767,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/kazeminia2023-tea-heavy-metals-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kowalski2024-herbal-tea-heavy-metals",
+        "title": "Assessment of heavy metal contamination and associated health risk indices in commercial herbal tea samples using inductively coupled plasma mass spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kowalski2024-herbal-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "3e1d5cbf5b0d813b022cff9c25e9121fa1fd412e7e2fb0f8b012069e375bfb70",
+          "content_bytes": 3105,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/kowalski2024-herbal-tea-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lee2019-food-processing-heavy-metals-migration",
+        "title": "Effects of food processing methods on migration of heavy metals to food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lee2019-food-processing-heavy-metals-migration",
+        "content_pin": {
+          "content_sha256": "2664374d9d227b1b1bce5901efdc05980bb25e3d8a03d48066b568db4654e632",
+          "content_bytes": 16987,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/lee2019-food-processing-heavy-metals-migration.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2013-tea-chemical-contaminants-review",
+        "title": "Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2013-tea-chemical-contaminants-review",
+        "content_pin": {
+          "content_sha256": "87b90756c90aa143b1198ca2ed5bfd0bf4ec223aa600cffba2b5c1d2b2bce5c0",
+          "content_bytes": 3855,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/li2013-tea-chemical-contaminants-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2015-green-tea-jiangxi-al-heavy-metals",
+        "title": "A comparison of the potential health risk of aluminum and heavy metals in tea leaves and tea infusion of commercially available green tea in Jiangxi, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2015-green-tea-jiangxi-al-heavy-metals",
+        "content_pin": {
+          "content_sha256": "934505ba801b7b82f6013ace357a980d61c8ce07c14f77fc0aa830aad1d2867e",
+          "content_bytes": 5671,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/li2015-green-tea-jiangxi-al-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2015-toxic-elements-infant-food-poland",
+        "title": "Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
+        "content_pin": {
+          "content_sha256": "0711cff1f583497b6e4236461e8ebdfa509094ac748fb54c16fd62d60549612d",
+          "content_bytes": 10366,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/masri2025-toxicant-foods-california",
+        "title": "Assessing Dietary Consumption of Toxicant-Laden Foods and Beverages by Age and Ethnicity in California: Implications for Proposition 65",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/masri2025-toxicant-foods-california",
+        "content_pin": {
+          "content_sha256": "4c6f6d6953c96374cf5841f64de2b44623728e39a29369d2501d95bbdf53a960",
+          "content_bytes": 34829,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/masri2025-toxicant-foods-california.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ozturk2024-al-tea-infusion-teapot",
+        "title": "Determination of aluminium concentrations in black, green, and white tea samples: effects of different infusion times and teapot species on aluminium release",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ozturk2024-al-tea-infusion-teapot",
+        "content_pin": {
+          "content_sha256": "f99d0d84fbafdf241dfcfde20bb53406c1a5a817ee747cc38ab88f54b95960d2",
+          "content_bytes": 12297,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/ozturk2024-al-tea-infusion-teapot.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/szymczykowska2026-matcha-elemental-composition",
+        "title": "Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/szymczykowska2026-matcha-elemental-composition",
+        "content_pin": {
+          "content_sha256": "17943d902402170379261c0bf24669cad08e4197748d740e1b950f772bbf0782",
+          "content_bytes": 26061,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/taha2026-saudi-tea-metals",
+        "title": "Heavy metals in commercial tea brands in Saudi Arabia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Mn",
+          "Pb",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/taha2026-saudi-tea-metals",
+        "content_pin": {
+          "content_sha256": "5c2d2889272788cc7629ef27df3480dc3f91a6cf440c0fc157449fc340280b11",
+          "content_bytes": 2786,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/taha2026-saudi-tea-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wu2025-se-enriched-tea-cadmium-anhui",
+        "title": "Cadmium in the Soil–Tea–Infusion Continuum of Selenium-Enriched Gardens: Implications for Food Safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wu2025-se-enriched-tea-cadmium-anhui",
+        "content_pin": {
+          "content_sha256": "887552f6975259ff0727221512967b4200525e82ba4983c6b19896e07a239e61",
+          "content_bytes": 12026,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/wu2025-se-enriched-tea-cadmium-anhui.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yao2021-tieguanyin-white-tea-heavy-metals",
+        "title": "Dietary risk assessment of fluoride, lead, chromium, and cadmium through consumption of Tieguanyin tea and white tea",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yao2021-tieguanyin-white-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "ebc8ce8850325a9e1899554517efdea08a2fea822deb0f6219ecdf5b743ccc6e",
+          "content_bytes": 10906,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/yao2021-tieguanyin-white-tea-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yao2022-tieguanyin-tea-heavy-metals",
+        "title": "Prediction and Health Risk Assessment of Copper, Lead, Cadmium, Chromium, and Nickel in Tieguanyin Tea: A Case Study from Fujian, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yao2022-tieguanyin-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "776289cf319ca1712992b5b89b240ee108d00908a8500e6807f4c03b401c5fff",
+          "content_bytes": 11792,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/yao2022-tieguanyin-tea-heavy-metals.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/tea-infusions.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

@@ -22,18 +22,44 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-snacks-crackers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "34124a1e55bd7da85ff34ef8c5c5454f86ad18acd5a569fa2e45106a8160ffe1",
-      "content_bytes": 12428,
-      "last_commit_sha": "1ca3eb0",
-      "last_commit_date": "2026-06-06",
+      "content_sha256": "6704ae449aa094e5a02cc9104a50aa99c6658d3516db7e5c1f7dfd6727c72bb1",
+      "content_bytes": 13894,
+      "last_commit_sha": "50de6ab21",
+      "last_commit_date": "2026-07-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1ca3eb0:wiki/products/rice-snacks-crackers.md | sha256sum"
+      "verify_command": "git show 50de6ab21:wiki/products/rice-snacks-crackers.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 10,
+    "contributing_source_count": 13,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/anses2026-tds3-metals-france",
+        "title": "Opinion of the French Agency for Food, Environmental and Occupational Health & Safety on the results of the Third French Total Diet Study (TDS3) - Acrylamide, aluminium, silver, cadmium, mercury and lead",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Ag",
+          "Cd",
+          "Pb",
+          "tHg",
+          "iHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/anses2026-tds3-metals-france",
+        "content_pin": {
+          "content_sha256": "40ddf08f51ee8f9bcfc1b00d1250a41a80563604119bb57a92554fbca11bf4e1",
+          "content_bytes": 6904,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/anses2026-tds3-metals-france.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/brombach2017-methylmercury-european-commercial-rice",
         "title": "Methylmercury varies more than one order of magnitude in commercial European rice",
@@ -47,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brombach2017-methylmercury-european-commercial-rice",
         "content_pin": {
-          "content_sha256": "8b96fa4c332e3cd8f976263ce0ca9193aecf5216d1b26417ccdbe15fc357e28f",
-          "content_bytes": 12608,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "be43986b836cc4ca1081f2888b4121517a7c9bb73e51266885461c7a80ed76d9",
+          "content_bytes": 12669,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
         }
       },
       {
@@ -68,12 +94,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/carey2018-rice-dilution-infant-food-eu-arsenic",
         "content_pin": {
-          "content_sha256": "933286e04d404e5efedd506ec67f06bb71c2bbea392983b21a978570ac61fa74",
-          "content_bytes": 5635,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "3e7a6ec47c56a55a4817827101e3e638c209cf6c83506dbb8cccb298be4565b2",
+          "content_bytes": 5742,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md | sha256sum"
         }
       },
       {
@@ -88,12 +114,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-organoarsenic-species",
         "content_pin": {
-          "content_sha256": "b7c85e9b69870c35556907fc281219dba5d114d6b359601f2880f8f8475b7fe0",
-          "content_bytes": 24322,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2777c51846af593af34c057bade713049340040a88ee94d1e946a9ca9342faea",
+          "content_bytes": 24675,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/efsa2024-organoarsenic-species.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/efsa2024-organoarsenic-species.md | sha256sum"
         }
       },
       {
@@ -109,12 +135,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
         "content_pin": {
-          "content_sha256": "f02fe4a58a05b3208525565e8cb17b4d27b633e8df365948026f03bf5d0f6e0b",
-          "content_bytes": 6368,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "30a1c873ca1090560a04dd8c802cd1dd2374e1d01074384dab7b38059d282ff0",
+          "content_bytes": 6429,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
         }
       },
       {
@@ -130,12 +156,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "0417709aa917d4becfe732be3790c58ab85bda0631900b8288396b0f16b709f0",
-          "content_bytes": 18678,
-          "last_commit_sha": "1be66b2",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "2ce343b4d24f09f6932fd93f4f09d5e15838798d30d0609488280ff1eaffa389",
+          "content_bytes": 18751,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1be66b2:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -157,12 +183,54 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/guo2017-asian-rice-derived-products-metals",
         "content_pin": {
-          "content_sha256": "a5af694c75eecded3880f9c916b11c60afb6ab5c49ee83eb2561cfe6b2ddbfd1",
-          "content_bytes": 5455,
-          "last_commit_sha": "4f218cf",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "c307092f792858ab512b2201bb3084809509a0dbd94043f2bd7d0dc1124e43c4",
+          "content_bytes": 5805,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4f218cf:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/meharg2008-rice-arsenic-literature-review",
+        "title": "Levels of arsenic in rice - literature review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/meharg2008-rice-arsenic-literature-review",
+        "content_pin": {
+          "content_sha256": "e2c23519a5fd94bbe76877076368c7058f0ea9f523c56d4c93cd0316c52d8f77",
+          "content_bytes": 10005,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/meharg2008-rice-arsenic-literature-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/noh2023-arsenic-rice-snacks-korea",
+        "title": "Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/noh2023-arsenic-rice-snacks-korea",
+        "content_pin": {
+          "content_sha256": "8a71994b42df60de1d1432e637bcbf55c5d34ef8197134ac2ec1de6f38131709",
+          "content_bytes": 15452,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50de6ab21:wiki/sources/noh2023-arsenic-rice-snacks-korea.md | sha256sum"
         }
       },
       {
@@ -178,12 +246,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-based-infant-food-cadmium-arsenic",
         "content_pin": {
-          "content_sha256": "ecb10d5937a02167886d92b93add8e457e2112ff286ef51f59c0080296bdf4c0",
-          "content_bytes": 6648,
-          "last_commit_sha": "e5daa6d",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "950c52bac23f5d5482c7e91487328d148828f724b9e1d3042e2b77c212d12856",
+          "content_bytes": 6721,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show e5daa6d:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
         }
       },
       {
@@ -198,12 +266,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2017-infant-arsenic-rice-weaning",
         "content_pin": {
-          "content_sha256": "f4190858979441879d96891e0994463ee52d9ad1364336632c0e788e324228d4",
-          "content_bytes": 9286,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "47f580cec516a7466b380149959df4ad80c9844586686308cfdad1fbf1c74f75",
+          "content_bytes": 9347,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/signes-pastor2017-infant-arsenic-rice-weaning.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/signes-pastor2017-infant-arsenic-rice-weaning.md | sha256sum"
         }
       },
       {
@@ -222,12 +290,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals",
         "content_pin": {
-          "content_sha256": "e3cec4adb364a479d84c003d60e5fa3c8ef7cf1dadc74b3d874d312a368a888e",
-          "content_bytes": 19257,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "b838aefc9aed08339a920c0f43f4055830c6de17778f6e60fc2e69c2e36fc3e6",
+          "content_bytes": 19296,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -243,12 +311,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wehmeier2023-ias-rice-cola-field-method",
         "content_pin": {
-          "content_sha256": "65ce8ab53e506523c2a936833fbcf83160da2d20c19e20d4868be0c2da28eee5",
-          "content_bytes": 5094,
-          "last_commit_sha": "c679df8",
-          "last_commit_date": "2026-06-08",
+          "content_sha256": "ac8113c7e96c4d543f7d54b3f63ed09ae1dc06cdd3a1bffabf8a85efcb2e83fe",
+          "content_bytes": 5155,
+          "last_commit_sha": "50de6ab21",
+          "last_commit_date": "2026-07-27",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c679df8:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
+          "verify_command": "git show 50de6ab21:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
         }
       }
     ]
