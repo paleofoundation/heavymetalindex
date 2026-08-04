@@ -45,7 +45,7 @@ const ANALYTES = [
   { disp: "Cadmium (Cd)", sym: "Cd", tok: ["Cd"] },
   { disp: "Mercury (tHg)", sym: "Hg", tok: ["tHg", "MeHg", "Hg"] },
   { disp: "Nickel (Ni)", sym: "Ni", tok: ["Ni"] },
-  { disp: "Aluminium (Al)", sym: "Al", tok: ["Al"] },
+  { disp: "Aluminium (Al)", sym: "Al", tok: ["Al"], keepSplit: true }, // soy formula is inherently Al-rich → keep the law's cow/soy split
   { disp: "Tin (Sn)", sym: "Sn", tok: ["Sn"] },
   { disp: "Total chromium (Cr)", sym: "Cr", tok: ["Cr-total", "Cr"] },
 ]
@@ -64,7 +64,7 @@ function cell(country, toks, sub) {
   const other = pick(cand)
   const rawv = Math.min(...other.map((x) => n(x.value_ug_kg)))
   const v = sub.basis === "as_sold" ? rawv * RECON : rawv / RECON
-  return { v: Math.round(v * 100) / 100, conv: true, raw: rawv, rawbasis: other[0].basis_class, fallback: fb }
+  return { v: Math.round(v), conv: true, raw: rawv, rawbasis: other[0].basis_class, fallback: fb } // whole µg/kg for a published limit
 }
 
 // ---- headline: the picks themselves (subcategory × analyte) ----
@@ -116,19 +116,26 @@ is both faster and unimpeachable.
 ## The standard — the lowest government limit in the world (µg/kg)\n\n`
 md += "One number per analyte, per product form: **the strictest maximum level any government sets, anywhere.** "
 md += "The cow-milk and soy formulations are an internal calculation step, not a published distinction. Where the "
-md += "law itself splits them (cadmium, nickel, aluminium), the published limit is the **lower** of the two, so the "
-md += "single category number sits at or below every national law for both formulations and never certifies a product "
-md += "above its own legal ceiling.\n\n"
+md += "law splits them (cadmium, nickel), the published limit is the **lower** of the two, so the single category number "
+md += "sits at or below every national law for both formulations and never certifies a product above its own legal "
+md += "ceiling. Aluminium is the one exception — soy formula is inherently aluminium-rich, so it keeps the law's own "
+md += "cow / soy split rather than penalise soy for a trait its regulator already accounts for (see the table note).\n\n"
 md += "| Analyte | Powder (as-sold) | Ready-to-feed (as-consumed) |\n|---|--:|--:|\n"
+const fmtCell = (x) => x == null || x.v == null ? "monitored" : fmt(x.v) + (x.fallback ? "ᵈ" : "")
+const subPick = (form, soy, a) => pickFor(SUBCATS.find((s) => s.key === `${form}-${soy}`), a)
 for (const a of ANALYTES) {
-  const p = mergedPick(FORMS[0], a), r = mergedPick(FORMS[1], a)
-  const cell = (x) => x.v == null ? "monitored" : fmt(x.v) + (x.fallback ? "ᵈ" : "")
-  md += `| ${a.disp} | ${cell(p)} | ${cell(r)} |\n`
+  if (a.keepSplit) {
+    md += `| ${a.disp} | ${fmtCell(subPick("powder", "cow", a))} cow / ${fmtCell(subPick("powder", "soy", a))} soy | ${fmtCell(subPick("rtf", "cow", a))} cow / ${fmtCell(subPick("rtf", "soy", a))} soy |\n`
+  } else {
+    md += `| ${a.disp} | ${fmtCell(mergedPick(FORMS[0], a))} | ${fmtCell(mergedPick(FORMS[1], a))} |\n`
+  }
 }
 md += "\n*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). "
-md += "ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is provisional pending confirmation of the India primary-text basis. "
+md += "ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is the FSSAI (India) as-sold value, confirmed against the 2011 primary text. "
+md += "**Aluminium is published as the law's own cow / soy split**: soy formula is inherently aluminium-rich — which is why regulators set the soy limit at 2× cow — so adopting the lower number would penalise soy for a trait its own regulator already accounts for. Every other analyte is a single lowest-worldwide number. "
 md += "The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*\n\n"
-const summaryJson = Object.fromEntries(FORMS.map((f) => [f.key, Object.fromEntries(ANALYTES.map((a) => [a.tok[0], mergedPick(f, a).v]))]))
+const summaryJson = Object.fromEntries(FORMS.map((f) => [f.key, Object.fromEntries(ANALYTES.map((a) =>
+  a.keepSplit ? [a.tok[0], { cow: subPick(f.key, "cow", a).v, soy: subPick(f.key, "soy", a).v }] : [a.tok[0], mergedPick(f, a).v]))]))
 fs.writeFileSync(path.join(REPO, "data/workbench/standards/infant-formula-v3-picks.json"), JSON.stringify(summaryJson, null, 2))
 
 // ---- method / statuses ----

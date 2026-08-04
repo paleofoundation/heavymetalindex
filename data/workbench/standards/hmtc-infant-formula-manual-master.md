@@ -36,7 +36,7 @@ is both faster and unimpeachable.
 
 # The standard — the lowest government limit in the world (µg/kg)
 
-One number per analyte, per product form: **the strictest maximum level any government sets, anywhere.** The cow-milk and soy formulations are an internal calculation step, not a published distinction. Where the law itself splits them (cadmium, nickel, aluminium), the published limit is the **lower** of the two, so the single category number sits at or below every national law for both formulations and never certifies a product above its own legal ceiling.
+One number per analyte, per product form: **the strictest maximum level any government sets, anywhere.** The cow-milk and soy formulations are an internal calculation step, not a published distinction. Where the law splits them (cadmium, nickel), the published limit is the **lower** of the two, so the single category number sits at or below every national law for both formulations and never certifies a product above its own legal ceiling. Aluminium is the one exception — soy formula is inherently aluminium-rich, so it keeps the law's own cow / soy split rather than penalise soy for a trait its regulator already accounts for (see the table note).
 
 | Analyte | Powder (as-sold) | Ready-to-feed (as-consumed) |
 |---|--:|--:|
@@ -45,11 +45,11 @@ One number per analyte, per product form: **the strictest maximum level any gove
 | Cadmium (Cd) | 10 | 5 |
 | Mercury (tHg) | monitored | monitored |
 | Nickel (Ni) | 250 | 100 |
-| Aluminium (Al) | 3500 | 500 |
-| Tin (Sn) | 35000 | 5000 |
+| Aluminium (Al) | 3500 cow / 7000 soy | 500 cow / 1000 soy |
+| Tin (Sn) | 5000 | 714 |
 | Total chromium (Cr) | 2000ᵈ | monitored |
 
-*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is provisional pending confirmation of the India primary-text basis. The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*
+*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is the FSSAI (India) as-sold value, confirmed against the 2011 primary text. **Aluminium is published as the law's own cow / soy split**: soy formula is inherently aluminium-rich — which is why regulators set the soy limit at 2× cow — so adopting the lower number would penalise soy for a trait its own regulator already accounts for. Every other analyte is a single lowest-worldwide number. The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*
 
 # How certification works against these limits
 
@@ -86,13 +86,13 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 
 | Analyte | EU | UK | CX | CA | CN | IN | BR | GS | AN | **HMTc limit** | Binding source |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
-| Lead (Pb) | 20 | 50 | 70ᶜ | 70ᶜ | 80 | 140ᶜ | 70ᶜ | 70ᶜ | 70ᶜ | **20** | EU |
+| Lead (Pb) | 20 | 50 | 70ᶜ | 70ᶜ | 80 | 200 | 70ᶜ | 70ᶜ | 70ᶜ | **20** | EU |
 | Inorganic arsenic (iAs) | 20 |  |  |  |  |  | 140ᶜ |  |  | **20** | EU |
-| Cadmium (Cd) | 10 | 10 |  |  |  | 700ᶜ | 70ᶜ |  |  | **10** | EU |
+| Cadmium (Cd) | 10 | 10 |  |  |  | 100 | 70ᶜ |  |  | **10** | EU |
 | Mercury (tHg) |  |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
 | Nickel (Ni) | 250 |  |  |  |  |  |  |  |  | **250** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  |  | 3500ᶜ | **3500** | AN (500 as-consumed ×7) |
-| Tin (Sn) |  |  |  |  |  | 35000ᶜ |  |  |  | **35000** | IN (5000 as-consumed ×7) |
+| Tin (Sn) |  |  |  |  |  | 5000 |  |  |  | **5000** | IN |
 | Total chromium (Cr) |  |  |  |  | 2000ᵈ |  |  |  |  | **2000** | CN *(broad-dairy fallback)* |
 
 *Canned formula tin (separate product form): EU 50000, UK 50000 µg/kg. ᵈ = broad-dairy fallback (no formula-specific limit exists). ᶜ = basis-converted.*
@@ -101,13 +101,13 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 
 | Analyte | EU | UK | CX | CA | CN | IN | BR | AN | **HMTc limit** | Binding source |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
-| Lead (Pb) | 20 | 50 | 70ᶜ | 70ᶜ | 80 | 140ᶜ | 70ᶜ | 70ᶜ | **20** | EU |
+| Lead (Pb) | 20 | 50 | 70ᶜ | 70ᶜ | 80 | 200 | 70ᶜ | 70ᶜ | **20** | EU |
 | Inorganic arsenic (iAs) | 20 |  |  |  |  |  | 140ᶜ |  | **20** | EU |
-| Cadmium (Cd) | 20 | 20 |  |  |  | 700ᶜ | 70ᶜ |  | **20** | EU |
+| Cadmium (Cd) | 20 | 20 |  |  |  | 100 | 70ᶜ |  | **20** | EU |
 | Mercury (tHg) |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
 | Nickel (Ni) | 400 |  |  |  |  |  |  |  | **400** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  | 7000ᶜ | **7000** | AN (1000 as-consumed ×7) |
-| Tin (Sn) |  |  |  |  |  | 35000ᶜ |  |  | **35000** | IN (5000 as-consumed ×7) |
+| Tin (Sn) |  |  |  |  |  | 5000 |  |  | **5000** | IN |
 | Total chromium (Cr) |  |  |  |  | 2000ᵈ |  |  |  | **2000** | CN *(broad-dairy fallback)* |
 
 *Canned soy formula tin (separate product form): EU 50000, UK 50000 µg/kg. ᵈ = broad-dairy fallback (no formula-specific limit exists). ᶜ = basis-converted.*
@@ -118,11 +118,11 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
 | Lead (Pb) | 10 | 10 | 10 | 10 | 10 | 20 | 10 | 10 | 10 | **10** | EU |
 | Inorganic arsenic (iAs) | 10 |  |  |  |  |  | 20 |  |  | **10** | EU |
-| Cadmium (Cd) | 5 | 5 |  |  |  | 100 | 10 |  |  | **5** | EU |
+| Cadmium (Cd) | 5 | 5 |  |  |  | 14ᶜ | 10 |  |  | **5** | EU |
 | Mercury (tHg) |  |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
 | Nickel (Ni) | 100 |  |  |  |  |  |  |  |  | **100** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  |  | 500 | **500** | AN |
-| Tin (Sn) |  |  |  |  |  | 5000 |  |  |  | **5000** | IN |
+| Tin (Sn) |  |  |  |  |  | 714ᶜ |  |  |  | **714** | IN (5000 powder ÷7) |
 | Total chromium (Cr) |  |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
 
 *Canned formula tin (separate product form): EU 50000, UK 50000 µg/kg. ᵈ = broad-dairy fallback (no formula-specific limit exists). ᶜ = basis-converted.*
@@ -133,11 +133,11 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
 | Lead (Pb) | 10 | 10 | 10 | 10 | 10 | 20 | 10 | 10 | **10** | EU |
 | Inorganic arsenic (iAs) | 10 |  |  |  |  |  | 20 |  | **10** | EU |
-| Cadmium (Cd) | 10 | 10 |  |  |  | 100 | 10 |  | **10** | EU |
+| Cadmium (Cd) | 10 | 10 |  |  |  | 14ᶜ | 10 |  | **10** | EU |
 | Mercury (tHg) |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
 | Nickel (Ni) | 100 |  |  |  |  |  |  |  | **100** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  | 1000 | **1000** | AN |
-| Tin (Sn) |  |  |  |  |  | 5000 |  |  | **5000** | IN |
+| Tin (Sn) |  |  |  |  |  | 714ᶜ |  |  | **714** | IN (5000 powder ÷7) |
 | Total chromium (Cr) |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
 
 *Canned soy formula tin (separate product form): EU 50000, UK 50000 µg/kg. ᵈ = broad-dairy fallback (no formula-specific limit exists). ᶜ = basis-converted.*
