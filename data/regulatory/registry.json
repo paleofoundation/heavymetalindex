@@ -85,6 +85,11 @@
       "code": "br",
       "name": "Brazil (ANVISA / Mercosur)",
       "region": "South America"
+    },
+    {
+      "code": "mx",
+      "name": "Mexico (SSA/COFEPRIS)",
+      "region": "North America"
     }
   ],
   "instruments": [
@@ -861,6 +866,42 @@
       "verify_note": "pdf_url confirmed by direct download: HTTP 200, content-type application/pdf, Content-Disposition filename='9789241660648_eng.pdf', 2,949,350 bytes, 75 pages (a bare HEAD request without a Referer returned an HTTP 500 from the DSpace/IRIS REST API — a full GET with a standard browser User-Agent and Referer, i.e. what any real browser sends, returns 200 cleanly). pdftotext confirms front matter 'WHO FOOD ADDITIVES SERIES: 64 ... Prepared by the Seventy-third meeting of the Joint FAO/WHO Expert Committee on Food Additives (JECFA), World Health Organization, Geneva, 2011' and table-of-contents entries 'Cadmium (addendum)' and 'Lead (addendum)', plus body sections titled 'CADMIUM (addendum)' with cadmium occurrence/excretion data. Companion documents independently verified the same way: WHO TRS 959 (72nd meeting) at https://iris.who.int/server/api/core/bitstreams/cf852bd0-d911-4d9d-a3d1-3b022827a7ec/content — HTTP 200, application/pdf, filename 'WHO_TRS_959_eng.pdf', 1,750,364 bytes, 34 pages; pdftotext confirms sections '3.2 Arsenic' and '3.5 Mercury'. WHO TRS 922 (61st meeting) at https://iris.who.int/server/api/core/bitstreams/34f83d75-1bc5-4480-b245-c2076fac96f5/content — HTTP 200, application/pdf, filename 'WHO_TRS_922.pdf', 1,034,374 bytes, 188 pages; pdftotext confirms section '7.2 Methylmercury' with the PTWI derivation narrative.",
       "notes": "Not a maximum-level instrument -- the health basis behind them (Pb BMDL withdrawn PTWI; Cd PTMI 25 ug/kg-bw/month; iAs BMDL0.5; MeHg PTWI 1.6 ug/kg-bw). Underpins the 'no established safe threshold' framing for Tier 1 toxics. | agent: This is the toxicological BASIS, not a maximum-level-setting instrument (per the research brief's own framing) — hence status 'assessment'. One JECFA meeting does not cover all four analytes, so this entry synthesizes three: (1) 73rd meeting (2010, publ. 2011, primary pdf_url above) — LEAD: the existing PTWI of 25 µg/kg bw/week was WITHDRAWN as no longer health-protective, with no replacement single guidance value; the Committee instead used a benchmark-dose/margin-of-exposure approach against BMDL01/BMDL10 values for IQ loss, systolic blood pressure and chronic kidney disease endpoints in the dose-response range of typical dietary exposures. CADMIUM: the prior PTWI of 7 µg/kg bw/week was replaced with a Provisional Tolerable MONTHLY Intake (PTMI) of 25 µg/kg bw/month (≈0.83 µg/kg bw/day), reflecting cadmium's long biological half-life; a urinary-cadmium excretion threshold of 5.24 µg/g creatinine was adopted as the nephrotoxicity reference point. (2) 72nd meeting (Feb 2010, publ. 2011, WHO TRS 959) — INORGANIC ARSENIC: the prior PTWI of 15 µg/kg bw/week (≈2.1 µg/kg bw/day) was WITHDRAWN as being in the same range as the newly derived BMDL0.5 (dose associated with 0.5% extra incidence of lung cancer) of 3.0 µg/kg bw/day (range 2–7 µg/kg bw/day across dietary exposure estimates), so the old PTWI could no longer be considered protective. INORGANIC MERCURY: PTWI revised to 4 µg/kg bw/week (replacing the older total-mercury PTWI of 5 µg/kg bw/week, which was withdrawn and explicitly said to no longer apply to non-fish dietary mercury exposure). (3) 61st meeting (2003, publ. 2004, WHO TRS 922) — METHYLMERCURY: PTWI of 1.6 µg/kg bw/week (down from an earlier 3.3 µg/kg bw/week), based on epidemiological cohorts of fish-eating populations and developmental neurotoxicity endpoints; this value has not been revised since and remains JECFA's current MeHg guidance. Free-mirror/navigation alternatives: the JECFA online database (https://apps.who.int/food-additives-contaminants-jecfa-database/) is a searchable per-chemical index into all meeting outputs; inchem.org hosts older monographs as stable HTML/PDF (e.g. methylmercury monograph https://www.inchem.org/documents/jecfa/jecmono/v52je01.htm, WHO Food Additives Series 52); short 'Summary and Conclusions' (SC) documents exist for many individual meetings on cdn.who.int (e.g. jecfa91, jecfa96 patterns confirmed reachable) but a working direct link specific to JECFA/72/SC or JECFA/73/SC was not confirmed in this session — the full meeting reports above were used instead and are more complete anyway.",
       "mirror_urls": []
+    },
+    {
+      "id": "mexico-nom-242-ssa1-2009-pesca",
+      "jurisdiction": "Mexico (SSA/COFEPRIS)",
+      "jurisdiction_code": "mx",
+      "region": "North America",
+      "body": "Secretaria de Salud (SSA) / COFEPRIS",
+      "instrument": "NOM-242-SSA1-2009 — Productos y servicios. Productos de la pesca frescos, refrigerados, congelados y procesados. Especificaciones sanitarias y metodos de prueba",
+      "reference": "NOM-242-SSA1-2009",
+      "year": 2009,
+      "last_revised": 2011,
+      "status": "in-force",
+      "scope_type": "category-specific",
+      "categories": [
+        "fishery-products"
+      ],
+      "analytes": [
+        "Pb",
+        "Cd",
+        "tAs",
+        "MeHg",
+        "Sn"
+      ],
+      "speciation": [],
+      "infant_child_scope": [],
+      "pdf_url": "https://sitios1.dif.gob.mx/alimentacion/docs/NOM-242-SSA1-2011_productos_de_la_pesca.pdf",
+      "mirror_urls": [],
+      "landing_url": "https://dof.gob.mx/nota_detalle.php?codigo=5177531&fecha=10/02/2011",
+      "access": "free-official",
+      "language": "es",
+      "verified": true,
+      "verify_note": "VERIFIED 2026-08-05 (128pp, DOF 10/02/2011). Seccion 7.1.8 Metales pesados backs ALL 9 live MX rows exactly: 7.1.8.1 fresh/chilled/frozen — tAs crustaceans+bivalve molluscs 80, Cd molluscs 2.0 / others 0.5, MeHg tuna-marlin-grouper-bonito 1.0 / others 0.5, Pb fish+crustaceans 0.5 / molluscs 1.0 mg/kg; 7.1.8.2 processed — Cd 0.5, MeHg 1.0/0.5, Pb 1.0, Sn 100 mg/kg. Closes the MX provenance gap.",
+      "local_docs": [
+        "raw/regulatory/mx/mexico-nom-242-ssa1-2009-productos-pesca.pdf"
+      ],
+      "notes": "Fishery products only — no infant/child categories, so it does not touch Category 1. NOT NOM-247-SSA1-2008 (cereals), which was an incorrect guess in the 2026-08-04 retrieval queue."
     }
   ],
   "source_packages": [
