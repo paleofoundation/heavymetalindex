@@ -6,6 +6,16 @@ the live evidence table (`data/evidence/regulatory_limits.csv`, 250 rows), and t
 
 Priority is by risk to the standards, not by convenience.
 
+> **STATUS 2026-08-05 — retrieval queue effectively CLOSED.** Karen supplied the
+> EU consolidated text, Codex CXS 72/156, the Korean Food Code Chapter 3, ANVISA
+> IN 160/2022 (which exposed a real defect, now fixed), GSO 193:2021 and the
+> current CXS 193; China GB 2762-2025 and Mexico NOM-242 were fetched here.
+> Registry: **18 instruments, 16 verified.** One precise target remains: the
+> Korean Food Code **Chapter 2 → 3 → 5) 오염물질** subsection for 영·유아용 이유식
+> (Chapter 3 turned out to carry only microbiological specs and sodium).
+> Tier 1 and Tier 3 below are fully resolved; kept for the audit trail.
+
+
 ---
 
 ## Tier 1 — Deadline-driven or value-affecting
