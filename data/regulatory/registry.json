@@ -95,7 +95,7 @@
       "region": "Global",
       "body": "Codex Alimentarius Commission (Food and Agriculture Organization / World Health Organization)",
       "instrument": "General Standard for Contaminants and Toxins in Food and Feed",
-      "reference": "CXS 193-1995",
+      "reference": "CXS 193-1995 (last amended 2025)",
       "year": 1995,
       "last_revised": 2025,
       "status": "in-force",
@@ -130,13 +130,13 @@
       "landing_url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%3A%2F%2Fworkspace.fao.org%2Fsites%2Fcodex%2Fstandards%2FCXS+193-1995%2FCXS_193e.pdf",
       "access": "free-official",
       "language": "en",
-      "verified": false,
-      "verify_note": "2026-08-04: the pulled/packaged Codex PDF (byte-identical from FAO proxy and the package) is a ~2009-vintage rendering (footer stops at Amended 2009, metadata 2010-05-08), NOT the current 2023 revision. Its Pb infant-formula value reads 0.02 mg/kg but a 2015 sibling file reads 0.01 — UNSETTLED. Re-source the genuine current CXS 193 Schedule I before treating any Codex value as baseline.",
-      "notes": "The global reference standard; the biggest single gap. Sets MLs for Pb (incl. infant formula 0.02 mg/kg ready-to-use), Cd, iAs in rice, MeHg in fish, Sn in canned foods. | agent: The mirror used for content verification is dated through the 2019 amendment round only; WebSearch indicates the Codex Committee on Contaminants in Food (CCCF) / CAC48 (Nov 2025) adopted further amendments (e.g., lead MLs for dried bark and dried culinary herbs) not reflected in that mirror, and the true current fao.org text could not be read directly due to the Cloudflare gate. Because of this, the analytes/infant_child_scope arrays above reflect ONLY what was directly confirmed (infant-formula lead); Codex may have additional infant-specific provisions (e.g., an infant-rice inorganic-arsenic ML paralleling the EU/UK 0.10 mg/kg figure) adopted after 2019 that this verification pass could not confirm one way or the other -- flag for a follow-up check against the live fao.org text from a real browser or a 2023-2025-dated mirror. A working free-mirror alternative (same caveat about vintage) is https://www.isdi.org/wp-content/uploads/2020/04/CXS-193-1995.pdf. Codex sets a Tin ML for canned foods generally (250 mg/kg) but, unlike the EU/UK, did not show a canned-infant-formula-specific Sn row in the verified mirror. | FILE MISLABELED: the on-file PDF is ~2009, not 2023 — current Schedule I must be re-sourced.",
+      "verified": true,
+      "verify_note": "SETTLED 2026-08-04 against the authoritative current text (86pp, 'Adopted in 1995, last amended in 2025'; amended 2010-2023 + 2024/2025 lead additions). LEAD schedule: infant formula / FSMP for infants / follow-up formula = 0.01 mg/kg, ML applies to the formula AS CONSUMED. Cereal-based foods for infants and young children = 0.02 mg/kg, whole commodity AS SOLD, not reconstituted. Ready-to-eat meals for infants = 0.02 mg/kg. Codex sets NO cadmium ML and no infant-specific arsenic ML for infant formula. The earlier 0.02 lead figure is the PRE-2014 value.",
+      "notes": "The global reference standard. Sets MLs for Pb (infant formula 0.01 mg/kg as-consumed), Cd, iAs in rice (polished 0.2, husked 0.35), MeHg in fish, Sn in canned foods. TRAP: every freely-fetchable FAO static mirror serves a STALE text — fileadmin/livestockgov and the sh-proxy fetch both return a 2009-vintage 44-page PDF (produced 2010), and fileadmin/agns returns a 2011 39-page copy; both state lead-in-infant-formula 0.02, superseded in 2014. The current text is Cloudflare-gated and must be retrieved with a real browser.",
       "local_docs": [
-        "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/Codex_CXS193_2023.pdf",
+        "raw/regulatory/codex/codex-cxs-193-1995-current-2025.pdf",
         "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/Codex_CXS193_2015.pdf",
-        "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/Codex_CCCF_Cadmium_Review.pdf"
+        "raw/regulatory/codex/codex-cxs-193-1995-STALE-2009-vintage.pdf"
       ]
     },
     {

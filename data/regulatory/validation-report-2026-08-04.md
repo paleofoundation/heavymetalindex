@@ -53,15 +53,42 @@ tin 250 vs real **5.0** mg/kg, 50× too loose; Korea Pb cereal 0.2 vs 0.01), oth
 understate it (India Pb/Cd, 10× too strict). A "strictest-ML" lookup would be
 corrupted either way.
 
-## A deeper problem: mislabeled source documents
+## A deeper problem: mislabeled source documents — NOW RESOLVED
 
 `Codex_CXS193_2023.pdf` is **not the 2023 revision**. Its footer stops at "Amended
-2009" and its PDF metadata is dated 2010-05-08; a sibling `Codex_CXS193_2015.pdf`
-gives a different lead value (0.01 vs 0.02 mg/kg for infant formula). This file is
-byte-identical to the Codex PDF the fetch engine pulled from FAO's proxy. So the
-Codex baseline itself is unsettled until the genuine current Schedule I text is
-sourced. Provenance is compromised at the document level, not only in the
-extraction.
+2009" and its PDF metadata is dated 2010-05-08. This file is byte-identical
+(SHA-256) to the Codex PDF the fetch engine pulled from FAO's proxy.
+
+**Settled 2026-08-04** against the authoritative current text — 86 pages,
+"Adopted in 1995, **last amended in 2025**" (retrieved by Karen through a browser;
+filed at `raw/regulatory/codex/codex-cxs-193-1995-current-2025.pdf`):
+
+| Codex LEAD (current) | ML | Portion / basis |
+|---|---|---|
+| Infant formula, FSMP for infants, follow-up formula | **0.01 mg/kg** | whole commodity — "applies to the formula **as consumed**" |
+| Cereal-based foods for infants and young children | 0.02 mg/kg | whole commodity **as sold; not reconstituted** |
+| Ready-to-eat meals for infants and young children | 0.02 mg/kg | whole commodity |
+
+Codex sets **no cadmium ML** and **no infant-specific arsenic ML** for infant
+formula (arsenic is set on rice: polished 0.2, husked 0.35 mg/kg) — confirming
+that most "Codex" rows in the extraction were fabricated.
+
+**The 0.02 mg/kg lead figure is the pre-2014 value**, superseded when Codex halved
+it to 0.01 in 2014. Every freely-fetchable FAO static mirror still serves that
+superseded text: `fileadmin/livestockgov` and the sh-proxy fetch both return the
+2009-vintage 44-page PDF, and `fileadmin/agns` returns a 2011 39-page copy. The
+current text is Cloudflare-gated and requires a real browser. **Automated
+retrieval of Codex from FAO silently yields a 16-year-old standard** — a trap now
+recorded in the registry entry.
+
+### Impact on the live standards table
+The live `data/evidence/regulatory_limits.csv` already carried the **correct**
+current values (Codex Pb infant formula 10 µg/kg as-consumed, wording matching the
+2025 text verbatim). One defect was found and fixed: the Codex cereal-based-foods
+row was labelled `as consumed` where the standard says **as sold, not
+reconstituted** — corrected to `as sold` / `as_sold`. The mislabel was in the
+conservative direction (it applied a dry-basis limit to the diluted product), so
+it created no permissive gap.
 
 ## The method lesson
 
