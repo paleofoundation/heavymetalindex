@@ -733,10 +733,10 @@
       "jurisdiction_code": "gcc",
       "region": "Middle East",
       "body": "GCC Standardization Organization (GSO)",
-      "instrument": "GSO 193:2021 — Contaminants and Toxins in Food and Feed (Gulf Technical Regulation, 1st edition, approved 1 July 2021; supersedes GSO CODEX STAN 193:2008; adapted from Codex Alimentarius CXS 193-1995)",
+      "instrument": "GSO 193:2021 — Gulf Technical Regulation: Contaminants and toxins in food and feed (Edition 1, 01/07/2021)",
       "reference": "GSO 193:2021",
       "year": 2021,
-      "last_revised": 2023,
+      "last_revised": 2021,
       "status": "in-force",
       "scope_type": "horizontal",
       "categories": [
@@ -746,11 +746,11 @@
       "analytes": [
         "Pb",
         "Cd",
+        "iAs",
         "tAs",
         "tHg",
-        "Sn",
         "MeHg",
-        "iAs"
+        "Sn"
       ],
       "speciation": [
         "iAs"
@@ -765,14 +765,16 @@
       "landing_url": "https://www.gso.org.sa/store/standards/GSO:781074/GSO%20193:2021?lang=en",
       "access": "paid-official",
       "language": "en",
-      "verified": false,
-      "verify_note": "No free pdf_url exists to verify. The GSO store landing page itself was fetched and confirmed: title 'Contaminants and toxins in food and feed', Gulf Technical Regulation, 1st edition (current), approved 01 July 2021, priced 285 currency units (English, 71 pages) / 310 (Arabic, 95 pages), 'Add to cart' / 'Download Preview' options present — no free full-text download. The store's own 'Download Preview' resolves to an official-looking preview render (gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/gso-193-2021-en.html) that was fetched and contains only the cover page, bilingual (Arabic/English) foreword, table of contents and scope/references sections — not the actual maximum-level annex tables, so the infant_child_scope and analyte list above are inferred from GSO 193's stated Codex-193 lineage and general subject matter, NOT independently confirmed against GSO's own annex text.",
+      "verified": true,
+      "verify_note": "VERIFIED 2026-08-04 against the licensed primary (75pp, Edition 1, 01/07/2021, English). Infant/child MLs (mg/kg): Pb infant formula/FSMP/follow-up = 0.01 (whole commodity, ML applies to formula AS CONSUMED); Cd powdered formula from cows-milk protein/hydrolysates = 0.01, liquid = 0.005, powdered from soya protein isolates = 0.02; Cd processed cereal-based + baby foods = 0.04; iAs rice for baby and infant food = 0.1 (determined as inorganic arsenic); Sn canned infant formulae and follow-on formulae = 50 and canned baby foods/processed cereal-based = 50 (both EXCLUDING dried and powdered products). NO mercury ML for infant categories. GSO mirrors Codex (cites CXS 72-1981/156-1987) and adopts the EU-style cadmium formulation split.",
       "notes": "GSO standards are typically sold via the GSO Store, so expect manual retrieval. A USDA FAS GAIN report often summarizes the Gulf metal limits as a free secondary source. | agent: Sold only via the GSO Standards Store (and mirrored at national-adopter storefronts, e.g. Bahrain's bsmd.moic.gov.bh and Oman's dgsm.gso.org.sa, same price). A newer draft, GSO TC05-SC2/FDS1 193:2025 (prepared by Saudi SASO), is at Final Draft Stage (FDS) per the GSO projects tracker (https://www.gso.org.sa/sp/projects/34668?lang=en) as of this session — NOT yet approved or published, so GSO 193:2021 remains the current in-force instrument. Because GSO 193 is explicitly modelled on Codex Alimentarius CXS 193-1995 ('General Standard for Contaminants and Toxins in Food and Feed'), the free, official Codex text is the closest available free proxy for likely-overlapping scope/limits, though GSO's actual regional annex may diverge — verified working at https://www.fao.org/fileadmin/user_upload/livestockgov/documents/1_CXS_193e.pdf (HTTP 200, application/pdf, 1,113,869 bytes) and a 2015-updated edition at https://www.fao.org/input/download/standards/17/CXS_193e_2015.pdf (not independently re-verified this session). USDA FAS GAIN backup, confirmed working (HTTP 200, application/pdf, 1,032,845 bytes): 'FAIRS Country Report Annual' for Saudi Arabia, report SA2025-0013 — https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=FAIRS+Country+Report+Annual_Riyadh_Saudi+Arabia_SA2025-0013.pdf — discusses GSO 193:2021 and the broader Saudi/GCC contaminants framework (references Saudi's practice of adopting the strictest of Codex/EU/US limits when no GSO-specific limit exists) but is a general-purpose trade-regulatory digest, not a substitute for the standard's own tables. GSO CODEX STAN 193:2008 is the directly superseded prior edition (also sold, not fetched). | GSO contaminants DRAFT 2019 (33p) retrieved in the 2026-08-03 package; the sold GSO 193:2021 final still needs purchase. USDA GAIN Saudi FAIRS 2022 summarizes the Gulf limits.",
       "mirror_urls": [],
       "local_docs": [
+        "raw/regulatory/gcc/gcc-gso-193-2021-LICENSED-DO-NOT-REDISTRIBUTE.pdf",
         "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/Gulf_GSO_Contaminants_Toxins_Draft2019.pdf",
         "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/GCC_Saudi_USDA_GAIN_FAIRS_2022.pdf"
-      ]
+      ],
+      "license_restriction": "COPYRIGHT PROTECTED / LICENSED COPY (Order No. GSO#23.3006). The document states copying and networking are prohibited. Keep in the private corpus only (raw/ is gitignored). Never commit, republish, or reproduce its tables in the public wiki. Only the factual limit VALUES may inform standards, with citation."
     },
     {
       "id": "who-jecfa-heavy-metal-tox-basis",
