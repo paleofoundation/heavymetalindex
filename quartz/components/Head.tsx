@@ -5,6 +5,7 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import { hasScholarlyPdf } from "./scholarlyPdf"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -35,11 +36,13 @@ function CitationMetadata({
   slug,
   title,
   socialUrl,
+  hasPdf,
 }: {
   frontmatter: Record<string, unknown> | undefined
   slug: FullSlug | undefined
   title: string
   socialUrl: string
+  hasPdf: boolean
 }) {
   if (!frontmatter) return null
   const slugStr = (slug ?? "") as string
@@ -90,7 +93,6 @@ function CitationMetadata({
       frontmatterString(frontmatter.updated) ??
       frontmatterString(frontmatter.created)
     const wikiDoi = frontmatterString(frontmatter.wiki_doi)
-    const isSynthesis = frontmatter.type === "synthesis" || slugStr.startsWith("synthesis/")
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
@@ -109,8 +111,9 @@ function CitationMetadata({
         )}
         <meta name="citation_abstract_html_url" content={socialUrl} />
         <meta name="citation_fulltext_html_url" content={socialUrl} />
-        {/* Google Scholar strongly prefers a PDF; synthesis pages ship one. */}
-        {isSynthesis && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
+        {/* Google Scholar strongly prefers a PDF. hasScholarlyPdf is the same
+            test the generator applies, so this never points at a missing file. */}
+        {hasPdf && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
         {wikiDoi && <meta name="citation_doi" content={wikiDoi} />}
       </>
     )
@@ -213,6 +216,7 @@ export default (() => {
           slug={fileData.slug}
           title={title}
           socialUrl={socialUrl}
+          hasPdf={hasScholarlyPdf(fileData)}
         />
         <meta name="generator" content="Quartz" />
 

@@ -4,7 +4,7 @@ rule_id: ca-prop65-ab2762-cosmetics
 jurisdiction: US-CA
 agency: OEHHA (Proposition 65); State of California (AB 2762, Health and Safety Code)
 program: Safe Drinking Water and Toxic Enforcement Act of 1986 (Prop 65); California Toxic-Free Cosmetics Act (AB 2762, 2020)
-metal: multiple (Prop 65: Pb, Cd, and others as exposure thresholds; AB 2762: intentionally-added Hg prohibition)
+metal: "multiple (Prop 65: Pb, Cd, and others as exposure thresholds; AB 2762: intentionally-added Hg prohibition)"
 matrix: cosmetics
 limit_value: null
 limit_unit: null
@@ -71,3 +71,13 @@ Prop 65 is enforced by the Attorney General, district attorneys, and private enf
 
 - AB 2762 (2019-2020), Toxic-Free Cosmetics Act — California Legislative Information: <https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB2762>
 - Proposition 65 safe-harbor levels for lead and cadmium as transcribed on [[regulations/oehha-lead-prop65]] and [[regulations/oehha-cadmium-prop65]] (source documents: OEHHA NSRL/MADL publications, oehha.ca.gov)
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [38cedd111](https://github.com/paleofoundation/heavymetalindex/commit/38cedd111) | 2026-08-04 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

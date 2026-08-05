@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import citeScript from "./scripts/citeSuperscript.inline"
+import { hasScholarlyPdf } from "./scholarlyPdf"
 
 // The proof's right rail (.rail): light bordered action buttons + a provenance
 // card. Emits the proof's exact classes so proof.css styles it identically to
@@ -40,8 +41,19 @@ export default (() => {
       (fileData as any).corpusCount ??
       undefined
 
+    // The typeset PDF of this page, where postbuild-synthesis-pdf.mjs emits one.
+    // hasScholarlyPdf is the same test the generator applies, so the action is
+    // absent rather than broken on the pages that have no PDF.
+    const pdfUrl = hasScholarlyPdf(fileData) ? `/${fileData.slug}.pdf` : undefined
+
     return (
       <>
+        {pdfUrl && (
+          <a class="action" href={pdfUrl}>
+            {btnIcon(ICON.download)}
+            <span>Download PDF</span>
+          </a>
+        )}
         <a class="action" href="#sources">
           {btnIcon(ICON.bell)}
           <span>Follow</span>
