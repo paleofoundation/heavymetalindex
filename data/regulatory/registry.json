@@ -497,7 +497,7 @@
       "reference": "GB 2762-2022",
       "year": 2022,
       "last_revised": 2022,
-      "status": "in-force",
+      "status": "superseded-2026-09-02",
       "scope_type": "horizontal",
       "categories": [
         "all-foods",
@@ -534,7 +534,7 @@
       "language": "zh",
       "verified": true,
       "verify_note": "WebFetch + local PDF read confirmed the gdgrain.gd.gov.cn PDF is the genuine GB 2762-2022 full text: cover page reads 'GB 2762—2022 食品安全国家标准 食品中污染物限量', issued 2022-06-30, implemented 2023-06-30, jointly issued by NHC and SAMR, superseding GB 2762-2017. Read pages 1-15 directly and confirmed infant-specific rows: Pb – infant formula (婴幼儿配方食品) 0.08 mg/kg as solid product with an 8:1 liquid-to-solid conversion factor, infant complementary food (婴幼儿辅助食品) 0.2 mg/kg; Cd – infant cereal complementary food 0.06 mg/kg; total Hg – infant canned complementary food 0.02 mg/kg; As – infant cereal complementary food inorganic-As 0.2 (0.3 with added algae), infant canned complementary food inorganic-As 0.1 (0.3 with aquatic/animal-liver ingredients), milk powder/modified milk powder total-As 0.5; Sn – infant formula & infant complementary food 50 mg/kg (vs. 250 general food / 150 beverages). Did not independently fetch the primary CFSA query platform (sppt.cfsa.net.cn) or an NHC page specific to the 2022 announcement in this session (an nhc.gov.cn URL attempt returned HTTP 412); relying on multiple concordant secondary Chinese industry/standards sites for confirmation that gdgrain's copy matches the authentic, currently in-force text.",
-      "notes": "Original title: 食品安全国家标准 食品中污染物限量. Sets Pb, Cd, As (total + inorganic for rice), Hg (total + methyl), Sn, Cr, Ni. Official standard is published free by NHC but often mirrored; English translations circulate. Effective 2023-06-30. | agent: 原文标题: 食品安全国家标准 食品中污染物限量 (GB 2762-2022), 国家卫生健康委员会 + 国家市场监督管理总局 发布. CRITICAL CURRENCY NOTE: GB 2762-2025 was published 2025-09-25 (NHC/SAMR Announcement No. 6 of 2025, see nhc.gov.cn/sps/c100088/202509/5dc5e1e2b26d4d27a7913b9e71bbe931.shtml) and takes effect 2026-09-02, at which point GB 2762-2022 is explicitly abolished (废止) — as of today (2026-08-03) GB 2762-2022 is still the in-force text but supersession is under one month away; re-verify before citing after 2026-09-02. GB 2762-2025's (unverified, paid) English preview: chinesestandard.net/PDF-EN/GB2762-2025EN-P06P-H5002H-529904.pdf. GB 2762-2022 does NOT cover aluminium (Al) at all and covers only total chromium (no Cr-VI speciation); Cr appears only under the general 'milk powder and modified milk powder' row (2.0 mg/kg), not explicitly named for the infant-formula category, and Ni appears only for hydrogenated vegetable oils — neither is meaningfully infant-specific in this standard. ENGLISH TRANSLATION IS PAID: both codeofchina.com and chinesestandard.net charge ~US$285 (email delivery) for the full English version; the free preview shows only the lead (Pb) table in English. Backup/summary source: USDA FAS GAIN has prior China contaminants-standard summaries (e.g. fas.usda.gov/data/china-china-s-maximum-levels-contaminants-foods) though none located this session is a line-by-line summary of the 2022 text specifically.",
+      "notes": "Original title: 食品安全国家标准 食品中污染物限量. Sets Pb, Cd, As (total + inorganic for rice), Hg (total + methyl), Sn, Cr, Ni. Official standard is published free by NHC but often mirrored; English translations circulate. Effective 2023-06-30. | agent: 原文标题: 食品安全国家标准 食品中污染物限量 (GB 2762-2022), 国家卫生健康委员会 + 国家市场监督管理总局 发布. CRITICAL CURRENCY NOTE: GB 2762-2025 was published 2025-09-25 (NHC/SAMR Announcement No. 6 of 2025, see nhc.gov.cn/sps/c100088/202509/5dc5e1e2b26d4d27a7913b9e71bbe931.shtml) and takes effect 2026-09-02, at which point GB 2762-2022 is explicitly abolished (废止) — as of today (2026-08-03) GB 2762-2022 is still the in-force text but supersession is under one month away; re-verify before citing after 2026-09-02. GB 2762-2025's (unverified, paid) English preview: chinesestandard.net/PDF-EN/GB2762-2025EN-P06P-H5002H-529904.pdf. GB 2762-2022 does NOT cover aluminium (Al) at all and covers only total chromium (no Cr-VI speciation); Cr appears only under the general 'milk powder and modified milk powder' row (2.0 mg/kg), not explicitly named for the infant-formula category, and Ni appears only for hydrogenated vegetable oils — neither is meaningfully infant-specific in this standard. ENGLISH TRANSLATION IS PAID: both codeofchina.com and chinesestandard.net charge ~US$285 (email delivery) for the full English version; the free preview shows only the lead (Pb) table in English. Backup/summary source: USDA FAS GAIN has prior China contaminants-standard summaries (e.g. fas.usda.gov/data/china-china-s-maximum-levels-contaminants-foods) though none located this session is a line-by-line summary of the 2022 text specifically. | SUPERSEDED by GB 2762-2025 effective 2026-09-02.",
       "mirror_urls": [],
       "local_docs": [
         "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/China_GB2762-2022_English_MAST.pdf",
@@ -543,6 +543,54 @@
         "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/China_GB2762-2022_USDA_GAIN_CH2023-0040.pdf",
         "raw/regulatory/_source-packages/2026-08-03-infant-child-global/docs/China_GB2762-2017_FSIS_reference.pdf"
       ]
+    },
+    {
+      "id": "china-gb-2762-2025-contaminants",
+      "jurisdiction": "China",
+      "jurisdiction_code": "cn",
+      "region": "Asia",
+      "body": "National Health Commission / SAMR",
+      "instrument": "National Food Safety Standard — Maximum Levels of Contaminants in Foods (食品安全国家标准 食品中污染物限量)",
+      "reference": "GB 2762-2025",
+      "year": 2025,
+      "last_revised": 2025,
+      "status": "adopted-effective-2026-09-02",
+      "scope_type": "horizontal",
+      "categories": [
+        "all-foods",
+        "infant-child-foods"
+      ],
+      "analytes": [
+        "Pb",
+        "Cd",
+        "tAs",
+        "iAs",
+        "tHg",
+        "MeHg",
+        "Sn",
+        "Cr",
+        "Ni"
+      ],
+      "speciation": [
+        "iAs"
+      ],
+      "infant_child_scope": [
+        "infant-formula",
+        "cereal-based-complementary-foods",
+        "canned-complementary-foods",
+        "fsmp-infants"
+      ],
+      "pdf_url": "https://www.fzmq.gov.cn/xjwz/zwgk/zfxxgkzdgz/spypaq/spaqbz/202511/P020251117337010015987.pdf",
+      "mirror_urls": [],
+      "landing_url": "https://www.nhc.gov.cn/sps/c100088/202509/5dc5e1e2b26d4d27a7913b9e71bbe931.shtml",
+      "access": "free-official",
+      "language": "zh",
+      "verified": true,
+      "verify_note": "FETCHED + VERIFIED 2026-08-04: 21pp, header 中华人民共和国国家标准 GB 2762—2025, 发布 2025-09-02 / 实施 2026-09-02. Announced in NHC/SAMR Announcement 2025 No.6 (32 standards). Covers Pb, Cd, Hg, As, Sn, Ni, Cr. CAVEAT: the Chinese table text layer does NOT extract cleanly (values truncate) — per-cell values require careful manual/OCR extraction before use. CLEAR FINDING: liquid infant formula limits are converted at an 8:1 ratio (液态婴幼儿配方食品根据 8∶1 的比例折算其限量), which differs from the 1:7 reconstitution factor used in tools/evidence/basis-conversion.mjs.",
+      "local_docs": [
+        "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
+      ],
+      "notes": "Supersedes GB 2762-2022 on 2026-09-02. Reported changes vs 2022 centre on Pb/Cd/As/Cr in meat jerky and nitrite in packaged drinking water; infant categories must still be diffed cell-by-cell."
     },
     {
       "id": "japan-mhlw-food-specs-standards",
