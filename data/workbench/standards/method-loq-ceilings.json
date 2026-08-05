@@ -1,0 +1,19 @@
+{
+  "_purpose": "LOQ-based certification ceilings for cells where NO government sets a limit and NO usable sample-level occurrence pool exists. HMTc sets a limit for every analyte; it does not do 'monitored, not limited'. Where a lookup and a percentile both return nothing, the limit is the analytical limit of quantification (LOQ) — i.e. the analyte must be non-detectable at the method LOQ. This is the same mechanism the seafood standards already use (e.g. shellfish iAs 'over 90% below the 7 ppb LOQ').",
+  "_status": "PROVISIONAL — the LOQ values below are proposed with a stated basis; they must be confirmed against the HMTc testing method specification (the ICP-MS / speciation LOQs the certifying lab actually achieves) before publication. The rationale_tag is 'precautionary' until confirmed, then 'literature-baseline' is not applicable — an LOQ ceiling is its own basis class.",
+  "_updated": "2026-08-05",
+  "basis_class": "loq-ceiling",
+  "rationale_tag": "precautionary",
+  "ceilings_ug_kg": {
+    "tHg": {
+      "value": 5,
+      "basis": "Non-detect ceiling at a typical CVAAS/ICP-MS LOQ for total mercury in reconstituted formula. No government sets a mercury ML for infant formula anywhere (nearest is China's 20 ug/kg for canned complementary foods, a different product). Mercury (as MeHg) is a Tier-1 zero-tolerance toxic, so a non-detect ceiling is the correct posture. Reflex MeHg speciation on any detection.",
+      "confirm_against_method": true
+    },
+    "Cr-VI": {
+      "value": 10,
+      "basis": "Non-detect ceiling at a typical speciated hexavalent-chromium LOQ. No government sets a Cr-VI food limit worldwide (only drinking water — e.g. US-CA 10 ug/kg, used here as the reference point). Cr-VI largely reduces to Cr-III in the formula matrix, so a non-detect ceiling is both protective and near-always met; total chromium remains separately limited at the government value (China 2000 ug/kg milk powder) with reflex Cr-VI speciation on a 100 ug/kg total-Cr anomaly screen.",
+      "confirm_against_method": true
+    }
+  }
+}

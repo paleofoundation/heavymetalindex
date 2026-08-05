@@ -14,6 +14,13 @@ import path from "node:path"
 const REPO = process.cwd()
 const RECON = 7
 const rows = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulatory_limits.csv"), "utf8"))
+// LOQ ceilings for cells no government regulates. HMTc sets a limit for EVERY
+// analyte — where a government lookup returns nothing and no occurrence pool
+// exists, the limit is the analytical LOQ (non-detect), not "monitored, not
+// limited". Values live in method-loq-ceilings.json (confirm against the method
+// spec). loqFor() resolves an analyte's LOQ ceiling via its species tokens.
+const LOQ = JSON.parse(fs.readFileSync(path.join(REPO, "data/workbench/standards/method-loq-ceilings.json"), "utf8")).ceilings_ug_kg
+const loqFor = (a) => (a && a.tok ? a.tok.map((t) => LOQ[t]).find(Boolean) : null)
 
 function parseCsv(t) { const L = t.replace(/\r/g, "").trim().split("\n"); const H = sp(L[0]); return L.slice(1).map((l) => Object.fromEntries(sp(l).map((v, i) => [H[i], v]))) }
 function sp(line) { const o = []; let c = "", q = false; for (const ch of line) { if (ch === '"') q = !q; else if (ch === "," && !q) { o.push(c); c = "" } else c += ch } o.push(c); return o.map((s) => s.replace(/^"|"$/g, "")) }
@@ -121,16 +128,20 @@ md += "sits at or below every national law for both formulations and never certi
 md += "ceiling. Aluminium is the one exception — soy formula is inherently aluminium-rich, so it keeps the law's own "
 md += "cow / soy split rather than penalise soy for a trait its regulator already accounts for (see the table note).\n\n"
 md += "| Analyte | Powder (as-sold) | Ready-to-feed (as-consumed) |\n|---|--:|--:|\n"
-const fmtCell = (x) => x == null || x.v == null ? "monitored" : fmt(x.v) + (x.fallback ? "ᵈ" : "")
+const fmtCell = (x, a) => {
+  if (x != null && x.v != null) return fmt(x.v) + (x.fallback ? "ᵈ" : "")
+  const l = loqFor(a)
+  return l ? "≤" + fmt(l.value) + "ᴸ" : "≤LOQ ᴸ" // never blank — every analyte gets a limit
+}
 const subPick = (form, soy, a) => pickFor(SUBCATS.find((s) => s.key === `${form}-${soy}`), a)
 for (const a of ANALYTES) {
   if (a.keepSplit) {
-    md += `| ${a.disp} | ${fmtCell(subPick("powder", "cow", a))} cow / ${fmtCell(subPick("powder", "soy", a))} soy | ${fmtCell(subPick("rtf", "cow", a))} cow / ${fmtCell(subPick("rtf", "soy", a))} soy |\n`
+    md += `| ${a.disp} | ${fmtCell(subPick("powder", "cow", a), a)} cow / ${fmtCell(subPick("powder", "soy", a), a)} soy | ${fmtCell(subPick("rtf", "cow", a), a)} cow / ${fmtCell(subPick("rtf", "soy", a), a)} soy |\n`
   } else {
-    md += `| ${a.disp} | ${fmtCell(mergedPick(FORMS[0], a))} | ${fmtCell(mergedPick(FORMS[1], a))} |\n`
+    md += `| ${a.disp} | ${fmtCell(mergedPick(FORMS[0], a), a)} | ${fmtCell(mergedPick(FORMS[1], a), a)} |\n`
   }
 }
-md += "\n*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). "
+md += "\n*ᴸ = LOQ ceiling: no government sets a formula limit for this analyte, so HMTc publishes a non-detect ceiling at the method limit of quantification (values in method-loq-ceilings.json, confirm against the testing method), with reflex speciation on any detection. "
 md += "ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is the FSSAI (India) as-sold value, confirmed against the 2011 primary text. "
 md += "**Aluminium is published as the law's own cow / soy split**: soy formula is inherently aluminium-rich — which is why regulators set the soy limit at 2× cow — so adopting the lower number would penalise soy for a trait its own regulator already accounts for. Every other analyte is a single lowest-worldwide number. "
 md += "The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*\n\n"
@@ -181,12 +192,18 @@ for (const sub of SUBCATS) {
   for (const a of ANALYTES) {
     const cells = active.map((c) => ({ c, r: cell(c, a.tok, sub) }))
     const withVal = cells.filter((x) => x.r)
-    let hmtc = "—", src = "monitored *(see note)*"
+    let hmtc = "—", src = ""
     if (withVal.length) {
       const min = withVal.reduce((m, x) => (x.r.v < m.r.v ? x : m))
       hmtc = fmt(min.r.v); src = COUNTRY[min.c] +
         (min.r.conv ? ` (${fmt(min.r.raw)} ${min.r.rawbasis === "as_consumed" ? "as-consumed ×7" : "powder ÷7"})` : "") +
         (min.r.fallback ? " *(broad-dairy fallback)*" : "")
+    } else {
+      // No government limit anywhere → HMTc still sets a limit: the LOQ ceiling
+      // (non-detect). Never "monitored, not limited".
+      const l = loqFor(a)
+      hmtc = l ? "≤" + fmt(l.value) + "ᴸ" : "≤LOQ ᴸ"
+      src = l ? "LOQ ceiling — non-detect (no government limit worldwide)" : "LOQ ceiling — pending method LOQ"
     }
     md += `| ${a.disp} | ` + cells.map((x) => x.r ? fmt(x.r.v) + (x.r.conv ? "ᶜ" : "") + (x.r.fallback ? "ᵈ" : "") : "").join(" | ") + ` | **${hmtc}** | ${src} |\n`
   }
@@ -196,34 +213,35 @@ for (const sub of SUBCATS) {
 }
 function fmt(v) { return Number.isInteger(v) ? String(v) : String(v) }
 
-// ---- flagged cells: where the method reaches its honest limit ----
-md += `## Three cells where the method reaches its limit — stated plainly
+// ---- cells no government regulates: HMTc still sets a limit (LOQ ceiling) ----
+const hg = LOQ.tHg, crvi = LOQ["Cr-VI"]
+md += `## Cells no government regulates — set at the LOQ, not left open
 
-The tightest-government method is only as complete as the world's regulators. Three cells cannot be
-set by lookup, and this standard says so rather than inventing a number:
+HMTc sets a limit for every analyte. Where the tightest-government lookup returns nothing and no
+occurrence pool exists to compute a percentile, the limit is the analytical limit of quantification:
+the analyte must be non-detectable. This is the ratchet doing its job precisely where regulators have
+not — the same mechanism the seafood standards already use — not an omission.
 
-1. **Mercury (all subcategories) — no government sets an infant-formula limit.** The nearest limit
-   in the world is China's 20 µg/kg for *canned complementary foods*, a different product. There is
-   nothing to adopt. Mercury is therefore **monitored, not limited**: every certification lot is
-   screened for total mercury, with reflex methylmercury speciation on any detection, but no numeric
-   pass/fail limit is published where no government has set one. This is the honest output of the
-   method, not an omission.
+1. **Mercury (all subcategories) — LOQ ceiling ≤${hg ? hg.value : "TBD"} µg/kg.** No government sets an
+   infant-formula mercury limit anywhere (the nearest is China's 20 µg/kg for *canned complementary
+   foods*, a different product). Mercury — as methylmercury — is a Tier-1 zero-tolerance toxic, so the
+   correct posture is non-detect: the certification ceiling is the method LOQ (${hg ? hg.value : "TBD"}
+   µg/kg total mercury), with reflex methylmercury speciation on any detection. *${hg ? "Provisional pending confirmation against the testing method LOQ." : ""}*
 
-2. **Hexavalent chromium — unregulated in food worldwide.** No government sets a Cr-VI food limit
-   (the only Cr-VI limits are for drinking water). Total chromium has one applicable government
-   number — China's 2,000 µg/kg for milk powder (a broad dairy category that covers cow-milk formula
-   powder), shown with a ᵈ flag as a fallback, not a formula-specific limit. Cr-VI itself is
-   **monitored, not limited**, with a 100 µg/kg total-chromium manufacturing-anomaly screen that
-   triggers speciation.
+2. **Hexavalent chromium — LOQ ceiling ≤${crvi ? crvi.value : "TBD"} µg/kg.** No government sets a Cr-VI
+   food limit worldwide (the only Cr-VI limits are for drinking water — e.g. US-CA ${crvi ? crvi.value : "10"} µg/kg,
+   the reference point). Cr-VI largely reduces to Cr-III in the formula matrix, so a non-detect ceiling
+   is both protective and near-always met. Total chromium is separately held to the government value
+   (China 2,000 µg/kg for milk powder, ᵈ) with reflex Cr-VI speciation on a 100 µg/kg total-chromium
+   anomaly screen. *${crvi ? "Provisional pending confirmation against the speciated Cr-VI method LOQ." : ""}*
 
-3. **Tin — regulated, but on an uncertain basis.** Only India sets a non-canned infant-formula tin
-   limit (5,000 µg/kg); every other government regulates tin only for *canned* product (50,000
-   µg/kg, a container-migration limit). The India value's basis is unresolved in our register (the
-   secondary source records it as-consumed; the FSSAI 2011 primary text records it as-sold — a 7×
-   difference). The tin cell is therefore **provisional** pending confirmation against the primary
-   Indian instrument; canned formula is held to the 50,000 µg/kg world consensus.
+3. **Tin — 5,000 µg/kg (India, FSSAI), as-sold.** India is the only government setting a non-canned
+   infant-formula tin limit. Its basis is now settled against the FSSAI 2011 primary text: the metal
+   table header reads "Parts per Million by weight" (as-sold), and the regulation carries no
+   reconstitution instruction. Canned formula is separately held to the 50,000 µg/kg world consensus
+   (a container-migration limit).
 
-Everything else in this standard is a firm, citable government maximum level.
+Every other analyte is a firm, citable government maximum level. No cell is left unset.
 
 ## Provenance — every limit exactly as its government states it
 
