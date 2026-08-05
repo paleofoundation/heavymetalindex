@@ -586,11 +586,11 @@
       "access": "free-official",
       "language": "zh",
       "verified": true,
-      "verify_note": "FETCHED + VERIFIED 2026-08-04: 21pp, header 中华人民共和国国家标准 GB 2762—2025, 发布 2025-09-02 / 实施 2026-09-02. Announced in NHC/SAMR Announcement 2025 No.6 (32 standards). Covers Pb, Cd, Hg, As, Sn, Ni, Cr. CAVEAT: the Chinese table text layer does NOT extract cleanly (values truncate) — per-cell values require careful manual/OCR extraction before use. CLEAR FINDING: liquid infant formula limits are converted at an 8:1 ratio (液态婴幼儿配方食品根据 8∶1 的比例折算其限量), which differs from the 1:7 reconstitution factor used in tools/evidence/basis-conversion.mjs.",
+      "verify_note": "FETCHED + VERIFIED 2026-08-04: 21pp, header 中华人民共和国国家标准 GB 2762—2025, 发布 2025-09-02 / 实施 2026-09-02. Announced in NHC/SAMR Announcement 2025 No.6 (32 standards). Covers Pb, Cd, Hg, As, Sn, Ni, Cr. EXTRACTED + DIFFED 2026-08-04 (coordinate-based, tools/regulatory/extract-gb2762.mjs): NO infant/child metal limit changes vs GB 2762-2022 — all 17 live CN rows reconcile. Pb formula 0.08 solid-basis, complementary 0.2, FSMP 0.15/0.5; Cd cereal complementary 0.06; tHg canned complementary 0.02; iAs cereal 0.2 (algae 0.3), canned 0.1; Sn formula+complementary 50; Cr milk powder 2.0 (UNCHANGED — the sole-source Cr pick stands); Ni has only ONE limit in the whole standard (hydrogenated oils 1.0), none for formula or dairy. Liquid formula converts at the standard's own 8:1 (footnote c), which the live rows already apply.",
       "local_docs": [
         "raw/regulatory/cn/china-gb-2762-2025-effective-2026-09-02.pdf"
       ],
-      "notes": "Supersedes GB 2762-2022 on 2026-09-02. Reported changes vs 2022 centre on Pb/Cd/As/Cr in meat jerky and nitrite in packaged drinking water; infant categories must still be diffed cell-by-cell."
+      "notes": "Supersedes GB 2762-2022 on 2026-09-02. Reported changes vs 2022 centre on Pb/Cd/As/Cr in meat jerky and nitrite in packaged drinking water; Infant categories diffed 2026-08-04: unchanged. See data/regulatory/gb2762-2025-infant-diff-2026-08-04.md."
     },
     {
       "id": "japan-mhlw-food-specs-standards",
