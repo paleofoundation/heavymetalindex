@@ -81,8 +81,8 @@
         "value_exact": 20,
         "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
         "source_jurisdiction": "CN",
-        "label": "government read-across (China GB 2762, canned complementary → formula)",
-        "basis_note": "same basis",
+        "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard).",
+        "basis_note": "face value (nearest government value)",
         "per_country": {}
       },
       "Cd": {
@@ -253,8 +253,8 @@
         "value_exact": 20,
         "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
         "source_jurisdiction": "CN",
-        "label": "government read-across (China GB 2762, canned complementary → formula)",
-        "basis_note": "same basis",
+        "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard).",
+        "basis_note": "face value (nearest government value)",
         "per_country": {}
       },
       "Cd": {

@@ -127,21 +127,36 @@ function resolveCell(sub, analyte, variant) {
     if (!sub.canned && CANNED.test(r.product_scope)) return false
     if (!scopeMatch(r.product_scope, inc, exc)) return false
     if (!soyMatch(r.soy_class, variant)) return false
+    // Dry subcategories (baby cereals, teething biscuits) have no legislated reconstitution ratio,
+    // so an as-consumed (prepared-state) government ML taken at face value would over-tighten a dry
+    // product. Drop cross-basis rows for these; only the dry-basis (as_sold / blank) MLs regulate
+    // the product as sold. Formula handles cross-basis by the 8:1 conversion instead; wet
+    // subcategories are sold as consumed, so every scope-matched row is comparable at face value.
+    if (sub.exclude_as_consumed && r.basis_class === "as_consumed") return false
     return true
   })
 
   // Group by jurisdiction; prefer a row already in the native basis over a converted one.
+  // The 8:1 reconstitution factor is applied ONLY within the formula subcategories (same product,
+  // powder<->liquid). For every other product form the factor is physically invalid (a dry cereal
+  // is not reconstituted 1:8, a wet puree is sold as consumed), so government MLs are taken at face
+  // value. This is a correctness rule, not a policy choice.
   const perJur = new Map()
   for (const r of rows) {
     const raw = num(r.value_ug_kg)
     if (raw == null) continue
-    const conv = convert(raw, r.basis_class, sub.native_basis)
+    const conv = sub.reconstitution_8to1 ? convert(raw, r.basis_class, sub.native_basis) : { value: raw, note: "face value", factor: 1 }
     const nativeForm = (r.basis_class || sub.native_basis) === sub.native_basis
     const cand = { value: conv.value, jur: r.jurisdiction, id: r.regulatory_limit_id, published: raw, publishedBasis: r.basis || r.basis_class, note: conv.note, nativeForm, scope: r.product_scope }
     const prev = perJur.get(r.jurisdiction)
     if (!prev) { perJur.set(r.jurisdiction, cand); continue }
-    // Prefer native-form; then prefer stricter (min).
-    if (cand.nativeForm && !prev.nativeForm) perJur.set(r.jurisdiction, cand)
+    // With 8:1 conversion active (formula), prefer the row already in the native form over a
+    // converted one, then prefer stricter. Without conversion (every other subcategory takes face
+    // value), basis_class is unreliable (wet baby-food MLs are mis-tagged as_sold), so form-
+    // preference would wrongly favour a looser same-basis row over a stricter infant-appropriate
+    // one — take the strictest outright.
+    if (!sub.reconstitution_8to1) { if (cand.value < prev.value) perJur.set(r.jurisdiction, cand) }
+    else if (cand.nativeForm && !prev.nativeForm) perJur.set(r.jurisdiction, cand)
     else if (cand.nativeForm === prev.nativeForm && cand.value < prev.value) perJur.set(r.jurisdiction, cand)
   }
 
@@ -168,15 +183,19 @@ function resolveCell(sub, analyte, variant) {
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
     const raw = num(src.value_ug_kg)
-    const conv = convert(raw, src.basis_class, sub.native_basis)
+    // Read-across is the nearest analogous government value, used at FACE VALUE. The config picks a
+    // basis-appropriate source (a liquid-dairy Cr limit for a liquid product, a dry source for a dry
+    // product), so no 8:1 is layered on top — that would compound a cross-product analogy with a
+    // formula-specific reconstitution ratio. This mirrors the deployed formula-powder standard,
+    // whose Hg 20 and Cr 2000 read-across values are the source values verbatim.
     return {
       type: "read_across",
-      value: roundDisplay(conv.value),
-      value_exact: conv.value,
+      value: roundDisplay(raw),
+      value_exact: raw,
       source_id: ra.source_id,
       source_jurisdiction: src.jurisdiction,
       label: ra.label || `read-across from ${src.jurisdiction}`,
-      basis_note: conv.note,
+      basis_note: "face value (nearest government value)",
       per_country: {},
     }
   }
@@ -190,11 +209,11 @@ const summary = []
 for (const slug of slugs) {
   const sub = config.subcategories[slug]
   if (!sub) { console.error(`!! no config for ${slug}`); continue }
-  const variants = sub.soy_split ? ["cow", "soy"] : sub.rice_split ? ["rice", "non-rice"] : ["both"]
+  const variants = sub.soy_split ? ["cow", "soy"] : ["both"]
   const record = { slug, name: sub.name, native_basis: sub.native_basis, canned: !!sub.canned, variants: {}, generated_from: "data/evidence/regulatory_limits.csv", method: "HMTc Method v2.0 (government-limit default, 8:1 basis, read-across)" }
   for (const variant of variants) {
     const cells = {}
-    for (const a of PANEL) cells[a] = resolveCell(sub, a, variant === "rice" || variant === "non-rice" ? "both" : variant)
+    for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))

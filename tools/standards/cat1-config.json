@@ -10,6 +10,7 @@
       "name": "Infant formula (powder)",
       "row": 1,
       "native_basis": "as_sold",
+      "reconstitution_8to1": true,
       "canned": false,
       "soy_split": true,
       "scope_include": [
@@ -36,9 +37,492 @@
         "complementary"
       ],
       "read_across": {
-        "tHg": { "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20", "label": "government read-across (China GB 2762, canned complementary → formula)" },
-        "Cr": { "source_id": "china_gb2762_cr_milk_powder_2000", "label": "government read-across (China GB 2762 milk powder → formula)" }
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_cr_milk_powder_2000",
+          "label": "government read-across (China GB 2762 milk powder → formula)"
+        }
+      }
+    },
+    "fruit-juice": {
+      "name": "Fruit juice (not canned)",
+      "row": 8,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "juice",
+        "nectar",
+        "drinks for infants"
+      ],
+      "scope_exclude": [
+        "baby food",
+        "draft",
+        "proposed",
+        "not yet finalized"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Chromium is not material in a non-dairy fruit-juice matrix and no government sets a Cr ML for juice; the only food Cr limits in the register are dairy (China milk powder 2000, liquid milk 300). Cr-VI is the toxic species and is controlled by reflex speciation: any total-Cr result above 100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
+          "reference_method": "Total Cr by ICP-MS; reflex Cr-VI speciation by IC-ICP-MS (e.g. EPA 218.6 / EN 15192) on any total-Cr > 100 ppb"
+        },
+        "Sn": {
+          "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+          "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      }
+    },
+    "infant-formula-rtf-liquid": {
+      "name": "Infant formula (ready-to-feed, liquid)",
+      "row": 2,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": true,
+      "scope_include": [
+        "infant formula",
+        "follow-on formul",
+        "follow-up formula",
+        "young-child formula",
+        "young child formula",
+        "infant milk substitute",
+        "formula food for infants",
+        "formula for infants",
+        "pediatric formula",
+        "f[oó]rmula"
+      ],
+      "scope_exclude": [
+        "as powder",
+        "powdered formulae",
+        "powdered infant",
+        "formula, powder",
+        "drink",
+        "baby food",
+        "complementary",
+        "juice",
+        "nectar",
+        "meals",
+        "year old",
+        "milk powder",
+        "modified milk",
+        "distinct from"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "source_id": "china_gb2762_cr_liquid_milk_300",
+          "label": "government read-across (China GB 2762 liquid milk total-Cr 300 → liquid formula; basis-matched dairy analogy)"
+        }
+      },
+      "reconstitution_8to1": true
+    },
+    "root-vegetable-purees-single-ingredient": {
+      "name": "Root-vegetable purées (single-ingredient)",
+      "row": 6,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "single-ingredient root",
+        "root vegetable",
+        "root and tuber",
+        "root, tuber",
+        "baby food"
+      ],
+      "scope_exclude": [
+        "excluding",
+        "spice",
+        "rhizome"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Sn": {
+          "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+          "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Reflex Cr-VI speciation: any total-Cr result >100 ug/kg triggers Cr-VI speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. No credible government sets a total-Cr ML for a non-dairy root-vegetable food; the dairy milk-powder read-across (China 2000) is not a defensible analogy for a non-dairy matrix.",
+          "reference_method": "IC-ICP-MS hexavalent-chromium speciation (EPA 218.6 or equivalent ISO/DIN method)"
+        }
+      }
+    },
+    "baby-cereals-dry-rice-based": {
+      "name": "Baby cereals / grain products, dry (rice-based)",
+      "row": 3,
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "processed cereal-based food",
+        "cereal-based",
+        "dry infant cereal",
+        "infant milk substitute and infant foods",
+        "rice cereal",
+        "infant rice cereal",
+        "rice-based food",
+        "rice destined for"
+      ],
+      "scope_exclude": [
+        "destined for"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      },
+      "exclude_as_consumed": true
+    },
+    "baby-cereals-dry-non-rice": {
+      "name": "Baby cereals / grain products, dry (non-rice)",
+      "row": 3,
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "processed cereal-based food",
+        "cereal-based",
+        "dry infant cereal",
+        "infant milk substitute and infant foods",
+        "baby food for infants and young children"
+      ],
+      "scope_exclude": [],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "No government sets a total-chromium ML for any non-dairy infant food; the dairy milk-powder read-across (China 2000) is a weak analogy for a grain cereal. Cr(III) is nutritionally essential and Cr(VI) reduces to Cr(III) in-matrix, so total-Cr is not a material toxic in this matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+          "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) speciation by EPA 3060A alkaline digestion + IC-ICP-MS (or equivalent); LOQ-level quantifiable Cr(VI) = fail."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      },
+      "exclude_as_consumed": true
+    },
+    "non-root-vegetable-purees": {
+      "name": "Non-root vegetable purees",
+      "row": 5,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "_basis_note": "Product is a wet, ready-to-eat non-root vegetable puree (jar/pouch/tub); its physical native basis is as_consumed. native_basis is deliberately set to as_sold because every applicable government limit (EU/UK/IN baby-food MLs, China canned-complementary tHg read-across) is set on this same wet product but tagged basis_class=as_sold in the register, and the compiler's 8:1 powder-reconstitution factor must NOT be applied to any of them. Setting native_basis=as_consumed makes the compiler wrongly divide those wet MLs by 8, inventing six sub-legal numbers (Pb 2.5, iAs 2.5, Cd 5, Ni 63, Sn 630, tHg 2.5) that no government sets. Trade-off: the as_sold setting instead ×8-inflates the one read-across source tagged as_consumed (AU-NZ Al) -> see Al flag.",
+      "scope_include": [
+        "baby food",
+        "excluding single-ingredient root vegetable",
+        "vegetables excluding single-ingredient root",
+        "infant milk substitute"
+      ],
+      "scope_exclude": [
+        "single-ingredient root vegetables for children",
+        "dry infant cereal"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Reflex Cr-VI speciation on any total-Cr result >100 ug/kg; any quantifiable Cr-VI fails. Non-dairy matrix: the China milk-powder total-Cr 2000 read-across is a weak dairy analogy and is not adopted.",
+          "reference_method": "EPA 3060A alkaline digestion + IC-ICP-MS for Cr-VI; ICP-MS for total Cr"
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      }
+    },
+    "mixed-meals-rice-containing": {
+      "name": "Mixed meals (meat & grain combos), rice-containing",
+      "row": 7,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "mixtures? including grain",
+        "grain- and meat",
+        "mixtures \\(gra",
+        "ready-to-eat meals for infants",
+        "baby food",
+        "processed cereal-based food",
+        "cereal-based food",
+        "cereal-based complementary",
+        "complementary",
+        "transition",
+        "weaning",
+        "other foods specially formulated for inf",
+        "other foods for infants",
+        "infant milk substitute and infant foods",
+        "infant foods",
+        "infant rice",
+        "rice cereals? for infants",
+        "rice-based foods intended",
+        "rice destined for"
+      ],
+      "scope_exclude": [
+        "formula",
+        "follow-on",
+        "follow-up",
+        "special medical",
+        "medical purpose",
+        "dietotherap",
+        "dietary foods for special",
+        "fsmp",
+        "milk powder and modified",
+        "drink",
+        "supplement",
+        "toys",
+        "paint",
+        "consumer product",
+        "children.s product",
+        "cosmetic",
+        "muscle meat",
+        "fish",
+        "crustacean",
+        "mollusc",
+        "salt",
+        "destined for",
+        "rice cereal",
+        "infant rice cereal",
+        "all types of infant rice",
+        "rice-based food",
+        "rice-based drink"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Total chromium not materially present in a meat-and-grain infant meal and no government sets a Cr ML for this matrix; the China milk-powder Cr 2000 is a dairy read-across that does not transfer to a non-dairy meal. Reflex control: any total-Cr result >100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
+          "reference_method": "Total Cr by ICP-MS (screen); on any total-Cr >100 ppb, Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (SW-846 6800)"
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      }
+    },
+    "mixed-meals-non-rice": {
+      "name": "Mixed meals (meat & grain combos), non-rice",
+      "row": 7,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "mixtures? including grain",
+        "grain- and meat",
+        "mixtures \\(gra",
+        "ready-to-eat meals for infants",
+        "baby food",
+        "processed cereal-based food",
+        "cereal-based food",
+        "cereal-based complementary",
+        "complementary",
+        "transition",
+        "weaning",
+        "other foods specially formulated for inf",
+        "other foods for infants",
+        "infant milk substitute and infant foods",
+        "infant foods"
+      ],
+      "scope_exclude": [
+        "formula",
+        "follow-on",
+        "follow-up",
+        "special medical",
+        "medical purpose",
+        "dietotherap",
+        "dietary foods for special",
+        "fsmp",
+        "milk powder and modified",
+        "drink",
+        "supplement",
+        "toys",
+        "paint",
+        "consumer product",
+        "children.s product",
+        "cosmetic",
+        "muscle meat",
+        "fish",
+        "crustacean",
+        "mollusc",
+        "salt",
+        "rice",
+        "destined for",
+        "rice cereal",
+        "infant rice cereal",
+        "all types of infant rice"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Total chromium not materially present in a meat-and-grain infant meal and no government sets a Cr ML for this matrix; the China milk-powder Cr 2000 is a dairy read-across that does not transfer to a non-dairy meal. Reflex control: any total-Cr result >100 ppb triggers Cr-VI speciation, and any quantifiable Cr-VI fails.",
+          "reference_method": "Total Cr by ICP-MS (screen); on any total-Cr >100 ppb, Cr(VI) by EPA 3060A alkaline extraction with IC-ICP-MS (SW-846 6800)"
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      }
+    },
+    "teething-and-snacks-rice-based": {
+      "name": "Teething biscuits & finger snacks (rice-based)",
+      "row": 9,
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "cereal-based",
+        "dry infant cereal",
+        "infant milk substitute",
+        "rice"
+      ],
+      "scope_exclude": [
+        "baby food except juices",
+        "cereals except",
+        "cereals including rice",
+        "durum wheat and rice",
+        "husked rice",
+        "rice-based drink",
+        "destined for"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Total-Cr reflex speciation: any lot with total Cr >100 ug/kg triggers hexavalent-chromium (Cr-VI) speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. Non-dairy grain matrix — the only register Cr value (China milk powder 2000) is a dairy analogy and is not read across.",
+          "reference_method": "Cr-VI by IC-ICP-MS (EPA 6800 / EN 15192 isotope-dilution speciation) on any total-Cr exceedance."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      },
+      "exclude_as_consumed": true
+    },
+    "teething-and-snacks-non-rice": {
+      "name": "Teething biscuits & finger snacks (non-rice)",
+      "row": 9,
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "cereal-based",
+        "baby food",
+        "dry infant cereal",
+        "infant milk substitute"
+      ],
+      "scope_exclude": [
+        "baby food except juices",
+        "cereals except",
+        "cereals including rice",
+        "rice"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "Total-Cr reflex speciation: any lot with total Cr >100 ug/kg triggers hexavalent-chromium (Cr-VI) speciation; any quantifiable Cr-VI fails. Cr-VI is never a panel number. Non-dairy grain matrix — the only register Cr value (China milk powder 2000) is a dairy analogy and is not read across.",
+          "reference_method": "Cr-VI by IC-ICP-MS (EPA 6800 / EN 15192 isotope-dilution speciation) on any total-Cr exceedance."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        }
+      },
+      "exclude_as_consumed": true
+    },
+    "fruit-purees-general": {
+      "name": "Fruit purées (general)",
+      "row": 4,
+      "native_basis": "as_consumed",
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "fruits",
+        "baby food",
+        "complementary",
+        "transition",
+        "weaning",
+        "ready-to-eat meals"
+      ],
+      "scope_exclude": [
+        "formula",
+        "special medical",
+        "packaged for babies and young children",
+        "infant milk substitute",
+        "supplement",
+        "fruit juice",
+        "nectar"
+      ],
+      "read_across": {
+        "tHg": {
+          "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
+          "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard)."
+        },
+        "Sn": {
+          "source_id": "in_sn_infant-milk-substitute-and-infant-foods_5000",
+          "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value."
+        },
+        "Al": {
+          "source_id": "aunz_sch19_al_formula_nonsoy_500",
+          "label": "government read-across (AU-NZ Schedule 19 infant-formula Al 500, the only government aluminium ML in any jurisdiction) applied at face value; the 8:1 reconstitution factor is formula-specific and is not applied to a non-formula product."
+        },
+        "Cr": {
+          "not_material": true,
+          "control": "reflex Cr(VI) speciation on any total-Cr result > 100 ppb; any quantifiable Cr(VI) fails",
+          "reference_method": "species-specific isotope-dilution HPLC-ICP-MS (per saraiva2021, infant-formula Cr-VI adjudication)"
+        }
       }
     }
-  }
+  },
+  "_method_note": "8:1 reconstitution applies ONLY to formula subcategories (reconstitution_8to1:true). All other subcategories take government MLs and read-across values at face value. Read-across is always face value (nearest basis-appropriate government row)."
 }
