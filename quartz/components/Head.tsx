@@ -5,6 +5,7 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import { hasScholarlyPdf } from "./scholarlyPdf"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -35,11 +36,13 @@ function CitationMetadata({
   slug,
   title,
   socialUrl,
+  hasPdf,
 }: {
   frontmatter: Record<string, unknown> | undefined
   slug: FullSlug | undefined
   title: string
   socialUrl: string
+  hasPdf: boolean
 }) {
   if (!frontmatter) return null
   const slugStr = (slug ?? "") as string
@@ -90,14 +93,9 @@ function CitationMetadata({
       frontmatterString(frontmatter.updated) ??
       frontmatterString(frontmatter.created)
     const wikiDoi = frontmatterString(frontmatter.wiki_doi)
-    const isSynthesis = frontmatter.type === "synthesis" || slugStr.startsWith("synthesis/")
-    // Developed metal reviews ship a PDF too (postbuild-synthesis-pdf.mjs);
-    // status:stub scaffolds are excluded so we never point citation_pdf_url at a
-    // PDF that was not rendered (and never overclaim a thin page as a report).
-    const isDevelopedMetal =
-      frontmatter.type === "metal" &&
-      frontmatterString(frontmatter.status)?.toLowerCase() !== "stub"
-    const hasPdf = isSynthesis || isDevelopedMetal
+    // hasPdf is computed by the caller via hasScholarlyPdf(fileData) — the same
+    // rule the generator applies — so citation_pdf_url, the Download PDF button
+    // and the rendered file can never disagree.
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
@@ -221,6 +219,7 @@ export default (() => {
           slug={fileData.slug}
           title={title}
           socialUrl={socialUrl}
+          hasPdf={hasScholarlyPdf(fileData)}
         />
         <meta name="generator" content="Quartz" />
 

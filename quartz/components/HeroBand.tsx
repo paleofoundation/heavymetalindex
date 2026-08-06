@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/heroBand.scss"
+import { hasScholarlyPdf } from "./scholarlyPdf"
 
 // v3 hero band. Replaces the glyph/pill/card hero wholesale — this is a
 // re-layout, not a re-skin. Reference: "Heavy Metal Index v3.dc.html" lines
@@ -294,9 +295,18 @@ export default (() => {
                 <a class="hero-act" href="#update-history">
                   Version history
                 </a>
-                <a class="hero-act hero-act--solid" href={`/api/evidence-packet?slug=${slug}`}>
-                  Download PDF
-                </a>
+                {/* Download PDF points at the STATIC scholarly PDF that
+                    postbuild-synthesis-pdf.mjs emits to public/<slug>.pdf — the
+                    same document Head.tsx sets as citation_pdf_url. It previously
+                    pointed at /api/evidence-packet, which returns a JSON manifest,
+                    not a PDF, so the button delivered JSON. hasScholarlyPdf is the
+                    generator's own eligibility rule, so the button shows only
+                    where the PDF exists (never a 404). */}
+                {hasScholarlyPdf(fileData) && (
+                  <a class="hero-act hero-act--solid" href={`/${slug}.pdf`}>
+                    Download PDF
+                  </a>
+                )}
               </span>
             </div>
           </div>
