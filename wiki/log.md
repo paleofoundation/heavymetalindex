@@ -2,6 +2,10 @@
 noindex: true
 ---
 
+## [2026-08-06] batch | regulatory-ingest — P2 Taiwan cosmetic residual limits
+Pages touched: 1 regulation page, 1 source page, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
+Notes: Loaded 4 statutory Taiwan cosmetic residual heavy-metal rows (Hg 1 ppm, As 3 ppm, Cd 5 ppm, Pb 10 ppm) from the 2024 MOHW prohibited-ingredients amendment. Seventeen gap records cover UK/Ukraine/EU-style cosmetics frameworks, FDA supporting context already represented elsewhere, Turkey cancelled/uncertain guidance and amendments, Prop 65 chemical-list context, Thailand frameworks, UAE companion-standard adoption, prior Taiwan amendments, and New York's binary mercury prohibition without a numeric concentration limit.
+
 ## [2026-08-06] batch | regulatory-ingest — P1/P2 cocoa and cosmetic trace-metal controls
 Pages touched: 8 regulation pages, 8 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
 Notes: Loaded 38 regulatory-limit rows across Mexico cacao/chocolate contaminant reference levels, EAC draft skin-powder limits, Singapore HSA/ACD cosmetic controls, South Africa mercury-preservative exceptions, Korea MFDS cosmetic trace-metal limits, and Sri Lanka draft children's skin-powder limits. Twenty-one gap records cover companion standards, image-only PDFs, frameworks/prohibited lists without numeric HMI limits, superseded Korea 2023 text, combined-metal caps, and malformed draft annex tables.
