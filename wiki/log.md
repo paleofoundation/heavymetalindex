@@ -2,6 +2,10 @@
 noindex: true
 ---
 
+## [2026-08-06] batch | regulatory-ingest — P2 metals in jewelry, leather, cosmetics, and import controls
+Pages touched: 7 regulation pages, 7 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
+Notes: Loaded 38 regulatory-limit rows across EU REACH chromium VI leather and cadmium restrictions, California/Connecticut/Minnesota children's jewelry cadmium/lead laws, Australia prohibited-import heavy-metal entries, and EAEU cosmetic toxic-element limits. Twenty gap records were added for non-government standards, superseded/predecessor instruments, test methods, frameworks without numeric HMI values, release-unit provisions, and broad sources needing dedicated extraction.
+
 ## [2026-08-06] batch | regulatory-ingest — P2 cosmetics, toys, jewellery, textiles
 Pages touched: 14 regulation pages, 14 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
 Notes: P2 checkpoints loaded 66 regulatory-limit rows across Canada, China, Mexico, Korea, the United States, India, and the EU. Forty-one instruments or subprovisions were gap-logged rather than guessed, including image-only scans, scientific opinions, frameworks/proposals without current numeric HMI limits, As2O3 compound-basis arsenic values, nickel/surface-release units, and future-effective toy limits.
