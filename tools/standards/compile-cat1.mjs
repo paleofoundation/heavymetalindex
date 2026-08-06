@@ -39,7 +39,11 @@ const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR"
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio)
 const DRAFT = /draft|not for implementation|proposed/i
-const CANNED = /canned|tinplate|tin-plate|tinned|tin plate/i
+// Canned/tinplate in the register's several source languages. Tin migrates from the can, so these
+// limits govern canned product only; an English-only pattern let Morocco's French "en conserve"
+// tin rows (100 mg/kg) leak into non-canned purées. Also foundational for canned-seafood gating.
+const CANNED = /canned|tinplate|tin-plate|tinned|tin plate|en conserve|en bo[iî]te|en conserva|enlatad[oa]|em lata|in scatola|conserve[ns]?\b|conserva[ds]?\b/i
+const POWDER_FORM = /powder|powdered|dry\b|as[- ]sold.*powder/i // explicit powder-form scope
 
 // --- register load ------------------------------------------------------------
 function parseCsv(text) {
@@ -145,7 +149,15 @@ function resolveCell(sub, analyte, variant) {
   for (const r of rows) {
     const raw = num(r.value_ug_kg)
     if (raw == null) continue
-    const conv = sub.reconstitution_8to1 ? convert(raw, r.basis_class, sub.native_basis) : { value: raw, note: "face value", factor: 1 }
+    let conv = { value: raw, note: "face value", factor: 1 }
+    if (sub.reconstitution_8to1) {
+      // ÷8 (as-sold → as-consumed) applies ONLY to an explicitly powder-form limit. A generic
+      // as-sold "infant formula" limit (Fiji 20) governs the product as sold in whatever form and
+      // must not be diluted to 2.5. ×8 (as-consumed → as-sold) is unambiguous — as-consumed IS the
+      // prepared basis — so it always applies.
+      const wouldDivide = sub.native_basis === "as_consumed" && (r.basis_class || sub.native_basis) === "as_sold"
+      if (!wouldDivide || POWDER_FORM.test(r.product_scope)) conv = convert(raw, r.basis_class, sub.native_basis)
+    }
     const nativeForm = (r.basis_class || sub.native_basis) === sub.native_basis
     const cand = { value: conv.value, jur: r.jurisdiction, id: r.regulatory_limit_id, published: raw, publishedBasis: r.basis || r.basis_class, note: conv.note, nativeForm, scope: r.product_scope }
     const prev = perJur.get(r.jurisdiction)
@@ -161,43 +173,31 @@ function resolveCell(sub, analyte, variant) {
   }
 
   const candidates = [...perJur.values()].sort((a, b) => (a.value - b.value) || (jurRank(a.jur) - jurRank(b.jur)))
-  if (candidates.length) {
-    const binding = candidates[0]
-    return {
-      type: "gov",
-      value: roundDisplay(binding.value),
-      value_exact: binding.value,
-      binding_jurisdiction: binding.jur,
-      binding_id: binding.id,
-      basis_note: binding.note,
-      per_country: Object.fromEntries(candidates.map((c) => [c.jur, { value: roundDisplay(c.value), converted: c.note !== "same basis", id: c.id }])),
-    }
-  }
+  const direct = candidates.length ? candidates[0] : null
+  const perCountry = Object.fromEntries(candidates.map((c) => [c.jur, { value: roundDisplay(c.value), converted: c.note !== "same basis", id: c.id }]))
 
-  // No government row → read-across or not-material.
+  // Read-across is a COMPARATOR, not only a gap-filler. Compute it whenever configured, then take
+  // the strictest of the direct binding and the read-across. A government's own DIRECT limit that is
+  // LOOSER than a defensible read-across must not ratchet the standard DOWN below the near-neighbour
+  // value the program already anchors to (Israel's direct produce Hg 30 does not override the
+  // canned-complementary read-across 20). This preserves the one-way ratchet.
   const ra = (sub.read_across || {})[analyte]
-  if (ra) {
-    if (ra.not_material) {
-      return { type: "not_material", value: null, control: ra.control || "not material", reference_method: ra.reference_method || null }
-    }
+  let raResult = null
+  if (ra && !ra.not_material) {
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
     const raw = num(src.value_ug_kg)
-    // Read-across is the nearest analogous government value, used at FACE VALUE. The config picks a
-    // basis-appropriate source (a liquid-dairy Cr limit for a liquid product, a dry source for a dry
-    // product), so no 8:1 is layered on top — that would compound a cross-product analogy with a
-    // formula-specific reconstitution ratio. This mirrors the deployed formula-powder standard,
-    // whose Hg 20 and Cr 2000 read-across values are the source values verbatim.
-    return {
-      type: "read_across",
-      value: roundDisplay(raw),
-      value_exact: raw,
-      source_id: ra.source_id,
-      source_jurisdiction: src.jurisdiction,
-      label: ra.label || `read-across from ${src.jurisdiction}`,
-      basis_note: "face value (nearest government value)",
-      per_country: {},
-    }
+    if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label }
+  }
+
+  if (direct && (!raResult || direct.value <= raResult.value)) {
+    return { type: "gov", value: roundDisplay(direct.value), value_exact: direct.value, binding_jurisdiction: direct.jur, binding_id: direct.id, basis_note: direct.note, per_country: perCountry }
+  }
+  if (raResult) {
+    return { type: "read_across", value: roundDisplay(raResult.value), value_exact: raResult.value, source_id: raResult.source_id, source_jurisdiction: raResult.jur, label: raResult.label || `read-across from ${raResult.jur}`, basis_note: "face value (nearest government value; comparator vs any direct limit)", per_country: perCountry }
+  }
+  if (ra && ra.not_material) {
+    return { type: "not_material", value: null, control: ra.control || "not material", reference_method: ra.reference_method || null }
   }
   return { type: "gap", value: null, error: "no government ML and no read-across configured" }
 }
