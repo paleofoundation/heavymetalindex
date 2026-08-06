@@ -1,0 +1,44 @@
+{
+  "_doc": "Per-subcategory scope-selection + read-across config for the Cat-1 compiler. Every number the compiler emits traces to a register row selected by these rules. scope_include/exclude are case-insensitive regex fragments tested against product_scope. read_across names the register row for the nearest analogous government value where no government regulates the exact product. Audited configs for rows 2-9 are filled by the build workflow; formula-powder (row 1) is the regression anchor, calibrated to reproduce the deployed, audited standard.",
+  "_read_across_canon": {
+    "tHg": "cn_thg_canned-complementary-foods-for-infants-a_20 — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for these product forms anywhere.",
+    "Cr": "china_gb2762_cr_milk_powder_2000 — China GB 2762 total-Cr 2000 for milk powder; dairy read-across. For non-dairy subcategories the nearest analogous Cr source may differ; the workflow adjudicates per subcategory.",
+    "Cr-VI": "not-material: reflex speciation under total-Cr; any quantifiable Cr-VI fails."
+  },
+  "subcategories": {
+    "infant-formula-powder": {
+      "name": "Infant formula (powder)",
+      "row": 1,
+      "native_basis": "as_sold",
+      "canned": false,
+      "soy_split": true,
+      "scope_include": [
+        "infant formula",
+        "follow-on formul",
+        "follow-up formula",
+        "young-child formula",
+        "young child formula",
+        "infant milk substitute",
+        "formula food for infants",
+        "formula for infants",
+        "pediatric formula",
+        "f[oó]rmula"
+      ],
+      "scope_exclude": [
+        "liquid",
+        "ready-to-feed",
+        "ready to feed",
+        "ready to use",
+        "reconstitut",
+        "drinks",
+        "baby food",
+        "cereal",
+        "complementary"
+      ],
+      "read_across": {
+        "tHg": { "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20", "label": "government read-across (China GB 2762, canned complementary → formula)" },
+        "Cr": { "source_id": "china_gb2762_cr_milk_powder_2000", "label": "government read-across (China GB 2762 milk powder → formula)" }
+      }
+    }
+  }
+}
