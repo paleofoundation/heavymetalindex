@@ -2,6 +2,10 @@
 noindex: true
 ---
 
+## [2026-08-06] batch | regulatory-ingest — P2 cosmetics mercury and colourant controls
+Pages touched: 4 regulation pages, 4 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
+Notes: Loaded 12 regulatory-limit rows for Hong Kong mercury-added cosmetics, India Cosmetics Rules 2020 mercury/colourant limits, Kenya KS 2937 cosmetic Pb/As/Hg limits, and New Zealand HSR002552 carbon-black and mercurial-preservative entries. Twenty-four gap records cover cosmetics notification, cosmetovigilance, labeling/GMP, prohibited-substance lists without numeric finished-product values, superseded Indonesia 2019 limits, asbestos/talc material, surveillance-report benchmarks, and compound/combined-metal provisions.
+
 ## [2026-08-06] batch | regulatory-ingest — P2 metals in jewelry, leather, cosmetics, and import controls
 Pages touched: 7 regulation pages, 7 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
 Notes: Loaded 38 regulatory-limit rows across EU REACH chromium VI leather and cadmium restrictions, California/Connecticut/Minnesota children's jewelry cadmium/lead laws, Australia prohibited-import heavy-metal entries, and EAEU cosmetic toxic-element limits. Twenty gap records were added for non-government standards, superseded/predecessor instruments, test methods, frameworks without numeric HMI values, release-unit provisions, and broad sources needing dedicated extraction.
