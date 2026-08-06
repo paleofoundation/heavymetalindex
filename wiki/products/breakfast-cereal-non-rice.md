@@ -20,7 +20,7 @@ platform_metals: []
 step0_lock_date: 2026-06-02
 step0_basis: "regulatory-alignment (EU cereals Cd 100); literature-baseline where depth supports"
 step0_confidence: medium-low
-across_row_review_hook: "oat/wheat (Cd, Pb) vs corn differ; review for a grain-type split"
+across_row_review_hook: "RESOLVED (Pb, Cd) — government ML binds these cap analytes, verified 2026-08-06 vs regulatory_limits.csv; occurrence/other analytes remain held pending clean-dirty review: oat/wheat (Cd, Pb) vs corn differ; review for a grain-type split"
 literature_scope: thin
 sources: 0
 wiki_doi: null
