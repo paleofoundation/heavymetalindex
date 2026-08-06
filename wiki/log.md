@@ -2,6 +2,10 @@
 noindex: true
 ---
 
+## [2026-08-06] batch | regulatory-ingest — P2 cosmetics, toys, jewellery, textiles
+Pages touched: 14 regulation pages, 14 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
+Notes: P2 checkpoints loaded 66 regulatory-limit rows across Canada, China, Mexico, Korea, the United States, India, and the EU. Forty-one instruments or subprovisions were gap-logged rather than guessed, including image-only scans, scientific opinions, frameworks/proposals without current numeric HMI limits, As2O3 compound-basis arsenic values, nickel/surface-release units, and future-effective toy limits.
+
 ## [2026-06-01] batch | auto-fetched stale-claim drain — 3 source pages, 2 rollups, 50 skips
 Pages touched: [[sources/hanc2021-amanita-muscaria-hg-se]], [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr]], [[sources/yamanaka2025-tinplate-pineapple-cans]]
 Notes: Drained the 2026-06-01 21:44 Codex auto-fetched snapshot after reclaiming stale `claimed-by-codex` rows from prior fires. Triage found 50 false-positive skips already recorded in `wishlist-fetch-audit.csv`, 2 DOI rollups already indexed ([[sources/mohammadi2025-iran-carrot-cucumber-metals]], [[sources/emmanuel2025-kano-urban-vegetables-metals]]), and 3 real ingests. New pages add wild-mushroom total-Hg/Se dry-weight data, Bangladesh vegetable Pb/Cd/Cr dry-weight summary statistics, and accelerated tinplate-to-pineapple-syrup Sn migration evidence.
