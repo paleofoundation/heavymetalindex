@@ -59,6 +59,7 @@ function normalizeSymbols(s) {
 // markers for inlineRuns to consume.
 function stripWiki(s) {
   return normalizeSymbols(s)
+    .replace(/<\/?[a-z][a-z0-9]*\b[^>]*>/gi, "") // strip HTML tags (e.g. <span class="hmi-ref-meta">)
     .replace(/\[\[[^\]|#]*#?[^\]|]*\|([^\]]+)\]\]/g, "$1") // [[t|alias]] -> alias
     .replace(/\[\[([^\]|#]+)[^\]]*\]\]/g, (_, p) => p.split("/").pop()) // [[t]] -> basename
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // [text](url) -> text
@@ -92,10 +93,6 @@ function inlineRuns(s) {
   if (last < text.length) runs.push({ text: text.slice(last) })
   return runs.length ? runs : [{ text }]
 }
-
-// Reference lines carry a trailing "[[sources/key|Source record]]" web
-// affordance that has no place in print; drop it, then clean the rest.
-const cleanRef = (s) => clean(s.replace(/\[\[sources\/[^\]]*\]\]\.?\s*$/i, "").trim())
 
 // ── frontmatter + body parsing ──────────────────────────────────────────────
 export function parse(md) {
@@ -225,13 +222,32 @@ function parseTable(rows) {
   return { header, rows: dataRows }
 }
 
+// A reference line comes in the generated span format
+//   N. [[sources/key|Title]]<span class="hmi-ref-meta">authors · journal · year · [link](url)</span><span class="hmi-ref-tag">Tag</span>
+// (and, on some pages, the plainer "N. Authors (year). *Title*. …" form). Pull
+// the title, the meta line and the tag out separately so the renderer can lay
+// them out — and so the <span> markup never reaches the page as literal text.
 function parseRefs(section) {
   if (!section) return []
   const out = []
   for (const raw of section.lines) {
     const t = raw.trim()
     const m = t.match(/^(\d+)\.\s+(.*)/)
-    if (m) out.push({ n: Number(m[1]), text: cleanRef(m[2]) })
+    if (!m) continue
+    const rest = m[2]
+    const spanOf = (cls) => {
+      const mm = rest.match(new RegExp(`<span[^>]*class="[^"]*${cls}[^"]*"[^>]*>([\\s\\S]*?)</span>`, "i"))
+      return mm ? clean(mm[1]) : ""
+    }
+    const meta = spanOf("hmi-ref-meta")
+    const tag = spanOf("hmi-ref-tag")
+    // Head = everything before the first span (the title). In the span format the
+    // title IS a [[sources/…|Title]] wikilink, so resolve it FIRST (clean), then
+    // drop only a trailing "Source record" — the plain format's link affordance.
+    // (Stripping the whole trailing [[sources/…]] before resolving would delete
+    // the title itself.)
+    const head = clean(rest.replace(/<span[\s\S]*$/, "")).replace(/\s*Source record\.?\s*$/i, "").trim()
+    out.push({ n: Number(m[1]), head, meta, tag })
   }
   return out
 }
@@ -300,7 +316,7 @@ function buildModel(fm, body, cfg) {
     masthead: cfg.masthead,
     dateLabel: monthYear(updated || established),
     title,
-    authorLine: "Karen Pendergrass · ORCID 0000-0002-2348-7259 · Heavy Metal Index, Paleo Foundation",
+    authorLine: "Karen Pendergrass · ORCID 0000-0002-2348-7259 · Heavy Metal Index, Institute of Contaminant Standards",
     gradeLine: grade && GRADE_LABEL[grade] ? `Confidence grade ${grade} — ${GRADE_LABEL[grade]} (preprint)` : null,
     citeAs,
     keywords,
@@ -362,9 +378,11 @@ const s = StyleSheet.create({
   td: { fontFamily: "Inter", fontSize: 8.2, color: INK_BODY, lineHeight: 1.4 },
 
   refsHead: { fontFamily: "Lora", fontSize: 13, color: INK_TITLE, marginTop: 8, marginBottom: 8 },
-  refRow: { flexDirection: "row", marginBottom: 5 },
+  refRow: { flexDirection: "row", marginBottom: 6 },
   refNum: { fontFamily: "IBMPlexMono", fontSize: 7.5, color: BURGUNDY, width: 22 },
-  refText: { fontFamily: "Inter", fontSize: 8.2, color: INK_BODY, lineHeight: 1.45, flex: 1 },
+  refText: { fontFamily: "Inter", fontSize: 8.2, color: INK_BODY, lineHeight: 1.4 },
+  refMeta: { fontFamily: "Inter", fontSize: 7.3, color: MUTE, lineHeight: 1.4, marginTop: 1 },
+  refTag: { fontFamily: "IBMPlexMono", fontSize: 6.4, color: BURGUNDY, letterSpacing: 0.4, textTransform: "uppercase", marginTop: 1 },
 
   backGrid: { flexDirection: "row", flexWrap: "wrap", marginTop: 4 },
   backBlock: { width: "50%", paddingRight: 22, marginBottom: 12 },
@@ -558,9 +576,13 @@ function ScholarlyDocument(m) {
     children.push(h(Text, { key: "rh", style: s.refsHead }, "References"))
     m.references.forEach((r) =>
       children.push(
-        h(View, { key: `ref-${r.n}`, style: s.refRow }, [
+        h(View, { key: `ref-${r.n}`, style: s.refRow, wrap: false }, [
           h(Text, { key: "n", style: s.refNum }, `[${r.n}]`),
-          h(Text, { key: "t", style: s.refText }, r.text),
+          h(View, { key: "t", style: { flex: 1 } }, [
+            h(Text, { key: "h", style: s.refText }, r.head),
+            r.meta ? h(Text, { key: "m", style: s.refMeta }, r.meta) : null,
+            r.tag ? h(Text, { key: "g", style: s.refTag }, r.tag) : null,
+          ]),
         ]),
       ),
     )
