@@ -71,26 +71,26 @@ percentile math that delivers it). Adversarial readers attacking "why P97
 and not P95" must instead attack "why 90% and not 85%" — and the answer
 to that traces directly to the Governing Principles.
 
-### Limit-setting (initial publication) — the 90/30 row-pass intent
+### Limit-setting (initial publication) — the 90/40 row-pass intent
 
 The HMTc Standards are calibrated to deliver the following row-level
 outcomes at initial publication:
 
 - Approximately **90%** of clean-subcategory brands pass row-level
   certification on day one.
-- Approximately **30%** of dirty-subcategory brands pass row-level
+- Approximately **40%** of dirty-subcategory brands pass row-level
   certification on day one.
 
 These targets are the policy choice. They sit at the intersection of all
 five Governing Principles: too tight (e.g., 50/10) violates Principles 3
 and 5 because brands cannot recruit and the program cannot scale; too
 loose (e.g., 99/80) violates Principles 1 and 3 because the mark loses
-meaning and clean brands lose differentiation. 90/30 is the policy answer
+meaning and clean brands lose differentiation. 90/40 is the policy answer
 to all five simultaneously.
 
 ### Limit-setting (initial publication) — the per-analyte mechanism
 
-To deliver the 90/30 row-level intent, per-analyte limits are set as
+To deliver the 90/40 row-level intent, per-analyte limits are set as
 follows:
 
 **Per-analyte standard for a clean subcategory = P97** of that subcategory's
@@ -108,12 +108,16 @@ would deliver effectively 0% joint row-pass. Real-world analytes correlate
 (supply-chain hygiene drives multiple metals together), so the actual joint
 pass rate sits between independence and perfect correlation — typically
 50-70% for clean and 10-15% for dirty at raw P90/P30. Both fall well short
-of the 90% / 30% targets.
+of the 90% / 40% targets.
 
 The heuristic uplift from P90 → P97 (clean) and P30 → P45 (dirty) brings
-the joint row-pass rate close to the 90/30 target under typical analyte
-correlation (≈0.6). It is not a relaxation: it is the per-analyte
-percentile that delivers the row-level outcome the program promises.
+the joint row-pass rate close to the 90/40 target. The calibration is
+anchored to measured lot data, not an assumed correlation — the FDA 2026
+special survey delivered 94% clean and 42% dirty row-pass against the
+P97/P45 limits, confirming the 90/40 targets (the measured cross-analyte
+correlation is ~0.27, not the ≈0.6 once assumed). It is not a relaxation:
+it is the per-analyte percentile that delivers the row-level outcome the
+program promises.
 
 The uplift is uniform across all analytes today. Per-analyte differentiation
 (e.g., Pb tighter than Ni based on regulatory pressure or toxicology) is a
@@ -199,7 +203,7 @@ explicit governance decision and changelog entry to this document.
 
 ---
 
-**Version 2.1 — May 2026**
+**Version 2.2 — August 2026**
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -208,3 +212,4 @@ explicit governance decision and changelog entry to this document.
 | 1.2 | May 2026 | Clarified that benchmark percentiles are HMTc benchmark-pool calculations, not values individual studies are expected to report; added jurisdiction-aware benchmark pool rule. |
 | 2.0 | May 2026 | Locked the per-analyte limit-setting math to **P97 clean / P45 dirty** with the row-pass calibration rationale. Superseded the earlier "P10 default / P20 if selected" framing for dirty. Required pool admission of summary-only sources via moment-matching pseudo-sample expansion. Required each row's standard to be in the native basis of the product form. Reaffirmed that standards arithmetic does not live in `wiki/`. Reaffirmed scope: applies to every category in the HMTc index. |
 | 2.1 | May 2026 | Principle 5 reframed from "$2 billion by 2030" to "Make it the de facto standard" — commercial success follows from scale and credibility, not the reverse. Standards Math section restructured to lead with **intent** (90/30 row-pass) before **mechanism** (P97/P45 per-analyte uplift); the policy choice is the 90/30 row-pass rate, calibrated against all five Governing Principles, with P97/P45 as the math that delivers it. Ratchet trigger section expanded to specify two-condition fire rule (P80 of Status A + breadth threshold), 20% step cap, and reference to revised Governance Policy §12. |
+| 2.2 | August 2026 | Updated the dirty-subcategory row-pass target from the legacy 30% to ~40% (90/30 → 90/40 intent) and re-anchored the P97/P45 calibration to measured FDA 2026 lot data (94% clean / 42% dirty) rather than the assumed ≈0.6 cross-analyte correlation (measured ~0.27). Aligns this document with the amendment ratified 2026-08-03 in CLAUDE.md Part 19 and the Methodology Reference; the P97/P45 mechanism itself is unchanged. |

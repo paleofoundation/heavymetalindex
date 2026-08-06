@@ -31,7 +31,7 @@ The distinctions between species, inorganic versus total arsenic, methylmercury 
 
 ## HMTc testing categories
 
-The program organizes consumer products into a testing-category taxonomy. Each category groups products that share a matrix and an exposure pattern, for example infant and child foods, or personal-care products, so that thresholds can be set against the occurrence distribution relevant to that category rather than a single limit applied across unlike products. The Index mirrors this taxonomy in how its product-category pages are organized, which is why references such as "HMTc Category 1, Infant and Child Foods" appear in Index prose. The category structure is a way of organizing evidence and standards; the specific thresholds attached to each category are program content at heavymetaltested.com, not Index content.
+The program organizes consumer products into a testing-category taxonomy. Each category groups products that share a matrix and an exposure pattern, for example infant and child foods, or personal-care products, so that a threshold can reflect the contamination profile of that matrix rather than a single limit applied across unlike products. The Index mirrors this taxonomy in how its product-category pages are organized, which is why references such as "HMTc Category 1, Infant and Child Foods" appear in Index prose. The category structure is a way of organizing evidence and standards; the specific thresholds attached to each category are program content at heavymetaltested.com, not Index content.
 
 ## How the Index relates to the program
 
