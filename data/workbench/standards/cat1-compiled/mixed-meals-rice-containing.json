@@ -47,6 +47,11 @@
             "value": 200,
             "converted": true,
             "id": "sg_foodregs_2026_baby_food_pb_200"
+          },
+          "EU": {
+            "value": 10000,
+            "converted": true,
+            "id": "eu2002_32_pb_complementary_feed_10000"
           }
         }
       },

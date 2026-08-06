@@ -57,11 +57,11 @@
       },
       "tHg": {
         "type": "read_across",
-        "value": 20,
-        "value_exact": 20,
-        "source_id": "cn_thg_canned-complementary-foods-for-infants-a_20",
-        "source_jurisdiction": "CN",
-        "label": "government read-across — China GB 2762 total-Hg 20 for canned complementary infant foods; no government sets a mercury ML for any infant-food form, so 20 is applied as the program-settled flat value (matches the deployed formula-powder standard).",
+        "value": 8,
+        "value_exact": 8,
+        "source_id": "il_fcs2016_thg_14_2_porridges_and_other_foods_for_infants_and_toddlers_r_8",
+        "source_jurisdiction": "IL",
+        "label": "government read-across — Israel FCS-2016 porridges & other foods for infants and toddlers, total-Hg 8 (the strictest applicable baby-food mercury ML; supersedes the looser China canned-complementary 20).",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
         "per_country": {}
       },
