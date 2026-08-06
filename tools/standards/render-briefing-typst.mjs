@@ -4,15 +4,15 @@
  *
  * Renders a Standards Briefing markdown document into a publication-quality
  * PDF using the same Typst typographic family as the HMTc Program Manual
- * (FreightText Pro body, Avenir Next display, red Paleo Foundation accent),
+ * (FreightText Pro body, Avenir Next display, red Institute of Contaminant Standards (ICS) accent),
  * sized for a standalone communication piece rather than a bound volume.
  *
  * Input markdown should carry a YAML frontmatter block with:
  *   - title
  *   - subtitle    (optional)
- *   - overline    (optional, defaults to "A Standards Briefing · The Paleo Foundation")
+ *   - overline    (optional, defaults to "A Standards Briefing · The Institute of Contaminant Standards (ICS)")
  *   - author      (defaults to "Karen Pendergrass")
- *   - author_title (defaults to "Standards Architect, The Paleo Foundation")
+ *   - author_title (defaults to "Standards Architect, The Institute of Contaminant Standards (ICS)")
  *   - date        (optional)
  *   - slug        (used for output filename)
  *
@@ -252,11 +252,11 @@ function main() {
 #import "${templateRel}": briefing
 
 #show: briefing.with(
-  overline: "${escapeStr(fm.overline || "A Standards Briefing · The Paleo Foundation")}",
+  overline: "${escapeStr(fm.overline || "A Standards Briefing · The Institute of Contaminant Standards (ICS)")}",
   title: [${fm.title || "Briefing"}],
   ${fm.subtitle ? `subtitle: [${fm.subtitle}],` : ""}
   author: "${escapeStr(fm.author || "Karen Pendergrass")}",
-  author-title: "${escapeStr(fm.author_title || "Standards Architect, The Paleo Foundation")}",
+  author-title: "${escapeStr(fm.author_title || "Standards Architect, The Institute of Contaminant Standards (ICS)")}",
   ${fm.date ? `date: "${escapeStr(fm.date)}",` : ""}
 )
 

@@ -16,7 +16,7 @@
 //                          `about`)
 //   wiki/synthesis/*     → ScholarlyArticle (analytic synthesis claim)
 //
-// All injected JSON-LD declares the Paleo Foundation as `publisher`, the
+// All injected JSON-LD declares the Institute of Contaminant Standards (ICS) as `publisher`, the
 // Heavy Metal Index as `isPartOf`, and a `creator` Organization. The
 // `identifier` field is populated from `wiki_doi:` when present; absent that,
 // the canonical URL is the identifier. This is the field path downstream
@@ -59,7 +59,7 @@ const METAL_ENTITY_LINKS = {
 
 const PUBLISHER = {
   "@type": "Organization",
-  name: "Paleo Foundation",
+  name: "Institute of Contaminant Standards (ICS)",
   url: "https://paleofoundation.com",
 }
 // Named, ORCID-identified author of the Index's own content — the human
@@ -70,7 +70,7 @@ const AUTHOR = {
   "@id": "https://orcid.org/0000-0002-2348-7259",
   identifier: "https://orcid.org/0000-0002-2348-7259",
   sameAs: ["https://orcid.org/0000-0002-2348-7259"],
-  affiliation: { "@type": "Organization", name: "Paleo Foundation" },
+  affiliation: { "@type": "Organization", name: "Institute of Contaminant Standards (ICS)" },
 }
 const REFERENCE_WORK = {
   "@type": "WebSite",

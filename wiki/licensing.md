@@ -10,7 +10,7 @@ updated: 2026-05-28
 
 This page is the public license posture for everything published at heavymetalindex.com. It is one of three pages a sophisticated reader is expected to consult before relying on the Index: [[methodology]] for how evidence is selected and graded, [[editorial-standards]] for the wiki/HMTc firewall and editorial governance, and this page for what may be done with the content downstream.
 
-The Heavy Metal Index is operated by the Paleo Foundation, a non-profit registered in Cyprus. The European Union's `sui generis` database-rights regime under Directive 96/9/EC and its implementations in Cyprus law applies to the curated database the Index publishes. This is the legal frame the rest of this page derives from.
+The Heavy Metal Index is operated by the Institute of Contaminant Standards (ICS), the certification program of Paleo Certified, Inc., a Florida corporation. The curated database the Index publishes — its selection, arrangement, annotation, and metadata — is protected as a compilation under applicable law. This is the legal frame the rest of this page derives from.
 
 ## Three layers, three license postures
 
@@ -34,7 +34,7 @@ When a `wiki_doi:` is populated for the cited page, the attribution should refer
 
 ### Layer 2: Structured evidence database (EU database rights reserved)
 
-The curated, structured evidence database underlying the Index — the routing audit, the structured value records under `data/evidence/`, the `contamination_profile` blocks on ingredient pages, the `limit_value` and jurisdiction matrix on regulation pages, the synthesis-claim contributing-source lists, and any composite views derived from these — is the substantial-investment work of the Paleo Foundation and is protected as a `sui generis` database under Directive 96/9/EC.
+The curated, structured evidence database underlying the Index — the routing audit, the structured value records under `data/evidence/`, the `contamination_profile` blocks on ingredient pages, the `limit_value` and jurisdiction matrix on regulation pages, the synthesis-claim contributing-source lists, and any composite views derived from these — is the substantial-investment work of Paleo Certified, Inc. and is protected as a `sui generis` database under Directive 96/9/EC.
 
 The database rights are **reserved**. Permitted uses:
 
@@ -69,7 +69,7 @@ This deserves its own subsection because the question is asked often.
 ## What this page does not license
 
 - **Heavy Metal Tested & Certified (HMT&C) certification marks, certified-brand lists, and HMT&C threshold derivations.** These live at heavymetaltested.com and are governed separately by the HMT&C program's terms. See [[heavy-metal-tested-certified]].
-- **The Paleo Foundation's name, logos, and trademarks.** These are not licensed under any open-source or open-data licence.
+- **Paleo Certified, Inc.'s name, logos, and trademarks.** These are not licensed under any open-source or open-data licence.
 - **Brand-identifying contamination data.** None of this is published on the Heavy Metal Index by design (see [[editorial-standards]] § Brand-level data: hard firewall).
 
 ## Why this posture, in two sentences

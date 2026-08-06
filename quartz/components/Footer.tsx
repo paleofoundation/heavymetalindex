@@ -29,7 +29,7 @@ const footerSections = [
     title: "Foundation",
     links: [
       ["About", "/about"],
-      ["Paleo Foundation", "https://paleofoundation.com"],
+      ["Institute of Contaminant Standards (ICS)", "https://paleofoundation.com"],
       ["WikiBiome", "https://wikibiome.com"],
       ["Heavy Metal Tested", "https://heavymetaltested.com"],
     ],
@@ -116,7 +116,7 @@ export default (() => {
           </nav>
         </div>
         <div class="site-footer-bottom">
-          <p>© {year} Paleo Foundation. Heavy Metal Index is a public reference project.</p>
+          <p>© {year} Institute of Contaminant Standards (ICS). Heavy Metal Index is a public reference project.</p>
           <p>Reference only. Not medical, legal, regulatory, or product-certification advice.</p>
         </div>
       </footer>

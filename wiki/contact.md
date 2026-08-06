@@ -5,11 +5,11 @@ audience: [regulator, researcher, consumer, commercial]
 updated: 2026-04-24
 ---
 
-The Heavy Metal Index is operated by the [Paleo Foundation](https://paleofoundation.com), Cyprus.
+The Heavy Metal Index is operated by the [Institute of Contaminant Standards (ICS)](https://paleofoundation.com), Cyprus.
 
 ## Corrections and editorial
 
-To report a factual error, a broken provenance link, an outdated regulatory value, or a missing source that should be considered for ingest, use the correction form below. The form delivers your submission to the editorial queue at `data/evidence/corrections.jsonl`; the team acknowledges within 5 business days per [[errata]]. Email to the editorial address published on the Paleo Foundation contact page remains a supported backup channel.
+To report a factual error, a broken provenance link, an outdated regulatory value, or a missing source that should be considered for ingest, use the correction form below. The form delivers your submission to the editorial queue at `data/evidence/corrections.jsonl`; the team acknowledges within 5 business days per [[errata]]. Email to the editorial address published on the Institute of Contaminant Standards (ICS) contact page remains a supported backup channel.
 
 <form class="hmi-correction-form" data-hmi-correction-form="/api/corrections" novalidate>
   <fieldset>
@@ -54,12 +54,12 @@ To report a factual error, a broken provenance link, an outdated regulatory valu
 
 ## Commercial licensing
 
-For commercial licensing of Heavy Metal Index content, including bulk extraction, derivative-works arrangements, and enterprise access, correspondence goes to the licensing address published on the Paleo Foundation contact page.
+For commercial licensing of Heavy Metal Index content, including bulk extraction, derivative-works arrangements, and enterprise access, correspondence goes to the licensing address published on the Institute of Contaminant Standards (ICS) contact page.
 
 ## Media
 
-For press inquiries and interview requests, correspondence goes to the media address published on the Paleo Foundation contact page. The editorial team responds to fact-checking requests from journalists on a priority basis.
+For press inquiries and interview requests, correspondence goes to the media address published on the Institute of Contaminant Standards (ICS) contact page. The editorial team responds to fact-checking requests from journalists on a priority basis.
 
 ## Regulatory and legal
 
-For regulatory inquiries, legal process, and matters affecting the Paleo Foundation's programs, correspondence goes through the Paleo Foundation's published regulatory and legal contact channels.
+For regulatory inquiries, legal process, and matters affecting the Institute of Contaminant Standards (ICS)'s programs, correspondence goes through the Institute of Contaminant Standards (ICS)'s published regulatory and legal contact channels.

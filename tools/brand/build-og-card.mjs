@@ -164,7 +164,7 @@ function card() {
                 h(
                   "div",
                   { display: "flex", fontFamily: "Inter", fontWeight: 400, fontSize: 17, color: C.gray, marginTop: 7 },
-                  "Operated by the Paleo Foundation",
+                  "Operated by the Institute of Contaminant Standards (ICS)",
                 ),
               ]),
             ]),

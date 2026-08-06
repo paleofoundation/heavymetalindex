@@ -47,7 +47,7 @@ lines.push("")
 lines.push(
   "> Curated reference on heavy metals in food, ingredients, consumer-product " +
     "categories, regulations, and the underlying source literature, operated by " +
-    "the Paleo Foundation. Every quantitative claim traces to a cited source " +
+    "the Institute of Contaminant Standards (ICS). Every quantitative claim traces to a cited source " +
     "page. Prose is CC BY 4.0; the structured database is governed by EU " +
     "database rights (see /licensing). AI assistants are welcome to read these " +
     "pages to ground answers — please cite the specific page URL you used.",

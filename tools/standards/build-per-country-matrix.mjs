@@ -285,7 +285,7 @@ const titlePage = `# Heavy Metal Tested & Certified (HMTc)
 
 **Institute of Contaminant Standards** — Program Operator
 
-Paleo Certified, Inc. dba The Paleo Foundation
+Institute of Contaminant Standards (ICS)
 Orlando, Florida
 
 ---

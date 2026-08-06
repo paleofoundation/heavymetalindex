@@ -118,7 +118,7 @@ describe("Standards Briefing — phantom co-author guard", () => {
     assert.match(
       text,
       /Karen Pendergrass.*Standards Architect/i,
-      "The default byline must name 'Karen Pendergrass, Standards Architect, Paleo Foundation'. Override via --authors=... requires explicit instruction.",
+      "The default byline must name 'Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS)'. Override via --authors=... requires explicit instruction.",
     )
   })
 
@@ -126,8 +126,8 @@ describe("Standards Briefing — phantom co-author guard", () => {
     const text = regenerate()
     assert.match(
       text,
-      /also serves as CEO of the Paleo Foundation/,
-      "The dual-role disclosure (Standards Architect + CEO of Paleo Foundation) must appear in the Provenance Footer for transparency. Hiding the CEO role is worse than disclosing it because adversarial readers can find it trivially and weaponize the omission.",
+      /also serves as CEO of the Institute of Contaminant Standards (ICS)/,
+      "The dual-role disclosure (Standards Architect + CEO of Institute of Contaminant Standards (ICS)) must appear in the Provenance Footer for transparency. Hiding the CEO role is worse than disclosing it because adversarial readers can find it trivially and weaponize the omission.",
     )
   })
 

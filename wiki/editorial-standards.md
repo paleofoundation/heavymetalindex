@@ -5,13 +5,13 @@ updated: 2026-04-26
 audience: [regulator, educator, consumer]
 ---
 
-This page describes who maintains Heavy Metal Index, how the index is governed, and the firewall between the index and the Paleo Foundation's Heavy Metal Tested & Certified (HMT&C) certification program. It is one of two pages a sophisticated reader is expected to consult before relying on the index for regulatory, legal, or commercial purposes; the other is [[methodology]].
+This page describes who maintains Heavy Metal Index, how the index is governed, and the firewall between the index and the Institute of Contaminant Standards (ICS)'s Heavy Metal Tested & Certified (HMT&C) certification program. It is one of two pages a sophisticated reader is expected to consult before relying on the index for regulatory, legal, or commercial purposes; the other is [[methodology]].
 
 This page is a stub and will be expanded. The governance posture below is not aspirational; it is the working policy under which the index is being built. Sections marked stub will be expanded with names, dates, and procedural detail before the index transitions out of preview.
 
 ## Operator
 
-Heavy Metal Index is operated by the Paleo Foundation, a non-profit entity registered in Cyprus. The Foundation also operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com, which is a separately branded certification program for consumer products tested against thresholds for lead, cadmium, arsenic, mercury, and related elements. The program itself is described at [[heavy-metal-tested-certified]].
+Heavy Metal Index is operated by the Institute of Contaminant Standards (ICS), a non-profit entity registered in Cyprus. The Foundation also operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com, which is a separately branded certification program for consumer products tested against thresholds for lead, cadmium, arsenic, mercury, and related elements. The program itself is described at [[heavy-metal-tested-certified]].
 
 The Foundation's operation of both projects is disclosed openly on every page of this index, in the site header, and is the central governance question this page exists to address. The remainder of this document describes how the two projects are kept editorially distinct.
 
@@ -41,7 +41,7 @@ The named editorial board and external reviewers are listed at [[curators|wiki/c
 
 ## Conflict of interest posture
 
-The principal conflict of interest the Index operates with is the Paleo Foundation's parallel operation of the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The architectural firewall between the wiki and HMT&C is described above (Editorial firewall) and enforced in code; the per-curator and per-reviewer disclosures are at [[curators]].
+The principal conflict of interest the Index operates with is the Institute of Contaminant Standards (ICS)'s parallel operation of the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The architectural firewall between the wiki and HMT&C is described above (Editorial firewall) and enforced in code; the per-curator and per-reviewer disclosures are at [[curators]].
 
 The Foundation's bar for recusal is low: when in doubt, a curator recuses from substantive review of the page in question and another curator or external reviewer takes it. Recusals are logged per curator in the [[curators]] frontmatter and are themselves public.
 
