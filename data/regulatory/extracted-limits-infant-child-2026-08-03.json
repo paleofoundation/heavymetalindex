@@ -105,7 +105,9 @@
     "speciation": "total",
     "notes": "ML; ready-to-use basis; methylmercury",
     "source_doc": "Codex_CXS193_2023.pdf",
-    "source_url": "https://www.fao.org/fileadmin/user_upload/livestockgov/documents/1_CXS_193e.pdf"
+    "source_url": "https://www.fao.org/fileadmin/user_upload/livestockgov/documents/1_CXS_193e.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "Codex Alimentarius",
@@ -297,7 +299,9 @@
     "speciation": "total",
     "notes": "Annex I, Section 3.3; applies to ready-to-use product",
     "source_doc": "EU_Regulation_2023-915_text.md",
-    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/915/oj/eng"
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/915/oj/eng",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "European Union",
@@ -309,7 +313,9 @@
     "speciation": "total",
     "notes": "Annex I, Section 3.3",
     "source_doc": "EU_Regulation_2023-915_text.md",
-    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/915/oj/eng"
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2023/915/oj/eng",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "European Union",
@@ -669,7 +675,9 @@
     "speciation": "total",
     "notes": "Table 3; total mercury",
     "source_doc": "China_GB2762-2022_English_MAST.pdf",
-    "source_url": "https://www.mast.is/static/files/Serleyfismarkadir/Kina/Log_og_reglugerdir/gb-2762-2022-1-.pdf"
+    "source_url": "https://www.mast.is/static/files/Serleyfismarkadir/Kina/Log_og_reglugerdir/gb-2762-2022-1-.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "China",
@@ -681,7 +689,9 @@
     "speciation": "total",
     "notes": "Table 3; total mercury",
     "source_doc": "China_GB2762-2022_English_MAST.pdf",
-    "source_url": "https://www.mast.is/static/files/Serleyfismarkadir/Kina/Log_og_reglugerdir/gb-2762-2022-1-.pdf"
+    "source_url": "https://www.mast.is/static/files/Serleyfismarkadir/Kina/Log_og_reglugerdir/gb-2762-2022-1-.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "China",
@@ -736,7 +746,7 @@
     "instrument": "GB 2762-2022",
     "metal": "Chromium (Cr)",
     "food_category": "Powdered infant formula",
-    "limit_value": 2.0,
+    "limit_value": 2,
     "unit": "mg/kg",
     "speciation": "total chromium",
     "notes": "Table 5; total Cr; as-sold powder basis",
@@ -748,7 +758,7 @@
     "instrument": "GB 2762-2022",
     "metal": "Chromium (Cr)",
     "food_category": "Cereal-based complementary foods for infants and young children",
-    "limit_value": 1.0,
+    "limit_value": 1,
     "unit": "mg/kg",
     "speciation": "total chromium",
     "notes": "Table 5; total Cr",
@@ -945,7 +955,9 @@
     "speciation": "total",
     "notes": "Table 1.4; MTL; total mercury",
     "source_doc": "Brazil_ANVISA_IN88-2021_Metals_English.pdf",
-    "source_url": "https://www.gov.br/anvisa/en/rules-and-regulations/arquivos/in-88-2021-e.pdf"
+    "source_url": "https://www.gov.br/anvisa/en/rules-and-regulations/arquivos/in-88-2021-e.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "Brazil",
@@ -1089,7 +1101,9 @@
     "speciation": "total",
     "notes": "FSS Infant Nutrition Regulations",
     "source_doc": "India_FSSAI_Contaminants_Regulations_2011.pdf",
-    "source_url": "https://jaivikbharat.fssai.gov.in/pdf/Contaminants_Regulations.pdf"
+    "source_url": "https://jaivikbharat.fssai.gov.in/pdf/Contaminants_Regulations.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "India",
@@ -1197,7 +1211,9 @@
     "speciation": "total",
     "notes": "Under evaluation; FDA/EPA fish advice only; no baby food action level",
     "source_doc": "USA_FDA_CloserToZero_ActionPlan_page.md",
-    "source_url": "https://www.fda.gov/food/environmental-contaminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods"
+    "source_url": "https://www.fda.gov/food/environmental-contaminants-food/closer-zero-reducing-childhood-exposure-contaminants-foods",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "USA",
@@ -1317,7 +1333,9 @@
     "speciation": "total",
     "notes": "No specific ML for Hg in infant foods; general fish advisory applies",
     "source_doc": "Canada_HealthCanada_Lead_InfantFormula_2019.html",
-    "source_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/proposal-lower-maximum-levels-lead-infant-formula-list-of-contaminants-other-adulterating-substances/document.html"
+    "source_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/proposal-lower-maximum-levels-lead-infant-formula-list-of-contaminants-other-adulterating-substances/document.html",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "Canada",
@@ -1413,7 +1431,9 @@
     "speciation": "total",
     "notes": "Ministerial Ordinance on Milk and Dairy Products; total mercury",
     "source_doc": "Japan_MAFF_FoodSafety_Contaminants_2019.pdf",
-    "source_url": "https://www.maff.go.jp/e/policies/food_safety/attach/pdf/workshop_contaminants_2-17.pdf"
+    "source_url": "https://www.maff.go.jp/e/policies/food_safety/attach/pdf/workshop_contaminants_2-17.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "Japan",
@@ -1533,7 +1553,9 @@
     "speciation": "total",
     "notes": "Korea Food Code; total mercury",
     "source_doc": "Korea_USDA_GAIN_FAIRS_2022.pdf",
-    "source_url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food%20and%20Agricultural%20Import%20Regulations%20and%20Standards%20Country%20Report_Seoul_Korea%20-%20Republic%20of_KS2022-0008.pdf"
+    "source_url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food%20and%20Agricultural%20Import%20Regulations%20and%20Standards%20Country%20Report_Seoul_Korea%20-%20Republic%20of_KS2022-0008.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "South Korea",
@@ -1653,7 +1675,9 @@
     "speciation": "total",
     "notes": "GSO adopts Codex CXS 193 MLs",
     "source_doc": "Gulf_GSO_Contaminants_Toxins_Draft2019.pdf",
-    "source_url": "https://www.nda.gov.za/images/Branches/AgricProducHealthFoodSafety/food-safety-and-quality-assurance/about-us/AgricProducHealthFoodSafety/food-safety-and-quality-assurance/marking-requirements/gso-1016.pdf"
+    "source_url": "https://www.nda.gov.za/images/Branches/AgricProducHealthFoodSafety/food-safety-and-quality-assurance/about-us/AgricProducHealthFoodSafety/food-safety-and-quality-assurance/marking-requirements/gso-1016.pdf",
+    "_contradicts_primary": true,
+    "_quarantine_note": "CONTRADICTS PRIMARY (flagged 2026-08-05 per Daubert stress-test): no government sets a mercury ML for infant formula. Refuted by Codex CXS 193 current-2025 (Hg only: mineral water, salt, 6 fish species), EU 2023/915 Annex I 3.3 (Hg fish/salt only), the primary-confirmed regulatory_limits.csv, and standards-no-ml-confirmed.csv. This value is a bulk-extraction confabulation; do NOT use."
   },
   {
     "jurisdiction": "Gulf GCC",
