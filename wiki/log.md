@@ -2,6 +2,10 @@
 noindex: true
 ---
 
+## [2026-08-06] batch | regulatory-ingest — P1/P2 cocoa and cosmetic trace-metal controls
+Pages touched: 8 regulation pages, 8 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
+Notes: Loaded 38 regulatory-limit rows across Mexico cacao/chocolate contaminant reference levels, EAC draft skin-powder limits, Singapore HSA/ACD cosmetic controls, South Africa mercury-preservative exceptions, Korea MFDS cosmetic trace-metal limits, and Sri Lanka draft children's skin-powder limits. Twenty-one gap records cover companion standards, image-only PDFs, frameworks/prohibited lists without numeric HMI limits, superseded Korea 2023 text, combined-metal caps, and malformed draft annex tables.
+
 ## [2026-08-06] batch | regulatory-ingest — P2 cosmetics mercury and colourant controls
 Pages touched: 4 regulation pages, 4 source pages, `data/evidence/regulatory_limits.csv`, `data/evidence/regulatory-ingest-gaps.csv`
 Notes: Loaded 12 regulatory-limit rows for Hong Kong mercury-added cosmetics, India Cosmetics Rules 2020 mercury/colourant limits, Kenya KS 2937 cosmetic Pb/As/Hg limits, and New Zealand HSR002552 carbon-black and mercurial-preservative entries. Twenty-four gap records cover cosmetics notification, cosmetovigilance, labeling/GMP, prohibited-substance lists without numeric finished-product values, superseded Indonesia 2019 limits, asbestos/talc material, surveillance-report benchmarks, and compound/combined-metal provisions.
