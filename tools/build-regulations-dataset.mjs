@@ -34,7 +34,7 @@ const LICENSE = {
   prose: "CC BY 4.0",
   structured_data: "EU database rights reserved — see https://heavymetalindex.com/licensing",
   attribution:
-    "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi.",
+    "Heavy Metal Index (heavymetalindex.com), Institute of Contaminant Standards (ICS). Cite page_url or wiki_doi.",
 }
 
 function parseFrontmatter(raw) {

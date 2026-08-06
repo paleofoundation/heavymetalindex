@@ -79,7 +79,7 @@ const dataset = {
     structured_data: "EU database rights reserved — see https://heavymetalindex.com/licensing",
     contact: "karen@paleofoundation.com",
   },
-  attribution: "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite the page URL or wiki_doi.",
+  attribution: "Heavy Metal Index (heavymetalindex.com), Institute of Contaminant Standards (ICS). Cite the page URL or wiki_doi.",
   record_count: records.length,
   records,
 }

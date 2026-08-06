@@ -50,14 +50,14 @@ const productSlug = args.get("product") ?? "infant-formula-powder-non-soy"
 // AI implementation acknowledgment lives in the Provenance Footer, NOT in
 // the byline. Claude is a tool that can't testify; putting it in the
 // authors line invites mockery without supplying a defense witness.
-const authorsList = (args.get("authors") ?? "Karen Pendergrass, Standards Architect, Paleo Foundation")
+const authorsList = (args.get("authors") ?? "Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS)")
   .split(";")
   .map((s) => s.trim())
   .filter(Boolean)
 const implementationCredit = args.get("implementation-credit") ??
   "Methodology implementation: deterministic open-source pooling engine and document generator (this file's repository at the commit named in the Provenance Footer). Engine code and document templates were drafted with AI assistance (Claude, Anthropic) under the supervision and direction of the Standards Architect. All policy decisions, methodology choices, source-admission rules, basis conventions, and final values are the Standards Architect's; the AI assistance is a calculator-and-drafter, not a co-author."
 const ceoDualRoleNote = args.get("ceo-dual-role-note") ??
-  "Karen Pendergrass also serves as CEO of the Paleo Foundation, which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title."
+  "Karen Pendergrass also serves as CEO of the Institute of Contaminant Standards (ICS), which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title."
 
 // HMTc-10 analyte order (per CLAUDE.md Part 19, ordered for briefing readability)
 const ANALYTE_ORDER = ["Pb", "iAs", "tAs", "Sn", "Ni", "Cd", "Cr-VI", "Al", "tHg", "MeHg"]

@@ -8,11 +8,11 @@ review: legal-counsel-needed
 
 ## Overview
 
-This Privacy Notice explains how Heavy Metal Index handles personal data when you visit heavymetalindex.com or contact the Paleo Foundation about the site.
+This Privacy Notice explains how Heavy Metal Index handles personal data when you visit heavymetalindex.com or contact the Institute of Contaminant Standards (ICS) about the site.
 
 ## Controller
 
-Heavy Metal Index is operated by the Paleo Foundation, Cyprus. Contact routes for privacy, legal, licensing, and editorial inquiries are listed on the [contact](/contact) page.
+Heavy Metal Index is operated by the Institute of Contaminant Standards (ICS), Cyprus. Contact routes for privacy, legal, licensing, and editorial inquiries are listed on the [contact](/contact) page.
 
 ## Summary
 
@@ -30,7 +30,7 @@ Some interface preferences may be stored in your browser, such as dark-mode pref
 
 ### Correspondence Data
 
-If you contact the Paleo Foundation about corrections, licensing, media, regulatory, privacy, or legal matters, the Foundation may process the contact details and message content you provide, including your name, email address, organization, role, attachments, and correspondence metadata.
+If you contact the Institute of Contaminant Standards (ICS) about corrections, licensing, media, regulatory, privacy, or legal matters, the Foundation may process the contact details and message content you provide, including your name, email address, organization, role, attachments, and correspondence metadata.
 
 ### Assistant Data
 
@@ -85,4 +85,4 @@ Heavy Metal Index is a public scientific and regulatory reference. It is not dir
 
 ## Changes
 
-The Paleo Foundation may update this Privacy Notice as the site, infrastructure, or legal requirements change. The updated date at the top of this page identifies the latest published revision.
+The Institute of Contaminant Standards (ICS) may update this Privacy Notice as the site, infrastructure, or legal requirements change. The updated date at the top of this page identifies the latest published revision.

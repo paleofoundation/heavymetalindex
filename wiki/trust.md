@@ -28,7 +28,7 @@ The strategic frame is at [[roadmap]]: what the Index is today, the four shifts 
 ## Who is accountable
 
 - [[curators]] — named curators of the Index, their credentials, domain expertise, and conflict-of-interest disclosures. Scaffold state today; the structural slots are in place, named individuals fill in as the curatorial board finalises. Recusal log is on the page.
-- The principal conflict — the Paleo Foundation's parallel operation of the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program — is disclosed on every editorial page and is the central question the [[editorial-standards|editorial firewall]] answers.
+- The principal conflict — the Institute of Contaminant Standards (ICS)'s parallel operation of the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program — is disclosed on every editorial page and is the central question the [[editorial-standards|editorial firewall]] answers.
 
 ## How errors are handled
 

@@ -205,7 +205,7 @@ function buildScoutPrompt(snap) {
     "- Pick exactly ONE proposal per call. Do not enumerate options.",
     "- The proposal must be EXECUTABLE: it names files, slugs, scripts, or specific data records. Not 'improve quality.' Specific.",
     "- Tie the proposal to a measurable signal in the snapshot below.",
-    "- Stay within scope: this wiki is epistemic infrastructure for the Paleo Foundation's HMT&C program. Read CLAUDE.md Part 2 (firewall), Part 9 (synthesis), Part 19 (HMT&C methodology). Do not propose changes that violate the wiki/HMT&C firewall.",
+    "- Stay within scope: this wiki is epistemic infrastructure for the Institute of Contaminant Standards (ICS)'s HMT&C program. Read CLAUDE.md Part 2 (firewall), Part 9 (synthesis), Part 19 (HMT&C methodology). Do not propose changes that violate the wiki/HMT&C firewall.",
     "- DO propose: structured-extraction extensions, new lint rules, schema fields, deterministic generators, new sources for thin cells, geographic-coverage gaps, audience-translation gaps, mitigation-page expansions, federation pieces (WikiBiome), public-app surfaces, governance tools (audit-pending-locks, etc.).",
     "- DO NOT propose: brand-level data ingest (Part 12 firewall), softening literature claims toward HMT&C thresholds (Part 2), or vague directional asks.",
     "",

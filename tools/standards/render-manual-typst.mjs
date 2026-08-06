@@ -313,7 +313,7 @@ function main() {
   subtitle: [${derivedSubtitle}],
   author: "Karen Pendergrass",
   edition: "2026 Edition",
-  publisher: "Paleo Certified, Inc. dba The Paleo Foundation",
+  publisher: "Paleo Certified, Inc. dba The Institute of Contaminant Standards (ICS)",
 )
 
 ${typstBody}

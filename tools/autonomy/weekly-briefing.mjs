@@ -407,7 +407,7 @@ function runCochraneAssessment(metrics, model) {
     JSON.stringify(metrics, null, 2),
     "```",
     "",
-    "Read the CLAUDE.md and docs/governance/hmtc-governing-principles.md to understand what this wiki is trying to be (epistemic infrastructure for the Paleo Foundation's Heavy Metal Tested & Certified program; commercial defensibility against class-action expert challenges).",
+    "Read the CLAUDE.md and docs/governance/hmtc-governing-principles.md to understand what this wiki is trying to be (epistemic infrastructure for the Institute of Contaminant Standards (ICS)'s Heavy Metal Tested & Certified program; commercial defensibility against class-action expert challenges).",
     "",
     "Produce a Cochrane comparison with three parts:",
     "",

@@ -7,7 +7,7 @@ updated: 2026-04-24
 
 ## Overview
 
-The Heavy Metal Index is a public-facing reference on heavy metals in food, supply chain, remediation, and regulatory findings. It is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc., which also operates the [Paleo Foundation](https://paleofoundation.com). The index is the principal scientific reference asset of the heavy metals program.
+The Heavy Metal Index is a public-facing reference on heavy metals in food, supply chain, remediation, and regulatory findings. It is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc., which also operates the [Institute of Contaminant Standards (ICS)](https://paleofoundation.com). The index is the principal scientific reference asset of the heavy metals program.
 
 ## Why this resource exists
 
@@ -17,7 +17,7 @@ The stated aim is to be the canonical reference for heavy metals in food. "Canon
 
 ## Editorial independence
 
-Paleo Certified, Inc. also operates, as the Paleo Foundation, the Heavy Metal Tested and Certified (HMT&amp;C) certification program at [heavymetaltested.com](https://heavymetaltested.com); the program is described at [[heavy-metal-tested-certified]]. These properties are maintained as architecturally separate products with one-way reference only. HMT&amp;C documents may cite Heavy Metal Index pages for the literature baseline. The Heavy Metal Index does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. This separation is deliberate, enforced in the editorial policy, and reviewable by inspecting the published content.
+Paleo Certified, Inc. also operates, as the Institute of Contaminant Standards (ICS), the Heavy Metal Tested and Certified (HMT&amp;C) certification program at [heavymetaltested.com](https://heavymetaltested.com); the program is described at [[heavy-metal-tested-certified]]. These properties are maintained as architecturally separate products with one-way reference only. HMT&amp;C documents may cite Heavy Metal Index pages for the literature baseline. The Heavy Metal Index does not mention HMT&amp;C-certified brands, does not endorse specific products, and does not function as justification material for the certification program. This separation is deliberate, enforced in the editorial policy, and reviewable by inspecting the published content.
 
 ## Governance
 

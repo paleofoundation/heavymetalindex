@@ -216,7 +216,7 @@ function buildHtml(markdown) {
 <head>
 <meta charset="utf-8">
 <title>HMTc Infant and Child Foods Program Manual, 2026 Edition</title>
-<meta name="author" content="Karen Pendergrass, Standards Architect, Paleo Foundation">
+<meta name="author" content="Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS)">
 <style>${CSS}</style>
 </head>
 <body>
