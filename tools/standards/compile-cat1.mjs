@@ -39,6 +39,17 @@ const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR"
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
 const RECON = 8 // 8:1 powder->prepared (China GB 2762 footnote c; the only govt-legislated ratio)
 const DRAFT = /draft|not for implementation|proposed/i
+// Quarantined rows: transcription/units artifacts confirmed against the source document and excluded
+// from strictest-selection (their data stays in the register for reconstructibility; status gates them
+// out). Set on the four Guyana Schedule-Four "ppb table" rows (fish Pb 25 / Cd 10 / tHg 200 / tAs 200),
+// a source-gazette typesetting error that contradicts the same instrument's own ppm table — see the
+// Cat-6 audit (wf_925293b1-55f). Would drive HMTc seafood below every enforced government limit on Earth.
+const QUARANTINE = /quarantin/i
+// Animal-feed limits (Directive 2002/32/EC and equivalents) carry "feed" in the basis column. They are
+// not food MLs; categorically exclude them from food strictest-selection. Load-bearing because four EU
+// feed mercury rows (100-200 ug/kg) are STRICTER than the strictest food-fish tHg (300) and would wrongly
+// cap seafood mercury from a feed hygiene limit if they leaked. Systemic guard across every category.
+const FEED = /\bfeed\b/i
 // Canned/tinplate in the register's several source languages. Tin migrates from the can, so these
 // limits govern canned product only; an English-only pattern let Morocco's French "en conserve"
 // tin rows (100 mg/kg) leak into non-canned purées. Also foundational for canned-seafood gating.
@@ -133,6 +144,8 @@ function resolveCell(sub, analyte, variant) {
   const rows = register.filter((r) => {
     if (analyteOf(r.metal_species) !== analyte) return false
     if (DRAFT.test(r.status)) return false
+    if (QUARANTINE.test(r.status)) return false
+    if (FEED.test(r.basis || "")) return false
     if (!sub.canned && CANNED.test(r.product_scope)) return false
     if (!scopeMatch(r.product_scope, inc, exc)) return false
     if (!soyMatch(r.soy_class, variant)) return false

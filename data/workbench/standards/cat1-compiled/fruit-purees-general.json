@@ -18,6 +18,11 @@
             "converted": true,
             "id": "fda2025_pb_baby_food_10"
           },
+          "PA": {
+            "value": 10,
+            "converted": true,
+            "id": "pa_decreto467_2007_pb_fruits"
+          },
           "BR": {
             "value": 20,
             "converted": true,
@@ -73,6 +78,11 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_pb_100"
           },
+          "VN": {
+            "value": 100,
+            "converted": true,
+            "id": "vn_qcvn8_2_2011_pb_tropical-fruits_100"
+          },
           "SG": {
             "value": 200,
             "converted": true,
@@ -82,11 +92,6 @@
             "value": 7000,
             "converted": true,
             "id": "tt_fooddrugs_2007_div6_fresh_fruits_pb_7000"
-          },
-          "EU": {
-            "value": 10000,
-            "converted": true,
-            "id": "eu2002_32_pb_complementary_feed_10000"
           }
         }
       },

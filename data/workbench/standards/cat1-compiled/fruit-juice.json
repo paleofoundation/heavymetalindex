@@ -73,6 +73,11 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_nonalcoholic_beverages_excluding_juices_pb_50"
           },
+          "VN": {
+            "value": 50,
+            "converted": true,
+            "id": "vn_qcvn8_2_2011_pb_vegetable-and-fruit-juice-including-nectar-ins_50"
+          },
           "KR": {
             "value": 100,
             "converted": true,
@@ -87,6 +92,11 @@
             "value": 300,
             "converted": true,
             "id": "sg_foodregs_2026_fruit_vegetable_juice_excl_lime_lemon_pb_300"
+          },
+          "UY": {
+            "value": 300,
+            "converted": true,
+            "id": "uy_rbn_pb_citrus_fruit_juices_0_3mgkg"
           }
         }
       },
@@ -194,7 +204,18 @@
         "source_jurisdiction": "IN",
         "label": "government read-across (India FSSAI \"Infant Milk substitute and Infant foods\" Sn 5000, the only non-canned tin ML in the register) applied at face value.",
         "basis_note": "face value (nearest government value; comparator vs any direct limit)",
-        "per_country": {}
+        "per_country": {
+          "CL": {
+            "value": 150000,
+            "converted": true,
+            "id": "cl_decreto977_1996_sn_blackcurrant_small_fruit_nectars_150000"
+          },
+          "UY": {
+            "value": 150000,
+            "converted": true,
+            "id": "uy_rbn_sn_citrus_juices_not_canned_150mgkg"
+          }
+        }
       },
       "Al": {
         "type": "read_across",

@@ -87,6 +87,11 @@
             "value": 20,
             "converted": true,
             "id": "fj_fsr2009_pb_006_infant_formula_20"
+          },
+          "VN": {
+            "value": 20,
+            "converted": false,
+            "id": "vn_qcvn8_2_2011_pb_formulae-for-young-children-aged-under-36-mont_20"
           }
         }
       },
@@ -314,6 +319,11 @@
             "value": 20,
             "converted": true,
             "id": "fj_fsr2009_pb_006_infant_formula_20"
+          },
+          "VN": {
+            "value": 20,
+            "converted": false,
+            "id": "vn_qcvn8_2_2011_pb_formulae-for-young-children-aged-under-36-mont_20"
           }
         }
       },

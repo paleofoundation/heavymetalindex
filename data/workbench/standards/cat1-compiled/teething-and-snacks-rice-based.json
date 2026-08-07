@@ -209,6 +209,11 @@
             "converted": true,
             "id": "mercosur_gmc12_2011_cereals_excluding_wheat_rice_oils_cd_100"
           },
+          "VN": {
+            "value": 100,
+            "converted": true,
+            "id": "vn_qcvn8_2_2011_cd_cereal-excluding-wheat-rice-mash-and-germs_100"
+          },
           "IL": {
             "value": 200,
             "converted": true,
