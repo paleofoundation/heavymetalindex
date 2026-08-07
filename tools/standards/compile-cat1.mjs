@@ -33,7 +33,7 @@ const only = (args.get("only") || "").split(",").map((s) => s.trim()).filter(Boo
 const OUTDIR = args.get("outdir") || path.join(REPO, "data/workbench/standards/cat1-compiled")
 const QUIET = args.has("quiet")
 
-const PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"]
+const DEFAULT_PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"] // Cat-1 panel (config may override)
 // Canonical order for naming the binding jurisdiction when two governments tie at the strictest value.
 const JUR_PRIORITY = ["EU", "UK", "CODEX", "US", "CA", "AU-NZ", "CN", "IN", "BR", "GSO", "KR", "EC", "MX", "TR", "international"]
 const jurRank = (j) => { const i = JUR_PRIORITY.indexOf(j); return i === -1 ? 99 : i }
@@ -66,6 +66,9 @@ const register = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/regulat
 const byId = new Map(register.map((r) => [r.regulatory_limit_id, r]))
 const CONFIG_PATH = args.get("config") || path.join(REPO, "tools/standards/cat1-config.json")
 const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"))
+// Category-agnostic panel: a config names its own analyte panel (seafood adds MeHg, drops the
+// formula-only Tier-2 cells); Cat-1 falls back to the default panel.
+const PANEL = config.panel || DEFAULT_PANEL
 
 // --- analyte normalization to the Cat-1 panel ---------------------------------
 // The panel's iAs cell uses ONLY inorganic-arsenic rows; total-As (tAs) is a distinct analyte and
@@ -75,7 +78,9 @@ function analyteOf(metal) {
   const m = (metal || "").trim()
   if (m === "Pb") return "Pb"
   if (m === "iAs") return "iAs"
+  if (m === "tAs") return "tAs"    // total arsenic — a distinct cell (seafood etc.); never folded into iAs
   if (m === "tHg") return "tHg"
+  if (m === "MeHg") return "MeHg"  // methylmercury — the fish-critical form; distinct from tHg
   if (m === "Cd") return "Cd"
   if (m === "Cr" || m === "Cr-total") return "Cr"
   if (m === "Ni") return "Ni"
