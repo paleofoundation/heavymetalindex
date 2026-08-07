@@ -39,7 +39,7 @@ Third, the carcinogenic risk from nickel is dominantly an occupational inhalatio
 ## Toxicology
 <!-- audience: regulator, educator -->
 
-The [[sources/efsa-nickel-contam-2020|EFSA 2020]] chronic TDI of 13 µg Ni/kg b.w./day is anchored on a BMDL10 of 1.3 mg Ni/kg b.w./day for increased post-implantation loss in rats. Reproductive and developmental endpoints (post-implantation loss, decreased fetal weight, reduced viability) are the most sensitive chronic endpoints and dominate the dietary risk assessment. The chronic TDI was lowered substantially from prior values in the 2020 EFSA update.
+The [[sources/efsa-nickel-contam-2020|EFSA 2020]] chronic TDI of 13 µg Ni/kg b.w./day is anchored on a BMDL10 of 1.3 mg Ni/kg b.w./day for increased post-implantation loss in rats. Reproductive and developmental endpoints (post-implantation loss, decreased fetal weight, reduced viability) are the most sensitive chronic endpoints and dominate the dietary risk assessment. The chronic TDI was raised substantially in the 2020 EFSA update — from the 2.8 µg Ni/kg b.w./day of the 2015 opinion to 13 µg Ni/kg b.w./day — following a revised point of departure.
 
 For acute oral nickel exposure, [[sources/efsa-nickel-contam-2020|EFSA 2020]] identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect. A BMDL could not be derived from the available human-volunteer studies; the LOAEL of 4.3 µg Ni/kg b.w. was selected as the reference point, with a margin-of-exposure approach using MOE ≥ 30 as the threshold for low health concern ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
@@ -147,7 +147,7 @@ Cross-cutting metal-microbiome reviews [[sources/coryell2019-gut-microbiome-arse
 ### If you are in one of these groups
 <!-- audience: consumer -->
 
-For pregnant women: the EFSA reproductive/developmental endpoint anchoring the chronic TDI applies most directly to this population ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The TDI itself incorporates uncertainty factors for inter-individual variability; brief exceedance is not an acute danger, but sustained exceedance during pregnancy is the regulatory concern that drove the TDI's lowering ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
+For pregnant women: the EFSA reproductive/developmental endpoint anchoring the chronic TDI applies most directly to this population ([[sources/efsa-nickel-contam-2020|EFSA 2020]]). The TDI itself incorporates uncertainty factors for inter-individual variability; brief exceedance is not an acute danger, but sustained exceedance during pregnancy is the regulatory concern the reproductive/developmental TDI is anchored on ([[sources/efsa-nickel-contam-2020|EFSA 2020]]).
 
 ## App-layer integration
 <!-- audience: app -->
