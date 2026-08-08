@@ -75,3 +75,22 @@ The underlying FACT (lead PTWI of 25 µg/kg bw/week withdrawn in 2010) is correc
 Fix (needs care, not done here): ingest the correct 73rd-meeting lead source (WHO TRS 960 / WHO Food Additives Series 64 lead monograph), re-point lead.md's lead-PTWI citation to it, and correct `sources/jecfa-72nd-lead-2010.md` (drop Pb from the title and `metals:`; it remains valid for As/Hg). Deferred because TRS 960 is not in `raw/` and a hasty re-point would create new inconsistencies.
 
 Meta / process lesson: the metal-value audit agent flagged this and proposed the 73rd/TRS 960 correction. A PDF **cover** check nearly dismissed it (cover = TRS 959, 72nd, matching the source metadata); the PDF **content** check vindicated the agent. Verify citations against document content, not just the cover/metadata.
+
+## 2026-08-08 — local build: uncaught `querySelectorAll` on null via the SPA router (not on live; pre-existing)
+
+Observed while verifying the new right-rail Share control (Notion Task 5). On a fresh local
+`npm run serve` build, every page logs `Uncaught (in promise) TypeError: Cannot read
+properties of null (reading 'querySelectorAll')`, attributed to the tail of
+`public/postscript.js` (Quartz's SPA `route-announcer` / router). It fires on the homepage
+too, where the new rail-share script is inert (no `[data-hmi-share]` element), so it is
+**not** from the Task-5 work.
+
+The deployed live site (`heavymetalindex.com/metals/lead`) shows **no** such error, so this is
+a local-`main` regression not yet deployed: some component's `afterDOMLoaded` handler (invoked
+through the SPA nav promise) queries a container that is null on some/all pages. Non-fatal (the
+page renders), but it will appear in the console on the next index production deploy.
+
+Not chased here (out of scope for the share button). Worth a focused look before the next index
+deploy — bisect the `afterDOMLoaded` scripts (Search / AskIndex / BrandPreScreenTool /
+ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
+`X.querySelectorAll` where `X` can be null.
