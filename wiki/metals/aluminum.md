@@ -196,7 +196,7 @@ The clearest documented harms from aluminum (dialysis encephalopathy and dialysi
 
 ### What is the regulatory safety limit for aluminum, and is it being exceeded?
 
-EFSA set a tolerable weekly intake (TWI) of 1 mg Al/kg body weight per week, which replaced an earlier JECFA provisional value of 7 mg/kg per week; JECFA later aligned to 1 mg/kg per week ([[regulations/efsa-aluminium-twi|EFSA TWI]]). For a 70-kilogram adult this corresponds to about 70 mg per week or 10 mg per day. [[sources/efsa-aluminium-afc-2008|EFSA 2008]] estimated typical European adult intake at 0.2 to 1.5 mg/kg per week, placing the population mean at the upper end of the TWI and concluding the limit is likely exceeded in a significant part of the population.
+EFSA set a tolerable weekly intake (TWI) of 1 mg Al/kg body weight per week in 2008. JECFA had lowered its own provisional value from 7 to 1 mg/kg per week in 2006, then in 2011 revised it upward to 2 mg/kg per week, where it currently stands; EFSA's 1 mg/kg TWI remains the more conservative benchmark this page uses ([[regulations/efsa-aluminium-twi|EFSA TWI]]). For a 70-kilogram adult this corresponds to about 70 mg per week or 10 mg per day. [[sources/efsa-aluminium-afc-2008|EFSA 2008]] estimated typical European adult intake at 0.2 to 1.5 mg/kg per week, placing the population mean at the upper end of the TWI and concluding the limit is likely exceeded in a significant part of the population.
 
 ### Why are antacid users singled out as the most exposed group?
 
