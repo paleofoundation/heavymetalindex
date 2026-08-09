@@ -1,1 +1,4 @@
 source_id,metal_species,row_slug,action,rationale
+efsa2015-nickel-food-water,Ni,infant-formula,exclude,"EFSA 2015 nickel Scientific Opinion. Its infant-formula Ni rows are dietary EXPOSURE DOSES (per-age-group means 2.4-3.5 ug/kg bw; the /kg bw unit is truncated out of the extracted statistic_scope so Rule B misses them). They are not formula occurrence concentrations. Governance-audit 2026-08-09 finding F2."
+efsa2015-nickel-food-water,Ni,infant-food-general,exclude,"Same source/analyte, infant-food-general routing: EFSA 2015 nickel exposure-dose rows, not occurrence. Governance-audit 2026-08-09 finding F2."
+scheer2017-aluminium-tolerable-intake-toys,Al,infant-formula,exclude,"Scheer 2017 is an aluminium tolerable-intake / toy-migration opinion. Its infant-formula Al rows are exposure/context (e.g. 'Al from soil and dust accounted for 6.6% of intake' mis-extracted as 6600 ppb), not formula Al concentrations. Governance-audit 2026-08-09 finding F4."

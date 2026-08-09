@@ -66,6 +66,9 @@ export const EXPOSURE_MATRICES = new Set([
   "cord-blood",
   "meconium",
   "breast-milk-biomarker",
+  "menstrual-fluid",
+  "menstrual-plasma",
+  "menstrual-rbc",
 ])
 
 // Row-level statistic-description signals. Matched against statistic_scope, basis,
@@ -75,32 +78,40 @@ export const EXPOSURE_MATRICES = new Set([
 // override file handles the rare edge the regex misses.)
 export const EXPOSURE_SCOPE_RE = new RegExp(
   [
-    // biomarker matrices
+    // biomarker matrices. NOTE: bare "biomarker"/"biomonitor" are deliberately
+    // NOT tokens here — they false-positived on the proper-noun program name
+    // "National Contaminant Biomonitoring Program" (a fish-tissue CONCENTRATION
+    // survey), wrongly dropping epa1999 fresh-fish tHg. A genuine human-biomarker
+    // row is caught by its matrix word below (hair/urine/blood/serum/plasma/nail),
+    // and a source frontmatter-tagged `biomonitoring` is still caught by Rule A.
     "\\bhair\\b",
     "\\burin(?:e|ary)\\b",
     "\\bwhole[-\\s]?blood\\b",
-    "\\bblood\\s+(?:lead|mercury|cadmium|arsenic|level|concentration)",
+    "\\bblood\\s+(?:lead|mercury|cadmium|arsenic|nickel|pb|cd|hg|ni|level|concentration)",
     "\\bserum\\b",
     "\\bplasma\\b",
     "\\btoe[-\\s]?nail",
     "\\bfinger[-\\s]?nail",
-    "\\bbiomarker",
-    "\\bbiomonitor",
     "\\bcord\\s+blood\\b",
     "\\bmeconium\\b",
     "\\bbody\\s+burden\\b",
-    // intake / dose (per body weight per time)
+    // intake / dose (per body weight per time). Both spelled-out phrases and the
+    // JECFA/EFSA acronyms, since a dose row's per-bw unit is sometimes truncated
+    // out of the extracted statistic_scope.
     "\\bdietary\\s+intake\\b",
     "\\bdaily\\s+intake\\b",
+    "\\bweekly\\s+intake\\b",
+    "\\bmonthly\\s+intake\\b",
     "\\bestimated\\s+intake\\b",
     "\\bintake\\s+estimat",
+    "\\b(?:PTWI|TWI|PTMI|TDI|EDI|EWI)\\b",
     "\\bng/kg\\s*bw",
     "\\b[µu]g/kg\\s*bw",
     "\\bmg/kg\\s*bw",
     "/kg\\s*bw\\b",
     "\\bbw/day\\b",
     "\\bper\\s+kg\\s+body\\s*weight\\b",
-    "\\bprovisional\\s+tolerable\\s+weekly\\s+intake\\b",
+    "\\bprovisional\\s+tolerable\\s+(?:weekly|monthly)\\s+intake\\b",
     // risk-assessment / model outputs
     "\\bmonte\\s*carlo\\b",
     "\\bprobabilistic\\b",
@@ -124,10 +135,9 @@ export const EXPOSURE_SCOPE_RE = new RegExp(
  * @param {string[]} [p.matrices]        source frontmatter matrices (lower-cased)
  * @param {string}   [p.statisticScope]  row statistic_scope
  * @param {string}   [p.basis]           row basis
- * @param {string}   [p.notes]           row notes
  * @returns {{exclude: boolean, rule: string, reason: string}}
  */
-export function classifyExposure({ matrices, statisticScope, basis, notes } = {}) {
+export function classifyExposure({ matrices, statisticScope, basis } = {}) {
   const mats = (matrices ?? []).map((m) => String(m).trim().toLowerCase()).filter(Boolean)
 
   // Rule A — source is exposure/model ONLY (no concentration matrix present).
@@ -140,7 +150,12 @@ export function classifyExposure({ matrices, statisticScope, basis, notes } = {}
   }
 
   // Rule B — the row's own statistic reads as biomarker / intake dose / model output.
-  const hay = [statisticScope, basis, notes].filter(Boolean).join(" \u2014 ")
+  // NOTE: matched against statistic_scope + basis ONLY. `notes` is deliberately
+  // excluded \u2014 it is loose commentary, and a token there is not a claim about
+  // what the value IS (hasan2021 butter Cd is a real "butter, as-sold"
+  // concentration whose notes merely say it was "back-calculated from Table 2 EDI
+  // values"; matching "EDI" there wrongly dropped a real food concentration).
+  const hay = [statisticScope, basis].filter(Boolean).join(" \u2014 ")
   const m = hay.match(EXPOSURE_SCOPE_RE)
   if (m) {
     return {

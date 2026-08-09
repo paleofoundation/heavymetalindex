@@ -126,7 +126,7 @@ fresh-fish,Pb,107.6487,,literature-baseline,WARN,"C1b-cap-completeness: big-4 to
 fresh-fish,Cd,100.1334,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 fresh-fish,tAs,0.2,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=1 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fresh-fish,MeHg,650.4321,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=12 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-fresh-fish,tHg,5007.8455,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+fresh-fish,tHg,3804.4621,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 fresh-fish,iAs,400,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=1 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fresh-fish,Sn,1492.5453,,literature-baseline,PASS,
 fresh-fish,Al,470,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=1 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
@@ -179,7 +179,7 @@ infant-food-puree,iAs,20,20,regulatory-alignment,PASS,
 infant-formula,Pb,10,10,regulatory-alignment,PASS,
 infant-formula,Cd,5,5,regulatory-alignment,PASS,
 infant-formula,iAs,10,10,regulatory-alignment,PASS,
-infant-formula,Ni,3.428,100,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
+infant-formula,Ni,100,100,regulatory-alignment,PASS,
 infant-formula,Al,500,500,regulatory-alignment,PASS,
 infant-formula-concentrated-liquid-non-soy,tAs,0.3966,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=8 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 infant-formula-concentrated-liquid-non-soy,Pb,0.6295,,literature-baseline,DEMOTE,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11b-minimum-n-floor: firm at P97 with pooled_n=96 (<99) — no 95% bound exists at this n; must be provisional"
@@ -288,7 +288,7 @@ meat-and-poultry-purees,tHg,5.9603,,literature-baseline,HOLD,"C1b-cap-completene
 meat-and-poultry-purees,Al,2082.4065,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 meat-and-poultry-purees,Ni,69.5044,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 meat-and-poultry-purees,Sn,263.224,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-menstrual-tampons,Pb,173.3409,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+menstrual-tampons,Pb,173.2158,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 menstrual-tampons,Cd,9.6463,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 menstrual-tampons,tAs,5.4656,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 milk-and-dairy,Pb,79.7625,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"

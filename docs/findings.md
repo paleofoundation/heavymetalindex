@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-19 open item(s): 8 auto, 11 awaiting a decision.
+28 open item(s): 11 auto, 17 awaiting a decision.
+
+### OI-20260809-winsorize-single-sample-p97 — Optional: winsorize single-sample P97 maxima (flagged single_sample_tail cells)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/evidence/build-hmtc-aggregate-distributions.mjs`
+- repro: 29 cells carry the new single_sample_tail quality flag (single source, median N<=1). Winsorizing their P97 max is a LOCKED-methodology change (affects every category). Most flagged cells have p95~=p100 (single-value pools) so winsorization changes ~0; it only bites where p100>>p95 from one source.
+- done when: Karen authorizes a winsorization rule (e.g. cap P97 at p95, or drop the single extreme) scoped to single_sample_tail cells with p100/p95 above a threshold; Impact diff shows only the intended tail cells move; P97 clean formula standards with multi-source pools unchanged
+- decision: _pending_
 
 ### OI-20260809-title-mismatch-doi-sweep — Verify+fix the ~97 registered-DOI-with-title-mismatch source pages (DOI resolves but to a different paper)
 
@@ -523,6 +531,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: For each Section-B page: fetch the registered title via DOI content-negotiation, classify benign-translation vs genuine-mis-attribution; Genuine mis-attributions: recover the correct DOI via Crossref title search (handle-API 1 + exact title) or set no_doi_assigned:true + access_url; doi-collision audit down to 0 (the 2 remaining wrong-DOI clusters resolved); provenance rows in wiki_edit_audit.jsonl
 - notes: Method is the same verify-before-adopt discipline proven in the 2026-08-09 non-resolving-DOI remediation. Deterministic Crossref/doi.org checks; no LLM adjudication of resolution.
 
+### OI-20260809-rtf-formula-clean-dirty-designation — RTF infant-formula pair needs Step-0 clean/dirty designation (currently split-percentile by config gap)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/workbench/standards/subcategory-roles.json`
+- repro: subcategory-roles.json has only the 2 powder rows (Karen-authorized 2026-08-02: non-soy clean P97, soy dirty P45). infant-formula-rtf-liquid-non-soy and -soy-based are absent, so both default to independent P97. The soy siblings are thus held to different percentiles (powder-soy P45 vs rtf-soy P97) purely from the config gap.
+- done when: Karen decides whether the RTF soy/non-soy pair is a clean/dirty pair (mirroring the powder pair, rtf-soy->P45) or deliberately independent P97; If designated, add both RTF rows to subcategory-roles.json with authorized_by/authorized_date; Re-pool and confirm rtf-soy target percentile matches the ruling
+- decision: _pending_
+
+### OI-20260809-recover-lodhi-mehg-thg — Extract lodhi2021 MeHg+tHg formula distribution into the structured summary (data recovery)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `wiki/sources/lodhi2021-methyl-inorganic-mercury-infant-formula.md`, `data/evidence/category1_formula_concentration_summary.csv`
+- repro: lodhi2021 has a body-table MeHg formula distribution (p50 0.30, p95 0.60, p100 2.00, n=20, all detected) but is in no category*_summary.csv, so the pooler never sees it and non-soy MeHg shows BLOCKED. Jurisdiction PK is stratified out of the locked non-soy pool, but the source is A-tier recoverable data that should be recorded and would populate the unstratified parent infant-formula-powder MeHg cell.
+- done when: Add lodhi2021 MeHg + tHg formula rows to category1_formula_concentration_summary.csv with correct basis (powder as-sold), jurisdiction PK, n=20, detected_n=20, and the body-table percentiles; Re-pool: parent infant-formula-powder MeHg populates from real data; locked non-soy stays stratified-out (expected); No not-material or no-ML-complete registration for MeHg (it is material-but-thin)
+
 ### OI-20260809-organoarsenical-synthesis-downstream-propagation — Propagate organoarsenical-inertness synthesis to its remaining downstream ingredient pages
 
 - scope: **human-gated** · type: content · status: open · repo: index
@@ -531,6 +554,44 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: wiki/ingredients/freshwater-fish.md arsenic sub-block notes that percent-DMA biomonitoring can underestimate iAs exposure (Davydiuk 2023) and that total-As includes organic fractions of uncharacterized toxicological weight, citing [[synthesis/organoarsenical-inertness-assumption]]; wiki/ingredients/shellfish.md and wiki/ingredients/seaweed.md note that the organic-arsenic classification does not settle post-digestion bioaccessibility (Liu 2023); seaweed additionally notes Laminaria digitata iAs above 50 percent of total As (Sim 2024); no unqualified organic-equals-harmless language remains on the three pages and every new wikilink resolves
 - decision: _pending_
 - notes: metals/arsenic.md completed 2026-08-09 in the same session that logged this. Keep the synthesis careful framing: do not assert arsenobetaine toxicity.
+
+### OI-20260809-oil-spice-not-material-vs-live-pool — Pre-existing oil/spice not-material entries conflict with live multi-source occurrence pools
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/evidence/standards-not-material.csv`, `data/evidence/standards-no-ml-confirmed.csv`
+- repro: Governance audit 2026-08-09 (auditor 4 items 1-4, auditor 5 F6). not-material entries dated 2026-06 rest on one-line partitioning rationales but override live pools: cooking-oils-other Cd (12 sources, n=298, p97=56.7), cooking-oils-other tAs (8 sources, n=163, p97=56.2, verdict READY), olive-oil tAs (4 sources, rationale only excludes luka2019 outlier), spices Al (4 sources, p97=846635, READY). Separately standards-no-ml-confirmed.csv olive-oil tHg claims literature-baseline complete on a 2-source thin cell without the lipid-partition rationale.
+- done when: For each flagged cell, either revoke the not-material entry, or extend the rationale to name+dispose the specific pool sources (like chocolate Al / salt Al already do), or exclude the pool sources with a stated reason; olive-oil tHg no-ML finding reworded to not assert completeness on a thin cell, or given the lipid-partition rationale; All pre-existing, not introduced by the baby-formula session
+- decision: _pending_
+
+### OI-20260809-kim2018-comparator-intake-leak — kim2018 human-comparator-intake row leaks into pet-food Cd occurrence pool
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/exposure-classifier.mjs`, `data/evidence/category1_autonomy_extracted_summary.csv`
+- repro: kim2018-dry-dog-food-heavy-metals has a Cd row statistic_scope Reported US human comparator intakes (mg/Mcal ... Cd mean 0.0086) = 8.6 ppb, a human dietary comparator not a dog-food concentration. It escapes Rule B (comparator intakes != the daily/weekly/estimated-intake idioms) and Rule A (matrices=[pet-food]). Pet food is outside the food-standards scope so impact is low.
+- done when: Add a comparator-intake idiom to Rule B, or exclude-override the specific kim2018 comparator row; pet-food-dry-kibble Cd pool no longer includes the human-comparator value
+
+### OI-20260809-gap-report-reads-subcategory-roles — Gap report mislabels configured dirty rows as independent_p97_pooled (does not read subcategory-roles.json)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/build-standards-gap-report.mjs`
+- repro: build-standards-gap-report.mjs labels infant-formula-powder-soy-based standard_scope=independent_p97_pooled, but the pooler computes it dirty P45 from subcategory-roles.json (which the gap report does not read). Pooler is authoritative; the gap-report label is stale/misleading for any configured dirty row.
+- done when: Gap report reads subcategory-roles.json and labels configured rows with their true role/percentile (clean_p97 / dirty_p45); No pooled value changes; label-only fix; Row-classifier remains the single reconciled verdict source
+
+### OI-20260809-fda-summaries-missing-lod-for-midbound-censoring — FDA occurrence summaries lack censoring_limit_ppb, forcing LB-zero (understated) low tail
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `data/evidence/category1_formula_concentration_summary.csv`, `data/evidence/category1_fda_baby_food_compliance_summary.csv`, `tools/evidence/extract-digest-formula.ts`, `tools/evidence/extract-digest-baby-food-compliance.ts`
+- repro: FDA rows carry substitution_rule=<LOD treated as 0 for lower-bound percentile summary> with lod_n>0 but censoring_limit_ppb empty. The pooler faithfully ingests the LB-zero percentiles (p10=0) but cannot mid-bound them (no LOD recorded). Verified impact on STANDARDS is immaterial: 63/67 affected cells are P97 (driven by the detected high tail, immune to low-tail zeros); of 4 soy-powder P45 cells only tHg has FDA non-detects (34/38 ND) and its P45=0.14 ppb is negligible. Broader low/mid-percentile + public-typical understatement is real but tracked by audit-contamination-profile-integrity.mjs.
+- done when: Re-derive FDA formula + baby-food summaries to record censoring_limit_ppb (the reported LOD/LOQ per metal) and/or upper-bound percentiles alongside the existing lower-bound set; Pooler then mid-bounds censored fractions (floor sub-LOD reconstructed samples at LOD/2, consistent with its existing mean_lb/mean_ub Path-5 midpoint philosophy) instead of ingesting zeros; Re-pool diff shows the expected small upward shift only on low/mid-percentile (P45) cells with high lod-fraction; P97 standards unchanged
+- decision: _pending_
+
+### OI-20260809-extractor-reverts-curated-corrections — Autonomy extractor re-run reverts curated corrections (dabeka column-shift, rodriguez mis-binding)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/extract-source-values.mjs`, `data/evidence/category1_autonomy_extracted_summary.csv`
+- repro: cp data/evidence/category1_autonomy_extracted_summary.csv /tmp/before.csv; node tools/autonomy/extract-source-values.mjs; diff shows 24 changed + 85 added + 55 removed rows vs committed. dabeka2011 Cd max 1461->3.47 (column-shift bug returns), rodriguez-mendivil2019 canned-tuna Cd 2.9->113 (Pb value nearest-metal mis-bound to Cd), romero-estevez2020 bivalve rows added at 2000-13070 ppb. The committed CSV embodies manual fixes (commit accfa3a74) the extractor does not reproduce.
+- done when: Fix dabeka2011 column-shift + nearest-metal mis-binding at the extractor level so a fresh re-extract reproduces the curated values; A full re-extract diff vs the committed summary shows only intended changes (e.g. the sci-notation corrections from 8daf9c9ab), no regressions; Then a governed corpus-wide re-extract can apply the sci-notation parse fix to existing data (shibata baby-cereals iAs 2830->0.283, etc.)
+- decision: _pending_
 
 ### OI-20260809-enable-decision-digest — Enable the out-of-session decision-digest launchd job (one command)
 
@@ -571,6 +632,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Cephalopod tHg standard evaluates EU 2023/915 3.3.1.3 (300 ug/kg) as a candidate binding value; Final cephalopod tHg standard is <= strictest credible government ML or documents why EU 300 is excluded
 - decision: _pending_
 - notes: Found during EU 2025/1891 cephalopod crosswalk ingest. Cert content plus Method v2.0 decision = human-gated.
+
+### OI-20260809-acquire-target-market-mehg-formula-source — Acquire a target-market sample-level MeHg-in-formula source (locked MeHg cells are thin)
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/workbench/standards/2026-08-09-mehg-crvi-formula-determination.md`
+- repro: The only sample-level MeHg-in-formula source (lodhi2021) is PK (non-target market), stratified out of the locked pools. tatsuta2024 (JP) has MeHg only for fish-containing baby foods, not formula. So the locked infant-formula MeHg cells have no target-market data and stay BLOCKED/provisional — a data-acquisition gap, not an analytical determination.
+- done when: Discover/ingest at least one target-market (US/EU/CA/AU-NZ/JP) sample-level MeHg-in-formula source; Re-pool: locked non-soy MeHg moves from BLOCKED to a populated provisional standard; MeHg remains classified material (never not-material)
+- decision: _pending_
 
 ### OI-20260808-weekly-briefing-ungoverned-opus — Route weekly-briefing.mjs Cochrane spawn through the governor
 

@@ -86,6 +86,39 @@ describe("exposure-classifier", () => {
     assert.equal(v.exclude, false)
   })
 
+  test("does NOT drop a fish-tissue concentration named by a monitoring PROGRAM (epa1999 regression)", () => {
+    const v = classifyExposure({
+      matrices: ["fish", "dietary-intake"],
+      statisticScope:
+        "US National Contaminant Biomonitoring Program (NCBP), 315 composite whole-fish samples: mercury maximum 0.37 ppm, geometric mean 0.10 ppm wet weight",
+    })
+    assert.equal(v.exclude, false) // "Biomonitoring Program" is a program name, not a human biomarker
+  })
+
+  test("DROPS weekly-intake and JECFA/EFSA dose acronyms (M1 recall)", () => {
+    for (const scope of [
+      "MeHg estimated weekly intake, average all participants 0.74",
+      "Ni exposure at the 95th percentile vs the TDI of 13 ug/kg",
+      "PTWI comparison for lead across age groups",
+    ]) {
+      assert.equal(classifyExposure({ matrices: ["fish"], statisticScope: scope }).exclude, true, scope)
+    }
+  })
+
+  test("DROPS a blood-metal biomarker written with the element symbol (F7)", () => {
+    assert.equal(
+      classifyExposure({ matrices: ["cohort"], statisticScope: "high blood Pb median 54.9 ug/dL in exposed infants" }).exclude,
+      true,
+    )
+  })
+
+  test("still KEEPS an ordinary fish MeHg concentration (no false positive from the new tokens)", () => {
+    assert.equal(
+      classifyExposure({ matrices: ["fish"], statisticScope: "MeHg in fish muscle, mean 0.28 mg/kg ww, n=48" }).exclude,
+      false,
+    )
+  })
+
   test("override keep force-admits; override exclude force-drops", () => {
     const overrides = new Map([
       ["srcA|tHg|slugX", "keep"],

@@ -281,10 +281,21 @@ function loadSourceMatrices() {
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith(".md")) continue
     const head = fs.readFileSync(path.join(dir, file), "utf8").slice(0, 4000)
-    const m = head.match(/^matrices:\s*\[([^\]]*)\]/m)
-    if (!m) continue
-    const list = m[1]
-      .split(",")
+    // Support BOTH inline (`matrices: [a, b]`) and block-list YAML:
+    //   matrices:
+    //     - a
+    //     - b
+    // Block syntax was invisible to the earlier inline-only regex, letting a
+    // risk-model/biomonitoring source that used block frontmatter evade Rule A.
+    let raw = []
+    const inline = head.match(/^matrices:\s*\[([^\]]*)\]/m)
+    if (inline) {
+      raw = inline[1].split(",")
+    } else {
+      const block = head.match(/^matrices:[ \t]*\n((?:[ \t]*-[ \t]*.+\n?)+)/m)
+      if (block) raw = block[1].split(/\n/).map((l) => l.replace(/^[ \t]*-[ \t]*/, ""))
+    }
+    const list = raw
       .map((s) => s.trim().replace(/^["']|["']$/g, "").toLowerCase())
       .filter(Boolean)
     if (list.length) map.set(file.replace(/\.md$/, ""), list)
