@@ -6,8 +6,8 @@ title: "Recent developments in speciation and determination of arsenic in marine
 authors: [Sadee B, Galali Y, Zebari S]
 year: 2024
 publication: "RSC Advances"
-doi: 10.1039/d4ra04432k
-access_url: https://doi.org/10.1039/d4ra04432k
+doi: "10.1039/d4ra03000a"
+access_url: "https://doi.org/10.1039/d4ra03000a"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -5,12 +5,12 @@ title: "Forging biofilms: metal-induced microbial responses in biofilm formation
 authors: ["Sarah L. Price", "Eric P. Skaar"]
 year: 2025
 publication: "Journal of Bacteriology"
-doi: "10.1128/jb.00253-24"
+doi: "10.1128/jb.00247-25"
 source_type: peer-reviewed
 evidence_tier: A
 license: cc-by
 raw_path: "raw/Digest/price-skaar-2025-forging-biofilms-metal-induced-microbial-responses-in-biofilm-formation.pdf"
-access_url: "https://doi.org/10.1128/jb.00253-24"
+access_url: "https://doi.org/10.1128/jb.00247-25"
 metals: [Zn, Mn, Fe, Cu, Ni]
 ingredients: []
 products: []

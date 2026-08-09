@@ -5,12 +5,12 @@ title: "Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw
 authors: ["Lawrence H. Pacquette", "Anumolu Anumula"]
 year: 2016
 publication: "Journal of AOAC International, Vol. 99, No. 3, pp. 766-779"
-doi: "10.5740/jaoacint.15-0211"
+doi: "10.5740/jaoacint.15-0304"
 source_type: peer-reviewed
 evidence_tier: A
 license: aoac
 raw_path: "raw/Digest/pacquette2016.pdf"
-access_url: "https://doi.org/10.5740/jaoacint.15-0211"
+access_url: "https://doi.org/10.5740/jaoacint.15-0304"
 metals: [As, Cd, Hg, Pb, tAs, tHg]
 ingredients: ["[[ingredients/non-soy-infant-formula]]", "[[ingredients/soy-based-infant-formula]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/infant-formula-ingredients]]"]
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]"]
