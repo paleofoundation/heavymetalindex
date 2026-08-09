@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-19 open item(s): 8 auto, 11 awaiting a decision.
+20 open item(s): 8 auto, 12 awaiting a decision.
 
 ### OI-20260809-title-mismatch-doi-sweep — Verify+fix the ~97 registered-DOI-with-title-mismatch source pages (DOI resolves but to a different paper)
 
@@ -522,6 +522,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: The 2026-07-29 audit Section B lists ~97 source pages whose DOI RESOLVES but whose registered title differs from the page title. Many are benign (translated/paraphrased titles for the same paper), but some are genuine wrong-DOI mis-attributions where the DOI points to a completely different paper (e.g. onyegeme-okerenta2023-shellfish -> a triclosan/infertility paper; ortiz-garcia2023-arsenic-maternal -> an HPV-vaccination paper; flyvholm1984-nickel -> a German pesticide-photochemistry paper). This is the more dangerous, INVISIBLE cousin of the non-resolving-DOI class just cleared: the citation looks fine until a reviewer clicks through. Two live examples surfaced during the 2026-08-09 dedup and were EXCLUDED from the collapse: romero-crespo2023-ecuador-mining-crops-metals (title Heavy metals in soils and crops in a mining area of Ecuador vs registered Trace elements in farmland soils and crops...) and carignan2015-arsenic-infancy-well-water-breast-milk (actually the Schmidt commentary, real DOI 10.1289/ehp.123-a137).
 - done when: For each Section-B page: fetch the registered title via DOI content-negotiation, classify benign-translation vs genuine-mis-attribution; Genuine mis-attributions: recover the correct DOI via Crossref title search (handle-API 1 + exact title) or set no_doi_assigned:true + access_url; doi-collision audit down to 0 (the 2 remaining wrong-DOI clusters resolved); provenance rows in wiki_edit_audit.jsonl
 - notes: Method is the same verify-before-adopt discipline proven in the 2026-08-09 non-resolving-DOI remediation. Deterministic Crossref/doi.org checks; no LLM adjudication of resolution.
+
+### OI-20260809-search-index-tokenization-lever — Decide: switch search content field to tokenize:strict to halve index bytes + speed load
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `quartz/components/scripts/searchIndexConfig.ts`
+- repro: The prebuilt FlexSearch index (perf(search) commit c0bfc1e80) ships at 5.3 MB gz because the content field uses tokenize:forward, which stores every prefix of every body word across ~4.1k pages (the content.1.map shard alone is 30 MB raw). Measured alternatives on the real corpus: title=forward + content=STRICT (whole-word) + full body = 2.4 MB gz (index) and ~4x faster parse/import; content=strict + 1500-char excerpt (current digest) = 2.0 MB gz. Tradeoff: strict loses partial-word (prefix) matching against BODY-only terms (e.g. typing cadm would still match the Cadmium *title/heading* — those stay forward — but not a body-only occurrence of cadmium). Whole-word body matches are retained. This is a search-recall change on the flagship defensibility surface, so it is Karen’s call, not an autonomous flip.
+- done when: Karen decides forward (current, max recall) vs strict (leaner/faster, loses body prefix-match); If strict: change content field tokenize to strict in searchIndexConfig.ts, rebuild, re-verify parity + a recall spot-check, redeploy; Index gz size and cold time-to-results re-measured after the change
+- decision: _pending_ — enact: `echo edit quartz/components/scripts/searchIndexConfig.ts: content field tokenize forward -> strict, then npm run build`
 
 ### OI-20260809-organoarsenical-synthesis-downstream-propagation — Propagate organoarsenical-inertness synthesis to its remaining downstream ingredient pages
 
