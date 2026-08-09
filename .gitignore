@@ -88,3 +88,13 @@ data/evidence/fetch-app/
 
 # outstanding-items daily digest snapshots (regenerable push trail)
 data/evidence/outstanding/digests/
+
+# claude.ai/design sync (design-sync skill) — generated/machine artifacts
+.ds-sync/
+ds-bundle/
+.design-sync/.cache/
+.design-sync/learnings/
+.design-sync/node_modules
+.design-sync/hmi-ds/node_modules/
+.design-sync/hmi-ds/dist/
+.design-sync/hmi-ds/styles/
