@@ -1287,6 +1287,20 @@ function main() {
         pooledP95: pooledStats.p95,
       })
 
+      // Quality flags (additive, non-blocking): grade a usable standard without
+      // changing its value (outstanding item 6). `no_sample_level_data` marks a
+      // pool reconstructed entirely from summary statistics with no raw
+      // sample-level contributor — weaker tail estimation. `single_source_pool`
+      // and `single_sample_tail` mark pools whose percentile (and P97 max in
+      // particular) rests on one source / effectively one sample — the population
+      // targeted by the winsorization proposal.
+      const qualityFlags = []
+      if (poolUsable) {
+        if (sampleLevelCount === 0) qualityFlags.push("no_sample_level_data")
+        if (distinctSources < 2) qualityFlags.push("single_source_pool")
+        if (distinctSources < 2 && (medianN ?? 0) <= 1) qualityFlags.push("single_sample_tail")
+      }
+
       const out = {
         product_slug: slug,
         product_label: product.title,
@@ -1339,6 +1353,7 @@ function main() {
         cap_published_basis: regCap.cap_published_basis ?? "",
         cap_conversion_factor: regCap.cap_conversion_factor ?? "",
         cap_basis_unresolved: regCap.cap_basis_unresolved ?? "",
+        quality_flags: qualityFlags.join(";"),
       }
       outputRows.push(out)
 
