@@ -1,0 +1,50 @@
+{
+  "note": "Accepted layout-liveness findings + per-component shipped-asset snapshot (ratchet). Findings: draining backlog, do not grow. componentAssets: dropping one flags ASSET_REGRESSION. Re-run --update-baseline after intended changes.",
+  "accepted": [],
+  "componentAssets": {
+    "DesktopOnly": [],
+    "SourceCitationPanel": [
+      "./styles/sourceCitationPanel.scss"
+    ],
+    "Head": [],
+    "TopNav": [
+      "./scripts/askindex.inline",
+      "./scripts/search.inline",
+      "./scripts/topNav.inline",
+      "./styles/askindex.scss",
+      "./styles/search.scss",
+      "./styles/topNav.scss"
+    ],
+    "BrandPreScreenTool": [
+      "./scripts/productPercentileTool.inline",
+      "./styles/productPercentileTool.scss"
+    ],
+    "Corrections": [
+      "./scripts/corrections.inline",
+      "./styles/corrections.scss"
+    ],
+    "Footer": [
+      "./styles/footer.scss"
+    ],
+    "ProductEvidenceSummary": [
+      "./styles/productEvidenceSummary.scss"
+    ],
+    "Snav": [
+      "./scripts/pageHistoryTimeline.inline",
+      "./scripts/snav.inline"
+    ],
+    "Rail": [
+      "./scripts/citeSuperscript.inline",
+      "./scripts/railLd.inline"
+    ],
+    "Body": [
+      "./scripts/clipboard.inline",
+      "./styles/clipboard.scss"
+    ],
+    "HeroBand": [
+      "./styles/heroBand.scss"
+    ],
+    "AuthCard": [],
+    "MegaMenu": []
+  }
+}
