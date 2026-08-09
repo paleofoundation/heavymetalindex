@@ -44,6 +44,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { pathToFileURL } from "node:url"
 
 const repoRoot = process.cwd()
 const sourcesDir = path.join(repoRoot, "wiki/sources")
@@ -474,7 +475,46 @@ function resolveUnit(value, allValues, sentenceUnits, blockUnit) {
   return null
 }
 
-function extractLabeledWithPos(sentence) {
+// Scientific-notation-aware number capture. The corpus records values three ways:
+//   plain             7480 / 1,975 / 0.045
+//   e-notation        7.48e-6 / 1E3
+//   ×10^n / ×10<sup>  7.48 × 10⁻⁶  /  2.83 x 10^-4  /  5 × 10⁶
+// Before 2026-08-09 the pattern captured only the mantissa and dropped the
+// exponent — a silent ~10^n error that put shibata2016's "7.48 × 10⁻⁶ mg/L" into
+// the pool as 7480 ppb (mantissa 7.48 × the mg/L→ppb ×1000 step). This fragment
+// additionally captures the exponent in all three forms so mantissa × 10^exp is
+// carried through. Capture groups: 1 mantissa, 2 e-exp, 3 caret-exp, 4 superscript-exp.
+const SUPERSCRIPT_DIGITS = {
+  "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4",
+  "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9",
+  "⁻": "-", "⁺": "+",
+}
+const SUPERSCRIPT_CLASS =
+  "⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺"
+const NUM_WITH_EXP =
+  "(\\d[\\d,]*(?:\\.\\d+)?)" +
+  "(?:\\s*(?:[eE]([+-]?\\d+)" +
+  `|[×xX✕·*]\\s*10\\s*(?:\\^([+-]?\\d+)|([${SUPERSCRIPT_CLASS}]+))))?`
+
+export function parseSuperscriptInt(s) {
+  let out = ""
+  for (const ch of String(s)) out += SUPERSCRIPT_DIGITS[ch] ?? ""
+  return out === "" || out === "-" || out === "+" ? NaN : parseInt(out, 10)
+}
+
+// Combine the mantissa + optional exponent captures from NUM_WITH_EXP into a value.
+export function numFromExpMatch(mantissaStr, eExp, caretExp, superExp) {
+  const mantissa = Number(String(mantissaStr).replace(/,/g, ""))
+  if (!Number.isFinite(mantissa)) return NaN
+  let exp = 0
+  if (eExp != null) exp = parseInt(eExp, 10)
+  else if (caretExp != null) exp = parseInt(caretExp, 10)
+  else if (superExp != null) exp = parseSuperscriptInt(superExp)
+  if (!Number.isFinite(exp)) return NaN
+  return exp === 0 ? mantissa : mantissa * Math.pow(10, exp)
+}
+
+export function extractLabeledWithPos(sentence) {
   // [{key, rawValue, index, adjacentUnit}] for each labeled statistic. The unit
   // is NOT applied here; resolution happens in the caller with full sentence +
   // block context so a unit that follows a "± SD" term is still found instead of
@@ -492,16 +532,18 @@ function extractLabeledWithPos(sentence) {
   for (const [key, labels] of Object.entries(labelGroups)) {
     for (const label of labels) {
       const re = new RegExp(
-        // Number may carry thousands-separator commas: 1,583 / 1,975. Capture the
-        // comma group and strip it before Number(), or it truncates to "1".
-        `\\b${label.replace(/\s+/g, "\\s+")}\\b\\s*(?:of\\s+)?(?:=\\s*)?(\\d[\\d,]*(?:\\.\\d+)?)\\s*(${UNIT_ALTERNATION})?`,
+        // Number may carry thousands-separator commas: 1,583 / 1,975 (stripped
+        // before Number()), and an optional scientific-notation exponent
+        // (e-notation or ×10^n / ×10<superscript>) — see NUM_WITH_EXP. Groups:
+        // 1 mantissa, 2 e-exp, 3 caret-exp, 4 superscript-exp, 5 adjacent unit.
+        `\\b${label.replace(/\s+/g, "\\s+")}\\b\\s*(?:of\\s+)?(?:=\\s*)?${NUM_WITH_EXP}\\s*(${UNIT_ALTERNATION})?`,
         "ig",
       )
       let m
       while ((m = re.exec(sentence)) !== null) {
-        const rawValue = Number(m[1].replace(/,/g, ""))
+        const rawValue = numFromExpMatch(m[1], m[2], m[3], m[4])
         if (Number.isFinite(rawValue)) {
-          out.push({ key, rawValue, index: m.index, adjacentUnit: m[2] || null })
+          out.push({ key, rawValue, index: m.index, adjacentUnit: m[5] || null })
         }
       }
     }
@@ -632,5 +674,9 @@ function countBy(arr, keyFn) {
 }
 
 // Invoked last so all module-level const declarations (UNIT_TOKEN_RE et al.) are
-// initialized before main() runs; function declarations above are hoisted.
-main()
+// initialized before main() runs; function declarations above are hoisted. The
+// entry guard lets the parse helpers be imported by unit tests without running
+// the full extraction (the daemon still invokes the file directly).
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main()
+}
