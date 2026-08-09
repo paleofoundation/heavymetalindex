@@ -7,7 +7,7 @@
     },
     {
       "question": "What foods are the biggest source of inorganic arsenic in the diet?",
-      "answer": "For people without elevated drinking-water arsenic, rice and rice-based foods are the dominant single dietary source, because rice efficiently accumulates inorganic arsenic from flooded-paddy soils ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Brown rice carries more than white rice because the bran layer concentrates the metal ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Other notable matrices include seaweed (especially hijiki), apple and grape juice, and rice protein powder and rice syrup; finfish is mostly harmless arsenobetaine and poses minimal arsenic-specific dietary risk."
+      "answer": "For people without elevated drinking-water arsenic, rice and rice-based foods are the dominant single dietary source, because rice efficiently accumulates inorganic arsenic from flooded-paddy soils ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Brown rice carries more than white rice because the bran layer concentrates the metal ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Other notable matrices include seaweed (especially hijiki), apple and grape juice, and rice protein powder and rice syrup. Finfish arsenic is predominantly arsenobetaine and has historically been treated as low-risk for arsenic specifically, though the long-standing assumption that seafood organoarsenicals are biologically inert is now under active scientific challenge ([[synthesis/organoarsenical-inertness-assumption|Heavy Metal Index synthesis]])."
     },
     {
       "question": "Why is inorganic arsenic a health concern, and what are its effects?",

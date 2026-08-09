@@ -3,12 +3,12 @@ title: Arsenic
 type: metal
 symbol: As
 name: Arsenic
-species: [As(III), As(V), iAs, MMA, DMA, AsB, arsenobetaine]
+species: [As(III), As(V), iAs, MMA, DMA, AsB, arsenobetaine, arsenosugars, arsenolipids]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
-updated: 2026-04-30
+updated: 2026-08-09
 sources: 893
 ---
 
@@ -47,6 +47,17 @@ Inorganic arsenic biomethylation, reviewed by [[sources/thomas-2021-arsenic-meth
 
 The January 2025 EPA IRIS Toxicological Review of Inorganic Arsenic is the current US federal scientific anchor for arsenic dose-response and supersedes prior IRIS values. The full quantitative outputs (oral RfD, oral cancer slope factor) require detailed extraction from the review document and are pending consolidation on this wiki.
 
+## Arsenic speciation and the organoarsenical inertness assumption
+<!-- audience: regulator, educator -->
+
+The regulatory architecture for arsenic rests on a species distinction. Inorganic arsenic is the carcinogen of concern and is regulated, characterized with dose-response relationships, and the subject of the FDA Closer to Zero initiative and EU maximum levels, whereas organic arsenic species in seafood, principally arsenobetaine, have historically been excluded from risk characterization on the assumption that they are metabolically inert and pass through the body unchanged. That assumption is what makes the inorganic-versus-total-arsenic distinction meaningful in practice: a product reporting total arsenic at 200 ppb that is 97 percent arsenobetaine has been treated as fundamentally different from one at 200 ppb that is 97 percent inorganic arsenic.
+
+The organoarsenical inertness assumption is now under active challenge on three independent evidentiary fronts, drawn together in the Heavy Metal Index synthesis [[synthesis/organoarsenical-inertness-assumption|The organoarsenical inertness assumption is increasingly contested]]. On the biomonitoring front, [[sources/davydiuk2023-arsenosugars-methylation|Davydiuk et al. 2023]] documents that arsenosugars and arsenolipids from seafood are metabolized to dimethylarsinic acid (DMA) by a route that does not pass through the inorganic arsenic methylation sequence, so studies that use urinary percent-DMA as a methylation-efficiency index in seafood-eating populations can systematically underestimate those populations' inorganic arsenic exposure. On the metabolism front, [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]] found that organic arsenicals in crab and scallop underwent a two- to threefold increase in the inorganic As(V) fraction during a standardized in vitro gastrointestinal digestion, indicating that the speciation measured in a food at the moment of consumption is not necessarily the speciation present at the point of intestinal absorption. On the epidemiology front, the [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]] J-MICC Daiko prospective cohort of 2,709 Japanese adults reported that serum total arsenic, estimated at 98 percent arsenobetaine, was associated with dose-dependent hypertension risk after adjustment for fish-consumption frequency and cardiovascular risk factors, an association the inertness assumption would not predict.
+
+The concern is not confined to marine fish. [[sources/raab2024-arsenolipids-chlamydomonas|Raab et al. 2024]] found that 57 percent of the total arsenic in the green microalga Chlamydomonas reinhardtii exists as arsenolipids, which bears on spirulina, chlorella, and algae-protein ingredients whose total-arsenic measurement may not quantitatively recover the arsenolipid fraction. [[sources/walenta2024-arsenic-speciation-mushrooms|Walenta et al. 2024]] identified a previously unreported arsenobetaine amide in four mushroom species, extending the diversity of dietary organoarsenicals beyond the well-characterized marine suite. [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]] found that Laminaria digitata carries more than half of its total arsenic as inorganic arsenic, showing that the default assumption that seaweed arsenic is organic and therefore low-risk is wrong for this commercially important kelp genus, a matrix for which EU Regulation 2023/915 now sets specific inorganic arsenic limits.
+
+These findings do not refute the inertness assumption, and they do not demonstrate that arsenobetaine is toxic. Arsenobetaine remains the dominant arsenic species in marine fish, and high fish consumption remains a net nutritional benefit for most populations. What the evidence establishes is narrower and load-bearing for how this wiki characterizes arsenic in seafood-containing products: total arsenic in seafood is not equivalent to inorganic arsenic in seafood, and it is also not equivalent to harmless organic arsenic. The unqualified statement that organic arsenic from seafood is not a health concern can no longer be reproduced without qualification, because it is now inconsistent with the published literature. The missing evidence that would resolve the question is a controlled human in vivo feeding study measuring inorganic arsenic absorption from a seafood meal; until it is conducted, seafood and microalgae-derived matrices tested for total arsenic only are incompletely characterized with respect to their inorganic arsenic burden. See [[synthesis/organoarsenical-inertness-assumption]] for the full synthesis and its eight anchor sources.
+
 ## Typical exposure routes
 <!-- audience: regulator, educator -->
 
@@ -64,7 +75,7 @@ Dietary intake is the dominant route in non-groundwater-affected populations ([[
 | Seaweed (especially hijiki) | Can carry elevated inorganic As; species variation substantial |
 | Apple and grape juice | Documented elevated inorganic As in some products; FDA has issued guidance |
 | Certain leafy vegetables grown on As-contaminated soil | Geography-dependent |
-| Finfish | Mostly arsenobetaine (organic, nontoxic); dietary risk minimal for As specifically |
+| Finfish | Predominantly arsenobetaine; historically treated as low-risk for As specifically, though the organoarsenical inertness assumption is now under active challenge (see the arsenic speciation section) |
 | Bivalves and crustaceans | Mixed organic and inorganic species; total-As tests can mislead |
 | Rice protein powder and [[ingredients/rice|rice]] syrup | Concentrate iAs from source [[ingredients/rice|rice]]; per-product characterization needed |
 
@@ -164,7 +175,7 @@ Machine-readable takeaways from this synthesis for the Heavy Metal Index consume
 
 The reference-value scale for inorganic arsenic, like lead, is qualitatively complicated by the absence of an internationally harmonized PTWI. The app should reference (a) the EPA drinking water MCL of 10 µg/L for water-source iAs benchmarking, (b) the FDA infant [[ingredients/rice|rice]] cereal action level of 100 ppb for the [[ingredients/rice|rice]]-cereal infant exposure case, (c) the ATSDR chronic oral MRL of 0.3 µg As/kg/day for general dietary benchmarking, and (d) the EFSA cancer BMDL01 range of 0.3 to 8 µg iAs/kg/day depending on endpoint for users wanting an explicit cancer-risk anchor.
 
-Critical app handling: total-arsenic measurements are not interchangeable with inorganic-arsenic measurements. The app must distinguish total-As from iAs in any input data and must not display "percent of MRL" or "percent of MCL" against total-As when the relevant reference is iAs. For seafood especially, total-As measurements substantially overstate iAs because arsenobetaine and other organic species dominate.
+Critical app handling: total-arsenic measurements are not interchangeable with inorganic-arsenic measurements. The app must distinguish total-As from iAs in any input data and must not display "percent of MRL" or "percent of MCL" against total-As when the relevant reference is iAs. For seafood especially, total-As measurements substantially overstate iAs because arsenobetaine and other organic species dominate. That a matrix is organic-arsenic-dominant does not, however, make it zero-risk: following the [[synthesis/organoarsenical-inertness-assumption|organoarsenical inertness synthesis]], ingredients whose arsenic is primarily organic (finfish, shellfish, and microalgae-derived ingredients such as spirulina and chlorella) should not receive a zero-risk modifier on the strength of the organic classification alone. Where only total arsenic is available for such a matrix, the app should model it as arsenic speciation incompletely characterized and surface an uncertainty flag rather than a dismissal.
 
 Pediatric multipliers for arsenic: 2 to 3x adult per-kg for children under age 3, per [[sources/efsa-arsenic-contam-2009|EFSA 2009]]. Combined with the high GI absorption of inorganic arsenic (80 to 90 percent of soluble forms), pediatric exposure-to-blood translation is approximately linear with intake.
 
@@ -197,7 +208,7 @@ Yes. Inorganic arsenic (iAs) is the toxicologically dominant form and the carcin
 
 ### What foods are the biggest source of inorganic arsenic in the diet?
 
-For people without elevated drinking-water arsenic, rice and rice-based foods are the dominant single dietary source, because rice efficiently accumulates inorganic arsenic from flooded-paddy soils ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Brown rice carries more than white rice because the bran layer concentrates the metal ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Other notable matrices include seaweed (especially hijiki), apple and grape juice, and rice protein powder and rice syrup; finfish is mostly harmless arsenobetaine and poses minimal arsenic-specific dietary risk.
+For people without elevated drinking-water arsenic, rice and rice-based foods are the dominant single dietary source, because rice efficiently accumulates inorganic arsenic from flooded-paddy soils ([[sources/efsa-arsenic-contam-2009|EFSA 2009]]). Brown rice carries more than white rice because the bran layer concentrates the metal ([[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]]). Other notable matrices include seaweed (especially hijiki), apple and grape juice, and rice protein powder and rice syrup. Finfish arsenic is predominantly arsenobetaine and has historically been treated as low-risk for arsenic specifically, though the long-standing assumption that seafood organoarsenicals are biologically inert is now under active scientific challenge ([[synthesis/organoarsenical-inertness-assumption|Heavy Metal Index synthesis]]).
 
 ### Why is inorganic arsenic a health concern, and what are its effects?
 
@@ -231,8 +242,14 @@ For infants, choosing non-rice or rice-minor first cereals such as oat, barley, 
 - [[sources/coryell2019-human-gut-microbiome-arsenic-toxicity|Coryell, Roggenbeck, Walk 2019]] — Canonical synthesis of microbial As biotransformation in the human gut; maps ars operon, arsM methyltransferase, aioAB/arxAB oxidases, arrAB respiration, thiolation; documents germ-free and antibiotic data establishing microbiome-mediated As excretion.
 - [[sources/balali-mood-2021-toxic-mechanisms-five-heavy-metals|Balali-Mood et al. 2021]] — Cross-metal mechanistic-toxicology synthesis. For iAs: documents AS3MT/SAM-depleting methylation pathway, BER/NER repair inhibition, trivalent methylated intermediates (MMA(III)/DMA(III)) as putative proximate carcinogens, and the proliferative/epigenetic carcinogenesis mechanism distinguishing iAs from genotoxic Cr(VI).
 - [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] — Ufelle AC, Barchowsky A, 2021. Toxic Effects of Metals, Ch 23 in Casarett & Doull's Essentials of Toxicology, 4th ed.
+- [[sources/davydiuk2023-arsenosugars-methylation|Davydiuk et al. 2023]] — Critical review: seafood arsenosugars and arsenolipids yield urinary DMA by a route independent of inorganic arsenic methylation, confounding percent-DMA biomonitoring indices in seafood-eating populations.
+- [[sources/liu2023-arsenic-seafood-digestion|Liu et al. 2023]] — In vitro gastrointestinal digestion of crab and scallop; organic arsenicals show a two- to threefold rise in the inorganic As(V) fraction, so speciation at consumption does not equal speciation at absorption.
+- [[sources/kagawa2023-fish-arsenic-hypertension-japan|Kagawa et al. 2023]] — J-MICC Daiko prospective cohort (n=2,709); serum total As (about 98 percent arsenobetaine) associated with dose-dependent hypertension after adjustment for fish intake and cardiovascular risk factors.
+- [[sources/raab2024-arsenolipids-chlamydomonas|Raab et al. 2024]] — 57 percent of total As in Chlamydomonas reinhardtii is arsenolipid; total-As measurement may under-recover arsenolipids in microalgae-derived ingredients.
+- [[sources/walenta2024-arsenic-speciation-mushrooms|Walenta et al. 2024]] — Novel arsenobetaine amide detected in four mushroom species; extends organoarsenical diversity beyond the marine suite.
+- [[sources/sim2024-inorganic-arsenic-seaweed-hplc|Sim et al. 2024]] — HPLC-ICP-MS validation; Laminaria digitata carries more than 50 percent of its total As as iAs, so seaweed is not a low-iAs matrix by default.
 
-See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/.
+See also [[studies/arsenic-primary-literature]] for the citable index of arsenic-focused primary research articles in raw/studies/, and [[synthesis/organoarsenical-inertness-assumption]] for the Heavy Metal Index synthesis that draws these seafood-speciation sources together.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
