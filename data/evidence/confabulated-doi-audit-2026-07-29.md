@@ -15,6 +15,10 @@ Read-only sweep of every source-page DOI against Crossref, then authoritative re
 
 Fix (correcting/removing these DOIs on the source pages) is deferred to a quiescent tree — the working directory is currently multi-writer. This file is the actionable list.
 
+> **RESOLVED — both sections closed.**
+> **Section A (61 non-resolving):** remediated across 2026-08-09 (see [[project_defensibility_landmine_sweep]]; commits `ee52c633b`, `50c73dc78`) — DOIs corrected via Crossref `query.bibliographic` + DOI.org handle-API, or set `doi:null + no_doi_assigned:true + access_url` where no correct DOI existed.
+> **Section B (97 title-mismatch):** remediated 2026-08-09 (commits `91b7e0c9f`, `8f8a060dc`). Ground-truth classification of every row: **75 benign** (DOI correct; page title is a translation/paraphrase — left in place, confirmed), **18 genuine mis-attributions** (DOI resolved to an unrelated paper — correct DOI recovered + adopted only on handle-API responseCode 1 + registered-title match), **2 provable-duplicate collapses** (carignan/schmidt + romero-crespo, the excluded wrong-DOI clusters — verified same-work via raw-PDF `pdftotext` and collapsed), **1 already-collapsed**, **1 raw_handle fix** (schmidt2015). Batch A's corrections also surfaced 3 latent same-DOI/same-raw duplicates, collapsed. **DOI-collision audit is now clean (0 clusters).** Full per-row disposition: `data/evidence/title-mismatch-doi-sweep-2026-08-09.csv`; network ground-truth record: `data/evidence/title-mismatch-triage-2026-08-09.json`. Ledger `OI-20260809-title-mismatch-doi-sweep`.
+
 ## A. Non-existent DOIs (61) — fabricated or mis-transcribed; do not resolve at any registration agency
 
 | Source page | DOI (does not exist) |
@@ -82,6 +86,8 @@ Fix (correcting/removing these DOIs on the source pages) is deferred to a quiesc
 | `zhao2024-toxic-metals-metalloids-food-review.md` | `10.1007/s42247-024-00934-6` |
 
 ## B. Registered DOIs with title mismatch (97) — real DOI, page title differs; review for mis-attribution vs paraphrase
+
+> **RESOLVED 2026-08-09** — see the banner above. Per-row disposition in `data/evidence/title-mismatch-doi-sweep-2026-08-09.csv`. The table below is the original flag list; do not re-open it as an action list.
 
 | Source page | DOI (resolves) | Page title (truncated) | Registered title (truncated) |
 |---|---|---|---|
