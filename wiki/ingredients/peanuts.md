@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 60]
+    p95_ppb: 250
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 6
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [36.4, 44.4]
@@ -33,18 +33,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [1.0, 5.0]
-    p95_ppb: 5.0
+    typical_ppb: [5, 30]
+    p95_ppb: 70
     confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    n_studies: 6
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 3]
+    p95_ppb: 5
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [408, 528]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [150, 290]
+    p95_ppb: 700
     confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -108,16 +108,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=8 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Pb | n=6 | 0–60 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|4]], [[sources/bielecka2021-nuts-toxic-elements-poland\|5]], [[sources/belew2024-peanuts-date-palm-metals\|6]] |
 | Cd | n=11 | 36.4–44.4 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | iAs | n=3 | 1–2 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|3]] |
-| tAs | n=7 | 1–5 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/codex-cccf17-2024\|2]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/codex-cccf17-2024\|1]], [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tAs | n=6 | 5–30 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/blair2017-us-peanut-heavy-metals\|3]], [[sources/bielecka2021-nuts-toxic-elements-poland\|4]], [[sources/belew2024-peanuts-date-palm-metals\|5]], [[sources/hovanec2004-peanut-butter-arsenic-speciation\|6]] |
+| tHg | n=3 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/blair2017-us-peanut-heavy-metals\|2]], [[sources/bielecka2021-nuts-toxic-elements-poland\|3]] |
 | Ni | n=9 | 408–528 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=7 | 0 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]] |
+| Cr | n=5 | 150–290 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/chen2022-peanut-elements-china\|2]], [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|3]], [[sources/belew2024-peanuts-date-palm-metals\|4]], [[sources/alatise2025-fruit-nuts-metals\|5]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total mercury and chromium cells previously read typical [0,0] with a p95 of 0, and the total arsenic cell read a collapsed [1,5] with a p95 equal to its typical maximum of 5. Both patterns trace to leaning entirely on the three FDA dry-roasted salted composites, in which lead, mercury and chromium were non-detect at reporting limits of 4, 1 and 50 ppb and arsenic detected in two of three at a maximum of 5 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Because peanuts are geocarpic and fill their pods in direct soil contact, kernel-level ICP-MS surveys record materially higher and genuinely detectable concentrations, so the FDA non-detects are treated as left-censored bounds and the central ranges are anchored on the kernel datasets.
+
+For chromium the correction is the largest: Chinese kernels ran 234 to 293 ppb across six provinces and Polish-market peanuts about 230 ppb, both far above the 50 ppb FDA limit that produced the false zero ([[sources/chen2022-peanut-elements-china|Chen et al. 2022]]; [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland|Ćwieląg-Drabek et al. 2025]]). Total arsenic centres near 5 to 30 ppb across US, Chinese, Polish and Ethiopian kernels and peanut butter, with a p95 of 70 ppb anchored on the Polish-market maximum of 71 ppb ([[sources/blair2017-us-peanut-heavy-metals|Blair 2017]]; [[sources/bielecka2021-nuts-toxic-elements-poland|Bielecka et al. 2021]]; [[sources/belew2024-peanuts-date-palm-metals|Belew et al. 2024]]; [[sources/hovanec2004-peanut-butter-arsenic-speciation|Hovanec 2004]]). Lead carries a heavy right tail from single high kernels (1354, 818 and 640 ppb) that sets the p95 near 250 ppb, and mercury has only one quantified distribution, a Polish-market median of 2.46 ppb, so it stays a left-censored bound. The mining-site kernels of [[sources/zhang2026-trace-metals-five-crops-chongqing|Zhang et al. 2026]] and the US Southwest arsenic outlier of 410 ppb are extreme-tail context and do not drive any central value.
 
 ## Ranges by source, region, and variety
 
