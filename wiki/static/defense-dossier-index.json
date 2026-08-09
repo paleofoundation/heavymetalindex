@@ -86217,7 +86217,7 @@
             }
           },
           {
-            "slug": "sources/carignan2015-arsenic-infancy-well-water-breast-milk",
+            "slug": "sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
             "title": "Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -86229,14 +86229,14 @@
               "MMA",
               "DMA"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/carignan2015-arsenic-infancy-well-water-breast-milk",
+            "canonical_url": "https://heavymetalindex.com/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
             "content_pin": {
               "content_sha256": "68726bc5bb661871fc2394fc3a4055f46c1d4d0b41f567ba9f5a18e5648d5458",
               "content_bytes": 3260,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md | sha256sum"
             }
           },
           {

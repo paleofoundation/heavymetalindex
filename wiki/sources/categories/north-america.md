@@ -142,7 +142,7 @@ Source pages whose evidence comes from **North America**, grouped by jurisdictio
 - [[sources/authors2022-arsenic-contamination-in-soil-vegetable-groundwater-and-riverine|Arsenic Contamination in Soil, Vegetable, Groundwater, and Riverine Fish (2022)]]
 - [[sources/scott2025-brown-white-rice-arsenic|Arsenic content and exposure in brown rice compared to white rice in the United States (2025)]]
 - [[sources/schmidt2015-arsenic-infancy-commentary|Arsenic Exposure in Infancy (2015)]]
-- [[sources/carignan2015-arsenic-infancy-well-water-breast-milk|Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk (2015)]]
+- [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants|Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk (2015)]]
 - [[sources/fda2011-arsenic-apple-juice-2005-2011|Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program (2011)]]
 - [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in brown rice: do the benefits outweigh the risks? (2023)]]
 - [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in Brown Rice: Do the Benefits Outweigh the Risks? (2023)]]
