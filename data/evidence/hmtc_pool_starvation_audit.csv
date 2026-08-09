@@ -9,13 +9,11 @@ empty_slug,,iAs,true,arsenic2025-unknown,category1_autonomy_extracted_summary.cs
 empty_slug,,Pb,false,asni2020-pb-seaweed-bantaeng,category1_autonomy_extracted_summary.csv
 empty_slug,,tAs,true,beene2022-arsenic-mass-balance-rice-water,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,false,boostani2025-biochar-bentonite-cadmium-immobilization,category1_autonomy_extracted_summary.csv
-empty_slug,,tHg,true,chang2015-mercury-korean-infants-weaning,category1_autonomy_extracted_summary.csv
 empty_slug,,Mn,true,chen2023-breast-milk-ewaste-china,category1_autonomy_extracted_summary.csv
 empty_slug,,Cu,true,chen2023-breast-milk-ewaste-china,category1_autonomy_extracted_summary.csv
 empty_slug,,tAs,false,dai2024-chongqing-dietary-arsenic-exposure,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,dearing2025-hawkes-bay-organic-nonorganic-vegetables,category1_autonomy_extracted_summary.csv
 empty_slug,,Ni,true,dearing2025-hawkes-bay-organic-nonorganic-vegetables,category1_autonomy_extracted_summary.csv
-empty_slug,,iAs,true,efsa-arsenic-contam-2009,category1_autonomy_extracted_summary.csv
 empty_slug,,iAs,true,fda2022-tds-elements-fy2018-fy2020,category1_autonomy_extracted_summary.csv
 empty_slug,,tAs,true,fda2022-tds-elements-fy2018-fy2020,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,fda2022-tds-elements-fy2018-fy2020,category1_autonomy_extracted_summary.csv
@@ -44,7 +42,6 @@ empty_slug,,U,true,martinezmorata2022-drinking-water-arsenic-uranium-us,category
 empty_slug,,Cd,true,oehha2000-appendix-f-dermal-uptake-soil,category1_autonomy_extracted_summary.csv
 empty_slug,,Pb,true,okubo2023-periconceptional-diet-blood-metals-lbw,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,okubo2023-periconceptional-diet-blood-metals-lbw,category1_autonomy_extracted_summary.csv
-empty_slug,,Cd,true,okubo2023-periconceptional-diet-blood-metals-lbw,category1_autonomy_extracted_summary.csv
 empty_slug,,Sb,true,opss2023-feasibility-action-limits-cosmetics-uk,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,opss2023-feasibility-action-limits-cosmetics-uk,category1_autonomy_extracted_summary.csv
 empty_slug,,Pb,true,opss2023-feasibility-action-limits-cosmetics-uk,category1_autonomy_extracted_summary.csv
@@ -60,7 +57,6 @@ empty_slug,,Cr-total,false,romero-estevez2020-bivalves-santa-rosa-ecuador,catego
 empty_slug,,Pb,false,romero-estevez2020-bivalves-santa-rosa-ecuador,category1_autonomy_extracted_summary.csv
 empty_slug,,Ba,false,salles2023-face-paints-pancakes-brazil-cancer-risk,category1_autonomy_extracted_summary.csv
 empty_slug,,Mg,true,savic2015-clear-orange-juice-minerals,category1_autonomy_extracted_summary.csv
-empty_slug,,iAs,true,signes-pastor2022-arsenic-respiratory-children-spain,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,sripada2022-cadmium-interventions-lmics,category1_autonomy_extracted_summary.csv
 empty_slug,,Cr-total,true,sultana2022-dhaka-root-leafy-vegetables,category1_autonomy_extracted_summary.csv
 empty_slug,,Cd,true,sultana2022-dhaka-root-leafy-vegetables,category1_autonomy_extracted_summary.csv

@@ -31,6 +31,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { writeStableJsonSummary } from "./stable-json-summary.mjs"
+import { classifyExposure, resolveOverride } from "./exposure-classifier.mjs"
 
 const repoRoot = process.cwd()
 const productDir = path.join(repoRoot, "wiki/products")
@@ -256,6 +257,115 @@ function loadSampleRows() {
     console.log(`  sample admission: excluded ${heldDropped} HOLD-registry sample row(s) (outlier adjudication)`)
   }
   return rows
+}
+
+// ---- Occurrence-vs-exposure gate (biomarker / intake-dose / model exclusion)
+//
+// The HMTc standard is a food-CONCENTRATION percentile. Biomarkers (hair/urine/
+// blood), dietary-intake doses (ng/kg bw/day), and risk-model inputs share the ppb
+// column but are not concentrations, and poison a pool if admitted (e.g. tatsuta2024
+// hair-THg 1.05 ppm -> a 1020 ppb "formula mercury" pool; shibata2016 Monte-Carlo
+// inputs -> a 2568 ppb rice-cereal iAs pool). See exposure-classifier.mjs. Rows are
+// excluded by source frontmatter matrices (whole exposure/model sources) or by row
+// statistic-scope text (a biomarker/intake/model row inside a mixed source). Every
+// drop is written to standards-exposure-exclusions.csv and can be reversed in
+// data/evidence/routing-exposure-only.csv (action=keep force-admits; action=exclude
+// force-drops).
+const exposureExclusionsPath = path.join(repoRoot, "data/evidence/standards-exposure-exclusions.csv")
+const exposureOverridePath = path.join(repoRoot, "data/evidence/routing-exposure-only.csv")
+
+function loadSourceMatrices() {
+  const dir = path.join(repoRoot, "wiki/sources")
+  const map = new Map()
+  if (!fs.existsSync(dir)) return map
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".md")) continue
+    const head = fs.readFileSync(path.join(dir, file), "utf8").slice(0, 4000)
+    const m = head.match(/^matrices:\s*\[([^\]]*)\]/m)
+    if (!m) continue
+    const list = m[1]
+      .split(",")
+      .map((s) => s.trim().replace(/^["']|["']$/g, "").toLowerCase())
+      .filter(Boolean)
+    if (list.length) map.set(file.replace(/\.md$/, ""), list)
+  }
+  return map
+}
+
+function loadExposureOverrides() {
+  // Registry: source_id,metal_species,row_slug,action,rationale
+  //   action=keep    -> force-admit even if the classifier would exclude
+  //   action=exclude -> force-drop even if the classifier would admit
+  // Blank metal/slug act as wildcards (same convention as the HOLD registry).
+  const overrides = new Map()
+  if (!fs.existsSync(exposureOverridePath)) return overrides
+  for (const r of parseCsv(fs.readFileSync(exposureOverridePath, "utf8"))) {
+    const action = (r.action ?? "").trim().toLowerCase()
+    if (action !== "keep" && action !== "exclude") continue
+    const sid = (r.source_id ?? "").trim()
+    if (!sid) continue
+    const met = (r.metal_species ?? "").trim()
+    const slg = (r.row_slug ?? "").trim()
+    overrides.set(`${sid}|${met}|${slg}`, action)
+  }
+  return overrides
+}
+
+// Filter rows through the exposure gate. Mutates `exclusions` (audit accumulator)
+// and returns the admitted rows. `srcMatrices` is source_id -> matrices[].
+function applyExposureGate(rows, srcMatrices, overrides, exclusions, phase) {
+  const kept = []
+  for (const row of rows) {
+    const sid = (row.source_id ?? "").trim()
+    const metal = (row.metal_species ?? "").trim()
+    const slug = (row.product_slug || row.row_slug || "").trim()
+    const verdict = classifyExposure({
+      matrices: srcMatrices.get(sid),
+      statisticScope: row.statistic_scope,
+      basis: row.basis,
+      notes: row.notes,
+    })
+    const override = resolveOverride(sid, metal, slug, overrides)
+    let exclude = verdict.exclude
+    let reason = verdict.reason
+    let rule = verdict.rule
+    if (override === "keep") {
+      exclude = false
+    } else if (override === "exclude") {
+      exclude = true
+      rule = "override"
+      reason = reason || "manual override: routing-exposure-only.csv action=exclude"
+    }
+    if (exclude) {
+      exclusions.push({
+        source_id: sid,
+        metal_species: metal,
+        row_slug: slug,
+        phase,
+        rule: override ? `${rule}${override === "keep" ? "" : "(override)"}` : rule,
+        reason,
+        source_file: row._source_file ?? "",
+      })
+      continue
+    }
+    kept.push(row)
+  }
+  return kept
+}
+
+function writeExposureExclusions(exclusions) {
+  const header = "source_id,metal_species,row_slug,phase,rule,reason,source_file"
+  const esc = (v) => {
+    const s = String(v ?? "")
+    return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s
+  }
+  const lines = exclusions
+    .slice()
+    .sort((a, b) =>
+      (a.source_id + a.metal_species + a.row_slug).localeCompare(b.source_id + b.metal_species + b.row_slug),
+    )
+    .map((e) => [e.source_id, e.metal_species, e.row_slug, e.phase, e.rule, e.reason, e.source_file].map(esc).join(","))
+  fs.writeFileSync(exposureExclusionsPath, [header, ...lines].join("\n") + "\n")
 }
 
 // ---- Pseudo-sample reconstruction
@@ -950,8 +1060,25 @@ function rationaleTag(targetValue, regCap, poolUsable) {
 
 function main() {
   const products = readProductPages()
-  const summaryRows = loadStructuredRows()
-  const sampleRows = loadSampleRows()
+  let summaryRows = loadStructuredRows()
+  let sampleRows = loadSampleRows()
+
+  // Occurrence-vs-exposure gate: drop biomarker / intake-dose / model rows before
+  // they reach any pool. Corpus-wide (the poison is not formula-specific), fully
+  // audited to standards-exposure-exclusions.csv, and overridable.
+  const srcMatrices = loadSourceMatrices()
+  const exposureOverrides = loadExposureOverrides()
+  const exposureExclusions = []
+  summaryRows = applyExposureGate(summaryRows, srcMatrices, exposureOverrides, exposureExclusions, "summary")
+  sampleRows = applyExposureGate(sampleRows, srcMatrices, exposureOverrides, exposureExclusions, "sample")
+  writeExposureExclusions(exposureExclusions)
+  if (exposureExclusions.length) {
+    const bySource = new Set(exposureExclusions.map((e) => e.source_id)).size
+    console.log(
+      `  exposure gate: excluded ${exposureExclusions.length} biomarker/intake/model row(s) from ${bySource} source(s) -> standards-exposure-exclusions.csv`,
+    )
+  }
+
   const gapRows = fs.existsSync(gapReportPath)
     ? parseCsv(fs.readFileSync(gapReportPath, "utf8"))
     : []

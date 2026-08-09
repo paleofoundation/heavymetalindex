@@ -16,7 +16,7 @@ raw_sha256: 1d66e5584c5fa41c08e2ae0658255bcb383e48c99e7dd6507ddf3f7c07447640
 metals: [tHg, Cd, Pb, Ni]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/cashew-nuts]]", "[[ingredients/walnuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/seaweed]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/spices]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]"]
 products: ["[[products/canned-fish]]", "[[products/cashews]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]"]
-matrices: [dietary-intake]
+matrices: [dietary-intake, total-diet-study, ready-to-eat-food]
 jurisdictions: [DE, EU]
 near_duplicates: []
 sample_n: 869

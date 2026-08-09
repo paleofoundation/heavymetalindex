@@ -1,0 +1,23 @@
+source_id,metal_species,row_slug,phase,rule,reason,source_file
+alsulaiti2023-qatar-fish-mehg,MeHg,,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""/kg bw"")",category1_autonomy_extracted_summary.csv
+alsulaiti2023-qatar-fish-mehg,MeHg,fresh-fish,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""/kg bw"")",category1_autonomy_matrix_routed_summary.csv
+chang2015-mercury-korean-infants-weaning,tHg,,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""hair"")",category1_autonomy_extracted_summary.csv
+chiger2017-iAs-rice-cereal-neurodevelopment-hbbf,iAs,infant-cereal,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""Monte Carlo"")",category1_autonomy_extracted_summary.csv
+cleary2021-fish-consumption-advisories-usa,MeHg,fresh-fish,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""Reference dose"")",category1_autonomy_matrix_routed_summary.csv
+efsa-arsenic-contam-2009,iAs,,summary,source-matrices,source carries only exposure/model matrices [dietary-intake] — no food-concentration matrix,category1_autonomy_extracted_summary.csv
+efsa2015-nickel-food-water,Ni,infant-food-general,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""/kg bw"")",category1_autonomy_extracted_summary.csv
+efsa2015-nickel-food-water,Ni,infant-formula,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""/kg bw"")",category1_autonomy_matrix_routed_summary.csv
+ellison2026-tampon-lead-exposure,Pb,menstrual-tampons,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""plasma"")",category1_autonomy_extracted_summary.csv
+epa1999-mercury-update-fish-advisories,tHg,fresh-fish,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""Biomonitor"")",category1_autonomy_extracted_summary.csv
+fsai2016-total-diet-study-ireland-2012-2014,Cr-total,canned-fish,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""/kg bw"")",category1_autonomy_extracted_summary.csv
+fsanz2011-23rd-australian-total-diet-study,tHg,infant-formula-powder,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""/kg bw"")",category1_autonomy_extracted_summary.csv
+kim2018-dry-dog-food-heavy-metals,Cd,pet-food-dry-kibble,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""daily intake"")",category1_autonomy_extracted_summary.csv
+kim2018-dry-dog-food-heavy-metals,Pb,pet-food-dry-kibble,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""daily intake"")",category1_autonomy_extracted_summary.csv
+lin2023-donor-milk-lead-mercury,Pb,infant-food-general,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""hazard quotient"")",category1_autonomy_extracted_summary.csv
+okubo2023-periconceptional-diet-blood-metals-lbw,Cd,,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""whole-blood"")",category1_autonomy_extracted_summary.csv
+rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana,Cd,canned-fish,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""hazard quotient"")",category1_autonomy_extracted_summary.csv
+rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana,Cr-total,canned-fish,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""hazard quotient"")",category1_autonomy_extracted_summary.csv
+scheer2017-aluminium-tolerable-intake-toys,Al,infant-formula,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""mg/kg bw"")",category1_autonomy_extracted_summary.csv
+shibata2016-arsenic-rice-cereal-risk-assessment-us,iAs,baby-cereals-dry-rice-based,summary,source-matrices,"source carries only exposure/model matrices [risk-assessment-model, intake-estimate] — no food-concentration matrix",category1_autonomy_extracted_summary.csv
+signes-pastor2022-arsenic-respiratory-children-spain,iAs,,summary,source-matrices,"source carries only exposure/model matrices [urine, dietary-intake] — no food-concentration matrix",category1_autonomy_extracted_summary.csv
+tatsuta2024-mehg-duplicate-diet-children-japan,tHg,infant-formula-powder,summary,row-scope,"row statistic is biomarker/intake/model, not a food concentration (matched ""Hair"")",category1_autonomy_extracted_summary.csv
