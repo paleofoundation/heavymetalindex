@@ -8,18 +8,18 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 20]
+    p95_ppb: 30
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 6]
+    p95_ppb: 15
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 4
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 3
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 40]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 15.3]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=8 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=8 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Pb | n=4 | 0–20 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|4]] |
+| Cd | n=4 | 0–6 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|4]] |
 | iAs | data gap | — | — | — |
 | tAs | n=4 | 0–7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/chen2024-trimodal-hg-food-sensor\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
 | Ni | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
 | Al | n=1 | 0–1966 | low | — |
-| Cr | n=5 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
+| Cr | n=2 | 0–40 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]] |
 | Sn | n=1 | 0–15.3 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile carried grape lead, cadmium, total mercury, and chromium at [0, 0] with a p95 of 0. Those zeros reflected the FDA Total Diet Study reporting the 27 grape samples below their reporting limits (lead below 4 ppb, cadmium below 1 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Each cell is now treated as left-censored at its reporting limit, with dry-weight sources converted to fresh weight using the grape edible fraction of 0.19.
+
+Commercial fresh-weight surveys detect these metals at low levels. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]] reported Polish fresh grape lead at a mean of 5 ppb and cadmium near 1 ppb, [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]] fresh berries and small fruits lead at 8 to 17 ppb with a P90 of 26 to 38 and mercury at a middle-bound mean of 0.4 to 2.1 ppb, and [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]] Romanian market grape at 18 to 27 ppb lead and about 15 ppb cadmium. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]] detected total chromium in 100 percent of Korean fresh fruit near 31 ppb fresh weight, confirming chromium is present below the reporting limit. The Peruvian red-grape import lead maximum of 84 ppb (Mania) and the Egyptian grape chromium of 1010 to 1060 ppb ([[sources/amer2019-egyptian-fruits-heavy-metals|Amer et al. 2019]]) are carried as elevated import and developing-market context, not as central values. The chen2024 grape entry is analytical-sensor validation on spiked matrix and is excluded from the occurrence synthesis; chromium values are total chromium, not Cr-VI.
 
 ## Routing
 

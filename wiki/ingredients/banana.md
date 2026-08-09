@@ -8,18 +8,18 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 4]
+    p95_ppb: 4
     confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-16
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [0, 0]
@@ -29,18 +29,18 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3.2]
+    p95_ppb: 3.2
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 57]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 40]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [1.5, 13.4]
@@ -104,16 +104,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
-| Cd | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|2]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|3]] |
+| Pb | n=3 | 0–4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
+| Cd | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
 | iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=3 | 0 | medium | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| tAs | n=2 | 0–3.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
 | Ni | n=3 | 0–57 | medium | [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan\|3]] |
 | Al | n=1 | 0 | low | [[sources/garuba2024-heavy-metals-commercial-baby-foods\|1]] |
-| Cr | n=4 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/islam2024-heavy-metals-bangladeshi-fruits-review\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cr | n=2 | 0–40 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]] |
 | Sn | n=1 | 1.5–13.4 | low | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile recorded lead, cadmium, total arsenic, total mercury, and chromium at [0, 0] with a p95 of 0. Those zeros were an artifact of the FDA Total Diet Study reporting below-limit results as literal zeros. In the FY2018 to FY2020 dataset banana lead sat below the 4 ppb reporting limit in all 27 samples, cadmium below 1 ppb, total mercury below 1 ppb, chromium below 50 ppb, and total arsenic below the 3 ppb limit in 26 of 27 samples with a single 3.2 ppb detect ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Each cell is now treated as left-censored at its reporting limit, and dry-weight sources are converted to fresh weight by multiplying by the banana edible fraction of 0.26.
+
+Independent fresh-weight surveys confirm banana is a low-burden commodity without being empty. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]] detected total chromium in every Korean fresh-fruit sample at an overall mean near 31 ppb fresh weight, and [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]] placed non-berry fresh-fruit mercury at a middle-bound mean of 0.3 to 1.7 ppb. Higher values from [[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]], whose Ethiopian open-market banana reported 0.130 mg/kg cadmium and 0.773 mg/kg chromium on a dry-weight basis (about 34 and 201 ppb fresh weight after conversion), and the above-limit values in the [[sources/islam2024-heavy-metals-bangladeshi-fruits-review|Islam et al. 2024]] Bangladeshi review, are carried as elevated developing-market context rather than as the central tendency. Chromium values are total chromium, not Cr-VI.
 
 ## Routing
 
