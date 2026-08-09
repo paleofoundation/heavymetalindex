@@ -19,6 +19,8 @@ Total mercury (tHg) denotes the sum of all mercury species in a sample and is a 
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] is attached to this analytical-quantity page as mercury-species context. The chapter reinforces why elemental mercury vapor, inorganic mercury, and methylmercury require separate interpretation even when a surveillance dataset reports total mercury.
 
+At its seventy-second meeting (2010), the Joint FAO/WHO Expert Committee on Food Additives established a provisional tolerable weekly intake for inorganic mercury of 4 µg/kg body weight, derived from a benchmark-dose model of relative kidney-weight increase in male rats with a 100-fold uncertainty factor, and withdrew the earlier provisional tolerable weekly intake of 5 µg/kg body weight for total mercury. The Committee considered the inorganic-mercury value applicable to total mercury from foods other than fish and shellfish, where the separate methylmercury provisional tolerable weekly intake of 1.6 µg/kg body weight governs instead [[sources/jecfa-72nd-contaminants-2010|JECFA 2011]].
+
 ## Status
 
 This page is a scaffold. EU 2023/915 total-mercury fish maximum levels have been routed, but the full mercury occurrence and methylmercury-fraction synthesis remains on the ingest queue.
@@ -66,6 +68,7 @@ Total mercury is the compliance analyte for many fish rows, meaning it is the me
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
+2. [[sources/jecfa-72nd-contaminants-2010|Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 959 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209595)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

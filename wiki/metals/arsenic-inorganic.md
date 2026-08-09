@@ -19,6 +19,8 @@ Inorganic arsenic (iAs) denotes the trivalent and pentavalent arsenic oxyanions 
 
 [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]] supports this species page with textbook-level context on inorganic arsenic absorption, methylation, urinary excretion, skin/hair/nail biomarkers, acute and chronic toxicity, carcinogenicity, and treatment. It is a toxicology source, not a food occurrence dataset.
 
+At its seventy-second meeting (2010), the Joint FAO/WHO Expert Committee on Food Additives withdrew the previous provisional tolerable weekly intake of 15 µg/kg body weight for inorganic arsenic, judging it to lie in the region of the benchmark dose and no longer health-protective, and derived a BMDL0.5 of 3.0 µg/kg body weight per day (2.0 to 7.0 µg/kg body weight per day across the estimated dietary-exposure range) for a 0.5% increased incidence of lung cancer [[sources/jecfa-72nd-contaminants-2010|JECFA 2011]].
+
 ## Status
 
 This page is a scaffold. Regulatory rows for EU 2023/915 and FDA infant rice cereal/apple juice have been partially routed, but the full toxicology and occurrence synthesis still awaits corpus ingest.
@@ -72,6 +74,7 @@ The page is currently a scaffold. Regulatory rows for EU 2023/915 and the FDA in
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
+2. [[sources/jecfa-72nd-contaminants-2010|Evaluation of Certain Contaminants in Food: Seventy-second Report of the Joint FAO/WHO Expert Committee on Food Additives]]<span class="hmi-ref-meta">Joint FAO/WHO Expert Committee on Food Additives · WHO Technical Report Series 959 · 2011 · [www.who.int](https://www.who.int/publications/i/item/9789241209595)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
