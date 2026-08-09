@@ -12,18 +12,18 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [4, 130]
+    p95_ppb: 400
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [1, 15]
+    p95_ppb: 50
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -33,25 +33,25 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [3, 15]
+    p95_ppb: 65
+    confidence: low
     n_studies: 4
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    typical_ppb: [40, 110]
+    p95_ppb: 300
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [50, 500]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [10, 90]
+    p95_ppb: 150
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -106,16 +106,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=9 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
-| Cd | n=9 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| Pb | n=5 | 4–130 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]], [[sources/abeslami2025-moroccan-honey-minerals\|4]], [[sources/manouchehri2021-honey-heavy-metals-review\|5]] |
+| Cd | n=5 | 1–15 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/abeslami2025-moroccan-honey-minerals\|3]], [[sources/wise2025-elevated-metals-us-honeys\|4]], [[sources/manouchehri2021-honey-heavy-metals-review\|5]] |
 | iAs | data gap | — | — | — |
-| tAs | n=4 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
-| tHg | n=4 | 0 | medium | [[sources/wise2025-elevated-metals-us-honeys\|1]], [[sources/margaoan2024-bee-products-heavy-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Ni | n=8 | 0 | medium | [[sources/teferi2026-honey-ethiopia-kellem-wollega\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]] |
+| tAs | n=4 | 3–15 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/wise2025-elevated-metals-us-honeys\|3]], [[sources/manouchehri2021-honey-heavy-metals-review\|4]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/manouchehri2021-honey-heavy-metals-review\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
+| Ni | n=3 | 40–110 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
 | Al | n=3 | 50–500 | low | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/wise2025-elevated-metals-us-honeys\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
-| Cr | n=6 | 0 | medium | [[sources/naccari2025-honey-toxic-metals-microelements\|1]], [[sources/abeslami2025-moroccan-honey-minerals\|2]], [[sources/margaoan2024-bee-products-heavy-metals\|3]] |
+| Cr | n=3 | 10–90 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/naccari2025-honey-toxic-metals-microelements\|2]], [[sources/manouchehri2021-honey-heavy-metals-review\|3]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The prior honey profile carried typical and 95th-percentile values of zero for lead, cadmium, total arsenic, total mercury, nickel and chromium because the FDA Total Diet Study reported all three honey composites at or below its reporting limits and those below-limit results were pooled as literal zeros [[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]. A non-detect is not evidence of absence but of a concentration below the analytical reporting limit, so each FDA non-detect is treated here as left-censored at its reporting limit rather than as zero: 4 micrograms per kilogram for lead, 1 for cadmium and mercury, 3 for total arsenic, 40 for nickel and 50 for chromium. Where independent surveys detect the analyte the pooled range is anchored on those detections with the censored FDA value setting the lower bound, and where every reliable source falls below the reporting limit, as for mercury, the cell is published as a censored bound rather than a zero.
+
+Central tendency is anchored on commercial and producing-region datasets analysed by ICP-MS. Calabrian honey shows lead means of 79 to 125 micrograms per kilogram with cadmium 6 to 9, total arsenic 3 to 13, nickel 70 to 110 and chromium 10 to 90 [[sources/naccari2025-honey-toxic-metals-microelements|Naccari 2025]]; eastern Moroccan honey reports lead 130 to 190 and cadmium 1.7 to 18 [[sources/abeslami2025-moroccan-honey-minerals|Abeslami 2025]]; and a United States small-beekeeper survey reports a lead mean of 178 [[sources/wise2025-elevated-metals-us-honeys|Wise 2025]], with a multi-country review supplying the elevated commercial tail [[sources/manouchehri2021-honey-heavy-metals-review|Manouchehri 2021]]. Two right-tail cautions apply. Honey from artisanal-gold-mining districts of western Ethiopia carries lead of 18000 to 21400 and cadmium of 1380 to 2300 micrograms per kilogram and is excluded from the central range as a geographic hotspot the source itself warns against pooling [[sources/teferi2026-honey-ethiopia-kellem-wollega|Teferi 2026]], and the extreme mercury values in the United States X-ray-fluorescence survey (mean 3710) are a method artifact the authors flag for confirmation by mass spectrometry, so they do not drive the mercury cell.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

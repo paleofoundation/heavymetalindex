@@ -29,11 +29,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 6
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 20]
@@ -106,12 +106,18 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=6 | 0–0.3 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|3]] |
 | iAs | n=7 | 0–5 | medium | [[sources/epa-iris-inorganic-arsenic-2025\|1]], [[sources/zecchin2021-arsenic-groundwater-italy\|2]], [[sources/jecfa-82nd-arsenic\|3]] |
 | tAs | n=8 | 0–10 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/zecchin2021-arsenic-groundwater-italy\|3]] |
-| tHg | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/abou-abbass2023-drinking-water-lebanon-metals\|2]], [[sources/brima2026-drinking-water-elements\|3]] |
 | Ni | n=4 | 0–20 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
 | Al | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
 | Cr | n=3 | 0–50 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
 | Sn | n=2 | 0 | low | [[sources/ufelle2021-metals-chapter\|1]], [[sources/codex-cxs-193-1995\|2]] |
 | U | n=2 | 0–5 | low | [[sources/levin2024-us-drinking-water-contaminants\|1]], [[sources/ufelle2021-metals-chapter\|2]] |
+
+## Synthesis basis and censoring treatment
+
+The drinking-water profile previously reported total mercury as zero at both the typical and 95th-percentile levels. Unlike the food matrices there is no FDA Total Diet Study row for drinking water, which is assessed on a per-litre basis, so the zero reflected pooling of non-detects and very-low detections as literal zeros rather than a measured absence. Mercury in treated drinking water is therefore treated here as left-censored at the low end rather than set to zero, with the World Health Organization guideline value of 6 micrograms per litre used as the anchor for the upper tail.
+
+Total mercury is detectable but low in treated supplies. Lebanese drinking water reports a mean of 0.9 and a maximum of 2 micrograms per litre, with 23 percent of sites above 1 [[sources/abou-abbass2023-drinking-water-lebanon-metals|Abou Abbass 2023]]; United Kingdom tap and bottled water detect mercury in 96 to 100 percent of samples but at concentrations the authors report within World Health Organization limits [[sources/brima2026-drinking-water-elements|Brima 2026]]; and a global review places most tap and bottled water at or below about 1 microgram per litre while documenting elevated tap and sachet systems reaching 13 to 78 [[sources/olowoyo2026-heavy-metals-drinking-water-global-review|Olowoyo 2026]]. The typical range is set at 0 to 1 with the 95th percentile at the World Health Organization guideline of 6, and mining-affected surface and ground waters, reaching 191 to 259 micrograms per litre in Ghana, are excluded as raw-source hotspots rather than treated drinking water.
 
 ## Routing
 
