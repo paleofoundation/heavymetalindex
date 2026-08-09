@@ -13,3 +13,7 @@ interface CustomEventMap {
 
 type ContentIndex = Record<FullSlug, ContentDetails>
 declare const fetchData: Promise<ContentIndex>
+// URL of the prebuilt, serialised FlexSearch index, injected by renderPage.tsx's
+// prescript. Fetched lazily by search.inline.ts; absent on no-JS/legacy pages,
+// where search falls back to building the index from `fetchData`.
+declare const searchIndexPath: string | undefined

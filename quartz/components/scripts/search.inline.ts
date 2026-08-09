@@ -1,87 +1,26 @@
-import FlexSearch, { DefaultDocumentSearchResults } from "flexsearch"
+import { DefaultDocumentSearchResults } from "flexsearch"
 import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
+import {
+  createSearchIndex,
+  SearchDoc,
+  SerializedSearchIndex,
+} from "./searchIndexConfig"
 
-interface Item {
-  id: number
-  slug: FullSlug
-  title: string
-  content: string
-  tags: string[]
-  [key: string]: any
-}
+// The encoder and document descriptor now live in searchIndexConfig.ts, shared
+// with the build-time emitter so the serialised index (built in Node) and the
+// query-time tokeniser (running here) can never drift apart. The shared SearchDoc
+// types `slug` as a plain string (the emitter runs in Node); at query time slugs
+// are branded FullSlugs, so narrow it here for the display call sites.
+type Item = Omit<SearchDoc, "slug"> & { slug: FullSlug }
 
 // Can be expanded with things like "term" in the future
 type SearchType = "basic" | "tags"
 let searchType: SearchType = "basic"
 let currentSearchTerm: string = ""
-const encoder = (str: string): string[] => {
-  const tokens: string[] = []
-  let bufferStart = -1
-  let bufferEnd = -1
-  const lower = str.toLowerCase()
 
-  let i = 0
-  for (const char of lower) {
-    const code = char.codePointAt(0)!
-
-    const isCJK =
-      (code >= 0x3040 && code <= 0x309f) ||
-      (code >= 0x30a0 && code <= 0x30ff) ||
-      (code >= 0x4e00 && code <= 0x9fff) ||
-      (code >= 0xac00 && code <= 0xd7af) ||
-      (code >= 0x20000 && code <= 0x2a6df)
-
-    const isWhitespace = code === 32 || code === 9 || code === 10 || code === 13
-
-    if (isCJK) {
-      if (bufferStart !== -1) {
-        tokens.push(lower.slice(bufferStart, bufferEnd))
-        bufferStart = -1
-      }
-      tokens.push(char)
-    } else if (isWhitespace) {
-      if (bufferStart !== -1) {
-        tokens.push(lower.slice(bufferStart, bufferEnd))
-        bufferStart = -1
-      }
-    } else {
-      if (bufferStart === -1) bufferStart = i
-      bufferEnd = i + char.length
-    }
-
-    i += char.length
-  }
-
-  if (bufferStart !== -1) {
-    tokens.push(lower.slice(bufferStart))
-  }
-
-  return tokens
-}
-
-let index = new FlexSearch.Document<Item>({
-  encode: encoder,
-  document: {
-    id: "id",
-    tag: "tags",
-    index: [
-      {
-        field: "title",
-        tokenize: "forward",
-      },
-      {
-        field: "content",
-        tokenize: "forward",
-      },
-      {
-        field: "tags",
-        tokenize: "forward",
-      },
-    ],
-  },
-})
+let index = createSearchIndex()
 
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
@@ -242,6 +181,11 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     if (sidebar) sidebar.style.zIndex = "1"
     container.classList.add("active")
     searchBar.focus()
+    // Warm the index the moment search is opened, so it is usually ready by the
+    // time the visitor finishes typing. Loading is deferred to this point (rather
+    // than page load) so a visitor who never searches never pays the index
+    // download. Memoised + fire-and-forget: onType awaits the same promise.
+    void loadIndex(data)
   }
 
   let currentHover: HTMLInputElement | null = null
@@ -458,6 +402,21 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
       return
     }
 
+    // Ensure the index is loaded before querying. Usually already resolved
+    // (showSearch warms it on open); on the first keystroke of a fresh load this
+    // awaits the same memoised promise, so the query runs against the complete
+    // index rather than an empty one. While it is still loading, show an honest
+    // affordance instead of an empty panel — normally a brief flash on the
+    // prebuilt-import path, and the visible state during the (rare, slow)
+    // client-rebuild fallback when the prebuilt index is missing.
+    if (!indexReady) {
+      results.innerHTML = `<div class="result-card search-loading" aria-live="polite">
+          <h3>Building the search index…</h3>
+          <p>One moment.</p>
+      </div>`
+    }
+    await loadIndex(data)
+
     let searchResults: DefaultDocumentSearchResults<Item>
     if (searchType === "tags") {
       currentSearchTerm = currentSearchTerm.substring(1).trim()
@@ -528,55 +487,90 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   registerEscapeHandler(container, hideSearch)
 
-  await fillDocument(data)
-
-  // Replay whatever the visitor has already typed, now that the whole corpus is
-  // indexed. `onType` deliberately does NOT await the fill: FlexSearch indexes
-  // progressively, so querying a partially-built index returns useful hits in
-  // the first second or two, whereas blocking on the complete index means
-  // staring at an empty panel for as long as it takes to ingest the full
-  // contentIndex. The cost of not blocking is that those early results are
-  // computed against an incomplete index and nothing recomputed them, so
-  // someone who landed and typed straight away kept a thin or empty result set
-  // for the rest of the page's life. This re-runs the query once, at the moment
-  // the index is complete.
+  // The index is loaded lazily (see showSearch / onType), not here: a visitor
+  // who lands on a page and never opens search should not download it at all.
+  // If search is already open with a query present (e.g. a `?q=` deep link that
+  // opened the modal before this listener attached), kick a query so it runs
+  // once the lazily-loaded index resolves.
   if (searchBar.value.trim().length > 0 && container.classList.contains("active")) {
     onType({ target: searchBar } as unknown as HTMLElementEventMap["input"])
   }
 }
 
 /**
- * Fills flexsearch document with data
- * @param index index to fill
- * @param data data to fill index with
+ * Loads the FlexSearch document, preferring the prebuilt index.
+ *
+ * Fast path: fetch the serialised index emitted at build time and `.import()`
+ * its shards. This replaces client-side re-tokenisation of ~4k pages (seconds to
+ * minutes on real devices, during which search returned nothing) with a single
+ * deserialisation pass.
+ *
+ * Fallback path: if the serialised index is absent, unfetchable, malformed, or
+ * fails to import, rebuild the index from contentIndex.json with addAsync exactly
+ * as before. This keeps search working across a build/runtime version skew or a
+ * missing asset — search never hard-depends on the prebuilt file.
+ *
+ * Memoised so every caller (multiple `.search` elements, repeated nav events)
+ * awaits the SAME load rather than importing/refilling the corpus repeatedly.
  */
-// Memoized so every caller awaits the SAME fill rather than re-adding the whole
-// corpus or racing past a fill that is still in flight. `onType` awaits this
-// before querying: the input listener is attached before the index is filled,
-// and filling 3,000+ pages of addAsync is not instant, so a visitor who lands on
-// the page and types straight away used to query an empty index, get zero
-// results, and never see a re-run when the index finally landed. The search
-// looked broken on exactly the first use that matters.
-let fillPromise: Promise<void> | null = null
-function fillDocument(data: ContentIndex): Promise<void> {
-  fillPromise ??= (async () => {
-    let id = 0
-    const promises: Array<Promise<unknown>> = []
-    for (const [slug, fileData] of Object.entries<ContentDetails>(data)) {
-      promises.push(
-        index.addAsync(id++, {
-          id,
-          slug: slug as FullSlug,
-          title: fileData.title,
-          content: fileData.content,
-          tags: fileData.tags,
-        }),
-      )
+let loadPromise: Promise<void> | null = null
+// True once the index is fully queryable. Read by onType to decide whether to
+// show the "building index" affordance before it awaits the load.
+let indexReady = false
+function loadIndex(data: ContentIndex): Promise<void> {
+  loadPromise ??= (async () => {
+    if (!(await tryImportPrebuiltIndex())) {
+      await fillDocumentFromData(data)
     }
-
-    await Promise.all(promises)
+    indexReady = true
   })()
-  return fillPromise
+  return loadPromise
+}
+
+// Returns true if the prebuilt index was fetched and imported successfully.
+// Any failure returns false so the caller falls back to a client-side rebuild.
+async function tryImportPrebuiltIndex(): Promise<boolean> {
+  try {
+    if (typeof searchIndexPath !== "string" || searchIndexPath.length === 0) return false
+    const res = await fetch(searchIndexPath)
+    if (!res.ok) return false
+    const shards = (await res.json()) as SerializedSearchIndex
+    const keys = shards && typeof shards === "object" ? Object.keys(shards) : []
+    if (keys.length === 0) return false
+
+    // Import into a fresh index and only swap it in once every shard lands, so a
+    // mid-import failure can never leave a half-populated index serving queries.
+    const imported = createSearchIndex()
+    for (const key of keys) {
+      imported.import(key, shards[key])
+    }
+    index = imported
+    return true
+  } catch {
+    return false
+  }
+}
+
+// Rebuilds the index from contentIndex.json in the browser. FlexSearch indexes
+// progressively via addAsync; the memoised await in loadIndex is what a query
+// that landed mid-build waits on before it can return complete results.
+async function fillDocumentFromData(data: ContentIndex): Promise<void> {
+  index = createSearchIndex()
+  let id = 0
+  const promises: Array<Promise<unknown>> = []
+  for (const [slug, fileData] of Object.entries<ContentDetails>(data)) {
+    const docId = id++
+    promises.push(
+      index.addAsync(docId, {
+        id: docId,
+        slug: slug as FullSlug,
+        title: fileData.title,
+        content: fileData.content,
+        tags: fileData.tags,
+      }),
+    )
+  }
+  await Promise.all(promises)
 }
 
 async function setupSearchForPage(currentSlug: FullSlug) {

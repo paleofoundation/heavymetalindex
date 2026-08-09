@@ -32,7 +32,12 @@ export function pageResources(
   ctx?: BuildCtx,
 ): StaticResources {
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
-  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+  // `searchIndexPath` is exposed as a bare URL string (not a kicked-off fetch)
+  // so search.inline.ts can lazily fetch the prebuilt FlexSearch index with
+  // correct relative pathing under any baseDir, without paying its download on
+  // pages where the visitor never searches.
+  const searchIndexPath = joinSegments(baseDir, "static/flexSearchIndex.json")
+  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json());const searchIndexPath = "${searchIndexPath}"`
 
   // componentResources only writes prescript.js when some component actually
   // contributes a beforeDOMReady script. Referencing it unconditionally shipped
