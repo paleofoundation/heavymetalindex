@@ -513,15 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-20 open item(s): 9 auto, 11 awaiting a decision.
-
-### OI-20260809-title-mismatch-doi-sweep — Verify+fix the ~97 registered-DOI-with-title-mismatch source pages (DOI resolves but to a different paper)
-
-- scope: **auto** · type: audit · status: open · repo: index
-- paths: `data/evidence/confabulated-doi-audit-2026-07-29.md`, `wiki/sources/romero-crespo2023-ecuador-mining-crops-metals.md`, `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
-- repro: The 2026-07-29 audit Section B lists ~97 source pages whose DOI RESOLVES but whose registered title differs from the page title. Many are benign (translated/paraphrased titles for the same paper), but some are genuine wrong-DOI mis-attributions where the DOI points to a completely different paper (e.g. onyegeme-okerenta2023-shellfish -> a triclosan/infertility paper; ortiz-garcia2023-arsenic-maternal -> an HPV-vaccination paper; flyvholm1984-nickel -> a German pesticide-photochemistry paper). This is the more dangerous, INVISIBLE cousin of the non-resolving-DOI class just cleared: the citation looks fine until a reviewer clicks through. Two live examples surfaced during the 2026-08-09 dedup and were EXCLUDED from the collapse: romero-crespo2023-ecuador-mining-crops-metals (title Heavy metals in soils and crops in a mining area of Ecuador vs registered Trace elements in farmland soils and crops...) and carignan2015-arsenic-infancy-well-water-breast-milk (actually the Schmidt commentary, real DOI 10.1289/ehp.123-a137).
-- done when: For each Section-B page: fetch the registered title via DOI content-negotiation, classify benign-translation vs genuine-mis-attribution; Genuine mis-attributions: recover the correct DOI via Crossref title search (handle-API 1 + exact title) or set no_doi_assigned:true + access_url; doi-collision audit down to 0 (the 2 remaining wrong-DOI clusters resolved); provenance rows in wiki_edit_audit.jsonl
-- notes: Method is the same verify-before-adopt discipline proven in the 2026-08-09 non-resolving-DOI remediation. Deterministic Crossref/doi.org checks; no LLM adjudication of resolution.
+20 open item(s): 8 auto, 12 awaiting a decision.
 
 ### OI-20260809-subthreshold-censored-zero-cells — Sweep sub-threshold [0,0] contamination_profile cells (n<3) that escape the integrity audit gate
 
@@ -529,6 +521,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `wiki/ingredients/butter.md`, `wiki/ingredients/whole-milk.md`, `wiki/ingredients/cheddar-cheese.md`
 - repro: The censored-zero audit (tools/audit-contamination-profile-integrity.mjs) only fails typical [0,0]/p95 0 cells at confidence high OR n_studies>=3. Cells like butter Ni/Cr (n=2), whole-milk U (n=2), cheddar-cheese U (n=2) display literal 0 from the same below-LOQ-coded-as-zero artifact but escape the gate; they will become build-blocking failures if n_studies ever increments. Observed while draining the 86-cell backlog 2026-08-09.
 - done when: Enumerate all populated cells with typical_ppb [0,0] and p95_ppb 0 and n_studies<3 across wiki/ingredients/; Resynthesize each with the reporting limit as the left-censored upper bound (same method as the 86-cell drain); audit remains at 0 build-blocking failures and no literal-0 typical remains on a populated cell
+
+### OI-20260809-regs-v3-vs-fatten-reconcile — Reconcile regulations v3 design (feat/regulations-v3) with the fatten-regulations branch
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `tools/build-cert-regulation-pages.mjs`, `content/regulations/`
+- repro: feat/regulations-v3 (commit 4704c8e, worktree ~/Desktop/heavymetalcertified-regs-v3) rewrites tools/build-cert-regulation-pages.mjs to emit the v3 design (red hero band via HeroBand, grouped-by-analyte limits table, real 'Where HMTc cites it' citation map) for the current 11 instruments in data/regulations/infant-instruments.json. The unmerged preview/fatten-regulations branch (tip 6ff4ff3, OI-20260808-fatten-regulations-promote) rewrites the SAME generator differently: richer input (data/regulations/cert-regulation-snapshot.json, ~38 instruments/1,979 rows) and 6 sections (what/at-a-glance/limits/basis/hmtc/sources). Whichever promotes second will conflict on build-cert-regulation-pages.mjs and on content/regulations/*.md. They are complementary (v3 = design/layout; fatten = data breadth), not duplicative.
+- done when: A single reconciled generator applies the v3 design (HeroBand frontmatter + grouped limits table + citation map) to the fattened instrument set/sections; content/regulations builds clean under prebuild (firewall-cert-lint + method-drift-lint) after the merge; No regression: the 11 v3 instrument pages + index still render to the comp
+- decision: _pending_
 
 ### OI-20260809-organoarsenical-synthesis-downstream-propagation — Propagate organoarsenical-inertness synthesis to its remaining downstream ingredient pages
 
