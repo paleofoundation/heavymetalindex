@@ -121,7 +121,7 @@ JECFA's intake values share EFSA's basis (per kilogram body weight) and are the 
 | Source document | Instrument |
 | --- | --- |
 | [[sources/jecfa-91st-cadmium-2022\|jecfa-91st-cadmium-2022]] | [[regulations/jecfa-cadmium-ptmi\|Provisional Tolerable Monthly Intake for Cadmium]] |
-| [[sources/jecfa-72nd-lead-2010\|jecfa-72nd-lead-2010]] | [[regulations/jecfa-lead-ptwi-withdrawn\|Lead Provisional Tolerable Weekly Intake]] |
+| [[sources/jecfa-73rd-lead-2010\|jecfa-73rd-lead-2010]] | [[regulations/jecfa-lead-ptwi-withdrawn\|Lead Provisional Tolerable Weekly Intake]] |
 | [[sources/jecfa-61st-methylmercury\|jecfa-61st-methylmercury]] | [[regulations/jecfa-methylmercury-ptwi\|Methylmercury Provisional Tolerable Weekly Intake]] |
 <!-- END: hmi-regulator-keydocs -->
 
