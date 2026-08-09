@@ -1,13 +1,15 @@
 #!/usr/bin/env node
-// Strip references to the internal operating manual (CLAUDE.md) out of public
-// page prose. ~680 public pages carried citations like "per CLAUDE.md Part 14",
-// "Per CLAUDE.md Part 12, …", "the methodology in CLAUDE.md Part 19" — the wiki
-// citing its own internal dev playbook on public pages. That is a defensibility
-// leak (it reads as "operated by the certifier per an internal manual"), it is
-// meaningless to readers, and it needs no product decision to remove.
+// Strip references to the internal operating manuals (CLAUDE.md, OPERATING.md)
+// out of public page prose. ~680 public pages carried citations like
+// "per CLAUDE.md Part 14", "Per CLAUDE.md Part 12, …", and a later scaffold
+// wave added "per OPERATING.md Part 7 initiative 3.1", "Per OPERATING.md
+// Part 3, …" — the wiki citing its own internal dev playbooks on public pages.
+// That is a defensibility leak (it reads as "operated by the certifier per an
+// internal manual"), it is meaningless to readers, and it needs no product
+// decision to remove.
 //
-// The SUBSTANTIVE prose stays; only the "CLAUDE.md Part N" citation is removed,
-// grammatically. Deterministic, dry-run by default.
+// The SUBSTANTIVE prose stays; only the "<manual>.md Part N [initiative X.Y]"
+// citation is removed, grammatically. Deterministic, dry-run by default.
 //
 //   node tools/strip-internal-manual-refs.mjs [--apply] [--dir wiki]
 
@@ -20,35 +22,56 @@ const APPLY = process.argv.includes("--apply")
 const dirArg = process.argv.includes("--dir") ? process.argv[process.argv.indexOf("--dir") + 1] : "wiki"
 const BASE = join(ROOT, dirArg)
 
-// Part token: digits optionally followed by a letter (Part 5b), or a range.
-const PART = String.raw`Part\s+\d+[a-z]?`
+// Part token: digits optionally followed by a letter (Part 5b), optionally
+// followed by an "initiative X.Y" sub-reference (OPERATING.md Part 7
+// initiative 3.1), or a range.
+const PART = String.raw`Part\s+\d+[a-z]?(?:\s+initiative\s+\d+(?:\.\d+)?)?`
 
-function strip(text) {
+// The internal operating manuals whose references must never render on a public
+// page. Same grammar for each; run the transforms once per manual so a page that
+// cites both (or one, or neither) is cleaned identically.
+const MANUALS = ["CLAUDE", "OPERATING"]
+
+function stripManual(text, manual) {
+  const M = manual // e.g. "CLAUDE" — the token is <manual>.md
   let t = text
   // 0a. Parenthetical see-reference to the manual: " (see [[CLAUDE|…]])" → "".
-  t = t.replace(/\s*\(see\s+\[\[CLAUDE[^\]]*\]\]\)/g, "")
+  t = t.replace(new RegExp(String.raw`\s*\(see\s+\[\[${M}[^\]]*\]\]\)`, "g"), "")
   // 0b. Wikilink to the manual with a display alias (target may be path-prefixed,
   //     e.g. "[[../CLAUDE|the X policy]]") → keep the human text, drop the link.
-  t = t.replace(/\[\[[^\]|]*CLAUDE[^\]|]*\s*\|\s*([^\]]*)\]\]/g, "$1")
+  t = t.replace(new RegExp(String.raw`\[\[[^\]|]*${M}[^\]|]*\s*\|\s*([^\]]*)\]\]`, "g"), "$1")
   // 0c. Bare wikilink to the manual, no alias → "".
-  t = t.replace(/\s*\[\[[^\]|]*CLAUDE[^\]]*\]\]/g, "")
+  t = t.replace(new RegExp(String.raw`\s*\[\[[^\]|]*${M}[^\]]*\]\]`, "g"), "")
   // 1. Sentence-start "Per CLAUDE.md Part N, Xyz" → "Xyz" (capitalize the next word).
-  t = t.replace(new RegExp(String.raw`\bPer\s+CLAUDE\.md\s+${PART},\s+(\w)`, "g"), (_, c) => c.toUpperCase())
+  t = t.replace(new RegExp(String.raw`\bPer\s+${M}\.md\s+${PART},\s+(\w)`, "g"), (_, c) => c.toUpperCase())
   // 1b. Sentence-start "Per CLAUDE.md, Xyz" (no Part) → "Xyz".
-  t = t.replace(/\bPer\s+CLAUDE\.md,\s+(\w)/g, (_, c) => c.toUpperCase())
+  t = t.replace(new RegExp(String.raw`\bPer\s+${M}\.md,\s+(\w)`, "g"), (_, c) => c.toUpperCase())
+  // 2pre. Parenthetical with a leading preposition: " (per CLAUDE.md Part N)" /
+  //       "(per OPERATING.md Part 7 initiative 3.1)" → "" (drop the whole aside).
+  //       Must run before rule 2, which would otherwise leave a dangling "(per)".
+  t = t.replace(
+    new RegExp(String.raw`\s*\((?:per|in|from|of|under|following|see|by)\s+${M}\.md\s+${PART}\)`, "g"),
+    "",
+  )
   // 2. Prepositional " <prep> CLAUDE.md Part N" mid-sentence → "" (drop the whole phrase).
   t = t.replace(
-    new RegExp(String.raw`\s+(?:per|in|from|of|under|following|see|by)\s+CLAUDE\.md\s+${PART}`, "g"),
+    new RegExp(String.raw`\s+(?:per|in|from|of|under|following|see|by)\s+${M}\.md\s+${PART}`, "g"),
     "",
   )
   // 3. Parenthetical " (CLAUDE.md Part N)" → "" (allow "§ Part N" too).
-  t = t.replace(new RegExp(String.raw`\s*\(CLAUDE\.md\s+(?:§\s*)?${PART}\)`, "g"), "")
+  t = t.replace(new RegExp(String.raw`\s*\(${M}\.md\s+(?:§\s*)?${PART}\)`, "g"), "")
   // 4. Fallback: any remaining "…, CLAUDE.md [§] Part N" or bare "CLAUDE.md Part N".
-  t = t.replace(new RegExp(String.raw`,?\s*CLAUDE\.md\s+(?:§\s*)?${PART}`, "g"), "")
+  t = t.replace(new RegExp(String.raw`,?\s*${M}\.md\s+(?:§\s*)?${PART}`, "g"), "")
   // 4b. Reversed order: " (Part N of [the] CLAUDE.md)" / " Part N of CLAUDE.md" → "".
-  t = t.replace(new RegExp(String.raw`\s*\(?(?:§\s*)?${PART}\s+of\s+(?:the\s+)?CLAUDE\.md\)?`, "g"), "")
-  // 5. Any residual bare "CLAUDE.md" (e.g. a stray link target) → "the methodology".
-  //    (Rare; logged so we can eyeball it.)
+  t = t.replace(new RegExp(String.raw`\s*\(?(?:§\s*)?${PART}\s+of\s+(?:the\s+)?${M}\.md\)?`, "g"), "")
+  // 5. Any residual bare "CLAUDE.md" / "OPERATING.md" (e.g. a stray link target)
+  //    is left in place but logged below so we can eyeball it.
+  return t
+}
+
+function strip(text) {
+  let t = text
+  for (const manual of MANUALS) t = stripManual(t, manual)
   return t
 }
 
@@ -62,7 +85,7 @@ function cleanup(t) {
     .replace(/\bthe the\b/g, "the")
 }
 
-// Frontmatter-safe: single-line quoted values may carry a CLAUDE.md reference
+// Frontmatter-safe: single-line quoted values may carry a manual reference
 // (e.g. `tier_rationale: "Per CLAUDE.md …"`). Strip the phrase from within the
 // value, preserving each line's LEADING indentation so nested YAML mappings
 // stay valid.
@@ -70,14 +93,14 @@ function stripFrontmatter(fm) {
   return fm
     .split("\n")
     .map((line) => {
-      if (!line.includes("CLAUDE")) return line
+      if (!line.includes("CLAUDE") && !line.includes("OPERATING")) return line
       const m = line.match(/^(\s*)(.*)$/)
       return m[1] + cleanup(strip(m[2]))
     })
     .join("\n")
 }
 
-// Internal dev-artifact / record directories where a CLAUDE.md reference is
+// Internal dev-artifact / record directories where a manual reference is
 // legitimate internal documentation (and log.md's are historical commit records
 // that must not be rewritten). The defensibility leak is on reader-facing
 // reference pages, so those are what we clean.
@@ -103,18 +126,22 @@ let changed = 0
 let totalRepl = 0
 const residualBare = []
 const samples = []
+// Count references to any managed manual so the before/after delta reports the
+// total refs removed across CLAUDE.md + OPERATING.md.
+const MANUAL_RE = new RegExp(`(?:${MANUALS.join("|")})`, "g")
+const MANUAL_TEST = new RegExp(`(?:${MANUALS.join("|")})`) // non-global: safe for .test()
 for (const f of files) {
   const src = readFileSync(f, "utf8")
-  if (!src.includes("CLAUDE")) continue
+  if (!MANUAL_TEST.test(src)) continue
   // Only transform the BODY — never the YAML frontmatter. The punctuation
   // cleanup collapses runs of spaces, which would flatten nested-mapping
   // indentation in frontmatter and break the YAML parse.
   const fmMatch = src.match(/^---\n[\s\S]*?\n---\n/)
   const fm = fmMatch ? fmMatch[0] : ""
   const body = fmMatch ? src.slice(fm.length) : src
-  const before = (src.match(/CLAUDE/g) || []).length
+  const before = (src.match(MANUAL_RE) || []).length
   const next = stripFrontmatter(fm) + cleanup(strip(body))
-  const after = (next.match(/CLAUDE/g) || []).length
+  const after = (next.match(MANUAL_RE) || []).length
   if (next !== src) {
     changed++
     totalRepl += before - after
@@ -124,7 +151,7 @@ for (const f of files) {
       const bLines = src.split("\n")
       const nLines = next.split("\n")
       for (let i = 0; i < bLines.length; i++) {
-        if (bLines[i] !== nLines[i] && bLines[i].includes("CLAUDE.md")) {
+        if (bLines[i] !== nLines[i] && /(?:CLAUDE|OPERATING)\.md/.test(bLines[i])) {
           samples.push({ file: f.slice(BASE.length + 1), before: bLines[i].trim().slice(0, 130), after: nLines[i].trim().slice(0, 130) })
           break
         }
@@ -141,6 +168,6 @@ for (const s of samples) {
   console.log(`   + ${s.after}`)
 }
 if (residualBare.length) {
-  console.log(`\n  ⚠ ${residualBare.length} page(s) still contain "CLAUDE.md" after strip (needs a manual look):`)
+  console.log(`\n  ⚠ ${residualBare.length} page(s) still contain "CLAUDE.md"/"OPERATING.md" after strip (needs a manual look):`)
   for (const r of residualBare.slice(0, 10)) console.log(`     ${r}`)
 }

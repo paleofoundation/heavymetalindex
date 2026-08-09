@@ -28,7 +28,7 @@ This page is a Step 0 lock scaffold for Cat 4 Row 6. Literature evidence will be
 
 ## Who this page is for
 
-Brand legal teams evaluating HMTc Cat 4 certification for the Non-Root Vegetables row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Non-Root Vegetables row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 ## Methodology
 
@@ -43,7 +43,7 @@ Cat 4 lock empirical basis: Pass 2 occurrence-data extraction from the heavymeta
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-root vegetable product. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-root vegetable product. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -83,7 +83,7 @@ The Cat 4 Step 0 lock framework distinguishes lower-contamination row produce/se
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc Cat 4 thresholds for this row lives on the staff Standards Workbench (`data/workbench/standards/non-root-vegetables.md`, to be generated). This public page reports literature evidence; the workbench applies the Cat 4 methodology (which includes the literature evidence occurrence-data-driven derivation and below-LOQ regulatory-floor fallback per the Step 0 lock) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

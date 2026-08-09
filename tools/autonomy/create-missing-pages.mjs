@@ -202,7 +202,7 @@ created_routed_sources: ${entry.count}
 
 # ${title}
 
-This page is an autonomy-created stub. The routing audit identified ${entry.count} source pages in the corpus declaring \`ingredients: [${slug}]\` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 fills in the contamination profile as sources accumulate.
+This page is an autonomy-created stub. The routing audit identified ${entry.count} source pages in the corpus declaring \`ingredients: [${slug}]\` in their frontmatter without a dedicated page existing, so the autonomy loop created this stub to give those sources a defined routing target. The synthesis pass fills in the contamination profile as sources accumulate.
 
 ## Heavy metal contamination profile
 
@@ -256,7 +256,7 @@ provisional_created: ${today}
 provisional_reason: "autonomy loop: ${entry.count} source(s) declared products:[${slug}] with no existing page"
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
-governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, contamination-platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
+governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
 ---
 
 # ${title}
@@ -265,11 +265,11 @@ governance_status: "Provisional scaffold. Sources route here; HMTc category, wit
 
 ## Who this page is for
 
-This stub will be developed for the brand-legal, retailer-compliance, HMTc-internal, and regulator audiences per OPERATING.md Part 2. Until evidence is synthesized, the page exists primarily as a routing target so the corpus's references to this product category resolve to a defined location.
+This stub will be developed for the brand-legal, retailer-compliance, and regulator audiences. Until evidence is synthesized, the page exists primarily as a routing target so the corpus's references to this product category resolve to a defined location.
 
 ## Methodology
 
-This page will report literature evidence per CLAUDE.md Part 6's product-category-page template. Speciation is non-substitutable (iAs vs tAs, Cr-VI vs total Cr, MeHg vs tHg); basis is preserved and labeled; non-detect handling follows the source's own convention; pooling avoided across LOQ, period, geography, and analytical-basis differences. Percentile-selection arithmetic does not appear on this public page (CLAUDE.md Part 2 firewall); it lives on the staff Standards Workbench.
+This page will report literature evidence per CLAUDE.md Part 6's product-category-page template. Speciation is non-substitutable (iAs vs tAs, Cr-VI vs total Cr, MeHg vs tHg); basis is preserved and labeled; non-detect handling follows the source's own convention; pooling avoided across LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 
@@ -299,7 +299,7 @@ _Pending: populated by the synthesis pass when ingredient-level mitigation evide
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds lives in \`data/workbench/standards/${slug}.md\` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology in CLAUDE.md Part 19 to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

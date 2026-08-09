@@ -64,7 +64,7 @@ Powdered soy formula evidence stays powder-basis unless a source reports prepare
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in powder infant formula. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in powder infant formula. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -106,7 +106,7 @@ The current evidence supports soy-specific finished-powder testing rather than e
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

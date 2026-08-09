@@ -33,7 +33,7 @@ created_routed_sources: 2
 
 ## Overview
 
-This page is an autonomy-created stub. The routing audit identified 2 source pages in the corpus declaring `ingredients: [cereal]` in their frontmatter without a dedicated page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass fills in the contamination profile as sources accumulate.
+This page is an autonomy-created stub. The routing audit identified 2 source pages in the corpus declaring `ingredients: [cereal]` in their frontmatter without a dedicated page existing. The autonomy loop created this stub so those sources route to a defined target. The synthesis pass fills in the contamination profile as sources accumulate.
 
 ## Heavy metal contamination profile
 

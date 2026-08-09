@@ -31,7 +31,7 @@ This is a Cat 2 (Children Personal Care) product-category page. It collects lite
 
 ## Who this page is for
 
-Brand legal teams evaluating Cat 2 certification for baby personal care lines need to know what the cited literature reports for Pb, Cd, and Hg in finished talcum products and what the regulatory caps are for cosmetic talc. Retailer compliance teams stocking infant care aisles need to confirm certified-brand assortment-list eligibility. Per OPERATING.md Part 7 initiative 3.1, the Cat 2 toxicology methodology supplement (non-ingestion exposure routes) is a prerequisite for defensible HMTc thresholds on this row; the page captures literature occurrence data while that supplement is in development.
+Brand legal teams evaluating HMT&C certification for baby personal care lines need to know what the cited literature reports for Pb, Cd, and Hg in finished talcum products and what the regulatory caps are for cosmetic talc. Retailer compliance teams stocking infant care aisles need to confirm certified-brand assortment-list eligibility. The non-ingestion exposure pathways relevant to talcum products are documented at [[health/cat-2-non-ingestion-exposure-pathways]]; this page captures the literature occurrence data.
 
 ## Methodology
 
@@ -44,7 +44,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in powder product. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in powder product. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -100,7 +100,7 @@ Magnitude evidence pending additional source ingest.
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds for baby talcum powder lives on the staff Standards Workbench (`data/workbench/standards/baby-talcum-powder.md`, to be generated). This public page reports literature evidence; the workbench applies the Cat 2 methodology (which includes the non-ingestion-exposure supplement per OPERATING.md Part 7 initiative 3.1 once that lands) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

@@ -120,13 +120,13 @@ const ROWS = [
   },
   {
     row: 15, slug: "peanut-butter", title: "Peanut Butter",
-    summary: "Peanut butter sold as creamy, crunchy, natural, conventional, or single-ingredient. Contaminated row of the Row 14 / Row 15 / Row 16 triplet: inherits the row 10 peanut platform (Al, Ni) from whole-peanut → ground-butter inheritance. Cross-row CC anchor: Step 1 defaults to the tighter of row 14 (other butters) or row 10 (whole peanuts) on a per-metal basis.",
+    summary: "Peanut butter sold as creamy, crunchy, natural, conventional, or single-ingredient. Contaminated row of the Row 14 / Row 15 / Row 16 triplet: inherits the row 10 peanut platform (Al, Ni) from whole-peanut → ground-butter inheritance.",
     primary_metals: ["Al", "Ni", "Pb"], variant_type: "contamination_platform",
     platform_metals: ["Al", "Ni"], pair: 14, pair_rows: [14],
   },
   {
     row: 16, slug: "sunflower-seed-butter", title: "Sunflower Seed Butter",
-    summary: "Sunflower seed butter sold as a peanut-free butter alternative (SunButter, plain sunflower seed butter, sweetened variants). Contaminated row of the Row 14 / Row 15 / Row 16 triplet: inherits the row 13 sunflower platform (Cd) from whole-seed → ground-butter inheritance. Cross-row CC anchor: Step 1 defaults to the tighter of row 14 (other butters) or row 13 (whole sunflower seeds) on a per-metal basis.",
+    summary: "Sunflower seed butter sold as a peanut-free butter alternative (SunButter, plain sunflower seed butter, sweetened variants). Contaminated row of the Row 14 / Row 15 / Row 16 triplet: inherits the row 13 sunflower platform (Cd) from whole-seed → ground-butter inheritance.",
     primary_metals: ["Cd", "Pb"], variant_type: "contamination_platform",
     platform_metals: ["Cd"], pair: 14, pair_rows: [14],
   },
@@ -183,7 +183,7 @@ function pairRelationshipSection(row) {
   }
   if (row.variant_type === "contamination_platform") {
     const pairTxt = pairLabel(row.pair_rows)
-    return `## Pair relationship + platform attribution\n\nThis is the contaminated row of a Cat 4 clean-contaminated split. The clean counterpart is ${pairTxt}. The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **${row.platform_metals.join(", ")}**. Cross-row platform coordination per the Cat 4 Step 0 lock: the Standards Workbench's CC anchor for each platform is shared across all rows that share the platform, with per-row final limits diverging based on commercial-product variation.\n\n`
+    return `## Pair relationship + platform attribution\n\nThis is the contaminated row of a Cat 4 clean-contaminated split. The clean counterpart is ${pairTxt}. The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **${row.platform_metals.join(", ")}**. Certification threshold decisions for this row and its clean counterpart are made separately under the certification program and are not published on this public page.\n\n`
   }
   return ""
 }
@@ -198,11 +198,11 @@ This page is a Step 0 lock scaffold for Cat 4 Row ${row.row}. Literature evidenc
 
 ## Who this page is for
 
-Brand legal teams evaluating HMTc Cat 4 certification for the ${row.title} row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view. HMTc internal staff use this page as the routing hub between this row's source evidence and the staff Standards Workbench's threshold-selection arithmetic (which lives in \`data/workbench/standards/\`, never on this public page).
+Brand legal teams evaluating HMT&C certification for the ${row.title} row need to know what the cited literature reports per panel metal, what the applicable regulatory caps are, and how this row relates to its clean-contaminated pair (when applicable). Retailer compliance teams stocking the produce, dried-goods, and snack aisles need the row-level assortment-eligibility view.
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in the ${row.title} row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-sold or as-consumed depending on the product form). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. The percentile-selection arithmetic that informs HMTc Cat 4 thresholds for this row lives on the staff Standards Workbench; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in the ${row.title} row. Speciation is non-substitutable per CLAUDE.md Part 14 (iAs vs tAs, MeHg vs tHg, Cr-VI vs total Cr). Basis is preserved (as-sold or as-consumed depending on the product form). Non-detect handling follows each source's convention. Pooling avoided across LOD/LOQ, period, geography, and analytical-basis differences. HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 Cat 4 lock empirical basis: Pass 2 occurrence-data extraction from the heavymetalindex.com wiki corpus (build claude/zealous-bhabha-d422c9, 896 source pages). The Step 0 lock document at \`Category4_Step_0_Output_LOCKED.md\` records the splitting decisions and platform attributions; this row inherits its scope from that document.
 
@@ -230,13 +230,13 @@ _Pending. Cat 4 regulatory landscape: Codex GSCTFF and EU Regulation 2023/915 se
 
 ## Levers to reduce contamination
 
-_Pending synthesis. Cat 4 levers per the Step 0 lock framework, ordered by impact magnitude:_
+_Pending synthesis. Levers to reduce contamination for this row, ordered by impact magnitude:_
 
 ${row.variant_type === "clean_benchmark" ? `1. **Maintain the clean-baseline commodity choice.** The Row ${row.row} clean baseline exists precisely because alternative commodities (without the platform load) are commercially available within the same product class. Brands certifying this row commit to NOT using the contaminated variant's ingredient class as a substitute.\n2. **Sourcing-level controls**: origin region, soil-Cd or paddy-iAs pre-screening, supplier specification.\n3. **Agronomic levers**: soil amendments, water management, cultivar selection.\n4. **Processing levers** where applicable: washing, peeling, blanching for fresh-cut and frozen formats.\n5. **Testing/QC levers**: lot-level ICP-MS on raw commodity and finished product.` : row.variant_type === "contamination_platform" ? `1. **Sourcing levers** (highest impact): supplier and origin-region selection for the platform commodity. Within-species variance by origin region is documented in the literature; pre-screened low-impurity supply is commercially available.\n2. **Agronomic levers**: soil amendments (Cd accumulation in spinach/sunflower is reducible via soil-pH and silicon-amendment interventions documented in phytoremediation literature; geocarpic Al uptake in peanuts responds to soil-Al management).\n3. **Cultivar/varietal selection**: where within-species variance is documented, low-accumulating cultivars are commercially viable.\n4. **Processing levers** where applicable: rinsing, hulling, blanching may reduce surface-bound metal load on whole-seed/whole-bean formats; refining-grade differences for butter formats.\n5. **Formulation levers**: reduce the platform-commodity fraction of multi-ingredient products where function permits.\n6. **Testing/QC levers**: lot-level ICP-MS on raw commodity and finished product. Cat 4 supply chains routinely COA at the µg/kg level for premium-spec commodity.\n7. **Regulatory levers** (not brand-controllable): supporting Codex and state-level fruit/vegetable Pb/Cd limits drives industry-wide tightening.` : `1. **Sourcing levers**: origin region, supplier specification, soil-Cd or paddy-iAs pre-screening for at-risk commodities.\n2. **Agronomic levers**: soil amendments, water management, cultivar selection.\n3. **Processing levers** where applicable: washing, peeling, blanching for fresh-cut and frozen formats; refining for derivative products.\n4. **Formulation levers**: where the row contains multi-ingredient formats, reducing the platform-commodity fraction.\n5. **Testing/QC levers**: lot-level ICP-MS on raw commodity and finished product.\n6. **Regulatory levers**.`}
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc Cat 4 thresholds for this row lives on the staff Standards Workbench (\`data/workbench/standards/${row.slug}.md\`, to be generated). This public page reports literature evidence; the workbench applies the Cat 4 methodology (which includes the Path A occurrence-data-driven derivation and Path B regulatory-floor fallback per the Step 0 lock) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this row; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

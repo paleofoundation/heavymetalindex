@@ -62,10 +62,6 @@ This page is a structural scaffold for HMTc Category 1 row 12. FDA compliance sa
  <dt>Regulators, journalists, and adversarial readers</dt>
  <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
  </div>
- <div>
- <dt>HMT&amp;C staff (internal)</dt>
- <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See.</dd>
- </div>
  </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
@@ -109,7 +105,7 @@ This is the fast comparison view for standards developers, regulators, retailers
 
 Public evidence label: **Modeled or limited evidence**.
 
-This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis; value-level tracking is maintained in the staff Standards Workbench.
+This page is part of the Category 1 Evidence Fitness pilot. It summarizes source-backed occurrence evidence, partial distributions, and data gaps for this product row. Existing cited tables remain public page-level synthesis.
 
 This page does not publish or justify HMT&C certification limits. Public Index pages show what the cited sources say, what is still uncertain, and where readers can verify the evidence trail.
 
@@ -118,7 +114,7 @@ This page does not publish or justify HMT&C certification limits. Public Index p
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-rice grain-based mixed meal. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-rice grain-based mixed meal. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -242,7 +238,7 @@ Cross-links: relevant ingredient pages where they exist.
 
 ## How standards math uses this page
 
-This page documents what the cited sources report. The row-standard percentile in the Heavy Metal Tested and Certified (HMT&C) staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review — it is not a decoration on any individual source row, and it is not published on this public page.
+This page documents what the cited sources report. The row-standard is an aggregate across all contributing sources after basis adjustment and row-fit review — not a decoration on any individual source row — and is set separately under the certification program, not published on this public page.
 
 Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture: the maximum observed in one study is not the same as a representative value across the full source pool. HMT&C certification threshold decisions are made separately under the certification program and are not published on this public page.
 

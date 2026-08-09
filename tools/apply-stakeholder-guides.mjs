@@ -307,10 +307,6 @@ function buildBlock(slug, frontmatter, family) {
       <dt>Regulators, journalists, and adversarial readers</dt>
       <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
     </div>
-    <div>
-      <dt>HMT&amp;C staff (internal)</dt>
-      <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See CLAUDE.md Part 19.</dd>
-    </div>
   </dl>
 </div>
 ${endMarker}`

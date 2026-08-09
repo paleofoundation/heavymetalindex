@@ -32,7 +32,7 @@ updated: 2026-06-02
 
 ## Overview
 
-Step 0 scope-locked row for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 5. Created to give the broad `breakfast-cereals` declarations a routable destination (Check 3 backlog resolution). Scope locked (`variant_type: independent`); per-analyte threshold numbers come from the staff Standards Workbench.
+Step 0 scope-locked row for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 5. Created to give the broad `breakfast-cereals` declarations a routable destination (Check 3 backlog resolution). Scope locked (`variant_type: independent`).
 
 ## Literature scope
 
@@ -40,7 +40,7 @@ Routable destination for source pages declaring `products: [breakfast-cereal-non
 
 ## Methodology
 
-Reports what cited sources say about heavy-metal concentrations in this row. Basis preserved; percentile arithmetic stays on the staff Standards Workbench.
+Reports what cited sources say about heavy-metal concentrations in this row. Basis preserved.
 
 ## Literature Evidence Summary
 
@@ -49,7 +49,7 @@ Reports what cited sources say about heavy-metal concentrations in this row. Bas
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-rice grain-based product. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in non-rice grain-based product. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 

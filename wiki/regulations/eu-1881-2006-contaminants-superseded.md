@@ -120,7 +120,7 @@ For HMT&C-facing material, prefer citing the current successor framework [[regul
 
 ## How standards math uses this page
 
-The values on this page are operative EU enforceable thresholds during the regulation's lifetime (2007-2023). They are used by the HMTc workbench as the regulatory-cap floor in `final = min(literature-baseline-percentile, regulatory-cap)` calculations for any product category whose contributing source evidence pre-dates May 2023 and cites EC 1881/2006. Post-May-2023 evidence should use the successor framework citations.
+The values on this page are operative EU enforceable thresholds during the regulation's lifetime (2007-2023). They are the operative regulatory-cap floor for any product category whose contributing source evidence pre-dates May 2023 and cites EC 1881/2006; certification thresholds are set separately under the certification program. Post-May-2023 evidence should use the successor framework citations.
 
 ## Sources
 

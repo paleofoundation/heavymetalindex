@@ -48,10 +48,6 @@ This page is HMTc Category 5 row 8 from the locked beverage architecture. It exi
  <dt>Regulators, journalists, and adversarial readers</dt>
  <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
  </div>
- <div>
- <dt>HMT&amp;C staff (internal)</dt>
- <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See.</dd>
- </div>
  </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
@@ -68,7 +64,6 @@ The Heavy Metal Index source corpus is currently focused on food and food-contac
 | Category hub | [[products/category-5-beverages]] |
 | Crosswalk hub | [[products/regulatory-crosswalk-field-findings]] |
 | HMTc use | Routing and evidence-gap tracking only; not a certification threshold |
-
 
 <!-- BEGIN: hmi-product-crosswalk -->
 ## Federal / Regulatory Limits vs Field Findings
@@ -92,7 +87,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Flavored waters. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Flavored waters. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -143,7 +138,7 @@ The highest-control levers are finished-product testing for lead against the bot
 
 ## How standards math uses this page
 
-_The percentile arithmetic that informs HMTc thresholds for this product category lives on the staff Standards Workbench (`data/workbench/standards/<this-slug>.md`). This public page reports literature evidence; the workbench applies the methodology. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden._
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

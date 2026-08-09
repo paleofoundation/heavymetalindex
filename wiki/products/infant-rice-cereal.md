@@ -18,7 +18,7 @@ provisional_created: 2026-05-20
 provisional_reason: "autonomy loop: 2 source(s) declared products:[infant-rice-cereal] with no existing page"
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
-governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, contamination-platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
+governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
 ---
 
 # Infant Rice Cereal
@@ -27,11 +27,11 @@ governance_status: "Provisional scaffold. Sources route here; HMTc category, wit
 
 ## Who this page is for
 
-This page is for brand legal, retailer-compliance, regulator, and HMTc staff readers who need the current literature record for Infant Rice Cereal. It is a public evidence surface, not a certification-threshold table. Brand and retailer readers should use it to see which cited sources actually support this product row, while HMTc staff should use it to keep row fit, market, basis, and analyte species visible before any standards-workbench use.
+This page is for brand legal, retailer-compliance, and regulator readers who need the current literature record for Infant Rice Cereal. It is a public evidence surface, not a certification-threshold table. Readers should use it to see which cited sources actually support this product row and to keep row fit, market, basis, and analyte species visible.
 
 ## Methodology
 
-This page follows the Part 6 product-page rules: values stay in the source-reported basis, non-detect handling follows the source, and analyte species are not substituted. Infant and child evidence is kept separate from general-population evidence when age band or product form affects exposure. Produce and food evidence is kept jurisdiction- and market-aware, with fresh, dried, canned, infused, or processed forms separated when basis changes. Public wiki prose summarizes the literature; percentile math and HMTc candidate limits remain in the staff workbench.
+This page follows the Part 6 product-page rules: values stay in the source-reported basis, non-detect handling follows the source, and analyte species are not substituted. Infant and child evidence is kept separate from general-population evidence when age band or product form affects exposure. Produce and food evidence is kept jurisdiction- and market-aware, with fresh, dried, canned, infused, or processed forms separated when basis changes. This page reports the literature; certification thresholds are set separately under the certification program, not on this page.
 
 ## Literature Evidence Summary
 
@@ -40,7 +40,7 @@ This page follows the Part 6 product-page rules: values stay in the source-repor
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Infant Rice Cereal. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Infant Rice Cereal. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -80,7 +80,7 @@ The practical control levers for Infant Rice Cereal start with product identity 
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc thresholds lives in `data/workbench/standards/infant-rice-cereal.md` (the staff snapshot). This public page reports literature evidence; the staff workbench applies the methodology to produce candidate threshold values. The gap between literature-baseline and HMTc threshold is named honestly on the workbench, not hidden.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

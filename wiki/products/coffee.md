@@ -49,10 +49,6 @@ This page is HMTc Category 5 row 13 from the locked beverage architecture. It ex
  <dt>Regulators, journalists, and adversarial readers</dt>
  <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
  </div>
- <div>
- <dt>HMT&amp;C staff (internal)</dt>
- <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See.</dd>
- </div>
  </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
@@ -106,7 +102,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Coffee. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Coffee. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -157,7 +153,7 @@ Heavy-metal concentrations in roasted coffee are driven by soil-to-plant uptake 
 
 ## How standards math uses this page
 
-This page documents what the cited sources report. The row-standard percentile in the HMT&C staff workbench is derived from the aggregate across all contributing sources after basis adjustment and row-fit review; it is not a decoration on any individual source row and is not published on this public page.
+This page documents what the cited sources report. The row-standard is an aggregate across all contributing sources after basis adjustment and row-fit review — not a decoration on any individual source row — and is set separately under the certification program, not published on this public page.
 
 Citing this page at a single source's maximum value as if it were a threshold justification misreads the evidence architecture. The current evidence base for this row is a single study with n=8 samples; a single-sample range cannot stand in for a representative distribution across the full source pool. HMT&C certification threshold decisions are made separately under the certification program and are not published on this public page.
 
