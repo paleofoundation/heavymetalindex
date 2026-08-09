@@ -7,11 +7,11 @@ category: starchy-root
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 20]
+    p95_ppb: 30
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [15, 34]
@@ -28,11 +28,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 48]
@@ -49,11 +49,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 35]
+    p95_ppb: 60
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 20]
@@ -97,16 +97,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=11 | 0 | high | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
+| Pb | n=4 | 0–20 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rempelos2023-vegetable-organic-conventional-metals\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|4]] |
 | Cd | n=17 | 15–34 | high | [[sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
 | iAs | n=4 | 2–15 | low | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
 | tAs | n=9 | 0 | medium | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|3]] |
-| tHg | n=5 | 0 | medium | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|1]], [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
 | Ni | n=8 | 0–48 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]] |
 | Al | n=5 | 200–1000 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| Cr | n=9 | 0 | medium | [[sources/samma2024-bangladesh-vegetable-metals\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/romero-crespo2023-ecuador-mining-crops-metals\|3]] |
+| Cr | n=3 | 0–35 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
 | Sn | n=3 | 0–20 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study reported lead below its 4 ppb reporting limit and total mercury below its 1 ppb reporting limit in all 27 peeled-boiled-potato composites, and total chromium below its 50 ppb reporting limit in 26 of 27 composites with a single composite at 63 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The former lead profile of [0,0] carried high confidence, which made the measured-zero coding especially indefensible. Lower-limit A-tier data clearly detect potato-tuber lead: the UK Nafferton trials reported 14 to 31 ppb fresh weight ([[sources/rempelos2023-vegetable-organic-conventional-metals|Rempelos et al. 2023]]) and the German BfR MEAL vegetable group about 14 ppb ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Fechner et al. 2022]]), while the New Zealand survey found Solanum lead below the detection limit ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]).
+
+The synthesized central ranges are lead 0 to 20 ppb (p95 30), total mercury 0 to 1 ppb (p95 2), and total chromium 0 to 35 ppb (p95 60), on a peeled-boiled as-consumed fresh-weight basis. Lead is set at medium confidence because the detected UK and German values and the censored US and NZ non-detects agree on a low but non-zero band. The single FDA chromium composite at 63 ppb sits just above the reporting limit and is reflected in the tail; the Jiaozuo survey confirms real sub-limit chromium at a mean of 32 ppb fresh weight ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]). Mining-adjacent and wastewater surveys are tail context only.
 
 ## Why this commodity accumulates cadmium
 

@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 5]
+    p95_ppb: 15
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [0.6, 6.7]
@@ -33,25 +33,25 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3]
+    p95_ppb: 5
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 30]
+    p95_ppb: 40
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 30]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [50, 400]
@@ -106,16 +106,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=11 | 0 | high | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
+| Pb | n=4 | 0–5 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|4]] |
 | Cd | n=9 | 0.6–6.7 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|2]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=4 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|3]] |
-| Ni | n=7 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/salem2024-tomato-remediated-soil-egypt\|3]] |
+| tAs | n=3 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|3]] |
+| Ni | n=3 | 0–30 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=7 | 0 | medium | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|1]], [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|2]], [[sources/samma2024-bangladesh-vegetable-metals\|3]] |
+| Cr | n=3 | 0–30 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Sn | n=3 | 50–400 | medium | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|1]], [[sources/kangre2024-canned-tomato-pb-sn-ghana\|2]], [[sources/muniz2018-tomato-sauce-packaging-metals\|3]] |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study reported every flagged analyte below its reporting limit in all 27 raw-tomato composites: lead below 4 ppb, total arsenic below 3 ppb, total mercury below 1 ppb, nickel below 40 ppb, and total chromium below 50 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). These non-detects were coded as zeros and are corrected here to left-censored bounds. Tomato fruit is a low accumulator: a Spanish greenhouse trial found lead, total arsenic, nickel, and total chromium all below the limit of quantification in tomato fruit even under seaweed biofertilizer amendment ([[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements|Rodriguez-Rodriguez et al. 2026]]), the Jiaozuo survey placed solanaceous fruits at the low end of the vegetable distribution ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]), and the New Zealand survey found Solanum lead and mercury below the detection limit ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]).
+
+The synthesized central ranges are lead 0 to 5 ppb (p95 15), total arsenic 0 to 3 ppb (p95 5), total mercury 0 to 1 ppb (p95 2), nickel 0 to 30 ppb (p95 40), and total chromium 0 to 30 ppb (p95 50), all fresh weight. Lead carries medium confidence because four datasets agree on a near-zero value; the other analytes stay low because their commercial evidence is largely censored. The Tehran supermarket survey reported markedly higher tomato lead of 79 to 241 ppb, nickel of 161 to 232 ppb, and chromium of 234 to 412 ppb fresh weight ([[sources/alimohammadi2018-tehran-supermarket-vegetables|Alimohammadi et al. 2018]]), and coal-plant-adjacent mercury appears in hotspot surveys; both are treated as elevated right-tail context and are excluded from the central estimates.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

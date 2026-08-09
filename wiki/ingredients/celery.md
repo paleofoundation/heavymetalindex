@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 6]
+    p95_ppb: 15
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [20, 59.4]
@@ -106,7 +106,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Pb | n=3 | 0–6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Cd | n=3 | 20–59.4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]], [[sources/codex-cxs-193-1995\|3]] |
 | iAs | n=2 | 0–2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
 | tAs | n=2 | 0–3.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
@@ -116,6 +116,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|2]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study reported lead below its 4 ppb reporting limit in all 27 raw-celery composites ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The former [0,0] value was a left-censored non-detect rather than a measured zero and is corrected here. The New Zealand survey measured the Apium genus, which includes celery, and found lead below the detection limit in most composites ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]), while the Jiaozuo Chinese-market survey reported a vegetable-group lead mean of 0.013 mg/kg (13 ppb) fresh weight ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]).
+
+The synthesized central range for celery lead is 0 to 6 ppb with a 95th percentile of 15 ppb on a fresh-weight basis. Celery is a high-transpiration stalk vegetable and draws divalent cations more readily than fruiting vegetables, which supports retaining a small non-zero central band above the reporting-limit floor rather than collapsing the estimate to zero. Elevated values from contaminated-irrigation or hotspot sourcing are treated as right-tail context and are excluded from the central estimate.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

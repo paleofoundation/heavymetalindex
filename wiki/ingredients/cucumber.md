@@ -8,11 +8,11 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 5]
+    p95_ppb: 15
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [0, 2.4]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 20]
+    p95_ppb: 50
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 10.1]
@@ -104,16 +104,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Pb | n=3 | 0–5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/mohammadi2025-iran-carrot-cucumber-metals\|3]] |
 | Cd | n=3 | 0–2.4 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | iAs | n=1 | 0.5–680.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=2 | 3.6–20 | low | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Ni | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | n=1 | 0–703 | low | — |
-| Cr | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=3 | 0–20 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/mohammadi2025-iran-carrot-cucumber-metals\|3]] |
 | Sn | n=1 | 0–10.1 | low | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study reported lead below its 4 ppb reporting limit, total mercury below its 1 ppb reporting limit, and total chromium below its 50 ppb reporting limit in all 27 peeled-cucumber composites ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). These were previously coded as zeros and are treated here as left-censored at the reporting limit. Cucumber is roughly 96 percent water, which dilutes intrinsic metals, and the New Zealand survey found Cucumis lead and mercury below the detection limit ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]). The Jiaozuo survey detected low-level vegetable chromium below the FDA reporting limit at a mean of 32 ppb fresh weight ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]).
+
+The synthesized central ranges are lead 0 to 5 ppb (p95 15), total mercury 0 to 1 ppb (p95 2), and total chromium 0 to 20 ppb (p95 50), all fresh weight. The Iranian Fars Province market survey reported cucumber lead at a mean of 0.075 mg/kg (75 ppb) and total chromium at 0.175 mg/kg (175 ppb) fresh weight after a stated dry-to-fresh conversion ([[sources/mohammadi2025-iran-carrot-cucumber-metals|Mohammadi et al. 2025]]); these non-US-market values sit in the elevated right tail and are not treated as the central value. Coal-plant-adjacent mercury from hotspot surveys is likewise tail context only.
 
 ## Routing
 

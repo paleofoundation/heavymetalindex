@@ -8,11 +8,11 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 12]
+    p95_ppb: 20
     confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [2.9, 13.8]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 58.6]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 25]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=9 | 0 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Pb | n=4 | 0–12 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/rempelos2023-vegetable-organic-conventional-metals\|2]], [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|3]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|4]] |
 | Cd | n=7 | 2.9–13.8 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/abdolahpour2023-heavy-metals-babol-vegetables\|3]] |
 | iAs | data gap | — | — | — |
 | tAs | n=4 | 0–8.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/adhikari2024-leafy-vegetables-johannesburg\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Ni | n=6 | 0–58.6 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=6 | 0 | medium | [[sources/rossini-oliva2024-urban-garden-vegetables-spain\|1]], [[sources/owusuadoma2024-ghana-lettuce-metals\|2]], [[sources/adhikari2024-leafy-vegetables-johannesburg\|3]] |
+| Cr | n=3 | 0–25 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study reported lead below its 4 ppb reporting limit in 26 of 27 raw-onion composites with a single detection at 7.4 ppb, and total mercury and total chromium below their 1 ppb and 50 ppb reporting limits in all 27 composites ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The former [0,0] lead value was a left-censored non-detect. Cleaner low-limit datasets do detect onion lead: the long-term UK Nafferton field trials reported onion-bulb lead of 13.4 to 14.5 ppb fresh weight ([[sources/rempelos2023-vegetable-organic-conventional-metals|Rempelos et al. 2023]]), and the German BfR MEAL total diet study reported a vegetable-group lead mean near 14 ppb against a 2 ppb quantification limit ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|Fechner et al. 2022]]). The New Zealand survey found allium lead below the detection limit ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]).
+
+The synthesized central ranges are lead 0 to 12 ppb (p95 20), total mercury 0 to 1 ppb (p95 2), and total chromium 0 to 25 ppb (p95 50), all fresh weight. Lead is set at medium confidence because four consistent commercial fresh-weight datasets bracket a low but non-zero value. Total mercury is a fully censored bound. Total chromium reflects the sub-limit detections in the Jiaozuo survey ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]) that the 50 ppb FDA reporting limit cannot resolve. Elevated hotspot values are excluded from the central estimate.
 
 ## Routing
 

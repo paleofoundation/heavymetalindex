@@ -8,11 +8,11 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 8]
+    p95_ppb: 20
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [6.7, 27.6]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 130]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 40]
+    p95_ppb: 60
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
+| Pb | n=3 | 0–8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
 | Cd | n=3 | 6.7–27.6 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/codex-cxs-193-1995\|3]] |
 | iAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|2]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|3]] |
 | Ni | n=3 | 0–130 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/chiutula2025-wastewater-vegetables-malawi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Cr | n=3 | 0–40 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–1.7 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study FY2018 to FY2020 reported lead below its 4 ppb reporting limit in all 27 boiled-broccoli composites, total mercury below its 1 ppb reporting limit in all 27, and total chromium below its 50 ppb reporting limit in 26 of 27 composites with a single composite at 300 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). These non-detects were previously coded as literal zeros and pooled, which understated occurrence and produced an indefensible measured-zero profile. They are treated here as left-censored at the reporting limit. Lead and chromium are not absent from the wider fresh-weight literature: the Jiaozuo Chinese-market survey detected vegetable lead at a mean of 0.013 mg/kg (13 ppb) and total chromium at a mean of 0.032 mg/kg (32 ppb) fresh weight, both below the FDA reporting limits ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]), while the New Zealand market-garden survey found brassica lead below the detection limit in most composites and chromium detectable in only 4 of 153 samples ([[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Dearing et al. 2025]]).
+
+The synthesized central ranges are lead 0 to 8 ppb (p95 20), total mercury 0 to 1 ppb (p95 2), and total chromium 0 to 40 ppb (p95 60), all fresh weight. Total mercury is retained as a fully censored bound because every commercial fresh-weight dataset places it at or below the reporting limit. The single FDA chromium composite at 300 ppb is reflected in the tail rather than the center, consistent with a lone high market-basket sample. Wastewater-irrigation and mining-adjacent surveys report higher brassica lead and cadmium but are treated as elevated right-tail context and do not drive these central estimates.
 
 ## Routing
 
