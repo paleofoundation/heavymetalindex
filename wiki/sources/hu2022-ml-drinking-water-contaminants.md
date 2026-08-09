@@ -6,7 +6,7 @@ title: "Using Machine Learning Models to Predict Hydrocarbon and Chemical Contam
 authors: [Hu Y, Danaher S, Downey G, Elliott C]
 year: 2022
 publication: "Current Environmental Health Reports"
-doi: 10.1007/s40572-022-00390-2
+doi: "10.1007/s40572-022-00389-x"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

@@ -6,7 +6,7 @@ title: "Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Ca
 authors: [Fuentes-Lopez Katerin, Olivero-Verbel Jesus, Caballero-Gallardo Karina]
 year: 2025
 publication: "Archives of Environmental Contamination and Toxicology"
-doi: 10.1007/s00244-025-01116-5
+doi: "10.1007/s00244-025-01117-w"
 access_url: https://doi.org/10.1007/s00244-025-01116-5
 source_type: peer-reviewed
 evidence_tier: A

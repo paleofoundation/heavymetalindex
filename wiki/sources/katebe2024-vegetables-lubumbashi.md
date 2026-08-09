@@ -6,7 +6,7 @@ title: "Application of soil amendments to reduce the transfer of trace metal ele
 authors: [Katebe FM, Colinet G, Kyalamakasa JMK, Mubemba MM, Jijakli MH]
 year: 2024
 publication: "Environmental Science and Pollution Research"
-doi: 10.1007/s11356-024-34806-z
+doi: "10.1007/s10661-024-13029-8"
 access_url: https://doi.org/10.1007/s11356-024-34806-z
 source_type: peer-reviewed
 evidence_tier: A

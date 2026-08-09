@@ -6,7 +6,7 @@ title: "AGNH Protects Against Cinnabar and Realgar-Induced Hepatorenal Toxicity 
 authors: [Wang X, Zhang R, Ma X, Chen L, Meng H, Xu Q]
 year: 2021
 publication: "Frontiers in Pharmacology"
-doi: 10.3389/fphar.2021.647694
+doi: "10.1155/2021/5566078"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"

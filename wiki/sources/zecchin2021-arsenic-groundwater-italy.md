@@ -6,7 +6,7 @@ title: "Arsenic-Oxidizing Bacteria in Arsenic-Contaminated Groundwaters of Po Pl
 authors: [Zecchin S, Cavalca L, Ferrario C, Viti C, Tredici SM, Manara S, Mapelli F, Daffonchio D, Borin S]
 year: 2021
 publication: "Frontiers in Microbiology"
-doi: 10.3389/fmicb.2021.664548
+doi: "10.3389/fmicb.2021.634025"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

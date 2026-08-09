@@ -5,7 +5,7 @@ title: "Environmental Toxicology: Children at Risk"
 authors: ["Maria J. Carroquino", "Manuel Posada", "Philip J. Landrigan"]
 year: 2013
 publication: "Encyclopedia of Sustainability Science and Technology, Chapter 11 (Springer)"
-doi: "10.1007/978-1-4419-0851-3_11"
+doi: "10.1007/978-1-4614-5764-0_11"
 source_type: peer-reviewed
 evidence_tier: A
 license: springer

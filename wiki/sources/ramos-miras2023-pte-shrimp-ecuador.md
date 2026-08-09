@@ -6,7 +6,7 @@ title: "Potentially toxic element bioaccumulation in consumed indoor shrimp farm
 authors: [Ramos-Miras JJ, Sanchez-Muros MJ, Renteria P, Gil de Carrasco C, Roca-Perez L, Boluda-Navarro M, Pro J, Rodriguez Martin JA]
 year: 2023
 publication: "Environmental Science and Pollution Research"
-doi: 10.1007/s11356-023-30748-y
+doi: "10.1007/s11356-023-30939-1"
 access_url: "https://doi.org/10.1007/s11356-023-30748-y"
 no_doi_assigned: false
 source_type: peer-reviewed

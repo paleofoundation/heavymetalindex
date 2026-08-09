@@ -6,7 +6,7 @@ title: "Mercury Poisoning in Lactating Women and Infants in the Gangetic Plain, 
 authors: [Kumar A, Agarwal N, Kumar K, Chayal M, Kumar G, Kumar R, Ali A, Srivastava P, Aryal KR, Pandey R, Verma R, Kumar D, Gajbhiye SK, Dhingra P, Pothuraju R, Peraman R, Bishwapriya P, Nandan D, Sharma A, Singh R, Ghosh D]
 year: 2025
 publication: "BMC Public Health 25(1)"
-doi: 10.1186/s12889-024-20709-8
+doi: "10.1186/s12889-025-22336-9"
 access_url: https://doi.org/10.1186/s12889-024-20709-8
 source_type: peer-reviewed
 evidence_tier: A

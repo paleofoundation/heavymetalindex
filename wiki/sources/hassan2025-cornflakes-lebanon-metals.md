@@ -6,7 +6,7 @@ title: "Cornflakes as a source of dietary metal exposure in Lebanon: Risk assess
 authors: [Hassan H, Abdallah M, Khalil N, Sleiman M]
 year: 2025
 publication: "RSC Advances"
-doi: 10.1039/d5ra03210k
+doi: "10.1039/d5ra05243b"
 access_url: https://doi.org/10.1039/d5ra03210k
 source_type: peer-reviewed
 evidence_tier: A

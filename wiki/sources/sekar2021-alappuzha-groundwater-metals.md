@@ -6,7 +6,7 @@ title: "Evaluation of heavy metal contamination in coastal aquifer groundwater o
 authors: [Selvam S, Muthukumar P, Priya KL, Sundaralingam K, Bhavanam S, Senapathi V]
 year: 2021
 publication: "Scientific Reports"
-doi: 10.1038/s41598-021-00149-z
+doi: "10.1038/s41598-026-37477-z"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

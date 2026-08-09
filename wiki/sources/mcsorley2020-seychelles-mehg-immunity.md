@@ -6,7 +6,7 @@ title: "Methylmercury and long chain polyunsaturated fatty acids are associated 
 authors: [McSorley EM, Bonham MP, Mulhern MS, Revuelta Iniesta R, van Wijngaarden E, Yeates AJ, Davidson PW, Myers GJ, Strain JJ]
 year: 2020
 publication: "Environmental Research"
-doi: 10.1016/j.envres.2020.109072
+doi: "10.1016/j.envres.2019.109072"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

@@ -6,7 +6,7 @@ title: "Exposure to total and methylmercury among pregnant women in Suriname: so
 authors: [Wickliffe JK, Lichtveld MY, Roze E, Shafer MM, Engström K, Abdelnaby AE, van Wijnen JH, Brand AW, Essed EN, Landburg G, Zijlmans W, Ouboter P, de Dooijer MC, Rijssel EO, Bouwman H, Bodegom PM, Brouwer A, van Veen HA]
 year: 2021
 publication: "Journal of Exposure Science and Environmental Epidemiology"
-doi: 10.1038/s41370-020-00258-9
+doi: "10.1038/s41370-020-0233-3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

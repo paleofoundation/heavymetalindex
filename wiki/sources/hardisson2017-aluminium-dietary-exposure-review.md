@@ -6,7 +6,7 @@ title: "Aluminium Exposure Through the Diet"
 authors: [Hardisson A, Revert C, González-Weller D, Gutiérrez A, Paz S, Rubio C]
 year: 2017
 publication: "HSOA Journal of Food Science and Nutrition"
-doi: 10.24966/FSN-0176/100020
+doi: "10.24966/fsn-1076/100020"
 access_url: "https://doi.org/10.24966/FSN-0176/100020"
 source_type: review
 evidence_tier: B

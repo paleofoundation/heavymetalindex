@@ -6,7 +6,7 @@ title: "Ameliorative effects of selenized yeast on laying hen performance and he
 authors: [Wu et al.]
 year: 2022
 publication: "Frontiers in Veterinary Science"
-doi: 10.3389/fvets.2022.946884
+doi: "10.3389/fvets.2022.958056"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

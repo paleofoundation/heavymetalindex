@@ -6,7 +6,7 @@ title: "Stable isotopes unveil ocean transport of legacy mercury into Arctic foo
 authors: [Dietz R, Søndergaard J, Rigét FF, Bach L, Basu N, Fort J, Futsaeter G, Galatius A, Garbus SE, Gustavson K, Kalia V, Kirk JL, Larsen MM, Letcher RJ, Lippold A, Madsen J, McKinney MA, Sonne C, Stroh E, Styrishave B]
 year: 2025
 publication: "Nature Communications"
-doi: 10.1038/s41467-025-59785-5
+doi: "10.1038/s41467-025-60356-6"
 access_url: https://doi.org/10.1038/s41467-025-59785-5
 source_type: peer-reviewed
 evidence_tier: A

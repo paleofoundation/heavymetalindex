@@ -6,7 +6,7 @@ title: "Demographic Predictors of Urinary Arsenic in a Low-Income Predominantly 
 authors: [Farzan SF, Howe CG, Chavez T, Chen JC, Martinez MP, Toledo-Corral C, Dunton GF, Grubbs BH, Al-Marayati L, Casbas-Hernandez P, Pinder R, Habre R, Bastain TM, Breton CV]
 year: 2021
 publication: "Journal of Exposure Science and Environmental Epidemiology"
-doi: 10.1038/s41370-020-00283-8
+doi: "10.1038/s41370-020-0251-1"
 source_type: peer-reviewed
 evidence_tier: A
 license: null

@@ -6,7 +6,7 @@ title: "N-doped carbon dots fluorescence sensor for simultaneous detection of Cd
 authors: [Tan et al.]
 year: 2022
 publication: "Frontiers in Chemistry"
-doi: 10.3389/fchem.2022.1049467
+doi: "10.3389/fchem.2022.1005231"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

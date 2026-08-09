@@ -5,7 +5,7 @@ title: "Ground Turmeric as a Source of Lead Exposure in the United States"
 authors: [Lech FA, Brown S, Karagas MR, Matte TD]
 year: 2020
 publication: "Environmental Health Perspectives"
-doi: 10.1289/EHP5561
+doi: "10.1177/0033354917700109"
 access_url: "https://doi.org/10.1289/EHP5561"
 source_type: peer-reviewed
 evidence_tier: A
