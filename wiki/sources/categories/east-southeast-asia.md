@@ -43,7 +43,7 @@ Source pages whose evidence comes from **East & Southeast Asia**, grouped by jur
 - [[sources/zafarzadeh2018-cosmetics-lead-cadmium-iran|Assessment of cadmium and lead concentrations in different types of cosmetics products consumed in Iran (2018)]]
 - [[sources/dai2024-chongqing-dietary-arsenic-exposure|Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China (2024)]]
 - [[sources/muhammad2021-lactobacillus-lead-bioremediation|Assessment of In Vitro and In Vivo Bioremediation Potentials of Orally Supplemented Free and Microencapsulated Lactobacillus acidophilus KLDS Strains to Mitigate the Chronic Lead Toxicity (2021)]]
-- [[sources/wysok2025-sheep-casings-metals-poland|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
+- [[sources/wysok2025-heavy-metals-sheep-casings|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
 - [[sources/qu2022-lead-cadmium-drinking-water-soil-china|Association between environmental lead/cadmium co-exposure in drinking water and soil and type 2 diabetes mellitus/obesity in Southern China (2022)]]
 - [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China (2025)]]
 - [[sources/yang2023-amidoxime-carbon-felt-crvi-removal|Asymmetric Alternative Current Electrochemical Method Coupled with Amidoxime-Functionalized Carbon Felt Electrode for Fast and Efficient Removal of Hexavalent Chromium from Wastewater (2023)]]

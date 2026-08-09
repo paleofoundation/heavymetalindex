@@ -105,7 +105,7 @@ Source pages whose evidence comes from **Middle East & North Africa**, grouped b
 - [[sources/hardisson2017-aluminium-dietary-exposure-review|Aluminium Exposure Through the Diet (2017)]]
 - [[sources/gulcin2025-antioxidants-comprehensive-review|Antioxidants: a comprehensive review (2025)]]
 - [[sources/hoy2023-arsenic-speciation-freshwater-fish|Arsenic speciation in freshwater fish: challenges and research needs (2023)]]
-- [[sources/wysok2025-sheep-casings-metals-poland|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
+- [[sources/wysok2025-heavy-metals-sheep-casings|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
 - [[sources/czech2021-citrus-lead-cadmium|Bioactive Substances, Heavy Metals, and Antioxidant Activity in Whole Fruit, Peel, and Pulp of Citrus Fruits (2021)]]
 - [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Chemical Composition and Nutritional Quality of Commercial Tahini (2026)]]
 - [[sources/gunes2021-yalova-chestnut-honey-metals|Chestnut Honey as a Complementary Medicine: Determination of Antibacterial Activity, Heavy Metal Residue and Health Risk Assessment (2021)]]

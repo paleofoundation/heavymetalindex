@@ -490,7 +490,7 @@ Source pages whose evidence comes from **Europe**, grouped by jurisdiction.
 
 - [[sources/opss2023-feasibility-action-limits-cosmetics-uk|A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products (2023)]]
 - [[sources/islam2007-dietary-toxicity-vegetables-food-crops|Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops (2007)]]
-- [[sources/wysok2025-sheep-casings-metals-poland|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
+- [[sources/wysok2025-heavy-metals-sheep-casings|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
 - [[sources/shi2020-rice-based-infant-food-cadmium-arsenic|Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants (2020)]]
 - [[sources/meharg2008-rice-arsenic-literature-review|Levels of arsenic in rice - literature review (2008)]]
 - [[sources/ma2024-sanitary-napkins-metals|Occurrence of heavy metals in sanitary napkins from seven countries: Implication for risk management of female hygiene products (2024)]]

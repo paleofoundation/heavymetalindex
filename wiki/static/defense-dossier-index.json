@@ -2229,7 +2229,7 @@
             }
           },
           {
-            "slug": "sources/price2023-lead-biokinetic-baby-food-us",
+            "slug": "sources/price2023-biokinetic-lead-baby-food-blls",
             "title": "Biokinetic Modeling of Lead Exposures in Baby Food Consuming U.S. Infants (0–7 Years)",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -2238,14 +2238,14 @@
             "metal_species": [
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/price2023-lead-biokinetic-baby-food-us",
+            "canonical_url": "https://heavymetalindex.com/sources/price2023-biokinetic-lead-baby-food-blls",
             "content_pin": {
               "content_sha256": "bcd6bcb175df2400aedbe7c5a3ab6c518afee416b32460aa01df3325cab7a13f",
               "content_bytes": 3006,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/price2023-lead-biokinetic-baby-food-us.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/price2023-biokinetic-lead-baby-food-blls.md | sha256sum"
             }
           },
           {
@@ -36780,7 +36780,7 @@
             }
           },
           {
-            "slug": "sources/jesse2025-unknown",
+            "slug": "sources/lepak2025-mercury-sport-fish-colorado-correction",
             "title": "Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -36789,14 +36789,14 @@
             "metal_species": [
               "tHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/jesse2025-unknown",
+            "canonical_url": "https://heavymetalindex.com/sources/lepak2025-mercury-sport-fish-colorado-correction",
             "content_pin": {
               "content_sha256": "29d5e415e9ec8ca16c378af607930f344ce0bd5f59576ce5472b308f4e6ebcd9",
               "content_bytes": 3284,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/jesse2025-unknown.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/lepak2025-mercury-sport-fish-colorado-correction.md | sha256sum"
             }
           },
           {
@@ -57195,7 +57195,7 @@
             }
           },
           {
-            "slug": "sources/jesse2025-unknown",
+            "slug": "sources/lepak2025-mercury-sport-fish-colorado-correction",
             "title": "Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -57204,14 +57204,14 @@
             "metal_species": [
               "tHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/jesse2025-unknown",
+            "canonical_url": "https://heavymetalindex.com/sources/lepak2025-mercury-sport-fish-colorado-correction",
             "content_pin": {
               "content_sha256": "29d5e415e9ec8ca16c378af607930f344ce0bd5f59576ce5472b308f4e6ebcd9",
               "content_bytes": 3284,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/jesse2025-unknown.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/lepak2025-mercury-sport-fish-colorado-correction.md | sha256sum"
             }
           },
           {
@@ -70441,7 +70441,7 @@
             }
           },
           {
-            "slug": "sources/jesse2025-unknown",
+            "slug": "sources/lepak2025-mercury-sport-fish-colorado-correction",
             "title": "Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -70450,14 +70450,14 @@
             "metal_species": [
               "tHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/jesse2025-unknown",
+            "canonical_url": "https://heavymetalindex.com/sources/lepak2025-mercury-sport-fish-colorado-correction",
             "content_pin": {
               "content_sha256": "29d5e415e9ec8ca16c378af607930f344ce0bd5f59576ce5472b308f4e6ebcd9",
               "content_bytes": 3284,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/jesse2025-unknown.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/lepak2025-mercury-sport-fish-colorado-correction.md | sha256sum"
             }
           },
           {
@@ -87940,7 +87940,7 @@
             }
           },
           {
-            "slug": "sources/price2023-lead-biokinetic-baby-food-us",
+            "slug": "sources/price2023-biokinetic-lead-baby-food-blls",
             "title": "Biokinetic Modeling of Lead Exposures in Baby Food Consuming U.S. Infants (0–7 Years)",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -87949,14 +87949,14 @@
             "metal_species": [
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/price2023-lead-biokinetic-baby-food-us",
+            "canonical_url": "https://heavymetalindex.com/sources/price2023-biokinetic-lead-baby-food-blls",
             "content_pin": {
               "content_sha256": "bcd6bcb175df2400aedbe7c5a3ab6c518afee416b32460aa01df3325cab7a13f",
               "content_bytes": 3006,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/price2023-lead-biokinetic-baby-food-us.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/price2023-biokinetic-lead-baby-food-blls.md | sha256sum"
             }
           },
           {
@@ -112520,7 +112520,7 @@
             }
           },
           {
-            "slug": "sources/wysok2025-sheep-casings-metals-poland",
+            "slug": "sources/wysok2025-heavy-metals-sheep-casings",
             "title": "Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -112532,14 +112532,14 @@
               "tAs",
               "tHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wysok2025-sheep-casings-metals-poland",
+            "canonical_url": "https://heavymetalindex.com/sources/wysok2025-heavy-metals-sheep-casings",
             "content_pin": {
               "content_sha256": "232621d4581cf6d3b0fa0332be70de9719f6e48c9a5c41a79916cb1bafe1f1e6",
               "content_bytes": 3641,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wysok2025-sheep-casings-metals-poland.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wysok2025-heavy-metals-sheep-casings.md | sha256sum"
             }
           }
         ]

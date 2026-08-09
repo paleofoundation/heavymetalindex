@@ -1,17 +1,17 @@
 ---
 type: source
-raw_handle: FM_5322685
+raw_handle: FM_4421759
 cite_key: schmidt2015-arsenic-infancy-commentary
-title: "Arsenic Exposure in Infancy"
+title: "Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk"
 authors: [Schmidt CW]
 year: 2015
-publication: "Environmental Health Perspectives 123(7):A168–A173"
+publication: "Environmental Health Perspectives 123(5):A137"
 doi: "10.1289/ehp.123-A137"
 access_url: "https://doi.org/10.1289/ehp.123-A137"
 source_type: news-commentary
 evidence_tier: C
 license: "open access (NIEHS)"
-raw_path: raw/markdown/FM_5322685/FM_5322685.md
+raw_path: raw/markdown/FM_4421759/FM_4421759.md
 metals: [iAs]
 ingredients: []
 products: ["[[products/infant-formula-powder-non-soy]]"]

@@ -1,59 +1,10 @@
 {
   "generated_note": "Source pages sharing a DOI. Canonical suggested by inbound refs, key quality, frontmatter richness. Verify same-paper (title/authors) before deleting; a confabulated page can carry a wrong DOI and will NOT cluster here.",
-  "source_pages_with_doi": 2616,
-  "distinct_dois": 2614,
-  "duplicate_clusters": 2,
-  "collapsible_pages": 2,
-  "high_confidence_clusters": 2,
+  "source_pages_with_doi": 2611,
+  "distinct_dois": 2611,
+  "duplicate_clusters": 0,
+  "collapsible_pages": 0,
+  "high_confidence_clusters": 0,
   "review_clusters": 0,
-  "clusters": [
-    {
-      "doi": "10.1007/s10653-023-01514-x",
-      "confidence": "high",
-      "canonical": "romero-crespo2023-trace-elements-crops-ecuador-mining",
-      "drop": [
-        "romero-crespo2023-ecuador-mining-crops-metals"
-      ],
-      "members": [
-        {
-          "cite_key": "romero-crespo2023-trace-elements-crops-ecuador-mining",
-          "refs": 51,
-          "fields": 25,
-          "title": "Trace elements in farmland soils and crops, and probabilistic health risk assessment in areas influenced by mining activity in Ecuador",
-          "garbage_key": false
-        },
-        {
-          "cite_key": "romero-crespo2023-ecuador-mining-crops-metals",
-          "refs": 45,
-          "fields": 24,
-          "title": "Heavy metals in soils and crops in a mining area of Ecuador",
-          "garbage_key": false
-        }
-      ]
-    },
-    {
-      "doi": "10.1289/ehp.1408789",
-      "confidence": "high",
-      "canonical": "carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
-      "drop": [
-        "carignan2015-arsenic-infancy-well-water-breast-milk"
-      ],
-      "members": [
-        {
-          "cite_key": "carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
-          "refs": 116,
-          "fields": 25,
-          "title": "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",
-          "garbage_key": false
-        },
-        {
-          "cite_key": "carignan2015-arsenic-infancy-well-water-breast-milk",
-          "refs": 73,
-          "fields": 24,
-          "title": "Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk",
-          "garbage_key": false
-        }
-      ]
-    }
-  ]
+  "clusters": []
 }

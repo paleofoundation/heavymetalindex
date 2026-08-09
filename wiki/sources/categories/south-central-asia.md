@@ -161,7 +161,7 @@ Source pages whose evidence comes from **South & Central Asia**, grouped by juri
 - [[sources/rahim2020-toxic-heavy-metals-fruits-pakistan|Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits (2020)]]
 - [[sources/sultan2023-cookware-metal-leaching|Assessing Leaching of Potentially Hazardous Elements from Cookware during Cooking: A Serious Public Health Concern (2023)]]
 - [[sources/shahzad2025-buffalo-milk-trace-metals|Assessment of hazardous trace metals and associated health risk as affected by feed intake in buffalo milk (2025)]]
-- [[sources/wysok2025-sheep-casings-metals-poland|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
+- [[sources/wysok2025-heavy-metals-sheep-casings|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
 - [[sources/mirmahdi2021-dairy-decontamination-probiotics-review|Biodecontamination of milk and dairy products by probiotics: Boon for bane (2021)]]
 - [[sources/murtaza2025-biochar-selenium-barley-lead|Combine effects of Broussonetia papyrifera-derived biochar and selenium nanoparticles for lead-polluted saline soils remediation during barley cultivation (2025)]]
 - [[sources/begum2023-rawal-lake-water-quality|Combined multivariate statistical techniques and Water Quality Index (WQI) to evaluate spatial variation in water quality (2023)]]

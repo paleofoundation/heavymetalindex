@@ -32,16 +32,22 @@ const OVERRIDES = {
   // real surname Ćwieląg-Drabek -> the hyphenated key, not "cwielagniec"
   "10.1007/s12011-024-04438-4": { canonical: "cwielag-drabek2025-nuts-cd-pb-cr-ni-poland" },
   // ehp.1408789 = "Estimated Exposure...Breastfed and Formula-Fed Infants" (Carignan 2015).
-  // The "...Well Water and Breast Milk" page is a DIFFERENT work (Schmidt commentary,
-  // real DOI 10.1289/ehp.123-a137) carrying the wrong DOI: exclude from the merge.
-  "10.1289/ehp.1408789": { exclude: ["carignan2015-arsenic-infancy-well-water-breast-milk"] },
-  // s10653-023-01514-x: the two romero-crespo 2023 pages have divergent titles
-  // ("Trace elements in farmland soils and crops..." — matches the registered DOI —
-  // vs "Heavy metals in soils and crops in a mining area of Ecuador"). Possible
-  // wrong-DOI mis-ingest of a second, distinct romero-crespo 2023 paper; excluded
-  // from autonomous collapse pending title-vs-registered-DOI verification
-  // (ledger OI-20260809-title-mismatch-doi-sweep).
-  "10.1007/s10653-023-01514-x": { exclude: ["romero-crespo2023-ecuador-mining-crops-metals"] },
+  // RESOLVED 2026-08-09 (title-mismatch DOI sweep): the "...Well Water and Breast Milk"
+  // page was the Schmidt commentary (real DOI 10.1289/ehp.123-a137, raw FM_4421759)
+  // mis-keyed under Carignan with the Carignan DOI. It duplicated the correctly-keyed
+  // schmidt2015-arsenic-infancy-commentary, so it was deleted (its FM_4421759 raw moved
+  // to schmidt2015, whose stale FM_5322685 jujube-RCT raw_handle was corrected). No
+  // exclude needed now — only the canonical Carignan page carries ehp.1408789.
+  // s10653-023-01514-x: RESOLVED 2026-08-09 (title-mismatch DOI sweep). The drop
+  // page romero-crespo2023-ecuador-mining-crops-metals carried a divergent title
+  // ("Heavy metals in soils and crops in a mining area of Ecuador") and a wrong
+  // author list, so it was held pending verification. Its raw PDF
+  // (raw/studies/romero-crespo2023-ecuador-mining-crops-metals.pdf) was extracted
+  // and IS the 01514-x paper "Trace elements in farmland soils and crops..."
+  // (Romero-Crespo, Jiménez-Oyola et al.); no paper matching the divergent
+  // title/authors exists in Crossref. The DOI was correct; the frontmatter
+  // title/authors were fabricated. It is a provable duplicate of the canonical
+  // romero-crespo2023-trace-elements-crops-ecuador-mining and is collapsed.
 }
 
 // Frontmatter fields safe to fold from a dropped page into the canonical when the

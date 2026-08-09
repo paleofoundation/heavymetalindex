@@ -57,7 +57,7 @@ Source pages whose evidence comes from **Oceania**, grouped by jurisdiction.
 
 - [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis (2025)]]
 - [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis (2025)]]
-- [[sources/wysok2025-sheep-casings-metals-poland|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
+- [[sources/wysok2025-heavy-metals-sheep-casings|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
 - [[sources/gautam2024-finger-paints-metals-formaldehyde|Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints (2024)]]
 - [[sources/gautam2023-tattoo-ink-heavy-metals-risk|Health Risk Assessment: Heavy Metals (Antimony, Arsenic, Barium, Cadmium, Chromium, Lead, Mercury, and Nickel) in Tattoo Ink (Intra-Dermal Contact) (2023)]]
 - [[sources/gautam2022-jewellery-heavy-metals|Health Risk Assessment: Heavy Metals (Lead, Cadmium and Nickel) in Jewellery (Oral and Dermal Contact) (2022)]]

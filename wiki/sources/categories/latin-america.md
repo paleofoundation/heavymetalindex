@@ -111,7 +111,7 @@ Source pages whose evidence comes from **Latin America & Caribbean**, grouped by
 - [[sources/vela2023-quito-vegetables-cd-pb|Determination of cadmium and lead in vegetables marketed in Quito, Ecuador (2023)]]
 - [[sources/wade2022-cacao-cadmium-drivers|Drivers of cadmium accumulation in Theobroma cacao L. beans: A quantitative synthesis of soil-plant relationships across the Cacao Belt (2022)]]
 - [[sources/asyousow2022-expert-investigation-cocoa-chocolate-products|Expert Investigation Related to Cocoa and Chocolate Products: Final Report (2022)]]
-- [[sources/romero-crespo2023-ecuador-mining-crops-metals|Heavy metals in soils and crops in a mining area of Ecuador (2023)]]
+- [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining|Heavy metals in soils and crops in a mining area of Ecuador (2023)]]
 - [[sources/chang2022-cocoa-fermentation-rhizobium-cadmium|Induction of rhizobium japonicum in the fermentative mass of two varieties of cacao (Theobroma Cacao L.) as a strategy for the decrease of cadmium (2022)]]
 - [[sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific|Low mercury, cadmium and lead concentrations in tuna products from the eastern Pacific (2020)]]
 - [[sources/escobar-camacho2024-mercury-fish-ecuador-amazon|Mercury in aquatic ecosystems of two indigenous communities in the Piedmont Ecuadorian Amazon: evidence from fish, water, and sediments (2024)]]

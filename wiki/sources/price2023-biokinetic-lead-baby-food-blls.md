@@ -2,6 +2,7 @@
 type: source
 raw_handle: FM_10379829
 cite_key: price2023-biokinetic-lead-baby-food-blls
+access_url: "https://doi.org/10.3390/foods12142732"
 title: "Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability"
 authors: [Price SA, Maddaloni MA, Finley BL, Thornton SA, Unice KM]
 year: 2023
