@@ -101,7 +101,7 @@ function main() {
     schema_version: "1.0.0",
     generated_at: new Date().toISOString(),
     generated_commit: gitCommit(),
-    methodology_version: "HMTc-10 / P97-clean / P45-dirty (CLAUDE.md Part 19, Governing Principles v2.0)",
+    methodology_version: "HMTc-10 / Method v2.0 — government-limit default, selective occurrence for Tier-1 toxics and unregulated cells (CLAUDE.md Part 19)",
     standard_version: standardVersion,
     panel: PANEL,
     firewall:

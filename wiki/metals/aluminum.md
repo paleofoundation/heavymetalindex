@@ -23,7 +23,7 @@ _Chapter-level cross-metal toxicology context for aluminum exposure, poor oral a
 
 Aluminum is the third most abundant element in Earth's crust and a non-essential metal that enters the human food system through aluminum-containing food additives, aluminum-amended drinking water (used as a flocculant in water treatment), aluminum cookware and food packaging in contact with acidic foods, antacid medications, and natural occurrence in some plant-based foods. Aluminum is poorly absorbed from the gastrointestinal tract (typically less than 1 percent), but cumulative exposure across the food supply produces dietary intakes that the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] concluded routinely exceed the established tolerable weekly intake of 1 mg Al/kg body weight per week in significant portions of the European population.
 
-The toxicological concerns associated with aluminum focus on neurotoxicity (most clearly documented in dialysis-related encephalopathy from aluminum-contaminated dialysate fluid in the 1970s and 1980s, and in chronic occupational exposure), reproductive and developmental effects, and bone effects (aluminum-induced osteomalacia in dialysis patients was a significant clinical entity before water treatment for dialysis was redesigned). The [[regulations/efsa-aluminium-twi|EFSA TWI]] of 1 mg/kg b.w./week replaced an earlier JECFA provisional tolerable weekly intake of 7 mg/kg b.w./week with a sevenfold reduction; JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week.
+The toxicological concerns associated with aluminum focus on neurotoxicity (most clearly documented in dialysis-related encephalopathy from aluminum-contaminated dialysate fluid in the 1970s and 1980s, and in chronic occupational exposure), reproductive and developmental effects, and bone effects (aluminum-induced osteomalacia in dialysis patients was a significant clinical entity before water treatment for dialysis was redesigned). The [[regulations/efsa-aluminium-twi|EFSA TWI]] of 1 mg/kg b.w./week (2008) followed JECFA's own lowering of its provisional tolerable weekly intake from 7 mg/kg b.w./week to 1 mg/kg b.w./week at its 67th meeting (2006); JECFA subsequently revised its PTWI upward to 2 mg/kg b.w./week at its 74th meeting (2011, WHO Technical Report Series 966), where it currently stands. EFSA's TWI (1 mg/kg) and JECFA's current PTWI (2 mg/kg) are set by separate expert bodies and genuinely differ, with EFSA the more conservative.
 
 Aluminum's health profile is qualitatively different from the other metals on this wiki. The clearest documented adverse health effects (dialysis encephalopathy, dialysis osteomalacia) occur in patient populations with impaired aluminum excretion (renal failure) and intravenous-route exposure that bypasses GI absorption barriers; for the general population with normal renal function and oral exposure, the dose-response evidence for aluminum-related disease is weaker than for cadmium, lead, mercury, or arsenic, and the regulatory TWI rests largely on extrapolation from animal neurotoxicity studies rather than on robust human cohort data at typical dietary exposure levels.
 
@@ -100,8 +100,8 @@ For pregnant women and parents of infants: soy-based infant formulas were docume
 | Jurisdiction / Body | Type | Value | Page |
 | --- | --- | --- | --- |
 | [[regulators/efsa\|EFSA]] (EU) | Dietary TWI | 1 mg Al/kg b.w./week | [[regulations/efsa-aluminium-twi]] |
-| [[regulators/jecfa\|JECFA]] (international) | PTWI | 1 mg Al/kg b.w./week (aligned with EFSA after 2008) | _Pending separate ingest_ |
-| Prior JECFA PTWI (replaced) | 7 mg Al/kg b.w./week | Replaced 2008 |  |
+| [[regulators/jecfa\|JECFA]] (international) | PTWI | 2 mg Al/kg b.w./week (74th meeting, 2011, WHO TRS 966) | _Source ingest pending_ |
+| Prior JECFA PTWI (superseded) | 1 mg/kg (67th meeting, 2006); 7 mg/kg before then | superseded by the 2011 revision |  |
 | [[regulators/atsdr\|US ATSDR]] | Chronic oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
 | [[regulators/atsdr\|US ATSDR]] | Intermediate oral MRL | 1 mg Al/kg/day | [[regulations/atsdr-aluminum-mrls]] |
 | [[regulators/eu-commission\|EU]] | Maximum levels for aluminium in food contact materials | Regulation (EU) 10/2011 amendments | _Pending separate ingest_ |
@@ -158,7 +158,7 @@ For consumers concerned about additive intake: read labels for "sodium aluminium
 
 Machine-readable takeaways from this synthesis for the Heavy Metal Index consumer app pipeline.
 
-The aluminum reference value is a single TWI of 1 mg/kg b.w./week (EFSA, JECFA-aligned). The app can present a "percent of TWI" benchmark as the primary aluminum signal. Default reference: 1 mg Al/kg b.w./week.
+The aluminum reference values differ by body: EFSA's TWI is 1 mg/kg b.w./week (the more conservative) and JECFA's current PTWI is 2 mg/kg b.w./week (74th meeting, 2011). The app can present a "percent of TWI" benchmark using the more conservative EFSA value as the primary aluminum signal. Default reference: 1 mg Al/kg b.w./week (EFSA).
 
 Critical app handling: aluminum-containing antacid use is the dominant single exposure source for users and dwarfs dietary intake. The app should explicitly query antacid use as a separate input and add antacid-derived aluminum to dietary aluminum for total exposure estimation. Without this query, dietary-only estimates substantially understate total aluminum intake for antacid users.
 

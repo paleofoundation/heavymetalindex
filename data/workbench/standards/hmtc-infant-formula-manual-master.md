@@ -43,13 +43,13 @@ One number per analyte, per product form: **the strictest maximum level any gove
 | Lead (Pb) | 20 | 10 |
 | Inorganic arsenic (iAs) | 20 | 10 |
 | Cadmium (Cd) | 10 | 5 |
-| Mercury (tHg) | monitored | monitored |
+| Mercury (tHg) | ≤5ᴸ | ≤5ᴸ |
 | Nickel (Ni) | 250 | 100 |
 | Aluminium (Al) | 3500 cow / 7000 soy | 500 cow / 1000 soy |
 | Tin (Sn) | 5000 | 714 |
-| Total chromium (Cr) | 2000ᵈ | monitored |
+| Total chromium (Cr) | 2000ᵈ | ≤LOQ ᴸ |
 
-*monitored = no government sets a formula limit for this analyte (reflex speciation screen applies; see the notes below). ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is the FSSAI (India) as-sold value, confirmed against the 2011 primary text. **Aluminium is published as the law's own cow / soy split**: soy formula is inherently aluminium-rich — which is why regulators set the soy limit at 2× cow — so adopting the lower number would penalise soy for a trait its own regulator already accounts for. Every other analyte is a single lowest-worldwide number. The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*
+*ᴸ = LOQ ceiling: no government sets a formula limit for this analyte, so HMTc publishes a non-detect ceiling at the method limit of quantification (values in method-loq-ceilings.json, confirm against the testing method), with reflex speciation on any detection. ᵈ = broad-dairy fallback, no formula-specific limit exists. Tin is the FSSAI (India) as-sold value, confirmed against the 2011 primary text. **Aluminium is published as the law's own cow / soy split**: soy formula is inherently aluminium-rich — which is why regulators set the soy limit at 2× cow — so adopting the lower number would penalise soy for a trait its own regulator already accounts for. Every other analyte is a single lowest-worldwide number. The per-country derivation for every number — including the cow/soy split that feeds it — is the matrix that follows.*
 
 # How certification works against these limits
 
@@ -89,7 +89,7 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 | Lead (Pb) | 20 | 50 | 70ᶜ | 70ᶜ | 80 | 200 | 70ᶜ | 70ᶜ | 70ᶜ | **20** | EU |
 | Inorganic arsenic (iAs) | 20 |  |  |  |  |  | 140ᶜ |  |  | **20** | EU |
 | Cadmium (Cd) | 10 | 10 |  |  |  | 100 | 70ᶜ |  |  | **10** | EU |
-| Mercury (tHg) |  |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
+| Mercury (tHg) |  |  |  |  |  |  |  |  |  | **≤5ᴸ** | LOQ ceiling — non-detect (no government limit worldwide) |
 | Nickel (Ni) | 250 |  |  |  |  |  |  |  |  | **250** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  |  | 3500ᶜ | **3500** | AN (500 as-consumed ×7) |
 | Tin (Sn) |  |  |  |  |  | 5000 |  |  |  | **5000** | IN |
@@ -104,7 +104,7 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 | Lead (Pb) | 20 | 50 | 70ᶜ | 70ᶜ | 80 | 200 | 70ᶜ | 70ᶜ | **20** | EU |
 | Inorganic arsenic (iAs) | 20 |  |  |  |  |  | 140ᶜ |  | **20** | EU |
 | Cadmium (Cd) | 20 | 20 |  |  |  | 100 | 70ᶜ |  | **20** | EU |
-| Mercury (tHg) |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
+| Mercury (tHg) |  |  |  |  |  |  |  |  | **≤5ᴸ** | LOQ ceiling — non-detect (no government limit worldwide) |
 | Nickel (Ni) | 400 |  |  |  |  |  |  |  | **400** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  | 7000ᶜ | **7000** | AN (1000 as-consumed ×7) |
 | Tin (Sn) |  |  |  |  |  | 5000 |  |  | **5000** | IN |
@@ -119,11 +119,11 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 | Lead (Pb) | 10 | 10 | 10 | 10 | 10 | 20 | 10 | 10 | 10 | **10** | EU |
 | Inorganic arsenic (iAs) | 10 |  |  |  |  |  | 20 |  |  | **10** | EU |
 | Cadmium (Cd) | 5 | 5 |  |  |  | 14ᶜ | 10 |  |  | **5** | EU |
-| Mercury (tHg) |  |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
+| Mercury (tHg) |  |  |  |  |  |  |  |  |  | **≤5ᴸ** | LOQ ceiling — non-detect (no government limit worldwide) |
 | Nickel (Ni) | 100 |  |  |  |  |  |  |  |  | **100** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  |  | 500 | **500** | AN |
 | Tin (Sn) |  |  |  |  |  | 714ᶜ |  |  |  | **714** | IN (5000 powder ÷7) |
-| Total chromium (Cr) |  |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
+| Total chromium (Cr) |  |  |  |  |  |  |  |  |  | **≤LOQ ᴸ** | LOQ ceiling — pending method LOQ |
 
 *Canned formula tin (separate product form): EU 50000, UK 50000 µg/kg. ᵈ = broad-dairy fallback (no formula-specific limit exists). ᶜ = basis-converted.*
 
@@ -134,41 +134,41 @@ Each cell is that government's infant-formula limit **normalized to the subcateg
 | Lead (Pb) | 10 | 10 | 10 | 10 | 10 | 20 | 10 | 10 | **10** | EU |
 | Inorganic arsenic (iAs) | 10 |  |  |  |  |  | 20 |  | **10** | EU |
 | Cadmium (Cd) | 10 | 10 |  |  |  | 14ᶜ | 10 |  | **10** | EU |
-| Mercury (tHg) |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
+| Mercury (tHg) |  |  |  |  |  |  |  |  | **≤5ᴸ** | LOQ ceiling — non-detect (no government limit worldwide) |
 | Nickel (Ni) | 100 |  |  |  |  |  |  |  | **100** | EU |
 | Aluminium (Al) |  |  |  |  |  |  |  | 1000 | **1000** | AN |
 | Tin (Sn) |  |  |  |  |  | 714ᶜ |  |  | **714** | IN (5000 powder ÷7) |
-| Total chromium (Cr) |  |  |  |  |  |  |  |  | **—** | monitored *(see note)* |
+| Total chromium (Cr) |  |  |  |  |  |  |  |  | **≤LOQ ᴸ** | LOQ ceiling — pending method LOQ |
 
 *Canned soy formula tin (separate product form): EU 50000, UK 50000 µg/kg. ᵈ = broad-dairy fallback (no formula-specific limit exists). ᶜ = basis-converted.*
 
-# Three cells where the method reaches its limit — stated plainly
+# Cells no government regulates — set at the LOQ, not left open
 
-The tightest-government method is only as complete as the world's regulators. Three cells cannot be
-set by lookup, and this standard says so rather than inventing a number:
+HMTc sets a limit for every analyte. Where the tightest-government lookup returns nothing and no
+occurrence pool exists to compute a percentile, the limit is the analytical limit of quantification:
+the analyte must be non-detectable. This is the ratchet doing its job precisely where regulators have
+not — the same mechanism the seafood standards already use — not an omission.
 
-1. **Mercury (all subcategories) — no government sets an infant-formula limit.** The nearest limit
-   in the world is China's 20 µg/kg for *canned complementary foods*, a different product. There is
-   nothing to adopt. Mercury is therefore **monitored, not limited**: every certification lot is
-   screened for total mercury, with reflex methylmercury speciation on any detection, but no numeric
-   pass/fail limit is published where no government has set one. This is the honest output of the
-   method, not an omission.
+1. **Mercury (all subcategories) — LOQ ceiling ≤5 µg/kg.** No government sets an
+   infant-formula mercury limit anywhere (the nearest is China's 20 µg/kg for *canned complementary
+   foods*, a different product). Mercury — as methylmercury — is a Tier-1 zero-tolerance toxic, so the
+   correct posture is non-detect: the certification ceiling is the method LOQ (5
+   µg/kg total mercury), with reflex methylmercury speciation on any detection. *Provisional pending confirmation against the testing method LOQ.*
 
-2. **Hexavalent chromium — unregulated in food worldwide.** No government sets a Cr-VI food limit
-   (the only Cr-VI limits are for drinking water). Total chromium has one applicable government
-   number — China's 2,000 µg/kg for milk powder (a broad dairy category that covers cow-milk formula
-   powder), shown with a ᵈ flag as a fallback, not a formula-specific limit. Cr-VI itself is
-   **monitored, not limited**, with a 100 µg/kg total-chromium manufacturing-anomaly screen that
-   triggers speciation.
+2. **Hexavalent chromium — LOQ ceiling ≤10 µg/kg.** No government sets a Cr-VI
+   food limit worldwide (the only Cr-VI limits are for drinking water — e.g. US-CA 10 µg/kg,
+   the reference point). Cr-VI largely reduces to Cr-III in the formula matrix, so a non-detect ceiling
+   is both protective and near-always met. Total chromium is separately held to the government value
+   (China 2,000 µg/kg for milk powder, ᵈ) with reflex Cr-VI speciation on a 100 µg/kg total-chromium
+   anomaly screen. *Provisional pending confirmation against the speciated Cr-VI method LOQ.*
 
-3. **Tin — regulated, but on an uncertain basis.** Only India sets a non-canned infant-formula tin
-   limit (5,000 µg/kg); every other government regulates tin only for *canned* product (50,000
-   µg/kg, a container-migration limit). The India value's basis is unresolved in our register (the
-   secondary source records it as-consumed; the FSSAI 2011 primary text records it as-sold — a 7×
-   difference). The tin cell is therefore **provisional** pending confirmation against the primary
-   Indian instrument; canned formula is held to the 50,000 µg/kg world consensus.
+3. **Tin — 5,000 µg/kg (India, FSSAI), as-sold.** India is the only government setting a non-canned
+   infant-formula tin limit. Its basis is now settled against the FSSAI 2011 primary text: the metal
+   table header reads "Parts per Million by weight" (as-sold), and the regulation carries no
+   reconstitution instruction. Canned formula is separately held to the 50,000 µg/kg world consensus
+   (a container-migration limit).
 
-Everything else in this standard is a firm, citable government maximum level.
+Every other analyte is a firm, citable government maximum level. No cell is left unset.
 
 # Provenance — every limit exactly as its government states it
 
@@ -228,7 +228,7 @@ Everything else in this standard is a firm, citable government maximum level.
 | Al | AU-NZ | 500 | portion ordinarily consumed | infant formula, follow-on formula, and special medical purpose product | regulations/au-nz-food-standards-code-sc |
 | Al | AU-NZ | 1000 | portion ordinarily consumed | soy-based infant formula products | regulations/au-nz-food-standards-code-sc |
 | Sn | EU | 50000 | product as placed on market | canned infant formulae, canned follow-on formulae, and canned young-ch | regulations/eu2023-contaminants-maximum- |
-| Sn | IN | 5000 | as consumed | Infant Milk substitute and Infant foods | regulations/in-infant-food-contaminants |
+| Sn | IN | 5000 | as sold | Infant Milk substitute and Infant foods | regulations/in-infant-food-contaminants |
 | Sn | UK | 50000 | as consumed | Canned infant formulae and follow-on formulae, including infant milk a | regulations/uk-infant-food-contaminants |
 | Cr-total | CN | 2000 | product as placed on market | Milk powder and modified milk powder (general dairy category, distinct | regulations/cn-infant-food-contaminants |
 

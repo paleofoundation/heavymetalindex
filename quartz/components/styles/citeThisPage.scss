@@ -46,6 +46,19 @@
     &:hover { background: var(--lightgray); }
   }
 
+  // The PDF is the affordance most readers want, so it reads as the primary
+  // action next to the evidence packet, which serves a narrower legal audience.
+  .hmi-cite-download--pdf {
+    background: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--light);
+
+    &:hover {
+      background: var(--tertiary);
+      border-color: var(--tertiary);
+    }
+  }
+
   [data-hmi-cite-detail] {
     margin-top: 0.85rem;
     display: flex;

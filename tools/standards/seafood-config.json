@@ -1,0 +1,313 @@
+{
+  "panel": [
+    "Pb",
+    "iAs",
+    "tAs",
+    "tHg",
+    "MeHg",
+    "Cd",
+    "Sn"
+  ],
+  "subcategories": {
+    "seaweed-kelp-foods": {
+      "name": "Seaweed / kelp foods (nori, wakame, kombu, dulse — dried, as sold)",
+      "native_basis": "as_sold",
+      "canned": false,
+      "reconstitution_8to1": false,
+      "scope_include": [
+        "seaweed",
+        "\\bkelp\\b",
+        "wakame",
+        "\\bnori\\b",
+        "kombu",
+        "dulse",
+        "hijiki",
+        "laminaria",
+        "seetang",
+        "sea vegetable",
+        "\\balgae\\b"
+      ],
+      "scope_exclude": [
+        "fresh",
+        "supplement",
+        "\\bmeal\\b",
+        "\\bfeed\\b",
+        "\\bpet\\b",
+        "haematococcus",
+        "calcareous",
+        "phosphate",
+        "infant",
+        "complementary",
+        "excluding"
+      ],
+      "read_across": {
+        "MeHg": {
+          "not_material": true,
+          "control": "Seaweed is a marine primary producer, not a predator; methylmercury does not biomagnify into algae, so MeHg is a negligible fraction of total mercury. Bounded by the tHg cell (Israel dried-seaweed tHg 2500): if tHg passes, MeHg is inherently far below any fish MeHg action level.",
+          "reference_method": "Total-mercury screen (EPA 7473 / ICP-MS); reflex MeHg speciation (GC-ICP-MS, e.g. EPA 3200 / DIN EN 16801) only on a tHg exceedance."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Tin is a can-migration analyte, not a matrix-accumulation analyte. Dried seaweed foods (nori, wakame, kombu, dulse) are sold in non-metal packaging; with no tinplate contact there is no tin source. Every government tin ML in the register is either canned-product-only or an 'any food' catch-all set for can migration.",
+          "reference_method": "Packaging control (non-tinplate); periodic ICP-MS tin verification on finished product."
+        }
+      }
+    },
+    "shellfish": {
+      "name": "Shellfish (crustaceans and bivalve molluscs, not canned)",
+      "row": 4,
+      "native_basis": "as_consumed",
+      "reconstitution_8to1": false,
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "crustac",
+        "shrimp",
+        "prawn",
+        "crab",
+        "lobster",
+        "langoustine",
+        "bivalve",
+        "clam",
+        "oyster",
+        "mussel",
+        "cockle",
+        "scallop",
+        "shellfish"
+      ],
+      "scope_exclude": [
+        "mushroom",
+        "fungi",
+        "supplement",
+        "seaweed",
+        "all fish"
+      ],
+      "read_across": {
+        "Sn": {
+          "not_material": true,
+          "control": "Tin is a can-migration analyte; not material for fresh/frozen shellfish placed on market without a tinplate container. Every government Sn ML for fishery products is a canned-only limit (MX/CR/IN 100-200 mg/kg). Reflex to the canned-seafood subcategory standard if the product is canned.",
+          "reference_method": "ICP-MS per EN 15763 / AOAC 2015.01"
+        }
+      }
+    },
+    "cephalopods": {
+      "name": "Cephalopods (octopus, squid, cuttlefish; not canned)",
+      "native_basis": "as_consumed",
+      "canned": false,
+      "reconstitution_8to1": false,
+      "soy_split": false,
+      "scope_include": [
+        "cephalopod",
+        "octopus",
+        "squid",
+        "cuttlefish",
+        "\\bpulpo\\b",
+        "calmar",
+        "poulpe",
+        "\\bseiche\\b"
+      ],
+      "scope_exclude": [
+        "supplement",
+        "\\bfeed\\b",
+        "fish oil",
+        "seaweed",
+        "\\balgae\\b",
+        "\\bcanned\\b"
+      ],
+      "read_across": {
+        "MeHg": {
+          "source_id": "mx_nom242_mehg_other_500",
+          "label": "No government sets a cephalopod-specific methylmercury ML. Read across from the non-predatory / general fishery MeHg value (Mexico NOM-242, other fishery products, 500 ug/kg): cephalopods are not high-trophic mercury accumulators, so the non-predatory fish MeHg tier is the nearest defensible value. Comparator vs any direct cephalopod MeHg limit."
+        },
+        "Sn": {
+          "not_material": true,
+          "control": "Tin is a can-migration analyte; not material for fresh/frozen cephalopods placed on market without a tinplate container. Every government Sn ML for fishery products is a canned-only limit. Reflex to the canned-seafood subcategory standard if the product is canned.",
+          "reference_method": "ICP-MS per EN 15763 / AOAC 2015.01; applies only if canned."
+        }
+      }
+    },
+    "fish-freshwater": {
+      "name": "Freshwater fish (finfish) — tilapia, catfish, trout, carp",
+      "native_basis": "as_consumed",
+      "canned": false,
+      "reconstitution_8to1": false,
+      "scope_include": [
+        "\\bfish\\b",
+        "fishery",
+        "seafood",
+        "aquatic product",
+        "poisson",
+        "pescado",
+        "peixe"
+      ],
+      "scope_exclude": [
+        "all fish, crustaceans, and molluscs",
+        "feed",
+        "oil"
+      ],
+      "read_across": {
+        "Sn": {
+          "not_material": true,
+          "control": "Fresh/frozen/refrigerated freshwater fish has no tinplate contact; inorganic tin is a canned-product migration pathway. Government Sn MLs for seafood (50-250 mg/kg) apply to canned product only. If the product is canned, it is certified under the canned-seafood subcategory Sn limit instead.",
+          "reference_method": "ICP-MS per-lot screen; escalate to canned-seafood Sn limit if packaged in tinplate."
+        }
+      }
+    },
+    "canned-seafood": {
+      "name": "Canned seafood (canned tuna, canned fish)",
+      "row": 6,
+      "native_basis": "as_consumed",
+      "canned": true,
+      "reconstitution_8to1": false,
+      "soy_split": false,
+      "scope_include": [
+        "\\bfish\\b",
+        "fishery",
+        "aquatic",
+        "canned tuna",
+        "canned fish",
+        "conservas de pescado",
+        "\\btuna",
+        "\\bthon",
+        "bonito"
+      ],
+      "scope_exclude": [
+        "lower-mercury",
+        "lower mercury",
+        "mollus",
+        "bivalve",
+        "crustac",
+        "cephalopod",
+        "shellfish",
+        "shrimp",
+        "prawn",
+        "\\bcrab",
+        "lobster",
+        "scallop",
+        "oyster",
+        "clam",
+        "mussel",
+        "squid",
+        "octopus",
+        "cuttlefish",
+        "mariscos",
+        "seaweed",
+        "\\balgae\\b",
+        "\\bsalt\\b",
+        "feed",
+        "fish oil",
+        "fats and oil",
+        "\\boil\\b"
+      ],
+      "read_across": {
+        "iAs": {
+          "source_id": "eu20251891_ias_fish_other_100",
+          "label": "EU 2025/1891 inorganic arsenic 100 ug/kg for muscle meat of fish (species other than the listed higher-iAs group). No government sets an iAs ML specific to canned tuna; tuna is not in the EU listed-500 group, so it takes the general fish-muscle iAs floor."
+        }
+      }
+    },
+    "fish-marine-non-predatory": {
+      "name": "Marine non-predatory fish (sardine, anchovy, salmon, cod, herring, mackerel; fillet/muscle meat, fresh or frozen)",
+      "native_basis": "as_consumed",
+      "canned": false,
+      "reconstitution_8to1": false,
+      "scope_include": [
+        "\\bfish\\b",
+        "fishery",
+        "aquatic"
+      ],
+      "scope_exclude": [
+        "fish, crustaceans, and mollusc",
+        "\\bfeed\\b",
+        "aquatic animals",
+        "derived thereof",
+        "\\boil",
+        "fats and oil",
+        "^(?!.*(lower|except|excluding|other than|exception|in general|\\bgeneral\\b)).*(predator|carnivorous|higher.?mercury|\\btuna\\b|\\bshark|swordfish|\\bmarlin\\b|sailfish|\\bpike\\b|elasmobranch|billfish|\\bbonito\\b|halibut|sturgeon|kingfish|\\bdogfish|snake mackerel|orange roughy|gemfish|barramundi|\\brays?\\b|scabbard|hairtail|\\bsierra\\b|alfonsino)"
+      ],
+      "read_across": {
+        "Sn": {
+          "not_material": true,
+          "control": "canned-format gate: tin is regulated for seafood only as can/tinplate migration (MX 100000, CR/IN 200000 ug/kg, canned only); fresh/frozen fin-fish has no tin exposure pathway and no government sets a non-canned fish tin ML",
+          "reference_method": "ICP-MS total tin on the edible portion; applies only if the product is canned (routed to the canned-seafood subcategory)"
+        }
+      }
+    },
+    "fish-marine-predatory": {
+      "name": "Marine predatory fish (tuna, swordfish, shark, king mackerel, marlin, billfish)",
+      "native_basis": "as_consumed",
+      "reconstitution_8to1": false,
+      "canned": false,
+      "soy_split": false,
+      "scope_include": [
+        "\\btuna",
+        "swordfish",
+        "\\bshark",
+        "marlin",
+        "billfish",
+        "sailfish",
+        "kingfish",
+        "king mackerel",
+        "snake mackerel",
+        "\\bpike\\b",
+        "predator",
+        "elasmobranch",
+        "\\bdogfish",
+        "higher-mercury",
+        "higher mercury",
+        "muscle meat of fish",
+        "fish and fish products",
+        "fish fillets",
+        "fish meat",
+        "raw, frozen, or refrigerated fish"
+      ],
+      "scope_exclude": [
+        "crustacean",
+        "crustacea",
+        "mollusc",
+        "mollusk",
+        "cephalopod",
+        "bivalve",
+        "gastropod",
+        "shellfish",
+        "oyster",
+        "mussel",
+        "\\bclam",
+        "scallop",
+        "shrimp",
+        "prawn",
+        "\\bcrab",
+        "lobster",
+        "octopus",
+        "squid",
+        "cuttlefish",
+        "seaweed",
+        "algae",
+        "algues",
+        "lower-mercury",
+        "lower mercury",
+        "non-predator",
+        "except tuna",
+        "except predator",
+        "except listed",
+        "except named",
+        "excluding those listed",
+        "excluding the listed",
+        "except where otherwise indicated",
+        "with exception mentioned",
+        "other than those described",
+        "\\bfeed",
+        "fur animal",
+        "fish oil"
+      ],
+      "read_across": {
+        "Sn": {
+          "not_material": true,
+          "control": "Tin is a can-migration analyte only: it enters food by dissolution from tinplate can walls, and fresh, frozen, or otherwise non-canned predatory fish (whole, fillet, loin, or portion) has no tin source. No government sets a tin ML for non-canned fish anywhere in the register; every seafood tin limit is scoped to canned/tinplate product and is excluded by the compiler's canned-gate for this non-canned subcategory. Canned predatory-fish products are certified under the canned-seafood subcategory, where the governing tin ceiling is the canned-food ML (Codex CXS 193 / GSO / India canned foods 250000 ug/kg; Chile canned fish and shellfish 250000 ug/kg). For non-canned product, tin is controlled by screen, not limited: any result above the reporting limit is investigated as evidence of unintended metal contact rather than an inherent property of the fish.",
+          "reference_method": "Total Sn by ICP-MS or ICP-OES (e.g. AOAC 985.16 / EN 15764); screen threshold for non-canned product set at the method LOQ, with any quantifiable tin triggering a packaging/contact-material investigation."
+        }
+      }
+    }
+  },
+  "_doc": "Category-6 (Seafood) config. Species-specific dual-mercury (tHg+MeHg), arsenic iAs+tAs, canned-tin gating, dedicated cephalopod subcategory. Built by derive workflow ws6q2oktn and corrected by adversarial audit wf_925293b1-55f (predatory Cd 100->50 CR general-fish; canned tHg/MeHg/Cd 1000/1000/100->500/500/50 general-fish floor; freshwater tHg 500->300 EU lower-mercury/trout; seaweed basis as_sold dried; cephalopods added) against the complete 2634-row register."
+}

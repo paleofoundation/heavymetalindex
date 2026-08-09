@@ -402,3 +402,102 @@ mapping moved to staff/HMTc surfaces — NOT given an Overview heading as-is.
 **Not chased** (out of scope for the Overview task; not a false statement, so below
 the interrupt bar). Fix = a product-scaffold prose generator that writes a
 literature-native intro. Tier: 1
+
+
+---
+
+## Merged from local `main` (2026-08-09 reconcile)
+
+The entries below were logged on local `main` before the 2026-08-09 origin reconcile.
+Some duplicate F-05 / F-15 above or are resolved by the merge itself; retained for
+provenance and because the JECFA and querySelectorAll findings are unique to this lane.
+
+## 2026-08-05 — the v3 body/section work is stranded on an unmerged branch
+
+`feat/v3-bodies` (worktree `~/hmi-work/hero-v3`) holds 219 commits that are not
+on `main` and were never pushed to origin. It is the entire v3 body-section
+build: section vocabulary, page snapshots, the synthesis directory, the
+ingredient completeness scorecard, the rebuilt Ask screen, the metals screen,
+eight rewritten synthesis findings, and `HeroBand.tsx`.
+
+Found while looking for the PDF generator, which was one commit inside it
+(`66634bcd2`). That commit has now been ported to `main` on its own; the other
+218 have not. `main` is meanwhile 401 commits ahead of the branch on the content
+lane, so this is a lane divergence, not a stale feature branch — merging it is a
+deliberate reconciliation, not a fast-forward.
+
+Blocks: every other v3 body-section improvement is invisible on the live site.
+
+## 2026-08-05 — the right rail's actions are dead placeholder links
+
+`quartz/components/Rail.tsx` renders four actions — Follow, Cite this page,
+Evidence packet, Share. Three point at `#sources` and one at `#`. None of them
+do anything. The rail is on every content page, so every content page shows four
+buttons that silently fail when clicked.
+
+Download PDF was added to this rail as a real link (this session). The other
+four were left as found.
+
+Blocks: readers who want the citation or the evidence packet cannot get either.
+
+## 2026-08-05 — CiteThisPage is not mounted, so its features do not exist
+
+`quartz/components/CiteThisPage.tsx` implements the working versions of what the
+rail fakes: the canonical citation line, Copy citation, BibTeX and RIS download,
+share links, and the evidence-packet download. `quartz.layout.ts` carries two
+comments saying the component "moved OUT of afterBody and INTO the right rail",
+but the right rail contains only `Rail()` and `SourceCitationPanel()`. The
+component is referenced nowhere and renders on no page.
+
+This is the failure mode where dropping a component from the layout silently
+un-ships its markup, inline JS and CSS site-wide, with the comments left behind
+describing an arrangement that no longer exists.
+
+Blocks: BibTeX/RIS export, copy-citation, and the evidence-packet download.
+
+## 2026-08-05 — a YAML syntax error in one page hard-failed the whole build
+
+`wiki/regulations/ca-prop65-ab2762-cosmetics.md` carried an unquoted colon in
+its `metal:` frontmatter value, which threw an unhandled `YAMLException` out of
+`gray-matter` and killed `npm run build` before Quartz emitted anything. The
+build exited without a usable error message pointing at the page.
+
+Fixed locally this session by quoting the value, matching the fix already on
+`origin/main` (`9882fa9f2`). Logged because the failure mode remains: one
+malformed frontmatter value anywhere in 3,962 pages takes down the entire build,
+and the crash names the YAML line but not the file.
+
+Blocks: nothing now. Worth a guarded parse that names the offending file.
+
+## 2026-08-07 — lead.md: JECFA lead-PTWI withdrawal miscited to the 72nd meeting (TRS 959); correct source is the 73rd (TRS 960)
+
+Verified against the primary document. `wiki/metals/lead.md` (lines 124, 147, and reference #4 at line 233) attributes the 2010 withdrawal of the JECFA lead PTWI (25 µg/kg bw/week) to the **72nd** JECFA meeting / **WHO TRS 959**, via `[[sources/jecfa-72nd-lead-2010]]`. That source page is grounded in `raw/reports/JECFA_Lead_Monograph.pdf`, which is in fact **TRS 959 — the 72nd report, "Evaluation of Certain Contaminants in Food."** Primary-content check of the PDF: it evaluates **arsenic, mercury, acrylamide, deoxynivalenol, furan — not lead** ("lead" appears 4× incidentally; no lead PTWI / 25 µg/kg withdrawal text). The lead PTWI withdrawal was at the **73rd** JECFA meeting (June 2010, **WHO TRS 960**), the same meeting that set the cadmium PTMI (which `cadmium.md` cites correctly).
+
+Defects:
+1. `sources/jecfa-72nd-lead-2010.md` title falsely reads "(Lead, among others)" and its `metals:` includes `Pb`. TRS 959 does not evaluate lead. The page is otherwise a valid A-tier source for **As / Hg**, which TRS 959 does cover.
+2. `lead.md` cites this As/Hg source for the lead-PTWI withdrawal — a claim the cited document does not support.
+
+The underlying FACT (lead PTWI of 25 µg/kg bw/week withdrawn in 2010) is correct; only the citation/source is wrong.
+
+Fix (needs care, not done here): ingest the correct 73rd-meeting lead source (WHO TRS 960 / WHO Food Additives Series 64 lead monograph), re-point lead.md's lead-PTWI citation to it, and correct `sources/jecfa-72nd-lead-2010.md` (drop Pb from the title and `metals:`; it remains valid for As/Hg). Deferred because TRS 960 is not in `raw/` and a hasty re-point would create new inconsistencies.
+
+Meta / process lesson: the metal-value audit agent flagged this and proposed the 73rd/TRS 960 correction. A PDF **cover** check nearly dismissed it (cover = TRS 959, 72nd, matching the source metadata); the PDF **content** check vindicated the agent. Verify citations against document content, not just the cover/metadata.
+
+## 2026-08-08 — local build: uncaught `querySelectorAll` on null via the SPA router (not on live; pre-existing)
+
+Observed while verifying the new right-rail Share control (Notion Task 5). On a fresh local
+`npm run serve` build, every page logs `Uncaught (in promise) TypeError: Cannot read
+properties of null (reading 'querySelectorAll')`, attributed to the tail of
+`public/postscript.js` (Quartz's SPA `route-announcer` / router). It fires on the homepage
+too, where the new rail-share script is inert (no `[data-hmi-share]` element), so it is
+**not** from the Task-5 work.
+
+The deployed live site (`heavymetalindex.com/metals/lead`) shows **no** such error, so this is
+a local-`main` regression not yet deployed: some component's `afterDOMLoaded` handler (invoked
+through the SPA nav promise) queries a container that is null on some/all pages. Non-fatal (the
+page renders), but it will appear in the console on the next index production deploy.
+
+Not chased here (out of scope for the share button). Worth a focused look before the next index
+deploy — bisect the `afterDOMLoaded` scripts (Search / AskIndex / BrandPreScreenTool /
+ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
+`X.querySelectorAll` where `X` can be null.

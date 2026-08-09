@@ -2,6 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 // @ts-ignore
 import script from "./scripts/citeThisPage.inline"
 import style from "./styles/citeThisPage.scss"
+import { hasScholarlyPdf } from "./scholarlyPdf"
 
 // Per-page "Cite this page" footer block. Visible only on public reference
 // pages (ingredients/, products/, metals/, regulations/, synthesis/,
@@ -86,6 +87,11 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const slug = fileData.slug
   if (!isCitable(slug)) return null
 
+  // The typeset PDF postbuild-synthesis-pdf.mjs emits for this page, where one
+  // exists. Shown only on those pages: an unconditional link 404s everywhere
+  // else, which is how the previous download affordance failed.
+  const pdfUrl = hasScholarlyPdf(fileData) ? `/${slug}.pdf` : undefined
+
   const frontmatter = fileData.frontmatter as Record<string, unknown> | undefined
   const title = frontmatter?.title ? String(frontmatter.title) : (slug as string)
   const wikiDoi = frontmatter ? frontmatterString(frontmatter.wiki_doi) : undefined
@@ -128,6 +134,15 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           <button type="button" data-hmi-cite-toggle aria-expanded="true">
             Hide citation
           </button>
+          {pdfUrl && (
+            <a
+              class="hmi-cite-download hmi-cite-download--pdf"
+              href={pdfUrl}
+              title="Download this page as a typeset PDF — masthead, abstract, numbered sections, references, and publication history."
+            >
+              Download PDF
+            </a>
+          )}
           <a
             class="hmi-cite-download"
             href={packetUrl}

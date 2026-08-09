@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-07-29T16:42:21.254Z",
-  "generated_commit": "621be2545c0f1b003914f8f66bfd82901a457297",
-  "methodology_version": "HMTc-10 / P97-clean / P45-dirty (CLAUDE.md Part 19, Governing Principles v2.0)",
+  "generated_at": "2026-08-06T19:46:51.167Z",
+  "generated_commit": "e0d345779ab86c09471dec20dcd1949fcbafd729",
+  "methodology_version": "HMTc-10 / Method v2.0 — government-limit default, selective occurrence for Tier-1 toxics and unregulated cells (CLAUDE.md Part 19)",
   "standard_version": "2.2 (2026-06-09)",
   "panel": [
     "Pb",
@@ -24,16 +24,16 @@
       "category_name": "Grains, Cereals, and Rice Products",
       "subcategories_total": 12,
       "subcategories_locked": 2,
-      "subcategories_published": 0,
-      "context": "0 of 12 subcategories published"
+      "subcategories_published": 1,
+      "context": "1 of 12 subcategories published"
     },
     "6": {
       "category": 6,
       "category_name": "Seafood",
       "subcategories_total": 6,
       "subcategories_locked": 5,
-      "subcategories_published": 1,
-      "context": "1 of 6 subcategories published"
+      "subcategories_published": 2,
+      "context": "2 of 6 subcategories published"
     },
     "24": {
       "category": 24,
@@ -80,8 +80,8 @@
       "category_name": "Herbs, Spices, Seasonings and Salt",
       "subcategories_total": 4,
       "subcategories_locked": 2,
-      "subcategories_published": 1,
-      "context": "1 of 4 subcategories published"
+      "subcategories_published": 2,
+      "context": "2 of 4 subcategories published"
     }
   },
   "rows": [
@@ -96,12 +96,13 @@
       "native_basis": "as_sold",
       "standard_version": "2.2 (2026-06-09)",
       "hmi_literature_link": "https://heavymetalindex.com/products/breakfast-cereal-non-rice",
-      "covered_analytes": [],
-      "uncovered_analytes": [
+      "covered_analytes": [
         "Pb",
+        "Cd"
+      ],
+      "uncovered_analytes": [
         "tAs",
         "iAs",
-        "Cd",
         "tHg",
         "MeHg",
         "Ni",
@@ -111,32 +112,30 @@
       ],
       "completeness_ledger": {
         "category": 3,
-        "published": 0,
+        "published": 1,
         "total": 12,
-        "context": "0 of 12 subcategories published"
+        "context": "1 of 12 subcategories published"
       },
       "analytes": {
         "Pb": {
-          "status": "in_development",
+          "status": "published",
           "in_scope": true,
-          "published_limit_ppb": null,
+          "published_limit_ppb": 200,
           "precise_ppb": 200,
           "native_basis": "as_sold",
-          "cross_basis_ppb": null,
-          "cross_basis_label": null,
-          "rationale_tag": null,
+          "cross_basis_ppb": 28.5714,
+          "cross_basis_label": "prepared_for_feeding",
+          "rationale_tag": "regulatory-alignment",
           "regulatory_cap_ppb": 200,
           "regulatory_cap_source": "aunz_sch19_pb_cereals_200",
           "evidence_state_note": "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending); distinct_sources=0; sens_band=no_data; classify=resolved/firm",
           "gates": {
-            "pairing": false,
+            "pairing": true,
             "methodology": true,
             "readiness": true,
             "scope": true
           },
-          "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
-          ]
+          "held_reasons": []
         },
         "tAs": {
           "status": "in_development",
@@ -183,26 +182,24 @@
           ]
         },
         "Cd": {
-          "status": "in_development",
+          "status": "published",
           "in_scope": true,
-          "published_limit_ppb": null,
+          "published_limit_ppb": 100,
           "precise_ppb": 100,
           "native_basis": "as_sold",
-          "cross_basis_ppb": null,
-          "cross_basis_label": null,
-          "rationale_tag": null,
+          "cross_basis_ppb": 14.2857,
+          "cross_basis_label": "prepared_for_feeding",
+          "rationale_tag": "regulatory-alignment",
           "regulatory_cap_ppb": 100,
           "regulatory_cap_source": "eu2023_cd_cereals_general_100",
           "evidence_state_note": "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending); distinct_sources=0; sens_band=no_data; classify=resolved/firm",
           "gates": {
-            "pairing": false,
+            "pairing": true,
             "methodology": true,
             "readiness": true,
             "scope": true
           },
-          "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
-          ]
+          "held_reasons": []
         },
         "tHg": {
           "status": "in_development",
@@ -364,9 +361,9 @@
       ],
       "completeness_ledger": {
         "category": 3,
-        "published": 0,
+        "published": 1,
         "total": 12,
-        "context": "0 of 12 subcategories published"
+        "context": "1 of 12 subcategories published"
       },
       "analytes": {
         "Pb": {
@@ -602,9 +599,10 @@
       "native_basis": "as_sold",
       "standard_version": "2.2 (2026-06-09)",
       "hmi_literature_link": "https://heavymetalindex.com/products/fish-freshwater",
-      "covered_analytes": [],
+      "covered_analytes": [
+        "Pb"
+      ],
       "uncovered_analytes": [
-        "Pb",
         "tAs",
         "iAs",
         "Cd",
@@ -617,32 +615,30 @@
       ],
       "completeness_ledger": {
         "category": 6,
-        "published": 1,
+        "published": 2,
         "total": 6,
-        "context": "1 of 6 subcategories published"
+        "context": "2 of 6 subcategories published"
       },
       "analytes": {
         "Pb": {
-          "status": "in_development",
+          "status": "published",
           "in_scope": true,
-          "published_limit_ppb": null,
+          "published_limit_ppb": 300,
           "precise_ppb": 300,
           "native_basis": "as_sold",
-          "cross_basis_ppb": null,
-          "cross_basis_label": null,
-          "rationale_tag": null,
+          "cross_basis_ppb": 42.8571,
+          "cross_basis_label": "prepared_for_feeding",
+          "rationale_tag": "regulatory-alignment",
           "regulatory_cap_ppb": 300,
           "regulatory_cap_source": "eu2023_pb_fish_muscle_300",
           "evidence_state_note": "READY FOR REVIEW (regulatory cap applies); distinct_sources=9; sens_band=stable; classify=resolved/firm",
           "gates": {
-            "pairing": false,
+            "pairing": true,
             "methodology": true,
             "readiness": true,
             "scope": true
           },
-          "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
-          ]
+          "held_reasons": []
         },
         "tAs": {
           "status": "in_development",
@@ -745,13 +741,12 @@
           "regulatory_cap_source": "",
           "evidence_state_note": "READY FOR REVIEW; distinct_sources=2; sens_band=stable; classify=resolved/provisional",
           "gates": {
-            "pairing": false,
+            "pairing": true,
             "methodology": true,
             "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
             "gate3:classify-provisional (literature-baseline)"
           ]
         },
@@ -871,9 +866,9 @@
       ],
       "completeness_ledger": {
         "category": 6,
-        "published": 1,
+        "published": 2,
         "total": 6,
-        "context": "1 of 6 subcategories published"
+        "context": "2 of 6 subcategories published"
       },
       "analytes": {
         "Pb": {
@@ -1127,9 +1122,9 @@
       ],
       "completeness_ledger": {
         "category": 6,
-        "published": 1,
+        "published": 2,
         "total": 6,
-        "context": "1 of 6 subcategories published"
+        "context": "2 of 6 subcategories published"
       },
       "analytes": {
         "Pb": {
@@ -1377,9 +1372,9 @@
       ],
       "completeness_ledger": {
         "category": 6,
-        "published": 1,
+        "published": 2,
         "total": 6,
-        "context": "1 of 6 subcategories published"
+        "context": "2 of 6 subcategories published"
       },
       "analytes": {
         "Pb": {
@@ -1631,9 +1626,9 @@
       ],
       "completeness_ledger": {
         "category": 6,
-        "published": 1,
+        "published": 2,
         "total": 6,
-        "context": "1 of 6 subcategories published"
+        "context": "2 of 6 subcategories published"
       },
       "analytes": {
         "Pb": {
@@ -3419,9 +3414,9 @@
       ],
       "completeness_ledger": {
         "category": 34,
-        "published": 1,
+        "published": 2,
         "total": 4,
-        "context": "1 of 4 subcategories published"
+        "context": "2 of 4 subcategories published"
       },
       "analytes": {
         "Pb": {
@@ -3656,9 +3651,10 @@
       "native_basis": "as_sold",
       "standard_version": "2.2 (2026-06-09)",
       "hmi_literature_link": "https://heavymetalindex.com/products/salt",
-      "covered_analytes": [],
+      "covered_analytes": [
+        "Pb"
+      ],
       "uncovered_analytes": [
-        "Pb",
         "tAs",
         "iAs",
         "Cd",
@@ -3671,32 +3667,30 @@
       ],
       "completeness_ledger": {
         "category": 34,
-        "published": 1,
+        "published": 2,
         "total": 4,
-        "context": "1 of 4 subcategories published"
+        "context": "2 of 4 subcategories published"
       },
       "analytes": {
         "Pb": {
-          "status": "in_development",
+          "status": "published",
           "in_scope": true,
-          "published_limit_ppb": null,
+          "published_limit_ppb": 1000,
           "precise_ppb": 1000,
           "native_basis": "as_sold",
-          "cross_basis_ppb": null,
-          "cross_basis_label": null,
-          "rationale_tag": null,
+          "cross_basis_ppb": 142.8571,
+          "cross_basis_label": "prepared_for_feeding",
+          "rationale_tag": "regulatory-alignment",
           "regulatory_cap_ppb": 1000,
           "regulatory_cap_source": "eu2023_pb_salt_1000",
           "evidence_state_note": "READY FOR REVIEW (regulatory cap applies); distinct_sources=3; sens_band=stable; classify=resolved/firm",
           "gates": {
-            "pairing": false,
+            "pairing": true,
             "methodology": true,
             "readiness": true,
             "scope": true
           },
-          "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)"
-          ]
+          "held_reasons": []
         },
         "tAs": {
           "status": "in_development",
@@ -3755,13 +3749,12 @@
           "regulatory_cap_source": "eu2023_cd_salt_500",
           "evidence_state_note": "PROVISIONAL: review sensitivity disagreement; distinct_sources=2; sens_band=provisional; classify=resolved/provisional",
           "gates": {
-            "pairing": false,
+            "pairing": true,
             "methodology": true,
             "readiness": false,
             "scope": true
           },
           "held_reasons": [
-            "gate1:across_row_review_hook unresolved (no RESOLVED marker)",
             "gate3:classify-provisional (literature-baseline)"
           ]
         },
@@ -3902,12 +3895,12 @@
   ],
   "summary": {
     "locked_rows": 15,
-    "rows_with_any_firm_analyte": 2,
+    "rows_with_any_firm_analyte": 5,
     "analyte_cells_total": 150,
-    "analyte_cells_published": 3,
-    "analyte_cells_in_development": 147,
+    "analyte_cells_published": 7,
+    "analyte_cells_in_development": 143,
     "held_by_gate": {
-      "gate1_pairing": 39,
+      "gate1_pairing": 33,
       "gate2_methodology": 0,
       "gate3_readiness": 5,
       "gate4_scope": 0,
