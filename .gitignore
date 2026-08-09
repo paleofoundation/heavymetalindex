@@ -45,6 +45,7 @@ replit.nix
 .claude/*
 !.claude/skills/
 !.claude/skills/**
+!.claude/settings.json
 # Local PDF extraction packets/prompts may contain copyrighted source text.
 # Keep them local and commit only structured evidence, queues, audits, and gap reports.
 data/evidence/local_reingest_packets/
@@ -84,3 +85,6 @@ data/evidence/fetch-app/
 *.sqlite-shm
 *.sqlite-wal
 .env*
+
+# outstanding-items daily digest snapshots (regenerable push trail)
+data/evidence/outstanding/digests/

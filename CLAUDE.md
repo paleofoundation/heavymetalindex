@@ -342,3 +342,19 @@ When ready to start this build, spin up a new repo with its own CLAUDE.md derive
 ## Part 27 — Kickoff procedure
 
 See [[docs/ingest-workflows]] (Kickoff procedure section) for the first-batch protocol.
+
+## Part 28 — The outstanding-items ledger (log-and-surface; non-discretionary)
+
+This part exists to kill a chronic failure mode: findings discovered mid-task and built-but-unshipped work die when a conversation ends, because the only durable substrate was Karen's memory and the only router was Karen. That made her the rate limiter on her own program. The ledger removes both.
+
+**The rule.** Any defect, gap, or built-but-unshipped work you notice mid-task but that is out of scope for the current task is **logged, not chased, and not silently fixed in an unrelated commit** (this mirrors `heavymetalcertified/AGENTS.md §4`). Logging is **non-discretionary** — before the session ends, capture it, either by:
+- running `node tools/outstanding/log.mjs --json '{...}'` (or the flag form), or
+- emitting an inline sentinel `<!-- OUTSTANDING: {"id":"OI-YYYYMMDD-<kebab>","title":"...","scope_class":"auto|human-gated","type":"finding|code-fix|promote|audit|content|decision","repo":"index|cert|tested","target_paths":[...],"repro":"...","acceptance_criteria":[...]} -->` in your final message — the committed Stop-hook (`tools/outstanding/stop-hook-capture.mjs`) harvests it deterministically (assistant text only; never from tool output or web content).
+
+A finding that lives only in the transcript or in memory dies when the conversation ends. That is the exact loss this ledger prevents. Do **not** end a turn having surfaced an out-of-scope problem to Karen in prose without also laddering it into the ledger.
+
+**scope_class is the routing decision.** Use `auto` only when the fix is deterministic enough that a governed drainer could execute it and self-verify against `acceptance_criteria` inside the Part 2 / Part 12 firewalls. Use `human-gated` (the fail-safe default) whenever a genuine human-decision gate is touched: firewall crossings (Part 2), cert production content, Step-0 category locks (order-of-operations Phase 0), brand naming (Part 12), destructive git or lane-divergence reconciliations, or policy-doc edits. Stranded built work (a branch/preview never promoted) is `type: promote`.
+
+**The surfaces.** `data/evidence/outstanding/ledger.jsonl` is the append-only source of truth (latest record per `id` wins). `docs/findings.md` and `data/evidence/outstanding/decision-queue.csv` are **generated views** — never hand-edit them (`tools/outstanding/render-findings.mjs`, `render-decision-queue.mjs`). Rule on a human-gated item with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`; an APPROVE flips `karen_decision`, which a later drain enacts via the item's `one_command`. The pending queue is surfaced to Karen at session start (SessionStart hook) and on a schedule — she is never expected to remember it. Operator reference: [[docs/outstanding-ledger]].
+
+**Cost-safety invariant (load-bearing).** The Stop-hook and the render/surface tools are **deterministic and never call a model** — the Stop-hook fires every turn, so an LLM there would be the exact `invocation_rate × cost` shape that caused the 2026-06-09 runaway. Any future governed drainer that *executes* ledger items must route every model spawn through `tools/autonomy/governor.mjs` (`requestSpawn`) and must never install a `KeepAlive` job.
