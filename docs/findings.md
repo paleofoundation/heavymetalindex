@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-13 open item(s): 6 auto, 7 awaiting a decision.
+15 open item(s): 6 auto, 9 awaiting a decision.
 
 ### OI-20260809-enable-decision-digest — Enable the out-of-session decision-digest launchd job (one command)
 
@@ -521,6 +521,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: SessionStart surfacing is live; the out-of-session push (weekday-morning notification) is built and ready but not installed, because a launchd job is machine-level persistent config that should be your explicit choice given the deliberately-empty autonomy surface.
 - done when: launchd job com.paleo.hmi.decision-digest loaded
 - decision: _pending_ — enact: `cp tools/outstanding/com.paleo.hmi.decision-digest.plist ~/Library/LaunchAgents/ && launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.paleo.hmi.decision-digest.plist`
+
+### OI-20260809-cert-big8-fsanz-al-single-value-false — Correct false FSANZ single-aluminium-ML-incl-soy claim on live cert Big-8 briefing
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/briefings/the-big-8.md`
+- repro: the-big-8.md line 50: FSANZ sets a single maximum level for aluminium in infant formula products ... applying to all products including soy-based; and the [4] reference note (~line 104) repeats Single maximum level ... all products including soy-based. FALSE per primary Code text: Schedule 19 S19-4 (F2024C00908, in force 13 Sep 2024) sets non-soy 0.5, soy-based 1 (2x), pre-term 0.2 mg/kg; P1028 Amdt 231 INSERTED the split. Adjudication: index repo data/workbench/standards/2026-08-09-fsanz-aluminium-soy-split-adjudication.md. content/big-8.md and content/analytes/aluminum.md already state the split correctly.
+- done when: Line 50 restated to the law own cow/soy split (~500 ug/kg standard, ~1000 ug/kg soy-based), not a single value; Reference [4] note updated to remove single ... all products including soy-based; No cert page asserts FSANZ Al is a single value applying to soy-based formula; Rebuild + firewall/render lint clean before promote-to-main (LIVE deploy)
+- decision: _pending_
+
+### OI-20260809-al-recon-factor-x7-x8-mismatch — Reconcile Al powder basis factor: cert standards page 3500/7000 (x7) vs analytes page + index JSON 4000/8000 (x8)
+
+- scope: **human-gated** · type: finding · status: open · repo: cert
+- paths: `content/standards/infant-formula-powder.md`, `content/analytes/aluminum.md`
+- repro: Live cert /standards/infant-formula-powder publishes Al 3500 cow / 7000 soy (x7; lines 53/63). Live cert /analytes/aluminum publishes 4000 non-soy / 8000 soy (x8; section 23). Index compiled cat1-compiled/infant-formula-powder.json = 4000/8000 (x8, reconstitution_8to1:true). CLAUDE.md Part 19 + data/workbench/standards/hmtc-infant-formula-standard-v3.md = 3500/7000 (x7). Two different published Al powder numbers for the same standard; split (soy=2x cow) is correct in all, only the factor differs.
+- done when: Decide canonical infant-formula reconstitution factor (x8 per cat1-config reconstitution_8to1, or x7); All published Al powder cow/soy figures agree across cert standards page, cert analytes page, index compiled JSON, CLAUDE.md Part 19, v3 doc; Standard recompiled if the index factor changes; Rebuild + lint clean before any cert promote-to-main
+- decision: _pending_
 
 ### OI-20260808-weekly-briefing-ungoverned-opus — Route weekly-briefing.mjs Cochrane spawn through the governor
 
