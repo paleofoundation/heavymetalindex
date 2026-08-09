@@ -40,11 +40,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0.5, 0.8]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 0]
@@ -110,12 +110,16 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/pankiewicz2012-mercury-dairy-products-poland\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| tHg | n=3 | 0.5–0.8 | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
 | Cr | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The total-mercury value above was resynthesized on 2026-08-09 on a butter-fat wet-weight basis. The earlier profile reported total mercury at zero, an artifact of an FDA Total Diet Study composite below the 1 microgram per kilogram reporting limit pooled as a literal zero; below-limit non-detects are treated here as left-censored, not as measured zeros. [[sources/pankiewicz2012-thg-dairy-products-poland|Pankiewicz et al. 2012]] identifies butter as the highest-mercury dairy matrix at 0.58 to 0.79 micrograms per kilogram wet weight, still far below the 10 microgram per kilogram Polish maximum level, and [[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]] reports milk-product mercury near 1 to 2. These are real trace detects rather than measured zeros, so the value is reported as a low non-zero range.
 
 ## FDA TDS FY2018-FY2020 Evidence
 
