@@ -5,12 +5,12 @@ title: "Assessment of arsenic, cadmium, lead, mercury, and per- and polyfluoroal
 authors: ["Rachel C. Thoerig", "Lauren E. O'Connor", "Maureen K. Spill", "Arin A. Balalian", "Rupal Trivedi", "Shailesh M. Advani", "Cassi N. Uffelman", "Trish Bosse", "Margaret J. Foster", "Kyle M. Holland", "Kathryn G. Dewey", "Mandy M. Fisher", "Aubrey L. Galusha", "Carin A. Huset", "Amanda J. MacFarlane"]
 year: 2025
 publication: "American Journal of Clinical Nutrition, Vol. 122, pp. 1006-1026"
-doi: "10.1016/j.ajcnut.2025.07.001"
+doi: "10.1016/j.ajcnut.2025.07.039"
 source_type: peer-reviewed
 evidence_tier: A
 license: elsevier-cc-by
 raw_path: "raw/Digest/1-s2.0-S0002916525004563-main.pdf"
-access_url: "https://doi.org/10.1016/j.ajcnut.2025.07.001"
+access_url: "https://doi.org/10.1016/j.ajcnut.2025.07.039"
 metals: [Pb, Cd, As, iAs, tAs, Hg, MeHg, tHg]
 ingredients: ["[[ingredients/breastmilk]]", "[[ingredients/non-soy-infant-formula]]", "[[ingredients/soy-based-infant-formula]]"]
 products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]

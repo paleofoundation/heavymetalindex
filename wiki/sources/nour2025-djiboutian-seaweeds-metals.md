@@ -6,8 +6,8 @@ title: "Nutritional and heavy metal composition of seaweeds from the coast of Dj
 authors: [Nour IH, Nour AM, Farah A, Abdi JO, Abdourhaman MA]
 year: 2025
 publication: "Food Science and Nutrition"
-doi: 10.1002/fsn3.70089
-access_url: https://doi.org/10.1002/fsn3.70089
+doi: "10.1002/fsn3.70956"
+access_url: "https://doi.org/10.1002/fsn3.70956"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

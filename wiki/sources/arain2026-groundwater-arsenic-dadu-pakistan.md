@@ -6,8 +6,8 @@ title: "Multivariate Assessment of Groundwater Hydrochemistry for Drinking and I
 authors: [Arain GM, Memon S, Arain MB, Memon AA, Arain SA, Khuhawar MY]
 year: 2026
 publication: "ACS Omega"
-doi: 10.1021/acsomega.4c10893
-access_url: https://doi.org/10.1021/acsomega.4c10893
+doi: "10.1021/acsomega.5c09296"
+access_url: "https://doi.org/10.1021/acsomega.5c09296"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

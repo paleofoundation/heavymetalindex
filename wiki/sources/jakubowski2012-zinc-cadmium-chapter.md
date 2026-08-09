@@ -5,13 +5,13 @@ title: "Zinc and Cadmium Compounds (Chapter Seven), in Patty's Toxicology, Sixth
 authors: [Jakubowski M]
 year: 2012
 publication: "John Wiley & Sons, Inc."
-doi: 10.1002/0471435139
+doi: "10.1002/0471435139.tox029.pub2"
 source_type: textbook-chapter
 evidence_tier: A
 raw_path: raw/textbooks/Patty's Toxicology 6-Volume Set.pdf
 sha256: 7f6352cbdf8b38fab99f22512da8dffd7ea082562d09a32822b7b1689852cdf1
 access_date: 2026-04-24
-access_url: https://onlinelibrary.wiley.com/doi/book/10.1002/0471435139
+access_url: "https://doi.org/10.1002/0471435139.tox029.pub2"
 license: copyright-licensed-private
 metals: [Cd, Zn]
 ingredients: []

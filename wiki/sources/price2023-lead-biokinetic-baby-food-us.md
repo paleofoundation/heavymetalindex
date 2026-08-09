@@ -6,8 +6,8 @@ title: "Biokinetic Modeling of Lead Exposures in Baby Food Consuming U.S. Infant
 authors: [Price WT, Maddaloni M, Finley BL, Thornton KC, Unice KM]
 year: 2023
 publication: "Foods 12(9):1782"
-doi: 10.3390/foods12091782
-access_url: https://doi.org/10.3390/foods12091782
+doi: "10.3390/foods12142732"
+access_url: "https://doi.org/10.3390/foods12142732"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

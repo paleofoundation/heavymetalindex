@@ -6,8 +6,8 @@ title: "Maternal Exposure to Arsenic and Its Impact on Maternal and Fetal Health
 authors: [Ortiz-Garcia NY, Cipriano Ramirez AI, Juarez K, Brand Galindo J, Briceno G, Calderon Martinez E]
 year: 2023
 publication: "Cureus"
-doi: 10.7759/cureus.49523
-access_url: "https://doi.org/10.7759/cureus.49523"
+doi: "10.7759/cureus.49177"
+access_url: "https://doi.org/10.7759/cureus.49177"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: B

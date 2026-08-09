@@ -5,12 +5,12 @@ title: "Nickel Content of Food and Estimation of Dietary Intake"
 authors: ["Mari-Ann Flyvholm", "Gitte Dalsgaard Nielsen", "Allan Andersen"]
 year: 1984
 publication: "Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431"
-doi: "10.1007/BF01043437"
+doi: "10.1007/BF01043419"
 source_type: peer-reviewed
 evidence_tier: A
 license: springer
 raw_path: "raw 2/Nickel Content of Food and Estimation of Dietary Intake.pdf"
-access_url: "https://doi.org/10.1007/BF01043437"
+access_url: "https://doi.org/10.1007/BF01043419"
 metals: [Ni]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/soy]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/peanuts]]", "[[ingredients/almond]]", "[[ingredients/lentils]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-greens]]"]
 products: []

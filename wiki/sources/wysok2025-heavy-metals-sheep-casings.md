@@ -6,8 +6,8 @@ title: "Heavy Metal Contamination in Natural Sheep Casings"
 authors: [Wysok B, Wojtacka J, Szczotka-Bochniarz A]
 year: 2025
 publication: "Foods"
-doi: "10.3390/foods14091502"
-access_url: https://doi.org/10.3390/foods14091502
+doi: "10.3390/foods14091520"
+access_url: "https://doi.org/10.3390/foods14091520"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

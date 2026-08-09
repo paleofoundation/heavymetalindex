@@ -5,8 +5,8 @@ cite_key: zahran2023-mercury-tilapia-nannochloropsis
 title: "Toxicity Evaluation, Oxidative, and Immune Responses of Mercury on Nile Tilapia: Modulatory Role of Dietary Nannochloropsis oculata"
 authors: [Zahran E, Ahmed F, Hassan Z, Ibrahim I, Khaled AA, Palić D, El Sebaei MG]
 year: 2023
-doi: 10.1007/s11356-023-29215-z
-access_url: "https://doi.org/10.1007/s11356-023-29215-z"
+doi: "10.1007/s12011-023-03771-4"
+access_url: "https://doi.org/10.1007/s12011-023-03771-4"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

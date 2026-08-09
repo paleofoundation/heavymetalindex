@@ -6,8 +6,8 @@ title: "Enhanced Bioaccumulation and Transfer of Monomethylmercury through Perip
 authors: [Leclerc M, Ponton DE, Bilodeau F, Planas D, Amyot M]
 year: 2023
 publication: "Environmental Science & Technology"
-doi: 10.1021/acs.est.3c04964
-access_url: "https://doi.org/10.1021/acs.est.3c04964"
+doi: "10.1021/acs.est.3c05585"
+access_url: "https://doi.org/10.1021/acs.est.3c05585"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A

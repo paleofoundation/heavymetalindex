@@ -6,7 +6,8 @@ title: "Seasonal Lead Release into Drinking Water and the Effect of Aluminum"
 authors: [Trueman BF, Bleasdale-Pollowy A, Locsin JA, Bennett JL, Krkosek WH, Gagnon GA]
 year: 2022
 publication: "ACS ES&T Water"
-doi: 10.1021/acsestwater.1c00357
+doi: "10.1021/acsestwater.1c00320"
+access_url: "https://doi.org/10.1021/acsestwater.1c00320"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"

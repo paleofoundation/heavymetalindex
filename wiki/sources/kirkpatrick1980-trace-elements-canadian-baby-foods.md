@@ -5,7 +5,7 @@ title: "The Trace Element Content of Canadian Baby Foods and Estimation of Trace
 authors: ["Kirkpatrick DC", "Conacher HBS", "Méranger JC", "Dabeka R", "Collins B", "McKenzie AD", "Lacroix GMA", "Savary G"]
 year: 1980
 publication: "Canadian Institute of Food Science and Technology Journal 13(4):154-161"
-doi: "10.1016/S0315-5463(80)73332-1"
+doi: "10.1016/S0315-5463(80)73396-5"
 source_type: peer-reviewed
 evidence_tier: A
 evidence_fitness: EF-3
@@ -13,7 +13,7 @@ authoring_authority: "Health Protection Branch, Health and Welfare Canada (gover
 method_quality_caveat: "AAS at LOD 0.01 ppm = 10 ppb across all elements (two orders of magnitude higher than modern ICP-MS). LOD-substitution policy (samples <LOD set to LOD for averages) systematically inflates means by 1-2 orders of magnitude vs modern data. Cd recovery 80.4% (low; sugar interference). Only category-level mean/min/max published; sample-level data not in paper. Treat as **historical-baseline reference** within A-tier — useful for 50-year trajectory documentation (1980 mean Pb prepared formula 30 ppb vs FDA 2026 0.4 ppb = ~75× reduction) but NOT a modern-percentile-math driver."
 tier_rationale: "Per A-tier = peer-reviewed primary studies + government reports. This paper satisfies BOTH criteria (peer-reviewed publication AND Canadian government agency authorship). Method-modernity and journal-era concerns are captured in method_quality_caveat and Limitations section; not used to demote tier."
 license: "publisher-licensed (Pergamon Press / Elsevier)"
-access_url: "https://doi.org/10.1016/S0315-5463(80)73332-1"
+access_url: "https://doi.org/10.1016/S0315-5463(80)73396-5"
 raw_path: "raw/external-fetch/kirkpatrick1980 (1).pdf"
 metals: [Cd, Cr-total, Co, Cu, Fe, Pb, Mn, Ni, Zn]
 products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy, meat-and-poultry-purees, non-root-vegetable-purees, root-vegetable-purees, fruit-purees, baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]

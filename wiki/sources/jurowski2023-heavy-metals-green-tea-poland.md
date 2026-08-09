@@ -6,8 +6,8 @@ title: "The Control and Comprehensive Safety Assessment of Heavy Metal Impuritie
 authors: [Jurowski K, Kondratowicz-Pietruszka E, Krosniak M]
 year: 2023
 publication: "Biological Trace Element Research"
-doi: 10.1007/s12011-023-03686-0
-access_url: "https://doi.org/10.1007/s12011-023-03686-0"
+doi: "10.1007/s12011-023-03665-5"
+access_url: "https://doi.org/10.1007/s12011-023-03665-5"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A
