@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [61.6, 104]
@@ -106,12 +106,18 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=3 | 21–33.4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
 | iAs | n=2 | 0–230 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
 | tAs | n=2 | 3.3–6.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fera2015-uk-tds-metals\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
 | Ni | n=3 | 61.6–104 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | n=1 | 0–4292 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
 | Cr | n=3 | 0–61.6 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
 | Sn | n=1 | 0–67.3 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
 | U | n=2 | 1.3–11 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The total mercury cell previously read typical [0,0] with a p95 of 0. This is a censored-zero artifact: the FDA Total Diet Study returned mercury non-detect in all 27 white enriched pre-sliced bread composites at a 1 ppb reporting limit, which is a bound and not a measured zero ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The cell is now expressed as left-censored at 1 ppb.
+
+The two other national studies confirm that mercury in white bread lies below the reporting limit rather than absent. The UK Total Diet Study placed white sliced bread near 0.3 ppb and other bread composites below 0.5 to 1 ppb ([[sources/fera2015-uk-tds-metals|Baxter et al. 2015]]), and the Irish Total Diet Study found mercury below its 5 ppb detection limit in nearly all cereal samples, with detectable mercury concentrated in fish rather than cereals ([[sources/fsai2016-total-diet-study-ireland-2012-2014|FSAI 2016]]). The value is therefore a below-limit bound with a typical range of 0 to 1 ppb, reported as total mercury and not methylmercury.
 
 ## Routing
 

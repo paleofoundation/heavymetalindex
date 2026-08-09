@@ -118,7 +118,7 @@ function createBody(r) {
   return `
 # ${r.title}
 
-Step 0 scope-locked row for HMTc Taxonomy v2.0 Category ${CAT.number} (${CAT.name}), Row ${r.row}. The row scope is locked (\`variant_type: ${r.variant_type}\`${r.platform_metals.length ? `, platform_metals ${r.platform_metals.join(", ")}` : ""}); per-analyte threshold numbers come from the staff Standards Workbench, not this page. Lock authority: [\`${LOCK_DOC}\`](/${LOCK_DOC}).
+Step 0 scope-locked row for HMTc Taxonomy v2.0 Category ${CAT.number} (${CAT.name}), Row ${r.row}. The row scope is locked (\`variant_type: ${r.variant_type}\`${r.platform_metals.length ? `, platform_metals ${r.platform_metals.join(", ")}` : ""}). Lock authority: [\`${LOCK_DOC}\`](/${LOCK_DOC}).
 
 This row carries the **tin flag** for Sn migration from the can, and inherits the fish-row mercury concern for its contents. Speciation (MeHg vs tHg) is non-substitutable.
 
@@ -128,7 +128,7 @@ Routable destination for source pages declaring \`products: [${r.slug}]\` and th
 
 ## Methodology
 
-Reports what cited sources say about heavy-metal concentrations in this row. Speciation non-substitutable per CLAUDE.md Part 14. Basis preserved. Percentile arithmetic stays on the staff Standards Workbench.
+Reports what cited sources say about heavy-metal concentrations in this row. Speciation non-substitutable per CLAUDE.md Part 14. Basis preserved.
 
 ## Literature Evidence Summary
 

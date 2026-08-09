@@ -8,18 +8,18 @@ category: dairy
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [1, 20]
+    p95_ppb: 60
     confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 2]
+    p95_ppb: 15
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -36,18 +36,18 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 120]
+    p95_ppb: 150
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 20]
+    p95_ppb: 30
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
-| Cd | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=5 | 1–20 | medium | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/chen2020-milk-types-elements-china\|2]], [[sources/davidov2019-cow-milk-heavy-metals\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|4]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|5]] |
+| Cd | n=5 | 0–2 | low | [[sources/starska2011-noxious-elements-milk-products-poland\|1]], [[sources/chen2020-milk-types-elements-china\|2]], [[sources/davidov2019-cow-milk-heavy-metals\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|4]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|5]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
-| Ni | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]] |
+| tHg | n=4 | 0–1 | low | [[sources/pankiewicz2012-thg-dairy-products-poland\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|4]] |
+| Ni | n=3 | 0–120 | low | [[sources/davidov2019-cow-milk-heavy-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0–20 | low | [[sources/davidov2019-cow-milk-heavy-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]] |
+
+## Synthesis basis and censoring treatment
+
+The per-analyte values above were resynthesized on 2026-08-09 on a liquid whole-milk as-consumed (wet-weight) basis. The earlier profile reported lead, cadmium, total mercury, nickel, and chromium at typical and 95th-percentile values of zero. Those figures were an artifact of FDA Total Diet Study composites in which every whole-milk sample fell below the reporting limit (lead 1, cadmium 1, mercury 1, nickel 20, chromium 25 micrograms per kilogram) and the reported non-detects were pooled as literal zeros. Values below the analytical reporting or detection limit are treated here as left-censored, not as measured zeros.
+
+Lead in commercial milk is low but non-zero, with a regional right tail. [[sources/starska2011-noxious-elements-milk-products-poland|Starska et al. 2011]], sampling 483 Polish milk and dairy products, reports a milk mean of 8 and a 90th percentile of 17 micrograms per kilogram, with two of 75 milk samples above the 20 microgram per kilogram Codex maximum level and a maximum of 50. [[sources/chen2020-milk-types-elements-china|Chen et al. 2020]] reports a Chinese cow-milk mean of 23.4, above the Codex level, and [[sources/davidov2019-cow-milk-heavy-metals|Davidov et al. 2019]] a Serbian mean of 80 described by the authors as just above recommended values. Cadmium, chromium, and total mercury sit at or below a few micrograms per kilogram across these datasets; total mercury in particular is genuinely trace, with [[sources/pankiewicz2012-thg-dairy-products-poland|Pankiewicz et al. 2012]] reporting Polish milk at 0.03 to 0.06. Nickel spans from below the FDA reporting limit to the 119 microgram per kilogram Serbian mean. Values reported only in a contaminated-market survey ([[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese|Ibrahim et al. 2024]], Egyptian raw-milk cadmium mean 90) are carried as an elevated-context tail rather than adopted as the central value.
 
 ## Routing
 

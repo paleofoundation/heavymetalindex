@@ -8,18 +8,18 @@ category: dairy
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 300]
+    p95_ppb: 800
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 100]
+    p95_ppb: 250
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -36,18 +36,18 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 200]
+    p95_ppb: 1000
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 50]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 1
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=4 | 0–300 | low | [[sources/capcarova2023-mozzarella-trace-elements-slovakia\|1]], [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|2]], [[sources/erol2025-turkish-cheese-metals\|3]], [[sources/fda2022-tds-elements-fy2018-fy2020\|4]] |
+| Cd | n=3 | 0–100 | low | [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=3 | 0–1 | low | [[sources/erol2025-turkish-cheese-metals\|1]], [[sources/pankiewicz2012-thg-dairy-products-poland\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Ni | n=2 | 0–200 | low | [[sources/capcarova2023-mozzarella-trace-elements-slovakia\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=1 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–1.2 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The per-analyte values above were resynthesized on 2026-08-09 on a matured-cheese wet-weight basis. The earlier profile reported all five analytes at zero, an artifact of FDA Total Diet Study cheddar composites that fell below the reporting limit (lead 4, cadmium 1, mercury 1, nickel 40, chromium 50 micrograms per kilogram); below-limit non-detects are treated here as left-censored, not as measured zeros.
+
+Cheese-making concentrates the metals present in milk, and matured-cheese datasets outside the United States report lead and cadmium well above the FDA cheddar reporting limit. [[sources/capcarova2023-mozzarella-trace-elements-slovakia|Capcarova et al. 2023]] reports Italian mozzarella lead of 580 to 810 and nickel of 720 to 1610 micrograms per kilogram in solid fractions; [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese|Ibrahim et al. 2024]] reports Egyptian matured-cheese lead of 340 to 610 and cadmium of 120 to 250; [[sources/erol2025-turkish-cheese-metals|Erol and Urkek 2025]] documents a single artisanal outlier at 1788 micrograms per kilogram lead and 468 total mercury. The wide ranges and low confidence reflect an unresolved discrepancy between United States cheddar, which fell below the reporting limit, and European and Middle-Eastern matured cheeses, which do not. Total mercury and chromium remain trace outside occasional artisanal outliers, and no cheddar-specific total-chromium detection is available in the focused source set, so chromium is reported as the left-censored upper bound at the FDA reporting limit.
 
 ## Routing
 

@@ -27,7 +27,7 @@ This is the master rollup page for HMT&C Category 2 — Children's Personal Care
 
 ## Who this page is for
 
-Brand legal teams evaluating Cat 2 certification for children's personal-care lines need the row-by-row matrix below, the per-row literature pages it links to, and the cross-row platform attribution showing which contamination signals share root causes across multiple rows. Retailer compliance teams stocking infant-care aisles use the 16-row inventory as the assortment-eligibility view. HMT&C internal staff use this page as the routing hub between Cat 2 rows and source evidence. Regulators and journalists use it as the canonical reference for which children's personal-care categories the literature has characterized and what the platform-level contamination story looks like.
+Brand legal teams evaluating HMT&C certification for children's personal-care lines need the row-by-row matrix below, the per-row literature pages it links to, and the cross-row platform attribution showing which contamination signals share root causes across multiple rows. Retailer compliance teams stocking infant-care aisles use the 16-row inventory as the assortment-eligibility view. HMT&C internal staff use this page as the routing hub between Cat 2 rows and source evidence. Regulators and journalists use it as the canonical reference for which children's personal-care categories the literature has characterized and what the platform-level contamination story looks like.
 
 ## Methodology
 
@@ -37,7 +37,7 @@ HMT&C certification thresholds for Cat 2 children's personal-care products are d
 
 ## The 16-row Cat 2 inventory
 
-Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used by the standards workbench, the certification documents, and the source-routing layer.
+Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 2026-05-16. Adding, removing, splitting, or merging rows requires re-opening the architectural lock. The row numbers are permanent identifiers used across the certification program and the source-routing layer.
 
 | Row | Slug | Variant type | Primary metals | Pair | Notes |
 |----:|---|---|---|---:|---|
@@ -58,7 +58,7 @@ Cat 2 has exactly sixteen rows, locked under Step Zero Protocol v1.4 §0G on 202
 | 15 | [[products/childrens-lip-balm-plain]] | clean benchmark | Pb (low) | 16 | Plain (no pigment); the clean alternative to row 16 |
 | 16 | [[products/childrens-lip-balm-mineral-bearing]] | higher-contamination row | Pb, Cd, Ni, Cr | 15 | Mineral pigment platform; ingestion via lip-to-mouth transfer |
 
-Four clean/contaminated sibling pairs structure the Cat 2 standards math: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row inherits P97 standards and the contaminated row inherits P45 standards. Rows 1, 2, 5, 6 are independent (no within-pair partner); they receive P97 standards treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the Cat 2 inventory; their per-analyte standard is the row's marginal P45 in native finished-product basis.
+Four clean/contaminated sibling pairs structure this category: (3, 4), (7, 8), (9, 10), and (15, 16). Within each pair, the clean row and its higher-contamination counterpart are each certified against their own row-specific criteria. Rows 1, 2, 5, 6 are independent (no within-pair partner) and are treated as clean-by-default. Rows 11, 12, 13, 14 are whole-row contamination platforms with no clean sibling in the inventory. Certification thresholds for every row are set separately under the certification program at heavymetaltested.com, not on this page.
 
 ## Cross-row contamination platforms
 

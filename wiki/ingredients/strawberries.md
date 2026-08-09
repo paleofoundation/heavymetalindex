@@ -8,11 +8,11 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 10]
+    p95_ppb: 30
     confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [2.1, 15]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 3
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 64]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 32]
+    p95_ppb: 56
     confidence: medium
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 14.1]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=4 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
+| Pb | n=5 | 0–10 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|4]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|5]] |
 | Cd | n=4 | 2.1–15 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
 | iAs | n=1 | 21.4–66.3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=3 | 0–5.7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
 | Ni | n=3 | 0–64 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Al | n=1 | 236.5–1665 | low | — |
-| Cr | n=3 | 0 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/reczajska2005-chromium-plant-foods-poland\|3]] |
+| Cr | n=3 | 0–32 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/reczajska2005-chromium-plant-foods-poland\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
 | Sn | n=1 | 0–14.1 | low | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|1]] |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile carried strawberry lead, total mercury, and chromium at [0, 0] with a p95 of 0. Those zeros were an artifact of the FDA Total Diet Study reporting the 27 strawberry samples below their reporting limits (lead below 4 ppb, total mercury below 1 ppb, chromium below 50 ppb) as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Each cell is now treated as left-censored at its reporting limit, with dry-weight sources converted to fresh weight using the strawberry edible fraction of 0.09.
+
+Fresh-weight surveys show these metals are consistently detectable. [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]] reported strawberry lead at a mean of 6 ppb, [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]] fresh berries lead at 8 to 17 ppb with a P90 of 26 to 38 and mercury at a middle-bound mean of 0.4 to 2.1 ppb, [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]] Polish fresh strawberry lead at a mean of 9 ppb (max 27), and [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing|Bora et al. 2022]] Romanian strawberry lead near 10 to 11 ppb. For chromium, [[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]] measured total chromium directly in 42 Polish strawberries at a mean of 32 ppb, median 28, P90 56, and maximum 134 ppb fresh weight, corroborated by the Lee fruit chromium near 31 ppb. Elevated allotment-garden lead from [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits|Sembratowicz et al. 2010]] is carried as a tail; chromium values are total chromium, not Cr-VI.
 
 ## Routing
 

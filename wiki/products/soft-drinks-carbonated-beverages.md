@@ -47,10 +47,6 @@ This page is HMTc Category 5 row 14 from the locked beverage architecture. It ex
  <dt>Regulators, journalists, and adversarial readers</dt>
  <dd>Every numeric claim on this page traces to a source page. The Evidence Governance note explains what this page is and is not (literature evidence, not HMT&amp;C certification thresholds).</dd>
  </div>
- <div>
- <dt>HMT&amp;C staff (internal)</dt>
- <dd>The threshold-selection arithmetic (percentile statistics, clean / dirty subcategory designation, pooling math) lives in the local staff Standards Workbench tool and under <code>data/workbench/standards/</code>, never on this public page or anywhere else under <code>wiki/</code>. See.</dd>
- </div>
  </dl>
 </div>
 <!-- END: hmi-stakeholder-guide -->
@@ -86,7 +82,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Soft drinks/carbonated beverages. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Soft drinks/carbonated beverages. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -98,7 +94,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Who this page is for
 
-Brand legal teams evaluating HMTc Cat 5 certification for the Soft drinks / carbonated beverages row, retailer compliance teams stocking the beverage aisle, and HMT&C staff routing source evidence to this row. This page reports what the cited literature says about heavy-metal occurrence in soft drinks and carbonated beverages; HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
+Brand legal teams evaluating HMT&C certification for the Soft drinks / carbonated beverages row, retailer compliance teams stocking the beverage aisle, and HMT&C staff routing source evidence to this row. This page reports what the cited literature says about heavy-metal occurrence in soft drinks and carbonated beverages; HMT&C certification thresholds for products in this row are developed under the certification program at heavymetaltested.com, not on this page.
 
 ## Methodology
 

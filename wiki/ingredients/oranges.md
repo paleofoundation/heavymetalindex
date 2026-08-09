@@ -8,18 +8,18 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 10]
+    p95_ppb: 25
     confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1.2]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [0, 0]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 60.2]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 5
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 40]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [3.7, 6.8]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=6 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
-| Cd | n=6 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Pb | n=4 | 0–10 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/czech2021-citrus-lead-cadmium\|2]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|3]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|4]] |
+| Cd | n=3 | 0–1.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/czech2021-citrus-lead-cadmium\|2]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|3]] |
 | iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=2 | 0 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|2]] |
 | Ni | n=4 | 0–60.2 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/afrin2020-heavy-metals-fruits-dhaka\|3]] |
 | Al | n=1 | 95.7–861.3 | low | — |
-| Cr | n=5 | 0 | medium | [[sources/mekonnen2024-ethiopia-fruit-metals\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Cr | n=2 | 0–40 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|2]] |
 | Sn | n=1 | 3.7–6.8 | low | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile carried orange lead, cadmium, total mercury, and chromium at [0, 0] with a p95 of 0. Those zeros reflected the FDA Total Diet Study reporting below-limit results as literal zeros: lead below the 4 ppb reporting limit, total mercury and chromium below 1 ppb and 50 ppb respectively, and cadmium below 1 ppb in 26 of 27 samples with a single 1.2 ppb detect ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Each cell is now treated as left-censored at its reporting limit, with dry-weight sources converted to fresh weight using the orange edible fraction of 0.13.
+
+European retail-citrus data show low but real concentrations. [[sources/czech2021-citrus-lead-cadmium|Czech et al. 2021]] measured whole-orange lead at about 10 ppb and cadmium at about 0.34 ppb fresh weight, [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland|Mania et al. 2021]] placed non-berry fresh-fruit lead at 6 to 15 ppb with a P90 of 22 to 29 and mercury at a middle-bound mean of 0.3 to 1.7 ppb, and [[sources/lee2023-south-korea-fresh-fruits-seven-metals|Lee et al. 2023]] detected total chromium in every Korean fresh-fruit sample near 31 ppb fresh weight. Ethiopian open-market orange from [[sources/mekonnen2024-ethiopia-fruit-metals|Mekonnen et al. 2024]], reporting 0.147 mg/kg cadmium and 0.759 mg/kg chromium on a dry-weight basis (about 19 and 99 ppb fresh weight after conversion), is carried as a developing-market tail rather than the central value. Chromium values are total chromium, not Cr-VI.
 
 ## Routing
 

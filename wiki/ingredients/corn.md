@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 19
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 20]
+    p95_ppb: 200
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [1.4, 3.5]
@@ -33,18 +33,18 @@ contamination_profile:
     last_reviewed: 2026-05-12
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 13
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3]
+    p95_ppb: 8
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 2
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 54.4]
@@ -61,11 +61,11 @@ contamination_profile:
     last_reviewed: 2026-05-12
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 15
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 50]
+    p95_ppb: 600
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -108,16 +108,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=19 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Pb | n=5 | 0–20 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/el-hassanin2020-egypt-maize-pb-cd\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|4]], [[sources/rubio2023-metals-cereals-madeira-azores\|5]] |
 | Cd | n=18 | 1.4–3.5 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
 | iAs | data gap | — | — | — |
-| tAs | n=13 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
-| tHg | n=8 | 0 | medium | [[sources/hassan2025-cornflakes-lebanon-metals\|1]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
+| tAs | n=3 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/masite2022-mopane-trace-metals\|3]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/hassan2025-cornflakes-lebanon-metals\|2]], [[sources/rubio2023-metals-cereals-madeira-azores\|3]] |
 | Ni | n=8 | 0–54.4 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/abatemi-usman2023-corn-cement-nigeria\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=15 | 0 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/gholami2025-heavy-metals-corn-iran-khuzestan\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
+| Cr | n=3 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|2]], [[sources/hassan2025-cornflakes-lebanon-metals\|3]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The lead, total arsenic, total mercury and chromium cells on this page previously read typical [0,0] with a p95 of 0. That pattern is an artifact of coding below-limit non-detects as literal zeros rather than as left-censored observations. In the FDA Total Diet Study, frozen boiled corn returned non-detect in all 27 composites for each of these four analytes, at reporting limits of 4 ppb for lead, 3 ppb for total arsenic, 1 ppb for total mercury and 50 ppb for chromium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Those results establish that US commercial corn sits at or below the reporting limit, which is a bound rather than a measured zero, so each cell is now expressed as left-censored at its limit with a central range that starts at the limit and a p95 drawn from real upper-tail commercial data.
+
+Corn does not concentrate arsenic or mercury the way flooded-paddy rice concentrates arsenic, and clean freshwater-irrigated maize carries lead below detection to about 40 ppb ([[sources/el-hassanin2020-egypt-maize-pb-cd|El-Hassanin et al. 2020]]). The right tail is set by general commercial markets rather than by contaminated sites: fertilizer-influenced Ethiopian market maize reached a lead mean of 370 ppb and a chromium mean of 1840 ppb ([[sources/getu2022-heavy-metals-cereals-ethiopia|Getu et al. 2022]]), and Madeira corn flour reached a lead maximum of 720 ppb ([[sources/rubio2023-metals-cereals-madeira-azores|Rubio et al. 2023]]). Industrial and mining-zone values are treated as elevated context only and are excluded from the central: the Khuzestan industrial-zone maize of 1840 ppb lead, 1570 ppb arsenic and 4920 ppb chromium is flagged by its own source as not representative of global commercial corn ([[sources/gholami2025-heavy-metals-corn-iran-khuzestan|Gholami et al. 2025]]), and the Nigerian household mercury median near 3000 ppb is flagged by its source as an artisanal-gold-mining anomaly and probable method artifact ([[sources/ibrahim2024-food-heavy-metals-nigeria|Ibrahim et al. 2024]]).
 
 ## FDA TDS FY2018-FY2020 Evidence
 

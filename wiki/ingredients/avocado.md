@@ -8,11 +8,11 @@ category: fruit
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 12]
+    p95_ppb: 30
     confidence: medium
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [2.9, 18]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 50]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -104,16 +104,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Pb | n=3 | 0–12 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|3]] |
 | Cd | n=3 | 2.9–18 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | iAs | n=1 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tAs | n=3 | 0–25.6 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | tHg | n=3 | 0–0.4 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Ni | n=3 | 105.2–374 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
+| Cr | n=2 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/yoplac2026-peruvian-avocado-metals-health-risk\|2]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile carried avocado lead and chromium at [0, 0] with a p95 of 0. For lead this understated the FDA Total Diet Study, which found 26 of 27 samples below the 4 ppb reporting limit but one sample at 12 ppb; for chromium all 27 samples fell below the 50 ppb reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Both cells are now treated as left-censored at their reporting limits, and dry-weight sources are converted to fresh weight by multiplying by the avocado edible fraction of 0.27.
+
+For lead, commercial Hass mesocarp is mostly below detection ([[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf|Anastario et al. 2025]]), apart from one California-organic detect near 38 ppb fresh weight after conversion. Peruvian export regions La Libertad and Lima run higher, at roughly 62 to 107 ppb fresh weight when the dry-weight means of [[sources/yoplac2026-peruvian-avocado-metals-health-risk|Yoplac-Navarro et al. 2026]] are converted, and these are carried as an elevated EU-RASFF-flagged mining-legacy tail rather than the central value. Chromium is genuinely fully censored: Yoplac-Navarro found it below detection in every one of 95 pulp samples at a limit near 1 ppb fresh weight, which together with the FDA non-detect indicates true chromium well below the coarse 50 ppb reporting limit, so the cell is published at that maximum applicable reporting limit pending any positive detection. Chromium values are total chromium, not Cr-VI.
 
 ## Routing
 

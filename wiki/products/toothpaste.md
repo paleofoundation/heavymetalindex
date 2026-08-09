@@ -28,11 +28,11 @@ This is a Cat 2 (Children Personal Care) product-category page covering toothpas
 
 ## Who this page is for
 
-Brand legal teams evaluating Cat 2 certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and how the cited literature distributes around that cap. Retailer compliance teams stocking children's oral care need to confirm certified-brand assortment eligibility. Per OPERATING.md Part 7 initiative 3.1, the Cat 2 toxicology methodology supplement (which must incorporate the toothpaste ingestion-during-brushing pathway as a discrete exposure route) is a prerequisite for defensible HMTc thresholds on this row.
+Brand legal teams evaluating HMT&C certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and how the cited literature distributes around that cap. Retailer compliance teams stocking children's oral care need to confirm certified-brand assortment eligibility. The non-ingestion and ingestion-during-brushing exposure pathways relevant to toothpaste are documented at [[health/cat-2-non-ingestion-exposure-pathways]].
 
 ## Methodology
 
-This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development per OPERATING.md Part 7 initiative 3.1) covers the modelling. HMT&C certification thresholds for toothpaste are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
+This page reports what the cited sources say about heavy-metal concentrations in toothpaste. Speciation is preserved (tHg, tAs reported separately from MeHg, iAs). Basis is preserved (finished-product as sold, µg/g or ppb total metal). Non-detect handling follows the source's convention; the Massarsky 2025 dataset uses Lead Safe Mama's reported values directly. Pooling avoided across LOD/LOQ, period, geography, and method differences. The toothpaste ingestion-during-brushing pathway differs from food (no first-pass metabolism, oral mucosa absorption fraction, age-dependent ingestion-of-dispensed-amount) — Cat 2 methodology supplement (in development) covers the modelling. HMT&C certification thresholds for toothpaste are developed under the certification program at heavymetaltested.com, not on this page; this public page reports literature evidence only.
 
 ## Literature Evidence Summary
 
@@ -41,7 +41,7 @@ This page reports what the cited sources say about heavy-metal concentrations in
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Toothpaste (Cat 2). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Toothpaste (Cat 2). Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -99,7 +99,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 
 ## How standards math uses this page
 
-The percentile arithmetic that informs HMTc toothpaste thresholds lives on the staff Standards Workbench (`data/workbench/standards/toothpaste.md`, to be generated). This public page reports literature evidence; the workbench applies the Cat 2 methodology (including the ingestion-during-brushing exposure supplement per OPERATING.md Part 7 initiative 3.1) to produce candidate threshold values. The gap between literature evidence and HMTc thresholds is named honestly on the workbench, not hidden.
+This page reports what the peer-reviewed and government literature says about heavy-metal concentrations in this product category; it publishes no certification thresholds of its own. Certification criteria are set separately under the Heavy Metal Tested & Certified program at heavymetaltested.com, which reads this page as its literature baseline. The two are kept apart by design, so this page remains an independent record of the evidence rather than a justification for any threshold.
 
 ## Historical recalls and enforcement
 

@@ -8,11 +8,11 @@ category: legume
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 5]
+    p95_ppb: 12
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [0.3, 2.9]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 1]
+    p95_ppb: 2
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [15.2, 151.2]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 15]
+    p95_ppb: 50
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -102,16 +102,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Pb | n=2 | 0–5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]] |
 | Cd | n=3 | 0.3–2.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]] |
 | Ni | n=3 | 15.2–151.2 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0–15 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|2]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–1.4 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The FDA Total Diet Study reported lead below its 4 ppb reporting limit, total mercury below its 1 ppb reporting limit, and total chromium below its 50 ppb reporting limit in all 3 boiled-frozen-pea composites ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The evidence base for this matrix is thin at 3 composites, but the non-detects are left-censored at the reporting limit rather than coded as zeros. The Jiaozuo Chinese-market survey provides supporting fresh-weight context with a vegetable-group lead mean of 0.013 mg/kg (13 ppb), total mercury mean of 0.004 mg/kg (4 ppb), and total chromium mean of 0.032 mg/kg (32 ppb) ([[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo|Wu 2024]]).
+
+The synthesized central ranges are lead 0 to 5 ppb, total mercury 0 to 1 ppb, and total chromium 0 to 15 ppb, on a boiled-as-consumed fresh-weight basis. Blanching before freezing and boiling before consumption leach water-soluble metal fractions, which keeps the as-consumed pea values low. Confidence remains low across all three analytes because the pooled evidence is limited to the small FDA composite count plus one commercial anchor. No wastewater or hotspot values were admitted to the central estimate.
 
 ## Routing
 

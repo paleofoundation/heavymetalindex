@@ -15,11 +15,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 1.6]
+    p95_ppb: 2.6
+    confidence: medium
+    n_studies: 4
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [0, 3.6]
@@ -36,11 +36,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 1]
+    p95_ppb: 1
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 1
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
     typical_ppb: [0, 16]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-13
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
+    typical_ppb: [0, 19]
+    p95_ppb: 45
     confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 8.9]
@@ -105,15 +105,21 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
 | Pb | n=4 | 0.3–2.5 | medium | [[sources/paudel2024-packaged-fruit-juices-nepal\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fda2018-lead-in-juice-fy2005-fy2018\|3]] |
-| Cd | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]] |
+| Cd | n=4 | 0–1.6 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/paula2015-fruit-juices-elements-portugal\|3]], [[sources/desouza2022-fruit-juice-trace-elements\|4]] |
 | iAs | n=4 | 0–3.6 | medium | [[sources/fda2023-ias-apple-juice-guidance\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|3]] |
 | tAs | n=5 | 1.4–4 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/kubachka2019-arsenic-speciation-fruit-juice-fda\|2]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|3]] |
-| tHg | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=1 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Ni | n=3 | 0–16 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
 | Al | n=1 | 0–2560 | low | — |
-| Cr | n=3 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]] |
+| Cr | n=5 | 0–19 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|2]], [[sources/farid2010-fruit-juices-jeddah-trace-elements\|3]], [[sources/paula2015-fruit-juices-elements-portugal\|4]], [[sources/desouza2022-fruit-juice-trace-elements\|5]] |
 | Sn | n=4 | 0–8.9 | medium | [[sources/tarigan2016-factors-tin-released-canned-beverages\|1]], [[sources/atsdr2005-tin-toxicological-profile\|2]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|3]] |
 | U | n=2 | 0 | low | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|1]] |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile carried cadmium, total mercury, and chromium at [0, 0] with a p95 of 0. Those zeros were an artifact of the FDA Total Diet Study recording below-limit results as literal zeros. In the FY2018 to FY2020 bottled apple juice set, cadmium and total mercury sat below the 1 ppb reporting limit in all three samples and total chromium below the 25 ppb reporting limit ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Each is now treated as left-censored at its reporting limit rather than as a true absence, and values are reported on a single-strength juice basis.
+
+Commercial fruit-juice surveys show that these analytes are present at low, detectable levels rather than absent. [[sources/magdas2012-romanian-apple-juice-isotopic-elemental|Magdas et al. 2012]] found cadmium at a regional mean near 0.4 ppb in Romanian apple juice, [[sources/paula2015-fruit-juices-elements-portugal|Paula et al. 2015]] a Portuguese fruit-juice mean of 1.6 ppb, and [[sources/desouza2022-fruit-juice-trace-elements|de Souza et al. 2022]] an apple-juice detect at 2.6 ppb. For total chromium the bulk of the literature is low ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]] juices below 1 ppb, Paula 2.8 ppb, [[sources/farid2010-fruit-juices-jeddah-trace-elements|Farid and Enani 2010]] 6.4 ppb, de Souza 3.1 to 18.9 ppb), while Magdas ran higher at a regional mean of 39 to 94 ppb with the authors attributing part of the chromium and nickel signal to processing-contact materials, so that elevated result anchors the upper tail rather than the central value. Mercury was not measured by any of the juice surveys, so its cell remains a single-source censored bound at 1 ppb. All chromium values are total chromium, not Cr-VI.
 
 ## Routing
 

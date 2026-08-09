@@ -106,7 +106,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=3 | 0–4.3 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
 | iAs | n=1 | 0–11.2 | low | — |
 | tAs | n=2 | 3–37 | low | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/starska2011-noxious-elements-milk-products-poland\|2]] |
-| tHg | n=3 | 0–1 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/pankiewicz2012-mercury-dairy-products-poland\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
+| tHg | n=3 | 0–1 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/pankiewicz2012-thg-dairy-products-poland\|2]], [[sources/starska2011-noxious-elements-milk-products-poland\|3]] |
 | Ni | data gap | — | — | — |
 | Al | n=1 | 0–1734 | low | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]] |
 | Cr | data gap | — | — | — |

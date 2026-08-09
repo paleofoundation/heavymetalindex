@@ -12,18 +12,18 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 12]
+    p95_ppb: 40
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3]
+    p95_ppb: 12
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -106,8 +106,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
-| Cd | n=3 | 0 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|3]] |
+| Pb | n=4 | 0–12 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|3]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|4]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|5]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|6]] |
+| Cd | n=4 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|2]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|3]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|4]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|5]], [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt\|6]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 1.9–5.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | tHg | n=2 | 0 | low | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
@@ -116,6 +116,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=2 | 0–90.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–2.3 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The prior zero lead and cadmium values for ground beef reflected FDA pan-cooked ground beef composites (n=27) falling below reporting limits of 4 ppb for lead and 1 ppb for cadmium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]), which were recorded as zeros and pooled. Re-synthesis left-censors those nondetects at the reporting limit and anchors the central range on commercial beef-muscle surveys reported on a wet or fresh-weight basis. [[sources/khalafalla2011-beef-carcasses-metals-egypt|Khalafalla et al. 2011]] measured muscle lead at a mean of 8.77 ppb with a maximum of 35.6 and cadmium at 1.40 ppb with a maximum of 17.78 by ICP-MS, [[sources/dibella2020-augusta-meat-milk-seafood-metals|Di Bella et al. 2020]] reported beef lead near 19 ppb with cadmium below detection, and [[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]] found Kazakh beef below detection for both metals.
+
+The central value is therefore a low, left-censored lead of about 0 to 12 ppb and cadmium of about 0 to 3 ppb, not zero. Two markedly higher datasets are carried as elevated context only: [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Rabeey et al. 2025]] imported frozen bovine muscle with mean lead of 684 ppb and mean cadmium of 30 ppb, where more than sixty percent of samples exceeded the authors' lead limit, and [[sources/shaltout2020-meat-products-pb-cd-nitrite-egypt|Shaltout et al. 2020]] Egyptian minced meat at mean lead 60 ppb and cadmium 30 ppb. These reflect specific contaminated import and processing markets and are not representative of the commercial muscle baseline, so they set only the far right tail.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

@@ -12,11 +12,11 @@ tds_food:
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 4]
+    p95_ppb: 8
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
     typical_ppb: [0, 0]
@@ -106,7 +106,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0 | medium | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|2]], [[sources/fda2022-tds-elements-fy2018-fy2020\|3]] |
+| Pb | n=2 | 0–4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/barber2025-baby-food-elements-us\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]], [[sources/troeschel2024-cinnamon-applesauce-lead\|4]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\|5]] |
 | Cd | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
@@ -116,6 +116,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=2 | 0 | low | [[sources/troeschel2024-cinnamon-applesauce-lead\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier profile recorded applesauce lead at [0, 0] with a p95 of 0. That value came from the FDA Total Diet Study reporting the three bottled applesauce samples below the 4 ppb reporting limit as literal zeros ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). The cell is now treated as left-censored at the 4 ppb reporting limit on a processed-fruit-as-consumed basis, so it reads as below the reporting limit rather than as an absolute zero.
+
+Broader occurrence data confirm apple-based purees are among the lower-lead matrices without being empty. The 2023 FDA convenience survey ([[sources/barber2025-baby-food-elements-us|Barber et al. 2025]]) placed baby-food puree lead at a mean of 1.4 ppb and a P90 of 8 ppb, with the high tail attributable to sweet potato and carrot rather than apple, and fresh apple runs to about 24 ppb ([[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Rusin et al. 2021]]). The 2023 to 2024 WanaBana cinnamon-applesauce episode reached roughly 1900 to 3000 ppb lead ([[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel et al. 2024]], [[sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC|Napier et al. 2024]]), but that was a criminal lead-chromate adulteration of the cinnamon ingredient and not part of the applesauce occurrence distribution, so it is carried as an adulteration warning and excluded from the percentile estimate.
 
 ## FDA TDS FY2018-FY2020 Evidence
 

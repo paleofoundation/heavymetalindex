@@ -22,10 +22,10 @@ contamination_profile:
   iAs:
     status: populated
     typical_ppb: [0, 12]
-    p95_ppb: 12
-    confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    p95_ppb: 25
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
     typical_ppb: [0, 5]
@@ -42,18 +42,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Al:
     status: populated
-    typical_ppb: [2700, 6000]
-    p95_ppb: 6000
+    typical_ppb: [2000, 4500]
+    p95_ppb: 10000
     confidence: medium
-    n_studies: 8
-    last_reviewed: 2026-05-16
+    n_studies: 5
+    last_reviewed: 2026-08-09
   Cr:
     status: populated
-    typical_ppb: [100, 1000]
-    p95_ppb: 1000
-    confidence: high
-    n_studies: 18
-    last_reviewed: 2026-05-16
+    typical_ppb: [10, 150]
+    p95_ppb: 1200
+    confidence: medium
+    n_studies: 7
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 20]
@@ -99,14 +99,20 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=28 | 10–100 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
 | Cd | n=39 | 10–50 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/ozkutlu2026-wheat-cd-zinc-mitigation\|2]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|3]] |
-| iAs | n=8 | 0–12 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| iAs | n=4 | 0–12 | low | [[sources/fera2015-uk-tds-metals\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/shi2022-sulfur-as-cd-wheat\|3]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|4]] |
 | tAs | n=19 | 3–20 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|3]] |
 | tHg | n=14 | 0–5 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
 | Ni | n=16 | 100–800 | high | [[sources/asaditouranlou2025-bread-wheat-mashhad\|1]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| Al | n=8 | 2700–6000 | medium | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
-| Cr | n=18 | 100–1000 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|2]], [[sources/asaditouranlou2025-bread-iran-montecarlo\|3]] |
+| Al | n=5 | 2000–4500 | medium | [[sources/balbo2022-bread-contaminants-poland\|1]], [[sources/stahl2017-aluminum-food-contact-part1\|2]], [[sources/fera2015-uk-tds-metals\|3]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|4]], [[sources/asaditouranlou2025-bread-wheat-mashhad\|5]] |
+| Cr | n=7 | 10–150 | medium | [[sources/reczajska2005-chromium-plant-foods-poland\|1]], [[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp\|2]], [[sources/balbo2022-bread-contaminants-poland\|3]], [[sources/fera2015-uk-tds-metals\|4]], [[sources/getu2022-heavy-metals-cereals-ethiopia\|5]], [[sources/li2022-wheat-pte-guizhou-health-risk\|6]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|7]] |
 | Sn | n=5 | 0–20 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/vasilachi2023-heavy-metals-cereal-crops\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
 | U | data gap | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The inorganic arsenic, aluminium and chromium cells were degenerate, each carrying a p95 equal to its typical maximum because a single value had been recorded as though it were a distribution. Re-reading the contributing sources shows two distinct patterns. Inorganic arsenic in wheat and wheat products sits at or below the reporting limit in regulated markets: the UK Total Diet Study returned all bread, flour and cereal composites below its 12 ppb inorganic-arsenic limit, and the Irish study reported cereals from 0 to 20 ppb against a 10 ppb detection limit ([[sources/fera2015-uk-tds-metals|Baxter et al. 2015]]; [[sources/fsai2016-total-diet-study-ireland-2012-2014|FSAI 2016]]). This cell is therefore a left-censored bound that acknowledges low-level detection just above the limit; high-arsenic-groundwater regions, where wheat grain inorganic arsenic exceeds 200 ppb, are elevated context only ([[sources/shi2022-sulfur-as-cd-wheat|Shi et al. 2022]]; [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|Kumar et al. 2024]]). Inorganic arsenic is kept strictly distinct from total arsenic and is not derived from it.
+
+Aluminium and chromium have genuine distributions whose collapsed tails understated the spread. For aluminium, large commercial datasets cluster the central near 2000 to 4500 ppb, with a German wheat-grain median of 3000 ppb and a Polish rye-wheat-bread mean of 4054 ppb, and an upper tail reflecting the German wheat-grain maximum of 19000 ppb; the far-tail aluminium-additive and baking-driven values, including Irish cereals to 47100 ppb, belong to processing rather than the grain ([[sources/stahl2017-aluminum-food-contact-part1|Stahl et al. 2017]]; [[sources/balbo2022-bread-contaminants-poland|Balbo and Wozniak 2022]]). For chromium the prior central of 100 to 1000 ppb overstated clean wheat: Polish wheat grain ran a median of 27 ppb, UK cereals 5 to 10 ppb, and European breads by isotope dilution 5 to 202 ppb, all as total chromium with Cr-VI below its limit ([[sources/reczajska2005-chromium-plant-foods-poland|Reczajska et al. 2005]]; [[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp|Saraiva et al. 2021]]). General-market Ethiopian grain at 1570 ppb anchors the commercial right tail, while industrial karst grain and heavily contaminated Ghanaian cereals are elevated context excluded from the centre ([[sources/getu2022-heavy-metals-cereals-ethiopia|Getu et al. 2022]]; [[sources/li2022-wheat-pte-guizhou-health-risk|Li et al. 2022]]; [[sources/oduro2023-cereal-breakfast-ghana-health-risk|Oduro et al. 2023]]).
 
 ## Why this commodity accumulates cadmium
 

@@ -8,46 +8,46 @@ category: animal-food
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: high
-    n_studies: 11
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 12]
+    p95_ppb: 40
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Cd:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3]
+    p95_ppb: 6
+    confidence: low
+    n_studies: 4
+    last_reviewed: 2026-08-09
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 4
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 3]
+    p95_ppb: 5
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   tAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 15]
+    p95_ppb: 40
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 9
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1]
+    p95_ppb: 3
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 30]
+    p95_ppb: 63
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [0, 1773]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 7
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 50]
+    p95_ppb: 100
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [0, 35.5]
@@ -106,16 +106,22 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=11 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| Cd | n=9 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| iAs | n=4 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| tAs | n=9 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| tHg | n=9 | 0 | medium | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|1]], [[sources/aendo2024-thailand-egg-metals-goldmine\|2]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|3]] |
-| Ni | n=3 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Pb | n=3 | 0–12 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|3]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|4]], [[sources/ezike2024-nigerian-poultry-pte\|5]], [[sources/aendo2024-thailand-egg-metals-goldmine\|6]] |
+| Cd | n=4 | 0–3 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]], [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|4]] |
+| iAs | n=2 | 0–3 | low | [[sources/cfs2012-hktds-inorganic-arsenic\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| tAs | n=3 | 0–15 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|3]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|4]], [[sources/ezike2024-nigerian-poultry-pte\|5]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]], [[sources/aendo2024-thailand-egg-metals-goldmine\|4]] |
+| Ni | n=3 | 0–30 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
 | Al | n=2 | 0–1773 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Cr | n=7 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/guo2024-duck-eggs-hg-mining-china\|2]], [[sources/guo2024-duck-eggs-hg-mining-china\|3]] |
+| Cr | n=3 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|2]], [[sources/rokanuzzaman2022-bangladesh-eggs-metals\|3]] |
 | Sn | n=1 | 0–35.5 | low | [[sources/fera2015-uk-tds-metals\|1]] |
 | U | n=2 | 0 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The earlier all-zero contamination profile for eggs was a censoring artifact rather than a finding. FDA hard-boiled egg composites (n=27) fell below the reporting limit for every analyte, with reporting limits of 4 ppb for lead, 1 ppb for cadmium, 3 ppb for total arsenic, 1 ppb for total mercury, 40 ppb for nickel and 50 ppb for chromium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Those below-limit results were coded as literal zeros and pooled, which understated occurrence. Re-synthesis treats each nondetect as left-censored at its reporting limit and anchors the central range on whole-egg surveys that quantify below those limits. On a wet-weight basis of whole-egg homogenate, [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Li et al. 2026]] measured lead at about 5 to 18 ppb, total arsenic at 6 to 19 ppb, nickel at 15 to 63 ppb, chromium at 53 to 140 ppb and cadmium at 1.5 to 2.3 ppb, and [[sources/rokanuzzaman2022-bangladesh-eggs-metals|Rokanuzzaman et al. 2022]] reported chicken egg-content lead near 10 ppb after dry-to-wet conversion at 0.24. Eggs are a low-metal matrix, but the honest central value is a small left-censored number, not zero.
+
+Inorganic and total arsenic are kept separate. Fresh chicken eggs were below the 3 ppb inorganic-arsenic detection limit in the direct-speciation Hong Kong Total Diet Study ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), and inorganic arsenic is only a small fraction of the low total arsenic measured elsewhere, so the inorganic-arsenic cell is published as a thin, left-censored value rather than derived from total arsenic. Values from environmentally contaminated or compartment-specific studies are held as elevated context and are not allowed to drive central estimates: the free-range mining-area eggs in [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining|Li et al. 2026]], the yolk and albumen values of Italian supermarket and rural eggs in [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs|Guerrini et al. 2024]], the Nigerian farm poultry of [[sources/ezike2024-nigerian-poultry-pte|Ezike et al. 2024]], and the gold-mine-area duck eggs of [[sources/aendo2024-thailand-egg-metals-goldmine|Aendo et al. 2024]] all sit well above the commercial central range and inform only the upper tail.
 
 ## Routing
 

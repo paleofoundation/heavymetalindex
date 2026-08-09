@@ -22,11 +22,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   iAs:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 6
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 4]
+    p95_ppb: 20
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   tHg:
     status: populated
     typical_ppb: [0, 1]
@@ -106,7 +106,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 |---------|----------|---------------|------------|-------------|
 | Pb | n=15 | 0–13.1 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
 | Cd | n=15 | 0–3 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|2]], [[sources/wysok2025-heavy-metals-sheep-casings\|3]] |
-| iAs | n=6 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
+| iAs | n=2 | 0–4 | low | [[sources/cfs2012-hktds-inorganic-arsenic\|1]], [[sources/fera2015-uk-tds-metals\|2]], [[sources/uneyama2007-arsenic-foods-cumulative-data\|3]] |
 | tAs | n=9 | 5–40 | medium | [[sources/wysok2025-heavy-metals-sheep-casings\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
 | tHg | n=8 | 0–1 | medium | [[sources/rabeey2025-bovine-hg-pb-cd-egypt\|1]], [[sources/wysok2025-heavy-metals-sheep-casings\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
 | Ni | n=7 | 27–258 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
@@ -114,6 +114,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cr | n=6 | 40–472 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fda-tds-elements-2018-2020\|3]] |
 | Sn | n=4 | 4.6–21 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
 | U | data gap | — | — | — |
+
+## Synthesis basis and censoring treatment
+
+The general meat ingredient carried an inorganic-arsenic value of zero with no FDA anchor row. Re-synthesis draws on the two sources that measure inorganic arsenic in meat directly rather than inferring it from total arsenic. Using hydride-generation ICP-MS speciation with a 3 ppb detection limit, the Hong Kong Total Diet Study reported the meat, poultry and game group at a mean of 4 ppb with a range of nondetect to 27 ppb and 54 percent of composites below the limit ([[sources/cfs2012-hktds-inorganic-arsenic|CFS 2012]]), and the UK Total Diet Study offal composite was below its inorganic-arsenic reporting limit ([[sources/fera2015-uk-tds-metals|Baxter and Brereton 2015]]). The cell is published as a thin, left-censored value of about 0 to 4 ppb with an upper tail near 20 ppb, and it is flagged as data-limited.
+
+Inorganic arsenic is deliberately kept distinct from total arsenic and is not derived from it. Total arsenic in muscle is itself low, roughly 5 to 15 ppb in commercial beef and pork, and the inorganic fraction in terrestrial animal tissue is only a part of that, consistent with the cumulative review of [[sources/uneyama2007-arsenic-foods-cumulative-data|Uneyama et al. 2007]], which found dietary inorganic arsenic dominated by seafood and low in the milk, meat and egg group. Preserved-egg outliers and other high-arsenic matrices in these sources are not part of the muscle-meat inorganic-arsenic estimate.
 
 ## Routing
 

@@ -33,7 +33,7 @@ updated: 2026-06-02
 
 ## Overview
 
-Step 0 scope-locked row for HMTc Taxonomy v2.0 Category 6 (Seafood), Row 6. The row scope is locked (`variant_type: whole_row_platform`, platform_metals Sn); per-analyte threshold numbers come from the staff Standards Workbench, not this page. Lock authority: [`docs/governance/category-6-step0-lock.md`](/docs/governance/category-6-step0-lock.md).
+Step 0 scope-locked row for HMTc Taxonomy v2.0 Category 6 (Seafood), Row 6. The row scope is locked (`variant_type: whole_row_platform`, platform_metals Sn). Lock authority: [`docs/governance/category-6-step0-lock.md`](/docs/governance/category-6-step0-lock.md).
 
 This row carries the **tin flag** for Sn migration from the can, and inherits the fish-row mercury concern for its contents. Speciation (MeHg vs tHg) is non-substitutable.
 
@@ -43,7 +43,7 @@ Routable destination for source pages declaring `products: [canned-seafood]` and
 
 ## Methodology
 
-Reports what cited sources say about heavy-metal concentrations in this row. Speciation non-substitutable. Basis preserved. Percentile arithmetic stays on the staff Standards Workbench.
+Reports what cited sources say about heavy-metal concentrations in this row. Speciation non-substitutable. Basis preserved.
 
 ## Literature Evidence Summary
 
@@ -52,7 +52,7 @@ Reports what cited sources say about heavy-metal concentrations in this row. Spe
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Canned seafood (with tin flag). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Canned seafood (with tin flag). Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
