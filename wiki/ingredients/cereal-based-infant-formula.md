@@ -6,8 +6,8 @@ aliases: []
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source keywords2019-appropriateness-essentials-trace-metals declared ingredient/cereal-based-infant-formula, no close-slug match"
-provisional_source: "[[sources/keywords2019-appropriateness-essentials-trace-metals]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source igweze2019-trace-metals-infant-formula-nigeria declared ingredient/cereal-based-infant-formula, no close-slug match"
+provisional_source: "[[sources/igweze2019-trace-metals-infant-formula-nigeria]]"
 contamination_profile:
   Pb:
     status: pending
@@ -109,9 +109,9 @@ updated: 2026-05-28
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source keywords2019-appropriateness-essentials-trace-metals declared ingredient/cereal-based-infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source igweze2019-trace-metals-infant-formula-nigeria declared ingredient/cereal-based-infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/keywords2019-appropriateness-essentials-trace-metals]]
+> **Triggering source:** [[sources/igweze2019-trace-metals-infant-formula-nigeria]]
 
 ## Literature scope
 
@@ -122,7 +122,7 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/keywords2019-appropriateness-essentials-trace-metals|Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria]]<span class="hmi-ref-meta">Igweze, Zelinjo Nkeiruka, Ekhator, Osazuwa Clinton, Nwaogazie, Ify, Frazzoli, Chiara, and Orisakwe, Orish Ebere · Open Access Macedonian Journal of Medical Sciences · 2019 · [doi.org/10.3889/oamjms.2019.706](https://doi.org/10.3889/oamjms.2019.706)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/igweze2019-trace-metals-infant-formula-nigeria|Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria]]<span class="hmi-ref-meta">Igweze, Zelinjo Nkeiruka, Ekhator, Osazuwa Clinton, Nwaogazie, Ify, Frazzoli, Chiara, and Orisakwe, Orish Ebere · Open Access Macedonian Journal of Medical Sciences · 2019 · [doi.org/10.3889/oamjms.2019.706](https://doi.org/10.3889/oamjms.2019.706)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -1,6 +1,8 @@
 ---
 type: source
 cite_key: hands2024-multiyear-dark-chocolate-cocoa-usa
+sample_population: "72 consumer cocoa-containing products (dark chocolate, cocoa powder, and related products) purchased in the US from retail and online sources across four cohorts: 2014 (n=17), 2016 (n=17), 2019 (n=21), 2022 (n=17)"
+raw_handle: FM_11321977
 title: "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA"
 authors: [Hands JM, Anderson ML, Cooperman T, Balsky JE, Frame LA]
 year: 2024

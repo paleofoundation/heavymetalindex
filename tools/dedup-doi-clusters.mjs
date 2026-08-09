@@ -35,6 +35,13 @@ const OVERRIDES = {
   // The "...Well Water and Breast Milk" page is a DIFFERENT work (Schmidt commentary,
   // real DOI 10.1289/ehp.123-a137) carrying the wrong DOI: exclude from the merge.
   "10.1289/ehp.1408789": { exclude: ["carignan2015-arsenic-infancy-well-water-breast-milk"] },
+  // s10653-023-01514-x: the two romero-crespo 2023 pages have divergent titles
+  // ("Trace elements in farmland soils and crops..." — matches the registered DOI —
+  // vs "Heavy metals in soils and crops in a mining area of Ecuador"). Possible
+  // wrong-DOI mis-ingest of a second, distinct romero-crespo 2023 paper; excluded
+  // from autonomous collapse pending title-vs-registered-DOI verification
+  // (ledger OI-20260809-title-mismatch-doi-sweep).
+  "10.1007/s10653-023-01514-x": { exclude: ["romero-crespo2023-ecuador-mining-crops-metals"] },
 }
 
 // Frontmatter fields safe to fold from a dropped page into the canonical when the

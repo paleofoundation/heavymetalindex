@@ -120,7 +120,7 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sattler2016-bee-pollen-minerals-contaminants\|Sattler et al. 2016]]. *Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil*, Food Science and Technology 36(3):505-509 | 2016 | Peer-reviewed | BR Ba, Cd, Li, Pb, V, Cr, Cu, Mn, Mo, Zn, Fe occurrence in Five dehydrated bee-pollen samples from apiaries in Cruz Alta and Sao Gabriel, Rio Grande do Sul, Brazil, collected... (n=5) |
+| 1 | [[sources/sattler2016-bee-pollen-metals\|Sattler et al. 2016]]. *Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil*, Food Science and Technology 36(3):505-509 | 2016 | Peer-reviewed | BR Ba, Cd, Li, Pb, V, Cr, Cu, Mn, Mo, Zn, Fe occurrence in Five dehydrated bee-pollen samples from apiaries in Cruz Alta and Sao Gabriel, Rio Grande do Sul, Brazil, collected... (n=5) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

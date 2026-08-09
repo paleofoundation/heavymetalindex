@@ -1411,7 +1411,7 @@
             }
           },
           {
-            "slug": "sources/cereal2013-cereal-juice-lead-arsenic",
+            "slug": "sources/neuwirth2022-baby-cereals-lead-arsenic",
             "title": "Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -1422,14 +1422,14 @@
               "As",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/cereal2013-cereal-juice-lead-arsenic",
+            "canonical_url": "https://heavymetalindex.com/sources/neuwirth2022-baby-cereals-lead-arsenic",
             "content_pin": {
               "content_sha256": "1da9c5c297f64ef33c5f6d9373c3e08100f8a23d3ffc40533e22c912e1a69132",
               "content_bytes": 2970,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/cereal2013-cereal-juice-lead-arsenic.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md | sha256sum"
             }
           },
           {
@@ -2186,7 +2186,7 @@
             }
           },
           {
-            "slug": "sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+            "slug": "sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
             "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -2198,14 +2198,14 @@
               "tHg",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+            "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
             "content_pin": {
               "content_sha256": "037a6365de5ae501639e958e38e2ca145271d228e75a660dd56a9f61fa39df2a",
               "content_bytes": 10236,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md | sha256sum"
             }
           },
           {
@@ -2564,7 +2564,7 @@
             }
           },
           {
-            "slug": "sources/arsenic2025-unknown",
+            "slug": "sources/navaretnam-2025-rice-as-speciation",
             "title": "Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -2574,14 +2574,14 @@
               "tAs",
               "iAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/arsenic2025-unknown",
+            "canonical_url": "https://heavymetalindex.com/sources/navaretnam-2025-rice-as-speciation",
             "content_pin": {
               "content_sha256": "b74c71bec89f8a322f2793525596b49f975bf4ca30c767cea47bdcd54f19fdf6",
               "content_bytes": 7973,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/arsenic2025-unknown.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/navaretnam-2025-rice-as-speciation.md | sha256sum"
             }
           },
           {
@@ -2761,7 +2761,7 @@
             }
           },
           {
-            "slug": "sources/cereal2013-cereal-juice-lead-arsenic",
+            "slug": "sources/neuwirth2022-baby-cereals-lead-arsenic",
             "title": "Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -2772,14 +2772,14 @@
               "As",
               "Cd"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/cereal2013-cereal-juice-lead-arsenic",
+            "canonical_url": "https://heavymetalindex.com/sources/neuwirth2022-baby-cereals-lead-arsenic",
             "content_pin": {
               "content_sha256": "1da9c5c297f64ef33c5f6d9373c3e08100f8a23d3ffc40533e22c912e1a69132",
               "content_bytes": 2970,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/cereal2013-cereal-juice-lead-arsenic.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md | sha256sum"
             }
           },
           {
@@ -3899,7 +3899,7 @@
             }
           },
           {
-            "slug": "sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+            "slug": "sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
             "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -3911,14 +3911,14 @@
               "tHg",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+            "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
             "content_pin": {
               "content_sha256": "037a6365de5ae501639e958e38e2ca145271d228e75a660dd56a9f61fa39df2a",
               "content_bytes": 10236,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md | sha256sum"
             }
           },
           {
@@ -3963,7 +3963,7 @@
             }
           },
           {
-            "slug": "sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals",
+            "slug": "sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
             "title": "Multi-elemental risk assessment of various baby rice cereals: some cause for concern?",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -3982,14 +3982,14 @@
               "Fe",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals",
+            "canonical_url": "https://heavymetalindex.com/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
             "content_pin": {
               "content_sha256": "279bf44306d3f2bc10acfa1e752a9ae5ace8b3527e107c287552c65cd57d08c4",
               "content_bytes": 10287,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation.md | sha256sum"
             }
           },
           {
@@ -20880,7 +20880,7 @@
             }
           },
           {
-            "slug": "sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+            "slug": "sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
             "title": "Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -20892,14 +20892,14 @@
               "Cr",
               "Ni"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+            "canonical_url": "https://heavymetalindex.com/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
             "content_pin": {
               "content_sha256": "63d251bc9743c2979ff22b04384200b01379717e6c60ccc6cb66ff68ac0c9acf",
               "content_bytes": 5599,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
             }
           },
           {
@@ -23027,7 +23027,7 @@
             }
           },
           {
-            "slug": "sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa",
+            "slug": "sources/hands2024-multiyear-dark-chocolate-cocoa-usa",
             "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -23038,14 +23038,14 @@
               "Cd",
               "tAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa",
+            "canonical_url": "https://heavymetalindex.com/sources/hands2024-multiyear-dark-chocolate-cocoa-usa",
             "content_pin": {
               "content_sha256": "b290ed560057d175a62a8c6a6e1e2946572871729ea02e8c7c58be4ce3e600cf",
               "content_bytes": 6032,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/hands2024-multiyear-dark-chocolate-cocoa-usa.md | sha256sum"
             }
           },
           {
@@ -34310,7 +34310,7 @@
             }
           },
           {
-            "slug": "sources/henriquez_hernandez2023-elemental-infant-purees",
+            "slug": "sources/henriquez-hernandez2023-baby-purees-spain-elements",
             "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -34325,14 +34325,14 @@
               "Mo",
               "Tl"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/henriquez_hernandez2023-elemental-infant-purees",
+            "canonical_url": "https://heavymetalindex.com/sources/henriquez-hernandez2023-baby-purees-spain-elements",
             "content_pin": {
               "content_sha256": "8d62fdd6b112bb842d5c8068b04b310a2675a0c35994d3931a118fc68ad2a6d8",
               "content_bytes": 6848,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/henriquez_hernandez2023-elemental-infant-purees.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements.md | sha256sum"
             }
           },
           {
@@ -34471,7 +34471,7 @@
             }
           },
           {
-            "slug": "sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "slug": "sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -34481,14 +34481,14 @@
               "tHg",
               "MeHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "content_pin": {
               "content_sha256": "6656cde85f698112f68d83fcc042755103c6d7fb048ef34508f3f06836199b7a",
               "content_bytes": 4471,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
             }
           },
           {
@@ -36052,7 +36052,7 @@
             }
           },
           {
-            "slug": "sources/fagbemi2023-akure-street-food-lead",
+            "slug": "sources/fagbemi2023-akure-street-foods-lead",
             "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -36064,14 +36064,14 @@
               "Fe",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-food-lead",
+            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-foods-lead",
             "content_pin": {
               "content_sha256": "41f301ba4aaba69d37debcd45ae72715e2bf16d479c763279f4346669ea701b3",
               "content_bytes": 3791,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-food-lead.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-foods-lead.md | sha256sum"
             }
           },
           {
@@ -38900,7 +38900,7 @@
             }
           },
           {
-            "slug": "sources/subhanullah2024-panjkora-fish-water-metals",
+            "slug": "sources/subhanullah2024-panjkora-fish-metals",
             "title": "The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus aplocheilus, and the well-being of human health",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -38914,14 +38914,14 @@
               "Cd",
               "tAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/subhanullah2024-panjkora-fish-water-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/subhanullah2024-panjkora-fish-metals",
             "content_pin": {
               "content_sha256": "03d87ea5263d91c5f7bd0c49e60767f03edc33965f84dc80b405c59d310707c9",
               "content_bytes": 3810,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/subhanullah2024-panjkora-fish-water-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/subhanullah2024-panjkora-fish-metals.md | sha256sum"
             }
           },
           {
@@ -55998,7 +55998,7 @@
             }
           },
           {
-            "slug": "sources/fagbemi2023-akure-street-food-lead",
+            "slug": "sources/fagbemi2023-akure-street-foods-lead",
             "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -56010,14 +56010,14 @@
               "Fe",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-food-lead",
+            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-foods-lead",
             "content_pin": {
               "content_sha256": "41f301ba4aaba69d37debcd45ae72715e2bf16d479c763279f4346669ea701b3",
               "content_bytes": 3791,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-food-lead.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-foods-lead.md | sha256sum"
             }
           },
           {
@@ -60988,7 +60988,7 @@
             }
           },
           {
-            "slug": "sources/subhanullah2024-panjkora-fish-water-metals",
+            "slug": "sources/subhanullah2024-panjkora-fish-metals",
             "title": "The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus aplocheilus, and the well-being of human health",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -61002,14 +61002,14 @@
               "Cd",
               "tAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/subhanullah2024-panjkora-fish-water-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/subhanullah2024-panjkora-fish-metals",
             "content_pin": {
               "content_sha256": "03d87ea5263d91c5f7bd0c49e60767f03edc33965f84dc80b405c59d310707c9",
               "content_bytes": 3810,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/subhanullah2024-panjkora-fish-water-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/subhanullah2024-panjkora-fish-metals.md | sha256sum"
             }
           },
           {
@@ -69484,7 +69484,7 @@
             }
           },
           {
-            "slug": "sources/fagbemi2023-akure-street-food-lead",
+            "slug": "sources/fagbemi2023-akure-street-foods-lead",
             "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -69496,14 +69496,14 @@
               "Fe",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-food-lead",
+            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-foods-lead",
             "content_pin": {
               "content_sha256": "41f301ba4aaba69d37debcd45ae72715e2bf16d479c763279f4346669ea701b3",
               "content_bytes": 3791,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-food-lead.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-foods-lead.md | sha256sum"
             }
           },
           {
@@ -73341,7 +73341,7 @@
             }
           },
           {
-            "slug": "sources/subhanullah2024-panjkora-fish-water-metals",
+            "slug": "sources/subhanullah2024-panjkora-fish-metals",
             "title": "The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus aplocheilus, and the well-being of human health",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -73355,14 +73355,14 @@
               "Cd",
               "tAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/subhanullah2024-panjkora-fish-water-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/subhanullah2024-panjkora-fish-metals",
             "content_pin": {
               "content_sha256": "03d87ea5263d91c5f7bd0c49e60767f03edc33965f84dc80b405c59d310707c9",
               "content_bytes": 3810,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/subhanullah2024-panjkora-fish-water-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/subhanullah2024-panjkora-fish-metals.md | sha256sum"
             }
           },
           {
@@ -75154,7 +75154,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -75170,14 +75170,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           }
         ]
@@ -77351,7 +77351,7 @@
             }
           },
           {
-            "slug": "sources/fagbemi2023-akure-street-food-lead",
+            "slug": "sources/fagbemi2023-akure-street-foods-lead",
             "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -77363,14 +77363,14 @@
               "Fe",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-food-lead",
+            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-foods-lead",
             "content_pin": {
               "content_sha256": "41f301ba4aaba69d37debcd45ae72715e2bf16d479c763279f4346669ea701b3",
               "content_bytes": 3791,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-food-lead.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-foods-lead.md | sha256sum"
             }
           },
           {
@@ -81152,7 +81152,7 @@
             }
           },
           {
-            "slug": "sources/henriquez_hernandez2023-elemental-infant-purees",
+            "slug": "sources/henriquez-hernandez2023-baby-purees-spain-elements",
             "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -81167,14 +81167,14 @@
               "Mo",
               "Tl"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/henriquez_hernandez2023-elemental-infant-purees",
+            "canonical_url": "https://heavymetalindex.com/sources/henriquez-hernandez2023-baby-purees-spain-elements",
             "content_pin": {
               "content_sha256": "8d62fdd6b112bb842d5c8068b04b310a2675a0c35994d3931a118fc68ad2a6d8",
               "content_bytes": 6848,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/henriquez_hernandez2023-elemental-infant-purees.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements.md | sha256sum"
             }
           },
           {
@@ -83582,7 +83582,7 @@
             }
           },
           {
-            "slug": "sources/jackson2012-brown-rice-syrup-arsenic",
+            "slug": "sources/jackson2012-arsenic-organic-foods-brown-rice-syrup",
             "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -83594,14 +83594,14 @@
               "DMA",
               "MMA"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/jackson2012-brown-rice-syrup-arsenic",
+            "canonical_url": "https://heavymetalindex.com/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup",
             "content_pin": {
               "content_sha256": "015fcf7d3d3c70dfa04466f8e122e6b16658a7de4bcd8617bf579d4ad17dbc3e",
               "content_bytes": 3714,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/jackson2012-brown-rice-syrup-arsenic.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup.md | sha256sum"
             }
           },
           {
@@ -84855,7 +84855,7 @@
         "sources_with_structured_values": 13,
         "contributing_sources": [
           {
-            "slug": "sources/abstract2020-content-dietary-exposure-toxic",
+            "slug": "sources/su2020-infant-formula-china-toxic-elements",
             "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -84867,14 +84867,14 @@
               "tAs",
               "Cr"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/abstract2020-content-dietary-exposure-toxic",
+            "canonical_url": "https://heavymetalindex.com/sources/su2020-infant-formula-china-toxic-elements",
             "content_pin": {
               "content_sha256": "d6c5a970f5bdca2e682246c3664c4f65625dbf3341440e5a86e79e17e88f8d4f",
               "content_bytes": 5055,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/abstract2020-content-dietary-exposure-toxic.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/su2020-infant-formula-china-toxic-elements.md | sha256sum"
             }
           },
           {
@@ -85012,7 +85012,7 @@
             }
           },
           {
-            "slug": "sources/arsenic2012-arsenic-organic-foods-brown",
+            "slug": "sources/jackson2012-arsenic-organic-foods-brown-rice-syrup",
             "title": "Arsenic, Organic Foods, and Brown Rice Syrup",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -85026,14 +85026,14 @@
               "Al",
               "U"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/arsenic2012-arsenic-organic-foods-brown",
+            "canonical_url": "https://heavymetalindex.com/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup",
             "content_pin": {
               "content_sha256": "04334a4bcb6e22e9aedda3423b7a02c4b7c32de79acc7a813566083eb154c708",
               "content_bytes": 4878,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/arsenic2012-arsenic-organic-foods-brown.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup.md | sha256sum"
             }
           },
           {
@@ -86332,7 +86332,7 @@
             }
           },
           {
-            "slug": "sources/chung2021-china-infant-formula-toxic-elements",
+            "slug": "sources/su2020-infant-formula-china-toxic-elements",
             "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -86344,14 +86344,14 @@
               "Cd",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/chung2021-china-infant-formula-toxic-elements",
+            "canonical_url": "https://heavymetalindex.com/sources/su2020-infant-formula-china-toxic-elements",
             "content_pin": {
               "content_sha256": "01c32306f42a03e90fc33cd82f313f333e4528d0940913cf84c3732c2eb790e6",
               "content_bytes": 3551,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/chung2021-china-infant-formula-toxic-elements.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/su2020-infant-formula-china-toxic-elements.md | sha256sum"
             }
           },
           {
@@ -86812,7 +86812,7 @@
             }
           },
           {
-            "slug": "sources/estimated2015-estimated-exposure-arsenic-breastfed",
+            "slug": "sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
             "title": "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -86821,14 +86821,14 @@
             "metal_species": [
               "iAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/estimated2015-estimated-exposure-arsenic-breastfed",
+            "canonical_url": "https://heavymetalindex.com/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants",
             "content_pin": {
               "content_sha256": "d0eedba4a6d33e3b72865881317505e01390773400a0113677d073760c58fe2c",
               "content_bytes": 5025,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/estimated2015-estimated-exposure-arsenic-breastfed.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md | sha256sum"
             }
           },
           {
@@ -87353,7 +87353,7 @@
             }
           },
           {
-            "slug": "sources/keywords2019-appropriateness-essentials-trace-metals",
+            "slug": "sources/igweze2019-trace-metals-infant-formula-nigeria",
             "title": "Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -87362,14 +87362,14 @@
             "metal_species": [
               "Cr"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/keywords2019-appropriateness-essentials-trace-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/igweze2019-trace-metals-infant-formula-nigeria",
             "content_pin": {
               "content_sha256": "f35bfe49fb8fb9cfa7cb69f18ba5d63db661ff1262fc4a28927cc181149eae6a",
               "content_bytes": 5907,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/keywords2019-appropriateness-essentials-trace-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/igweze2019-trace-metals-infant-formula-nigeria.md | sha256sum"
             }
           },
           {
@@ -88337,7 +88337,7 @@
             }
           },
           {
-            "slug": "sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "slug": "sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
             "route_kind": "broad_powder_context",
             "route_status": "source_on_page_no_structured_value",
@@ -88347,14 +88347,14 @@
               "tHg",
               "MeHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "content_pin": {
               "content_sha256": "6656cde85f698112f68d83fcc042755103c6d7fb048ef34508f3f06836199b7a",
               "content_bytes": 4471,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
             }
           },
           {
@@ -89876,7 +89876,7 @@
             }
           },
           {
-            "slug": "sources/chung2021-china-infant-formula-toxic-elements",
+            "slug": "sources/su2020-infant-formula-china-toxic-elements",
             "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -89888,14 +89888,14 @@
               "Cd",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/chung2021-china-infant-formula-toxic-elements",
+            "canonical_url": "https://heavymetalindex.com/sources/su2020-infant-formula-china-toxic-elements",
             "content_pin": {
               "content_sha256": "01c32306f42a03e90fc33cd82f313f333e4528d0940913cf84c3732c2eb790e6",
               "content_bytes": 3551,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/chung2021-china-infant-formula-toxic-elements.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/su2020-infant-formula-china-toxic-elements.md | sha256sum"
             }
           },
           {
@@ -90803,7 +90803,7 @@
             }
           },
           {
-            "slug": "sources/keywords2019-appropriateness-essentials-trace-metals",
+            "slug": "sources/igweze2019-trace-metals-infant-formula-nigeria",
             "title": "Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -90812,14 +90812,14 @@
             "metal_species": [
               "Cr"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/keywords2019-appropriateness-essentials-trace-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/igweze2019-trace-metals-infant-formula-nigeria",
             "content_pin": {
               "content_sha256": "f35bfe49fb8fb9cfa7cb69f18ba5d63db661ff1262fc4a28927cc181149eae6a",
               "content_bytes": 5907,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/keywords2019-appropriateness-essentials-trace-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/igweze2019-trace-metals-infant-formula-nigeria.md | sha256sum"
             }
           },
           {
@@ -91476,7 +91476,7 @@
             }
           },
           {
-            "slug": "sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "slug": "sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
             "route_kind": "broad_powder_context",
             "route_status": "source_on_page_no_structured_value",
@@ -91486,14 +91486,14 @@
               "tHg",
               "MeHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "content_pin": {
               "content_sha256": "6656cde85f698112f68d83fcc042755103c6d7fb048ef34508f3f06836199b7a",
               "content_bytes": 4471,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
             }
           },
           {
@@ -91881,7 +91881,7 @@
             }
           },
           {
-            "slug": "sources/chung2021-china-infant-formula-toxic-elements",
+            "slug": "sources/su2020-infant-formula-china-toxic-elements",
             "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -91893,14 +91893,14 @@
               "Cd",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/chung2021-china-infant-formula-toxic-elements",
+            "canonical_url": "https://heavymetalindex.com/sources/su2020-infant-formula-china-toxic-elements",
             "content_pin": {
               "content_sha256": "01c32306f42a03e90fc33cd82f313f333e4528d0940913cf84c3732c2eb790e6",
               "content_bytes": 3551,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/chung2021-china-infant-formula-toxic-elements.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/su2020-infant-formula-china-toxic-elements.md | sha256sum"
             }
           },
           {
@@ -92372,7 +92372,7 @@
             }
           },
           {
-            "slug": "sources/keywords2019-appropriateness-essentials-trace-metals",
+            "slug": "sources/igweze2019-trace-metals-infant-formula-nigeria",
             "title": "Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -92381,14 +92381,14 @@
             "metal_species": [
               "Cr"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/keywords2019-appropriateness-essentials-trace-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/igweze2019-trace-metals-infant-formula-nigeria",
             "content_pin": {
               "content_sha256": "f35bfe49fb8fb9cfa7cb69f18ba5d63db661ff1262fc4a28927cc181149eae6a",
               "content_bytes": 5907,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/keywords2019-appropriateness-essentials-trace-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/igweze2019-trace-metals-infant-formula-nigeria.md | sha256sum"
             }
           },
           {
@@ -92764,7 +92764,7 @@
             }
           },
           {
-            "slug": "sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "slug": "sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -92774,14 +92774,14 @@
               "tHg",
               "MeHg"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+            "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
             "content_pin": {
               "content_sha256": "6656cde85f698112f68d83fcc042755103c6d7fb048ef34508f3f06836199b7a",
               "content_bytes": 4471,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
             }
           },
           {
@@ -93024,7 +93024,7 @@
             }
           },
           {
-            "slug": "sources/chung2021-china-infant-formula-toxic-elements",
+            "slug": "sources/su2020-infant-formula-china-toxic-elements",
             "title": "Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -93036,14 +93036,14 @@
               "Cd",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/chung2021-china-infant-formula-toxic-elements",
+            "canonical_url": "https://heavymetalindex.com/sources/su2020-infant-formula-china-toxic-elements",
             "content_pin": {
               "content_sha256": "01c32306f42a03e90fc33cd82f313f333e4528d0940913cf84c3732c2eb790e6",
               "content_bytes": 3551,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/chung2021-china-infant-formula-toxic-elements.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/su2020-infant-formula-china-toxic-elements.md | sha256sum"
             }
           },
           {
@@ -93436,7 +93436,7 @@
             }
           },
           {
-            "slug": "sources/keywords2019-appropriateness-essentials-trace-metals",
+            "slug": "sources/igweze2019-trace-metals-infant-formula-nigeria",
             "title": "Appropriateness of Essentials Trace Metals in Commonly Consumed Infant Formulae in Nigeria",
             "route_kind": "broad_formula_context",
             "route_status": "source_on_page_no_structured_value",
@@ -93445,14 +93445,14 @@
             "metal_species": [
               "Cr"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/keywords2019-appropriateness-essentials-trace-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/igweze2019-trace-metals-infant-formula-nigeria",
             "content_pin": {
               "content_sha256": "f35bfe49fb8fb9cfa7cb69f18ba5d63db661ff1262fc4a28927cc181149eae6a",
               "content_bytes": 5907,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/keywords2019-appropriateness-essentials-trace-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/igweze2019-trace-metals-infant-formula-nigeria.md | sha256sum"
             }
           },
           {
@@ -96241,7 +96241,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -96257,14 +96257,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -97289,7 +97289,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -97305,14 +97305,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -99128,7 +99128,7 @@
             }
           },
           {
-            "slug": "sources/henriquez_hernandez2023-elemental-infant-purees",
+            "slug": "sources/henriquez-hernandez2023-baby-purees-spain-elements",
             "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -99143,14 +99143,14 @@
               "Mo",
               "Tl"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/henriquez_hernandez2023-elemental-infant-purees",
+            "canonical_url": "https://heavymetalindex.com/sources/henriquez-hernandez2023-baby-purees-spain-elements",
             "content_pin": {
               "content_sha256": "8d62fdd6b112bb842d5c8068b04b310a2675a0c35994d3931a118fc68ad2a6d8",
               "content_bytes": 6848,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/henriquez_hernandez2023-elemental-infant-purees.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements.md | sha256sum"
             }
           },
           {
@@ -101224,7 +101224,7 @@
         "sources_with_structured_values": 3,
         "contributing_sources": [
           {
-            "slug": "sources/arsenic2025-unknown",
+            "slug": "sources/navaretnam-2025-rice-as-speciation",
             "title": "Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -101234,14 +101234,14 @@
               "tAs",
               "iAs"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/arsenic2025-unknown",
+            "canonical_url": "https://heavymetalindex.com/sources/navaretnam-2025-rice-as-speciation",
             "content_pin": {
               "content_sha256": "b74c71bec89f8a322f2793525596b49f975bf4ca30c767cea47bdcd54f19fdf6",
               "content_bytes": 7973,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/arsenic2025-unknown.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/navaretnam-2025-rice-as-speciation.md | sha256sum"
             }
           },
           {
@@ -101430,7 +101430,7 @@
             }
           },
           {
-            "slug": "sources/fagbemi2023-akure-street-food-lead",
+            "slug": "sources/fagbemi2023-akure-street-foods-lead",
             "title": "Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -101442,14 +101442,14 @@
               "Fe",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-food-lead",
+            "canonical_url": "https://heavymetalindex.com/sources/fagbemi2023-akure-street-foods-lead",
             "content_pin": {
               "content_sha256": "41f301ba4aaba69d37debcd45ae72715e2bf16d479c763279f4346669ea701b3",
               "content_bytes": 3791,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-food-lead.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/fagbemi2023-akure-street-foods-lead.md | sha256sum"
             }
           },
           {
@@ -103879,7 +103879,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -103895,14 +103895,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -104188,7 +104188,7 @@
             }
           },
           {
-            "slug": "sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+            "slug": "sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
             "title": "Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -104200,14 +104200,14 @@
               "Cr",
               "Ni"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+            "canonical_url": "https://heavymetalindex.com/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
             "content_pin": {
               "content_sha256": "63d251bc9743c2979ff22b04384200b01379717e6c60ccc6cb66ff68ac0c9acf",
               "content_bytes": 5599,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
             }
           },
           {
@@ -107538,7 +107538,7 @@
             }
           },
           {
-            "slug": "sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+            "slug": "sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
             "title": "Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -107550,14 +107550,14 @@
               "Cr",
               "Ni"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+            "canonical_url": "https://heavymetalindex.com/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
             "content_pin": {
               "content_sha256": "63d251bc9743c2979ff22b04384200b01379717e6c60ccc6cb66ff68ac0c9acf",
               "content_bytes": 5599,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
             }
           },
           {
@@ -107839,7 +107839,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -107855,14 +107855,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -111132,7 +111132,7 @@
             }
           },
           {
-            "slug": "sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china",
+            "slug": "sources/guo2024-duck-eggs-hg-mining-china",
             "title": "Heavy metal contamination in duck eggs from a mercury mining area, southwestern China",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -111145,14 +111145,14 @@
               "Ba",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china",
+            "canonical_url": "https://heavymetalindex.com/sources/guo2024-duck-eggs-hg-mining-china",
             "content_pin": {
               "content_sha256": "2955c45754cd3d9c9e097d468251a4c4fece0251c6d638a437fb6f8edd22304c",
               "content_bytes": 20583,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/guo2024-duck-eggs-hg-mining-china.md | sha256sum"
             }
           },
           {
@@ -114587,7 +114587,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -114603,14 +114603,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -116488,7 +116488,7 @@
             }
           },
           {
-            "slug": "sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+            "slug": "sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
             "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -116500,14 +116500,14 @@
               "tHg",
               "Pb"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+            "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
             "content_pin": {
               "content_sha256": "037a6365de5ae501639e958e38e2ca145271d228e75a660dd56a9f61fa39df2a",
               "content_bytes": 10236,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md | sha256sum"
             }
           },
           {
@@ -116862,7 +116862,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -116878,14 +116878,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -144322,7 +144322,7 @@
             }
           },
           {
-            "slug": "sources/mercanyucel2022-van-spices-metals",
+            "slug": "sources/mercan-yucel2022-van-spices-heavy-metals",
             "title": "Determination of Aflatoxin and Heavy Metal Levels in Some Spices Sold as Unpackaged in Van Province and Health Risks Assessment of Heavy Metals",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -144335,14 +144335,14 @@
               "Pb",
               "Al"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/mercanyucel2022-van-spices-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/mercan-yucel2022-van-spices-heavy-metals",
             "content_pin": {
               "content_sha256": "7a69f0488fd2ba5117a5af5f853591e8b4e39c1e1d7e057ac25daa6277ebf594",
               "content_bytes": 5242,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/mercanyucel2022-van-spices-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/mercan-yucel2022-van-spices-heavy-metals.md | sha256sum"
             }
           },
           {
@@ -145345,7 +145345,7 @@
             }
           },
           {
-            "slug": "sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "slug": "sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "title": "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -145361,14 +145361,14 @@
               "Cu",
               "Zn"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
+            "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
             "content_pin": {
               "content_sha256": "153560276bff565b1f05a6dc6cc1eb71e7a2b925c8fdd76623eb860391486374",
               "content_bytes": 24177,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
             }
           },
           {
@@ -147276,7 +147276,7 @@
             }
           },
           {
-            "slug": "sources/sattler2016-bee-pollen-minerals-contaminants",
+            "slug": "sources/sattler2016-bee-pollen-metals",
             "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -147295,14 +147295,14 @@
               "Zn",
               "Fe"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-minerals-contaminants",
+            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
             "content_pin": {
               "content_sha256": "3cee9641e3d0d9df9b21faa2df2c783c830d480f024ee70fba38c06ea3a2f273",
               "content_bytes": 4189,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-minerals-contaminants.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
             }
           },
           {
@@ -148078,7 +148078,7 @@
             }
           },
           {
-            "slug": "sources/sattler2016-bee-pollen-minerals-contaminants",
+            "slug": "sources/sattler2016-bee-pollen-metals",
             "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -148097,14 +148097,14 @@
               "Zn",
               "Fe"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-minerals-contaminants",
+            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
             "content_pin": {
               "content_sha256": "3cee9641e3d0d9df9b21faa2df2c783c830d480f024ee70fba38c06ea3a2f273",
               "content_bytes": 4189,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-minerals-contaminants.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
             }
           },
           {
@@ -149224,7 +149224,7 @@
             }
           },
           {
-            "slug": "sources/sattler2016-bee-pollen-minerals-contaminants",
+            "slug": "sources/sattler2016-bee-pollen-metals",
             "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
             "route_kind": "direct_evidence",
             "route_status": "source_on_page_no_structured_value",
@@ -149243,14 +149243,14 @@
               "Zn",
               "Fe"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-minerals-contaminants",
+            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
             "content_pin": {
               "content_sha256": "3cee9641e3d0d9df9b21faa2df2c783c830d480f024ee70fba38c06ea3a2f273",
               "content_bytes": 4189,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-minerals-contaminants.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
             }
           },
           {
@@ -150248,7 +150248,7 @@
             }
           },
           {
-            "slug": "sources/sattler2016-bee-pollen-minerals-contaminants",
+            "slug": "sources/sattler2016-bee-pollen-metals",
             "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -150267,14 +150267,14 @@
               "Zn",
               "Fe"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-minerals-contaminants",
+            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
             "content_pin": {
               "content_sha256": "3cee9641e3d0d9df9b21faa2df2c783c830d480f024ee70fba38c06ea3a2f273",
               "content_bytes": 4189,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-minerals-contaminants.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
             }
           },
           {
@@ -151929,7 +151929,7 @@
             }
           },
           {
-            "slug": "sources/sattler2016-bee-pollen-minerals-contaminants",
+            "slug": "sources/sattler2016-bee-pollen-metals",
             "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -151948,14 +151948,14 @@
               "Zn",
               "Fe"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-minerals-contaminants",
+            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
             "content_pin": {
               "content_sha256": "3cee9641e3d0d9df9b21faa2df2c783c830d480f024ee70fba38c06ea3a2f273",
               "content_bytes": 4189,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-minerals-contaminants.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
             }
           },
           {
@@ -152705,7 +152705,7 @@
             }
           },
           {
-            "slug": "sources/sattler2016-bee-pollen-minerals-contaminants",
+            "slug": "sources/sattler2016-bee-pollen-metals",
             "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
             "route_kind": "broad_product_context",
             "route_status": "source_on_page_no_structured_value",
@@ -152724,14 +152724,14 @@
               "Zn",
               "Fe"
             ],
-            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-minerals-contaminants",
+            "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
             "content_pin": {
               "content_sha256": "3cee9641e3d0d9df9b21faa2df2c783c830d480f024ee70fba38c06ea3a2f273",
               "content_bytes": 4189,
               "last_commit_sha": "b01ec52c3",
               "last_commit_date": "2026-08-04",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-minerals-contaminants.md | sha256sum"
+              "verify_command": "git show b01ec52c3:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
             }
           },
           {

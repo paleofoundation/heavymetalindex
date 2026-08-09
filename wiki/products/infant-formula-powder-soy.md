@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-19
-provisional_reason: "heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared product/infant-formula-powder-soy, no close-slug match"
-provisional_source: "[[sources/abstract2020-content-dietary-exposure-toxic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared product/infant-formula-powder-soy, no close-slug match"
+provisional_source: "[[sources/su2020-infant-formula-china-toxic-elements]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-19
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared product/infant-formula-powder-soy, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared product/infant-formula-powder-soy, no close-slug match
 >
-> **Triggering source:** [[sources/abstract2020-content-dietary-exposure-toxic]]
+> **Triggering source:** [[sources/su2020-infant-formula-china-toxic-elements]]
 
 ## Literature scope
 
@@ -34,7 +34,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/abstract2020-content-dietary-exposure-toxic|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market]]<span class="hmi-ref-meta">Chuanyou Su, Nan Zheng, Yanan Gao, Shengnan Huang, Xue Yang, Ziwei Wang, et al. · Foods · 2020 · [doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/su2020-infant-formula-china-toxic-elements|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market]]<span class="hmi-ref-meta">Chuanyou Su, Nan Zheng, Yanan Gao, Shengnan Huang, Xue Yang, Ziwei Wang, et al. · Foods · 2020 · [doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/editor2019-manganese-levels-infant-formula|Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France]]<span class="hmi-ref-meta">Unknown · 2019 · [doi.org/Unknown](https://doi.org/Unknown)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
@@ -45,7 +45,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
+| 1 | [[sources/su2020-infant-formula-china-toxic-elements\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
 | 2 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
 <!-- END: hmi-source-legend -->
 
@@ -84,7 +84,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-[[sources/abstract2020-content-dietary-exposure-toxic]] routes here as a China-market infant-formula powder survey reporting Pb, Cd, total As, and total Cr across 93 products stratified by feeding stage. The source reports low means relative to its cited regulatory comparators, but it does not speciate arsenic or chromium and does not by itself isolate a soy-only distribution.
+[[sources/su2020-infant-formula-china-toxic-elements]] routes here as a China-market infant-formula powder survey reporting Pb, Cd, total As, and total Cr across 93 products stratified by feeding stage. The source reports low means relative to its cited regulatory comparators, but it does not speciate arsenic or chromium and does not by itself isolate a soy-only distribution.
 
 [[sources/editor2019-manganese-levels-infant-formula]] contributes Mn context for formula powders and related child nutrition beverages in US and French markets. Its role on this page is formulation and product-form context, not a complete contaminant screen.
 

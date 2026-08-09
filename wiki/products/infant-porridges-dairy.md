@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-17
-provisional_reason: "heal-gaps: routing_unresolved entry from source research2024-research-open-access-y declared product/infant-porridges-dairy, no close-slug match"
-provisional_source: "[[sources/research2024-research-open-access-y]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source kumar2024-arsenic-breast-milk-bihar-gangetic declared product/infant-porridges-dairy, no close-slug match"
+provisional_source: "[[sources/kumar2024-arsenic-breast-milk-bihar-gangetic]]"
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-17
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source research2024-research-open-access-y declared product/infant-porridges-dairy, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source kumar2024-arsenic-breast-milk-bihar-gangetic declared product/infant-porridges-dairy, no close-slug match
 >
-> **Triggering source:** [[sources/research2024-research-open-access-y]]
+> **Triggering source:** [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic]]
 
 ## Literature scope
 
@@ -34,7 +34,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/research2024-research-open-access-y|High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants]]<span class="hmi-ref-meta">Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. · Environmental Health · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants]]<span class="hmi-ref-meta">Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. · Environmental Health · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -44,7 +44,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/research2024-research-open-access-y\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
+| 1 | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
 <!-- END: hmi-source-legend -->
 
 ## Page history

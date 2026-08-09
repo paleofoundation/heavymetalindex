@@ -6,8 +6,8 @@ aliases: [formula, Formula, "ingredients/formula"]
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-19
-provisional_reason: "heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared ingredient/infant-formula, no close-slug match"
-provisional_source: "[[sources/abstract2020-content-dietary-exposure-toxic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared ingredient/infant-formula, no close-slug match"
+provisional_source: "[[sources/su2020-infant-formula-china-toxic-elements]]"
 contamination_profile:
   Pb:
     status: pending
@@ -109,9 +109,9 @@ updated: 2026-05-19
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source abstract2020-content-dietary-exposure-toxic declared ingredient/infant-formula, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source su2020-infant-formula-china-toxic-elements declared ingredient/infant-formula, no close-slug match
 >
-> **Triggering source:** [[sources/abstract2020-content-dietary-exposure-toxic]]
+> **Triggering source:** [[sources/su2020-infant-formula-china-toxic-elements]]
 
 ## Literature scope
 
@@ -122,7 +122,7 @@ The literature corpus for this ingredient is currently thin. Sources route here 
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/abstract2020-content-dietary-exposure-toxic|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market]]<span class="hmi-ref-meta">Chuanyou Su, Nan Zheng, Yanan Gao, Shengnan Huang, Xue Yang, Ziwei Wang, et al. · Foods · 2020 · [doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/su2020-infant-formula-china-toxic-elements|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market]]<span class="hmi-ref-meta">Chuanyou Su, Nan Zheng, Yanan Gao, Shengnan Huang, Xue Yang, Ziwei Wang, et al. · Foods · 2020 · [doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -133,9 +133,9 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/mumtaz2025-infant-nutrition-trace-metals\|Mumtaz et al. 2025]]. *Occurrence and Risk Evaluation of Trace Metals in Infant Nutrition Sources in Rural and Urban Multan, Pakistan*, Food and Nutrition Insights | 2025 | Peer-reviewed | PK Pb, Cd, Ni, Zn, Fe occurrence in infant nutrition sources from rural and urban Multan, Pakistan |
-| 2 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
+| 2 | [[sources/su2020-infant-formula-china-toxic-elements\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
 | 3 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
-| 4 | [[sources/estimated2015-estimated-exposure-arsenic-breastfed\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | Cited reference from Environmental Health Perspectives |
+| 4 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | Cited reference from Environmental Health Perspectives |
 | 5 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
 <!-- END: hmi-source-legend -->
 

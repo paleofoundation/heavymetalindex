@@ -98,14 +98,14 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 10–220 | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Cd | n=2 | 10–30 | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Pb | n=3 | 10–220 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cd | n=2 | 10–30 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 1–10 | low | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
 | tHg | n=2 | 1–10 | low | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Ni | n=4 | 1000–1500 | medium | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Ni | n=4 | 1000–1500 | medium | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 100–253 | low | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Cr | n=3 | 100–253 | low | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|1]], [[sources/henriksen2023-chromium-nordic-nnr\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
 | Sn | data gap | — | — | — |
 | U | data gap | — | — | — |
 
@@ -190,7 +190,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 1 | [[sources/begday2026-plant-milk-heavy-metal-safety\|Begday et al. 2026]]. *Integral assessment of the environmental safety of plant-based milk alternatives based on heavy metal analysis*, Izvestiya KGTU (KSTU News) | 2026 | Peer-reviewed | RU Pb, Cd, Zn, Cu occurrence in Eight plant-based milk samples assessed on the Russian market: four commercial ready-to-drink beverages (one each of almond, rice,... (n=8) |
 | 2 | [[sources/good2026-plant-milk-heavy-metals\|Good et al. 2026]]. *Comparative exposure and risk assessment of heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks*, Scientific Reports | 2026 | Peer-reviewed | US Cr, tAs, Cd, Pb occurrence in Twenty-two commercially available milk products purchased from major grocery retailers in Houston, Texas, USA. Eight milk-type categories: cow... (n=22) |
 | 3 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | EU/PL/CN Cd, Pb, Cr, Ni occurrence in 69 nut samples (16 peanuts, 15 hazelnuts, 15 almonds, 8 cashews, 15 walnuts) from Polish retail market; 13... (n=69) |
-| 4 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
+| 4 | [[sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
 | 5 | [[sources/zverina2025-plant-dairy-toxic-elements\|Zvěřina et al. 2025]]. *Essential and toxic elements in plant-based dairy alternatives: implications for vegan diets*, European Food Research and Technology | 2025 | Peer-reviewed | CZ/EU Pb, Cd occurrence in Fifty-four plant-based dairy alternative (PBDA) samples sourced from the Czech market in Brno, Czech Republic. Composition: 35 milk... (n=54) |
 | 6 | [[sources/dai2024-chongqing-dietary-arsenic-exposure\|Xinghui et al. 2024]]. *Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China*, Chinese Journal of Public Health | 2024 | Peer-reviewed | CN tAs occurrence in Chongqing city residents; food samples from 39 districts collected 2018-2023 covering 10 food categories; dietary consumption data from... (n=4900) |
 | 7 | [[sources/henriksen2023-chromium-nordic-nnr\|Henriksen et al. 2023]]. *Chromium – a scoping review for Nordic Nutrition Recommendations 2023*, Food & Nutrition Research | 2023 | Peer-reviewed | EU/NO/SE Cr occurrence in Scoping review for Nordic Nutrition Recommendations 2023; literature search on chromium in diet, supplementation, and health outcomes; Nordic... |

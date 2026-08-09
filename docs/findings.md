@@ -513,15 +513,24 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-17 open item(s): 7 auto, 10 awaiting a decision.
+19 open item(s): 8 auto, 11 awaiting a decision.
 
-### OI-20260809-wu2024-jiaozuo-dedup — Merge duplicate wu2024 Jiaozuo source pages (one real paper, two source records)
+### OI-20260809-title-mismatch-doi-sweep — Verify+fix the ~97 registered-DOI-with-title-mismatch source pages (DOI resolves but to a different paper)
+
+- scope: **auto** · type: audit · status: open · repo: index
+- paths: `data/evidence/confabulated-doi-audit-2026-07-29.md`, `wiki/sources/romero-crespo2023-ecuador-mining-crops-metals.md`, `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+- repro: The 2026-07-29 audit Section B lists ~97 source pages whose DOI RESOLVES but whose registered title differs from the page title. Many are benign (translated/paraphrased titles for the same paper), but some are genuine wrong-DOI mis-attributions where the DOI points to a completely different paper (e.g. onyegeme-okerenta2023-shellfish -> a triclosan/infertility paper; ortiz-garcia2023-arsenic-maternal -> an HPV-vaccination paper; flyvholm1984-nickel -> a German pesticide-photochemistry paper). This is the more dangerous, INVISIBLE cousin of the non-resolving-DOI class just cleared: the citation looks fine until a reviewer clicks through. Two live examples surfaced during the 2026-08-09 dedup and were EXCLUDED from the collapse: romero-crespo2023-ecuador-mining-crops-metals (title Heavy metals in soils and crops in a mining area of Ecuador vs registered Trace elements in farmland soils and crops...) and carignan2015-arsenic-infancy-well-water-breast-milk (actually the Schmidt commentary, real DOI 10.1289/ehp.123-a137).
+- done when: For each Section-B page: fetch the registered title via DOI content-negotiation, classify benign-translation vs genuine-mis-attribution; Genuine mis-attributions: recover the correct DOI via Crossref title search (handle-API 1 + exact title) or set no_doi_assigned:true + access_url; doi-collision audit down to 0 (the 2 remaining wrong-DOI clusters resolved); provenance rows in wiki_edit_audit.jsonl
+- notes: Method is the same verify-before-adopt discipline proven in the 2026-08-09 non-resolving-DOI remediation. Deterministic Crossref/doi.org checks; no LLM adjudication of resolution.
+
+### OI-20260809-organoarsenical-synthesis-downstream-propagation — Propagate organoarsenical-inertness synthesis to its remaining downstream ingredient pages
 
 - scope: **human-gated** · type: content · status: open · repo: index
-- paths: `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md`, `wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md`
-- repro: Both pages describe the identical paper (Wu Z 2024, IJNRES vol 2(1), Jiaozuo China cereals/vegetables/legumes heavy metals): same raw_path, same raw_sha256 4d83b0901661b6416c5a8e71c2c3b18831fcd5096d344d923ad6beda7240dd8f, same registered DOI 10.62051/10.62051/ijnres.v2n1.21. Both were auto-created by the AF_auto- bulk-fetch extractor. The paper is verified REAL (Warwick Evans Publishing), so quarantine is wrong; these are true duplicates and per CLAUDE.md Part 10 a page merge is Karen decision, not autonomous.
-- done when: One surviving source page for Wu 2024 Jiaozuo; the other removed or redirected; Routing audit re-fanned to the surviving cite_key with no orphaned references; Both cite_keys reconciled in any downstream contamination_profile / routing rows
+- paths: `wiki/ingredients/freshwater-fish.md`, `wiki/ingredients/shellfish.md`, `wiki/ingredients/seaweed.md`
+- repro: The synthesis wiki/synthesis/organoarsenical-inertness-assumption.md lists downstream targets in its Implications for downstream wiki pages section (its lines 75-85). This session propagated the finding to wiki/metals/arsenic.md (new speciation section + app-layer + FAQ reconcile). The three named ingredient pages exist but still carry no reference to the synthesis, so their arsenic coverage sub-blocks are not yet updated. testing/arsenic-speciation does not exist yet (synthesis flags it as when-written).
+- done when: wiki/ingredients/freshwater-fish.md arsenic sub-block notes that percent-DMA biomonitoring can underestimate iAs exposure (Davydiuk 2023) and that total-As includes organic fractions of uncharacterized toxicological weight, citing [[synthesis/organoarsenical-inertness-assumption]]; wiki/ingredients/shellfish.md and wiki/ingredients/seaweed.md note that the organic-arsenic classification does not settle post-digestion bioaccessibility (Liu 2023); seaweed additionally notes Laminaria digitata iAs above 50 percent of total As (Sim 2024); no unqualified organic-equals-harmless language remains on the three pages and every new wikilink resolves
 - decision: _pending_
+- notes: metals/arsenic.md completed 2026-08-09 in the same session that logged this. Keep the synthesis careful framing: do not assert arsenobetaine toxicity.
 
 ### OI-20260809-enable-decision-digest — Enable the out-of-session decision-digest launchd job (one command)
 
@@ -545,6 +554,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Every crosswalk regulations/ page ref resolves to an existing wiki/regulations/ page; Every crosswalk regulatory_limit_id resolves in regulatory_limits.csv or is none_loaded
 - decision: _pending_
 - notes: Some fixes are deterministic key repoints to existing register rows; others need new regulation pages or register rows (judgment) so human-gated.
+
+### OI-20260809-consolidate-big8-briefings — Consolidate duplicate Big-8 briefings + reconcile title overlap with new /big-8 pillar
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/briefings/the-big-8.md`, `content/briefings/brief-7-four-vs-eight.md`, `content/big-8.md`
+- repro: Brief 1 (brief-7-four-vs-eight) and Brief 3 (the-big-8) argue the same thesis with contradictory series numbers; new /big-8 pillar also titled The Big 8 (shares tab title with the briefing).
+- done when: one canonical Big-8 briefing; loser redirected; series numbering reconciled; pillar vs briefing title/role disambiguated
+- decision: _pending_
 
 ### OI-20260809-cephalopod-thg-standard-eu300 — Cephalopod tHg standard may miss EU 2023/915 300 ug/kg (strictest government ML)
 

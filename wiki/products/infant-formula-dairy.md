@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-17
-provisional_reason: "heal-gaps: routing_unresolved entry from source research2024-research-open-access-y declared product/infant-formula-dairy, no close-slug match"
-provisional_source: "[[sources/research2024-research-open-access-y]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source kumar2024-arsenic-breast-milk-bihar-gangetic declared product/infant-formula-dairy, no close-slug match"
+provisional_source: "[[sources/kumar2024-arsenic-breast-milk-bihar-gangetic]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-17
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source research2024-research-open-access-y declared product/infant-formula-dairy, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source kumar2024-arsenic-breast-milk-bihar-gangetic declared product/infant-formula-dairy, no close-slug match
 >
-> **Triggering source:** [[sources/research2024-research-open-access-y]]
+> **Triggering source:** [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic]]
 
 ## Literature scope
 
@@ -34,7 +34,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/research2024-research-open-access-y|High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants]]<span class="hmi-ref-meta">Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. · Environmental Health · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants]]<span class="hmi-ref-meta">Arun Kumar, Radhika Agarwal, Kanhaiya Kumar, Nirmal Kumar Chayal, Mohammad Ali, Abhinav Srivastava, et al. · Environmental Health · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Review</span>
 2. [[sources/demir2023-infant-formulas-turkey-toxic-elements|Estimated daily intake and health risk assessment of toxic elements in infant formulas]]<span class="hmi-ref-meta">Tugba Demir and Sema Agaoglu · British Journal of Nutrition · 2023 · [doi.org/10.1017/S0007114523000971](https://doi.org/10.1017/S0007114523000971)</span><span class="hmi-ref-tag">Review</span>
 3. [[sources/odhiambo2015-infant-formula-nairobi-trace-elements|Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya]]<span class="hmi-ref-meta">V. O. Odhiambo, R. Wanjau, J. O. Odundo, and M. P. Nawiri · African Journal of Food Science · 2015 · [doi.org/10.5897/AJFS2015.1315](https://doi.org/10.5897/AJFS2015.1315)</span><span class="hmi-ref-tag">Review</span>
 4. [[sources/unuvar2017-commercial-infant-formula-elements-turkey|Determination of Element Concentrations in Commercial Infant Formulas Using Atomic Absorption Spectrometry]]<span class="hmi-ref-meta">Songul Unuvar, Ebru Kuyumcu Savan, and Nagihan M. Karaaslan · Atomic Spectroscopy · 2017 · [doi.org/10.46770/as.2017.04.005](https://doi.org/10.46770/as.2017.04.005)</span><span class="hmi-ref-tag">Review</span>
@@ -50,7 +50,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/research2024-research-open-access-y\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
+| 1 | [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
 | 2 | [[sources/demir2023-infant-formulas-turkey-toxic-elements\|Demir et al. 2023]]. *Estimated daily intake and health risk assessment of toxic elements in infant formulas*, British Journal of Nutrition | 2023 | Peer-reviewed | TR/EU Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, tHg occurrence in 72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on... (n=72) |
 | 3 | [[sources/gredilla2022-powdered-milk-hazardous-elements\|Gredilla et al. 2022]]. *A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements*, Food Analytical Methods | 2022 | Peer-reviewed | BR/CO Li, Al, Mg, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sn, Sb, Ba, tHg, Tl, Pb, Mo occurrence in Twelve commercial powdered milk formulas purchased in representative cities of Brazil and Colombia: nine child/infant milks and three... (n=12) |
 | 4 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
@@ -100,7 +100,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 [[sources/demir2023-infant-formulas-turkey-toxic-elements]] is the broadest routed dairy-formula occurrence source: 72 powdered cow-milk-based products from Turkiye with Al, Mn, Co, Cu, Zn, tAs, Se, Cd, Sn, Pb, and tHg measured by ICP-MS. It is direct powder evidence and useful for toxic-element screening, with speciation limits preserved.
 
-[[sources/odhiambo2015-infant-formula-nairobi-trace-elements]], [[sources/unuvar2017-commercial-infant-formula-elements-turkey]], and [[sources/gredilla2022-powdered-milk-hazardous-elements]] add milk-based or powdered-milk formula evidence from Kenya, Turkiye, Brazil, and Colombia. [[sources/durovic2017-human-milk-infant-formula-microelements]] contributes Zn, Fe, and Cu nutrient-metal context, while [[sources/frisbie2019-manganese-infant-formula-beverages]] contributes Mn context across formula and young-child beverage forms. [[sources/research2024-research-open-access-y]] is biomonitoring and dietary-source context for tAs exposure in an arsenic-endemic region, not direct formula-product composition.
+[[sources/odhiambo2015-infant-formula-nairobi-trace-elements]], [[sources/unuvar2017-commercial-infant-formula-elements-turkey]], and [[sources/gredilla2022-powdered-milk-hazardous-elements]] add milk-based or powdered-milk formula evidence from Kenya, Turkiye, Brazil, and Colombia. [[sources/durovic2017-human-milk-infant-formula-microelements]] contributes Zn, Fe, and Cu nutrient-metal context, while [[sources/frisbie2019-manganese-infant-formula-beverages]] contributes Mn context across formula and young-child beverage forms. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic]] is biomonitoring and dietary-source context for tAs exposure in an arsenic-endemic region, not direct formula-product composition.
 
 ## Broad Product Context: Author-Scope Index
 

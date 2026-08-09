@@ -1,6 +1,9 @@
 ---
 type: source
 cite_key: carignan2015-arsenic-exposure-breastfed-formula-fed-infants
+sample_population: "6-week-old infants from the New Hampshire Birth Cohort Study"
+sample_n: 72
+raw_handle: FM_4421773
 title: "Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort"
 authors: ["Courtney C. Carignan", "Kathryn L. Cottingham", "Brian P. Jackson", "Shohreh F. Farzan", "A. Jay Gandolfi", "Tracy Punshon", "Carol L. Folt", "Margaret R. Karagas"]
 year: 2015

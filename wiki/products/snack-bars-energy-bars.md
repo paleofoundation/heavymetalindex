@@ -12,8 +12,8 @@ redirect_target: products/grain-based-snacks
 hmtc_taxonomy_version: "2.2"
 provisional_scaffold: true
 provisional_created: 2026-05-20
-provisional_reason: "heal-gaps: routing_unresolved entry from source arsenic2012-arsenic-organic-foods-brown declared product/snack-bars-energy-bars, no close-slug match"
-provisional_source: "[[sources/arsenic2012-arsenic-organic-foods-brown]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source jackson2012-arsenic-organic-foods-brown-rice-syrup declared product/snack-bars-energy-bars, no close-slug match"
+provisional_source: "[[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]"
 primary_metals_of_concern: [Pb, Cd, tAs]
 typical_ingredients: []
 applicable_regulations: []
@@ -27,9 +27,9 @@ updated: 2026-06-09
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-20 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source arsenic2012-arsenic-organic-foods-brown declared product/snack-bars-energy-bars, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source jackson2012-arsenic-organic-foods-brown-rice-syrup declared product/snack-bars-energy-bars, no close-slug match
 >
-> **Triggering source:** [[sources/arsenic2012-arsenic-organic-foods-brown]]
+> **Triggering source:** [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
 
 ## Literature scope
 
@@ -40,7 +40,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/arsenic2012-arsenic-organic-foods-brown|Arsenic, Organic Foods, and Brown Rice Syrup]]<span class="hmi-ref-meta">Environmental Health Perspectives · 2012 · [doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Arsenic, Organic Foods, and Brown Rice Syrup]]<span class="hmi-ref-meta">Environmental Health Perspectives · 2012 · [doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -51,7 +51,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | AR tAs, Cd, Pb occurrence in Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey,... (n=72) |
-| 2 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
+| 2 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

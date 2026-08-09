@@ -55,7 +55,7 @@ Source pages whose evidence comes from **Oceania**, grouped by jurisdiction.
 
 **New Zealand** (13)
 
-- [[sources/dearing2025-hawkes-bay-organic-nonorganic-vegetables|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis (2025)]]
+- [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis (2025)]]
 - [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone|Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis (2025)]]
 - [[sources/wysok2025-sheep-casings-metals-poland|Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions (2025)]]
 - [[sources/gautam2024-finger-paints-metals-formaldehyde|Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints (2024)]]

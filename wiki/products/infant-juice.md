@@ -6,8 +6,8 @@ hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-20
-provisional_reason: "heal-gaps: routing_unresolved entry from source cereal2013-cereal-juice-lead-arsenic declared product/infant-juice, no close-slug match"
-provisional_source: "[[sources/cereal2013-cereal-juice-lead-arsenic]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source neuwirth2022-baby-cereals-lead-arsenic declared product/infant-juice, no close-slug match"
+provisional_source: "[[sources/neuwirth2022-baby-cereals-lead-arsenic]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
@@ -21,9 +21,9 @@ updated: 2026-05-20
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-20 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source cereal2013-cereal-juice-lead-arsenic declared product/infant-juice, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source neuwirth2022-baby-cereals-lead-arsenic declared product/infant-juice, no close-slug match
 >
-> **Triggering source:** [[sources/cereal2013-cereal-juice-lead-arsenic]]
+> **Triggering source:** [[sources/neuwirth2022-baby-cereals-lead-arsenic]]
 
 ## Literature scope
 
@@ -34,7 +34,7 @@ The literature corpus for this product class is currently thin. Sources route he
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/cereal2013-cereal-juice-lead-arsenic|Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest]]<span class="hmi-ref-meta">Neuwirth · International Journal of Environmental Research and Public Health · 2022 · [doi.org/10.3390/ijerph19105788](https://doi.org/10.3390/ijerph19105788)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/neuwirth2022-baby-cereals-lead-arsenic|Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest]]<span class="hmi-ref-meta">Neuwirth · International Journal of Environmental Research and Public Health · 2022 · [doi.org/10.3390/ijerph19105788](https://doi.org/10.3390/ijerph19105788)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -44,7 +44,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cereal2013-cereal-juice-lead-arsenic\|Neuwirth 2022]]. *Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | Cited reference from International Journal of Environmental Research and Public Health |
+| 1 | [[sources/neuwirth2022-baby-cereals-lead-arsenic\|Neuwirth 2022]]. *Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | Cited reference from International Journal of Environmental Research and Public Health |
 | 2 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
 <!-- END: hmi-source-legend -->
 

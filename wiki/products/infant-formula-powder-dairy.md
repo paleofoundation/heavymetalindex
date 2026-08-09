@@ -35,7 +35,7 @@ The literature corpus for this product class is currently thin. Sources route he
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/editor2019-manganese-levels-infant-formula|Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France]]<span class="hmi-ref-meta">Unknown · 2019 · [doi.org/Unknown](https://doi.org/Unknown)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/infant2018-research|Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia]]<span class="hmi-ref-meta">Tadele Eticha, Melat Afrasa, Getu Kahsay, and Hailekiros Gebretsadik · Hindawi International Journal of Analytical Chemistry · 2018 · [doi.org/10.1155/2018/2985698](https://doi.org/10.1155/2018/2985698)</span><span class="hmi-ref-tag">Review</span>
+2. [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia|Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia]]<span class="hmi-ref-meta">Tadele Eticha, Melat Afrasa, Getu Kahsay, and Hailekiros Gebretsadik · Hindawi International Journal of Analytical Chemistry · 2018 · [doi.org/10.1155/2018/2985698](https://doi.org/10.1155/2018/2985698)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -47,7 +47,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
 | 2 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 3 | [[sources/infant2018-research\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | ET Pb, Cd occurrence in Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old (n=5) |
+| 3 | [[sources/eticha2018-infant-formula-metals-mekelle-ethiopia\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | ET Pb, Cd occurrence in Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old (n=5) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -85,7 +85,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 ## Source Evidence Inventory
 
-[[sources/infant2018-research]] provides direct Pb and Cd evidence for five milk-based infant formula powders sold in Mekelle, Ethiopia for infants 6-12 months old. Cd was not detected, while Pb ranged from not detected to 0.103 mg/kg, with the source reporting estimated intakes below its cited tolerable-intake comparators.
+[[sources/eticha2018-infant-formula-metals-mekelle-ethiopia]] provides direct Pb and Cd evidence for five milk-based infant formula powders sold in Mekelle, Ethiopia for infants 6-12 months old. Cd was not detected, while Pb ranged from not detected to 0.103 mg/kg, with the source reporting estimated intakes below its cited tolerable-intake comparators.
 
 [[sources/editor2019-manganese-levels-infant-formula]] contributes Mn context across infant formula powders, ready-to-feed formulas, and child nutritional beverages in US and French markets. Its contribution here is product-form context for Mn, not evidence for Pb, Cd, arsenic, mercury, Ni, Al, Cr(VI), or Sn.
 

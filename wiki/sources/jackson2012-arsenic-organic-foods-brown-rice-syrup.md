@@ -1,6 +1,11 @@
 ---
 type: source
 cite_key: jackson2012-arsenic-organic-foods-brown-rice-syrup
+matrices: [organic-brown-rice-syrup, infant-formula-toddler-with-rice-syrup, cereal-bars, dry-weight]
+sample_population: "Commercial products containing organic brown rice syrup (OBRS): 3 OBRS lots, 2 toddler formulas with OBRS, 13 toddler/infant formulas without OBRS, 29 cereal bars, 3 energy products; purchased in New Hampshire area"
+sample_n: 29
+license: "open access (NIEHS/NIH)"
+raw_handle: FM_3346791
 title: "Arsenic, Organic Foods, and Brown Rice Syrup"
 authors: [Jackson BP, Taylor VF, Karagas MR, Punshon T, Cottingham KL]
 year: 2012

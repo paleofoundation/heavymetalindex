@@ -97,7 +97,7 @@ Speciation: The paper reports total mercury. It does not speciate methylmercury 
 
 ## Verification notes
 
-- 2026-05-18 Codex duplicate cleanup: retained `rabeey2025-bovine-hg-pb-cd-egypt` as the canonical source page and retired duplicate source page `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt`.
+- 2026-05-18 Codex duplicate cleanup: retained `rabeey2025-bovine-hg-pb-cd-egypt` as the canonical source page and retired duplicate source page `rabeey2025-bovine-hg-pb-cd-egypt`.
 - The local seafood-folder PDF is the same DOI as the earlier loose manual-fetch copy. This page now points to the seafood-priority PDF path and records its SHA-256.
 - Cross-vendor audit (Codex, 2026-05-18) checked slug vocabulary: `beef-product` is an existing product page, and `meat`, `beef-muscle`, `bovine-liver`, and `bovine-kidney` are source-specific matrix descriptors used to preserve the tissue split.
 - Numerical fidelity follows the article's Tables 1-4. The abstract reports different SE values for several means (for example tHg muscle 0.312 ± 0.058), while Table 1 reports 0.312 ± 0.034; this page follows Table 1 because it is the full tissue-by-metal results table and supports the range and exceedance columns.

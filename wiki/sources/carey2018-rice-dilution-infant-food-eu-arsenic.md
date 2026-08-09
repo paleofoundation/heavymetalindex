@@ -1,6 +1,8 @@
 ---
 type: source
 cite_key: carey2018-rice-dilution-infant-food-eu-arsenic
+sample_population: "UK infant food products and their generic (non-infant-labeled) equivalents, purchased from 24 retailers in Northern Ireland, 2017"
+raw_handle: FM_5856424
 title: "Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards"
 authors: [Carey M, Donaldson E, Signes-Pastor AJ, Meharg AA]
 year: 2018

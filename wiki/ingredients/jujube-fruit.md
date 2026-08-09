@@ -6,8 +6,8 @@ aliases: []
 category: unclassified
 provisional_scaffold: true
 provisional_created: 2026-05-28
-provisional_reason: "heal-gaps: routing_unresolved entry from source introduction2014-randomized-controlled-trial-jujube declared ingredient/jujube-fruit, no close-slug match"
-provisional_source: "[[sources/introduction2014-randomized-controlled-trial-jujube]]"
+provisional_reason: "heal-gaps: routing_unresolved entry from source kelishadi2016-jujube-fruit-heavy-metals-breast-milk declared ingredient/jujube-fruit, no close-slug match"
+provisional_source: "[[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk]]"
 contamination_profile:
   Pb:
     status: pending
@@ -109,9 +109,9 @@ updated: 2026-05-28
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
-> **Reason:** heal-gaps: routing_unresolved entry from source introduction2014-randomized-controlled-trial-jujube declared ingredient/jujube-fruit, no close-slug match
+> **Reason:** heal-gaps: routing_unresolved entry from source kelishadi2016-jujube-fruit-heavy-metals-breast-milk declared ingredient/jujube-fruit, no close-slug match
 >
-> **Triggering source:** [[sources/introduction2014-randomized-controlled-trial-jujube]]
+> **Triggering source:** [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk]]
 
 ## Literature scope
 
@@ -129,7 +129,7 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
-1. [[sources/introduction2014-randomized-controlled-trial-jujube|A randomized controlled trial on the effects of jujube fruit on the concentrations of some toxic trace elements in human milk]]<span class="hmi-ref-meta">Kelishadi, R, Hasanghaliaei, N, Poursafa, P, Keikha, M, Ghannadi, A, Yazdi, M, et al. · Iran Journal of Nursing and Midwifery Research · 2014 · [doi.org/10.4103/1735-1995.193499](https://doi.org/10.4103/1735-1995.193499)</span><span class="hmi-ref-tag">Review</span>
+1. [[sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk|A randomized controlled trial on the effects of jujube fruit on the concentrations of some toxic trace elements in human milk]]<span class="hmi-ref-meta">Kelishadi, R, Hasanghaliaei, N, Poursafa, P, Keikha, M, Ghannadi, A, Yazdi, M, et al. · Iran Journal of Nursing and Midwifery Research · 2014 · [doi.org/10.4103/1735-1995.193499](https://doi.org/10.4103/1735-1995.193499)</span><span class="hmi-ref-tag">Review</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

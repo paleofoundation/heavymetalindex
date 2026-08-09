@@ -38,12 +38,12 @@ Source pages whose evidence comes from **International & multi-country**, groupe
 - [[sources/hc2008-review-dietary-exposure-aluminum|ARCHIVED — Health Canada Review of Dietary Exposure to Aluminum (2008)]]
 - [[sources/hussain2019-plant-food-heavy-metal-review|Arsenic and Heavy Metal (Cadmium, Lead, Mercury and Nickel) Contamination in Plant-Based Foods (2019)]]
 - [[sources/wang2024-as-cemetery-soil-remediation|Arsenic contamination in cemetery soils and remediation approaches (2024)]]
-- [[sources/su-2023-arsenic-brown-rice|Arsenic in Brown Rice: Do the Benefits Outweigh the Risks? (2023)]]
+- [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in Brown Rice: Do the Benefits Outweigh the Risks? (2023)]]
 - [[sources/frisbie2022-arsenic-drinking-water-global|Arsenic in drinking water: An analysis of global drinking water regulations and recommendations for updates to protect public health (2022)]]
 - [[sources/lorenzana2009-seafood-arsenic-speciation|Arsenic in Seafood: Speciation Issues for Human Health Risk Assessment (2009)]]
 - [[sources/thomas-2021-arsenic-methylation|Arsenic Methylation — Lessons from Three Decades of Research (2021)]]
 - [[sources/navaretnam-2025-rice-as-speciation|Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment (2025)]]
-- [[sources/arsenic2025-unknown-a|Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment (near-duplicate cluster entry) (2025)]]
+- [[sources/navaretnam-2025-rice-as-speciation|Arsenic speciation using HPLC-ICP-MS in white and brown rice and health risk assessment (near-duplicate cluster entry) (2025)]]
 - [[sources/lorenc2020-marine-algae-arsenic-species|Arsenic species and their transformation pathways in marine plants. Usefulness of advanced hyphenated techniques HPLC/ICP-MS and UPLC/ESI-MS/MS in arsenic species analysis (2020)]]
 - [[sources/raab2024-arsenolipids-chlamydomonas|Arsenolipids in the green microalga Chlamydomonas reinhardtii: first report of arsenosugar phospholipid (AsSugPhytol) (2024)]]
 - [[sources/mititelu2025-heavy-metal-food-contamination-review|Assessing Heavy Metal Contamination in Food: Implications for Human Health and Environmental Safety (2025)]]
@@ -94,7 +94,7 @@ Source pages whose evidence comes from **International & multi-country**, groupe
 - [[sources/han2025-peptide-zinc-complexation-aquatic-review|Dual Perspectives on Peptide–Zinc Complexation: Highlighting Aquatic Sources While Contextualizing Other Natural Origins (2025)]]
 - [[sources/ouyang2022-early-life-microbiota-delivery-feeding|Early Life Microbiota — Impact of Delivery Mode and Infant Feeding (2022)]]
 - [[sources/authors2016-edited-by-i-d-brown-mcmaster-university-the|Edited by I. D. Brown, McMaster University, The title compound, tetrasodium hepta(cobalt/aluminium) hexa(arsenate/ (2016)]]
-- [[sources/davydiuk2023-arsenosugars-methylation|Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans (2023)]]
+- [[sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other|Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans (2023)]]
 - [[sources/saliu2024-cadmium-salt-removal-chitosan-nanosheets|Electrocapacitive removal of Na and Cd ions from contaminated aqueous solution using Fe3O4-poly (3,4-ethylenedioxythiophene) poly(styrene sulfonate) modified chitosan nanosheets (2024)]]
 - [[sources/afzal2024-livestock-heavy-metals-review|Emerging insights into the impacts of heavy metals exposure on health, reproductive and productive performance of livestock (2024)]]
 - [[sources/inoue-2024-rice-nramp5-cadmium|Engineering Rice Nramp5 Modifies Cadmium and Manganese Uptake Selectivity Using Yeast Assay System (2024)]]
@@ -156,7 +156,7 @@ Source pages whose evidence comes from **International & multi-country**, groupe
 - [[sources/iso2020-8124-3-toy-migration-elements|ISO 8124-3:2020 — Safety of toys — Part 3: Migration of certain elements (Third edition, 2020-03) (2020)]]
 - [[sources/authors2022-jppt-infant-nutrition-survey|JPPT | Infant Nutrition Survey (2022)]]
 - [[sources/tandhanskul2025-kombucha-metabiotics-review|Kombucha as a Sustainable Source of Metabiotics: Potential, Applications, and Future Perspectives (2025)]]
-- [[sources/onyena2024-lactational-metals-africa-europe|Lactational Exposure of Human Infants to Metal(loid)s in Sub-Saharan Africa and Mediterranean Europe: A Systematic Review and Meta-Analysis (2024)]]
+- [[sources/onyena2024-lactational-metals-africa-mediterranean|Lactational Exposure of Human Infants to Metal(loid)s in Sub-Saharan Africa and Mediterranean Europe: A Systematic Review and Meta-Analysis (2024)]]
 - [[sources/ordemann-austin-2016-pb-zinc-finger|Lead neurotoxicity: exploring the potential impact of lead substitution in zinc-finger proteins on mental health (2016)]]
 - [[sources/dabeka1987-canada-infant-formula-lead-cadmium|Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada (1987)]]
 - [[sources/sun2024-libs-pb-soil|LIBS detection of lead in contaminated soils (2024)]]
@@ -266,7 +266,7 @@ Source pages whose evidence comes from **International & multi-country**, groupe
 
 **CAC** (1)
 
-- [[sources/abstract2020-content-dietary-exposure-toxic|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market (2020)]]
+- [[sources/su2020-infant-formula-china-toxic-elements|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market (2020)]]
 
 **KS** (1)
 
