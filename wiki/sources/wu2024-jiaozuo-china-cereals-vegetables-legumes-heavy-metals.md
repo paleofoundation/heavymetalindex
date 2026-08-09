@@ -6,9 +6,9 @@ title: "Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes 
 authors: [Wu Z]
 year: 2024
 publication: "International Journal of Natural Resources and Environmental Studies, 2(1): 180–202"
-doi: "10.62051/ijnres.v2n1.21"
+doi: "10.62051/10.62051/ijnres.v2n1.21"
 no_doi_assigned: false
-access_url: "https://doi.org/10.62051/ijnres.v2n1.21"
+access_url: "https://wepub.org/index.php/IJNRES/article/view/1230"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY-NC 4.0"
@@ -130,7 +130,7 @@ Not synthesised — single-paper source page. The routing audit will surface thi
 
 ## Provenance notes
 
-PDF retrieved by the autonomous discover skill into `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/` under the auto-generated filename `auto-leafy-vegetables-other-pb-product_2024_10-62051-10-62051-ijnres-v2n1-21.pdf`. The "leafy-vegetables-other-pb-product" portion of the auto-handle reflects the gap the discovery routine was filling (Pb data for the `leafy-vegetables-other` product page); the actual paper covers eight metals across cereals, legumes, and vegetables, so the routing fan-out is broader than the auto-handle suggests. License CC BY-NC 4.0 per the publisher's footer ("Content from this work may be used under the terms of the CC BY-NC 4.0 licence", Warwick Evans Publishing). DOI 10.62051/ijnres.v2n1.21. Open access.
+PDF retrieved by the autonomous discover skill into `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/` under the auto-generated filename `auto-leafy-vegetables-other-pb-product_2024_10-62051-10-62051-ijnres-v2n1-21.pdf`. The "leafy-vegetables-other-pb-product" portion of the auto-handle reflects the gap the discovery routine was filling (Pb data for the `leafy-vegetables-other` product page); the actual paper covers eight metals across cereals, legumes, and vegetables, so the routing fan-out is broader than the auto-handle suggests. License CC BY-NC 4.0 per the publisher's footer ("Content from this work may be used under the terms of the CC BY-NC 4.0 licence", Warwick Evans Publishing). DOI 10.62051/10.62051/ijnres.v2n1.21 (Warwick Evans Publishing registered the identifier with a doubled `10.62051/` prefix; that doubled form is the one that resolves at doi.org to the article, verified 2026-08-09, and is recorded verbatim so the DOI link works). Open access.
 
 The journal page numbering printed in the PDF runs from 180 (cover) through 202 (references end); citations above use the printed page numbers.
 

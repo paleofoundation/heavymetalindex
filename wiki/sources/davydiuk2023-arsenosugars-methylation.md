@@ -6,8 +6,8 @@ title: "Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Spec
 authors: [Davydiuk T, Tao J, Lu X, Le XC]
 year: 2023
 publication: "Environmental Health"
-doi: 10.1021/envhealth.3c00080
-access_url: "https://doi.org/10.1021/envhealth.3c00080"
+doi: 10.1021/envhealth.3c00090
+access_url: "https://doi.org/10.1021/envhealth.3c00090"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND"

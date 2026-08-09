@@ -6,8 +6,9 @@ title: "Heavy Metals Concentration in Facial Cosmetics"
 authors: [Aldayel O, Hefne J, Alharbi KN, Al-Ajyan T]
 year: 2018
 publication: "Natural Products Chemistry & Research 6(1): 1000303"
-doi: 10.4172/2329-6836.1000303
-access_url: "https://doi.org/10.4172/2329-6836.1000303"
+doi: null
+no_doi_assigned: true
+access_url: "https://www.omicsonline.org/open-access/heavy-metals-concentration-in-facial-cosmetics-2475-7675-1000303-98200.html"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
@@ -310,7 +311,7 @@ The Saudi Standards, Metrology and Quality Organization standard for rouge sampl
 - **Selenium SRM recovery caveat.** IAEA-SOIL-7 certified range Se 0.2-0.8 ppm; this study reports 1.3 ppm at 34.6% RSD — both 63% above the certified upper bound and an unusually high RSD compared to the other elements (most run < 5% RSD). Sample Se values should be down-weighted or re-measured before incorporation into any synthesis cell.
 - **Element-count abstract/results inconsistency.** The abstract and methods describe "Twenty-eight elements" detected by ICP-MS + FIMS, but the Results and Discussion narrative (p. 4) describes "the concentration of twenty elements in ppb (µg/Kg) in the facial cosmetics... are reported in Tables 5-8." The tables themselves report 27 elements (ICP-MS) + Hg (FIMS) = 28 elements per product type. The "twenty" in the narrative appears to be a typographical error in the source; transcribed as displayed and flagged here.
 - **License.** The article is published under the Creative Commons Attribution License (CC BY) per the explicit copyright statement on page 1: "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited." The version of CC BY (3.0 vs 4.0) is not specified; `license: CC BY`.
-- **DOI verified.** DOI 10.4172/2329-6836.1000303 printed on every page footer of the article.
+- **DOI (printed on the article but non-resolving; corrected 2026-08-09).** The DOI 10.4172/2329-6836.1000303 (*Natural Products Chemistry & Research* 6(1):1000303) is printed on every page footer of the PDF, but it does not resolve at doi.org (DOI handle API responseCode 100, verified 2026-08-09). This is a dead publisher-assigned DOI from a predatory OMICS Publishing Group title, not a wiki confabulation. OMICS separately cross-registered the identical article (article no. 1000303) under a second, resolving DOI, 10.4172/2475-7675.1000303, but attributed to a different OMICS title (*Advances in Recycling & Waste Management*); adopting that identifier would contradict the journal this paper self-identifies as, so the page instead records `doi: null` with `no_doi_assigned: true` and an `access_url` to the publisher's open-access page for the paper. See `data/evidence/doi-fabrication-remediation-2026-08-09.csv`.
 - **Authors verified against PDF byline.** Aldayel O¹, Hefne J², Alharbi KN¹*, Al-Ajyan T¹. Affiliations: ¹King Abdulaziz City for Science and Technology, Riyadh, Saudi Arabia; ²King Abdullah City for Atomic and Renewable Energy, Riyadh, Saudi Arabia. Corresponding author: Alharbi KN (kalharbi@kacst.edu.sa).
 - **OCR/Unicode glitches in source PDF.** The source PDF contains a number of Unicode-substitution OCR artifacts (e.g., "Нe" instead of "The", "dLوٴerent" instead of "different", "وٴ" instead of "ff", "fiіeen" instead of "fifteen", "FIDsk" instead of "flask", "fiv" patterns) where the typesetter's smart-quote/typographic substitution did not survive PDF encoding. Transcription on this page uses the clean English equivalents in body text; the original-PDF glyphs are not reproduced.
 - **Whitener B (boron) panel-mean field.** Table 6 of the source reports the panel-mean for B in the Whitener product type as blank (no numeric value) while showing three of four samples at BDL and one (C25) at 9,550,000 ppb. The source does not state how the mean was computed or whether it was suppressed because of the one-of-four-above-BDL pattern. Transcribed with the panel-mean cell as "—".

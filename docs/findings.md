@@ -513,7 +513,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-15 open item(s): 6 auto, 9 awaiting a decision.
+17 open item(s): 7 auto, 10 awaiting a decision.
+
+### OI-20260809-wu2024-jiaozuo-dedup — Merge duplicate wu2024 Jiaozuo source pages (one real paper, two source records)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md`, `wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md`
+- repro: Both pages describe the identical paper (Wu Z 2024, IJNRES vol 2(1), Jiaozuo China cereals/vegetables/legumes heavy metals): same raw_path, same raw_sha256 4d83b0901661b6416c5a8e71c2c3b18831fcd5096d344d923ad6beda7240dd8f, same registered DOI 10.62051/10.62051/ijnres.v2n1.21. Both were auto-created by the AF_auto- bulk-fetch extractor. The paper is verified REAL (Warwick Evans Publishing), so quarantine is wrong; these are true duplicates and per CLAUDE.md Part 10 a page merge is Karen decision, not autonomous.
+- done when: One surviving source page for Wu 2024 Jiaozuo; the other removed or redirected; Routing audit re-fanned to the surviving cite_key with no orphaned references; Both cite_keys reconciled in any downstream contamination_profile / routing rows
+- decision: _pending_
 
 ### OI-20260809-enable-decision-digest — Enable the out-of-session decision-digest launchd job (one command)
 
@@ -521,6 +529,13 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: SessionStart surfacing is live; the out-of-session push (weekday-morning notification) is built and ready but not installed, because a launchd job is machine-level persistent config that should be your explicit choice given the deliberately-empty autonomy surface.
 - done when: launchd job com.paleo.hmi.decision-digest loaded
 - decision: _pending_ — enact: `cp tools/outstanding/com.paleo.hmi.decision-digest.plist ~/Library/LaunchAgents/ && launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.paleo.hmi.decision-digest.plist`
+
+### OI-20260809-doi-remediation-machine-indexes-stale — Discovery/library machine indexes still carry pre-remediation (dead) DOIs for the 55 remediated source pages
+
+- scope: **auto** · type: finding · status: open · repo: index
+- paths: `data/evidence/discovery/corpus-index.json`, `data/evidence/library/index-snapshot.jsonl`, `data/evidence/autonomy/corpus-inventory-coverage-2026-06-11.csv`, `outputs/vegetable-oils-heavy-metals-2026-06-01/build-vegetable-oils-heavy-metals-workbook.mjs`
+- repro: The 2026-08-09 confabulated-DOI remediation (41 prior + 14 this pass) corrected source-page frontmatter DOIs, but the regenerable discovery/library corpus indexes were left stale (prior-pass precedent: new abdel-tawwab DOI absent from corpus-index.json, old one still present). These indexes drive corpus dedup; a stale dead DOI can let a corrected-DOI re-encounter slip past dedup. Not a live-page defect (not published). The outputs/ workbook build script embeds a dead vega-jara DOI (historical one-off, harmless).
+- done when: corpus-index.json + index-snapshot.jsonl regenerated so DOIs match current source-page frontmatter for all remediated pages
 
 ### OI-20260809-crosswalk-dangling-refs-unresolved-keys — product_regulatory_crosswalk.csv: 4 dangling page refs + 12 unresolved cap keys silently dropped
 

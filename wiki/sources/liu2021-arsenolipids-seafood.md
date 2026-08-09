@@ -6,7 +6,8 @@ title: "Discovery and Identification of Arsenolipids Using a Precursor-Finder St
 authors: [Liu Q, Huang C, Li W, Fang Z, Le XC]
 year: 2021
 publication: "Environmental Science and Technology"
-doi: 10.1021/acs.est.0c07480
+doi: 10.1021/acs.est.0c07175
+access_url: "https://doi.org/10.1021/acs.est.0c07175"
 source_type: peer-reviewed
 evidence_tier: A
 license: "ACS AuthorChoice"

@@ -5,14 +5,15 @@ title: "Mitigation of Cadmium Accumulation in Cocoa Beans Using Arbuscular Mycor
 authors: [Vega-Jara L, Palacin Agüero J, Farfán Tucto S, Vangeli S, Márquez-Dávila K]
 year: 2025
 publication: "Folia Amazónica"
-doi: "10.24841/fa.v34i2.800"
+doi: null
+no_doi_assigned: true
 source_type: peer-reviewed
 evidence_tier: B
 license: "cc-by"
 raw_path: raw/studies/vega-jara2025-cocoa-cd-mitigation-amf-biochar.pdf
 sha256: 62a6629133c514a6580aad9a8d6bc8e6cbf812d9285af062b5f64956b3b8f3b4
 access_date: 2026-05-12
-access_url: "https://doi.org/10.24841/fa.v34i2.800"
+access_url: "https://revistas.iiap.gob.pe/index.php/foliaamazonica/article/view/800"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]"]
 products: []

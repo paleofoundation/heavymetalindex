@@ -5,14 +5,15 @@ title: "ClimaLOCA project: Fostering innovations for cadmium reduction in cocoa 
 authors: [Sounigo O, Paulin D, Efombagn MIB, Eskes A, Glendinning A, Gonzalez-Manosalva I, Larrea D, Motamayor JC, Maddison A, Sukha D]
 year: 2023
 publication: "CATIE (Centro Agronómico Tropical de Investigación y Enseñanza) Conference Proceedings"
-doi: "10.18400/catie-2023-0006"
+doi: null
+no_doi_assigned: true
 source_type: conference-proceedings
 evidence_tier: B
 license: "unknown"
 raw_path: raw/studies/sounigo2023-climaloca-cocoa-cadmium.pdf
 sha256: 7a7508c8407aca5b9b3fc8f8b433b66de34c271ddc200103d9e5b5553ddacf07
 access_date: 2026-05-12
-access_url: "https://doi.org/10.18400/catie-2023-0006"
+access_url: "https://hal.science/hal-05182059"
 metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]"]
 products: []

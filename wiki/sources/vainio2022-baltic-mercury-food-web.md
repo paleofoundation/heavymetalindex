@@ -6,7 +6,8 @@ title: "Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The 
 authors: [Vainio RK, Jormalainen V, Dietz R, Laaksonen T, Schulz R, Sonne C, Søndergaard J, Zubrod JP, Eulaers I]
 year: 2022
 publication: "Environmental Science & Technology"
-doi: 10.1021/acs.est.2c03786
+doi: 10.1021/acs.est.2c03846
+access_url: "https://doi.org/10.1021/acs.est.2c03846"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
