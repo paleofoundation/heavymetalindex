@@ -36,18 +36,18 @@ contamination_profile:
     last_reviewed: 2026-05-13
   tHg:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 1]
+    p95_ppb: 5
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Ni:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
+    typical_ppb: [0, 10]
+    p95_ppb: 43
+    confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-08-09
   Al:
     status: populated
     typical_ppb: [null, null]
@@ -57,11 +57,11 @@ contamination_profile:
     last_reviewed: 2026-05-16
   Cr:
     status: populated
-    typical_ppb: [0, 0]
-    p95_ppb: 0
-    confidence: medium
-    n_studies: 3
-    last_reviewed: 2026-05-13
+    typical_ppb: [0, 50]
+    p95_ppb: 50
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-08-09
   Sn:
     status: populated
     typical_ppb: [null, null]
@@ -112,12 +112,18 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Cd | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
 | iAs | data gap | — | — | — |
 | tAs | n=2 | 0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=3 | 0–1 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/maikanov2021-meats-shuchinsk-burabay-metals\|2]], [[sources/zhang2022-pork-heavy-metals-china\|3]] |
+| Ni | n=3 | 0–10 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/manfredi2025-nickel-meat-italy\|2]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|3]] |
 | Al | data gap | — | — | — |
-| Cr | n=3 | 0 | medium | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cr | n=2 | 0–50 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/dibella2020-augusta-meat-milk-seafood-metals\|2]], [[sources/khalafalla2011-beef-carcasses-metals-egypt\|3]] |
 | Sn | data gap | — | — | — |
 | U | n=2 | 0–1.3 | low | — |
+
+## Synthesis basis and censoring treatment
+
+The prior zeros for total mercury, nickel and chromium in pork sausage reflected FDA pan-cooked pork sausage composites (n=27) below reporting limits of 1 ppb for mercury, 40 ppb for nickel and 50 ppb for chromium ([[sources/fda2022-tds-elements-fy2018-fy2020|FDA 2022]]). Twenty-six of twenty-seven nickel composites were below the limit, with a single composite at 43 ppb just above it, while mercury and chromium were below their limits in every composite. Re-synthesis left-censors these nondetects at the reporting limit rather than recording zero.
+
+Supporting muscle data confirm low but non-zero occurrence. Italian official-control pork muscle (n=347) had a nickel median of 6 ppb and a mean of 9 ppb by ICP-MS with occasional values to 158 ppb ([[sources/manfredi2025-nickel-meat-italy|Manfredi et al. 2025]]); Kazakh market pork was below detection for mercury ([[sources/maikanov2021-meats-shuchinsk-burabay-metals|Maikanov et al. 2021]]) while a Chinese pooled pork summary reported about 7 ppb total mercury ([[sources/zhang2022-pork-heavy-metals-china|Zhang et al. 2022]]); and muscle chromium in other work runs near 11 ppb with a maximum around 48 ppb ([[sources/khalafalla2011-beef-carcasses-metals-egypt|Khalafalla et al. 2011]]), below the FDA reporting limit. The single 43 ppb nickel composite is treated as an upper-tail point rather than the centre, and chromium is published as fully left-censored at the 50 ppb reporting limit because no pork-specific detects exist.
 
 ## Routing
 
