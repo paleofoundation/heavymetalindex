@@ -76,13 +76,14 @@ function masterTable(rec) {
   for (const a of PANEL) {
     const c = rec.cells[a]
     if (!c) continue
+    if (c.type === "not_material") continue // not-material analytes move to the "Screened, not limited" block
     const z = i % 2 === 0 ? ' style="background:#fdfaf8"' : ""
     i++
     const tier = TIER1.has(a) ? "Tier 1" : "Tier 2"
     const ld = limitDisplay(c)
-    const basis = c.type === "not_material" ? (c.bounded_by ? `bounded by ${ANALYTE_DISP[c.bounded_by] || c.bounded_by}` : "no migration pathway") : (c.basis || "")
-    const gov = c.type === "not_material" ? "&mdash;" : bindingName(c)
-    const rationale = c.type === "not_material" ? "not material" : "regulatory-alignment"
+    const basis = c.basis || ""
+    const gov = bindingName(c)
+    const rationale = "regulatory-alignment"
     rows.push(`      <tr${z}><td style="${TD};color:#2b1f1f">${ANALYTE_DISP[a]}</td><td style="${TD};color:#736b6b;font-size:12px">${tier}</td><td style="${TD};font-family:'IBM Plex Mono',monospace;color:#2b1f1f;text-align:right;white-space:nowrap">${ld.v}</td><td style="${TD};color:#736b6b;font-size:12.5px">${basis}</td><td style="${TD};color:#736b6b;font-size:12.5px">${gov}</td><td style="${TD};color:#736b6b;font-size:12px">${rationale}</td></tr>`)
     // companion ceilings as annotated sub-rows
     for (const comp of c.companion || []) {
@@ -92,6 +93,26 @@ function masterTable(rec) {
     }
   }
   return rows.join("\n")
+}
+
+function screenedBlock(rec) {
+  const nm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type === "not_material")
+  if (!nm.length) return ""
+  const rows = nm.map((a, i) => {
+    const c = rec.cells[a]
+    const z = i % 2 === 0 ? ' style="background:#fdfaf8"' : ""
+    const why = (c.rationale ? String(c.rationale) : c.bounded_by ? `Bounded by ${ANALYTE_DISP[c.bounded_by] || c.bounded_by}.` : "No exposure pathway and no government limit.").replace(/</g, "&lt;")
+    return `      <tr${z}><td style="${TD};color:#2b1f1f;white-space:nowrap">${ANALYTE_DISP[a]}</td><td style="${TD};color:#736b6b;font-size:12.5px;line-height:1.6">${why}</td></tr>`
+  }).join("\n")
+  return `<section id="screened" style="margin-bottom:52px"><h2 ${H2}>Screened, not limited</h2>
+<p ${PMUT}>All ten HMTc certification analytes are accounted for. The analytes below carry no published ceiling for this product because no exposure pathway and no government limit exist; each determination is recorded here rather than left as a silent gap. They are screened during certification, not certified against a number.</p>
+<div style="overflow-x:auto"><table style="width:100%;font-size:13.5px;border:1px solid #e8e1db;min-width:40rem;border-collapse:collapse">
+<thead><tr style="background:#9f2727;color:#fff"><th ${TH}>Analyte</th><th ${TH}>Why it carries no ceiling for this product</th></tr></thead>
+<tbody>
+${rows}
+</tbody></table></div></section>
+
+`
 }
 
 function derivationTable(rec) {
@@ -210,7 +231,7 @@ function page(rec) {
 ${masterTable(rec)}
 </tbody></table></div></section>
 
-<section id="derivation" style="margin-bottom:52px"><h2 ${H2}>Derivation &mdash; every government value, side by side</h2>
+${screenedBlock(rec)}<section id="derivation" style="margin-bottom:52px"><h2 ${H2}>Derivation &mdash; every government value, side by side</h2>
 <p ${PMUT}>Each row lists every government limit weighed for this analyte in the governing basis, converted to mg/kg; the HMTc limit is the strictest of them. Companion total-content ceilings appear in the Master Limit Table above, not here, because they are a different measured quantity.</p>
 <div style="overflow-x:auto"><table style="width:100%;font-size:13px;border:1px solid #e8e1db;min-width:44rem;border-collapse:collapse">
 <thead><tr style="background:#9f2727;color:#fff"><th ${TH}>Analyte</th><th ${TH}>Government limits considered (mg/kg)</th><th ${THR}>HMTc</th><th ${TH}>Binds</th></tr></thead>
