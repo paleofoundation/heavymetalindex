@@ -125,6 +125,13 @@ const config: QuartzConfig = {
       // CrawlLinks so the inserted links are resolved + counted in the graph.
       Plugin.AutoLink(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      // Fold structured frontmatter relationships (metal symbols, panel_metals,
+      // contamination_profile analytes, matrix tokens, ingredient/product/
+      // regulation/synthesis references) into file.data.links so the Graph,
+      // Backlinks, and the rail's Connections reflect the REAL concept graph and
+      // not just sparse prose links. MUST run after CrawlLinks, which sets
+      // file.data.links; this unions the concept edges on top. See conceptLinks.ts.
+      Plugin.ConceptLinks(),
       // Resolve aliasless [[slug]] link text to the target page's title so bare
       // wikilinks read as page names site-wide. Runs after CrawlLinks so
       // data-slug and link classes are present. See linkTitles.ts.
