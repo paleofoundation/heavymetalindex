@@ -1,0 +1,9 @@
+{
+  "note": "Accepted transformer-parity findings (ratchet). Draining backlog: do not grow. A NEW finding beyond this list fails the build (unless --warn-only). Re-run --update-baseline after an intended change.",
+  "accepted": [
+    "INDEX_CARD_ORPHAN::wiki/products/index.md → products/food-prep-coffee-maker-pathways",
+    "INDEX_CARD_ORPHAN::wiki/products/index.md → products/infant-carriers",
+    "INDEX_CARD_ORPHAN::wiki/products/index.md → products/infant-nursery-water",
+    "INDEX_CARD_ORPHAN::wiki/products/index.md → products/lip-products"
+  ]
+}
