@@ -135,7 +135,10 @@ for (const sub of ["metals", "regulations", "synthesis"]) {
         DOI.lastIndex = 0
         let m
         while ((m = DOI.exec(line)) !== null) {
-          if (!/doi\.org|href|\]\(/.test(line)) {
+          // A line carrying a [[sources/…]] wikilink already links the source
+          // page (whose page holds the resolved DOI), and a markdown link / href
+          // is self-evidently linked — none of those are bare citations.
+          if (!/doi\.org|href|\]\(|\[\[/.test(line)) {
             warnings.push(`BARE_PRIMARY_SOURCE: ${rel}:${i + 1} prints DOI "${m[0]}" without a doi.org link.`)
             break
           }

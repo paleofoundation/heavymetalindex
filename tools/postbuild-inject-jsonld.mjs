@@ -57,12 +57,17 @@ const METAL_ENTITY_LINKS = {
 }
 
 const PUBLISHER = {
-  // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming". The
-  // url stays on the live Foundation site until contaminantstandards.com
-  // serves; a correctly-branded dead link is worse than a live stale one.
+  // Operator/editorial attribution per CLAUDE.md Part 14 "Entity naming".
+  // contaminantstandards.com went live 2026-08-10, so the publisher URL now
+  // resolves the ICS entity to its own institutional site (the condition the
+  // earlier paleofoundation.com placeholder was waiting on). This is a
+  // `publisher` (operator) edge only — the Index's publisher IS the ICS entity —
+  // NOT cert org-tree membership: the homepage Organization still declares no
+  // parentOrganization/subOrganization/memberOf, enforced by the assertion below
+  // (cross-site-seo-wiring.md §1, "never framed as a certification sub-brand").
   "@type": "Organization",
   name: "Institute of Contaminant Standards",
-  url: "https://paleofoundation.com",
+  url: "https://contaminantstandards.com",
 }
 // Named, ORCID-identified author of the Index's own content — the human
 // accountability signal Google E-E-A-T and the scholarly graph reward.
