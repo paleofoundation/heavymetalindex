@@ -49,7 +49,11 @@ Governing basis: EU REACH Annex XVII entry 72 extractable metals. Entry 72 exclu
 | Analyte | HMTc limit | Binds |
 | --- | ---: | --- |
 | Pb, tAs, Cd, Cr-VI | 1 mg/kg (after extraction) | EU REACH entry 72 (read-across per disposable-textile exclusion) |
-| tHg, Ni, Al, Sn, iAs, MeHg | not material | no source / no pathway (Ni: metallic snaps screened under nickel release) |
+| Ni | 0.5 µg/cm²/week (release) | EU Nickel Directive 94/27/EC (prolonged skin contact) |
+| Sn | 1000 mg/kg as Sn (organotin) | EU REACH Annex XVII entry 20 (organotin; reflex speciation) |
+| tHg, Al, iAs, MeHg | not material | no source / no pathway; no contradicting routed source |
+
+Diaper Ni and Sn were initially not-material; the not-material integrity check (`tools/evidence/audit-not-material-integrity.mjs`, added this build and wired into prebuild) flagged both as contradicted by routed sources (Nyamukamba 2023 extractable Ni above the skin-contact limit; Smajgl 2015 organotin to 23 mg/kg, 20–100% of the organotin TDI). Retired to real limits per the rebuttable-not-material procedure in the Step 0 lock. Corpus-wide, the check flags 91 not-material cells contradicted by routed evidence — a program-wide re-adjudication queue, logged separately.
 
 ## AUDIT — per-cell provenance and basis check
 

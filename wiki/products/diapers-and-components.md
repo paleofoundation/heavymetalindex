@@ -24,6 +24,8 @@ updated: 2026-05-17
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 9 (Infant and Child Contact Products (Ages 0-5)), Row 7: **Diapers and diaper components**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [diapers-and-components]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
+Scope: this row covers the diaper and its structural components (nonwoven topsheet and backsheet, the absorbent core, elastics, adhesives, and closures or fasteners). Baby and diaper wipes and diaper creams are not covered here; they are leave-on skin-cleansing and skin-care products and route to Category 2 (Infant and Child Personal Care), rows [[products/baby-wipes|Baby wipes]] and [[products/diaper-cream-non-zno|Diaper cream]].
+
 
 ## Literature scope
 

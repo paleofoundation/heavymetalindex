@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "toy migration (element migration from scraped-off toy material, EU 2009/48/EC Annex II Part III Category III; teething toys are toys and are directly governed by the Toy Safety Directive)",
   "native_basis_label": "element migration from scraped-off toy material (mg/kg material)",
+  "scope_note": "Covers teethers and teething toys a child mouths. General children’s toys without a mouthing-specific role are certified under Category 21 (Children’s Toys).",
   "cells": {
     "Pb": {
       "type": "gov",
@@ -202,7 +203,15 @@
           "jurisdiction": "EU"
         }
       ],
-      "stricter_unselected": []
+      "stricter_unselected": [
+        {
+          "id": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "value": 1000000,
+          "jurisdiction": "EU",
+          "basis": "organotin (dioctyltin/DOT) content as tin in skin-contact article; source unit percent by weight",
+          "scope": "textile articles intended to come into contact with the skin, childcare articles, and other consumer articles in skin contact (diapers, gloves)"
+        }
+      ]
     }
   },
   "generated_from": "data/evidence/regulatory_limits.csv",

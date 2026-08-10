@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "food-contact specific migration into food (EU Regulation 10/2011 Annex II; silicone/elastomer via the framework regulation)",
   "native_basis_label": "specific migration into food (mg/kg food)",
+  "scope_note": "Covers bottle nipples, teats, and spouts (silicone, latex). Pacifier nipples are certified under Pacifiers and sucking/teething aids.",
   "cells": {
     "Pb": {
       "type": "gov",

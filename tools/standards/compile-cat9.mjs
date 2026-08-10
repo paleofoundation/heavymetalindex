@@ -193,7 +193,7 @@ for (const slug of slugs) {
   for (const a of PANEL) cells[a] = resolveCell(sub, a)
   const record = {
     slug, name: sub.name, category: 9, category_name: "Infant and Child Contact Products (Ages 0-5)",
-    governing_basis: sub.governing_basis, native_basis_label: sub.native_basis_label, cells,
+    governing_basis: sub.governing_basis, native_basis_label: sub.native_basis_label, scope_note: sub.scope_note || null, cells,
     generated_from: "data/evidence/regulatory_limits.csv", config: path.relative(REPO, CONFIG_PATH),
     method: "HMTc Method v2.0 (government-limit default, contact-product basis; no cross-basis min)",
   }

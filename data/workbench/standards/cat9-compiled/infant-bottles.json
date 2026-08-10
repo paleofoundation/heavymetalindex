@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "food-contact specific migration into food (EU Regulation 10/2011 Annex II; 10/2011 is plastics-scope, applied to glass and stainless components as a conservative read-across since no stricter metal-FCM sovereign limit exists)",
   "native_basis_label": "specific migration into food (mg/kg food)",
+  "scope_note": "Covers the bottle body in plastic, glass, or stainless steel. Nipples and teats are certified separately under Bottle nipples and spouts; general-market drinkware not marketed for children routes to Category 23.",
   "cells": {
     "Pb": {
       "type": "gov",

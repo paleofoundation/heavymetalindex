@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "food-contact specific migration into food (EU Regulation 10/2011 Annex II); painted/printed surfaces additionally under surface-coating content limits",
   "native_basis_label": "specific migration into food (mg/kg food)",
+  "scope_note": "Covers child-sized feeding accessories that contact food: spoons, forks, plates, bowls (plastic, stainless steel, silicone, or ceramic), including painted or printed surfaces.",
   "cells": {
     "Pb": {
       "type": "gov",

@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "food-contact specific migration into food (EU Regulation 10/2011 Annex II); stainless components additionally under nickel release",
   "native_basis_label": "specific migration into food (mg/kg food)",
+  "scope_note": "Covers sippy cups and toddler drinkware components (lids, valves, straws, spouts) in plastic or stainless steel.",
   "cells": {
     "Pb": {
       "type": "gov",

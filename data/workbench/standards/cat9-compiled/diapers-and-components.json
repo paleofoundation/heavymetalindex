@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "skin-contact extractable metals (EU REACH Annex XVII entry 72). Entry 72 excludes disposable textiles (paragraph 1(b)), so its 1 mg/kg limits bind reusable-cloth diaper components directly and are read across as the benchmark for disposable-diaper skin-contact components; the absorbent core has no metal-migration pathway",
   "native_basis_label": "extractable metal after extraction (mg/kg homogeneous material)",
+  "scope_note": "Covers the diaper and its structural components: nonwoven topsheet and backsheet, the absorbent core, elastics, adhesives, and closures/fasteners. It does NOT cover baby or diaper wipes, or diaper creams, which are leave-on skin-cleansing and skin-care products certified under Category 2 (Infant and Child Personal Care), rows Baby wipes and Diaper cream.",
   "cells": {
     "Pb": {
       "type": "read_across",
@@ -55,11 +56,13 @@
       "bounded_by": null
     },
     "Ni": {
-      "type": "not_material",
-      "value": null,
-      "rationale": "Standard diaper construction has no metallic skin-contact component. Where a product incorporates metallic snap fasteners (some training pants), those fasteners are screened under nickel release; the nonwoven and elastic materials have no nickel-release pathway.",
-      "reference_method": "Component review; nickel-release screen (EN 1811) on any metallic fastener.",
-      "bounded_by": null
+      "type": "special",
+      "value": 0.5,
+      "unit": "µg/cm²/week",
+      "basis": "nickel release, direct and prolonged skin contact (EN 1811)",
+      "jurisdiction": "EU",
+      "source_page": "regulations/eu-nickel-directive-94-27-ec",
+      "label": "Nickel release limit for direct and prolonged skin-contact articles, 0.5 µg/cm²/week (former EU Nickel Directive 94/27/EC, now REACH entry 27). A diaper is a prolonged-skin-contact article. Field evidence: Nyamukamba 2023 found extractable nickel exceeding the 0.1 mg/kg Oeko-Tex skin-contact limit in 2 of 20 diapers (0.197 sweat / 0.224 urine); retires the earlier no-metallic-component determination."
     },
     "Al": {
       "type": "not_material",
@@ -78,11 +81,25 @@
       "label": "EU REACH entry 72 extractable-Cr(VI) limit (1 mg/kg); read across per the disposable-textile exclusion"
     },
     "Sn": {
-      "type": "not_material",
-      "value": null,
-      "rationale": "No tin source in a diaper; tinplate/canned-food pathway only.",
-      "reference_method": "n/a.",
-      "bounded_by": null
+      "type": "gov",
+      "value": 1000000,
+      "value_exact": 1000000,
+      "binding_jurisdiction": "EU",
+      "binding_id": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+      "basis": "organotin content as tin, skin-contact article (REACH Annex XVII entry 20; 0.1% = 1000 mg/kg). Reflex organotin speciation on a total-tin detection; ratchets toward the TDI-anchored voluntary levels (Smajgl 2015: up to 23 mg/kg total Sn, 20-100% of the organotin TDI)",
+      "candidates": [
+        {
+          "id": "eu_reach_entry20_dot_skin_contact_articles_0_1pct",
+          "value": 1000000,
+          "jurisdiction": "EU"
+        },
+        {
+          "id": "eu_reach_entry20_dbt_general_public_articles_0_1pct",
+          "value": 1000000,
+          "jurisdiction": "EU"
+        }
+      ],
+      "stricter_unselected": []
     }
   },
   "generated_from": "data/evidence/regulatory_limits.csv",

@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "food-contact specific migration into food (EU Regulation 10/2011 Annex II)",
   "native_basis_label": "specific migration into food (mg/kg food)",
+  "scope_note": "Covers breast-milk storage bags and infant food-storage containers that contact expressed milk or food. General-market food storage not marketed for infants routes to Category 23.",
   "cells": {
     "Pb": {
       "type": "gov",

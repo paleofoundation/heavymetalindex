@@ -5,6 +5,7 @@
   "category_name": "Infant and Child Contact Products (Ages 0-5)",
   "governing_basis": "EN 1400 soother standard, which requires the EN 71-3 / Directive 2009/48/EC Annex II Part III Category III element-migration limits. Pacifiers are excluded from the Toy Safety Directive itself (Annex I item 16), so the migration limits are read across from the toy-migration regime via the EN 1400 route; the limit values are identical",
   "native_basis_label": "element migration from soother material (EN 1400 / EN 71-3 Category III, mg/kg)",
+  "scope_note": "Covers soothers/pacifiers and sucking/teething aids (the nipple, shield, ring, and any clip in the mouthing zone). Teething toys with play value are certified under Teething toys/teethers; pacifier metal safety is governed via the EN 1400 soother standard.",
   "cells": {
     "Pb": {
       "type": "read_across",

@@ -91,6 +91,32 @@ per row, not omitted. This satisfies the "no silent gaps" rule: every panel cell
 resolves explicitly to one of {government-limit, read-across, occurrence,
 substantiated not-material}.
 
+### A not-material determination is rebuttable, and is tested against the evidence
+
+A not-material call is a presumption ("no source, no pathway, no government
+limit"), not a permanent exclusion. It is defensible only if it is actually tested
+against the literature and revised when a source measures the analyte in the
+product. The procedure: the routing layer lands every source that measured an
+analyte on the product row; when a source reports a not-material analyte,
+`tools/evidence/audit-not-material-integrity.mjs` flags the cell as a
+contradiction; the cell is re-adjudicated to either a real limit/screen (retire
+not-material) or a kept determination that now cites the source as verified
+trace/artifact. The check runs in the prebuild (`--warn-only` while the
+corpus-wide backlog drains) and is the enforcement this category's first cut
+lacked.
+
+This is not hypothetical for Category 9. The diaper row initially carried tin and
+nickel as not-material; the integrity check found two sources already routed to
+the row that contradict both — `smajgl2015-tin-baby-diapers-croatia` (total tin to
+23 mg/kg, organotin PVC stabilisers, 20–100% of the organotin TDI) and
+`nyamukamba2023-south-africa-diapers-metals-formaldehyde` (extractable nickel
+above the 0.1 mg/kg skin-contact limit in 2/20 diapers). Both determinations were
+retired: tin now binds REACH Annex XVII entry 20 (organotin, 0.1% = 1000 mg/kg as
+Sn, reflex organotin speciation) and nickel binds the former Nickel Directive
+94/27/EC release limit (0.5 µg/cm²/week, prolonged skin contact). The remaining
+diaper not-material cells (iAs, tHg, MeHg, Al) carry no contradicting routed
+source and stand.
+
 Antimony (Sb) is regulated in the toy-migration instruments (Cat III 560 mg/kg
 and the soluble-migration family at 60 mg/kg) but is **not** one of the HMTc ten
 certification analytes; it is surfaced as a controlled screen on the mouthable-
