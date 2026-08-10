@@ -69,6 +69,14 @@ const notMaterialSet = new Set(
   (fs.existsSync(ev("standards-not-material.csv")) ? parseCsv(fs.readFileSync(ev("standards-not-material.csv"), "utf8")) : [])
     .map((r) => `${r.row_slug}|${r.metal_species}`),
 )
+// not-material substantiation verdicts (tools/evidence/audit-not-material-substantiation.mjs, run
+// earlier in prebuild). A not-material cell no longer short-circuits to a free pass: it must have
+// been affirmatively substantiated (schema + class + no contradicting occurrence/ML/routed source).
+// A FAIL or an unaudited cell is a CRITICAL_FAIL — this is the loophole Karen flagged 2026-08-10.
+const notMaterialAudit = new Map(
+  (fs.existsSync(ev("standards-not-material-audit.csv")) ? parseCsv(fs.readFileSync(ev("standards-not-material-audit.csv"), "utf8")) : [])
+    .map((r) => [`${r.row_slug}|${r.metal_species}`, { verdict: r.verdict, reasons: r.reasons }]),
+)
 // confirmed-no-ML registry: cells verified to have no regulatory ML in any jurisdiction, so a
 // literature-baseline value with no mapped cap is COMPLETE, not an unmapped-cap defect (silences C1b).
 const noMlSet = new Set(
@@ -104,12 +112,25 @@ for (const r of dist) {
   const held = heldSet.has(`${slug}|${metal}`)
   const noMl = noMlSet.has(`${slug}|${metal}`)
 
-  // NOT_MATERIAL short-circuit: a definitively-immaterial analyte renders no value and is not
-  // gated for defects — it is a resolved scientific judgment, recorded in standards-not-material.csv.
+  // NOT_MATERIAL: a definitively-immaterial analyte renders no value. This is no longer a free
+  // short-circuit — the not-material substantiation audit must have PASSED the cell. An audit FAIL
+  // (occurrence/ML/routed-source contradicts, or the claim is unsubstantiated) or an unaudited cell
+  // is a CRITICAL_FAIL, because a false "not material" understates contamination on a certification
+  // reference (Karen 2026-08-10). Run audit-not-material-substantiation.mjs to regenerate the audit.
   if (notMaterialSet.has(`${slug}|${metal}`)) {
-    report.push({ product_slug: slug, metal_species: metal, candidate_value_ppb: r.candidate_value_ppb,
-      cap: cap ?? "", rationale: "not-material", verdict_level: "NOT_MATERIAL",
-      reasons: "designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)" })
+    const a = notMaterialAudit.get(`${slug}|${metal}`)
+    if (!a)
+      report.push({ product_slug: slug, metal_species: metal, candidate_value_ppb: r.candidate_value_ppb,
+        cap: cap ?? "", rationale: "not-material", verdict_level: "CRITICAL_FAIL",
+        reasons: "not-material cell not present in the substantiation audit — run audit-not-material-substantiation.mjs before publishing" })
+    else if (a.verdict === "FAIL")
+      report.push({ product_slug: slug, metal_species: metal, candidate_value_ppb: r.candidate_value_ppb,
+        cap: cap ?? "", rationale: "not-material", verdict_level: "CRITICAL_FAIL",
+        reasons: `not-material substantiation FAILED — ${a.reasons}` })
+    else
+      report.push({ product_slug: slug, metal_species: metal, candidate_value_ppb: r.candidate_value_ppb,
+        cap: cap ?? "", rationale: "not-material", verdict_level: "NOT_MATERIAL",
+        reasons: `substantiated not-material (${a.verdict}) — analyte is not a material contaminant for this matrix (standards-not-material.csv)` })
     continue
   }
 

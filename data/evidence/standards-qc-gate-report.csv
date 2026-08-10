@@ -72,14 +72,14 @@ chocolate,Cd,100,100,regulatory-alignment,PASS,
 chocolate,Pb,200,200,regulatory-alignment,PASS,
 chocolate,tAs,200,200,regulatory-alignment,PASS,
 chocolate,Ni,2500,2500,regulatory-alignment,PASS,
-chocolate,Al,118650.6451,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+chocolate,Al,118650.6451,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 coffee,Cd,21175.7721,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 cooking-oils-other,Pb,100,100,regulatory-alignment,PASS,
-cooking-oils-other,Cd,56.7457,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+cooking-oils-other,Cd,56.7457,,literature-baseline,PASS,
 cooking-oils-other,Ni,84.9212,,literature-baseline,PASS,
-cooking-oils-other,tAs,56.1827,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+cooking-oils-other,tAs,56.1827,,literature-baseline,PASS,
 cooking-oils-other,Al,21.6753,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-cooking-oils-other,tHg,174.7037,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+cooking-oils-other,tHg,174.7037,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 dairy-cheese,Al,4798.4246,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=30 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 dairy-milk-cow,Pb,1001.2171,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 dairy-milk-cow,Cd,277.7199,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
@@ -161,7 +161,7 @@ honey,Cd,89.5319,100,literature-baseline,PASS,
 honey,Ni,1294.478,,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=44 (<99) — no 95% bound exists at this n; must be provisional
 honey,tAs,63.6963,300,literature-baseline,PASS,
 honey,tHg,74.738,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=29 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-honey,Al,151964.3644,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+honey,Al,151964.3644,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 infant-and-child-foods-master,Pb,28845.5825,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C9-artifact-implausible: thin-source (distinct=1) value 28845.5825 ppb > 15x Pb multi-source median 100 — likely unit/single-sample artifact; verify before publishing"
 infant-and-child-foods-master,Cd,292.7388,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 infant-and-child-foods-master,tAs,8032.7521,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile | C9-artifact-implausible: thin-source (distinct=1) value 8032.7521 ppb > 15x tAs multi-source median 81 — likely unit/single-sample artifact; verify before publishing"
@@ -220,7 +220,7 @@ infant-formula-powder-non-soy,iAs,10.8937,20,literature-baseline,PASS,
 infant-formula-powder-non-soy,tHg,1.4963,,literature-baseline,PASS,
 infant-formula-powder-non-soy,Ni,250,250,regulatory-alignment,PASS,
 infant-formula-powder-non-soy,Al,3500,3500,regulatory-alignment,PASS,
-infant-formula-powder-non-soy,Cr-VI,34.7047,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+infant-formula-powder-non-soy,Cr-VI,34.7047,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 infant-formula-powder-non-soy,Sn,48.9956,,literature-baseline,PASS,
 infant-formula-powder-soy,Pb,20,20,regulatory-alignment,PASS,
 infant-formula-powder-soy,Cd,20,20,regulatory-alignment,PASS,
@@ -327,13 +327,14 @@ nuts-seeds-other,Cd,383.0208,,literature-baseline,WARN,"C1b-cap-completeness: bi
 nuts-seeds-other,Ni,2068.3835,,literature-baseline,PASS,
 nuts-seeds-other,Al,21434.2337,,literature-baseline,PASS,
 olive-oil,Pb,69.7254,100,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=74 (<99) — no 95% bound exists at this n; must be provisional
-olive-oil,Cd,3.1844,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
-olive-oil,tAs,607.9522,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+olive-oil,Cd,3.1844,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+olive-oil,tAs,607.9522,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 olive-oil,Ni,577.0539,,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=79 (<99) — no 95% bound exists at this n; must be provisional
-olive-oil,tHg,,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+olive-oil,tHg,,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 olive-oil,Al,655.9438,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=9 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-olive-oil,iAs,,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+olive-oil,iAs,,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 pacifiers-and-sucking-teething-aids,Pb,100000,100000,regulatory-alignment,PASS,
+pacifiers-and-sucking-teething-aids,iAs,,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 peanut-butter,Ni,12000,12000,regulatory-alignment,PASS,
 peanuts,Ni,12000,12000,regulatory-alignment,PASS,
 peanuts,Cd,200,200,regulatory-alignment,PASS,
@@ -371,7 +372,7 @@ root-vegetable-purees,tAs,12.0093,,literature-baseline,HOLD,"C1b-cap-completenes
 root-vegetable-purees,tHg,1.5,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=26 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 salt,Pb,1000,1000,regulatory-alignment,PASS,
 salt,Cd,16.367,500,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-salt,Al,164000,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+salt,Al,164000,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 salt,tAs,9.0081,500,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=4 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 seafood,Cd,270,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=1 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 seafood,tAs,110000,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=1 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile | C9-artifact-implausible: value 110000 ppb > 100 mg/kg — no literature contaminant standard is that high; artifact or not-material/feasibility analyte; verify before publishing"
@@ -404,7 +405,7 @@ spices,Cd,896.2202,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic,
 spices,tAs,702.9366,,literature-baseline,PASS,
 spices,tHg,1501.5989,,literature-baseline,PASS,
 spices,Ni,6971.9005,,literature-baseline,PASS,
-spices,Al,846635.6069,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
+spices,Al,846635.6069,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 spices,Sn,1767.6712,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 spinach,Pb,300,300,regulatory-alignment,PASS,
 spinach,Cd,1460.8272,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile | C9-artifact-implausible: thin-source (distinct=1) value 1460.8272 ppb > 15x Cd multi-source median 50 — likely unit/single-sample artifact; verify before publishing"
