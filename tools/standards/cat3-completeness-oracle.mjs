@@ -24,7 +24,12 @@ function split(line){const o=[];let c="",q=false;for(const ch of line){if(ch==='
 const num=(v)=>{const n=Number(v);return Number.isFinite(n)?n:null}
 const reg = parse(fs.readFileSync(path.join(REPO,"data/evidence/regulatory_limits.csv"),"utf8"))
 
-const SPECIES = { Pb:["Pb"], iAs:["iAs"], tHg:["tHg"], Cd:["Cd"], Ni:["Ni"] }
+// tAs is a government cell in the full 10-analyte panel (grain/rice total-arsenic MLs exist:
+// FSANZ, PY/MERCOSUR, Israel), so it is cross-checked here for strictest-ML completeness. The
+// remaining panel analytes (MeHg, Cr-VI, Sn, Al) resolve to substantiated not-material because no
+// government sets a grain ML for any of them (verified: zero non-canned grain rows in the register);
+// they carry no strictest-ML to cross-check and are not oracle cells.
+const SPECIES = { Pb:["Pb"], iAs:["iAs"], tAs:["tAs"], tHg:["tHg"], Cd:["Cd"], Ni:["Ni"] }
 const isDraft = (r)=>/draft|not for implementation|proposed/i.test(r.status)
 const isQuar  = (r)=>/quarantin/i.test(r.status)
 const isPest  = (r)=>/pesticide|residue level/i.test(r.status)

@@ -15,7 +15,7 @@ import path from "node:path"
 const REPO = process.cwd()
 const DIR = path.join(REPO, "data/workbench/standards/cat3-compiled")
 const OUT = path.join(REPO, "data/workbench/standards/cat3-standards-tables.md")
-const PANEL = ["Pb", "iAs", "tHg", "Cd", "Cr", "Ni", "Sn", "Al"]
+const PANEL = ["Pb", "iAs", "tAs", "tHg", "MeHg", "Cd", "Cr-VI", "Ni", "Sn", "Al"]
 
 // Presentation order: non-rice (clean) block, then rice (dirty) block, matching the roles register.
 const ORDER = [
@@ -46,7 +46,7 @@ const records = ORDER.map((slug) => JSON.parse(fs.readFileSync(path.join(DIR, `$
 
 let md = ""
 md += `# Category 3 — Grains, Cereals, and Rice Products: HMTc standards tables (staff-side)\n\n`
-md += `Generated ${"2026-08-09"} by \`tools/standards/render-cat3-standards-tables.mjs\` from the government-limit compiler output in \`data/workbench/standards/cat3-compiled/\`. **Staff/HMTc content — not a public wiki page** (Part 2 / Part 19 firewall). Values in ppb (µg/kg). Native basis per subcategory. Method: HMTc Method v2.0 government-limit default (strictest credible government ML by lookup, converted to native basis; occurrence pooling not invoked — see the derivation note). "n/m" = registered not-material or confirmed no-ML (see \`standards-not-material.csv\` / \`standards-no-ml-confirmed.csv\`).\n\n`
+md += `Generated ${"2026-08-10"} by \`tools/standards/render-cat3-standards-tables.mjs\` from the government-limit compiler output in \`data/workbench/standards/cat3-compiled/\`. **Staff/HMTc content — not a public wiki page** (Part 2 / Part 19 firewall). Values in ppb (µg/kg). Native basis per subcategory. Method: HMTc Method v2.0 government-limit default (strictest credible government ML by lookup, converted to native basis; occurrence pooling not invoked — see the derivation note). Full HMTc 10-analyte panel (Pb, iAs, tAs, tHg, MeHg, Cd, Cr-VI, Ni, Sn, Al); every cell resolves explicitly to a government limit or a substantiated not-material determination. "n/m" = registered not-material or confirmed no-ML (see \`standards-not-material.csv\` / \`standards-no-ml-confirmed.csv\`).\n\n`
 
 md += `## Binding limit per (subcategory, analyte)\n\n`
 md += `| # | Subcategory | Role | Basis | ${PANEL.join(" | ")} |\n`

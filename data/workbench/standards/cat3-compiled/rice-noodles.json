@@ -45,6 +45,26 @@
           }
         }
       },
+      "tAs": {
+        "type": "gov",
+        "value": 300,
+        "value_exact": 300,
+        "binding_jurisdiction": "PY",
+        "binding_id": "py_decreto1335_2019_rice_derivatives_except_oil_tas_300",
+        "basis_note": "face value",
+        "per_country": {
+          "PY": {
+            "value": 300,
+            "converted": true,
+            "id": "py_decreto1335_2019_rice_derivatives_except_oil_tas_300"
+          },
+          "MERCOSUR": {
+            "value": 300,
+            "converted": true,
+            "id": "mercosur_gmc12_2011_rice_derivatives_except_oil_tas_300"
+          }
+        }
+      },
       "tHg": {
         "type": "gov",
         "value": 30,
@@ -59,6 +79,12 @@
             "id": "il_fcs2016_thg_4_cereals_and_cereal_products_including_wheat_and_rice_30"
           }
         }
+      },
+      "MeHg": {
+        "type": "not_material",
+        "value": null,
+        "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
+        "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
       },
       "Cd": {
         "type": "gov",
@@ -115,10 +141,10 @@
           }
         }
       },
-      "Cr": {
+      "Cr-VI": {
         "type": "not_material",
         "value": null,
-        "control": "No total-Cr ML for rice products; reflex speciation control.",
+        "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice products; reflex speciation control.",
         "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
       },
       "Ni": {

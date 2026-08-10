@@ -26,10 +26,22 @@
           }
         }
       },
+      "tAs": {
+        "type": "not_material",
+        "value": null,
+        "control": "No government sets a total-arsenic ML for a rice-based beverage in any jurisdiction; the binding arsenic control for this subcategory is the inorganic-arsenic ML (30 ug/kg, EU 2023/915 non-alcoholic rice drinks). A dry \"rice and derivatives\" total-arsenic ceiling is not comparable at face value to a dilute as-consumed beverage, and total arsenic adds no ceiling beyond the inorganic-arsenic limit here.",
+        "reference_method": "tAs by ICP-MS on the as-consumed liquid; speciate to iAs on any elevated total-arsenic result."
+      },
       "tHg": {
         "type": "not_material",
         "value": null,
         "control": "Mercury does not accumulate in a rice-derived beverage; the only cereal mercury MLs are dry-basis and no government sets a rice-drink mercury ML. Not a material contaminant in this matrix.",
+        "reference_method": null
+      },
+      "MeHg": {
+        "type": "not_material",
+        "value": null,
+        "control": "No government sets a methylmercury ML for a rice-based beverage in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury does not accumulate in a rice-derived beverage and is not a material contaminant in this matrix.",
         "reference_method": null
       },
       "Cd": {
@@ -38,10 +50,10 @@
         "control": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets a cadmium ML specific to rice-based drinks. Material but unregulated by ML; literature-baseline governs.",
         "reference_method": "Cd by ICP-MS on the as-consumed liquid."
       },
-      "Cr": {
+      "Cr-VI": {
         "type": "not_material",
         "value": null,
-        "control": "No total-Cr ML for rice beverages; reflex speciation control on the as-consumed liquid.",
+        "control": "Cr-VI (hexavalent chromium): No total-Cr ML for rice beverages; reflex speciation control on the as-consumed liquid.",
         "reference_method": "Total-Cr by ICP-MS; Cr(VI) by EN 15192 / EPA 6800 on exceedance."
       },
       "Ni": {

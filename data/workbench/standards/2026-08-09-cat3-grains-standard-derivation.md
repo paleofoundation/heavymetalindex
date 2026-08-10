@@ -12,22 +12,22 @@
 
 One deterministic government-limit standard per subcategory (12 JSON records in `cat3-compiled/`), each cell tracing to a named row in `data/evidence/regulatory_limits.csv`, converted at most once to the subcategory's native basis, strictest across jurisdictions. Human-readable tables: `cat3-standards-tables.md` (regenerate with `tools/standards/render-cat3-standards-tables.mjs`).
 
-Binding matrix (ppb µg/kg; **bold** = government ML, n/m = registered not-material or confirmed no-ML):
+Binding matrix (ppb µg/kg; **bold** = government ML, n/m = registered not-material or confirmed no-ML). Full HMTc 10-analyte panel (the tAs, MeHg, and Cr-VI columns were added in the 2026-08-10 all-analyte completeness pass — see §8; no original bound value changed):
 
-| Subcategory | Role | Pb | iAs | tHg | Cd | Cr | Ni | Sn | Al |
-|---|---|---|---|---|---|---|---|---|---|
-| flour-non-rice | clean | 100 | n/m | 30 | 100 | n/m | 800 | n/m | n/m |
-| bread-and-baked-goods | clean | 100 | n/m | 30 | 100 | n/m | 800 | n/m | n/m |
-| pasta-wheat-based | clean | 100 | n/m | 30 | 100 | n/m | 800 | n/m | n/m |
-| breakfast-cereal-non-rice | clean | 100 | n/m | 30 | 100 | n/m | 800 | n/m | n/m |
-| other-grain-products | clean | 100 | n/m | 30 | 50 | n/m | 800 | n/m | n/m |
-| grain-based-snacks | clean | 100 | n/m | 30 | 100 | n/m | 800 | n/m | n/m |
-| rice-bulk-grain | dirty | 200 | 150 | 30 | 100 | n/m | 1500 | n/m | n/m |
-| pasta-rice-based | dirty | 200 | 250 | 30 | 100 | n/m | 1500 | n/m | n/m |
-| rice-noodles | dirty | 200 | 250 | 30 | 100 | n/m | 1500 | n/m | n/m |
-| breakfast-cereal-rice-based | dirty | 200 | 300 | 30 | 100 | n/m | 1500 | n/m | n/m |
-| rice-snacks-crackers | dirty | 200 | 300 | 30 | 100 | n/m | 1500 | n/m | n/m |
-| rice-beverages-rice-milk | dirty | n/m | 30 | n/m | n/m | n/m | n/m | n/m | n/m |
+| Subcategory | Role | Pb | iAs | tAs | tHg | MeHg | Cd | Cr-VI | Ni | Sn | Al |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| flour-non-rice | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
+| bread-and-baked-goods | clean | 100 | n/m | 300 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
+| pasta-wheat-based | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
+| breakfast-cereal-non-rice | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
+| other-grain-products | clean | 100 | n/m | 300 | 30 | n/m | 50 | n/m | 800 | n/m | n/m |
+| grain-based-snacks | clean | 100 | n/m | 300 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
+| rice-bulk-grain | dirty | 200 | 150 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
+| pasta-rice-based | dirty | 200 | 250 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
+| rice-noodles | dirty | 200 | 250 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
+| breakfast-cereal-rice-based | dirty | 200 | 300 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
+| rice-snacks-crackers | dirty | 200 | 300 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
+| rice-beverages-rice-milk | dirty | n/m | 30 | n/m | n/m | n/m | n/m | n/m | n/m | n/m | n/m |
 
 ## 2. The clean/dirty structure IS the government limits
 
@@ -53,11 +53,13 @@ The pooled rows are what the public product-category table generator (`build-cat
 ## 4. Analyte-by-analyte basis
 
 - **iAs** — see §2. All values EU 2023/915, adopted at face value (as-sold dry, except rice drink as-consumed). Rice-bulk adopts the strictest of EU's own milled-150 / husked-250 split (150).
+- **tAs** — total arsenic carries an independent government ceiling for grains and rice (distinct from the iAs cell, which uses only inorganic-arsenic rows). Strictest credible-government total-arsenic ML per product form: wheat-headed subcategories (flour, wheat pasta, wheat-scoped breakfast cereal) bind PY/MERCOSUR wheat-and-derivatives 200; general-cereal and rice subcategories bind PY/MERCOSUR cereals/rice-and-derivatives 300. FSANZ cereal grains 1000 and Israel FCS-2016 cereals/rice 1000 are the looser canonical-list corroborators (shown in each cell's `per_country`); the stricter PY/MERCOSUR value governs, exactly as PY/MERCOSUR govern the rice Pb cell. tAs ≥ iAs always, so where a rice iAs ML is stricter (150–300) it binds in practice; the tAs cell adds a real total-arsenic ceiling that catches an organoarsenical-heavy lot. rice-beverages-rice-milk resolves tAs not-material (no rice-drink total-arsenic ML; a dry rice-derivative ceiling is not comparable at face value to a dilute liquid; arsenic there is controlled by the iAs 30 ML). Added in the 2026-08-10 completeness pass (§8).
 - **Cd** — non-rice cereals: EU general-cereals 100 (barley/rye 50, the strictest EU cereal-Cd, binds `other-grain-products`). Rice: **uniformly 100 (FSANZ/AU-NZ rice)** across the whole rice platform — the strictest rice-inclusive credible-regulator Cd. (This was resolved from an earlier bulk-100/products-150 split; see §5 item 3 and §6.) Reached via a per-analyte scope override (Cd cell only) so FSANZ's bare-"rice" ML binds without perturbing the product-form iAs cells.
 - **Pb** — non-rice: the strictest cited value is Cuba NC 877:2012 processed-cereals/wheat-flour 100 (see §5 provenance caveat); the broad government consensus is 200 (AU-NZ, GSO, Codex-aligned, MERCOSUR, and ~10 others). Rice: 200 (rice-and-derivatives, MERCOSUR/PY). EU sets no general (non-infant) cereal Pb ML (dropped in the 2021 revision), so the Pb floor comes from the non-EU consensus.
 - **tHg** — Israel FCS-2016 cereals-and-cereal-products (incl. wheat and rice) 30 ppb (0.03 mg/kg), the strictest *contaminant* mercury ML for cereals. **The EU "cereals including rice" mercury 10 ppb value is a pesticide-residue MRL (Reg 2018/73 amending 396/2005), a categorically different legal instrument, and is correctly excluded** by a new systemic `PESTICIDE` guard added to `compile-cat1.mjs` (matches exactly one register row today). Mercury is toxicologically immaterial in grains; 30 ppb is far above typical occurrence and is carried as the honest government floor.
 - **Ni** — EU 2024/1987 (in force for cereals from 2026-07-01): common cereals 800 (binds non-rice and the barley member of other-grain), durum/rice 1500 (binds rice products), husked rice 2000, pseudocereals/millet 3000, oats 5000. See §5 for the mixed-subcategory ceiling question.
-- **Cr** — registered not-material (reflex speciation): no government sets a total-Cr or Cr(VI) ML for grains; cereal-matrix Cr is Cr(III); firm control is reflex Cr(VI) speciation on any total-Cr ≥ 100 ppb.
+- **MeHg** — registered not-material: no government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction (all methylmercury MLs in the register are fish/seafood). The mercury burden is controlled by the total-mercury (tHg) cell — 30 (Israel FCS-2016) for solid grains, not-material for rice milk — which bounds the methylmercury fraction. Rice can methylate trace mercury in point-source-contaminated paddy soils, but that fraction is bounded by the tHg control and there is no methylmercury ML to look up. Added in the 2026-08-10 completeness pass (§8).
+- **Cr-VI** — registered not-material (reflex speciation): no government sets a total-Cr or Cr(VI) ML for grains; cereal-matrix Cr is Cr(III) and Cr(VI) reduces to Cr(III) in the matrix; firm control is reflex Cr(VI) speciation (EN 15192 / EPA 6800) on any total-Cr ≥ 100 ppb, any quantifiable Cr(VI) fails. (This is the HMTc-listed Cr-VI analyte; the compiler's total-Cr screen is the measurement path. Cell key renamed Cr → Cr-VI in the 2026-08-10 completeness pass; determination unchanged.)
 - **Sn** — registered not-material: every government tin ML is scoped to canned/tin-coated product; canned grain products route to Category 7 and carry the tin flag there.
 - **Al** — registered confirmed no-ML: no government sets an aluminium ML for any grain product; in leavened/baked products Al is permitted-additive-derived (regulated by additive ADI, not a contaminant ML).
 
@@ -94,3 +96,19 @@ Net: no change to any Cat-3 bound value from the provenance check — both flagg
 - Roles: `data/workbench/standards/subcategory-roles.json` (12 Cat-3 entries; percentiles/stratify documentary since pooling is not invoked).
 - Determinations: `data/evidence/standards-not-material.csv` (+32 rows), `data/evidence/standards-no-ml-confirmed.csv` (+14 rows).
 - Every binding value reproduces from `regulatory_limits.csv` by re-running the compiler; every cell's `binding_id` / `source_id` names its register row.
+
+## 8. All-analyte completeness pass (2026-08-10)
+
+The original build (§1–§7) resolved an 8-analyte panel (Pb, iAs, tHg, Cd, Cr, Ni, Sn, Al). The HMTc certification panel is 10 analytes (CLAUDE.md Part 14): Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn. Two analytes — **tAs and MeHg** — were absent from the panel, and the chromium cell was keyed as total-Cr rather than the HMTc-listed **Cr-VI**. This is the same silent-drop failure mode that shipped the Category-6 seafood standard with 7 analytes (Ni/Al/Cr dropped); this pass closes it for Category 3 so every subcategory resolves the full 10-analyte panel with no silent gap.
+
+What changed:
+
+- **tAs added as a government-limit cell.** Grain and rice total-arsenic MLs exist (FSANZ, PY/MERCOSUR, Israel FCS-2016), so under Method v2.0 tAs resolves by lookup to the strictest credible-government total-arsenic ML per product form (wheat-headed 200, general-cereal/rice 300; rice-milk not-material). This matches the Category-6 seafood treatment, where tAs is likewise a government cell. See §4.
+- **MeHg added as a substantiated not-material cell.** No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction (all 20 register MeHg rows are fish/seafood); the mercury burden is controlled by the tHg cell, which bounds the methylmercury fraction. See §4.
+- **Cr → Cr-VI.** The chromium panel cell was renamed to the HMTc-listed analyte Cr-VI; the determination (not-material via reflex total-Cr → Cr-VI speciation) is unchanged. The not-material register already carried the Cr-VI label.
+
+No original bound value changed. The eight originally-resolved cells reproduce byte-for-byte; the only additions are the tAs government cells, the MeHg not-material cells, and the Cr→Cr-VI rename. Registrations: `standards-not-material.csv` +13 (MeHg ×12, rice-milk tAs ×1); `standards-no-ml-confirmed.csv` unchanged (Al and rice-milk Pb/Cd already registered there).
+
+Verification: `cat3-completeness-oracle.mjs` (extended to cross-check tAs) returns only the four expected rice-product iAs form-split flags and flags **no tAs cell**, confirming each bound tAs is the strictest credible-government value. `render-cat3-standards-tables.mjs` regenerated at the 10-analyte width. Recompile is clean with **zero gap cells** across all 12 subcategories × 10 analytes.
+
+**Direction (Part 2):** this pass moves **toward the literature**. It adds sovereign total-arsenic ceilings that were silently omitted and makes the mercury/chromium determinations explicit and honest; nothing is softened toward HMTc convenience and no threshold is strengthened beyond what a government sets. Closing a silent gap by adopting the government limits that exist is the non-drift direction.

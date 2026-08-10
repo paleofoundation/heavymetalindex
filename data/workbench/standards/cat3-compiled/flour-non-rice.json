@@ -76,6 +76,36 @@
         "control": "Inorganic arsenic does not hyperaccumulate in wheat, corn, or other non-rice cereals as it does in rice; no government sets an iAs ML for any non-rice grain or flour in any jurisdiction. This subcategory is the clean counterpart to the rice-based flour/pasta subcategories, where iAs is the binding Tier-1 analyte.",
         "reference_method": "iAs by HPLC-ICP-MS (EN 16802) on any lot flagged for arsenic screening; non-rice grain occurrence is characteristically < LOQ."
       },
+      "tAs": {
+        "type": "gov",
+        "value": 200,
+        "value_exact": 200,
+        "binding_jurisdiction": "PY",
+        "binding_id": "py_decreto1335_2019_wheat_derivatives_except_oil_tas_200",
+        "basis_note": "face value",
+        "per_country": {
+          "PY": {
+            "value": 200,
+            "converted": true,
+            "id": "py_decreto1335_2019_wheat_derivatives_except_oil_tas_200"
+          },
+          "MERCOSUR": {
+            "value": 200,
+            "converted": true,
+            "id": "mercosur_gmc12_2011_wheat_derivatives_except_oil_tas_200"
+          },
+          "AU-NZ": {
+            "value": 1000,
+            "converted": true,
+            "id": "aunz_sch19_tas_cereal_grains_1000"
+          },
+          "IL": {
+            "value": 1000,
+            "converted": true,
+            "id": "il_fcs2016_tas_5_cereals_and_cereal_products_except_listed_categories_1000"
+          }
+        }
+      },
       "tHg": {
         "type": "gov",
         "value": 30,
@@ -95,6 +125,12 @@
             "id": "gso193_2021_thg_wheat_pink_kernels_1000"
           }
         }
+      },
+      "MeHg": {
+        "type": "not_material",
+        "value": null,
+        "control": "No government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction; methylmercury maximum levels exist only for fish and seafood. Mercury in this matrix is controlled by the total-mercury ML (30 ug/kg, Israel FCS-2016), which bounds the methylmercury fraction. Rice can accumulate trace methylmercury via paddy-soil methylation in point-source-contaminated growing regions, but that fraction is bounded by the total-mercury control and no methylmercury ML exists to look up.",
+        "reference_method": "MeHg by GC-ICP-MS / EN 16801 only on a lot whose total mercury approaches the tHg ML; grain MeHg is characteristically < LOQ."
       },
       "Cd": {
         "type": "gov",
@@ -166,10 +202,10 @@
           }
         }
       },
-      "Cr": {
+      "Cr-VI": {
         "type": "not_material",
         "value": null,
-        "control": "No government sets a total-chromium ML for grain/cereal products in any jurisdiction; cereal-matrix Cr is dominated by nutritionally-essential Cr(III), and Cr(VI) reduces to Cr(III) in the matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
+        "control": "Cr-VI (hexavalent chromium): No government sets a total-chromium ML for grain/cereal products in any jurisdiction; cereal-matrix Cr is dominated by nutritionally-essential Cr(III), and Cr(VI) reduces to Cr(III) in the matrix. Firm control: reflex speciation — any total-Cr result >= 100 ug/kg triggers Cr(VI) speciation, and any quantifiable Cr(VI) fails.",
         "reference_method": "Total-Cr screen by ICP-MS; on any result >= 100 ug/kg, Cr(VI) by EN 15192 / EPA 6800 IC-ICP-MS isotope-dilution; LOQ-level quantifiable Cr(VI) = fail."
       },
       "Ni": {
