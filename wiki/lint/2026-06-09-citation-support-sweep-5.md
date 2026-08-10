@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 claims_checked: 40
 claims_remaining: ~4972
 stopped_at: "breastmilk / Sources / 5 µg/L (CSV row 205)"
+noindex: true
 ---
 
 supported 10 · mismatch 0 · not-in-source 30 · wrong-source 0. Report-only; no pages edited.

@@ -2,6 +2,7 @@
 type: lint
 title: Audit quarantines
 updated: 2026-06-09
+noindex: true
 ---
 
 # Audit quarantines

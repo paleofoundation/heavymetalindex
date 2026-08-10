@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_checked: 11
 pages_remaining: ~210
 stopped_at: non-apple-fruit
+noindex: true
 ---
 
 table-mismatch 5 · prose-contradiction 0 · confidence-mismatch 4 · coverage-mismatch 0. Report-only.

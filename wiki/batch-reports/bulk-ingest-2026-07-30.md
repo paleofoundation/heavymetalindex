@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # Bulk ingest report - 2026-07-30
 
 ## Progress

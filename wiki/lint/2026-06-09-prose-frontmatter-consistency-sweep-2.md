@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_checked: 20
 pages_remaining: ~254
 stopped_at: chicken-noodle-soup
+noindex: true
 ---
 
 table-mismatch 4 · prose-contradiction 0 · confidence-mismatch 7 · coverage-mismatch 0. Report-only.

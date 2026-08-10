@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 claims_checked: 41
 claims_remaining: 5137
 stopped_at: "apple / Regulatory limits that apply (100 ppb, CSV data row 41)"
+noindex: true
 ---
 
 supported 22 · mismatch 0 · not-in-source 19 · wrong-source 0. Report-only; no pages edited.

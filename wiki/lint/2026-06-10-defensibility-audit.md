@@ -7,6 +7,7 @@ branch: fable/defensibility-audit-2026-06-10
 scope: claim-to-source traceability, orphaned evidence, structural holes, scorecard
 out_of_scope: Part 2 wiki/HMT&C drift check (deferred until synthesis matures)
 status: report-only (no fixes applied per isolation rules)
+noindex: true
 ---
 
 # Adversarial defensibility audit — 2026-06-10

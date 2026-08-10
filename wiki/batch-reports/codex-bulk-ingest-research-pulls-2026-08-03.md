@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # Codex bulk ingest report - 2026-08-03
 
 ## Progress

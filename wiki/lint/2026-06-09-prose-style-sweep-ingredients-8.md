@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 25
 pages_remaining: ~40
 stopped_at: wiki/ingredients/root-vegetables.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-09 (batch 8, ingredients)

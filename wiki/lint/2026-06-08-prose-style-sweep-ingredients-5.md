@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 25
 pages_remaining: ~70
 stopped_at: wiki/ingredients/herbs-and-spices.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-08 (batch 5, ingredients)

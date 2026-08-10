@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # Manual-fetch ingest progress — June 8 Inorganic Arsenic Seaweed
 
 **Folder:** `raw/Manual Fetch Kimi /June 8 Inorganic Arsenic Seaweed/`

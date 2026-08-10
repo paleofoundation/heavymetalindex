@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 24
 pages_remaining: 0
 stopped_at: wiki/ingredients/yogurt.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-09 (batch 10, ingredients — FINAL)

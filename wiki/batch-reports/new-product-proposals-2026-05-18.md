@@ -1,3 +1,7 @@
+---
+noindex: true
+---
+
 # New Product Proposals - 2026-05-18
 
 ## coffee-substitutes

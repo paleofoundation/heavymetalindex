@@ -3,6 +3,7 @@ type: batch-report
 title: "Codex Papers Cube manual-fetch ingest stop report"
 updated: 2026-07-27
 audience: [internal]
+noindex: true
 ---
 
 # Codex Papers Cube Manual Fetch ingest stop report — 2026-07-27

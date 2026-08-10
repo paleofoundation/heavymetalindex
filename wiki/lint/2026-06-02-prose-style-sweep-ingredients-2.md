@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 25
 pages_remaining: ~210
 stopped_at: wiki/ingredients/butter.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-02 (batch 2, ingredients)

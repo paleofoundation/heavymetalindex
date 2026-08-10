@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 claims_checked: 42
 claims_remaining: 5095
 stopped_at: "avocado / Regulatory limits that apply (50 ppb, CSV data row 83)"
+noindex: true
 ---
 
 supported 21 · mismatch 0 · not-in-source 21 · wrong-source 0. Report-only; no pages edited.

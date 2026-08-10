@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 22
 pages_remaining: ~130
 stopped_at: wiki/ingredients/fish.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-04 (batch 4, ingredients)

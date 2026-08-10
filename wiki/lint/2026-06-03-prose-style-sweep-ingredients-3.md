@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 24
 pages_remaining: ~150
 stopped_at: wiki/ingredients/chocolate-reduced-fat-milk.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-03 (batch 3, ingredients)

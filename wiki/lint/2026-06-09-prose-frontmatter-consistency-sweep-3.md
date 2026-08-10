@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_checked: 18
 pages_remaining: ~236
 stopped_at: flavored-carbonated-bottled-waters
+noindex: true
 ---
 
 table-mismatch 4 · prose-contradiction 0 · confidence-mismatch 5 · coverage-mismatch 0. Report-only.

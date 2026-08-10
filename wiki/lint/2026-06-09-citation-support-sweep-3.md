@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 claims_checked: 40
 claims_remaining: ~5054
 stopped_at: "balsamic-vinegar / Mitigation options / 50 ppb Al detection floor (CSV row 123)"
+noindex: true
 ---
 
 supported 22 · mismatch 0 · not-in-source 18 · wrong-source 0. Report-only; no pages edited.

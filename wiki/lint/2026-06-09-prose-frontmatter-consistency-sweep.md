@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_checked: 20
 pages_remaining: ~274
 stopped_at: blueberry-muffin
+noindex: true
 ---
 
 table-mismatch 2 · prose-contradiction 1 · confidence-mismatch 7 · coverage-mismatch 3. Report-only.

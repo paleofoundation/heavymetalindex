@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_checked: 15
 pages_remaining: ~221
 stopped_at: leafy-greens
+noindex: true
 ---
 
 table-mismatch 4 · prose-contradiction 0 · confidence-mismatch 4 · coverage-mismatch 1. Report-only.

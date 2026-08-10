@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 claims_checked: 42
 claims_remaining: ~5012
 stopped_at: "bivalve-molluscs / Sources / 0.380 mg/kg (CSV row 165)"
+noindex: true
 ---
 
 supported 29 · mismatch 2 · not-in-source 11 · wrong-source 0. Report-only; no pages edited.

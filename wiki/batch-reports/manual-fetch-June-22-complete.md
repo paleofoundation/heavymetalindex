@@ -4,6 +4,7 @@ folder: "raw/Manual Fetch Kimi /June 22"
 date: 2026-06-22
 skill: ingest-next-manual-fetch-pdf
 outcome: no-new-pages (all candidates are duplicates of already-ingested documents)
+noindex: true
 ---
 
 # Manual-fetch folder close — June 22 (nickel regulatory/reference set)

@@ -3,6 +3,7 @@ op: lint
 date: 2026-05-17
 scope: doi-recovery
 files_processed: 141
+noindex: true
 ---
 
 # DOI Recovery Run — 2026-05-17

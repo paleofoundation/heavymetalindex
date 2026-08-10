@@ -6,6 +6,7 @@ model: claude-sonnet-4-6
 pages_scanned: 23
 pages_remaining: ~250+
 stopped_at: wiki/ingredients/spinach.md
+noindex: true
 ---
 
 # Prose-style & consumer-language sweep — 2026-06-02
