@@ -30,8 +30,8 @@ The Codex Alimentarius Commission establishes international maximum levels for c
 
 | Action | Commodity | Value | Status | Source |
 | --- | --- | --- | --- | --- |
-| New maximum level for cadmium | Quinoa (whole commodity, referencing CXS 333-2019) | 0.15 mg/kg | Forwarded to CAC47 (November 2024) for adoption | [[sources/codex-cccf17-2024|Codex CCCF17 2024]] |
-| New maximum level for lead (companion ML) | Quinoa (whole commodity) | 0.2 mg/kg | Forwarded to CAC47 for adoption | [[sources/codex-cccf17-2024|Codex CCCF17 2024]] |
+| New maximum level for cadmium | Quinoa (whole commodity, referencing CXS 333-2019) | 0.15 mg/kg | Adopted at CAC47 (25–30 November 2024); now an operative Codex ML incorporated into CXS 193-1995 | [[sources/codex-cccf17-2024|Codex CCCF17 2024]] |
+| New maximum level for lead (companion ML) | Quinoa (whole commodity) | 0.2 mg/kg | Adopted at CAC47 (25–30 November 2024); now an operative Codex ML incorporated into CXS 193-1995 | [[sources/codex-cccf17-2024|Codex CCCF17 2024]] |
 | New work initiated | Code of Practice for the Prevention and Reduction of Cadmium Contamination in Foods | n/a | Project document forwarded to CAC47 for approval | [[sources/codex-cccf17-2024|Codex CCCF17 2024]] |
 
 The quinoa cadmium ML was selected from three options considered by the Committee (0.10 mg/kg, 0.15 mg/kg, or no separate ML) on the rationale that 0.15 would produce the lowest rejection rates worldwide while still reflecting the ALARA principle ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]). Quinoa is held separate from the general cereals category because it is classified as a pseudo-cereal rather than a cereal ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]).
