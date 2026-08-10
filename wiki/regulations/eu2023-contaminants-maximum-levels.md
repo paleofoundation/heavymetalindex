@@ -8,6 +8,7 @@ status: maximum levels
 source_page: sources/eu-2023-915-contaminants-maximum-levels
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
 metals: [Pb, Cd, tHg, iAs, tAs, Sn, Ni]
+aliases: [eu-2023-915, regulations/eu-2023-915, eu-2023-915-contaminants]
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-06-03
