@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-24 open item(s): 10 auto, 14 awaiting a decision.
+45 open item(s): 15 auto, 30 awaiting a decision.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
@@ -523,6 +523,190 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
 - decision: _pending_
 - notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
+
+### OI-20260810-sim2024-eu-seaweed-ias — Source page sim2024 propagates false 'EU 2023/915 sets iAs seaweed limits' claim
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/sim2024-inorganic-arsenic-seaweed-hplc.md`
+- repro: Lines 33/46/54 assert EU 2023/915 sets iAs MLs for seaweed (Laminaria digitata, hijiki); frontmatter jurisdictions:[EU] + links regulations/eu-2023-915. Register: no EU iAs-seaweed row exists (seaweed iAs = AU-NZ 1mg/kg + SG 2mg/kg).
+- done when: EU-seaweed-iAs attribution corrected or annotated as unsupported; downstream synthesis (organoarsenical, already fixed) stays consistent
+- decision: _pending_
+- notes: Upstream of the organoarsenical synthesis page (fixed this session, commit 153d03ea2). Needs the actual paper checked to decide correct-vs-annotate rather than distort provenance.
+
+### OI-20260810-index-synthesis-starvation — Synthesis starvation: 27 ingredient pages pending (16 past trigger) + 96 product pages empty evidence
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `data/evidence/hmtc_pool_starvation_audit.csv`, `wiki/ingredients/`, `wiki/products/`
+- repro: 27 ingredient pages have all contamination_profile cells status:pending; 16 already carry >=2 routed sources past the Part 9 trigger yet were never synthesized (mushrooms, etc.). 96 product pages render 'No concentration data loaded'.
+- done when: cells past the two-source trigger synthesized to status:populated; starvation audit count reduced
+- decision: _pending_
+- notes: Feeds the existing audit-ingredient-synthesis-backlog workflow (in prebuild). Dedicated synthesis pass, batched.
+
+### OI-20260810-index-sources-crossref-review — Review ~170 bulk source pages the Crossref repair could not DOI-validate
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `data/evidence/bulk-source-doi-mismatch.csv`
+- repro: tools/repair-bulk-source-metadata.mjs skipped pages where no reliable title proxy (raw_path / cite_key tail / author prefix) matched the Crossref title for the page's DOI — candidate wrong-DOI mis-ingests OR fully-garbage cite_keys. Written to bulk-source-doi-mismatch.csv, not overwritten.
+- done when: each skipped page's DOI confirmed correct (then repair) or corrected (wrong-DOI)
+- decision: _pending_
+- notes: Also the home of the ~841 fish/seaweed mis-routing finding (system-owned, Part 5b — re-fans once corrected title/abstract land). Do NOT hand-edit routing.
+
+### OI-20260810-index-source-legend-garbage — Source-legend generator renders hundreds of unresolved garbage rows on developed pages
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/build-source-legend.mjs`, `tools/autonomy/populate-source-legends.mjs`
+- repro: Rendered '## Sources' legend on developed metal/product pages carries hundreds of unresolved rows (cadmium 543, mercury-total 579, chromium 408, arsenic-total 398): cite-keys /^authors?20\d\d-/, titles '<digit> Title:', 'Not mechanically resolved from the PDF'.
+- done when: unresolved rows suppressed from the rendered legend (cite-key /^authors?20dd-/ or 'Not mechanically resolved' or '<digit> Title:')
+- notes: Partly mitigated by tools/repair-bulk-source-metadata.mjs (Crossref title/author repair) — the 'Not mechanically resolved' boilerplate class remains. Defensibility: 'self-published sloppy corpus' attack line.
+
+### OI-20260810-index-product-scaffold-prose — 149 product pages assert 'no sources ingested' while sources>0 (stale one-time caveat stamp)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/`, `tools/apply-literature-scope-caveat.mjs`
+- repro: apply-literature-scope-caveat.mjs (one-time, not in prebuild) stamped 'no peer-reviewed primary or government sources have yet been ingested' + literature_scope:thin; 149 pages have since gained routed sources (fish-marine-non-predatory 821, predatory 372, seaweed-kelp 210) making the caveat false.
+- done when: caveat reworded to 'routed but not yet synthesized' when sources>0; literature_scope recomputed from corpus depth
+- decision: _pending_
+- notes: Correct wording depends on routed-vs-synthesized state -> intersects the synthesis backlog; avoid a blind bulk rewrite. Needs a corrective tool reading routing-audit counts.
+
+### OI-20260810-index-product-duplicate-h2 — Product pages emit duplicate adjacent H2s (Sources x170, Lit Evidence Summary x75, Broad Context x13)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/apply-product-hmtc-evidence-summaries.mjs`, `tools/evidence/apply-product-broad-context-sections.mjs`, `tools/evidence/build-source-legend.mjs`
+- repro: Injector blocks re-emit a section H2 the page template already prints -> two identical adjacent H2s (e.g. fish-marine-predatory.md '## Sources' at L289 and L294). Broken heading hierarchy, SEO-negative.
+- done when: exactly one of each H2 per product page; no adjacent duplicate H2 in generator output
+- notes: Audit index-products SEO high, auto-safe. Verify against a product page after the fix.
+
+### OI-20260810-index-operator-identity — about.md + editorial-standards.md self-referential operator identity (ICS 'also operates' ICS)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/about.md`, `wiki/editorial-standards.md`
+- repro: about.md L10 + editorial-standards.md L16: 'operated by the Institute of Contaminant Standards ... which also operates the [Institute of Contaminant Standards (ICS)](https://paleofoundation.com)' — a Paleo Foundation -> ICS find-replace overshoot; the second reference names the operator itself.
+- done when: the overshot second reference (href paleofoundation.com) reads 'Paleo Foundation' per CLAUDE Part 14
+- decision: _pending_
+- notes: Verifier flagged safe_auto=false (which trade name operates HMT&C is a naming call). Part 14 establishes the two trade names as ICS + Paleo Foundation and says correcting Foundation-as-owner is a correction not an assignment. Recommended fix is the one-liner above; routed to Karen given entity-naming sensitivity + adjacent frozen items.
+
+### OI-20260810-index-metal-stubs — Decide: noindex vs consolidate the 17 single-source thin metal stubs
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `wiki/metals/`
+- repro: ~17 metal pages (barium, beryllium, cesium, cobalt, copper, gold, iron, lithium, magnesium, molybdenum, palladium, platinum, silver, tellurium, thallium, titanium, vanadium) are near-duplicate ~5KB stubs from one textbook chapter (Ufelle & Barchowsky 2021); Google may fold as thin/near-dup.
+- done when: decision recorded: (a) noindex-until-threshold via the stub generator, or (b) consolidate into one 'other toxic metals' page
+- decision: _pending_
+- notes: noindex is the lower-effort reversible option (gate the stub generator on n_sources<=1 + status:stub). Distinct meta descriptions needed if kept indexable.
+
+### OI-20260810-index-metal-status-hygiene — metals status frontmatter unreliable (tin mislabeled scaffold; 5 developed pages lack status)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `wiki/metals/tin.md`, `wiki/metals/cadmium.md`, `wiki/metals/nickel.md`, `wiki/metals/lead.md`, `wiki/metals/aluminum.md`, `wiki/metals/arsenic-total.md`
+- repro: tin.md is fully developed (8 prose sections) but tagged status:scaffold; cadmium/nickel/lead/aluminum/arsenic-total carry no status field. (chromium stub + mercury-total scaffold are ACCURATE per their own '## Status' sections — leave.)
+- done when: tin relabeled developed; the 5 fieldless developed pages given an accurate status after per-page check; chromium/mercury-total unchanged
+- notes: Verifier explicitly warned the byte-size=maturity heuristic is invalid — assess per page, do not bulk-bump.
+
+### OI-20260810-index-metal-quickread — Extend lead.md hmi-quick-read direct-answer block to the 8 other developed metal pages
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/`, `wiki/metals/`
+- repro: Only metals/lead.md has a top-of-page extractable quick-read TL;DR (div.hmi-quick-read). cadmium/nickel/aluminum/arsenic-total/arsenic-inorganic/chromium/mercury-total/tin open with an italic citation-dump — weak for LLM extraction / featured snippets.
+- done when: all developed metal pages carry a grounded hmi-quick-read block above the provenance paragraph
+- notes: Audit index-metals LLMO med. Template it in the metal-page generator; reuse lead's block as the pattern.
+
+### OI-20260810-index-meta-description-generator — Add socialDescription generator (products/ingredients/sources lack description -> duplicative meta)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/`, `quartz/components/Head.tsx`
+- repro: 414/415 product pages, 257 ingredient pages, 963 source pages lack description/socialDescription; Head.tsx auto-derives near-identical descriptions from boilerplate leads (226 products share one sentence; 50 developed ingredients open with FSA placeholder).
+- done when: a generator emits a distinct socialDescription per page from structured frontmatter (title + panel metals + jurisdictions/matrices); <10% duplicate meta descriptions across each type
+- notes: Audit multiple units (index-products/ingredients/sources SEO). Pairs with the Crossref source-metadata repair (title feeds the description).
+
+### OI-20260810-index-infant-food-fruits-orphan — products/infant-food-fruits orphaned scaffold (sources:0 but body cites signes-pastor2018)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/infant-food-fruits.md`
+- repro: Frontmatter sources:0 / provisional_scaffold:true but body cites signes-pastor2018 in References + Sources legend + Evidence Inventory. The source now declares products:[...fruit-purees...] NOT infant-food-fruits (0 routing rows).
+- done when: either fold infant-food-fruits into fruit-purees, or re-attach the source and set sources:1 + metals:[iAs,tAs]
+- decision: _pending_
+- notes: Taxonomy judgment. Scaffold orphaned (provisional_reason: no close-slug match).
+
+### OI-20260810-index-ias-synthesis — arsenic-inorganic (HMTc-10 analyte, 109 routed sources) still a scaffold — run Part 9 synthesis
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `wiki/metals/arsenic-inorganic.md`
+- repro: iAs is an HMTc-10 analyte and the dominant dietary-exposure metal (rice); routing fanned 109 sources onto it, yet body is status:scaffold n_sources:2 with a public Planned sections to-do list. Sibling arsenic-total is fully developed.
+- done when: Toxicology/Exposure/Food-sources/Testing populated from routed sources; Planned sections placeholder removed; status flipped to populated
+- decision: _pending_
+- notes: Highest-value single content action in the 2026-08-10 two-site audit. Part 9 synthesis pass.
+
+### OI-20260810-gb2762-2025-successor-page — Create China GB 2762-2025 successor reg page before 2026-09-02 supersession
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/regulations/china-gb-2762-2022-contaminants.md`, `data/regulatory/registry.json`
+- repro: GB 2762-2025 supersedes GB 2762-2022 on 2026-09-02 (23 days out). 2022 page is correct today but has no successor to route to; it will silently go stale on that date.
+- done when: wiki/regulations/china-gb-2762-2025-contaminants.md exists; 2022 page marks supersession-2026-09-02 and links successor
+- decision: _pending_
+- notes: registry.json already holds the verified 2025 record (status adopted-effective-2026-09-02, fetched+verified 2026-08-04, diffed to NO infant/child metal changes vs 2022). Largely mechanical from registry data. Deadline-driven.
+
+### OI-20260810-cert-spices-reconstitution-bleed — Cert spices.md Pb shows '600 · 85.71 prepared for feeding' (formula reconstitution bleed)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `content/standards/spices.md`, `tools/build-category-standard-pages.mjs`
+- repro: spices.md (native_basis:as_sold, Cat-34) Pb row renders '600 · 85.71 prepared for feeding'; 600/7=85.71 is the infant-formula 1:7 reconstitution factor bleeding onto a dried as-sold seasoning that is never reconstituted. 600 itself is correct (EU 2023/915 dried fruit-spice Pb ML).
+- done when: Pb shows 600 ug/kg as sold with no 'prepared for feeding' second basis; reconstitution column gated to formula categories only
+- decision: _pending_
+- notes: Verified (audit cert-standards verify=CONFIRMED, safe_auto). Generator basis-logic bug; likely affects other non-formula categories — check.
+
+### OI-20260810-cert-program-counts — Cert program-count contradictions across homepage / standards / structure
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `content/index.md`, `content/standards/index.md`, `content/program/structure.md`
+- repro: Home snapshot '12 subcategory / 3 firm'; home FAQ '15 / 3-across-2'; /standards '15 / 1-across-1 / 9 categories'; structure.md '15 / 8 categories'. /standards itself lists 26 subcategory rows yet banners 15.
+- done when: one canonical set (subcategory count, firm-analyte-limit count, category count) published identically on all four surfaces
+- decision: _pending_
+- notes: Verified verbatim (audit cert-authority verify=CONFIRMED, safe_auto=false — needs reconciliation of the true locked/firm state). Not deterministically resolvable; Karen's canonical call.
+
+### OI-20260810-cert-lead-jecfa-73rd — Cert lead analyte misattributes JECFA PTWI withdrawal to 72nd/TRS959 (should be 73rd/TRS960)
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/analytes/lead.md`
+- repro: content/analytes/lead.md 'Why it is limited' JECFA row says '72nd JECFA meeting; WHO TRS 959' — that is arsenic's lineage; lead PTWI (25 ug/kg bw/wk) was withdrawn at the 73rd meeting (Geneva Jun 2010), WHO TRS 960. Site's own arsenic page correctly uses 72nd/959.
+- done when: JECFA row reads 73rd meeting / WHO TRS 960 / 2010; matches primary FAO/WHO record
+- decision: _pending_
+- notes: Verified vs FAO i1782e + WHO TRS 960 + internal arsenic-page cross-check (audit index-sources verify=CONFIRMED, safe_auto). FALSE regulatory-provenance claim on a LIVE cert page. Cannot edit now: cert content tree dirty (linking session) + cert push=live.
+
+### OI-20260810-cert-formula-method-version — Cert infant-formula standards cite nonexistent 'Method v3.0'
+
+- scope: **human-gated** · type: content · status: open · repo: cert
+- paths: `content/standards/infant-formula-powder.md`, `content/standards/infant-formula-ready-to-feed.md`
+- repro: Both declare methodology_version '... (Method v3.0)'; no Method v3.0 is defined anywhere (CLAUDE Part 19 defines only Method v2.0). All 25 sibling standards + same-category baby-cereals-dry cite 'Method v2.0 — government-limit default'. v3.0 conflates standard_version 3.0 (doc revision) with methodology.
+- done when: methodology_version reads 'Method v2.0 — government-limit default' on both pages
+- decision: _pending_
+- notes: Verified (audit cert-standards verify=CONFIRMED, safe_auto). Undefined methodology label undercuts the 'no novel methodology, just a sovereign-law lookup' Daubert posture.
+
+### OI-20260810-cert-eu2023915-hg-pesticide-row — Cert eu-2023-915 infant/child table carries a misplaced mercury pesticide-MRL row
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `content/regulations/eu-2023-915.md`, `tools/build-cert-regulation-pages.mjs`
+- repro: Final <tr> = tHg 10, basis 'mg/kg as mercury', scope 'cereals including rice' is register row eu2018_73_hg_cereals_mrl_10 — a Reg 2018/73 / 396/2005 pesticide MRL, NOT a 2023/915 contaminant ML and not an infant/child limit. Provision cell leaks the register notes string.
+- done when: mercury pesticide-MRL row removed from the 2023/915 page; intro count decremented 25 -> 24
+- decision: _pending_
+- notes: Register-confirmed (audit cert-authority verify=CONFIRMED, safe_auto). Generator is contended on feat/regulations-v3 + preview/fatten-regulations — coordinate before editing build-cert-regulation-pages.mjs.
+
+### OI-20260810-cert-briefings-scholar-metadata — Cert briefings: broken Scholar metadata (month-string date, no citation_pdf_url, missing the-big-8.pdf)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `quartz/components/Head.tsx`, `content/briefings/`
+- repro: citation_publication_date emitted from spelled-out 'Month YYYY' (Head.tsx .replace(/-/g,'/') is a no-op -> Scholar drops year); citation_pdf_url never emitted (scholar_pdf unset on all 12, 11 PDFs exist); the-big-8.pdf missing (Download-PDF 404).
+- done when: citation_publication_date is YYYY or YYYY/MM/DD for all briefings; citation_pdf_url emitted where the PDF exists; the-big-8.pdf built or the link removed
+- decision: _pending_
+- notes: Audit cert-briefings SEO/LLMO. Head.tsx is clean (not in the dirty set) but committing in the dirty cert repo needs care.
+
+### OI-20260810-cert-analytes-faq-jsonld — Cert analytes + briefings: add FAQ + Article/FAQPage JSON-LD (AEO lever)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/postbuild-article-jsonld.mjs`, `content/analytes/`, `content/index.md`
+- repro: 8 analyte pages (~29KB) + briefings emit only the site Organization graph — no Article/ScholarlyArticle or FAQPage JSON-LD, and no FAQ — despite being ideal answer-engine citation targets. Homepage has 6 grounded <details> Q&As NOT wired to the FAQPage pipe.
+- done when: cert JSON-LD injector emits Article for type:analyte pages; per-analyte grounded FAQ (mirror tools/metal-faq -> build-metal-faq) with FAQPage schema; homepage <details> Q&As emit data-hmi-faq / FAQPage
+- decision: _pending_
+- notes: Biggest cert LLMO/AEO opportunity. Cannot execute now (dirty tree). Every Q&A must be grounded + firewall-guarded (Part 2).
 
 ### OI-20260810-cap-proposal-tool-occurrence-blindspot — build-cap-mapping-proposals.mjs is blind to occurrence-bearing toxic cells with no mapped cap (the honey-Pb too-loose class)
 
