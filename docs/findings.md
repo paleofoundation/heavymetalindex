@@ -513,7 +513,51 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-20 open item(s): 8 auto, 12 awaiting a decision.
+27 open item(s): 10 auto, 17 awaiting a decision.
+
+### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `data/evidence/standards-outlier-adjudication.csv`, `data/workbench/standards/vinegar.md`
+- repro: standards-qc-gate-report.csv: vinegar Pb=HOLD (C6 adjudication-register + C1b, n=253), tAs=HOLD (C11a n=26 beyond-sample + C1b), Cd=WARN no-cap. Priority metals are Pb/tAs/Cd. The only loaded government MLs for vinegar are Vietnam (Pb 500, tAs 200, Cd 1000, tHg 50).
+- done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
+- decision: _pending_
+- notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
+
+### OI-20260810-honey-al-not-material — honey Al literature-baseline 151964 ppb (152 mg/kg) is a gross artifact — needs a not-material determination
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/evidence/standards-not-material.csv`
+- repro: standards-qc-gate-report.csv: honey Al = HOLD C9-artifact-implausible, literature-baseline 151964.4 ppb. No jurisdiction sets a honey Al contaminant ML; Al is ubiquitous. Same shape as the salt/spices Al not-material entries.
+- done when: standards-not-material.csv gains honey|Al with rationale (Al ubiquitous, not a contaminant ML for honey) and jurisdictions_checked; QC gate emits NOT_MATERIAL for honey Al; briefing renders not material
+- decision: _pending_
+- notes: Al is not a honey priority metal so it does not block the manual, but the 152 mg/kg artifact must not sit as a live literature-baseline candidate.
+
+### OI-20260810-chocolate-ni-eu-2024-1987-map — Chocolate Ni artifact (7455 ppb HOLD) has a clean canonical fix: map EU 2024/1987 (law-split 2500/7000/15000)
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `data/evidence/product_regulatory_crosswalk.csv`
+- repro: standards-qc-gate-report.csv: chocolate Ni = HOLD C9-artifact-implausible, literature-baseline 7454.9 ppb (n=520, dist=2). EU 2024/1987 sets a canonical Ni ML for chocolate with the law s own split: milk chocolate <30% cocoa 2500, milk choc >=30% + chocolate 7000, cocoa powder 15000 (in force 2025-07-01), all present in regulatory_limits.csv (eu2024_ni_chocolate_milk_low_2500 / eu2024_ni_chocolate_7000 / eu2024_ni_cocoa_powder_15000).
+- done when: Add crosswalk rows mapping the three EU 2024/1987 Ni tiers to chocolate (Tier-2 direct-adopt, law-split, per Method v2.0); Re-pool + re-gate: chocolate Ni verdict flips from HOLD to PASS regulatory-alignment (2500 binds as the most-conservative tier, or per-sub-form)
+- decision: _pending_ — enact: `# add EU 2024/1987 Ni tier rows to product_regulatory_crosswalk.csv for chocolate, then: node tools/evidence/build-hmtc-aggregate-distributions.mjs && node tools/evidence/build-standards-qc-gate.mjs`
+- notes: Canonical regulator + exact scope + law-split = the one unambiguous mapping in the Cat 31/32/33 set; safe to approve. Deferred live this session only to avoid a full-pooler re-run colliding with the parallel Cat-3 build.
+
+### OI-20260810-cat31-32-33-cap-mapping — Cat 31/32/33 manuals blocked: priority toxics have no mapped government cap (Method v2.0 lookup incomplete)
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `data/workbench/standards/2026-08-10-cat31-32-33-manual-readiness-reconciliation.md`, `data/evidence/product_regulatory_crosswalk.csv`, `data/evidence/regulatory_limits.csv`
+- repro: node tools/evidence/build-standards-qc-gate.mjs then grep chocolate/honey/vinegar in standards-qc-gate-report.csv: priority Pb/Cd/tAs are WARN/HOLD no-mapped-cap. honey Pb grades FIRM at 1410 ppb (n=155, stable) and would PUBLISH ~1500 ppb = ~14x the strictest sovereign ML (IL/EU honey Pb 100).
+- done when: Canonical EU/Codex MLs fetched+loaded where they exist (EU honey Pb 100; EU/Codex chocolate Pb/tAs) OR counsel signs off on binding the loaded non-canonical MLs (Paraguay/Mercosur/Israel/Singapore/Vietnam); product_regulatory_crosswalk.csv gains the approved (product,metal,cap) rows for chocolate Pb/tAs, honey Pb/Cd/tAs, vinegar Pb/tAs/Cd; re-pool + re-gate: chocolate/honey/vinegar priority toxics flip to regulatory-alignment PASS or honest occurrence-below-cap; honey Pb no longer publishes above the government ML
+- decision: _pending_
+- notes: Non-canonical-only caps loaded today; binding them is a target-market/regulatory-equivalence judgment (same class as the open cephalopod-EU300 defect). See reconciliation doc for the full per-cell table and the government MLs available per cell.
+
+### OI-20260810-cap-proposal-tool-occurrence-blindspot — build-cap-mapping-proposals.mjs is blind to occurrence-bearing toxic cells with no mapped cap (the honey-Pb too-loose class)
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `tools/evidence/build-cap-mapping-proposals.mjs`
+- repro: The tool only scans classifier rows with class=BLOCKED AND next_action=FETCH_INGEST (no occurrence data). Cells that HAVE occurrence data and produce a literature-baseline standard looser than an existing-but-unmapped government ML are never surfaced. honey Pb (P97 1410 ppb vs IL/EU honey Pb 100) is a confirmed live instance.
+- done when: Tool also scans cells that are literature-baseline + big-4 toxic + no mapped cap in standards-qc-gate-report.csv (C1b) and proposes the strictest applicable loaded government ML; Running it surfaces chocolate Pb/tAs and honey Pb/Cd/tAs with their candidate government MLs graded by confidence
+- notes: This class is higher-severity than the no-data class the tool handles today: it publishes a too-loose firm number rather than leaving a gap.
 
 ### OI-20260809-subthreshold-censored-zero-cells — Sweep sub-threshold [0,0] contamination_profile cells (n<3) that escape the integrity audit gate
 
@@ -529,6 +573,21 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: feat/regulations-v3 (commit 4704c8e, worktree ~/Desktop/heavymetalcertified-regs-v3) rewrites tools/build-cert-regulation-pages.mjs to emit the v3 design (red hero band via HeroBand, grouped-by-analyte limits table, real 'Where HMTc cites it' citation map) for the current 11 instruments in data/regulations/infant-instruments.json. The unmerged preview/fatten-regulations branch (tip 6ff4ff3, OI-20260808-fatten-regulations-promote) rewrites the SAME generator differently: richer input (data/regulations/cert-regulation-snapshot.json, ~38 instruments/1,979 rows) and 6 sections (what/at-a-glance/limits/basis/hmtc/sources). Whichever promotes second will conflict on build-cert-regulation-pages.mjs and on content/regulations/*.md. They are complementary (v3 = design/layout; fatten = data breadth), not duplicative.
 - done when: A single reconciled generator applies the v3 design (HeroBand frontmatter + grouped limits table + citation map) to the fattened instrument set/sections; content/regulations builds clean under prebuild (firewall-cert-lint + method-drift-lint) after the merge; No regression: the 11 v3 instrument pages + index still render to the comp
 - decision: _pending_
+
+### OI-20260809-regs-v3-promote — Promote feat/regulations-v3 (v3 /regulations doc-class) to live; reconcile with preview/fatten-regulations
+
+- scope: **human-gated** · type: promote · status: open · repo: cert
+- paths: `content/regulations/index.md`, `quartz/components/HeroBand.tsx`, `tools/build-cert-regulation-pages.mjs`, `design/v3-acceptance.cert.json`
+- repro: feat/regulations-v3 (4704c8e) implements the v3 comp /regulations treatment: Record-of-law badge (regulation-index) + Regulation-reference (regulation) in HeroBand KIND, snapshot card (Instruments tracked 10/Binding 10/Limits 105/Primary-verified), hero_meta UPDATED+ALL PRIMARY-VERIFIED, 4-section On-this-page TOC (what/instruments/coverage/interaction), instruments grid + per-instrument bar chart. Base = origin/main+1 (current). NOT on main/live. Conflicts with preview/fatten-regulations (worldwide register, 38 instruments, stale base) on 12 shared files incl. tools/build-cert-regulation-pages.mjs. regs-v3 did NOT add /regulations assertions to design/v3-acceptance.cert.json.
+- done when: v3 /regulations live on heavymetalcertified.com matching the comp; check:v3 gains /regulations assertions and passes; fatten worldwide-register reconciled onto the v3 design or explicitly deferred
+- decision: _pending_
+
+### OI-20260809-pkgjson-dup-react-pdf — Remove duplicate @react-pdf/renderer key in root package.json
+
+- scope: **auto** · type: code-fix · status: open · repo: index
+- paths: `package.json`
+- repro: esbuild prints [WARNING] Duplicate key "@react-pdf/renderer" in object literal — root package.json dependencies lists @react-pdf/renderer twice (lines 131 and 193, both ^4.5.1). Surfaced while bundling the design-sync DS package via esbuild.
+- done when: package.json has exactly one @react-pdf/renderer entry in dependencies; esbuild/npm no longer warn duplicate-object-key for package.json
 
 ### OI-20260809-organoarsenical-synthesis-downstream-propagation — Propagate organoarsenical-inertness synthesis to its remaining downstream ingredient pages
 
