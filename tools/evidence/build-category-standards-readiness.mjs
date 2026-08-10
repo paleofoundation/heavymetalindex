@@ -93,8 +93,12 @@ if (fs.existsSync(qcPath)) {
 // the analytes for which Method v2.0 mandates a government-ML lookup (C1b guard).
 const BIG4_TOXIC = new Set(["Pb", "Cd", "iAs", "tAs", "MeHg", "tHg"])
 // A priority cell is a PUBLICATION BLOCKER (not merely provisional) when the gate
-// holds it, or when it is a toxic riding a literature-baseline value with no cap.
+// holds it, when it is a toxic riding a literature-baseline value with no cap, or
+// when the outlier-adjudication register carries a non-cleared hold (which the
+// briefing renders as "adjudication pending" no matter what the gate says).
 function qcBlocker(slug, metal) {
+  const adj = adjByCell.get(`${slug}|${metal}`)
+  if (adj) return `${metal} adjudication-hold (${adj.slice(0, 90)})`
   const qc = qcByCell.get(`${slug}|${metal}`)
   if (!qc) return null
   if (qc.verdict === "HOLD") {
@@ -104,6 +108,24 @@ function qcBlocker(slug, metal) {
   if (BIG4_TOXIC.has(metal) && /C1b-cap-completeness/.test(qc.reasons))
     return `${metal} toxic, no mapped government cap — Method v2.0 lookup incomplete`
   return null
+}
+// Outlier-adjudication register: a non-cleared hold means the briefing generator
+// renders that cell "adjudication pending" REGARDLESS of the QC gate (a governance
+// or data-quality hold the gate does not model). The gate can PASS a cap-bound
+// cell whose row still carries a Karen-reserved governance hold — e.g. chocolate
+// Pb is regulatory-alignment PASS after cap-mapping, yet the register holds it
+// "NOT SHIPPABLE as a single blended row … dark/milk subcategory split … a
+// governance/taxonomy decision for Karen." The manual (briefing) treats it as
+// pending; readiness must too, or it green-lights a manual whose flagship renders
+// pending. A `cleared…` disposition is resolved and does not block.
+const adjPath = path.join(evidenceDir, "standards-outlier-adjudication.csv")
+const adjByCell = new Map() // `${slug}|${metal}` -> disposition (first non-cleared)
+if (fs.existsSync(adjPath)) {
+  for (const r of parseCsv(fs.readFileSync(adjPath, "utf8"))) {
+    if (/^cleared/i.test(r.disposition || "")) continue
+    const key = `${r.row_slug}|${r.metal_species}`
+    if (!adjByCell.has(key)) adjByCell.set(key, String(r.disposition || r.flag || "under review"))
+  }
 }
 // Categories with a bound Program Manual already in build/. Display hint so a
 // shipped category with documented pending cells reads "BUILT (with caveats)",

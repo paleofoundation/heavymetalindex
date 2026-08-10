@@ -28,11 +28,29 @@ Result:
 | chocolate tAs | WARN no-cap 344 | **200** regulatory-alignment PASS |
 | chocolate Ni | **HOLD** C9 artifact 7455 | **2500** regulatory-alignment PASS (EU 2024/1987, law-split) |
 
-**Cat 31 (honey) and Cat 33 (chocolate) are now genuinely MANUAL-READY** — the
-QC-aware readiness monitor confirms all priority cells resolved AND QC-clean.
-honey Ni stays a non-blocking DEMOTE (provisional, n=45, no gov ML). Ledger items
-OI-20260810-{cat31-32-33-cap-mapping, chocolate-ni-eu-2024-1987-map,
-honey-al-not-material} marked **done**.
+**Cat 31 (honey) is now genuinely MANUAL-READY** — the QC-aware readiness monitor
+confirms all priority cells resolved AND QC-clean, and honey carries **no**
+outlier-adjudication holds. honey Ni stays a non-blocking DEMOTE (provisional,
+n=45, no gov ML). Ledger items OI-20260810-{cat31-32-33-cap-mapping,
+chocolate-ni-eu-2024-1987-map, honey-al-not-material} marked **done**.
+
+**Cat 33 (chocolate) is NOT manual-ready — corrected on further audit.** The
+cap-mapping made every chocolate cell's *number* defensible (Pb 200, tAs 200, Ni
+2500, all regulatory-alignment PASS at the QC gate), and I briefly over-claimed
+chocolate as MANUAL-READY. But the outlier-adjudication register carries a
+**Karen-reserved governance hold** the QC gate does not model: chocolate Pb is
+*"NOT SHIPPABLE as a single blended row … Lead is the litigation-critical
+chocolate metal … resolve via the dark/milk subcategory split (cat 33, 3
+subcategories) — a governance/taxonomy decision for Karen."* The sovereign cap
+itself is tier-split by cocoa % (low-cocoa 200 / high-cocoa 400), which IS that
+split: binding a single 200 to all chocolate under-serves dark chocolate (which
+the law allows at 400) and over-serves nobody's actual taxonomy. The briefing
+correctly renders chocolate Pb *adjudication pending*; a third readiness-monitor
+fix (this session) makes the monitor read the outlier register too, so chocolate
+now correctly reads NOT MANUAL-READY. I did **not** clear the governance hold —
+it is Karen's Step-0 call (OI-20260810-chocolate-dark-milk-split). The
+cap-immaterial holds (chocolate Pb tail-scan, chocolate Ni thin-source) could be
+cleared once the split is decided, since the cap binds below the tail.
 
 **Robustness follow-up (open):** no EU/Codex honey-Pb or chocolate-Pb/tAs ML is
 *loaded* in the register (only non-canonical are). The values bound are the

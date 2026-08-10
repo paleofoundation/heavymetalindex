@@ -29,8 +29,8 @@
       "fish-freshwater:MeHg QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
       "fish-marine-non-predatory:MeHg QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
       "fish-marine-non-predatory:iAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
-      "seaweed-kelp-foods:iAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
-      "seaweed-kelp-foods:tAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+      "seaweed-kelp-foods:iAs adjudication-hold (HOLD PROVISIONAL pending source-level adjudication of the new iAs sources: verify analyte )",
+      "seaweed-kelp-foods:tAs adjudication-hold (WITHDRAWN 2026-06-16: seaweed total-As is arsenosugar-dominated; iAs is the toxic AND regu)",
       "seaweed-kelp-foods:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete",
       "shellfish:iAs toxic, no mapped government cap — Method v2.0 lookup incomplete"
     ],
@@ -59,8 +59,8 @@
         "slug": "seaweed-kelp-foods",
         "ready": false,
         "blocking": [
-          "iAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
-          "tAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+          "iAs adjudication-hold (HOLD PROVISIONAL pending source-level adjudication of the new iAs sources: verify analyte )",
+          "tAs adjudication-hold (WITHDRAWN 2026-06-16: seaweed total-As is arsenosugar-dominated; iAs is the toxic AND regu)",
           "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
         ]
       },
@@ -95,15 +95,19 @@
   "30": {
     "name": "Culinary Oils and Fats",
     "locked_rows": 2,
-    "ready_rows": 2,
-    "manual_ready": true,
+    "ready_rows": 1,
+    "manual_ready": false,
     "manual_built": true,
-    "publication_blockers": [],
+    "publication_blockers": [
+      "cooking-oils-other:Cd adjudication-hold (HELD 2026-06-18: pool contaminated by mg/kg-as-ppb autonomy extractor mis-scale (per-row, )"
+    ],
     "rows": [
       {
         "slug": "cooking-oils-other",
-        "ready": true,
-        "blocking": []
+        "ready": false,
+        "blocking": [
+          "Cd adjudication-hold (HELD 2026-06-18: pool contaminated by mg/kg-as-ppb autonomy extractor mis-scale (per-row, )"
+        ]
       },
       {
         "slug": "olive-oil",
@@ -134,7 +138,7 @@
     "manual_ready": false,
     "manual_built": false,
     "publication_blockers": [
-      "vinegar:Pb QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+      "vinegar:Pb adjudication-hold (REVIEW before publishing firm)",
       "vinegar:tAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
       "vinegar:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
     ],
@@ -143,7 +147,7 @@
         "slug": "vinegar",
         "ready": false,
         "blocking": [
-          "Pb QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
+          "Pb adjudication-hold (REVIEW before publishing firm)",
           "tAs QC-HELD (C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/m)",
           "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
         ]
@@ -153,15 +157,19 @@
   "33": {
     "name": "Cocoa and Chocolate",
     "locked_rows": 1,
-    "ready_rows": 1,
-    "manual_ready": true,
+    "ready_rows": 0,
+    "manual_ready": false,
     "manual_built": false,
-    "publication_blockers": [],
+    "publication_blockers": [
+      "chocolate:Pb adjudication-hold (REVIEW before publishing firm)"
+    ],
     "rows": [
       {
         "slug": "chocolate",
-        "ready": true,
-        "blocking": []
+        "ready": false,
+        "blocking": [
+          "Pb adjudication-hold (REVIEW before publishing firm)"
+        ]
       }
     ]
   },
