@@ -2,7 +2,6 @@ row_slug,metal_species,finding,jurisdictions_checked,date
 olive-oil,Cd,No regulatory ML for Cd in vegetable/olive oils; Cd does not partition into the lipid fraction. Literature-baseline is complete.,EU 2023/915; Codex CXS 193; AU/NZ Sch 19,2026-06-18
 olive-oil,tHg,No regulatory ML for Hg in vegetable/olive oils. Literature-baseline is complete.,EU; Codex; AU/NZ,2026-06-18
 cooking-oils-other,Cd,No regulatory ML for Cd in vegetable oils.,EU; Codex; AU/NZ,2026-06-18
-cooking-oils-other,tAs,No regulatory ML for As in vegetable oils.,EU; Codex; AU/NZ,2026-06-18
 cooking-oils-other,tHg,No regulatory ML for Hg in vegetable oils.,EU; Codex; AU/NZ,2026-06-18
 spices,tAs,No regulatory ML for As in dried spices (EU 2023/915 sets only tiered Pb for spices); literature-baseline is the standard.,EU; Codex; AU/NZ,2026-06-18
 spices,tHg,No regulatory ML for Hg in dried spices; literature-baseline (9 sources) is the standard.,EU; Codex; AU/NZ,2026-06-18
