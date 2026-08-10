@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-39 open item(s): 14 auto, 25 awaiting a decision.
+44 open item(s): 14 auto, 30 awaiting a decision.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
@@ -523,6 +523,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
 - decision: _pending_
 - notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
+
+### OI-20260810-transformer-parity-blocking-flip — Flip transformer-parity lint from --warn-only to build-blocking per-property once each baseline is clean
+
+- scope: **human-gated** · type: audit · status: open · repo: index
+- paths: `package.json`
+- repro: transformer-parity is wired --warn-only in index/cert/cs prebuild. When a property has 0 findings beyond an empty baseline, drop --warn-only from THAT property prebuild (drop the flag, not the check).
+- done when: cert: after FAQ + autolink fixes land, cert baseline empty and --warn-only removed from cert prebuild; index: --warn-only removed once the 4 orphan cards are resolved
+- decision: _pending_
+- notes: Same drain-then-block ratchet as audit-contamination-profile-integrity. Documented in docs/lint.md.
 
 ### OI-20260810-seafood-sn-organotin — Seafood Sn not-material is the diaper-Sn error class — organotin bioaccumulates in molluscs/cephalopods (ho2016)
 
@@ -555,6 +564,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: each of the 51 adjudicated in standards-not-material-adjudication.csv with a verdict and the source finding; RETIRE verdicts retired to a real limit/screen; KEEP_CITE recorded; NEEDS_JUDGMENT surfaced to Karen; audit-not-material-integrity.mjs prebuild step flipped to build-blocking once the queue is empty
 - decision: _pending_
 
+### OI-20260810-index-orphan-product-cards — Index wiki/products/index.md links 4 product cards with no backing page (infant-nursery-water, infant-carriers, lip-products, food-prep-coffee-maker-pathways)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/products/index.md`
+- repro: node tools/audit-transformer-parity.mjs → 4 INDEX_CARD_ORPHAN (advisory).
+- done when: each of the 4 targets either has a backing wiki/products/<slug>.md page or the card is removed/repointed; node tools/audit-transformer-parity.mjs reports 0 INDEX_CARD_ORPHAN, then --update-baseline
+- decision: _pending_
+- notes: Advisory; seeded into the transformer-parity baseline as the accepted draining backlog.
+
 ### OI-20260810-honey-manual-build — Build the Cat 31 (honey) Program Manual — now unblocked and QC-clean
 
 - scope: **auto** · type: content · status: open · repo: index
@@ -569,6 +587,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - paths: `data/evidence/hmtc_aggregate_distributions.csv`
 - repro: honey Al not-material stands (no ML, TWI-managed) but the pool p97 ~152 mg/kg is a method-inflation artifact: naccari2025 (ICP-MS, n=38) measures 4.5-6.0 mg/kg while the pool is dominated by tomczyk2020 (ICP-OES) and wise2025 (XRF, known inconsistencies). Same reference-method-stratification precedent as spices tHg (2026-06-11 audit).
 - done when: honey Al pool restricted to reference-method sources (ICP-MS/CV-AAS/GF-AAS); honey Al p50/p97 fall toward the ~5 mg/kg ICP-MS anchor; not-material rationale value updated if needed
+
+### OI-20260810-cs-native-parity-check — contaminantstandards (Next.js) needs a native content→capability parity check — the Quartz transformer-parity lint N/As there
+
+- scope: **human-gated** · type: code-fix · status: open · repo: tested
+- paths: `~/Desktop/contaminantstandards/tools/`
+- repro: contaminantstandards is a Next.js app with a DB-backed corpus; audit-transformer-parity.mjs auto-skips it. Its analogous failure class (a React component referenced/mounted without the data/import it needs, or a registry card with no backing route) is not covered.
+- done when: a cs-native parity check (component/import resolution over app/ + components/) exists and is wired into cs prebuild --warn-only
+- decision: _pending_
+- notes: Future work. crosslink-lint.mjs + firewall-parent-lint.mjs cover other cs concerns.
 
 ### OI-20260810-chocolate-dark-milk-split — GOVERNANCE (Karen): split chocolate into dark/milk subcategories before publishing a chocolate lead standard
 
@@ -594,6 +621,24 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: custom.scss @use's proof-design.scss (.wiki-content h2 = 24px dotted, margin 42px/14px) and cert-chrome.scss (.proof:not(.proof-home) .wiki-content h2 = canon 30px solid, pb10/mb20), and itself defines bare `article h2` (24px, no rule, 2rem/0.75rem). Interior article pages render the canon only because .proof:not(.proof-home) .wiki-content h2 out-specifies the others (0,3,1). If the .wiki-content/.proof wrapper is ever dropped, section headings silently change size, border, and spacing site-wide.
 - done when: Section-heading h2 has exactly one authoritative rule matching the approved v3 proof (30px Lora, 1px solid #e8e1db, pb10, mb20); Dead/overridden h2 rules in proof-design.scss and custom.scss article h2 are removed or explicitly scoped so they cannot win on any surface; Home (.proof-home) and non-.wiki-content surfaces verified unchanged after consolidation
 - decision: _pending_
+
+### OI-20260810-cert-faq-transformer-missing — CERT LIVE: 23 of 25 content/articles render their FAQ question-headings FLAT — CollapsibleQuestions transformer not wired
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `quartz.config.ts`, `quartz/plugins/transformers/collapsibleQuestions.ts`, `quartz/styles/proof-design.scss`
+- repro: cd ~/Desktop/heavymetalcertified worktree off origin/main; node tools/audit-transformer-parity.mjs --json | grep FAQ_TRANSFORMER_MISSING → 23 findings. cert origin/main has 23 articles with question-style h3s (text ending in ?) but quartz.config.ts does NOT wire Plugin.CollapsibleQuestions(); the .qa CSS IS present (ported without the transformer). So the FAQ accordions render as plain headings on live production.
+- done when: Plugin.CollapsibleQuestions() wired in cert quartz.config.ts after TableOfContents; quartz/plugins/transformers/collapsibleQuestions.ts present in cert; node tools/audit-transformer-parity.mjs reports 0 FAQ_TRANSFORMER_MISSING on cert
+- decision: _pending_
+- notes: Confirmed instance task_7121fe3a, now verified LIVE on cert production (not just in-flight). elated-goldwasser worktree is adding MORE FAQ articles on top. Fix touches cert rendering + coordinates with feat/big-8-pillar + elated-goldwasser in-flight sessions — logged not bundled per Part 28.
+
+### OI-20260810-cert-autolink-metals-misport — CERT LIVE: autolink.ts ships the Index /metals/* map (19 slugs) — cert has /analytes/, so ~18 in-prose metal mentions link to NOTHING
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `quartz/plugins/transformers/autolink.ts`
+- repro: git show origin/main:quartz/plugins/transformers/autolink.ts | grep -c metals/  → 19 metals/ targets, 0 analytes/. cert has no /metals/ tree. node tools/audit-transformer-parity.mjs → 18 AUTOLINK_TARGET_MISSING.
+- done when: autolink.ts TERMS map targets /analytes/* (the 8 HMTc analytes + speciation collapse), regs, standards, briefings — NOT /metals/; non-analyte metals (molybdenum, manganese, tellurium, palladium, beryllium, vanadium, antimony, thallium, uranium, barium, cesium) dropped from cert map (no cert page); node tools/audit-transformer-parity.mjs reports 0 AUTOLINK_TARGET_MISSING on cert
+- decision: _pending_
+- notes: Confirmed instance #1 (the cert AutoLink mis-port), verified LIVE on origin/main. The corrected analytes/ version already exists UNCOMMITTED on the feat/big-8-pillar working tree; land it. Do not history-surgery; coordinate with that session.
 
 ### OI-20260810-cat9-regulatory-refinements — Cat-9 contact-products: three deferred regulatory refinements
 
