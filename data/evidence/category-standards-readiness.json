@@ -115,21 +115,15 @@
   "31": {
     "name": "Sweeteners and Syrups",
     "locked_rows": 1,
-    "ready_rows": 0,
-    "manual_ready": false,
+    "ready_rows": 1,
+    "manual_ready": true,
     "manual_built": false,
-    "publication_blockers": [
-      "honey:Pb toxic, no mapped government cap — Method v2.0 lookup incomplete",
-      "honey:Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
-    ],
+    "publication_blockers": [],
     "rows": [
       {
         "slug": "honey",
-        "ready": false,
-        "blocking": [
-          "Pb toxic, no mapped government cap — Method v2.0 lookup incomplete",
-          "Cd toxic, no mapped government cap — Method v2.0 lookup incomplete"
-        ]
+        "ready": true,
+        "blocking": []
       }
     ]
   },
@@ -159,21 +153,15 @@
   "33": {
     "name": "Cocoa and Chocolate",
     "locked_rows": 1,
-    "ready_rows": 0,
-    "manual_ready": false,
+    "ready_rows": 1,
+    "manual_ready": true,
     "manual_built": false,
-    "publication_blockers": [
-      "chocolate:Pb toxic, no mapped government cap — Method v2.0 lookup incomplete",
-      "chocolate:tAs toxic, no mapped government cap — Method v2.0 lookup incomplete"
-    ],
+    "publication_blockers": [],
     "rows": [
       {
         "slug": "chocolate",
-        "ready": false,
-        "blocking": [
-          "Pb toxic, no mapped government cap — Method v2.0 lookup incomplete",
-          "tAs toxic, no mapped government cap — Method v2.0 lookup incomplete"
-        ]
+        "ready": true,
+        "blocking": []
       }
     ]
   },

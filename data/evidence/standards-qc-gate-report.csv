@@ -69,9 +69,9 @@ childrens-lip-balm-plain,Pb,10000,10000,regulatory-alignment,PASS,
 childrens-makeup,Pb,10000,10000,regulatory-alignment,PASS,
 childrens-nail-polish,Pb,10000,10000,regulatory-alignment,PASS,
 chocolate,Cd,100,100,regulatory-alignment,PASS,
-chocolate,Pb,2113.1679,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
-chocolate,tAs,344.0176,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
-chocolate,Ni,7454.9293,,literature-baseline,HOLD,C9-artifact-implausible: thin-source (distinct=2) value 7454.9293 ppb > 15x Ni multi-source median 250 — likely unit/single-sample artifact; verify before publishing
+chocolate,Pb,200,200,regulatory-alignment,PASS,
+chocolate,tAs,200,200,regulatory-alignment,PASS,
+chocolate,Ni,2500,2500,regulatory-alignment,PASS,
 chocolate,Al,118650.6451,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 coffee,Cd,21175.7721,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 cooking-oils-other,Pb,100,100,regulatory-alignment,PASS,
@@ -156,12 +156,12 @@ fruit-purees,tHg,14.2964,,literature-baseline,WARN,"C1b-cap-completeness: big-4 
 fruit-purees,Al,1412.5897,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=14 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 fruit-purees,Ni,231.1221,,literature-baseline,PASS,
 fruit-purees,Sn,2216.1735,,literature-baseline,PASS,
-honey,Pb,1410.2946,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
-honey,Cd,89.5319,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+honey,Pb,100,100,regulatory-alignment,PASS,
+honey,Cd,89.5319,100,literature-baseline,PASS,
 honey,Ni,1294.478,,literature-baseline,DEMOTE,C11b-minimum-n-floor: firm at P97 with pooled_n=44 (<99) — no 95% bound exists at this n; must be provisional
-honey,tAs,63.6963,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
+honey,tAs,63.6963,300,literature-baseline,PASS,
 honey,tHg,74.738,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=29 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
-honey,Al,151964.3644,,literature-baseline,HOLD,C9-artifact-implausible: value 151964.3644 ppb > 100 mg/kg — no literature contaminant standard is that high; artifact or not-material/feasibility analyte; verify before publishing
+honey,Al,151964.3644,,not-material,NOT_MATERIAL,designated not-material — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 infant-and-child-foods-master,Pb,28845.5825,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C9-artifact-implausible: thin-source (distinct=1) value 28845.5825 ppb > 15x Pb multi-source median 100 — likely unit/single-sample artifact; verify before publishing"
 infant-and-child-foods-master,Cd,292.7388,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 infant-and-child-foods-master,tAs,8032.7521,,literature-baseline,HOLD,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML | C11a-percentile-beyond-sample: target P97 with pooled_n=10 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile | C9-artifact-implausible: thin-source (distinct=1) value 8032.7521 ppb > 15x tAs multi-source median 81 — likely unit/single-sample artifact; verify before publishing"

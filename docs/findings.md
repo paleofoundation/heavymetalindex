@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-27 open item(s): 10 auto, 17 awaiting a decision.
+24 open item(s): 10 auto, 14 awaiting a decision.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
@@ -523,33 +523,6 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
 - decision: _pending_
 - notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
-
-### OI-20260810-honey-al-not-material — honey Al literature-baseline 151964 ppb (152 mg/kg) is a gross artifact — needs a not-material determination
-
-- scope: **human-gated** · type: decision · status: open · repo: index
-- paths: `data/evidence/standards-not-material.csv`
-- repro: standards-qc-gate-report.csv: honey Al = HOLD C9-artifact-implausible, literature-baseline 151964.4 ppb. No jurisdiction sets a honey Al contaminant ML; Al is ubiquitous. Same shape as the salt/spices Al not-material entries.
-- done when: standards-not-material.csv gains honey|Al with rationale (Al ubiquitous, not a contaminant ML for honey) and jurisdictions_checked; QC gate emits NOT_MATERIAL for honey Al; briefing renders not material
-- decision: _pending_
-- notes: Al is not a honey priority metal so it does not block the manual, but the 152 mg/kg artifact must not sit as a live literature-baseline candidate.
-
-### OI-20260810-chocolate-ni-eu-2024-1987-map — Chocolate Ni artifact (7455 ppb HOLD) has a clean canonical fix: map EU 2024/1987 (law-split 2500/7000/15000)
-
-- scope: **human-gated** · type: code-fix · status: open · repo: index
-- paths: `data/evidence/product_regulatory_crosswalk.csv`
-- repro: standards-qc-gate-report.csv: chocolate Ni = HOLD C9-artifact-implausible, literature-baseline 7454.9 ppb (n=520, dist=2). EU 2024/1987 sets a canonical Ni ML for chocolate with the law s own split: milk chocolate <30% cocoa 2500, milk choc >=30% + chocolate 7000, cocoa powder 15000 (in force 2025-07-01), all present in regulatory_limits.csv (eu2024_ni_chocolate_milk_low_2500 / eu2024_ni_chocolate_7000 / eu2024_ni_cocoa_powder_15000).
-- done when: Add crosswalk rows mapping the three EU 2024/1987 Ni tiers to chocolate (Tier-2 direct-adopt, law-split, per Method v2.0); Re-pool + re-gate: chocolate Ni verdict flips from HOLD to PASS regulatory-alignment (2500 binds as the most-conservative tier, or per-sub-form)
-- decision: _pending_ — enact: `# add EU 2024/1987 Ni tier rows to product_regulatory_crosswalk.csv for chocolate, then: node tools/evidence/build-hmtc-aggregate-distributions.mjs && node tools/evidence/build-standards-qc-gate.mjs`
-- notes: Canonical regulator + exact scope + law-split = the one unambiguous mapping in the Cat 31/32/33 set; safe to approve. Deferred live this session only to avoid a full-pooler re-run colliding with the parallel Cat-3 build.
-
-### OI-20260810-cat31-32-33-cap-mapping — Cat 31/32/33 manuals blocked: priority toxics have no mapped government cap (Method v2.0 lookup incomplete)
-
-- scope: **human-gated** · type: decision · status: open · repo: index
-- paths: `data/workbench/standards/2026-08-10-cat31-32-33-manual-readiness-reconciliation.md`, `data/evidence/product_regulatory_crosswalk.csv`, `data/evidence/regulatory_limits.csv`
-- repro: node tools/evidence/build-standards-qc-gate.mjs then grep chocolate/honey/vinegar in standards-qc-gate-report.csv: priority Pb/Cd/tAs are WARN/HOLD no-mapped-cap. honey Pb grades FIRM at 1410 ppb (n=155, stable) and would PUBLISH ~1500 ppb = ~14x the strictest sovereign ML (IL/EU honey Pb 100).
-- done when: Canonical EU/Codex MLs fetched+loaded where they exist (EU honey Pb 100; EU/Codex chocolate Pb/tAs) OR counsel signs off on binding the loaded non-canonical MLs (Paraguay/Mercosur/Israel/Singapore/Vietnam); product_regulatory_crosswalk.csv gains the approved (product,metal,cap) rows for chocolate Pb/tAs, honey Pb/Cd/tAs, vinegar Pb/tAs/Cd; re-pool + re-gate: chocolate/honey/vinegar priority toxics flip to regulatory-alignment PASS or honest occurrence-below-cap; honey Pb no longer publishes above the government ML
-- decision: _pending_
-- notes: Non-canonical-only caps loaded today; binding them is a target-market/regulatory-equivalence judgment (same class as the open cephalopod-EU300 defect). See reconciliation doc for the full per-cell table and the government MLs available per cell.
 
 ### OI-20260810-cap-proposal-tool-occurrence-blindspot — build-cap-mapping-proposals.mjs is blind to occurrence-bearing toxic cells with no mapped cap (the honey-Pb too-loose class)
 

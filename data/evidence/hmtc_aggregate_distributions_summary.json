@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-03T07:54:46.027Z",
+  "generated_at": "2026-08-10T09:33:08.086Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 792,
   "cells_by_verdict": {
-    "READY FOR REVIEW": 86,
-    "READY FOR REVIEW (regulatory cap applies)": 35,
+    "READY FOR REVIEW": 84,
+    "READY FOR REVIEW (regulatory cap applies)": 37,
     "PROVISIONAL: single-source pool — provisional standard, ratchets as data accumulates": 223,
     "READY FOR REVIEW (regulatory cap applies; interim, occurrence characterization pending)": 113,
     "BLOCKED: no usable evidence": 269,
@@ -13,8 +13,8 @@
     "PROVISIONAL: sensitivity unstable across parametric assumptions": 12
   },
   "cells_by_rationale": {
-    "literature-baseline": 380,
-    "regulatory-alignment": 143,
+    "literature-baseline": 376,
+    "regulatory-alignment": 147,
     "no-data": 269
   },
   "cells_by_role": {

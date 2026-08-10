@@ -4,8 +4,8 @@ type: hmtc-standards-briefing
 product_slug: honey
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-06-16T12:13:01.708Z
-authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
+generated_at: 2026-08-10T09:36:41.653Z
+authors: ["Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS)"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
 ---
@@ -16,8 +16,8 @@ noindex: true
 **Subcategory role:** independent
 **Native basis for published thresholds:** as_sold
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-06-16
-**Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
+**Date generated:** 2026-08-10
+**Author:** Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS)
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
 ---
@@ -42,12 +42,12 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
-| Pb | **1500 ppb** [as-sold]<br>≈ 500 ppb [prepared] | 1410.295 ppb | literature-baseline | 13 | stable | — |
-| tAs | **100 ppb** [as-sold]<br>≈ 10 ppb [prepared] | 63.696 ppb | literature-baseline | 12 | stable | — |
-| Ni | **1300 ppb** [as-sold]<br>≈ 200 ppb [prepared] | 1294.478 ppb | literature-baseline | 3 | stable | — |
-| Cd | **100 ppb** [as-sold]<br>≈ 15 ppb [prepared] | 87.798 ppb | literature-baseline | 13 | provisional | — |
-| Al | **10000 ppb** [as-sold]<br>≈ 10000 ppb [prepared] | 139113.117 ppb | literature-baseline | 4 | needs_review | — |
-| tHg | **100 ppb** [as-sold]<br>≈ 15 ppb [prepared] | 74.738 ppb | literature-baseline | 2 | stable | — |
+| Pb | **100 ppb** [as-sold] | 1410.295 ppb (capped to 100 by reg cap) | regulatory-alignment | 13 | stable | 100 ppb (il_fcs2016_pb_23_honey_100) |
+| tAs | **63 ppb** [as-sold] | 63.696 ppb | literature-baseline | 12 | stable | 300 ppb (py_decreto1335_2019_honey_tas_300) |
+| Ni | **1200 ppb** [as-sold] | 1294.478 ppb | literature-baseline | 3 | stable | — |
+| Cd | **89 ppb** [as-sold] | 89.532 ppb | literature-baseline | 14 | provisional | 100 ppb (py_decreto1335_2019_honey_cd_100) |
+| Al | _not material_ | 151964.364 ppb (pool not standardized — not material) | literature-baseline | 4 | provisional | — |
+| tHg | **74 ppb** [as-sold] | 74.738 ppb | literature-baseline | 2 | stable | — |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
 
@@ -63,7 +63,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 **Why P97 / P45, not P90 / P30 (the row-pass calibration).** A brand certifies a product (one row, ten analytes simultaneously) — not one analyte at a time. Setting each per-analyte limit at the raw P90 of the clean distribution would deliver a joint row-pass rate close to 0.9^10 = 35% under analyte independence. Under realistic analyte correlation (~0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50-70%. To deliver the row-level outcomes the Governing Principles require — approximately 90% of clean-subcategory brands and approximately 30% of dirty-subcategory brands pass row certification — per-analyte limits are uplifted to P97 (clean) and P45 (dirty). This is the calibration that delivers the program's stated objective. ALARA and the §80th-percentile ratchet trigger drive post-publication tightening; per-analyte differentiation (e.g., Pb tighter than Ni) is deferred until HMTc has 6-12 months of lot-testing data to measure actual joint pass rates.
 
-**Basis.** Each product row's standard is published in the native basis of the product form: powder rows in powder-as-placed-on-market, ready-to-feed liquid rows in as-consumed, dry cereal rows in dry-as-sold, puree rows in as-consumed. Brands ship and test in their product's native form; the certification mark matches that form. Sources reporting in non-native bases are converted into the row's native basis during pooling via documented factors (the 1:7 reconstitution ratio for powder ↔ prepared; within-class identity for as_sold ↔ dry_as_sold). The cross-basis equivalent of every published value is shown in the Master Limit Table for ease of reference by audiences operating in different bases.
+**Basis.** Each product row's standard is published in the native basis of the product form, the form as sold and placed on market. Brands ship and test in their product's native as-sold form; the certification mark matches that form. As-sold product is not reconstituted from a concentrate, so no powder-to-prepared conversion applies and the published value is the as-sold value. Sources reporting in a non-native basis are converted into the row's native basis during pooling via documented per-source factors recorded in the contribution log; conversions of unknown factor are flagged and not silently coerced.
 
 **Regulatory cap.** The final published HMTc value never exceeds the lowest applicable loaded regulatory ceiling, expressed in the product's native basis. When the pooled P97/P45 exceeds the regulatory cap, the cap binds and the rationale tag is `regulatory-alignment`. When the pooled value is below the cap, the rationale is `literature-baseline` and the cap is shown for context only.
 
@@ -79,26 +79,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Pb
 
-**Published HMTc threshold:** 1500 ppb [as-sold] · 1410.295 ppb (pre-rounding)
-**Cross-basis: ≈ 500 ppb [prepared] (÷7 (1:7 reconstitution))**
-**Rationale tag:** `literature-baseline`
-**Regulatory ceiling reference:** no applicable cap loaded
+**Published HMTc threshold:** 100 ppb [as-sold] · 100 ppb (pre-rounding)
+**Rationale tag:** `regulatory-alignment`
+**Regulatory ceiling reference:** 100 ppb (il_fcs2016_pb_23_honey_100)
 **Pool composition:** 13 sources contributing · 155 pseudo-samples in pool · 0 sample-level contributors
 **Bootstrap 95% CI: [415.11, 1320.72] ppb**
 **Sensitivity: log-normal 1015.93 · gamma 992.74 · nonparametric 997.25 ppb · spread 2% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 13 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (il_fcs2016_pb_23_honey_100). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 1410.29 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 13 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** This threshold matches the binding government cap (il_fcs2016_pb_23_honey_100). A Daubert challenge on the value reduces to "is il_fcs2016_pb_23_honey_100 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 1500 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 100 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 13 contributing sources across multiple jurisdictions. Sensitivity band stable.
+**Regulator read.** HMTc threshold = il_fcs2016_pb_23_honey_100 cap. The pooled occurrence distribution from 13 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
 <summary>Per-source contribution log (13 admitted)</summary>
@@ -123,23 +122,22 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tAs
 
-**Published HMTc threshold:** 100 ppb [as-sold] · 63.696 ppb (pre-rounding)
-**Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 63 ppb [as-sold] · 63.696 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
-**Regulatory ceiling reference:** no applicable cap loaded
+**Regulatory ceiling reference:** 300 ppb (py_decreto1335_2019_honey_tas_300)
 **Pool composition:** 12 sources contributing · 107 pseudo-samples in pool · 0 sample-level contributors
 **Bootstrap 95% CI: [18.01, 208.42] ppb**
 **Sensitivity: log-normal 71.02 · gamma 68.26 · nonparametric 68.99 ppb · spread 4% (stable)**
 
 
 
-**Defensibility.** Pooled P97 from 12 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+**Defensibility.** Pooled P97 from 12 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 300 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** The value is pooled P97 from 12 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 100 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 63 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
 **Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 12 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -150,10 +148,10 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
 | gunes2021-yalova-chestnut-honey-metals (2021) · TR | Chestnut Honey as a Complementary Medicine: Determination of… | honey, as-sold | 27 | lognormal_mean_max | 25.2% |
-| jackson2012-brown-rice-syrup-arsenic (2012) · US | Arsenic, Organic Foods, and Brown Rice Syrup | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
-| jackson2012-brown-rice-syrup-arsenic (2012) · US | Arsenic, Organic Foods, and Brown Rice Syrup | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
-| jackson2012-brown-rice-syrup-arsenic (2012) · US | Arsenic, Organic Foods, and Brown Rice Syrup | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
-| jackson2012-brown-rice-syrup-arsenic (2012) · US | Arsenic, Organic Foods, and Brown Rice Syrup | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
+| jackson2012-brown-rice-syrup-arsenic | jackson2012-brown-rice-syrup-arsenic | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
+| jackson2012-brown-rice-syrup-arsenic | jackson2012-brown-rice-syrup-arsenic | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
+| jackson2012-brown-rice-syrup-arsenic | jackson2012-brown-rice-syrup-arsenic | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
+| jackson2012-brown-rice-syrup-arsenic | jackson2012-brown-rice-syrup-arsenic | organic brown rice syrup, dry weight | 1 | lognormal_mean_only | 0.9% |
 | naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 10 | lognormal_mean_only | 9.3% |
 | naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 8 | lognormal_mean_only | 7.5% |
 | naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 8 | lognormal_mean_only | 7.5% |
@@ -166,12 +164,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Ni
 
-**Published HMTc threshold:** 1300 ppb [as-sold] · 1294.478 ppb (pre-rounding)
-**Cross-basis: ≈ 200 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 1200 ppb [as-sold] · 1294.478 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 3 sources contributing · 40 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [101.29, 1624.63] ppb**
+**Pool composition:** 3 sources contributing · 45 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [101.73, 1624.63] ppb**
 **Sensitivity: log-normal 1268.01 · gamma 1431.15 · nonparametric 1628.53 ppb · spread 22% (stable)**
 
 
@@ -182,7 +179,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Brand legal read.** The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 1300 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 1200 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
 **Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -200,70 +197,61 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### Cd
 
-**Published HMTc threshold:** 100 ppb [as-sold] · 87.798 ppb (pre-rounding)
-**Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 89 ppb [as-sold] · 89.532 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
-**Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 13 sources contributing · 137 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [32.03, 135.36] ppb**
-**Sensitivity: log-normal 77.85 · gamma 98.66 · nonparametric 119.87 ppb · spread 35% (provisional)**
+**Regulatory ceiling reference:** 100 ppb (py_decreto1335_2019_honey_cd_100)
+**Pool composition:** 14 sources contributing · 161 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [37.41, 135.85] ppb**
+**Sensitivity: log-normal 105.42 · gamma 79.69 · nonparametric 78.36 ppb · spread 26% (provisional)**
 
 
 
-**Defensibility.** Pooled P97 from 13 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+**Defensibility.** Pooled P97 from 14 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 100 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 <!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 13 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Brand legal read.** The value is pooled P97 from 14 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 100 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 89 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 13 contributing sources across multiple jurisdictions. Sensitivity band provisional.
+**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 14 contributing sources across multiple jurisdictions. Sensitivity band provisional.
 
 <details>
-<summary>Per-source contribution log (13 admitted)</summary>
+<summary>Per-source contribution log (14 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| abeslami2025-moroccan-honey-minerals (2025) · MA, EU | Mineral Profile and Heavy Metal Content of Seven Monofloral … | honey, as-sold | 7 | uniform_max_only | 5.1% |
-| aburas2023-libyan-honey-lead-cadmium (2023) · LY | Pollution assessment by estimation of Lead and Cadmium conce… | honey, as-sold | 5 | uniform_max_only | 3.6% |
-| aghamirlou2015-iranian-honey-metals (2015) · IR | Heavy metals determination in honey samples using inductivel… | honey, as-sold | 25 | lognormal_mean_max | 18.3% |
-| bektashi2021-honey-metals-sugars-balkans (2021) · MK, RS | Characterization of honey: determination of metal and sugar … | honey, as-sold | 5 | uniform_max_only | 3.6% |
-| gunes2021-yalova-chestnut-honey-metals (2021) · TR | Chestnut Honey as a Complementary Medicine: Determination of… | honey, as-sold | 27 | lognormal_mean_max | 19.7% |
-| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 10 | lognormal_mean_only | 7.3% |
-| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 8 | lognormal_mean_only | 5.8% |
-| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 8 | lognormal_mean_only | 5.8% |
-| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 6 | lognormal_mean_only | 4.4% |
-| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 6 | lognormal_mean_only | 4.4% |
-| salama2019-libya-honey-metals (2019) · LY | Determination of Physicochemical Properties and Toxic Heavy … | honey, as-sold | 24 | uniform_max_only | 7.3% |
-| shukla2020-honey-prayagraj-metals (2020) · IN | Melissopalynological and physicochemical analysis of honey s… | honey, as-sold | 14 | uniform_max_only | 7.3% |
-| tomczyk2020-polish-honey-metal-transfer (2020) · PL | Transfer of some toxic metals from soil to honey depending o… | honey, as-sold | 50 | uniform_max_only | 7.3% |
+| salama2019-libya-honey-metals (2019) · LY | Determination of Physicochemical Properties and Toxic Heavy … | unknown | 24 | lognormal_mean_only | 14.9% |
+| abeslami2025-moroccan-honey-minerals (2025) · MA, EU | Mineral Profile and Heavy Metal Content of Seven Monofloral … | honey, as-sold | 7 | uniform_max_only | 4.3% |
+| aburas2023-libyan-honey-lead-cadmium (2023) · LY | Pollution assessment by estimation of Lead and Cadmium conce… | honey, as-sold | 5 | uniform_max_only | 3.1% |
+| aghamirlou2015-iranian-honey-metals (2015) · IR | Heavy metals determination in honey samples using inductivel… | honey, as-sold | 25 | lognormal_mean_max | 15.5% |
+| bektashi2021-honey-metals-sugars-balkans (2021) · MK, RS | Characterization of honey: determination of metal and sugar … | honey, as-sold | 5 | uniform_max_only | 3.1% |
+| gunes2021-yalova-chestnut-honey-metals (2021) · TR | Chestnut Honey as a Complementary Medicine: Determination of… | honey, as-sold | 27 | lognormal_mean_max | 16.8% |
+| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 10 | lognormal_mean_only | 6.2% |
+| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 8 | lognormal_mean_only | 5.0% |
+| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 8 | lognormal_mean_only | 5.0% |
+| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 6 | lognormal_mean_only | 3.7% |
+| naccari2025-honey-toxic-metals-microelements (2025) · IT | Study of Toxic Metals and Microelements in Honey as a Tool t… | honey, as-sold | 6 | lognormal_mean_only | 3.7% |
+| salama2019-libya-honey-metals (2019) · LY | Determination of Physicochemical Properties and Toxic Heavy … | honey, as-sold | 24 | uniform_max_only | 6.2% |
+| shukla2020-honey-prayagraj-metals (2020) · IN | Melissopalynological and physicochemical analysis of honey s… | honey, as-sold | 14 | uniform_max_only | 6.2% |
+| tomczyk2020-polish-honey-metal-transfer (2020) · PL | Transfer of some toxic metals from soil to honey depending o… | honey, as-sold | 50 | uniform_max_only | 6.2% |
 
 </details>
 
 ### Al
 
-**Published HMTc threshold:** 10000 ppb [as-sold] · 139113.117 ppb (pre-rounding)
-**Cross-basis: ≈ 10000 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** **not material** — Aluminium in honey reflects environmental/processing residue (soil and forage uptake, extraction/handling equipment); the pooled P97 (~152 mg/kg, n=53) is a small-pool tail of ubiquitous mineral content, not a contaminant signal
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 4 sources contributing · 50 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [5381.59, 263063.49] ppb**
-**Sensitivity: log-normal 104410.91 · gamma 188360.35 · nonparametric 93038.75 ppb · spread 51% (needs_review)**
+**Pool composition:** 4 sources contributing · 53 pseudo-samples in pool · 0 sample-level contributors
 
 
 
-**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
-<!-- audience: brand-legal -->
-**Brand legal read.** The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+**Defensibility.** Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
-<!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 10000 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
-<!-- audience: regulator -->
-**Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band needs_review.
 
 <details>
 <summary>Per-source contribution log (4 admitted)</summary>
@@ -279,13 +267,12 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 ### tHg
 
-**Published HMTc threshold:** 100 ppb [as-sold] · 74.738 ppb (pre-rounding)
-**Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))**
+**Published HMTc threshold:** 74 ppb [as-sold] · 74.738 ppb (pre-rounding)
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
-**Pool composition:** 2 sources contributing · 20 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [10.46, 98.37] ppb**
-**Sensitivity: log-normal 84.92 · gamma 95.00 · nonparametric 76.93 ppb · spread 19% (stable)**
+**Pool composition:** 2 sources contributing · 37 pseudo-samples in pool · 0 sample-level contributors
+**Bootstrap 95% CI: [31.58, 98.37] ppb**
+**Sensitivity: log-normal 84.72 · gamma 95.00 · nonparametric 76.93 ppb · spread 19% (stable)**
 
 
 
@@ -295,7 +282,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Brand legal read.** The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 <!-- audience: retailer-compliance -->
-**Retailer compliance read.** A certified product tests at or below 100 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+**Retailer compliance read.** A certified product tests at or below 74 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
 **Regulator read.** Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -325,11 +312,14 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 **Attack 3: "Why is your dirty subcategory P45 instead of P10?"**
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver <1% joint row-pass and the program would have no commercial uptake on the dirty side.
 
+**Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."**
+Response: For Pb, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification — a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
+
 **Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."**
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Cd) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 2 analytes (Cd, Al) are flagged provisional — log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative — silently picking one parametric form — would be the actual methodological flaw.
 
 **Attack 7: "Where does basis conversion happen and what authority do you cite?"**
-Response: The 1:7 powder ↔ prepared-for-feeding conversion is the conservative reconstitution ratio (1 g powder + 6 g water = 7 g prepared) standard across infant-formula regulatory frameworks (FDA Closer-to-Zero, EU 2023/915). Within-class conversions (as_sold ↔ dry_as_sold) pass through with factor 1. Every basis conversion is logged per source in the contribution log; unknown-conversion cases are flagged and not silently coerced.
+Response: Published thresholds for this category are in the as-sold edible basis (edible muscle or tissue). As-sold product is not reconstituted from a powder, so no fixed reconstitution ratio is applied and the published value is the as-sold value. Where a source reports in a different basis, the conversion factor is documented per source in the contribution log, and conversions of unknown factor are flagged rather than silently coerced. There is no powder-to-prepared dilution step a brand could exploit to claim compliance in a more favorable basis.
 
 **Attack 8: "Show me one source you excluded."**
 Response: No source contributing a usable statistic is excluded. Sources marked "no_usable_statistic" in the contribution log are LOD-censored entries with neither mean nor lb/ub recorded. Sources without a structured CSV row are documented in the routing audit and the gap report; those are extraction gaps, not exclusions, and they are tracked in Phase 1 backlog with target completion timelines.
@@ -344,7 +334,7 @@ Per the hmtc-standards skill rule #6, every Standards Briefing publishes the ant
 
 **Move 2 — Row-level certification.** A brand certifies a product (one row, ten analytes simultaneously), not one analyte. The single-analyte attack "you let 70% of brands pass on Pb individually" misses the joint test. Per-analyte P97 delivers ~90% row-pass; the joint discipline is the certification.
 
-**Move 3 — Native basis discipline.** The standard is published in the product's native basis. Brands cannot reconstitute their powder, test the prepared form, then claim "we meet the standard in prepared basis" against a powder cap. Each row tests in its native form; cross-basis conversions are documented but never substitute.
+**Move 3 — Native basis discipline.** The standard is published in the product's native as-sold basis (edible muscle or tissue). Brands cannot test a diluted, drained, or otherwise differently-prepared form and claim compliance against the as-sold cap. Each row tests in its native as-sold form; any documented basis conversion is for source pooling only, never a substitute for testing in the certified basis.
 
 **Move 4 — Regulatory ceiling absolute.** The final HMTc value never exceeds the lowest applicable loaded regulatory cap. Brands cannot game an "HMTc-only" framing — the regulatory cap is the absolute floor on the HMTc limit, regardless of where the pooled literature value falls.
 
@@ -362,15 +352,15 @@ Per the hmtc-standards skill, every Standards Briefing must pass nine pre-public
 |---|---|---|
 | 1 | All HMTc-10 analytes have a row in the Master Limit Table | ✗ FAIL (6 of 10) |
 | 2 | Every published value has a rationale tag from the allowed vocabulary | ✓ PASS |
-| 3 | Every published value is on the primary increment ladder | ✓ PASS |
+| 3 | Every published value rounds toward the evidence (≤ the precise candidate; never loosened) | ✓ PASS |
 | 4 | No HMTc value exceeds the lowest applicable regulatory cap | ✓ PASS |
-| 5 | Every basis-tagged value carries the cross-basis equivalent | ✓ PASS |
+| 5 | Every basis-tagged value carries the cross-basis equivalent | ⚠ partial (non-formula rows may have no defined cross-basis) |
 | 6 | The six-move anti-circumvention argument is present | ✓ PASS |
 | 7 | Every contributing source has a source page in `wiki/sources/` | (verified at generation time) |
 | 8 | Human sign-off by Karen + co-authors | ⚠ PENDING (this is the draft) |
 | 9 | Provenance footer carries the git commit and engine version | ✓ PASS (see footer) |
 
-**Gates 4 + 5 caveat — provisional sensitivity:** 1 analytes (Cd) carry provisional sensitivity bands. The published values are valid under the lognormal headline assumption but the gamma and nonparametric variants disagree by >25%. These should be resolved (deeper extraction, basis audit, outlier review) before the final publication run.
+**Gates 4 + 5 caveat — provisional sensitivity:** 2 analytes (Cd, Al) carry provisional sensitivity bands. The published values are valid under the lognormal headline assumption but the gamma and nonparametric variants disagree by >25%. These should be resolved (deeper extraction, basis audit, outlier review) before the final publication run.
 
 
 
@@ -387,7 +377,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | `aghamirlou2015-iranian-honey-metals` (A) | Heavy metals determination in honey samples using inductively coupled plasma-optical emission spectrometry | Aghamirlou HM; Khadem M; Rahmani A; Sadeghian M; Mahvi AH; Akbarzadeh A; Nazmara S · 2015 · Journal of Environmental Health Science & Engineering · doi:10.1186/s40201-015-0189-8 |
 | `bektashi2021-honey-metals-sugars-balkans` (A) | Characterization of honey: determination of metal and sugar content | Limani Bektashi N; Abazi D; Popovska O; Latifi A; Reka AA · 2021 · Journal of Agricultural, Food and Environmental Sciences · doi:10.55302/JAFES21752037lb |
 | `gunes2021-yalova-chestnut-honey-metals` (A) | Chestnut Honey as a Complementary Medicine: Determination of Antibacterial Activity, Heavy Metal Residue and Health Risk Assessment | Gunes ME · 2021 · Journal of Advances in VetBio Science and Techniques · doi:10.31797/vetbio.931144 |
-| `jackson2012-brown-rice-syrup-arsenic` (A) | Arsenic, Organic Foods, and Brown Rice Syrup | Jackson BP; Taylor VF; Karagas MR; Punshon T; Cottingham KL · 2012 · Environmental Health Perspectives 120(5):623–626 · doi:10.1289/ehp.1104619 |
+| `jackson2012-brown-rice-syrup-arsenic` | jackson2012-brown-rice-syrup-arsenic |  |
 | `naccari2025-honey-toxic-metals-microelements` (A) | Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety | Naccari C; Ferrantelli V; Cammilleri G; Barbaccia G; Riolo P; Ferrante MC; Procopio A; Palma E · 2025 · Foods 2025, 14, 1986 · doi:10.3390/foods14111986 |
 | `salama2019-libya-honey-metals` (A) | Determination of Physicochemical Properties and Toxic Heavy Metals Levels in Honey Samples from West of Libya | Salama AS; Etorki AM; Awad MH · 2019 · Journal of Advanced Chemical Sciences · doi:10.30799/jacs.207.19050104 |
 | `shukla2020-honey-prayagraj-metals` (A) | Melissopalynological and physicochemical analysis of honey samples from Prayagraj District, Uttar Pradesh | Shukla V; Kumar A · 2020 · Acta Palaeobotanica · doi:10.35535/acpa-2020-0004 |
@@ -411,23 +401,23 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `9893e9eff63d3b5b23423844722f9bbcfe271a48` in the heavymetalindex.com repository.
+1. Checking out commit `31952756b6b6f33ec7ecd3ea21f83e4aaad04f06` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=honey` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-06-16T12:13:01.720Z |
+| Generated at | 2026-08-10T09:36:41.665Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `9893e9eff63d3b5b23423844722f9bbcfe271a48` |
-| Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
+| Git commit | `31952756b6b6f33ec7ecd3ea21f83e4aaad04f06` |
+| Author | Karen Pendergrass, Standards Architect, Institute of Contaminant Standards (ICS) |
 | Status | Draft for stakeholder review |
 
 ### Disclosure: organizational role
 
-Karen Pendergrass also serves as CEO of the Paleo Foundation, which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title.
+Karen Pendergrass also serves as CEO of the Institute of Contaminant Standards (ICS), which operates the HMT&C certification program. This dual role is disclosed for transparency; the methodology in this briefing is reproducible from the open-source pooling engine and source data, independent of the author's organizational title.
 
 ### Methodology implementation note
 

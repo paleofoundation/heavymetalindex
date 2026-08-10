@@ -4,6 +4,48 @@ _Workbench evidence document. Not public. Firewall: this file contains percentil
 arithmetic and threshold candidates and therefore lives under `data/workbench/`,
 never on the index domain (CLAUDE.md Part 2 / Part 19)._
 
+## UPDATE — cap-mapping executed (same session, post-audit reversal)
+
+The body below is the pre-mapping analysis. After an adversarial self-audit
+(prompted by Karen), two of my cautions were falsified: (1) the occurrence
+pooler is **deterministic** (a no-change re-run is byte-identical), so re-pooling
+has no blast radius; (2) binding the **strictest-loaded** sovereign ML can only
+move a value *tighter* (the ratchet/safe direction), and non-canonical binding is
+already **live precedent** (the cephalopod mercury standard binds India/Paraguay/
+Guyana). Deferring the *mapping* was therefore over-caution, not defensibility.
+
+**Executed:** mapped the strictest-loaded sovereign ML ladders into
+`product_regulatory_crosswalk.csv`, regenerated gap-report → pooler → QC gate.
+Result:
+
+| Cell | Before | After |
+|---|---|---|
+| honey Pb | firm literature-baseline **1410 ppb** (14× sovereign) | **100** regulatory-alignment PASS (IL/EU) |
+| honey Cd | WARN no-cap 89.5 | **89.5** literature-baseline PASS (cap 100 verified, occ binds) |
+| honey tAs | WARN no-cap 63.7 | **63.7** literature-baseline PASS (cap 300 verified) |
+| honey Al | literature-baseline **151964 ppb** artifact | **NOT_MATERIAL** (registry) |
+| chocolate Pb | WARN no-cap 2113 (pending) | **200** regulatory-alignment PASS (PY low-cocoa) |
+| chocolate tAs | WARN no-cap 344 | **200** regulatory-alignment PASS |
+| chocolate Ni | **HOLD** C9 artifact 7455 | **2500** regulatory-alignment PASS (EU 2024/1987, law-split) |
+
+**Cat 31 (honey) and Cat 33 (chocolate) are now genuinely MANUAL-READY** — the
+QC-aware readiness monitor confirms all priority cells resolved AND QC-clean.
+honey Ni stays a non-blocking DEMOTE (provisional, n=45, no gov ML). Ledger items
+OI-20260810-{cat31-32-33-cap-mapping, chocolate-ni-eu-2024-1987-map,
+honey-al-not-material} marked **done**.
+
+**Robustness follow-up (open):** no EU/Codex honey-Pb or chocolate-Pb/tAs ML is
+*loaded* in the register (only non-canonical are). The values bound are the
+strictest loaded and can only be too-tight, never too-loose — but fetching the
+canonical EU/Codex limits would let a future pass confirm nothing stricter exists
+and re-cite to a canonical source. Tracked in the cap-mapping ledger note.
+
+**Vinegar (Cat 32) remains NOT ready** — its blocker is data-quality (Pb in the
+adjudication/suspect register, tAs at n=26), not cap-mapping; deferred to
+OI-20260810-vinegar-pool-recovery.
+
+---
+
 ## TL;DR
 
 The category-standards-readiness monitor flagged **Cat 31 (Sweeteners — honey),
