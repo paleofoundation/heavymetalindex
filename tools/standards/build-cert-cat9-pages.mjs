@@ -16,8 +16,24 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { execFileSync } from "node:child_process"
 
 const REPO = process.cwd()
+
+// PUBLICATION GATE (invariant-first): a standard page may not be published while any of its
+// not-material cells is contradicted by a source routed to the row. This makes the diaper-class
+// error — shipping "Sn not material" while a routed paper measured tin — impossible to generate,
+// rather than something an after-the-fact audit hopes to catch. The check is the single source of
+// truth (tools/evidence/audit-not-material-integrity.mjs); the generator refuses to emit on a
+// non-zero exit. Run before writing each page.
+function gateOrThrow(slug) {
+  try {
+    execFileSync("node", ["tools/evidence/audit-not-material-integrity.mjs", `--row=${slug}`], { cwd: REPO, stdio: "pipe" })
+  } catch (e) {
+    const out = (e.stdout ? e.stdout.toString() : "") + (e.stderr ? e.stderr.toString() : "")
+    throw new Error(`PUBLICATION BLOCKED for ${slug}: a not-material cell is contradicted by routed evidence. Re-adjudicate before publishing.\n${out}`)
+  }
+}
 const CERT = path.join(process.env.HOME, "Desktop/heavymetalcertified")
 const OUT = path.join(CERT, "content/standards")
 const CDIR = path.join(REPO, "data/workbench/standards/cat9-compiled")
@@ -273,6 +289,7 @@ const only = (process.argv.find((a) => a.startsWith("--only=")) || "").split("="
 const files = fs.readdirSync(CDIR).filter((f) => f.endsWith(".json")).filter((f) => !only || only.split(",").includes(f.replace(/\.json$/, "")))
 for (const f of files) {
   const rec = JSON.parse(fs.readFileSync(path.join(CDIR, f), "utf8"))
+  gateOrThrow(rec.slug) // refuse to publish a page whose not-material cell is contradicted by routed evidence
   const out = path.join(OUT, `${rec.slug}.md`)
   fs.writeFileSync(out, page(rec), "utf8")
   const firm = PANEL.filter((a) => rec.cells[a] && rec.cells[a].type !== "not_material").length

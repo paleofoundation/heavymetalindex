@@ -69,6 +69,19 @@ function contradicts(nmAnalyte, sourceMetal) {
 const nm = parseCsv(fs.readFileSync(path.join(REPO, "data/evidence/standards-not-material.csv"), "utf8"))
   .filter((r) => !rowFilter || r.row_slug === rowFilter)
 
+// Adjudication register: a contradiction that has been reviewed against the source and found to HOLD
+// (verdict KEEP_CITE — the source measured the analyte but it is trace/artifact/non-partition/natural,
+// consistent with the determination) is resolved and no longer flags; the review is the record that the
+// determination is evidence-tested, not asserted. RETIRE verdicts remove the cell from not-material.csv
+// (so it stops being a not-material cell); JUDGMENT verdicts stay flagged for human decision.
+const adjPath = path.join(REPO, "data/evidence/standards-not-material-adjudication.csv")
+const adjudicated = new Set()
+if (fs.existsSync(adjPath)) {
+  for (const r of parseCsv(fs.readFileSync(adjPath, "utf8"))) {
+    if ((r.verdict || "").trim().toUpperCase() === "KEEP_CITE") adjudicated.add(`${r.row_slug}|${r.metal_species}|${r.source}`)
+  }
+}
+
 // Index sources by product routed to, capturing their measured metals.
 const srcDir = path.join(WIKI, "sources")
 const sources = []
@@ -85,7 +98,9 @@ for (const cell of nm) {
   for (const src of sources) {
     if (!src.products.includes(row)) continue
     const hit = src.metals.find((m) => contradicts(analyte, m))
-    if (hit) flags.push({ row, analyte, source: src.slug, reported: hit, all_metals: src.metals.join(",") })
+    if (hit && !adjudicated.has(`${row}|${analyte}|${src.slug}`)) {
+      flags.push({ row, analyte, source: src.slug, reported: hit, all_metals: src.metals.join(",") })
+    }
   }
 }
 
