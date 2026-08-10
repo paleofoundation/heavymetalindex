@@ -131,9 +131,26 @@ export default (() => {
             Part 1/Part 2: attribution for who runs the Index, NOT an HMT&C
             endorsement, and it names no certified brand. The footer is where a
             reader looks for provenance; the masthead is for navigation.
+
+            The operator link points at the parent institution
+            (contaminantstandards.com), framed strictly as who-operates-this —
+            NEVER the certification program. It is dofollow and rel="noopener"
+            (not noreferrer) so the index→operator authority/referral signal
+            reaches the parent. Do not repoint this at the certification
+            program's domain: an index→cert link is the one forbidden
+            cross-property direction.
           */}
           <p class="site-footer-operator">
-            Operated by the Institute of Contaminant Standards.
+            Operated by the{" "}
+            <a
+              href="https://contaminantstandards.com"
+              target="_blank"
+              rel="noopener"
+              title="Institute of Contaminant Standards — operator of the Heavy Metal Index"
+            >
+              Institute of Contaminant Standards
+            </a>
+            .
           </p>
           <p>© {year} Paleo Certified, Inc. Heavy Metal Index is a public reference project.</p>
           <p>Reference only. Not medical, legal, regulatory, or product-certification advice.</p>

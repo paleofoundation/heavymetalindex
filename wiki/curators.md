@@ -92,7 +92,7 @@ The current composition is in the page frontmatter under `external_reviewers:`. 
 
 ## Conflicts of interest, principal disclosure
 
-The Institute of Contaminant Standards (ICS) operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
+The [Institute of Contaminant Standards (ICS)](https://contaminantstandards.com) operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
 
 The firewall, as documented in [[editorial-standards|editorial-standards.md]] and:
 
