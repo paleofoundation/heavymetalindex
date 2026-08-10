@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/us-nv/nevada-cannabis-heavy-metal-action-levels-2020.pdf
+library_files: ["Nevada_NCCR_2020_Heavy_Metals.pdf"]
 raw_sha256: "f15b67d37918095bb23cc3b56731917ae439d514070f8246d618161950d26263"
 access_url: null
 metals: [tAs, Cd, Pb, tHg]

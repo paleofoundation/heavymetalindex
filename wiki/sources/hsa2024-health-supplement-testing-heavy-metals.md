@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/sg/singapore-hsa-health-supplement-heavy-metal-limits-2024.pdf
+library_files: ["Singapore_HSA_Health_Supplements_Testing_Guidelines.pdf"]
 raw_sha256: "194e05dfac51e5ee91cf12ebf18597501cf1070901f19559ca5ae47703deb82a"
 access_url: null
 metals: [tAs, Cd, Pb, tHg]

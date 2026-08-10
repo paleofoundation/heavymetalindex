@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/us-ma/massachusetts-cannabis-heavy-metal-protocol-2020.pdf
+library_files: ["USA_MA_CCC_Cannabis_Testing_Protocol_Heavy_Metals.pdf"]
 raw_sha256: "62e077e04e1cc24d83cd010d1d2247f08de0eb3392281193e7efc4432c468f35"
 access_url: null
 metals: [Pb, tAs, Cd, tHg]

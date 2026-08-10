@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/us-co/colorado-marijuana-heavy-metal-limits-2022.pdf
+library_files: ["Colorado_MED_Rules_1_CCR_212-3_2022_Heavy_Metals.pdf"]
 raw_sha256: "98c5270588f05ccec5d252444cd3acdae6735456f780548cb3322b0cef9b2a15"
 access_url: null
 metals: [Pb, tAs, Cd, tHg]

@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/ca/canada-natural-health-products-heavy-metal-limits-2015.pdf
+library_files: ["Canada_Health_Canada_Quality_Natural_Health_Products_Guide.pdf"]
 raw_sha256: "9b5870dce661ba8f88e10d97b69685cc13a43d7bc4bde68d98332c2432ee3836"
 access_url: null
 metals: [tAs, Cd, Pb, tHg, Sb, MeHg]

@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/asean/asean-health-supplement-contaminant-limits-2017.pdf
+library_files: ["ASEAN_Guidelines_Limits_Contaminants_Health_Supplements_2017.pdf"]
 raw_sha256: "b6152a0dbac9ff4b96984f3852f6219884f73e41d79c60af864c6a2795cecbc7"
 access_url: null
 metals: [Pb, tAs, tHg, Cd]

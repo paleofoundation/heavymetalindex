@@ -11,6 +11,7 @@ source_type: government-regulation
 evidence_tier: A
 license: public-law
 raw_path: raw/regulatory/us-md/maryland-cannabis-heavy-metal-action-limits-2025.pdf
+library_files: ["Maryland_MCA_Technical_Authority_Rev_6_2025.pdf"]
 raw_sha256: "c5dc395fb1c0333f4431e1ae4ea0a920cb664c998726db211126bb3b755fe539"
 access_url: null
 metals: [Pb, tAs, tHg, Cd, Cr-total]
