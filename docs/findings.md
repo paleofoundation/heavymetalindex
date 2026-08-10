@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-37 open item(s): 14 auto, 23 awaiting a decision.
+39 open item(s): 14 auto, 25 awaiting a decision.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
@@ -523,6 +523,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: vinegar Pb adjudication-register hold resolved (documented why the Pb pool was suspect); vinegar tAs occurrence pool grown past the beyond-sample n floor OR the row published provisional with an honest label; cap decision made for the Vietnam MLs (counsel: bind or exclude as non-target-market)
 - decision: _pending_
 - notes: Weakest of the Cat 31/32/33 trio; needs evidence recovery, not just cap-mapping. Later tranche.
+
+### OI-20260810-seafood-sn-organotin — Seafood Sn not-material is the diaper-Sn error class — organotin bioaccumulates in molluscs/cephalopods (ho2016)
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `tools/standards/seafood-config.json`
+- repro: seafood-config asserts Sn not_material for shellfish, cephalopods, fish-freshwater, fish-marine-non-predatory, fish-marine-predatory, seaweed-kelp-foods, plus MeHg not_material for seaweed. These 7 bypass the gated standards-not-material.csv (corpus reconciler COVERAGE_GAP). Inorganic-Sn has no seafood source (correct), BUT ho2016 (already in corpus) measured ORGANOTIN (TPT/TBT) in marine gastropod tissue at 24-1039 ug Sn/kg ww — organotin bioaccumulates in bivalves/cephalopods from antifouling paint, the SAME error class as diaper Sn (smajgl2015). Bare Sn not_material conflates inorganic tin (no source) with organotin (a real marine pathway). seaweed MeHg also needs speciation verification (parent tHg + whether algae carry MeHg vs inorganic Hg).
+- done when: seafood Sn: inorganic-Sn not-material PAIRED with an organotin screen (REACH-style / EFSA organotin TDI) on molluscs/cephalopods, per the diaper-Sn precedent (cat9-config); seaweed MeHg substantiated (speciation-bounded parent, or no-bioaccumulation basis) with routed-source acknowledgement; all 7 mirrored into the gated standards-not-material.csv with basis_class so the corpus reconciler reaches zero and flips blocking
+- decision: _pending_
 
 ### OI-20260810-olive-oil-tas-repool — Re-pool olive-oil tAs (exclude luka2019, map Codex As-oil cap) to a firm ~12-20 ug/kg standard
 
@@ -539,12 +547,12 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: b5094ce39 not-material hardening reaches origin/main without losing the Cat-3 (origin) or Cat-9 (local) work; standards-not-material.csv union-merged: Cat-3 grain rows + this session new-schema rows both present; audit-not-material-substantiation.mjs blocking in prebuild survives; no history surgery / no reset --hard
 - decision: _pending_
 
-### OI-20260810-not-material-integrity-backlog — 91 not-material cells contradicted by routed evidence — program-wide re-adjudication
+### OI-20260810-not-material-integrity-backlog — 51 not-material cells contradicted by routed evidence — program-wide re-adjudication (drain in progress)
 
 - scope: **human-gated** · type: audit · status: open · repo: index
-- paths: `data/evidence/standards-not-material.csv`, `tools/evidence/audit-not-material-integrity.mjs`
-- repro: New check tools/evidence/audit-not-material-integrity.mjs (wired into prebuild --warn-only) finds 91 (row,analyte) not-material determinations across the corpus where a source ROUTED to the row reports that analyte was measured. Cat-9 diaper Sn+Ni already re-adjudicated to real limits (organotin REACH entry 20; nickel release 94/27). The rest span olive-oil (tAs/Cd/tHg), cooking-oils, infant-formula-powder-non-soy (Cr-VI, 5 sources incl soares2000/hernandez2019/saraiva2021), and ~85 more. Each needs per-cell adjudication: retire to a real limit/screen if material, or keep with the contradicting source cited as verified trace/artifact. Flip the prebuild check to build-blocking once the backlog reaches zero.
-- done when: each of the 91 flagged cells adjudicated: retired to a limit/screen OR kept with the contradicting source cited; audit-not-material-integrity.mjs prebuild step flipped from --warn-only to build-blocking at zero backlog
+- paths: `data/evidence/standards-not-material.csv`, `data/evidence/standards-not-material-adjudication.csv`, `tools/evidence/audit-not-material-integrity.mjs`
+- repro: audit-not-material-integrity.mjs (prebuild --warn-only; also a hard publication gate in the cert generators) finds 51 (row,analyte) not-material determinations contradicted by a routed source that measured the analyte: olive-oil 21, infant-formula-powder-non-soy 9 (Cr-VI), spices 7, cooking-oils-other 7, honey 5, chocolate 2. Cat-9 diaper Sn+Ni already re-adjudicated to real limits. Being drained now via evidence-read adjudication into standards-not-material-adjudication.csv: KEEP_CITE (determination holds, source cited as evidence-tested), RETIRE (material -> real limit), or NEEDS_JUDGMENT (surfaced).
+- done when: each of the 51 adjudicated in standards-not-material-adjudication.csv with a verdict and the source finding; RETIRE verdicts retired to a real limit/screen; KEEP_CITE recorded; NEEDS_JUDGMENT surfaced to Karen; audit-not-material-integrity.mjs prebuild step flipped to build-blocking once the queue is empty
 - decision: _pending_
 
 ### OI-20260810-honey-manual-build — Build the Cat 31 (honey) Program Manual — now unblocked and QC-clean
@@ -579,6 +587,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: On Karen go, fast-forward feat/program-ratchet-page into main via a CLEAN isolated worktree off origin/main (leaves the dirty feat/big-8-pillar tree untouched), then push main to trigger the prod deploy; Live https://heavymetaltested.com/program/ratchet renders (snapshot rail, 3 sections, no unstyled fallback); Footer Methodology column shows The standards ratchet linking to /program/ratchet with no 404; Cert prebuild lint (design-lint + method-drift + firewall) passes on the deploy
 - decision: _pending_
 
+### OI-20260810-cert-h2-rule-triplication — Three competing h2 definitions in cert SCSS resolve by specificity luck, not intent
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `quartz/styles/custom.scss`, `quartz/styles/proof-design.scss`, `quartz/styles/cert-chrome.scss`
+- repro: custom.scss @use's proof-design.scss (.wiki-content h2 = 24px dotted, margin 42px/14px) and cert-chrome.scss (.proof:not(.proof-home) .wiki-content h2 = canon 30px solid, pb10/mb20), and itself defines bare `article h2` (24px, no rule, 2rem/0.75rem). Interior article pages render the canon only because .proof:not(.proof-home) .wiki-content h2 out-specifies the others (0,3,1). If the .wiki-content/.proof wrapper is ever dropped, section headings silently change size, border, and spacing site-wide.
+- done when: Section-heading h2 has exactly one authoritative rule matching the approved v3 proof (30px Lora, 1px solid #e8e1db, pb10, mb20); Dead/overridden h2 rules in proof-design.scss and custom.scss article h2 are removed or explicitly scoped so they cannot win on any surface; Home (.proof-home) and non-.wiki-content surfaces verified unchanged after consolidation
+- decision: _pending_
+
 ### OI-20260810-cat9-regulatory-refinements — Cat-9 contact-products: three deferred regulatory refinements
 
 - scope: **human-gated** · type: audit · status: open · repo: index
@@ -610,12 +626,12 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Regenerate the cert hmtc_standards_catalog.json snapshot from the index repo build-standards-catalog.mjs so all 12 Cat-3 subcats have catalog rows; All 12 Cat-3 subcats appear in the /standards index; build-standards-pages.mjs supersedes the 12 with the custom pages
 - decision: _pending_
 
-### OI-20260810-cat1-cat6-notmaterial-registry — Bring the 17 Cat-1/Cat-6 compiled not-material cells into standards-not-material.csv under the hardened gate
+### OI-20260810-cat1-cat6-notmaterial-registry — PARTIAL: 10 Cr-VI baby-food cells now gated; 7 seafood cells → OI-seafood-sn-organotin
 
 - scope: **human-gated** · type: audit · status: open · repo: index
-- paths: `data/workbench/standards/cat1-compiled`, `data/evidence/standards-not-material.csv`
-- repro: The Cat-1/Cat-6 compiled JSONs carry 17 not-material cells (Cr-VI method-artifact x10 across baby-cereals/purees/juice/mixed-meals/teething; Sn packaging-control x6 across cephalopods/fish/seaweed/shellfish; MeHg speciation x1 seaweed) with EMPTY rationale fields, rendered on live cert as "not material — controlled analyte". The classes are legitimate (reflex speciation / method-artifact / packaging) but the substantiation is not recorded in the registry and they bypass the new not-material substantiation gate.
-- done when: each of the 17 cells added to standards-not-material.csv with basis_class + cross-sourced rationale (Cr-VI=method-artifact per hernandez2019/saraiva2021; Sn=no-migration-pathway packaging; MeHg=speciation-bounded); audit-not-material-substantiation.mjs passes all 17; compile-cat1/cat6 read the registry so cert renders the substantiated rationale
+- paths: `data/evidence/standards-not-material.csv`
+- repro: Of the 17 config-only not-material cells the corpus reconciler (audit-not-material-corpus.mjs) found bypassing the gate: the 10 cat1-config Cr-VI baby-food cells are now mirrored into the gated standards-not-material.csv as method-artifact (hernandez2019+saraiva2021 reference-method non-detection) and pass the substantiation audit. The 7 seafood-config cells (Sn x6 + seaweed MeHg) are NOT rubber-stamped — ho2016 shows organotin bioaccumulation in molluscs, the diaper-Sn error class; tracked by OI-20260810-seafood-sn-organotin. Corpus reconciler is warn-only in prebuild until those 7 resolve, then flips blocking.
+- done when: 10 Cr-VI cells gated (DONE); 7 seafood cells resolved per OI-20260810-seafood-sn-organotin; audit-not-material-corpus.mjs reaches 0 gaps and flips to blocking
 - decision: _pending_
 
 ### OI-20260810-cap-proposal-tool-occurrence-blindspot — build-cap-mapping-proposals.mjs is blind to occurrence-bearing toxic cells with no mapped cap (the honey-Pb too-loose class)

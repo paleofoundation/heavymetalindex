@@ -156,7 +156,8 @@ function parentPublished(slug, parentMetal) {
 }
 // over-generic slug tokens that match almost any free-text scope and cause food/contact confusion
 const STOP_KW = new Set(["other", "child", "sized", "based", "foods", "food", "items", "products",
-  "product", "general", "child-sized", "components", "toddler", "infant", "and"])
+  "product", "general", "child-sized", "components", "toddler", "infant", "and", "containing",
+  "single", "ingredient", "meals", "mixed", "snacks", "dry"])
 // scope keywords that mark a CONTACT/migration/textile instrument vs a food-occurrence ML
 const CONTACT_SCOPE = /\b(toy|migration|food.?contact|tableware|drinkware|utensil|soother|pacifier|teeth|nipple|teat|textile|clothing|footwear|article|childcare|scraped|coating)\b/i
 const FOOD_SCOPE = /\b(formulae?|rice|cereal|baby food|juice|canned|fish|cephalopod|crustacea|mollusc|meat|vegetable|fruit|honey|spice|salt|beverage|milk|grain)\b/i
