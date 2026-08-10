@@ -1,0 +1,44 @@
+---
+type: regulation
+rule_id: singapore-hsa-health-supplement-heavy-metal-limits-2024
+jurisdiction: SG
+agency: "Singapore Health Sciences Authority"
+metal: [tAs, Cd, Pb, tHg]
+matrix: [health-supplements, traditional-medicines]
+limit_value: multiple
+limit_unit: "parts per million"
+status: active
+effective_date: 2024-11-01
+sunset_date: null
+source_refs: ["[[sources/hsa2024-health-supplement-testing-heavy-metals]]"]
+updated: 2026-08-10
+audience: [regulator, educator, commercial, app, legal]
+---
+
+# Singapore HSA health supplement heavy-metal testing limits
+
+## Scope
+The guideline applies to health supplements, traditional medicines, medicated oils and balms, and medicated plasters covered by HSA testing requirements.
+
+## Exact limit and units
+| Metal | Matrix | Limit | Unit | Basis |
+| --- | --- | ---: | --- | --- |
+| Arsenic | HS, TM, MOB and medicated plasters | 5 | parts per million | By weight |
+| Cadmium | HS, TM, MOB and medicated plasters | 0.3 | parts per million | By weight |
+| Lead | HS, TM, MOB and medicated plasters | 10 | parts per million | By weight |
+| Mercury | HS, TM, MOB and medicated plasters | 0.5 | parts per million | By weight |
+
+## How tested
+The guideline says heavy metals testing should be conducted on finished products and that test reports should state quantitative results and limits of detection.
+
+## Enforcement posture
+The guideline is HSA compliance guidance for dealers and sellers. It is loaded as a guidance impurity limit because it gives product testing limits rather than a general food maximum level.
+
+## History of changes
+The version extracted is dated November 2024 and notes added diethylene glycol and ethylene glycol limits in that revision.
+
+## How it compares
+The Singapore HSA values match the generic ASEAN health-supplement values for arsenic, cadmium, lead, and mercury.
+
+## Sources
+- [[sources/hsa2024-health-supplement-testing-heavy-metals]]

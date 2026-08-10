@@ -1,0 +1,25 @@
+---
+type: source
+cite_key: healthcanada2015-natural-health-products-quality-guide
+title: "Quality of Natural Health Products Guide"
+authors: ["Health Canada Natural and Non-prescription Health Products Directorate"]
+year: 2015
+publication: null
+doi: null
+no_doi_assigned: true
+source_type: government-regulation
+evidence_tier: A
+license: public-law
+raw_path: raw/regulatory/ca/canada-natural-health-products-heavy-metal-limits-2015.pdf
+raw_sha256: "9b5870dce661ba8f88e10d97b69685cc13a43d7bc4bde68d98332c2432ee3836"
+access_url: null
+metals: [tAs, Cd, Pb, tHg, Sb, MeHg]
+ingredients: []
+products: []
+matrices: [natural-health-products, topical-products]
+jurisdictions: [CA]
+near_duplicates: []
+updated: 2026-08-10
+---
+
+Health Canada's quality guide gives elemental impurity tolerance limits for natural health products. Oral product limits are expressed as daily exposure per day or body weight, while topical products have concentration limits in ppm. Only the topical concentration limits are loaded into the regulatory limits register because the oral dose limits are not direct product concentration ceilings.
