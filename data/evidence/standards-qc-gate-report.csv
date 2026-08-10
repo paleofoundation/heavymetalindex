@@ -77,7 +77,7 @@ coffee,Cd,21175.7721,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxi
 cooking-oils-other,Pb,100,100,regulatory-alignment,PASS,
 cooking-oils-other,Cd,56.7457,,literature-baseline,PASS,
 cooking-oils-other,Ni,84.9212,,literature-baseline,PASS,
-cooking-oils-other,tAs,56.1827,,literature-baseline,PASS,
+cooking-oils-other,tAs,56.1827,,literature-baseline,WARN,"C1b-cap-completeness: big-4 toxic, literature-baseline, NO mapped cap — verify/map the regulatory ML"
 cooking-oils-other,Al,21.6753,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=3 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
 cooking-oils-other,tHg,174.7037,,not-material,NOT_MATERIAL,substantiated not-material (PASS) — analyte is not a material contaminant for this matrix (standards-not-material.csv)
 dairy-cheese,Al,4798.4246,,literature-baseline,HOLD,"C11a-percentile-beyond-sample: target P97 with pooled_n=30 — fewer than one observation expected above it; the value is extrapolation past the pool's resolution, not a percentile"
