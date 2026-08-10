@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-45 open item(s): 15 auto, 30 awaiting a decision.
+46 open item(s): 16 auto, 30 awaiting a decision.
 
 ### OI-20260810-vinegar-pool-recovery — Cat 32 vinegar manual blocked on occurrence-pool thinness: Pb in adjudication register, tAs at n=26; only Vietnam MLs loaded
 
@@ -617,6 +617,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: 414/415 product pages, 257 ingredient pages, 963 source pages lack description/socialDescription; Head.tsx auto-derives near-identical descriptions from boilerplate leads (226 products share one sentence; 50 developed ingredients open with FSA placeholder).
 - done when: a generator emits a distinct socialDescription per page from structured frontmatter (title + panel metals + jurisdictions/matrices); <10% duplicate meta descriptions across each type
 - notes: Audit multiple units (index-products/ingredients/sources SEO). Pairs with the Crossref source-metadata repair (title feeds the description).
+
+### OI-20260810-index-ingredient-faq — Add grounded FAQ to flagship ingredient pages (rice, apple, fish, cocoa, infant-rice-cereal)
+
+- scope: **auto** · type: content · status: open · repo: index
+- paths: `tools/`, `wiki/ingredients/rice.md`, `wiki/ingredients/apple.md`, `wiki/ingredients/fish.md`
+- repro: The FAQ accordion + FAQPage-JSON-LD pipe is already wired for ingredients (postbuild-inject-jsonld FAQ_CATEGORIES includes ingredients), but no ingredient FAQ data files exist. Metals already carry 170 grounded Q&As; flagship ingredients are high-traffic AEO targets with none.
+- done when: build-ingredient-faq generator mirrors tools/metal-faq -> build-metal-faq; every Q&A grounded in the page own content + firewall-guarded (no fabrication, no HMTc thresholds); FAQPage JSON-LD emitted
+- notes: Explicit AEO lever from the 2026-08-10 audit. Deliberately NOT rushed this session: grounded+adversarially-verified Q&A authoring per flagship page is real work and fabrication is the failure mode the task forbids. Do a handful of high-traffic pages, verified, not a blanket rollout.
 
 ### OI-20260810-index-infant-food-fruits-orphan — products/infant-food-fruits orphaned scaffold (sources:0 but body cites signes-pastor2018)
 
