@@ -220,10 +220,25 @@ function resolveCell(sub, analyte, variant) {
   const ra = (sub.read_across || {})[analyte]
   let raResult = null
   if (ra && !ra.not_material) {
+    // Inline cross-source value: a cell for which NO government ML exists but the contaminant is
+    // material (Method v2.0 no-ML path). The value is occurrence- or read-across-derived and named in
+    // the config; it is authoritative for this cell (no scope-based gov comparison). basis is
+    // "occurrence" | "precautionary" (rendered as a comparator/read-across cell downstream).
+    if (ra.value_ppb != null) {
+      const v = num(ra.value_ppb)
+      return { type: "read_across", value: roundDisplay(v), value_exact: v, source_id: ra.source_id || null, source_jurisdiction: ra.source_jurisdiction || null, label: ra.label || "cross-source value", basis_kind: ra.basis || "occurrence", basis_note: (ra.basis === "precautionary" ? "precautionary cross-source value (no government ML for this product form)" : "occurrence / cross-source value (no government ML for this product form)"), per_country: {} }
+    }
     const src = byId.get(ra.source_id)
     if (!src) return { type: "gap", value: null, error: `read_across source_id ${ra.source_id} not in register` }
     const raw = num(src.value_ug_kg)
     if (raw != null) raResult = { value: raw, source_id: ra.source_id, jur: src.jurisdiction, label: ra.label }
+  }
+
+  // basis:"gov" override — the borrowed register row is a government maximum level that DIRECTLY
+  // applies to this product form (e.g. a rice noodle IS the China starch-noodle carve-out); present it
+  // as a government-limit cell rather than a read-across, authoritatively (skip the strictest-of scan).
+  if (raResult && ra && ra.basis === "gov") {
+    return { type: "gov", value: roundDisplay(raResult.value), value_exact: raResult.value, binding_jurisdiction: raResult.jur, binding_id: raResult.source_id, basis_note: ra.label || "government maximum level by lookup", per_country: { [raResult.jur]: { value: roundDisplay(raResult.value), converted: false, id: raResult.source_id } } }
   }
 
   if (direct && (!raResult || direct.value <= raResult.value)) {

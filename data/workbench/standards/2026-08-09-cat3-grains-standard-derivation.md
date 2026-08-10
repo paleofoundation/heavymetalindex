@@ -12,22 +12,22 @@
 
 One deterministic government-limit standard per subcategory (12 JSON records in `cat3-compiled/`), each cell tracing to a named row in `data/evidence/regulatory_limits.csv`, converted at most once to the subcategory's native basis, strictest across jurisdictions. Human-readable tables: `cat3-standards-tables.md` (regenerate with `tools/standards/render-cat3-standards-tables.mjs`).
 
-Binding matrix (ppb µg/kg; **bold** = government ML, n/m = registered not-material or confirmed no-ML). Full HMTc 10-analyte panel (the tAs, MeHg, and Cr-VI columns were added in the 2026-08-10 all-analyte completeness pass — see §8; no original bound value changed):
+Binding matrix (ppb µg/kg; **bold** = government ML, RA = read-across, occ = occurrence, prec = precautionary, n/m = registered not-material or confirmed no-ML). Full HMTc 10-analyte panel (tAs/MeHg/Cr-VI added 2026-08-10, §8; aluminium remediated 2026-08-10, §9 — no other original bound value changed):
 
 | Subcategory | Role | Pb | iAs | tAs | tHg | MeHg | Cd | Cr-VI | Ni | Sn | Al |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| flour-non-rice | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
-| bread-and-baked-goods | clean | 100 | n/m | 300 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
-| pasta-wheat-based | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
-| breakfast-cereal-non-rice | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
-| other-grain-products | clean | 100 | n/m | 300 | 30 | n/m | 50 | n/m | 800 | n/m | n/m |
-| grain-based-snacks | clean | 100 | n/m | 300 | 30 | n/m | 100 | n/m | 800 | n/m | n/m |
-| rice-bulk-grain | dirty | 200 | 150 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
-| pasta-rice-based | dirty | 200 | 250 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
-| rice-noodles | dirty | 200 | 250 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
-| breakfast-cereal-rice-based | dirty | 200 | 300 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
-| rice-snacks-crackers | dirty | 200 | 300 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | n/m |
-| rice-beverages-rice-milk | dirty | n/m | 30 | n/m | n/m | n/m | n/m | n/m | n/m | n/m | n/m |
+| flour-non-rice | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | 100000 RA |
+| bread-and-baked-goods | clean | 100 | n/m | 300 | 30 | n/m | 100 | n/m | 800 | n/m | **100000** |
+| pasta-wheat-based | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | 1500 occ |
+| breakfast-cereal-non-rice | clean | 100 | n/m | 200 | 30 | n/m | 100 | n/m | 800 | n/m | 100000 RA |
+| other-grain-products | clean | 100 | n/m | 300 | 30 | n/m | 50 | n/m | 800 | n/m | 5000 occ |
+| grain-based-snacks | clean | 100 | n/m | 300 | 30 | n/m | 100 | n/m | 800 | n/m | **100000** |
+| rice-bulk-grain | dirty | 200 | 150 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | 1000 occ |
+| pasta-rice-based | dirty | 200 | 250 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | 1500 occ |
+| rice-noodles | dirty | 200 | 250 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | **200000** |
+| breakfast-cereal-rice-based | dirty | 200 | 300 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | 100000 RA |
+| rice-snacks-crackers | dirty | 200 | 300 | 300 | 30 | n/m | 100 | n/m | 1500 | n/m | 100000 RA |
+| rice-beverages-rice-milk | dirty | n/m | 30 | n/m | n/m | n/m | n/m | n/m | n/m | n/m | 1000 prec |
 
 ## 2. The clean/dirty structure IS the government limits
 
@@ -61,7 +61,7 @@ The pooled rows are what the public product-category table generator (`build-cat
 - **MeHg** — registered not-material: no government sets a methylmercury ML for any grain, cereal, or rice product in any jurisdiction (all methylmercury MLs in the register are fish/seafood). The mercury burden is controlled by the total-mercury (tHg) cell — 30 (Israel FCS-2016) for solid grains, not-material for rice milk — which bounds the methylmercury fraction. Rice can methylate trace mercury in point-source-contaminated paddy soils, but that fraction is bounded by the tHg control and there is no methylmercury ML to look up. Added in the 2026-08-10 completeness pass (§8).
 - **Cr-VI** — registered not-material (reflex speciation): no government sets a total-Cr or Cr(VI) ML for grains; cereal-matrix Cr is Cr(III) and Cr(VI) reduces to Cr(III) in the matrix; firm control is reflex Cr(VI) speciation (EN 15192 / EPA 6800) on any total-Cr ≥ 100 ppb, any quantifiable Cr(VI) fails. (This is the HMTc-listed Cr-VI analyte; the compiler's total-Cr screen is the measurement path. Cell key renamed Cr → Cr-VI in the 2026-08-10 completeness pass; determination unchanged.)
 - **Sn** — registered not-material: every government tin ML is scoped to canned/tin-coated product; canned grain products route to Category 7 and carry the tin flag there.
-- **Al** — registered confirmed no-ML: no government sets an aluminium ML for any grain product; in leavened/baked products Al is permitted-additive-derived (regulated by additive ADI, not a contaminant ML).
+- **Al** — REMEDIATED 2026-08-10 (§9). Aluminium is Tier-2 and genuinely material in grain (aluminium leavening, alum firming agents, aluminosilicate anticaking, aluminium-lake colours). It was wrongly registered "confirmed no-ML / not-material" on all 12 subcategories. Government limits DO exist by lookup: China GB 2760-2024 sets a finished-product aluminium residue limit of 100 mg/kg (dry, as Al) for baked foods / deep-fried flour products / batter (binding bread-and-baked-goods and grain-based-snacks as government-limit; read across to flour, both breakfast cereals, and rice snacks/crackers), and 200 mg/kg for starch noodles/vermicelli (binding rice-noodles); corroborated by Codex GSFA CXS 192 (crackers/ordinary bakery 100 mg/kg as Al). Plain single-ingredient grains with no additive pathway (wheat pasta 1500, rice-bulk 1000, other-grain 5000, Western extruded rice pasta 1500) take occurrence screening ceilings; rice milk takes a precautionary 1000 (as-consumed) read-across pending a measurement. Zero Al cells remain not-material.
 
 ## 5. Open judgment calls (adjudicated in the audit / for Karen)
 
@@ -112,3 +112,23 @@ No original bound value changed. The eight originally-resolved cells reproduce b
 Verification: `cat3-completeness-oracle.mjs` (extended to cross-check tAs) returns only the four expected rice-product iAs form-split flags and flags **no tAs cell**, confirming each bound tAs is the strictest credible-government value. `render-cat3-standards-tables.mjs` regenerated at the 10-analyte width. Recompile is clean with **zero gap cells** across all 12 subcategories × 10 analytes.
 
 **Direction (Part 2):** this pass moves **toward the literature**. It adds sovereign total-arsenic ceilings that were silently omitted and makes the mercury/chromium determinations explicit and honest; nothing is softened toward HMTc convenience and no threshold is strengthened beyond what a government sets. Closing a silent gap by adopting the government limits that exist is the non-drift direction.
+
+## 9. Aluminium remediation (2026-08-10)
+
+The completeness pass (§8) left aluminium registered "confirmed no-ML / not-material" on all 12 subcategories, on the reasoning that no government sets a grain-specific Al ML and that baked-good aluminium is permitted-additive-derived (regulated by additive ADI, not a contaminant ML). That is wrong for a contamination certification: aluminium is genuinely material in grain (occurrence in the corpus reaches tens of mg/kg — baby-cereal Al p97 ≈ 22,757 non-rice / 40,614 rice-based), the EFSA TWI (1 mg Al/kg bw/week, all sources) is exceeded from bakery alone in significant population fractions, and a 10-analyte "we test" mark with an empty aluminium ceiling on those matrices is indefensible. The consumer receives the aluminium dose whether its source is a contaminant or a leavening additive.
+
+This remediation was produced by a multi-agent research + adversarial-verification workflow (regulatory / occurrence / toxicology / applicability → synthesis → three verification lenses). Findings:
+
+- **A government limit DOES exist by lookup.** China GB 2760-2024 (in force 2025-02-08) sets a binding finished-product aluminium residue limit — 铝的残留量 100 mg/kg (dry sample, as Al) for baked foods (cat 07.0: bread, pastries/cakes, biscuits), deep-fried flour products (06.03.02.05), and batter/breading/frying powder (06.11); 200 mg/kg for starch noodles and vermicelli (06.05.02.01). It is an additive-agnostic total-aluminium residue cap (governs the permitted alum sulfates INS 522/523; China banned SALP INS 541 in 2014), so it transfers cleanly to SALP-leavened product in US/Codex markets. Corroborated by Codex GSFA CXS 192-1995 use-levels expressed as aluminium (crackers 07.1.2 and ordinary bakery 07.1.3 both 100 mg/kg). The convergence of a binding national residue limit and a Codex figure at 100 mg/kg makes 100,000 ppb the defensible anchor for leavened/baked grain products; 200,000 ppb is China's own form-specific carve-out for alum-firmed starch noodles.
+- **Per-subcategory resolution** (native basis): bread-and-baked-goods and grain-based-snacks bind the China baked-foods 100,000 directly (government-limit); rice-noodles binds the China starch-noodle 200,000 (government-limit); flour-non-rice, both breakfast cereals, and rice-snacks-crackers read across the baked-foods 100,000 (their leavened/additive/baked subsets); plain single-ingredient grains take occurrence screening ceilings (pasta-wheat 1500, rice-bulk 1000, other-grain 5000); Western extruded rice pasta takes 1500 (background, like wheat pasta); rice milk takes a precautionary 1000 (as-consumed) read-across from plant-milk aluminium pending a measurement. The GB 2760-2024 rows were added and primary-verified in `regulatory_limits.csv` (`cn_gb2760_2024_al_baked_foods_100000`, `cn_gb2760_2024_al_starch_noodles_vermicelli_200000`).
+
+Two corrections the adversarial verification caught and this build applied:
+
+1. **pasta-rice-based is NOT the alum-firmed noodle.** The taxonomy separates `pasta-rice-based` (row 4, the rice pair of wheat pasta — Western extruded rice pasta, no alum firming) from `rice-noodles` (row 9, the alum-firmed product). The synthesis first shipped the China starch-noodle 200,000 here; that was corrected to a background occurrence 1500 (matching the wheat-pasta clean counterpart), and the alum-firmed 200,000 is confined to rice-noodles.
+2. **No "China puffed-foods" aluminium limit exists.** China abolished aluminium additives in puffed/expanded food in 2014, so a "puffed foods 100 mg/kg" citation would be false. The 100,000 values for the breakfast cereals and rice snacks/crackers are therefore grounded as read-across from the real baked-foods anchor (China 07.0 + Codex 07.1.2/07.1.3), not a puffed-foods limit, and those cells are labelled read-across, not direct government-limit.
+
+Decided (not gated) judgment calls, per the "set something cross-source if we must" directive: the stricter Codex steamed-bread / bread-mix 40 mg/kg is treated as SKU-level tightening, not a subcategory-wide instrument (a flat 100,000 would let those SKUs certify above their own applicable limit — enforce at SKU level); other-grain-products holds the 5000 plain-grain ceiling with the disclosed caveat that deep-fried grain products or bread/bakery mixes routing here carry the stricter directly-applicable government anchors; rice-milk ships the provisional 1000 precautionary read-across. The lead anchor is China GB 2760-2024 with Codex GSFA as the convergent corroborator, so the value does not rest on a single body — consistent with the corpus's existing use of Chinese government limits (GB 2762).
+
+**Direction (Part 2):** every one of the 12 aluminium cells moves FROM a false empty ceiling TOWARD a real government-limit-, read-across-, or occurrence-grounded value — the protective / literature direction. Nothing is softened toward HMTc convenience; no value is strengthened beyond what a government or the occurrence record supports. Sn, Cr-VI, and MeHg were re-checked and confirmed defensibly not-material (canned-only / Cr(III) method artifact / no grain MeHg ML backstopped by tHg), so aluminium was the only wrongly-empty cell.
+
+**Open follow-ups (logged):** a `regulations/china-gb-2760-2024-food-additives` reference page does not yet exist (jurisdiction-level links resolve to the China contaminant page); the plain-grain occurrence ceilings rest on thin (n≈1) target-market pools and should ratchet as a compiled Cat-3 aluminium pool accumulates; the salt/spices/chocolate/honey Al not-material registrations rest on the same aluminosilicate-anticaking pathway counted as material here and should be reconciled corpus-wide.

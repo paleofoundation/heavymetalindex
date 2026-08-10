@@ -29,7 +29,11 @@ const DIRTY = new Set(["rice-bulk-grain", "pasta-rice-based", "rice-noodles", "b
 function cellText(c) {
   if (!c) return "—"
   if (c.type === "gov") return `**${c.value}** ${c.binding_jurisdiction}`
-  if (c.type === "read_across") return `${c.value} (RA ${c.source_jurisdiction})`
+  if (c.type === "read_across") {
+    if (c.basis_kind === "occurrence") return `${c.value} (occ)`
+    if (c.basis_kind === "precautionary") return `${c.value} (prec)`
+    return `${c.value} (RA ${c.source_jurisdiction})`
+  }
   if (c.type === "not_material") return "n/m"
   if (c.type === "gap") return "GAP"
   return "—"
