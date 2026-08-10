@@ -7,7 +7,7 @@ updated: 2026-04-24
 
 ## Overview
 
-The Heavy Metal Index is a public-facing reference on heavy metals in food, supply chain, remediation, and regulatory findings. It is operated by the Institute of Contaminant Standards, a trade name of Paleo Certified, Inc., which also operates the [Institute of Contaminant Standards (ICS)](https://paleofoundation.com). The index is the principal scientific reference asset of the heavy metals program.
+The Heavy Metal Index is a public-facing reference on heavy metals in food, supply chain, remediation, and regulatory findings. It is operated by the Institute of Contaminant Standards (ICS), a trade name of Paleo Certified, Inc., which also operates as the [Paleo Foundation](https://paleofoundation.com). The index is the principal scientific reference asset of the heavy metals program.
 
 ## Why this resource exists
 
