@@ -31,6 +31,48 @@ function frontmatterBoolean(value: unknown): boolean {
   return false
 }
 
+// og:type — "article" for substantive documents (metal/ingredient/regulation/
+// synthesis/source reviews…) so social cards render as articles; "website" for
+// the homepage and section/list landings (category-index, corpus-index, lint…).
+// Driven by the `type` frontmatter, which nearly every wiki page carries, with a
+// content-slug PREFIX fallback for the rare untyped page. The prefix (foo/ not
+// foo) matches the individual page (`metals/lead`) but not the folder landing
+// (`metals`), which should stay "website".
+const OG_ARTICLE_TYPES = new Set([
+  "source",
+  "ingredient",
+  "product-category",
+  "regulation",
+  "metal",
+  "synthesis",
+  "regulator",
+  "supply-chain",
+  "weekly-briefing",
+  "mitigation",
+  "methodology",
+  "testing-method",
+  "article",
+  "review",
+  "standard",
+  "analyte",
+])
+const OG_ARTICLE_PREFIXES = [
+  "metals/",
+  "ingredients/",
+  "regulations/",
+  "synthesis/",
+  "sources/",
+  "analytes/",
+  "mitigation/",
+  "supply-chain/",
+]
+function isArticlePage(frontmatter: Record<string, unknown> | undefined, slug: string | undefined): boolean {
+  if (slug === "index" || slug === "404" || slug === undefined) return false
+  const fmType = frontmatterString(frontmatter?.type)?.toLowerCase()
+  if (fmType) return OG_ARTICLE_TYPES.has(fmType)
+  return OG_ARTICLE_PREFIXES.some((p) => slug.startsWith(p))
+}
+
 function CitationMetadata({
   frontmatter,
   slug,
@@ -161,6 +203,7 @@ export default (() => {
       (e) => e.name === CustomOgImagesEmitterName,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogType = isArticlePage(fileData.frontmatter, fileData.slug) ? "article" : "website"
 
     return (
       <head>
@@ -181,7 +224,7 @@ export default (() => {
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={ogType} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
@@ -195,7 +238,7 @@ export default (() => {
             <meta name="twitter:image" content={ogImageDefaultPath} />
             <meta
               property="og:image:type"
-              content={`image/${getFileExtension(ogImageDefaultPath) ?? "png"}`}
+              content={`image/${(getFileExtension(ogImageDefaultPath) ?? "png").replace(/^\./, "")}`}
             />
           </>
         )}
