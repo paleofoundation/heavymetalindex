@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-4c08585
 cite_key: authors2024-riparian-methylmercury-production-increases-riverine-mercury-flux
-title: "Riparian Methylmercury Production Increases Riverine Mercury Flux"
-authors: ["Unknown authors"]
+title: "Riparian Methylmercury Production Increases Riverine Mercury Flux and Food Web Concentrations"
+authors: [Krause VM, Baldwin AK, Peterson BD, Krabbenhoft DP, Janssen SE, Willacker JJ, Eagles-Smith CA, Poulin BA]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.4c08585
 source_type: peer-reviewed
 evidence_tier: B

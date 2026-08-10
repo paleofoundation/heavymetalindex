@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms222010961
 cite_key: authors2021-developmental-exposure-to-low-concentrations-of
-title: "Developmental Exposure to Low Concentrations of"
-authors: ["Unknown authors"]
+title: "Developmental Exposure to Low Concentrations of Methylmercury Causes Increase in Anxiety-Related Behaviour and Locomotor Impairments in Zebrafish"
+authors: [Glazer L, Brennan CH]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms222010961
 source_type: peer-reviewed
 evidence_tier: B

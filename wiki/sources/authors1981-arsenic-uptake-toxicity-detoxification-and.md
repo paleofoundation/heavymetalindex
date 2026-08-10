@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph15010059
 cite_key: authors1981-arsenic-uptake-toxicity-detoxification-and
-title: "Arsenic Uptake, Toxicity, Detoxification, and"
-authors: ["Unknown authors"]
+title: "Arsenic Uptake, Toxicity, Detoxification, and Speciation in Plants: Physiological, Biochemical, and Molecular Aspects"
+authors: [Abbas G, Murtaza B, Bibi I, Shahid M, Niazi N, Khan M, Amjad M, Hussain M, Natasha]
 year: 1981
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph15010059
 source_type: peer-reviewed
 evidence_tier: B

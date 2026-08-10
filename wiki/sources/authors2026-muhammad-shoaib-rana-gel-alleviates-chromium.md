@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2026-1786570
 cite_key: authors2026-muhammad-shoaib-rana-gel-alleviates-chromium
-title: "Muhammad Shoaib Rana, gel alleviates chromium"
-authors: ["Unknown authors"]
+title: "Co-application of selenium nanoparticles and Aloe vera gel alleviates chromium toxicity in spinach by modulating antioxidative defense mechanisms"
+authors: [Sajjad S, Khan A, Mushtaq A, MacDonald MT, Hamza M, Rasheed S, Zaman QU, Alwahibi MS, Alnamer S, Hussain A]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2026.1786570
 source_type: peer-reviewed
 evidence_tier: B

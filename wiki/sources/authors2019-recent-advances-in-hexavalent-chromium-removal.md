@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-c9ra05188k
 cite_key: authors2019-recent-advances-in-hexavalent-chromium-removal
-title: "Recent advances in hexavalent chromium removal"
-authors: ["Unknown authors"]
+title: "Recent advances in hexavalent chromium removal from aqueous solutions by adsorptive methods"
+authors: [Pakade VE, Tavengwa NT, Madikizela LM]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "RSC Advances"
 doi: 10.1039/c9ra05188k
 source_type: peer-reviewed
 evidence_tier: B

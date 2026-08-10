@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-26444-aaem-205856
 cite_key: authors2025-heavy-metals-in-soils-and-selected-root
-title: "Heavy metals in soils and selected root"
-authors: ["Unknown authors"]
+title: "Heavy metals in soils and selected root vegetables from allotment gardens in Warsaw, Poland – health risk assessment"
+authors: [Chmielewski J, Gworek B, Walosik A, Florek-Łuszczki M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Annals of Agricultural and Environmental Medicine"
 doi: 10.26444/aaem/205856
 source_type: peer-reviewed
 evidence_tier: B

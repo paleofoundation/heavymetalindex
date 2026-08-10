@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d2va00218c
 cite_key: article2023-review-of-analytical-techniques-for-arsenic-detection
-title: "Review of analytical techniques for arsenic detection"
-authors: ["determination in drinking water Environmental Science Advances Open Access Article."]
+title: "Review of analytical techniques for arsenic detection and determination in drinking water"
+authors: [Bhat A, Hara TO, Tian F, Singh B]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Environmental Science: Advances"
 doi: 10.1039/d2va00218c
 source_type: peer-reviewed
 evidence_tier: B

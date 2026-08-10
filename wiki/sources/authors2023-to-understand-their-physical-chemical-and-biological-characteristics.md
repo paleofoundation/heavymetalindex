@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-ansa-202300062
 cite_key: authors2023-to-understand-their-physical-chemical-and-biological-characteristics
-title: "to understand their physical, chemical and biological characteristics, by brightening; and illite clay, utilized for exfoliation and the constricting"
-authors: ["Unknown authors"]
+title: "Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics"
+authors: [Nkosi SM, Thembane N]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Analytical Science Advances"
 doi: 10.1002/ansa.202300062
 source_type: peer-reviewed
 evidence_tier: B

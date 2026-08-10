@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-47760-cognizance-2026-v06i06-008
 cite_key: occurrence2026-heavy-metals-in-infant-formula
-title: "Heavy Metals in Infant Formula:"
-authors: ["Occurrence", "Sources", "Exposure Insights from a Narrative Review Noela C. Igwemmar", "Sunday Abah", "Department of Chemistry", "University of Abuja", "Nigeria noela.igwemmar@uniabuja.edu.ng"]
+title: "Heavy Metals in Infant Formula: Occurrence, Sources, and Exposure Insights from a Narrative Review"
+authors: [Igwemmar NC, Abah S]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Cognizance Journal of Multidisciplinary Studies"
 doi: 10.47760/cognizance.2026.v06i06.008
 source_type: peer-reviewed
 evidence_tier: B

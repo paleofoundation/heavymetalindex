@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1265-ehpm-26-00047
 cite_key: authors2026-gestational-arsenic-exposure-are-established-stepwise
-title: "gestational arsenic exposure are established stepwise"
-authors: ["Unknown authors"]
+title: "Sperm DNA methylation alterations induced by gestational arsenic exposure are established stepwise during spermatogenesis"
+authors: [Suzuki T, Okamura K, Nohara K]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Health and Preventive Medicine"
 doi: 10.1265/ehpm.26-00047
 source_type: peer-reviewed
 evidence_tier: B

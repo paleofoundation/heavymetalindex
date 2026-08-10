@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2025-181317
 cite_key: authors2025-global-drivers-of-variation-in-blood-mercury-of
-title: "Global drivers of variation in blood mercury of seabirds"
-authors: ["Unknown authors"]
+title: "Global drivers of variation in blood mercury of seabirds revealed by a meta-analysis"
+authors: [Okado J, Nishizawa B, Fischer JH, Rowley OC, Toquenaga Y, Niizuma Y, Nakajima C, Ujiie F, Kawai T, Whelan S, Hatch SA, Bustamante P, Elliott G, Parker GC, Rexer-Huber K, Simister K, Tocker G, Walker K, Wittmer HU, Debski I, Shoji A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2025.181317
 source_type: peer-reviewed
 evidence_tier: B

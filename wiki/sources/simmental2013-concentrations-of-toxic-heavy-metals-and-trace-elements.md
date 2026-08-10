@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10661-013-3180-9
 cite_key: simmental2013-concentrations-of-toxic-heavy-metals-and-trace-elements
-title: "Concentrations of toxic heavy metals and trace elements"
-authors: ["in raw milk of Simmental", "Holstein-Friesian cows from organic farm Renata Pilarczyk & Jerzy Wójcik & Paweł Czerniak & Piotr Sablik & Bogumiła Pilarczyk & Agnieszka Tomza-Marciniak"]
+title: "Concentrations of toxic heavy metals and trace elements in raw milk of Simmental and Holstein-Friesian cows from organic farm"
+authors: [Pilarczyk R, Wójcik J, Czerniak P, Sablik P, Pilarczyk B, Tomza-Marciniak A]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Environmental Monitoring and Assessment"
 doi: 10.1007/s10661-013-3180-9
 source_type: peer-reviewed
 evidence_tier: B

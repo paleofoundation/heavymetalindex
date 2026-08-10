@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu15010045
 cite_key: authors2023-commercially-prepared-and-home-prepared-infant-fruit-and
-title: "Commercially Prepared and Home Prepared Infant Fruit and"
-authors: ["Unknown authors"]
+title: "Micronutrient Profile and Carbohydrate Microstructure of Commercially Prepared and Home Prepared Infant Fruit and Vegetable Purees"
+authors: [Huss LR, Dean J, Lamothe LM, Hamaker B, Reuhs B, Goran MI, Lê KA]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu15010045
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s13197-022-05469-2
 cite_key: july2023-arsenic-contamination-in-rice-radiation-and-chemical-methods
-title: "Arsenic contamination in rice, radiation and chemical methods"
-authors: ["implications for food safety Said Sabbagh Revised: July /"]
+title: "Arsenic contamination in rice, radiation and chemical methods of measurement, and implications for food safety"
+authors: [Sabbagh S]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Journal of Food Science and Technology"
 doi: 10.1007/s13197-022-05469-2
 source_type: peer-reviewed
 evidence_tier: B

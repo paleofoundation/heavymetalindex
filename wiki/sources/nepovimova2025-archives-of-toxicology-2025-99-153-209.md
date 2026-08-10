@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00204-024-03903-2
 cite_key: nepovimova2025-archives-of-toxicology-2025-99-153-209
-title: "Archives of Toxicology (2025) 99:153–209"
-authors: ["Klaudia Jomova · Suliman Y. Alomar · Eugenie Nepovimova", "· Kamil Kuca", "· Marian Valko"]
+title: "Heavy metals: toxicity and human health effects"
+authors: [Jomova K, Alomar SY, Nepovimova E, Kuca K, Valko M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Archives of Toxicology"
 doi: 10.1007/s00204-024-03903-2
 source_type: peer-reviewed
 evidence_tier: B

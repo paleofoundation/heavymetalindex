@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fsufs-2024-1470683
 cite_key: ogwu2024-open-access-mercury-through-fish
-title: "OPEN ACCESS mercury through fish"
-authors: ["consumption in Latin America EDITED BY Matthew Chidozie Ogwu", "Appalachian State University", "United States REVIEWED BY Eduardo Esteves", "the Caribbean"]
+title: "Risk map of human intake of mercury through fish consumption in Latin America and the Caribbean"
+authors: [Vergara E, Pancetti F, Zúñiga L, Fabres K, Bahamonde P]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Frontiers in Sustainable Food Systems"
 doi: 10.3389/fsufs.2024.1470683
 source_type: peer-reviewed
 evidence_tier: B

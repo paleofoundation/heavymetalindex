@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms18081730
 cite_key: authors2017-methylmercury-uptake-into-bewo-cells-depends-on
-title: "Methylmercury Uptake into BeWo Cells Depends on"
-authors: ["Unknown authors"]
+title: "Methylmercury Uptake into BeWo Cells Depends on LAT2-4F2hc, a System L Amino Acid Transporter"
+authors: [Balthasar C, Stangl H, Widhalm R, Granitzer S, Hengstschläger M, Gundacker C]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms18081730
 source_type: peer-reviewed
 evidence_tier: B

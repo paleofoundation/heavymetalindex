@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpubh-2021-770505
 cite_key: authors2021-collecting-hand-wipe-samples-to
-title: "Collecting Hand Wipe Samples to"
-authors: ["Unknown authors"]
+title: "Collecting Hand Wipe Samples to Assess Thirdhand Smoke Exposure"
+authors: [Mahabee-Gittens EM, Quintana PJE, Hoh E, Merianos AL, Stone L, Lopez-Galvez N, Matt GE]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2021.770505
 source_type: peer-reviewed
 evidence_tier: B

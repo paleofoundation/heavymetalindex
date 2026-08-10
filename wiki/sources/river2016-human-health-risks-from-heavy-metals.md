@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s40064-016-3357-0
 cite_key: river2016-human-health-risks-from-heavy-metals
-title: "Human health risks from heavy metals"
-authors: ["in fish of Buriganga river", "Bangladesh Md. Kawser Ahmed", "Mohammad Abdul Baki", "Goutam Kumar Kundu", "Md. Saiful Islam", "Md. Monirul Islam", "Md. Muzammel Hossain Correspondence: monirulislam@yahoo."]
+title: "Human health risks from heavy metals in fish of Buriganga river, Bangladesh"
+authors: [Kawser Ahmed M, Baki MA, Kundu GK, Saiful Islam M, Monirul Islam M, Muzammel Hossain M]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "SpringerPlus"
 doi: 10.1186/s40064-016-3357-0
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-spc-2020-10-008
 cite_key: authors2020-it-can-continue-providing-a-valuable-service-many
-title: "it can continue providing a valuable service. Many successful busi- allow customers to rent prams and other baby equipment as a ser-"
-authors: ["Unknown authors"]
+title: "To Rent or Not to Rent: A Question of Circular Prams from a Life Cycle Perspective"
+authors: [Kerdlap P, Gheewala SH, Ramakrishna S]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Sustainable Production and Consumption"
 doi: 10.1016/j.spc.2020.10.008
 source_type: peer-reviewed
 evidence_tier: B

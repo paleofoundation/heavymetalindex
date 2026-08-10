@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jchas-2017-01-004
 cite_key: manuscript2018-remediation-of-manufactured-methamphetamine-in-clandestine
-title: "Remediation of Manufactured Methamphetamine in Clandestine"
-authors: ["Author manuscript J Chem Health Saf. Author manuscript", "available in PMC November . About author manuscripts | Submit a manuscript"]
+title: "Remediation of manufactured methamphetamine in clandestine laboratories. A literature review"
+authors: [Owens CV]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Journal of Chemical Health & Safety"
 doi: 10.1016/j.jchas.2017.01.004
 source_type: peer-reviewed
 evidence_tier: B

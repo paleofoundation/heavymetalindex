@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-848767-v1
 cite_key: authors2021-interferences-of-inorganic-arsenic-iii-v-on
-title: "Interferences of Inorganic Arsenic (III & V) on"
-authors: ["Unknown authors"]
+title: "Interferences of Inorganic Arsenic (III &amp; V) on Growth and Development of Rice (Oryza sativa L.) With Special Emphasis on Root and Coleoptile Growth"
+authors: [Mondal NK, Debnath P, Mishra D]
 year: 2021
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-848767/v1

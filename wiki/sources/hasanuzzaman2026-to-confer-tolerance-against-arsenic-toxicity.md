@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12870-026-08192-8
 cite_key: hasanuzzaman2026-to-confer-tolerance-against-arsenic-toxicity
-title: "to confer tolerance against arsenic toxicity"
-authors: ["in rice (Oryza sativa L.) Mirza Hasanuzzaman", "Samiul Alam", "Abida Sultana", "Umme Kulsum Sabiha", "Md. Mahabub Alam", "P.V. Vara Prasad"]
+title: "Foliar application of allantoin reinforces antioxidant defense and glyoxalase systems to confer tolerance against arsenic toxicity in rice (Oryza sativa L.)"
+authors: [Hasanuzzaman M, Alam S, Sultana A, Sabiha UK, Alam MM, Prasad PVV]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "BMC Plant Biology"
 doi: 10.1186/s12870-026-08192-8
 source_type: peer-reviewed
 evidence_tier: B

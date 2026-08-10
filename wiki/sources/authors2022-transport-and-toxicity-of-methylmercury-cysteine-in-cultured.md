@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms23010394
 cite_key: authors2022-transport-and-toxicity-of-methylmercury-cysteine-in-cultured
-title: "Transport and Toxicity of Methylmercury-Cysteine in Cultured"
-authors: ["Unknown authors"]
+title: "Transport and Toxicity of Methylmercury-Cysteine in Cultured BeWo Cells"
+authors: [Ganapathy S, Farrell ER, Vaghela S, Joshee L, Ford EG, Uchakina O, McKallip RJ, Barkin JL, Bridges CC]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms23010394
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules31111852
 cite_key: authors2026-heavy-metals-persistent-organic-pollutants-and-other-contaminants
-title: "heavy metals, persistent organic pollutants, and other contaminants. This review explains"
-authors: ["Unknown authors"]
+title: "Microplastics–Pollutant Interactions in Environmental Systems: Mechanisms, Ecological Effects, and Implications for Sustainable Management"
+authors: [Wu L, Zhou X, Lai C, Ma M, Qin L, Wang W]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules31111852
 source_type: peer-reviewed
 evidence_tier: B

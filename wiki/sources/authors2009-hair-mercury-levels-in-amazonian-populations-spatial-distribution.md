@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-1476-072x-8-71
 cite_key: authors2009-hair-mercury-levels-in-amazonian-populations-spatial-distribution
-title: "Hair mercury levels in Amazonian populations: spatial distribution"
-authors: ["Unknown authors"]
+title: "Hair mercury levels in Amazonian populations: spatial distribution and trends"
+authors: [Barbieri FL, Gardon J]
 year: 2009
-publication: "Peer-reviewed article"
+publication: "International Journal of Health Geographics"
 doi: 10.1186/1476-072x-8-71
 source_type: peer-reviewed
 evidence_tier: B

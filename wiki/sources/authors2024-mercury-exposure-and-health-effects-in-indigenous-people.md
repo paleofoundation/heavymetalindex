@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph22081159
 cite_key: authors2024-mercury-exposure-and-health-effects-in-indigenous-people
-title: "Mercury Exposure and Health Effects in Indigenous People from"
-authors: ["Unknown authors"]
+title: "Mercury Exposure and Health Effects in Indigenous People from the Brazilian Amazon—Literature-Scoping Review"
+authors: [da Conceição Nascimento Pinheiro M, Cardoso FC, do Nascimento de Aviz LB, de Freitas Junior JAB, da Silva MCF, Silva MT, Pinheiro DN, Carneiro SR, Pinheiro ER, Corvelo TCO]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph22081159
 source_type: peer-reviewed
 evidence_tier: B

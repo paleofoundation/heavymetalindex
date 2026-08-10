@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2024-e32575
 cite_key: authors2024-transfer-of-heavy-metals-from-soil-to-vegetables
-title: "Transfer of heavy metals from soil to vegetables: A comparative"
-authors: ["Unknown authors"]
+title: "Transfer of heavy metals from soil to vegetables: A comparative assessment of different irrigation water sources"
+authors: [Sharafi K, Omer AK, Mansouri B, Massahi T, Soleimani H, Moradi M, Parnoon K, Ebrahimzadeh G]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2024.e32575
 source_type: peer-reviewed
 evidence_tier: B

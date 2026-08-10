@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-membranes12030267
 cite_key: authors2022-brine-disposal-treatment-of-natural-water-focuses-on
-title: "brine disposal. Treatment of natural water focuses on removal of natural organic matter, arsenic, iron,"
-authors: ["Unknown authors"]
+title: "Classical and Recent Developments of Membrane Processes for Desalination and Natural Water Treatment"
+authors: [Charcosset C]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Membranes"
 doi: 10.3390/membranes12030267
 source_type: peer-reviewed
 evidence_tier: B

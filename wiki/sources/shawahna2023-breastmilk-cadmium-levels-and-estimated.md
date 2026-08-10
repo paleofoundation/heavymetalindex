@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s13006-023-00574-0
 cite_key: shawahna2023-breastmilk-cadmium-levels-and-estimated
-title: "Breastmilk cadmium levels and estimated"
-authors: ["infant exposure: a multicenter study of associated factors in a resource‑limited country Ramzi Shawahna", "Rana Saleh", "Lina Owiwi", "Aya Abdi", "Diana Bani‑Odeh", "Iyad Maqboul", "Hatim Hijaz", "Mohammad Jaber"]
+title: "Breastmilk cadmium levels and estimated infant exposure: a multicenter study of associated factors in a resource-limited country"
+authors: [Shawahna R, Saleh R, Owiwi L, Abdi A, Bani-Odeh D, Maqboul I, Hijaz H, Jaber M]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Breastfeeding Journal"
 doi: 10.1186/s13006-023-00574-0
 source_type: peer-reviewed
 evidence_tier: B

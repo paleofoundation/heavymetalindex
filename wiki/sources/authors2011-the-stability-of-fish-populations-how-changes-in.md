@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1590-s1807-59322011000100001
 cite_key: authors2011-the-stability-of-fish-populations-how-changes-in
-title: "The stability of fish populations: how changes in the"
-authors: ["Unknown authors"]
+title: "The stability of fish populations: how changes in the environment may affect people with epilepsy"
+authors: [Cysneiros RM, Arida RM, Terra VC, Nejm MB, Scorza FA]
 year: 2011
-publication: "Peer-reviewed article"
+publication: "Clinics"
 doi: 10.1590/s1807-59322011000100001
 source_type: peer-reviewed
 evidence_tier: B

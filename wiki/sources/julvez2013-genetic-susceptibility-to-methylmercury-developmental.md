@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fgene-2013-00278
 cite_key: julvez2013-genetic-susceptibility-to-methylmercury-developmental
-title: "Genetic susceptibility to methylmercury developmental"
-authors: ["neurotoxicity matters Jordi Julvez", "Philippe Grandjean", "Department of Environmental Health", "Harvard School of Public Health", "Boston", "USA Centre for Research in Environmental Epidemiology", "Catalonia", "Spain"]
+title: "Genetic susceptibility to methylmercury developmental neurotoxicity matters"
+authors: [Julvez J, Grandjean P]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Frontiers in Genetics"
 doi: 10.3389/fgene.2013.00278
 source_type: peer-reviewed
 evidence_tier: B

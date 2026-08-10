@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scp-2024-101901
 cite_key: authors2025-promoting-health-and-sustainability-exploring-safer-alternatives
-title: "Promoting health and sustainability: exploring safer alternatives"
-authors: ["Unknown authors"]
+title: "Promoting health and sustainability: exploring safer alternatives in cosmetics and regulatory perspectives"
+authors: [Couceiro B, Hameed H, Vieira ACF, Singh SK, Dua K, Veiga F, Pires PC, Ferreira L, Paiva-Santos AC]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Sustainable Chemistry and Pharmacy"
 doi: 10.1016/j.scp.2024.101901
 source_type: peer-reviewed
 evidence_tier: B

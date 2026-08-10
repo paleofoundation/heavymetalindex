@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-jox15060202
 cite_key: authors2025-investigation-of-combined-toxic-metals-pfas-volatile-organic
-title: "Investigation of Combined Toxic Metals, PFAS, Volatile Organic"
-authors: ["Unknown authors"]
+title: "Investigation of Combined Toxic Metals, PFAS, Volatile Organic Compounds, and Essential Elements in Chronic Kidney Disease"
+authors: [Adetunji AG, Obeng-Gyasi E]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Xenobiotics"
 doi: 10.3390/jox15060202
 source_type: peer-reviewed
 evidence_tier: B

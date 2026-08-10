@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-eehl-2025-100213
 cite_key: authors2025-distinct-demethylation-pathways-of-rice-and-fish-derived
-title: "Distinct demethylation pathways of rice- and fish-derived methylmercury"
-authors: ["Unknown authors"]
+title: "RETRACTED: Distinct demethylation pathways of rice- and fish-derived methylmercury in pregnant women revealed by compound-specific isotope analysis"
+authors: [Lai C, Yang S, Li R, Jiang H, Abdul RM, Li P, Wang B, Feng X]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Eco-Environment & Health"
 doi: 10.1016/j.eehl.2025.100213
 source_type: peer-reviewed
 evidence_tier: B

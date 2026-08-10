@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1021-cr300015c
 cite_key: authors2012-arsenic-binding-to-proteins
 title: "Arsenic Binding to Proteins"
-authors: ["Unknown authors"]
+authors: [Shen S, Li XF, Cullen WR, Weinfeld M, Le XC]
 year: 2012
-publication: "Peer-reviewed article"
+publication: "Chemical Reviews"
 doi: 10.1021/cr300015c
 source_type: peer-reviewed
 evidence_tier: B

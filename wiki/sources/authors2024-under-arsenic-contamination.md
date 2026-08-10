@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2024-1338530
 cite_key: authors2024-under-arsenic-contamination
-title: "under arsenic contamination"
-authors: ["Unknown authors"]
+title: "Effectiveness of nanomaterials and their counterparts in improving rice growth and yield under arsenic contamination"
+authors: [Li X, Wang X, Ma X, Sun W, Chen K, Dou F]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2024.1338530
 source_type: peer-reviewed
 evidence_tier: B

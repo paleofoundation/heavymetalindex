@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fimmu-2026-1713369
 cite_key: pereiro2026-open-access-of-pacific-white-shrimp
-title: "OPEN ACCESS of Paciﬁc white shrimp"
-authors: ["EDITED BY Patricia Pereiro", "Spanish National Research Council (CSIC)", "(Litopenaeus vannamei) Spain REVIEWED BY hepatopancreas reveal"]
+title: "Single-cell transcriptomics of Pacific white shrimp (Litopenaeus vannamei) hepatopancreas reveal immune and metabolic responses to AHPND-causing Vibrio parahaemolyticus"
+authors: [Aldersey JE, Abernathy JW, Lange MD, García JC, Shoemaker CA, Beck BH]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Immunology"
 doi: 10.3389/fimmu.2026.1713369
 source_type: peer-reviewed
 evidence_tier: B

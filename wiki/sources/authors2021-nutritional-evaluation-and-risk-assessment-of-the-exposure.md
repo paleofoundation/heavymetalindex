@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics9060133
 cite_key: authors2021-nutritional-evaluation-and-risk-assessment-of-the-exposure
-title: "Nutritional Evaluation and Risk Assessment of the Exposure to"
-authors: ["Unknown authors"]
+title: "Nutritional Evaluation and Risk Assessment of the Exposure to Essential and Toxic Elements in Dogs and Cats through the Consumption of Pelleted Dry Food: How Important Is the Quality of the Feed?"
+authors: [Macías-Montes A, Zumbado M, Luzardo O, Rodríguez-Hernández Á, Acosta-Dacal A, Rial-Berriel C, Boada L, Henríquez-Hernández L]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics9060133
 source_type: peer-reviewed
 evidence_tier: B

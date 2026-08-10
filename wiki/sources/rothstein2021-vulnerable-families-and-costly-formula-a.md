@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s13006-021-00356-6
 cite_key: rothstein2021-vulnerable-families-and-costly-formula-a
-title: "Vulnerable families and costly formula: a"
-authors: ["qualitative exploration of infant formula purchasing among peri-urban Peruvian households Jessica D. Rothstein", "Peter J. Winch", "Jessica Pachas", "Lilia Z. Cabrera", "Mayra Ochoa", "Robert H. Gilman", "Laura E. Caulfield"]
+title: "Vulnerable families and costly formula: a qualitative exploration of infant formula purchasing among peri-urban Peruvian households"
+authors: [Rothstein JD, Winch PJ, Pachas J, Cabrera LZ, Ochoa M, Gilman RH, Caulfield LE]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "International Breastfeeding Journal"
 doi: 10.1186/s13006-021-00356-6
 source_type: peer-reviewed
 evidence_tier: B

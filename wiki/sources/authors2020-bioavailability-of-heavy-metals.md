@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-020-65449-4
 cite_key: authors2020-bioavailability-of-heavy-metals
-title: "bioavailability of heavy metals"
-authors: ["Unknown authors"]
+title: "In-vitro bioaccessibility and bioavailability of heavy metals in mineral clay complex used in natural health products"
+authors: [Chen X, Singh A, Kitts DD]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-020-65449-4
 source_type: peer-reviewed
 evidence_tier: B

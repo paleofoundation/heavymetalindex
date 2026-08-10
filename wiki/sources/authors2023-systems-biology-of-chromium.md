@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2023-1305179
 cite_key: authors2023-systems-biology-of-chromium
-title: "Systems biology of chromium-"
-authors: ["Unknown authors"]
+title: "Systems biology of chromium-plant interaction: insights from omics approaches"
+authors: [Abdullah, Wani KI, Naeem M, Jha PK, Jha UC, Aftab T, Prasad PVV]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2023.1305179
 source_type: peer-reviewed
 evidence_tier: B

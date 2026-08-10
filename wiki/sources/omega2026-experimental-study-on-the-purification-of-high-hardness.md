@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acsomega-5c12295
 cite_key: omega2026-experimental-study-on-the-purification-of-high-hardness
-title: "Experimental Study on the Purification of High-Hardness Arsenic-"
-authors: ["Containing Water Using Sintered-Clay Waste Materials Qinghao Xin Cite This: ACS Omega", "− Read Online ACCESS Metrics & More Article Recommendations"]
+title: "Experimental Study on the Purification of High-Hardness Arsenic-Containing Water Using Sintered-Clay Waste Materials"
+authors: [Xin Q]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "ACS Omega"
 doi: 10.1021/acsomega.5c12295
 source_type: peer-reviewed
 evidence_tier: B

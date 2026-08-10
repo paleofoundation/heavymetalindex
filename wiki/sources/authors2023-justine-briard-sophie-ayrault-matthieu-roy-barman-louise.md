@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2022-160676
 cite_key: authors2023-justine-briard-sophie-ayrault-matthieu-roy-barman-louise
-title: "Justine Briard, Sophie Ayrault, Matthieu Roy-Barman, Louise Bordier, Maxime"
-authors: ["Unknown authors"]
+title: "Determining the geochemical fingerprint of the lead fallout from the Notre-Dame de Paris fire: Lessons for a better discrimination of chemical signatures"
+authors: [Briard J, Ayrault S, Roy-Barman M, Bordier L, "L'Héritier M", Azéma A, Syvilay D, Baron S]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2022.160676
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms27020669
 cite_key: authors2025-maternal-fetal-exposure-to-oncoelements-and-their-oxidative
-title: "Maternal–Fetal Exposure to Oncoelements and Their Oxidative"
-authors: ["Unknown authors"]
+title: "Maternal–Fetal Exposure to Oncoelements and Their Oxidative and Epigenetic Impact on Pregnancy Outcomes"
+authors: [Grzesik-Gąsior J, Bień A, Zalewska K, Nieszporek M, Witkowska K, Merklinger-Gruchała A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms27020669
 source_type: peer-reviewed
 evidence_tier: B

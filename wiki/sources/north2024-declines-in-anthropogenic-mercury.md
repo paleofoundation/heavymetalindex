@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41467-025-56274-2
 cite_key: north2024-declines-in-anthropogenic-mercury
-title: "Declines in anthropogenic mercury"
-authors: ["emissions in the Global North", "China offset by the Global South"]
+title: "Declines in anthropogenic mercury emissions in the Global North and China offset by the Global South"
+authors: [Qiu X, Liu M, Zhang Y, Zhang Q, Lin H, Cai X, Li J, Dai R, Zheng S, Wang J, Zhu Y, Shen H, Shen G, Wang X, Tao S]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Nature Communications"
 doi: 10.1038/s41467-025-56274-2
 source_type: peer-reviewed
 evidence_tier: B

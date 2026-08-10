@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-jof8010042
 cite_key: authors2022-bioaccumulation-and-translocation-of-heavy-metals
-title: "Bioaccumulation and Translocation of Heavy Metals"
-authors: ["Unknown authors"]
+title: "Mushroom Quality Related with Various Substrates’ Bioaccumulation and Translocation of Heavy Metals"
+authors: [Ab Rhaman SMS, Naher L, Siddiquee S]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Journal of Fungi"
 doi: 10.3390/jof8010042
 source_type: peer-reviewed
 evidence_tier: B

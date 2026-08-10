@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fendo-2023-1059854
 cite_key: biomonitoring2023-open-access-disrupting-chemicals-on
-title: "OPEN ACCESS disrupting chemicals on"
-authors: ["The EDCs under evaluation have evidence from human biomonitoring", "are found in nature. Additionally"]
+title: "The effect of endocrine-disrupting chemicals on placental development"
+authors: [Yan Y, Guo F, Liu K, Ding R, Wang Y]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Endocrinology"
 doi: 10.3389/fendo.2023.1059854
 source_type: peer-reviewed
 evidence_tier: B

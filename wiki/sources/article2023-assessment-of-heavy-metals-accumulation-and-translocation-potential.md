@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-3278135-v1
 cite_key: article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential
-title: "Assessment of Heavy Metals Accumulation and Translocation Potential"
-authors: ["in Some Native Plants Species Collected from Contaminated Soils Sadia Kanwal Quaid-i-Azam University Research Article"]
+title: "Assessment of Heavy Metals Accumulation and Translocation Potential in Some Native Plants Species Collected from Contaminated Soils"
+authors: [Kanwal S]
 year: 2023
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-3278135/v1

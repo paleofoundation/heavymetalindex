@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ma12142317
 cite_key: authors2019-sergio-a-loza-rosas-2-anamaris-torres-3
-title: "Sergio A. Loza-Rosas 2 , Anamaris Torres 3 , Manoj Saxena 2 , Mara Julin 4 and Arthur D. Tinoco 2, *"
-authors: ["Unknown authors"]
+title: "Fueling a Hot Debate on the Application of TiO2 Nanoparticles in Sunscreen"
+authors: [Sharma S, Sharma RK, Gaur K, Cátala Torres JF, Loza-Rosas SA, Torres A, Saxena M, Julin M, Tinoco AD]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Materials"
 doi: 10.3390/ma12142317
 source_type: peer-reviewed
 evidence_tier: B

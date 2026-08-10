@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2025-1673354
 cite_key: authors2025-contrasting-levels-of-mercury
-title: "contrasting levels of mercury"
-authors: ["Unknown authors"]
+title: "Differential gut microbiome composition in three-spined stickleback populations with contrasting levels of mercury accumulation"
+authors: [Kuizenga M, Shankregowda AM, Siriyappagouder P, Delahaut V, Calboli FCF, Bervoets L, Yadav BS, Volckaert FAM, De Boeck G, Raeymaekers JAM]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2025.1673354
 source_type: peer-reviewed
 evidence_tier: B

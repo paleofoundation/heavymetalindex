@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4314-dujopas-v10i1b-13
 cite_key: authors2024-detection-of-heavy-metals-in-some-edible
-title: "Detection of Heavy Metals in Some Edible"
-authors: ["Unknown authors"]
+title: "Detection of Heavy Metals in Some Edible Grains Obtained from Two Markets in Bauchi Metropolis, Nigeria"
+authors: [Mustapha A, Hameed AA, Yakubu MN]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Dutse Journal of Pure and Applied Sciences"
 doi: 10.4314/dujopas.v10i1b.13
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biology13121049
 cite_key: authors2024-impact-of-arsenic-stress-on-the-antioxidant-system
-title: "Impact of Arsenic Stress on the Antioxidant System and"
-authors: ["Unknown authors"]
+title: "Impact of Arsenic Stress on the Antioxidant System and Photosystem of Arthrospira platensis"
+authors: [Liu J, Du J, Wu D, Ji X, Zhao X]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Biology"
 doi: 10.3390/biology13121049
 source_type: peer-reviewed
 evidence_tier: B

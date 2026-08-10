@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-wasman-2018-10-039
 cite_key: authors2018-information-on-elements-such-as-potentially-toxic-trace
-title: "Information on elements, such as potentially toxic trace elements, and on concentrations of"
-authors: ["Unknown authors"]
+title: "Applicability of a field portable X-ray fluorescence for analyzing elemental concentration of waste samples"
+authors: [Havukainen J, Hiltunen J, Puro L, Horttanainen M]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Waste Management"
 doi: 10.1016/j.wasman.2018.10.039
 source_type: peer-reviewed
 evidence_tier: B

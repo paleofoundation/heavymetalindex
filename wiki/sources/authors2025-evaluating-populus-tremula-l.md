@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2025-1617432
 cite_key: authors2025-evaluating-populus-tremula-l
-title: "Evaluating Populus tremula L."
-authors: ["Unknown authors"]
+title: "Evaluating Populus tremula L. and Salix caprea L. for phytoremediation: growth, metal uptake, and biochemical responses under arsenic, cadmium, and lead stress"
+authors: [Sirgedaitė-Šėžienė V, Striganavičiūtė G, Šilanskienė M, Kniuipytė I, Praspaliauskas M, Vaškevičienė I, Lemanas E, Vaitiekūnaitė D]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2025.1617432
 source_type: peer-reviewed
 evidence_tier: B

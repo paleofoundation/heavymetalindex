@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-2394594-v1
 cite_key: authors2023-mercury-speciation-in-selenium-enriched-wheat
-title: "Mercury speciation in selenium enriched wheat"
-authors: ["Unknown authors"]
+title: "Mercury speciation in selenium enriched wheat plants exposed to mercury pollution"
+authors: [Manivannan N, Subirana MA, Boada R, Marini C, Llugany M, Valiente M, Simonelli L]
 year: 2023
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-2394594/v1

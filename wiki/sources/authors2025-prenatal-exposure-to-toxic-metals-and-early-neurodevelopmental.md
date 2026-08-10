@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics13121055
 cite_key: authors2025-prenatal-exposure-to-toxic-metals-and-early-neurodevelopmental
-title: "Prenatal Exposure to Toxic Metals and Early Neurodevelopmental"
-authors: ["Unknown authors"]
+title: "Prenatal Exposure to Toxic Metals and Early Neurodevelopmental Outcomes in Infants Following Intrauterine Blood Transfusion: A Prospective Cohort Study"
+authors: [Al-Saleh I, Alnuwaysir H, Gheith M, Al-Rouqi R, Aldhalaan H, Alismail E, Tulbah M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13121055
 source_type: peer-reviewed
 evidence_tier: B

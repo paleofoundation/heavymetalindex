@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-envhealth-5c00297
 cite_key: authors2026-pollutant-exposure-shapes-mitochondrial-bioenergetics-in-a-wild
-title: "Pollutant Exposure Shapes Mitochondrial Bioenergetics in a Wild"
-authors: ["Unknown authors"]
+title: "Pollutant Exposure Shapes Mitochondrial Bioenergetics in a Wild Seabird"
+authors: [Lopez-Nava G, Michel L, Dell’Omo G, Quillfeldt P, Bustamante P, Casagrande S]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environment & Health"
 doi: 10.1021/envhealth.5c00297
 source_type: peer-reviewed
 evidence_tier: B

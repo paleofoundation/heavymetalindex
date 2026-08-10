@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-5c11334
 cite_key: authors2026-seasonal-variability-in-marine-atmospheric-mercury-isotope
-title: "Seasonal Variability in Marine Atmospheric Mercury Isotope"
-authors: ["Unknown authors"]
+title: "Seasonal Variability in Marine Atmospheric Mercury Isotope Signatures and Environmental Drivers"
+authors: [Song Z, Miao X, Li C, Wang Y, Huang S, Zhang P, Tang K, Yuan T, Zhang Y]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.5c11334
 source_type: peer-reviewed
 evidence_tier: B

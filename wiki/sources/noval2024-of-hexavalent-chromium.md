@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-024-82297-8
 cite_key: noval2024-of-hexavalent-chromium
-title: "of hexavalent chromium"
-authors: ["OPEN Spatial-temporal analysis of groundwater well features from neural network prediction of hexavalent chromium concentration Alejandro J. De La Noval", "Himanshu Upadhyay", "Leonel Lagos", "Jayesh Soni & Nagarajan Prabakar"]
+title: "Spatial-temporal analysis of groundwater well features from neural network prediction of hexavalent chromium concentration"
+authors: [De La Noval AJ, Upadhyay H, Lagos L, Soni J, Prabakar N]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-024-82297-8
 source_type: peer-reviewed
 evidence_tier: B

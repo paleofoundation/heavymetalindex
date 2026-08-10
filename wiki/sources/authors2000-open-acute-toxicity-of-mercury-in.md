@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-95697-1
 cite_key: authors2000-open-acute-toxicity-of-mercury-in
-title: "OPEN Acute toxicity of mercury in"
-authors: ["Unknown authors"]
+title: "Acute toxicity of mercury in response to metallothionein expression and oxidative and cellular metabolic stress in Barbonymus gonionotus"
+authors: [Kumar N, Priyadarshi H, Parhi J, Pandey PK, Kumar D]
 year: 2000
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-95697-1
 source_type: peer-reviewed
 evidence_tier: B

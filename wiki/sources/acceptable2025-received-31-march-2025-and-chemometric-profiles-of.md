@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods14101784
 cite_key: acceptable2025-received-31-march-2025-and-chemometric-profiles-of
-title: "Received: 31 March 2025 and chemometric profiles of pestils were evaluated. The beetroot-based snack formulated"
-authors: ["Revised: May in this study was hedonically acceptable (≥/)", "rich in essential minerals (Ca", "Na"]
+title: "Production of Red Beetroot (Beta vulgaris L.) Pestil as an Alternative Healthy Snack: Effects of Traditional, Thermosonication, and Microwave Pretreatments on Physicochemical, Sensorial, Nutritional, and Chemometric Profiles"
+authors: [Ersoyak N, Acoglu Celik B, Koc Alibasoglu E, Bekar E, Unal TT, Yetan E, Kamiloglu S, Akpinar Bayizit A, Copur OU, Aral Baskaya I, Yolci Omeroglu P]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods14101784
 source_type: peer-reviewed
 evidence_tier: B

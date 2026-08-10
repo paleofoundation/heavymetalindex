@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-56556-jase-v4i2-1385
 cite_key: authors2025-ecological-risk-and-bioaccumulation-of-heavy-metals-in
-title: "Ecological Risk and Bioaccumulation of Heavy Metals in Soil–Vegetable"
-authors: ["Unknown authors"]
+title: "Ecological Risk and Bioaccumulation of Heavy Metals in Soil–Vegetable Systems under Wastewater Irrigation"
+authors: [Abubakar Mohd Habu, Ali Sanusi Hassan, Adeniyi Olarewaju Adeleye, Michael Edet Nkereuwem, Garba Bade Bate, Olukemi Adeleye]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Agriculture Sustainability and Environment"
 doi: 10.56556/jase.v4i2.1385
 source_type: peer-reviewed
 evidence_tier: B

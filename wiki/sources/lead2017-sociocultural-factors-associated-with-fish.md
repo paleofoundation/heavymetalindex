@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-23311843-2017-1304604
 cite_key: lead2017-sociocultural-factors-associated-with-fish
-title: "Sociocultural factors associated with fish"
-authors: ["consumption in Lake Albert fishing community: Guidelines for lead"]
+title: "Sociocultural factors associated with fish consumption in Lake Albert fishing community: Guidelines for lead and mercury"
+authors: [Tamale A, Ejobi F, Muyanja C, Naigaga I, Nakavuma J, Drago CK, Amulen DR]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Cogent Environmental Science"
 doi: 10.1080/23311843.2017.1304604
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph23010001
 cite_key: authors1992-through-the-eye-retinal-changes-of-prenatal-mercury
-title: "Through the Eye: Retinal Changes of Prenatal Mercury Exposure"
-authors: ["Unknown authors"]
+title: "Through the Eye: Retinal Changes of Prenatal Mercury Exposure in Grassy Narrows First Nation, Canada"
+authors: [Small V, Philibert A, Chatillon A, Da Silva J, Fillion M, Mergler D, Tousignant B]
 year: 1992
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph23010001
 source_type: peer-reviewed
 evidence_tier: B

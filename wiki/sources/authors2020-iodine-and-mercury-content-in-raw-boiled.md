@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods9111652
 cite_key: authors2020-iodine-and-mercury-content-in-raw-boiled
-title: "Iodine and Mercury Content in Raw, Boiled,"
-authors: ["Unknown authors"]
+title: "Iodine and Mercury Content in Raw, Boiled, Pan-Fried, and Oven-Baked Atlantic Cod (Gadus morhua)"
+authors: [Dahl L, Duinker A, Næss S, Markhus MW, Nerhus I, Midtbø LK, Kjellevold M]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods9111652
 source_type: peer-reviewed
 evidence_tier: B

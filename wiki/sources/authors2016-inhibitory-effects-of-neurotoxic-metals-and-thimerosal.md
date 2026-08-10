@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-2016-6143753
 cite_key: authors2016-inhibitory-effects-of-neurotoxic-metals-and-thimerosal
-title: "Inhibitory Effects of Neurotoxic Metals and Thimerosal"
-authors: ["Unknown authors"]
+title: "Alternatively Spliced Methionine Synthase in SH‐SY5Y Neuroblastoma Cells: Cobalamin and GSH Dependence and Inhibitory Effects of Neurotoxic Metals and Thimerosal"
+authors: [Waly M, Power-Charnitsky VA, Hodgson N, Sharma A, Audhya T, Zhang Y, Deth R]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Oxidative Medicine and Cellular Longevity"
 doi: 10.1155/2016/6143753
 source_type: peer-reviewed
 evidence_tier: B

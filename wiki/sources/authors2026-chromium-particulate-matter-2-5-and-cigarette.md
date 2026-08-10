@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12672-025-04207-2
 cite_key: authors2026-chromium-particulate-matter-2-5-and-cigarette
-title: "chromium, particulate matter 2.5, and cigarette"
-authors: ["Unknown authors"]
+title: "Molecular signatures under hexavalent chromium, particulate matter 2.5, and cigarette smoking exposures"
+authors: [Xie YX, Li GQ, Wang XN, Ran WW]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Discover Oncology"
 doi: 10.1007/s12672-025-04207-2
 source_type: peer-reviewed
 evidence_tier: B

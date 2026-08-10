@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5772-intechopen-1011715
 cite_key: vegetables2025-vegetables-and-beneficial-roles
-title: "Vegetables and Beneficial Roles"
-authors: ["Vegetables", "Beneficial Roles in Diets of Different Age Groups: A Review on Microbial Effects Catherine Yemisi Babatuyi"]
+title: "Vegetables and Beneficial Roles in Diets of Different Age Groups: A Review on Microbial Effects"
+authors: [Yemisi Babatuyi C]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Agricultural Sciences"
 doi: 10.5772/intechopen.1011715
 source_type: peer-reviewed
 evidence_tier: B

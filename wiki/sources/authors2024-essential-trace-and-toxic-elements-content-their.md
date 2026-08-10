@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-3958975-v1
 cite_key: authors2024-essential-trace-and-toxic-elements-content-their
-title: "Essential, trace and toxic elements content, their"
-authors: ["Unknown authors"]
+title: "Essential, trace and toxic elements content, their distribution and risk assessment in Karaagach river, Bulgarian Black Sea region"
+authors: [Georgieva V, Genieva S]
 year: 2024
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-3958975/v1

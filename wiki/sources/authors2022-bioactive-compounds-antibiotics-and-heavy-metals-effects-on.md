@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2478-aoas-2022-0057
 cite_key: authors2022-bioactive-compounds-antibiotics-and-heavy-metals-effects-on
-title: "Bioactive compounds, antibiotics and heavy metals: effects on the intestinal"
-authors: ["Unknown authors"]
+title: "Bioactive compounds, antibiotics and heavy metals: Effects on the intestinal structure and microbiome of monogastric animals – a non-systematic review"
+authors: [Winiarska-Mieczan A, Kwiecień M, Jachimowicz-Rogowska K, Muszyński S, Tomaszewska E]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Annals of Animal Science"
 doi: 10.2478/aoas-2022-0057
 source_type: peer-reviewed
 evidence_tier: B

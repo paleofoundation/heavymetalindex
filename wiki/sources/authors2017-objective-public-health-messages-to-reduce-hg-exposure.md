@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-s1368980018000599
 cite_key: authors2017-objective-public-health-messages-to-reduce-hg-exposure
-title: "Objective: Public health messages to reduce Hg exposure for pregnant women"
-authors: ["Unknown authors"]
+title: "A review of guidance on fish consumption in pregnancy: is it fit for purpose?"
+authors: [Taylor CM, Emmett PM, Emond AM, Golding J]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Public Health Nutrition"
 doi: 10.1017/s1368980018000599
 source_type: peer-reviewed
 evidence_tier: B

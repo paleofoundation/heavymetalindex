@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-8b07194
 cite_key: authors2019-exposure-in-a-free-living-generalist-rodent-apodemus
-title: "Exposure in a Free-Living Generalist Rodent, Apodemus"
-authors: ["Unknown authors"]
+title: "How Do Richness and Composition of Diet Shape Trace Metal Exposure in a Free-Living Generalist Rodent, Apodemus sylvaticus"
+authors: [Ozaki S, Fritsch C, Valot B, Mora F, Cornier T, Scheifler R, Raoul F]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.8b07194
 source_type: peer-reviewed
 evidence_tier: B

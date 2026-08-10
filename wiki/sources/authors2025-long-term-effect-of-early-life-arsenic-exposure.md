@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-1101-2025-09-01-25334887
 cite_key: authors2025-long-term-effect-of-early-life-arsenic-exposure
-title: "Long-Term Effect of Early-Life Arsenic Exposure on Morning Plasma Cortisol in Adults"
-authors: ["Unknown authors"]
+title: "Long-Term Effect of Early-Life Arsenic Exposure on Morning Plasma Cortisol in Adults from Antofagasta, Chile"
+authors: [de la Rosa R, Steinmaus C, Nardone A, Keller A, Acevedo J, Ferreccio C, Smith MT, Sillé FCM]
 year: 2025
 publication: "Peer-reviewed article"
 doi: 10.1101/2025.09.01.25334887

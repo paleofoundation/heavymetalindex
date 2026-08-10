@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-isci-2025-114606
 cite_key: authors2025-maternal-environmental-exposure-and-early-life
-title: "Maternal environmental exposure and early-life"
-authors: ["Unknown authors"]
+title: "Maternal environmental exposure and early-life health risks: The modulating role of nutritional status—A scoping review"
+authors: [Shafiq N, Gao C, Tang W, Li R, Huang Y]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "iScience"
 doi: 10.1016/j.isci.2025.114606
 source_type: peer-reviewed
 evidence_tier: B

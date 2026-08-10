@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-fct-2018-05-047
 cite_key: barbosaa2018-toxicology-elsevier-after-peer-review-to-access-the
-title: "Toxicology © Elsevier after peer review. To access the final edited and published"
-authors: ["Vera Barbosaa", "Ana Luísa Maulvaulta", "Ricardo N. Alvesa", "Christian Kwadijkd", "Michiel Kottermand", "Alice Tediosie", "Margarita Fernández Tejedorf", "Jens J. Slothg"]
+title: "Effects of steaming on contaminants of emerging concern levels in seafood"
+authors: [Barbosa V, Maulvault AL, Alves RN, Kwadijk C, Kotterman M, Tediosi A, Fernández-Tejedor M, Sloth JJ, Granby K, Rasmussen RR, Robbens J, De Witte B, Trabalón L, Fernandes JO, Cunha SC, Marques A]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Food and Chemical Toxicology"
 doi: 10.1016/j.fct.2018.05.047
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-12729-jbtr-2022-23-1-7
 cite_key: lee2022-total-mercury-and-methyl-mercury-in-seafood
-title: "total mercury and methyl mercury in seafood"
-authors: ["distributed in Daejeon Sangjoon Lee", "Sujin Oh", "Sookkyung Shin", "Daehyun Kim", "Jihyun Lee", "Hojeong Kang", "Gunehee Jo Daejeon Metropolitan City Institute of Health", "Environment"]
+title: "Quantitative analysis and risk assessment on total mercury and methyl mercury in seafood distributed in Daejeon"
+authors: [Lee S, Oh S, Shin S, Kim D, Lee J, Kang H, Jo G]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Journal of Biomedical Translational Research"
 doi: 10.12729/jbtr.2022.23.1.7
 source_type: peer-reviewed
 evidence_tier: B

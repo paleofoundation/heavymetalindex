@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-12688-aasopenres-12983-1
 cite_key: authors2019-integrating-environmental-health-and-genomics-research-in
-title: "Integrating environmental health and genomics research in"
-authors: ["Unknown authors"]
+title: "Integrating environmental health and genomics research in Africa: challenges and opportunities identified during a Human Heredity and Health in Africa (H3Africa) Consortium workshop"
+authors: [Joubert BR, Berhane K, Chevrier J, Collman G, Eskenazi B, Fobil J, Hoyo C, John CC, Kumie A, Nicol M, Ramsay M, Smith J, Steyn A, Tshala-Katumbay D, McAllister K]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "AAS Open Research"
 doi: 10.12688/aasopenres.12983.1
 source_type: peer-reviewed
 evidence_tier: B

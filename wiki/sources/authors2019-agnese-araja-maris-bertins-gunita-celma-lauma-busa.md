@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph20136207
 cite_key: authors2019-agnese-araja-maris-bertins-gunita-celma-lauma-busa
-title: "Agnese Araja * , Maris Bertins , Gunita Celma , Lauma Busa and Arturs Viksna"
-authors: ["Unknown authors"]
+title: "Distribution of Minor and Major Metallic Elements in Residential Indoor Dust: A Case Study in Latvia"
+authors: [Araja A, Bertins M, Celma G, Busa L, Viksna A]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph20136207
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms262311505
 cite_key: authors2025-metabolic-efficacy-of-chromium-picolinate-in-rats
-title: "Metabolic Efficacy of Chromium Picolinate in Rats"
-authors: ["Unknown authors"]
+title: "Consumption of Sericin Enhances the Bioavailability and Metabolic Efficacy of Chromium Picolinate in Rats"
+authors: [Tocharus C, Saelim J, Sutheerawattananonda M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms262311505
 source_type: peer-reviewed
 evidence_tier: B

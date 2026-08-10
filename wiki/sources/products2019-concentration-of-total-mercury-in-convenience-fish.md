@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-17159-0379-4350-2019-v72a19
 cite_key: products2019-concentration-of-total-mercury-in-convenience-fish
-title: "Concentration of Total Mercury in Convenience Fish"
-authors: ["Products", "Cooked Fish Nikolai A. Panichev", "Svetlana E. Panicheva Department of Chemistry", "Tshwane University of Technology", "P.O. Box", "Arcadia", "Pretoria", "South Africa."]
+title: "Concentration of Total Mercury in Convenience Fish Products and Cooked Fish"
+authors: [Panichev NA, Panicheva SE]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "South African Journal of Chemistry"
 doi: 10.17159/0379-4350/2019/v72a19
 source_type: peer-reviewed
 evidence_tier: B

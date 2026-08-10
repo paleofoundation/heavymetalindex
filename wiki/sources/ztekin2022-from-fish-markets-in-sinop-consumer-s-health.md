@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-021-03064-8
 cite_key: ztekin2022-from-fish-markets-in-sinop-consumer-s-health
-title: "from Fish Markets in Sinop: Consumer’s Health Risk Assessment"
-authors: ["Levent Bat · Fatih Şahin · Md. Simul Bhuyan · Elif Arici · Ayşah Öztekin"]
+title: "Metals in Wild and Cultured Dicentrarchus labrax (Linnaeus, 1758) from Fish Markets in Sinop: Consumer’s Health Risk Assessment"
+authors: [Bat L, Şahin F, Bhuyan MS, Arici E, Öztekin A]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-021-03064-8
 source_type: peer-reviewed
 evidence_tier: B

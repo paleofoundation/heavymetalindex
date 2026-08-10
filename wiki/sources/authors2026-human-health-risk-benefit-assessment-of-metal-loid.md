@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15586-qas-v18i2-1623
 cite_key: authors2026-human-health-risk-benefit-assessment-of-metal-loid
-title: "Human health risk–benefit assessment of metal(loid)s in commercial fish from the Northeastern"
-authors: ["Unknown authors"]
+title: "Human health risk–benefit assessment of metal(loid)s in commercial fish from the Northeastern Mediterranean, Türkiye"
+authors: [Olgunoglu MP, Olgunoglu IA]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Quality Assurance and Safety of Crops & Foods"
 doi: 10.15586/qas.v18i2.1623
 source_type: peer-reviewed
 evidence_tier: B

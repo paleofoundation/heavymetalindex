@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4314-jasem-v29i8-23
 cite_key: authors2025-physicochemical-properties-heavy-metals-content-and-removal-of
-title: "Physicochemical Properties, Heavy Metals Content and Removal of the Heavy Metals in"
-authors: ["Unknown authors"]
+title: "Physicochemical Properties, Heavy Metals Content and Removal of the Heavy Metals in Industrial Effluents by Almond Seed Shells Powder"
+authors: [Ese EL, Abeng FE, Neji PA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Applied Sciences and Environmental Management"
 doi: 10.4314/jasem.v29i8.23
 source_type: peer-reviewed
 evidence_tier: B

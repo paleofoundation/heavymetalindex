@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12937-016-0182-9
 cite_key: mcguire2016-fish-practical-considerations-for-improved
-title: "fish: practical considerations for improved"
-authors: ["dietary guidance Jennifer McGuire", "Jason Kaplan", "John Lapolla", "Rima Kleiner"]
+title: "The 2014 FDA assessment of commercial fish: practical considerations for improved dietary guidance"
+authors: [McGuire J, Kaplan J, Lapolla J, Kleiner R]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Nutrition Journal"
 doi: 10.1186/s12937-016-0182-9
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods9121901
 cite_key: authors2020-pcbs-and-heavy-metals-in-farmed-escaped-and
-title: "PCBs and Heavy Metals in Farmed, Escaped and Wild"
-authors: ["Unknown authors"]
+title: "An Update on the Content of Fatty Acids, Dioxins, PCBs and Heavy Metals in Farmed, Escaped and Wild Atlantic Salmon (Salmo salar L.) in Norway"
+authors: [Jensen IJ, Eilertsen KE, Otnæs CHA, Mæhre HK, Elvevoll EO]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods9121901
 source_type: peer-reviewed
 evidence_tier: B

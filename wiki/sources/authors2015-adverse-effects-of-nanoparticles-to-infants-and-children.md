@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12519-015-0028-0
 cite_key: authors2015-adverse-effects-of-nanoparticles-to-infants-and-children
-title: "Adverse effects of nanoparticles to infants and children"
-authors: ["Unknown authors"]
+title: "Health implications of engineered nanoparticles in infants and children"
+authors: [Tang S, Wang M, Germ KE, Du HM, Sun WJ, Gao WM, Mayer GD]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "World Journal of Pediatrics"
 doi: 10.1007/s12519-015-0028-0
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-21032-jhis-2025-50-2-181
 cite_key: authors2025-using-big-data-mediating-effect-of-blood-heavy
-title: "using Big Data – Mediating Effect of Blood Heavy Metal Concentration"
-authors: ["Unknown authors"]
+title: "Analysis of the Association of Dietary Patterns With Depression in Pregnant Women using Big Data – Mediating Effect of Blood Heavy Metal Concentration"
+authors: [Jung S, Kim M, Lee J, Min J, Kim H, Lee EK, Ha E]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Health Informatics and Statistics"
 doi: 10.21032/jhis.2025.50.2.181
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-33003-fjs-2025-0908-3900
 cite_key: authors2025-assessment-of-heavy-metal-contamination-in-soils-and
-title: "ASSESSMENT OF HEAVY METAL CONTAMINATION IN SOILS AND VEGETABLE CROPS FROM"
-authors: ["Unknown authors"]
+title: "ASSESSMENT OF HEAVY METAL CONTAMINATION IN SOILS AND VEGETABLE CROPS FROM SHARADA INDUSTRIAL ZONE, KANO STATE, NIGERIA"
+authors: [Suleiman K, Ibrahim AA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "FUDMA JOURNAL OF SCIENCES"
 doi: 10.33003/fjs-2025-0908-3900
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s42995-025-00332-7
 cite_key: lin2025-metagenomics-reveals-diverse-community-of-putative-mercury
-title: "Metagenomics reveals diverse community of putative mercury"
-authors: ["methylators across different biogeochemical niches in Sansha Yongle blue hole Heyu Lin", "· Xiao‑Yu Zhu · Chun‑Xu Xue · Peng Yao", "· Liang Fu · Zuosheng Yang · Xiao‑Hua Zhang", "· John W. Moreau"]
+title: "Metagenomics reveals diverse community of putative mercury methylators across different biogeochemical niches in Sansha Yongle blue hole"
+authors: [Lin H, Zhu XY, Xue CX, Yao P, Fu L, Yang Z, Zhang XH, Moreau JW]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Marine Life Science & Technology"
 doi: 10.1007/s42995-025-00332-7
 source_type: peer-reviewed
 evidence_tier: B

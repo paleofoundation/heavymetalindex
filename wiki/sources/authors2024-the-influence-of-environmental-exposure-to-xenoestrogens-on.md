@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms252212363
 cite_key: authors2024-the-influence-of-environmental-exposure-to-xenoestrogens-on
-title: "The Influence of Environmental Exposure to Xenoestrogens on"
-authors: ["Unknown authors"]
+title: "The Influence of Environmental Exposure to Xenoestrogens on the Risk of Cancer Development"
+authors: [Gachowska M, Dąbrowska A, Wilczyński B, Kuźnicki J, Sauer N, Szlasa W, Kobierzycki C, Łapińska Z, Kulbacka J]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms252212363
 source_type: peer-reviewed
 evidence_tier: B

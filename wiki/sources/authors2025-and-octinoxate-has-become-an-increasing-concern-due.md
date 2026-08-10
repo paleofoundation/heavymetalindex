@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-53623-tasp-v5i2-824
 cite_key: authors2025-and-octinoxate-has-become-an-increasing-concern-due
-title: "and octinoxate has become an increasing concern due to their persistence and toxicity, even at"
-authors: ["Unknown authors"]
+title: "Microbial Biodegradation of Sunscreen Agents: Mechanisms, Enzymatic Pathways, and Environmental Implications"
+authors: [Nurtayeva A, Rakhmonov J, Sarykova A, Rachana K, Kristanti RA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Tropical Aquatic and Soil Pollution"
 doi: 10.53623/tasp.v5i2.824
 source_type: peer-reviewed
 evidence_tier: B

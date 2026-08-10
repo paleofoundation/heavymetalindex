@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envint-2026-110260
 cite_key: authors2026-dhealth-apple-inc-cupertino-ca-usa
-title: "dHealth, Apple Inc., Cupertino, CA, USA"
-authors: ["Unknown authors"]
+title: "Associations between self-reported personal care products use and menstrual cycle length and regularity in a US digital cohort"
+authors: [Wang Z, Peebles E, Asokan G, Duttweiler L, Jukic AM, Wilcox AJ, Abrams K, Suharwardy SH, Hauser R, Williams MA, Onnela JP, Coull BA, Mahalingaiah S]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environment International"
 doi: 10.1016/j.envint.2026.110260
 source_type: peer-reviewed
 evidence_tier: B

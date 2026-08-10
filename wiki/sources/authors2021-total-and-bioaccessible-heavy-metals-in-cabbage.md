@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d1ra01440d
 cite_key: authors2021-total-and-bioaccessible-heavy-metals-in-cabbage
-title: "Total and bioaccessible heavy metals in cabbage"
-authors: ["Unknown authors"]
+title: "Total and bioaccessible heavy metals in cabbage from major producing cities in Southwest China: health risk assessment and cytotoxicity"
+authors: [Li M, Qin Y, Wang C, Wang K, Deng Z, Xu W, Xiang P, Ma LQ]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "RSC Advances"
 doi: 10.1039/d1ra01440d
 source_type: peer-reviewed
 evidence_tier: B

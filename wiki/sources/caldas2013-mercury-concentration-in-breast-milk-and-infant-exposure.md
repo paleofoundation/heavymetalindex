@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-012-9542-2
 cite_key: caldas2013-mercury-concentration-in-breast-milk-and-infant-exposure
-title: "Mercury Concentration in Breast Milk and Infant Exposure"
-authors: ["Assessment During the First Days of Lactation in a Midwestern Region of Brazil Leandro Rodrigues da Cunha & Teresa Helena Macedo da Costa & Eloisa Dutra Caldas"]
+title: "Mercury Concentration in Breast Milk and Infant Exposure Assessment During the First 90 Days of Lactation in a Midwestern Region of Brazil"
+authors: [da Cunha LR, da Costa THM, Caldas ED]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-012-9542-2
 source_type: peer-reviewed
 evidence_tier: B

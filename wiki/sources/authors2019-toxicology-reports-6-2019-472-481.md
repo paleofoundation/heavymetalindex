@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-toxrep-2019-05-012
 cite_key: authors2019-toxicology-reports-6-2019-472-481
-title: "Toxicology Reports 6 (2019) 472–481"
-authors: ["Unknown authors"]
+title: "Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation"
+authors: [Maurya PK, Malik DS, Yadav KK, Kumar A, Kumar S, Kamyab H]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Toxicology Reports"
 doi: 10.1016/j.toxrep.2019.05.012
 source_type: peer-reviewed
 evidence_tier: B

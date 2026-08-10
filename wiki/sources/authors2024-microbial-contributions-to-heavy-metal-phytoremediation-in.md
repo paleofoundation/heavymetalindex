@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-microorganisms12101945
 cite_key: authors2024-microbial-contributions-to-heavy-metal-phytoremediation-in
-title: "Microbial Contributions to Heavy Metal Phytoremediation in"
-authors: ["Unknown authors"]
+title: "Microbial Contributions to Heavy Metal Phytoremediation in Agricultural Soils: A Review"
+authors: [Khatoon Z, Orozco-Mosqueda MDC, Santoyo G]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Microorganisms"
 doi: 10.3390/microorganisms12101945
 source_type: peer-reviewed
 evidence_tier: B

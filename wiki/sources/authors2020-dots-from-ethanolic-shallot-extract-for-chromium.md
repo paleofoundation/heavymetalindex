@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d0ra03101a
 cite_key: authors2020-dots-from-ethanolic-shallot-extract-for-chromium
-title: "dots from ethanolic shallot extract for chromium"
-authors: ["Unknown authors"]
+title: "Green and facile synthesis of water-soluble carbon dots from ethanolic shallot extract for chromium ion sensing in milk, fruit juices, and wastewater samples"
+authors: [Sakaew C, Sricharoen P, Limchoowong N, Nuengmatcha P, Kukusamude C, Kongsri S, Chanthai S]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "RSC Advances"
 doi: 10.1039/d0ra03101a
 source_type: peer-reviewed
 evidence_tier: B

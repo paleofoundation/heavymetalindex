@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph15102197
 cite_key: buffalo2018-policies-to-reduce-lead-exposure-lessons-from
-title: "Policies to Reduce Lead Exposure: Lessons from"
-authors: ["Buffalo", "Rochester Sam Magavern Executive Director", "Partnership for the Public Good", "Buffalo", "Tel.: ++--"]
+title: "Policies to Reduce Lead Exposure: Lessons from Buffalo and Rochester"
+authors: [Magavern S]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph15102197
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2903-j-efsa-2026-10156
 cite_key: question2026-statement-on-the-findings-presented-in-the-toxicological
-title: "Statement on the findings presented in the Toxicological"
-authors: ["European Food Safety Authority (EFSA) | Maria Bastaki | Chantra Eskes | Thorhallur Halldorsson | Irene Pilar Muñoz Guajardo | Katharina Vejdovszky | Barbara Viviani | Hans Steinkellner Correspondence: Ask a Question"]
+title: "Statement on the findings presented in the Toxicological Profile for Mercury issued by the US ATSDR"
+authors: ["European Food Safety Authority (EFSA)", Bastaki M, Eskes C, Halldorsson T, Muñoz Guajardo IP, Vejdovszky K, Viviani B, Steinkellner H]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "EFSA Journal"
 doi: 10.2903/j.efsa.2026.10156
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s44154-024-00185-7
 cite_key: yadav2025-evaluation-of-the-responses-of-contrasting
-title: "Evaluation of the responses of contrasting"
-authors: ["stress Poonam Yadav", "Meghna Jaiswal", "Sudhakar Srivastava"]
+title: "Evaluation of the responses of contrasting sensitive and tolerant rice genotypes to arsenic stress"
+authors: [Yadav P, Jaiswal M, Srivastava S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Stress Biology"
 doi: 10.1007/s44154-024-00185-7
 source_type: peer-reviewed
 evidence_tier: B

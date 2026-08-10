@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-3390-su17020701
 cite_key: elsharkawy2025-heavy-metal-pollution-in-coastal-environments-ecological-implications
 title: "Heavy Metal Pollution in Coastal Environments: Ecological Implications and Management Strategies: A Review"
-authors: ["el-sharkawy"]
+authors: [El-Sharkawy M, Alotaibi MO, Li J, Du D, Mahmoud E]
 year: 2025
 publication: "Sustainability"
 doi: "10.3390/su17020701"

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1590-1982-0224-2025-0082
 cite_key: authors1982-total-mercury-concentrations-in-muscles
-title: "Total mercury concentrations in muscles"
-authors: ["Unknown authors"]
+title: "Total mercury concentrations in muscles of little tunny species (Euthynnus alletteratus) sold in the city of Cabo Frio, State of Rio de Janeiro, Brazil"
+authors: [Rodrigues MT, Cumplido R, Melo Júnior UGD, Oliveira MMD, Fagundes Netto EB]
 year: 1982
-publication: "Peer-reviewed article"
+publication: "Neotropical Ichthyology"
 doi: 10.1590/1982-0224-2025-0082
 source_type: peer-reviewed
 evidence_tier: B

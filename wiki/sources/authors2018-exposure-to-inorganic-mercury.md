@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fnmol-2018-00125
 cite_key: authors2018-exposure-to-inorganic-mercury
-title: "Exposure to Inorganic Mercury"
-authors: ["Unknown authors"]
+title: "Exposure to Inorganic Mercury Causes Oxidative Stress, Cell Death, and Functional Deficits in the Motor Cortex"
+authors: [Teixeira FB, de Oliveira ACA, Leão LKR, Fagundes NCF, Fernandes RM, Fernandes LMP, da Silva MCF, Amado LL, Sagica FES, de Oliveira EHC, Crespo-Lopez ME, Maia CSF, Lima RR]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Frontiers in Molecular Neuroscience"
 doi: 10.3389/fnmol.2018.00125
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods10020275
 cite_key: authors2021-age-infants-were-randomized-to-a-nordic-group
-title: "age infants were randomized to a Nordic group (NG, n = 41) or a Conventional group (CG, n = 40),"
-authors: ["Unknown authors"]
+title: "Acceptance of a Nordic, Protein-Reduced Diet for Young Children during Complementary Feeding—A Randomized Controlled Trial"
+authors: [Johansson U, Lindberg L, Öhlund I, Hernell O, Lönnerdal B, Lundén S, Sandell M, Lind T]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods10020275
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d5ra09655c
 cite_key: authors2026-reduction-of-hexavalent-chromium-from-aqueous
-title: "reduction of hexavalent chromium from aqueous"
-authors: ["Unknown authors"]
+title: "Green-synthesized zeolite Y-supported zero-valent iron nanocomposite for enhanced adsorptive reduction of hexavalent chromium from aqueous solutions"
+authors: [Mahmuda NF, Raharjo Y, Adiarto T, Darmokoesoemo H, Pramono H, Ismail AF]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "RSC Advances"
 doi: 10.1039/d5ra09655c
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-5c16308
 cite_key: authors2026-glacier-melt-as-a-source-of-mercury-implications
-title: "Glacier Melt as a Source of Mercury: Implications for Ecosystem"
-authors: ["Unknown authors"]
+title: "Glacier Melt as a Source of Mercury: Implications for Ecosystem Recovery and Environmental Trends"
+authors: [Mattio D, Guédron S, Sabatier P, Bertrand Y, Bonfanti N, Campillo S, Dommergue A, Gateuille D, Gautier E, Cortizas AM, Naffrechoux E, Rabatel A, Angot H]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.5c16308
 source_type: peer-reviewed
 evidence_tier: B

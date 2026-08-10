@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-ijgo-70547
 cite_key: authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi
-title: "environmental exposures to common gynecologic and reproductive conditions across"
-authors: ["Unknown authors"]
+title: "FIGO committee opinion: Environmental drivers of gynecologic and reproductive health"
+authors: [DeNicola N, Zhang J, Hasenburg A, Schwab R, Gupta K, Decena D, Edna F, Graham D, Morris E, Dao B]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Gynecology & Obstetrics"
 doi: 10.1002/ijgo.70547
 source_type: peer-reviewed
 evidence_tier: B

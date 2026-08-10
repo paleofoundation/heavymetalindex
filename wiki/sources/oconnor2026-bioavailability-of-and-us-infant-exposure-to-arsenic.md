@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1016-j-advnut-2026-100628
 cite_key: oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic
 title: "Bioavailability of and US Infant Exposure to Arsenic, Cadmium, Lead, Mercury, and Per- and Polyfluoroalkyls from Human Milk and Infant Formula: Results from a Series of Systematic Reviews"
-authors: ["o’connor"]
+authors: [O’Connor LE, Thoerig RC, Leta CN, Balalian AA, Advani SM, Bosse T, Foster MJ, Holland KM, Dewey KG, Fisher MM, Galusha AL, Huset CA, MacFarlane AJ, Spill MK]
 year: 2026
 publication: "Advances in Nutrition"
 doi: "10.1016/j.advnut.2026.100628"

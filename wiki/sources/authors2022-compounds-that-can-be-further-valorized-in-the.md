@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2022-e09528
 cite_key: authors2022-compounds-that-can-be-further-valorized-in-the
-title: "compounds that can be further valorized in the formulation of food, nutraceuticals, and pharmacological prod-"
-authors: ["Unknown authors"]
+title: "Chemical composition and bioactive compounds of cashew (Anacardium occidentale) apple juice and bagasse from Colombian varieties"
+authors: [Cruz Reina LJ, Durán-Aranguren DD, Forero-Rojas LF, Tarapuez-Viveros LF, Durán-Sequeda D, Carazzone C, Sierra R]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2022.e09528
 source_type: peer-reviewed
 evidence_tier: B

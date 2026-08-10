@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1136-bmjopen-2019-034702
 cite_key: authors2019-complex-environmental-exposures-on
-title: "complex environmental exposures on"
-authors: ["Unknown authors"]
+title: "Caribbean Consortium for Research in Environmental and Occupational Health (CCREOH) Cohort Study: influences of complex environmental exposures on maternal and child health in Suriname"
+authors: [Zijlmans W, Wickliffe J, Hindori-Mohangoo A, MacDonald-Ottevanger S, Ouboter P, Landburg G, Codrington J, Roosblad J, Baldewsingh G, Ramjatan R, Gokoel A, Abdoel Wahid F, Fortes Soares L, Alcala C, Boedhoe E, Grünberg AW, Hawkins W, Shankar A, Harville E, Drury SS, Covert H, Lichtveld M]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "BMJ Open"
 doi: 10.1136/bmjopen-2019-034702
 source_type: peer-reviewed
 evidence_tier: B

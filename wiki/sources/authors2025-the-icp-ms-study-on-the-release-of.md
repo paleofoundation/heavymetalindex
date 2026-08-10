@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods14081350
 cite_key: authors2025-the-icp-ms-study-on-the-release-of
-title: "The ICP-MS Study on the Release of Toxic Trace Elements from"
-authors: ["Unknown authors"]
+title: "The ICP-MS Study on the Release of Toxic Trace Elements from the Non-Cereal Flour Matrixes After In Vitro Digestion and Metal Pollution Index Evaluation"
+authors: [Nekvapil J, Vilišová K, Petřík Z, Yalçin E, Fišera M, Gál R, Salek RN, Mrázková M, Bučková M, Sumczynski D]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods14081350
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-87559129-2025-2473028
 cite_key: authors2025-ionizing-radiation-for-quality-control-and-mitigating-microbial
-title: "Ionizing Radiation for Quality Control and Mitigating Microbial"
-authors: ["Unknown authors"]
+title: "Ionizing Radiation for Quality Control and Mitigating Microbial Contamination and Mycotoxins in Pet Foods"
+authors: [Sethukali AK, Lee HJ, Jo C]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Food Reviews International"
 doi: 10.1080/87559129.2025.2473028
 source_type: peer-reviewed
 evidence_tier: B

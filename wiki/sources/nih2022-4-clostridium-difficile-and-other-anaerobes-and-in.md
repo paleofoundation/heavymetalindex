@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-1101-2022-07-06-499078
 cite_key: nih2022-4-clostridium-difficile-and-other-anaerobes-and-in
-title: "4 Clostridium difficile and other anaerobes, and in Methylmercury Biosynthesis."
-authors: ["Authors: Daniel H. Haft (corresponding author) National Center for Biotechnology Information National Library of Medicine NIH"]
+title: "Eight Unexpected Selenoprotein Families in ABC transport, in Organometallic Biochemistry in Clostridium difficile and other anaerobes, and in Methylmercury Biosynthesis"
+authors: [Haft DH, Gwadz M]
 year: 2022
 publication: "Peer-reviewed article"
 doi: 10.1101/2022.07.06.499078

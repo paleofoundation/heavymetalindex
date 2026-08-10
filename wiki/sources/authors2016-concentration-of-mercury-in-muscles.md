@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1515-jvetres-2016-0007
 cite_key: authors2016-concentration-of-mercury-in-muscles
-title: "Concentration of mercury in muscles"
-authors: ["Unknown authors"]
+title: "Concentration of mercury in muscles of predatory and non-predatory fish from lake Pluszne (Poland)"
+authors: [Łuczyńska J, Łuczyński MJ, Paszczyk B, Tońska E]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Journal of Veterinary Research"
 doi: 10.1515/jvetres-2016-0007
 source_type: peer-reviewed
 evidence_tier: B

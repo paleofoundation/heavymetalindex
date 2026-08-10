@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms27083513
 cite_key: authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health
-title: "Heavy Metal Toxicity in Clinical and Environmental Health:"
-authors: ["Unknown authors"]
+title: "Heavy Metal Toxicity in Clinical and Environmental Health: Sources, Mechanisms, Diagnostics, and Evidence-Based Management of Mercury, Lead, Cadmium, and Arsenic"
+authors: [Chakif D, Furrer J]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms27083513
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-70382-ajcms-v9i3-017
 cite_key: authors2025-leading-to-comparisons-with-the-common
-title: "leading to comparisons with the common"
-authors: ["Unknown authors"]
+title: "Geographic Variation in Nutritional Composition of Northern Nigerian Sweet Potato Varieties: Proximate, Vitamin (A, B₂), and Antinutrient Differences Among Zaria, Kano, and Minna Cultivars"
+authors: [A. A. Muhammad, A. S. Idoko, M. M. Ibn-Shuaib, B. M. Maibalangu, A. A. Audu]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Clinical and Metabolism Studies"
 doi: 10.70382/ajcms.v9i3.017
 source_type: peer-reviewed
 evidence_tier: B

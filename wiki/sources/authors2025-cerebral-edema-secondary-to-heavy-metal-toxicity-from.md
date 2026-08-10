@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-crnm-9945172
 cite_key: authors2025-cerebral-edema-secondary-to-heavy-metal-toxicity-from
-title: "Cerebral Edema Secondary to Heavy Metal Toxicity From"
-authors: ["Unknown authors"]
+title: "Cerebral Edema Secondary to Heavy Metal Toxicity From Siddha Medicine: A Case Report and Case‐Based Review"
+authors: [Tan Z, Chua BJG, Ng M, Reyes S, Setiawan S, Tan YJ, Tan BKK, R. P]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Case Reports in Neurological Medicine"
 doi: 10.1155/crnm/9945172
 source_type: peer-reviewed
 evidence_tier: B

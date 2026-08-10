@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods13193153
 cite_key: authors2024-arsenic-in-rice-and-rice-based-products-with
-title: "Arsenic in Rice and Rice-Based Products with Regard to"
-authors: ["Unknown authors"]
+title: "Arsenic in Rice and Rice-Based Products with Regard to Consumer Health"
+authors: [Rajkowska-Myśliwiec M, Ciemniak A, Karp G]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods13193153
 source_type: peer-reviewed
 evidence_tier: B

@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1097-anc-0000000000000341
 cite_key: authors2019-infant-skin-care-products
 title: "Infant Skin Care Products"
-authors: ["Unknown authors"]
+authors: [Kuller JM]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Advances in Neonatal Care"
 doi: 10.1097/anc.0000000000000341
 source_type: peer-reviewed
 evidence_tier: B

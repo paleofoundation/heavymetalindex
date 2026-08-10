@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1289-ehp13380
 cite_key: authors2024-lung-cancer-risks-associated-with-occupational-exposure-to
-title: "Lung Cancer Risks Associated with Occupational Exposure to"
-authors: ["Unknown authors"]
+title: "Lung Cancer Risks Associated with Occupational Exposure to Pairs of Five Lung Carcinogens: Results from a Pooled Analysis of Case-Control Studies (SYNERGY)"
+authors: [Olsson A, Bouaoun L, Schüz J, Vermeulen R, Behrens T, Ge C, Kromhout H, Siemiatycki J, Gustavsson P, Boffetta P, Kendzia B, Radoi L, Barul C, Karrasch S, Wichmann HE, Consonni D, Landi MT, Caporaso NE, Merletti F, Migliore E, Richiardi L, Jöckel KH, Ahrens W, Pohlabeln H, Fernández-Tardón G, Zaridze D, Field JK, Lissowska J, Świątkowska B, McLaughlin JR, Demers PA, Schejbalova M, Foretova L, Janout V, Pándics T, Fabianova E, Mates D, Forastiere F, Straif K, Brüning T, Vlaanderen J, Peters S]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Health Perspectives"
 doi: 10.1289/ehp13380
 source_type: peer-reviewed
 evidence_tier: B

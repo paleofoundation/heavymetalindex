@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3808-jeil-202300097
 cite_key: authors2023-ecological-and-human-health-risk-assessment-of-heavy
-title: "Ecological and Human Health Risk Assessment of Heavy Metal in Sediment and"
-authors: ["Unknown authors"]
+title: "Ecological and Human Health Risk Assessment of Heavy Metal in Sediment and Demersal Fish Species in Western Offshore Nigeria, Gulf of Guinea"
+authors: ["Nigerian Institute for Oceanography and Marine Research (NIOMR), Victoria Island, P.M.B. 12729, Lagos State, Nigeria", Sule AY, Yakub AS, Agwu OA, Bassey BO, Igbo JK, Bello BO, Abiodun OA, Olapoju OA, Nosazeogie EO, Izge MA, Haruna AF, "Department of Biological Oceanography, Nigerian Institute for Oceanography and Marine Research (NIOMR), Victoria Island, P.M.B. 12729, Lagos State, Nigeria"]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental Informatics Letters"
 doi: 10.3808/jeil.202300097
 source_type: peer-reviewed
 evidence_tier: B

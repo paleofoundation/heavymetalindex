@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-4558926-v1
 cite_key: change2024-impact-of-submarine-groundwater-discharge
-title: "Impact of Submarine Groundwater Discharge,"
-authors: ["Climate Change", "Land Use on Korea’s Coast Yeosang Yoon NASA Goddard Space Flight Center https://orcid.org/--- Hahn Chul Jung Yonsei University Article"]
+title: "Impact of Submarine Groundwater Discharge, Climate Change, and Land Use on Korea’s Coast"
+authors: [Yoon Y, Jung HC]
 year: 2024
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-4558926/v1

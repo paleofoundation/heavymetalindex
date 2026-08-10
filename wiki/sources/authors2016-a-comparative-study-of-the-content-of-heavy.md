@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1515-aep-2016-0029
 cite_key: authors2016-a-comparative-study-of-the-content-of-heavy
-title: "A comparative study of the content of heavy metals in oils:"
-authors: ["Unknown authors"]
+title: "A comparative study of the content of heavy metals in oils: linseed oil, rapeseed oil and soybean oil in technological production processes"
+authors: [Szyczewski P, Frankowski M, Zioła-Frankowska A, Siepak J, Szyczewski T, Piotrowski P]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Archives of Environmental Protection"
 doi: 10.1515/aep-2016-0029
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms24010308
 cite_key: ewicz2023-between-toxic-and-essential-metals
-title: "between Toxic and Essential Metals"
-authors: ["Citation: Błażewicz", "Grabrucker", "copper A.M. Metal Profiles in Autism Spectrum Disorders: A Crosstalk between Toxic", "Essential Metals. Int. J. Mol. Sci.", ". https://doi.org/./ . Introduction"]
+title: "Metal Profiles in Autism Spectrum Disorders: A Crosstalk between Toxic and Essential Metals"
+authors: [Błażewicz A, Grabrucker AM]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms24010308
 source_type: peer-reviewed
 evidence_tier: B

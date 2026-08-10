@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11356-021-17634-9
 cite_key: authors2022-the-association-of-prenatal-exposure-to-benzophenones
-title: "The association of prenatal exposure to benzophenones"
-authors: ["Unknown authors"]
+title: "The association of prenatal exposure to benzophenones with gestational age and offspring size at birth"
+authors: [Teiri H, Samaei MR, Dehghani M, Azhdarpoor A, Hajizadeh Y, Mohammadi F, Kelishadi R]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-021-17634-9
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ani16010041
 cite_key: authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence
-title: "Associated with Fresh Pet Food: Evaluating Scientific Evidence"
-authors: ["Unknown authors"]
+title: "Systematic Review and Meta-Analysis of Quality Claims Associated with Fresh Pet Food: Evaluating Scientific Evidence for Additives, Ingredient Quality, and Effects of Processing in Pet Nutrition"
+authors: [Jobe MT, Downs KM]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Animals"
 doi: 10.3390/ani16010041
 source_type: peer-reviewed
 evidence_tier: B

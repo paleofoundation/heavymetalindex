@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00216-020-02673-x
 cite_key: authors2020-crm-rapid-response-approach-for-the-certification-of
-title: "CRM rapid response approach for the certification of arsenic species"
-authors: ["Unknown authors"]
+title: "CRM rapid response approach for the certification of arsenic species and toxic trace elements in baby cereal coarse rice flour certified reference material BARI-1"
+authors: [Gajdosechova Z, Grinberg P, Nadeau K, Yang L, Meija J, Gürleyük H, Wozniak BJ, Feldmann J, Savage L, Deawtong S, Kumkrong P, Kubachka K, Mester Z]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Analytical and Bioanalytical Chemistry"
 doi: 10.1007/s00216-020-02673-x
 source_type: peer-reviewed
 evidence_tier: B

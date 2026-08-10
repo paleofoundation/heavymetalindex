@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2478-aoas-2024-0069
 cite_key: authors2024-assessing-human-risks-and-benefits-associated-with-mercury
-title: "ASSESSING HUMAN RISKS AND BENEFITS ASSOCIATED WITH MERCURY CONTAMINATION"
-authors: ["Unknown authors"]
+title: "Assessing Human Risks and Benefits Associated with Mercury Contamination Versus Fatty Acids and Lipid Quality Indices in Anguilla anguilla L., Perca fluviatilis L. and Rutilus rutilus L. from the Olsztyn Lake District, Poland"
+authors: [Łuczyńska J, Łuczyński MJ, Nowosad J, Kucharczyk D]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Annals of Animal Science"
 doi: 10.2478/aoas-2024-0069
 source_type: peer-reviewed
 evidence_tier: B

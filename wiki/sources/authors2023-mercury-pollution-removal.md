@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms24055009
 cite_key: authors2023-mercury-pollution-removal
-title: "Mercury Pollution Removal"
-authors: ["Unknown authors"]
+title: "Aquatic Bacteria Rheinheimera tangshanensis New Ability for Mercury Pollution Removal"
+authors: [Zhao M, Zheng G, Kang X, Zhang X, Guo J, Wang S, Chen Y, Xue L]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms24055009
 source_type: peer-reviewed
 evidence_tier: B

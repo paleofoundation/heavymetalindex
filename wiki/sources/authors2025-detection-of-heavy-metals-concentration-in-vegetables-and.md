@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-11591-ijphs-v14i4-26823
 cite_key: authors2025-detection-of-heavy-metals-concentration-in-vegetables-and
-title: "Detection of heavy metals concentration in vegetables and"
-authors: ["Unknown authors"]
+title: "Detection of heavy metals concentration in vegetables and analyze the health risks"
+authors: [Gurmu SL, Mengistu FW, Beyene AY, Ketema B, Tadesse BM]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Public Health Science (IJPHS)"
 doi: 10.11591/ijphs.v14i4.26823
 source_type: peer-reviewed
 evidence_tier: B

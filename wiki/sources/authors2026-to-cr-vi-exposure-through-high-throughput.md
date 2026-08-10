@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-7150-ijms-119668
 cite_key: authors2026-to-cr-vi-exposure-through-high-throughput
-title: "to Cr(VI) Exposure Through High-Throughput"
-authors: ["Unknown authors"]
+title: "Decoding Short- and Long-Term Cellular Adaptations to Cr(VI) Exposure Through High-Throughput Transcriptomics"
+authors: [Yeh IJ, Wang CY, Phan NN, Xuan DTM, Ko CC, Kumar S, Solomon DD, Huang AM, Yen MC, Lan CCE]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "International Journal of Medical Sciences"
 doi: 10.7150/ijms.119668
 source_type: peer-reviewed
 evidence_tier: B

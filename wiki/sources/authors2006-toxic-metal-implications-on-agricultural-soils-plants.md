@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph17072204
 cite_key: authors2006-toxic-metal-implications-on-agricultural-soils-plants
-title: "Toxic Metal Implications on Agricultural Soils, Plants,"
-authors: ["Unknown authors"]
+title: "Toxic Metal Implications on Agricultural Soils, Plants, Animals, Aquatic life and Human Health"
+authors: [Okereafor U, Makhatha M, Mekuto L, Uche-Okereafor N, Sebola T, Mavumengwana V]
 year: 2006
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph17072204
 source_type: peer-reviewed
 evidence_tier: B

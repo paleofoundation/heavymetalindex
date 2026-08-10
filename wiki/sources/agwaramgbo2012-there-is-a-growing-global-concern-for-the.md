@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4236-jep-2012-38086
 cite_key: agwaramgbo2012-there-is-a-growing-global-concern-for-the
-title: "There is a growing global concern for the environmental and health hazards posed by heavy metal contaminants, espe-"
-authors: ["Lovell Agwaramgbo", "Charne Thomas#", "Chardai Grays", "Jessica Small", "Tajeve Young Chemistry Department", "Dillard University", "New Orleans", "USA. Email: lagwaramgbo@dillard.edu"]
+title: "An Evaluation of Edible Plant Extracts for the Phytoremediation of Lead Contaminated Water"
+authors: [Agwaramgbo L, Thomas C, GrayS C, Small J, Young T]
 year: 2012
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental Protection"
 doi: 10.4236/jep.2012.38086
 source_type: peer-reviewed
 evidence_tier: B

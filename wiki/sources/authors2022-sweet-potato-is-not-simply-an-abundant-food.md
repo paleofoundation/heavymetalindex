@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox11091648
 cite_key: authors2022-sweet-potato-is-not-simply-an-abundant-food
-title: "Sweet Potato Is Not Simply an Abundant Food Crop: A"
-authors: ["Unknown authors"]
+title: "Sweet Potato Is Not Simply an Abundant Food Crop: A Comprehensive Review of Its Phytochemical Constituents, Biological Activities, and the Effects of Processing"
+authors: [Laveriano-Santos EP, López-Yerena A, Jaime-Rodríguez C, González-Coria J, Lamuela-Raventós RM, Vallverdú-Queralt A, Romanyà J, Pérez M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox11091648
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1289-ehp-021100773
 cite_key: authors2002-ettinger-adrienne-s-robert-l-bornschein-mark-farfel
-title: "Ettinger, Adrienne S., Robert L. Bornschein, Mark Farfel, Carla Campbell, N. Beth Ragan,"
-authors: ["Unknown authors"]
+title: "Assessment of cleaning to control lead dust in homes of children with moderate lead poisoning: treatment of lead-exposed children trial."
+authors: [Ettinger AS, Bornschein RL, Farfel M, Campbell C, Ragan NB, Rhoads GG, Brophy M, Wilkens S, Dockery DW]
 year: 2002
-publication: "Peer-reviewed article"
+publication: "Environmental Health Perspectives"
 doi: 10.1289/ehp.021100773
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-26444-aaem-118228
 cite_key: authors2021-chromium-iii-and-chromium-vi-as-important
-title: "Chromium (III) and chromium (VI) as important"
-authors: ["Unknown authors"]
+title: "Chromium (III) and chromium (VI) as important players in the induction of genotoxicity – current view"
+authors: [Sawicka E, Jurkowska K, Piwowar A]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Annals of Agricultural and Environmental Medicine"
 doi: 10.26444/aaem/118228
 source_type: peer-reviewed
 evidence_tier: B

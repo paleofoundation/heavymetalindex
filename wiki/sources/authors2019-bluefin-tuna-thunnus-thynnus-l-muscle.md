@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules24071273
 cite_key: authors2019-bluefin-tuna-thunnus-thynnus-l-muscle
-title: "Bluefin Tuna (Thunnus thynnus L.) Muscle"
-authors: ["Unknown authors"]
+title: "Determination of Hg in Farmed and Wild Atlantic Bluefin Tuna (Thunnus thynnus L.) Muscle"
+authors: [Annibaldi A, Truzzi C, Carnevali O, Pignalosa P, Api M, Scarponi G, Illuminati S]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules24071273
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15586-qas-v15i3-1222
 cite_key: authors2023-accumulation-characteristics-and-evaluation-of-heavy-metals-in
-title: "Accumulation characteristics and evaluation of heavy metals in soils and vegetables"
-authors: ["Unknown authors"]
+title: "Accumulation characteristics and evaluation of heavy metals in soils and vegetables of plastic-covered sheds in typical red soil areas of China"
+authors: [Nie G, Tu T, Hu L, Wu L, Zhou Y]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Quality Assurance and Safety of Crops & Foods"
 doi: 10.15586/qas.v15i3.1222
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fenvc-2025-1526366
 cite_key: authors2025-adsorption-of-heavy-metals-onto
-title: "Adsorption of heavy metals onto"
-authors: ["Unknown authors"]
+title: "Adsorption of heavy metals onto food wastes: a review"
+authors: [Nyairo W, Njewa JB, Shikuku VO]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Environmental Chemistry"
 doi: 10.3389/fenvc.2025.1526366
 source_type: peer-reviewed
 evidence_tier: B

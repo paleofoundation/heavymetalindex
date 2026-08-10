@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-8b00647
 cite_key: authors2018-quantification-of-mercury-bioavailability-for-methylation-using
-title: "Quantiﬁcation of Mercury Bioavailability for Methylation Using"
-authors: ["Unknown authors"]
+title: "Quantification of Mercury Bioavailability for Methylation Using Diffusive Gradient in Thin-Film Samplers"
+authors: [Ndu U, Christensen GA, Rivera NA, Gionfriddo CM, Deshusses MA, Elias DA, Hsu-Kim H]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.8b00647
 source_type: peer-reviewed
 evidence_tier: B

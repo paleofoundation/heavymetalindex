@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules30132838
 cite_key: authors2025-retention-reduced-acrylamide-formation-and-suitability-for-gluten
-title: "retention, reduced acrylamide formation, and suitability for gluten-free formulations. The"
-authors: ["Unknown authors"]
+title: "Edible Tubers as a Source of Bioactive Compounds in Baked Goods: Benefits and Drawbacks"
+authors: [Wiśniewski R, Pejcz E, Harasym J]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules30132838
 source_type: peer-reviewed
 evidence_tier: B

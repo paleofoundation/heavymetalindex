@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2024-e33905
 cite_key: authors2024-health-benefits-and-health-risks-of-contaminated-fish
-title: "Health benefits and health risks of contaminated fish"
-authors: ["Unknown authors"]
+title: "Health benefits and health risks of contaminated fish consumption: Current research outputs, research approaches, and perspectives"
+authors: [Demelash Abera B, Alefe Adimas M]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2024.e33905
 source_type: peer-reviewed
 evidence_tier: B

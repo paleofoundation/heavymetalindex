@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics11060546
 cite_key: authors2023-exposure-to-methylmercury-at-juvenile-stage-worsens
-title: "Exposure to Methylmercury at Juvenile Stage Worsens"
-authors: ["Unknown authors"]
+title: "Exposure to Methylmercury at Juvenile Stage Worsens Autism-like Symptoms in Adult BTBR T+tf/J Mice Due to Lack of Nuclear Factor Erythroid 2-Related Factor 2 Signaling Upregulation in Periphery and Brain"
+authors: [Algahtani MM, Ahmad SF, Alkharashi LA, Al-Harbi NO, Alanazi WA, Alhamed AS, Attia SM, Bakheet SA, Ibrahim KE, Nadeem A]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics11060546
 source_type: peer-reviewed
 evidence_tier: B

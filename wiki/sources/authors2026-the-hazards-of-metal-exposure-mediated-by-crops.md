@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-isci-2026-116147
 cite_key: authors2026-the-hazards-of-metal-exposure-mediated-by-crops
-title: "The hazards of metal exposure mediated by crops to"
-authors: ["Unknown authors"]
+title: "The hazards of metal exposure mediated by crops to human health from perspective of environmental health and control strategies"
+authors: [Yang H, Zhang F, Zhou J, Zhu J, Cui D, Zhang X, Zhang Z]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "iScience"
 doi: 10.1016/j.isci.2026.116147
 source_type: peer-reviewed
 evidence_tier: B

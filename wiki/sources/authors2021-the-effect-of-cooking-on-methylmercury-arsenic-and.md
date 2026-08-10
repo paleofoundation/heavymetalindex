@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics9020027
 cite_key: authors2021-the-effect-of-cooking-on-methylmercury-arsenic-and
-title: "the Effect of Cooking on Methylmercury, Arsenic, and"
-authors: ["Unknown authors"]
+title: "Assessment of In Vitro Bioaccessibility and In Vivo Oral Bioavailability as Complementary Tools to Better Understand the Effect of Cooking on Methylmercury, Arsenic, and Selenium in Tuna"
+authors: [Charette T, Bueno Dalto D, Rosabal M, Matte J, Amyot M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics9020027
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-019-49087-z
 cite_key: authors2018-minerals-and-heavy-metals-in
-title: "minerals and heavy metals in"
-authors: ["Unknown authors"]
+title: "Concentrations of macronutrients, minerals and heavy metals in home-prepared diets for adult dogs and cats"
+authors: [Pedrinelli V, Zafalon RVA, Rodrigues RBA, Perini MP, Conti RMC, Vendramini THA, de Carvalho Balieiro JC, Brunetto MA]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-019-49087-z
 source_type: peer-reviewed
 evidence_tier: B

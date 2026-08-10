@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics10090516
 cite_key: authors2022-health-risk-assessment-attributed-to-consumption-of-fish
-title: "Health Risk Assessment Attributed to Consumption of Fish"
-authors: ["Unknown authors"]
+title: "Health Risk Assessment Attributed to Consumption of Fish Contaminated with Mercury in the Rio Branco Basin, Roraima, Amazon, Brazil"
+authors: [de Vasconcellos ACS, Ferreira SRB, de Sousa CC, de Oliveira MW, de Oliveira Lima M, Basta PC]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics10090516
 source_type: peer-reviewed
 evidence_tier: B

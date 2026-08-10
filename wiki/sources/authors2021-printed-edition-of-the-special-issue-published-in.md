@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics8030072
 cite_key: authors2021-printed-edition-of-the-special-issue-published-in
-title: "Printed Edition of the Special Issue Published in Toxics"
-authors: ["Unknown authors"]
+title: "Prevalence, Fate and Effects of Plastic in Freshwater Environments: New Findings and Next Steps"
+authors: [Khan FR]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics8030072
 source_type: peer-reviewed
 evidence_tier: B

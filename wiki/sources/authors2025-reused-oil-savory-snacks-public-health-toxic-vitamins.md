@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-54393-fbt-v5i2-175
 cite_key: authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins
-title: "Reused Oil, Savory Snacks, Public Health, Toxic vitamins. Frying is a common method for preparing many foods, but the deep-frying process can"
-authors: ["Unknown authors"]
+title: "Physico-chemical Analysis and Metallic Contamination of Reused Oil and Savory Snacks Available at University Canteens"
+authors: [Qamar R, Shah AM, Kazi TG, Khanzada B, Memon FN]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Futuristic Biotechnology"
 doi: 10.54393/fbt.v5i2.175
 source_type: peer-reviewed
 evidence_tier: B

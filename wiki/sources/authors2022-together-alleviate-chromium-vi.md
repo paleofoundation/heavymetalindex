@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2022-963394
 cite_key: authors2022-together-alleviate-chromium-vi
-title: "Together Alleviate Chromium (VI)"
-authors: ["Unknown authors"]
+title: "Hydrogen Sulfide and Silicon Together Alleviate Chromium (VI) Toxicity by Modulating Morpho-Physiological and Key Antioxidant Defense Systems in Chickpea (Cicer arietinum L.) Varieties"
+authors: [Singh D, Singh CK, Siddiqui MH, Alamri S, Sarkar SK, Rathore A, Prasad SK, Singh D, Sharma NL, Kalaji HM, Brysiewicz A]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2022.963394
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-jacs-5c08918
 cite_key: authors2025-tracking-chromium-evolution-on-ceria-from-particles-to
-title: "Tracking Chromium Evolution on Ceria from Particles to Single"
-authors: ["Unknown authors"]
+title: "Tracking Chromium Evolution on Ceria from Particles to Single Atoms: A Catalyst Regeneration Strategy for Ammonia Oxidation"
+authors: [Surin I, Agrachev M, Krumeich F, Stoian D, Yang Q, Otroshchenko T, Weiss J, Kubis C, Jeschke G, Kondratenko EV, Pérez-Ramírez J]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of the American Chemical Society"
 doi: 10.1021/jacs.5c08918
 source_type: peer-reviewed
 evidence_tier: B

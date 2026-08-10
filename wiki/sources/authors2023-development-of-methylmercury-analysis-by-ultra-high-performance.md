@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-22146-ijc-82512
 cite_key: authors2023-development-of-methylmercury-analysis-by-ultra-high-performance
-title: "Development of Methylmercury Analysis by Ultra-High Performance Liquid"
-authors: ["Unknown authors"]
+title: "Development of Methylmercury Analysis by Ultra-High Performance Liquid Chromatography Coupled with ICP-MS and Its Application on Sharks’ Meat Measurement"
+authors: [Suratno S, Wahono SK, Siswanta D, Aprilita NH]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Indonesian Journal of Chemistry"
 doi: 10.22146/ijc.82512
 source_type: peer-reviewed
 evidence_tier: B

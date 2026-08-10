@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ani13040697
 cite_key: authors2023-mercury-in-selected-abiotic-and-biotic-elements-in
-title: "Mercury in Selected Abiotic and Biotic Elements in Two Lakes"
-authors: ["Unknown authors"]
+title: "Mercury in Selected Abiotic and Biotic Elements in Two Lakes in Poland: Implications for Environmental Protection and Food Safety"
+authors: [Rajkowska-Myśliwiec M, Protasowicki M]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Animals"
 doi: 10.3390/ani13040697
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11270-016-2895-y
 cite_key: azevedo2016-cadmium-application-in-tomato-nutritional-imbalance
-title: "Cadmium Application in Tomato: Nutritional Imbalance"
-authors: ["Oxidative Stress Roberta Corrêa Nogueirol & Francisco Antonio Monteiro & Priscila Lupino Gratão & Berenice Kussumoto de Alcântara da Silva & Ricardo Antunes Azevedo"]
+title: "Cadmium Application in Tomato: Nutritional Imbalance and Oxidative Stress"
+authors: [Nogueirol RC, Monteiro FA, Gratão PL, de Alcântara da Silva BK, Azevedo RA]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Water, Air, & Soil Pollution"
 doi: 10.1007/s11270-016-2895-y
 source_type: peer-reviewed
 evidence_tier: B

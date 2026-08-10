@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods13213511
 cite_key: issues2024-environmental-contaminants-in-fish-products-food-safety
-title: "Environmental Contaminants in Fish Products: Food Safety"
-authors: ["Issues", "Remediation Strategies Pierina Visciano Department of Bioscience", "Technology for Food", "Agriculture", "Environment", "University of Teramo", "Via R. Balzarini", "Teramo"]
+title: "Environmental Contaminants in Fish Products: Food Safety Issues and Remediation Strategies"
+authors: [Visciano P]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods13213511
 source_type: peer-reviewed
 evidence_tier: B

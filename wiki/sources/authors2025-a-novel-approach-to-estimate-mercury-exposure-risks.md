@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics13080621
 cite_key: authors2025-a-novel-approach-to-estimate-mercury-exposure-risks
-title: "A Novel Approach to Estimate Mercury Exposure Risks Through"
-authors: ["Unknown authors"]
+title: "A Novel Approach to Estimate Mercury Exposure Risks Through Fish Consumption Based on the Selenium–Mercury Molar Ratio"
+authors: [Cabral CDS, Monteiro LC, Maciel Pereira TA, da Costa Júnior WA, Oliveira IADS, Canela TA, Bernardi JVE, Pestana IA, Almeida RD]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13080621
 source_type: peer-reviewed
 evidence_tier: B

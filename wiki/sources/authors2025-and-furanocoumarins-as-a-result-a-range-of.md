@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-fsn3-71860
 cite_key: authors2025-and-furanocoumarins-as-a-result-a-range-of
-title: "and furanocoumarins. As a result, a range of bioactivities, namely antioxidant, antibacterial, antifungal, cytotoxic, anti-­diabetic,"
-authors: ["Unknown authors"]
+title: "Pastinaca sativa L.: Nutritional Composition, Phytochemistry, and Pharmacological Properties Supporting Its Potential as a Functional Food and Therapeutic Agent"
+authors: [Khatua S, Nag A, Sen S, Sarkar J, Acharya K, Calina D, Setzer WN, Sharifi‐Rad J]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.71860
 source_type: peer-reviewed
 evidence_tier: B

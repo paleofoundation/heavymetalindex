@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-47866-2615-9252-vjfc-4357
 cite_key: authors2024-assessment-of-arsenic-concentration-in-rice-and-risk
-title: "Assessment of arsenic concentration in rice and risk characterizations"
-authors: ["Unknown authors"]
+title: "Assessment of arsenic concentration in rice and risk characterizations in some provinces in the Red River Delta region"
+authors: [Nguyen Thi Phuong M, Dinh Thi D, Nguyen Manh K, Pham Thanh N, Duong Thi H, "Faculty of Environmental sciences, University of Science, Vietnam National University, Hanoi, Viet Nam", "Faculty of Environmental sciences, University of Science, Vietnam National University, Hanoi, Viet Nam", "Faculty of Environmental sciences, University of Science, Vietnam National University, Hanoi, Viet Nam", "Faculty of Environmental sciences, University of Science, Vietnam National University, Hanoi, Viet Nam", "Institute of Science and Technology for Energy and Environment, Vietnam Academy of Science and Technology, Hanoi, Vietnam"]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Heavy metals and arsenic concentrations in water, agricultural soil, and rice in Ngan Son district, Bac Kan province, Vietnam"
 doi: 10.47866/2615-9252/vjfc.4357
 source_type: peer-reviewed
 evidence_tier: B

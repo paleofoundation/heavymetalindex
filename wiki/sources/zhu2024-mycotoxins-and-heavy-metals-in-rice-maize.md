@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jhazmat-2024-134695
 cite_key: zhu2024-mycotoxins-and-heavy-metals-in-rice-maize
-title: "mycotoxins and heavy metals in rice, maize,"
-authors: ["wheat flour marketed in Shanghai City Zuoyin Zhu", "Wenbo Guo", "Haisheng Cheng", "Hanke Zhao", "Jie Wang", "Mohamed F. Abdallah", "Xinli Zhou", "Hulong Lei"]
+title: "Co-contamination and interactions of multiple mycotoxins and heavy metals in rice, maize, soybeans, and wheat flour marketed in Shanghai City"
+authors: [Zhu Z, Guo W, Cheng H, Zhao H, Wang J, Abdallah MF, Zhou X, Lei H, Tu W, Wang H, Yang J]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Hazardous Materials"
 doi: 10.1016/j.jhazmat.2024.134695
 source_type: peer-reviewed
 evidence_tier: B

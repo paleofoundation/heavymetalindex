@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11367-026-02604-5
 cite_key: komonen2026-environmental-and-ecotoxicity-impacts-of-sunscreen-formulations-with
-title: "Environmental and ecotoxicity impacts of sunscreen formulations with"
-authors: ["a biobased SPF-booster: a life cycle assessment Katri Behm · Mona Arnold · Inka-Mari Sarvola · Pauli Komonen"]
+title: "Environmental and ecotoxicity impacts of sunscreen formulations with a biobased SPF-booster: a life cycle assessment"
+authors: [Behm K, Arnold M, Sarvola IM, Komonen P]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "The International Journal of Life Cycle Assessment"
 doi: 10.1007/s11367-026-02604-5
 source_type: peer-reviewed
 evidence_tier: B

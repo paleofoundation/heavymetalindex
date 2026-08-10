@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1111-brv-12840
 cite_key: authors2022-mercury-contamination-and-body-condition-in-birds
-title: "mercury contamination and body condition in birds"
-authors: ["Unknown authors"]
+title: "Quantitative meta‐analysis reveals no association between mercury contamination and body condition in birds"
+authors: [Carravieri A, Vincze O, Bustamante P, Ackerman JT, Adams EM, Angelier F, Chastel O, Cherel Y, Gilg O, Golubova E, Kitaysky A, Luff K, Seewagen CL, Strøm H, Will AP, Yannic G, Giraudeau M, Fort J]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Biological Reviews"
 doi: 10.1111/brv.12840
 source_type: peer-reviewed
 evidence_tier: B

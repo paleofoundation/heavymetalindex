@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-21660-2021-79-6221
 cite_key: authors2021-study-on-adsorption-of-heavy-metals-by-rice
-title: "STUDY ON ADSORPTION OF HEAVY METALS BY RICE HUSK"
-authors: ["Unknown authors"]
+title: "STUDY ON ADSORPTION OF HEAVY METALS BY RICE HUSK AND EXTRACTION OF HEAVY METALS ADSORBED IN RICE HUSK"
+authors: [Yanaka A]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "International Journal of GEOMATE"
 doi: 10.21660/2021.79.6221
 source_type: peer-reviewed
 evidence_tier: B

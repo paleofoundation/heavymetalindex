@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-4c12759
 cite_key: authors2025-sulfate-reduction-drives-elevated-methylmercury-formation-in-the
-title: "Sulfate Reduction Drives Elevated Methylmercury Formation in the"
-authors: ["Unknown authors"]
+title: "Sulfate Reduction Drives Elevated Methylmercury Formation in the Water Column of a Eutrophic Freshwater Lake"
+authors: [Peterson BD, Janssen SE, Poulin BA, Ogorek JM, White AM, McDaniel EA, Marick RA, Armstrong GJ, Scheel ND, Tate MT, Krabbenhoft DP, McMahon KD]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.4c12759
 source_type: peer-reviewed
 evidence_tier: B

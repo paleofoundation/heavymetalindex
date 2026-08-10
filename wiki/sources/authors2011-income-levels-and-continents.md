@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-jn-nxz158
 cite_key: authors2011-income-levels-and-continents
-title: "Income Levels and Continents"
-authors: ["Unknown authors"]
+title: "The Relative Caloric Prices of Healthy and Unhealthy Foods Differ Systematically across Income Levels and Continents"
+authors: [Headey DD, Alderman HH]
 year: 2011
-publication: "Peer-reviewed article"
+publication: "The Journal of Nutrition"
 doi: 10.1093/jn/nxz158
 source_type: peer-reviewed
 evidence_tier: B

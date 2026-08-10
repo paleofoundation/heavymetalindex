@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pone-0266898
 cite_key: authors2022-against-chromium-induced-brain-damage-in
-title: "against chromium-induced brain damage in"
-authors: ["Unknown authors"]
+title: "RETRACTED: Neuroprotective effect of sodium alginate against chromium-induced brain damage in rats"
+authors: [Saleh EM, Hamdy GM, Hassan RE]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0266898
 source_type: peer-reviewed
 evidence_tier: B

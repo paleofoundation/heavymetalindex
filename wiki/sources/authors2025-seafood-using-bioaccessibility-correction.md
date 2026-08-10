@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-jox15030092
 cite_key: authors2025-seafood-using-bioaccessibility-correction
-title: "Seafood Using Bioaccessibility Correction"
-authors: ["Unknown authors"]
+title: "Comprehensive Risk Assessment of Metals and Minerals in Seafood Using Bioaccessibility Correction"
+authors: [Milea ȘA, Simionov IA, Lazăr NN, Iticescu C, Timofti M, Georgescu PL, Faggio C]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Xenobiotics"
 doi: 10.3390/jox15030092
 source_type: peer-reviewed
 evidence_tier: B

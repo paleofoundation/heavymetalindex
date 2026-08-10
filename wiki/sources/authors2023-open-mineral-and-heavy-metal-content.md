@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-023-33224-w
 cite_key: authors2023-open-mineral-and-heavy-metal-content
-title: "OPEN Mineral and heavy metal content"
-authors: ["Unknown authors"]
+title: "Mineral and heavy metal content in dry dog foods with different main animal components"
+authors: [Kępińska-Pacelik J, Biel W, Witkowicz R, Podsiadło C]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-023-33224-w
 source_type: peer-reviewed
 evidence_tier: B

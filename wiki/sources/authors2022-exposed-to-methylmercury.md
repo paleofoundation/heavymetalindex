@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12030193
 cite_key: authors2022-exposed-to-methylmercury
-title: "Exposed to Methylmercury"
-authors: ["Unknown authors"]
+title: "Clinical, Laboratory and Neurodevelopmental Findings in Children from the Yanomami-Ninam Population Chronically Exposed to Methylmercury"
+authors: [Jacques AD, Furutani de Oliveira MA, da Silva MC, Hofer CB, Basta PC]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12030193
 source_type: peer-reviewed
 evidence_tier: B

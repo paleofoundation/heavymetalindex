@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s13205-026-04841-9
 cite_key: authors2026-removal-of-hexavalent-chromium-by-facultative-anaerobic-strains
-title: "Removal of hexavalent chromium by facultative anaerobic strains"
-authors: ["Unknown authors"]
+title: "Removal of hexavalent chromium by facultative anaerobic strains Bacillus sp. S9 and Enterobacter sp. Z11 from a mining site microbial mat"
+authors: [Khan MTA, Ismail W, El-Shafey ESI, Abed RMM]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "3 Biotech"
 doi: 10.1007/s13205-026-04841-9
 source_type: peer-reviewed
 evidence_tier: B

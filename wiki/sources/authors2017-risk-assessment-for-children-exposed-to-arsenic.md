@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph15010067
 cite_key: authors2017-risk-assessment-for-children-exposed-to-arsenic
-title: "Risk Assessment for Children Exposed to Arsenic"
-authors: ["Unknown authors"]
+title: "Risk Assessment for Children Exposed to Arsenic on Baseball Fields with Contaminated Fill Material"
+authors: [Ferguson A, Black J, Sims I, Welday J, Elmir S, Goff K, Higginbotham J, Solo-Gabriele H]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph15010067
 source_type: peer-reviewed
 evidence_tier: B

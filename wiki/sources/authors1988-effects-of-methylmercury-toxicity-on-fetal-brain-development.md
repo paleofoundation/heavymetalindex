@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-55905-rdelosv18-n64-138
 cite_key: authors1988-effects-of-methylmercury-toxicity-on-fetal-brain-development
-title: "Effects of methylmercury toxicity on fetal brain development: review of"
-authors: ["Unknown authors"]
+title: "Effects of methylmercury toxicity on fetal brain development: review of mechanisms of action, maternal influences and nutritional guidelines"
+authors: [Meira NDAF, Macêdo AEG, Taketomi MSN, Meneses HDNDM]
 year: 1988
-publication: "Peer-reviewed article"
+publication: "REVISTA DELOS"
 doi: 10.55905/rdelosv18.n64-138
 source_type: peer-reviewed
 evidence_tier: B

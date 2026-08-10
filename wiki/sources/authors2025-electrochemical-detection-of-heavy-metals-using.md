@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-bios15080505
 cite_key: authors2025-electrochemical-detection-of-heavy-metals-using
-title: "Electrochemical Detection of Heavy Metals Using"
-authors: ["Unknown authors"]
+title: "Electrochemical Detection of Heavy Metals Using Graphene-Based Sensors: Advances, Meta-Analysis, Toxicity, and Sustainable Development Challenges"
+authors: [Saqib M, Solomonenko AN, Hazra NK, Aljasar SA, Korotkova EI, Dorozhko EV, Vashisth M, Kar PK]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Biosensors"
 doi: 10.3390/bios15080505
 source_type: peer-reviewed
 evidence_tier: B

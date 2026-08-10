@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1177-11786302241271553
 cite_key: authors2024-rare-earth-and-platinum-group-elements-in-environmental
-title: "Rare Earth and Platinum Group Elements In Environmental Health Insights"
-authors: ["Unknown authors"]
+title: "Rare Earth and Platinum Group Elements In Sub-Saharan Africa and Global Health: The Dark Side of the Burgeoning of Technology"
+authors: [Frazzoli C, Bocca B, Battistini B, Ruggieri F, Rovira J, Amadi CN, Offor SJ, Orisakwe OE]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Health Insights"
 doi: 10.1177/11786302241271553
 source_type: peer-reviewed
 evidence_tier: B

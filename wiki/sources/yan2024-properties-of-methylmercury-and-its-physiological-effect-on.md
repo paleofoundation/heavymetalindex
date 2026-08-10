@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-54254-2755-2721-84-20240749
 cite_key: yan2024-properties-of-methylmercury-and-its-physiological-effect-on
-title: "Properties of methylmercury and its physiological effect on"
-authors: ["the human body Weiqiang Yan", "Sinuo Li", "Zhenyu Li", "IVY Experimental School", "Jiangsu Province", "Jiangsu", "China", "Beijing Haidian Kaiwen Academy"]
+title: "Properties of methylmercury and its physiological effect on the human body"
+authors: [Yan W, Li S, Li Z]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Applied and Computational Engineering"
 doi: 10.54254/2755-2721/84/20240749
 source_type: peer-reviewed
 evidence_tier: B

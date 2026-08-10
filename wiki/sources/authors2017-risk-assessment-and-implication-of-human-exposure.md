@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph15010036
 cite_key: authors2017-risk-assessment-and-implication-of-human-exposure
-title: "Risk Assessment and Implication of Human Exposure"
-authors: ["Unknown authors"]
+title: "Risk Assessment and Implication of Human Exposure to Road Dust Heavy Metals in Jeddah, Saudi Arabia"
+authors: [Shabbaj I, Alghamdi M, Shamy M, Hassan S, Alsharif M, Khoder M]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph15010036
 source_type: peer-reviewed
 evidence_tier: B

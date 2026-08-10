@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2023-167135
 cite_key: authors2023-assessing-lead-exposure-in-u-s-pregnant-women
-title: "Assessing lead exposure in U.S. pregnant women using biological and"
-authors: ["Unknown authors"]
+title: "Assessing lead exposure in U.S. pregnant women using biological and residential measurements"
+authors: [Stanek LW, Grokhowsky N, George BJ, Thomas KW]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2023.167135
 source_type: peer-reviewed
 evidence_tier: B

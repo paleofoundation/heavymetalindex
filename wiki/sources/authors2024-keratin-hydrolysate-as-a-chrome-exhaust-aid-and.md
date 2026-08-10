@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2024-e34049
 cite_key: authors2024-keratin-hydrolysate-as-a-chrome-exhaust-aid-and
-title: "Keratin hydrolysate as a chrome exhaust aid and keratin filler in"
-authors: ["Unknown authors"]
+title: "Keratin hydrolysate as a chrome exhaust aid and keratin filler in leather processing: A cleaner technology approach for tannery solid waste management and leather manufacturing"
+authors: [Mengistu A, Angassa K, Tessema I, Andualem G, Yiheyes B, Berhane D, Abewaa M, Kassie M, Telay B]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2024.e34049
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms25031431
 cite_key: years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet
-title: "barrier. Phototoxicity caused by overexposure, especially to ultraviolet radiation (UVR), results"
-authors: ["are gaining popularity as an attractive alternative to synthetic filters. Over the past years"]
+title: "Skin Protection by Carotenoid Pigments"
+authors: [Flieger J, Raszewska-Famielec M, Radzikowska-Büchner E, Flieger W]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms25031431
 source_type: peer-reviewed
 evidence_tier: B

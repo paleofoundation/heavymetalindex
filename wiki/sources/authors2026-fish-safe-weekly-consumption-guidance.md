@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15050901
 cite_key: authors2026-fish-safe-weekly-consumption-guidance
-title: "Fish: Safe Weekly Consumption Guidance"
-authors: ["Unknown authors"]
+title: "Deterministic Pilot Risk–Benefit Assessment of Latvian Inland Fish: Safe Weekly Consumption Guidance"
+authors: [Rusko J, Murniece E, Sibule S, Lazda I, Zacs D, Medne R, Siksna I]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15050901
 source_type: peer-reviewed
 evidence_tier: B

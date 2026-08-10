@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1289-ehp418
 cite_key: authors2002-estimating-inorganic-arsenic-exposure-from-u-s-rice
 title: "Estimating Inorganic Arsenic Exposure from U.S. Rice and Total Water Intakes"
-authors: ["Unknown authors"]
+authors: [Mantha M, Yeary E, Trent J, Creed PA, Kubachka K, Hanley T, Shockey N, Heitkemper D, Caruso J, Xue J, Rice G, Wymer L, Creed JT]
 year: 2002
-publication: "Peer-reviewed article"
+publication: "Environmental Health Perspectives"
 doi: 10.1289/ehp418
 source_type: peer-reviewed
 evidence_tier: B

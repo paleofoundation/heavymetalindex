@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox10020274
 cite_key: piccinino2021-in-cosmetic-and-cosmeceutical-applications-focusing-on-sunscreen
-title: "in cosmetic and cosmeceutical applications, focusing on sunscreen and antiaging formulations."
-authors: ["Advances in the technology for the preparation of lignin nanoparticles are described highlighting structure activity relationships. Citation: Piccinino", "Capecchi"]
+title: "Nano-Structured Lignin as Green Antioxidant and UV Shielding Ingredient for Sunscreen Applications"
+authors: [Piccinino D, Capecchi E, Tomaino E, Gabellone S, Gigli V, Avitabile D, Saladino R]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox10020274
 source_type: peer-reviewed
 evidence_tier: B

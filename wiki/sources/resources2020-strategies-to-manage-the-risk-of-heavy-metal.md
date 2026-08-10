@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15302-j-fase-2020335
 cite_key: resources2020-strategies-to-manage-the-risk-of-heavy-metal
-title: "Strategies to manage the risk of heavy metal(loid)"
-authors: ["contamination in agricultural soils Fang-Jie ZHAO (✉) College of Resources", "Environmental Sciences", "Nanjing Agricultural University", "Nanjing", "China"]
+title: "Strategies to manage the risk of heavy metal(loid) contamination in agricultural soils"
+authors: [ZHAO FJ]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Frontiers of Agricultural Science and Engineering"
 doi: 10.15302/j-fase-2020335
 source_type: peer-reviewed
 evidence_tier: B

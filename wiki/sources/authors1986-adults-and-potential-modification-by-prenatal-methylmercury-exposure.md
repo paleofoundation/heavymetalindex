@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1289-ehp274
 cite_key: authors1986-adults-and-potential-modification-by-prenatal-methylmercury-exposure
-title: "Adults and Potential Modification by Prenatal Methylmercury Exposure"
-authors: ["Unknown authors"]
+title: "Aerobic Fitness and Neurocognitive Function Scores in Young Faroese Adults and Potential Modification by Prenatal Methylmercury Exposure"
+authors: [Oulhote Y, Debes F, Vestergaard S, Weihe P, Grandjean P]
 year: 1986
-publication: "Peer-reviewed article"
+publication: "Environmental Health Perspectives"
 doi: 10.1289/ehp274
 source_type: peer-reviewed
 evidence_tier: B

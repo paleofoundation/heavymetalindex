@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5296-jbls-v6i2-7602
 cite_key: authors2015-variability-in-levels-of-heavy-metals-in-water
-title: "Variability in Levels of Heavy Metals in Water and Fish"
-authors: ["Unknown authors"]
+title: "Variability in Levels of Heavy Metals in Water and Fish (Chrysichthys nigrodigitatus) tissues from Badagry Creek, Nigeria"
+authors: [Ajani EK, Balogun KJ]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Journal of Biology and Life Science"
 doi: 10.5296/jbls.v6i2.7602
 source_type: peer-reviewed
 evidence_tier: B

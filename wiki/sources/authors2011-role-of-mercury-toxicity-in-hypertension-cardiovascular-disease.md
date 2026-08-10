@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1111-j-1751-7176-2011-00489-x
 cite_key: authors2011-role-of-mercury-toxicity-in-hypertension-cardiovascular-disease
-title: "Role of Mercury Toxicity in Hypertension, Cardiovascular Disease,"
-authors: ["Unknown authors"]
+title: "Role of Mercury Toxicity in Hypertension, Cardiovascular Disease, and Stroke"
+authors: [Houston MC]
 year: 2011
-publication: "Peer-reviewed article"
+publication: "The Journal of Clinical Hypertension"
 doi: 10.1111/j.1751-7176.2011.00489.x
 source_type: peer-reviewed
 evidence_tier: B

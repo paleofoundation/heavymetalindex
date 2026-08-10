@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules26092811
 cite_key: authors2021-ileana-ielo-5-dario-drommi-6-elisabetta-scali
-title: "Ileana Ielo 5 , Dario Drommi 6 , Elisabetta Scali 7 , Maria Rosaria Plutino 5 , Giuseppe Rosace 8"
-authors: ["Unknown authors"]
+title: "The Different Facets of Triclocarban: A Review"
+authors: [Iacopetta D, Catalano A, Ceramella J, Saturnino C, Salvagno L, Ielo I, Drommi D, Scali E, Plutino MR, Rosace G, Sinicropi MS]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules26092811
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1158-2767-9764-crc-25-0251
 cite_key: authors2022-targeting-trop2-in-poorly-differentiated
-title: "Targeting TROP2, in Poorly Differentiated"
-authors: ["Unknown authors"]
+title: "Preclinical Activity of Datopotamab Deruxtecan (Dato-DXd), an Antibody–Drug Conjugate Targeting TROP2, in Poorly Differentiated Endometrial Carcinomas"
+authors: [Santin NG, Sethi N, Bellone S, Demirkiran C, Ettorre VM, Greenman M, McNamara B, Buza N, Hartwich TMP, Palmieri L, Lorusso D, Santin AD]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Cancer Research Communications"
 doi: 10.1158/2767-9764.crc-25-0251
 source_type: peer-reviewed
 evidence_tier: B

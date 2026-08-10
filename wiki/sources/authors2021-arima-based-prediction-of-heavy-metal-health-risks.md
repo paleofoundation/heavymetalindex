@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics14020166
 cite_key: authors2021-arima-based-prediction-of-heavy-metal-health-risks
-title: "ARIMA-Based Prediction of Heavy Metal Health Risks in"
-authors: ["Unknown authors"]
+title: "ARIMA-Based Prediction of Heavy Metal Health Risks in Drinking Water Sources of Southwest Guizhou, China"
+authors: [Wang H, Zhong L, Sun Y, Li Q]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics14020166
 source_type: peer-reviewed
 evidence_tier: B

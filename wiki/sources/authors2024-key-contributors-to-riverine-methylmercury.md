@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41467-024-53479-9
 cite_key: authors2024-key-contributors-to-riverine-methylmercury
-title: "key contributors to riverine methylmercury"
-authors: ["Unknown authors"]
+title: "Global metagenomic survey identifies sewage-derived hgcAB+ microorganisms as key contributors to riverine methylmercury production"
+authors: [Xia J, Yuan Z, Jiang F]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Nature Communications"
 doi: 10.1038/s41467-024-53479-9
 source_type: peer-reviewed
 evidence_tier: B

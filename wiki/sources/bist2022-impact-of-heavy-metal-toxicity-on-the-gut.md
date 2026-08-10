@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1007-s12011-021-03092-4
 cite_key: bist2022-impact-of-heavy-metal-toxicity-on-the-gut
 title: "Impact of Heavy Metal Toxicity on the Gut Microbiota and Its Relationship with Metabolites and Future Probiotics Strategy: a Review"
-authors: ["bist"]
+authors: [Bist P, Choudhary S]
 year: 2022
 publication: "Biological Trace Element Research"
 doi: "10.1007/s12011-021-03092-4"

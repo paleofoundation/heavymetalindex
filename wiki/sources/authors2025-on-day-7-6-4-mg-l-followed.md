@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-12912-27197050-210714
 cite_key: authors2025-on-day-7-6-4-mg-l-followed
-title: "on day 7 (6.4 mg/L), followed by a drastic decrease, indicating high fluctuation. The control treatment (K) showed"
-authors: ["Unknown authors"]
+title: "Phytoremediation of ammonia and water quality improvement in common carp (<i>Cyprinus carpio</i>) culture using <i>Ipomoea aquatica</i> and <i>Lemna minor</i>"
+authors: [Asniarti A, Fahruddin F, Tambaru E]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Ecological Engineering & Environmental Technology"
 doi: 10.12912/27197050/210714
 source_type: peer-reviewed
 evidence_tier: B

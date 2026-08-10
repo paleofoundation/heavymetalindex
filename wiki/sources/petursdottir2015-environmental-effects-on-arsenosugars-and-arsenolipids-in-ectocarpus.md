@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1071-en14229
 cite_key: petursdottir2015-environmental-effects-on-arsenosugars-and-arsenolipids-in-ectocarpus
 title: "Environmental effects on arsenosugars and arsenolipids in Ectocarpus (Phaeophyta)"
-authors: ["petursdottir"]
+authors: [Pétursdóttir ÁH, Fletcher K, Gunnlaugsdóttir H, Krupp E, Küpper FC, Feldmann J]
 year: 2015
 publication: "Environmental Chemistry"
 doi: "10.1071/en14229"

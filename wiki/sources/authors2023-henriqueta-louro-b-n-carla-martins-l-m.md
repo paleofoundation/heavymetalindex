@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-ijheh-2023-114139
 cite_key: authors2023-henriqueta-louro-b-n-carla-martins-l-m
-title: "Henriqueta Louro b, n, Carla Martins l, m, Matthieu Meslin o, Lars Niemann p,"
-authors: ["Unknown authors"]
+title: "How to use human biomonitoring in chemical risk assessment: Methodological aspects, recommendations, and lessons learned from HBM4EU"
+authors: [Santonen T, Mahiout S, Alvito P, Apel P, Bessems J, Bil W, Borges T, "Bose-O'Reilly S", Buekers J, Cañas Portilla AI, Calvo AC, de Alba González M, Domínguez-Morueco N, López ME, Falnoga I, Gerofke A, Caballero MDCG, Horvat M, Huuskonen P, Kadikis N, Kolossa-Gehring M, Lange R, Louro H, Martins C, Meslin M, Niemann L, Díaz SP, Plichta V, Porras SP, Rousselle C, Scholten B, Silva MJ, Šlejkovec Z, Tratnik JS, Joksić AŠ, Tarazona JV, Uhl M, Van Nieuwenhuyse A, Viegas S, Vinggaard AM, Woutersen M, Schoeters G]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Hygiene and Environmental Health"
 doi: 10.1016/j.ijheh.2023.114139
 source_type: peer-reviewed
 evidence_tier: B

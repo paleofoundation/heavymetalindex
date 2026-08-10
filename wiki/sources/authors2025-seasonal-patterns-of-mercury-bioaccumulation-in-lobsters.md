@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-20935-acadbiol7544
 cite_key: authors2025-seasonal-patterns-of-mercury-bioaccumulation-in-lobsters
-title: "Seasonal patterns of mercury bioaccumulation in lobsters"
-authors: ["Unknown authors"]
+title: "Seasonal patterns of mercury bioaccumulation in lobsters (Homarus americanus) from Maine"
+authors: [Stoicov D, Bonin CA, van Wijnen AJ, Lewallen EA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Academia Biology"
 doi: 10.20935/acadbiol7544
 source_type: peer-reviewed
 evidence_tier: B

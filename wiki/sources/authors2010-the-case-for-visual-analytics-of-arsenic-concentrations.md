@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph7051970
 cite_key: authors2010-the-case-for-visual-analytics-of-arsenic-concentrations
-title: "The Case for Visual Analytics of Arsenic Concentrations in"
-authors: ["Unknown authors"]
+title: "The Case for Visual Analytics of Arsenic Concentrations in Foods"
+authors: [Johnson MO, Cohly HHP, Isokpehi RD, Awofolu OR]
 year: 2010
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph7051970
 source_type: peer-reviewed
 evidence_tier: B

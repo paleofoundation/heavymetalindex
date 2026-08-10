@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants14101435
 cite_key: authors2025-pollutants-like-pesticides-fertilizers-fungicides-herbicides-heavy-met
-title: "pollutants like pesticides, fertilizers, fungicides, herbicides, heavy metals, dyes, and other"
-authors: ["Unknown authors"]
+title: "Vetiver, Vetiveria zizanioides (L.) Nash: Biotechnology, Biorefineries, and the Production of Volatile Phytochemicals"
+authors: [Barcellos-Silva IGC, dos Santos FKF, Kharkwal H, Chander S, Kharkwal AC, Awasthi R, Dhiman N, Sharma B, Kulkarni GT, Larssen H, Silva JML, Souza MAD, Setzer WN, Veiga-Junior VF]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants14101435
 source_type: peer-reviewed
 evidence_tier: B

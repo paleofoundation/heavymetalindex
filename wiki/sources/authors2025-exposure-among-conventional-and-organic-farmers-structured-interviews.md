@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10653-025-02635-1
 cite_key: authors2025-exposure-among-conventional-and-organic-farmers-structured-interviews
-title: "exposure among conventional and organic farmers structured interviews and biological sampling (hair"
-authors: ["Unknown authors"]
+title: "Evaluation of trace element in the hair and nail samples of conventional and organic farmers in pesticide-treated highland villages"
+authors: [How V, Wong WV, Leong JY, Robun C, Anual ZF]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-025-02635-1
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph19020788
 cite_key: authors2022-determination-of-mercury-methylmercury-and-selenium
-title: "Determination of Mercury, Methylmercury and Selenium"
-authors: ["Unknown authors"]
+title: "Determination of Mercury, Methylmercury and Selenium Concentrations in Elasmobranch Meat: Fish Consumption Safety"
+authors: [Storelli A, Barone G, Garofalo R, Busco A, Storelli MM]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph19020788
 source_type: peer-reviewed
 evidence_tier: B

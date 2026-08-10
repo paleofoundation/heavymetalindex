@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-c7ja90059g
 cite_key: authors2018-davidson-christine-m-and-mertz-kraus-regina-2018
-title: "Davidson, Christine M. and Mertz-Kraus, Regina (2018) Atomic"
-authors: ["Unknown authors"]
+title: "Atomic spectrometry update – a review of advances in environmental analysis"
+authors: [Butler OT, Cairns WRL, Cook JM, Davidson CM, Mertz-Kraus R]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Journal of Analytical Atomic Spectrometry"
 doi: 10.1039/c7ja90059g
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-1596-978-1-4648-1459-4
 cite_key: authors2019-or-part-contained-in-the-work-will-not
-title: "or part contained in the work will not infringe on the rights of those third parties. The risk of claims resulting from"
-authors: ["Unknown authors"]
+title: "Quality Unknown: The Invisible Water Crisis"
+authors: [Damania R, Desbureaux S, Rodella AS, Russ J, Zaveri E]
 year: 2019
 publication: "Peer-reviewed article"
 doi: 10.1596/978-1-4648-1459-4

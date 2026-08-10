@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envres-2023-115970
 cite_key: authors2023-determination-of-methylmercury-and-inorganic-mercury-in-human
-title: "Determination of methylmercury and inorganic mercury in human hair"
-authors: ["Unknown authors"]
+title: "Determination of methylmercury and inorganic mercury in human hair samples of individuals from Colombian gold mining regions by double spiking isotope dilution and GC-ICP-MS"
+authors: [Suárez-Criado L, Rodríguez-González P, Marrugo-Negrete J, García Alonso JI, Díez S]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Environmental Research"
 doi: 10.1016/j.envres.2023.115970
 source_type: peer-reviewed
 evidence_tier: B

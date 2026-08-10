@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics11020181
 cite_key: authors2023-differential-cell-metabolic-pathways-in-gills-and-liver
-title: "Differential Cell Metabolic Pathways in Gills and Liver of Fish"
-authors: ["Unknown authors"]
+title: "Differential Cell Metabolic Pathways in Gills and Liver of Fish (White Seabream Diplodus sargus) Coping with Dietary Methylmercury Exposure"
+authors: [De Marco G, Billè B, Brandão F, Galati M, Pereira P, Cappello T, Pacheco M]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics11020181
 source_type: peer-reviewed
 evidence_tier: B

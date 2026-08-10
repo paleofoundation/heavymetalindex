@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-3390-ijms20102435
 cite_key: authors2019-vascular-dysfunction-induced-by-mercury-exposure
 title: "Vascular Dysfunction Induced by Mercury Exposure"
-authors: ["Unknown authors"]
+authors: [Takahashi T, Shimohata T]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms20102435
 source_type: peer-reviewed
 evidence_tier: B

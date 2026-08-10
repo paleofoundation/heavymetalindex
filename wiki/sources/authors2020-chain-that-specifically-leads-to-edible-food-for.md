@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules25132987
 cite_key: authors2020-chain-that-specifically-leads-to-edible-food-for
-title: "chain that specifically leads to edible food for human consumption” [2]. Indeed, it is estimated that"
-authors: ["Unknown authors"]
+title: "High-Value Compounds in Fruit, Vegetable and Cereal Byproducts: An Overview of Potential Sustainable Reuse and Exploitation"
+authors: [Tlais AZA, Fiorino GM, Polo A, Filannino P, Di Cagno R]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules25132987
 source_type: peer-reviewed
 evidence_tier: B

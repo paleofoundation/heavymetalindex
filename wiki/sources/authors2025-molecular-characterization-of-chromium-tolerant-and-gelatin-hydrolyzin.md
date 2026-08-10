@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jgeb-2025-100479
 cite_key: authors2025-molecular-characterization-of-chromium-tolerant-and-gelatin-hydrolyzin
-title: "Molecular characterization of chromium tolerant and gelatin hydrolyzing"
-authors: ["Unknown authors"]
+title: "Molecular characterization of chromium tolerant and gelatin hydrolyzing bacterial isolates from tannery wastes: Perspective on chrome-tanned leather waste biodegradation in Bangladesh"
+authors: [Sarker SS, Hasan Sarkar MM, Sharmin SA, Tarannum N, Akter T, Alam MA, Miah MI, Ali Shaikh MA, Parveen S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Genetic Engineering and Biotechnology"
 doi: 10.1016/j.jgeb.2025.100479
 source_type: peer-reviewed
 evidence_tier: B

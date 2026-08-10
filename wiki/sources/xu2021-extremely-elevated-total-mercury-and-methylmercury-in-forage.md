@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-175400-v1
 cite_key: xu2021-extremely-elevated-total-mercury-and-methylmercury-in-forage
-title: "Extremely Elevated Total Mercury and Methylmercury in Forage"
-authors: ["Plants in a World Large-scale Abandoned Hg Mining Site: A Potential Risk of Exposure to Grazing Animals Xiaoli Qian Guizhou University Chendong Yang Guizhou University Xiaohang Xu"]
+title: "Extremely Elevated Total Mercury and Methylmercury in Forage Plants in a World Large-scale Abandoned Hg Mining Site: A Potential Risk of Exposure to Grazing Animals"
+authors: [Qian X, Yang C, Xu X, Ao M, Xu Z, Wu Y, Qiu G]
 year: 2021
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-175400/v1

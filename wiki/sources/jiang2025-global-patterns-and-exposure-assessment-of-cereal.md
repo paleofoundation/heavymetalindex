@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-7460565-v1
 cite_key: jiang2025-global-patterns-and-exposure-assessment-of-cereal
-title: "Global patterns and exposure assessment of cereal"
-authors: ["Nan Xiao Zhejiang University Qihuang Wang ISSAS: Institute of Soil Science Chinese Academy of Sciences Yuqiu Chen ISSAS: Institute of Soil Science Chinese Academy of Sciences Yunhan Jiang"]
+title: "Global patterns and exposure assessment of cereal arsenic contamination"
+authors: [Xiao N, Wang Q, Chen Y, Jiang Y, Yao Y, Shen C]
 year: 2025
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-7460565/v1

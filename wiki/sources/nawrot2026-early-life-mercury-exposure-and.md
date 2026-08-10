@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fped-2026-1776559
 cite_key: nawrot2026-early-life-mercury-exposure-and
-title: "Early-life mercury exposure and"
-authors: ["allergic diseases in childhood: EDITED BY Tim S. Nawrot", "meta- University of Hasselt", "Belgium REVIEWED BY analysis"]
+title: "Early-life mercury exposure and allergic diseases in childhood: systematic review and meta-analysis"
+authors: [Liang Q, Liu M, Mao H]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Pediatrics"
 doi: 10.3389/fped.2026.1776559
 source_type: peer-reviewed
 evidence_tier: B

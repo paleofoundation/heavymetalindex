@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-eehl-2025-100199
 cite_key: authors2025-incorporating-in-vivo-demethylation-and-reduction-into-mercury
-title: "Incorporating in vivo demethylation and reduction into mercury mitigation"
-authors: ["Unknown authors"]
+title: "Incorporating in vivo demethylation and reduction into mercury mitigation for sustainable development"
+authors: [Zhong H, Wu M, Tang W, Lei P, Li S, Dang F, Li C]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Eco-Environment & Health"
 doi: 10.1016/j.eehl.2025.100199
 source_type: peer-reviewed
 evidence_tier: B

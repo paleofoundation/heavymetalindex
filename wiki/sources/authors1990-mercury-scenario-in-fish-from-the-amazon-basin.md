@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics13070580
 cite_key: authors1990-mercury-scenario-in-fish-from-the-amazon-basin
-title: "Mercury Scenario in Fish from the Amazon Basin: Exploring the"
-authors: ["Unknown authors"]
+title: "Mercury Scenario in Fish from the Amazon Basin: Exploring the Interplay of Social Groups and Environmental Diversity"
+authors: [Paiva T, Pestana I, Miranda L, de Carvalho G, Bastos W, Kasper D]
 year: 1990
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13070580
 source_type: peer-reviewed
 evidence_tier: B

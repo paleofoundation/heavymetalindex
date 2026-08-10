@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-metabo12010063
 cite_key: authors2022-need-for-protein-leads-to-scientific-challenges-aimed
-title: "need for protein leads to scientific challenges aimed at designing new nutritional strategies"
-authors: ["Unknown authors"]
+title: "Yeast Protein as an Easily Accessible Food Source"
+authors: [Jach ME, Serefko A, Ziaja M, Kieliszek M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Metabolites"
 doi: 10.3390/metabo12010063
 source_type: peer-reviewed
 evidence_tier: B

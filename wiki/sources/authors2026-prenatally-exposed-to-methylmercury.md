@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12940-026-01270-2
 cite_key: authors2026-prenatally-exposed-to-methylmercury
-title: "prenatally exposed to methylmercury"
-authors: ["Unknown authors"]
+title: "Activation of anti-inflammatory pathways by polyunsaturated fatty acid signaling may protect neurodevelopment in children prenatally exposed to methylmercury"
+authors: [Bartra C, Llop S, Kuligowski J, Albiach-Delgado A, Suñol C, Rodríguez-Farré E, Ballester F, Soler-Blasco R, Jora B, Jarné-Ferrer J, Griñán-Ferré C, Vázquez S, Pallàs M, Sanfeliu C]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Health"
 doi: 10.1186/s12940-026-01270-2
 source_type: peer-reviewed
 evidence_tier: B

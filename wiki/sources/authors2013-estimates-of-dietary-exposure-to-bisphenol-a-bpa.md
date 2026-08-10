@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-19440049-2013-860240
 cite_key: authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa
-title: "Estimates of dietary exposure to bisphenol A (BPA) from light metal packaging using food"
-authors: ["Unknown authors"]
+title: "Estimates of dietary exposure to bisphenol A (BPA) from light metal packaging using food consumption and packaging usage data: a refined deterministic approach and a fully probabilistic (FACET) approach"
+authors: [Oldring PKT, Castle L, O’Mahony C, Dixon J]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Food Additives & Contaminants: Part A"
 doi: 10.1080/19440049.2013.860240
 source_type: peer-reviewed
 evidence_tier: B

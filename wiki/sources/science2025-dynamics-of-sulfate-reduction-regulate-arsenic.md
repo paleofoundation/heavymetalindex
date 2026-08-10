@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-6692895-v1
 cite_key: science2025-dynamics-of-sulfate-reduction-regulate-arsenic
-title: "Dynamics of sulfate reduction regulate arsenic"
-authors: ["speciation in paddy soils in response to root exudates Guo-hao Zhang Nanjing University of Information Science", "Technology School of Hydrology", "Water Resources Engineering Hong-yan Wang Jun-jie Lin"]
+title: "Dynamics of sulfate reduction regulate arsenic mobilization and speciation in paddy soils in response to root exudates"
+authors: [Zhang GH, Wang HY, Lin JJ, Sun GX, Chen Z, Yu ZG]
 year: 2025
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-6692895/v1

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics11100819
 cite_key: authors2023-time-patterns-in-internal-human-exposure-data-to
-title: "Time Patterns in Internal Human Exposure Data to Bisphenols,"
-authors: ["Unknown authors"]
+title: "Time Patterns in Internal Human Exposure Data to Bisphenols, Phthalates, DINCH, Organophosphate Flame Retardants, Cadmium and Polyaromatic Hydrocarbons in Europe"
+authors: [Rodriguez Martin L, Gilles L, Helte E, Åkesson A, Tägt J, Covaci A, Sakhi AK, Van Nieuwenhuyse A, Katsonouri A, Andersson AM, Gutleb AC, Janasik B, Appenzeller B, Gabriel C, Thomsen C, Mazej D, Sarigiannis D, Anastasi E, Barbone F, Tolonen H, Frederiksen H, Klanova J, Koponen J, Tratnik JS, Pack K, Gudrun K, Ólafsdóttir K, Knudsen LE, Rambaud L, Strumylaite L, Murinova LP, Fabelova L, Riou M, Berglund M, Szabados M, Imboden M, Laeremans M, Eštóková M, Janev Holcer N, Probst-Hensch N, Vodrazkova N, Vogel N, Piler P, Schmidt P, Lange R, Namorado S, Kozepesy S, Szigeti T, Halldorsson TI, Weber T, Jensen TK, Rosolen V, Puklova V, Wasowicz W, Sepai O, Stewart L, Kolossa-Gehring M, Esteban-López M, Castaño A, Bessems J, Schoeters G, Govarts E]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics11100819
 source_type: peer-reviewed
 evidence_tier: B

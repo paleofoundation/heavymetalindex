@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-5338-kjea-2012-31-4-300
 cite_key: authors2012-transfer-factor-of-heavy-metals-from-agricultural-soil
 title: "Transfer Factor of Heavy Metals from Agricultural Soil to Agricultural Products"
-authors: ["Unknown authors"]
+authors: [Kim JY, Lee JH, Kunhikrishnan A, Kang DW, Kim MJ, Yoo JH, Kim DH, Lee YJ, Kim WI]
 year: 2012
-publication: "Peer-reviewed article"
+publication: "Korean Journal of Environmental Agriculture"
 doi: 10.5338/kjea.2012.31.4.300
 source_type: peer-reviewed
 evidence_tier: B

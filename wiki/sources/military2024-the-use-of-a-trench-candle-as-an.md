@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-14739-mmt-2024-3-310341
 cite_key: military2024-the-use-of-a-trench-candle-as-an
-title: "The use of a trench candle as an alternative heating and light source"
-authors: ["cobalt). Надійшла до редакції / Conclusions. The use of trench candles during the Russian–Ukrainian war relates military"]
+title: "The use of a trench candle as an alternative heating and light source in wartime and possible negative consequences"
+authors: [Kovalyov OO, Kolesnyk YM, Zub VO, Sevalniev AI, Sharavara LP, Andrusyshyna IM, Hancheva OV, Kovalov KO]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Modern medical technology"
 doi: 10.14739/mmt.2024.3.310341
 source_type: peer-reviewed
 evidence_tier: B

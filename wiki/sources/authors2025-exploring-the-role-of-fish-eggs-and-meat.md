@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-29103-joms-v2i2-21803
 cite_key: authors2025-exploring-the-role-of-fish-eggs-and-meat
-title: "Exploring the role of fish eggs and meat in disease"
-authors: ["Unknown authors"]
+title: "Therapeutic potentials of marine-derived nutrients: Exploring the role of fish eggs and meat in disease prevention and health promotion"
+authors: [Iqbal T, Altaf S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Marine Studies"
 doi: 10.29103/joms.v2i2.21803
 source_type: peer-reviewed
 evidence_tier: B

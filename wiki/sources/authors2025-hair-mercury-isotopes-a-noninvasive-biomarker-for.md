@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d4em00231h
 cite_key: authors2025-hair-mercury-isotopes-a-noninvasive-biomarker-for
-title: "HAIR MERCURY ISOTOPES, A NONINVASIVE BIOMARKER FOR"
-authors: ["Unknown authors"]
+title: "Hair mercury isotopes, a noninvasive biomarker for dietary methylmercury exposure and biological uptake"
+authors: [Rothenberg SE, Korrick SA, Harrington D, Thurston SW, Janssen SE, Tate MT, Nong Y, Nong H, Liu J, Hong C, Ouyang F]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Science: Processes & Impacts"
 doi: 10.1039/d4em00231h
 source_type: peer-reviewed
 evidence_tier: B

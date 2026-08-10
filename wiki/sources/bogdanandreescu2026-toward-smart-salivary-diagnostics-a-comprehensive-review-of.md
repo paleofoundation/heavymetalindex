@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-3390-diagnostics16040635
 cite_key: bogdanandreescu2026-toward-smart-salivary-diagnostics-a-comprehensive-review-of
 title: "Toward Smart Salivary Diagnostics: A Comprehensive Review of Heavy Metal Biomarkers and Digital Risk Modeling"
-authors: ["bogdan-andreescu"]
+authors: [Bogdan-Andreescu CF, Bubulac L, Albu CC, Slăvescu DA, Bănăţeanu AM, Botoacă O, Muşat GC, Tudor V, Cadar E, Păcurar M]
 year: 2026
 publication: "Diagnostics"
 doi: "10.3390/diagnostics16040635"

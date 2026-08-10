@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-microorganisms10030610
 cite_key: authors2022-bacterial-biosorbents-an-efficient-heavy-metals-green
-title: "Bacterial Biosorbents, an Efficient Heavy Metals Green"
-authors: ["Unknown authors"]
+title: "Bacterial Biosorbents, an Efficient Heavy Metals Green Clean-Up Strategy: Prospects, Challenges, and Opportunities"
+authors: [Pham VHT, Kim J, Chang S, Chung W]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Microorganisms"
 doi: 10.3390/microorganisms10030610
 source_type: peer-reviewed
 evidence_tier: B

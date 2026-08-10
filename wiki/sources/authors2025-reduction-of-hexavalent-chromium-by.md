@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-mbo3-70286
 cite_key: authors2025-reduction-of-hexavalent-chromium-by
-title: "Reduction of Hexavalent Chromium by"
-authors: ["Unknown authors"]
+title: "Reduction of Hexavalent Chromium by Stenotrophomonas and Bacillus"
+authors: [Husaini AF, Christita M, Rukmana RM, Susilowati A, Vidilaseris K]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "MicrobiologyOpen"
 doi: 10.1002/mbo3.70286
 source_type: peer-reviewed
 evidence_tier: B

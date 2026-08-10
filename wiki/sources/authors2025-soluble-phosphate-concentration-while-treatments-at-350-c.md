@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jenvman-2025-125239
 cite_key: authors2025-soluble-phosphate-concentration-while-treatments-at-350-c
-title: "soluble phosphate concentration, while treatments at 350 ◦ C lead to greater phosphorus recovery in the solid"
-authors: ["Unknown authors"]
+title: "Combining process severity and response surface methodology: a comprehensive approach to phosphorus speciation in sewage sludge hydrothermal treatment"
+authors: [Tangredi A, Barca C, Ferrasse JH, Boutin O]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental Management"
 doi: 10.1016/j.jenvman.2025.125239
 source_type: peer-reviewed
 evidence_tier: B

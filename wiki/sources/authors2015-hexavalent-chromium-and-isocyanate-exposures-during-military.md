@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-15459624-2015-1117617
 cite_key: authors2015-hexavalent-chromium-and-isocyanate-exposures-during-military
-title: "Hexavalent Chromium and Isocyanate Exposures during Military"
-authors: ["Unknown authors"]
+title: "Hexavalent chromium and isocyanate exposures during military aircraft painting under crossflow ventilation"
+authors: [Bennett JS, Marlow DA, Nourian F, Breay J, Hammond D]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Journal of Occupational and Environmental Hygiene"
 doi: 10.1080/15459624.2015.1117617
 source_type: peer-reviewed
 evidence_tier: B

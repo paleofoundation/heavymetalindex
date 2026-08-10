@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2022-973740
 cite_key: authors2022-chromium-through-cr-stressed-life-sciences-faculty-of
-title: "chromium through Cr-stressed Life Sciences, Faculty of Food Science and Technology, University of Agricultural Sciences and"
-authors: ["Unknown authors"]
+title: "Individual and combinatorial effects of SNP and NaHS on morpho-physio-biochemical attributes and phytoextraction of chromium through Cr-stressed spinach (Spinacia oleracea L.)"
+authors: [Ma J, Saleem MH, Yasin G, Mumtaz S, Qureshi FF, Ali B, Ercisli S, Alhag SK, Ahmed AE, Vodnar DC, Hussain I, Marc RA, Chen F]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2022.973740
 source_type: peer-reviewed
 evidence_tier: B

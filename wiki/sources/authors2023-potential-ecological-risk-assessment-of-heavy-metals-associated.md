@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2023-e17359
 cite_key: authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated
-title: "Potential ecological risk assessment of heavy metals associated"
-authors: ["Unknown authors"]
+title: "Potential ecological risk assessment of heavy metals associated with abattoir liquid waste: A narrative and systematic review"
+authors: [Nandomah S, Tetteh IK]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2023.e17359
 source_type: peer-reviewed
 evidence_tier: B

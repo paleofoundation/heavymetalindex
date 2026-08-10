@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acsomega-4c00933
 cite_key: authors2024-electrochemical-sensors-for-heavy-metal-ion-detection-in
-title: "Electrochemical Sensors for Heavy Metal Ion Detection in Aqueous"
-authors: ["Unknown authors"]
+title: "Electrochemical Sensors for Heavy Metal Ion Detection in Aqueous Medium: A Systematic Review"
+authors: [Sulthana SF, Iqbal UM, Suseela SB, Anbazhagan R, Chinthaginjala R, Chitathuru D, Ahmad I, Kim TH]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "ACS Omega"
 doi: 10.1021/acsomega.4c00933
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph20031693
 cite_key: authors2023-heavy-metals-in-groundwater-of-southern-italy
-title: "Heavy Metals in Groundwater of Southern Italy:"
-authors: ["Unknown authors"]
+title: "Heavy Metals in Groundwater of Southern Italy: Occurrence and Potential Adverse Effects on the Environment and Human Health"
+authors: [Triassi M, Cerino P, Montuori P, Pizzolante A, Trama U, Nicodemo F, D’Auria JL, De Vita S, De Rosa E, Limone A]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph20031693
 source_type: peer-reviewed
 evidence_tier: B

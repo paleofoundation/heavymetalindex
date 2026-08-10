@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-ftox-2025-1580275
 cite_key: efendi2025-mercury-exposure-leading-to
-title: "Mercury exposure leading to"
-authors: ["OPEN ACCESS functional vitamin B deﬁciency EDITED BY Hüsnü Efendi", "Kocaeli University", "subacute combined REVIEWED BY Ahmed Esmat Abdel Moneim"]
+title: "Mercury exposure leading to functional vitamin B12 deficiency and subacute combined degeneration: a case report and literature review"
+authors: [Semnic I, Rački V, Perković O, Vuletić V]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Toxicology"
 doi: 10.3389/ftox.2025.1580275
 source_type: peer-reviewed
 evidence_tier: B

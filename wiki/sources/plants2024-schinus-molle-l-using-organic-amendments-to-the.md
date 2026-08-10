@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants13243469
 cite_key: plants2024-schinus-molle-l-using-organic-amendments-to-the
-title: "Schinus molle L. using organic amendments to the phytoremediation of total chromium in the mid-zone"
-authors: ["Soil Contaminated by Leather Industrial Effluents. Plants"]
+title: "Bioaccumulation of Cr by the Buddleja Species and Schinus molle L. Grown with and Without Compost in a Sandy Soil Contaminated by Leather Industrial Effluents"
+authors: [Huarsaya-Huillca J, Callo-Sánchez S, Aguilar-Ccuno C, Rodríguez-Salazar O, Tupayachy-Quispe D, Romero-Mariscal G, Hachire-Patiño Z, Almirón J]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants13243469
 source_type: peer-reviewed
 evidence_tier: B

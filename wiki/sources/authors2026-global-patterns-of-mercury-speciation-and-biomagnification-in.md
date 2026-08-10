@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-6c01257
 cite_key: authors2026-global-patterns-of-mercury-speciation-and-biomagnification-in
-title: "Global Patterns of Mercury Speciation and Biomagnification in"
-authors: ["Unknown authors"]
+title: "Global Patterns of Mercury Speciation and Biomagnification in Sharks: Ecological Drivers and Food Safety Implications"
+authors: [Boldrocchi G, Spanu D, Ruiz López A, Garibaldi F, Lanteri L, Maggi A, Bettinetti R, Monticelli D]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.6c01257
 source_type: peer-reviewed
 evidence_tier: B

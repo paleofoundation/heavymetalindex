@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2903-j-efsa-2026-9865
 cite_key: authors2025-frequency-of-consumption-of-different-fish-crustacean-and
-title: "Frequency of consumption of different fish, crustacean and"
-authors: ["Unknown authors"]
+title: "Frequency of consumption of different fish, crustacean and mollusc species contributing to methylmercury exposure and consumer awareness of national advice on their consumption"
+authors: ["European Food Safety Authority (EFSA)", Bearth A, Jansen T, Mazzocchi M, Verbeke W, Alaveras G, Kanellakopoulou A, Koffas N, Naska A, Niforou K, Smith AIM, Sousa Lourenco JI, Zamariola G, Ioannidou S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "EFSA Journal"
 doi: 10.2903/j.efsa.2026.9865
 source_type: peer-reviewed
 evidence_tier: B

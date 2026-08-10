@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pone-0289069
 cite_key: authors2023-decontamination-of-heavy-metals-from-water
-title: "decontamination of heavy metals from water"
-authors: ["Unknown authors"]
+title: "Biochar supported metallo-inorganic nanocomposite: A green approach for decontamination of heavy metals from water"
+authors: [Khalid S, Chaudhary MN, Nazir R, Ahmad SR, Hussain N, Ayub Y, Ibrar M]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0289069
 source_type: peer-reviewed
 evidence_tier: B

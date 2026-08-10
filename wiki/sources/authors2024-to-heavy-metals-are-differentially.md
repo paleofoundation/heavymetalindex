@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-7717-peerj-19016
 cite_key: authors2024-to-heavy-metals-are-differentially
-title: "to heavy metals are differentially"
-authors: ["Unknown authors"]
+title: "Tolerance and antioxidant response to heavy metals are differentially activated in Trichoderma asperellum and Trichoderma longibrachiatum"
+authors: [Zapata-Sarmiento DH, Rodríguez-Hernández AA, Sepúlveda-Jiménez G, Rodríguez-Monroy M]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "PeerJ"
 doi: 10.7717/peerj.19016
 source_type: peer-reviewed
 evidence_tier: B

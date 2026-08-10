@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4103-idoj-idoj-111-24
 cite_key: herein2024-of-problems-associated-with-excessive-sunlight-exposure-their
-title: "of problems associated with excessive sunlight exposure, their use has increased exponentially, Venereology and Leprosy,"
-authors: ["reactions. Herein"]
+title: "Topical Sunscreens: A Narrative Review for Contact Sensitivity, Potential Allergens, Clinical Evaluation, and Management for their Optimal Use in Clinical Practice"
+authors: [Mahajan VK, Sharma N, Sharma V, Verma R, Chandel M, Singh R]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Indian Dermatology Online Journal"
 doi: 10.4103/idoj.idoj_111_24
 source_type: peer-reviewed
 evidence_tier: B

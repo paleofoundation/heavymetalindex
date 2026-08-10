@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acsestwater-6c00318
 cite_key: authors2026-electricity-induced-simultaneous-in-situ-remediation-of-arsenic
-title: "Electricity-Induced Simultaneous in Situ Remediation of Arsenic and"
-authors: ["Unknown authors"]
+title: "Electricity-Induced Simultaneous in Situ Remediation of Arsenic and Polycyclic Aromatic Hydrocarbons in Groundwater at a Former Wood Treatment Site – a Field Pilot Study"
+authors: [Kumpiene J, Carabante I, Lindberg E, Long S, Pratt N, Lam P, Cundy AB]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "ACS ES&T Water"
 doi: 10.1021/acsestwater.6c00318
 source_type: peer-reviewed
 evidence_tier: B

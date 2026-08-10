@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2903-j-efsa-2019-5754
 cite_key: feed2019-occurrence-data-of-nickel-in-feed-and-animal
-title: "Occurrence data of nickel in feed and animal exposure"
-authors: ["APPROVED: May doi: ./j.efsa.. Occurrence data of nickel in feed", "animal exposure assessment European Food Safety Authority (EFSA)", "pez-Ga Davide Arcella", "Petra Gergelova", "Matteo Lorenzo Innocenti", "Gloria Lo lvez"]
+title: "Occurrence data of nickel in feed and animal exposure assessment"
+authors: ["European Food Safety Authority (EFSA)", Arcella D, Gergelova P, Innocenti ML, López‐Gálvez G, Steinkellner H]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "EFSA Journal"
 doi: 10.2903/j.efsa.2019.5754
 source_type: peer-reviewed
 evidence_tier: B

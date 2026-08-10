@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics14020118
 cite_key: authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the
-title: "Bioaccumulation of Heavy Metals (17 Elements) in the Liver and"
-authors: ["Unknown authors"]
+title: "Bioaccumulation of Heavy Metals (17 Elements) in the Liver and Kidneys of the Least Weasel (Mustela nivalis L.) from Agricultural Areas of Central Europe"
+authors: [Vass G, Könyves L, Berlinger B, Fekete I, Bende A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics14020118
 source_type: peer-reviewed
 evidence_tier: B

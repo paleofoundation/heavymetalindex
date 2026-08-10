@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-pharmaceutics16030427
 cite_key: authors2024-nlc-based-sunscreen-formulations-with-optimized
-title: "NLC-Based Sunscreen Formulations with Optimized"
-authors: ["Unknown authors"]
+title: "NLC-Based Sunscreen Formulations with Optimized Proportion of Encapsulated and Free Filters Exhibit Enhanced UVA and UVB Photoprotection"
+authors: [de Araújo MM, Schneid AC, Oliveira MS, Mussi SV, de Freitas MN, Carvalho FC, Bernes Junior EA, Faro R, Azevedo H]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Pharmaceutics"
 doi: 10.3390/pharmaceutics16030427
 source_type: peer-reviewed
 evidence_tier: B

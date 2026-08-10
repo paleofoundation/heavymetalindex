@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00775-015-1247-5
 cite_key: jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu
-title: "Cr3+(2) ions have disordered coordination spheres occu- Trivalent chromium, a d3 cation, is poorly taken up by liv-"
-authors: ["DOI ./s--- ORIGINAL PAPER High‑resolution crystal structure of Z‑DNA in complex with Cr+ cations Pawel Drozdzal · Miroslaw Gilski · Ryszard Kierzek · Lechoslaw Lomozik · Mariusz Jaskolski"]
+title: "High-resolution crystal structure of Z-DNA in complex with Cr3+ cations"
+authors: [Drozdzal P, Gilski M, Kierzek R, Lomozik L, Jaskolski M]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "JBIC Journal of Biological Inorganic Chemistry"
 doi: 10.1007/s00775-015-1247-5
 source_type: peer-reviewed
 evidence_tier: B

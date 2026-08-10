@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-fct-2009-06-032
 cite_key: dpph2009-food-and-chemical-toxicology-47-2009-2381-2388
-title: "Food and Chemical Toxicology 47 (2009) 2381–2388"
-authors: ["M. angusticeps. In the case of DPPH", "methanol extract of M. conica showed high antioxidant activity. The reducing power of the meth-"]
+title: "Antioxidant activities, metal contents, total phenolics and flavonoids of seven Morchella species"
+authors: [Gursoy N, Sarikurkcu C, Cengiz M, Solak MH]
 year: 2009
-publication: "Peer-reviewed article"
+publication: "Food and Chemical Toxicology"
 doi: 10.1016/j.fct.2009.06.032
 source_type: peer-reviewed
 evidence_tier: B

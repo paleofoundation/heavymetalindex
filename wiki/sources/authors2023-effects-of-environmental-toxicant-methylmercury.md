@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics11090739
 cite_key: authors2023-effects-of-environmental-toxicant-methylmercury
-title: "Effects of Environmental Toxicant, Methylmercury"
-authors: ["Unknown authors"]
+title: "Thioredoxin 1 and Thioredoxin Reductase 1 Redox System Is Dysregulated in Neutrophils of Subjects with Autism: In Vitro Effects of Environmental Toxicant, Methylmercury"
+authors: [Alshehri S, Ahmad SF, Albekairi NA, Alqarni SS, Al-Harbi NO, Al-Ayadhi LY, Attia SM, Alfardan AS, Bakheet SA, Nadeem A]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics11090739
 source_type: peer-reviewed
 evidence_tier: B

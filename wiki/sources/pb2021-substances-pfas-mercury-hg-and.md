@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fgene-2021-664946
 cite_key: pb2021-substances-pfas-mercury-hg-and
-title: "Substances (PFAS), Mercury (Hg) and"
-authors: ["Lead (Pb)", "Birth Outcome: Findings From the UmMuKi Edited by: Bratislava-Vienna Study José Rueff", "Claudia Gundacker", "Klaudia Graf-Rohrmeister", "Martin Gencik", "New University of Lisbon", "Portugal"]
+title: "Gene Variants Determine Placental Transfer of Perfluoroalkyl Substances (PFAS), Mercury (Hg) and Lead (Pb), and Birth Outcome: Findings From the UmMuKi Bratislava-Vienna Study"
+authors: [Gundacker C, Graf-Rohrmeister K, Gencik M, Hengstschläger M, Holoman K, Rosa P, Kroismayr R, Offenthaler I, Plichta V, Reischer T, Teufl I, Raffesberg W, Scharf S, Köhler-Vallant B, Delissen Z, Weiß S, Uhl M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Frontiers in Genetics"
 doi: 10.3389/fgene.2021.664946
 source_type: peer-reviewed
 evidence_tier: B

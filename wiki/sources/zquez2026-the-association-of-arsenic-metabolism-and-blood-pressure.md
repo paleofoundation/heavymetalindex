@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-9107335-v1
 cite_key: zquez2026-the-association-of-arsenic-metabolism-and-blood-pressure
-title: "The Association of Arsenic Metabolism and Blood Pressure: A Cross-"
-authors: ["Sectional Analysis in the MesoAmerican Nephropathy Occupational Study (MANOS) Margaret Quaid Boston University School of Public Health Kathryn Rodgers Boston University School of Public Health Juan Jose Amador Velázquez"]
+title: "The Association of Arsenic Metabolism and Blood Pressure: A Cross-Sectional Analysis in the MesoAmerican Nephropathy Occupational Study (MANOS)"
+authors: [Quaid M, Rodgers K, Velázquez JJA, García-Trabanino R, Jarquin E, Lopez-Pilarte D, Leibler J, Brooks D, Glabonjat RA, Navas-Acien A, Argos M, Scammell MK]
 year: 2026
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-9107335/v1

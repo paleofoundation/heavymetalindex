@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-3390-toxics13070556
 cite_key: authors2025-toxic-metal-content-in-deciduous-teeth-a-systematic
 title: "Toxic Metal Content in Deciduous Teeth: A Systematic Review"
-authors: ["Unknown authors"]
+authors: [Zawiślak I, Kiryk S, Kiryk J, Kotela A, Kensy J, Michalak M, Matys J, Dobrzyński M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13070556
 source_type: peer-reviewed
 evidence_tier: B

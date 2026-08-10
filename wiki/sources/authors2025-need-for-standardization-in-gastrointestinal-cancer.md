@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-wjs-70313
 cite_key: authors2025-need-for-standardization-in-gastrointestinal-cancer
-title: "Need for Standardization in Gastrointestinal Cancer"
-authors: ["Unknown authors"]
+title: "Mapping of Preoperative Screening Tools Reveals Urgent Need for Standardization in Gastrointestinal Cancer Surgery: A Scoping Review"
+authors: [Petridis AP, Reeves J, Koh C, Solomon M, Karunaratne S, Alexander K, Hirst N, Pillinger N, Denehy L, Riedel B, Gillis C, Carey S, McBride K, White K, Dhillon HM, Campbell P, Biswas RK, Steffens D]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "World Journal of Surgery"
 doi: 10.1002/wjs.70313
 source_type: peer-reviewed
 evidence_tier: B

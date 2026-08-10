@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpubh-2026-1822247
 cite_key: davies2026-stable-mercury-isotopes-as-a
-title: "Stable mercury isotopes as a"
-authors: ["OPEN ACCESS decision-support tool for public EDITED BY Theophilus Davies", "health Mangosuthu University of Technology", "South Africa"]
+title: "Stable mercury isotopes as a decision-support tool for public health"
+authors: [Vreedzaam A, Wahid FA, Lichtveld MY, Zijlmans W, Wickliffe J]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2026.1822247
 source_type: peer-reviewed
 evidence_tier: B

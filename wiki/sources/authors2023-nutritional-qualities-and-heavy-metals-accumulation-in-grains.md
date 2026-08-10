@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-18488-ijsar-v10i3-3531
 cite_key: authors2023-nutritional-qualities-and-heavy-metals-accumulation-in-grains
-title: "Nutritional qualities and heavy metals accumulation in grains: A study on lowland irrigated"
-authors: ["Unknown authors"]
+title: "Nutritional qualities and heavy metals accumulation in grains: A study on lowland irrigated rice with different fertilizer inputs and growing seasons"
+authors: [Ulapane D, Abeykoon A, Wickramasinghe W, Kumari D, Devasinghe D, Beneragama D, Suriyagoda L, Egodawatta W]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Sustainable Agricultural Research"
 doi: 10.18488/ijsar.v10i3.3531
 source_type: peer-reviewed
 evidence_tier: B

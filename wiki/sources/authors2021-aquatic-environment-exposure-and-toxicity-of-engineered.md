@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nano11112868
 cite_key: authors2021-aquatic-environment-exposure-and-toxicity-of-engineered
-title: "Aquatic Environment Exposure and Toxicity of Engineered"
-authors: ["Unknown authors"]
+title: "Aquatic Environment Exposure and Toxicity of Engineered Nanomaterials Released from Nano-Enabled Products: Current Status and Data Needs"
+authors: [Moloi MS, Lehutso RF, Erasmus M, Oberholster PJ, Thwala M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Nanomaterials"
 doi: 10.3390/nano11112868
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-26538-tjnpr-v9i1-1
 cite_key: authors2025-assessment-of-heavy-metals-content-in-edible-vegetable
-title: "Assessment of Heavy Metals Content in Edible Vegetable of Kangkung (Ipomaea)"
+title: "Assessment of Heavy Metals Content in Edible Vegetable of Kangkung (Ipomaea) Grown on Tondano Sediments-Based Fly Ash Bottom Ash (FABA) Mixtures"
 authors: ["Unknown authors"]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Tropical Journal of Natural Product Research"
 doi: 10.26538/tjnpr/v9i1.1
 source_type: peer-reviewed
 evidence_tier: B

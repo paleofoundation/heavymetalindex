@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics9040082
 cite_key: authors2021-methylmercury-and-inorganic-mercury-in-cord-blood-using
-title: "Methylmercury and Inorganic Mercury in Cord Blood Using"
-authors: ["Unknown authors"]
+title: "Comparison of Simultaneous Quantitative Analysis of Methylmercury and Inorganic Mercury in Cord Blood Using LC-ICP-MS and LC-CVAFS: The Pilot Study of the Japan Environment and Children’s Study"
+authors: [Iwai-Shimada M, Kobayashi Y, Isobe T, Nakayama SF, Sekiyama M, Taniguchi Y, Yamazaki S, Michikawa T, Oda M, Mitsubuchi H, Sanefuji M, Ohga S, Mise N, Ikegami A, Suga R, Shimono M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics9040082
 source_type: peer-reviewed
 evidence_tier: B

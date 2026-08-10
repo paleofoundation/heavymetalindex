@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2478-intox-2014-0009
 cite_key: jaishankar2014-interdiscip-toxicol-2014-vol-7-2-60-72
-title: "Interdiscip Toxicol. 2014; Vol. 7(2): 60–72. interdisciplinary"
-authors: ["Monisha JAISHANKAR", "Tenzin TSETEN", "Naresh ANBALAGAN", "Blessy B. MATHEW", "Krishnamurthy N. BEEREGOWDA Department of Biotechnology", "Sapthagiri College of Engineering", "Bangalore-", "Karnataka"]
+title: "Toxicity, mechanism and health effects of some heavy metals"
+authors: [Jaishankar M, Tseten T, Anbalagan N, Mathew BB, Beeregowda KN]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "Interdisciplinary Toxicology"
 doi: 10.2478/intox-2014-0009
 source_type: peer-reviewed
 evidence_tier: B

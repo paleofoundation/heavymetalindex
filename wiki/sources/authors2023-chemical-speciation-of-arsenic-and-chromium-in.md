@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-30744-brjac-2179-3425-ar-13-2023
 cite_key: authors2023-chemical-speciation-of-arsenic-and-chromium-in
-title: "Chemical Speciation of Arsenic and Chromium in"
-authors: ["Unknown authors"]
+title: "Chemical Speciation of Arsenic and Chromium in Seafood by LC-ICP-MS"
+authors: [de Sá Í, da Silva C, Nogueira AR]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Brazilian Journal of Analytical Chemistry"
 doi: 10.30744/brjac.2179-3425.ar-13-2023
 source_type: peer-reviewed
 evidence_tier: B

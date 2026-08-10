@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-32388-64lzr7-2
 cite_key: authors2025-human-exposure-to-arsenic-and-toxic
-title: "Human Exposure to Arsenic and Toxic"
-authors: ["Unknown authors"]
+title: "Human Exposure to Arsenic and Toxic Metals Through Meat Consumption in Africa: A Review of Scientific Literature"
+authors: [Domingo JL]
 year: 2025
 publication: "Peer-reviewed article"
 doi: 10.32388/64lzr7.2

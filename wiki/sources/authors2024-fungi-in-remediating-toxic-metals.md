@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fenvs-2024-1532169
 cite_key: authors2024-fungi-in-remediating-toxic-metals
-title: "fungi in remediating toxic metals"
-authors: ["Unknown authors"]
+title: "A review and meta-analysis of the efficacy of arbuscular mycorrhizal fungi in remediating toxic metals in mine-affected soils"
+authors: [Banerjee S, Mandal J, Sarkar D, Datta R, Bhattacharyya P]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Frontiers in Environmental Science"
 doi: 10.3389/fenvs.2024.1532169
 source_type: peer-reviewed
 evidence_tier: B

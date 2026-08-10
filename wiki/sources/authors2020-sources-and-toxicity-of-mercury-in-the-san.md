@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-2020-8184614
 cite_key: authors2020-sources-and-toxicity-of-mercury-in-the-san
-title: "Sources and Toxicity of Mercury in the San Francisco Bay Area,"
-authors: ["Unknown authors"]
+title: "Sources and Toxicity of Mercury in the San Francisco Bay Area, Spanning California and Beyond"
+authors: [Kolipinski M, Subramanian M, Kristen K, Borish S, Ditta S]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental and Public Health"
 doi: 10.1155/2020/8184614
 source_type: peer-reviewed
 evidence_tier: B

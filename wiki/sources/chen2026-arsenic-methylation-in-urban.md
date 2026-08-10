@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2026-1798642
 cite_key: chen2026-arsenic-methylation-in-urban
-title: "arsenic methylation in urban"
-authors: ["EDITED BY Zheng Chen", "interface biofilms under Wenzhou Medical University", "China REVIEWED BY arsenic-phosphorus decoupling Ting Pan"]
+title: "Methanogenesis couples with arsenic methylation in urban interface biofilms under arsenic-phosphorus decoupling stress"
+authors: [Zheng B, Lei Y, Lin Y, Zhou M, Bi Q]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2026.1798642
 source_type: peer-reviewed
 evidence_tier: B

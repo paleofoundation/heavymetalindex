@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph17072404
 cite_key: authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis
-title: "Abstract: Contact allergy (sensitisation) and allergic contact dermatitis (ACD) resulting from it have"
-authors: ["Unknown authors"]
+title: "Contact Allergy—Emerging Allergens and Public Health Impact"
+authors: [Uter W, Werfel T, Lepoittevin JP, White IR]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph17072404
 source_type: peer-reviewed
 evidence_tier: B

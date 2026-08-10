@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules25215173
 cite_key: authors2020-compare-the-levels-of-macroelements-ca-p-k
-title: "compare the levels of macroelements (Ca, P, K, Na, Mg), microelements (Fe, Zn, Mn, Cu), heavy metals"
-authors: ["Unknown authors"]
+title: "Mineral Composition of Cereal and Cereal-Free Dry Dog Foods versus Nutritional Guidelines"
+authors: [Kazimierska K, Biel W, Witkowicz R]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules25215173
 source_type: peer-reviewed
 evidence_tier: B

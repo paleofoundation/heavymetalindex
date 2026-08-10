@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-2020-8886093
 cite_key: authors2020-heavy-metals-in-food-waste-water-with-environmental
-title: "Heavy Metals in Food Waste Water with Environmental Effects"
-authors: ["Unknown authors"]
+title: "Determination of Physicochemical Parameters and Levels of Heavy Metals in Food Waste Water with Environmental Effects"
+authors: [Ma J, Wu S, Shekhar NVR, Biswas S, Sahu AK]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Bioinorganic Chemistry and Applications"
 doi: 10.1155/2020/8886093
 source_type: peer-reviewed
 evidence_tier: B

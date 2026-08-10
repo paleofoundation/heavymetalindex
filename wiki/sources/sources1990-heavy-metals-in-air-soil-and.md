@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5772-intechopen-1013063
 cite_key: sources1990-heavy-metals-in-air-soil-and
-title: "Heavy Metals in Air, Soil, and"
-authors: ["Water: Major Sources", "Soil Health Impacts", "Mechanisms Underlying Uptake", "Toxicity", "Tolerance in Plants Manzoor Iqbal Khattak"]
+title: "Heavy Metals in Air, Soil, and Water: Major Sources, Soil Health Impacts, and Mechanisms Underlying Uptake, Toxicity, and Tolerance in Plants"
+authors: [Iqbal Khattak M]
 year: 1990
-publication: "Peer-reviewed article"
+publication: "Heavy Metals in Air, Soil and Water, and Plant Responses - Recent Research Updates [Working Title]"
 doi: 10.5772/intechopen.1013063
 source_type: peer-reviewed
 evidence_tier: B

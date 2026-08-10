@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-11604-pamj-2025-52-1-44453
 cite_key: authors2025-knowledge-on-the-minamata-convention-on-mercury
-title: "Knowledge on the Minamata Convention on Mercury"
-authors: ["Unknown authors"]
+title: "Knowledge on the Minamata Convention on mercury and dental amalgam phase down, availability, and selection of mercury-free restorative materials among dentists in Kenya: a cross-sectional study"
+authors: [Kisumbi BK, Gathece LW, Osiro OA, Maina SW]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Pan African Medical Journal"
 doi: 10.11604/pamj.2025.52.1.44453
 source_type: peer-reviewed
 evidence_tier: B

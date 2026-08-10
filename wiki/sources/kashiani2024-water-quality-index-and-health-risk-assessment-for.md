@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s13201-024-02169-4
 cite_key: kashiani2024-water-quality-index-and-health-risk-assessment-for
-title: "Water quality index and health risk assessment for heavy metals"
-authors: ["in groundwater of Kashiani", "Kotalipara upazila", "Gopalganj", "Bangladesh Molla Rahman Shaibur · Masum Howlader · Ishtiaque Ahmmed · Sabiha Sarwar · Abul Hussam"]
+title: "Water quality index and health risk assessment for heavy metals in groundwater of Kashiani and Kotalipara upazila, Gopalganj, Bangladesh"
+authors: [Shaibur MR, Howlader M, Ahmmed I, Sarwar S, Hussam A]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Applied Water Science"
 doi: 10.1007/s13201-024-02169-4
 source_type: peer-reviewed
 evidence_tier: B

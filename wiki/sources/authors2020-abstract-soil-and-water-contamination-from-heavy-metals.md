@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biom10040592
 cite_key: authors2020-abstract-soil-and-water-contamination-from-heavy-metals
-title: "Abstract: Soil and water contamination from heavy metals and metalloids is one of the most discussed"
-authors: ["Unknown authors"]
+title: "Effect of Citric Acid on Growth, Ecophysiology, Chloroplast Ultrastructure, and Phytoremediation Potential of Jute (Corchorus capsularis L.) Seedlings Exposed to Copper Stress"
+authors: [Parveen A, Saleem MH, Kamran M, Haider MZ, Chen JT, Malik Z, Rana MS, Hassan A, Hur G, Javed MT, Azeem M]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Biomolecules"
 doi: 10.3390/biom10040592
 source_type: peer-reviewed
 evidence_tier: B

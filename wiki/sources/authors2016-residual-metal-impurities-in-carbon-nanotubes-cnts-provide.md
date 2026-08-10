@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-2016-3834292
 cite_key: authors2016-residual-metal-impurities-in-carbon-nanotubes-cnts-provide
-title: "Residual metal impurities in carbon nanotubes (CNTs) provide a means to distinguish CNT from non-CNT sources of elemental"
-authors: ["Unknown authors"]
+title: "Determination of Metal Impurities in Carbon Nanotubes Sampled Using Surface Wipes"
+authors: [Avramescu ML, Rasmussen PE, Chénier M]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Journal of Analytical Methods in Chemistry"
 doi: 10.1155/2016/3834292
 source_type: peer-reviewed
 evidence_tier: B

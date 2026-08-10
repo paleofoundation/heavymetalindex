@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-4c05920
 cite_key: authors2024-a-meta-analysis-of-mercury-biomagnification-in-freshwater
-title: "A Meta-Analysis of Mercury Biomagnification in Freshwater"
-authors: ["Unknown authors"]
+title: "A Meta-Analysis of Mercury Biomagnification in Freshwater Predatory Invertebrates: Community Diversity and Dietary Exposure Drive Variability"
+authors: [Sinclair CA, Garcia TS, Eagles-Smith CA]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.4c05920
 source_type: peer-reviewed
 evidence_tier: B

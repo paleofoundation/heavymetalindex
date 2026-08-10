@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15111919
 cite_key: authors2026-and-heavy-metal-content-in-parallel-cherry-pomace
-title: "and heavy metal content. In parallel, cherry pomace obtained during juice processing of"
-authors: ["Unknown authors"]
+title: "Linking Soil–Orchard Fruit Quality and Circular Food Innovation Through the Valorization of Dried Cherry Pomace in Dairy-Based Spreadable Products"
+authors: [Rusu M, Cara IG, Motrescu I, Stoica F, Țopa DC, Jităreanu G]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15111919
 source_type: peer-reviewed
 evidence_tier: B

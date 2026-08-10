@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3346-jkms-2026-41-e16
 cite_key: authors2026-between-heavy-metal-exposure-in
-title: "Between Heavy Metal Exposure in"
-authors: ["Unknown authors"]
+title: "Sequential Mediation by Maternal Weight Gain and Late Blood Metal Concentration in the Association Between Heavy Metal Exposure in Early Pregnancy and Fetal Growth"
+authors: [Choe SA, Lee JS, Kang C, Jo J, Yoon W, Song DJ, Yoo Y, "Ko-CHENS Study Group"]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Journal of Korean Medical Science"
 doi: 10.3346/jkms.2026.41.e16
 source_type: peer-reviewed
 evidence_tier: B

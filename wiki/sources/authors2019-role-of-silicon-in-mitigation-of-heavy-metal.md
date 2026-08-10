@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants8030071
 cite_key: authors2019-role-of-silicon-in-mitigation-of-heavy-metal
-title: "Role of Silicon in Mitigation of Heavy Metal Stresses"
-authors: ["Unknown authors"]
+title: "Role of Silicon in Mitigation of Heavy Metal Stresses in Crop Plants"
+authors: [Bhat JA, Shivaraj SM, Singh P, Navadagi DB, Tripathi DK, Dash PK, Solanke AU, Sonah H, Deshmukh R]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants8030071
 source_type: peer-reviewed
 evidence_tier: B

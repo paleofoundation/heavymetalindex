@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-s095442242300015x
 cite_key: mena2024-body-composition-blood-pressure-and-vascular-function-lipid
-title: "body composition, blood pressure and vascular function, lipid profile, glucose homeostasis, biomarkers of inflammation and oxidative stress,"
-authors: ["unfounded evaluations. Corresponding author: Pedro Mena"]
+title: "Health effects of 100% fruit and vegetable juices: evidence from human subject intervention studies"
+authors: [Rossi I, Mignogna C, Del Rio D, Mena P]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Nutrition Research Reviews"
 doi: 10.1017/s095442242300015x
 source_type: peer-reviewed
 evidence_tier: B

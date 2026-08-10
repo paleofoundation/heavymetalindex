@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1265-ehpm-26-00065
 cite_key: liu2026-heavy-metal-exposure-and-risk-of-all-cause
-title: "Heavy metal exposure and risk of all-cause and"
-authors: ["cardiovascular mortality in population with cardiovascular-kidney-metabolic syndrome stage –: a cohort study Yiyang Liu", "Fujian Li", "Ying Huang", "Jiansheng Cai", "You Li＊ ＊ Correspondence: liyou@.com ＊＊"]
+title: "Heavy metal exposure and risk of all-cause and cardiovascular mortality in population with cardiovascular-kidney-metabolic syndrome stage 0–3: a cohort study"
+authors: [Liu Y, Li F, Huang Y, Cai J, Li Y]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Health and Preventive Medicine"
 doi: 10.1265/ehpm.26-00065
 source_type: peer-reviewed
 evidence_tier: B

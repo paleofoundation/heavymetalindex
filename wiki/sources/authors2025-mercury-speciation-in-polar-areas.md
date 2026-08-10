@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41467-026-71146-z
 cite_key: authors2025-mercury-speciation-in-polar-areas
-title: "mercury speciation in polar areas"
-authors: ["Unknown authors"]
+title: "Direct observations of atmospheric oxidized mercury speciation in polar areas"
+authors: [Jokinen T, Gómez Martín JC, Feinberg A, Mahajan AS, Plane JMC, Ulises Acuña A, Cuevas C, Dávalos JZ, Quéléver LLJ, Laurila T, Beck I, Schmale J, Junninen H, Sipilä M, Kulmala M, Petäjä T, Saiz-Lopez A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Nature Communications"
 doi: 10.1038/s41467-026-71146-z
 source_type: peer-reviewed
 evidence_tier: B

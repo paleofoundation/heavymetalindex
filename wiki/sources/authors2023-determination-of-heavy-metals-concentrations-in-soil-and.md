@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-56919-usci-2324-005
 cite_key: authors2023-determination-of-heavy-metals-concentrations-in-soil-and
-title: "Determination of Heavy Metals Concentrations in Soil and Tomato Plant"
-authors: ["Unknown authors"]
+title: "Determination of Heavy Metals Concentrations in Soil and Tomato Plant (Solanum lycopersicom) from Ajiwa Fadama farms, Katsina State"
+authors: ["Sanusi, L.", "Junaidu, S.", "Ibrahim, S.", "Nawaf, A."]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "UMYU Scientifica"
 doi: 10.56919/usci.2324.005
 source_type: peer-reviewed
 evidence_tier: B

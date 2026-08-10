@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-025-04588-z
 cite_key: authors2025-evaluation-of-heavy-metals-and-essential-minerals-in
-title: "Evaluation of Heavy Metals and Essential Minerals in the Hair"
-authors: ["Unknown authors"]
+title: "Evaluation of Heavy Metals and Essential Minerals in the Hair of Children with Autism Spectrum Disorder and Their Association with Symptom Severity"
+authors: [Zhou X, Xia X, Li L, Ye Y, Chen Q, Ke M, Cui Q, He Y, Chen Y, Lin S, Liu W, Wang J]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-025-04588-z
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5334-aogh-5214
 cite_key: authors2025-toxic-metals-in-a-green
-title: "Toxic Metals in a Green"
-authors: ["Unknown authors"]
+title: "Toxic Metals in a Green Transition: Global Health Risks, Sources, and Policy Responses—Insights from the Munich Toxic Metals Symposium 2025"
+authors: ["Bose-O'Reilly S", Rakete S, Landrigan PJ, Elbel J, Nordberg M, Nordberg G, Broberg K, Fitriani DY, Forsyth J, Gaitens J, Lu JL, Nowak D, Sanchez-Triana E, Turner S, Yabe J, McDiarmid M, Harari F]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Annals of Global Health"
 doi: 10.5334/aogh.5214
 source_type: peer-reviewed
 evidence_tier: B

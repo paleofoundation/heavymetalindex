@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph19063683
 cite_key: authors2022-hbm4eu-chromates-study-determinants-of-exposure-to
-title: "HBM4EU Chromates Study: Determinants of Exposure to"
-authors: ["Unknown authors"]
+title: "HBM4EU Chromates Study: Determinants of Exposure to Hexavalent Chromium in Plating, Welding and Other Occupational Settings"
+authors: [Viegas S, Martins C, Bocca B, Bousoumah R, Duca RC, Galea KS, Godderis L, Iavicoli I, Janasik B, Jones K, Leese E, Leso V, Ndaw S, van Nieuwenhuyse A, Poels K, Porras SP, Ruggieri F, Silva MJ, Verdonck J, Wasowicz W, Scheepers PTJ, Santonen T, "HBM4EU Chromates Study Team"]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph19063683
 source_type: peer-reviewed
 evidence_tier: B

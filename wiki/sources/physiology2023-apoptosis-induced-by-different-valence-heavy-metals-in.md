@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms241914459
 cite_key: physiology2023-apoptosis-induced-by-different-valence-heavy-metals-in
-title: "Apoptosis Induced by Different-Valence Heavy Metals in Cells"
-authors: ["Mitochondria Sergey M. Korotkov Sechenov Institute of Evolutionary Physiology", "Biochemistry", "Russian Academy of Sciences", "Thorez pr.", "St. Petersburg", "Russia"]
+title: "Mitochondrial Oxidative Stress Is the General Reason for Apoptosis Induced by Different-Valence Heavy Metals in Cells and Mitochondria"
+authors: [Korotkov SM]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms241914459
 source_type: peer-reviewed
 evidence_tier: B

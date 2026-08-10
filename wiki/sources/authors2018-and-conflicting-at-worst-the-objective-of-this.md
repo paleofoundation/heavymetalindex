@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1097-aog-0000000000002517
 cite_key: authors2018-and-conflicting-at-worst-the-objective-of-this
-title: "and conflicting at worst. The objective of this review is to present current, evidence-based"
-authors: ["Unknown authors"]
+title: "Dos and Don'ts in Pregnancy"
+authors: [Fox NS]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Obstetrics & Gynecology"
 doi: 10.1097/aog.0000000000002517
 source_type: peer-reviewed
 evidence_tier: B

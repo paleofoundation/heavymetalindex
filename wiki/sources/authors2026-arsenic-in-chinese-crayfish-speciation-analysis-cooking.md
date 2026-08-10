@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15061068
 cite_key: authors2026-arsenic-in-chinese-crayfish-speciation-analysis-cooking
-title: "Arsenic in Chinese Crayfish: Speciation Analysis, Cooking-"
-authors: ["Unknown authors"]
+title: "Arsenic in Chinese Crayfish: Speciation Analysis, Cooking-Induced Stability, Bioaccessibility, and Dietary Risk Assessment"
+authors: [Jiang X, Peng K, Li P]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15061068
 source_type: peer-reviewed
 evidence_tier: B

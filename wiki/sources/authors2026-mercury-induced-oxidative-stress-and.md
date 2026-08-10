@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-cimb48060567
 cite_key: authors2026-mercury-induced-oxidative-stress-and
-title: "Mercury-Induced Oxidative Stress and"
-authors: ["Unknown authors"]
+title: "Tomato Polyphenols Protect Human Red Blood Cells from Mercury-Induced Oxidative Stress and Phosphatidylserine Exposure"
+authors: [Moriello C, Alessio N, Finamore R, De Rosa C, Schiraldi C, Manna C, D’Angelo S, Perrone P]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Current Issues in Molecular Biology"
 doi: 10.3390/cimb48060567
 source_type: peer-reviewed
 evidence_tier: B

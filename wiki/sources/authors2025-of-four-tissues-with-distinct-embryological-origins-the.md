@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-7759-cureus-81694
 cite_key: authors2025-of-four-tissues-with-distinct-embryological-origins-the
-title: "of four tissues with distinct embryological origins- the alveolar bone, cementum, gingiva, and periodontal"
-authors: ["Unknown authors"]
+title: "Micronutrients and the Periodontium: A Narrative Review"
+authors: [Doshi D, Kumar S, Patel B, Chaudhari D, Patel S, Hirani T, Patadiya HH, Bhingradia IR, Haque M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Cureus"
 doi: 10.7759/cureus.81694
 source_type: peer-reviewed
 evidence_tier: B

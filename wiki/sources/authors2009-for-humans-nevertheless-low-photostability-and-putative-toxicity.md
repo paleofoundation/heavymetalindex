@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ph15030263
 cite_key: authors2009-for-humans-nevertheless-low-photostability-and-putative-toxicity
-title: "for humans. Nevertheless, low photostability and putative toxicity for humans and environment"
-authors: ["Unknown authors"]
+title: "UV Filters: Challenges and Prospects"
+authors: [Jesus A, Sousa E, Cruz M, Cidade H, Lobo J, Almeida I]
 year: 2009
-publication: "Peer-reviewed article"
+publication: "Pharmaceuticals"
 doi: 10.3390/ph15030263
 source_type: peer-reviewed
 evidence_tier: B

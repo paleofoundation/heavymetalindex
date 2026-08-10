@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jchas-2018-09-001
 cite_key: authors2023-wipe-sampling-is-a-commonly-used-method-for
-title: "Wipe sampling is a commonly used method for testing a surface for beryllium or other metal particle"
-authors: ["Unknown authors"]
+title: "A comparative evaluation of the effectiveness of wipe sampling materials to remove beryllium from differently textured surfaces using zinc oxide as a surrogate"
+authors: [Clingenpeel S, Handy R, Pahler L, Sleeth D, Rees T]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Journal of Chemical Health & Safety"
 doi: 10.1016/j.jchas.2018.09.001
 source_type: peer-reviewed
 evidence_tier: B

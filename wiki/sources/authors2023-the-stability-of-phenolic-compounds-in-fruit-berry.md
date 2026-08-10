@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods12091777
 cite_key: authors2023-the-stability-of-phenolic-compounds-in-fruit-berry
-title: "The Stability of Phenolic Compounds in Fruit, Berry,"
-authors: ["Unknown authors"]
+title: "The Stability of Phenolic Compounds in Fruit, Berry, and Vegetable Purees Based on Accelerated Shelf-Life Testing Methodology"
+authors: [Saarniit K, Lang H, Kuldjärv R, Laaksonen O, Rosenvald S]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods12091777
 source_type: peer-reviewed
 evidence_tier: B

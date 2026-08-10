@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-4c10719
 cite_key: authors2025-contrasting-magnitude-and-timing-of-pulsed-aqueous
-title: "Contrasting Magnitude and Timing of Pulsed Aqueous"
-authors: ["Unknown authors"]
+title: "Contrasting Magnitude and Timing of Pulsed Aqueous Methylmercury Bioaccumulation across a Reservoir Food Web"
+authors: [Willacker JJ, Eagles-Smith CA, Baldwin AK, Tate MT, Poulin BA, Naymik J, Krabbenhoft DP, Myers R, Chandler JA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.4c10719
 source_type: peer-reviewed
 evidence_tier: B

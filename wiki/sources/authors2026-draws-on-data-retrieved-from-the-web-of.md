@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-31545-intagr-221004
 cite_key: authors2026-draws-on-data-retrieved-from-the-web-of
-title: "draws on data retrieved from the Web of Science, Scopus, and functional foods fortified with health-promoting ingredi-"
-authors: ["Unknown authors"]
+title: "From vegetable pomace processing to shortbread biscuits: a review"
+authors: [Krajewska A, Dziki D, Starek-Wójcicka A]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "International Agrophysics"
 doi: 10.31545/intagr/221004
 source_type: peer-reviewed
 evidence_tier: B

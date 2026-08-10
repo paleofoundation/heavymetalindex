@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-14309-ajg-0000000000001779
 cite_key: authors2022-the-existing-literature-on-food-and-pediatric-dgbis
-title: "the existing literature on food and pediatric DGBIs. The following have been shown to be beneficial: (i) in infants with"
-authors: ["Unknown authors"]
+title: "Pediatric Aspects of Nutrition Interventions for Disorders of Gut-Brain Interaction"
+authors: [Nurko S, Benninga MA, Solari T, Chumpitazi BP]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "American Journal of Gastroenterology"
 doi: 10.14309/ajg.0000000000001779
 source_type: peer-reviewed
 evidence_tier: B

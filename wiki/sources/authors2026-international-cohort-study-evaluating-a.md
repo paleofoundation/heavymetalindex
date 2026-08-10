@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1136-bmjopen-2026-118213
 cite_key: authors2026-international-cohort-study-evaluating-a
-title: "international cohort study evaluating a"
-authors: ["Unknown authors"]
+title: "Preoperative Risk Evaluation for Cancer Treatment (PREdiCT): protocol for an international cohort study evaluating a trimodal screening tool to predict outcomes following gastrointestinal cancer surgery"
+authors: [Reeves J, Koh C, Alexander K, Solomon M, Karunaratne S, Petridis A, Carey S, Dhillon H, White K, Pillinger N, Gillis C, Hirst N, Shadid Z, Rahman MI, Boden I, Mahoney A, Woodfield J, Vagg D, De Boer HD, Sutton P, Pereira L, Drummond-Lage AP, Mcloughlin S, Alvarez A, Pirie K, Hii MW, Suliman A, Uçaner B, Schizas D, Nassim K, Albatool R, Ali K, Triantafyllou T, Styliana A, Merlini I, Van Daele E, Mulita F, Bell M, Martinez-Palli G, Koch C, Falconi M, Garmanova T, Deng N, Tirelli F, Lubbers T, Chwat C, Costales A, Hanna NM, Petrova A, Khamees A, Beard D, Granger CL, "The PREdiCT Study Investigators", Steffens D]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "BMJ Open"
 doi: 10.1136/bmjopen-2026-118213
 source_type: peer-reviewed
 evidence_tier: B

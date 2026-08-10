@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-eehl-2026-100241
 cite_key: authors2026-fruit-consumption-as-a-gut-health-improving-strategy
-title: "Fruit consumption as a gut health improving strategy to lower arsenic"
-authors: ["Unknown authors"]
+title: "Fruit consumption as a gut health improving strategy to lower arsenic exposure risk from rice consumption"
+authors: [Zhou L, Chen S, Lin X, Xue R, Zhou L, Xi J, Bao Y, Ye T, Wang P, Li H, Zhou D]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Eco-Environment & Health"
 doi: 10.1016/j.eehl.2026.100241
 source_type: peer-reviewed
 evidence_tier: B

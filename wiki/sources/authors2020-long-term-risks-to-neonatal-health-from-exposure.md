@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph17072538
 cite_key: authors2020-long-term-risks-to-neonatal-health-from-exposure
-title: "Long Term Risks to Neonatal Health from Exposure to"
-authors: ["Unknown authors"]
+title: "Long Term Risks to Neonatal Health from Exposure to War—9 Years Long Survey of Reproductive Health and Contamination by Weapon-Delivered Heavy Metals in Gaza, Palestine"
+authors: [Manduca P, Al Baraquni N, Parodi S]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph17072538
 source_type: peer-reviewed
 evidence_tier: B

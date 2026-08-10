@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph191610092
 cite_key: authors2022-total-mercury-and-fatty-acids-in-selected-fish
-title: "Total Mercury and Fatty Acids in Selected Fish Species on the"
-authors: ["Unknown authors"]
+title: "Total Mercury and Fatty Acids in Selected Fish Species on the Polish Market: A Risk to Human Health"
+authors: [Łuczyńska J, Łuczyński MJ, Nowosad J, Kowalska-Góralska M, Senze M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph191610092
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph192316236
 cite_key: authors2022-a-low-cost-method-shows-potentially-toxic-element
-title: "A Low-Cost Method Shows Potentially Toxic Element Levels"
-authors: ["Unknown authors"]
+title: "A Low-Cost Method Shows Potentially Toxic Element Levels in Dust Correlated with Elevated Blood Levels of These Chemicals in Children Exposed to an Informal Home-Based Production Environment"
+authors: [Barrozo F, Almeida GAD, Luz MS, Olympio KPK]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph192316236
 source_type: peer-reviewed
 evidence_tier: B

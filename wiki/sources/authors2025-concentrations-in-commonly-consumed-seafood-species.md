@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods14152700
 cite_key: authors2025-concentrations-in-commonly-consumed-seafood-species
-title: "Concentrations in Commonly Consumed Seafood Species"
-authors: ["Unknown authors"]
+title: "Influence of Various Cooking Methods on Selenium Concentrations in Commonly Consumed Seafood Species in Thailand"
+authors: [Rueangsri N, Judprasong K, Sridonpai P, Laitip N, Feldmann J, Singhato A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods14152700
 source_type: peer-reviewed
 evidence_tier: B

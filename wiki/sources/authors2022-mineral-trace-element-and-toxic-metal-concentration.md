@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1111-jvim-16698
 cite_key: authors2022-mineral-trace-element-and-toxic-metal-concentration
-title: "Mineral, trace element, and toxic metal concentration"
-authors: ["Unknown authors"]
+title: "Mineral, trace element, and toxic metal concentration in hair from dogs with idiopathic epilepsy compared to healthy controls"
+authors: [Rosendahl S, Anturaniemi J, Kukko-Lukjanov TK, Vuori KA, Moore R, Hemida M, Muhle A, Hielm-Björkman A]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Journal of Veterinary Internal Medicine"
 doi: 10.1111/jvim.16698
 source_type: peer-reviewed
 evidence_tier: B

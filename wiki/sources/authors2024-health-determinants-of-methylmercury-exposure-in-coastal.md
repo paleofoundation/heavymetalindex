@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-35787-jimdc-v13i1-1140
 cite_key: authors2024-health-determinants-of-methylmercury-exposure-in-coastal
-title: "Health Determinants of Methylmercury Exposure in Coastal"
-authors: ["Unknown authors"]
+title: "Health Determinants of Methylmercury Exposure in Coastal Pakistani Women: Fish Consumption and Environmental Influences"
+authors: [Ali Khan A, Syed Iqbal Azam]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Islamabad Medical & Dental College"
 doi: 10.35787/jimdc.v13i1.1140
 source_type: peer-reviewed
 evidence_tier: B

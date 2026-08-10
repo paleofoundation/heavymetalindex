@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-anu-7323773
 cite_key: authors2025-sustainable-shrimp-feeding-digestibility-of-defatted
-title: "Sustainable Shrimp Feeding: Digestibility of Defatted"
-authors: ["Unknown authors"]
+title: "Sustainable Shrimp Feeding: Digestibility of Defatted Hermetia illucens Meal by In Vitro and In Vivo Methods"
+authors: [Dornic A, Pham D, Wabete N, Callac N, Mazurais D, Donati L, Bézagu M, Zambonino-Infante JL]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Aquaculture Nutrition"
 doi: 10.1155/anu/7323773
 source_type: peer-reviewed
 evidence_tier: B

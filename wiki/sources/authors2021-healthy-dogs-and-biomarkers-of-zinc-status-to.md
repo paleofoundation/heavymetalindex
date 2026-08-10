@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ani11040978
 cite_key: authors2021-healthy-dogs-and-biomarkers-of-zinc-status-to
-title: "healthy dogs and biomarkers of zinc status. To ensure an adequate zinc status, it is important to know"
-authors: ["Unknown authors"]
+title: "Zinc in Dog Nutrition, Health and Disease: A Review"
+authors: [Pereira AM, Maia MRG, Fonseca AJM, Cabrita ARJ]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Animals"
 doi: 10.3390/ani11040978
 source_type: peer-reviewed
 evidence_tier: B

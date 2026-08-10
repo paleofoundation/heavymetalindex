@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41370-023-00553-x
 cite_key: authors2026-optimization-of-a-method-for-collecting-infant-and
-title: "Optimization of a method for collecting infant and toddler urine"
-authors: ["Unknown authors"]
+title: "Optimization of a method for collecting infant and toddler urine for non-target analysis using cotton pads and commercially available disposable diapers"
+authors: [Lupolt SN, Newmeyer MN, Lyu Q, Prasse C, Nachman KE]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Journal of Exposure Science & Environmental Epidemiology"
 doi: 10.1038/s41370-023-00553-x
 source_type: peer-reviewed
 evidence_tier: B

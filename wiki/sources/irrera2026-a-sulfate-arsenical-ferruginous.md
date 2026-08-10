@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmed-2026-1800406
 cite_key: irrera2026-a-sulfate-arsenical-ferruginous
-title: "A sulfate-arsenical-ferruginous"
-authors: ["oxidative EDITED BY Natasha Irrera", "the gene expression of University of Messina", "Italy REVIEWED BY"]
+title: "A sulfate-arsenical-ferruginous water affects apoptosis, oxidative stress and the gene expression of inflammatory mediators and of a panel of MicroRNA in IL-1β stimulated human osteoarthritic chondrocytes"
+authors: [Fioravanti A, Manica P, Seccafico I, Collodel G, Moretti E, Carta S, Cheleschi S]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Medicine"
 doi: 10.3389/fmed.2026.1800406
 source_type: peer-reviewed
 evidence_tier: B

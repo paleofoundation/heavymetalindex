@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envint-2025-109252
 cite_key: authors2025-species-specific-mercury-speciation-in-billfishes-and-its
-title: "Species-specific mercury speciation in billfishes and its"
-authors: ["Unknown authors"]
+title: "Species-specific mercury speciation in billfishes and its implications for food safety monitoring and dietary advice"
+authors: [Médieu A, Point D, Allain V, Bodin N, Lemire M, Ayotte P, Dhurmeea Z, Waeles M, Laffont L, Gohalen AL, Roupsard F, Lorrain A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environment International"
 doi: 10.1016/j.envint.2025.109252
 source_type: peer-reviewed
 evidence_tier: B

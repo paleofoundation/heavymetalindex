@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-ftox-2026-1855035
 cite_key: authors2026-oral-metal-immunotoxicity-in
-title: "Oral metal immunotoxicity in"
-authors: ["Unknown authors"]
+title: "Oral metal immunotoxicity in rodents: a recoverability-aware systematic review and within-study quantitative reanalysis of splenic SRBC-TDAR"
+authors: [Martínez-Ortiz IC, Garcia-Atutxa I, Machain-Williams C, Reyes-López MÁ, Villanueva-Flores F]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Toxicology"
 doi: 10.3389/ftox.2026.1855035
 source_type: peer-reviewed
 evidence_tier: B

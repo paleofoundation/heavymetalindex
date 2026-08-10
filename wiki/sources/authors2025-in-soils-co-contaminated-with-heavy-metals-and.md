@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics13121044
 cite_key: authors2025-in-soils-co-contaminated-with-heavy-metals-and
-title: "in Soils Co-Contaminated with Heavy Metals and Polycyclic"
-authors: ["Unknown authors"]
+title: "Molecular Mechanisms of Root Exudate-Mediated Remediation in Soils Co-Contaminated with Heavy Metals and Polycyclic Aromatic Hydrocarbons"
+authors: [Sun L, Mo J, Wang Z, Lin S, Wang D, Li Z, Wang Y, Wu J, Guo W, Chen J, Wu Z, Chen L]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13121044
 source_type: peer-reviewed
 evidence_tier: B

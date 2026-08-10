@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-ecolind-2018-04-021
 cite_key: authors2018-influence-of-heavy-metals-on-nematode-community-structure
-title: "Inﬂuence of heavy metals on nematode community structure in deteriorated T"
-authors: ["Unknown authors"]
+title: "Influence of heavy metals on nematode community structure in deteriorated soil by gold mining activities in Sibutad, southern Philippines"
+authors: [Martinez JG, Torres MA, dos Santos G, Moens T]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Ecological Indicators"
 doi: 10.1016/j.ecolind.2018.04.021
 source_type: peer-reviewed
 evidence_tier: B

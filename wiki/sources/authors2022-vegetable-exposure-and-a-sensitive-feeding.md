@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-jn-nxab387
 cite_key: authors2022-vegetable-exposure-and-a-sensitive-feeding
-title: "Vegetable-Exposure and a Sensitive-Feeding"
-authors: ["Unknown authors"]
+title: "The Baby’s First Bites RCT: Evaluating a Vegetable-Exposure and a Sensitive-Feeding Intervention in Terms of Child Health Outcomes and Maternal Feeding Behavior During Toddlerhood"
+authors: [van Vliet MS, Schultink JM, Jager G, de Vries JH, Mesman J, de Graaf C, Vereijken CM, Weenen H, de Wild VW, Martens VE, Houniet H, van der Veek SM]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "The Journal of Nutrition"
 doi: 10.1093/jn/nxab387
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms241311031
 cite_key: authors2023-regulatory-mechanisms-underlying-arsenic-uptake-transport
-title: "Regulatory Mechanisms Underlying Arsenic Uptake, Transport,"
-authors: ["Unknown authors"]
+title: "Regulatory Mechanisms Underlying Arsenic Uptake, Transport, and Detoxification in Rice"
+authors: [Geng A, Lian W, Wang X, Chen G]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms241311031
 source_type: peer-reviewed
 evidence_tier: B

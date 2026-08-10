@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41370-020-0206-6
 cite_key: authors2020-seafood-wine-rice-vegetables-and-other-food-items
-title: "Seafood, wine, rice, vegetables, and other food items associated"
-authors: ["Unknown authors"]
+title: "Seafood, wine, rice, vegetables, and other food items associated with mercury biomarkers among seafood and non-seafood consumers: NHANES 2011–2012"
+authors: [Wells EM, Kopylev L, Nachman R, Radke EG, Segal D]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Journal of Exposure Science & Environmental Epidemiology"
 doi: 10.1038/s41370-020-0206-6
 source_type: peer-reviewed
 evidence_tier: B

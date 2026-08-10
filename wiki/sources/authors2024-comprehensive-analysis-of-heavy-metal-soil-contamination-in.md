@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-arabjc-2024-105777
 cite_key: authors2024-comprehensive-analysis-of-heavy-metal-soil-contamination-in
-title: "Comprehensive analysis of heavy metal soil contamination in mining"
-authors: ["Unknown authors"]
+title: "Comprehensive analysis of heavy metal soil contamination in mining Environments: Impacts, monitoring Techniques, and remediation strategies"
+authors: [Haghighizadeh A, Rajabi O, Nezarat A, Hajyani Z, Haghmohammadi M, Hedayatikhah S, Asl SD, Aghababai Beni A]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Arabian Journal of Chemistry"
 doi: 10.1016/j.arabjc.2024.105777
 source_type: peer-reviewed
 evidence_tier: B

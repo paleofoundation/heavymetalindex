@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants14040606
 cite_key: authors2025-low-arsenic-rice-breeding
-title: "Low Arsenic Rice Breeding"
-authors: ["Unknown authors"]
+title: "Recent Advances in Transcriptome Analysis Within the Realm of Low Arsenic Rice Breeding"
+authors: [Huang G, Yu G, Li H, Yu H, Huang Z, Tang L, Yang P, Zhong Z, Hu G, Zhang P, Tong H]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants14040606
 source_type: peer-reviewed
 evidence_tier: B

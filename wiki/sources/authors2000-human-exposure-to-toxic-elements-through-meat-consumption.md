@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu17111755
 cite_key: authors2000-human-exposure-to-toxic-elements-through-meat-consumption
-title: "Human Exposure to Toxic Elements Through Meat Consumption"
-authors: ["Unknown authors"]
+title: "Human Exposure to Toxic Elements Through Meat Consumption in Africa: A Comprehensive Review of Scientific Literature"
+authors: [Domingo J]
 year: 2000
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu17111755
 source_type: peer-reviewed
 evidence_tier: B

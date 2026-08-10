@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules30102194
 cite_key: authors2025-jannat-javed-1-2-yuting-zhou-1-saad
-title: "Jannat Javed 1,2 , Yuting Zhou 1 , Saad Ullah 2,3 , Tianjiu Gao 1 , Caiyun Yang 1 , Ying Han 1,4, * and Hao Wu 1,4, *"
-authors: ["Unknown authors"]
+title: "Progress and Perspectives on Pyrite-Derived Materials Applied in Advanced Oxidation Processes for the Elimination of Emerging Contaminants from Wastewater"
+authors: [Javed J, Zhou Y, Ullah S, Gao T, Yang C, Han Y, Wu H]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules30102194
 source_type: peer-reviewed
 evidence_tier: B

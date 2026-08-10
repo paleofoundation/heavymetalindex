@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12161-021-02148-4
 cite_key: authors2022-central-channel-of-radiofrequency-rf-induced-argon-tion
-title: "central channel of radiofrequency (RF) induced argon tion technique leads to the identification of the compound"
-authors: ["Unknown authors"]
+title: "Inductively Coupled Plasma Optical Emission Spectrometry (ICP-OES): a Powerful Analytical Technique for Elemental Analysis"
+authors: [Khan SR, Sharma B, Chawla PA, Bhatia R]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Food Analytical Methods"
 doi: 10.1007/s12161-021-02148-4
 source_type: peer-reviewed
 evidence_tier: B

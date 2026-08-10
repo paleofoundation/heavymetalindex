@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nano16110669
 cite_key: authors2026-chromium-ion-adsorption-in-acidic-wastewater
-title: "Chromium Ion Adsorption in Acidic Wastewater"
-authors: ["Unknown authors"]
+title: "High-Specific-Surface-Area Hollow Carbon Spheres for Efficient Chromium Ion Adsorption in Acidic Wastewater"
+authors: [Gao R, Zhang M, Sun X, Zhu D, Huang X, Wang T, Xie C, Wang N, Hao H]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Nanomaterials"
 doi: 10.3390/nano16110669
 source_type: peer-reviewed
 evidence_tier: B

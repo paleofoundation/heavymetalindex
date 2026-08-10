@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox12010138
 cite_key: authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic
-title: "nitrogen species (RNS), resulting in skin damage. Cosmetic industries have adopted a strategy to"
-authors: ["Unknown authors"]
+title: "Antioxidants in Sunscreens: Which and What For?"
+authors: [Jesus A, Mota S, Torres A, Cruz MT, Sousa E, Almeida IF, Cidade H]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox12010138
 source_type: peer-reviewed
 evidence_tier: B

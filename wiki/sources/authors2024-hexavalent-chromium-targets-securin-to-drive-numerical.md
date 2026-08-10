@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms25010256
 cite_key: authors2024-hexavalent-chromium-targets-securin-to-drive-numerical
-title: "Hexavalent Chromium Targets Securin to Drive Numerical"
-authors: ["Unknown authors"]
+title: "Hexavalent Chromium Targets Securin to Drive Numerical Chromosome Instability in Human Lung Cells"
+authors: [Toyoda JH, Martino J, Speer RM, Meaza I, Lu H, Williams AR, Bolt AM, Kouokam JC, Aboueissa AEM, Wise JP]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms25010256
 source_type: peer-reviewed
 evidence_tier: B

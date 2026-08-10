@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-s0029665121002871
 cite_key: miller2021-pregnancy-reduces-infants-disliking-of-bitter-vegetables-at
-title: "pregnancy reduces infants’ disliking of bitter vegetables at weaning"
-authors: ["J.E. Miller", "L. Milne", "J. Duncan", "J.M. Wallace Rowett Institute", "University of Aberdeen", "Aberdeen", "UK This"]
+title: "An intervention to increase consumption of bitter vegetables in late pregnancy reduces infants’ disliking of bitter vegetables at weaning"
+authors: [Miller JE, Milne L, Duncan J, Wallace JM]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Proceedings of the Nutrition Society"
 doi: 10.1017/s0029665121002871
 source_type: peer-reviewed
 evidence_tier: B

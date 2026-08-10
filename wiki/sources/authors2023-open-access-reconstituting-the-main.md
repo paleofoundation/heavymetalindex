@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpubh-2023-1247310
 cite_key: authors2023-open-access-reconstituting-the-main
-title: "OPEN ACCESS reconstituting the main"
-authors: ["Unknown authors"]
+title: "Contrasted life trajectories: reconstituting the main population exposomes in French Guiana"
+authors: [Nacher M, Basurko C, Douine M, Lambert Y, Rousseau C, Michaud C, Garlantezec R, Adenis A, Gomes MM, Alsibai KD, Sabbah N, Lambert V, Epelboin L, Sukul RG, Terlutter F, Janvier C, Hcini N]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2023.1247310
 source_type: peer-reviewed
 evidence_tier: B

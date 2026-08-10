@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d5qi01958c
 cite_key: authors2026-toxicity-of-methylmercury
-title: "toxicity of methylmercury"
-authors: ["Unknown authors"]
+title: "Molecular insights into the role of selenoenzymes in the toxicity of methylmercury"
+authors: [Bernabeu de Maria M, Zangmo T, Gawor A, Messori L, Bulska E, Szpunar J, Lobinski R, Miqueu K, Ronga L]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Inorganic Chemistry Frontiers"
 doi: 10.1039/d5qi01958c
 source_type: peer-reviewed
 evidence_tier: B

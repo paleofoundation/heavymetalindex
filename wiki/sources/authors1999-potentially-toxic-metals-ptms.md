@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5772-intechopen-92611
 cite_key: authors1999-potentially-toxic-metals-ptms
-title: "Potentially Toxic Metals (PTMs)"
-authors: ["Unknown authors"]
+title: "The Use of Biochar as a Soil Amendment to Reduce Potentially Toxic Metals (PTMs) Phytoavailability"
+authors: [Arthur Antonangelo J, Zhang H]
 year: 1999
-publication: "Peer-reviewed article"
+publication: "Applications of Biochar for Environmental Safety"
 doi: 10.5772/intechopen.92611
 source_type: peer-reviewed
 evidence_tier: B

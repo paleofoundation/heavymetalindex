@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-022-08354-2
 cite_key: authors2022-open-infant-infections-respiratory
-title: "OPEN Infant infections, respiratory"
-authors: ["Unknown authors"]
+title: "Infant infections, respiratory symptoms, and allergy in relation to timing of rice cereal introduction in a United States cohort"
+authors: [Moroishi Y, Signes-Pastor AJ, Li Z, Cottingham KL, Jackson BP, Punshon T, Madan J, Nadeau K, Gui J, Karagas MR]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-022-08354-2
 source_type: peer-reviewed
 evidence_tier: B

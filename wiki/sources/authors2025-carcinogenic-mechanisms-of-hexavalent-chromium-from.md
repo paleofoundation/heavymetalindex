@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s40572-024-00460-9
 cite_key: authors2025-carcinogenic-mechanisms-of-hexavalent-chromium-from
-title: "Carcinogenic Mechanisms of Hexavalent Chromium: From"
-authors: ["Unknown authors"]
+title: "Carcinogenic Mechanisms of Hexavalent Chromium: From DNA Breaks to Chromosome Instability and Neoplastic Transformation"
+authors: [Meaza I, Williams AR, Wise SS, Lu H, Wise JP]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Current Environmental Health Reports"
 doi: 10.1007/s40572-024-00460-9
 source_type: peer-reviewed
 evidence_tier: B

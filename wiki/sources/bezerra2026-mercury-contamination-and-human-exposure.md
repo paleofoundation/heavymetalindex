@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10661-026-15512-w
 cite_key: bezerra2026-mercury-contamination-and-human-exposure
-title: "Mercury contamination and human exposure"
-authors: ["aquaculture products in Northeastern Brazil Luiz Drude de Lacerda · Moisés Fernandes Bezerra"]
+title: "Mercury contamination and human exposure through inland fishery and aquaculture products in Northeastern Brazil"
+authors: [de Lacerda LD, Bezerra MF]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Monitoring and Assessment"
 doi: 10.1007/s10661-026-15512-w
 source_type: peer-reviewed
 evidence_tier: B

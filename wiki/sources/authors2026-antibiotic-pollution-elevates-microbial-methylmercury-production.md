@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1021-acs-est-6c01533
 cite_key: authors2026-antibiotic-pollution-elevates-microbial-methylmercury-production
 title: "Antibiotic Pollution Elevates Microbial Methylmercury Production"
-authors: ["Unknown authors"]
+authors: [Zhang Z, Zhang C, Chen W, Gao C, Liu Y, Cui Y, Chen Z, Chen J, Alvarez PJJ, Chen W, Zhang T]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.6c01533
 source_type: peer-reviewed
 evidence_tier: B

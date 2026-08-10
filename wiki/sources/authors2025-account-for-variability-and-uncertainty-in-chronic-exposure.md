@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-jox15040125
 cite_key: authors2025-account-for-variability-and-uncertainty-in-chronic-exposure
-title: "account for variability and uncertainty in chronic exposure estimates. The hazard index"
-authors: ["Unknown authors"]
+title: "Prioritization and Sensitivity of Pesticide Risks from Root and Tuber Vegetables"
+authors: [Lučić M, Onjia A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Xenobiotics"
 doi: 10.3390/jox15040125
 source_type: peer-reviewed
 evidence_tier: B

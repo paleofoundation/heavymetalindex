@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1128-jb-00259-22
 cite_key: haft2022-methylmercury-biosynthesis
-title: "Methylmercury Biosynthesis"
-authors: ["Daniel H. Haft", "a Marc Gwadza National Center for Biotechnology Information", "National Library of Medicine", "Bethesda", "Maryland"]
+title: "Eight Unexpected Selenoprotein Families in Organometallic Biochemistry in Clostridium difficile, in ABC Transport, and in Methylmercury Biosynthesis"
+authors: [Haft DH, Gwadz M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Journal of Bacteriology"
 doi: 10.1128/jb.00259-22
 source_type: peer-reviewed
 evidence_tier: B

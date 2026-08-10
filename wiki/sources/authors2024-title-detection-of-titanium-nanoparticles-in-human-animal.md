@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-1101-2024-10-03-616116
 cite_key: authors2024-title-detection-of-titanium-nanoparticles-in-human-animal
-title: "Title: Detection of titanium nanoparticles in human, animal and infant"
-authors: ["Unknown authors"]
+title: "Detection of titanium nanoparticles in human, animal and infant formula milk"
+authors: [Rivard C, Djebrani-Oussedik N, Cloix R, Hue-Beauvais C, Kuszla N, Ivanova E, Simon M, Dufour A, Launay F, Gazeau F, Acloque H, Parat S, Poupon J, Burtey A]
 year: 2024
 publication: "Peer-reviewed article"
 doi: 10.1101/2024.10.03.616116

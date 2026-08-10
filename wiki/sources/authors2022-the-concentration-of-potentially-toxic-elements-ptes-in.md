@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11356-022-23110-9
 cite_key: authors2022-the-concentration-of-potentially-toxic-elements-ptes-in
-title: "The concentration of potentially toxic elements (PTEs) in the coffee products: a"
-authors: ["Unknown authors"]
+title: "The concentration of potentially toxic elements (PTEs) in the coffee products: a systematic review and meta-analysis"
+authors: [Mousavi Khaneghah A, Mahmudiono T, Javanmardi F, Tajdar-oranj B, Nematollahi A, Pirhadi M, Fakhri Y]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-022-23110-9
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants10061070
 cite_key: authors2021-understanding-potential-heavy-metal-contamination
-title: "Understanding Potential Heavy Metal Contamination,"
-authors: ["Unknown authors"]
+title: "Understanding Potential Heavy Metal Contamination, Absorption, Translocation and Accumulation in Rice and Human Health Risks"
+authors: [Zakaria Z, Zulkafflee NS, Mohd Redzuan NA, Selamat J, Ismail MR, Praveena SM, Tóth G, Abdull Razis AF]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants10061070
 source_type: peer-reviewed
 evidence_tier: B

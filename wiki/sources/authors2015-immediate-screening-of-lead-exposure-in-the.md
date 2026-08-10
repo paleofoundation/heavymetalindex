@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-15459624-2015-1091959
 cite_key: authors2015-immediate-screening-of-lead-exposure-in-the
-title: "Immediate screening of lead exposure in the"
-authors: ["Unknown authors"]
+title: "Immediate screening of lead exposure in the workplace using portable X-ray fluorescence"
+authors: [Gorce JP, Roff M]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Journal of Occupational and Environmental Hygiene"
 doi: 10.1080/15459624.2015.1091959
 source_type: peer-reviewed
 evidence_tier: B

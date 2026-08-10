@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-identj-2026-109560
 cite_key: authors2026-biomonitoring-of-occupational-exposure-to-mercury
-title: "Biomonitoring of Occupational Exposure to Mercury"
-authors: ["Unknown authors"]
+title: "Biomonitoring of Occupational Exposure to Mercury Among Dental Health Workers in LMICs: A Systematic Review"
+authors: [Bensouda Korachi I, Menouni A, Duca RC, Godderis L, El Jaâfari S, Filali-Zegzouti Y]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "International Dental Journal"
 doi: 10.1016/j.identj.2026.109560
 source_type: peer-reviewed
 evidence_tier: B

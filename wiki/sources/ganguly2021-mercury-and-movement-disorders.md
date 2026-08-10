@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-cjn-2021-146
 cite_key: ganguly2021-mercury-and-movement-disorders
-title: "Mercury and Movement Disorders:"
-authors: ["The Toxic Legacy Continues Jacky Ganguly", "Dinkar Kulshreshtha", "Mandar Jog"]
+title: "Mercury and Movement Disorders: The Toxic Legacy Continues"
+authors: [Ganguly J, Kulshreshtha D, Jog M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques"
 doi: 10.1017/cjn.2021.146
 source_type: peer-reviewed
 evidence_tier: B

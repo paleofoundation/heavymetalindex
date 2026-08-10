@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-65888-icraft-3-1-12
 cite_key: authors2007-nutritional-benefits-and-health-risks-of-seafood-consumption
 title: "Nutritional Benefits and Health Risks of Seafood Consumption"
-authors: ["Unknown authors"]
+authors: [ÖZOĞUL Y, ÖZOĞUL F]
 year: 2007
-publication: "Peer-reviewed article"
+publication: "Agricultural and Food Technologies"
 doi: 10.65888/icraft.3.1.12
 source_type: peer-reviewed
 evidence_tier: B

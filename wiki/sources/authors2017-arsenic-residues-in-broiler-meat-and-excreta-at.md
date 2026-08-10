@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3329-bjp-v7i3-11435
 cite_key: authors2017-arsenic-residues-in-broiler-meat-and-excreta-at
-title: "Arsenic residues in broiler meat and excreta at arsenic prone areas"
-authors: ["Unknown authors"]
+title: "Arsenic residues in broiler meat and excreta at arsenic prone areas of Bangladesh"
+authors: [Ghosh A, Awal MA, Majumder S, Sikder MH, Rao DR]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Bangladesh Journal of Pharmacology"
 doi: 10.3329/bjp.v7i3.11435
 source_type: peer-reviewed
 evidence_tier: B

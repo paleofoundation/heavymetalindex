@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-4838876-v1
 cite_key: cat2024-individual-and-combined-contamination-of-the-heavy-metals
-title: "Individual and Combined Contamination of the Heavy Metals"
-authors: ["in Commercial Cat", "Dog Food Jiaying Du Huazhong Agricultural University Kerui Zhou Huazhong Agricultural University Han Jiang Huazhong Agricultural University"]
+title: "Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food"
+authors: [Du J, Zhou K, Jiang H, Hu S, Zhang W, Zheng Q, Zhou G, Zhang N]
 year: 2024
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-4838876/v1

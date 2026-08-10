@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fendo-2026-1761556
 cite_key: zeng2026-properties-of-heavy-metal
-title: "properties of heavy metal"
-authors: ["EDITED BY Xianchang Zeng", "exposure contribute to the Zhejiang University", "China REVIEWED BY Xinpei Deng", "intergenerational effects State Key Laboratory of Oncology in"]
+title: "Endocrine-disrupting properties of heavy metal exposure contribute to the intergenerational effects on learning and memory"
+authors: [Dias GRM, Zomer HD, Silva NF, Graceli JB]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Endocrinology"
 doi: 10.3389/fendo.2026.1761556
 source_type: peer-reviewed
 evidence_tier: B

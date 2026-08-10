@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-35514-mtd-2024-116
 cite_key: authors2024-obsessive-skincare-and-liver-toxicity-a-case-report
-title: "Obsessive skincare and liver toxicity: a case report on"
-authors: ["Unknown authors"]
+title: "Obsessive skincare and liver toxicity: a case report on titanium dioxide exposure"
+authors: [Kaya FÖ, Abunawas MJ, Mert P]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Maltepe Tıp Dergisi"
 doi: 10.35514/mtd.2024.116
 source_type: peer-reviewed
 evidence_tier: B

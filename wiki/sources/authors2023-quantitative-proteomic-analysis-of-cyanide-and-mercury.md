@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1128-spectrum-00553-23
 cite_key: authors2023-quantitative-proteomic-analysis-of-cyanide-and-mercury
-title: "Quantitative Proteomic Analysis of Cyanide and Mercury"
-authors: ["Unknown authors"]
+title: "Quantitative Proteomic Analysis of Cyanide and Mercury Detoxification by Pseudomonas pseudoalcaligenes CECT 5344"
+authors: [Biełło KA, Olaya-Abril A, Cabello P, Rodríguez-Caballero G, Sáez LP, Moreno-Vivián C, Luque-Almagro VM, Roldán MD]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Microbiology Spectrum"
 doi: 10.1128/spectrum.00553-23
 source_type: peer-reviewed
 evidence_tier: B

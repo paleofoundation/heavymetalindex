@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-17159-sajs-2024-15969
 cite_key: ezema2023-evaluation-of-pesticide-residues-and-heavy-metals
-title: "Evaluation of pesticide residues and heavy metals"
-authors: ["AuthorS: Kingsley O. Omeje in common food tubers from Nigeria Benjamin O. Ezema", "Sabinus O.O. Eze AFFILIAtIoNS: Pesticide residues"]
+title: "Evaluation of pesticide residues and heavy metals in common food tubers from Nigeria"
+authors: [Omeje KO, Ezema BO, Eze SOO]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "South African Journal of Science"
 doi: 10.17159/sajs.2024/15969
 source_type: peer-reviewed
 evidence_tier: B

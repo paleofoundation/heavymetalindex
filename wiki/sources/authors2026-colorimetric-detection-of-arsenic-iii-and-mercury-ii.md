@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-s26092875
 cite_key: authors2026-colorimetric-detection-of-arsenic-iii-and-mercury-ii
-title: "Colorimetric Detection of Arsenic (III) and Mercury (II) Ions in"
-authors: ["Unknown authors"]
+title: "Colorimetric Detection of Arsenic (III) and Mercury (II) Ions in Human Serum Albumin Samples Using Cysteine-Capped Gold Nanoparticles"
+authors: [Fakayode SO, Bwambok DK, Arth E, Benjamin U, Huisman R, Lugue A, Tokos A, Owens K, Rosado Flores P]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Sensors"
 doi: 10.3390/s26092875
 source_type: peer-reviewed
 evidence_tier: B

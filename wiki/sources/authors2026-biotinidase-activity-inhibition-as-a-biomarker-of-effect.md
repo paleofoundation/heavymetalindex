@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acsomega-5c12680
 cite_key: authors2026-biotinidase-activity-inhibition-as-a-biomarker-of-effect
-title: "Biotinidase Activity Inhibition as a Biomarker of Effect to Mercury:"
-authors: ["Unknown authors"]
+title: "Biotinidase Activity Inhibition as a Biomarker of Effect to Mercury: Evidence from Amazonian Riverside Populations, In Vitro Assays, and In Silico Analyses"
+authors: [do Nascimento JLM, Arrifano GDP, Viana RN, Augusto-Oliveira M, Lopes-Araújo A, Santos-Sacramento L, Melo VCG, Sousa RSD, de Souza CGDS, Sena CBCD, da Silva LCS, Pinheiro MDCN, Lameira J, Crespo-López ME, Macchi BM]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "ACS Omega"
 doi: 10.1021/acsomega.5c12680
 source_type: peer-reviewed
 evidence_tier: B

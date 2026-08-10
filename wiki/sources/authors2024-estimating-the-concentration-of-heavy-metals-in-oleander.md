@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-62046-gijams-2024-v02-i05-001
 cite_key: authors2024-estimating-the-concentration-of-heavy-metals-in-oleander
 title: "Estimating the Concentration of Heavy Metals in Oleander/Pink and white Oleander Plants"
-authors: ["Unknown authors"]
+authors: [Abduraouf Alamer Mohamed, Abdulati Emhemed Khalil, Shaeli Eissa halab, Alrawi Qutaiba Kafi Jassim]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Greenfort International Journal of Applied Medical Science"
 doi: 10.62046/gijams.2024.v02.i05.001
 source_type: peer-reviewed
 evidence_tier: B

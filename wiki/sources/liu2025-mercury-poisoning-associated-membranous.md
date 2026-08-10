@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12882-025-04082-7
 cite_key: liu2025-mercury-poisoning-associated-membranous
-title: "Mercury poisoning-associated membranous"
-authors: ["autoimmune encephalitis Caihong Liu", "Yongxiu Huang", "Wei Wei", "Xinyu Hu", "Jing Yang", "Yuliang Zhao"]
+title: "Mercury poisoning-associated membranous nephropathy and autoimmune encephalitis"
+authors: [Liu C, Huang Y, Wei W, Hu X, Yang J, Zhao Y]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "BMC Nephrology"
 doi: 10.1186/s12882-025-04082-7
 source_type: peer-reviewed
 evidence_tier: B

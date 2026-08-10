@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2022-824084
 cite_key: authors2022-bioremediation-of-heavy-metal
-title: "Bioremediation of Heavy Metal"
-authors: ["Unknown authors"]
+title: "Microbial Interventions in Bioremediation of Heavy Metal Contaminants in Agroecosystem"
+authors: [Pande V, Pandey SC, Sati D, Bhatt P, Samant M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2022.824084
 source_type: peer-reviewed
 evidence_tier: B

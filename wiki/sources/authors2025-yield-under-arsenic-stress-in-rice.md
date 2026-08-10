@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2025-1556696
 cite_key: authors2025-yield-under-arsenic-stress-in-rice
-title: "yield under arsenic stress in rice"
-authors: ["Unknown authors"]
+title: "New nano-ferro-silicon biochar promotes plant growth and grain yield under arsenic stress in rice"
+authors: [Fang C, Dong B, Ye S, Zhang L, Liu Q]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2025.1556696
 source_type: peer-reviewed
 evidence_tier: B

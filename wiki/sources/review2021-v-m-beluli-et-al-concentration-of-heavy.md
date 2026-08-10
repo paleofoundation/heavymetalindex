@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15255-kui-2021-060
 cite_key: review2021-v-m-beluli-et-al-concentration-of-heavy
-title: "V. M. BELULI et al.: Concentration of Heavy Metals in Sediment and Water of Përlepnica Lake..., Kem. Ind. 71 (5-6) (2022) 335−345 335"
-authors: ["https://doi.org/./KUI.. Concentration of Heavy Metals in Sediment KUI-/ Review", "Water of Përlepnica Lake", "Kosovo"]
+title: "Concentration of Heavy Metals in Sediment and Water of Përlepnica Lake, Kosovo"
+authors: [Beluli VM, Berisha M, Mulliqi I, Kristollari K, Salihu L]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Kemija u industriji"
 doi: 10.15255/kui.2021.060
 source_type: peer-reviewed
 evidence_tier: B

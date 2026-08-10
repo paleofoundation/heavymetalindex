@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-026-49334-0
 cite_key: authors2026-against-arsenite-toxicity-by-reducing-intracellular
-title: "against arsenite toxicity by reducing intracellular"
-authors: ["Unknown authors"]
+title: "Nrf2 activation by the monocarbonyl curcumin derivative GO-Y015 confers cellular protection against arsenite toxicity by reducing intracellular arsenic levels"
+authors: [Islam MT, Taguchi H, Yamakoshi H, Yinuo W, Shibata H, Iwabuchi Y, Toyama T, Saito Y]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-026-49334-0
 source_type: peer-reviewed
 evidence_tier: B

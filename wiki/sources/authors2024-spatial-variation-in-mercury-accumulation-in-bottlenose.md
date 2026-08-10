@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12050327
 cite_key: authors2024-spatial-variation-in-mercury-accumulation-in-bottlenose
-title: "Spatial Variation in Mercury Accumulation in Bottlenose"
-authors: ["Unknown authors"]
+title: "Spatial Variation in Mercury Accumulation in Bottlenose Dolphins (Tursiops spp.) in Southeastern U.S.A."
+authors: [Griffin ML, Bryan CE, Cox TM, Balmer BC, Day RD, Garcia Barcia L, Gorgone AM, Kiszka JJ, Litz JA, Perrtree RM, Rowles TK, Schwacke LH, Wells RS, Zolman E]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12050327
 source_type: peer-reviewed
 evidence_tier: B

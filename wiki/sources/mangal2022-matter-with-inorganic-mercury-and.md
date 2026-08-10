@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10533-022-00944-6
 cite_key: mangal2022-matter-with-inorganic-mercury-and
-title: "matter with inorganic mercury and"
-authors: ["methylmercury in Canadian boreal streams Mangal", "W. Y. Lam", "H. Huang", "E. J. S. Emilson", "R. W. Mackereth", "C. P. J. Mitchell Version Post-print/"]
+title: "Molecular correlations of dissolved organic matter with inorganic mercury and methylmercury in Canadian boreal streams"
+authors: [Mangal V, Lam WY, Huang H, Emilson EJS, Mackereth RW, Mitchell CPJ]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Biogeochemistry"
 doi: 10.1007/s10533-022-00944-6
 source_type: peer-reviewed
 evidence_tier: B

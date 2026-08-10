@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2306-scienceasia1513-1874-2018-44-092
 cite_key: authors2018-and-retention-of-dha-and-epa-in-selected
-title: "and retention of DHA and EPA in selected fish fillets"
-authors: ["Unknown authors"]
+title: "Cooking methods affect total fatty acid composition and retention of DHA and EPA in selected fish fillets"
+authors: [Yee Choo P, Azlan A, Eng Khoo H]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "ScienceAsia"
 doi: 10.2306/scienceasia1513-1874.2018.44.092
 source_type: peer-reviewed
 evidence_tier: B

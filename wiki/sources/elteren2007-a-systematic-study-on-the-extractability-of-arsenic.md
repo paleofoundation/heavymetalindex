@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1016-j-aca-2006-12-019
 cite_key: elteren2007-a-systematic-study-on-the-extractability-of-arsenic
 title: "A systematic study on the extractability of arsenic species from algal certified reference material IAEA-140/TM (Fucus sp., Sea Plant Homogenate) using methanol/water extractant mixtures"
-authors: ["elteren"]
+authors: [van Elteren JT, Šlejkovec Z, Kahn M, Goessler W]
 year: 2007
 publication: "Analytica Chimica Acta"
 doi: "10.1016/j.aca.2006.12.019"

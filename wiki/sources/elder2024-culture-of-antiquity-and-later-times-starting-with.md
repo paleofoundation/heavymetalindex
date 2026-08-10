@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4312-clotho-5-2-33-54
 cite_key: elder2024-culture-of-antiquity-and-later-times-starting-with
-title: "culture of antiquity and later times, starting with the mythological"
-authors: ["Pliny the Elder", "Nicholas of Poland on Snake Products", "Their Medical Applications Adriana Grzelak-Krzymianowska One knows quite a lot about the significance of the snake itself in the"]
+title: "Pliny the Elder and Nicholas of Poland on Snake Products and Their Medical Applications"
+authors: [Grzelak-Krzymianowska A]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Clotho"
 doi: 10.4312/clotho.5.2.33-54
 source_type: peer-reviewed
 evidence_tier: B

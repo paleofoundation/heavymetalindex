@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s11671-019-3206-5
 cite_key: authors2019-the-surface-of-bifeo3-nanoparticles-acid-orange-7
-title: "the surface of BiFeO3 nanoparticles. Acid orange 7 (AO7) and hexavalent chromium (Cr(VI)) were chosen as the"
-authors: ["Unknown authors"]
+title: "Photo-Fenton Degradation of AO7 and Photocatalytic Reduction of Cr(VI) over CQD-Decorated BiFeO3 Nanoparticles Under Visible and NIR Light Irradiation"
+authors: [Xian T, Di L, Sun X, Li H, Zhou Y, Yang H]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Nanoscale Research Letters"
 doi: 10.1186/s11671-019-3206-5
 source_type: peer-reviewed
 evidence_tier: B

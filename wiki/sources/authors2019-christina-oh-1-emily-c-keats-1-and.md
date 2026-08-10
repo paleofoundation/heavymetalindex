@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu12020491
 cite_key: authors2019-christina-oh-1-emily-c-keats-1-and
-title: "Christina Oh 1 , Emily C. Keats 1 and Zulfiqar A. Bhutta 1,2, *"
-authors: ["Unknown authors"]
+title: "Vitamin and Mineral Supplementation During Pregnancy on Maternal, Birth, Child Health and Development Outcomes in Low- and Middle-Income Countries: A Systematic Review and Meta-Analysis"
+authors: [Oh C, Keats E, Bhutta Z]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu12020491
 source_type: peer-reviewed
 evidence_tier: B

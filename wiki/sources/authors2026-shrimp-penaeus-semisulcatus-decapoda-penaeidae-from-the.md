@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-life16030487
 cite_key: authors2026-shrimp-penaeus-semisulcatus-decapoda-penaeidae-from-the
-title: "Shrimp (Penaeus semisulcatus, Decapoda:Penaeidae) from the"
-authors: ["Unknown authors"]
+title: "Sex-Based Variations in Metal(loid) Levels in Green Tiger Shrimp (Penaeus semisulcatus, Decapoda:Penaeidae) from the Northeastern Mediterranean Coast of Türkiye: A Human Health Risk-Benefit Assessment"
+authors: [Gocer M, Olgunoglu MP, Olgunoglu IA]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Life"
 doi: 10.3390/life16030487
 source_type: peer-reviewed
 evidence_tier: B

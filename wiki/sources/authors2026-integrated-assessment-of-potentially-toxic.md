@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-9062963-v1
 cite_key: authors2026-integrated-assessment-of-potentially-toxic
-title: "Integrated Assessment of Potentially Toxic"
-authors: ["Unknown authors"]
+title: "Integrated Assessment of Potentially Toxic Elements in Street Dust: Source Apportionment, Bioaccessibility, and Health Risks in a Coal Mining Hub"
+authors: [Kumari M, Roy A, Barla NB, Bhattacharya T, Dawan SH, Kumar A]
 year: 2026
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-9062963/v1

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-19476337-2023-2300812
 cite_key: authors2023-oxidation-of-infant-formula-powder
-title: "oxidation of infant formula powder"
-authors: ["Unknown authors"]
+title: "Effect of high DHA and ARA fortification on lipid oxidation of infant formula powder"
+authors: [Jia HX, Qu YZ, Chen WL, Su MY]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "CyTA - Journal of Food"
 doi: 10.1080/19476337.2023.2300812
 source_type: peer-reviewed
 evidence_tier: B

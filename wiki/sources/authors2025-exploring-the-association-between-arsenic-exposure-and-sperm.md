@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4103-jhrs-jhrs-99-25
 cite_key: authors2025-exploring-the-association-between-arsenic-exposure-and-sperm
-title: "Exploring the Association between Arsenic Exposure and Sperm"
-authors: ["Unknown authors"]
+title: "Exploring the Association between Arsenic Exposure and Sperm Quality: A Systematic Review and Meta-analysis"
+authors: [Gautam R, Priyadarshini E, Maan P, Batra V, Arora T]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Human Reproductive Sciences"
 doi: 10.4103/jhrs.jhrs_99_25
 source_type: peer-reviewed
 evidence_tier: B

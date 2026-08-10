@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5620-eaht-2026008
 cite_key: authors2025-study-quantified-aliphatic-and-polycyclic-aromatic-hydrocarbons-pahs
-title: "study quantified aliphatic and polycyclic aromatic hydrocarbons (PAHs) in Tilapia zillii, a key dietary fish species, to"
-authors: ["Unknown authors"]
+title: "Organ-Specific Accumulation and Health Risk Assessment of Aliphatic and Polycyclic Aromatic Hydrocarbons in Tilapia zillii"
+authors: [Ifeanyi Kenneth A, Agboeze E, Udeozo PI, Ofordile VA, Agboeze HO]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Analysis Health and Toxicology"
 doi: 10.5620/eaht.2026008
 source_type: peer-reviewed
 evidence_tier: B

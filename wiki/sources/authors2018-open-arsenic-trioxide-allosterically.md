@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-32414-y
 cite_key: authors2018-open-arsenic-trioxide-allosterically
-title: "OPEN Arsenic trioxide allosterically"
-authors: ["Unknown authors"]
+title: "Arsenic trioxide allosterically inhibits human telomerase, validated by in-silico and in-vitro cancer and non cancer cell lines"
+authors: [Chaudhary A, Kumar R, Kumari K, Singh VK, Ojha KK, Kumar N, Prakash K, Ola MS, Haque R]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-32414-y
 source_type: peer-reviewed
 evidence_tier: B

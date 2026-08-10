@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-6611407-v1
 cite_key: article2026-packaging-for-whole-milk-powder-and-infant
-title: "Packaging for Whole Milk Powder and Infant"
-authors: ["Formula Suman Kumari Central University of Harayana Rajendrakumar Anayath Sandeep Boora Central University of Harayana Research Article"]
+title: "Recyclable-by-Design Polyolefin-Based Flexible Packaging for Whole Milk Powder and Infant Formula"
+authors: [Kumari S, Anayath R, Boora S]
 year: 2026
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-6611407/v1

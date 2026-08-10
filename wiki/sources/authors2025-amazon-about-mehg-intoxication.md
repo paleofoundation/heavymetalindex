@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-ftox-2025-1571658
 cite_key: authors2025-amazon-about-mehg-intoxication
-title: "Amazon about MeHg intoxication"
-authors: ["Unknown authors"]
+title: "Raising awareness of riverine populations in the Brazilian Amazon about MeHg intoxication in APOE4 carriers: cardiovascular risk and potential benefit of native selenium diets"
+authors: [Carvalho CGM, Da Costa PM, Souza LMR, Monteiro VKF, Alvarez-leite JI, Crespo-Lopez ME, Oriá RB]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Toxicology"
 doi: 10.3389/ftox.2025.1571658
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms24010467
 cite_key: authors2023-heavy-metals-and-essential-metals-are-associated-with
-title: "Heavy Metals and Essential Metals Are Associated with"
-authors: ["Unknown authors"]
+title: "Heavy Metals and Essential Metals Are Associated with Cerebrospinal Fluid Biomarkers of Alzheimer’s Disease"
+authors: [Babić Leko M, Mihelčić M, Jurasović J, Nikolac Perković M, Španić E, Sekovanić A, Orct T, Zubčić K, Langer Horvat L, Pleić N, Kiđemet-Piskač S, Vogrinc Ž, Pivac N, Diana A, Borovečki F, Hof PR, Šimić G]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms24010467
 source_type: peer-reviewed
 evidence_tier: B

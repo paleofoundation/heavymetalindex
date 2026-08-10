@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5772-intechopen-82151
 cite_key: authors2019-the-soil-quality-1-soil-is-also-contaminated
-title: "the soil quality [1]. Soil is also contaminated by heavy metals through various human"
-authors: ["Unknown authors"]
+title: "Biochar: A Sustainable Approach for Improving Plant Growth and Soil Properties"
+authors: [Rawat J, Saxena J, Sanwal P]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Biochar - An Imperative Amendment for Soil and the Environment"
 doi: 10.5772/intechopen.82151
 source_type: peer-reviewed
 evidence_tier: B

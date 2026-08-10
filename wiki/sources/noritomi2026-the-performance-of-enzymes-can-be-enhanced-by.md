@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5772-intechopen-82094
 cite_key: noritomi2026-the-performance-of-enzymes-can-be-enhanced-by
-title: "the performance of enzymes can be enhanced by selecting an appropriate carrier."
-authors: ["Application of Biochar to Enzyme Carrier for Stress Tolerance of Enzymes Hidetaka Noritomi"]
+title: "Application of Biochar to Enzyme Carrier for Stress Tolerance of Enzymes"
+authors: [Noritomi H]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Biochar - An Imperative Amendment for Soil and the Environment"
 doi: 10.5772/intechopen.82094
 source_type: peer-reviewed
 evidence_tier: B

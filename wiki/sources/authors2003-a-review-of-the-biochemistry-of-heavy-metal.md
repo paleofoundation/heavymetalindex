@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-s0043-1354-03-00293-8
 cite_key: authors2003-a-review-of-the-biochemistry-of-heavy-metal
-title: "A review of the biochemistry of heavy metal"
-authors: ["Unknown authors"]
+title: "A review of the biochemistry of heavy metal biosorption by brown algae"
+authors: [Davis TA, Volesky B, Mucci A]
 year: 2003
-publication: "Peer-reviewed article"
+publication: "Water Research"
 doi: 10.1016/s0043-1354(03)00293-8
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2026-1849234
 cite_key: authors2026-under-multi-metal-exposure
-title: "under multi-metal exposure"
-authors: ["Unknown authors"]
+title: "Nanoparticle-modified fishpond sediments improve metal immobilization, redox homeostasis, and stress tolerance in Spinacia oleracea under multi-metal exposure"
+authors: [Zhu Y, Ahmed W, Mahmood M, Bundschuh J, Akmal M, Tan L, Mehmood S, Li W]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2026.1849234
 source_type: peer-reviewed
 evidence_tier: B

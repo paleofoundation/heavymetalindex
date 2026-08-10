@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-12911-22998993-192232
 cite_key: engineering2024-process-effects-on-ammonia-chromium-total-suspended-solid
-title: "Process – Effects on Ammonia, Chromium, Total Suspended Solid,"
-authors: ["Journal of Ecological Engineering"]
+title: "Leather Tannery Wastewater Treatment Using Electro-Fenton Process – Effects on Ammonia, Chromium, Total Suspended Solid, Biological Oxygen Demand and Chemical Oxygen Demand Removal"
+authors: [Alvan S, Aji ADS, Mahendra I, Al Arif Z, Prayogo W, Azizah RN, Awfa D, Qadafi M, Suryawan IWK, Ratnaningsih W]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Ecological Engineering"
 doi: 10.12911/22998993/192232
 source_type: peer-reviewed
 evidence_tier: B

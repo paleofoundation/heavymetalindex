@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fbioe-2025-1585237
 cite_key: authors2025-removal-of-hexavalent-chromium
-title: "Removal of hexavalent chromium"
-authors: ["Unknown authors"]
+title: "Removal of hexavalent chromium by a microbial mat from a mining site under anaerobic conditions"
+authors: [Khan MTA, Al-Siyabi SS, Ali HE, Abed RMM]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Bioengineering and Biotechnology"
 doi: 10.3389/fbioe.2025.1585237
 source_type: peer-reviewed
 evidence_tier: B

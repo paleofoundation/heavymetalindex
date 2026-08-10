@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-35410-ijaeb-2024-5944
 cite_key: authors2024-health-and-environmental-impacts-of-heavy-metals-and
-title: "health and environmental impacts of heavy metals and faecal pollution in Omor and its environs."
-authors: ["Unknown authors"]
+title: "HEALTH, AGRICULTURAL AND ENVIRONMENTAL IMPACTS OF HEAVY METALS AND FAECAL POLLUTION: CASE STUDY OF OMOR AND ENVIRONS, ANAMBRA STATE"
+authors: [Akuabianuju AW, Chukwuemeka IE, Sandra DC, MaryRose OC, Obumneme AE, Okonkwo AS]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Agriculture, Environment and Bioresearch"
 doi: 10.35410/ijaeb.2024.5944
 source_type: peer-reviewed
 evidence_tier: B

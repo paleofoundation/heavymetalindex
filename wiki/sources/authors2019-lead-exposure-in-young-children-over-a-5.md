@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envres-2017-10-040
 cite_key: authors2019-lead-exposure-in-young-children-over-a-5
-title: "Lead exposure in young children over a 5-year period from"
-authors: ["Unknown authors"]
+title: "Lead exposure in young children over a 5-year period from urban environments using alternative exposure measures with the US EPA IEUBK model – A trial"
+authors: [Gulson B, Taylor A, Stifelman M]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Environmental Research"
 doi: 10.1016/j.envres.2017.10.040
 source_type: peer-reviewed
 evidence_tier: B

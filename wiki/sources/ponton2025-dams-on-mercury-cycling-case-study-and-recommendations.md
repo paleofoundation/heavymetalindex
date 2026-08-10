@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00267-024-01990-6
 cite_key: ponton2025-dams-on-mercury-cycling-case-study-and-recommendations
-title: "Dams on Mercury Cycling: Case Study and Recommendations for"
-authors: ["Environmental Managers M. Amyot F. Bilodeau A. Tremblay D. Planas D. Walsh D. E. Ponton ● ● ● ● ●"]
+title: "Cumulative Effects of Watershed Disturbances and Run-of-river Dams on Mercury Cycling: Case Study and Recommendations for Environmental Managers"
+authors: [Amyot M, Bilodeau F, Tremblay A, Planas D, Walsh D, Ponton DE]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Management"
 doi: 10.1007/s00267-024-01990-6
 source_type: peer-reviewed
 evidence_tier: B

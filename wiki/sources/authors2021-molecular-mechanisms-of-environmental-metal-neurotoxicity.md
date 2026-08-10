@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics9090198
 cite_key: authors2021-molecular-mechanisms-of-environmental-metal-neurotoxicity
-title: "Molecular Mechanisms of Environmental Metal Neurotoxicity:"
-authors: ["Unknown authors"]
+title: "Molecular Mechanisms of Environmental Metal Neurotoxicity: A Focus on the Interactions of Metals with Synapse Structure and Function"
+authors: [Carmona A, Roudeau S, Ortega R]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics9090198
 source_type: peer-reviewed
 evidence_tier: B

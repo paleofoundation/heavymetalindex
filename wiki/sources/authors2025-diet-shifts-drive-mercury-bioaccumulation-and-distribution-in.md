@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-marpolbul-2025-117590
 cite_key: authors2025-diet-shifts-drive-mercury-bioaccumulation-and-distribution-in
-title: "Diet shifts drive mercury bioaccumulation and distribution in"
-authors: ["Unknown authors"]
+title: "Diet shifts drive mercury bioaccumulation and distribution in tissues of the longnose lancetfish (Alepisaurus ferox)"
+authors: [Chen RS, Paulson ET, Schartup AT, Choy CA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Marine Pollution Bulletin"
 doi: 10.1016/j.marpolbul.2025.117590
 source_type: peer-reviewed
 evidence_tier: B

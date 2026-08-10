@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1155-2016-3968786
 cite_key: authors2016-total-arsenic-cadmium-and-lead-determination-in
-title: "Total Arsenic, Cadmium, and Lead Determination in"
-authors: ["Unknown authors"]
+title: "Total Arsenic, Cadmium, and Lead Determination in Brazilian Rice Samples Using ICP-MS"
+authors: [Mataveli LRV, Buzzo ML, Arauz LJD, Carvalho MDFH, Arakaki EEK, Matsuzaki R, Tiglea P]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Journal of Analytical Methods in Chemistry"
 doi: 10.1155/2016/3968786
 source_type: peer-reviewed
 evidence_tier: B

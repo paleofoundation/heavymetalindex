@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-025-04742-7
 cite_key: elabiad2025-and-cord-blood-levels-of-cadmium-lead-manganese
-title: "and Cord Blood Levels of Cadmium, Lead, Manganese, Mercury,"
-authors: ["Selenium Shannon Isennock · Mohamad Elabiad"]
+title: "Association Between Hypochromic Microcytic Anemia in Pregnancy and Cord Blood Levels of Cadmium, Lead, Manganese, Mercury, and Selenium"
+authors: [Isennock S, Elabiad M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-025-04742-7
 source_type: peer-reviewed
 evidence_tier: B

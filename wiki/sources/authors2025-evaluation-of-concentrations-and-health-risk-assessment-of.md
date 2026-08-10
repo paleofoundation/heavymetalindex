@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4314-jasem-v29i9-58
 cite_key: authors2025-evaluation-of-concentrations-and-health-risk-assessment-of
-title: "Evaluation of Concentrations and Health Risk Assessment of Cadmium, Lead, Chromium and Arsenic in"
-authors: ["Unknown authors"]
+title: "Evaluation of Concentrations and Health Risk Assessment of Cadmium, Lead, Chromium and Arsenic in Selected Ready-to-Eat Pre-Packaged Foods Sold within Ilorin Environs, Kwara State, Nigeria"
+authors: [Abdulsalam ML, Habeeb ML, Adiama BY]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Applied Sciences and Environmental Management"
 doi: 10.4314/jasem.v29i9.58
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-17034-w
 cite_key: authors2025-and-mitigate-heavy-metal
-title: "and mitigate heavy metal"
-authors: ["Unknown authors"]
+title: "Eco-labeled composts reduce microplastic contamination and mitigate heavy metal bioavailability in agricultural ecosystems"
+authors: [Bayo J, López-Castellanos J, Doval-Miñarro M, Olmos S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-17034-w
 source_type: peer-reviewed
 evidence_tier: B

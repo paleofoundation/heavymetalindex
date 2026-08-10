@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acsomega-4c00062
 cite_key: authors2024-overview-of-nanocosmetics-with-emphasis-on-those-incorporating
-title: "Overview of Nanocosmetics with Emphasis on those Incorporating"
-authors: ["Unknown authors"]
+title: "Overview of Nanocosmetics with Emphasis on those Incorporating Natural Extracts"
+authors: [Maghraby YR, Ibrahim AH, El-Shabasy RM, Azzazy HMES]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "ACS Omega"
 doi: 10.1021/acsomega.4c00062
 source_type: peer-reviewed
 evidence_tier: B

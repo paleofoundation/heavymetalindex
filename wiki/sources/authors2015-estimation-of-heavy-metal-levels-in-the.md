@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4236-jep-2015-66055
 cite_key: authors2015-estimation-of-heavy-metal-levels-in-the
-title: "Estimation of Heavy Metal Levels in the"
-authors: ["Unknown authors"]
+title: "Estimation of Heavy Metal Levels in the Muscle, Gizzard, Liver and Kidney of Broiler, Layer and Local (Cockerel) Chickens Raised within Awka Metropolis and Its Environs, Anambra State, South Eastern Nigeria"
+authors: [Okoye PAC, Ajiwe VIE, Okeke OR, Ujah II, Asalu UB, Okeke DO]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental Protection"
 doi: 10.4236/jep.2015.66055
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-18849-ve-v3i2-155
 cite_key: authors2018-in-adult-dogs-does-feeding-a-raw-food
-title: "In Adult Dogs, Does Feeding a Raw Food Diet Increase"
-authors: ["Unknown authors"]
+title: "In Adult Dogs, Does Feeding a Raw Food Diet Increase the Risk of Urinary Calculi Formation Compared to Feeding a Complete Dry Kibble Diet?"
+authors: [Taylor E, Van Veggel N]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Veterinary Evidence"
 doi: 10.18849/ve.v3i2.155
 source_type: peer-reviewed
 evidence_tier: B

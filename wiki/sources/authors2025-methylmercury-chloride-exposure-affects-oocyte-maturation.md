@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms26083603
 cite_key: authors2025-methylmercury-chloride-exposure-affects-oocyte-maturation
-title: "Methylmercury Chloride Exposure Affects Oocyte Maturation"
-authors: ["Unknown authors"]
+title: "Methylmercury Chloride Exposure Affects Oocyte Maturation Through AMPK/mTOR-Mediated Mitochondrial Autophagy"
+authors: [Hou S, Wang C, Ma X, Zhao J, Wang J, Fang Y, Liu H, Ding H, Guo J, Lu W]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms26083603
 source_type: peer-reviewed
 evidence_tier: B

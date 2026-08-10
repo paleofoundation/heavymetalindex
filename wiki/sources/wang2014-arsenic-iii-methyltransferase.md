@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pone-0110924
 cite_key: wang2014-arsenic-iii-methyltransferase
-title: "Arsenic (III) Methyltransferase"
-authors: ["Shuping Wang", "Zhirong Geng", "Nan Shi", "Xiangli Li", "Zhilin Wang State Key Laboratory of Coordination Chemistry", "School of Chemistry", "Chemical Engineering", "Nanjing University"]
+title: "The Functions of Crucial Cysteine Residues in the Arsenite Methylation Catalyzed by Recombinant Human Arsenic (III) Methyltransferase"
+authors: [Wang S, Geng Z, Shi N, Li X, Wang Z]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0110924
 source_type: peer-reviewed
 evidence_tier: B

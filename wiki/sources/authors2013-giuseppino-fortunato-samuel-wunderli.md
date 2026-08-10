@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-b307068a
 cite_key: authors2013-giuseppino-fortunato-samuel-wunderli
-title: "Giuseppino Fortunato Samuel Wunderli"
-authors: ["Unknown authors"]
+title: "Application of strontium isotope abundance ratios measured by MC-ICP-MS for food authentication"
+authors: [Fortunato G, Mumic K, Wunderli S, Pillonel L, Bosset JO, Gremaud G]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Journal of Analytical Atomic Spectrometry"
 doi: 10.1039/b307068a
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12870-026-09039-y
 cite_key: authors2026-chromium-tolerance-mechanisms-in-cosmos
-title: "Chromium tolerance mechanisms in Cosmos"
-authors: ["Unknown authors"]
+title: "Chromium tolerance mechanisms in Cosmos sulphureus: antioxidant defense and potential role of pectin chelation-based detoxification"
+authors: [Xiaofang Y, Fan X, Xuan Y, Fuwen L, Xiantong W, Xinjing N, Qingqing K, Hanyue X, Yuwei H, Yongxin Z, Zishan W, Xi L]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "BMC Plant Biology"
 doi: 10.1186/s12870-026-09039-y
 source_type: peer-reviewed
 evidence_tier: B

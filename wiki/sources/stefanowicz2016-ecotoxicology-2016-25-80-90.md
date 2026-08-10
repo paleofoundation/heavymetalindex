@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10646-015-1569-7
 cite_key: stefanowicz2016-ecotoxicology-2016-25-80-90
-title: "Ecotoxicology (2016) 25:80–90"
-authors: ["gradient Marcin W. Woch • Paweł Kapusta • Anna M. Stefanowicz"]
+title: "Variation in dry grassland communities along a heavy metals gradient"
+authors: [Woch MW, Kapusta P, Stefanowicz AM]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Ecotoxicology"
 doi: 10.1007/s10646-015-1569-7
 source_type: peer-reviewed
 evidence_tier: B

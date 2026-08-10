@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph23060793
 cite_key: authors2026-influence-of-the-gstp1-rs1695-polymorphism-on-mercury
-title: "Influence of the GSTP1 rs1695 Polymorphism on Mercury Levels"
-authors: ["Unknown authors"]
+title: "Influence of the GSTP1 rs1695 Polymorphism on Mercury Levels and Memory Performance in the Suruí Indigenous from the Brazilian Amazon"
+authors: [Silva MCD, Basta PC, Pinto BD, Machado DE, Pessoa-Silva FO, de Oliveira RAA, de Vasconcellos ACS, Perini JA]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph23060793
 source_type: peer-reviewed
 evidence_tier: B

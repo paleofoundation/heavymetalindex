@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5217-ir-2026-00108
 cite_key: authors2026-of-the-world-including-east-asia-simultaneously-environmental
-title: "of the world, including East Asia. Simultaneously, environmental pollutants are also an escalating problem in these regions."
-authors: ["Unknown authors"]
+title: "Environmental pollutants and the rising burden of inflammatory bowel disease in East Asia: a narrative review"
+authors: [Shenoy S, Chaubey M, Kim ES, Colombel JF, Agrawal M]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Intestinal Research"
 doi: 10.5217/ir.2026.00108
 source_type: peer-reviewed
 evidence_tier: B

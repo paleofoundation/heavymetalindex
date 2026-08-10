@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-bios16040218
 cite_key: authors2026-mercury-based-on-dna-templated-gold-nanoclusters
-title: "Mercury Based on DNA-Templated Gold Nanoclusters"
-authors: ["Unknown authors"]
+title: "The Label-Free Fluorescence Detection of Inorganic and Organic Mercury Based on DNA-Templated Gold Nanoclusters"
+authors: [Chen Z, Zhang K]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Biosensors"
 doi: 10.3390/bios16040218
 source_type: peer-reviewed
 evidence_tier: B

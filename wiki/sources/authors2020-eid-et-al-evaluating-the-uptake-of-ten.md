@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15666-aeer-1805-70217039
 cite_key: authors2020-eid-et-al-evaluating-the-uptake-of-ten
-title: "Eid et al.: Evaluating the uptake of ten heavy metals by kidney bean (Phaseolus vulgaris L.) grown in a soil-sludge mixture using a"
-authors: ["Unknown authors"]
+title: "EVALUATING THE UPTAKE OF TEN HEAVY METALS BY KIDNEY BEAN (PHASEOLUS VULGARIS L.) GROWN IN A SOIL-SLUDGE MIXTURE USING A REGRESSION MODEL"
+authors: [EID EM, SHALTOUT KH, ALAMRI SAM, SEWELAM NA, GALAL TM]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Applied Ecology and Environmental Research"
 doi: 10.15666/aeer/1805_70217039
 source_type: peer-reviewed
 evidence_tier: B

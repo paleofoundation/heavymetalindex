@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2478-v10222-012-0099-8
 cite_key: authors2014-department-of-zoology-fisheries-hydrobiology-and-apiculture-faculty
-title: "Department of Zoology, Fisheries, Hydrobiology and Apiculture, Faculty of Agronomy,"
-authors: ["Unknown authors"]
+title: "A Comprehensive Look at the Possibilities of Edible Insects as Food in Europe – A Review"
+authors: [Mlcek J, Rop O, Borkovcova M, Bednarova M]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "Polish Journal of Food and Nutrition Sciences"
 doi: 10.2478/v10222-012-0099-8
 source_type: peer-reviewed
 evidence_tier: B

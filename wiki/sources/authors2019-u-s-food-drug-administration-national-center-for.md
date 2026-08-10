@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph16224361
 cite_key: authors2019-u-s-food-drug-administration-national-center-for
-title: "U.S. Food & Drug Administration, National Center for Toxicological Research, 3900 NCTR Road, Jefferson,"
-authors: ["Unknown authors"]
+title: "Persistent Organic Pollutants in Food: Contamination Sources, Health Effects and Detection Methods"
+authors: [Guo W, Pan B, Sakkiah S, Yavas G, Ge W, Zou W, Tong W, Hong H]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph16224361
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-11648-j-ajac-20241203-11
 cite_key: steigner2024-marketing-for-tableware
-title: "Marketing for Tableware"
-authors: ["Marketing for Tableware Sofia Steigner", "Qiyang Zhang School of Science", "Mathematics", "Emporia State University", "Emporia", "United States"]
+title: "Research for the Common Good: Unreliable Lead-Free Marketing for Tableware"
+authors: [Steigner S, Zhang Q]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "American Journal of Applied Chemistry"
 doi: 10.11648/j.ajac.20241203.11
 source_type: peer-reviewed
 evidence_tier: B

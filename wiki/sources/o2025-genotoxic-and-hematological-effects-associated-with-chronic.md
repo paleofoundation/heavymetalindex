@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acsomega-4c09749
 cite_key: o2025-genotoxic-and-hematological-effects-associated-with-chronic
-title: "Genotoxic and Hematological Effects Associated with Chronic"
-authors: ["Ahieska A. Liscano-Carreño", "Cassiano J. Saatkamp", "Ricardo B. de Oliveira", "Luís R. R. Rodrigues Cite This: ACS Omega", "− Read Online ACCESS Metrics & More Article Recommendations Supporting Information sı"]
+title: "Genotoxic and Hematological Effects Associated with Chronic Dietary Mercury Toxicity in Juvenile Tilapia Oreochromis sp."
+authors: [Liscano-Carreño AA, Saatkamp CJ, de Oliveira RB, Rodrigues LRR]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "ACS Omega"
 doi: 10.1021/acsomega.4c09749
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-mex-2021-101581
 cite_key: authors2021-methylmercury-determination-in-freshwater-biota
-title: "Methylmercury determination in freshwater biota"
-authors: ["Unknown authors"]
+title: "Methylmercury determination in freshwater biota and sediments: Static headspace GC-MS compared to direct mercury analyzer"
+authors: [Valsecchi L, Roscioli C, Schiavon A, Marziali L]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "MethodsX"
 doi: 10.1016/j.mex.2021.101581
 source_type: peer-reviewed
 evidence_tier: B

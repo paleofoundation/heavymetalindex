@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2754-avb202594010057
 cite_key: authors2025-content-of-heavy-metals-in-the-muscle-tissue
-title: "Content of heavy metals in the muscle tissue of fish from two rivers"
-authors: ["Unknown authors"]
+title: "Content of heavy metals in the muscle tissue of fish from two rivers in the Morava river basin (Czech Republic)"
+authors: [Doležal T, Pelcová P, Šorf M, Ridošková A, Palíková M]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Acta Veterinaria Brno"
 doi: 10.2754/avb202594010057
 source_type: peer-reviewed
 evidence_tier: B

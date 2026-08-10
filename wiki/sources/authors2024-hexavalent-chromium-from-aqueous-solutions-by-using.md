@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12090657
 cite_key: authors2024-hexavalent-chromium-from-aqueous-solutions-by-using
-title: "Hexavalent Chromium from Aqueous Solutions by Using"
-authors: ["Unknown authors"]
+title: "A Comprehensive Review of Lab-Scale Studies on Removing Hexavalent Chromium from Aqueous Solutions by Using Unmodified and Modified Waste Biomass as Adsorbents"
+authors: [Tripathi M, Pathak S, Singh R, Singh P, Singh PK, Shukla AK, Maurya S, Kaur S, Thakur B]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12090657
 source_type: peer-reviewed
 evidence_tier: B

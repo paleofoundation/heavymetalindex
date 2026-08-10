@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fvets-2023-1149720
 cite_key: authors2023-open-access-metals-toxicity-with-special
-title: "OPEN ACCESS metals toxicity with special"
-authors: ["Unknown authors"]
+title: "A review of important heavy metals toxicity with special emphasis on nephrotoxicity and its management in cattle"
+authors: [Tahir I, Alkheraije KA]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Veterinary Science"
 doi: 10.3389/fvets.2023.1149720
 source_type: peer-reviewed
 evidence_tier: B

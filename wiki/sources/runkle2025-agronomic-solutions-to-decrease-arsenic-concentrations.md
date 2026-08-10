@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10653-025-02508-7
 cite_key: runkle2025-agronomic-solutions-to-decrease-arsenic-concentrations
-title: "Agronomic solutions to decrease arsenic concentrations"
-authors: ["in rice Marguerita E. Leavitt · Michele L. Reba · Angelia L. Seyfferth · Benjamin R. K. Runkle"]
+title: "Agronomic solutions to decrease arsenic concentrations in rice"
+authors: [Leavitt ME, Reba ML, Seyfferth AL, Runkle BRK]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-025-02508-7
 source_type: peer-reviewed
 evidence_tier: B

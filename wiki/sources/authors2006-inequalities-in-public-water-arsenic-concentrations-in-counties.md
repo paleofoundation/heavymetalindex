@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1289-ehp7313
 cite_key: authors2006-inequalities-in-public-water-arsenic-concentrations-in-counties
-title: "Inequalities in Public Water Arsenic Concentrations in Counties and Community"
-authors: ["Unknown authors"]
+title: "Inequalities in Public Water Arsenic Concentrations in Counties and Community Water Systems across the United States, 2006–2011"
+authors: [Nigra AE, Chen Q, Chillrud SN, Wang L, Harvey D, Mailloux B, Factor-Litvak P, Navas-Acien A]
 year: 2006
-publication: "Peer-reviewed article"
+publication: "Environmental Health Perspectives"
 doi: 10.1289/ehp7313
 source_type: peer-reviewed
 evidence_tier: B

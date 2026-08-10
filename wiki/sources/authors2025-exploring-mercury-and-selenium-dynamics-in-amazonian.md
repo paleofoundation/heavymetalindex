@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-chemosphere-2025-144258
 cite_key: authors2025-exploring-mercury-and-selenium-dynamics-in-amazonian
-title: "Exploring mercury and selenium dynamics in Amazonian"
-authors: ["Unknown authors"]
+title: "Exploring mercury and selenium dynamics in Amazonian human populations: Insights from urine, blood, and plasma analyses"
+authors: [Cezarette GN, Esplugas J, Cruz JC, Rocha BA, Cassulatti dos Santos L, Bueno M, Zayas ZP, Barbosa Jr F]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Chemosphere"
 doi: 10.1016/j.chemosphere.2025.144258
 source_type: peer-reviewed
 evidence_tier: B

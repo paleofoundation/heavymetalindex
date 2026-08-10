@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics13040281
 cite_key: authors2025-richa-singh-1-holger-martin-koch-2-marike
-title: "Richa Singh 1 , Holger Martin Koch 2 , Marike Kolossa-Gehring 3 and Alison Connolly 1, *"
-authors: ["Unknown authors"]
+title: "Chemical Prioritisation for Human Biomonitoring in Ireland: A Synergy of Global Frameworks and Local Perspectives"
+authors: [Singh R, Koch HM, Kolossa-Gehring M, Connolly A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13040281
 source_type: peer-reviewed
 evidence_tier: B

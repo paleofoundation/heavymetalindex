@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods12040730
 cite_key: authors2023-determination-of-heavy-metal-ions-in-infant-milk
-title: "Determination of Heavy Metal Ions in Infant Milk Powder"
-authors: ["Unknown authors"]
+title: "Determination of Heavy Metal Ions in Infant Milk Powder Using a Nanoporous Carbon Modified Disposable Sensor"
+authors: [Chen H, Yao Y, Zhang C, Ping J]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods12040730
 source_type: peer-reviewed
 evidence_tier: B

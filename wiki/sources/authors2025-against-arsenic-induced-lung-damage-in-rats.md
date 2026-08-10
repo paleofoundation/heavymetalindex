@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d5ra07055d
 cite_key: authors2025-against-arsenic-induced-lung-damage-in-rats
-title: "against arsenic-induced lung damage in rats"
-authors: ["Unknown authors"]
+title: "Novel thiazole–phthalimide-based heterobimetallic Cu( ii )–M( ii ) complexes: synthesis, characterization, and therapeutic properties against arsenic-induced lung damage in rats"
+authors: [Ali NA, Elsayed GH, Fahim AM, Rizk MG, Mahmoud NH]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "RSC Advances"
 doi: 10.1039/d5ra07055d
 source_type: peer-reviewed
 evidence_tier: B

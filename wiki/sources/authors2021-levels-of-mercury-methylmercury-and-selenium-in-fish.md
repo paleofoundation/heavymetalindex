@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics9020039
 cite_key: authors2021-levels-of-mercury-methylmercury-and-selenium-in-fish
-title: "Levels of Mercury, Methylmercury and Selenium in Fish:"
-authors: ["Unknown authors"]
+title: "Levels of Mercury, Methylmercury and Selenium in Fish: Insights into Children Food Safety"
+authors: [Barone G, Storelli A, Meleleo D, Dambrosio A, Garofalo R, Busco A, Storelli MM]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics9020039
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15091514
 cite_key: authors2026-upcycling-apple-and-carrot-pomace-into-fortified-food
-title: "Upcycling Apple and Carrot Pomace into Fortified Food"
-authors: ["Unknown authors"]
+title: "Upcycling Apple and Carrot Pomace into Fortified Food Ingredients: Advancing Sustainability and Resource Efficiency"
+authors: [Căpruciu R, Popescu SM]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15091514
 source_type: peer-reviewed
 evidence_tier: B

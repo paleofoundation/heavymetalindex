@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-inorgchem-3c00563
 cite_key: authors2023-tristhiolato-pseudopeptides-bind-arsenic-iii-in-an-ass3
-title: "Tristhiolato Pseudopeptides Bind Arsenic(III) in an AsS3"
-authors: ["Unknown authors"]
+title: "Tristhiolato Pseudopeptides Bind Arsenic(III) in an AsS3 Coordination Environment Imitating Metalloid Binding Sites in Proteins"
+authors: [Szekeres LI, Maldivi P, Lebrun C, Gateau C, Mesterházy E, Delangle P, Jancsó A]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Inorganic Chemistry"
 doi: 10.1021/acs.inorgchem.3c00563
 source_type: peer-reviewed
 evidence_tier: B

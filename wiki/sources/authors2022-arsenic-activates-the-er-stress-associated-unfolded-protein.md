@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biomedicines10050967
 cite_key: authors2022-arsenic-activates-the-er-stress-associated-unfolded-protein
-title: "Arsenic Activates the ER Stress-Associated Unfolded Protein"
-authors: ["Unknown authors"]
+title: "Arsenic Activates the ER Stress-Associated Unfolded Protein Response via the Activating Transcription Factor 6 in Human Bronchial Epithelial Cells"
+authors: [Wadgaonkar P, Bi Z, Wan J, Fu Y, Zhang Q, Almutairy B, Zhang W, Qiu Y, Thakur C, Hüttemann M, Chen F]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Biomedicines"
 doi: 10.3390/biomedicines10050967
 source_type: peer-reviewed
 evidence_tier: B

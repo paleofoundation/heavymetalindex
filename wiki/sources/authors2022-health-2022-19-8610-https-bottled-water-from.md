@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph19148610
 cite_key: authors2022-health-2022-19-8610-https-bottled-water-from
-title: "Health 2022, 19, 8610. https:// bottled water) from consenting households in a small rural community without utility-supplied water"
-authors: ["Unknown authors"]
+title: "Bottled and Well Water Quality in a Small Central Appalachian Community: Household-Level Analysis of Enteric Pathogens, Inorganic Chemicals, and Health Outcomes in Rural Southwest Virginia"
+authors: [Cohen A, Rasheduzzaman M, Darling A, Krometis LA, Edwards M, Brown T, Ahmed T, Wettstone E, Pholwat S, Taniuchi M, Rogawski McQuade ET]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph19148610
 source_type: peer-reviewed
 evidence_tier: B

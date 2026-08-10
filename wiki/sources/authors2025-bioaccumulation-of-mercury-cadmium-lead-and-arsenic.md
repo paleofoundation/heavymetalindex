@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-fsn3-70370
 cite_key: authors2025-bioaccumulation-of-mercury-cadmium-lead-and-arsenic
-title: "Bioaccumulation of Mercury, Cadmium, Lead, and Arsenic"
-authors: ["Unknown authors"]
+title: "Bioaccumulation of Mercury, Cadmium, Lead, and Arsenic in Whiting and Tub Gurnard From the Sea of Marmara: Implications for Human Health"
+authors: [Dogruyol H, Can Tunçelli İ, Özden Ö, Erkan N, Karakulak FS]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.70370
 source_type: peer-reviewed
 evidence_tier: B

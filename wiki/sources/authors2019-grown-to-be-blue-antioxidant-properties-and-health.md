@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox8120617
 cite_key: authors2019-grown-to-be-blue-antioxidant-properties-and-health
-title: "Grown to be Blue—Antioxidant Properties and Health"
-authors: ["Unknown authors"]
+title: "Grown to be Blue—Antioxidant Properties and Health Effects of Colored Vegetables. Part I: Root Vegetables"
+authors: [Petropoulos SA, Sampaio SL, Di Gioia F, Tzortzakis N, Rouphael Y, Kyriacou MC, Ferreira I]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox8120617
 source_type: peer-reviewed
 evidence_tier: B

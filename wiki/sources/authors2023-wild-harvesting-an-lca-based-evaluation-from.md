@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2478-rtuect-2023-0045
 cite_key: authors2023-wild-harvesting-an-lca-based-evaluation-from
-title: "Wild Harvesting: an LCA-Based Evaluation from"
-authors: ["Unknown authors"]
+title: "Off-Shore and On-Shore Macroalgae Cultivation and Wild Harvesting: an LCA-Based Evaluation from Baltic Sea Region Case Studies"
+authors: [Paoli R, Bjarnason B, Ilmjärv T, Romagnoli F]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Environmental and Climate Technologies"
 doi: 10.2478/rtuect-2023-0045
 source_type: peer-reviewed
 evidence_tier: B

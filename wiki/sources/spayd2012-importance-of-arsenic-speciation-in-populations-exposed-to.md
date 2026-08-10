@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1080-10807039-2012-722824
 cite_key: spayd2012-importance-of-arsenic-speciation-in-populations-exposed-to
 title: "Importance of Arsenic Speciation in Populations Exposed to Arsenic in Drinking Water"
-authors: ["spayd"]
+authors: [Spayd SE, Robson MG, Xie R, Buckley BT]
 year: 2012
 publication: "Human and Ecological Risk Assessment: An International Journal"
 doi: "10.1080/10807039.2012.722824"

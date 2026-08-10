@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jbc-2024-107669
 cite_key: authors2024-urolithin-a-attenuates-hexavalent-chromium-induced-small
-title: "Urolithin A attenuates hexavalent chromium-induced small"
-authors: ["Unknown authors"]
+title: "Urolithin A attenuates hexavalent chromium-induced small intestinal injury by modulating PP2A/Hippo/YAP1 pathway"
+authors: [Guo P, Yang R, Zhong S, Ding Y, Wu J, Wang Z, Wang H, Zhang J, Tu N, Zhou H, Chen S, Wang Q, Li D, Chen W, Chen L]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Biological Chemistry"
 doi: 10.1016/j.jbc.2024.107669
 source_type: peer-reviewed
 evidence_tier: B

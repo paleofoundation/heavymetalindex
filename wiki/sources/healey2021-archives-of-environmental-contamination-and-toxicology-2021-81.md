@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00244-021-00872-w
 cite_key: healey2021-archives-of-environmental-contamination-and-toxicology-2021-81
-title: "Archives of Environmental Contamination and Toxicology (2021) 81:236–254"
-authors: ["Selenium: Fish Muscle Biopsy Samples Versus Homogenized Whole Fillets Leanne L. Stahl · Blaine D. Snyder · Harry B. McCarty · Tara R. Cohen · Kenneth M. Miller · Mark B. Fernandez · John C. Healey"]
+title: "An Evaluation of Fish Tissue Monitoring Alternatives for Mercury and Selenium: Fish Muscle Biopsy Samples Versus Homogenized Whole Fillets"
+authors: [Stahl LL, Snyder BD, McCarty HB, Cohen TR, Miller KM, Fernandez MB, Healey JC]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Archives of Environmental Contamination and Toxicology"
 doi: 10.1007/s00244-021-00872-w
 source_type: peer-reviewed
 evidence_tier: B

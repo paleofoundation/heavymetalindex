@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-pharmaceutics17081080
 cite_key: authors2025-sunscreen-protects-skin-from-harmful-ultra-violet-uv
-title: "Sunscreen protects skin from harmful Ultra Violet (UV) rays, preventing skin diseases"
-authors: ["Unknown authors"]
+title: "Nanotechnology-Enhanced Sunscreens: Balancing Efficacy, Safety, and Environmental Impact"
+authors: [Khobragade R, Chaudhary AA, Ali MAM, Kale M, Raut N, Ghive P, Rudayni HA, Nagpurkar K, Umekar M, Trivedi R]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Pharmaceutics"
 doi: 10.3390/pharmaceutics17081080
 source_type: peer-reviewed
 evidence_tier: B

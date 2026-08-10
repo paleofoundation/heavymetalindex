@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jenvman-2022-115904
 cite_key: authors2022-lead-and-other-toxic-metals-in-plastic-play
-title: "Lead and other toxic metals in plastic play foods: Results from testing"
-authors: ["Unknown authors"]
+title: "Lead and other toxic metals in plastic play foods: Results from testing citizen science, lead detection tools in childcare settings"
+authors: [Ahmid K, Specht A, Morikawa L, Ceballos D, Wylie S]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental Management"
 doi: 10.1016/j.jenvman.2022.115904
 source_type: peer-reviewed
 evidence_tier: B

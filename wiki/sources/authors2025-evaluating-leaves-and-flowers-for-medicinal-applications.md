@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-55164-ajstr-v28i6-259515
 cite_key: authors2025-evaluating-leaves-and-flowers-for-medicinal-applications
-title: "Evaluating Leaves and Flowers for Medicinal Applications"
-authors: ["Unknown authors"]
+title: "Comprehensive Pharmacognostic Analysis and Quality Control Parameters of Cannabis sativa L. subsp. sativa: Evaluating Leaves and Flowers for Medicinal Applications"
+authors: [Sueree L, Madaka F, Jongrungruangchok S, Vipunngeun N, Songsak T]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "ASEAN Journal of Scientific and Technological Reports"
 doi: 10.55164/ajstr.v28i6.259515
 source_type: peer-reviewed
 evidence_tier: B

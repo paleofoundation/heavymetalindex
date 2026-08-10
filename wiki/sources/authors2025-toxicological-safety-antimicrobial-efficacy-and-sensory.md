@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1111-jocd-70448
 cite_key: authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory
-title: "Toxicological Safety, Antimicrobial Efficacy, and Sensory"
-authors: ["Unknown authors"]
+title: "Toxicological Safety, Antimicrobial Efficacy, and Sensory Evaluation of River Sand‐Derived Mica From Bangladesh: A Comprehensive Assessment for Cosmetic Applications"
+authors: [Hayatullah, Mostafa MG, Rahman MA, Hossen MN, Lipy EP, Uddin MR, Khatun MM, Rahman MS]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Cosmetic Dermatology"
 doi: 10.1111/jocd.70448
 source_type: peer-reviewed
 evidence_tier: B

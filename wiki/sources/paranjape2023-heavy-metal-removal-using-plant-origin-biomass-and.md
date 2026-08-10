@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1007-s41101-023-00177-0
 cite_key: paranjape2023-heavy-metal-removal-using-plant-origin-biomass-and
 title: "Heavy Metal Removal Using Plant Origin Biomass and Agricultural Waste-Derived Biomass from Aqueous Media: a Review"
-authors: ["paranjape"]
+authors: [Paranjape P, Sadgir P]
 year: 2023
 publication: "Water Conservation Science and Engineering"
 doi: "10.1007/s41101-023-00177-0"

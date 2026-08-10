@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11356-021-17483-6
 cite_key: sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of
-title: "Exposure Assessment of methyl mercury from consumption of fish"
-authors: ["seafood in Peninsular Malaysia Nurul Izzah Ahmad · Wan Rozita Wan Mahiyuddin · Wan Nurul Farah Wan Azmi · Ruzanaz Syafira Ruzman Azlee · Rafiza Shaharudin · Lokman Hakim Sulaiman"]
+title: "Exposure Assessment of methyl mercury from consumption of fish and seafood in Peninsular Malaysia"
+authors: [Ahmad NI, Mahiyuddin WRW, Azmi WNFW, Azlee RSR, Shaharudin R, Sulaiman LH]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-021-17483-6
 source_type: peer-reviewed
 evidence_tier: B

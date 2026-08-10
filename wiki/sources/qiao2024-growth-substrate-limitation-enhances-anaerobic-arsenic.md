@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1128-aem-00961-24
 cite_key: qiao2024-growth-substrate-limitation-enhances-anaerobic-arsenic
-title: "Growth substrate limitation enhances anaerobic arsenic"
-authors: ["methylation by Paraclostridium bifermentans strain EML Jiangtao Qiao", "Hugo Sallet", "Karin Lederballe Meibom", "Rizlan Bernier-Latmani AUTHOR AFFILIATIONS See affiliation list on p. ."]
+title: "Growth substrate limitation enhances anaerobic arsenic methylation by Paraclostridium bifermentans strain EML"
+authors: [Qiao J, Sallet H, Meibom KL, Bernier-Latmani R]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Applied and Environmental Microbiology"
 doi: 10.1128/aem.00961-24
 source_type: peer-reviewed
 evidence_tier: B

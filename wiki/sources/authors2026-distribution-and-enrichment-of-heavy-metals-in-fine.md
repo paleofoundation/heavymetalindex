@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ma19061222
 cite_key: authors2026-distribution-and-enrichment-of-heavy-metals-in-fine
-title: "Distribution and Enrichment of Heavy Metals in Fine-Grained"
-authors: ["Unknown authors"]
+title: "Distribution and Enrichment of Heavy Metals in Fine-Grained Fractions of Crushed Electronic Waste"
+authors: [Malcharcziková J, Skotnicová K, Kesavan PK]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Materials"
 doi: 10.3390/ma19061222
 source_type: peer-reviewed
 evidence_tier: B

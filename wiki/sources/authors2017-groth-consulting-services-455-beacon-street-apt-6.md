@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envres-2016-07-022
 cite_key: authors2017-groth-consulting-services-455-beacon-street-apt-6
-title: "Groth Consulting Services, 455 Beacon Street, Apt. 6, Boston, MA 02115, USA"
-authors: ["Unknown authors"]
+title: "Scientific foundations of fish-consumption advice for pregnant women: Epidemiological evidence, benefit-risk modeling, and an integrated approach"
+authors: [Groth E]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Environmental Research"
 doi: 10.1016/j.envres.2016.07.022
 source_type: peer-reviewed
 evidence_tier: B

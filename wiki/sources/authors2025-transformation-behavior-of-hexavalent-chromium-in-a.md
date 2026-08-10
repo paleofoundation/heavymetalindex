@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics14010098
 cite_key: authors2025-transformation-behavior-of-hexavalent-chromium-in-a
-title: "Transformation Behavior of Hexavalent Chromium in a"
-authors: ["Unknown authors"]
+title: "Study on the Influencing Factors of the Migration and Transformation Behavior of Hexavalent Chromium in a Soil–Groundwater System: A Review"
+authors: [Zhao X, Hao M, Fan T, Liu A, Feng C]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics14010098
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-eep-dvag013
 cite_key: authors2026-epigenetic-mechanisms-linking-hexavalent-chromium-exposure-to
-title: "Epigenetic mechanisms linking hexavalent chromium exposure to"
-authors: ["Unknown authors"]
+title: "Epigenetic mechanisms linking hexavalent chromium exposure to pancreatic cancer risk: a systematic review"
+authors: [Hayashi K, Huang Y, Muir KR, Lophatananon A]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Epigenetics"
 doi: 10.1093/eep/dvag013
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d5cp01736j
 cite_key: authors2025-antagonism-in-mercury-coordination-and-reactivity-toward
-title: "antagonism in mercury coordination and reactivity toward"
-authors: ["Unknown authors"]
+title: "Shedding light on the HSAB-guided sulfur–selenium antagonism in mercury coordination and reactivity toward biologically relevant systems: a DFT and MD study"
+authors: [Delre P, Chahine A, Mangiatordi GF, Alberga D, Saviano M, Valverdu G, Ronga L, Miqueu K, Karamanis P]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Physical Chemistry Chemical Physics"
 doi: 10.1039/d5cp01736j
 source_type: peer-reviewed
 evidence_tier: B

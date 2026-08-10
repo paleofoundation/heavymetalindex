@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms27093769
 cite_key: authors2026-cophocarpa-sendtn-under-the-stress-of-hexavalent-chromium
-title: "cophocarpa Sendtn. Under the Stress of Hexavalent Chromium"
-authors: ["Unknown authors"]
+title: "The Photosynthesis and Respiration Efficiency of Callitriche cophocarpa Sendtn. Under the Stress of Hexavalent Chromium"
+authors: [Tokarz B, Augustynowicz J, Makowski W, Płachno BJ, Zienkiewicz M, Tokarz KM]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms27093769
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-15459624-2014-925116
 cite_key: authors2016-comparison-of-lead-and-tin-concentrations-in-air
-title: "Comparison of Lead and Tin Concentrations in Air at a Solder"
-authors: ["Unknown authors"]
+title: "Comparison of Lead and Tin Concentrations in Air at a Solder Manufacturer from the Closed-Face 37-mm Cassette With and Without a Custom Cellulose-Acetate Cassette Insert"
+authors: [Lee EG, Chisholm WP, Burns DA, Nelson JH, Kashon ML, Harper M]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Journal of Occupational and Environmental Hygiene"
 doi: 10.1080/15459624.2014.925116
 source_type: peer-reviewed
 evidence_tier: B

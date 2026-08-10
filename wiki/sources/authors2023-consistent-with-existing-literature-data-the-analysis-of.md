@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2343-geochemj-gj24002
 cite_key: authors2023-consistent-with-existing-literature-data-the-analysis-of
-title: "consistent with existing literature data. The analysis of the Re-Os systematics of minute sample powders revealed"
-authors: ["Unknown authors"]
+title: "Applicability of quartz tube digestion for the determination of highly siderophile and volatile chalcophile element abundances with Os isotopic compositions using ICP-MS/MS and N-TIMS"
+authors: [Fujita R, Nakano S, Yokoyama T, Ishikawa A]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "GEOCHEMICAL JOURNAL"
 doi: 10.2343/geochemj.gj24002
 source_type: peer-reviewed
 evidence_tier: B

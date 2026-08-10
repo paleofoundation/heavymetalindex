@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2024-e26478
 cite_key: authors2024-phytoremediation-of-soils-contaminated-with-potentially-toxic
-title: "phytoremediation of soils contaminated with potentially toxic"
-authors: ["Unknown authors"]
+title: "Combining biochar and grass-legume mixture to improve the phytoremediation of soils contaminated with potentially toxic elements (PTEs)"
+authors: [Pinna MV, Diquattro S, Garau M, Grottola CM, Giudicianni P, Roggero PP, Castaldi P, Garau G]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2024.e26478
 source_type: peer-reviewed
 evidence_tier: B

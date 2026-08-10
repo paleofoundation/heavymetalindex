@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5219-850
 cite_key: ek2017-detection-of-selected-heavy-metals-and-micronutrients-in
-title: "DETECTION OF SELECTED HEAVY METALS AND MICRONUTRIENTS IN"
-authors: ["EDIBLE INSECT AND THEIR DEPENDENCY ON THE FEED USING XRF SPECTROMETRY Jiří Mlček", "Martin Adámek", "Anna Adámková", "Marie Borkovcová", "Martina Bednářová", "Josef Skácel"]
+title: "Detection of selected heavy metals and micronutrients in edible insect and their dependency on the feed using XRF spectrometry"
+authors: [Mlček J, Adamek M, Adámková A, Borkovcová M, Bednářová M, Skácel J]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Potravinarstvo Slovak Journal of Food Sciences"
 doi: 10.5219/850
 source_type: peer-reviewed
 evidence_tier: B

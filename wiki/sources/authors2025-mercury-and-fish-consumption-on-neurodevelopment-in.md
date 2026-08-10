@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-aje-kwae149
 cite_key: authors2025-mercury-and-fish-consumption-on-neurodevelopment-in
-title: "mercury and fish consumption on neurodevelopment in"
-authors: ["Unknown authors"]
+title: "A novel approach to assessing the joint effects of mercury and fish consumption on neurodevelopment in the New Bedford Cohort"
+authors: [Thurston SW, Ruppert D, Korrick SA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "American Journal of Epidemiology"
 doi: 10.1093/aje/kwae149
 source_type: peer-reviewed
 evidence_tier: B

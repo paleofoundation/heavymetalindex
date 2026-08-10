@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2026-1753291
 cite_key: authors2026-for-remediation-of-cr-vi-contaminated-hexavalent-chromium
-title: "for remediation of Cr(VI) contaminated Hexavalent chromium is a highly noxious and mobile environmental pollutant"
-authors: ["Unknown authors"]
+title: "Sustainable strategies for remediation of Cr(VI) contaminated soil and water bodies: exploring the potential of invasive bamboo and its derivatives"
+authors: [Mohanty C, Das PK, Kaur R, Selvaraj CI]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2026.1753291
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-10807030701506173
 cite_key: authors2007-weathers-naturally-human-exposure-to-acq-might-occur
-title: "weathers naturally, human exposure to ACQ might occur through dermal contact or incidental"
-authors: ["Unknown authors"]
+title: "Human Health Risk Evaluation of ACQ-Treated Wood"
+authors: [Cushing CA, Golden R, Lowney YW, Holm SE]
 year: 2007
-publication: "Peer-reviewed article"
+publication: "Human and Ecological Risk Assessment: An International Journal"
 doi: 10.1080/10807030701506173
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-radphyschem-2025-112749
 cite_key: authors2025-instrumentation-for-monitoring-toxic-elements-in-food-matrices
-title: "instrumentation for monitoring toxic elements in food matrices:"
-authors: ["Unknown authors"]
+title: "New developments in monochromatic energy dispersive X-ray fluorescence instrumentation for monitoring toxic elements in food matrices: Advantages and limitations"
+authors: [Johnson-Restrepo B, Blain E, Judd C, Tysoe A, Parsons PJ]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Radiation Physics and Chemistry"
 doi: 10.1016/j.radphyschem.2025.112749
 source_type: peer-reviewed
 evidence_tier: B

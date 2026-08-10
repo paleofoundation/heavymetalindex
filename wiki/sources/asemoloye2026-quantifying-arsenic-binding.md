@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2026-1846435
 cite_key: asemoloye2026-quantifying-arsenic-binding
-title: "Quantifying arsenic-binding"
-authors: ["OPEN ACCESS affinities of ArsR proteins via EDITED BY Michael Dare Asemoloye", "Walter Sisulu University", "South Africa biomimetic self-assembly REVIEWED BY Abid Hussain", "Liang Cui", "Xiaobo Zhang", "Xiaohui Sun", "Yi Yang"]
+title: "Quantifying arsenic-binding affinities of ArsR proteins via biomimetic self-assembly"
+authors: [Cui L, Zhang X, Sun X, Yang Y, Zhu B, Wang S, Lin R, Zhao C, Zhang G, Chen J, Yang S]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2026.1846435
 source_type: peer-reviewed
 evidence_tier: B

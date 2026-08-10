@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-emcon-2023-100229
 cite_key: authors2023-centre-dust-and-the-exposure-risk-for-young
-title: "centre dust and the exposure risk for young"
-authors: ["Unknown authors"]
+title: "Concentrations of Tetrabromobisphenol-A and hexabromocyclododecane in Thai child daycare centre dust and the exposure risk for young children"
+authors: [Waiyarat S, Boontanon SK, Boontanon N, Harrad S, Drage DS, Abdallah MAE, Santhaweesuk K]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Emerging Contaminants"
 doi: 10.1016/j.emcon.2023.100229
 source_type: peer-reviewed
 evidence_tier: B

@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-21931-rb-2021-06-04-29
 cite_key: authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati
 title: "A review on emerging micropollutants: sources, environmental concentration and toxicity"
-authors: ["Unknown authors"]
+authors: [K.T V, Ram Achar R, Siriger S]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Bionatura"
 doi: 10.21931/rb/2021.06.04.29
 source_type: peer-reviewed
 evidence_tier: B

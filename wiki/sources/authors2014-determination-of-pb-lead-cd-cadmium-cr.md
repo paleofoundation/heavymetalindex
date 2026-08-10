@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jfda-2015-04-010
 cite_key: authors2014-determination-of-pb-lead-cd-cadmium-cr
-title: "Determination of Pb (Lead), Cd (Cadmium), Cr"
-authors: ["Unknown authors"]
+title: "Determination of Pb (Lead), Cd (Cadmium), Cr (Chromium), Cu (Copper), and Ni (Nickel) in Chinese tea with high-resolution continuum source graphite furnace atomic absorption spectrometry"
+authors: [Zhong WS, Ren T, Zhao LJ]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "Journal of Food and Drug Analysis"
 doi: 10.1016/j.jfda.2015.04.010
 source_type: peer-reviewed
 evidence_tier: B

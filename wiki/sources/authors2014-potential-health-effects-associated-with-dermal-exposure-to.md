@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4137-ehi-s15258
 cite_key: authors2014-potential-health-effects-associated-with-dermal-exposure-to
-title: "Potential Health Effects Associated with Dermal Exposure to Occupational"
-authors: ["Unknown authors"]
+title: "Potential Health Effects Associated with Dermal Exposure to Occupational Chemicals"
+authors: [Anderson SE, Meade BJ]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "Environmental Health Insights"
 doi: 10.4137/ehi.s15258
 source_type: peer-reviewed
 evidence_tier: B

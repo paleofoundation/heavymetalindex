@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-11591-ijphs-v9i2-20416
 cite_key: authors2020-mercury-and-its-effect-on-human-health
-title: "Mercury and its effect on human health:"
-authors: ["Unknown authors"]
+title: "Mercury and its effect on human health: a review of the literature"
+authors: [Zulaikhah ST, Wahyuwibowo J, Pratama AA]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "International Journal of Public Health Science (IJPHS)"
 doi: 10.11591/ijphs.v9i2.20416
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11356-017-0764-x
 cite_key: authors2017-levels-dietary-intake-and-health-risk-of-potentially
-title: "Levels, dietary intake, and health risk of potentially toxic metals"
-authors: ["Unknown authors"]
+title: "Levels, dietary intake, and health risk of potentially toxic metals in vegetables, fruits, and cereal crops in Pakistan"
+authors: [Nawab J, Farooqi S, Xiaoping W, Khan S, Khan A]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-017-0764-x
 source_type: peer-reviewed
 evidence_tier: B

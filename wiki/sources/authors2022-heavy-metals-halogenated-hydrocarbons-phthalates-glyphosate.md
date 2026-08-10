@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-31083-j-fbl2711314
 cite_key: authors2022-heavy-metals-halogenated-hydrocarbons-phthalates-glyphosate
-title: "Heavy Metals, Halogenated Hydrocarbons, Phthalates, Glyphosate,"
-authors: ["Unknown authors"]
+title: "Heavy Metals, Halogenated Hydrocarbons, Phthalates, Glyphosate, Cordycepin, Alcohol, Drugs, and Herbs, Assessed for Liver Injury and Mechanistic Steps"
+authors: [Teschke R, Xuan TD]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Frontiers in Bioscience-Landmark"
 doi: 10.31083/j.fbl2711314
 source_type: peer-reviewed
 evidence_tier: B

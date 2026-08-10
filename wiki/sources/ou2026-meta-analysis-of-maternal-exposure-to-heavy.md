@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12884-025-08507-x
 cite_key: ou2026-meta-analysis-of-maternal-exposure-to-heavy
-title: "Meta-analysis of maternal exposure to heavy"
-authors: ["adverse pregnancy outcomes Yuan Ou", "Jie Han", "Yanfang Wei", "Xiaoyan Gao"]
+title: "Meta-analysis of maternal exposure to heavy metals (lead, cadmium, mercury, chromium) and adverse pregnancy outcomes"
+authors: [Ou Y, Han J, Wei Y, Gao X]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "BMC Pregnancy and Childbirth"
 doi: 10.1186/s12884-025-08507-x
 source_type: peer-reviewed
 evidence_tier: B

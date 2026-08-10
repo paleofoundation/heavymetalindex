@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41586-021-04222-7
 cite_key: blanchfield2021-mercury-contaminated-fish-populations
-title: "mercury-contaminated fish populations"
-authors: ["https://doi.org/./s--- Paul J. Blanchfield", "John W. M. Rudd", "Lee E. Hrenchuk", "Marc Amyot", "Christopher L. Babiarz", "Ken G. Beaty", "R. A. Drew Bodaly", "Brian A. Branfireun"]
+title: "Experimental evidence for recovery of mercury-contaminated fish populations"
+authors: [Blanchfield PJ, Rudd JWM, Hrenchuk LE, Amyot M, Babiarz CL, Beaty KG, Bodaly RAD, Branfireun BA, Gilmour CC, Graydon JA, Hall BD, Harris RC, Heyes A, Hintelmann H, Hurley JP, Kelly CA, Krabbenhoft DP, Lindberg SE, Mason RP, Paterson MJ, Podemski CL, Sandilands KA, Southworth GR, St Louis VL, Tate LS, Tate MT]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Nature"
 doi: 10.1038/s41586-021-04222-7
 source_type: peer-reviewed
 evidence_tier: B

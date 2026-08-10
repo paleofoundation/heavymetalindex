@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-2057836-v1
 cite_key: authors2022-hexavalent-chromium-is-resistant-to-degradation-and-sever
-title: "Hexavalent chromium is resistant to degradation and sever toxic substance to environment and community health."
-authors: ["Unknown authors"]
+title: "Hexavalent chromium tolerant fungal species identified from urban vegetable farm and effluent waste in Addis Ababa &amp; Rift valley, Ethiopia"
+authors: [Gizaw B, Alemu T, Ebsa G]
 year: 2022
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-2057836/v1

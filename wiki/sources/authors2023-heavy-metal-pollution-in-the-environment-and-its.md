@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1177-11786302231201259
 cite_key: authors2023-heavy-metal-pollution-in-the-environment-and-its
-title: "Heavy Metal Pollution in the Environment and Its Impact Environmental Health Insights"
-authors: ["Unknown authors"]
+title: "Heavy Metal Pollution in the Environment and Its Impact on Health: Exploring Green Technology for Remediation"
+authors: [Das S, Sultana KW, Ndhlala AR, Mondal M, Chandra I]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Environmental Health Insights"
 doi: 10.1177/11786302231201259
 source_type: peer-reviewed
 evidence_tier: B

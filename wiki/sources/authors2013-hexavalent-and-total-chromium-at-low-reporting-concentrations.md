@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3133-sir20155020
 cite_key: authors2013-hexavalent-and-total-chromium-at-low-reporting-concentrations
-title: "Hexavalent and Total Chromium at Low Reporting Concentrations"
-authors: ["Unknown authors"]
+title: "Hexavalent and total chromium at low reporting concentrations in source-water aquifers and surface waters used for public supply in Illinois, 2013"
+authors: [Mills PC, Cobb RP]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Scientific Investigations Report"
 doi: 10.3133/sir20155020
 source_type: peer-reviewed
 evidence_tier: B

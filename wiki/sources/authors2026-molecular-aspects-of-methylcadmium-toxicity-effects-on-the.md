@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-chemrestox-5c00409
 cite_key: authors2026-molecular-aspects-of-methylcadmium-toxicity-effects-on-the
-title: "Molecular Aspects of Methylcadmium Toxicity: Effects on the H2O2"
-authors: ["Unknown authors"]
+title: "Molecular Aspects of Methylcadmium Toxicity: Effects on the H 2 O 2 Reduction by Cysteine and Selenocysteine Disclosed In Silico"
+authors: [Rubbi A, Lambertini F, Nogara PA, Bortoli M, Rocha JBT, Orian L]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Chemical Research in Toxicology"
 doi: 10.1021/acs.chemrestox.5c00409
 source_type: peer-reviewed
 evidence_tier: B

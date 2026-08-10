@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15671-hjbc-778023
 cite_key: authors2022-validation-of-determination-by-icp-oes-method-of
-title: "Validation of Determination by Icp-Oes Method of Mercury Residual Levels in"
-authors: ["Unknown authors"]
+title: "Validation of Determination by Icp-Oes Method of Mercury Residual Levels in Meat of Canned Fish Sold in Turkey"
+authors: [HEPSAĞ F, KIZILDENIZ T]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Hacettepe Journal of Biology and Chemistry"
 doi: 10.15671/hjbc.778023
 source_type: peer-reviewed
 evidence_tier: B

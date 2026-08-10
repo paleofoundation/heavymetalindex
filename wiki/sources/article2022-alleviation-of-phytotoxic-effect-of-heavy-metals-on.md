@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-1190413-v1
 cite_key: article2022-alleviation-of-phytotoxic-effect-of-heavy-metals-on
-title: "Alleviation of phytotoxic effect of heavy metals on wheat by multiple heavy"
-authors: ["metal tolerant Pseudomonas aeruginosa HMT Monica Sen Mohanlal Sukhadia University Faculty of Science HARSHADA JOSHI (  hjbiotech@gmail.com ) Mohan Lal Sukhadia University https://orcid.org/--- Research Article"]
+title: "Alleviation of phytotoxic effect of heavy metals on wheat by multiple heavy metal tolerant Pseudomonas aeruginosa HMT 7"
+authors: [Sen M, JOSHI H]
 year: 2022
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-1190413/v1

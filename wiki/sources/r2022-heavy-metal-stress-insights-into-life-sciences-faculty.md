@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2022-950120
 cite_key: r2022-heavy-metal-stress-insights-into-life-sciences-faculty
-title: "heavy metal stress-insights into Life Sciences, Faculty of Food Science and Technology, University of Agricultural Sciences and"
-authors: ["Rupa T. R.", "ICAR-Indian Institute of Horticultural Research", "India stress-insights into nutrient Mohamed Farag Mohamed Ibrahim", "Ain Shams University", "Egypt Antt Htet Wai"]
+title: "Impact of foliar application of syringic acid on tomato (Solanum lycopersicum L.) under heavy metal stress-insights into nutrient uptake, redox homeostasis, oxidative stress, and antioxidant defense"
+authors: [Ma J, Saleem MH, Ali B, Rasheed R, Ashraf MA, Aziz H, Ercisli S, Riaz S, Elsharkawy MM, Hussain I, Alhag SK, Ahmed AE, Vodnar DC, Mumtaz S, Marc RA]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2022.950120
 source_type: peer-reviewed
 evidence_tier: B

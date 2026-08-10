@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-md19040178
 cite_key: authors2021-methods-of-extracting-the-compounds-of-interest-in
-title: "methods of extracting the compounds of interest. In the case of northwest Spain, five algae species are"
-authors: ["Unknown authors"]
+title: "The Use of Invasive Algae Species as a Source of Secondary Metabolites and Biological Activities: Spain as Case-Study"
+authors: [Pereira AG, Fraga-Corral M, Garcia-Oliveira P, Lourenço-Lopes C, Carpena M, Prieto MA, Simal-Gandara J]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Marine Drugs"
 doi: 10.3390/md19040178
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph13030298
 cite_key: authors2015-reclaimed-water-through-field-trials-on-the-content
-title: "reclaimed water through field trials on the content and distribution of heavy metals in both tomatoes"
-authors: ["Unknown authors"]
+title: "Study on the Effects of Irrigation with Reclaimed Water on the Content and Distribution of Heavy Metals in Soil"
+authors: [Lu S, Wang J, Pei L]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph13030298
 source_type: peer-reviewed
 evidence_tier: B

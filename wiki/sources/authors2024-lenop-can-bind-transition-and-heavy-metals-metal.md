@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms26031305
 cite_key: authors2024-lenop-can-bind-transition-and-heavy-metals-metal
-title: "LENOP), can bind transition and heavy metals. Metal ion homeostasis accomplishes the"
-authors: ["Unknown authors"]
+title: "Selenoproteins: Zoom-In to Their Metal-Binding Properties in Neurodegenerative Diseases"
+authors: [Duță C, Muscurel C, Dogaru CB, Stoian I]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms26031305
 source_type: peer-reviewed
 evidence_tier: B

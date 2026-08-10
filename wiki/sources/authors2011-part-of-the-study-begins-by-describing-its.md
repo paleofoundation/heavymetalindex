@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s11027-011-9298-6
 cite_key: authors2011-part-of-the-study-begins-by-describing-its
-title: "part of the study begins by describing its research methods consisting of research interviews,"
-authors: ["Unknown authors"]
+title: "Building responsiveness to climate change through community based adaptation in Bangladesh"
+authors: [Rawlani AK, Sovacool BK]
 year: 2011
-publication: "Peer-reviewed article"
+publication: "Mitigation and Adaptation Strategies for Global Change"
 doi: 10.1007/s11027-011-9298-6
 source_type: peer-reviewed
 evidence_tier: B

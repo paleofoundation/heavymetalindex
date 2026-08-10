@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biom14080984
 cite_key: authors2024-use-of-cosmetics-in-pregnancy-and-neurotoxicity-can
-title: "Use of Cosmetics in Pregnancy and Neurotoxicity: Can It"
-authors: ["Unknown authors"]
+title: "Use of Cosmetics in Pregnancy and Neurotoxicity: Can It Increase the Risk of Congenital Enteric Neuropathies?"
+authors: [Jones K, Wessel LM, Schäfer KH, Tapia-Laliena MÁ]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Biomolecules"
 doi: 10.3390/biom14080984
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-cjn-2018-323
 cite_key: jackson2018-methylmercury-poisoning
-title: "Methylmercury Poisoning"
-authors: ["Alan C. Jackson"]
+title: "Chronic Neurological Disease Due to Methylmercury Poisoning"
+authors: [Jackson AC]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques"
 doi: 10.1017/cjn.2018.323
 source_type: peer-reviewed
 evidence_tier: B

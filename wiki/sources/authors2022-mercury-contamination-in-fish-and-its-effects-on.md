@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph192315929
 cite_key: authors2022-mercury-contamination-in-fish-and-its-effects-on
-title: "Mercury Contamination in Fish and Its Effects on the Health of"
-authors: ["Unknown authors"]
+title: "Mercury Contamination in Fish and Its Effects on the Health of Pregnant Women and Their Fetuses, and Guidance for Fish Consumption—A Narrative Review"
+authors: [Chen B, Dong S]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph192315929
 source_type: peer-reviewed
 evidence_tier: B

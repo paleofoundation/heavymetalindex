@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s40572-026-00551-9
 cite_key: handal2026-a-comparative-review-of-non-essential-metal-exposures
-title: "A Comparative Review of Non-Essential Metal Exposures in"
-authors: ["A Comparative Review of Non-Essential Metal Exposures in Schizophrenia Jennifer S Smith · Kendall P Dean · Justin A Colacino · Dana C Dolinoy · Alexis J Handal"]
+title: "Lead (Pb) and the NMDA Receptor Hypofunction Hypothesis: A Comparative Review of Non-Essential Metal Exposures in Schizophrenia"
+authors: [S Smith J, P Dean K, A Colacino J, C Dolinoy D, J Handal A]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Current Environmental Health Reports"
 doi: 10.1007/s40572-026-00551-9
 source_type: peer-reviewed
 evidence_tier: B

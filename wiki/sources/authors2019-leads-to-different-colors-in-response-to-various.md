@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox9020097
 cite_key: authors2019-leads-to-different-colors-in-response-to-various
-title: "leads to different colors in response to various pH [8]."
-authors: ["Unknown authors"]
+title: "Grown to Be Blue—Antioxidant Properties and Health Effects of Colored Vegetables. Part II: Leafy, Fruit, and Other Vegetables"
+authors: [Di Gioia F, Tzortzakis N, Rouphael Y, Kyriacou MC, Sampaio SL, C.F.R. Ferreira I, Petropoulos SA]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox9020097
 source_type: peer-reviewed
 evidence_tier: B

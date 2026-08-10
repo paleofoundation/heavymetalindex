@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods14010009
 cite_key: authors2015-toxic-trace-elements-in-meat-and-meat-products
-title: "Toxic Trace Elements in Meat and Meat Products Across Asia:"
-authors: ["Unknown authors"]
+title: "Toxic Trace Elements in Meat and Meat Products Across Asia: A Comprehensive Literature Review and Implications for Human Health"
+authors: [Domingo JL]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods14010009
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12060417
 cite_key: authors2024-mercury-dynamics-in-the-sea-of-azov-insights
-title: "Mercury Dynamics in the Sea of Azov: Insights from a Mass"
-authors: ["Unknown authors"]
+title: "Mercury Dynamics in the Sea of Azov: Insights from a Mass Balance Model"
+authors: [Gade C, von Hellfeld R, Mbadugha L, Paton G]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12060417
 source_type: peer-reviewed
 evidence_tier: B

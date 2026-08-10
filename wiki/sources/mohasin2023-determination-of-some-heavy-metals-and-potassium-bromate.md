@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-25130-tjas-23-2-1
 cite_key: mohasin2023-determination-of-some-heavy-metals-and-potassium-bromate
-title: "Determination of some heavy metals and potassium bromate"
-authors: ["in pastries offered in local markets Ghaeth M. Mohasin", "Mohammed J. Mohammed", "Shaimaa Abd Mohammed Department of Food Science", "College of Agriculture", "Tikrit University Corresponding author: E-mail: ggaatthh@gmail.com"]
+title: "Determination of some heavy metals and potassium bromate in pastries offered in local markets"
+authors: [Mohasin G, Mohammed M, Mohammed S]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Tikrit Journal for Agricultural Sciences"
 doi: 10.25130/tjas.23.2.1
 source_type: peer-reviewed
 evidence_tier: B

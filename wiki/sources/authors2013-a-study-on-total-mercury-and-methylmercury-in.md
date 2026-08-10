@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-9721-kjfst-2013-45-3-376
 cite_key: authors2013-a-study-on-total-mercury-and-methylmercury-in
-title: "A Study on Total Mercury and Methylmercury in Commercial Tuna,"
-authors: ["Unknown authors"]
+title: "A Study on Total Mercury and Methylmercury in Commercial Tuna, Billfish, and Deep-sea Fish in Seoul Metropolitan City"
+authors: [Kim JA, Yuk DH, Park YA, Choi HJ, Kim YC, Kim MS]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "Korean Journal of Food Science and Technology"
 doi: 10.9721/kjfst.2013.45.3.376
 source_type: peer-reviewed
 evidence_tier: B

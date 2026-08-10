@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-22423982-2017-1406234
 cite_key: authors2017-secondary-sex-ratio-in-relation-to-exposures-to
-title: "Secondary sex ratio in relation to exposures to polychlorinated biphenyls,"
-authors: ["Unknown authors"]
+title: "Secondary sex ratio in relation to exposures to polychlorinated biphenyls, dichlorodiphenyl dichloroethylene and methylmercury"
+authors: [Timmermann CAG, Choi AL, Petersen MS, Nielsen F, Budtz-Jørgensen E, Weihe P, Grandjean P]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "International Journal of Circumpolar Health"
 doi: 10.1080/22423982.2017.1406234
 source_type: peer-reviewed
 evidence_tier: B

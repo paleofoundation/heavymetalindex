@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2025-1665354
 cite_key: college2025-for-alleviating-heavy-metal-stress
-title: "for alleviating heavy metal stress"
-authors: ["Loyola College", "Chennai", "India CORRESPONDENCE in crop plants Zhongke Sun sunzh@daad-alumni.de Chengwei Li Yini Shi", "Xianyang Feng", "Zhongke Sun", "Boyuan Zhang"]
+title: "Issues on microbial soil remediation: a case of Cd detoxification by Bacillus strains for alleviating heavy metal stress in crop plants"
+authors: [Shi Y, Feng X, Sun Z, Zhang B, Li C]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2025.1665354
 source_type: peer-reviewed
 evidence_tier: B

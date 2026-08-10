@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15666-aeer-2302-21952209
 cite_key: authors2024-allalgua-et-al-age-and-growth-of-the
-title: "Allalgua et al.: Age and growth of the fish Luciobarbus callensis (Cyprinidae) in the ouldjet mellegue dam (Algeria, Tebessa)"
-authors: ["Unknown authors"]
+title: "AGE AND GROWTH OF THE FISH LUCIOBARBUS CALLENSIS (CYPRINIDAE) IN THE OULDJET MELLEGUE DAM (ALGERIA, TEBESSA)"
+authors: [ALLALGUA A, MOUAISSIA W, MENASRIA A, BOUALLEG C, BENSOUILAH M, KAOUACHI N]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Applied Ecology and Environmental Research"
 doi: 10.15666/aeer/2302_21952209
 source_type: peer-reviewed
 evidence_tier: B

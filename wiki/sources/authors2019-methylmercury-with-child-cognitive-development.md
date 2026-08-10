@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-aje-kwz156
 cite_key: authors2019-methylmercury-with-child-cognitive-development
-title: "Methylmercury With Child Cognitive Development"
-authors: ["Unknown authors"]
+title: "A Birth Cohort Study about the Genetic Modification of Prenatal Methylmercury Association with Child Cognitive Development"
+authors: [Julvez J, Smith GD, Ring S, Grandjean P]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "American Journal of Epidemiology"
 doi: 10.1093/aje/kwz156
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4314-jasem-v25i3-17
 cite_key: state2021-health-risk-evaluation-of-selected-heavy-metals-in
-title: "Health Risk Evaluation of Selected Heavy Metals in Infant Nutrition Formula in Cross"
-authors: ["River State", "Nigeria AKPE", "SE Department of Pure", "Applied Chemistry", "Faculty of Science", "University of Calabar", "Calabar", "Nigeria Corresponding Author Email: akomayeakpe@gmail.com"]
+title: "Health Risk Evaluation of Selected Heavy Metals in Infant Nutrition Formula in Cross River State, Nigeria"
+authors: [Akpe MA, Ubua PU, Ivara SE]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Journal of Applied Sciences and Environmental Management"
 doi: 10.4314/jasem.v25i3.17
 source_type: peer-reviewed
 evidence_tier: B

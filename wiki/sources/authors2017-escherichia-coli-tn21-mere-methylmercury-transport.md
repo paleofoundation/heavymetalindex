@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-2211-5463-12341
 cite_key: authors2017-escherichia-coli-tn21-mere-methylmercury-transport
-title: "Escherichia coli Tn21 MerE methylmercury transport"
-authors: ["Unknown authors"]
+title: "Cysteine and histidine residues are involved in Escherichia coli Tn21 MerE methylmercury transport"
+authors: [Sone Y, Uraguchi S, Takanezawa Y, Nakamura R, Pan‐Hou H, Kiyono M]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "FEBS Open Bio"
 doi: 10.1002/2211-5463.12341
 source_type: peer-reviewed
 evidence_tier: B

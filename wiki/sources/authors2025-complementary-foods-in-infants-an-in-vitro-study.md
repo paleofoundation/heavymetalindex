@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d5fo00414d
 cite_key: authors2025-complementary-foods-in-infants-an-in-vitro-study
-title: "Complementary foods in infants: an in vitro study"
-authors: ["Unknown authors"]
+title: "Complementary foods in infants: an in vitro study of the faecal microbial composition and organic acid production"
+authors: [Geniselli da Silva V, Mullaney JA, Roy NC, Smith NW, Wall C, Tatton CJ, McNabb WC]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Food & Function"
 doi: 10.1039/d5fo00414d
 source_type: peer-reviewed
 evidence_tier: B

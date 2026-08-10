@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-eep-dvaf035
 cite_key: authors2026-impact-of-a-prenatal-exposure-mixture-of-metals
-title: "Impact of a prenatal exposure mixture of metals on DNA"
-authors: ["Unknown authors"]
+title: "Impact of a prenatal exposure mixture of metals on DNA methylation-derived cell-type composition in cord blood"
+authors: [India-Aldana S, Saddiki H, Annicchiarico L, Chirvasuta A, Lesseur C, Landero J, Valvi D, Cantoral A, Baccarelli AA, Téllez-Rojo MM, Wright RO, Colicino E]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Epigenetics"
 doi: 10.1093/eep/dvaf035
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10653-026-03248-y
 cite_key: authors2026-pyrolysis-temperature-governs-heavy-metal-immobilization
-title: "Pyrolysis temperature governs heavy metal immobilization"
-authors: ["Unknown authors"]
+title: "Pyrolysis temperature governs heavy metal immobilization by sewage sludge biochar in tropical multi-contaminated Vertisol: a multivariate assessment"
+authors: [Santos JAG, dos Santos LO, da Conceição de Almeida M, de Souza Souza C, Del Arco Vinhas Costa O, Gloaguen TV, de Sena Magalhães C, de Andrade FB, da Silva do Nascimento H, Bomfim MR]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-026-03248-y
 source_type: peer-reviewed
 evidence_tier: B

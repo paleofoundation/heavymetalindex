@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2026-181583
 cite_key: authors2026-ocean-productivity-and-trophic-structure-drive-patterns-of
-title: "Ocean productivity and trophic structure drive patterns of mercury"
-authors: ["Unknown authors"]
+title: "Ocean productivity and trophic structure drive patterns of mercury accumulation in deep-pelagic fauna"
+authors: [Eduardo LN, Médieu A, Bertrand A, Santana JL, Lucena-Frédou F, Point D, Ferreira GVB, Lorrain A, Justino AKS, "Le Loc'h F", Munaron JM, Laffont L, Mincarone MM]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2026.181583
 source_type: peer-reviewed
 evidence_tier: B

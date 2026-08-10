@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2023-e17112
 cite_key: authors2023-contamination-with-heavy-metals-of-central-asian-rivers
-title: "contamination with heavy metals of Central Asian rivers"
-authors: ["Unknown authors"]
+title: "Comparative analysis and human health risk assessment of contamination with heavy metals of Central Asian rivers"
+authors: [Turdiyeva K, Lee W]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2023.e17112
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms27104538
 cite_key: authors2026-dose-dependent-effects-of-nickel-on-skeletal-development
-title: "Dose-Dependent Effects of Nickel on Skeletal Development:"
-authors: ["Unknown authors"]
+title: "Dose-Dependent Effects of Nickel on Skeletal Development: Physiological Necessity and the Threshold of Toxicity"
+authors: [Ma X, Huang X, Li J, Wu L, Zhang R, Huang D, Gao L, Zhao C]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms27104538
 source_type: peer-reviewed
 evidence_tier: B

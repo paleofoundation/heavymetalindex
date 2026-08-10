@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-1297401-v2
 cite_key: technology2024-stability-of-arsenic-in-arsenic-containing-copper-slag
-title: "stability of arsenic in arsenic-containing copper slag"
-authors: ["tailing Mu You Huainan normal university Yunhu Hu Huainan normal university Chuncai Zhou (  zhoucc@mail.ustc.edu.cn ) Hefei University of Technology"]
+title: "Speciation characterization and environmental stability of arsenic in arsenic-containing copper slag tailing"
+authors: [You M, Hu Y, Zhou C]
 year: 2024
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-1297401/v2

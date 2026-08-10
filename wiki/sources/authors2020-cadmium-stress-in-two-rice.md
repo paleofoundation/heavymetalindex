@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biom10121693
 cite_key: authors2020-cadmium-stress-in-two-rice
-title: "Cadmium Stress in Two Rice"
-authors: ["Unknown authors"]
+title: "Role of Ferrous Sulfate (FeSO4) in Resistance to Cadmium Stress in Two Rice (Oryza sativa L.) Genotypes"
+authors: [Afzal J, Saleem MH, Batool F, Elyamine AM, Rana MS, Shaheen A, El-Esawi MA, Tariq Javed M, Ali Q, Arslan Ashraf M, Hussain GS, Hu C]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Biomolecules"
 doi: 10.3390/biom10121693
 source_type: peer-reviewed
 evidence_tier: B

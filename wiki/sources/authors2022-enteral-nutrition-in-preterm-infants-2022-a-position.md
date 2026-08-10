@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1097-mpg-0000000000003642
 cite_key: authors2022-enteral-nutrition-in-preterm-infants-2022-a-position
-title: "Enteral Nutrition in Preterm Infants (2022): A Position Paper from the ESPGHAN"
-authors: ["Unknown authors"]
+title: "Enteral Nutrition in Preterm Infants (2022)"
+authors: [Embleton ND, Jennifer Moltu S, Lapillonne A, van den Akker CHP, Carnielli V, Fusch C, Gerasimidis K, van Goudoever JB, Haiden N, Iacobelli S, Johnson MJ, Meyer S, Mihatsch W, de Pipaon MS, Rigo J, Zachariassen G, Bronsky J, Indrio F, Köglmeier J, de Koning B, Norsa L, Verduci E, Domellöf M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Journal of Pediatric Gastroenterology and Nutrition"
 doi: 10.1097/mpg.0000000000003642
 source_type: peer-reviewed
 evidence_tier: B

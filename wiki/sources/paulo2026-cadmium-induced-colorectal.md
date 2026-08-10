@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fcell-2026-1808500
 cite_key: paulo2026-cadmium-induced-colorectal
-title: "cadmium-induced colorectal"
-authors: ["University of São Paulo", "Brazil REVIEWED BY cancer progression", "Hebert Bruno Campos", "Federal University of Ceara", "Brazil chemoresistance CORRESPONDENCE Balachandran Ruthramurthy"]
+title: "Epigenetic regulation of the β-catenin pathway in cadmium-induced colorectal cancer progression and chemoresistance"
+authors: [Prabhakaran R, Muthu R, Mahendran K, Thamarai R, Subramanian V, Revathi S, Velramar B, Dharani S, Ruthramurthy B]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Frontiers in Cell and Developmental Biology"
 doi: 10.3389/fcell.2026.1808500
 source_type: peer-reviewed
 evidence_tier: B

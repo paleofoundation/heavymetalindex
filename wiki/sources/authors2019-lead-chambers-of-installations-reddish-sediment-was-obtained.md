@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules24071298
 cite_key: authors2019-lead-chambers-of-installations-reddish-sediment-was-obtained
-title: "lead chambers of installations, reddish sediment was obtained. Initially, it was thought that arsenic"
-authors: ["Unknown authors"]
+title: "Selenium–Fascinating Microelement, Properties and Sources in Food"
+authors: [Kieliszek M]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules24071298
 source_type: peer-reviewed
 evidence_tier: B

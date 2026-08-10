@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-32741-fihb-19-vegetableoil
 cite_key: authors2016-australia-or-argentina-one-exception-is-the-argan
-title: "Australia or Argentina. One exception is the argan tree, which is well adapted to the extremely dry"
-authors: ["Unknown authors"]
+title: "Vegetable oils"
+authors: ["Instituto de la Grasa, Consejo Superior de Investigaciones Científicas (CSIC)", Aparicio R, García González DL, Aparicio-Ruiz R]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "FoodIntegrity Handbook"
 doi: 10.32741/fihb.19.vegetableoil
 source_type: peer-reviewed
 evidence_tier: B

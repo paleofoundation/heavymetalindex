@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-023-38574-z
 cite_key: authors2017-exposures-to-harmful-metals
-title: "exposures to harmful metals"
-authors: ["Unknown authors"]
+title: "Assessing children’s potential exposures to harmful metals in tire crumb rubber by accelerated photodegradation weathering"
+authors: [Winz R, Yu LL, Sung LP, Tong YJ, Chen D]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-023-38574-z
 source_type: peer-reviewed
 evidence_tier: B

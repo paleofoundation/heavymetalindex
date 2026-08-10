@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10021-003-0094-3
 cite_key: authors2005-mercury-and-total-mercury-in-boreal-upland-forests
-title: "Mercury and Total Mercury in Boreal Upland Forests"
-authors: ["ArticleddinddEcosystems · April DOI: ./s--- CITATIONS READS authors", "including: Britt D Hall Vincent St.Louis University of Regina University of Alberta"]
+title: "Impacts of Reservoir Creation on the Biogeochemical Cycling of Methyl Mercury and Total Mercury in Boreal Upland Forests"
+authors: [Hall BD, Louis VLS, Rolfhus KR, Bodaly RA, Beaty KG, Paterson MJ, Cherewyk KAP]
 year: 2005
-publication: "Peer-reviewed article"
+publication: "Ecosystems"
 doi: 10.1007/s10021-003-0094-3
 source_type: peer-reviewed
 evidence_tier: B

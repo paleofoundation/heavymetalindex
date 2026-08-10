@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41467-026-74746-x
 cite_key: authors2025-continental-imbalance-in-atmospheric
-title: "continental imbalance in atmospheric"
-authors: ["Unknown authors"]
+title: "Climate and plant traits drive a cross-continental imbalance in atmospheric Hg uptake"
+authors: [Jia L, Huang JH, Wang X, Yuan W, Pu Q, Zhang H, Liu N, Zhou J, Zhu X, Sun M, Driscoll CT, Wang F, Lin CJ, Feng X]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Nature Communications"
 doi: 10.1038/s41467-026-74746-x
 source_type: peer-reviewed
 evidence_tier: B

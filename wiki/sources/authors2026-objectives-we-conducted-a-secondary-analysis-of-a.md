@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-ajcnut-2026-101238
 cite_key: authors2026-objectives-we-conducted-a-secondary-analysis-of-a
-title: "Objectives: We conducted a secondary analysis of a randomized controlled trial where 250 infants were randomly assigned to receive either a protein-"
-authors: ["Unknown authors"]
+title: "Metabolic impact of reduced-protein Nordic diet-based complementary feeding: a secondary analysis of a randomized controlled study"
+authors: [He X, Zhang Z, Johansson U, Tancredi DJ, Hernell O, Lönnerdal B, Lind T, Slupsky CM]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "The American Journal of Clinical Nutrition"
 doi: 10.1016/j.ajcnut.2026.101238
 source_type: peer-reviewed
 evidence_tier: B

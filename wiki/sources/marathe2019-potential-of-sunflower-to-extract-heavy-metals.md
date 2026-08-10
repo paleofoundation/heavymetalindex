@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4236-ijg-2019-1012063
 cite_key: marathe2019-potential-of-sunflower-to-extract-heavy-metals
-title: "Potential of Sunflower to Extract Heavy Metals"
-authors: ["from Leachate Siddharth Marathe", "Nadarajah Ravichandran Glenn Department of Civil Engineering", "Clemson University", "Clemson", "USA How to cite this paper: Marathe"]
+title: "Potential of Sunflower to Extract Heavy Metals from Leachate"
+authors: [Marathe S]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "International Journal of Geosciences"
 doi: 10.4236/ijg.2019.1012063
 source_type: peer-reviewed
 evidence_tier: B

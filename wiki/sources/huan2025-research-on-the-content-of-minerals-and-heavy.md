@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-25073-2588-1094-vnuees-5406
 cite_key: huan2025-research-on-the-content-of-minerals-and-heavy
-title: "Research on the Content of Minerals and Heavy Metals"
-authors: ["in Some Popular Afterschool Snacks Nguyen Xuan Huan", "Do Thanh Nga", "Le Ngoc Bao Tram Faculty of Environmental Sciences", "VNU University of Science", "Nguyen Trai", "Thanh Xuan", "Hanoi", "Vietnam"]
+title: "Research on the Content of Minerals and Heavy Metals in Some Popular Afterschool Snacks"
+authors: [Huan NX, Thanh Nga D, Ngoc Bao Tram L]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "VNU Journal of Science: Earth and Environmental Sciences"
 doi: 10.25073/2588-1094/vnuees.5406
 source_type: peer-reviewed
 evidence_tier: B

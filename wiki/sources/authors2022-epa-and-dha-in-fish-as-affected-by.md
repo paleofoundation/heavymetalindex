@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-47836-ifrj-29-5-02
 cite_key: authors2022-epa-and-dha-in-fish-as-affected-by
-title: "(EPA and DHA) in fish as affected by cooking methods"
-authors: ["Unknown authors"]
+title: "Review on retention of long-chain omega-3 polyunsaturated fatty acids (EPA and DHA) in fish as affected by cooking methods"
+authors: [Muhammad Alinafiah S, Azlan A, Amin I, Mahmud Ab Rashid NK]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Food Research Journal"
 doi: 10.47836/ifrj.29.5.02
 source_type: peer-reviewed
 evidence_tier: B

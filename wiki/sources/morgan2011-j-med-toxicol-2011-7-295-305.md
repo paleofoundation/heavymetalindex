@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s13181-011-0180-4
 cite_key: morgan2011-j-med-toxicol-2011-7-295-305
-title: "J. Med. Toxicol. (2011) 7:295–305"
-authors: ["from a Traditional Vietnamese Product Soumya L. Pandalai & Brent W. Morgan"]
+title: "Case Files of the Emory University Medical Toxicology Fellowship: Inhalational Mercury Toxicity from a Traditional Vietnamese Product"
+authors: [Pandalai SL, Morgan BW]
 year: 2011
-publication: "Peer-reviewed article"
+publication: "Journal of Medical Toxicology"
 doi: 10.1007/s13181-011-0180-4
 source_type: peer-reviewed
 evidence_tier: B

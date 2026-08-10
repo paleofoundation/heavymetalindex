@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jenvrad-2006-12-011
 cite_key: authors2007-or-posting-on-open-internet-sites-your-personal
-title: "or posting on open internet sites, your personal or institution’s"
-authors: ["Unknown authors"]
+title: "Estimation of annual effective dose due to natural radioactive elements in ingestion of foodstuffs in tin mining area of Jos-Plateau, Nigeria"
+authors: [Jibiri NN, Farai IP, Alausa SK]
 year: 2007
-publication: "Peer-reviewed article"
+publication: "Journal of Environmental Radioactivity"
 doi: 10.1016/j.jenvrad.2006.12.011
 source_type: peer-reviewed
 evidence_tier: B

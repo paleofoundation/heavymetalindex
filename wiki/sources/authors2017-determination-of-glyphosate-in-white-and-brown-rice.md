@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules27228049
 cite_key: authors2017-determination-of-glyphosate-in-white-and-brown-rice
-title: "Determination of Glyphosate in White and Brown Rice with"
-authors: ["Unknown authors"]
+title: "Determination of Glyphosate in White and Brown Rice with HPLC-ICP-MS/MS"
+authors: [Fontanella MC, Lamastra L, Beone GM]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules27228049
 source_type: peer-reviewed
 evidence_tier: B

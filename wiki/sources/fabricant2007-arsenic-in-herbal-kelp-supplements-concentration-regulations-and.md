@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1289-ehp-10360
 cite_key: fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and
 title: "Arsenic in Herbal Kelp Supplements: Concentration, Regulations, and Labeling"
-authors: ["fabricant"]
+authors: [Fabricant D]
 year: 2007
 publication: "Environmental Health Perspectives"
 doi: "10.1289/ehp.10360"

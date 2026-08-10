@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox11020185
 cite_key: authors2022-published-maps-and-institutional-affil-concentrated-in-animal
-title: "published maps and institutional affil- concentrated in animal tissue through a cation/carnitine transporter protein known as"
-authors: ["Unknown authors"]
+title: "Oxidized Forms of Ergothioneine Are Substrates for Mammalian Thioredoxin Reductase"
+authors: [Jenny KA, Mose G, Haupt DJ, Hondal RJ]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox11020185
 source_type: peer-reviewed
 evidence_tier: B

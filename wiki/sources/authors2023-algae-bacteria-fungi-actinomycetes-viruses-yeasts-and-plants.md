@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fcimb-2023-1224778
 cite_key: authors2023-algae-bacteria-fungi-actinomycetes-viruses-yeasts-and-plants
-title: "algae, bacteria, fungi, actinomycetes, viruses, yeasts, and plants, with varying"
-authors: ["Unknown authors"]
+title: "Eco-friendly synthesized nanoparticles as antimicrobial agents: an updated review"
+authors: [Borehalli Mayegowda S, Roy A, N. G. M, Pandit S, Alghamdi S, Almehmadi M, Allahyani M, Awwad NS, Sharma R]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Cellular and Infection Microbiology"
 doi: 10.3389/fcimb.2023.1224778
 source_type: peer-reviewed
 evidence_tier: B

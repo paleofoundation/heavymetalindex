@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1128-aem-00529-26
 cite_key: kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport
-title: "Paddycrusts: interfacial bioregulators of heavy metal transport"
-authors: ["speciation Xiaolin Kuang", "Neng Ye", "Junliang Xin", "Yili Ge", "Linsen Du", "Liang Peng AUTHOR AFFILIATIONS See affiliation list on p. ."]
+title: "Paddycrusts: interfacial bioregulators of heavy metal transport and speciation"
+authors: [Kuang X, Ye N, Xin J, Ge Y, Du L, Peng L]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Applied and Environmental Microbiology"
 doi: 10.1128/aem.00529-26
 source_type: peer-reviewed
 evidence_tier: B

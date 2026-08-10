@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envres-2025-122224
 cite_key: authors2025-associations-between-prenatal-exposure-to-a-mixture-of
-title: "Associations between prenatal exposure to a mixture of lead,"
-authors: ["Unknown authors"]
+title: "Associations between prenatal exposure to a mixture of lead, mercury and polychlorinated biphenyls and executive function in Inuit adolescents"
+authors: [Fornasier-Bélanger M, Muckle G, Ayotte P, Jacobson JL, Jacobson SW, Saint-Amour D]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Research"
 doi: 10.1016/j.envres.2025.122224
 source_type: peer-reviewed
 evidence_tier: B

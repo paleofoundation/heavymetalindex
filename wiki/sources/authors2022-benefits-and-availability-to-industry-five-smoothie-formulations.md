@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules27103049
 cite_key: authors2022-benefits-and-availability-to-industry-five-smoothie-formulations
-title: "benefits, and availability to industry. Five smoothie formulations were produced and analyzed for"
-authors: ["Unknown authors"]
+title: "New Smoothie Products Based on Pumpkin, Banana, and Purple Carrot as a Source of Bioactive Compounds"
+authors: [Kidoń M, Uwineza PA]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules27103049
 source_type: peer-reviewed
 evidence_tier: B

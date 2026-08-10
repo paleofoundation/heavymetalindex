@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-fochx-2026-103882
 cite_key: authors2026-food-gut-continuum-of-biofortified-micronutrients-influence-of
-title: "Food–gut continuum of biofortified micronutrients: Influence of"
-authors: ["Unknown authors"]
+title: "Food–gut continuum of biofortified micronutrients: Influence of breadmaking processes on iodine, selenium, and zinc bioaccessibility and epithelial responses in an in vitro intestinal model"
+authors: [Belarbi H, Kebede F, Lambrecht F, Lampaert H, Grootaert C, De Leyn I, Van Bockstaele F, Van de Wiele T, Cakmak I, Du Laing G]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Food Chemistry: X"
 doi: 10.1016/j.fochx.2026.103882
 source_type: peer-reviewed
 evidence_tier: B

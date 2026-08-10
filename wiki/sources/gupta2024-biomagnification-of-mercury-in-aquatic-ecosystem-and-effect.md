@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-18231-j-jpbs-2024-003
 cite_key: gupta2024-biomagnification-of-mercury-in-aquatic-ecosystem-and-effect
 title: "Biomagnification of mercury in aquatic ecosystem and effect on human being"
-authors: ["Shweta Gupta", "Upasana Yadav Amity University Lucknow Campus", "Lucknow", "Uttar Pradesh", "India ARTICLE INFO"]
+authors: [Yadav U, Gupta S]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Pharmaceutical and Biological Sciences"
 doi: 10.18231/j.jpbs.2024.003
 source_type: peer-reviewed
 evidence_tier: B

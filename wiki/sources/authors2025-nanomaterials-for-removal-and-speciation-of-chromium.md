@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-3390-ma18071485
 cite_key: authors2025-nanomaterials-for-removal-and-speciation-of-chromium
 title: "Nanomaterials for Removal and Speciation of Chromium"
-authors: ["Unknown authors"]
+authors: [Pyrzynska K]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Materials"
 doi: 10.3390/ma18071485
 source_type: peer-reviewed
 evidence_tier: B

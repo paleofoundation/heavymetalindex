@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2021-682605
 cite_key: authors2021-mer-genes-broadens-mercury
-title: "mer Genes Broadens Mercury"
-authors: ["Unknown authors"]
+title: "Expanded Diversity and Phylogeny of mer Genes Broadens Mercury Resistance Paradigms and Reveals an Origin for MerA Among Thermophilic Archaea"
+authors: [Christakis CA, Barkay T, Boyd ES]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2021.682605
 source_type: peer-reviewed
 evidence_tier: B

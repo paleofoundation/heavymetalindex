@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-86591-x
 cite_key: authors2014-fly-ash-landfills-under-continuous
-title: "fly ash landfills under continuous"
-authors: ["Unknown authors"]
+title: "Experimental and modeled analysis of contaminant mobility in coal fly ash landfills under continuous rainfall regimes"
+authors: [Xu S, Zhang Y, Guo J, Wu A, Xiang X, Sun H]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-86591-x
 source_type: peer-reviewed
 evidence_tier: B

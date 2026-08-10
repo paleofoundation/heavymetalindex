@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-cancers15082234
 cite_key: authors2020-attributable-fraction-of-cancer-related-to-occupational-exposure
-title: "Attributable Fraction of Cancer Related to Occupational Exposure"
-authors: ["Unknown authors"]
+title: "Attributable Fraction of Cancer Related to Occupational Exposure in Italy"
+authors: [Collatuzzo G, Turati F, Malvezzi M, Negri E, La Vecchia C, Boffetta P]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Cancers"
 doi: 10.3390/cancers15082234
 source_type: peer-reviewed
 evidence_tier: B

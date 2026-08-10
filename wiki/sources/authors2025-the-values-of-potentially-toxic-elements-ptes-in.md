@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-025-04680-4
 cite_key: authors2025-the-values-of-potentially-toxic-elements-ptes-in
-title: "The Values of Potentially Toxic Elements (PTEs) in Prescription"
-authors: ["Unknown authors"]
+title: "The Values of Potentially Toxic Elements (PTEs) in Prescription and Non-prescription Dry Cat and Dog Diets in Turkey"
+authors: [Bilgiç B, Tarhan D, Ateş F, Dhamo G, Koenhemsi L, Dokuzeylül B, Or ME]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-025-04680-4
 source_type: peer-reviewed
 evidence_tier: B

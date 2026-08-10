@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s41182-026-00949-z
 cite_key: authors2026-chemical-exposure-and-childhood-learning
-title: "chemical exposure and childhood learning"
-authors: ["Unknown authors"]
+title: "Global trends in research on environmental chemical exposure and childhood learning disabilities: insights from a two-decade bibliometric and Latent Dirichlet Allocation analysis"
+authors: [Liu Q, Shu X, Cao J, Wang Y, Liu Y, Jiang F, Shu J]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Tropical Medicine and Health"
 doi: 10.1186/s41182-026-00949-z
 source_type: peer-reviewed
 evidence_tier: B

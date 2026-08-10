@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants15101517
 cite_key: authors2026-rhizosphere-processes-for-heavy-metal-remediation
-title: "Rhizosphere Processes for Heavy Metal Remediation"
-authors: ["Unknown authors"]
+title: "Nutrient-Driven Modulation of Microbial, Plant, and Rhizosphere Processes for Heavy Metal Remediation"
+authors: [Wang L, Zang X, Bakhat HF, Shah GA, Jing T, Zhao Y, He Y]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants15101517
 source_type: peer-reviewed
 evidence_tier: B

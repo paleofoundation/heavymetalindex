@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2188-jea-je20190284
 cite_key: authors2021-impact-of-methylmercury-and-other-heavy-metals-exposure
-title: "Impact of Methylmercury and Other Heavy Metals Exposure"
-authors: ["Unknown authors"]
+title: "Impact of Methylmercury and Other Heavy Metals Exposure on Neurocognitive Function in Children Aged 7 Years: Study Protocol of the Follow-up"
+authors: [Vecchi Brumatti L, Rosolen V, Mariuz M, Piscianz E, Valencic E, Bin M, Athanasakis E, D’Adamo P, Fragkiadoulaki E, Calamandrei G, Dinckol Ö, Barbone F, Ronfani L]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Journal of Epidemiology"
 doi: 10.2188/jea.je20190284
 source_type: peer-reviewed
 evidence_tier: B

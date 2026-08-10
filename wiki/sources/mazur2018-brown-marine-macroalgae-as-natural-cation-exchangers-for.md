@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1016-j-jenvman-2018-05-086
 cite_key: mazur2018-brown-marine-macroalgae-as-natural-cation-exchangers-for
 title: "Brown marine macroalgae as natural cation exchangers for toxic metal removal from industrial wastewaters: A review"
-authors: ["mazur"]
+authors: [Mazur LP, Cechinel MAP, de Souza SMAGU, Boaventura RAR, Vilar VJP]
 year: 2018
 publication: "Journal of Environmental Management"
 doi: "10.1016/j.jenvman.2018.05.086"

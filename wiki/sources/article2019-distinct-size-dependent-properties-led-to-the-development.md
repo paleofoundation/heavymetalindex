@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-c9ja00206e
 cite_key: article2019-distinct-size-dependent-properties-led-to-the-development
-title: "distinct size-dependent properties led to the development of"
-authors: ["Open Access Article."]
+title: "A critical review of single particle inductively coupled plasma mass spectrometry – A step towards an ideal method for nanomaterial characterization"
+authors: [Mozhayeva D, Engelhard C]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Journal of Analytical Atomic Spectrometry"
 doi: 10.1039/c9ja00206e
 source_type: peer-reviewed
 evidence_tier: B

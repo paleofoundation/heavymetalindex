@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jhazmat-2021-126945
 cite_key: authors2020-face-masks-massive-research-effort-has-been-launched
-title: "Face masks massive research effort has been launched to understand, characterize, and estimate the exposure risks of PPE"
-authors: ["Unknown authors"]
+title: "A critical synthesis of current peer-reviewed literature on the environmental and human health impacts of COVID-19 PPE litter: New findings and next steps"
+authors: [Kutralam-Muniasamy G, Pérez-Guevara F, Shruti VC]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Journal of Hazardous Materials"
 doi: 10.1016/j.jhazmat.2021.126945
 source_type: peer-reviewed
 evidence_tier: B

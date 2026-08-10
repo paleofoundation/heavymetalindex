@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-metabo14050265
 cite_key: authors2024-evaluation-of-the-metabolite-profile-of-fish-oil
-title: "Evaluation of the Metabolite Profile of Fish Oil Omega-3 Fatty"
-authors: ["Unknown authors"]
+title: "Evaluation of the Metabolite Profile of Fish Oil Omega-3 Fatty Acids (n-3 FAs) in Micellar and Enteric-Coated Forms—A Randomized, Cross-Over Human Study"
+authors: [Ibi A, Chang C, Kuo YC, Zhang Y, Du M, Roh YS, Gahler R, Hardy M, Solnier J]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Metabolites"
 doi: 10.3390/metabo14050265
 source_type: peer-reviewed
 evidence_tier: B

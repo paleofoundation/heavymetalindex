@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-s0007114523000375
 cite_key: authors2023-maternal-fish-consumption-and-child-neurodevelopment-in-nutrition
-title: "Maternal fish consumption and child neurodevelopment in Nutrition 1 Cohort:"
-authors: ["Unknown authors"]
+title: "Maternal fish consumption and child neurodevelopment in Nutrition 1 Cohort: Seychelles Child Development Study"
+authors: [Conway MC, Yeates AJ, Love TM, Weller D, McSorley EM, Mulhern MS, Wesolowska M, Watson GE, Myers GJ, Shamlaye CF, Henderson J, Davidson PW, van Wijngaarden E, Strain JJ]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "British Journal of Nutrition"
 doi: 10.1017/s0007114523000375
 source_type: peer-reviewed
 evidence_tier: B

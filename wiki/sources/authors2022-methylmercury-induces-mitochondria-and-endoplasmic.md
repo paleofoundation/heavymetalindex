@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms23052858
 cite_key: authors2022-methylmercury-induces-mitochondria-and-endoplasmic
-title: "Methylmercury Induces Mitochondria- and Endoplasmic"
-authors: ["Unknown authors"]
+title: "Methylmercury Induces Mitochondria- and Endoplasmic Reticulum Stress-Dependent Pancreatic β-Cell Apoptosis via an Oxidative Stress-Mediated JNK Signaling Pathway"
+authors: [Yang CY, Liu SH, Su CC, Fang KM, Yang TY, Liu JM, Chen YW, Chang KC, Chuang HL, Wu CT, Lee KI, Huang CF]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms23052858
 source_type: peer-reviewed
 evidence_tier: B

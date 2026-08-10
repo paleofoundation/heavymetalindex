@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envpol-2005-11-005
 cite_key: authors2006-e-mail-address-zfs-cau-edu-cn-f
-title: "E-mail address: zfs@cau.edu.cn (F.S. Zhang). be expected to lead to nitrate pollution of groundwater."
-authors: ["Unknown authors"]
+title: "Nitrogen balance and groundwater nitrate contamination: Comparison among three intensive cropping systems on the North China Plain"
+authors: [Ju XT, Kou CL, Zhang FS, Christie P]
 year: 2006
-publication: "Peer-reviewed article"
+publication: "Environmental Pollution"
 doi: 10.1016/j.envpol.2005.11.005
 source_type: peer-reviewed
 evidence_tier: B

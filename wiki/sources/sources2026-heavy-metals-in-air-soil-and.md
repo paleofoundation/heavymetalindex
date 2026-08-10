@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-5772-intechopen-1014021
 cite_key: sources2026-heavy-metals-in-air-soil-and
-title: "Heavy Metals in Air, Soil and"
-authors: ["Water: Major Sources", "Insights into Plant Responses", "Monitoring", "Management Ashish Kumar Parashar"]
+title: "Heavy Metals in Air, Soil and Water: Major Sources and Insights into Plant Responses, Monitoring and Management"
+authors: [Kumar Parashar A]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Heavy Metals in Air, Soil and Water [Working Title]"
 doi: 10.5772/intechopen.1014021
 source_type: peer-reviewed
 evidence_tier: B

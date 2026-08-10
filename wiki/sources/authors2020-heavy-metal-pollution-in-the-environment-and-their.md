@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2020-e04691
 cite_key: authors2020-heavy-metal-pollution-in-the-environment-and-their
-title: "Heavy metal pollution in the environment and their toxicological effects"
-authors: ["Unknown authors"]
+title: "Heavy metal pollution in the environment and their toxicological effects on humans"
+authors: [Briffa J, Sinagra E, Blundell R]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2020.e04691
 source_type: peer-reviewed
 evidence_tier: B

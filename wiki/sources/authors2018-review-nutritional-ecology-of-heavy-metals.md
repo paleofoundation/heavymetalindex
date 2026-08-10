@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1017-s175173111700355x
 cite_key: authors2018-review-nutritional-ecology-of-heavy-metals
 title: "Review: Nutritional ecology of heavy metals"
-authors: ["Unknown authors"]
+authors: [Hejna M, Gottardo D, Baldi A, Dell’Orto V, Cheli F, Zaninelli M, Rossi L]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Animal"
 doi: 10.1017/s175173111700355x
 source_type: peer-reviewed
 evidence_tier: B

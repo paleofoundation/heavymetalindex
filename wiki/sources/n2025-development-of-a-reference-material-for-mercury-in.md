@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00216-025-05817-z
 cite_key: n2025-development-of-a-reference-material-for-mercury-in
-title: "Development of a reference material for mercury in fish: certified"
-authors: ["characterized for methylmercury Diego A. Garzón", "· Diego A. Ahumada", "· Cristhian Paredes · Elianna Castillo"]
+title: "Development of a reference material for mercury in fish: certified for total mercury and characterized for methylmercury"
+authors: [Garzón DA, Ahumada DA, Paredes C, Castillo E]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Analytical and Bioanalytical Chemistry"
 doi: 10.1007/s00216-025-05817-z
 source_type: peer-reviewed
 evidence_tier: B

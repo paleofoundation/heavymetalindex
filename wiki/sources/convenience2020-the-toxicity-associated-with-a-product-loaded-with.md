@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-32508-stdj-v23i3-2399
 cite_key: convenience2020-the-toxicity-associated-with-a-product-loaded-with
-title: "The toxicity associated with a product loaded with chemicals and a conscious choice that is to"
-authors: ["Open Access Full Text Article Review A review on convenience", "pollution caused by baby diapers S. Aishwariya", "P. Priyanka"]
+title: "A review on convenience and pollution caused by baby diapers"
+authors: [Sachidhanandham A, M P]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Science and Technology Development Journal"
 doi: 10.32508/stdj.v23i3.2399
 source_type: peer-reviewed
 evidence_tier: B

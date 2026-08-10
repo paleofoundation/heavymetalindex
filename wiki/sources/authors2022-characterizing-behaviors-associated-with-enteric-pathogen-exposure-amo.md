@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4269-ajtmh-21-1099
 cite_key: authors2022-characterizing-behaviors-associated-with-enteric-pathogen-exposure-amo
-title: "Characterizing Behaviors Associated with Enteric Pathogen Exposure among Infants in Rural"
-authors: ["Unknown authors"]
+title: "Characterizing Behaviors Associated with Enteric Pathogen Exposure among Infants in Rural Ecuador through Structured Observations"
+authors: [Sosa-Moreno A, Lee GO, Van Engen A, Sun K, Uruchima J, Kwong LH, Ludwig-Borycz E, Caruso BA, Cevallos W, Levy K, Eisenberg JNS]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "The American Journal of Tropical Medicine and Hygiene"
 doi: 10.4269/ajtmh.21-1099
 source_type: peer-reviewed
 evidence_tier: B

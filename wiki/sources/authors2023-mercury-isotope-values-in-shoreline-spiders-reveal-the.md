@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-estlett-3c00450
 cite_key: authors2023-mercury-isotope-values-in-shoreline-spiders-reveal-the
-title: "Mercury Isotope Values in Shoreline Spiders Reveal the Transfer of"
-authors: ["Unknown authors"]
+title: "Mercury Isotope Values in Shoreline Spiders Reveal the Transfer of Aquatic Mercury Sources to Terrestrial Food Webs"
+authors: [Janssen SE, Kotalik CJ, Eagles-Smith CA, Beaubien GB, Hoffman JC, Peterson G, Mills MA, Walters DM]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology Letters"
 doi: 10.1021/acs.estlett.3c00450
 source_type: peer-reviewed
 evidence_tier: B

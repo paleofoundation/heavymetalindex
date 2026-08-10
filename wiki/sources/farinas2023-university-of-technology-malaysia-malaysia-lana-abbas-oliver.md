@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2023-1278886
 cite_key: farinas2023-university-of-technology-malaysia-malaysia-lana-abbas-oliver
-title: "University of Technology Malaysia, Malaysia Lana Abbas , Oliver Coutinho , Aleksa Fortuna , Fatima Sulaiman ,"
-authors: ["CORRESPONDENCE James Farinas", "Reis Schittenhelm", "Brian Catalfano", "Xiaohua Li Sonia M. Tiquia-Arashiro smtiquia@umich.edu", "Sonia M. Tiquia-Arashiro"]
+title: "Metal tolerance and biosorption capacities of bacterial strains isolated from an urban watershed"
+authors: [Pagnucco G, Overfield D, Chamlee Y, Shuler C, Kassem A, Opara S, Najaf H, Abbas L, Coutinho O, Fortuna A, Sulaiman F, Farinas J, Schittenhelm R, Catalfano B, Li X, Tiquia-Arashiro SM]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2023.1278886
 source_type: peer-reviewed
 evidence_tier: B

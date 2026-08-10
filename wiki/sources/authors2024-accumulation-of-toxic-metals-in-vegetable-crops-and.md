@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s44274-025-00373-w
 cite_key: authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and
-title: "Accumulation of toxic metals in vegetable crops and associated"
-authors: ["Unknown authors"]
+title: "Accumulation of toxic metals in vegetable crops and associated dietary exposure risks to human health"
+authors: [Ali S, Ahirwar R]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Discover Environment"
 doi: 10.1007/s44274-025-00373-w
 source_type: peer-reviewed
 evidence_tier: B

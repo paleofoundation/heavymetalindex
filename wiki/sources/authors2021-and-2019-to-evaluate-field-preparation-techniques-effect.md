@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-36632-mejar-2021-10-4-77
 cite_key: authors2021-and-2019-to-evaluate-field-preparation-techniques-effect
-title: "and 2019 to evaluate field preparation techniques effect on selected heavy metals concentration and rice"
+title: "Fields Preparation Techniques for Rice Production: Impacts on Selected Soil Heavy Metals Concentration and Rice Yield in Lowlands of Southeastern Nigeria"
 authors: ["Unknown authors"]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Middle East Journal of Agriculture Research"
 doi: 10.36632/mejar/2021.10.4.77
 source_type: peer-reviewed
 evidence_tier: B

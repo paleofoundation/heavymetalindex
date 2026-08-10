@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics14040291
 cite_key: authors2026-tissue-specific-mercury-bioaccumulation-and-probabilistic
-title: "Tissue-Specific Mercury Bioaccumulation and Probabilistic"
-authors: ["Unknown authors"]
+title: "Tissue-Specific Mercury Bioaccumulation and Probabilistic Human Health Risk in Freshwater Fish from the Arda River Reservoir Cascade (Bulgaria)"
+authors: [Angelova VR, Nikolova LN, Bonev SG, Georgiev GK]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics14040291
 source_type: peer-reviewed
 evidence_tier: B

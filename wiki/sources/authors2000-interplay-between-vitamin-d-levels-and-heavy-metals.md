@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-pathophysiology31040048
 cite_key: authors2000-interplay-between-vitamin-d-levels-and-heavy-metals
-title: "Interplay Between Vitamin D Levels and Heavy Metals Exposure"
-authors: ["Unknown authors"]
+title: "Interplay Between Vitamin D Levels and Heavy Metals Exposure in Pregnancy and Childbirth: A Systematic Review"
+authors: [Flores-Bazán T, Izquierdo-Vega JA, Guerrero-Solano JA, Castañeda-Ovando A, Estrada-Luna D, Jiménez-Osorio AS]
 year: 2000
-publication: "Peer-reviewed article"
+publication: "Pathophysiology"
 doi: 10.3390/pathophysiology31040048
 source_type: peer-reviewed
 evidence_tier: B

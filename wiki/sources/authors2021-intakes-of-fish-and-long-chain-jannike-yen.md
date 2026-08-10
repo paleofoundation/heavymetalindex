@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2337-dc21-0447
 cite_key: authors2021-intakes-of-fish-and-long-chain-jannike-yen
-title: "Intakes of Fish and Long-Chain Jannike Øyen,1 Anne Lise Brantsæter,2"
-authors: ["Unknown authors"]
+title: "Intakes of Fish and Long-Chain n-3 Polyunsaturated Fatty Acid Supplements During Pregnancy and Subsequent Risk of Type 2 Diabetes in a Large Prospective Cohort Study of Norwegian Women"
+authors: [Øyen J, Brantsæter AL, Nøstbakken OJ, Birkeland KI, Haugen M, Madsen L, Egeland GM]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Diabetes Care"
 doi: 10.2337/dc21-0447
 source_type: peer-reviewed
 evidence_tier: B

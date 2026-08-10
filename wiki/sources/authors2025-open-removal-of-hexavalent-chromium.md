@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-01025-y
 cite_key: authors2025-open-removal-of-hexavalent-chromium
-title: "OPEN Removal of hexavalent chromium"
-authors: ["Unknown authors"]
+title: "Removal of hexavalent chromium from contaminated synthetic groundwater via functionalized carbon nanomaterials modified with zinc and potassium"
+authors: [Ibikunle PD, Elemile OO, Ejigboye PO, Bala DO, Olawolu AP, Adebayo AA, Olajide OS]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-01025-y
 source_type: peer-reviewed
 evidence_tier: B

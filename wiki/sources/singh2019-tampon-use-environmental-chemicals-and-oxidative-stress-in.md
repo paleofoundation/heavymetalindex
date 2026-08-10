@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1186-s12940-019-0452-z
 cite_key: singh2019-tampon-use-environmental-chemicals-and-oxidative-stress-in
 title: "Tampon use, environmental chemicals and oxidative stress in the BioCycle study"
-authors: ["singh"]
+authors: [Singh J, Mumford SL, Pollack AZ, Schisterman EF, Weisskopf MG, Navas-Acien A, Kioumourtzoglou MA]
 year: 2019
 publication: "Environmental Health"
 doi: "10.1186/s12940-019-0452-z"

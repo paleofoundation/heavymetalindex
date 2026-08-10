@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-04553-9
 cite_key: authors2025-damaging-effects-of-arsenic-stress
-title: "damaging effects of arsenic stress"
-authors: ["Unknown authors"]
+title: "Supplementation of silicon oxide nanoparticles mitigates the damaging effects of arsenic stress on photosynthesis, antioxidant mechanism and nitrogen metabolism in Brassica juncea"
+authors: [Faisal M, Bilmez Ozcinar A, Karadeniz E, Faizan M, Sultan H, Alatar AA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-04553-9
 source_type: peer-reviewed
 evidence_tier: B

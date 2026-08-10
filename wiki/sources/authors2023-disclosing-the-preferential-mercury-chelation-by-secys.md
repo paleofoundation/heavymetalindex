@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-inorgchem-3c01708
 cite_key: authors2023-disclosing-the-preferential-mercury-chelation-by-secys
-title: "Disclosing the Preferential Mercury Chelation by SeCys"
-authors: ["Unknown authors"]
+title: "Disclosing the Preferential Mercury Chelation by SeCys Containing Peptides over Their Cys Analogues"
+authors: [Bernabeu de Maria M, Tesauro D, Prencipe F, Saviano M, Messori L, Enjalbal C, Lobinski R, Ronga L]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Inorganic Chemistry"
 doi: 10.1021/acs.inorgchem.3c01708
 source_type: peer-reviewed
 evidence_tier: B

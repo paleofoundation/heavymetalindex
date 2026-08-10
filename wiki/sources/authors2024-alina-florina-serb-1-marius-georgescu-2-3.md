@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules29061336
 cite_key: authors2024-alina-florina-serb-1-marius-georgescu-2-3
-title: "Alina Florina Serb 1 , Marius Georgescu 2,3, * , Robert Onulov 4 , Cristina Ramona Novaconi 4 , Eugen Sisu 1 ,"
-authors: ["Unknown authors"]
+title: "Mass-Spectrometry-Based Research of Cosmetic Ingredients"
+authors: [Serb AF, Georgescu M, Onulov R, Novaconi CR, Sisu E, Bolocan A, Sandu RE]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules29061336
 source_type: peer-reviewed
 evidence_tier: B

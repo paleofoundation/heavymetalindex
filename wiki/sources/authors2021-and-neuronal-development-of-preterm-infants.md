@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu13082755
 cite_key: authors2021-and-neuronal-development-of-preterm-infants
-title: "and Neuronal Development of Preterm Infants"
-authors: ["Unknown authors"]
+title: "Effects of Total Enteral Nutrition on Early Growth, Immunity, and Neuronal Development of Preterm Infants"
+authors: [Hossain Z, Qasem WA, Friel JK, Omri A]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu13082755
 source_type: peer-reviewed
 evidence_tier: B

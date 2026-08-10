@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-cimb47080650
 cite_key: authors2025-a-narrative-review-of-heavy-metals-and-sperm
-title: "A Narrative Review of Heavy Metals and Sperm Quality:"
-authors: ["Unknown authors"]
+title: "A Narrative Review of Heavy Metals and Sperm Quality: The Interplay with Antioxidant Imbalance and Reactive Oxygen Species"
+authors: [Azil S, Errafii K, Benkhalifa M, Louanjli N, Ghazi B, Hamdi S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Current Issues in Molecular Biology"
 doi: 10.3390/cimb47080650
 source_type: peer-reviewed
 evidence_tier: B

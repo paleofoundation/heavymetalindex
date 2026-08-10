@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biom10091351
 cite_key: authors2020-arsenic-methyltransferase-and-methylation-of
-title: "Arsenic Methyltransferase and Methylation of"
-authors: ["Unknown authors"]
+title: "Arsenic Methyltransferase and Methylation of Inorganic Arsenic"
+authors: [Roy NK, Murphy A, Costa M]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Biomolecules"
 doi: 10.3390/biom10091351
 source_type: peer-reviewed
 evidence_tier: B

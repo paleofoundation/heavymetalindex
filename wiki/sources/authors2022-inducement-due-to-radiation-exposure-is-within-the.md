@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2022-e11534
 cite_key: authors2022-inducement-due-to-radiation-exposure-is-within-the
-title: "inducement due to radiation exposure is within the acceptable limits for both mining sites."
-authors: ["Unknown authors"]
+title: "Soil-to-plant transfer of 40K, 238U and 232Th and radiological risk assessment of selected mining sites in Nigeria"
+authors: [Orosun MM, Usikalu MR, Oyewumi KJ, Omeje M, Awolola GV, Ajibola O, Tibbett M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2022.e11534
 source_type: peer-reviewed
 evidence_tier: B

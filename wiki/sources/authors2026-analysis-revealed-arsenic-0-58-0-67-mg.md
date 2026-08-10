@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1177-11786302261428837
 cite_key: authors2026-analysis-revealed-arsenic-0-58-0-67-mg
-title: "Analysis revealed arsenic (0.58-0.67 mg/L), lead (0.66-0.95 mg/L), mercury (0.10-0.14 mg/L), and E. coli (up to 1349.75"
-authors: ["Unknown authors"]
+title: "Water Pollution Assessment and Community Perception of Major Rivers in Ghana"
+authors: [Aboah M, Tei EA, Miyittah M, Gnimadi CJI]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Health Insights"
 doi: 10.1177/11786302261428837
 source_type: peer-reviewed
 evidence_tier: B

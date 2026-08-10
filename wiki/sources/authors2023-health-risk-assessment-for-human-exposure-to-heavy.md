@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph20010435
 cite_key: authors2023-health-risk-assessment-for-human-exposure-to-heavy
-title: "Health Risk Assessment for Human Exposure to Heavy Metals"
-authors: ["Unknown authors"]
+title: "Health Risk Assessment for Human Exposure to Heavy Metals via Food Consumption in Inhabitants of Middle Basin of the Atrato River in the Colombian Pacific"
+authors: [Caicedo-Rivas G, Salas-Moreno M, Marrugo-Negrete J]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph20010435
 source_type: peer-reviewed
 evidence_tier: B

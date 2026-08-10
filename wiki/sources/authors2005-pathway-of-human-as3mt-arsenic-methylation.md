@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1021-tx500313k
 cite_key: authors2005-pathway-of-human-as3mt-arsenic-methylation
 title: "Pathway of Human AS3MT Arsenic Methylation"
-authors: ["Unknown authors"]
+authors: [Dheeman DS, Packianathan C, Pillai JK, Rosen BP]
 year: 2005
-publication: "Peer-reviewed article"
+publication: "Chemical Research in Toxicology"
 doi: 10.1021/tx500313k
 source_type: peer-reviewed
 evidence_tier: B

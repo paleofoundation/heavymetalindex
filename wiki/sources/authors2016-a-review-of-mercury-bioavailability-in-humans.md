@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph14020169
 cite_key: authors2016-a-review-of-mercury-bioavailability-in-humans
-title: "A Review of Mercury Bioavailability in Humans"
-authors: ["Unknown authors"]
+title: "A Review of Mercury Bioavailability in Humans and Fish"
+authors: [Bradley M, Barst B, Basu N]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph14020169
 source_type: peer-reviewed
 evidence_tier: B

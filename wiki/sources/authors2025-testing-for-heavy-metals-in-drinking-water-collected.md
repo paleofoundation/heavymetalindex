@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pwat-0000296
 cite_key: authors2025-testing-for-heavy-metals-in-drinking-water-collected
-title: "Testing for heavy metals in drinking water collected from Dog"
-authors: ["Unknown authors"]
+title: "Testing for heavy metals in drinking water collected from Dog Aging Project participants"
+authors: [Sexton CL, O’Brien J, Lytle J, Rodgers S, Keyser A, Kauffman M, Dunbar MD, "Dog Aging Project Consortium,", Edwards M, Krometis LA, Ruple A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "PLOS Water"
 doi: 10.1371/journal.pwat.0000296
 source_type: peer-reviewed
 evidence_tier: B

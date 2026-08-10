@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1002-9781119769620-ch9
 cite_key: authors2022-biomolecules-from-vegetable-wastes
 title: "Biomolecules from Vegetable Wastes"
-authors: ["Unknown authors"]
+authors: [de Ancos B, Sánchez‐Moreno C]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Biomolecules from Natural Sources"
 doi: 10.1002/9781119769620.ch9
 source_type: peer-reviewed
 evidence_tier: B

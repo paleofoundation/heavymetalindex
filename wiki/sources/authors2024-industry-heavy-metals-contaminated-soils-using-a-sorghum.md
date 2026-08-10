@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-12928-si-v22i2-202
 cite_key: authors2024-industry-heavy-metals-contaminated-soils-using-a-sorghum
-title: "Industry Heavy Metals-Contaminated Soils Using a Sorghum"
-authors: ["Unknown authors"]
+title: "Successful phytoremediation of simulated steel rolling industry heavy metals-contaminated soils using a Sorghum bicolor cultivar from Riko, Katsina, Nigeria"
+authors: [Yunusa YR, Umar ZD, Kabir K]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Spektrum Industri"
 doi: 10.12928/si.v22i2.202
 source_type: peer-reviewed
 evidence_tier: B

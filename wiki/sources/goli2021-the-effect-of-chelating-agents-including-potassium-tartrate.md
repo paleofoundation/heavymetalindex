@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-fsn3-2473
 cite_key: goli2021-the-effect-of-chelating-agents-including-potassium-tartrate
-title: "The effect of chelating agents including potassium tartrate and"
-authors: ["cooking from some different varieties of rice available in Iran Zahra karimi | Mohammad Goli", "Department of Food Science", "Technology", "Isfahan (Khorasgan) Branch"]
+title: "The effect of chelating agents including potassium tartrate and citrate on the maximum reduction of lead and cadmium during soaking and cooking from some different varieties of rice available in Iran"
+authors: [karimi Z, Goli M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.2473
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-c9ja90028d
 cite_key: authors2019-approach-to-speciation-analysis-as-in-previous-years
-title: "approach to speciation analysis. As in previous years, As speciation continues to dominate the"
-authors: ["Unknown authors"]
+title: "Atomic spectrometry update: review of advances in elemental speciation"
+authors: [Clough R, Harrington CF, Hill SJ, Madrid Y, Tyson JF]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Journal of Analytical Atomic Spectrometry"
 doi: 10.1039/c9ja90028d
 source_type: peer-reviewed
 evidence_tier: B

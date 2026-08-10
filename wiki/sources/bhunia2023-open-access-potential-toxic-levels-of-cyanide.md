@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fsufs-2023-1165501
 cite_key: bhunia2023-open-access-potential-toxic-levels-of-cyanide
-title: "OPEN ACCESS potential toxic levels of cyanide"
-authors: ["EDITED BY Arun K. Bhunia", "Purdue University", "United States REVIEWED BY Marco E. Mng'ong'o", "sold in selected markets—taken Mbeya University of Science", "Technology"]
+title: "The notorious daredevils: potential toxic levels of cyanide and heavy metals in cassava flour sold in selected markets—taken Oke Ogun Community, Oyo State as an example"
+authors: [Jacob OA, Anuoluwa OE, Raimi MO]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Sustainable Food Systems"
 doi: 10.3389/fsufs.2023.1165501
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12889-017-4808-4
 cite_key: rio2017-a-comparison-of-arsenic-exposure-in-young
-title: "A comparison of arsenic exposure in young"
-authors: ["home water arsenic in two rural West Texas communities Michelle Del Rio", "Juan Alvarez", "Tania Mayorga", "Salvador Dominguez", "Christina Sobin"]
+title: "A comparison of arsenic exposure in young children and home water arsenic in two rural West Texas communities"
+authors: [Del Rio M, Alvarez J, Mayorga T, Dominguez S, Sobin C]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "BMC Public Health"
 doi: 10.1186/s12889-017-4808-4
 source_type: peer-reviewed
 evidence_tier: B

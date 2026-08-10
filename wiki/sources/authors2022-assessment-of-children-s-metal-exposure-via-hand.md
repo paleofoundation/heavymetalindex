@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph192114614
 cite_key: authors2022-assessment-of-children-s-metal-exposure-via-hand
-title: "Assessment of Children’s Metal Exposure via Hand Wipe,"
-authors: ["Unknown authors"]
+title: "Assessment of Children’s Metal Exposure via Hand Wipe, Outdoor Soil and Indoor Dust and Their Associations with Blood Biomarkers"
+authors: [Wang B, Gao F, Li Y, Lin C, Cheng H, Duan X]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph192114614
 source_type: peer-reviewed
 evidence_tier: B

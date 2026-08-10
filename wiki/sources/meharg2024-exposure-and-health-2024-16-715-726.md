@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12403-023-00587-4
 cite_key: meharg2024-exposure-and-health-2024-16-715-726
-title: "Exposure and Health (2024) 16:715–726"
-authors: ["Cadmium Along a North–South Transect of Western Bangladesh Andrew A. Meharg · Manus Carey · Kathryn Ralphs · Coalain McCreanor · Mukhlesur Rahman · Mahmud Hussain · M. Rafiqul Islam · Caroline Meharg"]
+title: "Hidden Hunger and Hidden Danger: Regional Gradients in Rice Grain Nutrient Elements, Vitamins B and E and Toxicants Arsenic and Cadmium Along a North–South Transect of Western Bangladesh"
+authors: [Meharg AA, Carey M, Ralphs K, McCreanor C, Rahman M, Hussain M, Islam MR, Meharg C]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Exposure and Health"
 doi: 10.1007/s12403-023-00587-4
 source_type: peer-reviewed
 evidence_tier: B

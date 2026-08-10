@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41467-026-73695-9
 cite_key: authors2025-toxitarget-a-multi-omics-database-for-toxicant
-title: "ToxiTaRGET: a multi-omics database for toxicant-"
-authors: ["Unknown authors"]
+title: "ToxiTaRGET: a multi-omics database for toxicant-responsive molecular targets"
+authors: [Kumar R, Fu T, Kuntala PK, Miao B, Fu S, Li D, "TaRGET II Consortium", Tyson FL, Bartolomei MS, Walker CL, Wang T, Zhang BA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Nature Communications"
 doi: 10.1038/s41467-026-73695-9
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics13060426
 cite_key: authors1990-variability-of-mercury-concentrations-across-species-brand
-title: "Variability of Mercury Concentrations Across Species, Brand,"
-authors: ["Unknown authors"]
+title: "Variability of Mercury Concentrations Across Species, Brand, and Tissue Type in Processed Commercial Seafood Products"
+authors: [Rock KD, Bhoothapuri S, Lassiter E, Segedie L, Belcher SM]
 year: 1990
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics13060426
 source_type: peer-reviewed
 evidence_tier: B

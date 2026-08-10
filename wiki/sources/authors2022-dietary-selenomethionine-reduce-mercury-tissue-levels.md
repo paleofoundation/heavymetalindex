@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms232012242
 cite_key: authors2022-dietary-selenomethionine-reduce-mercury-tissue-levels
-title: "Dietary Selenomethionine Reduce Mercury Tissue Levels"
-authors: ["Unknown authors"]
+title: "Dietary Selenomethionine Reduce Mercury Tissue Levels and Modulate Methylmercury Induced Proteomic and Transcriptomic Alterations in Hippocampi of Adolescent BALB/c Mice"
+authors: [Mellingen RM, Myrmel LS, Rasinger JD, Lie KK, Bernhard A, Madsen L, Nøstbakken OJ]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms232012242
 source_type: peer-reviewed
 evidence_tier: B

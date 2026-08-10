@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-jhazmat-2024-135195
 cite_key: authors2024-simulation-of-hexavalent-chromium-removal-by
-title: "Simulation of hexavalent chromium removal by"
-authors: ["Unknown authors"]
+title: "Simulation of hexavalent chromium removal by electrocoagulation using iron anode in flow-through reactor"
+authors: [Hojabri S, Rajic L, Zhao Y, Alshawabkeh AN]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Hazardous Materials"
 doi: 10.1016/j.jhazmat.2024.135195
 source_type: peer-reviewed
 evidence_tier: B

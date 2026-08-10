@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-psj-2026-106975
 cite_key: authors2026-the-effects-of-chromium-yeast-on-lipid-metabolism
-title: "The effects of chromium yeast on lipid metabolism, antioxidant status, and"
-authors: ["Unknown authors"]
+title: "The effects of chromium yeast on lipid metabolism, antioxidant status, and meat development in broilers under high stocking density"
+authors: [Han M, Zhang H, Chen Z, Dong Y, Miao Z, Huang C, Xia C, Ning J, Guo Y, Yan L, Li J]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Poultry Science"
 doi: 10.1016/j.psj.2026.106975
 source_type: peer-reviewed
 evidence_tier: B

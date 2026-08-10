@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12940-025-01228-w
 cite_key: kopylev2025-relationship-of-prenatal-methylmercury
-title: "Relationship of prenatal methylmercury"
-authors: ["language/verbal function: a meta-analysis Leonid Kopylev", "Deborah Segal"]
+title: "Relationship of prenatal methylmercury exposure and language/verbal function: a meta-analysis"
+authors: [Kopylev L, Segal D]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Health"
 doi: 10.1186/s12940-025-01228-w
 source_type: peer-reviewed
 evidence_tier: B

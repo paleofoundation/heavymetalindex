@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-47540-ijsei-v3i1-427
 cite_key: authors2022-arsenic-contamination-in-soil-vegetable-groundwater-and-riverine
-title: "Arsenic Contamination in Soil, Vegetable, Groundwater, and Riverine Fish"
-authors: ["Unknown authors"]
+title: "Arsenic Contamination in Soil, Vegetable, Groundwater, and Riverine Fish Species in Joypurhat, Bangladesh"
+authors: [Hossain MS, Rahman SMA, Rahman MM, Muztaba MA, Ray U]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Indonesian Journal of Social and Environmental Issues (IJSEI)"
 doi: 10.47540/ijsei.v3i1.427
 source_type: peer-reviewed
 evidence_tier: B

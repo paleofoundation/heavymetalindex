@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-5c00338
 cite_key: authors2025-selenium-differentially-influences-methylmercury-retention-across
-title: "Selenium Differentially Influences Methylmercury Retention across"
-authors: ["Unknown authors"]
+title: "Selenium Differentially Influences Methylmercury Retention across Mayfly Life Stages"
+authors: [Gerson JR, Dorman R, Eagles-Smith C, Walters DM]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.5c00338
 source_type: peer-reviewed
 evidence_tier: B

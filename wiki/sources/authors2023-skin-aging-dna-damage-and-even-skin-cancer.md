@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu15163594
 cite_key: authors2023-skin-aging-dna-damage-and-even-skin-cancer
-title: "skin aging, DNA damage, and even skin cancer. Therefore, it is worth supporting skin protection"
-authors: ["Unknown authors"]
+title: "Vegetable as a Source of Bioactive Compounds with Photoprotective Properties: Implication in the Aging Process"
+authors: [Moskwa J, Bronikowska M, Socha K, Markiewicz-Żukowska R]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu15163594
 source_type: peer-reviewed
 evidence_tier: B

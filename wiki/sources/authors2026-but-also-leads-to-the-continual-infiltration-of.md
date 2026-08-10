@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules29020411
 cite_key: authors2026-but-also-leads-to-the-continual-infiltration-of
-title: "but also leads to the continual infiltration of illegal products into the market, posing serious health"
-authors: ["Unknown authors"]
+title: "Decoding Cosmetic Complexities: A Comprehensive Guide to Matrix Composition and Pretreatment Technology"
+authors: [Du XN, He Y, Chen YW, Liu Q, Sun L, Sun HM, Wu XF, Lu Y]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules29020411
 source_type: peer-reviewed
 evidence_tier: B

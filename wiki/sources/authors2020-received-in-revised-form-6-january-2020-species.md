@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2020-136576
 cite_key: authors2020-received-in-revised-form-6-january-2020-species
-title: "Received in revised form 6 January 2020 species exposure to metal contaminants, nor their ability to uptake and translocate metal(loid)s from contaminated"
-authors: ["Unknown authors"]
+title: "Accumulation and partitioning of metals and metalloids in the halophytic saltmarsh grass, saltwater couch, Sporobolus virginicus"
+authors: [Tran TKA, Islam R, Le Van D, Rahman MM, Yu RMK, MacFarlane GR]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2020.136576
 source_type: peer-reviewed
 evidence_tier: B

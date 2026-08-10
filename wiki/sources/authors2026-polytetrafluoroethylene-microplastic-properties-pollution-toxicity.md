@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10311-025-01885-w
 cite_key: authors2026-polytetrafluoroethylene-microplastic-properties-pollution-toxicity
-title: "Polytetrafluoroethylene microplastic properties, pollution, toxicity"
-authors: ["Unknown authors"]
+title: "Polytetrafluoroethylene microplastic properties, pollution, toxicity and analysis: a review"
+authors: [Alaraby M, Abass D, Velázquez A, Hernández A, Marcos R]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Chemistry Letters"
 doi: 10.1007/s10311-025-01885-w
 source_type: peer-reviewed
 evidence_tier: B

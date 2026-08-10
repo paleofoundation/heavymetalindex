@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3897-pharmacia-71-e118872
 cite_key: authors2024-yustina-yustina1-nany-bodrorini1-alfi-sophian1-endang-lukitaningsih2
-title: "Yustina Yustina1, Nany Bodrorini1, Alfi Sophian1, Endang Lukitaningsih2"
-authors: ["Unknown authors"]
+title: "Review: Policy strategy of nano cosmetic testing in Indonesia"
+authors: [Yustina Y, Bodrorini N, Sophian A, Lukitaningsih E]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Pharmacia"
 doi: 10.3897/pharmacia.71.e118872
 source_type: peer-reviewed
 evidence_tier: B

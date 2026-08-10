@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1080-10937404-2024-2444650
 cite_key: kopylev2024-j-toxicol-environ-health-b-crit-rev-author
-title: "J Toxicol Environ Health B Crit Rev. Author manuscript; available in PMC 2026 May 19."
-authors: ["dose-response for neurodevelopmental effects? Leonid Kopylev", "Michael Dzierlenga", "Yu-Sheng Lin", "Rebecca Nachman", "Elizabeth Radke", "Hongyu Ru"]
+title: "Which prenatal biomarker is most appropriate for methylmercury dose-response for neurodevelopmental effects?"
+authors: [Kopylev L, Dzierlenga M, Lin YS, Nachman R, Radke E, Ru H, Segal D]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Journal of Toxicology and Environmental Health, Part B"
 doi: 10.1080/10937404.2024.2444650
 source_type: peer-reviewed
 evidence_tier: B

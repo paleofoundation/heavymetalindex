@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1590-1678-4324-2020180513
 cite_key: authors2020-salinity-stress-is-an-inevitable-crisis-causing-wide
-title: "Salinity stress is an inevitable crisis causing wide spread damage to rice leading to food insecurity. The"
-authors: ["Unknown authors"]
+title: "Silicon Mediated Alleviation of Salinity Stress Regulated by Silicon Transporter Genes (Lsi1 and Lsi2) in Indica Rice"
+authors: [Swain R, Rout GR]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Brazilian Archives of Biology and Technology"
 doi: 10.1590/1678-4324-2020180513
 source_type: peer-reviewed
 evidence_tier: B

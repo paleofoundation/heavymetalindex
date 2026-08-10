@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-pharmaceutics15031008
 cite_key: authors2023-which-leads-to-skin-cancer-and-other-phototoxic
-title: "which leads to skin cancer and other phototoxic effects. The application of sunscreen shields to the"
-authors: ["Unknown authors"]
+title: "Drug Delivery Strategies for Avobenzone: A Case Study of Photostabilization"
+authors: [Gholap AD, Sayyad SF, Hatvate NT, Dhumal VV, Pardeshi SR, Chavda VP, Vora LK]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Pharmaceutics"
 doi: 10.3390/pharmaceutics15031008
 source_type: peer-reviewed
 evidence_tier: B

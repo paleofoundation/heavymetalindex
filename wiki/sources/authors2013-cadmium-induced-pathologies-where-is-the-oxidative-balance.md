@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijms14036116
 cite_key: authors2013-cadmium-induced-pathologies-where-is-the-oxidative-balance
-title: "Cadmium-Induced Pathologies: Where Is the Oxidative Balance"
-authors: ["Unknown authors"]
+title: "Cadmium-Induced Pathologies: Where Is the Oxidative Balance Lost (or Not)?"
+authors: [Nair A, DeGheselle O, Smeets K, Van Kerkhove E, Cuypers A]
 year: 2013
-publication: "Peer-reviewed article"
+publication: "International Journal of Molecular Sciences"
 doi: 10.3390/ijms14036116
 source_type: peer-reviewed
 evidence_tier: B

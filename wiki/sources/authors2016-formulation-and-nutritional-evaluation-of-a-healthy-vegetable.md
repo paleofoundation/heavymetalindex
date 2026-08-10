@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-fsn3-476
 cite_key: authors2016-formulation-and-nutritional-evaluation-of-a-healthy-vegetable
-title: "Formulation and nutritional evaluation of a healthy vegetable"
-authors: ["Unknown authors"]
+title: "Formulation and nutritional evaluation of a healthy vegetable soup powder supplemented with soy flour, mushroom, and moringa leaf"
+authors: [Farzana T, Mohajan S, Saha T, Hossain MN, Haque MZ]
 year: 2016
-publication: "Peer-reviewed article"
+publication: "Food Science & Nutrition"
 doi: 10.1002/fsn3.476
 source_type: peer-reviewed
 evidence_tier: B

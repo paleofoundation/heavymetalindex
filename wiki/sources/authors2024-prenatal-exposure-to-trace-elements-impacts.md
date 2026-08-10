@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41467-025-60508-8
 cite_key: authors2024-prenatal-exposure-to-trace-elements-impacts
-title: "Prenatal exposure to trace elements impacts"
-authors: ["Unknown authors"]
+title: "Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life"
+authors: [Xiong S, Xie B, Yin N, Zhu H, Gao H, Xu X, Xiao K, Cai X, Sun G, Sun X, Cui Y, Van de Wiele T, Zhu Y]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Nature Communications"
 doi: 10.1038/s41467-025-60508-8
 source_type: peer-reviewed
 evidence_tier: B

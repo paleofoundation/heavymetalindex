@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpubh-2025-1635236
 cite_key: wang2025-heavy-metal-levels-in
-title: "heavy metal levels in"
-authors: ["EDITED BY Tong Wang", "Duke University", "United States REVIEWED BY Zheng Yuan", "occupationally exposed China Academy of Chinese Medical Sciences"]
+title: "Epidemiological profile and determinants of whole blood heavy metal levels in occupationally exposed populations: a cross-sectional study in Hunan Province, China"
+authors: [Wen L, Zhou L, Zhu X, Mei Y]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Frontiers in Public Health"
 doi: 10.3389/fpubh.2025.1635236
 source_type: peer-reviewed
 evidence_tier: B

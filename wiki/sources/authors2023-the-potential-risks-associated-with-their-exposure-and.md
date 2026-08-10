@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules28114442
 cite_key: authors2023-the-potential-risks-associated-with-their-exposure-and
-title: "the potential risks associated with their exposure and the increasing number of applications where"
-authors: ["Unknown authors"]
+title: "Analysis of Silver Nanoparticles in Ground Beef by Single Particle Inductively Coupled Plasma Mass Spectrometry (SP-ICP-MS)"
+authors: [Chalifoux A, Hadioui M, Amiri N, Wilkinson KJ]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules28114442
 source_type: peer-reviewed
 evidence_tier: B

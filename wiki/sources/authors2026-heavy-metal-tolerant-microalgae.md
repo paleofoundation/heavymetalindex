@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-32393-0
 cite_key: authors2026-heavy-metal-tolerant-microalgae
-title: "heavy metal tolerant microalgae"
-authors: ["Unknown authors"]
+title: "Isolation and characterization of heavy metal tolerant microalgae from old mining areas of Saxony"
+authors: [Mungunkhuyag K, Steingroewer J, Walther T, Krujatz F]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-32393-0
 source_type: peer-reviewed
 evidence_tier: B

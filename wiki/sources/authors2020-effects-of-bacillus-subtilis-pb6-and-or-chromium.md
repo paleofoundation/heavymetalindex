@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1093-tas-txaa164
 cite_key: authors2020-effects-of-bacillus-subtilis-pb6-and-or-chromium
-title: "Effects of Bacillus subtilis PB6 and/or chromium propionate supplementation on"
-authors: ["Unknown authors"]
+title: "Effects of Bacillus subtilis PB6 and/or chromium propionate supplementation on serum chemistry, complete blood count, and fecal Salmonella spp. count in high-risk cattle during the feedlot receiving and finishing periods1,2"
+authors: [Smock TM, Samuelson KL, Wells JE, Hales KE, Hergenreder JE, Rounds PW, Richeson JT]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Translational Animal Science"
 doi: 10.1093/tas/txaa164
 source_type: peer-reviewed
 evidence_tier: B

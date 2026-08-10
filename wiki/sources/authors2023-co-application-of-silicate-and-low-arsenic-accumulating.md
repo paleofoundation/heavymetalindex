@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics11010064
 cite_key: authors2023-co-application-of-silicate-and-low-arsenic-accumulating
-title: "Co-Application of Silicate and Low-Arsenic-Accumulating Rice"
-authors: ["Unknown authors"]
+title: "Co-Application of Silicate and Low-Arsenic-Accumulating Rice Cultivars Efficiently Reduces Human Exposure to Arsenic—A Case Study from West Bengal, India"
+authors: [Roy A, Datta SP, Barman M, Golui D, Bhattacharyya S, Meena MC, Chinnusamy V, Pushkar S, Pandey PS, Rahman MM]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics11010064
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d4ra00976b
 cite_key: authors2024-the-removal-of-the-most-hazardous-heavy-metal
-title: "the removal of the most hazardous heavy metal"
-authors: ["Unknown authors"]
+title: "Comprehensive assessment of carbon-, biomaterial- and inorganic-based adsorbents for the removal of the most hazardous heavy metal ions from wastewater"
+authors: [Sheraz N, Shah A, Haleem A, Iftikhar FJ]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "RSC Advances"
 doi: 10.1039/d4ra00976b
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nano14221789
 cite_key: authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water
-title: "Nanobiochar to Enhance Mercury Ion Removal from Water Systems"
-authors: ["Unknown authors"]
+title: "Facile Doping and Functionalization of Molybdic Acid into Nanobiochar to Enhance Mercury Ion Removal from Water Systems"
+authors: [Mahmoud SEME, Abdel-Fattah TM, Mahmoud ME, Díaz E]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Nanomaterials"
 doi: 10.3390/nano14221789
 source_type: peer-reviewed
 evidence_tier: B

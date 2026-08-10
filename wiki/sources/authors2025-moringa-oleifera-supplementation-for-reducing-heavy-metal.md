@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-2196-73201
 cite_key: authors2025-moringa-oleifera-supplementation-for-reducing-heavy-metal
-title: "Moringa oleifera Supplementation for Reducing Heavy Metal"
-authors: ["Unknown authors"]
+title: "Moringa oleifera Supplementation for Reducing Heavy Metal Toxicity and Oxidative Stress in Pregnant Women: Protocol for a Nonrandomized Trial Study"
+authors: [Amqam H, Khuzaimah A, Najamuddin U, Ahmad M, Muniroh M, Marchianti ACN, Mohd Elias S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "JMIR Research Protocols"
 doi: 10.2196/73201
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15061006
 cite_key: authors2026-from-cookbooks-to-networks-a-framework-for-comparing
-title: "From Cookbooks to Networks: A Framework for Comparing"
-authors: ["Unknown authors"]
+title: "From Cookbooks to Networks: A Framework for Comparing Multiethnic Ingredient Systems in Transylvania"
+authors: [Magyari-Sáska Z, Magyari-Sáska A, Bálint-Bálint L]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15061006
 source_type: peer-reviewed
 evidence_tier: B

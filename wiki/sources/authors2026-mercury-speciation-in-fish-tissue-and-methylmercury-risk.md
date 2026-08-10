@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-20937-rica-55712
 cite_key: authors2026-mercury-speciation-in-fish-tissue-and-methylmercury-risk
-title: "MERCURY SPECIATION IN FISH TISSUE AND METHYLMERCURY RISK ASSESSMENT FOR"
-authors: ["Unknown authors"]
+title: "Mercury speciation in fish tissue and methylmercury risk assessment for human health: Validation through HPLC-ICP-MS. A study from the seafood central market of Mexico City"
+authors: [Hernández-Mendiola E, Martín Romero F, Gutiérrez Ruiz ME, Goytia-Leal V, Gómez Ramírez V]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Revista Internacional de Contaminación Ambiental"
 doi: 10.20937/rica.55712
 source_type: peer-reviewed
 evidence_tier: B

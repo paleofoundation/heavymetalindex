@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-025-02005-y
 cite_key: authors2005-open-recreational-fishing-downstream
-title: "OPEN Recreational fishing downstream"
-authors: ["Unknown authors"]
+title: "Recreational fishing downstream from the Black Butte Mine Superfund Site in Oregon, USA"
+authors: [Rothenberg SE, Flores AC, Anderson MK]
 year: 2005
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-025-02005-y
 source_type: peer-reviewed
 evidence_tier: B

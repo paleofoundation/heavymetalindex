@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pone-0265536
 cite_key: authors2022-heavy-metals-and-neurodevelopment-of
-title: "Heavy metals and neurodevelopment of"
-authors: ["Unknown authors"]
+title: "Heavy metals and neurodevelopment of children in low and middle-income countries: A systematic review"
+authors: [Heng YY, Asad I, Coleman B, Menard L, Benki-Nugent S, Hussein Were F, Karr CJ, McHenry MS]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0265536
 source_type: peer-reviewed
 evidence_tier: B

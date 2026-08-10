@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-jpr3-70135
 cite_key: silvester2025-return-to-baseline-arsenic-concentrations-after-1-year
-title: "Return to baseline arsenic concentrations after 1 year on"
-authors: ["gluten‐free diet in children with celiac disease: A prospective cohort study Nan Du | Clara Baek | Rachel Rosen | Tracy Punshon | Jocelyn A. Silvester", "Division of Gastroenterology", "Hepatology"]
+title: "Return to baseline arsenic concentrations after 1 year on gluten‐free diet in children with celiac disease: A prospective cohort study"
+authors: [Du N, Baek C, Rosen R, Punshon T, Silvester JA]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "JPGN Reports"
 doi: 10.1002/jpr3.70135
 source_type: peer-reviewed
 evidence_tier: B

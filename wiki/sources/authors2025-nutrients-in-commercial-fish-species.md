@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2025-179786
 cite_key: authors2025-nutrients-in-commercial-fish-species
-title: "nutrients in commercial fish species"
-authors: ["Unknown authors"]
+title: "Geographic and ecological drivers of contaminants and nutrients in commercial fish species"
+authors: [Taylor VF, Buckman KL, Chen CY, Kraft J]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2025.179786
 source_type: peer-reviewed
 evidence_tier: B

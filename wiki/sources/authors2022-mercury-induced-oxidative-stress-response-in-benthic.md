@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-biology11070960
 cite_key: authors2022-mercury-induced-oxidative-stress-response-in-benthic
-title: "Mercury-Induced Oxidative Stress Response in Benthic"
-authors: ["Unknown authors"]
+title: "Mercury-Induced Oxidative Stress Response in Benthic Foraminifera: An In Vivo Experiment on Amphistegina lessonii"
+authors: [Ciacci C, Betti M, Abramovich S, Cavaliere M, Frontalini F]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Biology"
 doi: 10.3390/biology11070960
 source_type: peer-reviewed
 evidence_tier: B

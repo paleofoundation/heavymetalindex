@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-64898-2026-01-16-699961
 cite_key: authors2026-3-title-engineered-probiotics-that-sequester-arsensite-in
-title: "3 Title: Engineered probiotics that sequester arsensite in a mouse gastrointestinal system"
-authors: ["Unknown authors"]
+title: "Engineered probiotics that sequester arsenite in a mouse gastrointestinal system"
+authors: [Nguyen N, Wang M, Msibi SS, Kennedy V, Esmailie F, Su LJ, Li L, Chan CTY]
 year: 2026
 publication: "Peer-reviewed article"
 doi: 10.64898/2026.01.16.699961

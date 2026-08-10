@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-antiox9101004
 cite_key: authors2020-methylmercury-mediated-oxidative-stress-and
-title: "Methylmercury-Mediated Oxidative Stress and"
-authors: ["Unknown authors"]
+title: "Methylmercury-Mediated Oxidative Stress and Activation of the Cellular Protective System"
+authors: [Fujimura M, Usuki F]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Antioxidants"
 doi: 10.3390/antiox9101004
 source_type: peer-reviewed
 evidence_tier: B

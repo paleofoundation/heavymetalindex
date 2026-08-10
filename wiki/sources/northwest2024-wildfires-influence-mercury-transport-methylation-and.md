@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-4c00789
 cite_key: northwest2024-wildfires-influence-mercury-transport-methylation-and
-title: "Wildfires Influence Mercury Transport, Methylation, and"
-authors: ["Bioaccumulation in Headwater Streams of the Pacific Northwest"]
+title: "Wildfires Influence Mercury Transport, Methylation, and Bioaccumulation in Headwater Streams of the Pacific Northwest"
+authors: [Baldwin AK, Willacker JJ, Johnson BL, Janssen SE, Eagles-Smith CA]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.4c00789
 source_type: peer-reviewed
 evidence_tier: B

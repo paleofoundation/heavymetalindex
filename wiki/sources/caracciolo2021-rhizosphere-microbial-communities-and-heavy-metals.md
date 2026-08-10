@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-3390-microorganisms9071462
 cite_key: caracciolo2021-rhizosphere-microbial-communities-and-heavy-metals
 title: "Rhizosphere Microbial Communities and Heavy Metals"
-authors: ["Anna Barra Caracciolo", "Valentina Terenzi Water Research Institute", "National Research Council", "Rome", "Italy", "terenzi.@studenti.uniroma.it Correspondence: barracaracciolo@irsa.cnr.it"]
+authors: [Barra Caracciolo A, Terenzi V]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Microorganisms"
 doi: 10.3390/microorganisms9071462
 source_type: peer-reviewed
 evidence_tier: B

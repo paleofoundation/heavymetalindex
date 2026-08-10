@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-13075-mp-5893-01622
 cite_key: authors2025-impact-of-long-term-exposure-to-arsenic
-title: "IMPACT OF LONG-TERM EXPOSURE TO ARSENIC"
-authors: ["Unknown authors"]
+title: "Impact of long-term exposure to arsenic on cardiovascular health – brief narrative review"
+authors: [Charkiewicz AE]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Medycyna Pracy"
 doi: 10.13075/mp.5893.01622
 source_type: peer-reviewed
 evidence_tier: B

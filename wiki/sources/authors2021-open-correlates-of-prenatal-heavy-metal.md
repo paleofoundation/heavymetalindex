@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41598-026-46981-1
 cite_key: authors2021-open-correlates-of-prenatal-heavy-metal
-title: "OPEN Correlates of prenatal heavy metal"
-authors: ["Unknown authors"]
+title: "Correlates of prenatal heavy metal contamination in Lebanese infants using cord blood analysis"
+authors: [Whaibeh E, Hanna JA, Kuta J, Aouad N, Yaghi N, Nader AA, Khalil C, Tayeh GA, Mrad M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/s41598-026-46981-1
 source_type: peer-reviewed
 evidence_tier: B

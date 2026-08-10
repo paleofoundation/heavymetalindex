@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-srep21528
 cite_key: authors2015-methylmercury-toxicity
-title: "methylmercury toxicity"
-authors: ["Unknown authors"]
+title: "Transport of pyruvate into mitochondria is involved in methylmercury toxicity"
+authors: [Lee JY, Ishida Y, Takahashi T, Naganuma A, Hwang GW]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Scientific Reports"
 doi: 10.1038/srep21528
 source_type: peer-reviewed
 evidence_tier: B

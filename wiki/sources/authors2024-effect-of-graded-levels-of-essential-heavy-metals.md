@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-51470-plantarchives-2024-v24-no-2-341
 cite_key: authors2024-effect-of-graded-levels-of-essential-heavy-metals
-title: "EFFECT OF GRADED LEVELS OF ESSENTIAL HEAVY METALS ON THE"
+title: "EFFECT OF GRADED LEVELS OF ESSENTIAL HEAVY METALS ON THE DRY WEIGHT CHANGES OF TUBEROSE CV. ‘PRAJWAL’"
 authors: ["Unknown authors"]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Plant Archives"
 doi: 10.51470/plantarchives.2024.v24.no.2.341
 source_type: peer-reviewed
 evidence_tier: B

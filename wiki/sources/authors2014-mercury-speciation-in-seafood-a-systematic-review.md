@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15060971
 cite_key: authors2014-mercury-speciation-in-seafood-a-systematic-review
-title: "Mercury Speciation in Seafood: A Systematic Review"
-authors: ["Unknown authors"]
+title: "Conventional Chromatographic Techniques and Biosensors for Mercury Speciation in Seafood: A Systematic Review"
+authors: [Abouelenein D, Henares M, Fuentes A, Fernández-Segovia I, M. Barat J, Loeschner K, Duedahl-Olesen L, Gómez-Gómez M, Griol A, J. Sloth J]
 year: 2014
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15060971
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-hsr2-293
 cite_key: source2021-characteristics-and-treatment-of-elemental-mercury
-title: "Characteristics and treatment of elemental mercury"
-authors: ["intoxication: A case series Kelly Johnson-Arbor", "| Eshetu Tefera", "| John Farrell Jr Department of Plastic", "Reconstructive Surgery", "MedStar Georgetown University"]
+title: "Characteristics and treatment of elemental mercury intoxication: A case series"
+authors: [Johnson‐Arbor K, Tefera E, Farrell J]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Health Science Reports"
 doi: 10.1002/hsr2.293
 source_type: peer-reviewed
 evidence_tier: B

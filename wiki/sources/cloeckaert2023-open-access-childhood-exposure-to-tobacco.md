@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2023-1258988
 cite_key: cloeckaert2023-open-access-childhood-exposure-to-tobacco
-title: "OPEN ACCESS childhood exposure to tobacco"
-authors: ["EDITED BY Axel Cloeckaert", "Institut National de Recherche pour l’agriculture", "France microbiota REVIEWED BY Tomás Cerdó"]
+title: "Influence of perinatal and childhood exposure to tobacco and mercury in children’s gut microbiota"
+authors: [Pérez-Castro S, D’Auria G, Llambrich M, Fernández-Barrés S, Lopez-Espinosa MJ, Llop S, Regueiro B, Bustamante M, Francino MP, Vrijheid M, Maitre L]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2023.1258988
 source_type: peer-reviewed
 evidence_tier: B

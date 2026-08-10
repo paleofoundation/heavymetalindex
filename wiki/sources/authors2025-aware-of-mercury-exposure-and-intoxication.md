@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1055-s-0045-1811622
 cite_key: authors2025-aware-of-mercury-exposure-and-intoxication
-title: "aware of mercury exposure and intoxication"
-authors: ["Unknown authors"]
+title: "A Brazilian Minamata disease? Neurologists must be aware of mercury exposure and intoxication"
+authors: [Maximiano-Alves G, Dantas ELDS, Crespo-Lopez ME, do Nascimento JLM]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Arquivos de Neuro-Psiquiatria"
 doi: 10.1055/s-0045-1811622
 source_type: peer-reviewed
 evidence_tier: B

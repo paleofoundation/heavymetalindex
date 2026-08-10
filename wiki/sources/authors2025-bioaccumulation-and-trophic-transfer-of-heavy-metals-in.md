@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-jox15020059
 cite_key: authors2025-bioaccumulation-and-trophic-transfer-of-heavy-metals-in
-title: "Bioaccumulation and Trophic Transfer of Heavy Metals in"
-authors: ["Unknown authors"]
+title: "Bioaccumulation and Trophic Transfer of Heavy Metals in Marine Fish: Ecological and Ecosystem-Level Impacts"
+authors: [Oros A]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Journal of Xenobiotics"
 doi: 10.3390/jox15020059
 source_type: peer-reviewed
 evidence_tier: B

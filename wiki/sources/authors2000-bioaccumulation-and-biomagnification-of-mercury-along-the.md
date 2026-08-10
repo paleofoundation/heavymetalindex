@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods14213752
 cite_key: authors2000-bioaccumulation-and-biomagnification-of-mercury-along-the
-title: "Bioaccumulation and Biomagnification of Mercury Along the"
-authors: ["Unknown authors"]
+title: "Bioaccumulation and Biomagnification of Mercury Along the Seafood Chain in Europe: A Systematic Review"
+authors: [Fioravanti R, Muzzioli L, Maurel E, Palma G, Calabrese G, Angioni A, La Rocca C, Mantovani A, Pezzana A, Donini LM]
 year: 2000
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods14213752
 source_type: peer-reviewed
 evidence_tier: B

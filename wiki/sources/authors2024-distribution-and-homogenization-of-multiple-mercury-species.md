@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-3c07169
 cite_key: authors2024-distribution-and-homogenization-of-multiple-mercury-species
-title: "Distribution and Homogenization of Multiple Mercury Species"
-authors: ["Unknown authors"]
+title: "Distribution and Homogenization of Multiple Mercury Species Inputs to Freshwater Wetland Mesocosms"
+authors: [Wadle A, Neal-Walthall N, Ndu U, Hsu-Kim H]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.3c07169
 source_type: peer-reviewed
 evidence_tier: B

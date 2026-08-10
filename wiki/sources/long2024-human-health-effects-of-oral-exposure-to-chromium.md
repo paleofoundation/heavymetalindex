@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph21040406
 cite_key: long2024-human-health-effects-of-oral-exposure-to-chromium
-title: "Human Health Effects of Oral Exposure to Chromium:"
-authors: ["Manhai Long", "Paul B. Tchounwou steel", "which comprises approximately % of all chromite ore use. In addition", "Cr(VI)"]
+title: "Human Health Effects of Oral Exposure to Chromium: A Systematic Review of the Epidemiological Evidence"
+authors: [Sazakli E]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph21040406
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics14030253
 cite_key: authors2026-to-heavy-metal-exposure-of-children-around-smelting
-title: "to Heavy Metal Exposure of Children Around Smelting Area"
-authors: ["Unknown authors"]
+title: "Study on the Difference in the Contribution of Soil Particle Sizes to Heavy Metal Exposure of Children Around Smelting Area"
+authors: [Li R, Yu J, Duan X, Wang B, Liu D, Zhang L, Yang K, Cheng H]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics14030253
 source_type: peer-reviewed
 evidence_tier: B

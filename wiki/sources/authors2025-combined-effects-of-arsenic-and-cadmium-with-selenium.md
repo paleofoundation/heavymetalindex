@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-vms3-71025
 cite_key: authors2025-combined-effects-of-arsenic-and-cadmium-with-selenium
-title: "Combined Effects of Arsenic and Cadmium With Selenium"
-authors: ["Unknown authors"]
+title: "Combined Effects of Arsenic and Cadmium With Selenium on Oxidative Stress Indicators in Goldfish: Implications for Veterinary Toxicology"
+authors: [Hosseinkhani S, Raeeszadeh M, Salimi B]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Veterinary Medicine and Science"
 doi: 10.1002/vms3.71025
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph16234817
 cite_key: authors2019-chelator-in-reversing-methylmercury-toxicity
-title: "Chelator in Reversing Methylmercury Toxicity"
-authors: ["Unknown authors"]
+title: "In Vitro Assessment of the Efficacy of a Macrocyclic Chelator in Reversing Methylmercury Toxicity"
+authors: [Nobre P, Cabral MDF, Costa J, Castro-Caldas M, Carvalho C, Branco V]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph16234817
 source_type: peer-reviewed
 evidence_tier: B

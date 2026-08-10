@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fmicb-2023-1175304
 cite_key: li2023-ready-to-eat-seafood
-title: "ready-to-eat seafood:"
-authors: ["EDITED BY Ming-Chi Li", "National Cheng Kung University", "Taiwan REVIEWED BY Sanath H. Kumar", "Central Institute of Fisheries Education (ICAR)"]
+title: "Whole genome sequence analysis of Aeromonas spp. isolated from ready-to-eat seafood: antimicrobial resistance and virulence factors"
+authors: [Lee HJ, Storesund JE, Lunestad BT, Hoel S, Lerfall J, Jakobsen AN]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Frontiers in Microbiology"
 doi: 10.3389/fmicb.2023.1175304
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1002-gch2-202400161
 cite_key: authors2024-new-insight-into-mercury-removal-from-fish-meat
-title: "New Insight into Mercury Removal from Fish Meat Using a"
-authors: ["Unknown authors"]
+title: "New Insight into Mercury Removal from Fish Meat Using a Single‐Component Solution Containing cysteine"
+authors: [Strachowski P, Mandava G, Lundqvist J, Bordes R, Abdollahi M]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Global Challenges"
 doi: 10.1002/gch2.202400161
 source_type: peer-reviewed
 evidence_tier: B

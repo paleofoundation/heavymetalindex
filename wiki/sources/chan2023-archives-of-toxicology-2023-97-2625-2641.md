@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00204-023-03580-7
 cite_key: chan2023-archives-of-toxicology-2023-97-2625-2641
-title: "Archives of Toxicology (2023) 97:2625–2641"
-authors: ["endoderm cell differentiation in human embryonic stem cells Bai Li · Xiaolei Jin · Hing Man Chan"]
+title: "Effects of low doses of methylmercury (MeHg) exposure on definitive endoderm cell differentiation in human embryonic stem cells"
+authors: [Li B, Jin X, Chan HM]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Archives of Toxicology"
 doi: 10.1007/s00204-023-03580-7
 source_type: peer-reviewed
 evidence_tier: B

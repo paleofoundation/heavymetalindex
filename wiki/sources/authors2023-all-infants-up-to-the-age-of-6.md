@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods12010016
 cite_key: authors2023-all-infants-up-to-the-age-of-6
-title: "all infants up to the age of 6 months and 600 IU/24 h for infants aged 6–12 months [16]."
-authors: ["Unknown authors"]
+title: "Dietary Supplements among Children Ages 0–3 Years in Poland—Are They Necessary?"
+authors: [Woźniak D, Przysławski J, Banaszak M, Drzymała-Czyż S]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods12010016
 source_type: peer-reviewed
 evidence_tier: B

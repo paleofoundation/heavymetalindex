@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-sjbs-2019-02-009
 cite_key: authors2019-bioaccumulation-of-heavy-metals-in-channa-punctatus-bloch
-title: "Bioaccumulation of heavy metals in Channa punctatus (Bloch) in river"
-authors: ["Unknown authors"]
+title: "Bioaccumulation of heavy metals in Channa punctatus (Bloch) in river Ramganga (U.P.), India"
+authors: [Sarah R, Tabassum B, Idrees N, Hashem A, Abd_Allah EF]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Saudi Journal of Biological Sciences"
 doi: 10.1016/j.sjbs.2019.02.009
 source_type: peer-reviewed
 evidence_tier: B

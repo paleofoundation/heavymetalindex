@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-975033-v1
 cite_key: authors2021-essential-and-toxic-elements-in-drinking-water
-title: "Essential and Toxic Elements in Drinking Water:"
-authors: ["Unknown authors"]
+title: "Essential and Toxic Elements in Drinking Water: Water Treatment and Wastewater Treatment"
+authors: [Cybulski J, Witczak A, Pokorska-Niewiada K]
 year: 2021
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-975033/v1

@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-1021-envhealth-3c00090
 cite_key: davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other
 title: "Effects of Dietary Intake of Arsenosugars and Other Organic Arsenic Species on Studies of Arsenic Methylation Efficiency in Humans"
-authors: ["davydiuk"]
+authors: [Davydiuk T, Tao J, Lu X, Le XC]
 year: 2023
 publication: "Environment &amp; Health"
 doi: "10.1021/envhealth.3c00090"

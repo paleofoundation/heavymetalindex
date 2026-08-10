@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-15406-ijh-2022-06-00299
 cite_key: authors2022-of-toxic-metals-concentration-seasonal-variation-and
-title: "of toxic metals concentration, seasonal variation and"
-authors: ["Unknown authors"]
+title: "Many oil wells, one evil: comprehensive assessment of toxic metals concentration, seasonal variation and human health risk in drinking water quality in areas surrounding crude oil exploration facilities in rivers state, Nigeria"
+authors: [Raimi OM, Sawyerr OH, Ezekwe CI, Salako G]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Hydrology"
 doi: 10.15406/ijh.2022.06.00299
 source_type: peer-reviewed
 evidence_tier: B

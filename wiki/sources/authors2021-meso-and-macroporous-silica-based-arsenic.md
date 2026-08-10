@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1039-d1na00487e
 cite_key: authors2021-meso-and-macroporous-silica-based-arsenic
-title: "Meso- and macroporous silica-based arsenic"
-authors: ["Unknown authors"]
+title: "Meso- and macroporous silica-based arsenic adsorbents: effect of pore size, nature of the active phase, and silicon release"
+authors: [Sanna Angotzi M, Mameli V, Cara C, Borchert KBL, Steinbach C, Boldt R, Schwarz D, Cannas C]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Nanoscale Advances"
 doi: 10.1039/d1na00487e
 source_type: peer-reviewed
 evidence_tier: B

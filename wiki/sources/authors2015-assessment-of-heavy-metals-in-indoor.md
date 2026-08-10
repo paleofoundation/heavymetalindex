@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4236-ojap-2015-44017
 cite_key: authors2015-assessment-of-heavy-metals-in-indoor
-title: "Assessment of Heavy Metals in Indoor"
-authors: ["Unknown authors"]
+title: "Assessment of Heavy Metals in Indoor Settled Harmattan Dust from the University of Agriculture Makurdi, Nigeria"
+authors: [Eneji IS, Adams IU, Julius KA]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Open Journal of Air Pollution"
 doi: 10.4236/ojap.2015.44017
 source_type: peer-reviewed
 evidence_tier: B

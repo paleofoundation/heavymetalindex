@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fpls-2024-1391348
 cite_key: authors2024-against-arsenic-stress-in
-title: "against arsenic stress in"
-authors: ["Unknown authors"]
+title: "Staphylococcus arlettae mediated defense mechanisms and metabolite modulation against arsenic stress in Helianthus annuus"
+authors: [Qadir M, Hussain A, Shah M, Hamayun M, Iqbal A, Irshad M, Ahmad A, Alrefaei AF, Ali S]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2024.1391348
 source_type: peer-reviewed
 evidence_tier: B

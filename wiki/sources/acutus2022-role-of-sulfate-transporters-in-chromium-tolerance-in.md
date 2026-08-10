@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-plants11020223
 cite_key: acutus2022-role-of-sulfate-transporters-in-chromium-tolerance-in
-title: "Role of Sulfate Transporters in Chromium Tolerance in"
-authors: ["Tolerance in Scenedesmus acutus M. Scenedesmus acutus", "sulfur uptake (Sphaeropleales). Plants", ". https://doi.org/./plants Academic Editor: Simona Carfagna"]
+title: "Role of Sulfate Transporters in Chromium Tolerance in Scenedesmus acutus M. (Sphaeropleales)"
+authors: [Ferrari M, Cozza R, Marieschi M, Torelli A]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Plants"
 doi: 10.3390/plants11020223
 source_type: peer-reviewed
 evidence_tier: B

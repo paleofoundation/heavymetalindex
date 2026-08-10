@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pone-0319104
 cite_key: authors2025-exposure-to-arsenic-and-cognitive
-title: "Exposure to arsenic and cognitive"
-authors: ["Unknown authors"]
+title: "Exposure to arsenic and cognitive impairment in children: A systematic review"
+authors: [Tian Y, Hou Q, Zhang M, Gao E, Wu Y]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0319104
 source_type: peer-reviewed
 evidence_tier: B

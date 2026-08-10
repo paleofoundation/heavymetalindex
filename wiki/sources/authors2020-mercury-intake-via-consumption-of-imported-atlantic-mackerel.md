@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-31015-jaefs-2020-2-6
 cite_key: authors2020-mercury-intake-via-consumption-of-imported-atlantic-mackerel
-title: "Mercury intake via consumption of imported Atlantic mackerel"
-authors: ["Unknown authors"]
+title: "Mercury intake via consumption of imported Atlantic mackerel (Scomber scombrus) in Istanbul"
+authors: [ULUSOY Ş, MOL S]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "International Journal of Agriculture, Environment and Food Sciences"
 doi: 10.31015/jaefs.2020.2.6
 source_type: peer-reviewed
 evidence_tier: B

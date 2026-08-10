@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12100715
 cite_key: authors2024-influencing-factors-of-mercury-in-water
-title: "Influencing Factors of Mercury in Water"
-authors: ["Unknown authors"]
+title: "Overview of Methylation and Demethylation Mechanisms and Influencing Factors of Mercury in Water"
+authors: [Zhao W, Gan R, Xian B, Wu T, Wu G, Huang S, Wang R, Liu Z, Zhang Q, Bai S, Fu M, Zhang Y]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12100715
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics10080427
 cite_key: authors2012-methylmercury-risk-assessment-based-on-european-human
-title: "Methylmercury Risk Assessment Based on European Human"
-authors: ["Unknown authors"]
+title: "Methylmercury Risk Assessment Based on European Human Biomonitoring Data"
+authors: [Domínguez-Morueco N, Pedraza-Díaz S, González-Caballero MDC, Esteban-López M, de Alba-González M, Katsonouri A, Santonen T, Cañas-Portilla A, Castaño A]
 year: 2012
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics10080427
 source_type: peer-reviewed
 evidence_tier: B

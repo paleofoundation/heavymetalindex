@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph23020233
 cite_key: authors2025-a-heavy-metal-and-trace-element-biomonitoring-study
-title: "A Heavy Metal and Trace Element Biomonitoring Study in a"
-authors: ["Unknown authors"]
+title: "A Heavy Metal and Trace Element Biomonitoring Study in a Young Cohort (Aged 18–24) in Istanbul, Turkey"
+authors: [Topal N, Pak Demir M, Kulaç A, Yurtsever B, Dinç D, Aksungar F]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph23020233
 source_type: peer-reviewed
 evidence_tier: B

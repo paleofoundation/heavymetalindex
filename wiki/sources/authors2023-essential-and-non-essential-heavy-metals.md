@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-19045-bspab-2023-120083
 cite_key: authors2023-essential-and-non-essential-heavy-metals
-title: "Essential and non-essential heavy metals"
-authors: ["Unknown authors"]
+title: "Essential and non-essential heavy metals sources and impacts on human health and plants"
+authors: [Bibi M]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Pure and Applied Biology"
 doi: 10.19045/bspab.2023.120083
 source_type: peer-reviewed
 evidence_tier: B

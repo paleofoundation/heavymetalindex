@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1021-acs-est-5c02787
 cite_key: authors2025-the-effects-of-forest-harvesting-on-total-and
-title: "The Effects of Forest Harvesting on Total and Methylmercury"
-authors: ["Unknown authors"]
+title: "The Effects of Forest Harvesting on Total and Methylmercury Concentrations in Surface Waters Depend on Harvest Practices and Physical Site Characteristics"
+authors: [Eklöf K, de Wit H, Eckley CS, Eagles-Smith CA, Eggert SL, Mackereth RW, Skyllberg U, Ukonmaanaho L, Verta M, Allan C, Emilson EJS, Kidd KA, Mitchell CPJ, Munthe J, Sallantaus T, Segersten J, Bravo AG, Kolka RK, McCarter CPR, Porvari P, Ring E, Sebestyen SD, Sikström U, Zetterberg TS]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environmental Science & Technology"
 doi: 10.1021/acs.est.5c02787
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules26175255
 cite_key: authors2021-chemical-composition-and-antigenotoxic-properties
-title: "Chemical Composition and Antigenotoxic Properties"
-authors: ["Unknown authors"]
+title: "Natural Ingredients Common in the Trás-os-Montes Region (Portugal) for Use in the Cosmetic Industry: A Review about Chemical Composition and Antigenotoxic Properties"
+authors: [Gonçalves S, Gaivão I]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules26175255
 source_type: peer-reviewed
 evidence_tier: B

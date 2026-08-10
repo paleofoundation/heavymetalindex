@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-021-02798-9
 cite_key: authors2021-the-toxicological-risk-assessment-of-dermal-exposure-of
-title: "The Toxicological Risk Assessment of Dermal Exposure of Patients"
-authors: ["Unknown authors"]
+title: "The Toxicological Risk Assessment of Dermal Exposure of Patients Exposed to Nickel and Chromium due to Application of Ointments with Marjoram Herb Extract (Majoranae Herbae Extractum) Available in Polish Pharmacies"
+authors: [Jurowski K, Fołta M, Tatar B, Berkoz M, Krośniak M]
 year: 2021
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-021-02798-9
 source_type: peer-reviewed
 evidence_tier: B

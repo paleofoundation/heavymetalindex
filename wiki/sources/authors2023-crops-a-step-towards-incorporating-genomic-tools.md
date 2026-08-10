@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-2512736-v1
 cite_key: authors2023-crops-a-step-towards-incorporating-genomic-tools
-title: "Crops: A step towards incorporating genomic tools"
-authors: ["Unknown authors"]
+title: "Synergistic Soil-less Medium for Enhanced Yield of Crops: A step towards incorporating genomic tools for attaining Net Zero hunger"
+authors: [Thakur N, Nigam M, Shah AA]
 year: 2023
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-2512736/v1

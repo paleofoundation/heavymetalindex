@@ -3,7 +3,7 @@ type: source
 raw_handle: HMIRAW_10-46234-ccdcw2022-039
 cite_key: lyu2022-characterizing-the-exposome-of-food-contamination-and-china
 title: "Characterizing the Exposome of Food Contamination and China Total Diet Study: Project for Improving Food Safety Risk Assessment in China"
-authors: ["lyu"]
+authors: [Lyu B, "NHC Key Laboratory of Food Safety Risk Assessment, Chinese Academy of Medical Sciences Research Unit (No. 2019RU014), China National Center for Food Safety Risk Assessment, Beijing, China", Li J, Wu Y]
 year: 2022
 publication: "China CDC Weekly"
 doi: "10.46234/ccdcw2022.039"

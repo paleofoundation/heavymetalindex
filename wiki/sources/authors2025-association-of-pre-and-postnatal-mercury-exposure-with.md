@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-envint-2025-109880
 cite_key: authors2025-association-of-pre-and-postnatal-mercury-exposure-with
-title: "Association of pre-and postnatal mercury exposure with cardiometabolic"
-authors: ["Unknown authors"]
+title: "Association of pre-and postnatal mercury exposure with cardiometabolic risk factors in children: the role of the telomere length and telomerase reverse transcriptase polymorphisms"
+authors: [Lozano M, Soler-Blasco R, Ballester F, Gutzkow KB, Brantsæter AL, Karachaliou M, Stephanou EG, Symvoulakis EK, Grazuleviciene R, Andrusaityte S, Dedele A, Yang TC, McEachan RRC, Wright J, Heude B, Yuan WL, Vrijheid M, Maitre L, Stratakis N, Thomsen C, Nawrot T, Broberg K, Llop S]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Environment International"
 doi: 10.1016/j.envint.2025.109880
 source_type: peer-reviewed
 evidence_tier: B

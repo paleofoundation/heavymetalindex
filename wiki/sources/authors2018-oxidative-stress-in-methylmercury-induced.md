@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics6030047
 cite_key: authors2018-oxidative-stress-in-methylmercury-induced
-title: "Oxidative Stress in Methylmercury-Induced"
-authors: ["Unknown authors"]
+title: "Oxidative Stress in Methylmercury-Induced Cell Toxicity"
+authors: [Antunes dos Santos A, Ferrer B, Marques Gonçalves F, Tsatsakis AM, Renieri EA, Skalny AV, Farina M, Rocha JBT, Aschner M]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics6030047
 source_type: peer-reviewed
 evidence_tier: B

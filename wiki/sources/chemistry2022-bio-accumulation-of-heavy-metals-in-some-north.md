@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-53550-pr-2022-v41i03-032
 cite_key: chemistry2022-bio-accumulation-of-heavy-metals-in-some-north
-title: "BIO-ACCUMULATION OF HEAVY METALS IN SOME NORTH"
-authors: ["INDIAN LEAFY VEGETABLES AND QUANTIFICATION OF CONSUMER HEALTH RISK DUE TO THEIR DIETARY INTAKE SHAIL KULSHRESTHA Department of Chemistry", "D. B. S. (P. G.) College", "Dehradun", "India ("]
+title: "BIO-ACCUMULATION OF HEAVY METALS IN SOME NORTH INDIAN LEAFY VEGETABLES AND QUANTIFICATION OF CONSUMER HEALTH RISK DUE TO THEIR DIETARY INTAKE"
+authors: [KULSHRESTHA S]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Pollution Research"
 doi: 10.53550/pr.2022.v41i03.032
 source_type: peer-reviewed
 evidence_tier: B

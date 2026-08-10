@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s10661-024-12687-y
 cite_key: sativa2024-heavy-metals-and-potential-health-risk-assessment
-title: "Heavy metals and potential health risk assessment"
-authors: ["of Lactuca sativa", "Daucus carrota from soil treated with organic manures", "chemical fertilizer O. E. Aina · L. L. Mugivhisa · J. O. Olowoyo · C. L. Obi"]
+title: "Heavy metals and potential health risk assessment of Lactuca sativa and Daucus carrota from soil treated with organic manures and chemical fertilizer"
+authors: [Aina OE, Mugivhisa LL, Olowoyo JO, Obi CL]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Environmental Monitoring and Assessment"
 doi: 10.1007/s10661-024-12687-y
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-20428-yjms-v18i1-2322
 cite_key: authors2024-contamination-of-milk-with-some-heavy-metals-in
-title: "contamination of milk with some heavy metals in some areas of"
-authors: ["Unknown authors"]
+title: "Detection of milk's sheep quality indicators by studying the contamination of milk with some heavy metals in some areas of Hadramout Coast – Yemen"
+authors: [Ba-abbad AMAB, Maknoon AAA, Bin-Zaidan YKY]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Yemeni Journal for Medical Sciences"
 doi: 10.20428/yjms.v18i1.2322
 source_type: peer-reviewed
 evidence_tier: B

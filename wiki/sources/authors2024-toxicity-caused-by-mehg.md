@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12100712
 cite_key: authors2024-toxicity-caused-by-mehg
-title: "Toxicity Caused by MeHg"
-authors: ["Unknown authors"]
+title: "Mitochondrial Dysfunction Plays a Relevant Role in Heart Toxicity Caused by MeHg"
+authors: [Silva MG, Martinez CG, Cavalcanti de Albuquerque JP, Gouvêa AL, Freire MM, Lauthartte LC, Mignaco J, Bastos WR, Mattos ECD, Galina A, Kurtenbach E]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12100712
 source_type: peer-reviewed
 evidence_tier: B

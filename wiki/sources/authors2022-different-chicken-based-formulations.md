@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ani12121538
 cite_key: authors2022-different-chicken-based-formulations
-title: "Different Chicken-Based Formulations"
-authors: ["Unknown authors"]
+title: "The Hard Choice about Dry Pet Food: Comparison of Protein and Lipid Nutritional Qualities and Digestibility of Three Different Chicken-Based Formulations"
+authors: [Montegiove N, Calzoni E, Cesaretti A, Pellegrino RM, Emiliani C, Pellegrino A, Leonardi L]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Animals"
 doi: 10.3390/ani12121538
 source_type: peer-reviewed
 evidence_tier: B

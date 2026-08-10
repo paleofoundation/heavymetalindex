@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu14081626
 cite_key: authors2022-dietary-intake-of-toxic-heavy-metals-with-major
-title: "Dietary Intake of Toxic Heavy Metals with Major Groups of"
-authors: ["Unknown authors"]
+title: "Dietary Intake of Toxic Heavy Metals with Major Groups of Food Products—Results of Analytical Determinations"
+authors: [Koch W, Czop M, Iłowiecka K, Nawrocka A, Wiącek D]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu14081626
 source_type: peer-reviewed
 evidence_tier: B

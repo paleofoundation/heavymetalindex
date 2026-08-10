@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-nu14245308
 cite_key: authors2022-selenium-status-its-interactions-with-dietary-mercury
-title: "Selenium Status: Its Interactions with Dietary Mercury"
-authors: ["Unknown authors"]
+title: "Selenium Status: Its Interactions with Dietary Mercury Exposure and Implications in Human Health"
+authors: [Tinggi U, Perkins AV]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Nutrients"
 doi: 10.3390/nu14245308
 source_type: peer-reviewed
 evidence_tier: B

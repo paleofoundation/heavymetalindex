@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-ijerph192315531
 cite_key: regardless2022-toxic-metals-lead-and-cadmium-pesticides-pharmaceutical-residues
-title: "toxic metals (lead and cadmium), pesticides, pharmaceutical residues, microplastics, and nitrates."
-authors: ["Regardless", "the low levels of toxic substances present in root vegetables do not pose health risks to the average consumer. Citation: Knez", "Kadac-Czapska", "Dmochowska-Śl˛ezak"]
+title: "Root Vegetables—Composition, Health Effects, and Contaminants"
+authors: [Knez E, Kadac-Czapska K, Dmochowska-Ślęzak K, Grembecka M]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "International Journal of Environmental Research and Public Health"
 doi: 10.3390/ijerph192315531
 source_type: peer-reviewed
 evidence_tier: B

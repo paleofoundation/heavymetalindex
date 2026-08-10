@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-agwat-2024-108788
 cite_key: authors2024-for-the-deposit-and-dissemination-of-scientific-re-2
-title: "for the deposit and dissemination of scientific re- tinée au dépôt et à la diffusion de documents scien-"
-authors: ["Unknown authors"]
+title: "Biochar effects on soil nitrogen retention, leaching and yield of perennial citron daylily under three irrigation regimes"
+authors: [Sun X, Yang X, Hu Z, Liu F, Xie Z, Li S, Wang G, Li M, Sun Z, Bol R]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Agricultural Water Management"
 doi: 10.1016/j.agwat.2024.108788
 source_type: peer-reviewed
 evidence_tier: B

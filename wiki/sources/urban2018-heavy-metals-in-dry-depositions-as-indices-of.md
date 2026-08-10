@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-52293-wes-3-3-3041
 cite_key: urban2018-heavy-metals-in-dry-depositions-as-indices-of
-title: "Heavy metals in dry depositions as indices of atmospheric pollution in Enugu"
+title: "Heavy metals in dry depositions as indices of atmospheric pollution in Enugu Urban, Enugu State, Nigeria"
 authors: ["Urban", "Enugu State", "Nigeria Calistus C Okudo", "Nwachukwu R Ekere", "Chukwuma O B Okoye Department of Pure", "Industrial Chemistry", "University of Nigeria", "Nsukka"]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Water and Environmental Sustainability"
 doi: 10.52293/wes.3.3.3041
 source_type: peer-reviewed
 evidence_tier: B

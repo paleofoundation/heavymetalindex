@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1371-journal-pone-0219336
 cite_key: authors2019-bioaccumulation-of-heavy-metals-in-some
-title: "Bioaccumulation of heavy metals in some"
-authors: ["Unknown authors"]
+title: "Bioaccumulation of heavy metals in some commercially important fishes from a tropical river estuary suggests higher potential health risk in children than adults"
+authors: [Ahmed ASS, Sultana S, Habib A, Ullah H, Musa N, Hossain MB, Rahman MM, Sarker MSI]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "PLOS ONE"
 doi: 10.1371/journal.pone.0219336
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-molecules24030607
 cite_key: authors2019-total-arsenic-and-arsenic-species-determination-in
-title: "Total Arsenic and Arsenic Species Determination in"
-authors: ["Unknown authors"]
+title: "Total Arsenic and Arsenic Species Determination in Freshwater Fish by ICP-DRC-MS and HPLC/ICP-DRC-MS Techniques"
+authors: [Komorowicz I, Sajnóg A, Barałkiewicz D]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Molecules"
 doi: 10.3390/molecules24030607
 source_type: peer-reviewed
 evidence_tier: B

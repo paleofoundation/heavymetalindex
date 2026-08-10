@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-9004834-v1
 cite_key: authors2026-toxicity-assessment-in-c-elegans
-title: "Toxicity Assessment in C. elegans"
-authors: ["Unknown authors"]
+title: "A Robust, High-Content NAM for Repeatable and Predictive Developmental and Reproductive Toxicity Assessment in C. elegans"
+authors: [Mondal S, Laing A, Shen A, Hegarty E, Medewar A, Gomez S, Carrion G, Brown J, Ben-Yakar A]
 year: 2026
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-9004834/v1

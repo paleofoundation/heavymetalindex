@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12944-022-01760-5
 cite_key: authors2023-suppresses-genotoxicity-hepatotoxicity
-title: "suppresses genotoxicity, hepatotoxicity"
-authors: ["Unknown authors"]
+title: "Supplementation with sesame oil suppresses genotoxicity, hepatotoxicity and enterotoxicity induced by sodium arsenite in rats"
+authors: [Akinrinde AS, Oyewole SO, Ola-Davies OE]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Lipids in Health and Disease"
 doi: 10.1186/s12944-022-01760-5
 source_type: peer-reviewed
 evidence_tier: B

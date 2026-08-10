@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s00431-026-06919-1
 cite_key: authors2026-association-of-exposure-to-synthetic-phenols-and-metal
-title: "Association of exposure to synthetic phenols and metal(loid)s"
-authors: ["Unknown authors"]
+title: "Association of exposure to synthetic phenols and metal(loid)s with early puberty in Spanish girls: a multicentric case–control study"
+authors: [Olivas-Martinez A, Escribano A, Riaño-Galán I, Torrebias M, Olmedo P, Gil F, Suarez B, Rodríguez-Carrillo A, Corripio R, Castiello F, Bosch MZ, Herrero X, Ventura-Wichner PS, Freire C]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "European Journal of Pediatrics"
 doi: 10.1007/s00431-026-06919-1
 source_type: peer-reviewed
 evidence_tier: B

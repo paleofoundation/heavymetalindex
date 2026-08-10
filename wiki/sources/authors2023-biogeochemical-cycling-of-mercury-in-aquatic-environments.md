@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-microorganisms11082034
 cite_key: authors2023-biogeochemical-cycling-of-mercury-in-aquatic-environments
-title: "Biogeochemical Cycling of Mercury in Aquatic Environments"
-authors: ["Unknown authors"]
+title: "Interaction of Naturally Occurring Phytoplankton with the Biogeochemical Cycling of Mercury in Aquatic Environments and Its Effects on Global Hg Pollution and Public Health"
+authors: [Gojkovic Z, Simansky S, Sanabria A, Márová I, Garbayo I, Vílchez C]
 year: 2023
-publication: "Peer-reviewed article"
+publication: "Microorganisms"
 doi: 10.3390/microorganisms11082034
 source_type: peer-reviewed
 evidence_tier: B

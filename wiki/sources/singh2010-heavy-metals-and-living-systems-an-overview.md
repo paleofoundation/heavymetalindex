@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-4103-0253-7613-81505
 cite_key: singh2010-heavy-metals-and-living-systems-an-overview
 title: "Heavy metals and living systems: An overview"
-authors: ["Reena Singh", "Neetu Gautam", "Anurag Mishra", "Rajiv Gupta Department of Pharmacognosy"]
+authors: [Singh R, Gautam N, Mishra A, Gupta R]
 year: 2010
-publication: "Peer-reviewed article"
+publication: "Indian Journal of Pharmacology"
 doi: 10.4103/0253-7613.81505
 source_type: peer-reviewed
 evidence_tier: B

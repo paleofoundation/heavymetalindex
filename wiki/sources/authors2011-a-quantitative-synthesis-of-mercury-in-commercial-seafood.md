@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1289-ehp-1205122
 cite_key: authors2011-a-quantitative-synthesis-of-mercury-in-commercial-seafood
-title: "A Quantitative Synthesis of Mercury in Commercial Seafood and Implications"
-authors: ["Unknown authors"]
+title: "A Quantitative Synthesis of Mercury in Commercial Seafood and Implications for Exposure in the United States"
+authors: [Karimi R, Fitzgerald TP, Fisher NS]
 year: 2011
-publication: "Peer-reviewed article"
+publication: "Environmental Health Perspectives"
 doi: 10.1289/ehp.1205122
 source_type: peer-reviewed
 evidence_tier: B

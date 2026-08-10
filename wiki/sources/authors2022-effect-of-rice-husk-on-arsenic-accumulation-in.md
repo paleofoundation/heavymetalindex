@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1104-pp-010733
 cite_key: authors2022-effect-of-rice-husk-on-arsenic-accumulation-in
-title: "EFFECT OF RICE HUSK ON ARSENIC ACCUMULATION IN"
-authors: ["Unknown authors"]
+title: "Uptake Kinetics of Arsenic Species in Rice Plants"
+authors: [Abedin MJ, Feldmann J, Meharg AA]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Plant Physiology"
 doi: 10.1104/pp.010733
 source_type: peer-reviewed
 evidence_tier: B

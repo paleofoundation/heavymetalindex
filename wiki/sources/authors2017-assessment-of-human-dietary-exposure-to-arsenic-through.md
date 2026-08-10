@@ -3,9 +3,9 @@ type: source
 raw_handle: RPMEHG_10-1016-j-scitotenv-2017-02-119
 cite_key: authors2017-assessment-of-human-dietary-exposure-to-arsenic-through
 title: "Assessment of human dietary exposure to arsenic through rice"
-authors: ["Unknown authors"]
+authors: [Davis MA, Signes-Pastor AJ, Argos M, Slaughter F, Pendergrast C, Punshon T, Gossai A, Ahsan H, Karagas MR]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Science of The Total Environment"
 doi: 10.1016/j.scitotenv.2017.02.119
 source_type: peer-reviewed
 evidence_tier: B

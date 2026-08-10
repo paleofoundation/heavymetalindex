@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxins8020045
 cite_key: authors2015-and-trade-repercussions-regular-economical-and-straightforward-feed
-title: "and trade repercussions. Regular, economical and straightforward feed testing is critical to reach a"
-authors: ["Unknown authors"]
+title: "Mycotoxin Contamination in the EU Feed Supply Chain: A Focus on Cereal Byproducts"
+authors: [Pinotti L, Ottoboni M, Giromini C, Dell’Orto V, Cheli F]
 year: 2015
-publication: "Peer-reviewed article"
+publication: "Toxins"
 doi: 10.3390/toxins8020045
 source_type: peer-reviewed
 evidence_tier: B

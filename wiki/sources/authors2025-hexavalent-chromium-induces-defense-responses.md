@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-metabo15100637
 cite_key: authors2025-hexavalent-chromium-induces-defense-responses
-title: "Hexavalent Chromium Induces Defense Responses,"
-authors: ["Unknown authors"]
+title: "Hexavalent Chromium Induces Defense Responses, Hepatocellular Apoptosis, and Lipid Metabolism Alterations in New Zealand Rabbit Livers"
+authors: [Yuan J, Zhang L, Li X, Li X, Zhao P, Ren X, Song Y]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Metabolites"
 doi: 10.3390/metabo15100637
 source_type: peer-reviewed
 evidence_tier: B

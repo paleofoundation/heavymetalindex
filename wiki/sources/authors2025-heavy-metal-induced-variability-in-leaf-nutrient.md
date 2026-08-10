@@ -2,8 +2,8 @@
 type: source
 raw_handle: RPMEHG_10-21203-rs-3-rs-7993063-v1
 cite_key: authors2025-heavy-metal-induced-variability-in-leaf-nutrient
-title: "Heavy Metal-Induced Variability in Leaf Nutrient"
-authors: ["Unknown authors"]
+title: "Heavy Metal-Induced Variability in Leaf Nutrient Uptake and Photosynthetic Traits of Avocado (Persea americana) in Mediterranean Soils: A Multivariate and Probabilistic Modeling of Soil-to-Plant Transfer Risks"
+authors: [SANAD H, Moussadek R, Zouahri A, Lhaj MO, Dakak H, Manhou K, Mouhir L]
 year: 2025
 publication: "Peer-reviewed article"
 doi: 10.21203/rs.3.rs-7993063/v1

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-foods15111871
 cite_key: authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol
-title: "Giuseppe De Santis, Olubukunmi Amos Ilori , Diana Marisol Abrego-Guandique , Pierluigi Plastina ,"
-authors: ["Unknown authors"]
+title: "INFOGEST 2.0 Protocol Applied to Animal-Derived Milk and Dairy Products: A Systematic Review of Six Years of Scientific Effort"
+authors: [De Santis G, Ilori OA, Abrego-Guandique DM, Plastina P, Tucci P, Cione E]
 year: 2020
-publication: "Peer-reviewed article"
+publication: "Foods"
 doi: 10.3390/foods15111871
 source_type: peer-reviewed
 evidence_tier: B

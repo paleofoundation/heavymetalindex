@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1017-s0007114521001938
 cite_key: authors2022-the-who-recommends-monitoring-iodine-status-in-all
-title: "The WHO recommends monitoring iodine status in all populations with median urinary iodine concentration (UIC) below 100 μg/l suggesting"
-authors: ["Unknown authors"]
+title: "Iodine nutrition among the adult population of the Faroe Islands: a population-based study"
+authors: [Johannesen HL, Knudsen GS, Andersen S, Weihe P, Veyhe AS]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "British Journal of Nutrition"
 doi: 10.1017/s0007114521001938
 source_type: peer-reviewed
 evidence_tier: B

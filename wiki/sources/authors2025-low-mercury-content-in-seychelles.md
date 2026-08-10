@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-4314-wiojms-v24i2-5
 cite_key: authors2025-low-mercury-content-in-seychelles
-title: "Low mercury content in Seychelles"
-authors: ["Unknown authors"]
+title: "Low mercury content in Seychelles seaweed: implications for aquaculture expansion"
+authors: [De Vos B, Payet S, Rose M, Violette C, Arrisol R, Ally-Nourrice M, Lesperance A, Monthy D]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Western Indian Ocean Journal of Marine Science"
 doi: 10.4314/wiojms.v24i2.5
 source_type: peer-reviewed
 evidence_tier: B

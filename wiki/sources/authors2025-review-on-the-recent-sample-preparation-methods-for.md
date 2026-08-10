@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-33003-fjs-2025-0909-3815
 cite_key: authors2025-review-on-the-recent-sample-preparation-methods-for
-title: "REVIEW ON THE RECENT SAMPLE PREPARATION METHODS FOR THE ANALYSIS OF TOXIC HEAVY"
-authors: ["Unknown authors"]
+title: "REVIEW ON THE RECENT SAMPLE PREPARATION METHODS FOR THE ANALYSIS OF TOXIC HEAVY METALS IN FOODS AND BEVERAGES"
+authors: [Akilu A, Abubakar Lawal]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "FUDMA JOURNAL OF SCIENCES"
 doi: 10.33003/fjs-2025-0909-3815
 source_type: peer-reviewed
 evidence_tier: B

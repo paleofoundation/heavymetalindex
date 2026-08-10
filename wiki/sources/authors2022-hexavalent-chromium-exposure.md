@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3389-fimmu-2022-952639
 cite_key: authors2022-hexavalent-chromium-exposure
-title: "Hexavalent Chromium Exposure"
-authors: ["Unknown authors"]
+title: "Hexavalent Chromium Exposure Induces Intestinal Barrier Damage via Activation of the NF-κB Signaling Pathway and NLRP3 Inflammasome in Ducks"
+authors: [Xing C, Yang F, Lin Y, Shan J, Yi X, Ali F, Zhu Y, Wang C, Zhang C, Zhuang Y, Cao H, Hu G]
 year: 2022
-publication: "Peer-reviewed article"
+publication: "Frontiers in Immunology"
 doi: 10.3389/fimmu.2022.952639
 source_type: peer-reviewed
 evidence_tier: B

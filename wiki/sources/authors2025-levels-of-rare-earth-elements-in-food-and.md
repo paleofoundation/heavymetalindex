@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1007-s12011-024-04297-z
 cite_key: authors2025-levels-of-rare-earth-elements-in-food-and
-title: "Levels of Rare Earth Elements in Food and Human Dietary Exposure:"
-authors: ["Unknown authors"]
+title: "Levels of Rare Earth Elements in Food and Human Dietary Exposure: A Review"
+authors: [González N, Domingo JL]
 year: 2025
-publication: "Peer-reviewed article"
+publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-024-04297-z
 source_type: peer-reviewed
 evidence_tier: B

@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-jox16030110
 cite_key: authors2026-from-mothers-exposed-to-mixed-heavy-metals-in
-title: "from Mothers Exposed to Mixed Heavy Metals in Suriname"
-authors: ["Unknown authors"]
+title: "Maternal Anemia and Pediatric Neurodevelopment in Children from Mothers Exposed to Mixed Heavy Metals in Suriname"
+authors: [Gokoel AR, Shankar A, Mokiem SF, Hindori-Mohangoo AD, Lichtveld MY, Wickliffe JK, Zijlmans WCWR]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Journal of Xenobiotics"
 doi: 10.3390/jox16030110
 source_type: peer-reviewed
 evidence_tier: B

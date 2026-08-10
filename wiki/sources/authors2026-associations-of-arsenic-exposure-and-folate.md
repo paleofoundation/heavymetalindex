@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1186-s12940-025-01254-8
 cite_key: authors2026-associations-of-arsenic-exposure-and-folate
-title: "Associations of arsenic exposure and folate"
-authors: ["Unknown authors"]
+title: "Associations of arsenic exposure and folate in maternal leukocyte DNA methylation: a case-control study of mothers with spina-bifida affected children"
+authors: [Inkster AM, Bozack AK, Lemos B, Lumour-Mensah T, Mukherjee SK, Ekramullah SM, Arman D, Islam J, Wang X, Liang L, Finnell RH, Mazumdar M, Cardenas A]
 year: 2026
-publication: "Peer-reviewed article"
+publication: "Environmental Health"
 doi: 10.1186/s12940-025-01254-8
 source_type: peer-reviewed
 evidence_tier: B

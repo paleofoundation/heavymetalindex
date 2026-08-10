@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-13057-nusbiosci-n090408
 cite_key: authors2017-zinc-calcium-protein-lead-mercury-and-the-sensorics
-title: "Zinc, calcium, protein, lead, mercury, and the sensorics quality of cireng"
-authors: ["Unknown authors"]
+title: "Zinc, calcium, protein, lead, mercury, and the sensorics quality of cireng snacks supplemented with blood cockle (Anadara granosa)"
+authors: [SOLANG M, LAMONDO D, KUMAJI SS]
 year: 2017
-publication: "Peer-reviewed article"
+publication: "Nusantara Bioscience"
 doi: 10.13057/nusbiosci/n090408
 source_type: peer-reviewed
 evidence_tier: B

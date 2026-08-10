@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1038-s41565-018-0217-9
 cite_key: authors2018-nanoparticles-into-tap-water-the-occurrence-and-toxicity
-title: "nanoparticles into tap water. The occurrence and toxicity of incidental nanoparticles, rather than ENPs, should therefore be the"
-authors: ["Unknown authors"]
+title: "Low risk posed by engineered and incidental nanoparticles in drinking water"
+authors: [Westerhoff P, Atkinson A, Fortner J, Wong MS, Zimmerman J, Gardea-Torresdey J, Ranville J, Herckes P]
 year: 2018
-publication: "Peer-reviewed article"
+publication: "Nature Nanotechnology"
 doi: 10.1038/s41565-018-0217-9
 source_type: peer-reviewed
 evidence_tier: B

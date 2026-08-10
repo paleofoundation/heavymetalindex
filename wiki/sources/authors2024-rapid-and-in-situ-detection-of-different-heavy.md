@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-1016-j-heliyon-2024-e26364
 cite_key: authors2024-rapid-and-in-situ-detection-of-different-heavy
-title: "rapid and in-situ detection of different heavy metals in"
-authors: ["Unknown authors"]
+title: "Electrochemical sensor based on gum Arabic nanoparticles for rapid and in-situ detection of different heavy metals in real samples"
+authors: [Elamin MB, Chrouda A, Ali SMA, Alhaidari LM, Jabli M, Alrouqi RM, Renault NJ]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Heliyon"
 doi: 10.1016/j.heliyon.2024.e26364
 source_type: peer-reviewed
 evidence_tier: B

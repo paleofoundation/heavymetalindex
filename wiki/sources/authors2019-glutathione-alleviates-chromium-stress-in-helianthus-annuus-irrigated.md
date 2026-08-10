@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-17957-ijab-15-1212
 cite_key: authors2019-glutathione-alleviates-chromium-stress-in-helianthus-annuus-irrigated
-title: "Glutathione Alleviates Chromium Stress in Helianthus annuus Irrigated"
-authors: ["Unknown authors"]
+title: "Glutathione Alleviates Chromium Stress in Helianthus annuus Irrigated with Tannery Wastewater"
+authors: [Mallhi AI, Chatha SAS, Ali S, Gulzar T, Rizwan M, Rehman MZU, Shahid MR, Ayub MA, Mallhi ZI]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "International Journal of Agriculture and Biology"
 doi: 10.17957/ijab/15.1212
 source_type: peer-reviewed
 evidence_tier: B

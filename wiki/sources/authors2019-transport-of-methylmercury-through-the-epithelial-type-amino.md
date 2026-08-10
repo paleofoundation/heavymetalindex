@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3329-jninb-v5i2-43017
 cite_key: authors2019-transport-of-methylmercury-through-the-epithelial-type-amino
-title: "Transport of Methylmercury through the Epithelial Type Amino Acid"
-authors: ["Unknown authors"]
+title: "Transport of Methylmercury through the Epithelial Type Amino Acid Transporter System B0"
+authors: [Islam R, Anzai N, Ahmed N, Haque MA, Ferdous S, Ahmed S, Chowdhury MJH, Chowdhury MTI, Begum W, Hossain MA, Moslehuddin F, Joy KNI, Kanai Y, Endou H]
 year: 2019
-publication: "Peer-reviewed article"
+publication: "Journal of National Institute of Neurosciences Bangladesh"
 doi: 10.3329/jninb.v5i2.43017
 source_type: peer-reviewed
 evidence_tier: B

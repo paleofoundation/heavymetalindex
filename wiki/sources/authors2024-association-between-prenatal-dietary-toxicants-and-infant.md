@@ -2,10 +2,10 @@
 type: source
 raw_handle: RPMEHG_10-3390-toxics12050338
 cite_key: authors2024-association-between-prenatal-dietary-toxicants-and-infant
-title: "Association between Prenatal Dietary Toxicants and Infant"
-authors: ["Unknown authors"]
+title: "Association between Prenatal Dietary Toxicants and Infant Neurodevelopment: The Role of Fish"
+authors: [Kou X, Becerra-Tomás N, Canals J, Bulló M, Arija V]
 year: 2024
-publication: "Peer-reviewed article"
+publication: "Toxics"
 doi: 10.3390/toxics12050338
 source_type: peer-reviewed
 evidence_tier: B
