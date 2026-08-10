@@ -11,8 +11,8 @@ exposure_pathway: "Oral (mouthing) + dermal (contact with mucous membranes, sali
 regulatory_jurisdiction: "CPSIA, CPSC, FDA (food-contact for bottles/nipples), EU"
 panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
-products_status: scaffold
-splits_locked: false
+products_status: locked
+splits_locked: true
 literature_scope: thin
 sources: 5
 wiki_doi: null
