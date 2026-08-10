@@ -50,6 +50,15 @@ const QUARANTINE = /quarantin/i
 // feed mercury rows (100-200 ug/kg) are STRICTER than the strictest food-fish tHg (300) and would wrongly
 // cap seafood mercury from a feed hygiene limit if they leaked. Systemic guard across every category.
 const FEED = /\bfeed\b/i
+// Pesticide-residue MRLs (Reg 396/2005 and its amending instruments, e.g. Reg 2018/73 for mercury
+// compounds) are a categorically different legal instrument from contaminant maximum levels: they cap
+// the residue of an authorised plant-protection product, not the background contaminant load, and are
+// enforced under a separate framework. They must never bind a contamination standard. Load-bearing for
+// grains: the ONLY EU mercury value scoped to "cereals including rice" in the register is the 2018/73
+// pesticide MRL (10 ug/kg); untreated it would silently become the strictest tHg cereal ML and cap the
+// grain mercury standard from a pesticide instrument. Systemic guard across every category (matches
+// exactly one register row today, all others being contaminant/impurity/statutory limits).
+const PESTICIDE = /pesticide|residue level/i
 // Canned/tinplate in the register's several source languages. Tin migrates from the can, so these
 // limits govern canned product only; an English-only pattern let Morocco's French "en conserve"
 // tin rows (100 mg/kg) leak into non-canned purées. Also foundational for canned-seafood gating.
@@ -139,12 +148,21 @@ function roundDisplay(x) {
 
 // --- per-cell resolution ------------------------------------------------------
 function resolveCell(sub, analyte, variant) {
-  const inc = sub.scope_include
-  const exc = sub.scope_exclude || []
+  // Optional per-analyte scope override: some rows carry an analyte-specific government limit under a
+  // scope token that, if added to the subcategory-wide scope, would wrongly perturb OTHER analytes.
+  // Because rows are filtered by analyte species first (below), extra include/exclude tokens scoped to
+  // a single analyte are physically confined to that analyte's candidate set. The load-bearing case:
+  // FSANZ sets rice cadmium under the bare scope "rice"; adding "\brice\b" to the Cd cell reaches the
+  // strictest rice Cd (100) without dragging the raw-rice iAs rows (which share the "rice"/"Rice" scope
+  // text but are a different species) into the product iAs cells — preserving product-form iAs.
+  const analyteScope = (sub.analyte_scope && sub.analyte_scope[analyte]) || {}
+  const inc = [...sub.scope_include, ...(analyteScope.include || [])]
+  const exc = [...(sub.scope_exclude || []), ...(analyteScope.exclude || [])]
   const rows = register.filter((r) => {
     if (analyteOf(r.metal_species) !== analyte) return false
     if (DRAFT.test(r.status)) return false
     if (QUARANTINE.test(r.status)) return false
+    if (PESTICIDE.test(r.status)) return false
     if (FEED.test(r.basis || "")) return false
     if (!sub.canned && CANNED.test(r.product_scope)) return false
     if (!scopeMatch(r.product_scope, inc, exc)) return false
