@@ -253,6 +253,43 @@ function resolveCell(sub, analyte, variant) {
   return { type: "gap", value: null, error: "no government ML and no read-across configured" }
 }
 
+// --- mercury speciation reconciliation ----------------------------------------
+// Methylmercury is a COMPONENT of total mercury, so MeHg <= tHg by identity. tHg
+// and MeHg are therefore not two coordinate ceilings ("both must be met"): a
+// total-mercury limit at value V is at least as strict as a methylmercury limit
+// at the same V (it holds a larger quantity to the same number). A separate MeHg
+// ceiling is meaningful ONLY when it is strictly below the binding tHg — only
+// then does it constrain the toxic fraction tighter than the total-mercury
+// envelope already does. When the strictest MeHg source is >= the binding tHg
+// (which is every current seafood subcategory — and note US FDA's "MeHg 1.0 ppm"
+// is measured as total Hg), the MeHg number is vacuous and, published as a looser
+// ceiling, reads as a speciation error. In that case methylmercury is governed by
+// and bounded by the total-mercury ceiling, and no separate number is published.
+// The original MeHg candidate is retained under `candidate` for the derivation
+// audit / reconstructibility.
+function reconcileMercurySpeciation(cells) {
+  const t = cells.tHg
+  const m = cells.MeHg
+  if (!t || !m) return
+  const tv = typeof t.value_exact === "number" ? t.value_exact : typeof t.value === "number" ? t.value : null
+  const mv = typeof m.value_exact === "number" ? m.value_exact : typeof m.value === "number" ? m.value : null
+  if (tv == null || mv == null) return // tHg gap/not_material, or MeHg not a published number — leave as is
+  if (mv >= tv) {
+    cells.MeHg = {
+      type: "subsumed",
+      value: null,
+      subsumed_by: "tHg",
+      binding_tHg: t.value,
+      binding_tHg_source: t.binding_jurisdiction || t.source_jurisdiction || null,
+      label: `Methylmercury is a component of total mercury (MeHg ≤ tHg). No government sets a methylmercury limit for this product below the binding total-mercury ceiling (${t.value} µg/kg), so methylmercury is governed by and bounded by the total-mercury ceiling; no separate methylmercury ceiling is published.`,
+      candidate: { type: m.type, value: m.value, source_jurisdiction: m.source_jurisdiction || m.binding_jurisdiction || null, source_id: m.source_id || m.binding_id || null },
+    }
+  }
+  // mv < tv: a genuine methylmercury limit stricter than the total-mercury
+  // envelope — keep both cells as published (this is where dual mercury earns its
+  // place). No current seafood subcategory hits this branch.
+}
+
 // --- drive --------------------------------------------------------------------
 fs.mkdirSync(OUTDIR, { recursive: true })
 const slugs = only.length ? only : Object.keys(config.subcategories)
@@ -265,6 +302,7 @@ for (const slug of slugs) {
   for (const variant of variants) {
     const cells = {}
     for (const a of PANEL) cells[a] = resolveCell(sub, a, variant)
+    reconcileMercurySpeciation(cells) // enforce MeHg <= tHg (methylmercury is a subset of total mercury)
     record.variants[variant] = cells
   }
   fs.writeFileSync(path.join(OUTDIR, `${slug}.json`), JSON.stringify(record, null, 2))
