@@ -61,11 +61,12 @@ function orgFromCiteKey(citeKey: string, year: string): string {
 }
 // Compact "Surname et al. YEAR" for the card header; org label for agency sources.
 function authorLabel(authors: unknown, year: unknown, citeKey: string): string {
+  const arr: unknown[] = Array.isArray(authors) ? authors : []
   const y = year != null && String(year).trim() ? String(year).trim() : ""
-  const first = Array.isArray(authors) && authors.length ? String(authors[0] ?? "").trim() : ""
+  const first = arr.length ? String(arr[0] ?? "").trim() : ""
   if (first && !isInstitutional(first)) {
     const s = extractSurname(first)
-    if (s) return `${s}${authors.length > 1 ? " et al." : ""}${y ? " " + y : ""}`.trim()
+    if (s) return `${s}${arr.length > 1 ? " et al." : ""}${y ? " " + y : ""}`.trim()
   }
   return orgFromCiteKey(citeKey, y)
 }

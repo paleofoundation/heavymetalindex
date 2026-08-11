@@ -64,7 +64,7 @@ const productTocLabels = new Map([
 let numTocs = 0
 export default ((opts?: Partial<Options>) => {
   const layout = opts?.layout ?? defaultOptions.layout
-  const position = opts?.position ?? defaultOptions.position
+  const position: "left" | "right" = opts?.position ?? defaultOptions.position ?? "right"
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
   const TableOfContents: QuartzComponent = ({
     fileData,
@@ -141,10 +141,10 @@ export default ((opts?: Partial<Options>) => {
     }
 
     const id = `toc-${numTocs++}`
-    const tocTitle =
-      opts?.title ?? (position === "left" ? "On this page" : i18n(cfg.locale).components.tableOfContents.title)
+    // position is narrowed to "right" here — the "left" path returned above.
+    const tocTitle = opts?.title ?? i18n(cfg.locale).components.tableOfContents.title
     return (
-      <div class={classNames(displayClass, position === "left" ? "toc toc-left" : "toc")}>
+      <div class={classNames(displayClass, "toc")}>
         <button
           type="button"
           class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}

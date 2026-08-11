@@ -20,36 +20,11 @@ import * as Component from "./quartz/components";
 // be built inside the function body. A hoisted closure variable would be
 // undefined in the browser and silently break the Explorer. Defined once and
 // shared across both layouts so the hidden set cannot drift between them.
-const primaryNavFilter = (node: { slugSegment: string }) => {
-  const hiddenPrimaryNav = new Set([
-    "app",
-    "about",
-    "batch-reports",
-    "briefings",
-    "certification",
-    "contact",
-    "corpus",
-    "courses",
-    "editorial-standards",
-    "health",
-    "lint",
-    "log",
-    "methodology",
-    "microbiome",
-    "overview",
-    "privacy",
-    "queries",
-    "static",
-    "studies",
-    "supply-chain",
-    "staff",
-    "tags",
-    "terms",
-    "testing",
-    "workbench",
-  ]);
-  return !hiddenPrimaryNav.has(node.slugSegment);
-};
+// NOTE (2026-08-11): the `primaryNavFilter` Explorer filter that hid internal
+// pages (app, batch-reports, lint, log, staff, workbench, …) from the primary
+// nav was orphaned when v3 replaced the Explorer with TopNav/MegaMenu, so it was
+// removed to unblock CI (tsc noUnusedLocals). If those internal slugs are now
+// leaking into the public nav, re-apply an equivalent filter in TopNav/MegaMenu.
 
 // components shared across all pages
 //

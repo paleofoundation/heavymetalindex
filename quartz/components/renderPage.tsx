@@ -265,22 +265,6 @@ export function renderPage(
   // above it would be both meaningless and a second <h1> on the page.
   const isError = (slug as string) === "404"
 
-  const LeftComponent = (
-    <div class="left sidebar">
-      {left.map((BodyComponent) => (
-        <BodyComponent {...componentData} />
-      ))}
-    </div>
-  )
-
-  const RightComponent = (
-    <div class="right sidebar">
-      {right.map((BodyComponent) => (
-        <BodyComponent {...componentData} />
-      ))}
-    </div>
-  )
-
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
   const doc = (
@@ -317,7 +301,7 @@ export function renderPage(
         ) : (
         <div id="quartz-root" class={isHome ? "page proof proof-home" : "page proof"}>
           <Body {...componentData}>
-            <div class="proof-container">
+            {[<div key="proof-container" class="proof-container">
               <div class="proof-layout">
                 <aside class="snav">
                   {left.map((BodyComponent) => (
@@ -345,7 +329,7 @@ export function renderPage(
                   ))}
                 </aside>
               </div>
-            </div>
+            </div>]}
           </Body>
         </div>
         )}
