@@ -1,7 +1,7 @@
 {
   "schema": "hmtc.cert-occurrence-evidence.v1",
-  "generated_from_commit": "b21d29933",
-  "source_commit_date": "2026-08-11T05:57:09+03:00",
+  "generated_from_commit": "16152fc2a",
+  "source_commit_date": "2026-08-11T05:57:50+03:00",
   "method": "HMTc Method v2.0 (government-limit default; selective occurrence pooling for Tier-1 toxics and no-ML cells)",
   "firewall_note": "HMT&C occurrence + derivation asset. Renders on heavymetalcertified.com only. The derivation (pooled percentile -> limit -> rationale) must never appear on a heavymetalindex.com URL. Occurrence findings are literature, cited one-way to the index source pages.",
   "counts": {
