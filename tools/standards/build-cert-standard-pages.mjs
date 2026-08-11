@@ -134,7 +134,7 @@ for (const form of FORMS) {
       const z = i % 2 === 0 ? ' style="background:#fdfaf8"' : ""
       const rowCells = active.map((k) => { const r = cell(k, a.tok, subKey); return `<td style="${TD};font-family:'IBM Plex Mono',monospace;font-size:12px;color:#3f3a3a">${r ? r.v + (r.conv ? "&times;7" : "") + (r.fallback ? "ᵈ" : "") : ""}</td>` }).join("")
       const p = pickSub(subKey, a)
-      return `      <tr${z}><td style="${TD};color:#2b1f1f;font-family:'IBM Plex Mono',monospace;font-size:12px">${a.sym}</td>${rowCells}<td style="${TD};font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#9f2727">${p ? p.v : "&mdash;"}</td></tr>`
+      return `      <tr${z}><td style="${TD};color:#2b1f1f;font-family:'IBM Plex Mono',monospace;font-size:12px">${a.sym}</td>${rowCells}<td style="${TD};font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500;color:#9f2727">${p ? p.v : "&mdash;"}</td></tr>`
     }).join("\n")
     return `  <h3 style="font-family:Lora,serif;font-weight:400;font-size:19px;color:#2b1f1f;margin:22px 0 10px">${form.label.split("—")[1].trim()}, ${soyLabel}</h3>
   <div style="overflow-x:auto"><table style="width:100%;font-size:13px;border:1px solid #e8e1db;min-width:44rem;border-collapse:collapse">
